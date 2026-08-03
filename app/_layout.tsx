@@ -81,10 +81,11 @@ export default function RootLayout() {
     })();
   }, []);
 
-  // Set Android navigation bar color to match tab bar
+  // Android navigation bar: keep light buttons. Background color is no longer
+  // set — with edge-to-edge (SDK 54 default) the nav bar is transparent and
+  // setBackgroundColorAsync is unsupported (it only logs a warning).
   useEffect(() => {
     if (Platform.OS === 'android') {
-      NavigationBar.setBackgroundColorAsync('#1e293b').catch(() => {});
       NavigationBar.setButtonStyleAsync('light').catch(() => {});
     }
   }, []);
@@ -210,6 +211,16 @@ export default function RootLayout() {
   }, [authReady, hasCompletedOnboarding, isAuthenticated, segments]);
 
   const appReady = authReady && updateComplete;
+
+  // Defensive: hide the splash as soon as we're ready (independent of layout
+  // timing) and, as a hard backstop, never let it stay up longer than ~7s.
+  useEffect(() => {
+    if (appReady) SplashScreen.hideAsync().catch(() => {});
+  }, [appReady]);
+  useEffect(() => {
+    const t = setTimeout(() => SplashScreen.hideAsync().catch(() => {}), 7000);
+    return () => clearTimeout(t);
+  }, []);
 
   // Cleanup IAP listeners on unmount
   useEffect(() => {

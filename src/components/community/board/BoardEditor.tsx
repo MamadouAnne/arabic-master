@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Pressable, Modal, PanResponder, ScrollView, Tex
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import Svg from 'react-native-svg';
-import { BoardCanvas, renderBoardElement, boardContentHeight } from './BoardCanvas';
+import { BoardCanvas, renderBoardElement, boardContentHeight, wrapBoardText } from './BoardCanvas';
 import type { BoardContent, BoardElement, BoardBackground, BoardGrid, BoardStroke, BoardShape } from '../../../types/classContent';
 import { BOARD_BG, BOARD_DEFAULT_INK } from '../../../types/classContent';
 
@@ -82,9 +82,10 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   };
 
   const eraseAt = (x: number, y: number) => {
+    const cw = canvasRef.current.w;
     setElements((prev) => {
       for (let i = prev.length - 1; i >= 0; i--) {
-        if (hitTest(prev[i], x, y)) { const next = [...prev]; next.splice(i, 1); return next; }
+        if (hitTest(prev[i], x, y, cw)) { const next = [...prev]; next.splice(i, 1); return next; }
       }
       return prev;
     });
@@ -107,8 +108,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         if (t === 'eraser') { eraseAt(x, y); return; }
         if (t === 'move') {
           const els = elementsRef.current;
+          const cw = canvasRef.current.w;
           for (let i = els.length - 1; i >= 0; i--) {
-            if (hitTest(els[i], x, y)) { dragRef.current = { index: i, orig: els[i], sx: x, sy: y }; break; }
+            if (hitTest(els[i], x, y, cw)) { dragRef.current = { index: i, orig: els[i], sx: x, sy: y }; break; }
           }
           return;
         }
@@ -362,12 +364,23 @@ function translateElement(orig: BoardElement, dx: number, dy: number): BoardElem
   return { ...orig, x1: orig.x1 + dx, y1: orig.y1 + dy, x2: orig.x2 + dx, y2: orig.y2 + dy };
 }
 
-function hitTest(el: BoardElement, x: number, y: number): boolean {
-  const pad = 12;
+function hitTest(el: BoardElement, x: number, y: number, canvasWidth: number): boolean {
+  const pad = 14;
   let bb: [number, number, number, number];
-  if (el.type === 'stroke') bb = el.bbox;
-  else if (el.type === 'text') bb = [el.x, el.y - el.size, el.x + el.text.length * el.size * 0.6, el.y];
-  else bb = [Math.min(el.x1, el.x2), Math.min(el.y1, el.y2), Math.max(el.x1, el.x2), Math.max(el.y1, el.y2)];
+  if (el.type === 'stroke') {
+    bb = el.bbox;
+  } else if (el.type === 'text') {
+    // Real multi-line bounds so text can be grabbed anywhere on any line.
+    const avail = Math.max(80, canvasWidth - el.x - 12);
+    const lines = wrapBoardText(el.text, el.size, avail);
+    const longest = Math.max(...lines.map((l) => l.length), 1);
+    const w = longest * el.size * 0.55;
+    const h = lines.length * el.size * 1.28;
+    const top = el.y - el.size;
+    bb = [el.x, top, el.x + w, top + h];
+  } else {
+    bb = [Math.min(el.x1, el.x2), Math.min(el.y1, el.y2), Math.max(el.x1, el.x2), Math.max(el.y1, el.y2)];
+  }
   return x >= bb[0] - pad && x <= bb[2] + pad && y >= bb[1] - pad && y <= bb[3] + pad;
 }
 
