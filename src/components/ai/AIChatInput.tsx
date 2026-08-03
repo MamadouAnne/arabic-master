@@ -10,9 +10,10 @@ interface Props {
   isStreaming: boolean;
   onStopStreaming: () => void;
   hasCredits?: boolean;
+  onVoicePress?: () => void;
 }
 
-export function AIChatInput({ value, onChangeText, onSend, isStreaming, onStopStreaming, hasCredits = true }: Props) {
+export function AIChatInput({ value, onChangeText, onSend, isStreaming, onStopStreaming, hasCredits = true, onVoicePress }: Props) {
   const { t } = useTranslation();
   const inputRef = useRef<TextInput>(null);
 
@@ -29,6 +30,17 @@ export function AIChatInput({ value, onChangeText, onSend, isStreaming, onStopSt
   return (
     <View style={styles.container}>
       <View style={styles.inputRow}>
+        {/* Voice mode button */}
+        {onVoicePress && !isStreaming && (
+          <Pressable
+            onPress={onVoicePress}
+            style={styles.voiceButton}
+            hitSlop={4}
+          >
+            <Ionicons name="mic-outline" size={22} color="#3b82f6" />
+          </Pressable>
+        )}
+
         {/* Text input */}
         <TextInput
           ref={inputRef}
@@ -74,6 +86,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'flex-end',
     gap: 8,
+  },
+  voiceButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#3b82f615',
+    borderWidth: 1,
+    borderColor: '#3b82f630',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   input: {
     flex: 1,

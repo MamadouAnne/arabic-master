@@ -1,5 +1,6 @@
 import * as Speech from 'expo-speech';
 import { setAudioModeAsync } from 'expo-audio';
+import { speakGoogleArabic, stopGoogleArabic } from './speech/googleArabicTts';
 
 export type VoiceGender = 'female' | 'male';
 
@@ -364,12 +365,11 @@ class AudioService {
   }
 
   async speakArabic(options: SpeakOptions): Promise<void> {
-    const { text, rate = 0.75, gender, onDone, onError } = options;
+    const { text, rate = 1.0, onDone, onError } = options;
 
     if (!text || text.trim() === '') return;
 
     await this.configureAudio();
-    await this.findBestVoice();
 
     if (this.isSpeaking) {
       await this.stop();
@@ -379,35 +379,23 @@ class AudioService {
     try {
       this.isSpeaking = true;
 
-      // Preprocess text to handle single letters with diacritics
-      const processedText = this.preprocessArabicText(text);
+      // Free Google TTS reads fully-diacritized Arabic natively, so we send the
+      // raw text (the old device-TTS pronunciation hacks would only hurt it).
+      // `rate` is the pitch-corrected playback speed directly (1.0 = natural).
+      const playbackRate = Math.max(0.5, Math.min(2.0, rate));
 
-      const speechOptions: Speech.SpeechOptions = {
-        language: 'ar-SA',
-        rate: rate,
-        pitch: 1.0,
-        onStart: () => { __DEV__ && console.log('Speaking:', text, '-> processed:', processedText); },
+      await speakGoogleArabic(text.trim(), {
+        rate: playbackRate,
         onDone: () => {
           this.isSpeaking = false;
           onDone?.();
         },
         onError: (error) => {
-          __DEV__ && console.log('TTS error:', error);
+          __DEV__ && console.log('Arabic TTS error:', error);
           this.isSpeaking = false;
           onError?.(error);
         },
-      };
-
-      // Use the appropriate voice based on gender preference
-      const useGender = gender || this.preferredGender;
-      const selectedVoice = useGender === 'female' ? this.femaleVoice : this.maleVoice;
-
-      if (selectedVoice) {
-        speechOptions.voice = selectedVoice;
-        __DEV__ && console.log('Using', useGender, 'voice:', selectedVoice);
-      }
-
-      Speech.speak(processedText, speechOptions);
+      });
     } catch (error) {
       __DEV__ && console.log('Speak error:', error);
       this.isSpeaking = false;
@@ -425,10 +413,13 @@ class AudioService {
 
   async stop(): Promise<void> {
     try {
-      await Speech.stop();
+      stopGoogleArabic();
     } catch (error) {
       __DEV__ && console.log('Stop error:', error);
     }
+    try {
+      await Speech.stop();
+    } catch {}
     this.isSpeaking = false;
   }
 

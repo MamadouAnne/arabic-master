@@ -3,11 +3,16 @@ import { useAIChatStore } from '../stores/aiChatStore';
 import { useCreditStore } from '../stores/creditStore';
 import { gatherAIContext } from './aiContextService';
 import { buildSystemPrompt, buildStudyPlanDirective } from '../data/ai/systemPrompts';
-import { ChatMessage, AIModelChoice, AI_MAX_TOKENS } from '../types/aiChat';
+import { ChatMessage, AIModelChoice, AI_MAX_TOKENS, ConversationSummary } from '../types/aiChat';
 import { supabase } from '../lib/supabase';
 
 const EDGE_FUNCTION_URL = `${process.env.EXPO_PUBLIC_SUPABASE_URL}/functions/v1/ai-chat`;
-const MAX_HISTORY_MESSAGES = 10;
+/** After summarization, send summary + this many recent messages */
+const MAX_HISTORY_MESSAGES = 12;
+/** Trigger summarization when conversation exceeds this count */
+const SUMMARIZE_THRESHOLD = 14;
+/** Number of early messages to include in the summarization request */
+const SUMMARIZE_BATCH = 8;
 
 const STUDY_PLAN_PATTERNS = /\b(study\s*plan|learning\s*plan|revision\s*plan|weekly\s*plan|plan\s*d[''']?\s*[eé]tude|plan\s*d[''']?\s*apprentissage|plan\s*de\s*r[eé]vision|programme\s*d[''']?\s*[eé]tude)\b/i;
 
@@ -16,10 +21,77 @@ function isStudyPlanRequest(message: string): boolean {
   return STUDY_PLAN_PATTERNS.test(message);
 }
 
+/** Max tokens for voice mode — shorter for faster, conversational responses */
+const VOICE_MAX_TOKENS = 512;
+
+const VOICE_SYSTEM_MODIFIER = `
+[Voice Mode] Keep your response brief and conversational (3-5 sentences max). Speak naturally as if in a live tutoring session. Avoid bullet points, markdown formatting, numbered lists, or special characters. Use short, clear sentences that flow well when spoken aloud. Still include Arabic text with tashkeel when relevant.`;
+
 interface SendMessageOptions {
   userMessage: string;
   model: AIModelChoice;
   abortController?: AbortController;
+  /** When true, uses shorter token limit and conversational system prompt */
+  isVoiceMode?: boolean;
+  /** Called for each text chunk during streaming (used by voice mode to speak in real-time) */
+  onChunk?: (text: string) => void;
+}
+
+/**
+ * Summarize earlier messages via a Haiku call (Feature 2).
+ * Fires asynchronously — no credit charge, stored in the chat store.
+ * Cost: ~$0.001 per call (1 Haiku call per 14 messages).
+ */
+async function summarizeIfNeeded(
+  module: string,
+  messages: ChatMessage[],
+  accessToken: string,
+): Promise<void> {
+  const store = useAIChatStore.getState();
+  const existingSummary = store.getSummary(module as any);
+
+  // Only summarize if we've crossed the threshold and haven't already summarized this batch
+  const totalMessages = messages.length;
+  if (totalMessages < SUMMARIZE_THRESHOLD) return;
+
+  // Check if we already summarized up to this point
+  if (existingSummary && existingSummary.messageCount >= totalMessages - MAX_HISTORY_MESSAGES) return;
+
+  // Take the first batch of messages to summarize
+  const messagesToSummarize = messages
+    .filter((msg) => !msg.content.startsWith('__error:'))
+    .slice(0, SUMMARIZE_BATCH)
+    .map((msg) => ({ role: msg.role, content: msg.content }));
+
+  if (messagesToSummarize.length < 4) return;
+
+  try {
+    const response = await fetch(EDGE_FUNCTION_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${accessToken}`,
+      },
+      body: JSON.stringify({
+        messages: messagesToSummarize,
+        summarize: true,
+      }),
+    });
+
+    if (!response.ok) return;
+
+    const result = await response.json();
+    if (result.summary) {
+      const summary: ConversationSummary = {
+        text: result.summary,
+        messageCount: SUMMARIZE_BATCH,
+        createdAt: Date.now(),
+      };
+      useAIChatStore.getState().setSummary(module as any, summary);
+    }
+  } catch {
+    // Summarization is non-critical — silently fail
+  }
 }
 
 /**
@@ -51,22 +123,35 @@ export async function sendAIChatMessage({
   userMessage,
   model,
   abortController,
+  isVoiceMode,
+  onChunk,
 }: SendMessageOptions): Promise<void> {
   const store = useAIChatStore.getState();
   const { activeModule, conversations } = store;
 
+  // Get existing conversation summary (Feature 2)
+  const existingSummary = store.getSummary(activeModule);
+  const summaryText = existingSummary?.text;
+
   // Gather context
   const context = gatherAIContext(activeModule);
-  let systemPrompt = buildSystemPrompt(context, model);
+  let systemPrompt = buildSystemPrompt(context, model, userMessage, summaryText);
 
   // Append study plan directive if requested
   if (isStudyPlanRequest(userMessage)) {
     systemPrompt += '\n\n' + buildStudyPlanDirective(context);
   }
 
-  // Get conversation history (last N messages), filtering out error sentinels
-  const history = (conversations[activeModule] || [])
-    .filter((msg: ChatMessage) => !msg.content.startsWith('__error:'))
+  // Append voice mode modifier for concise spoken responses
+  if (isVoiceMode) {
+    systemPrompt += '\n\n' + VOICE_SYSTEM_MODIFIER;
+  }
+
+  // Get conversation history — if we have a summary, use a larger recent window
+  // since older context is captured in the summary
+  const allMessages = (conversations[activeModule] || [])
+    .filter((msg: ChatMessage) => !msg.content.startsWith('__error:'));
+  const history = allMessages
     .slice(-MAX_HISTORY_MESSAGES)
     .map((msg: ChatMessage) => ({
       role: msg.role,
@@ -98,7 +183,7 @@ export async function sendAIChatMessage({
         ],
         systemPrompt,
         model,
-        maxTokens: AI_MAX_TOKENS[model],
+        maxTokens: isVoiceMode ? VOICE_MAX_TOKENS : AI_MAX_TOKENS[model],
       }),
       signal: abortController?.signal,
     });
@@ -149,6 +234,7 @@ export async function sendAIChatMessage({
         const text = extractTextDelta(trimmed);
         if (text) {
           useAIChatStore.getState().appendStreamChunk(text);
+          onChunk?.(text);
         }
       }
     }
@@ -158,6 +244,7 @@ export async function sendAIChatMessage({
       const text = extractTextDelta(buffer.trim());
       if (text) {
         useAIChatStore.getState().appendStreamChunk(text);
+        onChunk?.(text);
       }
     }
 
@@ -166,6 +253,14 @@ export async function sendAIChatMessage({
 
     // Sync credit state from response headers
     useCreditStore.getState().updateFromHeaders(response.headers);
+
+    // ── Async summarization (Feature 2) ──────────────────────────
+    // Fire-and-forget: if conversation is long enough, summarize older messages.
+    // Uses 1 Haiku call (~$0.001), no credit charge to the user.
+    const updatedConversation = useAIChatStore.getState().conversations[activeModule] || [];
+    if (updatedConversation.length >= SUMMARIZE_THRESHOLD && accessToken) {
+      summarizeIfNeeded(activeModule, updatedConversation, accessToken).catch(() => {});
+    }
 
   } catch (error: any) {
     if (error.name === 'AbortError' || error.message?.toLowerCase().includes('cancel')) {

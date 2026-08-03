@@ -19,7 +19,7 @@ import { useTranslation } from 'react-i18next';
 import { useCommunityStore } from '../../../src/stores/communityStore';
 import { useSettingsStore } from '../../../src/stores/settingsStore';
 import { SIMULATED_GROUPS } from '../../../src/data/community/socialData';
-import type { GroupMember, GroupMessage, GroupLeaderboardEntry } from '../../../src/data/community/socialData';
+import type { GroupMember, GroupMessage, GroupLeaderboardEntry, SharedContent } from '../../../src/data/community/socialData';
 import {
   fetchGroupMessages,
   sendGroupMessage,
@@ -27,9 +27,6 @@ import {
   fetchGroupMembers,
   updateMemberRole,
   removeMember,
-  pinMessage,
-  unpinMessage,
-  fetchPinnedMessages,
   generateInviteCode,
   addReaction,
   removeReaction,
@@ -43,7 +40,14 @@ import {
   sendVoiceMessage,
   uploadVoiceNote,
   subscribeToReactions,
+  editGroupMessage,
+  deleteGroupMessage,
+  sendClassContent,
+  updateClassContent,
+  markGroupRead,
+  subscribeToGroupPresence,
   GroupMessageRow,
+  PresenceUser,
 } from '../../../src/services/communitySocialService';
 import { StudySession, GroupChallenge, MessageReaction } from '../../../src/types/community';
 import { MessageBubble, MessageBubbleMessage } from '../../../src/components/community/MessageBubble';
@@ -52,14 +56,45 @@ import { ChatInputBar } from '../../../src/components/community/ChatInputBar';
 import { GroupInfoTab } from '../../../src/components/community/GroupInfoTab';
 import { ReactionPicker } from '../../../src/components/community/ReactionPicker';
 import { ReactionBadges } from '../../../src/components/community/ReactionBadges';
-import { PinnedBanner } from '../../../src/components/community/PinnedBanner';
-import { ChallengeBanner } from '../../../src/components/community/ChallengeBanner';
 import { GroupLeaderboard } from '../../../src/components/community/GroupLeaderboard';
 import { VoiceRecorder } from '../../../src/components/community/VoiceRecorder';
+import { MessageActionSheet } from '../../../src/components/community/MessageActionSheet';
+import { ReplyPreviewBar } from '../../../src/components/community/ReplyPreviewBar';
+import { MentionAutocomplete } from '../../../src/components/community/MentionAutocomplete';
+import { TypingIndicator } from '../../../src/components/community/TypingIndicator';
+import { DateSeparator } from '../../../src/components/community/DateSeparator';
+import { NewMessagesPill } from '../../../src/components/community/NewMessagesPill';
+import { ImageLightbox } from '../../../src/components/community/ImageLightbox';
+import { activeMentionQuery, applyMention } from '../../../src/components/community/chatText';
+import { CreateContentSheet } from '../../../src/components/community/class/CreateContentSheet';
+import { LessonEditor } from '../../../src/components/community/class/LessonEditor';
+import { QuizEditor } from '../../../src/components/community/class/QuizEditor';
+import { PollEditor } from '../../../src/components/community/class/PollEditor';
+import { BoardEditor } from '../../../src/components/community/board/BoardEditor';
+import type { ClassContent, ClassContentKind } from '../../../src/types/classContent';
+import * as Clipboard from 'expo-clipboard';
+import * as Haptics from 'expo-haptics';
 
 type Tab = 'chat' | 'members' | 'info';
 
-type MappedMessage = GroupMessage & { isPinned?: boolean; audioUrl?: string; durationMs?: number };
+type MappedMessage = GroupMessage & {
+  isPinned?: boolean;
+  audioUrl?: string;
+  durationMs?: number;
+  waveform?: number[] | null;
+  imageUrl?: string;
+  imageW?: number;
+  imageH?: number;
+  replyToId?: string | null;
+  editedAt?: string | null;
+  isDeleted?: boolean;
+  classContent?: any | null;
+};
+
+// A chat list row is either a message or an injected date separator.
+type ChatRow =
+  | { kind: 'msg'; msg: MappedMessage; showAvatar: boolean }
+  | { kind: 'date'; id: string; label: string };
 
 function rowToMessage(row: GroupMessageRow): MappedMessage {
   return {
@@ -70,10 +105,31 @@ function rowToMessage(row: GroupMessageRow): MappedMessage {
     body: row.body,
     type: row.type as GroupMessage['type'],
     createdAt: row.created_at,
-    isPinned: row.is_pinned,
     audioUrl: row.audio_url,
     durationMs: row.duration_ms,
+    waveform: row.waveform,
+    imageUrl: row.image_url || undefined,
+    imageW: row.image_w || undefined,
+    imageH: row.image_h || undefined,
+    replyToId: row.reply_to_id,
+    editedAt: row.edited_at,
+    isDeleted: row.is_deleted,
+    mentions: row.mentions || undefined,
+    sharedContent: row.shared_content || undefined,
+    classContent: row.class_content || undefined,
   };
+}
+
+// Short label for date separators.
+function dayLabel(dateStr: string): string {
+  const d = new Date(dateStr);
+  const today = new Date();
+  const yest = new Date();
+  yest.setDate(today.getDate() - 1);
+  const sameDay = (a: Date, b: Date) => a.toDateString() === b.toDateString();
+  if (sameDay(d, today)) return 'Today';
+  if (sameDay(d, yest)) return 'Yesterday';
+  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: d.getFullYear() !== today.getFullYear() ? 'numeric' : undefined });
 }
 
 export default function GroupDetailScreen() {
@@ -97,8 +153,6 @@ export default function GroupDetailScreen() {
   const reactionSubRef = useRef<{ unsubscribe: () => void; addMessageId: (id: string) => void } | null>(null);
 
   // Feature state
-  const [pinnedMessages, setPinnedMessages] = useState<{ id: string; authorName: string; body: string }[]>([]);
-  const [showPinned, setShowPinned] = useState(true);
   const [reactions, setReactions] = useState<Record<string, MessageReaction[]>>({});
   const [reactionPickerMsgId, setReactionPickerMsgId] = useState<string | null>(null);
   const [inviteCode, setInviteCode] = useState<string | null>(null);
@@ -109,6 +163,28 @@ export default function GroupDetailScreen() {
   const [isRecording, setIsRecording] = useState(false);
   const [showSessionModal, setShowSessionModal] = useState(false);
   const [showChallengeModal, setShowChallengeModal] = useState(false);
+
+  // Chat overhaul state
+  const [replyingTo, setReplyingTo] = useState<MappedMessage | null>(null);
+  const [editingMessage, setEditingMessage] = useState<MappedMessage | null>(null);
+  const [actionSheetMsg, setActionSheetMsg] = useState<MappedMessage | null>(null);
+  const [lightboxUri, setLightboxUri] = useState<string | null>(null);
+  const [typingUsers, setTypingUsers] = useState<PresenceUser[]>([]);
+  const [onlineIds, setOnlineIds] = useState<Set<string>>(new Set());
+  const [unreadCount, setUnreadCount] = useState(0);
+  const [isAtBottom, setIsAtBottom] = useState(true);
+  const [isLoadingOlder, setIsLoadingOlder] = useState(false);
+  const [hasMoreOlder, setHasMoreOlder] = useState(true);
+  // Class content (lesson/quiz/poll) creation & editing
+  const [showCreateSheet, setShowCreateSheet] = useState(false);
+  const [editorKind, setEditorKind] = useState<ClassContentKind | null>(null);
+  const [editorInitial, setEditorInitial] = useState<ClassContent | null>(null);
+  const [editingClassMsgId, setEditingClassMsgId] = useState<string | null>(null);
+  const [boardSeedText, setBoardSeedText] = useState<string | null>(null);
+  const presenceRef = useRef<{ unsubscribe: () => void; setTyping: (t: boolean) => void } | null>(null);
+  const typingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const isTypingRef = useRef(false);
+  const isAtBottomRef = useRef(true);
 
   // Find group
   const group = groups.find((g) => g.id === id) || SIMULATED_GROUPS.find((g) => g.id === id);
@@ -129,6 +205,34 @@ export default function GroupDetailScreen() {
       return true;
     });
   }, [messages]);
+
+  // Lookup for resolving reply previews.
+  const messagesById = useMemo(() => {
+    const map: Record<string, MappedMessage> = {};
+    for (const m of dedupedMessages) map[m.id] = m;
+    return map;
+  }, [dedupedMessages]);
+
+  // Build the render list: messages + injected date separators + avatar grouping.
+  const chatRows = useMemo<ChatRow[]>(() => {
+    const rows: ChatRow[] = [];
+    let lastDay = '';
+    dedupedMessages.forEach((msg, i) => {
+      const day = new Date(msg.createdAt).toDateString();
+      if (day !== lastDay) {
+        rows.push({ kind: 'date', id: `date-${day}`, label: dayLabel(msg.createdAt) });
+        lastDay = day;
+      }
+      const prev = i > 0 ? dedupedMessages[i - 1] : null;
+      const prevSameDay = prev && new Date(prev.createdAt).toDateString() === day;
+      const isChatty = (tp: string) => tp === 'chat' || tp === 'message' || tp === 'voice' || tp === 'image' || tp === 'shared';
+      const showAvatar = !prev || !prevSameDay || prev.authorName !== msg.authorName || !isChatty(prev.type);
+      rows.push({ kind: 'msg', msg, showAvatar });
+    });
+    return rows;
+  }, [dedupedMessages]);
+
+  const mentionQuery = useMemo(() => activeMentionQuery(messageText), [messageText]);
 
   // FIX #8: Memoized reaction groups
   const reactionGroupsMap = useMemo(() => {
@@ -153,7 +257,6 @@ export default function GroupDetailScreen() {
     return members.filter((m) => m.name.toLowerCase().includes(q));
   }, [members, memberSearch]);
 
-  const activeChallenge = useMemo(() => challenges.find((c) => c.isActive), [challenges]);
   const topContributorId = leaderboard.length > 0 ? leaderboard[0].userId : null;
 
   // FIX #6: Single parallelized load for all data
@@ -164,103 +267,121 @@ export default function GroupDetailScreen() {
     seenIds.current.clear();
 
     (async () => {
-      setIsLoadingMessages(true);
-      setIsLoadingMembers(true);
+      try {
+        setIsLoadingMessages(true);
+        setIsLoadingMembers(true);
 
-      // Parallel fetch: messages, members, pinned, sessions, challenges, leaderboard
-      const [rows, membersData, pinned, sessData, challData, lbData] = await Promise.all([
-        fetchGroupMessages(id),
-        fetchGroupMembers(id),
-        fetchPinnedMessages(id),
-        fetchSessions(id),
-        fetchChallenges(id),
-        fetchGroupLeaderboard(id),
-      ]);
+        // Parallel fetch: messages, members, sessions, challenges, leaderboard
+        const [rows, membersData, sessData, challData, lbData] = await Promise.all([
+          fetchGroupMessages(id),
+          fetchGroupMembers(id),
+          fetchSessions(id),
+          fetchChallenges(id),
+          fetchGroupLeaderboard(id),
+        ]);
 
-      // Process messages
-      const mapped = rows.map(rowToMessage);
-      mapped.forEach((m) => seenIds.current.add(m.id));
+        // Process messages
+        const mapped = (rows || []).map(rowToMessage);
+        mapped.forEach((m) => seenIds.current.add(m.id));
 
-      if (mapped.length > 0) {
-        setMessages(mapped);
-        // Fetch reactions in parallel (needs message IDs)
-        const reactionData = await fetchReactions(mapped.map((m) => m.id));
-        setReactions(Object.keys(reactionData).length > 0 ? reactionData : {});
-      } else {
-        // FIX #9: Lazy-load simulated data only when needed
-        const { SIMULATED_GROUP_MESSAGES, SIMULATED_REACTIONS } = require('../../../src/data/community/socialData');
+        if (mapped.length > 0) {
+          setMessages(mapped);
+          // Fetch reactions in parallel (needs message IDs)
+          const reactionData = await fetchReactions(mapped.map((m) => m.id));
+          setReactions(Object.keys(reactionData).length > 0 ? reactionData : {});
+        } else {
+          // FIX #9: Lazy-load simulated data only when needed
+          const { SIMULATED_GROUP_MESSAGES, SIMULATED_REACTIONS } = require('../../../src/data/community/socialData');
+          setMessages(SIMULATED_GROUP_MESSAGES[id] || []);
+          setReactions(SIMULATED_REACTIONS);
+        }
+        setIsLoadingMessages(false);
+
+        // Process members
+        if (Array.isArray(membersData) && membersData.length > 0) {
+          setMembers(membersData);
+        } else {
+          const { SIMULATED_GROUP_MEMBERS } = require('../../../src/data/community/socialData');
+          setMembers(SIMULATED_GROUP_MEMBERS[id] || []);
+        }
+        setIsLoadingMembers(false);
+
+        // Process sessions/challenges/leaderboard
+        if (Array.isArray(sessData) && sessData.length > 0) setSessions(sessData);
+        else {
+          const { SIMULATED_SESSIONS } = require('../../../src/data/community/socialData');
+          setSessions(SIMULATED_SESSIONS[id] || []);
+        }
+        if (Array.isArray(challData) && challData.length > 0) setChallenges(challData);
+        else {
+          const { SIMULATED_CHALLENGES } = require('../../../src/data/community/socialData');
+          setChallenges(SIMULATED_CHALLENGES[id] || []);
+        }
+        if (Array.isArray(lbData) && lbData.length > 0) setLeaderboard(lbData);
+        else {
+          const { SIMULATED_GROUP_LEADERBOARD } = require('../../../src/data/community/socialData');
+          setLeaderboard(SIMULATED_GROUP_LEADERBOARD[id] || []);
+        }
+
+        // Subscribe to new + updated messages
+        unsubMessages = subscribeToGroupMessages(
+          id,
+          (newRow) => {
+            if (seenIds.current.has(newRow.id)) return;
+            seenIds.current.add(newRow.id);
+            // Register new message ID with reaction subscription
+            reactionSubRef.current?.addMessageId(newRow.id);
+            const isMine = newRow.user_id === user?.id;
+            setMessages((prev) => {
+              if (prev.some((m) => m.id === newRow.id)) return prev;
+              return [...prev, rowToMessage(newRow)];
+            });
+            // Track unread when not viewing the bottom of the chat.
+            if (!isMine && !isAtBottomRef.current) setUnreadCount((c) => c + 1);
+          },
+          // UPDATE: edits, soft-deletes, pin toggles
+          (updRow) => {
+            setMessages((prev) => prev.map((m) => (m.id === updRow.id ? { ...m, ...rowToMessage(updRow) } : m)));
+          }
+        );
+
+        // FIX #1: Subscribe to reactions scoped to this group's messages
+        const msgIds = mapped.map((m) => m.id);
+        const reactionSub = subscribeToReactions(id, msgIds, (payload) => {
+          if (payload.eventType === 'INSERT' && payload.new) {
+            const r = payload.new;
+            setReactions((prev) => ({
+              ...prev,
+              [r.message_id]: [...(prev[r.message_id] || []), {
+                id: r.id,
+                messageId: r.message_id,
+                userId: r.user_id,
+                emoji: r.emoji,
+                createdAt: r.created_at,
+              }],
+            }));
+          } else if (payload.eventType === 'DELETE' && payload.old) {
+            const r = payload.old;
+            setReactions((prev) => ({
+              ...prev,
+              [r.message_id]: (prev[r.message_id] || []).filter((rx) => rx.id !== r.id),
+            }));
+          }
+        });
+        reactionSubRef.current = reactionSub;
+      } catch (e) {
+        if (__DEV__) console.warn('[GroupDetail] Load error:', e);
+        // Fallback to simulated data on any error
+        const { SIMULATED_GROUP_MESSAGES, SIMULATED_REACTIONS, SIMULATED_GROUP_MEMBERS, SIMULATED_SESSIONS, SIMULATED_CHALLENGES, SIMULATED_GROUP_LEADERBOARD } = require('../../../src/data/community/socialData');
         setMessages(SIMULATED_GROUP_MESSAGES[id] || []);
         setReactions(SIMULATED_REACTIONS);
-      }
-      setIsLoadingMessages(false);
-
-      // Process members
-      if (membersData.length > 0) {
-        setMembers(membersData);
-      } else {
-        const { SIMULATED_GROUP_MEMBERS } = require('../../../src/data/community/socialData');
         setMembers(SIMULATED_GROUP_MEMBERS[id] || []);
-      }
-      setIsLoadingMembers(false);
-
-      // Process pinned
-      if (pinned.length > 0) {
-        setPinnedMessages(pinned.map((p) => ({ id: p.id, authorName: p.author_name, body: p.body })));
-      }
-
-      // Process sessions/challenges/leaderboard
-      if (sessData.length > 0) setSessions(sessData);
-      else {
-        const { SIMULATED_SESSIONS } = require('../../../src/data/community/socialData');
         setSessions(SIMULATED_SESSIONS[id] || []);
-      }
-      if (challData.length > 0) setChallenges(challData);
-      else {
-        const { SIMULATED_CHALLENGES } = require('../../../src/data/community/socialData');
         setChallenges(SIMULATED_CHALLENGES[id] || []);
-      }
-      if (lbData.length > 0) setLeaderboard(lbData);
-      else {
-        const { SIMULATED_GROUP_LEADERBOARD } = require('../../../src/data/community/socialData');
         setLeaderboard(SIMULATED_GROUP_LEADERBOARD[id] || []);
+        setIsLoadingMessages(false);
+        setIsLoadingMembers(false);
       }
-
-      // Subscribe to new messages
-      unsubMessages = subscribeToGroupMessages(id, (newRow) => {
-        if (seenIds.current.has(newRow.id)) return;
-        seenIds.current.add(newRow.id);
-        // Register new message ID with reaction subscription
-        reactionSubRef.current?.addMessageId(newRow.id);
-        setMessages((prev) => {
-          if (prev.some((m) => m.id === newRow.id)) return prev;
-          return [...prev, rowToMessage(newRow)];
-        });
-      });
-
-      // FIX #1: Subscribe to reactions scoped to this group's messages
-      const msgIds = mapped.map((m) => m.id);
-      const reactionSub = subscribeToReactions(id, msgIds, (payload) => {
-        if (payload.eventType === 'INSERT' && payload.new) {
-          const r = payload.new;
-          setReactions((prev) => ({
-            ...prev,
-            [r.message_id]: [...(prev[r.message_id] || []), {
-              id: r.id,
-              messageId: r.message_id,
-              userId: r.user_id,
-              emoji: r.emoji,
-              createdAt: r.created_at,
-            }],
-          }));
-        } else if (payload.eventType === 'DELETE' && payload.old) {
-          const r = payload.old;
-          setReactions((prev) => ({
-            ...prev,
-            [r.message_id]: (prev[r.message_id] || []).filter((rx) => rx.id !== r.id),
-          }));
-        }
-      });
-      reactionSubRef.current = reactionSub;
     })();
 
     return () => {
@@ -269,6 +390,30 @@ export default function GroupDetailScreen() {
       reactionSubRef.current = null;
     };
   }, [id]);
+
+  // Presence + typing: track online roster and who is typing.
+  useEffect(() => {
+    if (!id || !user || !isJoined) return;
+    const sub = subscribeToGroupPresence(
+      id,
+      { userId: user.id, name: displayName },
+      (users) => {
+        setOnlineIds(new Set(users.map((u) => u.userId)));
+        const now = Date.now();
+        setTypingUsers(users.filter((u) => u.typing && u.userId !== user.id && (!u.typingAt || now - u.typingAt < 6000)));
+      }
+    );
+    presenceRef.current = sub;
+    return () => {
+      sub.unsubscribe();
+      presenceRef.current = null;
+    };
+  }, [id, isJoined, user?.id]);
+
+  // Mark the group read when opening the chat.
+  useEffect(() => {
+    if (id && user && isJoined) markGroupRead(id, user.id);
+  }, [id, isJoined, user?.id]);
 
   // Reload members when join state changes
   useEffect(() => {
@@ -289,13 +434,41 @@ export default function GroupDetailScreen() {
     }
   }, [activeTab]);
 
+  // Resolve @mention tokens in the text to member user ids.
+  const resolveMentions = useCallback((text: string): string[] => {
+    const tokens = text.match(/@([\p{L}\p{N}._-]+)/gu) || [];
+    const ids = new Set<string>();
+    for (const tok of tokens) {
+      const handle = tok.slice(1).toLowerCase();
+      const m = members.find((mm) => mm.name.replace(/\s+/g, '').toLowerCase().startsWith(handle));
+      if (m) ids.add(m.userId || m.id);
+    }
+    return Array.from(ids);
+  }, [members]);
+
   const handleSend = useCallback(async () => {
     const text = messageText.trim();
     if (!text || isSending || !id || !user) return;
+
+    // Edit mode: update the existing message instead of sending a new one.
+    if (editingMessage) {
+      const target = editingMessage;
+      setEditingMessage(null);
+      setMessageText('');
+      setMessages((prev) => prev.map((m) => (m.id === target.id ? { ...m, body: text, editedAt: new Date().toISOString() } : m)));
+      await editGroupMessage(target.id, text);
+      return;
+    }
+
     setIsSending(true);
     setMessageText('');
+    isTypingRef.current = false;
+    presenceRef.current?.setTyping(false);
+    const replyId = replyingTo?.id || null;
+    const mentions = resolveMentions(text);
+    setReplyingTo(null);
 
-    const sent = await sendGroupMessage(id, user.id, displayName, text);
+    const sent = await sendGroupMessage(id, user.id, displayName, text, { replyToId: replyId, mentions });
 
     if (!sent) {
       const fallbackMsg: MappedMessage = {
@@ -306,12 +479,31 @@ export default function GroupDetailScreen() {
         body: text,
         type: 'message',
         createdAt: new Date().toISOString(),
+        replyToId: replyId,
       };
       setMessages((prev) => [...prev, fallbackMsg]);
     }
     setIsSending(false);
     scrollToEnd();
-  }, [messageText, isSending, id, user, displayName, scrollToEnd]);
+  }, [messageText, isSending, id, user, displayName, scrollToEnd, editingMessage, replyingTo, resolveMentions]);
+
+  // Text change: broadcast typing (only on state transitions to avoid spamming presence).
+  const handleChangeText = useCallback((text: string) => {
+    setMessageText(text);
+    if (!isTypingRef.current) {
+      isTypingRef.current = true;
+      presenceRef.current?.setTyping(true);
+    }
+    if (typingTimeoutRef.current) clearTimeout(typingTimeoutRef.current);
+    typingTimeoutRef.current = setTimeout(() => {
+      isTypingRef.current = false;
+      presenceRef.current?.setTyping(false);
+    }, 3000);
+  }, []);
+
+  const handleSelectMention = useCallback((member: GroupMember) => {
+    setMessageText((prev) => applyMention(prev, member.name));
+  }, []);
 
   const handleJoinLeave = useCallback(() => {
     if (!id) return;
@@ -363,39 +555,49 @@ export default function GroupDetailScreen() {
   }, [id, canManage, isAdmin, isModerator, user?.id, t]);
 
   const handleMessageLongPress = useCallback((msg: MappedMessage) => {
-    if (msg.type === 'system' || msg.type === 'milestone') return;
+    if (msg.type === 'system' || msg.type === 'milestone' || msg.isDeleted) return;
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
+    setActionSheetMsg(msg);
+  }, []);
 
-    const buttons: any[] = [];
-    buttons.push({ text: t('community.react', { defaultValue: 'React' }), onPress: () => setReactionPickerMsgId(msg.id) });
+  const handleCopyMessage = useCallback(async (msg: MappedMessage) => {
+    await Clipboard.setStringAsync(msg.body || '');
+  }, []);
 
-    if (canManage) {
-      if (msg.isPinned) {
-        buttons.push({
-          text: t('community.unpinMessage', { defaultValue: 'Unpin' }),
+  const handleStartEdit = useCallback((msg: MappedMessage) => {
+    setReplyingTo(null);
+    setEditingMessage(msg);
+    setMessageText(msg.body);
+  }, []);
+
+  const handleStartReply = useCallback((msg: MappedMessage) => {
+    setEditingMessage(null);
+    setReplyingTo(msg);
+  }, []);
+
+  const handleDeleteMessage = useCallback((msg: MappedMessage) => {
+    Alert.alert(
+      t('community.deleteMessage', { defaultValue: 'Delete message?' }),
+      t('community.deleteMessageConfirm', { defaultValue: 'This message will be removed for everyone.' }),
+      [
+        { text: t('common.cancel', { defaultValue: 'Cancel' }), style: 'cancel' },
+        {
+          text: t('common.delete', { defaultValue: 'Delete' }),
+          style: 'destructive',
           onPress: async () => {
-            await unpinMessage(msg.id);
-            setMessages((prev) => prev.map((m) => m.id === msg.id ? { ...m, isPinned: false } : m));
-            setPinnedMessages((prev) => prev.filter((p) => p.id !== msg.id));
+            setMessages((prev) => prev.map((m) => (m.id === msg.id ? { ...m, isDeleted: true, body: '' } : m)));
+            await deleteGroupMessage(msg.id);
           },
-        });
-      } else {
-        const pinnedCount = messages.filter((m) => m.isPinned).length;
-        if (pinnedCount < 3) {
-          buttons.push({
-            text: t('community.pinMessage', { defaultValue: 'Pin Message' }),
-            onPress: async () => {
-              await pinMessage(msg.id);
-              setMessages((prev) => prev.map((m) => m.id === msg.id ? { ...m, isPinned: true } : m));
-              setPinnedMessages((prev) => [{ id: msg.id, authorName: msg.authorName, body: msg.body }, ...prev].slice(0, 3));
-            },
-          });
-        }
-      }
-    }
+        },
+      ]
+    );
+  }, [t]);
 
-    buttons.push({ text: t('common.cancel', { defaultValue: 'Cancel' }), style: 'cancel' });
-    Alert.alert(msg.authorName, msg.body.substring(0, 80), buttons);
-  }, [canManage, messages, t]);
+  // Scroll to the original message when a reply quote is tapped.
+  const handleReplyPress = useCallback((targetId: string) => {
+    const idx = chatRows.findIndex((r) => r.kind === 'msg' && r.msg.id === targetId);
+    if (idx >= 0) flatListRef.current?.scrollToIndex({ index: idx, animated: true, viewPosition: 0.5 });
+  }, [chatRows]);
 
   const handleReaction = useCallback(async (emoji: string) => {
     if (!reactionPickerMsgId || !user) return;
@@ -439,13 +641,13 @@ export default function GroupDetailScreen() {
     });
   }, [user]);
 
-  const handleVoiceSend = useCallback(async (uri: string, durationMs: number) => {
+  const handleVoiceSend = useCallback(async (uri: string, durationMs: number, waveform: number[]) => {
     if (!id || !user) { setIsRecording(false); return; }
     setIsRecording(false);
 
     const audioUrl = await uploadVoiceNote(id, user.id, uri);
     if (audioUrl) {
-      const sent = await sendVoiceMessage(id, user.id, displayName, audioUrl, durationMs);
+      const sent = await sendVoiceMessage(id, user.id, displayName, audioUrl, durationMs, waveform);
       if (sent) {
         seenIds.current.add(sent.id);
         reactionSubRef.current?.addMessageId(sent.id);
@@ -462,6 +664,7 @@ export default function GroupDetailScreen() {
         createdAt: new Date().toISOString(),
         audioUrl: uri,
         durationMs,
+        waveform,
       };
       setMessages((prev) => [...prev, fallback]);
     }
@@ -497,6 +700,95 @@ export default function GroupDetailScreen() {
     }
   }, [id, user, displayName]);
 
+  // "Practice together": spin up a 7-day group challenge from a shared item.
+  const handlePracticeShared = useCallback(async (content: SharedContent) => {
+    if (!id || !user) return;
+    const label = content.translation || content.arabic || 'this';
+    const title = t('community.practiceChallengeTitle', { defaultValue: 'Practice: {{item}}', item: label });
+    const start = new Date().toISOString();
+    const end = new Date(Date.now() + 7 * 24 * 3600000).toISOString();
+    const memberTarget = Math.max(3, members.length || 3);
+    const result = await createChallenge(id, user.id, displayName, title, 'custom', memberTarget, start, end);
+    const newChallenge: GroupChallenge = {
+      id: result?.id || `ch-${Date.now()}`,
+      groupId: id, creatorId: user.id, creatorName: displayName,
+      title, targetType: 'custom', targetValue: memberTarget,
+      currentValue: 0, participantCount: 0,
+      startDate: start, endDate: end, isActive: true, createdAt: new Date().toISOString(),
+    };
+    setChallenges((prev) => [newChallenge, ...prev]);
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => {});
+    Alert.alert(
+      t('community.practiceStartedTitle', { defaultValue: 'Challenge started' }),
+      t('community.practiceStartedBody', { defaultValue: 'The group can now practice "{{item}}" together this week.', item: label })
+    );
+  }, [id, user, displayName, members.length, t]);
+
+  // ── Class content (lesson / quiz / poll) ──────────────────────
+  const openCreateContent = useCallback((kind: ClassContentKind) => {
+    setEditorInitial(null);
+    setEditingClassMsgId(null);
+    setBoardSeedText(null);
+    setEditorKind(kind);
+  }, []);
+
+  // Long-press a text message → drop its text onto a fresh board to style/annotate.
+  const handleOpenOnBoard = useCallback((msg: MappedMessage) => {
+    setActionSheetMsg(null);
+    setEditorInitial(null);
+    setEditingClassMsgId(null);
+    setBoardSeedText(msg.body);
+    setEditorKind('board');
+  }, []);
+
+  const openEditClass = useCallback((msg: { id: string; classContent?: any }) => {
+    if (!msg.classContent) return;
+    setEditorInitial(msg.classContent);
+    setEditingClassMsgId(msg.id);
+    setEditorKind(msg.classContent.kind);
+  }, []);
+
+  const closeEditor = useCallback(() => {
+    setEditorKind(null);
+    setEditorInitial(null);
+    setEditingClassMsgId(null);
+    setBoardSeedText(null);
+  }, []);
+
+  const handleSaveClass = useCallback(async (content: ClassContent) => {
+    if (!id || !user) { closeEditor(); return; }
+    const editingId = editingClassMsgId;
+    closeEditor();
+
+    if (editingId) {
+      // Edit existing content in place.
+      setMessages((prev) => prev.map((m) => (m.id === editingId ? { ...m, classContent: content, body: (content as any).title || (content as any).question || m.body } : m)));
+      await updateClassContent(editingId, content as any);
+      return;
+    }
+
+    // Post new content.
+    const sent = await sendClassContent(id, user.id, displayName, content.kind, content as any);
+    if (sent) {
+      seenIds.current.add(sent.id);
+      reactionSubRef.current?.addMessageId(sent.id);
+      setMessages((prev) => [...prev, rowToMessage(sent)]);
+    } else {
+      const fallback: MappedMessage = {
+        id: `local-class-${Date.now()}`,
+        userId: user.id,
+        authorName: displayName,
+        avatar: displayName.charAt(0).toUpperCase(),
+        body: (content as any).title || (content as any).question || 'Class content',
+        type: content.kind,
+        createdAt: new Date().toISOString(),
+        classContent: content,
+      };
+      setMessages((prev) => [...prev, fallback]);
+    }
+    scrollToEnd();
+  }, [id, user, displayName, editingClassMsgId, closeEditor, scrollToEnd]);
+
   const handleRsvp = useCallback(async (sessionId: string, status: 'going' | 'not_going') => {
     if (!user) return;
     await rsvpSession(sessionId, user.id, status);
@@ -530,21 +822,39 @@ export default function GroupDetailScreen() {
     return `${days} days ago`;
   }, []);
 
-  // FIX #3: FlatList renderItem for chat messages
-  const renderMessage = useCallback(({ item: msg, index }: { item: MappedMessage; index: number }) => {
-    const prevMsg = index > 0 ? dedupedMessages[index - 1] : null;
-    const showAvatar = !prevMsg || prevMsg.authorName !== msg.authorName || (prevMsg.type !== 'chat' && prevMsg.type !== 'message');
+  // FIX #3: FlatList renderItem for chat rows (messages + date separators)
+  const renderMessage = useCallback(({ item }: { item: ChatRow }) => {
+    if (item.kind === 'date') {
+      return <DateSeparator label={item.label} />;
+    }
+    const msg = item.msg;
     const isMe = msg.userId === user?.id || msg.authorName === displayName;
     const reactionGroups = reactionGroupsMap[msg.id] || [];
+    const replyTarget = msg.replyToId ? messagesById[msg.replyToId] : null;
+    const bubbleMsg: MessageBubbleMessage = {
+      ...(msg as MessageBubbleMessage),
+      replyPreview: replyTarget
+        ? { authorName: replyTarget.authorName, body: replyTarget.body, type: replyTarget.type }
+        : msg.replyToId
+          ? { authorName: '', body: 'Message', type: undefined }
+          : null,
+    };
 
     return (
       <MessageBubble
-        msg={msg as MessageBubbleMessage}
+        msg={bubbleMsg}
         getTimeAgo={getTimeAgo}
         groupColor={group?.color || '#818cf8'}
         isMe={isMe}
-        showAvatar={showAvatar}
+        showAvatar={item.showAvatar}
         onLongPress={() => handleMessageLongPress(msg)}
+        onImagePress={setLightboxUri}
+        onReplyPress={handleReplyPress}
+        onPracticeShared={isJoined ? handlePracticeShared : undefined}
+        groupId={id}
+        currentUserId={user?.id}
+        currentUserName={displayName}
+        onEditClass={openEditClass}
         reactionRow={
           reactionGroups.length > 0 ? (
             <ReactionBadges
@@ -555,9 +865,45 @@ export default function GroupDetailScreen() {
         }
       />
     );
-  }, [dedupedMessages, user?.id, displayName, reactionGroupsMap, group?.color, getTimeAgo, handleMessageLongPress, handleToggleReaction]);
+  }, [user?.id, displayName, reactionGroupsMap, messagesById, group?.color, getTimeAgo, handleMessageLongPress, handleToggleReaction, handleReplyPress, handlePracticeShared, isJoined, id, openEditClass]);
 
-  const keyExtractor = useCallback((item: MappedMessage) => item.id, []);
+  const keyExtractor = useCallback((item: ChatRow) => (item.kind === 'date' ? item.id : item.msg.id), []);
+
+  // Track whether the user is near the bottom, to decide unread/pill behavior.
+  const handleScroll = useCallback((e: any) => {
+    const { contentOffset, contentSize, layoutMeasurement } = e.nativeEvent;
+    const distanceFromBottom = contentSize.height - (contentOffset.y + layoutMeasurement.height);
+    const atBottom = distanceFromBottom < 80;
+    isAtBottomRef.current = atBottom;
+    setIsAtBottom(atBottom);
+    if (atBottom && unreadCount > 0) {
+      setUnreadCount(0);
+      if (id && user) markGroupRead(id, user.id);
+    }
+  }, [unreadCount, id, user]);
+
+  const jumpToLatest = useCallback(() => {
+    flatListRef.current?.scrollToEnd({ animated: true });
+    setUnreadCount(0);
+    if (id && user) markGroupRead(id, user.id);
+  }, [id, user]);
+
+  // Load older messages when scrolling to the top.
+  const loadOlder = useCallback(async () => {
+    if (!id || isLoadingOlder || !hasMoreOlder || dedupedMessages.length === 0) return;
+    const oldest = dedupedMessages[0];
+    if (!oldest || oldest.id.startsWith('local-')) return;
+    setIsLoadingOlder(true);
+    const older = await fetchGroupMessages(id, { before: oldest.createdAt, limit: 30 });
+    if (older.length === 0) setHasMoreOlder(false);
+    else {
+      const mapped = older.map(rowToMessage).filter((m) => !seenIds.current.has(m.id));
+      mapped.forEach((m) => seenIds.current.add(m.id));
+      if (mapped.length === 0) setHasMoreOlder(false);
+      else setMessages((prev) => [...mapped, ...prev]);
+    }
+    setIsLoadingOlder(false);
+  }, [id, isLoadingOlder, hasMoreOlder, dedupedMessages]);
 
   if (!group) {
     return (
@@ -584,7 +930,17 @@ export default function GroupDetailScreen() {
           <Ionicons name="arrow-back" size={24} color="#ffffff" />
         </Pressable>
         <Text style={styles.headerTopTitle} numberOfLines={1}>{t('community.studyGroups')}</Text>
-        <View style={{ width: 32 }} />
+        {isJoined ? (
+          <Pressable
+            onPress={() => setActiveTab((prev) => (prev === 'chat' ? 'info' : 'chat'))}
+            style={styles.backBtn}
+            accessibilityLabel={t('community.groupSettings', { defaultValue: 'Group settings' })}
+          >
+            <Ionicons name={activeTab === 'chat' ? 'settings-outline' : 'close'} size={22} color="#ffffff" />
+          </Pressable>
+        ) : (
+          <View style={{ width: 32 }} />
+        )}
       </View>
 
       <View style={styles.headerGroupInfo}>
@@ -657,28 +1013,35 @@ export default function GroupDetailScreen() {
         </ScrollView>
       ) : (
       <>
-      {/* Tab bar */}
-      <View style={styles.tabBar}>
-        {(['chat', 'members', 'info'] as Tab[]).map((tab) => {
-          const isActive = activeTab === tab;
-          const label = tab === 'chat'
-            ? t('community.groupActivity')
-            : tab === 'members'
-              ? t('community.groupMembers')
-              : t('community.groupInfo');
-          const icon = tab === 'chat' ? 'chatbubbles-outline' : tab === 'members' ? 'people-outline' : 'information-circle-outline';
-          return (
+      {/* Settings sub-header (shown when viewing About / Members) */}
+      {activeTab !== 'chat' && (
+        <View style={styles.settingsHeader}>
+          <Pressable onPress={() => setActiveTab('chat')} style={styles.settingsBackBtn}>
+            <Ionicons name="chevron-back" size={20} color={group.color} />
+            <Text style={[styles.settingsBackText, { color: group.color }]}>
+              {t('community.backToChat', { defaultValue: 'Chat' })}
+            </Text>
+          </Pressable>
+          <View style={styles.settingsSeg}>
             <Pressable
-              key={tab}
-              style={[styles.tab, isActive && styles.tabActive]}
-              onPress={() => setActiveTab(tab)}
+              style={[styles.settingsSegBtn, activeTab === 'info' && { backgroundColor: `${group.color}25` }]}
+              onPress={() => setActiveTab('info')}
             >
-              <Ionicons name={icon as any} size={16} color={isActive ? group.color : '#64748b'} />
-              <Text style={[styles.tabText, isActive && { color: group.color }]}>{label}</Text>
+              <Text style={[styles.settingsSegText, activeTab === 'info' && { color: group.color }]}>
+                {t('community.groupInfo')}
+              </Text>
             </Pressable>
-          );
-        })}
-      </View>
+            <Pressable
+              style={[styles.settingsSegBtn, activeTab === 'members' && { backgroundColor: `${group.color}25` }]}
+              onPress={() => setActiveTab('members')}
+            >
+              <Text style={[styles.settingsSegText, activeTab === 'members' && { color: group.color }]}>
+                {t('community.groupMembers')}
+              </Text>
+            </Pressable>
+          </View>
+        </View>
+      )}
 
       <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
@@ -688,31 +1051,58 @@ export default function GroupDetailScreen() {
         {/* ── Chat tab ────────────────────────────────────── */}
         {activeTab === 'chat' && (
           <>
-            {showPinned && pinnedMessages.length > 0 && (
-              <PinnedBanner messages={pinnedMessages} onDismiss={() => setShowPinned(false)} />
-            )}
-
-            {activeChallenge && (
-              <ChallengeBanner challenge={activeChallenge} groupColor={group.color} />
-            )}
-
             {isLoadingMessages ? (
               <View style={styles.centered}>
                 <ActivityIndicator color={group.color} size="large" />
               </View>
             ) : (
-              // FIX #3: FlatList with virtualization instead of ScrollView
-              <FlatList
-                ref={flatListRef}
-                data={dedupedMessages}
-                renderItem={renderMessage}
-                keyExtractor={keyExtractor}
-                contentContainerStyle={styles.chatList}
-                showsVerticalScrollIndicator={false}
-                onContentSizeChange={() => flatListRef.current?.scrollToEnd({ animated: false })}
-                removeClippedSubviews={Platform.OS === 'android'}
-                maxToRenderPerBatch={15}
-                windowSize={11}
+              <View style={styles.flex}>
+                {/* FIX #3: FlatList with virtualization instead of ScrollView */}
+                <FlatList
+                  ref={flatListRef}
+                  data={chatRows}
+                  renderItem={renderMessage}
+                  keyExtractor={keyExtractor}
+                  contentContainerStyle={styles.chatList}
+                  showsVerticalScrollIndicator={false}
+                  onScroll={handleScroll}
+                  scrollEventThrottle={80}
+                  onContentSizeChange={() => { if (isAtBottomRef.current) flatListRef.current?.scrollToEnd({ animated: false }); }}
+                  onScrollToIndexFailed={() => {}}
+                  onStartReached={loadOlder}
+                  onStartReachedThreshold={0.2}
+                  ListHeaderComponent={isLoadingOlder ? <ActivityIndicator color={group.color} style={{ marginVertical: 12 }} /> : null}
+                  removeClippedSubviews={Platform.OS === 'android'}
+                  maxToRenderPerBatch={15}
+                  windowSize={11}
+                />
+
+                {typingUsers.length > 0 && (
+                  <TypingIndicator names={typingUsers.map((u) => u.name)} groupColor={group.color} />
+                )}
+
+                {!isAtBottom && (
+                  <NewMessagesPill count={unreadCount} groupColor={group.color} onPress={jumpToLatest} />
+                )}
+              </View>
+            )}
+
+            {/* Mention autocomplete (above input while typing @) */}
+            {mentionQuery !== null && !editingMessage && (
+              <MentionAutocomplete
+                members={members}
+                query={mentionQuery}
+                groupColor={group.color}
+                onSelect={handleSelectMention}
+              />
+            )}
+
+            {/* Reply preview (above input) */}
+            {replyingTo && (
+              <ReplyPreviewBar
+                target={{ id: replyingTo.id, authorName: replyingTo.authorName, body: replyingTo.body, type: replyingTo.type }}
+                groupColor={group.color}
+                onCancel={() => setReplyingTo(null)}
               />
             )}
 
@@ -725,13 +1115,17 @@ export default function GroupDetailScreen() {
               <ChatInputBar
                 isJoined={isJoined}
                 messageText={messageText}
-                onChangeText={setMessageText}
+                onChangeText={handleChangeText}
                 onSend={handleSend}
                 isSending={isSending}
                 placeholder={t('community.messagePlaceholder')}
                 joinLabel={t('community.joinGroup')}
                 onMicPress={() => setIsRecording(true)}
                 isRecording={isRecording}
+                editing={!!editingMessage}
+                onCancelEdit={() => { setEditingMessage(null); setMessageText(''); }}
+                onCreate={() => setShowCreateSheet(true)}
+                groupColor={group.color}
               />
             )}
 
@@ -859,6 +1253,84 @@ export default function GroupDetailScreen() {
           groupColor={group?.color || '#818cf8'}
         />
       )}
+
+      {/* Message long-press actions */}
+      {actionSheetMsg && (() => {
+        const m = actionSheetMsg;
+        const isMine = m.userId === user?.id || m.authorName === displayName;
+        const isText = m.type === 'chat' || m.type === 'message';
+        return (
+          <MessageActionSheet
+            visible={!!actionSheetMsg}
+            groupColor={group?.color || '#818cf8'}
+            actions={{
+              canReply: true,
+              canReact: true,
+              canCopy: isText && !!m.body,
+              canBoard: isText && !!m.body.trim(),
+              canPin: false,
+              isPinned: false,
+              canEdit: isMine && isText,
+              canDelete: isMine || canManage,
+            }}
+            onReact={(emoji) => handleToggleReaction(m.id, emoji)}
+            onReply={() => handleStartReply(m)}
+            onCopy={() => handleCopyMessage(m)}
+            onBoard={() => handleOpenOnBoard(m)}
+            onPinToggle={() => {}}
+            onEdit={() => handleStartEdit(m)}
+            onDelete={() => handleDeleteMessage(m)}
+            onClose={() => setActionSheetMsg(null)}
+          />
+        );
+      })()}
+
+      <ImageLightbox uri={lightboxUri} onClose={() => setLightboxUri(null)} />
+
+      {/* Class content creation */}
+      <CreateContentSheet
+        visible={showCreateSheet}
+        groupColor={group?.color || '#818cf8'}
+        onSelect={openCreateContent}
+        onClose={() => setShowCreateSheet(false)}
+      />
+      {editorKind === 'lesson' && (
+        <LessonEditor
+          visible
+          groupColor={group?.color || '#818cf8'}
+          initial={editorInitial?.kind === 'lesson' ? editorInitial : null}
+          onSave={handleSaveClass}
+          onClose={closeEditor}
+        />
+      )}
+      {editorKind === 'quiz' && (
+        <QuizEditor
+          visible
+          groupColor={group?.color || '#818cf8'}
+          initial={editorInitial?.kind === 'quiz' ? editorInitial : null}
+          onSave={handleSaveClass}
+          onClose={closeEditor}
+        />
+      )}
+      {editorKind === 'poll' && (
+        <PollEditor
+          visible
+          groupColor={group?.color || '#818cf8'}
+          initial={editorInitial?.kind === 'poll' ? editorInitial : null}
+          onSave={handleSaveClass}
+          onClose={closeEditor}
+        />
+      )}
+      {editorKind === 'board' && (
+        <BoardEditor
+          visible
+          groupColor={group?.color || '#818cf8'}
+          initial={editorInitial?.kind === 'board' ? editorInitial : null}
+          seedText={boardSeedText}
+          onSave={handleSaveClass}
+          onClose={closeEditor}
+        />
+      )}
     </SafeAreaView>
   );
 }
@@ -903,6 +1375,12 @@ const styles = StyleSheet.create({
   tab: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 3, paddingVertical: 8, paddingHorizontal: 4, borderRadius: 10, backgroundColor: '#1e293b' },
   tabActive: { backgroundColor: '#334155' },
   tabText: { fontSize: 11, fontWeight: '600', color: '#64748b', textAlign: 'center' },
+  settingsHeader: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 8, marginBottom: 4 },
+  settingsBackBtn: { flexDirection: 'row', alignItems: 'center', gap: 2, paddingVertical: 4, paddingRight: 4 },
+  settingsBackText: { fontSize: 14, fontWeight: '600' },
+  settingsSeg: { flex: 1, flexDirection: 'row', gap: 4, backgroundColor: '#1e293b', borderRadius: 12, padding: 3 },
+  settingsSegBtn: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingVertical: 8, borderRadius: 9 },
+  settingsSegText: { fontSize: 13, fontWeight: '600', color: '#64748b' },
 
   // Chat
   chatList: { paddingHorizontal: 12, paddingVertical: 12, paddingBottom: 8 },

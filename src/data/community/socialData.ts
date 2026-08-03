@@ -227,7 +227,34 @@ export interface GroupMessage {
   avatar: string;
   body: string;
   createdAt: string;
-  type: 'message' | 'milestone' | 'system' | 'chat' | 'voice';
+  type: 'message' | 'milestone' | 'system' | 'chat' | 'voice' | 'image' | 'shared' | 'lesson' | 'quiz' | 'poll' | 'board';
+  // Chat overhaul additions
+  replyToId?: string | null;
+  replyPreview?: { authorName: string; body: string; type?: string } | null;
+  editedAt?: string | null;
+  isDeleted?: boolean;
+  imageUrl?: string;
+  imageW?: number;
+  imageH?: number;
+  mentions?: string[];
+  sharedContent?: SharedContent | null;
+  classContent?: any | null;
+  audioUrl?: string;
+  durationMs?: number;
+  waveform?: number[] | null;
+}
+
+// Rich card payload for content shared from elsewhere in the app.
+export interface SharedContent {
+  kind: 'word' | 'letter' | 'phrase' | 'lesson' | 'verse' | 'dua';
+  arabic?: string;        // headline Arabic (word, letter, phrase)
+  translit?: string;      // transliteration
+  translation?: string;   // meaning
+  example?: string;       // optional example sentence (Arabic)
+  exampleTranslation?: string;
+  audioText?: string;     // Arabic text to pronounce via TTS (defaults to `arabic`)
+  ref?: string;           // small caption, e.g. theme name or "Letter 3"
+  route?: string;         // deep link back into the app
 }
 
 export const SIMULATED_GROUP_MEMBERS: Record<string, GroupMember[]> = {

@@ -88,15 +88,24 @@ export function GroupInfoTab({
       {/* Sessions */}
       <View style={styles.sectionHeader}>
         <Ionicons name="calendar" size={18} color="#818cf8" />
-        <Text style={styles.sectionTitle}>{t('community.sessions', { defaultValue: 'Sessions' })}</Text>
+        <Text style={styles.sectionTitle}>{t('community.sessions', { defaultValue: 'Study Sessions' })}</Text>
         {canManage && onCreateSession && (
           <Pressable style={styles.addBtn} onPress={onCreateSession}>
             <Ionicons name="add" size={18} color="#818cf8" />
           </Pressable>
         )}
       </View>
+      <Text style={styles.sectionDesc}>Schedule a time to study together. Members get notified and can RSVP.</Text>
       {upcomingSessions.length === 0 && pastSessions.length === 0 ? (
-        <Text style={styles.emptyText}>{t('community.noSessions', { defaultValue: 'No sessions scheduled' })}</Text>
+        <View style={styles.emptyCard}>
+          <Ionicons name="calendar-outline" size={28} color="#475569" />
+          <Text style={styles.emptyTitle}>No sessions yet</Text>
+          <Text style={styles.emptyDesc}>
+            {canManage
+              ? 'Create a study session to pick a time for the group to learn together. Members will be able to RSVP.'
+              : 'When an admin schedules a group study session, it will appear here. You can RSVP to join.'}
+          </Text>
+        </View>
       ) : (
         <>
           {upcomingSessions.map((session) => (
@@ -111,15 +120,24 @@ export function GroupInfoTab({
       {/* Challenges */}
       <View style={styles.sectionHeader}>
         <Ionicons name="flash" size={18} color="#f59e0b" />
-        <Text style={styles.sectionTitle}>{t('community.groupChallenges', { defaultValue: 'Challenges' })}</Text>
+        <Text style={styles.sectionTitle}>{t('community.groupChallenges', { defaultValue: 'Group Challenges' })}</Text>
         {canManage && onCreateChallenge && (
           <Pressable style={styles.addBtn} onPress={onCreateChallenge}>
             <Ionicons name="add" size={18} color="#f59e0b" />
           </Pressable>
         )}
       </View>
+      <Text style={styles.sectionDesc}>Set a shared goal for the group and track progress together.</Text>
       {challenges.length === 0 ? (
-        <Text style={styles.emptyText}>{t('community.noChallenges', { defaultValue: 'No challenges yet' })}</Text>
+        <View style={styles.emptyCard}>
+          <Ionicons name="flash-outline" size={28} color="#475569" />
+          <Text style={styles.emptyTitle}>No challenges yet</Text>
+          <Text style={styles.emptyDesc}>
+            {canManage
+              ? 'Start a challenge to motivate the group — e.g. "Memorize Surah Al-Mulk in 7 days". Everyone works toward the same goal.'
+              : 'When an admin creates a group challenge, it will appear here. Work together to reach the goal before time runs out!'}
+          </Text>
+        </View>
       ) : (
         challenges.map((challenge) => (
           <GroupChallengeCard key={challenge.id} challenge={challenge} groupColor={group.color} />
@@ -175,8 +193,11 @@ const styles = StyleSheet.create({
   inviteSubtitle: { fontSize: 12, color: '#64748b' },
   sectionHeader: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 12, marginTop: 8 },
   sectionTitle: { fontSize: 16, fontWeight: '700', color: '#ffffff', flex: 1 },
+  sectionDesc: { fontSize: 13, color: '#64748b', lineHeight: 18, marginBottom: 12, marginTop: -4 },
   addBtn: { width: 32, height: 32, borderRadius: 10, backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: '#334155' },
-  emptyText: { fontSize: 13, color: '#64748b', textAlign: 'center', paddingVertical: 16 },
+  emptyCard: { backgroundColor: '#1e293b', borderRadius: 14, padding: 20, alignItems: 'center', marginBottom: 10, borderWidth: 1, borderColor: '#334155', borderStyle: 'dashed' },
+  emptyTitle: { fontSize: 14, fontWeight: '700', color: '#94a3b8', marginTop: 8, marginBottom: 4 },
+  emptyDesc: { fontSize: 13, color: '#64748b', textAlign: 'center', lineHeight: 19 },
   goalCard: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: '#1e293b', borderRadius: 14, padding: 16, marginBottom: 16, borderWidth: 1, borderColor: '#334155' },
   goalInfo: { flex: 1 },
   goalTitle: { fontSize: 12, color: '#64748b', fontWeight: '600', marginBottom: 2 },

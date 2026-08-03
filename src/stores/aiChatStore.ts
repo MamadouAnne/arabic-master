@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { AIModuleContext, AIModelChoice, ChatMessage } from '../types/aiChat';
+import { AIModuleContext, AIModelChoice, ChatMessage, ConversationSummary } from '../types/aiChat';
 import { analyzeConversation } from '../services/aiMemoryService';
 import { useAIMemoryStore } from './aiMemoryStore';
 
@@ -9,6 +9,8 @@ interface AIChatState {
   // Persisted
   conversations: Record<AIModuleContext, ChatMessage[]>;
   preferredModel: AIModelChoice;
+  /** Stored summaries of earlier messages per module (Feature 2) */
+  conversationSummaries: Partial<Record<AIModuleContext, ConversationSummary>>;
 
   // Transient (not persisted)
   isOpen: boolean;
@@ -17,9 +19,11 @@ interface AIChatState {
   activeModule: AIModuleContext;
   activeSegments: string[];
   speakingMessageId: string | null;
+  /** When true, the chat sheet opens directly in voice mode */
+  startInVoiceMode: boolean;
 
   // Actions
-  openChat: (module?: AIModuleContext, segments?: string[]) => void;
+  openChat: (module?: AIModuleContext, segments?: string[], voiceMode?: boolean) => void;
   closeChat: () => void;
   setActiveModule: (module: AIModuleContext) => void;
   setActiveSegments: (segments: string[]) => void;
@@ -30,6 +34,10 @@ interface AIChatState {
   clearConversation: (module?: AIModuleContext) => void;
   setPreferredModel: (model: AIModelChoice) => void;
   setSpeakingMessageId: (id: string | null) => void;
+  /** Store a conversation summary for a module (Feature 2) */
+  setSummary: (module: AIModuleContext, summary: ConversationSummary) => void;
+  /** Get the stored summary for a module */
+  getSummary: (module: AIModuleContext) => ConversationSummary | undefined;
 }
 
 const EMPTY_CONVERSATIONS: Record<AIModuleContext, ChatMessage[]> = {
@@ -51,6 +59,7 @@ export const useAIChatStore = create<AIChatState>()(
       // Persisted state
       conversations: { ...EMPTY_CONVERSATIONS },
       preferredModel: 'haiku',
+      conversationSummaries: {},
 
       // Transient state
       isOpen: false,
@@ -59,9 +68,11 @@ export const useAIChatStore = create<AIChatState>()(
       activeModule: 'general',
       activeSegments: [],
       speakingMessageId: null,
+      startInVoiceMode: false,
 
-      openChat: (module, segments) => set({
+      openChat: (module, segments, voiceMode) => set({
         isOpen: true,
+        startInVoiceMode: !!voiceMode,
         ...(module ? { activeModule: module } : {}),
         ...(segments ? { activeSegments: segments } : {}),
       }),
@@ -130,7 +141,7 @@ export const useAIChatStore = create<AIChatState>()(
       }),
 
       clearConversation: (module) => {
-        const { activeModule, conversations } = get();
+        const { activeModule, conversations, conversationSummaries } = get();
         const target = module || activeModule;
         const msgs = conversations[target] || [];
         // Analyze conversation for memory before clearing
@@ -140,17 +151,30 @@ export const useAIChatStore = create<AIChatState>()(
           const memory = analyzeConversation(msgs, target, existing);
           memStore.updateMemory(target, memory);
         }
+        // Clear both messages and summary
+        const { [target]: _, ...remainingSummaries } = conversationSummaries;
         set({
           conversations: {
             ...conversations,
             [target]: [],
           },
+          conversationSummaries: remainingSummaries,
         });
       },
 
       setPreferredModel: (model) => set({ preferredModel: model }),
 
       setSpeakingMessageId: (id) => set({ speakingMessageId: id }),
+
+      setSummary: (module, summary) =>
+        set((state) => ({
+          conversationSummaries: {
+            ...state.conversationSummaries,
+            [module]: summary,
+          },
+        })),
+
+      getSummary: (module) => get().conversationSummaries[module],
     }),
     {
       name: 'iqra-ai-chat',
@@ -158,6 +182,7 @@ export const useAIChatStore = create<AIChatState>()(
       partialize: (state) => ({
         conversations: state.conversations,
         preferredModel: state.preferredModel,
+        conversationSummaries: state.conversationSummaries,
       }),
     }
   )

@@ -1,6 +1,7 @@
 import { AIModuleContext, AIModelChoice, AIContextPayload } from '../../types/aiChat';
 import { useAIMemoryStore } from '../../stores/aiMemoryStore';
 import { formatMemoryForPrompt } from '../../services/aiMemoryService';
+import { matchTopics, formatTopicsForPrompt } from '../../services/aiTopicService';
 
 // ── Teacher identity per model ────────────────────────────────────
 const TEACHER_IDENTITY: Record<AIModelChoice, { name: string; arabicName: string; persona: string }> = {
@@ -99,7 +100,11 @@ ADAPTIVE TEACHING:
 - When the student opens a new conversation, briefly acknowledge past learning if relevant ("Welcome back! Last time we worked on X")
 - Don't just answer questions — look for opportunities to reinforce weak areas by weaving them into examples and explanations
 - If the student gets something right that they previously struggled with, celebrate the growth ("You got it this time! Great improvement!")
-- Adjust your difficulty based on their history: simpler explanations for weak areas, more challenging material for strengths`;
+- Adjust your difficulty based on their history: simpler explanations for weak areas, more challenging material for strengths
+
+COURSE NAVIGATOR:
+- When relevant course content is provided below, ALWAYS mention where the student can find the topic in the app. Say something like: "You can practice this in the [Lesson] lesson!" or "Head to [Module] > [Lesson] to study this."
+- This makes you a course navigator, not just a knowledge base — help students find the right lesson for their question.`;
 }
 
 const LANGUAGE_INSTRUCTION: Record<string, string> = {
@@ -367,8 +372,15 @@ Tailor the plan to the student's level and weak areas. Focus on gaps visible in 
 
 /**
  * Builds the full system prompt from context.
+ * @param userMessage - The current user message, used for topic matching (Feature 3)
+ * @param conversationSummary - Summary of earlier messages (Feature 2)
  */
-export function buildSystemPrompt(context: AIContextPayload, model: AIModelChoice = 'haiku'): string {
+export function buildSystemPrompt(
+  context: AIContextPayload,
+  model: AIModelChoice = 'haiku',
+  userMessage?: string,
+  conversationSummary?: string,
+): string {
   const parts: string[] = [getBasePrompt(model)];
 
   // Language instruction
@@ -382,39 +394,58 @@ export function buildSystemPrompt(context: AIContextPayload, model: AIModelChoic
     parts.push(`CURRENT MEMORIZATION METHOD:\n${METHOD_PROMPTS[context.learningMethod]}`);
   }
 
-  // Student progress context
-  const progressLines = [
-    `\nStudent profile:`,
-    `- Level: ${context.userLevel}`,
-    `- Letters learned: ${context.lettersLearned}/28`,
-    `- Words learned: ${context.wordsLearned}`,
-    `- Lessons completed: ${context.lessonsCompleted}`,
-    `- Current streak: ${context.currentStreak} days`,
+  // ── Enhanced Learner Profile (Feature 1) ──────────────────────
+  // Reads existing Zustand stores — $0.00 cost
+  const difficultyTier = context.userLevel === 'advanced' ? 'advanced'
+    : context.userLevel === 'intermediate' ? 'intermediate' : 'beginner';
+
+  // Calculate activity recency
+  let activityLabel = 'new student';
+  if (context.lastStudyDate) {
+    const daysSince = Math.floor(
+      (Date.now() - new Date(context.lastStudyDate).getTime()) / (1000 * 60 * 60 * 24)
+    );
+    if (daysSince === 0) activityLabel = 'active today';
+    else if (daysSince === 1) activityLabel = 'active yesterday';
+    else if (daysSince <= 7) activityLabel = `active ${daysSince} days ago`;
+    else activityLabel = `inactive for ${daysSince} days`;
+  }
+
+  const profileLines = [
+    `\n=== LEARNER PROFILE ===`,
+    `Level: ${context.userLevel} | ${context.totalXp.toLocaleString()} XP | ${context.currentStreak}-day streak (best: ${context.longestStreak})`,
+    `Alphabet: ${context.lettersLearned}/28 learned, ${context.lettersMastered}/28 mastered`,
+    `Vocabulary: ${context.wordsLearned} words learned, ${context.wordsMastered} mastered | ${context.themesCompleted}/${context.totalThemes} themes`,
+    `Grammar: ${context.lessonsCompleted} lessons completed`,
+    `Verbs: ${context.verbsLearned} learned, ${context.verbsMastered} mastered`,
+    `Reading: ${context.readingTextsCompleted} texts completed`,
+    `Exercises: ${context.exercisesCompleted} completed${context.accuracy > 0 ? `, ${context.accuracy}% accuracy` : ''}`,
+    `Achievements: ${context.achievementsUnlocked}/${context.totalAchievements} unlocked`,
   ];
 
-  if (context.accuracy > 0) {
-    progressLines.push(`- Exercise accuracy: ${context.accuracy}%`);
+  if (context.srsReviewsDue > 0) {
+    profileLines.push(`Vocabulary reviews due today: ${context.srsReviewsDue}`);
   }
 
   if (context.quranProgress) {
     const q = context.quranProgress;
-    progressLines.push(`- Surahs completed: ${q.surahsCompleted}`);
-    progressLines.push(`- Ayahs learned: ${q.ayahsLearned} | Memorized: ${q.ayahsMemorized}`);
-    progressLines.push(`- Juz completed: ${q.juzCompleted}`);
+    profileLines.push(`Quran: ${q.surahsCompleted} surahs completed, ${q.ayahsLearned} ayahs learned, ${q.ayahsMemorized} memorized, ${q.juzCompleted} juz`);
   }
 
   if (context.prayerProgress) {
     const p = context.prayerProgress;
-    progressLines.push(`- Prayer lessons completed: ${p.lessonsCompleted}/${p.totalLessons}`);
+    profileLines.push(`Prayer: ${p.lessonsCompleted}/${p.totalLessons} lessons (${p.progressPercent}%)`);
   }
 
   if (context.duasProgress) {
     const d = context.duasProgress;
-    progressLines.push(`- Duas memorized: ${d.memorizedCount}/${d.totalDuas}`);
-    progressLines.push(`- Duas favorited: ${d.favoritesCount}`);
+    profileLines.push(`Duas: ${d.memorizedCount}/${d.totalDuas} memorized, ${d.favoritesCount} favorited`);
   }
 
-  parts.push(progressLines.join('\n'));
+  profileLines.push(`Activity: ${activityLabel}`);
+  profileLines.push(`Adapt difficulty to ${difficultyTier} level.`);
+
+  parts.push(profileLines.join('\n'));
 
   // Inject conversation memory if available
   const memory = useAIMemoryStore.getState().getMemory(context.module);
@@ -429,6 +460,22 @@ export function buildSystemPrompt(context: AIContextPayload, model: AIModelChoic
 
   if (context.currentContent) {
     parts.push(`\nThe student is currently studying this exact content in the app. Use this data to give accurate, specific answers:\n${context.currentContent}`);
+  }
+
+  // ── Course Content Retrieval (Feature 3) ─────────────────────
+  // Client-side keyword matching against static topic index — $0.00 cost
+  if (userMessage) {
+    const topicMatches = matchTopics(userMessage);
+    const topicText = formatTopicsForPrompt(topicMatches);
+    if (topicText) {
+      parts.push(topicText);
+    }
+  }
+
+  // ── Conversation Summary (Feature 2) ─────────────────────────
+  // Compressed context from earlier messages — ~$0.001 per conversation
+  if (conversationSummary) {
+    parts.push(`EARLIER CONVERSATION CONTEXT (summarized):\n${conversationSummary}`);
   }
 
   return parts.join('\n\n');

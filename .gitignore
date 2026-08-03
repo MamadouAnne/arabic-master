@@ -49,3 +49,6 @@ credentials.json
 WHISPER-QURAN-TEST-RESULTS.md
 scripts/test-whisper*
 scripts/react-native-whisper-example.tsx
+
+# Supabase CLI local cache
+supabase/.temp/

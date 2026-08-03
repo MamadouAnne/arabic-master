@@ -10,11 +10,11 @@ interface Props {
 }
 
 const TARGET_TYPES = [
-  { key: 'surah', label: 'Surahs', icon: 'book' },
-  { key: 'words', label: 'Words', icon: 'text' },
-  { key: 'xp', label: 'XP', icon: 'star' },
-  { key: 'lessons', label: 'Lessons', icon: 'school' },
-  { key: 'custom', label: 'Custom', icon: 'flag' },
+  { key: 'surah', label: 'Surahs memorized', icon: 'book' },
+  { key: 'words', label: 'New words learned', icon: 'text' },
+  { key: 'xp', label: 'XP earned', icon: 'star' },
+  { key: 'lessons', label: 'Lessons completed', icon: 'school' },
+  { key: 'custom', label: 'Custom goal', icon: 'flag' },
 ];
 
 const DURATION_OPTIONS = [
@@ -50,16 +50,17 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
             <Pressable onPress={onClose}>
               <Ionicons name="close" size={24} color="#94a3b8" />
             </Pressable>
-            <Text style={styles.headerTitle}>New Challenge</Text>
+            <Text style={styles.headerTitle}>Group Challenge</Text>
             <Pressable style={[styles.createBtn, (!title.trim() || !targetValue) && { opacity: 0.4 }]} onPress={handleCreate} disabled={!title.trim() || !targetValue}>
               <Text style={styles.createBtnText}>Create</Text>
             </Pressable>
           </View>
 
           <ScrollView showsVerticalScrollIndicator={false}>
-            <TextInput style={styles.input} placeholder="Challenge title" placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
+            <Text style={styles.hint}>Set a shared goal for the group to reach before the deadline. Everyone contributes to the same target.</Text>
+            <TextInput style={styles.input} placeholder='e.g. "Memorize Surah Al-Mulk" or "Earn 500 XP"' placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
 
-            <Text style={styles.label}>Target Type</Text>
+            <Text style={styles.label}>What are you tracking?</Text>
             <View style={styles.optionRow}>
               {TARGET_TYPES.map((t) => (
                 <Pressable key={t.key} style={[styles.typeBtn, targetType === t.key && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setTargetType(t.key)}>
@@ -69,10 +70,10 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
               ))}
             </View>
 
-            <Text style={styles.label}>Target Value</Text>
-            <TextInput style={styles.input} placeholder="e.g. 5" placeholderTextColor="#64748b" value={targetValue} onChangeText={setTargetValue} keyboardType="number-pad" maxLength={6} />
+            <Text style={styles.label}>How much?</Text>
+            <TextInput style={styles.input} placeholder={targetType === 'xp' ? 'e.g. 500' : targetType === 'words' ? 'e.g. 50' : 'e.g. 5'} placeholderTextColor="#64748b" value={targetValue} onChangeText={setTargetValue} keyboardType="number-pad" maxLength={6} />
 
-            <Text style={styles.label}>Duration</Text>
+            <Text style={styles.label}>Time limit</Text>
             <View style={styles.optionRow}>
               {DURATION_OPTIONS.map((opt) => (
                 <Pressable key={opt.days} style={[styles.optionBtn, durationDays === opt.days && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setDurationDays(opt.days)}>
@@ -94,6 +95,7 @@ const styles = StyleSheet.create({
   headerTitle: { fontSize: 18, fontWeight: '700', color: '#ffffff' },
   createBtn: { backgroundColor: '#818cf8', paddingHorizontal: 20, paddingVertical: 8, borderRadius: 12 },
   createBtnText: { fontSize: 14, fontWeight: '700', color: '#ffffff' },
+  hint: { fontSize: 13, color: '#64748b', lineHeight: 19, marginBottom: 14 },
   input: { backgroundColor: '#0f172a', borderRadius: 12, padding: 14, fontSize: 15, color: '#ffffff', marginBottom: 12, borderWidth: 1, borderColor: '#334155' },
   label: { fontSize: 13, fontWeight: '600', color: '#94a3b8', marginBottom: 8, marginTop: 4 },
   optionRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 16 },

@@ -154,7 +154,7 @@ export default function QuizScreen() {
   const { lc } = useLocalizedContent();
   const { categoryId, setIndex } = useLocalSearchParams<{ categoryId: string; setIndex?: string }>();
   const category = getCategoryById(categoryId as QuizCategory);
-  const { speak, speakSlow, stop, isSpeaking } = useArabicSpeech();
+  const { speak, stop, isSpeaking } = useArabicSpeech();
 
   const [currentSetIndex, setCurrentSetIndex] = useState(0);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -171,7 +171,7 @@ export default function QuizScreen() {
   const totalSets = categoryId ? getTotalSets(categoryId as QuizCategory) : 1;
 
   // Audio playback handler
-  const handlePlayAudio = async (text: string, slow: boolean = true) => {
+  const handlePlayAudio = async (text: string) => {
     if (isSpeaking && playingText === text) {
       // Stop if same text is playing
       await stop();
@@ -182,11 +182,7 @@ export default function QuizScreen() {
       setPlayingText(text);
       const arabicText = extractArabicText(text);
       if (arabicText) {
-        if (slow) {
-          await speakSlow(arabicText);
-        } else {
-          await speak(arabicText);
-        }
+        await speak(arabicText);
         setPlayingText(null);
       }
     }

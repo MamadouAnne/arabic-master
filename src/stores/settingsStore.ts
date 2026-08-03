@@ -16,6 +16,10 @@ interface SettingsState {
   learningGoals: string[];
   setLearningGoals: (goals: string[]) => void;
 
+  // Arabic speech playback speed (1.0 = natural). Applies app-wide.
+  arabicSpeechSpeed: number;
+  setArabicSpeechSpeed: (speed: number) => void;
+
   // Auth (NOT persisted - Supabase manages its own session)
   session: Session | null;
   user: User | null;
@@ -38,6 +42,10 @@ export const useSettingsStore = create<SettingsState>()(
       learningGoals: [],
       setLearningGoals: (goals) => set({ learningGoals: goals }),
 
+      // Arabic speech speed
+      arabicSpeechSpeed: 1.0,
+      setArabicSpeechSpeed: (speed) => set({ arabicSpeechSpeed: speed }),
+
       // Auth
       session: null,
       user: null,
@@ -56,6 +64,7 @@ export const useSettingsStore = create<SettingsState>()(
         language: state.language,
         hasCompletedOnboarding: state.hasCompletedOnboarding,
         learningGoals: state.learningGoals,
+        arabicSpeechSpeed: state.arabicSpeechSpeed,
         // session, user, isAuthenticated are NOT persisted
       }),
     }

@@ -8,6 +8,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useEffect, useState } from 'react';
+import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../src/data/community/socialData';
 
 export default function LetterDetailScreen() {
   const { letterId } = useLocalSearchParams<{ letterId: string }>();
@@ -24,7 +26,8 @@ export default function LetterDetailScreen() {
   const { lc } = useLocalizedContent();
   const [isLearned, setIsLearned] = useState(false);
   const [isMastered, setIsMastered] = useState(false);
-  const { speak, speakSlow, isSpeaking } = useArabicSpeech();
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
+  const { speak, isSpeaking } = useArabicSpeech();
 
   useEffect(() => {
     if (letter) {
@@ -86,11 +89,26 @@ export default function LetterDetailScreen() {
             <Text style={styles.titleArabic}>{letter.nameArabic}</Text>
           </View>
           <Pressable
+            style={styles.shareHeaderButton}
+            onPress={() => setShareContent({
+              kind: 'letter',
+              arabic: letter.letter,
+              translit: letter.transliteration,
+              translation: lc(letter.name, letter.nameFr),
+              audioText: letter.nameArabic,
+              ref: letter.nameArabic,
+              route: `/alphabet/${letter.id}`,
+            })}
+            accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
+          >
+            <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+          </Pressable>
+          <Pressable
             style={[styles.audioButton, isSpeaking && styles.audioButtonActive]}
             onPress={() => {
               // Speak the letter name for better pronunciation
               __DEV__ && console.log('Audio button pressed for letter:', letter.nameArabic);
-              speakSlow(letter.nameArabic);
+              speak(letter.nameArabic);
             }}
           >
             <Ionicons name="volume-high" size={24} color={isSpeaking ? "#ffffff" : "#D4AF37"} />
@@ -228,6 +246,12 @@ export default function LetterDetailScreen() {
           </View>
         </View>
       </ScrollView>
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
+      />
     </SafeAreaView>
   );
 }
@@ -293,6 +317,15 @@ const styles = StyleSheet.create({
   },
   audioButtonActive: {
     backgroundColor: '#D4AF37',
+  },
+  shareHeaderButton: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    backgroundColor: '#818cf820',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 8,
   },
   mainLetterCard: {
     backgroundColor: '#1e293b',

@@ -2,7 +2,6 @@
 // Human-like narration with prosodic modeling, breathing simulation, and natural rhythm
 import * as Speech from 'expo-speech';
 import { setAudioModeAsync } from 'expo-audio';
-import { Audio } from 'expo-av';
 import { PlaybackSpeed } from '../types/prophetStories';
 
 interface NarrationOptions {

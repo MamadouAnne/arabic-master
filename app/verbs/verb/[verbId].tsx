@@ -4,8 +4,11 @@ import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { arabicVerbs, getVerbById } from '../../../src/data/arabic/verbs/conjugations';
 import { useArabicSpeech } from '../../../src/hooks/useArabicSpeech';
+import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { ShareToGroupModal } from '../../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../../src/data/community/socialData';
 
 type TenseType = 'past' | 'present' | 'future' | 'imperative';
 
@@ -50,9 +53,11 @@ const personLabels = {
 
 export default function VerbDetailScreen() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const { verbId } = useLocalSearchParams<{ verbId: string }>();
   const { speak, isSpeaking } = useArabicSpeech();
   const [activeTense, setActiveTense] = useState<TenseType>('present');
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
 
   const verb = getVerbById(verbId);
 
@@ -93,8 +98,28 @@ export default function VerbDetailScreen() {
               <Text style={styles.verbTitle}>{verb.pastTense}</Text>
               <Ionicons name="volume-high" size={20} color="#10b981" />
             </Pressable>
-            <Text style={styles.verbMeaning}>{verb.meaning}</Text>
+            <Text style={styles.verbMeaning}>{lc(verb.meaning, verb.meaningFr)}</Text>
           </View>
+          <Pressable
+            style={styles.shareHeaderButton}
+            onPress={() => {
+              const pastExample = verb.examples?.find((ex) => ex.tense === 'past');
+              setShareContent({
+                kind: 'word',
+                arabic: verb.pastTense,
+                translit: pastExample?.transliteration,
+                translation: lc(verb.meaning, verb.meaningFr),
+                example: pastExample?.arabic,
+                exampleTranslation: pastExample ? lc(pastExample.english, pastExample.french) : undefined,
+                audioText: verb.pastTense,
+                ref: `${t('verbs.title', { defaultValue: 'Verb' })} · ${verb.root}`,
+                route: `/verbs/verb/${verb.id}`,
+              });
+            }}
+            accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
+          >
+            <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+          </Pressable>
         </View>
 
         {/* Verb Info Card */}
@@ -230,6 +255,12 @@ export default function VerbDetailScreen() {
 
         <View style={{ height: 100 }} />
       </ScrollView>
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
+      />
     </SafeAreaView>
   );
 }
@@ -238,6 +269,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#0f172a',
+  },
+  shareHeaderButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#818cf820',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: 8,
   },
   header: {
     flexDirection: 'row',

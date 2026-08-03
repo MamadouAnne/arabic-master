@@ -6,16 +6,23 @@ const REACTIONS = ['❤️', '👍', '🤲', '🔥', 'ماشاءالله', 'با
 interface Props {
   onSelect: (emoji: string) => void;
   onClose: () => void;
+  inline?: boolean;
 }
 
-export function ReactionPicker({ onSelect, onClose }: Props) {
+export function ReactionPicker({ onSelect, onClose, inline }: Props) {
+  const row = (
+    <View style={[styles.container, inline && styles.containerInline]}>
+      {REACTIONS.map((emoji) => (
+        <ReactionButton key={emoji} emoji={emoji} onPress={() => { onSelect(emoji); if (!inline) onClose(); }} />
+      ))}
+    </View>
+  );
+
+  if (inline) return row;
+
   return (
     <Pressable style={styles.overlay} onPress={onClose}>
-      <View style={styles.container}>
-        {REACTIONS.map((emoji) => (
-          <ReactionButton key={emoji} emoji={emoji} onPress={() => { onSelect(emoji); onClose(); }} />
-        ))}
-      </View>
+      {row}
     </Pressable>
   );
 }
@@ -44,6 +51,7 @@ function ReactionButton({ emoji, onPress }: { emoji: string; onPress: () => void
 const styles = StyleSheet.create({
   overlay: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 100 },
   container: { flexDirection: 'row', backgroundColor: '#1e293b', borderRadius: 28, paddingHorizontal: 8, paddingVertical: 6, borderWidth: 1, borderColor: '#334155', shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.3, shadowRadius: 8, elevation: 8, position: 'absolute', top: '40%', alignSelf: 'center', gap: 4 },
+  containerInline: { position: 'relative', top: 0, shadowOpacity: 0, elevation: 0, borderWidth: 0, backgroundColor: 'transparent' },
   emojiBtn: { width: 44, height: 44, borderRadius: 22, alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f172a' },
   emoji: { fontSize: 22 },
   arabicEmoji: { fontSize: 11, fontWeight: '700', color: '#f59e0b' },

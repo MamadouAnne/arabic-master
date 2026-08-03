@@ -60,7 +60,7 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
       <View style={styles.bottomRow}>
         <View style={styles.attendeeInfo}>
           <Ionicons name="people" size={14} color="#64748b" />
-          <Text style={styles.attendeeText}>{session.attendeeCount} going</Text>
+          <Text style={styles.attendeeText}>{session.attendeeCount === 0 ? 'No one yet — be the first!' : `${session.attendeeCount} going`}</Text>
         </View>
 
         {!isPast && (

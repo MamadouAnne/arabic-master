@@ -1,4 +1,4 @@
-import { useRef, useCallback, useState, useMemo } from 'react';
+import { useRef, useCallback, useState, useMemo, useEffect } from 'react';
 import {
   View,
   Modal,
@@ -20,6 +20,7 @@ import { AIChatMessageList } from './AIChatMessageList';
 import { AIChatInput } from './AIChatInput';
 import { AIQuickSuggestions } from './AIQuickSuggestions';
 import { CreditPurchaseSheet } from './CreditPurchaseSheet';
+import { AIVoiceChat } from './AIVoiceChat';
 
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SHEET_HEIGHT_RATIO = 0.85;
@@ -50,6 +51,7 @@ export function AIChatSheet() {
     preferredModel,
     setPreferredModel,
     clearConversation,
+    startInVoiceMode,
   } = useAIChatStore();
 
   const creditBalance = useCreditStore((s) => s.creditBalance);
@@ -72,6 +74,12 @@ export function AIChatSheet() {
 
   const [inputText, setInputText] = useState('');
   const [purchaseSheetVisible, setPurchaseSheetVisible] = useState(false);
+  const [isVoiceMode, setIsVoiceMode] = useState(startInVoiceMode);
+
+  // Sync voice mode when sheet opens with startInVoiceMode flag
+  useEffect(() => {
+    if (isOpen) setIsVoiceMode(startInVoiceMode);
+  }, [isOpen, startInVoiceMode]);
 
   // Slide animation
   const slideAnim = useRef(new Animated.Value(SCREEN_HEIGHT)).current;
@@ -122,6 +130,7 @@ export function AIChatSheet() {
 
   const handleClose = useCallback(() => {
     setInputText('');
+    setIsVoiceMode(false);
     animateOut(() => closeChat());
   }, []);
 
@@ -187,47 +196,56 @@ export function AIChatSheet() {
               },
             ]}
           >
-            {/* Only the header area responds to drag-to-dismiss */}
-            <Animated.View {...panResponder.panHandlers}>
-              <AIChatHeader
-                module={activeModule}
-                model={preferredModel}
-                creditInfo={creditInfo}
-                onClear={handleClear}
-                onClose={handleClose}
-                onCreditPress={() => setPurchaseSheetVisible(true)}
-                onTeacherSwitch={handleModelSwitch}
-              />
-            </Animated.View>
+            {isVoiceMode ? (
+              /* ── Voice Chat Mode ─────────────────────────────── */
+              <AIVoiceChat onClose={() => setIsVoiceMode(false)} />
+            ) : (
+              /* ── Text Chat Mode ──────────────────────────────── */
+              <>
+                {/* Only the header area responds to drag-to-dismiss */}
+                <Animated.View {...panResponder.panHandlers}>
+                  <AIChatHeader
+                    module={activeModule}
+                    model={preferredModel}
+                    creditInfo={creditInfo}
+                    onClear={handleClear}
+                    onClose={handleClose}
+                    onCreditPress={() => setPurchaseSheetVisible(true)}
+                    onTeacherSwitch={handleModelSwitch}
+                  />
+                </Animated.View>
 
-            <View style={styles.messageArea}>
-              <AIChatMessageList
-                messages={messages}
-                isStreaming={isStreaming}
-                streamingContent={streamingContent}
-                module={activeModule}
-                model={preferredModel}
-                segments={segments}
-                onSuggestionPress={handleSuggestionPress}
-              />
-            </View>
+                <View style={styles.messageArea}>
+                  <AIChatMessageList
+                    messages={messages}
+                    isStreaming={isStreaming}
+                    streamingContent={streamingContent}
+                    module={activeModule}
+                    model={preferredModel}
+                    segments={segments}
+                    onSuggestionPress={handleSuggestionPress}
+                  />
+                </View>
 
-            <AIQuickSuggestions
-              messages={messages}
-              isStreaming={isStreaming}
-              activeModule={activeModule}
-              segments={segments}
-              onPress={handleSuggestionPress}
-            />
+                <AIQuickSuggestions
+                  messages={messages}
+                  isStreaming={isStreaming}
+                  activeModule={activeModule}
+                  segments={segments}
+                  onPress={handleSuggestionPress}
+                />
 
-            <AIChatInput
-              value={inputText}
-              onChangeText={setInputText}
-              onSend={handleSend}
-              isStreaming={isStreaming}
-              onStopStreaming={handleStopStreaming}
-              hasCredits={hasCredits}
-            />
+                <AIChatInput
+                  value={inputText}
+                  onChangeText={setInputText}
+                  onSend={handleSend}
+                  isStreaming={isStreaming}
+                  onStopStreaming={handleStopStreaming}
+                  hasCredits={hasCredits}
+                  onVoicePress={() => setIsVoiceMode(true)}
+                />
+              </>
+            )}
           </Animated.View>
         </KeyboardAvoidingView>
       </View>

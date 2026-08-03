@@ -1,0 +1,220 @@
+import React, { useState, useEffect, useCallback } from 'react';
+import { View, Text, StyleSheet, Pressable, TextInput, ActivityIndicator } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import type { QuizContent } from '../../../types/classContent';
+import { submitClassResponse, fetchClassResponses, ClassResponseRow } from '../../../services/communitySocialService';
+import { renderRichText } from './richText';
+
+interface Props {
+  messageId: string;
+  groupId: string;
+  quiz: QuizContent;
+  groupColor: string;
+  authorName: string;
+  userId?: string;
+  userName: string;
+  isAuthor: boolean;
+}
+
+export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz, groupColor, authorName, userId, userName, isAuthor }: Props) {
+  const [answers, setAnswers] = useState<Record<string, number | string>>({});
+  const [submitted, setSubmitted] = useState(false);
+  const [score, setScore] = useState<number | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [responses, setResponses] = useState<ClassResponseRow[]>([]);
+  const [showResults, setShowResults] = useState(false);
+
+  const isLocal = messageId.startsWith('local-');
+
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      if (isLocal) { setLoading(false); return; }
+      const rows = await fetchClassResponses(messageId);
+      if (!alive) return;
+      setResponses(rows);
+      const mine = rows.find((r) => r.user_id === userId);
+      if (mine) {
+        setAnswers(mine.response.answers || {});
+        setScore(mine.score ?? null);
+        setSubmitted(true);
+      }
+      setLoading(false);
+    })();
+    return () => { alive = false; };
+  }, [messageId, userId, isLocal]);
+
+  const grade = useCallback(() => {
+    let correct = 0;
+    for (const q of quiz.questions) {
+      const a = answers[q.id];
+      if (q.type === 'multiple_choice') {
+        if (a === q.correctIndex) correct++;
+      } else if (typeof a === 'string' && q.correctText) {
+        if (a.trim().toLowerCase() === q.correctText.trim().toLowerCase()) correct++;
+      }
+    }
+    return Math.round((correct / quiz.questions.length) * 100);
+  }, [answers, quiz]);
+
+  const handleSubmit = async () => {
+    const s = grade();
+    setScore(s);
+    setSubmitted(true);
+    if (!isLocal && userId) {
+      await submitClassResponse(messageId, groupId, userId, userName, { answers }, s >= quiz.passingScore, s);
+      const rows = await fetchClassResponses(messageId);
+      setResponses(rows);
+    }
+  };
+
+  const answeredAll = quiz.questions.every((q) => answers[q.id] !== undefined && answers[q.id] !== '');
+  const passed = score !== null && score >= quiz.passingScore;
+
+  const isCorrect = (qId: string, val: number | string, q: QuizContent['questions'][number]) =>
+    q.type === 'multiple_choice' ? val === q.correctIndex : typeof val === 'string' && !!q.correctText && val.trim().toLowerCase() === q.correctText.trim().toLowerCase();
+
+  return (
+    <View style={styles.card}>
+      <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
+        <View style={[styles.badge, { backgroundColor: groupColor }]}>
+          <Ionicons name="help-circle" size={13} color="#ffffff" />
+          <Text style={styles.badgeText}>QUIZ</Text>
+        </View>
+        <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
+      </View>
+
+      <View style={styles.body}>
+        <Text style={styles.title}>{quiz.title}</Text>
+
+        {loading ? (
+          <ActivityIndicator color={groupColor} style={{ marginVertical: 16 }} />
+        ) : (
+          <>
+            {quiz.questions.map((q, qi) => {
+              const a = answers[q.id];
+              return (
+                <View key={q.id} style={styles.question}>
+                  <Text style={styles.prompt}>{qi + 1}. {renderRichText(q.prompt)}</Text>
+
+                  {q.type === 'multiple_choice' ? (
+                    (q.options || []).map((opt, oi) => {
+                      const selected = a === oi;
+                      const revealCorrect = submitted && oi === q.correctIndex;
+                      const revealWrong = submitted && selected && oi !== q.correctIndex;
+                      return (
+                        <Pressable
+                          key={oi}
+                          disabled={submitted}
+                          onPress={() => setAnswers((prev) => ({ ...prev, [q.id]: oi }))}
+                          style={[
+                            styles.option,
+                            selected && !submitted && { borderColor: groupColor, backgroundColor: `${groupColor}18` },
+                            revealCorrect && styles.optCorrect,
+                            revealWrong && styles.optWrong,
+                          ]}
+                        >
+                          <Ionicons
+                            name={revealCorrect ? 'checkmark-circle' : revealWrong ? 'close-circle' : selected ? 'radio-button-on' : 'radio-button-off'}
+                            size={18}
+                            color={revealCorrect ? '#10b981' : revealWrong ? '#ef4444' : selected ? groupColor : '#475569'}
+                          />
+                          <Text style={styles.optText}>{renderRichText(opt)}</Text>
+                        </Pressable>
+                      );
+                    })
+                  ) : (
+                    <TextInput
+                      style={[styles.blankInput, submitted && (isCorrect(q.id, a, q) ? styles.optCorrect : styles.optWrong)]}
+                      placeholder="Your answer"
+                      placeholderTextColor="#475569"
+                      value={(a as string) || ''}
+                      editable={!submitted}
+                      onChangeText={(t) => setAnswers((prev) => ({ ...prev, [q.id]: t }))}
+                    />
+                  )}
+
+                  {submitted && q.explanation ? (
+                    <View style={styles.explBox}>
+                      <Ionicons name="information-circle" size={14} color="#38bdf8" />
+                      <Text style={styles.explText}>{q.explanation}</Text>
+                    </View>
+                  ) : null}
+                </View>
+              );
+            })}
+
+            {!submitted ? (
+              <Pressable
+                disabled={!answeredAll}
+                onPress={handleSubmit}
+                style={[styles.submitBtn, { backgroundColor: groupColor }, !answeredAll && { opacity: 0.4 }]}
+              >
+                <Text style={styles.submitText}>Submit answers</Text>
+              </Pressable>
+            ) : (
+              <View style={[styles.scoreBox, { borderColor: passed ? '#10b981' : '#f59e0b' }]}>
+                <Ionicons name={passed ? 'trophy' : 'ribbon'} size={20} color={passed ? '#10b981' : '#f59e0b'} />
+                <Text style={styles.scoreText}>You scored {score}%{passed ? ' — passed!' : ''}</Text>
+              </View>
+            )}
+
+            {isAuthor && !isLocal && (
+              <Pressable style={styles.resultsToggle} onPress={() => setShowResults((v) => !v)}>
+                <Ionicons name="bar-chart" size={15} color={groupColor} />
+                <Text style={[styles.resultsText, { color: groupColor }]}>
+                  {showResults ? 'Hide' : 'View'} results ({responses.length} answered)
+                </Text>
+              </Pressable>
+            )}
+
+            {isAuthor && showResults && (
+              <View style={styles.resultsBox}>
+                <Text style={styles.resultsLine}>
+                  {responses.length} student{responses.length === 1 ? '' : 's'} answered
+                  {responses.length > 0 ? ` · avg ${Math.round(responses.reduce((s, r) => s + (r.score || 0), 0) / responses.length)}%` : ''}
+                </Text>
+                {responses.map((r) => (
+                  <View key={r.id} style={styles.resultRow}>
+                    <Text style={styles.resultName} numberOfLines={1}>{r.user_name}</Text>
+                    <Text style={[styles.resultScore, { color: (r.score || 0) >= quiz.passingScore ? '#10b981' : '#f59e0b' }]}>{r.score}%</Text>
+                  </View>
+                ))}
+              </View>
+            )}
+          </>
+        )}
+      </View>
+    </View>
+  );
+});
+
+const styles = StyleSheet.create({
+  card: { width: '100%', backgroundColor: '#1e293b', borderRadius: 16, borderWidth: 1, borderColor: '#334155', overflow: 'hidden' },
+  band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
+  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8 },
+  badgeText: { fontSize: 10, fontWeight: '800', color: '#ffffff', letterSpacing: 0.6 },
+  byline: { fontSize: 12, color: '#94a3b8', maxWidth: 130 },
+  body: { padding: 14 },
+  title: { fontSize: 18, fontWeight: '800', color: '#f8fafc', marginBottom: 12 },
+  question: { marginBottom: 16 },
+  prompt: { fontSize: 15, fontWeight: '600', color: '#f1f5f9', lineHeight: 22, marginBottom: 8 },
+  option: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 10, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0f172a', marginBottom: 6 },
+  optText: { flex: 1, fontSize: 14.5, color: '#e2e8f0', lineHeight: 20 },
+  optCorrect: { borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.12)' },
+  optWrong: { borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.12)' },
+  blankInput: { backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, fontSize: 15, color: '#e2e8f0', borderWidth: 1, borderColor: '#334155' },
+  explBox: { flexDirection: 'row', gap: 6, marginTop: 8, padding: 8, borderRadius: 8, backgroundColor: 'rgba(56,189,248,0.1)' },
+  explText: { flex: 1, fontSize: 13, color: '#cbd5e1', lineHeight: 19 },
+  submitBtn: { paddingVertical: 12, borderRadius: 12, alignItems: 'center', marginTop: 4 },
+  submitText: { color: '#ffffff', fontWeight: '700', fontSize: 15 },
+  scoreBox: { flexDirection: 'row', alignItems: 'center', gap: 8, borderWidth: 1.5, borderRadius: 12, padding: 12, justifyContent: 'center' },
+  scoreText: { fontSize: 15, fontWeight: '700', color: '#f8fafc' },
+  resultsToggle: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, marginTop: 12, paddingVertical: 6 },
+  resultsText: { fontSize: 13, fontWeight: '600' },
+  resultsBox: { marginTop: 8, padding: 10, borderRadius: 10, backgroundColor: '#0f172a' },
+  resultsLine: { fontSize: 13, fontWeight: '700', color: '#e2e8f0', marginBottom: 8 },
+  resultRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: 4 },
+  resultName: { flex: 1, fontSize: 13, color: '#cbd5e1' },
+  resultScore: { fontSize: 13, fontWeight: '700' },
+});

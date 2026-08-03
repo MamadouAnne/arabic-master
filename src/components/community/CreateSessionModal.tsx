@@ -30,11 +30,11 @@ export function CreateSessionModal({ visible, onClose, onCreate, groupColor }: P
   };
 
   const dayOptions = [
-    { label: 'Tomorrow', value: 1 },
-    { label: 'In 2 days', value: 2 },
-    { label: 'In 3 days', value: 3 },
-    { label: 'This weekend', value: Math.max(1, (6 - new Date().getDay()) % 7) },
-    { label: 'Next week', value: 7 },
+    { key: 'tomorrow', label: 'Tomorrow', value: 1 },
+    { key: 'in2days', label: 'In 2 days', value: 2 },
+    { key: 'in3days', label: 'In 3 days', value: 3 },
+    { key: 'weekend', label: 'This weekend', value: Math.max(1, (6 - new Date().getDay()) % 7) },
+    { key: 'nextweek', label: 'Next week', value: 7 },
   ];
 
   return (
@@ -45,20 +45,21 @@ export function CreateSessionModal({ visible, onClose, onCreate, groupColor }: P
             <Pressable onPress={onClose}>
               <Ionicons name="close" size={24} color="#94a3b8" />
             </Pressable>
-            <Text style={styles.headerTitle}>New Session</Text>
+            <Text style={styles.headerTitle}>Study Session</Text>
             <Pressable style={[styles.createBtn, !title.trim() && { opacity: 0.4 }]} onPress={handleCreate} disabled={!title.trim()}>
               <Text style={styles.createBtnText}>Create</Text>
             </Pressable>
           </View>
 
           <ScrollView showsVerticalScrollIndicator={false}>
-            <TextInput style={styles.input} placeholder="Session title" placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
-            <TextInput style={[styles.input, { minHeight: 60 }]} placeholder="Description (optional)" placeholderTextColor="#64748b" value={description} onChangeText={setDescription} multiline maxLength={300} />
+            <Text style={styles.hint}>Pick a time for the group to study together. Members will be notified and can RSVP.</Text>
+            <TextInput style={styles.input} placeholder='e.g. "Juz 30 Review" or "Tajweed Practice"' placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
+            <TextInput style={[styles.input, { minHeight: 60 }]} placeholder="What will you study? (optional)" placeholderTextColor="#64748b" value={description} onChangeText={setDescription} multiline maxLength={300} />
 
             <Text style={styles.label}>When</Text>
             <View style={styles.optionRow}>
               {dayOptions.map((opt) => (
-                <Pressable key={opt.value} style={[styles.optionBtn, selectedDay === opt.value && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setSelectedDay(opt.value)}>
+                <Pressable key={opt.key} style={[styles.optionBtn, selectedDay === opt.value && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setSelectedDay(opt.value)}>
                   <Text style={[styles.optionText, selectedDay === opt.value && { color: groupColor }]}>{opt.label}</Text>
                 </Pressable>
               ))}
@@ -86,6 +87,7 @@ const styles = StyleSheet.create({
   headerTitle: { fontSize: 18, fontWeight: '700', color: '#ffffff' },
   createBtn: { backgroundColor: '#818cf8', paddingHorizontal: 20, paddingVertical: 8, borderRadius: 12 },
   createBtnText: { fontSize: 14, fontWeight: '700', color: '#ffffff' },
+  hint: { fontSize: 13, color: '#64748b', lineHeight: 19, marginBottom: 14 },
   input: { backgroundColor: '#0f172a', borderRadius: 12, padding: 14, fontSize: 15, color: '#ffffff', marginBottom: 12, borderWidth: 1, borderColor: '#334155' },
   label: { fontSize: 13, fontWeight: '600', color: '#94a3b8', marginBottom: 8, marginTop: 4 },
   optionRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 16 },

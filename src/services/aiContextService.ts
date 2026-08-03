@@ -9,6 +9,7 @@ import { Exercise } from '../types/arabic';
 import { TOTAL_PRAYER_LESSONS } from '../types/prayer';
 import { TOTAL_DUAS } from '../types/duas';
 import { HADITH_COLLECTION_NAMES } from '../types/duas';
+import { ACHIEVEMENTS } from '../data/achievements';
 import { getLetterById } from '../data/arabic/alphabet/letters';
 import { getThemeById, getWordsByTheme } from '../data/arabic/vocabulary/index';
 import { getLessonById } from '../data/arabic/grammar/lessons';
@@ -1019,8 +1020,10 @@ export function gatherAIContext(module: AIModuleContext): AIContextPayload {
   const settings = useSettingsStore.getState();
   const { activeSegments } = useAIChatStore.getState();
 
-  const { alphabetProgress, vocabularyProgress, grammarProgress, currentStreak } =
-    progress.progress;
+  const {
+    alphabetProgress, vocabularyProgress, grammarProgress, verbProgress,
+    readingProgress, currentStreak, longestStreak, totalXp, lastStudyDate,
+  } = progress.progress;
 
   const lessonsCompleted =
     grammarProgress.lessonsCompleted.length +
@@ -1028,6 +1031,9 @@ export function gatherAIContext(module: AIModuleContext): AIContextPayload {
 
   // Enrich with lesson data from segments
   const lessonInfo = getLessonInfo(activeSegments, settings.language);
+
+  // Enhanced profile data (Feature 1)
+  const srsStats = progress.getVocabularyReviewStats();
 
   const payload: AIContextPayload = {
     module,
@@ -1038,6 +1044,21 @@ export function gatherAIContext(module: AIModuleContext): AIContextPayload {
     accuracy: progress.getAccuracy(),
     currentStreak,
     language: settings.language,
+    // Enhanced profile fields
+    totalXp,
+    longestStreak,
+    achievementsUnlocked: progress.unlockedAchievements.length,
+    totalAchievements: ACHIEVEMENTS.length,
+    wordsMastered: vocabularyProgress.wordsMastered.length,
+    verbsLearned: verbProgress.verbsLearned.length,
+    verbsMastered: verbProgress.verbsMastered.length,
+    readingTextsCompleted: readingProgress.textsCompleted.length,
+    exercisesCompleted: progress.progress.exerciseResults.totalCompleted,
+    srsReviewsDue: srsStats.dueToday,
+    lastStudyDate: lastStudyDate || '',
+    lettersMastered: alphabetProgress.masteredLetters.length,
+    themesCompleted: vocabularyProgress.themesCompleted.length,
+    totalThemes: 10,
     ...lessonInfo,
   };
 

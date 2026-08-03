@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Pressable, StyleSheet, Modal, ActivityIndicator
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import * as Speech from 'expo-speech';
+import { speakGoogleArabic } from '../../../src/services/speech/googleArabicTts';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { getTajweedRuleById } from '../../../src/data/arabic/quran/tajweed/rules';
@@ -83,12 +83,9 @@ export default function TajweedRuleDetailScreen() {
   const isLearned = isTajweedRuleLearned(rule.id);
   const isMastered = isTajweedRuleMastered(rule.id);
 
-  // Play individual letter using TTS (for letter buttons)
+  // Play individual letter using free Google TTS (for letter buttons)
   const playLetter = (letter: string) => {
-    Speech.speak(letter, {
-      language: 'ar',
-      rate: 0.5,
-    });
+    speakGoogleArabic(letter, { rate: 0.7 });
   };
 
   // Play Quran verse example using real reciter audio

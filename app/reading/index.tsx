@@ -1,6 +1,7 @@
 import { View, Text, ScrollView, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
@@ -100,7 +101,7 @@ const readingTexts = [
 export default function ReadingScreen() {
   const { t } = useTranslation();
   const { lc } = useLocalizedContent();
-  const { progress, showVowels, setShowVowels } = useProgressStore();
+  const { progress } = useProgressStore();
   const completedTexts = progress.readingProgress.textsCompleted;
   const startedTexts = progress.readingProgress.textsStarted;
 
@@ -142,56 +143,29 @@ export default function ReadingScreen() {
           </View>
         </View>
 
-        {/* Vowel Toggle */}
+        {/* Arabic memorization entry */}
         <Pressable
-          style={styles.vowelToggle}
-          onPress={() => setShowVowels(!showVowels)}
+          style={styles.arabicCardWrap}
+          onPress={() => router.push('/reading/arabic' as any)}
         >
-          <View style={styles.vowelLeft}>
-            <Ionicons
-              name={showVowels ? 'eye' : 'eye-off'}
-              size={20}
-              color="#10b981"
-            />
-            <View style={styles.vowelText}>
-              <Text style={styles.vowelTitle}>{t('reading.vowelMarks')}</Text>
-              <Text style={styles.vowelDesc}>
-                {showVowels
-                  ? t('reading.vowelsShowing')
-                  : t('reading.vowelsHidden')}
+          <LinearGradient
+            colors={['#10b981', '#0d9488']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={styles.arabicCard}
+          >
+            <View style={styles.arabicIconWrap}>
+              <Ionicons name="bookmark" size={22} color="#ffffff" />
+            </View>
+            <View style={styles.arabicTextWrap}>
+              <Text style={styles.arabicTitle}>{t('reading.memo.entryTitle')}</Text>
+              <Text style={styles.arabicSubtitle}>
+                {t('reading.memo.entrySubtitle')}
               </Text>
             </View>
-          </View>
-          <View style={[styles.toggle, showVowels && styles.toggleActive]}>
-            <View style={[styles.toggleThumb, showVowels && styles.toggleThumbActive]} />
-          </View>
+            <Ionicons name="chevron-forward" size={20} color="rgba(255,255,255,0.85)" />
+          </LinearGradient>
         </Pressable>
-
-        {/* Progress Card */}
-        <View style={styles.progressCard}>
-          <View style={styles.progressHeader}>
-            <Ionicons name="stats-chart" size={20} color="#10b981" />
-            <Text style={styles.progressTitle}>{t('common.yourProgress')}</Text>
-          </View>
-          <View style={styles.progressStats}>
-            <View style={styles.progressStat}>
-              <Text style={[styles.progressValue, { color: '#10b981' }]}>{completedTexts.length}</Text>
-              <Text style={styles.progressLabel}>{t('common.completed')}</Text>
-            </View>
-            <View style={styles.progressDivider} />
-            <View style={styles.progressStat}>
-              <Text style={[styles.progressValue, { color: '#D4AF37' }]}>{startedTexts.length}</Text>
-              <Text style={styles.progressLabel}>{t('common.inProgress')}</Text>
-            </View>
-            <View style={styles.progressDivider} />
-            <View style={styles.progressStat}>
-              <Text style={styles.progressValue}>
-                {readingTexts.length - completedTexts.length - startedTexts.length}
-              </Text>
-              <Text style={styles.progressLabel}>{t('common.remaining')}</Text>
-            </View>
-          </View>
-        </View>
 
         {/* Beginner Section */}
         <View style={styles.section}>
@@ -502,10 +476,38 @@ const styles = StyleSheet.create({
     height: 40,
     backgroundColor: '#334155',
   },
+  arabicCardWrap: {
+    marginHorizontal: 20,
+    marginBottom: 24,
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
+  arabicCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+  },
+  arabicIconWrap: {
+    width: 44,
+    height: 44,
+    borderRadius: 12,
+    backgroundColor: 'rgba(255,255,255,0.22)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  arabicTextWrap: { flex: 1, marginLeft: 14 },
+  arabicTitle: { fontSize: 15.5, fontWeight: '700', color: '#ffffff' },
+  arabicSubtitle: {
+    fontSize: 12,
+    color: 'rgba(255,255,255,0.9)',
+    marginTop: 3,
+    lineHeight: 16,
+  },
   section: {
     paddingHorizontal: 20,
     marginBottom: 24,
   },
+
   sectionHeader: {
     flexDirection: 'row',
     alignItems: 'center',

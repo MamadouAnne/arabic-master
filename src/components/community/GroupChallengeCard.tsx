@@ -58,7 +58,7 @@ export function GroupChallengeCard({ challenge, groupColor }: Props) {
       {/* Progress bar */}
       <View style={styles.progressSection}>
         <View style={styles.progressHeader}>
-          <Text style={styles.progressLabel}>{challenge.currentValue}/{challenge.targetValue} {challenge.targetType}</Text>
+          <Text style={styles.progressLabel}>{challenge.currentValue} of {challenge.targetValue} {challenge.targetType}</Text>
           <Text style={styles.progressPercent}>{Math.round(progress)}%</Text>
         </View>
         <View style={styles.progressBar}>
@@ -69,7 +69,7 @@ export function GroupChallengeCard({ challenge, groupColor }: Props) {
       <View style={styles.bottomRow}>
         <View style={styles.metaItem}>
           <Ionicons name="people" size={13} color="#64748b" />
-          <Text style={styles.metaText}>{challenge.participantCount} participants</Text>
+          <Text style={styles.metaText}>{challenge.participantCount === 0 ? 'No participants yet' : `${challenge.participantCount} working on it`}</Text>
         </View>
       </View>
     </View>

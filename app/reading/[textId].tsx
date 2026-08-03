@@ -7,6 +7,9 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
+import SpeechSpeedControl from '../../src/components/SpeechSpeedControl';
+import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../src/data/community/socialData';
 
 // Reading content
 const readingContent: Record<string, {
@@ -261,12 +264,12 @@ export default function ReadingDetailScreen() {
   const { textId } = useLocalSearchParams<{ textId: string }>();
   const { startReading, completeReading, addXp, updateStreak } = useProgressStore();
 
-  const { speak, speakSlow, stop, isSpeaking } = useArabicSpeech();
+  const { speak, stop, isSpeaking } = useArabicSpeech();
   const text = readingContent[textId || ''];
 
   const [isPlayingAll, setIsPlayingAll] = useState(false);
   const [currentPlayingIndex, setCurrentPlayingIndex] = useState<number | null>(null);
-  const [isSlowMode, setIsSlowMode] = useState(true); // Default to slow for better learning
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
   const isPlayingAllRef = useRef(false);
   const currentIndexRef = useRef(0);
   const scrollViewRef = useRef<ScrollView>(null);
@@ -290,12 +293,8 @@ export default function ReadingDetailScreen() {
       return;
     }
     setCurrentPlayingIndex(index);
-    if (isSlowMode) {
-      speakSlow(text.paragraphs[index].arabic);
-    } else {
-      speak(text.paragraphs[index].arabic);
-    }
-  }, [text, speak, speakSlow, stop, isSlowMode, currentPlayingIndex, isSpeaking]);
+    speak(text.paragraphs[index].arabic);
+  }, [text, speak, stop, currentPlayingIndex, isSpeaking]);
 
   // Play all sentences sequentially
   const handlePlayAll = useCallback(async () => {
@@ -318,24 +317,15 @@ export default function ReadingDetailScreen() {
         currentIndexRef.current = i;
         setCurrentPlayingIndex(i);
 
-        await new Promise<void>((resolve) => {
-          if (isSlowMode) {
-            speakSlow(text.paragraphs[i].arabic);
-            // Wait for speech to complete (slow mode needs more time)
-            setTimeout(resolve, 5000);
-          } else {
-            speak(text.paragraphs[i].arabic);
-            // Wait for speech to complete
-            setTimeout(resolve, 4000);
-          }
-        });
+        // Await actual playback completion (Google TTS resolves when finished).
+        await speak(text.paragraphs[i].arabic);
       }
 
       isPlayingAllRef.current = false;
       setIsPlayingAll(false);
       setCurrentPlayingIndex(null);
     }
-  }, [text, speak, speakSlow, stop, isPlayingAll, isSlowMode]);
+  }, [text, speak, stop, isPlayingAll]);
 
   const handleComplete = () => {
     if (textId) {
@@ -383,6 +373,22 @@ export default function ReadingDetailScreen() {
             <Text style={styles.titleArabic}>{text.titleArabic}</Text>
             <Text style={styles.title}>{lc(text.title, text.titleFr)}</Text>
           </View>
+          <Pressable
+            style={styles.shareHeaderButton}
+            onPress={() => setShareContent({
+              kind: 'lesson',
+              arabic: text.titleArabic,
+              translation: lc(text.title, text.titleFr),
+              example: text.paragraphs[0]?.arabic,
+              exampleTranslation: text.paragraphs[0] ? lc(text.paragraphs[0].english, text.paragraphs[0].french) : undefined,
+              audioText: text.titleArabic,
+              ref: text.level,
+              route: `/reading/${textId}`,
+            })}
+            accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
+          >
+            <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+          </Pressable>
           <View style={styles.headerIcon}>
             <Text style={styles.iconText}>{text.icon}</Text>
           </View>
@@ -410,19 +416,8 @@ export default function ReadingDetailScreen() {
         <View style={styles.sentencesHeader}>
           <Text style={styles.sectionTitle}>{t('reading.sentences')}</Text>
           <View style={styles.headerButtons}>
-            {/* Speed Toggle */}
-            <Pressable
-              style={[
-                styles.speedToggle,
-                isSlowMode && styles.speedToggleActive,
-              ]}
-              onPress={() => setIsSlowMode(!isSlowMode)}
-            >
-              <Ionicons name="speedometer" size={14} color={isSlowMode ? '#ffffff' : '#94a3b8'} />
-              <Text style={[styles.speedToggleText, isSlowMode && styles.speedToggleTextActive]}>
-                {isSlowMode ? t('reading.slow') : t('reading.normal')}
-              </Text>
-            </Pressable>
+            {/* Numbered speed control (app-wide) */}
+            <SpeechSpeedControl showIcon={false} />
             {/* Play All Button */}
             <Pressable
               style={[
@@ -476,6 +471,12 @@ export default function ReadingDetailScreen() {
           </Pressable>
         </View>
       </ScrollView>
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
+      />
     </SafeAreaView>
   );
 }
@@ -512,6 +513,15 @@ const styles = StyleSheet.create({
     color: '#10b981',
     fontSize: 14,
     marginTop: 4,
+  },
+  shareHeaderButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#818cf820',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 8,
   },
   headerIcon: {
     width: 44,

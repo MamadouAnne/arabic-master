@@ -27,8 +27,7 @@ export default function DuaDetailScreen() {
   } = useDuasStore();
 
   // Audio/Speech functionality
-  const { speak, speakSlow, stop, isSpeaking, voiceGender, setVoiceGender, swapVoices, hasMultipleVoices } = useArabicSpeech();
-  const [isSlowMode, setIsSlowMode] = useState(true);
+  const { speak, stop, isSpeaking, voiceGender, setVoiceGender, swapVoices, hasMultipleVoices } = useArabicSpeech();
   const [showVoiceHelp, setShowVoiceHelp] = useState(false);
 
   // Get dua data
@@ -64,18 +63,9 @@ export default function DuaDetailScreen() {
     if (isSpeaking) {
       await stop();
     } else {
-      if (isSlowMode) {
-        await speakSlow(dua.arabicText);
-      } else {
-        await speak(dua.arabicText);
-      }
+      await speak(dua.arabicText);
     }
-  }, [dua, isSpeaking, isSlowMode, speak, speakSlow, stop]);
-
-  // Toggle speed mode
-  const handleToggleSpeed = useCallback(() => {
-    setIsSlowMode(prev => !prev);
-  }, []);
+  }, [dua, isSpeaking, speak, stop]);
 
   // Toggle voice gender
   const handleToggleVoice = useCallback(() => {
@@ -233,19 +223,6 @@ export default function DuaDetailScreen() {
               )}
             </Pressable>
 
-            <Pressable
-              style={styles.speedButton}
-              onPress={handleToggleSpeed}
-            >
-              <Ionicons
-                name="speedometer-outline"
-                size={18}
-                color={isSlowMode ? '#f59e0b' : '#94a3b8'}
-              />
-              <Text style={[styles.speedText, isSlowMode && styles.speedTextActive]}>
-                {isSlowMode ? t('duasFeature.slow') : t('duasFeature.normal')}
-              </Text>
-            </Pressable>
 
             <Pressable
               style={[styles.playButton, isSpeaking && styles.playButtonActive]}

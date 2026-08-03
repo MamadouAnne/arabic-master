@@ -614,25 +614,49 @@ export interface GroupMessageRow {
   author_name: string;
   avatar: string;
   body: string;
-  type: 'chat' | 'system' | 'milestone' | 'voice';
+  type: 'chat' | 'system' | 'milestone' | 'voice' | 'image' | 'shared' | 'lesson' | 'quiz' | 'poll' | 'board';
   is_pinned?: boolean;
   audio_url?: string;
   duration_ms?: number;
   created_at: string;
+  // Chat overhaul columns
+  reply_to_id?: string | null;
+  edited_at?: string | null;
+  is_deleted?: boolean;
+  image_url?: string | null;
+  image_w?: number | null;
+  image_h?: number | null;
+  mentions?: string[] | null;
+  shared_content?: any | null;
+  waveform?: number[] | null;
+  class_content?: any | null;
 }
 
-export async function fetchGroupMessages(groupId: string): Promise<GroupMessageRow[]> {
+/**
+ * Fetch group messages. By default returns the latest page (ascending order for
+ * rendering). Pass `before` (an ISO created_at cursor) to page backwards through
+ * older messages when the user scrolls up.
+ */
+export async function fetchGroupMessages(
+  groupId: string,
+  opts: { before?: string; limit?: number } = {}
+): Promise<GroupMessageRow[]> {
+  const { before, limit = 40 } = opts;
   try {
     const client = getClient();
-    const { data, error } = await client
+    let query = client
       .from('group_messages')
       .select('*')
       .eq('group_id', groupId)
-      .order('created_at', { ascending: true })
-      .limit(100);
+      .order('created_at', { ascending: false })
+      .limit(limit);
 
+    if (before) query = query.lt('created_at', before);
+
+    const { data, error } = await query;
     if (error) throw error;
-    return data || [];
+    // Reverse to ascending (oldest → newest) for chat rendering.
+    return (data || []).slice().reverse();
   } catch (e) {
     if (__DEV__) console.warn('[communitySocial] fetchGroupMessages fallback:', e);
     return [];
@@ -643,7 +667,8 @@ export async function sendGroupMessage(
   groupId: string,
   userId: string,
   authorName: string,
-  body: string
+  body: string,
+  opts: { replyToId?: string | null; mentions?: string[] } = {}
 ): Promise<GroupMessageRow | null> {
   try {
     const client = getClient();
@@ -657,6 +682,8 @@ export async function sendGroupMessage(
         avatar,
         body,
         type: 'chat',
+        reply_to_id: opts.replyToId || null,
+        mentions: opts.mentions && opts.mentions.length ? opts.mentions : [],
       })
       .select()
       .single();
@@ -669,9 +696,281 @@ export async function sendGroupMessage(
   }
 }
 
+// ── Edit / Delete ───────────────────────────────────────────────
+
+export async function editGroupMessage(messageId: string, newBody: string): Promise<boolean> {
+  try {
+    const client = getClient();
+    const { error } = await client
+      .from('group_messages')
+      .update({ body: newBody, edited_at: new Date().toISOString() })
+      .eq('id', messageId);
+    if (error) throw error;
+    return true;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] editGroupMessage error:', e);
+    return false;
+  }
+}
+
+/** Soft-delete: keeps the row so replies pointing at it stay valid. */
+export async function deleteGroupMessage(messageId: string): Promise<boolean> {
+  try {
+    const client = getClient();
+    const { error } = await client
+      .from('group_messages')
+      .update({ is_deleted: true, body: '', audio_url: null, image_url: null, shared_content: null })
+      .eq('id', messageId);
+    if (error) throw error;
+    return true;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] deleteGroupMessage error:', e);
+    return false;
+  }
+}
+
+// ── Image messages ──────────────────────────────────────────────
+
+export async function uploadChatImage(
+  groupId: string,
+  userId: string,
+  fileUri: string
+): Promise<string | null> {
+  try {
+    const client = getClient();
+    const ext = fileUri.split('.').pop()?.split('?')[0]?.toLowerCase() || 'jpg';
+    const contentType = ext === 'png' ? 'image/png' : ext === 'webp' ? 'image/webp' : 'image/jpeg';
+    const fileName = `${groupId}/${userId}/${Date.now()}.${ext}`;
+
+    const response = await fetch(fileUri);
+    const arrayBuffer = await response.arrayBuffer();
+
+    const { error } = await client.storage
+      .from('chat-images')
+      .upload(fileName, arrayBuffer, { contentType, upsert: true });
+    if (error) throw error;
+
+    const { data: urlData } = client.storage.from('chat-images').getPublicUrl(fileName);
+    return urlData?.publicUrl || null;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] uploadChatImage error:', e);
+    return null;
+  }
+}
+
+export async function sendImageMessage(
+  groupId: string,
+  userId: string,
+  authorName: string,
+  imageUrl: string,
+  width: number,
+  height: number,
+  caption: string = ''
+): Promise<GroupMessageRow | null> {
+  try {
+    const client = getClient();
+    const avatar = authorName.charAt(0).toUpperCase();
+    const { data, error } = await client
+      .from('group_messages')
+      .insert({
+        group_id: groupId,
+        user_id: userId,
+        author_name: authorName,
+        avatar,
+        body: caption,
+        type: 'image',
+        image_url: imageUrl,
+        image_w: Math.round(width),
+        image_h: Math.round(height),
+      })
+      .select()
+      .single();
+    if (error) throw error;
+    return data || null;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] sendImageMessage error:', e);
+    return null;
+  }
+}
+
+// ── Shared content (share-from-app) ─────────────────────────────
+
+export async function sendSharedContentMessage(
+  groupId: string,
+  userId: string,
+  authorName: string,
+  sharedContent: Record<string, any>
+): Promise<GroupMessageRow | null> {
+  try {
+    const client = getClient();
+    const avatar = authorName.charAt(0).toUpperCase();
+    const { data, error } = await client
+      .from('group_messages')
+      .insert({
+        group_id: groupId,
+        user_id: userId,
+        author_name: authorName,
+        avatar,
+        body: sharedContent.ref || 'Shared',
+        type: 'shared',
+        shared_content: sharedContent,
+      })
+      .select()
+      .single();
+    if (error) throw error;
+    return data || null;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] sendSharedContentMessage error:', e);
+    return null;
+  }
+}
+
+// ── Class content (lessons / quizzes / polls) ───────────────────
+
+export async function sendClassContent(
+  groupId: string,
+  userId: string,
+  authorName: string,
+  kind: 'lesson' | 'quiz' | 'poll' | 'board',
+  content: Record<string, any>
+): Promise<GroupMessageRow | null> {
+  try {
+    const client = getClient();
+    const avatar = authorName.charAt(0).toUpperCase();
+    const bodyMap: Record<string, string> = { lesson: '📘 Lesson', quiz: '📝 Quiz', poll: '📊 Poll', board: '🖌️ Board' };
+    const { data, error } = await client
+      .from('group_messages')
+      .insert({
+        group_id: groupId,
+        user_id: userId,
+        author_name: authorName,
+        avatar,
+        body: content.title || content.question || bodyMap[kind] || 'Class content',
+        type: kind,
+        class_content: content,
+      })
+      .select()
+      .single();
+    if (error) throw error;
+    return data || null;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] sendClassContent error:', e);
+    return null;
+  }
+}
+
+export async function updateClassContent(messageId: string, content: Record<string, any>): Promise<boolean> {
+  // Local (unsynced) messages have non-UUID ids — nothing to update in the DB.
+  if (messageId.startsWith('local-')) return true;
+  try {
+    const bodyMap: Record<string, string> = { lesson: '📘 Lesson', quiz: '📝 Quiz', poll: '📊 Poll', board: '🖌️ Board' };
+    const client = getClient();
+    const { error } = await client
+      .from('group_messages')
+      .update({ class_content: content, body: content.title || content.question || bodyMap[content.kind] || 'Class content', edited_at: new Date().toISOString() })
+      .eq('id', messageId);
+    if (error) throw error;
+    return true;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] updateClassContent error:', e);
+    return false;
+  }
+}
+
+export interface ClassResponseRow {
+  id: string;
+  message_id: string;
+  user_id: string;
+  user_name: string;
+  response: { answers?: Record<string, number | string>; choices?: number[] };
+  is_correct?: boolean | null;
+  score?: number | null;
+  created_at: string;
+}
+
+export async function submitClassResponse(
+  messageId: string,
+  groupId: string,
+  userId: string,
+  userName: string,
+  response: Record<string, any>,
+  isCorrect?: boolean,
+  score?: number
+): Promise<boolean> {
+  try {
+    const client = getClient();
+    const { error } = await client
+      .from('class_responses')
+      .upsert(
+        {
+          message_id: messageId,
+          group_id: groupId,
+          user_id: userId,
+          user_name: userName,
+          response,
+          is_correct: isCorrect ?? null,
+          score: score ?? null,
+        },
+        { onConflict: 'message_id,user_id' }
+      );
+    if (error) throw error;
+    return true;
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] submitClassResponse error:', e);
+    return false;
+  }
+}
+
+export async function fetchClassResponses(messageId: string): Promise<ClassResponseRow[]> {
+  try {
+    const client = getClient();
+    const { data, error } = await client
+      .from('class_responses')
+      .select('*')
+      .eq('message_id', messageId);
+    if (error) throw error;
+    return data || [];
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] fetchClassResponses error:', e);
+    return [];
+  }
+}
+
+// ── Read markers (unread + seen-by) ─────────────────────────────
+
+export async function markGroupRead(groupId: string, userId: string): Promise<void> {
+  try {
+    const client = getClient();
+    await client
+      .from('group_reads')
+      .upsert(
+        { group_id: groupId, user_id: userId, last_read_at: new Date().toISOString() },
+        { onConflict: 'group_id,user_id' }
+      );
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] markGroupRead error:', e);
+  }
+}
+
+export async function fetchGroupReads(groupId: string): Promise<{ user_id: string; last_read_at: string }[]> {
+  try {
+    const client = getClient();
+    const { data, error } = await client
+      .from('group_reads')
+      .select('user_id, last_read_at')
+      .eq('group_id', groupId);
+    if (error) throw error;
+    return data || [];
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] fetchGroupReads error:', e);
+    return [];
+  }
+}
+
 export function subscribeToGroupMessages(
   groupId: string,
-  onNewMessage: (msg: GroupMessageRow) => void
+  onNewMessage: (msg: GroupMessageRow) => void,
+  onUpdateMessage?: (msg: GroupMessageRow) => void
 ) {
   try {
     const client = getClient();
@@ -689,6 +988,18 @@ export function subscribeToGroupMessages(
           onNewMessage(payload.new as GroupMessageRow);
         }
       )
+      .on(
+        'postgres_changes',
+        {
+          event: 'UPDATE',
+          schema: 'public',
+          table: 'group_messages',
+          filter: `group_id=eq.${groupId}`,
+        },
+        (payload) => {
+          onUpdateMessage?.(payload.new as GroupMessageRow);
+        }
+      )
       .subscribe();
 
     return () => {
@@ -697,6 +1008,63 @@ export function subscribeToGroupMessages(
   } catch (e) {
     if (__DEV__) console.warn('[communitySocial] subscribeToGroupMessages error:', e);
     return () => {};
+  }
+}
+
+// ── Presence + typing (Realtime, no DB) ─────────────────────────
+
+export interface PresenceUser {
+  userId: string;
+  name: string;
+  typing?: boolean;
+  typingAt?: number;
+}
+
+/**
+ * Track this user's presence in a group and receive the live roster.
+ * `onSync` fires whenever anyone joins/leaves or updates their typing state.
+ * Call the returned `setTyping` to broadcast typing on/off.
+ */
+export function subscribeToGroupPresence(
+  groupId: string,
+  me: { userId: string; name: string },
+  onSync: (users: PresenceUser[]) => void
+): { unsubscribe: () => void; setTyping: (typing: boolean) => void } {
+  try {
+    const client = getClient();
+    const channel = client.channel(`group-presence-${groupId}`, {
+      config: { presence: { key: me.userId } },
+    });
+
+    const flatten = () => {
+      const state = channel.presenceState() as Record<string, any[]>;
+      const users: PresenceUser[] = [];
+      for (const key of Object.keys(state)) {
+        const entry = state[key]?.[0];
+        if (entry) users.push({ userId: entry.userId, name: entry.name, typing: entry.typing, typingAt: entry.typingAt });
+      }
+      onSync(users);
+    };
+
+    channel
+      .on('presence', { event: 'sync' }, flatten)
+      .on('presence', { event: 'join' }, flatten)
+      .on('presence', { event: 'leave' }, flatten)
+      .subscribe(async (status) => {
+        if (status === 'SUBSCRIBED') {
+          await channel.track({ userId: me.userId, name: me.name, typing: false, typingAt: 0 });
+        }
+      });
+
+    return {
+      unsubscribe: () => client.removeChannel(channel),
+      setTyping: (typing: boolean) => {
+        channel.track({ userId: me.userId, name: me.name, typing, typingAt: typing ? Date.now() : 0 }).catch(() => {});
+      },
+    };
+  } catch (e) {
+    if (__DEV__) console.warn('[communitySocial] subscribeToGroupPresence error:', e);
+    return { unsubscribe: () => {}, setTyping: () => {} };
   }
 }
 
@@ -1122,7 +1490,8 @@ export async function sendVoiceMessage(
   userId: string,
   authorName: string,
   audioUrl: string,
-  durationMs: number
+  durationMs: number,
+  waveform?: number[]
 ): Promise<GroupMessageRow | null> {
   try {
     const client = getClient();
@@ -1138,6 +1507,7 @@ export async function sendVoiceMessage(
         type: 'voice',
         audio_url: audioUrl,
         duration_ms: durationMs,
+        waveform: waveform && waveform.length ? waveform : null,
       })
       .select()
       .single();

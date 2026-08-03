@@ -1,6 +1,10 @@
 // Arabic Vocabulary API - Fetches translations from MyMemory API
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import * as Speech from 'expo-speech';
+import {
+  speakGoogleArabic,
+  stopGoogleArabic,
+  isGoogleArabicSpeaking,
+} from '../services/speech/googleArabicTts';
 
 const MYMEMORY_API = 'https://api.mymemory.translated.net/get';
 const CACHE_KEY = 'arabic-vocabulary-cache';
@@ -24,49 +28,25 @@ interface CachedVocabulary {
   version?: number;
 }
 
-// Play Arabic word audio using Text-to-Speech
+// Play Arabic word audio using free Google TTS
 export async function playArabicAudio(arabicText: string): Promise<void> {
   try {
-    // Stop any currently playing speech
-    await Speech.stop();
-
-    // Get available voices to find the best Arabic voice
-    const voices = await Speech.getAvailableVoicesAsync();
-    const arabicVoice = voices.find(
-      (v) => v.language.startsWith('ar') && v.quality === 'Enhanced'
-    ) || voices.find(
-      (v) => v.language.startsWith('ar')
-    );
-
-    // Speak the Arabic text
-    await Speech.speak(arabicText, {
-      language: 'ar-SA', // Saudi Arabic - better for classical Arabic pronunciation
-      pitch: 1.0,
-      rate: 0.75, // Slower for clearer pronunciation of vowels
-      voice: arabicVoice?.identifier,
+    await speakGoogleArabic(arabicText, {
+      onError: (e) => __DEV__ && console.error('Error playing Arabic audio:', e),
     });
   } catch (error) {
     __DEV__ && console.error('Error playing Arabic audio:', error);
-    // Fallback without voice selection
-    try {
-      await Speech.speak(arabicText, {
-        language: 'ar',
-        rate: 0.75,
-      });
-    } catch (e) {
-      __DEV__ && console.error('Fallback speech also failed:', e);
-    }
   }
 }
 
 // Check if speech is currently playing
 export async function isSpeaking(): Promise<boolean> {
-  return Speech.isSpeakingAsync();
+  return isGoogleArabicSpeaking();
 }
 
 // Stop any playing speech
 export async function stopAudio(): Promise<void> {
-  await Speech.stop();
+  stopGoogleArabic();
 }
 
 // Vocalized Arabic vocabulary with tashkeel (vowel marks)

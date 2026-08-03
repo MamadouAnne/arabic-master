@@ -20,7 +20,7 @@ export default function PrayerLessonScreen() {
   const { lc } = useLocalizedContent();
   const { lessonId } = useLocalSearchParams<{ lessonId: string }>();
   const { isCompleted, completeLesson, startLesson, setLastViewed } = usePrayerStore();
-  const { speak, speakSlow, stop, isSpeaking } = useArabicSpeech();
+  const { speak, stop, isSpeaking } = useArabicSpeech();
   const [speakingText, setSpeakingText] = useState<string | null>(null);
 
   const lesson = lessonId ? getPrayerLessonById(lessonId) : undefined;
@@ -49,11 +49,11 @@ export default function PrayerLessonScreen() {
         setSpeakingText(null);
       } else {
         setSpeakingText(text);
-        await speakSlow(text);
+        await speak(text);
         setSpeakingText(null);
       }
     },
-    [isSpeaking, speakSlow, stop]
+    [isSpeaking, speak, stop]
   );
 
   const handleComplete = useCallback(() => {

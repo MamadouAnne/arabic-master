@@ -11,6 +11,8 @@ import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useEffect, useState, memo, useCallback } from 'react';
 import { VocabularyWord } from '../../src/types/arabic';
 import HighlightedText from '../../src/components/ui/HighlightedText';
+import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../src/data/community/socialData';
 
 // Part of speech labels with colors
 const partOfSpeechConfig: Record<string, { label: string; labelArabic: string; color: string }> = {
@@ -42,7 +44,22 @@ export default function ThemeDetailScreen() {
 
   const [expandedWordId, setExpandedWordId] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<'all' | 'nouns' | 'verbs' | 'adjectives' | 'other'>('all');
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
   const { speak } = useArabicSpeech();
+
+  const shareWord = useCallback((word: VocabularyWord) => {
+    setShareContent({
+      kind: 'word',
+      arabic: word.arabicWithVowels || word.arabic,
+      translit: word.transliteration,
+      translation: lc(word.english, word.french),
+      example: word.exampleSentence?.arabic,
+      exampleTranslation: word.exampleSentence ? lc(word.exampleSentence.english, word.exampleSentence.french) : undefined,
+      audioText: word.arabicWithVowels || word.arabic,
+      ref: lc(theme?.name, theme?.nameFr) || undefined,
+      route: `/vocabulary/${themeId}`,
+    });
+  }, [lc, theme, themeId]);
 
   useEffect(() => {
     if (theme && !progress.vocabularyProgress.themesStarted.includes(theme.id)) {
@@ -435,6 +452,14 @@ export default function ThemeDetailScreen() {
                           <Text style={styles.masteredText}>{t('vocabulary.masteredBadge')}</Text>
                         </View>
                       )}
+                      <Pressable
+                        style={styles.shareButton}
+                        onPress={() => shareWord(word)}
+                        accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
+                      >
+                        <Ionicons name="paper-plane-outline" size={18} color="#818cf8" />
+                        <Text style={styles.shareButtonText}>{t('community.shareToGroup', { defaultValue: 'Share to group' })}</Text>
+                      </Pressable>
                     </View>
                   </View>
                 )}
@@ -475,6 +500,12 @@ export default function ThemeDetailScreen() {
           )}
         </View>
       </ScrollView>
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
+      />
     </SafeAreaView>
   );
 }
@@ -939,6 +970,25 @@ const styles = StyleSheet.create({
   actionButtons: {
     flexDirection: 'row',
     justifyContent: 'flex-start',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    gap: 8,
+  },
+  shareButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 10,
+    gap: 6,
+    borderWidth: 1,
+    borderColor: '#818cf850',
+    backgroundColor: '#818cf815',
+  },
+  shareButtonText: {
+    color: '#818cf8',
+    fontWeight: '600',
+    fontSize: 14,
   },
   learnButton: {
     backgroundColor: '#10b981',

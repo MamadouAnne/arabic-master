@@ -82,7 +82,53 @@ Deno.serve(async (req) => {
     }
 
     // 2. Parse and validate request body (needed for model before credit check)
-    const { messages, systemPrompt, model: modelKey, maxTokens } = await req.json();
+    const { messages, systemPrompt, model: modelKey, maxTokens, summarize } = await req.json();
+
+    // ── Summarization mode (Feature 2) ─────────────────────────
+    // Summarize earlier messages using Haiku — no credit charge.
+    // Returns a JSON response (not SSE) with the summary text.
+    if (summarize === true) {
+      const summaryMessages = messages?.slice(0, 20) || [];
+      if (summaryMessages.length < 4) {
+        return new Response(JSON.stringify({ summary: '' }), {
+          headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+        });
+      }
+
+      const summaryPrompt = 'Summarize this conversation in 3-5 concise sentences. Capture: the main topics discussed, any mistakes the student made, what they learned, and where they left off. Write in the same language the student is using (English or French). Be factual and brief.';
+
+      const summaryResponse = await fetch(ANTHROPIC_API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': Deno.env.get('ANTHROPIC_API_KEY')!,
+          'anthropic-version': '2023-06-01',
+        },
+        body: JSON.stringify({
+          model: MODEL_MAP.haiku,
+          max_tokens: 256,
+          system: summaryPrompt,
+          messages: summaryMessages.map((m: { role: string; content: string }) => ({
+            role: m.role,
+            content: m.content,
+          })),
+        }),
+      });
+
+      if (!summaryResponse.ok) {
+        console.error('Summarization failed:', summaryResponse.status);
+        return new Response(JSON.stringify({ summary: '' }), {
+          headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+        });
+      }
+
+      const summaryResult = await summaryResponse.json();
+      const summaryText = summaryResult.content?.[0]?.text || '';
+
+      return new Response(JSON.stringify({ summary: summaryText }), {
+        headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+      });
+    }
 
     if (!messages || !Array.isArray(messages) || messages.length === 0) {
       return new Response(JSON.stringify({ error: 'Messages required' }), {
@@ -94,7 +140,7 @@ Deno.serve(async (req) => {
     // Input validation
     const MAX_MESSAGES = 50;
     const MAX_MESSAGE_LENGTH = 4000;
-    const MAX_SYSTEM_PROMPT_LENGTH = 8000;
+    const MAX_SYSTEM_PROMPT_LENGTH = 10000;
 
     if (messages.length > MAX_MESSAGES) {
       return new Response(JSON.stringify({ error: 'Too many messages' }), {
