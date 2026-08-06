@@ -62,6 +62,8 @@ export interface BoardShape {
   x1: number; y1: number; x2: number; y2: number;
   color: string;
   width: number;
+  fill?: string;   // filled rect/circle (used by AI course layouts); default outline-only
+  radius?: number; // rect corner radius override
 }
 export interface BoardText {
   type: 'text';
@@ -69,6 +71,8 @@ export interface BoardText {
   text: string;
   color: string;
   size: number;
+  align?: 'left' | 'center'; // text anchor (default left)
+  weight?: '400' | '500' | '600' | '700' | '800'; // font weight (default 700)
 }
 export type BoardElement = BoardStroke | BoardShape | BoardText;
 

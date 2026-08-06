@@ -47,9 +47,10 @@ interface Props {
 
 // Tight bounding box of all drawn content (for compact chat thumbnails).
 export function boardContentBounds(elements: BoardElement[], width: number, pad = 18): { x: number; y: number; w: number; h: number } | null {
-  if (!elements.length) return null;
+  if (!elements.length || !Number.isFinite(width)) return null;
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
   for (const el of elements) {
+    if (!elementOk(el)) continue; // ignore corrupt (NaN) elements
     if (el.type === 'text') {
       const lines = wrapBoardText(el.text, el.size, Math.max(80, width - el.x - 12));
       const longest = Math.max(...lines.map((l) => l.length), 1);
@@ -65,11 +66,30 @@ export function boardContentBounds(elements: BoardElement[], width: number, pad 
       maxX = Math.max(maxX, el.x1, el.x2); maxY = Math.max(maxY, el.y1, el.y2);
     }
   }
+  if (![minX, minY, maxX, maxY].every(Number.isFinite)) return null; // no valid content
   const x = Math.max(0, minX - pad), y = Math.max(0, minY - pad);
   return { x, y, w: Math.max(40, maxX + pad - x), h: Math.max(30, maxY + pad - y) };
 }
 
+export function elementOk(el: BoardElement): boolean {
+  if (el.type === 'stroke') return !!el.d && !el.d.includes('NaN') && !el.d.includes('Infinity');
+  if (el.type === 'text') return Number.isFinite(el.x) && Number.isFinite(el.y) && Number.isFinite(el.size);
+  return Number.isFinite(el.x1) && Number.isFinite(el.y1) && Number.isFinite(el.x2) && Number.isFinite(el.y2);
+}
+
+// A directional arrow inside RTL Arabic (e.g. "كِتابٌ → الْكِتابُ") is reordered
+// unpredictably by bidi. Force any line containing an arrow to render left-to-right
+// (LRE…PDF) and normalize all arrows to "→" so it reads source → result.
+const ARROW_RE = /[←→⟶⇒➔➜]/;
+const LRE = String.fromCharCode(0x202a); // LEFT-TO-RIGHT EMBEDDING
+const PDF = String.fromCharCode(0x202c); // POP DIRECTIONAL FORMATTING
+function dirSafeArrows(line: string): string {
+  if (!ARROW_RE.test(line)) return line;
+  return `${LRE}${line.replace(/[←⟶⇒➔➜]/g, '→')}${PDF}`;
+}
+
 export function renderBoardElement(el: BoardElement, key: string, canvasWidth = 360) {
+  if (!elementOk(el)) return null; // skip corrupt (NaN) elements
   if (el.type === 'stroke') {
     return (
       <Path
@@ -98,20 +118,23 @@ export function renderBoardElement(el: BoardElement, key: string, canvasWidth = 
   }
   if (el.type === 'rect') {
     const x = Math.min(el.x1, el.x2), y = Math.min(el.y1, el.y2);
-    return <Rect key={key} x={x} y={y} width={Math.abs(el.x2 - el.x1)} height={Math.abs(el.y2 - el.y1)} stroke={el.color} strokeWidth={el.width} fill="none" rx={4} />;
+    return <Rect key={key} x={x} y={y} width={Math.abs(el.x2 - el.x1)} height={Math.abs(el.y2 - el.y1)} stroke={el.width > 0 ? el.color : 'none'} strokeWidth={el.width} fill={el.fill || 'none'} rx={el.radius ?? 4} />;
   }
   if (el.type === 'circle') {
     const cx = (el.x1 + el.x2) / 2, cy = (el.y1 + el.y2) / 2;
     const r = Math.hypot(el.x2 - el.x1, el.y2 - el.y1) / 2;
-    return <Circle key={key} cx={cx} cy={cy} r={r} stroke={el.color} strokeWidth={el.width} fill="none" />;
+    return <Circle key={key} cx={cx} cy={cy} r={r} stroke={el.width > 0 ? el.color : 'none'} strokeWidth={el.width} fill={el.fill || 'none'} />;
   }
   if (el.type === 'text') {
-    const lines = wrapBoardText(el.text, el.size, Math.max(80, canvasWidth - el.x - 12));
+    const centered = el.align === 'center';
+    const anchorX = el.x;
+    const availWidth = centered ? Math.max(80, canvasWidth - 2 * Math.min(el.x, canvasWidth - el.x)) : Math.max(80, canvasWidth - el.x - 12);
+    const lines = wrapBoardText(el.text, el.size, availWidth);
     const lh = el.size * 1.28;
     return (
-      <SvgText key={key} x={el.x} y={el.y} fill={el.color} fontSize={el.size} fontWeight="700">
+      <SvgText key={key} x={anchorX} y={el.y} fill={el.color} fontSize={el.size} fontWeight={el.weight || '700'} textAnchor={centered ? 'middle' : 'start'}>
         {lines.map((ln, i) => (
-          <TSpan key={i} x={el.x} dy={i === 0 ? 0 : lh}>{ln}</TSpan>
+          <TSpan key={i} x={anchorX} dy={i === 0 ? 0 : lh}>{dirSafeArrows(ln)}</TSpan>
         ))}
       </SvgText>
     );
@@ -132,13 +155,22 @@ function gridLines(content: BoardContent) {
   return lines;
 }
 
+const posNum = (n: number, fallback: number) => (Number.isFinite(n) && n > 0 ? n : fallback);
+
 export function BoardCanvas({ content, live, width, height, viewBox }: Props) {
+  // Guard against corrupt/NaN dimensions so react-native-svg never gets a bad viewBox.
+  const cw = posNum(content.width, 1);
+  const ch = posNum(content.height, cw);
+  const svgW = posNum(width, 1);
+  const svgH = posNum(height, 1);
+  const vb = viewBox && !viewBox.includes('NaN') && !viewBox.includes('Infinity') ? viewBox : `0 0 ${cw} ${ch}`;
+  const safeContent = content.width === cw && content.height === ch ? content : { ...content, width: cw, height: ch };
   return (
-    <Svg width={width} height={height} viewBox={viewBox || `0 0 ${content.width} ${content.height}`} preserveAspectRatio="xMidYMid meet">
-      <Rect x={0} y={0} width={content.width} height={content.height} fill={BOARD_BG[content.background]} />
-      {gridLines(content)}
-      {content.elements.map((el, i) => renderBoardElement(el, `e${i}`, content.width))}
-      {live ? renderBoardElement(live, "live", content.width) : null}
+    <Svg width={svgW} height={svgH} viewBox={vb} preserveAspectRatio="xMidYMid meet">
+      <Rect x={0} y={0} width={cw} height={ch} fill={BOARD_BG[content.background]} />
+      {gridLines(safeContent)}
+      {content.elements.map((el, i) => renderBoardElement(el, `e${i}`, cw))}
+      {live ? renderBoardElement(live, "live", cw) : null}
     </Svg>
   );
 }

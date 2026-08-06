@@ -3,9 +3,16 @@ import { View, Text, StyleSheet, Pressable, Modal, PanResponder, ScrollView, Tex
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import Svg from 'react-native-svg';
-import { BoardCanvas, renderBoardElement, boardContentHeight, wrapBoardText } from './BoardCanvas';
+import { BoardCanvas, renderBoardElement, boardContentHeight, wrapBoardText, elementOk } from './BoardCanvas';
 import type { BoardContent, BoardElement, BoardBackground, BoardGrid, BoardStroke, BoardShape } from '../../../types/classContent';
 import { BOARD_BG, BOARD_DEFAULT_INK } from '../../../types/classContent';
+import { AICoursePromptModal, CourseGenRequest } from './AICoursePromptModal';
+import { CourseBuilderModal } from './CourseBuilderModal';
+import { generateCourseSpec } from '../../../services/aiBoardService';
+import { buildBoardFromCourse } from './courseLayout';
+import type { CourseSpec } from '../../../types/aiBoard';
+import { listCurriculum, getCurriculumDigest } from '../../../data/arabic/curriculumSource';
+import { useSettingsStore } from '../../../stores/settingsStore';
 
 type Tool = 'move' | 'pen' | 'highlighter' | 'eraser' | 'line' | 'arrow' | 'rect' | 'circle' | 'text';
 
@@ -44,13 +51,21 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const [tool, setTool] = useState<Tool>(seedText ? 'move' : 'pen');
   const [color, setColor] = useState<string>(BOARD_DEFAULT_INK[initial?.background || 'dark']);
   const [width, setWidth] = useState<number>(WIDTHS[1]);
-  const [elements, setElements] = useState<BoardElement[]>(initial?.elements || []);
+  const [elements, setElements] = useState<BoardElement[]>((initial?.elements || []).filter(elementOk));
   const [live, setLive] = useState<BoardElement | null>(null);
   const [canvas, setCanvas] = useState({ w: 1, h: 1 });
   const [textModal, setTextModal] = useState<{ x: number; y: number } | null>(null);
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
   const [textColor, setTextColor] = useState('#f8fafc');
+  // AI course drafting
+  const [aiModal, setAiModal] = useState<null | 'draft' | 'refine'>(null);
+  const [aiLoading, setAiLoading] = useState(false);
+  const [builderOpen, setBuilderOpen] = useState(false);
+  const language = useSettingsStore((s) => s.language);
+  const curriculum = useMemo(() => listCurriculum(language), [language]);
+  const lastSpecRef = useRef<CourseSpec | null>(null);
+  const aiCountRef = useRef(0); // number of leading AI-generated elements
 
   const redo = useRef<BoardElement[]>([]);
   const liveRef = useRef<BoardElement | null>(null);
@@ -97,6 +112,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
       onMoveShouldSetPanResponder: () => true,
       onPanResponderGrant: (e) => {
         const { locationX: x, locationY: y } = e.nativeEvent;
+        if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current, c = colorRef.current, w0 = widthRef.current;
         if (t === 'text') {
           setTextValue('');
@@ -126,6 +142,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
       },
       onPanResponderMove: (e) => {
         const { locationX: x, locationY: y } = e.nativeEvent;
+        if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current;
         if (t === 'eraser') { eraseAt(x, y); return; }
         if (t === 'move') {
@@ -186,6 +203,50 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     setTextModal(null); setTextValue('');
   };
 
+  // Render a CourseSpec onto the board (shared by AI + manual builder), keeping
+  // freehand drawings added after the previous course.
+  const renderCourse = (spec: CourseSpec, keepManual: boolean) => {
+    const bg = background === 'white' || background === 'cream' ? background : 'dark';
+    const board = buildBoardFromCourse(spec, canvasRef.current.w || 360, bg);
+    lastSpecRef.current = spec;
+    const manual = keepManual ? elements.slice(aiCountRef.current) : [];
+    aiCountRef.current = board.elements.length;
+    setElements([...board.elements, ...manual]);
+    setBackground(bg);
+    redo.current = [];
+  };
+
+  const handleBuilderSave = (spec: CourseSpec) => {
+    renderCourse(spec, true);
+    setBuilderOpen(false);
+  };
+
+  // ── AI course drafting / refining ──────────────────────────────
+  const handleAiSubmit = async (req: CourseGenRequest) => {
+    const refine = req.mode === 'refine';
+    setAiLoading(true);
+    try {
+      const args =
+        req.mode === 'refine'
+          ? { topic: lastSpecRef.current?.title || 'lesson', refineInstruction: req.instruction, priorSpec: lastSpecRef.current || undefined }
+          : req.source === 'lesson'
+            ? { topic: req.title, sourceMaterial: getCurriculumDigest(req.lessonId, language) }
+            : { topic: req.topic, level: req.level };
+      const spec = await generateCourseSpec({ ...args, language, model: 'sonnet' });
+      renderCourse(spec, refine); // draft: clean · refine: keep manual drawings
+      setAiModal(null);
+    } catch (e: any) {
+      const msg = e?.message === 'no_credits' ? 'You are out of AI credits.'
+        : e?.message === 'auth_required' ? 'Please sign in to use AI.'
+        : e?.message === 'rate_limit' ? 'Too many requests — try again shortly.'
+        : e?.message === 'bad_response' ? 'The AI response could not be read. Try again or rephrase.'
+        : 'Could not generate the course. Please try again.';
+      Alert.alert('AI course', msg);
+    } finally {
+      setAiLoading(false);
+    }
+  };
+
   const handleSave = () => {
     if (elements.length === 0) { Alert.alert('Empty board', 'Draw something first.'); return; }
     // Crop the stored height to the drawn content (no wasted empty space).
@@ -207,6 +268,13 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         <View style={styles.header}>
           <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
           <Text style={styles.headerTitle}>{initial ? 'Edit board' : 'Board'}</Text>
+          <Pressable onPress={() => setBuilderOpen(true)} style={styles.iconBtn} hitSlop={6}>
+            <Ionicons name="list" size={20} color="#cbd5e1" />
+          </Pressable>
+          <Pressable onPress={() => setAiModal(lastSpecRef.current ? 'refine' : 'draft')} style={styles.aiBtn} hitSlop={6}>
+            <Ionicons name="sparkles" size={18} color={groupColor} />
+            <Text style={[styles.aiBtnText, { color: groupColor }]}>AI</Text>
+          </Pressable>
           <Pressable onPress={handleSave} style={[styles.postBtn, { backgroundColor: groupColor }]}>
             <Text style={styles.postText}>{initial ? 'Update' : 'Post'}</Text>
           </Pressable>
@@ -230,6 +298,21 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           </View>
           {/* Touch layer */}
           <View style={StyleSheet.absoluteFill} {...pan.panHandlers} />
+
+          {/* Empty-state: draft with AI or build manually */}
+          {elements.length === 0 && !live && (
+            <View style={styles.emptyState} pointerEvents="box-none">
+              <Pressable style={[styles.draftBtn, { backgroundColor: groupColor }]} onPress={() => setAiModal('draft')}>
+                <Ionicons name="sparkles" size={18} color="#ffffff" />
+                <Text style={styles.draftText}>Draft a course with AI</Text>
+              </Pressable>
+              <Pressable style={styles.buildBtn} onPress={() => setBuilderOpen(true)}>
+                <Ionicons name="list" size={17} color="#cbd5e1" />
+                <Text style={styles.buildText}>Build a course manually</Text>
+              </Pressable>
+              <Text style={styles.emptyHint}>or just draw / write freely</Text>
+            </View>
+          )}
         </View>
 
         {/* ── Bottom control panel ─────────────────────────── */}
@@ -343,6 +426,30 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
             </KeyboardAvoidingView>
           </Modal>
         )}
+
+        {/* AI course drafting / refining */}
+        {aiModal && (
+          <AICoursePromptModal
+            visible
+            mode={aiModal}
+            groupColor={groupColor}
+            loading={aiLoading}
+            curriculum={curriculum}
+            onSubmit={handleAiSubmit}
+            onClose={() => { if (!aiLoading) setAiModal(null); }}
+          />
+        )}
+
+        {/* Manual course builder (same layout engine as AI) */}
+        {builderOpen && (
+          <CourseBuilderModal
+            visible
+            groupColor={groupColor}
+            initial={lastSpecRef.current}
+            onSave={handleBuilderSave}
+            onClose={() => setBuilderOpen(false)}
+          />
+        )}
       </SafeAreaView></SafeAreaProvider>
     </Modal>
   );
@@ -352,6 +459,7 @@ function r(n: number) { return Math.round(n * 10) / 10; }
 
 // Translate any element by (dx, dy) from its original position.
 function translateElement(orig: BoardElement, dx: number, dy: number): BoardElement {
+  if (!Number.isFinite(dx) || !Number.isFinite(dy)) return orig; // never corrupt with NaN
   if (orig.type === 'text') return { ...orig, x: orig.x + dx, y: orig.y + dy };
   if (orig.type === 'stroke') {
     const d = orig.d.replace(/-?\d+(\.\d+)?/g, (() => {
@@ -388,8 +496,17 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#0b1220' },
   header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 10 },
   headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: '#f8fafc' },
+  iconBtn: { width: 36, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center', backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155', marginRight: 8 },
+  aiBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 7, borderRadius: 11, backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155', marginRight: 8 },
+  aiBtnText: { fontWeight: '800', fontSize: 13 },
+  buildBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 18, paddingVertical: 11, borderRadius: 14, backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155' },
+  buildText: { color: '#cbd5e1', fontWeight: '700', fontSize: 14 },
   postBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12 },
   postText: { color: '#ffffff', fontWeight: '700', fontSize: 14 },
+  emptyState: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, alignItems: 'center', justifyContent: 'center', gap: 12 },
+  draftBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 20, paddingVertical: 13, borderRadius: 16, shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 8, shadowOffset: { width: 0, height: 3 }, elevation: 5 },
+  draftText: { color: '#ffffff', fontWeight: '800', fontSize: 15 },
+  emptyHint: { fontSize: 12.5, color: '#64748b' },
   canvasWrap: { flex: 1, overflow: 'hidden' },
   // Bottom panel
   panel: { backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', paddingTop: 8 },

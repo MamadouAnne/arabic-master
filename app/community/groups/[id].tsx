@@ -185,6 +185,7 @@ export default function GroupDetailScreen() {
   const typingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const isTypingRef = useRef(false);
   const isAtBottomRef = useRef(true);
+  const pendingJumpRef = useRef(false); // keep chasing the bottom while a jump-to-latest is in flight
 
   // Find group
   const group = groups.find((g) => g.id === id) || SIMULATED_GROUPS.find((g) => g.id === id);
@@ -230,6 +231,15 @@ export default function GroupDetailScreen() {
       rows.push({ kind: 'msg', msg, showAvatar });
     });
     return rows;
+  }, [dedupedMessages]);
+
+  // Recent text conversation, for AI "generate quiz from this chat".
+  const chatContextText = useMemo(() => {
+    const texts = dedupedMessages
+      .filter((m) => (m.type === 'chat' || m.type === 'message') && !m.isDeleted && m.body.trim())
+      .slice(-24)
+      .map((m) => `${m.authorName}: ${m.body.trim()}`);
+    return texts.join('\n').slice(-2400);
   }, [dedupedMessages]);
 
   const mentionQuery = useMemo(() => activeMentionQuery(messageText), [messageText]);
@@ -876,6 +886,7 @@ export default function GroupDetailScreen() {
     const atBottom = distanceFromBottom < 80;
     isAtBottomRef.current = atBottom;
     setIsAtBottom(atBottom);
+    if (atBottom) pendingJumpRef.current = false; // reached bottom — stop chasing
     if (atBottom && unreadCount > 0) {
       setUnreadCount(0);
       if (id && user) markGroupRead(id, user.id);
@@ -883,7 +894,16 @@ export default function GroupDetailScreen() {
   }, [unreadCount, id, user]);
 
   const jumpToLatest = useCallback(() => {
-    flatListRef.current?.scrollToEnd({ animated: true });
+    const list = flatListRef.current;
+    if (!list) return;
+    // Tall quiz/board rows below the fold render/measure only as we approach them,
+    // so one scrollToEnd lands short. Set a "jump pending" flag: onContentSizeChange
+    // keeps re-scrolling to the growing bottom until handleScroll confirms we're there.
+    pendingJumpRef.current = true;
+    setIsAtBottom(true);
+    list.scrollToEnd({ animated: true });
+    // Safety net: stop chasing after a second even if we never register at-bottom.
+    setTimeout(() => { pendingJumpRef.current = false; }, 1200);
     setUnreadCount(0);
     if (id && user) markGroupRead(id, user.id);
   }, [id, user]);
@@ -1066,14 +1086,17 @@ export default function GroupDetailScreen() {
                   contentContainerStyle={styles.chatList}
                   showsVerticalScrollIndicator={false}
                   onScroll={handleScroll}
-                  scrollEventThrottle={80}
-                  onContentSizeChange={() => { if (isAtBottomRef.current) flatListRef.current?.scrollToEnd({ animated: false }); }}
+                  scrollEventThrottle={16}
+                  onContentSizeChange={() => { if (isAtBottomRef.current || pendingJumpRef.current) flatListRef.current?.scrollToEnd({ animated: false }); }}
                   onScrollToIndexFailed={() => {}}
                   onStartReached={loadOlder}
                   onStartReachedThreshold={0.2}
                   ListHeaderComponent={isLoadingOlder ? <ActivityIndicator color={group.color} style={{ marginVertical: 12 }} /> : null}
-                  removeClippedSubviews={Platform.OS === 'android'}
-                  maxToRenderPerBatch={15}
+                  maintainVisibleContentPosition={{ minIndexForVisible: 0 }}
+                  removeClippedSubviews={false}
+                  initialNumToRender={12}
+                  maxToRenderPerBatch={10}
+                  updateCellsBatchingPeriod={50}
                   windowSize={11}
                 />
 
@@ -1308,6 +1331,7 @@ export default function GroupDetailScreen() {
           visible
           groupColor={group?.color || '#818cf8'}
           initial={editorInitial?.kind === 'quiz' ? editorInitial : null}
+          chatContext={chatContextText}
           onSave={handleSaveClass}
           onClose={closeEditor}
         />

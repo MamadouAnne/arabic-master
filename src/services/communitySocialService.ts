@@ -888,6 +888,16 @@ export interface ClassResponseRow {
   created_at: string;
 }
 
+// Short-lived cache of quiz/poll responses, keyed by message id. Cards re-mount
+// as they scroll in/out of the virtualized list, so this avoids a DB read on
+// every remount. Invalidated on submit so results stay fresh.
+const RESPONSE_CACHE_TTL = 60_000;
+const responseCache = new Map<string, { at: number; rows: ClassResponseRow[] }>();
+
+export function invalidateClassResponses(messageId: string): void {
+  responseCache.delete(messageId);
+}
+
 export async function submitClassResponse(
   messageId: string,
   groupId: string,
@@ -914,6 +924,7 @@ export async function submitClassResponse(
         { onConflict: 'message_id,user_id' }
       );
     if (error) throw error;
+    invalidateClassResponses(messageId); // next fetch reflects this answer
     return true;
   } catch (e) {
     if (__DEV__) console.warn('[communitySocial] submitClassResponse error:', e);
@@ -921,7 +932,11 @@ export async function submitClassResponse(
   }
 }
 
-export async function fetchClassResponses(messageId: string): Promise<ClassResponseRow[]> {
+export async function fetchClassResponses(messageId: string, force = false): Promise<ClassResponseRow[]> {
+  const cached = responseCache.get(messageId);
+  if (!force && cached && Date.now() - cached.at < RESPONSE_CACHE_TTL) {
+    return cached.rows;
+  }
   try {
     const client = getClient();
     const { data, error } = await client
@@ -929,10 +944,12 @@ export async function fetchClassResponses(messageId: string): Promise<ClassRespo
       .select('*')
       .eq('message_id', messageId);
     if (error) throw error;
-    return data || [];
+    const rows = data || [];
+    responseCache.set(messageId, { at: Date.now(), rows });
+    return rows;
   } catch (e) {
     if (__DEV__) console.warn('[communitySocial] fetchClassResponses error:', e);
-    return [];
+    return cached?.rows || [];
   }
 }
 

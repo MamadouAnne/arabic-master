@@ -212,8 +212,8 @@ Deno.serve(async (req) => {
 
     const modelId = MODEL_MAP[modelKey] || MODEL_MAP.haiku;
 
-    // Resolve max tokens with server-side cap
-    const MAX_LIMITS: Record<string, number> = { haiku: 1024, sonnet: 1536 };
+    // Resolve max tokens with server-side cap (sonnet raised to fit AI course boards)
+    const MAX_LIMITS: Record<string, number> = { haiku: 1024, sonnet: 2048 };
     const resolvedMaxTokens = Math.min(maxTokens || 768, MAX_LIMITS[modelKey] || 1024);
 
     // 4. Call Anthropic API with streaming

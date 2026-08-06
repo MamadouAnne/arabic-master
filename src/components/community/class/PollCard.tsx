@@ -49,7 +49,7 @@ export const PollCard = React.memo(function PollCard({ messageId, groupId, poll,
     setVoted(true);
     if (!isLocal && userId) {
       await submitClassResponse(messageId, groupId, userId, userName, { choices: selected });
-      const rows = await fetchClassResponses(messageId);
+      const rows = await fetchClassResponses(messageId, true);
       setResponses(rows);
     }
   };

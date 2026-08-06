@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { View, Text, StyleSheet, Pressable, TextInput, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, Pressable, TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { QuizContent } from '../../../types/classContent';
 import { submitClassResponse, fetchClassResponses, ClassResponseRow } from '../../../services/communitySocialService';
@@ -20,16 +20,17 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
   const [answers, setAnswers] = useState<Record<string, number | string>>({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState<number | null>(null);
-  const [loading, setLoading] = useState(true);
   const [responses, setResponses] = useState<ClassResponseRow[]>([]);
   const [showResults, setShowResults] = useState(false);
 
   const isLocal = messageId.startsWith('local-');
 
+  // Hydrate any prior answer in the background — the quiz renders at full height
+  // immediately so scrolling never sees a spinner→content resize jump.
   useEffect(() => {
     let alive = true;
+    if (isLocal) return;
     (async () => {
-      if (isLocal) { setLoading(false); return; }
       const rows = await fetchClassResponses(messageId);
       if (!alive) return;
       setResponses(rows);
@@ -39,7 +40,6 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
         setScore(mine.score ?? null);
         setSubmitted(true);
       }
-      setLoading(false);
     })();
     return () => { alive = false; };
   }, [messageId, userId, isLocal]);
@@ -63,7 +63,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
     setSubmitted(true);
     if (!isLocal && userId) {
       await submitClassResponse(messageId, groupId, userId, userName, { answers }, s >= quiz.passingScore, s);
-      const rows = await fetchClassResponses(messageId);
+      const rows = await fetchClassResponses(messageId, true);
       setResponses(rows);
     }
   };
@@ -87,10 +87,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
       <View style={styles.body}>
         <Text style={styles.title}>{quiz.title}</Text>
 
-        {loading ? (
-          <ActivityIndicator color={groupColor} style={{ marginVertical: 16 }} />
-        ) : (
-          <>
+        <>
             {quiz.questions.map((q, qi) => {
               const a = answers[q.id];
               return (
@@ -182,8 +179,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                 ))}
               </View>
             )}
-          </>
-        )}
+        </>
       </View>
     </View>
   );
