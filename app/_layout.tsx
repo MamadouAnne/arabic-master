@@ -1,6 +1,6 @@
 import "../global.css";
 import '../src/i18n';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { Alert, Platform, View } from 'react-native';
@@ -212,15 +212,25 @@ export default function RootLayout() {
 
   const appReady = authReady && updateComplete;
 
-  // Defensive: hide the splash as soon as we're ready (independent of layout
-  // timing) and, as a hard backstop, never let it stay up longer than ~7s.
-  useEffect(() => {
-    if (appReady) SplashScreen.hideAsync().catch(() => {});
-  }, [appReady]);
-  useEffect(() => {
-    const t = setTimeout(() => SplashScreen.hideAsync().catch(() => {}), 7000);
-    return () => clearTimeout(t);
+  // Hide the native splash exactly once. Calling hideAsync more than once (or
+  // when no splash is registered, e.g. in Expo Go) rejects with "No native
+  // splash screen registered", so guard it and swallow any error.
+  const splashHidden = useRef(false);
+  const hideSplash = useCallback(async () => {
+    if (splashHidden.current) return;
+    splashHidden.current = true;
+    try { await SplashScreen.hideAsync(); } catch {}
   }, []);
+
+  // Defensive: hide as soon as we're ready (independent of layout timing) and,
+  // as a hard backstop, never let it stay up longer than ~7s.
+  useEffect(() => {
+    if (appReady) hideSplash();
+  }, [appReady, hideSplash]);
+  useEffect(() => {
+    const t = setTimeout(hideSplash, 7000);
+    return () => clearTimeout(t);
+  }, [hideSplash]);
 
   // Cleanup IAP listeners on unmount
   useEffect(() => {
@@ -232,13 +242,13 @@ export default function RootLayout() {
 
   const onLayoutRootView = useCallback(() => {
     if (appReady) {
-      SplashScreen.hideAsync().catch(() => {});
+      hideSplash();
       quranAudioService.warmUp();
       adService.initialize();
       iapService.initialize();
       revenueCatService.initialize();
     }
-  }, [appReady]);
+  }, [appReady, hideSplash]);
 
   if (!appReady) {
     return <View style={{ flex: 1, backgroundColor: '#0f172a' }} />;
