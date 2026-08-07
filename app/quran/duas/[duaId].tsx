@@ -8,6 +8,8 @@ import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { getDuaById, getAllDuas } from '../../../src/data/arabic/duas';
 import { useDuasStore } from '../../../src/stores/duasStore';
 import { useArabicSpeech } from '../../../src/hooks/useArabicSpeech';
+import { ShareToGroupModal } from '../../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../../src/data/community/socialData';
 import {
   DUA_CATEGORY_LABELS,
   HADITH_COLLECTION_NAMES,
@@ -29,6 +31,7 @@ export default function DuaDetailScreen() {
   // Audio/Speech functionality
   const { speak, stop, isSpeaking, voiceGender, setVoiceGender, swapVoices, hasMultipleVoices } = useArabicSpeech();
   const [showVoiceHelp, setShowVoiceHelp] = useState(false);
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
 
   // Get dua data
   const dua = duaId ? getDuaById(duaId) : undefined;
@@ -151,6 +154,21 @@ export default function DuaDetailScreen() {
           <Text style={styles.duaNameArabic}>{dua.titleArabic}</Text>
           <Text style={styles.duaNameEnglish}>{lc(dua.titleEnglish, dua.titleFrench)}</Text>
         </View>
+        <Pressable
+          style={styles.backButton}
+          onPress={() => setShareContent({
+            kind: 'dua',
+            arabic: dua.arabicText,
+            translit: dua.transliteration,
+            translation: lc(dua.translation, dua.translationFr),
+            audioText: dua.arabicText,
+            ref: dua.titleArabic,
+            route: `/quran/duas/${dua.id}`,
+          })}
+          accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
+        >
+          <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+        </Pressable>
       </View>
 
       {/* Category Badge + Navigation */}
@@ -331,6 +349,12 @@ export default function DuaDetailScreen() {
 
         <View style={{ height: 40 }} />
       </ScrollView>
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
+      />
     </SafeAreaView>
   );
 }

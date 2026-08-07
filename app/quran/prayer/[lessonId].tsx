@@ -8,6 +8,8 @@ import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { getPrayerLessonById, getAllPrayerLessons } from '../../../src/data/arabic/prayer';
 import { usePrayerStore } from '../../../src/stores/prayerStore';
 import { useArabicSpeech } from '../../../src/hooks/useArabicSpeech';
+import { ShareToGroupModal } from '../../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../../src/data/community/socialData';
 import {
   PrayerContent,
   PrayerStepData,
@@ -22,6 +24,7 @@ export default function PrayerLessonScreen() {
   const { isCompleted, completeLesson, startLesson, setLastViewed } = usePrayerStore();
   const { speak, stop, isSpeaking } = useArabicSpeech();
   const [speakingText, setSpeakingText] = useState<string | null>(null);
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
 
   const lesson = lessonId ? getPrayerLessonById(lessonId) : undefined;
   const allLessons = getAllPrayerLessons();
@@ -430,6 +433,20 @@ export default function PrayerLessonScreen() {
           </Text>
           <Text style={styles.headerTitleArabic}>{lesson.titleArabic}</Text>
         </View>
+        <Pressable
+          style={styles.backButton}
+          onPress={() => setShareContent({
+            kind: 'prayer',
+            arabic: lesson.titleArabic,
+            translation: lc(lesson.description, lesson.descriptionFr),
+            audioText: lesson.titleArabic,
+            ref: lc(lesson.title, lesson.titleFr),
+            route: `/quran/prayer/${lesson.id}`,
+          })}
+          accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
+        >
+          <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+        </Pressable>
         <View style={styles.headerNav}>
           <Pressable
             style={[styles.navButton, !hasPrevious && styles.navButtonDisabled]}
@@ -489,6 +506,12 @@ export default function PrayerLessonScreen() {
 
         <View style={{ height: 40 }} />
       </ScrollView>
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
+      />
     </SafeAreaView>
   );
 }

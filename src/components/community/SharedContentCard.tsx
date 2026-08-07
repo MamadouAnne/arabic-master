@@ -19,6 +19,8 @@ const KIND_META: Record<SharedContent['kind'], { icon: string; label: string }> 
   lesson: { icon: 'school', label: 'Lesson' },
   verse: { icon: 'book', label: 'Quran' },
   dua: { icon: 'heart', label: 'Dua' },
+  tajweed: { icon: 'color-wand', label: 'Tajweed' },
+  prayer: { icon: 'moon', label: 'Prayer' },
 };
 
 export const SharedContentCard = React.memo(function SharedContentCard({ content, groupColor, isMe, onPractice }: Props) {

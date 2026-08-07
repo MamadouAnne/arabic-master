@@ -8,6 +8,8 @@ import { getSurahById, getSurahByNumber } from '../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../src/hooks/useQuranData';
 import { useQuranStore } from '../../../src/stores/quranStore';
 import { AyahCard } from '../../../src/components/quran/AyahCard';
+import { ShareToGroupModal } from '../../../src/components/community/ShareToGroupModal';
+import type { SharedContent } from '../../../src/data/community/socialData';
 import { quranAudioService, AudioState, QURAN_RECITERS, ReciterId } from '../../../src/services/quranAudioService';
 import { useAudioPlayerStore, advanceToNextSurah } from '../../../src/stores/audioPlayerStore';
 import { useAyahTranslations } from '../../../src/hooks/useAyahTranslations';
@@ -21,6 +23,7 @@ export default function SurahDetailScreen() {
   const [isPlayingAll, setIsPlayingAll] = useState(false);
   const [currentPlayingAyah, setCurrentPlayingAyah] = useState<number | null>(null);
   const [showReciterModal, setShowReciterModal] = useState(false);
+  const [shareContent, setShareContent] = useState<SharedContent | null>(null);
 
   // Refs to track state in callbacks (avoids stale closures)
   const isPlayingAllRef = useRef(false);
@@ -366,10 +369,19 @@ export default function SurahDetailScreen() {
         onPlay={() => handlePlayAyah(ayah.id, ayah.ayahNumber)}
         onBookmark={() => handleBookmark(ayah.id)}
         onPress={() => handleAyahPress(ayah.id)}
+        onShare={() => setShareContent({
+          kind: 'verse',
+          arabic: ayah.textUthmani,
+          translit: ayah.transliteration,
+          translation: translatedAyah.translation,
+          audioText: ayah.textUthmani,
+          ref: surah ? `${surah.nameEnglish} · ${ayah.ayahNumber}` : `Ayah ${ayah.ayahNumber}`,
+          route: `/quran/surah/${surahId}`,
+        })}
         onSpeedChange={handleSpeedChange}
       />
     );
-  }, [progress.settings, surahId, surahProgress.bookmarkedAyahs, activeAyahId, audioState, isAyahLearned, isAyahMemorized, handlePlayAyah, handleBookmark, handleAyahPress, handleSpeedChange, langTranslations]);
+  }, [progress.settings, surahId, surah, surahProgress.bookmarkedAyahs, activeAyahId, audioState, isAyahLearned, isAyahMemorized, handlePlayAyah, handleBookmark, handleAyahPress, handleSpeedChange, langTranslations]);
 
   // List header component
   const ListHeader = useCallback(() => (
@@ -612,6 +624,12 @@ export default function SurahDetailScreen() {
         onScrollToIndexFailed={(info) => {
           flatListRef.current?.scrollToOffset({ offset: info.averageItemLength * info.index, animated: true });
         }}
+      />
+
+      <ShareToGroupModal
+        visible={!!shareContent}
+        content={shareContent}
+        onClose={() => setShareContent(null)}
       />
     </SafeAreaView>
   );

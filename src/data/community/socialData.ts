@@ -246,7 +246,7 @@ export interface GroupMessage {
 
 // Rich card payload for content shared from elsewhere in the app.
 export interface SharedContent {
-  kind: 'word' | 'letter' | 'phrase' | 'lesson' | 'verse' | 'dua';
+  kind: 'word' | 'letter' | 'phrase' | 'lesson' | 'verse' | 'dua' | 'tajweed' | 'prayer';
   arabic?: string;        // headline Arabic (word, letter, phrase)
   translit?: string;      // transliteration
   translation?: string;   // meaning

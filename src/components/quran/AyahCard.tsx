@@ -20,6 +20,7 @@ interface AyahCardProps {
   onPlay?: () => void;
   onBookmark?: () => void;
   onPress?: () => void;
+  onShare?: () => void;
   onSpeedChange?: (speed: number) => void;
 }
 
@@ -40,6 +41,7 @@ export function AyahCard({
   onPlay,
   onBookmark,
   onPress,
+  onShare,
   onSpeedChange,
 }: AyahCardProps) {
   const isAudioActive = isPlaying || isPaused || isLoading;
@@ -88,6 +90,11 @@ export function AyahCard({
             <View style={styles.memorizedBadge}>
               <Ionicons name="heart" size={16} color="#8b5cf6" />
             </View>
+          )}
+          {onShare && (
+            <Pressable style={styles.actionButton} onPress={onShare} accessibilityRole="button" accessibilityLabel={`Share ayah ${ayah.ayahNumber} to a group`}>
+              <Ionicons name="paper-plane-outline" size={19} color="#64748b" />
+            </Pressable>
           )}
           <Pressable style={styles.actionButton} onPress={onBookmark} accessibilityRole="button" accessibilityLabel={isBookmarked ? `Remove bookmark from ayah ${ayah.ayahNumber}` : `Bookmark ayah ${ayah.ayahNumber}`}>
             <Ionicons
