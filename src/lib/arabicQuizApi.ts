@@ -15,6 +15,11 @@ export interface QuizQuestion {
   question: string;
   questionArabic?: string;
   options: string[];
+  /** Option labels in English and French, same order/correctIndex, so the UI can
+   *  localize choices live instead of baking one language at generation time.
+   *  For englishToArabic questions both arrays hold the (language-neutral) Arabic. */
+  optionsEn: string[];
+  optionsFr: string[];
   correctIndex: number;
   explanation: DetailedExplanation;
 }
@@ -56,6 +61,8 @@ function generateMultipleChoiceQuestion(
   let question: string;
   let questionArabic: string | undefined;
   let options: string[];
+  let optionsEn: string[];
+  let optionsFr: string[];
   let correctIndex: number;
 
   if (direction === 'arabicToEnglish') {
@@ -65,22 +72,26 @@ function generateMultipleChoiceQuestion(
       : 'What does this Arabic word mean?';
     questionArabic = word.arabic;
 
-    // Options are translations in user's language
-    const wrongOptions = distractors.map((w) => isFr ? w.french : w.english);
+    // Keep both languages so the UI can localize choices live.
     correctIndex = Math.floor(Math.random() * 4);
-    options = [...wrongOptions];
-    options.splice(correctIndex, 0, localWord);
+    optionsEn = distractors.map((w) => w.english);
+    optionsFr = distractors.map((w) => w.french);
+    optionsEn.splice(correctIndex, 0, word.english);
+    optionsFr.splice(correctIndex, 0, word.french);
+    options = isFr ? optionsFr : optionsEn;
   } else {
     // Show word in user's language, ask for Arabic translation
     question = isFr
       ? `Comment dit-on « ${localWord} » en arabe ?`
       : `How do you say "${localWord}" in Arabic?`;
 
-    // Options are Arabic words
+    // Options are Arabic words (language-neutral)
     const wrongOptions = distractors.map((w) => w.arabic);
     correctIndex = Math.floor(Math.random() * 4);
     options = [...wrongOptions];
     options.splice(correctIndex, 0, word.arabic);
+    optionsEn = options;
+    optionsFr = options;
   }
 
   // Create detailed explanation
@@ -93,6 +104,8 @@ function generateMultipleChoiceQuestion(
     question,
     questionArabic,
     options,
+    optionsEn,
+    optionsFr,
     correctIndex,
     explanation,
   };

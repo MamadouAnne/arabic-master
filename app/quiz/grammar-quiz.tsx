@@ -19,6 +19,7 @@ import { generateGrammarQuiz, getTotalGrammarQuestions } from '../../src/lib/gra
 import { DEFAULT_GRAMMAR_QUIZ_CONFIG } from '../../src/types/grammarQuiz';
 import { playArabicAudio } from '../../src/lib/arabicVocabularyApi';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
+import { QuizIntro } from '../../src/components/quiz/QuizIntro';
 
 type ScreenState = 'loading' | 'ready' | 'playing' | 'feedback' | 'results';
 
@@ -218,78 +219,51 @@ export default function GrammarQuizScreen() {
   // Ready Screen
   if (screenState === 'ready') {
     return (
-      <SafeAreaView style={styles.container}>
-        <Pressable style={styles.backButton} onPress={handleGoBack}>
-          <Ionicons name="arrow-back" size={24} color="#94a3b8" />
-        </Pressable>
-
-        <View style={styles.centerContent}>
-          <Ionicons name="book" size={64} color="#D4AF37" />
-          <Text style={styles.title}>{t('grammarQuiz.title')}</Text>
-          <Text style={styles.titleArabic}>اختبار قواعد اللغة العربية</Text>
-
-          {error ? (
-            <View style={styles.errorContainer}>
-              <Ionicons name="warning" size={24} color="#f97316" />
-              <Text style={styles.errorText}>{error}</Text>
-              <Pressable style={styles.retryButton} onPress={generateNewQuiz}>
-                <Text style={styles.retryButtonText}>{t('common.tryAgain')}</Text>
-              </Pressable>
-            </View>
-          ) : attempts > 0 ? (
-            <View style={styles.attemptInfo}>
-              <Text style={styles.attemptText}>
-                {t('grammarQuiz.sameQuizUntilPass', { score: DEFAULT_GRAMMAR_QUIZ_CONFIG.passingScore })}
-              </Text>
-              <View style={styles.statsRow}>
-                <View style={styles.statBox}>
-                  <Text style={styles.statLabel}>{t('grammarQuiz.attempts')}</Text>
-                  <Text style={styles.statValue}>{attempts}</Text>
-                </View>
-                <View style={styles.statBox}>
-                  <Text style={styles.statLabel}>{t('grammarQuiz.bestScore')}</Text>
-                  <Text style={styles.statValueHighlight}>{bestScore}%</Text>
-                </View>
-              </View>
-            </View>
-          ) : (
-            <View style={styles.infoBox}>
-              <Text style={styles.subtitle}>
-                {t('grammarQuiz.grammarQuestions')}{'\n'}{t('grammarQuiz.passWithScore', { score: DEFAULT_GRAMMAR_QUIZ_CONFIG.passingScore })}
-              </Text>
-              <View style={styles.featureList}>
-                <View style={styles.featureItem}>
-                  <Ionicons name="library" size={16} color="#818cf8" />
-                  <Text style={styles.featureText}>{t('grammarQuiz.totalQuestionsAvailable', { count: quizStats.total })}</Text>
-                </View>
-                <View style={styles.featureItem}>
-                  <Ionicons name="help-circle" size={16} color="#818cf8" />
-                  <Text style={styles.featureText}>{t('grammarQuiz.multipleChoiceFillBlank')}</Text>
-                </View>
-                <View style={styles.featureItem}>
-                  <Ionicons name="layers" size={16} color="#818cf8" />
-                  <Text style={styles.featureText}>{t('grammarQuiz.allDifficultyLevels')}</Text>
-                </View>
-              </View>
-            </View>
-          )}
-
-          {!error && (
-            <Pressable style={styles.startButton} onPress={handleStartQuiz}>
-              <Text style={styles.startButtonText}>
-                {attempts > 0 ? t('common.tryAgain') : t('grammarQuiz.startQuiz')}
-              </Text>
-              <Ionicons name="arrow-forward" size={20} color="#0f172a" />
-            </Pressable>
-          )}
-        </View>
-      </SafeAreaView>
+      <QuizIntro
+        icon="book"
+        title={t('grammarQuiz.title')}
+        titleArabic="اختبار قواعد اللغة العربية"
+        subtitle={`${t('grammarQuiz.grammarQuestions')}\n${t('grammarQuiz.passWithScore', { score: DEFAULT_GRAMMAR_QUIZ_CONFIG.passingScore })}`}
+        features={[
+          { icon: 'library', text: t('grammarQuiz.totalQuestionsAvailable', { count: quizStats.total }) },
+          { icon: 'help-circle', text: t('grammarQuiz.multipleChoiceFillBlank') },
+          { icon: 'layers', text: t('grammarQuiz.allDifficultyLevels') },
+        ]}
+        attempts={attempts}
+        bestScore={bestScore}
+        attemptText={t('grammarQuiz.sameQuizUntilPass', { score: DEFAULT_GRAMMAR_QUIZ_CONFIG.passingScore })}
+        attemptsLabel={t('grammarQuiz.attempts')}
+        bestScoreLabel={t('grammarQuiz.bestScore')}
+        error={error}
+        retryLabel={t('common.tryAgain')}
+        startLabel={attempts > 0 ? t('common.tryAgain') : t('grammarQuiz.startQuiz')}
+        onBack={handleGoBack}
+        onStart={handleStartQuiz}
+        onRetry={generateNewQuiz}
+      />
     );
   }
 
   // Playing / Feedback Screen
   if ((screenState === 'playing' || screenState === 'feedback') && currentQuestion) {
     const progress = ((currentIndex + 1) / currentQuestions.length) * 100;
+
+    // Some exercises print the answer phrase in questionArabic (e.g. اختر الصحيح: "سيارة جميلة"),
+    // which gives the answer away. Hide the Arabic prompt when it contains the correct option
+    // (compared with tashkeel/tatweel stripped). The EN/FR prompt still conveys the meaning.
+    const stripTashkeel = (s: string) =>
+      s.replace(/[ً-ْٰـ]/g, '').replace(/\s+/g, ' ').trim();
+    const correctOption = currentQuestion.options?.find((o) => o.isCorrect);
+    const questionArabicRevealsAnswer =
+      currentQuestion.type === 'multiple_choice' &&
+      !!currentQuestion.questionArabic &&
+      !!correctOption &&
+      (() => {
+        const q = stripTashkeel(currentQuestion.questionArabic!);
+        const a = stripTashkeel(correctOption.text);
+        return a.length > 0 && q.includes(a);
+      })();
+    const showQuestionArabic = !!currentQuestion.questionArabic && !questionArabicRevealsAnswer;
 
     return (
       <SafeAreaView style={styles.container}>
@@ -332,13 +306,13 @@ export default function GrammarQuizScreen() {
             <View style={styles.levelBadge}>
               <Text style={styles.levelBadgeText}>{currentQuestion.level}</Text>
             </View>
-            {currentQuestion.questionArabic && (
+            {showQuestionArabic && (
               <View style={styles.arabicQuestionRow}>
                 <Text style={styles.questionArabic}>
                   {currentQuestion.type === 'fill_blank'
                     ? // For fill_blank, show only the part with the blank (after = or :)
-                      currentQuestion.questionArabic.split(/[=:→]/)[1]?.trim() || currentQuestion.questionArabic
-                    : currentQuestion.questionArabic}
+                      currentQuestion.questionArabic!.split(/[=:→]/)[1]?.trim() || currentQuestion.questionArabic!
+                    : currentQuestion.questionArabic!}
                 </Text>
                 <Pressable
                   style={styles.audioButton}
@@ -387,14 +361,14 @@ export default function GrammarQuizScreen() {
                   isCorrectOption && styles.optionCorrect,
                   isWrongOption && styles.optionWrong,
                 ];
+                // Check if option contains Arabic text (has Arabic Unicode characters)
+                const hasArabic = /[\u0600-\u06FF]/.test(option.text);
+
                 const textStyle = [
-                  styles.optionText,
+                  hasArabic ? styles.optionTextArabic : styles.optionText,
                   isCorrectOption && styles.optionTextCorrect,
                   isWrongOption && styles.optionTextWrong,
                 ];
-
-                // Check if option contains Arabic text (has Arabic Unicode characters)
-                const hasArabic = /[\u0600-\u06FF]/.test(option.text);
 
                 return (
                   <Pressable
@@ -543,7 +517,7 @@ export default function GrammarQuizScreen() {
                         }
                       }}
                     >
-                      <Ionicons name="volume-high" size={18} color="#ffffff" />
+                      <Ionicons name="volume-high" size={18} color="#D4AF37" />
                       <Text style={styles.listenButtonText}>{t('grammarQuiz.listenToArabic')}</Text>
                     </Pressable>
                   )}
@@ -554,6 +528,7 @@ export default function GrammarQuizScreen() {
                 <Text style={styles.nextButtonText}>
                   {currentIndex >= currentQuestions.length - 1 ? t('grammarQuiz.seeResults') : t('grammarQuiz.nextQuestion')}
                 </Text>
+                <Ionicons name="arrow-forward" size={20} color="#0f172a" />
               </Pressable>
             </View>
           )}
@@ -1038,6 +1013,14 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     flex: 1,
   },
+  optionTextArabic: {
+    fontSize: 26,
+    lineHeight: 44,
+    color: '#ffffff',
+    textAlign: 'center',
+    writingDirection: 'rtl',
+    flex: 1,
+  },
   optionTextCorrect: {
     color: '#22c55e',
   },
@@ -1196,28 +1179,40 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#6366f1',
-    paddingVertical: 10,
+    backgroundColor: 'rgba(212, 175, 55, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(212, 175, 55, 0.5)',
+    paddingVertical: 11,
     paddingHorizontal: 16,
-    borderRadius: 8,
+    borderRadius: 12,
     marginTop: 12,
     gap: 8,
   },
   listenButtonText: {
     fontSize: 14,
-    fontWeight: '600',
-    color: '#ffffff',
+    fontWeight: '700',
+    color: '#D4AF37',
   },
   nextButton: {
-    backgroundColor: '#6366f1',
-    padding: 16,
-    borderRadius: 12,
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: '#D4AF37',
+    paddingVertical: 17,
+    borderRadius: 16,
+    marginTop: 4,
+    marginHorizontal: 24,
+    shadowColor: '#D4AF37',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.35,
+    shadowRadius: 14,
+    elevation: 6,
   },
   nextButtonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#ffffff',
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#0f172a',
   },
   resultsScroll: {
     padding: 20,

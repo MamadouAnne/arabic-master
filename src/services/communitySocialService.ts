@@ -183,22 +183,12 @@ export async function toggleLikeThread(threadId: string, userId: string): Promis
       .maybeSingle();
 
     if (existing) {
-      // Unlike
+      // Unlike — the trg_discussion_like_count trigger decrements like_count.
       await client.from('discussion_likes').delete().eq('user_id', userId).eq('thread_id', threadId);
-      // Decrement like count on thread
-      const { data: thread } = await client.from('discussion_threads').select('like_count').eq('id', threadId).single();
-      if (thread) {
-        await client.from('discussion_threads').update({ like_count: Math.max(0, (thread.like_count || 0) - 1) }).eq('id', threadId);
-      }
       return false;
     } else {
-      // Like
+      // Like — the trg_discussion_like_count trigger increments like_count.
       await client.from('discussion_likes').insert({ user_id: userId, thread_id: threadId });
-      // Increment like count on thread
-      const { data: thread } = await client.from('discussion_threads').select('like_count').eq('id', threadId).single();
-      if (thread) {
-        await client.from('discussion_threads').update({ like_count: (thread.like_count || 0) + 1 }).eq('id', threadId);
-      }
       return true;
     }
   } catch (e) {

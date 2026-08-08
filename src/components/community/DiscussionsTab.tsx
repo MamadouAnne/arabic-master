@@ -15,7 +15,6 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
-import { useCreditStore, getCreditDisplayInfo } from '../../stores/creditStore';
 import { useCommunityStore } from '../../stores/communityStore';
 import { DiscussionCategory } from '../../types/community';
 
@@ -37,9 +36,6 @@ export function DiscussionsTab() {
   const [postBody, setPostBody] = useState('');
   const [postCategory, setPostCategory] = useState<DiscussionCategory>('general');
   const [isPosting, setIsPosting] = useState(false);
-
-  const creditState = useCreditStore();
-  const isPremium = getCreditDisplayInfo(creditState).isPremium;
 
   const {
     discussions,
@@ -173,7 +169,7 @@ export function DiscussionsTab() {
                     <Pressable
                       onPress={(e) => {
                         e.stopPropagation?.();
-                        if (isPremium) toggleLikeThread(thread.id);
+                        toggleLikeThread(thread.id);
                       }}
                       hitSlop={8}
                     >
@@ -198,19 +194,9 @@ export function DiscussionsTab() {
       )}
 
       {/* FAB — New Post */}
-      <Pressable
-        style={[styles.fab, !isPremium && styles.fabLocked]}
-        onPress={() => {
-          if (isPremium) setShowPostModal(true);
-        }}
-      >
-        <Ionicons name={isPremium ? 'add' : 'lock-closed'} size={24} color="#ffffff" />
+      <Pressable style={styles.fab} onPress={() => setShowPostModal(true)}>
+        <Ionicons name="add" size={24} color="#ffffff" />
       </Pressable>
-      {!isPremium && (
-        <View style={styles.fabLabel}>
-          <Text style={styles.fabLabelText}>{t('community.unlockToPost')}</Text>
-        </View>
-      )}
 
       {/* ── New Post Modal ──────────────────────────────────── */}
       <Modal visible={showPostModal} animationType="slide" transparent>
@@ -437,24 +423,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 8,
     elevation: 8,
-  },
-  fabLocked: {
-    backgroundColor: '#475569',
-  },
-  fabLabel: {
-    position: 'absolute',
-    bottom: 30,
-    left: 84,
-    backgroundColor: '#1e293b',
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: '#334155',
-  },
-  fabLabelText: {
-    fontSize: 12,
-    color: '#94a3b8',
   },
 
   // Modal

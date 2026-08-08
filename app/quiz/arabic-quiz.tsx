@@ -18,6 +18,7 @@ import { generateArabicQuiz, DetailedExplanation } from '../../src/lib/arabicQui
 import { playArabicAudio } from '../../src/lib/arabicVocabularyApi';
 import { DEFAULT_QUIZ_CONFIG } from '../../src/types/arabicQuiz';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
+import { QuizIntro } from '../../src/components/quiz/QuizIntro';
 
 type ScreenState = 'loading' | 'ready' | 'playing' | 'feedback' | 'results';
 
@@ -67,6 +68,10 @@ export default function ArabicQuizScreen() {
     // Check first question for signs of corrupted data
     const firstQ = currentQuestions[0];
     if (!firstQ?.explanation) return false;
+
+    // Require localized option arrays (added so choices follow the app language).
+    // Older cached quizzes baked one language into `options`, causing EN/FR mixes.
+    if (!firstQ.optionsEn || !firstQ.optionsFr) return false;
 
     // Check for URL-encoded characters in transliteration
     if (firstQ.explanation.transliteration?.includes('%')) return false;
@@ -222,72 +227,28 @@ export default function ArabicQuizScreen() {
   // Ready Screen
   if (screenState === 'ready') {
     return (
-      <SafeAreaView style={styles.container}>
-        <Pressable style={styles.backButton} onPress={handleGoBack}>
-          <Ionicons name="arrow-back" size={24} color="#94a3b8" />
-        </Pressable>
-
-        <View style={styles.centerContent}>
-          <Ionicons name="school" size={64} color="#D4AF37" />
-          <Text style={styles.title}>{t('arabicQuiz.title')}</Text>
-          <Text style={styles.titleArabic}>اختبار المفردات العربية</Text>
-
-          {error ? (
-            <View style={styles.errorContainer}>
-              <Ionicons name="warning" size={24} color="#f97316" />
-              <Text style={styles.errorText}>{error}</Text>
-              <Pressable style={styles.retryButton} onPress={generateNewQuiz}>
-                <Text style={styles.retryButtonText}>{t('common.tryAgain')}</Text>
-              </Pressable>
-            </View>
-          ) : attempts > 0 ? (
-            <View style={styles.attemptInfo}>
-              <Text style={styles.attemptText}>
-                {t('arabicQuiz.sameQuizUntilPass', { score: DEFAULT_QUIZ_CONFIG.passingScore })}
-              </Text>
-              <View style={styles.statsRow}>
-                <View style={styles.statBox}>
-                  <Text style={styles.statLabel}>{t('arabicQuiz.attempts')}</Text>
-                  <Text style={styles.statValue}>{attempts}</Text>
-                </View>
-                <View style={styles.statBox}>
-                  <Text style={styles.statLabel}>{t('arabicQuiz.bestScore')}</Text>
-                  <Text style={styles.statValueHighlight}>{bestScore}%</Text>
-                </View>
-              </View>
-            </View>
-          ) : (
-            <View style={styles.infoBox}>
-              <Text style={styles.subtitle}>
-                {t('arabicQuiz.vocabQuestions')}{'\n'}{t('arabicQuiz.passWithScore', { score: DEFAULT_QUIZ_CONFIG.passingScore })}
-              </Text>
-              <View style={styles.featureList}>
-                <View style={styles.featureItem}>
-                  <Ionicons name="shuffle" size={16} color="#818cf8" />
-                  <Text style={styles.featureText}>{t('arabicQuiz.randomWords')}</Text>
-                </View>
-                <View style={styles.featureItem}>
-                  <Ionicons name="book" size={16} color="#818cf8" />
-                  <Text style={styles.featureText}>{t('arabicQuiz.detailedExplanations')}</Text>
-                </View>
-                <View style={styles.featureItem}>
-                  <Ionicons name="refresh" size={16} color="#818cf8" />
-                  <Text style={styles.featureText}>{t('arabicQuiz.newWordsWhenPass')}</Text>
-                </View>
-              </View>
-            </View>
-          )}
-
-          {!error && (
-            <Pressable style={styles.startButton} onPress={handleStartQuiz}>
-              <Text style={styles.startButtonText}>
-                {attempts > 0 ? t('common.tryAgain') : t('arabicQuiz.startQuiz')}
-              </Text>
-              <Ionicons name="arrow-forward" size={20} color="#0f172a" />
-            </Pressable>
-          )}
-        </View>
-      </SafeAreaView>
+      <QuizIntro
+        icon="school"
+        title={t('arabicQuiz.title')}
+        titleArabic="اختبار المفردات العربية"
+        subtitle={`${t('arabicQuiz.vocabQuestions')}\n${t('arabicQuiz.passWithScore', { score: DEFAULT_QUIZ_CONFIG.passingScore })}`}
+        features={[
+          { icon: 'shuffle', text: t('arabicQuiz.randomWords') },
+          { icon: 'book', text: t('arabicQuiz.detailedExplanations') },
+          { icon: 'refresh', text: t('arabicQuiz.newWordsWhenPass') },
+        ]}
+        attempts={attempts}
+        bestScore={bestScore}
+        attemptText={t('arabicQuiz.sameQuizUntilPass', { score: DEFAULT_QUIZ_CONFIG.passingScore })}
+        attemptsLabel={t('arabicQuiz.attempts')}
+        bestScoreLabel={t('arabicQuiz.bestScore')}
+        error={error}
+        retryLabel={t('common.tryAgain')}
+        startLabel={attempts > 0 ? t('common.tryAgain') : t('arabicQuiz.startQuiz')}
+        onBack={handleGoBack}
+        onStart={handleStartQuiz}
+        onRetry={generateNewQuiz}
+      />
     );
   }
 
@@ -354,31 +315,59 @@ export default function ArabicQuizScreen() {
           {/* Options */}
           <View style={styles.optionsContainer}>
             {currentQuestion.options.map((option, index) => {
+              const isArabicOption = currentQuestion.direction === 'englishToArabic';
               const isCorrectOption = screenState === 'feedback' && index === currentQuestion.correctIndex;
               const isWrongOption = screenState === 'feedback' && index === selectedOptionIndex && !isCorrect;
 
-              const optionStyle = [
-                styles.optionButton,
-                isCorrectOption && styles.optionCorrect,
-                isWrongOption && styles.optionWrong,
-              ];
-              const textStyle = [
-                styles.optionText,
-                isCorrectOption && styles.optionTextCorrect,
-                isWrongOption && styles.optionTextWrong,
-              ];
+              const isSelected = screenState === 'feedback' && index === selectedOptionIndex;
 
               return (
                 <Pressable
                   key={index}
-                  style={({ pressed }) => [
-                    ...optionStyle,
-                    pressed && screenState === 'playing' && styles.optionPressed,
+                  style={[
+                    styles.optionButton,
+                    isCorrectOption && styles.optionCorrect,
+                    isWrongOption && styles.optionWrong,
                   ]}
                   onPress={() => handleSelectOption(index)}
                   disabled={screenState === 'feedback'}
                 >
-                  <Text style={textStyle}>{option}</Text>
+                  <View
+                    style={[
+                      styles.optionLetter,
+                      isCorrectOption && styles.optionLetterCorrect,
+                      isWrongOption && styles.optionLetterWrong,
+                    ]}
+                  >
+                    {isCorrectOption ? (
+                      <Ionicons name="checkmark" size={20} color="#ffffff" />
+                    ) : isWrongOption ? (
+                      <Ionicons name="close" size={20} color="#ffffff" />
+                    ) : (
+                      <Text style={styles.optionLetterText}>{String.fromCharCode(65 + index)}</Text>
+                    )}
+                  </View>
+
+                  <Text
+                    style={[
+                      isArabicOption ? styles.optionTextArabic : styles.optionText,
+                      isCorrectOption && styles.optionTextCorrect,
+                      isWrongOption && styles.optionTextWrong,
+                    ]}
+                    numberOfLines={2}
+                  >
+                    {isArabicOption
+                      ? option
+                      : lc(currentQuestion.optionsEn?.[index] ?? option, currentQuestion.optionsFr?.[index])}
+                  </Text>
+
+                  {isSelected && (
+                    <Ionicons
+                      name={isCorrect ? 'checkmark-circle' : 'close-circle'}
+                      size={22}
+                      color={isCorrect ? '#22c55e' : '#ef4444'}
+                    />
+                  )}
                 </Pressable>
               );
             })}
@@ -439,6 +428,7 @@ export default function ArabicQuizScreen() {
                 <Text style={styles.nextButtonText}>
                   {currentIndex >= currentQuestions.length - 1 ? t('arabicQuiz.seeResults') : t('arabicQuiz.nextQuestion')}
                 </Text>
+                <Ionicons name="arrow-forward" size={20} color="#0f172a" />
               </Pressable>
             </View>
           )}
@@ -510,9 +500,13 @@ export default function ArabicQuizScreen() {
             {currentQuestions.map((question, index) => {
               const answer = currentAnswers[index];
               const wasCorrect = answer?.isCorrect ?? false;
-              const rawUserAnswer = answer?.selectedIndex >= 0 ? question.options[answer.selectedIndex] : null;
+              const localizedOption = (i: number) =>
+                question.direction === 'englishToArabic'
+                  ? question.options[i]
+                  : lc(question.optionsEn?.[i] ?? question.options[i], question.optionsFr?.[i]);
+              const rawUserAnswer = answer?.selectedIndex >= 0 ? localizedOption(answer.selectedIndex) : null;
               const userAnswer = rawUserAnswer ?? t('arabicQuiz.noAnswer');
-              const correctAnswer = question.options[question.correctIndex];
+              const correctAnswer = localizedOption(question.correctIndex);
 
               return (
                 <View key={question.id} style={styles.reviewCard}>
@@ -827,6 +821,7 @@ const styles = StyleSheet.create({
   },
   questionArabic: {
     fontSize: 42,
+    lineHeight: 68,
     color: '#D4AF37',
     textAlign: 'center',
   },
@@ -858,30 +853,62 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   optionButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    minHeight: 66,
     backgroundColor: '#1e293b',
-    borderRadius: 12,
-    paddingVertical: 16,
-    paddingHorizontal: 20,
+    borderRadius: 16,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
     marginBottom: 12,
-    borderWidth: 2,
+    borderWidth: 1.5,
     borderColor: '#334155',
   },
-  optionPressed: {
-    borderColor: '#D4AF37',
-    backgroundColor: 'rgba(212, 175, 55, 0.06)',
-  },
   optionCorrect: {
-    backgroundColor: 'rgba(34, 197, 94, 0.1)',
+    backgroundColor: 'rgba(34, 197, 94, 0.12)',
     borderColor: '#22c55e',
   },
   optionWrong: {
-    backgroundColor: 'rgba(239, 68, 68, 0.1)',
+    backgroundColor: 'rgba(239, 68, 68, 0.12)',
     borderColor: '#ef4444',
   },
+  optionLetter: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    backgroundColor: '#0f172a',
+    borderWidth: 1,
+    borderColor: '#334155',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  optionLetterCorrect: {
+    backgroundColor: '#22c55e',
+    borderColor: '#22c55e',
+  },
+  optionLetterWrong: {
+    backgroundColor: '#ef4444',
+    borderColor: '#ef4444',
+  },
+  optionLetterText: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: '#94a3b8',
+  },
   optionText: {
+    flex: 1,
     fontSize: 18,
     color: '#ffffff',
-    textAlign: 'center',
+    textAlign: 'left',
+  },
+  optionTextArabic: {
+    flex: 1,
+    fontSize: 26,
+    lineHeight: 40,
+    color: '#ffffff',
+    textAlign: 'left',
+    writingDirection: 'rtl',
   },
   optionTextCorrect: {
     color: '#22c55e',
@@ -942,6 +969,7 @@ const styles = StyleSheet.create({
   },
   arabicLarge: {
     fontSize: 48,
+    lineHeight: 76,
     color: '#D4AF37',
     marginBottom: 8,
   },
@@ -979,15 +1007,24 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
   nextButton: {
-    backgroundColor: '#6366f1',
-    paddingVertical: 16,
-    borderRadius: 12,
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: '#D4AF37',
+    paddingVertical: 17,
+    borderRadius: 16,
+    marginHorizontal: 24,
+    shadowColor: '#D4AF37',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.35,
+    shadowRadius: 14,
+    elevation: 6,
   },
   nextButtonText: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#ffffff',
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#0f172a',
   },
   // Results Screen
   resultsScroll: {

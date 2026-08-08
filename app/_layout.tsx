@@ -289,8 +289,11 @@ export default function RootLayout() {
           <Stack.Screen name="terms-of-service" />
         </Stack>
         <MiniAudioPlayer />
-        {/* Hide the AI floating button on the group chat screen (it overlaps the chat input). */}
-        {segments.join('/') !== 'community/groups/[id]' && <AIFloatingButton />}
+        {/* Hide the AI floating button on community screens (the tab and all community/*
+            stack routes) and on the challenge quiz screens — those areas have their own actions. */}
+        {segments[0] !== 'community' &&
+          segments[0] !== 'quiz' &&
+          !(segments[0] === '(tabs)' && segments[1] === 'community') && <AIFloatingButton />}
         <AIChatSheet />
       </GestureHandlerRootView>
     </AppErrorBoundary>

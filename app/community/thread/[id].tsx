@@ -14,7 +14,6 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
-import { useCreditStore, getCreditDisplayInfo } from '../../../src/stores/creditStore';
 import { useCommunityStore } from '../../../src/stores/communityStore';
 
 const categoryColors: Record<string, string> = {
@@ -29,9 +28,6 @@ export default function ThreadDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { t } = useTranslation();
   const scrollRef = useRef<ScrollView>(null);
-
-  const creditState = useCreditStore();
-  const isPremium = getCreditDisplayInfo(creditState).isPremium;
 
   const [replyText, setReplyText] = useState('');
   const [isSending, setIsSending] = useState(false);
@@ -55,7 +51,7 @@ export default function ThreadDetailScreen() {
   }, [id]);
 
   const handleReply = async () => {
-    if (!replyText.trim() || !id || !isPremium) return;
+    if (!replyText.trim() || !id) return;
     setIsSending(true);
     await postReply(id, replyText.trim());
     setReplyText('');
@@ -140,7 +136,7 @@ export default function ThreadDetailScreen() {
             <View style={styles.threadActions}>
               <Pressable
                 style={styles.actionBtn}
-                onPress={() => { if (isPremium) toggleLikeThread(currentThread.id); }}
+                onPress={() => toggleLikeThread(currentThread.id)}
               >
                 <Ionicons name="heart-outline" size={18} color="#f43e5e" />
                 <Text style={styles.actionCount}>{currentThread.likeCount}</Text>
@@ -175,7 +171,7 @@ export default function ThreadDetailScreen() {
                     </View>
                     <Pressable
                       style={styles.replyLikeBtn}
-                      onPress={() => { if (isPremium) toggleLikeReply(reply.id); }}
+                      onPress={() => toggleLikeReply(reply.id)}
                     >
                       <Ionicons
                         name={reply.isLiked ? 'heart' : 'heart-outline'}
@@ -198,35 +194,26 @@ export default function ThreadDetailScreen() {
 
         {/* Reply input */}
         <View style={styles.replyInputContainer}>
-          {isPremium ? (
-            <>
-              <TextInput
-                style={styles.replyInput}
-                placeholder={t('community.replyPlaceholder')}
-                placeholderTextColor="#64748b"
-                value={replyText}
-                onChangeText={setReplyText}
-                multiline
-                maxLength={1000}
-              />
-              <Pressable
-                style={[styles.sendBtn, (!replyText.trim() || isSending) && styles.sendBtnDisabled]}
-                onPress={handleReply}
-                disabled={!replyText.trim() || isSending}
-              >
-                {isSending ? (
-                  <ActivityIndicator color="#ffffff" size="small" />
-                ) : (
-                  <Ionicons name="send" size={18} color="#ffffff" />
-                )}
-              </Pressable>
-            </>
-          ) : (
-            <View style={styles.lockedReply}>
-              <Ionicons name="lock-closed" size={16} color="#64748b" />
-              <Text style={styles.lockedReplyText}>{t('community.unlockToPost')}</Text>
-            </View>
-          )}
+          <TextInput
+            style={styles.replyInput}
+            placeholder={t('community.replyPlaceholder')}
+            placeholderTextColor="#64748b"
+            value={replyText}
+            onChangeText={setReplyText}
+            multiline
+            maxLength={1000}
+          />
+          <Pressable
+            style={[styles.sendBtn, (!replyText.trim() || isSending) && styles.sendBtnDisabled]}
+            onPress={handleReply}
+            disabled={!replyText.trim() || isSending}
+          >
+            {isSending ? (
+              <ActivityIndicator color="#ffffff" size="small" />
+            ) : (
+              <Ionicons name="send" size={18} color="#ffffff" />
+            )}
+          </Pressable>
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
@@ -452,17 +439,5 @@ const styles = StyleSheet.create({
   },
   sendBtnDisabled: {
     opacity: 0.4,
-  },
-  lockedReply: {
-    flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-    paddingVertical: 10,
-  },
-  lockedReplyText: {
-    fontSize: 13,
-    color: '#64748b',
   },
 });
