@@ -11,7 +11,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": " وَيْلٌ لِّلْمُطَفِّفِينَ",
     "textSimple": " ويل للمطففين",
     "transliteration": "waylun lil'muṭaffifīna",
-    "translation": "",
+    "translation": "Woe to those who give less [than due],",
     "words": [
       {
         "id": "al-mutaffifin-1-1",
@@ -28,7 +28,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur aux fraudeurs,"
   },
   {
     "id": "al-mutaffifin-2",
@@ -37,7 +38,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
     "textSimple": "ٱلذين إذا ٱكتالوا على ٱلناس يستوفون",
     "transliteration": "alladhīna idhā ik'tālū ʿalā l-nāsi yastawfūna",
-    "translation": "",
+    "translation": "Who, when they take a measure from people, take in full.",
     "words": [
       {
         "id": "al-mutaffifin-2-1",
@@ -82,7 +83,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui, lorsqu’ils font peser (ce qu’ils achètent), exigent la pleine mesure,"
   },
   {
     "id": "al-mutaffifin-3",
@@ -91,7 +93,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
     "textSimple": "وإذا كالوهم أو وزنوهم يخسرون",
     "transliteration": "wa-idhā kālūhum aw wazanūhum yukh'sirūna",
-    "translation": "",
+    "translation": "But if they give by measure or by weight to them, they cause loss.",
     "words": [
       {
         "id": "al-mutaffifin-3-1",
@@ -129,7 +131,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais qui, lorsqu’ils ont eux-mêmes à mesurer ou à peser (pour les autres), trichent volontiers."
   },
   {
     "id": "al-mutaffifin-4",
@@ -138,7 +141,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَا يَظُنُّ أُو۟لَـٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
     "textSimple": "ألا يظن أولـٓئك أنهم مبعوثون",
     "transliteration": "alā yaẓunnu ulāika annahum mabʿūthūna",
-    "translation": "",
+    "translation": "Do they not think that they will be resurrected",
     "words": [
       {
         "id": "al-mutaffifin-4-1",
@@ -176,7 +179,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là ne songent-ils pas qu’ils seront ressuscités,"
   },
   {
     "id": "al-mutaffifin-5",
@@ -185,7 +189,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "لِيَوْمٍ عَظِيمٍ",
     "textSimple": "ليوم عظيم",
     "transliteration": "liyawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "For a tremendous Day -",
     "words": [
       {
         "id": "al-mutaffifin-5-1",
@@ -202,7 +206,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour un terrible jour,"
   },
   {
     "id": "al-mutaffifin-6",
@@ -211,7 +216,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "يوم يقوم ٱلناس لرب ٱلعـلمين",
     "transliteration": "yawma yaqūmu l-nāsu lirabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "The Day when mankind will stand before the Lord of the worlds?",
     "words": [
       {
         "id": "al-mutaffifin-6-1",
@@ -249,7 +254,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jour où les hommes se lèveront devant le Seigneur de l’Univers ?"
   },
   {
     "id": "al-mutaffifin-7",
@@ -258,7 +264,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
     "textSimple": "كلآ إن كتـب ٱلفجار لفى سجين",
     "transliteration": "kallā inna kitāba l-fujāri lafī sijjīnin",
-    "translation": "",
+    "translation": "No! Indeed, the record of the wicked is in sijjeen.",
     "words": [
       {
         "id": "al-mutaffifin-7-1",
@@ -303,7 +309,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! le Livre des pervers sera dans Sijjîn."
   },
   {
     "id": "al-mutaffifin-8",
@@ -312,7 +319,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
     "textSimple": "ومآ أدرىك ما سجين",
     "transliteration": "wamā adrāka mā sijjīnun",
-    "translation": "",
+    "translation": "And what can make you know what is sijjeen?",
     "words": [
       {
         "id": "al-mutaffifin-8-1",
@@ -343,7 +350,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce que c’est que Sijjîn ?"
   },
   {
     "id": "al-mutaffifin-9",
@@ -352,7 +360,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "كِتَـٰبٌ مَّرْقُومٌ",
     "textSimple": "كتـب مرقوم",
     "transliteration": "kitābun marqūmun",
-    "translation": "",
+    "translation": "It is [their destination recorded in] a register inscribed.",
     "words": [
       {
         "id": "al-mutaffifin-9-1",
@@ -369,7 +377,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Livre (où les noms des négateurs sont) définitivement inventoriés."
   },
   {
     "id": "al-mutaffifin-10",
@@ -378,7 +387,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers,",
     "words": [
       {
         "id": "al-mutaffifin-10-1",
@@ -402,7 +411,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux contradicteurs,"
   },
   {
     "id": "al-mutaffifin-11",
@@ -411,7 +421,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
     "textSimple": "ٱلذين يكذبون بيوم ٱلدين",
     "transliteration": "alladhīna yukadhibūna biyawmi l-dīni",
-    "translation": "",
+    "translation": "Who deny the Day of Recompense.",
     "words": [
       {
         "id": "al-mutaffifin-11-1",
@@ -442,7 +452,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui tiennent pour imposture le Jour de la Rétribution."
   },
   {
     "id": "al-mutaffifin-12",
@@ -451,7 +462,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
     "textSimple": "وما يكذب بهٓ إلا كل معتد أثيم",
     "transliteration": "wamā yukadhibu bihi illā kullu muʿ'tadin athīmin",
-    "translation": "",
+    "translation": "And none deny it except every sinful transgressor.",
     "words": [
       {
         "id": "al-mutaffifin-12-1",
@@ -503,7 +514,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or seul (l’homme pervers), livré à ses abus et à ses péchés, tient ce jour pour mensonge."
   },
   {
     "id": "al-mutaffifin-13",
@@ -512,7 +524,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
     "textSimple": "إذا تتلى عليه ءايـتنا قال أسـطير ٱلأولين",
     "transliteration": "idhā tut'lā ʿalayhi āyātunā qāla asāṭīru l-awalīna",
-    "translation": "",
+    "translation": "When Our verses are recited to him, he says, \"Legends of the former peoples.\"",
     "words": [
       {
         "id": "al-mutaffifin-13-1",
@@ -564,7 +576,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nos versets lui sont récités, il dit : « Ce ne sont que fables d’anciens ! »"
   },
   {
     "id": "al-mutaffifin-14",
@@ -573,7 +586,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "كلا  بل  ران على قلوبهم ما كانوا يكسبون",
     "transliteration": "kallā bal rāna ʿalā qulūbihim mā kānū yaksibūna",
-    "translation": "",
+    "translation": "No! Rather, the stain has covered their hearts of that which they were earning.",
     "words": [
       {
         "id": "al-mutaffifin-14-1",
@@ -632,7 +645,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Ce sont plutôt leurs actions qui ont voilé leurs cœurs."
   },
   {
     "id": "al-mutaffifin-15",
@@ -641,7 +655,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ",
     "textSimple": "كلآ إنهم عن ربهم يومئذ لمحجوبون",
     "transliteration": "kallā innahum ʿan rabbihim yawma-idhin lamaḥjūbūna",
-    "translation": "",
+    "translation": "No! Indeed, from their Lord, that Day, they will be partitioned.",
     "words": [
       {
         "id": "al-mutaffifin-15-1",
@@ -686,7 +700,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! ce jour-là, ils seront eux-mêmes privés de la vision de leur Seigneur."
   },
   {
     "id": "al-mutaffifin-16",
@@ -695,7 +710,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
     "textSimple": "ثم إنهم لصالوا ٱلجحيم",
     "transliteration": "thumma innahum laṣālū l-jaḥīmi",
-    "translation": "",
+    "translation": "Then indeed, they will [enter and] burn in Hellfire.",
     "words": [
       {
         "id": "al-mutaffifin-16-1",
@@ -726,7 +741,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils brûleront alors dans le Brasier incandescent."
   },
   {
     "id": "al-mutaffifin-17",
@@ -735,7 +751,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يُقَالُ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
     "textSimple": "ثم يقال هـذا ٱلذى كنتم به تكذبون",
     "transliteration": "thumma yuqālu hādhā alladhī kuntum bihi tukadhibūna",
-    "translation": "",
+    "translation": "Then it will be said [to them], \"This is what you used to deny.\"",
     "words": [
       {
         "id": "al-mutaffifin-17-1",
@@ -787,7 +803,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il leur sera dit : « Voilà ce que vous teniez pour mensonge ! »"
   },
   {
     "id": "al-mutaffifin-18",
@@ -796,7 +813,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
     "textSimple": "كلآ إن كتـب ٱلأبرار لفى عليين",
     "transliteration": "kallā inna kitāba l-abrāri lafī ʿilliyyīna",
-    "translation": "",
+    "translation": "No! Indeed, the record of the righteous is in ʿilliyyūn.",
     "words": [
       {
         "id": "al-mutaffifin-18-1",
@@ -841,7 +858,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! le Livre des vertueux sera dans ‘Illiyyûn."
   },
   {
     "id": "al-mutaffifin-19",
@@ -850,7 +868,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
     "textSimple": "ومآ أدرىك ما عليون",
     "transliteration": "wamā adrāka mā ʿilliyyūna",
-    "translation": "",
+    "translation": "And what can make you know what is ʿilliyyūn?",
     "words": [
       {
         "id": "al-mutaffifin-19-1",
@@ -881,7 +899,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce que c’est que ‘Illiyyûn ?"
   },
   {
     "id": "al-mutaffifin-20",
@@ -890,7 +909,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "كِتَـٰبٌ مَّرْقُومٌ",
     "textSimple": "كتـب مرقوم",
     "transliteration": "kitābun marqūmun",
-    "translation": "",
+    "translation": "It is [their destination recorded in] a register inscribed",
     "words": [
       {
         "id": "al-mutaffifin-20-1",
@@ -907,7 +926,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Livre (où les noms des vertueux sont) définitivement inventoriés."
   },
   {
     "id": "al-mutaffifin-21",
@@ -916,7 +936,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
     "textSimple": "يشهده ٱلمقربون",
     "transliteration": "yashhaduhu l-muqarabūna",
-    "translation": "",
+    "translation": "Which is witnessed by those brought near [to Allāh].",
     "words": [
       {
         "id": "al-mutaffifin-21-1",
@@ -933,7 +953,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En seront témoins les rapprochés (d’Allah)"
   },
   {
     "id": "al-mutaffifin-22",
@@ -942,7 +963,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
     "textSimple": "إن ٱلأبرار لفى نعيم",
     "transliteration": "inna l-abrāra lafī naʿīmin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be in pleasure",
     "words": [
       {
         "id": "al-mutaffifin-22-1",
@@ -973,7 +994,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les vertueux seront certes dans le délice,"
   },
   {
     "id": "al-mutaffifin-23",
@@ -982,7 +1004,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
     "textSimple": "على ٱلأرآئك ينظرون",
     "transliteration": "ʿalā l-arāiki yanẓurūna",
-    "translation": "",
+    "translation": "On adorned couches, observing.",
     "words": [
       {
         "id": "al-mutaffifin-23-1",
@@ -1006,7 +1028,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sur des couches, ils regarderont autour d’eux."
   },
   {
     "id": "al-mutaffifin-24",
@@ -1015,7 +1038,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
     "textSimple": "تعرف فى وجوههم نضرة ٱلنعيم",
     "transliteration": "taʿrifu fī wujūhihim naḍrata l-naʿīmi",
-    "translation": "",
+    "translation": "You will recognize in their faces the radiance of pleasure.",
     "words": [
       {
         "id": "al-mutaffifin-24-1",
@@ -1053,7 +1076,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sur leurs visages, tu reconnaîtras l’épanouissement dû au bien-être suprême."
   },
   {
     "id": "al-mutaffifin-25",
@@ -1062,7 +1086,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
     "textSimple": "يسقون من رحيق مختوم",
     "transliteration": "yus'qawna min raḥīqin makhtūmin",
-    "translation": "",
+    "translation": "They will be given to drink [pure] wine [which was] sealed.",
     "words": [
       {
         "id": "al-mutaffifin-25-1",
@@ -1093,7 +1117,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera servi à boire d’un nectar cacheté."
   },
   {
     "id": "al-mutaffifin-26",
@@ -1102,7 +1127,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "خِتَـٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَـٰفِسُونَ",
     "textSimple": "ختـمه مسك  وفى ذلك فليتنافس ٱلمتنـفسون",
     "transliteration": "khitāmuhu mis'kun wafī dhālika falyatanāfasi l-mutanāfisūna",
-    "translation": "",
+    "translation": "The last of it is musk. So for this let the competitors compete.",
     "words": [
       {
         "id": "al-mutaffifin-26-1",
@@ -1147,7 +1172,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son cachet sera de musc : voilà (un objectif) pour ceux qui voudraient rivaliser (de ferveur pour l’atteindre) !"
   },
   {
     "id": "al-mutaffifin-27",
@@ -1156,7 +1182,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
     "textSimple": "ومزاجه من تسنيم",
     "transliteration": "wamizājuhu min tasnīmin",
-    "translation": "",
+    "translation": "And its mixture is of Tasneem,",
     "words": [
       {
         "id": "al-mutaffifin-27-1",
@@ -1180,7 +1206,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et ce nectar) sera mélangé à l’eau de Tasnîm,"
   },
   {
     "id": "al-mutaffifin-28",
@@ -1189,7 +1216,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "عَيْنًا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
     "textSimple": "عينا يشرب بها ٱلمقربون",
     "transliteration": "ʿaynan yashrabu bihā l-muqarabūna",
-    "translation": "",
+    "translation": "A spring from which those near [to Allāh] drink.",
     "words": [
       {
         "id": "al-mutaffifin-28-1",
@@ -1220,7 +1247,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "source dont boivent les privilégiés."
   },
   {
     "id": "al-mutaffifin-29",
@@ -1229,7 +1257,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
     "textSimple": "إن ٱلذين أجرموا كانوا من ٱلذين ءامنوا يضحكون",
     "transliteration": "inna alladhīna ajramū kānū mina alladhīna āmanū yaḍḥakūna",
-    "translation": "",
+    "translation": "Indeed, those who committed crimes used to laugh at those who believed.",
     "words": [
       {
         "id": "al-mutaffifin-29-1",
@@ -1288,7 +1316,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui commettaient les crimes se riaient de ceux qui avaient cru."
   },
   {
     "id": "al-mutaffifin-30",
@@ -1297,7 +1326,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
     "textSimple": "وإذا مروا بهم يتغامزون",
     "transliteration": "wa-idhā marrū bihim yataghāmazūna",
-    "translation": "",
+    "translation": "And when they passed by them, they would exchange derisive glances.",
     "words": [
       {
         "id": "al-mutaffifin-30-1",
@@ -1328,7 +1357,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils passaient à côté d’eux, (ils les toisaient et) échangeaient des clins d’œil."
   },
   {
     "id": "al-mutaffifin-31",
@@ -1337,7 +1367,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
     "textSimple": "وإذا ٱنقلبوٓا إلىٓ أهلهم ٱنقلبوا فكهين",
     "transliteration": "wa-idhā inqalabū ilā ahlihimu inqalabū fakihīna",
-    "translation": "",
+    "translation": "And when they returned to their people, they would return jesting.",
     "words": [
       {
         "id": "al-mutaffifin-31-1",
@@ -1382,7 +1412,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand ils retournaient chez eux, ils retournaient l’air moqueur."
   },
   {
     "id": "al-mutaffifin-32",
@@ -1391,7 +1422,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَـٰٓؤُلَآءِ لَضَآلُّونَ",
     "textSimple": "وإذا رأوهم قالوٓا إن هـٓؤلآء لضآلون",
     "transliteration": "wa-idhā ra-awhum qālū inna hāulāi laḍāllūna",
-    "translation": "",
+    "translation": "And when they saw them, they would say, \"Indeed, those are truly lost.\"",
     "words": [
       {
         "id": "al-mutaffifin-32-1",
@@ -1436,7 +1467,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand ils les voyaient, ils disaient : « Ceux-là sont vraiment égarés ! »"
   },
   {
     "id": "al-mutaffifin-33",
@@ -1445,7 +1477,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَـٰفِظِينَ",
     "textSimple": "ومآ أرسلوا عليهم حـفظين",
     "transliteration": "wamā ur'silū ʿalayhim ḥāfiẓīna",
-    "translation": "",
+    "translation": "But they had not been sent as guardians over them.",
     "words": [
       {
         "id": "al-mutaffifin-33-1",
@@ -1476,7 +1508,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourtant, nul ne les a chargés d’être leurs gardiens."
   },
   {
     "id": "al-mutaffifin-34",
@@ -1485,7 +1518,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
     "textSimple": "فٱليوم ٱلذين ءامنوا من ٱلكفار يضحكون",
     "transliteration": "fal-yawma alladhīna āmanū mina l-kufāri yaḍḥakūna",
-    "translation": "",
+    "translation": "So Today those who believed are laughing at the disbelievers,",
     "words": [
       {
         "id": "al-mutaffifin-34-1",
@@ -1530,7 +1563,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ce jour-là, ce sera ceux qui ont cru qui riront des mécréants."
   },
   {
     "id": "al-mutaffifin-35",
@@ -1539,7 +1573,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
     "textSimple": "على ٱلأرآئك ينظرون",
     "transliteration": "ʿalā l-arāiki yanẓurūna",
-    "translation": "",
+    "translation": "On adorned couches, observing.",
     "words": [
       {
         "id": "al-mutaffifin-35-1",
@@ -1563,7 +1597,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Étendus) sur les couches, ils verront bien alors"
   },
   {
     "id": "al-mutaffifin-36",
@@ -1572,7 +1607,7 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
     "textSimple": "هل ثوب ٱلكفار ما كانوا يفعلون",
     "transliteration": "hal thuwwiba l-kufāru mā kānū yafʿalūna",
-    "translation": "",
+    "translation": "Have the disbelievers [not] been rewarded [this Day] for what they used to do?",
     "words": [
       {
         "id": "al-mutaffifin-36-1",
@@ -1617,7 +1652,8 @@ export const AL_MUTAFFIFIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "si les mécréants n’ont pas été rétribués pour ce qu’ils faisaient !"
   }
 ];
 

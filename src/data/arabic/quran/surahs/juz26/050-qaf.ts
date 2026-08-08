@@ -11,7 +11,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": " قٓ ۚ وَٱلْقُرْءَانِ ٱلْمَجِيدِ",
     "textSimple": " قٓ  وٱلقرءان ٱلمجيد",
     "transliteration": "qaf wal-qur'āni l-majīdi",
-    "translation": "",
+    "translation": "Qāf. By the honored Qur’ān...",
     "words": [
       {
         "id": "qaf-1-1",
@@ -35,7 +35,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qâf. Par le Coran glorieux !"
   },
   {
     "id": "qaf-2",
@@ -44,7 +45,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ عَجِبُوٓا۟ أَن جَآءَهُم مُّنذِرٌ مِّنْهُمْ فَقَالَ ٱلْكَـٰفِرُونَ هَـٰذَا شَىْءٌ عَجِيبٌ",
     "textSimple": "بل عجبوٓا أن جآءهم منذر منهم فقال ٱلكـفرون هـذا شىء عجيب",
     "transliteration": "bal ʿajibū an jāahum mundhirun min'hum faqāla l-kāfirūna hādhā shayon ʿajībun",
-    "translation": "",
+    "translation": "But they wonder that there has come to them a warner from among themselves, and the disbelievers say, \"This is an amazing thing.",
     "words": [
       {
         "id": "qaf-2-1",
@@ -124,7 +125,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’étonnent pourtant que l’un des leurs soit venu vers eux en avertisseur."
   },
   {
     "id": "qaf-3",
@@ -133,7 +135,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًا ۖ ذَٰلِكَ رَجْعٌۢ بَعِيدٌ",
     "textSimple": "أءذا متنا وكنا ترابا  ذلك رجع بعيد",
     "transliteration": "a-idhā mit'nā wakunnā turāban dhālika rajʿun baʿīdun",
-    "translation": "",
+    "translation": "When we have died and have become dust, [we will return to life]? That is a distant [i.e., unlikely] return.\"",
     "words": [
       {
         "id": "qaf-3-1",
@@ -185,7 +187,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les mécréants disent alors : « C’est une chose bien étrange ! Une fois que nous serons morts et réduits en poussière… ? Voilà un retour bien peu probable ! »"
   },
   {
     "id": "qaf-4",
@@ -194,7 +197,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ عَلِمْنَا مَا تَنقُصُ ٱلْأَرْضُ مِنْهُمْ ۖ وَعِندَنَا كِتَـٰبٌ حَفِيظٌۢ",
     "textSimple": "قد علمنا ما تنقص ٱلأرض منهم  وعندنا كتـب حفيظ",
     "transliteration": "qad ʿalim'nā mā tanquṣu l-arḍu min'hum waʿindanā kitābun ḥafīẓun",
-    "translation": "",
+    "translation": "We know what the earth diminishes [i.e., consumes] of them, and with Us is a retaining record.",
     "words": [
       {
         "id": "qaf-4-1",
@@ -260,7 +263,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous savons certes ce que la terre dévorera (de leurs dépouilles), et Nous avons un Livre où tout est conservé."
   },
   {
     "id": "qaf-5",
@@ -269,7 +273,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِىٓ أَمْرٍ مَّرِيجٍ",
     "textSimple": "بل كذبوا بٱلحق لما جآءهم فهم فىٓ أمر مريج",
     "transliteration": "bal kadhabū bil-ḥaqi lammā jāahum fahum fī amrin marījin",
-    "translation": "",
+    "translation": "But they denied the truth when it came to them, so they are in a confused condition.",
     "words": [
       {
         "id": "qaf-5-1",
@@ -335,7 +339,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils ont traité de mensonge la vérité lorsqu’elle leur est parvenue, or les voilà donc face à une affaire embarrassante."
   },
   {
     "id": "qaf-6",
@@ -344,7 +349,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَمْ يَنظُرُوٓا۟ إِلَى ٱلسَّمَآءِ فَوْقَهُمْ كَيْفَ بَنَيْنَـٰهَا وَزَيَّنَّـٰهَا وَمَا لَهَا مِن فُرُوجٍ",
     "textSimple": "أفلم ينظروٓا إلى ٱلسمآء فوقهم كيف بنينـها وزينـها وما لها من فروج",
     "transliteration": "afalam yanẓurū ilā l-samāi fawqahum kayfa banaynāhā wazayyannāhā wamā lahā min furūjin",
-    "translation": "",
+    "translation": "Have they not looked at the heaven above them - how We structured it and adorned it and [how] it has no rifts?",
     "words": [
       {
         "id": "qaf-6-1",
@@ -431,7 +436,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas vu le ciel au-dessus d’eux, et comment Nous l’avons édifié et orné (en le faisant) sans aucune faille ?"
   },
   {
     "id": "qaf-7",
@@ -440,7 +446,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضَ مَدَدْنَـٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
     "textSimple": "وٱلأرض مددنـها وألقينا فيها روسى وأنبتنا فيها من كل زوج بهيج",
     "transliteration": "wal-arḍa madadnāhā wa-alqaynā fīhā rawāsiya wa-anbatnā fīhā min kulli zawjin bahījin",
-    "translation": "",
+    "translation": "And the earth - We spread it out and cast therein firmly set mountains and made grow therein [something] of every beautiful kind,",
     "words": [
       {
         "id": "qaf-7-1",
@@ -520,7 +526,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et la terre (que) Nous avons étendue, où Nous avons érigé des montagnes et avons fait pousser par couples des (plantes) de toute beauté !"
   },
   {
     "id": "qaf-8",
@@ -529,7 +536,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "تَبْصِرَةً وَذِكْرَىٰ لِكُلِّ عَبْدٍ مُّنِيبٍ",
     "textSimple": "تبصرة وذكرى لكل عبد منيب",
     "transliteration": "tabṣiratan wadhik'rā likulli ʿabdin munībin",
-    "translation": "",
+    "translation": "Giving insight and a reminder for every servant who turns [to Allāh].",
     "words": [
       {
         "id": "qaf-8-1",
@@ -567,7 +574,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà qui est à méditer et à retenir par tout serviteur qui aime à se repentir."
   },
   {
     "id": "qaf-9",
@@ -576,7 +584,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءً مُّبَـٰرَكًا فَأَنۢبَتْنَا بِهِۦ جَنَّـٰتٍ وَحَبَّ ٱلْحَصِيدِ",
     "textSimple": "ونزلنا من ٱلسمآء مآء مبـركا فأنبتنا به جنـت وحب ٱلحصيد",
     "transliteration": "wanazzalnā mina l-samāi māan mubārakan fa-anbatnā bihi jannātin waḥabba l-ḥaṣīdi",
-    "translation": "",
+    "translation": "And We have sent down blessed rain from the sky and made grow thereby gardens and grain from the harvest",
     "words": [
       {
         "id": "qaf-9-1",
@@ -649,7 +657,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre du ciel une eau bénie, par laquelle Nous avons fait pousser des jardins et le grain des moissons,"
   },
   {
     "id": "qaf-10",
@@ -658,7 +667,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلنَّخْلَ بَاسِقَـٰتٍ لَّهَا طَلْعٌ نَّضِيدٌ",
     "textSimple": "وٱلنخل باسقـت لها طلع نضيد",
     "transliteration": "wal-nakhla bāsiqātin lahā ṭalʿun naḍīdun",
-    "translation": "",
+    "translation": "And lofty palm trees having fruit arranged in layers -",
     "words": [
       {
         "id": "qaf-10-1",
@@ -696,7 +705,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les palmiers de belle venue aux régimes régulièrement disposés,"
   },
   {
     "id": "qaf-11",
@@ -705,7 +715,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "رِّزْقًا لِّلْعِبَادِ ۖ وَأَحْيَيْنَا بِهِۦ بَلْدَةً مَّيْتًا ۚ كَذَٰلِكَ ٱلْخُرُوجُ",
     "textSimple": "رزقا للعباد  وأحيينا به بلدة ميتا  كذلك ٱلخروج",
     "transliteration": "riz'qan lil'ʿibādi wa-aḥyaynā bihi baldatan maytan kadhālika l-khurūju",
-    "translation": "",
+    "translation": "As provision for the servants, and We have given life thereby to a dead land. Thus is the emergence [i.e., resurrection].",
     "words": [
       {
         "id": "qaf-11-1",
@@ -764,7 +774,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "comme subsistance pour les serviteurs (d’Allah). Nous avons (par l’eau) fait revivre une terre morte. Telle sera la résurrection."
   },
   {
     "id": "qaf-12",
@@ -773,7 +784,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَأَصْحَـٰبُ ٱلرَّسِّ وَثَمُودُ",
     "textSimple": "كذبت قبلهم قوم نوح وأصحـب ٱلرس وثمود",
     "transliteration": "kadhabat qablahum qawmu nūḥin wa-aṣḥābu l-rasi wathamūdu",
-    "translation": "",
+    "translation": "The people of Noah denied before them, and the companions of the well and Thamūd",
     "words": [
       {
         "id": "qaf-12-1",
@@ -825,7 +836,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le peuple de Noé, les gens d’Ar-Rass et les Thamûd avaient déjà, avant eux, crié au mensonge."
   },
   {
     "id": "qaf-13",
@@ -834,7 +846,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَعَادٌ وَفِرْعَوْنُ وَإِخْوَٰنُ لُوطٍ",
     "textSimple": "وعاد وفرعون وإخون لوط",
     "transliteration": "waʿādun wafir'ʿawnu wa-ikh'wānu lūṭin",
-    "translation": "",
+    "translation": "And ʿAad and Pharaoh and the brothers [i.e., people] of Lot",
     "words": [
       {
         "id": "qaf-13-1",
@@ -865,7 +877,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "de même que les ‘Ad, Pharaon et les frères de Loth,"
   },
   {
     "id": "qaf-14",
@@ -874,7 +887,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْحَـٰبُ ٱلْأَيْكَةِ وَقَوْمُ تُبَّعٍ ۚ كُلٌّ كَذَّبَ ٱلرُّسُلَ فَحَقَّ وَعِيدِ",
     "textSimple": "وأصحـب ٱلأيكة وقوم تبع  كل كذب ٱلرسل فحق وعيد",
     "transliteration": "wa-aṣḥābu l-aykati waqawmu tubbaʿin kullun kadhaba l-rusula faḥaqqa waʿīdi",
-    "translation": "",
+    "translation": "And the companions of the thicket and the people of Tubbaʿ. All denied the messengers, so My threat was justly fulfilled.",
     "words": [
       {
         "id": "qaf-14-1",
@@ -940,7 +953,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "les gens de Al-Aykah aussi, et le peuple de Tubba’, tous osèrent démentir les Messagers. Ainsi Ma Menace put-elle se justifier."
   },
   {
     "id": "qaf-15",
@@ -949,7 +963,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ",
     "textSimple": "أفعيينا بٱلخلق ٱلأول  بل هم فى لبس من خلق جديد",
     "transliteration": "afaʿayīnā bil-khalqi l-awali bal hum fī labsin min khalqin jadīdin",
-    "translation": "",
+    "translation": "Did We fail in the first creation? But they are in confusion over a new creation.",
     "words": [
       {
         "id": "qaf-15-1",
@@ -1022,7 +1036,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La première création Nous aurait-elle épuisé au point qu’ils doutent d’une création nouvelle ?"
   },
   {
     "id": "qaf-16",
@@ -1031,7 +1046,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
     "textSimple": "ولقد خلقنا ٱلإنسـن ونعلم ما توسوس به نفسه  ونحن أقرب إليه من حبل ٱلوريد",
     "transliteration": "walaqad khalaqnā l-insāna wanaʿlamu mā tuwaswisu bihi nafsuhu wanaḥnu aqrabu ilayhi min ḥabli l-warīdi",
-    "translation": "",
+    "translation": "And We have already created man and know what his soul whispers to him, and We are closer to him than [his] jugular vein.",
     "words": [
       {
         "id": "qaf-16-1",
@@ -1132,7 +1147,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé l’homme et Nous savons ce que lui susurre son âme. Nous sommes plus proche de lui que ne l’est sa veine jugulaire."
   },
   {
     "id": "qaf-17",
@@ -1141,7 +1157,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ قَعِيدٌ",
     "textSimple": "إذ يتلقى ٱلمتلقيان عن ٱليمين وعن ٱلشمال قعيد",
     "transliteration": "idh yatalaqqā l-mutalaqiyāni ʿani l-yamīni waʿani l-shimāli qaʿīdun",
-    "translation": "",
+    "translation": "When the two receivers [i.e., recording angels] receive, seated on the right and on the left.",
     "words": [
       {
         "id": "qaf-17-1",
@@ -1200,7 +1216,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Deux (Anges) chargés de recueillir (ses œuvres) les recueillent, assis l’un à gauche et l’autre à droite."
   },
   {
     "id": "qaf-18",
@@ -1209,7 +1226,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
     "textSimple": "ما يلفظ من قول إلا لديه رقيب عتيد",
     "transliteration": "mā yalfiẓu min qawlin illā ladayhi raqībun ʿatīdun",
-    "translation": "",
+    "translation": "He [i.e., man] utters no word except that with him is an observer prepared [to record].",
     "words": [
       {
         "id": "qaf-18-1",
@@ -1268,7 +1285,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne profère aucune parole sans qu’un observateur prêt (à l’enregistrer) ne soit à ses côtés."
   },
   {
     "id": "qaf-19",
@@ -1277,7 +1295,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ تَحِيدُ",
     "textSimple": "وجآءت سكرة ٱلموت بٱلحق  ذلك ما كنت منه تحيد",
     "transliteration": "wajāat sakratu l-mawti bil-ḥaqi dhālika mā kunta min'hu taḥīdu",
-    "translation": "",
+    "translation": "And the intoxication of death will bring the truth; that is what you were trying to avoid.",
     "words": [
       {
         "id": "qaf-19-1",
@@ -1343,7 +1361,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les affres de la mort arrivent soudain, révélant la vérité : « Voilà ce que tu voulais éviter. »"
   },
   {
     "id": "qaf-20",
@@ -1352,7 +1371,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنُفِخَ فِى ٱلصُّورِ ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ",
     "textSimple": "ونفخ فى ٱلصور  ذلك يوم ٱلوعيد",
     "transliteration": "wanufikha fī l-ṣūri dhālika yawmu l-waʿīdi",
-    "translation": "",
+    "translation": "And the Horn will be blown. That is the Day of [carrying out] the threat.",
     "words": [
       {
         "id": "qaf-20-1",
@@ -1397,7 +1416,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il sera alors soufflé dans le Cor : « Voici venu le Jour de la Menace ! »"
   },
   {
     "id": "qaf-21",
@@ -1406,7 +1426,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَتْ كُلُّ نَفْسٍ مَّعَهَا سَآئِقٌ وَشَهِيدٌ",
     "textSimple": "وجآءت كل نفس معها سآئق وشهيد",
     "transliteration": "wajāat kullu nafsin maʿahā sāiqun washahīdun",
-    "translation": "",
+    "translation": "And every soul will come, with it a driver and a witness.",
     "words": [
       {
         "id": "qaf-21-1",
@@ -1451,7 +1471,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque âme viendra accompagnée d’un guide et d’un témoin."
   },
   {
     "id": "qaf-22",
@@ -1460,7 +1481,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَدْ كُنتَ فِى غَفْلَةٍ مِّنْ هَـٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌ",
     "textSimple": "لقد كنت فى غفلة من هـذا فكشفنا عنك غطآءك فبصرك ٱليوم حديد",
     "transliteration": "laqad kunta fī ghaflatin min hādhā fakashafnā ʿanka ghiṭāaka fabaṣaruka l-yawma ḥadīdun",
-    "translation": "",
+    "translation": "[It will be said], \"You were certainly in unmindfulness of this, and We have removed from you your cover, so your sight, this Day, is sharp.\"",
     "words": [
       {
         "id": "qaf-22-1",
@@ -1547,7 +1568,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tu étais distrait de tout cela, (lui sera-t-il dit), et voilà que Nous levons ton voile : ta vue est aujourd’hui perçante. »"
   },
   {
     "id": "qaf-23",
@@ -1556,7 +1578,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ قَرِينُهُۥ هَـٰذَا مَا لَدَىَّ عَتِيدٌ",
     "textSimple": "وقال قرينه هـذا ما لدى عتيد",
     "transliteration": "waqāla qarīnuhu hādhā mā ladayya ʿatīdun",
-    "translation": "",
+    "translation": "And his companion, [the angel], will say, \"This [record] is what is with me, prepared.\"",
     "words": [
       {
         "id": "qaf-23-1",
@@ -1601,7 +1623,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son compagnon dira : «Voici ce qui m’a été confié. »"
   },
   {
     "id": "qaf-24",
@@ -1610,7 +1633,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "أَلْقِيَا فِى جَهَنَّمَ كُلَّ كَفَّارٍ عَنِيدٍ",
     "textSimple": "ألقيا فى جهنم كل كفار عنيد",
     "transliteration": "alqiyā fī jahannama kulla kaffārin ʿanīdin",
-    "translation": "",
+    "translation": "[Allāh will say], \"Throw into Hell every obstinate disbeliever,",
     "words": [
       {
         "id": "qaf-24-1",
@@ -1655,7 +1678,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Vous deux, (dira Allah), jetez dans la Géhenne tout mécréant obstiné et rebelle,"
   },
   {
     "id": "qaf-25",
@@ -1664,7 +1688,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ مُّرِيبٍ",
     "textSimple": "مناع للخير معتد مريب",
     "transliteration": "mannāʿin lil'khayri muʿ'tadin murībin",
-    "translation": "",
+    "translation": "Preventer of good, aggressor, and doubter,",
     "words": [
       {
         "id": "qaf-25-1",
@@ -1695,7 +1719,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "prompt à s’opposer au bien et à enfreindre (les lois), et sceptique (invétéré),"
   },
   {
     "id": "qaf-26",
@@ -1704,7 +1729,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى جَعَلَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَأَلْقِيَاهُ فِى ٱلْعَذَابِ ٱلشَّدِيدِ",
     "textSimple": "ٱلذى جعل مع ٱلله إلـها ءاخر فألقياه فى ٱلعذاب ٱلشديد",
     "transliteration": "alladhī jaʿala maʿa l-lahi ilāhan ākhara fa-alqiyāhu fī l-ʿadhābi l-shadīdi",
-    "translation": "",
+    "translation": "Who made [as equal] with Allāh another deity; then throw him into the severe punishment.\"",
     "words": [
       {
         "id": "qaf-26-1",
@@ -1777,7 +1802,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui associait à Allah une autre divinité. Précipitez-le donc dans le terrible supplice ! »"
   },
   {
     "id": "qaf-27",
@@ -1786,7 +1812,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَـٰكِن كَانَ فِى ضَلَـٰلٍۭ بَعِيدٍ",
     "textSimple": " قال قرينه ربنا مآ أطغيته ولـكن كان فى ضلـل بعيد",
     "transliteration": "qāla qarīnuhu rabbanā mā aṭghaytuhu walākin kāna fī ḍalālin baʿīdin",
-    "translation": "",
+    "translation": "His [devil] companion will say, \"Our Lord, I did not make him transgress, but he [himself] was in extreme error.\"",
     "words": [
       {
         "id": "qaf-27-1",
@@ -1859,7 +1885,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, (dira alors son autre) compagnon, je ne l’ai point poussé à la rébellion, lui-même était allé loin dans l’égarement ! »"
   },
   {
     "id": "qaf-28",
@@ -1868,7 +1895,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَا تَخْتَصِمُوا۟ لَدَىَّ وَقَدْ قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ",
     "textSimple": "قال لا تختصموا لدى وقد قدمت إليكم بٱلوعيد",
     "transliteration": "qāla lā takhtaṣimū ladayya waqad qaddamtu ilaykum bil-waʿīdi",
-    "translation": "",
+    "translation": "[Allāh] will say, \"Do not dispute before Me, while I had already presented to you the threat [i.e., warning].",
     "words": [
       {
         "id": "qaf-28-1",
@@ -1927,7 +1954,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne vous disputez donc pas devant Moi, (répliquera Allah), alors que (depuis longtemps) Je vous avais prévenus par Ma Menace !"
   },
   {
     "id": "qaf-29",
@@ -1936,7 +1964,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "مَا يُبَدَّلُ ٱلْقَوْلُ لَدَىَّ وَمَآ أَنَا۠ بِظَلَّـٰمٍ لِّلْعَبِيدِ",
     "textSimple": "ما يبدل ٱلقول لدى ومآ أنا بظلـم للعبيد",
     "transliteration": "mā yubaddalu l-qawlu ladayya wamā anā biẓallāmin lil'ʿabīdi",
-    "translation": "",
+    "translation": "The word [i.e., decree] will not be changed with Me, and never will I be unjust to the servants.\"",
     "words": [
       {
         "id": "qaf-29-1",
@@ -1995,7 +2023,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ma Parole ne change pas, et Je ne suis point injuste envers les serviteurs. »"
   },
   {
     "id": "qaf-30",
@@ -2004,7 +2033,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ نَقُولُ لِجَهَنَّمَ هَلِ ٱمْتَلَأْتِ وَتَقُولُ هَلْ مِن مَّزِيدٍ",
     "textSimple": "يوم نقول لجهنم هل ٱمتلأت وتقول هل من مزيد",
     "transliteration": "yawma naqūlu lijahannama hali im'talati wataqūlu hal min mazīdin",
-    "translation": "",
+    "translation": "On the Day We will say to Hell, \"Have you been filled?\" and it will say, \"Are there some more,\"",
     "words": [
       {
         "id": "qaf-30-1",
@@ -2070,7 +2099,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Nous dirons à la Géhenne : « Es-tu déjà pleine ? » elle répondra : « Pourrais-je avoir davantage ? »"
   },
   {
     "id": "qaf-31",
@@ -2079,7 +2109,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ",
     "textSimple": "وأزلفت ٱلجنة للمتقين غير بعيد",
     "transliteration": "wa-uz'lifati l-janatu lil'muttaqīna ghayra baʿīdin",
-    "translation": "",
+    "translation": "And Paradise will be brought near to the righteous, not far,",
     "words": [
       {
         "id": "qaf-31-1",
@@ -2117,7 +2147,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Paradis, (lui), sera là, rapproché (et se trouvera) non loin des (hommes) pieux."
   },
   {
     "id": "qaf-32",
@@ -2126,7 +2157,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا مَا تُوعَدُونَ لِكُلِّ أَوَّابٍ حَفِيظٍ",
     "textSimple": "هـذا ما توعدون لكل أواب حفيظ",
     "transliteration": "hādhā mā tūʿadūna likulli awwābin ḥafīẓin",
-    "translation": "",
+    "translation": "[It will be said], \"This is what you were promised - for every returner [to Allāh] and keeper [of His covenant].",
     "words": [
       {
         "id": "qaf-32-1",
@@ -2171,7 +2202,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voilà donc ce qui vous a été promis, (leur sera-t-il dit), (et aussi) à tout être qui aime à se repentir et respecte (Nos prescriptions),"
   },
   {
     "id": "qaf-33",
@@ -2180,7 +2212,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "مَّنْ خَشِىَ ٱلرَّحْمَـٰنَ بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍ مُّنِيبٍ",
     "textSimple": "من خشى ٱلرحمـن بٱلغيب وجآء بقلب منيب",
     "transliteration": "man khashiya l-raḥmāna bil-ghaybi wajāa biqalbin munībin",
-    "translation": "",
+    "translation": "Who feared the Most Merciful in the unseen and came with a heart returning [in repentance].",
     "words": [
       {
         "id": "qaf-33-1",
@@ -2232,7 +2264,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui craint le Tout Clément sans Le voir, et qui revient vers Lui avec un cœur repentant."
   },
   {
     "id": "qaf-34",
@@ -2241,7 +2274,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْخُلُوهَا بِسَلَـٰمٍ ۖ ذَٰلِكَ يَوْمُ ٱلْخُلُودِ",
     "textSimple": "ٱدخلوها بسلـم  ذلك يوم ٱلخلود",
     "transliteration": "ud'khulūhā bisalāmin dhālika yawmu l-khulūdi",
-    "translation": "",
+    "translation": "Enter it in peace. This is the Day of Eternity.\"",
     "words": [
       {
         "id": "qaf-34-1",
@@ -2279,7 +2312,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entrez-y en paix, voici venu le jour de l’immortalité ! »"
   },
   {
     "id": "qaf-35",
@@ -2288,7 +2322,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "لَهُم مَّا يَشَآءُونَ فِيهَا وَلَدَيْنَا مَزِيدٌ",
     "textSimple": "لهم ما يشآءون فيها ولدينا مزيد",
     "transliteration": "lahum mā yashāūna fīhā waladaynā mazīdun",
-    "translation": "",
+    "translation": "They will have whatever they wish therein, and with Us is more.",
     "words": [
       {
         "id": "qaf-35-1",
@@ -2333,7 +2367,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y auront tout ce qu’ils désireront, et Nous en avons beaucoup plus encore."
   },
   {
     "id": "qaf-36",
@@ -2342,7 +2377,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم بَطْشًا فَنَقَّبُوا۟ فِى ٱلْبِلَـٰدِ هَلْ مِن مَّحِيصٍ",
     "textSimple": "وكم أهلكنا قبلهم من قرن هم أشد منهم بطشا فنقبوا فى ٱلبلـد هل من محيص",
     "transliteration": "wakam ahlaknā qablahum min qarnin hum ashaddu min'hum baṭshan fanaqqabū fī l-bilādi hal min maḥīṣin",
-    "translation": "",
+    "translation": "And how many a generation before them did We destroy who were greater than them in [striking] power and had explored throughout the lands. Is there any place of escape?",
     "words": [
       {
         "id": "qaf-36-1",
@@ -2450,7 +2485,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de générations avant eux n’avons-Nous pas anéanties, qui étaient (pourtant) bien plus féroces et qui avaient parcouru le monde à la recherche d’une issue par où fuir !"
   },
   {
     "id": "qaf-37",
@@ -2459,7 +2495,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِمَن كَانَ لَهُۥ قَلْبٌ أَوْ أَلْقَى ٱلسَّمْعَ وَهُوَ شَهِيدٌ",
     "textSimple": "إن فى ذلك لذكرى لمن كان له قلب أو ألقى ٱلسمع وهو شهيد",
     "transliteration": "inna fī dhālika ladhik'rā liman kāna lahu qalbun aw alqā l-samʿa wahuwa shahīdun",
-    "translation": "",
+    "translation": "Indeed in that is a reminder for whoever has a heart or who listens while he is present [in mind].",
     "words": [
       {
         "id": "qaf-37-1",
@@ -2553,7 +2589,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là un rappel pour quiconque a un cœur et sait prêter l’oreille tout en étant témoin."
   },
   {
     "id": "qaf-38",
@@ -2562,7 +2599,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ خَلَقْنَا ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ وَمَا مَسَّنَا مِن لُّغُوبٍ",
     "textSimple": "ولقد خلقنا ٱلسمـوت وٱلأرض وما بينهما فى ستة أيام وما مسنا من لغوب",
     "transliteration": "walaqad khalaqnā l-samāwāti wal-arḍa wamā baynahumā fī sittati ayyāmin wamā massanā min lughūbin",
-    "translation": "",
+    "translation": "And We did certainly create the heavens and earth and what is between them in six days, and there touched Us no weariness.",
     "words": [
       {
         "id": "qaf-38-1",
@@ -2656,7 +2693,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé les cieux, la terre et ce qu’il y a entre eux en six jours, sans que ne Nous ait affecté la moindre lassitude."
   },
   {
     "id": "qaf-39",
@@ -2665,7 +2703,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ ٱلْغُرُوبِ",
     "textSimple": "فٱصبر على ما يقولون وسبح بحمد ربك قبل طلوع ٱلشمس وقبل ٱلغروب",
     "transliteration": "fa-iṣ'bir ʿalā mā yaqūlūna wasabbiḥ biḥamdi rabbika qabla ṭulūʿi l-shamsi waqabla l-ghurūbi",
-    "translation": "",
+    "translation": "So be patient, [O Muḥammad], over what they say and exalt [Allāh] with praise of your Lord before the rising of the sun and before its setting,",
     "words": [
       {
         "id": "qaf-39-1",
@@ -2752,7 +2790,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Supporte donc avec patience ce qu’ils te disent ! Rends gloire à ton Seigneur, célèbre Ses louanges avant le lever et le coucher du soleil !"
   },
   {
     "id": "qaf-40",
@@ -2761,7 +2800,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَأَدْبَـٰرَ ٱلسُّجُودِ",
     "textSimple": "ومن ٱليل فسبحه وأدبـر ٱلسجود",
     "transliteration": "wamina al-layli fasabbiḥ'hu wa-adbāra l-sujūdi",
-    "translation": "",
+    "translation": "And [in part] of the night exalt Him and after prostration [i.e., prayer].",
     "words": [
       {
         "id": "qaf-40-1",
@@ -2799,7 +2838,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Glorifie-Le aussi durant une partie de la nuit et à la fin des prières."
   },
   {
     "id": "qaf-41",
@@ -2808,7 +2848,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَمِعْ يَوْمَ يُنَادِ ٱلْمُنَادِ مِن مَّكَانٍ قَرِيبٍ",
     "textSimple": "وٱستمع يوم يناد ٱلمناد من مكان قريب",
     "transliteration": "wa-is'tamiʿ yawma yunādi l-munādi min makānin qarībin",
-    "translation": "",
+    "translation": "And listen on the Day when the Caller will call out from a place that is near -",
     "words": [
       {
         "id": "qaf-41-1",
@@ -2860,7 +2900,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prête une oreille attentive, le jour où le héraut (de l’Heure) appellera d’un lieu tout proche."
   },
   {
     "id": "qaf-42",
@@ -2869,7 +2910,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَسْمَعُونَ ٱلصَّيْحَةَ بِٱلْحَقِّ ۚ ذَٰلِكَ يَوْمُ ٱلْخُرُوجِ",
     "textSimple": "يوم يسمعون ٱلصيحة بٱلحق  ذلك يوم ٱلخروج",
     "transliteration": "yawma yasmaʿūna l-ṣayḥata bil-ḥaqi dhālika yawmu l-khurūji",
-    "translation": "",
+    "translation": "The Day they will hear the blast [of the Horn] in truth. That is the Day of Emergence [from the graves].",
     "words": [
       {
         "id": "qaf-42-1",
@@ -2921,7 +2962,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où ils entendront le Cri, en toute vérité, sera le Jour de la Résurrection."
   },
   {
     "id": "qaf-43",
@@ -2930,7 +2972,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَحْنُ نُحْىِۦ وَنُمِيتُ وَإِلَيْنَا ٱلْمَصِيرُ",
     "textSimple": "إنا نحن نحى ونميت وإلينا ٱلمصير",
     "transliteration": "innā naḥnu nuḥ'yī wanumītu wa-ilaynā l-maṣīru",
-    "translation": "",
+    "translation": "Indeed, it is We who give life and cause death, and to Us is the destination",
     "words": [
       {
         "id": "qaf-43-1",
@@ -2975,7 +3017,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est certes Nous Qui faisons vivre et faisons mourir, et c’est vers Nous que sera le devenir."
   },
   {
     "id": "qaf-44",
@@ -2984,7 +3027,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَشَقَّقُ ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ۚ ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
     "textSimple": "يوم تشقق ٱلأرض عنهم سراعا  ذلك حشر علينا يسير",
     "transliteration": "yawma tashaqqaqu l-arḍu ʿanhum sirāʿan dhālika ḥashrun ʿalaynā yasīrun",
-    "translation": "",
+    "translation": "On the Day the earth breaks away from them [and they emerge] rapidly; that is a gathering easy for Us.",
     "words": [
       {
         "id": "qaf-44-1",
@@ -3050,7 +3093,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où la terre se sera fendue (pour les expulser) brusquement (de leurs tombes), il Nous sera alors facile de les ramener en foule."
   },
   {
     "id": "qaf-45",
@@ -3059,7 +3103,7 @@ export const QAF_AYAHS: Ayah[] = [
     "textUthmani": "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ ۖ وَمَآ أَنتَ عَلَيْهِم بِجَبَّارٍ ۖ فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ",
     "textSimple": "نحن أعلم بما يقولون  ومآ أنت عليهم بجبار  فذكر بٱلقرءان من يخاف وعيد",
     "transliteration": "naḥnu aʿlamu bimā yaqūlūna wamā anta ʿalayhim bijabbārin fadhakkir bil-qur'āni man yakhāfu waʿīdi",
-    "translation": "",
+    "translation": "We are most knowing of what they say, and you are not over them a tyrant. But remind by the Qur’ān whoever fears My threat.",
     "words": [
       {
         "id": "qaf-45-1",
@@ -3153,7 +3197,8 @@ export const QAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous Savons le mieux ce qu’ils disent. Tu n’as pas à les contraindre (à la foi). Rappelle plutôt, par le Coran, quiconque craint Ma Menace."
   }
 ];
 

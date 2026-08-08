@@ -11,7 +11,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": " حمٓ",
     "textSimple": " حمٓ",
     "transliteration": "hha-meem",
-    "translation": "",
+    "translation": "Ḥā, Meem.",
     "words": [
       {
         "id": "fussilat-1-1",
@@ -21,7 +21,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâ, Mîm."
   },
   {
     "id": "fussilat-2",
@@ -30,7 +31,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلٌ مِّنَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
     "textSimple": "تنزيل من ٱلرحمـن ٱلرحيم",
     "transliteration": "tanzīlun mina l-raḥmāni l-raḥīmi",
-    "translation": "",
+    "translation": "[This is] a revelation from the Entirely Merciful, the Especially Merciful -",
     "words": [
       {
         "id": "fussilat-2-1",
@@ -61,7 +62,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici une révélation émanant du Tout Clément, du Tout Miséricordieux,"
   },
   {
     "id": "fussilat-3",
@@ -70,7 +72,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "كِتَـٰبٌ فُصِّلَتْ ءَايَـٰتُهُۥ قُرْءَانًا عَرَبِيًّا لِّقَوْمٍ يَعْلَمُونَ",
     "textSimple": "كتـب فصلت ءايـته قرءانا عربيا لقوم يعلمون",
     "transliteration": "kitābun fuṣṣilat āyātuhu qur'ānan ʿarabiyyan liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "A Book whose verses have been detailed, an Arabic Qur’ān for a people who know,",
     "words": [
       {
         "id": "fussilat-3-1",
@@ -122,7 +124,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "un Livre aux versets détaillés, un Coran arabe pour des gens qui savent,"
   },
   {
     "id": "fussilat-4",
@@ -131,7 +134,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "بَشِيرًا وَنَذِيرًا فَأَعْرَضَ أَكْثَرُهُمْ فَهُمْ لَا يَسْمَعُونَ",
     "textSimple": "بشيرا ونذيرا فأعرض أكثرهم فهم لا يسمعون",
     "transliteration": "bashīran wanadhīran fa-aʿraḍa aktharuhum fahum lā yasmaʿūna",
-    "translation": "",
+    "translation": "As a giver of good tidings and a warner; but most of them turn away, so they do not hear.",
     "words": [
       {
         "id": "fussilat-4-1",
@@ -183,7 +186,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "annonçant l’heureuse nouvelle (aux hommes) et les avertissant mais la plupart d’entre eux se détournent, car ils n’entendent pas."
   },
   {
     "id": "fussilat-5",
@@ -192,7 +196,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ قُلُوبُنَا فِىٓ أَكِنَّةٍ مِّمَّا تَدْعُونَآ إِلَيْهِ وَفِىٓ ءَاذَانِنَا وَقْرٌ وَمِنۢ بَيْنِنَا وَبَيْنِكَ حِجَابٌ فَٱعْمَلْ إِنَّنَا عَـٰمِلُونَ",
     "textSimple": "وقالوا قلوبنا فىٓ أكنة مما تدعونآ إليه وفىٓ ءاذاننا وقر ومن بيننا وبينك حجاب فٱعمل إننا عـملون",
     "transliteration": "waqālū qulūbunā fī akinnatin mimmā tadʿūnā ilayhi wafī ādhāninā waqrun wamin bayninā wabaynika ḥijābun fa-iʿ'mal innanā ʿāmilūna",
-    "translation": "",
+    "translation": "And they say, \"Our hearts are within coverings [i.e., screened] from that to which you invite us, and in our ears is deafness, and between us and you is a partition, so work; indeed, we are working.\"",
     "words": [
       {
         "id": "fussilat-5-1",
@@ -314,7 +318,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : «Nos cœurs sont recouverts d’un voile (qui les sépare) de ce à quoi tu nous appelles, nos oreilles sont frappées de surdité, et entre nous et toi il y a une barrière. Agis donc (comme bon te semble) car (pour notre part) nous agissons (à notre manière). »"
   },
   {
     "id": "fussilat-6",
@@ -323,7 +328,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ فَٱسْتَقِيمُوٓا۟ إِلَيْهِ وَٱسْتَغْفِرُوهُ ۗ وَوَيْلٌ لِّلْمُشْرِكِينَ",
     "textSimple": "قل إنمآ أنا بشر مثلكم يوحىٓ إلى أنمآ إلـهكم إلـه وحد فٱستقيموٓا إليه وٱستغفروه  وويل للمشركين",
     "transliteration": "qul innamā anā basharun mith'lukum yūḥā ilayya annamā ilāhukum ilāhun wāḥidun fa-is'taqīmū ilayhi wa-is'taghfirūhu wawaylun lil'mush'rikīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"I am only a man like you to whom it has been revealed that your god is but one God; so take a straight course to Him and seek His forgiveness.\" And woe to those who associate others with Allāh",
     "words": [
       {
         "id": "fussilat-6-1",
@@ -438,7 +443,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne suis qu’un humain comme vous. Il m’est révélé que votre Dieu est un Dieu Unique. Allez vers Lui avec droiture, implorez Son pardon, et malheur aux associâtres,"
   },
   {
     "id": "fussilat-7",
@@ -447,7 +453,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ لَا يُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ",
     "textSimple": "ٱلذين لا يؤتون ٱلزكوة وهم بٱلـٔاخرة هم كـفرون",
     "transliteration": "alladhīna lā yu'tūna l-zakata wahum bil-ākhirati hum kāfirūna",
-    "translation": "",
+    "translation": "Those who do not give zakāh, and in the Hereafter they are disbelievers.",
     "words": [
       {
         "id": "fussilat-7-1",
@@ -506,7 +512,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ne s’acquittent pas de la Zakât et mécroient en l’autre monde."
   },
   {
     "id": "fussilat-8",
@@ -515,7 +522,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت لهم أجر غير ممنون",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti lahum ajrun ghayru mamnūnin",
-    "translation": "",
+    "translation": "Indeed, those who believe and do righteous deeds - for them is a reward uninterrupted.",
     "words": [
       {
         "id": "fussilat-8-1",
@@ -581,7 +588,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres auront une récompense qui jamais ne s’interrompt."
   },
   {
     "id": "fussilat-9",
@@ -590,7 +598,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ بِٱلَّذِى خَلَقَ ٱلْأَرْضَ فِى يَوْمَيْنِ وَتَجْعَلُونَ لَهُۥٓ أَندَادًا ۚ ذَٰلِكَ رَبُّ ٱلْعَـٰلَمِينَ",
     "textSimple": " قل أئنكم لتكفرون بٱلذى خلق ٱلأرض فى يومين وتجعلون لهٓ أندادا  ذلك رب ٱلعـلمين",
     "transliteration": "qul a-innakum latakfurūna bi-alladhī khalaqa l-arḍa fī yawmayni watajʿalūna lahu andādan dhālika rabbu l-ʿālamīna",
-    "translation": "",
+    "translation": "Say, \"Do you indeed disbelieve in He who created the earth in two days and attribute to Him equals? That is the Lord of the worlds.\"",
     "words": [
       {
         "id": "fussilat-9-1",
@@ -691,7 +699,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Mécroirez-vous en Celui Qui a créé la terre en deux jours? Lui prêterez-vous des émules ? Car Lui est le Seigneur de l’Univers."
   },
   {
     "id": "fussilat-10",
@@ -700,7 +709,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلَ فِيهَا رَوَٰسِىَ مِن فَوْقِهَا وَبَـٰرَكَ فِيهَا وَقَدَّرَ فِيهَآ أَقْوَٰتَهَا فِىٓ أَرْبَعَةِ أَيَّامٍ سَوَآءً لِّلسَّآئِلِينَ",
     "textSimple": "وجعل فيها روسى من فوقها وبـرك فيها وقدر فيهآ أقوتها فىٓ أربعة أيام سوآء للسآئلين",
     "transliteration": "wajaʿala fīhā rawāsiya min fawqihā wabāraka fīhā waqaddara fīhā aqwātahā fī arbaʿati ayyāmin sawāan lilssāilīna",
-    "translation": "",
+    "translation": "And He placed on it [i.e., the earth] firmly set mountains over its surface, and He blessed it and determined therein its [creatures'] sustenance in four days without distinction - for [the information of] those who ask.",
     "words": [
       {
         "id": "fussilat-10-1",
@@ -808,7 +817,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a placé sur elle des montagnes (fermement implantées) et l’a bénie. (Et c’est Lui Qui) a déterminé la subsistance (de Ses créatures) en juste quatre jours, (en réponse) à ceux qui questionnent (à ce sujet)."
   },
   {
     "id": "fussilat-11",
@@ -817,7 +827,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ وَهِىَ دُخَانٌ فَقَالَ لَهَا وَلِلْأَرْضِ ٱئْتِيَا طَوْعًا أَوْ كَرْهًا قَالَتَآ أَتَيْنَا طَآئِعِينَ",
     "textSimple": "ثم ٱستوىٓ إلى ٱلسمآء وهى دخان فقال لها وللأرض ٱئتيا طوعا أو كرها قالتآ أتينا طآئعين",
     "transliteration": "thumma is'tawā ilā l-samāi wahiya dukhānun faqāla lahā walil'arḍi i'tiyā ṭawʿan aw karhan qālatā ataynā ṭāiʿīna",
-    "translation": "",
+    "translation": "Then He directed Himself to the heaven while it was smoke and said to it and to the earth, \"Come [into being], willingly or by compulsion.\" They said, \"We have come willingly.\"",
     "words": [
       {
         "id": "fussilat-11-1",
@@ -932,7 +942,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Il Se tourna (istawâ) vers le ciel, qui n’était alors qu’une vapeur (informe) en lui disant, ainsi qu’à la terre : « Venez vous deux, de plein gré ou contraints. » Ils dirent : « Notre venons en toute obéissance. »"
   },
   {
     "id": "fussilat-12",
@@ -941,7 +952,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَقَضَىٰهُنَّ سَبْعَ سَمَـٰوَاتٍ فِى يَوْمَيْنِ وَأَوْحَىٰ فِى كُلِّ سَمَآءٍ أَمْرَهَا ۚ وَزَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَـٰبِيحَ وَحِفْظًا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
     "textSimple": "فقضىهن سبع سمـوات فى يومين وأوحى فى كل سمآء أمرها  وزينا ٱلسمآء ٱلدنيا بمصـبيح وحفظا  ذلك تقدير ٱلعزيز ٱلعليم",
     "transliteration": "faqaḍāhunna sabʿa samāwātin fī yawmayni wa-awḥā fī kulli samāin amrahā wazayyannā l-samāa l-dun'yā bimaṣābīḥa waḥif'ẓan dhālika taqdīru l-ʿazīzi l-ʿalīmi",
-    "translation": "",
+    "translation": "And He completed them as seven heavens within two days and inspired [i.e., made known] in each heaven its command. And We adorned the nearest heaven with lamps [i.e., stars, for beauty] and as protection. That is the determination of the Exalted in Might, the Knowing.",
     "words": [
       {
         "id": "fussilat-12-1",
@@ -1077,7 +1088,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il décréta la création des sept cieux en deux jours et révéla à chaque ciel son ordre. Nous avons orné le ciel le plus proche de luminaires et avons assuré sa protection. C’est ainsi que l’a déterminé le Tout-Puissant, l’Omniscient."
   },
   {
     "id": "fussilat-13",
@@ -1086,7 +1098,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنْ أَعْرَضُوا۟ فَقُلْ أَنذَرْتُكُمْ صَـٰعِقَةً مِّثْلَ صَـٰعِقَةِ عَادٍ وَثَمُودَ",
     "textSimple": "فإن أعرضوا فقل أنذرتكم صـعقة مثل صـعقة عاد وثمود",
     "transliteration": "fa-in aʿraḍū faqul andhartukum ṣāʿiqatan mith'la ṣāʿiqati ʿādin wathamūda",
-    "translation": "",
+    "translation": "But if they turn away, then say, \"I have warned you of a thunderbolt like the thunderbolt [that struck] ʿAad and Thamūd.",
     "words": [
       {
         "id": "fussilat-13-1",
@@ -1152,7 +1164,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si alors ils s’en détournent, dis-leur : « Je vous ai mis en garde contre une foudre pareille à la foudre qui frappa les ‘Ad et les Thamûd. »"
   },
   {
     "id": "fussilat-14",
@@ -1161,7 +1174,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ جَآءَتْهُمُ ٱلرُّسُلُ مِنۢ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ قَالُوا۟ لَوْ شَآءَ رَبُّنَا لَأَنزَلَ مَلَـٰٓئِكَةً فَإِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَـٰفِرُونَ",
     "textSimple": "إذ جآءتهم ٱلرسل من بين أيديهم ومن خلفهم ألا تعبدوٓا إلا ٱلله  قالوا لو شآء ربنا لأنزل ملـٓئكة فإنا بمآ أرسلتم به كـفرون",
     "transliteration": "idh jāathumu l-rusulu min bayni aydīhim wamin khalfihim allā taʿbudū illā l-laha qālū law shāa rabbunā la-anzala malāikatan fa-innā bimā ur'sil'tum bihi kāfirūna",
-    "translation": "",
+    "translation": "[That occurred] when the messengers had come to them before them and after them, [saying], \"Worship not except Allāh.\" They said, \"If our Lord had willed, He would have sent down the angels, so indeed we, in that with which you have been sent, are disbelievers.\"",
     "words": [
       {
         "id": "fussilat-14-1",
@@ -1325,7 +1338,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque les Messagers vinrent vers eux de toutes parts (leur enjoignant) : « N’adorez qu’Allah », ils répondirent : « Si notre Seigneur avait voulu, ce sont des Anges qu’Il aurait fait descendre. Nous mécroyons donc en votre message. »"
   },
   {
     "id": "fussilat-15",
@@ -1334,7 +1348,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا عَادٌ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَقَالُوا۟ مَنْ أَشَدُّ مِنَّا قُوَّةً ۖ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَهُمْ هُوَ أَشَدُّ مِنْهُمْ قُوَّةً ۖ وَكَانُوا۟ بِـَٔايَـٰتِنَا يَجْحَدُونَ",
     "textSimple": "فأما عاد فٱستكبروا فى ٱلأرض بغير ٱلحق وقالوا من أشد منا قوة  أولم يروا أن ٱلله ٱلذى خلقهم هو أشد منهم قوة  وكانوا بـٔايـتنا يجحدون",
     "transliteration": "fa-ammā ʿādun fa-is'takbarū fī l-arḍi bighayri l-ḥaqi waqālū man ashaddu minnā quwwatan awalam yaraw anna l-laha alladhī khalaqahum huwa ashaddu min'hum quwwatan wakānū biāyātinā yajḥadūna",
-    "translation": "",
+    "translation": "As for ʿAad, they were arrogant upon the earth without right and said, \"Who is greater than us in strength?\" Did they not consider that Allāh who created them was greater than them in strength? But they were rejecting Our signs.",
     "words": [
       {
         "id": "fussilat-15-1",
@@ -1512,7 +1526,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’agissant des ‘Ad, ils furent, sans juste raison, prétentieux sur terre. Ils s’écrièrent : « Qui donc est doté d’une plus grande force que la nôtre ? » N’ont-ils pas vu qu’Allah, Qui les a créés, possède une Force autrement plus grande que la leur ? Or ils refusaient (obstinément) de reconnaître Nos Signes."
   },
   {
     "id": "fussilat-16",
@@ -1521,7 +1536,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرْسَلْنَا عَلَيْهِمْ رِيحًا صَرْصَرًا فِىٓ أَيَّامٍ نَّحِسَاتٍ لِّنُذِيقَهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَخْزَىٰ ۖ وَهُمْ لَا يُنصَرُونَ",
     "textSimple": "فأرسلنا عليهم ريحا صرصرا فىٓ أيام نحسات لنذيقهم عذاب ٱلخزى فى ٱلحيوة ٱلدنيا  ولعذاب ٱلـٔاخرة أخزى  وهم لا ينصرون",
     "transliteration": "fa-arsalnā ʿalayhim rīḥan ṣarṣaran fī ayyāmin naḥisātin linudhīqahum ʿadhāba l-khiz'yi fī l-ḥayati l-dun'yā walaʿadhābu l-ākhirati akhzā wahum lā yunṣarūna",
-    "translation": "",
+    "translation": "So We sent upon them a screaming wind during days of misfortune to make them taste the punishment of disgrace in the worldly life; but the punishment of the Hereafter is more disgracing, and they will not be helped.",
     "words": [
       {
         "id": "fussilat-16-1",
@@ -1657,7 +1672,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes alors sur eux un vent impétueux et glacial durant des jours néfastes, pour leur faire goûter le supplice de l’humiliation dans ce bas monde. Or, le supplice de l’autre monde est autrement plus humiliant, et ils ne seront point secourus."
   },
   {
     "id": "fussilat-17",
@@ -1666,7 +1682,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ثَمُودُ فَهَدَيْنَـٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ فَأَخَذَتْهُمْ صَـٰعِقَةُ ٱلْعَذَابِ ٱلْهُونِ بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "وأما ثمود فهدينـهم فٱستحبوا ٱلعمى على ٱلهدى فأخذتهم صـعقة ٱلعذاب ٱلهون بما كانوا يكسبون",
     "transliteration": "wa-ammā thamūdu fahadaynāhum fa-is'taḥabbū l-ʿamā ʿalā l-hudā fa-akhadhathum ṣāʿiqatu l-ʿadhābi l-hūni bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "And as for Thamūd, We guided them, but they preferred blindness over guidance, so the thunderbolt of humiliating punishment seized them for what they used to earn.",
     "words": [
       {
         "id": "fussilat-17-1",
@@ -1767,7 +1783,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant aux Thamûd, Nous leur indiquâmes la juste direction mais ils préférèrent être aveugles plutôt que bien guidés. Ils furent foudroyés du supplice le plus ignominieux qui fondit alors sur eux pour prix de ce qu’ils commettaient."
   },
   {
     "id": "fussilat-18",
@@ -1776,7 +1793,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَنَجَّيْنَا ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
     "textSimple": "ونجينا ٱلذين ءامنوا وكانوا يتقون",
     "transliteration": "wanajjaynā alladhīna āmanū wakānū yattaqūna",
-    "translation": "",
+    "translation": "And We saved those who believed and used to fear Allāh.",
     "words": [
       {
         "id": "fussilat-18-1",
@@ -1814,7 +1831,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous sauvâmes alors ceux qui étaient croyants et qui craignaient (Allah)."
   },
   {
     "id": "fussilat-19",
@@ -1823,7 +1841,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يُحْشَرُ أَعْدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمْ يُوزَعُونَ",
     "textSimple": "ويوم يحشر أعدآء ٱلله إلى ٱلنار فهم يوزعون",
     "transliteration": "wayawma yuḥ'sharu aʿdāu l-lahi ilā l-nāri fahum yūzaʿūna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], the Day when the enemies of Allāh will be gathered to the Fire while they are [driven], assembled in rows,",
     "words": [
       {
         "id": "fussilat-19-1",
@@ -1882,7 +1900,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où les ennemis d’Allah seront rassemblés en foule devant le Feu, ils y seront précipités."
   },
   {
     "id": "fussilat-20",
@@ -1891,7 +1910,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا مَا جَآءُوهَا شَهِدَ عَلَيْهِمْ سَمْعُهُمْ وَأَبْصَـٰرُهُمْ وَجُلُودُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "حتىٓ إذا ما جآءوها شهد عليهم سمعهم وأبصـرهم وجلودهم بما كانوا يعملون",
     "transliteration": "ḥattā idhā mā jāūhā shahida ʿalayhim samʿuhum wa-abṣāruhum wajulūduhum bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Until, when they reach it, their hearing and their eyes and their skins will testify against them of what they used to do.",
     "words": [
       {
         "id": "fussilat-20-1",
@@ -1978,7 +1997,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une fois qu’ils y arriveront, leur ouïe, leurs yeux et leurs peaux témoigneront contre eux (dénonçant) ce qu’ils faisaient."
   },
   {
     "id": "fussilat-21",
@@ -1987,7 +2007,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لِجُلُودِهِمْ لِمَ شَهِدتُّمْ عَلَيْنَا ۖ قَالُوٓا۟ أَنطَقَنَا ٱللَّهُ ٱلَّذِىٓ أَنطَقَ كُلَّ شَىْءٍ وَهُوَ خَلَقَكُمْ أَوَّلَ مَرَّةٍ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "وقالوا لجلودهم لم شهدتم علينا  قالوٓا أنطقنا ٱلله ٱلذىٓ أنطق كل شىء وهو خلقكم أول مرة وإليه ترجعون",
     "transliteration": "waqālū lijulūdihim lima shahidttum ʿalaynā qālū anṭaqanā l-lahu alladhī anṭaqa kulla shayin wahuwa khalaqakum awwala marratin wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "And they will say to their skins, \"Why have you testified against us?\" They will say, \"We were made to speak by Allāh, who has made everything speak; and He created you the first time, and to Him you are returned.",
     "words": [
       {
         "id": "fussilat-21-1",
@@ -2116,7 +2136,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Pourquoi témoignez-vous contre nous ? » diront-ils à leurs peaux. Celles-ci répondront : « Allah nous a fait parler, Lui Qui fait parler Toute chose. C’est Lui Qui vous a créés la première fois et vers Qui vous serez ramenés. »"
   },
   {
     "id": "fussilat-22",
@@ -2125,7 +2146,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كُنتُمْ تَسْتَتِرُونَ أَن يَشْهَدَ عَلَيْكُمْ سَمْعُكُمْ وَلَآ أَبْصَـٰرُكُمْ وَلَا جُلُودُكُمْ وَلَـٰكِن ظَنَنتُمْ أَنَّ ٱللَّهَ لَا يَعْلَمُ كَثِيرًا مِّمَّا تَعْمَلُونَ",
     "textSimple": "وما كنتم تستترون أن يشهد عليكم سمعكم ولآ أبصـركم ولا جلودكم ولـكن ظننتم أن ٱلله لا يعلم كثيرا مما تعملون",
     "transliteration": "wamā kuntum tastatirūna an yashhada ʿalaykum samʿukum walā abṣārukum walā julūdukum walākin ẓanantum anna l-laha lā yaʿlamu kathīran mimmā taʿmalūna",
-    "translation": "",
+    "translation": "And you were not covering [i.e., protecting] yourselves, lest your hearing testify against you or your sight or your skins, but you assumed that Allāh does not know much of what you do.",
     "words": [
       {
         "id": "fussilat-22-1",
@@ -2268,7 +2289,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous ne vous cachiez pas de peur que votre ouïe, vos yeux et vos peaux ne soient en mesure de témoigner contre vous, mais (parce que) vous pensiez qu’Allah n’en savait pas beaucoup sur ce que vous faisiez."
   },
   {
     "id": "fussilat-23",
@@ -2277,7 +2299,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَذَٰلِكُمْ ظَنُّكُمُ ٱلَّذِى ظَنَنتُم بِرَبِّكُمْ أَرْدَىٰكُمْ فَأَصْبَحْتُم مِّنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "وذلكم ظنكم ٱلذى ظننتم بربكم أردىكم فأصبحتم من ٱلخـسرين",
     "transliteration": "wadhālikum ẓannukumu alladhī ẓanantum birabbikum ardākum fa-aṣbaḥtum mina l-khāsirīna",
-    "translation": "",
+    "translation": "And that was your assumption which you assumed about your Lord. It has brought you to ruin, and you have become among the losers.\"",
     "words": [
       {
         "id": "fussilat-23-1",
@@ -2343,7 +2365,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cette pensée qui était la vôtre, au sujet de votre Seigneur, c’est elle qui a causé votre perte, et vous avez rejoint le nombre des perdants."
   },
   {
     "id": "fussilat-24",
@@ -2352,7 +2375,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن يَصْبِرُوا۟ فَٱلنَّارُ مَثْوًى لَّهُمْ ۖ وَإِن يَسْتَعْتِبُوا۟ فَمَا هُم مِّنَ ٱلْمُعْتَبِينَ",
     "textSimple": "فإن يصبروا فٱلنار مثوى لهم  وإن يستعتبوا فما هم من ٱلمعتبين",
     "transliteration": "fa-in yaṣbirū fal-nāru mathwan lahum wa-in yastaʿtibū famā hum mina l-muʿ'tabīna",
-    "translation": "",
+    "translation": "So [even] if they are patient, the Fire is a residence for them; and if they ask to appease [Allāh], they will not be of those who are allowed to appease.",
     "words": [
       {
         "id": "fussilat-24-1",
@@ -2432,7 +2455,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils peuvent le supporter ou non, le Feu sera leur seule demeure ; et s’ils demandent à être pardonnés, ils ne seront pas pardonnés."
   },
   {
     "id": "fussilat-25",
@@ -2441,7 +2465,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَـٰسِرِينَ",
     "textSimple": " وقيضنا لهم قرنآء فزينوا لهم ما بين أيديهم وما خلفهم وحق عليهم ٱلقول فىٓ أمم قد خلت من قبلهم من ٱلجن وٱلإنس  إنهم كانوا خـسرين",
     "transliteration": "waqayyaḍnā lahum quranāa fazayyanū lahum mā bayna aydīhim wamā khalfahum waḥaqqa ʿalayhimu l-qawlu fī umamin qad khalat min qablihim mina l-jini wal-insi innahum kānū khāsirīna",
-    "translation": "",
+    "translation": "And We appointed for them companions who made attractive to them what was before them and what was behind them [of sin], and the word [i.e., decree] has come into effect upon them among nations which had passed on before them of jinn and men. Indeed, they [all] were losers.",
     "words": [
       {
         "id": "fussilat-25-1",
@@ -2619,7 +2643,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons désigné de (proches) compagnons qui leur embellissaient leurs (actions) futures et passées. Le verdict prononcé contre eux s’est donc justifié, tout comme il s’était déjà justifié pour les peuples de djinns et d’humains qui les avaient précédés ; tous seront perdants."
   },
   {
     "id": "fussilat-26",
@@ -2628,7 +2653,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَسْمَعُوا۟ لِهَـٰذَا ٱلْقُرْءَانِ وَٱلْغَوْا۟ فِيهِ لَعَلَّكُمْ تَغْلِبُونَ",
     "textSimple": "وقال ٱلذين كفروا لا تسمعوا لهـذا ٱلقرءان وٱلغوا فيه لعلكم تغلبون",
     "transliteration": "waqāla alladhīna kafarū lā tasmaʿū lihādhā l-qur'āni wal-ghaw fīhi laʿallakum taghlibūna",
-    "translation": "",
+    "translation": "And those who disbelieve say, \"Do not listen to this Qur’ān and speak noisily during [the recitation of] it that perhaps you will overcome.\"",
     "words": [
       {
         "id": "fussilat-26-1",
@@ -2708,7 +2733,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru dirent : « N’écoutez pas ce Coran ! Perturbez sa lecture ! Peut-être serez-vous les vainqueurs. »"
   },
   {
     "id": "fussilat-27",
@@ -2717,7 +2743,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَلَنُذِيقَنَّ ٱلَّذِينَ كَفَرُوا۟ عَذَابًا شَدِيدًا وَلَنَجْزِيَنَّهُمْ أَسْوَأَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "فلنذيقن ٱلذين كفروا عذابا شديدا ولنجزينهم أسوأ ٱلذى كانوا يعملون",
     "transliteration": "falanudhīqanna alladhīna kafarū ʿadhāban shadīdan walanajziyannahum aswa-a alladhī kānū yaʿmalūna",
-    "translation": "",
+    "translation": "But We will surely cause those who disbelieve to taste a severe punishment, and We will surely recompense them for the worst of what they had been doing.",
     "words": [
       {
         "id": "fussilat-27-1",
@@ -2790,7 +2816,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ferons certes goûter aux mécréants un terrible supplice. Nous les rétribuerons selon les pires de leurs actions."
   },
   {
     "id": "fussilat-28",
@@ -2799,7 +2826,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ جَزَآءُ أَعْدَآءِ ٱللَّهِ ٱلنَّارُ ۖ لَهُمْ فِيهَا دَارُ ٱلْخُلْدِ ۖ جَزَآءًۢ بِمَا كَانُوا۟ بِـَٔايَـٰتِنَا يَجْحَدُونَ",
     "textSimple": "ذلك جزآء أعدآء ٱلله ٱلنار  لهم فيها دار ٱلخلد  جزآء بما كانوا بـٔايـتنا يجحدون",
     "transliteration": "dhālika jazāu aʿdāi l-lahi l-nāru lahum fīhā dāru l-khul'di jazāan bimā kānū biāyātinā yajḥadūna",
-    "translation": "",
+    "translation": "That is the recompense of the enemies of Allāh - the Fire. For them therein is the home of eternity as recompense for what they, of Our verses, were rejecting.",
     "words": [
       {
         "id": "fussilat-28-1",
@@ -2900,7 +2927,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle sera la rétribution des ennemis d’Allah : le Feu. Là sera leur demeure éternelle, pour prix de leur (obstination) à rejeter Nos Signes."
   },
   {
     "id": "fussilat-29",
@@ -2909,7 +2937,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ رَبَّنَآ أَرِنَا ٱلَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ ٱلْأَسْفَلِينَ",
     "textSimple": "وقال ٱلذين كفروا ربنآ أرنا ٱلذين أضلانا من ٱلجن وٱلإنس نجعلهما تحت أقدامنا ليكونا من ٱلأسفلين",
     "transliteration": "waqāla alladhīna kafarū rabbanā arinā alladhayni aḍallānā mina l-jini wal-insi najʿalhumā taḥta aqdāminā liyakūnā mina l-asfalīna",
-    "translation": "",
+    "translation": "And those who disbelieved will [then] say, \"Our Lord, show us those who misled us of the jinn and men [so] we may put them under our feet that they will be among the lowest.\"",
     "words": [
       {
         "id": "fussilat-29-1",
@@ -3024,7 +3052,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru diront : « Seigneur, montre-nous ceux qui nous ont fourvoyés parmi les djinns et les hommes, pour que nous les foulions aux pieds et qu’ils soient au plus bas (de l’Enfer) ! »"
   },
   {
     "id": "fussilat-30",
@@ -3033,7 +3062,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ قَالُوا۟ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَـٰمُوا۟ تَتَنَزَّلُ عَلَيْهِمُ ٱلْمَلَـٰٓئِكَةُ أَلَّا تَخَافُوا۟ وَلَا تَحْزَنُوا۟ وَأَبْشِرُوا۟ بِٱلْجَنَّةِ ٱلَّتِى كُنتُمْ تُوعَدُونَ",
     "textSimple": "إن ٱلذين قالوا ربنا ٱلله ثم ٱستقـموا تتنزل عليهم ٱلملـٓئكة ألا تخافوا ولا تحزنوا وأبشروا بٱلجنة ٱلتى كنتم توعدون",
     "transliteration": "inna alladhīna qālū rabbunā l-lahu thumma is'taqāmū tatanazzalu ʿalayhimu l-malāikatu allā takhāfū walā taḥzanū wa-abshirū bil-janati allatī kuntum tūʿadūna",
-    "translation": "",
+    "translation": "Indeed, those who have said, \"Our Lord is Allāh\" and then remained on a right course - the angels will descend upon them, [saying], \"Do not fear and do not grieve but receive good tidings of Paradise, which you were promised.",
     "words": [
       {
         "id": "fussilat-30-1",
@@ -3169,7 +3198,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui disent : « Notre Seigneur est Allah » et font preuve de droiture, les Anges descendront vers eux, (et leur diront) : « N’ayez aucune crainte ! Ne vous affligez point ! Recevez plutôt l’heureuse nouvelle du Paradis qui vous était promis !"
   },
   {
     "id": "fussilat-31",
@@ -3178,7 +3208,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "نَحْنُ أَوْلِيَآؤُكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْـَٔاخِرَةِ ۖ وَلَكُمْ فِيهَا مَا تَشْتَهِىٓ أَنفُسُكُمْ وَلَكُمْ فِيهَا مَا تَدَّعُونَ",
     "textSimple": "نحن أوليآؤكم فى ٱلحيوة ٱلدنيا وفى ٱلـٔاخرة  ولكم فيها ما تشتهىٓ أنفسكم ولكم فيها ما تدعون",
     "transliteration": "naḥnu awliyāukum fī l-ḥayati l-dun'yā wafī l-ākhirati walakum fīhā mā tashtahī anfusukum walakum fīhā mā taddaʿūna",
-    "translation": "",
+    "translation": "We [angels] were your allies in worldly life and [are so] in the Hereafter. And you will have therein whatever your souls desire, and you will have therein whatever you request [or wish]",
     "words": [
       {
         "id": "fussilat-31-1",
@@ -3293,7 +3323,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous sommes bien vos alliés en ce bas monde et dans l’autre, où vous aurez tout ce que désireront vos âmes et tout ce que vous demanderez."
   },
   {
     "id": "fussilat-32",
@@ -3302,7 +3333,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "نُزُلًا مِّنْ غَفُورٍ رَّحِيمٍ",
     "textSimple": "نزلا من غفور رحيم",
     "transliteration": "nuzulan min ghafūrin raḥīmin",
-    "translation": "",
+    "translation": "As accommodation from a [Lord who is] Forgiving and Merciful.\"",
     "words": [
       {
         "id": "fussilat-32-1",
@@ -3333,7 +3364,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous serez accueillis en hôtes par un (Seigneur) Absoluteur et Tout Miséricordieux. »"
   },
   {
     "id": "fussilat-33",
@@ -3342,7 +3374,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَحْسَنُ قَوْلًا مِّمَّن دَعَآ إِلَى ٱللَّهِ وَعَمِلَ صَـٰلِحًا وَقَالَ إِنَّنِى مِنَ ٱلْمُسْلِمِينَ",
     "textSimple": "ومن أحسن قولا ممن دعآ إلى ٱلله وعمل صـلحا وقال إننى من ٱلمسلمين",
     "transliteration": "waman aḥsanu qawlan mimman daʿā ilā l-lahi waʿamila ṣāliḥan waqāla innanī mina l-mus'limīna",
-    "translation": "",
+    "translation": "And who is better in speech than one who invites to Allāh and does righteousness and says, \"Indeed, I am of the Muslims.\"",
     "words": [
       {
         "id": "fussilat-33-1",
@@ -3436,7 +3468,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui tient meilleurs propos que celui qui appelle à Allah, fait le bien et dit : « Je suis du nombre des Soumis (Musulmans) ? »"
   },
   {
     "id": "fussilat-34",
@@ -3445,7 +3478,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَسْتَوِى ٱلْحَسَنَةُ وَلَا ٱلسَّيِّئَةُ ۚ ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ فَإِذَا ٱلَّذِى بَيْنَكَ وَبَيْنَهُۥ عَدَٰوَةٌ كَأَنَّهُۥ وَلِىٌّ حَمِيمٌ",
     "textSimple": "ولا تستوى ٱلحسنة ولا ٱلسيئة  ٱدفع بٱلتى هى أحسن فإذا ٱلذى بينك وبينه عدوة كأنه ولى حميم",
     "transliteration": "walā tastawī l-ḥasanatu walā l-sayi-atu id'faʿ bi-allatī hiya aḥsanu fa-idhā alladhī baynaka wabaynahu ʿadāwatun ka-annahu waliyyun ḥamīmun",
-    "translation": "",
+    "translation": "And not equal are the good deed and the bad. Repel [evil] by that [deed] which is better; and thereupon, the one whom between you and him is enmity [will become] as though he was a devoted friend.",
     "words": [
       {
         "id": "fussilat-34-1",
@@ -3567,7 +3600,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La bonne action et la mauvaise ne sauraient être égales. Repousse donc (le mal) par une (action) qui soit meilleure, et celui que tu avais pour ennemi deviendra alors le plus dévoué des amis."
   },
   {
     "id": "fussilat-35",
@@ -3576,7 +3610,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يُلَقَّىٰهَآ إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَمَا يُلَقَّىٰهَآ إِلَّا ذُو حَظٍّ عَظِيمٍ",
     "textSimple": "وما يلقىهآ إلا ٱلذين صبروا وما يلقىهآ إلا ذو حظ عظيم",
     "transliteration": "wamā yulaqqāhā illā alladhīna ṣabarū wamā yulaqqāhā illā dhū ḥaẓẓin ʿaẓīmin",
-    "translation": "",
+    "translation": "But none is granted it except those who are patient, and none is granted it except one having a great portion [of good].",
     "words": [
       {
         "id": "fussilat-35-1",
@@ -3656,7 +3690,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seuls sont gratifiés (de cette vertu) ceux qui savent être patients, comme n’en est gratifié que celui qui jouit d’une immense part de félicité."
   },
   {
     "id": "fussilat-36",
@@ -3665,7 +3700,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَـٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "وإما ينزغنك من ٱلشيطـن نزغ فٱستعذ بٱلله  إنه هو ٱلسميع ٱلعليم",
     "transliteration": "wa-immā yanzaghannaka mina l-shayṭāni nazghun fa-is'taʿidh bil-lahi innahu huwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "And if there comes to you from Satan an evil suggestion, then seek refuge in Allāh. Indeed, He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "fussilat-36-1",
@@ -3745,7 +3780,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Satan cherche à te fourvoyer, trouve refuge auprès d’Allah, car Il Entend Tout et Il est Omniscient."
   },
   {
     "id": "fussilat-37",
@@ -3754,7 +3790,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ ءَايَـٰتِهِ ٱلَّيْلُ وَٱلنَّهَارُ وَٱلشَّمْسُ وَٱلْقَمَرُ ۚ لَا تَسْجُدُوا۟ لِلشَّمْسِ وَلَا لِلْقَمَرِ وَٱسْجُدُوا۟ لِلَّهِ ٱلَّذِى خَلَقَهُنَّ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
     "textSimple": "ومن ءايـته ٱليل وٱلنهار وٱلشمس وٱلقمر  لا تسجدوا للشمس ولا للقمر وٱسجدوا لله ٱلذى خلقهن إن كنتم إياه تعبدون",
     "transliteration": "wamin āyātihi al-laylu wal-nahāru wal-shamsu wal-qamaru lā tasjudū lilshamsi walā lil'qamari wa-us'judū lillahi alladhī khalaqahunna in kuntum iyyāhu taʿbudūna",
-    "translation": "",
+    "translation": "And of His signs are the night and day and the sun and moon. Do not prostrate to the sun or to the moon, but prostrate to Allāh, who created them, if it should be Him that you worship.",
     "words": [
       {
         "id": "fussilat-37-1",
@@ -3890,7 +3926,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi Ses Signes, il y a la nuit et le jour, le soleil et la lune. Mais ne vous prosternez pas devant le soleil, pas plus que devant la lune. Prosternez-vous devant Allah Qui les a créés, si vous n’adorez vraiment que Lui !"
   },
   {
     "id": "fussilat-38",
@@ -3899,7 +3936,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنِ ٱسْتَكْبَرُوا۟ فَٱلَّذِينَ عِندَ رَبِّكَ يُسَبِّحُونَ لَهُۥ بِٱلَّيْلِ وَٱلنَّهَارِ وَهُمْ لَا يَسْـَٔمُونَ ۩",
     "textSimple": "فإن ٱستكبروا فٱلذين عند ربك يسبحون له بٱليل وٱلنهار وهم لا يسـٔمون ",
     "transliteration": "fa-ini is'takbarū fa-alladhīna ʿinda rabbika yusabbiḥūna lahu bi-al-layli wal-nahāri wahum lā yasamūna",
-    "translation": "",
+    "translation": "But if they are arrogant - then those who are near your Lord [i.e., the angels] exalt Him by night and by day, and they do not become weary.",
     "words": [
       {
         "id": "fussilat-38-1",
@@ -3986,7 +4023,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si, pleins de dédain, (les mécréants refusent de se prosterner), ceux qui sont auprès d’Allah Lui rendent gloire nuit et jour et sans se lasser jamais."
   },
   {
     "id": "fussilat-39",
@@ -3995,7 +4033,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ ءَايَـٰتِهِۦٓ أَنَّكَ تَرَى ٱلْأَرْضَ خَـٰشِعَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ ۚ إِنَّ ٱلَّذِىٓ أَحْيَاهَا لَمُحْىِ ٱلْمَوْتَىٰٓ ۚ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "ومن ءايـتهٓ أنك ترى ٱلأرض خـشعة فإذآ أنزلنا عليها ٱلمآء ٱهتزت وربت  إن ٱلذىٓ أحياها لمحى ٱلموتىٓ  إنه على كل شىء قدير",
     "transliteration": "wamin āyātihi annaka tarā l-arḍa khāshiʿatan fa-idhā anzalnā ʿalayhā l-māa ih'tazzat warabat inna alladhī aḥyāhā lamuḥ'yī l-mawtā innahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "And of His signs is that you see the earth stilled, but when We send down upon it rain, it quivers and grows. Indeed, He who has given it life is the Giver of Life to the dead. Indeed, He is over all things competent.",
     "words": [
       {
         "id": "fussilat-39-1",
@@ -4152,7 +4190,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’un de Ses signes aussi est que tu vois la terre frappée de désolation, mais dès que Nous lui envoyons l’eau, elle devient animée et luxuriante. Celui Qui la fait revivre est Celui-là même Qui fera revivre les morts : Il est de Toute chose Infiniment Capable."
   },
   {
     "id": "fussilat-40",
@@ -4161,7 +4200,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يُلْحِدُونَ فِىٓ ءَايَـٰتِنَا لَا يَخْفَوْنَ عَلَيْنَآ ۗ أَفَمَن يُلْقَىٰ فِى ٱلنَّارِ خَيْرٌ أَم مَّن يَأْتِىٓ ءَامِنًا يَوْمَ ٱلْقِيَـٰمَةِ ۚ ٱعْمَلُوا۟ مَا شِئْتُمْ ۖ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "إن ٱلذين يلحدون فىٓ ءايـتنا لا يخفون علينآ  أفمن يلقى فى ٱلنار خير أم من يأتىٓ ءامنا يوم ٱلقيـمة  ٱعملوا ما شئتم  إنه بما تعملون بصير",
     "transliteration": "inna alladhīna yul'ḥidūna fī āyātinā lā yakhfawna ʿalaynā afaman yul'qā fī l-nāri khayrun am man yatī āminan yawma l-qiyāmati iʿ'malū mā shi'tum innahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "Indeed, those who inject deviation into Our verses are not concealed from Us. So, is he who is cast into the Fire better or he who comes secure on the Day of Resurrection? Do whatever you will; indeed, He is Seeing of what you do.",
     "words": [
       {
         "id": "fussilat-40-1",
@@ -4346,7 +4385,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui altèrent le sens de Nos versets ne peuvent se dérober à Nous. Celui qui sera jeté au Feu est-il meilleur que celui qui viendra (vers Nous) en toute sécurité, au Jour de la Résurrection ? Faites donc comme il vous plaira ! Il Voit parfaitement ce que vous faites !"
   },
   {
     "id": "fussilat-41",
@@ -4355,7 +4395,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِٱلذِّكْرِ لَمَّا جَآءَهُمْ ۖ وَإِنَّهُۥ لَكِتَـٰبٌ عَزِيزٌ",
     "textSimple": "إن ٱلذين كفروا بٱلذكر لما جآءهم  وإنه لكتـب عزيز",
     "transliteration": "inna alladhīna kafarū bil-dhik'ri lammā jāahum wa-innahu lakitābun ʿazīzun",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve in the message [i.e., the Qur’ān] after it has come to them... And indeed, it is a mighty Book.",
     "words": [
       {
         "id": "fussilat-41-1",
@@ -4421,7 +4461,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru au Rappel quand il leur est parvenu (seront voués au supplice). Or il s’agit d’un Livre si puissant (que nul ne peut l’atteindre) !"
   },
   {
     "id": "fussilat-42",
@@ -4430,7 +4471,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَأْتِيهِ ٱلْبَـٰطِلُ مِنۢ بَيْنِ يَدَيْهِ وَلَا مِنْ خَلْفِهِۦ ۖ تَنزِيلٌ مِّنْ حَكِيمٍ حَمِيدٍ",
     "textSimple": "لا يأتيه ٱلبـطل من بين يديه ولا من خلفه  تنزيل من حكيم حميد",
     "transliteration": "lā yatīhi l-bāṭilu min bayni yadayhi walā min khalfihi tanzīlun min ḥakīmin ḥamīdin",
-    "translation": "",
+    "translation": "Falsehood cannot approach it from before it or from behind it; [it is] a revelation from a [Lord who is] Wise and Praiseworthy.",
     "words": [
       {
         "id": "fussilat-42-1",
@@ -4524,7 +4565,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’erreur ne saurait lui parvenir, de quelque côté que ce soit, car c’est une révélation du Sage, Digne de Toute Louange."
   },
   {
     "id": "fussilat-43",
@@ -4533,7 +4575,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "مَّا يُقَالُ لَكَ إِلَّا مَا قَدْ قِيلَ لِلرُّسُلِ مِن قَبْلِكَ ۚ إِنَّ رَبَّكَ لَذُو مَغْفِرَةٍ وَذُو عِقَابٍ أَلِيمٍ",
     "textSimple": "ما يقال لك إلا ما قد قيل للرسل من قبلك  إن ربك لذو مغفرة وذو عقاب أليم",
     "transliteration": "mā yuqālu laka illā mā qad qīla lilrrusuli min qablika inna rabbaka ladhū maghfiratin wadhū ʿiqābin alīmin",
-    "translation": "",
+    "translation": "Nothing is said to you, [O Muḥammad], except what was already said to the messengers before you. Indeed, your Lord is a possessor of forgiveness and a possessor of painful penalty.",
     "words": [
       {
         "id": "fussilat-43-1",
@@ -4655,7 +4697,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien ne t’est dit qui n’ait été déjà dit aux Messagers avant toi. Ton Seigneur a fait certes Sien le Pardon, mais Il a aussi la punition très dure."
   },
   {
     "id": "fussilat-44",
@@ -4664,7 +4707,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ جَعَلْنَـٰهُ قُرْءَانًا أَعْجَمِيًّا لَّقَالُوا۟ لَوْلَا فُصِّلَتْ ءَايَـٰتُهُۥٓ ۖ ءَا۬عْجَمِىٌّ وَعَرَبِىٌّ ۗ قُلْ هُوَ لِلَّذِينَ ءَامَنُوا۟ هُدًى وَشِفَآءٌ ۖ وَٱلَّذِينَ لَا يُؤْمِنُونَ فِىٓ ءَاذَانِهِمْ وَقْرٌ وَهُوَ عَلَيْهِمْ عَمًى ۚ أُو۟لَـٰٓئِكَ يُنَادَوْنَ مِن مَّكَانٍۭ بَعِيدٍ",
     "textSimple": "ولو جعلنـه قرءانا أعجميا لقالوا لولا فصلت ءايـتهٓ  ءاعجمى وعربى  قل هو للذين ءامنوا هدى وشفآء  وٱلذين لا يؤمنون فىٓ ءاذانهم وقر وهو عليهم عمى  أولـٓئك ينادون من مكان بعيد",
     "transliteration": "walaw jaʿalnāhu qur'ānan aʿjamiyyan laqālū lawlā fuṣṣilat āyātuhu āʿ'jamiyyun waʿarabiyyun qul huwa lilladhīna āmanū hudan washifāon wa-alladhīna lā yu'minūna fī ādhānihim waqrun wahuwa ʿalayhim ʿaman ulāika yunādawna min makānin baʿīdin",
-    "translation": "",
+    "translation": "And if We had made it a foreign [i.e., non-Arabic] Qur’ān, they would have said, \"Why are its verses not explained in detail [in our language]? Is it a foreign [recitation] and an Arab [messenger]?\" Say, \"It is, for those who believe, a guidance and cure.\" And those who do not believe - in their ears is deafness, and it is upon them blindness. Those are being called from a distant place.",
     "words": [
       {
         "id": "fussilat-44-1",
@@ -4877,7 +4920,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous avions fait que le Coran fût (de lecture) autre qu’arabe, ils auraient dit : « Pourquoi ses versets ne sont-ils pas détaillés (d’une façon compréhensible). Un (Livre) non arabe (pour un Messager) arabe ? » Dis : « (Le Coran) est pour les croyants une juste direction (hudâ) et un remède. Quant aux mécréants, ils ont les oreilles frappées de surdité et (les yeux) de cécité. Ceux-là ne perçoivent (l’appel) que de très loin. »"
   },
   {
     "id": "fussilat-45",
@@ -4886,7 +4930,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ فَٱخْتُلِفَ فِيهِ ۗ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب فٱختلف فيه  ولولا كلمة سبقت من ربك لقضى بينهم  وإنهم لفى شك منه مريب",
     "transliteration": "walaqad ātaynā mūsā l-kitāba fa-ukh'tulifa fīhi walawlā kalimatun sabaqat min rabbika laquḍiya baynahum wa-innahum lafī shakkin min'hu murībin",
-    "translation": "",
+    "translation": "And We had already given Moses the Scripture, but it came under disagreement. And if not for a word [i.e., decree] that preceded from your Lord, it would have been concluded between them. And indeed they are, concerning it [i.e., the Qur’ān], in disquieting doubt.",
     "words": [
       {
         "id": "fussilat-45-1",
@@ -5015,7 +5059,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avions donné le Livre à Moïse, mais il y eut controverse à son sujet. N’eût été le verdict préalable de ton Seigneur, leur (différend) aurait été certainement tranché. Ils sont, décidément, dans le doute le plus troublant."
   },
   {
     "id": "fussilat-46",
@@ -5024,7 +5069,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "مَّنْ عَمِلَ صَـٰلِحًا فَلِنَفْسِهِۦ ۖ وَمَنْ أَسَآءَ فَعَلَيْهَا ۗ وَمَا رَبُّكَ بِظَلَّـٰمٍ لِّلْعَبِيدِ",
     "textSimple": "من عمل صـلحا فلنفسه  ومن أسآء فعليها  وما ربك بظلـم للعبيد",
     "transliteration": "man ʿamila ṣāliḥan falinafsihi waman asāa faʿalayhā wamā rabbuka biẓallāmin lil'ʿabīdi",
-    "translation": "",
+    "translation": "Whoever does righteousness - it is for his [own] soul; and whoever does evil [does so] against it. And your Lord is not ever unjust to [His] servants.",
     "words": [
       {
         "id": "fussilat-46-1",
@@ -5104,7 +5149,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque fait le bien, le fait pour lui-même, et quiconque fait le mal, le fait contre lui-même. Et ton Seigneur n’est certes pas injuste envers Ses Serviteurs."
   },
   {
     "id": "fussilat-47",
@@ -5113,7 +5159,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِلَيْهِ يُرَدُّ عِلْمُ ٱلسَّاعَةِ ۚ وَمَا تَخْرُجُ مِن ثَمَرَٰتٍ مِّنْ أَكْمَامِهَا وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَيَوْمَ يُنَادِيهِمْ أَيْنَ شُرَكَآءِى قَالُوٓا۟ ءَاذَنَّـٰكَ مَا مِنَّا مِن شَهِيدٍ",
     "textSimple": " إليه يرد علم ٱلساعة  وما تخرج من ثمرت من أكمامها وما تحمل من أنثى ولا تضع إلا بعلمه  ويوم يناديهم أين شركآءى قالوٓا ءاذنـك ما منا من شهيد",
     "transliteration": "ilayhi yuraddu ʿil'mu l-sāʿati wamā takhruju min thamarātin min akmāmihā wamā taḥmilu min unthā walā taḍaʿu illā biʿil'mihi wayawma yunādīhim ayna shurakāī qālū ādhannāka mā minnā min shahīdin",
-    "translation": "",
+    "translation": "To Him [alone] is attributed knowledge of the Hour. And fruits emerge not from their coverings nor does a female conceive or give birth except with His knowledge. And the Day He will call to them, \"Where are My 'partners'?\" they will say, \"We announce to You that there is [no longer] among us any witness [to that].\"",
     "words": [
       {
         "id": "fussilat-47-1",
@@ -5312,7 +5358,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est de Lui que relève la science de l’Heure. Aucun fruit ne sort de son enveloppe, aucune femelle ne porte ni ne met bas sans qu’Il ne le sache. Et le jour où Il les appellera : « Où sont donc ceux que vous M’avez associés ? » ils diront : « Nous affirmons devant Toi que personne parmi nous ne saurait témoigner (de leur existence). »"
   },
   {
     "id": "fussilat-48",
@@ -5321,7 +5368,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَدْعُونَ مِن قَبْلُ ۖ وَظَنُّوا۟ مَا لَهُم مِّن مَّحِيصٍ",
     "textSimple": "وضل عنهم ما كانوا يدعون من قبل  وظنوا ما لهم من محيص",
     "transliteration": "waḍalla ʿanhum mā kānū yadʿūna min qablu waẓannū mā lahum min maḥīṣin",
-    "translation": "",
+    "translation": "And lost from them will be those they were invoking before, and they will be certain that they have no place of escape.",
     "words": [
       {
         "id": "fussilat-48-1",
@@ -5408,7 +5455,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qu’ils auront invoqué (pendant longtemps), les abandonnera, et ils reconnaîtront qu’il n’y aura plus d’issue pour eux."
   },
   {
     "id": "fussilat-49",
@@ -5417,7 +5465,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَسْـَٔمُ ٱلْإِنسَـٰنُ مِن دُعَآءِ ٱلْخَيْرِ وَإِن مَّسَّهُ ٱلشَّرُّ فَيَـُٔوسٌ قَنُوطٌ",
     "textSimple": "لا يسـٔم ٱلإنسـن من دعآء ٱلخير وإن مسه ٱلشر فيـٔوس قنوط",
     "transliteration": "lā yasamu l-insānu min duʿāi l-khayri wa-in massahu l-sharu fayaūsun qanūṭun",
-    "translation": "",
+    "translation": "Man is not weary of supplication for good [things], but if evil touches him, he is hopeless and despairing.",
     "words": [
       {
         "id": "fussilat-49-1",
@@ -5497,7 +5545,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme ne se lasse pas d’implorer (Allah pour obtenir) le bien. Mais dès qu’un malheur le frappe, le voilà désespéré et abattu."
   },
   {
     "id": "fussilat-50",
@@ -5506,7 +5555,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَذَقْنَـٰهُ رَحْمَةً مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ هَـٰذَا لِى وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةً وَلَئِن رُّجِعْتُ إِلَىٰ رَبِّىٓ إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍ",
     "textSimple": "ولئن أذقنـه رحمة منا من بعد ضرآء مسته ليقولن هـذا لى ومآ أظن ٱلساعة قآئمة ولئن رجعت إلى ربىٓ إن لى عنده للحسنى  فلننبئن ٱلذين كفروا بما عملوا ولنذيقنهم من عذاب غليظ",
     "transliteration": "wala-in adhaqnāhu raḥmatan minnā min baʿdi ḍarrāa massathu layaqūlanna hādhā lī wamā aẓunnu l-sāʿata qāimatan wala-in rujiʿ'tu ilā rabbī inna lī ʿindahu lalḥus'nā falanunabbi-anna alladhīna kafarū bimā ʿamilū walanudhīqannahum min ʿadhābin ghalīẓin",
-    "translation": "",
+    "translation": "And if We let him taste mercy from Us after an adversity which has touched him, he will surely say, \"This is [due] to me, and I do not think the Hour will occur; and [even] if I should be returned to my Lord, indeed, for me there will be with Him the best.\" But We will surely inform those who disbelieved about what they did, and We will surely make them taste a massive punishment.",
     "words": [
       {
         "id": "fussilat-50-1",
@@ -5733,7 +5782,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous lui faisons goûter de Notre grâce, après un malheur, il proclame : « Cela est mon dû, et je ne pense pas que l’Heure arrivera. Si jamais je devais être ramené à mon Seigneur, je trouverais auprès de Lui la plus belle des récompenses. » Nous informerons certes les mécréants de ce qu’ils auront commis, et Nous leur ferons goûter au plus grand des supplices."
   },
   {
     "id": "fussilat-51",
@@ -5742,7 +5792,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَـٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ وَإِذَا مَسَّهُ ٱلشَّرُّ فَذُو دُعَآءٍ عَرِيضٍ",
     "textSimple": "وإذآ أنعمنا على ٱلإنسـن أعرض ونـٔا بجانبه وإذا مسه ٱلشر فذو دعآء عريض",
     "transliteration": "wa-idhā anʿamnā ʿalā l-insāni aʿraḍa wanaā bijānibihi wa-idhā massahu l-sharu fadhū duʿāin ʿarīḍin",
-    "translation": "",
+    "translation": "And when We bestow favor upon man, he turns away and distances himself; but when evil touches him, then he is full of extensive supplication.",
     "words": [
       {
         "id": "fussilat-51-1",
@@ -5836,7 +5886,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nous comblons l’homme de bienfaits, il se détourne et prend ses distances ; et quand un malheur le frappe il se répand en prières."
   },
   {
     "id": "fussilat-52",
@@ -5845,7 +5896,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِن كَانَ مِنْ عِندِ ٱللَّهِ ثُمَّ كَفَرْتُم بِهِۦ مَنْ أَضَلُّ مِمَّنْ هُوَ فِى شِقَاقٍۭ بَعِيدٍ",
     "textSimple": "قل أرءيتم إن كان من عند ٱلله ثم كفرتم به من أضل ممن هو فى شقاق بعيد",
     "transliteration": "qul ara-aytum in kāna min ʿindi l-lahi thumma kafartum bihi man aḍallu mimman huwa fī shiqāqin baʿīdin",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if it [i.e., the Qur’ān] is from Allāh and you disbelieved in it, who would be more astray than one who is in extreme dissension?\"",
     "words": [
       {
         "id": "fussilat-52-1",
@@ -5967,7 +6018,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Avez-vous considéré que si (ce Coran) provient vraiment d’Allah, et (que malgré tout) vous le rejetiez, qui donc sera plus égaré que celui qui va loin dans la dissidence ? »"
   },
   {
     "id": "fussilat-53",
@@ -5976,7 +6028,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "سَنُرِيهِمْ ءَايَـٰتِنَا فِى ٱلْـَٔافَاقِ وَفِىٓ أَنفُسِهِمْ حَتَّىٰ يَتَبَيَّنَ لَهُمْ أَنَّهُ ٱلْحَقُّ ۗ أَوَلَمْ يَكْفِ بِرَبِّكَ أَنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "textSimple": "سنريهم ءايـتنا فى ٱلـٔافاق وفىٓ أنفسهم حتى يتبين لهم أنه ٱلحق  أولم يكف بربك أنه على كل شىء شهيد",
     "transliteration": "sanurīhim āyātinā fī l-āfāqi wafī anfusihim ḥattā yatabayyana lahum annahu l-ḥaqu awalam yakfi birabbika annahu ʿalā kulli shayin shahīdun",
-    "translation": "",
+    "translation": "We will show them Our signs in the horizons and within themselves until it becomes clear to them that it is the truth. But is it not sufficient concerning your Lord that He is, over all things, a Witness?",
     "words": [
       {
         "id": "fussilat-53-1",
@@ -6112,7 +6164,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur ferons voir Nos Signes en tous pays et en eux-mêmes, jusqu’à ce qu’ils sachent, de toute évidence, que ceci est la vérité même. Ne suffit-il pas que ton Seigneur soit témoin de Toute chose ?"
   },
   {
     "id": "fussilat-54",
@@ -6121,7 +6174,7 @@ export const FUSSILAT_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ ۗ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ مُّحِيطٌۢ",
     "textSimple": "ألآ إنهم فى مرية من لقآء ربهم  ألآ إنه بكل شىء محيط",
     "transliteration": "alā innahum fī mir'yatin min liqāi rabbihim alā innahu bikulli shayin muḥīṭun",
-    "translation": "",
+    "translation": "Unquestionably, they are in doubt about the meeting with their Lord. Unquestionably He is, of all things, encompassing.",
     "words": [
       {
         "id": "fussilat-54-1",
@@ -6208,7 +6261,8 @@ export const FUSSILAT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont certes dans le doute à propos de la rencontre de leur Seigneur. Mais Lui Cerne Toute chose."
   }
 ];
 

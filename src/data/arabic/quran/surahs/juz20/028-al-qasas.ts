@@ -11,7 +11,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": " طسٓمٓ",
     "textSimple": " طسٓمٓ",
     "transliteration": "tta-seen-meem",
-    "translation": "",
+    "translation": "Ṭā, Seen, Meem.",
     "words": [
       {
         "id": "al-qasas-1-1",
@@ -21,7 +21,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tâ, Sîn, Mîm."
   },
   {
     "id": "al-qasas-2",
@@ -30,7 +31,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْمُبِينِ",
     "textSimple": "تلك ءايـت ٱلكتـب ٱلمبين",
     "transliteration": "til'ka āyātu l-kitābi l-mubīni",
-    "translation": "",
+    "translation": "These are verses of the clear Book.",
     "words": [
       {
         "id": "al-qasas-2-1",
@@ -61,7 +62,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là les versets du Livre explicite."
   },
   {
     "id": "al-qasas-3",
@@ -70,7 +72,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "نَتْلُوا۟ عَلَيْكَ مِن نَّبَإِ مُوسَىٰ وَفِرْعَوْنَ بِٱلْحَقِّ لِقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "نتلوا عليك من نبإ موسى وفرعون بٱلحق لقوم يؤمنون",
     "transliteration": "natlū ʿalayka min naba-i mūsā wafir'ʿawna bil-ḥaqi liqawmin yu'minūna",
-    "translation": "",
+    "translation": "We recite to you from the news of Moses and Pharaoh in truth for a people who believe.",
     "words": [
       {
         "id": "al-qasas-3-1",
@@ -136,7 +138,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous te relatons, en toute vérité, quelques faits de l’histoire de Moïse et de Pharaon, à l’adresse des gens qui ont la foi."
   },
   {
     "id": "al-qasas-4",
@@ -145,7 +148,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ",
     "textSimple": "إن فرعون علا فى ٱلأرض وجعل أهلها شيعا يستضعف طآئفة منهم يذبح أبنآءهم ويستحى نسآءهم  إنه كان من ٱلمفسدين",
     "transliteration": "inna fir'ʿawna ʿalā fī l-arḍi wajaʿala ahlahā shiyaʿan yastaḍʿifu ṭāifatan min'hum yudhabbiḥu abnāahum wayastaḥyī nisāahum innahu kāna mina l-muf'sidīna",
-    "translation": "",
+    "translation": "Indeed, Pharaoh exalted himself in the land and made its people into factions, oppressing a sector among them, slaughtering their [newborn] sons and keeping their females alive. Indeed, he was of the corrupters.",
     "words": [
       {
         "id": "al-qasas-4-1",
@@ -281,7 +284,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon (qui) s’enflait d’orgueil et transgressait sur terre divisa ses habitants en divers clans. Il en opprimait le plus faible, dont il faisait égorger les enfants, et laissait vivre les femmes. Il faisait certes partie des corrupteurs."
   },
   {
     "id": "al-qasas-5",
@@ -290,7 +294,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَنُرِيدُ أَن نَّمُنَّ عَلَى ٱلَّذِينَ ٱسْتُضْعِفُوا۟ فِى ٱلْأَرْضِ وَنَجْعَلَهُمْ أَئِمَّةً وَنَجْعَلَهُمُ ٱلْوَٰرِثِينَ",
     "textSimple": "ونريد أن نمن على ٱلذين ٱستضعفوا فى ٱلأرض ونجعلهم أئمة ونجعلهم ٱلورثين",
     "transliteration": "wanurīdu an namunna ʿalā alladhīna us'tuḍ'ʿifū fī l-arḍi wanajʿalahum a-immatan wanajʿalahumu l-wārithīna",
-    "translation": "",
+    "translation": "And We wanted to confer favor upon those who were oppressed in the land and make them leaders and make them inheritors",
     "words": [
       {
         "id": "al-qasas-5-1",
@@ -377,7 +381,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous voulions favoriser ceux qui étaient opprimés sur terre, en faire des guides et en faire des héritiers ;"
   },
   {
     "id": "al-qasas-6",
@@ -386,7 +391,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَنُمَكِّنَ لَهُمْ فِى ٱلْأَرْضِ وَنُرِىَ فِرْعَوْنَ وَهَـٰمَـٰنَ وَجُنُودَهُمَا مِنْهُم مَّا كَانُوا۟ يَحْذَرُونَ",
     "textSimple": "ونمكن لهم فى ٱلأرض ونرى فرعون وهـمـن وجنودهما منهم ما كانوا يحذرون",
     "transliteration": "wanumakkina lahum fī l-arḍi wanuriya fir'ʿawna wahāmāna wajunūdahumā min'hum mā kānū yaḥdharūna",
-    "translation": "",
+    "translation": "And establish them in the land and show Pharaoh and [his minister] Hāmān and their soldiers through them that which they had feared.",
     "words": [
       {
         "id": "al-qasas-6-1",
@@ -473,7 +478,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous voulions affermir leur situation sur terre et montrer à Pharaon, à Hâmân et à leurs armées ce qu’ils redoutaient de la part (des opprimés)."
   },
   {
     "id": "al-qasas-7",
@@ -482,7 +488,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَوْحَيْنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِى ٱلْيَمِّ وَلَا تَخَافِى وَلَا تَحْزَنِىٓ ۖ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "وأوحينآ إلىٓ أم موسىٓ أن أرضعيه  فإذا خفت عليه فألقيه فى ٱليم ولا تخافى ولا تحزنىٓ  إنا رآدوه إليك وجاعلوه من ٱلمرسلين",
     "transliteration": "wa-awḥaynā ilā ummi mūsā an arḍiʿīhi fa-idhā khif'ti ʿalayhi fa-alqīhi fī l-yami walā takhāfī walā taḥzanī innā rāddūhu ilayki wajāʿilūhu mina l-mur'salīna",
-    "translation": "",
+    "translation": "And We inspired to the mother of Moses, \"Suckle him; but when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him [one] of the messengers.\"",
     "words": [
       {
         "id": "al-qasas-7-1",
@@ -639,7 +645,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous inspirâmes à la mère de Moïse : « Allaite-le. Et si tu crains pour lui, jette-le dans le fleuve. N’aie pas peur et ne sois pas triste, car Nous allons te le rendre. Et Nous ferons de lui un Messager. »"
   },
   {
     "id": "al-qasas-8",
@@ -648,7 +655,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْتَقَطَهُۥٓ ءَالُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوًّا وَحَزَنًا ۗ إِنَّ فِرْعَوْنَ وَهَـٰمَـٰنَ وَجُنُودَهُمَا كَانُوا۟ خَـٰطِـِٔينَ",
     "textSimple": "فٱلتقطهٓ ءال فرعون ليكون لهم عدوا وحزنا  إن فرعون وهـمـن وجنودهما كانوا خـطـٔين",
     "transliteration": "fal-taqaṭahu ālu fir'ʿawna liyakūna lahum ʿaduwwan waḥazanan inna fir'ʿawna wahāmāna wajunūdahumā kānū khāṭiīna",
-    "translation": "",
+    "translation": "And the family of Pharaoh picked him up [out of the river] so that he would become to them an enemy and a [cause of] grief. Indeed, Pharaoh and Hāmān and their soldiers were deliberate sinners.",
     "words": [
       {
         "id": "al-qasas-8-1",
@@ -742,7 +749,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La famille de Pharaon le recueillit alors, pour qu’il devienne pour eux un ennemi et une cause de malheur. Pharaon, Hâmân et leurs armées étaient dans l’erreur."
   },
   {
     "id": "al-qasas-9",
@@ -751,7 +759,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَتِ ٱمْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّى وَلَكَ ۖ لَا تَقْتُلُوهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "وقالت ٱمرأت فرعون قرت عين لى ولك  لا تقتلوه عسىٓ أن ينفعنآ أو نتخذه ولدا وهم لا يشعرون",
     "transliteration": "waqālati im'ra-atu fir'ʿawna qurratu ʿaynin lī walaka lā taqtulūhu ʿasā an yanfaʿanā aw nattakhidhahu waladan wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "And the wife of Pharaoh said, \"[He will be] a comfort of the eye [i.e., pleasure] for me and for you. Do not kill him; perhaps he may benefit us, or we may adopt him as a son.\" And they perceived not.",
     "words": [
       {
         "id": "al-qasas-9-1",
@@ -880,7 +888,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La femme de Pharaon dit : « Ce sera la joie de mes yeux et des tiens. Ne le tuez pas. Il nous sera peut-être utile, ou alors nous le prendrons comme notre fils! » Et ils ne pouvaient (encore) rien sentir."
   },
   {
     "id": "al-qasas-10",
@@ -889,7 +898,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ فَـٰرِغًا ۖ إِن كَادَتْ لَتُبْدِى بِهِۦ لَوْلَآ أَن رَّبَطْنَا عَلَىٰ قَلْبِهَا لِتَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "وأصبح فؤاد أم موسى فـرغا  إن كادت لتبدى به لولآ أن ربطنا على قلبها لتكون من ٱلمؤمنين",
     "transliteration": "wa-aṣbaḥa fuādu ummi mūsā fārighan in kādat latub'dī bihi lawlā an rabaṭnā ʿalā qalbihā litakūna mina l-mu'minīna",
-    "translation": "",
+    "translation": "And the heart of Moses' mother became empty [of all else]. She was about to disclose [the matter concerning] him had We not bound fast her heart that she would be of the believers.",
     "words": [
       {
         "id": "al-qasas-10-1",
@@ -1011,7 +1020,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le cœur de la mère de Moïse fut envahi d’un grand vide et elle faillit tout révéler, mais Nous affermîmes son courage pour qu’elle fût du nombre des croyants."
   },
   {
     "id": "al-qasas-11",
@@ -1020,7 +1030,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَتْ لِأُخْتِهِۦ قُصِّيهِ ۖ فَبَصُرَتْ بِهِۦ عَن جُنُبٍ وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "وقالت لأخته قصيه  فبصرت به عن جنب وهم لا يشعرون",
     "transliteration": "waqālat li-ukh'tihi quṣṣīhi fabaṣurat bihi ʿan junubin wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "And she said to his sister, \"Follow him\"; so she watched him from a distance while they perceived not.",
     "words": [
       {
         "id": "al-qasas-11-1",
@@ -1093,7 +1103,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle dit à sa sœur : « Va à sa suite. » Elle l’apercevait alors de loin et sans qu’ils aient pu sentir (sa présence)."
   },
   {
     "id": "al-qasas-12",
@@ -1102,7 +1113,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ نَـٰصِحُونَ",
     "textSimple": " وحرمنا عليه ٱلمراضع من قبل فقالت هل أدلكم علىٓ أهل بيت يكفلونه لكم وهم له نـصحون",
     "transliteration": "waḥarramnā ʿalayhi l-marāḍiʿa min qablu faqālat hal adullukum ʿalā ahli baytin yakfulūnahu lakum wahum lahu nāṣiḥūna",
-    "translation": "",
+    "translation": "And We had prevented from him [all] wet nurses before, so she said, \"Shall I direct you to a household that will be responsible for him for you while they are to him [for his upbringing] sincere?\"",
     "words": [
       {
         "id": "al-qasas-12-1",
@@ -1217,7 +1228,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or, Nous avions déjà défendu qu’il fût allaité d’un autre sein (que celui de sa mère). (Sa sœur) dit : « Voulez-vous que je vous indique une famille qui le prendra en charge à votre place et qui saura bien le traiter ? »"
   },
   {
     "id": "al-qasas-13",
@@ -1226,7 +1238,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَرَدَدْنَـٰهُ إِلَىٰٓ أُمِّهِۦ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ وَلِتَعْلَمَ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "فرددنـه إلىٓ أمه كى تقر عينها ولا تحزن ولتعلم أن وعد ٱلله حق ولـكن أكثرهم لا يعلمون",
     "transliteration": "faradadnāhu ilā ummihi kay taqarra ʿaynuhā walā taḥzana walitaʿlama anna waʿda l-lahi ḥaqqun walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "So We restored him to his mother that she might be content and not grieve and that she would know that the promise of Allāh is true. But most of them [i.e., the people] do not know.",
     "words": [
       {
         "id": "al-qasas-13-1",
@@ -1348,7 +1360,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le rendîmes alors à sa mère pour qu’elle retrouvât la joie, ne s’affligeât point et se rendît compte que la promesse d’Allah est vérité. La plupart d’entre eux, cependant, ne le savent pas."
   },
   {
     "id": "al-qasas-14",
@@ -1357,7 +1370,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا بَلَغَ أَشُدَّهُۥ وَٱسْتَوَىٰٓ ءَاتَيْنَـٰهُ حُكْمًا وَعِلْمًا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "ولما بلغ أشده وٱستوىٓ ءاتينـه حكما وعلما  وكذلك نجزى ٱلمحسنين",
     "transliteration": "walammā balagha ashuddahu wa-is'tawā ātaynāhu ḥuk'man waʿil'man wakadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And when he attained his full strength and was [mentally] mature, We bestowed upon him judgement and knowledge. And thus do We reward the doers of good.",
     "words": [
       {
         "id": "al-qasas-14-1",
@@ -1430,7 +1443,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il eut atteint la maturité et fut dans la force de l’âge, Nous lui donnâmes la sagesse et la science. C’est ainsi que Nous récompensons les bienfaiteurs."
   },
   {
     "id": "al-qasas-15",
@@ -1439,7 +1453,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَـٰذَا مِن شِيعَتِهِۦ وَهَـٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَـٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَـٰذَا مِنْ عَمَلِ ٱلشَّيْطَـٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
     "textSimple": "ودخل ٱلمدينة على حين غفلة من أهلها فوجد فيها رجلين يقتتلان هـذا من شيعته وهـذا من عدوه  فٱستغـثه ٱلذى من شيعته على ٱلذى من عدوه فوكزه موسى فقضى عليه  قال هـذا من عمل ٱلشيطـن  إنه عدو مضل مبين",
     "transliteration": "wadakhala l-madīnata ʿalā ḥīni ghaflatin min ahlihā fawajada fīhā rajulayni yaqtatilāni hādhā min shīʿatihi wahādhā min ʿaduwwihi fa-is'taghāthahu alladhī min shīʿatihi ʿalā alladhī min ʿaduwwihi fawakazahu mūsā faqaḍā ʿalayhi qāla hādhā min ʿamali l-shayṭāni innahu ʿaduwwun muḍillun mubīnun",
-    "translation": "",
+    "translation": "And he entered the city at a time of inattention by its people and found therein two men fighting: one from his faction and one from among his enemy. And the one from his faction called for help to him against the one from his enemy, so Moses struck him and [unintentionally] killed him. [Moses] said, \"This is from the work of Satan. Indeed, he is a manifest, misleading enemy.\"",
     "words": [
       {
         "id": "al-qasas-15-1",
@@ -1708,7 +1722,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il entra un jour dans la ville, à l’insu des ses habitants, et y surprit deux hommes qui se battaient. L’un était de sa communauté, et l’autre du clan ennemi. Celui qui était de sa communauté l’appela à son secours contre son ennemi. Moïse donna à ce dernier un coup de poing et le tua. « C’est certainement une œuvre de Satan, dit-il, c’est un ennemi qui égare (les hommes) d’une façon évidente. »"
   },
   {
     "id": "al-qasas-16",
@@ -1717,7 +1732,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
     "textSimple": "قال رب إنى ظلمت نفسى فٱغفر لى فغفر لهٓ  إنه هو ٱلغفور ٱلرحيم",
     "transliteration": "qāla rabbi innī ẓalamtu nafsī fa-igh'fir lī faghafara lahu innahu huwa l-ghafūru l-raḥīmu",
-    "translation": "",
+    "translation": "He said, \"My Lord, indeed I have wronged myself, so forgive me,\" and He forgave him. Indeed, He is the Forgiving, the Merciful.",
     "words": [
       {
         "id": "al-qasas-16-1",
@@ -1811,7 +1826,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ajouta : « Seigneur, je me suis lésé moi-même, veuille me pardonner. » Et Il lui pardonna. Car Il est l’Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "al-qasas-17",
@@ -1820,7 +1836,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ بِمَآ أَنْعَمْتَ عَلَىَّ فَلَنْ أَكُونَ ظَهِيرًا لِّلْمُجْرِمِينَ",
     "textSimple": "قال رب بمآ أنعمت على فلن أكون ظهيرا للمجرمين",
     "transliteration": "qāla rabbi bimā anʿamta ʿalayya falan akūna ẓahīran lil'muj'rimīna",
-    "translation": "",
+    "translation": "He said, \"My Lord, for the favor You bestowed upon me, I will never be an assistant to the criminals.\"",
     "words": [
       {
         "id": "al-qasas-17-1",
@@ -1886,7 +1902,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit encore : « Seigneur ! Par les grâces dont Tu m’as comblé, jamais je ne serai l’allié des criminels. »"
   },
   {
     "id": "al-qasas-18",
@@ -1895,7 +1912,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ يَسْتَصْرِخُهُۥ ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ لَغَوِىٌّ مُّبِينٌ",
     "textSimple": "فأصبح فى ٱلمدينة خآئفا يترقب فإذا ٱلذى ٱستنصره بٱلأمس يستصرخه  قال له موسىٓ إنك لغوى مبين",
     "transliteration": "fa-aṣbaḥa fī l-madīnati khāifan yataraqqabu fa-idhā alladhī is'tanṣarahu bil-amsi yastaṣrikhuhu qāla lahu mūsā innaka laghawiyyun mubīnun",
-    "translation": "",
+    "translation": "And he became inside the city fearful and anticipating [exposure], when suddenly the one who sought his help the previous day cried out to him [once again]. Moses said to him, \"Indeed, you are an evident, [persistent] deviator.\"",
     "words": [
       {
         "id": "al-qasas-18-1",
@@ -2010,7 +2027,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le lendemain, au petit jour, il était dans la ville, apeuré et regardant autour de lui, lorsque celui qui, la veille, l’avait appelé à son secours demanda son aide à grands cris. Moïse lui dit alors : « Tu es un égaré manifeste ! »"
   },
   {
     "id": "al-qasas-19",
@@ -2019,7 +2037,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَنْ أَرَادَ أَن يَبْطِشَ بِٱلَّذِى هُوَ عَدُوٌّ لَّهُمَا قَالَ يَـٰمُوسَىٰٓ أَتُرِيدُ أَن تَقْتُلَنِى كَمَا قَتَلْتَ نَفْسًۢا بِٱلْأَمْسِ ۖ إِن تُرِيدُ إِلَّآ أَن تَكُونَ جَبَّارًا فِى ٱلْأَرْضِ وَمَا تُرِيدُ أَن تَكُونَ مِنَ ٱلْمُصْلِحِينَ",
     "textSimple": "فلمآ أن أراد أن يبطش بٱلذى هو عدو لهما قال يـموسىٓ أتريد أن تقتلنى كما قتلت نفسا بٱلأمس  إن تريد إلآ أن تكون جبارا فى ٱلأرض وما تريد أن تكون من ٱلمصلحين",
     "transliteration": "falammā an arāda an yabṭisha bi-alladhī huwa ʿaduwwun lahumā qāla yāmūsā aturīdu an taqtulanī kamā qatalta nafsan bil-amsi in turīdu illā an takūna jabbāran fī l-arḍi wamā turīdu an takūna mina l-muṣ'liḥīna",
-    "translation": "",
+    "translation": "And when he wanted to strike the one who was an enemy to both of them, he said, \"O Moses, do you intend to kill me as you killed someone yesterday? You only want to be a tyrant in the land and do not want to be of the amenders.\"",
     "words": [
       {
         "id": "al-qasas-19-1",
@@ -2246,7 +2264,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il voulut s’attaquer à leur ennemi commun, il lui fut dit : « Ô Moïse, veux-tu donc me tuer comme tu as déjà tué un homme hier ? Tu ne veux être, décidément, qu’un tyran sur terre, et tu ne souhaites manifestement pas être parmi les hommes de bien. »"
   },
   {
     "id": "al-qasas-20",
@@ -2255,7 +2274,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ رَجُلٌ مِّنْ أَقْصَا ٱلْمَدِينَةِ يَسْعَىٰ قَالَ يَـٰمُوسَىٰٓ إِنَّ ٱلْمَلَأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّى لَكَ مِنَ ٱلنَّـٰصِحِينَ",
     "textSimple": "وجآء رجل من أقصا ٱلمدينة يسعى قال يـموسىٓ إن ٱلملأ يأتمرون بك ليقتلوك فٱخرج إنى لك من ٱلنـصحين",
     "transliteration": "wajāa rajulun min aqṣā l-madīnati yasʿā qāla yāmūsā inna l-mala-a yatamirūna bika liyaqtulūka fa-ukh'ruj innī laka mina l-nāṣiḥīna",
-    "translation": "",
+    "translation": "And a man came from the farthest end of the city, running. He said, \"O Moses, indeed the eminent ones are conferring over you [intending] to kill you, so leave [the city]; indeed, I am to you of the sincere advisors.\"",
     "words": [
       {
         "id": "al-qasas-20-1",
@@ -2384,7 +2403,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un homme vint en courant de l’autre bout de la ville : «Ô Moïse, dit-il, l’assemblée des notables est en train de délibérer à ton sujet et projette de te mettre à mort. Sors donc (de la ville), je te le conseille sincèrement ! »"
   },
   {
     "id": "al-qasas-21",
@@ -2393,7 +2413,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَخَرَجَ مِنْهَا خَآئِفًا يَتَرَقَّبُ ۖ قَالَ رَبِّ نَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "فخرج منها خآئفا يترقب  قال رب نجنى من ٱلقوم ٱلظـلمين",
     "transliteration": "fakharaja min'hā khāifan yataraqqabu qāla rabbi najjinī mina l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "So he left it, fearful and anticipating [apprehension]. He said, \"My Lord, save me from the wrongdoing people.\"",
     "words": [
       {
         "id": "al-qasas-21-1",
@@ -2466,7 +2486,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il quitta la ville alors, (tremblant) de peur et toujours sur ses gardes. « Seigneur, dit-il, sauve-moi des gens injustes. »"
   },
   {
     "id": "al-qasas-22",
@@ -2475,7 +2496,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا تَوَجَّهَ تِلْقَآءَ مَدْيَنَ قَالَ عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ",
     "textSimple": "ولما توجه تلقآء مدين قال عسى ربىٓ أن يهدينى سوآء ٱلسبيل",
     "transliteration": "walammā tawajjaha til'qāa madyana qāla ʿasā rabbī an yahdiyanī sawāa l-sabīli",
-    "translation": "",
+    "translation": "And when he directed himself toward Madyan, he said, \"Perhaps my Lord will guide me to the sound way.\"",
     "words": [
       {
         "id": "al-qasas-22-1",
@@ -2555,7 +2576,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Se dirigeant vers Madyan, il dit : « Puisse mon Seigneur m’engager sur la bonne voie. »"
   },
   {
     "id": "al-qasas-23",
@@ -2564,7 +2586,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
     "textSimple": "ولما ورد مآء مدين وجد عليه أمة من ٱلناس يسقون ووجد من دونهم ٱمرأتين تذودان  قال ما خطبكما  قالتا لا نسقى حتى يصدر ٱلرعآء  وأبونا شيخ كبير",
     "transliteration": "walammā warada māa madyana wajada ʿalayhi ummatan mina l-nāsi yasqūna wawajada min dūnihimu im'ra-atayni tadhūdāni qāla mā khaṭbukumā qālatā lā nasqī ḥattā yuṣ'dira l-riʿāu wa-abūnā shaykhun kabīrun",
-    "translation": "",
+    "translation": "And when he came to the water [i.e., well] of Madyan, he found there a crowd of people watering [their flocks], and he found aside from them two women holding back [their flocks]. He said, \"What is your circumstance?\" They said, \"We do not water until the shepherds dispatch [their flocks]; and our father is an old man.\"",
     "words": [
       {
         "id": "al-qasas-23-1",
@@ -2756,7 +2778,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il arriva au point d’eau de Madyan, où il trouva une foule de gens qui faisaient boire (leur bétail). Il vit aussi deux femmes qui, un peu plus loin, retenaient (leurs bêtes). « Qu’avez-vous donc ? » leur demanda Moïse. « Nous ne pourrons faire boire (nos bêtes) que lorsque les bergers seront partis, répondirent-elles ; car notre père est un homme très âgé. »"
   },
   {
     "id": "al-qasas-24",
@@ -2765,7 +2788,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ",
     "textSimple": "فسقى لهما ثم تولىٓ إلى ٱلظل فقال رب إنى لمآ أنزلت إلى من خير فقير",
     "transliteration": "fasaqā lahumā thumma tawallā ilā l-ẓili faqāla rabbi innī limā anzalta ilayya min khayrin faqīrun",
-    "translation": "",
+    "translation": "So he watered [their flocks] for them; then he went back to the shade and said, \"My Lord, indeed I am, for whatever good You would send down to me, in need.\"",
     "words": [
       {
         "id": "al-qasas-24-1",
@@ -2873,7 +2896,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il abreuva donc (les bêtes) à leur place, puis alla se mettre à l’ombre en disant : « Seigneur, j’ai grandement besoin de ce que Tu daigneras m’envoyer comme bien. »"
   },
   {
     "id": "al-qasas-25",
@@ -2882,7 +2906,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "فجآءته إحدىهما تمشى على ٱستحيآء قالت إن أبى يدعوك ليجزيك أجر ما سقيت لنا  فلما جآءه وقص عليه ٱلقصص قال لا تخف  نجوت من ٱلقوم ٱلظـلمين",
     "transliteration": "fajāathu iḥ'dāhumā tamshī ʿalā is'tiḥ'yāin qālat inna abī yadʿūka liyajziyaka ajra mā saqayta lanā falammā jāahu waqaṣṣa ʿalayhi l-qaṣaṣa qāla lā takhaf najawta mina l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "Then one of the two women came to him walking with shyness. She said, \"Indeed, my father invites you that he may reward you for having watered for us.\" So when he came to him and related to him the story, he said, \"Fear not. You have escaped from the wrongdoing people.\"",
     "words": [
       {
         "id": "al-qasas-25-1",
@@ -3067,7 +3091,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "D’un pas timide, l’une des deux (jeunes femmes) vint alors vers lui en disant: « Mon père voudrait t’inviter pour te remercier d’avoir abreuvé (les bêtes) à notre place. » Or, quand il alla le voir et lui raconta son histoire, (le père des deux jeunes femmes) lui dit : « N’aie aucune crainte, te voilà sauvé d’un peuple d’injustes. »"
   },
   {
     "id": "al-qasas-26",
@@ -3076,7 +3101,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ إِحْدَىٰهُمَا يَـٰٓأَبَتِ ٱسْتَـْٔجِرْهُ ۖ إِنَّ خَيْرَ مَنِ ٱسْتَـْٔجَرْتَ ٱلْقَوِىُّ ٱلْأَمِينُ",
     "textSimple": "قالت إحدىهما يـٓأبت ٱستـٔجره  إن خير من ٱستـٔجرت ٱلقوى ٱلأمين",
     "transliteration": "qālat iḥ'dāhumā yāabati is'tajir'hu inna khayra mani is'tajarta l-qawiyu l-amīnu",
-    "translation": "",
+    "translation": "One of the women said, \"O my father, hire him. Indeed, the best one you can hire is the strong and the trustworthy.\"",
     "words": [
       {
         "id": "al-qasas-26-1",
@@ -3149,7 +3174,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Père, prends-le à ton service, dit l’une des deux (jeunes) femmes, car il n’est pas meilleur homme à engager que celui qui est fort et honnête. »"
   },
   {
     "id": "al-qasas-27",
@@ -3158,7 +3184,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَـٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَـٰنِىَ حِجَجٍ ۖ فَإِنْ أَتْمَمْتَ عَشْرًا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "قال إنىٓ أريد أن أنكحك إحدى ٱبنتى هـتين علىٓ أن تأجرنى ثمـنى حجج  فإن أتممت عشرا فمن عندك  ومآ أريد أن أشق عليك  ستجدنىٓ إن شآء ٱلله من ٱلصـلحين",
     "transliteration": "qāla innī urīdu an unkiḥaka iḥ'dā ib'natayya hātayni ʿalā an tajuranī thamāniya ḥijajin fa-in atmamta ʿashran famin ʿindika wamā urīdu an ashuqqa ʿalayka satajidunī in shāa l-lahu mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "He said, \"Indeed, I wish to wed you one of these, my two daughters, on [the condition] that you serve me for eight years; but if you complete ten, it will be [as a favor] from you. And I do not wish to put you in difficulty. You will find me, if Allāh wills, from among the righteous.\"",
     "words": [
       {
         "id": "al-qasas-27-1",
@@ -3364,7 +3390,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit alors (à l’adresse de Moïse) : «Je voudrais te donner en mariage l’une de mes deux filles que tu vois là, à condition que tu travailles pour moi pendant huit ans. Si tu veux aller jusqu’à en achever dix, ce sera par ta propre volonté. Je ne veux rien t’imposer de pénible, et tu trouveras en moi, si Allah le veut, un homme de vertu. »"
   },
   {
     "id": "al-qasas-28",
@@ -3373,7 +3400,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ذَٰلِكَ بَيْنِى وَبَيْنَكَ ۖ أَيَّمَا ٱلْأَجَلَيْنِ قَضَيْتُ فَلَا عُدْوَٰنَ عَلَىَّ ۖ وَٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌ",
     "textSimple": "قال ذلك بينى وبينك  أيما ٱلأجلين قضيت فلا عدون على  وٱلله على ما نقول وكيل",
     "transliteration": "qāla dhālika baynī wabaynaka ayyamā l-ajalayni qaḍaytu falā ʿud'wāna ʿalayya wal-lahu ʿalā mā naqūlu wakīlun",
-    "translation": "",
+    "translation": "[Moses] said, \"That is [established] between me and you. Whichever of the two terms I complete - there is no injustice to me, and Allāh, over what we say, is Witness.\"",
     "words": [
       {
         "id": "al-qasas-28-1",
@@ -3481,7 +3508,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est entendu entre toi et moi, fit (Moïse). Qu’il s’agisse de l’une ou de l’autre échéance que j’aurais passée, aucun reproche ne pourra m’être fait. Allah est Garant de ce que nous disons. »"
   },
   {
     "id": "al-qasas-29",
@@ -3490,7 +3518,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَلَمَّا قَضَىٰ مُوسَى ٱلْأَجَلَ وَسَارَ بِأَهْلِهِۦٓ ءَانَسَ مِن جَانِبِ ٱلطُّورِ نَارًا قَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ جَذْوَةٍ مِّنَ ٱلنَّارِ لَعَلَّكُمْ تَصْطَلُونَ",
     "textSimple": " فلما قضى موسى ٱلأجل وسار بأهلهٓ ءانس من جانب ٱلطور نارا قال لأهله ٱمكثوٓا إنىٓ ءانست نارا لعلىٓ ءاتيكم منها بخبر أو جذوة من ٱلنار لعلكم تصطلون",
     "transliteration": "falammā qaḍā mūsā l-ajala wasāra bi-ahlihi ānasa min jānibi l-ṭūri nāran qāla li-ahlihi um'kuthū innī ānastu nāran laʿallī ātīkum min'hā bikhabarin aw jadhwatin mina l-nāri laʿallakum taṣṭalūna",
-    "translation": "",
+    "translation": "And when Moses had completed the term and was traveling with his family, he perceived from the direction of the mount a fire. He said to his family, \"Stay here; indeed, I have perceived a fire. Perhaps I will bring you from there [some] information or burning wood from the fire that you may warm yourselves.\"",
     "words": [
       {
         "id": "al-qasas-29-1",
@@ -3682,7 +3710,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ayant passé la période convenue, Moïse prit le départ avec sa famille et aperçut un feu sur le flanc du Mont (Sinaï) « Attendez ici, dit-il, j’aperçois un feu au loin. Je pourrais peut-être vous en apporter quelque nouvelle ou un tison de quoi vous réchauffer. »"
   },
   {
     "id": "al-qasas-30",
@@ -3691,7 +3720,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَتَىٰهَا نُودِىَ مِن شَـٰطِئِ ٱلْوَادِ ٱلْأَيْمَنِ فِى ٱلْبُقْعَةِ ٱلْمُبَـٰرَكَةِ مِنَ ٱلشَّجَرَةِ أَن يَـٰمُوسَىٰٓ إِنِّىٓ أَنَا ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فلمآ أتىها نودى من شـطئ ٱلواد ٱلأيمن فى ٱلبقعة ٱلمبـركة من ٱلشجرة أن يـموسىٓ إنىٓ أنا ٱلله رب ٱلعـلمين",
     "transliteration": "falammā atāhā nūdiya min shāṭi-i l-wādi l-aymani fī l-buq'ʿati l-mubārakati mina l-shajarati an yāmūsā innī anā l-lahu rabbu l-ʿālamīna",
-    "translation": "",
+    "translation": "But when he came to it, he was called from the right side of the valley in a blessed spot - from the tree, \"O Moses, indeed I am Allāh, Lord of the worlds.\"",
     "words": [
       {
         "id": "al-qasas-30-1",
@@ -3827,7 +3856,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il fut arrivé (au feu), il fut appelé depuis le côté de la vallée qui se trouve à droite (du Mont) à l’endroit béni, du fond de l’arbre : « Ô Moïse, c’est Moi, Allah, le Seigneur de l’Univers."
   },
   {
     "id": "al-qasas-31",
@@ -3836,7 +3866,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنْ أَلْقِ عَصَاكَ ۖ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَـٰمُوسَىٰٓ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ ٱلْـَٔامِنِينَ",
     "textSimple": "وأن ألق عصاك  فلما رءاها تهتز كأنها جآن ولى مدبرا ولم يعقب  يـموسىٓ أقبل ولا تخف  إنك من ٱلـٔامنين",
     "transliteration": "wa-an alqi ʿaṣāka falammā raāhā tahtazzu ka-annahā jānnun wallā mud'biran walam yuʿaqqib yāmūsā aqbil walā takhaf innaka mina l-āminīna",
-    "translation": "",
+    "translation": "And [he was told], \"Throw down your staff.\" But when he saw it writhing as if it was a snake, he turned in flight and did not return. [Allāh said], \"O Moses, approach and fear not. Indeed, you are of the secure.",
     "words": [
       {
         "id": "al-qasas-31-1",
@@ -3972,7 +4002,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jette ton bâton. » Mais, lorsqu’il le vit se remuer tel un serpent, il tourna les talons et s’enfuit sans se retourner. « Ô Moïse, (reprit Allah), reviens, n’aie pas peur, tu es en sécurité."
   },
   {
     "id": "al-qasas-32",
@@ -3981,7 +4012,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "ٱسْلُكْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ وَٱضْمُمْ إِلَيْكَ جَنَاحَكَ مِنَ ٱلرَّهْبِ ۖ فَذَٰنِكَ بُرْهَـٰنَانِ مِن رَّبِّكَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ",
     "textSimple": "ٱسلك يدك فى جيبك تخرج بيضآء من غير سوٓء وٱضمم إليك جناحك من ٱلرهب  فذنك برهـنان من ربك إلى فرعون وملإيهٓ  إنهم كانوا قوما فـسقين",
     "transliteration": "us'luk yadaka fī jaybika takhruj bayḍāa min ghayri sūin wa-uḍ'mum ilayka janāḥaka mina l-rahbi fadhānika bur'hānāni min rabbika ilā fir'ʿawna wamala-ihi innahum kānū qawman fāsiqīna",
-    "translation": "",
+    "translation": "Insert your hand into the opening of your garment; it will come out white, without disease. And draw in your arm close to you [as prevention] from fear, for those are two proofs from your Lord to Pharaoh and his establishment. Indeed, they have been a people defiantly disobedient.\"",
     "words": [
       {
         "id": "al-qasas-32-1",
@@ -4159,7 +4190,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Introduis ta main dans la fente de ta tunique, elle en ressortira blanche et saine de toute maladie. Presse ton bras contre toi pour dissiper ta terreur. Voilà deux preuves de ton Seigneur adressées à Pharaon et à son assemblée de notables. Car ce sont certes des gens pervers. »"
   },
   {
     "id": "al-qasas-33",
@@ -4168,7 +4200,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنِّى قَتَلْتُ مِنْهُمْ نَفْسًا فَأَخَافُ أَن يَقْتُلُونِ",
     "textSimple": "قال رب إنى قتلت منهم نفسا فأخاف أن يقتلون",
     "transliteration": "qāla rabbi innī qataltu min'hum nafsan fa-akhāfu an yaqtulūni",
-    "translation": "",
+    "translation": "He said, \"My Lord, indeed I killed from among them someone, and I fear they will kill me.",
     "words": [
       {
         "id": "al-qasas-33-1",
@@ -4234,7 +4266,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit Moïse, j’ai tué l’un des leurs, et je crains qu’ils ne me tuent."
   },
   {
     "id": "al-qasas-34",
@@ -4243,7 +4276,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَخِى هَـٰرُونُ هُوَ أَفْصَحُ مِنِّى لِسَانًا فَأَرْسِلْهُ مَعِىَ رِدْءًا يُصَدِّقُنِىٓ ۖ إِنِّىٓ أَخَافُ أَن يُكَذِّبُونِ",
     "textSimple": "وأخى هـرون هو أفصح منى لسانا فأرسله معى ردءا يصدقنىٓ  إنىٓ أخاف أن يكذبون",
     "transliteration": "wa-akhī hārūnu huwa afṣaḥu minnī lisānan fa-arsil'hu maʿiya rid'an yuṣaddiqunī innī akhāfu an yukadhibūni",
-    "translation": "",
+    "translation": "And my brother Aaron is more fluent than me in tongue, so send him with me as support, verifying me. Indeed, I fear that they will deny me.\"",
     "words": [
       {
         "id": "al-qasas-34-1",
@@ -4344,7 +4377,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et puis mon frère Aaron a le verbe plus facile que moi. Envoie-le donc pour m’assister et confirmer mes propos, car je crains qu’ils ne m’accusent de mensonge. »"
   },
   {
     "id": "al-qasas-35",
@@ -4353,7 +4387,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ وَنَجْعَلُ لَكُمَا سُلْطَـٰنًا فَلَا يَصِلُونَ إِلَيْكُمَا ۚ بِـَٔايَـٰتِنَآ أَنتُمَا وَمَنِ ٱتَّبَعَكُمَا ٱلْغَـٰلِبُونَ",
     "textSimple": "قال سنشد عضدك بأخيك ونجعل لكما سلطـنا فلا يصلون إليكما  بـٔايـتنآ أنتما ومن ٱتبعكما ٱلغـلبون",
     "transliteration": "qāla sanashuddu ʿaḍudaka bi-akhīka wanajʿalu lakumā sul'ṭānan falā yaṣilūna ilaykumā biāyātinā antumā wamani ittabaʿakumā l-ghālibūna",
-    "translation": "",
+    "translation": "[Allāh] said, \"We will strengthen your arm through your brother and grant you both supremacy so they will not reach you. [It will be] through Our signs; you and those who follow you will be the predominant.\"",
     "words": [
       {
         "id": "al-qasas-35-1",
@@ -4461,7 +4495,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous ferons que ton frère te prête main forte, et Nous vous donnerons, à tous les deux, des arguments d’autorité et ils ne pourront vous atteindre. Grâce à Nos Signes, vous deux, ainsi que ceux qui vous suivront, serez les vainqueurs. »"
   },
   {
     "id": "al-qasas-36",
@@ -4470,7 +4505,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَهُم مُّوسَىٰ بِـَٔايَـٰتِنَا بَيِّنَـٰتٍ قَالُوا۟ مَا هَـٰذَآ إِلَّا سِحْرٌ مُّفْتَرًى وَمَا سَمِعْنَا بِهَـٰذَا فِىٓ ءَابَآئِنَا ٱلْأَوَّلِينَ",
     "textSimple": "فلما جآءهم موسى بـٔايـتنا بينـت قالوا ما هـذآ إلا سحر مفترى وما سمعنا بهـذا فىٓ ءابآئنا ٱلأولين",
     "transliteration": "falammā jāahum mūsā biāyātinā bayyinātin qālū mā hādhā illā siḥ'run muf'taran wamā samiʿ'nā bihādhā fī ābāinā l-awalīna",
-    "translation": "",
+    "translation": "But when Moses came to them with Our signs as clear evidences, they said, \"This is not except invented magic, and we have not heard of this [religion] among our forefathers.\"",
     "words": [
       {
         "id": "al-qasas-36-1",
@@ -4592,7 +4627,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque, nanti de Nos Signes évidents, Moïse comparut devant eux, ils dirent : « Ce n’est là que magie mise au point, et nous n’avons jamais entendu parler d’une telle chose chez nos premiers ancêtres ! »"
   },
   {
     "id": "al-qasas-37",
@@ -4601,7 +4637,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ مُوسَىٰ رَبِّىٓ أَعْلَمُ بِمَن جَآءَ بِٱلْهُدَىٰ مِنْ عِندِهِۦ وَمَن تَكُونُ لَهُۥ عَـٰقِبَةُ ٱلدَّارِ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّـٰلِمُونَ",
     "textSimple": "وقال موسى ربىٓ أعلم بمن جآء بٱلهدى من عنده ومن تكون له عـقبة ٱلدار  إنه لا يفلح ٱلظـلمون",
     "transliteration": "waqāla mūsā rabbī aʿlamu biman jāa bil-hudā min ʿindihi waman takūnu lahu ʿāqibatu l-dāri innahu lā yuf'liḥu l-ẓālimūna",
-    "translation": "",
+    "translation": "And Moses said, \"My Lord is more knowing [than we or you] of who has come with guidance from Him and to whom will be succession in the home. Indeed, wrongdoers do not succeed.\"",
     "words": [
       {
         "id": "al-qasas-37-1",
@@ -4730,7 +4766,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mon Seigneur, fit Moïse, est le Meilleur à Savoir qui, de Sa part, est venu avec la juste direction (hudâ), et qui connaîtra une fin heureuse. Les injustes, certes, ne réussiront point. »"
   },
   {
     "id": "al-qasas-38",
@@ -4739,7 +4776,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ فِرْعَوْنُ يَـٰٓأَيُّهَا ٱلْمَلَأُ مَا عَلِمْتُ لَكُم مِّنْ إِلَـٰهٍ غَيْرِى فَأَوْقِدْ لِى يَـٰهَـٰمَـٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًا لَّعَلِّىٓ أَطَّلِعُ إِلَىٰٓ إِلَـٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ مِنَ ٱلْكَـٰذِبِينَ",
     "textSimple": "وقال فرعون يـٓأيها ٱلملأ ما علمت لكم من إلـه غيرى فأوقد لى يـهـمـن على ٱلطين فٱجعل لى صرحا لعلىٓ أطلع إلىٓ إلـه موسى وإنى لأظنه من ٱلكـذبين",
     "transliteration": "waqāla fir'ʿawnu yāayyuhā l-mala-u mā ʿalim'tu lakum min ilāhin ghayrī fa-awqid lī yāhāmānu ʿalā l-ṭīni fa-ij'ʿal lī ṣarḥan laʿallī aṭṭaliʿu ilā ilāhi mūsā wa-innī la-aẓunnuhu mina l-kādhibīna",
-    "translation": "",
+    "translation": "And Pharaoh said, \"O eminent ones, I have not known you to have a god other than me. Then ignite for me, O Hāmān, [a fire] upon the clay and make for me a tower that I may look at the God of Moses. And indeed, I do think he is among the liars.\"",
     "words": [
       {
         "id": "al-qasas-38-1",
@@ -4931,7 +4968,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô vous, assemblée de notables, dit Pharaon, je ne sache point qu’il y ait, pour vous, une autre divinité que moi. Hâmân, fais donc cuire pour moi (des briques) d’argile, et fais bâtir pour moi une tour, peut-être alors pourrai-je monter jusqu’au Dieu de Moïse. Mais je crois plutôt qu’il est du nombre des menteurs. »"
   },
   {
     "id": "al-qasas-39",
@@ -4940,7 +4978,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَكْبَرَ هُوَ وَجُنُودُهُۥ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَظَنُّوٓا۟ أَنَّهُمْ إِلَيْنَا لَا يُرْجَعُونَ",
     "textSimple": "وٱستكبر هو وجنوده فى ٱلأرض بغير ٱلحق وظنوٓا أنهم إلينا لا يرجعون",
     "transliteration": "wa-is'takbara huwa wajunūduhu fī l-arḍi bighayri l-ḥaqi waẓannū annahum ilaynā lā yur'jaʿūna",
-    "translation": "",
+    "translation": "And he was arrogant, he and his soldiers, in the land, without right, and they thought that they would not be returned to Us.",
     "words": [
       {
         "id": "al-qasas-39-1",
@@ -5027,7 +5065,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lui et ses armées se montrèrent injustement hautains et dédaigneux sur terre, croyant qu’ils ne seraient point ramenés vers Nous."
   },
   {
     "id": "al-qasas-40",
@@ -5036,7 +5075,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذْنَـٰهُ وَجُنُودَهُۥ فَنَبَذْنَـٰهُمْ فِى ٱلْيَمِّ ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلظَّـٰلِمِينَ",
     "textSimple": "فأخذنـه وجنوده فنبذنـهم فى ٱليم  فٱنظر كيف كان عـقبة ٱلظـلمين",
     "transliteration": "fa-akhadhnāhu wajunūdahu fanabadhnāhum fī l-yami fa-unẓur kayfa kāna ʿāqibatu l-ẓālimīna",
-    "translation": "",
+    "translation": "So We took him and his soldiers and threw them into the sea. So see how was the end of the wrongdoers.",
     "words": [
       {
         "id": "al-qasas-40-1",
@@ -5109,7 +5148,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, Nous le saisîmes, lui et ses armées, et les précipitâmes dans les flots de la mer. Vois donc quel fut le sort des injustes !"
   },
   {
     "id": "al-qasas-41",
@@ -5118,7 +5158,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَـٰهُمْ أَئِمَّةً يَدْعُونَ إِلَى ٱلنَّارِ ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ لَا يُنصَرُونَ",
     "textSimple": "وجعلنـهم أئمة يدعون إلى ٱلنار  ويوم ٱلقيـمة لا ينصرون",
     "transliteration": "wajaʿalnāhum a-immatan yadʿūna ilā l-nāri wayawma l-qiyāmati lā yunṣarūna",
-    "translation": "",
+    "translation": "And We made them leaders inviting to the Fire, and on the Day of Resurrection they will not be helped.",
     "words": [
       {
         "id": "al-qasas-41-1",
@@ -5184,7 +5224,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes d’eux des chefs qui appellent (les hommes) vers le Feu. Au Jour de la Résurrection, ils n’auront point de secours."
   },
   {
     "id": "al-qasas-42",
@@ -5193,7 +5234,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَتْبَعْنَـٰهُمْ فِى هَـٰذِهِ ٱلدُّنْيَا لَعْنَةً ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ هُم مِّنَ ٱلْمَقْبُوحِينَ",
     "textSimple": "وأتبعنـهم فى هـذه ٱلدنيا لعنة  ويوم ٱلقيـمة هم من ٱلمقبوحين",
     "transliteration": "wa-atbaʿnāhum fī hādhihi l-dun'yā laʿnatan wayawma l-qiyāmati hum mina l-maqbūḥīna",
-    "translation": "",
+    "translation": "And We caused to overtake them in this world a curse, and on the Day of Resurrection they will be of the despised.",
     "words": [
       {
         "id": "al-qasas-42-1",
@@ -5266,7 +5307,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les fîmes poursuivre en ce bas monde de Notre malédiction, et au Jour de la Résurrection ils seront marqués d’infamie."
   },
   {
     "id": "al-qasas-43",
@@ -5275,7 +5317,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًى وَرَحْمَةً لَّعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب من بعد مآ أهلكنا ٱلقرون ٱلأولى بصآئر للناس وهدى ورحمة لعلهم يتذكرون",
     "transliteration": "walaqad ātaynā mūsā l-kitāba min baʿdi mā ahlaknā l-qurūna l-ūlā baṣāira lilnnāsi wahudan waraḥmatan laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "And We gave Moses the Scripture, after We had destroyed the former generations, as enlightenment for the people and guidance and mercy that they might be reminded.",
     "words": [
       {
         "id": "al-qasas-43-1",
@@ -5390,7 +5432,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons apporté à Moïse le Livre après avoir fait périr les premières générations, comme une lumière, un guide et une miséricorde pour les hommes. Peut-être sauront-ils y réfléchir."
   },
   {
     "id": "al-qasas-44",
@@ -5399,7 +5442,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كُنتَ بِجَانِبِ ٱلْغَرْبِىِّ إِذْ قَضَيْنَآ إِلَىٰ مُوسَى ٱلْأَمْرَ وَمَا كُنتَ مِنَ ٱلشَّـٰهِدِينَ",
     "textSimple": "وما كنت بجانب ٱلغربى إذ قضينآ إلى موسى ٱلأمر وما كنت من ٱلشـهدين",
     "transliteration": "wamā kunta bijānibi l-gharbiyi idh qaḍaynā ilā mūsā l-amra wamā kunta mina l-shāhidīna",
-    "translation": "",
+    "translation": "And you, [O Muḥammad], were not on the western side [of the mount] when We revealed to Moses the command, and you were not among the witnesses [to that].",
     "words": [
       {
         "id": "al-qasas-44-1",
@@ -5493,7 +5536,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’étais pas (ô Muhammad) sur le flanc ouest (du Mont), lorsque Nous dictâmes Notre ordre à Moïse, et tu n’en étais pas témoin."
   },
   {
     "id": "al-qasas-45",
@@ -5502,7 +5546,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَـٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِنَا وَلَـٰكِنَّا كُنَّا مُرْسِلِينَ",
     "textSimple": "ولـكنآ أنشأنا قرونا فتطاول عليهم ٱلعمر  وما كنت ثاويا فىٓ أهل مدين تتلوا عليهم ءايـتنا ولـكنا كنا مرسلين",
     "transliteration": "walākinnā anshanā qurūnan fataṭāwala ʿalayhimu l-ʿumuru wamā kunta thāwiyan fī ahli madyana tatlū ʿalayhim āyātinā walākinnā kunnā mur'silīna",
-    "translation": "",
+    "translation": "But We produced [many] generations [after Moses], and prolonged was their duration. And you were not a resident among the people of Madyan, reciting to them Our verses, but We were senders [of this message].",
     "words": [
       {
         "id": "al-qasas-45-1",
@@ -5631,7 +5675,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Nous fîmes naître par la suite des générations qui, avec le temps, (ont oublié les ordres d’Allah). Tu n’habitais pas parmi les gens de Madyan pour leur réciter Nos versets. Alors Nous devions envoyer des Messagers."
   },
   {
     "id": "al-qasas-46",
@@ -5640,7 +5685,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَـٰكِن رَّحْمَةً مِّن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّآ أَتَىٰهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": "وما كنت بجانب ٱلطور إذ نادينا ولـكن رحمة من ربك لتنذر قوما مآ أتىهم من نذير من قبلك لعلهم يتذكرون",
     "transliteration": "wamā kunta bijānibi l-ṭūri idh nādaynā walākin raḥmatan min rabbika litundhira qawman mā atāhum min nadhīrin min qablika laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "And you were not at the side of the mount when We called [Moses] but [were sent] as a mercy from your Lord to warn a people to whom no warner had come before you that they might be reminded.",
     "words": [
       {
         "id": "al-qasas-46-1",
@@ -5783,7 +5828,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’étais pas, non plus, sur le flanc du Mont quand Nous appelâmes (Moïse), mais (ces événements te sont révélés) par la grâce de ton Seigneur, pour avertir un peuple qui n’avait jamais connu d’avertisseur auparavant. Peut-être alors sauront-ils y réfléchir."
   },
   {
     "id": "al-qasas-47",
@@ -5792,7 +5838,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَآ أَن تُصِيبَهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَيَقُولُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ ءَايَـٰتِكَ وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "ولولآ أن تصيبهم مصيبة بما قدمت أيديهم فيقولوا ربنا لولآ أرسلت إلينا رسولا فنتبع ءايـتك ونكون من ٱلمؤمنين",
     "transliteration": "walawlā an tuṣībahum muṣībatun bimā qaddamat aydīhim fayaqūlū rabbanā lawlā arsalta ilaynā rasūlan fanattabiʿa āyātika wanakūna mina l-mu'minīna",
-    "translation": "",
+    "translation": "And if not that a disaster should strike them for what their hands put forth [of sins] and they would say, \"Our Lord, why did You not send us a messenger so we could have followed Your verses and been among the believers?\"...",
     "words": [
       {
         "id": "al-qasas-47-1",
@@ -5921,7 +5967,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sans cela, si un malheur les avait atteints, à cause de ce qu’ils avaient commis de leurs propres mains, ils auraient dit : « Seigneur ! Si seulement Tu nous avais envoyé un Messager ! Nous aurions alors suivi Tes Signes et nous aurions été du nombre des croyants ! »"
   },
   {
     "id": "al-qasas-48",
@@ -5930,7 +5977,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوا۟ لَوْلَآ أُوتِىَ مِثْلَ مَآ أُوتِىَ مُوسَىٰٓ ۚ أَوَلَمْ يَكْفُرُوا۟ بِمَآ أُوتِىَ مُوسَىٰ مِن قَبْلُ ۖ قَالُوا۟ سِحْرَانِ تَظَـٰهَرَا وَقَالُوٓا۟ إِنَّا بِكُلٍّ كَـٰفِرُونَ",
     "textSimple": "فلما جآءهم ٱلحق من عندنا قالوا لولآ أوتى مثل مآ أوتى موسىٓ  أولم يكفروا بمآ أوتى موسى من قبل  قالوا سحران تظـهرا وقالوٓا إنا بكل كـفرون",
     "transliteration": "falammā jāahumu l-ḥaqu min ʿindinā qālū lawlā ūtiya mith'la mā ūtiya mūsā awalam yakfurū bimā ūtiya mūsā min qablu qālū siḥ'rāni taẓāharā waqālū innā bikullin kāfirūna",
-    "translation": "",
+    "translation": "But when the truth came to them from Us, they said, \"Why was he not given like that which was given to Moses?\" Did they not disbelieve in that which was given to Moses before? They said, \"[They are but] two works of magic supporting each other, and indeed we are, in both, disbelievers.\"",
     "words": [
       {
         "id": "al-qasas-48-1",
@@ -6115,7 +6162,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais quand la vérité, venant de Nous, leur est parvenue, ils ont dit : « Si au moins il avait reçu ce qu’a reçu Moïse ! » Mais, n’ont-ils pas déjà renié ce qui a été donné à Moïse ? Ils ont dit alors : « Voilà deux magies complices ! » Et d’ajouter : « Nous ne croyons en aucune des deux. »"
   },
   {
     "id": "al-qasas-49",
@@ -6124,7 +6172,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ فَأْتُوا۟ بِكِتَـٰبٍ مِّنْ عِندِ ٱللَّهِ هُوَ أَهْدَىٰ مِنْهُمَآ أَتَّبِعْهُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "قل فأتوا بكتـب من عند ٱلله هو أهدى منهمآ أتبعه إن كنتم صـدقين",
     "transliteration": "qul fatū bikitābin min ʿindi l-lahi huwa ahdā min'humā attabiʿ'hu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Say, \"Then bring a scripture from Allāh which is more guiding than either of them that I may follow it, if you should be truthful.\"",
     "words": [
       {
         "id": "al-qasas-49-1",
@@ -6218,7 +6266,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Apportez donc un Livre émanant d’Allah, qui serve de meilleur guide que ces deux -là, et je le suivrai volontiers, s’il s’avère que vous êtes sincères. »"
   },
   {
     "id": "al-qasas-50",
@@ -6227,7 +6276,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن لَّمْ يَسْتَجِيبُوا۟ لَكَ فَٱعْلَمْ أَنَّمَا يَتَّبِعُونَ أَهْوَآءَهُمْ ۚ وَمَنْ أَضَلُّ مِمَّنِ ٱتَّبَعَ هَوَىٰهُ بِغَيْرِ هُدًى مِّنَ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "فإن لم يستجيبوا لك فٱعلم أنما يتبعون أهوآءهم  ومن أضل ممن ٱتبع هوىه بغير هدى من ٱلله  إن ٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "fa-in lam yastajībū laka fa-iʿ'lam annamā yattabiʿūna ahwāahum waman aḍallu mimmani ittabaʿa hawāhu bighayri hudan mina l-lahi inna l-laha lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "But if they do not respond to you - then know that they only follow their [own] desires. And who is more astray than one who follows his desire without guidance from Allāh? Indeed, Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "al-qasas-50-1",
@@ -6391,7 +6440,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils ne répondent pas à ton défi, sache alors qu’ils ne suivent que leurs passions. Est-il plus égaré, d’ailleurs, que celui qui suit ses passions sans se fonder sur une bonne direction (hudâ) venant d’Allah? Or Allah ne guide point les gens injustes."
   },
   {
     "id": "al-qasas-51",
@@ -6400,7 +6450,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَقَدْ وَصَّلْنَا لَهُمُ ٱلْقَوْلَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": " ولقد وصلنا لهم ٱلقول لعلهم يتذكرون",
     "transliteration": "walaqad waṣṣalnā lahumu l-qawla laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "And We have [repeatedly] conveyed to them the word [i.e., the Qur’ān] that they might be reminded.",
     "words": [
       {
         "id": "al-qasas-51-1",
@@ -6445,7 +6495,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons fait parvenir la Parole afin qu’ils se souviennent."
   },
   {
     "id": "al-qasas-52",
@@ -6454,7 +6505,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ مِن قَبْلِهِۦ هُم بِهِۦ يُؤْمِنُونَ",
     "textSimple": "ٱلذين ءاتينـهم ٱلكتـب من قبله هم به يؤمنون",
     "transliteration": "alladhīna ātaynāhumu l-kitāba min qablihi hum bihi yu'minūna",
-    "translation": "",
+    "translation": "Those to whom We gave the Scripture before it - they are believers in it.",
     "words": [
       {
         "id": "al-qasas-52-1",
@@ -6513,7 +6564,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux à qui Nous avons donné le Livre avant (le Coran), croient pourtant à celui-ci."
   },
   {
     "id": "al-qasas-53",
@@ -6522,7 +6574,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا يُتْلَىٰ عَلَيْهِمْ قَالُوٓا۟ ءَامَنَّا بِهِۦٓ إِنَّهُ ٱلْحَقُّ مِن رَّبِّنَآ إِنَّا كُنَّا مِن قَبْلِهِۦ مُسْلِمِينَ",
     "textSimple": "وإذا يتلى عليهم قالوٓا ءامنا بهٓ إنه ٱلحق من ربنآ إنا كنا من قبله مسلمين",
     "transliteration": "wa-idhā yut'lā ʿalayhim qālū āmannā bihi innahu l-ḥaqu min rabbinā innā kunnā min qablihi mus'limīna",
-    "translation": "",
+    "translation": "And when it is recited to them, they say, \"We have believed in it; indeed, it is the truth from our Lord. Indeed we were, [even] before it, Muslims [i.e., submitting to Allāh].\"",
     "words": [
       {
         "id": "al-qasas-53-1",
@@ -6630,7 +6682,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est récité, ils disent : « Nous y croyons. Il est la pure vérité venant de notre Seigneur. Dès avant sa venue, nous étions Musulmans. »"
   },
   {
     "id": "al-qasas-54",
@@ -6639,7 +6692,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ يُؤْتَوْنَ أَجْرَهُم مَّرَّتَيْنِ بِمَا صَبَرُوا۟ وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     "textSimple": "أولـٓئك يؤتون أجرهم مرتين بما صبروا ويدرءون بٱلحسنة ٱلسيئة ومما رزقنـهم ينفقون",
     "transliteration": "ulāika yu'tawna ajrahum marratayni bimā ṣabarū wayadraūna bil-ḥasanati l-sayi-ata wamimmā razaqnāhum yunfiqūna",
-    "translation": "",
+    "translation": "Those will be given their reward twice for what they patiently endured and [because] they avert evil through good, and from what We have provided them they spend.",
     "words": [
       {
         "id": "al-qasas-54-1",
@@ -6726,7 +6779,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là auront double récompense pour avoir été patients (à l’épreuve), pour avoir repoussé le mal par le bien et dépensé des biens que Nous leur avons dispensés."
   },
   {
     "id": "al-qasas-55",
@@ -6735,7 +6789,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا سَمِعُوا۟ ٱللَّغْوَ أَعْرَضُوا۟ عَنْهُ وَقَالُوا۟ لَنَآ أَعْمَـٰلُنَا وَلَكُمْ أَعْمَـٰلُكُمْ سَلَـٰمٌ عَلَيْكُمْ لَا نَبْتَغِى ٱلْجَـٰهِلِينَ",
     "textSimple": "وإذا سمعوا ٱللغو أعرضوا عنه وقالوا لنآ أعمـلنا ولكم أعمـلكم سلـم عليكم لا نبتغى ٱلجـهلين",
     "transliteration": "wa-idhā samiʿū l-laghwa aʿraḍū ʿanhu waqālū lanā aʿmālunā walakum aʿmālukum salāmun ʿalaykum lā nabtaghī l-jāhilīna",
-    "translation": "",
+    "translation": "And when they hear ill speech, they turn away from it and say, \"For us are our deeds, and for you are your deeds. Peace will be upon you; we seek not the ignorant.\"",
     "words": [
       {
         "id": "al-qasas-55-1",
@@ -6843,7 +6897,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils entendent de vains propos, ils s’en détournent en disant : « Nous avons nos œuvres et vous avez les vôtres. Que la paix soit sur vous ! Nous n’avons que faire des ignorants. »"
   },
   {
     "id": "al-qasas-56",
@@ -6852,7 +6907,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
     "textSimple": "إنك لا تهدى من أحببت ولـكن ٱلله يهدى من يشآء  وهو أعلم بٱلمهتدين",
     "transliteration": "innaka lā tahdī man aḥbabta walākinna l-laha yahdī man yashāu wahuwa aʿlamu bil-muh'tadīna",
-    "translation": "",
+    "translation": "Indeed, [O Muḥammad], you do not guide whom you like, but Allāh guides whom He wills. And He is most knowing of the [rightly] guided.",
     "words": [
       {
         "id": "al-qasas-56-1",
@@ -6946,7 +7001,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu ne sauras guider qui tu aimes, mais Allah guide qui Il veut. Il est le Meilleur à reconnaître ceux qui sont guidés vers la bonne direction."
   },
   {
     "id": "al-qasas-57",
@@ -6955,7 +7011,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ إِن نَّتَّبِعِ ٱلْهُدَىٰ مَعَكَ نُتَخَطَّفْ مِنْ أَرْضِنَآ ۚ أَوَلَمْ نُمَكِّن لَّهُمْ حَرَمًا ءَامِنًا يُجْبَىٰٓ إِلَيْهِ ثَمَرَٰتُ كُلِّ شَىْءٍ رِّزْقًا مِّن لَّدُنَّا وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "وقالوٓا إن نتبع ٱلهدى معك نتخطف من أرضنآ  أولم نمكن لهم حرما ءامنا يجبىٓ إليه ثمرت كل شىء رزقا من لدنا ولـكن أكثرهم لا يعلمون",
     "transliteration": "waqālū in nattabiʿi l-hudā maʿaka nutakhaṭṭaf min arḍinā awalam numakkin lahum ḥaraman āminan yuj'bā ilayhi thamarātu kulli shayin riz'qan min ladunnā walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "And they [i.e., the Quraysh] say, \"If we were to follow the guidance with you, we would be swept from our land.\" Have We not established for them a safe sanctuary to which are brought the fruits of all things as provision from Us? But most of them do not know.",
     "words": [
       {
         "id": "al-qasas-57-1",
@@ -7133,7 +7189,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Si nous suivons la bonne direction avec toi, nous serons chassés de notre terre. » Ne les avons-Nous pas fermement établis dans une enceinte sacrée et imprenable, vers laquelle sont acheminés, dons de Notre part, des fruits de toutes sortes ? La plupart d’entre eux, cependant, ne savent pas."
   },
   {
     "id": "al-qasas-58",
@@ -7142,7 +7199,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ أَهْلَكْنَا مِن قَرْيَةٍۭ بَطِرَتْ مَعِيشَتَهَا ۖ فَتِلْكَ مَسَـٰكِنُهُمْ لَمْ تُسْكَن مِّنۢ بَعْدِهِمْ إِلَّا قَلِيلًا ۖ وَكُنَّا نَحْنُ ٱلْوَٰرِثِينَ",
     "textSimple": "وكم أهلكنا من قرية بطرت معيشتها  فتلك مسـكنهم لم تسكن من بعدهم إلا قليلا  وكنا نحن ٱلورثين",
     "transliteration": "wakam ahlaknā min qaryatin baṭirat maʿīshatahā fatil'ka masākinuhum lam tus'kan min baʿdihim illā qalīlan wakunnā naḥnu l-wārithīna",
-    "translation": "",
+    "translation": "And how many a city have We destroyed that was insolent in its [way of] living, and those are their dwellings which have not been inhabited after them except briefly. And it is We who were the inheritors.",
     "words": [
       {
         "id": "al-qasas-58-1",
@@ -7264,7 +7321,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de cités ingrates avons-Nous fait périr, qui vivaient dans l’opulence ? Voilà leurs demeures qui, après eux, n’ont guère été habitées. C’est Nous Seul Qui en avons hérité."
   },
   {
     "id": "al-qasas-59",
@@ -7273,7 +7331,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ رَبُّكَ مُهْلِكَ ٱلْقُرَىٰ حَتَّىٰ يَبْعَثَ فِىٓ أُمِّهَا رَسُولًا يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِنَا ۚ وَمَا كُنَّا مُهْلِكِى ٱلْقُرَىٰٓ إِلَّا وَأَهْلُهَا ظَـٰلِمُونَ",
     "textSimple": "وما كان ربك مهلك ٱلقرى حتى يبعث فىٓ أمها رسولا يتلوا عليهم ءايـتنا  وما كنا مهلكى ٱلقرىٓ إلا وأهلها ظـلمون",
     "transliteration": "wamā kāna rabbuka muh'lika l-qurā ḥattā yabʿatha fī ummihā rasūlan yatlū ʿalayhim āyātinā wamā kunnā muh'likī l-qurā illā wa-ahluhā ẓālimūna",
-    "translation": "",
+    "translation": "And never would your Lord have destroyed the cities until He had sent to their mother [i.e., principal city] a messenger reciting to them Our verses. And We would not destroy the cities except while their people were wrongdoers.",
     "words": [
       {
         "id": "al-qasas-59-1",
@@ -7416,7 +7474,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur ne saurait anéantir des cités sans d’abord envoyer dans leur métropole un Messager pour y réciter Nos versets. Nous ne faisons périr les cités que si leurs habitants sont des injustes."
   },
   {
     "id": "al-qasas-60",
@@ -7425,7 +7484,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا وَزِينَتُهَا ۚ وَمَا عِندَ ٱللَّهِ خَيْرٌ وَأَبْقَىٰٓ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": "ومآ أوتيتم من شىء فمتـع ٱلحيوة ٱلدنيا وزينتها  وما عند ٱلله خير وأبقىٓ  أفلا تعقلون",
     "transliteration": "wamā ūtītum min shayin famatāʿu l-ḥayati l-dun'yā wazīnatuhā wamā ʿinda l-lahi khayrun wa-abqā afalā taʿqilūna",
-    "translation": "",
+    "translation": "And whatever thing you [people] have been given - it is [only for] the enjoyment of worldly life and its adornment. And what is with Allāh is better and more lasting; so will you not use reason?",
     "words": [
       {
         "id": "al-qasas-60-1",
@@ -7533,7 +7592,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui vous est donné n’est que jouissance passagère et vain apparat de ce bas monde. Mais ce que détient Allah est bien meilleur et plus durable. N’entendez-vous donc pas raison ?"
   },
   {
     "id": "al-qasas-61",
@@ -7542,7 +7602,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن وَعَدْنَـٰهُ وَعْدًا حَسَنًا فَهُوَ لَـٰقِيهِ كَمَن مَّتَّعْنَـٰهُ مَتَـٰعَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ثُمَّ هُوَ يَوْمَ ٱلْقِيَـٰمَةِ مِنَ ٱلْمُحْضَرِينَ",
     "textSimple": "أفمن وعدنـه وعدا حسنا فهو لـقيه كمن متعنـه متـع ٱلحيوة ٱلدنيا ثم هو يوم ٱلقيـمة من ٱلمحضرين",
     "transliteration": "afaman waʿadnāhu waʿdan ḥasanan fahuwa lāqīhi kaman mattaʿnāhu matāʿa l-ḥayati l-dun'yā thumma huwa yawma l-qiyāmati mina l-muḥ'ḍarīna",
-    "translation": "",
+    "translation": "Then is he whom We have promised a good promise which he will meet [i.e., obtain] like he for whom We provided enjoyment of worldly life [but] then he is, on the Day of Resurrection, among those presented [for punishment in Hell]?",
     "words": [
       {
         "id": "al-qasas-61-1",
@@ -7664,7 +7724,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui à qui Nous avons fait une belle promesse qu’il verra s’accomplir, est-il donc pareil à celui que Nous avons fait jouir des biens de ce bas monde mais qui, au Jour de la Résurrection, sera amené à comparaître (pour le châtiment) ?"
   },
   {
     "id": "al-qasas-62",
@@ -7673,7 +7734,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
     "textSimple": "ويوم يناديهم فيقول أين شركآءى ٱلذين كنتم تزعمون",
     "transliteration": "wayawma yunādīhim fayaqūlu ayna shurakāiya alladhīna kuntum tazʿumūna",
-    "translation": "",
+    "translation": "And [warn of] the Day He will call them and say, \"Where are My 'partners' which you used to claim?\"",
     "words": [
       {
         "id": "al-qasas-62-1",
@@ -7732,7 +7793,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour où Il les appellera pour leur dire : « Où sont donc les associés que vous prétendiez être les Miens ? »"
   },
   {
     "id": "al-qasas-63",
@@ -7741,7 +7803,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ رَبَّنَا هَـٰٓؤُلَآءِ ٱلَّذِينَ أَغْوَيْنَآ أَغْوَيْنَـٰهُمْ كَمَا غَوَيْنَا ۖ تَبَرَّأْنَآ إِلَيْكَ ۖ مَا كَانُوٓا۟ إِيَّانَا يَعْبُدُونَ",
     "textSimple": "قال ٱلذين حق عليهم ٱلقول ربنا هـٓؤلآء ٱلذين أغوينآ أغوينـهم كما غوينا  تبرأنآ إليك  ما كانوٓا إيانا يعبدون",
     "transliteration": "qāla alladhīna ḥaqqa ʿalayhimu l-qawlu rabbanā hāulāi alladhīna aghwaynā aghwaynāhum kamā ghawaynā tabarranā ilayka mā kānū iyyānā yaʿbudūna",
-    "translation": "",
+    "translation": "Those upon whom the word will have come into effect will say, \"Our Lord, these are the ones we led to error. We led them to error just as we were in error. We declare our disassociation [from them] to You. They did not used to worship [i.e., obey] us.\"",
     "words": [
       {
         "id": "al-qasas-63-1",
@@ -7870,7 +7932,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux contre qui le verdict sera prononcé diront alors : « Ce sont là, Seigneur, ceux que nous avons dévoyés. Nous les avons dévoyés comme nous l’avons été nous-mêmes. Nous les désavouons devant Toi. Ce n’était pas nous qu’ils adoraient. »"
   },
   {
     "id": "al-qasas-64",
@@ -7879,7 +7942,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلَ ٱدْعُوا۟ شُرَكَآءَكُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَرَأَوُا۟ ٱلْعَذَابَ ۚ لَوْ أَنَّهُمْ كَانُوا۟ يَهْتَدُونَ",
     "textSimple": "وقيل ٱدعوا شركآءكم فدعوهم فلم يستجيبوا لهم ورأوا ٱلعذاب  لو أنهم كانوا يهتدون",
     "transliteration": "waqīla id'ʿū shurakāakum fadaʿawhum falam yastajībū lahum wara-awū l-ʿadhāba law annahum kānū yahtadūna",
-    "translation": "",
+    "translation": "And it will be said, \"Invoke your 'partners,'\" and they will invoke them; but they will not respond to them, and they will see the punishment. If only they had followed guidance!",
     "words": [
       {
         "id": "al-qasas-64-1",
@@ -7973,7 +8036,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera dit : « Appelez donc ces associés (que vous prêtiez à Allah). » Or, quand ils les appelleront, ceux-ci ne leur répondront pas. Ils verront alors le supplice (et regretteront) de n’être pas allés vers le droit chemin !"
   },
   {
     "id": "al-qasas-65",
@@ -7982,7 +8046,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ مَاذَآ أَجَبْتُمُ ٱلْمُرْسَلِينَ",
     "textSimple": "ويوم يناديهم فيقول ماذآ أجبتم ٱلمرسلين",
     "transliteration": "wayawma yunādīhim fayaqūlu mādhā ajabtumu l-mur'salīna",
-    "translation": "",
+    "translation": "And [mention] the Day He will call them and say, \"What did you answer the messengers?\"",
     "words": [
       {
         "id": "al-qasas-65-1",
@@ -8027,7 +8091,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Jour où Il les appellera, Il leur dira : « Qu’avez-vous répondu aux Messagers ? »"
   },
   {
     "id": "al-qasas-66",
@@ -8036,7 +8101,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَعَمِيَتْ عَلَيْهِمُ ٱلْأَنۢبَآءُ يَوْمَئِذٍ فَهُمْ لَا يَتَسَآءَلُونَ",
     "textSimple": "فعميت عليهم ٱلأنبآء يومئذ فهم لا يتسآءلون",
     "transliteration": "faʿamiyat ʿalayhimu l-anbāu yawma-idhin fahum lā yatasāalūna",
-    "translation": "",
+    "translation": "But the information will be unapparent to them that Day, so they will not [be able to] ask one another.",
     "words": [
       {
         "id": "al-qasas-66-1",
@@ -8088,7 +8153,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs excuses, ce jour-là, leur paraîtront si confuses que nul ne se tournera vers l’autre (pour savoir quoi répondre)."
   },
   {
     "id": "al-qasas-67",
@@ -8097,7 +8163,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَـٰلِحًا فَعَسَىٰٓ أَن يَكُونَ مِنَ ٱلْمُفْلِحِينَ",
     "textSimple": "فأما من تاب وءامن وعمل صـلحا فعسىٓ أن يكون من ٱلمفلحين",
     "transliteration": "fa-ammā man tāba waāmana waʿamila ṣāliḥan faʿasā an yakūna mina l-muf'liḥīna",
-    "translation": "",
+    "translation": "But as for one who had repented, believed, and done righteousness, it is expected [i.e., promised by Allāh] that he will be among the successful.",
     "words": [
       {
         "id": "al-qasas-67-1",
@@ -8177,7 +8243,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui se sera repenti, aura cru et aura fait le bien, peut-être sera-t-il parmi les triomphants."
   },
   {
     "id": "al-qasas-68",
@@ -8186,7 +8253,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبُّكَ يَخْلُقُ مَا يَشَآءُ وَيَخْتَارُ ۗ مَا كَانَ لَهُمُ ٱلْخِيَرَةُ ۚ سُبْحَـٰنَ ٱللَّهِ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
     "textSimple": "وربك يخلق ما يشآء ويختار  ما كان لهم ٱلخيرة  سبحـن ٱلله وتعـلى عما يشركون",
     "transliteration": "warabbuka yakhluqu mā yashāu wayakhtāru mā kāna lahumu l-khiyaratu sub'ḥāna l-lahi wataʿālā ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "And your Lord creates what He wills and chooses; not for them was the choice. Exalted is Allāh and high above what they associate with Him.",
     "words": [
       {
         "id": "al-qasas-68-1",
@@ -8287,7 +8354,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur crée ce qu’Il veut et choisit. Car le choix ne leur revient pas. Gloire soit rendue à Allah, Qui est bien au-dessus de ce qu’ils Lui associent !"
   },
   {
     "id": "al-qasas-69",
@@ -8296,7 +8364,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبُّكَ يَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
     "textSimple": "وربك يعلم ما تكن صدورهم وما يعلنون",
     "transliteration": "warabbuka yaʿlamu mā tukinnu ṣudūruhum wamā yuʿ'linūna",
-    "translation": "",
+    "translation": "And your Lord knows what their breasts conceal and what they declare.",
     "words": [
       {
         "id": "al-qasas-69-1",
@@ -8348,7 +8416,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur Sait ce qu’ils cachent dans le secret du cœur et ce qu’ils révèlent (au grand jour)."
   },
   {
     "id": "al-qasas-70",
@@ -8357,7 +8426,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْحَمْدُ فِى ٱلْأُولَىٰ وَٱلْـَٔاخِرَةِ ۖ وَلَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "وهو ٱلله لآ إلـه إلا هو  له ٱلحمد فى ٱلأولى وٱلـٔاخرة  وله ٱلحكم وإليه ترجعون",
     "transliteration": "wahuwa l-lahu lā ilāha illā huwa lahu l-ḥamdu fī l-ūlā wal-ākhirati walahu l-ḥuk'mu wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "And He is Allāh; there is no deity except Him. To Him is [due all] praise in the first [life] and the Hereafter. And His is the [final] decision, and to Him you will be returned.",
     "words": [
       {
         "id": "al-qasas-70-1",
@@ -8465,7 +8534,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui, Allah. Point d’autre divinité que Lui. À Lui la louange en ce monde et dans l’autre. À Lui revient le Jugement et vers Lui vous serez ramenés."
   },
   {
     "id": "al-qasas-71",
@@ -8474,7 +8544,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلَّيْلَ سَرْمَدًا إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ مَنْ إِلَـٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِضِيَآءٍ ۖ أَفَلَا تَسْمَعُونَ",
     "textSimple": "قل أرءيتم إن جعل ٱلله عليكم ٱليل سرمدا إلى يوم ٱلقيـمة من إلـه غير ٱلله يأتيكم بضيآء  أفلا تسمعون",
     "transliteration": "qul ara-aytum in jaʿala l-lahu ʿalaykumu al-layla sarmadan ilā yawmi l-qiyāmati man ilāhun ghayru l-lahi yatīkum biḍiyāin afalā tasmaʿūna",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if Allāh should make for you the night continuous until the Day of Resurrection, what deity other than Allāh could bring you light? Then will you not hear?\"",
     "words": [
       {
         "id": "al-qasas-71-1",
@@ -8610,7 +8680,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Que diriez-vous si Allah faisait que votre nuit soit sans fin jusqu’au Jour de la Résurrection ? Quelle autre divinité que Lui pourrait vous donner la lumière ? N’entendez-vous donc pas ? »"
   },
   {
     "id": "al-qasas-72",
@@ -8619,7 +8690,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلنَّهَارَ سَرْمَدًا إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ مَنْ إِلَـٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِلَيْلٍ تَسْكُنُونَ فِيهِ ۖ أَفَلَا تُبْصِرُونَ",
     "textSimple": "قل أرءيتم إن جعل ٱلله عليكم ٱلنهار سرمدا إلى يوم ٱلقيـمة من إلـه غير ٱلله يأتيكم بليل تسكنون فيه  أفلا تبصرون",
     "transliteration": "qul ara-aytum in jaʿala l-lahu ʿalaykumu l-nahāra sarmadan ilā yawmi l-qiyāmati man ilāhun ghayru l-lahi yatīkum bilaylin taskunūna fīhi afalā tub'ṣirūna",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if Allāh should make for you the day continuous until the Day of Resurrection, what deity other than Allāh could bring you a night in which you may rest? Then will you not see?\"",
     "words": [
       {
         "id": "al-qasas-72-1",
@@ -8769,7 +8840,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Que diriez-vous si Allah faisait que votre jour soit sans fin jusqu’au Jour de la Résurrection ? Quelle autre divinité que Lui pourrait vous ramener la nuit pour vous reposer ? Ne voyez-vous donc pas ? »"
   },
   {
     "id": "al-qasas-73",
@@ -8778,7 +8850,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "ومن رحمته جعل لكم ٱليل وٱلنهار لتسكنوا فيه ولتبتغوا من فضله ولعلكم تشكرون",
     "transliteration": "wamin raḥmatihi jaʿala lakumu al-layla wal-nahāra litaskunū fīhi walitabtaghū min faḍlihi walaʿallakum tashkurūna",
-    "translation": "",
+    "translation": "And out of His mercy He made for you the night and the day that you may rest therein and [by day] seek from His bounty and [that] perhaps you will be grateful.",
     "words": [
       {
         "id": "al-qasas-73-1",
@@ -8872,7 +8944,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est par un effet de Sa grâce qu’Il a fait pour vous la nuit et le jour, (la nuit) pour que vous vous reposiez, et (le jour) pour que vous vous mettiez en quête de Ses faveurs. Peut-être Lui rendrez-vous grâces."
   },
   {
     "id": "al-qasas-74",
@@ -8881,7 +8954,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
     "textSimple": "ويوم يناديهم فيقول أين شركآءى ٱلذين كنتم تزعمون",
     "transliteration": "wayawma yunādīhim fayaqūlu ayna shurakāiya alladhīna kuntum tazʿumūna",
-    "translation": "",
+    "translation": "And [warn of] the Day He will call them and say, \"Where are My 'partners' which you used to claim?\"",
     "words": [
       {
         "id": "al-qasas-74-1",
@@ -8940,7 +9013,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Il les appellera, Il leur dira : « Où sont donc les associés que vous prétendiez être les Miens? »"
   },
   {
     "id": "al-qasas-75",
@@ -8949,7 +9023,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَنَزَعْنَا مِن كُلِّ أُمَّةٍ شَهِيدًا فَقُلْنَا هَاتُوا۟ بُرْهَـٰنَكُمْ فَعَلِمُوٓا۟ أَنَّ ٱلْحَقَّ لِلَّهِ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "ونزعنا من كل أمة شهيدا فقلنا هاتوا برهـنكم فعلموٓا أن ٱلحق لله وضل عنهم ما كانوا يفترون",
     "transliteration": "wanazaʿnā min kulli ummatin shahīdan faqul'nā hātū bur'hānakum faʿalimū anna l-ḥaqa lillahi waḍalla ʿanhum mā kānū yaftarūna",
-    "translation": "",
+    "translation": "And We will extract from every nation a witness and say, \"Produce your proof,\" and they will know that the truth belongs to Allāh, and lost from them is that which they used to invent.",
     "words": [
       {
         "id": "al-qasas-75-1",
@@ -9071,7 +9145,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous prendrons de chaque communauté un témoin, et dirons : « Apportez votre preuve ! » Mais ils sauront que la vérité ne relève que d’Allah et ce qu’ils avaient inventé (comme illusions) se sera alors dissipé."
   },
   {
     "id": "al-qasas-76",
@@ -9080,7 +9155,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ قَـٰرُونَ كَانَ مِن قَوْمِ مُوسَىٰ فَبَغَىٰ عَلَيْهِمْ ۖ وَءَاتَيْنَـٰهُ مِنَ ٱلْكُنُوزِ مَآ إِنَّ مَفَاتِحَهُۥ لَتَنُوٓأُ بِٱلْعُصْبَةِ أُو۟لِى ٱلْقُوَّةِ إِذْ قَالَ لَهُۥ قَوْمُهُۥ لَا تَفْرَحْ ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْفَرِحِينَ",
     "textSimple": " إن قـرون كان من قوم موسى فبغى عليهم  وءاتينـه من ٱلكنوز مآ إن مفاتحه لتنوٓأ بٱلعصبة أولى ٱلقوة إذ قال له قومه لا تفرح  إن ٱلله لا يحب ٱلفرحين",
     "transliteration": "inna qārūna kāna min qawmi mūsā fabaghā ʿalayhim waātaynāhu mina l-kunūzi mā inna mafātiḥahu latanūu bil-ʿuṣ'bati ulī l-quwati idh qāla lahu qawmuhu lā tafraḥ inna l-laha lā yuḥibbu l-fariḥīna",
-    "translation": "",
+    "translation": "Indeed, Qārūn was from the people of Moses, but he tyrannized them. And We gave him of treasures whose keys would burden a band of strong men; thereupon his people said to him, \"Do not exult. Indeed, Allāh does not like the exultant.",
     "words": [
       {
         "id": "al-qasas-76-1",
@@ -9286,7 +9361,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qârûn (Coré) était du peuple de Moïse. Mais il persécutait les siens, abusant de sa force. Les trésors que Nous lui avions donnés étaient si grands que leurs clés étaient lourdes à porter même pour un groupe d’hommes dotés d’une grande force. Son peuple lui dit alors : « Ne sois pas trop fier (de ce que tu as), car Allah n’aime pas les gens fiers. »"
   },
   {
     "id": "al-qasas-77",
@@ -9295,7 +9371,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱبْتَغِ فِيمَآ ءَاتَىٰكَ ٱللَّهُ ٱلدَّارَ ٱلْـَٔاخِرَةَ ۖ وَلَا تَنسَ نَصِيبَكَ مِنَ ٱلدُّنْيَا ۖ وَأَحْسِن كَمَآ أَحْسَنَ ٱللَّهُ إِلَيْكَ ۖ وَلَا تَبْغِ ٱلْفَسَادَ فِى ٱلْأَرْضِ ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
     "textSimple": "وٱبتغ فيمآ ءاتىك ٱلله ٱلدار ٱلـٔاخرة  ولا تنس نصيبك من ٱلدنيا  وأحسن كمآ أحسن ٱلله إليك  ولا تبغ ٱلفساد فى ٱلأرض  إن ٱلله لا يحب ٱلمفسدين",
     "transliteration": "wa-ib'taghi fīmā ātāka l-lahu l-dāra l-ākhirata walā tansa naṣībaka mina l-dun'yā wa-aḥsin kamā aḥsana l-lahu ilayka walā tabghi l-fasāda fī l-arḍi inna l-laha lā yuḥibbu l-muf'sidīna",
-    "translation": "",
+    "translation": "But seek, through that which Allāh has given you, the home of the Hereafter; and [yet], do not forget your share of the world. And do good as Allāh has done good to you. And desire not corruption in the land. Indeed, Allāh does not like corrupters.\"",
     "words": [
       {
         "id": "al-qasas-77-1",
@@ -9480,7 +9556,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Recherche plutôt, avec les biens qu’Allah t’a donnés, la Demeure Ultime. N’oublie cependant pas ta part en ce bas monde. Sois bienfaisant (envers autrui) comme Allah l’a été envers toi. Ne cherche pas le désordre sur terre, car Allah n’aime pas les semeurs de désordre."
   },
   {
     "id": "al-qasas-78",
@@ -9489,7 +9566,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ ۚ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةً وَأَكْثَرُ جَمْعًا ۚ وَلَا يُسْـَٔلُ عَن ذُنُوبِهِمُ ٱلْمُجْرِمُونَ",
     "textSimple": "قال إنمآ أوتيته على علم عندىٓ  أولم يعلم أن ٱلله قد أهلك من قبله من ٱلقرون من هو أشد منه قوة وأكثر جمعا  ولا يسـٔل عن ذنوبهم ٱلمجرمون",
     "transliteration": "qāla innamā ūtītuhu ʿalā ʿil'min ʿindī awalam yaʿlam anna l-laha qad ahlaka min qablihi mina l-qurūni man huwa ashaddu min'hu quwwatan wa-aktharu jamʿan walā yus'alu ʿan dhunūbihimu l-muj'rimūna",
-    "translation": "",
+    "translation": "He said, \"I was only given it because of knowledge I have.\" Did he not know that Allāh had destroyed before him of generations those who were greater than him in power and greater in accumulation [of wealth]? But the criminals, about their sins, will not be asked.",
     "words": [
       {
         "id": "al-qasas-78-1",
@@ -9688,7 +9765,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ce qui m’a été donné, fit Qârûn (Coré), je l’ai eu grâce à une science que je détiens ! » Mais, ne savait-il donc pas qu’Allah avait fait périr, avant lui, des générations encore plus puissantes et plus riches ? Mais les criminels ne seront (même) pas interrogés à propos de leurs péchés (avant d’être jetés en Enfer)."
   },
   {
     "id": "al-qasas-79",
@@ -9697,7 +9775,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَخَرَجَ عَلَىٰ قَوْمِهِۦ فِى زِينَتِهِۦ ۖ قَالَ ٱلَّذِينَ يُرِيدُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا يَـٰلَيْتَ لَنَا مِثْلَ مَآ أُوتِىَ قَـٰرُونُ إِنَّهُۥ لَذُو حَظٍّ عَظِيمٍ",
     "textSimple": "فخرج على قومه فى زينته  قال ٱلذين يريدون ٱلحيوة ٱلدنيا يـليت لنا مثل مآ أوتى قـرون إنه لذو حظ عظيم",
     "transliteration": "fakharaja ʿalā qawmihi fī zīnatihi qāla alladhīna yurīdūna l-ḥayata l-dun'yā yālayta lanā mith'la mā ūtiya qārūnu innahu ladhū ḥaẓẓin ʿaẓīmin",
-    "translation": "",
+    "translation": "So he came out before his people in his adornment. Those who desired the worldly life said, \"Oh, would that we had like what was given to Qārūn. Indeed, he is one of great fortune.\"",
     "words": [
       {
         "id": "al-qasas-79-1",
@@ -9840,7 +9918,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il sortit (un jour) devant son peuple, portant ses plus riches parures. Ceux dont la prédilection allait vers les biens de ce monde dirent alors : « Si seulement nous pouvions avoir (les mêmes richesses) que celles données à Qârûn (Coré) : il est certes immensément fortuné ! »"
   },
   {
     "id": "al-qasas-80",
@@ -9849,7 +9928,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ وَيْلَكُمْ ثَوَابُ ٱللَّهِ خَيْرٌ لِّمَنْ ءَامَنَ وَعَمِلَ صَـٰلِحًا وَلَا يُلَقَّىٰهَآ إِلَّا ٱلصَّـٰبِرُونَ",
     "textSimple": "وقال ٱلذين أوتوا ٱلعلم ويلكم ثواب ٱلله خير لمن ءامن وعمل صـلحا ولا يلقىهآ إلا ٱلصـبرون",
     "transliteration": "waqāla alladhīna ūtū l-ʿil'ma waylakum thawābu l-lahi khayrun liman āmana waʿamila ṣāliḥan walā yulaqqāhā illā l-ṣābirūna",
-    "translation": "",
+    "translation": "But those who had been given knowledge said, \"Woe to you! The reward of Allāh is better for he who believes and does righteousness. And none are granted it except the patient.\"",
     "words": [
       {
         "id": "al-qasas-80-1",
@@ -9964,7 +10043,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux, en revanche, qui détenaient le savoir dirent : « Malheur à vous ! La récompense d’Allah est bien meilleure pour celui qui a la foi et fait le bien. » Mais seuls la recevront ceux qui savent être patients."
   },
   {
     "id": "al-qasas-81",
@@ -9973,7 +10053,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "فَخَسَفْنَا بِهِۦ وَبِدَارِهِ ٱلْأَرْضَ فَمَا كَانَ لَهُۥ مِن فِئَةٍ يَنصُرُونَهُۥ مِن دُونِ ٱللَّهِ وَمَا كَانَ مِنَ ٱلْمُنتَصِرِينَ",
     "textSimple": "فخسفنا به وبداره ٱلأرض فما كان له من فئة ينصرونه من دون ٱلله وما كان من ٱلمنتصرين",
     "transliteration": "fakhasafnā bihi wabidārihi l-arḍa famā kāna lahu min fi-atin yanṣurūnahu min dūni l-lahi wamā kāna mina l-muntaṣirīna",
-    "translation": "",
+    "translation": "And We caused the earth to swallow him and his home. And there was for him no company to aid him other than Allāh, nor was he of those who [could] defend themselves.",
     "words": [
       {
         "id": "al-qasas-81-1",
@@ -10095,7 +10175,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes soudain se fendre la terre sous lui. Lui et sa demeure y furent engloutis. Il n’y eut alors, en dehors d’Allah, aucun clan pour le secourir, et il ne put lui-même se secourir."
   },
   {
     "id": "al-qasas-82",
@@ -10104,7 +10185,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْبَحَ ٱلَّذِينَ تَمَنَّوْا۟ مَكَانَهُۥ بِٱلْأَمْسِ يَقُولُونَ وَيْكَأَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ ۖ لَوْلَآ أَن مَّنَّ ٱللَّهُ عَلَيْنَا لَخَسَفَ بِنَا ۖ وَيْكَأَنَّهُۥ لَا يُفْلِحُ ٱلْكَـٰفِرُونَ",
     "textSimple": "وأصبح ٱلذين تمنوا مكانه بٱلأمس يقولون ويكأن ٱلله يبسط ٱلرزق لمن يشآء من عباده ويقدر  لولآ أن من ٱلله علينا لخسف بنا  ويكأنه لا يفلح ٱلكـفرون",
     "transliteration": "wa-aṣbaḥa alladhīna tamannaw makānahu bil-amsi yaqūlūna wayka-anna l-laha yabsuṭu l-riz'qa liman yashāu min ʿibādihi wayaqdiru lawlā an manna l-lahu ʿalaynā lakhasafa binā wayka-annahu lā yuf'liḥu l-kāfirūna",
-    "translation": "",
+    "translation": "And those who had wished for his position the previous day began to say, \"Oh, how Allāh extends provision to whom He wills of His servants and restricts it! If not that Allāh had conferred favor on us, He would have caused it to swallow us. Oh, how the disbelievers do not succeed!\"",
     "words": [
       {
         "id": "al-qasas-82-1",
@@ -10289,7 +10370,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et voici que ceux qui, la veille, souhaitaient être à sa place, se reprirent le lendemain matin : « Allah dispense Ses biens à qui Il veut parmi Ses serviteurs, avec générosité ou avec parcimonie. Si Allah ne nous avait pas privilégiés, Il nous aurait certes fait engloutir sous terre. Certes les mécréants ne (sauraient) réussir. »"
   },
   {
     "id": "al-qasas-83",
@@ -10298,7 +10380,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ٱلدَّارُ ٱلْـَٔاخِرَةُ نَجْعَلُهَا لِلَّذِينَ لَا يُرِيدُونَ عُلُوًّا فِى ٱلْأَرْضِ وَلَا فَسَادًا ۚ وَٱلْعَـٰقِبَةُ لِلْمُتَّقِينَ",
     "textSimple": "تلك ٱلدار ٱلـٔاخرة نجعلها للذين لا يريدون علوا فى ٱلأرض ولا فسادا  وٱلعـقبة للمتقين",
     "transliteration": "til'ka l-dāru l-ākhiratu najʿaluhā lilladhīna lā yurīdūna ʿuluwwan fī l-arḍi walā fasādan wal-ʿāqibatu lil'muttaqīna",
-    "translation": "",
+    "translation": "That home of the Hereafter We assign to those who do not desire exaltedness upon the earth or corruption. And the [best] outcome is for the righteous.",
     "words": [
       {
         "id": "al-qasas-83-1",
@@ -10399,7 +10481,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cette Ultime Demeure, Nous la destinons à ceux qui ne veulent ni suprématie ni corruption sur terre. L’aboutissement heureux est (promis) aux hommes pieux."
   },
   {
     "id": "al-qasas-84",
@@ -10408,7 +10491,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ خَيْرٌ مِّنْهَا ۖ وَمَن جَآءَ بِٱلسَّيِّئَةِ فَلَا يُجْزَى ٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "من جآء بٱلحسنة فله خير منها  ومن جآء بٱلسيئة فلا يجزى ٱلذين عملوا ٱلسيـٔات إلا ما كانوا يعملون",
     "transliteration": "man jāa bil-ḥasanati falahu khayrun min'hā waman jāa bil-sayi-ati falā yuj'zā alladhīna ʿamilū l-sayiāti illā mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Whoever comes [on the Day of Judgement] with a good deed will have better than it; and whoever comes with an evil deed - then those who did evil deeds will not be recompensed except [as much as] what they used to do.",
     "words": [
       {
         "id": "al-qasas-84-1",
@@ -10537,7 +10620,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui viendra avec une bonne œuvre aura bien mieux encore. Et celui qui viendra avec une mauvaise œuvre (doit savoir que) ceux qui commettent des œuvres impies ne seront rétribués que selon ce qu’ils auront commis."
   },
   {
     "id": "al-qasas-85",
@@ -10546,7 +10630,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِى فَرَضَ عَلَيْكَ ٱلْقُرْءَانَ لَرَآدُّكَ إِلَىٰ مَعَادٍ ۚ قُل رَّبِّىٓ أَعْلَمُ مَن جَآءَ بِٱلْهُدَىٰ وَمَنْ هُوَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "إن ٱلذى فرض عليك ٱلقرءان لرآدك إلى معاد  قل ربىٓ أعلم من جآء بٱلهدى ومن هو فى ضلـل مبين",
     "transliteration": "inna alladhī faraḍa ʿalayka l-qur'āna larādduka ilā maʿādin qul rabbī aʿlamu man jāa bil-hudā waman huwa fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Indeed, [O Muḥammad], He who imposed upon you the Qur’ān will take you back to a place of return. Say, \"My Lord is most knowing of who brings guidance and who is in clear error.\"",
     "words": [
       {
         "id": "al-qasas-85-1",
@@ -10682,7 +10766,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui t’a imposé le Coran entend te ramener au (lieu amène) d’un retour. Dis : « Mon Seigneur est le Meilleur à Savoir qui indique (aux hommes) la bonne direction (hudâ) et qui est dans un égarement manifeste. »"
   },
   {
     "id": "al-qasas-86",
@@ -10691,7 +10776,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَـٰبُ إِلَّا رَحْمَةً مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًا لِّلْكَـٰفِرِينَ",
     "textSimple": "وما كنت ترجوٓا أن يلقىٓ إليك ٱلكتـب إلا رحمة من ربك  فلا تكونن ظهيرا للكـفرين",
     "transliteration": "wamā kunta tarjū an yul'qā ilayka l-kitābu illā raḥmatan min rabbika falā takūnanna ẓahīran lil'kāfirīna",
-    "translation": "",
+    "translation": "And you were not expecting that the Book would be conveyed to you, but [it is] a mercy from your Lord. So do not be an assistant to the disbelievers.",
     "words": [
       {
         "id": "al-qasas-86-1",
@@ -10799,7 +10884,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’entretenais nul espoir que le Livre te fût envoyé. Il le fut par la grâce de ton Seigneur. Ne sois donc point l’allié des mécréants !"
   },
   {
     "id": "al-qasas-87",
@@ -10808,7 +10894,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَصُدُّنَّكَ عَنْ ءَايَـٰتِ ٱللَّهِ بَعْدَ إِذْ أُنزِلَتْ إِلَيْكَ ۖ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "ولا يصدنك عن ءايـت ٱلله بعد إذ أنزلت إليك  وٱدع إلى ربك  ولا تكونن من ٱلمشركين",
     "transliteration": "walā yaṣuddunnaka ʿan āyāti l-lahi baʿda idh unzilat ilayka wa-ud'ʿu ilā rabbika walā takūnanna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "And never let them avert you from the verses of Allāh after they have been revealed to you. And invite [people] to your Lord. And never be of those who associate others with Allāh.",
     "words": [
       {
         "id": "al-qasas-87-1",
@@ -10923,7 +11009,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ils ne te détournent point des versets d’Allah une fois que ceux-ci te sont révélés. Appelle (les hommes) vers ton Seigneur, et ne sois pas du nombre des associâtres !"
   },
   {
     "id": "al-qasas-88",
@@ -10932,7 +11019,7 @@ export const AL_QASAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۘ لَآ إِلَـٰهَ إِلَّا هُوَ ۚ كُلُّ شَىْءٍ هَالِكٌ إِلَّا وَجْهَهُۥ ۚ لَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "ولا تدع مع ٱلله إلـها ءاخر  لآ إلـه إلا هو  كل شىء هالك إلا وجهه  له ٱلحكم وإليه ترجعون",
     "transliteration": "walā tadʿu maʿa l-lahi ilāhan ākhara lā ilāha illā huwa kullu shayin hālikun illā wajhahu lahu l-ḥuk'mu wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "And do not invoke with Allāh another deity. There is no deity except Him. Everything will be destroyed except His Face. His is the judgement, and to Him you will be returned.",
     "words": [
       {
         "id": "al-qasas-88-1",
@@ -11068,7 +11155,8 @@ export const AL_QASAS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’invoque avec Allah aucun autre dieu. Point d’autre divinité que Lui ! Tout va périr, excepté Son Visage. À Lui revient le Jugement, et vers Lui vous serez ramenés."
   }
 ];
 

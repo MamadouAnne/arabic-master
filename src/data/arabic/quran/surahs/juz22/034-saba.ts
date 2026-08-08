@@ -11,7 +11,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": " ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَلَهُ ٱلْحَمْدُ فِى ٱلْـَٔاخِرَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
     "textSimple": " ٱلحمد لله ٱلذى له ما فى ٱلسمـوت وما فى ٱلأرض وله ٱلحمد فى ٱلـٔاخرة  وهو ٱلحكيم ٱلخبير",
     "transliteration": "al-ḥamdu lillahi alladhī lahu mā fī l-samāwāti wamā fī l-arḍi walahu l-ḥamdu fī l-ākhirati wahuwa l-ḥakīmu l-khabīru",
-    "translation": "",
+    "translation": "[All] praise is [due] to Allāh, to whom belongs whatever is in the heavens and whatever is in the earth, and to Him belongs [all] praise in the Hereafter. And He is the Wise, the Aware.",
     "words": [
       {
         "id": "saba-1-1",
@@ -133,7 +133,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Louange à Allah, à Qui appartient ce qui est dans les cieux et sur terre. À Lui la louange dans l’autre monde. Il est le Sage, l’Informé."
   },
   {
     "id": "saba-2",
@@ -142,7 +143,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ",
     "textSimple": "يعلم ما يلج فى ٱلأرض وما يخرج منها وما ينزل من ٱلسمآء وما يعرج فيها  وهو ٱلرحيم ٱلغفور",
     "transliteration": "yaʿlamu mā yaliju fī l-arḍi wamā yakhruju min'hā wamā yanzilu mina l-samāi wamā yaʿruju fīhā wahuwa l-raḥīmu l-ghafūru",
-    "translation": "",
+    "translation": "He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein. And He is the Merciful, the Forgiving.",
     "words": [
       {
         "id": "saba-2-1",
@@ -271,7 +272,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Sait ce qui entre dans la terre et ce qui en sort, ce qui descend du ciel et ce qui y monte, et c’est Lui le Tout Miséricordieux, l’Absoluteur."
   },
   {
     "id": "saba-3",
@@ -280,7 +282,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَأْتِينَا ٱلسَّاعَةُ ۖ قُلْ بَلَىٰ وَرَبِّى لَتَأْتِيَنَّكُمْ عَـٰلِمِ ٱلْغَيْبِ ۖ لَا يَعْزُبُ عَنْهُ مِثْقَالُ ذَرَّةٍ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَلَآ أَصْغَرُ مِن ذَٰلِكَ وَلَآ أَكْبَرُ إِلَّا فِى كِتَـٰبٍ مُّبِينٍ",
     "textSimple": "وقال ٱلذين كفروا لا تأتينا ٱلساعة  قل بلى وربى لتأتينكم عـلم ٱلغيب  لا يعزب عنه مثقال ذرة فى ٱلسمـوت ولا فى ٱلأرض ولآ أصغر من ذلك ولآ أكبر إلا فى كتـب مبين",
     "transliteration": "waqāla alladhīna kafarū lā tatīnā l-sāʿatu qul balā warabbī latatiyannakum ʿālimi l-ghaybi lā yaʿzubu ʿanhu mith'qālu dharratin fī l-samāwāti walā fī l-arḍi walā aṣgharu min dhālika walā akbaru illā fī kitābin mubīnin",
-    "translation": "",
+    "translation": "But those who disbelieve say, \"The Hour will not come to us.\" Say, \"Yes, by my Lord, it will surely come to you. [Allāh is] the Knower of the unseen.\" Not absent from Him is an atom's weight within the heavens or within the earth or [what is] smaller than that or greater, except that it is in a clear register -",
     "words": [
       {
         "id": "saba-3-1",
@@ -507,7 +509,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent : « L’Heure ne viendra pas pour nous. » Dis : « Que si, par mon Seigneur ! Vous la verrez certainement venir. » (Allah est) Celui Qui connaît l’Inconnaissable (ghayb), à Qui rien ne peut échapper, fût-ce le poids d’un atome dans les cieux ou sur terre. Il n’est rien de plus petit ou de plus grand qui ne soit (consigné) dans un Livre explicite,"
   },
   {
     "id": "saba-4",
@@ -516,7 +519,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "لِّيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ۚ أُو۟لَـٰٓئِكَ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
     "textSimple": "ليجزى ٱلذين ءامنوا وعملوا ٱلصـلحـت  أولـٓئك لهم مغفرة ورزق كريم",
     "transliteration": "liyajziya alladhīna āmanū waʿamilū l-ṣāliḥāti ulāika lahum maghfiratun wariz'qun karīmun",
-    "translation": "",
+    "translation": "That He may reward those who believe and do righteous deeds. Those will have forgiveness and noble provision.",
     "words": [
       {
         "id": "saba-4-1",
@@ -589,7 +592,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ce, afin qu’Il récompense ceux qui ont cru et ont accompli les bonnes œuvres. Ceux-là auront pardon et dons généreux."
   },
   {
     "id": "saba-5",
@@ -598,7 +602,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ سَعَوْ فِىٓ ءَايَـٰتِنَا مُعَـٰجِزِينَ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
     "textSimple": "وٱلذين سعو فىٓ ءايـتنا معـجزين أولـٓئك لهم عذاب من رجز أليم",
     "transliteration": "wa-alladhīna saʿaw fī āyātinā muʿājizīna ulāika lahum ʿadhābun min rij'zin alīmun",
-    "translation": "",
+    "translation": "But those who strive against Our verses [seeking] to cause failure - for them will be a painful punishment of foul nature.",
     "words": [
       {
         "id": "saba-5-1",
@@ -678,7 +682,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui s’emploient à rejeter Nos versets pour les rendre sans effet, ceux-là subiront le plus douloureux des tourments."
   },
   {
     "id": "saba-6",
@@ -687,7 +692,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَرَى ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
     "textSimple": "ويرى ٱلذين أوتوا ٱلعلم ٱلذىٓ أنزل إليك من ربك هو ٱلحق ويهدىٓ إلى صرط ٱلعزيز ٱلحميد",
     "transliteration": "wayarā alladhīna ūtū l-ʿil'ma alladhī unzila ilayka min rabbika huwa l-ḥaqa wayahdī ilā ṣirāṭi l-ʿazīzi l-ḥamīdi",
-    "translation": "",
+    "translation": "And those who have been given knowledge see that what is revealed to you from your Lord is the truth, and it guides to the path of the Exalted in Might, the Praiseworthy.",
     "words": [
       {
         "id": "saba-6-1",
@@ -802,7 +807,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont reçu la science voient (bien) que ce qui est descendu (en révélation) vers toi de la part de ton Seigneur est la vérité et qu’il guide vers la voie du Tout-Puissant, le Digne de Louange."
   },
   {
     "id": "saba-7",
@@ -811,7 +817,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍ يُنَبِّئُكُمْ إِذَا مُزِّقْتُمْ كُلَّ مُمَزَّقٍ إِنَّكُمْ لَفِى خَلْقٍ جَدِيدٍ",
     "textSimple": "وقال ٱلذين كفروا هل ندلكم على رجل ينبئكم إذا مزقتم كل ممزق إنكم لفى خلق جديد",
     "transliteration": "waqāla alladhīna kafarū hal nadullukum ʿalā rajulin yunabbi-ukum idhā muzziq'tum kulla mumazzaqin innakum lafī khalqin jadīdin",
-    "translation": "",
+    "translation": "But those who disbelieve say, \"Shall we direct you to a man who will inform you [that] when you have disintegrated in complete disintegration, you will [then] be [recreated] in a new creation?",
     "words": [
       {
         "id": "saba-7-1",
@@ -926,7 +932,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent : « Voulez-vous que nous vous indiquions un homme qui vous prédira qu’une fois décomposés en infimes parties vous renaîtrez à une nouvelle création ?"
   },
   {
     "id": "saba-8",
@@ -935,7 +942,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "أَفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَم بِهِۦ جِنَّةٌۢ ۗ بَلِ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ فِى ٱلْعَذَابِ وَٱلضَّلَـٰلِ ٱلْبَعِيدِ",
     "textSimple": "أفترى على ٱلله كذبا أم به جنة  بل ٱلذين لا يؤمنون بٱلـٔاخرة فى ٱلعذاب وٱلضلـل ٱلبعيد",
     "transliteration": "aftarā ʿalā l-lahi kadhiban am bihi jinnatun bali alladhīna lā yu'minūna bil-ākhirati fī l-ʿadhābi wal-ḍalāli l-baʿīdi",
-    "translation": "",
+    "translation": "Has he invented about Allāh a lie or is there in him madness?\" Rather, they who do not believe in the Hereafter will be in the punishment and [are in] extreme error.",
     "words": [
       {
         "id": "saba-8-1",
@@ -1050,7 +1057,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Débite-t-il donc des mensonges sur le compte d’Allah ou est-il atteint de démence ? » Non, ceux qui ne croient pas en l’autre monde seront soumis au supplice et iront loin dans l’égarement."
   },
   {
     "id": "saba-9",
@@ -1059,7 +1067,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَمْ يَرَوْا۟ إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ إِن نَّشَأْ نَخْسِفْ بِهِمُ ٱلْأَرْضَ أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ ٱلسَّمَآءِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّكُلِّ عَبْدٍ مُّنِيبٍ",
     "textSimple": "أفلم يروا إلى ما بين أيديهم وما خلفهم من ٱلسمآء وٱلأرض  إن نشأ نخسف بهم ٱلأرض أو نسقط عليهم كسفا من ٱلسمآء  إن فى ذلك لـٔاية لكل عبد منيب",
     "transliteration": "afalam yaraw ilā mā bayna aydīhim wamā khalfahum mina l-samāi wal-arḍi in nasha nakhsif bihimu l-arḍa aw nus'qiṭ ʿalayhim kisafan mina l-samāi inna fī dhālika laāyatan likulli ʿabdin munībin",
-    "translation": "",
+    "translation": "Then, do they not look at what is before them and what is behind them of the heaven and earth? If We should will, We could cause the earth to swallow them or [could] let fall upon them fragments from the sky. Indeed in that is a sign for every servant turning back [to Allāh].",
     "words": [
       {
         "id": "saba-9-1",
@@ -1265,7 +1273,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voient-ils donc pas ce qu’il y a devant et derrière eux du ciel et de la terre ? Si Nous voulions, Nous ferions se dérober sous eux la terre (pour qu’ils y soient engloutis) ou ferions tomber sur eux des pans du ciel. Il y a certes là un Signe pour tout serviteur repentant."
   },
   {
     "id": "saba-10",
@@ -1274,7 +1283,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ مِنَّا فَضْلًا ۖ يَـٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ",
     "textSimple": " ولقد ءاتينا داود منا فضلا  يـجبال أوبى معه وٱلطير  وألنا له ٱلحديد",
     "transliteration": "walaqad ātaynā dāwūda minnā faḍlan yājibālu awwibī maʿahu wal-ṭayra wa-alannā lahu l-ḥadīda",
-    "translation": "",
+    "translation": "And We certainly gave David from Us bounty. [We said], \"O mountains, repeat [Our] praises with him, and the birds [as well].\" And We made pliable for him iron,",
     "words": [
       {
         "id": "saba-10-1",
@@ -1361,7 +1370,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À David, il est venu de Nous une faveur. Ô montagnes, entonnez avec lui les louanges, et vous aussi, oiseaux ! Nous lui avons rendu malléable le fer."
   },
   {
     "id": "saba-11",
@@ -1370,7 +1380,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "أَنِ ٱعْمَلْ سَـٰبِغَـٰتٍ وَقَدِّرْ فِى ٱلسَّرْدِ ۖ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "أن ٱعمل سـبغـت وقدر فى ٱلسرد  وٱعملوا صـلحا  إنى بما تعملون بصير",
     "transliteration": "ani iʿ'mal sābighātin waqaddir fī l-sardi wa-iʿ'malū ṣāliḥan innī bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "[Commanding him], \"Make full coats of mail and calculate [precisely] the links, and work [all of you] righteousness. Indeed I, of what you do, am Seeing.\"",
     "words": [
       {
         "id": "saba-11-1",
@@ -1457,7 +1467,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et Nous lui dîmes) : « Fais-en des jaserans ! Tâche que les mailles en soient bien serrées ! » Accomplissez les bonnes œuvres, car Je Vois parfaitement ce que vous faites !"
   },
   {
     "id": "saba-12",
@@ -1466,7 +1477,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَلِسُلَيْمَـٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ",
     "textSimple": "ولسليمـن ٱلريح غدوها شهر ورواحها شهر  وأسلنا له عين ٱلقطر  ومن ٱلجن من يعمل بين يديه بإذن ربه  ومن يزغ منهم عن أمرنا نذقه من عذاب ٱلسعير",
     "transliteration": "walisulaymāna l-rīḥa ghuduwwuhā shahrun warawāḥuhā shahrun wa-asalnā lahu ʿayna l-qiṭ'ri wamina l-jini man yaʿmalu bayna yadayhi bi-idh'ni rabbihi waman yazigh min'hum ʿan amrinā nudhiq'hu min ʿadhābi l-saʿīri",
-    "translation": "",
+    "translation": "And to Solomon [We subjected] the wind - its morning [journey was that of] a month - and its afternoon [journey was that of] a month, and We made flow for him a spring of [liquid] copper. And among the jinn were those who worked for him by the permission of his Lord. And whoever deviated among them from Our command - We will make him taste of the punishment of the Blaze.",
     "words": [
       {
         "id": "saba-12-1",
@@ -1658,7 +1669,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Salomon, (Nous avons soumis) le vent dont le parcours du matin équivaut à la distance d’un mois (de marche) et celui du soir à une distance similaire. Nous avons (aussi) fait couler pour lui la Source de l’airain fondu. Parmi les djinns, il en est qui s’étaient mis à son service, avec la permission de son Seigneur. Ceux d’entre eux qui contrevenaient à Nos ordres, devaient goûter au supplice de la Fournaise."
   },
   {
     "id": "saba-13",
@@ -1667,7 +1679,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَـٰرِيبَ وَتَمَـٰثِيلَ وَجِفَانٍ كَٱلْجَوَابِ وَقُدُورٍ رَّاسِيَـٰتٍ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًا ۚ وَقَلِيلٌ مِّنْ عِبَادِىَ ٱلشَّكُورُ",
     "textSimple": "يعملون له ما يشآء من محـريب وتمـثيل وجفان كٱلجواب وقدور راسيـت  ٱعملوٓا ءال داود شكرا  وقليل من عبادى ٱلشكور",
     "transliteration": "yaʿmalūna lahu mā yashāu min maḥārība watamāthīla wajifānin kal-jawābi waqudūrin rāsiyātin iʿ'malū āla dāwūda shuk'ran waqalīlun min ʿibādiya l-shakūru",
-    "translation": "",
+    "translation": "They made for him what he willed of elevated chambers, statues, bowls like reservoirs, and stationary kettles. [We said], \"Work, O family of David, in gratitude.\" And few of My servants are grateful.",
     "words": [
       {
         "id": "saba-13-1",
@@ -1803,7 +1815,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils édifiaient pour lui tous les ouvrages qu’il voulait : des sanctuaires, des statues, des plateaux (grands) comme des bassins et d’énormes chaudrons solidement installés. « Ô vous famille de David ! Travaillez et Me rendez grâces ! » Mais bien peu de Mes serviteurs sont reconnaissants."
   },
   {
     "id": "saba-14",
@@ -1812,7 +1825,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا قَضَيْنَا عَلَيْهِ ٱلْمَوْتَ مَا دَلَّهُمْ عَلَىٰ مَوْتِهِۦٓ إِلَّا دَآبَّةُ ٱلْأَرْضِ تَأْكُلُ مِنسَأَتَهُۥ ۖ فَلَمَّا خَرَّ تَبَيَّنَتِ ٱلْجِنُّ أَن لَّوْ كَانُوا۟ يَعْلَمُونَ ٱلْغَيْبَ مَا لَبِثُوا۟ فِى ٱلْعَذَابِ ٱلْمُهِينِ",
     "textSimple": "فلما قضينا عليه ٱلموت ما دلهم على موتهٓ إلا دآبة ٱلأرض تأكل منسأته  فلما خر تبينت ٱلجن أن لو كانوا يعلمون ٱلغيب ما لبثوا فى ٱلعذاب ٱلمهين",
     "transliteration": "falammā qaḍaynā ʿalayhi l-mawta mā dallahum ʿalā mawtihi illā dābbatu l-arḍi takulu minsa-atahu falammā kharra tabayyanati l-jinu an law kānū yaʿlamūna l-ghayba mā labithū fī l-ʿadhābi l-muhīni",
-    "translation": "",
+    "translation": "And when We decreed for him [i.e., Solomon] death, nothing indicated to them [i.e., the jinn] his death except a creature of the earth eating his staff. But when he fell, it became clear to the jinn that if they had known the unseen, they would not have remained in humiliating punishment.",
     "words": [
       {
         "id": "saba-14-1",
@@ -2004,7 +2017,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nous eûmes décidé sa mort, seules les (petites) bêtes de terre leur indiquèrent qu’il était mort après qu’ils eurent rongé son bâton d’appui. Lorsqu’il s’écroula devant eux, les djinns se rendirent compte que s’ils avaient la science de l’Inconnaissable (ghayb), ils n’auraient pas supporté plus longtemps le supplice de l’avilissement."
   },
   {
     "id": "saba-15",
@@ -2013,7 +2027,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ كَانَ لِسَبَإٍ فِى مَسْكَنِهِمْ ءَايَةٌ ۖ جَنَّتَانِ عَن يَمِينٍ وَشِمَالٍ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ",
     "textSimple": "لقد كان لسبإ فى مسكنهم ءاية  جنتان عن يمين وشمال  كلوا من رزق ربكم وٱشكروا له  بلدة طيبة ورب غفور",
     "transliteration": "laqad kāna lisaba-in fī maskanihim āyatun jannatāni ʿan yamīnin washimālin kulū min riz'qi rabbikum wa-ush'kurū lahu baldatun ṭayyibatun warabbun ghafūrun",
-    "translation": "",
+    "translation": "There was for [the tribe of] Saba’ in their dwelling place a sign: two [fields of] gardens on the right and on the left. [They were told], \"Eat from the provisions of your Lord and be grateful to Him. A good land [have you], and a forgiving Lord.\"",
     "words": [
       {
         "id": "saba-15-1",
@@ -2156,7 +2170,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y avait, pour le peuple de Saba’, en leur pays, un Signe : deux jardins, sur la droite et sur la gauche. « Nourrissez-vous, (leur était-il dit), des biens dispensés par votre Seigneur et soyez-Lui reconnaissants : un pays si heureux et un Seigneur si Absoluteur ! »"
   },
   {
     "id": "saba-16",
@@ -2165,7 +2180,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ ٱلْعَرِمِ وَبَدَّلْنَـٰهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَىْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَىْءٍ مِّن سِدْرٍ قَلِيلٍ",
     "textSimple": "فأعرضوا فأرسلنا عليهم سيل ٱلعرم وبدلنـهم بجنتيهم جنتين ذواتى أكل خمط وأثل وشىء من سدر قليل",
     "transliteration": "fa-aʿraḍū fa-arsalnā ʿalayhim sayla l-ʿarimi wabaddalnāhum bijannatayhim jannatayni dhawātay ukulin khamṭin wa-athlin washayin min sid'rin qalīlin",
-    "translation": "",
+    "translation": "But they turned away [refusing], so We sent upon them the flood of the dam, and We replaced their two [fields of] gardens with gardens of bitter fruit, tamarisks and something of sparse lote trees.",
     "words": [
       {
         "id": "saba-16-1",
@@ -2280,7 +2295,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils se détournèrent. Alors Nous leur envoyâmes les flots impétueux du Barrage, et Nous substituâmes à leurs jardins deux autres aux fruits amers, des tamaris et quelques rares jujubiers."
   },
   {
     "id": "saba-17",
@@ -2289,7 +2305,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ جَزَيْنَـٰهُم بِمَا كَفَرُوا۟ ۖ وَهَلْ نُجَـٰزِىٓ إِلَّا ٱلْكَفُورَ",
     "textSimple": "ذلك جزينـهم بما كفروا  وهل نجـزىٓ إلا ٱلكفور",
     "transliteration": "dhālika jazaynāhum bimā kafarū wahal nujāzī illā l-kafūra",
-    "translation": "",
+    "translation": "[By] that We repaid them because they disbelieved. And do We [thus] repay except the ungrateful?",
     "words": [
       {
         "id": "saba-17-1",
@@ -2348,7 +2364,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous les avons sanctionnés de leur mécréance. Saurions-Nous sanctionner (de cette manière) un autre que le mécréant ?"
   },
   {
     "id": "saba-18",
@@ -2357,7 +2374,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا بَيْنَهُمْ وَبَيْنَ ٱلْقُرَى ٱلَّتِى بَـٰرَكْنَا فِيهَا قُرًى ظَـٰهِرَةً وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ ۖ سِيرُوا۟ فِيهَا لَيَالِىَ وَأَيَّامًا ءَامِنِينَ",
     "textSimple": "وجعلنا بينهم وبين ٱلقرى ٱلتى بـركنا فيها قرى ظـهرة وقدرنا فيها ٱلسير  سيروا فيها ليالى وأياما ءامنين",
     "transliteration": "wajaʿalnā baynahum wabayna l-qurā allatī bāraknā fīhā quran ẓāhiratan waqaddarnā fīhā l-sayra sīrū fīhā layāliya wa-ayyāman āminīna",
-    "translation": "",
+    "translation": "And We placed between them and the cities which We had blessed [many] visible cities. And We determined between them the [distances of] journey, [saying], \"Travel between them by night or by day in safety.\"",
     "words": [
       {
         "id": "saba-18-1",
@@ -2479,7 +2496,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entre eux et les cités que Nous avons bénies, Nous établîmes des villes qui se prolongeaient les unes les autres. Nous avons déterminé avec mesure les distances qui les séparaient, (et Nous dîmes) : « Voyagez donc entre elles, de nuit comme de jour, en toute sûreté. »"
   },
   {
     "id": "saba-19",
@@ -2488,7 +2506,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالُوا۟ رَبَّنَا بَـٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَـٰهُمْ أَحَادِيثَ وَمَزَّقْنَـٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
     "textSimple": "فقالوا ربنا بـعد بين أسفارنا وظلموٓا أنفسهم فجعلنـهم أحاديث ومزقنـهم كل ممزق  إن فى ذلك لـٔايـت لكل صبار شكور",
     "transliteration": "faqālū rabbanā bāʿid bayna asfārinā waẓalamū anfusahum fajaʿalnāhum aḥādītha wamazzaqnāhum kulla mumazzaqin inna fī dhālika laāyātin likulli ṣabbārin shakūrin",
-    "translation": "",
+    "translation": "But [insolently] they said, \"Our Lord, lengthen the distance between our journeys,\" and wronged themselves, so We made them narrations and dispersed them in total dispersion. Indeed in that are signs for everyone patient and grateful.",
     "words": [
       {
         "id": "saba-19-1",
@@ -2624,7 +2642,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils dirent : « Fais, Seigneur, que les distances (séparant nos cités) soient plus grandes. » Ils furent injustes envers eux-mêmes. Nous fîmes d’eux des sujets de légendes et Nous les dispersâmes aux quatre vents. Il y a certes là des Signes pour tous ceux qui endurent et Nous sont grandement reconnaissants."
   },
   {
     "id": "saba-20",
@@ -2633,7 +2652,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَدَّقَ عَلَيْهِمْ إِبْلِيسُ ظَنَّهُۥ فَٱتَّبَعُوهُ إِلَّا فَرِيقًا مِّنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "ولقد صدق عليهم إبليس ظنه فٱتبعوه إلا فريقا من ٱلمؤمنين",
     "transliteration": "walaqad ṣaddaqa ʿalayhim ib'līsu ẓannahu fa-ittabaʿūhu illā farīqan mina l-mu'minīna",
-    "translation": "",
+    "translation": "And Iblees had already confirmed through them his assumption, so they followed him, except for a party of believers.",
     "words": [
       {
         "id": "saba-20-1",
@@ -2706,7 +2725,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Satan vit se confirmer ce qu’il avait supposé à leur égard. Ils le suivirent donc, excepté un groupe de croyants."
   },
   {
     "id": "saba-21",
@@ -2715,7 +2735,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لَهُۥ عَلَيْهِم مِّن سُلْطَـٰنٍ إِلَّا لِنَعْلَمَ مَن يُؤْمِنُ بِٱلْـَٔاخِرَةِ مِمَّنْ هُوَ مِنْهَا فِى شَكٍّ ۗ وَرَبُّكَ عَلَىٰ كُلِّ شَىْءٍ حَفِيظٌ",
     "textSimple": "وما كان له عليهم من سلطـن إلا لنعلم من يؤمن بٱلـٔاخرة ممن هو منها فى شك  وربك على كل شىء حفيظ",
     "transliteration": "wamā kāna lahu ʿalayhim min sul'ṭānin illā linaʿlama man yu'minu bil-ākhirati mimman huwa min'hā fī shakkin warabbuka ʿalā kulli shayin ḥafīẓun",
-    "translation": "",
+    "translation": "And he had over them no authority except [it was decreed] that We might make evident who believes in the Hereafter from who is thereof in doubt. And your Lord, over all things, is Guardian.",
     "words": [
       {
         "id": "saba-21-1",
@@ -2865,7 +2885,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’avait pourtant aucune autorité sur eux, mais Nous voulions savoir qui croyait en l’autre monde et qui était dans le doute. Ton Seigneur Veille sur Toute chose."
   },
   {
     "id": "saba-22",
@@ -2874,7 +2895,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ",
     "textSimple": "قل ٱدعوا ٱلذين زعمتم من دون ٱلله  لا يملكون مثقال ذرة فى ٱلسمـوت ولا فى ٱلأرض وما لهم فيهما من شرك وما له منهم من ظهير",
     "transliteration": "quli id'ʿū alladhīna zaʿamtum min dūni l-lahi lā yamlikūna mith'qāla dharratin fī l-samāwāti walā fī l-arḍi wamā lahum fīhimā min shir'kin wamā lahu min'hum min ẓahīrin",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Invoke those you claim [as deities] besides Allāh.\" They do not possess an atom's weight [of ability] in the heavens or on the earth, and they do not have therein any partnership [with Him], nor is there for Him from among them any assistant.",
     "words": [
       {
         "id": "saba-22-1",
@@ -3059,7 +3080,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Invoquez donc ces prétendues (divinités) que vous (avez prises) en dehors d’Allah. Elles ne possèdent même pas le poids d’un atome des cieux et de la terre et n’ont jamais été associées (à leur création). Et aucune parmi elles ne peut prétendre être Son assistant. »"
   },
   {
     "id": "saba-23",
@@ -3068,7 +3090,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَنفَعُ ٱلشَّفَـٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ",
     "textSimple": "ولا تنفع ٱلشفـعة عندهٓ إلا لمن أذن له  حتىٓ إذا فزع عن قلوبهم قالوا ماذا قال ربكم  قالوا ٱلحق  وهو ٱلعلى ٱلكبير",
     "transliteration": "walā tanfaʿu l-shafāʿatu ʿindahu illā liman adhina lahu ḥattā idhā fuzziʿa ʿan qulūbihim qālū mādhā qāla rabbukum qālū l-ḥaqa wahuwa l-ʿaliyu l-kabīru",
-    "translation": "",
+    "translation": "And intercession does not benefit with Him except for one whom He permits. [And those wait] until, when terror is removed from their hearts, they will say [to one another], \"What has your Lord said?\" They will say, \"The truth.\" And He is the Most High, the Grand.",
     "words": [
       {
         "id": "saba-23-1",
@@ -3225,7 +3247,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’intercession ne servira, auprès de Lui, qu’à ceux en faveur de qui Il le permettra. Quand leur frayeur est passée, (les Anges) disent (les uns aux autres) : « Qu’a dit votre Seigneur ? » (Les Anges) répondront alors : « La vérité. Et c’est Lui le Très Haut, le Très Grand ! »"
   },
   {
     "id": "saba-24",
@@ -3234,7 +3257,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ قُلِ ٱللَّهُ ۖ وَإِنَّآ أَوْ إِيَّاكُمْ لَعَلَىٰ هُدًى أَوْ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": " قل من يرزقكم من ٱلسمـوت وٱلأرض  قل ٱلله  وإنآ أو إياكم لعلى هدى أو فى ضلـل مبين",
     "transliteration": "qul man yarzuqukum mina l-samāwāti wal-arḍi quli l-lahu wa-innā aw iyyākum laʿalā hudan aw fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Say, \"Who provides for you from the heavens and the earth?\" Say, \"Allāh. And indeed, we or you are either upon guidance or in clear error.\"",
     "words": [
       {
         "id": "saba-24-1",
@@ -3356,7 +3379,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande : « Qui donc pourvoit à votre subsistance (venue) des cieux et de la terre ? » Et réponds : « C’est Allah. Nous sommes, soit nous, soit vous, ou dans la bonne direction, ou dans un égarement manifeste. »"
   },
   {
     "id": "saba-25",
@@ -3365,7 +3389,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّا تُسْـَٔلُونَ عَمَّآ أَجْرَمْنَا وَلَا نُسْـَٔلُ عَمَّا تَعْمَلُونَ",
     "textSimple": "قل لا تسـٔلون عمآ أجرمنا ولا نسـٔل عما تعملون",
     "transliteration": "qul lā tus'alūna ʿammā ajramnā walā nus'alu ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "Say, \"You will not be asked about what we committed, and we will not be asked about what you do.\"",
     "words": [
       {
         "id": "saba-25-1",
@@ -3431,7 +3455,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et dis : « Vous ne répondrez point de nos crimes, et nous ne répondrons point de vos actes. »"
   },
   {
     "id": "saba-26",
@@ -3440,7 +3465,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِٱلْحَقِّ وَهُوَ ٱلْفَتَّاحُ ٱلْعَلِيمُ",
     "textSimple": "قل يجمع بيننا ربنا ثم يفتح بيننا بٱلحق وهو ٱلفتاح ٱلعليم",
     "transliteration": "qul yajmaʿu baynanā rabbunā thumma yaftaḥu baynanā bil-ḥaqi wahuwa l-fatāḥu l-ʿalīmu",
-    "translation": "",
+    "translation": "Say, \"Our Lord will bring us together; then He will judge between us in truth. And He is the Knowing Judge.\"",
     "words": [
       {
         "id": "saba-26-1",
@@ -3520,7 +3545,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Notre Seigneur nous réunira puis jugera entre nous, par la vérité, et c’est Lui le Juge Suprême, l’Omniscient. »"
   },
   {
     "id": "saba-27",
@@ -3529,7 +3555,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرُونِىَ ٱلَّذِينَ أَلْحَقْتُم بِهِۦ شُرَكَآءَ ۖ كَلَّا ۚ بَلْ هُوَ ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "قل أرونى ٱلذين ألحقتم به شركآء  كلا  بل هو ٱلله ٱلعزيز ٱلحكيم",
     "transliteration": "qul arūniya alladhīna alḥaqtum bihi shurakāa kallā bal huwa l-lahu l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Say, \"Show me those whom you have attached to Him as partners. No! Rather, He [alone] is Allāh, the Exalted in Might, the Wise.\"",
     "words": [
       {
         "id": "saba-27-1",
@@ -3616,7 +3642,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Montrez-moi ceux que vous Lui avez rattachés comme associés. Non, Lui c’est Allah, le Tout- Puissant, le Sage. »"
   },
   {
     "id": "saba-28",
@@ -3625,7 +3652,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَـٰكَ إِلَّا كَآفَّةً لِّلنَّاسِ بَشِيرًا وَنَذِيرًا وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "ومآ أرسلنـك إلا كآفة للناس بشيرا ونذيرا ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "wamā arsalnāka illā kāffatan lilnnāsi bashīran wanadhīran walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "And We have not sent you except comprehensively to mankind as a bringer of good tidings and a warner. But most of the people do not know.",
     "words": [
       {
         "id": "saba-28-1",
@@ -3712,7 +3739,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne t’avons envoyé à l’ensemble des hommes que pour faire heureuse annonce et avertir. Mais la plupart des hommes ne le savent pas."
   },
   {
     "id": "saba-29",
@@ -3721,7 +3749,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلوعد إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When is this promise, if you should be truthful?\"",
     "words": [
       {
         "id": "saba-29-1",
@@ -3773,7 +3801,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « À quand cette promesse, si ce que vous dites est vrai ? »"
   },
   {
     "id": "saba-30",
@@ -3782,7 +3811,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّكُم مِّيعَادُ يَوْمٍ لَّا تَسْتَـْٔخِرُونَ عَنْهُ سَاعَةً وَلَا تَسْتَقْدِمُونَ",
     "textSimple": "قل لكم ميعاد يوم لا تستـٔخرون عنه ساعة ولا تستقدمون",
     "transliteration": "qul lakum mīʿādu yawmin lā tastakhirūna ʿanhu sāʿatan walā tastaqdimūna",
-    "translation": "",
+    "translation": "Say, \"For you is the appointment of a Day [when] you will not remain thereafter an hour, nor will you precede [it].\"",
     "words": [
       {
         "id": "saba-30-1",
@@ -3855,7 +3884,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Rendez-vous vous est donné pour un jour que vous ne pourrez ni retarder ni avancer d’une heure. »"
   },
   {
     "id": "saba-31",
@@ -3864,7 +3894,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَن نُّؤْمِنَ بِهَـٰذَا ٱلْقُرْءَانِ وَلَا بِٱلَّذِى بَيْنَ يَدَيْهِ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّـٰلِمُونَ مَوْقُوفُونَ عِندَ رَبِّهِمْ يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ ٱلْقَوْلَ يَقُولُ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ لَوْلَآ أَنتُمْ لَكُنَّا مُؤْمِنِينَ",
     "textSimple": "وقال ٱلذين كفروا لن نؤمن بهـذا ٱلقرءان ولا بٱلذى بين يديه  ولو ترىٓ إذ ٱلظـلمون موقوفون عند ربهم يرجع بعضهم إلى بعض ٱلقول يقول ٱلذين ٱستضعفوا للذين ٱستكبروا لولآ أنتم لكنا مؤمنين",
     "transliteration": "waqāla alladhīna kafarū lan nu'mina bihādhā l-qur'āni walā bi-alladhī bayna yadayhi walaw tarā idhi l-ẓālimūna mawqūfūna ʿinda rabbihim yarjiʿu baʿḍuhum ilā baʿḍin l-qawla yaqūlu alladhīna us'tuḍ'ʿifū lilladhīna is'takbarū lawlā antum lakunnā mu'minīna",
-    "translation": "",
+    "translation": "And those who disbelieve say, \"We will never believe in this Qur’ān nor in that before it.\" But if you could see when the wrongdoers are made to stand before their Lord, refuting each others' words... Those who were oppressed will say to those who were arrogant, \"If not for you, we would have been believers.\"",
     "words": [
       {
         "id": "saba-31-1",
@@ -4091,7 +4121,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent : « Nous ne croirons nullement en ce Coran, pas plus que (nous ne croirons) en ce qui lui est antérieur. » Si seulement tu pouvais voir les injustes qui, comparaissant devant leur Seigneur, se renverront mutuellement les reproches ! Ceux qui étaient les plus faibles diront à ceux qui s’enflaient d’orgueil : « Sans vous, nous aurions été croyants ! »"
   },
   {
     "id": "saba-32",
@@ -4100,7 +4131,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلَّذِينَ ٱسْتَكْبَرُوا۟ لِلَّذِينَ ٱسْتُضْعِفُوٓا۟ أَنَحْنُ صَدَدْنَـٰكُمْ عَنِ ٱلْهُدَىٰ بَعْدَ إِذْ جَآءَكُم ۖ بَلْ كُنتُم مُّجْرِمِينَ",
     "textSimple": "قال ٱلذين ٱستكبروا للذين ٱستضعفوٓا أنحن صددنـكم عن ٱلهدى بعد إذ جآءكم  بل كنتم مجرمين",
     "transliteration": "qāla alladhīna is'takbarū lilladhīna us'tuḍ'ʿifū anaḥnu ṣadadnākum ʿani l-hudā baʿda idh jāakum bal kuntum muj'rimīna",
-    "translation": "",
+    "translation": "Those who were arrogant will say to those who were oppressed, \"Did we avert you from guidance after it had come to you? Rather, you were criminals.\"",
     "words": [
       {
         "id": "saba-32-1",
@@ -4208,7 +4239,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui s’enflaient d’orgueil répondront à ceux qui étaient les plus faibles : « Était-ce donc nous qui vous avons empêchés de suivre la bonne direction qui vous était parvenue ? Non vous étiez vous-mêmes des criminels ! »"
   },
   {
     "id": "saba-33",
@@ -4217,7 +4249,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًا ۚ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَـٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "وقال ٱلذين ٱستضعفوا للذين ٱستكبروا بل مكر ٱليل وٱلنهار إذ تأمروننآ أن نكفر بٱلله ونجعل لهٓ أندادا  وأسروا ٱلندامة لما رأوا ٱلعذاب وجعلنا ٱلأغلـل فىٓ أعناق ٱلذين كفروا  هل يجزون إلا ما كانوا يعملون",
     "transliteration": "waqāla alladhīna us'tuḍ'ʿifū lilladhīna is'takbarū bal makru al-layli wal-nahāri idh tamurūnanā an nakfura bil-lahi wanajʿala lahu andādan wa-asarrū l-nadāmata lammā ra-awū l-ʿadhāba wajaʿalnā l-aghlāla fī aʿnāqi alladhīna kafarū hal yuj'zawna illā mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Those who were oppressed will say to those who were arrogant, \"Rather, [it was your] conspiracy of night and day when you were ordering us to disbelieve in Allāh and attribute to Him equals.\" But they will [all] confide regret when they see the punishment; and We will put shackles on the necks of those who disbelieved. Will they be recompensed except for what they used to do?",
     "words": [
       {
         "id": "saba-33-1",
@@ -4458,7 +4490,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’était bien vos manigances, tramées nuit et jour, répondront ceux qui étaient les plus faibles à ceux qui s’enflaient d’orgueil, (par lesquelles) vous nous ordonniez de mécroire en Allah et de Lui prêter des émules. » Ils dissimuleront leur regret à la vue du supplice, et Nous mettrons des chaînes aux cous des mécréants. Seront-ils récompensés autrement que selon leurs propres œuvres ?"
   },
   {
     "id": "saba-34",
@@ -4467,7 +4500,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَـٰفِرُونَ",
     "textSimple": "ومآ أرسلنا فى قرية من نذير إلا قال مترفوهآ إنا بمآ أرسلتم به كـفرون",
     "transliteration": "wamā arsalnā fī qaryatin min nadhīrin illā qāla mut'rafūhā innā bimā ur'sil'tum bihi kāfirūna",
-    "translation": "",
+    "translation": "And We did not send into a city any warner except that its affluent said, \"Indeed we, in that with which you were sent, are disbelievers.\"",
     "words": [
       {
         "id": "saba-34-1",
@@ -4568,7 +4601,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé aucun avertisseur vers une cité, sans que les plus huppés parmi ses habitants n’aient dit : « Nous mécroyons (catégoriquement) à votre message. »"
   },
   {
     "id": "saba-35",
@@ -4577,7 +4611,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ نَحْنُ أَكْثَرُ أَمْوَٰلًا وَأَوْلَـٰدًا وَمَا نَحْنُ بِمُعَذَّبِينَ",
     "textSimple": "وقالوا نحن أكثر أمولا وأولـدا وما نحن بمعذبين",
     "transliteration": "waqālū naḥnu aktharu amwālan wa-awlādan wamā naḥnu bimuʿadhabīna",
-    "translation": "",
+    "translation": "And they said, \"We are more [than the believers] in wealth and children, and we are not to be punished.\"",
     "words": [
       {
         "id": "saba-35-1",
@@ -4636,7 +4670,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disaient encore : « Nous avons bien plus de richesses et d’enfants. Nous ne pourrons donc être châtiés. »"
   },
   {
     "id": "saba-36",
@@ -4645,7 +4680,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ رَبِّى يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "قل إن ربى يبسط ٱلرزق لمن يشآء ويقدر ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "qul inna rabbī yabsuṭu l-riz'qa liman yashāu wayaqdiru walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "Say, \"Indeed, my Lord extends provision for whom He wills and restricts [it], but most of the people do not know.\"",
     "words": [
       {
         "id": "saba-36-1",
@@ -4739,7 +4774,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Mon Seigneur dispense Ses biens à qui Il veut, avec générosité ou parcimonie. Mais la plupart des hommes ne savent pas. »"
   },
   {
     "id": "saba-37",
@@ -4748,7 +4784,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَـٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ إِلَّا مَنْ ءَامَنَ وَعَمِلَ صَـٰلِحًا فَأُو۟لَـٰٓئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُوا۟ وَهُمْ فِى ٱلْغُرُفَـٰتِ ءَامِنُونَ",
     "textSimple": "ومآ أمولكم ولآ أولـدكم بٱلتى تقربكم عندنا زلفىٓ إلا من ءامن وعمل صـلحا فأولـٓئك لهم جزآء ٱلضعف بما عملوا وهم فى ٱلغرفـت ءامنون",
     "transliteration": "wamā amwālukum walā awlādukum bi-allatī tuqarribukum ʿindanā zul'fā illā man āmana waʿamila ṣāliḥan fa-ulāika lahum jazāu l-ḍiʿ'fi bimā ʿamilū wahum fī l-ghurufāti āminūna",
-    "translation": "",
+    "translation": "And it is not your wealth or your children that bring you nearer to Us in position, but it is [by being] one who has believed and done righteousness. For them there will be the double reward for what they did, and they will be in the upper chambers [of Paradise], safe [and secure].",
     "words": [
       {
         "id": "saba-37-1",
@@ -4912,7 +4948,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos richesses, pas plus que vos enfants, ne vous rapprocheront de Nous. Seront exceptés ceux qui auront cru et auront fait le bien, ceux-là auront leur récompense décuplée pour ce qu’ils auront fait, et ils seront installés en toute sûreté dans les Sphères Élevées du Paradis."
   },
   {
     "id": "saba-38",
@@ -4921,7 +4958,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يَسْعَوْنَ فِىٓ ءَايَـٰتِنَا مُعَـٰجِزِينَ أُو۟لَـٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
     "textSimple": "وٱلذين يسعون فىٓ ءايـتنا معـجزين أولـٓئك فى ٱلعذاب محضرون",
     "transliteration": "wa-alladhīna yasʿawna fī āyātinā muʿājizīna ulāika fī l-ʿadhābi muḥ'ḍarūna",
-    "translation": "",
+    "translation": "And the ones who strive against Our verses to cause [them] failure - those will be brought into the punishment [to remain].",
     "words": [
       {
         "id": "saba-38-1",
@@ -4987,7 +5024,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, en revanche, s’emploient à rejeter Nos versets pour les rendre sans effet, ceux-là auront à comparaître au supplice."
   },
   {
     "id": "saba-39",
@@ -4996,7 +5034,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ رَبِّى يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥ ۚ وَمَآ أَنفَقْتُم مِّن شَىْءٍ فَهُوَ يُخْلِفُهُۥ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ",
     "textSimple": "قل إن ربى يبسط ٱلرزق لمن يشآء من عباده ويقدر له  ومآ أنفقتم من شىء فهو يخلفه  وهو خير ٱلرزقين",
     "transliteration": "qul inna rabbī yabsuṭu l-riz'qa liman yashāu min ʿibādihi wayaqdiru lahu wamā anfaqtum min shayin fahuwa yukh'lifuhu wahuwa khayru l-rāziqīna",
-    "translation": "",
+    "translation": "Say, \"Indeed, my Lord extends provision for whom He wills of His servants and restricts [it] for him. But whatever thing you spend [in His cause] - He will compensate it; and He is the best of providers.\"",
     "words": [
       {
         "id": "saba-39-1",
@@ -5139,7 +5177,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Mon Seigneur dispense Ses biens à qui Il veut, avec générosité ou parcimonie. Ce que vous dépensez, Il vous le rendra. Car Il est le Meilleur des dispensateurs. »"
   },
   {
     "id": "saba-40",
@@ -5148,7 +5187,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يَحْشُرُهُمْ جَمِيعًا ثُمَّ يَقُولُ لِلْمَلَـٰٓئِكَةِ أَهَـٰٓؤُلَآءِ إِيَّاكُمْ كَانُوا۟ يَعْبُدُونَ",
     "textSimple": "ويوم يحشرهم جميعا ثم يقول للملـٓئكة أهـٓؤلآء إياكم كانوا يعبدون",
     "transliteration": "wayawma yaḥshuruhum jamīʿan thumma yaqūlu lil'malāikati ahāulāi iyyākum kānū yaʿbudūna",
-    "translation": "",
+    "translation": "And [mention] the Day when He will gather them all and then say to the angels, \"Did these [people] used to worship you?\"",
     "words": [
       {
         "id": "saba-40-1",
@@ -5221,7 +5260,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Il les ramènera tous en foule, Il dira aux Anges : « Est-ce donc vous que ceux-là adoraient ? »"
   },
   {
     "id": "saba-41",
@@ -5230,7 +5270,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سُبْحَـٰنَكَ أَنتَ وَلِيُّنَا مِن دُونِهِم ۖ بَلْ كَانُوا۟ يَعْبُدُونَ ٱلْجِنَّ ۖ أَكْثَرُهُم بِهِم مُّؤْمِنُونَ",
     "textSimple": "قالوا سبحـنك أنت ولينا من دونهم  بل كانوا يعبدون ٱلجن  أكثرهم بهم مؤمنون",
     "transliteration": "qālū sub'ḥānaka anta waliyyunā min dūnihim bal kānū yaʿbudūna l-jina aktharuhum bihim mu'minūna",
-    "translation": "",
+    "translation": "They will say, \"Exalted are You! You, [O Allāh], are our benefactor excluding [i.e., not] them. Rather, they used to worship the jinn; most of them were believers in them.\"",
     "words": [
       {
         "id": "saba-41-1",
@@ -5324,7 +5364,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : « Gloire Te soit rendue ! Tu es notre Protecteur en dehors d’eux. Eux adoraient les djinns, à qui la plupart d’entre eux croyaient ! »"
   },
   {
     "id": "saba-42",
@@ -5333,7 +5374,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْيَوْمَ لَا يَمْلِكُ بَعْضُكُمْ لِبَعْضٍ نَّفْعًا وَلَا ضَرًّا وَنَقُولُ لِلَّذِينَ ظَلَمُوا۟ ذُوقُوا۟ عَذَابَ ٱلنَّارِ ٱلَّتِى كُنتُم بِهَا تُكَذِّبُونَ",
     "textSimple": "فٱليوم لا يملك بعضكم لبعض نفعا ولا ضرا ونقول للذين ظلموا ذوقوا عذاب ٱلنار ٱلتى كنتم بها تكذبون",
     "transliteration": "fal-yawma lā yamliku baʿḍukum libaʿḍin nafʿan walā ḍarran wanaqūlu lilladhīna ẓalamū dhūqū ʿadhāba l-nāri allatī kuntum bihā tukadhibūna",
-    "translation": "",
+    "translation": "But today [i.e., the Day of Judgement] you do not hold for one another [the power of] benefit or harm, and We will say to those who wronged, \"Taste the punishment of the Fire, which you used to deny.\"",
     "words": [
       {
         "id": "saba-42-1",
@@ -5462,7 +5503,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, vous ne pourrez ni profiter ni nuire les uns aux autres. Et Nous dirons à ceux qui auront commis des injustices : « Goûtez le supplice du Feu que vous preniez pour mensonge ! »"
   },
   {
     "id": "saba-43",
@@ -5471,7 +5513,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ قَالُوا۟ مَا هَـٰذَآ إِلَّا رَجُلٌ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ ءَابَآؤُكُمْ وَقَالُوا۟ مَا هَـٰذَآ إِلَّآ إِفْكٌ مُّفْتَرًى ۚ وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلْحَقِّ لَمَّا جَآءَهُمْ إِنْ هَـٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
     "textSimple": "وإذا تتلى عليهم ءايـتنا بينـت قالوا ما هـذآ إلا رجل يريد أن يصدكم عما كان يعبد ءابآؤكم وقالوا ما هـذآ إلآ إفك مفترى  وقال ٱلذين كفروا للحق لما جآءهم إن هـذآ إلا سحر مبين",
     "transliteration": "wa-idhā tut'lā ʿalayhim āyātunā bayyinātin qālū mā hādhā illā rajulun yurīdu an yaṣuddakum ʿammā kāna yaʿbudu ābāukum waqālū mā hādhā illā if'kun muf'taran waqāla alladhīna kafarū lil'ḥaqqi lammā jāahum in hādhā illā siḥ'run mubīnun",
-    "translation": "",
+    "translation": "And when Our verses are recited to them as clear evidences, they say, \"This is not but a man who wishes to avert you from that which your fathers were worshipping.\" And they say, \"This is not except a lie invented.\" And those who disbelieve say of the truth when it has come to them, \"This is not but obvious magic.\"",
     "words": [
       {
         "id": "saba-43-1",
@@ -5712,7 +5754,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nos versets explicites leur sont récités, ils disent : « Ce n’est là rien d’autre qu’un homme qui veut vous détourner de ce que vos pères adoraient. » Et ils ajoutent : « Ce n’est là que mensonge inventé ! » Quand la vérité leur est parvenue, les mécréants ont dit : « Ce n’est là que magie manifeste ! »"
   },
   {
     "id": "saba-44",
@@ -5721,7 +5764,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ ءَاتَيْنَـٰهُم مِّن كُتُبٍ يَدْرُسُونَهَا ۖ وَمَآ أَرْسَلْنَآ إِلَيْهِمْ قَبْلَكَ مِن نَّذِيرٍ",
     "textSimple": "ومآ ءاتينـهم من كتب يدرسونها  ومآ أرسلنآ إليهم قبلك من نذير",
     "transliteration": "wamā ātaynāhum min kutubin yadrusūnahā wamā arsalnā ilayhim qablaka min nadhīrin",
-    "translation": "",
+    "translation": "And We had not given them any scriptures which they could study, and We had not sent to them before you, [O Muḥammad], any warner.",
     "words": [
       {
         "id": "saba-44-1",
@@ -5801,7 +5844,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourtant, Nous ne leur avons donné aucun livre à étudier, ni ne leur avons envoyé aucun avertisseur avant toi."
   },
   {
     "id": "saba-45",
@@ -5810,7 +5854,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ وَمَا بَلَغُوا۟ مِعْشَارَ مَآ ءَاتَيْنَـٰهُمْ فَكَذَّبُوا۟ رُسُلِى ۖ فَكَيْفَ كَانَ نَكِيرِ",
     "textSimple": "وكذب ٱلذين من قبلهم وما بلغوا معشار مآ ءاتينـهم فكذبوا رسلى  فكيف كان نكير",
     "transliteration": "wakadhaba alladhīna min qablihim wamā balaghū miʿ'shāra mā ātaynāhum fakadhabū rusulī fakayfa kāna nakīri",
-    "translation": "",
+    "translation": "And those before them denied, and they [i.e., the people of Makkah] have not attained a tenth of what We had given them. But they [i.e., the former peoples] denied My messengers, so how [terrible] was My reproach.",
     "words": [
       {
         "id": "saba-45-1",
@@ -5911,7 +5955,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui avaient vécu avant eux avaient également crié au mensonge – or (les Mecquois) n’arrivent même pas au dixième de ce que Nous avions donné (à leurs prédécesseurs) qui avaient osé démentir Mes Messagers. Quelle ne fut alors Ma réprobation !"
   },
   {
     "id": "saba-46",
@@ -5920,7 +5965,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ إِنَّمَآ أَعِظُكُم بِوَٰحِدَةٍ ۖ أَن تَقُومُوا۟ لِلَّهِ مَثْنَىٰ وَفُرَٰدَىٰ ثُمَّ تَتَفَكَّرُوا۟ ۚ مَا بِصَاحِبِكُم مِّن جِنَّةٍ ۚ إِنْ هُوَ إِلَّا نَذِيرٌ لَّكُم بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ",
     "textSimple": " قل إنمآ أعظكم بوحدة  أن تقوموا لله مثنى وفردى ثم تتفكروا  ما بصاحبكم من جنة  إن هو إلا نذير لكم بين يدى عذاب شديد",
     "transliteration": "qul innamā aʿiẓukum biwāḥidatin an taqūmū lillahi mathnā wafurādā thumma tatafakkarū mā biṣāḥibikum min jinnatin in huwa illā nadhīrun lakum bayna yaday ʿadhābin shadīdin",
-    "translation": "",
+    "translation": "Say, \"I only advise you of one [thing] - that you stand for Allāh, [seeking truth] in pairs and individually, and then give thought.\" There is not in your companion any madness. He is only a warner to you before a severe punishment.",
     "words": [
       {
         "id": "saba-46-1",
@@ -6091,7 +6136,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne vous exhorte qu’à une chose : que vous vous leviez (sincèrement) pour Allah, par deux ou chacun de son côté, et que vous méditiez (ce qui est dit de Muhammad). Votre compagnon (Muhammad) n’est atteint d’aucune démence, mais il est là pour vous avertir du terrible supplice qui est au-devant de vous. »"
   },
   {
     "id": "saba-47",
@@ -6100,7 +6146,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَا سَأَلْتُكُم مِّنْ أَجْرٍ فَهُوَ لَكُمْ ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "textSimple": "قل ما سألتكم من أجر فهو لكم  إن أجرى إلا على ٱلله  وهو على كل شىء شهيد",
     "transliteration": "qul mā sa-altukum min ajrin fahuwa lakum in ajriya illā ʿalā l-lahi wahuwa ʿalā kulli shayin shahīdun",
-    "translation": "",
+    "translation": "Say, \"Whatever payment I might have asked of you - it is yours. My payment is only from Allāh, and He is, over all things, Witness.\"",
     "words": [
       {
         "id": "saba-47-1",
@@ -6222,7 +6268,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « La récompense que je vous aurais demandée est à vous. Car ma récompense n’incombe qu'à Allah, Qui est témoin de Toute chose. »"
   },
   {
     "id": "saba-48",
@@ -6231,7 +6278,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ رَبِّى يَقْذِفُ بِٱلْحَقِّ عَلَّـٰمُ ٱلْغُيُوبِ",
     "textSimple": "قل إن ربى يقذف بٱلحق علـم ٱلغيوب",
     "transliteration": "qul inna rabbī yaqdhifu bil-ḥaqi ʿallāmu l-ghuyūbi",
-    "translation": "",
+    "translation": "Say, \"Indeed, my Lord projects the truth, Knower of the unseen.\"",
     "words": [
       {
         "id": "saba-48-1",
@@ -6283,7 +6330,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Mon Seigneur envoie la vérité à Ses Messagers. Il est le Suprême Connaisseur de l’Inconnaissable (ghayb). »"
   },
   {
     "id": "saba-49",
@@ -6292,7 +6340,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ جَآءَ ٱلْحَقُّ وَمَا يُبْدِئُ ٱلْبَـٰطِلُ وَمَا يُعِيدُ",
     "textSimple": "قل جآء ٱلحق وما يبدئ ٱلبـطل وما يعيد",
     "transliteration": "qul jāa l-ḥaqu wamā yub'di-u l-bāṭilu wamā yuʿīdu",
-    "translation": "",
+    "translation": "Say, \"The truth has come, and falsehood can neither begin [anything] nor repeat [it].\"",
     "words": [
       {
         "id": "saba-49-1",
@@ -6351,7 +6399,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « La vérité est venue. L’erreur n’a ni le pouvoir de prendre l’initiative ni de répliquer. »"
   },
   {
     "id": "saba-50",
@@ -6360,7 +6409,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِن ضَلَلْتُ فَإِنَّمَآ أَضِلُّ عَلَىٰ نَفْسِى ۖ وَإِنِ ٱهْتَدَيْتُ فَبِمَا يُوحِىٓ إِلَىَّ رَبِّىٓ ۚ إِنَّهُۥ سَمِيعٌ قَرِيبٌ",
     "textSimple": "قل إن ضللت فإنمآ أضل على نفسى  وإن ٱهتديت فبما يوحىٓ إلى ربىٓ  إنه سميع قريب",
     "transliteration": "qul in ḍalaltu fa-innamā aḍillu ʿalā nafsī wa-ini ih'tadaytu fabimā yūḥī ilayya rabbī innahu samīʿun qarībun",
-    "translation": "",
+    "translation": "Say, \"If I should err, I would only err against myself. But if I am guided, it is by what my Lord reveals to me. Indeed, He is Hearing and near.\"",
     "words": [
       {
         "id": "saba-50-1",
@@ -6475,7 +6524,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis enfin : « Si je m’égare, je ne le fais qu’à mon préjudice. Et si je suis dans la bonne direction, c’est par ce qui m’est révélé de mon Seigneur. Il Entend Tout et Il est Tout Proche. »"
   },
   {
     "id": "saba-51",
@@ -6484,7 +6534,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ تَرَىٰٓ إِذْ فَزِعُوا۟ فَلَا فَوْتَ وَأُخِذُوا۟ مِن مَّكَانٍ قَرِيبٍ",
     "textSimple": "ولو ترىٓ إذ فزعوا فلا فوت وأخذوا من مكان قريب",
     "transliteration": "walaw tarā idh faziʿū falā fawta wa-ukhidhū min makānin qarībin",
-    "translation": "",
+    "translation": "And if you could see when they are terrified but there is no escape, and they will be seized from a place nearby.",
     "words": [
       {
         "id": "saba-51-1",
@@ -6557,7 +6607,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement tu pouvais voir quand, pris de panique, ils n’auront aucune issue par où s’enfuir, et ils seront saisis d’un endroit tout proche !"
   },
   {
     "id": "saba-52",
@@ -6566,7 +6617,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ ءَامَنَّا بِهِۦ وَأَنَّىٰ لَهُمُ ٱلتَّنَاوُشُ مِن مَّكَانٍۭ بَعِيدٍ",
     "textSimple": "وقالوٓا ءامنا به وأنى لهم ٱلتناوش من مكان بعيد",
     "transliteration": "waqālū āmannā bihi wa-annā lahumu l-tanāwushu min makānin baʿīdin",
-    "translation": "",
+    "translation": "And they will [then] say, \"We believe in it!\" But how for them will be the taking [of faith] from a place far away?",
     "words": [
       {
         "id": "saba-52-1",
@@ -6632,7 +6683,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : « Nous croyons en Lui ! » Mais comment sauraient-ils atteindre une foi d’aussi loin ?"
   },
   {
     "id": "saba-53",
@@ -6641,7 +6693,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدْ كَفَرُوا۟ بِهِۦ مِن قَبْلُ ۖ وَيَقْذِفُونَ بِٱلْغَيْبِ مِن مَّكَانٍۭ بَعِيدٍ",
     "textSimple": "وقد كفروا به من قبل  ويقذفون بٱلغيب من مكان بعيد",
     "transliteration": "waqad kafarū bihi min qablu wayaqdhifūna bil-ghaybi min makānin baʿīdin",
-    "translation": "",
+    "translation": "And they had already disbelieved in it before and would assault the unseen from a place far away.",
     "words": [
       {
         "id": "saba-53-1",
@@ -6714,7 +6766,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils avaient, auparavant, mécru en Lui, et voulaient atteindre (de leurs mensonges) l’Inconnaissable (ghayb) depuis un endroit très éloigné."
   },
   {
     "id": "saba-54",
@@ -6723,7 +6776,7 @@ export const SABA_AYAHS: Ayah[] = [
     "textUthmani": "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّ مُّرِيبٍۭ",
     "textSimple": "وحيل بينهم وبين ما يشتهون كما فعل بأشياعهم من قبل  إنهم كانوا فى شك مريب",
     "transliteration": "waḥīla baynahum wabayna mā yashtahūna kamā fuʿila bi-ashyāʿihim min qablu innahum kānū fī shakkin murībin",
-    "translation": "",
+    "translation": "And prevention will be placed between them and what they desire, as was done with their kind before. Indeed, they were in disquieting doubt [i.e., denial].",
     "words": [
       {
         "id": "saba-54-1",
@@ -6831,7 +6884,8 @@ export const SABA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront séparés de ce dont ils auront envie, comme fut le cas de leurs semblables. Ils étaient, en effet, dans un doute troublant."
   }
 ];
 

@@ -11,7 +11,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": " الٓمٓ",
     "textSimple": " الٓمٓ",
     "transliteration": "alif-lam-meem",
-    "translation": "",
+    "translation": "Alif, Lām, Meem.",
     "words": [
       {
         "id": "ali-imran-1-1",
@@ -21,7 +21,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Mîm."
   },
   {
     "id": "ali-imran-2",
@@ -30,7 +31,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
     "textSimple": "ٱلله لآ إلـه إلا هو ٱلحى ٱلقيوم",
     "transliteration": "al-lahu lā ilāha illā huwa l-ḥayu l-qayūmu",
-    "translation": "",
+    "translation": "Allāh - there is no deity except Him, the Ever-Living, the Self-Sustaining.",
     "words": [
       {
         "id": "ali-imran-2-1",
@@ -82,7 +83,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ! point d’autre divinité que Lui, le Vivant, l’Éternel Veilleur sur Toute chose (Al-Qayyûm)."
   },
   {
     "id": "ali-imran-3",
@@ -91,7 +93,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "نَزَّلَ عَلَيْكَ ٱلْكِتَـٰبَ بِٱلْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَأَنزَلَ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ",
     "textSimple": "نزل عليك ٱلكتـب بٱلحق مصدقا لما بين يديه وأنزل ٱلتورىة وٱلإنجيل",
     "transliteration": "nazzala ʿalayka l-kitāba bil-ḥaqi muṣaddiqan limā bayna yadayhi wa-anzala l-tawrāta wal-injīla",
-    "translation": "",
+    "translation": "He has sent down upon you, [O Muḥammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel",
     "words": [
       {
         "id": "ali-imran-3-1",
@@ -171,7 +173,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a fait descendre sur toi (en révélation) le Livre de la Vérité pour confirmer les précédents (Livres). Et Il a fait descendre la Torah et l’Évangile,"
   },
   {
     "id": "ali-imran-4",
@@ -180,7 +183,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ ۗ إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
     "textSimple": "من قبل هدى للناس وأنزل ٱلفرقان  إن ٱلذين كفروا بـٔايـت ٱلله لهم عذاب شديد  وٱلله عزيز ذو ٱنتقام",
     "transliteration": "min qablu hudan lilnnāsi wa-anzala l-fur'qāna inna alladhīna kafarū biāyāti l-lahi lahum ʿadhābun shadīdun wal-lahu ʿazīzun dhū intiqāmin",
-    "translation": "",
+    "translation": "Before, as guidance for the people. And He revealed the Criterion [i.e., the Qur’ān]. Indeed, those who disbelieve in the verses of Allāh will have a severe punishment, and Allāh is Exalted in Might, the Owner of Retribution.",
     "words": [
       {
         "id": "ali-imran-4-1",
@@ -309,7 +312,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dès avant, pour guider (hudâ) les hommes ; et Il a fait descendre (en révélation) le Discernement (Al-Furqân). Ceux qui n’ont pas cru aux Signes d’Allah seront soumis à un terrible supplice. Car Allah est Tout-Puissant et Il a fait Sienne la Vengeance."
   },
   {
     "id": "ali-imran-5",
@@ -318,7 +322,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَىْءٌ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
     "textSimple": "إن ٱلله لا يخفى عليه شىء فى ٱلأرض ولا فى ٱلسمآء",
     "transliteration": "inna l-laha lā yakhfā ʿalayhi shayon fī l-arḍi walā fī l-samāi",
-    "translation": "",
+    "translation": "Indeed, from Allāh nothing is hidden in the earth nor in the heaven.",
     "words": [
       {
         "id": "ali-imran-5-1",
@@ -398,7 +402,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien n’échappe à l’attention d’Allah sur terre et dans les cieux."
   },
   {
     "id": "ali-imran-6",
@@ -407,7 +412,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "هو ٱلذى يصوركم فى ٱلأرحام كيف يشآء  لآ إلـه إلا هو ٱلعزيز ٱلحكيم",
     "transliteration": "huwa alladhī yuṣawwirukum fī l-arḥāmi kayfa yashāu lā ilāha illā huwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "It is He who forms you in the wombs however He wills. There is no deity except Him, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "ali-imran-6-1",
@@ -501,7 +506,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, comme Il veut, vous façonne dans les matrices. Point d’autre divinité que Lui, le Tout- Puissant, le Sage."
   },
   {
     "id": "ali-imran-7",
@@ -510,7 +516,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَـٰبَ مِنْهُ ءَايَـٰتٌ مُّحْكَمَـٰتٌ هُنَّ أُمُّ ٱلْكِتَـٰبِ وَأُخَرُ مُتَشَـٰبِهَـٰتٌ ۖ فَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَـٰبَهَ مِنْهُ ٱبْتِغَآءَ ٱلْفِتْنَةِ وَٱبْتِغَآءَ تَأْوِيلِهِۦ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُۥٓ إِلَّا ٱللَّهُ ۗ وَٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ",
     "textSimple": "هو ٱلذىٓ أنزل عليك ٱلكتـب منه ءايـت محكمـت هن أم ٱلكتـب وأخر متشـبهـت  فأما ٱلذين فى قلوبهم زيغ فيتبعون ما تشـبه منه ٱبتغآء ٱلفتنة وٱبتغآء تأويله  وما يعلم تأويلهٓ إلا ٱلله  وٱلرسخون فى ٱلعلم يقولون ءامنا به كل من عند ربنا  وما يذكر إلآ أولوا ٱلألبـب",
     "transliteration": "huwa alladhī anzala ʿalayka l-kitāba min'hu āyātun muḥ'kamātun hunna ummu l-kitābi wa-ukharu mutashābihātun fa-ammā alladhīna fī qulūbihim zayghun fayattabiʿūna mā tashābaha min'hu ib'tighāa l-fit'nati wa-ib'tighāa tawīlihi wamā yaʿlamu tawīlahu illā l-lahu wal-rāsikhūna fī l-ʿil'mi yaqūlūna āmannā bihi kullun min ʿindi rabbinā wamā yadhakkaru illā ulū l-albābi",
-    "translation": "",
+    "translation": "It is He who has sent down to you, [O Muḥammad], the Book; in it are verses [that are] precise - they are the foundation of the Book - and others unspecific. As for those in whose hearts is deviation [from truth], they will follow that of it which is unspecific, seeking discord and seeking an interpretation [suitable to them]. And no one knows its [true] interpretation except Allāh. But those firm in knowledge say, \"We believe in it. All [of it] is from our Lord.\" And no one will be reminded except those of understanding.",
     "words": [
       {
         "id": "ali-imran-7-1",
@@ -835,7 +841,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 45
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, sur toi, a fait descendre (en révélation) le Livre dont certains versets, clairs et ne prêtant à aucune confusion, sont le fondement de l’Écriture ; d’autres, cependant, ont de multiples sens. Les gens dont les cœurs ont dévié suivent les versets ambigus pour semer la discorde en leur donnant les interprétations (qu’ils veulent) ; or Allah Seul en connaît l’interprétation ; les gens au savoir bien ancré, quant à eux, disent : « Nous y avons cru car Tout vient de notre Seigneur ! » Seuls s’en souviennent, cependant, les esprits sagaces."
   },
   {
     "id": "ali-imran-8",
@@ -844,7 +851,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
     "textSimple": "ربنا لا تزغ قلوبنا بعد إذ هديتنا وهب لنا من لدنك رحمة  إنك أنت ٱلوهاب",
     "transliteration": "rabbanā lā tuzigh qulūbanā baʿda idh hadaytanā wahab lanā min ladunka raḥmatan innaka anta l-wahābu",
-    "translation": "",
+    "translation": "[Who say], \"Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower.",
     "words": [
       {
         "id": "ali-imran-8-1",
@@ -952,7 +959,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Ne fais pas dévier nos cœurs après nous avoir guidés ; donne- nous Ta grâce, car c’est Toi le Suprême Donateur !"
   },
   {
     "id": "ali-imran-9",
@@ -961,7 +969,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
     "textSimple": "ربنآ إنك جامع ٱلناس ليوم لا ريب فيه  إن ٱلله لا يخلف ٱلميعاد",
     "transliteration": "rabbanā innaka jāmiʿu l-nāsi liyawmin lā rayba fīhi inna l-laha lā yukh'lifu l-mīʿāda",
-    "translation": "",
+    "translation": "Our Lord, surely You will gather the people for a Day about which there is no doubt. Indeed, Allāh does not fail in His promise.\"",
     "words": [
       {
         "id": "ali-imran-9-1",
@@ -1055,7 +1063,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Tu es Celui Qui va rassembler les hommes pour un jour à propos duquel il n’y a point de doute. Allah ne manque jamais à Sa promesse."
   },
   {
     "id": "ali-imran-10",
@@ -1064,7 +1073,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَـٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۖ وَأُو۟لَـٰٓئِكَ هُمْ وَقُودُ ٱلنَّارِ",
     "textSimple": "إن ٱلذين كفروا لن تغنى عنهم أمولهم ولآ أولـدهم من ٱلله شيـٔا  وأولـٓئك هم وقود ٱلنار",
     "transliteration": "inna alladhīna kafarū lan tugh'niya ʿanhum amwāluhum walā awlāduhum mina l-lahi shayan wa-ulāika hum waqūdu l-nāri",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve - never will their wealth or their children avail them against Allāh at all. And it is they who are fuel for the Fire.",
     "words": [
       {
         "id": "ali-imran-10-1",
@@ -1179,7 +1188,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru, ni leurs biens ni leur progéniture ne les préserveront (de la colère) d’Allah. Et ce sont eux qui alimenteront le Feu."
   },
   {
     "id": "ali-imran-11",
@@ -1188,7 +1198,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "كَدَأْبِ ءَالِ فِرْعَوْنَ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَـٰتِنَا فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ ۗ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
     "textSimple": "كدأب ءال فرعون وٱلذين من قبلهم  كذبوا بـٔايـتنا فأخذهم ٱلله بذنوبهم  وٱلله شديد ٱلعقاب",
     "transliteration": "kadabi āli fir'ʿawna wa-alladhīna min qablihim kadhabū biāyātinā fa-akhadhahumu l-lahu bidhunūbihim wal-lahu shadīdu l-ʿiqābi",
-    "translation": "",
+    "translation": "[Theirs is] like the custom of the people of Pharaoh and those before them. They denied Our signs, so Allāh seized them for their sins. And Allāh is severe in penalty.",
     "words": [
       {
         "id": "ali-imran-11-1",
@@ -1289,7 +1299,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel fut le cas du peuple de Pharaon, et ceux qui les précédèrent. Ils traitèrent Nos Signes de mensonges, alors Allah les a châtiés pour leurs péchés. Et Allah a le châtiment très dur."
   },
   {
     "id": "ali-imran-12",
@@ -1298,7 +1309,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ ٱلْمِهَادُ",
     "textSimple": "قل للذين كفروا ستغلبون وتحشرون إلى جهنم  وبئس ٱلمهاد",
     "transliteration": "qul lilladhīna kafarū satugh'labūna watuḥ'sharūna ilā jahannama wabi'sa l-mihādu",
-    "translation": "",
+    "translation": "Say to those who disbelieve, \"You will be overcome and gathered together to Hell, and wretched is the resting place.\"",
     "words": [
       {
         "id": "ali-imran-12-1",
@@ -1364,7 +1375,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis à ceux qui ont mécru : « Vous serez vaincus et rassemblés en foule dans la Géhenne ; et alors là, quelle horrible couche ! »"
   },
   {
     "id": "ali-imran-13",
@@ -1373,7 +1385,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ كَانَ لَكُمْ ءَايَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا ۖ فِئَةٌ تُقَـٰتِلُ فِى سَبِيلِ ٱللَّهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ ۚ وَٱللَّهُ يُؤَيِّدُ بِنَصْرِهِۦ مَن يَشَآءُ ۗ إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّأُو۟لِى ٱلْأَبْصَـٰرِ",
     "textSimple": "قد كان لكم ءاية فى فئتين ٱلتقتا  فئة تقـتل فى سبيل ٱلله وأخرى كافرة يرونهم مثليهم رأى ٱلعين  وٱلله يؤيد بنصره من يشآء  إن فى ذلك لعبرة لأولى ٱلأبصـر",
     "transliteration": "qad kāna lakum āyatun fī fi-atayni l-taqatā fi-atun tuqātilu fī sabīli l-lahi wa-ukh'rā kāfiratun yarawnahum mith'layhim raya l-ʿayni wal-lahu yu-ayyidu binaṣrihi man yashāu inna fī dhālika laʿib'ratan li-ulī l-abṣāri",
-    "translation": "",
+    "translation": "Already there has been for you a sign in the two armies which met [in combat at Badr] - one fighting in the cause of Allāh and another of disbelievers. They saw them [to be] twice their [own] number by [their] eyesight. But Allāh supports with His victory whom He wills. Indeed in that is a lesson for those of vision.",
     "words": [
       {
         "id": "ali-imran-13-1",
@@ -1579,7 +1591,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce fut un signe pour vous que cette rencontre de deux troupes dont l’une combattait dans le chemin d’Allah et l’autre était mécréante. Aux yeux (des mécréants), (les croyants) paraissaient le double de ce qu’ils étaient eux-mêmes ; Allah appuie par Son secours qui Il veut et, en cela, il y a une leçon à tirer par les esprits lucides."
   },
   {
     "id": "ali-imran-14",
@@ -1588,7 +1601,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَـٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَـٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
     "textSimple": "زين للناس حب ٱلشهوت من ٱلنسآء وٱلبنين وٱلقنـطير ٱلمقنطرة من ٱلذهب وٱلفضة وٱلخيل ٱلمسومة وٱلأنعـم وٱلحرث  ذلك متـع ٱلحيوة ٱلدنيا  وٱلله عنده حسن ٱلمـٔاب",
     "transliteration": "zuyyina lilnnāsi ḥubbu l-shahawāti mina l-nisāi wal-banīna wal-qanāṭīri l-muqanṭarati mina l-dhahabi wal-fiḍati wal-khayli l-musawamati wal-anʿāmi wal-ḥarthi dhālika matāʿu l-ḥayati l-dun'yā wal-lahu ʿindahu ḥus'nu l-maābi",
-    "translation": "",
+    "translation": "Beautified for people is the love of that which they desire - of women and sons, heaped-up sums of gold and silver, fine branded horses, and cattle and tilled land. That is the enjoyment of worldly life, but Allāh has with Him the best return [i.e., Paradise].",
     "words": [
       {
         "id": "ali-imran-14-1",
@@ -1759,7 +1772,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux yeux des hommes est embelli l’amour des choses convoitées, le penchant pour les femmes et l’attachement porté aux enfants, aux trésors chargés d’or et d’argent amassé, aux chevaux de race, aux bétail et aux cultures des champs. Telles sont les jouissances de ce bas monde ; et ce n’est qu’auprès d’Allah qu’est heureux le retour."
   },
   {
     "id": "ali-imran-15",
@@ -1768,7 +1782,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَٰلِكُمْ ۚ لِلَّذِينَ ٱتَّقَوْا۟ عِندَ رَبِّهِمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا وَأَزْوَٰجٌ مُّطَهَّرَةٌ وَرِضْوَٰنٌ مِّنَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ",
     "textSimple": " قل أؤنبئكم بخير من ذلكم  للذين ٱتقوا عند ربهم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها وأزوج مطهرة ورضون من ٱلله  وٱلله بصير بٱلعباد",
     "transliteration": "qul a-unabbi-ukum bikhayrin min dhālikum lilladhīna ittaqaw ʿinda rabbihim jannātun tajrī min taḥtihā l-anhāru khālidīna fīhā wa-azwājun muṭahharatun wariḍ'wānun mina l-lahi wal-lahu baṣīrun bil-ʿibādi",
-    "translation": "",
+    "translation": "Say, \"Shall I inform you of [something] better than that? For those who fear Allāh will be gardens in the presence of their Lord beneath which rivers flow, wherein they abide eternally, and purified spouses and approval from Allāh. And Allāh is Seeing [i.e., aware] of [His] servants -",
     "words": [
       {
         "id": "ali-imran-15-1",
@@ -1939,7 +1953,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Voulez-vous donc que je vous annonce de bien meilleures nouvelles? Pour ceux qui ont craint (Allah), il y aura auprès de leur Seigneur des jardins sous lesquels coulent les rivières et où ils séjourneront pour l’éternité ; ils y auront des épouses purifiées et l’agrément d’Allah. Et Allah Voit parfaitement Ses serviteurs."
   },
   {
     "id": "ali-imran-16",
@@ -1948,7 +1963,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَقُولُونَ رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
     "textSimple": "ٱلذين يقولون ربنآ إننآ ءامنا فٱغفر لنا ذنوبنا وقنا عذاب ٱلنار",
     "transliteration": "alladhīna yaqūlūna rabbanā innanā āmannā fa-igh'fir lanā dhunūbanā waqinā ʿadhāba l-nāri",
-    "translation": "",
+    "translation": "Those who say, \"Our Lord, indeed we have believed, so forgive us our sins and protect us from the punishment of the Fire,\"",
     "words": [
       {
         "id": "ali-imran-16-1",
@@ -2028,7 +2043,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là disent : « Ô Seigneur ! Nous avons cru ! Alors pardonne-nous nos péchés et préserve-nous du supplice du Feu ! »"
   },
   {
     "id": "ali-imran-17",
@@ -2037,7 +2053,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلصَّـٰبِرِينَ وَٱلصَّـٰدِقِينَ وَٱلْقَـٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ",
     "textSimple": "ٱلصـبرين وٱلصـدقين وٱلقـنتين وٱلمنفقين وٱلمستغفرين بٱلأسحار",
     "transliteration": "al-ṣābirīna wal-ṣādiqīna wal-qānitīna wal-munfiqīna wal-mus'taghfirīna bil-asḥāri",
-    "translation": "",
+    "translation": "The patient, the true, the obedient, those who spend [in the way of Allāh], and those who seek forgiveness before dawn.",
     "words": [
       {
         "id": "ali-imran-17-1",
@@ -2082,7 +2098,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont les persévérants, les véridiques et les soumis ; ceux qui dépensent sans compter (pour la cause d’Allah) et ceux qui implorent le pardon d’Allah dès avant l’aube."
   },
   {
     "id": "ali-imran-18",
@@ -2091,7 +2108,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "شهد ٱلله أنه لآ إلـه إلا هو وٱلملـٓئكة وأولوا ٱلعلم قآئما بٱلقسط  لآ إلـه إلا هو ٱلعزيز ٱلحكيم",
     "transliteration": "shahida l-lahu annahu lā ilāha illā huwa wal-malāikatu wa-ulū l-ʿil'mi qāiman bil-qis'ṭi lā ilāha illā huwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Allāh witnesses that there is no deity except Him, and [so do] the angels and those of knowledge - [that He is] maintaining [creation] in justice. There is no deity except Him, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "ali-imran-18-1",
@@ -2220,7 +2237,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah atteste, ainsi que les Anges et les initiés à la science, qu’il n’y a point d’autre divinité que Lui, Qui assure le maintien de la justice. Point d’autre divinité que Lui, le Tout- Puissant, le Sage."
   },
   {
     "id": "ali-imran-19",
@@ -2229,7 +2247,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَـٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَـٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
     "textSimple": "إن ٱلدين عند ٱلله ٱلإسلـم  وما ٱختلف ٱلذين أوتوا ٱلكتـب إلا من بعد ما جآءهم ٱلعلم بغيا بينهم  ومن يكفر بـٔايـت ٱلله فإن ٱلله سريع ٱلحساب",
     "transliteration": "inna l-dīna ʿinda l-lahi l-is'lāmu wamā ikh'talafa alladhīna ūtū l-kitāba illā min baʿdi mā jāahumu l-ʿil'mu baghyan baynahum waman yakfur biāyāti l-lahi fa-inna l-laha sarīʿu l-ḥisābi",
-    "translation": "",
+    "translation": "Indeed, the religion in the sight of Allāh is Islām. And those who were given the Scripture did not differ except after knowledge had come to them - out of jealous animosity between themselves. And whoever disbelieves in the verses of Allāh, then indeed, Allāh is swift in [taking] account.",
     "words": [
       {
         "id": "ali-imran-19-1",
@@ -2414,7 +2432,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La (seule) religion est, pour Allah, l’Islam. Ceux à qui fut révélé le Livre ne tombèrent en désaccord, par hostilité des uns envers les autres, qu’après que la science leur fut venue. Et celui qui renie les Signes d’Allah (doit savoir qu’) Allah est prompt à dresser les comptes."
   },
   {
     "id": "ali-imran-20",
@@ -2423,7 +2442,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَٱلْأُمِّيِّـۧنَ ءَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا۟ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا عَلَيْكَ ٱلْبَلَـٰغُ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ",
     "textSimple": "فإن حآجوك فقل أسلمت وجهى لله ومن ٱتبعن  وقل للذين أوتوا ٱلكتـب وٱلأميـن ءأسلمتم  فإن أسلموا فقد ٱهتدوا  وإن تولوا فإنما عليك ٱلبلـغ  وٱلله بصير بٱلعباد",
     "transliteration": "fa-in ḥājjūka faqul aslamtu wajhiya lillahi wamani ittabaʿani waqul lilladhīna ūtū l-kitāba wal-umiyīna a-aslamtum fa-in aslamū faqadi ih'tadaw wa-in tawallaw fa-innamā ʿalayka l-balāghu wal-lahu baṣīrun bil-ʿibādi",
-    "translation": "",
+    "translation": "So if they argue with you, say, \"I have submitted myself to Allāh [in Islām], and [so have] those who follow me.\" And say to those who were given the Scripture and [to] the unlearned, \"Have you submitted yourselves?\" And if they submit [in Islām], they are rightly guided; but if they turn away - then upon you is only the [duty of] notification. And Allāh is Seeing of [His] servants.",
     "words": [
       {
         "id": "ali-imran-20-1",
@@ -2608,7 +2627,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te disputent (de cela), dis-leur : « Je m’en suis remis à Allah, avec ceux qui m’ont suivi. » Et dis à ceux à qui le Livre fut révélé ainsi qu’aux illettrés : « Êtes-vous entrés en Islam ? » S’ils ont embrassé l’Islam, ils se seront engagés sur la juste voie (ihtadaw), et s’ils s’en détournent, tu n’auras pas failli à ton devoir de leur transmettre (ton message). Et Allah Voit parfaitement Ses serviteurs."
   },
   {
     "id": "ali-imran-21",
@@ -2617,7 +2637,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ ٱلَّذِينَ يَأْمُرُونَ بِٱلْقِسْطِ مِنَ ٱلنَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
     "textSimple": "إن ٱلذين يكفرون بـٔايـت ٱلله ويقتلون ٱلنبيـن بغير حق ويقتلون ٱلذين يأمرون بٱلقسط من ٱلناس فبشرهم بعذاب أليم",
     "transliteration": "inna alladhīna yakfurūna biāyāti l-lahi wayaqtulūna l-nabiyīna bighayri ḥaqqin wayaqtulūna alladhīna yamurūna bil-qis'ṭi mina l-nāsi fabashir'hum biʿadhābin alīmin",
-    "translation": "",
+    "translation": "Those who disbelieve in the signs of Allāh and kill the prophets without right and kill those who order justice from among the people - give them tidings of a painful punishment.",
     "words": [
       {
         "id": "ali-imran-21-1",
@@ -2746,7 +2766,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont renié les Signes d’Allah, qui tuent indûment les Prophètes, et tuent ceux qui demandent aux hommes d’être justes, annonce-leur un terrible supplice."
   },
   {
     "id": "ali-imran-22",
@@ -2755,7 +2776,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ حَبِطَتْ أَعْمَـٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِينَ",
     "textSimple": "أولـٓئك ٱلذين حبطت أعمـلهم فى ٱلدنيا وٱلـٔاخرة وما لهم من نـصرين",
     "transliteration": "ulāika alladhīna ḥabiṭat aʿmāluhum fī l-dun'yā wal-ākhirati wamā lahum min nāṣirīna",
-    "translation": "",
+    "translation": "They are the ones whose deeds have become worthless in this world and the Hereafter, and for them there will be no helpers.",
     "words": [
       {
         "id": "ali-imran-22-1",
@@ -2835,7 +2856,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà ceux dont les œuvres ont échoué dans ce bas monde et dans l’autre ; et ils n’auront aucun allié."
   },
   {
     "id": "ali-imran-23",
@@ -2844,7 +2866,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَـٰبِ يُدْعَوْنَ إِلَىٰ كِتَـٰبِ ٱللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُمْ وَهُم مُّعْرِضُونَ",
     "textSimple": "ألم تر إلى ٱلذين أوتوا نصيبا من ٱلكتـب يدعون إلى كتـب ٱلله ليحكم بينهم ثم يتولى فريق منهم وهم معرضون",
     "transliteration": "alam tara ilā alladhīna ūtū naṣīban mina l-kitābi yud'ʿawna ilā kitābi l-lahi liyaḥkuma baynahum thumma yatawallā farīqun min'hum wahum muʿ'riḍūna",
-    "translation": "",
+    "translation": "Do you not consider, [O Muḥammad], those who were given a portion of the Scripture? They are invited to the Scripture of Allāh that it should arbitrate between them; then a party of them turns away, and they are refusing.",
     "words": [
       {
         "id": "ali-imran-23-1",
@@ -2987,7 +3009,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu donc pas vu ceux qui ont reçu une partie du Livre, comment ils sont invités au Livre d’Allah afin qu’il soit leur juge mais voilà qu’un clan parmi eux refuse et s’en détourne ?"
   },
   {
     "id": "ali-imran-24",
@@ -2996,7 +3019,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامًا مَّعْدُودَٰتٍ ۖ وَغَرَّهُمْ فِى دِينِهِم مَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "ذلك بأنهم قالوا لن تمسنا ٱلنار إلآ أياما معدودت  وغرهم فى دينهم ما كانوا يفترون",
     "transliteration": "dhālika bi-annahum qālū lan tamassanā l-nāru illā ayyāman maʿdūdātin wagharrahum fī dīnihim mā kānū yaftarūna",
-    "translation": "",
+    "translation": "That is because they say, \"Never will the Fire touch us except for [a few] numbered days,\" and [because] they were deluded in their religion by what they were inventing.",
     "words": [
       {
         "id": "ali-imran-24-1",
@@ -3104,7 +3127,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car ils ont dit : « Le Feu ne nous touchera que pendant un certain nombre de jours. » C’est certes ce mensonge qui les abuse au sujet de leur religion."
   },
   {
     "id": "ali-imran-25",
@@ -3113,7 +3137,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ إِذَا جَمَعْنَـٰهُمْ لِيَوْمٍ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "فكيف إذا جمعنـهم ليوم لا ريب فيه ووفيت كل نفس ما كسبت وهم لا يظلمون",
     "transliteration": "fakayfa idhā jamaʿnāhum liyawmin lā rayba fīhi wawuffiyat kullu nafsin mā kasabat wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "So how will it be when We assemble them for a Day about which there is no doubt? And each soul will be compensated [in full for] what it earned, and they will not be wronged.",
     "words": [
       {
         "id": "ali-imran-25-1",
@@ -3221,7 +3245,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que dire alors quand Nous les aurons rassemblés en un jour à propos duquel il n’y aura point de doute, lorsque toute âme sera rétribuée à la juste valeur de ses actions ? Et ils n’y seront point lésés."
   },
   {
     "id": "ali-imran-26",
@@ -3230,7 +3255,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "قل ٱللهم مـلك ٱلملك تؤتى ٱلملك من تشآء وتنزع ٱلملك ممن تشآء وتعز من تشآء وتذل من تشآء  بيدك ٱلخير  إنك على كل شىء قدير",
     "transliteration": "quli l-lahuma mālika l-mul'ki tu'tī l-mul'ka man tashāu watanziʿu l-mul'ka mimman tashāu watuʿizzu man tashāu watudhillu man tashāu biyadika l-khayru innaka ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Say, \"O Allāh, Owner of Sovereignty, You give sovereignty to whom You will and You take sovereignty away from whom You will. You honor whom You will and You humble whom You will. In Your hand is [all] good. Indeed, You are over all things competent.",
     "words": [
       {
         "id": "ali-imran-26-1",
@@ -3408,7 +3433,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Seigneur ! Possesseur de la Royauté! Tu accordes la souveraineté à qui Tu veux, et Tu en dépossèdes qui Tu veux ! Tu élèves à la puissance qui Tu veux, et tu ravales à l’humiliation qui Tu veux ! Dans Ta Main (Tu tiens) le bien, car Tu es de Toute chose Infiniment Capable."
   },
   {
     "id": "ali-imran-27",
@@ -3417,7 +3443,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ",
     "textSimple": "تولج ٱليل فى ٱلنهار وتولج ٱلنهار فى ٱليل  وتخرج ٱلحى من ٱلميت وتخرج ٱلميت من ٱلحى  وترزق من تشآء بغير حساب",
     "transliteration": "tūliju al-layla fī l-nahāri watūliju l-nahāra fī al-layli watukh'riju l-ḥaya mina l-mayiti watukh'riju l-mayita mina l-ḥayi watarzuqu man tashāu bighayri ḥisābin",
-    "translation": "",
+    "translation": "You cause the night to enter the day, and You cause the day to enter the night; and You bring the living out of the dead, and You bring the dead out of the living. And You give provision to whom You will without account [i.e., limit or measure].\"",
     "words": [
       {
         "id": "ali-imran-27-1",
@@ -3567,7 +3593,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu fais entrer la nuit dans le jour, et Tu fais entrer le jour dans la nuit ; Tu fais sortir le vivant du mort, et Tu fais sortir le mort du vivant ; et Tu dispenses Tes biens à qui Tu veux, sans compter."
   },
   {
     "id": "ali-imran-28",
@@ -3576,7 +3603,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَتَّخِذِ ٱلْمُؤْمِنُونَ ٱلْكَـٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۖ وَمَن يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ ٱللَّهِ فِى شَىْءٍ إِلَّآ أَن تَتَّقُوا۟ مِنْهُمْ تُقَىٰةً ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
     "textSimple": "لا يتخذ ٱلمؤمنون ٱلكـفرين أوليآء من دون ٱلمؤمنين  ومن يفعل ذلك فليس من ٱلله فى شىء إلآ أن تتقوا منهم تقىة  ويحذركم ٱلله نفسه  وإلى ٱلله ٱلمصير",
     "transliteration": "lā yattakhidhi l-mu'minūna l-kāfirīna awliyāa min dūni l-mu'minīna waman yafʿal dhālika falaysa mina l-lahi fī shayin illā an tattaqū min'hum tuqātan wayuḥadhirukumu l-lahu nafsahu wa-ilā l-lahi l-maṣīru",
-    "translation": "",
+    "translation": "Let not believers take disbelievers as allies [i.e., supporters or protectors] rather than believers. And whoever [of you] does that has nothing [i.e., no association] with Allāh, except when taking precaution against them in prudence. And Allāh warns you of Himself, and to Allāh is the [final] destination.",
     "words": [
       {
         "id": "ali-imran-28-1",
@@ -3768,7 +3795,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que les croyants ne prennent pas les mécréants pour alliés en dehors des croyants ! Celui qui agira de la sorte ne peut se réclamer en rien d’Allah ; à moins que ce soit par crainte qu’ils ne vous nuisent. Allah vous avertit que c’est Lui qu’il faut craindre. Et c’est vers Allah que sera le devenir."
   },
   {
     "id": "ali-imran-29",
@@ -3777,7 +3805,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِن تُخْفُوا۟ مَا فِى صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ ٱللَّهُ ۗ وَيَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "قل إن تخفوا ما فى صدوركم أو تبدوه يعلمه ٱلله  ويعلم ما فى ٱلسمـوت وما فى ٱلأرض  وٱلله على كل شىء قدير",
     "transliteration": "qul in tukh'fū mā fī ṣudūrikum aw tub'dūhu yaʿlamhu l-lahu wayaʿlamu mā fī l-samāwāti wamā fī l-arḍi wal-lahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Say, \"Whether you conceal what is in your breasts or reveal it, Allāh knows it. And He knows that which is in the heavens and that which is on the earth. And Allāh is over all things competent.",
     "words": [
       {
         "id": "ali-imran-29-1",
@@ -3934,7 +3962,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si vous cachez ce qui est dans vos poitrines, ou vous le montrez, Allah le Sait. Et Il Sait ce qui est dans les cieux et sur terre, et Allah est de Toute chose Infiniment Capable. »"
   },
   {
     "id": "ali-imran-30",
@@ -3943,7 +3972,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا وَمَا عَمِلَتْ مِن سُوٓءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَدًۢا بَعِيدًا ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ",
     "textSimple": "يوم تجد كل نفس ما عملت من خير محضرا وما عملت من سوٓء تود لو أن بينها وبينهٓ أمدا بعيدا  ويحذركم ٱلله نفسه  وٱلله رءوف بٱلعباد",
     "transliteration": "yawma tajidu kullu nafsin mā ʿamilat min khayrin muḥ'ḍaran wamā ʿamilat min sūin tawaddu law anna baynahā wabaynahu amadan baʿīdan wayuḥadhirukumu l-lahu nafsahu wal-lahu raūfun bil-ʿibādi",
-    "translation": "",
+    "translation": "The Day every soul will find what it has done of good present [before it] and what it has done of evil, it will wish that between itself and that [evil] was a great distance. And Allāh warns you of Himself, and Allāh is Kind to [His] servants.\"",
     "words": [
       {
         "id": "ali-imran-30-1",
@@ -4128,7 +4157,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour (viendra) où toute âme sera mise en présence du bien qu’elle aura fait, et du mal qu’elle aura commis. Elle souhaitera alors qu’il y ait entre elle et ce mal une grande distance ! Allah vous avertit que c’est Lui qu’il faut craindre, Allah est Compatissant envers Ses serviteurs !"
   },
   {
     "id": "ali-imran-31",
@@ -4137,7 +4167,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِن كُنتُمْ تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "قل إن كنتم تحبون ٱلله فٱتبعونى يحببكم ٱلله ويغفر لكم ذنوبكم  وٱلله غفور رحيم",
     "transliteration": "qul in kuntum tuḥibbūna l-laha fa-ittabiʿūnī yuḥ'bib'kumu l-lahu wayaghfir lakum dhunūbakum wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"If you should love Allāh, then follow me, [so] Allāh will love you and forgive you your sins. And Allāh is Forgiving and Merciful.\"",
     "words": [
       {
         "id": "ali-imran-31-1",
@@ -4238,7 +4268,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui, parmi vous, aime Allah me suive ! Allah vous aimera alors et vous pardonnera vos péchés ; et Allah est Tout Absoluteur,Tout Miséricordieux ! »"
   },
   {
     "id": "ali-imran-32",
@@ -4247,7 +4278,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ ۖ فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْكَـٰفِرِينَ",
     "textSimple": "قل أطيعوا ٱلله وٱلرسول  فإن تولوا فإن ٱلله لا يحب ٱلكـفرين",
     "transliteration": "qul aṭīʿū l-laha wal-rasūla fa-in tawallaw fa-inna l-laha lā yuḥibbu l-kāfirīna",
-    "translation": "",
+    "translation": "Say, \"Obey Allāh and the Messenger. But if you turn away - then indeed, Allāh does not like the disbelievers.\"",
     "words": [
       {
         "id": "ali-imran-32-1",
@@ -4327,7 +4358,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Obéissez à Allah et au Messager. » Et s’ils se détournent, (qu’ils sachent qu’) Allah n’aime pas les mécréants. »"
   },
   {
     "id": "ali-imran-33",
@@ -4336,7 +4368,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ ٱصْطَفَىٰٓ ءَادَمَ وَنُوحًا وَءَالَ إِبْرَٰهِيمَ وَءَالَ عِمْرَٰنَ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": " إن ٱلله ٱصطفىٓ ءادم ونوحا وءال إبرهيم وءال عمرن على ٱلعـلمين",
     "transliteration": "inna l-laha iṣ'ṭafā ādama wanūḥan waāla ib'rāhīma waāla ʿim'rāna ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "Indeed, Allāh chose Adam and Noah and the family of Abraham and the family of ʿImrān over the worlds -",
     "words": [
       {
         "id": "ali-imran-33-1",
@@ -4416,7 +4448,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a élu Adam, Noé, la famille d’Abraham et la famille d’Imrân, les préférant au reste des hommes."
   },
   {
     "id": "ali-imran-34",
@@ -4425,7 +4458,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ذُرِّيَّةًۢ بَعْضُهَا مِنۢ بَعْضٍ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
     "textSimple": "ذرية بعضها من بعض  وٱلله سميع عليم",
     "transliteration": "dhurriyyatan baʿḍuhā min baʿḍin wal-lahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "Descendants, some of them from others. And Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "ali-imran-34-1",
@@ -4477,7 +4510,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont des descendances issues les unes des autres, et Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "ali-imran-35",
@@ -4486,7 +4520,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًا فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "إذ قالت ٱمرأت عمرن رب إنى نذرت لك ما فى بطنى محررا فتقبل منىٓ  إنك أنت ٱلسميع ٱلعليم",
     "transliteration": "idh qālati im'ra-atu ʿim'rāna rabbi innī nadhartu laka mā fī baṭnī muḥarraran fataqabbal minnī innaka anta l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "[Mention, O Muḥammad], when the wife of ʿImrān said, \"My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service], so accept this from me. Indeed, You are the Hearing, the Knowing.\"",
     "words": [
       {
         "id": "ali-imran-35-1",
@@ -4615,7 +4649,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi) lorsque la femme d’Imrân dit : « Je Te voue en exclusivité ce que je porte dans mon ventre. Veuille donc l’accepter de moi, Toi Qui Entends Tout, Toi Qui es Omniscient ! »"
   },
   {
     "id": "ali-imran-36",
@@ -4624,7 +4659,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَـٰنِ ٱلرَّجِيمِ",
     "textSimple": "فلما وضعتها قالت رب إنى وضعتهآ أنثى وٱلله أعلم بما وضعت وليس ٱلذكر كٱلأنثى  وإنى سميتها مريم وإنىٓ أعيذها بك وذريتها من ٱلشيطـن ٱلرجيم",
     "transliteration": "falammā waḍaʿathā qālat rabbi innī waḍaʿtuhā unthā wal-lahu aʿlamu bimā waḍaʿat walaysa l-dhakaru kal-unthā wa-innī sammaytuhā maryama wa-innī uʿīdhuhā bika wadhurriyyatahā mina l-shayṭāni l-rajīmi",
-    "translation": "",
+    "translation": "But when she delivered her, she said, \"My Lord, I have delivered a female.\" And Allāh was most knowing of what she delivered, and the male is not like the female. \"And I have named her Mary, and I seek refuge for her in You and [for] her descendants from Satan, the expelled [from the mercy of Allāh].\"",
     "words": [
       {
         "id": "ali-imran-36-1",
@@ -4795,7 +4830,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand elle l’eut mise au monde, elle dit : « J’ai accouché d’une fille. » Allah savait mieux ce qu’elle avait mis au monde. « Et le garçon n’est certes pas comme la fille. Je l’ai nommée Marie, dit-elle, et je cherche refuge auprès de Toi, pour elle et pour sa descendance, contre Satan le lapidé. »"
   },
   {
     "id": "ali-imran-37",
@@ -4804,7 +4840,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنۢبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَـٰمَرْيَمُ أَنَّىٰ لَكِ هَـٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
     "textSimple": "فتقبلها ربها بقبول حسن وأنبتها نباتا حسنا وكفلها زكريا  كلما دخل عليها زكريا ٱلمحراب وجد عندها رزقا  قال يـمريم أنى لك هـذا  قالت هو من عند ٱلله  إن ٱلله يرزق من يشآء بغير حساب",
     "transliteration": "fataqabbalahā rabbuhā biqabūlin ḥasanin wa-anbatahā nabātan ḥasanan wakaffalahā zakariyyā kullamā dakhala ʿalayhā zakariyyā l-miḥ'rāba wajada ʿindahā riz'qan qāla yāmaryamu annā laki hādhā qālat huwa min ʿindi l-lahi inna l-laha yarzuqu man yashāu bighayri ḥisābin",
-    "translation": "",
+    "translation": "So her Lord accepted her with good acceptance and caused her to grow in a good manner and put her in the care of Zechariah. Every time Zechariah entered upon her in the prayer chamber, he found with her provision. He said, \"O Mary, from where is this [coming] to you?\" She said, \"It is from Allāh. Indeed, Allāh provides for whom He wills without account.\"",
     "words": [
       {
         "id": "ali-imran-37-1",
@@ -5045,7 +5081,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son Seigneur l’a alors accueillie du meilleur accueil, l’a fait croître de la meilleure croissance et l’a confiée à la garde de Zacharie. Or chaque fois que Zacharie entrait dans le sanctuaire, il trouvait près d’elle de la nourriture. « Ô Marie ! D’où cela te vient-il ? » lui demandait-il. « Cela est d’Allah, car Allah dispense Ses biens à qui Il veut, sans compter ! »"
   },
   {
     "id": "ali-imran-38",
@@ -5054,7 +5091,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُۥ ۖ قَالَ رَبِّ هَبْ لِى مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
     "textSimple": "هنالك دعا زكريا ربه  قال رب هب لى من لدنك ذرية طيبة  إنك سميع ٱلدعآء",
     "transliteration": "hunālika daʿā zakariyyā rabbahu qāla rabbi hab lī min ladunka dhurriyyatan ṭayyibatan innaka samīʿu l-duʿāi",
-    "translation": "",
+    "translation": "At that, Zechariah called upon his Lord, saying, \"My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication.\"",
     "words": [
       {
         "id": "ali-imran-38-1",
@@ -5162,7 +5199,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Zacharie invoqua alors son Seigneur en disant : « Seigneur ! Donne-moi une bonne descendance, car c’est Toi Qui Entends Toute prière ! »"
   },
   {
     "id": "ali-imran-39",
@@ -5171,7 +5209,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "فنادته ٱلملـٓئكة وهو قآئم يصلى فى ٱلمحراب أن ٱلله يبشرك بيحيى مصدقا بكلمة من ٱلله وسيدا وحصورا ونبيا من ٱلصـلحين",
     "transliteration": "fanādathu l-malāikatu wahuwa qāimun yuṣallī fī l-miḥ'rābi anna l-laha yubashiruka biyaḥyā muṣaddiqan bikalimatin mina l-lahi wasayyidan waḥaṣūran wanabiyyan mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "So the angels called him while he was standing in prayer in the chamber, \"Indeed, Allāh gives you good tidings of John, confirming a word from Allāh and [who will be] honorable, abstaining [from women], and a prophet from among the righteous.\"",
     "words": [
       {
         "id": "ali-imran-39-1",
@@ -5314,7 +5352,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Anges l’appelèrent aussitôt, pendant qu’il était debout et priait dans le sanctuaire : « Allah t’annonce une heureuse nouvelle : la naissance prochaine de Yahia (Jean), qui viendra confirmer la Parole d’Allah. Ce sera un homme d’une grande noblesse, chaste et un Prophète parmi les vertueux. »"
   },
   {
     "id": "ali-imran-40",
@@ -5323,7 +5362,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَـٰمٌ وَقَدْ بَلَغَنِىَ ٱلْكِبَرُ وَٱمْرَأَتِى عَاقِرٌ ۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفْعَلُ مَا يَشَآءُ",
     "textSimple": "قال رب أنى يكون لى غلـم وقد بلغنى ٱلكبر وٱمرأتى عاقر  قال كذلك ٱلله يفعل ما يشآء",
     "transliteration": "qāla rabbi annā yakūnu lī ghulāmun waqad balaghaniya l-kibaru wa-im'ra-atī ʿāqirun qāla kadhālika l-lahu yafʿalu mā yashāu",
-    "translation": "",
+    "translation": "He said, \"My Lord, how will I have a boy when I have reached old age and my wife is barren?\" He [the angel] said, \"Such is Allāh; He does what He wills.\"",
     "words": [
       {
         "id": "ali-imran-40-1",
@@ -5445,7 +5484,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur ! Comment pourrait-il me naître un garçon alors que je suis atteint par le grand âge et que ma femme est stérile ? » (Allah) répondit : « Ainsi en sera-t-il, Allah fait ce qu’Il veut. »"
   },
   {
     "id": "ali-imran-41",
@@ -5454,7 +5494,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةً ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَـٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَـٰرِ",
     "textSimple": "قال رب ٱجعل لىٓ ءاية  قال ءايتك ألا تكلم ٱلناس ثلـثة أيام إلا رمزا  وٱذكر ربك كثيرا وسبح بٱلعشى وٱلإبكـر",
     "transliteration": "qāla rabbi ij'ʿal lī āyatan qāla āyatuka allā tukallima l-nāsa thalāthata ayyāmin illā ramzan wa-udh'kur rabbaka kathīran wasabbiḥ bil-ʿashiyi wal-ib'kāri",
-    "translation": "",
+    "translation": "He said, \"My Lord, make for me a sign.\" He said, \"Your sign is that you will not [be able to] speak to the people for three days except by gesture. And remember your Lord much and exalt [Him with praise] in the evening and the morning.\"",
     "words": [
       {
         "id": "ali-imran-41-1",
@@ -5597,7 +5637,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur ! Que me vienne un signe de Toi ! » – « Ton signe, répondit Allah, sera de t’abstenir de parler aux gens pendant trois jours, si ce n’est par gestes. Invoque abondamment ton Seigneur, rends-Lui gloire, matin et soir ! »"
   },
   {
     "id": "ali-imran-42",
@@ -5606,7 +5647,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ ٱصْطَفَىٰكِ وَطَهَّرَكِ وَٱصْطَفَىٰكِ عَلَىٰ نِسَآءِ ٱلْعَـٰلَمِينَ",
     "textSimple": "وإذ قالت ٱلملـٓئكة يـمريم إن ٱلله ٱصطفىك وطهرك وٱصطفىك على نسآء ٱلعـلمين",
     "transliteration": "wa-idh qālati l-malāikatu yāmaryamu inna l-laha iṣ'ṭafāki waṭahharaki wa-iṣ'ṭafāki ʿalā nisāi l-ʿālamīna",
-    "translation": "",
+    "translation": "And [mention] when the angels said, \"O Mary, indeed Allāh has chosen you and purified you and chosen you above the women of the worlds.",
     "words": [
       {
         "id": "ali-imran-42-1",
@@ -5693,7 +5734,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi) quand les Anges dirent : « Ô Marie ! Allah t’a élue, t’a purifiée et t’a privilégiée par rapport à toutes les femmes du monde. »"
   },
   {
     "id": "ali-imran-43",
@@ -5702,7 +5744,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ",
     "textSimple": "يـمريم ٱقنتى لربك وٱسجدى وٱركعى مع ٱلركعين",
     "transliteration": "yāmaryamu uq'nutī lirabbiki wa-us'judī wa-ir'kaʿī maʿa l-rākiʿīna",
-    "translation": "",
+    "translation": "O Mary, be devoutly obedient to your Lord and prostrate and bow with those who bow [in prayer].\"",
     "words": [
       {
         "id": "ali-imran-43-1",
@@ -5754,7 +5796,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Marie ! obéis humblement à ton Seigneur, prosterne-toi, et incline-toi avec ceux qui s’inclinent. »"
   },
   {
     "id": "ali-imran-44",
@@ -5763,7 +5806,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَـٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
     "textSimple": "ذلك من أنبآء ٱلغيب نوحيه إليك  وما كنت لديهم إذ يلقون أقلـمهم أيهم يكفل مريم وما كنت لديهم إذ يختصمون",
     "transliteration": "dhālika min anbāi l-ghaybi nūḥīhi ilayka wamā kunta ladayhim idh yul'qūna aqlāmahum ayyuhum yakfulu maryama wamā kunta ladayhim idh yakhtaṣimūna",
-    "translation": "",
+    "translation": "That is from the news of the unseen which We reveal to you, [O Muḥammad]. And you were not with them when they cast their pens as to which of them should be responsible for Mary. Nor were you with them when they disputed.",
     "words": [
       {
         "id": "ali-imran-44-1",
@@ -5906,7 +5949,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà des nouvelles de l’Inconnaissable (ghayb) que Nous t’inspirons, toi qui n’étais point présent lorsqu’ils jetaient leurs calames pour savoir qui d’entre eux devait se charger de Marie, toi qui n’étais point présent, non plus lorsqu’ils se disputaient."
   },
   {
     "id": "ali-imran-45",
@@ -5915,7 +5959,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَتِ ٱلْمَلَـٰٓئِكَةُ يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ وَجِيهًا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمِنَ ٱلْمُقَرَّبِينَ",
     "textSimple": "إذ قالت ٱلملـٓئكة يـمريم إن ٱلله يبشرك بكلمة منه ٱسمه ٱلمسيح عيسى ٱبن مريم وجيها فى ٱلدنيا وٱلـٔاخرة ومن ٱلمقربين",
     "transliteration": "idh qālati l-malāikatu yāmaryamu inna l-laha yubashiruki bikalimatin min'hu us'muhu l-masīḥu ʿīsā ub'nu maryama wajīhan fī l-dun'yā wal-ākhirati wamina l-muqarabīna",
-    "translation": "",
+    "translation": "[And mention] when the angels said, \"O Mary, indeed Allāh gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allāh].",
     "words": [
       {
         "id": "ali-imran-45-1",
@@ -6058,7 +6102,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand les Anges dirent : « Ô Marie ! Voici l’heureuse nouvelle qu’Allah t’annonce : la venue d’une Parole de Sa part dont le nom sera le Messie, Jésus fils de Marie, illustre ici-bas et dans l’au-delà, et il est du nombre des rapprochés (d’Allah). »"
   },
   {
     "id": "ali-imran-46",
@@ -6067,7 +6112,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "ويكلم ٱلناس فى ٱلمهد وكهلا ومن ٱلصـلحين",
     "transliteration": "wayukallimu l-nāsa fī l-mahdi wakahlan wamina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "He will speak to the people in the cradle and in maturity and will be of the righteous.\"",
     "words": [
       {
         "id": "ali-imran-46-1",
@@ -6119,7 +6164,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il parlera aux hommes depuis le berceau et à l’âge mûr ; et il sera du nombre des vertueux."
   },
   {
     "id": "ali-imran-47",
@@ -6128,7 +6174,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌ وَلَمْ يَمْسَسْنِى بَشَرٌ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
     "textSimple": "قالت رب أنى يكون لى ولد ولم يمسسنى بشر  قال كذلك ٱلله يخلق ما يشآء  إذا قضىٓ أمرا فإنما يقول له كن فيكون",
     "transliteration": "qālat rabbi annā yakūnu lī waladun walam yamsasnī basharun qāla kadhāliki l-lahu yakhluqu mā yashāu idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu",
-    "translation": "",
+    "translation": "She said, \"My Lord, how will I have a child when no man has touched me?\" [The angel] said, \"Such is Allāh; He creates what He wills. When He decrees a matter, He only says to it, 'Be,' and it is.",
     "words": [
       {
         "id": "ali-imran-47-1",
@@ -6292,7 +6338,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle dit : « Seigneur ! Comment pourrais-je avoir un enfant alors qu’aucun homme ne m’a touchée ? » « Ainsi en sera-t-il, répondit-il, Allah crée ce qu’Il veut. Il Lui suffit, quand il décrète une chose, qu’Il lui dise : « Sois » et, aussitôt, elle est."
   },
   {
     "id": "ali-imran-48",
@@ -6301,7 +6348,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيُعَلِّمُهُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ",
     "textSimple": "ويعلمه ٱلكتـب وٱلحكمة وٱلتورىة وٱلإنجيل",
     "transliteration": "wayuʿallimuhu l-kitāba wal-ḥik'mata wal-tawrāta wal-injīla",
-    "translation": "",
+    "translation": "And He will teach him writing and wisdom and the Torah and the Gospel",
     "words": [
       {
         "id": "ali-imran-48-1",
@@ -6339,7 +6386,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Il lui enseignera l’écriture, la sagesse, la Torah et l’Évangile,"
   },
   {
     "id": "ali-imran-49",
@@ -6348,7 +6396,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "ورسولا إلى بنىٓ إسرٓءيل أنى قد جئتكم بـٔاية من ربكم  أنىٓ أخلق لكم من ٱلطين كهيـٔة ٱلطير فأنفخ فيه فيكون طيرا بإذن ٱلله  وأبرئ ٱلأكمه وٱلأبرص وأحى ٱلموتى بإذن ٱلله  وأنبئكم بما تأكلون وما تدخرون فى بيوتكم  إن فى ذلك لـٔاية لكم إن كنتم مؤمنين",
     "transliteration": "warasūlan ilā banī is'rāīla annī qad ji'tukum biāyatin min rabbikum annī akhluqu lakum mina l-ṭīni kahayati l-ṭayri fa-anfukhu fīhi fayakūnu ṭayran bi-idh'ni l-lahi wa-ub'ri-u l-akmaha wal-abraṣa wa-uḥ'yī l-mawtā bi-idh'ni l-lahi wa-unabbi-ukum bimā takulūna wamā taddakhirūna fī buyūtikum inna fī dhālika laāyatan lakum in kuntum mu'minīna",
-    "translation": "",
+    "translation": "And [make him] a messenger to the Children of Israel, [who will say], 'Indeed I have come to you with a sign from your Lord in that I design for you from clay [that which is] like the form of a bird, then I breathe into it and it becomes a bird by permission of Allāh. And I cure the blind [from birth] and the leper, and I give life to the dead - by permission of Allāh. And I inform you of what you eat and what you store in your houses. Indeed in that is a sign for you, if you are believers.",
     "words": [
       {
         "id": "ali-imran-49-1",
@@ -6666,7 +6714,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 44
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et fera de lui un Envoyé aux Enfants d’Israël (à qui il dira) : « Je suis venu vous apporter un Signe de votre Seigneur. Je façonne pour vous de l’argile en forme d’oiseau, je souffle dedans et, par la permission d’Allah, l’oiseau devient réel. Je guéris l’aveugle-né et le lépreux et, toujours par la permission d’Allah, je fais revivre les morts. Je peux vous dire ce que vous mangez et quelles sont les provisions que vous conservez dans vos maisons. En cela, certes, il y a un Signe pour vous, si vous êtes croyants !"
   },
   {
     "id": "ali-imran-50",
@@ -6675,7 +6724,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمُصَدِّقًا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَلِأُحِلَّ لَكُم بَعْضَ ٱلَّذِى حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "ومصدقا لما بين يدى من ٱلتورىة ولأحل لكم بعض ٱلذى حرم عليكم  وجئتكم بـٔاية من ربكم فٱتقوا ٱلله وأطيعون",
     "transliteration": "wamuṣaddiqan limā bayna yadayya mina l-tawrāti wali-uḥilla lakum baʿḍa alladhī ḥurrima ʿalaykum waji'tukum biāyatin min rabbikum fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "And [I have come] confirming what was before me of the Torah and to make lawful for you some of what was forbidden to you. And I have come to you with a sign from your Lord, so fear Allāh and obey me.",
     "words": [
       {
         "id": "ali-imran-50-1",
@@ -6811,7 +6860,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et je viens confirmer ce qui fut révélé avant moi dans la Torah, et rendre licite une partie de ce qui vous était défendu. Et je viens vous apporter un signe de la part de votre Seigneur, alors craignez Allah et obéissez-moi."
   },
   {
     "id": "ali-imran-51",
@@ -6820,7 +6870,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
     "textSimple": "إن ٱلله ربى وربكم فٱعبدوه  هـذا صرط مستقيم",
     "transliteration": "inna l-laha rabbī warabbukum fa-uʿ'budūhu hādhā ṣirāṭun mus'taqīmun",
-    "translation": "",
+    "translation": "Indeed, Allāh is my Lord and your Lord, so worship Him. That is the straight path.'\"",
     "words": [
       {
         "id": "ali-imran-51-1",
@@ -6879,7 +6929,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est mon Seigneur et le vôtre, alors adorez-Le, voilà la voie droite. »"
   },
   {
     "id": "ali-imran-52",
@@ -6888,7 +6939,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَلَمَّآ أَحَسَّ عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ ءَامَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ",
     "textSimple": " فلمآ أحس عيسى منهم ٱلكفر قال من أنصارىٓ إلى ٱلله  قال ٱلحواريون نحن أنصار ٱلله ءامنا بٱلله وٱشهد بأنا مسلمون",
     "transliteration": "falammā aḥassa ʿīsā min'humu l-kuf'ra qāla man anṣārī ilā l-lahi qāla l-ḥawāriyūna naḥnu anṣāru l-lahi āmannā bil-lahi wa-ish'had bi-annā mus'limūna",
-    "translation": "",
+    "translation": "But when Jesus felt [persistence in] disbelief from them, he said, \"Who are my supporters for [the cause of] Allāh?\" The disciples said, \"We are supporters for Allāh. We have believed in Allāh and testify that we are Muslims [submitting to Him].",
     "words": [
       {
         "id": "ali-imran-52-1",
@@ -7031,7 +7082,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais, lorsque Jésus sentit leur mauvaise foi, il dit : « Qui seront mes alliés (dans mon retour) vers Allah ? » Les apôtres répondirent : « Nous sommes les alliés d’Allah, nous croyons en Allah et sois témoin que nous sommes du nombre des Soumis."
   },
   {
     "id": "ali-imran-53",
@@ -7040,7 +7092,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
     "textSimple": "ربنآ ءامنا بمآ أنزلت وٱتبعنا ٱلرسول فٱكتبنا مع ٱلشـهدين",
     "transliteration": "rabbanā āmannā bimā anzalta wa-ittabaʿnā l-rasūla fa-uk'tub'nā maʿa l-shāhidīna",
-    "translation": "",
+    "translation": "Our Lord, we have believed in what You revealed and have followed the messenger [i.e., Jesus], so register us among the witnesses [to truth].\"",
     "words": [
       {
         "id": "ali-imran-53-1",
@@ -7106,7 +7158,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Nous avons cru à ce que Tu as fait descendre (en révélation) et nous avons suivi le Messager. Inscris-nous donc au nombre des témoins. »"
   },
   {
     "id": "ali-imran-54",
@@ -7115,7 +7168,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَكَرُوا۟ وَمَكَرَ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَـٰكِرِينَ",
     "textSimple": "ومكروا ومكر ٱلله  وٱلله خير ٱلمـكرين",
     "transliteration": "wamakarū wamakara l-lahu wal-lahu khayru l-mākirīna",
-    "translation": "",
+    "translation": "And they [i.e., the disbelievers] planned, but Allāh planned. And Allāh is the best of planners.",
     "words": [
       {
         "id": "ali-imran-54-1",
@@ -7160,7 +7213,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils complotèrent mais Allah déjoua leurs complots, car nul mieux qu’Allah ne sait déjouer les complots."
   },
   {
     "id": "ali-imran-55",
@@ -7169,7 +7223,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ ٱللَّهُ يَـٰعِيسَىٰٓ إِنِّى مُتَوَفِّيكَ وَرَافِعُكَ إِلَىَّ وَمُطَهِّرُكَ مِنَ ٱلَّذِينَ كَفَرُوا۟ وَجَاعِلُ ٱلَّذِينَ ٱتَّبَعُوكَ فَوْقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ ۖ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
     "textSimple": "إذ قال ٱلله يـعيسىٓ إنى متوفيك ورافعك إلى ومطهرك من ٱلذين كفروا وجاعل ٱلذين ٱتبعوك فوق ٱلذين كفروٓا إلى يوم ٱلقيـمة  ثم إلى مرجعكم فأحكم بينكم فيما كنتم فيه تختلفون",
     "transliteration": "idh qāla l-lahu yāʿīsā innī mutawaffīka warāfiʿuka ilayya wamuṭahhiruka mina alladhīna kafarū wajāʿilu alladhīna ittabaʿūka fawqa alladhīna kafarū ilā yawmi l-qiyāmati thumma ilayya marjiʿukum fa-aḥkumu baynakum fīmā kuntum fīhi takhtalifūna",
-    "translation": "",
+    "translation": "[Mention] when Allāh said, \"O Jesus, indeed I will take you and raise you to Myself and purify [i.e., free] you from those who disbelieve and make those who follow you [in submission to Allāh alone] superior to those who disbelieve until the Day of Resurrection. Then to Me is your return, and I will judge between you concerning that in which you used to differ.",
     "words": [
       {
         "id": "ali-imran-55-1",
@@ -7382,7 +7436,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce fut alors qu’Allah dit : « Ô Jésus ! Je vais mettre fin à ta vie terrestre, t’élever vers Moi, te purifier de ceux qui ont mécru et mettre ceux qui t’ont suivi au-dessus des infidèles, jusqu’au Jour de la Résurrection. Puis, c’est vers Moi que sera votre retour. Alors, Je jugerai entre vous du différend qui vous opposait."
   },
   {
     "id": "ali-imran-56",
@@ -7391,7 +7446,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَأُعَذِّبُهُمْ عَذَابًا شَدِيدًا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِينَ",
     "textSimple": "فأما ٱلذين كفروا فأعذبهم عذابا شديدا فى ٱلدنيا وٱلـٔاخرة وما لهم من نـصرين",
     "transliteration": "fa-ammā alladhīna kafarū fa-uʿadhibuhum ʿadhāban shadīdan fī l-dun'yā wal-ākhirati wamā lahum min nāṣirīna",
-    "translation": "",
+    "translation": "And as for those who disbelieved, I will punish them with a severe punishment in this world and the Hereafter, and they will have no helpers.\"",
     "words": [
       {
         "id": "ali-imran-56-1",
@@ -7485,7 +7540,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui auront mécru, Je leur ferai subir un terrible supplice ici-bas et dans l’au-delà, et ils n’auront point d’alliés."
   },
   {
     "id": "ali-imran-57",
@@ -7494,7 +7550,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّـٰلِمِينَ",
     "textSimple": "وأما ٱلذين ءامنوا وعملوا ٱلصـلحـت فيوفيهم أجورهم  وٱلله لا يحب ٱلظـلمين",
     "transliteration": "wa-ammā alladhīna āmanū waʿamilū l-ṣāliḥāti fayuwaffīhim ujūrahum wal-lahu lā yuḥibbu l-ẓālimīna",
-    "translation": "",
+    "translation": "But as for those who believed and did righteous deeds, He will give them in full their rewards, and Allāh does not like the wrongdoers.",
     "words": [
       {
         "id": "ali-imran-57-1",
@@ -7574,7 +7630,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quant à ceux qui auront cru et auront accompli les bonnes œuvres, Il leur accordera les récompenses (qu’ils auront méritées). Et Allah n’aime point les injustes. »"
   },
   {
     "id": "ali-imran-58",
@@ -7583,7 +7640,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ ٱلْـَٔايَـٰتِ وَٱلذِّكْرِ ٱلْحَكِيمِ",
     "textSimple": "ذلك نتلوه عليك من ٱلـٔايـت وٱلذكر ٱلحكيم",
     "transliteration": "dhālika natlūhu ʿalayka mina l-āyāti wal-dhik'ri l-ḥakīmi",
-    "translation": "",
+    "translation": "This is what We recite to you, [O Muḥammad], of [Our] verses and the precise [and wise] message [i.e., the Qur’ān].",
     "words": [
       {
         "id": "ali-imran-58-1",
@@ -7635,7 +7692,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tels sont les versets et la sage révélation que Nous te récitons."
   },
   {
     "id": "ali-imran-59",
@@ -7644,7 +7702,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ ءَادَمَ ۖ خَلَقَهُۥ مِن تُرَابٍ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
     "textSimple": "إن مثل عيسى عند ٱلله كمثل ءادم  خلقه من تراب ثم قال له كن فيكون",
     "transliteration": "inna mathala ʿīsā ʿinda l-lahi kamathali ādama khalaqahu min turābin thumma qāla lahu kun fayakūnu",
-    "translation": "",
+    "translation": "Indeed, the example of Jesus to Allāh is like that of Adam. He created him from dust; then He said to him, \"Be,\" and he was.",
     "words": [
       {
         "id": "ali-imran-59-1",
@@ -7752,7 +7810,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jésus est, pour Allah, tel Adam qu’Il créa de terre puis à qui Il dit : « Sois ! » et il fut."
   },
   {
     "id": "ali-imran-60",
@@ -7761,7 +7820,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ",
     "textSimple": "ٱلحق من ربك فلا تكن من ٱلممترين",
     "transliteration": "al-ḥaqu min rabbika falā takun mina l-mum'tarīna",
-    "translation": "",
+    "translation": "The truth is from your Lord, so do not be among the doubters.",
     "words": [
       {
         "id": "ali-imran-60-1",
@@ -7813,7 +7872,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vérité émane de ton Seigneur, alors ne sois pas de ceux qui doutent."
   },
   {
     "id": "ali-imran-61",
@@ -7822,7 +7882,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ فَقُلْ تَعَالَوْا۟ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ ٱللَّهِ عَلَى ٱلْكَـٰذِبِينَ",
     "textSimple": "فمن حآجك فيه من بعد ما جآءك من ٱلعلم فقل تعالوا ندع أبنآءنا وأبنآءكم ونسآءنا ونسآءكم وأنفسنا وأنفسكم ثم نبتهل فنجعل لعنت ٱلله على ٱلكـذبين",
     "transliteration": "faman ḥājjaka fīhi min baʿdi mā jāaka mina l-ʿil'mi faqul taʿālaw nadʿu abnāanā wa-abnāakum wanisāanā wanisāakum wa-anfusanā wa-anfusakum thumma nabtahil fanajʿal laʿnata l-lahi ʿalā l-kādhibīna",
-    "translation": "",
+    "translation": "Then whoever argues with you about it after [this] knowledge has come to you - say, \"Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then supplicate earnestly [together] and invoke the curse of Allāh upon the liars [among us].\"",
     "words": [
       {
         "id": "ali-imran-61-1",
@@ -8000,7 +8060,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux qui disputeront avec toi à son sujet, après ce que tu en as appris, tu diras : « Allons appeler nos fils et les vôtres, nos femmes et les vôtres, nous-mêmes et vous-mêmes, puis prions pour que la malédiction d’Allah tombe sur les menteurs. »"
   },
   {
     "id": "ali-imran-62",
@@ -8009,7 +8070,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا لَهُوَ ٱلْقَصَصُ ٱلْحَقُّ ۚ وَمَا مِنْ إِلَـٰهٍ إِلَّا ٱللَّهُ ۚ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "إن هـذا لهو ٱلقصص ٱلحق  وما من إلـه إلا ٱلله  وإن ٱلله لهو ٱلعزيز ٱلحكيم",
     "transliteration": "inna hādhā lahuwa l-qaṣaṣu l-ḥaqu wamā min ilāhin illā l-lahu wa-inna l-laha lahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Indeed, this is the true narration. And there is no deity except Allāh. And indeed, Allāh is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "ali-imran-62-1",
@@ -8117,7 +8178,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est le récit véridique. Il n’y a point d’autre divinité qu’Allah, et Allah est, Lui, le Tout- Puissant, le Sage."
   },
   {
     "id": "ali-imran-63",
@@ -8126,7 +8188,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ عَلِيمٌۢ بِٱلْمُفْسِدِينَ",
     "textSimple": "فإن تولوا فإن ٱلله عليم بٱلمفسدين",
     "transliteration": "fa-in tawallaw fa-inna l-laha ʿalīmun bil-muf'sidīna",
-    "translation": "",
+    "translation": "But if they turn away, then indeed - Allāh is Knowing of the corrupters.",
     "words": [
       {
         "id": "ali-imran-63-1",
@@ -8171,7 +8233,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils se détournent, alors Allah connaît parfaitement les corrupteurs."
   },
   {
     "id": "ali-imran-64",
@@ -8180,7 +8243,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ",
     "textSimple": "قل يـٓأهل ٱلكتـب تعالوا إلى كلمة سوآء بيننا وبينكم ألا نعبد إلا ٱلله ولا نشرك به شيـٔا ولا يتخذ بعضنا بعضا أربابا من دون ٱلله  فإن تولوا فقولوا ٱشهدوا بأنا مسلمون",
     "transliteration": "qul yāahla l-kitābi taʿālaw ilā kalimatin sawāin baynanā wabaynakum allā naʿbuda illā l-laha walā nush'rika bihi shayan walā yattakhidha baʿḍunā baʿḍan arbāban min dūni l-lahi fa-in tawallaw faqūlū ish'hadū bi-annā mus'limūna",
-    "translation": "",
+    "translation": "Say, \"O People of the Scripture, come to a word that is equitable between us and you - that we will not worship except Allāh and not associate anything with Him and not take one another as lords instead of Allāh.\" But if they turn away, then say, \"Bear witness that we are Muslims [submitting to Him].\"",
     "words": [
       {
         "id": "ali-imran-64-1",
@@ -8400,7 +8463,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô gens du Livre ! Adoptons donc cette parole qui nous est commune (selon laquelle) nous n’adorerons qu’Allah et nous ne Lui associerons rien, et nous ne nous prendrons point mutuellement pour seigneurs en dehors d’Allah. » Et, s’ils se détournent, dites : « Soyez témoins que nous sommes Soumis ! »"
   },
   {
     "id": "ali-imran-65",
@@ -8409,7 +8473,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تُحَآجُّونَ فِىٓ إِبْرَٰهِيمَ وَمَآ أُنزِلَتِ ٱلتَّوْرَىٰةُ وَٱلْإِنجِيلُ إِلَّا مِنۢ بَعْدِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": "يـٓأهل ٱلكتـب لم تحآجون فىٓ إبرهيم ومآ أنزلت ٱلتورىة وٱلإنجيل إلا من بعدهٓ  أفلا تعقلون",
     "transliteration": "yāahla l-kitābi lima tuḥājjūna fī ib'rāhīma wamā unzilati l-tawrātu wal-injīlu illā min baʿdihi afalā taʿqilūna",
-    "translation": "",
+    "translation": "O People of the Scripture, why do you argue about Abraham while the Torah and the Gospel were not revealed until after him? Then will you not reason?",
     "words": [
       {
         "id": "ali-imran-65-1",
@@ -8517,7 +8581,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô gens du Livre ! Pourquoi disputez-vous à propos d’Abraham alors que la Torah et l’Évangile n’ont été révélés qu’après lui ? N’êtes-vous donc pas doués de raison ?"
   },
   {
     "id": "ali-imran-66",
@@ -8526,7 +8591,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰٓأَنتُمْ هَـٰٓؤُلَآءِ حَـٰجَجْتُمْ فِيمَا لَكُم بِهِۦ عِلْمٌ فَلِمَ تُحَآجُّونَ فِيمَا لَيْسَ لَكُم بِهِۦ عِلْمٌ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
     "textSimple": "هـٓأنتم هـٓؤلآء حـججتم فيما لكم به علم فلم تحآجون فيما ليس لكم به علم  وٱلله يعلم وأنتم لا تعلمون",
     "transliteration": "hāantum hāulāi ḥājajtum fīmā lakum bihi ʿil'mun falima tuḥājjūna fīmā laysa lakum bihi ʿil'mun wal-lahu yaʿlamu wa-antum lā taʿlamūna",
-    "translation": "",
+    "translation": "Here you are - those who have argued about that of which you have [some] knowledge, but why do you argue about that of which you have no knowledge? And Allāh knows, while you know not.",
     "words": [
       {
         "id": "ali-imran-66-1",
@@ -8662,7 +8727,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà donc que vous avez disputé jusque-là de (questions) dont vous aviez quelque connaissance. Alors pourquoi disputez-vous de (questions) dont vous n’avez nulle connaissance ? Or Allah Sait et vous ne savez pas."
   },
   {
     "id": "ali-imran-67",
@@ -8671,7 +8737,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ إِبْرَٰهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلَـٰكِن كَانَ حَنِيفًا مُّسْلِمًا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "ما كان إبرهيم يهوديا ولا نصرانيا ولـكن كان حنيفا مسلما وما كان من ٱلمشركين",
     "transliteration": "mā kāna ib'rāhīmu yahūdiyyan walā naṣrāniyyan walākin kāna ḥanīfan mus'liman wamā kāna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allāh]. And he was not of the polytheists.",
     "words": [
       {
         "id": "ali-imran-67-1",
@@ -8772,7 +8838,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Abraham ne fut ni juif ni chrétien. Il fut un authentique Soumis. Et il ne fut point du nombre des associâtres."
   },
   {
     "id": "ali-imran-68",
@@ -8781,7 +8848,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ أَوْلَى ٱلنَّاسِ بِإِبْرَٰهِيمَ لَلَّذِينَ ٱتَّبَعُوهُ وَهَـٰذَا ٱلنَّبِىُّ وَٱلَّذِينَ ءَامَنُوا۟ ۗ وَٱللَّهُ وَلِىُّ ٱلْمُؤْمِنِينَ",
     "textSimple": "إن أولى ٱلناس بإبرهيم للذين ٱتبعوه وهـذا ٱلنبى وٱلذين ءامنوا  وٱلله ولى ٱلمؤمنين",
     "transliteration": "inna awlā l-nāsi bi-ib'rāhīma lalladhīna ittabaʿūhu wahādhā l-nabiyu wa-alladhīna āmanū wal-lahu waliyyu l-mu'minīna",
-    "translation": "",
+    "translation": "Indeed, the most worthy of Abraham among the people are those who followed him [in submission to Allāh] and this prophet [i.e., Muḥammad (ﷺ)] and those who believe [in his message]. And Allāh is the Ally of the believers.",
     "words": [
       {
         "id": "ali-imran-68-1",
@@ -8875,7 +8942,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes les plus dignes de se réclamer d’Abraham sont ceux-là qui l’ont suivi : ce Prophète et ceux qui ont cru. Et Allah est, certes, le protecteur des croyants."
   },
   {
     "id": "ali-imran-69",
@@ -8884,7 +8952,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَدَّت طَّآئِفَةٌ مِّنْ أَهْلِ ٱلْكِتَـٰبِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
     "textSimple": "ودت طآئفة من أهل ٱلكتـب لو يضلونكم وما يضلون إلآ أنفسهم وما يشعرون",
     "transliteration": "waddat ṭāifatun min ahli l-kitābi law yuḍillūnakum wamā yuḍillūna illā anfusahum wamā yashʿurūna",
-    "translation": "",
+    "translation": "A faction of the People of the Scripture wish they could mislead you. But they do not mislead except themselves, and they perceive [it] not.",
     "words": [
       {
         "id": "ali-imran-69-1",
@@ -8978,7 +9046,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une partie des gens du Livre aurait souhaité vous égarer. Or ils n’égarent qu’eux-mêmes et ils ne le sentent pas."
   },
   {
     "id": "ali-imran-70",
@@ -8987,7 +9056,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَأَنتُمْ تَشْهَدُونَ",
     "textSimple": "يـٓأهل ٱلكتـب لم تكفرون بـٔايـت ٱلله وأنتم تشهدون",
     "transliteration": "yāahla l-kitābi lima takfurūna biāyāti l-lahi wa-antum tashhadūna",
-    "translation": "",
+    "translation": "O People of the Scripture, why do you disbelieve in the verses of Allāh while you witness [to their truth]?",
     "words": [
       {
         "id": "ali-imran-70-1",
@@ -9046,7 +9115,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô gens du Livre ! Pourquoi mécroyez-vous aux versets d’Allah alors que vous en êtes témoins ?"
   },
   {
     "id": "ali-imran-71",
@@ -9055,7 +9125,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَلْبِسُونَ ٱلْحَقَّ بِٱلْبَـٰطِلِ وَتَكْتُمُونَ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
     "textSimple": "يـٓأهل ٱلكتـب لم تلبسون ٱلحق بٱلبـطل وتكتمون ٱلحق وأنتم تعلمون",
     "transliteration": "yāahla l-kitābi lima talbisūna l-ḥaqa bil-bāṭili wataktumūna l-ḥaqa wa-antum taʿlamūna",
-    "translation": "",
+    "translation": "O People of the Scripture, why do you mix [i.e., confuse] the truth with falsehood and conceal the truth while you know [it]?",
     "words": [
       {
         "id": "ali-imran-71-1",
@@ -9128,7 +9198,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô gens du Livre ! Pourquoi affublez-vous le vrai par le faux et taisez-vous la vérité tout en la sachant ?"
   },
   {
     "id": "ali-imran-72",
@@ -9137,7 +9208,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَت طَّآئِفَةٌ مِّنْ أَهْلِ ٱلْكِتَـٰبِ ءَامِنُوا۟ بِٱلَّذِىٓ أُنزِلَ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَجْهَ ٱلنَّهَارِ وَٱكْفُرُوٓا۟ ءَاخِرَهُۥ لَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "وقالت طآئفة من أهل ٱلكتـب ءامنوا بٱلذىٓ أنزل على ٱلذين ءامنوا وجه ٱلنهار وٱكفروٓا ءاخره لعلهم يرجعون",
     "transliteration": "waqālat ṭāifatun min ahli l-kitābi āminū bi-alladhī unzila ʿalā alladhīna āmanū wajha l-nahāri wa-uk'furū ākhirahu laʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And a faction of the People of the Scripture say [to each other], \"Believe in that which was revealed to the believers at the beginning of the day and reject it at its end that perhaps they will return [i.e., abandon their religion],",
     "words": [
       {
         "id": "ali-imran-72-1",
@@ -9259,7 +9330,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une partie des gens du Livre dit : « Croyez, en début de journée, à ce qui a été révélé à ceux qui ont eu la foi, et mécroyez vers sa fin, peut-être alors reviendront-ils."
   },
   {
     "id": "ali-imran-73",
@@ -9268,7 +9340,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُؤْمِنُوٓا۟ إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ أَن يُؤْتَىٰٓ أَحَدٌ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْ ۗ قُلْ إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
     "textSimple": "ولا تؤمنوٓا إلا لمن تبع دينكم قل إن ٱلهدى هدى ٱلله أن يؤتىٓ أحد مثل مآ أوتيتم أو يحآجوكم عند ربكم  قل إن ٱلفضل بيد ٱلله يؤتيه من يشآء  وٱلله وسع عليم",
     "transliteration": "walā tu'minū illā liman tabiʿa dīnakum qul inna l-hudā hudā l-lahi an yu'tā aḥadun mith'la mā ūtītum aw yuḥājjūkum ʿinda rabbikum qul inna l-faḍla biyadi l-lahi yu'tīhi man yashāu wal-lahu wāsiʿun ʿalīmun",
-    "translation": "",
+    "translation": "And do not trust except those who follow your religion.\" Say, \"Indeed, the [true] guidance is the guidance of Allāh. [Do you fear] lest someone be given [knowledge] like you were given or that they would [thereby] argue with you before your Lord?\" Say, \"Indeed, [all] bounty is in the hand of Allāh - He grants it to whom He wills. And Allāh is all-Encompassing and Wise.\"",
     "words": [
       {
         "id": "ali-imran-73-1",
@@ -9495,7 +9567,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et n’ajoutez foi qu’à ceux qui ont suivi votre religion. » Dis : « La juste direction (hudâ) est la direction d’Allah. » (Et ils diront encore) : « Et gardez-vous de (reconnaître) qu’une révélation pareille à celle que vous avez reçue puisse être reçue par quelqu’un d’autre (que vous). Cela, pour qu’ils ne puissent avoir aucun argument contre vous auprès du Seigneur. » Dis : « La grâce est dans la Main d’Allah, Il la donne à qui Il veut. Allah est Immense et Il est Omniscient. »"
   },
   {
     "id": "ali-imran-74",
@@ -9504,7 +9577,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
     "textSimple": "يختص برحمته من يشآء  وٱلله ذو ٱلفضل ٱلعظيم",
     "transliteration": "yakhtaṣṣu biraḥmatihi man yashāu wal-lahu dhū l-faḍli l-ʿaẓīmi",
-    "translation": "",
+    "translation": "He selects for His mercy whom He wills. And Allāh is the possessor of great bounty.",
     "words": [
       {
         "id": "ali-imran-74-1",
@@ -9563,7 +9636,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il réserve Sa miséricorde exclusivement à qui Il veut. Car Allah est le Détenteur de la grâce infinie."
   },
   {
     "id": "ali-imran-75",
@@ -9572,7 +9646,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمِنْ أَهْلِ ٱلْكِتَـٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّـۧنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
     "textSimple": " ومن أهل ٱلكتـب من إن تأمنه بقنطار يؤدهٓ إليك ومنهم من إن تأمنه بدينار لا يؤدهٓ إليك إلا ما دمت عليه قآئما  ذلك بأنهم قالوا ليس علينا فى ٱلأميـن سبيل ويقولون على ٱلله ٱلكذب وهم يعلمون",
     "transliteration": "wamin ahli l-kitābi man in tamanhu biqinṭārin yu-addihi ilayka wamin'hum man in tamanhu bidīnārin lā yu-addihi ilayka illā mā dum'ta ʿalayhi qāiman dhālika bi-annahum qālū laysa ʿalaynā fī l-umiyīna sabīlun wayaqūlūna ʿalā l-lahi l-kadhiba wahum yaʿlamūna",
-    "translation": "",
+    "translation": "And among the People of the Scripture is he who, if you entrust him with a great amount [of wealth], he will return it to you. And among them is he who, if you entrust him with a [single] coin, he will not return it to you unless you are constantly standing over him [demanding it]. That is because they say, \"There is no blame upon us concerning the unlearned.\" And they speak untruth about Allāh while they know [it].",
     "words": [
       {
         "id": "ali-imran-75-1",
@@ -9827,7 +9901,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est qui, parmi les gens du Livre, si tu leur confies un quintal (d’or) te le restitueront, et qui, en revanche, si tu leur confies un (seul) dinar ne te le restitueront que si tu n’arrêtes pas de le leur réclamer. Car ils se disent : « Nous n’aurons aucun reproche à nous faire à propos (des biens) des illettrés. » C’est qu’ils débitent au sujet d’Allah des mensonges, et ils le savent bien."
   },
   {
     "id": "ali-imran-76",
@@ -9836,7 +9911,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰ مَنْ أَوْفَىٰ بِعَهْدِهِۦ وَٱتَّقَىٰ فَإِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
     "textSimple": "بلى من أوفى بعهده وٱتقى فإن ٱلله يحب ٱلمتقين",
     "transliteration": "balā man awfā biʿahdihi wa-ittaqā fa-inna l-laha yuḥibbu l-mutaqīna",
-    "translation": "",
+    "translation": "But yes, whoever fulfills his commitment and fears Allāh - then indeed, Allāh loves those who fear Him.",
     "words": [
       {
         "id": "ali-imran-76-1",
@@ -9902,7 +9977,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au contraire, celui qui honore son engagement et se conduit avec piété (qu’il sache qu’) Allah aime les gens pieux."
   },
   {
     "id": "ali-imran-77",
@@ -9911,7 +9987,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَشْتَرُونَ بِعَهْدِ ٱللَّهِ وَأَيْمَـٰنِهِمْ ثَمَنًا قَلِيلًا أُو۟لَـٰٓئِكَ لَا خَلَـٰقَ لَهُمْ فِى ٱلْـَٔاخِرَةِ وَلَا يُكَلِّمُهُمُ ٱللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ ٱلْقِيَـٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "إن ٱلذين يشترون بعهد ٱلله وأيمـنهم ثمنا قليلا أولـٓئك لا خلـق لهم فى ٱلـٔاخرة ولا يكلمهم ٱلله ولا ينظر إليهم يوم ٱلقيـمة ولا يزكيهم ولهم عذاب أليم",
     "transliteration": "inna alladhīna yashtarūna biʿahdi l-lahi wa-aymānihim thamanan qalīlan ulāika lā khalāqa lahum fī l-ākhirati walā yukallimuhumu l-lahu walā yanẓuru ilayhim yawma l-qiyāmati walā yuzakkīhim walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Indeed, those who exchange the covenant of Allāh and their [own] oaths for a small price will have no share in the Hereafter, and Allāh will not speak to them or look at them on the Day of Resurrection, nor will He purify them; and they will have a painful punishment.",
     "words": [
       {
         "id": "ali-imran-77-1",
@@ -10103,7 +10179,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui vendent à bas prix leur engagement envers Allah ainsi que leurs serments, ceux-là n’auront aucune part dans l’autre monde. Allah ne leur parlera pas et ne les regardera pas, le Jour de la Résurrection, pas plus qu’Il ne les purifiera. Et ils auront un terrible supplice."
   },
   {
     "id": "ali-imran-78",
@@ -10112,7 +10189,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ مِنْهُمْ لَفَرِيقًا يَلْوُۥنَ أَلْسِنَتَهُم بِٱلْكِتَـٰبِ لِتَحْسَبُوهُ مِنَ ٱلْكِتَـٰبِ وَمَا هُوَ مِنَ ٱلْكِتَـٰبِ وَيَقُولُونَ هُوَ مِنْ عِندِ ٱللَّهِ وَمَا هُوَ مِنْ عِندِ ٱللَّهِ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
     "textSimple": "وإن منهم لفريقا يلون ألسنتهم بٱلكتـب لتحسبوه من ٱلكتـب وما هو من ٱلكتـب ويقولون هو من عند ٱلله وما هو من عند ٱلله ويقولون على ٱلله ٱلكذب وهم يعلمون",
     "transliteration": "wa-inna min'hum lafarīqan yalwūna alsinatahum bil-kitābi litaḥsabūhu mina l-kitābi wamā huwa mina l-kitābi wayaqūlūna huwa min ʿindi l-lahi wamā huwa min ʿindi l-lahi wayaqūlūna ʿalā l-lahi l-kadhiba wahum yaʿlamūna",
-    "translation": "",
+    "translation": "And indeed, there is among them a party who alter the Scripture with their tongues so you may think it is from the Scripture, but it is not from the Scripture. And they say, \"This is from Allāh,\" but it is not from Allāh. And they speak untruth about Allāh while they know.",
     "words": [
       {
         "id": "ali-imran-78-1",
@@ -10318,7 +10395,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parmi eux, il y a ceux qui, en lisant le Livre, tordent leurs langues pour que vous croyiez que cela provient vraiment du Livre, alors qu’il n’en est rien. Et ils disent : « Cela vient d’Allah », alors qu’il n’en est rien. C’est qu’ils débitent au sujet d’Allah des mensonges, et ils le savent bien."
   },
   {
     "id": "ali-imran-79",
@@ -10327,7 +10405,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًا لِّى مِن دُونِ ٱللَّهِ وَلَـٰكِن كُونُوا۟ رَبَّـٰنِيِّـۧنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَـٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ",
     "textSimple": "ما كان لبشر أن يؤتيه ٱلله ٱلكتـب وٱلحكم وٱلنبوة ثم يقول للناس كونوا عبادا لى من دون ٱلله ولـكن كونوا ربـنيـن بما كنتم تعلمون ٱلكتـب وبما كنتم تدرسون",
     "transliteration": "mā kāna libasharin an yu'tiyahu l-lahu l-kitāba wal-ḥuk'ma wal-nubuwata thumma yaqūla lilnnāsi kūnū ʿibādan lī min dūni l-lahi walākin kūnū rabbāniyyīna bimā kuntum tuʿallimūna l-kitāba wabimā kuntum tadrusūna",
-    "translation": "",
+    "translation": "It is not for a human [prophet] that Allāh should give him the Scripture and authority and prophethood and then he would say to the people, \"Be servants to me rather than Allāh,\" but [instead, he would say], \"Be pious scholars of the Lord because of what you have taught of the Scripture and because of what you have studied.\"",
     "words": [
       {
         "id": "ali-imran-79-1",
@@ -10526,7 +10604,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne siérait nullement à un être humain, après qu’Allah lui eut révélé le Livre, la sagesse et la prophétie, de dire aux gens : « Soyez mes adorateurs en dehors d’Allah. » Mais plutôt: « Soyez des savants soumis au Seigneur, pour avoir enseigné le Livre et l’avoir étudié. »"
   },
   {
     "id": "ali-imran-80",
@@ -10535,7 +10614,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَـٰٓئِكَةَ وَٱلنَّبِيِّـۧنَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ",
     "textSimple": "ولا يأمركم أن تتخذوا ٱلملـٓئكة وٱلنبيـن أربابا  أيأمركم بٱلكفر بعد إذ أنتم مسلمون",
     "transliteration": "walā yamurakum an tattakhidhū l-malāikata wal-nabiyīna arbāban ayamurukum bil-kuf'ri baʿda idh antum mus'limūna",
-    "translation": "",
+    "translation": "Nor could he order you to take the angels and prophets as lords. Would he order you to disbelief after you had been Muslims?",
     "words": [
       {
         "id": "ali-imran-80-1",
@@ -10629,7 +10708,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Il ne vous ordonne point de prendre les Anges et les Prophètes pour seigneurs. Vous ordonnerait-Il de mécroire, vous qui êtes Soumis (Musulmans) ?"
   },
   {
     "id": "ali-imran-81",
@@ -10638,7 +10718,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلنَّبِيِّـۧنَ لَمَآ ءَاتَيْتُكُم مِّن كِتَـٰبٍ وَحِكْمَةٍ ثُمَّ جَآءَكُمْ رَسُولٌ مُّصَدِّقٌ لِّمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِۦ وَلَتَنصُرُنَّهُۥ ۚ قَالَ ءَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِى ۖ قَالُوٓا۟ أَقْرَرْنَا ۚ قَالَ فَٱشْهَدُوا۟ وَأَنَا۠ مَعَكُم مِّنَ ٱلشَّـٰهِدِينَ",
     "textSimple": "وإذ أخذ ٱلله ميثـق ٱلنبيـن لمآ ءاتيتكم من كتـب وحكمة ثم جآءكم رسول مصدق لما معكم لتؤمنن به ولتنصرنه  قال ءأقررتم وأخذتم على ذلكم إصرى  قالوٓا أقررنا  قال فٱشهدوا وأنا معكم من ٱلشـهدين",
     "transliteration": "wa-idh akhadha l-lahu mīthāqa l-nabiyīna lamā ātaytukum min kitābin waḥik'matin thumma jāakum rasūlun muṣaddiqun limā maʿakum latu'minunna bihi walatanṣurunnahu qāla a-aqrartum wa-akhadhtum ʿalā dhālikum iṣ'rī qālū aqrarnā qāla fa-ish'hadū wa-anā maʿakum mina l-shāhidīna",
-    "translation": "",
+    "translation": "And [recall, O People of the Scripture], when Allāh took the covenant of the prophets, [saying], \"Whatever I give you of the Scripture and wisdom and then there comes to you a messenger confirming what is with you, you [must] believe in him and support him.\" [Allāh] said, \"Have you acknowledged and taken upon that My commitment?\" They said, \"We have acknowledged it.\" He said, \"Then bear witness, and I am with you among the witnesses.\"",
     "words": [
       {
         "id": "ali-imran-81-1",
@@ -10872,7 +10952,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand Allah prit un engagement sur les Prophètes, Il leur dit : « Si un Messager vient vous confirmer le Livre et la Sagesse que Je vous ai déjà donnés, croyez en lui, et soutenez-le. » Puis Il ajouta : « Le consentez-vous et le tiendrez-vous (cet engagement) ? » Ils dirent : « Nous le consentons. » Il dit : « Soyez-en témoins et Je suis avec vous parmi les témoins. »"
   },
   {
     "id": "ali-imran-82",
@@ -10881,7 +10962,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن تَوَلَّىٰ بَعْدَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ",
     "textSimple": "فمن تولى بعد ذلك فأولـٓئك هم ٱلفـسقون",
     "transliteration": "faman tawallā baʿda dhālika fa-ulāika humu l-fāsiqūna",
-    "translation": "",
+    "translation": "And whoever turned away after that - they were the defiantly disobedient.",
     "words": [
       {
         "id": "ali-imran-82-1",
@@ -10933,7 +11014,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, après cela, se rétracteront, ceux-là sont les pervers."
   },
   {
     "id": "ali-imran-83",
@@ -10942,7 +11024,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ",
     "textSimple": "أفغير دين ٱلله يبغون ولهٓ أسلم من فى ٱلسمـوت وٱلأرض طوعا وكرها وإليه يرجعون",
     "transliteration": "afaghayra dīni l-lahi yabghūna walahu aslama man fī l-samāwāti wal-arḍi ṭawʿan wakarhan wa-ilayhi yur'jaʿūna",
-    "translation": "",
+    "translation": "So is it other than the religion of Allāh they desire, while to Him have submitted [all] those within the heavens and earth, willingly or by compulsion, and to Him they will be returned?",
     "words": [
       {
         "id": "ali-imran-83-1",
@@ -11043,7 +11125,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Désirent-ils donc (avoir) une autre religion que celle d’Allah, cependant que s’est soumis à Lui, de gré ou de force, Tout ce qui est dans les cieux et sur terre ? Et c’est vers Lui, certes, que tous seront ramenés."
   },
   {
     "id": "ali-imran-84",
@@ -11052,7 +11135,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
     "textSimple": "قل ءامنا بٱلله ومآ أنزل علينا ومآ أنزل علىٓ إبرهيم وإسمـعيل وإسحـق ويعقوب وٱلأسباط ومآ أوتى موسى وعيسى وٱلنبيون من ربهم لا نفرق بين أحد منهم ونحن له مسلمون",
     "transliteration": "qul āmannā bil-lahi wamā unzila ʿalaynā wamā unzila ʿalā ib'rāhīma wa-is'māʿīla wa-is'ḥāqa wayaʿqūba wal-asbāṭi wamā ūtiya mūsā waʿīsā wal-nabiyūna min rabbihim lā nufarriqu bayna aḥadin min'hum wanaḥnu lahu mus'limūna",
-    "translation": "",
+    "translation": "Say, \"We have believed in Allāh and in what was revealed to us and what was revealed to Abraham, Ishmael, Isaac, Jacob, and the Descendants [al-Asbāṭ], and in what was given to Moses and Jesus and to the prophets from their Lord. We make no distinction between any of them, and we are Muslims [submitting] to Him.\"",
     "words": [
       {
         "id": "ali-imran-84-1",
@@ -11258,7 +11341,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Nous avons cru en Allah, en ce qui nous fut révélé et révélé à Abraham, Ismaël, Isaac, Jacob et les Tribus, et en ce qui fut donné à Moïse, Jésus et les Prophètes de la part de leur Seigneur. Nous ne faisons entre eux aucune distinction. Et à Lui nous sommes Soumis. »"
   },
   {
     "id": "ali-imran-85",
@@ -11267,7 +11351,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَبْتَغِ غَيْرَ ٱلْإِسْلَـٰمِ دِينًا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِى ٱلْـَٔاخِرَةِ مِنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "ومن يبتغ غير ٱلإسلـم دينا فلن يقبل منه وهو فى ٱلـٔاخرة من ٱلخـسرين",
     "transliteration": "waman yabtaghi ghayra l-is'lāmi dīnan falan yuq'bala min'hu wahuwa fī l-ākhirati mina l-khāsirīna",
-    "translation": "",
+    "translation": "And whoever desires other than Islām as religion - never will it be accepted from him, and he, in the Hereafter, will be among the losers.",
     "words": [
       {
         "id": "ali-imran-85-1",
@@ -11361,7 +11445,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque recherche une autre religion que l’Islam, elle ne sera pas acceptée de lui et, dans l’autre monde, il sera parmi les perdants."
   },
   {
     "id": "ali-imran-86",
@@ -11370,7 +11455,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "كَيْفَ يَهْدِى ٱللَّهُ قَوْمًا كَفَرُوا۟ بَعْدَ إِيمَـٰنِهِمْ وَشَهِدُوٓا۟ أَنَّ ٱلرَّسُولَ حَقٌّ وَجَآءَهُمُ ٱلْبَيِّنَـٰتُ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "كيف يهدى ٱلله قوما كفروا بعد إيمـنهم وشهدوٓا أن ٱلرسول حق وجآءهم ٱلبينـت  وٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "kayfa yahdī l-lahu qawman kafarū baʿda īmānihim washahidū anna l-rasūla ḥaqqun wajāahumu l-bayinātu wal-lahu lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "How shall Allāh guide a people who disbelieved after their belief and had witnessed that the Messenger is true and clear signs had come to them? And Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "ali-imran-86-1",
@@ -11499,7 +11584,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah saurait-Il guider des gens qui ont mécru après avoir eu la foi, qui ont déjà témoigné que le Messager est pure vérité, et après que leur sont venues les preuves évidentes ? Allah ne guide pas les gens injustes."
   },
   {
     "id": "ali-imran-87",
@@ -11508,7 +11594,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ جَزَآؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَةَ ٱللَّهِ وَٱلْمَلَـٰٓئِكَةِ وَٱلنَّاسِ أَجْمَعِينَ",
     "textSimple": "أولـٓئك جزآؤهم أن عليهم لعنة ٱلله وٱلملـٓئكة وٱلناس أجمعين",
     "transliteration": "ulāika jazāuhum anna ʿalayhim laʿnata l-lahi wal-malāikati wal-nāsi ajmaʿīna",
-    "translation": "",
+    "translation": "Those - their recompense will be that upon them is the curse of Allāh and the angels and the people, all together,",
     "words": [
       {
         "id": "ali-imran-87-1",
@@ -11574,7 +11660,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là auront pour rétribution la malédiction d’Allah, des Anges et de l’humanité entière."
   },
   {
     "id": "ali-imran-88",
@@ -11583,7 +11670,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
     "textSimple": "خـلدين فيها لا يخفف عنهم ٱلعذاب ولا هم ينظرون",
     "transliteration": "khālidīna fīhā lā yukhaffafu ʿanhumu l-ʿadhābu walā hum yunẓarūna",
-    "translation": "",
+    "translation": "Abiding eternally therein. The punishment will not be lightened for them, nor will they be reprieved,",
     "words": [
       {
         "id": "ali-imran-88-1",
@@ -11649,7 +11736,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils la subiront éternellement, sans que leur supplice ne soit allégé ni qu’ils aient jamais à attendre un quelconque répit."
   },
   {
     "id": "ali-imran-89",
@@ -11658,7 +11746,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "إلا ٱلذين تابوا من بعد ذلك وأصلحوا فإن ٱلله غفور رحيم",
     "transliteration": "illā alladhīna tābū min baʿdi dhālika wa-aṣlaḥū fa-inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Except for those who repent after that and correct themselves. For indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "ali-imran-89-1",
@@ -11738,7 +11826,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hormis ceux qui, plus tard, se seront repentis et se seront amendés. Car Allah est Tout Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "ali-imran-90",
@@ -11747,7 +11836,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بَعْدَ إِيمَـٰنِهِمْ ثُمَّ ٱزْدَادُوا۟ كُفْرًا لَّن تُقْبَلَ تَوْبَتُهُمْ وَأُو۟لَـٰٓئِكَ هُمُ ٱلضَّآلُّونَ",
     "textSimple": "إن ٱلذين كفروا بعد إيمـنهم ثم ٱزدادوا كفرا لن تقبل توبتهم وأولـٓئك هم ٱلضآلون",
     "transliteration": "inna alladhīna kafarū baʿda īmānihim thumma iz'dādū kuf'ran lan tuq'bala tawbatuhum wa-ulāika humu l-ḍālūna",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve [i.e., reject the message] after their belief and then increase in disbelief - never will their [claimed] repentance be accepted, and they are the ones astray.",
     "words": [
       {
         "id": "ali-imran-90-1",
@@ -11848,7 +11937,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru après avoir eu la foi, puis ont gagné en mécréance, leur repentir ne sera point accepté. Ceux-là sont, certes, les égarés."
   },
   {
     "id": "ali-imran-91",
@@ -11857,7 +11947,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌ فَلَن يُقْبَلَ مِنْ أَحَدِهِم مِّلْءُ ٱلْأَرْضِ ذَهَبًا وَلَوِ ٱفْتَدَىٰ بِهِۦٓ ۗ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ وَمَا لَهُم مِّن نَّـٰصِرِينَ",
     "textSimple": "إن ٱلذين كفروا وماتوا وهم كفار فلن يقبل من أحدهم ملء ٱلأرض ذهبا ولو ٱفتدى بهٓ  أولـٓئك لهم عذاب أليم وما لهم من نـصرين",
     "transliteration": "inna alladhīna kafarū wamātū wahum kuffārun falan yuq'bala min aḥadihim mil'u l-arḍi dhahaban walawi if'tadā bihi ulāika lahum ʿadhābun alīmun wamā lahum min nāṣirīna",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve and die while they are disbelievers - never would the [whole] capacity of the earth in gold be accepted from one of them if he would [seek to] ransom himself with it. For those there will be a painful punishment, and they will have no helpers.",
     "words": [
       {
         "id": "ali-imran-91-1",
@@ -12028,7 +12118,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru et sont morts en mécréants, nul rachat ne sera accepté d’aucun d’eux, fût-ce tout l’or qui remplirait la terre. Ceux-là auront un terrible supplice et ils n’auront pas d’alliés."
   },
   {
     "id": "ali-imran-92",
@@ -12037,7 +12128,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
     "textSimple": "لن تنالوا ٱلبر حتى تنفقوا مما تحبون  وما تنفقوا من شىء فإن ٱلله به عليم",
     "transliteration": "lan tanālū l-bira ḥattā tunfiqū mimmā tuḥibbūna wamā tunfiqū min shayin fa-inna l-laha bihi ʿalīmun",
-    "translation": "",
+    "translation": "Never will you attain the good [reward] until you spend [in the way of Allāh] from that which you love. And whatever you spend - indeed, Allāh is Knowing of it.",
     "words": [
       {
         "id": "ali-imran-92-1",
@@ -12145,7 +12236,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous n’atteindrez à la vertu que lorsque vous aurez dépensé de ce qui vous est cher, et vous ne dépenserez rien qu’Allah ne sache parfaitement."
   },
   {
     "id": "ali-imran-93",
@@ -12154,7 +12246,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ كُلُّ ٱلطَّعَامِ كَانَ حِلًّا لِّبَنِىٓ إِسْرَٰٓءِيلَ إِلَّا مَا حَرَّمَ إِسْرَٰٓءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ ٱلتَّوْرَىٰةُ ۗ قُلْ فَأْتُوا۟ بِٱلتَّوْرَىٰةِ فَٱتْلُوهَآ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": " كل ٱلطعام كان حلا لبنىٓ إسرٓءيل إلا ما حرم إسرٓءيل على نفسه من قبل أن تنزل ٱلتورىة  قل فأتوا بٱلتورىة فٱتلوهآ إن كنتم صـدقين",
     "transliteration": "kullu l-ṭaʿāmi kāna ḥillan libanī is'rāīla illā mā ḥarrama is'rāīlu ʿalā nafsihi min qabli an tunazzala l-tawrātu qul fatū bil-tawrāti fa-it'lūhā in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "All food was lawful to the Children of Israel except what Israel [i.e., Jacob] had made unlawful to himself before the Torah was revealed. Say, [O Muḥammad], \"So bring the Torah and recite it, if you should be truthful.\"",
     "words": [
       {
         "id": "ali-imran-93-1",
@@ -12325,7 +12417,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute nourriture était licite pour les Enfants d’Israël, sauf ce qu’Israël s’interdisait lui-même avant que ne fût révélée la Torah. Dis : « Apportez la Torah et lisez-la, si vous dites la vérité. »"
   },
   {
     "id": "ali-imran-94",
@@ -12334,7 +12427,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ مِنۢ بَعْدِ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "فمن ٱفترى على ٱلله ٱلكذب من بعد ذلك فأولـٓئك هم ٱلظـلمون",
     "transliteration": "famani if'tarā ʿalā l-lahi l-kadhiba min baʿdi dhālika fa-ulāika humu l-ẓālimūna",
-    "translation": "",
+    "translation": "And whoever invents about Allāh untruth after that - then those are [truly] the wrongdoers.",
     "words": [
       {
         "id": "ali-imran-94-1",
@@ -12414,7 +12507,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque, après cela, débitera sur le compte d’Allah des mensonges, sera du nombre des injustes."
   },
   {
     "id": "ali-imran-95",
@@ -12423,7 +12517,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ صَدَقَ ٱللَّهُ ۗ فَٱتَّبِعُوا۟ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "قل صدق ٱلله  فٱتبعوا ملة إبرهيم حنيفا وما كان من ٱلمشركين",
     "transliteration": "qul ṣadaqa l-lahu fa-ittabiʿū millata ib'rāhīma ḥanīfan wamā kāna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "Say, \"Allāh has told the truth. So follow the religion of Abraham, inclining toward truth; and he was not of the polytheists.\"",
     "words": [
       {
         "id": "ali-imran-95-1",
@@ -12503,7 +12597,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Allah dit vrai. Suivez donc la religion d’Abraham, authentique Soumis. Et il ne fut point du nombre des associâtres. »"
   },
   {
     "id": "ali-imran-96",
@@ -12512,7 +12607,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِى بِبَكَّةَ مُبَارَكًا وَهُدًى لِّلْعَـٰلَمِينَ",
     "textSimple": "إن أول بيت وضع للناس للذى ببكة مباركا وهدى للعـلمين",
     "transliteration": "inna awwala baytin wuḍiʿa lilnnāsi lalladhī bibakkata mubārakan wahudan lil'ʿālamīna",
-    "translation": "",
+    "translation": "Indeed, the first House [of worship] established for mankind was that at Bakkah [i.e., Makkah] - blessed and a guidance for the worlds.",
     "words": [
       {
         "id": "ali-imran-96-1",
@@ -12585,7 +12680,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La première Maison édifiée à l’intention des hommes est celle de Bakka (La Mecque), bénie et érigée en Orient Absolu pour tout l’Univers."
   },
   {
     "id": "ali-imran-97",
@@ -12594,7 +12690,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِ ءَايَـٰتٌۢ بَيِّنَـٰتٌ مَّقَامُ إِبْرَٰهِيمَ ۖ وَمَن دَخَلَهُۥ كَانَ ءَامِنًا ۗ وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا ۚ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
     "textSimple": "فيه ءايـت بينـت مقام إبرهيم  ومن دخله كان ءامنا  ولله على ٱلناس حج ٱلبيت من ٱستطاع إليه سبيلا  ومن كفر فإن ٱلله غنى عن ٱلعـلمين",
     "transliteration": "fīhi āyātun bayyinātun maqāmu ib'rāhīma waman dakhalahu kāna āminan walillahi ʿalā l-nāsi ḥijju l-bayti mani is'taṭāʿa ilayhi sabīlan waman kafara fa-inna l-laha ghaniyyun ʿani l-ʿālamīna",
-    "translation": "",
+    "translation": "In it are clear signs [such as] the standing place of Abraham. And whoever enters it [i.e., the Ḥaram] shall be safe. And [due] to Allāh from the people is a pilgrimage to the House - for whoever is able to find thereto a way. But whoever disbelieves [i.e., refuses] - then indeed, Allāh is free from need of the worlds.",
     "words": [
       {
         "id": "ali-imran-97-1",
@@ -12772,7 +12868,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’y trouvent les Signes évidents de la station d’Abraham ; quiconque y entre y sera en sécurité. Les hommes qui en ont les moyens ont le devoir, envers Allah, de se rendre à la Maison Sacrée en pèlerinage. Ceux qui mécroient (se doivent de savoir qu’) Allah Se passe de Toutes les créatures de l’Univers."
   },
   {
     "id": "ali-imran-98",
@@ -12781,7 +12878,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَٱللَّهُ شَهِيدٌ عَلَىٰ مَا تَعْمَلُونَ",
     "textSimple": "قل يـٓأهل ٱلكتـب لم تكفرون بـٔايـت ٱلله وٱلله شهيد على ما تعملون",
     "transliteration": "qul yāahla l-kitābi lima takfurūna biāyāti l-lahi wal-lahu shahīdun ʿalā mā taʿmalūna",
-    "translation": "",
+    "translation": "Say, \"O People of the Scripture, why do you disbelieve in the verses of Allāh while Allāh is Witness over what you do?\"",
     "words": [
       {
         "id": "ali-imran-98-1",
@@ -12868,7 +12965,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô gens du Livre ! Pourquoi reniez-vous les versets d’Allah, alors qu’Allah est Témoin de ce que vous faites ? »"
   },
   {
     "id": "ali-imran-99",
@@ -12877,7 +12975,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًا وَأَنتُمْ شُهَدَآءُ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "قل يـٓأهل ٱلكتـب لم تصدون عن سبيل ٱلله من ءامن تبغونها عوجا وأنتم شهدآء  وما ٱلله بغـفل عما تعملون",
     "transliteration": "qul yāahla l-kitābi lima taṣuddūna ʿan sabīli l-lahi man āmana tabghūnahā ʿiwajan wa-antum shuhadāu wamā l-lahu bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "Say, \"O People of the Scripture, why do you avert from the way of Allāh those who believe, seeking to make it [seem] deviant, while you are witnesses [to the truth]? And Allāh is not unaware of what you do.\"",
     "words": [
       {
         "id": "ali-imran-99-1",
@@ -13013,7 +13111,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô gens du Livre ! Qu’avez-vous à repousser loin de la voie d’Allah ceux qui ont cru ? La voulez-vous tortueuse alors que vous êtes témoins (de sa rectitude) ? Allah n’est certes pas distrait de ce que vous faites."
   },
   {
     "id": "ali-imran-100",
@@ -13022,7 +13121,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ فَرِيقًا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ يَرُدُّوكُم بَعْدَ إِيمَـٰنِكُمْ كَـٰفِرِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إن تطيعوا فريقا من ٱلذين أوتوا ٱلكتـب يردوكم بعد إيمـنكم كـفرين",
     "transliteration": "yāayyuhā alladhīna āmanū in tuṭīʿū farīqan mina alladhīna ūtū l-kitāba yaruddūkum baʿda īmānikum kāfirīna",
-    "translation": "",
+    "translation": "O you who have believed, if you obey a party of those who were given the Scripture, they would turn you back, after your belief, [to being] unbelievers.",
     "words": [
       {
         "id": "ali-imran-100-1",
@@ -13123,7 +13222,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Si vous obéissez à quelques-uns de ceux qui ont reçu le Livre, ils vous rendront à la mécréance alors que vous aviez la foi."
   },
   {
     "id": "ali-imran-101",
@@ -13132,7 +13232,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَـٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "وكيف تكفرون وأنتم تتلى عليكم ءايـت ٱلله وفيكم رسوله  ومن يعتصم بٱلله فقد هدى إلى صرط مستقيم",
     "transliteration": "wakayfa takfurūna wa-antum tut'lā ʿalaykum āyātu l-lahi wafīkum rasūluhu waman yaʿtaṣim bil-lahi faqad hudiya ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "And how could you disbelieve while to you are being recited the verses of Allāh and among you is His Messenger? And whoever holds firmly to Allāh has [indeed] been guided to a straight path.",
     "words": [
       {
         "id": "ali-imran-101-1",
@@ -13254,7 +13354,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment mécroyez-vous quand les versets d’Allah vous sont récités, et que parmi vous il y a Son Messager ? Quiconque s’attache avec force à Allah est guidé vers une voie droite."
   },
   {
     "id": "ali-imran-102",
@@ -13263,7 +13364,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ حَقَّ تُقَاتِهِۦ وَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱتقوا ٱلله حق تقاته ولا تموتن إلا وأنتم مسلمون",
     "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha ḥaqqa tuqātihi walā tamūtunna illā wa-antum mus'limūna",
-    "translation": "",
+    "translation": "O you who have believed, fear Allāh as He should be feared and do not die except as Muslims [in submission to Him].",
     "words": [
       {
         "id": "ali-imran-102-1",
@@ -13350,7 +13451,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Craignez Allah comme il convient de Le craindre, et ne mourez qu’entièrement Soumis."
   },
   {
     "id": "ali-imran-103",
@@ -13359,7 +13461,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَ",
     "textSimple": "وٱعتصموا بحبل ٱلله جميعا ولا تفرقوا  وٱذكروا نعمت ٱلله عليكم إذ كنتم أعدآء فألف بين قلوبكم فأصبحتم بنعمتهٓ إخونا وكنتم على شفا حفرة من ٱلنار فأنقذكم منها  كذلك يبين ٱلله لكم ءايـته لعلكم تهتدون",
     "transliteration": "wa-iʿ'taṣimū biḥabli l-lahi jamīʿan walā tafarraqū wa-udh'kurū niʿ'mata l-lahi ʿalaykum idh kuntum aʿdāan fa-allafa bayna qulūbikum fa-aṣbaḥtum biniʿ'matihi ikh'wānan wakuntum ʿalā shafā ḥuf'ratin mina l-nāri fa-anqadhakum min'hā kadhālika yubayyinu l-lahu lakum āyātihi laʿallakum tahtadūna",
-    "translation": "",
+    "translation": "And hold firmly to the rope of Allāh all together and do not become divided. And remember the favor of Allāh upon you - when you were enemies and He brought your hearts together and you became, by His favor, brothers. And you were on the edge of a pit of the Fire, and He saved you from it. Thus does Allāh make clear to you His verses that you may be guided.",
     "words": [
       {
         "id": "ali-imran-103-1",
@@ -13600,7 +13702,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accrochez-vous tous à la Corde d’Allah et ne vous divisez point. Évoquez la grâce dont Allah vous a comblés. Vous étiez ennemis et Il a uni vos cœurs ; vous êtes devenus frères, par Sa grâce. Et lorsque vous étiez au bord d’un abîme de feu, Il vous en a sauvés. Ainsi Allah vous expose-t-Il clairement Ses Signes, peut-être serez-vous guidés (vers la bonne voie)."
   },
   {
     "id": "ali-imran-104",
@@ -13609,7 +13712,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "ولتكن منكم أمة يدعون إلى ٱلخير ويأمرون بٱلمعروف وينهون عن ٱلمنكر  وأولـٓئك هم ٱلمفلحون",
     "transliteration": "waltakun minkum ummatun yadʿūna ilā l-khayri wayamurūna bil-maʿrūfi wayanhawna ʿani l-munkari wa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong, and those will be the successful.",
     "words": [
       {
         "id": "ali-imran-104-1",
@@ -13710,7 +13813,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’il y ait donc parmi vous une communauté qui appelle au bien, qui prescrit le convenable et proscrit le condamnable. Ceux-là atteindront à la réussite."
   },
   {
     "id": "ali-imran-105",
@@ -13719,7 +13823,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَكُونُوا۟ كَٱلَّذِينَ تَفَرَّقُوا۟ وَٱخْتَلَفُوا۟ مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْبَيِّنَـٰتُ ۚ وَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ عَظِيمٌ",
     "textSimple": "ولا تكونوا كٱلذين تفرقوا وٱختلفوا من بعد ما جآءهم ٱلبينـت  وأولـٓئك لهم عذاب عظيم",
     "transliteration": "walā takūnū ka-alladhīna tafarraqū wa-ikh'talafū min baʿdi mā jāahumu l-bayinātu wa-ulāika lahum ʿadhābun ʿaẓīmun",
-    "translation": "",
+    "translation": "And do not be like the ones who became divided and differed after the clear proofs had come to them. And those will have a great punishment",
     "words": [
       {
         "id": "ali-imran-105-1",
@@ -13820,7 +13924,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne soyez pas comme ceux-là qui s’étaient divisés et s’étaient opposés après que leur furent venues les preuves évidentes. Ceux-là, certes, auront un terrible supplice."
   },
   {
     "id": "ali-imran-106",
@@ -13829,7 +13934,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ ۚ فَأَمَّا ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَـٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
     "textSimple": "يوم تبيض وجوه وتسود وجوه  فأما ٱلذين ٱسودت وجوههم أكفرتم بعد إيمـنكم فذوقوا ٱلعذاب بما كنتم تكفرون",
     "transliteration": "yawma tabyaḍḍu wujūhun wataswaddu wujūhun fa-ammā alladhīna is'waddat wujūhuhum akafartum baʿda īmānikum fadhūqū l-ʿadhāba bimā kuntum takfurūna",
-    "translation": "",
+    "translation": "On the Day [some] faces will turn white and [some] faces will turn black. As for those whose faces turn black, [to them it will be said], \"Did you disbelieve [i.e., reject faith] after your belief? Then taste the punishment for what you used to reject.\"",
     "words": [
       {
         "id": "ali-imran-106-1",
@@ -13951,7 +14056,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Viendra le jour où certains visages rayonneront, et d’autres s’assombriront. Quant à ceux dont les visages seront sombres, (il leur sera dit) : « Vous avez mécru après avoir eu la foi ? Alors, goûtez au supplice que vous aura valu votre mécréance ! »"
   },
   {
     "id": "ali-imran-107",
@@ -13960,7 +14066,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وأما ٱلذين ٱبيضت وجوههم ففى رحمة ٱلله هم فيها خـلدون",
     "transliteration": "wa-ammā alladhīna ib'yaḍḍat wujūhuhum fafī raḥmati l-lahi hum fīhā khālidūna",
-    "translation": "",
+    "translation": "But as for those whose faces turn white, [they will be] within the mercy of Allāh. They will abide therein eternally.",
     "words": [
       {
         "id": "ali-imran-107-1",
@@ -14033,7 +14139,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux dont les visages seront rayonnants, ils seront accueillis dans la miséricorde d’Allah, où ils séjourneront à jamais."
   },
   {
     "id": "ali-imran-108",
@@ -14042,7 +14149,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ءَايَـٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۗ وَمَا ٱللَّهُ يُرِيدُ ظُلْمًا لِّلْعَـٰلَمِينَ",
     "textSimple": "تلك ءايـت ٱلله نتلوها عليك بٱلحق  وما ٱلله يريد ظلما للعـلمين",
     "transliteration": "til'ka āyātu l-lahi natlūhā ʿalayka bil-ḥaqi wamā l-lahu yurīdu ẓul'man lil'ʿālamīna",
-    "translation": "",
+    "translation": "These are the verses of Allāh. We recite them to you, [O Muḥammad], in truth; and Allāh wants no injustice to the worlds [i.e., His creatures].",
     "words": [
       {
         "id": "ali-imran-108-1",
@@ -14122,7 +14229,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà donc les versets d’Allah que Nous te récitons en toute vérité. Car Allah n’entend faire aucune injustice aux créatures de l’Univers."
   },
   {
     "id": "ali-imran-109",
@@ -14131,7 +14239,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
     "textSimple": "ولله ما فى ٱلسمـوت وما فى ٱلأرض  وإلى ٱلله ترجع ٱلأمور",
     "transliteration": "walillahi mā fī l-samāwāti wamā fī l-arḍi wa-ilā l-lahi tur'jaʿu l-umūru",
-    "translation": "",
+    "translation": "To Allāh belongs whatever is in the heavens and whatever is on the earth. And to Allāh will [all] matters be returned.",
     "words": [
       {
         "id": "ali-imran-109-1",
@@ -14211,7 +14319,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient tout ce qu’il y a dans les cieux et sur la terre, et à Lui toute chose sera ramenée."
   },
   {
     "id": "ali-imran-110",
@@ -14220,7 +14329,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَتُؤْمِنُونَ بِٱللَّهِ ۗ وَلَوْ ءَامَنَ أَهْلُ ٱلْكِتَـٰبِ لَكَانَ خَيْرًا لَّهُم ۚ مِّنْهُمُ ٱلْمُؤْمِنُونَ وَأَكْثَرُهُمُ ٱلْفَـٰسِقُونَ",
     "textSimple": "كنتم خير أمة أخرجت للناس تأمرون بٱلمعروف وتنهون عن ٱلمنكر وتؤمنون بٱلله  ولو ءامن أهل ٱلكتـب لكان خيرا لهم  منهم ٱلمؤمنون وأكثرهم ٱلفـسقون",
     "transliteration": "kuntum khayra ummatin ukh'rijat lilnnāsi tamurūna bil-maʿrūfi watanhawna ʿani l-munkari watu'minūna bil-lahi walaw āmana ahlu l-kitābi lakāna khayran lahum min'humu l-mu'minūna wa-aktharuhumu l-fāsiqūna",
-    "translation": "",
+    "translation": "You are the best nation produced [as an example] for mankind. You enjoin what is right and forbid what is wrong and believe in Allāh. If only the People of the Scripture had believed, it would have been better for them. Among them are believers, but most of them are defiantly disobedient.",
     "words": [
       {
         "id": "ali-imran-110-1",
@@ -14384,7 +14493,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous êtes la meilleure communauté qui ait jamais surgi pour les hommes. Vous prescrivez le convenable, proscrivez le condamnable et croyez en Allah. Et si les gens du Livre croyaient, cela serait bien meilleur pour eux. Il en est qui, certes, croient, mais la majorité sont des dépravés."
   },
   {
     "id": "ali-imran-111",
@@ -14393,7 +14503,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَن يَضُرُّوكُمْ إِلَّآ أَذًى ۖ وَإِن يُقَـٰتِلُوكُمْ يُوَلُّوكُمُ ٱلْأَدْبَارَ ثُمَّ لَا يُنصَرُونَ",
     "textSimple": "لن يضروكم إلآ أذى  وإن يقـتلوكم يولوكم ٱلأدبار ثم لا ينصرون",
     "transliteration": "lan yaḍurrūkum illā adhan wa-in yuqātilūkum yuwallūkumu l-adbāra thumma lā yunṣarūna",
-    "translation": "",
+    "translation": "They will not harm you except for [some] annoyance. And if they fight you, they will show you their backs [i.e., retreat]; then they will not be aided.",
     "words": [
       {
         "id": "ali-imran-111-1",
@@ -14473,7 +14583,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne vous nuiront que très peu. Et s’ils vous combattent, ils tourneront vite les talons et ne seront point secourus."
   },
   {
     "id": "ali-imran-112",
@@ -14482,7 +14593,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍ مِّنَ ٱللَّهِ وَحَبْلٍ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
     "textSimple": "ضربت عليهم ٱلذلة أين ما ثقفوٓا إلا بحبل من ٱلله وحبل من ٱلناس وبآءو بغضب من ٱلله وضربت عليهم ٱلمسكنة  ذلك بأنهم كانوا يكفرون بـٔايـت ٱلله ويقتلون ٱلأنبيآء بغير حق  ذلك بما عصوا وكانوا يعتدون",
     "transliteration": "ḍuribat ʿalayhimu l-dhilatu ayna mā thuqifū illā biḥablin mina l-lahi waḥablin mina l-nāsi wabāū bighaḍabin mina l-lahi waḍuribat ʿalayhimu l-maskanatu dhālika bi-annahum kānū yakfurūna biāyāti l-lahi wayaqtulūna l-anbiyāa bighayri ḥaqqin dhālika bimā ʿaṣaw wakānū yaʿtadūna",
-    "translation": "",
+    "translation": "They have been put under humiliation [by Allāh] wherever they are overtaken, except for a rope [i.e., covenant] from Allāh and a rope [i.e., treaty] from the people [i.e., the Muslims]. And they have drawn upon themselves anger from Allāh and have been put under destitution. That is because they disbelieved in [i.e., rejected] the verses of Allāh and killed the prophets without right. That is because they disobeyed and [habitually] transgressed.",
     "words": [
       {
         "id": "ali-imran-112-1",
@@ -14730,7 +14841,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont marqués d’infamie là où ils se trouvent, à moins d’une aide d’Allah ou d’un secours des hommes. Ils ont mérité la colère d’Allah, et sur eux s’est abattue l’humiliation, car ils reniaient les Signes d’Allah, tuaient indûment les Prophètes, désobéissaient et transgressaient."
   },
   {
     "id": "ali-imran-113",
@@ -14739,7 +14851,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَيْسُوا۟ سَوَآءً ۗ مِّنْ أَهْلِ ٱلْكِتَـٰبِ أُمَّةٌ قَآئِمَةٌ يَتْلُونَ ءَايَـٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيْلِ وَهُمْ يَسْجُدُونَ",
     "textSimple": " ليسوا سوآء  من أهل ٱلكتـب أمة قآئمة يتلون ءايـت ٱلله ءانآء ٱليل وهم يسجدون",
     "transliteration": "laysū sawāan min ahli l-kitābi ummatun qāimatun yatlūna āyāti l-lahi ānāa al-layli wahum yasjudūna",
-    "translation": "",
+    "translation": "They are not [all] the same; among the People of the Scripture is a community standing [in obedience], reciting the verses of Allāh during periods of the night and prostrating [in prayer].",
     "words": [
       {
         "id": "ali-imran-113-1",
@@ -14840,7 +14952,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes, tous ne sont pas pareils. Il y a, parmi les gens du Livre, ceux qui, de nuit, récitent les versets d’Allah et se prosternent."
   },
   {
     "id": "ali-imran-114",
@@ -14849,7 +14962,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَـٰٓئِكَ مِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "يؤمنون بٱلله وٱليوم ٱلـٔاخر ويأمرون بٱلمعروف وينهون عن ٱلمنكر ويسـرعون فى ٱلخيرت وأولـٓئك من ٱلصـلحين",
     "transliteration": "yu'minūna bil-lahi wal-yawmi l-ākhiri wayamurūna bil-maʿrūfi wayanhawna ʿani l-munkari wayusāriʿūna fī l-khayrāti wa-ulāika mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "They believe in Allāh and the Last Day, and they enjoin what is right and forbid what is wrong and hasten to good deeds. And those are among the righteous.",
     "words": [
       {
         "id": "ali-imran-114-1",
@@ -14957,7 +15070,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils croient en Allah et au Jour Dernier, prescrivent le convenable, proscrivent le condamnable et se hâtent vers le bien. Ceux-là sont du nombre des vertueux."
   },
   {
     "id": "ali-imran-115",
@@ -14966,7 +15080,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَفْعَلُوا۟ مِنْ خَيْرٍ فَلَن يُكْفَرُوهُ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلْمُتَّقِينَ",
     "textSimple": "وما يفعلوا من خير فلن يكفروه  وٱلله عليم بٱلمتقين",
     "transliteration": "wamā yafʿalū min khayrin falan yuk'farūhu wal-lahu ʿalīmun bil-mutaqīna",
-    "translation": "",
+    "translation": "And whatever good they do - never will it be denied them. And Allāh is Knowing of the righteous.",
     "words": [
       {
         "id": "ali-imran-115-1",
@@ -15032,7 +15146,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout le bien qu’ils auront fait ne leur sera point méconnu, car Allah connaît parfaitement les gens pieux."
   },
   {
     "id": "ali-imran-116",
@@ -15041,7 +15156,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَـٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۖ وَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۚ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "إن ٱلذين كفروا لن تغنى عنهم أمولهم ولآ أولـدهم من ٱلله شيـٔا  وأولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "inna alladhīna kafarū lan tugh'niya ʿanhum amwāluhum walā awlāduhum mina l-lahi shayan wa-ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve - never will their wealth or their children avail them against Allāh at all, and those are the companions of the Fire; they will abide therein eternally.",
     "words": [
       {
         "id": "ali-imran-116-1",
@@ -15170,7 +15285,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien, pour ceux qui ont mécru, ne servira contre Allah, ni leurs biens ni leurs enfants. Ce sont eux les hôtes du Feu, où ils séjourneront pour l’éternité."
   },
   {
     "id": "ali-imran-117",
@@ -15179,7 +15295,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "مَثَلُ مَا يُنفِقُونَ فِى هَـٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَـٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
     "textSimple": "مثل ما ينفقون فى هـذه ٱلحيوة ٱلدنيا كمثل ريح فيها صر أصابت حرث قوم ظلموٓا أنفسهم فأهلكته  وما ظلمهم ٱلله ولـكن أنفسهم يظلمون",
     "transliteration": "mathalu mā yunfiqūna fī hādhihi l-ḥayati l-dun'yā kamathali rīḥin fīhā ṣirrun aṣābat ḥartha qawmin ẓalamū anfusahum fa-ahlakathu wamā ẓalamahumu l-lahu walākin anfusahum yaẓlimūna",
-    "translation": "",
+    "translation": "The example of what they spend in this worldly life is like that of a wind containing frost which strikes the harvest of a people who have wronged themselves [i.e., sinned] and destroys it. And Allāh has not wronged them, but they wrong themselves.",
     "words": [
       {
         "id": "ali-imran-117-1",
@@ -15343,7 +15459,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qu’ils dépensent ici-bas est à l’image d’un vent glacial qui, atteignant les champs cultivés de gens injustes envers eux-mêmes, les ravage et les détruit. Allah ne les a point lésés, ils se sont lésés eux-mêmes."
   },
   {
     "id": "ali-imran-118",
@@ -15352,7 +15469,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ بِطَانَةً مِّن دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا۟ مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ أَكْبَرُ ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْـَٔايَـٰتِ ۖ إِن كُنتُمْ تَعْقِلُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تتخذوا بطانة من دونكم لا يألونكم خبالا ودوا ما عنتم قد بدت ٱلبغضآء من أفوههم وما تخفى صدورهم أكبر  قد بينا لكم ٱلـٔايـت  إن كنتم تعقلون",
     "transliteration": "yāayyuhā alladhīna āmanū lā tattakhidhū biṭānatan min dūnikum lā yalūnakum khabālan waddū mā ʿanittum qad badati l-baghḍāu min afwāhihim wamā tukh'fī ṣudūruhum akbaru qad bayyannā lakumu l-āyāti in kuntum taʿqilūna",
-    "translation": "",
+    "translation": "O you who have believed, do not take as intimates those other than yourselves [i.e., believers], for they will not spare you [any] ruin. They wish you would have hardship. Hatred has already appeared from their mouths, and what their breasts conceal is greater. We have certainly made clear to you the signs, if you will use reason.",
     "words": [
       {
         "id": "ali-imran-118-1",
@@ -15565,7 +15682,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne prenez point de confidents qui ne soient pas des vôtres. Car ils ne laisseront pas de vous corrompre. Ils souhaitent vous voir souffrir toutes les peines et la haine se dégage de leurs bouches, mais ce que cachent leurs poitrines est encore pire. Nous vous avons montré clairement les Signes ; si seulement vous pouviez comprendre !"
   },
   {
     "id": "ali-imran-119",
@@ -15574,7 +15692,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَـٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "هـٓأنتم أولآء تحبونهم ولا يحبونكم وتؤمنون بٱلكتـب كله وإذا لقوكم قالوٓا ءامنا وإذا خلوا عضوا عليكم ٱلأنامل من ٱلغيظ  قل موتوا بغيظكم  إن ٱلله عليم بذات ٱلصدور",
     "transliteration": "hāantum ulāi tuḥibbūnahum walā yuḥibbūnakum watu'minūna bil-kitābi kullihi wa-idhā laqūkum qālū āmannā wa-idhā khalaw ʿaḍḍū ʿalaykumu l-anāmila mina l-ghayẓi qul mūtū bighayẓikum inna l-laha ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "Here you are loving them but they are not loving you, while you believe in the Scripture - all of it. And when they meet you, they say, \"We believe.\" But when they are alone, they bite their fingertips at you in rage. Say, \"Die in your rage. Indeed, Allāh is Knowing of that within the breasts.\"",
     "words": [
       {
         "id": "ali-imran-119-1",
@@ -15766,7 +15884,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous, vous les aimez, mais, eux, ne vous aiment pas. Vous croyez à toutes les Écritures, mais eux, lorsqu’ils vous rencontrent, disent : « Nous croyons » et lorsqu’ils sont seuls, ne pouvant contenir leur rage, s’en mordent les doigts. Dis : « Mourez donc de votre rage ! » Allah connaît parfaitement ce qu’il y a au fond des cœurs."
   },
   {
     "id": "ali-imran-120",
@@ -15775,7 +15894,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ",
     "textSimple": "إن تمسسكم حسنة تسؤهم وإن تصبكم سيئة يفرحوا بها  وإن تصبروا وتتقوا لا يضركم كيدهم شيـٔا  إن ٱلله بما يعملون محيط",
     "transliteration": "in tamsaskum ḥasanatun tasu'hum wa-in tuṣib'kum sayyi-atun yafraḥū bihā wa-in taṣbirū watattaqū lā yaḍurrukum kayduhum shayan inna l-laha bimā yaʿmalūna muḥīṭun",
-    "translation": "",
+    "translation": "If good touches you, it distresses them; but if harm strikes you, they rejoice at it. And if you are patient and fear Allāh, their plot will not harm you at all. Indeed, Allāh is encompassing of what they do.",
     "words": [
       {
         "id": "ali-imran-120-1",
@@ -15925,7 +16044,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un bien vous touche-t-il, ils en sont déçus. Un mal vous frappe-t-il, ils en sont réjouis. Mais si vous êtes patients et avez la piété, rien de leurs intrigues ne pourra vous nuire. Car Allah Cerne tout ce qu’ils font."
   },
   {
     "id": "ali-imran-121",
@@ -15934,7 +16054,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ مَقَـٰعِدَ لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
     "textSimple": "وإذ غدوت من أهلك تبوئ ٱلمؤمنين مقـعد للقتال  وٱلله سميع عليم",
     "transliteration": "wa-idh ghadawta min ahlika tubawwi-u l-mu'minīna maqāʿida lil'qitāli wal-lahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "And [remember] when you, [O Muḥammad], left your family in the morning to post the believers at their stations for the battle [of Uḥud] - and Allāh is Hearing and Knowing -",
     "words": [
       {
         "id": "ali-imran-121-1",
@@ -16014,7 +16134,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi, ô Muhammad) lorsque tu quittas, au petit jour, ta famille pour attribuer aux croyants leurs postes de combat. Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "ali-imran-122",
@@ -16023,7 +16144,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ هَمَّت طَّآئِفَتَانِ مِنكُمْ أَن تَفْشَلَا وَٱللَّهُ وَلِيُّهُمَا ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
     "textSimple": "إذ همت طآئفتان منكم أن تفشلا وٱلله وليهما  وعلى ٱلله فليتوكل ٱلمؤمنون",
     "transliteration": "idh hammat ṭāifatāni minkum an tafshalā wal-lahu waliyyuhumā waʿalā l-lahi falyatawakkali l-mu'minūna",
-    "translation": "",
+    "translation": "When two parties among you were about to lose courage, but Allāh was their ally; and upon Allāh the believers should rely.",
     "words": [
       {
         "id": "ali-imran-122-1",
@@ -16110,7 +16231,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Deux de vos groupes alors faillirent abandonner, cependant qu’Allah était leur protecteur ! Car c’est à Allah que les croyants doivent s’en remettre."
   },
   {
     "id": "ali-imran-123",
@@ -16119,7 +16241,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍ وَأَنتُمْ أَذِلَّةٌ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "ولقد نصركم ٱلله ببدر وأنتم أذلة  فٱتقوا ٱلله لعلكم تشكرون",
     "transliteration": "walaqad naṣarakumu l-lahu bibadrin wa-antum adhillatun fa-ittaqū l-laha laʿallakum tashkurūna",
-    "translation": "",
+    "translation": "And already had Allāh given you victory at [the battle of] Badr while you were weak [i.e., few in number]. Then fear Allāh; perhaps you will be grateful.",
     "words": [
       {
         "id": "ali-imran-123-1",
@@ -16192,7 +16314,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah vous avait bien fait triompher à Badrquand vous étiez bien inférieurs. Alors, craignez Allah, peut-être serez-vous reconnaissants."
   },
   {
     "id": "ali-imran-124",
@@ -16201,7 +16324,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَـٰثَةِ ءَالَـٰفٍ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُنزَلِينَ",
     "textSimple": "إذ تقول للمؤمنين ألن يكفيكم أن يمدكم ربكم بثلـثة ءالـف من ٱلملـٓئكة منزلين",
     "transliteration": "idh taqūlu lil'mu'minīna alan yakfiyakum an yumiddakum rabbukum bithalāthati ālāfin mina l-malāikati munzalīna",
-    "translation": "",
+    "translation": "[Remember] when you said to the believers, \"Is it not sufficient for you that your Lord should reinforce you with three thousand angels sent down?",
     "words": [
       {
         "id": "ali-imran-124-1",
@@ -16295,7 +16418,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu disais alors aux croyants : « Ne vous suffit-il donc pas que votre Seigneur vous ait envoyé en renfort trois mille Anges descendus (du Ciel) ? »"
   },
   {
     "id": "ali-imran-125",
@@ -16304,7 +16428,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَـٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَـٰفٍ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُسَوِّمِينَ",
     "textSimple": "بلىٓ  إن تصبروا وتتقوا ويأتوكم من فورهم هـذا يمددكم ربكم بخمسة ءالـف من ٱلملـٓئكة مسومين",
     "transliteration": "balā in taṣbirū watattaqū wayatūkum min fawrihim hādhā yum'did'kum rabbukum bikhamsati ālāfin mina l-malāikati musawwimīna",
-    "translation": "",
+    "translation": "Yes, if you remain patient and conscious of Allāh and they [i.e., the enemy] come upon you [attacking] in rage, your Lord will reinforce you with five thousand angels having marks [of distinction].\"",
     "words": [
       {
         "id": "ali-imran-125-1",
@@ -16412,7 +16536,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que oui ! Si vous êtes patients et pieux et que vos ennemis vous assaillent sans plus tarder, votre Seigneur vous enverra alors cinq mille Anges élus aux marques distinctes."
   },
   {
     "id": "ali-imran-126",
@@ -16421,7 +16546,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشْرَىٰ لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُم بِهِۦ ۗ وَمَا ٱلنَّصْرُ إِلَّا مِنْ عِندِ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
     "textSimple": "وما جعله ٱلله إلا بشرى لكم ولتطمئن قلوبكم به  وما ٱلنصر إلا من عند ٱلله ٱلعزيز ٱلحكيم",
     "transliteration": "wamā jaʿalahu l-lahu illā bush'rā lakum walitaṭma-inna qulūbukum bihi wamā l-naṣru illā min ʿindi l-lahi l-ʿazīzi l-ḥakīmi",
-    "translation": "",
+    "translation": "And Allāh made it not except as [a sign of] good tidings for you and to reassure your hearts thereby. And victory is not except from Allāh, the Exalted in Might, the Wise -",
     "words": [
       {
         "id": "ali-imran-126-1",
@@ -16543,7 +16668,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne le fit que pour (vous annoncer) une heureuse nouvelle, afin que vos cœurs en soient rassurés. La victoire, certes, ne peut venir que d’Allah, le Tout -Puissant, le Sage."
   },
   {
     "id": "ali-imran-127",
@@ -16552,7 +16678,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لِيَقْطَعَ طَرَفًا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُوا۟ خَآئِبِينَ",
     "textSimple": "ليقطع طرفا من ٱلذين كفروٓا أو يكبتهم فينقلبوا خآئبين",
     "transliteration": "liyaqṭaʿa ṭarafan mina alladhīna kafarū aw yakbitahum fayanqalibū khāibīna",
-    "translation": "",
+    "translation": "That He might cut down a section of the disbelievers or suppress them so that they turn back disappointed.",
     "words": [
       {
         "id": "ali-imran-127-1",
@@ -16618,7 +16744,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(C’était aussi) pour décimer une partie des mécréants ou pour les défaire, afin qu’ils se retirent, humiliés et déçus."
   },
   {
     "id": "ali-imran-128",
@@ -16627,7 +16754,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَيْسَ لَكَ مِنَ ٱلْأَمْرِ شَىْءٌ أَوْ يَتُوبَ عَلَيْهِمْ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَـٰلِمُونَ",
     "textSimple": "ليس لك من ٱلأمر شىء أو يتوب عليهم أو يعذبهم فإنهم ظـلمون",
     "transliteration": "laysa laka mina l-amri shayon aw yatūba ʿalayhim aw yuʿadhibahum fa-innahum ẓālimūna",
-    "translation": "",
+    "translation": "Not for you, [O Muḥammad, but for Allāh], is the decision whether He should [cut them down] or forgive them or punish them, for indeed, they are wrongdoers.",
     "words": [
       {
         "id": "ali-imran-128-1",
@@ -16714,7 +16841,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’as pas à te prononcer en quoi que ce soit dans l’ordre (d’Allah). Ou Il accepte leur repentir, ou Il les soumet au supplice, car ils sont injustes."
   },
   {
     "id": "ali-imran-129",
@@ -16723,7 +16851,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ولله ما فى ٱلسمـوت وما فى ٱلأرض  يغفر لمن يشآء ويعذب من يشآء  وٱلله غفور رحيم",
     "transliteration": "walillahi mā fī l-samāwāti wamā fī l-arḍi yaghfiru liman yashāu wayuʿadhibu man yashāu wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And to Allāh belongs whatever is in the heavens and whatever is on the earth. He forgives whom He wills and punishes whom He wills. And Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "ali-imran-129-1",
@@ -16838,7 +16966,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient ce qu’il y a dans les cieux et sur la terre ; Il pardonne à qui Il veut et soumet au supplice qui Il veut, et Allah est Tout Absoluteur,Tout Miséricordieux."
   },
   {
     "id": "ali-imran-130",
@@ -16847,7 +16976,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًا مُّضَـٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تأكلوا ٱلربوٓا أضعـفا مضـعفة  وٱتقوا ٱلله لعلكم تفلحون",
     "transliteration": "yāayyuhā alladhīna āmanū lā takulū l-riba aḍʿāfan muḍāʿafatan wa-ittaqū l-laha laʿallakum tuf'liḥūna",
-    "translation": "",
+    "translation": "O you who have believed, do not consume usury, doubled and multiplied, but fear Allāh that you may be successful.",
     "words": [
       {
         "id": "ali-imran-130-1",
@@ -16934,7 +17063,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne profitez pas des intérêts plusieurs fois multipliés de l’usure, craignez Allah, peut-être atteindrez-vous à la réussite."
   },
   {
     "id": "ali-imran-131",
@@ -16943,7 +17073,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِىٓ أُعِدَّتْ لِلْكَـٰفِرِينَ",
     "textSimple": "وٱتقوا ٱلنار ٱلتىٓ أعدت للكـفرين",
     "transliteration": "wa-ittaqū l-nāra allatī uʿiddat lil'kāfirīna",
-    "translation": "",
+    "translation": "And fear the Fire, which has been prepared for the disbelievers.",
     "words": [
       {
         "id": "ali-imran-131-1",
@@ -16981,7 +17111,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et craignez le Feu préparé pour les mécréants."
   },
   {
     "id": "ali-imran-132",
@@ -16990,7 +17121,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "وأطيعوا ٱلله وٱلرسول لعلكم ترحمون",
     "transliteration": "wa-aṭīʿū l-laha wal-rasūla laʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "And obey Allāh and the Messenger that you may obtain mercy.",
     "words": [
       {
         "id": "ali-imran-132-1",
@@ -17028,7 +17159,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et obéissez à Allah et à Son Messager, peut-être serez-vous touchés par la miséricorde."
   },
   {
     "id": "ali-imran-133",
@@ -17037,7 +17169,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ",
     "textSimple": " وسارعوٓا إلى مغفرة من ربكم وجنة عرضها ٱلسمـوت وٱلأرض أعدت للمتقين",
     "transliteration": "wasāriʿū ilā maghfiratin min rabbikum wajannatin ʿarḍuhā l-samāwātu wal-arḍu uʿiddat lil'muttaqīna",
-    "translation": "",
+    "translation": "And hasten to forgiveness from your Lord and a garden [i.e., Paradise] as wide as the heavens and earth, prepared for the righteous",
     "words": [
       {
         "id": "ali-imran-133-1",
@@ -17117,7 +17249,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Empressez-vous (d’aller) vers le pardon de votre Seigneur, et vers un Paradis large comme les cieux et la terre, réservé aux hommes pieux,"
   },
   {
     "id": "ali-imran-134",
@@ -17126,7 +17259,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَـٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
     "textSimple": "ٱلذين ينفقون فى ٱلسرآء وٱلضرآء وٱلكـظمين ٱلغيظ وٱلعافين عن ٱلناس  وٱلله يحب ٱلمحسنين",
     "transliteration": "alladhīna yunfiqūna fī l-sarāi wal-ḍarāi wal-kāẓimīna l-ghayẓa wal-ʿāfīna ʿani l-nāsi wal-lahu yuḥibbu l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Who spend [in the cause of Allāh] during ease and hardship and who restrain anger and who pardon the people - and Allāh loves the doers of good;",
     "words": [
       {
         "id": "ali-imran-134-1",
@@ -17220,7 +17353,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui dépensent aussi bien dans les moments fastes que dans les moments néfastes, qui savent contenir leur rage et pardonnent à leurs semblables. Allah aime les bienfaiteurs,"
   },
   {
     "id": "ali-imran-135",
@@ -17229,7 +17363,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَـٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ ذَكَرُوا۟ ٱللَّهَ فَٱسْتَغْفَرُوا۟ لِذُنُوبِهِمْ وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ وَلَمْ يُصِرُّوا۟ عَلَىٰ مَا فَعَلُوا۟ وَهُمْ يَعْلَمُونَ",
     "textSimple": "وٱلذين إذا فعلوا فـحشة أو ظلموٓا أنفسهم ذكروا ٱلله فٱستغفروا لذنوبهم ومن يغفر ٱلذنوب إلا ٱلله ولم يصروا على ما فعلوا وهم يعلمون",
     "transliteration": "wa-alladhīna idhā faʿalū fāḥishatan aw ẓalamū anfusahum dhakarū l-laha fa-is'taghfarū lidhunūbihim waman yaghfiru l-dhunūba illā l-lahu walam yuṣirrū ʿalā mā faʿalū wahum yaʿlamūna",
-    "translation": "",
+    "translation": "And those who, when they commit an immorality or wrong themselves [by transgression], remember Allāh and seek forgiveness for their sins - and who can forgive sins except Allāh? - and [who] do not persist in what they have done while they know.",
     "words": [
       {
         "id": "ali-imran-135-1",
@@ -17393,7 +17527,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(et ceux aussi) qui, s’ils ont succombé à une dépravation ou se sont lésés eux-mêmes, se rappellent Allah, demandent le pardon pour leurs péchés - et Qui donc pardonne les péchés sinon Allah ? – et ne persistent pas, en le sachant bien, dans ce qu’ils ont fait (de mal)."
   },
   {
     "id": "ali-imran-136",
@@ -17402,7 +17537,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ جَزَآؤُهُم مَّغْفِرَةٌ مِّن رَّبِّهِمْ وَجَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ وَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
     "textSimple": "أولـٓئك جزآؤهم مغفرة من ربهم وجنـت تجرى من تحتها ٱلأنهـر خـلدين فيها  ونعم أجر ٱلعـملين",
     "transliteration": "ulāika jazāuhum maghfiratun min rabbihim wajannātun tajrī min taḥtihā l-anhāru khālidīna fīhā waniʿ'ma ajru l-ʿāmilīna",
-    "translation": "",
+    "translation": "Those - their reward is forgiveness from their Lord and gardens beneath which rivers flow [in Paradise], wherein they will abide eternally; and excellent is the reward of the [righteous] workers.",
     "words": [
       {
         "id": "ali-imran-136-1",
@@ -17510,7 +17645,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là, leur rétribution sera un pardon de leur Seigneur et des jardins sous lesquels coulent les rivières, où ils séjourneront pour l’éternité. Quelle merveilleuse récompense pour ceux qui œuvrent si bien !"
   },
   {
     "id": "ali-imran-137",
@@ -17519,7 +17655,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُكَذِّبِينَ",
     "textSimple": "قد خلت من قبلكم سنن فسيروا فى ٱلأرض فٱنظروا كيف كان عـقبة ٱلمكذبين",
     "transliteration": "qad khalat min qablikum sunanun fasīrū fī l-arḍi fa-unẓurū kayfa kāna ʿāqibatu l-mukadhibīna",
-    "translation": "",
+    "translation": "Similar situations [as yours] have passed on before you, so proceed throughout the earth and observe how was the end of those who denied.",
     "words": [
       {
         "id": "ali-imran-137-1",
@@ -17613,7 +17749,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Beaucoup d’événements ont été subis par les générations qui vous ont précédés. Alors, parcourez la terre et voyez quel fut le sort de ceux qui démentaient."
   },
   {
     "id": "ali-imran-138",
@@ -17622,7 +17759,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا بَيَانٌ لِّلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِّلْمُتَّقِينَ",
     "textSimple": "هـذا بيان للناس وهدى وموعظة للمتقين",
     "transliteration": "hādhā bayānun lilnnāsi wahudan wamawʿiẓatun lil'muttaqīna",
-    "translation": "",
+    "translation": "This [Qur’ān] is a clear statement to [all] the people and a guidance and instruction for those conscious of Allāh.",
     "words": [
       {
         "id": "ali-imran-138-1",
@@ -17667,7 +17804,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà un manifeste pour les hommes, un guide droit (hudâ), et une leçon pour les gens pieux."
   },
   {
     "id": "ali-imran-139",
@@ -17676,7 +17814,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "ولا تهنوا ولا تحزنوا وأنتم ٱلأعلون إن كنتم مؤمنين",
     "transliteration": "walā tahinū walā taḥzanū wa-antumu l-aʿlawna in kuntum mu'minīna",
-    "translation": "",
+    "translation": "So do not weaken and do not grieve, and you will be superior if you are [true] believers.",
     "words": [
       {
         "id": "ali-imran-139-1",
@@ -17742,7 +17880,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne lâchez pas pied et ne soyez pas attristés, car c’est vous qui êtes supérieurs si vous êtes croyants."
   },
   {
     "id": "ali-imran-140",
@@ -17751,7 +17890,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّـٰلِمِينَ",
     "textSimple": "إن يمسسكم قرح فقد مس ٱلقوم قرح مثله  وتلك ٱلأيام نداولها بين ٱلناس وليعلم ٱلله ٱلذين ءامنوا ويتخذ منكم شهدآء  وٱلله لا يحب ٱلظـلمين",
     "transliteration": "in yamsaskum qarḥun faqad massa l-qawma qarḥun mith'luhu watil'ka l-ayāmu nudāwiluhā bayna l-nāsi waliyaʿlama l-lahu alladhīna āmanū wayattakhidha minkum shuhadāa wal-lahu lā yuḥibbu l-ẓālimīna",
-    "translation": "",
+    "translation": "If a wound should touch you - there has already touched the [opposing] people a wound similar to it. And these days [of varying conditions] We alternate among the people so that Allāh may make evident those who believe and [may] take to Himself from among you martyrs - and Allāh does not like the wrongdoers -",
     "words": [
       {
         "id": "ali-imran-140-1",
@@ -17922,7 +18061,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous êtes touchés par une blessure (et avez subi des pertes en vies humaines), les autres (les ennemis) ont déjà été touchés par une blessure pareille (et de semblables pertes). C’est ainsi que Nous faisons alterner les jours heureux et les jours malheureux entre les hommes, afin qu’Allah sache quels sont ceux qui ont cru, et qu’Il élise parmi vous des martyrs. Allah n’aime pas les injustes."
   },
   {
     "id": "ali-imran-141",
@@ -17931,7 +18071,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَمْحَقَ ٱلْكَـٰفِرِينَ",
     "textSimple": "وليمحص ٱلله ٱلذين ءامنوا ويمحق ٱلكـفرين",
     "transliteration": "waliyumaḥḥiṣa l-lahu alladhīna āmanū wayamḥaqa l-kāfirīna",
-    "translation": "",
+    "translation": "And that Allāh may purify the believers [through trials] and destroy the disbelievers.",
     "words": [
       {
         "id": "ali-imran-141-1",
@@ -17976,7 +18116,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et afin qu’Allah purifie (de leurs péchés) ceux qui ont cru et anéantisse les mécréants."
   },
   {
     "id": "ali-imran-142",
@@ -17985,7 +18126,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَـٰهَدُوا۟ مِنكُمْ وَيَعْلَمَ ٱلصَّـٰبِرِينَ",
     "textSimple": "أم حسبتم أن تدخلوا ٱلجنة ولما يعلم ٱلله ٱلذين جـهدوا منكم ويعلم ٱلصـبرين",
     "transliteration": "am ḥasib'tum an tadkhulū l-janata walammā yaʿlami l-lahu alladhīna jāhadū minkum wayaʿlama l-ṣābirīna",
-    "translation": "",
+    "translation": "Or do you think that you will enter Paradise while Allāh has not yet made evident those of you who fight in His cause and made evident those who are steadfast?",
     "words": [
       {
         "id": "ali-imran-142-1",
@@ -18079,7 +18220,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors comptiez-vous entrer au Paradis sans qu’Allah n’ait su qui de vous luttent et qui de vous endurent (patiemment les épreuves) ?"
   },
   {
     "id": "ali-imran-143",
@@ -18088,7 +18230,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ كُنتُمْ تَمَنَّوْنَ ٱلْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ",
     "textSimple": "ولقد كنتم تمنون ٱلموت من قبل أن تلقوه فقد رأيتموه وأنتم تنظرون",
     "transliteration": "walaqad kuntum tamannawna l-mawta min qabli an talqawhu faqad ra-aytumūhu wa-antum tanẓurūna",
-    "translation": "",
+    "translation": "And you had certainly wished for death [i.e., martyrdom] before you encountered it, and you have [now] seen it [before you] while you were looking on.",
     "words": [
       {
         "id": "ali-imran-143-1",
@@ -18175,7 +18317,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous souhaitiez la mort avant de l’avoir rencontrée, voilà que vous la voyez maintenant de vos propres yeux."
   },
   {
     "id": "ali-imran-144",
@@ -18184,7 +18327,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّـٰكِرِينَ",
     "textSimple": "وما محمد إلا رسول قد خلت من قبله ٱلرسل  أفإين مات أو قتل ٱنقلبتم علىٓ أعقـبكم  ومن ينقلب على عقبيه فلن يضر ٱلله شيـٔا  وسيجزى ٱلله ٱلشـكرين",
     "transliteration": "wamā muḥammadun illā rasūlun qad khalat min qablihi l-rusulu afa-in māta aw qutila inqalabtum ʿalā aʿqābikum waman yanqalib ʿalā ʿaqibayhi falan yaḍurra l-laha shayan wasayajzī l-lahu l-shākirīna",
-    "translation": "",
+    "translation": "Muḥammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allāh at all; but Allāh will reward the grateful.",
     "words": [
       {
         "id": "ali-imran-144-1",
@@ -18376,7 +18519,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Muhammad n’est qu’un Messager que d’autres Messagers ont précédé. S’il venait à mourir, ou s’il était tué, tourneriez-vous donc les talons ? Celui qui tourne les talons ne nuira en rien à Allah, et Allah récompensera les reconnaissants."
   },
   {
     "id": "ali-imran-145",
@@ -18385,7 +18529,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لِنَفْسٍ أَن تَمُوتَ إِلَّا بِإِذْنِ ٱللَّهِ كِتَـٰبًا مُّؤَجَّلًا ۗ وَمَن يُرِدْ ثَوَابَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَن يُرِدْ ثَوَابَ ٱلْـَٔاخِرَةِ نُؤْتِهِۦ مِنْهَا ۚ وَسَنَجْزِى ٱلشَّـٰكِرِينَ",
     "textSimple": "وما كان لنفس أن تموت إلا بإذن ٱلله كتـبا مؤجلا  ومن يرد ثواب ٱلدنيا نؤته منها ومن يرد ثواب ٱلـٔاخرة نؤته منها  وسنجزى ٱلشـكرين",
     "transliteration": "wamā kāna linafsin an tamūta illā bi-idh'ni l-lahi kitāban mu-ajjalan waman yurid thawāba l-dun'yā nu'tihi min'hā waman yurid thawāba l-ākhirati nu'tihi min'hā wasanajzī l-shākirīna",
-    "translation": "",
+    "translation": "And it is not [possible] for one to die except by permission of Allāh at a decree determined. And whoever desires the reward of this world - We will give him thereof; and whoever desires the reward of the Hereafter - We will give him thereof. And We will reward the grateful.",
     "words": [
       {
         "id": "ali-imran-145-1",
@@ -18556,7 +18700,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nul ne meurt si ce n’est par la permission d’Allah et selon un délai écrit. Et quiconque voudrait la récompense de ce bas monde, Nous lui en accorderons (une part), et quiconque voudrait la récompense de l’autre monde, Nous lui en accorderons (une part). Et Nous récompenserons les reconnaissants."
   },
   {
     "id": "ali-imran-146",
@@ -18565,7 +18710,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأَيِّن مِّن نَّبِىٍّ قَـٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌ فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا ٱسْتَكَانُوا۟ ۗ وَٱللَّهُ يُحِبُّ ٱلصَّـٰبِرِينَ",
     "textSimple": "وكأين من نبى قـتل معه ربيون كثير فما وهنوا لمآ أصابهم فى سبيل ٱلله وما ضعفوا وما ٱستكانوا  وٱلله يحب ٱلصـبرين",
     "transliteration": "waka-ayyin min nabiyyin qātala maʿahu ribbiyyūna kathīrun famā wahanū limā aṣābahum fī sabīli l-lahi wamā ḍaʿufū wamā is'takānū wal-lahu yuḥibbu l-ṣābirīna",
-    "translation": "",
+    "translation": "And how many a prophet [fought in battle and] with him fought many religious scholars. But they never lost assurance due to what afflicted them in the cause of Allāh, nor did they weaken or submit. And Allāh loves the steadfast.",
     "words": [
       {
         "id": "ali-imran-146-1",
@@ -18715,7 +18860,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de Prophètes ont combattu, avec à leurs côtés nombre de leurs disciples ! Ces derniers ne se laissèrent nullement décourager par les revers essuyés dans le chemin d’Allah ; ils ne faiblirent point ni ne capitulèrent. Et Allah aime ceux qui prennent patience."
   },
   {
     "id": "ali-imran-147",
@@ -18724,7 +18870,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
     "textSimple": "وما كان قولهم إلآ أن قالوا ربنا ٱغفر لنا ذنوبنا وإسرافنا فىٓ أمرنا وثبت أقدامنا وٱنصرنا على ٱلقوم ٱلكـفرين",
     "transliteration": "wamā kāna qawlahum illā an qālū rabbanā igh'fir lanā dhunūbanā wa-is'rāfanā fī amrinā wathabbit aqdāmanā wa-unṣur'nā ʿalā l-qawmi l-kāfirīna",
-    "translation": "",
+    "translation": "And their words were not but that they said, \"Our Lord, forgive us our sins and the excess [committed] in our affairs and plant firmly our feet and give us victory over the disbelieving people.\"",
     "words": [
       {
         "id": "ali-imran-147-1",
@@ -18860,7 +19006,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne faisaient que dire : « Ô Seigneur ! Pardonne-nous nos péchés et nos excès dans notre comportement, affermis nos pas et fais-nous triompher des peuples mécréants. »"
   },
   {
     "id": "ali-imran-148",
@@ -18869,7 +19016,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَـَٔاتَىٰهُمُ ٱللَّهُ ثَوَابَ ٱلدُّنْيَا وَحُسْنَ ثَوَابِ ٱلْـَٔاخِرَةِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
     "textSimple": "فـٔاتىهم ٱلله ثواب ٱلدنيا وحسن ثواب ٱلـٔاخرة  وٱلله يحب ٱلمحسنين",
     "transliteration": "faātāhumu l-lahu thawāba l-dun'yā waḥus'na thawābi l-ākhirati wal-lahu yuḥibbu l-muḥ'sinīna",
-    "translation": "",
+    "translation": "So Allāh gave them the reward of this world and the good reward of the Hereafter. And Allāh loves the doers of good.",
     "words": [
       {
         "id": "ali-imran-148-1",
@@ -18942,7 +19089,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah leur accorda donc la récompense de ce bas monde, et la récompense bien plus belle de l’autre monde. Et Allah aime les bienfaiteurs."
   },
   {
     "id": "ali-imran-149",
@@ -18951,7 +19099,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ ٱلَّذِينَ كَفَرُوا۟ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ فَتَنقَلِبُوا۟ خَـٰسِرِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إن تطيعوا ٱلذين كفروا يردوكم علىٓ أعقـبكم فتنقلبوا خـسرين",
     "transliteration": "yāayyuhā alladhīna āmanū in tuṭīʿū alladhīna kafarū yaruddūkum ʿalā aʿqābikum fatanqalibū khāsirīna",
-    "translation": "",
+    "translation": "O you who have believed, if you obey those who disbelieve, they will turn you back on your heels, and you will [then] become losers.",
     "words": [
       {
         "id": "ali-imran-149-1",
@@ -19038,7 +19186,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Si vous obéissez à ceux qui ont mécru, ils vous feront vous rétracter et vous vous retrouverez perdants."
   },
   {
     "id": "ali-imran-150",
@@ -19047,7 +19196,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ خَيْرُ ٱلنَّـٰصِرِينَ",
     "textSimple": "بل ٱلله مولىكم  وهو خير ٱلنـصرين",
     "transliteration": "bali l-lahu mawlākum wahuwa khayru l-nāṣirīna",
-    "translation": "",
+    "translation": "But Allāh is your protector, and He is the best of helpers.",
     "words": [
       {
         "id": "ali-imran-150-1",
@@ -19092,7 +19241,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui est votre Maître et c’est Lui votre meilleur allié."
   },
   {
     "id": "ali-imran-151",
@@ -19101,7 +19251,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا ۖ وَمَأْوَىٰهُمُ ٱلنَّارُ ۚ وَبِئْسَ مَثْوَى ٱلظَّـٰلِمِينَ",
     "textSimple": "سنلقى فى قلوب ٱلذين كفروا ٱلرعب بمآ أشركوا بٱلله ما لم ينزل به سلطـنا  ومأوىهم ٱلنار  وبئس مثوى ٱلظـلمين",
     "transliteration": "sanul'qī fī qulūbi alladhīna kafarū l-ruʿ'ba bimā ashrakū bil-lahi mā lam yunazzil bihi sul'ṭānan wamawāhumu l-nāru wabi'sa mathwā l-ẓālimīna",
-    "translation": "",
+    "translation": "We will cast terror into the hearts of those who disbelieve for what they have associated with Allāh of which He had not sent down [any] authority. And their refuge will be the Fire, and wretched is the residence of the wrongdoers.",
     "words": [
       {
         "id": "ali-imran-151-1",
@@ -19237,7 +19387,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous jetterons l’effroi dans les cœurs de ceux qui ont mécru, eux qui ont associé à Allah (d’autres divinités) sans argument d’autorité céleste. Leur refuge sera le Feu, et quel horrible refuge que celui des injustes !"
   },
   {
     "id": "ali-imran-152",
@@ -19246,7 +19397,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَـٰزَعْتُمْ فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ ٱلْـَٔاخِرَةَ ۚ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ",
     "textSimple": "ولقد صدقكم ٱلله وعدهٓ إذ تحسونهم بإذنه  حتىٓ إذا فشلتم وتنـزعتم فى ٱلأمر وعصيتم من بعد مآ أرىكم ما تحبون  منكم من يريد ٱلدنيا ومنكم من يريد ٱلـٔاخرة  ثم صرفكم عنهم ليبتليكم  ولقد عفا عنكم  وٱلله ذو فضل على ٱلمؤمنين",
     "transliteration": "walaqad ṣadaqakumu l-lahu waʿdahu idh taḥussūnahum bi-idh'nihi ḥattā idhā fashil'tum watanāzaʿtum fī l-amri waʿaṣaytum min baʿdi mā arākum mā tuḥibbūna minkum man yurīdu l-dun'yā waminkum man yurīdu l-ākhirata thumma ṣarafakum ʿanhum liyabtaliyakum walaqad ʿafā ʿankum wal-lahu dhū faḍlin ʿalā l-mu'minīna",
-    "translation": "",
+    "translation": "And Allāh had certainly fulfilled His promise to you when you were killing them [i.e., the enemy] by His permission until [the time] when you lost courage and fell to disputing about the order [given by the Prophet (ﷺ)] and disobeyed after He had shown you that which you love. Among you are some who desire this world, and among you are some who desire the Hereafter. Then He turned you back from them [defeated] that He might test you. And He has already forgiven you, and Allāh is the possessor of bounty for the believers.",
     "words": [
       {
         "id": "ali-imran-152-1",
@@ -19529,7 +19680,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a tenu Sa promesse envers vous lorsque, par Sa permission, vous les tailliez par vos épées, jusqu’au moment où vous avez faibli, vous avez disputé les ordres, puis vous les avez carrément enfreints, alors qu’Il vous avait laissés entrevoir ce que vous aimiez. Parmi vous, il en était qui voulaient ce bas monde, et il en était qui voulaient l’autre monde. Puis, pour vous mettre à l’épreuve, Il vous a fait fuir devant eux. Mais Il vous a déjà pardonné, car Allah est Plein de Faveurs pour les croyants."
   },
   {
     "id": "ali-imran-153",
@@ -19538,7 +19690,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَىٰكُمْ فَأَثَـٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَـٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
     "textSimple": " إذ تصعدون ولا تلون علىٓ أحد وٱلرسول يدعوكم فىٓ أخرىكم فأثـبكم غما بغم لكيلا تحزنوا على ما فاتكم ولا مآ أصـبكم  وٱلله خبير بما تعملون",
     "transliteration": "idh tuṣ'ʿidūna walā talwūna ʿalā aḥadin wal-rasūlu yadʿūkum fī ukh'rākum fa-athābakum ghamman bighammin likaylā taḥzanū ʿalā mā fātakum walā mā aṣābakum wal-lahu khabīrun bimā taʿmalūna",
-    "translation": "",
+    "translation": "[Remember] when you [fled and] climbed [the mountain] without looking aside at anyone while the Messenger was calling you from behind. So Allāh repaid you with distress upon distress so you would not grieve for that which had escaped you [of victory and spoils of war] or [for] that which had befallen you [of injury and death]. And Allāh is [fully] Aware of what you do.",
     "words": [
       {
         "id": "ali-imran-153-1",
@@ -19716,7 +19868,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souvenez-vous) quand vous preniez la fuite sans vous soucier de personne, alors que, derrière vous, le Messager vous rappelait. (Allah) vous infligea alors affliction sur affliction pour que vous ne regrettiez pas (la victoire) qui vous avait échappé et (le revers) que vous aviez essuyé. Et Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "ali-imran-154",
@@ -19725,7 +19878,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَـٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَـٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "ثم أنزل عليكم من بعد ٱلغم أمنة نعاسا يغشى طآئفة منكم  وطآئفة قد أهمتهم أنفسهم يظنون بٱلله غير ٱلحق ظن ٱلجـهلية  يقولون هل لنا من ٱلأمر من شىء  قل إن ٱلأمر كله لله  يخفون فىٓ أنفسهم ما لا يبدون لك  يقولون لو كان لنا من ٱلأمر شىء ما قتلنا هـهنا  قل لو كنتم فى بيوتكم لبرز ٱلذين كتب عليهم ٱلقتل إلى مضاجعهم  وليبتلى ٱلله ما فى صدوركم وليمحص ما فى قلوبكم  وٱلله عليم بذات ٱلصدور",
     "transliteration": "thumma anzala ʿalaykum min baʿdi l-ghami amanatan nuʿāsan yaghshā ṭāifatan minkum waṭāifatun qad ahammathum anfusuhum yaẓunnūna bil-lahi ghayra l-ḥaqi ẓanna l-jāhiliyati yaqūlūna hal lanā mina l-amri min shayin qul inna l-amra kullahu lillahi yukh'fūna fī anfusihim mā lā yub'dūna laka yaqūlūna law kāna lanā mina l-amri shayon mā qutil'nā hāhunā qul law kuntum fī buyūtikum labaraza alladhīna kutiba ʿalayhimu l-qatlu ilā maḍājiʿihim waliyabtaliya l-lahu mā fī ṣudūrikum waliyumaḥḥiṣa mā fī qulūbikum wal-lahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "Then after distress, He sent down upon you security [in the form of] drowsiness, overcoming a faction of you, while another faction worried about themselves, thinking of Allāh other than the truth - the thought of ignorance, saying, \"Is there anything for us [to have done] in this matter?\" Say, \"Indeed, the matter belongs completely to Allāh.\" They conceal within themselves what they will not reveal to you. They say, \"If there was anything we could have done in the matter, we [i.e., some of us] would not have been killed right here.\" Say, \"Even if you had been inside your houses, those decreed to be killed would have come out to their death beds.\" [It was] so that Allāh might test what is in your breasts and purify what is in your hearts. And Allāh is Knowing of that within the breasts.",
     "words": [
       {
         "id": "ali-imran-154-1",
@@ -20253,7 +20406,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 74
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Il fit descendre sur vous, après l’affliction, une quiétude et un sommeil enveloppant une partie d’entre vous, cependant qu’une autre partie, se préoccupant d’elle-même, nourrissait d’Allah des opinions autres que la vérité, (rappelant) celles du temps de l’Ignorance (antéislamique : Jahiliyya). Ceux-là disaient : « Mais quelle part avons-nous donc prise à ce commandement ? » Dis : « Le commandement tout entier revient à Allah. » Ils dissimulent au fond d’eux-mêmes ce qu’ils ne te montrent pas. Ils disent : « Si nous avions pris part au commandement, nous ne nous serions pas fait tuer ici même. » Dis : « Même si vous étiez restés dans vos maisons, ceux pour qui il était écrit de mourir, seraient quand même sortis vers leurs dernières demeures. Tout cela, pour qu’Allah éprouve ce qu’il y a dans vos poitrines et purifie ce qu’il y a dans vos cœurs. Car Allah Sait parfaitement ce qu’il y a dans les poitrines."
   },
   {
     "id": "ali-imran-155",
@@ -20262,7 +20416,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ تَوَلَّوْا۟ مِنكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ إِنَّمَا ٱسْتَزَلَّهُمُ ٱلشَّيْطَـٰنُ بِبَعْضِ مَا كَسَبُوا۟ ۖ وَلَقَدْ عَفَا ٱللَّهُ عَنْهُمْ ۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
     "textSimple": "إن ٱلذين تولوا منكم يوم ٱلتقى ٱلجمعان إنما ٱستزلهم ٱلشيطـن ببعض ما كسبوا  ولقد عفا ٱلله عنهم  إن ٱلله غفور حليم",
     "transliteration": "inna alladhīna tawallaw minkum yawma l-taqā l-jamʿāni innamā is'tazallahumu l-shayṭānu bibaʿḍi mā kasabū walaqad ʿafā l-lahu ʿanhum inna l-laha ghafūrun ḥalīmun",
-    "translation": "",
+    "translation": "Indeed, those of you who turned back on the day the two armies met [at Uḥud] - it was Satan who caused them to slip because of some [blame] they had earned. But Allāh has already forgiven them. Indeed, Allāh is Forgiving and Forbearing.",
     "words": [
       {
         "id": "ali-imran-155-1",
@@ -20412,7 +20566,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, d’entre vous, ont pris la fuite le jour où les deux armées se sont rencontrées, c’est bien Satan qui les a fait succomber, pour les mauvaises actions qu’ils ont commises. Allah leur a pardonné, car Allah est Tout Absoluteur et Tout Indulgent."
   },
   {
     "id": "ali-imran-156",
@@ -20421,7 +20576,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَكُونُوا۟ كَٱلَّذِينَ كَفَرُوا۟ وَقَالُوا۟ لِإِخْوَٰنِهِمْ إِذَا ضَرَبُوا۟ فِى ٱلْأَرْضِ أَوْ كَانُوا۟ غُزًّى لَّوْ كَانُوا۟ عِندَنَا مَا مَاتُوا۟ وَمَا قُتِلُوا۟ لِيَجْعَلَ ٱللَّهُ ذَٰلِكَ حَسْرَةً فِى قُلُوبِهِمْ ۗ وَٱللَّهُ يُحْىِۦ وَيُمِيتُ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تكونوا كٱلذين كفروا وقالوا لإخونهم إذا ضربوا فى ٱلأرض أو كانوا غزى لو كانوا عندنا ما ماتوا وما قتلوا ليجعل ٱلله ذلك حسرة فى قلوبهم  وٱلله يحى ويميت  وٱلله بما تعملون بصير",
     "transliteration": "yāayyuhā alladhīna āmanū lā takūnū ka-alladhīna kafarū waqālū li-ikh'wānihim idhā ḍarabū fī l-arḍi aw kānū ghuzzan law kānū ʿindanā mā mātū wamā qutilū liyajʿala l-lahu dhālika ḥasratan fī qulūbihim wal-lahu yuḥ'yī wayumītu wal-lahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "O you who have believed, do not be like those who disbelieved and said about their brothers when they traveled through the land or went out to fight, \"If they had been with us, they would not have died or have been killed,\" so Allāh makes that [misconception] a regret within their hearts. And it is Allāh who gives life and causes death, and Allāh is Seeing of what you do.",
     "words": [
       {
         "id": "ali-imran-156-1",
@@ -20676,7 +20831,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru, ne soyez pas comme ceux qui ont mécru, et qui ont dit de leurs frères, partis en voyage ou en guerre : « S’ils étaient parmi nous, ils ne seraient pas morts et ne seraient pas tués. » Allah en fit ainsi un sujet de profond regret dans leurs cœurs. Car c’est Allah Qui fait vivre et mourir, et c’est Allah Qui Voit ce que vous faites."
   },
   {
     "id": "ali-imran-157",
@@ -20685,7 +20841,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرَحْمَةٌ خَيْرٌ مِّمَّا يَجْمَعُونَ",
     "textSimple": "ولئن قتلتم فى سبيل ٱلله أو متم لمغفرة من ٱلله ورحمة خير مما يجمعون",
     "transliteration": "wala-in qutil'tum fī sabīli l-lahi aw muttum lamaghfiratun mina l-lahi waraḥmatun khayrun mimmā yajmaʿūna",
-    "translation": "",
+    "translation": "And if you are killed in the cause of Allāh or die - then forgiveness from Allāh and mercy are better than whatever they accumulate [in this world].",
     "words": [
       {
         "id": "ali-imran-157-1",
@@ -20786,7 +20942,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que vous soyez tués pour la cause d’Allah ou que vous mouriez (de mort naturelle), un pardon d’Allah et une miséricorde valent toujours bien mieux que tout ce qu’ils amassent."
   },
   {
     "id": "ali-imran-158",
@@ -20795,7 +20952,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن مُّتُّمْ أَوْ قُتِلْتُمْ لَإِلَى ٱللَّهِ تُحْشَرُونَ",
     "textSimple": "ولئن متم أو قتلتم لإلى ٱلله تحشرون",
     "transliteration": "wala-in muttum aw qutil'tum la-ilā l-lahi tuḥ'sharūna",
-    "translation": "",
+    "translation": "And whether you die or are killed, unto Allāh you will be gathered.",
     "words": [
       {
         "id": "ali-imran-158-1",
@@ -20847,7 +21004,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que vous mouriez ou que vous soyez tués, c’est toujours devant Allah que vous serez rassemblés."
   },
   {
     "id": "ali-imran-159",
@@ -20856,7 +21014,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
     "textSimple": "فبما رحمة من ٱلله لنت لهم  ولو كنت فظا غليظ ٱلقلب لٱنفضوا من حولك  فٱعف عنهم وٱستغفر لهم وشاورهم فى ٱلأمر  فإذا عزمت فتوكل على ٱلله  إن ٱلله يحب ٱلمتوكلين",
     "transliteration": "fabimā raḥmatin mina l-lahi linta lahum walaw kunta faẓẓan ghalīẓa l-qalbi la-infaḍḍū min ḥawlika fa-uʿ'fu ʿanhum wa-is'taghfir lahum washāwir'hum fī l-amri fa-idhā ʿazamta fatawakkal ʿalā l-lahi inna l-laha yuḥibbu l-mutawakilīna",
-    "translation": "",
+    "translation": "So by mercy from Allāh, [O Muḥammad], you were lenient with them. And if you had been rude [in speech] and harsh in heart, they would have disbanded from about you. So pardon them and ask forgiveness for them and consult them in the matter. And when you have decided, then rely upon Allāh. Indeed, Allāh loves those who rely [upon Him].",
     "words": [
       {
         "id": "ali-imran-159-1",
@@ -21069,7 +21227,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est par une miséricorde d’Allah que tu t’es montré conciliant à leur égard. Si tu avais été rude et avais eu le cœur dur, ils se seraient dispersés autour de toi. Alors, pardonne-leur, prie pour leur pardon et consulte-les en cas de décision (ayant un rapport) avec les affaires (importantes). Et lorsque tu as pris ta décision, mets ta confiance en Allah, car Allah aime ceux qui s’en remettent à Lui."
   },
   {
     "id": "ali-imran-160",
@@ -21078,7 +21237,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
     "textSimple": "إن ينصركم ٱلله فلا غالب لكم  وإن يخذلكم فمن ذا ٱلذى ينصركم من بعده  وعلى ٱلله فليتوكل ٱلمؤمنون",
     "transliteration": "in yanṣur'kumu l-lahu falā ghāliba lakum wa-in yakhdhul'kum faman dhā alladhī yanṣurukum min baʿdihi waʿalā l-lahi falyatawakkali l-mu'minūna",
-    "translation": "",
+    "translation": "If Allāh should aid you, no one can overcome you; but if He should forsake you, who is there that can aid you after Him? And upon Allāh let the believers rely.",
     "words": [
       {
         "id": "ali-imran-160-1",
@@ -21207,7 +21366,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah vous porte secours, nul ne pourra vous vaincre. Et s’Il vous délaisse, qui donc, après Lui, vous portera secours ? C’est à Allah que les croyants doivent s’en remettre."
   },
   {
     "id": "ali-imran-161",
@@ -21216,7 +21376,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لِنَبِىٍّ أَن يَغُلَّ ۚ وَمَن يَغْلُلْ يَأْتِ بِمَا غَلَّ يَوْمَ ٱلْقِيَـٰمَةِ ۚ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "وما كان لنبى أن يغل  ومن يغلل يأت بما غل يوم ٱلقيـمة  ثم توفى كل نفس ما كسبت وهم لا يظلمون",
     "transliteration": "wamā kāna linabiyyin an yaghulla waman yaghlul yati bimā ghalla yawma l-qiyāmati thumma tuwaffā kullu nafsin mā kasabat wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "It is not [attributable] to any prophet that he would act unfaithfully [in regard to war booty]. And whoever betrays, [taking unlawfully], will come with what he took on the Day of Resurrection. Then will every soul be [fully] compensated for what it earned, and they will not be wronged.",
     "words": [
       {
         "id": "ali-imran-161-1",
@@ -21366,7 +21526,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Prophète n’a pas à détourner une partie du butin à son profit. Quiconque aura commis pareil détournement viendra le Jour de la Résurrection avec le butin détourné. Alors, toute âme sera rétribuée à la mesure de ses œuvres acquises. Et ils ne seront point lésés."
   },
   {
     "id": "ali-imran-162",
@@ -21375,7 +21536,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَنِ ٱتَّبَعَ رِضْوَٰنَ ٱللَّهِ كَمَنۢ بَآءَ بِسَخَطٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "أفمن ٱتبع رضون ٱلله كمن بآء بسخط من ٱلله ومأوىه جهنم  وبئس ٱلمصير",
     "transliteration": "afamani ittabaʿa riḍ'wāna l-lahi kaman bāa bisakhaṭin mina l-lahi wamawāhu jahannamu wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "So is one who pursues the pleasure of Allāh like one who brings upon himself the anger of Allāh and whose refuge is Hell? And wretched is the destination.",
     "words": [
       {
         "id": "ali-imran-162-1",
@@ -21469,7 +21630,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais alors, celui qui aura suivi l’agrément d’Allah est-il semblable à celui qui aura encouru la fureur d’Allah ? Son séjour sera le Feu, et quel horrible séjour !"
   },
   {
     "id": "ali-imran-163",
@@ -21478,7 +21640,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "هُمْ دَرَجَـٰتٌ عِندَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
     "textSimple": "هم درجـت عند ٱلله  وٱلله بصير بما يعملون",
     "transliteration": "hum darajātun ʿinda l-lahi wal-lahu baṣīrun bimā yaʿmalūna",
-    "translation": "",
+    "translation": "They are [varying] degrees in the sight of Allāh, and Allāh is Seeing of whatever they do.",
     "words": [
       {
         "id": "ali-imran-163-1",
@@ -21537,7 +21699,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont à différents degrés pour Allah, et Allah Voit parfaitement ce qu’ils font."
   },
   {
     "id": "ali-imran-164",
@@ -21546,7 +21709,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ مَنَّ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًا مِّنْ أَنفُسِهِمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِهِۦ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَإِن كَانُوا۟ مِن قَبْلُ لَفِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "لقد من ٱلله على ٱلمؤمنين إذ بعث فيهم رسولا من أنفسهم يتلوا عليهم ءايـته ويزكيهم ويعلمهم ٱلكتـب وٱلحكمة وإن كانوا من قبل لفى ضلـل مبين",
     "transliteration": "laqad manna l-lahu ʿalā l-mu'minīna idh baʿatha fīhim rasūlan min anfusihim yatlū ʿalayhim āyātihi wayuzakkīhim wayuʿallimuhumu l-kitāba wal-ḥik'mata wa-in kānū min qablu lafī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Certainly did Allāh confer [great] favor upon the believers when He sent among them a Messenger from themselves, reciting to them His verses and purifying them and teaching them the Book [i.e., the Qur’ān] and wisdom, although they had been before in manifest error.",
     "words": [
       {
         "id": "ali-imran-164-1",
@@ -21724,7 +21887,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a certes accordé une faveur aux croyants en leur envoyant un Messager d’entre eux, qui leur récite Ses versets, les purifie (de leurs péchés) et leur enseigne le Livre et la Sagesse, eux qui étaient auparavant dans un égarement manifeste."
   },
   {
     "id": "ali-imran-165",
@@ -21733,7 +21897,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمَّآ أَصَـٰبَتْكُم مُّصِيبَةٌ قَدْ أَصَبْتُم مِّثْلَيْهَا قُلْتُمْ أَنَّىٰ هَـٰذَا ۖ قُلْ هُوَ مِنْ عِندِ أَنفُسِكُمْ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "أولمآ أصـبتكم مصيبة قد أصبتم مثليها قلتم أنى هـذا  قل هو من عند أنفسكم  إن ٱلله على كل شىء قدير",
     "transliteration": "awalammā aṣābatkum muṣībatun qad aṣabtum mith'layhā qul'tum annā hādhā qul huwa min ʿindi anfusikum inna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Why [is it that] when a [single] disaster struck you [on the day of Uḥud], although you had struck [the enemy in the battle of Badr] with one twice as great, you said, \"From where is this?\" Say, \"It is from yourselves [i.e., due to your sin].\" Indeed, Allāh is over all things competent.",
     "words": [
       {
         "id": "ali-imran-165-1",
@@ -21876,7 +22040,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce que lorsqu’un malheur vous atteint, alors que vous en avez auparavant fait subir le double, vous vous demandez : « D’où cela nous vient-il ? » Dis : « Cela vient de vous-mêmes. » Allah, certes, est de Toute chose Infiniment Capable."
   },
   {
     "id": "ali-imran-166",
@@ -21885,7 +22050,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَصَـٰبَكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ فَبِإِذْنِ ٱللَّهِ وَلِيَعْلَمَ ٱلْمُؤْمِنِينَ",
     "textSimple": "ومآ أصـبكم يوم ٱلتقى ٱلجمعان فبإذن ٱلله وليعلم ٱلمؤمنين",
     "transliteration": "wamā aṣābakum yawma l-taqā l-jamʿāni fabi-idh'ni l-lahi waliyaʿlama l-mu'minīna",
-    "translation": "",
+    "translation": "And what struck you on the day the two armies met [at Uḥud] was by permission of Allāh that He might make evident the [true] believers",
     "words": [
       {
         "id": "ali-imran-166-1",
@@ -21951,7 +22116,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qui vous a atteints, le jour où les deux armées se sont rencontrées, fut par la permission d’Allah, et pour qu’Il reconnaisse les croyants,"
   },
   {
     "id": "ali-imran-167",
@@ -21960,7 +22126,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَـٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ ٱدْفَعُوا۟ ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًا لَّٱتَّبَعْنَـٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَـٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ",
     "textSimple": "وليعلم ٱلذين نافقوا  وقيل لهم تعالوا قـتلوا فى سبيل ٱلله أو ٱدفعوا  قالوا لو نعلم قتالا لٱتبعنـكم  هم للكفر يومئذ أقرب منهم للإيمـن  يقولون بأفوههم ما ليس فى قلوبهم  وٱلله أعلم بما يكتمون",
     "transliteration": "waliyaʿlama alladhīna nāfaqū waqīla lahum taʿālaw qātilū fī sabīli l-lahi awi id'faʿū qālū law naʿlamu qitālan la-ittabaʿnākum hum lil'kuf'ri yawma-idhin aqrabu min'hum lil'īmāni yaqūlūna bi-afwāhihim mā laysa fī qulūbihim wal-lahu aʿlamu bimā yaktumūna",
-    "translation": "",
+    "translation": "And that He might make evident those who are hypocrites. For it was said to them, \"Come, fight in the way of Allāh or [at least] defend.\" They said, \"If we had known [there would be] battle, we would have followed you.\" They were nearer to disbelief that day than to faith, saying with their mouths what was not in their hearts. And Allāh is most knowing of what they conceal -",
     "words": [
       {
         "id": "ali-imran-167-1",
@@ -22194,7 +22360,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et pour qu’Il reconnaisse aussi les hypocrites, à qui il fut dit : « Venez combattre dans le chemin d’Allah, repoussez (l’ennemi) ! » Ils répondirent : « Si nous savions qu’un combat aurait vraiment lieu, nous vous suivrions. » Ce jour-là, ils étaient plus près de la mécréance que de la foi, et ils disaient de leurs bouches ce qu’il n’y avait point dans leurs cœurs. Et Allah en Sait mieux sur ce qu’ils taisaient."
   },
   {
     "id": "ali-imran-168",
@@ -22203,7 +22370,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ فَٱدْرَءُوا۟ عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ٱلذين قالوا لإخونهم وقعدوا لو أطاعونا ما قتلوا  قل فٱدرءوا عن أنفسكم ٱلموت إن كنتم صـدقين",
     "transliteration": "alladhīna qālū li-ikh'wānihim waqaʿadū law aṭāʿūnā mā qutilū qul fa-id'raū ʿan anfusikumu l-mawta in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Those who said about their brothers while sitting [at home], \"If they had obeyed us, they would not have been killed.\" Say, \"Then prevent death from yourselves, if you should be truthful.\"",
     "words": [
       {
         "id": "ali-imran-168-1",
@@ -22318,7 +22485,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux-là même qui, restés chez eux, dirent à leurs frères : « S’ils nous avaient obéi, ils n’auraient pas été tués. » Dis : « Évitez donc vous-mêmes la mort, si vous êtes véridiques ! »"
   },
   {
     "id": "ali-imran-169",
@@ -22327,7 +22495,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ بَلْ أَحْيَآءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ",
     "textSimple": "ولا تحسبن ٱلذين قتلوا فى سبيل ٱلله أموتا  بل أحيآء عند ربهم يرزقون",
     "transliteration": "walā taḥsabanna alladhīna qutilū fī sabīli l-lahi amwātan bal aḥyāon ʿinda rabbihim yur'zaqūna",
-    "translation": "",
+    "translation": "And never think of those who have been killed in the cause of Allāh as dead. Rather, they are alive with their Lord, receiving provision,",
     "words": [
       {
         "id": "ali-imran-169-1",
@@ -22421,7 +22589,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne compte pas comme morts ceux qui ont été tués pour la cause d’Allah, non ils sont vivants et subsistants auprès de leur Seigneur,"
   },
   {
     "id": "ali-imran-170",
@@ -22430,7 +22599,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَرِحِينَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِٱلَّذِينَ لَمْ يَلْحَقُوا۟ بِهِم مِّنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "فرحين بمآ ءاتىهم ٱلله من فضله ويستبشرون بٱلذين لم يلحقوا بهم من خلفهم ألا خوف عليهم ولا هم يحزنون",
     "transliteration": "fariḥīna bimā ātāhumu l-lahu min faḍlihi wayastabshirūna bi-alladhīna lam yalḥaqū bihim min khalfihim allā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Rejoicing in what Allāh has bestowed upon them of His bounty, and they receive good tidings about those [to be martyred] after them who have not yet joined them - that there will be no fear concerning them, nor will they grieve.",
     "words": [
       {
         "id": "ali-imran-170-1",
@@ -22566,7 +22735,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "heureux des faveurs dont Allah les a comblés, et se réjouissant à l’idée que ceux qui ne les ont pas encore rejoints n’auront aucune crainte ni aucune affliction."
   },
   {
     "id": "ali-imran-171",
@@ -22575,7 +22745,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ وَأَنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُؤْمِنِينَ",
     "textSimple": " يستبشرون بنعمة من ٱلله وفضل وأن ٱلله لا يضيع أجر ٱلمؤمنين",
     "transliteration": "yastabshirūna biniʿ'matin mina l-lahi wafaḍlin wa-anna l-laha lā yuḍīʿu ajra l-mu'minīna",
-    "translation": "",
+    "translation": "They receive good tidings of favor from Allāh and bounty and [of the fact] that Allāh does not allow the reward of believers to be lost -",
     "words": [
       {
         "id": "ali-imran-171-1",
@@ -22655,7 +22825,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils se réjouissent, à l’avance, de la grâce et de la faveur d’Allah, et de l’idée qu’Allah ne laissera point se perdre la récompense des croyants."
   },
   {
     "id": "ali-imran-172",
@@ -22664,7 +22835,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ٱسْتَجَابُوا۟ لِلَّهِ وَٱلرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ ٱلْقَرْحُ ۚ لِلَّذِينَ أَحْسَنُوا۟ مِنْهُمْ وَٱتَّقَوْا۟ أَجْرٌ عَظِيمٌ",
     "textSimple": "ٱلذين ٱستجابوا لله وٱلرسول من بعد مآ أصابهم ٱلقرح  للذين أحسنوا منهم وٱتقوا أجر عظيم",
     "transliteration": "alladhīna is'tajābū lillahi wal-rasūli min baʿdi mā aṣābahumu l-qarḥu lilladhīna aḥsanū min'hum wa-ittaqaw ajrun ʿaẓīmun",
-    "translation": "",
+    "translation": "Those [believers] who responded to Allāh and the Messenger after injury had struck them. For those who did good among them and feared Allāh is a great reward -",
     "words": [
       {
         "id": "ali-imran-172-1",
@@ -22772,7 +22943,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, après avoir essuyé un revers, répondirent à l’appel d’Allah et de Son Messager, à ceux d’entre eux qui auront fait le bien et auront fait montre de piété (est promise) une immense rétribution."
   },
   {
     "id": "ali-imran-173",
@@ -22781,7 +22953,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ قَالَ لَهُمُ ٱلنَّاسُ إِنَّ ٱلنَّاسَ قَدْ جَمَعُوا۟ لَكُمْ فَٱخْشَوْهُمْ فَزَادَهُمْ إِيمَـٰنًا وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
     "textSimple": "ٱلذين قال لهم ٱلناس إن ٱلناس قد جمعوا لكم فٱخشوهم فزادهم إيمـنا وقالوا حسبنا ٱلله ونعم ٱلوكيل",
     "transliteration": "alladhīna qāla lahumu l-nāsu inna l-nāsa qad jamaʿū lakum fa-ikh'shawhum fazādahum īmānan waqālū ḥasbunā l-lahu waniʿ'ma l-wakīlu",
-    "translation": "",
+    "translation": "Those to whom people [i.e., hypocrites] said, \"Indeed, the people have gathered against you, so fear them.\" But it [merely] increased them in faith, and they said, \"Sufficient for us is Allāh, and [He is] the best Disposer of affairs.\"",
     "words": [
       {
         "id": "ali-imran-173-1",
@@ -22903,7 +23075,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux à qui l’on disait : « Les gens ont rassemblé (leurs troupes) contre vous. Craignez-les. » Mais cela ne fit que raffermir leur foi, et ils dirent : « Allah Seul nous suffira, et c’est le meilleur Garant. »"
   },
   {
     "id": "ali-imran-174",
@@ -22912,7 +23085,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنقَلَبُوا۟ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ لَّمْ يَمْسَسْهُمْ سُوٓءٌ وَٱتَّبَعُوا۟ رِضْوَٰنَ ٱللَّهِ ۗ وَٱللَّهُ ذُو فَضْلٍ عَظِيمٍ",
     "textSimple": "فٱنقلبوا بنعمة من ٱلله وفضل لم يمسسهم سوٓء وٱتبعوا رضون ٱلله  وٱلله ذو فضل عظيم",
     "transliteration": "fa-inqalabū biniʿ'matin mina l-lahi wafaḍlin lam yamsashum sūon wa-ittabaʿū riḍ'wāna l-lahi wal-lahu dhū faḍlin ʿaẓīmin",
-    "translation": "",
+    "translation": "So they returned with favor from Allāh and bounty, no harm having touched them. And they pursued the pleasure of Allāh, and Allāh is the possessor of great bounty.",
     "words": [
       {
         "id": "ali-imran-174-1",
@@ -23020,7 +23193,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’en revinrent alors bénis de la grâce et de la faveur d’Allah. Aucun mal ne les a touchés, et ils ont cherché l’agrément d’Allah, car Allah est Plein de Faveurs pour les croyants."
   },
   {
     "id": "ali-imran-175",
@@ -23029,7 +23203,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ذَٰلِكُمُ ٱلشَّيْطَـٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "إنما ذلكم ٱلشيطـن يخوف أوليآءه فلا تخافوهم وخافون إن كنتم مؤمنين",
     "transliteration": "innamā dhālikumu l-shayṭānu yukhawwifu awliyāahu falā takhāfūhum wakhāfūni in kuntum mu'minīna",
-    "translation": "",
+    "translation": "That is only Satan who frightens [you] of his supporters. So fear them not, but fear Me, if you are [indeed] believers.",
     "words": [
       {
         "id": "ali-imran-175-1",
@@ -23109,7 +23283,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est là que Satan qui cherche à vous effrayer (en s’aidant de) ses suppôts. Ne les craignez donc pas et craignez-Moi, si vous êtes croyants."
   },
   {
     "id": "ali-imran-176",
@@ -23118,7 +23293,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَحْزُنكَ ٱلَّذِينَ يُسَـٰرِعُونَ فِى ٱلْكُفْرِ ۚ إِنَّهُمْ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا ۗ يُرِيدُ ٱللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّا فِى ٱلْـَٔاخِرَةِ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
     "textSimple": "ولا يحزنك ٱلذين يسـرعون فى ٱلكفر  إنهم لن يضروا ٱلله شيـٔا  يريد ٱلله ألا يجعل لهم حظا فى ٱلـٔاخرة  ولهم عذاب عظيم",
     "transliteration": "walā yaḥzunka alladhīna yusāriʿūna fī l-kuf'ri innahum lan yaḍurrū l-laha shayan yurīdu l-lahu allā yajʿala lahum ḥaẓẓan fī l-ākhirati walahum ʿadhābun ʿaẓīmun",
-    "translation": "",
+    "translation": "And do not be grieved, [O Muḥammad], by those who hasten into disbelief. Indeed, they will never harm Allāh at all. Allāh intends that He should give them no share in the Hereafter, and for them is a great punishment.",
     "words": [
       {
         "id": "ali-imran-176-1",
@@ -23275,7 +23450,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui se précipitent vers la mécréance ne doivent pas t’affliger. Ils ne nuiront en rien à Allah. C’est Allah Qui veut les priver d’avoir une part dans l’autre monde. Ils seront voués à un terrible supplice."
   },
   {
     "id": "ali-imran-177",
@@ -23284,7 +23460,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْكُفْرَ بِٱلْإِيمَـٰنِ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "إن ٱلذين ٱشتروا ٱلكفر بٱلإيمـن لن يضروا ٱلله شيـٔا ولهم عذاب أليم",
     "transliteration": "inna alladhīna ish'tarawū l-kuf'ra bil-īmāni lan yaḍurrū l-laha shayan walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Indeed, those who purchase disbelief [in exchange] for faith - never will they harm Allāh at all, and for them is a painful punishment.",
     "words": [
       {
         "id": "ali-imran-177-1",
@@ -23371,7 +23547,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont acheté la mécréance au prix de la foi ne nuiront en rien à Allah, et ils seront voués à un très douloureux supplice."
   },
   {
     "id": "ali-imran-178",
@@ -23380,7 +23557,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّمَا نُمْلِى لَهُمْ خَيْرٌ لِّأَنفُسِهِمْ ۚ إِنَّمَا نُمْلِى لَهُمْ لِيَزْدَادُوٓا۟ إِثْمًا ۚ وَلَهُمْ عَذَابٌ مُّهِينٌ",
     "textSimple": "ولا يحسبن ٱلذين كفروٓا أنما نملى لهم خير لأنفسهم  إنما نملى لهم ليزدادوٓا إثما  ولهم عذاب مهين",
     "transliteration": "walā yaḥsabanna alladhīna kafarū annamā num'lī lahum khayrun li-anfusihim innamā num'lī lahum liyazdādū ith'man walahum ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "And let not those who disbelieve ever think that [because] We extend their time [of enjoyment] it is better for them. We only extend it for them so that they may increase in sin, and for them is a humiliating punishment.",
     "words": [
       {
         "id": "ali-imran-178-1",
@@ -23502,7 +23679,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru ne doivent pas penser que ce sursis que Nous leur accordons est pour leur bien. Nous le leur accordons pour qu’ils ajoutent péchés à leurs péchés. Et il leur sera réservé un supplice humiliant."
   },
   {
     "id": "ali-imran-179",
@@ -23511,7 +23689,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَـٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
     "textSimple": "ما كان ٱلله ليذر ٱلمؤمنين على مآ أنتم عليه حتى يميز ٱلخبيث من ٱلطيب  وما كان ٱلله ليطلعكم على ٱلغيب ولـكن ٱلله يجتبى من رسله من يشآء  فـٔامنوا بٱلله ورسله  وإن تؤمنوا وتتقوا فلكم أجر عظيم",
     "transliteration": "mā kāna l-lahu liyadhara l-mu'minīna ʿalā mā antum ʿalayhi ḥattā yamīza l-khabītha mina l-ṭayibi wamā kāna l-lahu liyuṭ'liʿakum ʿalā l-ghaybi walākinna l-laha yajtabī min rusulihi man yashāu faāminū bil-lahi warusulihi wa-in tu'minū watattaqū falakum ajrun ʿaẓīmun",
-    "translation": "",
+    "translation": "Allāh would not leave the believers in that [state] you are in [presently] until He separates the evil from the good. Nor would Allāh reveal to you the unseen. But [instead], Allāh chooses of His messengers whom He wills, so believe in Allāh and His messengers. And if you believe and fear Him, then for you is a great reward.",
     "words": [
       {
         "id": "ali-imran-179-1",
@@ -23766,7 +23944,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne laisserait pas les croyants en l’état où vous êtes, sauf le temps qu’il faut pour distinguer le mauvais du bon. Pas plus qu’Il ne saurait vous révéler l’Inconnaissable (ghayb). Mais Allah choisit qui Il veut parmi Ses Messagers. Croyez donc en Allah et en Ses Messagers. Car si vous croyez et avez la piété, vous aurez une immense rétribution."
   },
   {
     "id": "ali-imran-180",
@@ -23775,7 +23954,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَـٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "ولا يحسبن ٱلذين يبخلون بمآ ءاتىهم ٱلله من فضله هو خيرا لهم  بل هو شر لهم  سيطوقون ما بخلوا به يوم ٱلقيـمة  ولله ميرث ٱلسمـوت وٱلأرض  وٱلله بما تعملون خبير",
     "transliteration": "walā yaḥsabanna alladhīna yabkhalūna bimā ātāhumu l-lahu min faḍlihi huwa khayran lahum bal huwa sharrun lahum sayuṭawwaqūna mā bakhilū bihi yawma l-qiyāmati walillahi mīrāthu l-samāwāti wal-arḍi wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "And let not those who [greedily] withhold what Allāh has given them of His bounty ever think that it is better for them. Rather, it is worse for them. Their necks will be encircled by what they withheld on the Day of Resurrection. And to Allāh belongs the heritage of the heavens and the earth. And Allāh, of what you do, is [fully] Aware.",
     "words": [
       {
         "id": "ali-imran-180-1",
@@ -23988,7 +24167,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont avares des faveurs dont Allah les a comblés ne doivent pas croire que cela est pour leur bien, cela est plutôt pour leur malheur. Au Jour de la Résurrection, ce qu’ils ont gardé avarement leur serrera le cou. C’est bien à Allah qu’est dû l’héritage des cieux et de la terre, et Allah est, de ce que vous faites, parfaitement Informé."
   },
   {
     "id": "ali-imran-181",
@@ -23997,7 +24177,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ فَقِيرٌ وَنَحْنُ أَغْنِيَآءُ ۘ سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
     "textSimple": "لقد سمع ٱلله قول ٱلذين قالوٓا إن ٱلله فقير ونحن أغنيآء  سنكتب ما قالوا وقتلهم ٱلأنبيآء بغير حق ونقول ذوقوا عذاب ٱلحريق",
     "transliteration": "laqad samiʿa l-lahu qawla alladhīna qālū inna l-laha faqīrun wanaḥnu aghniyāu sanaktubu mā qālū waqatlahumu l-anbiyāa bighayri ḥaqqin wanaqūlu dhūqū ʿadhāba l-ḥarīqi",
-    "translation": "",
+    "translation": "Allāh has certainly heard the statement of those [Jews] who said, \"Indeed, Allāh is poor, while we are rich.\" We will record what they said and their killing of the prophets without right and will say, \"Taste the punishment of the Burning Fire.",
     "words": [
       {
         "id": "ali-imran-181-1",
@@ -24154,7 +24334,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a certes entendu la parole de ceux qui ont dit : « Allah est pauvre et nous sommes riches. » Nous écrirons leurs propos et (retiendrons) leurs meurtres injustes (perpétrés sur la personne) des Prophètes. Et Nous leur dirons : « Goûtez au supplice de la Fournaise ! »"
   },
   {
     "id": "ali-imran-182",
@@ -24163,7 +24344,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ",
     "textSimple": "ذلك بما قدمت أيديكم وأن ٱلله ليس بظلام للعبيد",
     "transliteration": "dhālika bimā qaddamat aydīkum wa-anna l-laha laysa biẓallāmin lil'ʿabīdi",
-    "translation": "",
+    "translation": "That is for what your hands have put forth and because Allāh is not ever unjust to [His] servants.\"",
     "words": [
       {
         "id": "ali-imran-182-1",
@@ -24229,7 +24410,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, pour ce que vous avez commis de vos propres mains. Car Allah n’est point injuste envers Ses serviteurs."
   },
   {
     "id": "ali-imran-183",
@@ -24238,7 +24420,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ عَهِدَ إِلَيْنَآ أَلَّا نُؤْمِنَ لِرَسُولٍ حَتَّىٰ يَأْتِيَنَا بِقُرْبَانٍ تَأْكُلُهُ ٱلنَّارُ ۗ قُلْ قَدْ جَآءَكُمْ رُسُلٌ مِّن قَبْلِى بِٱلْبَيِّنَـٰتِ وَبِٱلَّذِى قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمْ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ٱلذين قالوٓا إن ٱلله عهد إلينآ ألا نؤمن لرسول حتى يأتينا بقربان تأكله ٱلنار  قل قد جآءكم رسل من قبلى بٱلبينـت وبٱلذى قلتم فلم قتلتموهم إن كنتم صـدقين",
     "transliteration": "alladhīna qālū inna l-laha ʿahida ilaynā allā nu'mina lirasūlin ḥattā yatiyanā biqur'bānin takuluhu l-nāru qul qad jāakum rusulun min qablī bil-bayināti wabi-alladhī qul'tum falima qataltumūhum in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "[They are] those who said, \"Indeed, Allāh has taken our promise not to believe any messenger until he brings us an offering which fire [from heaven] will consume.\" Say, \"There have already come to you messengers before me with clear proofs and [even] that of which you speak. So why did you kill them, if you should be truthful?\"",
     "words": [
       {
         "id": "ali-imran-183-1",
@@ -24437,7 +24619,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah a bien entendu aussi) ceux qui ont dit : « Allah nous a recommandé de ne croire en un messager que s’il nous apporte une offrande que le feu (du ciel) viendra consumer. » Dis : « Des Messagers avant moi sont venus vous apporter les preuves évidentes et ce que vous avez demandé, pourquoi donc les avez-vous tués, si vous êtes vraiment de bonne foi ? »"
   },
   {
     "id": "ali-imran-184",
@@ -24446,7 +24629,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَـٰتِ وَٱلزُّبُرِ وَٱلْكِتَـٰبِ ٱلْمُنِيرِ",
     "textSimple": "فإن كذبوك فقد كذب رسل من قبلك جآءو بٱلبينـت وٱلزبر وٱلكتـب ٱلمنير",
     "transliteration": "fa-in kadhabūka faqad kudhiba rusulun min qablika jāū bil-bayināti wal-zuburi wal-kitābi l-munīri",
-    "translation": "",
+    "translation": "Then if they deny you, [O Muḥammad] - so were messengers denied before you, who brought clear proofs and written ordinances and the enlightening Scripture.",
     "words": [
       {
         "id": "ali-imran-184-1",
@@ -24533,7 +24716,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te traitent de menteur, des Messagers ont été traités de même ; ils étaient venus apporter les preuves évidentes, les Psaumes et le Livre Lumineux."
   },
   {
     "id": "ali-imran-185",
@@ -24542,7 +24726,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَـٰمَةِ ۖ فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَـٰعُ ٱلْغُرُورِ",
     "textSimple": "كل نفس ذآئقة ٱلموت  وإنما توفون أجوركم يوم ٱلقيـمة  فمن زحزح عن ٱلنار وأدخل ٱلجنة فقد فاز  وما ٱلحيوة ٱلدنيآ إلا متـع ٱلغرور",
     "transliteration": "kullu nafsin dhāiqatu l-mawti wa-innamā tuwaffawna ujūrakum yawma l-qiyāmati faman zuḥ'ziḥa ʿani l-nāri wa-ud'khila l-janata faqad fāza wamā l-ḥayatu l-dun'yā illā matāʿu l-ghurūri",
-    "translation": "",
+    "translation": "Every soul will taste death, and you will only be given your [full] compensation on the Day of Resurrection. So he who is drawn away from the Fire and admitted to Paradise has attained [his desire]. And what is the life of this world except the enjoyment of delusion.",
     "words": [
       {
         "id": "ali-imran-185-1",
@@ -24706,7 +24890,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute âme goûtera la mort. Mais vous aurez votre rétribution en entier au Jour de la Résurrection. Quiconque sera éloigné du Feu et introduit au Paradis aura réussi. Et la vie en ce bas monde n’est que jouissance fallacieuse."
   },
   {
     "id": "ali-imran-186",
@@ -24715,7 +24900,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًى كَثِيرًا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
     "textSimple": " لتبلون فىٓ أمولكم وأنفسكم ولتسمعن من ٱلذين أوتوا ٱلكتـب من قبلكم ومن ٱلذين أشركوٓا أذى كثيرا  وإن تصبروا وتتقوا فإن ذلك من عزم ٱلأمور",
     "transliteration": "latub'lawunna fī amwālikum wa-anfusikum walatasmaʿunna mina alladhīna ūtū l-kitāba min qablikum wamina alladhīna ashrakū adhan kathīran wa-in taṣbirū watattaqū fa-inna dhālika min ʿazmi l-umūri",
-    "translation": "",
+    "translation": "You will surely be tested in your possessions and in yourselves. And you will surely hear from those who were given the Scripture before you and from those who associate others with Allāh much abuse. But if you are patient and fear Allāh - indeed, that is of the matters [worthy] of resolve.",
     "words": [
       {
         "id": "ali-imran-186-1",
@@ -24886,7 +25071,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous serez sûrement éprouvés dans vos biens et dans vos personnes, et vous entendrez certes de la part de ceux qui ont reçu le Livre avant vous, et de la part de ceux qui ont fait acte d’associâtrie, beaucoup de propos injurieux. Mais si vous prenez patience et avez la piété, voilà bien la meilleure résolution (à prendre)."
   },
   {
     "id": "ali-imran-187",
@@ -24895,7 +25081,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ فَنَبَذُوهُ وَرَآءَ ظُهُورِهِمْ وَٱشْتَرَوْا۟ بِهِۦ ثَمَنًا قَلِيلًا ۖ فَبِئْسَ مَا يَشْتَرُونَ",
     "textSimple": "وإذ أخذ ٱلله ميثـق ٱلذين أوتوا ٱلكتـب لتبيننه للناس ولا تكتمونه فنبذوه ورآء ظهورهم وٱشتروا به ثمنا قليلا  فبئس ما يشترون",
     "transliteration": "wa-idh akhadha l-lahu mīthāqa alladhīna ūtū l-kitāba latubayyinunnahu lilnnāsi walā taktumūnahu fanabadhūhu warāa ẓuhūrihim wa-ish'taraw bihi thamanan qalīlan fabi'sa mā yashtarūna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Allāh took a covenant from those who were given the Scripture, [saying], \"You must make it clear [i.e., explain it] to the people and not conceal it.\" But they threw it away behind their backs and exchanged it for a small price. And wretched is that which they purchased.",
     "words": [
       {
         "id": "ali-imran-187-1",
@@ -25045,7 +25231,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souviens-toi) quand Allah fit prendre sur ceux qui avaient reçu le Livre l’engagement que voici : « Exposez-le clairement aux hommes et ne le gardez point secret. » Or, ils l’ont jeté derrière leurs dos et l’ont vendu à vil prix. Quel misérable marché ils ont conclu !"
   },
   {
     "id": "ali-imran-188",
@@ -25054,7 +25241,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍ مِّنَ ٱلْعَذَابِ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "لا تحسبن ٱلذين يفرحون بمآ أتوا ويحبون أن يحمدوا بما لم يفعلوا فلا تحسبنهم بمفازة من ٱلعذاب  ولهم عذاب أليم",
     "transliteration": "lā taḥsabanna alladhīna yafraḥūna bimā ataw wayuḥibbūna an yuḥ'madū bimā lam yafʿalū falā taḥsabannahum bimafāzatin mina l-ʿadhābi walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And never think that those who rejoice in what they have perpetrated and like to be praised for what they did not do - never think them [to be] in safety from the punishment, and for them is a painful punishment.",
     "words": [
       {
         "id": "ali-imran-188-1",
@@ -25197,7 +25384,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne compte pas ceux qui jubilent de ce qu’ils ont accompli (comme œuvres), ou qui aiment à être loués de ce qu’ils n’ont pas fait, ne les compte donc pas à l’abri du supplice, car ils auront un très douloureux supplice."
   },
   {
     "id": "ali-imran-189",
@@ -25206,7 +25394,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "ولله ملك ٱلسمـوت وٱلأرض  وٱلله على كل شىء قدير",
     "transliteration": "walillahi mul'ku l-samāwāti wal-arḍi wal-lahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "And to Allāh belongs the dominion of the heavens and the earth, and Allāh is over all things competent.",
     "words": [
       {
         "id": "ali-imran-189-1",
@@ -25272,7 +25460,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah qu’appartient la royauté des cieux et de la terre. Et Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "ali-imran-190",
@@ -25281,7 +25470,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى خَلْقِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَـٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَـَٔايَـٰتٍ لِّأُو۟لِى ٱلْأَلْبَـٰبِ",
     "textSimple": "إن فى خلق ٱلسمـوت وٱلأرض وٱختلـف ٱليل وٱلنهار لـٔايـت لأولى ٱلألبـب",
     "transliteration": "inna fī khalqi l-samāwāti wal-arḍi wa-ikh'tilāfi al-layli wal-nahāri laāyātin li-ulī l-albābi",
-    "translation": "",
+    "translation": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding -",
     "words": [
       {
         "id": "ali-imran-190-1",
@@ -25361,7 +25550,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans la création des cieux et de la terre, dans l’alternance de la nuit et du jour, il y a certes des signes pour les esprits sagaces,"
   },
   {
     "id": "ali-imran-191",
@@ -25370,7 +25560,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَـٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
     "textSimple": "ٱلذين يذكرون ٱلله قيـما وقعودا وعلى جنوبهم ويتفكرون فى خلق ٱلسمـوت وٱلأرض ربنا ما خلقت هـذا بـطلا سبحـنك فقنا عذاب ٱلنار",
     "transliteration": "alladhīna yadhkurūna l-laha qiyāman waquʿūdan waʿalā junūbihim wayatafakkarūna fī khalqi l-samāwāti wal-arḍi rabbanā mā khalaqta hādhā bāṭilan sub'ḥānaka faqinā ʿadhāba l-nāri",
-    "translation": "",
+    "translation": "Who remember Allāh while standing or sitting or [lying] on their sides and give thought to the creation of the heavens and the earth, [saying], \"Our Lord, You did not create this aimlessly; exalted are You [above such a thing]; then protect us from the punishment of the Fire.",
     "words": [
       {
         "id": "ali-imran-191-1",
@@ -25520,7 +25710,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui (sans cesse) invoquent Allah, qu’ils soient debout, assis ou couchés sur le côté, et qui méditent sur la création des cieux et de la terre : « Seigneur ! Tu n’as point créé tout cela en pure perte. Gloire Te soit rendue ! Préserve-nous donc du supplice du Feu !"
   },
   {
     "id": "ali-imran-192",
@@ -25529,7 +25720,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍ",
     "textSimple": "ربنآ إنك من تدخل ٱلنار فقد أخزيته  وما للظـلمين من أنصار",
     "transliteration": "rabbanā innaka man tud'khili l-nāra faqad akhzaytahu wamā lilẓẓālimīna min anṣārin",
-    "translation": "",
+    "translation": "Our Lord, indeed whoever You admit to the Fire - You have disgraced him, and for the wrongdoers there are no helpers.",
     "words": [
       {
         "id": "ali-imran-192-1",
@@ -25609,7 +25800,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Celui que Tu fais entrer dans le Feu, Tu l’as marqué d’infamie. Et aux injustes, personne ne porte secours."
   },
   {
     "id": "ali-imran-193",
@@ -25618,7 +25810,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ",
     "textSimple": "ربنآ إننا سمعنا مناديا ينادى للإيمـن أن ءامنوا بربكم فـٔامنا  ربنا فٱغفر لنا ذنوبنا وكفر عنا سيـٔاتنا وتوفنا مع ٱلأبرار",
     "transliteration": "rabbanā innanā samiʿ'nā munādiyan yunādī lil'īmāni an āminū birabbikum faāmannā rabbanā fa-igh'fir lanā dhunūbanā wakaffir ʿannā sayyiātinā watawaffanā maʿa l-abrāri",
-    "translation": "",
+    "translation": "Our Lord, indeed we have heard a caller [i.e., Prophet Muḥammad (ﷺ)] calling to faith, [saying], 'Believe in your Lord,' and we have believed. Our Lord, so forgive us our sins and remove from us our misdeeds and cause us to die among the righteous.",
     "words": [
       {
         "id": "ali-imran-193-1",
@@ -25761,7 +25953,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Nous avons entendu quelqu’un appeler à la foi : “Croyez en votre Seigneur.” Et nous avons cru. Seigneur ! Pardonne alors nos péchés, rachète nos méfaits et, quand nous serons morts, reçois-nous avec les vertueux."
   },
   {
     "id": "ali-imran-194",
@@ -25770,7 +25963,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
     "textSimple": "ربنا وءاتنا ما وعدتنا على رسلك ولا تخزنا يوم ٱلقيـمة  إنك لا تخلف ٱلميعاد",
     "transliteration": "rabbanā waātinā mā waʿadttanā ʿalā rusulika walā tukh'zinā yawma l-qiyāmati innaka lā tukh'lifu l-mīʿāda",
-    "translation": "",
+    "translation": "Our Lord, and grant us what You promised us through Your messengers and do not disgrace us on the Day of Resurrection. Indeed, You do not fail in [Your] promise.\"",
     "words": [
       {
         "id": "ali-imran-194-1",
@@ -25871,7 +26064,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Accorde-nous ce que Tu nous as promis par le biais de Tes Messagers. Ne nous couvre pas d’opprobre au Jour de la Résurrection, car Tu ne manques jamais à Ta promesse ! »"
   },
   {
     "id": "ali-imran-195",
@@ -25880,7 +26074,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّى لَآ أُضِيعُ عَمَلَ عَـٰمِلٍ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّنۢ بَعْضٍ ۖ فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَـٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَـٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ثَوَابًا مِّنْ عِندِ ٱللَّهِ ۗ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلثَّوَابِ",
     "textSimple": "فٱستجاب لهم ربهم أنى لآ أضيع عمل عـمل منكم من ذكر أو أنثى  بعضكم من بعض  فٱلذين هاجروا وأخرجوا من ديـرهم وأوذوا فى سبيلى وقـتلوا وقتلوا لأكفرن عنهم سيـٔاتهم ولأدخلنهم جنـت تجرى من تحتها ٱلأنهـر ثوابا من عند ٱلله  وٱلله عنده حسن ٱلثواب",
     "transliteration": "fa-is'tajāba lahum rabbuhum annī lā uḍīʿu ʿamala ʿāmilin minkum min dhakarin aw unthā baʿḍukum min baʿḍin fa-alladhīna hājarū wa-ukh'rijū min diyārihim waūdhū fī sabīlī waqātalū waqutilū la-ukaffiranna ʿanhum sayyiātihim wala-ud'khilannahum jannātin tajrī min taḥtihā l-anhāru thawāban min ʿindi l-lahi wal-lahu ʿindahu ḥus'nu l-thawābi",
-    "translation": "",
+    "translation": "And their Lord responded to them, \"Never will I allow to be lost the work of [any] worker among you, whether male or female; you are of one another. So those who emigrated or were evicted from their homes or were harmed in My cause or fought or were killed - I will surely remove from them their misdeeds, and I will surely admit them to gardens beneath which rivers flow as reward from Allāh, and Allāh has with Him the best reward.\"",
     "words": [
       {
         "id": "ali-imran-195-1",
@@ -26184,7 +26378,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur Seigneur leur a alors répondu (exauçant leur prière) : « Je ne laisserai pas se perdre le prix d’aucune œuvre que vous, hommes ou femmes, aurez accomplie, car vous êtes issus les uns des autres. Ceux qui ont émigré, qui ont été expulsés de leurs foyers et ont subi du tort pour Ma cause, qui ont combattu et ont été tués, Je rachèterai leurs méfaits et Je les ferai entrer dans des jardins sous lesquels coulent les rivières, en récompense de la part d’Allah ; et c’est Allah Qui détient les plus belles récompenses. »"
   },
   {
     "id": "ali-imran-196",
@@ -26193,7 +26388,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَغُرَّنَّكَ تَقَلُّبُ ٱلَّذِينَ كَفَرُوا۟ فِى ٱلْبِلَـٰدِ",
     "textSimple": "لا يغرنك تقلب ٱلذين كفروا فى ٱلبلـد",
     "transliteration": "lā yaghurrannaka taqallubu alladhīna kafarū fī l-bilādi",
-    "translation": "",
+    "translation": "Be not deceived by the [uninhibited] movement of the disbelievers throughout the land.",
     "words": [
       {
         "id": "ali-imran-196-1",
@@ -26245,7 +26440,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que les multiples activités de ceux qui ont mécru ne te leurrent point !"
   },
   {
     "id": "ali-imran-197",
@@ -26254,7 +26450,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "مَتَـٰعٌ قَلِيلٌ ثُمَّ مَأْوَىٰهُمْ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمِهَادُ",
     "textSimple": "متـع قليل ثم مأوىهم جهنم  وبئس ٱلمهاد",
     "transliteration": "matāʿun qalīlun thumma mawāhum jahannamu wabi'sa l-mihādu",
-    "translation": "",
+    "translation": "[It is but] a small enjoyment; then their [final] refuge is Hell, and wretched is the resting place.",
     "words": [
       {
         "id": "ali-imran-197-1",
@@ -26306,7 +26502,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jouissance éphémère ! Puis leur abri sera la Géhenne. Quel misérable séjour !"
   },
   {
     "id": "ali-imran-198",
@@ -26315,7 +26512,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "لَـٰكِنِ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا نُزُلًا مِّنْ عِندِ ٱللَّهِ ۗ وَمَا عِندَ ٱللَّهِ خَيْرٌ لِّلْأَبْرَارِ",
     "textSimple": "لـكن ٱلذين ٱتقوا ربهم لهم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها نزلا من عند ٱلله  وما عند ٱلله خير للأبرار",
     "transliteration": "lākini alladhīna ittaqaw rabbahum lahum jannātun tajrī min taḥtihā l-anhāru khālidīna fīhā nuzulan min ʿindi l-lahi wamā ʿinda l-lahi khayrun lil'abrāri",
-    "translation": "",
+    "translation": "But those who feared their Lord will have gardens beneath which rivers flow, abiding eternally therein, as accommodation from Allāh. And that which is with Allāh is best for the righteous.",
     "words": [
       {
         "id": "ali-imran-198-1",
@@ -26465,7 +26662,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ceux qui ont craint leur Seigneur auront des jardins sous lesquels coulent les rivières et où ils séjourneront à jamais, lieu amène où Allah les reçoit en hôtes. Car auprès d’Allah, se trouve le meilleur pour les vertueux."
   },
   {
     "id": "ali-imran-199",
@@ -26474,7 +26672,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ مِنْ أَهْلِ ٱلْكِتَـٰبِ لَمَن يُؤْمِنُ بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْكُمْ وَمَآ أُنزِلَ إِلَيْهِمْ خَـٰشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِـَٔايَـٰتِ ٱللَّهِ ثَمَنًا قَلِيلًا ۗ أُو۟لَـٰٓئِكَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ ۗ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
     "textSimple": "وإن من أهل ٱلكتـب لمن يؤمن بٱلله ومآ أنزل إليكم ومآ أنزل إليهم خـشعين لله لا يشترون بـٔايـت ٱلله ثمنا قليلا  أولـٓئك لهم أجرهم عند ربهم  إن ٱلله سريع ٱلحساب",
     "transliteration": "wa-inna min ahli l-kitābi laman yu'minu bil-lahi wamā unzila ilaykum wamā unzila ilayhim khāshiʿīna lillahi lā yashtarūna biāyāti l-lahi thamanan qalīlan ulāika lahum ajruhum ʿinda rabbihim inna l-laha sarīʿu l-ḥisābi",
-    "translation": "",
+    "translation": "And indeed, among the People of the Scripture are those who believe in Allāh and what was revealed to you and what was revealed to them, [being] humbly submissive to Allāh. They do not exchange the verses of Allāh for a small price. Those will have their reward with their Lord. Indeed, Allāh is swift in account.",
     "words": [
       {
         "id": "ali-imran-199-1",
@@ -26687,7 +26885,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi les gens du Livre, il en est qui croient en Allah, en ce qui vous a été révélé et ce qui leur a été révélé. Ils se recueillent humblement devant Allah et ne vendent pas Ses versets à bas prix. Ceux-là auront leur rétribution auprès de leur Seigneur. Et Allah, certes, est prompt à dresser les comptes."
   },
   {
     "id": "ali-imran-200",
@@ -26696,7 +26895,7 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱصبروا وصابروا ورابطوا وٱتقوا ٱلله لعلكم تفلحون",
     "transliteration": "yāayyuhā alladhīna āmanū iṣ'birū waṣābirū warābiṭū wa-ittaqū l-laha laʿallakum tuf'liḥūna",
-    "translation": "",
+    "translation": "O you who have believed, persevere and endure and remain stationed and fear Allāh that you may be successful.",
     "words": [
       {
         "id": "ali-imran-200-1",
@@ -26769,7 +26968,8 @@ export const ALI__IMRAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Prenez patience, rivalisez d’endurance, contre l’ennemi luttez avec fermeté et constance, peut-être atteindrez-vous à la réussite."
   }
 ];
 

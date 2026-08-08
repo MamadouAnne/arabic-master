@@ -11,7 +11,7 @@ export const AL_MASAD_AYAHS: Ayah[] = [
     "textUthmani": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
     "textSimple": " تبت يدآ أبى لهب وتب",
     "transliteration": "tabbat yadā abī lahabin watabba",
-    "translation": "",
+    "translation": "May the hands of Abū Lahab be ruined, and ruined is he.",
     "words": [
       {
         "id": "al-masad-1-1",
@@ -49,7 +49,8 @@ export const AL_MASAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que périssent les mains d’Abu Lahab, et qu’il périsse lui-même !"
   },
   {
     "id": "al-masad-2",
@@ -58,7 +59,7 @@ export const AL_MASAD_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
     "textSimple": "مآ أغنى عنه ماله وما كسب",
     "transliteration": "mā aghnā ʿanhu māluhu wamā kasaba",
-    "translation": "",
+    "translation": "His wealth will not avail him or that which he gained.",
     "words": [
       {
         "id": "al-masad-2-1",
@@ -103,7 +104,8 @@ export const AL_MASAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À rien ne lui serviront ses richesses ni tout ce qu’il a acquis !"
   },
   {
     "id": "al-masad-3",
@@ -112,7 +114,7 @@ export const AL_MASAD_AYAHS: Ayah[] = [
     "textUthmani": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
     "textSimple": "سيصلى نارا ذات لهب",
     "transliteration": "sayaṣlā nāran dhāta lahabin",
-    "translation": "",
+    "translation": "He will [enter to] burn in a Fire of [blazing] flame",
     "words": [
       {
         "id": "al-masad-3-1",
@@ -143,7 +145,8 @@ export const AL_MASAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il brûlera dans un Feu aux flammes incandescentes,"
   },
   {
     "id": "al-masad-4",
@@ -152,7 +155,7 @@ export const AL_MASAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
     "textSimple": "وٱمرأته حمالة ٱلحطب",
     "transliteration": "wa-im'ra-atuhu ḥammālata l-ḥaṭabi",
-    "translation": "",
+    "translation": "And his wife [as well] - the carrier of firewood.",
     "words": [
       {
         "id": "al-masad-4-1",
@@ -176,7 +179,8 @@ export const AL_MASAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ainsi que sa femme, porteuse de bois mort,"
   },
   {
     "id": "al-masad-5",
@@ -185,7 +189,7 @@ export const AL_MASAD_AYAHS: Ayah[] = [
     "textUthmani": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
     "textSimple": "فى جيدها حبل من مسد",
     "transliteration": "fī jīdihā ḥablun min masadin",
-    "translation": "",
+    "translation": "Around her neck is a rope of [twisted] fiber.",
     "words": [
       {
         "id": "al-masad-5-1",
@@ -223,7 +227,8 @@ export const AL_MASAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et portant au cou une corde de fibres tressées!"
   }
 ];
 

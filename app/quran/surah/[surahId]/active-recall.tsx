@@ -8,6 +8,7 @@ import { getSurahById } from '../../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../../src/hooks/useQuranData';
 import { useQuranStore } from '../../../../src/stores/quranStore';
 import { useAyahTranslations } from '../../../../src/hooks/useAyahTranslations';
+import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { useSettingsStore } from '../../../../src/stores/settingsStore';
 import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { ReviewRating } from '../../../../src/types/quran';
@@ -39,6 +40,7 @@ const SPLIT_OPTIONS = [0.3, 0.5, 0.7];
 
 export default function ActiveRecallScreen() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
 
   const surah = getSurahById(surahId);
@@ -78,7 +80,7 @@ export default function ActiveRecallScreen() {
   const currentAyah = ayahs[currentAyahIndex] ?? null;
   const ayahTranslation = currentAyah
     ? langTranslations.get(currentAyah.ayahNumber)
-      || currentAyah.translation
+      || lc(currentAyah.translation, currentAyah.translationFr)
       || currentAyah.words.map(w => w.translation).join(' ')
     : '';
   const showTajweed = progress.settings.showTajweedColors;

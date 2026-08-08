@@ -11,7 +11,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلَّيْلِ إِذَا يَغْشَىٰ",
     "textSimple": " وٱليل إذا يغشى",
     "transliteration": "wa-al-layli idhā yaghshā",
-    "translation": "",
+    "translation": "By the night when it covers",
     "words": [
       {
         "id": "al-layl-1-1",
@@ -35,7 +35,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la nuit quand elle voile tout !"
   },
   {
     "id": "al-layl-2",
@@ -44,7 +45,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
     "textSimple": "وٱلنهار إذا تجلى",
     "transliteration": "wal-nahāri idhā tajallā",
-    "translation": "",
+    "translation": "And [by] the day when it appears",
     "words": [
       {
         "id": "al-layl-2-1",
@@ -68,7 +69,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le jour quand il est dans tout son éclat !"
   },
   {
     "id": "al-layl-3",
@@ -77,7 +79,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
     "textSimple": "وما خلق ٱلذكر وٱلأنثىٓ",
     "transliteration": "wamā khalaqa l-dhakara wal-unthā",
-    "translation": "",
+    "translation": "And [by] He who created the male and female,",
     "words": [
       {
         "id": "al-layl-3-1",
@@ -108,7 +110,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ce qui a créé le mâle et la femelle !"
   },
   {
     "id": "al-layl-4",
@@ -117,7 +120,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
     "textSimple": "إن سعيكم لشتى",
     "transliteration": "inna saʿyakum lashattā",
-    "translation": "",
+    "translation": "Indeed, your efforts are diverse.",
     "words": [
       {
         "id": "al-layl-4-1",
@@ -141,7 +144,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos efforts sont, en vérité, (déployés) pour des desseins divers."
   },
   {
     "id": "al-layl-5",
@@ -150,7 +154,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
     "textSimple": "فأما من أعطى وٱتقى",
     "transliteration": "fa-ammā man aʿṭā wa-ittaqā",
-    "translation": "",
+    "translation": "As for he who gives and fears Allāh",
     "words": [
       {
         "id": "al-layl-5-1",
@@ -181,7 +185,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui donne (de ses biens) et qui craint (Allah),"
   },
   {
     "id": "al-layl-6",
@@ -190,7 +195,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
     "textSimple": "وصدق بٱلحسنى",
     "transliteration": "waṣaddaqa bil-ḥus'nā",
-    "translation": "",
+    "translation": "And believes in the best [reward],",
     "words": [
       {
         "id": "al-layl-6-1",
@@ -207,7 +212,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui croit en la meilleure des récompenses,"
   },
   {
     "id": "al-layl-7",
@@ -216,7 +222,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
     "textSimple": "فسنيسره لليسرى",
     "transliteration": "fasanuyassiruhu lil'yus'rā",
-    "translation": "",
+    "translation": "We will ease him toward ease.",
     "words": [
       {
         "id": "al-layl-7-1",
@@ -233,7 +239,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le mettrons sur la voie la plus facile."
   },
   {
     "id": "al-layl-8",
@@ -242,7 +249,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
     "textSimple": "وأما من بخل وٱستغنى",
     "transliteration": "wa-ammā man bakhila wa-is'taghnā",
-    "translation": "",
+    "translation": "But as for he who withholds and considers himself free of need",
     "words": [
       {
         "id": "al-layl-8-1",
@@ -273,7 +280,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui fait preuve d’avarice, se passe (de la récompense d’Allah),"
   },
   {
     "id": "al-layl-9",
@@ -282,7 +290,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
     "textSimple": "وكذب بٱلحسنى",
     "transliteration": "wakadhaba bil-ḥus'nā",
-    "translation": "",
+    "translation": "And denies the best [reward],",
     "words": [
       {
         "id": "al-layl-9-1",
@@ -299,7 +307,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et refuse de croire en la meilleure des récompenses,"
   },
   {
     "id": "al-layl-10",
@@ -308,7 +317,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
     "textSimple": "فسنيسره للعسرى",
     "transliteration": "fasanuyassiruhu lil'ʿus'rā",
-    "translation": "",
+    "translation": "We will ease him toward difficulty.",
     "words": [
       {
         "id": "al-layl-10-1",
@@ -325,7 +334,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le mettrons sur la voie la plus difficile."
   },
   {
     "id": "al-layl-11",
@@ -334,7 +344,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
     "textSimple": "وما يغنى عنه مالهٓ إذا تردىٓ",
     "transliteration": "wamā yugh'nī ʿanhu māluhu idhā taraddā",
-    "translation": "",
+    "translation": "And what will his wealth avail him when he falls?",
     "words": [
       {
         "id": "al-layl-11-1",
@@ -379,7 +389,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ses biens ne lui seront en rien utiles quand il sera livré (au Feu)."
   },
   {
     "id": "al-layl-12",
@@ -388,7 +399,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
     "textSimple": "إن علينا للهدى",
     "transliteration": "inna ʿalaynā lalhudā",
-    "translation": "",
+    "translation": "Indeed, [incumbent] upon Us is guidance.",
     "words": [
       {
         "id": "al-layl-12-1",
@@ -412,7 +423,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Nous incombe de guider (les hommes)."
   },
   {
     "id": "al-layl-13",
@@ -421,7 +433,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ لَنَا لَلْـَٔاخِرَةَ وَٱلْأُولَىٰ",
     "textSimple": "وإن لنا للـٔاخرة وٱلأولى",
     "transliteration": "wa-inna lanā lalākhirata wal-ūlā",
-    "translation": "",
+    "translation": "And indeed, to us belongs the Hereafter and the first [life].",
     "words": [
       {
         "id": "al-layl-13-1",
@@ -452,7 +464,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Nous appartiennent la vie dans l’autre monde et la vie en ce bas monde."
   },
   {
     "id": "al-layl-14",
@@ -461,7 +474,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
     "textSimple": "فأنذرتكم نارا تلظى",
     "transliteration": "fa-andhartukum nāran talaẓẓā",
-    "translation": "",
+    "translation": "So I have warned you of a Fire which is blazing.",
     "words": [
       {
         "id": "al-layl-14-1",
@@ -485,7 +498,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je vous mets en garde contre un Feu dévorant,"
   },
   {
     "id": "al-layl-15",
@@ -494,7 +508,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
     "textSimple": "لا يصلىهآ إلا ٱلأشقى",
     "transliteration": "lā yaṣlāhā illā l-ashqā",
-    "translation": "",
+    "translation": "None will [enter to] burn therein except the most wretched one",
     "words": [
       {
         "id": "al-layl-15-1",
@@ -525,7 +539,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où ne brûlera que le réprouvé,"
   },
   {
     "id": "al-layl-16",
@@ -534,7 +549,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
     "textSimple": "ٱلذى كذب وتولى",
     "transliteration": "alladhī kadhaba watawallā",
-    "translation": "",
+    "translation": "Who had denied and turned away.",
     "words": [
       {
         "id": "al-layl-16-1",
@@ -558,7 +573,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui a osé démentir et s’est détourné avec dédain."
   },
   {
     "id": "al-layl-17",
@@ -567,7 +583,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
     "textSimple": "وسيجنبها ٱلأتقى",
     "transliteration": "wasayujannabuhā l-atqā",
-    "translation": "",
+    "translation": "But the righteous one will avoid it",
     "words": [
       {
         "id": "al-layl-17-1",
@@ -584,7 +600,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne sera épargné qu’à l’homme pieux,"
   },
   {
     "id": "al-layl-18",
@@ -593,7 +610,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
     "textSimple": "ٱلذى يؤتى ماله يتزكى",
     "transliteration": "alladhī yu'tī mālahu yatazakkā",
-    "translation": "",
+    "translation": "[He] who gives [from] his wealth to purify himself",
     "words": [
       {
         "id": "al-layl-18-1",
@@ -624,7 +641,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui dépense de ses biens pour se purifier,"
   },
   {
     "id": "al-layl-19",
@@ -633,7 +651,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍ تُجْزَىٰٓ",
     "textSimple": "وما لأحد عنده من نعمة تجزىٓ",
     "transliteration": "wamā li-aḥadin ʿindahu min niʿ'matin tuj'zā",
-    "translation": "",
+    "translation": "And not [giving] for anyone who has [done him] a favor to be rewarded",
     "words": [
       {
         "id": "al-layl-19-1",
@@ -678,7 +696,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ne le fait point pour rendre à quelqu’un la dette d’un bienfait,"
   },
   {
     "id": "al-layl-20",
@@ -687,7 +706,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
     "textSimple": "إلا ٱبتغآء وجه ربه ٱلأعلى",
     "transliteration": "illā ib'tighāa wajhi rabbihi l-aʿlā",
-    "translation": "",
+    "translation": "But only seeking the face [i.e., acceptance] of his Lord, Most High.",
     "words": [
       {
         "id": "al-layl-20-1",
@@ -725,7 +744,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais pour être agréable à son Seigneur, l’Altissime."
   },
   {
     "id": "al-layl-21",
@@ -734,7 +754,7 @@ export const AL_LAYL_AYAHS: Ayah[] = [
     "textUthmani": "وَلَسَوْفَ يَرْضَىٰ",
     "textSimple": "ولسوف يرضى",
     "transliteration": "walasawfa yarḍā",
-    "translation": "",
+    "translation": "And he is going to be satisfied.",
     "words": [
       {
         "id": "al-layl-21-1",
@@ -751,7 +771,8 @@ export const AL_LAYL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il sera, assurément, satisfait."
   }
 ];
 

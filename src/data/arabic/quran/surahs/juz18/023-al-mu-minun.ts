@@ -11,7 +11,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": " قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
     "textSimple": " قد أفلح ٱلمؤمنون",
     "transliteration": "qad aflaḥa l-mu'minūna",
-    "translation": "",
+    "translation": "Certainly will the believers have succeeded:",
     "words": [
       {
         "id": "al-mu-minun-1-1",
@@ -35,7 +35,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont certes réussi, les croyants,"
   },
   {
     "id": "al-mu-minun-2",
@@ -44,7 +45,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَـٰشِعُونَ",
     "textSimple": "ٱلذين هم فى صلاتهم خـشعون",
     "transliteration": "alladhīna hum fī ṣalātihim khāshiʿūna",
-    "translation": "",
+    "translation": "They who are during their prayer humbly intent",
     "words": [
       {
         "id": "al-mu-minun-2-1",
@@ -82,7 +83,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui, dans leur Çalât, sont humblement recueillis,"
   },
   {
     "id": "al-mu-minun-3",
@@ -91,7 +93,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ",
     "textSimple": "وٱلذين هم عن ٱللغو معرضون",
     "transliteration": "wa-alladhīna hum ʿani l-laghwi muʿ'riḍūna",
-    "translation": "",
+    "translation": "And they who turn away from ill speech",
     "words": [
       {
         "id": "al-mu-minun-3-1",
@@ -129,7 +131,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui évitent toutes paroles vaines,"
   },
   {
     "id": "al-mu-minun-4",
@@ -138,7 +141,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَـٰعِلُونَ",
     "textSimple": "وٱلذين هم للزكوة فـعلون",
     "transliteration": "wa-alladhīna hum lilzzakati fāʿilūna",
-    "translation": "",
+    "translation": "And they who are observant of zakāh",
     "words": [
       {
         "id": "al-mu-minun-4-1",
@@ -169,7 +172,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui font la Zakât,"
   },
   {
     "id": "al-mu-minun-5",
@@ -178,7 +182,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ",
     "textSimple": "وٱلذين هم لفروجهم حـفظون",
     "transliteration": "wa-alladhīna hum lifurūjihim ḥāfiẓūna",
-    "translation": "",
+    "translation": "And they who guard their private parts",
     "words": [
       {
         "id": "al-mu-minun-5-1",
@@ -209,7 +213,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui préservent leur chasteté,"
   },
   {
     "id": "al-mu-minun-6",
@@ -218,7 +223,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
     "textSimple": "إلا علىٓ أزوجهم أو ما ملكت أيمـنهم فإنهم غير ملومين",
     "transliteration": "illā ʿalā azwājihim aw mā malakat aymānuhum fa-innahum ghayru malūmīna",
-    "translation": "",
+    "translation": "Except from their wives or those their right hands possess, for indeed, they will not be blamed -",
     "words": [
       {
         "id": "al-mu-minun-6-1",
@@ -291,7 +296,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sauf vis-à-vis de leurs épouses ou des femmes qu’ils possèdent légalement - car dans ce cas, il ne peut leur être fait aucun reproche,"
   },
   {
     "id": "al-mu-minun-7",
@@ -300,7 +306,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ",
     "textSimple": "فمن ٱبتغى ورآء ذلك فأولـٓئك هم ٱلعادون",
     "transliteration": "famani ib'taghā warāa dhālika fa-ulāika humu l-ʿādūna",
-    "translation": "",
+    "translation": "But whoever seeks beyond that, then those are the transgressors -",
     "words": [
       {
         "id": "al-mu-minun-7-1",
@@ -352,7 +358,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux dont les convoitises vont au-delà (de ces limites), ceux-là sont les transgresseurs,"
   },
   {
     "id": "al-mu-minun-8",
@@ -361,7 +368,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
     "textSimple": "وٱلذين هم لأمـنـتهم وعهدهم رعون",
     "transliteration": "wa-alladhīna hum li-amānātihim waʿahdihim rāʿūna",
-    "translation": "",
+    "translation": "And they who are to their trusts and their promises attentive",
     "words": [
       {
         "id": "al-mu-minun-8-1",
@@ -399,7 +406,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui gardent fidèlement les dépôts qu’on leur confie et veillent à honorer leurs engagements,"
   },
   {
     "id": "al-mu-minun-9",
@@ -408,7 +416,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ عَلَىٰ صَلَوَٰتِهِمْ يُحَافِظُونَ",
     "textSimple": "وٱلذين هم على صلوتهم يحافظون",
     "transliteration": "wa-alladhīna hum ʿalā ṣalawātihim yuḥāfiẓūna",
-    "translation": "",
+    "translation": "And they who carefully maintain their prayers -",
     "words": [
       {
         "id": "al-mu-minun-9-1",
@@ -446,7 +454,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui observent assidûment leur Çalât,"
   },
   {
     "id": "al-mu-minun-10",
@@ -455,7 +464,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ هُمُ ٱلْوَٰرِثُونَ",
     "textSimple": "أولـٓئك هم ٱلورثون",
     "transliteration": "ulāika humu l-wārithūna",
-    "translation": "",
+    "translation": "Those are the inheritors",
     "words": [
       {
         "id": "al-mu-minun-10-1",
@@ -479,7 +488,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux-là les (vrais) héritiers,"
   },
   {
     "id": "al-mu-minun-11",
@@ -488,7 +498,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَرِثُونَ ٱلْفِرْدَوْسَ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "ٱلذين يرثون ٱلفردوس هم فيها خـلدون",
     "transliteration": "alladhīna yarithūna l-fir'dawsa hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Who will inherit al-Firdaus. They will abide therein eternally.",
     "words": [
       {
         "id": "al-mu-minun-11-1",
@@ -533,7 +543,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui hériteront du Firdaws où ils séjourneront pour l’éternité."
   },
   {
     "id": "al-mu-minun-12",
@@ -542,7 +553,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ مِن سُلَـٰلَةٍ مِّن طِينٍ",
     "textSimple": "ولقد خلقنا ٱلإنسـن من سلـلة من طين",
     "transliteration": "walaqad khalaqnā l-insāna min sulālatin min ṭīnin",
-    "translation": "",
+    "translation": "And certainly did We create man from an extract of clay.",
     "words": [
       {
         "id": "al-mu-minun-12-1",
@@ -594,7 +605,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé l’homme à partir d’une essence d’argile,"
   },
   {
     "id": "al-mu-minun-13",
@@ -603,7 +615,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ جَعَلْنَـٰهُ نُطْفَةً فِى قَرَارٍ مَّكِينٍ",
     "textSimple": "ثم جعلنـه نطفة فى قرار مكين",
     "transliteration": "thumma jaʿalnāhu nuṭ'fatan fī qarārin makīnin",
-    "translation": "",
+    "translation": "Then We placed him as a sperm-drop in a firm lodging [i.e., the womb].",
     "words": [
       {
         "id": "al-mu-minun-13-1",
@@ -648,7 +660,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous en avons alors fait une goutte de sperme placée dans un réceptacle sûr."
   },
   {
     "id": "al-mu-minun-14",
@@ -657,7 +670,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَـٰمًا فَكَسَوْنَا ٱلْعِظَـٰمَ لَحْمًا ثُمَّ أَنشَأْنَـٰهُ خَلْقًا ءَاخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَـٰلِقِينَ",
     "textSimple": "ثم خلقنا ٱلنطفة علقة فخلقنا ٱلعلقة مضغة فخلقنا ٱلمضغة عظـما فكسونا ٱلعظـم لحما ثم أنشأنـه خلقا ءاخر  فتبارك ٱلله أحسن ٱلخـلقين",
     "transliteration": "thumma khalaqnā l-nuṭ'fata ʿalaqatan fakhalaqnā l-ʿalaqata muḍ'ghatan fakhalaqnā l-muḍ'ghata ʿiẓāman fakasawnā l-ʿiẓāma laḥman thumma anshanāhu khalqan ākhara fatabāraka l-lahu aḥsanu l-khāliqīna",
-    "translation": "",
+    "translation": "Then We made the sperm-drop into a clinging clot, and We made the clot into a lump [of flesh], and We made [from] the lump, bones, and We covered the bones with flesh; then We developed him into another creation. So blessed is Allāh, the best of creators.",
     "words": [
       {
         "id": "al-mu-minun-14-1",
@@ -807,7 +820,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis de cette goutte, Nous avons fait un grumeau de sang, et du grumeau une masse de chair, et de la masse, des os. Nous avons ensuite revêtu les os de chair et en avons fait une créature autre. Béni soit Allah, le Meilleur des créateurs !"
   },
   {
     "id": "al-mu-minun-15",
@@ -816,7 +830,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّكُم بَعْدَ ذَٰلِكَ لَمَيِّتُونَ",
     "textSimple": "ثم إنكم بعد ذلك لميتون",
     "transliteration": "thumma innakum baʿda dhālika lamayyitūna",
-    "translation": "",
+    "translation": "Then indeed, after that you are to die.",
     "words": [
       {
         "id": "al-mu-minun-15-1",
@@ -854,7 +868,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, après cela, vous aurez certainement à mourir."
   },
   {
     "id": "al-mu-minun-16",
@@ -863,7 +878,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَـٰمَةِ تُبْعَثُونَ",
     "textSimple": "ثم إنكم يوم ٱلقيـمة تبعثون",
     "transliteration": "thumma innakum yawma l-qiyāmati tub'ʿathūna",
-    "translation": "",
+    "translation": "Then indeed you, on the Day of Resurrection, will be resurrected.",
     "words": [
       {
         "id": "al-mu-minun-16-1",
@@ -901,7 +916,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et au Jour de la Résurrection, vous serez ressuscités."
   },
   {
     "id": "al-mu-minun-17",
@@ -910,7 +926,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَـٰفِلِينَ",
     "textSimple": "ولقد خلقنا فوقكم سبع طرآئق وما كنا عن ٱلخلق غـفلين",
     "transliteration": "walaqad khalaqnā fawqakum sabʿa ṭarāiqa wamā kunnā ʿani l-khalqi ghāfilīna",
-    "translation": "",
+    "translation": "And We have created above you seven layered heavens, and never have We been of [Our] creation unaware.",
     "words": [
       {
         "id": "al-mu-minun-17-1",
@@ -983,7 +999,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé au-dessus de vous sept cieux superposés, et jamais Nous n’avons été distrait de la création."
   },
   {
     "id": "al-mu-minun-18",
@@ -992,7 +1009,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۢ بِقَدَرٍ فَأَسْكَنَّـٰهُ فِى ٱلْأَرْضِ ۖ وَإِنَّا عَلَىٰ ذَهَابٍۭ بِهِۦ لَقَـٰدِرُونَ",
     "textSimple": "وأنزلنا من ٱلسمآء مآء بقدر فأسكنـه فى ٱلأرض  وإنا على ذهاب به لقـدرون",
     "transliteration": "wa-anzalnā mina l-samāi māan biqadarin fa-askannāhu fī l-arḍi wa-innā ʿalā dhahābin bihi laqādirūna",
-    "translation": "",
+    "translation": "And We have sent down rain from the sky in a measured amount and settled it in the earth. And indeed, We are Able to take it away.",
     "words": [
       {
         "id": "al-mu-minun-18-1",
@@ -1086,7 +1103,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre du ciel une eau en quantité mesurée, que Nous avons gardée contenue sous terre. Mais de la faire disparaître Nous sommes tout aussi Capable."
   },
   {
     "id": "al-mu-minun-19",
@@ -1095,7 +1113,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنشَأْنَا لَكُم بِهِۦ جَنَّـٰتٍ مِّن نَّخِيلٍ وَأَعْنَـٰبٍ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
     "textSimple": "فأنشأنا لكم به جنـت من نخيل وأعنـب لكم فيها فوكه كثيرة ومنها تأكلون",
     "transliteration": "fa-anshanā lakum bihi jannātin min nakhīlin wa-aʿnābin lakum fīhā fawākihu kathīratun wamin'hā takulūna",
-    "translation": "",
+    "translation": "And We brought forth for you thereby gardens of palm trees and grapevines in which for you are abundant fruits and from which you eat.",
     "words": [
       {
         "id": "al-mu-minun-19-1",
@@ -1189,7 +1207,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par (cette eau), Nous avons fait pousser pour vous des jardins de palmiers et de vignes où vous avez des fruits en abondance, dont vous mangez ;"
   },
   {
     "id": "al-mu-minun-20",
@@ -1198,7 +1217,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ تَنۢبُتُ بِٱلدُّهْنِ وَصِبْغٍ لِّلْـَٔاكِلِينَ",
     "textSimple": "وشجرة تخرج من طور سينآء تنبت بٱلدهن وصبغ للـٔاكلين",
     "transliteration": "washajaratan takhruju min ṭūri saynāa tanbutu bil-duh'ni waṣib'ghin lil'ākilīna",
-    "translation": "",
+    "translation": "And [We brought forth] a tree issuing from Mount Sinai which produces oil and food [i.e., olives] for those who eat.",
     "words": [
       {
         "id": "al-mu-minun-20-1",
@@ -1264,7 +1283,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et un arbre qui pousse sur le Mont Sinaï, qui produit de l’huile qui sert de condiment à ceux qui en mangent."
   },
   {
     "id": "al-mu-minun-21",
@@ -1273,7 +1293,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَـٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَـٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
     "textSimple": "وإن لكم فى ٱلأنعـم لعبرة  نسقيكم مما فى بطونها ولكم فيها منـفع كثيرة ومنها تأكلون",
     "transliteration": "wa-inna lakum fī l-anʿāmi laʿib'ratan nus'qīkum mimmā fī buṭūnihā walakum fīhā manāfiʿu kathīratun wamin'hā takulūna",
-    "translation": "",
+    "translation": "And indeed, for you in livestock is a lesson. We give you drink from that which is in their bellies, and for you in them are numerous benefits, and from them you eat.",
     "words": [
       {
         "id": "al-mu-minun-21-1",
@@ -1381,7 +1401,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans les bestiaux, il y a pour vous un enseignement. Nous vous abreuvons de ce qui se trouve dans leurs ventres. Vous y trouvez diverses utilités, et vous mangez (de leur viande)."
   },
   {
     "id": "al-mu-minun-22",
@@ -1390,7 +1411,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَعَلَيْهَا وَعَلَى ٱلْفُلْكِ تُحْمَلُونَ",
     "textSimple": "وعليها وعلى ٱلفلك تحملون",
     "transliteration": "waʿalayhā waʿalā l-ful'ki tuḥ'malūna",
-    "translation": "",
+    "translation": "And upon them and on ships you are carried.",
     "words": [
       {
         "id": "al-mu-minun-22-1",
@@ -1421,7 +1442,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont pour vous, tout comme les vaisseaux, des moyens de transport."
   },
   {
     "id": "al-mu-minun-23",
@@ -1430,7 +1452,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ",
     "textSimple": "ولقد أرسلنا نوحا إلى قومه فقال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيرهٓ  أفلا تتقون",
     "transliteration": "walaqad arsalnā nūḥan ilā qawmihi faqāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu afalā tattaqūna",
-    "translation": "",
+    "translation": "And We had certainly sent Noah to his people, and he said, \"O my people, worship Allāh; you have no deity other than Him; then will you not fear Him?\"",
     "words": [
       {
         "id": "al-mu-minun-23-1",
@@ -1545,7 +1567,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes Noé à son peuple : « Ô peuple mien ! dit-il. Adorez Allah, vous n’avez d’autre divinité que Lui. Ne (Le) craignez-vous donc pas ? »"
   },
   {
     "id": "al-mu-minun-24",
@@ -1554,7 +1577,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ ٱلْمَلَؤُا۟ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يُرِيدُ أَن يَتَفَضَّلَ عَلَيْكُمْ وَلَوْ شَآءَ ٱللَّهُ لَأَنزَلَ مَلَـٰٓئِكَةً مَّا سَمِعْنَا بِهَـٰذَا فِىٓ ءَابَآئِنَا ٱلْأَوَّلِينَ",
     "textSimple": "فقال ٱلملؤا ٱلذين كفروا من قومه ما هـذآ إلا بشر مثلكم يريد أن يتفضل عليكم ولو شآء ٱلله لأنزل ملـٓئكة ما سمعنا بهـذا فىٓ ءابآئنا ٱلأولين",
     "transliteration": "faqāla l-mala-u alladhīna kafarū min qawmihi mā hādhā illā basharun mith'lukum yurīdu an yatafaḍḍala ʿalaykum walaw shāa l-lahu la-anzala malāikatan mā samiʿ'nā bihādhā fī ābāinā l-awalīna",
-    "translation": "",
+    "translation": "But the eminent among those who disbelieved from his people said, \"This is not but a man like yourselves who wishes to take precedence over you; and if Allāh had willed [to send a messenger], He would have sent down angels. We have not heard of this among our forefathers.",
     "words": [
       {
         "id": "al-mu-minun-24-1",
@@ -1739,7 +1762,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables parmi les mécréants de son peuple dirent : « Ce n’est là qu’un humain comme vous mais qui veut paraître meilleur que vous. Si Allah l’avait voulu, Il aurait fait descendre des Anges. Nous n’avons entendu rien de pareil venant de nos premiers ancêtres."
   },
   {
     "id": "al-mu-minun-25",
@@ -1748,7 +1772,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هُوَ إِلَّا رَجُلٌۢ بِهِۦ جِنَّةٌ فَتَرَبَّصُوا۟ بِهِۦ حَتَّىٰ حِينٍ",
     "textSimple": "إن هو إلا رجل به جنة فتربصوا به حتى حين",
     "transliteration": "in huwa illā rajulun bihi jinnatun fatarabbaṣū bihi ḥattā ḥīnin",
-    "translation": "",
+    "translation": "He is not but a man possessed with madness, so wait concerning him for a time.\"",
     "words": [
       {
         "id": "al-mu-minun-25-1",
@@ -1821,7 +1845,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est en réalité qu’un homme possédé par les démons. Attendez voir pour quelque temps ce qui va lui arriver. »"
   },
   {
     "id": "al-mu-minun-26",
@@ -1830,7 +1855,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
     "textSimple": "قال رب ٱنصرنى بما كذبون",
     "transliteration": "qāla rabbi unṣur'nī bimā kadhabūni",
-    "translation": "",
+    "translation": "[Noah] said, \"My Lord, support me because they have denied me.\"",
     "words": [
       {
         "id": "al-mu-minun-26-1",
@@ -1868,7 +1893,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit-il, accorde-moi Ton soutien contre ceux qui me traitent de menteur ! »"
   },
   {
     "id": "al-mu-minun-27",
@@ -1877,7 +1903,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَـٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
     "textSimple": "فأوحينآ إليه أن ٱصنع ٱلفلك بأعيننا ووحينا فإذا جآء أمرنا وفار ٱلتنور  فٱسلك فيها من كل زوجين ٱثنين وأهلك إلا من سبق عليه ٱلقول منهم  ولا تخـطبنى فى ٱلذين ظلموٓا  إنهم مغرقون",
     "transliteration": "fa-awḥaynā ilayhi ani iṣ'naʿi l-ful'ka bi-aʿyuninā wawaḥyinā fa-idhā jāa amrunā wafāra l-tanūru fa-us'luk fīhā min kullin zawjayni ith'nayni wa-ahlaka illā man sabaqa ʿalayhi l-qawlu min'hum walā tukhāṭib'nī fī alladhīna ẓalamū innahum mugh'raqūna",
-    "translation": "",
+    "translation": "So We inspired to him, \"Construct the ship under Our observation and Our inspiration, and when Our command comes and the oven overflows, put into it [i.e., the ship] from each [creature] two mates and your family, except him for whom the decree [of destruction] has proceeded. And do not address Me concerning those who have wronged; indeed, they are to be drowned.",
     "words": [
       {
         "id": "al-mu-minun-27-1",
@@ -2104,7 +2130,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est alors que Nous lui révélâmes : « Construis l’Arche sous Nos yeux et conformément à Notre révélation. Puis lorsque Notre commandement sera venu et que la fournaise se mettra à bouillonner, tu y embarqueras un couple de chaque espèce, les membres de ta famille - excepté ceux contre qui le verdict (divin) est déjà prononcé – et ne M’entretiens pas de ceux qui ont commis des injustices car ils seront bientôt noyés. »"
   },
   {
     "id": "al-mu-minun-28",
@@ -2113,7 +2140,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا ٱسْتَوَيْتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلْفُلْكِ فَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "فإذا ٱستويت أنت ومن معك على ٱلفلك فقل ٱلحمد لله ٱلذى نجىنا من ٱلقوم ٱلظـلمين",
     "transliteration": "fa-idhā is'tawayta anta waman maʿaka ʿalā l-ful'ki faquli l-ḥamdu lillahi alladhī najjānā mina l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "And when you have boarded the ship, you and those with you, then say, 'Praise to Allāh who has saved us from the wrongdoing people.'",
     "words": [
       {
         "id": "al-mu-minun-28-1",
@@ -2221,7 +2248,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque tu seras bien installé dans l’Arche, toi et ceux qui t’accompagneront, tu diras : « Toute louange est à Allah Qui nous a sauvés des gens injustes ! »"
   },
   {
     "id": "al-mu-minun-29",
@@ -2230,7 +2258,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَقُل رَّبِّ أَنزِلْنِى مُنزَلًا مُّبَارَكًا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ",
     "textSimple": "وقل رب أنزلنى منزلا مباركا وأنت خير ٱلمنزلين",
     "transliteration": "waqul rabbi anzil'nī munzalan mubārakan wa-anta khayru l-munzilīna",
-    "translation": "",
+    "translation": "And say, 'My Lord, let me land at a blessed landing place, and You are the best to accommodate [us].'\"",
     "words": [
       {
         "id": "al-mu-minun-29-1",
@@ -2289,7 +2317,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et tu diras : « Seigneur, veuille me faire aborder sur des rivages bénis, car Tu es Celui Qui guide vers les meilleurs rivages ! »"
   },
   {
     "id": "al-mu-minun-30",
@@ -2298,7 +2327,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ وَإِن كُنَّا لَمُبْتَلِينَ",
     "textSimple": "إن فى ذلك لـٔايـت وإن كنا لمبتلين",
     "transliteration": "inna fī dhālika laāyātin wa-in kunnā lamub'talīna",
-    "translation": "",
+    "translation": "Indeed in that are signs, and indeed, We are ever testing [Our servants].",
     "words": [
       {
         "id": "al-mu-minun-30-1",
@@ -2350,7 +2379,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là des Signes et Nous ne faisons que mettre (les hommes) à l’épreuve."
   },
   {
     "id": "al-mu-minun-31",
@@ -2359,7 +2389,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ",
     "textSimple": "ثم أنشأنا من بعدهم قرنا ءاخرين",
     "transliteration": "thumma anshanā min baʿdihim qarnan ākharīna",
-    "translation": "",
+    "translation": "Then We produced after them a generation of others.",
     "words": [
       {
         "id": "al-mu-minun-31-1",
@@ -2404,7 +2434,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous avons créé, après eux, une autre génération."
   },
   {
     "id": "al-mu-minun-32",
@@ -2413,7 +2444,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرْسَلْنَا فِيهِمْ رَسُولًا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ",
     "textSimple": "فأرسلنا فيهم رسولا منهم أن ٱعبدوا ٱلله ما لكم من إلـه غيرهٓ  أفلا تتقون",
     "transliteration": "fa-arsalnā fīhim rasūlan min'hum ani uʿ'budū l-laha mā lakum min ilāhin ghayruhu afalā tattaqūna",
-    "translation": "",
+    "translation": "And We sent among them a messenger from themselves, [saying], \"Worship Allāh; you have no deity other than Him; then will you not fear Him?\"",
     "words": [
       {
         "id": "al-mu-minun-32-1",
@@ -2514,7 +2545,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons envoyé un Messager, (choisi) parmi eux, qui leur disait : « Adorez Allah, vous n’avez d’autre divinité que Lui. Ne (Le) craignez-vous donc pas ? »"
   },
   {
     "id": "al-mu-minun-33",
@@ -2523,7 +2555,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ ٱلْـَٔاخِرَةِ وَأَتْرَفْنَـٰهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ",
     "textSimple": "وقال ٱلملأ من قومه ٱلذين كفروا وكذبوا بلقآء ٱلـٔاخرة وأترفنـهم فى ٱلحيوة ٱلدنيا ما هـذآ إلا بشر مثلكم يأكل مما تأكلون منه ويشرب مما تشربون",
     "transliteration": "waqāla l-mala-u min qawmihi alladhīna kafarū wakadhabū biliqāi l-ākhirati wa-atrafnāhum fī l-ḥayati l-dun'yā mā hādhā illā basharun mith'lukum yakulu mimmā takulūna min'hu wayashrabu mimmā tashrabūna",
-    "translation": "",
+    "translation": "And the eminent among his people who disbelieved and denied the meeting of the Hereafter while We had given them luxury in the worldly life said, \"This is not but a man like yourselves. He eats of that from which you eat and drinks of what you drink.",
     "words": [
       {
         "id": "al-mu-minun-33-1",
@@ -2701,7 +2733,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables de son peuple, parmi les mécréants, qui traitaient de mensonge la rencontre de l’autre monde et auxquels Nous avons donné faste et opulence en ce bas monde, dirent : « Ce n’est là qu’un humain comme vous, qui mange de ce que vous mangez et boit de ce que vous buvez."
   },
   {
     "id": "al-mu-minun-34",
@@ -2710,7 +2743,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَطَعْتُم بَشَرًا مِّثْلَكُمْ إِنَّكُمْ إِذًا لَّخَـٰسِرُونَ",
     "textSimple": "ولئن أطعتم بشرا مثلكم إنكم إذا لخـسرون",
     "transliteration": "wala-in aṭaʿtum basharan mith'lakum innakum idhan lakhāsirūna",
-    "translation": "",
+    "translation": "And if you should obey a man like yourselves, indeed, you would then be losers.",
     "words": [
       {
         "id": "al-mu-minun-34-1",
@@ -2762,7 +2795,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En obéissant à un humain comme vous, vous serez certes perdants."
   },
   {
     "id": "al-mu-minun-35",
@@ -2771,7 +2805,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَيَعِدُكُمْ أَنَّكُمْ إِذَا مِتُّمْ وَكُنتُمْ تُرَابًا وَعِظَـٰمًا أَنَّكُم مُّخْرَجُونَ",
     "textSimple": "أيعدكم أنكم إذا متم وكنتم ترابا وعظـما أنكم مخرجون",
     "transliteration": "ayaʿidukum annakum idhā mittum wakuntum turāban waʿiẓāman annakum mukh'rajūna",
-    "translation": "",
+    "translation": "Does he promise you that when you have died and become dust and bones that you will be brought forth [once more]?",
     "words": [
       {
         "id": "al-mu-minun-35-1",
@@ -2837,7 +2871,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous promet-il pas qu’une fois morts et devenus poussière et ossements vous serez à nouveau sortis (de vos tombes) ?"
   },
   {
     "id": "al-mu-minun-36",
@@ -2846,7 +2881,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "۞ هَيْهَاتَ هَيْهَاتَ لِمَا تُوعَدُونَ",
     "textSimple": " هيهات هيهات لما توعدون",
     "transliteration": "hayhāta hayhāta limā tūʿadūna",
-    "translation": "",
+    "translation": "How far, how far, is that which you are promised.",
     "words": [
       {
         "id": "al-mu-minun-36-1",
@@ -2877,7 +2912,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comme est lointain, lointain, ce qui vous est promis !"
   },
   {
     "id": "al-mu-minun-37",
@@ -2886,7 +2922,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هِىَ إِلَّا حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا نَحْنُ بِمَبْعُوثِينَ",
     "textSimple": "إن هى إلا حياتنا ٱلدنيا نموت ونحيا وما نحن بمبعوثين",
     "transliteration": "in hiya illā ḥayātunā l-dun'yā namūtu wanaḥyā wamā naḥnu bimabʿūthīna",
-    "translation": "",
+    "translation": "It [i.e., life] is not but our worldly life - we die and live, but we will not be resurrected.",
     "words": [
       {
         "id": "al-mu-minun-37-1",
@@ -2959,7 +2995,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y a rien d’autre que notre vie en ce bas monde. Nous mourons, nous vivons et nous ne serons point ressuscités."
   },
   {
     "id": "al-mu-minun-38",
@@ -2968,7 +3005,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هُوَ إِلَّا رَجُلٌ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا وَمَا نَحْنُ لَهُۥ بِمُؤْمِنِينَ",
     "textSimple": "إن هو إلا رجل ٱفترى على ٱلله كذبا وما نحن له بمؤمنين",
     "transliteration": "in huwa illā rajulun if'tarā ʿalā l-lahi kadhiban wamā naḥnu lahu bimu'minīna",
-    "translation": "",
+    "translation": "He is not but a man who has invented a lie about Allāh, and we will not believe him.\"",
     "words": [
       {
         "id": "al-mu-minun-38-1",
@@ -3055,7 +3092,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est qu’un homme qui débite des mensonges sur le compte d’Allah. Nous ne le croirons pas. »"
   },
   {
     "id": "al-mu-minun-39",
@@ -3064,7 +3102,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
     "textSimple": "قال رب ٱنصرنى بما كذبون",
     "transliteration": "qāla rabbi unṣur'nī bimā kadhabūni",
-    "translation": "",
+    "translation": "He said, \"My Lord, support me because they have denied me.\"",
     "words": [
       {
         "id": "al-mu-minun-39-1",
@@ -3102,7 +3140,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit-il, accorde-moi Ton soutien contre ceux qui me traitent de menteur ! »"
   },
   {
     "id": "al-mu-minun-40",
@@ -3111,7 +3150,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ عَمَّا قَلِيلٍ لَّيُصْبِحُنَّ نَـٰدِمِينَ",
     "textSimple": "قال عما قليل ليصبحن نـدمين",
     "transliteration": "qāla ʿammā qalīlin layuṣ'biḥunna nādimīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"After a little, they will surely become regretful.\"",
     "words": [
       {
         "id": "al-mu-minun-40-1",
@@ -3149,7 +3188,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) répondit : « Sous peu, ils le regretteront. »"
   },
   {
     "id": "al-mu-minun-41",
@@ -3158,7 +3198,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ بِٱلْحَقِّ فَجَعَلْنَـٰهُمْ غُثَآءً ۚ فَبُعْدًا لِّلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "فأخذتهم ٱلصيحة بٱلحق فجعلنـهم غثآء  فبعدا للقوم ٱلظـلمين",
     "transliteration": "fa-akhadhathumu l-ṣayḥatu bil-ḥaqi fajaʿalnāhum ghuthāan fabuʿ'dan lil'qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "So the shriek seized them in truth, and We made them as [plant] stubble. Then away with the wrongdoing people.",
     "words": [
       {
         "id": "al-mu-minun-41-1",
@@ -3217,7 +3257,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Cri les emporta à juste raison et Nous en fîmes des débris charriés par le torrent. Que périssent donc les gens injustes !"
   },
   {
     "id": "al-mu-minun-42",
@@ -3226,7 +3267,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قُرُونًا ءَاخَرِينَ",
     "textSimple": "ثم أنشأنا من بعدهم قرونا ءاخرين",
     "transliteration": "thumma anshanā min baʿdihim qurūnan ākharīna",
-    "translation": "",
+    "translation": "Then We produced after them other generations.",
     "words": [
       {
         "id": "al-mu-minun-42-1",
@@ -3271,7 +3312,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous avons créé, après eux, d’autres générations."
   },
   {
     "id": "al-mu-minun-43",
@@ -3280,7 +3322,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "مَا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَـْٔخِرُونَ",
     "textSimple": "ما تسبق من أمة أجلها وما يستـٔخرون",
     "transliteration": "mā tasbiqu min ummatin ajalahā wamā yastakhirūna",
-    "translation": "",
+    "translation": "No nation will precede its time [of termination], nor will they remain [thereafter].",
     "words": [
       {
         "id": "al-mu-minun-43-1",
@@ -3332,7 +3374,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucune communauté ne saurait avancer ou reculer son terme."
   },
   {
     "id": "al-mu-minun-44",
@@ -3341,7 +3384,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَـٰهُمْ أَحَادِيثَ ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ",
     "textSimple": "ثم أرسلنا رسلنا تترا  كل ما جآء أمة رسولها كذبوه  فأتبعنا بعضهم بعضا وجعلنـهم أحاديث  فبعدا لقوم لا يؤمنون",
     "transliteration": "thumma arsalnā rusulanā tatrā kulla mā jāa ummatan rasūluhā kadhabūhu fa-atbaʿnā baʿḍahum baʿḍan wajaʿalnāhum aḥādītha fabuʿ'dan liqawmin lā yu'minūna",
-    "translation": "",
+    "translation": "Then We sent Our messengers in succession. Every time there came to a nation its messenger, they denied him, so We made them follow one another [to destruction], and We made them narrations. So away with a people who do not believe.",
     "words": [
       {
         "id": "al-mu-minun-44-1",
@@ -3477,7 +3520,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes alors successivement Nos Messagers. Chaque fois qu’un Messager venait se révéler devant sa communauté, les siens le traitaient de menteur. Alors, Nous les fîmes se succéder (vers leur perte) et en fîmes les sujets de récits légendaires. Que périssent donc les peuples mécréants !"
   },
   {
     "id": "al-mu-minun-45",
@@ -3486,7 +3530,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَرْسَلْنَا مُوسَىٰ وَأَخَاهُ هَـٰرُونَ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "ثم أرسلنا موسى وأخاه هـرون بـٔايـتنا وسلطـن مبين",
     "transliteration": "thumma arsalnā mūsā wa-akhāhu hārūna biāyātinā wasul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "Then We sent Moses and his brother Aaron with Our signs and a clear authority",
     "words": [
       {
         "id": "al-mu-minun-45-1",
@@ -3545,7 +3589,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous envoyâmes Moïse et son frère Aaron, munis de Nos Signes et de Nos évidentes preuves d’autorité,"
   },
   {
     "id": "al-mu-minun-46",
@@ -3554,7 +3599,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا عَالِينَ",
     "textSimple": "إلى فرعون وملإيه فٱستكبروا وكانوا قوما عالين",
     "transliteration": "ilā fir'ʿawna wamala-ihi fa-is'takbarū wakānū qawman ʿālīna",
-    "translation": "",
+    "translation": "To Pharaoh and his establishment, but they were arrogant and were a haughty people.",
     "words": [
       {
         "id": "al-mu-minun-46-1",
@@ -3606,7 +3651,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vers Pharaon et son assemblée de notables, qui se montrèrent dédaigneux et hautains."
   },
   {
     "id": "al-mu-minun-47",
@@ -3615,7 +3661,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالُوٓا۟ أَنُؤْمِنُ لِبَشَرَيْنِ مِثْلِنَا وَقَوْمُهُمَا لَنَا عَـٰبِدُونَ",
     "textSimple": "فقالوٓا أنؤمن لبشرين مثلنا وقومهما لنا عـبدون",
     "transliteration": "faqālū anu'minu libasharayni mith'linā waqawmuhumā lanā ʿābidūna",
-    "translation": "",
+    "translation": "They said, \"Should we believe two men like ourselves while their people are for us in servitude?\"",
     "words": [
       {
         "id": "al-mu-minun-47-1",
@@ -3667,7 +3713,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Allons-nous croire, s’étonnèrent-ils, en deux humains comme nous, quand leur peuple nous est asservi ? »"
   },
   {
     "id": "al-mu-minun-48",
@@ -3676,7 +3723,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُمَا فَكَانُوا۟ مِنَ ٱلْمُهْلَكِينَ",
     "textSimple": "فكذبوهما فكانوا من ٱلمهلكين",
     "transliteration": "fakadhabūhumā fakānū mina l-muh'lakīna",
-    "translation": "",
+    "translation": "So they denied them and were of those destroyed.",
     "words": [
       {
         "id": "al-mu-minun-48-1",
@@ -3707,7 +3754,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils les traitèrent de menteurs et furent du nombre des perdus."
   },
   {
     "id": "al-mu-minun-49",
@@ -3716,7 +3764,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ لَعَلَّهُمْ يَهْتَدُونَ",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب لعلهم يهتدون",
     "transliteration": "walaqad ātaynā mūsā l-kitāba laʿallahum yahtadūna",
-    "translation": "",
+    "translation": "And We certainly gave Moses the Scripture that perhaps they would be guided.",
     "words": [
       {
         "id": "al-mu-minun-49-1",
@@ -3761,7 +3809,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donné le Livre à Moïse afin que (les siens) fussent guidés."
   },
   {
     "id": "al-mu-minun-50",
@@ -3770,7 +3819,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا ٱبْنَ مَرْيَمَ وَأُمَّهُۥٓ ءَايَةً وَءَاوَيْنَـٰهُمَآ إِلَىٰ رَبْوَةٍ ذَاتِ قَرَارٍ وَمَعِينٍ",
     "textSimple": "وجعلنا ٱبن مريم وأمهٓ ءاية وءاوينـهمآ إلى ربوة ذات قرار ومعين",
     "transliteration": "wajaʿalnā ib'na maryama wa-ummahu āyatan waāwaynāhumā ilā rabwatin dhāti qarārin wamaʿīnin",
-    "translation": "",
+    "translation": "And We made the son of Mary and his mother a sign and sheltered them within a high ground having level [areas] and flowing water.",
     "words": [
       {
         "id": "al-mu-minun-50-1",
@@ -3850,7 +3899,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes du fils de Marie et de sa mère un Signe (prodigieux). À tous deux, Nous donnâmes refuge sur une colline paisible et arrosée de sources."
   },
   {
     "id": "al-mu-minun-51",
@@ -3859,7 +3909,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلرُّسُلُ كُلُوا۟ مِنَ ٱلطَّيِّبَـٰتِ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ عَلِيمٌ",
     "textSimple": "يـٓأيها ٱلرسل كلوا من ٱلطيبـت وٱعملوا صـلحا  إنى بما تعملون عليم",
     "transliteration": "yāayyuhā l-rusulu kulū mina l-ṭayibāti wa-iʿ'malū ṣāliḥan innī bimā taʿmalūna ʿalīmun",
-    "translation": "",
+    "translation": "[Allāh said], \"O messengers, eat from the good foods and work righteousness. Indeed I, of what you do, am Knowing.",
     "words": [
       {
         "id": "al-mu-minun-51-1",
@@ -3939,7 +3989,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Messagers ! Mangez de ce qui est licite et pur ! Faites le bien, car ce que vous faites Je le Sais parfaitement."
   },
   {
     "id": "al-mu-minun-52",
@@ -3948,7 +3999,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ هَـٰذِهِۦٓ أُمَّتُكُمْ أُمَّةً وَٰحِدَةً وَأَنَا۠ رَبُّكُمْ فَٱتَّقُونِ",
     "textSimple": "وإن هـذهٓ أمتكم أمة وحدة وأنا ربكم فٱتقون",
     "transliteration": "wa-inna hādhihi ummatukum ummatan wāḥidatan wa-anā rabbukum fa-ittaqūni",
-    "translation": "",
+    "translation": "And indeed this, your religion, is one religion, and I am your Lord, so fear Me.\"",
     "words": [
       {
         "id": "al-mu-minun-52-1",
@@ -4007,7 +4058,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cette religion est la vôtre et c’est une religion unique. Je suis votre Seigneur, alors craignez-Moi ! »"
   },
   {
     "id": "al-mu-minun-53",
@@ -4016,7 +4068,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًا ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ",
     "textSimple": "فتقطعوٓا أمرهم بينهم زبرا  كل حزب بما لديهم فرحون",
     "transliteration": "fataqaṭṭaʿū amrahum baynahum zuburan kullu ḥiz'bin bimā ladayhim fariḥūna",
-    "translation": "",
+    "translation": "But they [i.e., the people] divided their religion among them into portions [i.e., sects] - each faction, in what it has, rejoicing.",
     "words": [
       {
         "id": "al-mu-minun-53-1",
@@ -4082,7 +4134,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils se partagèrent en sectes. Chaque parti était content de ce qu’il avait."
   },
   {
     "id": "al-mu-minun-54",
@@ -4091,7 +4144,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَذَرْهُمْ فِى غَمْرَتِهِمْ حَتَّىٰ حِينٍ",
     "textSimple": "فذرهم فى غمرتهم حتى حين",
     "transliteration": "fadharhum fī ghamratihim ḥattā ḥīnin",
-    "translation": "",
+    "translation": "So leave them in their confusion for a time.",
     "words": [
       {
         "id": "al-mu-minun-54-1",
@@ -4129,7 +4182,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-les donc plongés dans leur égarement pour un temps."
   },
   {
     "id": "al-mu-minun-55",
@@ -4138,7 +4192,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَيَحْسَبُونَ أَنَّمَا نُمِدُّهُم بِهِۦ مِن مَّالٍ وَبَنِينَ",
     "textSimple": "أيحسبون أنما نمدهم به من مال وبنين",
     "transliteration": "ayaḥsabūna annamā numidduhum bihi min mālin wabanīna",
-    "translation": "",
+    "translation": "Do they think that what We extend to them of wealth and children",
     "words": [
       {
         "id": "al-mu-minun-55-1",
@@ -4190,7 +4244,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Croient-ils que ce que Nous leur accordons en biens et en enfants"
   },
   {
     "id": "al-mu-minun-56",
@@ -4199,7 +4254,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "نُسَارِعُ لَهُمْ فِى ٱلْخَيْرَٰتِ ۚ بَل لَّا يَشْعُرُونَ",
     "textSimple": "نسارع لهم فى ٱلخيرت  بل لا يشعرون",
     "transliteration": "nusāriʿu lahum fī l-khayrāti bal lā yashʿurūna",
-    "translation": "",
+    "translation": "Is [because] We hasten for them good things? Rather, they do not perceive.",
     "words": [
       {
         "id": "al-mu-minun-56-1",
@@ -4251,7 +4306,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "soit une part anticipée sur les faveurs (de l’autre monde) ? Tant s’en faut, et ils ne le sentent point."
   },
   {
     "id": "al-mu-minun-57",
@@ -4260,7 +4316,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ هُم مِّنْ خَشْيَةِ رَبِّهِم مُّشْفِقُونَ",
     "textSimple": "إن ٱلذين هم من خشية ربهم مشفقون",
     "transliteration": "inna alladhīna hum min khashyati rabbihim mush'fiqūna",
-    "translation": "",
+    "translation": "Indeed, they who are apprehensive from fear of their Lord",
     "words": [
       {
         "id": "al-mu-minun-57-1",
@@ -4312,7 +4368,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui craignent leur Seigneur dans un sentiment de componction,"
   },
   {
     "id": "al-mu-minun-58",
@@ -4321,7 +4378,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُم بِـَٔايَـٰتِ رَبِّهِمْ يُؤْمِنُونَ",
     "textSimple": "وٱلذين هم بـٔايـت ربهم يؤمنون",
     "transliteration": "wa-alladhīna hum biāyāti rabbihim yu'minūna",
-    "translation": "",
+    "translation": "And they who believe in the signs of their Lord",
     "words": [
       {
         "id": "al-mu-minun-58-1",
@@ -4359,7 +4416,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui croient aux Signes de leur Seigneur,"
   },
   {
     "id": "al-mu-minun-59",
@@ -4368,7 +4426,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُم بِرَبِّهِمْ لَا يُشْرِكُونَ",
     "textSimple": "وٱلذين هم بربهم لا يشركون",
     "transliteration": "wa-alladhīna hum birabbihim lā yush'rikūna",
-    "translation": "",
+    "translation": "And they who do not associate anything with their Lord",
     "words": [
       {
         "id": "al-mu-minun-59-1",
@@ -4406,7 +4464,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui ne prêtent aucun associé à leur Seigneur,"
   },
   {
     "id": "al-mu-minun-60",
@@ -4415,7 +4474,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُؤْتُونَ مَآ ءَاتَوا۟ وَّقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَٰجِعُونَ",
     "textSimple": "وٱلذين يؤتون مآ ءاتوا وقلوبهم وجلة أنهم إلى ربهم رجعون",
     "transliteration": "wa-alladhīna yu'tūna mā ātaw waqulūbuhum wajilatun annahum ilā rabbihim rājiʿūna",
-    "translation": "",
+    "translation": "And they who give what they give while their hearts are fearful because they will be returning to their Lord -",
     "words": [
       {
         "id": "al-mu-minun-60-1",
@@ -4488,7 +4547,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui s’acquittent de leurs œuvres de dévotion le cœur plein de contrition (sachant) qu’ils retourneront vers leur Seigneur,"
   },
   {
     "id": "al-mu-minun-61",
@@ -4497,7 +4557,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ يُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَهُمْ لَهَا سَـٰبِقُونَ",
     "textSimple": "أولـٓئك يسـرعون فى ٱلخيرت وهم لها سـبقون",
     "transliteration": "ulāika yusāriʿūna fī l-khayrāti wahum lahā sābiqūna",
-    "translation": "",
+    "translation": "It is those who hasten to good deeds, and they outstrip [others] therein.",
     "words": [
       {
         "id": "al-mu-minun-61-1",
@@ -4549,7 +4609,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là se hâtent vers les bonnes œuvres qu’ils accomplissent les premiers."
   },
   {
     "id": "al-mu-minun-62",
@@ -4558,7 +4619,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَلَدَيْنَا كِتَـٰبٌ يَنطِقُ بِٱلْحَقِّ ۚ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "ولا نكلف نفسا إلا وسعها  ولدينا كتـب ينطق بٱلحق  وهم لا يظلمون",
     "transliteration": "walā nukallifu nafsan illā wus'ʿahā waladaynā kitābun yanṭiqu bil-ḥaqi wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "And We charge no soul except [with that within] its capacity, and with Us is a record which speaks with truth; and they will not be wronged.",
     "words": [
       {
         "id": "al-mu-minun-62-1",
@@ -4645,7 +4706,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne chargeons une âme qu’à la mesure de ce qu’elle peut supporter. Nous détenons un Livre qui ne dit que vérité, et ils ne seront point lésés."
   },
   {
     "id": "al-mu-minun-63",
@@ -4654,7 +4716,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ قُلُوبُهُمْ فِى غَمْرَةٍ مِّنْ هَـٰذَا وَلَهُمْ أَعْمَـٰلٌ مِّن دُونِ ذَٰلِكَ هُمْ لَهَا عَـٰمِلُونَ",
     "textSimple": "بل قلوبهم فى غمرة من هـذا ولهم أعمـل من دون ذلك هم لها عـملون",
     "transliteration": "bal qulūbuhum fī ghamratin min hādhā walahum aʿmālun min dūni dhālika hum lahā ʿāmilūna",
-    "translation": "",
+    "translation": "But their hearts are covered with confusion over this, and they have [evil] deeds besides that [i.e., disbelief] which they are doing,",
     "words": [
       {
         "id": "al-mu-minun-63-1",
@@ -4755,7 +4817,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais leurs cœurs sont dans l’erreur à propos de ce (Coran). Et ils ont d’autres (mauvais) actes qu’ils commettent de surcroît,"
   },
   {
     "id": "al-mu-minun-64",
@@ -4764,7 +4827,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَآ أَخَذْنَا مُتْرَفِيهِم بِٱلْعَذَابِ إِذَا هُمْ يَجْـَٔرُونَ",
     "textSimple": "حتىٓ إذآ أخذنا مترفيهم بٱلعذاب إذا هم يجـٔرون",
     "transliteration": "ḥattā idhā akhadhnā mut'rafīhim bil-ʿadhābi idhā hum yajarūna",
-    "translation": "",
+    "translation": "Until when We seize their affluent ones with punishment, at once they are crying [to Allāh] for help.",
     "words": [
       {
         "id": "al-mu-minun-64-1",
@@ -4823,7 +4886,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’à ce que Nous frappions de Notre supplice les plus nantis parmi eux, et les voilà qui gémissent, suppliant."
   },
   {
     "id": "al-mu-minun-65",
@@ -4832,7 +4896,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "لَا تَجْـَٔرُوا۟ ٱلْيَوْمَ ۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ",
     "textSimple": "لا تجـٔروا ٱليوم  إنكم منا لا تنصرون",
     "transliteration": "lā tajarū l-yawma innakum minnā lā tunṣarūna",
-    "translation": "",
+    "translation": "Do not cry out today. Indeed, by Us you will not be helped.",
     "words": [
       {
         "id": "al-mu-minun-65-1",
@@ -4884,7 +4948,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne gémissez point aujourd’hui, car vous n’aurez contre Nous aucun secours."
   },
   {
     "id": "al-mu-minun-66",
@@ -4893,7 +4958,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ كَانَتْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ تَنكِصُونَ",
     "textSimple": "قد كانت ءايـتى تتلى عليكم فكنتم علىٓ أعقـبكم تنكصون",
     "transliteration": "qad kānat āyātī tut'lā ʿalaykum fakuntum ʿalā aʿqābikum tankiṣūna",
-    "translation": "",
+    "translation": "My verses had already been recited to you, but you were turning back on your heels.",
     "words": [
       {
         "id": "al-mu-minun-66-1",
@@ -4959,7 +5024,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Mes versets vous étaient récités, vous tourniez les talons,"
   },
   {
     "id": "al-mu-minun-67",
@@ -4968,7 +5034,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "مُسْتَكْبِرِينَ بِهِۦ سَـٰمِرًا تَهْجُرُونَ",
     "textSimple": "مستكبرين به سـمرا تهجرون",
     "transliteration": "mus'takbirīna bihi sāmiran tahjurūna",
-    "translation": "",
+    "translation": "In arrogance regarding it, conversing by night, speaking evil.",
     "words": [
       {
         "id": "al-mu-minun-67-1",
@@ -4999,7 +5065,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "fiers (de la Kaâba), autour de laquelle, au cours de vos veillées, vous reniiez la foi. »"
   },
   {
     "id": "al-mu-minun-68",
@@ -5008,7 +5075,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَمْ يَدَّبَّرُوا۟ ٱلْقَوْلَ أَمْ جَآءَهُم مَّا لَمْ يَأْتِ ءَابَآءَهُمُ ٱلْأَوَّلِينَ",
     "textSimple": "أفلم يدبروا ٱلقول أم جآءهم ما لم يأت ءابآءهم ٱلأولين",
     "transliteration": "afalam yaddabbarū l-qawla am jāahum mā lam yati ābāahumu l-awalīna",
-    "translation": "",
+    "translation": "Then have they not reflected over the word [i.e., the Qur’ān], or has there come to them that which had not come to their forefathers?",
     "words": [
       {
         "id": "al-mu-minun-68-1",
@@ -5081,7 +5148,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas médité la parole (d’Allah) ? Ou leur est-il venu ce qui n’était jamais venu à leurs premiers ancêtres ?"
   },
   {
     "id": "al-mu-minun-69",
@@ -5090,7 +5158,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَمْ يَعْرِفُوا۟ رَسُولَهُمْ فَهُمْ لَهُۥ مُنكِرُونَ",
     "textSimple": "أم لم يعرفوا رسولهم فهم له منكرون",
     "transliteration": "am lam yaʿrifū rasūlahum fahum lahu munkirūna",
-    "translation": "",
+    "translation": "Or did they not know their Messenger, so they are toward him disacknowledging?",
     "words": [
       {
         "id": "al-mu-minun-69-1",
@@ -5142,7 +5210,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors n’ont-ils pas reconnu leur Messager et donc ils le renient ?"
   },
   {
     "id": "al-mu-minun-70",
@@ -5151,7 +5220,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ بِهِۦ جِنَّةٌۢ ۚ بَلْ جَآءَهُم بِٱلْحَقِّ وَأَكْثَرُهُمْ لِلْحَقِّ كَـٰرِهُونَ",
     "textSimple": "أم يقولون به جنة  بل جآءهم بٱلحق وأكثرهم للحق كـرهون",
     "transliteration": "am yaqūlūna bihi jinnatun bal jāahum bil-ḥaqi wa-aktharuhum lil'ḥaqqi kārihūna",
-    "translation": "",
+    "translation": "Or do they say, \"In him is madness\"? Rather, he brought them the truth, but most of them, to the truth, are averse.",
     "words": [
       {
         "id": "al-mu-minun-70-1",
@@ -5224,7 +5293,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou bien prétendent-ils qu’il est possédé par les démons ? Or il est venu vers eux muni de la vérité. Mais la plupart d’entre eux ont en horreur la vérité."
   },
   {
     "id": "al-mu-minun-71",
@@ -5233,7 +5303,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوِ ٱتَّبَعَ ٱلْحَقُّ أَهْوَآءَهُمْ لَفَسَدَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ وَمَن فِيهِنَّ ۚ بَلْ أَتَيْنَـٰهُم بِذِكْرِهِمْ فَهُمْ عَن ذِكْرِهِم مُّعْرِضُونَ",
     "textSimple": "ولو ٱتبع ٱلحق أهوآءهم لفسدت ٱلسمـوت وٱلأرض ومن فيهن  بل أتينـهم بذكرهم فهم عن ذكرهم معرضون",
     "transliteration": "walawi ittabaʿa l-ḥaqu ahwāahum lafasadati l-samāwātu wal-arḍu waman fīhinna bal ataynāhum bidhik'rihim fahum ʿan dhik'rihim muʿ'riḍūna",
-    "translation": "",
+    "translation": "But if the Truth [i.e., Allāh] had followed their inclinations, the heavens and the earth and whoever is in them would have been ruined. Rather, We have brought them their message, but they, from their message, are turning away.",
     "words": [
       {
         "id": "al-mu-minun-71-1",
@@ -5348,7 +5418,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si la vérité correspondait à leurs passions, les cieux, la terre et tout ce qui y est se corrompraient. Nous leur avons apporté plutôt leur Rappel mais à leur Rappel ils restent indifférents."
   },
   {
     "id": "al-mu-minun-72",
@@ -5357,7 +5428,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تَسْـَٔلُهُمْ خَرْجًا فَخَرَاجُ رَبِّكَ خَيْرٌ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ",
     "textSimple": "أم تسـٔلهم خرجا فخراج ربك خير  وهو خير ٱلرزقين",
     "transliteration": "am tasaluhum kharjan fakharāju rabbika khayrun wahuwa khayru l-rāziqīna",
-    "translation": "",
+    "translation": "Or do you, [O Muḥammad], ask them for payment? But the reward of your Lord is best, and He is the best of providers.",
     "words": [
       {
         "id": "al-mu-minun-72-1",
@@ -5423,7 +5494,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors leur réclamerais-tu un tribut ? Mais le tribut de ton Seigneur est bien meilleur. Car c’est Lui, le meilleur Dispensateur."
   },
   {
     "id": "al-mu-minun-73",
@@ -5432,7 +5504,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "وإنك لتدعوهم إلى صرط مستقيم",
     "transliteration": "wa-innaka latadʿūhum ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "And indeed, you invite them to a straight path.",
     "words": [
       {
         "id": "al-mu-minun-73-1",
@@ -5470,7 +5542,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu les appelles certes vers une voie droite."
   },
   {
     "id": "al-mu-minun-74",
@@ -5479,7 +5552,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَـٰكِبُونَ",
     "textSimple": "وإن ٱلذين لا يؤمنون بٱلـٔاخرة عن ٱلصرط لنـكبون",
     "transliteration": "wa-inna alladhīna lā yu'minūna bil-ākhirati ʿani l-ṣirāṭi lanākibūna",
-    "translation": "",
+    "translation": "But indeed, those who do not believe in the Hereafter are deviating from the path.",
     "words": [
       {
         "id": "al-mu-minun-74-1",
@@ -5538,7 +5611,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ceux qui ne croient pas à l’autre monde, ne font que s’éloigner de la voie."
   },
   {
     "id": "al-mu-minun-75",
@@ -5547,7 +5621,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَوْ رَحِمْنَـٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ",
     "textSimple": " ولو رحمنـهم وكشفنا ما بهم من ضر للجوا فى طغيـنهم يعمهون",
     "transliteration": "walaw raḥim'nāhum wakashafnā mā bihim min ḍurrin lalajjū fī ṭugh'yānihim yaʿmahūna",
-    "translation": "",
+    "translation": "And even if We gave them mercy and removed what was upon them of affliction, they would persist in their transgression, wandering blindly.",
     "words": [
       {
         "id": "al-mu-minun-75-1",
@@ -5627,7 +5701,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous les touchions de Notre miséricorde et que Nous les débarrassions du mal qui est en eux, ils n’en continueraient pas moins à patauger aveuglément dans leur transgression."
   },
   {
     "id": "al-mu-minun-76",
@@ -5636,7 +5711,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَخَذْنَـٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ",
     "textSimple": "ولقد أخذنـهم بٱلعذاب فما ٱستكانوا لربهم وما يتضرعون",
     "transliteration": "walaqad akhadhnāhum bil-ʿadhābi famā is'takānū lirabbihim wamā yataḍarraʿūna",
-    "translation": "",
+    "translation": "And We had gripped them with suffering [as a warning], but they did not yield to their Lord, nor did they humbly supplicate, [and will continue thus]",
     "words": [
       {
         "id": "al-mu-minun-76-1",
@@ -5695,7 +5770,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les avons déjà châtiés par le supplice, mais ils n’ont ni humblement craint leur Seigneur ni ne L’ont supplié."
   },
   {
     "id": "al-mu-minun-77",
@@ -5704,7 +5780,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا فَتَحْنَا عَلَيْهِم بَابًا ذَا عَذَابٍ شَدِيدٍ إِذَا هُمْ فِيهِ مُبْلِسُونَ",
     "textSimple": "حتىٓ إذا فتحنا عليهم بابا ذا عذاب شديد إذا هم فيه مبلسون",
     "transliteration": "ḥattā idhā fataḥnā ʿalayhim bāban dhā ʿadhābin shadīdin idhā hum fīhi mub'lisūna",
-    "translation": "",
+    "translation": "Until when We have opened before them a door of severe punishment, immediately they will be therein in despair.",
     "words": [
       {
         "id": "al-mu-minun-77-1",
@@ -5791,7 +5867,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Cela), jusqu’à ce que Nous ouvrions sur eux une porte (donnant sur) un terrible supplice, et les voilà plongés dans un profond désarroi."
   },
   {
     "id": "al-mu-minun-78",
@@ -5800,7 +5877,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِىٓ أَنشَأَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
     "textSimple": "وهو ٱلذىٓ أنشأ لكم ٱلسمع وٱلأبصـر وٱلأفـٔدة  قليلا ما تشكرون",
     "transliteration": "wahuwa alladhī ansha-a lakumu l-samʿa wal-abṣāra wal-afidata qalīlan mā tashkurūna",
-    "translation": "",
+    "translation": "And it is He who produced for you hearing and vision and hearts [i.e., intellect]; little are you grateful.",
     "words": [
       {
         "id": "al-mu-minun-78-1",
@@ -5873,7 +5950,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a créé pour vous l’ouïe, la vue et la raison. Or vous êtes bien peu reconnaissants."
   },
   {
     "id": "al-mu-minun-79",
@@ -5882,7 +5960,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
     "textSimple": "وهو ٱلذى ذرأكم فى ٱلأرض وإليه تحشرون",
     "transliteration": "wahuwa alladhī dhara-akum fī l-arḍi wa-ilayhi tuḥ'sharūna",
-    "translation": "",
+    "translation": "And it is He who has multiplied you throughout the earth, and to Him you will be gathered.",
     "words": [
       {
         "id": "al-mu-minun-79-1",
@@ -5934,7 +6012,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui vous a disséminés sur terre et (c’est Lui) vers Qui vous serez ramenés en foule."
   },
   {
     "id": "al-mu-minun-80",
@@ -5943,7 +6022,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ وَلَهُ ٱخْتِلَـٰفُ ٱلَّيْلِ وَٱلنَّهَارِ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": "وهو ٱلذى يحى ويميت وله ٱختلـف ٱليل وٱلنهار  أفلا تعقلون",
     "transliteration": "wahuwa alladhī yuḥ'yī wayumītu walahu ikh'tilāfu al-layli wal-nahāri afalā taʿqilūna",
-    "translation": "",
+    "translation": "And it is He who gives life and causes death, and His is the alternation of the night and the day. Then will you not reason?",
     "words": [
       {
         "id": "al-mu-minun-80-1",
@@ -6016,7 +6095,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui fait vivre et fait mourir ; et (c’est Lui) Dont relève l’alternance de la nuit et du jour. N’entendez-vous donc pas raison ?"
   },
   {
     "id": "al-mu-minun-81",
@@ -6025,7 +6105,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ قَالُوا۟ مِثْلَ مَا قَالَ ٱلْأَوَّلُونَ",
     "textSimple": "بل قالوا مثل ما قال ٱلأولون",
     "transliteration": "bal qālū mith'la mā qāla l-awalūna",
-    "translation": "",
+    "translation": "Rather, they say like what the former peoples said.",
     "words": [
       {
         "id": "al-mu-minun-81-1",
@@ -6070,7 +6150,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or ils disent ce que disaient les anciens."
   },
   {
     "id": "al-mu-minun-82",
@@ -6079,7 +6160,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
     "textSimple": "قالوٓا أءذا متنا وكنا ترابا وعظـما أءنا لمبعوثون",
     "transliteration": "qālū a-idhā mit'nā wakunnā turāban waʿiẓāman a-innā lamabʿūthūna",
-    "translation": "",
+    "translation": "They said, \"When we have died and become dust and bones, are we indeed to be resurrected?",
     "words": [
       {
         "id": "al-mu-minun-82-1",
@@ -6138,7 +6219,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Une fois que nous serons morts, réduits en poussière et ossements, s’étonnent-ils, serons-nous (bel et bien) ressuscités ?"
   },
   {
     "id": "al-mu-minun-83",
@@ -6147,7 +6229,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ وُعِدْنَا نَحْنُ وَءَابَآؤُنَا هَـٰذَا مِن قَبْلُ إِنْ هَـٰذَآ إِلَّآ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
     "textSimple": "لقد وعدنا نحن وءابآؤنا هـذا من قبل إن هـذآ إلآ أسـطير ٱلأولين",
     "transliteration": "laqad wuʿid'nā naḥnu waābāunā hādhā min qablu in hādhā illā asāṭīru l-awalīna",
-    "translation": "",
+    "translation": "We have been promised this, we and our forefathers, before; this is not but legends of the former peoples.\"",
     "words": [
       {
         "id": "al-mu-minun-83-1",
@@ -6234,7 +6316,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pareille promesse nous a déjà été faite, à nous comme à nos ancêtres. Ce ne sont, en vérité, que d’anciennes légendes ! »"
   },
   {
     "id": "al-mu-minun-84",
@@ -6243,7 +6326,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قُل لِّمَنِ ٱلْأَرْضُ وَمَن فِيهَآ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "قل لمن ٱلأرض ومن فيهآ إن كنتم تعلمون",
     "transliteration": "qul limani l-arḍu waman fīhā in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"To whom belongs the earth and whoever is in it, if you should know?\"",
     "words": [
       {
         "id": "al-mu-minun-84-1",
@@ -6302,7 +6385,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « À Qui appartiennent la terre et ceux qui s’y trouvent, si vous le savez ? »"
   },
   {
     "id": "al-mu-minun-85",
@@ -6311,7 +6395,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَذَكَّرُونَ",
     "textSimple": "سيقولون لله  قل أفلا تذكرون",
     "transliteration": "sayaqūlūna lillahi qul afalā tadhakkarūna",
-    "translation": "",
+    "translation": "They will say, \"To Allāh.\" Say, \"Then will you not remember?\"",
     "words": [
       {
         "id": "al-mu-minun-85-1",
@@ -6349,7 +6433,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils répondront : « À Allah. » Dis-leur : « Pourquoi alors ne pas vous en souvenir ? »"
   },
   {
     "id": "al-mu-minun-86",
@@ -6358,7 +6443,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن رَّبُّ ٱلسَّمَـٰوَٰتِ ٱلسَّبْعِ وَرَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
     "textSimple": "قل من رب ٱلسمـوت ٱلسبع ورب ٱلعرش ٱلعظيم",
     "transliteration": "qul man rabbu l-samāwāti l-sabʿi warabbu l-ʿarshi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "Say, \"Who is Lord of the seven heavens and Lord of the Great Throne?\"",
     "words": [
       {
         "id": "al-mu-minun-86-1",
@@ -6417,7 +6502,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande-leur encore : « Qui est le Seigneur des sept cieux et le Seigneur du Trône sublime ? »"
   },
   {
     "id": "al-mu-minun-87",
@@ -6426,7 +6512,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَتَّقُونَ",
     "textSimple": "سيقولون لله  قل أفلا تتقون",
     "transliteration": "sayaqūlūna lillahi qul afalā tattaqūna",
-    "translation": "",
+    "translation": "They will say, \"[They belong] to Allāh.\" Say, \"Then will you not fear Him?\"",
     "words": [
       {
         "id": "al-mu-minun-87-1",
@@ -6464,7 +6550,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils répondront : « Allah. » Dis-leur : « Ne (Le) craindrez-vous donc pas ? »"
   },
   {
     "id": "al-mu-minun-88",
@@ -6473,7 +6560,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَهُوَ يُجِيرُ وَلَا يُجَارُ عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "قل من بيده ملكوت كل شىء وهو يجير ولا يجار عليه إن كنتم تعلمون",
     "transliteration": "qul man biyadihi malakūtu kulli shayin wahuwa yujīru walā yujāru ʿalayhi in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "Say, \"In whose hand is the realm of all things - and He protects while none can protect against Him - if you should know?\"",
     "words": [
       {
         "id": "al-mu-minun-88-1",
@@ -6574,7 +6661,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis: « Dans la main de Qui se trouve le pouvoir absolu sur Toute chose ? Qui donc est Celui Qui protège et Celui contre Qui nul ne peut être protégé ? (Répondez donc) si vous le savez ! »"
   },
   {
     "id": "al-mu-minun-89",
@@ -6583,7 +6671,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "سَيَقُولُونَ لِلَّهِ ۚ قُلْ فَأَنَّىٰ تُسْحَرُونَ",
     "textSimple": "سيقولون لله  قل فأنى تسحرون",
     "transliteration": "sayaqūlūna lillahi qul fa-annā tus'ḥarūna",
-    "translation": "",
+    "translation": "They will say, \"[All belongs] to Allāh.\" Say, \"Then how are you deluded?\"",
     "words": [
       {
         "id": "al-mu-minun-89-1",
@@ -6621,7 +6709,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront encore : « Allah. » Dis-leur : « Pourquoi alors vous laissez-vous ensorceler ? »"
   },
   {
     "id": "al-mu-minun-90",
@@ -6630,7 +6719,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ أَتَيْنَـٰهُم بِٱلْحَقِّ وَإِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": "بل أتينـهم بٱلحق وإنهم لكـذبون",
     "transliteration": "bal ataynāhum bil-ḥaqi wa-innahum lakādhibūna",
-    "translation": "",
+    "translation": "Rather, We have brought them the truth, and indeed they are liars.",
     "words": [
       {
         "id": "al-mu-minun-90-1",
@@ -6668,7 +6757,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons pourtant apporté la vérité et eux ne sont que des menteurs."
   },
   {
     "id": "al-mu-minun-91",
@@ -6677,7 +6767,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَـٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَـٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
     "textSimple": "ما ٱتخذ ٱلله من ولد وما كان معه من إلـه  إذا لذهب كل إلـه بما خلق ولعلا بعضهم على بعض  سبحـن ٱلله عما يصفون",
     "transliteration": "mā ittakhadha l-lahu min waladin wamā kāna maʿahu min ilāhin idhan ladhahaba kullu ilāhin bimā khalaqa walaʿalā baʿḍuhum ʿalā baʿḍin sub'ḥāna l-lahi ʿammā yaṣifūna",
-    "translation": "",
+    "translation": "Allāh has not taken any son, nor has there ever been with Him any deity. [If there had been], then each deity would have taken what it created, and some of them would have [sought to] overcome others. Exalted is Allāh above what they describe [concerning Him].",
     "words": [
       {
         "id": "al-mu-minun-91-1",
@@ -6848,7 +6938,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne S’est jamais donné d’enfant et Il n’est point d’autre divinité avec Lui. Ou alors chaque divinité s’en serait allée avec sa création et les unes domineraient les autres. Gloire soit rendue à Allah Qui, Lui, est bien au-dessus de tout ce qu’ils décrivent !"
   },
   {
     "id": "al-mu-minun-92",
@@ -6857,7 +6948,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
     "textSimple": "عـلم ٱلغيب وٱلشهـدة فتعـلى عما يشركون",
     "transliteration": "ʿālimi l-ghaybi wal-shahādati fataʿālā ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "[He is] Knower of the unseen and the witnessed, so high is He above what they associate [with Him].",
     "words": [
       {
         "id": "al-mu-minun-92-1",
@@ -6902,7 +6993,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Connaît aussi bien les choses insondables que les choses observables, et Il est Supérieur à tout ce qu’ils Lui associent."
   },
   {
     "id": "al-mu-minun-93",
@@ -6911,7 +7003,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قُل رَّبِّ إِمَّا تُرِيَنِّى مَا يُوعَدُونَ",
     "textSimple": "قل رب إما ترينى ما يوعدون",
     "transliteration": "qul rabbi immā turiyannī mā yūʿadūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"My Lord, if You should show me that which they are promised,",
     "words": [
       {
         "id": "al-mu-minun-93-1",
@@ -6956,7 +7048,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Seigneur, si Tu dois me montrer ce qui leur est promis,"
   },
   {
     "id": "al-mu-minun-94",
@@ -6965,7 +7058,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ فَلَا تَجْعَلْنِى فِى ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "رب فلا تجعلنى فى ٱلقوم ٱلظـلمين",
     "transliteration": "rabbi falā tajʿalnī fī l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "My Lord, then do not place me among the wrongdoing people.\"",
     "words": [
       {
         "id": "al-mu-minun-94-1",
@@ -7010,7 +7103,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "veuille ne pas me mettre, Seigneur, avec les gens injustes ! »"
   },
   {
     "id": "al-mu-minun-95",
@@ -7019,7 +7113,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا عَلَىٰٓ أَن نُّرِيَكَ مَا نَعِدُهُمْ لَقَـٰدِرُونَ",
     "textSimple": "وإنا علىٓ أن نريك ما نعدهم لقـدرون",
     "transliteration": "wa-innā ʿalā an nuriyaka mā naʿiduhum laqādirūna",
-    "translation": "",
+    "translation": "And indeed, We are Able to show you what We have promised them.",
     "words": [
       {
         "id": "al-mu-minun-95-1",
@@ -7071,7 +7165,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De te faire voir ce que Nous leur avons promis, Nous sommes parfaitement Capable."
   },
   {
     "id": "al-mu-minun-96",
@@ -7080,7 +7175,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ",
     "textSimple": "ٱدفع بٱلتى هى أحسن ٱلسيئة  نحن أعلم بما يصفون",
     "transliteration": "id'faʿ bi-allatī hiya aḥsanu l-sayi-ata naḥnu aʿlamu bimā yaṣifūna",
-    "translation": "",
+    "translation": "Repel, by [means of] what is best, [their] evil. We are most knowing of what they describe.",
     "words": [
       {
         "id": "al-mu-minun-96-1",
@@ -7146,7 +7241,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Repousse donc l’action mauvaise par celle qui est meilleure, Nous Savons le mieux ce qu’ils décrivent."
   },
   {
     "id": "al-mu-minun-97",
@@ -7155,7 +7251,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَقُل رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ",
     "textSimple": "وقل رب أعوذ بك من همزت ٱلشيـطين",
     "transliteration": "waqul rabbi aʿūdhu bika min hamazāti l-shayāṭīni",
-    "translation": "",
+    "translation": "And say, \"My Lord, I seek refuge in You from the incitements of the devils,",
     "words": [
       {
         "id": "al-mu-minun-97-1",
@@ -7207,7 +7303,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et dis : « Seigneur, je cherche refuge auprès de Toi contre les suggestions des démons."
   },
   {
     "id": "al-mu-minun-98",
@@ -7216,7 +7313,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
     "textSimple": "وأعوذ بك رب أن يحضرون",
     "transliteration": "wa-aʿūdhu bika rabbi an yaḥḍurūni",
-    "translation": "",
+    "translation": "And I seek refuge in You, my Lord, lest they be present with me.\"",
     "words": [
       {
         "id": "al-mu-minun-98-1",
@@ -7254,7 +7351,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et je cherche refuge auprès de Toi, Seigneur, contre leur présence ! »"
   },
   {
     "id": "al-mu-minun-99",
@@ -7263,7 +7361,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ رَبِّ ٱرْجِعُونِ",
     "textSimple": "حتىٓ إذا جآء أحدهم ٱلموت قال رب ٱرجعون",
     "transliteration": "ḥattā idhā jāa aḥadahumu l-mawtu qāla rabbi ir'jiʿūni",
-    "translation": "",
+    "translation": "[For such is the state of the disbelievers] until, when death comes to one of them, he says, \"My Lord, send me back",
     "words": [
       {
         "id": "al-mu-minun-99-1",
@@ -7322,7 +7420,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque la mort vient à l’un d’eux, il dit : « Seigneur, renvoie-moi sur terre !"
   },
   {
     "id": "al-mu-minun-100",
@@ -7331,7 +7430,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "لَعَلِّىٓ أَعْمَلُ صَـٰلِحًا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ",
     "textSimple": "لعلىٓ أعمل صـلحا فيما تركت  كلآ  إنها كلمة هو قآئلها  ومن ورآئهم برزخ إلى يوم يبعثون",
     "transliteration": "laʿallī aʿmalu ṣāliḥan fīmā taraktu kallā innahā kalimatun huwa qāiluhā wamin warāihim barzakhun ilā yawmi yub'ʿathūna",
-    "translation": "",
+    "translation": "That I might do righteousness in that which I left behind.\" No! It is only a word he is saying; and behind them is a barrier until the Day they are resurrected.",
     "words": [
       {
         "id": "al-mu-minun-100-1",
@@ -7446,7 +7545,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Peut-être alors pourrais-je y faire le bien que je n’ai point fait. » Non, ce ne sont là que des mots que lui-même dit ; car devant eux se dresse une barrière jusqu’au jour où ils seront ressuscités."
   },
   {
     "id": "al-mu-minun-101",
@@ -7455,7 +7555,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ",
     "textSimple": "فإذا نفخ فى ٱلصور فلآ أنساب بينهم يومئذ ولا يتسآءلون",
     "transliteration": "fa-idhā nufikha fī l-ṣūri falā ansāba baynahum yawma-idhin walā yatasāalūna",
-    "translation": "",
+    "translation": "So when the Horn is blown, no relationship will there be among them that Day, nor will they ask about one another.",
     "words": [
       {
         "id": "al-mu-minun-101-1",
@@ -7528,7 +7628,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il sera soufflé dans le Cor, plus aucun lien de parenté ne prévaudra entre eux, ce jour-là, et nul ne s’enquerra du sort d’un autre."
   },
   {
     "id": "al-mu-minun-102",
@@ -7537,7 +7638,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "فمن ثقلت موزينه فأولـٓئك هم ٱلمفلحون",
     "transliteration": "faman thaqulat mawāzīnuhu fa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "And those whose scales are heavy [with good deeds] - it is they who are the successful.",
     "words": [
       {
         "id": "al-mu-minun-102-1",
@@ -7582,7 +7683,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux dont les œuvres pèseront lourd à la balance, ceux-là auront réussi."
   },
   {
     "id": "al-mu-minun-103",
@@ -7591,7 +7693,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَـٰلِدُونَ",
     "textSimple": "ومن خفت موزينه فأولـٓئك ٱلذين خسروٓا أنفسهم فى جهنم خـلدون",
     "transliteration": "waman khaffat mawāzīnuhu fa-ulāika alladhīna khasirū anfusahum fī jahannama khālidūna",
-    "translation": "",
+    "translation": "But those whose scales are light - those are the ones who have lost their souls, [being] in Hell, abiding eternally.",
     "words": [
       {
         "id": "al-mu-minun-103-1",
@@ -7664,7 +7766,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux dont les œuvres seront de peu de poids, ceux-là auront perdu leurs âmes. Dans la Géhenne, ils séjourneront à jamais."
   },
   {
     "id": "al-mu-minun-104",
@@ -7673,7 +7776,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَـٰلِحُونَ",
     "textSimple": "تلفح وجوههم ٱلنار وهم فيها كـلحون",
     "transliteration": "talfaḥu wujūhahumu l-nāru wahum fīhā kāliḥūna",
-    "translation": "",
+    "translation": "The Fire will sear their faces, and they therein will have taut smiles.",
     "words": [
       {
         "id": "al-mu-minun-104-1",
@@ -7718,7 +7821,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le feu fouettera leurs visages et ils en auront les lèvres crispées."
   },
   {
     "id": "al-mu-minun-105",
@@ -7727,7 +7831,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُم بِهَا تُكَذِّبُونَ",
     "textSimple": "ألم تكن ءايـتى تتلى عليكم فكنتم بها تكذبون",
     "transliteration": "alam takun āyātī tut'lā ʿalaykum fakuntum bihā tukadhibūna",
-    "translation": "",
+    "translation": "[It will be said], \"Were not My verses recited to you and you used to deny them?\"",
     "words": [
       {
         "id": "al-mu-minun-105-1",
@@ -7786,7 +7890,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mes versets ne vous étaient-ils pas récités, que pourtant vous osiez démentir ?"
   },
   {
     "id": "al-mu-minun-106",
@@ -7795,7 +7900,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا وَكُنَّا قَوْمًا ضَآلِّينَ",
     "textSimple": "قالوا ربنا غلبت علينا شقوتنا وكنا قوما ضآلين",
     "transliteration": "qālū rabbanā ghalabat ʿalaynā shiq'watunā wakunnā qawman ḍāllīna",
-    "translation": "",
+    "translation": "They will say, \"Our Lord, our wretchedness overcame us, and we were a people astray.",
     "words": [
       {
         "id": "al-mu-minun-106-1",
@@ -7854,7 +7959,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur ! diront-ils, notre infortune a pris le dessus sur nous et nous étions des gens égarés."
   },
   {
     "id": "al-mu-minun-107",
@@ -7863,7 +7969,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَآ أَخْرِجْنَا مِنْهَا فَإِنْ عُدْنَا فَإِنَّا ظَـٰلِمُونَ",
     "textSimple": "ربنآ أخرجنا منها فإن عدنا فإنا ظـلمون",
     "transliteration": "rabbanā akhrij'nā min'hā fa-in ʿud'nā fa-innā ẓālimūna",
-    "translation": "",
+    "translation": "Our Lord, remove us from it, and if we were to return [to evil], we would indeed be wrongdoers.\"",
     "words": [
       {
         "id": "al-mu-minun-107-1",
@@ -7915,7 +8021,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Fais-nous sortir de là. Et si nous récidivons, nous serons vraiment injustes. »"
   },
   {
     "id": "al-mu-minun-108",
@@ -7924,7 +8031,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱخْسَـُٔوا۟ فِيهَا وَلَا تُكَلِّمُونِ",
     "textSimple": "قال ٱخسـٔوا فيها ولا تكلمون",
     "transliteration": "qāla ikh'saū fīhā walā tukallimūni",
-    "translation": "",
+    "translation": "He will say, \"Remain despised therein and do not speak to Me.",
     "words": [
       {
         "id": "al-mu-minun-108-1",
@@ -7962,7 +8069,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Restez-y humiliés et ne Me parlez plus. »"
   },
   {
     "id": "al-mu-minun-109",
@@ -7971,7 +8079,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ كَانَ فَرِيقٌ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
     "textSimple": "إنه كان فريق من عبادى يقولون ربنآ ءامنا فٱغفر لنا وٱرحمنا وأنت خير ٱلرحمين",
     "transliteration": "innahu kāna farīqun min ʿibādī yaqūlūna rabbanā āmannā fa-igh'fir lanā wa-ir'ḥamnā wa-anta khayru l-rāḥimīna",
-    "translation": "",
+    "translation": "Indeed, there was a party of My servants who said, 'Our Lord, we have believed, so forgive us and have mercy upon us, and You are the best of the merciful.'",
     "words": [
       {
         "id": "al-mu-minun-109-1",
@@ -8072,7 +8180,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y avait, parmi Mes serviteurs, un groupe qui disait : « Seigneur, nous avons cru, pardonne-nous donc (nos péchés) et fais-nous miséricorde, car Tu es le Meilleur des miséricordieux. »"
   },
   {
     "id": "al-mu-minun-110",
@@ -8081,7 +8190,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ",
     "textSimple": "فٱتخذتموهم سخريا حتىٓ أنسوكم ذكرى وكنتم منهم تضحكون",
     "transliteration": "fa-ittakhadhtumūhum sikh'riyyan ḥattā ansawkum dhik'rī wakuntum min'hum taḍḥakūna",
-    "translation": "",
+    "translation": "But you took them in mockery to the point that they made you forget My remembrance, and you used to laugh at them.",
     "words": [
       {
         "id": "al-mu-minun-110-1",
@@ -8140,7 +8249,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais vous les avez tournés en dérision au point d’oublier de M’évoquer. Vous faisiez d’eux votre risée."
   },
   {
     "id": "al-mu-minun-111",
@@ -8149,7 +8259,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى جَزَيْتُهُمُ ٱلْيَوْمَ بِمَا صَبَرُوٓا۟ أَنَّهُمْ هُمُ ٱلْفَآئِزُونَ",
     "textSimple": "إنى جزيتهم ٱليوم بما صبروٓا أنهم هم ٱلفآئزون",
     "transliteration": "innī jazaytuhumu l-yawma bimā ṣabarū annahum humu l-fāizūna",
-    "translation": "",
+    "translation": "Indeed, I have rewarded them this Day for their patient endurance - that they are the attainers [of success].\"",
     "words": [
       {
         "id": "al-mu-minun-111-1",
@@ -8208,7 +8318,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aujourd’hui, Je les récompense pour leur patience et ce sont eux les vrais gagnants."
   },
   {
     "id": "al-mu-minun-112",
@@ -8217,7 +8328,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَـٰلَ كَمْ لَبِثْتُمْ فِى ٱلْأَرْضِ عَدَدَ سِنِينَ",
     "textSimple": "قـل كم لبثتم فى ٱلأرض عدد سنين",
     "transliteration": "qāla kam labith'tum fī l-arḍi ʿadada sinīna",
-    "translation": "",
+    "translation": "[Allāh] will say, \"How long did you remain on earth in number of years?\"",
     "words": [
       {
         "id": "al-mu-minun-112-1",
@@ -8269,7 +8380,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera dit : « Combien d’années êtes-vous restés sur terre ? »"
   },
   {
     "id": "al-mu-minun-113",
@@ -8278,7 +8390,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ فَسْـَٔلِ ٱلْعَآدِّينَ",
     "textSimple": "قالوا لبثنا يوما أو بعض يوم فسـٔل ٱلعآدين",
     "transliteration": "qālū labith'nā yawman aw baʿḍa yawmin fasali l-ʿādīna",
-    "translation": "",
+    "translation": "They will say, \"We remained a day or part of a day; ask those who enumerate.\"",
     "words": [
       {
         "id": "al-mu-minun-113-1",
@@ -8337,7 +8449,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils répondront : « Nous y sommes restés un jour, ou peut-être une partie d’un jour. Interroge donc ceux qui savent compter. »"
   },
   {
     "id": "al-mu-minun-114",
@@ -8346,7 +8459,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "قَـٰلَ إِن لَّبِثْتُمْ إِلَّا قَلِيلًا ۖ لَّوْ أَنَّكُمْ كُنتُمْ تَعْلَمُونَ",
     "textSimple": "قـل إن لبثتم إلا قليلا  لو أنكم كنتم تعلمون",
     "transliteration": "qāla in labith'tum illā qalīlan law annakum kuntum taʿlamūna",
-    "translation": "",
+    "translation": "He will say, \"You stayed not but a little - if only you had known.",
     "words": [
       {
         "id": "al-mu-minun-114-1",
@@ -8412,7 +8525,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) dira : « Vous n’y êtes restés en vérité que peu (de temps), si vous saviez !"
   },
   {
     "id": "al-mu-minun-115",
@@ -8421,7 +8535,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَـٰكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
     "textSimple": "أفحسبتم أنما خلقنـكم عبثا وأنكم إلينا لا ترجعون",
     "transliteration": "afaḥasib'tum annamā khalaqnākum ʿabathan wa-annakum ilaynā lā tur'jaʿūna",
-    "translation": "",
+    "translation": "Then did you think that We created you uselessly and that to Us you would not be returned?\"",
     "words": [
       {
         "id": "al-mu-minun-115-1",
@@ -8480,7 +8594,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pensiez-vous vraiment que Nous vous avons créés absurdement et que vers Nous vous ne seriez point ramenés ? »"
   },
   {
     "id": "al-mu-minun-116",
@@ -8489,7 +8604,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ",
     "textSimple": "فتعـلى ٱلله ٱلملك ٱلحق  لآ إلـه إلا هو رب ٱلعرش ٱلكريم",
     "transliteration": "fataʿālā l-lahu l-maliku l-ḥaqu lā ilāha illā huwa rabbu l-ʿarshi l-karīmi",
-    "translation": "",
+    "translation": "So exalted is Allāh, the Sovereign, the Truth; there is no deity except Him, Lord of the Noble Throne.",
     "words": [
       {
         "id": "al-mu-minun-116-1",
@@ -8569,7 +8684,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Exalté soit Allah, le vrai Roi ! Point d’autre divinité que Lui. C’est Lui le Seigneur du Trône sublime."
   },
   {
     "id": "al-mu-minun-117",
@@ -8578,7 +8694,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ لَا بُرْهَـٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْكَـٰفِرُونَ",
     "textSimple": "ومن يدع مع ٱلله إلـها ءاخر لا برهـن له به فإنما حسابه عند ربهٓ  إنه لا يفلح ٱلكـفرون",
     "transliteration": "waman yadʿu maʿa l-lahi ilāhan ākhara lā bur'hāna lahu bihi fa-innamā ḥisābuhu ʿinda rabbihi innahu lā yuf'liḥu l-kāfirūna",
-    "translation": "",
+    "translation": "And whoever invokes besides Allāh another deity for which he has no proof - then his account is only with his Lord. Indeed, the disbelievers will not succeed.",
     "words": [
       {
         "id": "al-mu-minun-117-1",
@@ -8707,7 +8823,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque invoque une autre divinité avec Allah sans avoir la preuve évidente (de son existence), en rendra compte devant son Seigneur. Nulle réussite pour les mécréants."
   },
   {
     "id": "al-mu-minun-118",
@@ -8716,7 +8833,7 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
     "textUthmani": "وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
     "textSimple": "وقل رب ٱغفر وٱرحم وأنت خير ٱلرحمين",
     "transliteration": "waqul rabbi igh'fir wa-ir'ḥam wa-anta khayru l-rāḥimīna",
-    "translation": "",
+    "translation": "And, [O Muḥammad], say, \"My Lord, forgive and have mercy, and You are the best of the merciful.\"",
     "words": [
       {
         "id": "al-mu-minun-118-1",
@@ -8768,7 +8885,8 @@ export const AL_MU_MINUN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Seigneur, pardonne et fais miséricorde : Tu es le Meilleur des miséricordieux. »"
   }
 ];
 

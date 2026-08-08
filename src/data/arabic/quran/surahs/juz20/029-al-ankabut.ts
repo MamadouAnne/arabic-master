@@ -11,7 +11,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": " الٓمٓ",
     "textSimple": " الٓمٓ",
     "transliteration": "alif-lam-meem",
-    "translation": "",
+    "translation": "Alif, Lām, Meem.",
     "words": [
       {
         "id": "al-ankabut-1-1",
@@ -21,7 +21,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Mîm."
   },
   {
     "id": "al-ankabut-2",
@@ -30,7 +31,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوٓا۟ أَن يَقُولُوٓا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
     "textSimple": "أحسب ٱلناس أن يتركوٓا أن يقولوٓا ءامنا وهم لا يفتنون",
     "transliteration": "aḥasiba l-nāsu an yut'rakū an yaqūlū āmannā wahum lā yuf'tanūna",
-    "translation": "",
+    "translation": "Do the people think that they will be left to say, \"We believe\" and they will not be tried?",
     "words": [
       {
         "id": "al-ankabut-2-1",
@@ -103,7 +104,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes pensent-ils que parce qu’ils disent : « Nous croyons !» ils seront laissés sans être mis à l’épreuve?"
   },
   {
     "id": "al-ankabut-3",
@@ -112,7 +114,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ فَتَنَّا ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَـٰذِبِينَ",
     "textSimple": "ولقد فتنا ٱلذين من قبلهم  فليعلمن ٱلله ٱلذين صدقوا وليعلمن ٱلكـذبين",
     "transliteration": "walaqad fatannā alladhīna min qablihim falayaʿlamanna l-lahu alladhīna ṣadaqū walayaʿlamanna l-kādhibīna",
-    "translation": "",
+    "translation": "But We have certainly tried those before them, and Allāh will surely make evident those who are truthful, and He will surely make evident the liars.",
     "words": [
       {
         "id": "al-ankabut-3-1",
@@ -192,7 +194,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons déjà mis à l’épreuve ceux qui les ont précédés. C’est ainsi qu’Allah connaît ceux qui disent vrai et ceux qui mentent."
   },
   {
     "id": "al-ankabut-4",
@@ -201,7 +204,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبَ ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ أَن يَسْبِقُونَا ۚ سَآءَ مَا يَحْكُمُونَ",
     "textSimple": "أم حسب ٱلذين يعملون ٱلسيـٔات أن يسبقونا  سآء ما يحكمون",
     "transliteration": "am ḥasiba alladhīna yaʿmalūna l-sayiāti an yasbiqūnā sāa mā yaḥkumūna",
-    "translation": "",
+    "translation": "Or do those who do evil deeds think they can outrun [i.e., escape] Us? Evil is what they judge.",
     "words": [
       {
         "id": "al-ankabut-4-1",
@@ -274,7 +277,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui commettent les œuvres impies s’imaginent donc pouvoir Nous distancer? Combien mauvais est leur jugement !"
   },
   {
     "id": "al-ankabut-5",
@@ -283,7 +287,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "مَن كَانَ يَرْجُوا۟ لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لَـَٔاتٍ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "من كان يرجوا لقآء ٱلله فإن أجل ٱلله لـٔات  وهو ٱلسميع ٱلعليم",
     "transliteration": "man kāna yarjū liqāa l-lahi fa-inna ajala l-lahi laātin wahuwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "Whoever should hope for the meeting with Allāh - indeed, the term [decreed by] Allāh is coming. And He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "al-ankabut-5-1",
@@ -370,7 +374,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui espère rencontrer Allah (doit savoir que) le terme fixé par Allah arrivera certainement. C’est Lui Qui Entend Tout et c’est Lui l’Omniscient."
   },
   {
     "id": "al-ankabut-6",
@@ -379,7 +384,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن جَـٰهَدَ فَإِنَّمَا يُجَـٰهِدُ لِنَفْسِهِۦٓ ۚ إِنَّ ٱللَّهَ لَغَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومن جـهد فإنما يجـهد لنفسهٓ  إن ٱلله لغنى عن ٱلعـلمين",
     "transliteration": "waman jāhada fa-innamā yujāhidu linafsihi inna l-laha laghaniyyun ʿani l-ʿālamīna",
-    "translation": "",
+    "translation": "And whoever strives only strives for [the benefit of] himself. Indeed, Allāh is Free from need of the worlds.",
     "words": [
       {
         "id": "al-ankabut-6-1",
@@ -452,7 +457,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui fait des efforts (pour accomplir les bonnes œuvres) ne le fait que pour lui-même, car Allah Se passe de Tout l’Univers."
   },
   {
     "id": "al-ankabut-7",
@@ -461,7 +467,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت لنكفرن عنهم سيـٔاتهم ولنجزينهم أحسن ٱلذى كانوا يعملون",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lanukaffiranna ʿanhum sayyiātihim walanajziyannahum aḥsana alladhī kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And those who believe and do righteous deeds - We will surely remove from them their misdeeds and will surely reward them according to the best of what they used to do.",
     "words": [
       {
         "id": "al-ankabut-7-1",
@@ -548,7 +554,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres, Nous rachèterons leurs mauvaises actions, et Nous les rétribuerons pour leurs plus belles œuvres."
   },
   {
     "id": "al-ankabut-8",
@@ -557,7 +564,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حُسْنًا ۖ وَإِن جَـٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَآ ۚ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "ووصينا ٱلإنسـن بولديه حسنا  وإن جـهداك لتشرك بى ما ليس لك به علم فلا تطعهمآ  إلى مرجعكم فأنبئكم بما كنتم تعملون",
     "transliteration": "wawaṣṣaynā l-insāna biwālidayhi ḥus'nan wa-in jāhadāka litush'rika bī mā laysa laka bihi ʿil'mun falā tuṭiʿ'humā ilayya marjiʿukum fa-unabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And We have enjoined upon man goodness to parents. But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them. To Me is your return, and I will inform you about what you used to do.",
     "words": [
       {
         "id": "al-ankabut-8-1",
@@ -707,7 +714,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons recommandé à l’homme d’être bienveillant envers ses parents : « Mais s’ils essaient de te contraindre à M’associer ce dont tu n’as nulle science, tu ne leur obéiras point. » C’est vers Moi que vous ferez tous retour, et Je vous informerai certes de ce que vous faisiez."
   },
   {
     "id": "al-ankabut-9",
@@ -716,7 +724,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُدْخِلَنَّهُمْ فِى ٱلصَّـٰلِحِينَ",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت لندخلنهم فى ٱلصـلحين",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lanud'khilannahum fī l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And those who believe and do righteous deeds - We will surely admit them among the righteous [into Paradise].",
     "words": [
       {
         "id": "al-ankabut-9-1",
@@ -768,7 +776,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres, Nous les ferons admettre parmi les gens vertueux."
   },
   {
     "id": "al-ankabut-10",
@@ -777,7 +786,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ فَإِذَآ أُوذِىَ فِى ٱللَّهِ جَعَلَ فِتْنَةَ ٱلنَّاسِ كَعَذَابِ ٱللَّهِ وَلَئِن جَآءَ نَصْرٌ مِّن رَّبِّكَ لَيَقُولُنَّ إِنَّا كُنَّا مَعَكُمْ ۚ أَوَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِمَا فِى صُدُورِ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومن ٱلناس من يقول ءامنا بٱلله فإذآ أوذى فى ٱلله جعل فتنة ٱلناس كعذاب ٱلله ولئن جآء نصر من ربك ليقولن إنا كنا معكم  أوليس ٱلله بأعلم بما فى صدور ٱلعـلمين",
     "transliteration": "wamina l-nāsi man yaqūlu āmannā bil-lahi fa-idhā ūdhiya fī l-lahi jaʿala fit'nata l-nāsi kaʿadhābi l-lahi wala-in jāa naṣrun min rabbika layaqūlunna innā kunnā maʿakum awalaysa l-lahu bi-aʿlama bimā fī ṣudūri l-ʿālamīna",
-    "translation": "",
+    "translation": "And of the people are some who say, \"We believe in Allāh,\" but when one [of them] is harmed for [the cause of] Allāh, he considers the trial [i.e., harm] of the people as [if it were] the punishment of Allāh. But if victory comes from your Lord, they say, \"Indeed, We were with you.\" Is not Allāh most knowing of what is within the breasts of the worlds [i.e., all creatures]?",
     "words": [
       {
         "id": "al-ankabut-10-1",
@@ -997,7 +1006,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est des hommes qui disent : « Nous croyons en Allah ! » Mais dès qu’ils ont à souffrir pour la cause d’Allah, ils tiennent cette épreuve (imposée par) les hommes pour un supplice (venu) d’Allah. Quand, en revanche, vient un secours de ton Seigneur, ils s’écrient : « Nous avons toujours été avec vous ! » Mais Allah ne Sait-il pas mieux (que personne) ce que recèlent les cœurs de tous les hommes ?"
   },
   {
     "id": "al-ankabut-11",
@@ -1006,7 +1016,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَلَيَعْلَمَنَّ ٱلْمُنَـٰفِقِينَ",
     "textSimple": "وليعلمن ٱلله ٱلذين ءامنوا وليعلمن ٱلمنـفقين",
     "transliteration": "walayaʿlamanna l-lahu alladhīna āmanū walayaʿlamanna l-munāfiqīna",
-    "translation": "",
+    "translation": "And Allāh will surely make evident those who believe, and He will surely make evident the hypocrites.",
     "words": [
       {
         "id": "al-ankabut-11-1",
@@ -1051,7 +1061,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah connaît certes les croyants, et reconnaît tout aussi bien les hypocrites."
   },
   {
     "id": "al-ankabut-12",
@@ -1060,7 +1071,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوا۟ ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَـٰيَـٰكُمْ وَمَا هُم بِحَـٰمِلِينَ مِنْ خَطَـٰيَـٰهُم مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": "وقال ٱلذين كفروا للذين ءامنوا ٱتبعوا سبيلنا ولنحمل خطـيـكم وما هم بحـملين من خطـيـهم من شىء  إنهم لكـذبون",
     "transliteration": "waqāla alladhīna kafarū lilladhīna āmanū ittabiʿū sabīlanā walnaḥmil khaṭāyākum wamā hum biḥāmilīna min khaṭāyāhum min shayin innahum lakādhibūna",
-    "translation": "",
+    "translation": "And those who disbelieve say to those who believe, \"Follow our way, and we will carry your sins.\" But they will not carry anything of their sins. Indeed, they are liars.",
     "words": [
       {
         "id": "al-ankabut-12-1",
@@ -1189,7 +1200,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent à ceux qui ont cru : « Suivez donc notre chemin et nous porterons vos péchés (à votre place). » Ils n’en porteront pourtant rien : ce ne sont que des menteurs !"
   },
   {
     "id": "al-ankabut-13",
@@ -1198,7 +1210,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ ۖ وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَـٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "وليحملن أثقالهم وأثقالا مع أثقالهم  وليسـٔلن يوم ٱلقيـمة عما كانوا يفترون",
     "transliteration": "walayaḥmilunna athqālahum wa-athqālan maʿa athqālihim walayus'alunna yawma l-qiyāmati ʿammā kānū yaftarūna",
-    "translation": "",
+    "translation": "But they will surely carry their [own] burdens and [other] burdens along with their burdens, and they will surely be questioned on the Day of Resurrection about what they used to invent.",
     "words": [
       {
         "id": "al-ankabut-13-1",
@@ -1278,7 +1290,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils porteront certes leurs lourdes charges, et d’autres charges encore avec leurs propres charges. Et ils devront répondre, au Jour de la Résurrection, des (mensonges) qu’ils inventaient."
   },
   {
     "id": "al-ankabut-14",
@@ -1287,7 +1300,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَـٰلِمُونَ",
     "textSimple": "ولقد أرسلنا نوحا إلى قومه فلبث فيهم ألف سنة إلا خمسين عاما فأخذهم ٱلطوفان وهم ظـلمون",
     "transliteration": "walaqad arsalnā nūḥan ilā qawmihi falabitha fīhim alfa sanatin illā khamsīna ʿāman fa-akhadhahumu l-ṭūfānu wahum ẓālimūna",
-    "translation": "",
+    "translation": "And We certainly sent Noah to his people, and he remained among them a thousand years minus fifty years, and the flood seized them while they were wrongdoers.",
     "words": [
       {
         "id": "al-ankabut-14-1",
@@ -1402,7 +1415,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes Noé vers son peuple. Il demeura parmi eux mille ans moins cinquante. Le Déluge les saisit quand ils étaient en pleine iniquité."
   },
   {
     "id": "al-ankabut-15",
@@ -1411,7 +1425,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنجَيْنَـٰهُ وَأَصْحَـٰبَ ٱلسَّفِينَةِ وَجَعَلْنَـٰهَآ ءَايَةً لِّلْعَـٰلَمِينَ",
     "textSimple": "فأنجينـه وأصحـب ٱلسفينة وجعلنـهآ ءاية للعـلمين",
     "transliteration": "fa-anjaynāhu wa-aṣḥāba l-safīnati wajaʿalnāhā āyatan lil'ʿālamīna",
-    "translation": "",
+    "translation": "But We saved him and the companions of the ship, and We made it a sign for the worlds.",
     "words": [
       {
         "id": "al-ankabut-15-1",
@@ -1456,7 +1470,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes avec ceux qui étaient avec lui à bord de l’Arche. Et Nous en fîmes un signe pour tout l’Univers."
   },
   {
     "id": "al-ankabut-16",
@@ -1465,7 +1480,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "وإبرهيم إذ قال لقومه ٱعبدوا ٱلله وٱتقوه  ذلكم خير لكم إن كنتم تعلمون",
     "transliteration": "wa-ib'rāhīma idh qāla liqawmihi uʿ'budū l-laha wa-ittaqūhu dhālikum khayrun lakum in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "And [We sent] Abraham, when he said to his people, \"Worship Allāh and fear Him. That is best for you, if you should know.",
     "words": [
       {
         "id": "al-ankabut-16-1",
@@ -1559,7 +1574,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (évoque) Abraham lorsqu’il dit à son peuple : « Adorez Allah, craignez-Le, cela vaut mieux pour vous, si vous saviez !"
   },
   {
     "id": "al-ankabut-17",
@@ -1568,7 +1584,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
     "textSimple": "إنما تعبدون من دون ٱلله أوثـنا وتخلقون إفكا  إن ٱلذين تعبدون من دون ٱلله لا يملكون لكم رزقا فٱبتغوا عند ٱلله ٱلرزق وٱعبدوه وٱشكروا لهٓ  إليه ترجعون",
     "transliteration": "innamā taʿbudūna min dūni l-lahi awthānan watakhluqūna if'kan inna alladhīna taʿbudūna min dūni l-lahi lā yamlikūna lakum riz'qan fa-ib'taghū ʿinda l-lahi l-riz'qa wa-uʿ'budūhu wa-ush'kurū lahu ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "You only worship, besides Allāh, idols, and you produce a falsehood. Indeed, those you worship besides Allāh do not possess for you [the power of] provision. So seek from Allāh provision and worship Him and be grateful to Him. To Him you will be returned.\"",
     "words": [
       {
         "id": "al-ankabut-17-1",
@@ -1760,7 +1776,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous n’adorez là, en dehors d’Allah, que des idoles ! Vous inventez des mensonges ! Mais ceux que vous adorez en dehors d’Allah ne peuvent vous assurer nulle nourriture ; recherchez plutôt votre subsistance auprès d’Allah. Adorez-Le, rendez-Lui grâces, c’est vers Lui que sera votre retour."
   },
   {
     "id": "al-ankabut-18",
@@ -1769,7 +1786,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن تُكَذِّبُوا۟ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
     "textSimple": "وإن تكذبوا فقد كذب أمم من قبلكم  وما على ٱلرسول إلا ٱلبلـغ ٱلمبين",
     "transliteration": "wa-in tukadhibū faqad kadhaba umamun min qablikum wamā ʿalā l-rasūli illā l-balāghu l-mubīnu",
-    "translation": "",
+    "translation": "And if you [people] deny [the message] - already nations before you have denied. And there is not upon the Messenger except [the duty of] clear notification.",
     "words": [
       {
         "id": "al-ankabut-18-1",
@@ -1863,7 +1880,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous osez démentir (cela), d’autres nations avant vous ont déjà osé le faire. Il n’appartient au Messager que de transmettre en toute clarté. »"
   },
   {
     "id": "al-ankabut-19",
@@ -1872,7 +1890,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَوْا۟ كَيْفَ يُبْدِئُ ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
     "textSimple": "أولم يروا كيف يبدئ ٱلله ٱلخلق ثم يعيدهٓ  إن ذلك على ٱلله يسير",
     "transliteration": "awalam yaraw kayfa yub'di-u l-lahu l-khalqa thumma yuʿīduhu inna dhālika ʿalā l-lahi yasīrun",
-    "translation": "",
+    "translation": "Have they not considered how Allāh begins creation and then repeats it? Indeed that, for Allāh, is easy.",
     "words": [
       {
         "id": "al-ankabut-19-1",
@@ -1966,7 +1984,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voient-ils donc pas comment Allah initie la création puis la recommence ? Cela est, pour Allah, chose vraiment aisée !"
   },
   {
     "id": "al-ankabut-20",
@@ -1975,7 +1994,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ ٱلْـَٔاخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "قل سيروا فى ٱلأرض فٱنظروا كيف بدأ ٱلخلق  ثم ٱلله ينشئ ٱلنشأة ٱلـٔاخرة  إن ٱلله على كل شىء قدير",
     "transliteration": "qul sīrū fī l-arḍi fa-unẓurū kayfa bada-a l-khalqa thumma l-lahu yunshi-u l-nashata l-ākhirata inna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Travel through the land and observe how He began creation. Then Allāh will produce the final creation [i.e., development]. Indeed Allāh, over all things, is competent.\"",
     "words": [
       {
         "id": "al-ankabut-20-1",
@@ -2111,7 +2130,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Parcourez la terre pour voir comment Il a initié la création puis comment Allah la fera renaître d’une dernière renaissance. Allah est de Toute chose Infiniment Capable. »"
   },
   {
     "id": "al-ankabut-21",
@@ -2120,7 +2140,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ",
     "textSimple": "يعذب من يشآء ويرحم من يشآء  وإليه تقلبون",
     "transliteration": "yuʿadhibu man yashāu wayarḥamu man yashāu wa-ilayhi tuq'labūna",
-    "translation": "",
+    "translation": "He punishes whom He wills and has mercy upon whom He wills, and to Him you will be returned.",
     "words": [
       {
         "id": "al-ankabut-21-1",
@@ -2179,7 +2199,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il soumet à Son supplice qui Il veut, et accueille dans Sa miséricorde qui Il veut. Et c’est vers Lui que vous serez ramenés."
   },
   {
     "id": "al-ankabut-22",
@@ -2188,7 +2209,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "ومآ أنتم بمعجزين فى ٱلأرض ولا فى ٱلسمآء  وما لكم من دون ٱلله من ولى ولا نصير",
     "transliteration": "wamā antum bimuʿ'jizīna fī l-arḍi walā fī l-samāi wamā lakum min dūni l-lahi min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "And you will not cause failure [to Allāh] upon the earth or in the heaven. And you have not other than Allāh any protector or any helper.",
     "words": [
       {
         "id": "al-ankabut-22-1",
@@ -2310,7 +2331,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous ne pourrez mettre au défi Sa puissance sur terre, pas plus que dans les cieux. Vous n’avez en dehors d’Allah ni allié ni soutien."
   },
   {
     "id": "al-ankabut-23",
@@ -2319,7 +2341,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَـٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى وَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "وٱلذين كفروا بـٔايـت ٱلله ولقآئهٓ أولـٓئك يئسوا من رحمتى وأولـٓئك لهم عذاب أليم",
     "transliteration": "wa-alladhīna kafarū biāyāti l-lahi waliqāihi ulāika ya-isū min raḥmatī wa-ulāika lahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And the ones who disbelieve in the signs of Allāh and the meeting with Him - those have despaired of My mercy, and they will have a painful punishment.",
     "words": [
       {
         "id": "al-ankabut-23-1",
@@ -2413,7 +2435,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru aux versets d’Allah et (ont nié) Sa rencontre, ceux-là désespèrent de Ma miséricorde, et ceux-là seront voués à un supplice très douloureux."
   },
   {
     "id": "al-ankabut-24",
@@ -2422,7 +2445,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "فما كان جواب قومهٓ إلآ أن قالوا ٱقتلوه أو حرقوه فأنجىه ٱلله من ٱلنار  إن فى ذلك لـٔايـت لقوم يؤمنون",
     "transliteration": "famā kāna jawāba qawmihi illā an qālū uq'tulūhu aw ḥarriqūhu fa-anjāhu l-lahu mina l-nāri inna fī dhālika laāyātin liqawmin yu'minūna",
-    "translation": "",
+    "translation": "And the answer of his [i.e., Abraham's] people was not but that they said, \"Kill him or burn him,\" but Allāh saved him from the fire. Indeed in that are signs for a people who believe.",
     "words": [
       {
         "id": "al-ankabut-24-1",
@@ -2565,7 +2588,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour toute réponse, son peuple eut ces mots : « Mettez-le à mort, ou brûlez-le ! » Alors, Allah le sauva du feu. Il y a certes là des Signes pour des gens qui ont la foi."
   },
   {
     "id": "al-ankabut-25",
@@ -2574,7 +2598,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ إِنَّمَا ٱتَّخَذْتُم مِّن دُونِ ٱللَّهِ أَوْثَـٰنًا مَّوَدَّةَ بَيْنِكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُ بَعْضُكُم بِبَعْضٍ وَيَلْعَنُ بَعْضُكُم بَعْضًا وَمَأْوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
     "textSimple": "وقال إنما ٱتخذتم من دون ٱلله أوثـنا مودة بينكم فى ٱلحيوة ٱلدنيا  ثم يوم ٱلقيـمة يكفر بعضكم ببعض ويلعن بعضكم بعضا ومأوىكم ٱلنار وما لكم من نـصرين",
     "transliteration": "waqāla innamā ittakhadhtum min dūni l-lahi awthānan mawaddata baynikum fī l-ḥayati l-dun'yā thumma yawma l-qiyāmati yakfuru baʿḍukum bibaʿḍin wayalʿanu baʿḍukum baʿḍan wamawākumu l-nāru wamā lakum min nāṣirīna",
-    "translation": "",
+    "translation": "And [Abraham] said, \"You have only taken, other than Allāh, idols as [a bond of] affection among you in worldly life. Then on the Day of Resurrection you will deny one another and curse one another, and your refuge will be the Fire, and you will not have any helpers.\"",
     "words": [
       {
         "id": "al-ankabut-25-1",
@@ -2766,7 +2790,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Vous n’avez pris (toutes ces) idoles en dehors d’Allah, dit (Abraham), que pour affermir les liens d’affection entre vous en ce bas monde. Mais au Jour de la Résurrection, les uns parmi vous méconnaîtront les autres, et vous vous maudirez mutuellement. Votre refuge sera le Feu et vous n’aurez pas d’alliés."
   },
   {
     "id": "al-ankabut-26",
@@ -2775,7 +2800,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَـَٔامَنَ لَهُۥ لُوطٌ ۘ وَقَالَ إِنِّى مُهَاجِرٌ إِلَىٰ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": " فـٔامن له لوط  وقال إنى مهاجر إلى ربىٓ  إنه هو ٱلعزيز ٱلحكيم",
     "transliteration": "faāmana lahu lūṭun waqāla innī muhājirun ilā rabbī innahu huwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "And Lot believed him. [Abraham] said, \"Indeed, I will emigrate to [the service of] my Lord. Indeed, He is the Exalted in Might, the Wise.\"",
     "words": [
       {
         "id": "al-ankabut-26-1",
@@ -2862,7 +2887,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Loth crut alors en lui et dit : « Je quitte (cette terre pour aller) vers mon Seigneur. C’est Lui le Tout -Puissant, le Sage. »"
   },
   {
     "id": "al-ankabut-27",
@@ -2871,7 +2897,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ وَجَعَلْنَا فِى ذُرِّيَّتِهِ ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ وَءَاتَيْنَـٰهُ أَجْرَهُۥ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "ووهبنا لهٓ إسحـق ويعقوب وجعلنا فى ذريته ٱلنبوة وٱلكتـب وءاتينـه أجره فى ٱلدنيا  وإنه فى ٱلـٔاخرة لمن ٱلصـلحين",
     "transliteration": "wawahabnā lahu is'ḥāqa wayaʿqūba wajaʿalnā fī dhurriyyatihi l-nubuwata wal-kitāba waātaynāhu ajrahu fī l-dun'yā wa-innahu fī l-ākhirati lamina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And We gave to him Isaac and Jacob and placed in his descendants prophethood and scripture. And We gave him his reward in this world, and indeed, he is in the Hereafter among the righteous.",
     "words": [
       {
         "id": "al-ankabut-27-1",
@@ -3000,7 +3026,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui fîmes don d’Isaac et de Jacob, et Nous établîmes dans sa progéniture la prophétie et le Livre. Nous lui donnâmes sa récompense en ce bas monde et, dans l’autre, il sera (admis) au nombre des vertueux."
   },
   {
     "id": "al-ankabut-28",
@@ -3009,7 +3036,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
     "textSimple": "ولوطا إذ قال لقومهٓ إنكم لتأتون ٱلفـحشة ما سبقكم بها من أحد من ٱلعـلمين",
     "transliteration": "walūṭan idh qāla liqawmihi innakum latatūna l-fāḥishata mā sabaqakum bihā min aḥadin mina l-ʿālamīna",
-    "translation": "",
+    "translation": "And [mention] Lot, when he said to his people, \"Indeed, you commit such immorality as no one has preceded you with from among the worlds.",
     "words": [
       {
         "id": "al-ankabut-28-1",
@@ -3110,7 +3137,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Loth disait à son peuple : « Vous vous adonnez à un vice que personne aux mondes n’a pratiqué avant vous !"
   },
   {
     "id": "al-ankabut-29",
@@ -3119,7 +3147,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ ۖ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "أئنكم لتأتون ٱلرجال وتقطعون ٱلسبيل وتأتون فى ناديكم ٱلمنكر  فما كان جواب قومهٓ إلآ أن قالوا ٱئتنا بعذاب ٱلله إن كنت من ٱلصـدقين",
     "transliteration": "a-innakum latatūna l-rijāla wataqṭaʿūna l-sabīla watatūna fī nādīkumu l-munkara famā kāna jawāba qawmihi illā an qālū i'tinā biʿadhābi l-lahi in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "Indeed, you approach men and obstruct the road and commit in your meetings [every] evil.\" And the answer of his people was not but that they said, \"Bring us the punishment of Allāh, if you should be of the truthful.\"",
     "words": [
       {
         "id": "al-ankabut-29-1",
@@ -3283,7 +3311,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Coucherez-vous donc avec les hommes ? Briganderez-vous sur les grands chemins ? Commettrez-vous les actes condamnables au cours de vos réunions ? » Pour toute réponse, son peuple eut ces mots : « Fais que s’abatte sur nous le supplice d’Allah si tu dis vrai ! »"
   },
   {
     "id": "al-ankabut-30",
@@ -3292,7 +3321,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ",
     "textSimple": "قال رب ٱنصرنى على ٱلقوم ٱلمفسدين",
     "transliteration": "qāla rabbi unṣur'nī ʿalā l-qawmi l-muf'sidīna",
-    "translation": "",
+    "translation": "He said, \"My Lord, support me against the corrupting people.\"",
     "words": [
       {
         "id": "al-ankabut-30-1",
@@ -3337,7 +3366,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit-il alors, fais-moi triompher du peuple corrompu. »"
   },
   {
     "id": "al-ankabut-31",
@@ -3346,7 +3376,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوٓا۟ إِنَّا مُهْلِكُوٓا۟ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ ۖ إِنَّ أَهْلَهَا كَانُوا۟ ظَـٰلِمِينَ",
     "textSimple": "ولما جآءت رسلنآ إبرهيم بٱلبشرى قالوٓا إنا مهلكوٓا أهل هـذه ٱلقرية  إن أهلها كانوا ظـلمين",
     "transliteration": "walammā jāat rusulunā ib'rāhīma bil-bush'rā qālū innā muh'likū ahli hādhihi l-qaryati inna ahlahā kānū ẓālimīna",
-    "translation": "",
+    "translation": "And when Our messengers [i.e., angels] came to Abraham with the good tidings, they said, \"Indeed, we will destroy the people of that [i.e., Lot's] city. Indeed, its people have been wrongdoers.\"",
     "words": [
       {
         "id": "al-ankabut-31-1",
@@ -3454,7 +3484,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Nos émissaires (les Anges) eurent apporté l’heureuse nouvelle à Abraham, ils lui dirent : « Nous allons faire périr les habitants de cette cité, car ils sont injustes. »"
   },
   {
     "id": "al-ankabut-32",
@@ -3463,7 +3494,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
     "textSimple": "قال إن فيها لوطا  قالوا نحن أعلم بمن فيها  لننجينه وأهلهٓ إلا ٱمرأته كانت من ٱلغـبرين",
     "transliteration": "qāla inna fīhā lūṭan qālū naḥnu aʿlamu biman fīhā lanunajjiyannahu wa-ahlahu illā im'ra-atahu kānat mina l-ghābirīna",
-    "translation": "",
+    "translation": "[Abraham] said, \"Indeed, within it is Lot.\" They said, \"We are more knowing of who is within it. We will surely save him and his family, except his wife. She is to be of those who remain behind.\"",
     "words": [
       {
         "id": "al-ankabut-32-1",
@@ -3578,7 +3609,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mais Loth aussi est dans (cette cité) ! » dit (Abraham). « Nous savons très bien qui s’y trouve, répondirent-ils. Nous le sauverons, lui et sa famille, à l’exception de sa femme qui sera parmi les disparus. »"
   },
   {
     "id": "al-ankabut-33",
@@ -3587,7 +3619,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
     "textSimple": "ولمآ أن جآءت رسلنا لوطا سىٓء بهم وضاق بهم ذرعا وقالوا لا تخف ولا تحزن  إنا منجوك وأهلك إلا ٱمرأتك كانت من ٱلغـبرين",
     "transliteration": "walammā an jāat rusulunā lūṭan sīa bihim waḍāqa bihim dharʿan waqālū lā takhaf walā taḥzan innā munajjūka wa-ahlaka illā im'ra-ataka kānat mina l-ghābirīna",
-    "translation": "",
+    "translation": "And when Our messengers [i.e., angels] came to Lot, he was distressed for them and felt for them great discomfort. They said, \"Fear not, nor grieve. Indeed, we will save you and your family, except your wife; she is to be of those who remain behind.",
     "words": [
       {
         "id": "al-ankabut-33-1",
@@ -3751,7 +3783,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nos émissaires vinrent à Loth, il s’affligea pour eux et fut gêné de leur présence. Ils lui dirent alors : « N’aie pas peur et ne sois pas triste, car nous te sauverons, toi et ta famille, mais nous en exclurons ta femme qui sera du nombre des disparus."
   },
   {
     "id": "al-ankabut-34",
@@ -3760,7 +3793,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا مُنزِلُونَ عَلَىٰٓ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ",
     "textSimple": "إنا منزلون علىٓ أهل هـذه ٱلقرية رجزا من ٱلسمآء بما كانوا يفسقون",
     "transliteration": "innā munzilūna ʿalā ahli hādhihi l-qaryati rij'zan mina l-samāi bimā kānū yafsuqūna",
-    "translation": "",
+    "translation": "Indeed, we will bring down on the people of this city punishment from the sky because they have been defiantly disobedient.\"",
     "words": [
       {
         "id": "al-ankabut-34-1",
@@ -3847,7 +3880,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous allons faire fondre du ciel un châtiment sur les habitants de cette cité, pour leur dépravation."
   },
   {
     "id": "al-ankabut-35",
@@ -3856,7 +3890,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةً لِّقَوْمٍ يَعْقِلُونَ",
     "textSimple": "ولقد تركنا منهآ ءاية بينة لقوم يعقلون",
     "transliteration": "walaqad taraknā min'hā āyatan bayyinatan liqawmin yaʿqilūna",
-    "translation": "",
+    "translation": "And We have certainly left of it a sign as clear evidence for a people who use reason.",
     "words": [
       {
         "id": "al-ankabut-35-1",
@@ -3908,7 +3942,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et des (vestiges) de cette cité, nous avons laissé des enseignements manifestes pour des gens qui savent y méditer. »"
   },
   {
     "id": "al-ankabut-36",
@@ -3917,7 +3952,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْـَٔاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
     "textSimple": "وإلى مدين أخاهم شعيبا فقال يـقوم ٱعبدوا ٱلله وٱرجوا ٱليوم ٱلـٔاخر ولا تعثوا فى ٱلأرض مفسدين",
     "transliteration": "wa-ilā madyana akhāhum shuʿayban faqāla yāqawmi uʿ'budū l-laha wa-ir'jū l-yawma l-ākhira walā taʿthaw fī l-arḍi muf'sidīna",
-    "translation": "",
+    "translation": "And to Madyan [We sent] their brother Shuʿayb, and he said, \"O my people, worship Allāh and expect the Last Day and do not commit abuse on the earth, spreading corruption.\"",
     "words": [
       {
         "id": "al-ankabut-36-1",
@@ -4032,7 +4067,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux (gens) de Madyan, Nous avons envoyé leur frère Chou ̒ayb : « Ô peuple mien, dit-il, adorez Allah, attendez le Jour Dernier et n’allez de par la terre semer la corruption. »"
   },
   {
     "id": "al-ankabut-37",
@@ -4041,7 +4077,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَـٰثِمِينَ",
     "textSimple": "فكذبوه فأخذتهم ٱلرجفة فأصبحوا فى دارهم جـثمين",
     "transliteration": "fakadhabūhu fa-akhadhathumu l-rajfatu fa-aṣbaḥū fī dārihim jāthimīna",
-    "translation": "",
+    "translation": "But they denied him, so the earthquake seized them, and they became within their home [corpses] fallen prone.",
     "words": [
       {
         "id": "al-ankabut-37-1",
@@ -4093,7 +4129,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or, ils l’accusèrent de mensonge, et le Tremblement (de terre) les saisit, les laissant, le lendemain, inertes dans leurs maisons."
   },
   {
     "id": "al-ankabut-38",
@@ -4102,7 +4139,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَـٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ أَعْمَـٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ",
     "textSimple": "وعادا وثمودا وقد تبين لكم من مسـكنهم  وزين لهم ٱلشيطـن أعمـلهم فصدهم عن ٱلسبيل وكانوا مستبصرين",
     "transliteration": "waʿādan wathamūdā waqad tabayyana lakum min masākinihim wazayyana lahumu l-shayṭānu aʿmālahum faṣaddahum ʿani l-sabīli wakānū mus'tabṣirīna",
-    "translation": "",
+    "translation": "And [We destroyed] ʿAad and Thamūd, and it has become clear to you from their [ruined] dwellings. And Satan had made pleasing to them their deeds and averted them from the path, and they were endowed with perception.",
     "words": [
       {
         "id": "al-ankabut-38-1",
@@ -4217,7 +4254,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les ‘Ad, et les Thamûd (subirent le même sort) ainsi que vous pouvez le voir clairement dans (les ruines) de leurs maisons : Satan embellissait leurs actes à leurs yeux et les détournait alors du (droit) chemin. Ils devaient pourtant être lucides."
   },
   {
     "id": "al-ankabut-39",
@@ -4226,7 +4264,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَـٰرُونَ وَفِرْعَوْنَ وَهَـٰمَـٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَـٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ وَمَا كَانُوا۟ سَـٰبِقِينَ",
     "textSimple": "وقـرون وفرعون وهـمـن  ولقد جآءهم موسى بٱلبينـت فٱستكبروا فى ٱلأرض وما كانوا سـبقين",
     "transliteration": "waqārūna wafir'ʿawna wahāmāna walaqad jāahum mūsā bil-bayināti fa-is'takbarū fī l-arḍi wamā kānū sābiqīna",
-    "translation": "",
+    "translation": "And [We destroyed] Qārūn and Pharaoh and Hāmān. And Moses had already come to them with clear evidences, and they were arrogant in the land, but they were not outrunners [of Our punishment].",
     "words": [
       {
         "id": "al-ankabut-39-1",
@@ -4320,7 +4358,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il en fut ainsi de) de Qârûn (Coré), Pharaon et Hâmân. Moïse leur apporta les preuves évidentes mais ils furent hautains et dédaigneux sur terre. Mais ils ne purent (Nous) distancer."
   },
   {
     "id": "al-ankabut-40",
@@ -4329,7 +4368,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا ۚ وَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
     "textSimple": "فكلا أخذنا بذنبه  فمنهم من أرسلنا عليه حاصبا ومنهم من أخذته ٱلصيحة ومنهم من خسفنا به ٱلأرض ومنهم من أغرقنا  وما كان ٱلله ليظلمهم ولـكن كانوٓا أنفسهم يظلمون",
     "transliteration": "fakullan akhadhnā bidhanbihi famin'hum man arsalnā ʿalayhi ḥāṣiban wamin'hum man akhadhathu l-ṣayḥatu wamin'hum man khasafnā bihi l-arḍa wamin'hum man aghraqnā wamā kāna l-lahu liyaẓlimahum walākin kānū anfusahum yaẓlimūna",
-    "translation": "",
+    "translation": "So each We seized for his sin; and among them were those upon whom We sent a storm of stones, and among them were those who were seized by the blast [from the sky], and among them were those whom We caused the earth to swallow, and among them were those whom We drowned. And Allāh would not have wronged them, but it was they who were wronging themselves.",
     "words": [
       {
         "id": "al-ankabut-40-1",
@@ -4528,7 +4567,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À chacun d’eux Nous fîmes payer son péché. Les uns furent emportés par l’Ouragan et les autres saisis par le Tremblement (de terre) ; il y eut ceux que Nous fîmes engloutir sous terre, et d’autres enfin que Nous noyâmes. Allah ne les aurait jamais lésés, ils s’étaient lésés eux-mêmes."
   },
   {
     "id": "al-ankabut-41",
@@ -4537,7 +4577,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "مَثَلُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ كَمَثَلِ ٱلْعَنكَبُوتِ ٱتَّخَذَتْ بَيْتًا ۖ وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ لَبَيْتُ ٱلْعَنكَبُوتِ ۖ لَوْ كَانُوا۟ يَعْلَمُونَ",
     "textSimple": "مثل ٱلذين ٱتخذوا من دون ٱلله أوليآء كمثل ٱلعنكبوت ٱتخذت بيتا  وإن أوهن ٱلبيوت لبيت ٱلعنكبوت  لو كانوا يعلمون",
     "transliteration": "mathalu alladhīna ittakhadhū min dūni l-lahi awliyāa kamathali l-ʿankabūti ittakhadhat baytan wa-inna awhana l-buyūti labaytu l-ʿankabūti law kānū yaʿlamūna",
-    "translation": "",
+    "translation": "The example of those who take allies other than Allāh is like that of the spider who takes [i.e., constructs] a home. And indeed, the weakest of homes is the home of the spider, if they only knew.",
     "words": [
       {
         "id": "al-ankabut-41-1",
@@ -4673,7 +4713,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont pris des protecteurs en dehors d’Allah sont telle l’araignée qui prend pour demeure (ce qu’elle tisse). Mais il n’est pas demeure plus précaire que celle de l’araignée ! Si seulement ils pouvaient savoir !"
   },
   {
     "id": "al-ankabut-42",
@@ -4682,7 +4723,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ يَعْلَمُ مَا يَدْعُونَ مِن دُونِهِۦ مِن شَىْءٍ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "إن ٱلله يعلم ما يدعون من دونه من شىء  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "inna l-laha yaʿlamu mā yadʿūna min dūnihi min shayin wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Indeed, Allāh knows whatever thing they call upon other than Him. And He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-ankabut-42-1",
@@ -4769,7 +4810,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah Sait bien tout ce qu’ils invoquent en dehors de Lui. Il est le Tout-Puissant, le Sage."
   },
   {
     "id": "al-ankabut-43",
@@ -4778,7 +4820,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَتِلْكَ ٱلْأَمْثَـٰلُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَآ إِلَّا ٱلْعَـٰلِمُونَ",
     "textSimple": "وتلك ٱلأمثـل نضربها للناس  وما يعقلهآ إلا ٱلعـلمون",
     "transliteration": "watil'ka l-amthālu naḍribuhā lilnnāsi wamā yaʿqiluhā illā l-ʿālimūna",
-    "translation": "",
+    "translation": "And these examples We present to the people, but none will understand them except those of knowledge.",
     "words": [
       {
         "id": "al-ankabut-43-1",
@@ -4837,7 +4879,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là les exemples que Nous donnons aux hommes, et que seuls ceux qui savent peuvent comprendre."
   },
   {
     "id": "al-ankabut-44",
@@ -4846,7 +4889,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱللَّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ",
     "textSimple": "خلق ٱلله ٱلسمـوت وٱلأرض بٱلحق  إن فى ذلك لـٔاية للمؤمنين",
     "transliteration": "khalaqa l-lahu l-samāwāti wal-arḍa bil-ḥaqi inna fī dhālika laāyatan lil'mu'minīna",
-    "translation": "",
+    "translation": "Allāh created the heavens and the earth in truth. Indeed in that is a sign for the believers.",
     "words": [
       {
         "id": "al-ankabut-44-1",
@@ -4919,7 +4962,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a créé les cieux et la terre en toute vérité. Il y a certes là un Signe pour les croyants."
   },
   {
     "id": "al-ankabut-45",
@@ -4928,7 +4972,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
     "textSimple": "ٱتل مآ أوحى إليك من ٱلكتـب وأقم ٱلصلوة  إن ٱلصلوة تنهى عن ٱلفحشآء وٱلمنكر  ولذكر ٱلله أكبر  وٱلله يعلم ما تصنعون",
     "transliteration": "ut'lu mā ūḥiya ilayka mina l-kitābi wa-aqimi l-ṣalata inna l-ṣalata tanhā ʿani l-faḥshāi wal-munkari waladhik'ru l-lahi akbaru wal-lahu yaʿlamu mā taṣnaʿūna",
-    "translation": "",
+    "translation": "Recite, [O Muḥammad], what has been revealed to you of the Book and establish prayer. Indeed, prayer prohibits immorality and wrongdoing, and the remembrance of Allāh is greater. And Allāh knows that which you do.",
     "words": [
       {
         "id": "al-ankabut-45-1",
@@ -5078,7 +5122,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Récite ce qui t’a été révélé du Livre et accomplis la Çalât. La Çalât défend de la turpitude et des actes condamnables. L’invocation d’Allah est certes bien plus grande. Et Allah Sait bien ce que vous faites."
   },
   {
     "id": "al-ankabut-46",
@@ -5087,7 +5132,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَا تُجَـٰدِلُوٓا۟ أَهْلَ ٱلْكِتَـٰبِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ ۖ وَقُولُوٓا۟ ءَامَنَّا بِٱلَّذِىٓ أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَـٰهُنَا وَإِلَـٰهُكُمْ وَٰحِدٌ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
     "textSimple": " ولا تجـدلوٓا أهل ٱلكتـب إلا بٱلتى هى أحسن إلا ٱلذين ظلموا منهم  وقولوٓا ءامنا بٱلذىٓ أنزل إلينا وأنزل إليكم وإلـهنا وإلـهكم وحد ونحن له مسلمون",
     "transliteration": "walā tujādilū ahla l-kitābi illā bi-allatī hiya aḥsanu illā alladhīna ẓalamū min'hum waqūlū āmannā bi-alladhī unzila ilaynā wa-unzila ilaykum wa-ilāhunā wa-ilāhukum wāḥidun wanaḥnu lahu mus'limūna",
-    "translation": "",
+    "translation": "And do not argue with the People of the Scripture except in a way that is best, except for those who commit injustice among them, and say, \"We believe in that which has been revealed to us and revealed to you. And our God and your God is one; and we are Muslims [in submission] to Him.\"",
     "words": [
       {
         "id": "al-ankabut-46-1",
@@ -5265,7 +5310,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne disputez avec les gens du Livre que de la plus belle des manières, sauf s’il s’agit cependant de ceux qui, parmi eux, ont commis des injustices. Dites-leur : « Nous croyons à ce qui nous a été révélé et à ce qui vous a été révélé. Notre Dieu et le vôtre ne sont qu’Un. Et nous Lui sommes Soumis. »"
   },
   {
     "id": "al-ankabut-47",
@@ -5274,7 +5320,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ ۚ فَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يُؤْمِنُونَ بِهِۦ ۖ وَمِنْ هَـٰٓؤُلَآءِ مَن يُؤْمِنُ بِهِۦ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلْكَـٰفِرُونَ",
     "textSimple": "وكذلك أنزلنآ إليك ٱلكتـب  فٱلذين ءاتينـهم ٱلكتـب يؤمنون به  ومن هـٓؤلآء من يؤمن به  وما يجحد بـٔايـتنآ إلا ٱلكـفرون",
     "transliteration": "wakadhālika anzalnā ilayka l-kitāba fa-alladhīna ātaynāhumu l-kitāba yu'minūna bihi wamin hāulāi man yu'minu bihi wamā yajḥadu biāyātinā illā l-kāfirūna",
-    "translation": "",
+    "translation": "And thus We have sent down to you the Book [i.e., the Qur’ān]. And those to whom We [previously] gave the Scripture believe in it. And among these [people of Makkah] are those who believe in it. And none reject Our verses except the disbelievers.",
     "words": [
       {
         "id": "al-ankabut-47-1",
@@ -5410,7 +5456,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous t’avons révélé le Livre. Ceux à qui Nous avons déjà donné les Écritures y croient. Et il en est aussi, parmi ceux-ci, qui y croient. Seuls rejettent Nos versets les mécréants !"
   },
   {
     "id": "al-ankabut-48",
@@ -5419,7 +5466,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَـٰبٍ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ إِذًا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
     "textSimple": "وما كنت تتلوا من قبله من كتـب ولا تخطه بيمينك  إذا لٱرتاب ٱلمبطلون",
     "transliteration": "wamā kunta tatlū min qablihi min kitābin walā takhuṭṭuhu biyamīnika idhan la-ir'tāba l-mub'ṭilūna",
-    "translation": "",
+    "translation": "And you did not recite before it any scripture, nor did you inscribe one with your right hand. Then [i.e., otherwise] the falsifiers would have had [cause for] doubt.",
     "words": [
       {
         "id": "al-ankabut-48-1",
@@ -5513,7 +5560,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avant ce (Livre) tu n’en récitais aucun, ni n’en écrivais de ta main droite. Car dans ce cas, les contradicteurs auraient été plus sceptiques."
   },
   {
     "id": "al-ankabut-49",
@@ -5522,7 +5570,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ هُوَ ءَايَـٰتٌۢ بَيِّنَـٰتٌ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلظَّـٰلِمُونَ",
     "textSimple": "بل هو ءايـت بينـت فى صدور ٱلذين أوتوا ٱلعلم  وما يجحد بـٔايـتنآ إلا ٱلظـلمون",
     "transliteration": "bal huwa āyātun bayyinātun fī ṣudūri alladhīna ūtū l-ʿil'ma wamā yajḥadu biāyātinā illā l-ẓālimūna",
-    "translation": "",
+    "translation": "Rather, it [i.e., the Qur’ān] is distinct verses [preserved] within the breasts of those who have been given knowledge. And none reject Our verses except the wrongdoers.",
     "words": [
       {
         "id": "al-ankabut-49-1",
@@ -5623,7 +5671,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, ce sont là des versets évidents dans les cœurs de ceux qui ont reçu la science. Seuls rejettent Nos versets les injustes !"
   },
   {
     "id": "al-ankabut-50",
@@ -5632,7 +5681,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَـٰتٌ مِّن رَّبِّهِۦ ۖ قُلْ إِنَّمَا ٱلْـَٔايَـٰتُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
     "textSimple": "وقالوا لولآ أنزل عليه ءايـت من ربه  قل إنما ٱلـٔايـت عند ٱلله وإنمآ أنا نذير مبين",
     "transliteration": "waqālū lawlā unzila ʿalayhi āyātun min rabbihi qul innamā l-āyātu ʿinda l-lahi wa-innamā anā nadhīrun mubīnun",
-    "translation": "",
+    "translation": "But they say, \"Why are not signs sent down to him from his Lord?\" Say, \"The signs are only with Allāh, and I am only a clear warner.\"",
     "words": [
       {
         "id": "al-ankabut-50-1",
@@ -5747,7 +5796,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Que ne sont pas descendus (en révélation) sur lui quelques miracles de la part de son Seigneur ! » Dis : « Les miracles ne relèvent que d’Allah. Quant à moi, je ne suis là que pour avertir en toute clarté. »"
   },
   {
     "id": "al-ankabut-51",
@@ -5756,7 +5806,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "أولم يكفهم أنآ أنزلنا عليك ٱلكتـب يتلى عليهم  إن فى ذلك لرحمة وذكرى لقوم يؤمنون",
     "transliteration": "awalam yakfihim annā anzalnā ʿalayka l-kitāba yut'lā ʿalayhim inna fī dhālika laraḥmatan wadhik'rā liqawmin yu'minūna",
-    "translation": "",
+    "translation": "And is it not sufficient for them that We revealed to you the Book [i.e., the Qur’ān] which is recited to them? Indeed in that is a mercy and reminder for a people who believe.",
     "words": [
       {
         "id": "al-ankabut-51-1",
@@ -5864,7 +5914,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne leur suffit-il donc pas que Nous ayons fait descendre sur toi (en révélation) le Livre qui leur est récité ? Il y a certes là une miséricorde et un rappel pour ceux qui ont la foi."
   },
   {
     "id": "al-ankabut-52",
@@ -5873,7 +5924,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ كَفَىٰ بِٱللَّهِ بَيْنِى وَبَيْنَكُمْ شَهِيدًا ۖ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱلَّذِينَ ءَامَنُوا۟ بِٱلْبَـٰطِلِ وَكَفَرُوا۟ بِٱللَّهِ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "قل كفى بٱلله بينى وبينكم شهيدا  يعلم ما فى ٱلسمـوت وٱلأرض  وٱلذين ءامنوا بٱلبـطل وكفروا بٱلله أولـٓئك هم ٱلخـسرون",
     "transliteration": "qul kafā bil-lahi baynī wabaynakum shahīdan yaʿlamu mā fī l-samāwāti wal-arḍi wa-alladhīna āmanū bil-bāṭili wakafarū bil-lahi ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "Say, \"Sufficient is Allāh between me and you as Witness. He knows what is in the heavens and earth. And they who have believed in falsehood and disbelieved in Allāh - it is those who are the losers.\"",
     "words": [
       {
         "id": "al-ankabut-52-1",
@@ -6009,7 +6060,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qu’Allah me suffise pour témoin entre vous et moi. » Il Sait ce qu’il y a dans les cieux et sur terre. Ceux qui, cependant, ont cru à l’erreur et ont mécru en Allah, ceux-là sont certes les perdants."
   },
   {
     "id": "al-ankabut-53",
@@ -6018,7 +6070,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "ويستعجلونك بٱلعذاب  ولولآ أجل مسمى لجآءهم ٱلعذاب وليأتينهم بغتة وهم لا يشعرون",
     "transliteration": "wayastaʿjilūnaka bil-ʿadhābi walawlā ajalun musamman lajāahumu l-ʿadhābu walayatiyannahum baghtatan wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "And they urge you to hasten the punishment. And if not for [the decree of] a specified term, punishment would have reached them. But it will surely come to them suddenly while they perceive not.",
     "words": [
       {
         "id": "al-ankabut-53-1",
@@ -6105,7 +6157,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils te réclament de hâter le supplice. N’eût été le terme déjà nommé, le supplice se serait déjà abattu sur eux. Il les frappera certes sans prévenir et sans qu’ils ne le sentent (venir)."
   },
   {
     "id": "al-ankabut-54",
@@ -6114,7 +6167,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَـٰفِرِينَ",
     "textSimple": "يستعجلونك بٱلعذاب وإن جهنم لمحيطة بٱلكـفرين",
     "transliteration": "yastaʿjilūnaka bil-ʿadhābi wa-inna jahannama lamuḥīṭatun bil-kāfirīna",
-    "translation": "",
+    "translation": "They urge you to hasten the punishment. And indeed, Hell will be encompassing of the disbelievers",
     "words": [
       {
         "id": "al-ankabut-54-1",
@@ -6159,7 +6212,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils te réclament de hâter le supplice. Or la Géhenne cerne déjà les mécréants."
   },
   {
     "id": "al-ankabut-55",
@@ -6168,7 +6222,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَغْشَىٰهُمُ ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيَقُولُ ذُوقُوا۟ مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "يوم يغشىهم ٱلعذاب من فوقهم ومن تحت أرجلهم ويقول ذوقوا ما كنتم تعملون",
     "transliteration": "yawma yaghshāhumu l-ʿadhābu min fawqihim wamin taḥti arjulihim wayaqūlu dhūqū mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "On the Day the punishment will cover them from above them and from below their feet and it is said, \"Taste [the result of] what you used to do.\"",
     "words": [
       {
         "id": "al-ankabut-55-1",
@@ -6262,7 +6316,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où le supplice les recouvrira par le haut et par dessous leurs pieds, il leur sera dit : « Goûtez la saveur de vos propres œuvres ! »"
   },
   {
     "id": "al-ankabut-56",
@@ -6271,7 +6326,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰعِبَادِىَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ أَرْضِى وَٰسِعَةٌ فَإِيَّـٰىَ فَٱعْبُدُونِ",
     "textSimple": "يـعبادى ٱلذين ءامنوٓا إن أرضى وسعة فإيـى فٱعبدون",
     "transliteration": "yāʿibādiya alladhīna āmanū inna arḍī wāsiʿatun fa-iyyāya fa-uʿ'budūni",
-    "translation": "",
+    "translation": "O My servants who have believed, indeed My earth is spacious, so worship only Me.",
     "words": [
       {
         "id": "al-ankabut-56-1",
@@ -6330,7 +6385,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous Mes serviteurs qui avez cru ! Ma terre est si vaste. N’adorez donc que Moi Seul !"
   },
   {
     "id": "al-ankabut-57",
@@ -6339,7 +6395,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۖ ثُمَّ إِلَيْنَا تُرْجَعُونَ",
     "textSimple": "كل نفس ذآئقة ٱلموت  ثم إلينا ترجعون",
     "transliteration": "kullu nafsin dhāiqatu l-mawti thumma ilaynā tur'jaʿūna",
-    "translation": "",
+    "translation": "Every soul will taste death. Then to Us will you be returned.",
     "words": [
       {
         "id": "al-ankabut-57-1",
@@ -6391,7 +6447,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute âme doit goûter la mort. Puis vers Nous vous serez ramenés."
   },
   {
     "id": "al-ankabut-58",
@@ -6400,7 +6457,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُبَوِّئَنَّهُم مِّنَ ٱلْجَنَّةِ غُرَفًا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ نِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت لنبوئنهم من ٱلجنة غرفا تجرى من تحتها ٱلأنهـر خـلدين فيها  نعم أجر ٱلعـملين",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lanubawwi-annahum mina l-janati ghurafan tajrī min taḥtihā l-anhāru khālidīna fīhā niʿ'ma ajru l-ʿāmilīna",
-    "translation": "",
+    "translation": "And those who have believed and done righteous deeds - We will surely assign to them of Paradise [elevated] chambers beneath which rivers flow, wherein they abide eternally. Excellent is the reward of the [righteous] workers",
     "words": [
       {
         "id": "al-ankabut-58-1",
@@ -6522,7 +6579,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres Nous les ferons habiter de hautes demeures sous lesquelles coulent des rivières. Là, ils séjourneront pour l’éternité. Combien belle est la récompense de ceux qui oeuvrent (pour accomplir le bien)"
   },
   {
     "id": "al-ankabut-59",
@@ -6531,7 +6589,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
     "textSimple": "ٱلذين صبروا وعلى ربهم يتوكلون",
     "transliteration": "alladhīna ṣabarū waʿalā rabbihim yatawakkalūna",
-    "translation": "",
+    "translation": "Who have been patient and upon their Lord rely.",
     "words": [
       {
         "id": "al-ankabut-59-1",
@@ -6569,7 +6627,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui sont patients à la peine et s’en remettent à leur Seigneur !"
   },
   {
     "id": "al-ankabut-60",
@@ -6578,7 +6637,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأَيِّن مِّن دَآبَّةٍ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "وكأين من دآبة لا تحمل رزقها ٱلله يرزقها وإياكم  وهو ٱلسميع ٱلعليم",
     "transliteration": "waka-ayyin min dābbatin lā taḥmilu riz'qahā l-lahu yarzuquhā wa-iyyākum wahuwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "And how many a creature carries not its [own] provision. Allāh provides for it and for you. And He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "al-ankabut-60-1",
@@ -6665,7 +6724,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de bêtes (sur terre) n’assument point la charge de leur nourriture ! C’est Allah Qui assure leur nourriture et la vôtre. Et c’est Lui Qui Entend Tout et c’est Lui l’Omniscient."
   },
   {
     "id": "al-ankabut-61",
@@ -6674,7 +6734,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
     "textSimple": "ولئن سألتهم من خلق ٱلسمـوت وٱلأرض وسخر ٱلشمس وٱلقمر ليقولن ٱلله  فأنى يؤفكون",
     "transliteration": "wala-in sa-altahum man khalaqa l-samāwāti wal-arḍa wasakhara l-shamsa wal-qamara layaqūlunna l-lahu fa-annā yu'fakūna",
-    "translation": "",
+    "translation": "If you asked them, \"Who created the heavens and earth and subjected the sun and the moon?\" they would surely say, \"Allāh.\" Then how are they deluded?",
     "words": [
       {
         "id": "al-ankabut-61-1",
@@ -6768,7 +6828,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu leur demandes : « Qui donc a créé les cieux et la terre, et mis (à votre service) le soleil et la lune ? » ils répondront sans aucun doute: « Allah ! » Comment donc peuvent-ils se dévoyer (par la suite) ?"
   },
   {
     "id": "al-ankabut-62",
@@ -6777,7 +6838,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥٓ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "ٱلله يبسط ٱلرزق لمن يشآء من عباده ويقدر لهٓ  إن ٱلله بكل شىء عليم",
     "transliteration": "al-lahu yabsuṭu l-riz'qa liman yashāu min ʿibādihi wayaqdiru lahu inna l-laha bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "Allāh extends provision for whom He wills of His servants and restricts for him. Indeed Allāh is, of all things, Knowing.",
     "words": [
       {
         "id": "al-ankabut-62-1",
@@ -6878,7 +6939,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah dispense Ses biens à qui Il veut parmi Ses serviteurs, avec générosité ou avec parcimonie. Allah Sait parfaitement Toute chose."
   },
   {
     "id": "al-ankabut-63",
@@ -6887,7 +6949,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
     "textSimple": "ولئن سألتهم من نزل من ٱلسمآء مآء فأحيا به ٱلأرض من بعد موتها ليقولن ٱلله  قل ٱلحمد لله  بل أكثرهم لا يعقلون",
     "transliteration": "wala-in sa-altahum man nazzala mina l-samāi māan fa-aḥyā bihi l-arḍa min baʿdi mawtihā layaqūlunna l-lahu quli l-ḥamdu lillahi bal aktharuhum lā yaʿqilūna",
-    "translation": "",
+    "translation": "And if you asked them, \"Who sends down rain from the sky and gives life thereby to the earth after its lifelessness?\" they would surely say, \"Allāh.\" Say, \"Praise to Allāh\"; but most of them do not reason.",
     "words": [
       {
         "id": "al-ankabut-63-1",
@@ -7044,7 +7106,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu leur demandes : « Qui fait descendre du ciel une eau par laquelle Il fait revivre la terre déjà morte ? » ils répondront sans aucun doute : « Allah ! » Dis : « Louange à Allah ! » Mais la plupart d’entre eux n’entendent pas raison."
   },
   {
     "id": "al-ankabut-64",
@@ -7053,7 +7116,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هَـٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ وَلَعِبٌ ۚ وَإِنَّ ٱلدَّارَ ٱلْـَٔاخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
     "textSimple": "وما هـذه ٱلحيوة ٱلدنيآ إلا لهو ولعب  وإن ٱلدار ٱلـٔاخرة لهى ٱلحيوان  لو كانوا يعلمون",
     "transliteration": "wamā hādhihi l-ḥayatu l-dun'yā illā lahwun walaʿibun wa-inna l-dāra l-ākhirata lahiya l-ḥayawānu law kānū yaʿlamūna",
-    "translation": "",
+    "translation": "And this worldly life is not but diversion and amusement. And indeed, the home of the Hereafter - that is the [eternal] life, if only they knew.",
     "words": [
       {
         "id": "al-ankabut-64-1",
@@ -7161,7 +7224,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vie en ce bas monde n’est que divertissement et jeu. Et c’est la Demeure Ultime qui, elle, est la vraie vie. Si seulement ils pouvaient savoir !"
   },
   {
     "id": "al-ankabut-65",
@@ -7170,7 +7234,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
     "textSimple": "فإذا ركبوا فى ٱلفلك دعوا ٱلله مخلصين له ٱلدين فلما نجىهم إلى ٱلبر إذا هم يشركون",
     "transliteration": "fa-idhā rakibū fī l-ful'ki daʿawū l-laha mukh'liṣīna lahu l-dīna falammā najjāhum ilā l-bari idhā hum yush'rikūna",
-    "translation": "",
+    "translation": "And when they board a ship, they supplicate Allāh, sincere to Him in religion [i.e., faith and hope]. But when He delivers them to the land, at once they associate others with Him",
     "words": [
       {
         "id": "al-ankabut-65-1",
@@ -7285,7 +7349,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils montent à bord d’un bateau, les voilà qui invoquent Allah en Lui vouant un culte sincère. Puis quand Il les ramène sains et saufs à la terre ferme, voilà qu’ils Lui prêtent des associés !"
   },
   {
     "id": "al-ankabut-66",
@@ -7294,7 +7359,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ وَلِيَتَمَتَّعُوا۟ ۖ فَسَوْفَ يَعْلَمُونَ",
     "textSimple": "ليكفروا بمآ ءاتينـهم وليتمتعوا  فسوف يعلمون",
     "transliteration": "liyakfurū bimā ātaynāhum waliyatamattaʿū fasawfa yaʿlamūna",
-    "translation": "",
+    "translation": "So that they will deny what We have granted them, and they will enjoy themselves. But they are going to know.",
     "words": [
       {
         "id": "al-ankabut-66-1",
@@ -7339,7 +7404,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ils renient donc avec ingratitude ce que Nous leur avons donné ! Qu’ils jouissent donc des biens passagers ! Ils vont bientôt savoir."
   },
   {
     "id": "al-ankabut-67",
@@ -7348,7 +7414,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ أَفَبِٱلْبَـٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ ٱللَّهِ يَكْفُرُونَ",
     "textSimple": "أولم يروا أنا جعلنا حرما ءامنا ويتخطف ٱلناس من حولهم  أفبٱلبـطل يؤمنون وبنعمة ٱلله يكفرون",
     "transliteration": "awalam yaraw annā jaʿalnā ḥaraman āminan wayutakhaṭṭafu l-nāsu min ḥawlihim afabil-bāṭili yu'minūna wabiniʿ'mati l-lahi yakfurūna",
-    "translation": "",
+    "translation": "Have they not seen that We made [Makkah] a safe sanctuary, while people are being taken away all around them? Then in falsehood do they believe, and in the favor of Allāh they disbelieve?",
     "words": [
       {
         "id": "al-ankabut-67-1",
@@ -7456,7 +7522,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas vu que Nous avons ménagé (pour eux) une enceinte sacrée et sûre, cependant qu’autour d’eux les gens sont arrachés (à leurs vies et à leurs biens) ? Croiront-ils toujours à l’erreur et nieront-ils encore les bienfaits d’Allah ?"
   },
   {
     "id": "al-ankabut-68",
@@ -7465,7 +7532,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِٱلْحَقِّ لَمَّا جَآءَهُۥٓ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْكَـٰفِرِينَ",
     "textSimple": "ومن أظلم ممن ٱفترى على ٱلله كذبا أو كذب بٱلحق لما جآءهٓ  أليس فى جهنم مثوى للكـفرين",
     "transliteration": "waman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban aw kadhaba bil-ḥaqi lammā jāahu alaysa fī jahannama mathwan lil'kāfirīna",
-    "translation": "",
+    "translation": "And who is more unjust than one who invents a lie about Allāh or denies the truth when it has come to him? Is there not in Hell a [sufficient] residence for the disbelievers?",
     "words": [
       {
         "id": "al-ankabut-68-1",
@@ -7587,7 +7654,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui débite des mensonges sur le compte d’Allah et qui ose démentir la vérité qui lui parvient ? N’y a-t-il pas dans la Géhenne une demeure pour les mécréants ?"
   },
   {
     "id": "al-ankabut-69",
@@ -7596,7 +7664,7 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ",
     "textSimple": "وٱلذين جـهدوا فينا لنهدينهم سبلنا  وإن ٱلله لمع ٱلمحسنين",
     "transliteration": "wa-alladhīna jāhadū fīnā lanahdiyannahum subulanā wa-inna l-laha lamaʿa l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And those who strive for Us - We will surely guide them to Our ways. And indeed, Allāh is with the doers of good.",
     "words": [
       {
         "id": "al-ankabut-69-1",
@@ -7662,7 +7730,8 @@ export const AL__ANKABUT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui luttent pour Notre cause, Nous les conduirons vers Nos chemins. Allah est certes avec les bienfaiteurs."
   }
 ];
 

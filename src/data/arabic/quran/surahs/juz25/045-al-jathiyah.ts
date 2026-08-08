@@ -11,7 +11,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": " حمٓ",
     "textSimple": " حمٓ",
     "transliteration": "hha-meem",
-    "translation": "",
+    "translation": "Ḥā, Meem.",
     "words": [
       {
         "id": "al-jathiyah-1-1",
@@ -21,7 +21,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâ, Mîm."
   },
   {
     "id": "al-jathiyah-2",
@@ -30,7 +31,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلُ ٱلْكِتَـٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
     "textSimple": "تنزيل ٱلكتـب من ٱلله ٱلعزيز ٱلحكيم",
     "transliteration": "tanzīlu l-kitābi mina l-lahi l-ʿazīzi l-ḥakīmi",
-    "translation": "",
+    "translation": "The revelation of the Book is from Allāh, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-jathiyah-2-1",
@@ -75,7 +76,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La révélation du Livre est d’Allah, le Tout- Puissant, le Sage."
   },
   {
     "id": "al-jathiyah-3",
@@ -84,7 +86,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ لَـَٔايَـٰتٍ لِّلْمُؤْمِنِينَ",
     "textSimple": "إن فى ٱلسمـوت وٱلأرض لـٔايـت للمؤمنين",
     "transliteration": "inna fī l-samāwāti wal-arḍi laāyātin lil'mu'minīna",
-    "translation": "",
+    "translation": "Indeed, within the heavens and earth are signs for the believers.",
     "words": [
       {
         "id": "al-jathiyah-3-1",
@@ -129,7 +131,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est certes, dans les cieux et la terre, des Signes pour les croyants."
   },
   {
     "id": "al-jathiyah-4",
@@ -138,7 +141,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَفِى خَلْقِكُمْ وَمَا يَبُثُّ مِن دَآبَّةٍ ءَايَـٰتٌ لِّقَوْمٍ يُوقِنُونَ",
     "textSimple": "وفى خلقكم وما يبث من دآبة ءايـت لقوم يوقنون",
     "transliteration": "wafī khalqikum wamā yabuthu min dābbatin āyātun liqawmin yūqinūna",
-    "translation": "",
+    "translation": "And in the creation of yourselves and what He disperses of moving creatures are signs for people who are certain [in faith].",
     "words": [
       {
         "id": "al-jathiyah-4-1",
@@ -204,7 +207,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans votre création (même) et dans ce qu’Il dispense comme (espèces d’) animaux, il est (aussi) des Signes pour des gens qui croient fermement."
   },
   {
     "id": "al-jathiyah-5",
@@ -213,7 +217,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱخْتِلَـٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن رِّزْقٍ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَتَصْرِيفِ ٱلرِّيَـٰحِ ءَايَـٰتٌ لِّقَوْمٍ يَعْقِلُونَ",
     "textSimple": "وٱختلـف ٱليل وٱلنهار ومآ أنزل ٱلله من ٱلسمآء من رزق فأحيا به ٱلأرض بعد موتها وتصريف ٱلريـح ءايـت لقوم يعقلون",
     "transliteration": "wa-ikh'tilāfi al-layli wal-nahāri wamā anzala l-lahu mina l-samāi min riz'qin fa-aḥyā bihi l-arḍa baʿda mawtihā wataṣrīfi l-riyāḥi āyātun liqawmin yaʿqilūna",
-    "translation": "",
+    "translation": "And [in] the alternation of night and day and [in] what Allāh sends down from the sky of provision [i.e., rain] and gives life thereby to the earth after its lifelessness and [in His] directing of the winds are signs for a people who reason.",
     "words": [
       {
         "id": "al-jathiyah-5-1",
@@ -356,7 +360,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’alternance de la nuit et du jour, le bienfait qu’Allah envoie du ciel pour faire revivre la terre déjà morte, la répartition des vents, sont autant de Signes pour des gens qui savent raisonner."
   },
   {
     "id": "al-jathiyah-6",
@@ -365,7 +370,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ءَايَـٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَ ٱللَّهِ وَءَايَـٰتِهِۦ يُؤْمِنُونَ",
     "textSimple": "تلك ءايـت ٱلله نتلوها عليك بٱلحق  فبأى حديث بعد ٱلله وءايـته يؤمنون",
     "transliteration": "til'ka āyātu l-lahi natlūhā ʿalayka bil-ḥaqi fabi-ayyi ḥadīthin baʿda l-lahi waāyātihi yu'minūna",
-    "translation": "",
+    "translation": "These are the verses of Allāh which We recite to you in truth. Then in what statement after Allāh and His verses will they believe?",
     "words": [
       {
         "id": "al-jathiyah-6-1",
@@ -452,7 +457,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là les versets d’Allah que Nous te récitons en toute vérité. En quelle parole, après celle d’Allah et (après) Ses versets, vont-ils désormais croire ?"
   },
   {
     "id": "al-jathiyah-7",
@@ -461,7 +467,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ لِّكُلِّ أَفَّاكٍ أَثِيمٍ",
     "textSimple": "ويل لكل أفاك أثيم",
     "transliteration": "waylun likulli affākin athīmin",
-    "translation": "",
+    "translation": "Woe to every sinful liar",
     "words": [
       {
         "id": "al-jathiyah-7-1",
@@ -492,7 +498,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur à tout fieffé menteur et pécheur invétéré,"
   },
   {
     "id": "al-jathiyah-8",
@@ -501,7 +508,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "يَسْمَعُ ءَايَـٰتِ ٱللَّهِ تُتْلَىٰ عَلَيْهِ ثُمَّ يُصِرُّ مُسْتَكْبِرًا كَأَن لَّمْ يَسْمَعْهَا ۖ فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ",
     "textSimple": "يسمع ءايـت ٱلله تتلى عليه ثم يصر مستكبرا كأن لم يسمعها  فبشره بعذاب أليم",
     "transliteration": "yasmaʿu āyāti l-lahi tut'lā ʿalayhi thumma yuṣirru mus'takbiran ka-an lam yasmaʿhā fabashir'hu biʿadhābin alīmin",
-    "translation": "",
+    "translation": "Who hears the verses of Allāh recited to him, then persists arrogantly as if he had not heard them. So give him tidings of a painful punishment.",
     "words": [
       {
         "id": "al-jathiyah-8-1",
@@ -602,7 +609,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui s’entend réciter les versets d’Allah et qui, par dédain, fait comme s’il ne les avait pas entendus. Annonce-lui donc un supplice très douloureux !"
   },
   {
     "id": "al-jathiyah-9",
@@ -611,7 +619,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا عَلِمَ مِنْ ءَايَـٰتِنَا شَيْـًٔا ٱتَّخَذَهَا هُزُوًا ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
     "textSimple": "وإذا علم من ءايـتنا شيـٔا ٱتخذها هزوا  أولـٓئك لهم عذاب مهين",
     "transliteration": "wa-idhā ʿalima min āyātinā shayan ittakhadhahā huzuwan ulāika lahum ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "And when he knows anything of Our verses, he takes them in ridicule. Those will have a humiliating punishment.",
     "words": [
       {
         "id": "al-jathiyah-9-1",
@@ -691,7 +699,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il apprend quelque chose de Nos versets, il les tourne en dérision. (Celui-là sera de) ceux qui auront un supplice humiliant !"
   },
   {
     "id": "al-jathiyah-10",
@@ -700,7 +709,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "مِّن وَرَآئِهِمْ جَهَنَّمُ ۖ وَلَا يُغْنِى عَنْهُم مَّا كَسَبُوا۟ شَيْـًٔا وَلَا مَا ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
     "textSimple": "من ورآئهم جهنم  ولا يغنى عنهم ما كسبوا شيـٔا ولا ما ٱتخذوا من دون ٱلله أوليآء  ولهم عذاب عظيم",
     "transliteration": "min warāihim jahannamu walā yugh'nī ʿanhum mā kasabū shayan walā mā ittakhadhū min dūni l-lahi awliyāa walahum ʿadhābun ʿaẓīmun",
-    "translation": "",
+    "translation": "Before them is Hell, and what they had earned will not avail them at all nor what they had taken besides Allāh as allies. And they will have a great punishment.",
     "words": [
       {
         "id": "al-jathiyah-10-1",
@@ -836,7 +845,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La Géhenne est devant eux, et rien de ce qu’ils auront acquis (comme biens) ne leur sera utile ; pas plus (que ne leur seront utiles) les protecteurs qu’ils auront pris en dehors d’Allah. Ils seront voués à un terrible supplice !"
   },
   {
     "id": "al-jathiyah-11",
@@ -845,7 +855,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا هُدًى ۖ وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
     "textSimple": "هـذا هدى  وٱلذين كفروا بـٔايـت ربهم لهم عذاب من رجز أليم",
     "transliteration": "hādhā hudan wa-alladhīna kafarū biāyāti rabbihim lahum ʿadhābun min rij'zin alīmun",
-    "translation": "",
+    "translation": "This [Qur’ān] is guidance. And those who have disbelieved in the verses of their Lord will have a painful punishment of foul nature.",
     "words": [
       {
         "id": "al-jathiyah-11-1",
@@ -925,7 +935,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceci est la juste direction (hudâ), et ceux qui ont mécru aux versets de leur Seigneur subiront un très douloureux supplice."
   },
   {
     "id": "al-jathiyah-12",
@@ -934,7 +945,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ ٱللَّهُ ٱلَّذِى سَخَّرَ لَكُمُ ٱلْبَحْرَ لِتَجْرِىَ ٱلْفُلْكُ فِيهِ بِأَمْرِهِۦ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": " ٱلله ٱلذى سخر لكم ٱلبحر لتجرى ٱلفلك فيه بأمره ولتبتغوا من فضله ولعلكم تشكرون",
     "transliteration": "al-lahu alladhī sakhara lakumu l-baḥra litajriya l-ful'ku fīhi bi-amrihi walitabtaghū min faḍlihi walaʿallakum tashkurūna",
-    "translation": "",
+    "translation": "It is Allāh who subjected to you the sea so that ships may sail upon it by His command and that you may seek of His bounty; and perhaps you will be grateful.",
     "words": [
       {
         "id": "al-jathiyah-12-1",
@@ -1035,7 +1046,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui a soumis pour vous la mer où, par Son ordre, courent sur ses flots les vaisseaux, et pour que vous recherchiez de Ses faveurs. Peut-être (Lui en) serez-vous reconnaissants."
   },
   {
     "id": "al-jathiyah-13",
@@ -1044,7 +1056,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَسَخَّرَ لَكُم مَّا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ جَمِيعًا مِّنْهُ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
     "textSimple": "وسخر لكم ما فى ٱلسمـوت وما فى ٱلأرض جميعا منه  إن فى ذلك لـٔايـت لقوم يتفكرون",
     "transliteration": "wasakhara lakum mā fī l-samāwāti wamā fī l-arḍi jamīʿan min'hu inna fī dhālika laāyātin liqawmin yatafakkarūna",
-    "translation": "",
+    "translation": "And He has subjected to you whatever is in the heavens and whatever is on the earth - all from Him. Indeed in that are signs for a people who give thought.",
     "words": [
       {
         "id": "al-jathiyah-13-1",
@@ -1159,7 +1171,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Il a soumis pour vous tout ce qu’il y a dans les cieux et sur terre, car tout provient de Lui. Il y a certes là des Signes pour des gens qui savent réfléchir."
   },
   {
     "id": "al-jathiyah-14",
@@ -1168,7 +1181,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "قُل لِّلَّذِينَ ءَامَنُوا۟ يَغْفِرُوا۟ لِلَّذِينَ لَا يَرْجُونَ أَيَّامَ ٱللَّهِ لِيَجْزِىَ قَوْمًۢا بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "قل للذين ءامنوا يغفروا للذين لا يرجون أيام ٱلله ليجزى قوما بما كانوا يكسبون",
     "transliteration": "qul lilladhīna āmanū yaghfirū lilladhīna lā yarjūna ayyāma l-lahi liyajziya qawman bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], to those who have believed that they [should] forgive those who expect not the days of Allāh [i.e., of His retribution] so that He may recompense a people for what they used to earn.",
     "words": [
       {
         "id": "al-jathiyah-14-1",
@@ -1269,7 +1282,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis à ceux qui ont cru de pardonner à ceux qui n’espèrent aucune faveur des jours d’Allah, afin qu’Il rétribue les hommes selon leurs œuvres acquises."
   },
   {
     "id": "al-jathiyah-15",
@@ -1278,7 +1292,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "مَنْ عَمِلَ صَـٰلِحًا فَلِنَفْسِهِۦ ۖ وَمَنْ أَسَآءَ فَعَلَيْهَا ۖ ثُمَّ إِلَىٰ رَبِّكُمْ تُرْجَعُونَ",
     "textSimple": "من عمل صـلحا فلنفسه  ومن أسآء فعليها  ثم إلى ربكم ترجعون",
     "transliteration": "man ʿamila ṣāliḥan falinafsihi waman asāa faʿalayhā thumma ilā rabbikum tur'jaʿūna",
-    "translation": "",
+    "translation": "Whoever does a good deed - it is for himself; and whoever does evil - it is against it [i.e., the self or soul]. Then to your Lord you will be returned.",
     "words": [
       {
         "id": "al-jathiyah-15-1",
@@ -1358,7 +1372,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque fait une bonne action l’aura faite pour son propre bien, et quiconque commet une mauvaise action l’aura commise à ses dépens. Puis c’est vers votre Seigneur que vous serez ramenés."
   },
   {
     "id": "al-jathiyah-16",
@@ -1367,7 +1382,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا بَنِىٓ إِسْرَٰٓءِيلَ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ وَرَزَقْنَـٰهُم مِّنَ ٱلطَّيِّبَـٰتِ وَفَضَّلْنَـٰهُمْ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "ولقد ءاتينا بنىٓ إسرٓءيل ٱلكتـب وٱلحكم وٱلنبوة ورزقنـهم من ٱلطيبـت وفضلنـهم على ٱلعـلمين",
     "transliteration": "walaqad ātaynā banī is'rāīla l-kitāba wal-ḥuk'ma wal-nubuwata warazaqnāhum mina l-ṭayibāti wafaḍḍalnāhum ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "And We did certainly give the Children of Israel the Scripture and judgement and prophethood, and We provided them with good things and preferred them over the worlds.",
     "words": [
       {
         "id": "al-jathiyah-16-1",
@@ -1461,7 +1476,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons certes donné aux Enfants d’Israël le Livre, le discernement et la prophétie. Nous leur avons dispensé les meilleurs délices et les avons préférés à tous les autres peuples (qui étaient leurs contemporains)."
   },
   {
     "id": "al-jathiyah-17",
@@ -1470,7 +1486,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتَيْنَـٰهُم بَيِّنَـٰتٍ مِّنَ ٱلْأَمْرِ ۖ فَمَا ٱخْتَلَفُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ إِنَّ رَبَّكَ يَقْضِى بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
     "textSimple": "وءاتينـهم بينـت من ٱلأمر  فما ٱختلفوٓا إلا من بعد ما جآءهم ٱلعلم بغيا بينهم  إن ربك يقضى بينهم يوم ٱلقيـمة فيما كانوا فيه يختلفون",
     "transliteration": "waātaynāhum bayyinātin mina l-amri famā ikh'talafū illā min baʿdi mā jāahumu l-ʿil'mu baghyan baynahum inna rabbaka yaqḍī baynahum yawma l-qiyāmati fīmā kānū fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "And We gave them clear proofs of the matter [of religion]. And they did not differ except after knowledge had come to them - out of jealous animosity between themselves. Indeed, your Lord will judge between them on the Day of Resurrection concerning that over which they used to differ.",
     "words": [
       {
         "id": "al-jathiyah-17-1",
@@ -1641,7 +1657,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons apporté des preuves évidentes de l’Ordre (Suprême). Or ils ne sont tombés en désaccord qu’après que leur est parvenue la connaissance (de la vérité) et par hostilité des uns envers les autres. Ton Seigneur jugera entre eux au Jour de la Résurrection en tranchant leurs différends."
   },
   {
     "id": "al-jathiyah-18",
@@ -1650,7 +1667,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ جَعَلْنَـٰكَ عَلَىٰ شَرِيعَةٍ مِّنَ ٱلْأَمْرِ فَٱتَّبِعْهَا وَلَا تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ لَا يَعْلَمُونَ",
     "textSimple": "ثم جعلنـك على شريعة من ٱلأمر فٱتبعها ولا تتبع أهوآء ٱلذين لا يعلمون",
     "transliteration": "thumma jaʿalnāka ʿalā sharīʿatin mina l-amri fa-ittabiʿ'hā walā tattabiʿ ahwāa alladhīna lā yaʿlamūna",
-    "translation": "",
+    "translation": "Then We put you, [O Muḥammad], on an ordained way concerning the matter [of religion]; so follow it and do not follow the inclinations of those who do not know.",
     "words": [
       {
         "id": "al-jathiyah-18-1",
@@ -1744,7 +1761,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous t’avons engagé (ô Muhammad) sur la voie de l’Ordre (Suprême). Suis-la donc et ne suis pas les penchants de ceux qui ne savent rien."
   },
   {
     "id": "al-jathiyah-19",
@@ -1753,7 +1771,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ لَن يُغْنُوا۟ عَنكَ مِنَ ٱللَّهِ شَيْـًٔا ۚ وَإِنَّ ٱلظَّـٰلِمِينَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۖ وَٱللَّهُ وَلِىُّ ٱلْمُتَّقِينَ",
     "textSimple": "إنهم لن يغنوا عنك من ٱلله شيـٔا  وإن ٱلظـلمين بعضهم أوليآء بعض  وٱلله ولى ٱلمتقين",
     "transliteration": "innahum lan yugh'nū ʿanka mina l-lahi shayan wa-inna l-ẓālimīna baʿḍuhum awliyāu baʿḍin wal-lahu waliyyu l-mutaqīna",
-    "translation": "",
+    "translation": "Indeed, they will never avail you against Allāh at all. And indeed, the wrongdoers are allies of one another; but Allāh is the protector of the righteous.",
     "words": [
       {
         "id": "al-jathiyah-19-1",
@@ -1861,7 +1879,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne te seront en rien utiles contre Allah. Les injustes sont en vérité alliés les uns des autres. Et Allah est, Lui, l’Allié des gens pieux."
   },
   {
     "id": "al-jathiyah-20",
@@ -1870,7 +1889,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا بَصَـٰٓئِرُ لِلنَّاسِ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُوقِنُونَ",
     "textSimple": "هـذا بصـٓئر للناس وهدى ورحمة لقوم يوقنون",
     "transliteration": "hādhā baṣāiru lilnnāsi wahudan waraḥmatun liqawmin yūqinūna",
-    "translation": "",
+    "translation": "This [Qur’ān] is enlightenment for mankind and guidance and mercy for a people who are certain [in faith].",
     "words": [
       {
         "id": "al-jathiyah-20-1",
@@ -1922,7 +1941,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce (Coran) est (source de) lumière pour les hommes, une juste direction (hudâ) et une miséricorde pour des gens qui croient fermement."
   },
   {
     "id": "al-jathiyah-21",
@@ -1931,7 +1951,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبَ ٱلَّذِينَ ٱجْتَرَحُوا۟ ٱلسَّيِّـَٔاتِ أَن نَّجْعَلَهُمْ كَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَوَآءً مَّحْيَاهُمْ وَمَمَاتُهُمْ ۚ سَآءَ مَا يَحْكُمُونَ",
     "textSimple": "أم حسب ٱلذين ٱجترحوا ٱلسيـٔات أن نجعلهم كٱلذين ءامنوا وعملوا ٱلصـلحـت سوآء محياهم ومماتهم  سآء ما يحكمون",
     "transliteration": "am ḥasiba alladhīna ij'taraḥū l-sayiāti an najʿalahum ka-alladhīna āmanū waʿamilū l-ṣāliḥāti sawāan maḥyāhum wamamātuhum sāa mā yaḥkumūna",
-    "translation": "",
+    "translation": "Or do those who commit evils think We will make them like those who have believed and done righteous deeds - [make them] equal in their life and their death? Evil is that which they judge [i.e., assume].",
     "words": [
       {
         "id": "al-jathiyah-21-1",
@@ -2053,7 +2073,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui commettent de mauvaises œuvres s’imaginent-ils que Nous allons leur réserver, de leur vivant et après leur mort, le même traitement que ceux qui ont cru et accompli les bonnes œuvres ? Quel piètre jugement que le leur !"
   },
   {
     "id": "al-jathiyah-22",
@@ -2062,7 +2083,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَخَلَقَ ٱللَّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَلِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "وخلق ٱلله ٱلسمـوت وٱلأرض بٱلحق ولتجزى كل نفس بما كسبت وهم لا يظلمون",
     "transliteration": "wakhalaqa l-lahu l-samāwāti wal-arḍa bil-ḥaqi walituj'zā kullu nafsin bimā kasabat wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "And Allāh created the heavens and earth in truth and so that every soul may be recompensed for what it has earned, and they will not be wronged.",
     "words": [
       {
         "id": "al-jathiyah-22-1",
@@ -2156,7 +2177,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a créé les cieux et la terre en toute vérité et pour que chaque être soit rétribué selon ce qu’il aura acquis. Et ils ne seront point lésés."
   },
   {
     "id": "al-jathiyah-23",
@@ -2165,7 +2187,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَـٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ وَخَتَمَ عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ غِشَـٰوَةً فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ",
     "textSimple": "أفرءيت من ٱتخذ إلـهه هوىه وأضله ٱلله على علم وختم على سمعه وقلبه وجعل على بصره غشـوة فمن يهديه من بعد ٱلله  أفلا تذكرون",
     "transliteration": "afara-ayta mani ittakhadha ilāhahu hawāhu wa-aḍallahu l-lahu ʿalā ʿil'min wakhatama ʿalā samʿihi waqalbihi wajaʿala ʿalā baṣarihi ghishāwatan faman yahdīhi min baʿdi l-lahi afalā tadhakkarūna",
-    "translation": "",
+    "translation": "Have you seen he who has taken as his god his [own] desire, and Allāh has sent him astray due to knowledge and has set a seal upon his hearing and his heart and put over his vision a veil? So who will guide him after Allāh? Then will you not be reminded?",
     "words": [
       {
         "id": "al-jathiyah-23-1",
@@ -2336,7 +2358,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "As-tu considéré celui qui a pris sa propre passion comme divinité ? Allah l’égare en toute connaissance, imprime un sceau sur son ouïe et son cœur, et lui couvre les yeux d’un voile. Qui donc le guidera après Allah ? Ne réfléchissez-vous donc pas ?"
   },
   {
     "id": "al-jathiyah-24",
@@ -2345,7 +2368,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ مَا هِىَ إِلَّا حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا يُهْلِكُنَآ إِلَّا ٱلدَّهْرُ ۚ وَمَا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَظُنُّونَ",
     "textSimple": "وقالوا ما هى إلا حياتنا ٱلدنيا نموت ونحيا وما يهلكنآ إلا ٱلدهر  وما لهم بذلك من علم  إن هم إلا يظنون",
     "transliteration": "waqālū mā hiya illā ḥayātunā l-dun'yā namūtu wanaḥyā wamā yuh'likunā illā l-dahru wamā lahum bidhālika min ʿil'min in hum illā yaẓunnūna",
-    "translation": "",
+    "translation": "And they say, \"There is not but our worldly life; we die and live, and nothing destroys us except time.\" And they have of that no knowledge; they are only assuming.",
     "words": [
       {
         "id": "al-jathiyah-24-1",
@@ -2495,7 +2518,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Il n’y a rien que notre vie en ce bas monde. Nous mourons et nous vivons et seul nous fait périr le temps. » Ils n’en savent pourtant rien, ils ne font que se perdre en conjectures."
   },
   {
     "id": "al-jathiyah-25",
@@ -2504,7 +2528,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ مَّا كَانَ حُجَّتَهُمْ إِلَّآ أَن قَالُوا۟ ٱئْتُوا۟ بِـَٔابَآئِنَآ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "وإذا تتلى عليهم ءايـتنا بينـت ما كان حجتهم إلآ أن قالوا ٱئتوا بـٔابآئنآ إن كنتم صـدقين",
     "transliteration": "wa-idhā tut'lā ʿalayhim āyātunā bayyinātin mā kāna ḥujjatahum illā an qālū i'tū biābāinā in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And when Our verses are recited to them as clear evidences, their argument is only that they say, \"Bring [back] our forefathers, if you should be truthful.\"",
     "words": [
       {
         "id": "al-jathiyah-25-1",
@@ -2619,7 +2643,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque, bien clairs, Nos versets leur sont récités, leur seul argument est de s’écrier : « Faites donc venir nos ancêtres si ce que vous dites est vrai ! »"
   },
   {
     "id": "al-jathiyah-26",
@@ -2628,7 +2653,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱللَّهُ يُحْيِيكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يَجْمَعُكُمْ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ لَا رَيْبَ فِيهِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "قل ٱلله يحييكم ثم يميتكم ثم يجمعكم إلى يوم ٱلقيـمة لا ريب فيه ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "quli l-lahu yuḥ'yīkum thumma yumītukum thumma yajmaʿukum ilā yawmi l-qiyāmati lā rayba fīhi walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "Say, \"Allāh causes you to live, then causes you to die; then He will assemble you for the Day of Resurrection, about which there is no doubt, but most of the people do not know.\"",
     "words": [
       {
         "id": "al-jathiyah-26-1",
@@ -2757,7 +2782,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est Allah Qui vous fait vivre puis vous fait mourir. Puis Il vous rassemblera au Jour de la Résurrection à propos duquel il n’y a nul doute. Mais, pour la plupart, les hommes ne savent pas. »"
   },
   {
     "id": "al-jathiyah-27",
@@ -2766,7 +2792,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يَوْمَئِذٍ يَخْسَرُ ٱلْمُبْطِلُونَ",
     "textSimple": "ولله ملك ٱلسمـوت وٱلأرض  ويوم تقوم ٱلساعة يومئذ يخسر ٱلمبطلون",
     "transliteration": "walillahi mul'ku l-samāwāti wal-arḍi wayawma taqūmu l-sāʿatu yawma-idhin yakhsaru l-mub'ṭilūna",
-    "translation": "",
+    "translation": "And to Allāh belongs the dominion of the heavens and the earth. And the Day the Hour appears - that Day the falsifiers will lose.",
     "words": [
       {
         "id": "al-jathiyah-27-1",
@@ -2839,7 +2865,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient la royauté des cieux et de la terre. Et le jour où arrivera l’Heure, ce jour-là, les négateurs seront perdants."
   },
   {
     "id": "al-jathiyah-28",
@@ -2848,7 +2875,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَىٰ كُلَّ أُمَّةٍ جَاثِيَةً ۚ كُلُّ أُمَّةٍ تُدْعَىٰٓ إِلَىٰ كِتَـٰبِهَا ٱلْيَوْمَ تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "وترى كل أمة جاثية  كل أمة تدعىٓ إلى كتـبها ٱليوم تجزون ما كنتم تعملون",
     "transliteration": "watarā kulla ummatin jāthiyatan kullu ummatin tud'ʿā ilā kitābihā l-yawma tuj'zawna mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And you will see every nation kneeling [from fear]. Every nation will be called to its record [and told], \"Today you will be recompensed for what you used to do.",
     "words": [
       {
         "id": "al-jathiyah-28-1",
@@ -2949,7 +2976,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu verras chaque nation agenouillée. Chacune sera appelée (à comparaître) devant son Livre. En ce jour, vous serez rétribués d’après ce que vous faisiez."
   },
   {
     "id": "al-jathiyah-29",
@@ -2958,7 +2986,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا كِتَـٰبُنَا يَنطِقُ عَلَيْكُم بِٱلْحَقِّ ۚ إِنَّا كُنَّا نَسْتَنسِخُ مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "هـذا كتـبنا ينطق عليكم بٱلحق  إنا كنا نستنسخ ما كنتم تعملون",
     "transliteration": "hādhā kitābunā yanṭiqu ʿalaykum bil-ḥaqi innā kunnā nastansikhu mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "This, Our record, speaks about you in truth. Indeed, We were having transcribed whatever you used to do.\"",
     "words": [
       {
         "id": "al-jathiyah-29-1",
@@ -3038,7 +3066,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici Notre Livre qui parlera de vous en toute vérité. Nous y avons inscrit tout ce que vous faisiez."
   },
   {
     "id": "al-jathiyah-30",
@@ -3047,7 +3076,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ",
     "textSimple": "فأما ٱلذين ءامنوا وعملوا ٱلصـلحـت فيدخلهم ربهم فى رحمته  ذلك هو ٱلفوز ٱلمبين",
     "transliteration": "fa-ammā alladhīna āmanū waʿamilū l-ṣāliḥāti fayud'khiluhum rabbuhum fī raḥmatihi dhālika huwa l-fawzu l-mubīnu",
-    "translation": "",
+    "translation": "So as for those who believed and did righteous deeds, their Lord will admit them into His mercy. That is what is the clear attainment.",
     "words": [
       {
         "id": "al-jathiyah-30-1",
@@ -3141,7 +3170,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui auront cru et accompli les bonnes œuvres, leur Seigneur les accueillera dans Sa miséricorde : tel est le succès suprême !"
   },
   {
     "id": "al-jathiyah-31",
@@ -3150,7 +3180,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟ أَفَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَٱسْتَكْبَرْتُمْ وَكُنتُمْ قَوْمًا مُّجْرِمِينَ",
     "textSimple": "وأما ٱلذين كفروٓا أفلم تكن ءايـتى تتلى عليكم فٱستكبرتم وكنتم قوما مجرمين",
     "transliteration": "wa-ammā alladhīna kafarū afalam takun āyātī tut'lā ʿalaykum fa-is'takbartum wakuntum qawman muj'rimīna",
-    "translation": "",
+    "translation": "But as for those who disbelieved, [it will be said], \"Were not Our verses recited to you, but you were arrogant and became a criminal people?",
     "words": [
       {
         "id": "al-jathiyah-31-1",
@@ -3237,7 +3267,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui auront mécru (Allah leur dira) : « Mes versets ne vous étaient-ils pas récités ? Mais vous faisiez preuve d’orgueil et vous étiez un peuple de criminels. »"
   },
   {
     "id": "al-jathiyah-32",
@@ -3246,7 +3277,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱلسَّاعَةُ لَا رَيْبَ فِيهَا قُلْتُم مَّا نَدْرِى مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنًّا وَمَا نَحْنُ بِمُسْتَيْقِنِينَ",
     "textSimple": "وإذا قيل إن وعد ٱلله حق وٱلساعة لا ريب فيها قلتم ما ندرى ما ٱلساعة إن نظن إلا ظنا وما نحن بمستيقنين",
     "transliteration": "wa-idhā qīla inna waʿda l-lahi ḥaqqun wal-sāʿatu lā rayba fīhā qul'tum mā nadrī mā l-sāʿatu in naẓunnu illā ẓannan wamā naḥnu bimus'tayqinīna",
-    "translation": "",
+    "translation": "And when it was said, 'Indeed, the promise of Allāh is truth and the Hour [is coming] - no doubt about it,' you said, 'We know not what is the Hour. We assume only assumption, and we are not convinced.'\"",
     "words": [
       {
         "id": "al-jathiyah-32-1",
@@ -3403,7 +3434,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsqu’il (vous) était dit : « La promesse d’Allah est pure vérité, et qu’il n’y a nul doute à propos de l’Heure », vous répondiez : « Nous ne savons pas ce qu’est l’Heure, nous ne faisons qu’émettre des suppositions, et nous n’en sommes point certains. »"
   },
   {
     "id": "al-jathiyah-33",
@@ -3412,7 +3444,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَبَدَا لَهُمْ سَيِّـَٔاتُ مَا عَمِلُوا۟ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "وبدا لهم سيـٔات ما عملوا وحاق بهم ما كانوا به يستهزءون",
     "transliteration": "wabadā lahum sayyiātu mā ʿamilū waḥāqa bihim mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And the evil consequences of what they did will appear to them, and they will be enveloped by what they used to ridicule.",
     "words": [
       {
         "id": "al-jathiyah-33-1",
@@ -3492,7 +3524,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur apparaîtront alors les pires de leurs méfaits et ils seront cernés par ce qu’ils tournaient en dérision."
   },
   {
     "id": "al-jathiyah-34",
@@ -3501,7 +3534,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلَ ٱلْيَوْمَ نَنسَىٰكُمْ كَمَا نَسِيتُمْ لِقَآءَ يَوْمِكُمْ هَـٰذَا وَمَأْوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
     "textSimple": "وقيل ٱليوم ننسىكم كما نسيتم لقآء يومكم هـذا ومأوىكم ٱلنار وما لكم من نـصرين",
     "transliteration": "waqīla l-yawma nansākum kamā nasītum liqāa yawmikum hādhā wamawākumu l-nāru wamā lakum min nāṣirīna",
-    "translation": "",
+    "translation": "And it will be said, \"Today We will forget you as you forgot the meeting of this Day of yours, and your refuge is the Fire, and for you there are no helpers.",
     "words": [
       {
         "id": "al-jathiyah-34-1",
@@ -3602,7 +3635,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (leur) sera dit : « Aujourd’hui Nous vous oublions comme vous avez vous-mêmes oublié la rencontre de ce Jour-ci qui est le vôtre. Votre asile est le Feu, et nul ne viendra vous secourir."
   },
   {
     "id": "al-jathiyah-35",
@@ -3611,7 +3645,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكُم بِأَنَّكُمُ ٱتَّخَذْتُمْ ءَايَـٰتِ ٱللَّهِ هُزُوًا وَغَرَّتْكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ لَا يُخْرَجُونَ مِنْهَا وَلَا هُمْ يُسْتَعْتَبُونَ",
     "textSimple": "ذلكم بأنكم ٱتخذتم ءايـت ٱلله هزوا وغرتكم ٱلحيوة ٱلدنيا  فٱليوم لا يخرجون منها ولا هم يستعتبون",
     "transliteration": "dhālikum bi-annakumu ittakhadhtum āyāti l-lahi huzuwan wagharratkumu l-ḥayatu l-dun'yā fal-yawma lā yukh'rajūna min'hā walā hum yus'taʿtabūna",
-    "translation": "",
+    "translation": "That is because you took the verses of Allāh in ridicule, and worldly life deluded you.\" So that Day they will not be removed from it, nor will they be asked to appease [Allāh].",
     "words": [
       {
         "id": "al-jathiyah-35-1",
@@ -3726,7 +3760,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce que vous tourniez les versets d’Allah en dérision et parce que vous vous laissiez séduire par la vie de ce bas monde. » Ce jour-là, nul ne pourra les en sortir et il ne sera accepté d’eux plus aucune excuse."
   },
   {
     "id": "al-jathiyah-36",
@@ -3735,7 +3770,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلِلَّهِ ٱلْحَمْدُ رَبِّ ٱلسَّمَـٰوَٰتِ وَرَبِّ ٱلْأَرْضِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فلله ٱلحمد رب ٱلسمـوت ورب ٱلأرض رب ٱلعـلمين",
     "transliteration": "falillahi l-ḥamdu rabbi l-samāwāti warabbi l-arḍi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Then, to Allāh belongs [all] praise - Lord of the heavens and Lord of the earth, Lord of the worlds.",
     "words": [
       {
         "id": "al-jathiyah-36-1",
@@ -3794,7 +3829,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute louange (est) à Allah, Seigneur des cieux et Seigneur de la terre, Seigneur de l’Univers."
   },
   {
     "id": "al-jathiyah-37",
@@ -3803,7 +3839,7 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهُ ٱلْكِبْرِيَآءُ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "وله ٱلكبريآء فى ٱلسمـوت وٱلأرض  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "walahu l-kib'riyāu fī l-samāwāti wal-arḍi wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "And to Him belongs [all] grandeur within the heavens and the earth, and He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-jathiyah-37-1",
@@ -3862,7 +3898,8 @@ export const AL_JATHIYAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui (est) la Grandeur Infinie dans les cieux et sur terre. C’est Lui le Tout-Puissant, le Sage."
   }
 ];
 

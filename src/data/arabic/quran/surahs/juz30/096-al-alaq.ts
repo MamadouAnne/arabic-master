@@ -11,7 +11,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": " ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
     "textSimple": " ٱقرأ بٱسم ربك ٱلذى خلق",
     "transliteration": "iq'ra bi-is'mi rabbika alladhī khalaqa",
-    "translation": "",
+    "translation": "Recite in the name of your Lord who created",
     "words": [
       {
         "id": "al-alaq-1-1",
@@ -49,7 +49,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lis par le nom de ton Seigneur Qui a créé !"
   },
   {
     "id": "al-alaq-2",
@@ -58,7 +59,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
     "textSimple": "خلق ٱلإنسـن من علق",
     "transliteration": "khalaqa l-insāna min ʿalaqin",
-    "translation": "",
+    "translation": "Created man from a clinging substance.",
     "words": [
       {
         "id": "al-alaq-2-1",
@@ -89,7 +90,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui a créé l’homme d’un grumeau de sang."
   },
   {
     "id": "al-alaq-3",
@@ -98,7 +100,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
     "textSimple": "ٱقرأ وربك ٱلأكرم",
     "transliteration": "iq'ra warabbuka l-akramu",
-    "translation": "",
+    "translation": "Recite, and your Lord is the most Generous -",
     "words": [
       {
         "id": "al-alaq-3-1",
@@ -122,7 +124,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lis, car ton Seigneur est le Plus Noble"
   },
   {
     "id": "al-alaq-4",
@@ -131,7 +134,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
     "textSimple": "ٱلذى علم بٱلقلم",
     "transliteration": "alladhī ʿallama bil-qalami",
-    "translation": "",
+    "translation": "Who taught by the pen",
     "words": [
       {
         "id": "al-alaq-4-1",
@@ -155,7 +158,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui enseigna par le Calame."
   },
   {
     "id": "al-alaq-5",
@@ -164,7 +168,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
     "textSimple": "علم ٱلإنسـن ما لم يعلم",
     "transliteration": "ʿallama l-insāna mā lam yaʿlam",
-    "translation": "",
+    "translation": "Taught man that which he knew not.",
     "words": [
       {
         "id": "al-alaq-5-1",
@@ -202,7 +206,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui enseigna à l’homme ce qu’il ne savait pas."
   },
   {
     "id": "al-alaq-6",
@@ -211,7 +216,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
     "textSimple": "كلآ إن ٱلإنسـن ليطغىٓ",
     "transliteration": "kallā inna l-insāna layaṭghā",
-    "translation": "",
+    "translation": "No! [But] indeed, man transgresses",
     "words": [
       {
         "id": "al-alaq-6-1",
@@ -242,7 +247,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais non ! L’homme devient certes rebelle,"
   },
   {
     "id": "al-alaq-7",
@@ -251,7 +257,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
     "textSimple": "أن رءاه ٱستغنىٓ",
     "transliteration": "an raāhu is'taghnā",
-    "translation": "",
+    "translation": "Because he sees himself self-sufficient.",
     "words": [
       {
         "id": "al-alaq-7-1",
@@ -275,7 +281,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dès qu’il se voit gagner en richesses."
   },
   {
     "id": "al-alaq-8",
@@ -284,7 +291,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
     "textSimple": "إن إلى ربك ٱلرجعىٓ",
     "transliteration": "inna ilā rabbika l-ruj'ʿā",
-    "translation": "",
+    "translation": "Indeed, to your Lord is the return.",
     "words": [
       {
         "id": "al-alaq-8-1",
@@ -315,7 +322,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vers ton Seigneur sera le retour."
   },
   {
     "id": "al-alaq-9",
@@ -324,7 +332,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
     "textSimple": "أرءيت ٱلذى ينهى",
     "transliteration": "ara-ayta alladhī yanhā",
-    "translation": "",
+    "translation": "Have you seen the one who forbids",
     "words": [
       {
         "id": "al-alaq-9-1",
@@ -348,7 +356,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas vu celui qui défend"
   },
   {
     "id": "al-alaq-10",
@@ -357,7 +366,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "عَبْدًا إِذَا صَلَّىٰٓ",
     "textSimple": "عبدا إذا صلىٓ",
     "transliteration": "ʿabdan idhā ṣallā",
-    "translation": "",
+    "translation": "A servant when he prays?",
     "words": [
       {
         "id": "al-alaq-10-1",
@@ -381,7 +390,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à un serviteur (d’Allah) de faire la prière ?"
   },
   {
     "id": "al-alaq-11",
@@ -390,7 +400,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
     "textSimple": "أرءيت إن كان على ٱلهدىٓ",
     "transliteration": "ara-ayta in kāna ʿalā l-hudā",
-    "translation": "",
+    "translation": "Have you seen if he is upon guidance",
     "words": [
       {
         "id": "al-alaq-11-1",
@@ -428,7 +438,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que penserais-tu si (ce dernier) était auparavant sur la bonne voie,"
   },
   {
     "id": "al-alaq-12",
@@ -437,7 +448,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
     "textSimple": "أو أمر بٱلتقوىٓ",
     "transliteration": "aw amara bil-taqwā",
-    "translation": "",
+    "translation": "Or enjoins righteousness?",
     "words": [
       {
         "id": "al-alaq-12-1",
@@ -461,7 +472,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et appelait à la piété ?"
   },
   {
     "id": "al-alaq-13",
@@ -470,7 +482,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
     "textSimple": "أرءيت إن كذب وتولىٓ",
     "transliteration": "ara-ayta in kadhaba watawallā",
-    "translation": "",
+    "translation": "Have you seen if he denies and turns away -",
     "words": [
       {
         "id": "al-alaq-13-1",
@@ -501,7 +513,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et que penserais-tu si (le premier) traitait de mensonge (le Message) et s’en détournait ?"
   },
   {
     "id": "al-alaq-14",
@@ -510,7 +523,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
     "textSimple": "ألم يعلم بأن ٱلله يرى",
     "transliteration": "alam yaʿlam bi-anna l-laha yarā",
-    "translation": "",
+    "translation": "Does he not know that Allāh sees?",
     "words": [
       {
         "id": "al-alaq-14-1",
@@ -548,7 +561,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sait-il pas qu’Allah Voit Tout ?"
   },
   {
     "id": "al-alaq-15",
@@ -557,7 +571,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
     "textSimple": "كلا لئن لم ينته لنسفعا بٱلناصية",
     "transliteration": "kallā la-in lam yantahi lanasfaʿan bil-nāṣiyati",
-    "translation": "",
+    "translation": "No! If he does not desist, We will surely drag him by the forelock",
     "words": [
       {
         "id": "al-alaq-15-1",
@@ -602,7 +616,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes non ! S’il ne cesse pas, Nous le prendrons par le toupet,"
   },
   {
     "id": "al-alaq-16",
@@ -611,7 +626,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ",
     "textSimple": "ناصية كـذبة خاطئة",
     "transliteration": "nāṣiyatin kādhibatin khāṭi-atin",
-    "translation": "",
+    "translation": "A lying, sinning forelock.",
     "words": [
       {
         "id": "al-alaq-16-1",
@@ -635,7 +650,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "un toupet menteur et coupable."
   },
   {
     "id": "al-alaq-17",
@@ -644,7 +660,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَلْيَدْعُ نَادِيَهُۥ",
     "textSimple": "فليدع ناديه",
     "transliteration": "falyadʿu nādiyahu",
-    "translation": "",
+    "translation": "Then let him call his associates;",
     "words": [
       {
         "id": "al-alaq-17-1",
@@ -661,7 +677,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’il appelle donc son clan (à son secours)."
   },
   {
     "id": "al-alaq-18",
@@ -670,7 +687,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "سَنَدْعُ ٱلزَّبَانِيَةَ",
     "textSimple": "سندع ٱلزبانية",
     "transliteration": "sanadʿu l-zabāniyata",
-    "translation": "",
+    "translation": "We will call the angels of Hell.",
     "words": [
       {
         "id": "al-alaq-18-1",
@@ -687,7 +704,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ferons appel aux gardiens (de l’Enfer)."
   },
   {
     "id": "al-alaq-19",
@@ -696,7 +714,7 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
     "textSimple": "كلا لا تطعه وٱسجد وٱقترب ",
     "transliteration": "kallā lā tuṭiʿ'hu wa-us'jud wa-iq'tarib",
-    "translation": "",
+    "translation": "No! Do not obey him. But prostrate and draw near [to Allāh].",
     "words": [
       {
         "id": "al-alaq-19-1",
@@ -734,7 +752,8 @@ export const AL__ALAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non ! Ne lui obéis pas ! Prosterne-toi et rapproche-toi (d’Allah) !"
   }
 ];
 

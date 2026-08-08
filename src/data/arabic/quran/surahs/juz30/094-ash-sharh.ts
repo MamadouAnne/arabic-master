@@ -11,7 +11,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": " أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
     "textSimple": " ألم نشرح لك صدرك",
     "transliteration": "alam nashraḥ laka ṣadraka",
-    "translation": "",
+    "translation": "Did We not expand for you, [O Muḥammad], your breast?",
     "words": [
       {
         "id": "ash-sharh-1-1",
@@ -42,7 +42,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne t’avons-Nous pas ouvert la poitrine?"
   },
   {
     "id": "ash-sharh-2",
@@ -51,7 +52,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
     "textSimple": "ووضعنا عنك وزرك",
     "transliteration": "wawaḍaʿnā ʿanka wiz'raka",
-    "translation": "",
+    "translation": "And We removed from you your burden",
     "words": [
       {
         "id": "ash-sharh-2-1",
@@ -75,7 +76,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’avons-Nous pas déposé pour toi ton fardeau"
   },
   {
     "id": "ash-sharh-3",
@@ -84,7 +86,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
     "textSimple": "ٱلذىٓ أنقض ظهرك",
     "transliteration": "alladhī anqaḍa ẓahraka",
-    "translation": "",
+    "translation": "Which had weighed upon your back",
     "words": [
       {
         "id": "ash-sharh-3-1",
@@ -108,7 +110,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui pesait si lourd sur ton dos ?"
   },
   {
     "id": "ash-sharh-4",
@@ -117,7 +120,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
     "textSimple": "ورفعنا لك ذكرك",
     "transliteration": "warafaʿnā laka dhik'raka",
-    "translation": "",
+    "translation": "And raised high for you your repute.",
     "words": [
       {
         "id": "ash-sharh-4-1",
@@ -141,7 +144,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(N’avons-Nous) pas élevé ton nom ?"
   },
   {
     "id": "ash-sharh-5",
@@ -150,7 +154,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
     "textSimple": "فإن مع ٱلعسر يسرا",
     "transliteration": "fa-inna maʿa l-ʿus'ri yus'ran",
-    "translation": "",
+    "translation": "For indeed, with hardship [will be] ease [i.e., relief].",
     "words": [
       {
         "id": "ash-sharh-5-1",
@@ -181,7 +185,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes, avec la peine vient le soulagement;"
   },
   {
     "id": "ash-sharh-6",
@@ -190,7 +195,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
     "textSimple": "إن مع ٱلعسر يسرا",
     "transliteration": "inna maʿa l-ʿus'ri yus'ran",
-    "translation": "",
+    "translation": "Indeed, with hardship [will be] ease.",
     "words": [
       {
         "id": "ash-sharh-6-1",
@@ -221,7 +226,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Oui, avec la peine vient le soulagement."
   },
   {
     "id": "ash-sharh-7",
@@ -230,7 +236,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
     "textSimple": "فإذا فرغت فٱنصب",
     "transliteration": "fa-idhā faraghta fa-inṣab",
-    "translation": "",
+    "translation": "So when you have finished [your duties], then stand up [for worship].",
     "words": [
       {
         "id": "ash-sharh-7-1",
@@ -254,7 +260,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand tu auras accompli (tes devoirs terrestres), lève-toi (pour la prière),"
   },
   {
     "id": "ash-sharh-8",
@@ -263,7 +270,7 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
     "textSimple": "وإلى ربك فٱرغب",
     "transliteration": "wa-ilā rabbika fa-ir'ghab",
-    "translation": "",
+    "translation": "And to your Lord direct [your] longing.",
     "words": [
       {
         "id": "ash-sharh-8-1",
@@ -287,7 +294,8 @@ export const ASH_SHARH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et recherche ton Seigneur avec empressement !"
   }
 ];
 

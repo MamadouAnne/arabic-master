@@ -11,7 +11,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": " يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": " يسبح لله ما فى ٱلسمـوت وما فى ٱلأرض  له ٱلملك وله ٱلحمد  وهو على كل شىء قدير",
     "transliteration": "yusabbiḥu lillahi mā fī l-samāwāti wamā fī l-arḍi lahu l-mul'ku walahu l-ḥamdu wahuwa ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Whatever is in the heavens and whatever is on the earth is exalting Allāh. To Him belongs dominion, and to Him belongs [all] praise, and He is over all things competent.",
     "words": [
       {
         "id": "at-taghabun-1-1",
@@ -133,7 +133,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui est dans les cieux et sur terre rend gloire à Allah. À Lui la royauté ! À Lui toute louange ! Il est de Toute chose Infiniment Capable."
   },
   {
     "id": "at-taghabun-2",
@@ -142,7 +143,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى خَلَقَكُمْ فَمِنكُمْ كَافِرٌ وَمِنكُم مُّؤْمِنٌ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "هو ٱلذى خلقكم فمنكم كافر ومنكم مؤمن  وٱلله بما تعملون بصير",
     "transliteration": "huwa alladhī khalaqakum faminkum kāfirun waminkum mu'minun wal-lahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "It is He who created you, and among you is the disbeliever, and among you is the believer. And Allāh, of what you do, is Seeing.",
     "words": [
       {
         "id": "at-taghabun-2-1",
@@ -222,7 +223,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a créés. Il y a alors parmi vous le mécréant, et il y a le croyant. Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "at-taghabun-3",
@@ -231,7 +233,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
     "textSimple": "خلق ٱلسمـوت وٱلأرض بٱلحق وصوركم فأحسن صوركم  وإليه ٱلمصير",
     "transliteration": "khalaqa l-samāwāti wal-arḍa bil-ḥaqi waṣawwarakum fa-aḥsana ṣuwarakum wa-ilayhi l-maṣīru",
-    "translation": "",
+    "translation": "He created the heavens and earth in truth and formed you and perfected your forms; and to Him is the [final] destination.",
     "words": [
       {
         "id": "at-taghabun-3-1",
@@ -297,7 +299,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il créa les cieux et la terre pour une juste raison, vous a modelé dans votre forme la plus belle, et c’est vers Lui que sera le devenir."
   },
   {
     "id": "at-taghabun-4",
@@ -306,7 +309,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ ۚ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "يعلم ما فى ٱلسمـوت وٱلأرض ويعلم ما تسرون وما تعلنون  وٱلله عليم بذات ٱلصدور",
     "transliteration": "yaʿlamu mā fī l-samāwāti wal-arḍi wayaʿlamu mā tusirrūna wamā tuʿ'linūna wal-lahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "He knows what is within the heavens and earth and knows what you conceal and what you declare. And Allāh is Knowing of that within the breasts.",
     "words": [
       {
         "id": "at-taghabun-4-1",
@@ -407,7 +410,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Sait ce qui est dans les cieux et sur terre, Il Sait ce que vous tenez secret et ce que vous révélez au grand jour. Allah Sait parfaitement ce qui est au fond des cœurs."
   },
   {
     "id": "at-taghabun-5",
@@ -416,7 +420,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ فَذَاقُوا۟ وَبَالَ أَمْرِهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "ألم يأتكم نبؤا ٱلذين كفروا من قبل فذاقوا وبال أمرهم ولهم عذاب أليم",
     "transliteration": "alam yatikum naba-u alladhīna kafarū min qablu fadhāqū wabāla amrihim walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Has there not come to you the news of those who disbelieved before? So they tasted the bad consequence of their affair, and they will have a painful punishment.",
     "words": [
       {
         "id": "at-taghabun-5-1",
@@ -510,7 +514,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous est-il pas parvenu l’histoire de ceux qui ont mécru autrefois, et qui ont donc goûté le péril dû à leurs actes ? Ils auront aussi (dans l’autre monde) un supplice très douloureux."
   },
   {
     "id": "at-taghabun-6",
@@ -519,7 +524,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُۥ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَقَالُوٓا۟ أَبَشَرٌ يَهْدُونَنَا فَكَفَرُوا۟ وَتَوَلَّوا۟ ۚ وَّٱسْتَغْنَى ٱللَّهُ ۚ وَٱللَّهُ غَنِىٌّ حَمِيدٌ",
     "textSimple": "ذلك بأنه كانت تأتيهم رسلهم بٱلبينـت فقالوٓا أبشر يهدوننا فكفروا وتولوا  وٱستغنى ٱلله  وٱلله غنى حميد",
     "transliteration": "dhālika bi-annahu kānat tatīhim rusuluhum bil-bayināti faqālū abasharun yahdūnanā fakafarū watawallaw wa-is'taghnā l-lahu wal-lahu ghaniyyun ḥamīdun",
-    "translation": "",
+    "translation": "That is because their messengers used to come to them with clear evidences, but they said, \"Shall human beings guide us?\" and disbelieved and turned away. And Allāh dispensed [with them]; and Allāh is Free of need and Praiseworthy.",
     "words": [
       {
         "id": "at-taghabun-6-1",
@@ -634,7 +639,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce que les Messagers venaient leur apporter les preuves évidentes et eux leur disaient : « Serions-nous donc guidés par des humains comme nous ? » Ils mécroyaient donc et se détournaient. Mais Allah Se passait d’eux. Allah est Celui Qui Se passe de Toute chose et le Digne de Toute Louange."
   },
   {
     "id": "at-taghabun-7",
@@ -643,7 +649,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "زَعَمَ ٱلَّذِينَ كَفَرُوٓا۟ أَن لَّن يُبْعَثُوا۟ ۚ قُلْ بَلَىٰ وَرَبِّى لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ ۚ وَذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
     "textSimple": "زعم ٱلذين كفروٓا أن لن يبعثوا  قل بلى وربى لتبعثن ثم لتنبؤن بما عملتم  وذلك على ٱلله يسير",
     "transliteration": "zaʿama alladhīna kafarū an lan yub'ʿathū qul balā warabbī latub'ʿathunna thumma latunabba-unna bimā ʿamil'tum wadhālika ʿalā l-lahi yasīrun",
-    "translation": "",
+    "translation": "Those who disbelieve have claimed that they will never be resurrected. Say, \"Yes, by my Lord, you will surely be resurrected; then you will surely be informed of what you did. And that, for Allāh, is easy.\"",
     "words": [
       {
         "id": "at-taghabun-7-1",
@@ -772,7 +778,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru prétendent qu’ils ne seront point ressuscités. Dis : « Que si ! Par mon Seigneur ! Vous serez certainement ressuscités, puis informés des actions que vos aurez faites. Cela est pour Allah chose vraiment aisée. »"
   },
   {
     "id": "at-taghabun-8",
@@ -781,7 +788,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلنُّورِ ٱلَّذِىٓ أَنزَلْنَا ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "فـٔامنوا بٱلله ورسوله وٱلنور ٱلذىٓ أنزلنا  وٱلله بما تعملون خبير",
     "transliteration": "faāminū bil-lahi warasūlihi wal-nūri alladhī anzalnā wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "So believe in Allāh and His Messenger and the light [i.e., the Qur’ān] which We have sent down. And Allāh is Aware of what you do.",
     "words": [
       {
         "id": "at-taghabun-8-1",
@@ -854,7 +861,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Croyez donc en Allah, en Son Messager et en la lumière que Nous avons fait descendre ! Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "at-taghabun-9",
@@ -863,7 +871,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "يوم يجمعكم ليوم ٱلجمع  ذلك يوم ٱلتغابن  ومن يؤمن بٱلله ويعمل صـلحا يكفر عنه سيـٔاته ويدخله جنـت تجرى من تحتها ٱلأنهـر خـلدين فيهآ أبدا  ذلك ٱلفوز ٱلعظيم",
     "transliteration": "yawma yajmaʿukum liyawmi l-jamʿi dhālika yawmu l-taghābuni waman yu'min bil-lahi wayaʿmal ṣāliḥan yukaffir ʿanhu sayyiātihi wayud'khil'hu jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā abadan dhālika l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "The Day He will assemble you for the Day of Assembly - that is the Day of Deprivation. And whoever believes in Allāh and does righteousness - He will remove from him his misdeeds and admit him to gardens beneath which rivers flow, wherein they will abide forever. That is the great attainment.",
     "words": [
       {
         "id": "at-taghabun-9-1",
@@ -1055,7 +1063,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Il vous réunira, Jour du Rassemblement, ce sera le jour de la Déception. Celui qui croit en Allah et fait le bien verra ses mauvaises actions rachetées. (Allah) le fera entrer dans des jardins sous lesquels coulent les rivières, où ils séjourneront à tout jamais. Voilà le succès suprême !"
   },
   {
     "id": "at-taghabun-10",
@@ -1064,7 +1073,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ خَـٰلِدِينَ فِيهَا ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "وٱلذين كفروا وكذبوا بـٔايـتنآ أولـٓئك أصحـب ٱلنار خـلدين فيها  وبئس ٱلمصير",
     "transliteration": "wa-alladhīna kafarū wakadhabū biāyātinā ulāika aṣḥābu l-nāri khālidīna fīhā wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "But the ones who disbelieved and denied Our verses - those are the companions of the Fire, abiding eternally therein; and wretched is the destination.",
     "words": [
       {
         "id": "at-taghabun-10-1",
@@ -1144,7 +1153,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui ont mécru et ont osé démentir Nos Signes, ceux-là seront les hôtes du Feu, où ils demeureront pour l’éternité. Quel affreux destin que le leur !"
   },
   {
     "id": "at-taghabun-11",
@@ -1153,7 +1163,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَصَابَ مِن مُّصِيبَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ يَهْدِ قَلْبَهُۥ ۚ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "مآ أصاب من مصيبة إلا بإذن ٱلله  ومن يؤمن بٱلله يهد قلبه  وٱلله بكل شىء عليم",
     "transliteration": "mā aṣāba min muṣībatin illā bi-idh'ni l-lahi waman yu'min bil-lahi yahdi qalbahu wal-lahu bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "No disaster strikes except by permission of Allāh. And whoever believes in Allāh - He will guide his heart. And Allāh is Knowing of all things.",
     "words": [
       {
         "id": "at-taghabun-11-1",
@@ -1268,7 +1278,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est malheur qui puisse vous frapper sans qu’il ne soit par la permission d’Allah. Quiconque croit en Allah, (Allah) guidera son cœur. Allah Sait parfaitement Toute chose."
   },
   {
     "id": "at-taghabun-12",
@@ -1277,7 +1288,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ ۚ فَإِن تَوَلَّيْتُمْ فَإِنَّمَا عَلَىٰ رَسُولِنَا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
     "textSimple": "وأطيعوا ٱلله وأطيعوا ٱلرسول  فإن توليتم فإنما على رسولنا ٱلبلـغ ٱلمبين",
     "transliteration": "wa-aṭīʿū l-laha wa-aṭīʿū l-rasūla fa-in tawallaytum fa-innamā ʿalā rasūlinā l-balāghu l-mubīnu",
-    "translation": "",
+    "translation": "And obey Allāh and obey the Messenger; but if you turn away - then upon Our Messenger is only [the duty of] clear notification.",
     "words": [
       {
         "id": "at-taghabun-12-1",
@@ -1357,7 +1368,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Obéissez à Allah ! Obéissez à Son Messager ! Et si vous vous détournez (de leurs commandements), le Messager n’a pour seul devoir que de transmettre (Notre Message) explicitement."
   },
   {
     "id": "at-taghabun-13",
@@ -1366,7 +1378,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
     "textSimple": "ٱلله لآ إلـه إلا هو  وعلى ٱلله فليتوكل ٱلمؤمنون",
     "transliteration": "al-lahu lā ilāha illā huwa waʿalā l-lahi falyatawakkali l-mu'minūna",
-    "translation": "",
+    "translation": "Allāh - there is no deity except Him. And upon Allāh let the believers rely.",
     "words": [
       {
         "id": "at-taghabun-13-1",
@@ -1432,7 +1444,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ! Il n’y a point d’autre divinité que Lui ! Qu’à Lui s’en remettent donc les croyants !"
   },
   {
     "id": "at-taghabun-14",
@@ -1441,7 +1454,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَـٰدِكُمْ عَدُوًّا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إن من أزوجكم وأولـدكم عدوا لكم فٱحذروهم  وإن تعفوا وتصفحوا وتغفروا فإن ٱلله غفور رحيم",
     "transliteration": "yāayyuhā alladhīna āmanū inna min azwājikum wa-awlādikum ʿaduwwan lakum fa-iḥ'dharūhum wa-in taʿfū wataṣfaḥū wataghfirū fa-inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "O you who have believed, indeed, among your spouses and your children are enemies to you, so beware of them. But if you pardon and overlook and forgive - then indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-taghabun-14-1",
@@ -1570,7 +1583,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui croyez ! Il peut se trouver des ennemis pour vous, (même) parmi vos épouses et en vos enfants. Méfiez-vous en ! Mais si vous passez (les erreurs), excusez et pardonnez, (sachez qu’) Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-taghabun-15",
@@ -1579,7 +1593,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَآ أَمْوَٰلُكُمْ وَأَوْلَـٰدُكُمْ فِتْنَةٌ ۚ وَٱللَّهُ عِندَهُۥٓ أَجْرٌ عَظِيمٌ",
     "textSimple": "إنمآ أمولكم وأولـدكم فتنة  وٱلله عندهٓ أجر عظيم",
     "transliteration": "innamā amwālukum wa-awlādukum fit'natun wal-lahu ʿindahu ajrun ʿaẓīmun",
-    "translation": "",
+    "translation": "Your wealth and your children are but a trial, and Allāh has with Him a great reward.",
     "words": [
       {
         "id": "at-taghabun-15-1",
@@ -1638,7 +1652,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos biens et vos enfants ne sont que tentation. Mais Allah, détient auprès de Lui une immense récompense."
   },
   {
     "id": "at-taghabun-16",
@@ -1647,7 +1662,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ مَا ٱسْتَطَعْتُمْ وَٱسْمَعُوا۟ وَأَطِيعُوا۟ وَأَنفِقُوا۟ خَيْرًا لِّأَنفُسِكُمْ ۗ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "فٱتقوا ٱلله ما ٱستطعتم وٱسمعوا وأطيعوا وأنفقوا خيرا لأنفسكم  ومن يوق شح نفسه فأولـٓئك هم ٱلمفلحون",
     "transliteration": "fa-ittaqū l-laha mā is'taṭaʿtum wa-is'maʿū wa-aṭīʿū wa-anfiqū khayran li-anfusikum waman yūqa shuḥḥa nafsihi fa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "So fear Allāh as much as you are able and listen and obey and spend [in the way of Allāh]; it is better for your selves. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
     "words": [
       {
         "id": "at-taghabun-16-1",
@@ -1762,7 +1777,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah autant que vous le pourrez. Écoutez, obéissez et dépensez (de vos biens) en charité, cela est meilleur pour vous. Ceux qui sont préservés de leur propre avarice sont ceux qui réussissent."
   },
   {
     "id": "at-taghabun-17",
@@ -1771,7 +1787,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "إِن تُقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعِفْهُ لَكُمْ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ شَكُورٌ حَلِيمٌ",
     "textSimple": "إن تقرضوا ٱلله قرضا حسنا يضـعفه لكم ويغفر لكم  وٱلله شكور حليم",
     "transliteration": "in tuq'riḍū l-laha qarḍan ḥasanan yuḍāʿif'hu lakum wayaghfir lakum wal-lahu shakūrun ḥalīmun",
-    "translation": "",
+    "translation": "If you loan Allāh a goodly loan, He will multiply it for you and forgive you. And Allāh is [most] Appreciative and Forbearing,",
     "words": [
       {
         "id": "at-taghabun-17-1",
@@ -1858,7 +1874,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si, de bonne volonté, vous faites un prêt à Allah, Il vous le remboursera au centuple et vous pardonnera (vos péchés), car Allah est si Reconnaissant, si Magnanime !"
   },
   {
     "id": "at-taghabun-18",
@@ -1867,7 +1884,7 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
     "textUthmani": "عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "عـلم ٱلغيب وٱلشهـدة ٱلعزيز ٱلحكيم",
     "transliteration": "ʿālimu l-ghaybi wal-shahādati l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Knower of the unseen and the witnessed, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "at-taghabun-18-1",
@@ -1905,7 +1922,8 @@ export const AT_TAGHABUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Connaît aussi bien les choses insondables que les choses observables, Lui, le Tout-Puissant, le Sage."
   }
 ];
 

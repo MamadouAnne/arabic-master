@@ -11,7 +11,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلنَّجْمِ إِذَا هَوَىٰ",
     "textSimple": " وٱلنجم إذا هوى",
     "transliteration": "wal-najmi idhā hawā",
-    "translation": "",
+    "translation": "By the star when it descends,",
     "words": [
       {
         "id": "an-najm-1-1",
@@ -35,7 +35,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par l’étoile quand elle choit !"
   },
   {
     "id": "an-najm-2",
@@ -44,7 +45,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
     "textSimple": "ما ضل صاحبكم وما غوى",
     "transliteration": "mā ḍalla ṣāḥibukum wamā ghawā",
-    "translation": "",
+    "translation": "Your companion [i.e., Muḥammad] has not strayed, nor has he erred,",
     "words": [
       {
         "id": "an-najm-2-1",
@@ -82,7 +83,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre compagnon ne s’est pas égaré, pas plus qu’il ne s’est fourvoyé."
   },
   {
     "id": "an-najm-3",
@@ -91,7 +93,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ",
     "textSimple": "وما ينطق عن ٱلهوىٓ",
     "transliteration": "wamā yanṭiqu ʿani l-hawā",
-    "translation": "",
+    "translation": "Nor does he speak from [his own] inclination.",
     "words": [
       {
         "id": "an-najm-3-1",
@@ -122,7 +124,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne prononce rien qui soit dû à la passion."
   },
   {
     "id": "an-najm-4",
@@ -131,7 +134,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هُوَ إِلَّا وَحْىٌ يُوحَىٰ",
     "textSimple": "إن هو إلا وحى يوحى",
     "transliteration": "in huwa illā waḥyun yūḥā",
-    "translation": "",
+    "translation": "It is not but a revelation revealed,",
     "words": [
       {
         "id": "an-najm-4-1",
@@ -169,7 +172,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’agit d’une révélation qui lui est inspirée."
   },
   {
     "id": "an-najm-5",
@@ -178,7 +182,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "عَلَّمَهُۥ شَدِيدُ ٱلْقُوَىٰ",
     "textSimple": "علمه شديد ٱلقوى",
     "transliteration": "ʿallamahu shadīdu l-quwā",
-    "translation": "",
+    "translation": "Taught to him by one intense in strength [i.e., Gabriel] -",
     "words": [
       {
         "id": "an-najm-5-1",
@@ -202,7 +206,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui l’a initié est d’une force inouïe,"
   },
   {
     "id": "an-najm-6",
@@ -211,7 +216,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "ذُو مِرَّةٍ فَٱسْتَوَىٰ",
     "textSimple": "ذو مرة فٱستوى",
     "transliteration": "dhū mirratin fa-is'tawā",
-    "translation": "",
+    "translation": "One of soundness. And he rose to [his] true form",
     "words": [
       {
         "id": "an-najm-6-1",
@@ -235,7 +240,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et d’une vigueur extrême. Il se manifesta"
   },
   {
     "id": "an-najm-7",
@@ -244,7 +250,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ بِٱلْأُفُقِ ٱلْأَعْلَىٰ",
     "textSimple": "وهو بٱلأفق ٱلأعلى",
     "transliteration": "wahuwa bil-ufuqi l-aʿlā",
-    "translation": "",
+    "translation": "While he was in the higher [part of the] horizon.",
     "words": [
       {
         "id": "an-najm-7-1",
@@ -268,7 +274,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors qu’il se trouvait à l’horizon suprême."
   },
   {
     "id": "an-najm-8",
@@ -277,7 +284,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ دَنَا فَتَدَلَّىٰ",
     "textSimple": "ثم دنا فتدلى",
     "transliteration": "thumma danā fatadallā",
-    "translation": "",
+    "translation": "Then he approached and descended",
     "words": [
       {
         "id": "an-najm-8-1",
@@ -301,7 +308,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il s’approcha et resta suspendu."
   },
   {
     "id": "an-najm-9",
@@ -310,7 +318,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَىٰ",
     "textSimple": "فكان قاب قوسين أو أدنى",
     "transliteration": "fakāna qāba qawsayni aw adnā",
-    "translation": "",
+    "translation": "And was at a distance of two bow lengths or nearer.",
     "words": [
       {
         "id": "an-najm-9-1",
@@ -348,7 +356,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il était alors à une distance égale à la longueur de deux arcs (mis bout à bout), ou en deçà encore."
   },
   {
     "id": "an-najm-10",
@@ -357,7 +366,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَوْحَىٰٓ إِلَىٰ عَبْدِهِۦ مَآ أَوْحَىٰ",
     "textSimple": "فأوحىٓ إلى عبده مآ أوحى",
     "transliteration": "fa-awḥā ilā ʿabdihi mā awḥā",
-    "translation": "",
+    "translation": "And he revealed to His Servant what he revealed [i.e., conveyed].",
     "words": [
       {
         "id": "an-najm-10-1",
@@ -395,7 +404,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah par son intermédiaire) révéla à Son serviteur ce qu’Il révéla."
   },
   {
     "id": "an-najm-11",
@@ -404,7 +414,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ",
     "textSimple": "ما كذب ٱلفؤاد ما رأىٓ",
     "transliteration": "mā kadhaba l-fuādu mā raā",
-    "translation": "",
+    "translation": "The heart did not lie [about] what it saw.",
     "words": [
       {
         "id": "an-najm-11-1",
@@ -442,7 +452,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le cœur ne peut mentir devant ce qu’il a vu."
   },
   {
     "id": "an-najm-12",
@@ -451,7 +462,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَتُمَـٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
     "textSimple": "أفتمـرونه على ما يرى",
     "transliteration": "afatumārūnahu ʿalā mā yarā",
-    "translation": "",
+    "translation": "So will you dispute with him over what he saw?",
     "words": [
       {
         "id": "an-najm-12-1",
@@ -482,7 +493,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allez-vous donc disputer de ce qu’il a vu, de ses propres yeux vu ?"
   },
   {
     "id": "an-najm-13",
@@ -491,7 +503,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
     "textSimple": "ولقد رءاه نزلة أخرى",
     "transliteration": "walaqad raāhu nazlatan ukh'rā",
-    "translation": "",
+    "translation": "And he certainly saw him in another descent",
     "words": [
       {
         "id": "an-najm-13-1",
@@ -522,7 +534,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il l’avait déjà vu une autre fois,"
   },
   {
     "id": "an-najm-14",
@@ -531,7 +544,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ",
     "textSimple": "عند سدرة ٱلمنتهى",
     "transliteration": "ʿinda sid'rati l-muntahā",
-    "translation": "",
+    "translation": "At the Lote Tree of the Utmost Boundary -",
     "words": [
       {
         "id": "an-najm-14-1",
@@ -555,7 +568,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "près du Lotus de la Limite (Sidrat-Al-Muntahâ)"
   },
   {
     "id": "an-najm-15",
@@ -564,7 +578,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ",
     "textSimple": "عندها جنة ٱلمأوىٓ",
     "transliteration": "ʿindahā jannatu l-mawā",
-    "translation": "",
+    "translation": "Near it is the Garden of Refuge [i.e., Paradise] -",
     "words": [
       {
         "id": "an-najm-15-1",
@@ -588,7 +602,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "auprès duquel se trouve le Jardin du Séjour (Ma’wâ)."
   },
   {
     "id": "an-najm-16",
@@ -597,7 +612,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ",
     "textSimple": "إذ يغشى ٱلسدرة ما يغشى",
     "transliteration": "idh yaghshā l-sid'rata mā yaghshā",
-    "translation": "",
+    "translation": "When there covered the Lote Tree that which covered [it].",
     "words": [
       {
         "id": "an-najm-16-1",
@@ -635,7 +650,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Lotus était alors couvert de ce qui devait le couvrir."
   },
   {
     "id": "an-najm-17",
@@ -644,7 +660,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ",
     "textSimple": "ما زاغ ٱلبصر وما طغى",
     "transliteration": "mā zāgha l-baṣaru wamā ṭaghā",
-    "translation": "",
+    "translation": "The sight [of the Prophet (ﷺ)] did not swerve, nor did it transgress [its limit].",
     "words": [
       {
         "id": "an-najm-17-1",
@@ -682,7 +698,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le regard (du Prophète) n’a point dévié ni transgressé les limites."
   },
   {
     "id": "an-najm-18",
@@ -691,7 +708,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ رَأَىٰ مِنْ ءَايَـٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ",
     "textSimple": "لقد رأى من ءايـت ربه ٱلكبرىٓ",
     "transliteration": "laqad raā min āyāti rabbihi l-kub'rā",
-    "translation": "",
+    "translation": "He certainly saw of the greatest signs of his Lord.",
     "words": [
       {
         "id": "an-najm-18-1",
@@ -736,7 +753,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi put-il voir les plus grands Signes de son Seigneur."
   },
   {
     "id": "an-najm-19",
@@ -745,7 +763,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتُمُ ٱللَّـٰتَ وَٱلْعُزَّىٰ",
     "textSimple": "أفرءيتم ٱللـت وٱلعزى",
     "transliteration": "afara-aytumu l-lāta wal-ʿuzā",
-    "translation": "",
+    "translation": "So have you considered al-Lāt and al-ʿUzzā?",
     "words": [
       {
         "id": "an-najm-19-1",
@@ -769,7 +787,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avez-vous donc considéré Al-Lât et Al-‘Uzzâ ?"
   },
   {
     "id": "an-najm-20",
@@ -778,7 +797,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنَوٰةَ ٱلثَّالِثَةَ ٱلْأُخْرَىٰٓ",
     "textSimple": "ومنوة ٱلثالثة ٱلأخرىٓ",
     "transliteration": "wamanata l-thālithata l-ukh'rā",
-    "translation": "",
+    "translation": "And Manāt, the third - the other one?",
     "words": [
       {
         "id": "an-najm-20-1",
@@ -802,7 +821,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Manât, cette autre troisième (divinité)?"
   },
   {
     "id": "an-najm-21",
@@ -811,7 +831,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ",
     "textSimple": "ألكم ٱلذكر وله ٱلأنثى",
     "transliteration": "alakumu l-dhakaru walahu l-unthā",
-    "translation": "",
+    "translation": "Is the male for you and for Him the female?",
     "words": [
       {
         "id": "an-najm-21-1",
@@ -842,7 +862,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous auriez donc des enfants mâles et Lui des filles ?"
   },
   {
     "id": "an-najm-22",
@@ -851,7 +872,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰٓ",
     "textSimple": "تلك إذا قسمة ضيزىٓ",
     "transliteration": "til'ka idhan qis'matun ḍīzā",
-    "translation": "",
+    "translation": "That, then, is an unjust division.",
     "words": [
       {
         "id": "an-najm-22-1",
@@ -882,7 +903,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà un partage bien injuste !"
   },
   {
     "id": "an-najm-23",
@@ -891,7 +913,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هِىَ إِلَّآ أَسْمَآءٌ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ",
     "textSimple": "إن هى إلآ أسمآء سميتموهآ أنتم وءابآؤكم مآ أنزل ٱلله بها من سلطـن  إن يتبعون إلا ٱلظن وما تهوى ٱلأنفس  ولقد جآءهم من ربهم ٱلهدىٓ",
     "transliteration": "in hiya illā asmāon sammaytumūhā antum waābāukum mā anzala l-lahu bihā min sul'ṭānin in yattabiʿūna illā l-ẓana wamā tahwā l-anfusu walaqad jāahum min rabbihimu l-hudā",
-    "translation": "",
+    "translation": "They are not but [mere] names you have named them - you and your forefathers - for which Allāh has sent down no authority. They follow not except assumption and what [their] souls desire, and there has already come to them from their Lord guidance.",
     "words": [
       {
         "id": "an-najm-23-1",
@@ -1069,7 +1091,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce ne sont là que des noms que vous avez forgés vous-mêmes, ainsi que vos ancêtres, sans qu’Allah n’ait révélé à leur propos aucune évidente preuve d’autorité. Ils ne font donc que suivre les suppositions et les exigences de leurs propres passions. Pourtant, la juste direction (hudâ) leur est parvenue de leur Seigneur."
   },
   {
     "id": "an-najm-24",
@@ -1078,7 +1101,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لِلْإِنسَـٰنِ مَا تَمَنَّىٰ",
     "textSimple": "أم للإنسـن ما تمنى",
     "transliteration": "am lil'insāni mā tamannā",
-    "translation": "",
+    "translation": "Or is there for man whatever he wishes?",
     "words": [
       {
         "id": "an-najm-24-1",
@@ -1109,7 +1132,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À moins que l’homme ne veuille avoir tout ce qu’il désire !"
   },
   {
     "id": "an-najm-25",
@@ -1118,7 +1142,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَلِلَّهِ ٱلْـَٔاخِرَةُ وَٱلْأُولَىٰ",
     "textSimple": "فلله ٱلـٔاخرة وٱلأولى",
     "transliteration": "falillahi l-ākhiratu wal-ūlā",
-    "translation": "",
+    "translation": "Rather, to Allāh belongs the Hereafter and the first [life].",
     "words": [
       {
         "id": "an-najm-25-1",
@@ -1142,7 +1166,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartiennent la vie dernière et la vie première."
   },
   {
     "id": "an-najm-26",
@@ -1151,7 +1176,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَكَم مِّن مَّلَكٍ فِى ٱلسَّمَـٰوَٰتِ لَا تُغْنِى شَفَـٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰٓ",
     "textSimple": " وكم من ملك فى ٱلسمـوت لا تغنى شفـعتهم شيـٔا إلا من بعد أن يأذن ٱلله لمن يشآء ويرضىٓ",
     "transliteration": "wakam min malakin fī l-samāwāti lā tugh'nī shafāʿatuhum shayan illā min baʿdi an yadhana l-lahu liman yashāu wayarḍā",
-    "translation": "",
+    "translation": "And how many angels there are in the heavens whose intercession will not avail at all except [only] after Allāh has permitted [it] to whom He wills and approves.",
     "words": [
       {
         "id": "an-najm-26-1",
@@ -1280,7 +1305,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien d’Anges se trouvent dans les cieux et dont l’intercession est inutile ! Sauf après qu’Allah l’aura permis à qui Il voudra et dont Il sera satisfait."
   },
   {
     "id": "an-najm-27",
@@ -1289,7 +1315,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ لَيُسَمُّونَ ٱلْمَلَـٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ",
     "textSimple": "إن ٱلذين لا يؤمنون بٱلـٔاخرة ليسمون ٱلملـٓئكة تسمية ٱلأنثى",
     "transliteration": "inna alladhīna lā yu'minūna bil-ākhirati layusammūna l-malāikata tasmiyata l-unthā",
-    "translation": "",
+    "translation": "Indeed, those who do not believe in the Hereafter name the angels female names,",
     "words": [
       {
         "id": "an-najm-27-1",
@@ -1355,7 +1381,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ne croient pas en l’autre monde attribuent aux Anges des noms féminins."
   },
   {
     "id": "an-najm-28",
@@ -1364,7 +1391,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًٔا",
     "textSimple": "وما لهم به من علم  إن يتبعون إلا ٱلظن  وإن ٱلظن لا يغنى من ٱلحق شيـٔا",
     "transliteration": "wamā lahum bihi min ʿil'min in yattabiʿūna illā l-ẓana wa-inna l-ẓana lā yugh'nī mina l-ḥaqi shayan",
-    "translation": "",
+    "translation": "And they have thereof no knowledge. They follow not except assumption, and indeed, assumption avails not against the truth at all.",
     "words": [
       {
         "id": "an-najm-28-1",
@@ -1479,7 +1506,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’en ont cependant aucune science, et ne font que suivre des suppositions. Or les suppositions ne sauraient dispenser en rien de la vérité."
   },
   {
     "id": "an-najm-29",
@@ -1488,7 +1516,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
     "textSimple": "فأعرض عن من تولى عن ذكرنا ولم يرد إلا ٱلحيوة ٱلدنيا",
     "transliteration": "fa-aʿriḍ ʿan man tawallā ʿan dhik'rinā walam yurid illā l-ḥayata l-dun'yā",
-    "translation": "",
+    "translation": "So turn away from whoever turns his back on Our message and desires not except the worldly life.",
     "words": [
       {
         "id": "an-najm-29-1",
@@ -1568,7 +1596,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détourne-toi donc de quiconque s’est lui-même détourné de Notre Rappel, et qui ne veut rien d’autre que la vie en ce bas monde."
   },
   {
     "id": "an-najm-30",
@@ -1577,7 +1606,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ",
     "textSimple": "ذلك مبلغهم من ٱلعلم  إن ربك هو أعلم بمن ضل عن سبيله وهو أعلم بمن ٱهتدى",
     "transliteration": "dhālika mablaghuhum mina l-ʿil'mi inna rabbaka huwa aʿlamu biman ḍalla ʿan sabīlihi wahuwa aʿlamu bimani ih'tadā",
-    "translation": "",
+    "translation": "That is their sum of knowledge. Indeed, your Lord is most knowing of who strays from His way, and He is most knowing of who is guided.",
     "words": [
       {
         "id": "an-najm-30-1",
@@ -1692,7 +1721,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà jusqu’où peut aller leur savoir. Ton Seigneur Sait le mieux qui s’est égaré de Son chemin, et Il Sait le mieux qui est toujours guidé (dans la juste direction)."
   },
   {
     "id": "an-najm-31",
@@ -1701,7 +1731,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَـٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى",
     "textSimple": "ولله ما فى ٱلسمـوت وما فى ٱلأرض ليجزى ٱلذين أسـٓـٔوا بما عملوا ويجزى ٱلذين أحسنوا بٱلحسنى",
     "transliteration": "walillahi mā fī l-samāwāti wamā fī l-arḍi liyajziya alladhīna asāū bimā ʿamilū wayajziya alladhīna aḥsanū bil-ḥus'nā",
-    "translation": "",
+    "translation": "And to Allāh belongs whatever is in the heavens and whatever is in the earth - that He may recompense those who do evil with [the penalty of] what they have done and recompense those who do good with the best [reward] -",
     "words": [
       {
         "id": "an-najm-31-1",
@@ -1816,7 +1846,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient ce qu’il y a dans les cieux et sur terre, afin qu’Il rétribue ceux qui auront fait le mal selon leurs œuvres, et ceux qui auront fait le bien par la plus belle des récompenses,"
   },
   {
     "id": "an-najm-32",
@@ -1825,7 +1856,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِى بُطُونِ أُمَّهَـٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
     "textSimple": "ٱلذين يجتنبون كبـٓئر ٱلإثم وٱلفوحش إلا ٱللمم  إن ربك وسع ٱلمغفرة  هو أعلم بكم إذ أنشأكم من ٱلأرض وإذ أنتم أجنة فى بطون أمهـتكم  فلا تزكوٓا أنفسكم  هو أعلم بمن ٱتقىٓ",
     "transliteration": "alladhīna yajtanibūna kabāira l-ith'mi wal-fawāḥisha illā l-lamama inna rabbaka wāsiʿu l-maghfirati huwa aʿlamu bikum idh ansha-akum mina l-arḍi wa-idh antum ajinnatun fī buṭūni ummahātikum falā tuzakkū anfusakum huwa aʿlamu bimani ittaqā",
-    "translation": "",
+    "translation": "Those who avoid the major sins and immoralities, only [committing] slight ones. Indeed, your Lord is vast in forgiveness. He was most knowing of you when He produced you from the earth and when you were fetuses in the wombs of your mothers. So do not claim yourselves to be pure; He is most knowing of who fears Him.",
     "words": [
       {
         "id": "an-najm-32-1",
@@ -2045,7 +2076,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là qui évitent les péchés majeurs et les turpitudes et (ne faiblissent que devant) les peccadilles. Vaste est le pardon de ton Seigneur ! Il en Sait sur vous mieux (que personne) quand Il vous a créés à partir de la terre, et quand vous n’étiez que des embryons dans les ventres de vos mères. Ne vous tenez pas trop pour des gens purs (et infaillibles), car Lui Sait mieux qui (Le) craint pieusement."
   },
   {
     "id": "an-najm-33",
@@ -2054,7 +2086,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ",
     "textSimple": "أفرءيت ٱلذى تولى",
     "transliteration": "afara-ayta alladhī tawallā",
-    "translation": "",
+    "translation": "Have you seen the one who turned away",
     "words": [
       {
         "id": "an-najm-33-1",
@@ -2078,7 +2110,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu donc pas celui qui a tourné le dos (à Notre Rappel),"
   },
   {
     "id": "an-najm-34",
@@ -2087,7 +2120,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰٓ",
     "textSimple": "وأعطى قليلا وأكدىٓ",
     "transliteration": "wa-aʿṭā qalīlan wa-akdā",
-    "translation": "",
+    "translation": "And gave a little and [then] refrained?",
     "words": [
       {
         "id": "an-najm-34-1",
@@ -2111,7 +2144,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui a donné peu, puis s’est abstenu (de donner) ?"
   },
   {
     "id": "an-najm-35",
@@ -2120,7 +2154,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَعِندَهُۥ عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰٓ",
     "textSimple": "أعنده علم ٱلغيب فهو يرىٓ",
     "transliteration": "aʿindahu ʿil'mu l-ghaybi fahuwa yarā",
-    "translation": "",
+    "translation": "Does he have knowledge of the unseen, so he sees?",
     "words": [
       {
         "id": "an-najm-35-1",
@@ -2158,7 +2192,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aurait-il par-devers lui la science de l’Inconnaissable (ghayb) au point qu’il voit (tout) ?"
   },
   {
     "id": "an-najm-36",
@@ -2167,7 +2202,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ",
     "textSimple": "أم لم ينبأ بما فى صحف موسى",
     "transliteration": "am lam yunabba bimā fī ṣuḥufi mūsā",
-    "translation": "",
+    "translation": "Or has he not been informed of what was in the scriptures of Moses",
     "words": [
       {
         "id": "an-najm-36-1",
@@ -2219,7 +2254,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou peut-être n’a-t-il pas été informé du contenu des Feuillets de Moïse,"
   },
   {
     "id": "an-najm-37",
@@ -2228,7 +2264,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ",
     "textSimple": "وإبرهيم ٱلذى وفىٓ",
     "transliteration": "wa-ib'rāhīma alladhī waffā",
-    "translation": "",
+    "translation": "And [of] Abraham, who fulfilled [his obligations] -",
     "words": [
       {
         "id": "an-najm-37-1",
@@ -2252,7 +2288,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et d’Abraham qui s’est acquitté (de sa mission et de ses devoirs)"
   },
   {
     "id": "an-najm-38",
@@ -2261,7 +2298,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
     "textSimple": "ألا تزر وازرة وزر أخرى",
     "transliteration": "allā taziru wāziratun wiz'ra ukh'rā",
-    "translation": "",
+    "translation": "That no bearer of burdens will bear the burden of another",
     "words": [
       {
         "id": "an-najm-38-1",
@@ -2299,7 +2336,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(lesquels Feuillets indiquent que) nul ne portera le fardeau d’un autre,"
   },
   {
     "id": "an-najm-39",
@@ -2308,7 +2346,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ",
     "textSimple": "وأن ليس للإنسـن إلا ما سعى",
     "transliteration": "wa-an laysa lil'insāni illā mā saʿā",
-    "translation": "",
+    "translation": "And that there is not for man except that [good] for which he strives",
     "words": [
       {
         "id": "an-najm-39-1",
@@ -2353,7 +2391,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que l’homme n’aura que ce pour quoi il a œuvré,"
   },
   {
     "id": "an-najm-40",
@@ -2362,7 +2401,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
     "textSimple": "وأن سعيه سوف يرى",
     "transliteration": "wa-anna saʿyahu sawfa yurā",
-    "translation": "",
+    "translation": "And that his effort is going to be seen -",
     "words": [
       {
         "id": "an-najm-40-1",
@@ -2393,7 +2432,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que son effort sera considéré ;"
   },
   {
     "id": "an-najm-41",
@@ -2402,7 +2442,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يُجْزَىٰهُ ٱلْجَزَآءَ ٱلْأَوْفَىٰ",
     "textSimple": "ثم يجزىه ٱلجزآء ٱلأوفى",
     "transliteration": "thumma yuj'zāhu l-jazāa l-awfā",
-    "translation": "",
+    "translation": "Then he will be recompensed for it with the fullest recompense -",
     "words": [
       {
         "id": "an-najm-41-1",
@@ -2433,7 +2473,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis qu’il sera pleinement rétribué,"
   },
   {
     "id": "an-najm-42",
@@ -2442,7 +2483,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ",
     "textSimple": "وأن إلى ربك ٱلمنتهى",
     "transliteration": "wa-anna ilā rabbika l-muntahā",
-    "translation": "",
+    "translation": "And that to your Lord is the finality",
     "words": [
       {
         "id": "an-najm-42-1",
@@ -2473,7 +2514,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que vers ton Seigneur tout devra aller à sa fin,"
   },
   {
     "id": "an-najm-43",
@@ -2482,7 +2524,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
     "textSimple": "وأنه هو أضحك وأبكى",
     "transliteration": "wa-annahu huwa aḍḥaka wa-abkā",
-    "translation": "",
+    "translation": "And that it is He who makes [one] laugh and weep",
     "words": [
       {
         "id": "an-najm-43-1",
@@ -2513,7 +2555,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que c’est Lui Qui fait rire et fait pleurer,"
   },
   {
     "id": "an-najm-44",
@@ -2522,7 +2565,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ هُوَ أَمَاتَ وَأَحْيَا",
     "textSimple": "وأنه هو أمات وأحيا",
     "transliteration": "wa-annahu huwa amāta wa-aḥyā",
-    "translation": "",
+    "translation": "And that it is He who causes death and gives life",
     "words": [
       {
         "id": "an-najm-44-1",
@@ -2553,7 +2596,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que c’est Lui Qui fait mourir et vivre,"
   },
   {
     "id": "an-najm-45",
@@ -2562,7 +2606,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
     "textSimple": "وأنه خلق ٱلزوجين ٱلذكر وٱلأنثى",
     "transliteration": "wa-annahu khalaqa l-zawjayni l-dhakara wal-unthā",
-    "translation": "",
+    "translation": "And that He creates the two mates - the male and female -",
     "words": [
       {
         "id": "an-najm-45-1",
@@ -2600,7 +2644,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’Il a créé le couple en mâle et femelle,"
   },
   {
     "id": "an-najm-46",
@@ -2609,7 +2654,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
     "textSimple": "من نطفة إذا تمنى",
     "transliteration": "min nuṭ'fatin idhā tum'nā",
-    "translation": "",
+    "translation": "From a sperm-drop when it is emitted",
     "words": [
       {
         "id": "an-najm-46-1",
@@ -2640,7 +2685,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à partir d’une goutte de sperme éjaculé,"
   },
   {
     "id": "an-najm-47",
@@ -2649,7 +2695,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلْأُخْرَىٰ",
     "textSimple": "وأن عليه ٱلنشأة ٱلأخرى",
     "transliteration": "wa-anna ʿalayhi l-nashata l-ukh'rā",
-    "translation": "",
+    "translation": "And that [incumbent] upon Him is the other [i.e., next] creation.",
     "words": [
       {
         "id": "an-najm-47-1",
@@ -2680,7 +2726,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’à Lui incombe l’autre création,"
   },
   {
     "id": "an-najm-48",
@@ -2689,7 +2736,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ هُوَ أَغْنَىٰ وَأَقْنَىٰ",
     "textSimple": "وأنه هو أغنى وأقنى",
     "transliteration": "wa-annahu huwa aghnā wa-aqnā",
-    "translation": "",
+    "translation": "And that it is He who enriches and suffices",
     "words": [
       {
         "id": "an-najm-48-1",
@@ -2720,7 +2767,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que c’est Lui Qui enrichit et Qui pourvoit aux besoins,"
   },
   {
     "id": "an-najm-49",
@@ -2729,7 +2777,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ",
     "textSimple": "وأنه هو رب ٱلشعرى",
     "transliteration": "wa-annahu huwa rabbu l-shiʿ'rā",
-    "translation": "",
+    "translation": "And that it is He who is the Lord of Sirius.",
     "words": [
       {
         "id": "an-najm-49-1",
@@ -2760,7 +2808,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que c’est Lui le Seigneur de Sirius,"
   },
   {
     "id": "an-najm-50",
@@ -2769,7 +2818,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ",
     "textSimple": "وأنهٓ أهلك عادا ٱلأولى",
     "transliteration": "wa-annahu ahlaka ʿādan l-ūlā",
-    "translation": "",
+    "translation": "And that He destroyed the first [people of] ʿAad.",
     "words": [
       {
         "id": "an-najm-50-1",
@@ -2800,7 +2849,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et c’est Lui Qui fit périr les premiers ‘Ad,"
   },
   {
     "id": "an-najm-51",
@@ -2809,7 +2859,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَثَمُودَا۟ فَمَآ أَبْقَىٰ",
     "textSimple": "وثمودا فمآ أبقى",
     "transliteration": "wathamūdā famā abqā",
-    "translation": "",
+    "translation": "And Thamūd - and He did not spare [them] -",
     "words": [
       {
         "id": "an-najm-51-1",
@@ -2833,7 +2883,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les Thamûd jusqu’au dernier,"
   },
   {
     "id": "an-najm-52",
@@ -2842,7 +2893,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ",
     "textSimple": "وقوم نوح من قبل  إنهم كانوا هم أظلم وأطغى",
     "transliteration": "waqawma nūḥin min qablu innahum kānū hum aẓlama wa-aṭghā",
-    "translation": "",
+    "translation": "And the people of Noah before. Indeed, it was they who were [even] more unjust and oppressing.",
     "words": [
       {
         "id": "an-najm-52-1",
@@ -2908,7 +2959,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et le peuple de Noé, avant eux, qui fut encore plus injuste et plus rebelle,"
   },
   {
     "id": "an-najm-53",
@@ -2917,7 +2969,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ",
     "textSimple": "وٱلمؤتفكة أهوى",
     "transliteration": "wal-mu'tafikata ahwā",
-    "translation": "",
+    "translation": "And the overturned towns He hurled down.",
     "words": [
       {
         "id": "an-najm-53-1",
@@ -2934,7 +2986,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les villes renversées, c’est Lui Qui les démolit :"
   },
   {
     "id": "an-najm-54",
@@ -2943,7 +2996,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَغَشَّىٰهَا مَا غَشَّىٰ",
     "textSimple": "فغشىها ما غشى",
     "transliteration": "faghashāhā mā ghashā",
-    "translation": "",
+    "translation": "And covered them by that which He covered.",
     "words": [
       {
         "id": "an-najm-54-1",
@@ -2967,7 +3020,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les couvrit par ce qui devait les couvrir."
   },
   {
     "id": "an-najm-55",
@@ -2976,7 +3030,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكَ تَتَمَارَىٰ",
     "textSimple": "فبأى ءالآء ربك تتمارى",
     "transliteration": "fabi-ayyi ālāi rabbika tatamārā",
-    "translation": "",
+    "translation": "Then which of the favors of your Lord do you doubt?",
     "words": [
       {
         "id": "an-najm-55-1",
@@ -3007,7 +3061,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quel bienfait de ton Seigneur, alors, mettras-tu en doute ?"
   },
   {
     "id": "an-najm-56",
@@ -3016,7 +3071,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا نَذِيرٌ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ",
     "textSimple": "هـذا نذير من ٱلنذر ٱلأولىٓ",
     "transliteration": "hādhā nadhīrun mina l-nudhuri l-ūlā",
-    "translation": "",
+    "translation": "This [Prophet (ﷺ)] is a warner from [i.e., like] the former warners.",
     "words": [
       {
         "id": "an-najm-56-1",
@@ -3054,7 +3109,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici un avertisseur héritier des avertisseurs d’autrefois."
   },
   {
     "id": "an-najm-57",
@@ -3063,7 +3119,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَزِفَتِ ٱلْـَٔازِفَةُ",
     "textSimple": "أزفت ٱلـٔازفة",
     "transliteration": "azifati l-āzifatu",
-    "translation": "",
+    "translation": "The Approaching Day has approached.",
     "words": [
       {
         "id": "an-najm-57-1",
@@ -3080,7 +3136,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’Heure Imminente approche."
   },
   {
     "id": "an-najm-58",
@@ -3089,7 +3146,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ",
     "textSimple": "ليس لها من دون ٱلله كاشفة",
     "transliteration": "laysa lahā min dūni l-lahi kāshifatun",
-    "translation": "",
+    "translation": "Of it, [from those] besides Allāh, there is no remover.",
     "words": [
       {
         "id": "an-najm-58-1",
@@ -3134,7 +3191,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle ne saurait être dévoilée par d’autres qu’Allah."
   },
   {
     "id": "an-najm-59",
@@ -3143,7 +3201,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمِنْ هَـٰذَا ٱلْحَدِيثِ تَعْجَبُونَ",
     "textSimple": "أفمن هـذا ٱلحديث تعجبون",
     "transliteration": "afamin hādhā l-ḥadīthi taʿjabūna",
-    "translation": "",
+    "translation": "Then at this statement do you wonder?",
     "words": [
       {
         "id": "an-najm-59-1",
@@ -3174,7 +3232,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sont-ce là des propos qui vous étonnent ?"
   },
   {
     "id": "an-najm-60",
@@ -3183,7 +3242,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
     "textSimple": "وتضحكون ولا تبكون",
     "transliteration": "wataḍḥakūna walā tabkūna",
-    "translation": "",
+    "translation": "And you laugh and do not weep",
     "words": [
       {
         "id": "an-najm-60-1",
@@ -3207,7 +3266,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En riez-vous plutôt que d’en pleurer,"
   },
   {
     "id": "an-najm-61",
@@ -3216,7 +3276,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنتُمْ سَـٰمِدُونَ",
     "textSimple": "وأنتم سـمدون",
     "transliteration": "wa-antum sāmidūna",
-    "translation": "",
+    "translation": "While you are proudly sporting?",
     "words": [
       {
         "id": "an-najm-61-1",
@@ -3233,7 +3293,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous en souciant nullement?"
   },
   {
     "id": "an-najm-62",
@@ -3242,7 +3303,7 @@ export const AN_NAJM_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩",
     "textSimple": "فٱسجدوا لله وٱعبدوا ",
     "transliteration": "fa-us'judū lillahi wa-uʿ'budū",
-    "translation": "",
+    "translation": "So prostrate to Allāh and worship [Him].",
     "words": [
       {
         "id": "an-najm-62-1",
@@ -3266,7 +3327,8 @@ export const AN_NAJM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prosternez-vous donc devant Allah et adorez-Le !"
   }
 ];
 

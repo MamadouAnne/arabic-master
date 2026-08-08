@@ -11,7 +11,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": " الٓمٓصٓ",
     "textSimple": " الٓمٓصٓ",
     "transliteration": "alif-lam-meem-sad",
-    "translation": "",
+    "translation": "Alif, Lām, Meem, Ṣād.",
     "words": [
       {
         "id": "al-a-raf-1-1",
@@ -21,7 +21,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Mîm, Çâd."
   },
   {
     "id": "al-a-raf-2",
@@ -30,7 +31,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "كِتَـٰبٌ أُنزِلَ إِلَيْكَ فَلَا يَكُن فِى صَدْرِكَ حَرَجٌ مِّنْهُ لِتُنذِرَ بِهِۦ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
     "textSimple": "كتـب أنزل إليك فلا يكن فى صدرك حرج منه لتنذر به وذكرى للمؤمنين",
     "transliteration": "kitābun unzila ilayka falā yakun fī ṣadrika ḥarajun min'hu litundhira bihi wadhik'rā lil'mu'minīna",
-    "translation": "",
+    "translation": "[This is] a Book revealed to you, [O Muḥammad] - so let there not be in your breast distress therefrom - that you may warn thereby and as a reminder to the believers.",
     "words": [
       {
         "id": "al-a-raf-2-1",
@@ -124,7 +125,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Voici) un Livre qu’On a fait descendre vers toi (en révélation). Qu’il n’y en ait donc, dans ton cœur, aucune gêne, mais qu’il (te serve) à avertir et qu’il soit un rappel (adressé) aux croyants."
   },
   {
     "id": "al-a-raf-3",
@@ -133,7 +135,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱتَّبِعُوا۟ مَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَا تَتَّبِعُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ۗ قَلِيلًا مَّا تَذَكَّرُونَ",
     "textSimple": "ٱتبعوا مآ أنزل إليكم من ربكم ولا تتبعوا من دونهٓ أوليآء  قليلا ما تذكرون",
     "transliteration": "ittabiʿū mā unzila ilaykum min rabbikum walā tattabiʿū min dūnihi awliyāa qalīlan mā tadhakkarūna",
-    "translation": "",
+    "translation": "Follow, [O mankind], what has been revealed to you from your Lord and do not follow other than Him any allies. Little do you remember.",
     "words": [
       {
         "id": "al-a-raf-3-1",
@@ -234,7 +236,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suivez ce qu’On a fait descendre vers vous de la part de votre Seigneur, et ne suivez point d’autres alliés en dehors de Lui. Il est rare que vous vous en souveniez."
   },
   {
     "id": "al-a-raf-4",
@@ -243,7 +246,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَم مِّن قَرْيَةٍ أَهْلَكْنَـٰهَا فَجَآءَهَا بَأْسُنَا بَيَـٰتًا أَوْ هُمْ قَآئِلُونَ",
     "textSimple": "وكم من قرية أهلكنـها فجآءها بأسنا بيـتا أو هم قآئلون",
     "transliteration": "wakam min qaryatin ahlaknāhā fajāahā basunā bayātan aw hum qāilūna",
-    "translation": "",
+    "translation": "And how many cities have We destroyed, and Our punishment came to them at night or while they were sleeping at noon.",
     "words": [
       {
         "id": "al-a-raf-4-1",
@@ -316,7 +319,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de cités avons-Nous anéanties ! Nos rigueurs les ont frappées de nuit ou au moment où ils faisaient la sieste."
   },
   {
     "id": "al-a-raf-5",
@@ -325,7 +329,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا كَانَ دَعْوَىٰهُمْ إِذْ جَآءَهُم بَأْسُنَآ إِلَّآ أَن قَالُوٓا۟ إِنَّا كُنَّا ظَـٰلِمِينَ",
     "textSimple": "فما كان دعوىهم إذ جآءهم بأسنآ إلآ أن قالوٓا إنا كنا ظـلمين",
     "transliteration": "famā kāna daʿwāhum idh jāahum basunā illā an qālū innā kunnā ẓālimīna",
-    "translation": "",
+    "translation": "And their declaration when Our punishment came to them was only that they said, \"Indeed, we were wrongdoers!\"",
     "words": [
       {
         "id": "al-a-raf-5-1",
@@ -412,7 +416,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour toute invocation, lorsqu’elles eurent à subir Nos rigueurs, elles dirent : « Il est vrai que nous étions injustes. »"
   },
   {
     "id": "al-a-raf-6",
@@ -421,7 +426,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَنَسْـَٔلَنَّ ٱلَّذِينَ أُرْسِلَ إِلَيْهِمْ وَلَنَسْـَٔلَنَّ ٱلْمُرْسَلِينَ",
     "textSimple": "فلنسـٔلن ٱلذين أرسل إليهم ولنسـٔلن ٱلمرسلين",
     "transliteration": "falanasalanna alladhīna ur'sila ilayhim walanasalanna l-mur'salīna",
-    "translation": "",
+    "translation": "Then We will surely question those to whom [a message] was sent, and We will surely question the messengers.",
     "words": [
       {
         "id": "al-a-raf-6-1",
@@ -466,7 +471,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous questionnerons certainement ceux vers qui des Messagers furent envoyés et Nous questionnerons aussi les Envoyés."
   },
   {
     "id": "al-a-raf-7",
@@ -475,7 +481,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَنَقُصَّنَّ عَلَيْهِم بِعِلْمٍ ۖ وَمَا كُنَّا غَآئِبِينَ",
     "textSimple": "فلنقصن عليهم بعلم  وما كنا غآئبين",
     "transliteration": "falanaquṣṣanna ʿalayhim biʿil'min wamā kunnā ghāibīna",
-    "translation": "",
+    "translation": "Then We will surely relate [their deeds] to them with knowledge, and We were not [at all] absent.",
     "words": [
       {
         "id": "al-a-raf-7-1",
@@ -520,7 +526,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur raconterons, en pleine connaissance, (leurs œuvres) et Nous n’étions nullement absents."
   },
   {
     "id": "al-a-raf-8",
@@ -529,7 +536,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "وٱلوزن يومئذ ٱلحق  فمن ثقلت موزينه فأولـٓئك هم ٱلمفلحون",
     "transliteration": "wal-waznu yawma-idhin l-ḥaqu faman thaqulat mawāzīnuhu fa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "And the weighing [of deeds] that Day will be the truth. So those whose scales are heavy - it is they who will be the successful.",
     "words": [
       {
         "id": "al-a-raf-8-1",
@@ -595,7 +602,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le poids, ce Jour-là, sera équitable. Alors, ceux dont les bonnes œuvres seront lourdes (à la balance) auront réussi."
   },
   {
     "id": "al-a-raf-9",
@@ -604,7 +612,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَـٰتِنَا يَظْلِمُونَ",
     "textSimple": "ومن خفت موزينه فأولـٓئك ٱلذين خسروٓا أنفسهم بما كانوا بـٔايـتنا يظلمون",
     "transliteration": "waman khaffat mawāzīnuhu fa-ulāika alladhīna khasirū anfusahum bimā kānū biāyātinā yaẓlimūna",
-    "translation": "",
+    "translation": "And those whose scales are light - they are the ones who will lose themselves for what injustice they were doing toward Our verses.",
     "words": [
       {
         "id": "al-a-raf-9-1",
@@ -684,7 +692,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux dont les bonnes œuvres seront légères (à la balance) auront perdu leurs âmes pour avoir été si injustes envers Nos Signes."
   },
   {
     "id": "al-a-raf-10",
@@ -693,7 +702,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ مَكَّنَّـٰكُمْ فِى ٱلْأَرْضِ وَجَعَلْنَا لَكُمْ فِيهَا مَعَـٰيِشَ ۗ قَلِيلًا مَّا تَشْكُرُونَ",
     "textSimple": "ولقد مكنـكم فى ٱلأرض وجعلنا لكم فيها معـيش  قليلا ما تشكرون",
     "transliteration": "walaqad makkannākum fī l-arḍi wajaʿalnā lakum fīhā maʿāyisha qalīlan mā tashkurūna",
-    "translation": "",
+    "translation": "And We have certainly established you upon the earth and made for you therein ways of livelihood. Little are you grateful.",
     "words": [
       {
         "id": "al-a-raf-10-1",
@@ -773,7 +782,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons établis en maîtres sur terre, et Nous y avons pourvu à votre subsistance. Mais il est rare que vous soyez reconnaissants."
   },
   {
     "id": "al-a-raf-11",
@@ -782,7 +792,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ خَلَقْنَـٰكُمْ ثُمَّ صَوَّرْنَـٰكُمْ ثُمَّ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ لَمْ يَكُن مِّنَ ٱلسَّـٰجِدِينَ",
     "textSimple": "ولقد خلقنـكم ثم صورنـكم ثم قلنا للملـٓئكة ٱسجدوا لـٔادم فسجدوٓا إلآ إبليس لم يكن من ٱلسـجدين",
     "transliteration": "walaqad khalaqnākum thumma ṣawwarnākum thumma qul'nā lil'malāikati us'judū liādama fasajadū illā ib'līsa lam yakun mina l-sājidīna",
-    "translation": "",
+    "translation": "And We have certainly created you, [O mankind], and given you [human] form. Then We said to the angels, \"Prostrate to Adam\"; so they prostrated, except for Iblees. He was not of those who prostrated.",
     "words": [
       {
         "id": "al-a-raf-11-1",
@@ -897,7 +907,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons créés et vous avons donné forme. Puis Nous avons dit aux Anges : « Prosternez-vous devant Adam ! » Et ils se prosternèrent, hormis Iblîs qui n’était point de ceux qui se prosternèrent."
   },
   {
     "id": "al-a-raf-12",
@@ -906,7 +917,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا۠ خَيْرٌ مِّنْهُ خَلَقْتَنِى مِن نَّارٍ وَخَلَقْتَهُۥ مِن طِينٍ",
     "textSimple": "قال ما منعك ألا تسجد إذ أمرتك  قال أنا خير منه خلقتنى من نار وخلقته من طين",
     "transliteration": "qāla mā manaʿaka allā tasjuda idh amartuka qāla anā khayrun min'hu khalaqtanī min nārin wakhalaqtahu min ṭīnin",
-    "translation": "",
+    "translation": "[Allāh] said, \"What prevented you from prostrating when I commanded you?\" [Satan] said, \"I am better than him. You created me from fire and created him from clay [i.e., earth].\"",
     "words": [
       {
         "id": "al-a-raf-12-1",
@@ -1028,7 +1039,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Allah) dit : « Qu’est-ce qui t’a empêché de te prosterner alors que Je te l’ai ordonné ? » Il répondit : « Je suis meilleur que lui. Tu m’as créé de feu et lui, Tu l’as créé d’argile ! »"
   },
   {
     "id": "al-a-raf-13",
@@ -1037,7 +1049,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَٱهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَن تَتَكَبَّرَ فِيهَا فَٱخْرُجْ إِنَّكَ مِنَ ٱلصَّـٰغِرِينَ",
     "textSimple": "قال فٱهبط منها فما يكون لك أن تتكبر فيها فٱخرج إنك من ٱلصـغرين",
     "transliteration": "qāla fa-ih'biṭ min'hā famā yakūnu laka an tatakabbara fīhā fa-ukh'ruj innaka mina l-ṣāghirīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"Descend from it [i.e., Paradise], for it is not for you to be arrogant therein. So get out; indeed, you are of the debased.\"",
     "words": [
       {
         "id": "al-a-raf-13-1",
@@ -1131,7 +1143,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Allah) dit alors : « Descends d’ici ! Tu n’as vraiment pas à te pavaner d’orgueil. Sors ! Tu es du nombre de ceux qui sont vils et bas ! »"
   },
   {
     "id": "al-a-raf-14",
@@ -1140,7 +1153,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
     "textSimple": "قال أنظرنىٓ إلى يوم يبعثون",
     "transliteration": "qāla anẓir'nī ilā yawmi yub'ʿathūna",
-    "translation": "",
+    "translation": "[Satan] said, \"Reprieve me until the Day they are resurrected.\"",
     "words": [
       {
         "id": "al-a-raf-14-1",
@@ -1178,7 +1191,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Accorde-moi donc un délai jusqu’au jour où ils seront ressuscités. »"
   },
   {
     "id": "al-a-raf-15",
@@ -1187,7 +1201,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّكَ مِنَ ٱلْمُنظَرِينَ",
     "textSimple": "قال إنك من ٱلمنظرين",
     "transliteration": "qāla innaka mina l-munẓarīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"Indeed, you are of those reprieved.\"",
     "words": [
       {
         "id": "al-a-raf-15-1",
@@ -1218,7 +1232,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tu es de ceux à qui délai est donné », dit (Allah)."
   },
   {
     "id": "al-a-raf-16",
@@ -1227,7 +1242,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ",
     "textSimple": "قال فبمآ أغويتنى لأقعدن لهم صرطك ٱلمستقيم",
     "transliteration": "qāla fabimā aghwaytanī la-aqʿudanna lahum ṣirāṭaka l-mus'taqīma",
-    "translation": "",
+    "translation": "[Satan] said, \"Because You have put me in error, I will surely sit in wait for them [i.e., mankind] on Your straight path.",
     "words": [
       {
         "id": "al-a-raf-16-1",
@@ -1279,7 +1294,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "– « Comme Tu as décidé de me perdre, je resterai à les guetter, assis sur Ta voie droite."
   },
   {
     "id": "al-a-raf-17",
@@ -1288,7 +1304,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَـَٔاتِيَنَّهُم مِّنۢ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ وَعَنْ أَيْمَـٰنِهِمْ وَعَن شَمَآئِلِهِمْ ۖ وَلَا تَجِدُ أَكْثَرَهُمْ شَـٰكِرِينَ",
     "textSimple": "ثم لـٔاتينهم من بين أيديهم ومن خلفهم وعن أيمـنهم وعن شمآئلهم  ولا تجد أكثرهم شـكرين",
     "transliteration": "thumma laātiyannahum min bayni aydīhim wamin khalfihim waʿan aymānihim waʿan shamāilihim walā tajidu aktharahum shākirīna",
-    "translation": "",
+    "translation": "Then I will come to them from before them and from behind them and on their right and on their left, and You will not find most of them grateful [to You].\"",
     "words": [
       {
         "id": "al-a-raf-17-1",
@@ -1396,7 +1412,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis je viendrai à eux par-devant et par-derrière, par leur droite et par leur gauche, et Tu n’en trouveras que peu qui Te seront reconnaissants. »"
   },
   {
     "id": "al-a-raf-18",
@@ -1405,7 +1422,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱخْرُجْ مِنْهَا مَذْءُومًا مَّدْحُورًا ۖ لَّمَن تَبِعَكَ مِنْهُمْ لَأَمْلَأَنَّ جَهَنَّمَ مِنكُمْ أَجْمَعِينَ",
     "textSimple": "قال ٱخرج منها مذءوما مدحورا  لمن تبعك منهم لأملأن جهنم منكم أجمعين",
     "transliteration": "qāla ukh'ruj min'hā madhūman madḥūran laman tabiʿaka min'hum la-amla-anna jahannama minkum ajmaʿīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"Depart from it [i.e., Paradise], reproached and expelled. Whoever follows you among them - I will surely fill Hell with you, all together.\"",
     "words": [
       {
         "id": "al-a-raf-18-1",
@@ -1492,7 +1509,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Allah) dit : « Sors d’ici, marqué d’opprobre et d’infamie ! Quiconque d’entre eux te suivra se trouvera dans la Géhenne que J’emplirai de vous tous!"
   },
   {
     "id": "al-a-raf-19",
@@ -1501,7 +1519,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ فَكُلَا مِنْ حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَـٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ويـٓـٔادم ٱسكن أنت وزوجك ٱلجنة فكلا من حيث شئتما ولا تقربا هـذه ٱلشجرة فتكونا من ٱلظـلمين",
     "transliteration": "wayāādamu us'kun anta wazawjuka l-janata fakulā min ḥaythu shi'tumā walā taqrabā hādhihi l-shajarata fatakūnā mina l-ẓālimīna",
-    "translation": "",
+    "translation": "And \"O Adam, dwell, you and your wife, in Paradise and eat from wherever you will but do not approach this tree, lest you be among the wrongdoers.\"",
     "words": [
       {
         "id": "al-a-raf-19-1",
@@ -1616,7 +1634,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et toi, Adam, habite, toi et ton épouse, le Paradis. Mangez de ce qui vous plaira et ne vous approchez point de cet arbre, ou alors vous seriez du nombre des injustes ! »"
   },
   {
     "id": "al-a-raf-20",
@@ -1625,7 +1644,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَوَسْوَسَ لَهُمَا ٱلشَّيْطَـٰنُ لِيُبْدِىَ لَهُمَا مَا وُۥرِىَ عَنْهُمَا مِن سَوْءَٰتِهِمَا وَقَالَ مَا نَهَىٰكُمَا رَبُّكُمَا عَنْ هَـٰذِهِ ٱلشَّجَرَةِ إِلَّآ أَن تَكُونَا مَلَكَيْنِ أَوْ تَكُونَا مِنَ ٱلْخَـٰلِدِينَ",
     "textSimple": "فوسوس لهما ٱلشيطـن ليبدى لهما ما ورى عنهما من سوءتهما وقال ما نهىكما ربكما عن هـذه ٱلشجرة إلآ أن تكونا ملكين أو تكونا من ٱلخـلدين",
     "transliteration": "fawaswasa lahumā l-shayṭānu liyub'diya lahumā mā wūriya ʿanhumā min sawātihimā waqāla mā nahākumā rabbukumā ʿan hādhihi l-shajarati illā an takūnā malakayni aw takūnā mina l-khālidīna",
-    "translation": "",
+    "translation": "But Satan whispered to them to make apparent to them that which was concealed from them of their private parts. He said, \"Your Lord did not forbid you this tree except that you become angels or become of the immortal.\"",
     "words": [
       {
         "id": "al-a-raf-20-1",
@@ -1803,7 +1822,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, pour leur montrer leurs nudités qui leur étaient cachées, Satan leur susurra : « Votre Seigneur ne vous a défendu cet arbre que pour vous empêcher d’être deux Anges ou de devenir éternels ! »"
   },
   {
     "id": "al-a-raf-21",
@@ -1812,7 +1832,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَاسَمَهُمَآ إِنِّى لَكُمَا لَمِنَ ٱلنَّـٰصِحِينَ",
     "textSimple": "وقاسمهمآ إنى لكما لمن ٱلنـصحين",
     "transliteration": "waqāsamahumā innī lakumā lamina l-nāṣiḥīna",
-    "translation": "",
+    "translation": "And he swore [by Allāh] to them, \"Indeed, I am to you from among the sincere advisors.\"",
     "words": [
       {
         "id": "al-a-raf-21-1",
@@ -1850,7 +1870,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il leur jura : « Je suis pour vous, assurément, le meilleur des conseillers ! »"
   },
   {
     "id": "al-a-raf-22",
@@ -1859,7 +1880,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَدَلَّىٰهُمَا بِغُرُورٍ ۚ فَلَمَّا ذَاقَا ٱلشَّجَرَةَ بَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۖ وَنَادَىٰهُمَا رَبُّهُمَآ أَلَمْ أَنْهَكُمَا عَن تِلْكُمَا ٱلشَّجَرَةِ وَأَقُل لَّكُمَآ إِنَّ ٱلشَّيْطَـٰنَ لَكُمَا عَدُوٌّ مُّبِينٌ",
     "textSimple": "فدلىهما بغرور  فلما ذاقا ٱلشجرة بدت لهما سوءتهما وطفقا يخصفان عليهما من ورق ٱلجنة  ونادىهما ربهمآ ألم أنهكما عن تلكما ٱلشجرة وأقل لكمآ إن ٱلشيطـن لكما عدو مبين",
     "transliteration": "fadallāhumā bighurūrin falammā dhāqā l-shajarata badat lahumā sawātuhumā waṭafiqā yakhṣifāni ʿalayhimā min waraqi l-janati wanādāhumā rabbuhumā alam anhakumā ʿan til'kumā l-shajarati wa-aqul lakumā inna l-shayṭāna lakumā ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "So he made them fall, through deception. And when they tasted of the tree, their private parts became apparent to them, and they began to fasten together over themselves from the leaves of Paradise. And their Lord called to them, \"Did I not forbid you from that tree and tell you that Satan is to you a clear enemy?\"",
     "words": [
       {
         "id": "al-a-raf-22-1",
@@ -2058,7 +2079,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les fit choir par ruse. Et quand ils eurent goûté (aux fruits) de l’arbre, leur nudité à tous deux leur apparut. Ils se précipitèrent alors pour la couvrir en y attachant des feuilles du Paradis. Leur Seigneur les appela : « Ne vous ai-Je pas défendu à tous deux cet arbre ? Ne vous ai-Je point dit que Satan est pour vous un ennemi déclaré ? »"
   },
   {
     "id": "al-a-raf-23",
@@ -2067,7 +2089,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَا رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "قالا ربنا ظلمنآ أنفسنا وإن لم تغفر لنا وترحمنا لنكونن من ٱلخـسرين",
     "transliteration": "qālā rabbanā ẓalamnā anfusanā wa-in lam taghfir lanā watarḥamnā lanakūnanna mina l-khāsirīna",
-    "translation": "",
+    "translation": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.\"",
     "words": [
       {
         "id": "al-a-raf-23-1",
@@ -2154,7 +2176,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Seigneur ! répondirent-ils, nous nous sommes lésés nous-mêmes, et si Tu ne nous pardonnes pas et refuses de nous accorder Ta miséricorde, nous serons certainement du nombre des perdants. »"
   },
   {
     "id": "al-a-raf-24",
@@ -2163,7 +2186,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَـٰعٌ إِلَىٰ حِينٍ",
     "textSimple": "قال ٱهبطوا بعضكم لبعض عدو  ولكم فى ٱلأرض مستقر ومتـع إلى حين",
     "transliteration": "qāla ih'biṭū baʿḍukum libaʿḍin ʿaduwwun walakum fī l-arḍi mus'taqarrun wamatāʿun ilā ḥīnin",
-    "translation": "",
+    "translation": "[Allāh] said, \"Descend, being to one another enemies. And for you on the earth is a place of settlement and enjoyment [i.e., provision] for a time.\"",
     "words": [
       {
         "id": "al-a-raf-24-1",
@@ -2250,7 +2273,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Descendez ! dit (Allah), vous serez ennemis les uns des autres ; et vous aurez sur terre séjour et jouissance, jusqu’à la fin d’une échéance."
   },
   {
     "id": "al-a-raf-25",
@@ -2259,7 +2283,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فِيهَا تَحْيَوْنَ وَفِيهَا تَمُوتُونَ وَمِنْهَا تُخْرَجُونَ",
     "textSimple": "قال فيها تحيون وفيها تموتون ومنها تخرجون",
     "transliteration": "qāla fīhā taḥyawna wafīhā tamūtūna wamin'hā tukh'rajūna",
-    "translation": "",
+    "translation": "He said, \"Therein you will live, and therein you will die, and from it you will be brought forth.\"",
     "words": [
       {
         "id": "al-a-raf-25-1",
@@ -2311,7 +2335,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous y vivrez et vous y mourrez, et vous en serez sortis un Jour. »"
   },
   {
     "id": "al-a-raf-26",
@@ -2320,7 +2345,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ ءَادَمَ قَدْ أَنزَلْنَا عَلَيْكُمْ لِبَاسًا يُوَٰرِى سَوْءَٰتِكُمْ وَرِيشًا ۖ وَلِبَاسُ ٱلتَّقْوَىٰ ذَٰلِكَ خَيْرٌ ۚ ذَٰلِكَ مِنْ ءَايَـٰتِ ٱللَّهِ لَعَلَّهُمْ يَذَّكَّرُونَ",
     "textSimple": "يـبنىٓ ءادم قد أنزلنا عليكم لباسا يورى سوءتكم وريشا  ولباس ٱلتقوى ذلك خير  ذلك من ءايـت ٱلله لعلهم يذكرون",
     "transliteration": "yābanī ādama qad anzalnā ʿalaykum libāsan yuwārī sawātikum warīshan walibāsu l-taqwā dhālika khayrun dhālika min āyāti l-lahi laʿallahum yadhakkarūna",
-    "translation": "",
+    "translation": "O children of Adam, We have bestowed upon you clothing to conceal your private parts and as adornment. But the clothing of righteousness - that is best. That is from the signs of Allāh that perhaps they will remember.",
     "words": [
       {
         "id": "al-a-raf-26-1",
@@ -2456,7 +2481,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô fils d’Adam ! Nous avons fait descendre vers vous des vêtements qui cacheront vos nudités, et des parures. Mais le vêtement de la piété est bien meilleur. Voilà l’un des Signes d’Allah, peut-être se souviendront-ils."
   },
   {
     "id": "al-a-raf-27",
@@ -2465,7 +2491,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ ءَادَمَ لَا يَفْتِنَنَّكُمُ ٱلشَّيْطَـٰنُ كَمَآ أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ يَنزِعُ عَنْهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوْءَٰتِهِمَآ ۗ إِنَّهُۥ يَرَىٰكُمْ هُوَ وَقَبِيلُهُۥ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا ٱلشَّيَـٰطِينَ أَوْلِيَآءَ لِلَّذِينَ لَا يُؤْمِنُونَ",
     "textSimple": "يـبنىٓ ءادم لا يفتننكم ٱلشيطـن كمآ أخرج أبويكم من ٱلجنة ينزع عنهما لباسهما ليريهما سوءتهمآ  إنه يرىكم هو وقبيله من حيث لا ترونهم  إنا جعلنا ٱلشيـطين أوليآء للذين لا يؤمنون",
     "transliteration": "yābanī ādama lā yaftinannakumu l-shayṭānu kamā akhraja abawaykum mina l-janati yanziʿu ʿanhumā libāsahumā liyuriyahumā sawātihimā innahu yarākum huwa waqabīluhu min ḥaythu lā tarawnahum innā jaʿalnā l-shayāṭīna awliyāa lilladhīna lā yu'minūna",
-    "translation": "",
+    "translation": "O children of Adam, let not Satan tempt you as he removed your parents from Paradise, stripping them of their clothing to show them their private parts. Indeed, he sees you, he and his tribe, from where you do not see them. Indeed, We have made the devils allies to those who do not believe.",
     "words": [
       {
         "id": "al-a-raf-27-1",
@@ -2678,7 +2704,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô fils d’Adam ! Que Satan ne vous séduise point, comme il a fait expulser du Paradis vos tout premiers parents, en leur ôtant leurs vêtements pour leur montrer leurs nudités. Il vous voit, lui et sa compagnie, de là où vous ne les voyez point. Nous avons fait des démons les alliés de ceux qui ne croient pas."
   },
   {
     "id": "al-a-raf-28",
@@ -2687,7 +2714,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا فَعَلُوا۟ فَـٰحِشَةً قَالُوا۟ وَجَدْنَا عَلَيْهَآ ءَابَآءَنَا وَٱللَّهُ أَمَرَنَا بِهَا ۗ قُلْ إِنَّ ٱللَّهَ لَا يَأْمُرُ بِٱلْفَحْشَآءِ ۖ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "وإذا فعلوا فـحشة قالوا وجدنا عليهآ ءابآءنا وٱلله أمرنا بها  قل إن ٱلله لا يأمر بٱلفحشآء  أتقولون على ٱلله ما لا تعلمون",
     "transliteration": "wa-idhā faʿalū fāḥishatan qālū wajadnā ʿalayhā ābāanā wal-lahu amaranā bihā qul inna l-laha lā yamuru bil-faḥshāi ataqūlūna ʿalā l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "And when they commit an immorality, they say, \"We found our fathers doing it, and Allāh has ordered us to do it.\" Say, \"Indeed, Allāh does not order immorality. Do you say about Allāh that which you do not know?\"",
     "words": [
       {
         "id": "al-a-raf-28-1",
@@ -2844,7 +2871,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils commettent une turpitude, ils disent : « C’est ainsi que faisaient nos ancêtres, et Allah nous l’a ordonné. » Dis : « Allah n’ordonne jamais (de succomber à) la turpitude. Raconterez-vous donc sur le compte d’Allah ce que vous ne savez point ? »"
   },
   {
     "id": "al-a-raf-29",
@@ -2853,7 +2881,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ",
     "textSimple": "قل أمر ربى بٱلقسط  وأقيموا وجوهكم عند كل مسجد وٱدعوه مخلصين له ٱلدين  كما بدأكم تعودون",
     "transliteration": "qul amara rabbī bil-qis'ṭi wa-aqīmū wujūhakum ʿinda kulli masjidin wa-id'ʿūhu mukh'liṣīna lahu l-dīna kamā bada-akum taʿūdūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"My Lord has ordered justice and that you direct yourselves [to the Qiblah] at every place [or time] of prostration, and invoke Him, sincere to Him in religion.\" Just as He originated you, you will return [to life] -",
     "words": [
       {
         "id": "al-a-raf-29-1",
@@ -2968,7 +2996,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Allah a ordonné la justice. Tournez donc vos faces entièrement vers Lui à chaque prosternation. Invoquez-Le, en Lui vouant un culte sincère. Tout comme Il vous a créés en premier lieu, à Lui, certainement, vous retournerez. »"
   },
   {
     "id": "al-a-raf-30",
@@ -2977,7 +3006,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَرِيقًا هَدَىٰ وَفَرِيقًا حَقَّ عَلَيْهِمُ ٱلضَّلَـٰلَةُ ۗ إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّيَـٰطِينَ أَوْلِيَآءَ مِن دُونِ ٱللَّهِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ",
     "textSimple": "فريقا هدى وفريقا حق عليهم ٱلضلـلة  إنهم ٱتخذوا ٱلشيـطين أوليآء من دون ٱلله ويحسبون أنهم مهتدون",
     "transliteration": "farīqan hadā wafarīqan ḥaqqa ʿalayhimu l-ḍalālatu innahumu ittakhadhū l-shayāṭīna awliyāa min dūni l-lahi wayaḥsabūna annahum muh'tadūna",
-    "translation": "",
+    "translation": "A group [of you] He guided, and a group deserved [to be in] error. Indeed, they [i.e., the latter] had taken the devils as allies instead of Allāh while they thought that they were guided.",
     "words": [
       {
         "id": "al-a-raf-30-1",
@@ -3092,7 +3121,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a bien guidé certains, et d’autres ont mérité l’égarement. C’est qu’ils ont pris, en dehors d’Allah, les démons pour alliés, et pensent tout de même qu’ils sont bien guidés."
   },
   {
     "id": "al-a-raf-31",
@@ -3101,7 +3131,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَـٰبَنِىٓ ءَادَمَ خُذُوا۟ زِينَتَكُمْ عِندَ كُلِّ مَسْجِدٍ وَكُلُوا۟ وَٱشْرَبُوا۟ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
     "textSimple": " يـبنىٓ ءادم خذوا زينتكم عند كل مسجد وكلوا وٱشربوا ولا تسرفوٓا  إنه لا يحب ٱلمسرفين",
     "transliteration": "yābanī ādama khudhū zīnatakum ʿinda kulli masjidin wakulū wa-ish'rabū walā tus'rifū innahu lā yuḥibbu l-mus'rifīna",
-    "translation": "",
+    "translation": "O children of Adam, take your adornment [i.e., wear your clothing] at every masjid, and eat and drink, but be not excessive. Indeed, He likes not those who commit excess.",
     "words": [
       {
         "id": "al-a-raf-31-1",
@@ -3209,7 +3239,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô fils d’Adam ! Portez vos (plus) beaux vêtements dans chaque mosquée. Mangez et buvez, mais ne soyez pas excessifs, car Allah n’aime pas ceux qui sont excessifs."
   },
   {
     "id": "al-a-raf-32",
@@ -3218,7 +3249,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَنْ حَرَّمَ زِينَةَ ٱللَّهِ ٱلَّتِىٓ أَخْرَجَ لِعِبَادِهِۦ وَٱلطَّيِّبَـٰتِ مِنَ ٱلرِّزْقِ ۚ قُلْ هِىَ لِلَّذِينَ ءَامَنُوا۟ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا خَالِصَةً يَوْمَ ٱلْقِيَـٰمَةِ ۗ كَذَٰلِكَ نُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ",
     "textSimple": "قل من حرم زينة ٱلله ٱلتىٓ أخرج لعباده وٱلطيبـت من ٱلرزق  قل هى للذين ءامنوا فى ٱلحيوة ٱلدنيا خالصة يوم ٱلقيـمة  كذلك نفصل ٱلـٔايـت لقوم يعلمون",
     "transliteration": "qul man ḥarrama zīnata l-lahi allatī akhraja liʿibādihi wal-ṭayibāti mina l-riz'qi qul hiya lilladhīna āmanū fī l-ḥayati l-dun'yā khāliṣatan yawma l-qiyāmati kadhālika nufaṣṣilu l-āyāti liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "Say, \"Who has forbidden the adornment of [i.e., from] Allāh which He has produced for His servants and the good [lawful] things of provision?\" Say, \"They are for those who believed during the life of this world, exclusively [for them] on the Day of Resurrection.\" Thus do We detail the verses for a people who know.",
     "words": [
       {
         "id": "al-a-raf-32-1",
@@ -3403,7 +3434,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui donc a défendu les parures qu’Allah a mises à la disposition de Ses serviteurs, et les bonnes nourritures qu’Il leur a dispensées ? » Réponds : « Elles sont toutes destinées dans ce bas monde à ceux qui ont cru, et elles leur seront réservées au Jour de la Résurrection. » C’est ainsi que Nous détaillons clairement les versets à des gens qui savent."
   },
   {
     "id": "al-a-raf-33",
@@ -3412,7 +3444,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَا حَرَّمَ رَبِّىَ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَٱلْإِثْمَ وَٱلْبَغْىَ بِغَيْرِ ٱلْحَقِّ وَأَن تُشْرِكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "قل إنما حرم ربى ٱلفوحش ما ظهر منها وما بطن وٱلإثم وٱلبغى بغير ٱلحق وأن تشركوا بٱلله ما لم ينزل به سلطـنا وأن تقولوا على ٱلله ما لا تعلمون",
     "transliteration": "qul innamā ḥarrama rabbiya l-fawāḥisha mā ẓahara min'hā wamā baṭana wal-ith'ma wal-baghya bighayri l-ḥaqi wa-an tush'rikū bil-lahi mā lam yunazzil bihi sul'ṭānan wa-an taqūlū ʿalā l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "Say, \"My Lord has only forbidden immoralities - what is apparent of them and what is concealed - and sin, and oppression without right, and that you associate with Allāh that for which He has not sent down authority, and that you say about Allāh that which you do not know.\"",
     "words": [
       {
         "id": "al-a-raf-33-1",
@@ -3618,7 +3650,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Mon Seigneur n’a défendu que les turpitudes, qu’elles soient visibles ou cachées, ainsi que le péché, l’agression sans juste raison, que vous associiez à Allah ce dont il n’a révélé aucune preuve d’autorité et que vous racontiez au sujet d’Allah ce que vous ne savez pas. »"
   },
   {
     "id": "al-a-raf-34",
@@ -3627,7 +3660,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلِكُلِّ أُمَّةٍ أَجَلٌ ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ",
     "textSimple": "ولكل أمة أجل  فإذا جآء أجلهم لا يستأخرون ساعة  ولا يستقدمون",
     "transliteration": "walikulli ummatin ajalun fa-idhā jāa ajaluhum lā yastakhirūna sāʿatan walā yastaqdimūna",
-    "translation": "",
+    "translation": "And for every nation is a [specified] term. So when their time has come, they will not remain behind an hour, nor will they precede [it].",
     "words": [
       {
         "id": "al-a-raf-34-1",
@@ -3707,7 +3740,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour chaque nation, il est un terme (fixé). Alors, quand vient leur terme, ils ne sauraient ni le retarder d’une heure, ni, non plus, l’avancer."
   },
   {
     "id": "al-a-raf-35",
@@ -3716,7 +3750,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ ءَادَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ ءَايَـٰتِى ۙ فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "يـبنىٓ ءادم إما يأتينكم رسل منكم يقصون عليكم ءايـتى  فمن ٱتقى وأصلح فلا خوف عليهم ولا هم يحزنون",
     "transliteration": "yābanī ādama immā yatiyannakum rusulun minkum yaquṣṣūna ʿalaykum āyātī famani ittaqā wa-aṣlaḥa falā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "O children of Adam, if there come to you messengers from among you relating to you My verses [i.e., scriptures and laws], then whoever fears Allāh and reforms - there will be no fear concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-a-raf-35-1",
@@ -3845,7 +3879,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô fils d’Adam ! S’il vous vient des Messagers, élus parmi vous, pour vous raconter Mes Signes, ceux qui auront la piété et se seront amendés n’auront nulle crainte et n’auront aucune affliction."
   },
   {
     "id": "al-a-raf-36",
@@ -3854,7 +3889,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وٱلذين كذبوا بـٔايـتنا وٱستكبروا عنهآ أولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "wa-alladhīna kadhabū biāyātinā wa-is'takbarū ʿanhā ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "But the ones who deny Our verses and are arrogant toward them - those are the companions of the Fire; they will abide therein eternally.",
     "words": [
       {
         "id": "al-a-raf-36-1",
@@ -3934,7 +3969,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui auront traité Nos Signes de mensonges et s’en seront détournés méprisants, ceux-là sont les gens voués au Feu, et là ils séjourneront pour l’éternité."
   },
   {
     "id": "al-a-raf-37",
@@ -3943,7 +3979,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۚ أُو۟لَـٰٓئِكَ يَنَالُهُمْ نَصِيبُهُم مِّنَ ٱلْكِتَـٰبِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمْ رُسُلُنَا يَتَوَفَّوْنَهُمْ قَالُوٓا۟ أَيْنَ مَا كُنتُمْ تَدْعُونَ مِن دُونِ ٱللَّهِ ۖ قَالُوا۟ ضَلُّوا۟ عَنَّا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَـٰفِرِينَ",
     "textSimple": "فمن أظلم ممن ٱفترى على ٱلله كذبا أو كذب بـٔايـتهٓ  أولـٓئك ينالهم نصيبهم من ٱلكتـب  حتىٓ إذا جآءتهم رسلنا يتوفونهم قالوٓا أين ما كنتم تدعون من دون ٱلله  قالوا ضلوا عنا وشهدوا علىٓ أنفسهم أنهم كانوا كـفرين",
     "transliteration": "faman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban aw kadhaba biāyātihi ulāika yanāluhum naṣībuhum mina l-kitābi ḥattā idhā jāathum rusulunā yatawaffawnahum qālū ayna mā kuntum tadʿūna min dūni l-lahi qālū ḍallū ʿannā washahidū ʿalā anfusihim annahum kānū kāfirīna",
-    "translation": "",
+    "translation": "And who is more unjust than one who invents about Allāh a lie or denies His verses? Those will attain their portion of the decree until, when Our messengers [i.e., angels] come to them to take them in death, they will say, \"Where are those you used to invoke besides Allāh?\" They will say, \"They have departed from us,\" and will bear witness against themselves that they were disbelievers.",
     "words": [
       {
         "id": "al-a-raf-37-1",
@@ -4205,7 +4241,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui donc est plus injuste que celui qui débite des mensonges sur le compte d’Allah ou qui dément Ses Signes ? À ceux-là parviendra leur part prescrite, jusqu’à ce que Nos Envoyés (parmi les Anges) viennent reprendre leurs âmes et leur disent : « Que sont ceux que vous invoquiez en dehors d’Allah devenus ? » Eux répondront : « Ils nous ont abandonnés ! » Et c’est ainsi qu’ils témoigneront eux-mêmes qu’ils étaient mécréants."
   },
   {
     "id": "al-a-raf-38",
@@ -4214,7 +4251,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱدْخُلُوا۟ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِكُم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ فِى ٱلنَّارِ ۖ كُلَّمَا دَخَلَتْ أُمَّةٌ لَّعَنَتْ أُخْتَهَا ۖ حَتَّىٰٓ إِذَا ٱدَّارَكُوا۟ فِيهَا جَمِيعًا قَالَتْ أُخْرَىٰهُمْ لِأُولَىٰهُمْ رَبَّنَا هَـٰٓؤُلَآءِ أَضَلُّونَا فَـَٔاتِهِمْ عَذَابًا ضِعْفًا مِّنَ ٱلنَّارِ ۖ قَالَ لِكُلٍّ ضِعْفٌ وَلَـٰكِن لَّا تَعْلَمُونَ",
     "textSimple": "قال ٱدخلوا فىٓ أمم قد خلت من قبلكم من ٱلجن وٱلإنس فى ٱلنار  كلما دخلت أمة لعنت أختها  حتىٓ إذا ٱداركوا فيها جميعا قالت أخرىهم لأولىهم ربنا هـٓؤلآء أضلونا فـٔاتهم عذابا ضعفا من ٱلنار  قال لكل ضعف ولـكن لا تعلمون",
     "transliteration": "qāla ud'khulū fī umamin qad khalat min qablikum mina l-jini wal-insi fī l-nāri kullamā dakhalat ummatun laʿanat ukh'tahā ḥattā idhā iddārakū fīhā jamīʿan qālat ukh'rāhum liūlāhum rabbanā hāulāi aḍallūnā faātihim ʿadhāban ḍiʿ'fan mina l-nāri qāla likullin ḍiʿ'fun walākin lā taʿlamūna",
-    "translation": "",
+    "translation": "[Allāh] will say, \"Enter among nations which had passed on before you of jinn and mankind into the Fire.\" Every time a nation enters, it will curse its sister until, when they have all overtaken one another therein, the last of them will say about the first of them, \"Our Lord, these had misled us, so give them a double punishment of the Fire.\" He will say, \"For each is double, but you do not know.\"",
     "words": [
       {
         "id": "al-a-raf-38-1",
@@ -4497,7 +4534,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dira : « Entrez retrouver en Enfer les nations de djinns et d’humains qui vous ont précédés. » Chaque fois qu’une nation y sera entrée, elle maudira la précédente, jusqu’à ce que, toutes réunies, la dernière dise de la première : « Notre Seigneur ! Ceux-là nous ont égarés, double-leur donc le supplice du Feu. » Il dira : « Pour chacun il y aura le double, mais vous ne savez pas. »"
   },
   {
     "id": "al-a-raf-39",
@@ -4506,7 +4544,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَتْ أُولَىٰهُمْ لِأُخْرَىٰهُمْ فَمَا كَانَ لَكُمْ عَلَيْنَا مِن فَضْلٍ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْسِبُونَ",
     "textSimple": "وقالت أولىهم لأخرىهم فما كان لكم علينا من فضل فذوقوا ٱلعذاب بما كنتم تكسبون",
     "transliteration": "waqālat ūlāhum li-ukh'rāhum famā kāna lakum ʿalaynā min faḍlin fadhūqū l-ʿadhāba bimā kuntum taksibūna",
-    "translation": "",
+    "translation": "And the first of them will say to the last of them, \"Then you had not any favor over us, so taste the punishment for what you used to earn.\"",
     "words": [
       {
         "id": "al-a-raf-39-1",
@@ -4607,7 +4645,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et la première génération dira à la dernière : « Vous n’avez aucun mérite sur nous. Goûtez donc le supplice pour ce que vous avez commis. »"
   },
   {
     "id": "al-a-raf-40",
@@ -4616,7 +4655,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ وَلَا يَدْخُلُونَ ٱلْجَنَّةَ حَتَّىٰ يَلِجَ ٱلْجَمَلُ فِى سَمِّ ٱلْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُجْرِمِينَ",
     "textSimple": "إن ٱلذين كذبوا بـٔايـتنا وٱستكبروا عنها لا تفتح لهم أبوب ٱلسمآء ولا يدخلون ٱلجنة حتى يلج ٱلجمل فى سم ٱلخياط  وكذلك نجزى ٱلمجرمين",
     "transliteration": "inna alladhīna kadhabū biāyātinā wa-is'takbarū ʿanhā lā tufattaḥu lahum abwābu l-samāi walā yadkhulūna l-janata ḥattā yalija l-jamalu fī sammi l-khiyāṭi wakadhālika najzī l-muj'rimīna",
-    "translation": "",
+    "translation": "Indeed, those who deny Our verses and are arrogant toward them - the gates of Heaven will not be opened for them, nor will they enter Paradise until a camel enters into the eye of a needle [i.e., never]. And thus do We recompense the criminals.",
     "words": [
       {
         "id": "al-a-raf-40-1",
@@ -4780,7 +4819,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont traité Nos Signes de mensonges et qui s’en sont détournés, méprisants, ne verront pas s’ouvrir devant eux les portes du ciel, et ils n’entreront au Paradis que lorsque le chameau s’introduira dans le chas d’une aiguille. Et c’est ainsi que Nous rétribuons les criminels."
   },
   {
     "id": "al-a-raf-41",
@@ -4789,7 +4829,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "لَهُم مِّن جَهَنَّمَ مِهَادٌ وَمِن فَوْقِهِمْ غَوَاشٍ ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّـٰلِمِينَ",
     "textSimple": "لهم من جهنم مهاد ومن فوقهم غواش  وكذلك نجزى ٱلظـلمين",
     "transliteration": "lahum min jahannama mihādun wamin fawqihim ghawāshin wakadhālika najzī l-ẓālimīna",
-    "translation": "",
+    "translation": "They will have from Hell a bed and over them coverings [of fire]. And thus do We recompense the wrongdoers.",
     "words": [
       {
         "id": "al-a-raf-41-1",
@@ -4862,7 +4902,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils auront la Géhenne pour literie et des nuages de ténèbres pour couverture. Et c’est ainsi que Nous rétribuons les injustes."
   },
   {
     "id": "al-a-raf-42",
@@ -4871,7 +4912,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت لا نكلف نفسا إلا وسعهآ أولـٓئك أصحـب ٱلجنة  هم فيها خـلدون",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lā nukallifu nafsan illā wus'ʿahā ulāika aṣḥābu l-janati hum fīhā khālidūna",
-    "translation": "",
+    "translation": "But those who believed and did righteous deeds - We charge no soul except [within] its capacity. Those are the companions of Paradise; they will abide therein eternally.",
     "words": [
       {
         "id": "al-a-raf-42-1",
@@ -4979,7 +5020,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont cru et ont accompli les bonnes œuvres, (qu’ils sachent que) Nous ne chargeons une âme qu’à la mesure de ce qu’elle peut supporter, ceux-là sont les hôtes du Paradis où ils séjourneront pour l’éternité."
   },
   {
     "id": "al-a-raf-43",
@@ -4988,7 +5030,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَـٰرُ ۖ وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَـٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "ونزعنا ما فى صدورهم من غل تجرى من تحتهم ٱلأنهـر  وقالوا ٱلحمد لله ٱلذى هدىنا لهـذا وما كنا لنهتدى لولآ أن هدىنا ٱلله  لقد جآءت رسل ربنا بٱلحق  ونودوٓا أن تلكم ٱلجنة أورثتموها بما كنتم تعملون",
     "transliteration": "wanazaʿnā mā fī ṣudūrihim min ghillin tajrī min taḥtihimu l-anhāru waqālū l-ḥamdu lillahi alladhī hadānā lihādhā wamā kunnā linahtadiya lawlā an hadānā l-lahu laqad jāat rusulu rabbinā bil-ḥaqi wanūdū an til'kumu l-janatu ūrith'tumūhā bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And We will have removed whatever is within their breasts of resentment, [while] flowing beneath them are rivers. And they will say, \"Praise to Allāh, who has guided us to this; and we would never have been guided if Allāh had not guided us. Certainly the messengers of our Lord had come with the truth.\" And they will be called, \"This is Paradise, which you have been made to inherit for what you used to do.\"",
     "words": [
       {
         "id": "al-a-raf-43-1",
@@ -5243,7 +5285,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous arracherons toute rancune de leur cœur. Sous eux couleront les rivières, et ils diront : « Louange à Allah Qui nous a bien guidés vers cela. Et nous n’aurions jamais été si bien guidés si Allah ne nous avait pas guidés. Les Messagers de notre Seigneur sont venus avec la vérité. » Ils seront alors appelés : « Voici le Paradis dont vous héritez pour prix de ce que vous faisiez. »"
   },
   {
     "id": "al-a-raf-44",
@@ -5252,7 +5295,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَادَىٰٓ أَصْحَـٰبُ ٱلْجَنَّةِ أَصْحَـٰبَ ٱلنَّارِ أَن قَدْ وَجَدْنَا مَا وَعَدَنَا رَبُّنَا حَقًّا فَهَلْ وَجَدتُّم مَّا وَعَدَ رَبُّكُمْ حَقًّا ۖ قَالُوا۟ نَعَمْ ۚ فَأَذَّنَ مُؤَذِّنٌۢ بَيْنَهُمْ أَن لَّعْنَةُ ٱللَّهِ عَلَى ٱلظَّـٰلِمِينَ",
     "textSimple": "ونادىٓ أصحـب ٱلجنة أصحـب ٱلنار أن قد وجدنا ما وعدنا ربنا حقا فهل وجدتم ما وعد ربكم حقا  قالوا نعم  فأذن مؤذن بينهم أن لعنة ٱلله على ٱلظـلمين",
     "transliteration": "wanādā aṣḥābu l-janati aṣḥāba l-nāri an qad wajadnā mā waʿadanā rabbunā ḥaqqan fahal wajadttum mā waʿada rabbukum ḥaqqan qālū naʿam fa-adhana mu-adhinun baynahum an laʿnatu l-lahi ʿalā l-ẓālimīna",
-    "translation": "",
+    "translation": "And the companions of Paradise will call out to the companions of the Fire, \"We have already found what our Lord promised us to be true. Have you found what your Lord promised to be true?\" They will say, \"Yes.\" Then an announcer will announce among them, \"The curse of Allāh shall be upon the wrongdoers",
     "words": [
       {
         "id": "al-a-raf-44-1",
@@ -5451,7 +5494,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hôtes du Paradis appelleront les hôtes du Feu : « Nous avons trouvé que la promesse de notre Seigneur était vraie. Et vous, avez-vous trouvé aussi que Sa promesse était vraie ? » Ils diront : « Oui. » Alors, un annonciateur leur annoncera : « Qu’Allah maudisse les injustes,"
   },
   {
     "id": "al-a-raf-45",
@@ -5460,7 +5504,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا وَهُم بِٱلْـَٔاخِرَةِ كَـٰفِرُونَ",
     "textSimple": "ٱلذين يصدون عن سبيل ٱلله ويبغونها عوجا وهم بٱلـٔاخرة كـفرون",
     "transliteration": "alladhīna yaṣuddūna ʿan sabīli l-lahi wayabghūnahā ʿiwajan wahum bil-ākhirati kāfirūna",
-    "translation": "",
+    "translation": "Who averted [people] from the way of Allāh and sought to make it [seem] deviant while they were, concerning the Hereafter, disbelievers.\"",
     "words": [
       {
         "id": "al-a-raf-45-1",
@@ -5533,7 +5577,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui repoussent (les hommes) loin du chemin d’Allah, le souhaitent tortueux et ne croient pas en l’autre monde. »"
   },
   {
     "id": "al-a-raf-46",
@@ -5542,7 +5587,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى ٱلْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّۢا بِسِيمَىٰهُمْ ۚ وَنَادَوْا۟ أَصْحَـٰبَ ٱلْجَنَّةِ أَن سَلَـٰمٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ يَطْمَعُونَ",
     "textSimple": "وبينهما حجاب  وعلى ٱلأعراف رجال يعرفون كلا بسيمىهم  ونادوا أصحـب ٱلجنة أن سلـم عليكم  لم يدخلوها وهم يطمعون",
     "transliteration": "wabaynahumā ḥijābun waʿalā l-aʿrāfi rijālun yaʿrifūna kullan bisīmāhum wanādaw aṣḥāba l-janati an salāmun ʿalaykum lam yadkhulūhā wahum yaṭmaʿūna",
-    "translation": "",
+    "translation": "And between them will be a partition [i.e., wall], and on [its] elevations are men who recognize all by their mark. And they call out to the companions of Paradise, \"Peace be upon you.\" They have not [yet] entered it, but they long intensely.",
     "words": [
       {
         "id": "al-a-raf-46-1",
@@ -5671,7 +5716,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entre les deux, il y aura une muraille et, sur Al-A ̒râf, il y aura des hommes qui reconnaîtront chacun à ses traits particuliers. Et ils appelleront les hôtes du Paradis : « Paix sur vous ! » Ils n’y sont pas entrés, encore qu’ils en aient l’ardent désir."
   },
   {
     "id": "al-a-raf-47",
@@ -5680,7 +5726,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذَا صُرِفَتْ أَبْصَـٰرُهُمْ تِلْقَآءَ أَصْحَـٰبِ ٱلنَّارِ قَالُوا۟ رَبَّنَا لَا تَجْعَلْنَا مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": " وإذا صرفت أبصـرهم تلقآء أصحـب ٱلنار قالوا ربنا لا تجعلنا مع ٱلقوم ٱلظـلمين",
     "transliteration": "wa-idhā ṣurifat abṣāruhum til'qāa aṣḥābi l-nāri qālū rabbanā lā tajʿalnā maʿa l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "And when their eyes are turned toward the companions of the Fire, they say, \"Our Lord, do not place us with the wrongdoing people.\"",
     "words": [
       {
         "id": "al-a-raf-47-1",
@@ -5774,7 +5820,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand ils auront les yeux tournés vers les hôtes du Feu, ils diront : « Ô Seigneur ! Ne nous mets pas avec les gens injustes. »"
   },
   {
     "id": "al-a-raf-48",
@@ -5783,7 +5830,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَادَىٰٓ أَصْحَـٰبُ ٱلْأَعْرَافِ رِجَالًا يَعْرِفُونَهُم بِسِيمَىٰهُمْ قَالُوا۟ مَآ أَغْنَىٰ عَنكُمْ جَمْعُكُمْ وَمَا كُنتُمْ تَسْتَكْبِرُونَ",
     "textSimple": "ونادىٓ أصحـب ٱلأعراف رجالا يعرفونهم بسيمىهم قالوا مآ أغنى عنكم جمعكم وما كنتم تستكبرون",
     "transliteration": "wanādā aṣḥābu l-aʿrāfi rijālan yaʿrifūnahum bisīmāhum qālū mā aghnā ʿankum jamʿukum wamā kuntum tastakbirūna",
-    "translation": "",
+    "translation": "And the companions of the Elevations will call to men [within Hell] whom they recognize by their mark, saying, \"Of no avail to you was your gathering and [the fact] that you were arrogant.\"",
     "words": [
       {
         "id": "al-a-raf-48-1",
@@ -5884,7 +5931,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens de Al-A ̒râf interpelleront des hommes qu’ils auront reconnus à leurs traits particuliers en disant : « Tout ce que vous aviez amassé ne vous aura servi à rien, pas plus que ne vous aura profité votre orgueil. »"
   },
   {
     "id": "al-a-raf-49",
@@ -5893,7 +5941,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَهَـٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
     "textSimple": "أهـٓؤلآء ٱلذين أقسمتم لا ينالهم ٱلله برحمة  ٱدخلوا ٱلجنة لا خوف عليكم ولآ أنتم تحزنون",
     "transliteration": "ahāulāi alladhīna aqsamtum lā yanāluhumu l-lahu biraḥmatin ud'khulū l-janata lā khawfun ʿalaykum walā antum taḥzanūna",
-    "translation": "",
+    "translation": "[Allāh will say], \"Are these the ones whom you [inhabitants of Hell] swore that Allāh would never offer them mercy? Enter Paradise, [O people of the Elevations]. No fear will there be concerning you, nor will you grieve.\"",
     "words": [
       {
         "id": "al-a-raf-49-1",
@@ -6001,7 +6049,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sont-ce là ceux dont vous disiez qu’ils ne recevraient aucune miséricorde de la part d’Allah ? Entrez au Paradis, il n’y aura nulle crainte pour vous et vous n’aurez aucune affliction !"
   },
   {
     "id": "al-a-raf-50",
@@ -6010,7 +6059,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَادَىٰٓ أَصْحَـٰبُ ٱلنَّارِ أَصْحَـٰبَ ٱلْجَنَّةِ أَنْ أَفِيضُوا۟ عَلَيْنَا مِنَ ٱلْمَآءِ أَوْ مِمَّا رَزَقَكُمُ ٱللَّهُ ۚ قَالُوٓا۟ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلْكَـٰفِرِينَ",
     "textSimple": "ونادىٓ أصحـب ٱلنار أصحـب ٱلجنة أن أفيضوا علينا من ٱلمآء أو مما رزقكم ٱلله  قالوٓا إن ٱلله حرمهما على ٱلكـفرين",
     "transliteration": "wanādā aṣḥābu l-nāri aṣḥāba l-janati an afīḍū ʿalaynā mina l-māi aw mimmā razaqakumu l-lahu qālū inna l-laha ḥarramahumā ʿalā l-kāfirīna",
-    "translation": "",
+    "translation": "And the companions of the Fire will call to the companions of Paradise, \"Pour upon us some water or from whatever Allāh has provided you.\" They will say, \"Indeed, Allāh has forbidden them both to the disbelievers",
     "words": [
       {
         "id": "al-a-raf-50-1",
@@ -6153,7 +6202,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et les hôtes du Feu appelleront les hôtes du Paradis : « Versez sur nous un peu d’eau ou un peu de ce qu’Allah vous a dispensé. » Alors, ils répondront : « Allah les a défendus aux mécréants. »"
   },
   {
     "id": "al-a-raf-51",
@@ -6162,7 +6212,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَهْوًا وَلَعِبًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ نَنسَىٰهُمْ كَمَا نَسُوا۟ لِقَآءَ يَوْمِهِمْ هَـٰذَا وَمَا كَانُوا۟ بِـَٔايَـٰتِنَا يَجْحَدُونَ",
     "textSimple": "ٱلذين ٱتخذوا دينهم لهوا ولعبا وغرتهم ٱلحيوة ٱلدنيا  فٱليوم ننسىهم كما نسوا لقآء يومهم هـذا وما كانوا بـٔايـتنا يجحدون",
     "transliteration": "alladhīna ittakhadhū dīnahum lahwan walaʿiban wagharrathumu l-ḥayatu l-dun'yā fal-yawma nansāhum kamā nasū liqāa yawmihim hādhā wamā kānū biāyātinā yajḥadūna",
-    "translation": "",
+    "translation": "Who took their religion as distraction and amusement and whom the worldly life deluded.\" So today We will forget them just as they forgot the meeting of this Day of theirs and for having rejected Our verses.",
     "words": [
       {
         "id": "al-a-raf-51-1",
@@ -6298,7 +6348,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà ceux qui ont pris leur religion pour objet de divertissement et de jeu. Ils ont succombé à la tentation de ce bas monde. Aujourd’hui Nous les oublions comme ils ont oublié la rencontre de leur Jour-ci, eux qui reniaient obstinément Nos Signes."
   },
   {
     "id": "al-a-raf-52",
@@ -6307,7 +6358,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جِئْنَـٰهُم بِكِتَـٰبٍ فَصَّلْنَـٰهُ عَلَىٰ عِلْمٍ هُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "ولقد جئنـهم بكتـب فصلنـه على علم هدى ورحمة لقوم يؤمنون",
     "transliteration": "walaqad ji'nāhum bikitābin faṣṣalnāhu ʿalā ʿil'min hudan waraḥmatan liqawmin yu'minūna",
-    "translation": "",
+    "translation": "And We had certainly brought them a Book which We detailed by knowledge - as guidance and mercy to a people who believe.",
     "words": [
       {
         "id": "al-a-raf-52-1",
@@ -6380,7 +6431,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons transmis un Livre que Nous avons détaillé avec science, afin qu’il soit un guide et une miséricorde à ceux qui ont cru."
   },
   {
     "id": "al-a-raf-53",
@@ -6389,7 +6441,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ يَنظُرُونَ إِلَّا تَأْوِيلَهُۥ ۚ يَوْمَ يَأْتِى تَأْوِيلُهُۥ يَقُولُ ٱلَّذِينَ نَسُوهُ مِن قَبْلُ قَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ فَهَل لَّنَا مِن شُفَعَآءَ فَيَشْفَعُوا۟ لَنَآ أَوْ نُرَدُّ فَنَعْمَلَ غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ قَدْ خَسِرُوٓا۟ أَنفُسَهُمْ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "هل ينظرون إلا تأويله  يوم يأتى تأويله يقول ٱلذين نسوه من قبل قد جآءت رسل ربنا بٱلحق فهل لنا من شفعآء فيشفعوا لنآ أو نرد فنعمل غير ٱلذى كنا نعمل  قد خسروٓا أنفسهم وضل عنهم ما كانوا يفترون",
     "transliteration": "hal yanẓurūna illā tawīlahu yawma yatī tawīluhu yaqūlu alladhīna nasūhu min qablu qad jāat rusulu rabbinā bil-ḥaqi fahal lanā min shufaʿāa fayashfaʿū lanā aw nuraddu fanaʿmala ghayra alladhī kunnā naʿmalu qad khasirū anfusahum waḍalla ʿanhum mā kānū yaftarūna",
-    "translation": "",
+    "translation": "Do they await except its result? The Day its result comes, those who had ignored it before will say, \"The messengers of our Lord had come with the truth, so are there [now] any intercessors to intercede for us or could we be sent back to do other than what we used to do?\" They will have lost themselves, and lost from them is what they used to invent.",
     "words": [
       {
         "id": "al-a-raf-53-1",
@@ -6658,7 +6710,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’attendent-ils que la réalisation de ses annonces ? Mais le jour où ses annonces seront réalisées, ceux qui l’oubliaient diront : « Les Messagers de notre Seigneur avaient effectivement apporté la vérité, aurons-nous donc des intercesseurs ? Intercéderont-ils en notre faveur ? Ou alors serons-nous ramenés (vers la terre) pour agir autrement que nous ne le faisions ? » Ils se seront perdus eux-mêmes, et seront abandonnés par ce qu’ils inventaient (comme fausses divinités)."
   },
   {
     "id": "al-a-raf-54",
@@ -6667,7 +6720,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
     "textSimple": "إن ربكم ٱلله ٱلذى خلق ٱلسمـوت وٱلأرض فى ستة أيام ثم ٱستوى على ٱلعرش يغشى ٱليل ٱلنهار يطلبه حثيثا وٱلشمس وٱلقمر وٱلنجوم مسخرت بأمرهٓ  ألا له ٱلخلق وٱلأمر  تبارك ٱلله رب ٱلعـلمين",
     "transliteration": "inna rabbakumu l-lahu alladhī khalaqa l-samāwāti wal-arḍa fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi yugh'shī al-layla l-nahāra yaṭlubuhu ḥathīthan wal-shamsa wal-qamara wal-nujūma musakharātin bi-amrihi alā lahu l-khalqu wal-amru tabāraka l-lahu rabbu l-ʿālamīna",
-    "translation": "",
+    "translation": "Indeed, your Lord is Allāh, who created the heavens and earth in six days and then established Himself above the Throne. He covers the night with the day, [another night] chasing it rapidly; and [He created] the sun, the moon, and the stars, subjected by His command. Unquestionably, His is the creation and the command; blessed is Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "al-a-raf-54-1",
@@ -6894,7 +6947,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur est Allah Qui créa les cieux et la terre en six jours, puis S’établit avec une infinie Majesté sur le Trône (istawâ).Il recouvre le jour par la nuit, et celle-ci poursuit (le jour) en permanence. Le soleil, la lune et les étoiles, (Il les créa) soumis à Son commandement. C’est de Lui Seul que procèdent la création et le commandement. Gloire soit rendue à Allah, Seigneur de l’Univers."
   },
   {
     "id": "al-a-raf-55",
@@ -6903,7 +6957,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْعُوا۟ رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُعْتَدِينَ",
     "textSimple": "ٱدعوا ربكم تضرعا وخفية  إنه لا يحب ٱلمعتدين",
     "transliteration": "id'ʿū rabbakum taḍarruʿan wakhuf'yatan innahu lā yuḥibbu l-muʿ'tadīna",
-    "translation": "",
+    "translation": "Call upon your Lord in humility and privately; indeed, He does not like transgressors.",
     "words": [
       {
         "id": "al-a-raf-55-1",
@@ -6962,7 +7016,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Invoquez votre Seigneur avec humilité et en secret, car Il n’aime pas les transgresseurs."
   },
   {
     "id": "al-a-raf-56",
@@ -6971,7 +7026,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَـٰحِهَا وَٱدْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌ مِّنَ ٱلْمُحْسِنِينَ",
     "textSimple": "ولا تفسدوا فى ٱلأرض بعد إصلـحها وٱدعوه خوفا وطمعا  إن رحمت ٱلله قريب من ٱلمحسنين",
     "transliteration": "walā tuf'sidū fī l-arḍi baʿda iṣ'lāḥihā wa-id'ʿūhu khawfan waṭamaʿan inna raḥmata l-lahi qarībun mina l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And cause not corruption upon the earth after its reformation. And invoke Him in fear and aspiration. Indeed, the mercy of Allāh is near to the doers of good.",
     "words": [
       {
         "id": "al-a-raf-56-1",
@@ -7079,7 +7134,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne semez pas la corruption sur terre après l’amélioration de son état. Invoquez-Le avec crainte et espérance, car la miséricorde d’Allah est proche des bienfaiteurs."
   },
   {
     "id": "al-a-raf-57",
@@ -7088,7 +7144,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَـٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَـٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
     "textSimple": "وهو ٱلذى يرسل ٱلريـح بشرا بين يدى رحمته  حتىٓ إذآ أقلت سحابا ثقالا سقنـه لبلد ميت فأنزلنا به ٱلمآء فأخرجنا به من كل ٱلثمرت  كذلك نخرج ٱلموتى لعلكم تذكرون",
     "transliteration": "wahuwa alladhī yur'silu l-riyāḥa bush'ran bayna yaday raḥmatihi ḥattā idhā aqallat saḥāban thiqālan suq'nāhu libaladin mayyitin fa-anzalnā bihi l-māa fa-akhrajnā bihi min kulli l-thamarāti kadhālika nukh'riju l-mawtā laʿallakum tadhakkarūna",
-    "translation": "",
+    "translation": "And it is He who sends the winds as good tidings before His mercy [i.e., rainfall] until, when they have carried heavy rainclouds, We drive them to a dead land and We send down rain therein and bring forth thereby [some] of all the fruits. Thus will We bring forth the dead; perhaps you may be reminded.",
     "words": [
       {
         "id": "al-a-raf-57-1",
@@ -7294,7 +7350,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui envoie les vents comme heureuse annonce de Sa miséricorde. Lorsqu’ils portent des nuages lourds, Nous les dirigeons vers une terre déjà morte et en faisons descendre l’eau par laquelle Nous faisons sortir toutes sortes de fruits. C’est ainsi que Nous ferons sortir les morts (des tombes), peut-être vous souviendrez-vous."
   },
   {
     "id": "al-a-raf-58",
@@ -7303,7 +7360,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًا ۚ كَذَٰلِكَ نُصَرِّفُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَشْكُرُونَ",
     "textSimple": "وٱلبلد ٱلطيب يخرج نباته بإذن ربه  وٱلذى خبث لا يخرج إلا نكدا  كذلك نصرف ٱلـٔايـت لقوم يشكرون",
     "transliteration": "wal-baladu l-ṭayibu yakhruju nabātuhu bi-idh'ni rabbihi wa-alladhī khabutha lā yakhruju illā nakidan kadhālika nuṣarrifu l-āyāti liqawmin yashkurūna",
-    "translation": "",
+    "translation": "And the good land - its vegetation emerges by permission of its Lord; but that which is bad - nothing emerges except sparsely, with difficulty. Thus do We diversify the signs for a people who are grateful.",
     "words": [
       {
         "id": "al-a-raf-58-1",
@@ -7425,7 +7482,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La bonne terre voit pousser sa végétation par la grâce du Seigneur. Quant à celle de la mauvaise terre, elle ne sort que péniblement, maigre et précaire. C’est ainsi que Nous varions Nos Signes aux gens reconnaissants."
   },
   {
     "id": "al-a-raf-59",
@@ -7434,7 +7492,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
     "textSimple": "لقد أرسلنا نوحا إلى قومه فقال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيرهٓ إنىٓ أخاف عليكم عذاب يوم عظيم",
     "transliteration": "laqad arsalnā nūḥan ilā qawmihi faqāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu innī akhāfu ʿalaykum ʿadhāba yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "We had certainly sent Noah to his people, and he said, \"O my people, worship Allāh; you have no deity other than Him. Indeed, I fear for you the punishment of a tremendous Day.\"",
     "words": [
       {
         "id": "al-a-raf-59-1",
@@ -7577,7 +7635,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes Noé à son peuple. « Ô peuple mien, dit-il, adorez Allah, car vous n’avez d’autre divinité que Lui, et je crains pour vous le supplice d’un très grand Jour. »"
   },
   {
     "id": "al-a-raf-60",
@@ -7586,7 +7645,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلْمَلَأُ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "قال ٱلملأ من قومهٓ إنا لنرىك فى ضلـل مبين",
     "transliteration": "qāla l-mala-u min qawmihi innā lanarāka fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Said the eminent among his people, \"Indeed, we see you in clear error.\"",
     "words": [
       {
         "id": "al-a-raf-60-1",
@@ -7652,7 +7711,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables de son peuple dirent alors : « Nous te voyons dans un égarement flagrant. »"
   },
   {
     "id": "al-a-raf-61",
@@ -7661,7 +7721,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ لَيْسَ بِى ضَلَـٰلَةٌ وَلَـٰكِنِّى رَسُولٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قال يـقوم ليس بى ضلـلة ولـكنى رسول من رب ٱلعـلمين",
     "transliteration": "qāla yāqawmi laysa bī ḍalālatun walākinnī rasūlun min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "[Noah] said, \"O my people, there is not error in me, but I am a messenger from the Lord of the worlds.",
     "words": [
       {
         "id": "al-a-raf-61-1",
@@ -7734,7 +7794,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Je ne suis point dans l’égarement, répondit-il, mais je suis un Messager du Seigneur de l’Univers."
   },
   {
     "id": "al-a-raf-62",
@@ -7743,7 +7804,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أُبَلِّغُكُمْ رِسَـٰلَـٰتِ رَبِّى وَأَنصَحُ لَكُمْ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "أبلغكم رسـلـت ربى وأنصح لكم وأعلم من ٱلله ما لا تعلمون",
     "transliteration": "uballighukum risālāti rabbī wa-anṣaḥu lakum wa-aʿlamu mina l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "I convey to you the messages of my Lord and advise you; and I know from Allāh what you do not know.",
     "words": [
       {
         "id": "al-a-raf-62-1",
@@ -7823,7 +7884,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je vous transmets les messages de mon Seigneur, je vous donne les meilleurs conseils et je sais d’Allah ce que vous ne savez pas."
   },
   {
     "id": "al-a-raf-63",
@@ -7832,7 +7894,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ وَلِتَتَّقُوا۟ وَلَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "أوعجبتم أن جآءكم ذكر من ربكم على رجل منكم لينذركم ولتتقوا ولعلكم ترحمون",
     "transliteration": "awaʿajib'tum an jāakum dhik'run min rabbikum ʿalā rajulin minkum liyundhirakum walitattaqū walaʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you and that you may fear Allāh so you might receive mercy?\"",
     "words": [
       {
         "id": "al-a-raf-63-1",
@@ -7926,7 +7988,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous étonnez-vous donc qu’il vous soit parvenu un rappel de votre Seigneur, par le biais d’un homme d’entre vous, afin qu’il vous avertisse, que vous ayez la piété et que vous receviez la grâce ? »"
   },
   {
     "id": "al-a-raf-64",
@@ -7935,7 +7998,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَأَنجَيْنَـٰهُ وَٱلَّذِينَ مَعَهُۥ فِى ٱلْفُلْكِ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا عَمِينَ",
     "textSimple": "فكذبوه فأنجينـه وٱلذين معه فى ٱلفلك وأغرقنا ٱلذين كذبوا بـٔايـتنآ  إنهم كانوا قوما عمين",
     "transliteration": "fakadhabūhu fa-anjaynāhu wa-alladhīna maʿahu fī l-ful'ki wa-aghraqnā alladhīna kadhabū biāyātinā innahum kānū qawman ʿamīna",
-    "translation": "",
+    "translation": "But they denied him, so We saved him and those who were with him in the ship. And We drowned those who denied Our signs. Indeed, they were a blind people.",
     "words": [
       {
         "id": "al-a-raf-64-1",
@@ -8036,7 +8099,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils le traitèrent d’imposteur. Mais Nous le sauvâmes avec ses compagnons sur l’Arche et nous noyâmes ceux qui avaient démenti Nos Signes. C’était en vérité un peuple aveugle."
   },
   {
     "id": "al-a-raf-65",
@@ -8045,7 +8109,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۚ أَفَلَا تَتَّقُونَ",
     "textSimple": " وإلى عاد أخاهم هودا  قال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيرهٓ  أفلا تتقون",
     "transliteration": "wa-ilā ʿādin akhāhum hūdan qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu afalā tattaqūna",
-    "translation": "",
+    "translation": "And to the ʿAad [We sent] their brother Hūd. He said, \"O my people, worship Allāh; you have no deity other than Him. Then will you not fear Him?\"",
     "words": [
       {
         "id": "al-a-raf-65-1",
@@ -8153,7 +8217,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux ‘Ad, (Nous avons envoyé) leur frère Hûd qui leur dit : « Ô peuple mien! Adorez Allah, car vous n’avez d’autre divinité que Lui. Ne Le craignez-vous donc pas ? »"
   },
   {
     "id": "al-a-raf-66",
@@ -8162,7 +8227,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى سَفَاهَةٍ وَإِنَّا لَنَظُنُّكَ مِنَ ٱلْكَـٰذِبِينَ",
     "textSimple": "قال ٱلملأ ٱلذين كفروا من قومهٓ إنا لنرىك فى سفاهة وإنا لنظنك من ٱلكـذبين",
     "transliteration": "qāla l-mala-u alladhīna kafarū min qawmihi innā lanarāka fī safāhatin wa-innā lanaẓunnuka mina l-kādhibīna",
-    "translation": "",
+    "translation": "Said the eminent ones who disbelieved among his people, \"Indeed, we see you in foolishness, and indeed, we think you are of the liars.\"",
     "words": [
       {
         "id": "al-a-raf-66-1",
@@ -8263,7 +8328,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblé des notables qui mécroyaient dirent alors : « Nous te voyons (patauger) en pleine débilité, et nous pensons que tu es un imposteur. »"
   },
   {
     "id": "al-a-raf-67",
@@ -8272,7 +8338,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ لَيْسَ بِى سَفَاهَةٌ وَلَـٰكِنِّى رَسُولٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قال يـقوم ليس بى سفاهة ولـكنى رسول من رب ٱلعـلمين",
     "transliteration": "qāla yāqawmi laysa bī safāhatun walākinnī rasūlun min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "[Hūd] said, \"O my people, there is not foolishness in me, but I am a messenger from the Lord of the worlds.",
     "words": [
       {
         "id": "al-a-raf-67-1",
@@ -8345,7 +8411,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô peuple mien, dit-il alors, je ne souffre d’aucune débilité, je suis seulement un Messager du Seigneur de l’Univers."
   },
   {
     "id": "al-a-raf-68",
@@ -8354,7 +8421,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أُبَلِّغُكُمْ رِسَـٰلَـٰتِ رَبِّى وَأَنَا۠ لَكُمْ نَاصِحٌ أَمِينٌ",
     "textSimple": "أبلغكم رسـلـت ربى وأنا لكم ناصح أمين",
     "transliteration": "uballighukum risālāti rabbī wa-anā lakum nāṣiḥun amīnun",
-    "translation": "",
+    "translation": "I convey to you the messages of my Lord, and I am to you a trustworthy adviser.",
     "words": [
       {
         "id": "al-a-raf-68-1",
@@ -8406,7 +8473,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je vous transmets les messages de mon Seigneur, et je suis pour vous un conseiller loyal."
   },
   {
     "id": "al-a-raf-69",
@@ -8415,7 +8483,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
     "textSimple": "أوعجبتم أن جآءكم ذكر من ربكم على رجل منكم لينذركم  وٱذكروٓا إذ جعلكم خلفآء من بعد قوم نوح وزادكم فى ٱلخلق بصطة  فٱذكروٓا ءالآء ٱلله لعلكم تفلحون",
     "transliteration": "awaʿajib'tum an jāakum dhik'run min rabbikum ʿalā rajulin minkum liyundhirakum wa-udh'kurū idh jaʿalakum khulafāa min baʿdi qawmi nūḥin wazādakum fī l-khalqi baṣ'ṭatan fa-udh'kurū ālāa l-lahi laʿallakum tuf'liḥūna",
-    "translation": "",
+    "translation": "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you? And remember when He made you successors after the people of Noah and increased you in stature extensively. So remember the favors of Allāh that you might succeed.\"",
     "words": [
       {
         "id": "al-a-raf-69-1",
@@ -8607,7 +8675,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous étonnez-vous donc qu’il vous soit parvenu un rappel de votre Seigneur, par le biais d’un homme d’entre vous, afin qu’il vous avertisse ? Souvenez-vous qu’Allah a fait de vous les successeurs du peuple de Noé et qu’Il a ajouté à la hauteur de votre stature. Souvenez-vous donc des faveurs d’Allah, peut-être réussirez-vous. »"
   },
   {
     "id": "al-a-raf-70",
@@ -8616,7 +8685,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَجِئْتَنَا لِنَعْبُدَ ٱللَّهَ وَحْدَهُۥ وَنَذَرَ مَا كَانَ يَعْبُدُ ءَابَآؤُنَا ۖ فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "قالوٓا أجئتنا لنعبد ٱلله وحده ونذر ما كان يعبد ءابآؤنا  فأتنا بما تعدنآ إن كنت من ٱلصـدقين",
     "transliteration": "qālū aji'tanā linaʿbuda l-laha waḥdahu wanadhara mā kāna yaʿbudu ābāunā fatinā bimā taʿidunā in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "They said, \"Have you come to us that we should worship Allāh alone and leave what our fathers have worshipped? Then bring us what you promise us, if you should be of the truthful.\"",
     "words": [
       {
         "id": "al-a-raf-70-1",
@@ -8738,7 +8807,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Es-tu venu nous persuader d’adorer Allah Seul et d’abandonner ce qu’adoraient nos pères ? Fais donc arriver ce dont tu nous menaces si (dans tes paroles) tu es véridique ? »"
   },
   {
     "id": "al-a-raf-71",
@@ -8747,7 +8817,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ قَدْ وَقَعَ عَلَيْكُم مِّن رَّبِّكُمْ رِجْسٌ وَغَضَبٌ ۖ أَتُجَـٰدِلُونَنِى فِىٓ أَسْمَآءٍ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّا نَزَّلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
     "textSimple": "قال قد وقع عليكم من ربكم رجس وغضب  أتجـدلوننى فىٓ أسمآء سميتموهآ أنتم وءابآؤكم ما نزل ٱلله بها من سلطـن  فٱنتظروٓا إنى معكم من ٱلمنتظرين",
     "transliteration": "qāla qad waqaʿa ʿalaykum min rabbikum rij'sun waghaḍabun atujādilūnanī fī asmāin sammaytumūhā antum waābāukum mā nazzala l-lahu bihā min sul'ṭānin fa-intaẓirū innī maʿakum mina l-muntaẓirīna",
-    "translation": "",
+    "translation": "[Hūd] said, \"Already have defilement and anger fallen upon you from your Lord. Do you dispute with me concerning [mere] names you have named them, you and your fathers, for which Allāh has not sent down any authority? Then wait; indeed, I am with you among those who wait.\"",
     "words": [
       {
         "id": "al-a-raf-71-1",
@@ -8925,7 +8995,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « (Ayez la certitude que) le supplice et la colère de votre Seigneur s’abattront sur vous. Disputerez-vous avec moi de ces (divinités) que vous et vos pères avez nommées et qu’Allah n’avait appuyées d’aucune preuve d’autorité ? Attendez donc, je suis avec vous parmi ceux qui attendent. »"
   },
   {
     "id": "al-a-raf-72",
@@ -8934,7 +9005,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنجَيْنَـٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ",
     "textSimple": "فأنجينـه وٱلذين معه برحمة منا وقطعنا دابر ٱلذين كذبوا بـٔايـتنا  وما كانوا مؤمنين",
     "transliteration": "fa-anjaynāhu wa-alladhīna maʿahu biraḥmatin minnā waqaṭaʿnā dābira alladhīna kadhabū biāyātinā wamā kānū mu'minīna",
-    "translation": "",
+    "translation": "So We saved him and those with him by mercy from Us. And We eliminated those who denied Our signs, and they were not [at all] believers.",
     "words": [
       {
         "id": "al-a-raf-72-1",
@@ -9028,7 +9099,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes, avec ceux qui l’accompagnaient, par Notre grâce. Et Nous fîmes périr jusqu’au dernier ceux qui traitaient Nos Signes de mensonges, eux qui n’étaient pas croyants."
   },
   {
     "id": "al-a-raf-73",
@@ -9037,7 +9109,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَـٰلِحًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ هَـٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةً ۖ فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ ۖ وَلَا تَمَسُّوهَا بِسُوٓءٍ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "وإلى ثمود أخاهم صـلحا  قال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيره  قد جآءتكم بينة من ربكم  هـذه ناقة ٱلله لكم ءاية  فذروها تأكل فىٓ أرض ٱلله  ولا تمسوها بسوٓء فيأخذكم عذاب أليم",
     "transliteration": "wa-ilā thamūda akhāhum ṣāliḥan qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu qad jāatkum bayyinatun min rabbikum hādhihi nāqatu l-lahi lakum āyatan fadharūhā takul fī arḍi l-lahi walā tamassūhā bisūin fayakhudhakum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And to the Thamūd [We sent] their brother Ṣāliḥ. He said, \"O my people, worship Allāh; you have no deity other than Him. There has come to you clear evidence from your Lord. This is the she-camel of Allāh [sent] to you as a sign. So leave her to eat within Allāh's land and do not touch her with harm, lest there seize you a painful punishment.",
     "words": [
       {
         "id": "al-a-raf-73-1",
@@ -9278,7 +9350,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et aux Thamûd, (Nous avons envoyé) leur frère Çâlih, qui leur dit : « Ô peuple mien ! Adorez Allah, car vous n’avez d’autre divinité que Lui. Une preuve évidente vous est venue de votre Seigneur : cette chamelle d’Allah est un Signe pour vous. Laissez-la paître sur la terre d’Allah et ne lui faites aucun mal, ou alors vous prendra un douloureux supplice."
   },
   {
     "id": "al-a-raf-74",
@@ -9287,7 +9360,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
     "textSimple": "وٱذكروٓا إذ جعلكم خلفآء من بعد عاد وبوأكم فى ٱلأرض تتخذون من سهولها قصورا وتنحتون ٱلجبال بيوتا  فٱذكروٓا ءالآء ٱلله ولا تعثوا فى ٱلأرض مفسدين",
     "transliteration": "wa-udh'kurū idh jaʿalakum khulafāa min baʿdi ʿādin wabawwa-akum fī l-arḍi tattakhidhūna min suhūlihā quṣūran watanḥitūna l-jibāla buyūtan fa-udh'kurū ālāa l-lahi walā taʿthaw fī l-arḍi muf'sidīna",
-    "translation": "",
+    "translation": "And remember when He made you successors after the ʿAad and settled you in the land, [and] you take for yourselves palaces from its plains and carve from the mountains, homes. Then remember the favors of Allāh and do not commit abuse on the earth, spreading corruption.\"",
     "words": [
       {
         "id": "al-a-raf-74-1",
@@ -9465,7 +9538,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et souvenez-vous (dit encore Çâlih) quand Il fit de vous des successeurs après les ‘Ad et vous établit, puissants, sur terre. Dans ses plaines, vous bâtissiez des châteaux et dans ses montagnes, vous sculptiez des maisons. Souvenez-vous donc des faveurs d’Allah et ne répandez point, en semeurs de trouble, la corruption sur terre. »"
   },
   {
     "id": "al-a-raf-75",
@@ -9474,7 +9548,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلْمَلَأُ ٱلَّذِينَ ٱسْتَكْبَرُوا۟ مِن قَوْمِهِۦ لِلَّذِينَ ٱسْتُضْعِفُوا۟ لِمَنْ ءَامَنَ مِنْهُمْ أَتَعْلَمُونَ أَنَّ صَـٰلِحًا مُّرْسَلٌ مِّن رَّبِّهِۦ ۚ قَالُوٓا۟ إِنَّا بِمَآ أُرْسِلَ بِهِۦ مُؤْمِنُونَ",
     "textSimple": "قال ٱلملأ ٱلذين ٱستكبروا من قومه للذين ٱستضعفوا لمن ءامن منهم أتعلمون أن صـلحا مرسل من ربه  قالوٓا إنا بمآ أرسل به مؤمنون",
     "transliteration": "qāla l-mala-u alladhīna is'takbarū min qawmihi lilladhīna us'tuḍ'ʿifū liman āmana min'hum ataʿlamūna anna ṣāliḥan mur'salun min rabbihi qālū innā bimā ur'sila bihi mu'minūna",
-    "translation": "",
+    "translation": "Said the eminent ones who were arrogant among his people to those who were oppressed - to those who believed among them, \"Do you [actually] know that Ṣāliḥ is sent from his Lord?\" They said, \"Indeed we, in that with which he was sent, are believers.\"",
     "words": [
       {
         "id": "al-a-raf-75-1",
@@ -9638,7 +9712,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables de son peuple, fiers et hautains, dirent à ceux qui, parmi les plus faibles, avaient la foi : « Savez-vous, vous autres, que Çâlih est envoyé de la part de son Seigneur ? » Ils répondirent : « Nous croyons à son message ! »"
   },
   {
     "id": "al-a-raf-76",
@@ -9647,7 +9722,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا بِٱلَّذِىٓ ءَامَنتُم بِهِۦ كَـٰفِرُونَ",
     "textSimple": "قال ٱلذين ٱستكبروٓا إنا بٱلذىٓ ءامنتم به كـفرون",
     "transliteration": "qāla alladhīna is'takbarū innā bi-alladhī āmantum bihi kāfirūna",
-    "translation": "",
+    "translation": "Said those who were arrogant, \"Indeed we, in that which you have believed, are disbelievers.\"",
     "words": [
       {
         "id": "al-a-raf-76-1",
@@ -9706,7 +9781,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Du haut de leur orgueil, (les notables) répliquèrent : « Nous autres, ne croyons nullement en quoi vous avez cru ! »"
   },
   {
     "id": "al-a-raf-77",
@@ -9715,7 +9791,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَعَقَرُوا۟ ٱلنَّاقَةَ وَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا۟ يَـٰصَـٰلِحُ ٱئْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "فعقروا ٱلناقة وعتوا عن أمر ربهم وقالوا يـصـلح ٱئتنا بما تعدنآ إن كنت من ٱلمرسلين",
     "transliteration": "faʿaqarū l-nāqata waʿataw ʿan amri rabbihim waqālū yāṣāliḥu i'tinā bimā taʿidunā in kunta mina l-mur'salīna",
-    "translation": "",
+    "translation": "So they hamstrung the she-camel and were insolent toward the command of their Lord and said, \"O Ṣāliḥ, bring us what you promise us, if you should be of the messengers.\"",
     "words": [
       {
         "id": "al-a-raf-77-1",
@@ -9823,7 +9899,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis ils tuèrent la chamelle, enfreignant ainsi le commandement de leur Seigneur, et dirent : « Ô Çâlih ! Fais donc qu’il nous arrive ce dont tu nous menaces, si tu es du nombre des Envoyés ! »"
   },
   {
     "id": "al-a-raf-78",
@@ -9832,7 +9909,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَـٰثِمِينَ",
     "textSimple": "فأخذتهم ٱلرجفة فأصبحوا فى دارهم جـثمين",
     "transliteration": "fa-akhadhathumu l-rajfatu fa-aṣbaḥū fī dārihim jāthimīna",
-    "translation": "",
+    "translation": "So the earthquake seized them, and they became within their home [corpses] fallen prone.",
     "words": [
       {
         "id": "al-a-raf-78-1",
@@ -9877,7 +9954,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un grand ébranlement les surprit alors et, au matin, ils gisaient inertes dans leurs maisons."
   },
   {
     "id": "al-a-raf-79",
@@ -9886,7 +9964,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَالَةَ رَبِّى وَنَصَحْتُ لَكُمْ وَلَـٰكِن لَّا تُحِبُّونَ ٱلنَّـٰصِحِينَ",
     "textSimple": "فتولى عنهم وقال يـقوم لقد أبلغتكم رسالة ربى ونصحت لكم ولـكن لا تحبون ٱلنـصحين",
     "transliteration": "fatawallā ʿanhum waqāla yāqawmi laqad ablaghtukum risālata rabbī wanaṣaḥtu lakum walākin lā tuḥibbūna l-nāṣiḥīna",
-    "translation": "",
+    "translation": "And he [i.e., Ṣāliḥ] turned away from them and said, \"O my people, I had certainly conveyed to you the message of my Lord and advised you, but you do not like advisors.\"",
     "words": [
       {
         "id": "al-a-raf-79-1",
@@ -9987,7 +10065,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il se détourna d’eux en disant : « Ô peuple mien ! Je vous ai pourtant transmis le message de mon Seigneur et vous ai été de bon conseil, mais vous n’aimez pas les bons conseillers. »"
   },
   {
     "id": "al-a-raf-80",
@@ -9996,7 +10075,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
     "textSimple": "ولوطا إذ قال لقومهٓ أتأتون ٱلفـحشة ما سبقكم بها من أحد من ٱلعـلمين",
     "transliteration": "walūṭan idh qāla liqawmihi atatūna l-fāḥishata mā sabaqakum bihā min aḥadin mina l-ʿālamīna",
-    "translation": "",
+    "translation": "And [We had sent] Lot when he said to his people, \"Do you commit such immorality as no one has preceded you with from among the worlds [i.e., peoples]?",
     "words": [
       {
         "id": "al-a-raf-80-1",
@@ -10090,7 +10169,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Loth, qui dit à son peuple : « Vous vous adonnez à un vice que nul autre aux mondes n’avait pratiqué avant vous !"
   },
   {
     "id": "al-a-raf-81",
@@ -10099,7 +10179,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةً مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
     "textSimple": "إنكم لتأتون ٱلرجال شهوة من دون ٱلنسآء  بل أنتم قوم مسرفون",
     "transliteration": "innakum latatūna l-rijāla shahwatan min dūni l-nisāi bal antum qawmun mus'rifūna",
-    "translation": "",
+    "translation": "Indeed, you approach men with desire, instead of women. Rather, you are a transgressing people.\"",
     "words": [
       {
         "id": "al-a-raf-81-1",
@@ -10179,7 +10259,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous recherchez les plaisirs charnels avec les hommes plutôt qu’avec les femmes : vous êtes vraiment un peuple porté aux excès ! »"
   },
   {
     "id": "al-a-raf-82",
@@ -10188,7 +10269,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوٓا۟ أَخْرِجُوهُم مِّن قَرْيَتِكُمْ ۖ إِنَّهُمْ أُنَاسٌ يَتَطَهَّرُونَ",
     "textSimple": "وما كان جواب قومهٓ إلآ أن قالوٓا أخرجوهم من قريتكم  إنهم أناس يتطهرون",
     "transliteration": "wamā kāna jawāba qawmihi illā an qālū akhrijūhum min qaryatikum innahum unāsun yataṭahharūna",
-    "translation": "",
+    "translation": "But the answer of his people was only that they said, \"Evict them from your city! Indeed, they are men who keep themselves pure.\"",
     "words": [
       {
         "id": "al-a-raf-82-1",
@@ -10282,7 +10363,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’eurent alors pour toute réponse que de dire : « Chassez-les de votre cité, ce sont des gens qui revendiquent la pureté. »"
   },
   {
     "id": "al-a-raf-83",
@@ -10291,7 +10373,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنجَيْنَـٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
     "textSimple": "فأنجينـه وأهلهٓ إلا ٱمرأته كانت من ٱلغـبرين",
     "transliteration": "fa-anjaynāhu wa-ahlahu illā im'ra-atahu kānat mina l-ghābirīna",
-    "translation": "",
+    "translation": "So We saved him and his family, except for his wife; she was of those who remained [with the evildoers].",
     "words": [
       {
         "id": "al-a-raf-83-1",
@@ -10343,7 +10425,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes avec sa famille, à l’exception de sa femme qui fut du nombre des anéantis."
   },
   {
     "id": "al-a-raf-84",
@@ -10352,7 +10435,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُجْرِمِينَ",
     "textSimple": "وأمطرنا عليهم مطرا  فٱنظر كيف كان عـقبة ٱلمجرمين",
     "transliteration": "wa-amṭarnā ʿalayhim maṭaran fa-unẓur kayfa kāna ʿāqibatu l-muj'rimīna",
-    "translation": "",
+    "translation": "And We rained upon them a rain [of stones]. Then see how was the end of the criminals.",
     "words": [
       {
         "id": "al-a-raf-84-1",
@@ -10411,7 +10494,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sur eux Nous fîmes tomber une pluie (de pierres d’argile). Vois donc quel fut le sort des criminels."
   },
   {
     "id": "al-a-raf-85",
@@ -10420,7 +10504,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَـٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "وإلى مدين أخاهم شعيبا  قال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيره  قد جآءتكم بينة من ربكم  فأوفوا ٱلكيل وٱلميزان ولا تبخسوا ٱلناس أشيآءهم ولا تفسدوا فى ٱلأرض بعد إصلـحها  ذلكم خير لكم إن كنتم مؤمنين",
     "transliteration": "wa-ilā madyana akhāhum shuʿayban qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu qad jāatkum bayyinatun min rabbikum fa-awfū l-kayla wal-mīzāna walā tabkhasū l-nāsa ashyāahum walā tuf'sidū fī l-arḍi baʿda iṣ'lāḥihā dhālikum khayrun lakum in kuntum mu'minīna",
-    "translation": "",
+    "translation": "And to [the people of] Madyan [We sent] their brother Shuʿayb. He said, \"O my people, worship Allāh; you have no deity other than Him. There has come to you clear evidence from your Lord. So fulfill the measure and weight and do not deprive people of their due and cause not corruption upon the earth after its reformation. That is better for you, if you should be believers.",
     "words": [
       {
         "id": "al-a-raf-85-1",
@@ -10682,7 +10766,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (Nous avons envoyé) au peuple des Madyan leur frère Chou ̒ayb, qui leur dit : « Ô peuple mien ! Adorez Allah, car vous n’avez d’autre divinité que Lui. Une preuve évidente vous est venue de votre Seigneur. Respectez donc la mesure et le poids et ne restituez pas aux gens moins que ce qui leur est dû. Ne répandez pas la corruption sur terre après l’amélioration de son état. Ce sera meilleur pour vous, si vous êtes croyants."
   },
   {
     "id": "al-a-raf-86",
@@ -10691,7 +10776,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُفْسِدِينَ",
     "textSimple": "ولا تقعدوا بكل صرط توعدون وتصدون عن سبيل ٱلله من ءامن به وتبغونها عوجا  وٱذكروٓا إذ كنتم قليلا فكثركم  وٱنظروا كيف كان عـقبة ٱلمفسدين",
     "transliteration": "walā taqʿudū bikulli ṣirāṭin tūʿidūna wataṣuddūna ʿan sabīli l-lahi man āmana bihi watabghūnahā ʿiwajan wa-udh'kurū idh kuntum qalīlan fakatharakum wa-unẓurū kayfa kāna ʿāqibatu l-muf'sidīna",
-    "translation": "",
+    "translation": "And do not sit on every path, threatening and averting from the way of Allāh those who believe in Him, seeking to make it [seem] deviant. And remember when you were few and He increased you. And see how was the end of the corrupters.",
     "words": [
       {
         "id": "al-a-raf-86-1",
@@ -10862,7 +10947,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne restez pas en travers de toute voie à menacer ou à repousser du chemin d’Allah celui qui croit en Lui, chemin que vous souhaitez tortueux. Souvenez-vous que vous étiez peu nombreux et qu’Il a multiplié votre nombre. Et voyez quel fut le sort des semeurs de trouble."
   },
   {
     "id": "al-a-raf-87",
@@ -10871,7 +10957,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَانَ طَآئِفَةٌ مِّنكُمْ ءَامَنُوا۟ بِٱلَّذِىٓ أُرْسِلْتُ بِهِۦ وَطَآئِفَةٌ لَّمْ يُؤْمِنُوا۟ فَٱصْبِرُوا۟ حَتَّىٰ يَحْكُمَ ٱللَّهُ بَيْنَنَا ۚ وَهُوَ خَيْرُ ٱلْحَـٰكِمِينَ",
     "textSimple": "وإن كان طآئفة منكم ءامنوا بٱلذىٓ أرسلت به وطآئفة لم يؤمنوا فٱصبروا حتى يحكم ٱلله بيننا  وهو خير ٱلحـكمين",
     "transliteration": "wa-in kāna ṭāifatun minkum āmanū bi-alladhī ur'sil'tu bihi waṭāifatun lam yu'minū fa-iṣ'birū ḥattā yaḥkuma l-lahu baynanā wahuwa khayru l-ḥākimīna",
-    "translation": "",
+    "translation": "And if there should be a group among you who has believed in that with which I have been sent and a group that has not believed, then be patient until Allāh judges between us. And He is the best of judges.\"",
     "words": [
       {
         "id": "al-a-raf-87-1",
@@ -11007,7 +11093,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seule une partie d’entre vous a cru à la mission pour laquelle j’ai été envoyé, et qu’une autre partie n’y ait pas cru, prenez patience jusqu’à ce que le Jugement d’Allah vous départage, car c’est Lui le Meilleur des juges. »"
   },
   {
     "id": "al-a-raf-88",
@@ -11016,7 +11103,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَ ٱلْمَلَأُ ٱلَّذِينَ ٱسْتَكْبَرُوا۟ مِن قَوْمِهِۦ لَنُخْرِجَنَّكَ يَـٰشُعَيْبُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَكَ مِن قَرْيَتِنَآ أَوْ لَتَعُودُنَّ فِى مِلَّتِنَا ۚ قَالَ أَوَلَوْ كُنَّا كَـٰرِهِينَ",
     "textSimple": " قال ٱلملأ ٱلذين ٱستكبروا من قومه لنخرجنك يـشعيب وٱلذين ءامنوا معك من قريتنآ أو لتعودن فى ملتنا  قال أولو كنا كـرهين",
     "transliteration": "qāla l-mala-u alladhīna is'takbarū min qawmihi lanukh'rijannaka yāshuʿaybu wa-alladhīna āmanū maʿaka min qaryatinā aw lataʿūdunna fī millatinā qāla awalaw kunnā kārihīna",
-    "translation": "",
+    "translation": "Said the eminent ones who were arrogant among his people, \"We will surely evict you, O Shuʿayb, and those who have believed with you from our city, or you must return to our religion.\" He said, \"Even if we were unwilling?",
     "words": [
       {
         "id": "al-a-raf-88-1",
@@ -11166,7 +11253,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables de son peuple, fiers et hautains, dirent : « Nous te chasserons de notre cité, toi et ceux qui ont cru avec toi, Chou ̒ayb, à moins que vous ne reveniez à notre religion. » Il dit alors : « Et cela même si nous l’avons en horreur ?"
   },
   {
     "id": "al-a-raf-89",
@@ -11175,7 +11263,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَدِ ٱفْتَرَيْنَا عَلَى ٱللَّهِ كَذِبًا إِنْ عُدْنَا فِى مِلَّتِكُم بَعْدَ إِذْ نَجَّىٰنَا ٱللَّهُ مِنْهَا ۚ وَمَا يَكُونُ لَنَآ أَن نَّعُودَ فِيهَآ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّنَا ۚ وَسِعَ رَبُّنَا كُلَّ شَىْءٍ عِلْمًا ۚ عَلَى ٱللَّهِ تَوَكَّلْنَا ۚ رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ ٱلْفَـٰتِحِينَ",
     "textSimple": "قد ٱفترينا على ٱلله كذبا إن عدنا فى ملتكم بعد إذ نجىنا ٱلله منها  وما يكون لنآ أن نعود فيهآ إلآ أن يشآء ٱلله ربنا  وسع ربنا كل شىء علما  على ٱلله توكلنا  ربنا ٱفتح بيننا وبين قومنا بٱلحق وأنت خير ٱلفـتحين",
     "transliteration": "qadi if'taraynā ʿalā l-lahi kadhiban in ʿud'nā fī millatikum baʿda idh najjānā l-lahu min'hā wamā yakūnu lanā an naʿūda fīhā illā an yashāa l-lahu rabbunā wasiʿa rabbunā kulla shayin ʿil'man ʿalā l-lahi tawakkalnā rabbanā if'taḥ baynanā wabayna qawminā bil-ḥaqi wa-anta khayru l-fātiḥīna",
-    "translation": "",
+    "translation": "We would have invented against Allāh a lie if we returned to your religion after Allāh had saved us from it. And it is not for us to return to it except that Allāh, our Lord, should will. Our Lord has encompassed all things in knowledge. Upon Allāh we have relied. Our Lord, decide between us and our people in truth, and You are the best of those who give decision.\"",
     "words": [
       {
         "id": "al-a-raf-89-1",
@@ -11472,7 +11560,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 41
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous inventerions alors des mensonges au sujet d’Allah si nous revenions à votre religion, après qu’Allah nous a sauvés. Et nous ne saurions y revenir sauf si Allah, notre Seigneur, le voulait. Notre Seigneur cerne tout de Sa vaste science. Nous nous en remettons à Allah. Seigneur ! Fais le départ entre nous et notre peuple par la vérité. Car Tu es le Meilleur des arbitres. »"
   },
   {
     "id": "al-a-raf-90",
@@ -11481,7 +11570,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ لَئِنِ ٱتَّبَعْتُمْ شُعَيْبًا إِنَّكُمْ إِذًا لَّخَـٰسِرُونَ",
     "textSimple": "وقال ٱلملأ ٱلذين كفروا من قومه لئن ٱتبعتم شعيبا إنكم إذا لخـسرون",
     "transliteration": "waqāla l-mala-u alladhīna kafarū min qawmihi la-ini ittabaʿtum shuʿayban innakum idhan lakhāsirūna",
-    "translation": "",
+    "translation": "Said the eminent ones who disbelieved among his people, \"If you should follow Shuʿayb, indeed, you would then be losers.\"",
     "words": [
       {
         "id": "al-a-raf-90-1",
@@ -11568,7 +11657,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables de son peuple, parmi ceux qui ont mécru, dirent : « Si vous suivez Chou ̒ayb, vous serez perdants. »"
   },
   {
     "id": "al-a-raf-91",
@@ -11577,7 +11667,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَـٰثِمِينَ",
     "textSimple": "فأخذتهم ٱلرجفة فأصبحوا فى دارهم جـثمين",
     "transliteration": "fa-akhadhathumu l-rajfatu fa-aṣbaḥū fī dārihim jāthimīna",
-    "translation": "",
+    "translation": "So the earthquake seized them, and they became within their home [corpses] fallen prone.",
     "words": [
       {
         "id": "al-a-raf-91-1",
@@ -11622,7 +11712,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un grand ébranlement les surprit alors et, au matin, ils gisaient inertes dans leurs maisons."
   },
   {
     "id": "al-a-raf-92",
@@ -11631,7 +11722,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًا كَأَن لَّمْ يَغْنَوْا۟ فِيهَا ۚ ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًا كَانُوا۟ هُمُ ٱلْخَـٰسِرِينَ",
     "textSimple": "ٱلذين كذبوا شعيبا كأن لم يغنوا فيها  ٱلذين كذبوا شعيبا كانوا هم ٱلخـسرين",
     "transliteration": "alladhīna kadhabū shuʿayban ka-an lam yaghnaw fīhā alladhīna kadhabū shuʿayban kānū humu l-khāsirīna",
-    "translation": "",
+    "translation": "Those who denied Shuʿayb - it was as though they had never resided there. Those who denied Shuʿayb - it was they who were the losers.",
     "words": [
       {
         "id": "al-a-raf-92-1",
@@ -11725,7 +11816,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui taxaient Chou ̒ayb de mensonge (périrent) comme s’ils n’avaient jamais habité (leur cité). Ceux qui traitaient Chou ̒ayb d’imposteur étaient donc eux les perdants."
   },
   {
     "id": "al-a-raf-93",
@@ -11734,7 +11826,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَـٰلَـٰتِ رَبِّى وَنَصَحْتُ لَكُمْ ۖ فَكَيْفَ ءَاسَىٰ عَلَىٰ قَوْمٍ كَـٰفِرِينَ",
     "textSimple": "فتولى عنهم وقال يـقوم لقد أبلغتكم رسـلـت ربى ونصحت لكم  فكيف ءاسى على قوم كـفرين",
     "transliteration": "fatawallā ʿanhum waqāla yāqawmi laqad ablaghtukum risālāti rabbī wanaṣaḥtu lakum fakayfa āsā ʿalā qawmin kāfirīna",
-    "translation": "",
+    "translation": "And he [i.e., Shuʿayb] turned away from them and said, \"O my people, I had certainly conveyed to you the messages of my Lord and advised you, so how could I grieve for a disbelieving people?\"",
     "words": [
       {
         "id": "al-a-raf-93-1",
@@ -11842,7 +11934,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’éloigna d’eux en disant : « Ô peuple mien ! je vous ai pourtant transmis les messages de mon Seigneur et vous ai été de bon conseil. Comment pourrais-je m’affliger pour un peuple de mécréants ? »"
   },
   {
     "id": "al-a-raf-94",
@@ -11851,7 +11944,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّبِىٍّ إِلَّآ أَخَذْنَآ أَهْلَهَا بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ يَضَّرَّعُونَ",
     "textSimple": "ومآ أرسلنا فى قرية من نبى إلآ أخذنآ أهلها بٱلبأسآء وٱلضرآء لعلهم يضرعون",
     "transliteration": "wamā arsalnā fī qaryatin min nabiyyin illā akhadhnā ahlahā bil-basāi wal-ḍarāi laʿallahum yaḍḍarraʿūna",
-    "translation": "",
+    "translation": "And We sent to no city a prophet [who was denied] except that We seized its people with poverty and hardship that they might humble themselves [to Allāh].",
     "words": [
       {
         "id": "al-a-raf-94-1",
@@ -11945,7 +12038,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons jamais envoyé un Prophète dans une cité sans que Nous n’ayons éprouvé ses habitants par les malheurs et l’adversité, peut-être nous imploreront-ils, humbles et suppliants."
   },
   {
     "id": "al-a-raf-95",
@@ -11954,7 +12048,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَدَّلْنَا مَكَانَ ٱلسَّيِّئَةِ ٱلْحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدْ مَسَّ ءَابَآءَنَا ٱلضَّرَّآءُ وَٱلسَّرَّآءُ فَأَخَذْنَـٰهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "ثم بدلنا مكان ٱلسيئة ٱلحسنة حتى عفوا وقالوا قد مس ءابآءنا ٱلضرآء وٱلسرآء فأخذنـهم بغتة وهم لا يشعرون",
     "transliteration": "thumma baddalnā makāna l-sayi-ati l-ḥasanata ḥattā ʿafaw waqālū qad massa ābāanā l-ḍarāu wal-sarāu fa-akhadhnāhum baghtatan wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "Then We exchanged in place of the bad [condition], good, until they increased [and prospered] and said, \"Our fathers [also] were touched with hardship and ease.\" So We seized them suddenly while they did not perceive.",
     "words": [
       {
         "id": "al-a-raf-95-1",
@@ -12083,7 +12177,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous avons substitué le faste au néfaste, et lorsqu’ils eurent prospéré ils dirent : « Aussi bien le malheur que le bonheur ont touché nos pères. » Alors, Nous les emportâmes subitement sans qu’ils ne s’en aperçoivent."
   },
   {
     "id": "al-a-raf-96",
@@ -12092,7 +12187,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّ أَهْلَ ٱلْقُرَىٰٓ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَفَتَحْنَا عَلَيْهِم بَرَكَـٰتٍ مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ وَلَـٰكِن كَذَّبُوا۟ فَأَخَذْنَـٰهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "ولو أن أهل ٱلقرىٓ ءامنوا وٱتقوا لفتحنا عليهم بركـت من ٱلسمآء وٱلأرض ولـكن كذبوا فأخذنـهم بما كانوا يكسبون",
     "transliteration": "walaw anna ahla l-qurā āmanū wa-ittaqaw lafataḥnā ʿalayhim barakātin mina l-samāi wal-arḍi walākin kadhabū fa-akhadhnāhum bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "And if only the people of the cities had believed and feared Allāh, We would have opened [i.e., bestowed] upon them blessings from the heaven and the earth; but they denied [the messengers], so We seized them for what they were earning.",
     "words": [
       {
         "id": "al-a-raf-96-1",
@@ -12221,7 +12316,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si les habitants des cités avaient eu la foi et la piété, Nous aurions ouvert devant eux (les portes) de Nos bénédictions venues du ciel et de la terre. Mais ils ont démenti (la vérité) et Nous les avons emportés subitement pour ce qu’ils avaient commis."
   },
   {
     "id": "al-a-raf-97",
@@ -12230,7 +12326,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا بَيَـٰتًا وَهُمْ نَآئِمُونَ",
     "textSimple": "أفأمن أهل ٱلقرىٓ أن يأتيهم بأسنا بيـتا وهم نآئمون",
     "transliteration": "afa-amina ahlu l-qurā an yatiyahum basunā bayātan wahum nāimūna",
-    "translation": "",
+    "translation": "Then, did the people of the cities feel secure from Our punishment coming to them at night while they were asleep?",
     "words": [
       {
         "id": "al-a-raf-97-1",
@@ -12296,7 +12392,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les habitants des cités avaient-ils donc la certitude que Nos rigueurs ne les surprendraient point la nuit, pendant leur sommeil ?"
   },
   {
     "id": "al-a-raf-98",
@@ -12305,7 +12402,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا ضُحًى وَهُمْ يَلْعَبُونَ",
     "textSimple": "أوأمن أهل ٱلقرىٓ أن يأتيهم بأسنا ضحى وهم يلعبون",
     "transliteration": "awa-amina ahlu l-qurā an yatiyahum basunā ḍuḥan wahum yalʿabūna",
-    "translation": "",
+    "translation": "Or did the people of the cities feel secure from Our punishment coming to them in the morning while they were at play?",
     "words": [
       {
         "id": "al-a-raf-98-1",
@@ -12371,7 +12468,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les habitants des cités avaient-ils donc la certitude que Nos rigueurs ne les surprendraient point le jour, pendant leurs loisirs ?"
   },
   {
     "id": "al-a-raf-99",
@@ -12380,7 +12478,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَأَمِنُوا۟ مَكْرَ ٱللَّهِ ۚ فَلَا يَأْمَنُ مَكْرَ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "أفأمنوا مكر ٱلله  فلا يأمن مكر ٱلله إلا ٱلقوم ٱلخـسرون",
     "transliteration": "afa-aminū makra l-lahi falā yamanu makra l-lahi illā l-qawmu l-khāsirūna",
-    "translation": "",
+    "translation": "Then, did they feel secure from the plan of Allāh? But no one feels secure from the plan of Allāh except the losing people.",
     "words": [
       {
         "id": "al-a-raf-99-1",
@@ -12453,7 +12551,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Se sentaient-ils préservés de la Ruse d’Allah (makr’Allah) ? Seuls se sentent préservés de la Ruse d’Allah les gens perdus."
   },
   {
     "id": "al-a-raf-100",
@@ -12462,7 +12561,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَهْدِ لِلَّذِينَ يَرِثُونَ ٱلْأَرْضَ مِنۢ بَعْدِ أَهْلِهَآ أَن لَّوْ نَشَآءُ أَصَبْنَـٰهُم بِذُنُوبِهِمْ ۚ وَنَطْبَعُ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَسْمَعُونَ",
     "textSimple": "أولم يهد للذين يرثون ٱلأرض من بعد أهلهآ أن لو نشآء أصبنـهم بذنوبهم  ونطبع على قلوبهم فهم لا يسمعون",
     "transliteration": "awalam yahdi lilladhīna yarithūna l-arḍa min baʿdi ahlihā an law nashāu aṣabnāhum bidhunūbihim wanaṭbaʿu ʿalā qulūbihim fahum lā yasmaʿūna",
-    "translation": "",
+    "translation": "Has it not become clear to those who inherited the earth after its [previous] people that if We willed, We could afflict them for their sins? But We seal over their hearts so they do not hear.",
     "words": [
       {
         "id": "al-a-raf-100-1",
@@ -12598,7 +12697,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’est-il pas clairement démontré à ceux qui héritent de la terre après ses anciens habitants que si Nous le voulions, Nous les punirions de leurs péchés et scellerions leurs cœurs, au point qu’ils n’entendraient plus ?"
   },
   {
     "id": "al-a-raf-101",
@@ -12607,7 +12707,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ٱلْقُرَىٰ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآئِهَا ۚ وَلَقَدْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَمَا كَانُوا۟ لِيُؤْمِنُوا۟ بِمَا كَذَّبُوا۟ مِن قَبْلُ ۚ كَذَٰلِكَ يَطْبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلْكَـٰفِرِينَ",
     "textSimple": "تلك ٱلقرى نقص عليك من أنبآئها  ولقد جآءتهم رسلهم بٱلبينـت فما كانوا ليؤمنوا بما كذبوا من قبل  كذلك يطبع ٱلله على قلوب ٱلكـفرين",
     "transliteration": "til'ka l-qurā naquṣṣu ʿalayka min anbāihā walaqad jāathum rusuluhum bil-bayināti famā kānū liyu'minū bimā kadhabū min qablu kadhālika yaṭbaʿu l-lahu ʿalā qulūbi l-kāfirīna",
-    "translation": "",
+    "translation": "Those cities - We relate to you, [O Muḥammad], some of their news. And certainly did their messengers come to them with clear proofs, but they were not to believe in that which they had denied before. Thus does Allāh seal over the hearts of the disbelievers.",
     "words": [
       {
         "id": "al-a-raf-101-1",
@@ -12771,7 +12871,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là des cités dont nous te racontons des nouvelles. Leurs Messagers sont venus vers elles avec des preuves évidentes, mais elles ne pouvaient pas croire en ce qu’elles avaient démenti auparavant. C’est ainsi qu’Allah imprime le sceau (de l’impiété) sur le cœur des mécréants."
   },
   {
     "id": "al-a-raf-102",
@@ -12780,7 +12881,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا وَجَدْنَا لِأَكْثَرِهِم مِّنْ عَهْدٍ ۖ وَإِن وَجَدْنَآ أَكْثَرَهُمْ لَفَـٰسِقِينَ",
     "textSimple": "وما وجدنا لأكثرهم من عهد  وإن وجدنآ أكثرهم لفـسقين",
     "transliteration": "wamā wajadnā li-aktharihim min ʿahdin wa-in wajadnā aktharahum lafāsiqīna",
-    "translation": "",
+    "translation": "And We did not find for most of them any covenant; but indeed, We found most of them defiantly disobedient.",
     "words": [
       {
         "id": "al-a-raf-102-1",
@@ -12846,7 +12947,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons trouvé chez la majorité d’entre eux aucune fidélité aux engagements. Nous les avons trouvés, pour la plupart, pervers."
   },
   {
     "id": "al-a-raf-103",
@@ -12855,7 +12957,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِم مُّوسَىٰ بِـَٔايَـٰتِنَآ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَظَلَمُوا۟ بِهَا ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُفْسِدِينَ",
     "textSimple": "ثم بعثنا من بعدهم موسى بـٔايـتنآ إلى فرعون وملإيه فظلموا بها  فٱنظر كيف كان عـقبة ٱلمفسدين",
     "transliteration": "thumma baʿathnā min baʿdihim mūsā biāyātinā ilā fir'ʿawna wamala-ihi faẓalamū bihā fa-unẓur kayfa kāna ʿāqibatu l-muf'sidīna",
-    "translation": "",
+    "translation": "Then We sent after them Moses with Our signs to Pharaoh and his establishment, but they were unjust toward them. So see how was the end of the corrupters.",
     "words": [
       {
         "id": "al-a-raf-103-1",
@@ -12970,7 +13072,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, après ceux-là (ces Messagers), Nous envoyâmes Moïse avec Nos prodiges à Pharaon et son assemblée de notables. Ils les renièrent injustement. Vois donc quel fut le sort des corrupteurs."
   },
   {
     "id": "al-a-raf-104",
@@ -12979,7 +13082,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ مُوسَىٰ يَـٰفِرْعَوْنُ إِنِّى رَسُولٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "وقال موسى يـفرعون إنى رسول من رب ٱلعـلمين",
     "transliteration": "waqāla mūsā yāfir'ʿawnu innī rasūlun min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And Moses said, \"O Pharaoh, I am a messenger from the Lord of the worlds",
     "words": [
       {
         "id": "al-a-raf-104-1",
@@ -13038,7 +13141,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit : « Ô Pharaon ! Je suis un Messager du Seigneur de l’Univers."
   },
   {
     "id": "al-a-raf-105",
@@ -13047,7 +13151,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "حَقِيقٌ عَلَىٰٓ أَن لَّآ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ قَدْ جِئْتُكُم بِبَيِّنَةٍ مِّن رَّبِّكُمْ فَأَرْسِلْ مَعِىَ بَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "حقيق علىٓ أن لآ أقول على ٱلله إلا ٱلحق  قد جئتكم ببينة من ربكم فأرسل معى بنىٓ إسرٓءيل",
     "transliteration": "ḥaqīqun ʿalā an lā aqūla ʿalā l-lahi illā l-ḥaqa qad ji'tukum bibayyinatin min rabbikum fa-arsil maʿiya banī is'rāīla",
-    "translation": "",
+    "translation": "[Who is] obligated not to say about Allāh except the truth. I have come to you with clear evidence from your Lord, so send with me the Children of Israel.\"",
     "words": [
       {
         "id": "al-a-raf-105-1",
@@ -13176,7 +13280,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne me dois de dire sur Allah rien d’autre que la pure vérité. Je vous apporte une preuve évidente de votre Seigneur. Envoie donc avec moi les Enfants d’Israël. »"
   },
   {
     "id": "al-a-raf-106",
@@ -13185,7 +13290,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِن كُنتَ جِئْتَ بِـَٔايَةٍ فَأْتِ بِهَآ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "قال إن كنت جئت بـٔاية فأت بهآ إن كنت من ٱلصـدقين",
     "transliteration": "qāla in kunta ji'ta biāyatin fati bihā in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"If you have come with a sign, then bring it forth, if you should be of the truthful.\"",
     "words": [
       {
         "id": "al-a-raf-106-1",
@@ -13265,7 +13370,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si tu es vraiment venu avec un Signe miraculeux, dit Pharaon, produis-le donc, si tu dis vrai. »"
   },
   {
     "id": "al-a-raf-107",
@@ -13274,7 +13380,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِىَ ثُعْبَانٌ مُّبِينٌ",
     "textSimple": "فألقى عصاه فإذا هى ثعبان مبين",
     "transliteration": "fa-alqā ʿaṣāhu fa-idhā hiya thuʿ'bānun mubīnun",
-    "translation": "",
+    "translation": "So he [i.e., Moses] threw his staff, and suddenly it was a serpent, manifest.",
     "words": [
       {
         "id": "al-a-raf-107-1",
@@ -13319,7 +13425,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il jeta son bâton, que voilà transformé en véritable serpent."
   },
   {
     "id": "al-a-raf-108",
@@ -13328,7 +13435,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَزَعَ يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّـٰظِرِينَ",
     "textSimple": "ونزع يده فإذا هى بيضآء للنـظرين",
     "transliteration": "wanazaʿa yadahu fa-idhā hiya bayḍāu lilnnāẓirīna",
-    "translation": "",
+    "translation": "And he drew out his hand; thereupon it was white [with radiance] for the observers.",
     "words": [
       {
         "id": "al-a-raf-108-1",
@@ -13373,7 +13480,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il retira (de sa tunique) sa main qui apparut d’une blancheur éclatante aux yeux de l’assistance."
   },
   {
     "id": "al-a-raf-109",
@@ -13382,7 +13490,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلْمَلَأُ مِن قَوْمِ فِرْعَوْنَ إِنَّ هَـٰذَا لَسَـٰحِرٌ عَلِيمٌ",
     "textSimple": "قال ٱلملأ من قوم فرعون إن هـذا لسـحر عليم",
     "transliteration": "qāla l-mala-u min qawmi fir'ʿawna inna hādhā lasāḥirun ʿalīmun",
-    "translation": "",
+    "translation": "Said the eminent among the people of Pharaoh, \"Indeed, this is a learned magician",
     "words": [
       {
         "id": "al-a-raf-109-1",
@@ -13448,7 +13556,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables du peuple dirent alors : « C’est un magicien à la vaste connaissance !"
   },
   {
     "id": "al-a-raf-110",
@@ -13457,7 +13566,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "يُرِيدُ أَن يُخْرِجَكُم مِّنْ أَرْضِكُمْ ۖ فَمَاذَا تَأْمُرُونَ",
     "textSimple": "يريد أن يخرجكم من أرضكم  فماذا تأمرون",
     "transliteration": "yurīdu an yukh'rijakum min arḍikum famādhā tamurūna",
-    "translation": "",
+    "translation": "Who wants to expel you from your land [through magic], so what do you instruct?\"",
     "words": [
       {
         "id": "al-a-raf-110-1",
@@ -13509,7 +13618,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il veut vous faire partir de votre terre ! » « Que proposez-vous donc ? » (demanda Pharaon)."
   },
   {
     "id": "al-a-raf-111",
@@ -13518,7 +13628,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ حَـٰشِرِينَ",
     "textSimple": "قالوٓا أرجه وأخاه وأرسل فى ٱلمدآئن حـشرين",
     "transliteration": "qālū arjih wa-akhāhu wa-arsil fī l-madāini ḥāshirīna",
-    "translation": "",
+    "translation": "They said, \"Postpone [the matter of] him and his brother and send among the cities gatherers",
     "words": [
       {
         "id": "al-a-raf-111-1",
@@ -13570,7 +13680,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils répondirent : « Fais-le attendre avec son frère et dépêche dans les cités des hommes chargés de rassembler,"
   },
   {
     "id": "al-a-raf-112",
@@ -13579,7 +13690,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "يَأْتُوكَ بِكُلِّ سَـٰحِرٍ عَلِيمٍ",
     "textSimple": "يأتوك بكل سـحر عليم",
     "transliteration": "yatūka bikulli sāḥirin ʿalīmin",
-    "translation": "",
+    "translation": "Who will bring you every learned magician.\"",
     "words": [
       {
         "id": "al-a-raf-112-1",
@@ -13610,7 +13721,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin qu’ils te ramènent tout magicien à la vaste connaissance. »"
   },
   {
     "id": "al-a-raf-113",
@@ -13619,7 +13731,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ ٱلسَّحَرَةُ فِرْعَوْنَ قَالُوٓا۟ إِنَّ لَنَا لَأَجْرًا إِن كُنَّا نَحْنُ ٱلْغَـٰلِبِينَ",
     "textSimple": "وجآء ٱلسحرة فرعون قالوٓا إن لنا لأجرا إن كنا نحن ٱلغـلبين",
     "transliteration": "wajāa l-saḥaratu fir'ʿawna qālū inna lanā la-ajran in kunnā naḥnu l-ghālibīna",
-    "translation": "",
+    "translation": "And the magicians came to Pharaoh. They said, \"Indeed for us is a reward if we are the predominant.\"",
     "words": [
       {
         "id": "al-a-raf-113-1",
@@ -13699,7 +13811,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les magiciens vinrent alors à Pharaon et dirent : « Aurons-nous donc une récompense si nous sortons vainqueurs ? »"
   },
   {
     "id": "al-a-raf-114",
@@ -13708,7 +13821,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ نَعَمْ وَإِنَّكُمْ لَمِنَ ٱلْمُقَرَّبِينَ",
     "textSimple": "قال نعم وإنكم لمن ٱلمقربين",
     "transliteration": "qāla naʿam wa-innakum lamina l-muqarabīna",
-    "translation": "",
+    "translation": "He said, \"Yes, and, [moreover], you will be among those made near [to me].\"",
     "words": [
       {
         "id": "al-a-raf-114-1",
@@ -13746,7 +13859,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Oui, dit Pharaon, et vous serez certainement parmi les privilégiés. »"
   },
   {
     "id": "al-a-raf-115",
@@ -13755,7 +13869,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰمُوسَىٰٓ إِمَّآ أَن تُلْقِىَ وَإِمَّآ أَن نَّكُونَ نَحْنُ ٱلْمُلْقِينَ",
     "textSimple": "قالوا يـموسىٓ إمآ أن تلقى وإمآ أن نكون نحن ٱلملقين",
     "transliteration": "qālū yāmūsā immā an tul'qiya wa-immā an nakūna naḥnu l-mul'qīna",
-    "translation": "",
+    "translation": "They said, \"O Moses, either you throw [your staff], or we will be the ones to throw [first].\"",
     "words": [
       {
         "id": "al-a-raf-115-1",
@@ -13828,7 +13942,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(S’adressant cette fois à Moïse), ils dirent : «Ô Moïse ! Jetteras-tu (ton bâton) ou veux-tu que nous jetions d’abord (les nôtres) ? »"
   },
   {
     "id": "al-a-raf-116",
@@ -13837,7 +13952,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَلْقُوا۟ ۖ فَلَمَّآ أَلْقَوْا۟ سَحَرُوٓا۟ أَعْيُنَ ٱلنَّاسِ وَٱسْتَرْهَبُوهُمْ وَجَآءُو بِسِحْرٍ عَظِيمٍ",
     "textSimple": "قال ألقوا  فلمآ ألقوا سحروٓا أعين ٱلناس وٱسترهبوهم وجآءو بسحر عظيم",
     "transliteration": "qāla alqū falammā alqaw saḥarū aʿyuna l-nāsi wa-is'tarhabūhum wajāū bisiḥ'rin ʿaẓīmin",
-    "translation": "",
+    "translation": "He said, \"Throw,\" and when they threw, they bewitched the eyes of the people and struck terror into them, and they presented a great [feat of] magic.",
     "words": [
       {
         "id": "al-a-raf-116-1",
@@ -13917,7 +14032,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Jetez (les vôtres d’abord). » Ils jetèrent (leurs bâtons et leurs cordes) et éblouirent les gens qui furent saisis de terreur par leur grande magie."
   },
   {
     "id": "al-a-raf-117",
@@ -13926,7 +14042,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ",
     "textSimple": " وأوحينآ إلى موسىٓ أن ألق عصاك  فإذا هى تلقف ما يأفكون",
     "transliteration": "wa-awḥaynā ilā mūsā an alqi ʿaṣāka fa-idhā hiya talqafu mā yafikūna",
-    "translation": "",
+    "translation": "And We inspired to Moses, \"Throw your staff,\" and at once it devoured what they were falsifying.",
     "words": [
       {
         "id": "al-a-raf-117-1",
@@ -14006,7 +14122,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous inspirâmes alors à Moïse : « Jette ton bâton ! » Et voilà que (le bâton) se mit à avaler ce qu’ils avaient inventé (comme illusions)."
   },
   {
     "id": "al-a-raf-118",
@@ -14015,7 +14132,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَوَقَعَ ٱلْحَقُّ وَبَطَلَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "فوقع ٱلحق وبطل ما كانوا يعملون",
     "transliteration": "fawaqaʿa l-ḥaqu wabaṭala mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "So the truth was established, and abolished was what they were doing.",
     "words": [
       {
         "id": "al-a-raf-118-1",
@@ -14060,7 +14177,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vérité se révéla donc, et ce qu’ils firent fut réduit à néant."
   },
   {
     "id": "al-a-raf-119",
@@ -14069,7 +14187,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَغُلِبُوا۟ هُنَالِكَ وَٱنقَلَبُوا۟ صَـٰغِرِينَ",
     "textSimple": "فغلبوا هنالك وٱنقلبوا صـغرين",
     "transliteration": "faghulibū hunālika wa-inqalabū ṣāghirīna",
-    "translation": "",
+    "translation": "And they [i.e., Pharaoh and his people] were overcome right there and became debased.",
     "words": [
       {
         "id": "al-a-raf-119-1",
@@ -14100,7 +14218,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Là ils furent vaincus et ils s’en allèrent tout humiliés."
   },
   {
     "id": "al-a-raf-120",
@@ -14109,7 +14228,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأُلْقِىَ ٱلسَّحَرَةُ سَـٰجِدِينَ",
     "textSimple": "وألقى ٱلسحرة سـجدين",
     "transliteration": "wa-ul'qiya l-saḥaratu sājidīna",
-    "translation": "",
+    "translation": "And the magicians fell down in prostration [to Allāh].",
     "words": [
       {
         "id": "al-a-raf-120-1",
@@ -14133,7 +14252,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et les magiciens, se jetant à terre prosternés,"
   },
   {
     "id": "al-a-raf-121",
@@ -14142,7 +14262,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قالوٓا ءامنا برب ٱلعـلمين",
     "transliteration": "qālū āmannā birabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "They said, \"We have believed in the Lord of the worlds,",
     "words": [
       {
         "id": "al-a-raf-121-1",
@@ -14173,7 +14293,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "s’écrièrent : « Nous croyons au Seigneur de l’Univers,"
   },
   {
     "id": "al-a-raf-122",
@@ -14182,7 +14303,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ مُوسَىٰ وَهَـٰرُونَ",
     "textSimple": "رب موسى وهـرون",
     "transliteration": "rabbi mūsā wahārūna",
-    "translation": "",
+    "translation": "The Lord of Moses and Aaron.\"",
     "words": [
       {
         "id": "al-a-raf-122-1",
@@ -14206,7 +14327,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "au Seigneur de Moïse et d’Aaron. »"
   },
   {
     "id": "al-a-raf-123",
@@ -14215,7 +14337,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فِرْعَوْنُ ءَامَنتُم بِهِۦ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّ هَـٰذَا لَمَكْرٌ مَّكَرْتُمُوهُ فِى ٱلْمَدِينَةِ لِتُخْرِجُوا۟ مِنْهَآ أَهْلَهَا ۖ فَسَوْفَ تَعْلَمُونَ",
     "textSimple": "قال فرعون ءامنتم به قبل أن ءاذن لكم  إن هـذا لمكر مكرتموه فى ٱلمدينة لتخرجوا منهآ أهلها  فسوف تعلمون",
     "transliteration": "qāla fir'ʿawnu āmantum bihi qabla an ādhana lakum inna hādhā lamakrun makartumūhu fī l-madīnati litukh'rijū min'hā ahlahā fasawfa taʿlamūna",
-    "translation": "",
+    "translation": "Said Pharaoh, \"You believed in him before I gave you permission. Indeed, this is a conspiracy which you conspired in the city to expel therefrom its people. But you are going to know.",
     "words": [
       {
         "id": "al-a-raf-123-1",
@@ -14351,7 +14473,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon dit alors : « Osez-vous y croire avant que je ne vous le permette ? C’est bien une ruse que celle-ci par laquelle vous voulez chasser de la cité ses habitants. Vous allez bientôt savoir !"
   },
   {
     "id": "al-a-raf-124",
@@ -14360,7 +14483,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَـٰفٍ ثُمَّ لَأُصَلِّبَنَّكُمْ أَجْمَعِينَ",
     "textSimple": "لأقطعن أيديكم وأرجلكم من خلـف ثم لأصلبنكم أجمعين",
     "transliteration": "la-uqaṭṭiʿanna aydiyakum wa-arjulakum min khilāfin thumma la-uṣallibannakum ajmaʿīna",
-    "translation": "",
+    "translation": "I will surely cut off your hands and your feet on opposite sides; then I will surely crucify you all.\"",
     "words": [
       {
         "id": "al-a-raf-124-1",
@@ -14419,7 +14542,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je vous ferai couper les mains et les jambes opposées puis vous ferai tous crucifier. »"
   },
   {
     "id": "al-a-raf-125",
@@ -14428,7 +14552,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
     "textSimple": "قالوٓا إنآ إلى ربنا منقلبون",
     "transliteration": "qālū innā ilā rabbinā munqalibūna",
-    "translation": "",
+    "translation": "They said, \"Indeed, to our Lord we will return.",
     "words": [
       {
         "id": "al-a-raf-125-1",
@@ -14466,7 +14590,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « C’est vers notre Seigneur que nous ferons retour."
   },
   {
     "id": "al-a-raf-126",
@@ -14475,7 +14600,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَنقِمُ مِنَّآ إِلَّآ أَنْ ءَامَنَّا بِـَٔايَـٰتِ رَبِّنَا لَمَّا جَآءَتْنَا ۚ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ",
     "textSimple": "وما تنقم منآ إلآ أن ءامنا بـٔايـت ربنا لما جآءتنا  ربنآ أفرغ علينا صبرا وتوفنا مسلمين",
     "transliteration": "wamā tanqimu minnā illā an āmannā biāyāti rabbinā lammā jāatnā rabbanā afrigh ʿalaynā ṣabran watawaffanā mus'limīna",
-    "translation": "",
+    "translation": "And you do not resent us except because we believed in the signs of our Lord when they came to us. Our Lord, pour upon us patience and let us die as Muslims [in submission to You].\"",
     "words": [
       {
         "id": "al-a-raf-126-1",
@@ -14590,7 +14715,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu te venges de nous seulement parce que nous avons cru aux Signes de notre Seigneur quand ils nous sont venus. Seigneur ! Emplis-nous de patience et fais-nous mourir en parfaits Soumis. »"
   },
   {
     "id": "al-a-raf-127",
@@ -14599,7 +14725,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِ فِرْعَوْنَ أَتَذَرُ مُوسَىٰ وَقَوْمَهُۥ لِيُفْسِدُوا۟ فِى ٱلْأَرْضِ وَيَذَرَكَ وَءَالِهَتَكَ ۚ قَالَ سَنُقَتِّلُ أَبْنَآءَهُمْ وَنَسْتَحْىِۦ نِسَآءَهُمْ وَإِنَّا فَوْقَهُمْ قَـٰهِرُونَ",
     "textSimple": "وقال ٱلملأ من قوم فرعون أتذر موسى وقومه ليفسدوا فى ٱلأرض ويذرك وءالهتك  قال سنقتل أبنآءهم ونستحى نسآءهم وإنا فوقهم قـهرون",
     "transliteration": "waqāla l-mala-u min qawmi fir'ʿawna atadharu mūsā waqawmahu liyuf'sidū fī l-arḍi wayadharaka waālihataka qāla sanuqattilu abnāahum wanastaḥyī nisāahum wa-innā fawqahum qāhirūna",
-    "translation": "",
+    "translation": "And the eminent among the people of Pharaoh said, \"Will you leave Moses and his people to cause corruption in the land and abandon you and your gods?\" [Pharaoh] said, \"We will kill their sons and keep their women alive; and indeed, we are subjugators over them.\"",
     "words": [
       {
         "id": "al-a-raf-127-1",
@@ -14749,7 +14875,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables du peuple de Pharaon dirent : « Vas-tu laisser Moïse et son peuple semer le désordre sur terre alors que lui t’a abandonné, toi et tes divinités ? » Il dit : « Nous exterminerons leurs hommes et épargnerons leurs femmes ; nous prendrons le dessus sur eux et serons dominateurs. »"
   },
   {
     "id": "al-a-raf-128",
@@ -14758,7 +14885,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مُوسَىٰ لِقَوْمِهِ ٱسْتَعِينُوا۟ بِٱللَّهِ وَٱصْبِرُوٓا۟ ۖ إِنَّ ٱلْأَرْضَ لِلَّهِ يُورِثُهَا مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَٱلْعَـٰقِبَةُ لِلْمُتَّقِينَ",
     "textSimple": "قال موسى لقومه ٱستعينوا بٱلله وٱصبروٓا  إن ٱلأرض لله يورثها من يشآء من عباده  وٱلعـقبة للمتقين",
     "transliteration": "qāla mūsā liqawmihi is'taʿīnū bil-lahi wa-iṣ'birū inna l-arḍa lillahi yūrithuhā man yashāu min ʿibādihi wal-ʿāqibatu lil'muttaqīna",
-    "translation": "",
+    "translation": "Said Moses to his people, \"Seek help through Allāh and be patient. Indeed, the earth belongs to Allāh. He causes to inherit it whom He wills of His servants. And the [best] outcome is for the righteous.\"",
     "words": [
       {
         "id": "al-a-raf-128-1",
@@ -14873,7 +15000,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit à son peuple : « Demandez l’assistance d’Allah et prenez patience, car la terre appartient à Allah. Il en fait hériter qui Il veut de Ses serviteurs. Ce qui est à venir reviendra à ceux qui sont pieux. »"
   },
   {
     "id": "al-a-raf-129",
@@ -14882,7 +15010,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أُوذِينَا مِن قَبْلِ أَن تَأْتِيَنَا وَمِنۢ بَعْدِ مَا جِئْتَنَا ۚ قَالَ عَسَىٰ رَبُّكُمْ أَن يُهْلِكَ عَدُوَّكُمْ وَيَسْتَخْلِفَكُمْ فِى ٱلْأَرْضِ فَيَنظُرَ كَيْفَ تَعْمَلُونَ",
     "textSimple": "قالوٓا أوذينا من قبل أن تأتينا ومن بعد ما جئتنا  قال عسى ربكم أن يهلك عدوكم ويستخلفكم فى ٱلأرض فينظر كيف تعملون",
     "transliteration": "qālū ūdhīnā min qabli an tatiyanā wamin baʿdi mā ji'tanā qāla ʿasā rabbukum an yuh'lika ʿaduwwakum wayastakhlifakum fī l-arḍi fayanẓura kayfa taʿmalūna",
-    "translation": "",
+    "translation": "They said, \"We have been harmed before you came to us and after you have come to us.\" He said, \"Perhaps your Lord will destroy your enemy and grant you succession in the land and see how you will do.\"",
     "words": [
       {
         "id": "al-a-raf-129-1",
@@ -15039,7 +15167,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Nous avons été opprimés aussi bien avant qu’après ton arrivée. » Et Moïse dit : « Peut-être que votre Seigneur fera périr votre ennemi et vous donnera la terre en héritage, pour voir plus tard comment vous agirez. »"
   },
   {
     "id": "al-a-raf-130",
@@ -15048,7 +15177,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَخَذْنَآ ءَالَ فِرْعَوْنَ بِٱلسِّنِينَ وَنَقْصٍ مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَذَّكَّرُونَ",
     "textSimple": "ولقد أخذنآ ءال فرعون بٱلسنين ونقص من ٱلثمرت لعلهم يذكرون",
     "transliteration": "walaqad akhadhnā āla fir'ʿawna bil-sinīna wanaqṣin mina l-thamarāti laʿallahum yadhakkarūna",
-    "translation": "",
+    "translation": "And We certainly seized the people of Pharaoh with years of famine and a deficiency in fruits that perhaps they would be reminded.",
     "words": [
       {
         "id": "al-a-raf-130-1",
@@ -15121,7 +15250,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous éprouvâmes le peuple de Pharaon par une succession d’années maigres et une pénurie de fruits afin qu’ils se rappellent."
   },
   {
     "id": "al-a-raf-131",
@@ -15130,7 +15260,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا جَآءَتْهُمُ ٱلْحَسَنَةُ قَالُوا۟ لَنَا هَـٰذِهِۦ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَطَّيَّرُوا۟ بِمُوسَىٰ وَمَن مَّعَهُۥٓ ۗ أَلَآ إِنَّمَا طَـٰٓئِرُهُمْ عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "فإذا جآءتهم ٱلحسنة قالوا لنا هـذه  وإن تصبهم سيئة يطيروا بموسى ومن معهٓ  ألآ إنما طـٓئرهم عند ٱلله ولـكن أكثرهم لا يعلمون",
     "transliteration": "fa-idhā jāathumu l-ḥasanatu qālū lanā hādhihi wa-in tuṣib'hum sayyi-atun yaṭṭayyarū bimūsā waman maʿahu alā innamā ṭāiruhum ʿinda l-lahi walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "But when good [i.e., provision] came to them, they said, \"This is ours [by right].\" And if a bad [condition] struck them, they saw an evil omen in Moses and those with him. Unquestionably, their fortune is with Allāh, but most of them do not know.",
     "words": [
       {
         "id": "al-a-raf-131-1",
@@ -15287,7 +15417,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand les périodes fastes venaient, ils disaient : « Cela est dû à nous. » Et quand les surprenait un événement néfaste, ils en attribuaient la cause, par superstition, à Moïse et ceux qui étaient avec lui. Leur sort, en vérité, ne relève que d’Allah, mais la plupart d’entre eux ne savent pas."
   },
   {
     "id": "al-a-raf-132",
@@ -15296,7 +15427,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ مَهْمَا تَأْتِنَا بِهِۦ مِنْ ءَايَةٍ لِّتَسْحَرَنَا بِهَا فَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ",
     "textSimple": "وقالوا مهما تأتنا به من ءاية لتسحرنا بها فما نحن لك بمؤمنين",
     "transliteration": "waqālū mahmā tatinā bihi min āyatin litasḥaranā bihā famā naḥnu laka bimu'minīna",
-    "translation": "",
+    "translation": "And they said, \"No matter what sign you bring us with which to bewitch us, we will not be believers in you.\"",
     "words": [
       {
         "id": "al-a-raf-132-1",
@@ -15383,7 +15514,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils dirent : « Quelque miracle que tu produises pour nous charmer nous ne croirons pas en toi. »"
   },
   {
     "id": "al-a-raf-133",
@@ -15392,7 +15524,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرْسَلْنَا عَلَيْهِمُ ٱلطُّوفَانَ وَٱلْجَرَادَ وَٱلْقُمَّلَ وَٱلضَّفَادِعَ وَٱلدَّمَ ءَايَـٰتٍ مُّفَصَّلَـٰتٍ فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا مُّجْرِمِينَ",
     "textSimple": "فأرسلنا عليهم ٱلطوفان وٱلجراد وٱلقمل وٱلضفادع وٱلدم ءايـت مفصلـت فٱستكبروا وكانوا قوما مجرمين",
     "transliteration": "fa-arsalnā ʿalayhimu l-ṭūfāna wal-jarāda wal-qumala wal-ḍafādiʿa wal-dama āyātin mufaṣṣalātin fa-is'takbarū wakānū qawman muj'rimīna",
-    "translation": "",
+    "translation": "So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people.",
     "words": [
       {
         "id": "al-a-raf-133-1",
@@ -15486,7 +15618,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur envoyâmes les inondations, les sauterelles, les poux, les grenouilles et le sang en Signes distincts. Mais ils réagirent avec orgueil et se comportèrent en criminels."
   },
   {
     "id": "al-a-raf-134",
@@ -15495,7 +15628,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا وَقَعَ عَلَيْهِمُ ٱلرِّجْزُ قَالُوا۟ يَـٰمُوسَى ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ ۖ لَئِن كَشَفْتَ عَنَّا ٱلرِّجْزَ لَنُؤْمِنَنَّ لَكَ وَلَنُرْسِلَنَّ مَعَكَ بَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "ولما وقع عليهم ٱلرجز قالوا يـموسى ٱدع لنا ربك بما عهد عندك  لئن كشفت عنا ٱلرجز لنؤمنن لك ولنرسلن معك بنىٓ إسرٓءيل",
     "transliteration": "walammā waqaʿa ʿalayhimu l-rij'zu qālū yāmūsā ud'ʿu lanā rabbaka bimā ʿahida ʿindaka la-in kashafta ʿannā l-rij'za lanu'minanna laka walanur'silanna maʿaka banī is'rāīla",
-    "translation": "",
+    "translation": "And when the punishment descended upon them, they said, \"O Moses, invoke for us your Lord by what He has promised you. If you [can] remove the punishment from us, we will surely believe you, and we will send with you the Children of Israel.\"",
     "words": [
       {
         "id": "al-a-raf-134-1",
@@ -15652,7 +15785,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis lorsque se fut abattu sur eux le châtiment, ils dirent : « Ô Moïse ! Invoque pour nous ton Seigneur de par l’engagement qu’Il t’a donné. Si tu nous évites le châtiment, nous croirons en toi et enverrons avec toi les Enfants d’Israël. »"
   },
   {
     "id": "al-a-raf-135",
@@ -15661,7 +15795,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا كَشَفْنَا عَنْهُمُ ٱلرِّجْزَ إِلَىٰٓ أَجَلٍ هُم بَـٰلِغُوهُ إِذَا هُمْ يَنكُثُونَ",
     "textSimple": "فلما كشفنا عنهم ٱلرجز إلىٓ أجل هم بـلغوه إذا هم ينكثون",
     "transliteration": "falammā kashafnā ʿanhumu l-rij'za ilā ajalin hum bālighūhu idhā hum yankuthūna",
-    "translation": "",
+    "translation": "But when We removed the punishment from them until a term which they were to reach, then at once they broke their word.",
     "words": [
       {
         "id": "al-a-raf-135-1",
@@ -15741,7 +15875,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais lorsque Nous eûmes éloigné d’eux le châtiment pour un délai fixé, ils revinrent sur leur engagement."
   },
   {
     "id": "al-a-raf-136",
@@ -15750,7 +15885,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَـٰهُمْ فِى ٱلْيَمِّ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَكَانُوا۟ عَنْهَا غَـٰفِلِينَ",
     "textSimple": "فٱنتقمنا منهم فأغرقنـهم فى ٱليم بأنهم كذبوا بـٔايـتنا وكانوا عنها غـفلين",
     "transliteration": "fa-intaqamnā min'hum fa-aghraqnāhum fī l-yami bi-annahum kadhabū biāyātinā wakānū ʿanhā ghāfilīna",
-    "translation": "",
+    "translation": "So We took retribution from them, and We drowned them in the sea because they denied Our signs and were heedless of them.",
     "words": [
       {
         "id": "al-a-raf-136-1",
@@ -15830,7 +15965,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, Nous Nous vengeâmes d’eux et les noyâmes dans les flots, parce qu’ils avaient renié Nos Signes et y étaient complètement indifférents."
   },
   {
     "id": "al-a-raf-137",
@@ -15839,7 +15975,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَـٰرِقَ ٱلْأَرْضِ وَمَغَـٰرِبَهَا ٱلَّتِى بَـٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ",
     "textSimple": "وأورثنا ٱلقوم ٱلذين كانوا يستضعفون مشـرق ٱلأرض ومغـربها ٱلتى بـركنا فيها  وتمت كلمت ربك ٱلحسنى على بنىٓ إسرٓءيل بما صبروا  ودمرنا ما كان يصنع فرعون وقومه وما كانوا يعرشون",
     "transliteration": "wa-awrathnā l-qawma alladhīna kānū yus'taḍʿafūna mashāriqa l-arḍi wamaghāribahā allatī bāraknā fīhā watammat kalimatu rabbika l-ḥus'nā ʿalā banī is'rāīla bimā ṣabarū wadammarnā mā kāna yaṣnaʿu fir'ʿawnu waqawmuhu wamā kānū yaʿrishūna",
-    "translation": "",
+    "translation": "And We caused the people who had been oppressed to inherit the eastern regions of the land and the western ones, which We had blessed. And the good word [i.e., decree] of your Lord was fulfilled for the Children of Israel because of what they had patiently endured. And We destroyed [all] that Pharaoh and his people were producing and what they had been building.",
     "words": [
       {
         "id": "al-a-raf-137-1",
@@ -16045,7 +16181,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux peuples qui étaient opprimés pour leur faiblesse, Nous attribuâmes l’héritage des régions d’est en ouest de la terre que Nous avions bénie. Ainsi s’accomplit la belle parole de ton Seigneur, promise aux Enfants d’Israël pour prix de leur patience. Nous démolîmes l’œuvre de Pharaon et de son peuple ainsi que ce qu’ils construisaient."
   },
   {
     "id": "al-a-raf-138",
@@ -16054,7 +16191,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَـٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتَوْا۟ عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰٓ أَصْنَامٍ لَّهُمْ ۚ قَالُوا۟ يَـٰمُوسَى ٱجْعَل لَّنَآ إِلَـٰهًا كَمَا لَهُمْ ءَالِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
     "textSimple": "وجـوزنا ببنىٓ إسرٓءيل ٱلبحر فأتوا على قوم يعكفون علىٓ أصنام لهم  قالوا يـموسى ٱجعل لنآ إلـها كما لهم ءالهة  قال إنكم قوم تجهلون",
     "transliteration": "wajāwaznā bibanī is'rāīla l-baḥra fa-ataw ʿalā qawmin yaʿkufūna ʿalā aṣnāmin lahum qālū yāmūsā ij'ʿal lanā ilāhan kamā lahum ālihatun qāla innakum qawmun tajhalūna",
-    "translation": "",
+    "translation": "And We took the Children of Israel across the sea; then they came upon a people intent in devotion to [some] idols of theirs. They [the Children of Israel] said, \"O Moses, make for us a god just as they have gods.\" He said, \"Indeed, you are a people behaving ignorantly.",
     "words": [
       {
         "id": "al-a-raf-138-1",
@@ -16218,7 +16355,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous fîmes traverser la mer aux Enfants d’Israël. Passant devant un peuple qui adorait des idoles avec ferveur, ils dirent : «Ô Moïse ! Donne-nous une divinité comme les leurs. » Il répondit : « Vous êtes manifestement des gens ignorants !"
   },
   {
     "id": "al-a-raf-139",
@@ -16227,7 +16365,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰٓؤُلَآءِ مُتَبَّرٌ مَّا هُمْ فِيهِ وَبَـٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "إن هـٓؤلآء متبر ما هم فيه وبـطل ما كانوا يعملون",
     "transliteration": "inna hāulāi mutabbarun mā hum fīhi wabāṭilun mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Indeed, those [worshippers] - destroyed is that in which they are [engaged], and worthless is whatever they were doing.\"",
     "words": [
       {
         "id": "al-a-raf-139-1",
@@ -16300,7 +16438,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là rendent un culte voué à la destruction ; nul est ce qu’ils font, et sans valeur aucune. »"
   },
   {
     "id": "al-a-raf-140",
@@ -16309,7 +16448,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَغَيْرَ ٱللَّهِ أَبْغِيكُمْ إِلَـٰهًا وَهُوَ فَضَّلَكُمْ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "قال أغير ٱلله أبغيكم إلـها وهو فضلكم على ٱلعـلمين",
     "transliteration": "qāla aghayra l-lahi abghīkum ilāhan wahuwa faḍḍalakum ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "He said, \"Is it other than Allāh I should desire for you as a god while He has preferred you over the worlds?\"",
     "words": [
       {
         "id": "al-a-raf-140-1",
@@ -16375,7 +16514,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il dit encore : « Voudrais-je pour vous une divinité autre qu’Allah, quand Lui vous a favorisés par rapport à tous les peuples (de votre temps) ? »"
   },
   {
     "id": "al-a-raf-141",
@@ -16384,7 +16524,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَنجَيْنَـٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ ۖ يُقَتِّلُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
     "textSimple": "وإذ أنجينـكم من ءال فرعون يسومونكم سوٓء ٱلعذاب  يقتلون أبنآءكم ويستحيون نسآءكم  وفى ذلكم بلآء من ربكم عظيم",
     "transliteration": "wa-idh anjaynākum min āli fir'ʿawna yasūmūnakum sūa l-ʿadhābi yuqattilūna abnāakum wayastaḥyūna nisāakum wafī dhālikum balāon min rabbikum ʿaẓīmun",
-    "translation": "",
+    "translation": "And [recall, O Children of Israel], when We saved you from the people of Pharaoh, [who were] afflicting you with the worst torment - killing your sons and keeping your women alive. And in that was a great trial from your Lord.",
     "words": [
       {
         "id": "al-a-raf-141-1",
@@ -16513,7 +16653,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souvenez-vous) quand Nous vous sauvâmes des gens de Pharaon, alors qu’ils vous faisaient subir les pires supplices. Ils massacraient vos fils et épargnaient vos filles, et c’était là, de la part de votre Seigneur, une épreuve des plus terribles."
   },
   {
     "id": "al-a-raf-142",
@@ -16522,7 +16663,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَوَٰعَدْنَا مُوسَىٰ ثَلَـٰثِينَ لَيْلَةً وَأَتْمَمْنَـٰهَا بِعَشْرٍ فَتَمَّ مِيقَـٰتُ رَبِّهِۦٓ أَرْبَعِينَ لَيْلَةً ۚ وَقَالَ مُوسَىٰ لِأَخِيهِ هَـٰرُونَ ٱخْلُفْنِى فِى قَوْمِى وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ ٱلْمُفْسِدِينَ",
     "textSimple": " ووعدنا موسى ثلـثين ليلة وأتممنـها بعشر فتم ميقـت ربهٓ أربعين ليلة  وقال موسى لأخيه هـرون ٱخلفنى فى قومى وأصلح ولا تتبع سبيل ٱلمفسدين",
     "transliteration": "wawāʿadnā mūsā thalāthīna laylatan wa-atmamnāhā biʿashrin fatamma mīqātu rabbihi arbaʿīna laylatan waqāla mūsā li-akhīhi hārūna ukh'luf'nī fī qawmī wa-aṣliḥ walā tattabiʿ sabīla l-muf'sidīna",
-    "translation": "",
+    "translation": "And We made an appointment with Moses for thirty nights and perfected them by [the addition of] ten; so the term of his Lord was completed as forty nights. And Moses said to his brother Aaron, \"Take my place among my people, do right [by them], and do not follow the way of the corrupters.\"",
     "words": [
       {
         "id": "al-a-raf-142-1",
@@ -16686,7 +16827,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous donnâmes à Moïse rendez-vous pour trente nuits puis Nous y ajoutâmes dix autres, établissant le temps de sa rencontre avec son Seigneur à quarante nuits. Moïse dit à son frère Aaron : « Sois mon remplaçant auprès de mon peuple, fais ce qui est bien et ne suis pas la voie des corrupteurs. »"
   },
   {
     "id": "al-a-raf-143",
@@ -16695,7 +16837,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَـٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِىٓ أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَىٰنِى وَلَـٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ فَإِنِ ٱسْتَقَرَّ مَكَانَهُۥ فَسَوْفَ تَرَىٰنِى ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّآ أَفَاقَ قَالَ سُبْحَـٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
     "textSimple": "ولما جآء موسى لميقـتنا وكلمه ربه قال رب أرنىٓ أنظر إليك  قال لن ترىنى ولـكن ٱنظر إلى ٱلجبل فإن ٱستقر مكانه فسوف ترىنى  فلما تجلى ربه للجبل جعله دكا وخر موسى صعقا  فلمآ أفاق قال سبحـنك تبت إليك وأنا أول ٱلمؤمنين",
     "transliteration": "walammā jāa mūsā limīqātinā wakallamahu rabbuhu qāla rabbi arinī anẓur ilayka qāla lan tarānī walākini unẓur ilā l-jabali fa-ini is'taqarra makānahu fasawfa tarānī falammā tajallā rabbuhu lil'jabali jaʿalahu dakkan wakharra mūsā ṣaʿiqan falammā afāqa qāla sub'ḥānaka tub'tu ilayka wa-anā awwalu l-mu'minīna",
-    "translation": "",
+    "translation": "And when Moses arrived at Our appointed time and his Lord spoke to him, he said, \"My Lord, show me [Yourself] that I may look at You.\" [Allāh] said, \"You will not see Me, but look at the mountain; if it should remain in place, then you will see Me.\" But when his Lord appeared to the mountain, He rendered it level, and Moses fell unconscious. And when he awoke, he said, \"Exalted are You! I have repented to You, and I am the first [among my people] of the believers.\"",
     "words": [
       {
         "id": "al-a-raf-143-1",
@@ -16985,7 +17127,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 40
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Moïse vint à Notre rendez-vous et que son Seigneur lui eut parlé, il dit : « Seigneur ! Montre-Toi à moi que je Te voie ! » Il (Allah) dit alors : « Tu ne Me verras pas, mais regarde vers la montagne ; si elle demeure en place, alors tu Me verras. » Et lorsque son Seigneur Se manifesta au-dessus de la montagne, Il la réduisit en poussière. Moïse s’écroula foudroyé. Lorsqu’il revint à lui, il dit : « Gloire Te soit rendue ! Je reviens à Toi, repenti, et je suis le premier des croyants. »"
   },
   {
     "id": "al-a-raf-144",
@@ -16994,7 +17137,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰمُوسَىٰٓ إِنِّى ٱصْطَفَيْتُكَ عَلَى ٱلنَّاسِ بِرِسَـٰلَـٰتِى وَبِكَلَـٰمِى فَخُذْ مَآ ءَاتَيْتُكَ وَكُن مِّنَ ٱلشَّـٰكِرِينَ",
     "textSimple": "قال يـموسىٓ إنى ٱصطفيتك على ٱلناس برسـلـتى وبكلـمى فخذ مآ ءاتيتك وكن من ٱلشـكرين",
     "transliteration": "qāla yāmūsā innī iṣ'ṭafaytuka ʿalā l-nāsi birisālātī wabikalāmī fakhudh mā ātaytuka wakun mina l-shākirīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"O Moses, I have chosen you over the people with My messages and My words [to you]. So take what I have given you and be among the grateful.\"",
     "words": [
       {
         "id": "al-a-raf-144-1",
@@ -17095,7 +17238,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Allah) dit : « Ô Moïse ! Je t’ai élu et préféré à tous les hommes par Mes Messages et Ma Parole (que Je t’ai adressés sans intermédiaire). Prends donc ce que Je t’ai donné et sois parmi les reconnaissants. »"
   },
   {
     "id": "al-a-raf-145",
@@ -17104,7 +17248,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَتَبْنَا لَهُۥ فِى ٱلْأَلْوَاحِ مِن كُلِّ شَىْءٍ مَّوْعِظَةً وَتَفْصِيلًا لِّكُلِّ شَىْءٍ فَخُذْهَا بِقُوَّةٍ وَأْمُرْ قَوْمَكَ يَأْخُذُوا۟ بِأَحْسَنِهَا ۚ سَأُو۟رِيكُمْ دَارَ ٱلْفَـٰسِقِينَ",
     "textSimple": "وكتبنا له فى ٱلألواح من كل شىء موعظة وتفصيلا لكل شىء فخذها بقوة وأمر قومك يأخذوا بأحسنها  سأوريكم دار ٱلفـسقين",
     "transliteration": "wakatabnā lahu fī l-alwāḥi min kulli shayin mawʿiẓatan watafṣīlan likulli shayin fakhudh'hā biquwwatin wamur qawmaka yakhudhū bi-aḥsanihā sa-urīkum dāra l-fāsiqīna",
-    "translation": "",
+    "translation": "And We wrote for him on the tablets [something] of all things - instruction and explanation for all things, [saying], \"Take them with determination and order your people to take the best of it. I will show you the home of the defiantly disobedient.\"",
     "words": [
       {
         "id": "al-a-raf-145-1",
@@ -17247,7 +17391,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous écrivîmes pour lui sur les Tables un enseignement édifiant sur toute chose, et une explication détaillée de toute chose. « Prends-les donc avec fermeté et ordonne à ton peuple d’en observer le meilleur. Je vous montrerai bientôt le séjour des pervers."
   },
   {
     "id": "al-a-raf-146",
@@ -17256,7 +17401,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "سَأَصْرِفُ عَنْ ءَايَـٰتِىَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَكَانُوا۟ عَنْهَا غَـٰفِلِينَ",
     "textSimple": "سأصرف عن ءايـتى ٱلذين يتكبرون فى ٱلأرض بغير ٱلحق وإن يروا كل ءاية لا يؤمنوا بها وإن يروا سبيل ٱلرشد لا يتخذوه سبيلا وإن يروا سبيل ٱلغى يتخذوه سبيلا  ذلك بأنهم كذبوا بـٔايـتنا وكانوا عنها غـفلين",
     "transliteration": "sa-aṣrifu ʿan āyātiya alladhīna yatakabbarūna fī l-arḍi bighayri l-ḥaqi wa-in yaraw kulla āyatin lā yu'minū bihā wa-in yaraw sabīla l-rush'di lā yattakhidhūhu sabīlan wa-in yaraw sabīla l-ghayi yattakhidhūhu sabīlan dhālika bi-annahum kadhabū biāyātinā wakānū ʿanhā ghāfilīna",
-    "translation": "",
+    "translation": "I will turn away from My signs those who are arrogant upon the earth without right; and if they should see every sign, they will not believe in it. And if they see the way of consciousness, they will not adopt it as a way; but if they see the way of error, they will adopt it as a way. That is because they have denied Our signs and they were heedless of them.",
     "words": [
       {
         "id": "al-a-raf-146-1",
@@ -17511,7 +17656,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’éloignerai de Mes Signes ceux qui sont injustement hautains sur terre. Quand bien même ils verraient tous les Signes, ils n’y croiraient point, et quand bien même ils verraient le chemin de la droiture, ils n’en feraient point leur chemin. Mais s’ils aperçoivent le chemin de l’erreur, ils l’emprunteront comme chemin. Cela, parce qu’ils ont renié Nos Signes et qu’ils y sont (totalement) indifférents."
   },
   {
     "id": "al-a-raf-147",
@@ -17520,7 +17666,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَلِقَآءِ ٱلْـَٔاخِرَةِ حَبِطَتْ أَعْمَـٰلُهُمْ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "وٱلذين كذبوا بـٔايـتنا ولقآء ٱلـٔاخرة حبطت أعمـلهم  هل يجزون إلا ما كانوا يعملون",
     "transliteration": "wa-alladhīna kadhabū biāyātinā waliqāi l-ākhirati ḥabiṭat aʿmāluhum hal yuj'zawna illā mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Those who denied Our signs and the meeting of the Hereafter - their deeds have become worthless. Are they recompensed except for what they used to do?",
     "words": [
       {
         "id": "al-a-raf-147-1",
@@ -17614,7 +17760,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui (se sont employés à) démentir Nos Signes et renier la rencontre de l’autre monde, vaines seront leurs œuvres. Auront-ils une autre récompense que celle qui sied à leurs œuvres ? »"
   },
   {
     "id": "al-a-raf-148",
@@ -17623,7 +17770,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّخَذَ قَوْمُ مُوسَىٰ مِنۢ بَعْدِهِۦ مِنْ حُلِيِّهِمْ عِجْلًا جَسَدًا لَّهُۥ خُوَارٌ ۚ أَلَمْ يَرَوْا۟ أَنَّهُۥ لَا يُكَلِّمُهُمْ وَلَا يَهْدِيهِمْ سَبِيلًا ۘ ٱتَّخَذُوهُ وَكَانُوا۟ ظَـٰلِمِينَ",
     "textSimple": "وٱتخذ قوم موسى من بعده من حليهم عجلا جسدا له خوار  ألم يروا أنه لا يكلمهم ولا يهديهم سبيلا  ٱتخذوه وكانوا ظـلمين",
     "transliteration": "wa-ittakhadha qawmu mūsā min baʿdihi min ḥuliyyihim ʿij'lan jasadan lahu khuwārun alam yaraw annahu lā yukallimuhum walā yahdīhim sabīlan ittakhadhūhu wakānū ẓālimīna",
-    "translation": "",
+    "translation": "And the people of Moses made, after [his departure], from their ornaments a calf - an image having a lowing sound. Did they not see that it could neither speak to them nor guide them to a way? They took it [for worship], and they were wrongdoers.",
     "words": [
       {
         "id": "al-a-raf-148-1",
@@ -17780,7 +17927,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le peuple de Moïse, pendant son absence, prit (pour objet d’adoration) un veau (modelé à partir) de leurs ornements et qui produisait comme un mugissement. Ne voyaient-ils donc pas qu’il ne pouvait ni leur parler ni les guider vers aucune voie ? Ils le prirent (pour divinité) et furent vraiment injustes."
   },
   {
     "id": "al-a-raf-149",
@@ -17789,7 +17937,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا سُقِطَ فِىٓ أَيْدِيهِمْ وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "ولما سقط فىٓ أيديهم ورأوا أنهم قد ضلوا قالوا لئن لم يرحمنا ربنا ويغفر لنا لنكونن من ٱلخـسرين",
     "transliteration": "walammā suqiṭa fī aydīhim wara-aw annahum qad ḍallū qālū la-in lam yarḥamnā rabbunā wayaghfir lanā lanakūnanna mina l-khāsirīna",
-    "translation": "",
+    "translation": "And when regret overcame them and they saw that they had gone astray, they said, \"If our Lord does not have mercy upon us and forgive us, we will surely be among the losers.\"",
     "words": [
       {
         "id": "al-a-raf-149-1",
@@ -17918,7 +18066,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque, pleins de regrets, ils eurent constaté leur égarement, ils dirent : « Si notre Seigneur ne nous fait pas miséricorde, nous serons certainement du nombre des perdants. »"
   },
   {
     "id": "al-a-raf-150",
@@ -17927,7 +18076,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَـٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "ولما رجع موسىٓ إلى قومه غضبـن أسفا قال بئسما خلفتمونى من بعدىٓ  أعجلتم أمر ربكم  وألقى ٱلألواح وأخذ برأس أخيه يجرهٓ إليه  قال ٱبن أم إن ٱلقوم ٱستضعفونى وكادوا يقتلوننى فلا تشمت بى ٱلأعدآء ولا تجعلنى مع ٱلقوم ٱلظـلمين",
     "transliteration": "walammā rajaʿa mūsā ilā qawmihi ghaḍbāna asifan qāla bi'samā khalaftumūnī min baʿdī aʿajil'tum amra rabbikum wa-alqā l-alwāḥa wa-akhadha birasi akhīhi yajurruhu ilayhi qāla ib'na umma inna l-qawma is'taḍʿafūnī wakādū yaqtulūnanī falā tush'mit biya l-aʿdāa walā tajʿalnī maʿa l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "And when Moses returned to his people, angry and grieved, he said, \"How wretched is that by which you have replaced me after [my departure]. Were you impatient over the matter of your Lord?\" And he threw down the tablets and seized his brother by [the hair of] his head, pulling him toward him. [Aaron] said, \"O son of my mother, indeed the people overpowered me and were about to kill me, so let not the enemies rejoice over me and do not place me among the wrongdoing people.\"",
     "words": [
       {
         "id": "al-a-raf-150-1",
@@ -18203,7 +18352,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis quand Moïse fut revenu auprès de son peuple, il dit, furieux et déçu : « Combien mauvaise fut votre conduite en mon absence ! Vouliez-vous donc hâter le commandement de votre Seigneur ? » Et il jeta (à terre) les Tables, prit son frère par la tête et le tira vers lui. « Fils de ma mère, dit Aaron, les gens m’ont trouvé bien faible et ont failli me tuer ; ne va donc pas faire le bonheur des ennemis (en me traitant ainsi) et ne me mets pas avec les gens injustes. »"
   },
   {
     "id": "al-a-raf-151",
@@ -18212,7 +18362,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
     "textSimple": "قال رب ٱغفر لى ولأخى وأدخلنا فى رحمتك  وأنت أرحم ٱلرحمين",
     "transliteration": "qāla rabbi igh'fir lī wali-akhī wa-adkhil'nā fī raḥmatika wa-anta arḥamu l-rāḥimīna",
-    "translation": "",
+    "translation": "[Moses] said, \"My Lord, forgive me and my brother and admit us into Your mercy, for You are the most merciful of the merciful.\"",
     "words": [
       {
         "id": "al-a-raf-151-1",
@@ -18292,7 +18442,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Moïse) dit : « Seigneur ! Pardonne-moi et à mon frère ! Accueille-nous en Ta miséricorde, car Tu es le plus Miséricordieux des miséricordieux ! »"
   },
   {
     "id": "al-a-raf-152",
@@ -18301,7 +18452,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ سَيَنَالُهُمْ غَضَبٌ مِّن رَّبِّهِمْ وَذِلَّةٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُفْتَرِينَ",
     "textSimple": "إن ٱلذين ٱتخذوا ٱلعجل سينالهم غضب من ربهم وذلة فى ٱلحيوة ٱلدنيا  وكذلك نجزى ٱلمفترين",
     "transliteration": "inna alladhīna ittakhadhū l-ʿij'la sayanāluhum ghaḍabun min rabbihim wadhillatun fī l-ḥayati l-dun'yā wakadhālika najzī l-muf'tarīna",
-    "translation": "",
+    "translation": "Indeed, those who took the calf [for worship] will obtain anger from their Lord and humiliation in the life of this world, and thus do We recompense the inventors [of falsehood].",
     "words": [
       {
         "id": "al-a-raf-152-1",
@@ -18409,7 +18560,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui prirent le Veau (pour idole) subiront de leur Seigneur un courroux et une humiliation en ce bas monde. C’est ainsi que Nous rétribuons ceux qui inventent les mensonges."
   },
   {
     "id": "al-a-raf-153",
@@ -18418,7 +18570,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ رَّحِيمٌ",
     "textSimple": "وٱلذين عملوا ٱلسيـٔات ثم تابوا من بعدها وءامنوٓا إن ربك من بعدها لغفور رحيم",
     "transliteration": "wa-alladhīna ʿamilū l-sayiāti thumma tābū min baʿdihā waāmanū inna rabbaka min baʿdihā laghafūrun raḥīmun",
-    "translation": "",
+    "translation": "But those who committed misdeeds and then repented after them and believed - indeed your Lord, thereafter, is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-a-raf-153-1",
@@ -18519,7 +18671,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont commis de mauvaises œuvres, mais se sont, par la suite, repentis et ont cru, (qu’ils sachent que) ton Seigneur est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-a-raf-154",
@@ -18528,7 +18681,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
     "textSimple": "ولما سكت عن موسى ٱلغضب أخذ ٱلألواح  وفى نسختها هدى ورحمة للذين هم لربهم يرهبون",
     "transliteration": "walammā sakata ʿan mūsā l-ghaḍabu akhadha l-alwāḥa wafī nus'khatihā hudan waraḥmatun lilladhīna hum lirabbihim yarhabūna",
-    "translation": "",
+    "translation": "And when the anger subsided in Moses, he took up the tablets; and in their inscription was guidance and mercy for those who are fearful of their Lord.",
     "words": [
       {
         "id": "al-a-raf-154-1",
@@ -18636,7 +18789,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque le courroux de Moïse se fut calmé, il reprit les Tables dont le texte contenait une bonne direction (hudâ) et une miséricorde pour ceux qui redoutent leur Seigneur."
   },
   {
     "id": "al-a-raf-155",
@@ -18645,7 +18799,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱخْتَارَ مُوسَىٰ قَوْمَهُۥ سَبْعِينَ رَجُلًا لِّمِيقَـٰتِنَا ۖ فَلَمَّآ أَخَذَتْهُمُ ٱلرَّجْفَةُ قَالَ رَبِّ لَوْ شِئْتَ أَهْلَكْتَهُم مِّن قَبْلُ وَإِيَّـٰىَ ۖ أَتُهْلِكُنَا بِمَا فَعَلَ ٱلسُّفَهَآءُ مِنَّآ ۖ إِنْ هِىَ إِلَّا فِتْنَتُكَ تُضِلُّ بِهَا مَن تَشَآءُ وَتَهْدِى مَن تَشَآءُ ۖ أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا ۖ وَأَنتَ خَيْرُ ٱلْغَـٰفِرِينَ",
     "textSimple": "وٱختار موسى قومه سبعين رجلا لميقـتنا  فلمآ أخذتهم ٱلرجفة قال رب لو شئت أهلكتهم من قبل وإيـى  أتهلكنا بما فعل ٱلسفهآء منآ  إن هى إلا فتنتك تضل بها من تشآء وتهدى من تشآء  أنت ولينا فٱغفر لنا وٱرحمنا  وأنت خير ٱلغـفرين",
     "transliteration": "wa-ikh'tāra mūsā qawmahu sabʿīna rajulan limīqātinā falammā akhadhathumu l-rajfatu qāla rabbi law shi'ta ahlaktahum min qablu wa-iyyāya atuh'likunā bimā faʿala l-sufahāu minnā in hiya illā fit'natuka tuḍillu bihā man tashāu watahdī man tashāu anta waliyyunā fa-igh'fir lanā wa-ir'ḥamnā wa-anta khayru l-ghāfirīna",
-    "translation": "",
+    "translation": "And Moses chose from his people seventy men for Our appointment. And when the earthquake seized them, he said, \"My Lord, if You had willed, You could have destroyed them before and me [as well]. Would You destroy us for what the foolish among us have done? This is not but Your trial by which You send astray whom You will and guide whom You will. You are our Protector, so forgive us and have mercy upon us; and You are the best of forgivers.",
     "words": [
       {
         "id": "al-a-raf-155-1",
@@ -18935,7 +19089,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 40
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse choisit parmi son peuple soixante-dix hommes pour Notre rendez-vous. Lorsqu’un violent séisme les eut emportés, (Moïse) dit : « Mon Seigneur ! Si Tu avais voulu, Tu les aurais fait périr avant, et moi avec eux. Nous feras-Tu périr pour ce qu’auront commis les stupides d’entre nous ? C’est bien là Ton épreuve par laquelle Tu égares qui Tu veux et Tu guides qui Tu veux ! Tu es notre Protecteur ; pardonne-nous et reçois-nous en Ta miséricorde, car Tu es le Meilleur de ceux qui pardonnent."
   },
   {
     "id": "al-a-raf-156",
@@ -18944,7 +19099,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱكْتُبْ لَنَا فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَـٰتِنَا يُؤْمِنُونَ",
     "textSimple": " وٱكتب لنا فى هـذه ٱلدنيا حسنة وفى ٱلـٔاخرة إنا هدنآ إليك  قال عذابىٓ أصيب به من أشآء  ورحمتى وسعت كل شىء  فسأكتبها للذين يتقون ويؤتون ٱلزكوة وٱلذين هم بـٔايـتنا يؤمنون",
     "transliteration": "wa-uk'tub lanā fī hādhihi l-dun'yā ḥasanatan wafī l-ākhirati innā hud'nā ilayka qāla ʿadhābī uṣību bihi man ashāu waraḥmatī wasiʿat kulla shayin fasa-aktubuhā lilladhīna yattaqūna wayu'tūna l-zakata wa-alladhīna hum biāyātinā yu'minūna",
-    "translation": "",
+    "translation": "And decree for us in this world [that which is] good and [also] in the Hereafter; indeed, we have turned back to You.\" [Allāh] said, \"My punishment - I afflict with it whom I will, but My mercy encompasses all things.\" So I will decree it [especially] for those who fear Me and give zakāh and those who believe in Our verses-",
     "words": [
       {
         "id": "al-a-raf-156-1",
@@ -19157,7 +19312,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Écris-nous, Seigneur, une heureuse part en ce bas monde comme dans l’autre ; nous revenons à Toi, bien guidés et pleins de repentir. » Il (Allah) dit alors : « Mon supplice, Je le ferai subir à qui Je veux, et Ma miséricorde embrasse l’étendue de toute chose. Je l’écrirai donc à ceux qui craignent (Allah), qui s’acquittent de la Zakât, et à ceux qui croient en Nos Signes."
   },
   {
     "id": "al-a-raf-157",
@@ -19166,7 +19322,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَـٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَـٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَـٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "ٱلذين يتبعون ٱلرسول ٱلنبى ٱلأمى ٱلذى يجدونه مكتوبا عندهم فى ٱلتورىة وٱلإنجيل يأمرهم بٱلمعروف وينهىهم عن ٱلمنكر ويحل لهم ٱلطيبـت ويحرم عليهم ٱلخبـٓئث ويضع عنهم إصرهم وٱلأغلـل ٱلتى كانت عليهم  فٱلذين ءامنوا به وعزروه ونصروه وٱتبعوا ٱلنور ٱلذىٓ أنزل معهٓ  أولـٓئك هم ٱلمفلحون",
     "transliteration": "alladhīna yattabiʿūna l-rasūla l-nabiya l-umiya alladhī yajidūnahu maktūban ʿindahum fī l-tawrāti wal-injīli yamuruhum bil-maʿrūfi wayanhāhum ʿani l-munkari wayuḥillu lahumu l-ṭayibāti wayuḥarrimu ʿalayhimu l-khabāitha wayaḍaʿu ʿanhum iṣ'rahum wal-aghlāla allatī kānat ʿalayhim fa-alladhīna āmanū bihi waʿazzarūhu wanaṣarūhu wa-ittabaʿū l-nūra alladhī unzila maʿahu ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "Those who follow the Messenger, the unlettered prophet, whom they find written [i.e., described] in what they have of the Torah and the Gospel, who enjoins upon them what is right and prohibits them from what is wrong and makes lawful for them what is good and forbids them from what is evil and relieves them of their burden and the shackles which were upon them. So they who have believed in him, honored him, supported him and followed the light which was sent down with him - it is those who will be the successful.",
     "words": [
       {
         "id": "al-a-raf-157-1",
@@ -19470,7 +19626,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui suivent le Messager, le Prophète illettré dont il est fait mention dans les écrits de la Torah et de l’Évangile, qui leur prescrit le convenable et leur proscrit le condamnable, qui leur permet les choses bonnes et pures, et leur défend les choses mauvaises et impures ; qui les débarrasse du fardeau et du carcan qui les accablaient. Ceux qui auront cru en lui, l’auront appuyé et auront suivi la lumière descendue avec lui, ceux-là sont ceux qui auront atteint à la félicité. »"
   },
   {
     "id": "al-a-raf-158",
@@ -19479,7 +19636,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَيُّهَا ٱلنَّاسُ إِنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ جَمِيعًا ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ يُحْىِۦ وَيُمِيتُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِ ٱلنَّبِىِّ ٱلْأُمِّىِّ ٱلَّذِى يُؤْمِنُ بِٱللَّهِ وَكَلِمَـٰتِهِۦ وَٱتَّبِعُوهُ لَعَلَّكُمْ تَهْتَدُونَ",
     "textSimple": "قل يـٓأيها ٱلناس إنى رسول ٱلله إليكم جميعا ٱلذى له ملك ٱلسمـوت وٱلأرض  لآ إلـه إلا هو يحى ويميت  فـٔامنوا بٱلله ورسوله ٱلنبى ٱلأمى ٱلذى يؤمن بٱلله وكلمـته وٱتبعوه لعلكم تهتدون",
     "transliteration": "qul yāayyuhā l-nāsu innī rasūlu l-lahi ilaykum jamīʿan alladhī lahu mul'ku l-samāwāti wal-arḍi lā ilāha illā huwa yuḥ'yī wayumītu faāminū bil-lahi warasūlihi l-nabiyi l-umiyi alladhī yu'minu bil-lahi wakalimātihi wa-ittabiʿūhu laʿallakum tahtadūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"O mankind, indeed I am the Messenger of Allāh to you all, [from Him] to whom belongs the dominion of the heavens and the earth. There is no deity except Him; He gives life and causes death.\" So believe in Allāh and His Messenger, the unlettered prophet, who believes in Allāh and His words, and follow him that you may be guided.",
     "words": [
       {
         "id": "al-a-raf-158-1",
@@ -19699,7 +19856,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô hommes ! Je suis le Messager d’Allah pour vous tous, (Envoyé par) Celui à Qui appartient la royauté des cieux et de la terre, point d’autre divinité que Lui ! Il fait vivre et fait mourir. Croyez donc en Allah et en Son Messager, le Prophète illettré qui croit en Allah et en Ses paroles ; et suivez-le, peut-être trouverez-vous le droit chemin. »"
   },
   {
     "id": "al-a-raf-159",
@@ -19708,7 +19866,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمِن قَوْمِ مُوسَىٰٓ أُمَّةٌ يَهْدُونَ بِٱلْحَقِّ وَبِهِۦ يَعْدِلُونَ",
     "textSimple": "ومن قوم موسىٓ أمة يهدون بٱلحق وبه يعدلون",
     "transliteration": "wamin qawmi mūsā ummatun yahdūna bil-ḥaqi wabihi yaʿdilūna",
-    "translation": "",
+    "translation": "And among the people of Moses is a community which guides by truth and by it establishes justice.",
     "words": [
       {
         "id": "al-a-raf-159-1",
@@ -19767,7 +19925,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et au sein du peuple de Moïse, il est une communauté qui guide par la vérité et qui, par elle, applique l’équité."
   },
   {
     "id": "al-a-raf-160",
@@ -19776,7 +19935,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَطَّعْنَـٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَـٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
     "textSimple": "وقطعنـهم ٱثنتى عشرة أسباطا أمما  وأوحينآ إلى موسىٓ إذ ٱستسقىه قومهٓ أن ٱضرب بعصاك ٱلحجر  فٱنبجست منه ٱثنتا عشرة عينا  قد علم كل أناس مشربهم  وظللنا عليهم ٱلغمـم وأنزلنا عليهم ٱلمن وٱلسلوى  كلوا من طيبـت ما رزقنـكم  وما ظلمونا ولـكن كانوٓا أنفسهم يظلمون",
     "transliteration": "waqaṭṭaʿnāhumu ith'natay ʿashrata asbāṭan umaman wa-awḥaynā ilā mūsā idhi is'tasqāhu qawmuhu ani iḍ'rib biʿaṣāka l-ḥajara fa-inbajasat min'hu ith'natā ʿashrata ʿaynan qad ʿalima kullu unāsin mashrabahum waẓallalnā ʿalayhimu l-ghamāma wa-anzalnā ʿalayhimu l-mana wal-salwā kulū min ṭayyibāti mā razaqnākum wamā ẓalamūnā walākin kānū anfusahum yaẓlimūna",
-    "translation": "",
+    "translation": "And We divided them into twelve descendant tribes [as distinct] nations. And We inspired to Moses when his people implored him for water, \"Strike with your staff the stone,\" and there gushed forth from it twelve springs. Every people [i.e., tribe] knew its watering place. And We shaded them with clouds and sent down upon them manna and quails, [saying], \"Eat from the good things with which We have provided you.\" And they wronged Us not, but they were [only] wronging themselves.",
     "words": [
       {
         "id": "al-a-raf-160-1",
@@ -20080,7 +20239,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les partageâmes en douze tribus et autant de communautés. Nous inspirâmes à Moïse à qui son peuple demanda de l’eau : « Frappe de ton bâton le rocher ! » et du rocher jaillirent douze sources. Chaque tribu sut ainsi où elle pouvait boire. Nous déployâmes alors sur eux l’ombre d’un nuage et leur envoyâmes la manne et les cailles : « Mangez des bonnes nourritures que Nous vous dispensons. » Ce n’est pas Nous qu’ils ont lésé, ils se sont lésés eux-mêmes."
   },
   {
     "id": "al-a-raf-161",
@@ -20089,7 +20249,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قِيلَ لَهُمُ ٱسْكُنُوا۟ هَـٰذِهِ ٱلْقَرْيَةَ وَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا۟ حِطَّةٌ وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا نَّغْفِرْ لَكُمْ خَطِيٓـَٔـٰتِكُمْ ۚ سَنَزِيدُ ٱلْمُحْسِنِينَ",
     "textSimple": "وإذ قيل لهم ٱسكنوا هـذه ٱلقرية وكلوا منها حيث شئتم وقولوا حطة وٱدخلوا ٱلباب سجدا نغفر لكم خطيٓـٔـتكم  سنزيد ٱلمحسنين",
     "transliteration": "wa-idh qīla lahumu us'kunū hādhihi l-qaryata wakulū min'hā ḥaythu shi'tum waqūlū ḥiṭṭatun wa-ud'khulū l-bāba sujjadan naghfir lakum khaṭīātikum sanazīdu l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when it was said to them, \"Dwell in this city [i.e., Jerusalem] and eat from it wherever you will and say, 'Relieve us of our burdens [i.e., sins],' and enter the gate bowing humbly; We will [then] forgive you your sins. We will increase the doers of good [in goodness and reward].\"",
     "words": [
       {
         "id": "al-a-raf-161-1",
@@ -20232,7 +20392,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsqu’il leur fut dit : « Habitez cette cité, mangez-y de ce qu’il vous plaira mais dites : \"Rémission pour nos péchés !\" Entrez-y par la porte prosternés, Nous vous pardonnerons alors vos fautes et Nous donnerons plus encore aux bienfaiteurs. »"
   },
   {
     "id": "al-a-raf-162",
@@ -20241,7 +20402,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَبَدَّلَ ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ قَوْلًا غَيْرَ ٱلَّذِى قِيلَ لَهُمْ فَأَرْسَلْنَا عَلَيْهِمْ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَظْلِمُونَ",
     "textSimple": "فبدل ٱلذين ظلموا منهم قولا غير ٱلذى قيل لهم فأرسلنا عليهم رجزا من ٱلسمآء بما كانوا يظلمون",
     "transliteration": "fabaddala alladhīna ẓalamū min'hum qawlan ghayra alladhī qīla lahum fa-arsalnā ʿalayhim rij'zan mina l-samāi bimā kānū yaẓlimūna",
-    "translation": "",
+    "translation": "But those who wronged among them changed [the words] to a statement other than that which had been said to them. So We sent upon them a punishment from the sky for the wrong that they were doing.",
     "words": [
       {
         "id": "al-a-raf-162-1",
@@ -20363,7 +20524,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, ceux qui d’entre eux étaient injustes altérèrent ce qui leur avait été dit. Nous leur envoyâmes un châtiment du ciel pour l’injustice qu’ils avaient commise."
   },
   {
     "id": "al-a-raf-163",
@@ -20372,7 +20534,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَسْـَٔلْهُمْ عَنِ ٱلْقَرْيَةِ ٱلَّتِى كَانَتْ حَاضِرَةَ ٱلْبَحْرِ إِذْ يَعْدُونَ فِى ٱلسَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا۟ يَفْسُقُونَ",
     "textSimple": "وسـٔلهم عن ٱلقرية ٱلتى كانت حاضرة ٱلبحر إذ يعدون فى ٱلسبت إذ تأتيهم حيتانهم يوم سبتهم شرعا ويوم لا يسبتون  لا تأتيهم  كذلك نبلوهم بما كانوا يفسقون",
     "transliteration": "wasalhum ʿani l-qaryati allatī kānat ḥāḍirata l-baḥri idh yaʿdūna fī l-sabti idh tatīhim ḥītānuhum yawma sabtihim shurraʿan wayawma lā yasbitūna lā tatīhim kadhālika nablūhum bimā kānū yafsuqūna",
-    "translation": "",
+    "translation": "And ask them about the town that was by the sea - when they transgressed in [the matter of] the sabbath - when their fish came to them openly on their sabbath day, and the day they had no sabbath they did not come to them. Thus did We give them trial because they were defiantly disobedient.",
     "words": [
       {
         "id": "al-a-raf-163-1",
@@ -20564,7 +20726,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Questionne-les donc sur la cité qui se trouvait en bord de mer et dont les habitants transgressaient le Sabbat. Les poissons venaient affleurer à la surface de l’eau quand c’était jour de Sabbat, et ne venaient point quand ce n’était pas jour de Sabbat. C’est ainsi que Nous les éprouvions pour leurs actes pervers."
   },
   {
     "id": "al-a-raf-164",
@@ -20573,7 +20736,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَتْ أُمَّةٌ مِّنْهُمْ لِمَ تَعِظُونَ قَوْمًا ۙ ٱللَّهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ عَذَابًا شَدِيدًا ۖ قَالُوا۟ مَعْذِرَةً إِلَىٰ رَبِّكُمْ وَلَعَلَّهُمْ يَتَّقُونَ",
     "textSimple": "وإذ قالت أمة منهم لم تعظون قوما  ٱلله مهلكهم أو معذبهم عذابا شديدا  قالوا معذرة إلى ربكم ولعلهم يتقون",
     "transliteration": "wa-idh qālat ummatun min'hum lima taʿiẓūna qawman l-lahu muh'likuhum aw muʿadhibuhum ʿadhāban shadīdan qālū maʿdhiratan ilā rabbikum walaʿallahum yattaqūna",
-    "translation": "",
+    "translation": "And when a community among them said, \"Why do you advise [or warn] a people whom Allāh is [about] to destroy or to punish with a severe punishment?\" they [the advisors] said, \"To be absolved before your Lord and perhaps they may fear Him.\"",
     "words": [
       {
         "id": "al-a-raf-164-1",
@@ -20709,7 +20872,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsqu’un groupe d’entre eux dit : « Qu’avez-vous à exhorter des gens qu’Allah va faire périr et qu’Il va soumettre à un terrible supplice ? » Ils dirent : « Pour n’en être point responsables devant notre Seigneur et dans l’espoir qu’ils deviendront pieux ! »"
   },
   {
     "id": "al-a-raf-165",
@@ -20718,7 +20882,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦٓ أَنجَيْنَا ٱلَّذِينَ يَنْهَوْنَ عَنِ ٱلسُّوٓءِ وَأَخَذْنَا ٱلَّذِينَ ظَلَمُوا۟ بِعَذَابٍۭ بَـِٔيسٍۭ بِمَا كَانُوا۟ يَفْسُقُونَ",
     "textSimple": "فلما نسوا ما ذكروا بهٓ أنجينا ٱلذين ينهون عن ٱلسوٓء وأخذنا ٱلذين ظلموا بعذاب بـٔيس بما كانوا يفسقون",
     "transliteration": "falammā nasū mā dhukkirū bihi anjaynā alladhīna yanhawna ʿani l-sūi wa-akhadhnā alladhīna ẓalamū biʿadhābin baīsin bimā kānū yafsuqūna",
-    "translation": "",
+    "translation": "And when they [i.e., those advised] forgot that by which they had been reminded, We saved those who had forbidden evil and seized those who wronged, with a wretched punishment, because they were defiantly disobeying.",
     "words": [
       {
         "id": "al-a-raf-165-1",
@@ -20847,7 +21011,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand ils eurent oublié ce qui leur avait été rappelé, Nous sauvâmes ceux qui proscrivaient le mal et Nous prîmes les injustes dans un supplice très dur pour prix de leurs actions perverses."
   },
   {
     "id": "al-a-raf-166",
@@ -20856,7 +21021,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا عَتَوْا۟ عَن مَّا نُهُوا۟ عَنْهُ قُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ",
     "textSimple": "فلما عتوا عن ما نهوا عنه قلنا لهم كونوا قردة خـسـٔين",
     "transliteration": "falammā ʿataw ʿan mā nuhū ʿanhu qul'nā lahum kūnū qiradatan khāsiīna",
-    "translation": "",
+    "translation": "So when they were insolent about that which they had been forbidden, We said to them, \"Be apes, despised.\"",
     "words": [
       {
         "id": "al-a-raf-166-1",
@@ -20936,7 +21101,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comme ils tenaient, avec morgue, à ce qui leur avait été défendu, Nous leur dîmes : « Soyez des singes méprisables ! »"
   },
   {
     "id": "al-a-raf-167",
@@ -20945,7 +21111,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ مَن يَسُومُهُمْ سُوٓءَ ٱلْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ ٱلْعِقَابِ ۖ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌ",
     "textSimple": "وإذ تأذن ربك ليبعثن عليهم إلى يوم ٱلقيـمة من يسومهم سوٓء ٱلعذاب  إن ربك لسريع ٱلعقاب  وإنه لغفور رحيم",
     "transliteration": "wa-idh ta-adhana rabbuka layabʿathanna ʿalayhim ilā yawmi l-qiyāmati man yasūmuhum sūa l-ʿadhābi inna rabbaka lasarīʿu l-ʿiqābi wa-innahu laghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And [mention] when your Lord declared that He would surely [continue to] send upon them until the Day of Resurrection those who would afflict them with the worst torment. Indeed, your Lord is swift in penalty; but indeed, He is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-a-raf-167-1",
@@ -21081,7 +21247,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et souviens-toi aussi) lorsque ton Seigneur déclara qu’Il enverrait contre eux (des gens) qui, jusqu’au Jour de la Résurrection, leur feraient subir les pires supplices. Ton Seigneur est certes prompt en châtiment, mais Il est (aussi) Absoluteur et Tout Miséricordieux ;"
   },
   {
     "id": "al-a-raf-168",
@@ -21090,7 +21257,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَطَّعْنَـٰهُمْ فِى ٱلْأَرْضِ أُمَمًا ۖ مِّنْهُمُ ٱلصَّـٰلِحُونَ وَمِنْهُمْ دُونَ ذَٰلِكَ ۖ وَبَلَوْنَـٰهُم بِٱلْحَسَنَـٰتِ وَٱلسَّيِّـَٔاتِ لَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "وقطعنـهم فى ٱلأرض أمما  منهم ٱلصـلحون ومنهم دون ذلك  وبلونـهم بٱلحسنـت وٱلسيـٔات لعلهم يرجعون",
     "transliteration": "waqaṭṭaʿnāhum fī l-arḍi umaman min'humu l-ṣāliḥūna wamin'hum dūna dhālika wabalawnāhum bil-ḥasanāti wal-sayiāti laʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And We divided them throughout the earth into nations. Of them some were righteous, and of them some were otherwise. And We tested them with good [times] and bad that perhaps they would return [to obedience].",
     "words": [
       {
         "id": "al-a-raf-168-1",
@@ -21191,7 +21358,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les partageâmes en (diverses) nations sur terre, lesquelles comptaient des gens de grande vertu et d’autres de vertu moindre. Et Nous les avons éprouvés par le malheur autant que par le bonheur, afin qu’ils reviennent (de leur égarement)."
   },
   {
     "id": "al-a-raf-169",
@@ -21200,7 +21368,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ وَرِثُوا۟ ٱلْكِتَـٰبَ يَأْخُذُونَ عَرَضَ هَـٰذَا ٱلْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِن يَأْتِهِمْ عَرَضٌ مِّثْلُهُۥ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِم مِّيثَـٰقُ ٱلْكِتَـٰبِ أَن لَّا يَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ وَدَرَسُوا۟ مَا فِيهِ ۗ وَٱلدَّارُ ٱلْـَٔاخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
     "textSimple": "فخلف من بعدهم خلف ورثوا ٱلكتـب يأخذون عرض هـذا ٱلأدنى ويقولون سيغفر لنا وإن يأتهم عرض مثله يأخذوه  ألم يؤخذ عليهم ميثـق ٱلكتـب أن لا يقولوا على ٱلله إلا ٱلحق ودرسوا ما فيه  وٱلدار ٱلـٔاخرة خير للذين يتقون  أفلا تعقلون",
     "transliteration": "fakhalafa min baʿdihim khalfun warithū l-kitāba yakhudhūna ʿaraḍa hādhā l-adnā wayaqūlūna sayugh'faru lanā wa-in yatihim ʿaraḍun mith'luhu yakhudhūhu alam yu'khadh ʿalayhim mīthāqu l-kitābi an lā yaqūlū ʿalā l-lahi illā l-ḥaqa wadarasū mā fīhi wal-dāru l-ākhiratu khayrun lilladhīna yattaqūna afalā taʿqilūna",
-    "translation": "",
+    "translation": "And there followed them successors who inherited the Scripture [while] taking the commodities of this lower life and saying, \"It will be forgiven for us.\" And if an offer like it comes to them, they will [again] take it. Was not the covenant of the Scripture [i.e., the Torah] taken from them that they would not say about Allāh except the truth, and they studied what was in it? And the home of the Hereafter is better for those who fear Allāh, so will you not use reason?",
     "words": [
       {
         "id": "al-a-raf-169-1",
@@ -21483,7 +21651,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vint après eux des successeurs qui reçurent le Livre en héritage (la Torah). Ils lui préféraient volontiers les biens de ce bas monde et disaient : « Il nous sera pardonné. » Mais si on leur en offrait de semblables, ils les prenaient toujours. N’avait-on pas pris sur eux l’engagement du Livre, celui de ne dire sur le compte d’Allah que la vérité ? Ils en avaient pourtant étudié le contenu (du Livre). L’ultime séjour est certes meilleur pour ceux qui ont la piété. N’allez-vous donc pas comprendre ?"
   },
   {
     "id": "al-a-raf-170",
@@ -21492,7 +21661,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَـٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ",
     "textSimple": "وٱلذين يمسكون بٱلكتـب وأقاموا ٱلصلوة إنا لا نضيع أجر ٱلمصلحين",
     "transliteration": "wa-alladhīna yumassikūna bil-kitābi wa-aqāmū l-ṣalata innā lā nuḍīʿu ajra l-muṣ'liḥīna",
-    "translation": "",
+    "translation": "But those who hold fast to the Book [i.e., the Qur’ān] and establish prayer - indeed, We will not allow to be lost the reward of the reformers.",
     "words": [
       {
         "id": "al-a-raf-170-1",
@@ -21565,7 +21734,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui s’en tiennent au Livre et qui observent la Çalât, (qu’ils sachent que) Nous ne laisserons point se perdre la récompense des gens de bien."
   },
   {
     "id": "al-a-raf-171",
@@ -21574,7 +21744,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌ وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ ءَاتَيْنَـٰكُم بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
     "textSimple": " وإذ نتقنا ٱلجبل فوقهم كأنه ظلة وظنوٓا أنه واقع بهم خذوا مآ ءاتينـكم بقوة وٱذكروا ما فيه لعلكم تتقون",
     "transliteration": "wa-idh nataqnā l-jabala fawqahum ka-annahu ẓullatun waẓannū annahu wāqiʿun bihim khudhū mā ātaynākum biquwwatin wa-udh'kurū mā fīhi laʿallakum tattaqūna",
-    "translation": "",
+    "translation": "And [mention] when We raised the mountain above them as if it was a dark cloud and they were certain that it would fall upon them, [and Allāh said], \"Take what We have given you with determination and remember what is in it that you might fear Allāh.\"",
     "words": [
       {
         "id": "al-a-raf-171-1",
@@ -21710,7 +21880,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Nous suspendîmes au-dessus d’eux le Mont comme un gigantesque nuage, et qu’ils crurent qu’il allait tomber sur eux, (Nous leur dîmes) : « Prenez fermement ce que Nous vous avons donné (le Livre) et rappelez-vous ce qu’il contient, peut-être craindrez-vous (Allah). »"
   },
   {
     "id": "al-a-raf-172",
@@ -21719,7 +21890,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذَ رَبُّكَ مِنۢ بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰٓ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا۟ بَلَىٰ ۛ شَهِدْنَآ ۛ أَن تَقُولُوا۟ يَوْمَ ٱلْقِيَـٰمَةِ إِنَّا كُنَّا عَنْ هَـٰذَا غَـٰفِلِينَ",
     "textSimple": "وإذ أخذ ربك من بنىٓ ءادم من ظهورهم ذريتهم وأشهدهم علىٓ أنفسهم ألست بربكم  قالوا بلى  شهدنآ  أن تقولوا يوم ٱلقيـمة إنا كنا عن هـذا غـفلين",
     "transliteration": "wa-idh akhadha rabbuka min banī ādama min ẓuhūrihim dhurriyyatahum wa-ashhadahum ʿalā anfusihim alastu birabbikum qālū balā shahid'nā an taqūlū yawma l-qiyāmati innā kunnā ʿan hādhā ghāfilīna",
-    "translation": "",
+    "translation": "And [mention] when your Lord took from the children of Adam - from their loins - their descendants and made them testify of themselves, [saying to them], \"Am I not your Lord?\" They said, \"Yes, we have testified.\" [This] - lest you should say on the Day of Resurrection, \"Indeed, we were of this unaware.\"",
     "words": [
       {
         "id": "al-a-raf-172-1",
@@ -21904,7 +22075,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand ton Seigneur prit des reins des fils d’Adam les descendants de toute leur lignée et les fit témoigner contre eux-mêmes : « Ne suis-Je pas votre Seigneur ? » « Si, répondirent-ils, et nous en témoignons ! » Alors, au Jour de la Résurrection, vous ne direz plus : « Nous n’y avons pas été attentifs. »"
   },
   {
     "id": "al-a-raf-173",
@@ -21913,7 +22085,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ تَقُولُوٓا۟ إِنَّمَآ أَشْرَكَ ءَابَآؤُنَا مِن قَبْلُ وَكُنَّا ذُرِّيَّةً مِّنۢ بَعْدِهِمْ ۖ أَفَتُهْلِكُنَا بِمَا فَعَلَ ٱلْمُبْطِلُونَ",
     "textSimple": "أو تقولوٓا إنمآ أشرك ءابآؤنا من قبل وكنا ذرية من بعدهم  أفتهلكنا بما فعل ٱلمبطلون",
     "transliteration": "aw taqūlū innamā ashraka ābāunā min qablu wakunnā dhurriyyatan min baʿdihim afatuh'likunā bimā faʿala l-mub'ṭilūna",
-    "translation": "",
+    "translation": "Or [lest] you say, \"It was only that our fathers associated [others in worship] with Allāh before, and we were but descendants after them. Then would You destroy us for what the falsifiers have done?\"",
     "words": [
       {
         "id": "al-a-raf-173-1",
@@ -22021,7 +22193,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ni ne direz : « Nos pères avaient déjà donné des associés (à Allah) et nous sommes leur postérité. Nous feras-Tu donc périr pour les actes des imposteurs ? »"
   },
   {
     "id": "al-a-raf-174",
@@ -22030,7 +22203,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ نُفَصِّلُ ٱلْـَٔايَـٰتِ وَلَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "وكذلك نفصل ٱلـٔايـت ولعلهم يرجعون",
     "transliteration": "wakadhālika nufaṣṣilu l-āyāti walaʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And thus do We [explain in] detail the verses, and perhaps they will return.",
     "words": [
       {
         "id": "al-a-raf-174-1",
@@ -22068,7 +22241,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous détaillons clairement les Signes, peut-être reviendront-ils (de leur égarement)."
   },
   {
     "id": "al-a-raf-175",
@@ -22077,7 +22251,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ ءَاتَيْنَـٰهُ ءَايَـٰتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَـٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ",
     "textSimple": "وٱتل عليهم نبأ ٱلذىٓ ءاتينـه ءايـتنا فٱنسلخ منها فأتبعه ٱلشيطـن فكان من ٱلغاوين",
     "transliteration": "wa-ut'lu ʿalayhim naba-a alladhī ātaynāhu āyātinā fa-insalakha min'hā fa-atbaʿahu l-shayṭānu fakāna mina l-ghāwīna",
-    "translation": "",
+    "translation": "And recite to them, [O Muḥammad], the news of him to whom We gave [knowledge of] Our signs, but he detached himself from them; so Satan pursued him, and he became of the deviators.",
     "words": [
       {
         "id": "al-a-raf-175-1",
@@ -22171,7 +22345,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Récite-leur l’histoire de celui à qui Nous avions apporté Nos Signes et qui s’en sépara. Satan l’ayant attiré à sa suite, il rejoignit le nombre des dévoyés."
   },
   {
     "id": "al-a-raf-176",
@@ -22180,7 +22355,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شِئْنَا لَرَفَعْنَـٰهُ بِهَا وَلَـٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
     "textSimple": "ولو شئنا لرفعنـه بها ولـكنهٓ أخلد إلى ٱلأرض وٱتبع هوىه  فمثله كمثل ٱلكلب إن تحمل عليه يلهث أو تتركه يلهث  ذلك مثل ٱلقوم ٱلذين كذبوا بـٔايـتنا  فٱقصص ٱلقصص لعلهم يتفكرون",
     "transliteration": "walaw shi'nā larafaʿnāhu bihā walākinnahu akhlada ilā l-arḍi wa-ittabaʿa hawāhu famathaluhu kamathali l-kalbi in taḥmil ʿalayhi yalhath aw tatruk'hu yalhath dhālika mathalu l-qawmi alladhīna kadhabū biāyātinā fa-uq'ṣuṣi l-qaṣaṣa laʿallahum yatafakkarūna",
-    "translation": "",
+    "translation": "And if We had willed, We could have elevated him thereby, but he adhered [instead] to the earth and followed his own desire. So his example is like that of the dog: if you chase him, he pants, or if you leave him, he [still] pants. That is the example of the people who denied Our signs. So relate the stories that perhaps they will give thought.",
     "words": [
       {
         "id": "al-a-raf-176-1",
@@ -22393,7 +22568,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous avions voulu, Nous l’aurions élevé (par ces Signes), mais il a penché pour la terre et a suivi ses propres désirs, comme le chien qui, si tu fonces sur lui, halète, et si tu le laisses, halète. Tel est l’exemple des gens qui ont démenti renié Nos Signes. Alors, raconte-leur cette histoire, peut-être réfléchiront-ils."
   },
   {
     "id": "al-a-raf-177",
@@ -22402,7 +22578,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "سَآءَ مَثَلًا ٱلْقَوْمُ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَأَنفُسَهُمْ كَانُوا۟ يَظْلِمُونَ",
     "textSimple": "سآء مثلا ٱلقوم ٱلذين كذبوا بـٔايـتنا وأنفسهم كانوا يظلمون",
     "transliteration": "sāa mathalan l-qawmu alladhīna kadhabū biāyātinā wa-anfusahum kānū yaẓlimūna",
-    "translation": "",
+    "translation": "How evil an example [is that of] the people who denied Our signs and used to wrong themselves.",
     "words": [
       {
         "id": "al-a-raf-177-1",
@@ -22468,7 +22644,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Bien mauvais exemple est celui des gens qui ont traité Nos Signes de mensonges, alors qu’ils ne faisaient que se léser eux-mêmes."
   },
   {
     "id": "al-a-raf-178",
@@ -22477,7 +22654,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "من يهد ٱلله فهو ٱلمهتدى  ومن يضلل فأولـٓئك هم ٱلخـسرون",
     "transliteration": "man yahdi l-lahu fahuwa l-muh'tadī waman yuḍ'lil fa-ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "Whoever Allāh guides - he is the [rightly] guided; and whoever He sends astray - it is those who are the losers.",
     "words": [
       {
         "id": "al-a-raf-178-1",
@@ -22550,7 +22727,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qu’Allah veut orienter vers la bonne direction, celui-là est bien dirigé, et ceux qu’Il entend égarer, ceux-là sont les perdants."
   },
   {
     "id": "al-a-raf-179",
@@ -22559,7 +22737,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ذَرَأْنَا لِجَهَنَّمَ كَثِيرًا مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ لَهُمْ قُلُوبٌ لَّا يَفْقَهُونَ بِهَا وَلَهُمْ أَعْيُنٌ لَّا يُبْصِرُونَ بِهَا وَلَهُمْ ءَاذَانٌ لَّا يَسْمَعُونَ بِهَآ ۚ أُو۟لَـٰٓئِكَ كَٱلْأَنْعَـٰمِ بَلْ هُمْ أَضَلُّ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلْغَـٰفِلُونَ",
     "textSimple": "ولقد ذرأنا لجهنم كثيرا من ٱلجن وٱلإنس  لهم قلوب لا يفقهون بها ولهم أعين لا يبصرون بها ولهم ءاذان لا يسمعون بهآ  أولـٓئك كٱلأنعـم بل هم أضل  أولـٓئك هم ٱلغـفلون",
     "transliteration": "walaqad dharanā lijahannama kathīran mina l-jini wal-insi lahum qulūbun lā yafqahūna bihā walahum aʿyunun lā yub'ṣirūna bihā walahum ādhānun lā yasmaʿūna bihā ulāika kal-anʿāmi bal hum aḍallu ulāika humu l-ghāfilūna",
-    "translation": "",
+    "translation": "And We have certainly created for Hell many of the jinn and mankind. They have hearts with which they do not understand, they have eyes with which they do not see, and they have ears with which they do not hear. Those are like livestock; rather, they are more astray. It is they who are the heedless.",
     "words": [
       {
         "id": "al-a-raf-179-1",
@@ -22772,7 +22950,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons destiné pour la Géhenne un grand nombre de djinns et d’humains. Ils ont des cœurs qui ne leur servent pas à comprendre, des yeux mais pour ne pas voir, et des oreilles mais pour ne pas entendre. Ceux-là sont comme les bêtes ou plus égarés encore ; ceux-là vivent plongés dans l’indifférence."
   },
   {
     "id": "al-a-raf-180",
@@ -22781,7 +22960,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا ۖ وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَـٰٓئِهِۦ ۚ سَيُجْزَوْنَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ولله ٱلأسمآء ٱلحسنى فٱدعوه بها  وذروا ٱلذين يلحدون فىٓ أسمـٓئه  سيجزون ما كانوا يعملون",
     "transliteration": "walillahi l-asmāu l-ḥus'nā fa-id'ʿūhu bihā wadharū alladhīna yul'ḥidūna fī asmāihi sayuj'zawna mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And to Allāh belong the best names, so invoke Him by them. And leave [the company of] those who practice deviation concerning His names. They will be recompensed for what they have been doing.",
     "words": [
       {
         "id": "al-a-raf-180-1",
@@ -22882,7 +23061,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah qu’appartiennent les plus Beaux Noms. Servez-vous en pour L’invoquer, et laissez ceux qui en altèrent le sens. Ils recevront la rétribution de ce qu’ils faisaient."
   },
   {
     "id": "al-a-raf-181",
@@ -22891,7 +23071,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمِمَّنْ خَلَقْنَآ أُمَّةٌ يَهْدُونَ بِٱلْحَقِّ وَبِهِۦ يَعْدِلُونَ",
     "textSimple": "وممن خلقنآ أمة يهدون بٱلحق وبه يعدلون",
     "transliteration": "wamimman khalaqnā ummatun yahdūna bil-ḥaqi wabihi yaʿdilūna",
-    "translation": "",
+    "translation": "And among those We created is a community which guides by truth and thereby establishes justice.",
     "words": [
       {
         "id": "al-a-raf-181-1",
@@ -22943,7 +23123,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certains de ceux que Nous avons créés forment une communauté qui guide par la vérité et qui, par elle, respecte l’équité."
   },
   {
     "id": "al-a-raf-182",
@@ -22952,7 +23133,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
     "textSimple": "وٱلذين كذبوا بـٔايـتنا سنستدرجهم من حيث لا يعلمون",
     "transliteration": "wa-alladhīna kadhabū biāyātinā sanastadrijuhum min ḥaythu lā yaʿlamūna",
-    "translation": "",
+    "translation": "But those who deny Our signs - We will progressively lead them [to destruction] from where they do not know.",
     "words": [
       {
         "id": "al-a-raf-182-1",
@@ -23011,7 +23192,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui renient Nos Signes, Nous les conduirons progressivement à leur perte par des voies qu’ils ne soupçonnent pas."
   },
   {
     "id": "al-a-raf-183",
@@ -23020,7 +23202,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
     "textSimple": "وأملى لهم  إن كيدى متين",
     "transliteration": "wa-um'lī lahum inna kaydī matīnun",
-    "translation": "",
+    "translation": "And I will give them time. Indeed, My plan is firm.",
     "words": [
       {
         "id": "al-a-raf-183-1",
@@ -23058,7 +23240,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je différerai l’échéance de leur sursis, car Mon stratagème est sûr."
   },
   {
     "id": "al-a-raf-184",
@@ -23067,7 +23250,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَتَفَكَّرُوا۟ ۗ مَا بِصَاحِبِهِم مِّن جِنَّةٍ ۚ إِنْ هُوَ إِلَّا نَذِيرٌ مُّبِينٌ",
     "textSimple": "أولم يتفكروا  ما بصاحبهم من جنة  إن هو إلا نذير مبين",
     "transliteration": "awalam yatafakkarū mā biṣāḥibihim min jinnatin in huwa illā nadhīrun mubīnun",
-    "translation": "",
+    "translation": "Then do they not give thought? There is in their companion [i.e., Muḥammad (ﷺ)] no madness. He is not but a clear warner.",
     "words": [
       {
         "id": "al-a-raf-184-1",
@@ -23147,7 +23330,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas réfléchi ? Leur compagnon n’est atteint d’aucune folie ; il est plutôt chargé d’avertir d’une façon manifeste."
   },
   {
     "id": "al-a-raf-185",
@@ -23156,7 +23340,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَنظُرُوا۟ فِى مَلَكُوتِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا خَلَقَ ٱللَّهُ مِن شَىْءٍ وَأَنْ عَسَىٰٓ أَن يَكُونَ قَدِ ٱقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
     "textSimple": "أولم ينظروا فى ملكوت ٱلسمـوت وٱلأرض وما خلق ٱلله من شىء وأن عسىٓ أن يكون قد ٱقترب أجلهم  فبأى حديث بعده يؤمنون",
     "transliteration": "awalam yanẓurū fī malakūti l-samāwāti wal-arḍi wamā khalaqa l-lahu min shayin wa-an ʿasā an yakūna qadi iq'taraba ajaluhum fabi-ayyi ḥadīthin baʿdahu yu'minūna",
-    "translation": "",
+    "translation": "Do they not look into the realm of the heavens and the earth and everything that Allāh has created and [think] that perhaps their appointed time has come near? So in what statement [i.e., message] hereafter will they believe?",
     "words": [
       {
         "id": "al-a-raf-185-1",
@@ -23313,7 +23497,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas considéré la royauté des cieux et de la terre, et toute chose qu’Allah a créée ? (Ne voient-ils donc pas) que leur terme peut être tout proche ? En quelle autre parole, après celle-là, vont-ils croire ?"
   },
   {
     "id": "al-a-raf-186",
@@ -23322,7 +23507,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "مَن يُضْلِلِ ٱللَّهُ فَلَا هَادِىَ لَهُۥ ۚ وَيَذَرُهُمْ فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ",
     "textSimple": "من يضلل ٱلله فلا هادى له  ويذرهم فى طغيـنهم يعمهون",
     "transliteration": "man yuḍ'lili l-lahu falā hādiya lahu wayadharuhum fī ṭugh'yānihim yaʿmahūna",
-    "translation": "",
+    "translation": "Whoever Allāh sends astray - there is no guide for him. And He leaves them in their transgression, wandering blindly.",
     "words": [
       {
         "id": "al-a-raf-186-1",
@@ -23395,7 +23580,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qu’Allah entend égarer n’ont point de guide. Et Il les laisse patauger dans leur rébellion, aveugles et tâtonnants."
   },
   {
     "id": "al-a-raf-187",
@@ -23404,7 +23590,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا يُجَلِّيهَا لِوَقْتِهَآ إِلَّا هُوَ ۚ ثَقُلَتْ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ حَفِىٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "يسـٔلونك عن ٱلساعة أيان مرسىها  قل إنما علمها عند ربى  لا يجليها لوقتهآ إلا هو  ثقلت فى ٱلسمـوت وٱلأرض  لا تأتيكم إلا بغتة  يسـٔلونك كأنك حفى عنها  قل إنما علمها عند ٱلله ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "yasalūnaka ʿani l-sāʿati ayyāna mur'sāhā qul innamā ʿil'muhā ʿinda rabbī lā yujallīhā liwaqtihā illā huwa thaqulat fī l-samāwāti wal-arḍi lā tatīkum illā baghtatan yasalūnaka ka-annaka ḥafiyyun ʿanhā qul innamā ʿil'muhā ʿinda l-lahi walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "They ask you, [O Muḥammad], about the Hour: when is its arrival? Say, \"Its knowledge is only with my Lord. None will reveal its time except Him. It lays heavily upon the heavens and the earth. It will not come upon you except unexpectedly.\" They ask you as if you are familiar with it. Say, \"Its knowledge is only with Allāh, but most of the people do not know.\"",
     "words": [
       {
         "id": "al-a-raf-187-1",
@@ -23666,7 +23852,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent sur l’Heure et le moment de sa venue. Dis : « Sa science est du ressort de mon Seigneur. Nul autre que Lui ne la manifestera au moment qui lui est prescrit. Elle pèsera lourd dans les cieux et sur terre et n’arrivera à vous que subitement. Ils t’interrogent (à son propos) comme si tu en étais prévenu. Dis : « Seul Allah en a la science. » Mais la plupart des hommes ne le savent pas."
   },
   {
     "id": "al-a-raf-188",
@@ -23675,7 +23862,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّآ أَمْلِكُ لِنَفْسِى نَفْعًا وَلَا ضَرًّا إِلَّا مَا شَآءَ ٱللَّهُ ۚ وَلَوْ كُنتُ أَعْلَمُ ٱلْغَيْبَ لَٱسْتَكْثَرْتُ مِنَ ٱلْخَيْرِ وَمَا مَسَّنِىَ ٱلسُّوٓءُ ۚ إِنْ أَنَا۠ إِلَّا نَذِيرٌ وَبَشِيرٌ لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "قل لآ أملك لنفسى نفعا ولا ضرا إلا ما شآء ٱلله  ولو كنت أعلم ٱلغيب لٱستكثرت من ٱلخير وما مسنى ٱلسوٓء  إن أنا إلا نذير وبشير لقوم يؤمنون",
     "transliteration": "qul lā amliku linafsī nafʿan walā ḍarran illā mā shāa l-lahu walaw kuntu aʿlamu l-ghayba la-is'takthartu mina l-khayri wamā massaniya l-sūu in anā illā nadhīrun wabashīrun liqawmin yu'minūna",
-    "translation": "",
+    "translation": "Say, \"I hold not for myself [the power of] benefit or harm, except what Allāh has willed. And if I knew the unseen, I could have acquired much wealth, and no harm would have touched me. I am not except a warner and a bringer of good tidings to a people who believe.\"",
     "words": [
       {
         "id": "al-a-raf-188-1",
@@ -23874,7 +24061,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Je ne possède pour moi-même ni le pouvoir de m’assurer un profit ni celui de me préserver d’un tort, si ce n’est ce que veut Allah. Et si je savais les secrets de l’Inconnaissable (ghayb), j’amasserais d’abondantes richesses, et aucun mal ne m’atteindrait. Je ne suis rien de moins qu’un (Prophète) venu avertir (de la voie malheureuse) et annoncer (l’heureuse issue) à des gens qui croient."
   },
   {
     "id": "al-a-raf-189",
@@ -23883,7 +24071,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "۞ هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ ءَاتَيْتَنَا صَـٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّـٰكِرِينَ",
     "textSimple": " هو ٱلذى خلقكم من نفس وحدة وجعل منها زوجها ليسكن إليها  فلما تغشىها حملت حملا خفيفا فمرت به  فلمآ أثقلت دعوا ٱلله ربهما لئن ءاتيتنا صـلحا لنكونن من ٱلشـكرين",
     "transliteration": "huwa alladhī khalaqakum min nafsin wāḥidatin wajaʿala min'hā zawjahā liyaskuna ilayhā falammā taghashāhā ḥamalat ḥamlan khafīfan famarrat bihi falammā athqalat daʿawā l-laha rabbahumā la-in ātaytanā ṣāliḥan lanakūnanna mina l-shākirīna",
-    "translation": "",
+    "translation": "It is He who created you from one soul and created from it its mate that he might dwell in security with her. And when he [i.e., man] covers her, she carries a light burden [i.e., a pregnancy] and continues therein. And when it becomes heavy, they both invoke Allāh, their Lord, \"If You should give us a good [child], we will surely be among the grateful.\"",
     "words": [
       {
         "id": "al-a-raf-189-1",
@@ -24089,7 +24277,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous créa d’un seul être, et Qui (de ce même être) tira son épouse afin qu’auprès d’elle, il trouvât le calme et le repos. Et quand il l’eut approchée, elle en conçut d’abord une grossesse légère (qui ne l’empêchait point de se mouvoir), puis quand elle se sentit plus lourde, tous les deux invoquèrent ainsi leur Seigneur : « Si Tu nous accordes un (enfant) sain, nous Te serons vraiment reconnaissants. »"
   },
   {
     "id": "al-a-raf-190",
@@ -24098,7 +24287,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ ءَاتَىٰهُمَا صَـٰلِحًا جَعَلَا لَهُۥ شُرَكَآءَ فِيمَآ ءَاتَىٰهُمَا ۚ فَتَعَـٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ",
     "textSimple": "فلمآ ءاتىهما صـلحا جعلا له شركآء فيمآ ءاتىهما  فتعـلى ٱلله عما يشركون",
     "transliteration": "falammā ātāhumā ṣāliḥan jaʿalā lahu shurakāa fīmā ātāhumā fataʿālā l-lahu ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "But when He gives them a good [child], they ascribe partners to Him concerning that which He has given them. Exalted is Allāh above what they associate with Him.",
     "words": [
       {
         "id": "al-a-raf-190-1",
@@ -24185,7 +24374,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Pourtant), lorsqu’il leur eut accordé un (enfant) sain, ils Lui associèrent (des émules) pour ce qu’Il leur avait accordé. Mais Allah est au-dessus de ce qu’ils Lui associaient."
   },
   {
     "id": "al-a-raf-191",
@@ -24194,7 +24384,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَيُشْرِكُونَ مَا لَا يَخْلُقُ شَيْـًٔا وَهُمْ يُخْلَقُونَ",
     "textSimple": "أيشركون ما لا يخلق شيـٔا وهم يخلقون",
     "transliteration": "ayush'rikūna mā lā yakhluqu shayan wahum yukh'laqūna",
-    "translation": "",
+    "translation": "Do they associate with Him those who create nothing and they are [themselves] created?",
     "words": [
       {
         "id": "al-a-raf-191-1",
@@ -24246,7 +24436,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lui attribuent-ils donc des associés qui ne créent rien et qui sont eux-mêmes créés ?"
   },
   {
     "id": "al-a-raf-192",
@@ -24255,7 +24446,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَسْتَطِيعُونَ لَهُمْ نَصْرًا وَلَآ أَنفُسَهُمْ يَنصُرُونَ",
     "textSimple": "ولا يستطيعون لهم نصرا ولآ أنفسهم ينصرون",
     "transliteration": "walā yastaṭīʿūna lahum naṣran walā anfusahum yanṣurūna",
-    "translation": "",
+    "translation": "And they [i.e., the false deities] are unable to [give] them help, nor can they help themselves.",
     "words": [
       {
         "id": "al-a-raf-192-1",
@@ -24307,7 +24498,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui ne sauraient ni venir à leur secours ni se secourir eux-mêmes?"
   },
   {
     "id": "al-a-raf-193",
@@ -24316,7 +24508,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن تَدْعُوهُمْ إِلَى ٱلْهُدَىٰ لَا يَتَّبِعُوكُمْ ۚ سَوَآءٌ عَلَيْكُمْ أَدَعَوْتُمُوهُمْ أَمْ أَنتُمْ صَـٰمِتُونَ",
     "textSimple": "وإن تدعوهم إلى ٱلهدى لا يتبعوكم  سوآء عليكم أدعوتموهم أم أنتم صـمتون",
     "transliteration": "wa-in tadʿūhum ilā l-hudā lā yattabiʿūkum sawāon ʿalaykum adaʿawtumūhum am antum ṣāmitūna",
-    "translation": "",
+    "translation": "And if you [believers] invite them to guidance, they will not follow you. It is all the same for you whether you invite them or you are silent.",
     "words": [
       {
         "id": "al-a-raf-193-1",
@@ -24403,7 +24595,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les appelleriez-vous vers la bonne direction (hudâ), ils ne vous suivront pas. Pour vous, ce sera la même chose : que vous les appeliez ou que vous vous taisiez."
   },
   {
     "id": "al-a-raf-194",
@@ -24412,7 +24605,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ عِبَادٌ أَمْثَالُكُمْ ۖ فَٱدْعُوهُمْ فَلْيَسْتَجِيبُوا۟ لَكُمْ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "إن ٱلذين تدعون من دون ٱلله عباد أمثالكم  فٱدعوهم فليستجيبوا لكم إن كنتم صـدقين",
     "transliteration": "inna alladhīna tadʿūna min dūni l-lahi ʿibādun amthālukum fa-id'ʿūhum falyastajībū lakum in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Indeed, those you [polytheists] call upon besides Allāh are servants [i.e., creations] like you. So call upon them and let them respond to you, if you should be truthful.",
     "words": [
       {
         "id": "al-a-raf-194-1",
@@ -24513,7 +24706,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux que vous implorez en dehors d’Allah sont des serviteurs comme vous. Implorez-les et qu’ils exaucent donc (vos prières), si vous êtes véridiques (dans vos paroles)."
   },
   {
     "id": "al-a-raf-195",
@@ -24522,7 +24716,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ ءَاذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
     "textSimple": "ألهم أرجل يمشون بهآ  أم لهم أيد يبطشون بهآ  أم لهم أعين يبصرون بهآ  أم لهم ءاذان يسمعون بها  قل ٱدعوا شركآءكم ثم كيدون فلا تنظرون",
     "transliteration": "alahum arjulun yamshūna bihā am lahum aydin yabṭishūna bihā am lahum aʿyunun yub'ṣirūna bihā am lahum ādhānun yasmaʿūna bihā quli id'ʿū shurakāakum thumma kīdūni falā tunẓirūni",
-    "translation": "",
+    "translation": "Do they have feet by which they walk? Or do they have hands by which they strike? Or do they have eyes by which they see? Or do they have ears by which they hear? Say, [O Muḥammad], \"Call your 'partners' and then conspire against me and give me no respite.",
     "words": [
       {
         "id": "al-a-raf-195-1",
@@ -24707,7 +24901,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ont-ils des pieds pour marcher ? Ont-ils des mains pour frapper ? Ont-ils des yeux pour voir ? Ont-ils des oreilles pour entendre ? Dis : « Appelez donc ces associés qui sont les vôtres, mobilisez contre moi toute votre ruse, et ne me laissez aucun répit."
   },
   {
     "id": "al-a-raf-196",
@@ -24716,7 +24911,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ وَلِـِّۧىَ ٱللَّهُ ٱلَّذِى نَزَّلَ ٱلْكِتَـٰبَ ۖ وَهُوَ يَتَوَلَّى ٱلصَّـٰلِحِينَ",
     "textSimple": "إن ولـى ٱلله ٱلذى نزل ٱلكتـب  وهو يتولى ٱلصـلحين",
     "transliteration": "inna waliyyiya l-lahu alladhī nazzala l-kitāba wahuwa yatawallā l-ṣāliḥīna",
-    "translation": "",
+    "translation": "Indeed, my protector is Allāh, who has sent down the Book; and He is an ally to the righteous.",
     "words": [
       {
         "id": "al-a-raf-196-1",
@@ -24782,7 +24977,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car mon Protecteur c’est Allah, Lui Qui a fait descendre (en révélation) le Livre, Lui Qui Se charge de protéger les vertueux."
   },
   {
     "id": "al-a-raf-197",
@@ -24791,7 +24987,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ تَدْعُونَ مِن دُونِهِۦ لَا يَسْتَطِيعُونَ نَصْرَكُمْ وَلَآ أَنفُسَهُمْ يَنصُرُونَ",
     "textSimple": "وٱلذين تدعون من دونه لا يستطيعون نصركم ولآ أنفسهم ينصرون",
     "transliteration": "wa-alladhīna tadʿūna min dūnihi lā yastaṭīʿūna naṣrakum walā anfusahum yanṣurūna",
-    "translation": "",
+    "translation": "And those you call upon besides Him are unable to help you, nor can they help themselves.\"",
     "words": [
       {
         "id": "al-a-raf-197-1",
@@ -24864,7 +25060,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux que vous invoquez en dehors de Lui ne peuvent ni venir à votre secours, ni se secourir eux-mêmes. »"
   },
   {
     "id": "al-a-raf-198",
@@ -24873,7 +25070,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن تَدْعُوهُمْ إِلَى ٱلْهُدَىٰ لَا يَسْمَعُوا۟ ۖ وَتَرَىٰهُمْ يَنظُرُونَ إِلَيْكَ وَهُمْ لَا يُبْصِرُونَ",
     "textSimple": "وإن تدعوهم إلى ٱلهدى لا يسمعوا  وترىهم ينظرون إليك وهم لا يبصرون",
     "transliteration": "wa-in tadʿūhum ilā l-hudā lā yasmaʿū watarāhum yanẓurūna ilayka wahum lā yub'ṣirūna",
-    "translation": "",
+    "translation": "And if you invite them to guidance, they do not hear; and you see them looking at you while they do not see.",
     "words": [
       {
         "id": "al-a-raf-198-1",
@@ -24960,7 +25157,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si tu les appelles vers la bonne direction (hudâ), ils ne t’entendent pas. Tu les vois qui te regardent sans vraiment rien voir."
   },
   {
     "id": "al-a-raf-199",
@@ -24969,7 +25167,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "خُذِ ٱلْعَفْوَ وَأْمُرْ بِٱلْعُرْفِ وَأَعْرِضْ عَنِ ٱلْجَـٰهِلِينَ",
     "textSimple": "خذ ٱلعفو وأمر بٱلعرف وأعرض عن ٱلجـهلين",
     "transliteration": "khudhi l-ʿafwa wamur bil-ʿur'fi wa-aʿriḍ ʿani l-jāhilīna",
-    "translation": "",
+    "translation": "Take what is given freely, enjoin what is good, and turn away from the ignorant.",
     "words": [
       {
         "id": "al-a-raf-199-1",
@@ -25021,7 +25219,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Recherche la conciliation, ordonne le convenable et évite les ignorants."
   },
   {
     "id": "al-a-raf-200",
@@ -25030,7 +25229,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَـٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ",
     "textSimple": "وإما ينزغنك من ٱلشيطـن نزغ فٱستعذ بٱلله  إنه سميع عليم",
     "transliteration": "wa-immā yanzaghannaka mina l-shayṭāni nazghun fa-is'taʿidh bil-lahi innahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "And if an evil suggestion comes to you from Satan, then seek refuge in Allāh. Indeed, He is Hearing and Knowing.",
     "words": [
       {
         "id": "al-a-raf-200-1",
@@ -25103,7 +25302,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Satan te tente par quelque tentation, trouve refuge auprès d’Allah, car Il Entend Tout et Il est Omniscient."
   },
   {
     "id": "al-a-raf-201",
@@ -25112,7 +25312,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ٱتَّقَوْا۟ إِذَا مَسَّهُمْ طَـٰٓئِفٌ مِّنَ ٱلشَّيْطَـٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبْصِرُونَ",
     "textSimple": "إن ٱلذين ٱتقوا إذا مسهم طـٓئف من ٱلشيطـن تذكروا فإذا هم مبصرون",
     "transliteration": "inna alladhīna ittaqaw idhā massahum ṭāifun mina l-shayṭāni tadhakkarū fa-idhā hum mub'ṣirūna",
-    "translation": "",
+    "translation": "Indeed, those who fear Allāh - when an impulse touches them from Satan, they remember [Him] and at once they have insight.",
     "words": [
       {
         "id": "al-a-raf-201-1",
@@ -25199,7 +25399,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aussitôt que les effleure la moindre tentation de Satan, ceux qui ont la piété se rappellent et les voici de nouveau lucides."
   },
   {
     "id": "al-a-raf-202",
@@ -25208,7 +25409,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ",
     "textSimple": "وإخونهم يمدونهم فى ٱلغى ثم لا يقصرون",
     "transliteration": "wa-ikh'wānuhum yamuddūnahum fī l-ghayi thumma lā yuq'ṣirūna",
-    "translation": "",
+    "translation": "But their brothers - they [i.e., the devils] increase them in error; then they do not stop short.",
     "words": [
       {
         "id": "al-a-raf-202-1",
@@ -25260,7 +25461,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tandis que leurs frères (ceux des démons) sont poussés vers l’erreur et ne peuvent plus se retenir."
   },
   {
     "id": "al-a-raf-203",
@@ -25269,7 +25471,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا لَمْ تَأْتِهِم بِـَٔايَةٍ قَالُوا۟ لَوْلَا ٱجْتَبَيْتَهَا ۚ قُلْ إِنَّمَآ أَتَّبِعُ مَا يُوحَىٰٓ إِلَىَّ مِن رَّبِّى ۚ هَـٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "وإذا لم تأتهم بـٔاية قالوا لولا ٱجتبيتها  قل إنمآ أتبع ما يوحىٓ إلى من ربى  هـذا بصآئر من ربكم وهدى ورحمة لقوم يؤمنون",
     "transliteration": "wa-idhā lam tatihim biāyatin qālū lawlā ij'tabaytahā qul innamā attabiʿu mā yūḥā ilayya min rabbī hādhā baṣāiru min rabbikum wahudan waraḥmatun liqawmin yu'minūna",
-    "translation": "",
+    "translation": "And when you, [O Muḥammad], do not bring them a sign [i.e., miracle], they say, \"Why have you not contrived it?\" Say, \"I only follow what is revealed to me from my Lord. This [Qur’ān] is enlightenment from your Lord and guidance and mercy for a people who believe.\"",
     "words": [
       {
         "id": "al-a-raf-203-1",
@@ -25433,7 +25635,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand tu ne leur apportes pas de verset, ils disent : « Pourquoi n’en inventes-tu pas un ? » Dis : « Je ne fais que suivre ce qui m’est révélé par mon Seigneur. » Voilà (les versets) qui sont des preuves éclatantes venues de votre Seigneur, une bonne direction (hudâ) et une miséricorde pour des gens qui ont la foi."
   },
   {
     "id": "al-a-raf-204",
@@ -25442,7 +25645,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "وإذا قرئ ٱلقرءان فٱستمعوا له وأنصتوا لعلكم ترحمون",
     "transliteration": "wa-idhā quri-a l-qur'ānu fa-is'tamiʿū lahu wa-anṣitū laʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "So when the Qur’ān is recited, then listen to it and pay attention that you may receive mercy.",
     "words": [
       {
         "id": "al-a-raf-204-1",
@@ -25501,7 +25704,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand le Coran est récité, écoutez-le, et prêtez en silence une oreille attentive (à sa lecture), peut-être serez-vous touchés par la miséricorde."
   },
   {
     "id": "al-a-raf-205",
@@ -25510,7 +25714,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْـَٔاصَالِ وَلَا تَكُن مِّنَ ٱلْغَـٰفِلِينَ",
     "textSimple": "وٱذكر ربك فى نفسك تضرعا وخيفة ودون ٱلجهر من ٱلقول بٱلغدو وٱلـٔاصال ولا تكن من ٱلغـفلين",
     "transliteration": "wa-udh'kur rabbaka fī nafsika taḍarruʿan wakhīfatan wadūna l-jahri mina l-qawli bil-ghuduwi wal-āṣāli walā takun mina l-ghāfilīna",
-    "translation": "",
+    "translation": "And remember your Lord within yourself in humility and in fear without being apparent in speech - in the mornings and the evenings. And do not be among the heedless.",
     "words": [
       {
         "id": "al-a-raf-205-1",
@@ -25625,7 +25829,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Invoque ton Seigneur en ton for intérieur, avec humilité et crainte, à voix basse, matin et soir, et ne sois pas du nombre des distraits."
   },
   {
     "id": "al-a-raf-206",
@@ -25634,7 +25839,7 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ عِندَ رَبِّكَ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِۦ وَيُسَبِّحُونَهُۥ وَلَهُۥ يَسْجُدُونَ ۩",
     "textSimple": "إن ٱلذين عند ربك لا يستكبرون عن عبادته ويسبحونه وله يسجدون ",
     "transliteration": "inna alladhīna ʿinda rabbika lā yastakbirūna ʿan ʿibādatihi wayusabbiḥūnahu walahu yasjudūna",
-    "translation": "",
+    "translation": "Indeed, those who are near your Lord [i.e., the angels] are not prevented by arrogance from His worship, and they exalt Him, and to Him they prostrate.",
     "words": [
       {
         "id": "al-a-raf-206-1",
@@ -25714,7 +25919,8 @@ export const AL_A_RAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui se trouvent auprès de ton Seigneur ne refusent pas, par orgueil, de L’adorer. Ils Lui rendent gloire et se prosternent devant Lui."
   }
 ];
 

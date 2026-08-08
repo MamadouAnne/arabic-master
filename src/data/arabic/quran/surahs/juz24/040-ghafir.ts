@@ -11,7 +11,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": " حمٓ",
     "textSimple": " حمٓ",
     "transliteration": "hha-meem",
-    "translation": "",
+    "translation": "Ḥā, Meem.",
     "words": [
       {
         "id": "ghafir-1-1",
@@ -21,7 +21,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâ, Mîm."
   },
   {
     "id": "ghafir-2",
@@ -30,7 +31,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلُ ٱلْكِتَـٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْعَلِيمِ",
     "textSimple": "تنزيل ٱلكتـب من ٱلله ٱلعزيز ٱلعليم",
     "transliteration": "tanzīlu l-kitābi mina l-lahi l-ʿazīzi l-ʿalīmi",
-    "translation": "",
+    "translation": "The revelation of the Book [i.e., the Qur’ān] is from Allāh, the Exalted in Might, the Knowing,",
     "words": [
       {
         "id": "ghafir-2-1",
@@ -75,7 +76,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La révélation du Livre émane d’Allah, le Tout-Puissant, l’Omniscient,"
   },
   {
     "id": "ghafir-3",
@@ -84,7 +86,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوْبِ شَدِيدِ ٱلْعِقَابِ ذِى ٱلطَّوْلِ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ إِلَيْهِ ٱلْمَصِيرُ",
     "textSimple": "غافر ٱلذنب وقابل ٱلتوب شديد ٱلعقاب ذى ٱلطول  لآ إلـه إلا هو  إليه ٱلمصير",
     "transliteration": "ghāfiri l-dhanbi waqābili l-tawbi shadīdi l-ʿiqābi dhī l-ṭawli lā ilāha illā huwa ilayhi l-maṣīru",
-    "translation": "",
+    "translation": "The forgiver of sin, acceptor of repentance, severe in punishment, owner of abundance. There is no deity except Him; to Him is the destination.",
     "words": [
       {
         "id": "ghafir-3-1",
@@ -185,7 +187,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui Pardonne les péchés, accepte le repentir, a dure la punition et détient toutes les largesses. Il n’y a point d’autre divinité que Lui, et c’est vers Lui qu’est le devenir."
   },
   {
     "id": "ghafir-4",
@@ -194,7 +197,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "مَا يُجَـٰدِلُ فِىٓ ءَايَـٰتِ ٱللَّهِ إِلَّا ٱلَّذِينَ كَفَرُوا۟ فَلَا يَغْرُرْكَ تَقَلُّبُهُمْ فِى ٱلْبِلَـٰدِ",
     "textSimple": "ما يجـدل فىٓ ءايـت ٱلله إلا ٱلذين كفروا فلا يغررك تقلبهم فى ٱلبلـد",
     "transliteration": "mā yujādilu fī āyāti l-lahi illā alladhīna kafarū falā yaghrur'ka taqallubuhum fī l-bilādi",
-    "translation": "",
+    "translation": "No one disputes concerning the signs of Allāh except those who disbelieve, so be not deceived by their [uninhibited] movement throughout the land.",
     "words": [
       {
         "id": "ghafir-4-1",
@@ -288,7 +291,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est que les mécréants qui disputent au sujet des Signes d’Allah. Que leurs multiples activités dans le pays ne te leurrent point."
   },
   {
     "id": "ghafir-5",
@@ -297,7 +301,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَٱلْأَحْزَابُ مِنۢ بَعْدِهِمْ ۖ وَهَمَّتْ كُلُّ أُمَّةٍۭ بِرَسُولِهِمْ لِيَأْخُذُوهُ ۖ وَجَـٰدَلُوا۟ بِٱلْبَـٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ فَأَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
     "textSimple": "كذبت قبلهم قوم نوح وٱلأحزاب من بعدهم  وهمت كل أمة برسولهم ليأخذوه  وجـدلوا بٱلبـطل ليدحضوا به ٱلحق فأخذتهم  فكيف كان عقاب",
     "transliteration": "kadhabat qablahum qawmu nūḥin wal-aḥzābu min baʿdihim wahammat kullu ummatin birasūlihim liyakhudhūhu wajādalū bil-bāṭili liyud'ḥiḍū bihi l-ḥaqa fa-akhadhtuhum fakayfa kāna ʿiqābi",
-    "translation": "",
+    "translation": "The people of Noah denied before them and the [disbelieving] factions after them, and every nation intended [a plot] for their messenger to seize him, and they disputed by [using] falsehood to [attempt to] invalidate thereby the truth. So I seized them, and how [terrible] was My penalty.",
     "words": [
       {
         "id": "ghafir-5-1",
@@ -447,7 +451,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avant eux, le peuple de Noé avait crié au mensonge, imité ensuite par les coalisés. Chaque communauté a comploté pour se saisir de son Messager. En disputant, tous mobilisaient de faux arguments pour réfuter la vérité. J’ai alors sévi contre eux, et comme fut (terrible) Mon châtiment !"
   },
   {
     "id": "ghafir-6",
@@ -456,7 +461,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ عَلَى ٱلَّذِينَ كَفَرُوٓا۟ أَنَّهُمْ أَصْحَـٰبُ ٱلنَّارِ",
     "textSimple": "وكذلك حقت كلمت ربك على ٱلذين كفروٓا أنهم أصحـب ٱلنار",
     "transliteration": "wakadhālika ḥaqqat kalimatu rabbika ʿalā alladhīna kafarū annahum aṣḥābu l-nāri",
-    "translation": "",
+    "translation": "And thus has the word [i.e., decree] of your Lord come into effect upon those who disbelieved that they are companions of the Fire.",
     "words": [
       {
         "id": "ghafir-6-1",
@@ -529,7 +534,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que s’est justifié le verdict de ton Seigneur contre ceux qui ont mécru : « Ce sera eux les hôtes du Feu ! »"
   },
   {
     "id": "ghafir-7",
@@ -538,7 +544,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَحْمِلُونَ ٱلْعَرْشَ وَمَنْ حَوْلَهُۥ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيُؤْمِنُونَ بِهِۦ وَيَسْتَغْفِرُونَ لِلَّذِينَ ءَامَنُوا۟ رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍ رَّحْمَةً وَعِلْمًا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ",
     "textSimple": "ٱلذين يحملون ٱلعرش ومن حوله يسبحون بحمد ربهم ويؤمنون به ويستغفرون للذين ءامنوا ربنا وسعت كل شىء رحمة وعلما فٱغفر للذين تابوا وٱتبعوا سبيلك وقهم عذاب ٱلجحيم",
     "transliteration": "alladhīna yaḥmilūna l-ʿarsha waman ḥawlahu yusabbiḥūna biḥamdi rabbihim wayu'minūna bihi wayastaghfirūna lilladhīna āmanū rabbanā wasiʿ'ta kulla shayin raḥmatan waʿil'man fa-igh'fir lilladhīna tābū wa-ittabaʿū sabīlaka waqihim ʿadhāba l-jaḥīmi",
-    "translation": "",
+    "translation": "Those [angels] who carry the Throne and those around it exalt [Allāh] with praise of their Lord and believe in Him and ask forgiveness for those who have believed, [saying], \"Our Lord, You have encompassed all things in mercy and knowledge, so forgive those who have repented and followed Your way and protect them from the punishment of Hellfire.",
     "words": [
       {
         "id": "ghafir-7-1",
@@ -730,7 +736,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui portent le Trône et qui se tiennent tout autour, rendent gloire à leur Seigneur en célébrant Ses louanges. Ils croient en Lui et implorent Son pardon pour ceux qui ont la foi : « Seigneur, Tu embrasses Toute chose par Ta miséricorde et par Ta science. Pardonne donc à ceux qui se sont repentis et ont suivi Ton chemin ! Et veuille les préserver du supplice de la Fournaise."
   },
   {
     "id": "ghafir-8",
@@ -739,7 +746,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "ربنا وأدخلهم جنـت عدن ٱلتى وعدتهم ومن صلح من ءابآئهم وأزوجهم وذريـتهم  إنك أنت ٱلعزيز ٱلحكيم",
     "transliteration": "rabbanā wa-adkhil'hum jannāti ʿadnin allatī waʿadttahum waman ṣalaḥa min ābāihim wa-azwājihim wadhurriyyātihim innaka anta l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Our Lord, and admit them to gardens of perpetual residence which You have promised them and whoever was righteous among their forefathers, their spouses and their offspring. Indeed, it is You who is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "ghafir-8-1",
@@ -854,7 +861,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Fais-les entrer, Seigneur, dans les Jardins d’Éden que Tu leur as promis, accompagnés des vertueux parmi leurs pères, leurs conjoints et leurs descendants. Tu es certes le Tout-Puissant, le Sage."
   },
   {
     "id": "ghafir-9",
@@ -863,7 +871,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "وقهم ٱلسيـٔات  ومن تق ٱلسيـٔات يومئذ فقد رحمته  وذلك هو ٱلفوز ٱلعظيم",
     "transliteration": "waqihimu l-sayiāti waman taqi l-sayiāti yawma-idhin faqad raḥim'tahu wadhālika huwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "And protect them from the evil consequences [of their deeds]. And he whom You protect from evil consequences that Day - You will have given him mercy. And that is the great attainment.\"",
     "words": [
       {
         "id": "ghafir-9-1",
@@ -950,7 +958,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Veuille les préserver (des conséquences) de leurs méfaits, car celui que Tu préserveras ce jour-là des (conséquences) de ses méfaits, Tu l’auras accueilli dans Ta miséricorde. Tel est le succès suprême ! »"
   },
   {
     "id": "ghafir-10",
@@ -959,7 +968,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنَادَوْنَ لَمَقْتُ ٱللَّهِ أَكْبَرُ مِن مَّقْتِكُمْ أَنفُسَكُمْ إِذْ تُدْعَوْنَ إِلَى ٱلْإِيمَـٰنِ فَتَكْفُرُونَ",
     "textSimple": "إن ٱلذين كفروا ينادون لمقت ٱلله أكبر من مقتكم أنفسكم إذ تدعون إلى ٱلإيمـن فتكفرون",
     "transliteration": "inna alladhīna kafarū yunādawna lamaqtu l-lahi akbaru min maqtikum anfusakum idh tud'ʿawna ilā l-īmāni fatakfurūna",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve will be addressed, \"The hatred of Allāh for you was [even] greater than your hatred of yourselves [this Day in Hell] when you were invited to faith, but you disbelieved [i.e., refused].\"",
     "words": [
       {
         "id": "ghafir-10-1",
@@ -1067,7 +1076,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux qui ont mécru il sera lancé : « Le mépris d’Allah (envers vous), lorsque (sur terre) vous étiez appelés à la foi et que vous mécroyiez, est plus grand encore que le mépris que vous avez envers vous-mêmes (aujourd’hui). »"
   },
   {
     "id": "ghafir-11",
@@ -1076,7 +1086,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ رَبَّنَآ أَمَتَّنَا ٱثْنَتَيْنِ وَأَحْيَيْتَنَا ٱثْنَتَيْنِ فَٱعْتَرَفْنَا بِذُنُوبِنَا فَهَلْ إِلَىٰ خُرُوجٍ مِّن سَبِيلٍ",
     "textSimple": "قالوا ربنآ أمتنا ٱثنتين وأحييتنا ٱثنتين فٱعترفنا بذنوبنا فهل إلى خروج من سبيل",
     "transliteration": "qālū rabbanā amattanā ith'natayni wa-aḥyaytanā ith'natayni fa-iʿ'tarafnā bidhunūbinā fahal ilā khurūjin min sabīlin",
-    "translation": "",
+    "translation": "They will say, \"Our Lord, You made us lifeless twice and gave us life twice, and we have confessed our sins. So is there to an exit any way?\"",
     "words": [
       {
         "id": "ghafir-11-1",
@@ -1170,7 +1180,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, répondront-ils, Tu nous as fait mourir deux fois puis revivre deux fois. Nous avouons donc nos péchés. N’y a-t-il pas un moyen pour sortir d’ici ? »"
   },
   {
     "id": "ghafir-12",
@@ -1179,7 +1190,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكُم بِأَنَّهُۥٓ إِذَا دُعِىَ ٱللَّهُ وَحْدَهُۥ كَفَرْتُمْ ۖ وَإِن يُشْرَكْ بِهِۦ تُؤْمِنُوا۟ ۚ فَٱلْحُكْمُ لِلَّهِ ٱلْعَلِىِّ ٱلْكَبِيرِ",
     "textSimple": "ذلكم بأنهٓ إذا دعى ٱلله وحده كفرتم  وإن يشرك به تؤمنوا  فٱلحكم لله ٱلعلى ٱلكبير",
     "transliteration": "dhālikum bi-annahu idhā duʿiya l-lahu waḥdahu kafartum wa-in yush'rak bihi tu'minū fal-ḥuk'mu lillahi l-ʿaliyi l-kabīri",
-    "translation": "",
+    "translation": "[They will be told], \"That is because, when Allāh was called upon alone, you disbelieved; but if others were associated with Him, you believed. So the judgement is with Allāh, the Most High, the Grand.\"",
     "words": [
       {
         "id": "ghafir-12-1",
@@ -1287,7 +1298,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Cela est ainsi, leur sera-t-il répliqué, car quand Allah était Seul invoqué, vous mécroyiez ; et quand des associés lui étaient prêtés, vous croyiez. Le jugement revient alors à Allah, le Très Haut, le Très Grand."
   },
   {
     "id": "ghafir-13",
@@ -1296,7 +1308,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى يُرِيكُمْ ءَايَـٰتِهِۦ وَيُنَزِّلُ لَكُم مِّنَ ٱلسَّمَآءِ رِزْقًا ۚ وَمَا يَتَذَكَّرُ إِلَّا مَن يُنِيبُ",
     "textSimple": "هو ٱلذى يريكم ءايـته وينزل لكم من ٱلسمآء رزقا  وما يتذكر إلا من ينيب",
     "transliteration": "huwa alladhī yurīkum āyātihi wayunazzilu lakum mina l-samāi riz'qan wamā yatadhakkaru illā man yunību",
-    "translation": "",
+    "translation": "It is He who shows you His signs and sends down to you from the sky, provision. But none will remember except he who turns back [in repentance].",
     "words": [
       {
         "id": "ghafir-13-1",
@@ -1397,7 +1409,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous montre Ses Signes et fait descendre pour vous, du ciel, un bienfait. Seul s’en souvient celui qui revient (à Allah), repentant."
   },
   {
     "id": "ghafir-14",
@@ -1406,7 +1419,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱدْعُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ وَلَوْ كَرِهَ ٱلْكَـٰفِرُونَ",
     "textSimple": "فٱدعوا ٱلله مخلصين له ٱلدين ولو كره ٱلكـفرون",
     "transliteration": "fa-id'ʿū l-laha mukh'liṣīna lahu l-dīna walaw kariha l-kāfirūna",
-    "translation": "",
+    "translation": "So invoke Allāh, [being] sincere to Him in religion, although the disbelievers dislike it.",
     "words": [
       {
         "id": "ghafir-14-1",
@@ -1465,7 +1478,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Invoquez donc Allah ! Vouez-Lui un culte sincère, en dépit de l’aversion des mécréants !"
   },
   {
     "id": "ghafir-15",
@@ -1474,7 +1488,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "رَفِيعُ ٱلدَّرَجَـٰتِ ذُو ٱلْعَرْشِ يُلْقِى ٱلرُّوحَ مِنْ أَمْرِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ لِيُنذِرَ يَوْمَ ٱلتَّلَاقِ",
     "textSimple": "رفيع ٱلدرجـت ذو ٱلعرش يلقى ٱلروح من أمره على من يشآء من عباده لينذر يوم ٱلتلاق",
     "transliteration": "rafīʿu l-darajāti dhū l-ʿarshi yul'qī l-rūḥa min amrihi ʿalā man yashāu min ʿibādihi liyundhira yawma l-talāqi",
-    "translation": "",
+    "translation": "[He is] the Exalted above [all] degrees, Owner of the Throne; He places the inspiration of His command [i.e., revelation] upon whom He wills of His servants to warn of the Day of Meeting.",
     "words": [
       {
         "id": "ghafir-15-1",
@@ -1589,7 +1603,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a les Plus Hauts Degrés et possède le Trône, Il envoie l’Esprit, par Son ordre, à qui Il veut parmi Ses serviteurs, afin que (ce dernier) avertisse du Jour de la Rencontre,"
   },
   {
     "id": "ghafir-16",
@@ -1598,7 +1613,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ هُم بَـٰرِزُونَ ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
     "textSimple": "يوم هم بـرزون  لا يخفى على ٱلله منهم شىء  لمن ٱلملك ٱليوم  لله ٱلوحد ٱلقهار",
     "transliteration": "yawma hum bārizūna lā yakhfā ʿalā l-lahi min'hum shayon limani l-mul'ku l-yawma lillahi l-wāḥidi l-qahāri",
-    "translation": "",
+    "translation": "The Day they come forth nothing concerning them will be concealed from Allāh. To whom belongs [all] sovereignty this Day? To Allāh, the One, the Prevailing.",
     "words": [
       {
         "id": "ghafir-16-1",
@@ -1706,7 +1721,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ce Jour où ils apparaîtront à découvert et (où) rien d’eux ne sera caché à Allah. À qui appartient, aujourd’hui, la royauté ? À Allah, l’Un, le Haut Dominateur."
   },
   {
     "id": "ghafir-17",
@@ -1715,7 +1731,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْيَوْمَ تُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ ۚ لَا ظُلْمَ ٱلْيَوْمَ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
     "textSimple": "ٱليوم تجزى كل نفس بما كسبت  لا ظلم ٱليوم  إن ٱلله سريع ٱلحساب",
     "transliteration": "al-yawma tuj'zā kullu nafsin bimā kasabat lā ẓul'ma l-yawma inna l-laha sarīʿu l-ḥisābi",
-    "translation": "",
+    "translation": "This Day every soul will be recompensed for what it earned. No injustice today! Indeed, Allāh is swift in account.",
     "words": [
       {
         "id": "ghafir-17-1",
@@ -1809,7 +1825,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, chaque âme sera récompensée selon ce qu’elle aura acquis. Nulle injustice en ce jour, car Allah est si prompt à dresser les comptes."
   },
   {
     "id": "ghafir-18",
@@ -1818,7 +1835,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنذِرْهُمْ يَوْمَ ٱلْـَٔازِفَةِ إِذِ ٱلْقُلُوبُ لَدَى ٱلْحَنَاجِرِ كَـٰظِمِينَ ۚ مَا لِلظَّـٰلِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
     "textSimple": "وأنذرهم يوم ٱلـٔازفة إذ ٱلقلوب لدى ٱلحناجر كـظمين  ما للظـلمين من حميم ولا شفيع يطاع",
     "transliteration": "wa-andhir'hum yawma l-āzifati idhi l-qulūbu ladā l-ḥanājiri kāẓimīna mā lilẓẓālimīna min ḥamīmin walā shafīʿin yuṭāʿu",
-    "translation": "",
+    "translation": "And warn them, [O Muḥammad], of the Approaching Day, when hearts are at the throats, filled [with distress]. For the wrongdoers there will be no devoted friend and no intercessor [who is] obeyed.",
     "words": [
       {
         "id": "ghafir-18-1",
@@ -1926,7 +1943,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avertis-les du jour tout proche, lorsque les cœurs noueront les gorges d’angoisse. Les injustes n’auront alors ni ami chaleureux ni intercesseur crédible."
   },
   {
     "id": "ghafir-19",
@@ -1935,7 +1953,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُ خَآئِنَةَ ٱلْأَعْيُنِ وَمَا تُخْفِى ٱلصُّدُورُ",
     "textSimple": "يعلم خآئنة ٱلأعين وما تخفى ٱلصدور",
     "transliteration": "yaʿlamu khāinata l-aʿyuni wamā tukh'fī l-ṣudūru",
-    "translation": "",
+    "translation": "He knows that which deceives the eyes and what the breasts conceal.",
     "words": [
       {
         "id": "ghafir-19-1",
@@ -1980,7 +1998,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) Connaît la traîtrise des yeux et ce que cachent les cœurs."
   },
   {
     "id": "ghafir-20",
@@ -1989,7 +2008,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ يَقْضِى بِٱلْحَقِّ ۖ وَٱلَّذِينَ يَدْعُونَ مِن دُونِهِۦ لَا يَقْضُونَ بِشَىْءٍ ۗ إِنَّ ٱللَّهَ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
     "textSimple": "وٱلله يقضى بٱلحق  وٱلذين يدعون من دونه لا يقضون بشىء  إن ٱلله هو ٱلسميع ٱلبصير",
     "transliteration": "wal-lahu yaqḍī bil-ḥaqi wa-alladhīna yadʿūna min dūnihi lā yaqḍūna bishayin inna l-laha huwa l-samīʿu l-baṣīru",
-    "translation": "",
+    "translation": "And Allāh judges with truth, while those they invoke besides Him judge not with anything. Indeed, Allāh - He is the Hearing, the Seeing.",
     "words": [
       {
         "id": "ghafir-20-1",
@@ -2097,7 +2116,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah juge avec équité, cependant que ceux qu’ils invoquent en dehors de Lui, eux, ne sauraient juger quoi que ce soit. Allah, c’est Lui Qui Entend Tout et Voit parfaitement clair."
   },
   {
     "id": "ghafir-21",
@@ -2106,7 +2126,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ كَانُوا۟ مِن قَبْلِهِمْ ۚ كَانُوا۟ هُمْ أَشَدَّ مِنْهُمْ قُوَّةً وَءَاثَارًا فِى ٱلْأَرْضِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ وَمَا كَانَ لَهُم مِّنَ ٱللَّهِ مِن وَاقٍ",
     "textSimple": " أولم يسيروا فى ٱلأرض فينظروا كيف كان عـقبة ٱلذين كانوا من قبلهم  كانوا هم أشد منهم قوة وءاثارا فى ٱلأرض فأخذهم ٱلله بذنوبهم وما كان لهم من ٱلله من واق",
     "transliteration": "awalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna kānū min qablihim kānū hum ashadda min'hum quwwatan waāthāran fī l-arḍi fa-akhadhahumu l-lahu bidhunūbihim wamā kāna lahum mina l-lahi min wāqin",
-    "translation": "",
+    "translation": "Have they not traveled through the land and observed how was the end of those who were before them? They were greater than them in strength and in impression on the land, but Allāh seized them for their sins. And they had not from Allāh any protector.",
     "words": [
       {
         "id": "ghafir-21-1",
@@ -2319,7 +2339,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils pas parcouru la terre pour voir quel fut le sort de ceux qui les ont précédés ? (Ils) étaient bien plus forts qu’eux, et ont laissé sur terre des vestiges bien plus importants. Mais Allah les emporta pour leurs péchés, et ils n’eurent, contre Allah, aucun protecteur."
   },
   {
     "id": "ghafir-22",
@@ -2328,7 +2349,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمْ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَكَفَرُوا۟ فَأَخَذَهُمُ ٱللَّهُ ۚ إِنَّهُۥ قَوِىٌّ شَدِيدُ ٱلْعِقَابِ",
     "textSimple": "ذلك بأنهم كانت تأتيهم رسلهم بٱلبينـت فكفروا فأخذهم ٱلله  إنه قوى شديد ٱلعقاب",
     "transliteration": "dhālika bi-annahum kānat tatīhim rusuluhum bil-bayināti fakafarū fa-akhadhahumu l-lahu innahu qawiyyun shadīdu l-ʿiqābi",
-    "translation": "",
+    "translation": "That was because their messengers were coming to them with clear proofs, but they disbelieved, so Allāh seized them. Indeed, He is Powerful and severe in punishment.",
     "words": [
       {
         "id": "ghafir-22-1",
@@ -2422,7 +2443,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en fut ainsi, parce que leurs Messagers venaient leur apporter les preuves évidentes mais eux y mécroyaient. Allah les emporta donc, Lui Qui est Fort et a dure la punition."
   },
   {
     "id": "ghafir-23",
@@ -2431,7 +2453,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "ولقد أرسلنا موسى بـٔايـتنا وسلطـن مبين",
     "transliteration": "walaqad arsalnā mūsā biāyātinā wasul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "And We did certainly send Moses with Our signs and a clear authority",
     "words": [
       {
         "id": "ghafir-23-1",
@@ -2476,7 +2498,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons envoyé Moïse, muni de Nos Signes et d’un évident argument d’autorité,"
   },
   {
     "id": "ghafir-24",
@@ -2485,7 +2508,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ فِرْعَوْنَ وَهَـٰمَـٰنَ وَقَـٰرُونَ فَقَالُوا۟ سَـٰحِرٌ كَذَّابٌ",
     "textSimple": "إلى فرعون وهـمـن وقـرون فقالوا سـحر كذاب",
     "transliteration": "ilā fir'ʿawna wahāmāna waqārūna faqālū sāḥirun kadhābun",
-    "translation": "",
+    "translation": "To Pharaoh, Hāmān and Qārūn, but they said, \"[He is] a magician and a liar.\"",
     "words": [
       {
         "id": "ghafir-24-1",
@@ -2537,7 +2560,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vers Pharaon, Hâmân et Qârûn (Coré) qui dirent : « C’est un magicien, un menteur ! »"
   },
   {
     "id": "ghafir-25",
@@ -2546,7 +2570,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ وَٱسْتَحْيُوا۟ نِسَآءَهُمْ ۚ وَمَا كَيْدُ ٱلْكَـٰفِرِينَ إِلَّا فِى ضَلَـٰلٍ",
     "textSimple": "فلما جآءهم بٱلحق من عندنا قالوا ٱقتلوٓا أبنآء ٱلذين ءامنوا معه وٱستحيوا نسآءهم  وما كيد ٱلكـفرين إلا فى ضلـل",
     "transliteration": "falammā jāahum bil-ḥaqi min ʿindinā qālū uq'tulū abnāa alladhīna āmanū maʿahu wa-is'taḥyū nisāahum wamā kaydu l-kāfirīna illā fī ḍalālin",
-    "translation": "",
+    "translation": "And when he brought them the truth from Us, they said, \"Kill the sons of those who have believed with him and keep their women alive.\" But the plan of the disbelievers is not except in error.",
     "words": [
       {
         "id": "ghafir-25-1",
@@ -2682,7 +2706,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, quand il leur eut apporté la vérité de Notre part, ils dirent : « Mettez à mort les fils de ceux qui ont cru avec lui, et laissez en vie leurs femmes ! » Mais les intrigues des mécréants ne peuvent être que vaines."
   },
   {
     "id": "ghafir-26",
@@ -2691,7 +2716,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ فِرْعَوْنُ ذَرُونِىٓ أَقْتُلْ مُوسَىٰ وَلْيَدْعُ رَبَّهُۥٓ ۖ إِنِّىٓ أَخَافُ أَن يُبَدِّلَ دِينَكُمْ أَوْ أَن يُظْهِرَ فِى ٱلْأَرْضِ ٱلْفَسَادَ",
     "textSimple": "وقال فرعون ذرونىٓ أقتل موسى وليدع ربهٓ  إنىٓ أخاف أن يبدل دينكم أو أن يظهر فى ٱلأرض ٱلفساد",
     "transliteration": "waqāla fir'ʿawnu dharūnī aqtul mūsā walyadʿu rabbahu innī akhāfu an yubaddila dīnakum aw an yuẓ'hira fī l-arḍi l-fasāda",
-    "translation": "",
+    "translation": "And Pharaoh said, \"Let me kill Moses and let him call upon his Lord. Indeed, I fear that he will change your religion or that he will cause corruption in the land.\"",
     "words": [
       {
         "id": "ghafir-26-1",
@@ -2820,7 +2845,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Laissez-moi tuer Moïse, s’écria Pharaon, et qu’il invoque son Seigneur (pour qu’Il le sauve). Je crains qu’il ne dénature votre religion, ou qu’il ne fasse se manifester la corruption sur terre. »"
   },
   {
     "id": "ghafir-27",
@@ -2829,7 +2855,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ مُوسَىٰٓ إِنِّى عُذْتُ بِرَبِّى وَرَبِّكُم مِّن كُلِّ مُتَكَبِّرٍ لَّا يُؤْمِنُ بِيَوْمِ ٱلْحِسَابِ",
     "textSimple": "وقال موسىٓ إنى عذت بربى وربكم من كل متكبر لا يؤمن بيوم ٱلحساب",
     "transliteration": "waqāla mūsā innī ʿudh'tu birabbī warabbikum min kulli mutakabbirin lā yu'minu biyawmi l-ḥisābi",
-    "translation": "",
+    "translation": "But Moses said, \"Indeed, I have sought refuge in my Lord and your Lord from every arrogant one who does not believe in the Day of Account.\"",
     "words": [
       {
         "id": "ghafir-27-1",
@@ -2923,7 +2949,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit : « Je trouverai refuge auprès de mon Seigneur et du vôtre, contre tout orgueilleux qui refuse de croire au Jour des Comptes. »"
   },
   {
     "id": "ghafir-28",
@@ -2932,7 +2959,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ رَجُلٌ مُّؤْمِنٌ مِّنْ ءَالِ فِرْعَوْنَ يَكْتُمُ إِيمَـٰنَهُۥٓ أَتَقْتُلُونَ رَجُلًا أَن يَقُولَ رَبِّىَ ٱللَّهُ وَقَدْ جَآءَكُم بِٱلْبَيِّنَـٰتِ مِن رَّبِّكُمْ ۖ وَإِن يَكُ كَـٰذِبًا فَعَلَيْهِ كَذِبُهُۥ ۖ وَإِن يَكُ صَادِقًا يُصِبْكُم بَعْضُ ٱلَّذِى يَعِدُكُمْ ۖ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ مُسْرِفٌ كَذَّابٌ",
     "textSimple": "وقال رجل مؤمن من ءال فرعون يكتم إيمـنهٓ أتقتلون رجلا أن يقول ربى ٱلله وقد جآءكم بٱلبينـت من ربكم  وإن يك كـذبا فعليه كذبه  وإن يك صادقا يصبكم بعض ٱلذى يعدكم  إن ٱلله لا يهدى من هو مسرف كذاب",
     "transliteration": "waqāla rajulun mu'minun min āli fir'ʿawna yaktumu īmānahu ataqtulūna rajulan an yaqūla rabbiya l-lahu waqad jāakum bil-bayināti min rabbikum wa-in yaku kādhiban faʿalayhi kadhibuhu wa-in yaku ṣādiqan yuṣib'kum baʿḍu alladhī yaʿidukum inna l-laha lā yahdī man huwa mus'rifun kadhābun",
-    "translation": "",
+    "translation": "And a believing man from the family of Pharaoh who concealed his faith said, \"Do you kill a man [merely] because he says, 'My Lord is Allāh' while he has brought you clear proofs from your Lord? And if he should be lying, then upon him is [the consequence of] his lie; but if he should be truthful, there will strike you some of what he promises you. Indeed, Allāh does not guide one who is a transgressor and a liar.",
     "words": [
       {
         "id": "ghafir-28-1",
@@ -3208,7 +3235,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un homme de la famille de Pharaon, qui était croyant mais taisait sa foi, fit observer alors : « Tueriez-vous un homme qui dit : “Mon Seigneur est Allah” et qui vous apporte, de votre Seigneur, les preuves évidentes ? S’il a menti, ce sera à ses dépens, et s’il a dit vrai, vous atteindra alors un peu de ce qu’il vous promet. » Allah, certes, ne guide point tout transgresseur et menteur."
   },
   {
     "id": "ghafir-29",
@@ -3217,7 +3245,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰقَوْمِ لَكُمُ ٱلْمُلْكُ ٱلْيَوْمَ ظَـٰهِرِينَ فِى ٱلْأَرْضِ فَمَن يَنصُرُنَا مِنۢ بَأْسِ ٱللَّهِ إِن جَآءَنَا ۚ قَالَ فِرْعَوْنُ مَآ أُرِيكُمْ إِلَّا مَآ أَرَىٰ وَمَآ أَهْدِيكُمْ إِلَّا سَبِيلَ ٱلرَّشَادِ",
     "textSimple": "يـقوم لكم ٱلملك ٱليوم ظـهرين فى ٱلأرض فمن ينصرنا من بأس ٱلله إن جآءنا  قال فرعون مآ أريكم إلا مآ أرى ومآ أهديكم إلا سبيل ٱلرشاد",
     "transliteration": "yāqawmi lakumu l-mul'ku l-yawma ẓāhirīna fī l-arḍi faman yanṣurunā min basi l-lahi in jāanā qāla fir'ʿawnu mā urīkum illā mā arā wamā ahdīkum illā sabīla l-rashādi",
-    "translation": "",
+    "translation": "O my people, sovereignty is yours today, [your being] dominant in the land. But who would protect us from the punishment of Allāh if it came to us?\" Pharaoh said, \"I do not show you except what I see, and I do not guide you except to the way of right conduct.\"",
     "words": [
       {
         "id": "ghafir-29-1",
@@ -3402,7 +3430,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô peuple mien, (poursuivit le croyant discret), la royauté est vôtre aujourd’hui et vous dominez la terre. Mais qui nous secourra de la rigueur d’Allah si elle fond sur nous ? » Pharaon dit alors : « Je ne vous fais voir que ce que je vois moi-même, et je ne vous indique que le chemin de la droiture. »"
   },
   {
     "id": "ghafir-30",
@@ -3411,7 +3440,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِىٓ ءَامَنَ يَـٰقَوْمِ إِنِّىٓ أَخَافُ عَلَيْكُم مِّثْلَ يَوْمِ ٱلْأَحْزَابِ",
     "textSimple": "وقال ٱلذىٓ ءامن يـقوم إنىٓ أخاف عليكم مثل يوم ٱلأحزاب",
     "transliteration": "waqāla alladhī āmana yāqawmi innī akhāfu ʿalaykum mith'la yawmi l-aḥzābi",
-    "translation": "",
+    "translation": "And he who believed said, \"O my people, indeed I fear for you [a fate] like the day of the companies -",
     "words": [
       {
         "id": "ghafir-30-1",
@@ -3484,7 +3513,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le croyant reprit : « Ô peuple mien, je crains pour vous un jour pareil à celui des coalisés."
   },
   {
     "id": "ghafir-31",
@@ -3493,7 +3523,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "مِثْلَ دَأْبِ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ ۚ وَمَا ٱللَّهُ يُرِيدُ ظُلْمًا لِّلْعِبَادِ",
     "textSimple": "مثل دأب قوم نوح وعاد وثمود وٱلذين من بعدهم  وما ٱلله يريد ظلما للعباد",
     "transliteration": "mith'la dabi qawmi nūḥin waʿādin wathamūda wa-alladhīna min baʿdihim wamā l-lahu yurīdu ẓul'man lil'ʿibādi",
-    "translation": "",
+    "translation": "Like the custom of the people of Noah and of ʿAad and Thamūd and those after them. And Allāh wants no injustice for [His] servants.",
     "words": [
       {
         "id": "ghafir-31-1",
@@ -3594,7 +3624,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Je crains pour vous) le même sort que celui du peuple de Noé, des ‘Ad, des Thamûd et de ceux qui vinrent après eux. Allah ne veut d’aucune injustice envers les serviteurs."
   },
   {
     "id": "ghafir-32",
@@ -3603,7 +3634,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ إِنِّىٓ أَخَافُ عَلَيْكُمْ يَوْمَ ٱلتَّنَادِ",
     "textSimple": "ويـقوم إنىٓ أخاف عليكم يوم ٱلتناد",
     "transliteration": "wayāqawmi innī akhāfu ʿalaykum yawma l-tanādi",
-    "translation": "",
+    "translation": "And O my people, indeed I fear for you the Day of Calling -",
     "words": [
       {
         "id": "ghafir-32-1",
@@ -3648,7 +3679,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien, je crains pour vous le jour de l’Appel Réciproque,"
   },
   {
     "id": "ghafir-33",
@@ -3657,7 +3689,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تُوَلُّونَ مُدْبِرِينَ مَا لَكُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
     "textSimple": "يوم تولون مدبرين ما لكم من ٱلله من عاصم  ومن يضلل ٱلله فما له من هاد",
     "transliteration": "yawma tuwallūna mud'birīna mā lakum mina l-lahi min ʿāṣimin waman yuḍ'lili l-lahu famā lahu min hādin",
-    "translation": "",
+    "translation": "The Day you will turn your backs fleeing; there is not for you from Allāh any protector. And whoever Allāh sends astray - there is not for him any guide.",
     "words": [
       {
         "id": "ghafir-33-1",
@@ -3772,7 +3804,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ce jour où vous reviendrez sur vos pas (et voudrez fuir). Vous n’aurez alors nul protecteur contre Allah ! » Celui qu’Allah égare n’a point de guide."
   },
   {
     "id": "ghafir-34",
@@ -3781,7 +3814,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جَآءَكُمْ يُوسُفُ مِن قَبْلُ بِٱلْبَيِّنَـٰتِ فَمَا زِلْتُمْ فِى شَكٍّ مِّمَّا جَآءَكُم بِهِۦ ۖ حَتَّىٰٓ إِذَا هَلَكَ قُلْتُمْ لَن يَبْعَثَ ٱللَّهُ مِنۢ بَعْدِهِۦ رَسُولًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَنْ هُوَ مُسْرِفٌ مُّرْتَابٌ",
     "textSimple": "ولقد جآءكم يوسف من قبل بٱلبينـت فما زلتم فى شك مما جآءكم به  حتىٓ إذا هلك قلتم لن يبعث ٱلله من بعده رسولا  كذلك يضل ٱلله من هو مسرف مرتاب",
     "transliteration": "walaqad jāakum yūsufu min qablu bil-bayināti famā zil'tum fī shakkin mimmā jāakum bihi ḥattā idhā halaka qul'tum lan yabʿatha l-lahu min baʿdihi rasūlan kadhālika yuḍillu l-lahu man huwa mus'rifun mur'tābun",
-    "translation": "",
+    "translation": "And Joseph had already come to you before with clear proofs, but you remained in doubt of that which he brought to you, until when he died, you said, 'Never will Allāh send a messenger after him.' Thus does Allāh leave astray he who is a transgressor and skeptic.\"",
     "words": [
       {
         "id": "ghafir-34-1",
@@ -3994,7 +4027,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Joseph était venu autrefois vous apporter les preuves évidentes, mais vous les avez mises en doute. Puis, à sa mort, vous dîtes : « Allah n’enverra plus aucun Messager après lui. » C’est ainsi qu’Allah égare tout transgresseur enclin au doute."
   },
   {
     "id": "ghafir-35",
@@ -4003,7 +4037,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُجَـٰدِلُونَ فِىٓ ءَايَـٰتِ ٱللَّهِ بِغَيْرِ سُلْطَـٰنٍ أَتَىٰهُمْ ۖ كَبُرَ مَقْتًا عِندَ ٱللَّهِ وَعِندَ ٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ يَطْبَعُ ٱللَّهُ عَلَىٰ كُلِّ قَلْبِ مُتَكَبِّرٍ جَبَّارٍ",
     "textSimple": "ٱلذين يجـدلون فىٓ ءايـت ٱلله بغير سلطـن أتىهم  كبر مقتا عند ٱلله وعند ٱلذين ءامنوا  كذلك يطبع ٱلله على كل قلب متكبر جبار",
     "transliteration": "alladhīna yujādilūna fī āyāti l-lahi bighayri sul'ṭānin atāhum kabura maqtan ʿinda l-lahi waʿinda alladhīna āmanū kadhālika yaṭbaʿu l-lahu ʿalā kulli qalbi mutakabbirin jabbārin",
-    "translation": "",
+    "translation": "Those who dispute concerning the signs of Allāh without an authority having come to them - great is hatred [of them] in the sight of Allāh and in the sight of those who have believed. Thus does Allāh seal over every heart [belonging to] an arrogant tyrant.",
     "words": [
       {
         "id": "ghafir-35-1",
@@ -4167,7 +4201,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, sans qu’il ne leur soit parvenu aucun argument d’autorité, disputent au sujet des Signes d’Allah, sont exécrés d’Allah et des croyants. C’est ainsi qu’Allah imprime un sceau sur le cœur de tout despote plein d’orgueil."
   },
   {
     "id": "ghafir-36",
@@ -4176,7 +4211,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ فِرْعَوْنُ يَـٰهَـٰمَـٰنُ ٱبْنِ لِى صَرْحًا لَّعَلِّىٓ أَبْلُغُ ٱلْأَسْبَـٰبَ",
     "textSimple": "وقال فرعون يـهـمـن ٱبن لى صرحا لعلىٓ أبلغ ٱلأسبـب",
     "transliteration": "waqāla fir'ʿawnu yāhāmānu ib'ni lī ṣarḥan laʿallī ablughu l-asbāba",
-    "translation": "",
+    "translation": "And Pharaoh said, \"O Hāmān, construct for me a tower that I might reach the ways -",
     "words": [
       {
         "id": "ghafir-36-1",
@@ -4242,7 +4277,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Hâmân, dit Pharaon, fais construire pour moi une tour, peut-être parviendrai-je jusqu’aux voies,"
   },
   {
     "id": "ghafir-37",
@@ -4251,7 +4287,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "أَسْبَـٰبَ ٱلسَّمَـٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَـٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَـٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
     "textSimple": "أسبـب ٱلسمـوت فأطلع إلىٓ إلـه موسى وإنى لأظنه كـذبا  وكذلك زين لفرعون سوٓء عمله وصد عن ٱلسبيل  وما كيد فرعون إلا فى تباب",
     "transliteration": "asbāba l-samāwāti fa-aṭṭaliʿa ilā ilāhi mūsā wa-innī la-aẓunnuhu kādhiban wakadhālika zuyyina lifir'ʿawna sūu ʿamalihi waṣudda ʿani l-sabīli wamā kaydu fir'ʿawna illā fī tabābin",
-    "translation": "",
+    "translation": "The ways into the heavens - so that I may look at the deity of Moses; but indeed, I think he is a liar.\" And thus was made attractive to Pharaoh the evil of his deed, and he was averted from the [right] way. And the plan of Pharaoh was not except in ruin.",
     "words": [
       {
         "id": "ghafir-37-1",
@@ -4415,7 +4451,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "voies des cieux ou peut-être pourrai-je monter jusqu’au Dieu de Moïse, mais je crois qu’il ne fait que mentir. » C’est ainsi que ses mauvaises actions furent embellies aux yeux de Pharaon, et il fut repoussé du (droit) chemin. Or les intrigues de Pharaon ne pouvaient qu’échouer."
   },
   {
     "id": "ghafir-38",
@@ -4424,7 +4461,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِىٓ ءَامَنَ يَـٰقَوْمِ ٱتَّبِعُونِ أَهْدِكُمْ سَبِيلَ ٱلرَّشَادِ",
     "textSimple": "وقال ٱلذىٓ ءامن يـقوم ٱتبعون أهدكم سبيل ٱلرشاد",
     "transliteration": "waqāla alladhī āmana yāqawmi ittabiʿūni ahdikum sabīla l-rashādi",
-    "translation": "",
+    "translation": "And he who believed said, \"O my people, follow me; I will guide you to the way of right conduct.",
     "words": [
       {
         "id": "ghafir-38-1",
@@ -4483,7 +4520,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le croyant ajouta encore : « Ô peuple mien, suivez-moi et je vous conduirai vers le chemin de la droiture."
   },
   {
     "id": "ghafir-39",
@@ -4492,7 +4530,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰقَوْمِ إِنَّمَا هَـٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَا مَتَـٰعٌ وَإِنَّ ٱلْـَٔاخِرَةَ هِىَ دَارُ ٱلْقَرَارِ",
     "textSimple": "يـقوم إنما هـذه ٱلحيوة ٱلدنيا متـع وإن ٱلـٔاخرة هى دار ٱلقرار",
     "transliteration": "yāqawmi innamā hādhihi l-ḥayatu l-dun'yā matāʿun wa-inna l-ākhirata hiya dāru l-qarāri",
-    "translation": "",
+    "translation": "O my people, this worldly life is only [temporary] enjoyment, and indeed, the Hereafter - that is the home of [permanent] settlement.",
     "words": [
       {
         "id": "ghafir-39-1",
@@ -4572,7 +4610,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien, la vie en ce bas monde n’est que jouissance passagère. Mais l’autre monde est, lui, la demeure permanente."
   },
   {
     "id": "ghafir-40",
@@ -4581,7 +4620,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "مَنْ عَمِلَ سَيِّئَةً فَلَا يُجْزَىٰٓ إِلَّا مِثْلَهَا ۖ وَمَنْ عَمِلَ صَـٰلِحًا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَأُو۟لَـٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ يُرْزَقُونَ فِيهَا بِغَيْرِ حِسَابٍ",
     "textSimple": "من عمل سيئة فلا يجزىٓ إلا مثلها  ومن عمل صـلحا من ذكر أو أنثى وهو مؤمن فأولـٓئك يدخلون ٱلجنة يرزقون فيها بغير حساب",
     "transliteration": "man ʿamila sayyi-atan falā yuj'zā illā mith'lahā waman ʿamila ṣāliḥan min dhakarin aw unthā wahuwa mu'minun fa-ulāika yadkhulūna l-janata yur'zaqūna fīhā bighayri ḥisābin",
-    "translation": "",
+    "translation": "Whoever does an evil deed will not be recompensed except by the like thereof; but whoever does righteousness, whether male or female, while he is a believer - those will enter Paradise, being given provision therein without account.",
     "words": [
       {
         "id": "ghafir-40-1",
@@ -4745,7 +4784,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui aura commis une mauvaise action ne sera rétribué que par ce qui lui est équivalent ; et celui qui, homme ou femme, aura accompli une bonne œuvre en ayant la foi, ceux-là entreront au Paradis, où tous les dons leur seront dispensés sans que rien leur en soit compté."
   },
   {
     "id": "ghafir-41",
@@ -4754,7 +4794,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَيَـٰقَوْمِ مَا لِىٓ أَدْعُوكُمْ إِلَى ٱلنَّجَوٰةِ وَتَدْعُونَنِىٓ إِلَى ٱلنَّارِ",
     "textSimple": " ويـقوم ما لىٓ أدعوكم إلى ٱلنجوة وتدعوننىٓ إلى ٱلنار",
     "transliteration": "wayāqawmi mā lī adʿūkum ilā l-najati watadʿūnanī ilā l-nāri",
-    "translation": "",
+    "translation": "And O my people, how is it that I invite you to salvation while you invite me to the Fire?",
     "words": [
       {
         "id": "ghafir-41-1",
@@ -4820,7 +4860,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien, pourquoi dois-je vous convier à la voie du salut quand vous m’appelez au Feu ?"
   },
   {
     "id": "ghafir-42",
@@ -4829,7 +4870,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "تَدْعُونَنِى لِأَكْفُرَ بِٱللَّهِ وَأُشْرِكَ بِهِۦ مَا لَيْسَ لِى بِهِۦ عِلْمٌ وَأَنَا۠ أَدْعُوكُمْ إِلَى ٱلْعَزِيزِ ٱلْغَفَّـٰرِ",
     "textSimple": "تدعوننى لأكفر بٱلله وأشرك به ما ليس لى به علم وأنا أدعوكم إلى ٱلعزيز ٱلغفـر",
     "transliteration": "tadʿūnanī li-akfura bil-lahi wa-ush'rika bihi mā laysa lī bihi ʿil'mun wa-anā adʿūkum ilā l-ʿazīzi l-ghafāri",
-    "translation": "",
+    "translation": "You invite me to disbelieve in Allāh and associate with Him that of which I have no knowledge, and I invite you to the Exalted in Might, the Perpetual Forgiver.",
     "words": [
       {
         "id": "ghafir-42-1",
@@ -4937,7 +4978,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous m’incitez à mécroire en Allah, à Lui prêter des associés dont je n’ai aucune science, quand moi je vous appelle au Tout-Puissant, au Très Absoluteur !"
   },
   {
     "id": "ghafir-43",
@@ -4946,7 +4988,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "لَا جَرَمَ أَنَّمَا تَدْعُونَنِىٓ إِلَيْهِ لَيْسَ لَهُۥ دَعْوَةٌ فِى ٱلدُّنْيَا وَلَا فِى ٱلْـَٔاخِرَةِ وَأَنَّ مَرَدَّنَآ إِلَى ٱللَّهِ وَأَنَّ ٱلْمُسْرِفِينَ هُمْ أَصْحَـٰبُ ٱلنَّارِ",
     "textSimple": "لا جرم أنما تدعوننىٓ إليه ليس له دعوة فى ٱلدنيا ولا فى ٱلـٔاخرة وأن مردنآ إلى ٱلله وأن ٱلمسرفين هم أصحـب ٱلنار",
     "transliteration": "lā jarama annamā tadʿūnanī ilayhi laysa lahu daʿwatun fī l-dun'yā walā fī l-ākhirati wa-anna maraddanā ilā l-lahi wa-anna l-mus'rifīna hum aṣḥābu l-nāri",
-    "translation": "",
+    "translation": "Assuredly, that to which you invite me has no [response to a] supplication in this world or in the Hereafter; and indeed, our return is to Allāh, and indeed, the transgressors will be companions of the Fire.",
     "words": [
       {
         "id": "ghafir-43-1",
@@ -5103,7 +5145,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nul doute que ce à quoi vous m’invitez ne répondra à aucun appel, ni en ce bas monde ni dans l’autre, que c’est vers Allah que sera notre retour et que les (hommes) livrés aux excès sont eux les hôtes de l’Enfer."
   },
   {
     "id": "ghafir-44",
@@ -5112,7 +5155,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَسَتَذْكُرُونَ مَآ أَقُولُ لَكُمْ ۚ وَأُفَوِّضُ أَمْرِىٓ إِلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ",
     "textSimple": "فستذكرون مآ أقول لكم  وأفوض أمرىٓ إلى ٱلله  إن ٱلله بصير بٱلعباد",
     "transliteration": "fasatadhkurūna mā aqūlu lakum wa-ufawwiḍu amrī ilā l-lahi inna l-laha baṣīrun bil-ʿibādi",
-    "translation": "",
+    "translation": "And you will remember what I [now] say to you, and I entrust my affair to Allāh. Indeed, Allāh is Seeing of [His] servants.\"",
     "words": [
       {
         "id": "ghafir-44-1",
@@ -5199,7 +5242,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous vous souviendrez (un jour) de ce que je vous dis, et je m’en remets à Allah. Allah est Lucide au sujet de Ses serviteurs. »"
   },
   {
     "id": "ghafir-45",
@@ -5208,7 +5252,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَوَقَىٰهُ ٱللَّهُ سَيِّـَٔاتِ مَا مَكَرُوا۟ ۖ وَحَاقَ بِـَٔالِ فِرْعَوْنَ سُوٓءُ ٱلْعَذَابِ",
     "textSimple": "فوقىه ٱلله سيـٔات ما مكروا  وحاق بـٔال فرعون سوٓء ٱلعذاب",
     "transliteration": "fawaqāhu l-lahu sayyiāti mā makarū waḥāqa biāli fir'ʿawna sūu l-ʿadhābi",
-    "translation": "",
+    "translation": "So Allāh protected him from the evils they plotted, and the people of Pharaoh were enveloped by the worst of punishment -",
     "words": [
       {
         "id": "ghafir-45-1",
@@ -5281,7 +5325,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah le protégea donc du mal de leurs intrigues, et le plus dur des supplices cerna de toutes parts le peuple de Pharaon."
   },
   {
     "id": "ghafir-46",
@@ -5290,7 +5335,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلنَّارُ يُعْرَضُونَ عَلَيْهَا غُدُوًّا وَعَشِيًّا ۖ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ أَدْخِلُوٓا۟ ءَالَ فِرْعَوْنَ أَشَدَّ ٱلْعَذَابِ",
     "textSimple": "ٱلنار يعرضون عليها غدوا وعشيا  ويوم تقوم ٱلساعة أدخلوٓا ءال فرعون أشد ٱلعذاب",
     "transliteration": "al-nāru yuʿ'raḍūna ʿalayhā ghuduwwan waʿashiyyan wayawma taqūmu l-sāʿatu adkhilū āla fir'ʿawna ashadda l-ʿadhābi",
-    "translation": "",
+    "translation": "The Fire; they are exposed to it morning and evening. And the Day the Hour appears [it will be said], \"Make the people of Pharaoh enter the severest punishment.\"",
     "words": [
       {
         "id": "ghafir-46-1",
@@ -5384,7 +5429,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(C’est) au Feu qu’ils seront exposés, matin et soir, et le Jour où viendra l’Heure, (il sera dit) : « Conduisez Pharaon et sa suite vers le pire des supplices. »"
   },
   {
     "id": "ghafir-47",
@@ -5393,7 +5439,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ يَتَحَآجُّونَ فِى ٱلنَّارِ فَيَقُولُ ٱلضُّعَفَـٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا نَصِيبًا مِّنَ ٱلنَّارِ",
     "textSimple": "وإذ يتحآجون فى ٱلنار فيقول ٱلضعفـٓؤا للذين ٱستكبروٓا إنا كنا لكم تبعا فهل أنتم مغنون عنا نصيبا من ٱلنار",
     "transliteration": "wa-idh yataḥājjūna fī l-nāri fayaqūlu l-ḍuʿafāu lilladhīna is'takbarū innā kunnā lakum tabaʿan fahal antum mugh'nūna ʿannā naṣīban mina l-nāri",
-    "translation": "",
+    "translation": "And [mention] when they will argue within the Fire, and the weak will say to those who had been arrogant, \"Indeed, we were [only] your followers, so will you relieve us of a share of the Fire?\"",
     "words": [
       {
         "id": "ghafir-47-1",
@@ -5529,7 +5575,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils se disputeront au sein même du Feu, les plus faibles diront à ceux qui étaient arrogants : « Nous vous suivions pourtant ! Ne pourriez-vous nous épargner une part de cet Enfer ? »"
   },
   {
     "id": "ghafir-48",
@@ -5538,7 +5585,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُلٌّ فِيهَآ إِنَّ ٱللَّهَ قَدْ حَكَمَ بَيْنَ ٱلْعِبَادِ",
     "textSimple": "قال ٱلذين ٱستكبروٓا إنا كل فيهآ إن ٱلله قد حكم بين ٱلعباد",
     "transliteration": "qāla alladhīna is'takbarū innā kullun fīhā inna l-laha qad ḥakama bayna l-ʿibādi",
-    "translation": "",
+    "translation": "Those who had been arrogant will say, \"Indeed, all [of us] are in it. Indeed, Allāh has judged between the servants.\"",
     "words": [
       {
         "id": "ghafir-48-1",
@@ -5625,7 +5672,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui étaient arrogants leur diront alors : « Et voilà que nous y sommes tous. Allah a déjà jugé entre Ses serviteurs. »"
   },
   {
     "id": "ghafir-49",
@@ -5634,7 +5682,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ فِى ٱلنَّارِ لِخَزَنَةِ جَهَنَّمَ ٱدْعُوا۟ رَبَّكُمْ يُخَفِّفْ عَنَّا يَوْمًا مِّنَ ٱلْعَذَابِ",
     "textSimple": "وقال ٱلذين فى ٱلنار لخزنة جهنم ٱدعوا ربكم يخفف عنا يوما من ٱلعذاب",
     "transliteration": "waqāla alladhīna fī l-nāri likhazanati jahannama id'ʿū rabbakum yukhaffif ʿannā yawman mina l-ʿadhābi",
-    "translation": "",
+    "translation": "And those in the Fire will say to the keepers of Hell, \"Supplicate your Lord to lighten for us a day from the punishment.\"",
     "words": [
       {
         "id": "ghafir-49-1",
@@ -5728,7 +5776,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux gardiens de la Géhenne, les hôtes du Feu demanderont : « Priez votre Seigneur pour qu’Il allège pour nous, ne serait-ce que d’un jour, (le terrible) supplice (qui est le nôtre) ! »"
   },
   {
     "id": "ghafir-50",
@@ -5737,7 +5786,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَوَلَمْ تَكُ تَأْتِيكُمْ رُسُلُكُم بِٱلْبَيِّنَـٰتِ ۖ قَالُوا۟ بَلَىٰ ۚ قَالُوا۟ فَٱدْعُوا۟ ۗ وَمَا دُعَـٰٓؤُا۟ ٱلْكَـٰفِرِينَ إِلَّا فِى ضَلَـٰلٍ",
     "textSimple": "قالوٓا أولم تك تأتيكم رسلكم بٱلبينـت  قالوا بلى  قالوا فٱدعوا  وما دعـٓؤا ٱلكـفرين إلا فى ضلـل",
     "transliteration": "qālū awalam taku tatīkum rusulukum bil-bayināti qālū balā qālū fa-id'ʿū wamā duʿāu l-kāfirīna illā fī ḍalālin",
-    "translation": "",
+    "translation": "They will say, \"Did there not come to you your messengers with clear proofs?\" They will say, \"Yes.\" They will reply, \"Then supplicate [yourselves], but the supplication of the disbelievers is not except in error [i.e., futility].\"",
     "words": [
       {
         "id": "ghafir-50-1",
@@ -5852,7 +5901,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les gardiens) demanderont : « Vos Messagers ne venaient-ils pas vous apporter les preuves évidentes ? » « Si, répondront-ils. » « Priez donc, reprendront (les gardiens). » Mais les prières des mécréants ne vont qu’en pure perte."
   },
   {
     "id": "ghafir-51",
@@ -5861,7 +5911,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا لَنَنصُرُ رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَيَوْمَ يَقُومُ ٱلْأَشْهَـٰدُ",
     "textSimple": "إنا لننصر رسلنا وٱلذين ءامنوا فى ٱلحيوة ٱلدنيا ويوم يقوم ٱلأشهـد",
     "transliteration": "innā lananṣuru rusulanā wa-alladhīna āmanū fī l-ḥayati l-dun'yā wayawma yaqūmu l-ashhādu",
-    "translation": "",
+    "translation": "Indeed, We will support Our messengers and those who believe during the life of this world and on the Day when the witnesses will stand -",
     "words": [
       {
         "id": "ghafir-51-1",
@@ -5941,7 +5991,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ferons triompher Nos Messagers et ceux qui ont cru, aussi bien dans ce bas monde qu’au jour où se lèveront les témoins,"
   },
   {
     "id": "ghafir-52",
@@ -5950,7 +6001,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ لَا يَنفَعُ ٱلظَّـٰلِمِينَ مَعْذِرَتُهُمْ ۖ وَلَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
     "textSimple": "يوم لا ينفع ٱلظـلمين معذرتهم  ولهم ٱللعنة ولهم سوٓء ٱلدار",
     "transliteration": "yawma lā yanfaʿu l-ẓālimīna maʿdhiratuhum walahumu l-laʿnatu walahum sūu l-dāri",
-    "translation": "",
+    "translation": "The Day their excuse will not benefit the wrongdoers, and they will have the curse, and they will have the worst home [i.e., Hell].",
     "words": [
       {
         "id": "ghafir-52-1",
@@ -6023,7 +6074,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "au jour où plus aucune de leurs excuses ne servira aux injustes, qui auront (pour partage) la malédiction et la pire des demeures."
   },
   {
     "id": "ghafir-53",
@@ -6032,7 +6084,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْهُدَىٰ وَأَوْرَثْنَا بَنِىٓ إِسْرَٰٓءِيلَ ٱلْكِتَـٰبَ",
     "textSimple": "ولقد ءاتينا موسى ٱلهدى وأورثنا بنىٓ إسرٓءيل ٱلكتـب",
     "transliteration": "walaqad ātaynā mūsā l-hudā wa-awrathnā banī is'rāīla l-kitāba",
-    "translation": "",
+    "translation": "And We had certainly given Moses guidance, and We caused the Children of Israel to inherit the Scripture",
     "words": [
       {
         "id": "ghafir-53-1",
@@ -6091,7 +6143,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donné à Moïse la bonne direction (hudâ) et Nous fîmes hériter du Livre les Enfants d’Israël."
   },
   {
     "id": "ghafir-54",
@@ -6100,7 +6153,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "هُدًى وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَـٰبِ",
     "textSimple": "هدى وذكرى لأولى ٱلألبـب",
     "transliteration": "hudan wadhik'rā li-ulī l-albābi",
-    "translation": "",
+    "translation": "As guidance and a reminder for those of understanding.",
     "words": [
       {
         "id": "ghafir-54-1",
@@ -6131,7 +6184,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Juste direction (hudâ) et rappel pour les esprits sagaces."
   },
   {
     "id": "ghafir-55",
@@ -6140,7 +6194,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِٱلْعَشِىِّ وَٱلْإِبْكَـٰرِ",
     "textSimple": "فٱصبر إن وعد ٱلله حق وٱستغفر لذنبك وسبح بحمد ربك بٱلعشى وٱلإبكـر",
     "transliteration": "fa-iṣ'bir inna waʿda l-lahi ḥaqqun wa-is'taghfir lidhanbika wasabbiḥ biḥamdi rabbika bil-ʿashiyi wal-ib'kāri",
-    "translation": "",
+    "translation": "So be patient, [O Muḥammad]. Indeed, the promise of Allāh is truth. And ask forgiveness for your sin and exalt [Allāh] with praise of your Lord in the evening and the morning.",
     "words": [
       {
         "id": "ghafir-55-1",
@@ -6227,7 +6281,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends donc patience, car la promesse d’Allah est pure vérité. Et implore le pardon pour tes péchés ! Rends gloire à ton Seigneur en célébrant Ses louanges au soir et au point du jour !"
   },
   {
     "id": "ghafir-56",
@@ -6236,7 +6291,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يُجَـٰدِلُونَ فِىٓ ءَايَـٰتِ ٱللَّهِ بِغَيْرِ سُلْطَـٰنٍ أَتَىٰهُمْ ۙ إِن فِى صُدُورِهِمْ إِلَّا كِبْرٌ مَّا هُم بِبَـٰلِغِيهِ ۚ فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
     "textSimple": "إن ٱلذين يجـدلون فىٓ ءايـت ٱلله بغير سلطـن أتىهم  إن فى صدورهم إلا كبر ما هم ببـلغيه  فٱستعذ بٱلله  إنه هو ٱلسميع ٱلبصير",
     "transliteration": "inna alladhīna yujādilūna fī āyāti l-lahi bighayri sul'ṭānin atāhum in fī ṣudūrihim illā kib'run mā hum bibālighīhi fa-is'taʿidh bil-lahi innahu huwa l-samīʿu l-baṣīru",
-    "translation": "",
+    "translation": "Indeed, those who dispute concerning the signs of Allāh without [any] evidence having come to them - there is not within their breasts except pride, [the extent of] which they cannot reach. So seek refuge in Allāh. Indeed, it is He who is the Hearing, the Seeing.",
     "words": [
       {
         "id": "ghafir-56-1",
@@ -6400,7 +6455,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui disputent au sujet des Signes d’Allah, sans qu’il ne leur soit parvenu un argument d’autorité, n’ont dans leurs cœurs que vaine démesure. Cherche donc refuge auprès d’Allah, car Il Entend Tout et Voit parfaitement clair."
   },
   {
     "id": "ghafir-57",
@@ -6409,7 +6465,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "لَخَلْقُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَكْبَرُ مِنْ خَلْقِ ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "لخلق ٱلسمـوت وٱلأرض أكبر من خلق ٱلناس ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "lakhalqu l-samāwāti wal-arḍi akbaru min khalqi l-nāsi walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "The creation of the heavens and earth is greater than the creation of mankind, but most of the people do not know.",
     "words": [
       {
         "id": "ghafir-57-1",
@@ -6496,7 +6552,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La création des cieux et de la terre est certes plus grande que la création des hommes. Mais, pour la plupart, les hommes n’en savent rien."
   },
   {
     "id": "ghafir-58",
@@ -6505,7 +6562,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَلَا ٱلْمُسِىٓءُ ۚ قَلِيلًا مَّا تَتَذَكَّرُونَ",
     "textSimple": "وما يستوى ٱلأعمى وٱلبصير وٱلذين ءامنوا وعملوا ٱلصـلحـت ولا ٱلمسىٓء  قليلا ما تتذكرون",
     "transliteration": "wamā yastawī l-aʿmā wal-baṣīru wa-alladhīna āmanū waʿamilū l-ṣāliḥāti walā l-musīu qalīlan mā tatadhakkarūna",
-    "translation": "",
+    "translation": "And not equal are the blind and the seeing, nor are those who believe and do righteous deeds and the evildoer. Little do you remember.",
     "words": [
       {
         "id": "ghafir-58-1",
@@ -6599,7 +6656,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’aveugle et le voyant ne sauraient être égaux ; ni (ne sauraient être égaux) ceux qui ont cru et accompli les bonnes oeuvres et ceux qui ont commis le mal. Cependant, vous n’y réfléchissez que bien peu."
   },
   {
     "id": "ghafir-59",
@@ -6608,7 +6666,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلسَّاعَةَ لَـَٔاتِيَةٌ لَّا رَيْبَ فِيهَا وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
     "textSimple": "إن ٱلساعة لـٔاتية لا ريب فيها ولـكن أكثر ٱلناس لا يؤمنون",
     "transliteration": "inna l-sāʿata laātiyatun lā rayba fīhā walākinna akthara l-nāsi lā yu'minūna",
-    "translation": "",
+    "translation": "Indeed, the Hour is coming - no doubt about it - but most of the people do not believe.",
     "words": [
       {
         "id": "ghafir-59-1",
@@ -6688,7 +6746,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’Heure arrivera (il ne peut y avoir) nul doute à son propos. Mais la plupart des hommes n’y croient pas."
   },
   {
     "id": "ghafir-60",
@@ -6697,7 +6756,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ رَبُّكُمُ ٱدْعُونِىٓ أَسْتَجِبْ لَكُمْ ۚ إِنَّ ٱلَّذِينَ يَسْتَكْبِرُونَ عَنْ عِبَادَتِى سَيَدْخُلُونَ جَهَنَّمَ دَاخِرِينَ",
     "textSimple": "وقال ربكم ٱدعونىٓ أستجب لكم  إن ٱلذين يستكبرون عن عبادتى سيدخلون جهنم داخرين",
     "transliteration": "waqāla rabbukumu id'ʿūnī astajib lakum inna alladhīna yastakbirūna ʿan ʿibādatī sayadkhulūna jahannama dākhirīna",
-    "translation": "",
+    "translation": "And your Lord says, \"Call upon Me; I will respond to you.\" Indeed, those who disdain My worship will enter Hell [rendered] contemptible.",
     "words": [
       {
         "id": "ghafir-60-1",
@@ -6791,7 +6850,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur a dit : «Invoquez-Moi et Je vous exaucerai. Quant à ceux qui, par orgueil, dédaignent de M’adorer, ils entreront dans la Géhenne, humbles et soumis. »"
   },
   {
     "id": "ghafir-61",
@@ -6800,7 +6860,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِتَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
     "textSimple": "ٱلله ٱلذى جعل لكم ٱليل لتسكنوا فيه وٱلنهار مبصرا  إن ٱلله لذو فضل على ٱلناس ولـكن أكثر ٱلناس لا يشكرون",
     "transliteration": "al-lahu alladhī jaʿala lakumu al-layla litaskunū fīhi wal-nahāra mub'ṣiran inna l-laha ladhū faḍlin ʿalā l-nāsi walākinna akthara l-nāsi lā yashkurūna",
-    "translation": "",
+    "translation": "It is Allāh who made for you the night that you may rest therein and the day giving sight. Indeed, Allāh is the possessor of bounty for the people, but most of them are not grateful.",
     "words": [
       {
         "id": "ghafir-61-1",
@@ -6943,7 +7003,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui a établi pour vous la nuit où vous vous reposez, et le jour où vous voyez clair. Allah est certes plein de faveurs envers les hommes. Mais, pour la plupart, les hommes ne rendent pas grâces."
   },
   {
     "id": "ghafir-62",
@@ -6952,7 +7013,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ خَـٰلِقُ كُلِّ شَىْءٍ لَّآ إِلَـٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
     "textSimple": "ذلكم ٱلله ربكم خـلق كل شىء لآ إلـه إلا هو  فأنى تؤفكون",
     "transliteration": "dhālikumu l-lahu rabbukum khāliqu kulli shayin lā ilāha illā huwa fa-annā tu'fakūna",
-    "translation": "",
+    "translation": "That is Allāh, your Lord, Creator of all things; there is no deity except Him, so how are you deluded?",
     "words": [
       {
         "id": "ghafir-62-1",
@@ -7039,7 +7100,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est votre Seigneur, le Créateur de Toute chose. Il n’y a point d’autre divinité que Lui. Jusqu’où vous obstinerez-vous donc à ignorer (Son adoration) ?"
   },
   {
     "id": "ghafir-63",
@@ -7048,7 +7110,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ يُؤْفَكُ ٱلَّذِينَ كَانُوا۟ بِـَٔايَـٰتِ ٱللَّهِ يَجْحَدُونَ",
     "textSimple": "كذلك يؤفك ٱلذين كانوا بـٔايـت ٱلله يجحدون",
     "transliteration": "kadhālika yu'faku alladhīna kānū biāyāti l-lahi yajḥadūna",
-    "translation": "",
+    "translation": "Thus were those [before you] deluded who were rejecting the signs of Allāh.",
     "words": [
       {
         "id": "ghafir-63-1",
@@ -7100,7 +7162,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que ceux qui rejettent Nos Signes se détournent (de l’adoration d’Allah)."
   },
   {
     "id": "ghafir-64",
@@ -7109,7 +7172,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ قَرَارًا وَٱلسَّمَآءَ بِنَآءً وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَـٰتِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ فَتَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ٱلله ٱلذى جعل لكم ٱلأرض قرارا وٱلسمآء بنآء وصوركم فأحسن صوركم ورزقكم من ٱلطيبـت  ذلكم ٱلله ربكم  فتبارك ٱلله رب ٱلعـلمين",
     "transliteration": "al-lahu alladhī jaʿala lakumu l-arḍa qarāran wal-samāa bināan waṣawwarakum fa-aḥsana ṣuwarakum warazaqakum mina l-ṭayibāti dhālikumu l-lahu rabbukum fatabāraka l-lahu rabbu l-ʿālamīna",
-    "translation": "",
+    "translation": "It is Allāh who made for you the earth a place of settlement and the sky a structure [i.e., ceiling] and formed you and perfected your forms and provided you with good things. That is Allāh, your Lord; then blessed is Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "ghafir-64-1",
@@ -7259,7 +7322,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui vous a fait de la terre un lieu stable pour y vivre, et du ciel une voûte, Qui vous a modelés dans votre forme la plus belle et vous a fait don de la meilleure des subsistances. Tel est Allah, votre Seigneur ! Béni soit Allah, Seigneur de l’Univers !"
   },
   {
     "id": "ghafir-65",
@@ -7268,7 +7332,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلْحَىُّ لَآ إِلَـٰهَ إِلَّا هُوَ فَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۗ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "هو ٱلحى لآ إلـه إلا هو فٱدعوه مخلصين له ٱلدين  ٱلحمد لله رب ٱلعـلمين",
     "transliteration": "huwa l-ḥayu lā ilāha illā huwa fa-id'ʿūhu mukh'liṣīna lahu l-dīna l-ḥamdu lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "He is the Ever-Living; there is no deity except Him, so call upon Him, [being] sincere to Him in religion. [All] praise is [due] to Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "ghafir-65-1",
@@ -7369,7 +7433,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lui est le Vivant. Il n’y a point d’autre divinité que Lui. Priez-Le donc, vouez-Lui un culte exclusif ! Louange à Allah, Seigneur de l’Univers!"
   },
   {
     "id": "ghafir-66",
@@ -7378,7 +7443,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَمَّا جَآءَنِىَ ٱلْبَيِّنَـٰتُ مِن رَّبِّى وَأُمِرْتُ أَنْ أُسْلِمَ لِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": " قل إنى نهيت أن أعبد ٱلذين تدعون من دون ٱلله لما جآءنى ٱلبينـت من ربى وأمرت أن أسلم لرب ٱلعـلمين",
     "transliteration": "qul innī nuhītu an aʿbuda alladhīna tadʿūna min dūni l-lahi lammā jāaniya l-bayinātu min rabbī wa-umir'tu an us'lima lirabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Indeed, I have been forbidden to worship those you call upon besides Allāh once the clear proofs have come to me from my Lord, and I have been commanded to submit to the Lord of the worlds.\"",
     "words": [
       {
         "id": "ghafir-66-1",
@@ -7521,7 +7586,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il m’est défendu, depuis que les preuves évidentes me sont parvenues de mon Seigneur, d’adorer ceux que vous invoquez en dehors d’Allah. Et il m’est ordonné de me soumettre au Seigneur de l’Univers. »"
   },
   {
     "id": "ghafir-67",
@@ -7530,7 +7596,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ يُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ثُمَّ لِتَكُونُوا۟ شُيُوخًا ۚ وَمِنكُم مَّن يُتَوَفَّىٰ مِن قَبْلُ ۖ وَلِتَبْلُغُوٓا۟ أَجَلًا مُّسَمًّى وَلَعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": "هو ٱلذى خلقكم من تراب ثم من نطفة ثم من علقة ثم يخرجكم طفلا ثم لتبلغوٓا أشدكم ثم لتكونوا شيوخا  ومنكم من يتوفى من قبل  ولتبلغوٓا أجلا مسمى ولعلكم تعقلون",
     "transliteration": "huwa alladhī khalaqakum min turābin thumma min nuṭ'fatin thumma min ʿalaqatin thumma yukh'rijukum ṭif'lan thumma litablughū ashuddakum thumma litakūnū shuyūkhan waminkum man yutawaffā min qablu walitablughū ajalan musamman walaʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "It is He who created you from dust, then from a sperm-drop, then from a clinging clot; then He brings you out as a child; then [He develops you] that you reach your [time of] maturity, then [further] that you become elders. And among you is he who is taken in death before [that], so that you reach a specified term; and perhaps you will use reason.",
     "words": [
       {
         "id": "ghafir-67-1",
@@ -7743,7 +7809,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a créés de terre, puis d’une goutte de sperme, puis d’un grumeau de sang, puis vous fait sortir enfants pour que vous atteigniez ensuite la maturité et la vieillesse. Il en est parmi vous qui décèdent avant cela mais vous (tous) parviendrez jusqu’à un terme (déjà) nommé. Peut-être y méditerez-vous."
   },
   {
     "id": "ghafir-68",
@@ -7752,7 +7819,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ ۖ فَإِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
     "textSimple": "هو ٱلذى يحى ويميت  فإذا قضىٓ أمرا فإنما يقول له كن فيكون",
     "transliteration": "huwa alladhī yuḥ'yī wayumītu fa-idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu",
-    "translation": "",
+    "translation": "He it is who gives life and causes death; and when He decrees a matter, He but says to it, \"Be,\" and it is.",
     "words": [
       {
         "id": "ghafir-68-1",
@@ -7839,7 +7906,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui fait vivre et fait mourir et qui, quand Il décide d’une chose, lui dit « Sois ! » et elle est."
   },
   {
     "id": "ghafir-69",
@@ -7848,7 +7916,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يُجَـٰدِلُونَ فِىٓ ءَايَـٰتِ ٱللَّهِ أَنَّىٰ يُصْرَفُونَ",
     "textSimple": "ألم تر إلى ٱلذين يجـدلون فىٓ ءايـت ٱلله أنى يصرفون",
     "transliteration": "alam tara ilā alladhīna yujādilūna fī āyāti l-lahi annā yuṣ'rafūna",
-    "translation": "",
+    "translation": "Do you not consider those who dispute concerning the signs of Allāh - how are they averted?",
     "words": [
       {
         "id": "ghafir-69-1",
@@ -7921,7 +7989,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas comment ceux qui disputent au sujet de Nos Signes se font fourvoyer ?"
   },
   {
     "id": "ghafir-70",
@@ -7930,7 +7999,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ كَذَّبُوا۟ بِٱلْكِتَـٰبِ وَبِمَآ أَرْسَلْنَا بِهِۦ رُسُلَنَا ۖ فَسَوْفَ يَعْلَمُونَ",
     "textSimple": "ٱلذين كذبوا بٱلكتـب وبمآ أرسلنا به رسلنا  فسوف يعلمون",
     "transliteration": "alladhīna kadhabū bil-kitābi wabimā arsalnā bihi rusulanā fasawfa yaʿlamūna",
-    "translation": "",
+    "translation": "Those who deny the Book [i.e., the Qur’ān] and that with which We sent Our messengers - they are going to know,",
     "words": [
       {
         "id": "ghafir-70-1",
@@ -7996,7 +8065,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui osent démentir le Livre et (démentir) ce que Nous avons envoyé par l’intermédiaire de Nos Messagers, sauront bientôt (ce qui les attend),"
   },
   {
     "id": "ghafir-71",
@@ -8005,7 +8075,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "إِذِ ٱلْأَغْلَـٰلُ فِىٓ أَعْنَـٰقِهِمْ وَٱلسَّلَـٰسِلُ يُسْحَبُونَ",
     "textSimple": "إذ ٱلأغلـل فىٓ أعنـقهم وٱلسلـسل يسحبون",
     "transliteration": "idhi l-aghlālu fī aʿnāqihim wal-salāsilu yus'ḥabūna",
-    "translation": "",
+    "translation": "When the shackles are around their necks and the chains; they will be dragged",
     "words": [
       {
         "id": "ghafir-71-1",
@@ -8050,7 +8120,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand, le carcan autour du cou et traînés dans leurs chaînes,"
   },
   {
     "id": "ghafir-72",
@@ -8059,7 +8130,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فِى ٱلْحَمِيمِ ثُمَّ فِى ٱلنَّارِ يُسْجَرُونَ",
     "textSimple": "فى ٱلحميم ثم فى ٱلنار يسجرون",
     "transliteration": "fī l-ḥamīmi thumma fī l-nāri yus'jarūna",
-    "translation": "",
+    "translation": "In boiling water; then in the Fire they will be filled [with flame].",
     "words": [
       {
         "id": "ghafir-72-1",
@@ -8104,7 +8175,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ils seront jetés dans l’eau bouillante puis dans le Feu."
   },
   {
     "id": "ghafir-73",
@@ -8113,7 +8185,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ قِيلَ لَهُمْ أَيْنَ مَا كُنتُمْ تُشْرِكُونَ",
     "textSimple": "ثم قيل لهم أين ما كنتم تشركون",
     "transliteration": "thumma qīla lahum ayna mā kuntum tush'rikūna",
-    "translation": "",
+    "translation": "Then it will be said to them, \"Where is that which you used to associate [with Him in worship]",
     "words": [
       {
         "id": "ghafir-73-1",
@@ -8165,7 +8237,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera dit ensuite : « Où sont donc ceux que vous prêtiez comme associés"
   },
   {
     "id": "ghafir-74",
@@ -8174,7 +8247,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "مِن دُونِ ٱللَّهِ ۖ قَالُوا۟ ضَلُّوا۟ عَنَّا بَل لَّمْ نَكُن نَّدْعُوا۟ مِن قَبْلُ شَيْـًٔا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ ٱلْكَـٰفِرِينَ",
     "textSimple": "من دون ٱلله  قالوا ضلوا عنا بل لم نكن ندعوا من قبل شيـٔا  كذلك يضل ٱلله ٱلكـفرين",
     "transliteration": "min dūni l-lahi qālū ḍallū ʿannā bal lam nakun nadʿū min qablu shayan kadhālika yuḍillu l-lahu l-kāfirīna",
-    "translation": "",
+    "translation": "Other than Allāh?\" They will say, \"They have departed from us; rather, we did not used to invoke previously anything.\" Thus does Allāh put astray the disbelievers.",
     "words": [
       {
         "id": "ghafir-74-1",
@@ -8296,7 +8369,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à Allah ? » Ils répondront alors : « Ils nous ont abandonnés, ou plutôt nous n’invoquions rien autrefois. » C’est ainsi qu’Allah égare les mécréants."
   },
   {
     "id": "ghafir-75",
@@ -8305,7 +8379,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكُم بِمَا كُنتُمْ تَفْرَحُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَبِمَا كُنتُمْ تَمْرَحُونَ",
     "textSimple": "ذلكم بما كنتم تفرحون فى ٱلأرض بغير ٱلحق وبما كنتم تمرحون",
     "transliteration": "dhālikum bimā kuntum tafraḥūna fī l-arḍi bighayri l-ḥaqi wabimā kuntum tamraḥūna",
-    "translation": "",
+    "translation": "[The angels will say], \"That was because you used to exult upon the earth without right and you used to behave insolently.",
     "words": [
       {
         "id": "ghafir-75-1",
@@ -8385,7 +8459,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est (le prix) de votre jubilation sans juste raison sur terre, et de vos réjouissances excessives."
   },
   {
     "id": "ghafir-76",
@@ -8394,7 +8469,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْخُلُوٓا۟ أَبْوَٰبَ جَهَنَّمَ خَـٰلِدِينَ فِيهَا ۖ فَبِئْسَ مَثْوَى ٱلْمُتَكَبِّرِينَ",
     "textSimple": "ٱدخلوٓا أبوب جهنم خـلدين فيها  فبئس مثوى ٱلمتكبرين",
     "transliteration": "ud'khulū abwāba jahannama khālidīna fīhā fabi'sa mathwā l-mutakabirīna",
-    "translation": "",
+    "translation": "Enter the gates of Hell to abide eternally therein, and wretched is the residence of the arrogant.\"",
     "words": [
       {
         "id": "ghafir-76-1",
@@ -8453,7 +8528,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entrez donc par les portes de la Géhenne, où vous resterez pour l’éternité. Combien triste est le séjour des orgueilleux !"
   },
   {
     "id": "ghafir-77",
@@ -8462,7 +8538,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۚ فَإِمَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا يُرْجَعُونَ",
     "textSimple": "فٱصبر إن وعد ٱلله حق  فإما نرينك بعض ٱلذى نعدهم أو نتوفينك فإلينا يرجعون",
     "transliteration": "fa-iṣ'bir inna waʿda l-lahi ḥaqqun fa-immā nuriyannaka baʿḍa alladhī naʿiduhum aw natawaffayannaka fa-ilaynā yur'jaʿūna",
-    "translation": "",
+    "translation": "So be patient, [O Muḥammad]; indeed, the promise of Allāh is truth. And whether We show you some of what We have promised them or We take you in death, it is to Us they will be returned.",
     "words": [
       {
         "id": "ghafir-77-1",
@@ -8563,7 +8639,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends donc patience ! La promesse d’Allah est pure vérité. Que Nous te montrions une partie (du supplice) dont Nous les menaçons, ou que Nous reprenions ton âme avant, c’est vers Nous qu’ils seront ramenés."
   },
   {
     "id": "ghafir-78",
@@ -8572,7 +8649,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا رُسُلًا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ ۗ وَمَا كَانَ لِرَسُولٍ أَن يَأْتِىَ بِـَٔايَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ فَإِذَا جَآءَ أَمْرُ ٱللَّهِ قُضِىَ بِٱلْحَقِّ وَخَسِرَ هُنَالِكَ ٱلْمُبْطِلُونَ",
     "textSimple": "ولقد أرسلنا رسلا من قبلك منهم من قصصنا عليك ومنهم من لم نقصص عليك  وما كان لرسول أن يأتى بـٔاية إلا بإذن ٱلله  فإذا جآء أمر ٱلله قضى بٱلحق وخسر هنالك ٱلمبطلون",
     "transliteration": "walaqad arsalnā rusulan min qablika min'hum man qaṣaṣnā ʿalayka wamin'hum man lam naqṣuṣ ʿalayka wamā kāna lirasūlin an yatiya biāyatin illā bi-idh'ni l-lahi fa-idhā jāa amru l-lahi quḍiya bil-ḥaqi wakhasira hunālika l-mub'ṭilūna",
-    "translation": "",
+    "translation": "And We have already sent messengers before you. Among them are those [whose stories] We have related to you, and among them are those [whose stories] We have not related to you. And it was not for any messenger to bring a sign [or verse] except by permission of Allāh. So when the command of Allāh comes, it will be concluded [i.e., judged] in truth, and the falsifiers will thereupon lose [all].",
     "words": [
       {
         "id": "ghafir-78-1",
@@ -8799,7 +8876,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avant toi, Nous avons envoyé des Messagers. Nous t’avons raconté l’histoire de certains d’entre eux. Mais il en est d’autres dont Nous ne t’avons pas conté l’histoire. Il n’appartient à aucun Messager de produire un Signe sans la permission d’Allah. Ainsi, lorsqu’arrivera l’ordre d’Allah, il sera accompli en toute équité, et ce sont les négateurs qui seront les perdants."
   },
   {
     "id": "ghafir-79",
@@ -8808,7 +8886,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَنْعَـٰمَ لِتَرْكَبُوا۟ مِنْهَا وَمِنْهَا تَأْكُلُونَ",
     "textSimple": "ٱلله ٱلذى جعل لكم ٱلأنعـم لتركبوا منها ومنها تأكلون",
     "transliteration": "al-lahu alladhī jaʿala lakumu l-anʿāma litarkabū min'hā wamin'hā takulūna",
-    "translation": "",
+    "translation": "It is Allāh who made for you the grazing animals upon which you ride, and some of them you eat.",
     "words": [
       {
         "id": "ghafir-79-1",
@@ -8874,7 +8952,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui a fait pour vous les bestiaux (pour que vous les utilisiez) comme montures ou nourriture."
   },
   {
     "id": "ghafir-80",
@@ -8883,7 +8962,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَكُمْ فِيهَا مَنَـٰفِعُ وَلِتَبْلُغُوا۟ عَلَيْهَا حَاجَةً فِى صُدُورِكُمْ وَعَلَيْهَا وَعَلَى ٱلْفُلْكِ تُحْمَلُونَ",
     "textSimple": "ولكم فيها منـفع ولتبلغوا عليها حاجة فى صدوركم وعليها وعلى ٱلفلك تحملون",
     "transliteration": "walakum fīhā manāfiʿu walitablughū ʿalayhā ḥājatan fī ṣudūrikum waʿalayhā waʿalā l-ful'ki tuḥ'malūna",
-    "translation": "",
+    "translation": "And for you therein are [other] benefits and that you may realize upon them a need which is in your breasts; and upon them and upon ships you are carried.",
     "words": [
       {
         "id": "ghafir-80-1",
@@ -8970,7 +9049,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous y trouvez diverses utilités et vous pouvez vous en servir pour atteindre les objectifs que vous avez à cœur (d’atteindre). Puis c’est sur eux et sur les vaisseaux, que vous êtes transportés."
   },
   {
     "id": "ghafir-81",
@@ -8979,7 +9059,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "وَيُرِيكُمْ ءَايَـٰتِهِۦ فَأَىَّ ءَايَـٰتِ ٱللَّهِ تُنكِرُونَ",
     "textSimple": "ويريكم ءايـته فأى ءايـت ٱلله تنكرون",
     "transliteration": "wayurīkum āyātihi fa-ayya āyāti l-lahi tunkirūna",
-    "translation": "",
+    "translation": "And He shows you His signs. So which of the signs of Allāh do you deny?",
     "words": [
       {
         "id": "ghafir-81-1",
@@ -9024,7 +9104,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous fait voir Ses Signes, et quels Signes d’Allah nierez-vous ?"
   },
   {
     "id": "ghafir-82",
@@ -9033,7 +9114,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَكْثَرَ مِنْهُمْ وَأَشَدَّ قُوَّةً وَءَاثَارًا فِى ٱلْأَرْضِ فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "أفلم يسيروا فى ٱلأرض فينظروا كيف كان عـقبة ٱلذين من قبلهم  كانوٓا أكثر منهم وأشد قوة وءاثارا فى ٱلأرض فمآ أغنى عنهم ما كانوا يكسبون",
     "transliteration": "afalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim kānū akthara min'hum wa-ashadda quwwatan waāthāran fī l-arḍi famā aghnā ʿanhum mā kānū yaksibūna",
-    "translation": "",
+    "translation": "Have they not traveled through the land and observed how was the end of those before them? They were more numerous than themselves and greater in strength and in impression on the land, but they were not availed by what they used to earn.",
     "words": [
       {
         "id": "ghafir-82-1",
@@ -9211,7 +9292,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas parcouru la terre pour voir quel fut le sort de ceux qui les ont précédés, qui leur étaient supérieurs en nombre, étaient bien plus forts qu’eux et ont laissé sur terre des vestiges bien plus importants ? Ce qu’ils avaient acquis ne leur aura servi à rien."
   },
   {
     "id": "ghafir-83",
@@ -9220,7 +9302,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَرِحُوا۟ بِمَا عِندَهُم مِّنَ ٱلْعِلْمِ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "فلما جآءتهم رسلهم بٱلبينـت فرحوا بما عندهم من ٱلعلم وحاق بهم ما كانوا به يستهزءون",
     "transliteration": "falammā jāathum rusuluhum bil-bayināti fariḥū bimā ʿindahum mina l-ʿil'mi waḥāqa bihim mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And when their messengers came to them with clear proofs, they [merely] rejoiced in what they had of knowledge, but they were enveloped by what they used to ridicule.",
     "words": [
       {
         "id": "ghafir-83-1",
@@ -9328,7 +9410,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand leurs Messagers venaient vers eux, munis des preuves évidentes, ils se réjouissaient de ce qu’ils avaient comme connaissances. Mais tout ce dont ils se raillaient les cerna alors."
   },
   {
     "id": "ghafir-84",
@@ -9337,7 +9420,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَأَوْا۟ بَأْسَنَا قَالُوٓا۟ ءَامَنَّا بِٱللَّهِ وَحْدَهُۥ وَكَفَرْنَا بِمَا كُنَّا بِهِۦ مُشْرِكِينَ",
     "textSimple": "فلما رأوا بأسنا قالوٓا ءامنا بٱلله وحده وكفرنا بما كنا به مشركين",
     "transliteration": "falammā ra-aw basanā qālū āmannā bil-lahi waḥdahu wakafarnā bimā kunnā bihi mush'rikīna",
-    "translation": "",
+    "translation": "And when they saw Our punishment, they said, \"We believe in Allāh alone and disbelieve in that which we used to associate with Him.\"",
     "words": [
       {
         "id": "ghafir-84-1",
@@ -9424,7 +9507,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À la vue de Notre rigueur, ils dirent : « Nous croyons en Allah Seul, et nous mécroyons en tout ce que nous (Lui) associions. »"
   },
   {
     "id": "ghafir-85",
@@ -9433,7 +9517,7 @@ export const GHAFIR_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَـٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا ۖ سُنَّتَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ فِى عِبَادِهِۦ ۖ وَخَسِرَ هُنَالِكَ ٱلْكَـٰفِرُونَ",
     "textSimple": "فلم يك ينفعهم إيمـنهم لما رأوا بأسنا  سنت ٱلله ٱلتى قد خلت فى عباده  وخسر هنالك ٱلكـفرون",
     "transliteration": "falam yaku yanfaʿuhum īmānuhum lammā ra-aw basanā sunnata l-lahi allatī qad khalat fī ʿibādihi wakhasira hunālika l-kāfirūna",
-    "translation": "",
+    "translation": "But never did their faith benefit them once they saw Our punishment. [It is] the established way of Allāh which has preceded among His servants. And the disbelievers thereupon lost [all].",
     "words": [
       {
         "id": "ghafir-85-1",
@@ -9555,7 +9639,8 @@ export const GHAFIR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais leur croyance, à la vue de Notre rigueur, ne leur servit à rien. Telle est la règle qu’Allah a établie pour Ses serviteurs. Et ce sont les mécréants qui, là, avaient perdu."
   }
 ];
 

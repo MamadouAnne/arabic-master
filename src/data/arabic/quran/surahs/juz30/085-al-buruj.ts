@@ -11,7 +11,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
     "textSimple": " وٱلسمآء ذات ٱلبروج",
     "transliteration": "wal-samāi dhāti l-burūji",
-    "translation": "",
+    "translation": "By the sky containing great stars",
     "words": [
       {
         "id": "al-buruj-1-1",
@@ -35,7 +35,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le ciel et ses constellations !"
   },
   {
     "id": "al-buruj-2",
@@ -44,7 +45,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
     "textSimple": "وٱليوم ٱلموعود",
     "transliteration": "wal-yawmi l-mawʿūdi",
-    "translation": "",
+    "translation": "And [by] the promised Day",
     "words": [
       {
         "id": "al-buruj-2-1",
@@ -61,7 +62,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le jour promis !"
   },
   {
     "id": "al-buruj-3",
@@ -70,7 +72,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "وَشَاهِدٍ وَمَشْهُودٍ",
     "textSimple": "وشاهد ومشهود",
     "transliteration": "washāhidin wamashhūdin",
-    "translation": "",
+    "translation": "And [by] the witness and what is witnessed,",
     "words": [
       {
         "id": "al-buruj-3-1",
@@ -87,7 +89,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le témoin et son témoignage !"
   },
   {
     "id": "al-buruj-4",
@@ -96,7 +99,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
     "textSimple": "قتل أصحـب ٱلأخدود",
     "transliteration": "qutila aṣḥābu l-ukh'dūdi",
-    "translation": "",
+    "translation": "Destroyed [i.e., cursed] were the companions of the trench",
     "words": [
       {
         "id": "al-buruj-4-1",
@@ -120,7 +123,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mort aux gens de la tranchée très longue (Al-Ukhdûd) !"
   },
   {
     "id": "al-buruj-5",
@@ -129,7 +133,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
     "textSimple": "ٱلنار ذات ٱلوقود",
     "transliteration": "al-nāri dhāti l-waqūdi",
-    "translation": "",
+    "translation": "[Containing] the fire full of fuel,",
     "words": [
       {
         "id": "al-buruj-5-1",
@@ -153,7 +157,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au bord d’un feu rugissant,"
   },
   {
     "id": "al-buruj-6",
@@ -162,7 +167,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
     "textSimple": "إذ هم عليها قعود",
     "transliteration": "idh hum ʿalayhā quʿūdun",
-    "translation": "",
+    "translation": "When they were sitting near it.",
     "words": [
       {
         "id": "al-buruj-6-1",
@@ -193,7 +198,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(les mécréants) étaient assis,"
   },
   {
     "id": "al-buruj-7",
@@ -202,7 +208,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
     "textSimple": "وهم على ما يفعلون بٱلمؤمنين شهود",
     "transliteration": "wahum ʿalā mā yafʿalūna bil-mu'minīna shuhūdun",
-    "translation": "",
+    "translation": "And they, to what they were doing against the believers, were witnesses.",
     "words": [
       {
         "id": "al-buruj-7-1",
@@ -247,7 +253,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et regardaient en témoins ce qu’ils faisaient subir aux croyants."
   },
   {
     "id": "al-buruj-8",
@@ -256,7 +263,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
     "textSimple": "وما نقموا منهم إلآ أن يؤمنوا بٱلله ٱلعزيز ٱلحميد",
     "transliteration": "wamā naqamū min'hum illā an yu'minū bil-lahi l-ʿazīzi l-ḥamīdi",
-    "translation": "",
+    "translation": "And they resented them not except because they believed in Allāh, the Exalted in Might, the Praiseworthy,",
     "words": [
       {
         "id": "al-buruj-8-1",
@@ -322,7 +329,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne leur en voulaient que parce qu’ils croyaient en Allah, le Tout- Puissant, le Digne de Toute Louange,"
   },
   {
     "id": "al-buruj-9",
@@ -331,7 +339,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "textSimple": "ٱلذى له ملك ٱلسمـوت وٱلأرض  وٱلله على كل شىء شهيد",
     "transliteration": "alladhī lahu mul'ku l-samāwāti wal-arḍi wal-lahu ʿalā kulli shayin shahīdun",
-    "translation": "",
+    "translation": "To whom belongs the dominion of the heavens and the earth. And Allāh, over all things, is Witness.",
     "words": [
       {
         "id": "al-buruj-9-1",
@@ -404,7 +412,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui à Qui appartient la royauté des cieux et de la terre, Allah, Qui de Toute chose est le Témoin."
   },
   {
     "id": "al-buruj-10",
@@ -413,7 +422,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
     "textSimple": "إن ٱلذين فتنوا ٱلمؤمنين وٱلمؤمنـت ثم لم يتوبوا فلهم عذاب جهنم ولهم عذاب ٱلحريق",
     "transliteration": "inna alladhīna fatanū l-mu'minīna wal-mu'mināti thumma lam yatūbū falahum ʿadhābu jahannama walahum ʿadhābu l-ḥarīqi",
-    "translation": "",
+    "translation": "Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire.",
     "words": [
       {
         "id": "al-buruj-10-1",
@@ -514,7 +523,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont infligé les pires épreuves aux croyants et aux croyantes, puis qui ne s’en sont pas repentis, auront le supplice de la Géhenne et le supplice du Brasier infernal."
   },
   {
     "id": "al-buruj-11",
@@ -523,7 +533,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت لهم جنـت تجرى من تحتها ٱلأنهـر  ذلك ٱلفوز ٱلكبير",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti lahum jannātun tajrī min taḥtihā l-anhāru dhālika l-fawzu l-kabīru",
-    "translation": "",
+    "translation": "Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment.",
     "words": [
       {
         "id": "al-buruj-11-1",
@@ -624,7 +634,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres auront des jardins sous lesquels coulent les rivières. Tel est le succès suprême !"
   },
   {
     "id": "al-buruj-12",
@@ -633,7 +644,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
     "textSimple": "إن بطش ربك لشديد",
     "transliteration": "inna baṭsha rabbika lashadīdun",
-    "translation": "",
+    "translation": "Indeed, the assault [i.e., vengeance] of your Lord is severe.",
     "words": [
       {
         "id": "al-buruj-12-1",
@@ -664,7 +675,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les représailles de ton Seigneur seront très dures."
   },
   {
     "id": "al-buruj-13",
@@ -673,7 +685,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
     "textSimple": "إنه هو يبدئ ويعيد",
     "transliteration": "innahu huwa yub'di-u wayuʿīdu",
-    "translation": "",
+    "translation": "Indeed, it is He who originates [creation] and repeats.",
     "words": [
       {
         "id": "al-buruj-13-1",
@@ -704,7 +716,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui initie (la création) puis la recommence."
   },
   {
     "id": "al-buruj-14",
@@ -713,7 +726,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
     "textSimple": "وهو ٱلغفور ٱلودود",
     "transliteration": "wahuwa l-ghafūru l-wadūdu",
-    "translation": "",
+    "translation": "And He is the Forgiving, the Affectionate,",
     "words": [
       {
         "id": "al-buruj-14-1",
@@ -737,7 +750,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui l’Absoluteur, plein de Dilection,"
   },
   {
     "id": "al-buruj-15",
@@ -746,7 +760,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
     "textSimple": "ذو ٱلعرش ٱلمجيد",
     "transliteration": "dhū l-ʿarshi l-majīdu",
-    "translation": "",
+    "translation": "Honorable Owner of the Throne,",
     "words": [
       {
         "id": "al-buruj-15-1",
@@ -770,7 +784,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Détenteur du Trône, le Glorieux,"
   },
   {
     "id": "al-buruj-16",
@@ -779,7 +794,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "فَعَّالٌ لِّمَا يُرِيدُ",
     "textSimple": "فعال لما يريد",
     "transliteration": "faʿʿālun limā yurīdu",
-    "translation": "",
+    "translation": "Effecter of what He intends.",
     "words": [
       {
         "id": "al-buruj-16-1",
@@ -803,7 +818,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui fait toujours ce qu’Il veut !"
   },
   {
     "id": "al-buruj-17",
@@ -812,7 +828,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
     "textSimple": "هل أتىك حديث ٱلجنود",
     "transliteration": "hal atāka ḥadīthu l-junūdi",
-    "translation": "",
+    "translation": "Has there reached you the story of the soldiers -",
     "words": [
       {
         "id": "al-buruj-17-1",
@@ -843,7 +859,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "T’est-il parvenu le récit des armées ?"
   },
   {
     "id": "al-buruj-18",
@@ -852,7 +869,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "فِرْعَوْنَ وَثَمُودَ",
     "textSimple": "فرعون وثمود",
     "transliteration": "fir'ʿawna wathamūda",
-    "translation": "",
+    "translation": "[Those of] Pharaoh and Thamūd?",
     "words": [
       {
         "id": "al-buruj-18-1",
@@ -869,7 +886,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celles de Pharaon et des Thamûd ?"
   },
   {
     "id": "al-buruj-19",
@@ -878,7 +896,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
     "textSimple": "بل ٱلذين كفروا فى تكذيب",
     "transliteration": "bali alladhīna kafarū fī takdhībin",
-    "translation": "",
+    "translation": "But they who disbelieve are in [persistent] denial,",
     "words": [
       {
         "id": "al-buruj-19-1",
@@ -916,7 +934,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourtant, ceux qui ont mécru crient toujours au mensonge."
   },
   {
     "id": "al-buruj-20",
@@ -925,7 +944,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
     "textSimple": "وٱلله من ورآئهم محيط",
     "transliteration": "wal-lahu min warāihim muḥīṭun",
-    "translation": "",
+    "translation": "While Allāh encompasses them from behind.",
     "words": [
       {
         "id": "al-buruj-20-1",
@@ -956,7 +975,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, derrière eux, les Cerne de partout."
   },
   {
     "id": "al-buruj-21",
@@ -965,7 +985,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
     "textSimple": "بل هو قرءان مجيد",
     "transliteration": "bal huwa qur'ānun majīdun",
-    "translation": "",
+    "translation": "But this is an honored Qur’ān",
     "words": [
       {
         "id": "al-buruj-21-1",
@@ -996,7 +1016,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est en vérité un Coran glorieux,"
   },
   {
     "id": "al-buruj-22",
@@ -1005,7 +1026,7 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
     "textUthmani": "فِى لَوْحٍ مَّحْفُوظٍۭ",
     "textSimple": "فى لوح محفوظ",
     "transliteration": "fī lawḥin maḥfūẓin",
-    "translation": "",
+    "translation": "[Inscribed] in a Preserved Slate.",
     "words": [
       {
         "id": "al-buruj-22-1",
@@ -1029,7 +1050,8 @@ export const AL_BURUJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(écrit) sur une Table (soigneusement) conservée."
   }
 ];
 

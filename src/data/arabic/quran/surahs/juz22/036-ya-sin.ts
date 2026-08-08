@@ -11,7 +11,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": " يسٓ",
     "textSimple": " يسٓ",
     "transliteration": "ya-seen",
-    "translation": "",
+    "translation": "Yā, Seen.",
     "words": [
       {
         "id": "ya-sin-1-1",
@@ -21,7 +21,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Yâ-Sîn."
   },
   {
     "id": "ya-sin-2",
@@ -30,7 +31,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْقُرْءَانِ ٱلْحَكِيمِ",
     "textSimple": "وٱلقرءان ٱلحكيم",
     "transliteration": "wal-qur'āni l-ḥakīmi",
-    "translation": "",
+    "translation": "By the wise Qur’ān,",
     "words": [
       {
         "id": "ya-sin-2-1",
@@ -47,7 +48,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le Coran éminemment structuré."
   },
   {
     "id": "ya-sin-3",
@@ -56,7 +58,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "إنك لمن ٱلمرسلين",
     "transliteration": "innaka lamina l-mur'salīna",
-    "translation": "",
+    "translation": "Indeed you, [O Muḥammad], are from among the messengers,",
     "words": [
       {
         "id": "ya-sin-3-1",
@@ -80,7 +82,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu es certes du nombre des Messagers."
   },
   {
     "id": "ya-sin-4",
@@ -89,7 +92,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "على صرط مستقيم",
     "transliteration": "ʿalā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "On a straight path.",
     "words": [
       {
         "id": "ya-sin-4-1",
@@ -113,7 +116,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Engagé) sur une voie droite."
   },
   {
     "id": "ya-sin-5",
@@ -122,7 +126,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ",
     "textSimple": "تنزيل ٱلعزيز ٱلرحيم",
     "transliteration": "tanzīla l-ʿazīzi l-raḥīmi",
-    "translation": "",
+    "translation": "[This is] a revelation of the Exalted in Might, the Merciful,",
     "words": [
       {
         "id": "ya-sin-5-1",
@@ -146,7 +150,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est la révélation (qui t’est faite) de la part du Tout –Puissant, du Tout Miséricordieux,"
   },
   {
     "id": "ya-sin-6",
@@ -155,7 +160,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لِتُنذِرَ قَوْمًا مَّآ أُنذِرَ ءَابَآؤُهُمْ فَهُمْ غَـٰفِلُونَ",
     "textSimple": "لتنذر قوما مآ أنذر ءابآؤهم فهم غـفلون",
     "transliteration": "litundhira qawman mā undhira ābāuhum fahum ghāfilūna",
-    "translation": "",
+    "translation": "That you may warn a people whose forefathers were not warned, so they are unaware.",
     "words": [
       {
         "id": "ya-sin-6-1",
@@ -207,7 +212,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour que tu avertisses des gens dont les pères n’ont pas été avertis, et qui donc sont distraits."
   },
   {
     "id": "ya-sin-7",
@@ -216,7 +222,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ حَقَّ ٱلْقَوْلُ عَلَىٰٓ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "لقد حق ٱلقول علىٓ أكثرهم فهم لا يؤمنون",
     "transliteration": "laqad ḥaqqa l-qawlu ʿalā aktharihim fahum lā yu'minūna",
-    "translation": "",
+    "translation": "Already the word [i.e., decree] has come into effect upon most of them, so they do not believe.",
     "words": [
       {
         "id": "ya-sin-7-1",
@@ -275,7 +281,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le verdict a déjà été prononcé à l’encontre de la plupart d’entre eux, et ils ne croiront pas."
   },
   {
     "id": "ya-sin-8",
@@ -284,7 +291,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا جَعَلْنَا فِىٓ أَعْنَـٰقِهِمْ أَغْلَـٰلًا فَهِىَ إِلَى ٱلْأَذْقَانِ فَهُم مُّقْمَحُونَ",
     "textSimple": "إنا جعلنا فىٓ أعنـقهم أغلـلا فهى إلى ٱلأذقان فهم مقمحون",
     "transliteration": "innā jaʿalnā fī aʿnāqihim aghlālan fahiya ilā l-adhqāni fahum muq'maḥūna",
-    "translation": "",
+    "translation": "Indeed, We have put shackles on their necks, and they are to their chins, so they are with heads [kept] aloft.",
     "words": [
       {
         "id": "ya-sin-8-1",
@@ -357,7 +364,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons mis à leurs cous des chaînes qui leur arrivent jusqu’aux mentons et forcent leurs têtes à se dresser (vers le ciel)."
   },
   {
     "id": "ya-sin-9",
@@ -366,7 +374,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَـٰهُمْ فَهُمْ لَا يُبْصِرُونَ",
     "textSimple": "وجعلنا من بين أيديهم سدا ومن خلفهم سدا فأغشينـهم فهم لا يبصرون",
     "transliteration": "wajaʿalnā min bayni aydīhim saddan wamin khalfihim saddan fa-aghshaynāhum fahum lā yub'ṣirūna",
-    "translation": "",
+    "translation": "And We have put before them a barrier and behind them a barrier and covered them, so they do not see.",
     "words": [
       {
         "id": "ya-sin-9-1",
@@ -453,7 +461,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons dressé une barrière devant eux et une barrière derrière eux, Nous avons couvert (leurs yeux d’un voile) et les voilà qui ne voient plus rien."
   },
   {
     "id": "ya-sin-10",
@@ -462,7 +471,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَسَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "وسوآء عليهم ءأنذرتهم أم لم تنذرهم لا يؤمنون",
     "transliteration": "wasawāon ʿalayhim a-andhartahum am lam tundhir'hum lā yu'minūna",
-    "translation": "",
+    "translation": "And it is all the same for them whether you warn them or do not warn them - they will not believe.",
     "words": [
       {
         "id": "ya-sin-10-1",
@@ -521,7 +530,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que tu les avertisses ou que tu ne les avertisses pas, cela leur est égal : ils ne croiront pas."
   },
   {
     "id": "ya-sin-11",
@@ -530,7 +540,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَـٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
     "textSimple": "إنما تنذر من ٱتبع ٱلذكر وخشى ٱلرحمـن بٱلغيب  فبشره بمغفرة وأجر كريم",
     "transliteration": "innamā tundhiru mani ittabaʿa l-dhik'ra wakhashiya l-raḥmāna bil-ghaybi fabashir'hu bimaghfiratin wa-ajrin karīmin",
-    "translation": "",
+    "translation": "You can only warn one who follows the message and fears the Most Merciful unseen. So give him good tidings of forgiveness and noble reward.",
     "words": [
       {
         "id": "ya-sin-11-1",
@@ -617,7 +627,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’avertiras que celui qui aura suivi le Rappel, et craint le Tout Clément sans même Le voir. (À celui-là) tu annonceras pardon et dons généreux !"
   },
   {
     "id": "ya-sin-12",
@@ -626,7 +637,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَـٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
     "textSimple": "إنا نحن نحى ٱلموتى ونكتب ما قدموا وءاثـرهم  وكل شىء أحصينـه فىٓ إمام مبين",
     "transliteration": "innā naḥnu nuḥ'yī l-mawtā wanaktubu mā qaddamū waāthārahum wakulla shayin aḥṣaynāhu fī imāmin mubīnin",
-    "translation": "",
+    "translation": "Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind, and all things We have enumerated in a clear register.",
     "words": [
       {
         "id": "ya-sin-12-1",
@@ -727,7 +738,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui faisons revivre les morts, Qui inscrivons les œuvres qu’ils ont accomplies et celles dont ils ont laissé les traces. Et Nous avons tout recensé dans un Registre évident."
   },
   {
     "id": "ya-sin-13",
@@ -736,7 +748,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱضْرِبْ لَهُم مَّثَلًا أَصْحَـٰبَ ٱلْقَرْيَةِ إِذْ جَآءَهَا ٱلْمُرْسَلُونَ",
     "textSimple": "وٱضرب لهم مثلا أصحـب ٱلقرية إذ جآءها ٱلمرسلون",
     "transliteration": "wa-iḍ'rib lahum mathalan aṣḥāba l-qaryati idh jāahā l-mur'salūna",
-    "translation": "",
+    "translation": "And present to them an example: the people of the city, when the messengers came to it -",
     "words": [
       {
         "id": "ya-sin-13-1",
@@ -795,7 +807,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Propose-leur comme exemple les habitants de la cité lorsque leur vinrent les Messagers."
   },
   {
     "id": "ya-sin-14",
@@ -804,7 +817,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ أَرْسَلْنَآ إِلَيْهِمُ ٱثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوٓا۟ إِنَّآ إِلَيْكُم مُّرْسَلُونَ",
     "textSimple": "إذ أرسلنآ إليهم ٱثنين فكذبوهما فعززنا بثالث فقالوٓا إنآ إليكم مرسلون",
     "transliteration": "idh arsalnā ilayhimu ith'nayni fakadhabūhumā faʿazzaznā bithālithin faqālū innā ilaykum mur'salūna",
-    "translation": "",
+    "translation": "When We sent to them two but they denied them, so We strengthened [them] with a third, and they said, \"Indeed, we are messengers to you.\"",
     "words": [
       {
         "id": "ya-sin-14-1",
@@ -884,7 +897,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur en avions envoyé deux qu’ils traitèrent de menteurs. Nous les appuyâmes alors par un troisième et ils dirent : « C’est vers vous que nous avons été envoyés. »"
   },
   {
     "id": "ya-sin-15",
@@ -893,7 +907,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَـٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ",
     "textSimple": "قالوا مآ أنتم إلا بشر مثلنا ومآ أنزل ٱلرحمـن من شىء إن أنتم إلا تكذبون",
     "transliteration": "qālū mā antum illā basharun mith'lunā wamā anzala l-raḥmānu min shayin in antum illā takdhibūna",
-    "translation": "",
+    "translation": "They said, \"You are not but human beings like us, and the Most Merciful has not revealed a thing. You are only telling lies.\"",
     "words": [
       {
         "id": "ya-sin-15-1",
@@ -1001,7 +1015,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Vous n’êtes que des humains comme nous, répondirent (les habitants de la cité), et le Tout Clément n’a rien fait descendre (en révélation) : vous n’êtes que des menteurs ! »"
   },
   {
     "id": "ya-sin-16",
@@ -1010,7 +1025,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ رَبُّنَا يَعْلَمُ إِنَّآ إِلَيْكُمْ لَمُرْسَلُونَ",
     "textSimple": "قالوا ربنا يعلم إنآ إليكم لمرسلون",
     "transliteration": "qālū rabbunā yaʿlamu innā ilaykum lamur'salūna",
-    "translation": "",
+    "translation": "They said, \"Our Lord knows that we are messengers to you,",
     "words": [
       {
         "id": "ya-sin-16-1",
@@ -1055,7 +1070,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Notre Seigneur Sait que c’est vers vous que nous sommes certes envoyés, (dirent les Messagers)"
   },
   {
     "id": "ya-sin-17",
@@ -1064,7 +1080,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا عَلَيْنَآ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
     "textSimple": "وما علينآ إلا ٱلبلـغ ٱلمبين",
     "transliteration": "wamā ʿalaynā illā l-balāghu l-mubīnu",
-    "translation": "",
+    "translation": "And we are not responsible except for clear notification.\"",
     "words": [
       {
         "id": "ya-sin-17-1",
@@ -1102,7 +1118,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et il ne nous appartient que de (vous) transmettre clairement ce message. »"
   },
   {
     "id": "ya-sin-18",
@@ -1111,7 +1128,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ",
     "textSimple": "قالوٓا إنا تطيرنا بكم  لئن لم تنتهوا لنرجمنكم وليمسنكم منا عذاب أليم",
     "transliteration": "qālū innā taṭayyarnā bikum la-in lam tantahū lanarjumannakum walayamassannakum minnā ʿadhābun alīmun",
-    "translation": "",
+    "translation": "They said, \"Indeed, we consider you a bad omen. If you do not desist, we will surely stone you, and there will surely touch you, from us, a painful punishment.\"",
     "words": [
       {
         "id": "ya-sin-18-1",
@@ -1198,7 +1215,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Vous nous êtes des oiseaux de mauvais augure, reprirent (les mécréants). Ou vous arrêtez ou nous vous lapiderons, et vous atteindra, de notre part, un supplice très douloureux. »"
   },
   {
     "id": "ya-sin-19",
@@ -1207,7 +1225,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ طَـٰٓئِرُكُم مَّعَكُمْ ۚ أَئِن ذُكِّرْتُم ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
     "textSimple": "قالوا طـٓئركم معكم  أئن ذكرتم  بل أنتم قوم مسرفون",
     "transliteration": "qālū ṭāirukum maʿakum a-in dhukkir'tum bal antum qawmun mus'rifūna",
-    "translation": "",
+    "translation": "They said, \"Your omen [i.e., fate] is with yourselves. Is it because you were reminded? Rather, you are a transgressing people.\"",
     "words": [
       {
         "id": "ya-sin-19-1",
@@ -1273,7 +1291,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Votre mauvais augure n’est dû qu’à vous-mêmes, dirent (les Messagers). (Réagissez-vous ainsi) parce que vous est rappelée (la vérité) ? Vous n’êtes en vérité que des gens portés aux excès ! »"
   },
   {
     "id": "ya-sin-20",
@@ -1282,7 +1301,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَـٰقَوْمِ ٱتَّبِعُوا۟ ٱلْمُرْسَلِينَ",
     "textSimple": "وجآء من أقصا ٱلمدينة رجل يسعى قال يـقوم ٱتبعوا ٱلمرسلين",
     "transliteration": "wajāa min aqṣā l-madīnati rajulun yasʿā qāla yāqawmi ittabiʿū l-mur'salīna",
-    "translation": "",
+    "translation": "And there came from the farthest end of the city a man, running. He said, \"O my people, follow the messengers.",
     "words": [
       {
         "id": "ya-sin-20-1",
@@ -1355,7 +1374,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un homme, de l’autre bout de la ville, accourut en disant : « Ô peuple mien ! Suivez les Messagers !"
   },
   {
     "id": "ya-sin-21",
@@ -1364,7 +1384,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "ٱتَّبِعُوا۟ مَن لَّا يَسْـَٔلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ",
     "textSimple": "ٱتبعوا من لا يسـٔلكم أجرا وهم مهتدون",
     "transliteration": "ittabiʿū man lā yasalukum ajran wahum muh'tadūna",
-    "translation": "",
+    "translation": "Follow those who do not ask of you [any] payment, and they are [rightly] guided.",
     "words": [
       {
         "id": "ya-sin-21-1",
@@ -1416,7 +1436,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suivez ceux qui ne vous réclament aucune récompense et qui sont bien guidés."
   },
   {
     "id": "ya-sin-22",
@@ -1425,7 +1446,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لِىَ لَآ أَعْبُدُ ٱلَّذِى فَطَرَنِى وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "وما لى لآ أعبد ٱلذى فطرنى وإليه ترجعون",
     "transliteration": "wamā liya lā aʿbudu alladhī faṭaranī wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "And why should I not worship He who created me and to whom you will be returned?",
     "words": [
       {
         "id": "ya-sin-22-1",
@@ -1484,7 +1505,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourquoi n’adorerais-je pas Celui Qui m’a créé (sans modèle préalable) et vers Qui vous devez retourner ?"
   },
   {
     "id": "ya-sin-23",
@@ -1493,7 +1515,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَـٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَـٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ",
     "textSimple": "ءأتخذ من دونهٓ ءالهة إن يردن ٱلرحمـن بضر لا تغن عنى شفـعتهم شيـٔا ولا ينقذون",
     "transliteration": "a-attakhidhu min dūnihi ālihatan in yurid'ni l-raḥmānu biḍurrin lā tugh'ni ʿannī shafāʿatuhum shayan walā yunqidhūni",
-    "translation": "",
+    "translation": "Should I take other than Him [false] deities [while], if the Most Merciful intends for me some adversity, their intercession will not avail me at all, nor can they save me?",
     "words": [
       {
         "id": "ya-sin-23-1",
@@ -1601,7 +1623,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prendrais-je en dehors de Lui des divinités qui, si le Tout Clément me voulait du mal, ne sauraient en rien intercéder en ma faveur, ni ne me seraient d’aucun secours ?"
   },
   {
     "id": "ya-sin-24",
@@ -1610,7 +1633,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّىٓ إِذًا لَّفِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "إنىٓ إذا لفى ضلـل مبين",
     "transliteration": "innī idhan lafī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Indeed, I would then be in manifest error.",
     "words": [
       {
         "id": "ya-sin-24-1",
@@ -1648,7 +1671,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je serais alors dans un égarement évident."
   },
   {
     "id": "ya-sin-25",
@@ -1657,7 +1681,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ",
     "textSimple": "إنىٓ ءامنت بربكم فٱسمعون",
     "transliteration": "innī āmantu birabbikum fa-is'maʿūni",
-    "translation": "",
+    "translation": "Indeed, I have believed in your Lord, so listen to me.\"",
     "words": [
       {
         "id": "ya-sin-25-1",
@@ -1688,7 +1712,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’ai cru en votre Seigneur, (ô Messagers), écoutez-moi. »"
   },
   {
     "id": "ya-sin-26",
@@ -1697,7 +1722,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قِيلَ ٱدْخُلِ ٱلْجَنَّةَ ۖ قَالَ يَـٰلَيْتَ قَوْمِى يَعْلَمُونَ",
     "textSimple": "قيل ٱدخل ٱلجنة  قال يـليت قومى يعلمون",
     "transliteration": "qīla ud'khuli l-janata qāla yālayta qawmī yaʿlamūna",
-    "translation": "",
+    "translation": "It was said, \"Enter Paradise.\" He said, \"I wish my people could know",
     "words": [
       {
         "id": "ya-sin-26-1",
@@ -1749,7 +1774,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Mis à mort pour cet aveu), il s’entendit dire : « Entre au Paradis ! » « Si seulement mon peuple savait, s’exclama-t-il,"
   },
   {
     "id": "ya-sin-27",
@@ -1758,7 +1784,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ",
     "textSimple": "بما غفر لى ربى وجعلنى من ٱلمكرمين",
     "transliteration": "bimā ghafara lī rabbī wajaʿalanī mina l-muk'ramīna",
-    "translation": "",
+    "translation": "Of how my Lord has forgiven me and placed me among the honored.\"",
     "words": [
       {
         "id": "ya-sin-27-1",
@@ -1810,7 +1836,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que mon Seigneur m’a pardonné et m’a placé parmi ceux qui sont honorés ! »"
   },
   {
     "id": "ya-sin-28",
@@ -1819,7 +1846,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَآ أَنزَلْنَا عَلَىٰ قَوْمِهِۦ مِنۢ بَعْدِهِۦ مِن جُندٍ مِّنَ ٱلسَّمَآءِ وَمَا كُنَّا مُنزِلِينَ",
     "textSimple": " ومآ أنزلنا على قومه من بعده من جند من ٱلسمآء وما كنا منزلين",
     "transliteration": "wamā anzalnā ʿalā qawmihi min baʿdihi min jundin mina l-samāi wamā kunnā munzilīna",
-    "translation": "",
+    "translation": "And We did not send down upon his people after him any soldiers from the heaven, nor would We have done so.",
     "words": [
       {
         "id": "ya-sin-28-1",
@@ -1913,7 +1940,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne fîmes descendre du ciel, après lui, aucune armée sur son peuple, et Nous ne comptions pas en faire descendre."
   },
   {
     "id": "ya-sin-29",
@@ -1922,7 +1950,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ خَـٰمِدُونَ",
     "textSimple": "إن كانت إلا صيحة وحدة فإذا هم خـمدون",
     "transliteration": "in kānat illā ṣayḥatan wāḥidatan fa-idhā hum khāmidūna",
-    "translation": "",
+    "translation": "It was not but one shout, and immediately they were extinguished.",
     "words": [
       {
         "id": "ya-sin-29-1",
@@ -1981,7 +2009,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y eut qu’un seul Cri, et les voilà inertes."
   },
   {
     "id": "ya-sin-30",
@@ -1990,7 +2019,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰحَسْرَةً عَلَى ٱلْعِبَادِ ۚ مَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "يـحسرة على ٱلعباد  ما يأتيهم من رسول إلا كانوا به يستهزءون",
     "transliteration": "yāḥasratan ʿalā l-ʿibādi mā yatīhim min rasūlin illā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "How regretful for the servants. There did not come to them any messenger except that they used to ridicule him.",
     "words": [
       {
         "id": "ya-sin-30-1",
@@ -2070,7 +2099,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien triste (est la conduite des) humains ! Jamais Messager ne vient vers eux sans qu’ils ne le tournent en dérision !"
   },
   {
     "id": "ya-sin-31",
@@ -2079,7 +2109,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ",
     "textSimple": "ألم يروا كم أهلكنا قبلهم من ٱلقرون أنهم إليهم لا يرجعون",
     "transliteration": "alam yaraw kam ahlaknā qablahum mina l-qurūni annahum ilayhim lā yarjiʿūna",
-    "translation": "",
+    "translation": "Have they not considered how many generations We destroyed before them - that they to them will not return?",
     "words": [
       {
         "id": "ya-sin-31-1",
@@ -2159,7 +2189,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas vu combien de générations Nous avons fait périr avant eux et qu’ils ne verront plus vers eux revenir ?"
   },
   {
     "id": "ya-sin-32",
@@ -2168,7 +2199,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كُلٌّ لَّمَّا جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
     "textSimple": "وإن كل لما جميع لدينا محضرون",
     "transliteration": "wa-in kullun lammā jamīʿun ladaynā muḥ'ḍarūna",
-    "translation": "",
+    "translation": "And indeed, all of them will yet be brought present before Us.",
     "words": [
       {
         "id": "ya-sin-32-1",
@@ -2213,7 +2244,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or tous devant Nous devront comparaître."
   },
   {
     "id": "ya-sin-33",
@@ -2222,7 +2254,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَءَايَةٌ لَّهُمُ ٱلْأَرْضُ ٱلْمَيْتَةُ أَحْيَيْنَـٰهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ",
     "textSimple": "وءاية لهم ٱلأرض ٱلميتة أحيينـها وأخرجنا منها حبا فمنه يأكلون",
     "transliteration": "waāyatun lahumu l-arḍu l-maytatu aḥyaynāhā wa-akhrajnā min'hā ḥabban famin'hu yakulūna",
-    "translation": "",
+    "translation": "And a sign for them is the dead earth. We have brought it to life and brought forth from it grain, and from it they eat.",
     "words": [
       {
         "id": "ya-sin-33-1",
@@ -2295,7 +2327,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Signe pour eux est la terre déjà morte que Nous faisons revivre, et de laquelle Nous faisons sortir des grains dont ils se nourrissent."
   },
   {
     "id": "ya-sin-34",
@@ -2304,7 +2337,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا فِيهَا جَنَّـٰتٍ مِّن نَّخِيلٍ وَأَعْنَـٰبٍ وَفَجَّرْنَا فِيهَا مِنَ ٱلْعُيُونِ",
     "textSimple": "وجعلنا فيها جنـت من نخيل وأعنـب وفجرنا فيها من ٱلعيون",
     "transliteration": "wajaʿalnā fīhā jannātin min nakhīlin wa-aʿnābin wafajjarnā fīhā mina l-ʿuyūni",
-    "translation": "",
+    "translation": "And We placed therein gardens of palm trees and grapevines and caused to burst forth therefrom some springs -",
     "words": [
       {
         "id": "ya-sin-34-1",
@@ -2377,7 +2410,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous y avons placé des jardins de palmiers et de vignes, et nous y avons fait jaillir des sources,"
   },
   {
     "id": "ya-sin-35",
@@ -2386,7 +2420,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لِيَأْكُلُوا۟ مِن ثَمَرِهِۦ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ",
     "textSimple": "ليأكلوا من ثمره وما عملته أيديهم  أفلا يشكرون",
     "transliteration": "liyakulū min thamarihi wamā ʿamilathu aydīhim afalā yashkurūna",
-    "translation": "",
+    "translation": "That they may eat of His fruit. And their hands have not produced it, so will they not be grateful?",
     "words": [
       {
         "id": "ya-sin-35-1",
@@ -2445,7 +2479,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin qu’ils se nourrissent de Ses fruits, que leurs propres mains n’ont point produits. N’en rendent-ils pas grâces ?"
   },
   {
     "id": "ya-sin-36",
@@ -2454,7 +2489,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "سُبْحَـٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
     "textSimple": "سبحـن ٱلذى خلق ٱلأزوج كلها مما تنبت ٱلأرض ومن أنفسهم ومما لا يعلمون",
     "transliteration": "sub'ḥāna alladhī khalaqa l-azwāja kullahā mimmā tunbitu l-arḍu wamin anfusihim wamimmā lā yaʿlamūna",
-    "translation": "",
+    "translation": "Exalted is He who created all pairs - from what the earth grows and from themselves and from that which they do not know.",
     "words": [
       {
         "id": "ya-sin-36-1",
@@ -2548,7 +2583,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire soit rendue à Celui Qui a créé tous les couples qui poussent à partir de la terre, d’eux-mêmes, et de ce dont ils n’ont aucune connaissance !"
   },
   {
     "id": "ya-sin-37",
@@ -2557,7 +2593,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَءَايَةٌ لَّهُمُ ٱلَّيْلُ نَسْلَخُ مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ",
     "textSimple": "وءاية لهم ٱليل نسلخ منه ٱلنهار فإذا هم مظلمون",
     "transliteration": "waāyatun lahumu al-laylu naslakhu min'hu l-nahāra fa-idhā hum muẓ'limūna",
-    "translation": "",
+    "translation": "And a sign for them is the night. We remove from it the [light of] day, so they are [left] in darkness.",
     "words": [
       {
         "id": "ya-sin-37-1",
@@ -2623,7 +2659,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Signe pour eux est aussi la nuit dont Nous dépouillons le jour, et les voilà dans les ténèbres."
   },
   {
     "id": "ya-sin-38",
@@ -2632,7 +2669,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلشَّمْسُ تَجْرِى لِمُسْتَقَرٍّ لَّهَا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
     "textSimple": "وٱلشمس تجرى لمستقر لها  ذلك تقدير ٱلعزيز ٱلعليم",
     "transliteration": "wal-shamsu tajrī limus'taqarrin lahā dhālika taqdīru l-ʿazīzi l-ʿalīmi",
-    "translation": "",
+    "translation": "And the sun runs [on course] toward its stopping point. That is the determination of the Exalted in Might, the Knowing.",
     "words": [
       {
         "id": "ya-sin-38-1",
@@ -2691,7 +2728,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le soleil poursuit sa course vers un repère qui lui est propre : voilà la détermination du Tout -Puissant, de l’Omniscient."
   },
   {
     "id": "ya-sin-39",
@@ -2700,7 +2738,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْقَمَرَ قَدَّرْنَـٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ ٱلْقَدِيمِ",
     "textSimple": "وٱلقمر قدرنـه منازل حتى عاد كٱلعرجون ٱلقديم",
     "transliteration": "wal-qamara qaddarnāhu manāzila ḥattā ʿāda kal-ʿur'jūni l-qadīmi",
-    "translation": "",
+    "translation": "And the moon - We have determined for it phases, until it returns [appearing] like the old date stalk.",
     "words": [
       {
         "id": "ya-sin-39-1",
@@ -2752,7 +2790,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À la lune Nous avons déterminé des phases jusqu’à ce qu’elle devienne comme une vieille branche d’un régime de dattes."
   },
   {
     "id": "ya-sin-40",
@@ -2761,7 +2800,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لَا ٱلشَّمْسُ يَنۢبَغِى لَهَآ أَن تُدْرِكَ ٱلْقَمَرَ وَلَا ٱلَّيْلُ سَابِقُ ٱلنَّهَارِ ۚ وَكُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
     "textSimple": "لا ٱلشمس ينبغى لهآ أن تدرك ٱلقمر ولا ٱليل سابق ٱلنهار  وكل فى فلك يسبحون",
     "transliteration": "lā l-shamsu yanbaghī lahā an tud'rika l-qamara walā al-laylu sābiqu l-nahāri wakullun fī falakin yasbaḥūna",
-    "translation": "",
+    "translation": "It is not allowable [i.e., possible] for the sun to reach the moon, nor does the night overtake the day, but each, in an orbit, is swimming.",
     "words": [
       {
         "id": "ya-sin-40-1",
@@ -2869,7 +2908,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ni le soleil ne devra rattraper la lune, ni la nuit devancer le jour : chacun navigue sur une orbite."
   },
   {
     "id": "ya-sin-41",
@@ -2878,7 +2918,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَءَايَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
     "textSimple": "وءاية لهم أنا حملنا ذريتهم فى ٱلفلك ٱلمشحون",
     "transliteration": "waāyatun lahum annā ḥamalnā dhurriyyatahum fī l-ful'ki l-mashḥūni",
-    "translation": "",
+    "translation": "And a sign for them is that We carried their forefathers in a laden ship.",
     "words": [
       {
         "id": "ya-sin-41-1",
@@ -2937,7 +2977,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Signe encore pour eux est que Nous avons transporté leur descendance sur l’Arche chargée."
   },
   {
     "id": "ya-sin-42",
@@ -2946,7 +2987,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِۦ مَا يَرْكَبُونَ",
     "textSimple": "وخلقنا لهم من مثله ما يركبون",
     "transliteration": "wakhalaqnā lahum min mith'lihi mā yarkabūna",
-    "translation": "",
+    "translation": "And We created for them from the likes of it that which they ride.",
     "words": [
       {
         "id": "ya-sin-42-1",
@@ -2991,7 +3032,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons créé pour eux des (vaisseaux) semblables sur lesquels ils peuvent embarquer."
   },
   {
     "id": "ya-sin-43",
@@ -3000,7 +3042,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
     "textSimple": "وإن نشأ نغرقهم فلا صريخ لهم ولا هم ينقذون",
     "transliteration": "wa-in nasha nugh'riq'hum falā ṣarīkha lahum walā hum yunqadhūna",
-    "translation": "",
+    "translation": "And if We should will, We could drown them; then no one responding to a cry would there be for them, nor would they be saved",
     "words": [
       {
         "id": "ya-sin-43-1",
@@ -3066,7 +3108,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous le voulions, Nous les noierions. Nul ne pourrait venir à leur secours et ils ne seraient pas sauvés."
   },
   {
     "id": "ya-sin-44",
@@ -3075,7 +3118,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا رَحْمَةً مِّنَّا وَمَتَـٰعًا إِلَىٰ حِينٍ",
     "textSimple": "إلا رحمة منا ومتـعا إلى حين",
     "transliteration": "illā raḥmatan minnā wamatāʿan ilā ḥīnin",
-    "translation": "",
+    "translation": "Except as a mercy from Us and provision for a time.",
     "words": [
       {
         "id": "ya-sin-44-1",
@@ -3120,7 +3163,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sauf par une miséricorde (venant) de Nous, et pour les faire jouir de (ce bas monde) pour quelque temps encore."
   },
   {
     "id": "ya-sin-45",
@@ -3129,7 +3173,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "وإذا قيل لهم ٱتقوا ما بين أيديكم وما خلفكم لعلكم ترحمون",
     "transliteration": "wa-idhā qīla lahumu ittaqū mā bayna aydīkum wamā khalfakum laʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "But when it is said to them, \"Beware of what is before you and what is behind you; perhaps you will receive mercy...\"",
     "words": [
       {
         "id": "ya-sin-45-1",
@@ -3209,7 +3253,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il leur est dit : « Craignez ce qu’il y a devant vous et ce qu’il y a derrière vous, peut-être vous sera-t-il fait miséricorde ! » (ils n’y prêtent aucune attention)."
   },
   {
     "id": "ya-sin-46",
@@ -3218,7 +3263,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَأْتِيهِم مِّنْ ءَايَةٍ مِّنْ ءَايَـٰتِ رَبِّهِمْ إِلَّا كَانُوا۟ عَنْهَا مُعْرِضِينَ",
     "textSimple": "وما تأتيهم من ءاية من ءايـت ربهم إلا كانوا عنها معرضين",
     "transliteration": "wamā tatīhim min āyatin min āyāti rabbihim illā kānū ʿanhā muʿ'riḍīna",
-    "translation": "",
+    "translation": "And no sign comes to them from the signs of their Lord except that they are from it turning away.",
     "words": [
       {
         "id": "ya-sin-46-1",
@@ -3298,7 +3343,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucun Signe ne leur parvient, parmi les Signes de leur Seigneur, dont ils ne se détournent insouciants."
   },
   {
     "id": "ya-sin-47",
@@ -3307,7 +3353,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "وإذا قيل لهم أنفقوا مما رزقكم ٱلله قال ٱلذين كفروا للذين ءامنوٓا أنطعم من لو يشآء ٱلله أطعمهٓ إن أنتم إلا فى ضلـل مبين",
     "transliteration": "wa-idhā qīla lahum anfiqū mimmā razaqakumu l-lahu qāla alladhīna kafarū lilladhīna āmanū anuṭ'ʿimu man law yashāu l-lahu aṭʿamahu in antum illā fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "And when it is said to them, \"Spend from that which Allāh has provided for you,\" those who disbelieve say to those who believe, \"Should we feed one whom, if Allāh had willed, He would have fed? You are not but in clear error.\"",
     "words": [
       {
         "id": "ya-sin-47-1",
@@ -3478,7 +3524,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est dit : « Dépensez de ce qu’Allah vous a dispensé ! » les mécréants disent aux croyants : « Allons-nous nourrir celui qu’Allah, s’Il le voulait, nourrirait Lui-même ? Vous êtes manifestement dans l’erreur ! »"
   },
   {
     "id": "ya-sin-48",
@@ -3487,7 +3534,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلوعد إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When is this promise, if you should be truthful?\"",
     "words": [
       {
         "id": "ya-sin-48-1",
@@ -3539,7 +3586,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent aussi : « À quand donc cette promesse si ce que vous dites est vrai ? »"
   },
   {
     "id": "ya-sin-49",
@@ -3548,7 +3596,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "مَا يَنظُرُونَ إِلَّا صَيْحَةً وَٰحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ",
     "textSimple": "ما ينظرون إلا صيحة وحدة تأخذهم وهم يخصمون",
     "transliteration": "mā yanẓurūna illā ṣayḥatan wāḥidatan takhudhuhum wahum yakhiṣṣimūna",
-    "translation": "",
+    "translation": "They do not await except one blast which will seize them while they are disputing.",
     "words": [
       {
         "id": "ya-sin-49-1",
@@ -3607,7 +3655,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’ont à attendre qu’un seul Cri qui les surprendra pendant qu’ils se disputent."
   },
   {
     "id": "ya-sin-50",
@@ -3616,7 +3665,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا يَسْتَطِيعُونَ تَوْصِيَةً وَلَآ إِلَىٰٓ أَهْلِهِمْ يَرْجِعُونَ",
     "textSimple": "فلا يستطيعون توصية ولآ إلىٓ أهلهم يرجعون",
     "transliteration": "falā yastaṭīʿūna tawṣiyatan walā ilā ahlihim yarjiʿūna",
-    "translation": "",
+    "translation": "And they will not be able [to give] any instruction, nor to their people can they return.",
     "words": [
       {
         "id": "ya-sin-50-1",
@@ -3668,7 +3717,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne pourront alors dire leurs dernières volontés, ni ne pourront revenir auprès de leurs familles."
   },
   {
     "id": "ya-sin-51",
@@ -3677,7 +3727,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
     "textSimple": "ونفخ فى ٱلصور فإذا هم من ٱلأجداث إلى ربهم ينسلون",
     "transliteration": "wanufikha fī l-ṣūri fa-idhā hum mina l-ajdāthi ilā rabbihim yansilūna",
-    "translation": "",
+    "translation": "And the Horn will be blown; and at once from the graves to their Lord they will hasten.",
     "words": [
       {
         "id": "ya-sin-51-1",
@@ -3750,7 +3800,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il sera soufflé dans le Cor, et voilà que, (sortis) des tombes, ils accourront tous vers leur Seigneur."
   },
   {
     "id": "ya-sin-52",
@@ -3759,7 +3810,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَـٰذَا مَا وَعَدَ ٱلرَّحْمَـٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ",
     "textSimple": "قالوا يـويلنا من بعثنا من مرقدنا   هـذا ما وعد ٱلرحمـن وصدق ٱلمرسلون",
     "transliteration": "qālū yāwaylanā man baʿathanā min marqadinā hādhā mā waʿada l-raḥmānu waṣadaqa l-mur'salūna",
-    "translation": "",
+    "translation": "They will say, \"O woe to us! Who has raised us up from our sleeping place?\" [The reply will be], \"This is what the Most Merciful had promised, and the messengers told the truth.\"",
     "words": [
       {
         "id": "ya-sin-52-1",
@@ -3846,7 +3897,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Malheur à nous ! s’écrieront-ils. Qui nous a donc repris à ce lieu de sommeil qui était le nôtre ? » Voilà ce que le Tout Clément avait promis, et les Messagers disaient vrai."
   },
   {
     "id": "ya-sin-53",
@@ -3855,7 +3907,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
     "textSimple": "إن كانت إلا صيحة وحدة فإذا هم جميع لدينا محضرون",
     "transliteration": "in kānat illā ṣayḥatan wāḥidatan fa-idhā hum jamīʿun ladaynā muḥ'ḍarūna",
-    "translation": "",
+    "translation": "It will not be but one blast, and at once they are all brought present before Us.",
     "words": [
       {
         "id": "ya-sin-53-1",
@@ -3928,7 +3980,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y aura qu’un seul Cri, et tous devant Nous comparaîtront."
   },
   {
     "id": "ya-sin-54",
@@ -3937,7 +3990,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْـًٔا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "فٱليوم لا تظلم نفس شيـٔا ولا تجزون إلا ما كنتم تعملون",
     "transliteration": "fal-yawma lā tuẓ'lamu nafsun shayan walā tuj'zawna illā mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "So today [i.e., the Day of Judgement] no soul will be wronged at all, and you will not be recompensed except for what you used to do.",
     "words": [
       {
         "id": "ya-sin-54-1",
@@ -4017,7 +4070,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, aucune âme ne sera en rien lésée. Et vous ne serez rétribués que pour ce que vous faisiez."
   },
   {
     "id": "ya-sin-55",
@@ -4026,7 +4080,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ أَصْحَـٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍ فَـٰكِهُونَ",
     "textSimple": "إن أصحـب ٱلجنة ٱليوم فى شغل فـكهون",
     "transliteration": "inna aṣḥāba l-janati l-yawma fī shughulin fākihūna",
-    "translation": "",
+    "translation": "Indeed the companions of Paradise, that Day, will be amused in [joyful] occupation -",
     "words": [
       {
         "id": "ya-sin-55-1",
@@ -4078,7 +4132,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hôtes du Paradis seront, ce jour-là, tout occupés à jouir de leur félicité."
   },
   {
     "id": "ya-sin-56",
@@ -4087,7 +4142,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "هُمْ وَأَزْوَٰجُهُمْ فِى ظِلَـٰلٍ عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ",
     "textSimple": "هم وأزوجهم فى ظلـل على ٱلأرآئك متكـٔون",
     "transliteration": "hum wa-azwājuhum fī ẓilālin ʿalā l-arāiki muttakiūna",
-    "translation": "",
+    "translation": "They and their spouses - in shade, reclining on adorned couches.",
     "words": [
       {
         "id": "ya-sin-56-1",
@@ -4139,7 +4194,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Eux et leurs épouses seront sous les ombrages, accoudés sur les divans."
   },
   {
     "id": "ya-sin-57",
@@ -4148,7 +4204,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لَهُمْ فِيهَا فَـٰكِهَةٌ وَلَهُم مَّا يَدَّعُونَ",
     "textSimple": "لهم فيها فـكهة ولهم ما يدعون",
     "transliteration": "lahum fīhā fākihatun walahum mā yaddaʿūna",
-    "translation": "",
+    "translation": "For them therein is fruit, and for them is whatever they request [or wish]",
     "words": [
       {
         "id": "ya-sin-57-1",
@@ -4193,7 +4249,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y auront des fruits et tout ce qu’ils demanderont."
   },
   {
     "id": "ya-sin-58",
@@ -4202,7 +4259,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "سَلَـٰمٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",
     "textSimple": "سلـم قولا من رب رحيم",
     "transliteration": "salāmun qawlan min rabbin raḥīmin",
-    "translation": "",
+    "translation": "[And] \"Peace,\" a word from a Merciful Lord.",
     "words": [
       {
         "id": "ya-sin-58-1",
@@ -4240,7 +4297,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Paix ! (Salâm) ». Telle sera la Parole d’un Seigneur Tout Miséricordieux."
   },
   {
     "id": "ya-sin-59",
@@ -4249,7 +4307,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱمْتَـٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ",
     "textSimple": "وٱمتـزوا ٱليوم أيها ٱلمجرمون",
     "transliteration": "wa-im'tāzū l-yawma ayyuhā l-muj'rimūna",
-    "translation": "",
+    "translation": "[Then He will say], \"But stand apart today, you criminals.",
     "words": [
       {
         "id": "ya-sin-59-1",
@@ -4280,7 +4338,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et aux autres, il sera dit) : « Et vous criminels ! Mettez-vous de côté, aujourd’hui!"
   },
   {
     "id": "ya-sin-60",
@@ -4289,7 +4348,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَـٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَـٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
     "textSimple": " ألم أعهد إليكم يـبنىٓ ءادم أن لا تعبدوا ٱلشيطـن  إنه لكم عدو مبين",
     "transliteration": "alam aʿhad ilaykum yābanī ādama an lā taʿbudū l-shayṭāna innahu lakum ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "Did I not enjoin upon you, O children of Adam, that you not worship Satan - [for] indeed, he is to you a clear enemy -",
     "words": [
       {
         "id": "ya-sin-60-1",
@@ -4383,7 +4442,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous ai-Je pas enjoint, ô fils d’Adam, de ne point adorer Satan, qui est votre ennemi avéré,"
   },
   {
     "id": "ya-sin-61",
@@ -4392,7 +4452,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنِ ٱعْبُدُونِى ۚ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
     "textSimple": "وأن ٱعبدونى  هـذا صرط مستقيم",
     "transliteration": "wa-ani uʿ'budūnī hādhā ṣirāṭun mus'taqīmun",
-    "translation": "",
+    "translation": "And that you worship [only] Me? This is a straight path.",
     "words": [
       {
         "id": "ya-sin-61-1",
@@ -4430,7 +4490,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et de M’adorer, car telle est la voie droite?"
   },
   {
     "id": "ya-sin-62",
@@ -4439,7 +4500,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ",
     "textSimple": "ولقد أضل منكم جبلا كثيرا  أفلم تكونوا تعقلون",
     "transliteration": "walaqad aḍalla minkum jibillan kathīran afalam takūnū taʿqilūna",
-    "translation": "",
+    "translation": "And he had already led astray from among you much of creation, so did you not use reason?",
     "words": [
       {
         "id": "ya-sin-62-1",
@@ -4498,7 +4559,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a déjà fourvoyé bon nombre d’entre vous, ne pouviez-vous donc comprendre ?"
   },
   {
     "id": "ya-sin-63",
@@ -4507,7 +4569,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى كُنتُمْ تُوعَدُونَ",
     "textSimple": "هـذه جهنم ٱلتى كنتم توعدون",
     "transliteration": "hādhihi jahannamu allatī kuntum tūʿadūna",
-    "translation": "",
+    "translation": "This is the Hellfire which you were promised.",
     "words": [
       {
         "id": "ya-sin-63-1",
@@ -4545,7 +4607,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici la Géhenne qui vous était promise."
   },
   {
     "id": "ya-sin-64",
@@ -4554,7 +4617,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
     "textSimple": "ٱصلوها ٱليوم بما كنتم تكفرون",
     "transliteration": "iṣ'lawhā l-yawma bimā kuntum takfurūna",
-    "translation": "",
+    "translation": "[Enter to] burn therein today for what you used to deny.\"",
     "words": [
       {
         "id": "ya-sin-64-1",
@@ -4592,7 +4655,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Brûlez-y, aujourd’hui, pour avoir été mécréants ! »"
   },
   {
     "id": "ya-sin-65",
@@ -4601,7 +4665,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "ٱليوم نختم علىٓ أفوههم وتكلمنآ أيديهم وتشهد أرجلهم بما كانوا يكسبون",
     "transliteration": "al-yawma nakhtimu ʿalā afwāhihim watukallimunā aydīhim watashhadu arjuluhum bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "That Day, We will seal over their mouths, and their hands will speak to Us, and their feet will testify about what they used to earn.",
     "words": [
       {
         "id": "ya-sin-65-1",
@@ -4681,7 +4745,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, Nous scellerons leurs bouches, mais leurs mains Nous parleront et leurs pieds témoigneront de ce qu’ils auront acquis (comme œuvres)."
   },
   {
     "id": "ya-sin-66",
@@ -4690,7 +4755,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ",
     "textSimple": "ولو نشآء لطمسنا علىٓ أعينهم فٱستبقوا ٱلصرط فأنى يبصرون",
     "transliteration": "walaw nashāu laṭamasnā ʿalā aʿyunihim fa-is'tabaqū l-ṣirāṭa fa-annā yub'ṣirūna",
-    "translation": "",
+    "translation": "And if We willed, We could have obliterated their eyes, and they would race to [find] the path, and how could they see?",
     "words": [
       {
         "id": "ya-sin-66-1",
@@ -4756,7 +4821,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous le voulions, Nous leur ôterions la vue et ils se précipiteraient (pour trouver) la voie. Mais comment donc pourraient-ils la voir ?"
   },
   {
     "id": "ya-sin-67",
@@ -4765,7 +4831,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ نَشَآءُ لَمَسَخْنَـٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَـٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ",
     "textSimple": "ولو نشآء لمسخنـهم على مكانتهم فما ٱستطـعوا مضيا ولا يرجعون",
     "transliteration": "walaw nashāu lamasakhnāhum ʿalā makānatihim famā is'taṭāʿū muḍiyyan walā yarjiʿūna",
-    "translation": "",
+    "translation": "And if We willed, We could have deformed them, [paralyzing them] in their places so they would not be able to proceed, nor could they return.",
     "words": [
       {
         "id": "ya-sin-67-1",
@@ -4838,7 +4904,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous le voulions, Nous leur donnerions d’autres aspects (en les clouant) à leurs places, et alors ils ne pourraient ni avancer ni reculer."
   },
   {
     "id": "ya-sin-68",
@@ -4847,7 +4914,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
     "textSimple": "ومن نعمره ننكسه فى ٱلخلق  أفلا يعقلون",
     "transliteration": "waman nuʿammir'hu nunakkis'hu fī l-khalqi afalā yaʿqilūna",
-    "translation": "",
+    "translation": "And he to whom We grant long life We reverse in creation; so will they not understand?",
     "words": [
       {
         "id": "ya-sin-68-1",
@@ -4899,7 +4966,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui à qui Nous donnons longue vie, Nous vouons sa création à la décrépitude. N’entendent-ils donc pas raison ?"
   },
   {
     "id": "ya-sin-69",
@@ -4908,7 +4976,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا عَلَّمْنَـٰهُ ٱلشِّعْرَ وَمَا يَنۢبَغِى لَهُۥٓ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْءَانٌ مُّبِينٌ",
     "textSimple": "وما علمنـه ٱلشعر وما ينبغى لهٓ  إن هو إلا ذكر وقرءان مبين",
     "transliteration": "wamā ʿallamnāhu l-shiʿ'ra wamā yanbaghī lahu in huwa illā dhik'run waqur'ānun mubīnun",
-    "translation": "",
+    "translation": "And We did not give him [i.e., Prophet Muḥammad (ﷺ)] knowledge of poetry, nor is it befitting for him. It is not but a message and a clear Qur’ān",
     "words": [
       {
         "id": "ya-sin-69-1",
@@ -4995,7 +5063,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne lui (Muhammad) avons jamais enseigné la poésie, et cela ne lui sied point. Ce n’est qu’un Rappel et une Lecture parfaitement claire,"
   },
   {
     "id": "ya-sin-70",
@@ -5004,7 +5073,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لِّيُنذِرَ مَن كَانَ حَيًّا وَيَحِقَّ ٱلْقَوْلُ عَلَى ٱلْكَـٰفِرِينَ",
     "textSimple": "لينذر من كان حيا ويحق ٱلقول على ٱلكـفرين",
     "transliteration": "liyundhira man kāna ḥayyan wayaḥiqqa l-qawlu ʿalā l-kāfirīna",
-    "translation": "",
+    "translation": "To warn whoever is alive and justify the word [i.e., decree] against the disbelievers.",
     "words": [
       {
         "id": "ya-sin-70-1",
@@ -5063,7 +5132,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour qu’il avertisse quiconque est vivant et que soit justifié l’accomplissement de la Parole (d’Allah) contre les mécréants."
   },
   {
     "id": "ya-sin-71",
@@ -5072,7 +5142,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَـٰمًا فَهُمْ لَهَا مَـٰلِكُونَ",
     "textSimple": "أولم يروا أنا خلقنا لهم مما عملت أيدينآ أنعـما فهم لها مـلكون",
     "transliteration": "awalam yaraw annā khalaqnā lahum mimmā ʿamilat aydīnā anʿāman fahum lahā mālikūna",
-    "translation": "",
+    "translation": "Do they not see that We have created for them from what Our hands have made, grazing livestock, and [then] they are their owners?",
     "words": [
       {
         "id": "ya-sin-71-1",
@@ -5159,7 +5229,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas vu que Nous leur avons créé, parmi (ce que Nos Mains) ont fait, des bestiaux qu’ils peuvent s’approprier ?"
   },
   {
     "id": "ya-sin-72",
@@ -5168,7 +5239,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَذَلَّلْنَـٰهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
     "textSimple": "وذللنـها لهم فمنها ركوبهم ومنها يأكلون",
     "transliteration": "wadhallalnāhā lahum famin'hā rakūbuhum wamin'hā yakulūna",
-    "translation": "",
+    "translation": "And We have tamed them for them, so some of them they ride, and some of them they eat.",
     "words": [
       {
         "id": "ya-sin-72-1",
@@ -5213,7 +5284,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les leur avons soumis afin que pour les uns (ces bestiaux) servent de montures et pour les autres de nourriture."
   },
   {
     "id": "ya-sin-73",
@@ -5222,7 +5294,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهُمْ فِيهَا مَنَـٰفِعُ وَمَشَارِبُ ۖ أَفَلَا يَشْكُرُونَ",
     "textSimple": "ولهم فيها منـفع ومشارب  أفلا يشكرون",
     "transliteration": "walahum fīhā manāfiʿu wamashāribu afalā yashkurūna",
-    "translation": "",
+    "translation": "And for them therein are [other] benefits and drinks, so will they not be grateful?",
     "words": [
       {
         "id": "ya-sin-73-1",
@@ -5267,7 +5339,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y trouvent diverses utilités et en obtiennent des boissons. Ne seront-ils reconnaissants ?"
   },
   {
     "id": "ya-sin-74",
@@ -5276,7 +5349,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةً لَّعَلَّهُمْ يُنصَرُونَ",
     "textSimple": "وٱتخذوا من دون ٱلله ءالهة لعلهم ينصرون",
     "transliteration": "wa-ittakhadhū min dūni l-lahi ālihatan laʿallahum yunṣarūna",
-    "translation": "",
+    "translation": "But they have taken besides Allāh [false] deities that perhaps they would be helped.",
     "words": [
       {
         "id": "ya-sin-74-1",
@@ -5328,7 +5401,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont pris en dehors d’Allah des divinités espérant obtenir leur secours."
   },
   {
     "id": "ya-sin-75",
@@ -5337,7 +5411,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُندٌ مُّحْضَرُونَ",
     "textSimple": "لا يستطيعون نصرهم وهم لهم جند محضرون",
     "transliteration": "lā yastaṭīʿūna naṣrahum wahum lahum jundun muḥ'ḍarūna",
-    "translation": "",
+    "translation": "They are not able to help them, and they [themselves] are for them soldiers in attendance.",
     "words": [
       {
         "id": "ya-sin-75-1",
@@ -5389,7 +5463,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais elles ne pourront les secourir et formeront une armée qui fera front contre eux."
   },
   {
     "id": "ya-sin-76",
@@ -5398,7 +5473,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
     "textSimple": "فلا يحزنك قولهم  إنا نعلم ما يسرون وما يعلنون",
     "transliteration": "falā yaḥzunka qawluhum innā naʿlamu mā yusirrūna wamā yuʿ'linūna",
-    "translation": "",
+    "translation": "So let not their speech grieve you. Indeed, We know what they conceal and what they declare.",
     "words": [
       {
         "id": "ya-sin-76-1",
@@ -5464,7 +5539,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que leurs propos ne t’affligent donc point ! Car Nous savons ce qu’ils gardent secret et ce qu’ils révèlent au grand jour."
   },
   {
     "id": "ya-sin-77",
@@ -5473,7 +5549,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَ ٱلْإِنسَـٰنُ أَنَّا خَلَقْنَـٰهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
     "textSimple": "أولم ير ٱلإنسـن أنا خلقنـه من نطفة فإذا هو خصيم مبين",
     "transliteration": "awalam yara l-insānu annā khalaqnāhu min nuṭ'fatin fa-idhā huwa khaṣīmun mubīnun",
-    "translation": "",
+    "translation": "Does man not consider that We created him from a [mere] sperm-drop - then at once he is a clear adversary?",
     "words": [
       {
         "id": "ya-sin-77-1",
@@ -5553,7 +5629,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme n’a-t-il pas vu que Nous l’avons créé d’une goutte de sperme ? Et voici qu’il se dresse en adversaire farouche."
   },
   {
     "id": "ya-sin-78",
@@ -5562,7 +5639,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "وَضَرَبَ لَنَا مَثَلًا وَنَسِىَ خَلْقَهُۥ ۖ قَالَ مَن يُحْىِ ٱلْعِظَـٰمَ وَهِىَ رَمِيمٌ",
     "textSimple": "وضرب لنا مثلا ونسى خلقه  قال من يحى ٱلعظـم وهى رميم",
     "transliteration": "waḍaraba lanā mathalan wanasiya khalqahu qāla man yuḥ'yī l-ʿiẓāma wahiya ramīmun",
-    "translation": "",
+    "translation": "And he presents for Us an example and forgets his [own] creation. He says, \"Who will give life to bones while they are disintegrated?\"",
     "words": [
       {
         "id": "ya-sin-78-1",
@@ -5642,7 +5719,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Nous donne un exemple et oublie sa propre création. Il s’écrie : « Qui donc fera revivre les ossements quand ils seront poussière ? »"
   },
   {
     "id": "ya-sin-79",
@@ -5651,7 +5729,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
     "textSimple": "قل يحييها ٱلذىٓ أنشأهآ أول مرة  وهو بكل خلق عليم",
     "transliteration": "qul yuḥ'yīhā alladhī ansha-ahā awwala marratin wahuwa bikulli khalqin ʿalīmun",
-    "translation": "",
+    "translation": "Say, \"He will give them life who produced them the first time; and He is, of all creation, Knowing.\"",
     "words": [
       {
         "id": "ya-sin-79-1",
@@ -5724,7 +5802,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Les fera revivre Celui Qui leur a donné forme la première fois ! C’est Lui Qui, de Toute création, est parfaitement Savant ! »"
   },
   {
     "id": "ya-sin-80",
@@ -5733,7 +5812,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًا فَإِذَآ أَنتُم مِّنْهُ تُوقِدُونَ",
     "textSimple": "ٱلذى جعل لكم من ٱلشجر ٱلأخضر نارا فإذآ أنتم منه توقدون",
     "transliteration": "alladhī jaʿala lakum mina l-shajari l-akhḍari nāran fa-idhā antum min'hu tūqidūna",
-    "translation": "",
+    "translation": "[It is] He who made for you from the green tree, fire, and then from it you ignite.",
     "words": [
       {
         "id": "ya-sin-80-1",
@@ -5813,7 +5892,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui, à partir d’arbres verts, vous a donné le feu, et voilà que vous l’utilisez pour allumer."
   },
   {
     "id": "ya-sin-81",
@@ -5822,7 +5902,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَيْسَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِقَـٰدِرٍ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُم ۚ بَلَىٰ وَهُوَ ٱلْخَلَّـٰقُ ٱلْعَلِيمُ",
     "textSimple": "أوليس ٱلذى خلق ٱلسمـوت وٱلأرض بقـدر علىٓ أن يخلق مثلهم  بلى وهو ٱلخلـق ٱلعليم",
     "transliteration": "awalaysa alladhī khalaqa l-samāwāti wal-arḍa biqādirin ʿalā an yakhluqa mith'lahum balā wahuwa l-khalāqu l-ʿalīmu",
-    "translation": "",
+    "translation": "Is not He who created the heavens and the earth Able to create the likes of them? Yes, [it is so]; and He is the Knowing Creator.",
     "words": [
       {
         "id": "ya-sin-81-1",
@@ -5923,7 +6003,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui a créé les cieux et la terre n’est-Il pas Capable de créer ce qui leur ressemble ? Oui, car Il est le Créateur Suprême, l’Omniscient !"
   },
   {
     "id": "ya-sin-82",
@@ -5932,7 +6013,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَآ أَمْرُهُۥٓ إِذَآ أَرَادَ شَيْـًٔا أَن يَقُولَ لَهُۥ كُن فَيَكُونُ",
     "textSimple": "إنمآ أمرهٓ إذآ أراد شيـٔا أن يقول له كن فيكون",
     "transliteration": "innamā amruhu idhā arāda shayan an yaqūla lahu kun fayakūnu",
-    "translation": "",
+    "translation": "His command is only when He intends a thing that He says to it, \"Be,\" and it is.",
     "words": [
       {
         "id": "ya-sin-82-1",
@@ -6005,7 +6086,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’a d’autre commandement, quand Il veut une chose, que de lui dire : « Sois ! » et elle est."
   },
   {
     "id": "ya-sin-83",
@@ -6014,7 +6096,7 @@ export const YA_SIN_AYAHS: Ayah[] = [
     "textUthmani": "فَسُبْحَـٰنَ ٱلَّذِى بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "فسبحـن ٱلذى بيده ملكوت كل شىء وإليه ترجعون",
     "transliteration": "fasub'ḥāna alladhī biyadihi malakūtu kulli shayin wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "So exalted is He in whose hand is the realm of all things, and to Him you will be returned.",
     "words": [
       {
         "id": "ya-sin-83-1",
@@ -6073,7 +6155,8 @@ export const YA_SIN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire soit donc rendue à Celui Qui, en Sa Main, détient la royauté de Toute chose ! C’est vers Lui que vous serez ramenés !"
   }
 ];
 

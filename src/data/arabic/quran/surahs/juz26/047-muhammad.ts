@@ -11,7 +11,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": " ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ أَضَلَّ أَعْمَـٰلَهُمْ",
     "textSimple": " ٱلذين كفروا وصدوا عن سبيل ٱلله أضل أعمـلهم",
     "transliteration": "alladhīna kafarū waṣaddū ʿan sabīli l-lahi aḍalla aʿmālahum",
-    "translation": "",
+    "translation": "Those who disbelieve and avert [people] from the way of Allāh - He will waste their deeds.",
     "words": [
       {
         "id": "muhammad-1-1",
@@ -70,7 +70,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru et ont détourné (les autres) du chemin d’Allah, (Allah) rendra nulles leurs œuvres."
   },
   {
     "id": "muhammad-2",
@@ -79,7 +80,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَءَامَنُوا۟ بِمَا نُزِّلَ عَلَىٰ مُحَمَّدٍ وَهُوَ ٱلْحَقُّ مِن رَّبِّهِمْ ۙ كَفَّرَ عَنْهُمْ سَيِّـَٔاتِهِمْ وَأَصْلَحَ بَالَهُمْ",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت وءامنوا بما نزل على محمد وهو ٱلحق من ربهم  كفر عنهم سيـٔاتهم وأصلح بالهم",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti waāmanū bimā nuzzila ʿalā muḥammadin wahuwa l-ḥaqu min rabbihim kaffara ʿanhum sayyiātihim wa-aṣlaḥa bālahum",
-    "translation": "",
+    "translation": "And those who believe and do righteous deeds and believe in what has been sent down upon Muḥammad - and it is the truth from their Lord - He will remove from them their misdeeds and amend their condition.",
     "words": [
       {
         "id": "muhammad-2-1",
@@ -208,7 +209,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et accompli les bonnes œuvres, et ont eu foi en ce qui a été révélé à Muhammad – qui est la pure vérité émanant de leur Seigneur – (Allah) rachètera leurs mauvaises actions et rendra meilleures leurs dispositions."
   },
   {
     "id": "muhammad-3",
@@ -217,7 +219,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱلَّذِينَ كَفَرُوا۟ ٱتَّبَعُوا۟ ٱلْبَـٰطِلَ وَأَنَّ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّبَعُوا۟ ٱلْحَقَّ مِن رَّبِّهِمْ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ لِلنَّاسِ أَمْثَـٰلَهُمْ",
     "textSimple": "ذلك بأن ٱلذين كفروا ٱتبعوا ٱلبـطل وأن ٱلذين ءامنوا ٱتبعوا ٱلحق من ربهم  كذلك يضرب ٱلله للناس أمثـلهم",
     "transliteration": "dhālika bi-anna alladhīna kafarū ittabaʿū l-bāṭila wa-anna alladhīna āmanū ittabaʿū l-ḥaqa min rabbihim kadhālika yaḍribu l-lahu lilnnāsi amthālahum",
-    "translation": "",
+    "translation": "That is because those who disbelieve follow falsehood, and those who believe follow the truth from their Lord. Thus does Allāh present to the people their comparisons.",
     "words": [
       {
         "id": "muhammad-3-1",
@@ -346,7 +348,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce que ceux qui ont mécru ont adopté l’erreur, et ceux qui ont cru ont suivi la vérité procédant de leur Seigneur. C’est ainsi qu’Allah donne les exemples aux hommes."
   },
   {
     "id": "muhammad-4",
@@ -355,7 +358,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ فَضَرْبَ ٱلرِّقَابِ حَتَّىٰٓ إِذَآ أَثْخَنتُمُوهُمْ فَشُدُّوا۟ ٱلْوَثَاقَ فَإِمَّا مَنًّۢا بَعْدُ وَإِمَّا فِدَآءً حَتَّىٰ تَضَعَ ٱلْحَرْبُ أَوْزَارَهَا ۚ ذَٰلِكَ وَلَوْ يَشَآءُ ٱللَّهُ لَٱنتَصَرَ مِنْهُمْ وَلَـٰكِن لِّيَبْلُوَا۟ بَعْضَكُم بِبَعْضٍ ۗ وَٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ فَلَن يُضِلَّ أَعْمَـٰلَهُمْ",
     "textSimple": "فإذا لقيتم ٱلذين كفروا فضرب ٱلرقاب حتىٓ إذآ أثخنتموهم فشدوا ٱلوثاق فإما منا بعد وإما فدآء حتى تضع ٱلحرب أوزارها  ذلك ولو يشآء ٱلله لٱنتصر منهم ولـكن ليبلوا بعضكم ببعض  وٱلذين قتلوا فى سبيل ٱلله فلن يضل أعمـلهم",
     "transliteration": "fa-idhā laqītumu alladhīna kafarū faḍarba l-riqābi ḥattā idhā athkhantumūhum fashuddū l-wathāqa fa-immā mannan baʿdu wa-immā fidāan ḥattā taḍaʿa l-ḥarbu awzārahā dhālika walaw yashāu l-lahu la-intaṣara min'hum walākin liyabluwā baʿḍakum bibaʿḍin wa-alladhīna qutilū fī sabīli l-lahi falan yuḍilla aʿmālahum",
-    "translation": "",
+    "translation": "So when you meet those who disbelieve [in battle], strike [their] necks until, when you have inflicted slaughter upon them, then secure [their] bonds, and either [confer] favor afterwards or ransom [them] until the war lays down its burdens. That [is the command]. And if Allāh had willed, He could have taken vengeance upon them [Himself], but [He ordered armed struggle] to test some of you by means of others. And those who are killed in the cause of Allāh - never will He waste their deeds.",
     "words": [
       {
         "id": "muhammad-4-1",
@@ -624,7 +627,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand vous rencontrez (au combat) ceux qui ont mécru, frappez-les à mort, d’estoc et de taille. Une fois que vous aurez pris le dessus sur eux, enchaînez-en solidement les captifs. Après, ce sera soit la libération gracieuse, soit la réclamation d’une rançon, jusqu’à ce que la guerre soit terminée. Cela, et si Allah le voulait, c’est Lui-même Qui Se vengerait d’eux, mais (s’Il ne le fait pas) c’est pour vous éprouver les uns par les autres. Ceux qui seront tués pour la cause d’Allah, (Allah) ne rendra pas vaines leurs œuvres."
   },
   {
     "id": "muhammad-5",
@@ -633,7 +637,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "سَيَهْدِيهِمْ وَيُصْلِحُ بَالَهُمْ",
     "textSimple": "سيهديهم ويصلح بالهم",
     "transliteration": "sayahdīhim wayuṣ'liḥu bālahum",
-    "translation": "",
+    "translation": "He will guide them and amend their condition",
     "words": [
       {
         "id": "muhammad-5-1",
@@ -657,7 +661,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les guidera et rendra meilleures leurs dispositions,"
   },
   {
     "id": "muhammad-6",
@@ -666,7 +671,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَيُدْخِلُهُمُ ٱلْجَنَّةَ عَرَّفَهَا لَهُمْ",
     "textSimple": "ويدخلهم ٱلجنة عرفها لهم",
     "transliteration": "wayud'khiluhumu l-janata ʿarrafahā lahum",
-    "translation": "",
+    "translation": "And admit them to Paradise, which He has made known to them.",
     "words": [
       {
         "id": "muhammad-6-1",
@@ -697,7 +702,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les fera entrer au Paradis qu’Il leur a déjà défini."
   },
   {
     "id": "muhammad-7",
@@ -706,7 +712,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إن تنصروا ٱلله ينصركم ويثبت أقدامكم",
     "transliteration": "yāayyuhā alladhīna āmanū in tanṣurū l-laha yanṣur'kum wayuthabbit aqdāmakum",
-    "translation": "",
+    "translation": "O you who have believed, if you support Allāh, He will support you and plant firmly your feet.",
     "words": [
       {
         "id": "muhammad-7-1",
@@ -772,7 +778,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Si vous soutenez (la cause) d’Allah, Allah vous soutiendra et raffermira vos pas."
   },
   {
     "id": "muhammad-8",
@@ -781,7 +788,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ فَتَعْسًا لَّهُمْ وَأَضَلَّ أَعْمَـٰلَهُمْ",
     "textSimple": "وٱلذين كفروا فتعسا لهم وأضل أعمـلهم",
     "transliteration": "wa-alladhīna kafarū fataʿsan lahum wa-aḍalla aʿmālahum",
-    "translation": "",
+    "translation": "But those who disbelieve - for them is misery, and He will waste their deeds.",
     "words": [
       {
         "id": "muhammad-8-1",
@@ -826,7 +833,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui ont mécru, malheur à eux, et (Allah) rendra nulles leurs œuvres."
   },
   {
     "id": "muhammad-9",
@@ -835,7 +843,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمْ كَرِهُوا۟ مَآ أَنزَلَ ٱللَّهُ فَأَحْبَطَ أَعْمَـٰلَهُمْ",
     "textSimple": "ذلك بأنهم كرهوا مآ أنزل ٱلله فأحبط أعمـلهم",
     "transliteration": "dhālika bi-annahum karihū mā anzala l-lahu fa-aḥbaṭa aʿmālahum",
-    "translation": "",
+    "translation": "That is because they disliked what Allāh revealed, so He rendered worthless their deeds.",
     "words": [
       {
         "id": "muhammad-9-1",
@@ -894,7 +902,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car ils ont en horreur ce qu’Allah a révélé. Voilà pourquoi Il rendra vaines leurs actions."
   },
   {
     "id": "muhammad-10",
@@ -903,7 +912,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ دَمَّرَ ٱللَّهُ عَلَيْهِمْ ۖ وَلِلْكَـٰفِرِينَ أَمْثَـٰلُهَا",
     "textSimple": " أفلم يسيروا فى ٱلأرض فينظروا كيف كان عـقبة ٱلذين من قبلهم  دمر ٱلله عليهم  وللكـفرين أمثـلها",
     "transliteration": "afalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim dammara l-lahu ʿalayhim walil'kāfirīna amthāluhā",
-    "translation": "",
+    "translation": "Have they not traveled through the land and seen how was the end of those before them? Allāh destroyed [everything] over them, and for the disbelievers is something comparable.",
     "words": [
       {
         "id": "muhammad-10-1",
@@ -1018,7 +1027,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils pas parcouru la terre pour voir quel fut le sort de ceux qui les ont précédés ? Allah a tout fait s’écrouler sur eux, et il en sera de même des mécréants."
   },
   {
     "id": "muhammad-11",
@@ -1027,7 +1037,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱللَّهَ مَوْلَى ٱلَّذِينَ ءَامَنُوا۟ وَأَنَّ ٱلْكَـٰفِرِينَ لَا مَوْلَىٰ لَهُمْ",
     "textSimple": "ذلك بأن ٱلله مولى ٱلذين ءامنوا وأن ٱلكـفرين لا مولى لهم",
     "transliteration": "dhālika bi-anna l-laha mawlā alladhīna āmanū wa-anna l-kāfirīna lā mawlā lahum",
-    "translation": "",
+    "translation": "That is because Allāh is the protector of those who have believed and because the disbelievers have no protector.",
     "words": [
       {
         "id": "muhammad-11-1",
@@ -1107,7 +1117,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce qu’Allah est le Protecteur de ceux qui ont cru, cependant que les mécréants nul ne saurait les protéger."
   },
   {
     "id": "muhammad-12",
@@ -1116,7 +1127,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ وَٱلَّذِينَ كَفَرُوا۟ يَتَمَتَّعُونَ وَيَأْكُلُونَ كَمَا تَأْكُلُ ٱلْأَنْعَـٰمُ وَٱلنَّارُ مَثْوًى لَّهُمْ",
     "textSimple": "إن ٱلله يدخل ٱلذين ءامنوا وعملوا ٱلصـلحـت جنـت تجرى من تحتها ٱلأنهـر  وٱلذين كفروا يتمتعون ويأكلون كما تأكل ٱلأنعـم وٱلنار مثوى لهم",
     "transliteration": "inna l-laha yud'khilu alladhīna āmanū waʿamilū l-ṣāliḥāti jannātin tajrī min taḥtihā l-anhāru wa-alladhīna kafarū yatamattaʿūna wayakulūna kamā takulu l-anʿāmu wal-nāru mathwan lahum",
-    "translation": "",
+    "translation": "Indeed, Allāh will admit those who have believed and done righteous deeds to gardens beneath which rivers flow, but those who disbelieve enjoy themselves and eat as grazing livestock eat, and the Fire will be a residence for them.",
     "words": [
       {
         "id": "muhammad-12-1",
@@ -1273,7 +1284,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah recevra ceux qui auront cru et auront accompli les bonnes œuvres en des jardins sous lesquels coulent les rivières. Cependant, les mécréants jouissent (des biens d’ici-bas) et mangent comme des bêtes : le Feu sera leur résidence !"
   },
   {
     "id": "muhammad-13",
@@ -1282,7 +1294,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأَيِّن مِّن قَرْيَةٍ هِىَ أَشَدُّ قُوَّةً مِّن قَرْيَتِكَ ٱلَّتِىٓ أَخْرَجَتْكَ أَهْلَكْنَـٰهُمْ فَلَا نَاصِرَ لَهُمْ",
     "textSimple": "وكأين من قرية هى أشد قوة من قريتك ٱلتىٓ أخرجتك أهلكنـهم فلا ناصر لهم",
     "transliteration": "waka-ayyin min qaryatin hiya ashaddu quwwatan min qaryatika allatī akhrajatka ahlaknāhum falā nāṣira lahum",
-    "translation": "",
+    "translation": "And how many a city was stronger than your city [i.e., Makkah] which drove you out? We destroyed them; and there was no helper for them.",
     "words": [
       {
         "id": "muhammad-13-1",
@@ -1383,7 +1395,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de cités plus puissantes que la tienne, dont tu as été expulsé, avons-Nous fait périr et qui n’eurent aucun secours !"
   },
   {
     "id": "muhammad-14",
@@ -1392,7 +1405,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ كَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُم",
     "textSimple": "أفمن كان على بينة من ربه كمن زين له سوٓء عمله وٱتبعوٓا أهوآءهم",
     "transliteration": "afaman kāna ʿalā bayyinatin min rabbihi kaman zuyyina lahu sūu ʿamalihi wa-ittabaʿū ahwāahum",
-    "translation": "",
+    "translation": "So is he who is on clear evidence from his Lord like him to whom the evil of his work has been made attractive and they follow their [own] desires?",
     "words": [
       {
         "id": "muhammad-14-1",
@@ -1486,7 +1499,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui est muni de la preuve évidente, venant de Son Seigneur, est-il semblable à celui que trompe le faux brillant de ses actions et qui ne fait que suivre ses propres penchants ?"
   },
   {
     "id": "muhammad-15",
@@ -1495,7 +1509,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَـٰرٌ مِّن مَّآءٍ غَيْرِ ءَاسِنٍ وَأَنْهَـٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَـٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّـٰرِبِينَ وَأَنْهَـٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَـٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
     "textSimple": "مثل ٱلجنة ٱلتى وعد ٱلمتقون  فيهآ أنهـر من مآء غير ءاسن وأنهـر من لبن لم يتغير طعمه وأنهـر من خمر لذة للشـربين وأنهـر من عسل مصفى  ولهم فيها من كل ٱلثمرت ومغفرة من ربهم  كمن هو خـلد فى ٱلنار وسقوا مآء حميما فقطع أمعآءهم",
     "transliteration": "mathalu l-janati allatī wuʿida l-mutaqūna fīhā anhārun min māin ghayri āsinin wa-anhārun min labanin lam yataghayyar ṭaʿmuhu wa-anhārun min khamrin ladhatin lilshāribīna wa-anhārun min ʿasalin muṣaffan walahum fīhā min kulli l-thamarāti wamaghfiratun min rabbihim kaman huwa khālidun fī l-nāri wasuqū māan ḥamīman faqaṭṭaʿa amʿāahum",
-    "translation": "",
+    "translation": "Is the description of Paradise, which the righteous are promised, wherein are rivers of water unaltered, rivers of milk the taste of which never changes, rivers of wine delicious to those who drink, and rivers of purified honey, in which they will have from all [kinds of] fruits and forgiveness from their Lord... [Are its inhabitants] like those who abide eternally in the Fire and are given to drink scalding water that will sever their intestines?",
     "words": [
       {
         "id": "muhammad-15-1",
@@ -1806,7 +1820,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 43
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est l’image du Paradis promis aux (hommes) pieux : il y aura des rivières dont l’eau jamais ne s’altère, des rivières de lait à la saveur inchangée, des rivières de vin que ceux qui en boiront trouveront délicieux, et des rivières de miel purifié. Ils y auront à la fois des fruits de toutes sortes et le (généreux) pardon de leur Seigneur. Qu’il y a loin d’eux à ceux qui séjourneront pour l’éternité dans le Feu, qui seront abreuvés d’une eau bouillante qui leur déchirera les entrailles !"
   },
   {
     "id": "muhammad-16",
@@ -1815,7 +1830,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ حَتَّىٰٓ إِذَا خَرَجُوا۟ مِنْ عِندِكَ قَالُوا۟ لِلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ مَاذَا قَالَ ءَانِفًا ۚ أُو۟لَـٰٓئِكَ ٱلَّذِينَ طَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُمْ",
     "textSimple": "ومنهم من يستمع إليك حتىٓ إذا خرجوا من عندك قالوا للذين أوتوا ٱلعلم ماذا قال ءانفا  أولـٓئك ٱلذين طبع ٱلله على قلوبهم وٱتبعوٓا أهوآءهم",
     "transliteration": "wamin'hum man yastamiʿu ilayka ḥattā idhā kharajū min ʿindika qālū lilladhīna ūtū l-ʿil'ma mādhā qāla ānifan ulāika alladhīna ṭabaʿa l-lahu ʿalā qulūbihim wa-ittabaʿū ahwāahum",
-    "translation": "",
+    "translation": "And among them, [O Muḥammad], are those who listen to you, until when they depart from you, they say to those who were given knowledge, \"What has he said just now?\" Those are the ones of whom Allāh has sealed over their hearts and who have followed their [own] desires.",
     "words": [
       {
         "id": "muhammad-16-1",
@@ -1986,7 +2001,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est qui, parmi eux, daignent t’écouter. Mais aussitôt qu’ils sortent de chez toi, ils demandent à ceux qui ont reçu la science : « Que vient-il donc de dire ? » Ce sont bien eux dont Allah a scellé les cœurs et qui ont suivi leurs propres penchants."
   },
   {
     "id": "muhammad-17",
@@ -1995,7 +2011,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ٱهْتَدَوْا۟ زَادَهُمْ هُدًى وَءَاتَىٰهُمْ تَقْوَىٰهُمْ",
     "textSimple": "وٱلذين ٱهتدوا زادهم هدى وءاتىهم تقوىهم",
     "transliteration": "wa-alladhīna ih'tadaw zādahum hudan waātāhum taqwāhum",
-    "translation": "",
+    "translation": "And those who are guided - He increases them in guidance and gives them their righteousness.",
     "words": [
       {
         "id": "muhammad-17-1",
@@ -2040,7 +2056,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont trouvé la bonne voie, (Allah) les guidera encore et leur accordera la piété (qui leur est due)."
   },
   {
     "id": "muhammad-18",
@@ -2049,7 +2066,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "فَهَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً ۖ فَقَدْ جَآءَ أَشْرَاطُهَا ۚ فَأَنَّىٰ لَهُمْ إِذَا جَآءَتْهُمْ ذِكْرَىٰهُمْ",
     "textSimple": "فهل ينظرون إلا ٱلساعة أن تأتيهم بغتة  فقد جآء أشراطها  فأنى لهم إذا جآءتهم ذكرىهم",
     "transliteration": "fahal yanẓurūna illā l-sāʿata an tatiyahum baghtatan faqad jāa ashrāṭuhā fa-annā lahum idhā jāathum dhik'rāhum",
-    "translation": "",
+    "translation": "Then do they await except that the Hour should come upon them unexpectedly? But already there have come [some of] its indications. Then how [i.e., what good] to them, when it has come, will be their remembrance?",
     "words": [
       {
         "id": "muhammad-18-1",
@@ -2157,7 +2174,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’attendent-ils donc sinon que d’être surpris par l’Heure, qui fondra soudain sur eux ? Ses indices précurseurs sont déjà venus. Mais à quoi bon leur servira de s’en souvenir quand elle les surprendra vraiment ?"
   },
   {
     "id": "muhammad-19",
@@ -2166,7 +2184,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "فَٱعْلَمْ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا ٱللَّهُ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ۗ وَٱللَّهُ يَعْلَمُ مُتَقَلَّبَكُمْ وَمَثْوَىٰكُمْ",
     "textSimple": "فٱعلم أنه لآ إلـه إلا ٱلله وٱستغفر لذنبك وللمؤمنين وٱلمؤمنـت  وٱلله يعلم متقلبكم ومثوىكم",
     "transliteration": "fa-iʿ'lam annahu lā ilāha illā l-lahu wa-is'taghfir lidhanbika walil'mu'minīna wal-mu'mināti wal-lahu yaʿlamu mutaqallabakum wamathwākum",
-    "translation": "",
+    "translation": "So know, [O Muḥammad], that there is no deity except Allāh and ask forgiveness for your sin and for the believing men and believing women. And Allāh knows of your movement and your resting place.",
     "words": [
       {
         "id": "muhammad-19-1",
@@ -2267,7 +2285,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sache donc qu’il n’est point d’autre divinité qu’Allah ! Demande le pardon pour tes péchés, ainsi que pour ceux des croyants et des croyantes. Allah Sait vos activités (dans ce bas monde) et votre demeure (dans l’Au-delà)."
   },
   {
     "id": "muhammad-20",
@@ -2276,7 +2295,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُ ٱلَّذِينَ ءَامَنُوا۟ لَوْلَا نُزِّلَتْ سُورَةٌ ۖ فَإِذَآ أُنزِلَتْ سُورَةٌ مُّحْكَمَةٌ وَذُكِرَ فِيهَا ٱلْقِتَالُ ۙ رَأَيْتَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ ٱلْمَغْشِىِّ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَأَوْلَىٰ لَهُمْ",
     "textSimple": "ويقول ٱلذين ءامنوا لولا نزلت سورة  فإذآ أنزلت سورة محكمة وذكر فيها ٱلقتال  رأيت ٱلذين فى قلوبهم مرض ينظرون إليك نظر ٱلمغشى عليه من ٱلموت  فأولى لهم",
     "transliteration": "wayaqūlu alladhīna āmanū lawlā nuzzilat sūratun fa-idhā unzilat sūratun muḥ'kamatun wadhukira fīhā l-qitālu ra-ayta alladhīna fī qulūbihim maraḍun yanẓurūna ilayka naẓara l-maghshiyi ʿalayhi mina l-mawti fa-awlā lahum",
-    "translation": "",
+    "translation": "Those who believe say, \"Why has a sūrah not been sent down?\" But when a precise sūrah is revealed and battle is mentioned therein, you see those in whose hearts is disease [i.e., hypocrisy] looking at you with a look of one overcome by death. And more appropriate for them [would have been]",
     "words": [
       {
         "id": "muhammad-20-1",
@@ -2468,7 +2487,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru disent : « Si seulement venait (d’Allah) une sourate ! » Mais aussitôt qu’est révélée une sourate explicite où est évoqué le combat, tu vois ceux dont les cœurs sont rongés par la maladie (du doute) te regarder avec les yeux de qui s’évanouirait devant la mort. Mieux vaudraient pour eux"
   },
   {
     "id": "muhammad-21",
@@ -2477,7 +2497,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "طَاعَةٌ وَقَوْلٌ مَّعْرُوفٌ ۚ فَإِذَا عَزَمَ ٱلْأَمْرُ فَلَوْ صَدَقُوا۟ ٱللَّهَ لَكَانَ خَيْرًا لَّهُمْ",
     "textSimple": "طاعة وقول معروف  فإذا عزم ٱلأمر فلو صدقوا ٱلله لكان خيرا لهم",
     "transliteration": "ṭāʿatun waqawlun maʿrūfun fa-idhā ʿazama l-amru falaw ṣadaqū l-laha lakāna khayran lahum",
-    "translation": "",
+    "translation": "Obedience and good words. And when the matter [of fighting] was determined, if they had been true to Allāh, it would have been better for them.",
     "words": [
       {
         "id": "muhammad-21-1",
@@ -2564,7 +2584,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "obéissance et propos convenables. Car quand la décision est prise, rien n’est meilleur pour eux que d’honorer leur engagement envers Allah."
   },
   {
     "id": "muhammad-22",
@@ -2573,7 +2594,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ",
     "textSimple": "فهل عسيتم إن توليتم أن تفسدوا فى ٱلأرض وتقطعوٓا أرحامكم",
     "transliteration": "fahal ʿasaytum in tawallaytum an tuf'sidū fī l-arḍi watuqaṭṭiʿū arḥāmakum",
-    "translation": "",
+    "translation": "So would you perhaps, if you turned away, cause corruption on earth and sever your [ties of] relationship?",
     "words": [
       {
         "id": "muhammad-22-1",
@@ -2646,7 +2667,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En vous détournant, vous vous exposez au risque de semer le désordre sur terre et de rompre vos liens de sang."
   },
   {
     "id": "muhammad-23",
@@ -2655,7 +2677,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ فَأَصَمَّهُمْ وَأَعْمَىٰٓ أَبْصَـٰرَهُمْ",
     "textSimple": "أولـٓئك ٱلذين لعنهم ٱلله فأصمهم وأعمىٓ أبصـرهم",
     "transliteration": "ulāika alladhīna laʿanahumu l-lahu fa-aṣammahum wa-aʿmā abṣārahum",
-    "translation": "",
+    "translation": "Those [who do so] are the ones that Allāh has cursed, so He deafened them and blinded their vision.",
     "words": [
       {
         "id": "muhammad-23-1",
@@ -2707,7 +2729,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux-là qu’Allah a maudits, a rendus sourds et aveugles."
   },
   {
     "id": "muhammad-24",
@@ -2716,7 +2739,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَآ",
     "textSimple": "أفلا يتدبرون ٱلقرءان أم على قلوب أقفالهآ",
     "transliteration": "afalā yatadabbarūna l-qur'āna am ʿalā qulūbin aqfāluhā",
-    "translation": "",
+    "translation": "Then do they not reflect upon the Qur’ān, or are there locks upon [their] hearts?",
     "words": [
       {
         "id": "muhammad-24-1",
@@ -2768,7 +2791,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne méditent-ils pas le Coran ? Auraient-ils leurs cœurs hermétiquement fermés (à la foi) ?"
   },
   {
     "id": "muhammad-25",
@@ -2777,7 +2801,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ أَدْبَـٰرِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَـٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ",
     "textSimple": "إن ٱلذين ٱرتدوا علىٓ أدبـرهم من بعد ما تبين لهم ٱلهدى  ٱلشيطـن سول لهم وأملى لهم",
     "transliteration": "inna alladhīna ir'taddū ʿalā adbārihim min baʿdi mā tabayyana lahumu l-hudā l-shayṭānu sawwala lahum wa-amlā lahum",
-    "translation": "",
+    "translation": "Indeed, those who reverted back [to disbelief] after guidance had become clear to them - Satan enticed them and prolonged hope for them.",
     "words": [
       {
         "id": "muhammad-25-1",
@@ -2892,7 +2916,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui se sont rétractés après que la bonne direction leur a été montrée, c’est Satan qui les abusés et les a induits (à la faute)."
   },
   {
     "id": "muhammad-26",
@@ -2901,7 +2926,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لِلَّذِينَ كَرِهُوا۟ مَا نَزَّلَ ٱللَّهُ سَنُطِيعُكُمْ فِى بَعْضِ ٱلْأَمْرِ ۖ وَٱللَّهُ يَعْلَمُ إِسْرَارَهُمْ",
     "textSimple": "ذلك بأنهم قالوا للذين كرهوا ما نزل ٱلله سنطيعكم فى بعض ٱلأمر  وٱلله يعلم إسرارهم",
     "transliteration": "dhālika bi-annahum qālū lilladhīna karihū mā nazzala l-lahu sanuṭīʿukum fī baʿḍi l-amri wal-lahu yaʿlamu is'rārahum",
-    "translation": "",
+    "translation": "That is because they said to those who disliked what Allāh sent down, \"We will obey you in part of the matter.\" And Allāh knows what they conceal.",
     "words": [
       {
         "id": "muhammad-26-1",
@@ -3009,7 +3034,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est qu’ils ont dit à ceux qui ont pris en aversion la révélation d’Allah : « Nous vous obéirons pour certaines choses. » Mais Allah Sait bien ce qu’ils tiennent secret."
   },
   {
     "id": "muhammad-27",
@@ -3018,7 +3044,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ إِذَا تَوَفَّتْهُمُ ٱلْمَلَـٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَـٰرَهُمْ",
     "textSimple": "فكيف إذا توفتهم ٱلملـٓئكة يضربون وجوههم وأدبـرهم",
     "transliteration": "fakayfa idhā tawaffathumu l-malāikatu yaḍribūna wujūhahum wa-adbārahum",
-    "translation": "",
+    "translation": "Then how [will it be] when the angels take them in death, striking their faces and their backs?",
     "words": [
       {
         "id": "muhammad-27-1",
@@ -3070,7 +3096,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’en sera-t-il donc d’eux lorsque les Anges, venant reprendre leurs âmes, leur porteront des coups au visage et sur le dos ?"
   },
   {
     "id": "muhammad-28",
@@ -3079,7 +3106,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمُ ٱتَّبَعُوا۟ مَآ أَسْخَطَ ٱللَّهَ وَكَرِهُوا۟ رِضْوَٰنَهُۥ فَأَحْبَطَ أَعْمَـٰلَهُمْ",
     "textSimple": "ذلك بأنهم ٱتبعوا مآ أسخط ٱلله وكرهوا رضونه فأحبط أعمـلهم",
     "transliteration": "dhālika bi-annahumu ittabaʿū mā askhaṭa l-laha wakarihū riḍ'wānahu fa-aḥbaṭa aʿmālahum",
-    "translation": "",
+    "translation": "That is because they followed what angered Allāh and disliked [what earns] His pleasure, so He rendered worthless their deeds.",
     "words": [
       {
         "id": "muhammad-28-1",
@@ -3152,7 +3179,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est qu’ils ont suivi ce qui irrite Allah, et ont pris en aversion ce qui Le satisfait. Il a donc rendu leurs œuvres inutiles."
   },
   {
     "id": "muhammad-29",
@@ -3161,7 +3189,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ أَن لَّن يُخْرِجَ ٱللَّهُ أَضْغَـٰنَهُمْ",
     "textSimple": "أم حسب ٱلذين فى قلوبهم مرض أن لن يخرج ٱلله أضغـنهم",
     "transliteration": "am ḥasiba alladhīna fī qulūbihim maraḍun an lan yukh'rija l-lahu aḍghānahum",
-    "translation": "",
+    "translation": "Or do those in whose hearts is disease think that Allāh would never expose their [feelings of] hatred?",
     "words": [
       {
         "id": "muhammad-29-1",
@@ -3241,7 +3269,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux dont les cœurs sont rongés par la maladie (de l’hypocrisie) s’imaginent peut-être qu’Allah ne dévoilera pas leurs âpres rancœurs."
   },
   {
     "id": "muhammad-30",
@@ -3250,7 +3279,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ نَشَآءُ لَأَرَيْنَـٰكَهُمْ فَلَعَرَفْتَهُم بِسِيمَـٰهُمْ ۚ وَلَتَعْرِفَنَّهُمْ فِى لَحْنِ ٱلْقَوْلِ ۚ وَٱللَّهُ يَعْلَمُ أَعْمَـٰلَكُمْ",
     "textSimple": "ولو نشآء لأرينـكهم فلعرفتهم بسيمـهم  ولتعرفنهم فى لحن ٱلقول  وٱلله يعلم أعمـلكم",
     "transliteration": "walaw nashāu la-araynākahum falaʿaraftahum bisīmāhum walataʿrifannahum fī laḥni l-qawli wal-lahu yaʿlamu aʿmālakum",
-    "translation": "",
+    "translation": "And if We willed, We could show them to you, and you would know them by their mark; but you will surely know them by the tone of [their] speech. And Allāh knows your deeds.",
     "words": [
       {
         "id": "muhammad-30-1",
@@ -3337,7 +3366,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous le voulions, nous te les montrerions et tu les reconnaîtrais à leurs traits (particuliers) ; et tu les reconnaîtrais (aussi) à l’intonation de leurs propos. Allah Sait bien vos actions."
   },
   {
     "id": "muhammad-31",
@@ -3346,7 +3376,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَنَبْلُوَنَّكُمْ حَتَّىٰ نَعْلَمَ ٱلْمُجَـٰهِدِينَ مِنكُمْ وَٱلصَّـٰبِرِينَ وَنَبْلُوَا۟ أَخْبَارَكُمْ",
     "textSimple": "ولنبلونكم حتى نعلم ٱلمجـهدين منكم وٱلصـبرين ونبلوا أخباركم",
     "transliteration": "walanabluwannakum ḥattā naʿlama l-mujāhidīna minkum wal-ṣābirīna wanabluwā akhbārakum",
-    "translation": "",
+    "translation": "And We will surely test you until We make evident those who strive among you [for the cause of Allāh] and the patient, and We will test your affairs.",
     "words": [
       {
         "id": "muhammad-31-1",
@@ -3405,7 +3435,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous éprouverons pour reconnaître ceux d’entre vous qui (sont prêts à) lutter (pour la cause d’Allah) et qui savent être patients ; et nous évaluerons votre conduite."
   },
   {
     "id": "muhammad-32",
@@ -3414,7 +3445,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ وَشَآقُّوا۟ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَىٰ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا وَسَيُحْبِطُ أَعْمَـٰلَهُمْ",
     "textSimple": "إن ٱلذين كفروا وصدوا عن سبيل ٱلله وشآقوا ٱلرسول من بعد ما تبين لهم ٱلهدى لن يضروا ٱلله شيـٔا وسيحبط أعمـلهم",
     "transliteration": "inna alladhīna kafarū waṣaddū ʿan sabīli l-lahi washāqqū l-rasūla min baʿdi mā tabayyana lahumu l-hudā lan yaḍurrū l-laha shayan wasayuḥ'biṭu aʿmālahum",
-    "translation": "",
+    "translation": "Indeed, those who disbelieved and averted [people] from the path of Allāh and opposed the Messenger after guidance had become clear to them - never will they harm Allāh at all, and He will render worthless their deeds.",
     "words": [
       {
         "id": "muhammad-32-1",
@@ -3564,7 +3595,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru, se sont dressés sur le chemin d’Allah pour en éloigner les autres, et se sont opposés au Messager après que la bonne direction leur a été montrée, ne nuiront en rien à Allah Qui rendra nulles leurs actions."
   },
   {
     "id": "muhammad-33",
@@ -3573,7 +3605,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَلَا تُبْطِلُوٓا۟ أَعْمَـٰلَكُمْ",
     "textSimple": " يـٓأيها ٱلذين ءامنوٓا أطيعوا ٱلله وأطيعوا ٱلرسول ولا تبطلوٓا أعمـلكم",
     "transliteration": "yāayyuhā alladhīna āmanū aṭīʿū l-laha wa-aṭīʿū l-rasūla walā tub'ṭilū aʿmālakum",
-    "translation": "",
+    "translation": "O you who have believed, obey Allāh and obey the Messenger and do not invalidate your deeds.",
     "words": [
       {
         "id": "muhammad-33-1",
@@ -3646,7 +3678,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Obéissez à Allah ! Obéissez au Messager ! Ne rendez pas nulles vos œuvres !"
   },
   {
     "id": "muhammad-34",
@@ -3655,7 +3688,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ ثُمَّ مَاتُوا۟ وَهُمْ كُفَّارٌ فَلَن يَغْفِرَ ٱللَّهُ لَهُمْ",
     "textSimple": "إن ٱلذين كفروا وصدوا عن سبيل ٱلله ثم ماتوا وهم كفار فلن يغفر ٱلله لهم",
     "transliteration": "inna alladhīna kafarū waṣaddū ʿan sabīli l-lahi thumma mātū wahum kuffārun falan yaghfira l-lahu lahum",
-    "translation": "",
+    "translation": "Indeed, those who disbelieved and averted [people] from the path of Allāh and then died while they were disbelievers - never will Allāh forgive them.",
     "words": [
       {
         "id": "muhammad-34-1",
@@ -3763,7 +3796,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru, se sont dressés sur le chemin d’Allah pour en éloigner les autres, puis sont morts en mécréants, Allah ne leur pardonnera point."
   },
   {
     "id": "muhammad-35",
@@ -3772,7 +3806,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تَهِنُوا۟ وَتَدْعُوٓا۟ إِلَى ٱلسَّلْمِ وَأَنتُمُ ٱلْأَعْلَوْنَ وَٱللَّهُ مَعَكُمْ وَلَن يَتِرَكُمْ أَعْمَـٰلَكُمْ",
     "textSimple": "فلا تهنوا وتدعوٓا إلى ٱلسلم وأنتم ٱلأعلون وٱلله معكم ولن يتركم أعمـلكم",
     "transliteration": "falā tahinū watadʿū ilā l-salmi wa-antumu l-aʿlawna wal-lahu maʿakum walan yatirakum aʿmālakum",
-    "translation": "",
+    "translation": "So do not weaken and call for peace while you are superior; and Allāh is with you and will never deprive you of [the reward of] your deeds.",
     "words": [
       {
         "id": "muhammad-35-1",
@@ -3859,7 +3893,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne lâchez pas pied, n’appelez pas à la paix alors que vous avez le dessus. Allah est avec vous et ne vous privera point de la récompense pour vos œuvres."
   },
   {
     "id": "muhammad-36",
@@ -3868,7 +3903,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْـَٔلْكُمْ أَمْوَٰلَكُمْ",
     "textSimple": "إنما ٱلحيوة ٱلدنيا لعب ولهو  وإن تؤمنوا وتتقوا يؤتكم أجوركم ولا يسـٔلكم أمولكم",
     "transliteration": "innamā l-ḥayatu l-dun'yā laʿibun walahwun wa-in tu'minū watattaqū yu'tikum ujūrakum walā yasalkum amwālakum",
-    "translation": "",
+    "translation": "[This] worldly life is only amusement and diversion. And if you believe and fear Allāh, He will give you your rewards and not ask you for your properties.",
     "words": [
       {
         "id": "muhammad-36-1",
@@ -3962,7 +3997,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vie en ce bas monde n’est certes que jeu futile et divertissement. Mais si vous croyez et (Le) craignez pieusement, (Allah) vous donnera vos récompenses et ne vous réclamera pas vos biens."
   },
   {
     "id": "muhammad-37",
@@ -3971,7 +4007,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَسْـَٔلْكُمُوهَا فَيُحْفِكُمْ تَبْخَلُوا۟ وَيُخْرِجْ أَضْغَـٰنَكُمْ",
     "textSimple": "إن يسـٔلكموها فيحفكم تبخلوا ويخرج أضغـنكم",
     "transliteration": "in yasalkumūhā fayuḥ'fikum tabkhalū wayukh'rij aḍghānakum",
-    "translation": "",
+    "translation": "If He should ask you for them and press you, you would withhold, and He would expose your hatred [i.e., unwillingness].",
     "words": [
       {
         "id": "muhammad-37-1",
@@ -4016,7 +4052,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car, s’Il vous les réclamait, vous n’en deviendriez que plus jaloux (de vos biens) et Il dévoilerait (au grand jour) vos plus âpres rancœurs."
   },
   {
     "id": "muhammad-38",
@@ -4025,7 +4062,7 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰٓأَنتُمْ هَـٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ فَمِنكُم مَّن يَبْخَلُ ۖ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِۦ ۚ وَٱللَّهُ ٱلْغَنِىُّ وَأَنتُمُ ٱلْفُقَرَآءُ ۚ وَإِن تَتَوَلَّوْا۟ يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوٓا۟ أَمْثَـٰلَكُم",
     "textSimple": "هـٓأنتم هـٓؤلآء تدعون لتنفقوا فى سبيل ٱلله فمنكم من يبخل  ومن يبخل فإنما يبخل عن نفسه  وٱلله ٱلغنى وأنتم ٱلفقرآء  وإن تتولوا يستبدل قوما غيركم ثم لا يكونوٓا أمثـلكم",
     "transliteration": "hāantum hāulāi tud'ʿawna litunfiqū fī sabīli l-lahi faminkum man yabkhalu waman yabkhal fa-innamā yabkhalu ʿan nafsihi wal-lahu l-ghaniyu wa-antumu l-fuqarāu wa-in tatawallaw yastabdil qawman ghayrakum thumma lā yakūnū amthālakum",
-    "translation": "",
+    "translation": "Here you are - those invited to spend in the cause of Allāh - but among you are those who withhold [out of greed]. And whoever withholds only withholds [benefit] from himself; and Allāh is the Free of need, while you are the needy. And if you turn away [i.e., refuse], He will replace you with another people; then they will not be the likes of you.",
     "words": [
       {
         "id": "muhammad-38-1",
@@ -4231,7 +4268,8 @@ export const MUHAMMAD_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous voici appelés à dépenser pour la cause d’Allah. Il en est qui, parmi vous, se montrent avares, mais celui qui est avare l’est certes à ses dépens. Allah, Lui, est le Riche (Qui Se passe de vos dépenses) et c’est vous qui êtes les pauvres. Et si vous tournez le dos, Il vous remplacera par un autre peuple qui ne vous sera point semblable."
   }
 ];
 

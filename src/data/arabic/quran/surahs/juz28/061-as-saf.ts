@@ -11,7 +11,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": " سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": " سبح لله ما فى ٱلسمـوت وما فى ٱلأرض  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "sabbaḥa lillahi mā fī l-samāwāti wamā fī l-arḍi wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Whatever is in the heavens and whatever is on the earth exalts Allāh, and He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "as-saf-1-1",
@@ -91,7 +91,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui est dans les cieux et tout ce qui est sur terre rend gloire à Allah, Lui le Tout-Puissant, le Sage."
   },
   {
     "id": "as-saf-2",
@@ -100,7 +101,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لم تقولون ما لا تفعلون",
     "transliteration": "yāayyuhā alladhīna āmanū lima taqūlūna mā lā tafʿalūna",
-    "translation": "",
+    "translation": "O you who have believed, why do you say what you do not do?",
     "words": [
       {
         "id": "as-saf-2-1",
@@ -159,7 +160,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Pourquoi dites-vous ce que vous ne faites pas ?"
   },
   {
     "id": "as-saf-3",
@@ -168,7 +170,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "كَبُرَ مَقْتًا عِندَ ٱللَّهِ أَن تَقُولُوا۟ مَا لَا تَفْعَلُونَ",
     "textSimple": "كبر مقتا عند ٱلله أن تقولوا ما لا تفعلون",
     "transliteration": "kabura maqtan ʿinda l-lahi an taqūlū mā lā tafʿalūna",
-    "translation": "",
+    "translation": "Greatly hateful in the sight of Allāh is that you say what you do not do.",
     "words": [
       {
         "id": "as-saf-3-1",
@@ -234,7 +236,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est une chose exécrable pour Allah que vous disiez ce que vous ne faites pas."
   },
   {
     "id": "as-saf-4",
@@ -243,7 +246,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَـٰتِلُونَ فِى سَبِيلِهِۦ صَفًّا كَأَنَّهُم بُنْيَـٰنٌ مَّرْصُوصٌ",
     "textSimple": "إن ٱلله يحب ٱلذين يقـتلون فى سبيله صفا كأنهم بنيـن مرصوص",
     "transliteration": "inna l-laha yuḥibbu alladhīna yuqātilūna fī sabīlihi ṣaffan ka-annahum bun'yānun marṣūṣun",
-    "translation": "",
+    "translation": "Indeed, Allāh loves those who fight in His cause in a row as though they are a [single] structure joined firmly.",
     "words": [
       {
         "id": "as-saf-4-1",
@@ -323,7 +326,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah aime ceux qui combattent pour Sa cause en rang, semblables à un édifice solidement bâti."
   },
   {
     "id": "as-saf-5",
@@ -332,7 +336,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَـٰقَوْمِ لِمَ تُؤْذُونَنِى وَقَد تَّعْلَمُونَ أَنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ ۖ فَلَمَّا زَاغُوٓا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمْ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ",
     "textSimple": "وإذ قال موسى لقومه يـقوم لم تؤذوننى وقد تعلمون أنى رسول ٱلله إليكم  فلما زاغوٓا أزاغ ٱلله قلوبهم  وٱلله لا يهدى ٱلقوم ٱلفـسقين",
     "transliteration": "wa-idh qāla mūsā liqawmihi yāqawmi lima tu'dhūnanī waqad taʿlamūna annī rasūlu l-lahi ilaykum falammā zāghū azāgha l-lahu qulūbahum wal-lahu lā yahdī l-qawma l-fāsiqīna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Moses said to his people, \"O my people, why do you harm me while you certainly know that I am the messenger of Allāh to you?\" And when they deviated, Allāh caused their hearts to deviate. And Allāh does not guide the defiantly disobedient people.",
     "words": [
       {
         "id": "as-saf-5-1",
@@ -496,7 +500,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi) lorsque Moïse dit à son peuple : « Ô peuple mien, pourquoi cherchez-vous à me faire du mal alors que vous savez que je suis le Messager d’Allah (envoyé) vers vous ? » Lorsqu’ils dévièrent (du droit chemin), Allah fit dévier leurs cœurs. Allah ne guide pas la gent corrompue."
   },
   {
     "id": "as-saf-6",
@@ -505,7 +510,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ عِيسَى ٱبْنُ مَرْيَمَ يَـٰبَنِىٓ إِسْرَٰٓءِيلَ إِنِّى رَسُولُ ٱللَّهِ إِلَيْكُم مُّصَدِّقًا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَمُبَشِّرًۢا بِرَسُولٍ يَأْتِى مِنۢ بَعْدِى ٱسْمُهُۥٓ أَحْمَدُ ۖ فَلَمَّا جَآءَهُم بِٱلْبَيِّنَـٰتِ قَالُوا۟ هَـٰذَا سِحْرٌ مُّبِينٌ",
     "textSimple": "وإذ قال عيسى ٱبن مريم يـبنىٓ إسرٓءيل إنى رسول ٱلله إليكم مصدقا لما بين يدى من ٱلتورىة ومبشرا برسول يأتى من بعدى ٱسمهٓ أحمد  فلما جآءهم بٱلبينـت قالوا هـذا سحر مبين",
     "transliteration": "wa-idh qāla ʿīsā ub'nu maryama yābanī is'rāīla innī rasūlu l-lahi ilaykum muṣaddiqan limā bayna yadayya mina l-tawrāti wamubashiran birasūlin yatī min baʿdī us'muhu aḥmadu falammā jāahum bil-bayināti qālū hādhā siḥ'run mubīnun",
-    "translation": "",
+    "translation": "And [mention] when Jesus, the son of Mary, said, \"O Children of Israel, indeed I am the messenger of Allāh to you confirming what came before me of the Torah and bringing good tidings of a messenger to come after me, whose name is Aḥmad.\" But when he came to them with clear evidences, they said, \"This is obvious magic.\"",
     "words": [
       {
         "id": "as-saf-6-1",
@@ -725,7 +730,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Jésus, fils de Marie, dit : « Ô Enfants d’Israël ! Je suis le Messager d’Allah (envoyé) vers vous, je suis venu confirmer ce qui m’a déjà précédé dans la Torah, et annoncer la venue d’un Messager qui me succèdera, du nom d’Ahmad. » Or, lorsqu’il leur eut apporté les preuves évidentes, ils dirent : « C’est manifestement de la magie ! »"
   },
   {
     "id": "as-saf-7",
@@ -734,7 +740,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُوَ يُدْعَىٰٓ إِلَى ٱلْإِسْلَـٰمِ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ومن أظلم ممن ٱفترى على ٱلله ٱلكذب وهو يدعىٓ إلى ٱلإسلـم  وٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "waman aẓlamu mimmani if'tarā ʿalā l-lahi l-kadhiba wahuwa yud'ʿā ilā l-is'lāmi wal-lahu lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "And who is more unjust than one who invents about Allāh untruth while he is being invited to Islām. And Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "as-saf-7-1",
@@ -849,7 +855,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui élabore des mensonges sur le compte d’Allah alors qu’il est invité à (embrasser) l’Islam ? Allah ne guide certes pas les gens injustes."
   },
   {
     "id": "as-saf-8",
@@ -858,7 +865,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "يُرِيدُونَ لِيُطْفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَٱللَّهُ مُتِمُّ نُورِهِۦ وَلَوْ كَرِهَ ٱلْكَـٰفِرُونَ",
     "textSimple": "يريدون ليطفـٔوا نور ٱلله بأفوههم وٱلله متم نوره ولو كره ٱلكـفرون",
     "transliteration": "yurīdūna liyuṭ'fiū nūra l-lahi bi-afwāhihim wal-lahu mutimmu nūrihi walaw kariha l-kāfirūna",
-    "translation": "",
+    "translation": "They want to extinguish the light of Allāh with their mouths, but Allāh will perfect His light, although the disbelievers dislike it.",
     "words": [
       {
         "id": "as-saf-8-1",
@@ -938,7 +945,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils veulent, de leurs seules bouches, éteindre la lumière d’Allah ; or Allah accomplira (la manifestation) de Sa lumière, quelque dépit qu’en aient les mécréants."
   },
   {
     "id": "as-saf-9",
@@ -947,7 +955,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ وَلَوْ كَرِهَ ٱلْمُشْرِكُونَ",
     "textSimple": "هو ٱلذىٓ أرسل رسوله بٱلهدى ودين ٱلحق ليظهره على ٱلدين كله ولو كره ٱلمشركون",
     "transliteration": "huwa alladhī arsala rasūlahu bil-hudā wadīni l-ḥaqi liyuẓ'hirahu ʿalā l-dīni kullihi walaw kariha l-mush'rikūna",
-    "translation": "",
+    "translation": "It is He who sent His Messenger with guidance and the religion of truth to manifest it over all religion, although those who associate others with Allāh dislike it.",
     "words": [
       {
         "id": "as-saf-9-1",
@@ -1048,7 +1056,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui envoya Son Messager avec la juste direction (hudâ) et la religion de la vérité, afin qu’il la fasse triompher de toute autre religion, quelque dépit qu’en aient les associâtres."
   },
   {
     "id": "as-saf-10",
@@ -1057,7 +1066,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ هَلْ أَدُلُّكُمْ عَلَىٰ تِجَـٰرَةٍ تُنجِيكُم مِّنْ عَذَابٍ أَلِيمٍ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا هل أدلكم على تجـرة تنجيكم من عذاب أليم",
     "transliteration": "yāayyuhā alladhīna āmanū hal adullukum ʿalā tijāratin tunjīkum min ʿadhābin alīmin",
-    "translation": "",
+    "translation": "O you who have believed, shall I guide you to a transaction that will save you from a painful punishment?",
     "words": [
       {
         "id": "as-saf-10-1",
@@ -1137,7 +1146,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Vous montrerai-je un commerce qui puisse vous épargner un supplice très douloureux ?"
   },
   {
     "id": "as-saf-11",
@@ -1146,7 +1156,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "تُؤْمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ وَتُجَـٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "تؤمنون بٱلله ورسوله وتجـهدون فى سبيل ٱلله بأمولكم وأنفسكم  ذلكم خير لكم إن كنتم تعلمون",
     "transliteration": "tu'minūna bil-lahi warasūlihi watujāhidūna fī sabīli l-lahi bi-amwālikum wa-anfusikum dhālikum khayrun lakum in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "[It is that] you believe in Allāh and His Messenger and strive in the cause of Allāh with your wealth and your lives. That is best for you, if you only knew.",
     "words": [
       {
         "id": "as-saf-11-1",
@@ -1254,7 +1264,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous croirez en Allah et en Son Messager, vous lutterez pour la cause d’Allah par vos biens et vos âmes. Voilà qui est meilleur pour vous, si vous le saviez !"
   },
   {
     "id": "as-saf-12",
@@ -1263,7 +1274,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "يَغْفِرْ لَكُمْ ذُنُوبَكُمْ وَيُدْخِلْكُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ وَمَسَـٰكِنَ طَيِّبَةً فِى جَنَّـٰتِ عَدْنٍ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "يغفر لكم ذنوبكم ويدخلكم جنـت تجرى من تحتها ٱلأنهـر ومسـكن طيبة فى جنـت عدن  ذلك ٱلفوز ٱلعظيم",
     "transliteration": "yaghfir lakum dhunūbakum wayud'khil'kum jannātin tajrī min taḥtihā l-anhāru wamasākina ṭayyibatan fī jannāti ʿadnin dhālika l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "He will forgive for you your sins and admit you to gardens beneath which rivers flow and pleasant dwellings in gardens of perpetual residence. That is the great attainment.",
     "words": [
       {
         "id": "as-saf-12-1",
@@ -1385,7 +1396,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous pardonnera vos péchés et vous fera entrer dans des jardins sous lesquels coulent les rivières, et dans de belles habitations dans les Jardins d’Éden. Voilà le suprême succès !"
   },
   {
     "id": "as-saf-13",
@@ -1394,7 +1406,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "وَأُخْرَىٰ تُحِبُّونَهَا ۖ نَصْرٌ مِّنَ ٱللَّهِ وَفَتْحٌ قَرِيبٌ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
     "textSimple": "وأخرى تحبونها  نصر من ٱلله وفتح قريب  وبشر ٱلمؤمنين",
     "transliteration": "wa-ukh'rā tuḥibbūnahā naṣrun mina l-lahi wafatḥun qarībun wabashiri l-mu'minīna",
-    "translation": "",
+    "translation": "And [you will obtain] another [favor] that you love - victory from Allāh and an imminent conquest; and give good tidings to the believers.",
     "words": [
       {
         "id": "as-saf-13-1",
@@ -1460,7 +1472,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "D’autres (faveurs) vous seront également accordées et que vous désirez tant : le soutien d’Allah et une victoire imminente. Annonce donc l’heureuse nouvelle aux croyants."
   },
   {
     "id": "as-saf-14",
@@ -1469,7 +1482,7 @@ export const AS_SAF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوٓا۟ أَنصَارَ ٱللَّهِ كَمَا قَالَ عِيسَى ٱبْنُ مَرْيَمَ لِلْحَوَارِيِّـۧنَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ ۖ فَـَٔامَنَت طَّآئِفَةٌ مِّنۢ بَنِىٓ إِسْرَٰٓءِيلَ وَكَفَرَت طَّآئِفَةٌ ۖ فَأَيَّدْنَا ٱلَّذِينَ ءَامَنُوا۟ عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا۟ ظَـٰهِرِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا كونوٓا أنصار ٱلله كما قال عيسى ٱبن مريم للحواريـن من أنصارىٓ إلى ٱلله  قال ٱلحواريون نحن أنصار ٱلله  فـٔامنت طآئفة من بنىٓ إسرٓءيل وكفرت طآئفة  فأيدنا ٱلذين ءامنوا على عدوهم فأصبحوا ظـهرين",
     "transliteration": "yāayyuhā alladhīna āmanū kūnū anṣāra l-lahi kamā qāla ʿīsā ub'nu maryama lil'ḥawāriyyīna man anṣārī ilā l-lahi qāla l-ḥawāriyūna naḥnu anṣāru l-lahi faāmanat ṭāifatun min banī is'rāīla wakafarat ṭāifatun fa-ayyadnā alladhīna āmanū ʿalā ʿaduwwihim fa-aṣbaḥū ẓāhirīna",
-    "translation": "",
+    "translation": "O you who have believed, be supporters of Allāh, as when Jesus, the son of Mary, said to the disciples, \"Who are my supporters for Allāh?\" The disciples said, \"We are supporters of Allāh.\" And a faction of the Children of Israel believed and a faction disbelieved. So We supported those who believed against their enemy, and they became dominant.",
     "words": [
       {
         "id": "as-saf-14-1",
@@ -1717,7 +1730,8 @@ export const AS_SAF_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Soyez les alliés d’Allah, tout comme Jésus, fils de Marie voulait que ses apôtres le fussent, quand il leur dit : « Qui sont mes alliés pour (la cause d’) Allah ? » Les apôtres répondirent : « Nous sommes les alliés d’Allah ! » Un groupe parmi les Enfants d’Israël crut, et un autre mécrut. Nous apportâmes Notre soutien alors à ceux qui ont cru contre leur ennemi, et c’est ainsi qu’ils furent les vainqueurs."
   }
 ];
 

@@ -11,7 +11,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": " سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
     "textSimple": " سبح ٱسم ربك ٱلأعلى",
     "transliteration": "sabbiḥi is'ma rabbika l-aʿlā",
-    "translation": "",
+    "translation": "Exalt the name of your Lord, the Most High,",
     "words": [
       {
         "id": "al-a-la-1-1",
@@ -42,7 +42,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rends gloire au nom de ton Seigneur, le Plus Haut !"
   },
   {
     "id": "al-a-la-2",
@@ -51,7 +52,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
     "textSimple": "ٱلذى خلق فسوى",
     "transliteration": "alladhī khalaqa fasawwā",
-    "translation": "",
+    "translation": "Who created and proportioned",
     "words": [
       {
         "id": "al-a-la-2-1",
@@ -75,7 +76,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui crée et façonne,"
   },
   {
     "id": "al-a-la-3",
@@ -84,7 +86,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
     "textSimple": "وٱلذى قدر فهدى",
     "transliteration": "wa-alladhī qaddara fahadā",
-    "translation": "",
+    "translation": "And who destined and [then] guided",
     "words": [
       {
         "id": "al-a-la-3-1",
@@ -108,7 +110,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui prédestine et guide,"
   },
   {
     "id": "al-a-la-4",
@@ -117,7 +120,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
     "textSimple": "وٱلذىٓ أخرج ٱلمرعى",
     "transliteration": "wa-alladhī akhraja l-marʿā",
-    "translation": "",
+    "translation": "And who brings out the pasture",
     "words": [
       {
         "id": "al-a-la-4-1",
@@ -141,7 +144,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui fait pousser les pâturages,"
   },
   {
     "id": "al-a-la-5",
@@ -150,7 +154,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
     "textSimple": "فجعله غثآء أحوى",
     "transliteration": "fajaʿalahu ghuthāan aḥwā",
-    "translation": "",
+    "translation": "And [then] makes it black stubble.",
     "words": [
       {
         "id": "al-a-la-5-1",
@@ -174,7 +178,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour en faire ensuite une herbe sombre et desséchée."
   },
   {
     "id": "al-a-la-6",
@@ -183,7 +188,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
     "textSimple": "سنقرئك فلا تنسىٓ",
     "transliteration": "sanuq'ri-uka falā tansā",
-    "translation": "",
+    "translation": "We will make you recite, [O Muḥammad], and you will not forget,",
     "words": [
       {
         "id": "al-a-la-6-1",
@@ -207,7 +212,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous te ferons lire (le Coran) dont tu n’oublieras rien,"
   },
   {
     "id": "al-a-la-7",
@@ -216,7 +222,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
     "textSimple": "إلا ما شآء ٱلله  إنه يعلم ٱلجهر وما يخفى",
     "transliteration": "illā mā shāa l-lahu innahu yaʿlamu l-jahra wamā yakhfā",
-    "translation": "",
+    "translation": "Except what Allāh should will. Indeed, He knows what is declared and what is hidden.",
     "words": [
       {
         "id": "al-a-la-7-1",
@@ -282,7 +288,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sauf ce qu’Allah voudra (que tu oublies), car Il Sait ce qui se manifeste au grand jour et ce qui reste caché."
   },
   {
     "id": "al-a-la-8",
@@ -291,7 +298,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
     "textSimple": "ونيسرك لليسرى",
     "transliteration": "wanuyassiruka lil'yus'rā",
-    "translation": "",
+    "translation": "And We will ease you toward ease.",
     "words": [
       {
         "id": "al-a-la-8-1",
@@ -308,7 +315,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous te mettrons sur la voie la plus facile."
   },
   {
     "id": "al-a-la-9",
@@ -317,7 +325,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
     "textSimple": "فذكر إن نفعت ٱلذكرى",
     "transliteration": "fadhakkir in nafaʿati l-dhik'rā",
-    "translation": "",
+    "translation": "So remind, if the reminder should benefit;",
     "words": [
       {
         "id": "al-a-la-9-1",
@@ -348,7 +356,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rappelle donc ! Pour peu que le Rappel soit vraiment utile."
   },
   {
     "id": "al-a-la-10",
@@ -357,7 +366,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
     "textSimple": "سيذكر من يخشى",
     "transliteration": "sayadhakkaru man yakhshā",
-    "translation": "",
+    "translation": "He who fears [Allāh] will be reminded.",
     "words": [
       {
         "id": "al-a-la-10-1",
@@ -381,7 +390,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’en souviendra sûrement celui qui craint (Allah)."
   },
   {
     "id": "al-a-la-11",
@@ -390,7 +400,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
     "textSimple": "ويتجنبها ٱلأشقى",
     "transliteration": "wayatajannabuhā l-ashqā",
-    "translation": "",
+    "translation": "But the wretched one will avoid it",
     "words": [
       {
         "id": "al-a-la-11-1",
@@ -407,7 +417,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et le plus malheureux fera tout pour l’éviter,"
   },
   {
     "id": "al-a-la-12",
@@ -416,7 +427,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
     "textSimple": "ٱلذى يصلى ٱلنار ٱلكبرى",
     "transliteration": "alladhī yaṣlā l-nāra l-kub'rā",
-    "translation": "",
+    "translation": "[He] who will [enter and] burn in the greatest Fire,",
     "words": [
       {
         "id": "al-a-la-12-1",
@@ -447,7 +458,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lui qui brûlera dans le Feu le plus grand,"
   },
   {
     "id": "al-a-la-13",
@@ -456,7 +468,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
     "textSimple": "ثم لا يموت فيها ولا يحيى",
     "transliteration": "thumma lā yamūtu fīhā walā yaḥyā",
-    "translation": "",
+    "translation": "Neither dying therein nor living.",
     "words": [
       {
         "id": "al-a-la-13-1",
@@ -501,7 +513,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis n’y mourra point, pas plus qu’il n’y vivra."
   },
   {
     "id": "al-a-la-14",
@@ -510,7 +523,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
     "textSimple": "قد أفلح من تزكى",
     "transliteration": "qad aflaḥa man tazakkā",
-    "translation": "",
+    "translation": "He has certainly succeeded who purifies himself",
     "words": [
       {
         "id": "al-a-la-14-1",
@@ -541,7 +554,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aura la réussite celui qui s’est purifié,"
   },
   {
     "id": "al-a-la-15",
@@ -550,7 +564,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
     "textSimple": "وذكر ٱسم ربه فصلى",
     "transliteration": "wadhakara is'ma rabbihi faṣallā",
-    "translation": "",
+    "translation": "And mentions the name of his Lord and prays.",
     "words": [
       {
         "id": "al-a-la-15-1",
@@ -581,7 +595,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "a évoqué le nom de son Seigneur et a prié."
   },
   {
     "id": "al-a-la-16",
@@ -590,7 +605,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
     "textSimple": "بل تؤثرون ٱلحيوة ٱلدنيا",
     "transliteration": "bal tu'thirūna l-ḥayata l-dun'yā",
-    "translation": "",
+    "translation": "But you prefer the worldly life,",
     "words": [
       {
         "id": "al-a-la-16-1",
@@ -621,7 +636,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous préférez plutôt la vie en ce bas monde,"
   },
   {
     "id": "al-a-la-17",
@@ -630,7 +646,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
     "textSimple": "وٱلـٔاخرة خير وأبقىٓ",
     "transliteration": "wal-ākhiratu khayrun wa-abqā",
-    "translation": "",
+    "translation": "While the Hereafter is better and more enduring.",
     "words": [
       {
         "id": "al-a-la-17-1",
@@ -654,7 +670,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors que l’autre monde est bien meilleur et autrement durable."
   },
   {
     "id": "al-a-la-18",
@@ -663,7 +680,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
     "textSimple": "إن هـذا لفى ٱلصحف ٱلأولى",
     "transliteration": "inna hādhā lafī l-ṣuḥufi l-ūlā",
-    "translation": "",
+    "translation": "Indeed, this is in the former scriptures,",
     "words": [
       {
         "id": "al-a-la-18-1",
@@ -701,7 +718,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela est (consigné) dans les anciens Feuillets,"
   },
   {
     "id": "al-a-la-19",
@@ -710,7 +728,7 @@ export const AL_A_LA_AYAHS: Ayah[] = [
     "textUthmani": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
     "textSimple": "صحف إبرهيم وموسى",
     "transliteration": "ṣuḥufi ib'rāhīma wamūsā",
-    "translation": "",
+    "translation": "The scriptures of Abraham and Moses.",
     "words": [
       {
         "id": "al-a-la-19-1",
@@ -734,7 +752,8 @@ export const AL_A_LA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "les Feuillets d’Abraham et de Moïse."
   }
 ];
 

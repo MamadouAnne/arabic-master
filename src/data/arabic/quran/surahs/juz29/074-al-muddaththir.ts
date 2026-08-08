@@ -11,7 +11,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
     "textSimple": " يـٓأيها ٱلمدثر",
     "transliteration": "yāayyuhā l-mudathiru",
-    "translation": "",
+    "translation": "O you who covers himself [with a garment],",
     "words": [
       {
         "id": "al-muddaththir-1-1",
@@ -28,7 +28,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô toi qui te couvres (de ton manteau) !"
   },
   {
     "id": "al-muddaththir-2",
@@ -37,7 +38,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "قُمْ فَأَنذِرْ",
     "textSimple": "قم فأنذر",
     "transliteration": "qum fa-andhir",
-    "translation": "",
+    "translation": "Arise and warn.",
     "words": [
       {
         "id": "al-muddaththir-2-1",
@@ -54,7 +55,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lève-toi et avertis !"
   },
   {
     "id": "al-muddaththir-3",
@@ -63,7 +65,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبَّكَ فَكَبِّرْ",
     "textSimple": "وربك فكبر",
     "transliteration": "warabbaka fakabbir",
-    "translation": "",
+    "translation": "And your Lord glorify.",
     "words": [
       {
         "id": "al-muddaththir-3-1",
@@ -80,7 +82,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La grandeur de ton Seigneur, exalte-la !"
   },
   {
     "id": "al-muddaththir-4",
@@ -89,7 +92,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَثِيَابَكَ فَطَهِّرْ",
     "textSimple": "وثيابك فطهر",
     "transliteration": "wathiyābaka faṭahhir",
-    "translation": "",
+    "translation": "And your clothing purify.",
     "words": [
       {
         "id": "al-muddaththir-4-1",
@@ -106,7 +109,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tes vêtements, purifie-les !"
   },
   {
     "id": "al-muddaththir-5",
@@ -115,7 +119,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلرُّجْزَ فَٱهْجُرْ",
     "textSimple": "وٱلرجز فٱهجر",
     "transliteration": "wal-ruj'za fa-uh'jur",
-    "translation": "",
+    "translation": "And uncleanliness avoid.",
     "words": [
       {
         "id": "al-muddaththir-5-1",
@@ -132,7 +136,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’idolâtrie, éloigne-t-en !"
   },
   {
     "id": "al-muddaththir-6",
@@ -141,7 +146,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَمْنُن تَسْتَكْثِرُ",
     "textSimple": "ولا تمنن تستكثر",
     "transliteration": "walā tamnun tastakthiru",
-    "translation": "",
+    "translation": "And do not confer favor to acquire more.",
     "words": [
       {
         "id": "al-muddaththir-6-1",
@@ -165,7 +170,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne te targue pas d’avoir beaucoup donné (en espérant en recevoir davantage en retour)"
   },
   {
     "id": "al-muddaththir-7",
@@ -174,7 +180,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلِرَبِّكَ فَٱصْبِرْ",
     "textSimple": "ولربك فٱصبر",
     "transliteration": "walirabbika fa-iṣ'bir",
-    "translation": "",
+    "translation": "But for your Lord be patient.",
     "words": [
       {
         "id": "al-muddaththir-7-1",
@@ -191,7 +197,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour ton Seigneur, sois patient !"
   },
   {
     "id": "al-muddaththir-8",
@@ -200,7 +207,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا نُقِرَ فِى ٱلنَّاقُورِ",
     "textSimple": "فإذا نقر فى ٱلناقور",
     "transliteration": "fa-idhā nuqira fī l-nāqūri",
-    "translation": "",
+    "translation": "And when the trumpet is blown,",
     "words": [
       {
         "id": "al-muddaththir-8-1",
@@ -231,7 +238,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il sera soufflé dans le Cor,"
   },
   {
     "id": "al-muddaththir-9",
@@ -240,7 +248,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ",
     "textSimple": "فذلك يومئذ يوم عسير",
     "transliteration": "fadhālika yawma-idhin yawmun ʿasīrun",
-    "translation": "",
+    "translation": "That Day will be a difficult day",
     "words": [
       {
         "id": "al-muddaththir-9-1",
@@ -271,7 +279,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ce sera alors (l’avènement) d’un jour très pénible,"
   },
   {
     "id": "al-muddaththir-10",
@@ -280,7 +289,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "عَلَى ٱلْكَـٰفِرِينَ غَيْرُ يَسِيرٍ",
     "textSimple": "على ٱلكـفرين غير يسير",
     "transliteration": "ʿalā l-kāfirīna ghayru yasīrin",
-    "translation": "",
+    "translation": "For the disbelievers - not easy.",
     "words": [
       {
         "id": "al-muddaththir-10-1",
@@ -311,7 +320,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "nullement aisé pour les mécréants."
   },
   {
     "id": "al-muddaththir-11",
@@ -320,7 +330,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًا",
     "textSimple": "ذرنى ومن خلقت وحيدا",
     "transliteration": "dharnī waman khalaqtu waḥīdan",
-    "translation": "",
+    "translation": "Leave Me with the one I created alone",
     "words": [
       {
         "id": "al-muddaththir-11-1",
@@ -351,7 +361,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-Moi avec celui que J’ai créé esseulé,"
   },
   {
     "id": "al-muddaththir-12",
@@ -360,7 +371,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْتُ لَهُۥ مَالًا مَّمْدُودًا",
     "textSimple": "وجعلت له مالا ممدودا",
     "transliteration": "wajaʿaltu lahu mālan mamdūdan",
-    "translation": "",
+    "translation": "And to whom I granted extensive wealth",
     "words": [
       {
         "id": "al-muddaththir-12-1",
@@ -391,7 +402,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(puis) à qui J’ai dispensé de larges biens,"
   },
   {
     "id": "al-muddaththir-13",
@@ -400,7 +412,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَبَنِينَ شُهُودًا",
     "textSimple": "وبنين شهودا",
     "transliteration": "wabanīna shuhūdan",
-    "translation": "",
+    "translation": "And children present [with him]",
     "words": [
       {
         "id": "al-muddaththir-13-1",
@@ -417,7 +429,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des enfants toujours à ses côtés,"
   },
   {
     "id": "al-muddaththir-14",
@@ -426,7 +439,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَهَّدتُّ لَهُۥ تَمْهِيدًا",
     "textSimple": "ومهدت له تمهيدا",
     "transliteration": "wamahhadttu lahu tamhīdan",
-    "translation": "",
+    "translation": "And spread [everything] before him, easing [his life].",
     "words": [
       {
         "id": "al-muddaththir-14-1",
@@ -450,7 +463,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et devant qui J’ai rendu facile le chemin."
   },
   {
     "id": "al-muddaththir-15",
@@ -459,7 +473,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يَطْمَعُ أَنْ أَزِيدَ",
     "textSimple": "ثم يطمع أن أزيد",
     "transliteration": "thumma yaṭmaʿu an azīda",
-    "translation": "",
+    "translation": "Then he desires that I should add more.",
     "words": [
       {
         "id": "al-muddaththir-15-1",
@@ -490,7 +504,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Livré à sa convoitise, il espère que Je lui donnerai davantage !"
   },
   {
     "id": "al-muddaththir-16",
@@ -499,7 +514,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ ۖ إِنَّهُۥ كَانَ لِـَٔايَـٰتِنَا عَنِيدًا",
     "textSimple": "كلآ  إنه كان لـٔايـتنا عنيدا",
     "transliteration": "kallā innahu kāna liāyātinā ʿanīdan",
-    "translation": "",
+    "translation": "No! Indeed, he has been toward Our verses obstinate.",
     "words": [
       {
         "id": "al-muddaththir-16-1",
@@ -537,7 +552,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, il n’en sera rien. Car il rejetait Nos Signes avec une telle opiniâtreté !"
   },
   {
     "id": "al-muddaththir-17",
@@ -546,7 +562,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "سَأُرْهِقُهُۥ صَعُودًا",
     "textSimple": "سأرهقه صعودا",
     "transliteration": "sa-ur'hiquhu ṣaʿūdan",
-    "translation": "",
+    "translation": "I will cover him with arduous torment.",
     "words": [
       {
         "id": "al-muddaththir-17-1",
@@ -563,7 +579,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je l’épuiserai en lui faisant gravir les montées (les plus abruptes)."
   },
   {
     "id": "al-muddaththir-18",
@@ -572,7 +589,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ فَكَّرَ وَقَدَّرَ",
     "textSimple": "إنه فكر وقدر",
     "transliteration": "innahu fakkara waqaddara",
-    "translation": "",
+    "translation": "Indeed, he thought and deliberated.",
     "words": [
       {
         "id": "al-muddaththir-18-1",
@@ -596,7 +613,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il réfléchit et prit sa décision."
   },
   {
     "id": "al-muddaththir-19",
@@ -605,7 +623,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَقُتِلَ كَيْفَ قَدَّرَ",
     "textSimple": "فقتل كيف قدر",
     "transliteration": "faqutila kayfa qaddara",
-    "translation": "",
+    "translation": "So may he be destroyed [for] how he deliberated.",
     "words": [
       {
         "id": "al-muddaththir-19-1",
@@ -629,7 +647,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puisse-t-il donc périr ! Quelle façon il a de décider !"
   },
   {
     "id": "al-muddaththir-20",
@@ -638,7 +657,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ قُتِلَ كَيْفَ قَدَّرَ",
     "textSimple": "ثم قتل كيف قدر",
     "transliteration": "thumma qutila kayfa qaddara",
-    "translation": "",
+    "translation": "Then may he be destroyed [for] how he deliberated.",
     "words": [
       {
         "id": "al-muddaththir-20-1",
@@ -669,7 +688,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puisse-t-il donc encore périr ! Quelle façon il a de décider !"
   },
   {
     "id": "al-muddaththir-21",
@@ -678,7 +698,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ نَظَرَ",
     "textSimple": "ثم نظر",
     "transliteration": "thumma naẓara",
-    "translation": "",
+    "translation": "Then he considered [again];",
     "words": [
       {
         "id": "al-muddaththir-21-1",
@@ -695,7 +715,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il regarda (autour de lui),"
   },
   {
     "id": "al-muddaththir-22",
@@ -704,7 +725,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ عَبَسَ وَبَسَرَ",
     "textSimple": "ثم عبس وبسر",
     "transliteration": "thumma ʿabasa wabasara",
-    "translation": "",
+    "translation": "Then he frowned and scowled;",
     "words": [
       {
         "id": "al-muddaththir-22-1",
@@ -728,7 +749,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "fronça les sourcils et s’assombrit,"
   },
   {
     "id": "al-muddaththir-23",
@@ -737,7 +759,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَدْبَرَ وَٱسْتَكْبَرَ",
     "textSimple": "ثم أدبر وٱستكبر",
     "transliteration": "thumma adbara wa-is'takbara",
-    "translation": "",
+    "translation": "Then he turned back and was arrogant",
     "words": [
       {
         "id": "al-muddaththir-23-1",
@@ -761,7 +783,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis se détourna, dédaigneux."
   },
   {
     "id": "al-muddaththir-24",
@@ -770,7 +793,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ إِنْ هَـٰذَآ إِلَّا سِحْرٌ يُؤْثَرُ",
     "textSimple": "فقال إن هـذآ إلا سحر يؤثر",
     "transliteration": "faqāla in hādhā illā siḥ'run yu'tharu",
-    "translation": "",
+    "translation": "And said, \"This is not but magic imitated [from others].",
     "words": [
       {
         "id": "al-muddaththir-24-1",
@@ -815,7 +838,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ce n’est là, dit-il, que magie qui se transmet,"
   },
   {
     "id": "al-muddaththir-25",
@@ -824,7 +848,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هَـٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ",
     "textSimple": "إن هـذآ إلا قول ٱلبشر",
     "transliteration": "in hādhā illā qawlu l-bashari",
-    "translation": "",
+    "translation": "This is not but the word of a human being.\"",
     "words": [
       {
         "id": "al-muddaththir-25-1",
@@ -862,7 +886,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ce n’est là que parole humaine ! »"
   },
   {
     "id": "al-muddaththir-26",
@@ -871,7 +896,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "سَأُصْلِيهِ سَقَرَ",
     "textSimple": "سأصليه سقر",
     "transliteration": "sa-uṣ'līhi saqara",
-    "translation": "",
+    "translation": "I will drive him into Saqar.",
     "words": [
       {
         "id": "al-muddaththir-26-1",
@@ -888,7 +913,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je le ferai brûler dans le Feu de Saqar,"
   },
   {
     "id": "al-muddaththir-27",
@@ -897,7 +923,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا سَقَرُ",
     "textSimple": "ومآ أدرىك ما سقر",
     "transliteration": "wamā adrāka mā saqaru",
-    "translation": "",
+    "translation": "And what can make you know what is Saqar?",
     "words": [
       {
         "id": "al-muddaththir-27-1",
@@ -928,7 +954,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce que c’est que Saqar ?"
   },
   {
     "id": "al-muddaththir-28",
@@ -937,7 +964,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "لَا تُبْقِى وَلَا تَذَرُ",
     "textSimple": "لا تبقى ولا تذر",
     "transliteration": "lā tub'qī walā tadharu",
-    "translation": "",
+    "translation": "It lets nothing remain and leaves nothing [unburned],",
     "words": [
       {
         "id": "al-muddaththir-28-1",
@@ -968,7 +995,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Un Feu qui) n’épargne et ne laisse rien,"
   },
   {
     "id": "al-muddaththir-29",
@@ -977,7 +1005,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "لَوَّاحَةٌ لِّلْبَشَرِ",
     "textSimple": "لواحة للبشر",
     "transliteration": "lawwāḥatun lil'bashari",
-    "translation": "",
+    "translation": "Altering [i.e., blackening] the skins.",
     "words": [
       {
         "id": "al-muddaththir-29-1",
@@ -994,7 +1022,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui calcine la chair des hommes."
   },
   {
     "id": "al-muddaththir-30",
@@ -1003,7 +1032,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "عَلَيْهَا تِسْعَةَ عَشَرَ",
     "textSimple": "عليها تسعة عشر",
     "transliteration": "ʿalayhā tis'ʿata ʿashara",
-    "translation": "",
+    "translation": "Over it are nineteen [angels].",
     "words": [
       {
         "id": "al-muddaththir-30-1",
@@ -1027,7 +1056,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dix-neuf (Anges) y montent la garde."
   },
   {
     "id": "al-muddaththir-31",
@@ -1036,7 +1066,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا جَعَلْنَآ أَصْحَـٰبَ ٱلنَّارِ إِلَّا مَلَـٰٓئِكَةً ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَـٰنًا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْكَـٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَـٰذَا مَثَلًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
     "textSimple": "وما جعلنآ أصحـب ٱلنار إلا ملـٓئكة  وما جعلنا عدتهم إلا فتنة للذين كفروا ليستيقن ٱلذين أوتوا ٱلكتـب ويزداد ٱلذين ءامنوٓا إيمـنا  ولا يرتاب ٱلذين أوتوا ٱلكتـب وٱلمؤمنون  وليقول ٱلذين فى قلوبهم مرض وٱلكـفرون ماذآ أراد ٱلله بهـذا مثلا  كذلك يضل ٱلله من يشآء ويهدى من يشآء  وما يعلم جنود ربك إلا هو  وما هى إلا ذكرى للبشر",
     "transliteration": "wamā jaʿalnā aṣḥāba l-nāri illā malāikatan wamā jaʿalnā ʿiddatahum illā fit'natan lilladhīna kafarū liyastayqina alladhīna ūtū l-kitāba wayazdāda alladhīna āmanū īmānan walā yartāba alladhīna ūtū l-kitāba wal-mu'minūna waliyaqūla alladhīna fī qulūbihim maraḍun wal-kāfirūna mādhā arāda l-lahu bihādhā mathalan kadhālika yuḍillu l-lahu man yashāu wayahdī man yashāu wamā yaʿlamu junūda rabbika illā huwa wamā hiya illā dhik'rā lil'bashari",
-    "translation": "",
+    "translation": "And We have not made the keepers of the Fire except angels. And We have not made their number except as a trial for those who disbelieve - that those who were given the Scripture will be convinced and those who have believed will increase in faith and those who were given the Scripture and the believers will not doubt and that those in whose hearts is disease [i.e., hypocrisy] and the disbelievers will say, \"What does Allāh intend by this as an example?\" Thus does Allāh send astray whom He wills and guide whom He wills. And none knows the soldiers of your Lord except Him. And it [i.e., mention of the Fire] is not but a reminder to humanity.",
     "words": [
       {
         "id": "al-muddaththir-31-1",
@@ -1438,7 +1468,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 56
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons désigné, comme gardiens du Feu, que des Anges. Nous ne les avons définis en nombre précis que pour éprouver les mécréants, enraciner la certitude dans les cœurs de ceux qui ont reçu le Livre et accroître la foi des croyants. Ainsi, les gens du Livre et les croyants ne seront plus dans le doute, cependant que ceux dont le cœur est rongé par le mal et les mécréants diront : «Que veut dire Allah par (ce nombre) donné en exemple ? » C’est ainsi qu’Allah égare qui Il veut et guide qui Il veut. Seul Lui Connaît les armées de ton Seigneur. Et cela n’est qu’un rappel à l’intention des humains."
   },
   {
     "id": "al-muddaththir-32",
@@ -1447,7 +1478,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا وَٱلْقَمَرِ",
     "textSimple": "كلا وٱلقمر",
     "transliteration": "kallā wal-qamari",
-    "translation": "",
+    "translation": "No! By the moon.",
     "words": [
       {
         "id": "al-muddaththir-32-1",
@@ -1464,7 +1495,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que oui ! Par la lune !"
   },
   {
     "id": "al-muddaththir-33",
@@ -1473,7 +1505,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّيْلِ إِذْ أَدْبَرَ",
     "textSimple": "وٱليل إذ أدبر",
     "transliteration": "wa-al-layli idh adbara",
-    "translation": "",
+    "translation": "And [by] the night when it departs.",
     "words": [
       {
         "id": "al-muddaththir-33-1",
@@ -1497,7 +1529,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la nuit quand elle se retire !"
   },
   {
     "id": "al-muddaththir-34",
@@ -1506,7 +1539,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلصُّبْحِ إِذَآ أَسْفَرَ",
     "textSimple": "وٱلصبح إذآ أسفر",
     "transliteration": "wal-ṣub'ḥi idhā asfara",
-    "translation": "",
+    "translation": "And [by] the morning when it brightens,",
     "words": [
       {
         "id": "al-muddaththir-34-1",
@@ -1530,7 +1563,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et l’aurore quand elle se dévoile !"
   },
   {
     "id": "al-muddaththir-35",
@@ -1539,7 +1573,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهَا لَإِحْدَى ٱلْكُبَرِ",
     "textSimple": "إنها لإحدى ٱلكبر",
     "transliteration": "innahā la-iḥ'dā l-kubari",
-    "translation": "",
+    "translation": "Indeed, it [i.e., the Fire] is of the greatest [afflictions].",
     "words": [
       {
         "id": "al-muddaththir-35-1",
@@ -1563,7 +1597,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Saqar) est certainement l’un des plus grands (périls),"
   },
   {
     "id": "al-muddaththir-36",
@@ -1572,7 +1607,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "نَذِيرًا لِّلْبَشَرِ",
     "textSimple": "نذيرا للبشر",
     "transliteration": "nadhīran lil'bashari",
-    "translation": "",
+    "translation": "As a warning to humanity -",
     "words": [
       {
         "id": "al-muddaththir-36-1",
@@ -1589,7 +1624,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "un avertissement adressé aux humains,"
   },
   {
     "id": "al-muddaththir-37",
@@ -1598,7 +1634,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "لِمَن شَآءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ",
     "textSimple": "لمن شآء منكم أن يتقدم أو يتأخر",
     "transliteration": "liman shāa minkum an yataqaddama aw yata-akhara",
-    "translation": "",
+    "translation": "To whoever wills among you to proceed or stay behind.",
     "words": [
       {
         "id": "al-muddaththir-37-1",
@@ -1650,7 +1686,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et à qui, parmi vous, veut aller au-devant (des ordres de son Seigneur), ou préfère rester en arrière."
   },
   {
     "id": "al-muddaththir-38",
@@ -1659,7 +1696,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ رَهِينَةٌ",
     "textSimple": "كل نفس بما كسبت رهينة",
     "transliteration": "kullu nafsin bimā kasabat rahīnatun",
-    "translation": "",
+    "translation": "Every soul, for what it has earned, will be retained.",
     "words": [
       {
         "id": "al-muddaththir-38-1",
@@ -1697,7 +1734,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque âme doit assumer la charge de ce qu’elle a fait,"
   },
   {
     "id": "al-muddaththir-39",
@@ -1706,7 +1744,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّآ أَصْحَـٰبَ ٱلْيَمِينِ",
     "textSimple": "إلآ أصحـب ٱليمين",
     "transliteration": "illā aṣḥāba l-yamīni",
-    "translation": "",
+    "translation": "Except the companions of the right,.",
     "words": [
       {
         "id": "al-muddaththir-39-1",
@@ -1730,7 +1768,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté les gens de la dextre,"
   },
   {
     "id": "al-muddaththir-40",
@@ -1739,7 +1778,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّـٰتٍ يَتَسَآءَلُونَ",
     "textSimple": "فى جنـت يتسآءلون",
     "transliteration": "fī jannātin yatasāalūna",
-    "translation": "",
+    "translation": "[Who will be] in gardens, questioning each other",
     "words": [
       {
         "id": "al-muddaththir-40-1",
@@ -1763,7 +1802,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui seront dans des jardins et s’interrogeront mutuellement"
   },
   {
     "id": "al-muddaththir-41",
@@ -1772,7 +1812,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "عَنِ ٱلْمُجْرِمِينَ",
     "textSimple": "عن ٱلمجرمين",
     "transliteration": "ʿani l-muj'rimīna",
-    "translation": "",
+    "translation": "About the criminals,",
     "words": [
       {
         "id": "al-muddaththir-41-1",
@@ -1789,7 +1829,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à propos des scélérats :"
   },
   {
     "id": "al-muddaththir-42",
@@ -1798,7 +1839,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "مَا سَلَكَكُمْ فِى سَقَرَ",
     "textSimple": "ما سلككم فى سقر",
     "transliteration": "mā salakakum fī saqara",
-    "translation": "",
+    "translation": "[And asking them], \"What put you into Saqar?\"",
     "words": [
       {
         "id": "al-muddaththir-42-1",
@@ -1829,7 +1870,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qu’est-ce qui vous a conduits jusqu’à Saqar ? »"
   },
   {
     "id": "al-muddaththir-43",
@@ -1838,7 +1880,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
     "textSimple": "قالوا لم نك من ٱلمصلين",
     "transliteration": "qālū lam naku mina l-muṣalīna",
-    "translation": "",
+    "translation": "They will say, \"We were not of those who prayed,",
     "words": [
       {
         "id": "al-muddaththir-43-1",
@@ -1876,7 +1918,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous n’étions pas du nombre de ceux qui accomplissent la prière, répondront-ils,"
   },
   {
     "id": "al-muddaththir-44",
@@ -1885,7 +1928,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
     "textSimple": "ولم نك نطعم ٱلمسكين",
     "transliteration": "walam naku nuṭ'ʿimu l-mis'kīna",
-    "translation": "",
+    "translation": "Nor did we used to feed the poor.",
     "words": [
       {
         "id": "al-muddaththir-44-1",
@@ -1916,7 +1959,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "nous ne donnions pas à manger au pauvre,"
   },
   {
     "id": "al-muddaththir-45",
@@ -1925,7 +1969,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَكُنَّا نَخُوضُ مَعَ ٱلْخَآئِضِينَ",
     "textSimple": "وكنا نخوض مع ٱلخآئضين",
     "transliteration": "wakunnā nakhūḍu maʿa l-khāiḍīna",
-    "translation": "",
+    "translation": "And we used to enter into vain discourse with those who engaged [in it],",
     "words": [
       {
         "id": "al-muddaththir-45-1",
@@ -1956,7 +2000,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et nous nous engagions dans des discussions futiles avec ceux qui s’y engageaient."
   },
   {
     "id": "al-muddaththir-46",
@@ -1965,7 +2010,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَكُنَّا نُكَذِّبُ بِيَوْمِ ٱلدِّينِ",
     "textSimple": "وكنا نكذب بيوم ٱلدين",
     "transliteration": "wakunnā nukadhibu biyawmi l-dīni",
-    "translation": "",
+    "translation": "And we used to deny the Day of Recompense",
     "words": [
       {
         "id": "al-muddaththir-46-1",
@@ -1996,7 +2041,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et nous tenions pour mensonge le Jour de la Rétribution,"
   },
   {
     "id": "al-muddaththir-47",
@@ -2005,7 +2051,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ أَتَىٰنَا ٱلْيَقِينُ",
     "textSimple": "حتىٓ أتىنا ٱليقين",
     "transliteration": "ḥattā atānā l-yaqīnu",
-    "translation": "",
+    "translation": "Until there came to us the certainty [i.e., death].\"",
     "words": [
       {
         "id": "al-muddaththir-47-1",
@@ -2029,7 +2075,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jusqu’à ce que nous parvînt la grande certitude. »"
   },
   {
     "id": "al-muddaththir-48",
@@ -2038,7 +2085,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا تَنفَعُهُمْ شَفَـٰعَةُ ٱلشَّـٰفِعِينَ",
     "textSimple": "فما تنفعهم شفـعة ٱلشـفعين",
     "transliteration": "famā tanfaʿuhum shafāʿatu l-shāfiʿīna",
-    "translation": "",
+    "translation": "So there will not benefit them the intercession of [any] intercessors.",
     "words": [
       {
         "id": "al-muddaththir-48-1",
@@ -2069,7 +2116,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’intercession des intercesseurs ne leur sera pas utile."
   },
   {
     "id": "al-muddaththir-49",
@@ -2078,7 +2126,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا لَهُمْ عَنِ ٱلتَّذْكِرَةِ مُعْرِضِينَ",
     "textSimple": "فما لهم عن ٱلتذكرة معرضين",
     "transliteration": "famā lahum ʿani l-tadhkirati muʿ'riḍīna",
-    "translation": "",
+    "translation": "Then what is [the matter] with them that they are, from the reminder, turning away.",
     "words": [
       {
         "id": "al-muddaththir-49-1",
@@ -2116,7 +2164,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ont-ils donc à se détourner du Rappel,"
   },
   {
     "id": "al-muddaththir-50",
@@ -2125,7 +2174,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
     "textSimple": "كأنهم حمر مستنفرة",
     "transliteration": "ka-annahum ḥumurun mus'tanfiratun",
-    "translation": "",
+    "translation": "As if they were alarmed donkeys.",
     "words": [
       {
         "id": "al-muddaththir-50-1",
@@ -2149,7 +2198,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "tels des ânes sauvages qui, dans leur panique,"
   },
   {
     "id": "al-muddaththir-51",
@@ -2158,7 +2208,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَرَّتْ مِن قَسْوَرَةٍۭ",
     "textSimple": "فرت من قسورة",
     "transliteration": "farrat min qaswaratin",
-    "translation": "",
+    "translation": "Fleeing from a lion?",
     "words": [
       {
         "id": "al-muddaththir-51-1",
@@ -2182,7 +2232,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "fuient devant un lion ?"
   },
   {
     "id": "al-muddaththir-52",
@@ -2191,7 +2242,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ يُرِيدُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُؤْتَىٰ صُحُفًا مُّنَشَّرَةً",
     "textSimple": "بل يريد كل ٱمرئ منهم أن يؤتى صحفا منشرة",
     "transliteration": "bal yurīdu kullu im'ri-in min'hum an yu'tā ṣuḥufan munasharatan",
-    "translation": "",
+    "translation": "Rather, every person among them desires that he would be given scriptures spread about.",
     "words": [
       {
         "id": "al-muddaththir-52-1",
@@ -2257,7 +2308,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque individu parmi eux voudrait recevoir des Feuillets (spécialement) déployés (pour lui)."
   },
   {
     "id": "al-muddaththir-53",
@@ -2266,7 +2318,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا ۖ بَل لَّا يَخَافُونَ ٱلْـَٔاخِرَةَ",
     "textSimple": "كلا  بل لا يخافون ٱلـٔاخرة",
     "transliteration": "kallā bal lā yakhāfūna l-ākhirata",
-    "translation": "",
+    "translation": "No! But they do not fear the Hereafter.",
     "words": [
       {
         "id": "al-muddaththir-53-1",
@@ -2304,7 +2356,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non ! Plutôt ils ne redoutent pas l’autre monde."
   },
   {
     "id": "al-muddaththir-54",
@@ -2313,7 +2366,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِنَّهُۥ تَذْكِرَةٌ",
     "textSimple": "كلآ إنه تذكرة",
     "transliteration": "kallā innahu tadhkiratun",
-    "translation": "",
+    "translation": "No! Indeed, it [i.e., the Qur’ān] is a reminder.",
     "words": [
       {
         "id": "al-muddaththir-54-1",
@@ -2337,7 +2390,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non ! Ceci est un Rappel."
   },
   {
     "id": "al-muddaththir-55",
@@ -2346,7 +2400,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن شَآءَ ذَكَرَهُۥ",
     "textSimple": "فمن شآء ذكره",
     "transliteration": "faman shāa dhakarahu",
-    "translation": "",
+    "translation": "Then whoever wills will remember it.",
     "words": [
       {
         "id": "al-muddaththir-55-1",
@@ -2370,7 +2424,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, s’en souviendra qui voudra."
   },
   {
     "id": "al-muddaththir-56",
@@ -2379,7 +2434,7 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَذْكُرُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ هُوَ أَهْلُ ٱلتَّقْوَىٰ وَأَهْلُ ٱلْمَغْفِرَةِ",
     "textSimple": "وما يذكرون إلآ أن يشآء ٱلله  هو أهل ٱلتقوى وأهل ٱلمغفرة",
     "transliteration": "wamā yadhkurūna illā an yashāa l-lahu huwa ahlu l-taqwā wa-ahlu l-maghfirati",
-    "translation": "",
+    "translation": "And they will not remember except that Allāh wills. He is worthy of fear and adequate for [granting] forgiveness.",
     "words": [
       {
         "id": "al-muddaththir-56-1",
@@ -2459,7 +2514,8 @@ export const AL_MUDDATHTHIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils ne s’en souviendront que si Allah le veut, Lui le Seul digne d’être craint, Lui le plus digne de pardonner."
   }
 ];
 

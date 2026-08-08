@@ -11,7 +11,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
     "textSimple": " إذا ٱلسمآء ٱنفطرت",
     "transliteration": "idhā l-samāu infaṭarat",
-    "translation": "",
+    "translation": "When the sky breaks apart",
     "words": [
       {
         "id": "al-infitar-1-1",
@@ -35,7 +35,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand le ciel se brisera,"
   },
   {
     "id": "al-infitar-2",
@@ -44,7 +45,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
     "textSimple": "وإذا ٱلكواكب ٱنتثرت",
     "transliteration": "wa-idhā l-kawākibu intatharat",
-    "translation": "",
+    "translation": "And when the stars fall, scattering,",
     "words": [
       {
         "id": "al-infitar-2-1",
@@ -68,7 +69,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand les astres choiront,"
   },
   {
     "id": "al-infitar-3",
@@ -77,7 +79,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
     "textSimple": "وإذا ٱلبحار فجرت",
     "transliteration": "wa-idhā l-biḥāru fujjirat",
-    "translation": "",
+    "translation": "And when the seas are erupted",
     "words": [
       {
         "id": "al-infitar-3-1",
@@ -101,7 +103,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les mers se confondront,"
   },
   {
     "id": "al-infitar-4",
@@ -110,7 +113,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
     "textSimple": "وإذا ٱلقبور بعثرت",
     "transliteration": "wa-idhā l-qubūru buʿ'thirat",
-    "translation": "",
+    "translation": "And when the [contents of] graves are scattered [i.e., exposed],",
     "words": [
       {
         "id": "al-infitar-4-1",
@@ -134,7 +137,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les tombes seront renversées,"
   },
   {
     "id": "al-infitar-5",
@@ -143,7 +147,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ",
     "textSimple": "علمت نفس ما قدمت وأخرت",
     "transliteration": "ʿalimat nafsun mā qaddamat wa-akharat",
-    "translation": "",
+    "translation": "A soul will [then] know what it has put forth and kept back.",
     "words": [
       {
         "id": "al-infitar-5-1",
@@ -181,7 +185,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "chaque âme saura alors ce qu’elle a déjà fait et ce qu’elle a renvoyé à plus tard."
   },
   {
     "id": "al-infitar-6",
@@ -190,7 +195,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
     "textSimple": "يـٓأيها ٱلإنسـن ما غرك بربك ٱلكريم",
     "transliteration": "yāayyuhā l-insānu mā gharraka birabbika l-karīmi",
-    "translation": "",
+    "translation": "O mankind, what has deceived you concerning your Lord, the Generous,",
     "words": [
       {
         "id": "al-infitar-6-1",
@@ -235,7 +240,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô homme ! Qu’est-ce qui t’a donc leurré au sujet de ton Noble Seigneur"
   },
   {
     "id": "al-infitar-7",
@@ -244,7 +250,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
     "textSimple": "ٱلذى خلقك فسوىك فعدلك",
     "transliteration": "alladhī khalaqaka fasawwāka faʿadalaka",
-    "translation": "",
+    "translation": "Who created you, proportioned you, and balanced you?",
     "words": [
       {
         "id": "al-infitar-7-1",
@@ -275,7 +281,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui t’a créé, t’a façonné et t’a donné des formes aussi proportionnées ?"
   },
   {
     "id": "al-infitar-8",
@@ -284,7 +291,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ",
     "textSimple": "فىٓ أى صورة ما شآء ركبك",
     "transliteration": "fī ayyi ṣūratin mā shāa rakkabaka",
-    "translation": "",
+    "translation": "In whatever form He willed has He assembled you.",
     "words": [
       {
         "id": "al-infitar-8-1",
@@ -329,7 +336,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il t’a constitué dans la forme qu’Il a voulue."
   },
   {
     "id": "al-infitar-9",
@@ -338,7 +346,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
     "textSimple": "كلا بل تكذبون بٱلدين",
     "transliteration": "kallā bal tukadhibūna bil-dīni",
-    "translation": "",
+    "translation": "No! But you deny the Recompense.",
     "words": [
       {
         "id": "al-infitar-9-1",
@@ -369,7 +377,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourtant, vous tenez la Rétribution pour imposture."
   },
   {
     "id": "al-infitar-10",
@@ -378,7 +387,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ عَلَيْكُمْ لَحَـٰفِظِينَ",
     "textSimple": "وإن عليكم لحـفظين",
     "transliteration": "wa-inna ʿalaykum laḥāfiẓīna",
-    "translation": "",
+    "translation": "And indeed, [appointed] over you are keepers,",
     "words": [
       {
         "id": "al-infitar-10-1",
@@ -402,7 +411,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des gardiens sont là à vous surveiller,"
   },
   {
     "id": "al-infitar-11",
@@ -411,7 +421,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "كِرَامًا كَـٰتِبِينَ",
     "textSimple": "كراما كـتبين",
     "transliteration": "kirāman kātibīna",
-    "translation": "",
+    "translation": "Noble and recording;",
     "words": [
       {
         "id": "al-infitar-11-1",
@@ -428,7 +438,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui sont de nobles scripteurs,"
   },
   {
     "id": "al-infitar-12",
@@ -437,7 +448,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُونَ مَا تَفْعَلُونَ",
     "textSimple": "يعلمون ما تفعلون",
     "transliteration": "yaʿlamūna mā tafʿalūna",
-    "translation": "",
+    "translation": "They know whatever you do.",
     "words": [
       {
         "id": "al-infitar-12-1",
@@ -461,7 +472,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sachant bien ce que vous faites."
   },
   {
     "id": "al-infitar-13",
@@ -470,7 +482,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
     "textSimple": "إن ٱلأبرار لفى نعيم",
     "transliteration": "inna l-abrāra lafī naʿīmin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be in pleasure,",
     "words": [
       {
         "id": "al-infitar-13-1",
@@ -501,7 +513,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les vertueux auront droit au délice absolu."
   },
   {
     "id": "al-infitar-14",
@@ -510,7 +523,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ",
     "textSimple": "وإن ٱلفجار لفى جحيم",
     "transliteration": "wa-inna l-fujāra lafī jaḥīmin",
-    "translation": "",
+    "translation": "And indeed, the wicked will be in Hellfire.",
     "words": [
       {
         "id": "al-infitar-14-1",
@@ -541,7 +554,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les scélérats seront en Enfer."
   },
   {
     "id": "al-infitar-15",
@@ -550,7 +564,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
     "textSimple": "يصلونها يوم ٱلدين",
     "transliteration": "yaṣlawnahā yawma l-dīni",
-    "translation": "",
+    "translation": "They will [enter to] burn therein on the Day of Recompense,",
     "words": [
       {
         "id": "al-infitar-15-1",
@@ -574,7 +588,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y brûleront au Jour de la Rétribution,"
   },
   {
     "id": "al-infitar-16",
@@ -583,7 +598,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
     "textSimple": "وما هم عنها بغآئبين",
     "transliteration": "wamā hum ʿanhā bighāibīna",
-    "translation": "",
+    "translation": "And never therefrom will they be absent.",
     "words": [
       {
         "id": "al-infitar-16-1",
@@ -614,7 +629,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ne pourront s’y dérober."
   },
   {
     "id": "al-infitar-17",
@@ -623,7 +639,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
     "textSimple": "ومآ أدرىك ما يوم ٱلدين",
     "transliteration": "wamā adrāka mā yawmu l-dīni",
-    "translation": "",
+    "translation": "And what can make you know what is the Day of Recompense?",
     "words": [
       {
         "id": "al-infitar-17-1",
@@ -661,7 +677,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est le Jour de la Rétribution ?"
   },
   {
     "id": "al-infitar-18",
@@ -670,7 +687,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
     "textSimple": "ثم مآ أدرىك ما يوم ٱلدين",
     "transliteration": "thumma mā adrāka mā yawmu l-dīni",
-    "translation": "",
+    "translation": "Then, what can make you know what is the Day of Recompense?",
     "words": [
       {
         "id": "al-infitar-18-1",
@@ -715,7 +732,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et puis, qui te fera jamais savoir ce qu’est le Jour de la Rétribution ?"
   },
   {
     "id": "al-infitar-19",
@@ -724,7 +742,7 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْـًٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍ لِّلَّهِ",
     "textSimple": "يوم لا تملك نفس لنفس شيـٔا  وٱلأمر يومئذ لله",
     "transliteration": "yawma lā tamliku nafsun linafsin shayan wal-amru yawma-idhin lillahi",
-    "translation": "",
+    "translation": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allāh.",
     "words": [
       {
         "id": "al-infitar-19-1",
@@ -790,7 +808,8 @@ export const AL_INFITAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est le jour où aucune âme ne pourra rien pour une autre âme. Et la décision, ce jour-là, reviendra entière à Allah."
   }
 ];
 

@@ -11,7 +11,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": " نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
     "textSimple": " نٓ  وٱلقلم وما يسطرون",
     "transliteration": "noon wal-qalami wamā yasṭurūna",
-    "translation": "",
+    "translation": "Nūn. By the pen and what they inscribe,",
     "words": [
       {
         "id": "al-qalam-1-1",
@@ -42,7 +42,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nûn. Par le calame et ce qu’ils écrivent !"
   },
   {
     "id": "al-qalam-2",
@@ -51,7 +52,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍ",
     "textSimple": "مآ أنت بنعمة ربك بمجنون",
     "transliteration": "mā anta biniʿ'mati rabbika bimajnūnin",
-    "translation": "",
+    "translation": "You are not, [O Muḥammad], by the favor of your Lord, a madman.",
     "words": [
       {
         "id": "al-qalam-2-1",
@@ -89,7 +90,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’es certes pas, par la grâce de ton Seigneur, un fou possédé du démon."
   },
   {
     "id": "al-qalam-3",
@@ -98,7 +100,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍ",
     "textSimple": "وإن لك لأجرا غير ممنون",
     "transliteration": "wa-inna laka la-ajran ghayra mamnūnin",
-    "translation": "",
+    "translation": "And indeed, for you is a reward uninterrupted.",
     "words": [
       {
         "id": "al-qalam-3-1",
@@ -136,7 +138,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu auras certes (droit) à une rétribution sans fin."
   },
   {
     "id": "al-qalam-4",
@@ -145,7 +148,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ",
     "textSimple": "وإنك لعلى خلق عظيم",
     "transliteration": "wa-innaka laʿalā khuluqin ʿaẓīmin",
-    "translation": "",
+    "translation": "And indeed, you are of a great moral character.",
     "words": [
       {
         "id": "al-qalam-4-1",
@@ -176,7 +179,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et tu es moralement très noble."
   },
   {
     "id": "al-qalam-5",
@@ -185,7 +189,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَسَتُبْصِرُ وَيُبْصِرُونَ",
     "textSimple": "فستبصر ويبصرون",
     "transliteration": "fasatub'ṣiru wayub'ṣirūna",
-    "translation": "",
+    "translation": "So you will see and they will see.",
     "words": [
       {
         "id": "al-qalam-5-1",
@@ -202,7 +206,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu verras et ils verront"
   },
   {
     "id": "al-qalam-6",
@@ -211,7 +216,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "بِأَييِّكُمُ ٱلْمَفْتُونُ",
     "textSimple": "بأييكم ٱلمفتون",
     "transliteration": "bi-ayyikumu l-maftūnu",
-    "translation": "",
+    "translation": "Which of you is the afflicted [by a devil].",
     "words": [
       {
         "id": "al-qalam-6-1",
@@ -228,7 +233,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui de vous est le fou."
   },
   {
     "id": "al-qalam-7",
@@ -237,7 +243,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
     "textSimple": "إن ربك هو أعلم بمن ضل عن سبيله وهو أعلم بٱلمهتدين",
     "transliteration": "inna rabbaka huwa aʿlamu biman ḍalla ʿan sabīlihi wahuwa aʿlamu bil-muh'tadīna",
-    "translation": "",
+    "translation": "Indeed, your Lord is most knowing of who has gone astray from His way, and He is most knowing of the [rightly] guided.",
     "words": [
       {
         "id": "al-qalam-7-1",
@@ -317,7 +323,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur, Lui, Sait le mieux qui a perdu son chemin, et Connaît le mieux ceux qui tiennent la bonne direction."
   },
   {
     "id": "al-qalam-8",
@@ -326,7 +333,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تُطِعِ ٱلْمُكَذِّبِينَ",
     "textSimple": "فلا تطع ٱلمكذبين",
     "transliteration": "falā tuṭiʿi l-mukadhibīna",
-    "translation": "",
+    "translation": "Then do not obey the deniers.",
     "words": [
       {
         "id": "al-qalam-8-1",
@@ -350,7 +357,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’obéis donc pas aux négateurs."
   },
   {
     "id": "al-qalam-9",
@@ -359,7 +367,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ",
     "textSimple": "ودوا لو تدهن فيدهنون",
     "transliteration": "waddū law tud'hinu fayud'hinūna",
-    "translation": "",
+    "translation": "They wish that you would soften [in your position], so they would soften [toward you].",
     "words": [
       {
         "id": "al-qalam-9-1",
@@ -390,7 +398,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils aimeraient que tu fléchisses un peu avec eux, alors ils feront de même."
   },
   {
     "id": "al-qalam-10",
@@ -399,7 +408,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَّهِينٍ",
     "textSimple": "ولا تطع كل حلاف مهين",
     "transliteration": "walā tuṭiʿ kulla ḥallāfin mahīnin",
-    "translation": "",
+    "translation": "And do not obey every worthless habitual swearer",
     "words": [
       {
         "id": "al-qalam-10-1",
@@ -437,7 +446,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’écoute pas celui qui jure à tout propos, et qui est ignoble,"
   },
   {
     "id": "al-qalam-11",
@@ -446,7 +456,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "هَمَّازٍ مَّشَّآءٍۭ بِنَمِيمٍ",
     "textSimple": "هماز مشآء بنميم",
     "transliteration": "hammāzin mashāin binamīmin",
-    "translation": "",
+    "translation": "[And] scorner, going about with malicious gossip -",
     "words": [
       {
         "id": "al-qalam-11-1",
@@ -470,7 +480,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le diffamateur intempérant, le grand colporteur de calomnies,"
   },
   {
     "id": "al-qalam-12",
@@ -479,7 +490,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
     "textSimple": "مناع للخير معتد أثيم",
     "transliteration": "mannāʿin lil'khayri muʿ'tadin athīmin",
-    "translation": "",
+    "translation": "A preventer of good, transgressing and sinful,",
     "words": [
       {
         "id": "al-qalam-12-1",
@@ -510,7 +521,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "l’adversaire du bien, l’agresseur et le pécheur"
   },
   {
     "id": "al-qalam-13",
@@ -519,7 +531,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
     "textSimple": "عتل بعد ذلك زنيم",
     "transliteration": "ʿutullin baʿda dhālika zanīmin",
-    "translation": "",
+    "translation": "Cruel, moreover, and an illegitimate pretender.",
     "words": [
       {
         "id": "al-qalam-13-1",
@@ -550,7 +562,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "brutal, et de surcroît bâtard."
   },
   {
     "id": "al-qalam-14",
@@ -559,7 +572,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَن كَانَ ذَا مَالٍ وَبَنِينَ",
     "textSimple": "أن كان ذا مال وبنين",
     "transliteration": "an kāna dhā mālin wabanīna",
-    "translation": "",
+    "translation": "Because he is a possessor of wealth and children,",
     "words": [
       {
         "id": "al-qalam-14-1",
@@ -597,7 +610,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Même quand il possède des biens (en abondance) et de (nombreux) enfants,"
   },
   {
     "id": "al-qalam-15",
@@ -606,7 +620,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا قَالَ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
     "textSimple": "إذا تتلى عليه ءايـتنا قال أسـطير ٱلأولين",
     "transliteration": "idhā tut'lā ʿalayhi āyātunā qāla asāṭīru l-awalīna",
-    "translation": "",
+    "translation": "When Our verses are recited to him, he says, \"Legends of the former peoples.\"",
     "words": [
       {
         "id": "al-qalam-15-1",
@@ -658,7 +672,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il dit en entendant réciter Nos versets : « Ce ne sont que fables d’anciens ! »"
   },
   {
     "id": "al-qalam-16",
@@ -667,7 +682,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
     "textSimple": "سنسمه على ٱلخرطوم",
     "transliteration": "sanasimuhu ʿalā l-khur'ṭūmi",
-    "translation": "",
+    "translation": "We will brand him upon the snout.",
     "words": [
       {
         "id": "al-qalam-16-1",
@@ -691,7 +706,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui marquerons le nez."
   },
   {
     "id": "al-qalam-17",
@@ -700,7 +716,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا بَلَوْنَـٰهُمْ كَمَا بَلَوْنَآ أَصْحَـٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
     "textSimple": "إنا بلونـهم كما بلونآ أصحـب ٱلجنة إذ أقسموا ليصرمنها مصبحين",
     "transliteration": "innā balawnāhum kamā balawnā aṣḥāba l-janati idh aqsamū layaṣrimunnahā muṣ'biḥīna",
-    "translation": "",
+    "translation": "Indeed, We have tried them as We tried the companions of the garden, when they swore to cut its fruit in the [early] morning",
     "words": [
       {
         "id": "al-qalam-17-1",
@@ -773,7 +789,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les avons éprouvés comme Nous avions autrefois éprouvé les propriétaires du jardin et qui s’étaient juré de procéder à sa récolte au petit jour"
   },
   {
     "id": "al-qalam-18",
@@ -782,7 +799,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَسْتَثْنُونَ",
     "textSimple": "ولا يستثنون",
     "transliteration": "walā yastathnūna",
-    "translation": "",
+    "translation": "Without making exception.",
     "words": [
       {
         "id": "al-qalam-18-1",
@@ -799,7 +816,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sans restreindre (leur serment)"
   },
   {
     "id": "al-qalam-19",
@@ -808,7 +826,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَطَافَ عَلَيْهَا طَآئِفٌ مِّن رَّبِّكَ وَهُمْ نَآئِمُونَ",
     "textSimple": "فطاف عليها طآئف من ربك وهم نآئمون",
     "transliteration": "faṭāfa ʿalayhā ṭāifun min rabbika wahum nāimūna",
-    "translation": "",
+    "translation": "So there came upon it [i.e., the garden] an affliction from your Lord while they were asleep.",
     "words": [
       {
         "id": "al-qalam-19-1",
@@ -860,7 +878,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un fléau venu de la part de ton Seigneur fondit sur le jardin pendant qu’ils dormaient."
   },
   {
     "id": "al-qalam-20",
@@ -869,7 +888,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَصْبَحَتْ كَٱلصَّرِيمِ",
     "textSimple": "فأصبحت كٱلصريم",
     "transliteration": "fa-aṣbaḥat kal-ṣarīmi",
-    "translation": "",
+    "translation": "And it became as though reaped.",
     "words": [
       {
         "id": "al-qalam-20-1",
@@ -886,7 +905,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au matin, (le jardin) était complètement ravagé."
   },
   {
     "id": "al-qalam-21",
@@ -895,7 +915,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَتَنَادَوْا۟ مُصْبِحِينَ",
     "textSimple": "فتنادوا مصبحين",
     "transliteration": "fatanādaw muṣ'biḥīna",
-    "translation": "",
+    "translation": "And they called one another at morning,",
     "words": [
       {
         "id": "al-qalam-21-1",
@@ -912,7 +932,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En se levant avec le jour, ils s’appelèrent les uns les autres :"
   },
   {
     "id": "al-qalam-22",
@@ -921,7 +942,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَـٰرِمِينَ",
     "textSimple": "أن ٱغدوا على حرثكم إن كنتم صـرمين",
     "transliteration": "ani igh'dū ʿalā ḥarthikum in kuntum ṣārimīna",
-    "translation": "",
+    "translation": "[Saying], \"Go early to your crop if you would cut the fruit.\"",
     "words": [
       {
         "id": "al-qalam-22-1",
@@ -973,7 +994,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Allez vite à votre champ si vous comptez (toujours) en achever la récolte. »"
   },
   {
     "id": "al-qalam-23",
@@ -982,7 +1004,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنطَلَقُوا۟ وَهُمْ يَتَخَـٰفَتُونَ",
     "textSimple": "فٱنطلقوا وهم يتخـفتون",
     "transliteration": "fa-inṭalaqū wahum yatakhāfatūna",
-    "translation": "",
+    "translation": "So they set out, while lowering their voices,",
     "words": [
       {
         "id": "al-qalam-23-1",
@@ -1006,7 +1028,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’élancèrent aussitôt en se disant tout bas les uns aux autres :"
   },
   {
     "id": "al-qalam-24",
@@ -1015,7 +1038,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌ",
     "textSimple": "أن لا يدخلنها ٱليوم عليكم مسكين",
     "transliteration": "an lā yadkhulannahā l-yawma ʿalaykum mis'kīnun",
-    "translation": "",
+    "translation": "[Saying], \"There will surely not enter it today upon you [any] poor person.\"",
     "words": [
       {
         "id": "al-qalam-24-1",
@@ -1060,7 +1083,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Que nul pauvre n’y entre aujourd’hui ! »"
   },
   {
     "id": "al-qalam-25",
@@ -1069,7 +1093,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَغَدَوْا۟ عَلَىٰ حَرْدٍ قَـٰدِرِينَ",
     "textSimple": "وغدوا على حرد قـدرين",
     "transliteration": "waghadaw ʿalā ḥardin qādirīna",
-    "translation": "",
+    "translation": "And they went early in determination, [assuming themselves] able.",
     "words": [
       {
         "id": "al-qalam-25-1",
@@ -1100,7 +1124,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’en furent, au petit jour, fermement résolus à empêcher (les pauvres d’entrer dans leur jardin), et persuadés qu’ils en avaient le pouvoir."
   },
   {
     "id": "al-qalam-26",
@@ -1109,7 +1134,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَأَوْهَا قَالُوٓا۟ إِنَّا لَضَآلُّونَ",
     "textSimple": "فلما رأوها قالوٓا إنا لضآلون",
     "transliteration": "falammā ra-awhā qālū innā laḍāllūna",
-    "translation": "",
+    "translation": "But when they saw it, they said, \"Indeed, we are lost;",
     "words": [
       {
         "id": "al-qalam-26-1",
@@ -1147,7 +1172,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils eurent vu (le jardin), ils dirent : « Nous nous sommes vraiment égarés !"
   },
   {
     "id": "al-qalam-27",
@@ -1156,7 +1182,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ نَحْنُ مَحْرُومُونَ",
     "textSimple": "بل نحن محرومون",
     "transliteration": "bal naḥnu maḥrūmūna",
-    "translation": "",
+    "translation": "Rather, we have been deprived.\"",
     "words": [
       {
         "id": "al-qalam-27-1",
@@ -1180,7 +1206,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou plutôt voilà que nous avons tout perdu ! »"
   },
   {
     "id": "al-qalam-28",
@@ -1189,7 +1216,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
     "textSimple": "قال أوسطهم ألم أقل لكم لولا تسبحون",
     "transliteration": "qāla awsaṭuhum alam aqul lakum lawlā tusabbiḥūna",
-    "translation": "",
+    "translation": "The most moderate of them said, \"Did I not say to you, 'Why do you not exalt [Allāh]?'\"",
     "words": [
       {
         "id": "al-qalam-28-1",
@@ -1241,7 +1268,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le plus sage d’entre eux dit alors : «Ne vous avais-je pas dit de rendre gloire à Allah ? »"
   },
   {
     "id": "al-qalam-29",
@@ -1250,7 +1278,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سُبْحَـٰنَ رَبِّنَآ إِنَّا كُنَّا ظَـٰلِمِينَ",
     "textSimple": "قالوا سبحـن ربنآ إنا كنا ظـلمين",
     "transliteration": "qālū sub'ḥāna rabbinā innā kunnā ẓālimīna",
-    "translation": "",
+    "translation": "They said, \"Exalted is our Lord! Indeed, we were wrongdoers.\"",
     "words": [
       {
         "id": "al-qalam-29-1",
@@ -1295,7 +1323,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Gloire soit rendue à notre Seigneur, s’écrièrent-ils, nous étions vraiment injustes ! »"
   },
   {
     "id": "al-qalam-30",
@@ -1304,7 +1333,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَلَـٰوَمُونَ",
     "textSimple": "فأقبل بعضهم على بعض يتلـومون",
     "transliteration": "fa-aqbala baʿḍuhum ʿalā baʿḍin yatalāwamūna",
-    "translation": "",
+    "translation": "Then they approached one another, blaming each other.",
     "words": [
       {
         "id": "al-qalam-30-1",
@@ -1342,7 +1371,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis ils se mirent à s’agonir de reproches mutuels."
   },
   {
     "id": "al-qalam-31",
@@ -1351,7 +1381,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰوَيْلَنَآ إِنَّا كُنَّا طَـٰغِينَ",
     "textSimple": "قالوا يـويلنآ إنا كنا طـغين",
     "transliteration": "qālū yāwaylanā innā kunnā ṭāghīna",
-    "translation": "",
+    "translation": "They said, \"O woe to us; indeed we were transgressors.",
     "words": [
       {
         "id": "al-qalam-31-1",
@@ -1389,7 +1419,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Malheur à nous, dirent-ils, nous sommes allés à la démesure !"
   },
   {
     "id": "al-qalam-32",
@@ -1398,7 +1429,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْرًا مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا رَٰغِبُونَ",
     "textSimple": "عسى ربنآ أن يبدلنا خيرا منهآ إنآ إلى ربنا رغبون",
     "transliteration": "ʿasā rabbunā an yub'dilanā khayran min'hā innā ilā rabbinā rāghibūna",
-    "translation": "",
+    "translation": "Perhaps our Lord will substitute for us [one] better than it. Indeed, we are toward our Lord desirous.\"",
     "words": [
       {
         "id": "al-qalam-32-1",
@@ -1471,7 +1502,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que notre Seigneur nous accorde en échange mieux que (ce jardin) ! Car nous ne voulons plus rien désormais que l’agrément de notre Seigneur ! »"
   },
   {
     "id": "al-qalam-33",
@@ -1480,7 +1512,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ ٱلْعَذَابُ ۖ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
     "textSimple": "كذلك ٱلعذاب  ولعذاب ٱلـٔاخرة أكبر  لو كانوا يعلمون",
     "transliteration": "kadhālika l-ʿadhābu walaʿadhābu l-ākhirati akbaru law kānū yaʿlamūna",
-    "translation": "",
+    "translation": "Such is the punishment [of this world]. And the punishment of the Hereafter is greater, if they only knew.",
     "words": [
       {
         "id": "al-qalam-33-1",
@@ -1539,7 +1571,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’est le supplice. Mais le supplice de l’autre monde est plus grand encore. Ah, si seulement ils pouvaient savoir !"
   },
   {
     "id": "al-qalam-34",
@@ -1548,7 +1581,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ لِلْمُتَّقِينَ عِندَ رَبِّهِمْ جَنَّـٰتِ ٱلنَّعِيمِ",
     "textSimple": "إن للمتقين عند ربهم جنـت ٱلنعيم",
     "transliteration": "inna lil'muttaqīna ʿinda rabbihim jannāti l-naʿīmi",
-    "translation": "",
+    "translation": "Indeed, for the righteous with their Lord are the Gardens of Pleasure.",
     "words": [
       {
         "id": "al-qalam-34-1",
@@ -1593,7 +1626,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont pieux auront auprès de leur Seigneur les Jardins des délices."
   },
   {
     "id": "al-qalam-35",
@@ -1602,7 +1636,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَنَجْعَلُ ٱلْمُسْلِمِينَ كَٱلْمُجْرِمِينَ",
     "textSimple": "أفنجعل ٱلمسلمين كٱلمجرمين",
     "transliteration": "afanajʿalu l-mus'limīna kal-muj'rimīna",
-    "translation": "",
+    "translation": "Then will We treat the Muslims like the criminals?",
     "words": [
       {
         "id": "al-qalam-35-1",
@@ -1626,7 +1660,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Traiterions-Nous donc les Soumis comme les scélérats ?"
   },
   {
     "id": "al-qalam-36",
@@ -1635,7 +1670,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
     "textSimple": "ما لكم كيف تحكمون",
     "transliteration": "mā lakum kayfa taḥkumūna",
-    "translation": "",
+    "translation": "What is [the matter] with you? How do you judge?",
     "words": [
       {
         "id": "al-qalam-36-1",
@@ -1666,7 +1701,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serait-ce là votre façon de juger ?"
   },
   {
     "id": "al-qalam-37",
@@ -1675,7 +1711,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَكُمْ كِتَـٰبٌ فِيهِ تَدْرُسُونَ",
     "textSimple": "أم لكم كتـب فيه تدرسون",
     "transliteration": "am lakum kitābun fīhi tadrusūna",
-    "translation": "",
+    "translation": "Or do you have a scripture in which you learn",
     "words": [
       {
         "id": "al-qalam-37-1",
@@ -1713,7 +1749,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auriez-vous un Livre où vous auriez appris"
   },
   {
     "id": "al-qalam-38",
@@ -1722,7 +1759,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ",
     "textSimple": "إن لكم فيه لما تخيرون",
     "transliteration": "inna lakum fīhi lamā takhayyarūna",
-    "translation": "",
+    "translation": "That indeed for you is whatever you choose?",
     "words": [
       {
         "id": "al-qalam-38-1",
@@ -1760,7 +1797,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que tout ce que vous souhaitez est à votre portée ?"
   },
   {
     "id": "al-qalam-39",
@@ -1769,7 +1807,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَكُمْ أَيْمَـٰنٌ عَلَيْنَا بَـٰلِغَةٌ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ ۙ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ",
     "textSimple": "أم لكم أيمـن علينا بـلغة إلى يوم ٱلقيـمة  إن لكم لما تحكمون",
     "transliteration": "am lakum aymānun ʿalaynā bālighatun ilā yawmi l-qiyāmati inna lakum lamā taḥkumūna",
-    "translation": "",
+    "translation": "Or do you have oaths [binding] upon Us, extending until the Day of Resurrection, that indeed for you is whatever you judge?",
     "words": [
       {
         "id": "al-qalam-39-1",
@@ -1856,7 +1894,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou auriez-vous de Nous un engagement solennel, qui (Nous impose) jusqu’au Jour de la Résurrection, de vous accorder ce que vous jugerez devoir obtenir ?"
   },
   {
     "id": "al-qalam-40",
@@ -1865,7 +1904,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "سَلْهُمْ أَيُّهُم بِذَٰلِكَ زَعِيمٌ",
     "textSimple": "سلهم أيهم بذلك زعيم",
     "transliteration": "salhum ayyuhum bidhālika zaʿīmun",
-    "translation": "",
+    "translation": "Ask them which of them, for that [claim], is responsible.",
     "words": [
       {
         "id": "al-qalam-40-1",
@@ -1896,7 +1935,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande-leur lequel d’entre eux en serait garant ?"
   },
   {
     "id": "al-qalam-41",
@@ -1905,7 +1945,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُمْ شُرَكَآءُ فَلْيَأْتُوا۟ بِشُرَكَآئِهِمْ إِن كَانُوا۟ صَـٰدِقِينَ",
     "textSimple": "أم لهم شركآء فليأتوا بشركآئهم إن كانوا صـدقين",
     "transliteration": "am lahum shurakāu falyatū bishurakāihim in kānū ṣādiqīna",
-    "translation": "",
+    "translation": "Or do they have partners? Then let them bring their partners, if they should be truthful.",
     "words": [
       {
         "id": "al-qalam-41-1",
@@ -1964,7 +2004,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors auraient-ils des associés ? Qu’ils les amènent donc, si ce qu’ils disent est vrai !"
   },
   {
     "id": "al-qalam-42",
@@ -1973,7 +2014,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يُكْشَفُ عَن سَاقٍ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
     "textSimple": "يوم يكشف عن ساق ويدعون إلى ٱلسجود فلا يستطيعون",
     "transliteration": "yawma yuk'shafu ʿan sāqin wayud'ʿawna ilā l-sujūdi falā yastaṭīʿūna",
-    "translation": "",
+    "translation": "The Day the shin will be uncovered and they are invited to prostration but they [i.e., the disbelievers] will not be able,",
     "words": [
       {
         "id": "al-qalam-42-1",
@@ -2039,7 +2080,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où ils auront à affronter la Grande Peur, ils seront appelés à se prosterner mais ils ne le pourront pas."
   },
   {
     "id": "al-qalam-43",
@@ -2048,7 +2090,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰشِعَةً أَبْصَـٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَـٰلِمُونَ",
     "textSimple": "خـشعة أبصـرهم ترهقهم ذلة  وقد كانوا يدعون إلى ٱلسجود وهم سـلمون",
     "transliteration": "khāshiʿatan abṣāruhum tarhaquhum dhillatun waqad kānū yud'ʿawna ilā l-sujūdi wahum sālimūna",
-    "translation": "",
+    "translation": "Their eyes humbled, humiliation will cover them. And they used to be invited to prostration while they were sound.",
     "words": [
       {
         "id": "al-qalam-43-1",
@@ -2128,7 +2170,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Baissés seront leurs regards, et ils seront couverts d’humiliation, eux qu’on invitait autrefois à se prosterner quand ils étaient sains !"
   },
   {
     "id": "al-qalam-44",
@@ -2137,7 +2180,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَذَرْنِى وَمَن يُكَذِّبُ بِهَـٰذَا ٱلْحَدِيثِ ۖ سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
     "textSimple": "فذرنى ومن يكذب بهـذا ٱلحديث  سنستدرجهم من حيث لا يعلمون",
     "transliteration": "fadharnī waman yukadhibu bihādhā l-ḥadīthi sanastadrijuhum min ḥaythu lā yaʿlamūna",
-    "translation": "",
+    "translation": "So leave Me, [O Muḥammad], with [the matter of] whoever denies this statement [i.e., the Qur’ān]. We will progressively lead them [to punishment] from where they do not know.",
     "words": [
       {
         "id": "al-qalam-44-1",
@@ -2210,7 +2253,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-Moi donc avec ceux qui nient cette Parole (le Coran). Nous les amènerons de proche en proche (à leur ruine), sans qu’ils ne sachent (de quelle façon)."
   },
   {
     "id": "al-qalam-45",
@@ -2219,7 +2263,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
     "textSimple": "وأملى لهم  إن كيدى متين",
     "transliteration": "wa-um'lī lahum inna kaydī matīnun",
-    "translation": "",
+    "translation": "And I will give them time. Indeed, My plan is firm.",
     "words": [
       {
         "id": "al-qalam-45-1",
@@ -2257,7 +2301,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je leur accorderai un répit, car Ma Ruse est infaillible."
   },
   {
     "id": "al-qalam-46",
@@ -2266,7 +2311,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
     "textSimple": "أم تسـٔلهم أجرا فهم من مغرم مثقلون",
     "transliteration": "am tasaluhum ajran fahum min maghramin muth'qalūna",
-    "translation": "",
+    "translation": "Or do you ask of them a payment, so they are by debt burdened down?",
     "words": [
       {
         "id": "al-qalam-46-1",
@@ -2318,7 +2363,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur réclamerais-tu une récompense qui les grèverait d’une lourde dette ?"
   },
   {
     "id": "al-qalam-47",
@@ -2327,7 +2373,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ",
     "textSimple": "أم عندهم ٱلغيب فهم يكتبون",
     "transliteration": "am ʿindahumu l-ghaybu fahum yaktubūna",
-    "translation": "",
+    "translation": "Or have they [knowledge of] the unseen, so they write [it] down?",
     "words": [
       {
         "id": "al-qalam-47-1",
@@ -2365,7 +2411,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détiendraient-ils les clefs de l’Inconnaissable (ghayb) qui leur permettraient d’imposer (leurs fausses croyances) par écrit ?"
   },
   {
     "id": "al-qalam-48",
@@ -2374,7 +2421,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌ",
     "textSimple": "فٱصبر لحكم ربك ولا تكن كصاحب ٱلحوت إذ نادى وهو مكظوم",
     "transliteration": "fa-iṣ'bir liḥuk'mi rabbika walā takun kaṣāḥibi l-ḥūti idh nādā wahuwa makẓūmun",
-    "translation": "",
+    "translation": "Then be patient for the decision of your Lord, [O Muḥammad], and be not like the companion of the fish [i.e., Jonah] when he called out while he was distressed.",
     "words": [
       {
         "id": "al-qalam-48-1",
@@ -2454,7 +2501,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Supporte patiemment le Verdict de ton Seigneur ! Ne sois pas comme l’Homme au Poisson quand, en pleine angoisse, il adressa sa plainte (à Allah)."
   },
   {
     "id": "al-qalam-49",
@@ -2463,7 +2511,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌ",
     "textSimple": "لولآ أن تدركه نعمة من ربه لنبذ بٱلعرآء وهو مذموم",
     "transliteration": "lawlā an tadārakahu niʿ'matun min rabbihi lanubidha bil-ʿarāi wahuwa madhmūmun",
-    "translation": "",
+    "translation": "If not that a favor [i.e., mercy] from his Lord overtook him, he would have been thrown onto the naked shore while he was censured.",
     "words": [
       {
         "id": "al-qalam-49-1",
@@ -2536,7 +2584,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’eût été une grâce qui l’atteignît de la part de son Seigneur, il eût été sans doute jeté, couvert d’ignominie, sur un rivage désert."
   },
   {
     "id": "al-qalam-50",
@@ -2545,7 +2594,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "فَٱجْتَبَـٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "فٱجتبـه ربه فجعله من ٱلصـلحين",
     "transliteration": "fa-ij'tabāhu rabbuhu fajaʿalahu mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And his Lord chose him and made him of the righteous.",
     "words": [
       {
         "id": "al-qalam-50-1",
@@ -2583,7 +2632,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son Seigneur l’élut et le fit du nombre des vertueux."
   },
   {
     "id": "al-qalam-51",
@@ -2592,7 +2642,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا۟ لَيُزْلِقُونَكَ بِأَبْصَـٰرِهِمْ لَمَّا سَمِعُوا۟ ٱلذِّكْرَ وَيَقُولُونَ إِنَّهُۥ لَمَجْنُونٌ",
     "textSimple": "وإن يكاد ٱلذين كفروا ليزلقونك بأبصـرهم لما سمعوا ٱلذكر ويقولون إنه لمجنون",
     "transliteration": "wa-in yakādu alladhīna kafarū layuz'liqūnaka bi-abṣārihim lammā samiʿū l-dhik'ra wayaqūlūna innahu lamajnūnun",
-    "translation": "",
+    "translation": "And indeed, those who disbelieve would almost make you slip with their eyes [i.e., looks] when they hear the message, and they say, \"Indeed, he is mad.\"",
     "words": [
       {
         "id": "al-qalam-51-1",
@@ -2679,7 +2729,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’en faut de peu que les mécréants ne te vrillent de leurs regards quand ils entendent le (Coran). Ils disent alors : « Ce n’est qu’un dément ! »"
   },
   {
     "id": "al-qalam-52",
@@ -2688,7 +2739,7 @@ export const AL_QALAM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ",
     "textSimple": "وما هو إلا ذكر للعـلمين",
     "transliteration": "wamā huwa illā dhik'run lil'ʿālamīna",
-    "translation": "",
+    "translation": "But it is not except a reminder to the worlds.",
     "words": [
       {
         "id": "al-qalam-52-1",
@@ -2726,7 +2777,8 @@ export const AL_QALAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce (Coran) n’est rien de moins qu’un Rappel (adressé) à l’Univers !"
   }
 ];
 

@@ -11,7 +11,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": " سَأَلَ سَآئِلٌۢ بِعَذَابٍ وَاقِعٍ",
     "textSimple": " سأل سآئل بعذاب واقع",
     "transliteration": "sa-ala sāilun biʿadhābin wāqiʿin",
-    "translation": "",
+    "translation": "A supplicant asked for a punishment bound to happen",
     "words": [
       {
         "id": "al-ma-arij-1-1",
@@ -42,7 +42,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quelqu’un a demandé un supplice immédiat,"
   },
   {
     "id": "al-ma-arij-2",
@@ -51,7 +52,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "لِّلْكَـٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌ",
     "textSimple": "للكـفرين ليس له دافع",
     "transliteration": "lil'kāfirīna laysa lahu dāfiʿun",
-    "translation": "",
+    "translation": "To the disbelievers; of it there is no preventer.",
     "words": [
       {
         "id": "al-ma-arij-2-1",
@@ -82,7 +83,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "contre les mécréants, et que nul ne saurait repousser,"
   },
   {
     "id": "al-ma-arij-3",
@@ -91,7 +93,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "مِّنَ ٱللَّهِ ذِى ٱلْمَعَارِجِ",
     "textSimple": "من ٱلله ذى ٱلمعارج",
     "transliteration": "mina l-lahi dhī l-maʿāriji",
-    "translation": "",
+    "translation": "[It is] from Allāh, owner of the ways of ascent.",
     "words": [
       {
         "id": "al-ma-arij-3-1",
@@ -122,7 +124,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui viendrait de la part d’Allah, Détenteur des ascensions célestes."
   },
   {
     "id": "al-ma-arij-4",
@@ -131,7 +134,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "تَعْرُجُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍ",
     "textSimple": "تعرج ٱلملـٓئكة وٱلروح إليه فى يوم كان مقداره خمسين ألف سنة",
     "transliteration": "taʿruju l-malāikatu wal-rūḥu ilayhi fī yawmin kāna miq'dāruhu khamsīna alfa sanatin",
-    "translation": "",
+    "translation": "The angels and the Spirit [i.e., Gabriel] will ascend to Him during a Day the extent of which is fifty thousand years.",
     "words": [
       {
         "id": "al-ma-arij-4-1",
@@ -211,7 +214,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Anges et l’Esprit mettent, pour monter vers Lui, un jour qui équivaut à cinquante mille ans."
   },
   {
     "id": "al-ma-arij-5",
@@ -220,7 +224,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ صَبْرًا جَمِيلًا",
     "textSimple": "فٱصبر صبرا جميلا",
     "transliteration": "fa-iṣ'bir ṣabran jamīlan",
-    "translation": "",
+    "translation": "So be patient with gracious patience.",
     "words": [
       {
         "id": "al-ma-arij-5-1",
@@ -244,7 +248,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Patiente donc, d’une belle patience."
   },
   {
     "id": "al-ma-arij-6",
@@ -253,7 +258,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ يَرَوْنَهُۥ بَعِيدًا",
     "textSimple": "إنهم يرونه بعيدا",
     "transliteration": "innahum yarawnahu baʿīdan",
-    "translation": "",
+    "translation": "Indeed, they see it [as] distant,",
     "words": [
       {
         "id": "al-ma-arij-6-1",
@@ -277,7 +282,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils le voient bien loin,"
   },
   {
     "id": "al-ma-arij-7",
@@ -286,7 +292,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَنَرَىٰهُ قَرِيبًا",
     "textSimple": "ونرىه قريبا",
     "transliteration": "wanarāhu qarīban",
-    "translation": "",
+    "translation": "But We see it [as] near.",
     "words": [
       {
         "id": "al-ma-arij-7-1",
@@ -303,7 +309,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Nous le voyons tout proche."
   },
   {
     "id": "al-ma-arij-8",
@@ -312,7 +319,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ",
     "textSimple": "يوم تكون ٱلسمآء كٱلمهل",
     "transliteration": "yawma takūnu l-samāu kal-muh'li",
-    "translation": "",
+    "translation": "On the Day the sky will be like murky oil,",
     "words": [
       {
         "id": "al-ma-arij-8-1",
@@ -343,7 +350,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, le ciel sera comme de la lie d’huile."
   },
   {
     "id": "al-ma-arij-9",
@@ -352,7 +360,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ",
     "textSimple": "وتكون ٱلجبال كٱلعهن",
     "transliteration": "watakūnu l-jibālu kal-ʿih'ni",
-    "translation": "",
+    "translation": "And the mountains will be like wool,",
     "words": [
       {
         "id": "al-ma-arij-9-1",
@@ -376,7 +384,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les montagnes seront comme de la laine éparpillée."
   },
   {
     "id": "al-ma-arij-10",
@@ -385,7 +394,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَسْـَٔلُ حَمِيمٌ حَمِيمًا",
     "textSimple": "ولا يسـٔل حميم حميما",
     "transliteration": "walā yasalu ḥamīmun ḥamīman",
-    "translation": "",
+    "translation": "And no friend will ask [anything of] a friend,",
     "words": [
       {
         "id": "al-ma-arij-10-1",
@@ -416,7 +425,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’ami chaleureux n’interrogera point son ami,"
   },
   {
     "id": "al-ma-arij-11",
@@ -425,7 +435,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "يُبَصَّرُونَهُمْ ۚ يَوَدُّ ٱلْمُجْرِمُ لَوْ يَفْتَدِى مِنْ عَذَابِ يَوْمِئِذٍۭ بِبَنِيهِ",
     "textSimple": "يبصرونهم  يود ٱلمجرم لو يفتدى من عذاب يومئذ ببنيه",
     "transliteration": "yubaṣṣarūnahum yawaddu l-muj'rimu law yaftadī min ʿadhābi yawmi-idhin bibanīhi",
-    "translation": "",
+    "translation": "They will be shown each other. The criminal will wish that he could be ransomed from the punishment of that Day by his children.",
     "words": [
       {
         "id": "al-ma-arij-11-1",
@@ -491,7 +501,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "bien que se voyant l’un l’autre. Et pour se racheter du supplice, le criminel voudrait, ce jour-là, livrer en rançon ses propres enfants,"
   },
   {
     "id": "al-ma-arij-12",
@@ -500,7 +511,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَصَـٰحِبَتِهِۦ وَأَخِيهِ",
     "textSimple": "وصـحبته وأخيه",
     "transliteration": "waṣāḥibatihi wa-akhīhi",
-    "translation": "",
+    "translation": "And his wife and his brother",
     "words": [
       {
         "id": "al-ma-arij-12-1",
@@ -517,7 +528,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sa compagne, son frère,"
   },
   {
     "id": "al-ma-arij-13",
@@ -526,7 +538,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَفَصِيلَتِهِ ٱلَّتِى تُـْٔوِيهِ",
     "textSimple": "وفصيلته ٱلتى تـٔويه",
     "transliteration": "wafaṣīlatihi allatī tu'wīhi",
-    "translation": "",
+    "translation": "And his nearest kindred who shelter him.",
     "words": [
       {
         "id": "al-ma-arij-13-1",
@@ -550,7 +562,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le clan qui lui offrait le gîte,"
   },
   {
     "id": "al-ma-arij-14",
@@ -559,7 +572,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ يُنجِيهِ",
     "textSimple": "ومن فى ٱلأرض جميعا ثم ينجيه",
     "transliteration": "waman fī l-arḍi jamīʿan thumma yunjīhi",
-    "translation": "",
+    "translation": "And whoever is on earth entirely [so] then it could save him.",
     "words": [
       {
         "id": "al-ma-arij-14-1",
@@ -604,7 +617,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et tous ceux qui sont sur terre et qui pourraient le sauver."
   },
   {
     "id": "al-ma-arij-15",
@@ -613,7 +627,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ ۖ إِنَّهَا لَظَىٰ",
     "textSimple": "كلآ  إنها لظى",
     "transliteration": "kallā innahā laẓā",
-    "translation": "",
+    "translation": "No! Indeed, it is the Flame [of Hell],",
     "words": [
       {
         "id": "al-ma-arij-15-1",
@@ -637,7 +651,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non. (La Géhenne) est un Feu embrasé,"
   },
   {
     "id": "al-ma-arij-16",
@@ -646,7 +661,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "نَزَّاعَةً لِّلشَّوَىٰ",
     "textSimple": "نزاعة للشوى",
     "transliteration": "nazzāʿatan lilshawā",
-    "translation": "",
+    "translation": "A remover of exteriors.",
     "words": [
       {
         "id": "al-ma-arij-16-1",
@@ -663,7 +678,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui arrache le cuir chevelu,"
   },
   {
     "id": "al-ma-arij-17",
@@ -672,7 +688,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ",
     "textSimple": "تدعوا من أدبر وتولى",
     "transliteration": "tadʿū man adbara watawallā",
-    "translation": "",
+    "translation": "It invites he who turned his back [on truth] and went away [from obedience]",
     "words": [
       {
         "id": "al-ma-arij-17-1",
@@ -703,7 +719,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui rappelle à elle quiconque aura tourné le dos (à la foi) et l’aura fuie,"
   },
   {
     "id": "al-ma-arij-18",
@@ -712,7 +729,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَجَمَعَ فَأَوْعَىٰٓ",
     "textSimple": "وجمع فأوعىٓ",
     "transliteration": "wajamaʿa fa-awʿā",
-    "translation": "",
+    "translation": "And collected [wealth] and hoarded.",
     "words": [
       {
         "id": "al-ma-arij-18-1",
@@ -729,7 +746,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et aura amassé et entassé (les richesses)."
   },
   {
     "id": "al-ma-arij-19",
@@ -738,7 +756,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱلْإِنسَـٰنَ خُلِقَ هَلُوعًا",
     "textSimple": " إن ٱلإنسـن خلق هلوعا",
     "transliteration": "inna l-insāna khuliqa halūʿan",
-    "translation": "",
+    "translation": "Indeed, mankind was created anxious:",
     "words": [
       {
         "id": "al-ma-arij-19-1",
@@ -769,7 +787,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme a été créé anxieux."
   },
   {
     "id": "al-ma-arij-20",
@@ -778,7 +797,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًا",
     "textSimple": "إذا مسه ٱلشر جزوعا",
     "transliteration": "idhā massahu l-sharu jazūʿan",
-    "translation": "",
+    "translation": "When evil touches him, impatient,",
     "words": [
       {
         "id": "al-ma-arij-20-1",
@@ -809,7 +828,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand un malheur le frappe, il est abattu."
   },
   {
     "id": "al-ma-arij-21",
@@ -818,7 +838,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
     "textSimple": "وإذا مسه ٱلخير منوعا",
     "transliteration": "wa-idhā massahu l-khayru manūʿan",
-    "translation": "",
+    "translation": "And when good touches him, withholding [of it],",
     "words": [
       {
         "id": "al-ma-arij-21-1",
@@ -849,7 +869,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand un bien l’atteint, il n’en est que plus avare."
   },
   {
     "id": "al-ma-arij-22",
@@ -858,7 +879,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلْمُصَلِّينَ",
     "textSimple": "إلا ٱلمصلين",
     "transliteration": "illā l-muṣalīna",
-    "translation": "",
+    "translation": "Except the observers of prayer -",
     "words": [
       {
         "id": "al-ma-arij-22-1",
@@ -875,7 +896,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À l’exception de ceux qui accomplissent la prière,"
   },
   {
     "id": "al-ma-arij-23",
@@ -884,7 +906,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
     "textSimple": "ٱلذين هم على صلاتهم دآئمون",
     "transliteration": "alladhīna hum ʿalā ṣalātihim dāimūna",
-    "translation": "",
+    "translation": "Those who are constant in their prayer",
     "words": [
       {
         "id": "al-ma-arij-23-1",
@@ -922,7 +944,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui accomplissent assidûment leur Çalât,"
   },
   {
     "id": "al-ma-arij-24",
@@ -931,7 +954,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّ مَّعْلُومٌ",
     "textSimple": "وٱلذين فىٓ أمولهم حق معلوم",
     "transliteration": "wa-alladhīna fī amwālihim ḥaqqun maʿlūmun",
-    "translation": "",
+    "translation": "And those within whose wealth is a known right",
     "words": [
       {
         "id": "al-ma-arij-24-1",
@@ -969,7 +992,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui prélèvent sur leurs biens une part déterminée,"
   },
   {
     "id": "al-ma-arij-25",
@@ -978,7 +1002,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
     "textSimple": "للسآئل وٱلمحروم",
     "transliteration": "lilssāili wal-maḥrūmi",
-    "translation": "",
+    "translation": "For the petitioner and the deprived -",
     "words": [
       {
         "id": "al-ma-arij-25-1",
@@ -995,7 +1019,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "au profit du mendiant et du démuni."
   },
   {
     "id": "al-ma-arij-26",
@@ -1004,7 +1029,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ",
     "textSimple": "وٱلذين يصدقون بيوم ٱلدين",
     "transliteration": "wa-alladhīna yuṣaddiqūna biyawmi l-dīni",
-    "translation": "",
+    "translation": "And those who believe in the Day of Recompense",
     "words": [
       {
         "id": "al-ma-arij-26-1",
@@ -1035,7 +1060,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux aussi qui tiennent pour vrai le Jour de la Résurrection,"
   },
   {
     "id": "al-ma-arij-27",
@@ -1044,7 +1070,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ",
     "textSimple": "وٱلذين هم من عذاب ربهم مشفقون",
     "transliteration": "wa-alladhīna hum min ʿadhābi rabbihim mush'fiqūna",
-    "translation": "",
+    "translation": "And those who are fearful of the punishment of their Lord -",
     "words": [
       {
         "id": "al-ma-arij-27-1",
@@ -1089,7 +1115,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui redoutent le supplice de leur Seigneur,"
   },
   {
     "id": "al-ma-arij-28",
@@ -1098,7 +1125,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍ",
     "textSimple": "إن عذاب ربهم غير مأمون",
     "transliteration": "inna ʿadhāba rabbihim ghayru mamūnin",
-    "translation": "",
+    "translation": "Indeed, the punishment of their Lord is not that from which one is safe -",
     "words": [
       {
         "id": "al-ma-arij-28-1",
@@ -1136,7 +1163,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "car rien ne saurait assurer contre le supplice de leur Seigneur."
   },
   {
     "id": "al-ma-arij-29",
@@ -1145,7 +1173,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ",
     "textSimple": "وٱلذين هم لفروجهم حـفظون",
     "transliteration": "wa-alladhīna hum lifurūjihim ḥāfiẓūna",
-    "translation": "",
+    "translation": "And those who guard their private parts",
     "words": [
       {
         "id": "al-ma-arij-29-1",
@@ -1176,7 +1204,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui préservent leur chasteté,"
   },
   {
     "id": "al-ma-arij-30",
@@ -1185,7 +1214,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
     "textSimple": "إلا علىٓ أزوجهم أو ما ملكت أيمـنهم فإنهم غير ملومين",
     "transliteration": "illā ʿalā azwājihim aw mā malakat aymānuhum fa-innahum ghayru malūmīna",
-    "translation": "",
+    "translation": "Except from their wives or those their right hands possess, for indeed, they are not to be blamed -",
     "words": [
       {
         "id": "al-ma-arij-30-1",
@@ -1258,7 +1287,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sauf (dans les rapports intimes) avec leurs épouses ou leurs servantes possédées de plein droit. Ils ne sont, dans ce cas nullement blâmables."
   },
   {
     "id": "al-ma-arij-31",
@@ -1267,7 +1297,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ",
     "textSimple": "فمن ٱبتغى ورآء ذلك فأولـٓئك هم ٱلعادون",
     "transliteration": "famani ib'taghā warāa dhālika fa-ulāika humu l-ʿādūna",
-    "translation": "",
+    "translation": "But whoever seeks beyond that, then they are the transgressors -",
     "words": [
       {
         "id": "al-ma-arij-31-1",
@@ -1319,7 +1349,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ceux qui cherchent (la satisfaction de leurs désirs) ailleurs, ceux-là sont les transgresseurs."
   },
   {
     "id": "al-ma-arij-32",
@@ -1328,7 +1359,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
     "textSimple": "وٱلذين هم لأمـنـتهم وعهدهم رعون",
     "transliteration": "wa-alladhīna hum li-amānātihim waʿahdihim rāʿūna",
-    "translation": "",
+    "translation": "And those who are to their trusts and promises attentive.",
     "words": [
       {
         "id": "al-ma-arij-32-1",
@@ -1366,7 +1397,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux aussi qui gardent fidèlement les dépôts qui leur sont confiés, et honorent leurs engagements ;"
   },
   {
     "id": "al-ma-arij-33",
@@ -1375,7 +1407,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُم بِشَهَـٰدَٰتِهِمْ قَآئِمُونَ",
     "textSimple": "وٱلذين هم بشهـدتهم قآئمون",
     "transliteration": "wa-alladhīna hum bishahādātihim qāimūna",
-    "translation": "",
+    "translation": "And those who are in their testimonies upright",
     "words": [
       {
         "id": "al-ma-arij-33-1",
@@ -1406,7 +1438,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui disent la vérité quand ils rendent leur témoignage ;"
   },
   {
     "id": "al-ma-arij-34",
@@ -1415,7 +1448,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ",
     "textSimple": "وٱلذين هم على صلاتهم يحافظون",
     "transliteration": "wa-alladhīna hum ʿalā ṣalātihim yuḥāfiẓūna",
-    "translation": "",
+    "translation": "And those who [carefully] maintain their prayer:",
     "words": [
       {
         "id": "al-ma-arij-34-1",
@@ -1453,7 +1486,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ceux qui préservent scrupuleusement leur Çalât."
   },
   {
     "id": "al-ma-arij-35",
@@ -1462,7 +1496,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ فِى جَنَّـٰتٍ مُّكْرَمُونَ",
     "textSimple": "أولـٓئك فى جنـت مكرمون",
     "transliteration": "ulāika fī jannātin muk'ramūna",
-    "translation": "",
+    "translation": "They will be in gardens, honored.",
     "words": [
       {
         "id": "al-ma-arij-35-1",
@@ -1493,7 +1527,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là seront couverts d’honneur dans les jardins (du Paradis)."
   },
   {
     "id": "al-ma-arij-36",
@@ -1502,7 +1537,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ مُهْطِعِينَ",
     "textSimple": "فمال ٱلذين كفروا قبلك مهطعين",
     "transliteration": "famāli alladhīna kafarū qibalaka muh'ṭiʿīna",
-    "translation": "",
+    "translation": "So what is [the matter] with those who disbelieve, hastening [from] before you, [O Muḥammad],",
     "words": [
       {
         "id": "al-ma-arij-36-1",
@@ -1540,7 +1575,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ont-ils donc, ceux qui ont mécru, à accourir vers toi, tendant leurs cous,"
   },
   {
     "id": "al-ma-arij-37",
@@ -1549,7 +1585,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ",
     "textSimple": "عن ٱليمين وعن ٱلشمال عزين",
     "transliteration": "ʿani l-yamīni waʿani l-shimāli ʿizīna",
-    "translation": "",
+    "translation": "[To sit] on [your] right and [your] left in separate groups?",
     "words": [
       {
         "id": "al-ma-arij-37-1",
@@ -1587,7 +1623,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et (affluant) par groupes à droite et à gauche ?"
   },
   {
     "id": "al-ma-arij-38",
@@ -1596,7 +1633,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "أَيَطْمَعُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍ",
     "textSimple": "أيطمع كل ٱمرئ منهم أن يدخل جنة نعيم",
     "transliteration": "ayaṭmaʿu kullu im'ri-in min'hum an yud'khala jannata naʿīmin",
-    "translation": "",
+    "translation": "Does every person among them aspire to enter a garden of pleasure?",
     "words": [
       {
         "id": "al-ma-arij-38-1",
@@ -1655,7 +1692,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Convoiteraient-ils, chacun de son côté, l’accès au Jardin des délices ?"
   },
   {
     "id": "al-ma-arij-39",
@@ -1664,7 +1702,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ ۖ إِنَّا خَلَقْنَـٰهُم مِّمَّا يَعْلَمُونَ",
     "textSimple": "كلآ  إنا خلقنـهم مما يعلمون",
     "transliteration": "kallā innā khalaqnāhum mimmā yaʿlamūna",
-    "translation": "",
+    "translation": "No! Indeed, We have created them from that which they know.",
     "words": [
       {
         "id": "al-ma-arij-39-1",
@@ -1702,7 +1740,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’en sera rien. Ils savent de quoi Nous les avons créés."
   },
   {
     "id": "al-ma-arij-40",
@@ -1711,7 +1750,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَـٰرِقِ وَٱلْمَغَـٰرِبِ إِنَّا لَقَـٰدِرُونَ",
     "textSimple": "فلآ أقسم برب ٱلمشـرق وٱلمغـرب إنا لقـدرون",
     "transliteration": "falā uq'simu birabbi l-mashāriqi wal-maghāribi innā laqādirūna",
-    "translation": "",
+    "translation": "So I swear by the Lord of [all] risings and settings that indeed We are able",
     "words": [
       {
         "id": "al-ma-arij-40-1",
@@ -1763,7 +1802,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’en jure donc par le Seigneur des Orients et des Occidents que Nous sommes Capable"
   },
   {
     "id": "al-ma-arij-41",
@@ -1772,7 +1812,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ",
     "textSimple": "علىٓ أن نبدل خيرا منهم وما نحن بمسبوقين",
     "transliteration": "ʿalā an nubaddila khayran min'hum wamā naḥnu bimasbūqīna",
-    "translation": "",
+    "translation": "To replace them with better than them; and We are not to be outdone.",
     "words": [
       {
         "id": "al-ma-arij-41-1",
@@ -1831,7 +1871,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "de les remplacer par de bien meilleurs qu’eux. Nul ne pourra Nous devancer (pour Nous en empêcher)."
   },
   {
     "id": "al-ma-arij-42",
@@ -1840,7 +1881,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
     "textSimple": "فذرهم يخوضوا ويلعبوا حتى يلـقوا يومهم ٱلذى يوعدون",
     "transliteration": "fadharhum yakhūḍū wayalʿabū ḥattā yulāqū yawmahumu alladhī yūʿadūna",
-    "translation": "",
+    "translation": "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -",
     "words": [
       {
         "id": "al-ma-arij-42-1",
@@ -1899,7 +1940,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-les donc à leurs (vaines) conversations et à leurs jeux (futiles), jusqu’à ce qu’ils rencontrent le jour qui leur est promis,"
   },
   {
     "id": "al-ma-arij-43",
@@ -1908,7 +1950,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ سِرَاعًا كَأَنَّهُمْ إِلَىٰ نُصُبٍ يُوفِضُونَ",
     "textSimple": "يوم يخرجون من ٱلأجداث سراعا كأنهم إلى نصب يوفضون",
     "transliteration": "yawma yakhrujūna mina l-ajdāthi sirāʿan ka-annahum ilā nuṣubin yūfiḍūna",
-    "translation": "",
+    "translation": "The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening.",
     "words": [
       {
         "id": "al-ma-arij-43-1",
@@ -1974,7 +2016,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jour où, précipités, ils surgiront des tombes comme s’ils accouraient vers des stèles (païennes)."
   },
   {
     "id": "al-ma-arij-44",
@@ -1983,7 +2026,7 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰشِعَةً أَبْصَـٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
     "textSimple": "خـشعة أبصـرهم ترهقهم ذلة  ذلك ٱليوم ٱلذى كانوا يوعدون",
     "transliteration": "khāshiʿatan abṣāruhum tarhaquhum dhillatun dhālika l-yawmu alladhī kānū yūʿadūna",
-    "translation": "",
+    "translation": "Their eyes humbled, humiliation will cover them. That is the Day which they had been promised.",
     "words": [
       {
         "id": "al-ma-arij-44-1",
@@ -2049,7 +2092,8 @@ export const AL_MA_ARIJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Baissés seront leurs regards, et ils seront couverts d’humiliation. Voilà le jour qui leur était promis !"
   }
 ];
 

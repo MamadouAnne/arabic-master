@@ -11,7 +11,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": " الٓر ۚ تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْحَكِيمِ",
     "textSimple": " الٓر  تلك ءايـت ٱلكتـب ٱلحكيم",
     "transliteration": "alif-lam-ra til'ka āyātu l-kitābi l-ḥakīmi",
-    "translation": "",
+    "translation": "Alif, Lām, Rā. These are the verses of the wise Book.",
     "words": [
       {
         "id": "yunus-1-1",
@@ -49,7 +49,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Rā. Voici les versets du Livre éminemment structuré."
   },
   {
     "id": "yunus-2",
@@ -58,7 +59,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أَكَانَ لِلنَّاسِ عَجَبًا أَنْ أَوْحَيْنَآ إِلَىٰ رَجُلٍ مِّنْهُمْ أَنْ أَنذِرِ ٱلنَّاسَ وَبَشِّرِ ٱلَّذِينَ ءَامَنُوٓا۟ أَنَّ لَهُمْ قَدَمَ صِدْقٍ عِندَ رَبِّهِمْ ۗ قَالَ ٱلْكَـٰفِرُونَ إِنَّ هَـٰذَا لَسَـٰحِرٌ مُّبِينٌ",
     "textSimple": "أكان للناس عجبا أن أوحينآ إلى رجل منهم أن أنذر ٱلناس وبشر ٱلذين ءامنوٓا أن لهم قدم صدق عند ربهم  قال ٱلكـفرون إن هـذا لسـحر مبين",
     "transliteration": "akāna lilnnāsi ʿajaban an awḥaynā ilā rajulin min'hum an andhiri l-nāsa wabashiri alladhīna āmanū anna lahum qadama ṣid'qin ʿinda rabbihim qāla l-kāfirūna inna hādhā lasāḥirun mubīnun",
-    "translation": "",
+    "translation": "Have the people been amazed that We revealed [revelation] to a man from among them, [saying], \"Warn mankind and give good tidings to those who believe that they will have a [firm] precedence of honor with their Lord\"? [But] the disbelievers say, \"Indeed, this is an obvious magician.\"",
     "words": [
       {
         "id": "yunus-2-1",
@@ -243,7 +244,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il à ce point étonnant, aux yeux des hommes, que Nous ayons révélé à l’un d’entre eux : « Avertis les hommes, annonce aux croyants cette heureuse nouvelle que le mérite de leurs œuvres les devancera auprès de leur Seigneur » ? Les mécréants ont dit alors: « C’est manifestement un magicien ! »"
   },
   {
     "id": "yunus-3",
@@ -252,7 +254,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ يُدَبِّرُ ٱلْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ",
     "textSimple": "إن ربكم ٱلله ٱلذى خلق ٱلسمـوت وٱلأرض فى ستة أيام ثم ٱستوى على ٱلعرش  يدبر ٱلأمر  ما من شفيع إلا من بعد إذنه  ذلكم ٱلله ربكم فٱعبدوه  أفلا تذكرون",
     "transliteration": "inna rabbakumu l-lahu alladhī khalaqa l-samāwāti wal-arḍa fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi yudabbiru l-amra mā min shafīʿin illā min baʿdi idh'nihi dhālikumu l-lahu rabbukum fa-uʿ'budūhu afalā tadhakkarūna",
-    "translation": "",
+    "translation": "Indeed, your Lord is Allāh, who created the heavens and the earth in six days and then established Himself above the Throne, arranging the matter [of His creation]. There is no intercessor except after His permission. That is Allāh, your Lord, so worship Him. Then will you not remember?",
     "words": [
       {
         "id": "yunus-3-1",
@@ -458,7 +460,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur c’est Allah, Qui créa les cieux et la terre en six jours, puis S’établit avec une infinie Majesté sur le Trône (istawâ) pour régenter Toute chose. Il ne peut y avoir d’intercesseur sans Sa permission. Tel est Allah, votre Seigneur. Adorez-Le donc. N’y méditerez-vous pas ?"
   },
   {
     "id": "yunus-4",
@@ -467,7 +470,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
     "textSimple": "إليه مرجعكم جميعا  وعد ٱلله حقا  إنه يبدؤا ٱلخلق ثم يعيده ليجزى ٱلذين ءامنوا وعملوا ٱلصـلحـت بٱلقسط  وٱلذين كفروا لهم شراب من حميم وعذاب أليم بما كانوا يكفرون",
     "transliteration": "ilayhi marjiʿukum jamīʿan waʿda l-lahi ḥaqqan innahu yabda-u l-khalqa thumma yuʿīduhu liyajziya alladhīna āmanū waʿamilū l-ṣāliḥāti bil-qis'ṭi wa-alladhīna kafarū lahum sharābun min ḥamīmin waʿadhābun alīmun bimā kānū yakfurūna",
-    "translation": "",
+    "translation": "To Him is your return all together. [It is] the promise of Allāh [which is] truth. Indeed, He begins the [process of] creation and then repeats it that He may reward those who have believed and done righteous deeds, in justice. But those who disbelieved will have a drink of scalding water and a painful punishment for what they used to deny.",
     "words": [
       {
         "id": "yunus-4-1",
@@ -666,7 +669,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est vers Lui que se fera votre retour à tous. Là fut la promesse d’Allah, toute de vérité. C’est Lui Qui initie la création puis la recommence, afin de récompenser en toute justice ceux qui ont cru et accompli les bonnes œuvres. Quant à ceux qui ont mécru, ils auront pour boisson une eau bouillante et un supplice très douloureux pour (punition de) leur mécréance."
   },
   {
     "id": "yunus-5",
@@ -675,7 +679,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ",
     "textSimple": "هو ٱلذى جعل ٱلشمس ضيآء وٱلقمر نورا وقدره منازل لتعلموا عدد ٱلسنين وٱلحساب  ما خلق ٱلله ذلك إلا بٱلحق  يفصل ٱلـٔايـت لقوم يعلمون",
     "transliteration": "huwa alladhī jaʿala l-shamsa ḍiyāan wal-qamara nūran waqaddarahu manāzila litaʿlamū ʿadada l-sinīna wal-ḥisāba mā khalaqa l-lahu dhālika illā bil-ḥaqi yufaṣṣilu l-āyāti liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "It is He who made the sun a shining light and the moon a derived light and determined for it phases - that you may know the number of years and account [of time]. Allāh has not created this except in truth. He details the signs for a people who know.",
     "words": [
       {
         "id": "yunus-5-1",
@@ -839,7 +843,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui fit du soleil une clarté et de la lune une lumière. Il en a déterminé les différentes phases (de la lune), afin que vous sachiez compter les années et calculer (le temps). Allah ne créa cela qu’en toute vérité. Il détaille clairement les Signes pour les gens qui savent."
   },
   {
     "id": "yunus-6",
@@ -848,7 +853,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ٱخْتِلَـٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَمَا خَلَقَ ٱللَّهُ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ لَـَٔايَـٰتٍ لِّقَوْمٍ يَتَّقُونَ",
     "textSimple": "إن فى ٱختلـف ٱليل وٱلنهار وما خلق ٱلله فى ٱلسمـوت وٱلأرض لـٔايـت لقوم يتقون",
     "transliteration": "inna fī ikh'tilāfi al-layli wal-nahāri wamā khalaqa l-lahu fī l-samāwāti wal-arḍi laāyātin liqawmin yattaqūna",
-    "translation": "",
+    "translation": "Indeed, in the alternation of the night and the day and [in] what Allāh has created in the heavens and the earth are signs for a people who fear Allāh.",
     "words": [
       {
         "id": "yunus-6-1",
@@ -949,7 +954,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans l’alternance de la nuit et du jour, et dans ce qu’Il a créé dans les cieux et sur la terre, il est des Signes pour des gens qui craignent (Allah)."
   },
   {
     "id": "yunus-7",
@@ -958,7 +964,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا وَرَضُوا۟ بِٱلْحَيَوٰةِ ٱلدُّنْيَا وَٱطْمَأَنُّوا۟ بِهَا وَٱلَّذِينَ هُمْ عَنْ ءَايَـٰتِنَا غَـٰفِلُونَ",
     "textSimple": "إن ٱلذين لا يرجون لقآءنا ورضوا بٱلحيوة ٱلدنيا وٱطمأنوا بها وٱلذين هم عن ءايـتنا غـفلون",
     "transliteration": "inna alladhīna lā yarjūna liqāanā waraḍū bil-ḥayati l-dun'yā wa-iṭ'ma-annū bihā wa-alladhīna hum ʿan āyātinā ghāfilūna",
-    "translation": "",
+    "translation": "Indeed, those who do not expect the meeting with Us and are satisfied with the life of this world and feel secure therein and those who are heedless of Our signs -",
     "words": [
       {
         "id": "yunus-7-1",
@@ -1066,7 +1072,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui n’aspirent nullement à Nous rencontrer, qui se contentent de la vie en ce bas monde et s’y trouvent rassurés, et ceux qui sont indifférents à Nos Signes,"
   },
   {
     "id": "yunus-8",
@@ -1075,7 +1082,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ مَأْوَىٰهُمُ ٱلنَّارُ بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "أولـٓئك مأوىهم ٱلنار بما كانوا يكسبون",
     "transliteration": "ulāika mawāhumu l-nāru bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "For those their refuge will be the Fire because of what they used to earn.",
     "words": [
       {
         "id": "yunus-8-1",
@@ -1120,7 +1127,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là auront le Feu pour refuge, comme prix des œuvres qu’ils auront acquises."
   },
   {
     "id": "yunus-9",
@@ -1129,7 +1137,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ يَهْدِيهِمْ رَبُّهُم بِإِيمَـٰنِهِمْ ۖ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَـٰرُ فِى جَنَّـٰتِ ٱلنَّعِيمِ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت يهديهم ربهم بإيمـنهم  تجرى من تحتهم ٱلأنهـر فى جنـت ٱلنعيم",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti yahdīhim rabbuhum biīmānihim tajrī min taḥtihimu l-anhāru fī jannāti l-naʿīmi",
-    "translation": "",
+    "translation": "Indeed, those who have believed and done righteous deeds - their Lord will guide them because of their faith. Beneath them rivers will flow in the Gardens of Pleasure.",
     "words": [
       {
         "id": "yunus-9-1",
@@ -1237,7 +1245,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui croient et accomplissent les bonnes œuvres, leur Seigneur les conduira, en raison de leur foi, dans la bonne direction (yahdîhim). Des rivières couleront sous leurs pieds dans les Jardins des délices."
   },
   {
     "id": "yunus-10",
@@ -1246,7 +1255,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "دَعْوَىٰهُمْ فِيهَا سُبْحَـٰنَكَ ٱللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَـٰمٌ ۚ وَءَاخِرُ دَعْوَىٰهُمْ أَنِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "دعوىهم فيها سبحـنك ٱللهم وتحيتهم فيها سلـم  وءاخر دعوىهم أن ٱلحمد لله رب ٱلعـلمين",
     "transliteration": "daʿwāhum fīhā sub'ḥānaka l-lahuma wataḥiyyatuhum fīhā salāmun waākhiru daʿwāhum ani l-ḥamdu lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Their call therein will be, \"Exalted are You, O Allāh,\" and their greeting therein will be, \"Peace.\" And the last of their call will be, \"Praise to Allāh, Lord of the worlds!\"",
     "words": [
       {
         "id": "yunus-10-1",
@@ -1347,7 +1356,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur prière y sera : « Gloire Te soit rendue, ô Allah ! » et leur salutation : « Paix ! (Salâm) » Puis leur invocation se conclura par : « Louange à Allah, Seigneur de l’Univers ! »"
   },
   {
     "id": "yunus-11",
@@ -1356,7 +1366,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَوْ يُعَجِّلُ ٱللَّهُ لِلنَّاسِ ٱلشَّرَّ ٱسْتِعْجَالَهُم بِٱلْخَيْرِ لَقُضِىَ إِلَيْهِمْ أَجَلُهُمْ ۖ فَنَذَرُ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ",
     "textSimple": " ولو يعجل ٱلله للناس ٱلشر ٱستعجالهم بٱلخير لقضى إليهم أجلهم  فنذر ٱلذين لا يرجون لقآءنا فى طغيـنهم يعمهون",
     "transliteration": "walaw yuʿajjilu l-lahu lilnnāsi l-shara is'tiʿ'jālahum bil-khayri laquḍiya ilayhim ajaluhum fanadharu alladhīna lā yarjūna liqāanā fī ṭugh'yānihim yaʿmahūna",
-    "translation": "",
+    "translation": "And if Allāh was to hasten for the people the evil [they invoke] as He hastens for them the good, their term would have been ended for them. But We leave the ones who do not expect the meeting with Us, in their transgression, wandering blindly.",
     "words": [
       {
         "id": "yunus-11-1",
@@ -1485,7 +1495,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah hâtait pour les hommes le mal à la mesure de leur empressement pour le bien, ils verraient alors survenir l’arrêt du terme de leur vie. Nous laissons alors ceux qui n’aspirent nullement à Nous rencontrer, patauger aveuglément dans leur rébellion."
   },
   {
     "id": "yunus-12",
@@ -1494,7 +1505,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَسَّ ٱلْإِنسَـٰنَ ٱلضُّرُّ دَعَانَا لِجَنۢبِهِۦٓ أَوْ قَاعِدًا أَوْ قَآئِمًا فَلَمَّا كَشَفْنَا عَنْهُ ضُرَّهُۥ مَرَّ كَأَن لَّمْ يَدْعُنَآ إِلَىٰ ضُرٍّ مَّسَّهُۥ ۚ كَذَٰلِكَ زُيِّنَ لِلْمُسْرِفِينَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "وإذا مس ٱلإنسـن ٱلضر دعانا لجنبهٓ أو قاعدا أو قآئما فلما كشفنا عنه ضره مر كأن لم يدعنآ إلى ضر مسه  كذلك زين للمسرفين ما كانوا يعملون",
     "transliteration": "wa-idhā massa l-insāna l-ḍuru daʿānā lijanbihi aw qāʿidan aw qāiman falammā kashafnā ʿanhu ḍurrahu marra ka-an lam yadʿunā ilā ḍurrin massahu kadhālika zuyyina lil'mus'rifīna mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And when affliction touches man, he calls upon Us, whether lying on his side or sitting or standing; but when We remove from him his affliction, he continues [in disobedience] as if he had never called upon Us to [remove] an affliction that touched him. Thus is made pleasing to the transgressors that which they have been doing.",
     "words": [
       {
         "id": "yunus-12-1",
@@ -1686,7 +1697,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un malheur affecte-il l’homme, celui-ci Nous appelle à son secours, qu’il soit couché sur le côté, assis ou debout. L’en délivrons-Nous, il passe son chemin, comme s’il ne Nous avait pas appelé pour quelque mal qui l’a touché. C’est ainsi que seront rendues belles, aux yeux des gens abusifs, leurs actions (excessives)."
   },
   {
     "id": "yunus-13",
@@ -1695,7 +1707,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَهْلَكْنَا ٱلْقُرُونَ مِن قَبْلِكُمْ لَمَّا ظَلَمُوا۟ ۙ وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ وَمَا كَانُوا۟ لِيُؤْمِنُوا۟ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ",
     "textSimple": "ولقد أهلكنا ٱلقرون من قبلكم لما ظلموا  وجآءتهم رسلهم بٱلبينـت وما كانوا ليؤمنوا  كذلك نجزى ٱلقوم ٱلمجرمين",
     "transliteration": "walaqad ahlaknā l-qurūna min qablikum lammā ẓalamū wajāathum rusuluhum bil-bayināti wamā kānū liyu'minū kadhālika najzī l-qawma l-muj'rimīna",
-    "translation": "",
+    "translation": "And We had already destroyed generations before you when they wronged, and their messengers had come to them with clear proofs, but they were not to believe. Thus do We recompense the criminal people.",
     "words": [
       {
         "id": "yunus-13-1",
@@ -1817,7 +1829,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes périr avant vous bien des générations, lorsqu’elles eurent commis des injustices en dépit des preuves évidentes que leur apportèrent leurs Messagers. Elles n’étaient pas prêtes à avoir la foi. C’est ainsi que Nous rétribuons la gent criminelle."
   },
   {
     "id": "yunus-14",
@@ -1826,7 +1839,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ جَعَلْنَـٰكُمْ خَلَـٰٓئِفَ فِى ٱلْأَرْضِ مِنۢ بَعْدِهِمْ لِنَنظُرَ كَيْفَ تَعْمَلُونَ",
     "textSimple": "ثم جعلنـكم خلـٓئف فى ٱلأرض من بعدهم لننظر كيف تعملون",
     "transliteration": "thumma jaʿalnākum khalāifa fī l-arḍi min baʿdihim linanẓura kayfa taʿmalūna",
-    "translation": "",
+    "translation": "Then We made you successors in the land after them so that We may observe how you will do.",
     "words": [
       {
         "id": "yunus-14-1",
@@ -1899,7 +1912,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous avons fait de vous, à leur suite, leurs successeurs sur terre, pour voir comment vous agirez."
   },
   {
     "id": "yunus-15",
@@ -1908,7 +1922,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَاتُنَا بَيِّنَـٰتٍ ۙ قَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا ٱئْتِ بِقُرْءَانٍ غَيْرِ هَـٰذَآ أَوْ بَدِّلْهُ ۚ قُلْ مَا يَكُونُ لِىٓ أَنْ أُبَدِّلَهُۥ مِن تِلْقَآئِ نَفْسِىٓ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ ۖ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍ",
     "textSimple": "وإذا تتلى عليهم ءاياتنا بينـت  قال ٱلذين لا يرجون لقآءنا ٱئت بقرءان غير هـذآ أو بدله  قل ما يكون لىٓ أن أبدله من تلقآئ نفسىٓ  إن أتبع إلا ما يوحىٓ إلى  إنىٓ أخاف إن عصيت ربى عذاب يوم عظيم",
     "transliteration": "wa-idhā tut'lā ʿalayhim āyātunā bayyinātin qāla alladhīna lā yarjūna liqāanā i'ti biqur'ānin ghayri hādhā aw baddil'hu qul mā yakūnu lī an ubaddilahu min til'qāi nafsī in attabiʿu illā mā yūḥā ilayya innī akhāfu in ʿaṣaytu rabbī ʿadhāba yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "And when Our verses are recited to them as clear evidences, those who do not expect the meeting with Us say, \"Bring us a Qur’ān other than this or change it.\" Say, [O Muḥammad], \"It is not for me to change it on my own accord. I only follow what is revealed to me. Indeed I fear, if I should disobey my Lord, the punishment of a tremendous Day.\"",
     "words": [
       {
         "id": "yunus-15-1",
@@ -2184,7 +2198,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand Nos versets leur sont récités, explicites et clairs, ceux qui n’aspirent nullement à Nous rencontrer disent : « Apporte un autre Coran que celui-ci, ou change-le. » Dis : « Il ne m’appartient pas de le changer de ma seule initiative. Je ne fais que suivre ce qui m’est révélé, et je crains, en désobéissant à mon Seigneur, le supplice d’un très grand jour. »"
   },
   {
     "id": "yunus-16",
@@ -2193,7 +2208,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّوْ شَآءَ ٱللَّهُ مَا تَلَوْتُهُۥ عَلَيْكُمْ وَلَآ أَدْرَىٰكُم بِهِۦ ۖ فَقَدْ لَبِثْتُ فِيكُمْ عُمُرًا مِّن قَبْلِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": "قل لو شآء ٱلله ما تلوته عليكم ولآ أدرىكم به  فقد لبثت فيكم عمرا من قبلهٓ  أفلا تعقلون",
     "transliteration": "qul law shāa l-lahu mā talawtuhu ʿalaykum walā adrākum bihi faqad labith'tu fīkum ʿumuran min qablihi afalā taʿqilūna",
-    "translation": "",
+    "translation": "Say, \"If Allāh had willed, I would not have recited it to you, nor would He have made it known to you, for I had remained among you a lifetime before it. Then will you not reason?\"",
     "words": [
       {
         "id": "yunus-16-1",
@@ -2322,7 +2337,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Si Allah l’avait voulu, je ne vous l’aurais pas récité, et Il ne vous l’aurait pas fait connaître. Je suis bien resté parmi vous avant (sa révélation) toute une vie. N’êtes-vous pas doués de raison ?"
   },
   {
     "id": "yunus-17",
@@ -2331,7 +2347,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْمُجْرِمُونَ",
     "textSimple": "فمن أظلم ممن ٱفترى على ٱلله كذبا أو كذب بـٔايـتهٓ  إنه لا يفلح ٱلمجرمون",
     "transliteration": "faman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban aw kadhaba biāyātihi innahu lā yuf'liḥu l-muj'rimūna",
-    "translation": "",
+    "translation": "So who is more unjust than he who invents a lie about Allāh or denies His signs? Indeed, the criminals will not succeed.",
     "words": [
       {
         "id": "yunus-17-1",
@@ -2432,7 +2448,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il donc plus injuste que celui qui débite des mensonges sur le compte d’Allah, ou dément Ses versets ? Au vrai, les criminels ne réussissent pas."
   },
   {
     "id": "yunus-18",
@@ -2441,7 +2458,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَيَقُولُونَ هَـٰٓؤُلَآءِ شُفَعَـٰٓؤُنَا عِندَ ٱللَّهِ ۚ قُلْ أَتُنَبِّـُٔونَ ٱللَّهَ بِمَا لَا يَعْلَمُ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
     "textSimple": "ويعبدون من دون ٱلله ما لا يضرهم ولا ينفعهم ويقولون هـٓؤلآء شفعـٓؤنا عند ٱلله  قل أتنبـٔون ٱلله بما لا يعلم فى ٱلسمـوت ولا فى ٱلأرض  سبحـنه وتعـلى عما يشركون",
     "transliteration": "wayaʿbudūna min dūni l-lahi mā lā yaḍurruhum walā yanfaʿuhum wayaqūlūna hāulāi shufaʿāunā ʿinda l-lahi qul atunabbiūna l-laha bimā lā yaʿlamu fī l-samāwāti walā fī l-arḍi sub'ḥānahu wataʿālā ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "And they worship other than Allāh that which neither harms them nor benefits them, and they say, \"These are our intercessors with Allāh.\" Say, \"Do you inform Allāh of something He does not know in the heavens or on the earth?\" Exalted is He and high above what they associate with Him.",
     "words": [
       {
         "id": "yunus-18-1",
@@ -2647,7 +2664,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils adorent en dehors d’Allah ce qui ne peut leur nuire ni leur profiter. Et ils disent : « Ce sont là nos intercesseurs auprès d’Allah. » Dis : « Apprendriez-vous donc à Allah ce qu’Il ne connaîtrait ni dans les cieux ni sur terre ? » Gloire Lui soit rendue ! Il est beaucoup plus Haut que ce qu’ils Lui associent !"
   },
   {
     "id": "yunus-19",
@@ -2656,7 +2674,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ ٱلنَّاسُ إِلَّآ أُمَّةً وَٰحِدَةً فَٱخْتَلَفُوا۟ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ",
     "textSimple": "وما كان ٱلناس إلآ أمة وحدة فٱختلفوا  ولولا كلمة سبقت من ربك لقضى بينهم فيما فيه يختلفون",
     "transliteration": "wamā kāna l-nāsu illā ummatan wāḥidatan fa-ikh'talafū walawlā kalimatun sabaqat min rabbika laquḍiya baynahum fīmā fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "And mankind was not but one community [united in religion], but [then] they differed. And if not for a word that preceded from your Lord, it would have been judged between them [immediately] concerning that over which they differ.",
     "words": [
       {
         "id": "yunus-19-1",
@@ -2778,7 +2796,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes n’étaient qu’une seule communauté, puis entre eux surgirent les désaccords. N’eût été un décret antérieur de ton Seigneur, leurs différends eurent été déjà tranchés."
   },
   {
     "id": "yunus-20",
@@ -2787,7 +2806,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَةٌ مِّن رَّبِّهِۦ ۖ فَقُلْ إِنَّمَا ٱلْغَيْبُ لِلَّهِ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
     "textSimple": "ويقولون لولآ أنزل عليه ءاية من ربه  فقل إنما ٱلغيب لله فٱنتظروٓا إنى معكم من ٱلمنتظرين",
     "transliteration": "wayaqūlūna lawlā unzila ʿalayhi āyatun min rabbihi faqul innamā l-ghaybu lillahi fa-intaẓirū innī maʿakum mina l-muntaẓirīna",
-    "translation": "",
+    "translation": "And they say, \"Why is a sign not sent down to him from his Lord?\" So say, \"The unseen is only for Allāh [to administer], so wait; indeed, I am with you among those who wait.\"",
     "words": [
       {
         "id": "yunus-20-1",
@@ -2902,7 +2921,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disent : « Si seulement il descendait sur lui un miracle de son Seigneur ! » Dis : « L’Inconnaissable (ghayb) est du ressort exclusif d’Allah. Attendez donc, je suis avec vous de ceux qui attendent. »"
   },
   {
     "id": "yunus-21",
@@ -2911,7 +2931,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً مِّنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُمْ إِذَا لَهُم مَّكْرٌ فِىٓ ءَايَاتِنَا ۚ قُلِ ٱللَّهُ أَسْرَعُ مَكْرًا ۚ إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ",
     "textSimple": "وإذآ أذقنا ٱلناس رحمة من بعد ضرآء مستهم إذا لهم مكر فىٓ ءاياتنا  قل ٱلله أسرع مكرا  إن رسلنا يكتبون ما تمكرون",
     "transliteration": "wa-idhā adhaqnā l-nāsa raḥmatan min baʿdi ḍarrāa massathum idhā lahum makrun fī āyātinā quli l-lahu asraʿu makran inna rusulanā yaktubūna mā tamkurūna",
-    "translation": "",
+    "translation": "And when We give the people a taste of mercy after adversity has touched them, at once they conspire against Our verses. Say, \"Allāh is swifter in strategy.\" Indeed, Our messengers [i.e., angels] record that which you conspire.",
     "words": [
       {
         "id": "yunus-21-1",
@@ -3068,7 +3088,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nous donnons à goûter aux hommes Notre miséricorde, ils se mettent à tramer les intrigues contre Nos versets. Dis : « Allah est encore plus prompt à déjouer les intrigues. » tandis que Nos émissaires inscrivent ce que vous tramez comme intrigues."
   },
   {
     "id": "yunus-22",
@@ -3077,7 +3098,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَـٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّـٰكِرِينَ",
     "textSimple": "هو ٱلذى يسيركم فى ٱلبر وٱلبحر  حتىٓ إذا كنتم فى ٱلفلك وجرين بهم بريح طيبة وفرحوا بها جآءتها ريح عاصف وجآءهم ٱلموج من كل مكان وظنوٓا أنهم أحيط بهم  دعوا ٱلله مخلصين له ٱلدين لئن أنجيتنا من هـذه لنكونن من ٱلشـكرين",
     "transliteration": "huwa alladhī yusayyirukum fī l-bari wal-baḥri ḥattā idhā kuntum fī l-ful'ki wajarayna bihim birīḥin ṭayyibatin wafariḥū bihā jāathā rīḥun ʿāṣifun wajāahumu l-mawju min kulli makānin waẓannū annahum uḥīṭa bihim daʿawū l-laha mukh'liṣīna lahu l-dīna la-in anjaytanā min hādhihi lanakūnanna mina l-shākirīna",
-    "translation": "",
+    "translation": "It is He who enables you to travel on land and sea until, when you are in ships and they sail with them by a good wind and they rejoice therein, there comes a storm wind and the waves come upon them from every place and they expect to be engulfed, they supplicate Allāh, sincere to Him in religion, \"If You should save us from this, we will surely be among the thankful.\"",
     "words": [
       {
         "id": "yunus-22-1",
@@ -3367,7 +3388,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 40
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous permet de vous déplacer sur terre et en mer. Et quand vous êtes à bord de vos bateaux avec des vents favorables qui les font courir (allégrement sur les flots), ceux qui se trouvent à bord s’en réjouissent. Mais dès qu’un vent impétueux se déchaîne sur eux, que les vagues les assaillent de toutes parts et qu’ils se sentent cernés par la mort, les voilà qui invoquent Allah en Lui vouant un culte sincère : « Si Tu nous sauves (de ce danger), nous Te serons reconnaissants ! »"
   },
   {
     "id": "yunus-23",
@@ -3376,7 +3398,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَنجَىٰهُمْ إِذَا هُمْ يَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۗ يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّمَا بَغْيُكُمْ عَلَىٰٓ أَنفُسِكُم ۖ مَّتَـٰعَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ إِلَيْنَا مَرْجِعُكُمْ فَنُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "فلمآ أنجىهم إذا هم يبغون فى ٱلأرض بغير ٱلحق  يـٓأيها ٱلناس إنما بغيكم علىٓ أنفسكم  متـع ٱلحيوة ٱلدنيا  ثم إلينا مرجعكم فننبئكم بما كنتم تعملون",
     "transliteration": "falammā anjāhum idhā hum yabghūna fī l-arḍi bighayri l-ḥaqi yāayyuhā l-nāsu innamā baghyukum ʿalā anfusikum matāʿa l-ḥayati l-dun'yā thumma ilaynā marjiʿukum fanunabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "But when He saves them, at once they commit injustice upon the earth without right. O mankind, your injustice is only against yourselves, [being merely] the enjoyment of worldly life. Then to Us is your return, and We will inform you of what you used to do.",
     "words": [
       {
         "id": "yunus-23-1",
@@ -3554,7 +3576,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais une fois qu’Il les a sauvés, les voilà qui se livrent injustement à tous les abus sur terre. Ô hommes ! Vos abus ne retomberont que sur vous. Ce sont là les jouissances éphémères de ce bas monde. Puis, c’est vers Nous que sera votre retour, et là Nous vous instruirons de ce que vous faisiez."
   },
   {
     "id": "yunus-24",
@@ -3563,7 +3586,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَـٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَـٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَـٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَـٰهَا حَصِيدًا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
     "textSimple": "إنما مثل ٱلحيوة ٱلدنيا كمآء أنزلنـه من ٱلسمآء فٱختلط به نبات ٱلأرض مما يأكل ٱلناس وٱلأنعـم حتىٓ إذآ أخذت ٱلأرض زخرفها وٱزينت وظن أهلهآ أنهم قـدرون عليهآ أتىهآ أمرنا ليلا أو نهارا فجعلنـها حصيدا كأن لم تغن بٱلأمس  كذلك نفصل ٱلـٔايـت لقوم يتفكرون",
     "transliteration": "innamā mathalu l-ḥayati l-dun'yā kamāin anzalnāhu mina l-samāi fa-ikh'talaṭa bihi nabātu l-arḍi mimmā yakulu l-nāsu wal-anʿāmu ḥattā idhā akhadhati l-arḍu zukh'rufahā wa-izzayyanat waẓanna ahluhā annahum qādirūna ʿalayhā atāhā amrunā laylan aw nahāran fajaʿalnāhā ḥaṣīdan ka-an lam taghna bil-amsi kadhālika nufaṣṣilu l-āyāti liqawmin yatafakkarūna",
-    "translation": "",
+    "translation": "The example of [this] worldly life is but like rain which We have sent down from the sky that the plants of the earth absorb - [those] from which men and livestock eat - until, when the earth has taken on its adornment and is beautified and its people suppose that they have capability over it, there comes to it Our command by night or by day, and We make it as a harvest, as if it had not flourished yesterday. Thus do We explain in detail the signs for a people who give thought.",
     "words": [
       {
         "id": "yunus-24-1",
@@ -3867,7 +3890,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vie en ce bas monde est semblable à l’eau que Nous faisons descendre du ciel et grâce à laquelle poussent les plantes de la terre dont se nourrissent les hommes et les animaux. Mais lorsque la terre prend tous ses aspects parés et embellis, et que ses habitants pensent qu’ils en ont le parfait contrôle, il lui vient Notre ordre, de nuit ou de jour, et Nous la réduisons en champ moissonné, comme si elle n’avait pas été verdoyante la veille. C’est ainsi que Nous détaillons les Signes à des gens qui savent réfléchir."
   },
   {
     "id": "yunus-25",
@@ -3876,7 +3900,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَـٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "وٱلله يدعوٓا إلى دار ٱلسلـم ويهدى من يشآء إلى صرط مستقيم",
     "transliteration": "wal-lahu yadʿū ilā dāri l-salāmi wayahdī man yashāu ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "And Allāh invites to the Home of Peace [i.e., Paradise] and guides whom He wills to a straight path.",
     "words": [
       {
         "id": "yunus-25-1",
@@ -3956,7 +3980,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah appelle à la Demeure du Salut et conduit qui Il veut vers une voie droite."
   },
   {
     "id": "yunus-26",
@@ -3965,7 +3990,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "۞ لِّلَّذِينَ أَحْسَنُوا۟ ٱلْحُسْنَىٰ وَزِيَادَةٌ ۖ وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلَا ذِلَّةٌ ۚ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": " للذين أحسنوا ٱلحسنى وزيادة  ولا يرهق وجوههم قتر ولا ذلة  أولـٓئك أصحـب ٱلجنة  هم فيها خـلدون",
     "transliteration": "lilladhīna aḥsanū l-ḥus'nā waziyādatun walā yarhaqu wujūhahum qatarun walā dhillatun ulāika aṣḥābu l-janati hum fīhā khālidūna",
-    "translation": "",
+    "translation": "For them who have done good is the best [reward] - and extra. No darkness will cover their faces, nor humiliation. Those are companions of Paradise; they will abide therein eternally.",
     "words": [
       {
         "id": "yunus-26-1",
@@ -4080,7 +4105,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux qui auront fait le bien, est (promise) la plus belle des récompenses, et plus encore. Nulle fumée noire, nulle humiliation ne viendront assombrir leurs visages. Ceux-là sont les hôtes du Paradis, là ils séjourneront pour l’éternité."
   },
   {
     "id": "yunus-27",
@@ -4089,7 +4115,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَسَبُوا۟ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا وَتَرْهَقُهُمْ ذِلَّةٌ ۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۖ كَأَنَّمَآ أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِّنَ ٱلَّيْلِ مُظْلِمًا ۚ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وٱلذين كسبوا ٱلسيـٔات جزآء سيئة بمثلها وترهقهم ذلة  ما لهم من ٱلله من عاصم  كأنمآ أغشيت وجوههم قطعا من ٱليل مظلما  أولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "wa-alladhīna kasabū l-sayiāti jazāu sayyi-atin bimith'lihā watarhaquhum dhillatun mā lahum mina l-lahi min ʿāṣimin ka-annamā ugh'shiyat wujūhuhum qiṭaʿan mina al-layli muẓ'liman ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "But they who have earned [blame for] evil doings - the recompense of an evil deed is its equivalent, and humiliation will cover them. They will have from Allāh no protector. It will be as if their faces are covered with pieces of the night - so dark [are they]. Those are the companions of the Fire; they will abide therein eternally.",
     "words": [
       {
         "id": "yunus-27-1",
@@ -4281,7 +4307,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui auront commis les méfaits, ils auront pour prix de chaque mauvaise action rétribution équivalente. L’infamie les marquera et ils n’auront aucune protection contre Allah, comme si leurs visages étaient ternis par les parcelles d’une sombre nuit. Ceux-là sont les hôtes de l’Enfer, là ils séjourneront pour l’éternité."
   },
   {
     "id": "yunus-28",
@@ -4290,7 +4317,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ فَزَيَّلْنَا بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ",
     "textSimple": "ويوم نحشرهم جميعا ثم نقول للذين أشركوا مكانكم أنتم وشركآؤكم  فزيلنا بينهم  وقال شركآؤهم ما كنتم إيانا تعبدون",
     "transliteration": "wayawma naḥshuruhum jamīʿan thumma naqūlu lilladhīna ashrakū makānakum antum washurakāukum fazayyalnā baynahum waqāla shurakāuhum mā kuntum iyyānā taʿbudūna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], the Day We will gather them all together - then We will say to those who associated others with Allāh, \"[Remain in] your place, you and your 'partners.'\" Then We will separate them, and their \"partners\" will say, \"You did not used to worship us,",
     "words": [
       {
         "id": "yunus-28-1",
@@ -4419,7 +4446,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Rappelle-toi) le jour où Nous les rassemblerons tous et que Nous dirons à ceux qui ont prêté à Allah des associés : « Restez à votre place, vous et les associés que vous Nous prêtiez. » Alors, Nous les séparerons les uns des autres, et les (divinités) qu’ils Nous associaient diront : « Ce n’est pas nous que vous adoriez."
   },
   {
     "id": "yunus-29",
@@ -4428,7 +4456,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَكَفَىٰ بِٱللَّهِ شَهِيدًۢا بَيْنَنَا وَبَيْنَكُمْ إِن كُنَّا عَنْ عِبَادَتِكُمْ لَغَـٰفِلِينَ",
     "textSimple": "فكفى بٱلله شهيدا بيننا وبينكم إن كنا عن عبادتكم لغـفلين",
     "transliteration": "fakafā bil-lahi shahīdan baynanā wabaynakum in kunnā ʿan ʿibādatikum laghāfilīna",
-    "translation": "",
+    "translation": "And sufficient is Allāh as a witness between us and you that we were of your worship unaware.\"",
     "words": [
       {
         "id": "yunus-29-1",
@@ -4501,7 +4529,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’Allah suffise donc comme témoin entre nous et vous. Car nous n’avions nulle conscience de votre adoration ! »"
   },
   {
     "id": "yunus-30",
@@ -4510,7 +4539,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "هُنَالِكَ تَبْلُوا۟ كُلُّ نَفْسٍ مَّآ أَسْلَفَتْ ۚ وَرُدُّوٓا۟ إِلَى ٱللَّهِ مَوْلَىٰهُمُ ٱلْحَقِّ ۖ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "هنالك تبلوا كل نفس مآ أسلفت  وردوٓا إلى ٱلله مولىهم ٱلحق  وضل عنهم ما كانوا يفترون",
     "transliteration": "hunālika tablū kullu nafsin mā aslafat waruddū ilā l-lahi mawlāhumu l-ḥaqi waḍalla ʿanhum mā kānū yaftarūna",
-    "translation": "",
+    "translation": "There, [on that Day], every soul will be put to trial for what it did previously, and they will be returned to Allāh, their master, the Truth, and lost from them is whatever they used to invent.",
     "words": [
       {
         "id": "yunus-30-1",
@@ -4625,7 +4654,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est là que toute âme sera éprouvée par ses œuvres passées. Et tous seront ramenés vers Allah, leur Vrai Protecteur, cependant que se perdront les (divinités) qu’ils inventaient."
   },
   {
     "id": "yunus-31",
@@ -4634,7 +4664,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ أَمَّن يَمْلِكُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَمَن يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَمَن يُدَبِّرُ ٱلْأَمْرَ ۚ فَسَيَقُولُونَ ٱللَّهُ ۚ فَقُلْ أَفَلَا تَتَّقُونَ",
     "textSimple": "قل من يرزقكم من ٱلسمآء وٱلأرض أمن يملك ٱلسمع وٱلأبصـر ومن يخرج ٱلحى من ٱلميت ويخرج ٱلميت من ٱلحى ومن يدبر ٱلأمر  فسيقولون ٱلله  فقل أفلا تتقون",
     "transliteration": "qul man yarzuqukum mina l-samāi wal-arḍi amman yamliku l-samʿa wal-abṣāra waman yukh'riju l-ḥaya mina l-mayiti wayukh'riju l-mayita mina l-ḥayi waman yudabbiru l-amra fasayaqūlūna l-lahu faqul afalā tattaqūna",
-    "translation": "",
+    "translation": "Say, \"Who provides for you from the heaven and the earth? Or who controls hearing and sight and who brings the living out of the dead and brings the dead out of the living and who arranges [every] matter?\" They will say, \"Allāh,\" so say, \"Then will you not fear Him?\"",
     "words": [
       {
         "id": "yunus-31-1",
@@ -4826,7 +4856,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui vous dispense les dons du ciel et de la terre ? Qui donc est le Maître de l’ouïe et de la vue ? Qui fait sortir le vivant du mort et tire le mort du vivant ? Et qui régente Toute chose ? » Ils diront : « (C’est) Allah ! » Dis-leur alors : « Ne Le craignez vous donc pas ? »"
   },
   {
     "id": "yunus-32",
@@ -4835,7 +4866,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَذَٰلِكُمُ ٱللَّهُ رَبُّكُمُ ٱلْحَقُّ ۖ فَمَاذَا بَعْدَ ٱلْحَقِّ إِلَّا ٱلضَّلَـٰلُ ۖ فَأَنَّىٰ تُصْرَفُونَ",
     "textSimple": "فذلكم ٱلله ربكم ٱلحق  فماذا بعد ٱلحق إلا ٱلضلـل  فأنى تصرفون",
     "transliteration": "fadhālikumu l-lahu rabbukumu l-ḥaqu famādhā baʿda l-ḥaqi illā l-ḍalālu fa-annā tuṣ'rafūna",
-    "translation": "",
+    "translation": "For that is Allāh, your Lord, the Truth. And what can be beyond truth except error? So how are you averted?",
     "words": [
       {
         "id": "yunus-32-1",
@@ -4915,7 +4946,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est Allah, votre Seigneur, Il est vérité. Et qu’y a-t-il, au-delà de la Vérité, sinon l’égarement ? Comment pouvez-vous donc vous en être détournés ?"
   },
   {
     "id": "yunus-33",
@@ -4924,7 +4956,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ عَلَى ٱلَّذِينَ فَسَقُوٓا۟ أَنَّهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "كذلك حقت كلمت ربك على ٱلذين فسقوٓا أنهم لا يؤمنون",
     "transliteration": "kadhālika ḥaqqat kalimatu rabbika ʿalā alladhīna fasaqū annahum lā yu'minūna",
-    "translation": "",
+    "translation": "Thus the word [i.e., decree] of your Lord has come into effect upon those who defiantly disobeyed - that they will not believe.",
     "words": [
       {
         "id": "yunus-33-1",
@@ -4997,7 +5029,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que s’est réalisé le verdict d’Allah à l’encontre de ceux qui ont été pervers, eux qui ne croiront pas."
   },
   {
     "id": "yunus-34",
@@ -5006,7 +5039,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
     "textSimple": "قل هل من شركآئكم من يبدؤا ٱلخلق ثم يعيده  قل ٱلله يبدؤا ٱلخلق ثم يعيده  فأنى تؤفكون",
     "transliteration": "qul hal min shurakāikum man yabda-u l-khalqa thumma yuʿīduhu quli l-lahu yabda-u l-khalqa thumma yuʿīduhu fa-annā tu'fakūna",
-    "translation": "",
+    "translation": "Say, \"Are there of your 'partners' any who begins creation and then repeats it?\" Say, \"Allāh begins creation and then repeats it, so how are you deluded?\"",
     "words": [
       {
         "id": "yunus-34-1",
@@ -5128,7 +5161,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui donc parmi les associés (que vous prêtez à Allah) initie la création puis la recommence ? » Dis : « Allah initie la création puis la rend (à la vie). Jusqu’où vous obstinerez-vous donc à ignorer (Son adoration) ? »"
   },
   {
     "id": "yunus-35",
@@ -5137,7 +5171,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَهْدِىٓ إِلَى ٱلْحَقِّ ۚ قُلِ ٱللَّهُ يَهْدِى لِلْحَقِّ ۗ أَفَمَن يَهْدِىٓ إِلَى ٱلْحَقِّ أَحَقُّ أَن يُتَّبَعَ أَمَّن لَّا يَهِدِّىٓ إِلَّآ أَن يُهْدَىٰ ۖ فَمَا لَكُمْ كَيْفَ تَحْكُمُونَ",
     "textSimple": "قل هل من شركآئكم من يهدىٓ إلى ٱلحق  قل ٱلله يهدى للحق  أفمن يهدىٓ إلى ٱلحق أحق أن يتبع أمن لا يهدىٓ إلآ أن يهدى  فما لكم كيف تحكمون",
     "transliteration": "qul hal min shurakāikum man yahdī ilā l-ḥaqi quli l-lahu yahdī lil'ḥaqqi afaman yahdī ilā l-ḥaqi aḥaqqu an yuttabaʿa amman lā yahiddī illā an yuh'dā famā lakum kayfa taḥkumūna",
-    "translation": "",
+    "translation": "Say, \"Are there of your 'partners' any who guides to the truth?\" Say, \"Allāh guides to the truth. So is He who guides to the truth more worthy to be followed or he who guides not unless he is guided? Then what is [wrong] with you - how do you judge?\"",
     "words": [
       {
         "id": "yunus-35-1",
@@ -5343,7 +5377,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui donc parmi les associés (que vous prêtez à Allah) peut guider vers la vérité ? » Dis : « Allah (Lui) guide vers la vérité. Qui donc mérite mieux d’être suivi : celui qui guide ou celui qui ne s’engage sur la voie de la vérité que s’il y est lui-même guidé? Qu’avez-vous donc à juger de la sorte ? »"
   },
   {
     "id": "yunus-36",
@@ -5352,7 +5387,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَتَّبِعُ أَكْثَرُهُمْ إِلَّا ظَنًّا ۚ إِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَفْعَلُونَ",
     "textSimple": "وما يتبع أكثرهم إلا ظنا  إن ٱلظن لا يغنى من ٱلحق شيـٔا  إن ٱلله عليم بما يفعلون",
     "transliteration": "wamā yattabiʿu aktharuhum illā ẓannan inna l-ẓana lā yugh'nī mina l-ḥaqi shayan inna l-laha ʿalīmun bimā yafʿalūna",
-    "translation": "",
+    "translation": "And most of them follow not except assumption. Indeed, assumption avails not against the truth at all. Indeed, Allāh is Knowing of what they do.",
     "words": [
       {
         "id": "yunus-36-1",
@@ -5474,7 +5509,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La plupart d’entre eux ne suivent que des conjectures. Or, les conjectures ne permettent en rien de se passer de la vérité, et Allah Sait parfaitement ce qu’ils font."
   },
   {
     "id": "yunus-37",
@@ -5483,7 +5519,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ هَـٰذَا ٱلْقُرْءَانُ أَن يُفْتَرَىٰ مِن دُونِ ٱللَّهِ وَلَـٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ ٱلْكِتَـٰبِ لَا رَيْبَ فِيهِ مِن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "وما كان هـذا ٱلقرءان أن يفترى من دون ٱلله ولـكن تصديق ٱلذى بين يديه وتفصيل ٱلكتـب لا ريب فيه من رب ٱلعـلمين",
     "transliteration": "wamā kāna hādhā l-qur'ānu an yuf'tarā min dūni l-lahi walākin taṣdīqa alladhī bayna yadayhi watafṣīla l-kitābi lā rayba fīhi min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And it was not [possible] for this Qur’ān to be produced by other than Allāh, but [it is] a confirmation of what was before it and a detailed explanation of the [former] Scripture, about which there is no doubt, from the Lord of the worlds.",
     "words": [
       {
         "id": "yunus-37-1",
@@ -5640,7 +5676,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce Coran n’a pu être inventé en dehors d’Allah. Il vient plutôt confirmer ce qui existait avant lui et exposer dans l’intimité du détail le Livre indubitable, venu du Seigneur de l’Univers."
   },
   {
     "id": "yunus-38",
@@ -5649,7 +5686,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِسُورَةٍ مِّثْلِهِۦ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "أم يقولون ٱفترىه  قل فأتوا بسورة مثله وٱدعوا من ٱستطعتم من دون ٱلله إن كنتم صـدقين",
     "transliteration": "am yaqūlūna if'tarāhu qul fatū bisūratin mith'lihi wa-id'ʿū mani is'taṭaʿtum min dūni l-lahi in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Or do they say [about the Prophet (ﷺ)], \"He invented it?\" Say, \"Then bring forth a sūrah like it and call upon [for assistance] whomever you can besides Allāh, if you should be truthful.\"",
     "words": [
       {
         "id": "yunus-38-1",
@@ -5764,7 +5801,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or s’ils disent : « Il l’a inventé ! » Dis : « Produisez donc une sourate qui y ressemble, et appelez-en à qui vous voudrez en dehors d’Allah, si (ce que vous soutenez) est véridique ! »"
   },
   {
     "id": "yunus-39",
@@ -5773,7 +5811,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ كَذَّبُوا۟ بِمَا لَمْ يُحِيطُوا۟ بِعِلْمِهِۦ وَلَمَّا يَأْتِهِمْ تَأْوِيلُهُۥ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلظَّـٰلِمِينَ",
     "textSimple": "بل كذبوا بما لم يحيطوا بعلمه ولما يأتهم تأويله  كذلك كذب ٱلذين من قبلهم  فٱنظر كيف كان عـقبة ٱلظـلمين",
     "transliteration": "bal kadhabū bimā lam yuḥīṭū biʿil'mihi walammā yatihim tawīluhu kadhālika kadhaba alladhīna min qablihim fa-unẓur kayfa kāna ʿāqibatu l-ẓālimīna",
-    "translation": "",
+    "translation": "Rather, they have denied that which they encompass not in knowledge and whose interpretation has not yet come to them. Thus did those before them deny. Then observe how was the end of the wrongdoers.",
     "words": [
       {
         "id": "yunus-39-1",
@@ -5909,7 +5947,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils ont traité de mensonge ce qu’ils ne peuvent cerner de leur science, et ce dont ils n’ont pas encore reçu l’interprétation. Ainsi criaient au mensonge ceux qui les ont précédés. Mais vois quel fut le sort des injustes !"
   },
   {
     "id": "yunus-40",
@@ -5918,7 +5957,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يُؤْمِنُ بِهِۦ وَمِنْهُم مَّن لَّا يُؤْمِنُ بِهِۦ ۚ وَرَبُّكَ أَعْلَمُ بِٱلْمُفْسِدِينَ",
     "textSimple": "ومنهم من يؤمن به ومنهم من لا يؤمن به  وربك أعلم بٱلمفسدين",
     "transliteration": "wamin'hum man yu'minu bihi wamin'hum man lā yu'minu bihi warabbuka aʿlamu bil-muf'sidīna",
-    "translation": "",
+    "translation": "And of them are those who believe in it, and of them are those who do not believe in it. And your Lord is most knowing of the corrupters.",
     "words": [
       {
         "id": "yunus-40-1",
@@ -6005,7 +6044,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les uns parmi eux y croient, les autres n’y croient pas. Mais ton Seigneur en Sait mieux sur les semeurs de trouble."
   },
   {
     "id": "yunus-41",
@@ -6014,7 +6054,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَذَّبُوكَ فَقُل لِّى عَمَلِى وَلَكُمْ عَمَلُكُمْ ۖ أَنتُم بَرِيٓـُٔونَ مِمَّآ أَعْمَلُ وَأَنَا۠ بَرِىٓءٌ مِّمَّا تَعْمَلُونَ",
     "textSimple": "وإن كذبوك فقل لى عملى ولكم عملكم  أنتم بريٓـٔون ممآ أعمل وأنا برىٓء مما تعملون",
     "transliteration": "wa-in kadhabūka faqul lī ʿamalī walakum ʿamalukum antum barīūna mimmā aʿmalu wa-anā barīon mimmā taʿmalūna",
-    "translation": "",
+    "translation": "And if they deny you, [O Muḥammad], then say, \"For me are my deeds, and for you are your deeds. You are disassociated from what I do, and I am disassociated from what you do.\"",
     "words": [
       {
         "id": "yunus-41-1",
@@ -6122,7 +6162,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’ils te taxent de mensonge, dis-leur : « J’ai mon œuvre et vous avez la vôtre. Vous n’êtes point responsables de mes actes, tout comme je ne répondrai point des vôtres. »"
   },
   {
     "id": "yunus-42",
@@ -6131,7 +6172,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَسْتَمِعُونَ إِلَيْكَ ۚ أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ وَلَوْ كَانُوا۟ لَا يَعْقِلُونَ",
     "textSimple": "ومنهم من يستمعون إليك  أفأنت تسمع ٱلصم ولو كانوا لا يعقلون",
     "transliteration": "wamin'hum man yastamiʿūna ilayka afa-anta tus'miʿu l-ṣuma walaw kānū lā yaʿqilūna",
-    "translation": "",
+    "translation": "And among them are those who listen to you. But can you cause the deaf to hear [i.e., benefit from this hearing], although they will not use reason?",
     "words": [
       {
         "id": "yunus-42-1",
@@ -6211,7 +6252,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parmi eux, il en est qui t’écoutent volontiers. Mais est-ce toi qui pourras faire entendre les sourds quand ils n’entendent pas ?"
   },
   {
     "id": "yunus-43",
@@ -6220,7 +6262,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَنظُرُ إِلَيْكَ ۚ أَفَأَنتَ تَهْدِى ٱلْعُمْىَ وَلَوْ كَانُوا۟ لَا يُبْصِرُونَ",
     "textSimple": "ومنهم من ينظر إليك  أفأنت تهدى ٱلعمى ولو كانوا لا يبصرون",
     "transliteration": "wamin'hum man yanẓuru ilayka afa-anta tahdī l-ʿum'ya walaw kānū lā yub'ṣirūna",
-    "translation": "",
+    "translation": "And among them are those who look at you. But can you guide the blind although they will not [attempt to] see?",
     "words": [
       {
         "id": "yunus-43-1",
@@ -6300,7 +6342,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parmi eux, il en est qui te regardent volontiers. Est-ce toi qui pourras guider les aveugles quand ils ne voient pas ?"
   },
   {
     "id": "yunus-44",
@@ -6309,7 +6352,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَا يَظْلِمُ ٱلنَّاسَ شَيْـًٔا وَلَـٰكِنَّ ٱلنَّاسَ أَنفُسَهُمْ يَظْلِمُونَ",
     "textSimple": "إن ٱلله لا يظلم ٱلناس شيـٔا ولـكن ٱلناس أنفسهم يظلمون",
     "transliteration": "inna l-laha lā yaẓlimu l-nāsa shayan walākinna l-nāsa anfusahum yaẓlimūna",
-    "translation": "",
+    "translation": "Indeed, Allāh does not wrong the people at all, but it is the people who are wronging themselves.",
     "words": [
       {
         "id": "yunus-44-1",
@@ -6382,7 +6425,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne lèse les hommes en rien, mais ce sont les hommes qui se lèsent eux-mêmes."
   },
   {
     "id": "yunus-45",
@@ -6391,7 +6435,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يَحْشُرُهُمْ كَأَن لَّمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةً مِّنَ ٱلنَّهَارِ يَتَعَارَفُونَ بَيْنَهُمْ ۚ قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ وَمَا كَانُوا۟ مُهْتَدِينَ",
     "textSimple": "ويوم يحشرهم كأن لم يلبثوٓا إلا ساعة من ٱلنهار يتعارفون بينهم  قد خسر ٱلذين كذبوا بلقآء ٱلله وما كانوا مهتدين",
     "transliteration": "wayawma yaḥshuruhum ka-an lam yalbathū illā sāʿatan mina l-nahāri yataʿārafūna baynahum qad khasira alladhīna kadhabū biliqāi l-lahi wamā kānū muh'tadīna",
-    "translation": "",
+    "translation": "And on the Day when He will gather them, [it will be] as if they had not remained [in the world] but an hour of the day, [and] they will know each other. Those will have lost who denied the meeting with Allāh and were not guided.",
     "words": [
       {
         "id": "yunus-45-1",
@@ -6534,7 +6578,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Il les rassemblera comme s’ils n’étaient restés (sur terre) qu’une heure (de la journée), afin qu’ils fassent connaissance les uns avec les autres, ceux qui avaient dénoncé comme mensonge la rencontre avec Allah seront perdus, car ils n’auront pas été bien guidés."
   },
   {
     "id": "yunus-46",
@@ -6543,7 +6588,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِمَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا مَرْجِعُهُمْ ثُمَّ ٱللَّهُ شَهِيدٌ عَلَىٰ مَا يَفْعَلُونَ",
     "textSimple": "وإما نرينك بعض ٱلذى نعدهم أو نتوفينك فإلينا مرجعهم ثم ٱلله شهيد على ما يفعلون",
     "transliteration": "wa-immā nuriyannaka baʿḍa alladhī naʿiduhum aw natawaffayannaka fa-ilaynā marjiʿuhum thumma l-lahu shahīdun ʿalā mā yafʿalūna",
-    "translation": "",
+    "translation": "And whether We show you some of what We promise them, [O Muḥammad], or We take you in death, to Us is their return; then, [either way], Allāh is a witness concerning what they are doing.",
     "words": [
       {
         "id": "yunus-46-1",
@@ -6651,7 +6696,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que Nous te montrions une partie de ce que Nous leur promettons (comme châtiment), ou que Nous reprenions ton âme avant cela, c’est vers Nous que se fera leur retour, et puis Allah sera témoin de ce qu’ils font."
   },
   {
     "id": "yunus-47",
@@ -6660,7 +6706,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلِكُلِّ أُمَّةٍ رَّسُولٌ ۖ فَإِذَا جَآءَ رَسُولُهُمْ قُضِىَ بَيْنَهُم بِٱلْقِسْطِ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "ولكل أمة رسول  فإذا جآء رسولهم قضى بينهم بٱلقسط وهم لا يظلمون",
     "transliteration": "walikulli ummatin rasūlun fa-idhā jāa rasūluhum quḍiya baynahum bil-qis'ṭi wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "And for every nation is a messenger. So when their messenger comes, it will be judged between them in justice, and they will not be wronged.",
     "words": [
       {
         "id": "yunus-47-1",
@@ -6747,7 +6793,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À chaque communauté un Messager (a été envoyé). Et lorsque viendra leur Messager (au Jour de la Résurrection), tout sera départagé entre eux en toute justice et ils ne seront point lésés."
   },
   {
     "id": "yunus-48",
@@ -6756,7 +6803,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلوعد إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When is [the fulfillment of] this promise, if you should be truthful?\"",
     "words": [
       {
         "id": "yunus-48-1",
@@ -6808,7 +6855,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disent : « Quand donc se réalisera cette promesse, si vous dites vrai ? »"
   },
   {
     "id": "yunus-49",
@@ -6817,7 +6865,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّآ أَمْلِكُ لِنَفْسِى ضَرًّا وَلَا نَفْعًا إِلَّا مَا شَآءَ ٱللَّهُ ۗ لِكُلِّ أُمَّةٍ أَجَلٌ ۚ إِذَا جَآءَ أَجَلُهُمْ فَلَا يَسْتَـْٔخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ",
     "textSimple": "قل لآ أملك لنفسى ضرا ولا نفعا إلا ما شآء ٱلله  لكل أمة أجل  إذا جآء أجلهم فلا يستـٔخرون ساعة  ولا يستقدمون",
     "transliteration": "qul lā amliku linafsī ḍarran walā nafʿan illā mā shāa l-lahu likulli ummatin ajalun idhā jāa ajaluhum falā yastakhirūna sāʿatan walā yastaqdimūna",
-    "translation": "",
+    "translation": "Say, \"I possess not for myself any harm or benefit except what Allāh should will. For every nation is a [specified] term. When their time has come, then they will not remain behind an hour, nor will they precede [it].\"",
     "words": [
       {
         "id": "yunus-49-1",
@@ -6974,7 +7022,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je n’ai rien par-devers moi qui puisse me nuire ou me profiter, sauf ce que veut Allah. Pour chaque communauté, il est un terme (fixé) et quand vient leur terme, ils ne sauraient ni le retarder d’une heure, ni, non plus, l’avancer. »"
   },
   {
     "id": "yunus-50",
@@ -6983,7 +7032,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِنْ أَتَىٰكُمْ عَذَابُهُۥ بَيَـٰتًا أَوْ نَهَارًا مَّاذَا يَسْتَعْجِلُ مِنْهُ ٱلْمُجْرِمُونَ",
     "textSimple": "قل أرءيتم إن أتىكم عذابه بيـتا أو نهارا ماذا يستعجل منه ٱلمجرمون",
     "transliteration": "qul ara-aytum in atākum ʿadhābuhu bayātan aw nahāran mādhā yastaʿjilu min'hu l-muj'rimūna",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if His punishment should come to you by night or by day - for which [aspect] of it would the criminals be impatient?\"",
     "words": [
       {
         "id": "yunus-50-1",
@@ -7070,7 +7119,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Avez-vous considéré que si Son châtiment vous surprenait nuitamment ou pendant la journée, les criminels, alors, que pourraient-ils en hâter ?"
   },
   {
     "id": "yunus-51",
@@ -7079,7 +7129,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أَثُمَّ إِذَا مَا وَقَعَ ءَامَنتُم بِهِۦٓ ۚ ءَآلْـَٔـٰنَ وَقَدْ كُنتُم بِهِۦ تَسْتَعْجِلُونَ",
     "textSimple": "أثم إذا ما وقع ءامنتم بهٓ  ءآلـٔـن وقد كنتم به تستعجلون",
     "transliteration": "athumma idhā mā waqaʿa āmantum bihi āl'āna waqad kuntum bihi tastaʿjilūna",
-    "translation": "",
+    "translation": "Then is it that when it has [actually] occurred you will believe in it? Now? And you were [once] for it impatient.",
     "words": [
       {
         "id": "yunus-51-1",
@@ -7159,7 +7209,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce seulement quand le châtiment arrivera que vous y croirez ? (Il vous sera dit alors) : “(Quoi donc ?) Est-ce maintenant que vous y croyez alors qu’autrefois (pleins de sarcasmes) vous vous empressiez de le voir arriver ?” »"
   },
   {
     "id": "yunus-52",
@@ -7168,7 +7219,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ قِيلَ لِلَّذِينَ ظَلَمُوا۟ ذُوقُوا۟ عَذَابَ ٱلْخُلْدِ هَلْ تُجْزَوْنَ إِلَّا بِمَا كُنتُمْ تَكْسِبُونَ",
     "textSimple": "ثم قيل للذين ظلموا ذوقوا عذاب ٱلخلد هل تجزون إلا بما كنتم تكسبون",
     "transliteration": "thumma qīla lilladhīna ẓalamū dhūqū ʿadhāba l-khul'di hal tuj'zawna illā bimā kuntum taksibūna",
-    "translation": "",
+    "translation": "Then it will be said to those who had wronged, \"Taste the punishment of eternity; are you being recompensed except for what you used to earn?\"",
     "words": [
       {
         "id": "yunus-52-1",
@@ -7262,7 +7313,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il sera dit à ceux qui auront commis des injustices : «Goûtez le supplice éternel ! Serez-vous rétribués autrement qu’à la mesure de ce que vous commettiez? »"
   },
   {
     "id": "yunus-53",
@@ -7271,7 +7323,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَيَسْتَنۢبِـُٔونَكَ أَحَقٌّ هُوَ ۖ قُلْ إِى وَرَبِّىٓ إِنَّهُۥ لَحَقٌّ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ",
     "textSimple": " ويستنبـٔونك أحق هو  قل إى وربىٓ إنه لحق  ومآ أنتم بمعجزين",
     "transliteration": "wayastanbiūnaka aḥaqqun huwa qul ī warabbī innahu laḥaqqun wamā antum bimuʿ'jizīna",
-    "translation": "",
+    "translation": "And they ask information of you, [O Muḥammad], \"Is it true?\" Say, \"Yes, by my Lord. Indeed, it is truth; and you will not cause failure [to Allāh].\"",
     "words": [
       {
         "id": "yunus-53-1",
@@ -7351,7 +7403,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils te demandent de les informer : « Cela est-il vrai ? » Dis : « Que oui ! Par mon Seigneur ! C’est là la pure vérité et vous ne sauriez vous dérober (à la puissance d’Allah). »"
   },
   {
     "id": "yunus-54",
@@ -7360,7 +7413,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّ لِكُلِّ نَفْسٍ ظَلَمَتْ مَا فِى ٱلْأَرْضِ لَٱفْتَدَتْ بِهِۦ ۗ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ ۖ وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "ولو أن لكل نفس ظلمت ما فى ٱلأرض لٱفتدت به  وأسروا ٱلندامة لما رأوا ٱلعذاب  وقضى بينهم بٱلقسط  وهم لا يظلمون",
     "transliteration": "walaw anna likulli nafsin ẓalamat mā fī l-arḍi la-if'tadat bihi wa-asarrū l-nadāmata lammā ra-awū l-ʿadhāba waquḍiya baynahum bil-qis'ṭi wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "And if each soul that wronged had everything on earth, it would offer it in ransom. And they will confide regret when they see the punishment; and they will be judged in justice, and they will not be wronged.",
     "words": [
       {
         "id": "yunus-54-1",
@@ -7510,7 +7563,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si toute âme ayant commis des injustices avait en possession tout ce qui se trouve sur terre, elle le paierait alors en rançon pour se racheter. Ils cacheront leur regret lorsqu’ils auront vu le supplice tandis que le verdict sera rendu en toute justice pour les départager et ils ne seront point lésés."
   },
   {
     "id": "yunus-55",
@@ -7519,7 +7573,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ أَلَآ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "ألآ إن لله ما فى ٱلسمـوت وٱلأرض  ألآ إن وعد ٱلله حق ولـكن أكثرهم لا يعلمون",
     "transliteration": "alā inna lillahi mā fī l-samāwāti wal-arḍi alā inna waʿda l-lahi ḥaqqun walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "Unquestionably, to Allāh belongs whatever is in the heavens and the earth. Unquestionably, the promise of Allāh is truth, but most of them do not know.",
     "words": [
       {
         "id": "yunus-55-1",
@@ -7634,7 +7688,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah que revient ce qu’il y a dans les cieux et sur terre. La promesse d’Allah est pure vérité, mais la plupart d’entre eux ne le savent pas."
   },
   {
     "id": "yunus-56",
@@ -7643,7 +7698,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ يُحْىِۦ وَيُمِيتُ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "هو يحى ويميت وإليه ترجعون",
     "transliteration": "huwa yuḥ'yī wayumītu wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "He gives life and causes death, and to Him you will be returned.",
     "words": [
       {
         "id": "yunus-56-1",
@@ -7681,7 +7736,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui fait vivre et Qui fait mourir, et c’est vers Lui que vous serez ramenés."
   },
   {
     "id": "yunus-57",
@@ -7690,7 +7746,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَآءٌ لِّمَا فِى ٱلصُّدُورِ وَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
     "textSimple": "يـٓأيها ٱلناس قد جآءتكم موعظة من ربكم وشفآء لما فى ٱلصدور وهدى ورحمة للمؤمنين",
     "transliteration": "yāayyuhā l-nāsu qad jāatkum mawʿiẓatun min rabbikum washifāon limā fī l-ṣudūri wahudan waraḥmatun lil'mu'minīna",
-    "translation": "",
+    "translation": "O mankind, there has come to you instruction from your Lord and healing for what is in the breasts and guidance and mercy for the believers.",
     "words": [
       {
         "id": "yunus-57-1",
@@ -7791,7 +7847,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Il vous est venu une exhortation de votre Seigneur, un remède (pour les maux) contenus dans les poitrines, une juste direction vers la vérité (hudâ) et une miséricorde pour les croyants."
   },
   {
     "id": "yunus-58",
@@ -7800,7 +7857,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
     "textSimple": "قل بفضل ٱلله وبرحمته فبذلك فليفرحوا هو خير مما يجمعون",
     "transliteration": "qul bifaḍli l-lahi wabiraḥmatihi fabidhālika falyafraḥū huwa khayrun mimmā yajmaʿūna",
-    "translation": "",
+    "translation": "Say, \"In the bounty of Allāh and in His mercy - in that let them rejoice; it is better than what they accumulate.\"",
     "words": [
       {
         "id": "yunus-58-1",
@@ -7873,7 +7930,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est par la grâce d’Allah et par Sa miséricorde (que tout cela est venu). Ils devront s’en réjouir, car c’est bien meilleur que tout ce qu’ils amassent. »"
   },
   {
     "id": "yunus-59",
@@ -7882,7 +7940,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُم مَّآ أَنزَلَ ٱللَّهُ لَكُم مِّن رِّزْقٍ فَجَعَلْتُم مِّنْهُ حَرَامًا وَحَلَـٰلًا قُلْ ءَآللَّهُ أَذِنَ لَكُمْ ۖ أَمْ عَلَى ٱللَّهِ تَفْتَرُونَ",
     "textSimple": "قل أرءيتم مآ أنزل ٱلله لكم من رزق فجعلتم منه حراما وحلـلا قل ءآلله أذن لكم  أم على ٱلله تفترون",
     "transliteration": "qul ara-aytum mā anzala l-lahu lakum min riz'qin fajaʿaltum min'hu ḥarāman waḥalālan qul āllahu adhina lakum am ʿalā l-lahi taftarūna",
-    "translation": "",
+    "translation": "Say, \"Have you seen what Allāh has sent down to you of provision of which you have made [some] lawful and [some] unlawful?\" Say, \"Has Allāh permitted you [to do so], or do you invent [something] about Allāh?\"",
     "words": [
       {
         "id": "yunus-59-1",
@@ -8025,7 +8083,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Avez-vous considéré tout ce qu’Allah a fait descendre pour vous comme nourritures, et dont vous avez permis certaines et défendu d’autres ? » Dis : « Est-ce Allah Qui vous en a donné la permission ? Ou bien vous inventez des mensonges que vous attribuez à Allah ? »"
   },
   {
     "id": "yunus-60",
@@ -8034,7 +8093,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ظَنُّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ",
     "textSimple": "وما ظن ٱلذين يفترون على ٱلله ٱلكذب يوم ٱلقيـمة  إن ٱلله لذو فضل على ٱلناس ولـكن أكثرهم لا يشكرون",
     "transliteration": "wamā ẓannu alladhīna yaftarūna ʿalā l-lahi l-kadhiba yawma l-qiyāmati inna l-laha ladhū faḍlin ʿalā l-nāsi walākinna aktharahum lā yashkurūna",
-    "translation": "",
+    "translation": "And what will be the supposition of those who invent falsehood about Allāh on the Day of Resurrection? Indeed, Allāh is the possessor of bounty for the people, but most of them are not grateful.",
     "words": [
       {
         "id": "yunus-60-1",
@@ -8170,7 +8229,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et que penseront (de ce qu’il sera fait d’eux) ceux qui débitent des mensonges sur le compte d’Allah, au Jour de la Résurrection? Allah est plein de faveurs envers les hommes, mais la plupart d’entre eux ne savent pas être reconnaissants."
   },
   {
     "id": "yunus-61",
@@ -8179,7 +8239,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَكُونُ فِى شَأْنٍ وَمَا تَتْلُوا۟ مِنْهُ مِن قُرْءَانٍ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ ۚ وَمَا يَعْزُبُ عَن رَّبِّكَ مِن مِّثْقَالِ ذَرَّةٍ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ وَلَآ أَصْغَرَ مِن ذَٰلِكَ وَلَآ أَكْبَرَ إِلَّا فِى كِتَـٰبٍ مُّبِينٍ",
     "textSimple": "وما تكون فى شأن وما تتلوا منه من قرءان ولا تعملون من عمل إلا كنا عليكم شهودا إذ تفيضون فيه  وما يعزب عن ربك من مثقال ذرة فى ٱلأرض ولا فى ٱلسمآء ولآ أصغر من ذلك ولآ أكبر إلا فى كتـب مبين",
     "transliteration": "wamā takūnu fī shanin wamā tatlū min'hu min qur'ānin walā taʿmalūna min ʿamalin illā kunnā ʿalaykum shuhūdan idh tufīḍūna fīhi wamā yaʿzubu ʿan rabbika min mith'qāli dharratin fī l-arḍi walā fī l-samāi walā aṣghara min dhālika walā akbara illā fī kitābin mubīnin",
-    "translation": "",
+    "translation": "And, [O Muḥammad], you are not [engaged] in any matter and do not recite any of the Qur’ān and you [people] do not do any deed except that We are witness over you when you are involved in it. And not absent from your Lord is any [part] of an atom's weight within the earth or within the heaven or [anything] smaller than that or greater but that it is in a clear register.",
     "words": [
       {
         "id": "yunus-61-1",
@@ -8476,7 +8536,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 41
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’auras à te soucier d’aucune affaire, tu ne réciteras aucun extrait du Coran et vous n’accomplirez aucune action dont Nous ne soyons témoin quand vous l’entamerez. Rien n’échappe à ton Seigneur, fût-ce le poids d’un atome sur terre ou dans les cieux, ni même un poids plus petit ou plus grand, qui ne soit consigné dans un Livre explicite."
   },
   {
     "id": "yunus-62",
@@ -8485,7 +8546,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّ أَوْلِيَآءَ ٱللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "ألآ إن أوليآء ٱلله لا خوف عليهم ولا هم يحزنون",
     "transliteration": "alā inna awliyāa l-lahi lā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Unquestionably, [for] the allies of Allāh there will be no fear concerning them, nor will they grieve -",
     "words": [
       {
         "id": "yunus-62-1",
@@ -8558,7 +8619,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les protégés d’Allah n’auront aucune crainte ni aucune affliction."
   },
   {
     "id": "yunus-63",
@@ -8567,7 +8629,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
     "textSimple": "ٱلذين ءامنوا وكانوا يتقون",
     "transliteration": "alladhīna āmanū wakānū yattaqūna",
-    "translation": "",
+    "translation": "Those who believed and were fearing Allāh.",
     "words": [
       {
         "id": "yunus-63-1",
@@ -8598,7 +8660,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont la piété,"
   },
   {
     "id": "yunus-64",
@@ -8607,7 +8670,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "لَهُمُ ٱلْبُشْرَىٰ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْـَٔاخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَـٰتِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "لهم ٱلبشرى فى ٱلحيوة ٱلدنيا وفى ٱلـٔاخرة  لا تبديل لكلمـت ٱلله  ذلك هو ٱلفوز ٱلعظيم",
     "transliteration": "lahumu l-bush'rā fī l-ḥayati l-dun'yā wafī l-ākhirati lā tabdīla likalimāti l-lahi dhālika huwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "For them are good tidings in the worldly life and in the Hereafter. No change is there in the words [i.e., decrees] of Allāh. That is what is the great attainment.",
     "words": [
       {
         "id": "yunus-64-1",
@@ -8715,7 +8778,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là recevront l’heureuse nouvelle en ce bas monde et dans l’autre. Nul changement aux paroles d’Allah, voilà le succès suprême !"
   },
   {
     "id": "yunus-65",
@@ -8724,7 +8788,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّ ٱلْعِزَّةَ لِلَّهِ جَمِيعًا ۚ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "ولا يحزنك قولهم  إن ٱلعزة لله جميعا  هو ٱلسميع ٱلعليم",
     "transliteration": "walā yaḥzunka qawluhum inna l-ʿizata lillahi jamīʿan huwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "And let not their speech grieve you. Indeed, honor [due to power] belongs to Allāh entirely. He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "yunus-65-1",
@@ -8797,7 +8861,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce qu’ils disent ne doit pas t’affliger. La Toute -Puissance appartient à Allah, et c’est Lui Qui Entend Tout, et c’est Lui l’Omniscient."
   },
   {
     "id": "yunus-66",
@@ -8806,7 +8871,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّ لِلَّهِ مَن فِى ٱلسَّمَـٰوَٰتِ وَمَن فِى ٱلْأَرْضِ ۗ وَمَا يَتَّبِعُ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ شُرَكَآءَ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
     "textSimple": "ألآ إن لله من فى ٱلسمـوت ومن فى ٱلأرض  وما يتبع ٱلذين يدعون من دون ٱلله شركآء  إن يتبعون إلا ٱلظن وإن هم إلا يخرصون",
     "transliteration": "alā inna lillahi man fī l-samāwāti waman fī l-arḍi wamā yattabiʿu alladhīna yadʿūna min dūni l-lahi shurakāa in yattabiʿūna illā l-ẓana wa-in hum illā yakhruṣūna",
-    "translation": "",
+    "translation": "Unquestionably, to Allāh belongs whoever is in the heavens and whoever is on the earth. And those who invoke other than Allāh do not [actually] follow [His] \"partners.\" They follow not except assumption, and they are not but misjudging.",
     "words": [
       {
         "id": "yunus-66-1",
@@ -8984,7 +9049,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah que revient ce qui est dans les cieux et sur terre. Que suivent-ils donc, ceux qui invoquent les (divinités) associées à Allah ? Ils ne font que suivre des conjectures et ne font que débiter des mensonges."
   },
   {
     "id": "yunus-67",
@@ -8993,7 +9059,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِتَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يَسْمَعُونَ",
     "textSimple": "هو ٱلذى جعل لكم ٱليل لتسكنوا فيه وٱلنهار مبصرا  إن فى ذلك لـٔايـت لقوم يسمعون",
     "transliteration": "huwa alladhī jaʿala lakumu al-layla litaskunū fīhi wal-nahāra mub'ṣiran inna fī dhālika laāyātin liqawmin yasmaʿūna",
-    "translation": "",
+    "translation": "It is He who made for you the night to rest therein and the day, giving sight. Indeed in that are signs for a people who listen.",
     "words": [
       {
         "id": "yunus-67-1",
@@ -9101,7 +9167,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, pour vous, a fait la nuit où vous trouvez la quiétude, et le jour où vous voyez clair. Ce sont bien là des Signes pour ceux qui entendent."
   },
   {
     "id": "yunus-68",
@@ -9110,7 +9177,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا ۗ سُبْحَـٰنَهُۥ ۖ هُوَ ٱلْغَنِىُّ ۖ لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ إِنْ عِندَكُم مِّن سُلْطَـٰنٍۭ بِهَـٰذَآ ۚ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "قالوا ٱتخذ ٱلله ولدا  سبحـنه  هو ٱلغنى  له ما فى ٱلسمـوت وما فى ٱلأرض  إن عندكم من سلطـن بهـذآ  أتقولون على ٱلله ما لا تعلمون",
     "transliteration": "qālū ittakhadha l-lahu waladan sub'ḥānahu huwa l-ghaniyu lahu mā fī l-samāwāti wamā fī l-arḍi in ʿindakum min sul'ṭānin bihādhā ataqūlūna ʿalā l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "They have said, \"Allāh has taken a son.\" Exalted is He; He is the [one] Free of need. To Him belongs whatever is in the heavens and whatever is in the earth. You have no authority for this [claim]. Do you say about Allāh that which you do not know?",
     "words": [
       {
         "id": "yunus-68-1",
@@ -9288,7 +9355,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Allah S’est donné un fils. » Gloire Lui soit rendue ! Il est Celui Qui Se passe de Toute chose ! Il a ce qui est dans les cieux et sur terre. Vous n’avez (pour étayer vos dires) aucune preuve d’autorité. Direz-vous donc, sur le compte d’Allah, ce que vous ne savez pas ?"
   },
   {
     "id": "yunus-69",
@@ -9297,7 +9365,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ",
     "textSimple": "قل إن ٱلذين يفترون على ٱلله ٱلكذب لا يفلحون",
     "transliteration": "qul inna alladhīna yaftarūna ʿalā l-lahi l-kadhiba lā yuf'liḥūna",
-    "translation": "",
+    "translation": "Say, \"Indeed, those who invent falsehood about Allāh will not succeed.\"",
     "words": [
       {
         "id": "yunus-69-1",
@@ -9363,7 +9431,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ceux qui inventent des mensonges au sujet d’Allah ne réussiront pas. »"
   },
   {
     "id": "yunus-70",
@@ -9372,7 +9441,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "مَتَـٰعٌ فِى ٱلدُّنْيَا ثُمَّ إِلَيْنَا مَرْجِعُهُمْ ثُمَّ نُذِيقُهُمُ ٱلْعَذَابَ ٱلشَّدِيدَ بِمَا كَانُوا۟ يَكْفُرُونَ",
     "textSimple": "متـع فى ٱلدنيا ثم إلينا مرجعهم ثم نذيقهم ٱلعذاب ٱلشديد بما كانوا يكفرون",
     "transliteration": "matāʿun fī l-dun'yā thumma ilaynā marjiʿuhum thumma nudhīquhumu l-ʿadhāba l-shadīda bimā kānū yakfurūna",
-    "translation": "",
+    "translation": "[For them is brief] enjoyment in this world; then to Us is their return; then We will make them taste the severe punishment because they used to disbelieve.",
     "words": [
       {
         "id": "yunus-70-1",
@@ -9466,7 +9535,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ils auront) une jouissance éphémère en ce bas monde, puis c’est vers Nous que sera leur retour. Alors Nous leur ferons goûter le terrible supplice pour prix de leur mécréance."
   },
   {
     "id": "yunus-71",
@@ -9475,7 +9545,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱتْلُ عَلَيْهِمْ نَبَأَ نُوحٍ إِذْ قَالَ لِقَوْمِهِۦ يَـٰقَوْمِ إِن كَانَ كَبُرَ عَلَيْكُم مَّقَامِى وَتَذْكِيرِى بِـَٔايَـٰتِ ٱللَّهِ فَعَلَى ٱللَّهِ تَوَكَّلْتُ فَأَجْمِعُوٓا۟ أَمْرَكُمْ وَشُرَكَآءَكُمْ ثُمَّ لَا يَكُنْ أَمْرُكُمْ عَلَيْكُمْ غُمَّةً ثُمَّ ٱقْضُوٓا۟ إِلَىَّ وَلَا تُنظِرُونِ",
     "textSimple": " وٱتل عليهم نبأ نوح إذ قال لقومه يـقوم إن كان كبر عليكم مقامى وتذكيرى بـٔايـت ٱلله فعلى ٱلله توكلت فأجمعوٓا أمركم وشركآءكم ثم لا يكن أمركم عليكم غمة ثم ٱقضوٓا إلى ولا تنظرون",
     "transliteration": "wa-ut'lu ʿalayhim naba-a nūḥin idh qāla liqawmihi yāqawmi in kāna kabura ʿalaykum maqāmī watadhkīrī biāyāti l-lahi faʿalā l-lahi tawakkaltu fa-ajmiʿū amrakum washurakāakum thumma lā yakun amrukum ʿalaykum ghummatan thumma iq'ḍū ilayya walā tunẓirūni",
-    "translation": "",
+    "translation": "And recite to them the news of Noah, when he said to his people, \"O my people, if my residence and my reminding of the signs of Allāh has become burdensome upon you - then I have relied upon Allāh. So resolve upon your plan and [call upon] your associates. Then let not your plan be obscure to you. Then carry it out upon me and do not give me respite.",
     "words": [
       {
         "id": "yunus-71-1",
@@ -9709,7 +9779,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Raconte- leur l’histoire de Noé lorsqu’il dit à son peuple : « Ô peuple mien! Si mon séjour parmi vous, ainsi que mes rappels au sujet des Signes d’Allah vous sont insupportables, alors c’est à Allah que je m’en remets. Rassemblez vos desseins vous et vos associés et décidez de ce que vous devez faire, et que vos visées ne vous soient pas un sujet de confusion. Prononcez-vous à mon sujet et ne me donnez aucun délai !"
   },
   {
     "id": "yunus-72",
@@ -9718,7 +9789,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن تَوَلَّيْتُمْ فَمَا سَأَلْتُكُم مِّنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُسْلِمِينَ",
     "textSimple": "فإن توليتم فما سألتكم من أجر  إن أجرى إلا على ٱلله  وأمرت أن أكون من ٱلمسلمين",
     "transliteration": "fa-in tawallaytum famā sa-altukum min ajrin in ajriya illā ʿalā l-lahi wa-umir'tu an akūna mina l-mus'limīna",
-    "translation": "",
+    "translation": "And if you turn away [from my advice] - then no payment have I asked of you. My reward is only from Allāh, and I have been commanded to be of the Muslims [i.e., those who submit to Allāh].\"",
     "words": [
       {
         "id": "yunus-72-1",
@@ -9833,7 +9904,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous vous détournez (de moi), je ne vous ai pourtant réclamé aucune rétribution, car ma rétribution ne vient que d’Allah. Et ordre m’a été donné d’être du nombre des Soumis. »"
   },
   {
     "id": "yunus-73",
@@ -9842,7 +9914,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَنَجَّيْنَـٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ وَجَعَلْنَـٰهُمْ خَلَـٰٓئِفَ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُنذَرِينَ",
     "textSimple": "فكذبوه فنجينـه ومن معه فى ٱلفلك وجعلنـهم خلـٓئف وأغرقنا ٱلذين كذبوا بـٔايـتنا  فٱنظر كيف كان عـقبة ٱلمنذرين",
     "transliteration": "fakadhabūhu fanajjaynāhu waman maʿahu fī l-ful'ki wajaʿalnāhum khalāifa wa-aghraqnā alladhīna kadhabū biāyātinā fa-unẓur kayfa kāna ʿāqibatu l-mundharīna",
-    "translation": "",
+    "translation": "And they denied him, so We saved him and those with him in the ship and made them successors, and We drowned those who denied Our signs. Then see how was the end of those who were warned.",
     "words": [
       {
         "id": "yunus-73-1",
@@ -9964,7 +10036,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils le traitèrent d’imposteur. Nous le sauvâmes, ainsi que ceux qui étaient avec lui sur l’Arche, puis Nous fîmes d’eux les seuls successeurs (sur terre) et Nous noyâmes ceux qui traitaient Nos Signes de mensonges. Vois donc quel fut le sort de ce peuple qui a été (pourtant) averti !"
   },
   {
     "id": "yunus-74",
@@ -9973,7 +10046,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِۦ رُسُلًا إِلَىٰ قَوْمِهِمْ فَجَآءُوهُم بِٱلْبَيِّنَـٰتِ فَمَا كَانُوا۟ لِيُؤْمِنُوا۟ بِمَا كَذَّبُوا۟ بِهِۦ مِن قَبْلُ ۚ كَذَٰلِكَ نَطْبَعُ عَلَىٰ قُلُوبِ ٱلْمُعْتَدِينَ",
     "textSimple": "ثم بعثنا من بعده رسلا إلى قومهم فجآءوهم بٱلبينـت فما كانوا ليؤمنوا بما كذبوا به من قبل  كذلك نطبع على قلوب ٱلمعتدين",
     "transliteration": "thumma baʿathnā min baʿdihi rusulan ilā qawmihim fajāūhum bil-bayināti famā kānū liyu'minū bimā kadhabū bihi min qablu kadhālika naṭbaʿu ʿalā qulūbi l-muʿ'tadīna",
-    "translation": "",
+    "translation": "Then We sent after him messengers to their peoples, and they came to them with clear proofs. But they were not to believe in that which they had denied before. Thus We seal over the hearts of the transgressors.",
     "words": [
       {
         "id": "yunus-74-1",
@@ -10130,7 +10203,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, après lui, Nous envoyâmes des Messagers à leurs peuples respectifs. Ils leur apportèrent les preuves évidentes, mais (ces peuples) n’étaient pas disposés à croire à ce qu’ils avaient voulu démenti. Voilà comment nous scellons les cœurs des transgresseurs."
   },
   {
     "id": "yunus-75",
@@ -10139,7 +10213,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِم مُّوسَىٰ وَهَـٰرُونَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ بِـَٔايَـٰتِنَا فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا مُّجْرِمِينَ",
     "textSimple": "ثم بعثنا من بعدهم موسى وهـرون إلى فرعون وملإيه بـٔايـتنا فٱستكبروا وكانوا قوما مجرمين",
     "transliteration": "thumma baʿathnā min baʿdihim mūsā wahārūna ilā fir'ʿawna wamala-ihi biāyātinā fa-is'takbarū wakānū qawman muj'rimīna",
-    "translation": "",
+    "translation": "Then We sent after them Moses and Aaron to Pharaoh and his establishment with Our signs, but they behaved arrogantly and were a criminal people.",
     "words": [
       {
         "id": "yunus-75-1",
@@ -10240,7 +10314,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, après eux, Nous envoyâmes Moïse et Aaron, forts de Nos Signes, à Pharaon et à son assemblée de notables. Mais ces derniers les traitèrent avec dédain et furent un peuple de criminels."
   },
   {
     "id": "yunus-76",
@@ -10249,7 +10324,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوٓا۟ إِنَّ هَـٰذَا لَسِحْرٌ مُّبِينٌ",
     "textSimple": "فلما جآءهم ٱلحق من عندنا قالوٓا إن هـذا لسحر مبين",
     "transliteration": "falammā jāahumu l-ḥaqu min ʿindinā qālū inna hādhā lasiḥ'run mubīnun",
-    "translation": "",
+    "translation": "So when there came to them the truth from Us, they said, \"Indeed, this is obvious magic.\"",
     "words": [
       {
         "id": "yunus-76-1",
@@ -10322,7 +10397,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque la vérité leur fut venue de Notre part ils dirent : « Tout cela n’est que magie évidente ! »"
   },
   {
     "id": "yunus-77",
@@ -10331,7 +10407,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مُوسَىٰٓ أَتَقُولُونَ لِلْحَقِّ لَمَّا جَآءَكُمْ ۖ أَسِحْرٌ هَـٰذَا وَلَا يُفْلِحُ ٱلسَّـٰحِرُونَ",
     "textSimple": "قال موسىٓ أتقولون للحق لما جآءكم  أسحر هـذا ولا يفلح ٱلسـحرون",
     "transliteration": "qāla mūsā ataqūlūna lil'ḥaqqi lammā jāakum asiḥ'run hādhā walā yuf'liḥu l-sāḥirūna",
-    "translation": "",
+    "translation": "Moses said, \"Do you say [thus] about the truth when it has come to you? Is this magic? But magicians will not succeed.\"",
     "words": [
       {
         "id": "yunus-77-1",
@@ -10411,7 +10487,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Moïse répondit : « Dites-vous donc de la vérité qui vous est parvenue qu’elle est magie quand les magiciens ne réussissent point ? »"
   },
   {
     "id": "yunus-78",
@@ -10420,7 +10497,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَجِئْتَنَا لِتَلْفِتَنَا عَمَّا وَجَدْنَا عَلَيْهِ ءَابَآءَنَا وَتَكُونَ لَكُمَا ٱلْكِبْرِيَآءُ فِى ٱلْأَرْضِ وَمَا نَحْنُ لَكُمَا بِمُؤْمِنِينَ",
     "textSimple": "قالوٓا أجئتنا لتلفتنا عما وجدنا عليه ءابآءنا وتكون لكما ٱلكبريآء فى ٱلأرض وما نحن لكما بمؤمنين",
     "transliteration": "qālū aji'tanā litalfitanā ʿammā wajadnā ʿalayhi ābāanā watakūna lakumā l-kib'riyāu fī l-arḍi wamā naḥnu lakumā bimu'minīna",
-    "translation": "",
+    "translation": "They said, \"Have you come to us to turn us away from that upon which we found our fathers and so that you two may have grandeur in the land? And we are not believers in you.\"",
     "words": [
       {
         "id": "yunus-78-1",
@@ -10535,7 +10612,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Es-tu venu nous détourner de ce que nous avons hérité de nos pères, et pour que, vous deux, bénéficiiez de la gloire sur terre ? (Non) nous ne croirons pas en vous ! »"
   },
   {
     "id": "yunus-79",
@@ -10544,7 +10622,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ فِرْعَوْنُ ٱئْتُونِى بِكُلِّ سَـٰحِرٍ عَلِيمٍ",
     "textSimple": "وقال فرعون ٱئتونى بكل سـحر عليم",
     "transliteration": "waqāla fir'ʿawnu i'tūnī bikulli sāḥirin ʿalīmin",
-    "translation": "",
+    "translation": "And Pharaoh said, \"Bring to me every learned magician.\"",
     "words": [
       {
         "id": "yunus-79-1",
@@ -10589,7 +10667,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon dit alors : « Faites donc venir tout magicien à la vaste connaissance ! »"
   },
   {
     "id": "yunus-80",
@@ -10598,7 +10677,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَ ٱلسَّحَرَةُ قَالَ لَهُم مُّوسَىٰٓ أَلْقُوا۟ مَآ أَنتُم مُّلْقُونَ",
     "textSimple": "فلما جآء ٱلسحرة قال لهم موسىٓ ألقوا مآ أنتم ملقون",
     "transliteration": "falammā jāa l-saḥaratu qāla lahum mūsā alqū mā antum mul'qūna",
-    "translation": "",
+    "translation": "So when the magicians came, Moses said to them, \"Throw down whatever you will throw.\"",
     "words": [
       {
         "id": "yunus-80-1",
@@ -10671,7 +10750,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les magiciens venus, Moïse leur dit : « Jetez ce que vous voulez jeter. »"
   },
   {
     "id": "yunus-81",
@@ -10680,7 +10760,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَلْقَوْا۟ قَالَ مُوسَىٰ مَا جِئْتُم بِهِ ٱلسِّحْرُ ۖ إِنَّ ٱللَّهَ سَيُبْطِلُهُۥٓ ۖ إِنَّ ٱللَّهَ لَا يُصْلِحُ عَمَلَ ٱلْمُفْسِدِينَ",
     "textSimple": "فلمآ ألقوا قال موسى ما جئتم به ٱلسحر  إن ٱلله سيبطلهٓ  إن ٱلله لا يصلح عمل ٱلمفسدين",
     "transliteration": "falammā alqaw qāla mūsā mā ji'tum bihi l-siḥ'ru inna l-laha sayub'ṭiluhu inna l-laha lā yuṣ'liḥu ʿamala l-muf'sidīna",
-    "translation": "",
+    "translation": "And when they had thrown, Moses said, \"What you have brought is [only] magic. Indeed, Allāh will expose its worthlessness. Indeed, Allāh does not amend the work of corrupters.",
     "words": [
       {
         "id": "yunus-81-1",
@@ -10802,7 +10882,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils eurent jeté (leurs bâtons et leurs cordes), Moïse dit : « Ce que vous venez de produire est effectivement de la magie. Allah en rendra vains les effets, car Allah n’appuie pas l’œuvre des corrompus."
   },
   {
     "id": "yunus-82",
@@ -10811,7 +10892,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَيُحِقُّ ٱللَّهُ ٱلْحَقَّ بِكَلِمَـٰتِهِۦ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ",
     "textSimple": "ويحق ٱلله ٱلحق بكلمـته ولو كره ٱلمجرمون",
     "transliteration": "wayuḥiqqu l-lahu l-ḥaqa bikalimātihi walaw kariha l-muj'rimūna",
-    "translation": "",
+    "translation": "And Allāh will establish the truth by His words, even if the criminals dislike it.\"",
     "words": [
       {
         "id": "yunus-82-1",
@@ -10863,7 +10944,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par Ses paroles, Allah confirmera la vérité, quelque dépit qu’en aient les criminels. »"
   },
   {
     "id": "yunus-83",
@@ -10872,7 +10954,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَمَآ ءَامَنَ لِمُوسَىٰٓ إِلَّا ذُرِّيَّةٌ مِّن قَوْمِهِۦ عَلَىٰ خَوْفٍ مِّن فِرْعَوْنَ وَمَلَإِي۟هِمْ أَن يَفْتِنَهُمْ ۚ وَإِنَّ فِرْعَوْنَ لَعَالٍ فِى ٱلْأَرْضِ وَإِنَّهُۥ لَمِنَ ٱلْمُسْرِفِينَ",
     "textSimple": "فمآ ءامن لموسىٓ إلا ذرية من قومه على خوف من فرعون وملإيهم أن يفتنهم  وإن فرعون لعال فى ٱلأرض وإنه لمن ٱلمسرفين",
     "transliteration": "famā āmana limūsā illā dhurriyyatun min qawmihi ʿalā khawfin min fir'ʿawna wamala-ihim an yaftinahum wa-inna fir'ʿawna laʿālin fī l-arḍi wa-innahu lamina l-mus'rifīna",
-    "translation": "",
+    "translation": "But no one believed Moses, except [some] offspring [i.e., youths] among his people, for fear of Pharaoh and his establishment that they would persecute them. And indeed, Pharaoh was haughty within the land, and indeed, he was of the transgressors.",
     "words": [
       {
         "id": "yunus-83-1",
@@ -11029,7 +11111,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seul un petit groupe de jeunes gens, issus de son peuple, crurent en Moïse car tous craignaient, en effet, que Pharaon et son assemblée de notables ne sévissent (contre les partisans de Moïse). C’est que Pharaon était dédaigneux sur terre et il était du nombre des abusifs."
   },
   {
     "id": "yunus-84",
@@ -11038,7 +11121,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ مُوسَىٰ يَـٰقَوْمِ إِن كُنتُمْ ءَامَنتُم بِٱللَّهِ فَعَلَيْهِ تَوَكَّلُوٓا۟ إِن كُنتُم مُّسْلِمِينَ",
     "textSimple": "وقال موسى يـقوم إن كنتم ءامنتم بٱلله فعليه توكلوٓا إن كنتم مسلمين",
     "transliteration": "waqāla mūsā yāqawmi in kuntum āmantum bil-lahi faʿalayhi tawakkalū in kuntum mus'limīna",
-    "translation": "",
+    "translation": "And Moses said, \"O my people, if you have believed in Allāh, then rely upon Him, if you should be Muslims [i.e., submitting to Him].\"",
     "words": [
       {
         "id": "yunus-84-1",
@@ -11125,7 +11208,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit : « Ô peuple mien ! Si tant est que vous ayez cru en Allah et que vous Lui soyez entièrement soumis, remettez-vous en à Lui. »"
   },
   {
     "id": "yunus-85",
@@ -11134,7 +11218,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالُوا۟ عَلَى ٱللَّهِ تَوَكَّلْنَا رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً لِّلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "فقالوا على ٱلله توكلنا ربنا لا تجعلنا فتنة للقوم ٱلظـلمين",
     "transliteration": "faqālū ʿalā l-lahi tawakkalnā rabbanā lā tajʿalnā fit'natan lil'qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "So they said, \"Upon Allāh do we rely. Our Lord, make us not [objects of] trial for the wrongdoing people",
     "words": [
       {
         "id": "yunus-85-1",
@@ -11207,7 +11291,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent alors : « C’est à Allah que nous nous en remettons. Seigneur ! Ne nous livre pas en proie aux gens injustes !"
   },
   {
     "id": "yunus-86",
@@ -11216,7 +11301,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
     "textSimple": "ونجنا برحمتك من ٱلقوم ٱلكـفرين",
     "transliteration": "wanajjinā biraḥmatika mina l-qawmi l-kāfirīna",
-    "translation": "",
+    "translation": "And save us by Your mercy from the disbelieving people.\"",
     "words": [
       {
         "id": "yunus-86-1",
@@ -11254,7 +11339,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et sauve-nous par Ta miséricorde du peuple mécréant ! »"
   },
   {
     "id": "yunus-87",
@@ -11263,7 +11349,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰ وَأَخِيهِ أَن تَبَوَّءَا لِقَوْمِكُمَا بِمِصْرَ بُيُوتًا وَٱجْعَلُوا۟ بُيُوتَكُمْ قِبْلَةً وَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
     "textSimple": "وأوحينآ إلى موسى وأخيه أن تبوءا لقومكما بمصر بيوتا وٱجعلوا بيوتكم قبلة وأقيموا ٱلصلوة  وبشر ٱلمؤمنين",
     "transliteration": "wa-awḥaynā ilā mūsā wa-akhīhi an tabawwaā liqawmikumā bimiṣ'ra buyūtan wa-ij'ʿalū buyūtakum qib'latan wa-aqīmū l-ṣalata wabashiri l-mu'minīna",
-    "translation": "",
+    "translation": "And We inspired to Moses and his brother, \"Settle your people in Egypt in houses and make your houses [facing the] qiblah and establish prayer and give good tidings to the believers.\"",
     "words": [
       {
         "id": "yunus-87-1",
@@ -11378,7 +11464,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous révélâmes à Moïse et à son frère : « Installez, ton frère et toi, pour votre peuple, des demeures en Égypte. Faites de vos demeures un lieu de prière et observez-y régulièrement la Çalât. Annonce l’heureuse nouvelle aux croyants ! »"
   },
   {
     "id": "yunus-88",
@@ -11387,7 +11474,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ مُوسَىٰ رَبَّنَآ إِنَّكَ ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةً وَأَمْوَٰلًا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا رَبَّنَا لِيُضِلُّوا۟ عَن سَبِيلِكَ ۖ رَبَّنَا ٱطْمِسْ عَلَىٰٓ أَمْوَٰلِهِمْ وَٱشْدُدْ عَلَىٰ قُلُوبِهِمْ فَلَا يُؤْمِنُوا۟ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ",
     "textSimple": "وقال موسى ربنآ إنك ءاتيت فرعون وملأه زينة وأمولا فى ٱلحيوة ٱلدنيا ربنا ليضلوا عن سبيلك  ربنا ٱطمس علىٓ أمولهم وٱشدد على قلوبهم فلا يؤمنوا حتى يروا ٱلعذاب ٱلأليم",
     "transliteration": "waqāla mūsā rabbanā innaka ātayta fir'ʿawna wamala-ahu zīnatan wa-amwālan fī l-ḥayati l-dun'yā rabbanā liyuḍillū ʿan sabīlika rabbanā iṭ'mis ʿalā amwālihim wa-ush'dud ʿalā qulūbihim falā yu'minū ḥattā yarawū l-ʿadhāba l-alīma",
-    "translation": "",
+    "translation": "And Moses said, \"Our Lord, indeed You have given Pharaoh and his establishment splendor and wealth in the worldly life, our Lord, that they may lead [men] astray from Your way. Our Lord, obliterate their wealth and harden their hearts so that they will not believe until they see the painful punishment.\"",
     "words": [
       {
         "id": "yunus-88-1",
@@ -11593,7 +11680,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit : « Seigneur ! Tu as donné à Pharaon et ses dignitaires l’apparat et l’opulence en ce bas monde. Seigneur ! Voila qu’ils s’en servent pour éloigner (les gens) de Ta voie. Seigneur ! Anéantis leurs biens et scelle leurs cœurs (en les rendant plus durs), au point qu’ils ne croiront qu’en voyant le supplice très douloureux. »"
   },
   {
     "id": "yunus-89",
@@ -11602,7 +11690,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ قَدْ أُجِيبَت دَّعْوَتُكُمَا فَٱسْتَقِيمَا وَلَا تَتَّبِعَآنِّ سَبِيلَ ٱلَّذِينَ لَا يَعْلَمُونَ",
     "textSimple": "قال قد أجيبت دعوتكما فٱستقيما ولا تتبعآن سبيل ٱلذين لا يعلمون",
     "transliteration": "qāla qad ujībat daʿwatukumā fa-is'taqīmā walā tattabiʿānni sabīla alladhīna lā yaʿlamūna",
-    "translation": "",
+    "translation": "[Allāh] said, \"Your supplication has been answered.\" So remain on a right course and follow not the way of those who do not know.\"",
     "words": [
       {
         "id": "yunus-89-1",
@@ -11682,7 +11770,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Votre prière est exaucée, dit (Allah). Agissez avec droiture et ne suivez point le chemin de ceux qui ne savent pas. »"
   },
   {
     "id": "yunus-90",
@@ -11691,7 +11780,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَجَـٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ ٱلْغَرَقُ قَالَ ءَامَنتُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا ٱلَّذِىٓ ءَامَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ",
     "textSimple": " وجـوزنا ببنىٓ إسرٓءيل ٱلبحر فأتبعهم فرعون وجنوده بغيا وعدوا  حتىٓ إذآ أدركه ٱلغرق قال ءامنت أنه لآ إلـه إلا ٱلذىٓ ءامنت به بنوٓا إسرٓءيل وأنا من ٱلمسلمين",
     "transliteration": "wajāwaznā bibanī is'rāīla l-baḥra fa-atbaʿahum fir'ʿawnu wajunūduhu baghyan waʿadwan ḥattā idhā adrakahu l-gharaqu qāla āmantu annahu lā ilāha illā alladhī āmanat bihi banū is'rāīla wa-anā mina l-mus'limīna",
-    "translation": "",
+    "translation": "And We took the Children of Israel across the sea, and Pharaoh and his soldiers pursued them in tyranny and enmity until, when drowning overtook him, he said, \"I believe that there is no deity except that in whom the Children of Israel believe, and I am of the Muslims.\"",
     "words": [
       {
         "id": "yunus-90-1",
@@ -11883,7 +11972,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes franchir la mer aux Enfants d’Israël. Pharaon et ses soldats les poursuivirent alors, acharnés et hostiles. Quand il fut sur le point de se noyer, (Pharaon) s’écria : « Je crois qu’il n’y a d’autre dieu que Celui en Qui ont cru les Enfants d’Israël, et je suis du nombre des Soumis. »"
   },
   {
     "id": "yunus-91",
@@ -11892,7 +11982,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ءَآلْـَٔـٰنَ وَقَدْ عَصَيْتَ قَبْلُ وَكُنتَ مِنَ ٱلْمُفْسِدِينَ",
     "textSimple": "ءآلـٔـن وقد عصيت قبل وكنت من ٱلمفسدين",
     "transliteration": "āl'āna waqad ʿaṣayta qablu wakunta mina l-muf'sidīna",
-    "translation": "",
+    "translation": "Now? And you had disobeyed [Him] before and were of the corrupters?",
     "words": [
       {
         "id": "yunus-91-1",
@@ -11944,7 +12034,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Maintenant ? (lui répondit Allah) Mais tu désobéissais auparavant et étais du nombre des corrupteurs !"
   },
   {
     "id": "yunus-92",
@@ -11953,7 +12044,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ ءَايَةً ۚ وَإِنَّ كَثِيرًا مِّنَ ٱلنَّاسِ عَنْ ءَايَـٰتِنَا لَغَـٰفِلُونَ",
     "textSimple": "فٱليوم ننجيك ببدنك لتكون لمن خلفك ءاية  وإن كثيرا من ٱلناس عن ءايـتنا لغـفلون",
     "transliteration": "fal-yawma nunajjīka bibadanika litakūna liman khalfaka āyatan wa-inna kathīran mina l-nāsi ʿan āyātinā laghāfilūna",
-    "translation": "",
+    "translation": "So today We will save you in body that you may be to those who succeed you a sign. And indeed, many among the people, of Our signs, are heedless.",
     "words": [
       {
         "id": "yunus-92-1",
@@ -12054,7 +12145,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aujourd’hui, Nous épargnerons ta dépouille afin qu’elle serve d’exemple à tes successeurs, encore que bon nombre d’hommes soient indifférents à Nos Signes. »"
   },
   {
     "id": "yunus-93",
@@ -12063,7 +12155,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ بَوَّأْنَا بَنِىٓ إِسْرَٰٓءِيلَ مُبَوَّأَ صِدْقٍ وَرَزَقْنَـٰهُم مِّنَ ٱلطَّيِّبَـٰتِ فَمَا ٱخْتَلَفُوا۟ حَتَّىٰ جَآءَهُمُ ٱلْعِلْمُ ۚ إِنَّ رَبَّكَ يَقْضِى بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
     "textSimple": "ولقد بوأنا بنىٓ إسرٓءيل مبوأ صدق ورزقنـهم من ٱلطيبـت فما ٱختلفوا حتى جآءهم ٱلعلم  إن ربك يقضى بينهم يوم ٱلقيـمة فيما كانوا فيه يختلفون",
     "transliteration": "walaqad bawwanā banī is'rāīla mubawwa-a ṣid'qin warazaqnāhum mina l-ṭayibāti famā ikh'talafū ḥattā jāahumu l-ʿil'mu inna rabbaka yaqḍī baynahum yawma l-qiyāmati fīmā kānū fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "And We had certainly settled the Children of Israel in an agreeable settlement and provided them with good things. And they did not differ until [after] knowledge had come to them. Indeed, your Lord will judge between them on the Day of Resurrection concerning that over which they used to differ.",
     "words": [
       {
         "id": "yunus-93-1",
@@ -12234,7 +12326,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous installâmes les Enfants d’Israël en un lieu béni, et leur dispensâmes des nourritures les plus pures. Ils ne divergèrent ensuite que lorsque leur fut venue la science (la vérité). Ton Seigneur les départagera, au Jour de la Résurrection, sur ce qui les opposait."
   },
   {
     "id": "yunus-94",
@@ -12243,7 +12336,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن كُنتَ فِى شَكٍّ مِّمَّآ أَنزَلْنَآ إِلَيْكَ فَسْـَٔلِ ٱلَّذِينَ يَقْرَءُونَ ٱلْكِتَـٰبَ مِن قَبْلِكَ ۚ لَقَدْ جَآءَكَ ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
     "textSimple": "فإن كنت فى شك ممآ أنزلنآ إليك فسـٔل ٱلذين يقرءون ٱلكتـب من قبلك  لقد جآءك ٱلحق من ربك فلا تكونن من ٱلممترين",
     "transliteration": "fa-in kunta fī shakkin mimmā anzalnā ilayka fasali alladhīna yaqraūna l-kitāba min qablika laqad jāaka l-ḥaqu min rabbika falā takūnanna mina l-mum'tarīna",
-    "translation": "",
+    "translation": "So if you are in doubt, [O Muḥammad], about that which We have revealed to you, then ask those who have been reading the Scripture before you. The truth has certainly come to you from your Lord, so never be among the doubters.",
     "words": [
       {
         "id": "yunus-94-1",
@@ -12400,7 +12493,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu es dans le doute au sujet de ce que Nous t’avons révélé, interroge ceux qui ont lu les Écritures avant toi. La vérité t’est venue de ton Seigneur. Alors ne sois pas du nombre des sceptiques."
   },
   {
     "id": "yunus-95",
@@ -12409,7 +12503,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَكُونَنَّ مِنَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِ ٱللَّهِ فَتَكُونَ مِنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "ولا تكونن من ٱلذين كذبوا بـٔايـت ٱلله فتكون من ٱلخـسرين",
     "transliteration": "walā takūnanna mina alladhīna kadhabū biāyāti l-lahi fatakūna mina l-khāsirīna",
-    "translation": "",
+    "translation": "And never be of those who deny the signs of Allāh and [thus] be among the losers.",
     "words": [
       {
         "id": "yunus-95-1",
@@ -12482,7 +12576,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne sois pas de ceux qui ont osé démentirles Signes d’Allah, ou tu serais alors du nombre des perdants."
   },
   {
     "id": "yunus-96",
@@ -12491,7 +12586,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ حَقَّتْ عَلَيْهِمْ كَلِمَتُ رَبِّكَ لَا يُؤْمِنُونَ",
     "textSimple": "إن ٱلذين حقت عليهم كلمت ربك لا يؤمنون",
     "transliteration": "inna alladhīna ḥaqqat ʿalayhim kalimatu rabbika lā yu'minūna",
-    "translation": "",
+    "translation": "Indeed, those upon whom the word [i.e., decree] of your Lord has come into effect will not believe,",
     "words": [
       {
         "id": "yunus-96-1",
@@ -12550,7 +12645,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mérité que soit prononcé contre eux le verdict de ton Seigneur ne croiront pas,"
   },
   {
     "id": "yunus-97",
@@ -12559,7 +12655,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ جَآءَتْهُمْ كُلُّ ءَايَةٍ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ",
     "textSimple": "ولو جآءتهم كل ءاية حتى يروا ٱلعذاب ٱلأليم",
     "transliteration": "walaw jāathum kullu āyatin ḥattā yarawū l-ʿadhāba l-alīma",
-    "translation": "",
+    "translation": "Even if every sign should come to them, until they see the painful punishment.",
     "words": [
       {
         "id": "yunus-97-1",
@@ -12618,7 +12714,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand bien même leur parviendraient tous les Signes ; (ils ne croiront) qu’à la vue du supplice très douloureux."
   },
   {
     "id": "yunus-98",
@@ -12627,7 +12724,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَا كَانَتْ قَرْيَةٌ ءَامَنَتْ فَنَفَعَهَآ إِيمَـٰنُهَآ إِلَّا قَوْمَ يُونُسَ لَمَّآ ءَامَنُوا۟ كَشَفْنَا عَنْهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَمَتَّعْنَـٰهُمْ إِلَىٰ حِينٍ",
     "textSimple": "فلولا كانت قرية ءامنت فنفعهآ إيمـنهآ إلا قوم يونس لمآ ءامنوا كشفنا عنهم عذاب ٱلخزى فى ٱلحيوة ٱلدنيا ومتعنـهم إلى حين",
     "transliteration": "falawlā kānat qaryatun āmanat fanafaʿahā īmānuhā illā qawma yūnusa lammā āmanū kashafnā ʿanhum ʿadhāba l-khiz'yi fī l-ḥayati l-dun'yā wamattaʿnāhum ilā ḥīnin",
-    "translation": "",
+    "translation": "Then has there not been a [single] city that believed so its faith benefited it except the people of Jonah? When they believed, We removed from them the punishment of disgrace in worldly life and gave them enjoyment [i.e., provision] for a time.",
     "words": [
       {
         "id": "yunus-98-1",
@@ -12777,7 +12874,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que n’y eut-il une seule cité qui eût cru et eût bénéficié de sa foi, tel le peuple de Jonas ! Lorsque ces derniers eurent cru, Nous leur épargnâmes le supplice de l’humiliation en ce bas monde et Nous les laissâmes jouir de leur subsistance pour un temps."
   },
   {
     "id": "yunus-99",
@@ -12786,7 +12884,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شَآءَ رَبُّكَ لَـَٔامَنَ مَن فِى ٱلْأَرْضِ كُلُّهُمْ جَمِيعًا ۚ أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ",
     "textSimple": "ولو شآء ربك لـٔامن من فى ٱلأرض كلهم جميعا  أفأنت تكره ٱلناس حتى يكونوا مؤمنين",
     "transliteration": "walaw shāa rabbuka laāmana man fī l-arḍi kulluhum jamīʿan afa-anta tuk'rihu l-nāsa ḥattā yakūnū mu'minīna",
-    "translation": "",
+    "translation": "And had your Lord willed, those on earth would have believed - all of them entirely. Then, [O Muḥammad], would you compel the people in order that they become believers?",
     "words": [
       {
         "id": "yunus-99-1",
@@ -12894,7 +12992,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si ton Seigneur l’avait voulu, tous ceux qui sont sur terre auraient cru. Contraindrais-tu donc les hommes à être croyants ?"
   },
   {
     "id": "yunus-100",
@@ -12903,7 +13002,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لِنَفْسٍ أَن تُؤْمِنَ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَجْعَلُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يَعْقِلُونَ",
     "textSimple": "وما كان لنفس أن تؤمن إلا بإذن ٱلله  ويجعل ٱلرجس على ٱلذين لا يعقلون",
     "transliteration": "wamā kāna linafsin an tu'mina illā bi-idh'ni l-lahi wayajʿalu l-rij'sa ʿalā alladhīna lā yaʿqilūna",
-    "translation": "",
+    "translation": "And it is not for a soul [i.e., anyone] to believe except by permission of Allāh, and He will place defilement upon those who will not use reason.",
     "words": [
       {
         "id": "yunus-100-1",
@@ -13004,7 +13103,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est donné à aucune âme de croire sans la permission d’Allah, Qui sévit terriblement contre ceux qui ne se rendent pas à la raison."
   },
   {
     "id": "yunus-101",
@@ -13013,7 +13113,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱنظُرُوا۟ مَاذَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَمَا تُغْنِى ٱلْـَٔايَـٰتُ وَٱلنُّذُرُ عَن قَوْمٍ لَّا يُؤْمِنُونَ",
     "textSimple": "قل ٱنظروا ماذا فى ٱلسمـوت وٱلأرض  وما تغنى ٱلـٔايـت وٱلنذر عن قوم لا يؤمنون",
     "transliteration": "quli unẓurū mādhā fī l-samāwāti wal-arḍi wamā tugh'nī l-āyātu wal-nudhuru ʿan qawmin lā yu'minūna",
-    "translation": "",
+    "translation": "Say, \"Observe what is in the heavens and the earth.\" But of no avail will be signs or warners to a people who do not believe.",
     "words": [
       {
         "id": "yunus-101-1",
@@ -13114,7 +13214,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Regardez donc ce qui est dans les cieux et sur terre !» Mais ni les Signes ni les avertissements ne pourraient servir à des gens qui ne croient pas."
   },
   {
     "id": "yunus-102",
@@ -13123,7 +13224,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "فَهَلْ يَنتَظِرُونَ إِلَّا مِثْلَ أَيَّامِ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِهِمْ ۚ قُلْ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
     "textSimple": "فهل ينتظرون إلا مثل أيام ٱلذين خلوا من قبلهم  قل فٱنتظروٓا إنى معكم من ٱلمنتظرين",
     "transliteration": "fahal yantaẓirūna illā mith'la ayyāmi alladhīna khalaw min qablihim qul fa-intaẓirū innī maʿakum mina l-muntaẓirīna",
-    "translation": "",
+    "translation": "So do they wait except for like [what occurred in] the days of those who passed on before them? Say, \"Then wait; indeed, I am with you among those who wait.\"",
     "words": [
       {
         "id": "yunus-102-1",
@@ -13231,7 +13332,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’attendent-ils donc sinon les mêmes jours (de châtiment) qu’ont connus leurs prédécesseurs ? Dis : « Attendez donc, je suis avec vous de ceux qui attendent ! »"
   },
   {
     "id": "yunus-103",
@@ -13240,7 +13342,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ حَقًّا عَلَيْنَا نُنجِ ٱلْمُؤْمِنِينَ",
     "textSimple": "ثم ننجى رسلنا وٱلذين ءامنوا  كذلك حقا علينا ننج ٱلمؤمنين",
     "transliteration": "thumma nunajjī rusulanā wa-alladhīna āmanū kadhālika ḥaqqan ʿalaynā nunji l-mu'minīna",
-    "translation": "",
+    "translation": "Then We will save Our messengers and those who have believed. Thus, it is an obligation upon Us that We save the believers.",
     "words": [
       {
         "id": "yunus-103-1",
@@ -13313,7 +13415,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous sauverons Nos Messagers et ceux qui auront cru, car c’est à Nous qu’il incombe de sauver les croyants."
   },
   {
     "id": "yunus-104",
@@ -13322,7 +13425,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى شَكٍّ مِّن دِينِى فَلَآ أَعْبُدُ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ وَلَـٰكِنْ أَعْبُدُ ٱللَّهَ ٱلَّذِى يَتَوَفَّىٰكُمْ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "قل يـٓأيها ٱلناس إن كنتم فى شك من دينى فلآ أعبد ٱلذين تعبدون من دون ٱلله ولـكن أعبد ٱلله ٱلذى يتوفىكم  وأمرت أن أكون من ٱلمؤمنين",
     "transliteration": "qul yāayyuhā l-nāsu in kuntum fī shakkin min dīnī falā aʿbudu alladhīna taʿbudūna min dūni l-lahi walākin aʿbudu l-laha alladhī yatawaffākum wa-umir'tu an akūna mina l-mu'minīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"O people, if you are in doubt as to my religion - then I do not worship those which you worship besides Allāh; but I worship Allāh, who causes your death. And I have been commanded to be of the believers",
     "words": [
       {
         "id": "yunus-104-1",
@@ -13507,7 +13610,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô hommes ! Si vous êtes dans le doute au sujet de ma religion, je n’adore point, quant à moi, ceux que vous adorez en dehors d’Allah. Mais j’adore Allah Qui reprendra vos âmes. Ordre m’a été donné d’être du nombre des croyants. »"
   },
   {
     "id": "yunus-105",
@@ -13516,7 +13620,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنْ أَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "وأن أقم وجهك للدين حنيفا ولا تكونن من ٱلمشركين",
     "transliteration": "wa-an aqim wajhaka lilddīni ḥanīfan walā takūnanna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "And [commanded], 'Direct your face [i.e., self] toward the religion, inclining to truth, and never be of those who associate others with Allāh;",
     "words": [
       {
         "id": "yunus-105-1",
@@ -13582,7 +13686,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tourne ton visage vers la religion en authentique monothéiste, et ne sois pas du nombre des associâtres."
   },
   {
     "id": "yunus-106",
@@ -13591,7 +13696,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَدْعُ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُكَ وَلَا يَضُرُّكَ ۖ فَإِن فَعَلْتَ فَإِنَّكَ إِذًا مِّنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ولا تدع من دون ٱلله ما لا ينفعك ولا يضرك  فإن فعلت فإنك إذا من ٱلظـلمين",
     "transliteration": "walā tadʿu min dūni l-lahi mā lā yanfaʿuka walā yaḍurruka fa-in faʿalta fa-innaka idhan mina l-ẓālimīna",
-    "translation": "",
+    "translation": "And do not invoke besides Allāh that which neither benefits you nor harms you, for if you did, then indeed you would be of the wrongdoers.'\"",
     "words": [
       {
         "id": "yunus-106-1",
@@ -13706,7 +13811,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’invoque pas, en dehors d’Allah, ce qui ne saurait ni te profiter ni te nuire. Mais si tu le fais, tu seras alors du nombre des injustes. »"
   },
   {
     "id": "yunus-107",
@@ -13715,7 +13821,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
     "textSimple": "وإن يمسسك ٱلله بضر فلا كاشف لهٓ إلا هو  وإن يردك بخير فلا رآد لفضله  يصيب به من يشآء من عباده  وهو ٱلغفور ٱلرحيم",
     "transliteration": "wa-in yamsaska l-lahu biḍurrin falā kāshifa lahu illā huwa wa-in yurid'ka bikhayrin falā rādda lifaḍlihi yuṣību bihi man yashāu min ʿibādihi wahuwa l-ghafūru l-raḥīmu",
-    "translation": "",
+    "translation": "And if Allāh should touch you with adversity, there is no remover of it except Him; and if He intends for you good, then there is no repeller of His bounty. He causes it to reach whom He wills of His servants. And He is the Forgiving, the Merciful.",
     "words": [
       {
         "id": "yunus-107-1",
@@ -13886,7 +13992,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah t’atteint de quelque mal, nul autre que Lui ne pourra t’en débarrasser. Et s’Il te veut quelque bien, nul ne pourra arrêter Ses faveurs. Il en comble qui Il veut parmi Ses serviteurs, et c’est Lui l’Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "yunus-108",
@@ -13895,7 +14002,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنَا۠ عَلَيْكُم بِوَكِيلٍ",
     "textSimple": "قل يـٓأيها ٱلناس قد جآءكم ٱلحق من ربكم  فمن ٱهتدى فإنما يهتدى لنفسه  ومن ضل فإنما يضل عليها  ومآ أنا عليكم بوكيل",
     "transliteration": "qul yāayyuhā l-nāsu qad jāakumu l-ḥaqu min rabbikum famani ih'tadā fa-innamā yahtadī linafsihi waman ḍalla fa-innamā yaḍillu ʿalayhā wamā anā ʿalaykum biwakīlin",
-    "translation": "",
+    "translation": "Say, \"O mankind, the truth has come to you from your Lord, so whoever is guided is only guided for [the benefit of] his soul, and whoever goes astray only goes astray [in violation] against it. And I am not over you a manager.\"",
     "words": [
       {
         "id": "yunus-108-1",
@@ -14052,7 +14159,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô hommes ! La vérité vous est venue de la part de votre Seigneur. Quiconque suit la juste voie (ihtadâ), ne la suivra que pour lui-même ; et quiconque s’égare, ne s’égarera qu’à ses dépens. Je ne réponds nullement de vous. »"
   },
   {
     "id": "yunus-109",
@@ -14061,7 +14169,7 @@ export const YUNUS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ وَٱصْبِرْ حَتَّىٰ يَحْكُمَ ٱللَّهُ ۚ وَهُوَ خَيْرُ ٱلْحَـٰكِمِينَ",
     "textSimple": "وٱتبع ما يوحىٓ إليك وٱصبر حتى يحكم ٱلله  وهو خير ٱلحـكمين",
     "transliteration": "wa-ittabiʿ mā yūḥā ilayka wa-iṣ'bir ḥattā yaḥkuma l-lahu wahuwa khayru l-ḥākimīna",
-    "translation": "",
+    "translation": "And follow what is revealed to you, [O Muḥammad], and be patient until Allāh will judge. And He is the best of judges.",
     "words": [
       {
         "id": "yunus-109-1",
@@ -14141,7 +14249,8 @@ export const YUNUS_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suis donc ce qui t’est révélé, prends patience, jusqu’à ce qu’Allah prononce Son Jugement, car c’est Lui le Meilleur des juges."
   }
 ];
 

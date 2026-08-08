@@ -11,7 +11,7 @@ export const AL_QADR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
     "textSimple": "إنآ أنزلنـه فى ليلة ٱلقدر",
     "transliteration": "innā anzalnāhu fī laylati l-qadri",
-    "translation": "",
+    "translation": "Indeed, We sent it [i.e., the Qur’ān] down during the Night of Decree.",
     "words": [
       {
         "id": "al-qadr-1-1",
@@ -49,7 +49,8 @@ export const AL_QADR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’avons révélé en la nuit du Destin."
   },
   {
     "id": "al-qadr-2",
@@ -58,7 +59,7 @@ export const AL_QADR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
     "textSimple": "ومآ أدرىك ما ليلة ٱلقدر",
     "transliteration": "wamā adrāka mā laylatu l-qadri",
-    "translation": "",
+    "translation": "And what can make you know what is the Night of Decree?",
     "words": [
       {
         "id": "al-qadr-2-1",
@@ -96,7 +97,8 @@ export const AL_QADR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est la nuit du Destin ?"
   },
   {
     "id": "al-qadr-3",
@@ -105,7 +107,7 @@ export const AL_QADR_AYAHS: Ayah[] = [
     "textUthmani": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
     "textSimple": "ليلة ٱلقدر خير من ألف شهر",
     "transliteration": "laylatu l-qadri khayrun min alfi shahrin",
-    "translation": "",
+    "translation": "The Night of Decree is better than a thousand months.",
     "words": [
       {
         "id": "al-qadr-3-1",
@@ -150,7 +152,8 @@ export const AL_QADR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La nuit du Destin vaut mieux que mille mois."
   },
   {
     "id": "al-qadr-4",
@@ -159,7 +162,7 @@ export const AL_QADR_AYAHS: Ayah[] = [
     "textUthmani": "تَنَزَّلُ ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
     "textSimple": "تنزل ٱلملـٓئكة وٱلروح فيها بإذن ربهم من كل أمر",
     "transliteration": "tanazzalu l-malāikatu wal-rūḥu fīhā bi-idh'ni rabbihim min kulli amrin",
-    "translation": "",
+    "translation": "The angels and the Spirit [i.e., Gabriel] descend therein by permission of their Lord for every matter.",
     "words": [
       {
         "id": "al-qadr-4-1",
@@ -225,7 +228,8 @@ export const AL_QADR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En cette nuit, descendent les Anges et l’Esprit avec la permission de leur Seigneur et avec les ordres pour toutes choses."
   },
   {
     "id": "al-qadr-5",
@@ -234,7 +238,7 @@ export const AL_QADR_AYAHS: Ayah[] = [
     "textUthmani": "سَلَـٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
     "textSimple": "سلـم هى حتى مطلع ٱلفجر",
     "transliteration": "salāmun hiya ḥattā maṭlaʿi l-fajri",
-    "translation": "",
+    "translation": "Peace it is until the emergence of dawn.",
     "words": [
       {
         "id": "al-qadr-5-1",
@@ -272,7 +276,8 @@ export const AL_QADR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Paix elle est jusqu’au lever de l’aube."
   }
 ];
 

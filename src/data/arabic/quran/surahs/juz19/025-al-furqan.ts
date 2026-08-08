@@ -11,7 +11,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": " تَبَارَكَ ٱلَّذِى نَزَّلَ ٱلْفُرْقَانَ عَلَىٰ عَبْدِهِۦ لِيَكُونَ لِلْعَـٰلَمِينَ نَذِيرًا",
     "textSimple": " تبارك ٱلذى نزل ٱلفرقان على عبده ليكون للعـلمين نذيرا",
     "transliteration": "tabāraka alladhī nazzala l-fur'qāna ʿalā ʿabdihi liyakūna lil'ʿālamīna nadhīran",
-    "translation": "",
+    "translation": "Blessed is He who sent down the Criterion upon His Servant that he may be to the worlds a warner -",
     "words": [
       {
         "id": "al-furqan-1-1",
@@ -77,7 +77,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Béni soit Celui Qui a fait descendre (en révélation) le Discernement (Al-Furqân) sur Son serviteur afin qu’il avertisse tout l’Univers."
   },
   {
     "id": "al-furqan-2",
@@ -86,7 +87,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَخَلَقَ كُلَّ شَىْءٍ فَقَدَّرَهُۥ تَقْدِيرًا",
     "textSimple": "ٱلذى له ملك ٱلسمـوت وٱلأرض ولم يتخذ ولدا ولم يكن له شريك فى ٱلملك وخلق كل شىء فقدره تقديرا",
     "transliteration": "alladhī lahu mul'ku l-samāwāti wal-arḍi walam yattakhidh waladan walam yakun lahu sharīkun fī l-mul'ki wakhalaqa kulla shayin faqaddarahu taqdīran",
-    "translation": "",
+    "translation": "He to whom belongs the dominion of the heavens and the earth and who has not taken a son and has not had a partner in dominion and has created each thing and determined it with [precise] determination.",
     "words": [
       {
         "id": "al-furqan-2-1",
@@ -222,7 +223,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui détient la royauté des cieux et de la terre, Qui ne S’est point donné d’enfants, n’a point d’associé dans la royauté, et Qui a créé Toute chose en proportions déterminées."
   },
   {
     "id": "al-furqan-3",
@@ -231,7 +233,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةً لَّا يَخْلُقُونَ شَيْـًٔا وَهُمْ يُخْلَقُونَ وَلَا يَمْلِكُونَ لِأَنفُسِهِمْ ضَرًّا وَلَا نَفْعًا وَلَا يَمْلِكُونَ مَوْتًا وَلَا حَيَوٰةً وَلَا نُشُورًا",
     "textSimple": "وٱتخذوا من دونهٓ ءالهة لا يخلقون شيـٔا وهم يخلقون ولا يملكون لأنفسهم ضرا ولا نفعا ولا يملكون موتا ولا حيوة ولا نشورا",
     "transliteration": "wa-ittakhadhū min dūnihi ālihatan lā yakhluqūna shayan wahum yukh'laqūna walā yamlikūna li-anfusihim ḍarran walā nafʿan walā yamlikūna mawtan walā ḥayatan walā nushūran",
-    "translation": "",
+    "translation": "But they have taken besides Him gods which create nothing, while they are created, and possess not for themselves any harm or benefit and possess not [power to cause] death or life or resurrection.",
     "words": [
       {
         "id": "al-furqan-3-1",
@@ -388,7 +390,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont pris des divinités en dehors de Lui, lesquelles ne créent rien et sont elles-mêmes créées. Elles ne sauraient se préserver d’un mal ni s’attirer un bien, et ne détiennent le pouvoir ni de la mort, ni de la vie, ni de la résurrection."
   },
   {
     "id": "al-furqan-4",
@@ -397,7 +400,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَـٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ ءَاخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا",
     "textSimple": "وقال ٱلذين كفروٓا إن هـذآ إلآ إفك ٱفترىه وأعانه عليه قوم ءاخرون  فقد جآءو ظلما وزورا",
     "transliteration": "waqāla alladhīna kafarū in hādhā illā if'kun if'tarāhu wa-aʿānahu ʿalayhi qawmun ākharūna faqad jāū ẓul'man wazūran",
-    "translation": "",
+    "translation": "And those who disbelieve say, \"This [Qur’ān] is not except a falsehood he invented, and another people assisted him in it.\" But they have committed an injustice and a lie.",
     "words": [
       {
         "id": "al-furqan-4-1",
@@ -512,7 +515,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent : « Ce n’est qu’un mensonge qu’il a forgé, aidé en cela par d’autres gens. » Or ils n’ont apporté qu’iniquité et fausseté."
   },
   {
     "id": "al-furqan-5",
@@ -521,7 +525,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ أَسَـٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا",
     "textSimple": "وقالوٓا أسـطير ٱلأولين ٱكتتبها فهى تملى عليه بكرة وأصيلا",
     "transliteration": "waqālū asāṭīru l-awalīna ik'tatabahā fahiya tum'lā ʿalayhi buk'ratan wa-aṣīlan",
-    "translation": "",
+    "translation": "And they say, \"Legends of the former peoples which he has written down, and they are dictated to him morning and afternoon.\"",
     "words": [
       {
         "id": "al-furqan-5-1",
@@ -587,7 +591,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent aussi : « Ce ne sont que d’anciennes légendes ! Elles lui ont été écrites et il se les fait dicter matin et soir. »"
   },
   {
     "id": "al-furqan-6",
@@ -596,7 +601,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًا رَّحِيمًا",
     "textSimple": "قل أنزله ٱلذى يعلم ٱلسر فى ٱلسمـوت وٱلأرض  إنه كان غفورا رحيما",
     "transliteration": "qul anzalahu alladhī yaʿlamu l-sira fī l-samāwāti wal-arḍi innahu kāna ghafūran raḥīman",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"It has been revealed by He who knows [every] secret within the heavens and the earth. Indeed, He is ever Forgiving and Merciful.\"",
     "words": [
       {
         "id": "al-furqan-6-1",
@@ -683,7 +688,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Seul l’a fait descendre (en révélation) Celui Qui Sait le secret des cieux et de la terre. Il est Absoluteur et Tout Miséricordieux. »"
   },
   {
     "id": "al-furqan-7",
@@ -692,7 +698,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ مَالِ هَـٰذَا ٱلرَّسُولِ يَأْكُلُ ٱلطَّعَامَ وَيَمْشِى فِى ٱلْأَسْوَاقِ ۙ لَوْلَآ أُنزِلَ إِلَيْهِ مَلَكٌ فَيَكُونَ مَعَهُۥ نَذِيرًا",
     "textSimple": "وقالوا مال هـذا ٱلرسول يأكل ٱلطعام ويمشى فى ٱلأسواق  لولآ أنزل إليه ملك فيكون معه نذيرا",
     "transliteration": "waqālū māli hādhā l-rasūli yakulu l-ṭaʿāma wayamshī fī l-aswāqi lawlā unzila ilayhi malakun fayakūna maʿahu nadhīran",
-    "translation": "",
+    "translation": "And they say, \"What is this messenger that eats food and walks in the markets? Why was there not sent down to him an angel so he would be with him a warner?",
     "words": [
       {
         "id": "al-furqan-7-1",
@@ -807,7 +813,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qu’est-ce que ce Messager, disent-ils encore, qui mange de la nourriture (comme tout autre mortel) et qui déambule dans les marchés ? Que ne lui est-il donc pas envoyé un Ange pour avertir à ses côtés !"
   },
   {
     "id": "al-furqan-8",
@@ -816,7 +823,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يُلْقَىٰٓ إِلَيْهِ كَنزٌ أَوْ تَكُونُ لَهُۥ جَنَّةٌ يَأْكُلُ مِنْهَا ۚ وَقَالَ ٱلظَّـٰلِمُونَ إِن تَتَّبِعُونَ إِلَّا رَجُلًا مَّسْحُورًا",
     "textSimple": "أو يلقىٓ إليه كنز أو تكون له جنة يأكل منها  وقال ٱلظـلمون إن تتبعون إلا رجلا مسحورا",
     "transliteration": "aw yul'qā ilayhi kanzun aw takūnu lahu jannatun yakulu min'hā waqāla l-ẓālimūna in tattabiʿūna illā rajulan masḥūran",
-    "translation": "",
+    "translation": "Or [why is not] a treasure presented to him [from heaven], or does he [not] have a garden from which he eats?\" And the wrongdoers say, \"You follow not but a man affected by magic.\"",
     "words": [
       {
         "id": "al-furqan-8-1",
@@ -938,7 +945,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne lui est-il donc envoyé (du ciel) un trésor ? Que n’a-t-il donc un jardin dont il pourrait manger ? » Et les injustes disent alors : « Vous ne suivez là qu’un homme ensorcelé ! »"
   },
   {
     "id": "al-furqan-9",
@@ -947,7 +955,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱنظُرْ كَيْفَ ضَرَبُوا۟ لَكَ ٱلْأَمْثَـٰلَ فَضَلُّوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًا",
     "textSimple": "ٱنظر كيف ضربوا لك ٱلأمثـل فضلوا فلا يستطيعون سبيلا",
     "transliteration": "unẓur kayfa ḍarabū laka l-amthāla faḍallū falā yastaṭīʿūna sabīlan",
-    "translation": "",
+    "translation": "Look how they strike for you comparisons; but they have strayed, so they cannot [find] a way.",
     "words": [
       {
         "id": "al-furqan-9-1",
@@ -1013,7 +1021,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vois donc à quels exemples ils t’assimilent ! Ils se sont égarés et ne retrouvent plus aucun chemin."
   },
   {
     "id": "al-furqan-10",
@@ -1022,7 +1031,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "تَبَارَكَ ٱلَّذِىٓ إِن شَآءَ جَعَلَ لَكَ خَيْرًا مِّن ذَٰلِكَ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ وَيَجْعَل لَّكَ قُصُورًۢا",
     "textSimple": "تبارك ٱلذىٓ إن شآء جعل لك خيرا من ذلك جنـت تجرى من تحتها ٱلأنهـر ويجعل لك قصورا",
     "transliteration": "tabāraka alladhī in shāa jaʿala laka khayran min dhālika jannātin tajrī min taḥtihā l-anhāru wayajʿal laka quṣūran",
-    "translation": "",
+    "translation": "Blessed is He who, if He willed, could have made for you [something] better than that - gardens beneath which rivers flow - and could make for you palaces.",
     "words": [
       {
         "id": "al-furqan-10-1",
@@ -1144,7 +1153,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Béni soit Celui Qui, s’Il le veut, te dispensera des dons bien meilleurs : des jardins sous lesquels coulent les rivières et des palais (spécialement) édifiés pour toi."
   },
   {
     "id": "al-furqan-11",
@@ -1153,7 +1163,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ كَذَّبُوا۟ بِٱلسَّاعَةِ ۖ وَأَعْتَدْنَا لِمَن كَذَّبَ بِٱلسَّاعَةِ سَعِيرًا",
     "textSimple": "بل كذبوا بٱلساعة  وأعتدنا لمن كذب بٱلساعة سعيرا",
     "transliteration": "bal kadhabū bil-sāʿati wa-aʿtadnā liman kadhaba bil-sāʿati saʿīran",
-    "translation": "",
+    "translation": "But they have denied the Hour, and We have prepared for those who deny the Hour a Blaze.",
     "words": [
       {
         "id": "al-furqan-11-1",
@@ -1212,7 +1222,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont même prétendu que l’avènement de l’Heure était pur mensonge. À ceux qui osent nier l’Heure, Nous avons préparé un Brasier ardent,"
   },
   {
     "id": "al-furqan-12",
@@ -1221,7 +1232,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "إِذَا رَأَتْهُم مِّن مَّكَانٍۭ بَعِيدٍ سَمِعُوا۟ لَهَا تَغَيُّظًا وَزَفِيرًا",
     "textSimple": "إذا رأتهم من مكان بعيد سمعوا لها تغيظا وزفيرا",
     "transliteration": "idhā ra-athum min makānin baʿīdin samiʿū lahā taghayyuẓan wazafīran",
-    "translation": "",
+    "translation": "When it [i.e., the Hellfire] sees them from a distant place, they will hear its fury and roaring.",
     "words": [
       {
         "id": "al-furqan-12-1",
@@ -1287,7 +1298,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui, les voyant de loin, leur fera entendre fureur et mugissement."
   },
   {
     "id": "al-furqan-13",
@@ -1296,7 +1308,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَآ أُلْقُوا۟ مِنْهَا مَكَانًا ضَيِّقًا مُّقَرَّنِينَ دَعَوْا۟ هُنَالِكَ ثُبُورًا",
     "textSimple": "وإذآ ألقوا منها مكانا ضيقا مقرنين دعوا هنالك ثبورا",
     "transliteration": "wa-idhā ul'qū min'hā makānan ḍayyiqan muqarranīna daʿaw hunālika thubūran",
-    "translation": "",
+    "translation": "And when they are thrown into a narrow place therein bound in chains, they will cry out thereupon for destruction.",
     "words": [
       {
         "id": "al-furqan-13-1",
@@ -1362,7 +1374,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils y seront jetés, dans un espace si étroit, les mains enchaînées à leurs cous, ils prieront pour être détruits."
   },
   {
     "id": "al-furqan-14",
@@ -1371,7 +1384,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "لَّا تَدْعُوا۟ ٱلْيَوْمَ ثُبُورًا وَٰحِدًا وَٱدْعُوا۟ ثُبُورًا كَثِيرًا",
     "textSimple": "لا تدعوا ٱليوم ثبورا وحدا وٱدعوا ثبورا كثيرا",
     "transliteration": "lā tadʿū l-yawma thubūran wāḥidan wa-id'ʿū thubūran kathīran",
-    "translation": "",
+    "translation": "[They will be told], \"Do not cry this Day for one destruction but cry for much destruction.\"",
     "words": [
       {
         "id": "al-furqan-14-1",
@@ -1430,7 +1443,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Aujourd’hui, leur sera-t-il répondu, ne priez pas pour n’être détruits qu’une fois mais plusieurs. »"
   },
   {
     "id": "al-furqan-15",
@@ -1439,7 +1453,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَذَٰلِكَ خَيْرٌ أَمْ جَنَّةُ ٱلْخُلْدِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۚ كَانَتْ لَهُمْ جَزَآءً وَمَصِيرًا",
     "textSimple": "قل أذلك خير أم جنة ٱلخلد ٱلتى وعد ٱلمتقون  كانت لهم جزآء ومصيرا",
     "transliteration": "qul adhālika khayrun am jannatu l-khul'di allatī wuʿida l-mutaqūna kānat lahum jazāan wamaṣīran",
-    "translation": "",
+    "translation": "Say, \"Is that better or the Garden of Eternity which is promised to the righteous? It will be for them a reward and destination.",
     "words": [
       {
         "id": "al-furqan-15-1",
@@ -1533,7 +1547,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Lequel est meilleur ? Ceci ou le Jardin éternel qui a été promis aux hommes pieux en récompense et destinée ?"
   },
   {
     "id": "al-furqan-16",
@@ -1542,7 +1557,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "لَّهُمْ فِيهَا مَا يَشَآءُونَ خَـٰلِدِينَ ۚ كَانَ عَلَىٰ رَبِّكَ وَعْدًا مَّسْـُٔولًا",
     "textSimple": "لهم فيها ما يشآءون خـلدين  كان على ربك وعدا مسـٔولا",
     "transliteration": "lahum fīhā mā yashāūna khālidīna kāna ʿalā rabbika waʿdan masūlan",
-    "translation": "",
+    "translation": "For them therein is whatever they wish, [while] abiding eternally. It is ever upon your Lord a promise [worthy to be] requested.",
     "words": [
       {
         "id": "al-furqan-16-1",
@@ -1615,7 +1630,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Là, ils auront ce qu’ils voudront et y seront éternels. C’est une promesse Que ton Seigneur Se devra d’accomplir."
   },
   {
     "id": "al-furqan-17",
@@ -1624,7 +1640,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يَحْشُرُهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ فَيَقُولُ ءَأَنتُمْ أَضْلَلْتُمْ عِبَادِى هَـٰٓؤُلَآءِ أَمْ هُمْ ضَلُّوا۟ ٱلسَّبِيلَ",
     "textSimple": "ويوم يحشرهم وما يعبدون من دون ٱلله فيقول ءأنتم أضللتم عبادى هـٓؤلآء أم هم ضلوا ٱلسبيل",
     "transliteration": "wayawma yaḥshuruhum wamā yaʿbudūna min dūni l-lahi fayaqūlu a-antum aḍlaltum ʿibādī hāulāi am hum ḍallū l-sabīla",
-    "translation": "",
+    "translation": "And [mention] the Day He will gather them and that which they worship besides Allāh and will say, \"Did you mislead these, My servants, or did they [themselves] stray from the way?\"",
     "words": [
       {
         "id": "al-furqan-17-1",
@@ -1739,7 +1755,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour viendra où, les ramenant en foule avec ceux qu’ils adoraient en dehors d’Allah, Il (Allah) dira : « Est-ce vous qui avez égaré Mes serviteurs-là ou ont-ils eux-mêmes dévié du droit chemin ? »"
   },
   {
     "id": "al-furqan-18",
@@ -1748,7 +1765,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سُبْحَـٰنَكَ مَا كَانَ يَنۢبَغِى لَنَآ أَن نَّتَّخِذَ مِن دُونِكَ مِنْ أَوْلِيَآءَ وَلَـٰكِن مَّتَّعْتَهُمْ وَءَابَآءَهُمْ حَتَّىٰ نَسُوا۟ ٱلذِّكْرَ وَكَانُوا۟ قَوْمًۢا بُورًا",
     "textSimple": "قالوا سبحـنك ما كان ينبغى لنآ أن نتخذ من دونك من أوليآء ولـكن متعتهم وءابآءهم حتى نسوا ٱلذكر وكانوا قوما بورا",
     "transliteration": "qālū sub'ḥānaka mā kāna yanbaghī lanā an nattakhidha min dūnika min awliyāa walākin mattaʿtahum waābāahum ḥattā nasū l-dhik'ra wakānū qawman būran",
-    "translation": "",
+    "translation": "They will say, \"Exalted are You! It was not for us to take besides You any allies [i.e., protectors]. But You provided comforts for them and their fathers until they forgot the message and became a people ruined.\"",
     "words": [
       {
         "id": "al-furqan-18-1",
@@ -1898,7 +1915,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les fausses divinités) diront : « Gloire Te soit rendue ! Il ne nous appartenait pas de prendre d’autres alliés que Toi. Mais Tu leur as permis de jouir, ainsi que leurs pères, (des biens éphémères de ce bas monde), si bien qu’ils ont oublié le Rappel, et voilà qu’ils ne sont plus que des gens perdus. »"
   },
   {
     "id": "al-furqan-19",
@@ -1907,7 +1925,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "فَقَدْ كَذَّبُوكُم بِمَا تَقُولُونَ فَمَا تَسْتَطِيعُونَ صَرْفًا وَلَا نَصْرًا ۚ وَمَن يَظْلِم مِّنكُمْ نُذِقْهُ عَذَابًا كَبِيرًا",
     "textSimple": "فقد كذبوكم بما تقولون فما تستطيعون صرفا ولا نصرا  ومن يظلم منكم نذقه عذابا كبيرا",
     "transliteration": "faqad kadhabūkum bimā taqūlūna famā tastaṭīʿūna ṣarfan walā naṣran waman yaẓlim minkum nudhiq'hu ʿadhāban kabīran",
-    "translation": "",
+    "translation": "So they will deny you, [disbelievers], in what you say, and you cannot avert [punishment] or [find] help. And whoever commits injustice among you - We will make him taste a great punishment.",
     "words": [
       {
         "id": "al-furqan-19-1",
@@ -2015,7 +2033,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« (Ceux que vous adoriez en dehors d’Allah) ont nié ce que vous dites, vous ne pourrez ni échapper (au châtiment) ni vous secourir vous-mêmes. Et celui d’entre vous qui commet une injustice, Nous lui ferons goûter un terrible supplice. »"
   },
   {
     "id": "al-furqan-20",
@@ -2024,7 +2043,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ وَيَمْشُونَ فِى ٱلْأَسْوَاقِ ۗ وَجَعَلْنَا بَعْضَكُمْ لِبَعْضٍ فِتْنَةً أَتَصْبِرُونَ ۗ وَكَانَ رَبُّكَ بَصِيرًا",
     "textSimple": "ومآ أرسلنا قبلك من ٱلمرسلين إلآ إنهم ليأكلون ٱلطعام ويمشون فى ٱلأسواق  وجعلنا بعضكم لبعض فتنة أتصبرون  وكان ربك بصيرا",
     "transliteration": "wamā arsalnā qablaka mina l-mur'salīna illā innahum layakulūna l-ṭaʿāma wayamshūna fī l-aswāqi wajaʿalnā baʿḍakum libaʿḍin fit'natan ataṣbirūna wakāna rabbuka baṣīran",
-    "translation": "",
+    "translation": "And We did not send before you, [O Muḥammad], any of the messengers except that they ate food and walked in the markets. And We have made some of you [people] as trial for others - will you have patience? And ever is your Lord, Seeing.",
     "words": [
       {
         "id": "al-furqan-20-1",
@@ -2167,7 +2186,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé avant toi que des Messagers qui mangeaient de la nourriture (comme tout autre mortel) et déambulaient dans les marchés. Nous vous mettons à l’épreuve les uns par les autres. Serez-vous patients (à le supporter) ? Ton Seigneur Voit parfaitement Tout."
   },
   {
     "id": "al-furqan-21",
@@ -2176,7 +2196,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَقَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا لَوْلَآ أُنزِلَ عَلَيْنَا ٱلْمَلَـٰٓئِكَةُ أَوْ نَرَىٰ رَبَّنَا ۗ لَقَدِ ٱسْتَكْبَرُوا۟ فِىٓ أَنفُسِهِمْ وَعَتَوْ عُتُوًّا كَبِيرًا",
     "textSimple": " وقال ٱلذين لا يرجون لقآءنا لولآ أنزل علينا ٱلملـٓئكة أو نرى ربنا  لقد ٱستكبروا فىٓ أنفسهم وعتو عتوا كبيرا",
     "transliteration": "waqāla alladhīna lā yarjūna liqāanā lawlā unzila ʿalaynā l-malāikatu aw narā rabbanā laqadi is'takbarū fī anfusihim waʿataw ʿutuwwan kabīran",
-    "translation": "",
+    "translation": "And those who do not expect the meeting with Us say, \"Why were not angels sent down to us, or [why] do we [not] see our Lord?\" They have certainly become arrogant within themselves and [become] insolent with great insolence.",
     "words": [
       {
         "id": "al-furqan-21-1",
@@ -2312,7 +2332,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui n’espèrent pas Nous rencontrer disent : « Que ne sont donc envoyés vers nous des Anges ? Et si seulement nous pouvions voir (se manifester) notre Seigneur ! » En vérité, ils ont les âmes enflées d’orgueil et ils sont outrageusement arrogants."
   },
   {
     "id": "al-furqan-22",
@@ -2321,7 +2342,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَرَوْنَ ٱلْمَلَـٰٓئِكَةَ لَا بُشْرَىٰ يَوْمَئِذٍ لِّلْمُجْرِمِينَ وَيَقُولُونَ حِجْرًا مَّحْجُورًا",
     "textSimple": "يوم يرون ٱلملـٓئكة لا بشرى يومئذ للمجرمين ويقولون حجرا محجورا",
     "transliteration": "yawma yarawna l-malāikata lā bush'rā yawma-idhin lil'muj'rimīna wayaqūlūna ḥij'ran maḥjūran",
-    "translation": "",
+    "translation": "The day they see the angels - no good tidings will there be that day for the criminals, and [the angels] will say, \"Prevented and inaccessible.\"",
     "words": [
       {
         "id": "al-furqan-22-1",
@@ -2394,7 +2415,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où ils verront les Anges (ce jour-là) ne sera pas heureux pour les criminels, et les Anges diront : « Barrière infranchissable ! »"
   },
   {
     "id": "al-furqan-23",
@@ -2403,7 +2425,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍ فَجَعَلْنَـٰهُ هَبَآءً مَّنثُورًا",
     "textSimple": "وقدمنآ إلى ما عملوا من عمل فجعلنـه هبآء منثورا",
     "transliteration": "waqadim'nā ilā mā ʿamilū min ʿamalin fajaʿalnāhu habāan manthūran",
-    "translation": "",
+    "translation": "And We will approach [i.e., regard] what they have done of deeds and make them as dust dispersed.",
     "words": [
       {
         "id": "al-furqan-23-1",
@@ -2469,7 +2491,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous nous tournerons vers les œuvres qu’ils auront accomplies et les réduirons en poussière qui se disperse."
   },
   {
     "id": "al-furqan-24",
@@ -2478,7 +2501,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "أَصْحَـٰبُ ٱلْجَنَّةِ يَوْمَئِذٍ خَيْرٌ مُّسْتَقَرًّا وَأَحْسَنُ مَقِيلًا",
     "textSimple": "أصحـب ٱلجنة يومئذ خير مستقرا وأحسن مقيلا",
     "transliteration": "aṣḥābu l-janati yawma-idhin khayrun mus'taqarran wa-aḥsanu maqīlan",
-    "translation": "",
+    "translation": "The companions of Paradise, that Day, are [in] a better settlement and better resting place.",
     "words": [
       {
         "id": "al-furqan-24-1",
@@ -2530,7 +2553,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hôtes du Paradis auront ce jour-là meilleur séjour et plus belle retraite."
   },
   {
     "id": "al-furqan-25",
@@ -2539,7 +2563,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ تَشَقَّقُ ٱلسَّمَآءُ بِٱلْغَمَـٰمِ وَنُزِّلَ ٱلْمَلَـٰٓئِكَةُ تَنزِيلًا",
     "textSimple": "ويوم تشقق ٱلسمآء بٱلغمـم ونزل ٱلملـٓئكة تنزيلا",
     "transliteration": "wayawma tashaqqaqu l-samāu bil-ghamāmi wanuzzila l-malāikatu tanzīlan",
-    "translation": "",
+    "translation": "And [mention] the Day when the heaven will split open with [emerging] clouds, and the angels will be sent down in successive descent.",
     "words": [
       {
         "id": "al-furqan-25-1",
@@ -2591,7 +2615,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où le ciel se fendra devant les nuages et que les Anges descendront réellement,"
   },
   {
     "id": "al-furqan-26",
@@ -2600,7 +2625,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَـٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَـٰفِرِينَ عَسِيرًا",
     "textSimple": "ٱلملك يومئذ ٱلحق للرحمـن  وكان يوما على ٱلكـفرين عسيرا",
     "transliteration": "al-mul'ku yawma-idhin l-ḥaqu lilrraḥmāni wakāna yawman ʿalā l-kāfirīna ʿasīran",
-    "translation": "",
+    "translation": "True sovereignty, that Day, is for the Most Merciful. And it will be upon the disbelievers a difficult Day.",
     "words": [
       {
         "id": "al-furqan-26-1",
@@ -2666,7 +2691,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "la vraie royauté appartiendra alors au Tout Clément, et ce sera un jour pénible pour les mécréants."
   },
   {
     "id": "al-furqan-27",
@@ -2675,7 +2701,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يَعَضُّ ٱلظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يَـٰلَيْتَنِى ٱتَّخَذْتُ مَعَ ٱلرَّسُولِ سَبِيلًا",
     "textSimple": "ويوم يعض ٱلظالم على يديه يقول يـليتنى ٱتخذت مع ٱلرسول سبيلا",
     "transliteration": "wayawma yaʿaḍḍu l-ẓālimu ʿalā yadayhi yaqūlu yālaytanī ittakhadhtu maʿa l-rasūli sabīlan",
-    "translation": "",
+    "translation": "And the Day the wrongdoer will bite on his hands [in regret] he will say, \"Oh, I wish I had taken with the Messenger a way.",
     "words": [
       {
         "id": "al-furqan-27-1",
@@ -2755,7 +2781,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En ce jour, l’injuste se mordra les doigts en disant : « Si seulement j’avais suivi la voie du Messager !"
   },
   {
     "id": "al-furqan-28",
@@ -2764,7 +2791,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰوَيْلَتَىٰ لَيْتَنِى لَمْ أَتَّخِذْ فُلَانًا خَلِيلًا",
     "textSimple": "يـويلتى ليتنى لم أتخذ فلانا خليلا",
     "transliteration": "yāwaylatā laytanī lam attakhidh fulānan khalīlan",
-    "translation": "",
+    "translation": "Oh, woe to me! I wish I had not taken that one as a friend.",
     "words": [
       {
         "id": "al-furqan-28-1",
@@ -2809,7 +2836,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur à moi ! Si seulement je n’avais pas pris untel pour ami !"
   },
   {
     "id": "al-furqan-29",
@@ -2818,7 +2846,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَـٰنُ لِلْإِنسَـٰنِ خَذُولًا",
     "textSimple": "لقد أضلنى عن ٱلذكر بعد إذ جآءنى  وكان ٱلشيطـن للإنسـن خذولا",
     "transliteration": "laqad aḍallanī ʿani l-dhik'ri baʿda idh jāanī wakāna l-shayṭānu lil'insāni khadhūlan",
-    "translation": "",
+    "translation": "He led me away from the remembrance after it had come to me. And ever is Satan, to man, a deserter.\"",
     "words": [
       {
         "id": "al-furqan-29-1",
@@ -2898,7 +2926,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il m’a fourvoyé en me détournant du Rappel qui m’est parvenu. » Satan abandonne l’homme après l’avoir tenté."
   },
   {
     "id": "al-furqan-30",
@@ -2907,7 +2936,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلرَّسُولُ يَـٰرَبِّ إِنَّ قَوْمِى ٱتَّخَذُوا۟ هَـٰذَا ٱلْقُرْءَانَ مَهْجُورًا",
     "textSimple": "وقال ٱلرسول يـرب إن قومى ٱتخذوا هـذا ٱلقرءان مهجورا",
     "transliteration": "waqāla l-rasūlu yārabbi inna qawmī ittakhadhū hādhā l-qur'āna mahjūran",
-    "translation": "",
+    "translation": "And the Messenger has said, \"O my Lord, indeed my people have taken this Qur’ān as [a thing] abandoned.\"",
     "words": [
       {
         "id": "al-furqan-30-1",
@@ -2973,7 +3002,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Messager dit : « Seigneur ! Mon peuple fait de ce Coran bien peu de cas (et s’en détourne.) »"
   },
   {
     "id": "al-furqan-31",
@@ -2982,7 +3012,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ جَعَلْنَا لِكُلِّ نَبِىٍّ عَدُوًّا مِّنَ ٱلْمُجْرِمِينَ ۗ وَكَفَىٰ بِرَبِّكَ هَادِيًا وَنَصِيرًا",
     "textSimple": "وكذلك جعلنا لكل نبى عدوا من ٱلمجرمين  وكفى بربك هاديا ونصيرا",
     "transliteration": "wakadhālika jaʿalnā likulli nabiyyin ʿaduwwan mina l-muj'rimīna wakafā birabbika hādiyan wanaṣīran",
-    "translation": "",
+    "translation": "And thus have We made for every prophet an enemy from among the criminals. But sufficient is your Lord as a guide and a helper.",
     "words": [
       {
         "id": "al-furqan-31-1",
@@ -3062,7 +3092,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi avons-Nous désigné à chaque Prophète un ennemi parmi les criminels. Que ton Seigneur suffise comme guide et comme soutien !"
   },
   {
     "id": "al-furqan-32",
@@ -3071,7 +3102,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ٱلْقُرْءَانُ جُمْلَةً وَٰحِدَةً ۚ كَذَٰلِكَ لِنُثَبِّتَ بِهِۦ فُؤَادَكَ ۖ وَرَتَّلْنَـٰهُ تَرْتِيلًا",
     "textSimple": "وقال ٱلذين كفروا لولا نزل عليه ٱلقرءان جملة وحدة  كذلك لنثبت به فؤادك  ورتلنـه ترتيلا",
     "transliteration": "waqāla alladhīna kafarū lawlā nuzzila ʿalayhi l-qur'ānu jum'latan wāḥidatan kadhālika linuthabbita bihi fuādaka warattalnāhu tartīlan",
-    "translation": "",
+    "translation": "And those who disbelieve say, \"Why was the Qur’ān not revealed to him all at once?\" Thus [it is] that We may strengthen thereby your heart. And We have spaced it distinctly.",
     "words": [
       {
         "id": "al-furqan-32-1",
@@ -3179,7 +3210,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent : « Si seulement le Coran lui avait été révélé en une seule fois ! » (Si Nous l’avons révélé par fragments), c’est pour en raffermir ton cœur. Nous te l’avons récité clairement."
   },
   {
     "id": "al-furqan-33",
@@ -3188,7 +3220,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَأْتُونَكَ بِمَثَلٍ إِلَّا جِئْنَـٰكَ بِٱلْحَقِّ وَأَحْسَنَ تَفْسِيرًا",
     "textSimple": "ولا يأتونك بمثل إلا جئنـك بٱلحق وأحسن تفسيرا",
     "transliteration": "walā yatūnaka bimathalin illā ji'nāka bil-ḥaqi wa-aḥsana tafsīran",
-    "translation": "",
+    "translation": "And they do not come to you with an example [i.e., argument] except that We bring you the truth and the best explanation.",
     "words": [
       {
         "id": "al-furqan-33-1",
@@ -3247,7 +3279,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne t’apporteront aucun exemple sans que Nous ne t’apportions la vérité de manière plus claire."
   },
   {
     "id": "al-furqan-34",
@@ -3256,7 +3289,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُحْشَرُونَ عَلَىٰ وُجُوهِهِمْ إِلَىٰ جَهَنَّمَ أُو۟لَـٰٓئِكَ شَرٌّ مَّكَانًا وَأَضَلُّ سَبِيلًا",
     "textSimple": "ٱلذين يحشرون على وجوههم إلى جهنم أولـٓئك شر مكانا وأضل سبيلا",
     "transliteration": "alladhīna yuḥ'sharūna ʿalā wujūhihim ilā jahannama ulāika sharrun makānan wa-aḍallu sabīlan",
-    "translation": "",
+    "translation": "The ones who are gathered on their faces to Hell - those are the worst in position and farthest astray in [their] way.",
     "words": [
       {
         "id": "al-furqan-34-1",
@@ -3336,7 +3369,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui seront ramenés en foule, (marchant) sur leurs visages vers la Géhenne, ceux-là seront dans les pires des lieux et seront les plus égarés."
   },
   {
     "id": "al-furqan-35",
@@ -3345,7 +3379,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ وَجَعَلْنَا مَعَهُۥٓ أَخَاهُ هَـٰرُونَ وَزِيرًا",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب وجعلنا معهٓ أخاه هـرون وزيرا",
     "transliteration": "walaqad ātaynā mūsā l-kitāba wajaʿalnā maʿahu akhāhu hārūna wazīran",
-    "translation": "",
+    "translation": "And We had certainly given Moses the Scripture and appointed with him his brother Aaron as an assistant.",
     "words": [
       {
         "id": "al-furqan-35-1",
@@ -3411,7 +3445,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Moïse Nous apportâmes le Livre et lui accordâmes l’assistance de son frère Aaron."
   },
   {
     "id": "al-furqan-36",
@@ -3420,7 +3455,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "فَقُلْنَا ٱذْهَبَآ إِلَى ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا فَدَمَّرْنَـٰهُمْ تَدْمِيرًا",
     "textSimple": "فقلنا ٱذهبآ إلى ٱلقوم ٱلذين كذبوا بـٔايـتنا فدمرنـهم تدميرا",
     "transliteration": "faqul'nā idh'habā ilā l-qawmi alladhīna kadhabū biāyātinā fadammarnāhum tadmīran",
-    "translation": "",
+    "translation": "And We said, \"Go both of you to the people who have denied Our signs.\" Then We destroyed them with [complete] destruction.",
     "words": [
       {
         "id": "al-furqan-36-1",
@@ -3486,7 +3521,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dîmes : « Allez tous deux vers le peuple qui a traité Nos Signes de mensonges. » Et Nous les fîmes périr entièrement."
   },
   {
     "id": "al-furqan-37",
@@ -3495,7 +3531,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا۟ ٱلرُّسُلَ أَغْرَقْنَـٰهُمْ وَجَعَلْنَـٰهُمْ لِلنَّاسِ ءَايَةً ۖ وَأَعْتَدْنَا لِلظَّـٰلِمِينَ عَذَابًا أَلِيمًا",
     "textSimple": "وقوم نوح لما كذبوا ٱلرسل أغرقنـهم وجعلنـهم للناس ءاية  وأعتدنا للظـلمين عذابا أليما",
     "transliteration": "waqawma nūḥin lammā kadhabū l-rusula aghraqnāhum wajaʿalnāhum lilnnāsi āyatan wa-aʿtadnā lilẓẓālimīna ʿadhāban alīman",
-    "translation": "",
+    "translation": "And the people of Noah - when they denied the messengers, We drowned them, and We made them for mankind a sign. And We have prepared for the wrongdoers a painful punishment.",
     "words": [
       {
         "id": "al-furqan-37-1",
@@ -3589,7 +3625,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et le peuple de Noé qui avait osé démentir les Messagers, Nous les noyâmes et Nous en fîmes un exemple pour les hommes. Et Nous avons réservé aux gens injustes un supplice très douloureux."
   },
   {
     "id": "al-furqan-38",
@@ -3598,7 +3635,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَعَادًا وَثَمُودَا۟ وَأَصْحَـٰبَ ٱلرَّسِّ وَقُرُونًۢا بَيْنَ ذَٰلِكَ كَثِيرًا",
     "textSimple": "وعادا وثمودا وأصحـب ٱلرس وقرونا بين ذلك كثيرا",
     "transliteration": "waʿādan wathamūdā wa-aṣḥāba l-rasi waqurūnan bayna dhālika kathīran",
-    "translation": "",
+    "translation": "And [We destroyed] ʿAad and Thamūd and the companions of the well and many generations between them.",
     "words": [
       {
         "id": "al-furqan-38-1",
@@ -3657,7 +3694,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et les ‘Ad, les Thamûd, les habitants d’Ar-Rass, et plusieurs générations intermédiaires !"
   },
   {
     "id": "al-furqan-39",
@@ -3666,7 +3704,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلًّا ضَرَبْنَا لَهُ ٱلْأَمْثَـٰلَ ۖ وَكُلًّا تَبَّرْنَا تَتْبِيرًا",
     "textSimple": "وكلا ضربنا له ٱلأمثـل  وكلا تبرنا تتبيرا",
     "transliteration": "wakullan ḍarabnā lahu l-amthāla wakullan tabbarnā tatbīran",
-    "translation": "",
+    "translation": "And for each We presented examples [as warnings], and each We destroyed with [total] destruction.",
     "words": [
       {
         "id": "al-furqan-39-1",
@@ -3718,7 +3756,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À tous Nous avons proposé des exemples, et contre tous Nous avons fatalement sévi."
   },
   {
     "id": "al-furqan-40",
@@ -3727,7 +3766,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَتَوْا۟ عَلَى ٱلْقَرْيَةِ ٱلَّتِىٓ أُمْطِرَتْ مَطَرَ ٱلسَّوْءِ ۚ أَفَلَمْ يَكُونُوا۟ يَرَوْنَهَا ۚ بَلْ كَانُوا۟ لَا يَرْجُونَ نُشُورًا",
     "textSimple": "ولقد أتوا على ٱلقرية ٱلتىٓ أمطرت مطر ٱلسوء  أفلم يكونوا يرونها  بل كانوا لا يرجون نشورا",
     "transliteration": "walaqad ataw ʿalā l-qaryati allatī um'ṭirat maṭara l-sawi afalam yakūnū yarawnahā bal kānū lā yarjūna nushūran",
-    "translation": "",
+    "translation": "And they have already come upon the town which was showered with a rain of evil [i.e., stones]. So have they not seen it? But they are not expecting resurrection.",
     "words": [
       {
         "id": "al-furqan-40-1",
@@ -3842,7 +3881,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont pourtant passés devant la cité sur laquelle s’était abattue une pluie funeste. Ne l’ont-ils donc pas vue ? C’est qu’ils ne s’attendaient pas à une résurrection."
   },
   {
     "id": "al-furqan-41",
@@ -3851,7 +3891,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَأَوْكَ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَـٰذَا ٱلَّذِى بَعَثَ ٱللَّهُ رَسُولًا",
     "textSimple": "وإذا رأوك إن يتخذونك إلا هزوا أهـذا ٱلذى بعث ٱلله رسولا",
     "transliteration": "wa-idhā ra-awka in yattakhidhūnaka illā huzuwan ahādhā alladhī baʿatha l-lahu rasūlan",
-    "translation": "",
+    "translation": "And when they see you, [O Muḥammad], they take you not except in ridicule, [saying], \"Is this the one whom Allāh has sent as a messenger?",
     "words": [
       {
         "id": "al-furqan-41-1",
@@ -3931,7 +3971,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils te voient ils ne font que te railler : « Est-ce celui-là qu’Allah a envoyé comme Messager ?"
   },
   {
     "id": "al-furqan-42",
@@ -3940,7 +3981,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "إِن كَادَ لَيُضِلُّنَا عَنْ ءَالِهَتِنَا لَوْلَآ أَن صَبَرْنَا عَلَيْهَا ۚ وَسَوْفَ يَعْلَمُونَ حِينَ يَرَوْنَ ٱلْعَذَابَ مَنْ أَضَلُّ سَبِيلًا",
     "textSimple": "إن كاد ليضلنا عن ءالهتنا لولآ أن صبرنا عليها  وسوف يعلمون حين يرون ٱلعذاب من أضل سبيلا",
     "transliteration": "in kāda layuḍillunā ʿan ālihatinā lawlā an ṣabarnā ʿalayhā wasawfa yaʿlamūna ḥīna yarawna l-ʿadhāba man aḍallu sabīlan",
-    "translation": "",
+    "translation": "He almost would have misled us from our gods had we not been steadfast in [worship of] them.\" But they are going to know, when they see the punishment, who is farthest astray in [his] way.",
     "words": [
       {
         "id": "al-furqan-42-1",
@@ -4062,7 +4103,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour un peu, il nous aurait détournés de nos divinités, si nous n’avions pas persévéré dans leur adoration. » Ils sauront, quand ils verront le supplice, qui s’est le plus égaré du droit chemin."
   },
   {
     "id": "al-furqan-43",
@@ -4071,7 +4113,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "أَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَـٰهَهُۥ هَوَىٰهُ أَفَأَنتَ تَكُونُ عَلَيْهِ وَكِيلًا",
     "textSimple": "أرءيت من ٱتخذ إلـهه هوىه أفأنت تكون عليه وكيلا",
     "transliteration": "ara-ayta mani ittakhadha ilāhahu hawāhu afa-anta takūnu ʿalayhi wakīlan",
-    "translation": "",
+    "translation": "Have you seen the one who takes as his god his own desire? Then would you be responsible for him?",
     "words": [
       {
         "id": "al-furqan-43-1",
@@ -4137,7 +4179,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu donc pas vu celui qui a fait de ses passions une divinité ? Est-ce à toi d’être son garant ?"
   },
   {
     "id": "al-furqan-44",
@@ -4146,7 +4189,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تَحْسَبُ أَنَّ أَكْثَرَهُمْ يَسْمَعُونَ أَوْ يَعْقِلُونَ ۚ إِنْ هُمْ إِلَّا كَٱلْأَنْعَـٰمِ ۖ بَلْ هُمْ أَضَلُّ سَبِيلًا",
     "textSimple": "أم تحسب أن أكثرهم يسمعون أو يعقلون  إن هم إلا كٱلأنعـم  بل هم أضل سبيلا",
     "transliteration": "am taḥsabu anna aktharahum yasmaʿūna aw yaʿqilūna in hum illā kal-anʿāmi bal hum aḍallu sabīlan",
-    "translation": "",
+    "translation": "Or do you think that most of them hear or reason? They are not except like livestock. Rather, they are [even] more astray in [their] way.",
     "words": [
       {
         "id": "al-furqan-44-1",
@@ -4254,7 +4297,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors penses-tu que la plupart d’entre eux entendent et comprennent ? Ils ne ressemblent, en vérité, qu’à du bétail, mais plus perdus encore et loin du chemin."
   },
   {
     "id": "al-furqan-45",
@@ -4263,7 +4307,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ ٱلظِّلَّ وَلَوْ شَآءَ لَجَعَلَهُۥ سَاكِنًا ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلًا",
     "textSimple": "ألم تر إلى ربك كيف مد ٱلظل ولو شآء لجعله ساكنا ثم جعلنا ٱلشمس عليه دليلا",
     "transliteration": "alam tara ilā rabbika kayfa madda l-ẓila walaw shāa lajaʿalahu sākinan thumma jaʿalnā l-shamsa ʿalayhi dalīlan",
-    "translation": "",
+    "translation": "Have you not considered your Lord - how He extends the shadow, and if He willed, He could have made it stationary? Then We made the sun for it an indication.",
     "words": [
       {
         "id": "al-furqan-45-1",
@@ -4378,7 +4422,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas comment ton Seigneur allonge l’ombre ? Or s’Il le voulait, Il la rendrait immobile. Mais Nous fîmes du soleil son indicateur."
   },
   {
     "id": "al-furqan-46",
@@ -4387,7 +4432,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ قَبَضْنَـٰهُ إِلَيْنَا قَبْضًا يَسِيرًا",
     "textSimple": "ثم قبضنـه إلينا قبضا يسيرا",
     "transliteration": "thumma qabaḍnāhu ilaynā qabḍan yasīran",
-    "translation": "",
+    "translation": "Then We [retract and] hold it with Us for a brief grasp.",
     "words": [
       {
         "id": "al-furqan-46-1",
@@ -4425,7 +4470,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, en douceur, Nous la replions vers Nous."
   },
   {
     "id": "al-furqan-47",
@@ -4434,7 +4480,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِبَاسًا وَٱلنَّوْمَ سُبَاتًا وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
     "textSimple": "وهو ٱلذى جعل لكم ٱليل لباسا وٱلنوم سباتا وجعل ٱلنهار نشورا",
     "transliteration": "wahuwa alladhī jaʿala lakumu al-layla libāsan wal-nawma subātan wajaʿala l-nahāra nushūran",
-    "translation": "",
+    "translation": "And it is He who has made the night for you as clothing and sleep [a means for] rest and has made the day a resurrection.",
     "words": [
       {
         "id": "al-furqan-47-1",
@@ -4514,7 +4560,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a fait de la nuit un habit, et du sommeil un repos, et Qui du jour a fait un retour à la vie."
   },
   {
     "id": "al-furqan-48",
@@ -4523,7 +4570,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَـٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً طَهُورًا",
     "textSimple": "وهو ٱلذىٓ أرسل ٱلريـح بشرا بين يدى رحمته  وأنزلنا من ٱلسمآء مآء طهورا",
     "transliteration": "wahuwa alladhī arsala l-riyāḥa bush'ran bayna yaday raḥmatihi wa-anzalnā mina l-samāi māan ṭahūran",
-    "translation": "",
+    "translation": "And it is He who sends the winds as good tidings before His mercy [i.e., rainfall], and We send down from the sky pure water",
     "words": [
       {
         "id": "al-furqan-48-1",
@@ -4617,7 +4664,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui envoie le vent, signe avant-coureur de Sa grâce. Et Nous faisons descendre du ciel une eau purifiante,"
   },
   {
     "id": "al-furqan-49",
@@ -4626,7 +4674,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "لِّنُحْـِۧىَ بِهِۦ بَلْدَةً مَّيْتًا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَـٰمًا وَأَنَاسِىَّ كَثِيرًا",
     "textSimple": "لنحـى به بلدة ميتا ونسقيه مما خلقنآ أنعـما وأناسى كثيرا",
     "transliteration": "linuḥ'yiya bihi baldatan maytan wanus'qiyahu mimmā khalaqnā anʿāman wa-anāsiyya kathīran",
-    "translation": "",
+    "translation": "That We may bring to life thereby a dead land and give it as drink to those We created of numerous livestock and men.",
     "words": [
       {
         "id": "al-furqan-49-1",
@@ -4699,7 +4747,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour en faire revivre une terre déjà morte, et en abreuver les multitudes de bestiaux et d’humains que Nous avons créés."
   },
   {
     "id": "al-furqan-50",
@@ -4708,7 +4757,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَرَّفْنَـٰهُ بَيْنَهُمْ لِيَذَّكَّرُوا۟ فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ إِلَّا كُفُورًا",
     "textSimple": "ولقد صرفنـه بينهم ليذكروا فأبىٓ أكثر ٱلناس إلا كفورا",
     "transliteration": "walaqad ṣarrafnāhu baynahum liyadhakkarū fa-abā aktharu l-nāsi illā kufūran",
-    "translation": "",
+    "translation": "And We have certainly distributed it among them that they might be reminded, but most of the people refuse except disbelief.",
     "words": [
       {
         "id": "al-furqan-50-1",
@@ -4774,7 +4823,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’avons répartie entre eux pour qu’ils se souviennent (de Nous), mais la plupart des hommes persistent à être ingrats."
   },
   {
     "id": "al-furqan-51",
@@ -4783,7 +4833,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شِئْنَا لَبَعَثْنَا فِى كُلِّ قَرْيَةٍ نَّذِيرًا",
     "textSimple": "ولو شئنا لبعثنا فى كل قرية نذيرا",
     "transliteration": "walaw shi'nā labaʿathnā fī kulli qaryatin nadhīran",
-    "translation": "",
+    "translation": "And if We had willed, We could have sent into every city a warner.",
     "words": [
       {
         "id": "al-furqan-51-1",
@@ -4835,7 +4885,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si nous l’avions voulu, Nous aurions envoyé vers chaque cité un avertisseur."
   },
   {
     "id": "al-furqan-52",
@@ -4844,7 +4895,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تُطِعِ ٱلْكَـٰفِرِينَ وَجَـٰهِدْهُم بِهِۦ جِهَادًا كَبِيرًا",
     "textSimple": "فلا تطع ٱلكـفرين وجـهدهم به جهادا كبيرا",
     "transliteration": "falā tuṭiʿi l-kāfirīna wajāhid'hum bihi jihādan kabīran",
-    "translation": "",
+    "translation": "So do not obey the disbelievers, and strive against them with it [i.e., the Qur’ān] a great striving.",
     "words": [
       {
         "id": "al-furqan-52-1",
@@ -4896,7 +4947,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’obéis donc pas aux mécréants. Combats-les (par le Coran) de toutes tes forces."
   },
   {
     "id": "al-furqan-53",
@@ -4905,7 +4957,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَهُوَ ٱلَّذِى مَرَجَ ٱلْبَحْرَيْنِ هَـٰذَا عَذْبٌ فُرَاتٌ وَهَـٰذَا مِلْحٌ أُجَاجٌ وَجَعَلَ بَيْنَهُمَا بَرْزَخًا وَحِجْرًا مَّحْجُورًا",
     "textSimple": " وهو ٱلذى مرج ٱلبحرين هـذا عذب فرات وهـذا ملح أجاج وجعل بينهما برزخا وحجرا محجورا",
     "transliteration": "wahuwa alladhī maraja l-baḥrayni hādhā ʿadhbun furātun wahādhā mil'ḥun ujājun wajaʿala baynahumā barzakhan waḥij'ran maḥjūran",
-    "translation": "",
+    "translation": "And it is He who has released [simultaneously] the two seas [i.e., bodies of water], one fresh and sweet and one salty and bitter, and He placed between them a barrier and prohibiting partition.",
     "words": [
       {
         "id": "al-furqan-53-1",
@@ -5013,7 +5065,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui laisse libre cours aux deux mers : l’une agréable et douce, et l’autre salée et saumâtre. Entre les deux, Il a établi une zone intermédiaire et une barrière infranchissable."
   },
   {
     "id": "al-furqan-54",
@@ -5022,7 +5075,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى خَلَقَ مِنَ ٱلْمَآءِ بَشَرًا فَجَعَلَهُۥ نَسَبًا وَصِهْرًا ۗ وَكَانَ رَبُّكَ قَدِيرًا",
     "textSimple": "وهو ٱلذى خلق من ٱلمآء بشرا فجعله نسبا وصهرا  وكان ربك قديرا",
     "transliteration": "wahuwa alladhī khalaqa mina l-māi basharan fajaʿalahu nasaban waṣih'ran wakāna rabbuka qadīran",
-    "translation": "",
+    "translation": "And it is He who has created from water [i.e., semen] a human being and made him [a relative by] lineage and marriage. And ever is your Lord competent [concerning creation].",
     "words": [
       {
         "id": "al-furqan-54-1",
@@ -5109,7 +5162,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui, de l’eau, a créé les humains et les a unis par des rapports de filiation et d’alliance. Ton Seigneur est Omnipotent."
   },
   {
     "id": "al-furqan-55",
@@ -5118,7 +5172,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُهُمْ وَلَا يَضُرُّهُمْ ۗ وَكَانَ ٱلْكَافِرُ عَلَىٰ رَبِّهِۦ ظَهِيرًا",
     "textSimple": "ويعبدون من دون ٱلله ما لا ينفعهم ولا يضرهم  وكان ٱلكافر على ربه ظهيرا",
     "transliteration": "wayaʿbudūna min dūni l-lahi mā lā yanfaʿuhum walā yaḍurruhum wakāna l-kāfiru ʿalā rabbihi ẓahīran",
-    "translation": "",
+    "translation": "But they worship rather than Allāh that which does not benefit them or harm them, and the disbeliever is ever, against his Lord, an assistant [to Satan].",
     "words": [
       {
         "id": "al-furqan-55-1",
@@ -5219,7 +5273,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils adorent pourtant, en dehors d’Allah, ce qui ne saurait ni leur profiter ni leur nuire. Le mécréant prend parti contre son Seigneur !"
   },
   {
     "id": "al-furqan-56",
@@ -5228,7 +5283,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَـٰكَ إِلَّا مُبَشِّرًا وَنَذِيرًا",
     "textSimple": "ومآ أرسلنـك إلا مبشرا ونذيرا",
     "transliteration": "wamā arsalnāka illā mubashiran wanadhīran",
-    "translation": "",
+    "translation": "And We have not sent you, [O Muḥammad], except as a bringer of good tidings and a warner.",
     "words": [
       {
         "id": "al-furqan-56-1",
@@ -5266,7 +5321,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne t’avons envoyé que pour annoncer et avertir."
   },
   {
     "id": "al-furqan-57",
@@ -5275,7 +5331,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ إِلَّا مَن شَآءَ أَن يَتَّخِذَ إِلَىٰ رَبِّهِۦ سَبِيلًا",
     "textSimple": "قل مآ أسـٔلكم عليه من أجر إلا من شآء أن يتخذ إلى ربه سبيلا",
     "transliteration": "qul mā asalukum ʿalayhi min ajrin illā man shāa an yattakhidha ilā rabbihi sabīlan",
-    "translation": "",
+    "translation": "Say, \"I do not ask of you for it any payment - only that whoever wills might take to his Lord a way.\"",
     "words": [
       {
         "id": "al-furqan-57-1",
@@ -5376,7 +5432,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne vous réclame pour cela aucune récompense autre que de voir chacun d’entre vous emprunter le chemin de son Seigneur. »"
   },
   {
     "id": "al-furqan-58",
@@ -5385,7 +5442,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَتَوَكَّلْ عَلَى ٱلْحَىِّ ٱلَّذِى لَا يَمُوتُ وَسَبِّحْ بِحَمْدِهِۦ ۚ وَكَفَىٰ بِهِۦ بِذُنُوبِ عِبَادِهِۦ خَبِيرًا",
     "textSimple": "وتوكل على ٱلحى ٱلذى لا يموت وسبح بحمده  وكفى به بذنوب عباده خبيرا",
     "transliteration": "watawakkal ʿalā l-ḥayi alladhī lā yamūtu wasabbiḥ biḥamdihi wakafā bihi bidhunūbi ʿibādihi khabīran",
-    "translation": "",
+    "translation": "And rely upon the Ever-Living who does not die, and exalt [Allāh] with His praise. And sufficient is He to be, with the sins of His servants, [fully] Aware -",
     "words": [
       {
         "id": "al-furqan-58-1",
@@ -5479,7 +5536,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Confie-toi au Vivant Qui ne meurt pas, rends-Lui gloire et célèbre Ses louanges. Et qu’Il suffise pour être totalement Informé des péchés de Ses serviteurs."
   },
   {
     "id": "al-furqan-59",
@@ -5488,7 +5546,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَـٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًا",
     "textSimple": "ٱلذى خلق ٱلسمـوت وٱلأرض وما بينهما فى ستة أيام ثم ٱستوى على ٱلعرش  ٱلرحمـن فسـٔل به خبيرا",
     "transliteration": "alladhī khalaqa l-samāwāti wal-arḍa wamā baynahumā fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi l-raḥmānu fasal bihi khabīran",
-    "translation": "",
+    "translation": "He who created the heavens and the earth and what is between them in six days and then established Himself above the Throne - the Most Merciful, so ask about Him one well informed [i.e., the Prophet (ﷺ)].",
     "words": [
       {
         "id": "al-furqan-59-1",
@@ -5610,7 +5668,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lui Qui, en six jours, créa les cieux, la terre et ce qu’il y a entre eux, puis S’est établi avec une infinie Majesté (istawâ) sur le Trône. (Il) est le Tout Clément. Interroge donc, à Son sujet, qui de Lui a connaissance."
   },
   {
     "id": "al-furqan-60",
@@ -5619,7 +5678,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمُ ٱسْجُدُوا۟ لِلرَّحْمَـٰنِ قَالُوا۟ وَمَا ٱلرَّحْمَـٰنُ أَنَسْجُدُ لِمَا تَأْمُرُنَا وَزَادَهُمْ نُفُورًا ۩",
     "textSimple": "وإذا قيل لهم ٱسجدوا للرحمـن قالوا وما ٱلرحمـن أنسجد لما تأمرنا وزادهم نفورا ",
     "transliteration": "wa-idhā qīla lahumu us'judū lilrraḥmāni qālū wamā l-raḥmānu anasjudu limā tamurunā wazādahum nufūran",
-    "translation": "",
+    "translation": "And when it is said to them, \"Prostrate to the Most Merciful,\" they say, \"And what is the Most Merciful? Should we prostrate to that which you order us?\" And it increases them in aversion.",
     "words": [
       {
         "id": "al-furqan-60-1",
@@ -5713,7 +5772,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est dit : « Prosternez-vous devant le Tout Clément », ils répondent : « Qu’est-ce donc que le Tout Clément ? Allons-nous nous prosterner devant Qui tu nous ordonnes de le faire ? » Et cela ne fait qu’ajouter à leur aversion."
   },
   {
     "id": "al-furqan-61",
@@ -5722,7 +5782,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "تَبَارَكَ ٱلَّذِى جَعَلَ فِى ٱلسَّمَآءِ بُرُوجًا وَجَعَلَ فِيهَا سِرَٰجًا وَقَمَرًا مُّنِيرًا",
     "textSimple": "تبارك ٱلذى جعل فى ٱلسمآء بروجا وجعل فيها سرجا وقمرا منيرا",
     "transliteration": "tabāraka alladhī jaʿala fī l-samāi burūjan wajaʿala fīhā sirājan waqamaran munīran",
-    "translation": "",
+    "translation": "Blessed is He who has placed in the sky great stars and placed therein a [burning] lamp and luminous moon.",
     "words": [
       {
         "id": "al-furqan-61-1",
@@ -5802,7 +5862,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Béni soit Celui Qui, dans le ciel, a mis de grands astres, y a placé un flambeau et une lune qui éclaire !"
   },
   {
     "id": "al-furqan-62",
@@ -5811,7 +5872,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةً لِّمَنْ أَرَادَ أَن يَذَّكَّرَ أَوْ أَرَادَ شُكُورًا",
     "textSimple": "وهو ٱلذى جعل ٱليل وٱلنهار خلفة لمن أراد أن يذكر أو أراد شكورا",
     "transliteration": "wahuwa alladhī jaʿala al-layla wal-nahāra khil'fatan liman arāda an yadhakkara aw arāda shukūran",
-    "translation": "",
+    "translation": "And it is He who has made the night and the day in succession for whoever desires to remember or desires gratitude.",
     "words": [
       {
         "id": "al-furqan-62-1",
@@ -5905,7 +5966,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a attribué à la nuit et au jour leur alternance pour qui veut y méditer ou rendre grâces."
   },
   {
     "id": "al-furqan-63",
@@ -5914,7 +5976,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَعِبَادُ ٱلرَّحْمَـٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَـٰهِلُونَ قَالُوا۟ سَلَـٰمًا",
     "textSimple": "وعباد ٱلرحمـن ٱلذين يمشون على ٱلأرض هونا وإذا خاطبهم ٱلجـهلون قالوا سلـما",
     "transliteration": "waʿibādu l-raḥmāni alladhīna yamshūna ʿalā l-arḍi hawnan wa-idhā khāṭabahumu l-jāhilūna qālū salāman",
-    "translation": "",
+    "translation": "And the servants of the Most Merciful are those who walk upon the earth easily, and when the ignorant address them [harshly], they say [words of] peace,",
     "words": [
       {
         "id": "al-furqan-63-1",
@@ -6001,7 +6063,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les serviteurs du Tout Clément sont ceux qui marchent sur terre avec humilité et qui, lorsque les ignorants leur adressent la parole, répondent : « Paix ! (Salâm) »"
   },
   {
     "id": "al-furqan-64",
@@ -6010,7 +6073,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يَبِيتُونَ لِرَبِّهِمْ سُجَّدًا وَقِيَـٰمًا",
     "textSimple": "وٱلذين يبيتون لربهم سجدا وقيـما",
     "transliteration": "wa-alladhīna yabītūna lirabbihim sujjadan waqiyāman",
-    "translation": "",
+    "translation": "And those who spend [part of] the night to their Lord prostrating and standing [in prayer]",
     "words": [
       {
         "id": "al-furqan-64-1",
@@ -6048,7 +6111,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui passent leurs nuits, prosternés et debout devant leur Seigneur,"
   },
   {
     "id": "al-furqan-65",
@@ -6057,7 +6121,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا",
     "textSimple": "وٱلذين يقولون ربنا ٱصرف عنا عذاب جهنم  إن عذابها كان غراما",
     "transliteration": "wa-alladhīna yaqūlūna rabbanā iṣ'rif ʿannā ʿadhāba jahannama inna ʿadhābahā kāna gharāman",
-    "translation": "",
+    "translation": "And those who say, \"Our Lord, avert from us the punishment of Hell. Indeed, its punishment is ever adhering;",
     "words": [
       {
         "id": "al-furqan-65-1",
@@ -6137,7 +6201,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui disent : « Seigneur, évite-nous le supplice de la Géhenne », car son supplice est infini."
   },
   {
     "id": "al-furqan-66",
@@ -6146,7 +6211,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهَا سَآءَتْ مُسْتَقَرًّا وَمُقَامًا",
     "textSimple": "إنها سآءت مستقرا ومقاما",
     "transliteration": "innahā sāat mus'taqarran wamuqāman",
-    "translation": "",
+    "translation": "Indeed, it is evil as a settlement and residence.\"",
     "words": [
       {
         "id": "al-furqan-66-1",
@@ -6177,7 +6242,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quel horrible lieu de retraite et quel affreux séjour !"
   },
   {
     "id": "al-furqan-67",
@@ -6186,7 +6252,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ يَقْتُرُوا۟ وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا",
     "textSimple": "وٱلذين إذآ أنفقوا لم يسرفوا ولم يقتروا وكان بين ذلك قواما",
     "transliteration": "wa-alladhīna idhā anfaqū lam yus'rifū walam yaqturū wakāna bayna dhālika qawāman",
-    "translation": "",
+    "translation": "And [they are] those who, when they spend, do so not excessively or sparingly but are ever, between that, [justly] moderate",
     "words": [
       {
         "id": "al-furqan-67-1",
@@ -6266,7 +6332,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, quand ils dépensent, ne sont ni prodigues ni avares, mais se tiennent juste au milieu (de ces deux extrêmes)."
   },
   {
     "id": "al-furqan-68",
@@ -6275,7 +6342,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ لَا يَدْعُونَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ وَلَا يَقْتُلُونَ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ وَلَا يَزْنُونَ ۚ وَمَن يَفْعَلْ ذَٰلِكَ يَلْقَ أَثَامًا",
     "textSimple": "وٱلذين لا يدعون مع ٱلله إلـها ءاخر ولا يقتلون ٱلنفس ٱلتى حرم ٱلله إلا بٱلحق ولا يزنون  ومن يفعل ذلك يلق أثاما",
     "transliteration": "wa-alladhīna lā yadʿūna maʿa l-lahi ilāhan ākhara walā yaqtulūna l-nafsa allatī ḥarrama l-lahu illā bil-ḥaqi walā yaznūna waman yafʿal dhālika yalqa athāman",
-    "translation": "",
+    "translation": "And those who do not invoke with Allāh another deity or kill the soul which Allāh has forbidden [to be killed], except by right, and do not commit unlawful sexual intercourse. And whoever should do that will meet a penalty.",
     "words": [
       {
         "id": "al-furqan-68-1",
@@ -6432,7 +6499,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui n’invoquent pas d’autre divinité qu’Allah, n’ôtent pas la vie qu’Allah a rendue sacrée, sinon en toute justice, et qui ne se livrent point à la fornication. Quiconque commet de tels actes en subira le châtiment."
   },
   {
     "id": "al-furqan-69",
@@ -6441,7 +6509,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "يُضَـٰعَفْ لَهُ ٱلْعَذَابُ يَوْمَ ٱلْقِيَـٰمَةِ وَيَخْلُدْ فِيهِۦ مُهَانًا",
     "textSimple": "يضـعف له ٱلعذاب يوم ٱلقيـمة ويخلد فيه مهانا",
     "transliteration": "yuḍāʿaf lahu l-ʿadhābu yawma l-qiyāmati wayakhlud fīhi muhānan",
-    "translation": "",
+    "translation": "Multiplied for him is the punishment on the Day of Resurrection, and he will abide therein humiliated -",
     "words": [
       {
         "id": "al-furqan-69-1",
@@ -6500,7 +6568,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le supplice sera pour lui doublé au Jour de la Résurrection. Il y demeurera pour l’éternité, couvert d’infamie."
   },
   {
     "id": "al-furqan-70",
@@ -6509,7 +6578,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ عَمَلًا صَـٰلِحًا فَأُو۟لَـٰٓئِكَ يُبَدِّلُ ٱللَّهُ سَيِّـَٔاتِهِمْ حَسَنَـٰتٍ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": "إلا من تاب وءامن وعمل عملا صـلحا فأولـٓئك يبدل ٱلله سيـٔاتهم حسنـت  وكان ٱلله غفورا رحيما",
     "transliteration": "illā man tāba waāmana waʿamila ʿamalan ṣāliḥan fa-ulāika yubaddilu l-lahu sayyiātihim ḥasanātin wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "Except for those who repent, believe and do righteous work. For them Allāh will replace their evil deeds with good. And ever is Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "al-furqan-70-1",
@@ -6624,7 +6693,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hormis ceux qui se seront repentis et auront fait le bien. À ceux-là, Allah changera leurs œuvres impies en bonnes actions. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-furqan-71",
@@ -6633,7 +6703,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن تَابَ وَعَمِلَ صَـٰلِحًا فَإِنَّهُۥ يَتُوبُ إِلَى ٱللَّهِ مَتَابًا",
     "textSimple": "ومن تاب وعمل صـلحا فإنه يتوب إلى ٱلله متابا",
     "transliteration": "waman tāba waʿamila ṣāliḥan fa-innahu yatūbu ilā l-lahi matāban",
-    "translation": "",
+    "translation": "And he who repents and does righteousness does indeed turn to Allāh with [accepted] repentance.",
     "words": [
       {
         "id": "al-furqan-71-1",
@@ -6699,7 +6769,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque se sera repenti et aura fait le bien, c’est vers Allah qu’il reviendra repentant."
   },
   {
     "id": "al-furqan-72",
@@ -6708,7 +6779,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًا",
     "textSimple": "وٱلذين لا يشهدون ٱلزور وإذا مروا بٱللغو مروا كراما",
     "transliteration": "wa-alladhīna lā yashhadūna l-zūra wa-idhā marrū bil-laghwi marrū kirāman",
-    "translation": "",
+    "translation": "And [they are] those who do not testify to falsehood, and when they pass near ill speech, they pass by with dignity.",
     "words": [
       {
         "id": "al-furqan-72-1",
@@ -6774,7 +6845,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les serviteurs d’Allah sont aussi) ceux qui ne produisent point de faux témoignages et qui, lorsqu’ils doivent côtoyer les futilités, passent en les ignorant."
   },
   {
     "id": "al-furqan-73",
@@ -6783,7 +6855,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ لَمْ يَخِرُّوا۟ عَلَيْهَا صُمًّا وَعُمْيَانًا",
     "textSimple": "وٱلذين إذا ذكروا بـٔايـت ربهم لم يخروا عليها صما وعميانا",
     "transliteration": "wa-alladhīna idhā dhukkirū biāyāti rabbihim lam yakhirrū ʿalayhā ṣumman waʿum'yānan",
-    "translation": "",
+    "translation": "And those who, when reminded of the verses of their Lord, do not fall upon them deaf and blind.",
     "words": [
       {
         "id": "al-furqan-73-1",
@@ -6856,7 +6928,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux encore qui, les versets d’Allah leur étant rappelés, ne deviennent pas sourds et aveugles."
   },
   {
     "id": "al-furqan-74",
@@ -6865,7 +6938,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
     "textSimple": "وٱلذين يقولون ربنا هب لنا من أزوجنا وذريـتنا قرة أعين وٱجعلنا للمتقين إماما",
     "transliteration": "wa-alladhīna yaqūlūna rabbanā hab lanā min azwājinā wadhurriyyātinā qurrata aʿyunin wa-ij'ʿalnā lil'muttaqīna imāman",
-    "translation": "",
+    "translation": "And those who say, \"Our Lord, grant us from among our wives and offspring comfort to our eyes and make us a leader [i.e., example] for the righteous.\"",
     "words": [
       {
         "id": "al-furqan-74-1",
@@ -6959,7 +7032,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux, enfin, qui disent : « Seigneur ! Daigne faire de nos épouses et de notre progéniture une joie pour nos cœurs et pour nos yeux, et veuille faire de nous des exemples à suivre par les gens pieux. »"
   },
   {
     "id": "al-furqan-75",
@@ -6968,7 +7042,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ يُجْزَوْنَ ٱلْغُرْفَةَ بِمَا صَبَرُوا۟ وَيُلَقَّوْنَ فِيهَا تَحِيَّةً وَسَلَـٰمًا",
     "textSimple": "أولـٓئك يجزون ٱلغرفة بما صبروا ويلقون فيها تحية وسلـما",
     "transliteration": "ulāika yuj'zawna l-ghur'fata bimā ṣabarū wayulaqqawna fīhā taḥiyyatan wasalāman",
-    "translation": "",
+    "translation": "Those will be awarded the Chamber for what they patiently endured, and they will be received therein with greetings and [words of] peace,",
     "words": [
       {
         "id": "al-furqan-75-1",
@@ -7034,7 +7108,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là, pour avoir été patients, auront comme récompense une demeure élevée (au Paradis), où ils seront reçus avec le salut et la paix,"
   },
   {
     "id": "al-furqan-76",
@@ -7043,7 +7118,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَا ۚ حَسُنَتْ مُسْتَقَرًّا وَمُقَامًا",
     "textSimple": "خـلدين فيها  حسنت مستقرا ومقاما",
     "transliteration": "khālidīna fīhā ḥasunat mus'taqarran wamuqāman",
-    "translation": "",
+    "translation": "Abiding eternally therein. Good is the settlement and residence.",
     "words": [
       {
         "id": "al-furqan-76-1",
@@ -7081,7 +7156,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour y séjourner éternellement. Quel merveilleux lieu de retraite et quel magnifique séjour !"
   },
   {
     "id": "al-furqan-77",
@@ -7090,7 +7166,7 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ ۖ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًۢا",
     "textSimple": "قل ما يعبؤا بكم ربى لولا دعآؤكم  فقد كذبتم فسوف يكون لزاما",
     "transliteration": "qul mā yaʿba-u bikum rabbī lawlā duʿāukum faqad kadhabtum fasawfa yakūnu lizāman",
-    "translation": "",
+    "translation": "Say, \"What would my Lord care for you if not for your supplication?\" For you [disbelievers] have denied, so it [i.e., your denial] is going to be adherent.",
     "words": [
       {
         "id": "al-furqan-77-1",
@@ -7177,7 +7253,8 @@ export const AL_FURQAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Sans vos prières, mon Seigneur ne Se soucierait aucunement de vous. Mais puisque vous avez osé démentir (Son Messager), vous (avez mérité que votre supplice) soit inexorable. »"
   }
 ];
 

@@ -11,7 +11,7 @@ export const AL_KAWTHAR_AYAHS: Ayah[] = [
     "textUthmani": " إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ",
     "textSimple": " إنآ أعطينـك ٱلكوثر",
     "transliteration": "innā aʿṭaynāka l-kawthara",
-    "translation": "",
+    "translation": "Indeed, We have granted you, [O Muḥammad], al-Kawthar.",
     "words": [
       {
         "id": "al-kawthar-1-1",
@@ -35,7 +35,8 @@ export const AL_KAWTHAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’avons certes donné un Fleuve d’Abondance."
   },
   {
     "id": "al-kawthar-2",
@@ -44,7 +45,7 @@ export const AL_KAWTHAR_AYAHS: Ayah[] = [
     "textUthmani": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
     "textSimple": "فصل لربك وٱنحر",
     "transliteration": "faṣalli lirabbika wa-in'ḥar",
-    "translation": "",
+    "translation": "So pray to your Lord and offer sacrifice [to Him alone].",
     "words": [
       {
         "id": "al-kawthar-2-1",
@@ -68,7 +69,8 @@ export const AL_KAWTHAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Observe donc la Çalât pour ton Seigneur, et sacrifie !"
   },
   {
     "id": "al-kawthar-3",
@@ -77,7 +79,7 @@ export const AL_KAWTHAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
     "textSimple": "إن شانئك هو ٱلأبتر",
     "transliteration": "inna shāni-aka huwa l-abtaru",
-    "translation": "",
+    "translation": "Indeed, your enemy is the one cut off.",
     "words": [
       {
         "id": "al-kawthar-3-1",
@@ -108,7 +110,8 @@ export const AL_KAWTHAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est celui qui te hait qui sera sans postérité."
   }
 ];
 

@@ -11,7 +11,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": " إِنَّآ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": " إنآ أرسلنا نوحا إلى قومهٓ أن أنذر قومك من قبل أن يأتيهم عذاب أليم",
     "transliteration": "innā arsalnā nūḥan ilā qawmihi an andhir qawmaka min qabli an yatiyahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Indeed, We sent Noah to his people, [saying], \"Warn your people before there comes to them a painful punishment.\"",
     "words": [
       {
         "id": "nuh-1-1",
@@ -112,7 +112,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes Noé vers son peuple en lui disant : « Avertis ton peuple avant que ne fonde sur eux un supplice très douloureux ! »"
   },
   {
     "id": "nuh-2",
@@ -121,7 +122,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ إِنِّى لَكُمْ نَذِيرٌ مُّبِينٌ",
     "textSimple": "قال يـقوم إنى لكم نذير مبين",
     "transliteration": "qāla yāqawmi innī lakum nadhīrun mubīnun",
-    "translation": "",
+    "translation": "He said, \"O my people, indeed I am to you a clear warner -",
     "words": [
       {
         "id": "nuh-2-1",
@@ -166,7 +167,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô peuple mien, dit-il, je suis là pour vous avertir en toute clarté !"
   },
   {
     "id": "nuh-3",
@@ -175,7 +177,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِيعُونِ",
     "textSimple": "أن ٱعبدوا ٱلله وٱتقوه وأطيعون",
     "transliteration": "ani uʿ'budū l-laha wa-ittaqūhu wa-aṭīʿūni",
-    "translation": "",
+    "translation": "To worship Allāh, fear Him and obey me.",
     "words": [
       {
         "id": "nuh-3-1",
@@ -213,7 +215,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adorez Allah ! Craignez-Le ! Obéissez-moi !"
   },
   {
     "id": "nuh-4",
@@ -222,7 +225,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ",
     "textSimple": "يغفر لكم من ذنوبكم ويؤخركم إلىٓ أجل مسمى  إن أجل ٱلله إذا جآء لا يؤخر  لو كنتم تعلمون",
     "transliteration": "yaghfir lakum min dhunūbikum wayu-akhir'kum ilā ajalin musamman inna ajala l-lahi idhā jāa lā yu-akharu law kuntum taʿlamūna",
-    "translation": "",
+    "translation": "He [i.e., Allāh] will forgive you of your sins and delay you for a specified term. Indeed, the time [set by] Allāh, when it comes, will not be delayed, if you only knew.\"",
     "words": [
       {
         "id": "nuh-4-1",
@@ -351,7 +354,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous pardonnera alors vos péchés et surseoira (à votre jugement) pour un terme déjà nommé. Car le terme décrété par Allah ne pourra être retardé, si seulement vous saviez ! »"
   },
   {
     "id": "nuh-5",
@@ -360,7 +364,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنِّى دَعَوْتُ قَوْمِى لَيْلًا وَنَهَارًا",
     "textSimple": "قال رب إنى دعوت قومى ليلا ونهارا",
     "transliteration": "qāla rabbi innī daʿawtu qawmī laylan wanahāran",
-    "translation": "",
+    "translation": "He said, \"My Lord, indeed I invited my people [to truth] night and day.",
     "words": [
       {
         "id": "nuh-5-1",
@@ -412,7 +416,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, (dit-il plus tard), je n’ai fait qu’exhorter mon peuple nuit et jour,"
   },
   {
     "id": "nuh-6",
@@ -421,7 +426,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًا",
     "textSimple": "فلم يزدهم دعآءىٓ إلا فرارا",
     "transliteration": "falam yazid'hum duʿāī illā firāran",
-    "translation": "",
+    "translation": "But my invitation increased them not except in flight [i.e., aversion].",
     "words": [
       {
         "id": "nuh-6-1",
@@ -459,7 +464,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais mon appel n’a fait que les faire fuir davantage."
   },
   {
     "id": "nuh-7",
@@ -468,7 +474,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَـٰبِعَهُمْ فِىٓ ءَاذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا",
     "textSimple": "وإنى كلما دعوتهم لتغفر لهم جعلوٓا أصـبعهم فىٓ ءاذانهم وٱستغشوا ثيابهم وأصروا وٱستكبروا ٱستكبارا",
     "transliteration": "wa-innī kullamā daʿawtuhum litaghfira lahum jaʿalū aṣābiʿahum fī ādhānihim wa-is'taghshaw thiyābahum wa-aṣarrū wa-is'takbarū is'tik'bāran",
-    "translation": "",
+    "translation": "And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments, persisted, and were arrogant with [great] arrogance.",
     "words": [
       {
         "id": "nuh-7-1",
@@ -569,7 +575,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque fois que je les appelais pour que Tu leur pardonnes (leurs péchés), ils se bouchaient les oreilles avec leurs doigts, s’emmitouflaient dans leurs vêtements, et s’obstinaient, orgueilleux et dédaigneux."
   },
   {
     "id": "nuh-8",
@@ -578,7 +585,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًا",
     "textSimple": "ثم إنى دعوتهم جهارا",
     "transliteration": "thumma innī daʿawtuhum jihāran",
-    "translation": "",
+    "translation": "Then I invited them publicly.",
     "words": [
       {
         "id": "nuh-8-1",
@@ -609,7 +616,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je les ai alors exhortés publiquement."
   },
   {
     "id": "nuh-9",
@@ -618,7 +626,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا",
     "textSimple": "ثم إنىٓ أعلنت لهم وأسررت لهم إسرارا",
     "transliteration": "thumma innī aʿlantu lahum wa-asrartu lahum is'rāran",
-    "translation": "",
+    "translation": "Then I announced to them and [also] confided to them secretly",
     "words": [
       {
         "id": "nuh-9-1",
@@ -670,7 +678,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis je me suis adressé à eux tantôt ouvertement, tantôt sur le ton de la confidence."
   },
   {
     "id": "nuh-10",
@@ -679,7 +688,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "فَقُلْتُ ٱسْتَغْفِرُوا۟ رَبَّكُمْ إِنَّهُۥ كَانَ غَفَّارًا",
     "textSimple": "فقلت ٱستغفروا ربكم إنه كان غفارا",
     "transliteration": "faqul'tu is'taghfirū rabbakum innahu kāna ghaffāran",
-    "translation": "",
+    "translation": "And said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.",
     "words": [
       {
         "id": "nuh-10-1",
@@ -724,7 +733,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’ai donc dit : “Implorez le pardon de votre Seigneur, car Il est Très Absoluteur !"
   },
   {
     "id": "nuh-11",
@@ -733,7 +743,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًا",
     "textSimple": "يرسل ٱلسمآء عليكم مدرارا",
     "transliteration": "yur'sili l-samāa ʿalaykum mid'rāran",
-    "translation": "",
+    "translation": "He will send [rain from] the sky upon you in [continuing] showers",
     "words": [
       {
         "id": "nuh-11-1",
@@ -764,7 +774,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous enverra du ciel d’abondantes pluies,"
   },
   {
     "id": "nuh-12",
@@ -773,7 +784,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَيُمْدِدْكُم بِأَمْوَٰلٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّـٰتٍ وَيَجْعَل لَّكُمْ أَنْهَـٰرًا",
     "textSimple": "ويمددكم بأمول وبنين ويجعل لكم جنـت ويجعل لكم أنهـرا",
     "transliteration": "wayum'did'kum bi-amwālin wabanīna wayajʿal lakum jannātin wayajʿal lakum anhāran",
-    "translation": "",
+    "translation": "And give you increase in wealth and children and provide for you gardens and provide for you rivers.",
     "words": [
       {
         "id": "nuh-12-1",
@@ -839,7 +850,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vous dispensera avec largesse beaucoup de richesses et d’enfants, et vous accordera des jardins et vous accordera des rivières."
   },
   {
     "id": "nuh-13",
@@ -848,7 +860,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
     "textSimple": "ما لكم لا ترجون لله وقارا",
     "transliteration": "mā lakum lā tarjūna lillahi waqāran",
-    "translation": "",
+    "translation": "What is [the matter] with you that you do not attribute to Allāh [due] grandeur",
     "words": [
       {
         "id": "nuh-13-1",
@@ -893,7 +905,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourquoi donc ne témoignez-vous à Allah aucune vénération digne de ce nom ?"
   },
   {
     "id": "nuh-14",
@@ -902,7 +915,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
     "textSimple": "وقد خلقكم أطوارا",
     "transliteration": "waqad khalaqakum aṭwāran",
-    "translation": "",
+    "translation": "While He has created you in stages?",
     "words": [
       {
         "id": "nuh-14-1",
@@ -926,7 +939,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien Lui Qui vous a pourtant créés par étapes !"
   },
   {
     "id": "nuh-15",
@@ -935,7 +949,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَـٰوَٰتٍ طِبَاقًا",
     "textSimple": "ألم تروا كيف خلق ٱلله سبع سمـوت طباقا",
     "transliteration": "alam taraw kayfa khalaqa l-lahu sabʿa samāwātin ṭibāqan",
-    "translation": "",
+    "translation": "Do you not consider how Allāh has created seven heavens in layers",
     "words": [
       {
         "id": "nuh-15-1",
@@ -994,7 +1008,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voyez-vous pas comment Allah a créé sept cieux qui se superposent,"
   },
   {
     "id": "nuh-16",
@@ -1003,7 +1018,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلَ ٱلْقَمَرَ فِيهِنَّ نُورًا وَجَعَلَ ٱلشَّمْسَ سِرَاجًا",
     "textSimple": "وجعل ٱلقمر فيهن نورا وجعل ٱلشمس سراجا",
     "transliteration": "wajaʿala l-qamara fīhinna nūran wajaʿala l-shamsa sirājan",
-    "translation": "",
+    "translation": "And made the moon therein a [reflected] light and made the sun a burning lamp?",
     "words": [
       {
         "id": "nuh-16-1",
@@ -1055,7 +1070,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "y a mis la lune comme lumière et le soleil comme flambeau ?"
   },
   {
     "id": "nuh-17",
@@ -1064,7 +1080,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلْأَرْضِ نَبَاتًا",
     "textSimple": "وٱلله أنبتكم من ٱلأرض نباتا",
     "transliteration": "wal-lahu anbatakum mina l-arḍi nabātan",
-    "translation": "",
+    "translation": "And Allāh has caused you to grow from the earth a [progressive] growth.",
     "words": [
       {
         "id": "nuh-17-1",
@@ -1102,7 +1118,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien Allah Qui vous a fait pousser, à partir de la terre, tels des plantes,"
   },
   {
     "id": "nuh-18",
@@ -1111,7 +1128,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًا",
     "textSimple": "ثم يعيدكم فيها ويخرجكم إخراجا",
     "transliteration": "thumma yuʿīdukum fīhā wayukh'rijukum ikh'rājan",
-    "translation": "",
+    "translation": "Then He will return you into it and extract you [another] extraction.",
     "words": [
       {
         "id": "nuh-18-1",
@@ -1149,7 +1166,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vous y fera retourner, puis vous en fera réellement resurgir."
   },
   {
     "id": "nuh-19",
@@ -1158,7 +1176,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ جَعَلَ لَكُمُ ٱلْأَرْضَ بِسَاطًا",
     "textSimple": "وٱلله جعل لكم ٱلأرض بساطا",
     "transliteration": "wal-lahu jaʿala lakumu l-arḍa bisāṭan",
-    "translation": "",
+    "translation": "And Allāh has made for you the earth an expanse",
     "words": [
       {
         "id": "nuh-19-1",
@@ -1196,7 +1214,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Allah Qui a fait pour vous de la terre un tapis,"
   },
   {
     "id": "nuh-20",
@@ -1205,7 +1224,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "لِّتَسْلُكُوا۟ مِنْهَا سُبُلًا فِجَاجًا",
     "textSimple": "لتسلكوا منها سبلا فجاجا",
     "transliteration": "litaslukū min'hā subulan fijājan",
-    "translation": "",
+    "translation": "That you may follow therein roads of passage.'\"",
     "words": [
       {
         "id": "nuh-20-1",
@@ -1236,7 +1255,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour que vous puissiez emprunter ses larges chemins.” »"
   },
   {
     "id": "nuh-21",
@@ -1245,7 +1265,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ نُوحٌ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًا",
     "textSimple": "قال نوح رب إنهم عصونى وٱتبعوا من لم يزده ماله وولدهٓ إلا خسارا",
     "transliteration": "qāla nūḥun rabbi innahum ʿaṣawnī wa-ittabaʿū man lam yazid'hu māluhu wawaladuhu illā khasāran",
-    "translation": "",
+    "translation": "Noah said, \"My Lord, indeed they have disobeyed me and followed him whose wealth and children will not increase him except in loss.",
     "words": [
       {
         "id": "nuh-21-1",
@@ -1339,7 +1359,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Noé s’écria : « Ils m’ont, Seigneur, désobéi. Ils ont suivi celui que ses biens et ses enfants ne font que ruiner davantage."
   },
   {
     "id": "nuh-22",
@@ -1348,7 +1369,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَكَرُوا۟ مَكْرًا كُبَّارًا",
     "textSimple": "ومكروا مكرا كبارا",
     "transliteration": "wamakarū makran kubbāran",
-    "translation": "",
+    "translation": "And they conspired an immense conspiracy",
     "words": [
       {
         "id": "nuh-22-1",
@@ -1372,7 +1393,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont tramé une grande intrigue."
   },
   {
     "id": "nuh-23",
@@ -1381,7 +1403,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًا",
     "textSimple": "وقالوا لا تذرن ءالهتكم ولا تذرن ودا ولا سواعا ولا يغوث ويعوق ونسرا",
     "transliteration": "waqālū lā tadharunna ālihatakum walā tadharunna waddan walā suwāʿan walā yaghūtha wayaʿūqa wanasran",
-    "translation": "",
+    "translation": "And said, 'Never leave your gods and never leave Wadd or Suwāʿ or Yaghūth and Yaʿūq and Nasr.'",
     "words": [
       {
         "id": "nuh-23-1",
@@ -1475,7 +1497,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "“Ne délaissez point vos divinités, ont-ils enjoint, n’abandonnez point Wadd, Suwâ‛, Yâghûth, Yâ‛ûq et Nasr ”."
   },
   {
     "id": "nuh-24",
@@ -1484,7 +1507,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدْ أَضَلُّوا۟ كَثِيرًا ۖ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا ضَلَـٰلًا",
     "textSimple": "وقد أضلوا كثيرا  ولا تزد ٱلظـلمين إلا ضلـلا",
     "transliteration": "waqad aḍallū kathīran walā tazidi l-ẓālimīna illā ḍalālan",
-    "translation": "",
+    "translation": "And already they have misled many. And, [my Lord], do not increase the wrongdoers except in error.\"",
     "words": [
       {
         "id": "nuh-24-1",
@@ -1543,7 +1566,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont (déjà) égaré beaucoup d’(hommes). Fais, (ô Allah), que les injustes s’égarent davantage ! »"
   },
   {
     "id": "nuh-25",
@@ -1552,7 +1576,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "مِّمَّا خَطِيٓـَٔـٰتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا",
     "textSimple": "مما خطيٓـٔـتهم أغرقوا فأدخلوا نارا فلم يجدوا لهم من دون ٱلله أنصارا",
     "transliteration": "mimmā khaṭīātihim ugh'riqū fa-ud'khilū nāran falam yajidū lahum min dūni l-lahi anṣāran",
-    "translation": "",
+    "translation": "Because of their sins they were drowned and put into the Fire, and they found not for themselves besides Allāh [any] helpers.",
     "words": [
       {
         "id": "nuh-25-1",
@@ -1639,7 +1663,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est pour leurs fautes qu’ils furent alors noyés, puis jetés au Feu où ils ne trouvèrent, contre Allah, point d’alliés."
   },
   {
     "id": "nuh-26",
@@ -1648,7 +1673,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ نُوحٌ رَّبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَـٰفِرِينَ دَيَّارًا",
     "textSimple": "وقال نوح رب لا تذر على ٱلأرض من ٱلكـفرين ديارا",
     "transliteration": "waqāla nūḥun rabbi lā tadhar ʿalā l-arḍi mina l-kāfirīna dayyāran",
-    "translation": "",
+    "translation": "And Noah said, \"My Lord, do not leave upon the earth from among the disbelievers an inhabitant.",
     "words": [
       {
         "id": "nuh-26-1",
@@ -1721,7 +1746,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Noé dit : « Seigneur ! Ne laisse sur terre aucun mécréant, pas un seul."
   },
   {
     "id": "nuh-27",
@@ -1730,7 +1756,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا فَاجِرًا كَفَّارًا",
     "textSimple": "إنك إن تذرهم يضلوا عبادك ولا يلدوٓا إلا فاجرا كفارا",
     "transliteration": "innaka in tadharhum yuḍillū ʿibādaka walā yalidū illā fājiran kaffāran",
-    "translation": "",
+    "translation": "Indeed, if You leave them, they will mislead Your servants and not beget except [every] wicked one and [confirmed] disbeliever.",
     "words": [
       {
         "id": "nuh-27-1",
@@ -1803,7 +1829,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car, si Tu les laisses, ils égareront Tes serviteurs, et n’engendreront que des pervers et des mécréants ingrats."
   },
   {
     "id": "nuh-28",
@@ -1812,7 +1839,7 @@ export const NUH_AYAHS: Ayah[] = [
     "textUthmani": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا",
     "textSimple": "رب ٱغفر لى ولولدى ولمن دخل بيتى مؤمنا وللمؤمنين وٱلمؤمنـت ولا تزد ٱلظـلمين إلا تبارا",
     "transliteration": "rabbi igh'fir lī waliwālidayya waliman dakhala baytiya mu'minan walil'mu'minīna wal-mu'mināti walā tazidi l-ẓālimīna illā tabāran",
-    "translation": "",
+    "translation": "My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction.\"",
     "words": [
       {
         "id": "nuh-28-1",
@@ -1920,7 +1947,8 @@ export const NUH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Pardonne-moi, à mes deux parents, à tous ceux qui entrent dans ma maison en ayant la foi, ainsi qu’à tous les croyants et à toutes les croyantes. Et ajoute (Seigneur) à la ruine des injustes ! »"
   }
 ];
 

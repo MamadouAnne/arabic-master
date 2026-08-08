@@ -11,7 +11,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": " تَنزِيلُ ٱلْكِتَـٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
     "textSimple": " تنزيل ٱلكتـب من ٱلله ٱلعزيز ٱلحكيم",
     "transliteration": "tanzīlu l-kitābi mina l-lahi l-ʿazīzi l-ḥakīmi",
-    "translation": "",
+    "translation": "The revelation of the Book [i.e., the Qur’ān] is from Allāh, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "az-zumar-1-1",
@@ -56,7 +56,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La révélation du Livre émane d’Allah, le Tout-Puissant, le Sage."
   },
   {
     "id": "az-zumar-2",
@@ -65,7 +66,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًا لَّهُ ٱلدِّينَ",
     "textSimple": "إنآ أنزلنآ إليك ٱلكتـب بٱلحق فٱعبد ٱلله مخلصا له ٱلدين",
     "transliteration": "innā anzalnā ilayka l-kitāba bil-ḥaqi fa-uʿ'budi l-laha mukh'liṣan lahu l-dīna",
-    "translation": "",
+    "translation": "Indeed, We have sent down to you the Book, [O Muḥammad], in truth. So worship Allāh, [being] sincere to Him in religion.",
     "words": [
       {
         "id": "az-zumar-2-1",
@@ -138,7 +139,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre vers toi (en révélation) le Livre en toute vérité. Adore donc Allah et sois sincère dans le culte que tu Lui voues."
   },
   {
     "id": "az-zumar-3",
@@ -147,7 +149,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَـٰذِبٌ كَفَّارٌ",
     "textSimple": "ألا لله ٱلدين ٱلخالص  وٱلذين ٱتخذوا من دونهٓ أوليآء ما نعبدهم إلا ليقربونآ إلى ٱلله زلفىٓ إن ٱلله يحكم بينهم فى ما هم فيه يختلفون  إن ٱلله لا يهدى من هو كـذب كفار",
     "transliteration": "alā lillahi l-dīnu l-khāliṣu wa-alladhīna ittakhadhū min dūnihi awliyāa mā naʿbuduhum illā liyuqarribūnā ilā l-lahi zul'fā inna l-laha yaḥkumu baynahum fī mā hum fīhi yakhtalifūna inna l-laha lā yahdī man huwa kādhibun kaffārun",
-    "translation": "",
+    "translation": "Unquestionably, for Allāh is the pure religion. And those who take protectors besides Him [say], \"We only worship them that they may bring us nearer to Allāh in position.\" Indeed, Allāh will judge between them concerning that over which they differ. Indeed, Allāh does not guide he who is a liar and [confirmed] disbeliever.",
     "words": [
       {
         "id": "az-zumar-3-1",
@@ -381,7 +383,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah qu’est voué le culte sincère, cependant que ceux qui prennent d’autres protecteurs en dehors de Lui prétendent : « Nous ne les adorons que pour qu’ils nous rapprochent plus encore d’Allah. » Or Allah jugera leurs différends. Allah ne guide point quiconque est menteur et outrageusement ingrat."
   },
   {
     "id": "az-zumar-4",
@@ -390,7 +393,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "لَّوْ أَرَادَ ٱللَّهُ أَن يَتَّخِذَ وَلَدًا لَّٱصْطَفَىٰ مِمَّا يَخْلُقُ مَا يَشَآءُ ۚ سُبْحَـٰنَهُۥ ۖ هُوَ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
     "textSimple": "لو أراد ٱلله أن يتخذ ولدا لٱصطفى مما يخلق ما يشآء  سبحـنه  هو ٱلله ٱلوحد ٱلقهار",
     "transliteration": "law arāda l-lahu an yattakhidha waladan la-iṣ'ṭafā mimmā yakhluqu mā yashāu sub'ḥānahu huwa l-lahu l-wāḥidu l-qahāru",
-    "translation": "",
+    "translation": "If Allāh had intended to take a son, He could have chosen from what He creates whatever He willed. Exalted is He; He is Allāh, the One, the Prevailing.",
     "words": [
       {
         "id": "az-zumar-4-1",
@@ -505,7 +508,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah avait voulu Se donner un enfant, Il aurait choisi qui Il veut parmi Ses créatures. Gloire Lui soit rendue ! C’est Lui, Allah, l’Un, le Haut Dominateur !"
   },
   {
     "id": "az-zumar-5",
@@ -514,7 +518,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱلَّيْلِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۗ أَلَا هُوَ ٱلْعَزِيزُ ٱلْغَفَّـٰرُ",
     "textSimple": "خلق ٱلسمـوت وٱلأرض بٱلحق  يكور ٱليل على ٱلنهار ويكور ٱلنهار على ٱليل  وسخر ٱلشمس وٱلقمر  كل يجرى لأجل مسمى  ألا هو ٱلعزيز ٱلغفـر",
     "transliteration": "khalaqa l-samāwāti wal-arḍa bil-ḥaqi yukawwiru al-layla ʿalā l-nahāri wayukawwiru l-nahāra ʿalā al-layli wasakhara l-shamsa wal-qamara kullun yajrī li-ajalin musamman alā huwa l-ʿazīzu l-ghafāru",
-    "translation": "",
+    "translation": "He created the heavens and earth in truth. He wraps the night over the day and wraps the day over the night and has subjected the sun and the moon, each running [its course] for a specified term. Unquestionably, He is the Exalted in Might, the Perpetual Forgiver.",
     "words": [
       {
         "id": "az-zumar-5-1",
@@ -678,7 +682,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a créé les cieux et la terre par la vérité. Il fait s’enrouler la nuit sur le jour et Il fait s’enrouler le jour sur la nuit. Et Il a soumis le soleil et la lune, qui poursuivent respectivement leur course vers un terme déjà nommé. C’est bien Lui le Tout-Puissant, le Très Absoluteur."
   },
   {
     "id": "az-zumar-6",
@@ -687,7 +692,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ ثُمَّ جَعَلَ مِنْهَا زَوْجَهَا وَأَنزَلَ لَكُم مِّنَ ٱلْأَنْعَـٰمِ ثَمَـٰنِيَةَ أَزْوَٰجٍ ۚ يَخْلُقُكُمْ فِى بُطُونِ أُمَّهَـٰتِكُمْ خَلْقًا مِّنۢ بَعْدِ خَلْقٍ فِى ظُلُمَـٰتٍ ثَلَـٰثٍ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُصْرَفُونَ",
     "textSimple": "خلقكم من نفس وحدة ثم جعل منها زوجها وأنزل لكم من ٱلأنعـم ثمـنية أزوج  يخلقكم فى بطون أمهـتكم خلقا من بعد خلق فى ظلمـت ثلـث  ذلكم ٱلله ربكم له ٱلملك  لآ إلـه إلا هو  فأنى تصرفون",
     "transliteration": "khalaqakum min nafsin wāḥidatin thumma jaʿala min'hā zawjahā wa-anzala lakum mina l-anʿāmi thamāniyata azwājin yakhluqukum fī buṭūni ummahātikum khalqan min baʿdi khalqin fī ẓulumātin thalāthin dhālikumu l-lahu rabbukum lahu l-mul'ku lā ilāha illā huwa fa-annā tuṣ'rafūna",
-    "translation": "",
+    "translation": "He created you from one soul. Then He made from it its mate, and He produced for you from the grazing livestock eight mates. He creates you in the wombs of your mothers, creation after creation, within three darknesses. That is Allāh, your Lord; to Him belongs dominion. There is no deity except Him, so how are you averted?",
     "words": [
       {
         "id": "az-zumar-6-1",
@@ -942,7 +947,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous a créés d’un seul être, puis a tiré de celui-ci sa propre compagne. Il a fait descendre pour vous huit catégories de bestiaux en couples. Il vous crée dans les ventres de vos mères, en vous faisant passer de création en création, dans trois sortes de ténèbres. Tel est Allah, votre Seigneur, à Qui appartient la royauté. Il n’y a point d’autre divinité que Lui. Comment pouvez-vous donc vous détourner de Lui ?"
   },
   {
     "id": "az-zumar-7",
@@ -951,7 +957,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِن تَكْفُرُوا۟ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنكُمْ ۖ وَلَا يَرْضَىٰ لِعِبَادِهِ ٱلْكُفْرَ ۖ وَإِن تَشْكُرُوا۟ يَرْضَهُ لَكُمْ ۗ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ ۗ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "إن تكفروا فإن ٱلله غنى عنكم  ولا يرضى لعباده ٱلكفر  وإن تشكروا يرضه لكم  ولا تزر وازرة وزر أخرى  ثم إلى ربكم مرجعكم فينبئكم بما كنتم تعملون  إنه عليم بذات ٱلصدور",
     "transliteration": "in takfurū fa-inna l-laha ghaniyyun ʿankum walā yarḍā liʿibādihi l-kuf'ra wa-in tashkurū yarḍahu lakum walā taziru wāziratun wiz'ra ukh'rā thumma ilā rabbikum marjiʿukum fayunabbi-ukum bimā kuntum taʿmalūna innahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "If you disbelieve - indeed, Allāh is Free from need of you. And He does not approve for His servants disbelief. And if you are grateful, He approves [i.e., likes] it for you; and no bearer of burdens will bear the burden of another. Then to your Lord is your return, and He will inform you about what you used to do. Indeed, He is Knowing of that within the breasts.",
     "words": [
       {
         "id": "az-zumar-7-1",
@@ -1171,7 +1177,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous mécroyez, Allah Se passe de vous, Qui n’agrée nullement la mécréance pour Ses serviteurs. Et si vous rendez grâces, Il l’agrée pour vous. Nul ne portera le fardeau d’un autre et, quand vous aurez fait retour vers votre Seigneur, Il vous informera des œuvres que vous faisiez. Car Il Sait parfaitement ce qu’il y a au fond des cœurs."
   },
   {
     "id": "az-zumar-8",
@@ -1180,7 +1187,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذَا مَسَّ ٱلْإِنسَـٰنَ ضُرٌّ دَعَا رَبَّهُۥ مُنِيبًا إِلَيْهِ ثُمَّ إِذَا خَوَّلَهُۥ نِعْمَةً مِّنْهُ نَسِىَ مَا كَانَ يَدْعُوٓا۟ إِلَيْهِ مِن قَبْلُ وَجَعَلَ لِلَّهِ أَندَادًا لِّيُضِلَّ عَن سَبِيلِهِۦ ۚ قُلْ تَمَتَّعْ بِكُفْرِكَ قَلِيلًا ۖ إِنَّكَ مِنْ أَصْحَـٰبِ ٱلنَّارِ",
     "textSimple": " وإذا مس ٱلإنسـن ضر دعا ربه منيبا إليه ثم إذا خوله نعمة منه نسى ما كان يدعوٓا إليه من قبل وجعل لله أندادا ليضل عن سبيله  قل تمتع بكفرك قليلا  إنك من أصحـب ٱلنار",
     "transliteration": "wa-idhā massa l-insāna ḍurrun daʿā rabbahu munīban ilayhi thumma idhā khawwalahu niʿ'matan min'hu nasiya mā kāna yadʿū ilayhi min qablu wajaʿala lillahi andādan liyuḍilla ʿan sabīlihi qul tamattaʿ bikuf'rika qalīlan innaka min aṣḥābi l-nāri",
-    "translation": "",
+    "translation": "And when adversity touches man, he calls upon his Lord, turning to Him [alone]; then when He bestows on him a favor from Himself, he forgets Him whom he called upon before, and he attributes to Allāh equals to mislead [people] from His way. Say, \"Enjoy your disbelief for a little; indeed, you are of the companions of the Fire.\"",
     "words": [
       {
         "id": "az-zumar-8-1",
@@ -1421,7 +1428,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand un malheur atteint l’homme, celui-ci implore son Seigneur et revient vers Lui, repentant. Mais dès qu’Il le comble d’un bienfait, voilà qu’il oublie pourquoi il implorait avant et prête à Allah des émules pour égarer (autrui) de Son chemin. Dis : « Jouis pour un moment de ta mécréance : tu es du nombre des hôtes de l’Enfer. »"
   },
   {
     "id": "az-zumar-9",
@@ -1430,7 +1438,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّنْ هُوَ قَـٰنِتٌ ءَانَآءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا يَحْذَرُ ٱلْـَٔاخِرَةَ وَيَرْجُوا۟ رَحْمَةَ رَبِّهِۦ ۗ قُلْ هَلْ يَسْتَوِى ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ",
     "textSimple": "أمن هو قـنت ءانآء ٱليل ساجدا وقآئما يحذر ٱلـٔاخرة ويرجوا رحمة ربه  قل هل يستوى ٱلذين يعلمون وٱلذين لا يعلمون  إنما يتذكر أولوا ٱلألبـب",
     "transliteration": "amman huwa qānitun ānāa al-layli sājidan waqāiman yaḥdharu l-ākhirata wayarjū raḥmata rabbihi qul hal yastawī alladhīna yaʿlamūna wa-alladhīna lā yaʿlamūna innamā yatadhakkaru ulū l-albābi",
-    "translation": "",
+    "translation": "Is one who is devoutly obedient during periods of the night, prostrating and standing [in prayer], fearing the Hereafter and hoping for the mercy of his Lord, [like one who does not]? Say, \"Are those who know equal to those who do not know?\" Only they will remember [who are] people of understanding.",
     "words": [
       {
         "id": "az-zumar-9-1",
@@ -1601,7 +1609,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Le mécréant est-il pareil à) celui qui passe toute la nuit à prier et à se recueillir, prosterné ou debout, redoutant l’autre monde et espérant la miséricorde de son Seigneur ? Dis : « Ont-ils valeur égale, ceux qui savent et ceux qui ne savent pas ? » Seuls les esprits sagaces savent se rappeler les esprits sagaces."
   },
   {
     "id": "az-zumar-10",
@@ -1610,7 +1619,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰعِبَادِ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا۟ فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةٌ ۗ وَأَرْضُ ٱللَّهِ وَٰسِعَةٌ ۗ إِنَّمَا يُوَفَّى ٱلصَّـٰبِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍ",
     "textSimple": "قل يـعباد ٱلذين ءامنوا ٱتقوا ربكم  للذين أحسنوا فى هـذه ٱلدنيا حسنة  وأرض ٱلله وسعة  إنما يوفى ٱلصـبرون أجرهم بغير حساب",
     "transliteration": "qul yāʿibādi alladhīna āmanū ittaqū rabbakum lilladhīna aḥsanū fī hādhihi l-dun'yā ḥasanatun wa-arḍu l-lahi wāsiʿatun innamā yuwaffā l-ṣābirūna ajrahum bighayri ḥisābin",
-    "translation": "",
+    "translation": "Say, \"O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allāh is spacious. Indeed, the patient will be given their reward without account [i.e., limit].\"",
     "words": [
       {
         "id": "az-zumar-10-1",
@@ -1760,7 +1769,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Ô vous Mes serviteurs qui avez cru, craignez votre Seigneur ! » À ceux qui auront bien agi dans ce bas monde est réservée une belle récompense. La terre d’Allah est si vaste, et ceux qui savent être patients auront leur pleine rétribution sans que rien ne leur en soit compté."
   },
   {
     "id": "az-zumar-11",
@@ -1769,7 +1779,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ مُخْلِصًا لَّهُ ٱلدِّينَ",
     "textSimple": "قل إنىٓ أمرت أن أعبد ٱلله مخلصا له ٱلدين",
     "transliteration": "qul innī umir'tu an aʿbuda l-laha mukh'liṣan lahu l-dīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Indeed, I have been commanded to worship Allāh, [being] sincere to Him in religion.",
     "words": [
       {
         "id": "az-zumar-11-1",
@@ -1835,7 +1845,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il m’est ordonné d’adorer Allah en Lui vouant un culte sincère,"
   },
   {
     "id": "az-zumar-12",
@@ -1844,7 +1855,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَأُمِرْتُ لِأَنْ أَكُونَ أَوَّلَ ٱلْمُسْلِمِينَ",
     "textSimple": "وأمرت لأن أكون أول ٱلمسلمين",
     "transliteration": "wa-umir'tu li-an akūna awwala l-mus'limīna",
-    "translation": "",
+    "translation": "And I have been commanded to be the first [among you] of the Muslims.\"",
     "words": [
       {
         "id": "az-zumar-12-1",
@@ -1882,7 +1893,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et il m’est ordonné d’être le premier des Musulmans. »"
   },
   {
     "id": "az-zumar-13",
@@ -1891,7 +1903,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍ",
     "textSimple": "قل إنىٓ أخاف إن عصيت ربى عذاب يوم عظيم",
     "transliteration": "qul innī akhāfu in ʿaṣaytu rabbī ʿadhāba yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "Say, \"Indeed I fear, if I should disobey my Lord, the punishment of a tremendous Day.\"",
     "words": [
       {
         "id": "az-zumar-13-1",
@@ -1957,7 +1969,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je crains, si je désobéis à mon Seigneur, le supplice d’un très grand jour. »"
   },
   {
     "id": "az-zumar-14",
@@ -1966,7 +1979,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصًا لَّهُۥ دِينِى",
     "textSimple": "قل ٱلله أعبد مخلصا له دينى",
     "transliteration": "quli l-laha aʿbudu mukh'liṣan lahu dīnī",
-    "translation": "",
+    "translation": "Say, \"Allāh [alone] do I worship, sincere to Him in my religion,",
     "words": [
       {
         "id": "az-zumar-14-1",
@@ -2011,7 +2024,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est Allah Que j’adore en Lui vouant un culte sincère."
   },
   {
     "id": "az-zumar-15",
@@ -2020,7 +2034,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱعْبُدُوا۟ مَا شِئْتُم مِّن دُونِهِۦ ۗ قُلْ إِنَّ ٱلْخَـٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ",
     "textSimple": "فٱعبدوا ما شئتم من دونه  قل إن ٱلخـسرين ٱلذين خسروٓا أنفسهم وأهليهم يوم ٱلقيـمة  ألا ذلك هو ٱلخسران ٱلمبين",
     "transliteration": "fa-uʿ'budū mā shi'tum min dūnihi qul inna l-khāsirīna alladhīna khasirū anfusahum wa-ahlīhim yawma l-qiyāmati alā dhālika huwa l-khus'rānu l-mubīnu",
-    "translation": "",
+    "translation": "So worship what you will besides Him.\" Say, \"Indeed, the losers are the ones who will lose themselves and their families on the Day of Resurrection. Unquestionably, that is the manifest loss.\"",
     "words": [
       {
         "id": "az-zumar-15-1",
@@ -2156,7 +2170,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adorez donc ce qui vous plaira en dehors de Lui ! » Dis encore : « Les perdants sont bien ceux-là qui, au Jour de la Résurrection, auront perdu leurs âmes et celles de leurs familles. C’est bien cela la perte (la plus) manifeste."
   },
   {
     "id": "az-zumar-16",
@@ -2165,7 +2180,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "لَهُم مِّن فَوْقِهِمْ ظُلَلٌ مِّنَ ٱلنَّارِ وَمِن تَحْتِهِمْ ظُلَلٌ ۚ ذَٰلِكَ يُخَوِّفُ ٱللَّهُ بِهِۦ عِبَادَهُۥ ۚ يَـٰعِبَادِ فَٱتَّقُونِ",
     "textSimple": "لهم من فوقهم ظلل من ٱلنار ومن تحتهم ظلل  ذلك يخوف ٱلله به عباده  يـعباد فٱتقون",
     "transliteration": "lahum min fawqihim ẓulalun mina l-nāri wamin taḥtihim ẓulalun dhālika yukhawwifu l-lahu bihi ʿibādahu yāʿibādi fa-ittaqūni",
-    "translation": "",
+    "translation": "They will have canopies [i.e., layers] of fire above them and below them, canopies. By that Allāh threatens [i.e., warns] His servants. O My servants, then fear Me.",
     "words": [
       {
         "id": "az-zumar-16-1",
@@ -2280,7 +2295,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au-dessus d’eux, comme au-dessous, il y aura des nuées de feu ardent. C’est cela qu’Allah fait craindre à Ses serviteurs. « Ô vous Mes serviteurs, craignez-Moi donc ! »"
   },
   {
     "id": "az-zumar-17",
@@ -2289,7 +2305,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ٱجْتَنَبُوا۟ ٱلطَّـٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓا۟ إِلَى ٱللَّهِ لَهُمُ ٱلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ",
     "textSimple": "وٱلذين ٱجتنبوا ٱلطـغوت أن يعبدوها وأنابوٓا إلى ٱلله لهم ٱلبشرى  فبشر عباد",
     "transliteration": "wa-alladhīna ij'tanabū l-ṭāghūta an yaʿbudūhā wa-anābū ilā l-lahi lahumu l-bush'rā fabashir ʿibādi",
-    "translation": "",
+    "translation": "But those who have avoided ṭāghūt, lest they worship it, and turned back to Allāh - for them are good tidings. So give good tidings to My servants",
     "words": [
       {
         "id": "az-zumar-17-1",
@@ -2376,7 +2392,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui évitent d’adorer les fausses divinités (le Taghût), et reviennent repentants à Allah, apprendront une heureuse nouvelle. Annonce-la donc à Mes serviteurs"
   },
   {
     "id": "az-zumar-18",
@@ -2385,7 +2402,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَسْتَمِعُونَ ٱلْقَوْلَ فَيَتَّبِعُونَ أَحْسَنَهُۥٓ ۚ أُو۟لَـٰٓئِكَ ٱلَّذِينَ هَدَىٰهُمُ ٱللَّهُ ۖ وَأُو۟لَـٰٓئِكَ هُمْ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ",
     "textSimple": "ٱلذين يستمعون ٱلقول فيتبعون أحسنهٓ  أولـٓئك ٱلذين هدىهم ٱلله  وأولـٓئك هم أولوا ٱلألبـب",
     "transliteration": "alladhīna yastamiʿūna l-qawla fayattabiʿūna aḥsanahu ulāika alladhīna hadāhumu l-lahu wa-ulāika hum ulū l-albābi",
-    "translation": "",
+    "translation": "Who listen to speech and follow the best of it. Those are the ones Allāh has guided, and those are people of understanding.",
     "words": [
       {
         "id": "az-zumar-18-1",
@@ -2479,7 +2496,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui écoutent la Parole et suivent ce qu’elle contient de meilleur. Ce sont eux qu’Allah a guidés, et ce sont eux les esprits sagaces."
   },
   {
     "id": "az-zumar-19",
@@ -2488,7 +2506,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَنْ حَقَّ عَلَيْهِ كَلِمَةُ ٱلْعَذَابِ أَفَأَنتَ تُنقِذُ مَن فِى ٱلنَّارِ",
     "textSimple": "أفمن حق عليه كلمة ٱلعذاب أفأنت تنقذ من فى ٱلنار",
     "transliteration": "afaman ḥaqqa ʿalayhi kalimatu l-ʿadhābi afa-anta tunqidhu man fī l-nāri",
-    "translation": "",
+    "translation": "Then, is one who has deserved the decree of punishment [to be guided]? Then, can you save one who is in the Fire?",
     "words": [
       {
         "id": "az-zumar-19-1",
@@ -2561,7 +2579,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce que celui sur qui s’accomplira le verdict d’Allah (peut être guidé ?) Peux-tu donc sauver celui qui est plongé dans le Feu ?"
   },
   {
     "id": "az-zumar-20",
@@ -2570,7 +2589,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "لَـٰكِنِ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ لَهُمْ غُرَفٌ مِّن فَوْقِهَا غُرَفٌ مَّبْنِيَّةٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ وَعْدَ ٱللَّهِ ۖ لَا يُخْلِفُ ٱللَّهُ ٱلْمِيعَادَ",
     "textSimple": "لـكن ٱلذين ٱتقوا ربهم لهم غرف من فوقها غرف مبنية تجرى من تحتها ٱلأنهـر  وعد ٱلله  لا يخلف ٱلله ٱلميعاد",
     "transliteration": "lākini alladhīna ittaqaw rabbahum lahum ghurafun min fawqihā ghurafun mabniyyatun tajrī min taḥtihā l-anhāru waʿda l-lahi lā yukh'lifu l-lahu l-mīʿāda",
-    "translation": "",
+    "translation": "But those who have feared their Lord - for them are chambers, above them chambers built high, beneath which rivers flow. [This is] the promise of Allāh. Allāh does not fail in [His] promise.",
     "words": [
       {
         "id": "az-zumar-20-1",
@@ -2713,7 +2732,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui craignent leur Seigneur auront, quant à eux, des appartements au-dessus desquels sont construits d’autres appartements, et sous lesquels coulent les rivières. Telle est la promesse d’Allah, et Allah ne manque jamais à Sa promesse !"
   },
   {
     "id": "az-zumar-21",
@@ -2722,7 +2742,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُۥ يَنَـٰبِيعَ فِى ٱلْأَرْضِ ثُمَّ يُخْرِجُ بِهِۦ زَرْعًا مُّخْتَلِفًا أَلْوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَجْعَلُهُۥ حُطَـٰمًا ۚ إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَـٰبِ",
     "textSimple": "ألم تر أن ٱلله أنزل من ٱلسمآء مآء فسلكه ينـبيع فى ٱلأرض ثم يخرج به زرعا مختلفا ألونه ثم يهيج فترىه مصفرا ثم يجعله حطـما  إن فى ذلك لذكرى لأولى ٱلألبـب",
     "transliteration": "alam tara anna l-laha anzala mina l-samāi māan fasalakahu yanābīʿa fī l-arḍi thumma yukh'riju bihi zarʿan mukh'talifan alwānuhu thumma yahīju fatarāhu muṣ'farran thumma yajʿaluhu ḥuṭāman inna fī dhālika ladhik'rā li-ulī l-albābi",
-    "translation": "",
+    "translation": "Do you not see that Allāh sends down rain from the sky and makes it flow as springs [and rivers] in the earth; then He produces thereby crops of varying colors; then they dry and you see them turned yellow; then He makes them [scattered] debris. Indeed in that is a reminder for those of understanding.",
     "words": [
       {
         "id": "az-zumar-21-1",
@@ -2942,7 +2962,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’Allah fait descendre du ciel une eau qu’Il fait s’infiltrer sous terre (pour la faire jaillir) en sources vives ? Il fait pousser par elle des cultures aux couleurs variées qui, après avoir crû en abondance, finissent par jaunir, puis Il les réduit en amas de brindilles desséchées. C’est là un rappel pour les esprits sagaces."
   },
   {
     "id": "az-zumar-22",
@@ -2951,7 +2972,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن شَرَحَ ٱللَّهُ صَدْرَهُۥ لِلْإِسْلَـٰمِ فَهُوَ عَلَىٰ نُورٍ مِّن رَّبِّهِۦ ۚ فَوَيْلٌ لِّلْقَـٰسِيَةِ قُلُوبُهُم مِّن ذِكْرِ ٱللَّهِ ۚ أُو۟لَـٰٓئِكَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "أفمن شرح ٱلله صدره للإسلـم فهو على نور من ربه  فويل للقـسية قلوبهم من ذكر ٱلله  أولـٓئك فى ضلـل مبين",
     "transliteration": "afaman sharaḥa l-lahu ṣadrahu lil'is'lāmi fahuwa ʿalā nūrin min rabbihi fawaylun lil'qāsiyati qulūbuhum min dhik'ri l-lahi ulāika fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "So is one whose breast Allāh has expanded to [accept] Islām and he is upon [i.e., guided by] a light from his Lord [like one whose heart rejects it]? Then woe to those whose hearts are hardened against the remembrance of Allāh. Those are in manifest error.",
     "words": [
       {
         "id": "az-zumar-22-1",
@@ -3094,7 +3115,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui dont Allah a ouvert le cœur à l’Islam, et qui se conduit à la lumière de son Seigneur, (est-il pareil au mécréant?) Malheur à ceux dont le cœur endurci délaisse l’évocation d’Allah. Ceux-là sont en plein égarement."
   },
   {
     "id": "az-zumar-23",
@@ -3103,7 +3125,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَـٰبًا مُّتَشَـٰبِهًا مَّثَانِىَ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
     "textSimple": "ٱلله نزل أحسن ٱلحديث كتـبا متشـبها مثانى تقشعر منه جلود ٱلذين يخشون ربهم ثم تلين جلودهم وقلوبهم إلى ذكر ٱلله  ذلك هدى ٱلله يهدى به من يشآء  ومن يضلل ٱلله فما له من هاد",
     "transliteration": "al-lahu nazzala aḥsana l-ḥadīthi kitāban mutashābihan mathāniya taqshaʿirru min'hu julūdu alladhīna yakhshawna rabbahum thumma talīnu julūduhum waqulūbuhum ilā dhik'ri l-lahi dhālika hudā l-lahi yahdī bihi man yashāu waman yuḍ'lili l-lahu famā lahu min hādin",
-    "translation": "",
+    "translation": "Allāh has sent down the best statement: a consistent Book wherein is reiteration. The skins shiver therefrom of those who fear their Lord; then their skins and their hearts relax at the remembrance [i.e., mention] of Allāh. That is the guidance of Allāh by which He guides whom He wills. And one whom Allāh sends astray - for him there is no guide.",
     "words": [
       {
         "id": "az-zumar-23-1",
@@ -3344,7 +3366,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a fait descendre (en révélation) le meilleur des discours : un Livre dont (les versets) se ressemblent et se reprennent (en écho). Ceux qui craignent leur Seigneur en ont l’épiderme tout hérissé, puis leurs peaux et leurs cœurs s’adoucissent à l’évocation d’Allah. Voilà la bonne direction (hudâ) d’Allah vers laquelle Il conduit qui Il veut. Quant à celui qu’Allah entend égarer, celui-là n’a point de guide."
   },
   {
     "id": "az-zumar-24",
@@ -3353,7 +3376,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن يَتَّقِى بِوَجْهِهِۦ سُوٓءَ ٱلْعَذَابِ يَوْمَ ٱلْقِيَـٰمَةِ ۚ وَقِيلَ لِلظَّـٰلِمِينَ ذُوقُوا۟ مَا كُنتُمْ تَكْسِبُونَ",
     "textSimple": "أفمن يتقى بوجهه سوٓء ٱلعذاب يوم ٱلقيـمة  وقيل للظـلمين ذوقوا ما كنتم تكسبون",
     "transliteration": "afaman yattaqī biwajhihi sūa l-ʿadhābi yawma l-qiyāmati waqīla lilẓẓālimīna dhūqū mā kuntum taksibūna",
-    "translation": "",
+    "translation": "Then is he who will shield with his face the worst of the punishment on the Day of Resurrection [like one secure from it]? And it will be said to the wrongdoers, \"Taste what you used to earn.\"",
     "words": [
       {
         "id": "az-zumar-24-1",
@@ -3447,7 +3470,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui, au Jour de la Résurrection, n’aura que son visage pour se protéger contre le pire des supplices sera-t-il (pareil à l’hôte du Paradis ?) Il sera dit aux injustes : « Goûtez donc aux conséquences des œuvres que vous avez acquises ! »"
   },
   {
     "id": "az-zumar-25",
@@ -3456,7 +3480,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ",
     "textSimple": "كذب ٱلذين من قبلهم فأتىهم ٱلعذاب من حيث لا يشعرون",
     "transliteration": "kadhaba alladhīna min qablihim fa-atāhumu l-ʿadhābu min ḥaythu lā yashʿurūna",
-    "translation": "",
+    "translation": "Those before them denied, and punishment came upon them from where they did not perceive.",
     "words": [
       {
         "id": "az-zumar-25-1",
@@ -3529,7 +3553,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui vécurent avant eux avaient aussi crié au mensonge, et le supplice fondit sur eux par où ils ne le sentaient point (venir)."
   },
   {
     "id": "az-zumar-26",
@@ -3538,7 +3563,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَذَاقَهُمُ ٱللَّهُ ٱلْخِزْىَ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
     "textSimple": "فأذاقهم ٱلله ٱلخزى فى ٱلحيوة ٱلدنيا  ولعذاب ٱلـٔاخرة أكبر  لو كانوا يعلمون",
     "transliteration": "fa-adhāqahumu l-lahu l-khiz'ya fī l-ḥayati l-dun'yā walaʿadhābu l-ākhirati akbaru law kānū yaʿlamūna",
-    "translation": "",
+    "translation": "So Allāh made them taste disgrace in worldly life. But the punishment of the Hereafter is greater, if they only knew.",
     "words": [
       {
         "id": "az-zumar-26-1",
@@ -3625,7 +3650,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah leur fit goûter alors l’humiliation en ce bas monde, mais le supplice de l’autre monde est certes plus grand encore, pour peu qu’ils le sachent."
   },
   {
     "id": "az-zumar-27",
@@ -3634,7 +3660,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ضَرَبْنَا لِلنَّاسِ فِى هَـٰذَا ٱلْقُرْءَانِ مِن كُلِّ مَثَلٍ لَّعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": "ولقد ضربنا للناس فى هـذا ٱلقرءان من كل مثل لعلهم يتذكرون",
     "transliteration": "walaqad ḍarabnā lilnnāsi fī hādhā l-qur'āni min kulli mathalin laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "And We have certainly presented for the people in this Qur’ān from every [kind of] example - that they might remember.",
     "words": [
       {
         "id": "az-zumar-27-1",
@@ -3714,7 +3740,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons proposé aux hommes, dans ce Coran, toutes sortes d’exemples pour qu’ils se souviennent."
   },
   {
     "id": "az-zumar-28",
@@ -3723,7 +3750,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُرْءَانًا عَرَبِيًّا غَيْرَ ذِى عِوَجٍ لَّعَلَّهُمْ يَتَّقُونَ",
     "textSimple": "قرءانا عربيا غير ذى عوج لعلهم يتقون",
     "transliteration": "qur'ānan ʿarabiyyan ghayra dhī ʿiwajin laʿallahum yattaqūna",
-    "translation": "",
+    "translation": "[It is] an Arabic Qur’ān, without any deviance that they might become righteous.",
     "words": [
       {
         "id": "az-zumar-28-1",
@@ -3775,7 +3802,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Coran (en langue) arabe, exempt de toute imperfection afin qu’ils craignent (Allah)."
   },
   {
     "id": "az-zumar-29",
@@ -3784,7 +3812,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "ضَرَبَ ٱللَّهُ مَثَلًا رَّجُلًا فِيهِ شُرَكَآءُ مُتَشَـٰكِسُونَ وَرَجُلًا سَلَمًا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
     "textSimple": "ضرب ٱلله مثلا رجلا فيه شركآء متشـكسون ورجلا سلما لرجل هل يستويان مثلا  ٱلحمد لله  بل أكثرهم لا يعلمون",
     "transliteration": "ḍaraba l-lahu mathalan rajulan fīhi shurakāu mutashākisūna warajulan salaman lirajulin hal yastawiyāni mathalan l-ḥamdu lillahi bal aktharuhum lā yaʿlamūna",
-    "translation": "",
+    "translation": "Allāh presents an example: a man [i.e., slave] owned by quarreling partners and another belonging exclusively to one man - are they equal in comparison? Praise be to Allāh! But most of them do not know.",
     "words": [
       {
         "id": "az-zumar-29-1",
@@ -3920,7 +3948,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah cite en exemple tel homme dépendant de plusieurs associés qui se le disputent (en permanence), et tel autre qui ne dépend que d’un seul (maître) : les deux hommes sont-ils comparables ? Louange à Allah ! Or la plupart d’entre eux ne le savent pas !"
   },
   {
     "id": "az-zumar-30",
@@ -3929,7 +3958,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكَ مَيِّتٌ وَإِنَّهُم مَّيِّتُونَ",
     "textSimple": "إنك ميت وإنهم ميتون",
     "transliteration": "innaka mayyitun wa-innahum mayyitūna",
-    "translation": "",
+    "translation": "Indeed, you are to die, and indeed, they are to die.",
     "words": [
       {
         "id": "az-zumar-30-1",
@@ -3960,7 +3989,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes tu mourras, et ils mourront (de même)."
   },
   {
     "id": "az-zumar-31",
@@ -3969,7 +3999,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَـٰمَةِ عِندَ رَبِّكُمْ تَخْتَصِمُونَ",
     "textSimple": "ثم إنكم يوم ٱلقيـمة عند ربكم تختصمون",
     "transliteration": "thumma innakum yawma l-qiyāmati ʿinda rabbikum takhtaṣimūna",
-    "translation": "",
+    "translation": "Then indeed you, on the Day of Resurrection, before your Lord, will dispute.",
     "words": [
       {
         "id": "az-zumar-31-1",
@@ -4021,7 +4051,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, au Jour de la Résurrection, auprès de votre Seigneur vous vous disputerez."
   },
   {
     "id": "az-zumar-32",
@@ -4030,7 +4061,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَمَنْ أَظْلَمُ مِمَّن كَذَبَ عَلَى ٱللَّهِ وَكَذَّبَ بِٱلصِّدْقِ إِذْ جَآءَهُۥٓ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْكَـٰفِرِينَ",
     "textSimple": " فمن أظلم ممن كذب على ٱلله وكذب بٱلصدق إذ جآءهٓ  أليس فى جهنم مثوى للكـفرين",
     "transliteration": "faman aẓlamu mimman kadhaba ʿalā l-lahi wakadhaba bil-ṣid'qi idh jāahu alaysa fī jahannama mathwan lil'kāfirīna",
-    "translation": "",
+    "translation": "So who is more unjust than one who lies about Allāh and denies the truth when it has come to him? Is there not in Hell a residence for the disbelievers?",
     "words": [
       {
         "id": "az-zumar-32-1",
@@ -4138,7 +4169,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui ment au sujet d’Allah et qui ose démentir la vérité quand elle lui parvient ? N’est-ce pas dans la Géhenne qu’il y a refuge pour les mécréants ?"
   },
   {
     "id": "az-zumar-33",
@@ -4147,7 +4179,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِى جَآءَ بِٱلصِّدْقِ وَصَدَّقَ بِهِۦٓ ۙ أُو۟لَـٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
     "textSimple": "وٱلذى جآء بٱلصدق وصدق بهٓ  أولـٓئك هم ٱلمتقون",
     "transliteration": "wa-alladhī jāa bil-ṣid'qi waṣaddaqa bihi ulāika humu l-mutaqūna",
-    "translation": "",
+    "translation": "And the one who has brought the truth [i.e., the Prophet (ﷺ)] and [they who] believed in it - those are the righteous.",
     "words": [
       {
         "id": "az-zumar-33-1",
@@ -4206,7 +4238,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui est venu apporter la vérité et ceux qui y ont accordé créance, ceux-là sont les gens pieux."
   },
   {
     "id": "az-zumar-34",
@@ -4215,7 +4248,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ جَزَآءُ ٱلْمُحْسِنِينَ",
     "textSimple": "لهم ما يشآءون عند ربهم  ذلك جزآء ٱلمحسنين",
     "transliteration": "lahum mā yashāūna ʿinda rabbihim dhālika jazāu l-muḥ'sinīna",
-    "translation": "",
+    "translation": "They will have whatever they desire with their Lord. That is the reward of the doers of good -",
     "words": [
       {
         "id": "az-zumar-34-1",
@@ -4274,7 +4307,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils auront ce qu’ils voudront auprès de leur Seigneur. Telle est la récompense des bienfaiteurs."
   },
   {
     "id": "az-zumar-35",
@@ -4283,7 +4317,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "لِيُكَفِّرَ ٱللَّهُ عَنْهُمْ أَسْوَأَ ٱلَّذِى عَمِلُوا۟ وَيَجْزِيَهُمْ أَجْرَهُم بِأَحْسَنِ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ليكفر ٱلله عنهم أسوأ ٱلذى عملوا ويجزيهم أجرهم بأحسن ٱلذى كانوا يعملون",
     "transliteration": "liyukaffira l-lahu ʿanhum aswa-a alladhī ʿamilū wayajziyahum ajrahum bi-aḥsani alladhī kānū yaʿmalūna",
-    "translation": "",
+    "translation": "That Allāh may remove from them the worst of what they did and reward them their due for the best of what they used to do.",
     "words": [
       {
         "id": "az-zumar-35-1",
@@ -4370,7 +4404,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah rachètera ce qu’ils auront commis de pire et les rétribuera selon ce qu’ils auront accompli de meilleur."
   },
   {
     "id": "az-zumar-36",
@@ -4379,7 +4414,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَلَيْسَ ٱللَّهُ بِكَافٍ عَبْدَهُۥ ۖ وَيُخَوِّفُونَكَ بِٱلَّذِينَ مِن دُونِهِۦ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
     "textSimple": "أليس ٱلله بكاف عبده  ويخوفونك بٱلذين من دونه  ومن يضلل ٱلله فما له من هاد",
     "transliteration": "alaysa l-lahu bikāfin ʿabdahu wayukhawwifūnaka bi-alladhīna min dūnihi waman yuḍ'lili l-lahu famā lahu min hādin",
-    "translation": "",
+    "translation": "Is not Allāh sufficient for His Servant [i.e., Prophet Muḥammad (ﷺ)]? And [yet], they threaten you with those [they worship] other than Him. And whoever Allāh leaves astray - for him there is no guide.",
     "words": [
       {
         "id": "az-zumar-36-1",
@@ -4487,7 +4522,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne suffit-Il donc pas pour protéger Son serviteur ? Ils cherchent cependant à t’effrayer par (ce qu’ils adorent) en dehors de Lui. Celui qu’Allah entend égarer n’aura point de guide."
   },
   {
     "id": "az-zumar-37",
@@ -4496,7 +4532,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ ۗ أَلَيْسَ ٱللَّهُ بِعَزِيزٍ ذِى ٱنتِقَامٍ",
     "textSimple": "ومن يهد ٱلله فما له من مضل  أليس ٱلله بعزيز ذى ٱنتقام",
     "transliteration": "waman yahdi l-lahu famā lahu min muḍillin alaysa l-lahu biʿazīzin dhī intiqāmin",
-    "translation": "",
+    "translation": "And whoever Allāh guides - for him there is no misleader. Is not Allāh Exalted in Might and Owner of Retribution?",
     "words": [
       {
         "id": "az-zumar-37-1",
@@ -4583,7 +4619,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et celui qu’Allah entend guider, nul ne pourra l’égarer. Allah n’est-Il pas Tout Puissant (et n’a-t-il pas) fait Sienne la Vengeance ?"
   },
   {
     "id": "az-zumar-38",
@@ -4592,7 +4629,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَـٰشِفَـٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَـٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
     "textSimple": "ولئن سألتهم من خلق ٱلسمـوت وٱلأرض ليقولن ٱلله  قل أفرءيتم ما تدعون من دون ٱلله إن أرادنى ٱلله بضر هل هن كـشفـت ضرهٓ أو أرادنى برحمة هل هن ممسكـت رحمته  قل حسبى ٱلله  عليه يتوكل ٱلمتوكلون",
     "transliteration": "wala-in sa-altahum man khalaqa l-samāwāti wal-arḍa layaqūlunna l-lahu qul afara-aytum mā tadʿūna min dūni l-lahi in arādaniya l-lahu biḍurrin hal hunna kāshifātu ḍurrihi aw arādanī biraḥmatin hal hunna mum'sikātu raḥmatihi qul ḥasbiya l-lahu ʿalayhi yatawakkalu l-mutawakilūna",
-    "translation": "",
+    "translation": "And if you asked them, \"Who created the heavens and the earth?\" they would surely say, \"Allāh.\" Say, \"Then have you considered what you invoke besides Allāh? If Allāh intended me harm, are they removers of His harm; or if He intended me mercy, are they withholders of His mercy?\" Say, \"Sufficient for me is Allāh; upon Him [alone] rely the [wise] reliers.\"",
     "words": [
       {
         "id": "az-zumar-38-1",
@@ -4847,7 +4884,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu leur demandes : « Qui a créé les cieux et la terre ? » ils diront : « Allah ! » Dis alors : « Pensez-vous que si Allah me voulait quelque mal, ceux que vous invoquez en dehors de Lui pourraient m’en préserver ? Et s’Il me voulait quelque miséricorde, pensez-vous que (ces divinités) pourraient la retenir? » Dis : « Qu’Allah me suffise ! C’est à Lui Seul que s’en remettent ceux qui cherchent à qui s’en remettre. »"
   },
   {
     "id": "az-zumar-39",
@@ -4856,7 +4894,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰقَوْمِ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى عَـٰمِلٌ ۖ فَسَوْفَ تَعْلَمُونَ",
     "textSimple": "قل يـقوم ٱعملوا على مكانتكم إنى عـمل  فسوف تعلمون",
     "transliteration": "qul yāqawmi iʿ'malū ʿalā makānatikum innī ʿāmilun fasawfa taʿlamūna",
-    "translation": "",
+    "translation": "Say, \"O my people, work according to your position, [for] indeed, I am working; and you are going to know",
     "words": [
       {
         "id": "az-zumar-39-1",
@@ -4922,7 +4960,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô peuple mien ! Agissez selon votre manière, j’agirai selon la mienne. Car vous allez bientôt savoir"
   },
   {
     "id": "az-zumar-40",
@@ -4931,7 +4970,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَيَحِلُّ عَلَيْهِ عَذَابٌ مُّقِيمٌ",
     "textSimple": "من يأتيه عذاب يخزيه ويحل عليه عذاب مقيم",
     "transliteration": "man yatīhi ʿadhābun yukh'zīhi wayaḥillu ʿalayhi ʿadhābun muqīmun",
-    "translation": "",
+    "translation": "To whom will come a torment disgracing him and on whom will descend an enduring punishment.\"",
     "words": [
       {
         "id": "az-zumar-40-1",
@@ -4990,7 +5029,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui subira un châtiment humiliant et sur qui s’abattra un éternel supplice. »"
   },
   {
     "id": "az-zumar-41",
@@ -4999,7 +5039,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ لِلنَّاسِ بِٱلْحَقِّ ۖ فَمَنِ ٱهْتَدَىٰ فَلِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ",
     "textSimple": "إنآ أنزلنا عليك ٱلكتـب للناس بٱلحق  فمن ٱهتدى فلنفسه  ومن ضل فإنما يضل عليها  ومآ أنت عليهم بوكيل",
     "transliteration": "innā anzalnā ʿalayka l-kitāba lilnnāsi bil-ḥaqi famani ih'tadā falinafsihi waman ḍalla fa-innamā yaḍillu ʿalayhā wamā anta ʿalayhim biwakīlin",
-    "translation": "",
+    "translation": "Indeed, We sent down to you the Book for the people in truth. So whoever is guided - it is for [the benefit of] his soul; and whoever goes astray only goes astray to its detriment. And you are not a manager [i.e., authority] over them.",
     "words": [
       {
         "id": "az-zumar-41-1",
@@ -5128,7 +5168,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre vers toi (en révélation) le Livre, (adressé) aux hommes en toute vérité. Quiconque empruntera la bonne voie l’aura fait pour lui-même, et quiconque s’égarera ne s’égarera que contre lui-même. Et tu n’as pas à te porter garant (de leurs propres causes)."
   },
   {
     "id": "az-zumar-42",
@@ -5137,7 +5178,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ يَتَوَفَّى ٱلْأَنفُسَ حِينَ مَوْتِهَا وَٱلَّتِى لَمْ تَمُتْ فِى مَنَامِهَا ۖ فَيُمْسِكُ ٱلَّتِى قَضَىٰ عَلَيْهَا ٱلْمَوْتَ وَيُرْسِلُ ٱلْأُخْرَىٰٓ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
     "textSimple": "ٱلله يتوفى ٱلأنفس حين موتها وٱلتى لم تمت فى منامها  فيمسك ٱلتى قضى عليها ٱلموت ويرسل ٱلأخرىٓ إلىٓ أجل مسمى  إن فى ذلك لـٔايـت لقوم يتفكرون",
     "transliteration": "al-lahu yatawaffā l-anfusa ḥīna mawtihā wa-allatī lam tamut fī manāmihā fayum'siku allatī qaḍā ʿalayhā l-mawta wayur'silu l-ukh'rā ilā ajalin musamman inna fī dhālika laāyātin liqawmin yatafakkarūna",
-    "translation": "",
+    "translation": "Allāh takes the souls at the time of their death, and those that do not die [He takes] during their sleep. Then He keeps those for which He has decreed death and releases the others for a specified term. Indeed in that are signs for a people who give thought.",
     "words": [
       {
         "id": "az-zumar-42-1",
@@ -5322,7 +5363,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah reprend les âmes au moment de leur mort, et celles qui ne meurent pas, (Il les reprend) au cours de leur sommeil. Il retient alors celles pour lesquelles Il a décrété le trépas, et libère les autres jusqu’à un terme déjà nommé. Il y a certes là des Signes pour des gens qui savent réfléchir."
   },
   {
     "id": "az-zumar-43",
@@ -5331,7 +5373,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَمِ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ شُفَعَآءَ ۚ قُلْ أَوَلَوْ كَانُوا۟ لَا يَمْلِكُونَ شَيْـًٔا وَلَا يَعْقِلُونَ",
     "textSimple": "أم ٱتخذوا من دون ٱلله شفعآء  قل أولو كانوا لا يملكون شيـٔا ولا يعقلون",
     "transliteration": "ami ittakhadhū min dūni l-lahi shufaʿāa qul awalaw kānū lā yamlikūna shayan walā yaʿqilūna",
-    "translation": "",
+    "translation": "Or have they taken other than Allāh as intercessors? Say, \"Even though they do not possess [power over] anything, nor do they reason?\"",
     "words": [
       {
         "id": "az-zumar-43-1",
@@ -5432,7 +5474,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou bien ont-ils pris, en dehors d’Allah, des intercesseurs ? Dis : « (Les adopteriez-vous) alors qu’ils ne détiennent nul pouvoir et sont privés de raison ? »"
   },
   {
     "id": "az-zumar-44",
@@ -5441,7 +5484,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُل لِّلَّهِ ٱلشَّفَـٰعَةُ جَمِيعًا ۖ لَّهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
     "textSimple": "قل لله ٱلشفـعة جميعا  له ملك ٱلسمـوت وٱلأرض  ثم إليه ترجعون",
     "transliteration": "qul lillahi l-shafāʿatu jamīʿan lahu mul'ku l-samāwāti wal-arḍi thumma ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "Say, \"To Allāh belongs [the right to allow] intercession entirely. To Him belongs the dominion of the heavens and the earth. Then to Him you will be returned.\"",
     "words": [
       {
         "id": "az-zumar-44-1",
@@ -5521,7 +5564,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « C’est à Allah que revient, tout entière, l’intercession. Il a la royauté des cieux et de la terre, puis c’est vers Lui que vous serez ramenés. »"
   },
   {
     "id": "az-zumar-45",
@@ -5530,7 +5574,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ذُكِرَ ٱللَّهُ وَحْدَهُ ٱشْمَأَزَّتْ قُلُوبُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ ۖ وَإِذَا ذُكِرَ ٱلَّذِينَ مِن دُونِهِۦٓ إِذَا هُمْ يَسْتَبْشِرُونَ",
     "textSimple": "وإذا ذكر ٱلله وحده ٱشمأزت قلوب ٱلذين لا يؤمنون بٱلـٔاخرة  وإذا ذكر ٱلذين من دونهٓ إذا هم يستبشرون",
     "transliteration": "wa-idhā dhukira l-lahu waḥdahu ish'ma-azzat qulūbu alladhīna lā yu'minūna bil-ākhirati wa-idhā dhukira alladhīna min dūnihi idhā hum yastabshirūna",
-    "translation": "",
+    "translation": "And when Allāh is mentioned alone, the hearts of those who do not believe in the Hereafter shrink with aversion, but when those [worshipped] other than Him are mentioned, immediately they rejoice.",
     "words": [
       {
         "id": "az-zumar-45-1",
@@ -5659,7 +5703,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Allah est évoqué Tout Seul, ceux qui ne croient pas en l’autre monde ont le cœur saisi d’aversion. Mais quand sont évoquées (les divinités qu’ils adorent) en dehors de Lui, ils sont transportés de joie."
   },
   {
     "id": "az-zumar-46",
@@ -5668,7 +5713,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱللَّهُمَّ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ عَـٰلِمَ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِى مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
     "textSimple": "قل ٱللهم فاطر ٱلسمـوت وٱلأرض عـلم ٱلغيب وٱلشهـدة أنت تحكم بين عبادك فى ما كانوا فيه يختلفون",
     "transliteration": "quli l-lahuma fāṭira l-samāwāti wal-arḍi ʿālima l-ghaybi wal-shahādati anta taḥkumu bayna ʿibādika fī mā kānū fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "Say, \"O Allāh, Creator of the heavens and the earth, Knower of the unseen and the witnessed, You will judge between your servants concerning that over which they used to differ.\"",
     "words": [
       {
         "id": "az-zumar-46-1",
@@ -5790,7 +5835,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô Allah ! Toi le Créateur Premier des cieux et de la terre, Qui Connais aussi bien les choses insondables que les choses observables, c’est Toi Qui jugeras entre Tes serviteurs (et trancheras) leurs différends."
   },
   {
     "id": "az-zumar-47",
@@ -5799,7 +5845,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّ لِلَّذِينَ ظَلَمُوا۟ مَا فِى ٱلْأَرْضِ جَمِيعًا وَمِثْلَهُۥ مَعَهُۥ لَٱفْتَدَوْا۟ بِهِۦ مِن سُوٓءِ ٱلْعَذَابِ يَوْمَ ٱلْقِيَـٰمَةِ ۚ وَبَدَا لَهُم مِّنَ ٱللَّهِ مَا لَمْ يَكُونُوا۟ يَحْتَسِبُونَ",
     "textSimple": "ولو أن للذين ظلموا ما فى ٱلأرض جميعا ومثله معه لٱفتدوا به من سوٓء ٱلعذاب يوم ٱلقيـمة  وبدا لهم من ٱلله ما لم يكونوا يحتسبون",
     "transliteration": "walaw anna lilladhīna ẓalamū mā fī l-arḍi jamīʿan wamith'lahu maʿahu la-if'tadaw bihi min sūi l-ʿadhābi yawma l-qiyāmati wabadā lahum mina l-lahi mā lam yakūnū yaḥtasibūna",
-    "translation": "",
+    "translation": "And if those who did wrong had all that is in the earth entirely and the like of it with it, they would [attempt to] ransom themselves thereby from the worst of the punishment on the Day of Resurrection. And there will appear to them from Allāh that which they had not taken into account.",
     "words": [
       {
         "id": "az-zumar-47-1",
@@ -5977,7 +6023,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si ceux qui ont été injustes possédaient tout ce qu’il y a sur terre, et (qu’y soit ajoutée) une fois autant (de possession), ils le paieraient volontiers en rançon pour échapper au pire des supplices au Jour de la Résurrection. (Ce jour-là) il leur apparaîtra, (venant) d’Allah, ce à quoi ils ne s’attendaient guère."
   },
   {
     "id": "az-zumar-48",
@@ -5986,7 +6033,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَبَدَا لَهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "وبدا لهم سيـٔات ما كسبوا وحاق بهم ما كانوا به يستهزءون",
     "transliteration": "wabadā lahum sayyiātu mā kasabū waḥāqa bihim mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And there will appear to them the evils they had earned, and they will be enveloped by what they used to ridicule.",
     "words": [
       {
         "id": "az-zumar-48-1",
@@ -6066,7 +6113,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur apparaîtra aussi (la rétribution) de ce qu’ils auront commis de mauvais, et ils seront cernés par le (châtiment) dont ils se seront moqués."
   },
   {
     "id": "az-zumar-49",
@@ -6075,7 +6123,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا مَسَّ ٱلْإِنسَـٰنَ ضُرٌّ دَعَانَا ثُمَّ إِذَا خَوَّلْنَـٰهُ نِعْمَةً مِّنَّا قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍۭ ۚ بَلْ هِىَ فِتْنَةٌ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "فإذا مس ٱلإنسـن ضر دعانا ثم إذا خولنـه نعمة منا قال إنمآ أوتيته على علم  بل هى فتنة ولـكن أكثرهم لا يعلمون",
     "transliteration": "fa-idhā massa l-insāna ḍurrun daʿānā thumma idhā khawwalnāhu niʿ'matan minnā qāla innamā ūtītuhu ʿalā ʿil'min bal hiya fit'natun walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "And when adversity touches man, he calls upon Us; then when We bestow on him a favor from Us, he says, \"I have only been given it because of [my] knowledge.\" Rather, it is a trial, but most of them do not know.",
     "words": [
       {
         "id": "az-zumar-49-1",
@@ -6232,7 +6280,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand un malheur atteint l’homme, il Nous implore, mais dès que Nous le comblons d’un bienfait, il dit : « Je l’ai obtenu grâce à une science que je détiens. » Or, c’est une épreuve, mais la plupart d’entre eux ne le savent point."
   },
   {
     "id": "az-zumar-50",
@@ -6241,7 +6290,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ قَالَهَا ٱلَّذِينَ مِن قَبْلِهِمْ فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "قد قالها ٱلذين من قبلهم فمآ أغنى عنهم ما كانوا يكسبون",
     "transliteration": "qad qālahā alladhīna min qablihim famā aghnā ʿanhum mā kānū yaksibūna",
-    "translation": "",
+    "translation": "Those before them had already said it, but they were not availed by what they used to earn.",
     "words": [
       {
         "id": "az-zumar-50-1",
@@ -6321,7 +6370,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ce que disaient ceux qui les ont précédés. Or ce qu’ils avaient acquis ne leur aura servi à rien."
   },
   {
     "id": "az-zumar-51",
@@ -6330,7 +6380,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَصَابَهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ ۚ وَٱلَّذِينَ ظَلَمُوا۟ مِنْ هَـٰٓؤُلَآءِ سَيُصِيبُهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ وَمَا هُم بِمُعْجِزِينَ",
     "textSimple": "فأصابهم سيـٔات ما كسبوا  وٱلذين ظلموا من هـٓؤلآء سيصيبهم سيـٔات ما كسبوا وما هم بمعجزين",
     "transliteration": "fa-aṣābahum sayyiātu mā kasabū wa-alladhīna ẓalamū min hāulāi sayuṣībuhum sayyiātu mā kasabū wamā hum bimuʿ'jizīna",
-    "translation": "",
+    "translation": "And the evil consequences of what they earned struck them. And those who have wronged of these [people] will be struck [i.e., afflicted] by the evil consequences of what they earned; and they will not cause failure.",
     "words": [
       {
         "id": "az-zumar-51-1",
@@ -6438,7 +6488,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils furent frappés par (les conséquences) de ce qu’ils ont commis de mauvais, et les injustes parmi ceux-là seront (également) frappés par (les conséquences) de ce qu’ils auront commis de mauvais. Et ils ne pourront mettre au défi la puissance (d’Allah)."
   },
   {
     "id": "az-zumar-52",
@@ -6447,7 +6498,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "أولم يعلموٓا أن ٱلله يبسط ٱلرزق لمن يشآء ويقدر  إن فى ذلك لـٔايـت لقوم يؤمنون",
     "transliteration": "awalam yaʿlamū anna l-laha yabsuṭu l-riz'qa liman yashāu wayaqdiru inna fī dhālika laāyātin liqawmin yu'minūna",
-    "translation": "",
+    "translation": "Do they not know that Allāh extends provision for whom He wills and restricts [it]? Indeed in that are signs for a people who believe.",
     "words": [
       {
         "id": "az-zumar-52-1",
@@ -6555,7 +6606,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne savent-ils donc pas qu’Allah dispense Ses biens, avec générosité ou parcimonie, à qui Il veut ? Il y a certes là des Signes pour des gens qui croient."
   },
   {
     "id": "az-zumar-53",
@@ -6564,7 +6616,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
     "textSimple": " قل يـعبادى ٱلذين أسرفوا علىٓ أنفسهم لا تقنطوا من رحمة ٱلله  إن ٱلله يغفر ٱلذنوب جميعا  إنه هو ٱلغفور ٱلرحيم",
     "transliteration": "qul yāʿibādiya alladhīna asrafū ʿalā anfusihim lā taqnaṭū min raḥmati l-lahi inna l-laha yaghfiru l-dhunūba jamīʿan innahu huwa l-ghafūru l-raḥīmu",
-    "translation": "",
+    "translation": "Say, \"O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allāh. Indeed, Allāh forgives all sins. Indeed, it is He who is the Forgiving, the Merciful.\"",
     "words": [
       {
         "id": "az-zumar-53-1",
@@ -6707,7 +6759,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô vous Mes serviteurs, qui avez été excessifs envers vous-mêmes ! Ne désespérez point de la miséricorde d’Allah, car Allah pardonne tous les péchés, Lui Qui est l’Absoluteur, le Tout Miséricordieux !"
   },
   {
     "id": "az-zumar-54",
@@ -6716,7 +6769,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ مِن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ ثُمَّ لَا تُنصَرُونَ",
     "textSimple": "وأنيبوٓا إلى ربكم وأسلموا له من قبل أن يأتيكم ٱلعذاب ثم لا تنصرون",
     "transliteration": "wa-anībū ilā rabbikum wa-aslimū lahu min qabli an yatiyakumu l-ʿadhābu thumma lā tunṣarūna",
-    "translation": "",
+    "translation": "And return [in repentance] to your Lord and submit to Him before the punishment comes upon you; then you will not be helped.",
     "words": [
       {
         "id": "az-zumar-54-1",
@@ -6810,7 +6863,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Revenez repentants vers votre Seigneur ! Soumettez-vous entièrement à Lui, avant que le supplice ne fonde sur vous et, alors, vous ne serez point secourus !"
   },
   {
     "id": "az-zumar-55",
@@ -6819,7 +6873,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّبِعُوٓا۟ أَحْسَنَ مَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُم مِّن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ بَغْتَةً وَأَنتُمْ لَا تَشْعُرُونَ",
     "textSimple": "وٱتبعوٓا أحسن مآ أنزل إليكم من ربكم من قبل أن يأتيكم ٱلعذاب بغتة وأنتم لا تشعرون",
     "transliteration": "wa-ittabiʿū aḥsana mā unzila ilaykum min rabbikum min qabli an yatiyakumu l-ʿadhābu baghtatan wa-antum lā tashʿurūna",
-    "translation": "",
+    "translation": "And follow the best of what was revealed to you from your Lord [i.e., the Qur’ān] before the punishment comes upon you suddenly while you do not perceive,",
     "words": [
       {
         "id": "az-zumar-55-1",
@@ -6934,7 +6988,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suivez la meilleure révélation qui est descendue vers vous de la part de votre Seigneur, avant que le supplice ne s’abatte sur vous soudainement sans que vous ne le sentiez (venir) ;"
   },
   {
     "id": "az-zumar-56",
@@ -6943,7 +6998,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَن تَقُولَ نَفْسٌ يَـٰحَسْرَتَىٰ عَلَىٰ مَا فَرَّطتُ فِى جَنۢبِ ٱللَّهِ وَإِن كُنتُ لَمِنَ ٱلسَّـٰخِرِينَ",
     "textSimple": "أن تقول نفس يـحسرتى على ما فرطت فى جنب ٱلله وإن كنت لمن ٱلسـخرين",
     "transliteration": "an taqūla nafsun yāḥasratā ʿalā mā farraṭtu fī janbi l-lahi wa-in kuntu lamina l-sākhirīna",
-    "translation": "",
+    "translation": "Lest a soul should say, \"Oh, [how great is] my regret over what I neglected in regard to Allāh and that I was among the mockers.\"",
     "words": [
       {
         "id": "az-zumar-56-1",
@@ -7044,7 +7099,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "avant que nulle âme ne dise : « Malheur à moi qui ai failli à mes devoirs envers Allah. J’ai été certes parmi ceux qui s’en moquaient ! »"
   },
   {
     "id": "az-zumar-57",
@@ -7053,7 +7109,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ تَقُولَ لَوْ أَنَّ ٱللَّهَ هَدَىٰنِى لَكُنتُ مِنَ ٱلْمُتَّقِينَ",
     "textSimple": "أو تقول لو أن ٱلله هدىنى لكنت من ٱلمتقين",
     "transliteration": "aw taqūla law anna l-laha hadānī lakuntu mina l-mutaqīna",
-    "translation": "",
+    "translation": "Or [lest] it say, \"If only Allāh had guided me, I would have been among the righteous.\"",
     "words": [
       {
         "id": "az-zumar-57-1",
@@ -7119,7 +7175,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou qu’elle ne dise : « Si Allah m’avait guidée, j’aurais été du nombre des gens pieux ! »"
   },
   {
     "id": "az-zumar-58",
@@ -7128,7 +7185,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ تَقُولَ حِينَ تَرَى ٱلْعَذَابَ لَوْ أَنَّ لِى كَرَّةً فَأَكُونَ مِنَ ٱلْمُحْسِنِينَ",
     "textSimple": "أو تقول حين ترى ٱلعذاب لو أن لى كرة فأكون من ٱلمحسنين",
     "transliteration": "aw taqūla ḥīna tarā l-ʿadhāba law anna lī karratan fa-akūna mina l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Or [lest] it say when it sees the punishment, \"If only I had another turn so I could be among the doers of good.\"",
     "words": [
       {
         "id": "az-zumar-58-1",
@@ -7215,7 +7272,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou qu’elle ne dise encore, en voyant le supplice : « Si seulement m’était accordée une seconde chance, je serais certainement du nombre des bienfaiteurs ! »"
   },
   {
     "id": "az-zumar-59",
@@ -7224,7 +7282,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰ قَدْ جَآءَتْكَ ءَايَـٰتِى فَكَذَّبْتَ بِهَا وَٱسْتَكْبَرْتَ وَكُنتَ مِنَ ٱلْكَـٰفِرِينَ",
     "textSimple": "بلى قد جآءتك ءايـتى فكذبت بها وٱستكبرت وكنت من ٱلكـفرين",
     "transliteration": "balā qad jāatka āyātī fakadhabta bihā wa-is'takbarta wakunta mina l-kāfirīna",
-    "translation": "",
+    "translation": "But yes, there had come to you My verses, but you denied them and were arrogant, and you were among the disbelievers.",
     "words": [
       {
         "id": "az-zumar-59-1",
@@ -7297,7 +7355,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non (il est trop tard), Mes Signes te sont bien parvenus mais tu as osé les démentir et, plein de dédain, tu as été du nombre des mécréants. »"
   },
   {
     "id": "az-zumar-60",
@@ -7306,7 +7365,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ ٱلْقِيَـٰمَةِ تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْمُتَكَبِّرِينَ",
     "textSimple": "ويوم ٱلقيـمة ترى ٱلذين كذبوا على ٱلله وجوههم مسودة  أليس فى جهنم مثوى للمتكبرين",
     "transliteration": "wayawma l-qiyāmati tarā alladhīna kadhabū ʿalā l-lahi wujūhuhum mus'waddatun alaysa fī jahannama mathwan lil'mutakabbirīna",
-    "translation": "",
+    "translation": "And on the Day of Resurrection you will see those who lied about Allāh [with] their faces blackened. Is there not in Hell a residence for the arrogant?",
     "words": [
       {
         "id": "az-zumar-60-1",
@@ -7407,7 +7466,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au Jour de la Résurrection, tu verras ceux qui auront débité des mensonges au sujet d’Allah, le visage sombre. N’est-ce pas dans la Géhenne que sera le refuge des orgueilleux ?"
   },
   {
     "id": "az-zumar-61",
@@ -7416,7 +7476,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَيُنَجِّى ٱللَّهُ ٱلَّذِينَ ٱتَّقَوْا۟ بِمَفَازَتِهِمْ لَا يَمَسُّهُمُ ٱلسُّوٓءُ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "وينجى ٱلله ٱلذين ٱتقوا بمفازتهم لا يمسهم ٱلسوٓء ولا هم يحزنون",
     "transliteration": "wayunajjī l-lahu alladhīna ittaqaw bimafāzatihim lā yamassuhumu l-sūu walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "And Allāh will save those who feared Him by their attainment; no evil will touch them, nor will they grieve.",
     "words": [
       {
         "id": "az-zumar-61-1",
@@ -7496,7 +7556,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah sauvera ceux qui auront fait montre de piété en leur assurant le succès. Ils ne seront atteints d’aucun mal et ils n’auront aucune affliction."
   },
   {
     "id": "az-zumar-62",
@@ -7505,7 +7566,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ خَـٰلِقُ كُلِّ شَىْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
     "textSimple": "ٱلله خـلق كل شىء  وهو على كل شىء وكيل",
     "transliteration": "al-lahu khāliqu kulli shayin wahuwa ʿalā kulli shayin wakīlun",
-    "translation": "",
+    "translation": "Allāh is the Creator of all things, and He is, over all things, Disposer of affairs.",
     "words": [
       {
         "id": "az-zumar-62-1",
@@ -7571,7 +7632,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est le Créateur de Toute chose, et Il est de Toute chose Garant."
   },
   {
     "id": "az-zumar-63",
@@ -7580,7 +7642,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "لَّهُۥ مَقَالِيدُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "له مقاليد ٱلسمـوت وٱلأرض  وٱلذين كفروا بـٔايـت ٱلله أولـٓئك هم ٱلخـسرون",
     "transliteration": "lahu maqālīdu l-samāwāti wal-arḍi wa-alladhīna kafarū biāyāti l-lahi ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "To Him belong the keys of the heavens and the earth. And they who disbelieve in the verses of Allāh - it is those who are the losers.",
     "words": [
       {
         "id": "az-zumar-63-1",
@@ -7660,7 +7722,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui détient les clefs des cieux et de la terre, et ceux qui ont mécru aux Signes d’Allah, ce sont eux les perdants."
   },
   {
     "id": "az-zumar-64",
@@ -7669,7 +7732,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَفَغَيْرَ ٱللَّهِ تَأْمُرُوٓنِّىٓ أَعْبُدُ أَيُّهَا ٱلْجَـٰهِلُونَ",
     "textSimple": "قل أفغير ٱلله تأمروٓنىٓ أعبد أيها ٱلجـهلون",
     "transliteration": "qul afaghayra l-lahi tamurūnnī aʿbudu ayyuhā l-jāhilūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Is it other than Allāh that you order me to worship, O ignorant ones?\"",
     "words": [
       {
         "id": "az-zumar-64-1",
@@ -7721,7 +7784,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Est-ce un autre qu’Allah que vous m’ordonnerez d’adorer, ô ignorants ? »"
   },
   {
     "id": "az-zumar-65",
@@ -7730,7 +7794,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أُوحِىَ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "ولقد أوحى إليك وإلى ٱلذين من قبلك لئن أشركت ليحبطن عملك ولتكونن من ٱلخـسرين",
     "transliteration": "walaqad ūḥiya ilayka wa-ilā alladhīna min qablika la-in ashrakta layaḥbaṭanna ʿamaluka walatakūnanna mina l-khāsirīna",
-    "translation": "",
+    "translation": "And it was already revealed to you and to those before you that if you should associate [anything] with Allāh, your work would surely become worthless, and you would surely be among the losers.",
     "words": [
       {
         "id": "az-zumar-65-1",
@@ -7831,7 +7895,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il t’a été révélé, de même qu’à ceux qui vécurent avant toi : « Si tu prêtes des associés (à Allah), nulles seront tes œuvres et tu seras du nombre des perdants."
   },
   {
     "id": "az-zumar-66",
@@ -7840,7 +7905,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّـٰكِرِينَ",
     "textSimple": "بل ٱلله فٱعبد وكن من ٱلشـكرين",
     "transliteration": "bali l-laha fa-uʿ'bud wakun mina l-shākirīna",
-    "translation": "",
+    "translation": "Rather, worship [only] Allāh and be among the grateful.",
     "words": [
       {
         "id": "az-zumar-66-1",
@@ -7885,7 +7950,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adore plutôt Allah, et sois parmi les reconnaissants ! »"
   },
   {
     "id": "az-zumar-67",
@@ -7894,7 +7960,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦ وَٱلْأَرْضُ جَمِيعًا قَبْضَتُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ وَٱلسَّمَـٰوَٰتُ مَطْوِيَّـٰتٌۢ بِيَمِينِهِۦ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
     "textSimple": "وما قدروا ٱلله حق قدره وٱلأرض جميعا قبضته يوم ٱلقيـمة وٱلسمـوت مطويـت بيمينه  سبحـنه وتعـلى عما يشركون",
     "transliteration": "wamā qadarū l-laha ḥaqqa qadrihi wal-arḍu jamīʿan qabḍatuhu yawma l-qiyāmati wal-samāwātu maṭwiyyātun biyamīnihi sub'ḥānahu wataʿālā ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "They have not appraised Allāh with true appraisal, while the earth entirely will be [within] His grip on the Day of Resurrection, and the heavens will be folded in His right hand. Exalted is He and high above what they associate with Him.",
     "words": [
       {
         "id": "az-zumar-67-1",
@@ -8016,7 +8082,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’ont point estimé Allah à Sa juste valeur, Lui Qui, au Jour de la Résurrection, fermera sur la terre entière Son Poing, et (tiendra) les cieux, pliés, dans Sa Main droite. Gloire Lui soit rendue ! Il est bien au-dessus de ce qu’ils Lui associent."
   },
   {
     "id": "az-zumar-68",
@@ -8025,7 +8092,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَنُفِخَ فِى ٱلصُّورِ فَصَعِقَ مَن فِى ٱلسَّمَـٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۖ ثُمَّ نُفِخَ فِيهِ أُخْرَىٰ فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ",
     "textSimple": "ونفخ فى ٱلصور فصعق من فى ٱلسمـوت ومن فى ٱلأرض إلا من شآء ٱلله  ثم نفخ فيه أخرى فإذا هم قيام ينظرون",
     "transliteration": "wanufikha fī l-ṣūri faṣaʿiqa man fī l-samāwāti waman fī l-arḍi illā man shāa l-lahu thumma nufikha fīhi ukh'rā fa-idhā hum qiyāmun yanẓurūna",
-    "translation": "",
+    "translation": "And the Horn will be blown, and whoever is in the heavens and whoever is on the earth will fall dead except whom Allāh wills. Then it will be blown again, and at once they will be standing, looking on.",
     "words": [
       {
         "id": "az-zumar-68-1",
@@ -8182,7 +8249,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il sera soufflé dans le Cor et, alors, tous ceux qui seront dans les cieux ou sur terre seront foudroyés, excepté ceux qu’Allah voudra (épargner). Il y sera soufflé une fois encore, et les voilà debout, qui regardent."
   },
   {
     "id": "az-zumar-69",
@@ -8191,7 +8259,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَشْرَقَتِ ٱلْأَرْضُ بِنُورِ رَبِّهَا وَوُضِعَ ٱلْكِتَـٰبُ وَجِا۟ىٓءَ بِٱلنَّبِيِّـۧنَ وَٱلشُّهَدَآءِ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "وأشرقت ٱلأرض بنور ربها ووضع ٱلكتـب وجاىٓء بٱلنبيـن وٱلشهدآء وقضى بينهم بٱلحق وهم لا يظلمون",
     "transliteration": "wa-ashraqati l-arḍu binūri rabbihā wawuḍiʿa l-kitābu wajīa bil-nabiyīna wal-shuhadāi waquḍiya baynahum bil-ḥaqi wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "And the earth will shine with the light of its Lord, and the record [of deeds] will be placed, and the prophets and the witnesses will be brought, and it will be judged between them in truth, and they will not be wronged.",
     "words": [
       {
         "id": "az-zumar-69-1",
@@ -8299,7 +8367,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La terre rayonnera de la lumière de son Seigneur. Le Livre (des œuvres) sera posé, les Prophètes et les témoins seront ramenés, et ils seront jugés en toute équité sans qu’ils ne soient (aucunement) lésés."
   },
   {
     "id": "az-zumar-70",
@@ -8308,7 +8377,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا عَمِلَتْ وَهُوَ أَعْلَمُ بِمَا يَفْعَلُونَ",
     "textSimple": "ووفيت كل نفس ما عملت وهو أعلم بما يفعلون",
     "transliteration": "wawuffiyat kullu nafsin mā ʿamilat wahuwa aʿlamu bimā yafʿalūna",
-    "translation": "",
+    "translation": "And every soul will be fully compensated [for] what it did; and He is most knowing of what they do.",
     "words": [
       {
         "id": "az-zumar-70-1",
@@ -8374,7 +8443,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque âme sera pleinement rétribuée selon ce qu’elle faisait, et Lui est le Meilleur à Savoir ce qu’ils font."
   },
   {
     "id": "az-zumar-71",
@@ -8383,7 +8453,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَسِيقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا فُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَتْلُونَ عَلَيْكُمْ ءَايَـٰتِ رَبِّكُمْ وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَـٰذَا ۚ قَالُوا۟ بَلَىٰ وَلَـٰكِنْ حَقَّتْ كَلِمَةُ ٱلْعَذَابِ عَلَى ٱلْكَـٰفِرِينَ",
     "textSimple": "وسيق ٱلذين كفروٓا إلى جهنم زمرا  حتىٓ إذا جآءوها فتحت أبوبها وقال لهم خزنتهآ ألم يأتكم رسل منكم يتلون عليكم ءايـت ربكم وينذرونكم لقآء يومكم هـذا  قالوا بلى ولـكن حقت كلمة ٱلعذاب على ٱلكـفرين",
     "transliteration": "wasīqa alladhīna kafarū ilā jahannama zumaran ḥattā idhā jāūhā futiḥat abwābuhā waqāla lahum khazanatuhā alam yatikum rusulun minkum yatlūna ʿalaykum āyāti rabbikum wayundhirūnakum liqāa yawmikum hādhā qālū balā walākin ḥaqqat kalimatu l-ʿadhābi ʿalā l-kāfirīna",
-    "translation": "",
+    "translation": "And those who disbelieved will be driven to Hell in groups until, when they reach it, its gates are opened and its keepers will say, \"Did there not come to you messengers from yourselves, reciting to you the verses of your Lord and warning you of the meeting of this Day of yours?\" They will say, \"Yes, but the word [i.e., decree] of punishment has come into effect upon the disbelievers.\"",
     "words": [
       {
         "id": "az-zumar-71-1",
@@ -8624,7 +8694,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru seront menés vers la Géhenne par groupes. Quand ils y seront arrivés, ses portes s’ouvriront et ses gardiens leur diront : « Des Messagers issus de vous-mêmes ne sont-ils pas venus vous réciter les versets de votre Seigneur, et vous avertir de la rencontre de ce Jour-ci qui est le vôtre ? » Ils répondront alors : « Que si ! Mais le verdict du supplice s’est justifié pour les mécréants. »"
   },
   {
     "id": "az-zumar-72",
@@ -8633,7 +8704,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "قِيلَ ٱدْخُلُوٓا۟ أَبْوَٰبَ جَهَنَّمَ خَـٰلِدِينَ فِيهَا ۖ فَبِئْسَ مَثْوَى ٱلْمُتَكَبِّرِينَ",
     "textSimple": "قيل ٱدخلوٓا أبوب جهنم خـلدين فيها  فبئس مثوى ٱلمتكبرين",
     "transliteration": "qīla ud'khulū abwāba jahannama khālidīna fīhā fabi'sa mathwā l-mutakabirīna",
-    "translation": "",
+    "translation": "[To them] it will be said, \"Enter the gates of Hell to abide eternally therein, and wretched is the residence of the arrogant.\"",
     "words": [
       {
         "id": "az-zumar-72-1",
@@ -8699,7 +8770,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera dit : « Entrez donc par les portes de la Géhenne pour y séjourner éternellement. » Affreuse résidence que celle des orgueilleux !"
   },
   {
     "id": "az-zumar-73",
@@ -8708,7 +8780,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَـٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَـٰلِدِينَ",
     "textSimple": "وسيق ٱلذين ٱتقوا ربهم إلى ٱلجنة زمرا  حتىٓ إذا جآءوها وفتحت أبوبها وقال لهم خزنتها سلـم عليكم طبتم فٱدخلوها خـلدين",
     "transliteration": "wasīqa alladhīna ittaqaw rabbahum ilā l-janati zumaran ḥattā idhā jāūhā wafutiḥat abwābuhā waqāla lahum khazanatuhā salāmun ʿalaykum ṭib'tum fa-ud'khulūhā khālidīna",
-    "translation": "",
+    "translation": "But those who feared their Lord will be driven to Paradise in groups until, when they reach it while its gates have been opened and its keepers say, \"Peace be upon you; you have become pure; so enter it to abide eternally therein,\" [they will enter].",
     "words": [
       {
         "id": "az-zumar-73-1",
@@ -8851,7 +8923,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui auront craint pieusement leur Seigneur (quant à eux) seront menés par groupes au Paradis. Quand ils y seront arrivés, ses portes s’ouvriront et ses gardiens leur diront : « Paix sur vous! (Salâm) Vous avez œuvré pour le bien, entrez-y pour y séjourner éternellement ! »"
   },
   {
     "id": "az-zumar-74",
@@ -8860,7 +8933,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ نَتَبَوَّأُ مِنَ ٱلْجَنَّةِ حَيْثُ نَشَآءُ ۖ فَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
     "textSimple": "وقالوا ٱلحمد لله ٱلذى صدقنا وعده وأورثنا ٱلأرض نتبوأ من ٱلجنة حيث نشآء  فنعم أجر ٱلعـملين",
     "transliteration": "waqālū l-ḥamdu lillahi alladhī ṣadaqanā waʿdahu wa-awrathanā l-arḍa natabawwa-u mina l-janati ḥaythu nashāu faniʿ'ma ajru l-ʿāmilīna",
-    "translation": "",
+    "translation": "And they will say, \"Praise to Allāh, who has fulfilled for us His promise and made us inherit the earth [so] we may settle in Paradise wherever we will. And excellent is the reward of [righteous] workers.\"",
     "words": [
       {
         "id": "az-zumar-74-1",
@@ -8975,7 +9048,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront alors : « Louange à Allah Qui a tenu Sa promesse envers nous et Qui nous a faits les héritiers de cette terre au Paradis afin que nous puissions élire domicile où bon nous semble. » Quelle magnifique récompense pour ceux qui ont bien agi !"
   },
   {
     "id": "az-zumar-75",
@@ -8984,7 +9058,7 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَى ٱلْمَلَـٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ ۖ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "وترى ٱلملـٓئكة حآفين من حول ٱلعرش يسبحون بحمد ربهم  وقضى بينهم بٱلحق وقيل ٱلحمد لله رب ٱلعـلمين",
     "transliteration": "watarā l-malāikata ḥāffīna min ḥawli l-ʿarshi yusabbiḥūna biḥamdi rabbihim waquḍiya baynahum bil-ḥaqi waqīla l-ḥamdu lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And you will see the angels surrounding the Throne, exalting [Allāh] with praise of their Lord. And it will be judged between them in truth, and it will be said, \"[All] praise to Allāh, Lord of the worlds.\"",
     "words": [
       {
         "id": "az-zumar-75-1",
@@ -9106,7 +9180,8 @@ export const AZ_ZUMAR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu verras les Anges se tenant autour du Trône, rendant Gloire à leur Seigneur et célébrant Ses louanges. Il sera jugé en toute équité entre (les hommes) et il sera dit : « Louange à Allah, Seigneur de l’Univers ! »"
   }
 ];
 

@@ -11,7 +11,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": " كٓهيعٓصٓ",
     "textSimple": " كٓهيعٓصٓ",
     "transliteration": "kaf-ha-ya-ain-sad",
-    "translation": "",
+    "translation": "Kāf, Hā, Yā, ʿAyn, Ṣād.",
     "words": [
       {
         "id": "maryam-1-1",
@@ -21,7 +21,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Kâf, Hâ, Yâ, ‘Âïn, Çâd."
   },
   {
     "id": "maryam-2",
@@ -30,7 +31,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ",
     "textSimple": "ذكر رحمت ربك عبده زكريآ",
     "transliteration": "dhik'ru raḥmati rabbika ʿabdahu zakariyyā",
-    "translation": "",
+    "translation": "[This is] a mention of the mercy of your Lord to His servant Zechariah",
     "words": [
       {
         "id": "maryam-2-1",
@@ -68,7 +69,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceci est le récit évoquant la grâce de ton Seigneur envers son serviteur Zacharie,"
   },
   {
     "id": "maryam-3",
@@ -77,7 +79,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ نَادَىٰ رَبَّهُۥ نِدَآءً خَفِيًّا",
     "textSimple": "إذ نادى ربه ندآء خفيا",
     "transliteration": "idh nādā rabbahu nidāan khafiyyan",
-    "translation": "",
+    "translation": "When he called to his Lord a private call [i.e., supplication].",
     "words": [
       {
         "id": "maryam-3-1",
@@ -115,7 +117,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsqu’il appela son Seigneur d’un appel discret."
   },
   {
     "id": "maryam-4",
@@ -124,7 +127,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّا",
     "textSimple": "قال رب إنى وهن ٱلعظم منى وٱشتعل ٱلرأس شيبا ولم أكن بدعآئك رب شقيا",
     "transliteration": "qāla rabbi innī wahana l-ʿaẓmu minnī wa-ish'taʿala l-rasu shayban walam akun biduʿāika rabbi shaqiyyan",
-    "translation": "",
+    "translation": "He said, \"My Lord, indeed my bones have weakened, and my head has filled with white, and never have I been in my supplication to You, my Lord, unhappy [i.e., disappointed].",
     "words": [
       {
         "id": "maryam-4-1",
@@ -225,7 +228,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur, mes os ont vieilli et ma tête s’est enflammée de canitie, mais jamais, en T’invoquant, mon Seigneur, je n’ai été malheureux."
   },
   {
     "id": "maryam-5",
@@ -234,7 +238,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى عَاقِرًا فَهَبْ لِى مِن لَّدُنكَ وَلِيًّا",
     "textSimple": "وإنى خفت ٱلمولى من ورآءى وكانت ٱمرأتى عاقرا فهب لى من لدنك وليا",
     "transliteration": "wa-innī khif'tu l-mawāliya min warāī wakānati im'ra-atī ʿāqiran fahab lī min ladunka waliyyan",
-    "translation": "",
+    "translation": "And indeed, I fear the successors after me, and my wife has been barren, so give me from Yourself an heir",
     "words": [
       {
         "id": "maryam-5-1",
@@ -328,7 +332,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je crains (le comportement de) mes proches après (ma mort) et ma femme est stérile. Veuille donc, de Ta part, me faire don d’un descendant,"
   },
   {
     "id": "maryam-6",
@@ -337,7 +342,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَرِثُنِى وَيَرِثُ مِنْ ءَالِ يَعْقُوبَ ۖ وَٱجْعَلْهُ رَبِّ رَضِيًّا",
     "textSimple": "يرثنى ويرث من ءال يعقوب  وٱجعله رب رضيا",
     "transliteration": "yarithunī wayarithu min āli yaʿqūba wa-ij'ʿalhu rabbi raḍiyyan",
-    "translation": "",
+    "translation": "Who will inherit me and inherit from the family of Jacob. And make him, my Lord, pleasing [to You].\"",
     "words": [
       {
         "id": "maryam-6-1",
@@ -396,7 +401,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui tienne de moi et de la famille de Jacob. Et fais, ô Seigneur, qu’il te soit agréable. »"
   },
   {
     "id": "maryam-7",
@@ -405,7 +411,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰزَكَرِيَّآ إِنَّا نُبَشِّرُكَ بِغُلَـٰمٍ ٱسْمُهُۥ يَحْيَىٰ لَمْ نَجْعَل لَّهُۥ مِن قَبْلُ سَمِيًّا",
     "textSimple": "يـزكريآ إنا نبشرك بغلـم ٱسمه يحيى لم نجعل له من قبل سميا",
     "transliteration": "yāzakariyyā innā nubashiruka bighulāmin us'muhu yaḥyā lam najʿal lahu min qablu samiyyan",
-    "translation": "",
+    "translation": "[He was told], \"O Zechariah, indeed We give you good tidings of a boy whose name will be John. We have not assigned to any before [this] name.\"",
     "words": [
       {
         "id": "maryam-7-1",
@@ -492,7 +498,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Zacharie, Nous t’annonçons l’heureuse nouvelle (de la naissance) d’un fils dont le nom sera Yahyâ (Jean) et auquel Nous n’avons jamais donné d’homonyme. »"
   },
   {
     "id": "maryam-8",
@@ -501,7 +508,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَـٰمٌ وَكَانَتِ ٱمْرَأَتِى عَاقِرًا وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ عِتِيًّا",
     "textSimple": "قال رب أنى يكون لى غلـم وكانت ٱمرأتى عاقرا وقد بلغت من ٱلكبر عتيا",
     "transliteration": "qāla rabbi annā yakūnu lī ghulāmun wakānati im'ra-atī ʿāqiran waqad balaghtu mina l-kibari ʿitiyyan",
-    "translation": "",
+    "translation": "He said, \"My Lord, how will I have a boy when my wife has been barren and I have reached extreme old age?\"",
     "words": [
       {
         "id": "maryam-8-1",
@@ -602,7 +609,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Seigneur, dit Zacharie, comment pourrait-il me naître un garçon quand ma femme est stérile, et que moi-même j’ai atteint l’âge sénile. »"
   },
   {
     "id": "maryam-9",
@@ -611,7 +619,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ كَذَٰلِكَ قَالَ رَبُّكَ هُوَ عَلَىَّ هَيِّنٌ وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًٔا",
     "textSimple": "قال كذلك قال ربك هو على هين وقد خلقتك من قبل ولم تك شيـٔا",
     "transliteration": "qāla kadhālika qāla rabbuka huwa ʿalayya hayyinun waqad khalaqtuka min qablu walam taku shayan",
-    "translation": "",
+    "translation": "[An angel] said, \"Thus [it will be]; your Lord says, 'It is easy for Me, for I created you before, while you were nothing.'\"",
     "words": [
       {
         "id": "maryam-9-1",
@@ -712,7 +720,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Il en sera ainsi, répondit (Allah). Ton Seigneur a dit : “Cela M’est facile. Avant cela, Je t’ai bien créé quand tu n’étais rien. ”»"
   },
   {
     "id": "maryam-10",
@@ -721,7 +730,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةً ۚ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَـٰثَ لَيَالٍ سَوِيًّا",
     "textSimple": "قال رب ٱجعل لىٓ ءاية  قال ءايتك ألا تكلم ٱلناس ثلـث ليال سويا",
     "transliteration": "qāla rabbi ij'ʿal lī āyatan qāla āyatuka allā tukallima l-nāsa thalātha layālin sawiyyan",
-    "translation": "",
+    "translation": "[Zechariah] said, \"My Lord, make for me a sign.\" He said, \"Your sign is that you will not speak to the people for three nights, [being] sound.\"",
     "words": [
       {
         "id": "maryam-10-1",
@@ -815,7 +824,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit (Zacharie), donne-moi un Signe. » « Ton Signe, répondit (Allah), sera de ne pas parler aux gens durant trois nuits, bien que bien portant. »"
   },
   {
     "id": "maryam-11",
@@ -824,7 +834,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَخَرَجَ عَلَىٰ قَوْمِهِۦ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا۟ بُكْرَةً وَعَشِيًّا",
     "textSimple": "فخرج على قومه من ٱلمحراب فأوحىٓ إليهم أن سبحوا بكرة وعشيا",
     "transliteration": "fakharaja ʿalā qawmihi mina l-miḥ'rābi fa-awḥā ilayhim an sabbiḥū buk'ratan waʿashiyyan",
-    "translation": "",
+    "translation": "So he came out to his people from the prayer chamber and signaled to them to exalt [Allāh] in the morning and afternoon.",
     "words": [
       {
         "id": "maryam-11-1",
@@ -904,7 +914,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il sortit alors du sanctuaire, alla trouver les siens et leur signifia de rendre gloire (à Allah) matin et soir."
   },
   {
     "id": "maryam-12",
@@ -913,7 +924,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰيَحْيَىٰ خُذِ ٱلْكِتَـٰبَ بِقُوَّةٍ ۖ وَءَاتَيْنَـٰهُ ٱلْحُكْمَ صَبِيًّا",
     "textSimple": "يـيحيى خذ ٱلكتـب بقوة  وءاتينـه ٱلحكم صبيا",
     "transliteration": "yāyaḥyā khudhi l-kitāba biquwwatin waātaynāhu l-ḥuk'ma ṣabiyyan",
-    "translation": "",
+    "translation": "[Allāh said], \"O John, take the Scripture [i.e., adhere to it] with determination.\" And We gave him judgement [while yet] a boy",
     "words": [
       {
         "id": "maryam-12-1",
@@ -965,7 +976,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Yahyâ ! Prends le Livre avec fermeté. » Et Nous lui avons donné le discernement depuis qu’il était enfant,"
   },
   {
     "id": "maryam-13",
@@ -974,7 +986,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَحَنَانًا مِّن لَّدُنَّا وَزَكَوٰةً ۖ وَكَانَ تَقِيًّا",
     "textSimple": "وحنانا من لدنا وزكوة  وكان تقيا",
     "transliteration": "waḥanānan min ladunnā wazakatan wakāna taqiyyan",
-    "translation": "",
+    "translation": "And affection from Us and purity, and he was fearing of Allāh",
     "words": [
       {
         "id": "maryam-13-1",
@@ -1019,7 +1031,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi que l’affection et la pureté, par Notre grâce ; et il était pieux,"
   },
   {
     "id": "maryam-14",
@@ -1028,7 +1041,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَبَرًّۢا بِوَٰلِدَيْهِ وَلَمْ يَكُن جَبَّارًا عَصِيًّا",
     "textSimple": "وبرا بولديه ولم يكن جبارا عصيا",
     "transliteration": "wabarran biwālidayhi walam yakun jabbāran ʿaṣiyyan",
-    "translation": "",
+    "translation": "And dutiful to his parents, and he was not a disobedient tyrant.",
     "words": [
       {
         "id": "maryam-14-1",
@@ -1073,7 +1086,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "bon avec ses parents, et n’était ni arrogant ni rebelle."
   },
   {
     "id": "maryam-15",
@@ -1082,7 +1096,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَسَلَـٰمٌ عَلَيْهِ يَوْمَ وُلِدَ وَيَوْمَ يَمُوتُ وَيَوْمَ يُبْعَثُ حَيًّا",
     "textSimple": "وسلـم عليه يوم ولد ويوم يموت ويوم يبعث حيا",
     "transliteration": "wasalāmun ʿalayhi yawma wulida wayawma yamūtu wayawma yub'ʿathu ḥayyan",
-    "translation": "",
+    "translation": "And peace be upon him the day he was born and the day he dies and the day he is raised alive.",
     "words": [
       {
         "id": "maryam-15-1",
@@ -1148,7 +1162,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La paix soit sur lui le jour où il est né, le jour où il sera mort et le jour où il sera ressuscité."
   },
   {
     "id": "maryam-16",
@@ -1157,7 +1172,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ مَرْيَمَ إِذِ ٱنتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا",
     "textSimple": "وٱذكر فى ٱلكتـب مريم إذ ٱنتبذت من أهلها مكانا شرقيا",
     "transliteration": "wa-udh'kur fī l-kitābi maryama idhi intabadhat min ahlihā makānan sharqiyyan",
-    "translation": "",
+    "translation": "And mention, [O Muḥammad], in the Book [the story of] Mary, when she withdrew from her family to a place toward the east.",
     "words": [
       {
         "id": "maryam-16-1",
@@ -1230,7 +1245,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque dans le Livre Marie, lorsqu’elle se retira loin de sa famille dans un endroit situé à l’est."
   },
   {
     "id": "maryam-17",
@@ -1239,7 +1255,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّخَذَتْ مِن دُونِهِمْ حِجَابًا فَأَرْسَلْنَآ إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا",
     "textSimple": "فٱتخذت من دونهم حجابا فأرسلنآ إليها روحنا فتمثل لها بشرا سويا",
     "transliteration": "fa-ittakhadhat min dūnihim ḥijāban fa-arsalnā ilayhā rūḥanā fatamathala lahā basharan sawiyyan",
-    "translation": "",
+    "translation": "And she took, in seclusion from them, a screen. Then We sent to her Our Angel [i.e., Gabriel], and he represented himself to her as a well-proportioned man.",
     "words": [
       {
         "id": "maryam-17-1",
@@ -1319,7 +1335,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle dressa un voile entre elle et eux et Nous lui envoyâmes alors Notre Esprit (Gabriel) qui se manifesta à elle comme un humain à la forme parfaite."
   },
   {
     "id": "maryam-18",
@@ -1328,7 +1345,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَـٰنِ مِنكَ إِن كُنتَ تَقِيًّا",
     "textSimple": "قالت إنىٓ أعوذ بٱلرحمـن منك إن كنت تقيا",
     "transliteration": "qālat innī aʿūdhu bil-raḥmāni minka in kunta taqiyyan",
-    "translation": "",
+    "translation": "She said, \"Indeed, I seek refuge in the Most Merciful from you, [so leave me], if you should be fearing of Allāh.\"",
     "words": [
       {
         "id": "maryam-18-1",
@@ -1387,7 +1404,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle dit : « Je cherche refuge auprès du Tout Clément contre toi. Si seulement tu pouvais Le craindre ! »"
   },
   {
     "id": "maryam-19",
@@ -1396,7 +1414,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّمَآ أَنَا۠ رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَـٰمًا زَكِيًّا",
     "textSimple": "قال إنمآ أنا رسول ربك لأهب لك غلـما زكيا",
     "transliteration": "qāla innamā anā rasūlu rabbiki li-ahaba laki ghulāman zakiyyan",
-    "translation": "",
+    "translation": "He said, \"I am only the messenger of your Lord to give you [news of] a pure boy [i.e., son].\"",
     "words": [
       {
         "id": "maryam-19-1",
@@ -1462,7 +1480,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Je ne suis qu’un émissaire de ton Seigneur, et je suis venu te faire don d’un garçon (très) pur », répondit-il."
   },
   {
     "id": "maryam-20",
@@ -1471,7 +1490,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ أَنَّىٰ يَكُونُ لِى غُلَـٰمٌ وَلَمْ يَمْسَسْنِى بَشَرٌ وَلَمْ أَكُ بَغِيًّا",
     "textSimple": "قالت أنى يكون لى غلـم ولم يمسسنى بشر ولم أك بغيا",
     "transliteration": "qālat annā yakūnu lī ghulāmun walam yamsasnī basharun walam aku baghiyyan",
-    "translation": "",
+    "translation": "She said, \"How can I have a boy while no man has touched me and I have not been unchaste?\"",
     "words": [
       {
         "id": "maryam-20-1",
@@ -1551,7 +1570,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mais comment pourrais-je avoir un garçon quand personne ne m’a touchée ni ne suis une prostituée ? » dit-elle."
   },
   {
     "id": "maryam-21",
@@ -1560,7 +1580,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌ ۖ وَلِنَجْعَلَهُۥٓ ءَايَةً لِّلنَّاسِ وَرَحْمَةً مِّنَّا ۚ وَكَانَ أَمْرًا مَّقْضِيًّا",
     "textSimple": "قال كذلك قال ربك هو على هين  ولنجعلهٓ ءاية للناس ورحمة منا  وكان أمرا مقضيا",
     "transliteration": "qāla kadhāliki qāla rabbuki huwa ʿalayya hayyinun walinajʿalahu āyatan lilnnāsi waraḥmatan minnā wakāna amran maqḍiyyan",
-    "translation": "",
+    "translation": "He said, \"Thus [it will be]; your Lord says, 'It is easy for Me, and We will make him a sign to the people and a mercy from Us. And it is a matter [already] decreed.'\"",
     "words": [
       {
         "id": "maryam-21-1",
@@ -1668,7 +1688,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Il en sera ainsi. Ton Seigneur a dit : “Cela M’est facile. Et Nous en ferons un Signe pour les hommes et un effet de Notre grâce. ” L’arrêt est déjà décrété. »"
   },
   {
     "id": "maryam-22",
@@ -1677,7 +1698,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَحَمَلَتْهُ فَٱنتَبَذَتْ بِهِۦ مَكَانًا قَصِيًّا",
     "textSimple": " فحملته فٱنتبذت به مكانا قصيا",
     "transliteration": "faḥamalathu fa-intabadhat bihi makānan qaṣiyyan",
-    "translation": "",
+    "translation": "So she conceived him, and she withdrew with him to a remote place.",
     "words": [
       {
         "id": "maryam-22-1",
@@ -1715,7 +1736,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Enceinte (de l’enfant), elle le porta en elle et se retira dans un endroit éloigné."
   },
   {
     "id": "maryam-23",
@@ -1724,7 +1746,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَجَآءَهَا ٱلْمَخَاضُ إِلَىٰ جِذْعِ ٱلنَّخْلَةِ قَالَتْ يَـٰلَيْتَنِى مِتُّ قَبْلَ هَـٰذَا وَكُنتُ نَسْيًا مَّنسِيًّا",
     "textSimple": "فأجآءها ٱلمخاض إلى جذع ٱلنخلة قالت يـليتنى مت قبل هـذا وكنت نسيا منسيا",
     "transliteration": "fa-ajāahā l-makhāḍu ilā jidh'ʿi l-nakhlati qālat yālaytanī mittu qabla hādhā wakuntu nasyan mansiyyan",
-    "translation": "",
+    "translation": "And the pains of childbirth drove her to the trunk of a palm tree. She said, \"Oh, I wish I had died before this and was in oblivion, forgotten.\"",
     "words": [
       {
         "id": "maryam-23-1",
@@ -1818,7 +1840,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les douleurs de l’enfantement la poussèrent jusqu’au tronc du palmier. Elle dit : « Plût à (Allah) que je fusse morte avant cela, et que je fusse depuis longtemps oubliée ! »"
   },
   {
     "id": "maryam-24",
@@ -1827,7 +1850,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّا",
     "textSimple": "فنادىها من تحتهآ ألا تحزنى قد جعل ربك تحتك سريا",
     "transliteration": "fanādāhā min taḥtihā allā taḥzanī qad jaʿala rabbuki taḥtaki sariyyan",
-    "translation": "",
+    "translation": "But he called her from below her, \"Do not grieve; your Lord has provided beneath you a stream.",
     "words": [
       {
         "id": "maryam-24-1",
@@ -1900,7 +1923,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(La voix de Jésus) l’appela de dessous d’elle : « Ne t’afflige point. Ton Seigneur a mis une source à tes pieds."
   },
   {
     "id": "maryam-25",
@@ -1909,7 +1933,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَـٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا",
     "textSimple": "وهزىٓ إليك بجذع ٱلنخلة تسـقط عليك رطبا جنيا",
     "transliteration": "wahuzzī ilayki bijidh'ʿi l-nakhlati tusāqiṭ ʿalayki ruṭaban janiyyan",
-    "translation": "",
+    "translation": "And shake toward you the trunk of the palm tree; it will drop upon you ripe, fresh dates.",
     "words": [
       {
         "id": "maryam-25-1",
@@ -1968,7 +1992,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Secoue le tronc du palmier: sur toi, il fera alors tomber des dattes fraîches et prêtes à être cueillies."
   },
   {
     "id": "maryam-26",
@@ -1977,7 +2002,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًا ۖ فَإِمَّا تَرَيِنَّ مِنَ ٱلْبَشَرِ أَحَدًا فَقُولِىٓ إِنِّى نَذَرْتُ لِلرَّحْمَـٰنِ صَوْمًا فَلَنْ أُكَلِّمَ ٱلْيَوْمَ إِنسِيًّا",
     "textSimple": "فكلى وٱشربى وقرى عينا  فإما ترين من ٱلبشر أحدا فقولىٓ إنى نذرت للرحمـن صوما فلن أكلم ٱليوم إنسيا",
     "transliteration": "fakulī wa-ish'rabī waqarrī ʿaynan fa-immā tarayinna mina l-bashari aḥadan faqūlī innī nadhartu lilrraḥmāni ṣawman falan ukallima l-yawma insiyyan",
-    "translation": "",
+    "translation": "So eat and drink and be contented. And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.'\"",
     "words": [
       {
         "id": "maryam-26-1",
@@ -2106,7 +2131,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mange donc, bois, et réjouis-toi ! Et si tu vois un humain, dis-lui : « J’ai fait vœu d’un jeûne au Tout Clément : je n’adresserai donc la parole à aucun être humain aujourd’hui. »"
   },
   {
     "id": "maryam-27",
@@ -2115,7 +2141,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَتَتْ بِهِۦ قَوْمَهَا تَحْمِلُهُۥ ۖ قَالُوا۟ يَـٰمَرْيَمُ لَقَدْ جِئْتِ شَيْـًٔا فَرِيًّا",
     "textSimple": "فأتت به قومها تحمله  قالوا يـمريم لقد جئت شيـٔا فريا",
     "transliteration": "fa-atat bihi qawmahā taḥmiluhu qālū yāmaryamu laqad ji'ti shayan fariyyan",
-    "translation": "",
+    "translation": "Then she brought him to her people, carrying him. They said, \"O Mary, you have certainly done a thing unprecedented.",
     "words": [
       {
         "id": "maryam-27-1",
@@ -2188,7 +2214,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle s’en fut retrouver les siens en portant (son bébé). Alors, ils lui dirent : « Ô Marie ! Ce que tu as fait est une chose affreuse !"
   },
   {
     "id": "maryam-28",
@@ -2197,7 +2224,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأُخْتَ هَـٰرُونَ مَا كَانَ أَبُوكِ ٱمْرَأَ سَوْءٍ وَمَا كَانَتْ أُمُّكِ بَغِيًّا",
     "textSimple": "يـٓأخت هـرون ما كان أبوك ٱمرأ سوء وما كانت أمك بغيا",
     "transliteration": "yāukh'ta hārūna mā kāna abūki im'ra-a sawin wamā kānat ummuki baghiyyan",
-    "translation": "",
+    "translation": "O sister [i.e., descendant] of Aaron, your father was not a man of evil, nor was your mother unchaste.\"",
     "words": [
       {
         "id": "maryam-28-1",
@@ -2277,7 +2304,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô sœur d’Aaron, ton père n’était point quelqu’un de mauvais ni ta mère une femme de mauvaises mœurs. »"
   },
   {
     "id": "maryam-29",
@@ -2286,7 +2314,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى ٱلْمَهْدِ صَبِيًّا",
     "textSimple": "فأشارت إليه  قالوا كيف نكلم من كان فى ٱلمهد صبيا",
     "transliteration": "fa-ashārat ilayhi qālū kayfa nukallimu man kāna fī l-mahdi ṣabiyyan",
-    "translation": "",
+    "translation": "So she pointed to him. They said, \"How can we speak to one who is in the cradle a child?\"",
     "words": [
       {
         "id": "maryam-29-1",
@@ -2359,7 +2387,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle fit signe alors (en direction du bébé). Ils dirent : « Allons-nous parler à un bébé au berceau ? »"
   },
   {
     "id": "maryam-30",
@@ -2368,7 +2397,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنِّى عَبْدُ ٱللَّهِ ءَاتَىٰنِىَ ٱلْكِتَـٰبَ وَجَعَلَنِى نَبِيًّا",
     "textSimple": "قال إنى عبد ٱلله ءاتىنى ٱلكتـب وجعلنى نبيا",
     "transliteration": "qāla innī ʿabdu l-lahi ātāniya l-kitāba wajaʿalanī nabiyyan",
-    "translation": "",
+    "translation": "[Jesus] said, \"Indeed, I am the servant of Allāh. He has given me the Scripture and made me a prophet.",
     "words": [
       {
         "id": "maryam-30-1",
@@ -2427,7 +2456,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (le nouveau-né) dit : « Je suis le serviteur d’Allah. Il m’a donné le Livre et m’a fait Prophète."
   },
   {
     "id": "maryam-31",
@@ -2436,7 +2466,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَـٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّا",
     "textSimple": "وجعلنى مباركا أين ما كنت وأوصـنى بٱلصلوة وٱلزكوة ما دمت حيا",
     "transliteration": "wajaʿalanī mubārakan ayna mā kuntu wa-awṣānī bil-ṣalati wal-zakati mā dum'tu ḥayyan",
-    "translation": "",
+    "translation": "And He has made me blessed wherever I am and has enjoined upon me prayer and zakāh as long as I remain alive",
     "words": [
       {
         "id": "maryam-31-1",
@@ -2516,7 +2546,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a fait que je sois béni où que je me trouve, et m’a recommandé la Çalât et la Zakât aussi longtemps que je vivrai ;"
   },
   {
     "id": "maryam-32",
@@ -2525,7 +2556,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَبَرًّۢا بِوَٰلِدَتِى وَلَمْ يَجْعَلْنِى جَبَّارًا شَقِيًّا",
     "textSimple": "وبرا بولدتى ولم يجعلنى جبارا شقيا",
     "transliteration": "wabarran biwālidatī walam yajʿalnī jabbāran shaqiyyan",
-    "translation": "",
+    "translation": "And [made me] dutiful to my mother, and He has not made me a wretched tyrant.",
     "words": [
       {
         "id": "maryam-32-1",
@@ -2570,7 +2601,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il m’a recommandé aussi) la bonté envers ma mère, et Il n’a pas fait de moi un être arrogant et misérable."
   },
   {
     "id": "maryam-33",
@@ -2579,7 +2611,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّلَـٰمُ عَلَىَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا",
     "textSimple": "وٱلسلـم على يوم ولدت ويوم أموت ويوم أبعث حيا",
     "transliteration": "wal-salāmu ʿalayya yawma wulidttu wayawma amūtu wayawma ub'ʿathu ḥayyan",
-    "translation": "",
+    "translation": "And peace is on me the day I was born and the day I will die and the day I am raised alive.\"",
     "words": [
       {
         "id": "maryam-33-1",
@@ -2645,7 +2677,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La paix soit sur moi le jour où je suis né, le jour où je serai mort et le jour où je serai ressuscité. »"
   },
   {
     "id": "maryam-34",
@@ -2654,7 +2687,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ ۚ قَوْلَ ٱلْحَقِّ ٱلَّذِى فِيهِ يَمْتَرُونَ",
     "textSimple": "ذلك عيسى ٱبن مريم  قول ٱلحق ٱلذى فيه يمترون",
     "transliteration": "dhālika ʿīsā ub'nu maryama qawla l-ḥaqi alladhī fīhi yamtarūna",
-    "translation": "",
+    "translation": "That is Jesus, the son of Mary - the word of truth about which they are in dispute.",
     "words": [
       {
         "id": "maryam-34-1",
@@ -2720,7 +2753,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est Jésus, fils de Marie : une parole de vérité au sujet de laquelle ils sont dans le doute."
   },
   {
     "id": "maryam-35",
@@ -2729,7 +2763,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ لِلَّهِ أَن يَتَّخِذَ مِن وَلَدٍ ۖ سُبْحَـٰنَهُۥٓ ۚ إِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
     "textSimple": "ما كان لله أن يتخذ من ولد  سبحـنهٓ  إذا قضىٓ أمرا فإنما يقول له كن فيكون",
     "transliteration": "mā kāna lillahi an yattakhidha min waladin sub'ḥānahu idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu",
-    "translation": "",
+    "translation": "It is not [befitting] for Allāh to take a son; exalted is He! When He decrees an affair, He only says to it, \"Be,\" and it is.",
     "words": [
       {
         "id": "maryam-35-1",
@@ -2844,7 +2878,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne sied pas à Allah de Se donner un fils. Gloire Lui soit rendue ! Quand Il décide d’une chose, il suffit qu’Il dise : « Sois ! » et elle est."
   },
   {
     "id": "maryam-36",
@@ -2853,7 +2888,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
     "textSimple": "وإن ٱلله ربى وربكم فٱعبدوه  هـذا صرط مستقيم",
     "transliteration": "wa-inna l-laha rabbī warabbukum fa-uʿ'budūhu hādhā ṣirāṭun mus'taqīmun",
-    "translation": "",
+    "translation": "[Jesus said], \"And indeed, Allāh is my Lord and your Lord, so worship Him. That is a straight path.\"",
     "words": [
       {
         "id": "maryam-36-1",
@@ -2912,7 +2947,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Jésus dit) : « Allah est certes mon Seigneur et le vôtre. Alors, adorez-Le ! Voilà bien une voie droite. »"
   },
   {
     "id": "maryam-37",
@@ -2921,7 +2957,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَٱخْتَلَفَ ٱلْأَحْزَابُ مِنۢ بَيْنِهِمْ ۖ فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِن مَّشْهَدِ يَوْمٍ عَظِيمٍ",
     "textSimple": "فٱختلف ٱلأحزاب من بينهم  فويل للذين كفروا من مشهد يوم عظيم",
     "transliteration": "fa-ikh'talafa l-aḥzābu min baynihim fawaylun lilladhīna kafarū min mashhadi yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "Then the factions differed [concerning Jesus] from among them, so woe to those who disbelieved - from the scene of a tremendous Day.",
     "words": [
       {
         "id": "maryam-37-1",
@@ -3001,7 +3037,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais les factions se partagèrent entre elles (à ce sujet). Malheur aux mécréants, qui (devront redouter) la vue d’un très grand jour."
   },
   {
     "id": "maryam-38",
@@ -3010,7 +3047,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا ۖ لَـٰكِنِ ٱلظَّـٰلِمُونَ ٱلْيَوْمَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "أسمع بهم وأبصر يوم يأتوننا  لـكن ٱلظـلمون ٱليوم فى ضلـل مبين",
     "transliteration": "asmiʿ bihim wa-abṣir yawma yatūnanā lākini l-ẓālimūna l-yawma fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "How [clearly] they will hear and see the Day they come to Us, but the wrongdoers today are in clear error.",
     "words": [
       {
         "id": "maryam-38-1",
@@ -3090,7 +3127,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jamais leur ouïe n’aura été plus fine, ni plus claire leur vision, le jour où ils viendront à Nous. Mais les injustes, aujourd’hui, sont dans un égarement manifeste."
   },
   {
     "id": "maryam-39",
@@ -3099,7 +3137,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنذِرْهُمْ يَوْمَ ٱلْحَسْرَةِ إِذْ قُضِىَ ٱلْأَمْرُ وَهُمْ فِى غَفْلَةٍ وَهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "وأنذرهم يوم ٱلحسرة إذ قضى ٱلأمر وهم فى غفلة وهم لا يؤمنون",
     "transliteration": "wa-andhir'hum yawma l-ḥasrati idh quḍiya l-amru wahum fī ghaflatin wahum lā yu'minūna",
-    "translation": "",
+    "translation": "And warn them, [O Muḥammad], of the Day of Regret, when the matter will be concluded; and [yet], they are in [a state of] heedlessness, and they do not believe.",
     "words": [
       {
         "id": "maryam-39-1",
@@ -3186,7 +3224,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avertis-les du jour des regrets, où le verdict sera prononcé, alors qu’ils sont (en ce bas monde) distraits et ne croient en rien."
   },
   {
     "id": "maryam-40",
@@ -3195,7 +3234,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَحْنُ نَرِثُ ٱلْأَرْضَ وَمَنْ عَلَيْهَا وَإِلَيْنَا يُرْجَعُونَ",
     "textSimple": "إنا نحن نرث ٱلأرض ومن عليها وإلينا يرجعون",
     "transliteration": "innā naḥnu narithu l-arḍa waman ʿalayhā wa-ilaynā yur'jaʿūna",
-    "translation": "",
+    "translation": "Indeed, it is We who will inherit the earth and whoever is on it, and to Us they will be returned.",
     "words": [
       {
         "id": "maryam-40-1",
@@ -3254,7 +3293,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous, assurément, Qui hériterons de la terre et de ceux qui y sont, et c’est vers Nous qu’ils seront ramenés."
   },
   {
     "id": "maryam-41",
@@ -3263,7 +3303,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ إِبْرَٰهِيمَ ۚ إِنَّهُۥ كَانَ صِدِّيقًا نَّبِيًّا",
     "textSimple": "وٱذكر فى ٱلكتـب إبرهيم  إنه كان صديقا نبيا",
     "transliteration": "wa-udh'kur fī l-kitābi ib'rāhīma innahu kāna ṣiddīqan nabiyyan",
-    "translation": "",
+    "translation": "And mention in the Book [the story of] Abraham. Indeed, he was a man of truth and a prophet.",
     "words": [
       {
         "id": "maryam-41-1",
@@ -3322,7 +3362,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque Abraham dans le Livre, car il fut un (homme) véridique et un Prophète."
   },
   {
     "id": "maryam-42",
@@ -3331,7 +3372,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لِأَبِيهِ يَـٰٓأَبَتِ لِمَ تَعْبُدُ مَا لَا يَسْمَعُ وَلَا يُبْصِرُ وَلَا يُغْنِى عَنكَ شَيْـًٔا",
     "textSimple": "إذ قال لأبيه يـٓأبت لم تعبد ما لا يسمع ولا يبصر ولا يغنى عنك شيـٔا",
     "transliteration": "idh qāla li-abīhi yāabati lima taʿbudu mā lā yasmaʿu walā yub'ṣiru walā yugh'nī ʿanka shayan",
-    "translation": "",
+    "translation": "[Mention] when he said to his father, \"O my father, why do you worship that which does not hear and does not see and will not benefit you at all?",
     "words": [
       {
         "id": "maryam-42-1",
@@ -3439,7 +3480,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Mentionne qu’) il dit à son père : « Père, pourquoi adores-tu ce qui n’entend pas, ne voit pas et ne te préserve de rien?"
   },
   {
     "id": "maryam-43",
@@ -3448,7 +3490,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَبَتِ إِنِّى قَدْ جَآءَنِى مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًا سَوِيًّا",
     "textSimple": "يـٓأبت إنى قد جآءنى من ٱلعلم ما لم يأتك فٱتبعنىٓ أهدك صرطا سويا",
     "transliteration": "yāabati innī qad jāanī mina l-ʿil'mi mā lam yatika fa-ittabiʿ'nī ahdika ṣirāṭan sawiyyan",
-    "translation": "",
+    "translation": "O my father, indeed there has come to me of knowledge that which has not come to you, so follow me; I will guide you to an even path.",
     "words": [
       {
         "id": "maryam-43-1",
@@ -3542,7 +3584,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Père, il m’a été donné d’une science dont il ne t’a pas été donné. Suis-moi donc, et je te montrerai une voie droite."
   },
   {
     "id": "maryam-44",
@@ -3551,7 +3594,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَـٰنَ ۖ إِنَّ ٱلشَّيْطَـٰنَ كَانَ لِلرَّحْمَـٰنِ عَصِيًّا",
     "textSimple": "يـٓأبت لا تعبد ٱلشيطـن  إن ٱلشيطـن كان للرحمـن عصيا",
     "transliteration": "yāabati lā taʿbudi l-shayṭāna inna l-shayṭāna kāna lilrraḥmāni ʿaṣiyyan",
-    "translation": "",
+    "translation": "O my father, do not worship [i.e., obey] Satan. Indeed Satan has ever been, to the Most Merciful, disobedient.",
     "words": [
       {
         "id": "maryam-44-1",
@@ -3617,7 +3660,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Père, N’adore pas Satan, car Satan s’est rebellé contre le Tout Clément."
   },
   {
     "id": "maryam-45",
@@ -3626,7 +3670,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌ مِّنَ ٱلرَّحْمَـٰنِ فَتَكُونَ لِلشَّيْطَـٰنِ وَلِيًّا",
     "textSimple": "يـٓأبت إنىٓ أخاف أن يمسك عذاب من ٱلرحمـن فتكون للشيطـن وليا",
     "transliteration": "yāabati innī akhāfu an yamassaka ʿadhābun mina l-raḥmāni fatakūna lilshayṭāni waliyyan",
-    "translation": "",
+    "translation": "O my father, indeed I fear that there will touch you a punishment from the Most Merciful so you would be to Satan a companion [in Hellfire].\"",
     "words": [
       {
         "id": "maryam-45-1",
@@ -3706,7 +3750,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Père, je crains que tu ne sois touché par un supplice du Tout Clément, et que tu ne deviennes un allié de Satan. »"
   },
   {
     "id": "maryam-46",
@@ -3715,7 +3760,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَرَاغِبٌ أَنتَ عَنْ ءَالِهَتِى يَـٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّا",
     "textSimple": "قال أراغب أنت عن ءالهتى يـٓإبرهيم  لئن لم تنته لأرجمنك  وٱهجرنى مليا",
     "transliteration": "qāla arāghibun anta ʿan ālihatī yāib'rāhīmu la-in lam tantahi la-arjumannaka wa-uh'jur'nī maliyyan",
-    "translation": "",
+    "translation": "[His father] said, \"Have you no desire for my gods, O Abraham? If you do not desist, I will surely stone you, so avoid me a prolonged time.\"",
     "words": [
       {
         "id": "maryam-46-1",
@@ -3802,7 +3847,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Le père) dit alors : « Manifesterais-tu du dédain envers mes divinités, ô Abraham ? Si tu n’arrêtes pas (de les insulter), je te lapiderai. Quitte-moi donc, et (ne reviens plus) avant longtemps. »"
   },
   {
     "id": "maryam-47",
@@ -3811,7 +3857,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ سَلَـٰمٌ عَلَيْكَ ۖ سَأَسْتَغْفِرُ لَكَ رَبِّىٓ ۖ إِنَّهُۥ كَانَ بِى حَفِيًّا",
     "textSimple": "قال سلـم عليك  سأستغفر لك ربىٓ  إنه كان بى حفيا",
     "transliteration": "qāla salāmun ʿalayka sa-astaghfiru laka rabbī innahu kāna bī ḥafiyyan",
-    "translation": "",
+    "translation": "[Abraham] said, \"Peace [i.e., safety] will be upon you. I will ask forgiveness for you of my Lord. Indeed, He is ever gracious to me.",
     "words": [
       {
         "id": "maryam-47-1",
@@ -3884,7 +3930,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Que la paix soit sur toi, dit (Abraham), j’implorerai pour toi le pardon de mon Seigneur, Il est si généreux avec moi."
   },
   {
     "id": "maryam-48",
@@ -3893,7 +3940,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّا",
     "textSimple": "وأعتزلكم وما تدعون من دون ٱلله وأدعوا ربى عسىٓ ألآ أكون بدعآء ربى شقيا",
     "transliteration": "wa-aʿtazilukum wamā tadʿūna min dūni l-lahi wa-adʿū rabbī ʿasā allā akūna biduʿāi rabbī shaqiyyan",
-    "translation": "",
+    "translation": "And I will leave you and those you invoke other than Allāh and will invoke my Lord. I expect that I will not be in invocation to my Lord unhappy [i.e., disappointed].\"",
     "words": [
       {
         "id": "maryam-48-1",
@@ -3994,7 +4041,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je me tiendrai loin de vous et de ce que vous adorez en dehors d’Allah. Je prierai mon Seigneur et ne serai pas, j’espère, déçu en Le priant. »"
   },
   {
     "id": "maryam-49",
@@ -4003,7 +4051,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ ۖ وَكُلًّا جَعَلْنَا نَبِيًّا",
     "textSimple": "فلما ٱعتزلهم وما يعبدون من دون ٱلله وهبنا لهٓ إسحـق ويعقوب  وكلا جعلنا نبيا",
     "transliteration": "falammā iʿ'tazalahum wamā yaʿbudūna min dūni l-lahi wahabnā lahu is'ḥāqa wayaʿqūba wakullan jaʿalnā nabiyyan",
-    "translation": "",
+    "translation": "So when he had left them and those they worshipped other than Allāh, We gave him Isaac and Jacob, and each [of them] We made a prophet.",
     "words": [
       {
         "id": "maryam-49-1",
@@ -4104,7 +4152,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsqu’il se fut éloigné d’eux et de ce qu’ils adoraient en dehors d’Allah, Nous lui fîmes don d’Isaac et de Jacob, et Nous fîmes de chacun d’eux un Prophète."
   },
   {
     "id": "maryam-50",
@@ -4113,7 +4162,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّا",
     "textSimple": "ووهبنا لهم من رحمتنا وجعلنا لهم لسان صدق عليا",
     "transliteration": "wawahabnā lahum min raḥmatinā wajaʿalnā lahum lisāna ṣid'qin ʿaliyyan",
-    "translation": "",
+    "translation": "And We gave them of Our mercy, and We made for them a mention [i.e., reputation] of high honor.",
     "words": [
       {
         "id": "maryam-50-1",
@@ -4179,7 +4228,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur donnâmes de Notre miséricorde et leur accordâmes d’être hautement loués."
   },
   {
     "id": "maryam-51",
@@ -4188,7 +4238,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ مُوسَىٰٓ ۚ إِنَّهُۥ كَانَ مُخْلَصًا وَكَانَ رَسُولًا نَّبِيًّا",
     "textSimple": "وٱذكر فى ٱلكتـب موسىٓ  إنه كان مخلصا وكان رسولا نبيا",
     "transliteration": "wa-udh'kur fī l-kitābi mūsā innahu kāna mukh'laṣan wakāna rasūlan nabiyyan",
-    "translation": "",
+    "translation": "And mention in the Book, Moses. Indeed, he was chosen, and he was a messenger and a prophet.",
     "words": [
       {
         "id": "maryam-51-1",
@@ -4261,7 +4311,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque dans le Livre Moïse, car ce fut un élu, un Messager et un Prophète."
   },
   {
     "id": "maryam-52",
@@ -4270,7 +4321,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَنَـٰدَيْنَـٰهُ مِن جَانِبِ ٱلطُّورِ ٱلْأَيْمَنِ وَقَرَّبْنَـٰهُ نَجِيًّا",
     "textSimple": "ونـدينـه من جانب ٱلطور ٱلأيمن وقربنـه نجيا",
     "transliteration": "wanādaynāhu min jānibi l-ṭūri l-aymani waqarrabnāhu najiyyan",
-    "translation": "",
+    "translation": "And We called him from the side of the mount at [his] right and brought him near, confiding [to him].",
     "words": [
       {
         "id": "maryam-52-1",
@@ -4322,7 +4373,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’appelâmes de la partie du Mont (Sinaï) qui se trouvait sur sa droite, et Nous en fîmes un proche confident."
   },
   {
     "id": "maryam-53",
@@ -4331,7 +4383,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَـٰرُونَ نَبِيًّا",
     "textSimple": "ووهبنا له من رحمتنآ أخاه هـرون نبيا",
     "transliteration": "wawahabnā lahu min raḥmatinā akhāhu hārūna nabiyyan",
-    "translation": "",
+    "translation": "And We gave him out of Our mercy his brother Aaron as a prophet.",
     "words": [
       {
         "id": "maryam-53-1",
@@ -4383,7 +4435,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui donnâmes, par Notre grâce, son frère Aaron comme Prophète."
   },
   {
     "id": "maryam-54",
@@ -4392,7 +4445,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ إِسْمَـٰعِيلَ ۚ إِنَّهُۥ كَانَ صَادِقَ ٱلْوَعْدِ وَكَانَ رَسُولًا نَّبِيًّا",
     "textSimple": "وٱذكر فى ٱلكتـب إسمـعيل  إنه كان صادق ٱلوعد وكان رسولا نبيا",
     "transliteration": "wa-udh'kur fī l-kitābi is'māʿīla innahu kāna ṣādiqa l-waʿdi wakāna rasūlan nabiyyan",
-    "translation": "",
+    "translation": "And mention in the Book, Ishmael. Indeed, he was true to his promise, and he was a messenger and a prophet.",
     "words": [
       {
         "id": "maryam-54-1",
@@ -4472,7 +4525,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et évoque dans le Livre Ismaël, car il honorait ses promesses et fut un Messager et un Prophète."
   },
   {
     "id": "maryam-55",
@@ -4481,7 +4535,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَانَ يَأْمُرُ أَهْلَهُۥ بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ وَكَانَ عِندَ رَبِّهِۦ مَرْضِيًّا",
     "textSimple": "وكان يأمر أهله بٱلصلوة وٱلزكوة وكان عند ربه مرضيا",
     "transliteration": "wakāna yamuru ahlahu bil-ṣalati wal-zakati wakāna ʿinda rabbihi marḍiyyan",
-    "translation": "",
+    "translation": "And he used to enjoin on his people prayer and zakāh and was to his Lord pleasing [i.e., accepted by Him].",
     "words": [
       {
         "id": "maryam-55-1",
@@ -4547,7 +4601,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ordonnait à son peuple La Çalât et la Zakât, et il était agréé auprès de son Seigneur."
   },
   {
     "id": "maryam-56",
@@ -4556,7 +4611,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ إِدْرِيسَ ۚ إِنَّهُۥ كَانَ صِدِّيقًا نَّبِيًّا",
     "textSimple": "وٱذكر فى ٱلكتـب إدريس  إنه كان صديقا نبيا",
     "transliteration": "wa-udh'kur fī l-kitābi id'rīsa innahu kāna ṣiddīqan nabiyyan",
-    "translation": "",
+    "translation": "And mention in the Book, Idrees. Indeed, he was a man of truth and a prophet.",
     "words": [
       {
         "id": "maryam-56-1",
@@ -4615,7 +4670,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque aussi Idrîs dans le Livre. C’était un (homme) véridique et un Prophète."
   },
   {
     "id": "maryam-57",
@@ -4624,7 +4680,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَرَفَعْنَـٰهُ مَكَانًا عَلِيًّا",
     "textSimple": "ورفعنـه مكانا عليا",
     "transliteration": "warafaʿnāhu makānan ʿaliyyan",
-    "translation": "",
+    "translation": "And We raised him to a high station.",
     "words": [
       {
         "id": "maryam-57-1",
@@ -4648,7 +4704,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’avons élevé à une place très haute."
   },
   {
     "id": "maryam-58",
@@ -4657,7 +4714,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّـۧنَ مِن ذُرِّيَّةِ ءَادَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُ ٱلرَّحْمَـٰنِ خَرُّوا۟ سُجَّدًا وَبُكِيًّا ۩",
     "textSimple": "أولـٓئك ٱلذين أنعم ٱلله عليهم من ٱلنبيـن من ذرية ءادم وممن حملنا مع نوح ومن ذرية إبرهيم وإسرٓءيل وممن هدينا وٱجتبينآ  إذا تتلى عليهم ءايـت ٱلرحمـن خروا سجدا وبكيا ",
     "transliteration": "ulāika alladhīna anʿama l-lahu ʿalayhim mina l-nabiyīna min dhurriyyati ādama wamimman ḥamalnā maʿa nūḥin wamin dhurriyyati ib'rāhīma wa-is'rāīla wamimman hadaynā wa-ij'tabaynā idhā tut'lā ʿalayhim āyātu l-raḥmāni kharrū sujjadan wabukiyyan",
-    "translation": "",
+    "translation": "Those were the ones upon whom Allāh bestowed favor from among the prophets of the descendants of Adam and of those We carried [in the ship] with Noah, and of the descendants of Abraham and Israel [i.e., Jacob], and of those whom We guided and chose. When the verses of the Most Merciful were recited to them, they fell in prostration and weeping.",
     "words": [
       {
         "id": "maryam-58-1",
@@ -4863,7 +4920,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont eux qu’Allah a comblés de Ses faveurs, parmi les Prophètes de la descendance d’Adam, et parmi ceux que Nous avons transportés sur l’Arche avec Noé, mais aussi parmi la descendance d’Abraham et d’Israël ; et enfin parmi ceux que Nous avons guidés et élus. (Ceux-là), quand les versets du Tout Clément leur étaient récités, ils tombaient à terre, prosternés et en pleurs."
   },
   {
     "id": "maryam-59",
@@ -4872,7 +4930,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا",
     "textSimple": " فخلف من بعدهم خلف أضاعوا ٱلصلوة وٱتبعوا ٱلشهوت  فسوف يلقون غيا",
     "transliteration": "fakhalafa min baʿdihim khalfun aḍāʿū l-ṣalata wa-ittabaʿū l-shahawāti fasawfa yalqawna ghayyan",
-    "translation": "",
+    "translation": "But there came after them successors [i.e., later generations] who neglected prayer and pursued desires; so they are going to meet evil -",
     "words": [
       {
         "id": "maryam-59-1",
@@ -4952,7 +5010,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur succédèrent alors des générations qui négligèrent la prière et suivirent leurs désirs. Ceux-là courront à leur perte."
   },
   {
     "id": "maryam-60",
@@ -4961,7 +5020,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَـٰلِحًا فَأُو۟لَـٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ شَيْـًٔا",
     "textSimple": "إلا من تاب وءامن وعمل صـلحا فأولـٓئك يدخلون ٱلجنة ولا يظلمون شيـٔا",
     "transliteration": "illā man tāba waāmana waʿamila ṣāliḥan fa-ulāika yadkhulūna l-janata walā yuẓ'lamūna shayan",
-    "translation": "",
+    "translation": "Except those who repent, believe and do righteousness; for those will enter Paradise and will not be wronged at all.",
     "words": [
       {
         "id": "maryam-60-1",
@@ -5048,7 +5107,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Excepté ceux qui se repentent et font le bien, ceux-là entreront au Paradis et ne seront lésés en rien."
   },
   {
     "id": "maryam-61",
@@ -5057,7 +5117,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدَ ٱلرَّحْمَـٰنُ عِبَادَهُۥ بِٱلْغَيْبِ ۚ إِنَّهُۥ كَانَ وَعْدُهُۥ مَأْتِيًّا",
     "textSimple": "جنـت عدن ٱلتى وعد ٱلرحمـن عباده بٱلغيب  إنه كان وعده مأتيا",
     "transliteration": "jannāti ʿadnin allatī waʿada l-raḥmānu ʿibādahu bil-ghaybi innahu kāna waʿduhu matiyyan",
-    "translation": "",
+    "translation": "[Therein are] gardens of perpetual residence which the Most Merciful has promised His servants in the unseen. Indeed, His promise has ever been eminent.",
     "words": [
       {
         "id": "maryam-61-1",
@@ -5137,7 +5197,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans des Jardins d’Éden que le Tout Clément a promis à Ses serviteurs qui (avaient foi en) l’Inconnaissable (ghayb). Car Sa promesse, certainement, sera tenue."
   },
   {
     "id": "maryam-62",
@@ -5146,7 +5207,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَـٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً وَعَشِيًّا",
     "textSimple": "لا يسمعون فيها لغوا إلا سلـما  ولهم رزقهم فيها بكرة وعشيا",
     "transliteration": "lā yasmaʿūna fīhā laghwan illā salāman walahum riz'quhum fīhā buk'ratan waʿashiyyan",
-    "translation": "",
+    "translation": "They will not hear therein any ill speech - only [greetings of] peace - and they will have their provision therein, morning and afternoon.",
     "words": [
       {
         "id": "maryam-62-1",
@@ -5226,7 +5287,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’y entendront nulle parole vaine, mais « Paix ! (Salâm) ». Ils y auront leur subsistance, matin et soir."
   },
   {
     "id": "maryam-63",
@@ -5235,7 +5297,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ٱلْجَنَّةُ ٱلَّتِى نُورِثُ مِنْ عِبَادِنَا مَن كَانَ تَقِيًّا",
     "textSimple": "تلك ٱلجنة ٱلتى نورث من عبادنا من كان تقيا",
     "transliteration": "til'ka l-janatu allatī nūrithu min ʿibādinā man kāna taqiyyan",
-    "translation": "",
+    "translation": "That is Paradise, which We give as inheritance to those of Our servants who were fearing of Allāh.",
     "words": [
       {
         "id": "maryam-63-1",
@@ -5301,7 +5363,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est le Paradis dont Nous ferons hériter les êtres pieux parmi Nos serviteurs."
   },
   {
     "id": "maryam-64",
@@ -5310,7 +5373,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نَتَنَزَّلُ إِلَّا بِأَمْرِ رَبِّكَ ۖ لَهُۥ مَا بَيْنَ أَيْدِينَا وَمَا خَلْفَنَا وَمَا بَيْنَ ذَٰلِكَ ۚ وَمَا كَانَ رَبُّكَ نَسِيًّا",
     "textSimple": "وما نتنزل إلا بأمر ربك  له ما بين أيدينا وما خلفنا وما بين ذلك  وما كان ربك نسيا",
     "transliteration": "wamā natanazzalu illā bi-amri rabbika lahu mā bayna aydīnā wamā khalfanā wamā bayna dhālika wamā kāna rabbuka nasiyyan",
-    "translation": "",
+    "translation": "[Gabriel said], \"And we [angels] descend not except by the order of your Lord. To Him belongs that before us and that behind us and what is in between. And never is your Lord forgetful -",
     "words": [
       {
         "id": "maryam-64-1",
@@ -5439,7 +5502,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les Anges disent) : « Nous ne descendons que par l’ordre de ton Seigneur. À lui appartiennent ce qui est devant nous, ce qui est derrière nous, et ce qui est entre les deux. Ton Seigneur n’est point oublieux."
   },
   {
     "id": "maryam-65",
@@ -5448,7 +5512,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "رَّبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَـٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّا",
     "textSimple": "رب ٱلسمـوت وٱلأرض وما بينهما فٱعبده وٱصطبر لعبـدته  هل تعلم له سميا",
     "transliteration": "rabbu l-samāwāti wal-arḍi wamā baynahumā fa-uʿ'bud'hu wa-iṣ'ṭabir liʿibādatihi hal taʿlamu lahu samiyyan",
-    "translation": "",
+    "translation": "Lord of the heavens and the earth and whatever is between them - so worship Him and have patience for His worship. Do you know of any similarity to Him?\"",
     "words": [
       {
         "id": "maryam-65-1",
@@ -5535,7 +5599,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(C’est Lui) le Seigneur des cieux et de la terre et de ce qu’il y a entre les deux. Adore-Le, sois patient en L’adorant. Lui connais-tu un homologue ?"
   },
   {
     "id": "maryam-66",
@@ -5544,7 +5609,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُ ٱلْإِنسَـٰنُ أَءِذَا مَا مِتُّ لَسَوْفَ أُخْرَجُ حَيًّا",
     "textSimple": "ويقول ٱلإنسـن أءذا ما مت لسوف أخرج حيا",
     "transliteration": "wayaqūlu l-insānu a-idhā mā mittu lasawfa ukh'raju ḥayyan",
-    "translation": "",
+    "translation": "And man [i.e., the disbeliever] says, \"When I have died, am I going to be brought forth alive?\"",
     "words": [
       {
         "id": "maryam-66-1",
@@ -5603,7 +5668,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme dit : « Est-ce qu’une fois mort, je serai sorti vivant (de la terre) ? »"
   },
   {
     "id": "maryam-67",
@@ -5612,7 +5678,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَا يَذْكُرُ ٱلْإِنسَـٰنُ أَنَّا خَلَقْنَـٰهُ مِن قَبْلُ وَلَمْ يَكُ شَيْـًٔا",
     "textSimple": "أولا يذكر ٱلإنسـن أنا خلقنـه من قبل ولم يك شيـٔا",
     "transliteration": "awalā yadhkuru l-insānu annā khalaqnāhu min qablu walam yaku shayan",
-    "translation": "",
+    "translation": "Does man not remember that We created him before, while he was nothing?",
     "words": [
       {
         "id": "maryam-67-1",
@@ -5685,7 +5751,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais l’homme ne se rappelle-t-il pas que Nous l’avons créé une première fois quand il n’était rien ?"
   },
   {
     "id": "maryam-68",
@@ -5694,7 +5761,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَٱلشَّيَـٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا",
     "textSimple": "فوربك لنحشرنهم وٱلشيـطين ثم لنحضرنهم حول جهنم جثيا",
     "transliteration": "fawarabbika lanaḥshurannahum wal-shayāṭīna thumma lanuḥ'ḍirannahum ḥawla jahannama jithiyyan",
-    "translation": "",
+    "translation": "So by your Lord, We will surely gather them and the devils; then We will bring them to be present around Hell upon their knees.",
     "words": [
       {
         "id": "maryam-68-1",
@@ -5753,7 +5820,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ton Seigneur ! (Sois sûr que) Nous rassemblerons et les hommes et les démons, et que Nous les ferons comparaître autour de la Géhenne, à genoux."
   },
   {
     "id": "maryam-69",
@@ -5762,7 +5830,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَـٰنِ عِتِيًّا",
     "textSimple": "ثم لننزعن من كل شيعة أيهم أشد على ٱلرحمـن عتيا",
     "transliteration": "thumma lananziʿanna min kulli shīʿatin ayyuhum ashaddu ʿalā l-raḥmāni ʿitiyyan",
-    "translation": "",
+    "translation": "Then We will surely extract from every sect those of them who were worst against the Most Merciful in insolence.",
     "words": [
       {
         "id": "maryam-69-1",
@@ -5835,7 +5903,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous détacherons de chaque groupe ceux qui étaient les plus acharnés contre le Tout Clément."
   },
   {
     "id": "maryam-70",
@@ -5844,7 +5913,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَنَحْنُ أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا صِلِيًّا",
     "textSimple": "ثم لنحن أعلم بٱلذين هم أولى بها صليا",
     "transliteration": "thumma lanaḥnu aʿlamu bi-alladhīna hum awlā bihā ṣiliyyan",
-    "translation": "",
+    "translation": "Then, surely it is We who are most knowing of those most worthy of burning therein.",
     "words": [
       {
         "id": "maryam-70-1",
@@ -5903,7 +5972,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui Savons le mieux quels sont ceux qui méritent les premiers d’y être précipités pour l’éternité."
   },
   {
     "id": "maryam-71",
@@ -5912,7 +5982,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن مِّنكُمْ إِلَّا وَارِدُهَا ۚ كَانَ عَلَىٰ رَبِّكَ حَتْمًا مَّقْضِيًّا",
     "textSimple": "وإن منكم إلا واردها  كان على ربك حتما مقضيا",
     "transliteration": "wa-in minkum illā wāriduhā kāna ʿalā rabbika ḥatman maqḍiyyan",
-    "translation": "",
+    "translation": "And there is none of you except he will come to it. This is upon your Lord an inevitability decreed.",
     "words": [
       {
         "id": "maryam-71-1",
@@ -5978,7 +6048,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est aucun d’entre vous qui ne s’en approchera. C’est là un arrêt irréversible de ton Seigneur."
   },
   {
     "id": "maryam-72",
@@ -5987,7 +6058,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ نُنَجِّى ٱلَّذِينَ ٱتَّقَوا۟ وَّنَذَرُ ٱلظَّـٰلِمِينَ فِيهَا جِثِيًّا",
     "textSimple": "ثم ننجى ٱلذين ٱتقوا ونذر ٱلظـلمين فيها جثيا",
     "transliteration": "thumma nunajjī alladhīna ittaqaw wanadharu l-ẓālimīna fīhā jithiyyan",
-    "translation": "",
+    "translation": "Then We will save those who feared Allāh and leave the wrongdoers within it, on their knees.",
     "words": [
       {
         "id": "maryam-72-1",
@@ -6046,7 +6117,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous sauverons ceux qui auront été pieux et y laisserons les injustes à genoux."
   },
   {
     "id": "maryam-73",
@@ -6055,7 +6127,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَىُّ ٱلْفَرِيقَيْنِ خَيْرٌ مَّقَامًا وَأَحْسَنُ نَدِيًّا",
     "textSimple": "وإذا تتلى عليهم ءايـتنا بينـت قال ٱلذين كفروا للذين ءامنوٓا أى ٱلفريقين خير مقاما وأحسن نديا",
     "transliteration": "wa-idhā tut'lā ʿalayhim āyātunā bayyinātin qāla alladhīna kafarū lilladhīna āmanū ayyu l-farīqayni khayrun maqāman wa-aḥsanu nadiyyan",
-    "translation": "",
+    "translation": "And when Our verses are recited to them as clear evidences, those who disbelieve say to those who believe, \"Which of [our] two parties is best in position and best in association?\"",
     "words": [
       {
         "id": "maryam-73-1",
@@ -6170,7 +6242,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Nos versets explicites leur sont récités, ceux qui ont mécru disent à ceux qui ont cru : « Lequel de nos deux groupes jouit des meilleures demeures et du meilleur lieu de rencontre ? »"
   },
   {
     "id": "maryam-74",
@@ -6179,7 +6252,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَـٰثًا وَرِءْيًا",
     "textSimple": "وكم أهلكنا قبلهم من قرن هم أحسن أثـثا ورءيا",
     "transliteration": "wakam ahlaknā qablahum min qarnin hum aḥsanu athāthan wari'yan",
-    "translation": "",
+    "translation": "And how many a generation have We destroyed before them who were better in possessions and [outward] appearance?",
     "words": [
       {
         "id": "maryam-74-1",
@@ -6245,7 +6318,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de générations avons-Nous pourtant fait périr avant eux, qui furent plus huppées en richesses et en apparat."
   },
   {
     "id": "maryam-75",
@@ -6254,7 +6328,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن كَانَ فِى ٱلضَّلَـٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَـٰنُ مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَانًا وَأَضْعَفُ جُندًا",
     "textSimple": "قل من كان فى ٱلضلـلة فليمدد له ٱلرحمـن مدا  حتىٓ إذا رأوا ما يوعدون إما ٱلعذاب وإما ٱلساعة فسيعلمون من هو شر مكانا وأضعف جندا",
     "transliteration": "qul man kāna fī l-ḍalālati falyamdud lahu l-raḥmānu maddan ḥattā idhā ra-aw mā yūʿadūna immā l-ʿadhāba wa-immā l-sāʿata fasayaʿlamūna man huwa sharrun makānan wa-aḍʿafu jundan",
-    "translation": "",
+    "translation": "Say, \"Whoever is in error - let the Most Merciful extend for him an extension [in wealth and time] until, when they see that which they were promised - either punishment [in this world] or the Hour [of resurrection] - they will come to know who is worst in position and weaker in soldiers.\"",
     "words": [
       {
         "id": "maryam-75-1",
@@ -6432,7 +6506,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Que le Tout Clément prolonge la vie de ceux qui sont dans l’égarement jusqu’à ce qu’ils voient enfin s’accomplir la menace qui leur était faite soit du supplice soit de l’Heure. Ils sauront alors qui sera dans la plus mauvaise position et dont les soldats seront les plus faibles. »"
   },
   {
     "id": "maryam-76",
@@ -6441,7 +6516,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًى ۗ وَٱلْبَـٰقِيَـٰتُ ٱلصَّـٰلِحَـٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ مَّرَدًّا",
     "textSimple": "ويزيد ٱلله ٱلذين ٱهتدوا هدى  وٱلبـقيـت ٱلصـلحـت خير عند ربك ثوابا وخير مردا",
     "transliteration": "wayazīdu l-lahu alladhīna ih'tadaw hudan wal-bāqiyātu l-ṣāliḥātu khayrun ʿinda rabbika thawāban wakhayrun maraddan",
-    "translation": "",
+    "translation": "And Allāh increases those who were guided, in guidance, and the enduring good deeds are better to your Lord for reward and better for recourse.",
     "words": [
       {
         "id": "maryam-76-1",
@@ -6535,7 +6610,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ajoute droiture à ceux qui sont sur la bonne voie. Et les œuvres de vertu, qui seules demeurent à tout jamais, auront auprès de ton Seigneur meilleure récompense et meilleur retour."
   },
   {
     "id": "maryam-77",
@@ -6544,7 +6620,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتَ ٱلَّذِى كَفَرَ بِـَٔايَـٰتِنَا وَقَالَ لَأُوتَيَنَّ مَالًا وَوَلَدًا",
     "textSimple": "أفرءيت ٱلذى كفر بـٔايـتنا وقال لأوتين مالا وولدا",
     "transliteration": "afara-ayta alladhī kafara biāyātinā waqāla laūtayanna mālan wawaladan",
-    "translation": "",
+    "translation": "Then, have you seen he who disbelieved in Our verses and said, \"I will surely be given wealth and children [in the next life]\"?",
     "words": [
       {
         "id": "maryam-77-1",
@@ -6603,7 +6679,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "As-tu considéré celui-là qui n’a pas cru en Nos versets et a dit : « Il me sera certes donné des biens et des enfants » ?"
   },
   {
     "id": "maryam-78",
@@ -6612,7 +6689,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَـٰنِ عَهْدًا",
     "textSimple": "أطلع ٱلغيب أم ٱتخذ عند ٱلرحمـن عهدا",
     "transliteration": "aṭṭalaʿa l-ghayba ami ittakhadha ʿinda l-raḥmāni ʿahdan",
-    "translation": "",
+    "translation": "Has he looked into the unseen, or has he taken from the Most Merciful a promise?",
     "words": [
       {
         "id": "maryam-78-1",
@@ -6664,7 +6741,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aurait-il donc sondé le mystère de l’Inconnaissable (ghayb) ? Ou aurait-il pris des gages du Tout Clément ?"
   },
   {
     "id": "maryam-79",
@@ -6673,7 +6751,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا ۚ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّا",
     "textSimple": "كلا  سنكتب ما يقول ونمد له من ٱلعذاب مدا",
     "transliteration": "kallā sanaktubu mā yaqūlu wanamuddu lahu mina l-ʿadhābi maddan",
-    "translation": "",
+    "translation": "No! We will record what he says and extend [i.e., increase] for him from the punishment extensively.",
     "words": [
       {
         "id": "maryam-79-1",
@@ -6739,7 +6817,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Nous écrirons ce qu’il dit et Nous accentuerons pour lui le supplice."
   },
   {
     "id": "maryam-80",
@@ -6748,7 +6827,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَنَرِثُهُۥ مَا يَقُولُ وَيَأْتِينَا فَرْدًا",
     "textSimple": "ونرثه ما يقول ويأتينا فردا",
     "transliteration": "wanarithuhu mā yaqūlu wayatīnā fardan",
-    "translation": "",
+    "translation": "And We will inherit him [in] what he mentions, and he will come to Us alone.",
     "words": [
       {
         "id": "maryam-80-1",
@@ -6786,7 +6865,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui hériterons de ce dont il a parlé et il viendra seul devant Nous."
   },
   {
     "id": "maryam-81",
@@ -6795,7 +6875,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةً لِّيَكُونُوا۟ لَهُمْ عِزًّا",
     "textSimple": "وٱتخذوا من دون ٱلله ءالهة ليكونوا لهم عزا",
     "transliteration": "wa-ittakhadhū min dūni l-lahi ālihatan liyakūnū lahum ʿizzan",
-    "translation": "",
+    "translation": "And they have taken besides Allāh [false] deities that they would be for them [a source of] honor.",
     "words": [
       {
         "id": "maryam-81-1",
@@ -6854,7 +6934,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils prennent des divinités en dehors d’Allah pour qu’elles leurs soient (source de) puissance."
   },
   {
     "id": "maryam-82",
@@ -6863,7 +6944,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا ۚ سَيَكْفُرُونَ بِعِبَادَتِهِمْ وَيَكُونُونَ عَلَيْهِمْ ضِدًّا",
     "textSimple": "كلا  سيكفرون بعبادتهم ويكونون عليهم ضدا",
     "transliteration": "kallā sayakfurūna biʿibādatihim wayakūnūna ʿalayhim ḍiddan",
-    "translation": "",
+    "translation": "No! They [i.e., those \"gods\"] will deny their worship of them and will be against them opponents [on the Day of Judgement].",
     "words": [
       {
         "id": "maryam-82-1",
@@ -6908,7 +6989,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Car (ces divinités) renieront leur adoration et seront leurs adversaires."
   },
   {
     "id": "maryam-83",
@@ -6917,7 +6999,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّآ أَرْسَلْنَا ٱلشَّيَـٰطِينَ عَلَى ٱلْكَـٰفِرِينَ تَؤُزُّهُمْ أَزًّا",
     "textSimple": "ألم تر أنآ أرسلنا ٱلشيـطين على ٱلكـفرين تؤزهم أزا",
     "transliteration": "alam tara annā arsalnā l-shayāṭīna ʿalā l-kāfirīna ta-uzzuhum azzan",
-    "translation": "",
+    "translation": "Do you not see that We have sent the devils upon the disbelievers, inciting them [to evil] with [constant] incitement?",
     "words": [
       {
         "id": "maryam-83-1",
@@ -6983,7 +7065,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas que Nous avons envoyé aux mécréants des démons qui les poussent (à la rébellion) en permanence ?"
   },
   {
     "id": "maryam-84",
@@ -6992,7 +7075,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تَعْجَلْ عَلَيْهِمْ ۖ إِنَّمَا نَعُدُّ لَهُمْ عَدًّا",
     "textSimple": "فلا تعجل عليهم  إنما نعد لهم عدا",
     "transliteration": "falā taʿjal ʿalayhim innamā naʿuddu lahum ʿaddan",
-    "translation": "",
+    "translation": "So be not impatient over them. We only count out [i.e., allow] to them a [limited] number.",
     "words": [
       {
         "id": "maryam-84-1",
@@ -7044,7 +7127,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sois donc pas pressé (de voir s’abattre sur eux le supplice), Nous tenons rigoureusement le compte de (leurs méfaits)."
   },
   {
     "id": "maryam-85",
@@ -7053,7 +7137,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَـٰنِ وَفْدًا",
     "textSimple": "يوم نحشر ٱلمتقين إلى ٱلرحمـن وفدا",
     "transliteration": "yawma naḥshuru l-mutaqīna ilā l-raḥmāni wafdan",
-    "translation": "",
+    "translation": "On the Day We will gather the righteous to the Most Merciful as a delegation",
     "words": [
       {
         "id": "maryam-85-1",
@@ -7098,7 +7182,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un jour, Nous rassemblerons les gens pieux en cortège devant le Tout Clément,"
   },
   {
     "id": "maryam-86",
@@ -7107,7 +7192,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًا",
     "textSimple": "ونسوق ٱلمجرمين إلى جهنم وردا",
     "transliteration": "wanasūqu l-muj'rimīna ilā jahannama wir'dan",
-    "translation": "",
+    "translation": "And will drive the criminals to Hell in thirst",
     "words": [
       {
         "id": "maryam-86-1",
@@ -7145,7 +7230,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et conduirons les criminels vers la Géhenne, où ils seront (comme des bêtes) précipitées vers l’abreuvoir."
   },
   {
     "id": "maryam-87",
@@ -7154,7 +7240,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَمْلِكُونَ ٱلشَّفَـٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَـٰنِ عَهْدًا",
     "textSimple": "لا يملكون ٱلشفـعة إلا من ٱتخذ عند ٱلرحمـن عهدا",
     "transliteration": "lā yamlikūna l-shafāʿata illā mani ittakhadha ʿinda l-raḥmāni ʿahdan",
-    "translation": "",
+    "translation": "None will have [power of] intercession except he who had taken from the Most Merciful a covenant.",
     "words": [
       {
         "id": "maryam-87-1",
@@ -7220,7 +7306,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’auront aucun pouvoir d’intercession, contrairement à ceux qui auront obtenu une promesse du Tout Clément."
   },
   {
     "id": "maryam-88",
@@ -7229,7 +7316,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَـٰنُ وَلَدًا",
     "textSimple": "وقالوا ٱتخذ ٱلرحمـن ولدا",
     "transliteration": "waqālū ittakhadha l-raḥmānu waladan",
-    "translation": "",
+    "translation": "And they say, \"The Most Merciful has taken [for Himself] a son.\"",
     "words": [
       {
         "id": "maryam-88-1",
@@ -7260,7 +7347,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Le Tout Clément S’est donné un enfant. »"
   },
   {
     "id": "maryam-89",
@@ -7269,7 +7357,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَدْ جِئْتُمْ شَيْـًٔا إِدًّا",
     "textSimple": "لقد جئتم شيـٔا إدا",
     "transliteration": "laqad ji'tum shayan iddan",
-    "translation": "",
+    "translation": "You have done an atrocious thing.",
     "words": [
       {
         "id": "maryam-89-1",
@@ -7300,7 +7388,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ce que vous dites là est une abomination,"
   },
   {
     "id": "maryam-90",
@@ -7309,7 +7398,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "تَكَادُ ٱلسَّمَـٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا",
     "textSimple": "تكاد ٱلسمـوت يتفطرن منه وتنشق ٱلأرض وتخر ٱلجبال هدا",
     "transliteration": "takādu l-samāwātu yatafaṭṭarna min'hu watanshaqqu l-arḍu watakhirru l-jibālu haddan",
-    "translation": "",
+    "translation": "The heavens almost rupture therefrom and the earth splits open and the mountains collapse in devastation",
     "words": [
       {
         "id": "maryam-90-1",
@@ -7375,7 +7464,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui manque de faire se briser les cieux, se fendre la terre et s’écrouler les montagnes."
   },
   {
     "id": "maryam-91",
@@ -7384,7 +7474,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "أَن دَعَوْا۟ لِلرَّحْمَـٰنِ وَلَدًا",
     "textSimple": "أن دعوا للرحمـن ولدا",
     "transliteration": "an daʿaw lilrraḥmāni waladan",
-    "translation": "",
+    "translation": "That they attribute to the Most Merciful a son.",
     "words": [
       {
         "id": "maryam-91-1",
@@ -7415,7 +7505,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car ils ont prêté un enfant au Tout Clément !"
   },
   {
     "id": "maryam-92",
@@ -7424,7 +7515,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَنۢبَغِى لِلرَّحْمَـٰنِ أَن يَتَّخِذَ وَلَدًا",
     "textSimple": "وما ينبغى للرحمـن أن يتخذ ولدا",
     "transliteration": "wamā yanbaghī lilrraḥmāni an yattakhidha waladan",
-    "translation": "",
+    "translation": "And it is not appropriate for the Most Merciful that He should take a son.",
     "words": [
       {
         "id": "maryam-92-1",
@@ -7469,7 +7560,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or il ne sied pas au Tout Clément d’avoir un enfant !"
   },
   {
     "id": "maryam-93",
@@ -7478,7 +7570,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "إِن كُلُّ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَـٰنِ عَبْدًا",
     "textSimple": "إن كل من فى ٱلسمـوت وٱلأرض إلآ ءاتى ٱلرحمـن عبدا",
     "transliteration": "in kullu man fī l-samāwāti wal-arḍi illā ātī l-raḥmāni ʿabdan",
-    "translation": "",
+    "translation": "There is no one in the heavens and earth but that he comes to the Most Merciful as a servant.",
     "words": [
       {
         "id": "maryam-93-1",
@@ -7551,7 +7643,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est pas (un seul être), parmi ceux qui sont dans les cieux et sur terre, qui ne doive venir en serviteur devant le Tout Clément."
   },
   {
     "id": "maryam-94",
@@ -7560,7 +7653,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَدْ أَحْصَىٰهُمْ وَعَدَّهُمْ عَدًّا",
     "textSimple": "لقد أحصىهم وعدهم عدا",
     "transliteration": "laqad aḥṣāhum waʿaddahum ʿaddan",
-    "translation": "",
+    "translation": "He has enumerated them and counted them a [full] counting.",
     "words": [
       {
         "id": "maryam-94-1",
@@ -7591,7 +7684,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les a tous comptés et bien énumérés."
   },
   {
     "id": "maryam-95",
@@ -7600,7 +7694,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلُّهُمْ ءَاتِيهِ يَوْمَ ٱلْقِيَـٰمَةِ فَرْدًا",
     "textSimple": "وكلهم ءاتيه يوم ٱلقيـمة فردا",
     "transliteration": "wakulluhum ātīhi yawma l-qiyāmati fardan",
-    "translation": "",
+    "translation": "And all of them are coming to Him on the Day of Resurrection alone.",
     "words": [
       {
         "id": "maryam-95-1",
@@ -7638,7 +7732,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et tous viendront vers Lui, chacun de son côté et tout seul, au Jour de la Résurrection."
   },
   {
     "id": "maryam-96",
@@ -7647,7 +7742,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَـٰنُ وُدًّا",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت سيجعل لهم ٱلرحمـن ودا",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti sayajʿalu lahumu l-raḥmānu wuddan",
-    "translation": "",
+    "translation": "Indeed, those who have believed and done righteous deeds - the Most Merciful will appoint for them affection.",
     "words": [
       {
         "id": "maryam-96-1",
@@ -7713,7 +7808,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour ceux qui ont cru et ont accompli les bonnes œuvres, le Tout Clément sera plein de Dilection."
   },
   {
     "id": "maryam-97",
@@ -7722,7 +7818,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّمَا يَسَّرْنَـٰهُ بِلِسَانِكَ لِتُبَشِّرَ بِهِ ٱلْمُتَّقِينَ وَتُنذِرَ بِهِۦ قَوْمًا لُّدًّا",
     "textSimple": "فإنما يسرنـه بلسانك لتبشر به ٱلمتقين وتنذر به قوما لدا",
     "transliteration": "fa-innamā yassarnāhu bilisānika litubashira bihi l-mutaqīna watundhira bihi qawman luddan",
-    "translation": "",
+    "translation": "So, [O Muḥammad], We have only made it [i.e., the Qur’ān] easy in your tongue [i.e., the Arabic language] that you may give good tidings thereby to the righteous and warn thereby a hostile people.",
     "words": [
       {
         "id": "maryam-97-1",
@@ -7795,7 +7891,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne l’avons rendu si accessible en ta langue que pour que tu annonces, par son moyen, l’heureuse nouvelle aux gens pieux, et avertisses un peuple intraitable."
   },
   {
     "id": "maryam-98",
@@ -7804,7 +7901,7 @@ export const MARYAM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا",
     "textSimple": "وكم أهلكنا قبلهم من قرن هل تحس منهم من أحد أو تسمع لهم ركزا",
     "transliteration": "wakam ahlaknā qablahum min qarnin hal tuḥissu min'hum min aḥadin aw tasmaʿu lahum rik'zan",
-    "translation": "",
+    "translation": "And how many have We destroyed before them of generations? Do you perceive of them anyone or hear from them a sound?",
     "words": [
       {
         "id": "maryam-98-1",
@@ -7905,7 +8002,8 @@ export const MARYAM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de générations n’avons-Nous (pourtant) pas fait périr avant eux ! Perçois-tu (encore l’existence) d’un seul être d’entre eux ? En entends-tu le moindre souffle ?"
   }
 ];
 

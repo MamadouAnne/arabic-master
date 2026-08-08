@@ -11,7 +11,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": " قُلْ أُوحِىَ إِلَىَّ أَنَّهُ ٱسْتَمَعَ نَفَرٌ مِّنَ ٱلْجِنِّ فَقَالُوٓا۟ إِنَّا سَمِعْنَا قُرْءَانًا عَجَبًا",
     "textSimple": " قل أوحى إلى أنه ٱستمع نفر من ٱلجن فقالوٓا إنا سمعنا قرءانا عجبا",
     "transliteration": "qul ūḥiya ilayya annahu is'tamaʿa nafarun mina l-jini faqālū innā samiʿ'nā qur'ānan ʿajaban",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"It has been revealed to me that a group of the jinn listened and said, 'Indeed, we have heard an amazing Qur’ān [i.e., recitation].",
     "words": [
       {
         "id": "al-jinn-1-1",
@@ -105,7 +105,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il m’a été révélé qu’un groupe de djinns, ayant prêté l’oreille, ont dit : “Nous avons certes entendu une Lecture (Qur’ân) merveilleuse,"
   },
   {
     "id": "al-jinn-2",
@@ -114,7 +115,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "يَهْدِىٓ إِلَى ٱلرُّشْدِ فَـَٔامَنَّا بِهِۦ ۖ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًا",
     "textSimple": "يهدىٓ إلى ٱلرشد فـٔامنا به  ولن نشرك بربنآ أحدا",
     "transliteration": "yahdī ilā l-rush'di faāmannā bihi walan nush'rika birabbinā aḥadan",
-    "translation": "",
+    "translation": "It guides to the right course, and we have believed in it. And we will never associate with our Lord anyone.",
     "words": [
       {
         "id": "al-jinn-2-1",
@@ -180,7 +181,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui conduit vers la juste voie, et nous y avons cru. Nous n’attribuerons donc aucun associé à notre Seigneur !"
   },
   {
     "id": "al-jinn-3",
@@ -189,7 +191,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ تَعَـٰلَىٰ جَدُّ رَبِّنَا مَا ٱتَّخَذَ صَـٰحِبَةً وَلَا وَلَدًا",
     "textSimple": "وأنه تعـلى جد ربنا ما ٱتخذ صـحبة ولا ولدا",
     "transliteration": "wa-annahu taʿālā jaddu rabbinā mā ittakhadha ṣāḥibatan walā waladan",
-    "translation": "",
+    "translation": "And [it teaches] that exalted is the nobleness of our Lord; He has not taken a wife or a son",
     "words": [
       {
         "id": "al-jinn-3-1",
@@ -255,7 +257,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Notre Seigneur Très Haut ne S’est donné ni compagne ni fils."
   },
   {
     "id": "al-jinn-4",
@@ -264,7 +267,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطًا",
     "textSimple": "وأنه كان يقول سفيهنا على ٱلله شططا",
     "transliteration": "wa-annahu kāna yaqūlu safīhunā ʿalā l-lahi shaṭaṭan",
-    "translation": "",
+    "translation": "And that our foolish one [i.e., Iblees] has been saying about Allāh an excessive transgression.",
     "words": [
       {
         "id": "al-jinn-4-1",
@@ -316,7 +319,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le plus ignorant d’entre nous proférait au sujet d’Allah les (pires) insanités."
   },
   {
     "id": "al-jinn-5",
@@ -325,7 +329,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا ظَنَنَّآ أَن لَّن تَقُولَ ٱلْإِنسُ وَٱلْجِنُّ عَلَى ٱللَّهِ كَذِبًا",
     "textSimple": "وأنا ظننآ أن لن تقول ٱلإنس وٱلجن على ٱلله كذبا",
     "transliteration": "wa-annā ẓanannā an lan taqūla l-insu wal-jinu ʿalā l-lahi kadhiban",
-    "translation": "",
+    "translation": "And we had thought that mankind and the jinn would never speak about Allāh a lie.",
     "words": [
       {
         "id": "al-jinn-5-1",
@@ -398,7 +402,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous supposions que ni les hommes ni les djinns n’oseraient débiter des mensonges sur le compte d’Allah."
   },
   {
     "id": "al-jinn-6",
@@ -407,7 +412,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا",
     "textSimple": "وأنه كان رجال من ٱلإنس يعوذون برجال من ٱلجن فزادوهم رهقا",
     "transliteration": "wa-annahu kāna rijālun mina l-insi yaʿūdhūna birijālin mina l-jini fazādūhum rahaqan",
-    "translation": "",
+    "translation": "And there were men from mankind who sought refuge in men from the jinn, so they [only] increased them in burden [i.e., sin].",
     "words": [
       {
         "id": "al-jinn-6-1",
@@ -487,7 +492,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais il y avait ceux, parmi les humains, qui cherchaient refuge auprès des djinns. Or ceux-ci ne firent qu’ajouter à leur perdition."
   },
   {
     "id": "al-jinn-7",
@@ -496,7 +502,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُمْ ظَنُّوا۟ كَمَا ظَنَنتُمْ أَن لَّن يَبْعَثَ ٱللَّهُ أَحَدًا",
     "textSimple": "وأنهم ظنوا كما ظننتم أن لن يبعث ٱلله أحدا",
     "transliteration": "wa-annahum ẓannū kamā ẓanantum an lan yabʿatha l-lahu aḥadan",
-    "translation": "",
+    "translation": "And they had thought, as you thought, that Allāh would never send anyone [as a messenger].",
     "words": [
       {
         "id": "al-jinn-7-1",
@@ -562,7 +568,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout comme vous, ils pensaient qu’Allah n’enverrait nul (Messager)."
   },
   {
     "id": "al-jinn-8",
@@ -571,7 +578,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا لَمَسْنَا ٱلسَّمَآءَ فَوَجَدْنَـٰهَا مُلِئَتْ حَرَسًا شَدِيدًا وَشُهُبًا",
     "textSimple": "وأنا لمسنا ٱلسمآء فوجدنـها ملئت حرسا شديدا وشهبا",
     "transliteration": "wa-annā lamasnā l-samāa fawajadnāhā muli-at ḥarasan shadīdan washuhuban",
-    "translation": "",
+    "translation": "And we have sought [to reach] the heaven but found it filled with powerful guards and burning flames.",
     "words": [
       {
         "id": "al-jinn-8-1",
@@ -630,7 +637,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous nous sommes rapprochés du ciel et nous l’avons trouvé rempli de gardiens féroces et de météores."
   },
   {
     "id": "al-jinn-9",
@@ -639,7 +647,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَـٰعِدَ لِلسَّمْعِ ۖ فَمَن يَسْتَمِعِ ٱلْـَٔانَ يَجِدْ لَهُۥ شِهَابًا رَّصَدًا",
     "textSimple": "وأنا كنا نقعد منها مقـعد للسمع  فمن يستمع ٱلـٔان يجد له شهابا رصدا",
     "transliteration": "wa-annā kunnā naqʿudu min'hā maqāʿida lilssamʿi faman yastamiʿi l-āna yajid lahu shihāban raṣadan",
-    "translation": "",
+    "translation": "And we used to sit therein in positions for hearing, but whoever listens now will find a burning flame lying in wait for him.",
     "words": [
       {
         "id": "al-jinn-9-1",
@@ -733,7 +741,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous pouvions nous y installer pour écouter (les secrets célestes), or quiconque prête l’oreille aujourd’hui verra fondre sur lui un météore à l’affût."
   },
   {
     "id": "al-jinn-10",
@@ -742,7 +751,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا لَا نَدْرِىٓ أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا",
     "textSimple": "وأنا لا ندرىٓ أشر أريد بمن فى ٱلأرض أم أراد بهم ربهم رشدا",
     "transliteration": "wa-annā lā nadrī asharrun urīda biman fī l-arḍi am arāda bihim rabbuhum rashadan",
-    "translation": "",
+    "translation": "And we do not know [therefore] whether evil is intended for those on earth or whether their Lord intends for them a right course.",
     "words": [
       {
         "id": "al-jinn-10-1",
@@ -836,7 +845,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne savons vraiment si un malheur est voulu à ceux qui sont sur terre, ou si leur Seigneur leur veut la voie de la droiture."
   },
   {
     "id": "al-jinn-11",
@@ -845,7 +855,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا مِنَّا ٱلصَّـٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًا",
     "textSimple": "وأنا منا ٱلصـلحون ومنا دون ذلك  كنا طرآئق قددا",
     "transliteration": "wa-annā minnā l-ṣāliḥūna waminnā dūna dhālika kunnā ṭarāiqa qidadan",
-    "translation": "",
+    "translation": "And among us are the righteous, and among us are [others] not so; we were [of] divided ways.",
     "words": [
       {
         "id": "al-jinn-11-1",
@@ -911,7 +921,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est parmi nous qui sont des gens de bien, et d’autres qui sont bien en deçà. C’est que nous sommes divisés en sectes différentes."
   },
   {
     "id": "al-jinn-12",
@@ -920,7 +931,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا ظَنَنَّآ أَن لَّن نُّعْجِزَ ٱللَّهَ فِى ٱلْأَرْضِ وَلَن نُّعْجِزَهُۥ هَرَبًا",
     "textSimple": "وأنا ظننآ أن لن نعجز ٱلله فى ٱلأرض ولن نعجزه هربا",
     "transliteration": "wa-annā ẓanannā an lan nuʿ'jiza l-laha fī l-arḍi walan nuʿ'jizahu haraban",
-    "translation": "",
+    "translation": "And we have become certain that we will never cause failure to Allāh upon earth, nor can we escape Him by flight.",
     "words": [
       {
         "id": "al-jinn-12-1",
@@ -1000,7 +1011,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous savions pertinemment que nous ne saurions défier la puissance d’Allah sur terre, ni Le tenir en échec en prenant la fuite."
   },
   {
     "id": "al-jinn-13",
@@ -1009,7 +1021,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا لَمَّا سَمِعْنَا ٱلْهُدَىٰٓ ءَامَنَّا بِهِۦ ۖ فَمَن يُؤْمِنۢ بِرَبِّهِۦ فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا",
     "textSimple": "وأنا لما سمعنا ٱلهدىٓ ءامنا به  فمن يؤمن بربه فلا يخاف بخسا ولا رهقا",
     "transliteration": "wa-annā lammā samiʿ'nā l-hudā āmannā bihi faman yu'min birabbihi falā yakhāfu bakhsan walā rahaqan",
-    "translation": "",
+    "translation": "And when we heard the guidance [i.e., the Qur’ān], we believed in it. And whoever believes in his Lord will not fear deprivation or burden.",
     "words": [
       {
         "id": "al-jinn-13-1",
@@ -1110,7 +1122,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque nous avons entendu (le Livre) de la direction sûre (hudâ), nous y avons cru. Or, quiconque croit en son Seigneur n’aura à craindre nulle injustice et nul accablement."
   },
   {
     "id": "al-jinn-14",
@@ -1119,7 +1132,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَـٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَـٰٓئِكَ تَحَرَّوْا۟ رَشَدًا",
     "textSimple": "وأنا منا ٱلمسلمون ومنا ٱلقـسطون  فمن أسلم فأولـٓئك تحروا رشدا",
     "transliteration": "wa-annā minnā l-mus'limūna waminnā l-qāsiṭūna faman aslama fa-ulāika taḥarraw rashadan",
-    "translation": "",
+    "translation": "And among us are Muslims [in submission to Allāh], and among us are the unjust. And whoever has become Muslim - those have sought out the right course.",
     "words": [
       {
         "id": "al-jinn-14-1",
@@ -1192,7 +1205,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certains d’entre nous sont Musulmans, tandis que d’autres sont injustes. Ceux qui ont embrassé l’islam, ceux-là ont choisi la voie la plus droite."
   },
   {
     "id": "al-jinn-15",
@@ -1201,7 +1215,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلْقَـٰسِطُونَ فَكَانُوا۟ لِجَهَنَّمَ حَطَبًا",
     "textSimple": "وأما ٱلقـسطون فكانوا لجهنم حطبا",
     "transliteration": "wa-ammā l-qāsiṭūna fakānū lijahannama ḥaṭaban",
-    "translation": "",
+    "translation": "But as for the unjust, they will be, for Hell, firewood.'",
     "words": [
       {
         "id": "al-jinn-15-1",
@@ -1239,7 +1253,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant aux injustes, ils seront le bois qui alimentera la Géhenne.” »"
   },
   {
     "id": "al-jinn-16",
@@ -1248,7 +1263,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَلَّوِ ٱسْتَقَـٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَـٰهُم مَّآءً غَدَقًا",
     "textSimple": "وألو ٱستقـموا على ٱلطريقة لأسقينـهم مآء غدقا",
     "transliteration": "wa-allawi is'taqāmū ʿalā l-ṭarīqati la-asqaynāhum māan ghadaqan",
-    "translation": "",
+    "translation": "And [Allāh revealed] that if they had remained straight on the way, We would have given them abundant rain [i.e., provision].",
     "words": [
       {
         "id": "al-jinn-16-1",
@@ -1300,7 +1315,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or, s’ils s’étaient engagés sur la voie droite, Nous les aurions certes abreuvés d’une eau généreuse,"
   },
   {
     "id": "al-jinn-17",
@@ -1309,7 +1325,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًا صَعَدًا",
     "textSimple": "لنفتنهم فيه  ومن يعرض عن ذكر ربه يسلكه عذابا صعدا",
     "transliteration": "linaftinahum fīhi waman yuʿ'riḍ ʿan dhik'ri rabbihi yasluk'hu ʿadhāban ṣaʿadan",
-    "translation": "",
+    "translation": "So We might test them therein. And whoever turns away from the remembrance of his Lord He will put into arduous punishment.",
     "words": [
       {
         "id": "al-jinn-17-1",
@@ -1382,7 +1398,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui eût été pour eux une épreuve. Mais quiconque se détourne du rappel de son Seigneur, Celui-ci le fera conduire vers un supplice sans cesse augmentant."
   },
   {
     "id": "al-jinn-18",
@@ -1391,7 +1408,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ ٱلْمَسَـٰجِدَ لِلَّهِ فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًا",
     "textSimple": "وأن ٱلمسـجد لله فلا تدعوا مع ٱلله أحدا",
     "transliteration": "wa-anna l-masājida lillahi falā tadʿū maʿa l-lahi aḥadan",
-    "translation": "",
+    "translation": "And [He revealed] that the masjids are for Allāh, so do not invoke with Allāh anyone.",
     "words": [
       {
         "id": "al-jinn-18-1",
@@ -1450,7 +1467,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les mosquées sont à Allah Seul ; n’y invoquez donc personne avec Lui."
   },
   {
     "id": "al-jinn-19",
@@ -1459,7 +1477,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًا",
     "textSimple": "وأنه لما قام عبد ٱلله يدعوه كادوا يكونون عليه لبدا",
     "transliteration": "wa-annahu lammā qāma ʿabdu l-lahi yadʿūhu kādū yakūnūna ʿalayhi libadan",
-    "translation": "",
+    "translation": "And that when the Servant [i.e., Prophet] of Allāh stood up supplicating Him, they almost became about him a compacted mass.\"",
     "words": [
       {
         "id": "al-jinn-19-1",
@@ -1532,7 +1550,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque le serviteur d’Allah se fut levé pour L’invoquer, ils (les djinns) se bousculèrent vers lui."
   },
   {
     "id": "al-jinn-20",
@@ -1541,7 +1560,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَآ أَدْعُوا۟ رَبِّى وَلَآ أُشْرِكُ بِهِۦٓ أَحَدًا",
     "textSimple": "قل إنمآ أدعوا ربى ولآ أشرك بهٓ أحدا",
     "transliteration": "qul innamā adʿū rabbī walā ush'riku bihi aḥadan",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"I only invoke my Lord and do not associate with Him anyone.\"",
     "words": [
       {
         "id": "al-jinn-20-1",
@@ -1600,7 +1619,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne fais que prier mon Seigneur, et je ne Lui prête aucun associé. »"
   },
   {
     "id": "al-jinn-21",
@@ -1609,7 +1629,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّا وَلَا رَشَدًا",
     "textSimple": "قل إنى لآ أملك لكم ضرا ولا رشدا",
     "transliteration": "qul innī lā amliku lakum ḍarran walā rashadan",
-    "translation": "",
+    "translation": "Say, \"Indeed, I do not possess for you [the power of] harm or right direction.\"",
     "words": [
       {
         "id": "al-jinn-21-1",
@@ -1668,7 +1688,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne saurais ni vous nuire ni vous conduire vers le chemin de la droiture. »"
   },
   {
     "id": "al-jinn-22",
@@ -1677,7 +1698,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
     "textSimple": "قل إنى لن يجيرنى من ٱلله أحد ولن أجد من دونه ملتحدا",
     "transliteration": "qul innī lan yujīranī mina l-lahi aḥadun walan ajida min dūnihi mul'taḥadan",
-    "translation": "",
+    "translation": "Say, \"Indeed, there will never protect me from Allāh anyone [if I should disobey], nor will I find in other than Him a refuge.",
     "words": [
       {
         "id": "al-jinn-22-1",
@@ -1764,7 +1785,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Nul ne saurait me protéger contre Allah, et je ne saurais (à mon tour) trouver refuge en dehors de Lui."
   },
   {
     "id": "al-jinn-23",
@@ -1773,7 +1795,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا بَلَـٰغًا مِّنَ ٱللَّهِ وَرِسَـٰلَـٰتِهِۦ ۚ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ لَهُۥ نَارَ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ أَبَدًا",
     "textSimple": "إلا بلـغا من ٱلله ورسـلـته  ومن يعص ٱلله ورسوله فإن له نار جهنم خـلدين فيهآ أبدا",
     "transliteration": "illā balāghan mina l-lahi warisālātihi waman yaʿṣi l-laha warasūlahu fa-inna lahu nāra jahannama khālidīna fīhā abadan",
-    "translation": "",
+    "translation": "But [I have for you] only notification from Allāh, and His messages.\" And whoever disobeys Allāh and His Messenger - then indeed, for him is the fire of Hell; they will abide therein forever.",
     "words": [
       {
         "id": "al-jinn-23-1",
@@ -1888,7 +1910,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Seul est en mon pouvoir) de transmettre des informations de la part d’Allah et (de vous communiquer) Ses Messages. Et quiconque désobéit à Allah et à Son Messager aura la Géhenne pour y séjourner à tout jamais. »"
   },
   {
     "id": "al-jinn-24",
@@ -1897,7 +1920,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ فَسَيَعْلَمُونَ مَنْ أَضْعَفُ نَاصِرًا وَأَقَلُّ عَدَدًا",
     "textSimple": "حتىٓ إذا رأوا ما يوعدون فسيعلمون من أضعف ناصرا وأقل عددا",
     "transliteration": "ḥattā idhā ra-aw mā yūʿadūna fasayaʿlamūna man aḍʿafu nāṣiran wa-aqallu ʿadadan",
-    "translation": "",
+    "translation": "[The disbelievers continue] until, when they see that which they are promised, then they will know who is weaker in helpers and less in number.",
     "words": [
       {
         "id": "al-jinn-24-1",
@@ -1977,7 +2000,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils auront vu ce dont ils sont menacés, ils sauront qui sera plus faible en soutien et moins pourvu en nombre."
   },
   {
     "id": "al-jinn-25",
@@ -1986,7 +2010,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنْ أَدْرِىٓ أَقَرِيبٌ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُۥ رَبِّىٓ أَمَدًا",
     "textSimple": "قل إن أدرىٓ أقريب ما توعدون أم يجعل له ربىٓ أمدا",
     "transliteration": "qul in adrī aqarībun mā tūʿadūna am yajʿalu lahu rabbī amadan",
-    "translation": "",
+    "translation": "Say, \"I do not know if what you are promised is near or if my Lord will grant for it a [long] period.\"",
     "words": [
       {
         "id": "al-jinn-25-1",
@@ -2066,7 +2090,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne sais si ce dont vous êtes menacés est imminent, ou si mon Seigneur lui a fixé un terme différé."
   },
   {
     "id": "al-jinn-26",
@@ -2075,7 +2100,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "عَـٰلِمُ ٱلْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِۦٓ أَحَدًا",
     "textSimple": "عـلم ٱلغيب فلا يظهر على غيبهٓ أحدا",
     "transliteration": "ʿālimu l-ghaybi falā yuẓ'hiru ʿalā ghaybihi aḥadan",
-    "translation": "",
+    "translation": "[He is] Knower of the unseen, and He does not disclose His [knowledge of the] unseen to anyone",
     "words": [
       {
         "id": "al-jinn-26-1",
@@ -2127,7 +2152,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car c’est Lui Qui Connaît l’Inconnaissable (ghayb), et Il ne dévoile Ses secrets à personne,"
   },
   {
     "id": "al-jinn-27",
@@ -2136,7 +2162,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَنِ ٱرْتَضَىٰ مِن رَّسُولٍ فَإِنَّهُۥ يَسْلُكُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦ رَصَدًا",
     "textSimple": "إلا من ٱرتضى من رسول فإنه يسلك من بين يديه ومن خلفه رصدا",
     "transliteration": "illā mani ir'taḍā min rasūlin fa-innahu yasluku min bayni yadayhi wamin khalfihi raṣadan",
-    "translation": "",
+    "translation": "Except whom He has approved of messengers, and indeed, He sends before him [i.e., each messenger] and behind him observers",
     "words": [
       {
         "id": "al-jinn-27-1",
@@ -2230,7 +2256,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté à ceux qu’il aura agréés comme Messagers, et qu’Il fait escorter, au-devant d’eux et derrière eux, par des gardiens aux aguets,"
   },
   {
     "id": "al-jinn-28",
@@ -2239,7 +2266,7 @@ export const AL_JINN_AYAHS: Ayah[] = [
     "textUthmani": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَـٰلَـٰتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَىْءٍ عَدَدًۢا",
     "textSimple": "ليعلم أن قد أبلغوا رسـلـت ربهم وأحاط بما لديهم وأحصى كل شىء عددا",
     "transliteration": "liyaʿlama an qad ablaghū risālāti rabbihim wa-aḥāṭa bimā ladayhim wa-aḥṣā kulla shayin ʿadadan",
-    "translation": "",
+    "translation": "That he [i.e., Muḥammad (ﷺ)] may know that they have conveyed the messages of their Lord; and He has encompassed whatever is with them and has enumerated all things in number.",
     "words": [
       {
         "id": "al-jinn-28-1",
@@ -2333,7 +2360,8 @@ export const AL_JINN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin de savoir s’ils ont transmis les Messages de leur Seigneur. Il Cerne (de Sa Connaissance) tout ce qu’ils détiennent, et Dénombre Toute chose. »"
   }
 ];
 

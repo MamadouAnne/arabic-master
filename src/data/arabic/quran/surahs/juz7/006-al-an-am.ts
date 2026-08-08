@@ -11,7 +11,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": " ٱلْحَمْدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَجَعَلَ ٱلظُّلُمَـٰتِ وَٱلنُّورَ ۖ ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ يَعْدِلُونَ",
     "textSimple": " ٱلحمد لله ٱلذى خلق ٱلسمـوت وٱلأرض وجعل ٱلظلمـت وٱلنور  ثم ٱلذين كفروا بربهم يعدلون",
     "transliteration": "al-ḥamdu lillahi alladhī khalaqa l-samāwāti wal-arḍa wajaʿala l-ẓulumāti wal-nūra thumma alladhīna kafarū birabbihim yaʿdilūna",
-    "translation": "",
+    "translation": "[All] praise is [due] to Allāh, who created the heavens and the earth and made the darkness and the light. Then those who disbelieve equate [others] with their Lord.",
     "words": [
       {
         "id": "al-an-am-1-1",
@@ -112,7 +112,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Louange à Allah Qui a créé les cieux et la terre, et a fait les ténèbres et la lumière. Les mécréants, néanmoins, donnent des égaux à leur Seigneur."
   },
   {
     "id": "al-an-am-2",
@@ -121,7 +122,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى خَلَقَكُم مِّن طِينٍ ثُمَّ قَضَىٰٓ أَجَلًا ۖ وَأَجَلٌ مُّسَمًّى عِندَهُۥ ۖ ثُمَّ أَنتُمْ تَمْتَرُونَ",
     "textSimple": "هو ٱلذى خلقكم من طين ثم قضىٓ أجلا  وأجل مسمى عنده  ثم أنتم تمترون",
     "transliteration": "huwa alladhī khalaqakum min ṭīnin thumma qaḍā ajalan wa-ajalun musamman ʿindahu thumma antum tamtarūna",
-    "translation": "",
+    "translation": "It is He who created you from clay and then decreed a term and a specified time [known] to Him; then [still] you are in dispute.",
     "words": [
       {
         "id": "al-an-am-2-1",
@@ -222,7 +223,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a créés d’argile, puis a décrété un terme, cependant qu’un autre terme demeure nommé auprès de Lui Seul. Mais vous doutez encore."
   },
   {
     "id": "al-an-am-3",
@@ -231,7 +233,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱللَّهُ فِى ٱلسَّمَـٰوَٰتِ وَفِى ٱلْأَرْضِ ۖ يَعْلَمُ سِرَّكُمْ وَجَهْرَكُمْ وَيَعْلَمُ مَا تَكْسِبُونَ",
     "textSimple": "وهو ٱلله فى ٱلسمـوت وفى ٱلأرض  يعلم سركم وجهركم ويعلم ما تكسبون",
     "transliteration": "wahuwa l-lahu fī l-samāwāti wafī l-arḍi yaʿlamu sirrakum wajahrakum wayaʿlamu mā taksibūna",
-    "translation": "",
+    "translation": "And He is Allāh, [the only deity] in the heavens and the earth. He knows your secret and what you make public, and He knows that which you earn.",
     "words": [
       {
         "id": "al-an-am-3-1",
@@ -318,7 +320,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est Allah dans les cieux et sur terre, Qui Sait vos secrets et ce que vous révélez, et Sait vos actions acquises."
   },
   {
     "id": "al-an-am-4",
@@ -327,7 +330,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَأْتِيهِم مِّنْ ءَايَةٍ مِّنْ ءَايَـٰتِ رَبِّهِمْ إِلَّا كَانُوا۟ عَنْهَا مُعْرِضِينَ",
     "textSimple": "وما تأتيهم من ءاية من ءايـت ربهم إلا كانوا عنها معرضين",
     "transliteration": "wamā tatīhim min āyatin min āyāti rabbihim illā kānū ʿanhā muʿ'riḍīna",
-    "translation": "",
+    "translation": "And no sign comes to them from the signs of their Lord except that they turn away therefrom.",
     "words": [
       {
         "id": "al-an-am-4-1",
@@ -407,7 +410,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est pas un Signe venant de leur Seigneur dont ils ne se détournent."
   },
   {
     "id": "al-an-am-5",
@@ -416,7 +420,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَقَدْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ ۖ فَسَوْفَ يَأْتِيهِمْ أَنۢبَـٰٓؤُا۟ مَا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "فقد كذبوا بٱلحق لما جآءهم  فسوف يأتيهم أنبـٓؤا ما كانوا به يستهزءون",
     "transliteration": "faqad kadhabū bil-ḥaqi lammā jāahum fasawfa yatīhim anbāu mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "For they had denied the truth when it came to them, but there is going to reach them the news of what they used to ridicule.",
     "words": [
       {
         "id": "al-an-am-5-1",
@@ -503,7 +507,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont rejeté la vérité quand elle leur est venue. Mais, bientôt, leur viendront les nouvelles de ce dont ils se gaussaient."
   },
   {
     "id": "al-an-am-6",
@@ -512,7 +517,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّـٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَـٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَـٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ",
     "textSimple": "ألم يروا كم أهلكنا من قبلهم من قرن مكنـهم فى ٱلأرض ما لم نمكن لكم وأرسلنا ٱلسمآء عليهم مدرارا وجعلنا ٱلأنهـر تجرى من تحتهم فأهلكنـهم بذنوبهم وأنشأنا من بعدهم قرنا ءاخرين",
     "transliteration": "alam yaraw kam ahlaknā min qablihim min qarnin makkannāhum fī l-arḍi mā lam numakkin lakum wa-arsalnā l-samāa ʿalayhim mid'rāran wajaʿalnā l-anhāra tajrī min taḥtihim fa-ahlaknāhum bidhunūbihim wa-anshanā min baʿdihim qarnan ākharīna",
-    "translation": "",
+    "translation": "Have they not seen how many generations We destroyed before them which We had established upon the earth as We have not established you? And We sent [rain from] the sky upon them in showers and made rivers flow beneath them; then We destroyed them for their sins and brought forth after them a generation of others.",
     "words": [
       {
         "id": "al-an-am-6-1",
@@ -732,7 +737,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voient-ils donc pas combien de générations Nous avons fait périr avant eux ? Nous les avions pourtant établis sur terre plus fermement que Nous ne vous y avons établis. Nous leur avions envoyé du ciel des pluies abondantes, et avions fait couler sous leurs pieds des rivières. Puis Nous les avons exterminés pour leurs péchés, et avons fait surgir, après eux, d’autres générations."
   },
   {
     "id": "al-an-am-7",
@@ -741,7 +747,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ نَزَّلْنَا عَلَيْكَ كِتَـٰبًا فِى قِرْطَاسٍ فَلَمَسُوهُ بِأَيْدِيهِمْ لَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَـٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
     "textSimple": "ولو نزلنا عليك كتـبا فى قرطاس فلمسوه بأيديهم لقال ٱلذين كفروٓا إن هـذآ إلا سحر مبين",
     "transliteration": "walaw nazzalnā ʿalayka kitāban fī qir'ṭāsin falamasūhu bi-aydīhim laqāla alladhīna kafarū in hādhā illā siḥ'run mubīnun",
-    "translation": "",
+    "translation": "And even if We had sent down to you, [O Muḥammad], a written scripture on a page and they touched it with their hands, the disbelievers would say, \"This is not but obvious magic.\"",
     "words": [
       {
         "id": "al-an-am-7-1",
@@ -856,7 +862,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand bien même nous aurions fait descendre sur toi (en révélation) un livre sur un parchemin, qu’ils pourraient alors palper de leurs mains, ceux qui ont mécru diraient : « C’est manifestement de la magie pure ! »"
   },
   {
     "id": "al-an-am-8",
@@ -865,7 +872,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ مَلَكٌ ۖ وَلَوْ أَنزَلْنَا مَلَكًا لَّقُضِىَ ٱلْأَمْرُ ثُمَّ لَا يُنظَرُونَ",
     "textSimple": "وقالوا لولآ أنزل عليه ملك  ولو أنزلنا ملكا لقضى ٱلأمر ثم لا ينظرون",
     "transliteration": "waqālū lawlā unzila ʿalayhi malakun walaw anzalnā malakan laquḍiya l-amru thumma lā yunẓarūna",
-    "translation": "",
+    "translation": "And they say, \"Why was there not sent down to him an angel?\" But if We had sent down an angel, the matter would have been decided; then they would not be reprieved.",
     "words": [
       {
         "id": "al-an-am-8-1",
@@ -959,7 +966,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disent : « Pourquoi donc un Ange ne lui a-t-il pas été envoyé du ciel (pour l’assister) ? » Or, si Nous avions fait descendre un Ange, leur sort en aurait été décrété, et ils n’auraient eu plus droit à aucun sursis."
   },
   {
     "id": "al-an-am-9",
@@ -968,7 +976,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ جَعَلْنَـٰهُ مَلَكًا لَّجَعَلْنَـٰهُ رَجُلًا وَلَلَبَسْنَا عَلَيْهِم مَّا يَلْبِسُونَ",
     "textSimple": "ولو جعلنـه ملكا لجعلنـه رجلا وللبسنا عليهم ما يلبسون",
     "transliteration": "walaw jaʿalnāhu malakan lajaʿalnāhu rajulan walalabasnā ʿalayhim mā yalbisūna",
-    "translation": "",
+    "translation": "And if We had made him [i.e., the messenger] an angel, We would have made him [appear as] a man, and We would have covered them with that in which they cover themselves [i.e., confusion and doubt].",
     "words": [
       {
         "id": "al-an-am-9-1",
@@ -1034,7 +1042,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et même si Nous l’avions fait Ange, Nous l’aurions certainement fait homme (en apparence), et Nous aurions ajouté à la confusion où ils pataugent."
   },
   {
     "id": "al-an-am-10",
@@ -1043,7 +1052,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍ مِّن قَبْلِكَ فَحَاقَ بِٱلَّذِينَ سَخِرُوا۟ مِنْهُم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "ولقد ٱستهزئ برسل من قبلك فحاق بٱلذين سخروا منهم ما كانوا به يستهزءون",
     "transliteration": "walaqadi us'tuh'zi-a birusulin min qablika faḥāqa bi-alladhīna sakhirū min'hum mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And already were messengers ridiculed before you, but those who mocked them were enveloped by that which they used to ridicule.",
     "words": [
       {
         "id": "al-an-am-10-1",
@@ -1137,7 +1146,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des Messagers avant toi ont déjà été raillés, mais leurs railleurs furent saisis par cela même dont ils se raillaient."
   },
   {
     "id": "al-an-am-11",
@@ -1146,7 +1156,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ ثُمَّ ٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُكَذِّبِينَ",
     "textSimple": "قل سيروا فى ٱلأرض ثم ٱنظروا كيف كان عـقبة ٱلمكذبين",
     "transliteration": "qul sīrū fī l-arḍi thumma unẓurū kayfa kāna ʿāqibatu l-mukadhibīna",
-    "translation": "",
+    "translation": "Say, \"Travel through the land; then observe how was the end of the deniers.\"",
     "words": [
       {
         "id": "al-an-am-11-1",
@@ -1219,7 +1229,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Parcourez la terre et voyez quel a été le sort de ceux qui ont l’habitude de tout taxer de mensonges. »"
   },
   {
     "id": "al-an-am-12",
@@ -1228,7 +1239,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُل لِّمَن مَّا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "قل لمن ما فى ٱلسمـوت وٱلأرض  قل لله  كتب على نفسه ٱلرحمة  ليجمعنكم إلى يوم ٱلقيـمة لا ريب فيه  ٱلذين خسروٓا أنفسهم فهم لا يؤمنون",
     "transliteration": "qul liman mā fī l-samāwāti wal-arḍi qul lillahi kataba ʿalā nafsihi l-raḥmata layajmaʿannakum ilā yawmi l-qiyāmati lā rayba fīhi alladhīna khasirū anfusahum fahum lā yu'minūna",
-    "translation": "",
+    "translation": "Say, \"To whom belongs whatever is in the heavens and earth?\" Say, \"To Allāh.\" He has decreed upon Himself mercy. He will surely assemble you for the Day of Resurrection, about which there is no doubt. Those who will lose themselves [that Day] do not believe.",
     "words": [
       {
         "id": "al-an-am-12-1",
@@ -1406,7 +1417,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « À qui appartient ce qui est dans les cieux et sur la terre ? » Dis : « À Allah ! » Il S’est prescrit à Lui-même la miséricorde et, certainement, vous réunira au Jour de la Résurrection. Point de doute là-dessus. Ceux qui ont causé leur propre perte sont ceux-là qui ne croient pas."
   },
   {
     "id": "al-an-am-13",
@@ -1415,7 +1427,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَهُۥ مَا سَكَنَ فِى ٱلَّيْلِ وَٱلنَّهَارِ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": " وله ما سكن فى ٱليل وٱلنهار  وهو ٱلسميع ٱلعليم",
     "transliteration": "walahu mā sakana fī al-layli wal-nahāri wahuwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "And to Him belongs that which reposes by night and by day, and He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "al-an-am-13-1",
@@ -1481,7 +1493,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Lui qu’appartient ce qui demeure dans la nuit et dans le jour, et c’est Lui Qui Entend Toute chose et c’est Lui l’Omniscient."
   },
   {
     "id": "al-an-am-14",
@@ -1490,7 +1503,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَغَيْرَ ٱللَّهِ أَتَّخِذُ وَلِيًّا فَاطِرِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ ۗ قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَكُونَ أَوَّلَ مَنْ أَسْلَمَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "قل أغير ٱلله أتخذ وليا فاطر ٱلسمـوت وٱلأرض وهو يطعم ولا يطعم  قل إنىٓ أمرت أن أكون أول من أسلم  ولا تكونن من ٱلمشركين",
     "transliteration": "qul aghayra l-lahi attakhidhu waliyyan fāṭiri l-samāwāti wal-arḍi wahuwa yuṭ'ʿimu walā yuṭ'ʿamu qul innī umir'tu an akūna awwala man aslama walā takūnanna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "Say, \"Is it other than Allāh I should take as a protector, Creator of the heavens and earth, while it is He who feeds and is not fed?\" Say, [O Muḥammad], \"Indeed, I have been commanded to be the first [among you] who submit [to Allāh] and [was commanded], 'Do not ever be of the polytheists.\"",
     "words": [
       {
         "id": "al-an-am-14-1",
@@ -1661,7 +1674,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Prendrais-je pour allié un autre qu’Allah, Lui le Créateur Premier des cieux et de la terre, Lui Qui nourrit et n’est point nourri ? » Dis : « Ordre m’a été donné d’être le premier à me soumettre. » Et ne sois pas du nombre des associâtres."
   },
   {
     "id": "al-an-am-15",
@@ -1670,7 +1684,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍ",
     "textSimple": "قل إنىٓ أخاف إن عصيت ربى عذاب يوم عظيم",
     "transliteration": "qul innī akhāfu in ʿaṣaytu rabbī ʿadhāba yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "Say, \"Indeed I fear, if I should disobey my Lord, the punishment of a tremendous Day.\"",
     "words": [
       {
         "id": "al-an-am-15-1",
@@ -1736,7 +1750,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je crains, en désobéissant à mon Seigneur, d’être voué au supplice d’un jour terrible. »"
   },
   {
     "id": "al-an-am-16",
@@ -1745,7 +1760,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "مَّن يُصْرَفْ عَنْهُ يَوْمَئِذٍ فَقَدْ رَحِمَهُۥ ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ",
     "textSimple": "من يصرف عنه يومئذ فقد رحمه  وذلك ٱلفوز ٱلمبين",
     "transliteration": "man yuṣ'raf ʿanhu yawma-idhin faqad raḥimahu wadhālika l-fawzu l-mubīnu",
-    "translation": "",
+    "translation": "He from whom it is averted that Day - [Allāh] has granted him mercy. And that is the clear attainment.",
     "words": [
       {
         "id": "al-an-am-16-1",
@@ -1811,7 +1826,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui sera épargné ce jour-là, Allah lui accordera Sa miséricorde. Et ce sera alors un succès manifeste."
   },
   {
     "id": "al-an-am-17",
@@ -1820,7 +1836,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "وإن يمسسك ٱلله بضر فلا كاشف لهٓ إلا هو  وإن يمسسك بخير فهو على كل شىء قدير",
     "transliteration": "wa-in yamsaska l-lahu biḍurrin falā kāshifa lahu illā huwa wa-in yamsaska bikhayrin fahuwa ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "And if Allāh should touch you with adversity, there is no remover of it except Him. And if He touches you with good - then He is over all things competent.",
     "words": [
       {
         "id": "al-an-am-17-1",
@@ -1942,7 +1958,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah t’afflige de quelque mal, nul autre que Lui ne saurait t’en guérir, et s’Il t’accorde quelque bien, c’est Lui Qui est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-an-am-18",
@@ -1951,7 +1968,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
     "textSimple": "وهو ٱلقاهر فوق عباده  وهو ٱلحكيم ٱلخبير",
     "transliteration": "wahuwa l-qāhiru fawqa ʿibādihi wahuwa l-ḥakīmu l-khabīru",
-    "translation": "",
+    "translation": "And He is the subjugator over His servants. And He is the Wise, the Aware.",
     "words": [
       {
         "id": "al-an-am-18-1",
@@ -2003,7 +2020,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, de haut, domine Ses serviteurs, et c’est Lui le Sage, le parfaitement Informé."
   },
   {
     "id": "al-an-am-19",
@@ -2012,7 +2030,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَىُّ شَىْءٍ أَكْبَرُ شَهَـٰدَةً ۖ قُلِ ٱللَّهُ ۖ شَهِيدٌۢ بَيْنِى وَبَيْنَكُمْ ۚ وَأُوحِىَ إِلَىَّ هَـٰذَا ٱلْقُرْءَانُ لِأُنذِرَكُم بِهِۦ وَمَنۢ بَلَغَ ۚ أَئِنَّكُمْ لَتَشْهَدُونَ أَنَّ مَعَ ٱللَّهِ ءَالِهَةً أُخْرَىٰ ۚ قُل لَّآ أَشْهَدُ ۚ قُلْ إِنَّمَا هُوَ إِلَـٰهٌ وَٰحِدٌ وَإِنَّنِى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
     "textSimple": "قل أى شىء أكبر شهـدة  قل ٱلله  شهيد بينى وبينكم  وأوحى إلى هـذا ٱلقرءان لأنذركم به ومن بلغ  أئنكم لتشهدون أن مع ٱلله ءالهة أخرى  قل لآ أشهد  قل إنما هو إلـه وحد وإننى برىٓء مما تشركون",
     "transliteration": "qul ayyu shayin akbaru shahādatan quli l-lahu shahīdun baynī wabaynakum waūḥiya ilayya hādhā l-qur'ānu li-undhirakum bihi waman balagha a-innakum latashhadūna anna maʿa l-lahi ālihatan ukh'rā qul lā ashhadu qul innamā huwa ilāhun wāḥidun wa-innanī barīon mimmā tush'rikūna",
-    "translation": "",
+    "translation": "Say, \"What thing is greatest in testimony?\" Say, \"Allāh is witness between me and you. And this Qur’ān was revealed to me that I may warn you thereby and whomever it reaches. Do you [truly] testify that with Allāh there are other deities?\" Say, \"I will not testify [with you].\" Say, \"Indeed, He is but one God, and indeed, I am free of what you associate [with Him].\"",
     "words": [
       {
         "id": "al-an-am-19-1",
@@ -2274,7 +2292,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Quel est donc le plus grand des témoignages ? » Dis : « Allah est Témoin entre vous et moi, et ce Coran m’a été révélé pour que, à travers lui, je vous avertisse, vous et ceux à qui il parviendra. » Est-ce vous donc qui attestez qu’avec Allah il est d’autres divinités ? Dis : « (Quant à moi) je ne l’atteste pas. » Dis : « Il n’est qu’une Seule Divinité, et je désavoue celles que vous Lui donnez comme associées. »"
   },
   {
     "id": "al-an-am-20",
@@ -2283,7 +2302,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يَعْرِفُونَهُۥ كَمَا يَعْرِفُونَ أَبْنَآءَهُمُ ۘ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "ٱلذين ءاتينـهم ٱلكتـب يعرفونه كما يعرفون أبنآءهم  ٱلذين خسروٓا أنفسهم فهم لا يؤمنون",
     "transliteration": "alladhīna ātaynāhumu l-kitāba yaʿrifūnahu kamā yaʿrifūna abnāahumu alladhīna khasirū anfusahum fahum lā yu'minūna",
-    "translation": "",
+    "translation": "Those to whom We have given the Scripture recognize it as they recognize their [own] sons. Those who will lose themselves [in the Hereafter] do not believe.",
     "words": [
       {
         "id": "al-an-am-20-1",
@@ -2377,7 +2396,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux à qui Nous avons donné le Livre le connaissent (le Messager Muhammad), comme ils connaissent leurs enfants. Et ceux qui ont couru à leur propre perte sont ceux qui ne croient point."
   },
   {
     "id": "al-an-am-21",
@@ -2386,7 +2406,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۗ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّـٰلِمُونَ",
     "textSimple": "ومن أظلم ممن ٱفترى على ٱلله كذبا أو كذب بـٔايـتهٓ  إنه لا يفلح ٱلظـلمون",
     "transliteration": "waman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban aw kadhaba biāyātihi innahu lā yuf'liḥu l-ẓālimūna",
-    "translation": "",
+    "translation": "And who is more unjust than one who invents about Allāh a lie or denies His verses? Indeed, the wrongdoers will not succeed.",
     "words": [
       {
         "id": "al-an-am-21-1",
@@ -2487,7 +2507,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il quelqu’un de plus injuste que celui qui a débité des mensonges sur le compte d’Allah ? Ou celui qui a traité Ses Signes de mensonges ? Il n’est point de réussite pour les injustes."
   },
   {
     "id": "al-an-am-22",
@@ -2496,7 +2517,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
     "textSimple": "ويوم نحشرهم جميعا ثم نقول للذين أشركوٓا أين شركآؤكم ٱلذين كنتم تزعمون",
     "transliteration": "wayawma naḥshuruhum jamīʿan thumma naqūlu lilladhīna ashrakū ayna shurakāukumu alladhīna kuntum tazʿumūna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], the Day We will gather them all together; then We will say to those who associated others with Allāh, \"Where are your 'partners' that you used to claim [with Him]?\"",
     "words": [
       {
         "id": "al-an-am-22-1",
@@ -2583,7 +2604,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Nous les ramènerons tous puis Nous dirons à ceux qui ont prêté des associés (à Allah) : « Où sont donc les associés que vous supposiez à Allah ? »"
   },
   {
     "id": "al-an-am-23",
@@ -2592,7 +2614,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَمْ تَكُن فِتْنَتُهُمْ إِلَّآ أَن قَالُوا۟ وَٱللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ",
     "textSimple": "ثم لم تكن فتنتهم إلآ أن قالوا وٱلله ربنا ما كنا مشركين",
     "transliteration": "thumma lam takun fit'natuhum illā an qālū wal-lahi rabbinā mā kunnā mush'rikīna",
-    "translation": "",
+    "translation": "Then there will be no [excuse upon] examination except they will say, \"By Allāh, our Lord, we were not those who associated.\"",
     "words": [
       {
         "id": "al-an-am-23-1",
@@ -2679,7 +2701,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour toute réponse ils ne diront rien d’autre que : « Par Allah, notre Seigneur, jamais nous n’étions des associâtres. »"
   },
   {
     "id": "al-an-am-24",
@@ -2688,7 +2711,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ٱنظُرْ كَيْفَ كَذَبُوا۟ عَلَىٰٓ أَنفُسِهِمْ ۚ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "ٱنظر كيف كذبوا علىٓ أنفسهم  وضل عنهم ما كانوا يفترون",
     "transliteration": "unẓur kayfa kadhabū ʿalā anfusihim waḍalla ʿanhum mā kānū yaftarūna",
-    "translation": "",
+    "translation": "See how they will lie about themselves. And lost from them will be what they used to invent.",
     "words": [
       {
         "id": "al-an-am-24-1",
@@ -2761,7 +2784,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vois comment ils se sont mentis à eux-mêmes, et comment les ont délaissés (les divinités) qu’ils inventaient."
   },
   {
     "id": "al-an-am-25",
@@ -2770,7 +2794,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ ۖ وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا ۚ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍ لَّا يُؤْمِنُوا۟ بِهَا ۚ حَتَّىٰٓ إِذَا جَآءُوكَ يُجَـٰدِلُونَكَ يَقُولُ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَـٰذَآ إِلَّآ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
     "textSimple": "ومنهم من يستمع إليك  وجعلنا على قلوبهم أكنة أن يفقهوه وفىٓ ءاذانهم وقرا  وإن يروا كل ءاية لا يؤمنوا بها  حتىٓ إذا جآءوك يجـدلونك يقول ٱلذين كفروٓا إن هـذآ إلآ أسـطير ٱلأولين",
     "transliteration": "wamin'hum man yastamiʿu ilayka wajaʿalnā ʿalā qulūbihim akinnatan an yafqahūhu wafī ādhānihim waqran wa-in yaraw kulla āyatin lā yu'minū bihā ḥattā idhā jāūka yujādilūnaka yaqūlu alladhīna kafarū in hādhā illā asāṭīru l-awalīna",
-    "translation": "",
+    "translation": "And among them are those who listen to you, but We have placed over their hearts coverings, lest they understand it, and in their ears deafness. And if they should see every sign, they will not believe in it. Even when they come to you arguing with you, those who disbelieve say, \"This is not but legends of the former peoples.\"",
     "words": [
       {
         "id": "al-an-am-25-1",
@@ -2997,7 +3021,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certains d’entre eux t’écoutent, mais Nous avons enveloppé leurs cœurs de voiles, afin qu’ils ne le comprennent pas (le Coran que tu leur récites) et avons rendu dures leurs oreilles. Verraient-ils tous les Signes, ils n’y croiraient pas ! Et quand ils viennent discuter avec toi, ceux qui ont mécru disent : « Ce ne sont là que d’anciennes légendes! »"
   },
   {
     "id": "al-an-am-26",
@@ -3006,7 +3031,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْـَٔوْنَ عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
     "textSimple": "وهم ينهون عنه وينـٔون عنه  وإن يهلكون إلآ أنفسهم وما يشعرون",
     "transliteration": "wahum yanhawna ʿanhu wayanawna ʿanhu wa-in yuh'likūna illā anfusahum wamā yashʿurūna",
-    "translation": "",
+    "translation": "And they prevent [others] from him and are [themselves] remote from him. And they do not destroy except themselves, but they perceive [it] not.",
     "words": [
       {
         "id": "al-an-am-26-1",
@@ -3086,7 +3111,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils le défendent aux autres et s’en éloignent eux-mêmes. Mais ils ne font que se détruire eux-mêmes, et ils ne le sentent pas."
   },
   {
     "id": "al-an-am-27",
@@ -3095,7 +3121,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ تَرَىٰٓ إِذْ وُقِفُوا۟ عَلَى ٱلنَّارِ فَقَالُوا۟ يَـٰلَيْتَنَا نُرَدُّ وَلَا نُكَذِّبَ بِـَٔايَـٰتِ رَبِّنَا وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "ولو ترىٓ إذ وقفوا على ٱلنار فقالوا يـليتنا نرد ولا نكذب بـٔايـت ربنا ونكون من ٱلمؤمنين",
     "transliteration": "walaw tarā idh wuqifū ʿalā l-nāri faqālū yālaytanā nuraddu walā nukadhiba biāyāti rabbinā wanakūna mina l-mu'minīna",
-    "translation": "",
+    "translation": "If you could but see when they are made to stand before the Fire and will say, \"Oh, would that we could be returned [to life on earth] and not deny the signs of our Lord and be among the believers.\"",
     "words": [
       {
         "id": "al-an-am-27-1",
@@ -3210,7 +3236,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu les voyais quand, debout face au Feu, ils diront : « Ah ! Si seulement nous étions rendus (à la vie sur terre) ! Nous ne traiterions plus de mensonges les Signes de notre Seigneur et nous serions du nombre des croyants. »"
   },
   {
     "id": "al-an-am-28",
@@ -3219,7 +3246,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ بَدَا لَهُم مَّا كَانُوا۟ يُخْفُونَ مِن قَبْلُ ۖ وَلَوْ رُدُّوا۟ لَعَادُوا۟ لِمَا نُهُوا۟ عَنْهُ وَإِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": "بل بدا لهم ما كانوا يخفون من قبل  ولو ردوا لعادوا لما نهوا عنه وإنهم لكـذبون",
     "transliteration": "bal badā lahum mā kānū yukh'fūna min qablu walaw ruddū laʿādū limā nuhū ʿanhu wa-innahum lakādhibūna",
-    "translation": "",
+    "translation": "But what they concealed before has [now] appeared to them. And even if they were returned, they would return to that which they were forbidden; and indeed, they are liars.",
     "words": [
       {
         "id": "al-an-am-28-1",
@@ -3334,7 +3361,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Plutôt leur sera apparu ce qu’ils cachaient autrefois. Mais s’ils étaient rendus (à la vie sur terre), ils récidiveraient en revenant à ce qui leur était défendu. Ce ne sont alors que des fieffés menteurs."
   },
   {
     "id": "al-an-am-29",
@@ -3343,7 +3371,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ إِنْ هِىَ إِلَّا حَيَاتُنَا ٱلدُّنْيَا وَمَا نَحْنُ بِمَبْعُوثِينَ",
     "textSimple": "وقالوٓا إن هى إلا حياتنا ٱلدنيا وما نحن بمبعوثين",
     "transliteration": "waqālū in hiya illā ḥayātunā l-dun'yā wamā naḥnu bimabʿūthīna",
-    "translation": "",
+    "translation": "And they say, \"There is none but our worldly life, and we will not be resurrected.\"",
     "words": [
       {
         "id": "al-an-am-29-1",
@@ -3409,7 +3437,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disent : « Il n’est rien d’autre que notre vie en ce bas monde, et nous ne serons pas ressuscités. »"
   },
   {
     "id": "al-an-am-30",
@@ -3418,7 +3447,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ تَرَىٰٓ إِذْ وُقِفُوا۟ عَلَىٰ رَبِّهِمْ ۚ قَالَ أَلَيْسَ هَـٰذَا بِٱلْحَقِّ ۚ قَالُوا۟ بَلَىٰ وَرَبِّنَا ۚ قَالَ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
     "textSimple": "ولو ترىٓ إذ وقفوا على ربهم  قال أليس هـذا بٱلحق  قالوا بلى وربنا  قال فذوقوا ٱلعذاب بما كنتم تكفرون",
     "transliteration": "walaw tarā idh wuqifū ʿalā rabbihim qāla alaysa hādhā bil-ḥaqi qālū balā warabbinā qāla fadhūqū l-ʿadhāba bimā kuntum takfurūna",
-    "translation": "",
+    "translation": "If you could but see when they will be made to stand before their Lord. He will say, \"Is this not the truth?\" They will say, \"Yes, by our Lord.\" He will [then] say, \"So taste the punishment for what you used to deny.\"",
     "words": [
       {
         "id": "al-an-am-30-1",
@@ -3554,7 +3583,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu les voyais lorsqu’ils se présenteront debout devant leur Seigneur Qui leur dira : « Ceci n’est-il donc pas la vérité ? » « Si, par notre Seigneur ! » s’écrieront-ils. Et alors, Il leur dira : « Goûtez donc le supplice pour avoir mécru ! »"
   },
   {
     "id": "al-an-am-31",
@@ -3563,7 +3593,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةً قَالُوا۟ يَـٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا يَزِرُونَ",
     "textSimple": "قد خسر ٱلذين كذبوا بلقآء ٱلله  حتىٓ إذا جآءتهم ٱلساعة بغتة قالوا يـحسرتنا على ما فرطنا فيها وهم يحملون أوزارهم على ظهورهم  ألا سآء ما يزرون",
     "transliteration": "qad khasira alladhīna kadhabū biliqāi l-lahi ḥattā idhā jāathumu l-sāʿatu baghtatan qālū yāḥasratanā ʿalā mā farraṭnā fīhā wahum yaḥmilūna awzārahum ʿalā ẓuhūrihim alā sāa mā yazirūna",
-    "translation": "",
+    "translation": "Those will have lost who deny the meeting with Allāh, until when the Hour [of resurrection] comes upon them unexpectedly, they will say, \"Oh, [how great is] our regret over what we neglected concerning it [i.e., the Hour],\" while they bear their burdens [i.e., sins] on their backs. Unquestionably, evil is that which they bear.",
     "words": [
       {
         "id": "al-an-am-31-1",
@@ -3748,7 +3778,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont taxé de mensonge la rencontre d’Allah auront tout perdu. Lorsque l’Heure les surprendra, ils diront : « Hélas ! Nous avons négligé de nous en soucier ! » Ils porteront leurs fardeaux sur le dos, et combien horribles sont ces fardeaux !"
   },
   {
     "id": "al-an-am-32",
@@ -3757,7 +3788,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَعِبٌ وَلَهْوٌ ۖ وَلَلدَّارُ ٱلْـَٔاخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
     "textSimple": "وما ٱلحيوة ٱلدنيآ إلا لعب ولهو  وللدار ٱلـٔاخرة خير للذين يتقون  أفلا تعقلون",
     "transliteration": "wamā l-ḥayatu l-dun'yā illā laʿibun walahwun walalddāru l-ākhiratu khayrun lilladhīna yattaqūna afalā taʿqilūna",
-    "translation": "",
+    "translation": "And the worldly life is not but amusement and diversion; but the home of the Hereafter is best for those who fear Allāh, so will you not reason?",
     "words": [
       {
         "id": "al-an-am-32-1",
@@ -3851,7 +3882,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vie en ce bas monde n’est que jeu et divertissement alors que le séjour dans l’autre monde est en vérité bien meilleur pour ceux qui ont la piété. N’entendez-vous donc pas raison ?"
   },
   {
     "id": "al-an-am-33",
@@ -3860,7 +3892,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ نَعْلَمُ إِنَّهُۥ لَيَحْزُنُكَ ٱلَّذِى يَقُولُونَ ۖ فَإِنَّهُمْ لَا يُكَذِّبُونَكَ وَلَـٰكِنَّ ٱلظَّـٰلِمِينَ بِـَٔايَـٰتِ ٱللَّهِ يَجْحَدُونَ",
     "textSimple": "قد نعلم إنه ليحزنك ٱلذى يقولون  فإنهم لا يكذبونك ولـكن ٱلظـلمين بـٔايـت ٱلله يجحدون",
     "transliteration": "qad naʿlamu innahu layaḥzunuka alladhī yaqūlūna fa-innahum lā yukadhibūnaka walākinna l-ẓālimīna biāyāti l-lahi yajḥadūna",
-    "translation": "",
+    "translation": "We know that you, [O Muḥammad], are saddened by what they say. And indeed, they do not call you untruthful, but it is the verses of Allāh that the wrongdoers reject.",
     "words": [
       {
         "id": "al-an-am-33-1",
@@ -3961,7 +3993,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous savons combien leurs paroles t’affligent. Ce n’est pas vraiment toi qu’ils taxent de mensonge, mais ce sont les Signes d’Allah que les gens injustes refusent d’admettre."
   },
   {
     "id": "al-an-am-34",
@@ -3970,7 +4003,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ كُذِّبَتْ رُسُلٌ مِّن قَبْلِكَ فَصَبَرُوا۟ عَلَىٰ مَا كُذِّبُوا۟ وَأُوذُوا۟ حَتَّىٰٓ أَتَىٰهُمْ نَصْرُنَا ۚ وَلَا مُبَدِّلَ لِكَلِمَـٰتِ ٱللَّهِ ۚ وَلَقَدْ جَآءَكَ مِن نَّبَإِى۟ ٱلْمُرْسَلِينَ",
     "textSimple": "ولقد كذبت رسل من قبلك فصبروا على ما كذبوا وأوذوا حتىٓ أتىهم نصرنا  ولا مبدل لكلمـت ٱلله  ولقد جآءك من نبإى ٱلمرسلين",
     "transliteration": "walaqad kudhibat rusulun min qablika faṣabarū ʿalā mā kudhibū waūdhū ḥattā atāhum naṣrunā walā mubaddila likalimāti l-lahi walaqad jāaka min naba-i l-mur'salīna",
-    "translation": "",
+    "translation": "And certainly were messengers denied before you, but they were patient over the denial, and they were harmed until Our victory came to them. And none can alter the words [i.e., decrees] of Allāh. And there has certainly come to you some information about the [previous] messengers.",
     "words": [
       {
         "id": "al-an-am-34-1",
@@ -4127,7 +4160,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des Messagers, avant toi, ont été traités de menteurs, mais ils ont pris en patience d’avoir été ainsi traités de menteurs et persécutés, jusqu’à ce que leur fût venu Notre secours. Les paroles d’Allah, nul ne les changera, et l’histoire des Messagers t’est déjà, en partie, parvenue."
   },
   {
     "id": "al-an-am-35",
@@ -4136,7 +4170,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَانَ كَبُرَ عَلَيْكَ إِعْرَاضُهُمْ فَإِنِ ٱسْتَطَعْتَ أَن تَبْتَغِىَ نَفَقًا فِى ٱلْأَرْضِ أَوْ سُلَّمًا فِى ٱلسَّمَآءِ فَتَأْتِيَهُم بِـَٔايَةٍ ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَمَعَهُمْ عَلَى ٱلْهُدَىٰ ۚ فَلَا تَكُونَنَّ مِنَ ٱلْجَـٰهِلِينَ",
     "textSimple": "وإن كان كبر عليك إعراضهم فإن ٱستطعت أن تبتغى نفقا فى ٱلأرض أو سلما فى ٱلسمآء فتأتيهم بـٔاية  ولو شآء ٱلله لجمعهم على ٱلهدى  فلا تكونن من ٱلجـهلين",
     "transliteration": "wa-in kāna kabura ʿalayka iʿ'rāḍuhum fa-ini is'taṭaʿta an tabtaghiya nafaqan fī l-arḍi aw sullaman fī l-samāi fatatiyahum biāyatin walaw shāa l-lahu lajamaʿahum ʿalā l-hudā falā takūnanna mina l-jāhilīna",
-    "translation": "",
+    "translation": "And if their evasion is difficult for you, then if you are able to seek a tunnel into the earth or a stairway into the sky to bring them a sign, [then do so]. But if Allāh had willed, He would have united them upon guidance. So never be of the ignorant.",
     "words": [
       {
         "id": "al-an-am-35-1",
@@ -4335,7 +4369,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si leur rejet te paraît lourd à supporter, (n’hésite pas), si tu le peux, à emprunter un tunnel sous terre ou à gravir une échelle jusqu’au ciel pour aller leur apporter un Signe ! Or Allah, s’Il l’avait voulu, les aurait tous mis sur la voie de la droiture (hudâ). Ne sois donc pas du nombre des ignorants."
   },
   {
     "id": "al-an-am-36",
@@ -4344,7 +4379,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّمَا يَسْتَجِيبُ ٱلَّذِينَ يَسْمَعُونَ ۘ وَٱلْمَوْتَىٰ يَبْعَثُهُمُ ٱللَّهُ ثُمَّ إِلَيْهِ يُرْجَعُونَ",
     "textSimple": " إنما يستجيب ٱلذين يسمعون  وٱلموتى يبعثهم ٱلله ثم إليه يرجعون",
     "transliteration": "innamā yastajību alladhīna yasmaʿūna wal-mawtā yabʿathuhumu l-lahu thumma ilayhi yur'jaʿūna",
-    "translation": "",
+    "translation": "Only those who hear will respond. But the dead - Allāh will resurrect them; then to Him they will be returned.",
     "words": [
       {
         "id": "al-an-am-36-1",
@@ -4417,7 +4452,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seuls répondront (à l’appel) ceux qui entendent. Les morts, eux, Allah les ressuscitera, puis à Lui ils seront ramenés."
   },
   {
     "id": "al-an-am-37",
@@ -4426,7 +4462,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ءَايَةٌ مِّن رَّبِّهِۦ ۚ قُلْ إِنَّ ٱللَّهَ قَادِرٌ عَلَىٰٓ أَن يُنَزِّلَ ءَايَةً وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "وقالوا لولا نزل عليه ءاية من ربه  قل إن ٱلله قادر علىٓ أن ينزل ءاية ولـكن أكثرهم لا يعلمون",
     "transliteration": "waqālū lawlā nuzzila ʿalayhi āyatun min rabbihi qul inna l-laha qādirun ʿalā an yunazzila āyatan walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "And they say, \"Why has a sign not been sent down to him from his Lord?\" Say, \"Indeed, Allāh is Able to send down a sign, but most of them do not know.\"",
     "words": [
       {
         "id": "al-an-am-37-1",
@@ -4562,7 +4598,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils ont dit : «Pourquoi donc un Signe de son Seigneur ne descend-il pas sur lui ?» Dis : « Allah est Capable de faire descendre un Signe, mais la plupart ne le savent pas. »"
   },
   {
     "id": "al-an-am-38",
@@ -4571,7 +4608,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَـٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم ۚ مَّا فَرَّطْنَا فِى ٱلْكِتَـٰبِ مِن شَىْءٍ ۚ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ",
     "textSimple": "وما من دآبة فى ٱلأرض ولا طـٓئر يطير بجناحيه إلآ أمم أمثالكم  ما فرطنا فى ٱلكتـب من شىء  ثم إلى ربهم يحشرون",
     "transliteration": "wamā min dābbatin fī l-arḍi walā ṭāirin yaṭīru bijanāḥayhi illā umamun amthālukum mā farraṭnā fī l-kitābi min shayin thumma ilā rabbihim yuḥ'sharūna",
-    "translation": "",
+    "translation": "And there is no creature on [or within] the earth or bird that flies with its wings except [that they are] communities like you. We have not neglected in the Register a thing. Then unto their Lord they will be gathered.",
     "words": [
       {
         "id": "al-an-am-38-1",
@@ -4728,7 +4765,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est point de bête sur terre, ni d’oiseau volant toutes ailes déployées, qui ne vive comme vous en société. Nous n’avons rien omis dans le Livre. Puis, vers leur Seigneur ils seront tous ramenés en foule."
   },
   {
     "id": "al-an-am-39",
@@ -4737,7 +4775,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا صُمٌّ وَبُكْمٌ فِى ٱلظُّلُمَـٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "وٱلذين كذبوا بـٔايـتنا صم وبكم فى ٱلظلمـت  من يشإ ٱلله يضلله ومن يشأ يجعله على صرط مستقيم",
     "transliteration": "wa-alladhīna kadhabū biāyātinā ṣummun wabuk'mun fī l-ẓulumāti man yasha-i l-lahu yuḍ'lil'hu waman yasha yajʿalhu ʿalā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "But those who deny Our verses are deaf and dumb within darknesses. Whomever Allāh wills - He sends astray; and whomever He wills - He puts him on a straight path.",
     "words": [
       {
         "id": "al-an-am-39-1",
@@ -4859,7 +4897,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui taxent Nos versets de mensonges sont sourds et muets, (tâtonnant) dans les ténèbres. Allah égare qui Il veut, et Il engage qui Il veut sur la voie droite."
   },
   {
     "id": "al-an-am-40",
@@ -4868,7 +4907,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتَكُمْ إِنْ أَتَىٰكُمْ عَذَابُ ٱللَّهِ أَوْ أَتَتْكُمُ ٱلسَّاعَةُ أَغَيْرَ ٱللَّهِ تَدْعُونَ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "قل أرءيتكم إن أتىكم عذاب ٱلله أو أتتكم ٱلساعة أغير ٱلله تدعون إن كنتم صـدقين",
     "transliteration": "qul ara-aytakum in atākum ʿadhābu l-lahi aw atatkumu l-sāʿatu aghayra l-lahi tadʿūna in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if there came to you the punishment of Allāh or there came to you the Hour - is it other than Allāh you would invoke, if you should be truthful?\"",
     "words": [
       {
         "id": "al-an-am-40-1",
@@ -4976,7 +5015,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Avez-vous jamais pensé que s’il vous venait le supplice d’Allah, ou vous surprenait l’Heure, vous invoqueriez vraiment un autre qu’Allah ? »"
   },
   {
     "id": "al-an-am-41",
@@ -4985,7 +5025,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ إِيَّاهُ تَدْعُونَ فَيَكْشِفُ مَا تَدْعُونَ إِلَيْهِ إِن شَآءَ وَتَنسَوْنَ مَا تُشْرِكُونَ",
     "textSimple": "بل إياه تدعون فيكشف ما تدعون إليه إن شآء وتنسون ما تشركون",
     "transliteration": "bal iyyāhu tadʿūna fayakshifu mā tadʿūna ilayhi in shāa watansawna mā tush'rikūna",
-    "translation": "",
+    "translation": "No, it is Him [alone] you would invoke, and He would remove that for which you invoked Him if He willed, and you would forget what you associate [with Him].",
     "words": [
       {
         "id": "al-an-am-41-1",
@@ -5072,7 +5112,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien Lui Seul que vous invoquez. Alors, s’Il veut, Il vous débarrassera du (mal) pour lequel vous L’avez invoqué et vous oublierez ce que vous Lui donniez comme associés."
   },
   {
     "id": "al-an-am-42",
@@ -5081,7 +5122,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَآ إِلَىٰٓ أُمَمٍ مِّن قَبْلِكَ فَأَخَذْنَـٰهُم بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ يَتَضَرَّعُونَ",
     "textSimple": "ولقد أرسلنآ إلىٓ أمم من قبلك فأخذنـهم بٱلبأسآء وٱلضرآء لعلهم يتضرعون",
     "transliteration": "walaqad arsalnā ilā umamin min qablika fa-akhadhnāhum bil-basāi wal-ḍarāi laʿallahum yataḍarraʿūna",
-    "translation": "",
+    "translation": "And We have already sent [messengers] to nations before you, [O Muḥammad]; then We seized them with poverty and hardship that perhaps they might humble themselves [to Us].",
     "words": [
       {
         "id": "al-an-am-42-1",
@@ -5161,7 +5202,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons déjà envoyé des Messagers à d’autres peuples avant toi. Nous les avons frappés de disgrâce et de détresse, peut-être viendront-ils (Nous) implorer humblement."
   },
   {
     "id": "al-an-am-43",
@@ -5170,7 +5212,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَآ إِذْ جَآءَهُم بَأْسُنَا تَضَرَّعُوا۟ وَلَـٰكِن قَسَتْ قُلُوبُهُمْ وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "فلولآ إذ جآءهم بأسنا تضرعوا ولـكن قست قلوبهم وزين لهم ٱلشيطـن ما كانوا يعملون",
     "transliteration": "falawlā idh jāahum basunā taḍarraʿū walākin qasat qulūbuhum wazayyana lahumu l-shayṭānu mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Then why, when Our punishment came to them, did they not humble themselves? But their hearts became hardened, and Satan made attractive to them that which they were doing.",
     "words": [
       {
         "id": "al-an-am-43-1",
@@ -5271,7 +5313,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement ils avaient imploré humblement lorsqu’ils connurent Notre rigueur ! Mais ils avaient le cœur dur et Satan embellissait les actes qu’ils commettaient."
   },
   {
     "id": "al-an-am-44",
@@ -5280,7 +5323,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦ فَتَحْنَا عَلَيْهِمْ أَبْوَٰبَ كُلِّ شَىْءٍ حَتَّىٰٓ إِذَا فَرِحُوا۟ بِمَآ أُوتُوٓا۟ أَخَذْنَـٰهُم بَغْتَةً فَإِذَا هُم مُّبْلِسُونَ",
     "textSimple": "فلما نسوا ما ذكروا به فتحنا عليهم أبوب كل شىء حتىٓ إذا فرحوا بمآ أوتوٓا أخذنـهم بغتة فإذا هم مبلسون",
     "transliteration": "falammā nasū mā dhukkirū bihi fataḥnā ʿalayhim abwāba kulli shayin ḥattā idhā fariḥū bimā ūtū akhadhnāhum baghtatan fa-idhā hum mub'lisūna",
-    "translation": "",
+    "translation": "So when they forgot that by which they had been reminded, We opened to them the doors of every [good] thing until, when they rejoiced in that which they were given, We seized them suddenly, and they were [then] in despair.",
     "words": [
       {
         "id": "al-an-am-44-1",
@@ -5423,7 +5466,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aussitôt qu’ils eurent oublié ce qui leur avait été rappelé, Nous ouvrîmes devant eux les portes de toute chose, jusqu’à ce que, les voyant se réjouir de ce qui leur avait été donné, Nous Nous saisîmes d’eux brusquement, les laissant consternés."
   },
   {
     "id": "al-an-am-45",
@@ -5432,7 +5476,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَقُطِعَ دَابِرُ ٱلْقَوْمِ ٱلَّذِينَ ظَلَمُوا۟ ۚ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فقطع دابر ٱلقوم ٱلذين ظلموا  وٱلحمد لله رب ٱلعـلمين",
     "transliteration": "faquṭiʿa dābiru l-qawmi alladhīna ẓalamū wal-ḥamdu lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "So the people that committed wrong were eliminated. And praise to Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "al-an-am-45-1",
@@ -5498,7 +5542,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi furent anéantis, jusqu’au dernier, les injustes. Louanges à Allah, Seigneur de l’Univers !"
   },
   {
     "id": "al-an-am-46",
@@ -5507,7 +5552,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَـٰرَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُم مَّنْ إِلَـٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ ٱلْـَٔايَـٰتِ ثُمَّ هُمْ يَصْدِفُونَ",
     "textSimple": "قل أرءيتم إن أخذ ٱلله سمعكم وأبصـركم وختم على قلوبكم من إلـه غير ٱلله يأتيكم به  ٱنظر كيف نصرف ٱلـٔايـت ثم هم يصدفون",
     "transliteration": "qul ara-aytum in akhadha l-lahu samʿakum wa-abṣārakum wakhatama ʿalā qulūbikum man ilāhun ghayru l-lahi yatīkum bihi unẓur kayfa nuṣarrifu l-āyāti thumma hum yaṣdifūna",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if Allāh should take away your hearing and your sight and set a seal upon your hearts, which deity other than Allāh could bring them [back] to you?\" Look how We diversify the verses; then they [still] turn away.",
     "words": [
       {
         "id": "al-an-am-46-1",
@@ -5671,7 +5716,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Que diriez-vous donc si Allah prenait votre ouïe et votre vue, et scellait vos cœurs ? Quelle autre divinité que Lui les ferait revenir ? » Vois comment Nous varions les Signes et comment eux s’en détournent."
   },
   {
     "id": "al-an-am-47",
@@ -5680,7 +5726,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتَكُمْ إِنْ أَتَىٰكُمْ عَذَابُ ٱللَّهِ بَغْتَةً أَوْ جَهْرَةً هَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "قل أرءيتكم إن أتىكم عذاب ٱلله بغتة أو جهرة هل يهلك إلا ٱلقوم ٱلظـلمون",
     "transliteration": "qul ara-aytakum in atākum ʿadhābu l-lahi baghtatan aw jahratan hal yuh'laku illā l-qawmu l-ẓālimūna",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if the punishment of Allāh should come to you unexpectedly or manifestly, will any be destroyed but the wrongdoing people?\"",
     "words": [
       {
         "id": "al-an-am-47-1",
@@ -5781,7 +5827,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Et que diriez-vous encore si le supplice d’Allah vous venait brusquement ou ouvertement ? Qui donc serait anéanti sinon les gens injustes ? »"
   },
   {
     "id": "al-an-am-48",
@@ -5790,7 +5837,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۖ فَمَنْ ءَامَنَ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "وما نرسل ٱلمرسلين إلا مبشرين ومنذرين  فمن ءامن وأصلح فلا خوف عليهم ولا هم يحزنون",
     "transliteration": "wamā nur'silu l-mur'salīna illā mubashirīna wamundhirīna faman āmana wa-aṣlaḥa falā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "And We send not the messengers except as bringers of good tidings and warners. So whoever believes and reforms - there will be no fear concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-an-am-48-1",
@@ -5898,7 +5945,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’envoyons de Messagers que pour annoncer et avertir. Alors, ceux qui croient et font œuvre de bien, il n’y aura nulle crainte pour eux, et ils n’auront aucune affliction."
   },
   {
     "id": "al-an-am-49",
@@ -5907,7 +5955,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا يَمَسُّهُمُ ٱلْعَذَابُ بِمَا كَانُوا۟ يَفْسُقُونَ",
     "textSimple": "وٱلذين كذبوا بـٔايـتنا يمسهم ٱلعذاب بما كانوا يفسقون",
     "transliteration": "wa-alladhīna kadhabū biāyātinā yamassuhumu l-ʿadhābu bimā kānū yafsuqūna",
-    "translation": "",
+    "translation": "But those who deny Our verses - the punishment will touch them for their defiant disobedience.",
     "words": [
       {
         "id": "al-an-am-49-1",
@@ -5966,7 +6014,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont taxé Nos Signes de mensonges, le supplice les atteindra, car ils étaient pervers."
   },
   {
     "id": "al-an-am-50",
@@ -5975,7 +6024,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ لَكُمْ إِنِّى مَلَكٌ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ ۚ قُلْ هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ ۚ أَفَلَا تَتَفَكَّرُونَ",
     "textSimple": "قل لآ أقول لكم عندى خزآئن ٱلله ولآ أعلم ٱلغيب ولآ أقول لكم إنى ملك  إن أتبع إلا ما يوحىٓ إلى  قل هل يستوى ٱلأعمى وٱلبصير  أفلا تتفكرون",
     "transliteration": "qul lā aqūlu lakum ʿindī khazāinu l-lahi walā aʿlamu l-ghayba walā aqūlu lakum innī malakun in attabiʿu illā mā yūḥā ilayya qul hal yastawī l-aʿmā wal-baṣīru afalā tatafakkarūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"I do not tell you that I have the depositories [containing the provision] of Allāh or that I know the unseen, nor do I tell you that I am an angel. I only follow what is revealed to me.\" Say, \"Is the blind equivalent to the seeing? Then will you not give thought?\"",
     "words": [
       {
         "id": "al-an-am-50-1",
@@ -6174,7 +6223,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne vous dis pas que je détiens les trésors d’Allah, ni que je connais l’Inconnaissable (ghayb). Je ne vous dis pas, non plus, que je suis un Ange. Je ne fais que suivre ce qui m’est révélé. » Ajoute : « L’aveugle et le voyant se valent-ils ? Pourquoi n’essayez-vous pas d’y réfléchir ? »"
   },
   {
     "id": "al-an-am-51",
@@ -6183,7 +6233,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنذِرْ بِهِ ٱلَّذِينَ يَخَافُونَ أَن يُحْشَرُوٓا۟ إِلَىٰ رَبِّهِمْ ۙ لَيْسَ لَهُم مِّن دُونِهِۦ وَلِىٌّ وَلَا شَفِيعٌ لَّعَلَّهُمْ يَتَّقُونَ",
     "textSimple": "وأنذر به ٱلذين يخافون أن يحشروٓا إلى ربهم  ليس لهم من دونه ولى ولا شفيع لعلهم يتقون",
     "transliteration": "wa-andhir bihi alladhīna yakhāfūna an yuḥ'sharū ilā rabbihim laysa lahum min dūnihi waliyyun walā shafīʿun laʿallahum yattaqūna",
-    "translation": "",
+    "translation": "And warn by it [i.e., the Qur’ān] those who fear that they will be gathered before their Lord - for them besides Him will be no protector and no intercessor - that they might become righteous.",
     "words": [
       {
         "id": "al-an-am-51-1",
@@ -6305,7 +6355,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avertis (par le biais du Coran) ceux qui craignent d’être ramenés en foule devant leur Seigneur qu’ils n’auront d’autre allié ou intercesseur que Lui ! Peut-être alors auront-ils la piété."
   },
   {
     "id": "al-an-am-52",
@@ -6314,7 +6365,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ولا تطرد ٱلذين يدعون ربهم بٱلغدوة وٱلعشى يريدون وجهه  ما عليك من حسابهم من شىء وما من حسابك عليهم من شىء فتطردهم فتكون من ٱلظـلمين",
     "transliteration": "walā taṭrudi alladhīna yadʿūna rabbahum bil-ghadati wal-ʿashiyi yurīdūna wajhahu mā ʿalayka min ḥisābihim min shayin wamā min ḥisābika ʿalayhim min shayin fataṭrudahum fatakūna mina l-ẓālimīna",
-    "translation": "",
+    "translation": "And do not send away those who call upon their Lord morning and afternoon, seeking His face [i.e., favor]. Not upon you is anything of their account and not upon them is anything of your account. So were you to send them away, you would [then] be of the wrongdoers.",
     "words": [
       {
         "id": "al-an-am-52-1",
@@ -6492,7 +6543,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne repousse pas ceux qui prient leur Seigneur matin et soir à la recherche de Son Visage (wajh). Il ne t’appartient en rien de leur demander des comptes comme il ne leur appartient en rien de te demander des comptes. Si tu les repousses, tu seras alors du nombre des injustes."
   },
   {
     "id": "al-an-am-53",
@@ -6501,7 +6553,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ فَتَنَّا بَعْضَهُم بِبَعْضٍ لِّيَقُولُوٓا۟ أَهَـٰٓؤُلَآءِ مَنَّ ٱللَّهُ عَلَيْهِم مِّنۢ بَيْنِنَآ ۗ أَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِٱلشَّـٰكِرِينَ",
     "textSimple": "وكذلك فتنا بعضهم ببعض ليقولوٓا أهـٓؤلآء من ٱلله عليهم من بيننآ  أليس ٱلله بأعلم بٱلشـكرين",
     "transliteration": "wakadhālika fatannā baʿḍahum bibaʿḍin liyaqūlū ahāulāi manna l-lahu ʿalayhim min bayninā alaysa l-lahu bi-aʿlama bil-shākirīna",
-    "translation": "",
+    "translation": "And thus We have tried some of them through others that they [i.e., the disbelievers] might say, \"Is it these whom Allāh has favored among us?\" Is not Allāh most knowing of those who are grateful?",
     "words": [
       {
         "id": "al-an-am-53-1",
@@ -6609,7 +6661,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous éprouvons les uns par (la faiblesse) des autres, afin qu’ils disent : « Sont-ce là ceux d’entre nous qu’Allah a comblés de Ses bonnes grâces ? » Mais Allah n’est-Il pas le Meilleur à savoir lesquels (Lui) sont reconnaissants ?"
   },
   {
     "id": "al-an-am-54",
@@ -6618,7 +6671,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَـٰتِنَا فَقُلْ سَلَـٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَـٰلَةٍ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌ رَّحِيمٌ",
     "textSimple": "وإذا جآءك ٱلذين يؤمنون بـٔايـتنا فقل سلـم عليكم  كتب ربكم على نفسه ٱلرحمة  أنه من عمل منكم سوٓءا بجهـلة ثم تاب من بعده وأصلح فأنه غفور رحيم",
     "transliteration": "wa-idhā jāaka alladhīna yu'minūna biāyātinā faqul salāmun ʿalaykum kataba rabbukum ʿalā nafsihi l-raḥmata annahu man ʿamila minkum sūan bijahālatin thumma tāba min baʿdihi wa-aṣlaḥa fa-annahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And when those come to you who believe in Our verses, say, \"Peace be upon you. Your Lord has decreed upon Himself mercy: that any of you who does wrong out of ignorance and then repents after that and corrects himself - indeed, He is Forgiving and Merciful.\"",
     "words": [
       {
         "id": "al-an-am-54-1",
@@ -6810,7 +6863,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand viennent à toi ceux qui croient à Nos versets, dis : « Paix sur vous ! Votre Seigneur S’est prescrit à Lui-même la miséricorde. Ainsi, quiconque a commis un mauvais acte par ignorance puis, par la suite, s’est repenti et s’est corrigé, (doit savoir que), Lui, est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-an-am-55",
@@ -6819,7 +6873,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ نُفَصِّلُ ٱلْـَٔايَـٰتِ وَلِتَسْتَبِينَ سَبِيلُ ٱلْمُجْرِمِينَ",
     "textSimple": "وكذلك نفصل ٱلـٔايـت ولتستبين سبيل ٱلمجرمين",
     "transliteration": "wakadhālika nufaṣṣilu l-āyāti walitastabīna sabīlu l-muj'rimīna",
-    "translation": "",
+    "translation": "And thus do We detail the verses, and [thus] the way of the criminals will become evident.",
     "words": [
       {
         "id": "al-an-am-55-1",
@@ -6864,7 +6918,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi encore que Nous détaillons les versets, pour que soit mis en évidence le chemin des criminels."
   },
   {
     "id": "al-an-am-56",
@@ -6873,7 +6928,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ ۚ قُل لَّآ أَتَّبِعُ أَهْوَآءَكُمْ ۙ قَدْ ضَلَلْتُ إِذًا وَمَآ أَنَا۠ مِنَ ٱلْمُهْتَدِينَ",
     "textSimple": "قل إنى نهيت أن أعبد ٱلذين تدعون من دون ٱلله  قل لآ أتبع أهوآءكم  قد ضللت إذا ومآ أنا من ٱلمهتدين",
     "transliteration": "qul innī nuhītu an aʿbuda alladhīna tadʿūna min dūni l-lahi qul lā attabiʿu ahwāakum qad ḍalaltu idhan wamā anā mina l-muh'tadīna",
-    "translation": "",
+    "translation": "Say, \"Indeed, I have been forbidden to worship those you invoke besides Allāh.\" Say, \"I will not follow your desires, for I would then have gone astray, and I would not be of the [rightly] guided.\"",
     "words": [
       {
         "id": "al-an-am-56-1",
@@ -7023,7 +7078,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il m’est défendu d’adorer ceux que vous invoquez en dehors d’Allah. » Puis dis encore : « Je n’entends pas suivre vos désirs, ou alors je m’égarerais et ne serais point du nombre des orientés vers la juste voie (muhtadîn). »"
   },
   {
     "id": "al-an-am-57",
@@ -7032,7 +7088,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنِّى عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَكَذَّبْتُم بِهِۦ ۚ مَا عِندِى مَا تَسْتَعْجِلُونَ بِهِۦٓ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ ٱلْحَقَّ ۖ وَهُوَ خَيْرُ ٱلْفَـٰصِلِينَ",
     "textSimple": "قل إنى على بينة من ربى وكذبتم به  ما عندى ما تستعجلون بهٓ  إن ٱلحكم إلا لله  يقص ٱلحق  وهو خير ٱلفـصلين",
     "transliteration": "qul innī ʿalā bayyinatin min rabbī wakadhabtum bihi mā ʿindī mā tastaʿjilūna bihi ini l-ḥuk'mu illā lillahi yaquṣṣu l-ḥaqa wahuwa khayru l-fāṣilīna",
-    "translation": "",
+    "translation": "Say, \"Indeed, I am on clear evidence from my Lord, and you have denied it. I do not have that for which you are impatient. The decision is only for Allāh. He relates the truth, and He is the best of deciders.\"",
     "words": [
       {
         "id": "al-an-am-57-1",
@@ -7189,7 +7245,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je me fonde sur une preuve évidente (venue) de mon Seigneur, et pourtant vous traitez cela de mensonge. Quant au supplice que vous vous empressez de voir venir, il n’est pas de mon ressort. Le Jugement relève d’Allah. C’est Lui Qui tranche par la vérité, et c’est Lui le Meilleur des juges."
   },
   {
     "id": "al-an-am-58",
@@ -7198,7 +7255,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّوْ أَنَّ عِندِى مَا تَسْتَعْجِلُونَ بِهِۦ لَقُضِىَ ٱلْأَمْرُ بَيْنِى وَبَيْنَكُمْ ۗ وَٱللَّهُ أَعْلَمُ بِٱلظَّـٰلِمِينَ",
     "textSimple": "قل لو أن عندى ما تستعجلون به لقضى ٱلأمر بينى وبينكم  وٱلله أعلم بٱلظـلمين",
     "transliteration": "qul law anna ʿindī mā tastaʿjilūna bihi laquḍiya l-amru baynī wabaynakum wal-lahu aʿlamu bil-ẓālimīna",
-    "translation": "",
+    "translation": "Say, \"If I had that for which you are impatient, the matter would have been decided between me and you, but Allāh is most knowing of the wrongdoers.\"",
     "words": [
       {
         "id": "al-an-am-58-1",
@@ -7299,7 +7356,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si d’ailleurs je disposais de ce que vous êtes pressés de voir venir, l’affaire serait déjà résolue entre vous et moi. Allah en Sait mieux sur les injustes."
   },
   {
     "id": "al-an-am-59",
@@ -7308,7 +7366,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَعِندَهُۥ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَـٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِى كِتَـٰبٍ مُّبِينٍ",
     "textSimple": " وعنده مفاتح ٱلغيب لا يعلمهآ إلا هو  ويعلم ما فى ٱلبر وٱلبحر  وما تسقط من ورقة إلا يعلمها ولا حبة فى ظلمـت ٱلأرض ولا رطب ولا يابس إلا فى كتـب مبين",
     "transliteration": "waʿindahu mafātiḥu l-ghaybi lā yaʿlamuhā illā huwa wayaʿlamu mā fī l-bari wal-baḥri wamā tasquṭu min waraqatin illā yaʿlamuhā walā ḥabbatin fī ẓulumāti l-arḍi walā raṭbin walā yābisin illā fī kitābin mubīnin",
-    "translation": "",
+    "translation": "And with Him are the keys of the unseen; none knows them except Him. And He knows what is on the land and in the sea. Not a leaf falls but that He knows it. And no grain is there within the darknesses of the earth and no moist or dry [thing] but that it is [written] in a clear record.",
     "words": [
       {
         "id": "al-an-am-59-1",
@@ -7528,7 +7586,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il détient les clés de l’Inconnaissable (ghayb) que nul ne connaît hormis Lui. Et Il Connaît ce qu’il y a sur la terre ferme et ce qu’il y a dans la mer. Nulle feuille ne tombe sans qu’Il ne le sache. Nulle graine dans les ténèbres de la terre, nulle chose tendre ou sèche, rien qui ne soit contenu dans un Livre explicite."
   },
   {
     "id": "al-an-am-60",
@@ -7537,7 +7596,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى يَتَوَفَّىٰكُم بِٱلَّيْلِ وَيَعْلَمُ مَا جَرَحْتُم بِٱلنَّهَارِ ثُمَّ يَبْعَثُكُمْ فِيهِ لِيُقْضَىٰٓ أَجَلٌ مُّسَمًّى ۖ ثُمَّ إِلَيْهِ مَرْجِعُكُمْ ثُمَّ يُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "وهو ٱلذى يتوفىكم بٱليل ويعلم ما جرحتم بٱلنهار ثم يبعثكم فيه ليقضىٓ أجل مسمى  ثم إليه مرجعكم ثم ينبئكم بما كنتم تعملون",
     "transliteration": "wahuwa alladhī yatawaffākum bi-al-layli wayaʿlamu mā jaraḥtum bil-nahāri thumma yabʿathukum fīhi liyuq'ḍā ajalun musamman thumma ilayhi marjiʿukum thumma yunabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And it is He who takes your souls by night and knows what you have committed by day. Then He revives you therein [i.e., by day] that a specified term may be fulfilled. Then to Him will be your return; then He will inform you about what you used to do.",
     "words": [
       {
         "id": "al-an-am-60-1",
@@ -7694,7 +7753,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, la nuit, reprend vos vies et Qui Sait ce que vous avez commis pendant le jour, puis Il vous ressuscite afin que soit exécuté le décret d’un terme déjà nommé (fixé à l’avance). Et c’est alors vers Lui que sera votre retour et Il vous informera de ce que vous faisiez."
   },
   {
     "id": "al-an-am-61",
@@ -7703,7 +7763,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ",
     "textSimple": "وهو ٱلقاهر فوق عباده  ويرسل عليكم حفظة حتىٓ إذا جآء أحدكم ٱلموت توفته رسلنا وهم لا يفرطون",
     "transliteration": "wahuwa l-qāhiru fawqa ʿibādihi wayur'silu ʿalaykum ḥafaẓatan ḥattā idhā jāa aḥadakumu l-mawtu tawaffathu rusulunā wahum lā yufarriṭūna",
-    "translation": "",
+    "translation": "And He is the subjugator over His servants, and He sends over you guardian-angels until, when death comes to one of you, Our messengers [i.e., angels of death] take him, and they do not fail [in their duties].",
     "words": [
       {
         "id": "al-an-am-61-1",
@@ -7825,7 +7885,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, de haut, Domine Ses serviteurs. Il envoie vers vous des (Anges) protecteurs qui, lorsque la mort vient saisir l’un de vous, reprennent, en tant que Nos émissaires, sa vie sans jamais faillir."
   },
   {
     "id": "al-an-am-62",
@@ -7834,7 +7895,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ رُدُّوٓا۟ إِلَى ٱللَّهِ مَوْلَىٰهُمُ ٱلْحَقِّ ۚ أَلَا لَهُ ٱلْحُكْمُ وَهُوَ أَسْرَعُ ٱلْحَـٰسِبِينَ",
     "textSimple": "ثم ردوٓا إلى ٱلله مولىهم ٱلحق  ألا له ٱلحكم وهو أسرع ٱلحـسبين",
     "transliteration": "thumma ruddū ilā l-lahi mawlāhumu l-ḥaqi alā lahu l-ḥuk'mu wahuwa asraʿu l-ḥāsibīna",
-    "translation": "",
+    "translation": "Then they [i.e., His servants] are returned to Allāh, their true Lord. Unquestionably, His is the judgement, and He is the swiftest of accountants.",
     "words": [
       {
         "id": "al-an-am-62-1",
@@ -7921,7 +7982,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront ensuite rendus à Allah, leur Maître véritable. À Lui revient le Jugement, Lui le plus prompt à dresser les comptes."
   },
   {
     "id": "al-an-am-63",
@@ -7930,7 +7992,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن يُنَجِّيكُم مِّن ظُلُمَـٰتِ ٱلْبَرِّ وَٱلْبَحْرِ تَدْعُونَهُۥ تَضَرُّعًا وَخُفْيَةً لَّئِنْ أَنجَىٰنَا مِنْ هَـٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّـٰكِرِينَ",
     "textSimple": "قل من ينجيكم من ظلمـت ٱلبر وٱلبحر تدعونه تضرعا وخفية لئن أنجىنا من هـذه لنكونن من ٱلشـكرين",
     "transliteration": "qul man yunajjīkum min ẓulumāti l-bari wal-baḥri tadʿūnahu taḍarruʿan wakhuf'yatan la-in anjānā min hādhihi lanakūnanna mina l-shākirīna",
-    "translation": "",
+    "translation": "Say, \"Who rescues you from the darknesses of the land and sea [when] you call upon Him imploring [aloud] and privately, 'If He should save us from this [crisis], we will surely be among the thankful.'\"",
     "words": [
       {
         "id": "al-an-am-63-1",
@@ -8052,7 +8114,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui vous sauve des ténèbres de la terre ferme et de la mer ? » Vous l’implorez humbles et suppliants, ou dans le secret du cœur : « S’Il nous sauve (de ce péril), nous serons certes du nombre des reconnaissants. »"
   },
   {
     "id": "al-an-am-64",
@@ -8061,7 +8124,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱللَّهُ يُنَجِّيكُم مِّنْهَا وَمِن كُلِّ كَرْبٍ ثُمَّ أَنتُمْ تُشْرِكُونَ",
     "textSimple": "قل ٱلله ينجيكم منها ومن كل كرب ثم أنتم تشركون",
     "transliteration": "quli l-lahu yunajjīkum min'hā wamin kulli karbin thumma antum tush'rikūna",
-    "translation": "",
+    "translation": "Say, \"It is Allāh who saves you from it and from every distress; then you [still] associate others with Him.\"",
     "words": [
       {
         "id": "al-an-am-64-1",
@@ -8134,7 +8197,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Allah vous en sauve, et vous sauve de toute détresse, mais voilà que vous continuez à lui donner des associés ! »"
   },
   {
     "id": "al-an-am-65",
@@ -8143,7 +8207,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعًا وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ ٱلْـَٔايَـٰتِ لَعَلَّهُمْ يَفْقَهُونَ",
     "textSimple": "قل هو ٱلقادر علىٓ أن يبعث عليكم عذابا من فوقكم أو من تحت أرجلكم أو يلبسكم شيعا ويذيق بعضكم بأس بعض  ٱنظر كيف نصرف ٱلـٔايـت لعلهم يفقهون",
     "transliteration": "qul huwa l-qādiru ʿalā an yabʿatha ʿalaykum ʿadhāban min fawqikum aw min taḥti arjulikum aw yalbisakum shiyaʿan wayudhīqa baʿḍakum basa baʿḍin unẓur kayfa nuṣarrifu l-āyāti laʿallahum yafqahūna",
-    "translation": "",
+    "translation": "Say, \"He is the [one] Able to send upon you affliction from above you or from beneath your feet or to confuse you [so you become] sects and make you taste the violence of one another.\" Look how We diversify the signs that they might understand.",
     "words": [
       {
         "id": "al-an-am-65-1",
@@ -8335,7 +8399,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est Lui Qui est Capable de faire s’abattre un supplice sur vous, ou de le faire jaillir de sous vos pieds, ou de vous jeter dans la confusion des sectes opposées, ou encore de faire goûter à certains d’entre vous la violence impitoyable des autres. Vois donc comment Nous varions les Signes, peut-être alors comprendront-ils."
   },
   {
     "id": "al-an-am-66",
@@ -8344,7 +8409,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَّبَ بِهِۦ قَوْمُكَ وَهُوَ ٱلْحَقُّ ۚ قُل لَّسْتُ عَلَيْكُم بِوَكِيلٍ",
     "textSimple": "وكذب به قومك وهو ٱلحق  قل لست عليكم بوكيل",
     "transliteration": "wakadhaba bihi qawmuka wahuwa l-ḥaqu qul lastu ʿalaykum biwakīlin",
-    "translation": "",
+    "translation": "But your people have denied it while it is the truth. Say, \"I am not over you a manager [i.e., authority].\"",
     "words": [
       {
         "id": "al-an-am-66-1",
@@ -8410,7 +8475,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton peuple traite (le Livre) de mensonger, alors qu’il est pure vérité. Dis : « Je ne réponds nullement de vous. »"
   },
   {
     "id": "al-an-am-67",
@@ -8419,7 +8485,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "لِّكُلِّ نَبَإٍ مُّسْتَقَرٌّ ۚ وَسَوْفَ تَعْلَمُونَ",
     "textSimple": "لكل نبإ مستقر  وسوف تعلمون",
     "transliteration": "likulli naba-in mus'taqarrun wasawfa taʿlamūna",
-    "translation": "",
+    "translation": "For every news [i.e., happening] is a finality; and you are going to know.",
     "words": [
       {
         "id": "al-an-am-67-1",
@@ -8457,7 +8523,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute annonce a son temps fixe et son lieu, et vous le saurez."
   },
   {
     "id": "al-an-am-68",
@@ -8466,7 +8533,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ ءَايَـٰتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَـٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "وإذا رأيت ٱلذين يخوضون فىٓ ءايـتنا فأعرض عنهم حتى يخوضوا فى حديث غيره  وإما ينسينك ٱلشيطـن فلا تقعد بعد ٱلذكرى مع ٱلقوم ٱلظـلمين",
     "transliteration": "wa-idhā ra-ayta alladhīna yakhūḍūna fī āyātinā fa-aʿriḍ ʿanhum ḥattā yakhūḍū fī ḥadīthin ghayrihi wa-immā yunsiyannaka l-shayṭānu falā taqʿud baʿda l-dhik'rā maʿa l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "And when you see those who engage in [offensive] discourse concerning Our verses, then turn away from them until they enter into another conversation. And if Satan should cause you to forget, then do not remain after the reminder with the wrongdoing people.",
     "words": [
       {
         "id": "al-an-am-68-1",
@@ -8630,7 +8697,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque tu vois ceux qui plongent aveuglément dans les critiques de Nos versets, détourne-toi d’eux jusqu’à ce qu’ils changent de propos. Et si Satan te fait oublier cela, alors, aussitôt que le souvenir t’en sera revenu, ne songe plus à rester plus avec les gens injustes."
   },
   {
     "id": "al-an-am-69",
@@ -8639,7 +8707,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا عَلَى ٱلَّذِينَ يَتَّقُونَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَلَـٰكِن ذِكْرَىٰ لَعَلَّهُمْ يَتَّقُونَ",
     "textSimple": "وما على ٱلذين يتقون من حسابهم من شىء ولـكن ذكرى لعلهم يتقون",
     "transliteration": "wamā ʿalā alladhīna yattaqūna min ḥisābihim min shayin walākin dhik'rā laʿallahum yattaqūna",
-    "translation": "",
+    "translation": "And those who fear Allāh are not held accountable for them [i.e., the disbelievers] at all, but [only for] a reminder - that perhaps they will fear Him.",
     "words": [
       {
         "id": "al-an-am-69-1",
@@ -8726,7 +8794,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont la piété n’ont nullement à répondre de (ceux qui ne l’ont pas), mais il est bon de rappeler, peut-être craindront-ils (Allah)."
   },
   {
     "id": "al-an-am-70",
@@ -8735,7 +8804,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًا وَلَهْوًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَـٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
     "textSimple": "وذر ٱلذين ٱتخذوا دينهم لعبا ولهوا وغرتهم ٱلحيوة ٱلدنيا  وذكر بهٓ أن تبسل نفس بما كسبت ليس لها من دون ٱلله ولى ولا شفيع وإن تعدل كل عدل لا يؤخذ منهآ  أولـٓئك ٱلذين أبسلوا بما كسبوا  لهم شراب من حميم وعذاب أليم بما كانوا يكفرون",
     "transliteration": "wadhari alladhīna ittakhadhū dīnahum laʿiban walahwan wagharrathumu l-ḥayatu l-dun'yā wadhakkir bihi an tub'sala nafsun bimā kasabat laysa lahā min dūni l-lahi waliyyun walā shafīʿun wa-in taʿdil kulla ʿadlin lā yu'khadh min'hā ulāika alladhīna ub'silū bimā kasabū lahum sharābun min ḥamīmin waʿadhābun alīmun bimā kānū yakfurūna",
-    "translation": "",
+    "translation": "And leave those who take their religion as amusement and diversion and whom the worldly life has deluded. But remind with it [i.e., the Qur’ān], lest a soul be given up to destruction for what it earned; it will have other than Allāh no protector and no intercessor. And if it should offer every compensation, it would not be taken from it [i.e., that soul]. Those are the ones who are given to destruction for what they have earned. For them will be a drink of scalding water and a painful punishment because they used to disbelieve.",
     "words": [
       {
         "id": "al-an-am-70-1",
@@ -9053,7 +9122,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 44
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse donc ceux qui font de leur religion un jeu et un divertissement, et qui sont tentés par la vie en ce bas monde. Préviens-les par le (Coran) pour qu’aucune âme ne soit livrée aux sanctions de ce qu’elle aura commis, lorsqu’elle n’aura ni allié ni intercesseur. Et quoi qu’elle puisse alors proposer comme compensation (pour se racheter), cela lui sera refusé. Ceux-là seront livrés aux sanctions de ce qu’ils auront commis. Ils auront pour breuvage de l’eau bouillante et goûteront un douloureux supplice, pour avoir été mécréants."
   },
   {
     "id": "al-an-am-71",
@@ -9062,7 +9132,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَنَدْعُوا۟ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُنَا وَلَا يَضُرُّنَا وَنُرَدُّ عَلَىٰٓ أَعْقَابِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَـٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَـٰبٌ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قل أندعوا من دون ٱلله ما لا ينفعنا ولا يضرنا ونرد علىٓ أعقابنا بعد إذ هدىنا ٱلله كٱلذى ٱستهوته ٱلشيـطين فى ٱلأرض حيران لهٓ أصحـب يدعونهٓ إلى ٱلهدى ٱئتنا  قل إن هدى ٱلله هو ٱلهدى  وأمرنا لنسلم لرب ٱلعـلمين",
     "transliteration": "qul anadʿū min dūni l-lahi mā lā yanfaʿunā walā yaḍurrunā wanuraddu ʿalā aʿqābinā baʿda idh hadānā l-lahu ka-alladhī is'tahwathu l-shayāṭīnu fī l-arḍi ḥayrāna lahu aṣḥābun yadʿūnahu ilā l-hudā i'tinā qul inna hudā l-lahi huwa l-hudā wa-umir'nā linus'lima lirabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Say, \"Shall we invoke instead of Allāh that which neither benefits us nor harms us and be turned back on our heels after Allāh has guided us? [We would then be] like one whom the devils enticed [to wander] upon the earth confused, [while] he has companions inviting him to guidance, [calling], 'Come to us.'\" Say, \"Indeed, the guidance of Allāh is the [only] guidance; and we have been commanded to submit to the Lord of the worlds.",
     "words": [
       {
         "id": "al-an-am-71-1",
@@ -9338,7 +9408,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Invoquerons-nous en dehors d’Allah ce qui ne nous profite ni ne nous nuit ? Et rebrousserons-nous chemin après qu’Allah nous a orientés vers la juste voie, semblables en cela à celui qui est tenté par les démons et qui erre livré au désarroi sur terre ? Ses compagnons pourtant l’appellent vers la juste voie (hudâ) : « Viens donc avec nous ! » Dis : « La voie d’Allah est la véritable bonne voie (hudâ), et il nous a été enjoint de nous soumettre au Seigneur de l’Univers,"
   },
   {
     "id": "al-an-am-72",
@@ -9347,7 +9418,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنْ أَقِيمُوا۟ ٱلصَّلَوٰةَ وَٱتَّقُوهُ ۚ وَهُوَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ",
     "textSimple": "وأن أقيموا ٱلصلوة وٱتقوه  وهو ٱلذىٓ إليه تحشرون",
     "transliteration": "wa-an aqīmū l-ṣalata wa-ittaqūhu wahuwa alladhī ilayhi tuḥ'sharūna",
-    "translation": "",
+    "translation": "And to establish prayer and fear Him.\" And it is He to whom you will be gathered.",
     "words": [
       {
         "id": "al-an-am-72-1",
@@ -9406,7 +9477,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et d’observer la Çalât et de Le craindre. Et c’est vers Lui, certes, que vous serez ramenés en foule. »"
   },
   {
     "id": "al-an-am-73",
@@ -9415,7 +9487,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
     "textSimple": "وهو ٱلذى خلق ٱلسمـوت وٱلأرض بٱلحق  ويوم يقول كن فيكون  قوله ٱلحق  وله ٱلملك يوم ينفخ فى ٱلصور  عـلم ٱلغيب وٱلشهـدة  وهو ٱلحكيم ٱلخبير",
     "transliteration": "wahuwa alladhī khalaqa l-samāwāti wal-arḍa bil-ḥaqi wayawma yaqūlu kun fayakūnu qawluhu l-ḥaqu walahu l-mul'ku yawma yunfakhu fī l-ṣūri ʿālimu l-ghaybi wal-shahādati wahuwa l-ḥakīmu l-khabīru",
-    "translation": "",
+    "translation": "And it is He who created the heavens and earth in truth. And the day [i.e., whenever] He says, \"Be,\" and it is, His word is the truth. And His is the dominion [on] the Day the Horn is blown. [He is] Knower of the unseen and the witnessed; and He is the Wise, the Aware.",
     "words": [
       {
         "id": "al-an-am-73-1",
@@ -9586,7 +9658,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui qui a créé, par la vérité, les cieux et la terre. Le jour où Il dit : « Sois ! » (ce qu’Il a décrété) est. Sa parole est Vérité. À Lui Seul appartient la royauté le Jour où il sera soufflé dans le Cor (du Jugement Dernier). C’est Lui Qui Connaît aussi bien les choses insondables que les choses observables, et c’est Lui le Sage et le parfaitement Informé."
   },
   {
     "id": "al-an-am-74",
@@ -9595,7 +9668,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذْ قَالَ إِبْرَٰهِيمُ لِأَبِيهِ ءَازَرَ أَتَتَّخِذُ أَصْنَامًا ءَالِهَةً ۖ إِنِّىٓ أَرَىٰكَ وَقَوْمَكَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": " وإذ قال إبرهيم لأبيه ءازر أتتخذ أصناما ءالهة  إنىٓ أرىك وقومك فى ضلـل مبين",
     "transliteration": "wa-idh qāla ib'rāhīmu li-abīhi āzara atattakhidhu aṣnāman ālihatan innī arāka waqawmaka fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Abraham said to his father Āzar, \"Do you take idols as deities? Indeed, I see you and your people to be in manifest error.\"",
     "words": [
       {
         "id": "al-an-am-74-1",
@@ -9696,7 +9769,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souviens-toi) lorsque Abraham dit à ’Azar, son père : « Prendrais-tu des idoles pour divinités? Je vois que toi et ton peuple êtes dans un égarement manifeste ! »"
   },
   {
     "id": "al-an-am-75",
@@ -9705,7 +9779,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ نُرِىٓ إِبْرَٰهِيمَ مَلَكُوتَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلِيَكُونَ مِنَ ٱلْمُوقِنِينَ",
     "textSimple": "وكذلك نرىٓ إبرهيم ملكوت ٱلسمـوت وٱلأرض وليكون من ٱلموقنين",
     "transliteration": "wakadhālika nurī ib'rāhīma malakūta l-samāwāti wal-arḍi waliyakūna mina l-mūqinīna",
-    "translation": "",
+    "translation": "And thus did We show Abraham the realm of the heavens and the earth that he would be among the certain [in faith].",
     "words": [
       {
         "id": "al-an-am-75-1",
@@ -9771,7 +9845,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous montrâmes à Abraham la royauté des cieux et de la terre, pour qu’il fût de ceux qui croient avec certitude."
   },
   {
     "id": "al-an-am-76",
@@ -9780,7 +9855,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَنَّ عَلَيْهِ ٱلَّيْلُ رَءَا كَوْكَبًا ۖ قَالَ هَـٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَآ أُحِبُّ ٱلْـَٔافِلِينَ",
     "textSimple": "فلما جن عليه ٱليل رءا كوكبا  قال هـذا ربى  فلمآ أفل قال لآ أحب ٱلـٔافلين",
     "transliteration": "falammā janna ʿalayhi al-laylu raā kawkaban qāla hādhā rabbī falammā afala qāla lā uḥibbu l-āfilīna",
-    "translation": "",
+    "translation": "So when the night covered him [with darkness], he saw a star. He said, \"This is my lord.\" But when it set, he said, \"I like not those that set [i.e., disappear].\"",
     "words": [
       {
         "id": "al-an-am-76-1",
@@ -9888,7 +9963,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La nuit tombée, il vit un astre et dit : « Voilà mon Seigneur ! » Puis quand l’astre eut décliné, il se reprit : « Je n’aime pas ceux qui déclinent. »"
   },
   {
     "id": "al-an-am-77",
@@ -9897,7 +9973,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَءَا ٱلْقَمَرَ بَازِغًا قَالَ هَـٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ",
     "textSimple": "فلما رءا ٱلقمر بازغا قال هـذا ربى  فلمآ أفل قال لئن لم يهدنى ربى لأكونن من ٱلقوم ٱلضآلين",
     "transliteration": "falammā raā l-qamara bāzighan qāla hādhā rabbī falammā afala qāla la-in lam yahdinī rabbī la-akūnanna mina l-qawmi l-ḍālīna",
-    "translation": "",
+    "translation": "And when he saw the moon rising, he said, \"This is my lord.\" But when it set, he said, \"Unless my Lord guides me, I will surely be among the people gone astray.\"",
     "words": [
       {
         "id": "al-an-am-77-1",
@@ -10026,7 +10102,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis voyant poindre la lune, il dit : « Voilà mon Seigneur ! » Et lorsqu’elle disparut, il se reprit : « Si mon Seigneur ne me guide pas, je serai du nombre des égarés. »"
   },
   {
     "id": "al-an-am-78",
@@ -10035,7 +10112,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَءَا ٱلشَّمْسَ بَازِغَةً قَالَ هَـٰذَا رَبِّى هَـٰذَآ أَكْبَرُ ۖ فَلَمَّآ أَفَلَتْ قَالَ يَـٰقَوْمِ إِنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
     "textSimple": "فلما رءا ٱلشمس بازغة قال هـذا ربى هـذآ أكبر  فلمآ أفلت قال يـقوم إنى برىٓء مما تشركون",
     "transliteration": "falammā raā l-shamsa bāzighatan qāla hādhā rabbī hādhā akbaru falammā afalat qāla yāqawmi innī barīon mimmā tush'rikūna",
-    "translation": "",
+    "translation": "And when he saw the sun rising, he said, \"This is my lord; this is greater.\" But when it set, he said, \"O my people, indeed I am free from what you associate with Allāh.",
     "words": [
       {
         "id": "al-an-am-78-1",
@@ -10157,7 +10234,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis voyant apparaître le soleil, il dit : « Voilà mon Seigneur ! Celui-ci est bien plus grand. » Et lorsque (le soleil) se fut couché, il se reprit : « Ô peuple mien ! Je désavoue les associés (que vous donnez à Allah)."
   },
   {
     "id": "al-an-am-79",
@@ -10166,7 +10244,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ حَنِيفًا ۖ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "إنى وجهت وجهى للذى فطر ٱلسمـوت وٱلأرض حنيفا  ومآ أنا من ٱلمشركين",
     "transliteration": "innī wajjahtu wajhiya lilladhī faṭara l-samāwāti wal-arḍa ḥanīfan wamā anā mina l-mush'rikīna",
-    "translation": "",
+    "translation": "Indeed, I have turned my face [i.e., self] toward He who created the heavens and the earth, inclining toward truth, and I am not of those who associate others with Allāh.\"",
     "words": [
       {
         "id": "al-an-am-79-1",
@@ -10253,7 +10331,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je tourne mon visage, en pur monothéiste, vers Celui Qui a créé (sans modèle préalable) les cieux et la terre, et je ne suis point de ceux qui Lui associent des émules. »"
   },
   {
     "id": "al-an-am-80",
@@ -10262,7 +10341,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَحَآجَّهُۥ قَوْمُهُۥ ۚ قَالَ أَتُحَـٰٓجُّوٓنِّى فِى ٱللَّهِ وَقَدْ هَدَىٰنِ ۚ وَلَآ أَخَافُ مَا تُشْرِكُونَ بِهِۦٓ إِلَّآ أَن يَشَآءَ رَبِّى شَيْـًٔا ۗ وَسِعَ رَبِّى كُلَّ شَىْءٍ عِلْمًا ۗ أَفَلَا تَتَذَكَّرُونَ",
     "textSimple": "وحآجه قومه  قال أتحـٓجوٓنى فى ٱلله وقد هدىن  ولآ أخاف ما تشركون بهٓ إلآ أن يشآء ربى شيـٔا  وسع ربى كل شىء علما  أفلا تتذكرون",
     "transliteration": "waḥājjahu qawmuhu qāla atuḥājjūnnī fī l-lahi waqad hadāni walā akhāfu mā tush'rikūna bihi illā an yashāa rabbī shayan wasiʿa rabbī kulla shayin ʿil'man afalā tatadhakkarūna",
-    "translation": "",
+    "translation": "And his people argued with him. He said, \"Do you argue with me concerning Allāh while He has guided me? And I fear not what you associate with Him [and will not be harmed] unless my Lord should will something. My Lord encompasses all things in knowledge; then will you not remember?",
     "words": [
       {
         "id": "al-an-am-80-1",
@@ -10440,7 +10519,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son peuple lui opposant des arguments, il dit : « Disputerez vous avec moi d’Allah alors que c’est Lui Qui m’a guidé ? Je ne crains point les émules que vous Lui associez, sauf si Allah veut que je craigne quelque chose. Mon Seigneur Cerne Tout de Sa science. Ne le réalisez-vous donc pas ?"
   },
   {
     "id": "al-an-am-81",
@@ -10449,7 +10529,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَيْفَ أَخَافُ مَآ أَشْرَكْتُمْ وَلَا تَخَافُونَ أَنَّكُمْ أَشْرَكْتُم بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ عَلَيْكُمْ سُلْطَـٰنًا ۚ فَأَىُّ ٱلْفَرِيقَيْنِ أَحَقُّ بِٱلْأَمْنِ ۖ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "وكيف أخاف مآ أشركتم ولا تخافون أنكم أشركتم بٱلله ما لم ينزل به عليكم سلطـنا  فأى ٱلفريقين أحق بٱلأمن  إن كنتم تعلمون",
     "transliteration": "wakayfa akhāfu mā ashraktum walā takhāfūna annakum ashraktum bil-lahi mā lam yunazzil bihi ʿalaykum sul'ṭānan fa-ayyu l-farīqayni aḥaqqu bil-amni in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "And how should I fear what you associate while you do not fear that you have associated with Allāh that for which He has not sent down to you any authority? So which of the two parties has more right to security, if you should know?\"",
     "words": [
       {
         "id": "al-an-am-81-1",
@@ -10606,7 +10686,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment craindrais-je les émules que vous Lui associez alors que vous-mêmes ne craignez pas d’avoir associé à Allah (des émules) pour lesquels Il n’a fait descendre vers vous aucune preuve d’autorité ? Laquelle des deux parties mérite donc le plus d’être en sécurité ? Dites-le, si vous le savez."
   },
   {
     "id": "al-an-am-82",
@@ -10615,7 +10696,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يَلْبِسُوٓا۟ إِيمَـٰنَهُم بِظُلْمٍ أُو۟لَـٰٓئِكَ لَهُمُ ٱلْأَمْنُ وَهُم مُّهْتَدُونَ",
     "textSimple": "ٱلذين ءامنوا ولم يلبسوٓا إيمـنهم بظلم أولـٓئك لهم ٱلأمن وهم مهتدون",
     "transliteration": "alladhīna āmanū walam yalbisū īmānahum biẓul'min ulāika lahumu l-amnu wahum muh'tadūna",
-    "translation": "",
+    "translation": "They who believe and do not mix their belief with injustice - those will have security, and they are [rightly] guided.",
     "words": [
       {
         "id": "al-an-am-82-1",
@@ -10695,7 +10776,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et n’ont pas altéré leur foi par de l’injustice, ceux-là sont en sécurité et sont bien orientés."
   },
   {
     "id": "al-an-am-83",
@@ -10704,7 +10786,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَتِلْكَ حُجَّتُنَآ ءَاتَيْنَـٰهَآ إِبْرَٰهِيمَ عَلَىٰ قَوْمِهِۦ ۚ نَرْفَعُ دَرَجَـٰتٍ مَّن نَّشَآءُ ۗ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌ",
     "textSimple": "وتلك حجتنآ ءاتينـهآ إبرهيم على قومه  نرفع درجـت من نشآء  إن ربك حكيم عليم",
     "transliteration": "watil'ka ḥujjatunā ātaynāhā ib'rāhīma ʿalā qawmihi narfaʿu darajātin man nashāu inna rabbaka ḥakīmun ʿalīmun",
-    "translation": "",
+    "translation": "And that was Our [conclusive] argument which We gave Abraham against his people. We raise by degrees whom We will. Indeed, your Lord is Wise and Knowing.",
     "words": [
       {
         "id": "al-an-am-83-1",
@@ -10805,7 +10887,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel fut l’argument que Nous accordâmes à Abraham contre son peuple. Nous élevons de plusieurs degrés le rang de qui Nous voulons. Ton Seigneur est Sage et Omniscient."
   },
   {
     "id": "al-an-am-84",
@@ -10814,7 +10897,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ ۚ كُلًّا هَدَيْنَا ۚ وَنُوحًا هَدَيْنَا مِن قَبْلُ ۖ وَمِن ذُرِّيَّتِهِۦ دَاوُۥدَ وَسُلَيْمَـٰنَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَىٰ وَهَـٰرُونَ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "ووهبنا لهٓ إسحـق ويعقوب  كلا هدينا  ونوحا هدينا من قبل  ومن ذريته داود وسليمـن وأيوب ويوسف وموسى وهـرون  وكذلك نجزى ٱلمحسنين",
     "transliteration": "wawahabnā lahu is'ḥāqa wayaʿqūba kullan hadaynā wanūḥan hadaynā min qablu wamin dhurriyyatihi dāwūda wasulaymāna wa-ayyūba wayūsufa wamūsā wahārūna wakadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And We gave to him [i.e., Abraham] Isaac and Jacob - all [of them] We guided. And Noah, We guided before; and among his descendants, David and Solomon and Job and Joseph and Moses and Aaron. Thus do We reward the doers of good.",
     "words": [
       {
         "id": "al-an-am-84-1",
@@ -10964,7 +11047,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui donnâmes Isaac et Jacob que Nous orientâmes vers la juste voie. Ainsi avions-nous orienté Noé auparavant. Parmi ses descendants, il y eut David, Salomon, Job, Joseph, Moïse et Aaron, et c’est ainsi que Nous récompensons les bienfaiteurs."
   },
   {
     "id": "al-an-am-85",
@@ -10973,7 +11057,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَزَكَرِيَّا وَيَحْيَىٰ وَعِيسَىٰ وَإِلْيَاسَ ۖ كُلٌّ مِّنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "وزكريا ويحيى وعيسى وإلياس  كل من ٱلصـلحين",
     "transliteration": "wazakariyyā wayaḥyā waʿīsā wa-il'yāsa kullun mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And Zechariah and John and Jesus and Elias - and all were of the righteous.",
     "words": [
       {
         "id": "al-an-am-85-1",
@@ -11025,7 +11109,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (il y eut aussi) Zacharie, Jean le Baptiste, Jésus et Élie, tous étaient du nombre des vertueux."
   },
   {
     "id": "al-an-am-86",
@@ -11034,7 +11119,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِسْمَـٰعِيلَ وَٱلْيَسَعَ وَيُونُسَ وَلُوطًا ۚ وَكُلًّا فَضَّلْنَا عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "وإسمـعيل وٱليسع ويونس ولوطا  وكلا فضلنا على ٱلعـلمين",
     "transliteration": "wa-is'māʿīla wal-yasaʿa wayūnusa walūṭan wakullan faḍḍalnā ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "And Ishmael and Elisha and Jonah and Lot - and all [of them] We preferred over the worlds.",
     "words": [
       {
         "id": "al-an-am-86-1",
@@ -11093,7 +11178,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi qu’Ismaël, Élisée, Jonas et Loth, que Nous tînmes tous en plus haute estime que le reste du monde."
   },
   {
     "id": "al-an-am-87",
@@ -11102,7 +11188,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ ءَابَآئِهِمْ وَذُرِّيَّـٰتِهِمْ وَإِخْوَٰنِهِمْ ۖ وَٱجْتَبَيْنَـٰهُمْ وَهَدَيْنَـٰهُمْ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "ومن ءابآئهم وذريـتهم وإخونهم  وٱجتبينـهم وهدينـهم إلى صرط مستقيم",
     "transliteration": "wamin ābāihim wadhurriyyātihim wa-ikh'wānihim wa-ij'tabaynāhum wahadaynāhum ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "And [some] among their fathers and their descendants and their brothers - and We chose them and We guided them to a straight path.",
     "words": [
       {
         "id": "al-an-am-87-1",
@@ -11168,7 +11254,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et aussi certains de leurs ascendants, de leurs descendants et de leurs frères, que Nous avons élus et orientés vers une voie droite."
   },
   {
     "id": "al-an-am-88",
@@ -11177,7 +11264,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَلَوْ أَشْرَكُوا۟ لَحَبِطَ عَنْهُم مَّا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ذلك هدى ٱلله يهدى به من يشآء من عباده  ولو أشركوا لحبط عنهم ما كانوا يعملون",
     "transliteration": "dhālika hudā l-lahi yahdī bihi man yashāu min ʿibādihi walaw ashrakū laḥabiṭa ʿanhum mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "That is the guidance of Allāh by which He guides whomever He wills of His servants. But if they had associated others with Allāh, then worthless for them would be whatever they were doing.",
     "words": [
       {
         "id": "al-an-am-88-1",
@@ -11292,7 +11379,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la voie juste (hudâ) par laquelle Allah oriente qui Il veut parmi Ses serviteurs. Et s’ils avaient prêté des associés (à Allah), alors toutes leurs actions seraient parties en pure perte."
   },
   {
     "id": "al-an-am-89",
@@ -11301,7 +11389,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ۚ فَإِن يَكْفُرْ بِهَا هَـٰٓؤُلَآءِ فَقَدْ وَكَّلْنَا بِهَا قَوْمًا لَّيْسُوا۟ بِهَا بِكَـٰفِرِينَ",
     "textSimple": "أولـٓئك ٱلذين ءاتينـهم ٱلكتـب وٱلحكم وٱلنبوة  فإن يكفر بها هـٓؤلآء فقد وكلنا بها قوما ليسوا بها بكـفرين",
     "transliteration": "ulāika alladhīna ātaynāhumu l-kitāba wal-ḥuk'ma wal-nubuwata fa-in yakfur bihā hāulāi faqad wakkalnā bihā qawman laysū bihā bikāfirīna",
-    "translation": "",
+    "translation": "Those are the ones to whom We gave the Scripture and authority and prophethood. But if they [i.e., the disbelievers] deny it, then We have entrusted it to a people who are not therein disbelievers.",
     "words": [
       {
         "id": "al-an-am-89-1",
@@ -11423,7 +11511,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux-là à qui Nous avons apporté le Livre, la Sagesse et la Prophétie. Si ceux-ci (ton peuple) y mécroient, Nous en avons confié la charge à des gens qui ne les rejettent point."
   },
   {
     "id": "al-an-am-90",
@@ -11432,7 +11521,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ هَدَى ٱللَّهُ ۖ فَبِهُدَىٰهُمُ ٱقْتَدِهْ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ هُوَ إِلَّا ذِكْرَىٰ لِلْعَـٰلَمِينَ",
     "textSimple": "أولـٓئك ٱلذين هدى ٱلله  فبهدىهم ٱقتده  قل لآ أسـٔلكم عليه أجرا  إن هو إلا ذكرى للعـلمين",
     "transliteration": "ulāika alladhīna hadā l-lahu fabihudāhumu iq'tadih qul lā asalukum ʿalayhi ajran in huwa illā dhik'rā lil'ʿālamīna",
-    "translation": "",
+    "translation": "Those are the ones whom Allāh has guided, so from their guidance take an example. Say, \"I ask of you for it [i.e., this message] no payment. It is not but a reminder for the worlds.\"",
     "words": [
       {
         "id": "al-an-am-90-1",
@@ -11547,7 +11636,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont eux qu’Allah a bien orientés. Suis donc la direction dans laquelle ils sont orientés. Dis : « Je ne vous demande pour cela aucune rétribution. » Ce n’est qu’un rappel adressé à tout l’Univers."
   },
   {
     "id": "al-an-am-91",
@@ -11556,7 +11646,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ إِذْ قَالُوا۟ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ بَشَرٍ مِّن شَىْءٍ ۗ قُلْ مَنْ أَنزَلَ ٱلْكِتَـٰبَ ٱلَّذِى جَآءَ بِهِۦ مُوسَىٰ نُورًا وَهُدًى لِّلنَّاسِ ۖ تَجْعَلُونَهُۥ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًا ۖ وَعُلِّمْتُم مَّا لَمْ تَعْلَمُوٓا۟ أَنتُمْ وَلَآ ءَابَآؤُكُمْ ۖ قُلِ ٱللَّهُ ۖ ثُمَّ ذَرْهُمْ فِى خَوْضِهِمْ يَلْعَبُونَ",
     "textSimple": "وما قدروا ٱلله حق قدرهٓ إذ قالوا مآ أنزل ٱلله على بشر من شىء  قل من أنزل ٱلكتـب ٱلذى جآء به موسى نورا وهدى للناس  تجعلونه قراطيس تبدونها وتخفون كثيرا  وعلمتم ما لم تعلموٓا أنتم ولآ ءابآؤكم  قل ٱلله  ثم ذرهم فى خوضهم يلعبون",
     "transliteration": "wamā qadarū l-laha ḥaqqa qadrihi idh qālū mā anzala l-lahu ʿalā basharin min shayin qul man anzala l-kitāba alladhī jāa bihi mūsā nūran wahudan lilnnāsi tajʿalūnahu qarāṭīsa tub'dūnahā watukh'fūna kathīran waʿullim'tum mā lam taʿlamū antum walā ābāukum quli l-lahu thumma dharhum fī khawḍihim yalʿabūna",
-    "translation": "",
+    "translation": "And they did not appraise Allāh with true appraisal when they said, \"Allāh did not reveal to a human being anything.\" Say, \"Who revealed the Scripture that Moses brought as light and guidance to the people? You [Jews] make it into pages, disclosing [some of] it and concealing much. And you were taught that which you knew not - neither you nor your fathers.\" Say, \"Allāh [revealed it].\" Then leave them in their [empty] discourse, amusing themselves.",
     "words": [
       {
         "id": "al-an-am-91-1",
@@ -11867,7 +11957,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 43
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’accordent pas à Allah Sa juste valeur ceux-là qui disent : « Allah n’a jamais rien révélé à un être humain. » Dis : « Qui donc a révélé le Livre qu’apporta Moïse comme lumière et comme direction pour les hommes? Vous en faites des parchemins dont vous montrez une partie et en cachez beaucoup d’autres. Et il vous a donc été enseigné ce que vous ne saviez pas, ni vous ni vos pères. Dis : « C’est Allah ! » puis laisse-les s’amuser dans leurs propres errements."
   },
   {
     "id": "al-an-am-92",
@@ -11876,7 +11967,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهَـٰذَا كِتَـٰبٌ أَنزَلْنَـٰهُ مُبَارَكٌ مُّصَدِّقُ ٱلَّذِى بَيْنَ يَدَيْهِ وَلِتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا ۚ وَٱلَّذِينَ يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ يُؤْمِنُونَ بِهِۦ ۖ وَهُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ",
     "textSimple": "وهـذا كتـب أنزلنـه مبارك مصدق ٱلذى بين يديه ولتنذر أم ٱلقرى ومن حولها  وٱلذين يؤمنون بٱلـٔاخرة يؤمنون به  وهم على صلاتهم يحافظون",
     "transliteration": "wahādhā kitābun anzalnāhu mubārakun muṣaddiqu alladhī bayna yadayhi walitundhira umma l-qurā waman ḥawlahā wa-alladhīna yu'minūna bil-ākhirati yu'minūna bihi wahum ʿalā ṣalātihim yuḥāfiẓūna",
-    "translation": "",
+    "translation": "And this is a Book which We have sent down, blessed and confirming what was before it, that you may warn the Mother of Cities [i.e., Makkah] and those around it. Those who believe in the Hereafter believe in it, and they are maintaining their prayers.",
     "words": [
       {
         "id": "al-an-am-92-1",
@@ -12033,7 +12124,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceci (le Coran) est un Livre béni que Nous avons fait descendre (en révélation) et qui confirme ce qu’il y a eu avant lui, pour que tu avertisses la Mère des Cités (La Mecque) et tous ceux qui vivent alentour. Ceux qui croient au Jour Dernier croient aussi (au Coran) et sont assidus à leur Çalât."
   },
   {
     "id": "al-an-am-93",
@@ -12042,7 +12134,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ قَالَ أُوحِىَ إِلَىَّ وَلَمْ يُوحَ إِلَيْهِ شَىْءٌ وَمَن قَالَ سَأُنزِلُ مِثْلَ مَآ أَنزَلَ ٱللَّهُ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّـٰلِمُونَ فِى غَمَرَٰتِ ٱلْمَوْتِ وَٱلْمَلَـٰٓئِكَةُ بَاسِطُوٓا۟ أَيْدِيهِمْ أَخْرِجُوٓا۟ أَنفُسَكُمُ ۖ ٱلْيَوْمَ تُجْزَوْنَ عَذَابَ ٱلْهُونِ بِمَا كُنتُمْ تَقُولُونَ عَلَى ٱللَّهِ غَيْرَ ٱلْحَقِّ وَكُنتُمْ عَنْ ءَايَـٰتِهِۦ تَسْتَكْبِرُونَ",
     "textSimple": "ومن أظلم ممن ٱفترى على ٱلله كذبا أو قال أوحى إلى ولم يوح إليه شىء ومن قال سأنزل مثل مآ أنزل ٱلله  ولو ترىٓ إذ ٱلظـلمون فى غمرت ٱلموت وٱلملـٓئكة باسطوٓا أيديهم أخرجوٓا أنفسكم  ٱليوم تجزون عذاب ٱلهون بما كنتم تقولون على ٱلله غير ٱلحق وكنتم عن ءايـته تستكبرون",
     "transliteration": "waman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban aw qāla ūḥiya ilayya walam yūḥa ilayhi shayon waman qāla sa-unzilu mith'la mā anzala l-lahu walaw tarā idhi l-ẓālimūna fī ghamarāti l-mawti wal-malāikatu bāsiṭū aydīhim akhrijū anfusakumu l-yawma tuj'zawna ʿadhāba l-hūni bimā kuntum taqūlūna ʿalā l-lahi ghayra l-ḥaqi wakuntum ʿan āyātihi tastakbirūna",
-    "translation": "",
+    "translation": "And who is more unjust than one who invents a lie about Allāh or says, \"It has been inspired to me,\" while nothing has been inspired to him, and one who says, \"I will reveal [something] like what Allāh revealed.\" And if you could but see when the wrongdoers are in the overwhelming pangs of death while the angels extend their hands, [saying], \"Discharge your souls! Today you will be awarded the punishment of [extreme] humiliation for what you used to say against Allāh other than the truth and [that] you were, toward His verses, being arrogant.\"",
     "words": [
       {
         "id": "al-an-am-93-1",
@@ -12388,7 +12480,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 48
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui débite des mensonges sur le compte d’Allah ou qui dit : « J’ai eu une révélation » quand aucune révélation ne lui a été faite ? Ou celui qui dit : « Je vais faire descendre des (écritures) pareilles à celles qu’Allah a fait descendre » ? Si seulement tu voyais les injustes lorsque, les affres de la mort les ayant surpris, les Anges étendront vers eux leurs mains (en disant) : « Rendez donc vos âmes. Aujourd’hui vous serez rétribués par le supplice de l’humiliation pour ce que vous disiez de contraire à la vérité sur Allah, et parce que vous vous détourniez hautainement de Ses Signes. »"
   },
   {
     "id": "al-an-am-94",
@@ -12397,7 +12490,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا خَلَقْنَـٰكُمْ أَوَّلَ مَرَّةٍ وَتَرَكْتُم مَّا خَوَّلْنَـٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَـٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ",
     "textSimple": "ولقد جئتمونا فردى كما خلقنـكم أول مرة وتركتم ما خولنـكم ورآء ظهوركم  وما نرى معكم شفعآءكم ٱلذين زعمتم أنهم فيكم شركـٓؤا  لقد تقطع بينكم وضل عنكم ما كنتم تزعمون",
     "transliteration": "walaqad ji'tumūnā furādā kamā khalaqnākum awwala marratin wataraktum mā khawwalnākum warāa ẓuhūrikum wamā narā maʿakum shufaʿāakumu alladhīna zaʿamtum annahum fīkum shurakāu laqad taqaṭṭaʿa baynakum waḍalla ʿankum mā kuntum tazʿumūna",
-    "translation": "",
+    "translation": "[It will be said to them], \"And you have certainly come to Us alone [i.e., individually] as We created you the first time, and you have left whatever We bestowed upon you behind you. And We do not see with you your 'intercessors' which you claimed that they were among you associates [of Allāh]. It has [all] been severed between you, and lost from you is what you used to claim.\"",
     "words": [
       {
         "id": "al-an-am-94-1",
@@ -12603,7 +12696,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous êtes venus à Nous, un par un, tels que Nous vous avions créés la première fois, laissant derrière vous tout ce que Nous vous avions dispensé. Et Nous ne voyons point avec vous vos intercesseurs que vous prétendiez être les associés (dans le culte d’Allah). Les liens entre eux et vous se sont rompus et toutes les traces de vos anciennes prétentions ont alors disparu."
   },
   {
     "id": "al-an-am-95",
@@ -12612,7 +12706,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
     "textSimple": " إن ٱلله فالق ٱلحب وٱلنوى  يخرج ٱلحى من ٱلميت ومخرج ٱلميت من ٱلحى  ذلكم ٱلله  فأنى تؤفكون",
     "transliteration": "inna l-laha fāliqu l-ḥabi wal-nawā yukh'riju l-ḥaya mina l-mayiti wamukh'riju l-mayiti mina l-ḥayi dhālikumu l-lahu fa-annā tu'fakūna",
-    "translation": "",
+    "translation": "Indeed, Allāh is the cleaver of grain and date seeds. He brings the living out of the dead and brings the dead out of the living. That is Allāh; so how are you deluded?",
     "words": [
       {
         "id": "al-an-am-95-1",
@@ -12734,7 +12828,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est le Fendeur de la graine et du noyau. Il fait sortir le vivant du mort et le mort du vivant. Tel est Allah. Jusqu’où vous obstinerez-vous donc à ignorer (Son adoration) ?"
   },
   {
     "id": "al-an-am-96",
@@ -12743,7 +12838,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَالِقُ ٱلْإِصْبَاحِ وَجَعَلَ ٱلَّيْلَ سَكَنًا وَٱلشَّمْسَ وَٱلْقَمَرَ حُسْبَانًا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
     "textSimple": "فالق ٱلإصباح وجعل ٱليل سكنا وٱلشمس وٱلقمر حسبانا  ذلك تقدير ٱلعزيز ٱلعليم",
     "transliteration": "fāliqu l-iṣ'bāḥi wajaʿala al-layla sakanan wal-shamsa wal-qamara ḥus'bānan dhālika taqdīru l-ʿazīzi l-ʿalīmi",
-    "translation": "",
+    "translation": "[He is] the cleaver of daybreak and has made the night for rest and the sun and moon for calculation. That is the determination of the Exalted in Might, the Knowing.",
     "words": [
       {
         "id": "al-an-am-96-1",
@@ -12830,7 +12925,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Fendeur de l’aube (d’où Il crée la lumière), Il fait de la nuit une quiétude où se reposer, du soleil et de la lune des indications pour compter le temps. Telle est la mesure décrétée par le Tout- Puissant, le Sage."
   },
   {
     "id": "al-an-am-97",
@@ -12839,7 +12935,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلنُّجُومَ لِتَهْتَدُوا۟ بِهَا فِى ظُلُمَـٰتِ ٱلْبَرِّ وَٱلْبَحْرِ ۗ قَدْ فَصَّلْنَا ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ",
     "textSimple": "وهو ٱلذى جعل لكم ٱلنجوم لتهتدوا بها فى ظلمـت ٱلبر وٱلبحر  قد فصلنا ٱلـٔايـت لقوم يعلمون",
     "transliteration": "wahuwa alladhī jaʿala lakumu l-nujūma litahtadū bihā fī ẓulumāti l-bari wal-baḥri qad faṣṣalnā l-āyāti liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "And it is He who placed for you the stars that you may be guided by them through the darknesses of the land and sea. We have detailed the signs for a people who know.",
     "words": [
       {
         "id": "al-an-am-97-1",
@@ -12954,7 +13050,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui a fait pour vous les étoiles afin que vous vous orientiez dans les ténèbres de la terre ferme et de la mer. Ainsi avons-Nous détaillé les Signes pour des gens qui savent."
   },
   {
     "id": "al-an-am-98",
@@ -12963,7 +13060,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِىٓ أَنشَأَكُم مِّن نَّفْسٍ وَٰحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ ۗ قَدْ فَصَّلْنَا ٱلْـَٔايَـٰتِ لِقَوْمٍ يَفْقَهُونَ",
     "textSimple": "وهو ٱلذىٓ أنشأكم من نفس وحدة فمستقر ومستودع  قد فصلنا ٱلـٔايـت لقوم يفقهون",
     "transliteration": "wahuwa alladhī ansha-akum min nafsin wāḥidatin famus'taqarrun wamus'tawdaʿun qad faṣṣalnā l-āyāti liqawmin yafqahūna",
-    "translation": "",
+    "translation": "And it is He who produced you from one soul and [gave you] a place of dwelling and of storage. We have detailed the signs for a people who understand.",
     "words": [
       {
         "id": "al-an-am-98-1",
@@ -13057,7 +13154,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui vous a créés à partir d’un seul être. Et vous voilà à la fois dans une demeure et dans un dépôt. Ainsi avons-Nous détaillé les Signes pour des gens qui comprennent."
   },
   {
     "id": "al-an-am-99",
@@ -13066,7 +13164,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّـٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَـٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "وهو ٱلذىٓ أنزل من ٱلسمآء مآء فأخرجنا به نبات كل شىء فأخرجنا منه خضرا نخرج منه حبا متراكبا ومن ٱلنخل من طلعها قنوان دانية وجنـت من أعناب وٱلزيتون وٱلرمان مشتبها وغير متشـبه  ٱنظروٓا إلى ثمرهٓ إذآ أثمر وينعهٓ  إن فى ذلكم لـٔايـت لقوم يؤمنون",
     "transliteration": "wahuwa alladhī anzala mina l-samāi māan fa-akhrajnā bihi nabāta kulli shayin fa-akhrajnā min'hu khaḍiran nukh'riju min'hu ḥabban mutarākiban wamina l-nakhli min ṭalʿihā qin'wānun dāniyatun wajannātin min aʿnābin wal-zaytūna wal-rumāna mush'tabihan waghayra mutashābihin unẓurū ilā thamarihi idhā athmara wayanʿihi inna fī dhālikum laāyātin liqawmin yu'minūna",
-    "translation": "",
+    "translation": "And it is He who sends down rain from the sky, and We produce thereby the growth of all things. We produce from it greenery from which We produce grains arranged in layers. And from the palm trees - of its emerging fruit are clusters hanging low. And [We produce] gardens of grapevines and olives and pomegranates, similar yet varied. Look at [each of] its fruit when it yields and [at] its ripening. Indeed in that are signs for a people who believe.",
     "words": [
       {
         "id": "al-an-am-99-1",
@@ -13377,7 +13475,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 43
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui a fait descendre du ciel de l’eau. Et par cette eau, Nous avons fait éclore les pousses de toute chose. Nous en avons fait sortir des plantes vertes dont Nous avons fait jaillir des grains posés les uns sur les autres. Et à partir des spathes du palmier (Nous avons fait sortir) des régimes suspendus et bas. Et des jardins plantés de vignes, ainsi que l’olivier et le grenadier, semblables ou très variés. Contemplez donc leurs fruits pendant leur fructification et à leur maturité ! Vous avez là autant de Signes pour des gens qui croient."
   },
   {
     "id": "al-an-am-100",
@@ -13386,7 +13485,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَـٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يَصِفُونَ",
     "textSimple": "وجعلوا لله شركآء ٱلجن وخلقهم  وخرقوا له بنين وبنـت بغير علم  سبحـنه وتعـلى عما يصفون",
     "transliteration": "wajaʿalū lillahi shurakāa l-jina wakhalaqahum wakharaqū lahu banīna wabanātin bighayri ʿil'min sub'ḥānahu wataʿālā ʿammā yaṣifūna",
-    "translation": "",
+    "translation": "But they have attributed to Allāh partners - the jinn, while He has created them - and have fabricated for Him sons and daughters without knowledge. Exalted is He and high above what they describe.",
     "words": [
       {
         "id": "al-an-am-100-1",
@@ -13494,7 +13593,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils ont donné à Allah les djinns comme associés quand c’est Lui Qui les a créés. Et, sans aucun savoir, ils Lui ont supposé des fils et des filles. Gloire Lui soit rendue ! Il est au-dessus de toutes leurs suppositions !"
   },
   {
     "id": "al-an-am-101",
@@ -13503,7 +13603,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "بَدِيعُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌ وَلَمْ تَكُن لَّهُۥ صَـٰحِبَةٌ ۖ وَخَلَقَ كُلَّ شَىْءٍ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "بديع ٱلسمـوت وٱلأرض  أنى يكون له ولد ولم تكن له صـحبة  وخلق كل شىء  وهو بكل شىء عليم",
     "transliteration": "badīʿu l-samāwāti wal-arḍi annā yakūnu lahu waladun walam takun lahu ṣāḥibatun wakhalaqa kulla shayin wahuwa bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "[He is] Originator of the heavens and the earth. How could He have a son when He does not have a companion [i.e., wife] and He created all things? And He is, of all things, Knowing.",
     "words": [
       {
         "id": "al-an-am-101-1",
@@ -13632,7 +13732,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Créateur Originel des cieux et de la terre, comment, quand Il n’a pas de compagne, aurait-Il un enfant ? C’est Lui Qui a créé Toute chose et de Toute chose Il est Savant."
   },
   {
     "id": "al-an-am-102",
@@ -13641,7 +13742,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ خَـٰلِقُ كُلِّ شَىْءٍ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
     "textSimple": "ذلكم ٱلله ربكم  لآ إلـه إلا هو  خـلق كل شىء فٱعبدوه  وهو على كل شىء وكيل",
     "transliteration": "dhālikumu l-lahu rabbukum lā ilāha illā huwa khāliqu kulli shayin fa-uʿ'budūhu wahuwa ʿalā kulli shayin wakīlun",
-    "translation": "",
+    "translation": "That is Allāh, your Lord; there is no deity except Him, the Creator of all things, so worship Him. And He is Disposer of all things.",
     "words": [
       {
         "id": "al-an-am-102-1",
@@ -13756,7 +13857,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est Allah, votre Seigneur, point d’autre divinité que Lui ! Créateur de Toute chose ! Adorez-Le donc, c’est Lui qui, de Toute chose, est Garant."
   },
   {
     "id": "al-an-am-103",
@@ -13765,7 +13867,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "لَّا تُدْرِكُهُ ٱلْأَبْصَـٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَـٰرَ ۖ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
     "textSimple": "لا تدركه ٱلأبصـر وهو يدرك ٱلأبصـر  وهو ٱللطيف ٱلخبير",
     "transliteration": "lā tud'rikuhu l-abṣāru wahuwa yud'riku l-abṣāra wahuwa l-laṭīfu l-khabīru",
-    "translation": "",
+    "translation": "Vision perceives Him not, but He perceives [all] vision; and He is the Subtle, the Aware.",
     "words": [
       {
         "id": "al-an-am-103-1",
@@ -13831,7 +13933,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nul regard ne peut L’atteindre quand Lui peut atteindre tous les regards. Il est le Subtil, l’Informé."
   },
   {
     "id": "al-an-am-104",
@@ -13840,7 +13943,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ ۖ فَمَنْ أَبْصَرَ فَلِنَفْسِهِۦ ۖ وَمَنْ عَمِىَ فَعَلَيْهَا ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ",
     "textSimple": "قد جآءكم بصآئر من ربكم  فمن أبصر فلنفسه  ومن عمى فعليها  ومآ أنا عليكم بحفيظ",
     "transliteration": "qad jāakum baṣāiru min rabbikum faman abṣara falinafsihi waman ʿamiya faʿalayhā wamā anā ʿalaykum biḥafīẓin",
-    "translation": "",
+    "translation": "There has come to you enlightenment from your Lord. So whoever will see does so for [the benefit of] his soul, and whoever is blind [does harm] against it. And [say], \"I am not a guardian over you.\"",
     "words": [
       {
         "id": "al-an-am-104-1",
@@ -13948,7 +14051,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous est venu des Indices éclatants de votre Seigneur. Alors, quiconque voit clair, ce sera dans son propre intérêt, et quiconque se fait aveugle, ce sera à ses dépens, car je ne puis (moi Muhammad) assurer votre protection."
   },
   {
     "id": "al-an-am-105",
@@ -13957,7 +14061,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ نُصَرِّفُ ٱلْـَٔايَـٰتِ وَلِيَقُولُوا۟ دَرَسْتَ وَلِنُبَيِّنَهُۥ لِقَوْمٍ يَعْلَمُونَ",
     "textSimple": "وكذلك نصرف ٱلـٔايـت وليقولوا درست ولنبينه لقوم يعلمون",
     "transliteration": "wakadhālika nuṣarrifu l-āyāti waliyaqūlū darasta walinubayyinahu liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "And thus do We diversify the verses so they [i.e., the disbelievers] will say, \"You have studied,\" and so We may make it [i.e., the Qur’ān] clear for a people who know.",
     "words": [
       {
         "id": "al-an-am-105-1",
@@ -14016,7 +14120,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi donc varions-Nous les versets, afin qu’ils disent : « Tu as étudié cela », et pour l’expliquer à des gens qui savent."
   },
   {
     "id": "al-an-am-106",
@@ -14025,7 +14130,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ٱتَّبِعْ مَآ أُوحِىَ إِلَيْكَ مِن رَّبِّكَ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
     "textSimple": "ٱتبع مآ أوحى إليك من ربك  لآ إلـه إلا هو  وأعرض عن ٱلمشركين",
     "transliteration": "ittabiʿ mā ūḥiya ilayka min rabbika lā ilāha illā huwa wa-aʿriḍ ʿani l-mush'rikīna",
-    "translation": "",
+    "translation": "Follow, [O Muḥammad], what has been revealed to you from your Lord - there is no deity except Him - and turn away from those who associate others with Allāh.",
     "words": [
       {
         "id": "al-an-am-106-1",
@@ -14119,7 +14224,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suis donc ce qui t’est révélé par ton Seigneur. Point d’autre divinité que Lui ! Et détourne-toi des associâtres."
   },
   {
     "id": "al-an-am-107",
@@ -14128,7 +14234,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شَآءَ ٱللَّهُ مَآ أَشْرَكُوا۟ ۗ وَمَا جَعَلْنَـٰكَ عَلَيْهِمْ حَفِيظًا ۖ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ",
     "textSimple": "ولو شآء ٱلله مآ أشركوا  وما جعلنـك عليهم حفيظا  ومآ أنت عليهم بوكيل",
     "transliteration": "walaw shāa l-lahu mā ashrakū wamā jaʿalnāka ʿalayhim ḥafīẓan wamā anta ʿalayhim biwakīlin",
-    "translation": "",
+    "translation": "But if Allāh had willed, they would not have associated. And We have not appointed you over them as a guardian, nor are you a manager over them.",
     "words": [
       {
         "id": "al-an-am-107-1",
@@ -14222,7 +14328,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Allah l’avait voulu, ils ne Lui auraient rien associé. Nous ne t’avons point chargé d’être leur gardien et tu n’es point leur garant."
   },
   {
     "id": "al-an-am-108",
@@ -14231,7 +14338,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَسُبُّوا۟ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ فَيَسُبُّوا۟ ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ولا تسبوا ٱلذين يدعون من دون ٱلله فيسبوا ٱلله عدوا بغير علم  كذلك زينا لكل أمة عملهم ثم إلى ربهم مرجعهم فينبئهم بما كانوا يعملون",
     "transliteration": "walā tasubbū alladhīna yadʿūna min dūni l-lahi fayasubbū l-laha ʿadwan bighayri ʿil'min kadhālika zayyannā likulli ummatin ʿamalahum thumma ilā rabbihim marjiʿuhum fayunabbi-uhum bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And do not insult those they invoke other than Allāh, lest they insult Allāh in enmity without knowledge. Thus We have made pleasing to every community their deeds. Then to their Lord is their return, and He will inform them about what they used to do.",
     "words": [
       {
         "id": "al-an-am-108-1",
@@ -14409,7 +14516,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’insultez pas ceux qu’ils invoquent en dehors d’Allah, car hostiles alors ils insulteraient Allah (à leur tour) sans rien en savoir. C’est ainsi que Nous avons embelli, aux yeux de chaque peuple, l’idée qu’il se fait de ses propres œuvres. Puis, c’est vers leur Seigneur que sera leur retour, quand Il les informera de ce qu’ils faisaient."
   },
   {
     "id": "al-an-am-109",
@@ -14418,7 +14526,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَـٰنِهِمْ لَئِن جَآءَتْهُمْ ءَايَةٌ لَّيُؤْمِنُنَّ بِهَا ۚ قُلْ إِنَّمَا ٱلْـَٔايَـٰتُ عِندَ ٱللَّهِ ۖ وَمَا يُشْعِرُكُمْ أَنَّهَآ إِذَا جَآءَتْ لَا يُؤْمِنُونَ",
     "textSimple": "وأقسموا بٱلله جهد أيمـنهم لئن جآءتهم ءاية ليؤمنن بها  قل إنما ٱلـٔايـت عند ٱلله  وما يشعركم أنهآ إذا جآءت لا يؤمنون",
     "transliteration": "wa-aqsamū bil-lahi jahda aymānihim la-in jāathum āyatun layu'minunna bihā qul innamā l-āyātu ʿinda l-lahi wamā yush'ʿirukum annahā idhā jāat lā yu'minūna",
-    "translation": "",
+    "translation": "And they swear by Allāh their strongest oaths that if a sign came to them, they would surely believe in it. Say, \"The signs are only with [i.e., from] Allāh.\" And what will make you perceive that even if it [i.e., a sign] came, they would not believe.",
     "words": [
       {
         "id": "al-an-am-109-1",
@@ -14568,7 +14676,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont juré par Allah, de leurs serments les plus solennels, que s’il leur venait un Signe providentiel, ils y croiraient fermement. Dis : « Les miracles sont du ressort d’Allah Seul. » Mais qui vous assure que même lorsque les miracles leur seront venus, ils n’y croiront pas pour autant ?"
   },
   {
     "id": "al-an-am-110",
@@ -14577,7 +14686,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَنُقَلِّبُ أَفْـِٔدَتَهُمْ وَأَبْصَـٰرَهُمْ كَمَا لَمْ يُؤْمِنُوا۟ بِهِۦٓ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ",
     "textSimple": "ونقلب أفـٔدتهم وأبصـرهم كما لم يؤمنوا بهٓ أول مرة ونذرهم فى طغيـنهم يعمهون",
     "transliteration": "wanuqallibu afidatahum wa-abṣārahum kamā lam yu'minū bihi awwala marratin wanadharuhum fī ṭugh'yānihim yaʿmahūna",
-    "translation": "",
+    "translation": "And We will turn away their hearts and their eyes just as they refused to believe in it [i.e., the revelation] the first time. And We will leave them in their transgression, wandering blindly.",
     "words": [
       {
         "id": "al-an-am-110-1",
@@ -14671,7 +14780,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous tournons et retournons leurs cœurs et leurs yeux tout comme lorsqu’ils n’ont pas cru la première fois, et Nous les laissons dans leurs rébellion patauger aveuglément."
   },
   {
     "id": "al-an-am-111",
@@ -14680,7 +14790,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَوْ أَنَّنَا نَزَّلْنَآ إِلَيْهِمُ ٱلْمَلَـٰٓئِكَةَ وَكَلَّمَهُمُ ٱلْمَوْتَىٰ وَحَشَرْنَا عَلَيْهِمْ كُلَّ شَىْءٍ قُبُلًا مَّا كَانُوا۟ لِيُؤْمِنُوٓا۟ إِلَّآ أَن يَشَآءَ ٱللَّهُ وَلَـٰكِنَّ أَكْثَرَهُمْ يَجْهَلُونَ",
     "textSimple": " ولو أننا نزلنآ إليهم ٱلملـٓئكة وكلمهم ٱلموتى وحشرنا عليهم كل شىء قبلا ما كانوا ليؤمنوٓا إلآ أن يشآء ٱلله ولـكن أكثرهم يجهلون",
     "transliteration": "walaw annanā nazzalnā ilayhimu l-malāikata wakallamahumu l-mawtā waḥasharnā ʿalayhim kulla shayin qubulan mā kānū liyu'minū illā an yashāa l-lahu walākinna aktharahum yajhalūna",
-    "translation": "",
+    "translation": "And even if We had sent down to them the angels [with the message] and the dead spoke to them [of it] and We gathered together every [created] thing in front of them, they would not believe unless Allāh should will. But most of them, [of that], are ignorant.",
     "words": [
       {
         "id": "al-an-am-111-1",
@@ -14837,7 +14947,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ferions-Nous même descendre vers eux les Anges, ou leur parleraient les morts, ou quand bien même Nous rassemblerions tout devant eux, ils ne croiraient point sans qu’Allah le veuille. Mais la plupart d’entre eux sont (plongés) dans l’ignorance."
   },
   {
     "id": "al-an-am-112",
@@ -14846,7 +14957,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ جَعَلْنَا لِكُلِّ نَبِىٍّ عَدُوًّا شَيَـٰطِينَ ٱلْإِنسِ وَٱلْجِنِّ يُوحِى بَعْضُهُمْ إِلَىٰ بَعْضٍ زُخْرُفَ ٱلْقَوْلِ غُرُورًا ۚ وَلَوْ شَآءَ رَبُّكَ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
     "textSimple": "وكذلك جعلنا لكل نبى عدوا شيـطين ٱلإنس وٱلجن يوحى بعضهم إلى بعض زخرف ٱلقول غرورا  ولو شآء ربك ما فعلوه  فذرهم وما يفترون",
     "transliteration": "wakadhālika jaʿalnā likulli nabiyyin ʿaduwwan shayāṭīna l-insi wal-jini yūḥī baʿḍuhum ilā baʿḍin zukh'rufa l-qawli ghurūran walaw shāa rabbuka mā faʿalūhu fadharhum wamā yaftarūna",
-    "translation": "",
+    "translation": "And thus We have made for every prophet an enemy - devils from mankind and jinn, inspiring to one another decorative speech in delusion. But if your Lord had willed, they would not have done it, so leave them and that which they invent.",
     "words": [
       {
         "id": "al-an-am-112-1",
@@ -15010,7 +15121,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons désigné pour chaque Prophète comme ennemis les démons d’entre les humains et d’entre les djinns, les uns inspirant aux autres les ornements fallacieux de la parole. Mais si ton Seigneur avait voulu (qu’il n’en fût point ainsi), ils ne l’auraient certainement jamais fait. Laisse-les donc à leurs inventions illusoires."
   },
   {
     "id": "al-an-am-113",
@@ -15019,7 +15131,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ",
     "textSimple": "ولتصغىٓ إليه أفـٔدة ٱلذين لا يؤمنون بٱلـٔاخرة وليرضوه وليقترفوا ما هم مقترفون",
     "transliteration": "walitaṣghā ilayhi afidatu alladhīna lā yu'minūna bil-ākhirati waliyarḍawhu waliyaqtarifū mā hum muq'tarifūna",
-    "translation": "",
+    "translation": "And [it is] so the hearts of those who disbelieve in the Hereafter will incline toward it [i.e., deceptive speech] and that they will be satisfied with it and that they will commit that which they are committing.",
     "words": [
       {
         "id": "al-an-am-113-1",
@@ -15106,7 +15218,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que penchent donc les cœurs de ceux qui ne croient pas à l’autre monde (vers ces fallacieuses paroles) et qu’ils en soient satisfaits et continuent à commettre ce qu’ils commettent."
   },
   {
     "id": "al-an-am-114",
@@ -15115,7 +15228,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أَفَغَيْرَ ٱللَّهِ أَبْتَغِى حَكَمًا وَهُوَ ٱلَّذِىٓ أَنزَلَ إِلَيْكُمُ ٱلْكِتَـٰبَ مُفَصَّلًا ۚ وَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يَعْلَمُونَ أَنَّهُۥ مُنَزَّلٌ مِّن رَّبِّكَ بِٱلْحَقِّ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
     "textSimple": "أفغير ٱلله أبتغى حكما وهو ٱلذىٓ أنزل إليكم ٱلكتـب مفصلا  وٱلذين ءاتينـهم ٱلكتـب يعلمون أنه منزل من ربك بٱلحق  فلا تكونن من ٱلممترين",
     "transliteration": "afaghayra l-lahi abtaghī ḥakaman wahuwa alladhī anzala ilaykumu l-kitāba mufaṣṣalan wa-alladhīna ātaynāhumu l-kitāba yaʿlamūna annahu munazzalun min rabbika bil-ḥaqi falā takūnanna mina l-mum'tarīna",
-    "translation": "",
+    "translation": "[Say], \"Then is it other than Allāh I should seek as judge while it is He who has revealed to you the Book [i.e., the Qur’ān] explained in detail?\" And those to whom We [previously] gave the Scripture know that it is sent down from your Lord in truth, so never be among the doubters.",
     "words": [
       {
         "id": "al-an-am-114-1",
@@ -15279,7 +15392,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voudrais-je un autre juge qu’Allah, Lui Qui a fait descendre (en révélation) vers vous le Livre clairement détaillé ? Ceux qui reçurent de Nous le Livre savent qu’il est révélé en toute vérité par ton Seigneur. Ne sois donc pas de ceux qui doutent."
   },
   {
     "id": "al-an-am-115",
@@ -15288,7 +15402,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًا وَعَدْلًا ۚ لَّا مُبَدِّلَ لِكَلِمَـٰتِهِۦ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "وتمت كلمت ربك صدقا وعدلا  لا مبدل لكلمـته  وهو ٱلسميع ٱلعليم",
     "transliteration": "watammat kalimatu rabbika ṣid'qan waʿadlan lā mubaddila likalimātihi wahuwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "And the word of your Lord has been fulfilled in truth and in justice. None can alter His words, and He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "al-an-am-115-1",
@@ -15368,7 +15482,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La parole de ton Seigneur s’est accomplie, toute de vérité et de justice. Nul ne pourra changer Ses paroles. Il Entend Toute chose et Il est l’Omniscient."
   },
   {
     "id": "al-an-am-116",
@@ -15377,7 +15492,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن تُطِعْ أَكْثَرَ مَن فِى ٱلْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ ٱللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
     "textSimple": "وإن تطع أكثر من فى ٱلأرض يضلوك عن سبيل ٱلله  إن يتبعون إلا ٱلظن وإن هم إلا يخرصون",
     "transliteration": "wa-in tuṭiʿ akthara man fī l-arḍi yuḍillūka ʿan sabīli l-lahi in yattabiʿūna illā l-ẓana wa-in hum illā yakhruṣūna",
-    "translation": "",
+    "translation": "And if you obey most of those upon the earth, they will mislead you from the way of Allāh. They follow not except assumption, and they are not but misjudging.",
     "words": [
       {
         "id": "al-an-am-116-1",
@@ -15506,7 +15621,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu prêtes attention à la majorité de ceux qui peuplent la terre, ils t’égareront du chemin d’Allah. Ils ne suivent que conjectures et n’adoptent que suppositions."
   },
   {
     "id": "al-an-am-117",
@@ -15515,7 +15631,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ هُوَ أَعْلَمُ مَن يَضِلُّ عَن سَبِيلِهِۦ ۖ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
     "textSimple": "إن ربك هو أعلم من يضل عن سبيله  وهو أعلم بٱلمهتدين",
     "transliteration": "inna rabbaka huwa aʿlamu man yaḍillu ʿan sabīlihi wahuwa aʿlamu bil-muh'tadīna",
-    "translation": "",
+    "translation": "Indeed, your Lord is most knowing of who strays from His way, and He is most knowing of the [rightly] guided.",
     "words": [
       {
         "id": "al-an-am-117-1",
@@ -15595,7 +15711,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur Sait le mieux qui s’égare de Son chemin, et c’est Lui Qui Sait le mieux qui sont les bien orientés."
   },
   {
     "id": "al-an-am-118",
@@ -15604,7 +15721,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ إِن كُنتُم بِـَٔايَـٰتِهِۦ مُؤْمِنِينَ",
     "textSimple": "فكلوا مما ذكر ٱسم ٱلله عليه إن كنتم بـٔايـته مؤمنين",
     "transliteration": "fakulū mimmā dhukira us'mu l-lahi ʿalayhi in kuntum biāyātihi mu'minīna",
-    "translation": "",
+    "translation": "So eat of that [meat] upon which the name of Allāh has been mentioned, if you are believers in His verses [i.e., revealed law].",
     "words": [
       {
         "id": "al-an-am-118-1",
@@ -15677,7 +15794,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mangez donc (de la viande des animaux) sur lesquels le nom d’Allah a été prononcé, si en Ses versets vous êtes vraiment croyants."
   },
   {
     "id": "al-an-am-119",
@@ -15686,7 +15804,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَكُمْ أَلَّا تَأْكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ وَقَدْ فَصَّلَ لَكُم مَّا حَرَّمَ عَلَيْكُمْ إِلَّا مَا ٱضْطُرِرْتُمْ إِلَيْهِ ۗ وَإِنَّ كَثِيرًا لَّيُضِلُّونَ بِأَهْوَآئِهِم بِغَيْرِ عِلْمٍ ۗ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِٱلْمُعْتَدِينَ",
     "textSimple": "وما لكم ألا تأكلوا مما ذكر ٱسم ٱلله عليه وقد فصل لكم ما حرم عليكم إلا ما ٱضطررتم إليه  وإن كثيرا ليضلون بأهوآئهم بغير علم  إن ربك هو أعلم بٱلمعتدين",
     "transliteration": "wamā lakum allā takulū mimmā dhukira us'mu l-lahi ʿalayhi waqad faṣṣala lakum mā ḥarrama ʿalaykum illā mā uḍ'ṭurir'tum ilayhi wa-inna kathīran layuḍillūna bi-ahwāihim bighayri ʿil'min inna rabbaka huwa aʿlamu bil-muʿ'tadīna",
-    "translation": "",
+    "translation": "And why should you not eat of that upon which the name of Allāh has been mentioned while He has explained in detail to you what He has forbidden you, excepting that to which you are compelled. And indeed do many lead [others] astray through their [own] inclinations without knowledge. Indeed, your Lord - He is most knowing of the transgressors.",
     "words": [
       {
         "id": "al-an-am-119-1",
@@ -15899,7 +16017,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qu’avez-vous à ne pas manger (des viandes) sur lesquels a été prononcé le nom d’Allah ? Il vous a pourtant détaillé les choses qu’Il vous a défendues à moins que vous ne soyez conduits par nécessité (à en consommer). Beaucoup de gens égarent (les autres) en suivant leurs passions, sans se fonder sur aucun savoir. Ton Seigneur Sait le mieux quels sont les transgresseurs."
   },
   {
     "id": "al-an-am-120",
@@ -15908,7 +16027,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَذَرُوا۟ ظَـٰهِرَ ٱلْإِثْمِ وَبَاطِنَهُۥٓ ۚ إِنَّ ٱلَّذِينَ يَكْسِبُونَ ٱلْإِثْمَ سَيُجْزَوْنَ بِمَا كَانُوا۟ يَقْتَرِفُونَ",
     "textSimple": "وذروا ظـهر ٱلإثم وباطنهٓ  إن ٱلذين يكسبون ٱلإثم سيجزون بما كانوا يقترفون",
     "transliteration": "wadharū ẓāhira l-ith'mi wabāṭinahu inna alladhīna yaksibūna l-ith'ma sayuj'zawna bimā kānū yaqtarifūna",
-    "translation": "",
+    "translation": "And leave [i.e., desist from] what is apparent of sin and what is concealed thereof. Indeed, those who earn [blame for] sin will be recompensed for that which they used to commit.",
     "words": [
       {
         "id": "al-an-am-120-1",
@@ -15995,7 +16114,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Abandonnez le péché qu’il soit visible ou caché ; ceux qui commettent le péché seront rétribués selon les actes qu’ils auront commis."
   },
   {
     "id": "al-an-am-121",
@@ -16004,7 +16124,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ وَإِنَّهُۥ لَفِسْقٌ ۗ وَإِنَّ ٱلشَّيَـٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَـٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ",
     "textSimple": "ولا تأكلوا مما لم يذكر ٱسم ٱلله عليه وإنه لفسق  وإن ٱلشيـطين ليوحون إلىٓ أوليآئهم ليجـدلوكم  وإن أطعتموهم إنكم لمشركون",
     "transliteration": "walā takulū mimmā lam yudh'kari us'mu l-lahi ʿalayhi wa-innahu lafis'qun wa-inna l-shayāṭīna layūḥūna ilā awliyāihim liyujādilūkum wa-in aṭaʿtumūhum innakum lamush'rikūna",
-    "translation": "",
+    "translation": "And do not eat of that upon which the name of Allāh has not been mentioned, for indeed, it is grave disobedience. And indeed do the devils inspire their allies [among men] to dispute with you. And if you were to obey them, indeed, you would be associators [of others with Him].",
     "words": [
       {
         "id": "al-an-am-121-1",
@@ -16147,7 +16267,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne mangez pas (de la viande des animaux) sur lesquels n’a pas été prononcé le nom d’Allah. Ce serait commettre une abomination. Les démons susurrent à leurs adeptes de disputer avec vous, et si vous les écoutez, vous serez du nombre des associâtres."
   },
   {
     "id": "al-an-am-122",
@@ -16156,7 +16277,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أَوَمَن كَانَ مَيْتًا فَأَحْيَيْنَـٰهُ وَجَعَلْنَا لَهُۥ نُورًا يَمْشِى بِهِۦ فِى ٱلنَّاسِ كَمَن مَّثَلُهُۥ فِى ٱلظُّلُمَـٰتِ لَيْسَ بِخَارِجٍ مِّنْهَا ۚ كَذَٰلِكَ زُيِّنَ لِلْكَـٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "أومن كان ميتا فأحيينـه وجعلنا له نورا يمشى به فى ٱلناس كمن مثله فى ٱلظلمـت ليس بخارج منها  كذلك زين للكـفرين ما كانوا يعملون",
     "transliteration": "awaman kāna maytan fa-aḥyaynāhu wajaʿalnā lahu nūran yamshī bihi fī l-nāsi kaman mathaluhu fī l-ẓulumāti laysa bikhārijin min'hā kadhālika zuyyina lil'kāfirīna mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And is one who was dead and We gave him life and made for him light by which to walk among the people like one who is in darkness, never to emerge therefrom? Thus it has been made pleasing to the disbelievers that which they were doing.",
     "words": [
       {
         "id": "al-an-am-122-1",
@@ -16327,7 +16448,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui était mort et que Nous avons fait revivre, qui a reçu de Nous une lumière pour marcher parmi les hommes, est-il semblable à celui qui est plongé dans les ténèbres et ne saurait en sortir ? Ainsi sont embellies, aux yeux des mécréants, les actions qui étaient les leurs."
   },
   {
     "id": "al-an-am-123",
@@ -16336,7 +16458,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ جَعَلْنَا فِى كُلِّ قَرْيَةٍ أَكَـٰبِرَ مُجْرِمِيهَا لِيَمْكُرُوا۟ فِيهَا ۖ وَمَا يَمْكُرُونَ إِلَّا بِأَنفُسِهِمْ وَمَا يَشْعُرُونَ",
     "textSimple": "وكذلك جعلنا فى كل قرية أكـبر مجرميها ليمكروا فيها  وما يمكرون إلا بأنفسهم وما يشعرون",
     "transliteration": "wakadhālika jaʿalnā fī kulli qaryatin akābira muj'rimīhā liyamkurū fīhā wamā yamkurūna illā bi-anfusihim wamā yashʿurūna",
-    "translation": "",
+    "translation": "And thus We have placed within every city the greatest of its criminals to conspire therein. But they conspire not except against themselves, and they perceive [it] not.",
     "words": [
       {
         "id": "al-an-am-123-1",
@@ -16444,7 +16566,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi (également) avons-Nous établi dans chaque cité ses plus grands criminels afin qu’ils se livrent à leurs conspirations. Mais ils ne conspirent que contre eux-mêmes et ils ne le sentent pas."
   },
   {
     "id": "al-an-am-124",
@@ -16453,7 +16576,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا جَآءَتْهُمْ ءَايَةٌ قَالُوا۟ لَن نُّؤْمِنَ حَتَّىٰ نُؤْتَىٰ مِثْلَ مَآ أُوتِىَ رُسُلُ ٱللَّهِ ۘ ٱللَّهُ أَعْلَمُ حَيْثُ يَجْعَلُ رِسَالَتَهُۥ ۗ سَيُصِيبُ ٱلَّذِينَ أَجْرَمُوا۟ صَغَارٌ عِندَ ٱللَّهِ وَعَذَابٌ شَدِيدٌۢ بِمَا كَانُوا۟ يَمْكُرُونَ",
     "textSimple": "وإذا جآءتهم ءاية قالوا لن نؤمن حتى نؤتى مثل مآ أوتى رسل ٱلله  ٱلله أعلم حيث يجعل رسالته  سيصيب ٱلذين أجرموا صغار عند ٱلله وعذاب شديد بما كانوا يمكرون",
     "transliteration": "wa-idhā jāathum āyatun qālū lan nu'mina ḥattā nu'tā mith'la mā ūtiya rusulu l-lahi l-lahu aʿlamu ḥaythu yajʿalu risālatahu sayuṣību alladhīna ajramū ṣaghārun ʿinda l-lahi waʿadhābun shadīdun bimā kānū yamkurūna",
-    "translation": "",
+    "translation": "And when a sign comes to them, they say, \"Never will we believe until we are given like that which was given to the messengers of Allāh.\" Allāh is most knowing of where [i.e., with whom] He places His message. There will afflict those who committed crimes debasement before Allāh and severe punishment for what they used to conspire.",
     "words": [
       {
         "id": "al-an-am-124-1",
@@ -16659,7 +16782,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand un Signe leur apparaît, ils disent : «Nous ne croirons point avant qu’il ne nous vienne cela même qu’ont reçu les Messagers d’Allah. » Allah Sait mieux à qui confier Son Message. Les criminels seront frappés d’humiliation et d’insignifiance devant Allah. Un terrible supplice (leur est promis) pour les complots qu’ils ourdissaient."
   },
   {
     "id": "al-an-am-125",
@@ -16668,7 +16792,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَـٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ",
     "textSimple": "فمن يرد ٱلله أن يهديه يشرح صدره للإسلـم  ومن يرد أن يضله يجعل صدره ضيقا حرجا كأنما يصعد فى ٱلسمآء  كذلك يجعل ٱلله ٱلرجس على ٱلذين لا يؤمنون",
     "transliteration": "faman yuridi l-lahu an yahdiyahu yashraḥ ṣadrahu lil'is'lāmi waman yurid an yuḍillahu yajʿal ṣadrahu ḍayyiqan ḥarajan ka-annamā yaṣṣaʿʿadu fī l-samāi kadhālika yajʿalu l-lahu l-rij'sa ʿalā alladhīna lā yu'minūna",
-    "translation": "",
+    "translation": "So whoever Allāh wants to guide - He expands his breast to [contain] Islām; and whoever He wants to send astray - He makes his breast tight and constricted as though he were climbing into the sky. Thus does Allāh place defilement upon those who do not believe.",
     "words": [
       {
         "id": "al-an-am-125-1",
@@ -16867,7 +16991,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qu’Allah veut bien guider, Il lui ouvrira le cœur à l’Islam. Mais celui qu’Il veut perdre aura la poitrine si serrée qu’il aura l’impression de monter au ciel. C’est ainsi qu’Allah décrète Son châtiment contre ceux qui ne croient pas."
   },
   {
     "id": "al-an-am-126",
@@ -16876,7 +17001,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهَـٰذَا صِرَٰطُ رَبِّكَ مُسْتَقِيمًا ۗ قَدْ فَصَّلْنَا ٱلْـَٔايَـٰتِ لِقَوْمٍ يَذَّكَّرُونَ",
     "textSimple": "وهـذا صرط ربك مستقيما  قد فصلنا ٱلـٔايـت لقوم يذكرون",
     "transliteration": "wahādhā ṣirāṭu rabbika mus'taqīman qad faṣṣalnā l-āyāti liqawmin yadhakkarūna",
-    "translation": "",
+    "translation": "And this is the path of your Lord, [leading] straight. We have detailed the verses for a people who remember.",
     "words": [
       {
         "id": "al-an-am-126-1",
@@ -16942,7 +17067,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la voie de ton Seigneur, parfaitement droite. Et Nous avons détaillé les Signes (ou versets) pour des gens qui se souviennent."
   },
   {
     "id": "al-an-am-127",
@@ -16951,7 +17077,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَهُمْ دَارُ ٱلسَّلَـٰمِ عِندَ رَبِّهِمْ ۖ وَهُوَ وَلِيُّهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": " لهم دار ٱلسلـم عند ربهم  وهو وليهم بما كانوا يعملون",
     "transliteration": "lahum dāru l-salāmi ʿinda rabbihim wahuwa waliyyuhum bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "For them will be the Home of Peace [i.e., Paradise] with their Lord. And He will be their protecting friend because of what they used to do.",
     "words": [
       {
         "id": "al-an-am-127-1",
@@ -17024,7 +17150,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont, auprès de leur Seigneur, la demeure du Salut. Il est leur Protecteur pour prix de ce qu’ils faisaient."
   },
   {
     "id": "al-an-am-128",
@@ -17033,7 +17160,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يَحْشُرُهُمْ جَمِيعًا يَـٰمَعْشَرَ ٱلْجِنِّ قَدِ ٱسْتَكْثَرْتُم مِّنَ ٱلْإِنسِ ۖ وَقَالَ أَوْلِيَآؤُهُم مِّنَ ٱلْإِنسِ رَبَّنَا ٱسْتَمْتَعَ بَعْضُنَا بِبَعْضٍ وَبَلَغْنَآ أَجَلَنَا ٱلَّذِىٓ أَجَّلْتَ لَنَا ۚ قَالَ ٱلنَّارُ مَثْوَىٰكُمْ خَـٰلِدِينَ فِيهَآ إِلَّا مَا شَآءَ ٱللَّهُ ۗ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌ",
     "textSimple": "ويوم يحشرهم جميعا يـمعشر ٱلجن قد ٱستكثرتم من ٱلإنس  وقال أوليآؤهم من ٱلإنس ربنا ٱستمتع بعضنا ببعض وبلغنآ أجلنا ٱلذىٓ أجلت لنا  قال ٱلنار مثوىكم خـلدين فيهآ إلا ما شآء ٱلله  إن ربك حكيم عليم",
     "transliteration": "wayawma yaḥshuruhum jamīʿan yāmaʿshara l-jini qadi is'takthartum mina l-insi waqāla awliyāuhum mina l-insi rabbanā is'tamtaʿa baʿḍunā bibaʿḍin wabalaghnā ajalanā alladhī ajjalta lanā qāla l-nāru mathwākum khālidīna fīhā illā mā shāa l-lahu inna rabbaka ḥakīmun ʿalīmun",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], the Day when He will gather them together [and say], \"O company of jinn, you have [misled] many of mankind.\" And their allies among mankind will say, \"Our Lord, some of us made use of others, and we have [now] reached our term which You appointed for us.\" He will say, \"The Fire is your residence, wherein you will abide eternally, except for what Allāh wills. Indeed, your Lord is Wise and Knowing.\"",
     "words": [
       {
         "id": "al-an-am-128-1",
@@ -17281,7 +17408,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et le Jour où il les rassemblera tous en foule, Il dira : « Ô peuple des djinns ! Vous avez abusé des humains. » Alors leurs suppôts parmi les humains répliqueront : « Seigneur ! Nous avons profité les uns des autres, mais voici que nous arrivons au terme que Tu nous as fixé. » Il leur dira alors : « Le Feu est votre séjour, là vous demeurerez pour l’éternité, à moins qu’Allah ne veuille (un autre sort). Ton Seigneur est, certes, Sage et Omniscient."
   },
   {
     "id": "al-an-am-129",
@@ -17290,7 +17418,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ نُوَلِّى بَعْضَ ٱلظَّـٰلِمِينَ بَعْضًۢا بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "وكذلك نولى بعض ٱلظـلمين بعضا بما كانوا يكسبون",
     "transliteration": "wakadhālika nuwallī baʿḍa l-ẓālimīna baʿḍan bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "And thus will We make some of the wrongdoers allies of others for what they used to earn.",
     "words": [
       {
         "id": "al-an-am-129-1",
@@ -17349,7 +17477,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est ainsi que Nous attribuons à quelques-uns parmi les injustes l’autorité sur d’autres, (coupables qu’ils sont) de ce qu’ils ont commis."
   },
   {
     "id": "al-an-am-130",
@@ -17358,7 +17487,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ ءَايَـٰتِى وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَـٰذَا ۚ قَالُوا۟ شَهِدْنَا عَلَىٰٓ أَنفُسِنَا ۖ وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَـٰفِرِينَ",
     "textSimple": "يـمعشر ٱلجن وٱلإنس ألم يأتكم رسل منكم يقصون عليكم ءايـتى وينذرونكم لقآء يومكم هـذا  قالوا شهدنا علىٓ أنفسنا  وغرتهم ٱلحيوة ٱلدنيا وشهدوا علىٓ أنفسهم أنهم كانوا كـفرين",
     "transliteration": "yāmaʿshara l-jini wal-insi alam yatikum rusulun minkum yaquṣṣūna ʿalaykum āyātī wayundhirūnakum liqāa yawmikum hādhā qālū shahid'nā ʿalā anfusinā wagharrathumu l-ḥayatu l-dun'yā washahidū ʿalā anfusihim annahum kānū kāfirīna",
-    "translation": "",
+    "translation": "\"O company of jinn and mankind, did there not come to you messengers from among you, relating to you My verses and warning you of the meeting of this Day of yours?\" They will say, \"We bear witness against ourselves\"; and the worldly life had deluded them, and they will bear witness against themselves that they were disbelievers.",
     "words": [
       {
         "id": "al-an-am-130-1",
@@ -17550,7 +17679,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuples des djinns et des humains ! Des Messagers surgis d’entre vous ne vous sont-ils pas venus vous parler de Mes Signes et vous avertir de la rencontre de votre Jour-ci ? » Ils diront : « Nous témoignons contre nous-mêmes. » La vie en ce bas monde les ayant abusés, ils témoigneront contre eux-mêmes d’avoir été mécréants."
   },
   {
     "id": "al-an-am-131",
@@ -17559,7 +17689,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ أَن لَّمْ يَكُن رَّبُّكَ مُهْلِكَ ٱلْقُرَىٰ بِظُلْمٍ وَأَهْلُهَا غَـٰفِلُونَ",
     "textSimple": "ذلك أن لم يكن ربك مهلك ٱلقرى بظلم وأهلها غـفلون",
     "transliteration": "dhālika an lam yakun rabbuka muh'lika l-qurā biẓul'min wa-ahluhā ghāfilūna",
-    "translation": "",
+    "translation": "That is because your Lord would not destroy the cities for wrongdoing while their people were unaware.",
     "words": [
       {
         "id": "al-an-am-131-1",
@@ -17632,7 +17762,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce que ton Seigneur ne détruit jamais injustement des cités quand ceux qui les peuplent n’ont pas été avertis."
   },
   {
     "id": "al-an-am-132",
@@ -17641,7 +17772,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلِكُلٍّ دَرَجَـٰتٌ مِّمَّا عَمِلُوا۟ ۚ وَمَا رَبُّكَ بِغَـٰفِلٍ عَمَّا يَعْمَلُونَ",
     "textSimple": "ولكل درجـت مما عملوا  وما ربك بغـفل عما يعملون",
     "transliteration": "walikullin darajātun mimmā ʿamilū wamā rabbuka bighāfilin ʿammā yaʿmalūna",
-    "translation": "",
+    "translation": "And for all are degrees [i.e., positions resulting] from what they have done. And your Lord is not unaware of what they do.",
     "words": [
       {
         "id": "al-an-am-132-1",
@@ -17707,7 +17838,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chacun aura des degrés à la mesure de ses œuvres. Et ton Seigneur n’est point distrait de ce qu’ils font."
   },
   {
     "id": "al-an-am-133",
@@ -17716,7 +17848,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ أَنشَأَكُم مِّن ذُرِّيَّةِ قَوْمٍ ءَاخَرِينَ",
     "textSimple": "وربك ٱلغنى ذو ٱلرحمة  إن يشأ يذهبكم ويستخلف من بعدكم ما يشآء كمآ أنشأكم من ذرية قوم ءاخرين",
     "transliteration": "warabbuka l-ghaniyu dhū l-raḥmati in yasha yudh'hib'kum wayastakhlif min baʿdikum mā yashāu kamā ansha-akum min dhurriyyati qawmin ākharīna",
-    "translation": "",
+    "translation": "And your Lord is the Free of need, the possessor of mercy. If He wills, He can do away with you and give succession after you to whomever He wills, just as He produced you from the descendants of another people.",
     "words": [
       {
         "id": "al-an-am-133-1",
@@ -17845,7 +17977,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ton Seigneur, Qui Se passe de Toutes richesses, Qui détient la miséricorde, s’Il voulait, Il vous ferait disparaître et vous ferait succéder par qui Il veut, tout comme, (à l’origine), Il vous a créés de la descendance d’un peuple différent."
   },
   {
     "id": "al-an-am-134",
@@ -17854,7 +17987,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ مَا تُوعَدُونَ لَـَٔاتٍ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ",
     "textSimple": "إن ما توعدون لـٔات  ومآ أنتم بمعجزين",
     "transliteration": "inna mā tūʿadūna laātin wamā antum bimuʿ'jizīna",
-    "translation": "",
+    "translation": "Indeed, what you are promised is coming, and you will not cause failure [to Allāh].",
     "words": [
       {
         "id": "al-an-am-134-1",
@@ -17906,7 +18039,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qui vous est promis viendra sûrement. Et vous n’êtes point capables de le rendre impossible."
   },
   {
     "id": "al-an-am-135",
@@ -17915,7 +18049,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰقَوْمِ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى عَامِلٌ ۖ فَسَوْفَ تَعْلَمُونَ مَن تَكُونُ لَهُۥ عَـٰقِبَةُ ٱلدَّارِ ۗ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّـٰلِمُونَ",
     "textSimple": "قل يـقوم ٱعملوا على مكانتكم إنى عامل  فسوف تعلمون من تكون له عـقبة ٱلدار  إنه لا يفلح ٱلظـلمون",
     "transliteration": "qul yāqawmi iʿ'malū ʿalā makānatikum innī ʿāmilun fasawfa taʿlamūna man takūnu lahu ʿāqibatu l-dāri innahu lā yuf'liḥu l-ẓālimūna",
-    "translation": "",
+    "translation": "Say, \"O my people, work according to your position; [for] indeed, I am working. And you are going to know who will have succession in the home. Indeed, the wrongdoers will not succeed.\"",
     "words": [
       {
         "id": "al-an-am-135-1",
@@ -18044,7 +18178,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô peuple mien ! Agissez selon votre manière, j’agirai selon la mienne. Vous saurez qui aura (gagné) dans l’autre monde. » Les injustes, certes, ne réussiront pas."
   },
   {
     "id": "al-an-am-136",
@@ -18053,7 +18188,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَـٰمِ نَصِيبًا فَقَالُوا۟ هَـٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَـٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
     "textSimple": "وجعلوا لله مما ذرأ من ٱلحرث وٱلأنعـم نصيبا فقالوا هـذا لله بزعمهم وهـذا لشركآئنا  فما كان لشركآئهم فلا يصل إلى ٱلله  وما كان لله فهو يصل إلى شركآئهم  سآء ما يحكمون",
     "transliteration": "wajaʿalū lillahi mimmā dhara-a mina l-ḥarthi wal-anʿāmi naṣīban faqālū hādhā lillahi bizaʿmihim wahādhā lishurakāinā famā kāna lishurakāihim falā yaṣilu ilā l-lahi wamā kāna lillahi fahuwa yaṣilu ilā shurakāihim sāa mā yaḥkumūna",
-    "translation": "",
+    "translation": "And they [i.e., the polytheists] assign to Allāh from that which He created of crops and livestock a share and say, \"This is for Allāh,\" by their claim, \"and this is for our 'partners' [associated with Him].\" But what is for their \"partners\" does not reach Allāh, while what is for Allāh - this reaches their \"partners.\" Evil is that which they rule.",
     "words": [
       {
         "id": "al-an-am-136-1",
@@ -18273,7 +18408,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils réservent à Allah une partie de ce que Lui-même a fait pousser comme récoltes et créé comme bétail, puis ils prétendent : « Ceci est pour Allah », (et ils ajoutent) : « Et ceci est pour nos divinités (que nous associons à Allah). » Or, ce qui est destiné à leurs idoles ne parvient pas à Allah et ce qui est destiné à Allah parvient à leurs idoles. Quel piètre jugement que le leur!"
   },
   {
     "id": "al-an-am-137",
@@ -18282,7 +18418,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَـٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
     "textSimple": "وكذلك زين لكثير من ٱلمشركين قتل أولـدهم شركآؤهم ليردوهم وليلبسوا عليهم دينهم  ولو شآء ٱلله ما فعلوه  فذرهم وما يفترون",
     "transliteration": "wakadhālika zayyana likathīrin mina l-mush'rikīna qatla awlādihim shurakāuhum liyur'dūhum waliyalbisū ʿalayhim dīnahum walaw shāa l-lahu mā faʿalūhu fadharhum wamā yaftarūna",
-    "translation": "",
+    "translation": "And likewise, to many of the polytheists their partners have made [to seem] pleasing the killing of their children in order to bring about their destruction and to cover them with confusion in their religion. And if Allāh had willed, they would not have done so. So leave them and that which they invent.",
     "words": [
       {
         "id": "al-an-am-137-1",
@@ -18425,7 +18561,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De même leurs alliés parmi les démons ont embelli aux yeux de nombre d’associâtres le meurtre de leurs propres enfants, afin de les perdre et d’altérer leur religion. Or si Allah avait voulu, ils ne l’auraient point fait. Laisse-les donc avec les mensonges qu’ils s’inventent."
   },
   {
     "id": "al-an-am-138",
@@ -18434,7 +18571,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ هَـٰذِهِۦٓ أَنْعَـٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَـٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَـٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "وقالوا هـذهٓ أنعـم وحرث حجر لا يطعمهآ إلا من نشآء بزعمهم وأنعـم حرمت ظهورها وأنعـم لا يذكرون ٱسم ٱلله عليها ٱفترآء عليه  سيجزيهم بما كانوا يفترون",
     "transliteration": "waqālū hādhihi anʿāmun waḥarthun ḥij'run lā yaṭʿamuhā illā man nashāu bizaʿmihim wa-anʿāmun ḥurrimat ẓuhūruhā wa-anʿāmun lā yadhkurūna is'ma l-lahi ʿalayhā if'tirāan ʿalayhi sayajzīhim bimā kānū yaftarūna",
-    "translation": "",
+    "translation": "And they say, \"These animals and crops are forbidden; no one may eat from them except whom we will,\" by their claim. And there are those [camels] whose backs are forbidden [by them] and those upon which the name of Allāh is not mentioned - [all of this] an invention of untruth about Him. He will punish them for what they were inventing.",
     "words": [
       {
         "id": "al-an-am-138-1",
@@ -18619,7 +18756,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils prétendent : « Ce sont là des bestiaux et des récoltes qu’il est défendu de consommer. N’en mangeront que ceux que nous voulons. » Certains de ces bestiaux ont le dos interdit, et sur d’autres n’est pas prononcé le nom d’Allah. Que d’inventions contre Lui ! Il les rétribuera certainement pour les mensonges qu’ils inventaient."
   },
   {
     "id": "al-an-am-139",
@@ -18628,7 +18766,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ مَا فِى بُطُونِ هَـٰذِهِ ٱلْأَنْعَـٰمِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ وَصْفَهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
     "textSimple": "وقالوا ما فى بطون هـذه ٱلأنعـم خالصة لذكورنا ومحرم علىٓ أزوجنا  وإن يكن ميتة فهم فيه شركآء  سيجزيهم وصفهم  إنه حكيم عليم",
     "transliteration": "waqālū mā fī buṭūni hādhihi l-anʿāmi khāliṣatun lidhukūrinā wamuḥarramun ʿalā azwājinā wa-in yakun maytatan fahum fīhi shurakāu sayajzīhim waṣfahum innahu ḥakīmun ʿalīmun",
-    "translation": "",
+    "translation": "And they say, \"What is in the bellies of these animals is exclusively for our males and forbidden to our females. But if it is [born] dead, then all of them have shares therein.\" He will punish them for their description. Indeed, He is Wise and Knowing.",
     "words": [
       {
         "id": "al-an-am-139-1",
@@ -18785,7 +18923,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disent encore : « Ce que portent dans leurs ventres de telles bêtes revient aux mâles d’entre nous mais il est défendu à nos femmes ». Cependant si la bête naît morte, tous y auront droit. Il les rétribuera pour leur prescription, car Il est Sage et Omniscient."
   },
   {
     "id": "al-an-am-140",
@@ -18794,7 +18933,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَـٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ ۚ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ",
     "textSimple": "قد خسر ٱلذين قتلوٓا أولـدهم سفها بغير علم وحرموا ما رزقهم ٱلله ٱفترآء على ٱلله  قد ضلوا وما كانوا مهتدين",
     "transliteration": "qad khasira alladhīna qatalū awlādahum safahan bighayri ʿil'min waḥarramū mā razaqahumu l-lahu if'tirāan ʿalā l-lahi qad ḍallū wamā kānū muh'tadīna",
-    "translation": "",
+    "translation": "They will have lost who killed their children in foolishness without knowledge and prohibited what Allāh had provided for them, inventing untruth about Allāh. They have gone astray and were not [rightly] guided.",
     "words": [
       {
         "id": "al-an-am-140-1",
@@ -18937,7 +19076,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont tué leurs enfants sans aucun savoir ont certes perdu, eux qui ont défendu ce qu’Allah leur a dispensé comme subsistance, proférant ainsi des mensonges sur Allah ! Ceux-là se sont perdus et ne sont point orientés vers le bon chemin."
   },
   {
     "id": "al-an-am-141",
@@ -18946,7 +19086,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّـٰتٍ مَّعْرُوشَـٰتٍ وَغَيْرَ مَعْرُوشَـٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَـٰبِهًا وَغَيْرَ مُتَشَـٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
     "textSimple": " وهو ٱلذىٓ أنشأ جنـت معروشـت وغير معروشـت وٱلنخل وٱلزرع مختلفا أكله وٱلزيتون وٱلرمان متشـبها وغير متشـبه  كلوا من ثمرهٓ إذآ أثمر وءاتوا حقه يوم حصاده  ولا تسرفوٓا  إنه لا يحب ٱلمسرفين",
     "transliteration": "wahuwa alladhī ansha-a jannātin maʿrūshātin waghayra maʿrūshātin wal-nakhla wal-zarʿa mukh'talifan ukuluhu wal-zaytūna wal-rumāna mutashābihan waghayra mutashābihin kulū min thamarihi idhā athmara waātū ḥaqqahu yawma ḥaṣādihi walā tus'rifū innahu lā yuḥibbu l-mus'rifīna",
-    "translation": "",
+    "translation": "And He it is who causes gardens to grow, [both] trellised and untrellised, and palm trees and crops of different [kinds of] food and olives and pomegranates, similar and dissimilar. Eat of [each of] its fruit when it yields and give its due [zakāh] on the day of its harvest. And be not excessive. Indeed, He does not like those who commit excess.",
     "words": [
       {
         "id": "al-an-am-141-1",
@@ -19166,7 +19306,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui a créé des jardins, les uns sous des treillis, les autres sans treillages, ainsi que les palmiers, les cultures aux productions si diverses, et l’olivier et le grenadier, semblables (en apparence) mais différents (quant au goût). Mangez de leurs fruits quand ils en produisent et acquittez-en le dû au jour de leur récolte. Et ne dilapidez rien, car Allah n’aime pas les dilapidateurs."
   },
   {
     "id": "al-an-am-142",
@@ -19175,7 +19316,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلْأَنْعَـٰمِ حَمُولَةً وَفَرْشًا ۚ كُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
     "textSimple": "ومن ٱلأنعـم حمولة وفرشا  كلوا مما رزقكم ٱلله ولا تتبعوا خطوت ٱلشيطـن  إنه لكم عدو مبين",
     "transliteration": "wamina l-anʿāmi ḥamūlatan wafarshan kulū mimmā razaqakumu l-lahu walā tattabiʿū khuṭuwāti l-shayṭāni innahu lakum ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "And of the grazing livestock are carriers [of burdens] and those [too] small. Eat of what Allāh has provided for you and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.",
     "words": [
       {
         "id": "al-an-am-142-1",
@@ -19290,7 +19431,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (Il a créé), entre autres bestiaux, ceux qui (servent) pour le transport, et d’autres (plus petits) pour d’autres produits utiles. Mangez de ce qu’Allah vous a dispensé, et ne marchez pas sur les traces de Satan, car il est pour vous un ennemi déclaré."
   },
   {
     "id": "al-an-am-143",
@@ -19299,7 +19441,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ثَمَـٰنِيَةَ أَزْوَٰجٍ ۖ مِّنَ ٱلضَّأْنِ ٱثْنَيْنِ وَمِنَ ٱلْمَعْزِ ٱثْنَيْنِ ۗ قُلْ ءَآلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ نَبِّـُٔونِى بِعِلْمٍ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ثمـنية أزوج  من ٱلضأن ٱثنين ومن ٱلمعز ٱثنين  قل ءآلذكرين حرم أم ٱلأنثيين أما ٱشتملت عليه أرحام ٱلأنثيين  نبـٔونى بعلم إن كنتم صـدقين",
     "transliteration": "thamāniyata azwājin mina l-ḍani ith'nayni wamina l-maʿzi ith'nayni qul āldhakarayni ḥarrama ami l-unthayayni ammā ish'tamalat ʿalayhi arḥāmu l-unthayayni nabbiūnī biʿil'min in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "[They are] eight mates - of the sheep, two and of the goats, two. Say, \"Is it the two males He has forbidden or the two females or that which the wombs of the two females contain? Inform me with knowledge, if you should be truthful.\"",
     "words": [
       {
         "id": "al-an-am-143-1",
@@ -19463,7 +19605,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ont été créés) huit genres (de bestiaux) répartis en couples (le mâle et la femelle) : deux ovins et deux caprins. Dis : « Sont-ce les deux mâles qu’Il a défendus (à la consommation) ou les deux femelles ? Ou encore ce que portent les matrices des deux femelles ? Informez-moi en toute connaissance si vous êtes véridiques. »"
   },
   {
     "id": "al-an-am-144",
@@ -19472,7 +19615,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ ءَآلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَـٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ومن ٱلإبل ٱثنين ومن ٱلبقر ٱثنين  قل ءآلذكرين حرم أم ٱلأنثيين أما ٱشتملت عليه أرحام ٱلأنثيين  أم كنتم شهدآء إذ وصىكم ٱلله بهـذا  فمن أظلم ممن ٱفترى على ٱلله كذبا ليضل ٱلناس بغير علم  إن ٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "wamina l-ibili ith'nayni wamina l-baqari ith'nayni qul āldhakarayni ḥarrama ami l-unthayayni ammā ish'tamalat ʿalayhi arḥāmu l-unthayayni am kuntum shuhadāa idh waṣṣākumu l-lahu bihādhā faman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban liyuḍilla l-nāsa bighayri ʿil'min inna l-laha lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "And of the camels, two and of the cattle, two. Say, \"Is it the two males He has forbidden or the two females or that which the wombs of the two females contain? Or were you witnesses when Allāh charged you with this? Then who is more unjust than one who invents a lie about Allāh to mislead the people by [something] other than knowledge? Indeed, Allāh does not guide the wrongdoing people.\"",
     "words": [
       {
         "id": "al-an-am-144-1",
@@ -19755,7 +19898,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pour les camélidés, deux (le mâle et la femelle), et pour les bovins, deux (le mâle et la femelle). Dis : « Sont-ce les deux mâles qu’Il a défendus (à la consommation) ou les deux femelles ? Ou encore ce que portent les matrices des deux femelles ? Ou bien peut-être étiez-vous (présents comme) témoins quand Allah vous l’a prescrit ? » Qui donc peut être plus injuste que celui-là qui raconte des mensonges sur le compte d’Allah pour égarer les autres sans se fonder sur aucune science ? Allah ne guide point les gens injustes."
   },
   {
     "id": "al-an-am-145",
@@ -19764,7 +19908,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّآ أَجِدُ فِى مَآ أُوحِىَ إِلَىَّ مُحَرَّمًا عَلَىٰ طَاعِمٍ يَطْعَمُهُۥٓ إِلَّآ أَن يَكُونَ مَيْتَةً أَوْ دَمًا مَّسْفُوحًا أَوْ لَحْمَ خِنزِيرٍ فَإِنَّهُۥ رِجْسٌ أَوْ فِسْقًا أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۚ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَإِنَّ رَبَّكَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "قل لآ أجد فى مآ أوحى إلى محرما على طاعم يطعمهٓ إلآ أن يكون ميتة أو دما مسفوحا أو لحم خنزير فإنه رجس أو فسقا أهل لغير ٱلله به  فمن ٱضطر غير باغ ولا عاد فإن ربك غفور رحيم",
     "transliteration": "qul lā ajidu fī mā ūḥiya ilayya muḥarraman ʿalā ṭāʿimin yaṭʿamuhu illā an yakūna maytatan aw daman masfūḥan aw laḥma khinzīrin fa-innahu rij'sun aw fis'qan uhilla lighayri l-lahi bihi famani uḍ'ṭurra ghayra bāghin walā ʿādin fa-inna rabbaka ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Say, \"I do not find within that which was revealed to me [anything] forbidden to one who would eat it unless it be a dead animal or blood spilled out or the flesh of swine - for indeed, it is impure - or it be [that slaughtered in] disobedience, dedicated to other than Allāh. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], then indeed, your Lord is Forgiving and Merciful.\"",
     "words": [
       {
         "id": "al-an-am-145-1",
@@ -20040,7 +20184,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne trouve rien, dans ce qui m’a été révélé, dont il soit défendu, à qui veut se nourrir, de manger, sauf s’il s’agit d’une bête morte, d’un sang répandu ou d’une viande de porc -ce qui serait impureté-, ou encore de tout sacrifice pervers adressé à d’autres (divinités) qu’Allah. » Cependant, quiconque y est contraint, sans avoir l’intention d’abuser ou d’enfreindre (un interdit), (qu’il sache qu’) Allah est Absoluteur et Tout miséricordieux."
   },
   {
     "id": "al-an-am-146",
@@ -20049,7 +20194,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَـٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَـٰدِقُونَ",
     "textSimple": "وعلى ٱلذين هادوا حرمنا كل ذى ظفر  ومن ٱلبقر وٱلغنم حرمنا عليهم شحومهمآ إلا ما حملت ظهورهمآ أو ٱلحوايآ أو ما ٱختلط بعظم  ذلك جزينـهم ببغيهم  وإنا لصـدقون",
     "transliteration": "waʿalā alladhīna hādū ḥarramnā kulla dhī ẓufurin wamina l-baqari wal-ghanami ḥarramnā ʿalayhim shuḥūmahumā illā mā ḥamalat ẓuhūruhumā awi l-ḥawāyā aw mā ikh'talaṭa biʿaẓmin dhālika jazaynāhum bibaghyihim wa-innā laṣādiqūna",
-    "translation": "",
+    "translation": "And to those who are Jews We prohibited every animal of uncloven hoof; and of the cattle and the sheep We prohibited to them their fat, except what adheres to their backs or the entrails or what is joined with bone. [By] that We repaid them for their transgression. And indeed, We are truthful.",
     "words": [
       {
         "id": "al-an-am-146-1",
@@ -20248,7 +20393,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux Juifs, Nous avons défendu toute bête à ongle unique. Des bovins et des ovins, Nous leur avons défendu les graisses, excepté celles que portent leurs dos ou qui se trouvent dans leurs boyaux, ou encore celles qui sont incorporées aux os. Nous les avons donc rétribués pour leur abus et Nous sommes Véridique."
   },
   {
     "id": "al-an-am-147",
@@ -20257,7 +20403,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن كَذَّبُوكَ فَقُل رَّبُّكُمْ ذُو رَحْمَةٍ وَٰسِعَةٍ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ",
     "textSimple": "فإن كذبوك فقل ربكم ذو رحمة وسعة ولا يرد بأسه عن ٱلقوم ٱلمجرمين",
     "transliteration": "fa-in kadhabūka faqul rabbukum dhū raḥmatin wāsiʿatin walā yuraddu basuhu ʿani l-qawmi l-muj'rimīna",
-    "translation": "",
+    "translation": "So if they deny you, [O Muḥammad], say, \"Your Lord is the possessor of vast mercy; but His punishment cannot be repelled from the people who are criminals.\"",
     "words": [
       {
         "id": "al-an-am-147-1",
@@ -20351,7 +20497,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te taxent de mensonge, dis alors : « Votre Seigneur est d’une immense miséricorde, mais (quand sévit) Sa rigueur, nul ne pourra la détourner des criminels. »"
   },
   {
     "id": "al-an-am-148",
@@ -20360,7 +20507,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "سَيَقُولُ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَآ أَشْرَكْنَا وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن شَىْءٍ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ حَتَّىٰ ذَاقُوا۟ بَأْسَنَا ۗ قُلْ هَلْ عِندَكُم مِّنْ عِلْمٍ فَتُخْرِجُوهُ لَنَآ ۖ إِن تَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ أَنتُمْ إِلَّا تَخْرُصُونَ",
     "textSimple": "سيقول ٱلذين أشركوا لو شآء ٱلله مآ أشركنا ولآ ءابآؤنا ولا حرمنا من شىء  كذلك كذب ٱلذين من قبلهم حتى ذاقوا بأسنا  قل هل عندكم من علم فتخرجوه لنآ  إن تتبعون إلا ٱلظن وإن أنتم إلا تخرصون",
     "transliteration": "sayaqūlu alladhīna ashrakū law shāa l-lahu mā ashraknā walā ābāunā walā ḥarramnā min shayin kadhālika kadhaba alladhīna min qablihim ḥattā dhāqū basanā qul hal ʿindakum min ʿil'min fatukh'rijūhu lanā in tattabiʿūna illā l-ẓana wa-in antum illā takhruṣūna",
-    "translation": "",
+    "translation": "Those who associated [others] with Allāh will say, \"If Allāh had willed, we would not have associated [anything] and neither would our fathers, nor would we have prohibited anything.\" Likewise did those before deny until they tasted Our punishment. Say, \"Do you have any knowledge that you can produce for us? You follow not except assumption, and you are not but misjudging.\"",
     "words": [
       {
         "id": "al-an-am-148-1",
@@ -20622,7 +20769,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont associé (des émules à Allah) diront : « Si Allah avait voulu, nous ne Lui aurions pas prêté des associés, pas plus d’ailleurs que nos ancêtres, ni nous n’aurions interdit quoi que ce soit. » Ainsi traitèrent tout de mensonges ceux qui les avaient précédés, jusqu’à ce qu’ils aient goûté Notre rigueur. Dis : « Détiendrez-vous donc quelque savoir par-devers vous à nous montrer ?» Non, vous ne suivez que des suppositions et ne faites que divaguer."
   },
   {
     "id": "al-an-am-149",
@@ -20631,7 +20779,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ فَلِلَّهِ ٱلْحُجَّةُ ٱلْبَـٰلِغَةُ ۖ فَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ",
     "textSimple": "قل فلله ٱلحجة ٱلبـلغة  فلو شآء لهدىكم أجمعين",
     "transliteration": "qul falillahi l-ḥujatu l-bālighatu falaw shāa lahadākum ajmaʿīna",
-    "translation": "",
+    "translation": "Say, \"With Allāh is the far-reaching [i.e., conclusive] argument. If He had willed, He would have guided you all.\"",
     "words": [
       {
         "id": "al-an-am-149-1",
@@ -20690,7 +20838,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « L’argument concluant appartient à Allah. S’Il avait voulu, Il vous aurait tous bien guidés. »"
   },
   {
     "id": "al-an-am-150",
@@ -20699,7 +20848,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هَلُمَّ شُهَدَآءَكُمُ ٱلَّذِينَ يَشْهَدُونَ أَنَّ ٱللَّهَ حَرَّمَ هَـٰذَا ۖ فَإِن شَهِدُوا۟ فَلَا تَشْهَدْ مَعَهُمْ ۚ وَلَا تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ وَهُم بِرَبِّهِمْ يَعْدِلُونَ",
     "textSimple": "قل هلم شهدآءكم ٱلذين يشهدون أن ٱلله حرم هـذا  فإن شهدوا فلا تشهد معهم  ولا تتبع أهوآء ٱلذين كذبوا بـٔايـتنا وٱلذين لا يؤمنون بٱلـٔاخرة وهم بربهم يعدلون",
     "transliteration": "qul halumma shuhadāakumu alladhīna yashhadūna anna l-laha ḥarrama hādhā fa-in shahidū falā tashhad maʿahum walā tattabiʿ ahwāa alladhīna kadhabū biāyātinā wa-alladhīna lā yu'minūna bil-ākhirati wahum birabbihim yaʿdilūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Bring forward your witnesses who will testify that Allāh has prohibited this.\" And if they testify, do not testify with them. And do not follow the desires of those who deny Our verses and those who do not believe in the Hereafter, while they equate [others] with their Lord.",
     "words": [
       {
         "id": "al-an-am-150-1",
@@ -20891,7 +21040,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis (encore) : « Appelez donc vos témoins pour qu’ils attestent qu’Allah a défendu tout cela. » S’ils l’attestent, ne l’atteste pas avec eux, et ne suis pas les désirs de ceux qui traitent Nos Signes d’imposture, ni ceux qui ne croient pas à l’autre monde et prêtent des égaux à leur Seigneur."
   },
   {
     "id": "al-an-am-151",
@@ -20900,7 +21050,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُم مِّنْ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": " قل تعالوا أتل ما حرم ربكم عليكم  ألا تشركوا به شيـٔا  وبٱلولدين إحسـنا  ولا تقتلوٓا أولـدكم من إملـق  نحن نرزقكم وإياهم  ولا تقربوا ٱلفوحش ما ظهر منها وما بطن  ولا تقتلوا ٱلنفس ٱلتى حرم ٱلله إلا بٱلحق  ذلكم وصىكم به لعلكم تعقلون",
     "transliteration": "qul taʿālaw atlu mā ḥarrama rabbukum ʿalaykum allā tush'rikū bihi shayan wabil-wālidayni iḥ'sānan walā taqtulū awlādakum min im'lāqin naḥnu narzuqukum wa-iyyāhum walā taqrabū l-fawāḥisha mā ẓahara min'hā wamā baṭana walā taqtulū l-nafsa allatī ḥarrama l-lahu illā bil-ḥaqi dhālikum waṣṣākum bihi laʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "Say, \"Come, I will recite what your Lord has prohibited to you. [He commands] that you not associate anything with Him, and to parents, good treatment, and do not kill your children out of poverty; We will provide for you and them. And do not approach immoralities - what is apparent of them and what is concealed. And do not kill the soul which Allāh has forbidden [to be killed] except by [legal] right. This has He instructed you that you may use reason.\"",
     "words": [
       {
         "id": "al-an-am-151-1",
@@ -21197,7 +21347,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 41
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Venez donc que je vous détaille ce que votre Seigneur vous a vraiment défendu : ne Lui attribuez point d’associés, traitez avec bonté vos deux parents, ne tuez point vos enfants sous prétexte de pauvreté. C’est Nous Qui pourvoyons à votre subsistance et à la leur. N’approchez pas des turpitudes, qu’elles soient visibles ou cachées. N’ôtez point la vie qu’Allah a voulue sacrée, sauf pour rendre justice. Voilà ce qu’Il vous a recommandé, peut-être comprendrez-vous."
   },
   {
     "id": "al-an-am-152",
@@ -21206,7 +21357,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۖ وَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ ۖ وَبِعَهْدِ ٱللَّهِ أَوْفُوا۟ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَذَكَّرُونَ",
     "textSimple": "ولا تقربوا مال ٱليتيم إلا بٱلتى هى أحسن حتى يبلغ أشده  وأوفوا ٱلكيل وٱلميزان بٱلقسط  لا نكلف نفسا إلا وسعها  وإذا قلتم فٱعدلوا ولو كان ذا قربى  وبعهد ٱلله أوفوا  ذلكم وصىكم به لعلكم تذكرون",
     "transliteration": "walā taqrabū māla l-yatīmi illā bi-allatī hiya aḥsanu ḥattā yablugha ashuddahu wa-awfū l-kayla wal-mīzāna bil-qis'ṭi lā nukallifu nafsan illā wus'ʿahā wa-idhā qul'tum fa-iʿ'dilū walaw kāna dhā qur'bā wabiʿahdi l-lahi awfū dhālikum waṣṣākum bihi laʿallakum tadhakkarūna",
-    "translation": "",
+    "translation": "And do not approach the orphan's property except in a way that is best [i.e., intending improvement] until he reaches maturity. And give full measure and weight in justice. We do not charge any soul except [with that within] its capacity. And when you speak [i.e., testify], be just, even if [it concerns] a near relative. And the covenant of Allāh fulfill. This has He instructed you that you may remember.",
     "words": [
       {
         "id": "al-an-am-152-1",
@@ -21454,7 +21605,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’approchez les biens de l’orphelin que de la manière la plus convenable, le temps qu’il atteigne sa majorité. Soyez justes lorsque vous établissez la mesure et le poids. Nous ne chargeons une âme que de cela même qu’elle peut supporter. Et quand vous parlez, que ce soit avec équité, dût-il s’agir de votre proche. Et honorez vos engagements envers Allah. » C’est ce qu’Il vous recommande, peut-être vous en souviendrez-vous."
   },
   {
     "id": "al-an-am-153",
@@ -21463,7 +21615,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ هَـٰذَا صِرَٰطِى مُسْتَقِيمًا فَٱتَّبِعُوهُ ۖ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَتَّقُونَ",
     "textSimple": "وأن هـذا صرطى مستقيما فٱتبعوه  ولا تتبعوا ٱلسبل فتفرق بكم عن سبيله  ذلكم وصىكم به لعلكم تتقون",
     "transliteration": "wa-anna hādhā ṣirāṭī mus'taqīman fa-ittabiʿūhu walā tattabiʿū l-subula fatafarraqa bikum ʿan sabīlihi dhālikum waṣṣākum bihi laʿallakum tattaqūna",
-    "translation": "",
+    "translation": "And, [moreover], this is My path, which is straight, so follow it; and do not follow [other] ways, for you will be separated from His way. This has He instructed you that you may become righteous.",
     "words": [
       {
         "id": "al-an-am-153-1",
@@ -21585,7 +21737,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voilà Ma voie, elle est toute droite. Suivez-la donc et n’empruntez pas les chemins qui vous en éloignent. » C’est ce qu’Il vous recommande, peut-être atteindrez-vous à la piété."
   },
   {
     "id": "al-an-am-154",
@@ -21594,7 +21747,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًا لِّكُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ",
     "textSimple": "ثم ءاتينا موسى ٱلكتـب تماما على ٱلذىٓ أحسن وتفصيلا لكل شىء وهدى ورحمة لعلهم بلقآء ربهم يؤمنون",
     "transliteration": "thumma ātaynā mūsā l-kitāba tamāman ʿalā alladhī aḥsana watafṣīlan likulli shayin wahudan waraḥmatan laʿallahum biliqāi rabbihim yu'minūna",
-    "translation": "",
+    "translation": "Then We gave Moses the Scripture, making complete [Our favor] upon the one who did good [i.e., Moses] and as a detailed explanation of all things and as guidance and mercy that perhaps in the meeting with their Lord they would believe.",
     "words": [
       {
         "id": "al-an-am-154-1",
@@ -21716,7 +21869,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous avons donné à Moïse le Livre accompli, pour ce qu’il avait fait de bien. Nous y avons détaillé toute chose, en juste orientation (hudâ) et en miséricorde afin qu’ils croient en la rencontre avec leur Seigneur."
   },
   {
     "id": "al-an-am-155",
@@ -21725,7 +21879,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهَـٰذَا كِتَـٰبٌ أَنزَلْنَـٰهُ مُبَارَكٌ فَٱتَّبِعُوهُ وَٱتَّقُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "وهـذا كتـب أنزلنـه مبارك فٱتبعوه وٱتقوا لعلكم ترحمون",
     "transliteration": "wahādhā kitābun anzalnāhu mubārakun fa-ittabiʿūhu wa-ittaqū laʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "And this [Qur’ān] is a Book We have revealed [which is] blessed, so follow it and fear Allāh that you may receive mercy.",
     "words": [
       {
         "id": "al-an-am-155-1",
@@ -21784,7 +21938,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici un Livre béni que Nous avons fait descendre (en révélation). Suivez-le donc, ayez la piété, peut-être obtiendrez-vous la miséricorde."
   },
   {
     "id": "al-an-am-156",
@@ -21793,7 +21948,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أَن تَقُولُوٓا۟ إِنَّمَآ أُنزِلَ ٱلْكِتَـٰبُ عَلَىٰ طَآئِفَتَيْنِ مِن قَبْلِنَا وَإِن كُنَّا عَن دِرَاسَتِهِمْ لَغَـٰفِلِينَ",
     "textSimple": "أن تقولوٓا إنمآ أنزل ٱلكتـب على طآئفتين من قبلنا وإن كنا عن دراستهم لغـفلين",
     "transliteration": "an taqūlū innamā unzila l-kitābu ʿalā ṭāifatayni min qablinā wa-in kunnā ʿan dirāsatihim laghāfilīna",
-    "translation": "",
+    "translation": "[We revealed it] lest you say, \"The Scripture was only sent down to two groups before us, but we were of their study unaware,\"",
     "words": [
       {
         "id": "al-an-am-156-1",
@@ -21894,7 +22049,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, afin que vous n’ayez pas à dire : « Le Livre n’a été révélé qu’à deux communautés avant nous, et nous étions beaucoup trop distraits pour songer à les étudier. »"
   },
   {
     "id": "al-an-am-157",
@@ -21903,7 +22059,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَـٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌ مِّن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَـٰتِ ٱللَّهِ وَصَدَفَ عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ يَصْدِفُونَ عَنْ ءَايَـٰتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ يَصْدِفُونَ",
     "textSimple": "أو تقولوا لو أنآ أنزل علينا ٱلكتـب لكنآ أهدى منهم  فقد جآءكم بينة من ربكم وهدى ورحمة  فمن أظلم ممن كذب بـٔايـت ٱلله وصدف عنها  سنجزى ٱلذين يصدفون عن ءايـتنا سوٓء ٱلعذاب بما كانوا يصدفون",
     "transliteration": "aw taqūlū law annā unzila ʿalaynā l-kitābu lakunnā ahdā min'hum faqad jāakum bayyinatun min rabbikum wahudan waraḥmatun faman aẓlamu mimman kadhaba biāyāti l-lahi waṣadafa ʿanhā sanajzī alladhīna yaṣdifūna ʿan āyātinā sūa l-ʿadhābi bimā kānū yaṣdifūna",
-    "translation": "",
+    "translation": "Or lest you say, \"If only the Scripture had been revealed to us, we would have been better guided than they.\" So there has [now] come to you a clear evidence from your Lord and a guidance and mercy. Then who is more unjust than one who denies the verses of Allāh and turns away from them? We will recompense those who turn away from Our verses with the worst of punishment for their having turned away.",
     "words": [
       {
         "id": "al-an-am-157-1",
@@ -22151,7 +22307,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou que vous ayez à dire : « Si le Livre nous avait été révélé, nous aurions pu nous orienter vers le droit chemin beaucoup mieux qu’eux. » Or, voilà que vous sont venues, de la part de votre Seigneur, une preuve évidente, une direction juste (hudâ) et une miséricorde. Qui est donc plus injuste que celui-là qui traite de mensonges les versets d’Allah et qui s’en détourne ouvertement ? Nous rétribuerons certes, par le pire des supplices, ceux qui se détournent de Nos versets pour s’en être (si insolemment) détournés."
   },
   {
     "id": "al-an-am-158",
@@ -22160,7 +22317,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ يَنظُرُونَ إِلَّآ أَن تَأْتِيَهُمُ ٱلْمَلَـٰٓئِكَةُ أَوْ يَأْتِىَ رَبُّكَ أَوْ يَأْتِىَ بَعْضُ ءَايَـٰتِ رَبِّكَ ۗ يَوْمَ يَأْتِى بَعْضُ ءَايَـٰتِ رَبِّكَ لَا يَنفَعُ نَفْسًا إِيمَـٰنُهَا لَمْ تَكُنْ ءَامَنَتْ مِن قَبْلُ أَوْ كَسَبَتْ فِىٓ إِيمَـٰنِهَا خَيْرًا ۗ قُلِ ٱنتَظِرُوٓا۟ إِنَّا مُنتَظِرُونَ",
     "textSimple": "هل ينظرون إلآ أن تأتيهم ٱلملـٓئكة أو يأتى ربك أو يأتى بعض ءايـت ربك  يوم يأتى بعض ءايـت ربك لا ينفع نفسا إيمـنها لم تكن ءامنت من قبل أو كسبت فىٓ إيمـنها خيرا  قل ٱنتظروٓا إنا منتظرون",
     "transliteration": "hal yanẓurūna illā an tatiyahumu l-malāikatu aw yatiya rabbuka aw yatiya baʿḍu āyāti rabbika yawma yatī baʿḍu āyāti rabbika lā yanfaʿu nafsan īmānuhā lam takun āmanat min qablu aw kasabat fī īmānihā khayran quli intaẓirū innā muntaẓirūna",
-    "translation": "",
+    "translation": "Do they [then] wait for anything except that the angels should come to them or your Lord should come or that there come some of the signs of your Lord? The Day that some of the signs of your Lord will come no soul will benefit from its faith as long as it had not believed before or had earned through its faith some good. Say, \"Wait. Indeed, we [also] are waiting.\"",
     "words": [
       {
         "id": "al-an-am-158-1",
@@ -22422,7 +22579,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’attendent-ils donc, sinon que viennent vers eux les Anges, ou que vienne ton Seigneur, ou que leur parviennent encore certains Signes de ton Seigneur ? Or le jour où viendront certains Signes de ton Seigneur, plus aucune âme ne pourra compter sur sa foi si elle n’a pas cru auparavant ou n’a déjà acquis quelques bonnes œuvres. Dis : « Attendez ! » Nous-mêmes attendons."
   },
   {
     "id": "al-an-am-159",
@@ -22431,7 +22589,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ فَرَّقُوا۟ دِينَهُمْ وَكَانُوا۟ شِيَعًا لَّسْتَ مِنْهُمْ فِى شَىْءٍ ۚ إِنَّمَآ أَمْرُهُمْ إِلَى ٱللَّهِ ثُمَّ يُنَبِّئُهُم بِمَا كَانُوا۟ يَفْعَلُونَ",
     "textSimple": "إن ٱلذين فرقوا دينهم وكانوا شيعا لست منهم فى شىء  إنمآ أمرهم إلى ٱلله ثم ينبئهم بما كانوا يفعلون",
     "transliteration": "inna alladhīna farraqū dīnahum wakānū shiyaʿan lasta min'hum fī shayin innamā amruhum ilā l-lahi thumma yunabbi-uhum bimā kānū yafʿalūna",
-    "translation": "",
+    "translation": "Indeed, those who have divided their religion and become sects - you, [O Muḥammad], are not [associated] with them in anything. Their affair is only [left] to Allāh; then He will inform them about what they used to do.",
     "words": [
       {
         "id": "al-an-am-159-1",
@@ -22567,7 +22725,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De ceux qui divisent leur religion et qui se partagent en sectes, tu n’es en rien responsable. Leur affaire est du ressort d’Allah, Qui les informera de ce qu’ils faisaient."
   },
   {
     "id": "al-an-am-160",
@@ -22576,7 +22735,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ عَشْرُ أَمْثَالِهَا ۖ وَمَن جَآءَ بِٱلسَّيِّئَةِ فَلَا يُجْزَىٰٓ إِلَّا مِثْلَهَا وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "من جآء بٱلحسنة فله عشر أمثالها  ومن جآء بٱلسيئة فلا يجزىٓ إلا مثلها وهم لا يظلمون",
     "transliteration": "man jāa bil-ḥasanati falahu ʿashru amthālihā waman jāa bil-sayi-ati falā yuj'zā illā mith'lahā wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "Whoever comes [on the Day of Judgement] with a good deed will have ten times the like thereof [to his credit], and whoever comes with an evil deed will not be recompensed except the like thereof; and they will not be wronged.",
     "words": [
       {
         "id": "al-an-am-160-1",
@@ -22691,7 +22850,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui fait le bien le recevra au décuplé, et celui qui commet le méfait n’en aura que la rétribution égale. Et ils ne seront point lésés."
   },
   {
     "id": "al-an-am-161",
@@ -22700,7 +22860,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّنِى هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ دِينًا قِيَمًا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًا ۚ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "قل إننى هدىنى ربىٓ إلى صرط مستقيم دينا قيما ملة إبرهيم حنيفا  وما كان من ٱلمشركين",
     "transliteration": "qul innanī hadānī rabbī ilā ṣirāṭin mus'taqīmin dīnan qiyaman millata ib'rāhīma ḥanīfan wamā kāna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "Say, \"Indeed, my Lord has guided me to a straight path - a correct religion - the way of Abraham, inclining toward truth. And he was not among those who associated others with Allāh.\"",
     "words": [
       {
         "id": "al-an-am-161-1",
@@ -22815,7 +22975,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Mon Seigneur m’a orienté vers une voie droite et une religion bien droite, celle d’Abraham le pur monothéiste, qui ne fut point du nombre des associâtres."
   },
   {
     "id": "al-an-am-162",
@@ -22824,7 +22985,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ صَلَاتِى وَنُسُكِى وَمَحْيَاىَ وَمَمَاتِى لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قل إن صلاتى ونسكى ومحياى ومماتى لله رب ٱلعـلمين",
     "transliteration": "qul inna ṣalātī wanusukī wamaḥyāya wamamātī lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Say, \"Indeed, my prayer, my rites of sacrifice, my living and my dying are for Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "al-an-am-162-1",
@@ -22890,7 +23051,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ma Çalât, mes œuvres de dévotion, ma vie et ma mort, reviennent à Allah, Seigneur de l’Univers."
   },
   {
     "id": "al-an-am-163",
@@ -22899,7 +23061,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "لَا شَرِيكَ لَهُۥ ۖ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا۠ أَوَّلُ ٱلْمُسْلِمِينَ",
     "textSimple": "لا شريك له  وبذلك أمرت وأنا أول ٱلمسلمين",
     "transliteration": "lā sharīka lahu wabidhālika umir'tu wa-anā awwalu l-mus'limīna",
-    "translation": "",
+    "translation": "No partner has He. And this I have been commanded, and I am the first [among you] of the Muslims.\"",
     "words": [
       {
         "id": "al-an-am-163-1",
@@ -22958,7 +23120,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’a point d’associés ! C’est l’ordre qui m’a été donné, et je suis le premier des Soumis (Musulmans). »"
   },
   {
     "id": "al-an-am-164",
@@ -22967,7 +23130,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَغَيْرَ ٱللَّهِ أَبْغِى رَبًّا وَهُوَ رَبُّ كُلِّ شَىْءٍ ۚ وَلَا تَكْسِبُ كُلُّ نَفْسٍ إِلَّا عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ ۚ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
     "textSimple": "قل أغير ٱلله أبغى ربا وهو رب كل شىء  ولا تكسب كل نفس إلا عليها  ولا تزر وازرة وزر أخرى  ثم إلى ربكم مرجعكم فينبئكم بما كنتم فيه تختلفون",
     "transliteration": "qul aghayra l-lahi abghī rabban wahuwa rabbu kulli shayin walā taksibu kullu nafsin illā ʿalayhā walā taziru wāziratun wiz'ra ukh'rā thumma ilā rabbikum marjiʿukum fayunabbi-ukum bimā kuntum fīhi takhtalifūna",
-    "translation": "",
+    "translation": "Say, \"Is it other than Allāh I should desire as a lord while He is the Lord of all things? And every soul earns not [blame] except against itself, and no bearer of burdens will bear the burden of another. Then to your Lord is your return, and He will inform you concerning that over which you used to differ.\"",
     "words": [
       {
         "id": "al-an-am-164-1",
@@ -23173,7 +23336,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Voudrais-je un autre Seigneur qu’Allah quand Lui est le Seigneur de Toute chose ? » Toute âme n’acquiert qu’à ses dépens le mal qu’elle a commis. Nul ne portera le fardeau d’un autre. Puis c’est vers votre Seigneur que sera votre retour. Il vous informera alors des différends où vous étiez partagés."
   },
   {
     "id": "al-an-am-165",
@@ -23182,7 +23346,7 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَـٰٓئِفَ ٱلْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَـٰتٍ لِّيَبْلُوَكُمْ فِى مَآ ءَاتَىٰكُمْ ۗ إِنَّ رَبَّكَ سَرِيعُ ٱلْعِقَابِ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌۢ",
     "textSimple": "وهو ٱلذى جعلكم خلـٓئف ٱلأرض ورفع بعضكم فوق بعض درجـت ليبلوكم فى مآ ءاتىكم  إن ربك سريع ٱلعقاب وإنه لغفور رحيم",
     "transliteration": "wahuwa alladhī jaʿalakum khalāifa l-arḍi warafaʿa baʿḍakum fawqa baʿḍin darajātin liyabluwakum fī mā ātākum inna rabbaka sarīʿu l-ʿiqābi wa-innahu laghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And it is He who has made you successors upon the earth and has raised some of you above others in degrees [of rank] that He may try you through what He has given you. Indeed, your Lord is swift in penalty; but indeed, He is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-an-am-165-1",
@@ -23332,7 +23496,8 @@ export const AL_AN_AM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est Lui Qui a fait de vous des régents sur terre, et Qui vous a élevés en degrés les uns au-dessus des autres, pour vous éprouver par cela même qu’Il vous a donné. Ton Seigneur est prompt à punir, mais Il est aussi Absoluteur et Tout Miséricordieux."
   }
 ];
 

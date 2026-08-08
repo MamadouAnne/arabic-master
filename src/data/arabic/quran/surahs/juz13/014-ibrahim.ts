@@ -11,7 +11,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": " الٓر ۚ كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
     "textSimple": " الٓر  كتـب أنزلنـه إليك لتخرج ٱلناس من ٱلظلمـت إلى ٱلنور بإذن ربهم إلى صرط ٱلعزيز ٱلحميد",
     "transliteration": "alif-lam-ra kitābun anzalnāhu ilayka litukh'rija l-nāsa mina l-ẓulumāti ilā l-nūri bi-idh'ni rabbihim ilā ṣirāṭi l-ʿazīzi l-ḥamīdi",
-    "translation": "",
+    "translation": "Alif, Lām, Rā. [This is] a Book which We have revealed to you, [O Muḥammad], that you might bring mankind out of darknesses into the light by permission of their Lord - to the path of the Exalted in Might, the Praiseworthy -",
     "words": [
       {
         "id": "ibrahim-1-1",
@@ -126,7 +126,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Rā. Ce livre, Nous l’avons fait descendre (en révélation) vers toi afin que tu fasses sortir les hommes des ténèbres vers la lumière, avec la permission de leur Seigneur, (et pour les conduire) vers la voie du Tout-Puissant, Digne de Toutes les louanges,"
   },
   {
     "id": "ibrahim-2",
@@ -135,7 +136,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَوَيْلٌ لِّلْكَـٰفِرِينَ مِنْ عَذَابٍ شَدِيدٍ",
     "textSimple": "ٱلله ٱلذى له ما فى ٱلسمـوت وما فى ٱلأرض  وويل للكـفرين من عذاب شديد",
     "transliteration": "al-lahi alladhī lahu mā fī l-samāwāti wamā fī l-arḍi wawaylun lil'kāfirīna min ʿadhābin shadīdin",
-    "translation": "",
+    "translation": "Allāh, to whom belongs whatever is in the heavens and whatever is on the earth. And woe [i.e., destruction] to the disbelievers from a severe punishment -",
     "words": [
       {
         "id": "ibrahim-2-1",
@@ -236,7 +237,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah à Qui revient ce qui est dans les cieux et sur terre. Malheur aux mécréants, qui sont voués à un terrible supplice !"
   },
   {
     "id": "ibrahim-3",
@@ -245,7 +247,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَسْتَحِبُّونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا عَلَى ٱلْـَٔاخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا ۚ أُو۟لَـٰٓئِكَ فِى ضَلَـٰلٍۭ بَعِيدٍ",
     "textSimple": "ٱلذين يستحبون ٱلحيوة ٱلدنيا على ٱلـٔاخرة ويصدون عن سبيل ٱلله ويبغونها عوجا  أولـٓئك فى ضلـل بعيد",
     "transliteration": "alladhīna yastaḥibbūna l-ḥayata l-dun'yā ʿalā l-ākhirati wayaṣuddūna ʿan sabīli l-lahi wayabghūnahā ʿiwajan ulāika fī ḍalālin baʿīdin",
-    "translation": "",
+    "translation": "The ones who prefer the worldly life over the Hereafter and avert [people] from the way of Allāh, seeking to make it [seem] deviant. Those are in extreme error.",
     "words": [
       {
         "id": "ibrahim-3-1",
@@ -360,7 +362,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui aiment mieux la vie en ce bas monde que celle de l’au-delà, qui détournent (leurs semblables) du chemin d’Allah qu’ils souhaitent tortueux, ceux-là sont allés loin dans l’égarement."
   },
   {
     "id": "ibrahim-4",
@@ -369,7 +372,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا بِلِسَانِ قَوْمِهِۦ لِيُبَيِّنَ لَهُمْ ۖ فَيُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "ومآ أرسلنا من رسول إلا بلسان قومه ليبين لهم  فيضل ٱلله من يشآء ويهدى من يشآء  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "wamā arsalnā min rasūlin illā bilisāni qawmihi liyubayyina lahum fayuḍillu l-lahu man yashāu wayahdī man yashāu wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "And We did not send any messenger except [speaking] in the language of his people to state clearly for them, and Allāh sends astray [thereby] whom He wills and guides whom He wills. And He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "ibrahim-4-1",
@@ -505,7 +508,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé aucun Messager qui n’ait utilisé la langue de son peuple pour leur expliquer (le Message d’Allah). Allah égare qui Il veut et guide qui Il veut, et c’est Lui le Tout-Puissant, le Sage."
   },
   {
     "id": "ibrahim-5",
@@ -514,7 +518,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَـٰتِنَآ أَنْ أَخْرِجْ قَوْمَكَ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ وَذَكِّرْهُم بِأَيَّىٰمِ ٱللَّهِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
     "textSimple": "ولقد أرسلنا موسى بـٔايـتنآ أن أخرج قومك من ٱلظلمـت إلى ٱلنور وذكرهم بأيىم ٱلله  إن فى ذلك لـٔايـت لكل صبار شكور",
     "transliteration": "walaqad arsalnā mūsā biāyātinā an akhrij qawmaka mina l-ẓulumāti ilā l-nūri wadhakkir'hum bi-ayyāmi l-lahi inna fī dhālika laāyātin likulli ṣabbārin shakūrin",
-    "translation": "",
+    "translation": "And We certainly sent Moses with Our signs, [saying], \"Bring out your people from darknesses into the light and remind them of the days of Allāh.\" Indeed in that are signs for everyone patient and grateful.",
     "words": [
       {
         "id": "ibrahim-5-1",
@@ -664,7 +668,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En vérité, Nous avons envoyé Moïse muni de Nos Signes, et (Nous lui avons dit) : « Fais sortir ton peuple des ténèbres vers la lumière. Rappelle-leur les jours d’Allah (quand Il les a comblés de Ses bienfaits). » Ce sont là des Signes pour quiconque est grandement endurant et reconnaissant."
   },
   {
     "id": "ibrahim-6",
@@ -673,7 +678,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
     "textSimple": "وإذ قال موسى لقومه ٱذكروا نعمة ٱلله عليكم إذ أنجىكم من ءال فرعون يسومونكم سوٓء ٱلعذاب ويذبحون أبنآءكم ويستحيون نسآءكم  وفى ذلكم بلآء من ربكم عظيم",
     "transliteration": "wa-idh qāla mūsā liqawmihi udh'kurū niʿ'mata l-lahi ʿalaykum idh anjākum min āli fir'ʿawna yasūmūnakum sūa l-ʿadhābi wayudhabbiḥūna abnāakum wayastaḥyūna nisāakum wafī dhālikum balāon min rabbikum ʿaẓīmun",
-    "translation": "",
+    "translation": "And [recall, O Children of Israel], when Moses said to his people, \"Remember the favor of Allāh upon you when He saved you from the people of Pharaoh, who were afflicting you with the worst torment and were slaughtering your [newborn] sons and keeping your females alive. And in that was a great trial from your Lord.",
     "words": [
       {
         "id": "ibrahim-6-1",
@@ -858,7 +863,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi, ô Muhammad), quand Moïse dit à son peuple : « Rappelez-vous les grâces dont Allah vous a comblés, lorsqu’Il vous sauva des gens de Pharaon qui vous faisaient endurer les pires supplices, égorgeaient vos fils et laissaient vos femmes en vie. C’était là une grande épreuve (à laquelle vous soumettait) votre Seigneur. »"
   },
   {
     "id": "ibrahim-7",
@@ -867,7 +873,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌ",
     "textSimple": "وإذ تأذن ربكم لئن شكرتم لأزيدنكم  ولئن كفرتم إن عذابى لشديد",
     "transliteration": "wa-idh ta-adhana rabbukum la-in shakartum la-azīdannakum wala-in kafartum inna ʿadhābī lashadīdun",
-    "translation": "",
+    "translation": "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.'\"",
     "words": [
       {
         "id": "ibrahim-7-1",
@@ -947,7 +953,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (rappelez-vous aussi) quand votre Seigneur annonça : « Si vous êtes reconnaissants Je vous accorderai davantage (de faveurs) ; mais si vous reniez (Mes faveurs) et vous montrez ingrats, Mon supplice n’en sera que plus dur. »"
   },
   {
     "id": "ibrahim-8",
@@ -956,7 +963,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ مُوسَىٰٓ إِن تَكْفُرُوٓا۟ أَنتُمْ وَمَن فِى ٱلْأَرْضِ جَمِيعًا فَإِنَّ ٱللَّهَ لَغَنِىٌّ حَمِيدٌ",
     "textSimple": "وقال موسىٓ إن تكفروٓا أنتم ومن فى ٱلأرض جميعا فإن ٱلله لغنى حميد",
     "transliteration": "waqāla mūsā in takfurū antum waman fī l-arḍi jamīʿan fa-inna l-laha laghaniyyun ḥamīdun",
-    "translation": "",
+    "translation": "And Moses said, \"If you should disbelieve, you and whoever is on the earth entirely - indeed, Allāh is Free of need and Praiseworthy.\"",
     "words": [
       {
         "id": "ibrahim-8-1",
@@ -1050,7 +1057,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit encore : « Si vous reniez (les faveurs d’Allah) et vous montrez ingrats, vous et tous ceux qui sont sur terre, (sachez qu’) Allah Se passe de Toute chose et Il est Digne de Toutes les louanges. »"
   },
   {
     "id": "ibrahim-9",
@@ -1059,7 +1067,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ مِن قَبْلِكُمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ ۛ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ ۛ لَا يَعْلَمُهُمْ إِلَّا ٱللَّهُ ۚ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَرَدُّوٓا۟ أَيْدِيَهُمْ فِىٓ أَفْوَٰهِهِمْ وَقَالُوٓا۟ إِنَّا كَفَرْنَا بِمَآ أُرْسِلْتُم بِهِۦ وَإِنَّا لَفِى شَكٍّ مِّمَّا تَدْعُونَنَآ إِلَيْهِ مُرِيبٍ",
     "textSimple": "ألم يأتكم نبؤا ٱلذين من قبلكم قوم نوح وعاد وثمود  وٱلذين من بعدهم  لا يعلمهم إلا ٱلله  جآءتهم رسلهم بٱلبينـت فردوٓا أيديهم فىٓ أفوههم وقالوٓا إنا كفرنا بمآ أرسلتم به وإنا لفى شك مما تدعوننآ إليه مريب",
     "transliteration": "alam yatikum naba-u alladhīna min qablikum qawmi nūḥin waʿādin wathamūda wa-alladhīna min baʿdihim lā yaʿlamuhum illā l-lahu jāathum rusuluhum bil-bayināti faraddū aydiyahum fī afwāhihim waqālū innā kafarnā bimā ur'sil'tum bihi wa-innā lafī shakkin mimmā tadʿūnanā ilayhi murībin",
-    "translation": "",
+    "translation": "Has there not reached you the news of those before you - the people of Noah and ʿAad and Thamūd and those after them? No one knows them [i.e., their number] but Allāh. Their messengers brought them clear proofs, but they returned their hands to their mouths and said, \"Indeed, we disbelieve in that with which you have been sent, and indeed we are, about that to which you invite us, in disquieting doubt.\"",
     "words": [
       {
         "id": "ibrahim-9-1",
@@ -1321,7 +1329,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’est-elle pas venue jusqu’à vous l’histoire de ceux qui vous ont précédés : le peuple de Noé, des ‘Ad, des Thamûd et de tous ceux qui sont venus après eux et que Seul Allah connaît ? Leurs Messagers étaient venus avec des preuves évidentes mais eux avaient porté leurs mains à leur bouche (feignant l’étonnement) et avaient dit : «Nous mécroyons en vos messages et nous sommes, au sujet du (culte) auquel vous nous appelez, dans le doute le plus troublant. »"
   },
   {
     "id": "ibrahim-10",
@@ -1330,7 +1339,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَتْ رُسُلُهُمْ أَفِى ٱللَّهِ شَكٌّ فَاطِرِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يَدْعُوكُمْ لِيَغْفِرَ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرَكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ قَالُوٓا۟ إِنْ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا فَأْتُونَا بِسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": " قالت رسلهم أفى ٱلله شك فاطر ٱلسمـوت وٱلأرض  يدعوكم ليغفر لكم من ذنوبكم ويؤخركم إلىٓ أجل مسمى  قالوٓا إن أنتم إلا بشر مثلنا تريدون أن تصدونا عما كان يعبد ءابآؤنا فأتونا بسلطـن مبين",
     "transliteration": "qālat rusuluhum afī l-lahi shakkun fāṭiri l-samāwāti wal-arḍi yadʿūkum liyaghfira lakum min dhunūbikum wayu-akhirakum ilā ajalin musamman qālū in antum illā basharun mith'lunā turīdūna an taṣuddūnā ʿammā kāna yaʿbudu ābāunā fatūnā bisul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "Their messengers said, \"Can there be doubt about Allāh, Creator of the heavens and earth? He invites you that He may forgive you of your sins, and He delays you [i.e., your death] for a specified term.\" They said, \"You are not but men like us who wish to avert us from what our fathers were worshipping. So bring us a clear authority [i.e., evidence].\"",
     "words": [
       {
         "id": "ibrahim-10-1",
@@ -1564,7 +1573,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs Messagers leur avaient dit : « Est-il possible de douter au sujet d’Allah, Créateur Premier des cieux et de la terre, Qui vous appelle donc (à aller vers Lui) pour qu’Il vous pardonne certains de vos péchés, et remette votre (fin) à une échéance déjà nommée ? » Ils avaient répondu alors : « Vous n’êtes que des hommes comme nous, qui voulez nous détourner de ce qu’adoraient nos pères. Apportez-nous donc une preuve évidente d’autorité. »"
   },
   {
     "id": "ibrahim-11",
@@ -1573,7 +1583,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌ مِّثْلُكُمْ وَلَـٰكِنَّ ٱللَّهَ يَمُنُّ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَمَا كَانَ لَنَآ أَن نَّأْتِيَكُم بِسُلْطَـٰنٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
     "textSimple": "قالت لهم رسلهم إن نحن إلا بشر مثلكم ولـكن ٱلله يمن على من يشآء من عباده  وما كان لنآ أن نأتيكم بسلطـن إلا بإذن ٱلله  وعلى ٱلله فليتوكل ٱلمؤمنون",
     "transliteration": "qālat lahum rusuluhum in naḥnu illā basharun mith'lukum walākinna l-laha yamunnu ʿalā man yashāu min ʿibādihi wamā kāna lanā an natiyakum bisul'ṭānin illā bi-idh'ni l-lahi waʿalā l-lahi falyatawakkali l-mu'minūna",
-    "translation": "",
+    "translation": "Their messengers said to them, \"We are only men like you, but Allāh confers favor upon whom He wills of His servants. It has never been for us to bring you evidence except by permission of Allāh. And upon Allāh let the believers rely.",
     "words": [
       {
         "id": "ibrahim-11-1",
@@ -1779,7 +1789,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs Messagers leur avaient dit alors : « Il est vrai que nous ne sommes que des humains comme vous, mais Allah dispense Ses faveurs à qui Il veut parmi Ses serviteurs. Il ne nous est donc pas donné de vous apporter une preuve d’autorité sinon avec Sa permission. C’est à Allah que doivent s’en remettre les croyants."
   },
   {
     "id": "ibrahim-12",
@@ -1788,7 +1799,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَنَآ أَلَّا نَتَوَكَّلَ عَلَى ٱللَّهِ وَقَدْ هَدَىٰنَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ",
     "textSimple": "وما لنآ ألا نتوكل على ٱلله وقد هدىنا سبلنا  ولنصبرن على مآ ءاذيتمونا  وعلى ٱلله فليتوكل ٱلمتوكلون",
     "transliteration": "wamā lanā allā natawakkala ʿalā l-lahi waqad hadānā subulanā walanaṣbiranna ʿalā mā ādhaytumūnā waʿalā l-lahi falyatawakkali l-mutawakilūna",
-    "translation": "",
+    "translation": "And why should we not rely upon Allāh while He has guided us to our [good] ways. And we will surely be patient against whatever harm you should cause us. And upon Allāh let those who would rely [indeed] rely.\"",
     "words": [
       {
         "id": "ibrahim-12-1",
@@ -1910,7 +1921,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourquoi ne pas nous en remettre à Allah Qui nous a guidés sur les chemins (les plus droits) ? Nous supporterons avec patience le tort que vous nous faites subir, et que s’en remettent donc à Allah ceux qui cherchent à qui s’en remettre. »"
   },
   {
     "id": "ibrahim-13",
@@ -1919,7 +1931,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِرُسُلِهِمْ لَنُخْرِجَنَّكُم مِّنْ أَرْضِنَآ أَوْ لَتَعُودُنَّ فِى مِلَّتِنَا ۖ فَأَوْحَىٰٓ إِلَيْهِمْ رَبُّهُمْ لَنُهْلِكَنَّ ٱلظَّـٰلِمِينَ",
     "textSimple": "وقال ٱلذين كفروا لرسلهم لنخرجنكم من أرضنآ أو لتعودن فى ملتنا  فأوحىٓ إليهم ربهم لنهلكن ٱلظـلمين",
     "transliteration": "waqāla alladhīna kafarū lirusulihim lanukh'rijannakum min arḍinā aw lataʿūdunna fī millatinā fa-awḥā ilayhim rabbuhum lanuh'likanna l-ẓālimīna",
-    "translation": "",
+    "translation": "And those who disbelieved said to their messengers, \"We will surely drive you out of our land, or you must return to our religion.\" So their Lord inspired to them, \"We will surely destroy the wrongdoers.",
     "words": [
       {
         "id": "ibrahim-13-1",
@@ -2034,7 +2046,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru dirent à leurs Messagers : « Ou nous vous chasserons assurément de notre pays, ou alors vous reviendrez à notre religion. » Le Seigneur révéla alors (à Ses Messagers) : « Nous ferons certainement périr les injustes,"
   },
   {
     "id": "ibrahim-14",
@@ -2043,7 +2056,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَنُسْكِنَنَّكُمُ ٱلْأَرْضَ مِنۢ بَعْدِهِمْ ۚ ذَٰلِكَ لِمَنْ خَافَ مَقَامِى وَخَافَ وَعِيدِ",
     "textSimple": "ولنسكننكم ٱلأرض من بعدهم  ذلك لمن خاف مقامى وخاف وعيد",
     "transliteration": "walanus'kinannakumu l-arḍa min baʿdihim dhālika liman khāfa maqāmī wakhāfa waʿīdi",
-    "translation": "",
+    "translation": "And We will surely cause you to dwell in the land after them. That is for he who fears My position and fears My threat.\"",
     "words": [
       {
         "id": "ibrahim-14-1",
@@ -2116,7 +2129,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Nous vous donnerons le pays pour y habiter à leur suite. Voilà pour ceux qui redoutent Ma rencontre et craignent Mes menaces. »"
   },
   {
     "id": "ibrahim-15",
@@ -2125,7 +2139,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَفْتَحُوا۟ وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍ",
     "textSimple": "وٱستفتحوا وخاب كل جبار عنيد",
     "transliteration": "wa-is'taftaḥū wakhāba kullu jabbārin ʿanīdin",
-    "translation": "",
+    "translation": "And they requested decision [i.e., victory from Allāh], and disappointed, [therefore], was every obstinate tyrant.",
     "words": [
       {
         "id": "ibrahim-15-1",
@@ -2163,7 +2177,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils (les Messagers) demandèrent assistance (à Allah) pour (remporter) la victoire, et tout tyran obstiné fut alors défait."
   },
   {
     "id": "ibrahim-16",
@@ -2172,7 +2187,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "مِّن وَرَآئِهِۦ جَهَنَّمُ وَيُسْقَىٰ مِن مَّآءٍ صَدِيدٍ",
     "textSimple": "من ورآئه جهنم ويسقى من مآء صديد",
     "transliteration": "min warāihi jahannamu wayus'qā min māin ṣadīdin",
-    "translation": "",
+    "translation": "Before him is Hell, and he will be given a drink of purulent water.",
     "words": [
       {
         "id": "ibrahim-16-1",
@@ -2224,7 +2239,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au-devant de lui (en attente, se trouve) la Géhenne, où il sera abreuvé d’une eau purulente et sanglante,"
   },
   {
     "id": "ibrahim-17",
@@ -2233,7 +2249,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "يَتَجَرَّعُهُۥ وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍ وَمَا هُوَ بِمَيِّتٍ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌ",
     "textSimple": "يتجرعه ولا يكاد يسيغه ويأتيه ٱلموت من كل مكان وما هو بميت  ومن ورآئه عذاب غليظ",
     "transliteration": "yatajarraʿuhu walā yakādu yusīghuhu wayatīhi l-mawtu min kulli makānin wamā huwa bimayyitin wamin warāihi ʿadhābun ghalīẓun",
-    "translation": "",
+    "translation": "He will gulp it but will hardly [be able to] swallow it. And death will come to him from everywhere, but he is not to die. And before him is a massive punishment.",
     "words": [
       {
         "id": "ibrahim-17-1",
@@ -2348,7 +2364,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qu’il avalera par (petites) gorgées à grand peine. La mort l’assaillira de tous côtés mais il ne mourra pas. Au-devant de lui (en attente, se trouve) un terrible supplice."
   },
   {
     "id": "ibrahim-18",
@@ -2357,7 +2374,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَـٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍ ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍ ۚ ذَٰلِكَ هُوَ ٱلضَّلَـٰلُ ٱلْبَعِيدُ",
     "textSimple": "مثل ٱلذين كفروا بربهم  أعمـلهم كرماد ٱشتدت به ٱلريح فى يوم عاصف  لا يقدرون مما كسبوا على شىء  ذلك هو ٱلضلـل ٱلبعيد",
     "transliteration": "mathalu alladhīna kafarū birabbihim aʿmāluhum karamādin ish'taddat bihi l-rīḥu fī yawmin ʿāṣifin lā yaqdirūna mimmā kasabū ʿalā shayin dhālika huwa l-ḍalālu l-baʿīdu",
-    "translation": "",
+    "translation": "The example of those who disbelieve in their Lord is [that] their deeds are like ashes which the wind blows forcefully on a stormy day; they are unable [to keep] from what they earned a [single] thing. That is what is extreme error.",
     "words": [
       {
         "id": "ibrahim-18-1",
@@ -2514,7 +2531,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les actes de ceux qui ont mécru sont telles des cendres à la merci d’un vent impétueux par un jour de tempête. Ils ne pourront en rien se prévaloir de leurs (actions) acquises. Tel est l’égarement extrême."
   },
   {
     "id": "ibrahim-19",
@@ -2523,7 +2541,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍ جَدِيدٍ",
     "textSimple": "ألم تر أن ٱلله خلق ٱلسمـوت وٱلأرض بٱلحق  إن يشأ يذهبكم ويأت بخلق جديد",
     "transliteration": "alam tara anna l-laha khalaqa l-samāwāti wal-arḍa bil-ḥaqi in yasha yudh'hib'kum wayati bikhalqin jadīdin",
-    "translation": "",
+    "translation": "Have you not seen [i.e., considered] that Allāh created the heavens and the earth in truth? If He wills, He can do away with you and produce a new creation.",
     "words": [
       {
         "id": "ibrahim-19-1",
@@ -2624,7 +2642,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’Allah a créé les cieux et la terre pour une bonne raison ? S’il le voulait, Il vous ferait disparaître et ferait venir (à votre place) une nouvelle création."
   },
   {
     "id": "ibrahim-20",
@@ -2633,7 +2652,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ذَٰلِكَ عَلَى ٱللَّهِ بِعَزِيزٍ",
     "textSimple": "وما ذلك على ٱلله بعزيز",
     "transliteration": "wamā dhālika ʿalā l-lahi biʿazīzin",
-    "translation": "",
+    "translation": "And that is not difficult for Allāh.",
     "words": [
       {
         "id": "ibrahim-20-1",
@@ -2671,7 +2690,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, pour Allah, ne serait pas difficile."
   },
   {
     "id": "ibrahim-21",
@@ -2680,7 +2700,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَبَرَزُوا۟ لِلَّهِ جَمِيعًا فَقَالَ ٱلضُّعَفَـٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا مِنْ عَذَابِ ٱللَّهِ مِن شَىْءٍ ۚ قَالُوا۟ لَوْ هَدَىٰنَا ٱللَّهُ لَهَدَيْنَـٰكُمْ ۖ سَوَآءٌ عَلَيْنَآ أَجَزِعْنَآ أَمْ صَبَرْنَا مَا لَنَا مِن مَّحِيصٍ",
     "textSimple": "وبرزوا لله جميعا فقال ٱلضعفـٓؤا للذين ٱستكبروٓا إنا كنا لكم تبعا فهل أنتم مغنون عنا من عذاب ٱلله من شىء  قالوا لو هدىنا ٱلله لهدينـكم  سوآء علينآ أجزعنآ أم صبرنا ما لنا من محيص",
     "transliteration": "wabarazū lillahi jamīʿan faqāla l-ḍuʿafāu lilladhīna is'takbarū innā kunnā lakum tabaʿan fahal antum mugh'nūna ʿannā min ʿadhābi l-lahi min shayin qālū law hadānā l-lahu lahadaynākum sawāon ʿalaynā ajaziʿ'nā am ṣabarnā mā lanā min maḥīṣin",
-    "translation": "",
+    "translation": "And they will come out [for judgement] before Allāh all together, and the weak will say to those who were arrogant, \"Indeed, we were your followers, so can you avail us anything against the punishment of Allāh?\" They will say, \"If Allāh had guided us, we would have guided you. It is all the same for us whether we show intolerance or are patient: there is for us no place of escape.\"",
     "words": [
       {
         "id": "ibrahim-21-1",
@@ -2921,7 +2941,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils comparaîtront tous devant Allah. Les plus faibles diront à ceux qui étaient dédaigneux : « Nous étions bien de votre suite, pourriez-vous nous protéger un tant soit peu du châtiment d’Allah ? » Ils diront alors : « Si Allah nous avait guidés, nous vous aurions certainement guidés. Mais pour nous (aujourd’hui), nous effarer ou nous armer de patience est tout à fait pareil. Nous n’avons plus d’issue. »"
   },
   {
     "id": "ibrahim-22",
@@ -2930,7 +2951,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلشَّيْطَـٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَـٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا تَلُومُونِى وَلُومُوٓا۟ أَنفُسَكُم ۖ مَّآ أَنَا۠ بِمُصْرِخِكُمْ وَمَآ أَنتُم بِمُصْرِخِىَّ ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّـٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "وقال ٱلشيطـن لما قضى ٱلأمر إن ٱلله وعدكم وعد ٱلحق ووعدتكم فأخلفتكم  وما كان لى عليكم من سلطـن إلآ أن دعوتكم فٱستجبتم لى  فلا تلومونى ولوموٓا أنفسكم  مآ أنا بمصرخكم ومآ أنتم بمصرخى  إنى كفرت بمآ أشركتمون من قبل  إن ٱلظـلمين لهم عذاب أليم",
     "transliteration": "waqāla l-shayṭānu lammā quḍiya l-amru inna l-laha waʿadakum waʿda l-ḥaqi wawaʿadttukum fa-akhlaftukum wamā kāna liya ʿalaykum min sul'ṭānin illā an daʿawtukum fa-is'tajabtum lī falā talūmūnī walūmū anfusakum mā anā bimuṣ'rikhikum wamā antum bimuṣ'rikhiyya innī kafartu bimā ashraktumūni min qablu inna l-ẓālimīna lahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And Satan will say when the matter has been concluded, \"Indeed, Allāh had promised you the promise of truth. And I promised you, but I betrayed you. But I had no authority over you except that I invited you, and you responded to me. So do not blame me; but blame yourselves. I cannot be called to your aid, nor can you be called to my aid. Indeed, I deny your association of me [with Allāh] before. Indeed, for the wrongdoers is a painful punishment.\"",
     "words": [
       {
         "id": "ibrahim-22-1",
@@ -3241,7 +3262,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 43
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Satan dira quand tout aura été décidé : « Allah vous a fait une promesse de vérité. Quant à moi, je vous ai fait une promesse à laquelle j’ai manqué. Je ne disposais, pour vous convaincre, d’aucune preuve d’autorité sauf que je vous ai appelés à me suivre, et vous avez répondu à mon appel. Ne me blâmez point, mais blâmez-vous vous-mêmes. Je ne puis vous secourir, ni ne pouvez vous-mêmes me secourir, et je renie (ce culte par lequel) vous m’associiez autrefois (à Allah). Les injustes sont certes voués à un supplice très douloureux. »"
   },
   {
     "id": "ibrahim-23",
@@ -3250,7 +3272,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَأُدْخِلَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا بِإِذْنِ رَبِّهِمْ ۖ تَحِيَّتُهُمْ فِيهَا سَلَـٰمٌ",
     "textSimple": "وأدخل ٱلذين ءامنوا وعملوا ٱلصـلحـت جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها بإذن ربهم  تحيتهم فيها سلـم",
     "transliteration": "wa-ud'khila alladhīna āmanū waʿamilū l-ṣāliḥāti jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā bi-idh'ni rabbihim taḥiyyatuhum fīhā salāmun",
-    "translation": "",
+    "translation": "And those who believed and did righteous deeds will be admitted to gardens beneath which rivers flow, abiding eternally therein by permission of their Lord; and their greeting therein will be, \"Peace!\"",
     "words": [
       {
         "id": "ibrahim-23-1",
@@ -3372,7 +3394,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui auront cru et auront accompli les bonnes œuvres, seront admis à entrer en des jardins sous lesquels coulent les rivières, où ils séjourneront pour l’éternité avec la permission de leur Seigneur. Leur salutation y sera : « Paix ! (Salâm) »"
   },
   {
     "id": "ibrahim-24",
@@ -3381,7 +3404,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ",
     "textSimple": "ألم تر كيف ضرب ٱلله مثلا كلمة طيبة كشجرة طيبة أصلها ثابت وفرعها فى ٱلسمآء",
     "transliteration": "alam tara kayfa ḍaraba l-lahu mathalan kalimatan ṭayyibatan kashajaratin ṭayyibatin aṣluhā thābitun wafarʿuhā fī l-samāi",
-    "translation": "",
+    "translation": "Have you not considered how Allāh presents an example, [making] a good word like a good tree, whose root is firmly fixed and its branches [high] in the sky?",
     "words": [
       {
         "id": "ibrahim-24-1",
@@ -3489,7 +3512,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas comment Allah donne comme parabole une parole de bien qui est tel un arbre d’une belle venue, dont les racines sont bien fixes et les branchages s’élèvent vers le ciel,"
   },
   {
     "id": "ibrahim-25",
@@ -3498,7 +3522,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "تُؤْتِىٓ أُكُلَهَا كُلَّ حِينٍۭ بِإِذْنِ رَبِّهَا ۗ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": "تؤتىٓ أكلها كل حين بإذن ربها  ويضرب ٱلله ٱلأمثال للناس لعلهم يتذكرون",
     "transliteration": "tu'tī ukulahā kulla ḥīnin bi-idh'ni rabbihā wayaḍribu l-lahu l-amthāla lilnnāsi laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "It produces its fruit all the time, by permission of its Lord. And Allāh presents examples for the people that perhaps they will be reminded.",
     "words": [
       {
         "id": "ibrahim-25-1",
@@ -3585,7 +3609,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui donne ses fruits à tout moment avec la permission de son Seigneur. Allah propose les paraboles aux hommes, peut-être y méditeront-ils."
   },
   {
     "id": "ibrahim-26",
@@ -3594,7 +3619,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍ",
     "textSimple": "ومثل كلمة خبيثة كشجرة خبيثة ٱجتثت من فوق ٱلأرض ما لها من قرار",
     "transliteration": "wamathalu kalimatin khabīthatin kashajaratin khabīthatin uj'tuthat min fawqi l-arḍi mā lahā min qarārin",
-    "translation": "",
+    "translation": "And the example of a bad word is like a bad tree, uprooted from the surface of the earth, not having any stability.",
     "words": [
       {
         "id": "ibrahim-26-1",
@@ -3688,7 +3713,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tandis qu’une parole maléfique ressemble à un arbre d’une mauvaise venue, (qui aurait été) arraché du sol et qui n’a point de base stable."
   },
   {
     "id": "ibrahim-27",
@@ -3697,7 +3723,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْـَٔاخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّـٰلِمِينَ ۚ وَيَفْعَلُ ٱللَّهُ مَا يَشَآءُ",
     "textSimple": "يثبت ٱلله ٱلذين ءامنوا بٱلقول ٱلثابت فى ٱلحيوة ٱلدنيا وفى ٱلـٔاخرة  ويضل ٱلله ٱلظـلمين  ويفعل ٱلله ما يشآء",
     "transliteration": "yuthabbitu l-lahu alladhīna āmanū bil-qawli l-thābiti fī l-ḥayati l-dun'yā wafī l-ākhirati wayuḍillu l-lahu l-ẓālimīna wayafʿalu l-lahu mā yashāu",
-    "translation": "",
+    "translation": "Allāh keeps firm those who believe, with the firm word, in worldly life and in the Hereafter. And Allāh sends astray the wrongdoers. And Allāh does what He wills.",
     "words": [
       {
         "id": "ibrahim-27-1",
@@ -3826,7 +3852,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah affermit les croyants par la parole ferme, en ce bas monde et dans l’autre monde. Allah égare les injustes. Allah fait ce qu’Il veut."
   },
   {
     "id": "ibrahim-28",
@@ -3835,7 +3862,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ",
     "textSimple": " ألم تر إلى ٱلذين بدلوا نعمت ٱلله كفرا وأحلوا قومهم دار ٱلبوار",
     "transliteration": "alam tara ilā alladhīna baddalū niʿ'mata l-lahi kuf'ran wa-aḥallū qawmahum dāra l-bawāri",
-    "translation": "",
+    "translation": "Have you not considered those who exchanged the favor of Allāh for disbelief and settled their people [in] the home of ruin?",
     "words": [
       {
         "id": "ibrahim-28-1",
@@ -3922,7 +3949,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas considéré ceux qui ont échangé les bienfaits d’Allah contre la mécréance, et ont installé leur peuple dans la demeure de la ruine,"
   },
   {
     "id": "ibrahim-29",
@@ -3931,7 +3959,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "جَهَنَّمَ يَصْلَوْنَهَا ۖ وَبِئْسَ ٱلْقَرَارُ",
     "textSimple": "جهنم يصلونها  وبئس ٱلقرار",
     "transliteration": "jahannama yaṣlawnahā wabi'sa l-qarāru",
-    "translation": "",
+    "translation": "[It is] Hell, which they will [enter to] burn, and wretched is the settlement.",
     "words": [
       {
         "id": "ibrahim-29-1",
@@ -3962,7 +3990,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "la Géhenne où ils entreront pour s’y consumer ? Et quel horrible séjour !"
   },
   {
     "id": "ibrahim-30",
@@ -3971,7 +4000,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلُوا۟ لِلَّهِ أَندَادًا لِّيُضِلُّوا۟ عَن سَبِيلِهِۦ ۗ قُلْ تَمَتَّعُوا۟ فَإِنَّ مَصِيرَكُمْ إِلَى ٱلنَّارِ",
     "textSimple": "وجعلوا لله أندادا ليضلوا عن سبيله  قل تمتعوا فإن مصيركم إلى ٱلنار",
     "transliteration": "wajaʿalū lillahi andādan liyuḍillū ʿan sabīlihi qul tamattaʿū fa-inna maṣīrakum ilā l-nāri",
-    "translation": "",
+    "translation": "And they have attributed to Allāh equals to mislead [people] from His way. Say, \"Enjoy yourselves, for indeed, your destination is the Fire.\"",
     "words": [
       {
         "id": "ibrahim-30-1",
@@ -4058,7 +4087,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont prêté des émules à Allah pour égarer (leurs semblables) loin de Son chemin. Dis : « Jouissez (pour un temps de cette vie), vous aurez pour destination le Feu. »"
   },
   {
     "id": "ibrahim-31",
@@ -4067,7 +4097,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "قُل لِّعِبَادِىَ ٱلَّذِينَ ءَامَنُوا۟ يُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُنفِقُوا۟ مِمَّا رَزَقْنَـٰهُمْ سِرًّا وَعَلَانِيَةً مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خِلَـٰلٌ",
     "textSimple": "قل لعبادى ٱلذين ءامنوا يقيموا ٱلصلوة وينفقوا مما رزقنـهم سرا وعلانية من قبل أن يأتى يوم لا بيع فيه ولا خلـل",
     "transliteration": "qul liʿibādiya alladhīna āmanū yuqīmū l-ṣalata wayunfiqū mimmā razaqnāhum sirran waʿalāniyatan min qabli an yatiya yawmun lā bayʿun fīhi walā khilālun",
-    "translation": "",
+    "translation": "[O Muḥammad], tell My servants who have believed to establish prayer and spend from what We have provided them, secretly and publicly, before a Day comes in which there will be no exchange [i.e., ransom], nor any friendships.",
     "words": [
       {
         "id": "ibrahim-31-1",
@@ -4217,7 +4247,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis à Mes serviteurs qui ont cru d’observer la Çalât et de dépenser (en aumône), discrètement et ouvertement, des biens que Nous leur avons dispensés, avant que vienne le jour où il n’y aura ni tentatives de rachat ni interventions amicales."
   },
   {
     "id": "ibrahim-32",
@@ -4226,7 +4257,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ وَسَخَّرَ لَكُمُ ٱلْفُلْكَ لِتَجْرِىَ فِى ٱلْبَحْرِ بِأَمْرِهِۦ ۖ وَسَخَّرَ لَكُمُ ٱلْأَنْهَـٰرَ",
     "textSimple": "ٱلله ٱلذى خلق ٱلسمـوت وٱلأرض وأنزل من ٱلسمآء مآء فأخرج به من ٱلثمرت رزقا لكم  وسخر لكم ٱلفلك لتجرى فى ٱلبحر بأمره  وسخر لكم ٱلأنهـر",
     "transliteration": "al-lahu alladhī khalaqa l-samāwāti wal-arḍa wa-anzala mina l-samāi māan fa-akhraja bihi mina l-thamarāti riz'qan lakum wasakhara lakumu l-ful'ka litajriya fī l-baḥri bi-amrihi wasakhara lakumu l-anhāra",
-    "translation": "",
+    "translation": "It is Allāh who created the heavens and the earth and sent down rain from the sky and produced thereby some fruits as provision for you and subjected for you the ships to sail through the sea by His command and subjected for you the rivers.",
     "words": [
       {
         "id": "ibrahim-32-1",
@@ -4404,7 +4435,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, c’est Lui Qui a créé les cieux et la terre, Qui a fait descendre l’eau du ciel et Qui, par elle, vous donne les fruits en nourriture. C’est Lui Qui a mis à votre disposition les vaisseaux qui naviguent en haute mer par Son ordre ; et c’est Lui Qui a mis à votre disposition les rivières."
   },
   {
     "id": "ibrahim-33",
@@ -4413,7 +4445,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَسَخَّرَ لَكُمُ ٱلشَّمْسَ وَٱلْقَمَرَ دَآئِبَيْنِ ۖ وَسَخَّرَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ",
     "textSimple": "وسخر لكم ٱلشمس وٱلقمر دآئبين  وسخر لكم ٱليل وٱلنهار",
     "transliteration": "wasakhara lakumu l-shamsa wal-qamara dāibayni wasakhara lakumu al-layla wal-nahāra",
-    "translation": "",
+    "translation": "And He subjected for you the sun and the moon, continuous [in orbit], and subjected for you the night and the day.",
     "words": [
       {
         "id": "ibrahim-33-1",
@@ -4479,7 +4511,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et C’est Lui Qui a mis à votre disposition le soleil et la lune qu’Il a soumis à un mouvement perpétuel, et Qui a mis à votre disposition la nuit et le jour."
   },
   {
     "id": "ibrahim-34",
@@ -4488,7 +4521,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱلْإِنسَـٰنَ لَظَلُومٌ كَفَّارٌ",
     "textSimple": "وءاتىكم من كل ما سألتموه  وإن تعدوا نعمت ٱلله لا تحصوهآ  إن ٱلإنسـن لظلوم كفار",
     "transliteration": "waātākum min kulli mā sa-altumūhu wa-in taʿuddū niʿ'mata l-lahi lā tuḥ'ṣūhā inna l-insāna laẓalūmun kaffārun",
-    "translation": "",
+    "translation": "And He gave you from all you asked of Him. And if you should count the favor [i.e., blessings] of Allāh, you could not enumerate them. Indeed, mankind is [generally] most unjust and ungrateful.",
     "words": [
       {
         "id": "ibrahim-34-1",
@@ -4596,7 +4629,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous a donné de tout ce que vous Lui avez demandé. Or si vous comptiez les bienfaits d’Allah, vous ne sauriez jamais en arrêter le nombre. L’homme est vraiment beaucoup trop injuste et il est d’une ingratitude…"
   },
   {
     "id": "ibrahim-35",
@@ -4605,7 +4639,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ إِبْرَٰهِيمُ رَبِّ ٱجْعَلْ هَـٰذَا ٱلْبَلَدَ ءَامِنًا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ",
     "textSimple": "وإذ قال إبرهيم رب ٱجعل هـذا ٱلبلد ءامنا وٱجنبنى وبنى أن نعبد ٱلأصنام",
     "transliteration": "wa-idh qāla ib'rāhīmu rabbi ij'ʿal hādhā l-balada āminan wa-uj'nub'nī wabaniyya an naʿbuda l-aṣnāma",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Abraham said, \"My Lord, make this city [i.e., Makkah] secure and keep me and my sons away from worshipping idols.",
     "words": [
       {
         "id": "ibrahim-35-1",
@@ -4699,7 +4733,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souvenez-vous) quand Abraham dit : « Seigneur ! Fais de ce pays un havre de paix, et évite-nous, à moi et à mes descendants, le culte des idoles."
   },
   {
     "id": "ibrahim-36",
@@ -4708,7 +4743,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "رب إنهن أضللن كثيرا من ٱلناس  فمن تبعنى فإنه منى  ومن عصانى فإنك غفور رحيم",
     "transliteration": "rabbi innahunna aḍlalna kathīran mina l-nāsi faman tabiʿanī fa-innahu minnī waman ʿaṣānī fa-innaka ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "My Lord, indeed they have led astray many among the people. So whoever follows me - then he is of me; and whoever disobeys me - indeed, You are [yet] Forgiving and Merciful.",
     "words": [
       {
         "id": "ibrahim-36-1",
@@ -4816,7 +4851,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! (Les idoles) ont égaré bon nombre d’hommes. Celui qui me suivra sera des miens et celui qui me désobéira (doit savoir que) Tu es Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "ibrahim-37",
@@ -4825,7 +4861,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةً مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ",
     "textSimple": "ربنآ إنىٓ أسكنت من ذريتى بواد غير ذى زرع عند بيتك ٱلمحرم ربنا ليقيموا ٱلصلوة فٱجعل أفـٔدة من ٱلناس تهوىٓ إليهم وٱرزقهم من ٱلثمرت لعلهم يشكرون",
     "transliteration": "rabbanā innī askantu min dhurriyyatī biwādin ghayri dhī zarʿin ʿinda baytika l-muḥarami rabbanā liyuqīmū l-ṣalata fa-ij'ʿal afidatan mina l-nāsi tahwī ilayhim wa-ur'zuq'hum mina l-thamarāti laʿallahum yashkurūna",
-    "translation": "",
+    "translation": "Our Lord, I have settled some of my descendants in an uncultivated valley near Your sacred House, our Lord, that they may establish prayer. So make hearts among the people incline toward them and provide for them from the fruits that they might be grateful.",
     "words": [
       {
         "id": "ibrahim-37-1",
@@ -5010,7 +5046,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô (Toi) Seigneur ! J’ai installé une partie de ma progéniture dans une vallée inculte auprès de Ta Maison Sacrée. Seigneur ! (Je l’ai fait) pour qu’ils y accomplissent la Çalât. Fais donc que les cœurs de certains hommes soient attirés par leur (cité) et donne-leur de tous les fruits pour assurer leur subsistance. Peut-être Te rendront-ils grâces."
   },
   {
     "id": "ibrahim-38",
@@ -5019,7 +5056,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَآ إِنَّكَ تَعْلَمُ مَا نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا يَخْفَىٰ عَلَى ٱللَّهِ مِن شَىْءٍ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
     "textSimple": "ربنآ إنك تعلم ما نخفى وما نعلن  وما يخفى على ٱلله من شىء فى ٱلأرض ولا فى ٱلسمآء",
     "transliteration": "rabbanā innaka taʿlamu mā nukh'fī wamā nuʿ'linu wamā yakhfā ʿalā l-lahi min shayin fī l-arḍi walā fī l-samāi",
-    "translation": "",
+    "translation": "Our Lord, indeed You know what we conceal and what we declare, and nothing is hidden from Allāh on the earth or in the heaven.",
     "words": [
       {
         "id": "ibrahim-38-1",
@@ -5148,7 +5185,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Tu sais bien ce que nous cachons et ce que nous divulguons, car pour Allah, rien ne peut être caché sur terre, pas plus que dans le ciel."
   },
   {
     "id": "ibrahim-39",
@@ -5157,7 +5195,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ لِى عَلَى ٱلْكِبَرِ إِسْمَـٰعِيلَ وَإِسْحَـٰقَ ۚ إِنَّ رَبِّى لَسَمِيعُ ٱلدُّعَآءِ",
     "textSimple": "ٱلحمد لله ٱلذى وهب لى على ٱلكبر إسمـعيل وإسحـق  إن ربى لسميع ٱلدعآء",
     "transliteration": "al-ḥamdu lillahi alladhī wahaba lī ʿalā l-kibari is'māʿīla wa-is'ḥāqa inna rabbī lasamīʿu l-duʿāi",
-    "translation": "",
+    "translation": "Praise to Allāh, who has granted to me in old age Ishmael and Isaac. Indeed, my Lord is the Hearer of supplication.",
     "words": [
       {
         "id": "ibrahim-39-1",
@@ -5251,7 +5289,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute louange à Allah Qui, malgré mon grand âge, m’a fait don d’Ismaël et d’Isaac. Allah Entend parfaitement les prières."
   },
   {
     "id": "ibrahim-40",
@@ -5260,7 +5299,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ",
     "textSimple": "رب ٱجعلنى مقيم ٱلصلوة ومن ذريتى  ربنا وتقبل دعآء",
     "transliteration": "rabbi ij'ʿalnī muqīma l-ṣalati wamin dhurriyyatī rabbanā wataqabbal duʿāi",
-    "translation": "",
+    "translation": "My Lord, make me an establisher of prayer, and [many] from my descendants. Our Lord, and accept my supplication.",
     "words": [
       {
         "id": "ibrahim-40-1",
@@ -5326,7 +5365,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Seigneur ! Fais que je sois assidu à accomplir la Çalât et qu’une bonne partie de mes descendants (le soit aussi), Seigneur, exauce mes prières !"
   },
   {
     "id": "ibrahim-41",
@@ -5335,7 +5375,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
     "textSimple": "ربنا ٱغفر لى ولولدى وللمؤمنين يوم يقوم ٱلحساب",
     "transliteration": "rabbanā igh'fir lī waliwālidayya walil'mu'minīna yawma yaqūmu l-ḥisābu",
-    "translation": "",
+    "translation": "Our Lord, forgive me and my parents and the believers the Day the account is established.\"",
     "words": [
       {
         "id": "ibrahim-41-1",
@@ -5394,7 +5434,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Accorde-moi le pardon ainsi qu’à mes parents et aux croyants le jour où seront dressés les comptes. »"
   },
   {
     "id": "ibrahim-42",
@@ -5403,7 +5444,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَحْسَبَنَّ ٱللَّهَ غَـٰفِلًا عَمَّا يَعْمَلُ ٱلظَّـٰلِمُونَ ۚ إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍ تَشْخَصُ فِيهِ ٱلْأَبْصَـٰرُ",
     "textSimple": "ولا تحسبن ٱلله غـفلا عما يعمل ٱلظـلمون  إنما يؤخرهم ليوم تشخص فيه ٱلأبصـر",
     "transliteration": "walā taḥsabanna l-laha ghāfilan ʿammā yaʿmalu l-ẓālimūna innamā yu-akhiruhum liyawmin tashkhaṣu fīhi l-abṣāru",
-    "translation": "",
+    "translation": "And never think that Allāh is unaware of what the wrongdoers do. He only delays them [i.e., their account] for a Day when eyes will stare [in horror].",
     "words": [
       {
         "id": "ibrahim-42-1",
@@ -5497,7 +5538,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne pense (surtout pas) qu’Allah est distrait de ce que font les injustes. Il ne fait que différer (leur punition) à un jour où les regards seront figés (de terreur)."
   },
   {
     "id": "ibrahim-43",
@@ -5506,7 +5548,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "مُهْطِعِينَ مُقْنِعِى رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌ",
     "textSimple": "مهطعين مقنعى رءوسهم لا يرتد إليهم طرفهم  وأفـٔدتهم هوآء",
     "transliteration": "muh'ṭiʿīna muq'niʿī ruūsihim lā yartaddu ilayhim ṭarfuhum wa-afidatuhum hawāon",
-    "translation": "",
+    "translation": "Racing ahead, their heads raised up, their glance does not come back to them, and their hearts are void.",
     "words": [
       {
         "id": "ibrahim-43-1",
@@ -5572,7 +5614,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Précipités, la tête levée au ciel, les yeux fixes et les cœurs vidés, ils courront abattus."
   },
   {
     "id": "ibrahim-44",
@@ -5581,7 +5624,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَآ إِلَىٰٓ أَجَلٍ قَرِيبٍ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ أَقْسَمْتُم مِّن قَبْلُ مَا لَكُم مِّن زَوَالٍ",
     "textSimple": "وأنذر ٱلناس يوم يأتيهم ٱلعذاب فيقول ٱلذين ظلموا ربنآ أخرنآ إلىٓ أجل قريب نجب دعوتك ونتبع ٱلرسل  أولم تكونوٓا أقسمتم من قبل ما لكم من زوال",
     "transliteration": "wa-andhiri l-nāsa yawma yatīhimu l-ʿadhābu fayaqūlu alladhīna ẓalamū rabbanā akhir'nā ilā ajalin qarībin nujib daʿwataka wanattabiʿi l-rusula awalam takūnū aqsamtum min qablu mā lakum min zawālin",
-    "translation": "",
+    "translation": "And, [O Muḥammad], warn the people of a Day when the punishment will come to them and those who did wrong will say, \"Our Lord, delay us for a short term; we will answer Your call and follow the messengers.\" [But it will be said], \"Had you not sworn, before, that for you there would be no cessation?",
     "words": [
       {
         "id": "ibrahim-44-1",
@@ -5766,7 +5809,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avertis donc les hommes du jour où fondra sur eux le supplice. Ceux qui auront commis des injustices diront alors : « Accorde-nous un bref délai, nous répondrons à Ton appel et suivrons les Messagers. » (Il leur sera répondu) : « Ne juriez-vous pas autrefois que vous ne quitteriez jamais (ce monde pour celui de l’au-delà) ? »"
   },
   {
     "id": "ibrahim-45",
@@ -5775,7 +5819,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَسَكَنتُمْ فِى مَسَـٰكِنِ ٱلَّذِينَ ظَلَمُوٓا۟ أَنفُسَهُمْ وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ وَضَرَبْنَا لَكُمُ ٱلْأَمْثَالَ",
     "textSimple": "وسكنتم فى مسـكن ٱلذين ظلموٓا أنفسهم وتبين لكم كيف فعلنا بهم وضربنا لكم ٱلأمثال",
     "transliteration": "wasakantum fī masākini alladhīna ẓalamū anfusahum watabayyana lakum kayfa faʿalnā bihim waḍarabnā lakumu l-amthāla",
-    "translation": "",
+    "translation": "And you lived among the dwellings of those who wronged themselves, and it had become clear to you how We dealt with them. And We presented for you [many] examples.\"",
     "words": [
       {
         "id": "ibrahim-45-1",
@@ -5876,7 +5920,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous avez occupé les habitations de ceux qui s’étaient lésés eux-mêmes. Vous avez pu constater quel sort Nous leur avons fait subir et que Nous l’avons illustré par nombre d’exemples."
   },
   {
     "id": "ibrahim-46",
@@ -5885,7 +5930,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدْ مَكَرُوا۟ مَكْرَهُمْ وَعِندَ ٱللَّهِ مَكْرُهُمْ وَإِن كَانَ مَكْرُهُمْ لِتَزُولَ مِنْهُ ٱلْجِبَالُ",
     "textSimple": "وقد مكروا مكرهم وعند ٱلله مكرهم وإن كان مكرهم لتزول منه ٱلجبال",
     "transliteration": "waqad makarū makrahum waʿinda l-lahi makruhum wa-in kāna makruhum litazūla min'hu l-jibālu",
-    "translation": "",
+    "translation": "And they had planned their plan, but with Allāh is [recorded] their plan, even if their plan had been [sufficient] to do away with the mountains.",
     "words": [
       {
         "id": "ibrahim-46-1",
@@ -5972,7 +6017,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont tramé leurs intrigues, mais leurs intrigues restaient sous le contrôle d’Allah même si ces intrigues étaient en mesure de détruire les montagnes."
   },
   {
     "id": "ibrahim-47",
@@ -5981,7 +6027,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تَحْسَبَنَّ ٱللَّهَ مُخْلِفَ وَعْدِهِۦ رُسُلَهُۥٓ ۗ إِنَّ ٱللَّهَ عَزِيزٌ ذُو ٱنتِقَامٍ",
     "textSimple": "فلا تحسبن ٱلله مخلف وعده رسلهٓ  إن ٱلله عزيز ذو ٱنتقام",
     "transliteration": "falā taḥsabanna l-laha mukh'lifa waʿdihi rusulahu inna l-laha ʿazīzun dhū intiqāmin",
-    "translation": "",
+    "translation": "So never think that Allāh will fail in His promise to His messengers. Indeed, Allāh is Exalted in Might and Owner of Retribution.",
     "words": [
       {
         "id": "ibrahim-47-1",
@@ -6061,7 +6107,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne pense (surtout pas) qu’Allah manque à la promesse faite à Ses Messagers. Allah est Tout-Puissant et Il a fait Sienne la Vengeance."
   },
   {
     "id": "ibrahim-48",
@@ -6070,7 +6117,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَـٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
     "textSimple": "يوم تبدل ٱلأرض غير ٱلأرض وٱلسمـوت  وبرزوا لله ٱلوحد ٱلقهار",
     "transliteration": "yawma tubaddalu l-arḍu ghayra l-arḍi wal-samāwātu wabarazū lillahi l-wāḥidi l-qahāri",
-    "translation": "",
+    "translation": "[It will be] on the Day the earth will be replaced by another earth, and the heavens [as well], and they [i.e., all creatures] will come out before Allāh, the One, the Prevailing,",
     "words": [
       {
         "id": "ibrahim-48-1",
@@ -6143,7 +6190,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour (viendra) où la terre sera changée en une autre terre, ainsi que (seront changés) les cieux, et où ils (les hommes) comparaîtront devant Allah, l’Un, le Haut Dominateur."
   },
   {
     "id": "ibrahim-49",
@@ -6152,7 +6200,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَى ٱلْمُجْرِمِينَ يَوْمَئِذٍ مُّقَرَّنِينَ فِى ٱلْأَصْفَادِ",
     "textSimple": "وترى ٱلمجرمين يومئذ مقرنين فى ٱلأصفاد",
     "transliteration": "watarā l-muj'rimīna yawma-idhin muqarranīna fī l-aṣfādi",
-    "translation": "",
+    "translation": "And you will see the criminals that Day bound together in irons,",
     "words": [
       {
         "id": "ibrahim-49-1",
@@ -6197,7 +6245,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et le jour (viendra) où tu verras les criminels enchaînés les uns aux autres (en couples semblables)."
   },
   {
     "id": "ibrahim-50",
@@ -6206,7 +6255,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "سَرَابِيلُهُم مِّن قَطِرَانٍ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ",
     "textSimple": "سرابيلهم من قطران وتغشى وجوههم ٱلنار",
     "transliteration": "sarābīluhum min qaṭirānin wataghshā wujūhahumu l-nāru",
-    "translation": "",
+    "translation": "Their garments of liquid pitch and their faces covered by the Fire",
     "words": [
       {
         "id": "ibrahim-50-1",
@@ -6251,7 +6300,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs habits seront faits de goudron et leurs visages seront couverts de feu."
   },
   {
     "id": "ibrahim-51",
@@ -6260,7 +6310,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "لِيَجْزِىَ ٱللَّهُ كُلَّ نَفْسٍ مَّا كَسَبَتْ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
     "textSimple": "ليجزى ٱلله كل نفس ما كسبت  إن ٱلله سريع ٱلحساب",
     "transliteration": "liyajziya l-lahu kulla nafsin mā kasabat inna l-laha sarīʿu l-ḥisābi",
-    "translation": "",
+    "translation": "So that Allāh will recompense every soul for what it earned. Indeed, Allāh is swift in account.",
     "words": [
       {
         "id": "ibrahim-51-1",
@@ -6333,7 +6383,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour qu’Allah rétribue chaque âme selon ce qu’elle aura acquis, car Allah est prompt à dresser les comptes."
   },
   {
     "id": "ibrahim-52",
@@ -6342,7 +6393,7 @@ export const IBRAHIM_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا بَلَـٰغٌ لِّلنَّاسِ وَلِيُنذَرُوا۟ بِهِۦ وَلِيَعْلَمُوٓا۟ أَنَّمَا هُوَ إِلَـٰهٌ وَٰحِدٌ وَلِيَذَّكَّرَ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ",
     "textSimple": "هـذا بلـغ للناس ولينذروا به وليعلموٓا أنما هو إلـه وحد وليذكر أولوا ٱلألبـب",
     "transliteration": "hādhā balāghun lilnnāsi waliyundharū bihi waliyaʿlamū annamā huwa ilāhun wāḥidun waliyadhakkara ulū l-albābi",
-    "translation": "",
+    "translation": "This [Qur’ān] is notification for the people that they may be warned thereby and that they may know that He is but one God and that those of understanding will be reminded.",
     "words": [
       {
         "id": "ibrahim-52-1",
@@ -6436,7 +6487,8 @@ export const IBRAHIM_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici un message (adressé) aux hommes afin qu’ils en soient avertis, et pour qu’ils sachent qu’Il n’est qu’un Dieu Unique, et pour que les esprits sagaces le méditent."
   }
 ];
 

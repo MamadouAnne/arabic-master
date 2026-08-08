@@ -11,7 +11,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": " وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
     "textSimple": " ويل لكل همزة لمزة",
     "transliteration": "waylun likulli humazatin lumazatin",
-    "translation": "",
+    "translation": "Woe to every scorner and mocker",
     "words": [
       {
         "id": "al-humazah-1-1",
@@ -42,7 +42,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur à tout calomniateur, diffamateur,"
   },
   {
     "id": "al-humazah-2",
@@ -51,7 +52,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى جَمَعَ مَالًا وَعَدَّدَهُۥ",
     "textSimple": "ٱلذى جمع مالا وعدده",
     "transliteration": "alladhī jamaʿa mālan waʿaddadahu",
-    "translation": "",
+    "translation": "Who collects wealth and [continuously] counts it.",
     "words": [
       {
         "id": "al-humazah-2-1",
@@ -82,7 +83,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui amasse les biens et ne laisse pas de les compter,"
   },
   {
     "id": "al-humazah-3",
@@ -91,7 +93,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
     "textSimple": "يحسب أن مالهٓ أخلده",
     "transliteration": "yaḥsabu anna mālahu akhladahu",
-    "translation": "",
+    "translation": "He thinks that his wealth will make him immortal.",
     "words": [
       {
         "id": "al-humazah-3-1",
@@ -122,7 +124,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pensant que ses biens le rendront éternel."
   },
   {
     "id": "al-humazah-4",
@@ -131,7 +134,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
     "textSimple": "كلا  لينبذن فى ٱلحطمة",
     "transliteration": "kallā layunbadhanna fī l-ḥuṭamati",
-    "translation": "",
+    "translation": "No! He will surely be thrown into the Crusher.",
     "words": [
       {
         "id": "al-humazah-4-1",
@@ -162,7 +165,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Il sera précipité dans la Ḥutamah."
   },
   {
     "id": "al-humazah-5",
@@ -171,7 +175,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
     "textSimple": "ومآ أدرىك ما ٱلحطمة",
     "transliteration": "wamā adrāka mā l-ḥuṭamatu",
-    "translation": "",
+    "translation": "And what can make you know what is the Crusher?",
     "words": [
       {
         "id": "al-humazah-5-1",
@@ -202,7 +206,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est la Ḥutamah ?"
   },
   {
     "id": "al-humazah-6",
@@ -211,7 +216,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
     "textSimple": "نار ٱلله ٱلموقدة",
     "transliteration": "nāru l-lahi l-mūqadatu",
-    "translation": "",
+    "translation": "It is the fire of Allāh, [eternally] fueled,",
     "words": [
       {
         "id": "al-humazah-6-1",
@@ -235,7 +240,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est le Feu d’Allah, à jamais attisé,"
   },
   {
     "id": "al-humazah-7",
@@ -244,7 +250,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
     "textSimple": "ٱلتى تطلع على ٱلأفـٔدة",
     "transliteration": "allatī taṭṭaliʿu ʿalā l-afidati",
-    "translation": "",
+    "translation": "Which mounts directed at the hearts.",
     "words": [
       {
         "id": "al-humazah-7-1",
@@ -275,7 +281,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui atteindra les cœurs."
   },
   {
     "id": "al-humazah-8",
@@ -284,7 +291,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ",
     "textSimple": "إنها عليهم مؤصدة",
     "transliteration": "innahā ʿalayhim mu'ṣadatun",
-    "translation": "",
+    "translation": "Indeed, it [i.e., Hellfire] will be closed down upon them",
     "words": [
       {
         "id": "al-humazah-8-1",
@@ -308,7 +315,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sur eux il se refermera"
   },
   {
     "id": "al-humazah-9",
@@ -317,7 +325,7 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
     "textUthmani": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
     "textSimple": "فى عمد ممددة",
     "transliteration": "fī ʿamadin mumaddadatin",
-    "translation": "",
+    "translation": "In extended columns.",
     "words": [
       {
         "id": "al-humazah-9-1",
@@ -341,7 +349,8 @@ export const AL_HUMAZAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et s’étendra par colonnes."
   }
 ];
 

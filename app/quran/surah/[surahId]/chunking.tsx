@@ -10,6 +10,7 @@ import { useQuranStore } from '../../../../src/stores/quranStore';
 import { QuranWord } from '../../../../src/types/quran';
 import { quranAudioService, AudioState } from '../../../../src/services/quranAudioService';
 import { useAyahTranslations } from '../../../../src/hooks/useAyahTranslations';
+import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { useSettingsStore } from '../../../../src/stores/settingsStore';
 
 // ============ Types ============
@@ -118,6 +119,7 @@ const ARABIC_GOLD = '#D4AF37';
 
 export default function ChunkingScreen() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
 
   const surah = getSurahById(surahId);
@@ -142,7 +144,7 @@ export default function ChunkingScreen() {
   // Falls back to static data translation, then to joining word translations
   const ayahTranslation = currentAyah
     ? langTranslations.get(currentAyah.ayahNumber)
-      || currentAyah.translation
+      || lc(currentAyah.translation, currentAyah.translationFr)
       || currentAyah.words.map(w => w.translation).join(' ')
     : '';
 

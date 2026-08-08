@@ -11,7 +11,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": " عَبَسَ وَتَوَلَّىٰٓ",
     "textSimple": " عبس وتولىٓ",
     "transliteration": "ʿabasa watawallā",
-    "translation": "",
+    "translation": "He [i.e., the Prophet (ﷺ) ] frowned and turned away",
     "words": [
       {
         "id": "abasa-1-1",
@@ -28,7 +28,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a froncé les sourcils et s’est détourné,"
   },
   {
     "id": "abasa-2",
@@ -37,7 +38,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
     "textSimple": "أن جآءه ٱلأعمى",
     "transliteration": "an jāahu l-aʿmā",
-    "translation": "",
+    "translation": "Because there came to him the blind man, [interrupting].",
     "words": [
       {
         "id": "abasa-2-1",
@@ -61,7 +62,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "parce que l’aveugle est venu vers lui (lui parler)."
   },
   {
     "id": "abasa-3",
@@ -70,7 +72,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
     "textSimple": "وما يدريك لعله يزكىٓ",
     "transliteration": "wamā yud'rīka laʿallahu yazzakkā",
-    "translation": "",
+    "translation": "But what would make you perceive, [O Muḥammad], that perhaps he might be purified",
     "words": [
       {
         "id": "abasa-3-1",
@@ -101,7 +103,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui te dit qu’il n’allait pas se purifier ?"
   },
   {
     "id": "abasa-4",
@@ -110,7 +113,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
     "textSimple": "أو يذكر فتنفعه ٱلذكرىٓ",
     "transliteration": "aw yadhakkaru fatanfaʿahu l-dhik'rā",
-    "translation": "",
+    "translation": "Or be reminded and the remembrance would benefit him?",
     "words": [
       {
         "id": "abasa-4-1",
@@ -141,7 +144,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou que, rappelé, il n’allait pas profiter du rappel ?"
   },
   {
     "id": "abasa-5",
@@ -150,7 +154,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
     "textSimple": "أما من ٱستغنى",
     "transliteration": "ammā mani is'taghnā",
-    "translation": "",
+    "translation": "As for he who thinks himself without need,",
     "words": [
       {
         "id": "abasa-5-1",
@@ -174,7 +178,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui se complaît et se suffit de sa richesse,"
   },
   {
     "id": "abasa-6",
@@ -183,7 +188,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
     "textSimple": "فأنت له تصدى",
     "transliteration": "fa-anta lahu taṣaddā",
-    "translation": "",
+    "translation": "To him you give attention.",
     "words": [
       {
         "id": "abasa-6-1",
@@ -207,7 +212,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "celui-là tu vas volontiers à sa rencontre,"
   },
   {
     "id": "abasa-7",
@@ -216,7 +222,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
     "textSimple": "وما عليك ألا يزكى",
     "transliteration": "wamā ʿalayka allā yazzakkā",
-    "translation": "",
+    "translation": "And not upon you [is any blame] if he will not be purified.",
     "words": [
       {
         "id": "abasa-7-1",
@@ -247,7 +253,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors qu’il ne te sera fait aucun reproche s’il ne se purifie pas (de sa mécréance)."
   },
   {
     "id": "abasa-8",
@@ -256,7 +263,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
     "textSimple": "وأما من جآءك يسعى",
     "transliteration": "wa-ammā man jāaka yasʿā",
-    "translation": "",
+    "translation": "But as for he who came to you striving [for knowledge]",
     "words": [
       {
         "id": "abasa-8-1",
@@ -287,7 +294,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais celui qui vient te trouver en toute hâte,"
   },
   {
     "id": "abasa-9",
@@ -296,7 +304,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ يَخْشَىٰ",
     "textSimple": "وهو يخشى",
     "transliteration": "wahuwa yakhshā",
-    "translation": "",
+    "translation": "While he fears [Allāh],",
     "words": [
       {
         "id": "abasa-9-1",
@@ -313,7 +321,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui craint (Allah),"
   },
   {
     "id": "abasa-10",
@@ -322,7 +331,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
     "textSimple": "فأنت عنه تلهى",
     "transliteration": "fa-anta ʿanhu talahhā",
-    "translation": "",
+    "translation": "From him you are distracted.",
     "words": [
       {
         "id": "abasa-10-1",
@@ -346,7 +355,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "tu le délaisses, détourné par (autre chose) !"
   },
   {
     "id": "abasa-11",
@@ -355,7 +365,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِنَّهَا تَذْكِرَةٌ",
     "textSimple": "كلآ إنها تذكرة",
     "transliteration": "kallā innahā tadhkiratun",
-    "translation": "",
+    "translation": "No! Indeed, they [i.e., these verses] are a reminder;",
     "words": [
       {
         "id": "abasa-11-1",
@@ -379,7 +389,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non, et cela est un rappel."
   },
   {
     "id": "abasa-12",
@@ -388,7 +399,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن شَآءَ ذَكَرَهُۥ",
     "textSimple": "فمن شآء ذكره",
     "transliteration": "faman shāa dhakarahu",
-    "translation": "",
+    "translation": "So whoever wills may remember it.",
     "words": [
       {
         "id": "abasa-12-1",
@@ -412,7 +423,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’en souvienne qui voudra."
   },
   {
     "id": "abasa-13",
@@ -421,7 +433,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فِى صُحُفٍ مُّكَرَّمَةٍ",
     "textSimple": "فى صحف مكرمة",
     "transliteration": "fī ṣuḥufin mukarramatin",
-    "translation": "",
+    "translation": "[It is recorded] in honored sheets,",
     "words": [
       {
         "id": "abasa-13-1",
@@ -445,7 +457,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ce rappel est écrit) sur des Feuillets révérés,"
   },
   {
     "id": "abasa-14",
@@ -454,7 +467,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ",
     "textSimple": "مرفوعة مطهرة",
     "transliteration": "marfūʿatin muṭahharatin",
-    "translation": "",
+    "translation": "Exalted and purified,",
     "words": [
       {
         "id": "abasa-14-1",
@@ -471,7 +484,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "élevées haut et purifiées"
   },
   {
     "id": "abasa-15",
@@ -480,7 +494,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "بِأَيْدِى سَفَرَةٍ",
     "textSimple": "بأيدى سفرة",
     "transliteration": "bi-aydī safaratin",
-    "translation": "",
+    "translation": "[Carried] by the hands of messenger-angels,",
     "words": [
       {
         "id": "abasa-15-1",
@@ -497,7 +511,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "entre les mains d’émissaires"
   },
   {
     "id": "abasa-16",
@@ -506,7 +521,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "كِرَامٍۭ بَرَرَةٍ",
     "textSimple": "كرام بررة",
     "transliteration": "kirāmin bararatin",
-    "translation": "",
+    "translation": "Noble and dutiful.",
     "words": [
       {
         "id": "abasa-16-1",
@@ -523,7 +538,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "honorés et dévoués."
   },
   {
     "id": "abasa-17",
@@ -532,7 +548,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ",
     "textSimple": "قتل ٱلإنسـن مآ أكفره",
     "transliteration": "qutila l-insānu mā akfarahu",
-    "translation": "",
+    "translation": "Destroyed [i.e., cursed] is man; how disbelieving is he.",
     "words": [
       {
         "id": "abasa-17-1",
@@ -563,7 +579,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Périsse l’homme ! Comme il est ingrat !"
   },
   {
     "id": "abasa-18",
@@ -572,7 +589,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
     "textSimple": "من أى شىء خلقه",
     "transliteration": "min ayyi shayin khalaqahu",
-    "translation": "",
+    "translation": "From what thing [i.e., substance] did He create him?",
     "words": [
       {
         "id": "abasa-18-1",
@@ -603,7 +620,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De quoi l’a-t-Il créé ?"
   },
   {
     "id": "abasa-19",
@@ -612,7 +630,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
     "textSimple": "من نطفة خلقه فقدره",
     "transliteration": "min nuṭ'fatin khalaqahu faqaddarahu",
-    "translation": "",
+    "translation": "From a sperm-drop He created him and destined for him;",
     "words": [
       {
         "id": "abasa-19-1",
@@ -643,7 +661,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est d’une goutte de sperme qu’Il l’a créé ; puis Il en a déterminé la destinée."
   },
   {
     "id": "abasa-20",
@@ -652,7 +671,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
     "textSimple": "ثم ٱلسبيل يسره",
     "transliteration": "thumma l-sabīla yassarahu",
-    "translation": "",
+    "translation": "Then He eased the way for him;",
     "words": [
       {
         "id": "abasa-20-1",
@@ -676,7 +695,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il lui a rendu facile le chemin,"
   },
   {
     "id": "abasa-21",
@@ -685,7 +705,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
     "textSimple": "ثم أماته فأقبره",
     "transliteration": "thumma amātahu fa-aqbarahu",
-    "translation": "",
+    "translation": "Then He causes his death and provides a grave for him.",
     "words": [
       {
         "id": "abasa-21-1",
@@ -709,7 +729,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis l’a fait mourir et entrer dans la tombe,"
   },
   {
     "id": "abasa-22",
@@ -718,7 +739,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
     "textSimple": "ثم إذا شآء أنشره",
     "transliteration": "thumma idhā shāa ansharahu",
-    "translation": "",
+    "translation": "Then when He wills, He will resurrect him.",
     "words": [
       {
         "id": "abasa-22-1",
@@ -749,7 +770,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis quand Il voudra, Il le ressuscitera."
   },
   {
     "id": "abasa-23",
@@ -758,7 +780,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
     "textSimple": "كلا لما يقض مآ أمره",
     "transliteration": "kallā lammā yaqḍi mā amarahu",
-    "translation": "",
+    "translation": "No! He [i.e., man] has not yet accomplished what He commanded him.",
     "words": [
       {
         "id": "abasa-23-1",
@@ -796,7 +818,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, (l’homme) n’a pas encore accompli ce qu’(Allah) lui a ordonné."
   },
   {
     "id": "abasa-24",
@@ -805,7 +828,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ",
     "textSimple": "فلينظر ٱلإنسـن إلى طعامهٓ",
     "transliteration": "falyanẓuri l-insānu ilā ṭaʿāmihi",
-    "translation": "",
+    "translation": "Then let mankind look at his food -",
     "words": [
       {
         "id": "abasa-24-1",
@@ -836,7 +859,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que l’homme considère donc sa nourriture !"
   },
   {
     "id": "abasa-25",
@@ -845,7 +869,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا",
     "textSimple": "أنا صببنا ٱلمآء صبا",
     "transliteration": "annā ṣababnā l-māa ṣabban",
-    "translation": "",
+    "translation": "How We poured down water in torrents,",
     "words": [
       {
         "id": "abasa-25-1",
@@ -876,7 +900,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien Nous Qui déversons l’eau (du ciel) en abondance,"
   },
   {
     "id": "abasa-26",
@@ -885,7 +910,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا",
     "textSimple": "ثم شققنا ٱلأرض شقا",
     "transliteration": "thumma shaqaqnā l-arḍa shaqqan",
-    "translation": "",
+    "translation": "Then We broke open the earth, splitting [it with sprouts],",
     "words": [
       {
         "id": "abasa-26-1",
@@ -916,7 +941,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis fendons (et creusons) la terre,"
   },
   {
     "id": "abasa-27",
@@ -925,7 +951,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنۢبَتْنَا فِيهَا حَبًّا",
     "textSimple": "فأنبتنا فيها حبا",
     "transliteration": "fa-anbatnā fīhā ḥabban",
-    "translation": "",
+    "translation": "And caused to grow within it grain",
     "words": [
       {
         "id": "abasa-27-1",
@@ -949,7 +975,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour y faire pousser le grain,"
   },
   {
     "id": "abasa-28",
@@ -958,7 +985,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَعِنَبًا وَقَضْبًا",
     "textSimple": "وعنبا وقضبا",
     "transliteration": "waʿinaban waqaḍban",
-    "translation": "",
+    "translation": "And grapes and herbage",
     "words": [
       {
         "id": "abasa-28-1",
@@ -975,7 +1002,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "la vigne et la luzerne,"
   },
   {
     "id": "abasa-29",
@@ -984,7 +1012,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَزَيْتُونًا وَنَخْلًا",
     "textSimple": "وزيتونا ونخلا",
     "transliteration": "wazaytūnan wanakhlan",
-    "translation": "",
+    "translation": "And olive and palm trees",
     "words": [
       {
         "id": "abasa-29-1",
@@ -1001,7 +1029,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "l’olivier et le palmier,"
   },
   {
     "id": "abasa-30",
@@ -1010,7 +1039,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَحَدَآئِقَ غُلْبًا",
     "textSimple": "وحدآئق غلبا",
     "transliteration": "waḥadāiqa ghul'ban",
-    "translation": "",
+    "translation": "And gardens of dense shrubbery",
     "words": [
       {
         "id": "abasa-30-1",
@@ -1027,7 +1056,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les jardins luxuriants,"
   },
   {
     "id": "abasa-31",
@@ -1036,7 +1066,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَفَـٰكِهَةً وَأَبًّا",
     "textSimple": "وفـكهة وأبا",
     "transliteration": "wafākihatan wa-abban",
-    "translation": "",
+    "translation": "And fruit and grass -",
     "words": [
       {
         "id": "abasa-31-1",
@@ -1053,7 +1083,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les fruits et les pâturages,"
   },
   {
     "id": "abasa-32",
@@ -1062,7 +1093,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
     "textSimple": "متـعا لكم ولأنعـمكم",
     "transliteration": "matāʿan lakum wali-anʿāmikum",
-    "translation": "",
+    "translation": "[As] enjoyment [i.e., provision] for you and your grazing livestock.",
     "words": [
       {
         "id": "abasa-32-1",
@@ -1086,7 +1117,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en jouissance pour vous et pour vos bestiaux."
   },
   {
     "id": "abasa-33",
@@ -1095,7 +1127,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
     "textSimple": "فإذا جآءت ٱلصآخة",
     "transliteration": "fa-idhā jāati l-ṣākhatu",
-    "translation": "",
+    "translation": "But when there comes the Deafening Blast",
     "words": [
       {
         "id": "abasa-33-1",
@@ -1119,7 +1151,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais quand viendra la Clameur retentissante,"
   },
   {
     "id": "abasa-34",
@@ -1128,7 +1161,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
     "textSimple": "يوم يفر ٱلمرء من أخيه",
     "transliteration": "yawma yafirru l-maru min akhīhi",
-    "translation": "",
+    "translation": "On the Day a man will flee from his brother",
     "words": [
       {
         "id": "abasa-34-1",
@@ -1166,7 +1199,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le jour où l’homme fuira son frère,"
   },
   {
     "id": "abasa-35",
@@ -1175,7 +1209,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَأُمِّهِۦ وَأَبِيهِ",
     "textSimple": "وأمه وأبيه",
     "transliteration": "wa-ummihi wa-abīhi",
-    "translation": "",
+    "translation": "And his mother and his father",
     "words": [
       {
         "id": "abasa-35-1",
@@ -1192,7 +1226,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sa mère et son père,"
   },
   {
     "id": "abasa-36",
@@ -1201,7 +1236,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَصَـٰحِبَتِهِۦ وَبَنِيهِ",
     "textSimple": "وصـحبته وبنيه",
     "transliteration": "waṣāḥibatihi wabanīhi",
-    "translation": "",
+    "translation": "And his wife and his children,",
     "words": [
       {
         "id": "abasa-36-1",
@@ -1218,7 +1253,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sa compagne et ses enfants,"
   },
   {
     "id": "abasa-37",
@@ -1227,7 +1263,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
     "textSimple": "لكل ٱمرئ منهم يومئذ شأن يغنيه",
     "transliteration": "likulli im'ri-in min'hum yawma-idhin shanun yugh'nīhi",
-    "translation": "",
+    "translation": "For every man, that Day, will be a matter adequate for him.",
     "words": [
       {
         "id": "abasa-37-1",
@@ -1272,7 +1308,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors, ce jour-là, chacun d’entre eux sera préoccupé par ce qui le concerne."
   },
   {
     "id": "abasa-38",
@@ -1281,7 +1318,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
     "textSimple": "وجوه يومئذ مسفرة",
     "transliteration": "wujūhun yawma-idhin mus'firatun",
-    "translation": "",
+    "translation": "[Some] faces, that Day, will be bright -",
     "words": [
       {
         "id": "abasa-38-1",
@@ -1305,7 +1342,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des visages, ce jour-là, seront radieux,"
   },
   {
     "id": "abasa-39",
@@ -1314,7 +1352,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
     "textSimple": "ضاحكة مستبشرة",
     "transliteration": "ḍāḥikatun mus'tabshiratun",
-    "translation": "",
+    "translation": "Laughing, rejoicing at good news.",
     "words": [
       {
         "id": "abasa-39-1",
@@ -1331,7 +1369,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "riants et pleins d’espérance."
   },
   {
     "id": "abasa-40",
@@ -1340,7 +1379,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
     "textSimple": "ووجوه يومئذ عليها غبرة",
     "transliteration": "wawujūhun yawma-idhin ʿalayhā ghabaratun",
-    "translation": "",
+    "translation": "And [other] faces, that Day, will have upon them dust.",
     "words": [
       {
         "id": "abasa-40-1",
@@ -1371,7 +1410,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (d’autres) visages, ce jour-là, seront couverts de poussière"
   },
   {
     "id": "abasa-41",
@@ -1380,7 +1420,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "تَرْهَقُهَا قَتَرَةٌ",
     "textSimple": "ترهقها قترة",
     "transliteration": "tarhaquhā qataratun",
-    "translation": "",
+    "translation": "Blackness will cover them.",
     "words": [
       {
         "id": "abasa-41-1",
@@ -1397,7 +1437,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "rembrunis par les ténèbres."
   },
   {
     "id": "abasa-42",
@@ -1406,7 +1447,7 @@ export const _ABASA_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
     "textSimple": "أولـٓئك هم ٱلكفرة ٱلفجرة",
     "transliteration": "ulāika humu l-kafaratu l-fajaratu",
-    "translation": "",
+    "translation": "Those are the disbelievers, the wicked ones.",
     "words": [
       {
         "id": "abasa-42-1",
@@ -1437,7 +1478,8 @@ export const _ABASA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont les mécréants et les pervers !"
   }
 ];
 

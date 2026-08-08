@@ -11,7 +11,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
     "textSimple": " يـٓأيها ٱلنبى إذا طلقتم ٱلنسآء فطلقوهن لعدتهن وأحصوا ٱلعدة  وٱتقوا ٱلله ربكم  لا تخرجوهن من بيوتهن ولا يخرجن إلآ أن يأتين بفـحشة مبينة  وتلك حدود ٱلله  ومن يتعد حدود ٱلله فقد ظلم نفسه  لا تدرى لعل ٱلله يحدث بعد ذلك أمرا",
     "transliteration": "yāayyuhā l-nabiyu idhā ṭallaqtumu l-nisāa faṭalliqūhunna liʿiddatihinna wa-aḥṣū l-ʿidata wa-ittaqū l-laha rabbakum lā tukh'rijūhunna min buyūtihinna walā yakhruj'na illā an yatīna bifāḥishatin mubayyinatin watil'ka ḥudūdu l-lahi waman yataʿadda ḥudūda l-lahi faqad ẓalama nafsahu lā tadrī laʿalla l-laha yuḥ'dithu baʿda dhālika amran",
-    "translation": "",
+    "translation": "O Prophet, when you [Muslims] divorce women, divorce them for [the commencement of] their waiting period and keep count of the waiting period, and fear Allāh, your Lord. Do not turn them out of their [husbands'] houses, nor should they [themselves] leave [during that period] unless they are committing a clear immorality. And those are the limits [set by] Allāh. And whoever transgresses the limits of Allāh has certainly wronged himself. You know not; perhaps Allāh will bring about after that a [different] matter.",
     "words": [
       {
         "id": "at-talaq-1-1",
@@ -301,7 +301,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 40
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Si vous divorcez d’avec les femmes, faites-le (en respectant) leur délai de viduité (‘iddah) dont vous compterez (les jours). Craignez Allah, votre Seigneur, ne les faites pas sortir de leurs maisons ! Qu’elles n’en sortent que si elles ont commis un acte immoral évident. Telles sont les limites d’Allah (hudûd). Celui qui outrepasse les limites d’Allah est injuste envers lui-même. Tu ne peux savoir si, entre-temps, Allah ne fera pas advenir une situation nouvelle."
   },
   {
     "id": "at-talaq-2",
@@ -310,7 +311,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
     "textSimple": "فإذا بلغن أجلهن فأمسكوهن بمعروف أو فارقوهن بمعروف وأشهدوا ذوى عدل منكم وأقيموا ٱلشهـدة لله  ذلكم يوعظ به من كان يؤمن بٱلله وٱليوم ٱلـٔاخر  ومن يتق ٱلله يجعل له مخرجا",
     "transliteration": "fa-idhā balaghna ajalahunna fa-amsikūhunna bimaʿrūfin aw fāriqūhunna bimaʿrūfin wa-ashhidū dhaway ʿadlin minkum wa-aqīmū l-shahādata lillahi dhālikum yūʿaẓu bihi man kāna yu'minu bil-lahi wal-yawmi l-ākhiri waman yattaqi l-laha yajʿal lahu makhrajan",
-    "translation": "",
+    "translation": "And when they have [nearly] fulfilled their term, either retain them according to acceptable terms or part with them according to acceptable terms. And bring to witness two just men from among you and establish the testimony for [the acceptance of] Allāh. That is instructed to whoever should believe in Allāh and the Last Day. And whoever fears Allāh - He will make for him a way out",
     "words": [
       {
         "id": "at-talaq-2-1",
@@ -523,7 +524,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur terme ayant été atteint, ou vous les garderez alors d’une manière convenable, ou vous les quitterez d’une manière tout aussi convenable. Faites témoigner de cela deux hommes parmi les plus équitables d’entre vous. Vous devez en témoigner (par obéissance) à Allah. Voilà une exhortation pour qui croit en Allah et au Jour Dernier. À quiconque Le craint, Allah prévoit une (honorable) voie de sortie,"
   },
   {
     "id": "at-talaq-3",
@@ -532,7 +534,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
     "textSimple": "ويرزقه من حيث لا يحتسب  ومن يتوكل على ٱلله فهو حسبهٓ  إن ٱلله بـلغ أمره  قد جعل ٱلله لكل شىء قدرا",
     "transliteration": "wayarzuq'hu min ḥaythu lā yaḥtasibu waman yatawakkal ʿalā l-lahi fahuwa ḥasbuhu inna l-laha bālighu amrihi qad jaʿala l-lahu likulli shayin qadran",
-    "translation": "",
+    "translation": "And will provide for him from where he does not expect. And whoever relies upon Allāh - then He is sufficient for him. Indeed, Allāh will accomplish His purpose. Allāh has already set for everything a [decreed] extent.",
     "words": [
       {
         "id": "at-talaq-3-1",
@@ -682,7 +684,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et lui dispensera (des biens) d’une manière à laquelle il ne s’attendait pas. Quiconque s’en remet à Allah, (Allah) lui suffira. Allah atteint toujours Son objectif et Il a prévu à chaque chose un terme mesuré."
   },
   {
     "id": "at-talaq-4",
@@ -691,7 +694,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
     "textSimple": "وٱلـٓـٔى يئسن من ٱلمحيض من نسآئكم إن ٱرتبتم فعدتهن ثلـثة أشهر وٱلـٓـٔى لم يحضن  وأولـت ٱلأحمال أجلهن أن يضعن حملهن  ومن يتق ٱلله يجعل له من أمره يسرا",
     "transliteration": "wa-allāī ya-is'na mina l-maḥīḍi min nisāikum ini ir'tabtum faʿiddatuhunna thalāthatu ashhurin wa-allāī lam yaḥiḍ'na wa-ulātu l-aḥmāli ajaluhunna an yaḍaʿna ḥamlahunna waman yattaqi l-laha yajʿal lahu min amrihi yus'ran",
-    "translation": "",
+    "translation": "And those who no longer expect menstruation among your women - if you doubt, then their period is three months, and [also for] those who have not menstruated. And for those who are pregnant, their term is until they give birth. And whoever fears Allāh - He will make for him of his matter ease.",
     "words": [
       {
         "id": "at-talaq-4-1",
@@ -890,7 +893,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celles qui ont atteint la ménopause, parmi vos femmes, devront observer, si vous avez des doutes (en comptant les jours de la ‘iddah), une (période) d’attente de trois mois. La même (attente est prescrite) à celles qui n’ont pas encore leurs règles. Quant à celles qui sont enceintes, leur terme de viduité est l’accouchement. Quiconque craint Allah, (Allah) lui rendra les choses plus faciles."
   },
   {
     "id": "at-talaq-5",
@@ -899,7 +903,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
     "textSimple": "ذلك أمر ٱلله أنزلهٓ إليكم  ومن يتق ٱلله يكفر عنه سيـٔاته ويعظم لهٓ أجرا",
     "transliteration": "dhālika amru l-lahi anzalahu ilaykum waman yattaqi l-laha yukaffir ʿanhu sayyiātihi wayuʿ'ẓim lahu ajran",
-    "translation": "",
+    "translation": "That is the command of Allāh, which He has sent down to you; and whoever fears Allāh - He will remove for him his misdeeds and make great for him his reward.",
     "words": [
       {
         "id": "at-talaq-5-1",
@@ -1000,7 +1004,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est l’ordre qu’Allah a fait descendre pour vous. Quiconque craint Allah, (Allah) rachètera ses mauvaises actions et lui accordera une grande récompense."
   },
   {
     "id": "at-talaq-6",
@@ -1009,7 +1014,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
     "textSimple": "أسكنوهن من حيث سكنتم من وجدكم ولا تضآروهن لتضيقوا عليهن  وإن كن أولـت حمل فأنفقوا عليهن حتى يضعن حملهن  فإن أرضعن لكم فـٔاتوهن أجورهن  وأتمروا بينكم بمعروف  وإن تعاسرتم فسترضع لهٓ أخرى",
     "transliteration": "askinūhunna min ḥaythu sakantum min wuj'dikum walā tuḍārrūhunna lituḍayyiqū ʿalayhinna wa-in kunna ulāti ḥamlin fa-anfiqū ʿalayhinna ḥattā yaḍaʿna ḥamlahunna fa-in arḍaʿna lakum faātūhunna ujūrahunna watamirū baynakum bimaʿrūfin wa-in taʿāsartum fasatur'ḍiʿu lahu ukh'rā",
-    "translation": "",
+    "translation": "Lodge them [in a section] of where you dwell out of your means and do not harm them in order to oppress them. And if they should be pregnant, then spend on them until they give birth. And if they breastfeed for you, then give them their payment and confer among yourselves in the acceptable way; but if you are in discord, then there may breastfeed for him [i.e., the father] another woman.",
     "words": [
       {
         "id": "at-talaq-6-1",
@@ -1236,7 +1241,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Logez (vos femmes répudiées) dans (les habitations) où vous résidez vous-mêmes, selon vos moyens. Ne leur cherchez pas noise en leur rendant la vie insupportable. Et si elles sont enceintes, assurez les dépenses qui leur sont nécessaires jusqu’à ce qu’elles accouchent. Si, (par la suite), elles allaitent (votre enfant), versez-leur une pension. Que vos concertations (à ce sujet) soient sereines et convenables. Mais, si vous ne vous vous êtes pas entendus, que l’allaitement soit confié à une autre (femme)."
   },
   {
     "id": "at-talaq-7",
@@ -1245,7 +1251,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
     "textSimple": "لينفق ذو سعة من سعته  ومن قدر عليه رزقه فلينفق ممآ ءاتىه ٱلله  لا يكلف ٱلله نفسا إلا مآ ءاتىها  سيجعل ٱلله بعد عسر يسرا",
     "transliteration": "liyunfiq dhū saʿatin min saʿatihi waman qudira ʿalayhi riz'quhu falyunfiq mimmā ātāhu l-lahu lā yukallifu l-lahu nafsan illā mā ātāhā sayajʿalu l-lahu baʿda ʿus'rin yus'ran",
-    "translation": "",
+    "translation": "Let a man of wealth spend from his wealth, and he whose provision is restricted - let him spend from what Allāh has given him. Allāh does not charge a soul except [according to] what He has given it. Allāh will bring about, after hardship, ease [i.e., relief].",
     "words": [
       {
         "id": "at-talaq-7-1",
@@ -1423,7 +1429,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que le fortuné dépense selon sa fortune ; et que l’homme de condition plus modeste dépense de ce qu’Allah lui a accordé (comme biens). Allah ne charge une personne que selon ce qu’Il lui a donné. Allah fera qu’après la difficulté vienne l’aisance."
   },
   {
     "id": "at-talaq-8",
@@ -1432,7 +1439,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
     "textSimple": "وكأين من قرية عتت عن أمر ربها ورسله فحاسبنـها حسابا شديدا وعذبنـها عذابا نكرا",
     "transliteration": "waka-ayyin min qaryatin ʿatat ʿan amri rabbihā warusulihi faḥāsabnāhā ḥisāban shadīdan waʿadhabnāhā ʿadhāban nuk'ran",
-    "translation": "",
+    "translation": "And how many a city was insolent toward the command of its Lord and His messengers, so We took it to severe account and punished it with a terrible punishment.",
     "words": [
       {
         "id": "at-talaq-8-1",
@@ -1533,7 +1540,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de cités se sont dressées contre l’ordre de leur Seigneur et de Ses Messagers ! Nous le leur fîmes payer cher, et Nous sévîmes contre elles par un supplice des plus atroces."
   },
   {
     "id": "at-talaq-9",
@@ -1542,7 +1550,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَـٰقِبَةُ أَمْرِهَا خُسْرًا",
     "textSimple": "فذاقت وبال أمرها وكان عـقبة أمرها خسرا",
     "transliteration": "fadhāqat wabāla amrihā wakāna ʿāqibatu amrihā khus'ran",
-    "translation": "",
+    "translation": "And it tasted the bad consequence of its affair [i.e., rebellion], and the outcome of its affair was loss.",
     "words": [
       {
         "id": "at-talaq-9-1",
@@ -1594,7 +1602,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elles goûtèrent alors le péril dû à leur conduite, et leur sort fut la ruine."
   },
   {
     "id": "at-talaq-10",
@@ -1603,7 +1612,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
     "textSimple": "أعد ٱلله لهم عذابا شديدا  فٱتقوا ٱلله يـٓأولى ٱلألبـب ٱلذين ءامنوا  قد أنزل ٱلله إليكم ذكرا",
     "transliteration": "aʿadda l-lahu lahum ʿadhāban shadīdan fa-ittaqū l-laha yāulī l-albābi alladhīna āmanū qad anzala l-lahu ilaykum dhik'ran",
-    "translation": "",
+    "translation": "Allāh has prepared for them a severe punishment; so fear Allāh, O you of understanding who have believed. Allāh has sent down to you a message [i.e., the Qur’ān].",
     "words": [
       {
         "id": "at-talaq-10-1",
@@ -1718,7 +1727,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah leur a préparé un terrible supplice. Craignez Allah, ô esprits sagaces qui avez cru ! Allah a fait descendre (en révélation) pour vous un Rappel,"
   },
   {
     "id": "at-talaq-11",
@@ -1727,7 +1737,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
     "textSimple": "رسولا يتلوا عليكم ءايـت ٱلله مبينـت ليخرج ٱلذين ءامنوا وعملوا ٱلصـلحـت من ٱلظلمـت إلى ٱلنور  ومن يؤمن بٱلله ويعمل صـلحا يدخله جنـت تجرى من تحتها ٱلأنهـر خـلدين فيهآ أبدا  قد أحسن ٱلله له رزقا",
     "transliteration": "rasūlan yatlū ʿalaykum āyāti l-lahi mubayyinātin liyukh'rija alladhīna āmanū waʿamilū l-ṣāliḥāti mina l-ẓulumāti ilā l-nūri waman yu'min bil-lahi wayaʿmal ṣāliḥan yud'khil'hu jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā abadan qad aḥsana l-lahu lahu riz'qan",
-    "translation": "",
+    "translation": "[He sent] a Messenger [i.e., Muḥammad (ﷺ)] reciting to you the distinct verses of Allāh that He may bring out those who believe and do righteous deeds from darknesses into the light. And whoever believes in Allāh and does righteousness - He will admit him into gardens beneath which rivers flow to abide therein forever. Allāh will have perfected for him a provision.",
     "words": [
       {
         "id": "at-talaq-11-1",
@@ -1968,7 +1978,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(et envoyé) un Messager qui vous récite les versets explicites d’Allah, pour faire sortir ceux qui ont cru et ont accompli les bonnes œuvres des ténèbres vers la lumière. (Car) ceux qui croient en Allah et font le bien, (Allah) les fera entrer dans des jardins sous lesquels coulent les rivières, où ils séjourneront à tout jamais. Allah leur dispensera ce qu’il y a de meilleur !"
   },
   {
     "id": "at-talaq-12",
@@ -1977,7 +1988,7 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
     "textSimple": "ٱلله ٱلذى خلق سبع سمـوت ومن ٱلأرض مثلهن يتنزل ٱلأمر بينهن لتعلموٓا أن ٱلله على كل شىء قدير وأن ٱلله قد أحاط بكل شىء علما",
     "transliteration": "al-lahu alladhī khalaqa sabʿa samāwātin wamina l-arḍi mith'lahunna yatanazzalu l-amru baynahunna litaʿlamū anna l-laha ʿalā kulli shayin qadīrun wa-anna l-laha qad aḥāṭa bikulli shayin ʿil'man",
-    "translation": "",
+    "translation": "It is Allāh who has created seven heavens and of the earth, the like of them. [His] command descends among them so you may know that Allāh is over all things competent and that Allāh has encompassed all things in knowledge.",
     "words": [
       {
         "id": "at-talaq-12-1",
@@ -2155,7 +2166,8 @@ export const AT_TALAQ_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui a créé sept cieux et des terres en nombre semblable. Entre (cieux et terres), l’ordre descend (toujours) pour que vous sachiez qu’Allah est de Toute chose Infiniment Capable, et qu’Allah Cerne Toute Chose par Sa Science."
   }
 ];
 

@@ -11,7 +11,7 @@ export const AN_NASR_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
     "textSimple": " إذا جآء نصر ٱلله وٱلفتح",
     "transliteration": "idhā jāa naṣru l-lahi wal-fatḥu",
-    "translation": "",
+    "translation": "When the victory of Allāh has come and the conquest,",
     "words": [
       {
         "id": "an-nasr-1-1",
@@ -49,7 +49,8 @@ export const AN_NASR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque viendra le secours d’Allah (annonçant) la victoire,"
   },
   {
     "id": "an-nasr-2",
@@ -58,7 +59,7 @@ export const AN_NASR_AYAHS: Ayah[] = [
     "textUthmani": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
     "textSimple": "ورأيت ٱلناس يدخلون فى دين ٱلله أفواجا",
     "transliteration": "wara-ayta l-nāsa yadkhulūna fī dīni l-lahi afwājan",
-    "translation": "",
+    "translation": "And you see the people entering into the religion of Allāh in multitudes,",
     "words": [
       {
         "id": "an-nasr-2-1",
@@ -110,7 +111,8 @@ export const AN_NASR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que tu verras les hommes entrer dans la religion d’Allah en foules,"
   },
   {
     "id": "an-nasr-3",
@@ -119,7 +121,7 @@ export const AN_NASR_AYAHS: Ayah[] = [
     "textUthmani": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
     "textSimple": "فسبح بحمد ربك وٱستغفره  إنه كان توابا",
     "transliteration": "fasabbiḥ biḥamdi rabbika wa-is'taghfir'hu innahu kāna tawwāban",
-    "translation": "",
+    "translation": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of Repentance.",
     "words": [
       {
         "id": "an-nasr-3-1",
@@ -171,7 +173,8 @@ export const AN_NASR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "rends gloire alors à ton Seigneur, célèbre Ses louanges et implore Son pardon ! Car Il est Tout Absoluteur !"
   }
 ];
 

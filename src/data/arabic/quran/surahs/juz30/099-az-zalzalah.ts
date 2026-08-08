@@ -11,7 +11,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
     "textSimple": " إذا زلزلت ٱلأرض زلزالها",
     "transliteration": "idhā zul'zilati l-arḍu zil'zālahā",
-    "translation": "",
+    "translation": "When the earth is shaken with its [final] earthquake",
     "words": [
       {
         "id": "az-zalzalah-1-1",
@@ -42,7 +42,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque la terre aura tremblé de son (plus violent) tremblement,"
   },
   {
     "id": "az-zalzalah-2",
@@ -51,7 +52,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
     "textSimple": "وأخرجت ٱلأرض أثقالها",
     "transliteration": "wa-akhrajati l-arḍu athqālahā",
-    "translation": "",
+    "translation": "And the earth discharges its burdens",
     "words": [
       {
         "id": "az-zalzalah-2-1",
@@ -75,7 +76,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’elle aura rejeté tous ses fardeaux,"
   },
   {
     "id": "az-zalzalah-3",
@@ -84,7 +86,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
     "textSimple": "وقال ٱلإنسـن ما لها",
     "transliteration": "waqāla l-insānu mā lahā",
-    "translation": "",
+    "translation": "And man says, \"What is [wrong] with it?\" -",
     "words": [
       {
         "id": "az-zalzalah-3-1",
@@ -115,7 +117,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que l’homme aura demandé : « Qu’est-ce qu’elle a ? »"
   },
   {
     "id": "az-zalzalah-4",
@@ -124,7 +127,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
     "textSimple": "يومئذ تحدث أخبارها",
     "transliteration": "yawma-idhin tuḥaddithu akhbārahā",
-    "translation": "",
+    "translation": "That Day, it will report its news",
     "words": [
       {
         "id": "az-zalzalah-4-1",
@@ -148,7 +151,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, elle dira son histoire,"
   },
   {
     "id": "az-zalzalah-5",
@@ -157,7 +161,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
     "textSimple": "بأن ربك أوحى لها",
     "transliteration": "bi-anna rabbaka awḥā lahā",
-    "translation": "",
+    "translation": "Because your Lord has inspired [i.e., commanded] it.",
     "words": [
       {
         "id": "az-zalzalah-5-1",
@@ -188,7 +192,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "d’après ce que ton Seigneur lui aura ordonné."
   },
   {
     "id": "az-zalzalah-6",
@@ -197,7 +202,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
     "textSimple": "يومئذ يصدر ٱلناس أشتاتا ليروا أعمـلهم",
     "transliteration": "yawma-idhin yaṣduru l-nāsu ashtātan liyuraw aʿmālahum",
-    "translation": "",
+    "translation": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds.",
     "words": [
       {
         "id": "az-zalzalah-6-1",
@@ -242,7 +247,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, les hommes sortiront par groupes épars pour répondre de leurs œuvres."
   },
   {
     "id": "az-zalzalah-7",
@@ -251,7 +257,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
     "textSimple": "فمن يعمل مثقال ذرة خيرا يره",
     "transliteration": "faman yaʿmal mith'qāla dharratin khayran yarahu",
-    "translation": "",
+    "translation": "So whoever does an atom's weight of good will see it,",
     "words": [
       {
         "id": "az-zalzalah-7-1",
@@ -296,7 +302,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui aura fait ne fût-ce que le poids d’un atome en bien, le verra ;"
   },
   {
     "id": "az-zalzalah-8",
@@ -305,7 +312,7 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
     "textSimple": "ومن يعمل مثقال ذرة شرا يره",
     "transliteration": "waman yaʿmal mith'qāla dharratin sharran yarahu",
-    "translation": "",
+    "translation": "And whoever does an atom's weight of evil will see it.",
     "words": [
       {
         "id": "az-zalzalah-8-1",
@@ -350,7 +357,8 @@ export const AZ_ZALZALAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et celui qui aura fait ne fût-ce que le poids d’un atome en mal, le verra."
   }
 ];
 

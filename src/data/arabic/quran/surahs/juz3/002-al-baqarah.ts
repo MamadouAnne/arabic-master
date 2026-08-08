@@ -11,7 +11,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": " الٓمٓ",
     "textSimple": " الٓمٓ",
     "transliteration": "alif-lam-meem",
-    "translation": "",
+    "translation": "Alif, Lām, Meem.",
     "words": [
       {
         "id": "al-baqarah-1-1",
@@ -21,7 +21,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Mîm."
   },
   {
     "id": "al-baqarah-2",
@@ -30,7 +31,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ ٱلْكِتَـٰبُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ",
     "textSimple": "ذلك ٱلكتـب لا ريب  فيه  هدى للمتقين",
     "transliteration": "dhālika l-kitābu lā rayba fīhi hudan lil'muttaqīna",
-    "translation": "",
+    "translation": "This is the Book about which there is no doubt, a guidance for those conscious of Allāh -",
     "words": [
       {
         "id": "al-baqarah-2-1",
@@ -82,7 +83,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici le Livre à propos duquel il n’y a nul doute, guide pour les gens pieux,"
   },
   {
     "id": "al-baqarah-3",
@@ -91,7 +93,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     "textSimple": "ٱلذين يؤمنون بٱلغيب ويقيمون ٱلصلوة ومما رزقنـهم ينفقون",
     "transliteration": "alladhīna yu'minūna bil-ghaybi wayuqīmūna l-ṣalata wamimmā razaqnāhum yunfiqūna",
-    "translation": "",
+    "translation": "Who believe in the unseen, establish prayer, and spend out of what We have provided for them,",
     "words": [
       {
         "id": "al-baqarah-3-1",
@@ -150,7 +152,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui croient à l’Inconnaissable (ghayb), accomplissent la Çalât et dépensent des biens que Nous leur avons dispensés."
   },
   {
     "id": "al-baqarah-4",
@@ -159,7 +162,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
     "textSimple": "وٱلذين يؤمنون بمآ أنزل إليك ومآ أنزل من قبلك وبٱلـٔاخرة هم يوقنون",
     "transliteration": "wa-alladhīna yu'minūna bimā unzila ilayka wamā unzila min qablika wabil-ākhirati hum yūqinūna",
-    "translation": "",
+    "translation": "And who believe in what has been revealed to you, [O Muḥammad], and what was revealed before you, and of the Hereafter they are certain [in faith].",
     "words": [
       {
         "id": "al-baqarah-4-1",
@@ -246,7 +249,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui croient à ce qui t’a été révélé et à ce qui a été révélé avant toi, et qui croient avec certitude à la vie future."
   },
   {
     "id": "al-baqarah-5",
@@ -255,7 +259,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "أولـٓئك على هدى من ربهم  وأولـٓئك هم ٱلمفلحون",
     "transliteration": "ulāika ʿalā hudan min rabbihim wa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "Those are upon [right] guidance from their Lord, and it is those who are the successful.",
     "words": [
       {
         "id": "al-baqarah-5-1",
@@ -314,7 +318,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont sur la voie de leur Seigneur et ceux-là sont ceux qui ont réussi."
   },
   {
     "id": "al-baqarah-6",
@@ -323,7 +328,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "إن ٱلذين كفروا سوآء عليهم ءأنذرتهم أم لم تنذرهم لا يؤمنون",
     "transliteration": "inna alladhīna kafarū sawāon ʿalayhim a-andhartahum am lam tundhir'hum lā yu'minūna",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe.",
     "words": [
       {
         "id": "al-baqarah-6-1",
@@ -403,7 +408,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru, que tu les avertisses ou non, n’en seront pas moins mécréants."
   },
   {
     "id": "al-baqarah-7",
@@ -412,7 +418,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَـٰرِهِمْ غِشَـٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
     "textSimple": "ختم ٱلله على قلوبهم وعلى سمعهم  وعلىٓ أبصـرهم غشـوة  ولهم عذاب عظيم",
     "transliteration": "khatama l-lahu ʿalā qulūbihim waʿalā samʿihim waʿalā abṣārihim ghishāwatun walahum ʿadhābun ʿaẓīmun",
-    "translation": "",
+    "translation": "Allāh has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment.",
     "words": [
       {
         "id": "al-baqarah-7-1",
@@ -499,7 +505,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a scellé leurs cœurs et leur ouïe, leur vue est obnubilée par un voile et il leur est promis un terrible supplice."
   },
   {
     "id": "al-baqarah-8",
@@ -508,7 +515,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
     "textSimple": "ومن ٱلناس من يقول ءامنا بٱلله وبٱليوم ٱلـٔاخر وما هم بمؤمنين",
     "transliteration": "wamina l-nāsi man yaqūlu āmannā bil-lahi wabil-yawmi l-ākhiri wamā hum bimu'minīna",
-    "translation": "",
+    "translation": "And of the people are some who say, \"We believe in Allāh and the Last Day,\" but they are not believers.",
     "words": [
       {
         "id": "al-baqarah-8-1",
@@ -588,7 +595,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est des gens qui disent : « Nous croyons en Allah et au Jour Dernier » et qui ne sont point croyants."
   },
   {
     "id": "al-baqarah-9",
@@ -597,7 +605,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يُخَـٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
     "textSimple": "يخـدعون ٱلله وٱلذين ءامنوا وما يخدعون إلآ أنفسهم وما يشعرون",
     "transliteration": "yukhādiʿūna l-laha wa-alladhīna āmanū wamā yakhdaʿūna illā anfusahum wamā yashʿurūna",
-    "translation": "",
+    "translation": "They [think to] deceive Allāh and those who believe, but they deceive not except themselves and perceive [it] not.",
     "words": [
       {
         "id": "al-baqarah-9-1",
@@ -670,7 +678,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils cherchent à tromper Allah et ceux qui ont cru mais ils ne trompent qu’eux-mêmes et ne le sentent pas."
   },
   {
     "id": "al-baqarah-10",
@@ -679,7 +688,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
     "textSimple": "فى قلوبهم مرض فزادهم ٱلله مرضا  ولهم عذاب أليم بما كانوا يكذبون",
     "transliteration": "fī qulūbihim maraḍun fazādahumu l-lahu maraḍan walahum ʿadhābun alīmun bimā kānū yakdhibūna",
-    "translation": "",
+    "translation": "In their hearts is disease, so Allāh has increased their disease; and for them is a painful punishment because they [habitually] used to lie.",
     "words": [
       {
         "id": "al-baqarah-10-1",
@@ -766,7 +775,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs cœurs sont minés par une maladie, alors Allah a ajouté à leur maladie et ils auront un châtiment douloureux pour avoir menti."
   },
   {
     "id": "al-baqarah-11",
@@ -775,7 +785,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ قَالُوٓا۟ إِنَّمَا نَحْنُ مُصْلِحُونَ",
     "textSimple": "وإذا قيل لهم لا تفسدوا فى ٱلأرض قالوٓا إنما نحن مصلحون",
     "transliteration": "wa-idhā qīla lahum lā tuf'sidū fī l-arḍi qālū innamā naḥnu muṣ'liḥūna",
-    "translation": "",
+    "translation": "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\"",
     "words": [
       {
         "id": "al-baqarah-11-1",
@@ -855,7 +865,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’il leur est dit : « Ne semez point la corruption sur terre », ils répondent : « Nous sommes en vérité des réformateurs. »"
   },
   {
     "id": "al-baqarah-12",
@@ -864,7 +875,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَـٰكِن لَّا يَشْعُرُونَ",
     "textSimple": "ألآ إنهم هم ٱلمفسدون ولـكن لا يشعرون",
     "transliteration": "alā innahum humu l-muf'sidūna walākin lā yashʿurūna",
-    "translation": "",
+    "translation": "Unquestionably, it is they who are the corrupters, but they perceive [it] not.",
     "words": [
       {
         "id": "al-baqarah-12-1",
@@ -916,7 +927,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont pourtant eux les corrupteurs mais ils ne le sentent pas."
   },
   {
     "id": "al-baqarah-13",
@@ -925,7 +937,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓا۟ أَنُؤْمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُ ۗ أَلَآ إِنَّهُمْ هُمُ ٱلسُّفَهَآءُ وَلَـٰكِن لَّا يَعْلَمُونَ",
     "textSimple": "وإذا قيل لهم ءامنوا كمآ ءامن ٱلناس قالوٓا أنؤمن كمآ ءامن ٱلسفهآء  ألآ إنهم هم ٱلسفهآء ولـكن لا يعلمون",
     "transliteration": "wa-idhā qīla lahum āminū kamā āmana l-nāsu qālū anu'minu kamā āmana l-sufahāu alā innahum humu l-sufahāu walākin lā yaʿlamūna",
-    "translation": "",
+    "translation": "And when it is said to them, \"Believe as the people have believed,\" they say, \"Should we believe as the foolish have believed?\" Unquestionably, it is they who are the foolish, but they know [it] not.",
     "words": [
       {
         "id": "al-baqarah-13-1",
@@ -1061,7 +1073,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand il leur est dit : « Croyez donc comme ont cru les (autres) hommes », ils disent : « Allons-nous donc croire comme ont cru les ignares ? » Ce sont bien eux les ignares mais ils ne le savent pas."
   },
   {
     "id": "al-baqarah-14",
@@ -1070,7 +1083,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا لَقُوا۟ ٱلَّذِينَ ءَامَنُوا۟ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ إِلَىٰ شَيَـٰطِينِهِمْ قَالُوٓا۟ إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِءُونَ",
     "textSimple": "وإذا لقوا ٱلذين ءامنوا قالوٓا ءامنا وإذا خلوا إلى شيـطينهم قالوٓا إنا معكم إنما نحن مستهزءون",
     "transliteration": "wa-idhā laqū alladhīna āmanū qālū āmannā wa-idhā khalaw ilā shayāṭīnihim qālū innā maʿakum innamā naḥnu mus'tahziūna",
-    "translation": "",
+    "translation": "And when they meet those who believe, they say, \"We believe\"; but when they are alone with their evil ones, they say, \"Indeed, we are with you; we were only mockers.\"",
     "words": [
       {
         "id": "al-baqarah-14-1",
@@ -1185,7 +1198,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils croisent ceux qui ont cru, ils (leur) disent : « Nous avons cru », mais quand ils se retrouvent seuls avec leurs démons, ils disent : « Nous sommes avec vous. Nous ne faisons que nous moquer (des croyants). »"
   },
   {
     "id": "al-baqarah-15",
@@ -1194,7 +1208,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ",
     "textSimple": "ٱلله يستهزئ بهم ويمدهم فى طغيـنهم يعمهون",
     "transliteration": "al-lahu yastahzi-u bihim wayamudduhum fī ṭugh'yānihim yaʿmahūna",
-    "translation": "",
+    "translation": "[But] Allāh mocks them and prolongs them in their transgression [while] they wander blindly.",
     "words": [
       {
         "id": "al-baqarah-15-1",
@@ -1246,7 +1260,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah Se moque d’eux, Qui les confortera dans leurs débordements et les laissera patauger dans leur aveuglement."
   },
   {
     "id": "al-baqarah-16",
@@ -1255,7 +1270,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَـٰلَةَ بِٱلْهُدَىٰ فَمَا رَبِحَت تِّجَـٰرَتُهُمْ وَمَا كَانُوا۟ مُهْتَدِينَ",
     "textSimple": "أولـٓئك ٱلذين ٱشتروا ٱلضلـلة بٱلهدى فما ربحت تجـرتهم وما كانوا مهتدين",
     "transliteration": "ulāika alladhīna ish'tarawū l-ḍalālata bil-hudā famā rabiḥat tijāratuhum wamā kānū muh'tadīna",
-    "translation": "",
+    "translation": "Those are the ones who have purchased error [in exchange] for guidance, so their transaction has brought no profit, nor were they guided.",
     "words": [
       {
         "id": "al-baqarah-16-1",
@@ -1335,7 +1350,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux-là qui ont troqué la juste voie contre l’égarement. Leur commerce alors n’a point prospéré et ils n’ont pas su trouver le droit chemin."
   },
   {
     "id": "al-baqarah-17",
@@ -1344,7 +1360,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَـٰتٍ لَّا يُبْصِرُونَ",
     "textSimple": "مثلهم كمثل ٱلذى ٱستوقد نارا فلمآ أضآءت ما حوله ذهب ٱلله بنورهم وتركهم فى ظلمـت لا يبصرون",
     "transliteration": "mathaluhum kamathali alladhī is'tawqada nāran falammā aḍāat mā ḥawlahu dhahaba l-lahu binūrihim watarakahum fī ẓulumātin lā yub'ṣirūna",
-    "translation": "",
+    "translation": "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allāh took away their light and left them in darkness [so] they could not see.",
     "words": [
       {
         "id": "al-baqarah-17-1",
@@ -1466,7 +1482,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur cas est semblable à celui qui allume un feu (pour se diriger). Mais leur feu ayant éclairé ce qui était autour d’eux, Allah a pris leur lumière et les a laissés dans les ténèbres où ils ne pouvaient plus rien voir."
   },
   {
     "id": "al-baqarah-18",
@@ -1475,7 +1492,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَرْجِعُونَ",
     "textSimple": "صم بكم عمى فهم لا يرجعون",
     "transliteration": "ṣummun buk'mun ʿum'yun fahum lā yarjiʿūna",
-    "translation": "",
+    "translation": "Deaf, dumb and blind - so they will not return [to the right path].",
     "words": [
       {
         "id": "al-baqarah-18-1",
@@ -1520,7 +1537,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sourds, muets, aveugles, ils ne reviendront pas."
   },
   {
     "id": "al-baqarah-19",
@@ -1529,7 +1547,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَـٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَـٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ ۚ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَـٰفِرِينَ",
     "textSimple": "أو كصيب من ٱلسمآء فيه ظلمـت ورعد وبرق يجعلون أصـبعهم فىٓ ءاذانهم من ٱلصوعق حذر ٱلموت  وٱلله محيط بٱلكـفرين",
     "transliteration": "aw kaṣayyibin mina l-samāi fīhi ẓulumātun waraʿdun wabarqun yajʿalūna aṣābiʿahum fī ādhānihim mina l-ṣawāʿiqi ḥadhara l-mawti wal-lahu muḥīṭun bil-kāfirīna",
-    "translation": "",
+    "translation": "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allāh is encompassing of the disbelievers.",
     "words": [
       {
         "id": "al-baqarah-19-1",
@@ -1665,7 +1683,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou comme (le cas de) ceux qui, lorsque du ciel tombe une averse charriant ténèbres, tonnerre et éclairs, mettent leurs doigts dans leurs oreilles craignant la foudre et appréhendant la mort ; mais Allah, de partout, cerne les mécréants."
   },
   {
     "id": "al-baqarah-20",
@@ -1674,7 +1693,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَـٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَـٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "يكاد ٱلبرق يخطف أبصـرهم  كلمآ أضآء لهم مشوا فيه وإذآ أظلم عليهم قاموا  ولو شآء ٱلله لذهب بسمعهم وأبصـرهم  إن ٱلله على كل شىء قدير",
     "transliteration": "yakādu l-barqu yakhṭafu abṣārahum kullamā aḍāa lahum mashaw fīhi wa-idhā aẓlama ʿalayhim qāmū walaw shāa l-lahu ladhahaba bisamʿihim wa-abṣārihim inna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allāh had willed, He could have taken away their hearing and their sight. Indeed, Allāh is over all things competent.",
     "words": [
       {
         "id": "al-baqarah-20-1",
@@ -1852,7 +1871,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’éclair, de justesse, manque de leur ravir la vue ; chaque fois qu’il illumine pour eux (ce qui les entoure), ils y marchent, et aussitôt que tout s’assombrit autour d’eux, ils s’arrêtent. Si Allah voulait, Il prendrait leur ouïe et leur vue. Allah, en effet, est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-baqarah-21",
@@ -1861,7 +1881,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
     "textSimple": "يـٓأيها ٱلناس ٱعبدوا ربكم ٱلذى خلقكم وٱلذين من قبلكم لعلكم تتقون",
     "transliteration": "yāayyuhā l-nāsu uʿ'budū rabbakumu alladhī khalaqakum wa-alladhīna min qablikum laʿallakum tattaqūna",
-    "translation": "",
+    "translation": "O mankind, worship your Lord, who created you and those before you, that you may become righteous -",
     "words": [
       {
         "id": "al-baqarah-21-1",
@@ -1941,7 +1961,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Adorez votre Seigneur Qui vous a créés, vous et ceux qui vous ont précédés. Ainsi saurez-vous (Le) craindre pieusement."
   },
   {
     "id": "al-baqarah-22",
@@ -1950,7 +1971,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
     "textSimple": "ٱلذى جعل لكم ٱلأرض فرشا وٱلسمآء بنآء وأنزل من ٱلسمآء مآء فأخرج به من ٱلثمرت رزقا لكم  فلا تجعلوا لله أندادا وأنتم تعلمون",
     "transliteration": "alladhī jaʿala lakumu l-arḍa firāshan wal-samāa bināan wa-anzala mina l-samāi māan fa-akhraja bihi mina l-thamarāti riz'qan lakum falā tajʿalū lillahi andādan wa-antum taʿlamūna",
-    "translation": "",
+    "translation": "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allāh equals while you know [that there is nothing similar to Him].",
     "words": [
       {
         "id": "al-baqarah-22-1",
@@ -2114,7 +2135,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a fait de la terre une couche pour vous et du ciel un toit ; (et c’est Lui) Qui a fait descendre du ciel de l’eau dont Il a fait sortir des fruits divers pour vous nourrir. Ne trouvez donc point d’émules à Allah en sachant bien (qu’Il n’en a point)."
   },
   {
     "id": "al-baqarah-23",
@@ -2123,7 +2145,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "وإن كنتم فى ريب مما نزلنا على عبدنا فأتوا بسورة من مثله وٱدعوا شهدآءكم من دون ٱلله إن كنتم صـدقين",
     "transliteration": "wa-in kuntum fī raybin mimmā nazzalnā ʿalā ʿabdinā fatū bisūratin min mith'lihi wa-id'ʿū shuhadāakum min dūni l-lahi in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And if you are in doubt about what We have sent down [i.e., the Qur’ān] upon Our Servant [i.e., Prophet Muḥammad (ﷺ)], then produce a sūrah the like thereof and call upon your witnesses [i.e., supporters] other than Allāh, if you should be truthful.",
     "words": [
       {
         "id": "al-baqarah-23-1",
@@ -2266,7 +2288,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si vous êtes dans le doute au sujet de ce que Nous avons fait descendre (en révélation) sur Notre Serviteur, produisez donc une sourate du même genre et appelez vos témoins en dehors d’Allah, si vous êtes sincères."
   },
   {
     "id": "al-baqarah-24",
@@ -2275,7 +2298,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ ۖ أُعِدَّتْ لِلْكَـٰفِرِينَ",
     "textSimple": "فإن لم تفعلوا ولن تفعلوا فٱتقوا ٱلنار ٱلتى وقودها ٱلناس وٱلحجارة  أعدت للكـفرين",
     "transliteration": "fa-in lam tafʿalū walan tafʿalū fa-ittaqū l-nāra allatī waqūduhā l-nāsu wal-ḥijāratu uʿiddat lil'kāfirīna",
-    "translation": "",
+    "translation": "But if you do not - and you will never be able to - then fear the Fire, whose fuel is people and stones, prepared for the disbelievers.",
     "words": [
       {
         "id": "al-baqarah-24-1",
@@ -2369,7 +2392,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si vous ne le faites pas - et vous ne le ferez point - craignez le feu dont les hommes et les pierres seront le combustible et qui a été préparé pour les mécréants."
   },
   {
     "id": "al-baqarah-25",
@@ -2378,7 +2402,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا ۙ قَالُوا۟ هَـٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا۟ بِهِۦ مُتَشَـٰبِهًا ۖ وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وبشر ٱلذين ءامنوا وعملوا ٱلصـلحـت أن لهم جنـت تجرى من تحتها ٱلأنهـر  كلما رزقوا منها من ثمرة رزقا  قالوا هـذا ٱلذى رزقنا من قبل  وأتوا به متشـبها  ولهم فيهآ أزوج مطهرة  وهم فيها خـلدون",
     "transliteration": "wabashiri alladhīna āmanū waʿamilū l-ṣāliḥāti anna lahum jannātin tajrī min taḥtihā l-anhāru kullamā ruziqū min'hā min thamaratin riz'qan qālū hādhā alladhī ruziq'nā min qablu wa-utū bihi mutashābihan walahum fīhā azwājun muṭahharatun wahum fīhā khālidūna",
-    "translation": "",
+    "translation": "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally.",
     "words": [
       {
         "id": "al-baqarah-25-1",
@@ -2619,7 +2643,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et annonce donc (l’heureuse nouvelle) à ceux qui croient et font œuvre de dévotion qu’ils auront des jardins sous lesquels coulent les rivières ; chaque fois qu’il leur en sera servi un fruit, ils diront : « C’est ce qui nous était servi auparavant. » Or ce qui leur était servi était seulement ressemblant ; ils auront là des épouses purifiées, et là ils seront immortels."
   },
   {
     "id": "al-baqarah-26",
@@ -2628,7 +2653,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا ۚ فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۖ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَـٰذَا مَثَلًا ۘ يُضِلُّ بِهِۦ كَثِيرًا وَيَهْدِى بِهِۦ كَثِيرًا ۚ وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَـٰسِقِينَ",
     "textSimple": " إن ٱلله لا يستحىٓ أن يضرب مثلا ما بعوضة فما فوقها  فأما ٱلذين ءامنوا فيعلمون أنه ٱلحق من ربهم  وأما ٱلذين كفروا فيقولون ماذآ أراد ٱلله بهـذا مثلا  يضل به كثيرا ويهدى به كثيرا  وما يضل بهٓ إلا ٱلفـسقين",
     "transliteration": "inna l-laha lā yastaḥyī an yaḍriba mathalan mā baʿūḍatan famā fawqahā fa-ammā alladhīna āmanū fayaʿlamūna annahu l-ḥaqu min rabbihim wa-ammā alladhīna kafarū fayaqūlūna mādhā arāda l-lahu bihādhā mathalan yuḍillu bihi kathīran wayahdī bihi kathīran wamā yuḍillu bihi illā l-fāsiqīna",
-    "translation": "",
+    "translation": "Indeed, Allāh is not timid to present an example - that of a mosquito or what is smaller than it. And those who have believed know that it is the truth from their Lord. But as for those who disbelieve, they say, \"What did Allāh intend by this as an example?\" He misleads many thereby and guides many thereby. And He misleads not except the defiantly disobedient,",
     "words": [
       {
         "id": "al-baqarah-26-1",
@@ -2904,7 +2929,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne s’embarrasse point de citer en parabole un moustique ou (quelque chose) au-dessus (du moustique). Quant aux croyants, ils savent que c’est bien la vérité (émanant) de leur Seigneur ; tandis que les mécréants disent : « Qu’a donc voulu dire Allah par un tel exemple ? » Par cela, Il égare un grand nombre et guide un grand nombre. Et par cela, Il n’égare que les pervers,"
   },
   {
     "id": "al-baqarah-27",
@@ -2913,7 +2939,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَـٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "ٱلذين ينقضون عهد ٱلله من بعد ميثـقه ويقطعون مآ أمر ٱلله بهٓ أن يوصل ويفسدون فى ٱلأرض  أولـٓئك هم ٱلخـسرون",
     "transliteration": "alladhīna yanquḍūna ʿahda l-lahi min baʿdi mīthāqihi wayaqṭaʿūna mā amara l-lahu bihi an yūṣala wayuf'sidūna fī l-arḍi ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "Who break the covenant of Allāh after contracting it and sever that which Allāh has ordered to be joined and cause corruption on earth. It is those who are the losers.",
     "words": [
       {
         "id": "al-baqarah-27-1",
@@ -3056,7 +3082,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui violent le pacte d’Allah après l’avoir conclu, rompent les liens qu’Allah a ordonné de maintenir et répandent la corruption sur terre. Ceux-là sont bien les perdants."
   },
   {
     "id": "al-baqarah-28",
@@ -3065,7 +3092,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَـٰكُمْ ۖ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
     "textSimple": "كيف تكفرون بٱلله وكنتم أموتا فأحيـكم  ثم يميتكم ثم يحييكم ثم إليه ترجعون",
     "transliteration": "kayfa takfurūna bil-lahi wakuntum amwātan fa-aḥyākum thumma yumītukum thumma yuḥ'yīkum thumma ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "How can you disbelieve in Allāh when you were lifeless and He brought you to life; then He will cause you to die, then He will bring you [back] to life, and then to Him you will be returned.",
     "words": [
       {
         "id": "al-baqarah-28-1",
@@ -3159,7 +3186,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comment mécroyez-vous en Allah alors que vous étiez morts et qu’Il vous a donné la vie ? Puis Il vous fera mourir, puis vous fera revivre, puis à Lui vous serez ramenés."
   },
   {
     "id": "al-baqarah-29",
@@ -3168,7 +3196,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ سَبْعَ سَمَـٰوَٰتٍ ۚ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "هو ٱلذى خلق لكم ما فى ٱلأرض جميعا ثم ٱستوىٓ إلى ٱلسمآء فسوىهن سبع سمـوت  وهو بكل شىء عليم",
     "transliteration": "huwa alladhī khalaqa lakum mā fī l-arḍi jamīʿan thumma is'tawā ilā l-samāi fasawwāhunna sabʿa samāwātin wahuwa bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "It is He who created for you all of that which is on the earth. Then He directed Himself to the heaven, [His being above all creation], and made them seven heavens, and He is Knowing of all things.",
     "words": [
       {
         "id": "al-baqarah-29-1",
@@ -3304,7 +3332,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, pour vous, a créé Tout ce qui est sur terre, puis S’est orienté vers (la création) des cieux et en a composé sept. Lui Qui Sait parfaitement Toute chose."
   },
   {
     "id": "al-baqarah-30",
@@ -3313,7 +3342,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَـٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
     "textSimple": "وإذ قال ربك للملـٓئكة إنى جاعل فى ٱلأرض خليفة  قالوٓا أتجعل فيها من يفسد فيها ويسفك ٱلدمآء ونحن نسبح بحمدك ونقدس لك  قال إنىٓ أعلم ما لا تعلمون",
     "transliteration": "wa-idh qāla rabbuka lil'malāikati innī jāʿilun fī l-arḍi khalīfatan qālū atajʿalu fīhā man yuf'sidu fīhā wayasfiku l-dimāa wanaḥnu nusabbiḥu biḥamdika wanuqaddisu laka qāla innī aʿlamu mā lā taʿlamūna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when your Lord said to the angels, \"Indeed, I will make upon the earth a successive authority.\" They said, \"Will You place upon it one who causes corruption therein and sheds blood, while we exalt You with praise and declare Your perfection?\" He [Allāh] said, \"Indeed, I know that which you do not know.\"",
     "words": [
       {
         "id": "al-baqarah-30-1",
@@ -3512,7 +3541,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque ton Seigneur dit aux Anges : « Je vais installer sur terre une succession», ils dirent : « Y installeras-Tu qui y sèmera le désordre et y répandra le sang, alors que nous autres sommes là à Te rendre gloire et à Te sanctifier ? » Il dit : « Je sais ce que vous ne savez pas. »"
   },
   {
     "id": "al-baqarah-31",
@@ -3521,7 +3551,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى ٱلْمَلَـٰٓئِكَةِ فَقَالَ أَنۢبِـُٔونِى بِأَسْمَآءِ هَـٰٓؤُلَآءِ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "وعلم ءادم ٱلأسمآء كلها ثم عرضهم على ٱلملـٓئكة فقال أنبـٔونى بأسمآء هـٓؤلآء إن كنتم صـدقين",
     "transliteration": "waʿallama ādama l-asmāa kullahā thumma ʿaraḍahum ʿalā l-malāikati faqāla anbiūnī bi-asmāi hāulāi in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And He taught Adam the names - all of them. Then He showed them to the angels and said, \"Inform Me of the names of these, if you are truthful.\"",
     "words": [
       {
         "id": "al-baqarah-31-1",
@@ -3629,7 +3659,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il enseigna à Adam Tous les noms (Toutes choses nommées) puis les exposa aux Anges en disant : « Informez-Moi de leurs noms si vous dites vrai ! »"
   },
   {
     "id": "al-baqarah-32",
@@ -3638,7 +3669,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سُبْحَـٰنَكَ لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ ۖ إِنَّكَ أَنتَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
     "textSimple": "قالوا سبحـنك لا علم لنآ إلا ما علمتنآ  إنك أنت ٱلعليم ٱلحكيم",
     "transliteration": "qālū sub'ḥānaka lā ʿil'ma lanā illā mā ʿallamtanā innaka anta l-ʿalīmu l-ḥakīmu",
-    "translation": "",
+    "translation": "They said, \"Exalted are You; we have no knowledge except what You have taught us. Indeed, it is You who is the Knowing, the Wise.\"",
     "words": [
       {
         "id": "al-baqarah-32-1",
@@ -3725,7 +3756,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Gloire Te soit rendue ! Nous ne savons que ce que Tu nous as enseigné. C’est Toi l’Omniscient, le Sage. »"
   },
   {
     "id": "al-baqarah-33",
@@ -3734,7 +3766,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰٓـَٔادَمُ أَنۢبِئْهُم بِأَسْمَآئِهِمْ ۖ فَلَمَّآ أَنۢبَأَهُم بِأَسْمَآئِهِمْ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ غَيْبَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنتُمْ تَكْتُمُونَ",
     "textSimple": "قال يـٓـٔادم أنبئهم بأسمآئهم  فلمآ أنبأهم بأسمآئهم قال ألم أقل لكم إنىٓ أعلم غيب ٱلسمـوت وٱلأرض وأعلم ما تبدون وما كنتم تكتمون",
     "transliteration": "qāla yāādamu anbi'hum bi-asmāihim falammā anba-ahum bi-asmāihim qāla alam aqul lakum innī aʿlamu ghayba l-samāwāti wal-arḍi wa-aʿlamu mā tub'dūna wamā kuntum taktumūna",
-    "translation": "",
+    "translation": "He said, \"O Adam, inform them of their names.\" And when he had informed them of their names, He said, \"Did I not tell you that I know the unseen [aspects] of the heavens and the earth? And I know what you reveal and what you have concealed.\"",
     "words": [
       {
         "id": "al-baqarah-33-1",
@@ -3891,7 +3923,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Ô Adam ! Informe-les de leurs noms. » Alors, une fois qu’il (Adam) les eut informés de leurs noms, Il (Allah) dit : « Ne vous ai-Je pas dit que Je Connais les mystères invisibles des cieux et de la terre et que Je Sais ce que vous révélez et ce que vous gardez secret ? »"
   },
   {
     "id": "al-baqarah-34",
@@ -3900,7 +3933,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ",
     "textSimple": "وإذ قلنا للملـٓئكة ٱسجدوا لـٔادم فسجدوٓا إلآ إبليس أبى وٱستكبر وكان من ٱلكـفرين",
     "transliteration": "wa-idh qul'nā lil'malāikati us'judū liādama fasajadū illā ib'līsa abā wa-is'takbara wakāna mina l-kāfirīna",
-    "translation": "",
+    "translation": "And [mention] when We said to the angels, \"Prostrate before Adam\"; so they prostrated, except for Iblees. He refused and was arrogant and became of the disbelievers.",
     "words": [
       {
         "id": "al-baqarah-34-1",
@@ -3994,7 +4027,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Nous ordonnâmes aux Anges : « Prosternez-vous devant Adam ! », tous se prosternèrent excepté Iblîs qui refusa, s’enfla d’orgueil et fut du nombre des mécréants."
   },
   {
     "id": "al-baqarah-35",
@@ -4003,7 +4037,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلْنَا يَـٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَـٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "وقلنا يـٓـٔادم ٱسكن أنت وزوجك ٱلجنة وكلا منها رغدا حيث شئتما ولا تقربا هـذه ٱلشجرة فتكونا من ٱلظـلمين",
     "transliteration": "waqul'nā yāādamu us'kun anta wazawjuka l-janata wakulā min'hā raghadan ḥaythu shi'tumā walā taqrabā hādhihi l-shajarata fatakūnā mina l-ẓālimīna",
-    "translation": "",
+    "translation": "And We said, \"O Adam, dwell, you and your wife, in Paradise and eat therefrom in [ease and] abundance from wherever you will. But do not approach this tree, lest you be among the wrongdoers.\"",
     "words": [
       {
         "id": "al-baqarah-35-1",
@@ -4132,7 +4166,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous dîmes : « Ô Adam ! Demeurez au Paradis, toi et ton épouse, mangez de tout ce qui s’y trouve autant qu’il vous plaira et partout où vous voudrez, mais n’approchez point de cet arbre, ou alors vous seriez du nombre des injustes. »"
   },
   {
     "id": "al-baqarah-36",
@@ -4141,7 +4176,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَزَلَّهُمَا ٱلشَّيْطَـٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ ۖ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَـٰعٌ إِلَىٰ حِينٍ",
     "textSimple": "فأزلهما ٱلشيطـن عنها فأخرجهما مما كانا فيه  وقلنا ٱهبطوا بعضكم لبعض عدو  ولكم فى ٱلأرض مستقر ومتـع إلى حين",
     "transliteration": "fa-azallahumā l-shayṭānu ʿanhā fa-akhrajahumā mimmā kānā fīhi waqul'nā ih'biṭū baʿḍukum libaʿḍin ʿaduwwun walakum fī l-arḍi mus'taqarrun wamatāʿun ilā ḥīnin",
-    "translation": "",
+    "translation": "But Satan caused them to slip out of it and removed them from that [condition] in which they had been. And We said, \"Go down, [all of you], as enemies to one another, and you will have upon the earth a place of settlement and provision for a time.\"",
     "words": [
       {
         "id": "al-baqarah-36-1",
@@ -4277,7 +4312,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Satan les fit glisser et sortir de là où ils étaient. Et Nous dîmes : « Descendez ! Vous serez ennemis les uns des autres, vous aurez la terre pour demeure et vous en jouirez pour un temps. »"
   },
   {
     "id": "al-baqarah-37",
@@ -4286,7 +4322,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَـٰتٍ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
     "textSimple": "فتلقىٓ ءادم من ربه كلمـت فتاب عليه  إنه هو ٱلتواب ٱلرحيم",
     "transliteration": "fatalaqqā ādamu min rabbihi kalimātin fatāba ʿalayhi innahu huwa l-tawābu l-raḥīmu",
-    "translation": "",
+    "translation": "Then Adam received from his Lord [some] words, and He accepted his repentance. Indeed, it is He who is the Accepting of Repentance, the Merciful.",
     "words": [
       {
         "id": "al-baqarah-37-1",
@@ -4366,7 +4402,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adam reçut alors de son Seigneur des paroles et (Allah) accepta son repentir. C’est Lui le Tout Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-38",
@@ -4375,7 +4412,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "قلنا ٱهبطوا منها جميعا  فإما يأتينكم منى هدى فمن تبع هداى فلا خوف عليهم ولا هم يحزنون",
     "transliteration": "qul'nā ih'biṭū min'hā jamīʿan fa-immā yatiyannakum minnī hudan faman tabiʿa hudāya falā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "We said, \"Go down from it, all of you. And when guidance comes to you from Me, whoever follows My guidance - there will be no fear concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-baqarah-38-1",
@@ -4497,7 +4534,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dîmes : « Descendez-en vous tous ! Et quand vous viendra de Moi un signe pour vous guider (hudâ), pour ceux qui le suivront il n’y aura nulle crainte et ils n’auront aucune affliction."
   },
   {
     "id": "al-baqarah-39",
@@ -4506,7 +4544,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وٱلذين كفروا وكذبوا بـٔايـتنآ أولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "wa-alladhīna kafarū wakadhabū biāyātinā ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "And those who disbelieve and deny Our signs - those will be companions of the Fire; they will abide therein eternally.\"",
     "words": [
       {
         "id": "al-baqarah-39-1",
@@ -4579,7 +4617,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru et ont traité Nos Signes de mensonges, ceux-là sont les hôtes du Feu, où ils demeureront pour l’éternité."
   },
   {
     "id": "al-baqarah-40",
@@ -4588,7 +4627,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ وَإِيَّـٰىَ فَٱرْهَبُونِ",
     "textSimple": "يـبنىٓ إسرٓءيل ٱذكروا نعمتى ٱلتىٓ أنعمت عليكم وأوفوا بعهدىٓ أوف بعهدكم وإيـى فٱرهبون",
     "transliteration": "yābanī is'rāīla udh'kurū niʿ'matiya allatī anʿamtu ʿalaykum wa-awfū biʿahdī ūfi biʿahdikum wa-iyyāya fa-ir'habūni",
-    "translation": "",
+    "translation": "O Children of Israel, remember My favor which I have bestowed upon you and fulfill My covenant [upon you] that I will fulfill your covenant [from Me], and be afraid of [only] Me.",
     "words": [
       {
         "id": "al-baqarah-40-1",
@@ -4682,7 +4721,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Enfants d’Israël ! Rappelez-vous Ma grâce (cette grâce) dont Je vous ai comblés. Et tenez vos engagements (envers Moi), Je tiendrai Mes engagements (envers vous). Et ne redoutez nul autre que Moi."
   },
   {
     "id": "al-baqarah-41",
@@ -4691,7 +4731,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَءَامِنُوا۟ بِمَآ أَنزَلْتُ مُصَدِّقًا لِّمَا مَعَكُمْ وَلَا تَكُونُوٓا۟ أَوَّلَ كَافِرٍۭ بِهِۦ ۖ وَلَا تَشْتَرُوا۟ بِـَٔايَـٰتِى ثَمَنًا قَلِيلًا وَإِيَّـٰىَ فَٱتَّقُونِ",
     "textSimple": "وءامنوا بمآ أنزلت مصدقا لما معكم ولا تكونوٓا أول كافر به  ولا تشتروا بـٔايـتى ثمنا قليلا وإيـى فٱتقون",
     "transliteration": "waāminū bimā anzaltu muṣaddiqan limā maʿakum walā takūnū awwala kāfirin bihi walā tashtarū biāyātī thamanan qalīlan wa-iyyāya fa-ittaqūni",
-    "translation": "",
+    "translation": "And believe in what I have sent down confirming that which is [already] with you, and be not the first to disbelieve in it. And do not exchange My signs for a small price, and fear [only] Me.",
     "words": [
       {
         "id": "al-baqarah-41-1",
@@ -4820,7 +4860,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Croyez à ce que J’ai fait descendre (en révélation) et qui confirme ce que vous avez déjà, ne soyez pas les premiers à le renier, ne troquez pas Mes Signes contre un vil prix. Et ne craignez nul autre que Moi !"
   },
   {
     "id": "al-baqarah-42",
@@ -4829,7 +4870,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَلْبِسُوا۟ ٱلْحَقَّ بِٱلْبَـٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
     "textSimple": "ولا تلبسوا ٱلحق بٱلبـطل وتكتموا ٱلحق وأنتم تعلمون",
     "transliteration": "walā talbisū l-ḥaqa bil-bāṭili wataktumū l-ḥaqa wa-antum taʿlamūna",
-    "translation": "",
+    "translation": "And do not mix the truth with falsehood or conceal the truth while you know [it].",
     "words": [
       {
         "id": "al-baqarah-42-1",
@@ -4888,7 +4929,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne confondez pas la vérité et le mensonge, ne taisez pas la vérité quand vous (la) savez !"
   },
   {
     "id": "al-baqarah-43",
@@ -4897,7 +4939,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ",
     "textSimple": "وأقيموا ٱلصلوة وءاتوا ٱلزكوة وٱركعوا مع ٱلركعين",
     "transliteration": "wa-aqīmū l-ṣalata waātū l-zakata wa-ir'kaʿū maʿa l-rākiʿīna",
-    "translation": "",
+    "translation": "And establish prayer and give zakāh and bow with those who bow [in worship and obedience].",
     "words": [
       {
         "id": "al-baqarah-43-1",
@@ -4949,7 +4991,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Observez la Çalât, acquittez-vous de la Zakât et inclinez-vous avec ceux qui s’inclinent."
   },
   {
     "id": "al-baqarah-44",
@@ -4958,7 +5001,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَتَأْمُرُونَ ٱلنَّاسَ بِٱلْبِرِّ وَتَنسَوْنَ أَنفُسَكُمْ وَأَنتُمْ تَتْلُونَ ٱلْكِتَـٰبَ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": " أتأمرون ٱلناس بٱلبر وتنسون أنفسكم وأنتم تتلون ٱلكتـب  أفلا تعقلون",
     "transliteration": "atamurūna l-nāsa bil-biri watansawna anfusakum wa-antum tatlūna l-kitāba afalā taʿqilūna",
-    "translation": "",
+    "translation": "Do you order righteousness of the people and forget yourselves while you recite the Scripture? Then will you not reason?",
     "words": [
       {
         "id": "al-baqarah-44-1",
@@ -5031,7 +5074,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ordonnez-vous donc aux gens la bienfaisance quand vous l’oubliez vous-mêmes en récitant le Livre ? N’entendez-vous pas raison ?"
   },
   {
     "id": "al-baqarah-45",
@@ -5040,7 +5084,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَـٰشِعِينَ",
     "textSimple": "وٱستعينوا بٱلصبر وٱلصلوة  وإنها لكبيرة إلا على ٱلخـشعين",
     "transliteration": "wa-is'taʿīnū bil-ṣabri wal-ṣalati wa-innahā lakabīratun illā ʿalā l-khāshiʿīna",
-    "translation": "",
+    "translation": "And seek help through patience and prayer; and indeed, it is difficult except for the humbly submissive [to Allāh]",
     "words": [
       {
         "id": "al-baqarah-45-1",
@@ -5099,7 +5143,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ayez recours au soutien de la patience et de la Çalât. Celle-ci est certes un bien lourd devoir, mais non pour les humbles (qui la font dans le recueillement),"
   },
   {
     "id": "al-baqarah-46",
@@ -5108,7 +5153,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَـٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ",
     "textSimple": "ٱلذين يظنون أنهم ملـقوا ربهم وأنهم إليه رجعون",
     "transliteration": "alladhīna yaẓunnūna annahum mulāqū rabbihim wa-annahum ilayhi rājiʿūna",
-    "translation": "",
+    "translation": "Who are certain that they will meet their Lord and that they will return to Him.",
     "words": [
       {
         "id": "al-baqarah-46-1",
@@ -5167,7 +5212,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui croient avec certitude qu’ils rencontreront leur Seigneur et que c’est à Lui qu’ils retourneront."
   },
   {
     "id": "al-baqarah-47",
@@ -5176,7 +5222,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "يـبنىٓ إسرٓءيل ٱذكروا نعمتى ٱلتىٓ أنعمت عليكم وأنى فضلتكم على ٱلعـلمين",
     "transliteration": "yābanī is'rāīla udh'kurū niʿ'matiya allatī anʿamtu ʿalaykum wa-annī faḍḍaltukum ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "O Children of Israel, remember My favor that I have bestowed upon you and that I preferred you over the worlds [i.e., peoples].",
     "words": [
       {
         "id": "al-baqarah-47-1",
@@ -5256,7 +5302,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Enfants d’Israël ! Rappelez-vous Ma grâce (cette grâce) dont Je vous ai comblés. Je vous ai privilégiés par rapport aux autres peuples du monde (vos contemporains)."
   },
   {
     "id": "al-baqarah-48",
@@ -5265,7 +5312,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ يَوْمًا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ شَيْـًٔا وَلَا يُقْبَلُ مِنْهَا شَفَـٰعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنصَرُونَ",
     "textSimple": "وٱتقوا يوما لا تجزى نفس عن نفس شيـٔا ولا يقبل منها شفـعة ولا يؤخذ منها عدل ولا هم ينصرون",
     "transliteration": "wa-ittaqū yawman lā tajzī nafsun ʿan nafsin shayan walā yuq'balu min'hā shafāʿatun walā yu'khadhu min'hā ʿadlun walā hum yunṣarūna",
-    "translation": "",
+    "translation": "And fear a Day when no soul will suffice for another soul at all, nor will intercession be accepted from it, nor will compensation be taken from it, nor will they be aided.",
     "words": [
       {
         "id": "al-baqarah-48-1",
@@ -5401,7 +5448,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et craignez le jour où aucune âme ne rachètera de rien une autre âme, où il n’en sera accepté aucune intercession ; où il n’en sera reçu aucune compensation. Et ils n’auront aucun secours."
   },
   {
     "id": "al-baqarah-49",
@@ -5410,7 +5458,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ نَجَّيْنَـٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ يُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
     "textSimple": "وإذ نجينـكم من ءال فرعون يسومونكم سوٓء ٱلعذاب يذبحون أبنآءكم ويستحيون نسآءكم  وفى ذلكم بلآء من ربكم عظيم",
     "transliteration": "wa-idh najjaynākum min āli fir'ʿawna yasūmūnakum sūa l-ʿadhābi yudhabbiḥūna abnāakum wayastaḥyūna nisāakum wafī dhālikum balāon min rabbikum ʿaẓīmun",
-    "translation": "",
+    "translation": "And [recall] when We saved you [i.e., your forefathers] from the people of Pharaoh, who afflicted you with the worst torment, slaughtering your [newborn] sons and keeping your females alive. And in that was a great trial from your Lord.",
     "words": [
       {
         "id": "al-baqarah-49-1",
@@ -5539,7 +5587,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous) lorsque Nous vous avons sauvés des gens de Pharaon, lesquels vous faisaient subir le pire des supplices, égorgeaient vos fils et laissaient vos femmes en vie. C’était là une bien terrible épreuve de la part de votre Seigneur."
   },
   {
     "id": "al-baqarah-50",
@@ -5548,7 +5597,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ فَرَقْنَا بِكُمُ ٱلْبَحْرَ فَأَنجَيْنَـٰكُمْ وَأَغْرَقْنَآ ءَالَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ",
     "textSimple": "وإذ فرقنا بكم ٱلبحر فأنجينـكم وأغرقنآ ءال فرعون وأنتم تنظرون",
     "transliteration": "wa-idh faraqnā bikumu l-baḥra fa-anjaynākum wa-aghraqnā āla fir'ʿawna wa-antum tanẓurūna",
-    "translation": "",
+    "translation": "And [recall] when We parted the sea for you and saved you and drowned the people of Pharaoh while you were looking on.",
     "words": [
       {
         "id": "al-baqarah-50-1",
@@ -5621,7 +5670,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Nous avons fendu la mer devant vous et que nous vous avons ainsi sauvés et noyé les gens de Pharaon pendant que vous regardiez."
   },
   {
     "id": "al-baqarah-51",
@@ -5630,7 +5680,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ وَٰعَدْنَا مُوسَىٰٓ أَرْبَعِينَ لَيْلَةً ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَـٰلِمُونَ",
     "textSimple": "وإذ وعدنا موسىٓ أربعين ليلة ثم ٱتخذتم ٱلعجل من بعده وأنتم ظـلمون",
     "transliteration": "wa-idh wāʿadnā mūsā arbaʿīna laylatan thumma ittakhadhtumu l-ʿij'la min baʿdihi wa-antum ẓālimūna",
-    "translation": "",
+    "translation": "And [recall] when We made an appointment with Moses for forty nights. Then you took [for worship] the calf after him [i.e., his departure], while you were wrongdoers.",
     "words": [
       {
         "id": "al-baqarah-51-1",
@@ -5717,7 +5767,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Nous avons donné rendez-vous à Moïse quarante nuits durant, et lorsque, en son absence, vous avez pris pour idole le Veau et vous étiez alors injustes."
   },
   {
     "id": "al-baqarah-52",
@@ -5726,7 +5777,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ عَفَوْنَا عَنكُم مِّنۢ بَعْدِ ذَٰلِكَ لَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "ثم عفونا عنكم من بعد ذلك لعلكم تشكرون",
     "transliteration": "thumma ʿafawnā ʿankum min baʿdi dhālika laʿallakum tashkurūna",
-    "translation": "",
+    "translation": "Then We forgave you after that so perhaps you would be grateful.",
     "words": [
       {
         "id": "al-baqarah-52-1",
@@ -5785,7 +5836,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, après cela, Nous vous avons pardonné ; peut-être serez-vous reconnaissants."
   },
   {
     "id": "al-baqarah-53",
@@ -5794,7 +5846,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ وَٱلْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ",
     "textSimple": "وإذ ءاتينا موسى ٱلكتـب وٱلفرقان لعلكم تهتدون",
     "transliteration": "wa-idh ātaynā mūsā l-kitāba wal-fur'qāna laʿallakum tahtadūna",
-    "translation": "",
+    "translation": "And [recall] when We gave Moses the Scripture and criterion that perhaps you would be guided.",
     "words": [
       {
         "id": "al-baqarah-53-1",
@@ -5846,7 +5898,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Nous avons donné à Moïse le Livre et le Discernement (Al-Furqân) afin que vous soyez guidés (vers la juste voie)."
   },
   {
     "id": "al-baqarah-54",
@@ -5855,7 +5908,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَـٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
     "textSimple": "وإذ قال موسى لقومه يـقوم إنكم ظلمتم أنفسكم بٱتخاذكم ٱلعجل فتوبوٓا إلى بارئكم فٱقتلوٓا أنفسكم ذلكم خير لكم عند بارئكم فتاب عليكم  إنه هو ٱلتواب ٱلرحيم",
     "transliteration": "wa-idh qāla mūsā liqawmihi yāqawmi innakum ẓalamtum anfusakum bi-ittikhādhikumu l-ʿij'la fatūbū ilā bāri-ikum fa-uq'tulū anfusakum dhālikum khayrun lakum ʿinda bāri-ikum fatāba ʿalaykum innahu huwa l-tawābu l-raḥīmu",
-    "translation": "",
+    "translation": "And [recall] when Moses said to his people, \"O my people, indeed you have wronged yourselves by your taking of the calf [for worship]. So repent to your Creator and kill yourselves [i.e., the guilty among you]. That is best for [all of] you in the sight of your Creator.\" Then He accepted your repentance; indeed, He is the Accepting of Repentance, the Merciful.",
     "words": [
       {
         "id": "al-baqarah-54-1",
@@ -6040,7 +6093,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Moïse eut dit à son peuple : « Ô peuple mien ! Vous vous êtes lésés vous-mêmes en prenant pour idole le Veau. Repentez–vous donc auprès de votre Créateur ! Tuez donc les coupables parmi vous : ce serait bien meilleur pour vous auprès de votre Créateur ! » Alors, Il accepta votre repentir, car c’est Lui le Tout Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-55",
@@ -6049,7 +6103,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْتُمْ يَـٰمُوسَىٰ لَن نُّؤْمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ جَهْرَةً فَأَخَذَتْكُمُ ٱلصَّـٰعِقَةُ وَأَنتُمْ تَنظُرُونَ",
     "textSimple": "وإذ قلتم يـموسى لن نؤمن لك حتى نرى ٱلله جهرة فأخذتكم ٱلصـعقة وأنتم تنظرون",
     "transliteration": "wa-idh qul'tum yāmūsā lan nu'mina laka ḥattā narā l-laha jahratan fa-akhadhatkumu l-ṣāʿiqatu wa-antum tanẓurūna",
-    "translation": "",
+    "translation": "And [recall] when you said, \"O Moses, we will never believe you until we see Allāh outright\"; so the thunderbolt took you while you were looking on.",
     "words": [
       {
         "id": "al-baqarah-55-1",
@@ -6150,7 +6204,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous encore) lorsque vous avez dit : « Ô Moïse ! Nous ne te croirons pas avant d’avoir vu Allah d’une façon évidente. » Alors, la foudre vous a saisis pendant que vous regardiez (impuissants)."
   },
   {
     "id": "al-baqarah-56",
@@ -6159,7 +6214,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَعَثْنَـٰكُم مِّنۢ بَعْدِ مَوْتِكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "ثم بعثنـكم من بعد موتكم لعلكم تشكرون",
     "transliteration": "thumma baʿathnākum min baʿdi mawtikum laʿallakum tashkurūna",
-    "translation": "",
+    "translation": "Then We revived you after your death that perhaps you would be grateful.",
     "words": [
       {
         "id": "al-baqarah-56-1",
@@ -6211,7 +6266,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous vous avons ressuscités après votre mort ; peut-être serez-vous reconnaissants."
   },
   {
     "id": "al-baqarah-57",
@@ -6220,7 +6276,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَظَلَّلْنَا عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ ۖ وَمَا ظَلَمُونَا وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
     "textSimple": "وظللنا عليكم ٱلغمام وأنزلنا عليكم ٱلمن وٱلسلوى  كلوا من طيبـت ما رزقنـكم  وما ظلمونا ولـكن كانوٓا أنفسهم يظلمون",
     "transliteration": "waẓallalnā ʿalaykumu l-ghamāma wa-anzalnā ʿalaykumu l-mana wal-salwā kulū min ṭayyibāti mā razaqnākum wamā ẓalamūnā walākin kānū anfusahum yaẓlimūna",
-    "translation": "",
+    "translation": "And We shaded you with clouds and sent down to you manna and quails, [saying], \"Eat from the good things with which We have provided you.\" And they wronged Us not - but they were [only] wronging themselves.",
     "words": [
       {
         "id": "al-baqarah-57-1",
@@ -6349,7 +6405,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons étendu sur vous l’ombre du nuage, et avons fait descendre sur vous la manne et les cailles : « Mangez donc des délices que Nous vous avons accordées ! » Ils ne Nous ont point lésé mais se lésaient eux-mêmes."
   },
   {
     "id": "al-baqarah-58",
@@ -6358,7 +6415,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْنَا ٱدْخُلُوا۟ هَـٰذِهِ ٱلْقَرْيَةَ فَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ رَغَدًا وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُولُوا۟ حِطَّةٌ نَّغْفِرْ لَكُمْ خَطَـٰيَـٰكُمْ ۚ وَسَنَزِيدُ ٱلْمُحْسِنِينَ",
     "textSimple": "وإذ قلنا ٱدخلوا هـذه ٱلقرية فكلوا منها حيث شئتم رغدا وٱدخلوا ٱلباب سجدا وقولوا حطة نغفر لكم خطـيـكم  وسنزيد ٱلمحسنين",
     "transliteration": "wa-idh qul'nā ud'khulū hādhihi l-qaryata fakulū min'hā ḥaythu shi'tum raghadan wa-ud'khulū l-bāba sujjadan waqūlū ḥiṭṭatun naghfir lakum khaṭāyākum wasanazīdu l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And [recall] when We said, \"Enter this city [i.e., Jerusalem] and eat from it wherever you will in [ease and] abundance, and enter the gate bowing humbly and say, 'Relieve us of our burdens [i.e., sins].' We will [then] forgive your sins for you, and We will increase the doers of good [in goodness and reward].\"",
     "words": [
       {
         "id": "al-baqarah-58-1",
@@ -6501,7 +6558,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque Nous dîmes : « Entrez dans cette cité et mangez-y où vous voudrez et autant qu’il vous plaira ; entrez-y par la porte prosternés et demandez : « Rémission pour (nos péchés) ! » Nous vous pardonnerons alors vos fautes et Nous donnerons plus encore aux bienfaiteurs. »"
   },
   {
     "id": "al-baqarah-59",
@@ -6510,7 +6568,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَبَدَّلَ ٱلَّذِينَ ظَلَمُوا۟ قَوْلًا غَيْرَ ٱلَّذِى قِيلَ لَهُمْ فَأَنزَلْنَا عَلَى ٱلَّذِينَ ظَلَمُوا۟ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ",
     "textSimple": "فبدل ٱلذين ظلموا قولا غير ٱلذى قيل لهم فأنزلنا على ٱلذين ظلموا رجزا من ٱلسمآء بما كانوا يفسقون",
     "transliteration": "fabaddala alladhīna ẓalamū qawlan ghayra alladhī qīla lahum fa-anzalnā ʿalā alladhīna ẓalamū rij'zan mina l-samāi bimā kānū yafsuqūna",
-    "translation": "",
+    "translation": "But those who wronged changed [those words] to a statement other than that which had been said to them, so We sent down upon those who wronged a punishment [i.e., plague] from the sky because they were defiantly disobeying.",
     "words": [
       {
         "id": "al-baqarah-59-1",
@@ -6639,7 +6697,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont été injustes ont alors substitué d’autres paroles à celles qui leur ont été dites et, sur eux, Nous avons fait descendre du ciel un châtiment humiliant pour les punir d’avoir été impies."
   },
   {
     "id": "al-baqarah-60",
@@ -6648,7 +6707,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
     "textSimple": " وإذ ٱستسقى موسى لقومه فقلنا ٱضرب بعصاك ٱلحجر  فٱنفجرت منه ٱثنتا عشرة عينا  قد علم كل أناس مشربهم  كلوا وٱشربوا من رزق ٱلله ولا تعثوا فى ٱلأرض مفسدين",
     "transliteration": "wa-idhi is'tasqā mūsā liqawmihi faqul'nā iḍ'rib biʿaṣāka l-ḥajara fa-infajarat min'hu ith'natā ʿashrata ʿaynan qad ʿalima kullu unāsin mashrabahum kulū wa-ish'rabū min riz'qi l-lahi walā taʿthaw fī l-arḍi muf'sidīna",
-    "translation": "",
+    "translation": "And [recall] when Moses prayed for water for his people, so We said, \"Strike with your staff the stone.\" And there gushed forth from it twelve springs, and every people [i.e., tribe] knew its watering place. \"Eat and drink from the provision of Allāh, and do not commit abuse on the earth, spreading corruption.\"",
     "words": [
       {
         "id": "al-baqarah-60-1",
@@ -6847,7 +6906,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous aussi) lorsque Moïse eut demandé de l’eau pour son peuple ; Nous dîmes : «Frappe le rocher avec ton bâton ! » Alors, douze sources en jaillirent et chaque tribu sut ainsi où elle devait boire. Mangez et buvez de ces dons d’Allah et ne semez pas le désordre sur terre."
   },
   {
     "id": "al-baqarah-61",
@@ -6856,7 +6916,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْتُمْ يَـٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
     "textSimple": "وإذ قلتم يـموسى لن نصبر على طعام وحد فٱدع لنا ربك يخرج لنا مما تنبت ٱلأرض من بقلها وقثآئها وفومها وعدسها وبصلها  قال أتستبدلون ٱلذى هو أدنى بٱلذى هو خير  ٱهبطوا مصرا فإن لكم ما سألتم  وضربت عليهم ٱلذلة وٱلمسكنة وبآءو بغضب من ٱلله  ذلك بأنهم كانوا يكفرون بـٔايـت ٱلله ويقتلون ٱلنبيـن بغير ٱلحق  ذلك بما عصوا وكانوا يعتدون",
     "transliteration": "wa-idh qul'tum yāmūsā lan naṣbira ʿalā ṭaʿāmin wāḥidin fa-ud'ʿu lanā rabbaka yukh'rij lanā mimmā tunbitu l-arḍu min baqlihā waqithāihā wafūmihā waʿadasihā wabaṣalihā qāla atastabdilūna alladhī huwa adnā bi-alladhī huwa khayrun ih'biṭū miṣ'ran fa-inna lakum mā sa-altum waḍuribat ʿalayhimu l-dhilatu wal-maskanatu wabāū bighaḍabin mina l-lahi dhālika bi-annahum kānū yakfurūna biāyāti l-lahi wayaqtulūna l-nabiyīna bighayri l-ḥaqi dhālika bimā ʿaṣaw wakānū yaʿtadūna",
-    "translation": "",
+    "translation": "And [recall] when you said, \"O Moses, we can never endure one [kind of] food. So call upon your Lord to bring forth for us from the earth its green herbs and its cucumbers and its garlic and its lentils and its onions.\" [Moses] said, \"Would you exchange what is better for what is less? Go into [any] settlement and indeed, you will have what you have asked.\" And they were covered with humiliation and poverty and returned with anger from Allāh [upon them]. That was because they [repeatedly] disbelieved in the signs of Allāh and killed the prophets without right. That was because they disobeyed and were [habitually] transgressing.",
     "words": [
       {
         "id": "al-baqarah-61-1",
@@ -7272,7 +7332,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 58
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque vous dîtes : « Ô Moïse ! Nous ne pouvons plus supporter de manger une seule nourriture. Prie ton Seigneur pour qu’Il fasse sortir pour nous de la terre ce qui y pousse : de ses légumes, ses concombres, son ail, ses lentilles et ses oignons. » Alors, il répondit : « Échangeriez-vous ce qui est bien meilleur contre ce qui l’est beaucoup moins? Descendez donc dans une cité quelconque et vous y trouverez ce que vous demandez ! » Et voilà qu’ils furent couverts d’humiliation et d’opprobre et s’attirèrent la colère d’Allah. Cela, parce qu’ils ne croyaient pas aux Signes d’Allah et tuaient indûment les Prophètes ; et cela, parce qu’ils désobéissaient et transgressaient."
   },
   {
     "id": "al-baqarah-62",
@@ -7281,7 +7342,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلنَّصَـٰرَىٰ وَٱلصَّـٰبِـِٔينَ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَعَمِلَ صَـٰلِحًا فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "إن ٱلذين ءامنوا وٱلذين هادوا وٱلنصـرى وٱلصـبـٔين من ءامن بٱلله وٱليوم ٱلـٔاخر وعمل صـلحا فلهم أجرهم عند ربهم ولا خوف عليهم ولا هم يحزنون",
     "transliteration": "inna alladhīna āmanū wa-alladhīna hādū wal-naṣārā wal-ṣābiīna man āmana bil-lahi wal-yawmi l-ākhiri waʿamila ṣāliḥan falahum ajruhum ʿinda rabbihim walā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Indeed, those who believed and those who were Jews or Christians or Sabeans [before Prophet Muḥammad (ﷺ)] - those [among them] who believed in Allāh and the Last Day and did righteousness - will have their reward with their Lord, and no fear will there be concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-baqarah-62-1",
@@ -7452,7 +7513,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru, ceux qui se sont judaïsés, les Nazaréens (les Chrétiens), les Sabéens, quiconque a cru en Allah et au Jour Dernier et a accompli les bonnes œuvres, ceux-là auront leur récompense auprès de leur Seigneur ; il n’y aura aucune crainte pour eux et ils n’auront aucune affliction."
   },
   {
     "id": "al-baqarah-63",
@@ -7461,7 +7523,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذْنَا مِيثَـٰقَكُمْ وَرَفَعْنَا فَوْقَكُمُ ٱلطُّورَ خُذُوا۟ مَآ ءَاتَيْنَـٰكُم بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
     "textSimple": "وإذ أخذنا ميثـقكم ورفعنا فوقكم ٱلطور خذوا مآ ءاتينـكم بقوة وٱذكروا ما فيه لعلكم تتقون",
     "transliteration": "wa-idh akhadhnā mīthāqakum warafaʿnā fawqakumu l-ṭūra khudhū mā ātaynākum biquwwatin wa-udh'kurū mā fīhi laʿallakum tattaqūna",
-    "translation": "",
+    "translation": "And [recall] when We took your covenant, [O Children of Israel, to abide by the Torah] and We raised over you the mount, [saying], \"Take what We have given you with determination and remember what is in it that perhaps you may become righteous.\"",
     "words": [
       {
         "id": "al-baqarah-63-1",
@@ -7569,7 +7631,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous) lorsque Nous conclûmes un pacte avec vous et dressâmes sur (vos têtes) le Mont (en vous disant) : « Tenez fermement ce que Nous vous avons donné (ce Livre) et rappelez-vous ce qu’il contient, peut-être craindrez-vous (Allah) ! »"
   },
   {
     "id": "al-baqarah-64",
@@ -7578,7 +7641,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "ثم توليتم من بعد ذلك  فلولا فضل ٱلله عليكم ورحمته لكنتم من ٱلخـسرين",
     "transliteration": "thumma tawallaytum min baʿdi dhālika falawlā faḍlu l-lahi ʿalaykum waraḥmatuhu lakuntum mina l-khāsirīna",
-    "translation": "",
+    "translation": "Then you turned away after that. And if not for the favor of Allāh upon you and His mercy, you would have been among the losers.",
     "words": [
       {
         "id": "al-baqarah-64-1",
@@ -7672,7 +7735,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, après cela, vous vous êtes rétractés et, n’eussent été la grâce d’Allah et Sa miséricorde, vous eussiez été du nombre des perdants."
   },
   {
     "id": "al-baqarah-65",
@@ -7681,7 +7745,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ عَلِمْتُمُ ٱلَّذِينَ ٱعْتَدَوْا۟ مِنكُمْ فِى ٱلسَّبْتِ فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَـٰسِـِٔينَ",
     "textSimple": "ولقد علمتم ٱلذين ٱعتدوا منكم فى ٱلسبت فقلنا لهم كونوا قردة خـسـٔين",
     "transliteration": "walaqad ʿalim'tumu alladhīna iʿ'tadaw minkum fī l-sabti faqul'nā lahum kūnū qiradatan khāsiīna",
-    "translation": "",
+    "translation": "And you had already known about those who transgressed among you concerning the sabbath, and We said to them, \"Be apes, despised.\"",
     "words": [
       {
         "id": "al-baqarah-65-1",
@@ -7768,7 +7832,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous saviez lesquels d’entre vous étaient ceux qui avaient transgressé le Sabbat (et ce que Nous en avons fait). À ceux-là Nous avons dit : « Soyez des singes méprisables ! »"
   },
   {
     "id": "al-baqarah-66",
@@ -7777,7 +7842,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلْنَـٰهَا نَكَـٰلًا لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
     "textSimple": "فجعلنـها نكـلا لما بين يديها وما خلفها وموعظة للمتقين",
     "transliteration": "fajaʿalnāhā nakālan limā bayna yadayhā wamā khalfahā wamawʿiẓatan lil'muttaqīna",
-    "translation": "",
+    "translation": "And We made it a deterrent punishment for those who were present and those who succeeded [them] and a lesson for those who fear Allāh.",
     "words": [
       {
         "id": "al-baqarah-66-1",
@@ -7843,7 +7908,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous en avons fait une (terrible) leçon pour les gens d’alors et pour les générations futures, et une (précieuse) exhortation pour les gens pieux."
   },
   {
     "id": "al-baqarah-67",
@@ -7852,7 +7918,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً ۖ قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا ۖ قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَـٰهِلِينَ",
     "textSimple": "وإذ قال موسى لقومهٓ إن ٱلله يأمركم أن تذبحوا بقرة  قالوٓا أتتخذنا هزوا  قال أعوذ بٱلله أن أكون من ٱلجـهلين",
     "transliteration": "wa-idh qāla mūsā liqawmihi inna l-laha yamurukum an tadhbaḥū baqaratan qālū atattakhidhunā huzuwan qāla aʿūdhu bil-lahi an akūna mina l-jāhilīna",
-    "translation": "",
+    "translation": "And [recall] when Moses said to his people, \"Indeed, Allāh commands you to slaughter a cow.\" They said, \"Do you take us in ridicule?\" He said, \"I seek refuge in Allāh from being among the ignorant.\"",
     "words": [
       {
         "id": "al-baqarah-67-1",
@@ -7995,7 +8061,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous) lorsque Moïse eut dit à son peuple : « Allah vous ordonne d’égorger une vache. » Ils répondirent : « Nous tournerais-tu en dérision ? » - « Allah, répondit-il, me préserve d’être du nombre des ignorants ! »"
   },
   {
     "id": "al-baqarah-68",
@@ -8004,7 +8071,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
     "textSimple": "قالوا ٱدع لنا ربك يبين لنا ما هى  قال إنه يقول إنها بقرة لا فارض ولا بكر عوان بين ذلك  فٱفعلوا ما تؤمرون",
     "transliteration": "qālū ud'ʿu lanā rabbaka yubayyin lanā mā hiya qāla innahu yaqūlu innahā baqaratun lā fāriḍun walā bik'run ʿawānun bayna dhālika fa-if'ʿalū mā tu'marūna",
-    "translation": "",
+    "translation": "They said, \"Call upon your Lord to make clear to us what it is.\" [Moses] said, \"[Allāh] says, 'It is a cow which is neither old nor virgin, but median between that,' so do what you are commanded.\"",
     "words": [
       {
         "id": "al-baqarah-68-1",
@@ -8168,7 +8235,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Demande à ton Seigneur de nous préciser comment elle est. » Il répondit : « (Allah) dit que ce n’est Ni une vache vieillie ni une vierge génisse, elle est d’un âge intermédiaire. Faites donc ce qui vous est ordonné. »"
   },
   {
     "id": "al-baqarah-69",
@@ -8177,7 +8245,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّـٰظِرِينَ",
     "textSimple": "قالوا ٱدع لنا ربك يبين لنا ما لونها  قال إنه يقول إنها بقرة صفرآء فاقع لونها تسر ٱلنـظرين",
     "transliteration": "qālū ud'ʿu lanā rabbaka yubayyin lanā mā lawnuhā qāla innahu yaqūlu innahā baqaratun ṣafrāu fāqiʿun lawnuhā tasurru l-nāẓirīna",
-    "translation": "",
+    "translation": "They said, \"Call upon your Lord to show us what is her color.\" He said, \"He says, 'It is a yellow cow, bright in color - pleasing to the observers.'\"",
     "words": [
       {
         "id": "al-baqarah-69-1",
@@ -8306,7 +8374,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Demande à ton Seigneur de nous préciser sa couleur. » À quoi il répondit : « (Allah vous) dit que c’est une vache (dont la robe est) jaune vif, qui ravit ceux qui la regardent. »"
   },
   {
     "id": "al-baqarah-70",
@@ -8315,7 +8384,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ إِنَّ ٱلْبَقَرَ تَشَـٰبَهَ عَلَيْنَا وَإِنَّآ إِن شَآءَ ٱللَّهُ لَمُهْتَدُونَ",
     "textSimple": "قالوا ٱدع لنا ربك يبين لنا ما هى إن ٱلبقر تشـبه علينا وإنآ إن شآء ٱلله لمهتدون",
     "transliteration": "qālū ud'ʿu lanā rabbaka yubayyin lanā mā hiya inna l-baqara tashābaha ʿalaynā wa-innā in shāa l-lahu lamuh'tadūna",
-    "translation": "",
+    "translation": "They said, \"Call upon your Lord to make clear to us what it is. Indeed, [all] cows look alike to us. And indeed we, if Allāh wills, will be guided.\"",
     "words": [
       {
         "id": "al-baqarah-70-1",
@@ -8437,7 +8506,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent (encore) : « Demande à ton Seigneur de nous dire clairement comment elle est car les vaches, à nos yeux, se ressemblent à s’y méprendre. Alors, si Allah veut, nous serons bien guidés. »"
   },
   {
     "id": "al-baqarah-71",
@@ -8446,7 +8516,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٔـٰنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
     "textSimple": "قال إنه يقول إنها بقرة لا ذلول تثير ٱلأرض ولا تسقى ٱلحرث مسلمة لا شية فيها  قالوا ٱلـٔـن جئت بٱلحق  فذبحوها وما كادوا يفعلون",
     "transliteration": "qāla innahu yaqūlu innahā baqaratun lā dhalūlun tuthīru l-arḍa walā tasqī l-ḥartha musallamatun lā shiyata fīhā qālū l-āna ji'ta bil-ḥaqi fadhabaḥūhā wamā kādū yafʿalūna",
-    "translation": "",
+    "translation": "He said, \"He says, 'It is a cow neither trained to plow the earth nor to irrigate the field, one free from fault with no spot upon her.'\" They said, \"Now you have come with the truth.\" So they slaughtered her, but they could hardly do it.",
     "words": [
       {
         "id": "al-baqarah-71-1",
@@ -8617,7 +8687,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « (Allah vous) dit que c’est une vache non soumise aux travaux de la terre ni à l’arrosage des champs labourés. Elle est exempte de toute tare et de toute tache. » Ils dirent : « Maintenant tu es venu nous apporter la vérité. » Alors ils l’égorgèrent, mais ils faillirent ne pas le faire."
   },
   {
     "id": "al-baqarah-72",
@@ -8626,7 +8697,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَتَلْتُمْ نَفْسًا فَٱدَّٰرَْٰٔتُمْ فِيهَا ۖ وَٱللَّهُ مُخْرِجٌ مَّا كُنتُمْ تَكْتُمُونَ",
     "textSimple": "وإذ قتلتم نفسا فٱدرٔتم فيها  وٱلله مخرج ما كنتم تكتمون",
     "transliteration": "wa-idh qataltum nafsan fa-iddāratum fīhā wal-lahu mukh'rijun mā kuntum taktumūna",
-    "translation": "",
+    "translation": "And [recall] when you slew a man and disputed over it, but Allāh was to bring out that which you were concealing.",
     "words": [
       {
         "id": "al-baqarah-72-1",
@@ -8699,7 +8770,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque vous avez tué un homme puis vous vous êtes disputés à son sujet en vous accusant les uns les autres…Allah dévoile ce que vous dissimuliez."
   },
   {
     "id": "al-baqarah-73",
@@ -8708,7 +8780,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَقُلْنَا ٱضْرِبُوهُ بِبَعْضِهَا ۚ كَذَٰلِكَ يُحْىِ ٱللَّهُ ٱلْمَوْتَىٰ وَيُرِيكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": "فقلنا ٱضربوه ببعضها  كذلك يحى ٱلله ٱلموتى ويريكم ءايـته لعلكم تعقلون",
     "transliteration": "faqul'nā iḍ'ribūhu bibaʿḍihā kadhālika yuḥ'yī l-lahu l-mawtā wayurīkum āyātihi laʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "So We said, \"Strike him [i.e., the slain man] with part of it.\" Thus does Allāh bring the dead to life, and He shows you His signs that you might reason.",
     "words": [
       {
         "id": "al-baqarah-73-1",
@@ -8788,7 +8860,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors Nous dîmes : « Frappez-le (le cadavre) avec l’un de ses morceaux (ceux de la vache égorgée). » C’est ainsi qu’Allah fait revivre les morts et vous montre Ses Signes, peut-être entendrez-vous raison."
   },
   {
     "id": "al-baqarah-74",
@@ -8797,7 +8870,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَـٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "ثم قست قلوبكم من بعد ذلك فهى كٱلحجارة أو أشد قسوة  وإن من ٱلحجارة لما يتفجر منه ٱلأنهـر  وإن منها لما يشقق فيخرج منه ٱلمآء  وإن منها لما يهبط من خشية ٱلله  وما ٱلله بغـفل عما تعملون",
     "transliteration": "thumma qasat qulūbukum min baʿdi dhālika fahiya kal-ḥijārati aw ashaddu qaswatan wa-inna mina l-ḥijārati lamā yatafajjaru min'hu l-anhāru wa-inna min'hā lamā yashaqqaqu fayakhruju min'hu l-māu wa-inna min'hā lamā yahbiṭu min khashyati l-lahi wamā l-lahu bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "Then your hearts became hardened after that, being like stones or even harder. For indeed, there are stones from which rivers burst forth, and there are some of them that split open and water comes out, and there are some of them that fall down for fear of Allāh. And Allāh is not unaware of what you do.",
     "words": [
       {
         "id": "al-baqarah-74-1",
@@ -9059,7 +9132,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Après cela, pourtant, vos cœurs s’endurcirent, tels les rocs ou plus durs encore, car des rocs il peut jaillir des rivières ; certains se fendent pour laisser sourdre l’eau ; certains encore s’effondrent par crainte d’Allah. Et Allah n’est point distrait de ce que vous faites."
   },
   {
     "id": "al-baqarah-75",
@@ -9068,7 +9142,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَفَتَطْمَعُونَ أَن يُؤْمِنُوا۟ لَكُمْ وَقَدْ كَانَ فَرِيقٌ مِّنْهُمْ يَسْمَعُونَ كَلَـٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ",
     "textSimple": " أفتطمعون أن يؤمنوا لكم وقد كان فريق منهم يسمعون كلـم ٱلله ثم يحرفونه من بعد ما عقلوه وهم يعلمون",
     "transliteration": "afataṭmaʿūna an yu'minū lakum waqad kāna farīqun min'hum yasmaʿūna kalāma l-lahi thumma yuḥarrifūnahu min baʿdi mā ʿaqalūhu wahum yaʿlamūna",
-    "translation": "",
+    "translation": "Do you covet [the hope, O believers], that they would believe for you while a party of them used to hear the words of Allāh and then distort it [i.e., the Torah] after they had understood it while they were knowing?",
     "words": [
       {
         "id": "al-baqarah-75-1",
@@ -9204,7 +9278,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous attendez-vous à ce qu’ils croient comme vous, quand une partie des leurs, qui avait écouté la parole d’Allah, la déforma sciemment après qu’elle l’eut comprise ?"
   },
   {
     "id": "al-baqarah-76",
@@ -9213,7 +9288,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا لَقُوا۟ ٱلَّذِينَ ءَامَنُوا۟ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": "وإذا لقوا ٱلذين ءامنوا قالوٓا ءامنا وإذا خلا بعضهم إلى بعض قالوٓا أتحدثونهم بما فتح ٱلله عليكم ليحآجوكم به عند ربكم  أفلا تعقلون",
     "transliteration": "wa-idhā laqū alladhīna āmanū qālū āmannā wa-idhā khalā baʿḍuhum ilā baʿḍin qālū atuḥaddithūnahum bimā fataḥa l-lahu ʿalaykum liyuḥājjūkum bihi ʿinda rabbikum afalā taʿqilūna",
-    "translation": "",
+    "translation": "And when they meet those who believe, they say, \"We have believed\"; but when they are alone with one another, they say, \"Do you talk to them about what Allāh has revealed to you so they can argue with you about it before your Lord?\" Then will you not reason?",
     "words": [
       {
         "id": "al-baqarah-76-1",
@@ -9377,7 +9452,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils rencontrent les croyants, ils disent : « Nous avons cru », et quand ils se retrouvent seuls entre eux, ils demandent : « Comptez-vous leur parler (aux Musulmans) de ce qu’Allah vous a révélé pour qu’ils retournent contre vous cet argument auprès de votre Seigneur ? N’êtes vous donc pas doués de raison ? »"
   },
   {
     "id": "al-baqarah-77",
@@ -9386,7 +9462,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَا يَعْلَمُونَ أَنَّ ٱللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
     "textSimple": "أولا يعلمون أن ٱلله يعلم ما يسرون وما يعلنون",
     "transliteration": "awalā yaʿlamūna anna l-laha yaʿlamu mā yusirrūna wamā yuʿ'linūna",
-    "translation": "",
+    "translation": "But do they not know that Allāh knows what they conceal and what they declare?",
     "words": [
       {
         "id": "al-baqarah-77-1",
@@ -9452,7 +9528,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne savent-ils pas qu’Allah Sait ce qu’ils taisent (dans le secret du cœur) et ce qu’ils révèlent (au grand jour) ?"
   },
   {
     "id": "al-baqarah-78",
@@ -9461,7 +9538,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ ٱلْكِتَـٰبَ إِلَّآ أَمَانِىَّ وَإِنْ هُمْ إِلَّا يَظُنُّونَ",
     "textSimple": "ومنهم أميون لا يعلمون ٱلكتـب إلآ أمانى وإن هم إلا يظنون",
     "transliteration": "wamin'hum ummiyyūna lā yaʿlamūna l-kitāba illā amāniyya wa-in hum illā yaẓunnūna",
-    "translation": "",
+    "translation": "And among them are unlettered ones who do not know the Scripture except [indulgement in] wishful thinking, but they are only assuming.",
     "words": [
       {
         "id": "al-baqarah-78-1",
@@ -9541,7 +9618,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parmi eux, il y a des illettrés qui ne savent du Livre que des fictions et ne font que conjecturer à son propos."
   },
   {
     "id": "al-baqarah-79",
@@ -9550,7 +9628,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ ٱلْكِتَـٰبَ بِأَيْدِيهِمْ ثُمَّ يَقُولُونَ هَـٰذَا مِنْ عِندِ ٱللَّهِ لِيَشْتَرُوا۟ بِهِۦ ثَمَنًا قَلِيلًا ۖ فَوَيْلٌ لَّهُم مِّمَّا كَتَبَتْ أَيْدِيهِمْ وَوَيْلٌ لَّهُم مِّمَّا يَكْسِبُونَ",
     "textSimple": "فويل للذين يكتبون ٱلكتـب بأيديهم ثم يقولون هـذا من عند ٱلله ليشتروا به ثمنا قليلا  فويل لهم مما كتبت أيديهم وويل لهم مما يكسبون",
     "transliteration": "fawaylun lilladhīna yaktubūna l-kitāba bi-aydīhim thumma yaqūlūna hādhā min ʿindi l-lahi liyashtarū bihi thamanan qalīlan fawaylun lahum mimmā katabat aydīhim wawaylun lahum mimmā yaksibūna",
-    "translation": "",
+    "translation": "So woe to those who write the \"scripture\" with their own hands, then say, \"This is from Allāh,\" in order to exchange it for a small price. Woe to them for what their hands have written and woe to them for what they earn.",
     "words": [
       {
         "id": "al-baqarah-79-1",
@@ -9721,7 +9799,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur à ceux qui écrivent un livre de leurs mains puis disent qu’il est dû à Allah pour en faire commerce à vil prix ! Malheur à eux pour ce qu’ont écrit leurs mains, et malheur à eux pour en avoir tiré profit !"
   },
   {
     "id": "al-baqarah-80",
@@ -9730,7 +9809,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامًا مَّعْدُودَةً ۚ قُلْ أَتَّخَذْتُمْ عِندَ ٱللَّهِ عَهْدًا فَلَن يُخْلِفَ ٱللَّهُ عَهْدَهُۥٓ ۖ أَمْ تَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "وقالوا لن تمسنا ٱلنار إلآ أياما معدودة  قل أتخذتم عند ٱلله عهدا فلن يخلف ٱلله عهدهٓ  أم تقولون على ٱلله ما لا تعلمون",
     "transliteration": "waqālū lan tamassanā l-nāru illā ayyāman maʿdūdatan qul attakhadhtum ʿinda l-lahi ʿahdan falan yukh'lifa l-lahu ʿahdahu am taqūlūna ʿalā l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "And they say, \"Never will the Fire touch us, except for [a few] numbered days.\" Say, \"Have you taken a covenant with Allāh? For Allāh will never break His covenant. Or do you say about Allāh that which you do not know?\"",
     "words": [
       {
         "id": "al-baqarah-80-1",
@@ -9894,7 +9973,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils dirent : « Le Feu ne nous touchera que pendant un nombre limité de jours ! » Dis : « Avez-vous pris un engagement avec Allah – car Allah ne manque jamais à Son engagement – ou dites-vous au sujet d’Allah ce que vous ne savez pas ? »"
   },
   {
     "id": "al-baqarah-81",
@@ -9903,7 +9983,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰ مَن كَسَبَ سَيِّئَةً وَأَحَـٰطَتْ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "بلى من كسب سيئة وأحـطت به خطيٓـٔته فأولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "balā man kasaba sayyi-atan wa-aḥāṭat bihi khaṭīatuhu fa-ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Yes, [on the contrary], whoever earns evil and his sin has encompassed him - those are the companions of the Fire; they will abide therein eternally.",
     "words": [
       {
         "id": "al-baqarah-81-1",
@@ -9997,7 +10077,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Oh que non ! Celui qui a commis des péchés et qui s’est fait cerner par ses propres fautes, ceux-là sont les hôtes du Feu où ils séjourneront à jamais."
   },
   {
     "id": "al-baqarah-82",
@@ -10006,7 +10087,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت أولـٓئك أصحـب ٱلجنة  هم فيها خـلدون",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti ulāika aṣḥābu l-janati hum fīhā khālidūna",
-    "translation": "",
+    "translation": "But they who believe and do righteous deeds - those are the companions of Paradise; they will abide therein eternally.",
     "words": [
       {
         "id": "al-baqarah-82-1",
@@ -10079,7 +10160,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont cru et ont accompli les bonnes œuvres, ceux-là sont les hôtes du Paradis où ils séjourneront à jamais."
   },
   {
     "id": "al-baqarah-83",
@@ -10088,7 +10170,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذْنَا مِيثَـٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ",
     "textSimple": "وإذ أخذنا ميثـق بنىٓ إسرٓءيل لا تعبدون إلا ٱلله وبٱلولدين إحسانا وذى ٱلقربى وٱليتـمى وٱلمسـكين وقولوا للناس حسنا وأقيموا ٱلصلوة وءاتوا ٱلزكوة ثم توليتم إلا قليلا منكم وأنتم معرضون",
     "transliteration": "wa-idh akhadhnā mīthāqa banī is'rāīla lā taʿbudūna illā l-laha wabil-wālidayni iḥ'sānan wadhī l-qur'bā wal-yatāmā wal-masākīni waqūlū lilnnāsi ḥus'nan wa-aqīmū l-ṣalata waātū l-zakata thumma tawallaytum illā qalīlan minkum wa-antum muʿ'riḍūna",
-    "translation": "",
+    "translation": "And [recall] when We took the covenant from the Children of Israel, [enjoining upon them], \"Do not worship except Allāh; and to parents do good and to relatives, orphans, and the needy. And speak to people good [words] and establish prayer and give zakāh.\" Then you turned away, except a few of you, and you were refusing.",
     "words": [
       {
         "id": "al-baqarah-83-1",
@@ -10294,7 +10376,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souviens-toi) lorsque Nous avons pris sur les Enfants d’Israël l’engagement (que voici) : « N’adorez qu’Allah, faites le bien envers vos deux parents, vos proches, les orphelins et les nécessiteux ; tenez aux gens le meilleur discours, accomplissez la Çalât, acquittez-vous de la Zakât. ». Or vous vous êtes rétractés (par rapport à vos engagements) et vous vous êtes détournés, hors quelques-uns parmi vous."
   },
   {
     "id": "al-baqarah-84",
@@ -10303,7 +10386,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذْنَا مِيثَـٰقَكُمْ لَا تَسْفِكُونَ دِمَآءَكُمْ وَلَا تُخْرِجُونَ أَنفُسَكُم مِّن دِيَـٰرِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ",
     "textSimple": "وإذ أخذنا ميثـقكم لا تسفكون دمآءكم ولا تخرجون أنفسكم من ديـركم ثم أقررتم وأنتم تشهدون",
     "transliteration": "wa-idh akhadhnā mīthāqakum lā tasfikūna dimāakum walā tukh'rijūna anfusakum min diyārikum thumma aqrartum wa-antum tashhadūna",
-    "translation": "",
+    "translation": "And [recall] when We took your covenant, [saying], \"Do not shed your [i.e., each other's] blood or evict one another from your homes.\" Then you acknowledged [this] while you were witnessing.",
     "words": [
       {
         "id": "al-baqarah-84-1",
@@ -10411,7 +10494,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous) lorsque Nous prîmes sur vous l’engagement de ne pas répandre votre sang et de ne pas vous chasser les uns les autres de vos maisons. Vous y avez consenti et vous en étiez témoins."
   },
   {
     "id": "al-baqarah-85",
@@ -10420,7 +10504,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَنتُمْ هَـٰٓؤُلَآءِ تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِّنكُم مِّن دِيَـٰرِهِمْ تَظَـٰهَرُونَ عَلَيْهِم بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَإِن يَأْتُوكُمْ أُسَـٰرَىٰ تُفَـٰدُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ ۚ أَفَتُؤْمِنُونَ بِبَعْضِ ٱلْكِتَـٰبِ وَتَكْفُرُونَ بِبَعْضٍ ۚ فَمَا جَزَآءُ مَن يَفْعَلُ ذَٰلِكَ مِنكُمْ إِلَّا خِزْىٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلْعَذَابِ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "ثم أنتم هـٓؤلآء تقتلون أنفسكم وتخرجون فريقا منكم من ديـرهم تظـهرون عليهم بٱلإثم وٱلعدون وإن يأتوكم أسـرى تفـدوهم وهو محرم عليكم إخراجهم  أفتؤمنون ببعض ٱلكتـب وتكفرون ببعض  فما جزآء من يفعل ذلك منكم إلا خزى فى ٱلحيوة ٱلدنيا  ويوم ٱلقيـمة يردون إلىٓ أشد ٱلعذاب  وما ٱلله بغـفل عما تعملون",
     "transliteration": "thumma antum hāulāi taqtulūna anfusakum watukh'rijūna farīqan minkum min diyārihim taẓāharūna ʿalayhim bil-ith'mi wal-ʿud'wāni wa-in yatūkum usārā tufādūhum wahuwa muḥarramun ʿalaykum ikh'rājuhum afatu'minūna bibaʿḍi l-kitābi watakfurūna bibaʿḍin famā jazāu man yafʿalu dhālika minkum illā khiz'yun fī l-ḥayati l-dun'yā wayawma l-qiyāmati yuraddūna ilā ashaddi l-ʿadhābi wamā l-lahu bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "Then, you are those [same ones who are] killing one another and evicting a party of your people from their homes, cooperating against them in sin and aggression. And if they come to you as captives, you ransom them, although their eviction was forbidden to you. So do you believe in part of the Scripture and disbelieve in part? Then what is the recompense for those who do that among you except disgrace in worldly life; and on the Day of Resurrection they will be sent back to the severest of punishment. And Allāh is not unaware of what you do.",
     "words": [
       {
         "id": "al-baqarah-85-1",
@@ -10766,7 +10850,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 48
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis voilà que vous vous entretuez et voilà que vous chassez toute une partie des vôtres de leurs maisons. Vous vous liguez contre eux en leur faisant subir injure et agression, et s’ils viennent vers vous en prisonniers (de guerre) vous payez leur rançon ; mais il vous était d’abord défendu de les chasser (de leurs maisons). Croyez-vous donc à une partie du Livre et mécroyez en l’autre ? La rétribution de ceux qui parmi vous commettent de tels actes ne peut être que l’infamie dans ce bas monde ; et au Jour de la Résurrection ils seront ramenés au plus pénible des supplices. Car Allah n’est point distrait de ce que vous faites."
   },
   {
     "id": "al-baqarah-86",
@@ -10775,7 +10860,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِٱلْـَٔاخِرَةِ ۖ فَلَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنصَرُونَ",
     "textSimple": "أولـٓئك ٱلذين ٱشتروا ٱلحيوة ٱلدنيا بٱلـٔاخرة  فلا يخفف عنهم ٱلعذاب ولا هم ينصرون",
     "transliteration": "ulāika alladhīna ish'tarawū l-ḥayata l-dun'yā bil-ākhirati falā yukhaffafu ʿanhumu l-ʿadhābu walā hum yunṣarūna",
-    "translation": "",
+    "translation": "Those are the ones who have bought the life of this world [in exchange] for the Hereafter, so the punishment will not be lightened for them, nor will they be aided.",
     "words": [
       {
         "id": "al-baqarah-86-1",
@@ -10869,7 +10954,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont bien eux qui ont acheté la vie ici-bas au prix de la vie dans l’au-delà. Leur supplice ne sera point atténué et ils n’auront aucun secours."
   },
   {
     "id": "al-baqarah-87",
@@ -10878,7 +10964,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَـٰتِ وَأَيَّدْنَـٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب وقفينا من بعده بٱلرسل  وءاتينا عيسى ٱبن مريم ٱلبينـت وأيدنـه بروح ٱلقدس  أفكلما جآءكم رسول بما لا تهوىٓ أنفسكم ٱستكبرتم ففريقا كذبتم وفريقا تقتلون",
     "transliteration": "walaqad ātaynā mūsā l-kitāba waqaffaynā min baʿdihi bil-rusuli waātaynā ʿīsā ib'na maryama l-bayināti wa-ayyadnāhu birūḥi l-qudusi afakullamā jāakum rasūlun bimā lā tahwā anfusukumu is'takbartum fafarīqan kadhabtum wafarīqan taqtulūna",
-    "translation": "",
+    "translation": "And We did certainly give Moses the Scripture [i.e., the Torah] and followed up after him with messengers. And We gave Jesus, the son of Mary, clear proofs and supported him with the Pure Spirit [i.e., the angel Gabriel]. But is it [not] that every time a messenger came to you, [O Children of Israel], with what your souls did not desire, you were arrogant? And a party [of messengers] you denied and another party you killed.",
     "words": [
       {
         "id": "al-baqarah-87-1",
@@ -11077,7 +11163,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donné à Moïse le Livre et Nous avons fait se succéder après lui les Messagers. Nous avons donné à Jésus, fils de Marie, les preuves évidentes et Nous l’avons appuyé par le Saint-Esprit. Est-il donc possible qu’à chaque fois qu’un messager vous apportait une vérité contraire à vos passions, vous vous éleviez contre lui avec superbe et arrogance ? Vous traitiez certains de menteurs et vous mettiez à mort les autres !"
   },
   {
     "id": "al-baqarah-88",
@@ -11086,7 +11173,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ قُلُوبُنَا غُلْفٌۢ ۚ بَل لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَقَلِيلًا مَّا يُؤْمِنُونَ",
     "textSimple": "وقالوا قلوبنا غلف  بل لعنهم ٱلله بكفرهم فقليلا ما يؤمنون",
     "transliteration": "waqālū qulūbunā ghul'fun bal laʿanahumu l-lahu bikuf'rihim faqalīlan mā yu'minūna",
-    "translation": "",
+    "translation": "And they said, \"Our hearts are wrapped.\" But, [in fact], Allāh has cursed them for their disbelief, so little is it that they believe.",
     "words": [
       {
         "id": "al-baqarah-88-1",
@@ -11159,7 +11246,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Nos cœurs sont hermétiquement fermés. » Non ! Allah les a plutôt maudits pour leur mécréance car ils sont de peu de foi. »"
   },
   {
     "id": "al-baqarah-89",
@@ -11168,7 +11256,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَهُمْ كِتَـٰبٌ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ وَكَانُوا۟ مِن قَبْلُ يَسْتَفْتِحُونَ عَلَى ٱلَّذِينَ كَفَرُوا۟ فَلَمَّا جَآءَهُم مَّا عَرَفُوا۟ كَفَرُوا۟ بِهِۦ ۚ فَلَعْنَةُ ٱللَّهِ عَلَى ٱلْكَـٰفِرِينَ",
     "textSimple": "ولما جآءهم كتـب من عند ٱلله مصدق لما معهم وكانوا من قبل يستفتحون على ٱلذين كفروا فلما جآءهم ما عرفوا كفروا به  فلعنة ٱلله على ٱلكـفرين",
     "transliteration": "walammā jāahum kitābun min ʿindi l-lahi muṣaddiqun limā maʿahum wakānū min qablu yastaftiḥūna ʿalā alladhīna kafarū falammā jāahum mā ʿarafū kafarū bihi falaʿnatu l-lahi ʿalā l-kāfirīna",
-    "translation": "",
+    "translation": "And when there came to them a Book [i.e., the Qur’ān] from Allāh confirming that which was with them - although before they used to pray for victory against those who disbelieved - but [then] when there came to them that which they recognized, they disbelieved in it; so the curse of Allāh will be upon the disbelievers.",
     "words": [
       {
         "id": "al-baqarah-89-1",
@@ -11353,7 +11441,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand d’Allah leur fut venu un Livre qui confirmait celui qu’ils avaient déjà– et d’ailleurs ils demandaient auparavant le soutien pour triompher des mécréants – quand leur fut venu cela même qu’ils connaissaient déjà, ils n’y crurent point. Que la malédiction d’Allah tombe donc sur les mécréants !"
   },
   {
     "id": "al-baqarah-90",
@@ -11362,7 +11451,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "بِئْسَمَا ٱشْتَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ أَن يَكْفُرُوا۟ بِمَآ أَنزَلَ ٱللَّهُ بَغْيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضْلِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ فَبَآءُو بِغَضَبٍ عَلَىٰ غَضَبٍ ۚ وَلِلْكَـٰفِرِينَ عَذَابٌ مُّهِينٌ",
     "textSimple": "بئسما ٱشتروا بهٓ أنفسهم أن يكفروا بمآ أنزل ٱلله بغيا أن ينزل ٱلله من فضله على من يشآء من عباده  فبآءو بغضب على غضب  وللكـفرين عذاب مهين",
     "transliteration": "bi'samā ish'taraw bihi anfusahum an yakfurū bimā anzala l-lahu baghyan an yunazzila l-lahu min faḍlihi ʿalā man yashāu min ʿibādihi fabāū bighaḍabin ʿalā ghaḍabin walil'kāfirīna ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "How wretched is that for which they sold themselves - that they would disbelieve in what Allāh has revealed through [their] outrage that Allāh would send down His favor upon whom He wills from among His servants. So they returned having [earned] wrath upon wrath. And for the disbelievers is a humiliating punishment.",
     "words": [
       {
         "id": "al-baqarah-90-1",
@@ -11554,7 +11643,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien vil est ce prix contre lequel ils ont vendu leurs âmes en ne croyant pas à (la révélation) qu’Allah a fait descendre. Ils s’élèvent contre l’idée qu’Allah, de par Sa grâce, la fasse descendre sur qui Il veut parmi Ses serviteurs. Ils ont donc attiré sur eux-mêmes colère sur colère, et un supplice humiliant est (promis) aux mécréants."
   },
   {
     "id": "al-baqarah-91",
@@ -11563,7 +11653,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ بِمَآ أَنزَلَ ٱللَّهُ قَالُوا۟ نُؤْمِنُ بِمَآ أُنزِلَ عَلَيْنَا وَيَكْفُرُونَ بِمَا وَرَآءَهُۥ وَهُوَ ٱلْحَقُّ مُصَدِّقًا لِّمَا مَعَهُمْ ۗ قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "وإذا قيل لهم ءامنوا بمآ أنزل ٱلله قالوا نؤمن بمآ أنزل علينا ويكفرون بما ورآءه وهو ٱلحق مصدقا لما معهم  قل فلم تقتلون أنبيآء ٱلله من قبل إن كنتم مؤمنين",
     "transliteration": "wa-idhā qīla lahum āminū bimā anzala l-lahu qālū nu'minu bimā unzila ʿalaynā wayakfurūna bimā warāahu wahuwa l-ḥaqu muṣaddiqan limā maʿahum qul falima taqtulūna anbiyāa l-lahi min qablu in kuntum mu'minīna",
-    "translation": "",
+    "translation": "And when it is said to them, \"Believe in what Allāh has revealed,\" they say, \"We believe [only] in what was revealed to us.\" And they disbelieve in what came after it, while it is the truth confirming that which is with them. Say, \"Then why did you kill the prophets of Allāh before, if you are [indeed] believers?\"",
     "words": [
       {
         "id": "al-baqarah-91-1",
@@ -11776,7 +11866,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand il leur est dit : « Croyez en ce qu’Allah a fait descendre (en révélation) », ils disent : « Nous croyons à ce qui nous a été révélé. » Ils renient donc ce qui est (venu) après et qui est la vérité même confirmant ce qu’ils avaient déjà. Dis : « Pourquoi mettiez-vous donc à mort les Prophètes d’Allah si vous étiez croyants ? »"
   },
   {
     "id": "al-baqarah-92",
@@ -11785,7 +11876,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَقَدْ جَآءَكُم مُّوسَىٰ بِٱلْبَيِّنَـٰتِ ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَـٰلِمُونَ",
     "textSimple": " ولقد جآءكم موسى بٱلبينـت ثم ٱتخذتم ٱلعجل من بعده وأنتم ظـلمون",
     "transliteration": "walaqad jāakum mūsā bil-bayināti thumma ittakhadhtumu l-ʿij'la min baʿdihi wa-antum ẓālimūna",
-    "translation": "",
+    "translation": "And Moses had certainly brought you clear proofs. Then you took the calf [in worship] after that, while you were wrongdoers.",
     "words": [
       {
         "id": "al-baqarah-92-1",
@@ -11865,7 +11956,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse était venu vous apporter les preuves évidentes. En son absence, pourtant, vous avez pris le Veau pour idole, et vous étiez injustes."
   },
   {
     "id": "al-baqarah-93",
@@ -11874,7 +11966,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذْنَا مِيثَـٰقَكُمْ وَرَفَعْنَا فَوْقَكُمُ ٱلطُّورَ خُذُوا۟ مَآ ءَاتَيْنَـٰكُم بِقُوَّةٍ وَٱسْمَعُوا۟ ۖ قَالُوا۟ سَمِعْنَا وَعَصَيْنَا وَأُشْرِبُوا۟ فِى قُلُوبِهِمُ ٱلْعِجْلَ بِكُفْرِهِمْ ۚ قُلْ بِئْسَمَا يَأْمُرُكُم بِهِۦٓ إِيمَـٰنُكُمْ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "وإذ أخذنا ميثـقكم ورفعنا فوقكم ٱلطور خذوا مآ ءاتينـكم بقوة وٱسمعوا  قالوا سمعنا وعصينا وأشربوا فى قلوبهم ٱلعجل بكفرهم  قل بئسما يأمركم بهٓ إيمـنكم إن كنتم مؤمنين",
     "transliteration": "wa-idh akhadhnā mīthāqakum warafaʿnā fawqakumu l-ṭūra khudhū mā ātaynākum biquwwatin wa-is'maʿū qālū samiʿ'nā waʿaṣaynā wa-ush'ribū fī qulūbihimu l-ʿij'la bikuf'rihim qul bi'samā yamurukum bihi īmānukum in kuntum mu'minīna",
-    "translation": "",
+    "translation": "And [recall] when We took your covenant and raised over you the mount, [saying], \"Take what We have given you with determination and listen.\" They said [instead], \"We hear and disobey.\" And their hearts absorbed [the worship of] the calf because of their disbelief. Say, \"How wretched is that which your faith enjoins upon you, if you should be believers.\"",
     "words": [
       {
         "id": "al-baqarah-93-1",
@@ -12066,7 +12158,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souvenez-vous) lorsque Nous avons pris sur vous un engagement et dressâmes sur (vos têtes) le Mont (en vous ordonnant) : « Tenez fermement ce que Nous vous avons apporté et écoutez » (vous disions-Nous). Ils dirent : « Nous avons entendu mais nous désobéissons. » Leurs cœurs étaient pleins de l’amour du Veau, (soumis qu’ils étaient à leur) mécréance. Dis : « Combien mauvais est ce que vous ordonne votre foi, si tant est que vous ayez la foi ! »"
   },
   {
     "id": "al-baqarah-94",
@@ -12075,7 +12168,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِن كَانَتْ لَكُمُ ٱلدَّارُ ٱلْـَٔاخِرَةُ عِندَ ٱللَّهِ خَالِصَةً مِّن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "قل إن كانت لكم ٱلدار ٱلـٔاخرة عند ٱلله خالصة من دون ٱلناس فتمنوا ٱلموت إن كنتم صـدقين",
     "transliteration": "qul in kānat lakumu l-dāru l-ākhiratu ʿinda l-lahi khāliṣatan min dūni l-nāsi fatamannawū l-mawta in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"If the home of the Hereafter with Allāh is for you alone and not the [other] people, then wish for death, if you should be truthful.\"",
     "words": [
       {
         "id": "al-baqarah-94-1",
@@ -12197,7 +12290,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si l’Ultime demeure auprès d’Allah vous est réservée, à l’exclusion des autres hommes, souhaitez donc la mort, si vous êtes vraiment de bonne foi ! »"
   },
   {
     "id": "al-baqarah-95",
@@ -12206,7 +12300,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّـٰلِمِينَ",
     "textSimple": "ولن يتمنوه أبدا بما قدمت أيديهم  وٱلله عليم بٱلظـلمين",
     "transliteration": "walan yatamannawhu abadan bimā qaddamat aydīhim wal-lahu ʿalīmun bil-ẓālimīna",
-    "translation": "",
+    "translation": "But never will they wish for it, ever, because of what their hands have put forth. And Allāh is Knowing of the wrongdoers.",
     "words": [
       {
         "id": "al-baqarah-95-1",
@@ -12272,7 +12366,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne la souhaiteront jamais, étant donné ce que leurs mains ont déjà commis. Et Allah Sait Tout sur les injustes."
   },
   {
     "id": "al-baqarah-96",
@@ -12281,7 +12376,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
     "textSimple": "ولتجدنهم أحرص ٱلناس على حيوة ومن ٱلذين أشركوا  يود أحدهم لو يعمر ألف سنة وما هو بمزحزحه من ٱلعذاب أن يعمر  وٱلله بصير بما يعملون",
     "transliteration": "walatajidannahum aḥraṣa l-nāsi ʿalā ḥayatin wamina alladhīna ashrakū yawaddu aḥaduhum law yuʿammaru alfa sanatin wamā huwa bimuzaḥziḥihi mina l-ʿadhābi an yuʿammara wal-lahu baṣīrun bimā yaʿmalūna",
-    "translation": "",
+    "translation": "And you will surely find them the most greedy of people for life - [even] more than those who associate others with Allāh. One of them wishes that he could be granted life a thousand years, but it would not remove him in the least from the [coming] punishment that he should be granted life. And Allāh is Seeing of what they do.",
     "words": [
       {
         "id": "al-baqarah-96-1",
@@ -12459,7 +12554,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu trouveras qu’ils tiennent à la vie plus que les autres hommes et plus que les associâtres. Chacun d’eux voudrait vivre mille ans. Mais qu’il bénéficie d’une telle longévité ne lui fera point éviter le supplice… Et Allah Voit Tout ce qu’ils font."
   },
   {
     "id": "al-baqarah-97",
@@ -12468,7 +12564,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن كَانَ عَدُوًّا لِّجِبْرِيلَ فَإِنَّهُۥ نَزَّلَهُۥ عَلَىٰ قَلْبِكَ بِإِذْنِ ٱللَّهِ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَهُدًى وَبُشْرَىٰ لِلْمُؤْمِنِينَ",
     "textSimple": "قل من كان عدوا لجبريل فإنه نزله على قلبك بإذن ٱلله مصدقا لما بين يديه وهدى وبشرى للمؤمنين",
     "transliteration": "qul man kāna ʿaduwwan lijib'rīla fa-innahu nazzalahu ʿalā qalbika bi-idh'ni l-lahi muṣaddiqan limā bayna yadayhi wahudan wabush'rā lil'mu'minīna",
-    "translation": "",
+    "translation": "Say, \"Whoever is an enemy to Gabriel - it is [none but] he who has brought it [i.e., the Qur’ān] down upon your heart, [O Muḥammad], by permission of Allāh, confirming that which was before it and as guidance and good tidings for the believers.\"",
     "words": [
       {
         "id": "al-baqarah-97-1",
@@ -12597,7 +12693,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Tout ennemi de Gabriel (doit savoir que) c’est lui qui l’a fait descendre (en révélation) sur ton cœur par la permission d’Allah pour confirmer (les Écritures) précédentes, servir de juste guide et annoncer l’heureuse nouvelle aux croyants. »"
   },
   {
     "id": "al-baqarah-98",
@@ -12606,7 +12703,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "مَن كَانَ عَدُوًّا لِّلَّهِ وَمَلَـٰٓئِكَتِهِۦ وَرُسُلِهِۦ وَجِبْرِيلَ وَمِيكَىٰلَ فَإِنَّ ٱللَّهَ عَدُوٌّ لِّلْكَـٰفِرِينَ",
     "textSimple": "من كان عدوا لله وملـٓئكته ورسله وجبريل وميكىل فإن ٱلله عدو للكـفرين",
     "transliteration": "man kāna ʿaduwwan lillahi wamalāikatihi warusulihi wajib'rīla wamīkāla fa-inna l-laha ʿaduwwun lil'kāfirīna",
-    "translation": "",
+    "translation": "Whoever is an enemy to Allāh and His angels and His messengers and Gabriel and Michael - then indeed, Allāh is an enemy to the disbelievers.",
     "words": [
       {
         "id": "al-baqarah-98-1",
@@ -12693,7 +12790,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui est l’ennemi d’Allah, de Ses Anges, de Ses Messagers, de Gabriel et de Michaël, (qu’il sache qu’) Allah est l’ennemi des mécréants."
   },
   {
     "id": "al-baqarah-99",
@@ -12702,7 +12800,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَنزَلْنَآ إِلَيْكَ ءَايَـٰتٍۭ بَيِّنَـٰتٍ ۖ وَمَا يَكْفُرُ بِهَآ إِلَّا ٱلْفَـٰسِقُونَ",
     "textSimple": "ولقد أنزلنآ إليك ءايـت بينـت  وما يكفر بهآ إلا ٱلفـسقون",
     "transliteration": "walaqad anzalnā ilayka āyātin bayyinātin wamā yakfuru bihā illā l-fāsiqūna",
-    "translation": "",
+    "translation": "And We have certainly revealed to you verses [which are] clear proofs, and no one would deny them except the defiantly disobedient.",
     "words": [
       {
         "id": "al-baqarah-99-1",
@@ -12775,7 +12873,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre (en révélation) sur toi des Signes évidents auxquels seuls les pervers ne croient pas."
   },
   {
     "id": "al-baqarah-100",
@@ -12784,7 +12883,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوَكُلَّمَا عَـٰهَدُوا۟ عَهْدًا نَّبَذَهُۥ فَرِيقٌ مِّنْهُم ۚ بَلْ أَكْثَرُهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "أوكلما عـهدوا عهدا نبذه فريق منهم  بل أكثرهم لا يؤمنون",
     "transliteration": "awakullamā ʿāhadū ʿahdan nabadhahu farīqun min'hum bal aktharuhum lā yu'minūna",
-    "translation": "",
+    "translation": "Is it not [true] that every time they took a covenant a party of them threw it away? But, [in fact], most of them do not believe.",
     "words": [
       {
         "id": "al-baqarah-100-1",
@@ -12857,7 +12956,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il possible qu’à chaque fois qu’ils concluent un pacte, une partie d’entre eux le viole et le renie ? Résolument, la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "al-baqarah-101",
@@ -12866,7 +12966,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَهُمْ رَسُولٌ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ نَبَذَ فَرِيقٌ مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ كِتَـٰبَ ٱللَّهِ وَرَآءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ",
     "textSimple": "ولما جآءهم رسول من عند ٱلله مصدق لما معهم نبذ فريق من ٱلذين أوتوا ٱلكتـب كتـب ٱلله ورآء ظهورهم كأنهم لا يعلمون",
     "transliteration": "walammā jāahum rasūlun min ʿindi l-lahi muṣaddiqun limā maʿahum nabadha farīqun mina alladhīna ūtū l-kitāba kitāba l-lahi warāa ẓuhūrihim ka-annahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "And when a messenger from Allāh came to them confirming that which was with them, a party of those who had been given the Scripture threw the Scripture of Allāh [i.e., the Torah] behind their backs as if they did not know [what it contained].",
     "words": [
       {
         "id": "al-baqarah-101-1",
@@ -13023,7 +13123,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand, de la part d’Allah, leur fut venu un Messager confirmant ce qu’ils avaient déjà avec eux, un groupe parmi eux à qui avait été donné le Livre – le Livre d’Allah- le rejetèrent derrière leur dos comme s’ils ne savaient pas."
   },
   {
     "id": "al-baqarah-102",
@@ -13032,7 +13133,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَـٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَـٰنَ ۖ وَمَا كَفَرَ سُلَيْمَـٰنُ وَلَـٰكِنَّ ٱلشَّيَـٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَـٰرُوتَ وَمَـٰرُوتَ ۚ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ ۖ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ ۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ ۚ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِنْ خَلَـٰقٍ ۚ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
     "textSimple": "وٱتبعوا ما تتلوا ٱلشيـطين على ملك سليمـن  وما كفر سليمـن ولـكن ٱلشيـطين كفروا يعلمون ٱلناس ٱلسحر ومآ أنزل على ٱلملكين ببابل هـروت ومـروت  وما يعلمان من أحد حتى يقولآ إنما نحن فتنة فلا تكفر  فيتعلمون منهما ما يفرقون به بين ٱلمرء وزوجه  وما هم بضآرين به من أحد إلا بإذن ٱلله  ويتعلمون ما يضرهم ولا ينفعهم  ولقد علموا لمن ٱشترىه ما له فى ٱلـٔاخرة من خلـق  ولبئس ما شروا بهٓ أنفسهم  لو كانوا يعلمون",
     "transliteration": "wa-ittabaʿū mā tatlū l-shayāṭīnu ʿalā mul'ki sulaymāna wamā kafara sulaymānu walākinna l-shayāṭīna kafarū yuʿallimūna l-nāsa l-siḥ'ra wamā unzila ʿalā l-malakayni bibābila hārūta wamārūta wamā yuʿallimāni min aḥadin ḥattā yaqūlā innamā naḥnu fit'natun falā takfur fayataʿallamūna min'humā mā yufarriqūna bihi bayna l-mari wazawjihi wamā hum biḍārrīna bihi min aḥadin illā bi-idh'ni l-lahi wayataʿallamūna mā yaḍurruhum walā yanfaʿuhum walaqad ʿalimū lamani ish'tarāhu mā lahu fī l-ākhirati min khalāqin walabi'sa mā sharaw bihi anfusahum law kānū yaʿlamūna",
-    "translation": "",
+    "translation": "And they followed [instead] what the devils had recited during the reign of Solomon. It was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Hārūt and Mārūt. But they [i.e., the two angels] do not teach anyone unless they say, \"We are a trial, so do not disbelieve [by practicing magic].\" And [yet] they learn from them that by which they cause separation between a man and his wife. But they do not harm anyone through it except by permission of Allāh. And they [i.e., people] learn what harms them and does not benefit them. But they [i.e., the Children of Israel] certainly knew that whoever purchased it [i.e., magic] would not have in the Hereafter any share. And wretched is that for which they sold themselves, if they only knew.",
     "words": [
       {
         "id": "al-baqarah-102-1",
@@ -13553,7 +13654,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 73
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils suivirent plutôt ce que racontaient les démons sur le règne de Salomon (Souleymân). Salomon, pourtant, n’a jamais mécru et ce sont bien les démons qui ont mécru, eux qui enseignent aux hommes la sorcellerie et ce qui fut révélé aux deux Anges Hârout et Mârout, à Babel. Mais ceux-là n’enseignaient rien à quelqu’un avant de (lui) dire : « Nous sommes bien une tentation, alors ne mécrois pas ! » D’eux ils ont appris ce qui sépare l’homme et son épouse. Mais ils ne sauraient nuire à personne sauf par la permission d’Allah. Ils apprennent ce qui leur nuit et ne leur profite point ; et ils savent que celui qui bénéficie (de ce pouvoir) n’aura pas sa part dans l’au-delà. Si seulement ils savaient à quel mauvais prix ils avaient vendu leurs âmes !"
   },
   {
     "id": "al-baqarah-103",
@@ -13562,7 +13664,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّهُمْ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَمَثُوبَةٌ مِّنْ عِندِ ٱللَّهِ خَيْرٌ ۖ لَّوْ كَانُوا۟ يَعْلَمُونَ",
     "textSimple": "ولو أنهم ءامنوا وٱتقوا لمثوبة من عند ٱلله خير  لو كانوا يعلمون",
     "transliteration": "walaw annahum āmanū wa-ittaqaw lamathūbatun min ʿindi l-lahi khayrun law kānū yaʿlamūna",
-    "translation": "",
+    "translation": "And if they had believed and feared Allāh, then the reward from Allāh would have been [far] better, if they only knew.",
     "words": [
       {
         "id": "al-baqarah-103-1",
@@ -13649,7 +13751,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’ils avaient la foi et avaient la piété, une récompense d’Allah serait bien meilleure. S’ils savaient !"
   },
   {
     "id": "al-baqarah-104",
@@ -13658,7 +13761,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقُولُوا۟ رَٰعِنَا وَقُولُوا۟ ٱنظُرْنَا وَٱسْمَعُوا۟ ۗ وَلِلْكَـٰفِرِينَ عَذَابٌ أَلِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تقولوا رعنا وقولوا ٱنظرنا وٱسمعوا  وللكـفرين عذاب أليم",
     "transliteration": "yāayyuhā alladhīna āmanū lā taqūlū rāʿinā waqūlū unẓur'nā wa-is'maʿū walil'kāfirīna ʿadhābun alīmun",
-    "translation": "",
+    "translation": "O you who have believed, say not [to Allāh's Messenger], \"Rāʿinā\" but say, \"Unẓurnā\" and listen. And for the disbelievers is a painful punishment.",
     "words": [
       {
         "id": "al-baqarah-104-1",
@@ -13745,7 +13848,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne dites point « Ra’ina » mais dites plutôt « Ondhourna », et écoutez ! Aux mécréants (est promis) un terrible supplice !"
   },
   {
     "id": "al-baqarah-105",
@@ -13754,7 +13858,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
     "textSimple": "ما يود ٱلذين كفروا من أهل ٱلكتـب ولا ٱلمشركين أن ينزل عليكم من خير من ربكم  وٱلله يختص برحمته من يشآء  وٱلله ذو ٱلفضل ٱلعظيم",
     "transliteration": "mā yawaddu alladhīna kafarū min ahli l-kitābi walā l-mush'rikīna an yunazzala ʿalaykum min khayrin min rabbikum wal-lahu yakhtaṣṣu biraḥmatihi man yashāu wal-lahu dhū l-faḍli l-ʿaẓīmi",
-    "translation": "",
+    "translation": "Neither those who disbelieve from the People of the Scripture [i.e., the Jews and Christians] nor the polytheists wish that any good should be sent down to you from your Lord. But Allāh selects for His mercy whom He wills, and Allāh is the possessor of great bounty.",
     "words": [
       {
         "id": "al-baqarah-105-1",
@@ -13932,7 +14036,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru parmi les gens du Livre, pas plus que les associâtres, ne voudraient que sur vous soit descendu le bienfait de votre Seigneur. Allah élit par Sa miséricorde qui Il veut, Allah détient les faveurs infinies."
   },
   {
     "id": "al-baqarah-106",
@@ -13941,7 +14046,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ مَا نَنسَخْ مِنْ ءَايَةٍ أَوْ نُنسِهَا نَأْتِ بِخَيْرٍ مِّنْهَآ أَوْ مِثْلِهَآ ۗ أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": " ما ننسخ من ءاية أو ننسها نأت بخير منهآ أو مثلهآ  ألم تعلم أن ٱلله على كل شىء قدير",
     "transliteration": "mā nansakh min āyatin aw nunsihā nati bikhayrin min'hā aw mith'lihā alam taʿlam anna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "We do not abrogate a verse or cause it to be forgotten except that We bring forth [one] better than it or similar to it. Do you not know that Allāh is over all things competent?",
     "words": [
       {
         "id": "al-baqarah-106-1",
@@ -14077,7 +14182,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’abrogeons un verset ou le faisons oublier que pour en apporter un autre meilleur ou semblable. Ne sais-tu donc pas qu’Allah est de Toute chose Infiniment Capable ?"
   },
   {
     "id": "al-baqarah-107",
@@ -14086,7 +14192,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "ألم تعلم أن ٱلله له ملك ٱلسمـوت وٱلأرض  وما لكم من دون ٱلله من ولى ولا نصير",
     "transliteration": "alam taʿlam anna l-laha lahu mul'ku l-samāwāti wal-arḍi wamā lakum min dūni l-lahi min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "Do you not know that to Allāh belongs the dominion of the heavens and the earth and [that] you have not besides Allāh any protector or any helper?",
     "words": [
       {
         "id": "al-baqarah-107-1",
@@ -14208,7 +14314,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sais-tu donc pas qu’Allah a la royauté des cieux et de la terre et que, en dehors d’Allah, vous n’avez ni protecteur ni allié ?"
   },
   {
     "id": "al-baqarah-108",
@@ -14217,7 +14324,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تُرِيدُونَ أَن تَسْـَٔلُوا۟ رَسُولَكُمْ كَمَا سُئِلَ مُوسَىٰ مِن قَبْلُ ۗ وَمَن يَتَبَدَّلِ ٱلْكُفْرَ بِٱلْإِيمَـٰنِ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ",
     "textSimple": "أم تريدون أن تسـٔلوا رسولكم كما سئل موسى من قبل  ومن يتبدل ٱلكفر بٱلإيمـن فقد ضل سوآء ٱلسبيل",
     "transliteration": "am turīdūna an tasalū rasūlakum kamā su-ila mūsā min qablu waman yatabaddali l-kuf'ra bil-īmāni faqad ḍalla sawāa l-sabīli",
-    "translation": "",
+    "translation": "Or do you intend to ask your Messenger as Moses was asked before? And whoever exchanges faith for disbelief has certainly strayed from the soundness of the way.",
     "words": [
       {
         "id": "al-baqarah-108-1",
@@ -14346,7 +14453,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors voudriez-vous interroger votre Messager comme fut interrogé avant lui Moïse ? Quiconque échange la foi contre la mécréance, celui-là s’est égaré du droit chemin."
   },
   {
     "id": "al-baqarah-109",
@@ -14355,7 +14463,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَـٰبِ لَوْ يَرُدُّونَكُم مِّنۢ بَعْدِ إِيمَـٰنِكُمْ كُفَّارًا حَسَدًا مِّنْ عِندِ أَنفُسِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ ۖ فَٱعْفُوا۟ وَٱصْفَحُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦٓ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "ود كثير من أهل ٱلكتـب لو يردونكم من بعد إيمـنكم كفارا حسدا من عند أنفسهم من بعد ما تبين لهم ٱلحق  فٱعفوا وٱصفحوا حتى يأتى ٱلله بأمرهٓ  إن ٱلله على كل شىء قدير",
     "transliteration": "wadda kathīrun min ahli l-kitābi law yaruddūnakum min baʿdi īmānikum kuffāran ḥasadan min ʿindi anfusihim min baʿdi mā tabayyana lahumu l-ḥaqu fa-iʿ'fū wa-iṣ'faḥū ḥattā yatiya l-lahu bi-amrihi inna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Many of the People of the Scripture wish they could turn you back to disbelief after you have believed, out of envy from themselves [even] after the truth has become clear to them. So pardon and overlook until Allāh delivers His command. Indeed, Allāh is over all things competent.",
     "words": [
       {
         "id": "al-baqarah-109-1",
@@ -14589,7 +14697,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nombreux sont les gens du Livre qui voudraient, par jalousie et de leur propre initiative, vous rendre mécréants après que vous êtes devenus croyants et après que la vérité leur est apparue évidente. Pardonnez et passez (sur les fautes) jusqu’à ce qu’Allah fasse parvenir Ses ordres. Allah est de Toute chose Infiniment Capable !"
   },
   {
     "id": "al-baqarah-110",
@@ -14598,7 +14707,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "وأقيموا ٱلصلوة وءاتوا ٱلزكوة  وما تقدموا لأنفسكم من خير تجدوه عند ٱلله  إن ٱلله بما تعملون بصير",
     "transliteration": "wa-aqīmū l-ṣalata waātū l-zakata wamā tuqaddimū li-anfusikum min khayrin tajidūhu ʿinda l-lahi inna l-laha bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "And establish prayer and give zakāh, and whatever good you put forward for yourselves - you will find it with Allāh. Indeed Allāh, of what you do, is Seeing.",
     "words": [
       {
         "id": "al-baqarah-110-1",
@@ -14720,7 +14829,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accomplissez la Çalât, acquittez-vous de la Zakât, et quelque bien que vous avanciez pour vous-mêmes vous le trouverez auprès d’Allah, car Allah Voit absolument ce que vous faites."
   },
   {
     "id": "al-baqarah-111",
@@ -14729,7 +14839,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَن يَدْخُلَ ٱلْجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوْ نَصَـٰرَىٰ ۗ تِلْكَ أَمَانِيُّهُمْ ۗ قُلْ هَاتُوا۟ بُرْهَـٰنَكُمْ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "وقالوا لن يدخل ٱلجنة إلا من كان هودا أو نصـرى  تلك أمانيهم  قل هاتوا برهـنكم إن كنتم صـدقين",
     "transliteration": "waqālū lan yadkhula l-janata illā man kāna hūdan aw naṣārā til'ka amāniyyuhum qul hātū bur'hānakum in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"None will enter Paradise except one who is a Jew or a Christian.\" That is [merely] their wishful thinking. Say, \"Produce your proof, if you should be truthful.\"",
     "words": [
       {
         "id": "al-baqarah-111-1",
@@ -14858,7 +14968,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils dirent : « Nul n’entrera au Paradis s’il n’est Juif ou Chrétien. » Telles sont leurs illusions. Dis : « Apportez votre preuve si vous êtes véridiques ! »"
   },
   {
     "id": "al-baqarah-112",
@@ -14867,7 +14978,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "بلى من أسلم وجهه لله وهو محسن فلهٓ أجره عند ربه ولا خوف عليهم ولا هم يحزنون",
     "transliteration": "balā man aslama wajhahu lillahi wahuwa muḥ'sinun falahu ajruhu ʿinda rabbihi walā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Yes, [on the contrary], whoever submits his face [i.e., self] in Islām to Allāh while being a doer of good will have his reward with his Lord. And no fear will there be concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-baqarah-112-1",
@@ -14989,7 +15100,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Celui qui, de tout son être, se soumet à Allah en faisant le bien, celui-là aura une récompense auprès de son Seigneur. Nulle crainte pour eux et ils n’auront aucune affliction."
   },
   {
     "id": "al-baqarah-113",
@@ -14998,7 +15110,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَتِ ٱلْيَهُودُ لَيْسَتِ ٱلنَّصَـٰرَىٰ عَلَىٰ شَىْءٍ وَقَالَتِ ٱلنَّصَـٰرَىٰ لَيْسَتِ ٱلْيَهُودُ عَلَىٰ شَىْءٍ وَهُمْ يَتْلُونَ ٱلْكِتَـٰبَ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ لَا يَعْلَمُونَ مِثْلَ قَوْلِهِمْ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
     "textSimple": "وقالت ٱليهود ليست ٱلنصـرى على شىء وقالت ٱلنصـرى ليست ٱليهود على شىء وهم يتلون ٱلكتـب  كذلك قال ٱلذين لا يعلمون مثل قولهم  فٱلله يحكم بينهم يوم ٱلقيـمة فيما كانوا فيه يختلفون",
     "transliteration": "waqālati l-yahūdu laysati l-naṣārā ʿalā shayin waqālati l-naṣārā laysati l-yahūdu ʿalā shayin wahum yatlūna l-kitāba kadhālika qāla alladhīna lā yaʿlamūna mith'la qawlihim fal-lahu yaḥkumu baynahum yawma l-qiyāmati fīmā kānū fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "The Jews say, \"The Christians have nothing [true] to stand on,\" and the Christians say, \"The Jews have nothing to stand on,\" although they [both] recite the Scripture. Thus do those who know not [i.e., the polytheists] speak the same as their words. But Allāh will judge between them on the Day of Resurrection concerning that over which they used to differ.",
     "words": [
       {
         "id": "al-baqarah-113-1",
@@ -15218,7 +15330,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Juifs disent : « Les Nazaréens (les Chrétiens) ne se fondent sur rien. » Et les Nazaréens de répondre (à leur tour) : « Les Juifs ne se fondent sur rien. » Ils récitent pourtant le Livre. De la même manière parlent ceux qui ne savent pas. Allah, le Jour de la Résurrection, jugera sur quoi ils sont en désaccord."
   },
   {
     "id": "al-baqarah-114",
@@ -15227,7 +15340,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَـٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى خَرَابِهَآ ۚ أُو۟لَـٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى ٱلْـَٔاخِرَةِ عَذَابٌ عَظِيمٌ",
     "textSimple": "ومن أظلم ممن منع مسـجد ٱلله أن يذكر فيها ٱسمه وسعى فى خرابهآ  أولـٓئك ما كان لهم أن يدخلوهآ إلا خآئفين  لهم فى ٱلدنيا خزى ولهم فى ٱلـٔاخرة عذاب عظيم",
     "transliteration": "waman aẓlamu mimman manaʿa masājida l-lahi an yudh'kara fīhā us'muhu wasaʿā fī kharābihā ulāika mā kāna lahum an yadkhulūhā illā khāifīna lahum fī l-dun'yā khiz'yun walahum fī l-ākhirati ʿadhābun ʿaẓīmun",
-    "translation": "",
+    "translation": "And who are more unjust than those who prevent the name of Allāh from being mentioned [i.e., praised] in His mosques and strive toward their destruction. It is not for them to enter them except in fear. For them in this world is disgrace, and they will have in the Hereafter a great punishment.",
     "words": [
       {
         "id": "al-baqarah-114-1",
@@ -15440,7 +15553,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui empêche que dans les mosquées d’Allah Son Nom soit prononcé et qui s’emploie à leur ruine ? Ceux-là ne devraient y entrer que tenaillés par la peur. Leur lot dans ce bas monde est l’infamie, et dans l’au-delà, ils auront un terrible supplice."
   },
   {
     "id": "al-baqarah-115",
@@ -15449,7 +15563,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ فَأَيْنَمَا تُوَلُّوا۟ فَثَمَّ وَجْهُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٌ",
     "textSimple": "ولله ٱلمشرق وٱلمغرب  فأينما تولوا فثم وجه ٱلله  إن ٱلله وسع عليم",
     "transliteration": "walillahi l-mashriqu wal-maghribu fa-aynamā tuwallū fathamma wajhu l-lahi inna l-laha wāsiʿun ʿalīmun",
-    "translation": "",
+    "translation": "And to Allāh belongs the east and the west. So wherever you [might] turn, there is the Face of Allāh. Indeed, Allāh is all-Encompassing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-115-1",
@@ -15536,7 +15650,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartiennent l’Est et l’Ouest. Où que vous vous tourniez, là se trouve la Face d’Allah. Car Allah est Immense et Il est Omniscient."
   },
   {
     "id": "al-baqarah-116",
@@ -15545,7 +15660,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا ۗ سُبْحَـٰنَهُۥ ۖ بَل لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّ لَّهُۥ قَـٰنِتُونَ",
     "textSimple": "وقالوا ٱتخذ ٱلله ولدا  سبحـنه  بل له ما فى ٱلسمـوت وٱلأرض  كل له قـنتون",
     "transliteration": "waqālū ittakhadha l-lahu waladan sub'ḥānahu bal lahu mā fī l-samāwāti wal-arḍi kullun lahu qānitūna",
-    "translation": "",
+    "translation": "They say, \"Allāh has taken a son.\" Exalted is He! Rather, to Him belongs whatever is in the heavens and the earth. All are devoutly obedient to Him,",
     "words": [
       {
         "id": "al-baqarah-116-1",
@@ -15646,7 +15761,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils disent : « Allah s’est donné un fils ! » Gloire Lui soit rendue ! Or, c’est à Lui qu’appartient ce qu’il y a dans les cieux et sur terre, et c’est à Lui que tous sont soumis."
   },
   {
     "id": "al-baqarah-117",
@@ -15655,7 +15771,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "بَدِيعُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَإِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
     "textSimple": "بديع ٱلسمـوت وٱلأرض  وإذا قضىٓ أمرا فإنما يقول له كن فيكون",
     "transliteration": "badīʿu l-samāwāti wal-arḍi wa-idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu",
-    "translation": "",
+    "translation": "Originator of the heavens and the earth. When He decrees a matter, He only says to it, \"Be,\" and it is.",
     "words": [
       {
         "id": "al-baqarah-117-1",
@@ -15735,7 +15851,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Créateur Originel des cieux et de la terre, Qui lorsqu’Il décrète une chose dit simplement « Sois » et cette chose est."
   },
   {
     "id": "al-baqarah-118",
@@ -15744,7 +15861,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ ءَايَةٌ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ تَشَـٰبَهَتْ قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْـَٔايَـٰتِ لِقَوْمٍ يُوقِنُونَ",
     "textSimple": "وقال ٱلذين لا يعلمون لولا يكلمنا ٱلله أو تأتينآ ءاية  كذلك قال ٱلذين من قبلهم مثل قولهم  تشـبهت قلوبهم  قد بينا ٱلـٔايـت لقوم يوقنون",
     "transliteration": "waqāla alladhīna lā yaʿlamūna lawlā yukallimunā l-lahu aw tatīnā āyatun kadhālika qāla alladhīna min qablihim mith'la qawlihim tashābahat qulūbuhum qad bayyannā l-āyāti liqawmin yūqinūna",
-    "translation": "",
+    "translation": "Those who do not know say, \"Why does Allāh not speak to us or there come to us a sign?\" Thus spoke those before them like their words. Their hearts resemble each other. We have shown clearly the signs to a people who are certain [in faith].",
     "words": [
       {
         "id": "al-baqarah-118-1",
@@ -15915,7 +16032,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ne savent pas disent : « Si (au moins) Allah nous parlait ou si nous parvenait (de Lui) quelque Signe. » Ainsi avaient parlé ceux qui les ont précédés. Leurs cœurs se ressemblent. Nous avons, en fait, clairement montré les Signes aux gens qui ont la foi."
   },
   {
     "id": "al-baqarah-119",
@@ -15924,7 +16042,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَرْسَلْنَـٰكَ بِٱلْحَقِّ بَشِيرًا وَنَذِيرًا ۖ وَلَا تُسْـَٔلُ عَنْ أَصْحَـٰبِ ٱلْجَحِيمِ",
     "textSimple": "إنآ أرسلنـك بٱلحق بشيرا ونذيرا  ولا تسـٔل عن أصحـب ٱلجحيم",
     "transliteration": "innā arsalnāka bil-ḥaqi bashīran wanadhīran walā tus'alu ʿan aṣḥābi l-jaḥīmi",
-    "translation": "",
+    "translation": "Indeed, We have sent you, [O Muḥammad], with the truth as a bringer of good tidings and a warner, and you will not be asked about the companions of Hellfire.",
     "words": [
       {
         "id": "al-baqarah-119-1",
@@ -15997,7 +16115,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’avons envoyé avec la vérité en annonciateur d’heureuses nouvelles (bachîran) et en avertisseur du châtiment (nadhîran). Et tu n’auras pas à répondre des hôtes de la Géhenne."
   },
   {
     "id": "al-baqarah-120",
@@ -16006,7 +16125,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَن تَرْضَىٰ عَنكَ ٱلْيَهُودُ وَلَا ٱلنَّصَـٰرَىٰ حَتَّىٰ تَتَّبِعَ مِلَّتَهُمْ ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۗ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم بَعْدَ ٱلَّذِى جَآءَكَ مِنَ ٱلْعِلْمِ ۙ مَا لَكَ مِنَ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "ولن ترضى عنك ٱليهود ولا ٱلنصـرى حتى تتبع ملتهم  قل إن هدى ٱلله هو ٱلهدى  ولئن ٱتبعت أهوآءهم بعد ٱلذى جآءك من ٱلعلم  ما لك من ٱلله من ولى ولا نصير",
     "transliteration": "walan tarḍā ʿanka l-yahūdu walā l-naṣārā ḥattā tattabiʿa millatahum qul inna hudā l-lahi huwa l-hudā wala-ini ittabaʿta ahwāahum baʿda alladhī jāaka mina l-ʿil'mi mā laka mina l-lahi min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "And never will the Jews and the Christians approve of you until you follow their religion. Say, \"Indeed, the guidance of Allāh is the [only] guidance.\" If you were to follow their desires after what has come to you of knowledge, you would have against Allāh no protector or helper.",
     "words": [
       {
         "id": "al-baqarah-120-1",
@@ -16226,7 +16345,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Juifs ne seront jamais satisfaits de toi, pas plus que les Chrétiens, tant que tu n’auras pas suivi leur religion. Dis : « La vraie direction, la bonne, est celle d’Allah. » Mais si, après ce qui t’est parvenu comme science, tu suivais leurs désirs, tu n’aurais contre Allah ni protecteur ni allié."
   },
   {
     "id": "al-baqarah-121",
@@ -16235,7 +16355,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يَتْلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ أُو۟لَـٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۗ وَمَن يَكْفُرْ بِهِۦ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "ٱلذين ءاتينـهم ٱلكتـب يتلونه حق تلاوتهٓ أولـٓئك يؤمنون به  ومن يكفر به فأولـٓئك هم ٱلخـسرون",
     "transliteration": "alladhīna ātaynāhumu l-kitāba yatlūnahu ḥaqqa tilāwatihi ulāika yu'minūna bihi waman yakfur bihi fa-ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "Those to whom We have given the Book recite it with its true recital. They [are the ones who] believe in it. And whoever disbelieves in it - it is they who are the losers.",
     "words": [
       {
         "id": "al-baqarah-121-1",
@@ -16343,7 +16463,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux à qui Nous avons donné le Livre, qui le récitent comme il convient de le réciter, ceux-là seuls y croient. Mais ceux qui y mécroient sont bien les perdants."
   },
   {
     "id": "al-baqarah-122",
@@ -16352,7 +16473,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "يـبنىٓ إسرٓءيل ٱذكروا نعمتى ٱلتىٓ أنعمت عليكم وأنى فضلتكم على ٱلعـلمين",
     "transliteration": "yābanī is'rāīla udh'kurū niʿ'matiya allatī anʿamtu ʿalaykum wa-annī faḍḍaltukum ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "O Children of Israel, remember My favor which I have bestowed upon you and that I preferred you over the worlds.",
     "words": [
       {
         "id": "al-baqarah-122-1",
@@ -16432,7 +16553,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Enfants d’Israël ! Rappelez-vous Ma grâce (cette grâce) dont Je vous ai comblés et Je vous ai privilégiés par rapport aux autres peuples du monde (vos contemporains)."
   },
   {
     "id": "al-baqarah-123",
@@ -16441,7 +16563,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ يَوْمًا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ شَيْـًٔا وَلَا يُقْبَلُ مِنْهَا عَدْلٌ وَلَا تَنفَعُهَا شَفَـٰعَةٌ وَلَا هُمْ يُنصَرُونَ",
     "textSimple": "وٱتقوا يوما لا تجزى نفس عن نفس شيـٔا ولا يقبل منها عدل ولا تنفعها شفـعة ولا هم ينصرون",
     "transliteration": "wa-ittaqū yawman lā tajzī nafsun ʿan nafsin shayan walā yuq'balu min'hā ʿadlun walā tanfaʿuhā shafāʿatun walā hum yunṣarūna",
-    "translation": "",
+    "translation": "And fear a Day when no soul will suffice for another soul at all, and no compensation will be accepted from it, nor will any intercession benefit it, nor will they be aided.",
     "words": [
       {
         "id": "al-baqarah-123-1",
@@ -16570,7 +16692,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et craignez le jour où aucune âme ne rachètera de rien une autre âme ; où il n’en sera accepté aucune compensation ; où aucune intercession ne lui sera utile. Et ils n’auront aucun secours."
   },
   {
     "id": "al-baqarah-124",
@@ -16579,7 +16702,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذِ ٱبْتَلَىٰٓ إِبْرَٰهِـۧمَ رَبُّهُۥ بِكَلِمَـٰتٍ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًا ۖ قَالَ وَمِن ذُرِّيَّتِى ۖ قَالَ لَا يَنَالُ عَهْدِى ٱلظَّـٰلِمِينَ",
     "textSimple": " وإذ ٱبتلىٓ إبرهـم ربه بكلمـت فأتمهن  قال إنى جاعلك للناس إماما  قال ومن ذريتى  قال لا ينال عهدى ٱلظـلمين",
     "transliteration": "wa-idhi ib'talā ib'rāhīma rabbuhu bikalimātin fa-atammahunna qāla innī jāʿiluka lilnnāsi imāman qāla wamin dhurriyyatī qāla lā yanālu ʿahdī l-ẓālimīna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Abraham was tried by his Lord with words [i.e., commands] and he fulfilled them. [Allāh] said, \"Indeed, I will make you a leader for the people.\" [Abraham] said, \"And of my descendants?\" [Allāh] said, \"My covenant does not include the wrongdoers.\"",
     "words": [
       {
         "id": "al-baqarah-124-1",
@@ -16715,7 +16838,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (souviens-toi) quand ton Seigneur eut mis à l’épreuve Abraham par certaines prescriptions et que (celui-ci) les eut accomplies : « Je vais faire de toi un guide pour les gens », lui dit (Allah). « Et qu’en sera-t-il de ma descendance ? », répondit (Abraham). « Mon engagement n’est pas promis aux injustes. » répondit Allah."
   },
   {
     "id": "al-baqarah-125",
@@ -16724,7 +16848,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِـۧمَ مُصَلًّى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَـٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
     "textSimple": "وإذ جعلنا ٱلبيت مثابة للناس وأمنا وٱتخذوا من مقام إبرهـم مصلى  وعهدنآ إلىٓ إبرهـم وإسمـعيل أن طهرا بيتى للطآئفين وٱلعـكفين وٱلركع ٱلسجود",
     "transliteration": "wa-idh jaʿalnā l-bayta mathābatan lilnnāsi wa-amnan wa-ittakhidhū min maqāmi ib'rāhīma muṣallan waʿahid'nā ilā ib'rāhīma wa-is'māʿīla an ṭahhirā baytiya lilṭṭāifīna wal-ʿākifīna wal-rukaʿi l-sujūdi",
-    "translation": "",
+    "translation": "And [mention] when We made the House [i.e., the Kaʿbah] a place of return for the people and [a place of] security. And take, [O believers], from the standing place of Abraham a place of prayer. And We charged Abraham and Ishmael, [saying], \"Purify My House for those who perform ṭawāf and those who are staying [there] for worship and those who bow and prostrate [in prayer].\"",
     "words": [
       {
         "id": "al-baqarah-125-1",
@@ -16881,7 +17005,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand Nous fîmes de la Maison (la Kaâba) un lieu de rassemblement pour les gens et un asile de paix… Prenez donc la station d’Abraham pour lieu de prière. Et Nous confiâmes à Abraham et Ismaël : « Purifiez donc Ma Maison pour ceux qui y accomplissent la circumambulation rituelle (ta’ifîn) et (s’y adonnent à) la retraite pieuse (‘akifîn), et ceux qui s’y inclinent et ceux qui s’y prosternent. »"
   },
   {
     "id": "al-baqarah-126",
@@ -16890,7 +17015,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ إِبْرَٰهِـۧمُ رَبِّ ٱجْعَلْ هَـٰذَا بَلَدًا ءَامِنًا وَٱرْزُقْ أَهْلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنْ ءَامَنَ مِنْهُم بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلًا ثُمَّ أَضْطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِ ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "وإذ قال إبرهـم رب ٱجعل هـذا بلدا ءامنا وٱرزق أهله من ٱلثمرت من ءامن منهم بٱلله وٱليوم ٱلـٔاخر  قال ومن كفر فأمتعه قليلا ثم أضطرهٓ إلى عذاب ٱلنار  وبئس ٱلمصير",
     "transliteration": "wa-idh qāla ib'rāhīmu rabbi ij'ʿal hādhā baladan āminan wa-ur'zuq ahlahu mina l-thamarāti man āmana min'hum bil-lahi wal-yawmi l-ākhiri qāla waman kafara fa-umattiʿuhu qalīlan thumma aḍṭarruhu ilā ʿadhābi l-nāri wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "And [mention] when Abraham said, \"My Lord, make this a secure city and provide its people with fruits - whoever of them believes in Allāh and the Last Day.\" [Allāh] said, \"And whoever disbelieves - I will grant him enjoyment for a little; then I will force him to the punishment of the Fire, and wretched is the destination.\"",
     "words": [
       {
         "id": "al-baqarah-126-1",
@@ -17103,7 +17228,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand Abraham dit : « Seigneur ! Fais de ce lieu un asile de paix et accorde des bienfaits à ceux qui, parmi ses habitants, ont cru en Allah et au Jour Dernier ! » (Allah) dit : « Quant à celui-là qui a mécru, Je lui accorderai une jouissance momentanée puis le forcerai au supplice du Feu ; et là quel terrible sort !"
   },
   {
     "id": "al-baqarah-127",
@@ -17112,7 +17238,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ يَرْفَعُ إِبْرَٰهِـۧمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَـٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "وإذ يرفع إبرهـم ٱلقواعد من ٱلبيت وإسمـعيل ربنا تقبل منآ  إنك أنت ٱلسميع ٱلعليم",
     "transliteration": "wa-idh yarfaʿu ib'rāhīmu l-qawāʿida mina l-bayti wa-is'māʿīlu rabbanā taqabbal minnā innaka anta l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "And [mention] when Abraham was raising the foundations of the House and [with him] Ishmael, [saying], \"Our Lord, accept [this] from us. Indeed, You are the Hearing, the Knowing.",
     "words": [
       {
         "id": "al-baqarah-127-1",
@@ -17213,7 +17339,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand Abraham et Ismaël eurent élevé les fondations de la Maison (la Kaâba), ils dirent : « Ô Seigneur ! Veuille accepter de nous (ceci) car c’est Toi Qui Entends Tout et c’est Toi l’Omniscient."
   },
   {
     "id": "al-baqarah-128",
@@ -17222,7 +17349,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةً مُّسْلِمَةً لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
     "textSimple": "ربنا وٱجعلنا مسلمين لك ومن ذريتنآ أمة مسلمة لك وأرنا مناسكنا وتب علينآ  إنك أنت ٱلتواب ٱلرحيم",
     "transliteration": "rabbanā wa-ij'ʿalnā mus'limayni laka wamin dhurriyyatinā ummatan mus'limatan laka wa-arinā manāsikanā watub ʿalaynā innaka anta l-tawābu l-raḥīmu",
-    "translation": "",
+    "translation": "Our Lord, and make us Muslims [in submission] to You and from our descendants a Muslim nation [in submission] to You. And show us our rites [of worship] and accept our repentance. Indeed, You are the Accepting of Repentance, the Merciful.",
     "words": [
       {
         "id": "al-baqarah-128-1",
@@ -17344,7 +17471,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Fais que nous Te soyons Soumis et que notre descendance Te soit une nation soumise. Et montre-nous nos rites et veuille accepter de nous le repentir car c’est Toi le Tout Absoluteur, le Tout Miséricordieux !"
   },
   {
     "id": "al-baqarah-129",
@@ -17353,7 +17481,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِكَ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "ربنا وٱبعث فيهم رسولا منهم يتلوا عليهم ءايـتك ويعلمهم ٱلكتـب وٱلحكمة ويزكيهم  إنك أنت ٱلعزيز ٱلحكيم",
     "transliteration": "rabbanā wa-ib'ʿath fīhim rasūlan min'hum yatlū ʿalayhim āyātika wayuʿallimuhumu l-kitāba wal-ḥik'mata wayuzakkīhim innaka anta l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Our Lord, and send among them a messenger from themselves who will recite to them Your verses and teach them the Book and wisdom and purify them. Indeed, You are the Exalted in Might, the Wise.\"",
     "words": [
       {
         "id": "al-baqarah-129-1",
@@ -17468,7 +17596,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Envoie parmi eux un messager qui soit des leurs, qui leur récitera Tes versets, leur enseignera le Livre et la sagesse et les purifiera, car c’est Toi le Tout -Puissant, le Sage."
   },
   {
     "id": "al-baqarah-130",
@@ -17477,7 +17606,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَٰهِـۧمَ إِلَّا مَن سَفِهَ نَفْسَهُۥ ۚ وَلَقَدِ ٱصْطَفَيْنَـٰهُ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "ومن يرغب عن ملة إبرهـم إلا من سفه نفسه  ولقد ٱصطفينـه فى ٱلدنيا  وإنه فى ٱلـٔاخرة لمن ٱلصـلحين",
     "transliteration": "waman yarghabu ʿan millati ib'rāhīma illā man safiha nafsahu walaqadi iṣ'ṭafaynāhu fī l-dun'yā wa-innahu fī l-ākhirati lamina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And who would be averse to the religion of Abraham except one who makes a fool of himself. And We had chosen him in this world, and indeed he, in the Hereafter, will be among the righteous.",
     "words": [
       {
         "id": "al-baqarah-130-1",
@@ -17606,7 +17735,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui donc ne voudra pas de la tradition d’Abraham sinon celui qui abêtit son âme ? Nous l’avons certes élu en ce bas monde et, dans l’autre, il comptera parmi les vertueux."
   },
   {
     "id": "al-baqarah-131",
@@ -17615,7 +17745,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لَهُۥ رَبُّهُۥٓ أَسْلِمْ ۖ قَالَ أَسْلَمْتُ لِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "إذ قال له ربهٓ أسلم  قال أسلمت لرب ٱلعـلمين",
     "transliteration": "idh qāla lahu rabbuhu aslim qāla aslamtu lirabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "When his Lord said to him, \"Submit,\" he said, \"I have submitted [in Islām] to the Lord of the worlds.\"",
     "words": [
       {
         "id": "al-baqarah-131-1",
@@ -17681,7 +17811,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand son Seigneur lui eut dit : « Soumets-toi ! » il répondit : « Je me soumets au Seigneur de l’Univers. »"
   },
   {
     "id": "al-baqarah-132",
@@ -17690,7 +17821,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَوَصَّىٰ بِهَآ إِبْرَٰهِـۧمُ بَنِيهِ وَيَعْقُوبُ يَـٰبَنِىَّ إِنَّ ٱللَّهَ ٱصْطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ",
     "textSimple": "ووصى بهآ إبرهـم بنيه ويعقوب يـبنى إن ٱلله ٱصطفى لكم ٱلدين فلا تموتن إلا وأنتم مسلمون",
     "transliteration": "wawaṣṣā bihā ib'rāhīmu banīhi wayaʿqūbu yābaniyya inna l-laha iṣ'ṭafā lakumu l-dīna falā tamūtunna illā wa-antum mus'limūna",
-    "translation": "",
+    "translation": "And Abraham instructed his sons [to do the same] and [so did] Jacob, [saying], \"O my sons, indeed Allāh has chosen for you this religion, so do not die except while you are Muslims.\"",
     "words": [
       {
         "id": "al-baqarah-132-1",
@@ -17805,7 +17936,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce fut là ce que recommanda Abraham à ses fils ainsi que Jacob : « Ô mes fils ! C’est Allah Qui a choisi pour vous cette religion. Ne mourez donc point que vous ne soyez (entièrement) Soumis. »"
   },
   {
     "id": "al-baqarah-133",
@@ -17814,7 +17946,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَـٰهَكَ وَإِلَـٰهَ ءَابَآئِكَ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ إِلَـٰهًا وَٰحِدًا وَنَحْنُ لَهُۥ مُسْلِمُونَ",
     "textSimple": "أم كنتم شهدآء إذ حضر يعقوب ٱلموت إذ قال لبنيه ما تعبدون من بعدى قالوا نعبد إلـهك وإلـه ءابآئك إبرهـم وإسمـعيل وإسحـق إلـها وحدا ونحن له مسلمون",
     "transliteration": "am kuntum shuhadāa idh ḥaḍara yaʿqūba l-mawtu idh qāla libanīhi mā taʿbudūna min baʿdī qālū naʿbudu ilāhaka wa-ilāha ābāika ib'rāhīma wa-is'māʿīla wa-is'ḥāqa ilāhan wāḥidan wanaḥnu lahu mus'limūna",
-    "translation": "",
+    "translation": "Or were you witnesses when death approached Jacob, when he said to his sons, \"What will you worship after me?\" They said, \"We will worship your God and the God of your fathers, Abraham and Ishmael and Isaac - one God. And we are Muslims [in submission] to Him.\"",
     "words": [
       {
         "id": "al-baqarah-133-1",
@@ -18006,7 +18138,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Étiez-vous donc témoins quand Jacob, à l’article de la mort, eut dit à ses fils : « Qu’adorerez-vous après moi ? » Ils répondirent : « Nous adorerons ton Dieu et le Dieu de tes pères, Abraham, Ismaël et Isaac, un Dieu Unique Auquel nous sommes (infiniment) Soumis. »"
   },
   {
     "id": "al-baqarah-134",
@@ -18015,7 +18148,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ أُمَّةٌ قَدْ خَلَتْ ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "تلك أمة قد خلت  لها ما كسبت ولكم ما كسبتم  ولا تسـٔلون عما كانوا يعملون",
     "transliteration": "til'ka ummatun qad khalat lahā mā kasabat walakum mā kasabtum walā tus'alūna ʿammā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "That was a nation which has passed on. It will have [the consequence of] what it earned, and you will have what you have earned. And you will not be asked about what they used to do.",
     "words": [
       {
         "id": "al-baqarah-134-1",
@@ -18123,7 +18256,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’agit là d’une communauté disparue. Elle a pour elle ce qu’elle a acquis et vous avez pour vous ce que vous avez acquis. Et vous ne répondrez pas de ce qu’ils faisaient."
   },
   {
     "id": "al-baqarah-135",
@@ -18132,7 +18266,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ كُونُوا۟ هُودًا أَوْ نَصَـٰرَىٰ تَهْتَدُوا۟ ۗ قُلْ بَلْ مِلَّةَ إِبْرَٰهِـۧمَ حَنِيفًا ۖ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "وقالوا كونوا هودا أو نصـرى تهتدوا  قل بل ملة إبرهـم حنيفا  وما كان من ٱلمشركين",
     "transliteration": "waqālū kūnū hūdan aw naṣārā tahtadū qul bal millata ib'rāhīma ḥanīfan wamā kāna mina l-mush'rikīna",
-    "translation": "",
+    "translation": "They say, \"Be Jews or Christians [so] you will be guided.\" Say, \"Rather, [we follow] the religion of Abraham, inclining toward truth, and he was not of the polytheists.\"",
     "words": [
       {
         "id": "al-baqarah-135-1",
@@ -18240,7 +18374,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Soyez Juifs ou Chrétiens et vous serez alors sur la bonne voie. » Dis : « Non, la religion (que nous suivrons sera plutôt celle) d’Abraham qui fut un pur monothéiste et ne fut point du nombre des associâtres (muchrikîn). »"
   },
   {
     "id": "al-baqarah-136",
@@ -18249,7 +18384,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قُولُوٓا۟ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ إِلَىٰٓ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَمَآ أُوتِىَ ٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
     "textSimple": "قولوٓا ءامنا بٱلله ومآ أنزل إلينا ومآ أنزل إلىٓ إبرهـم وإسمـعيل وإسحـق ويعقوب وٱلأسباط ومآ أوتى موسى وعيسى ومآ أوتى ٱلنبيون من ربهم لا نفرق بين أحد منهم ونحن له مسلمون",
     "transliteration": "qūlū āmannā bil-lahi wamā unzila ilaynā wamā unzila ilā ib'rāhīma wa-is'māʿīla wa-is'ḥāqa wayaʿqūba wal-asbāṭi wamā ūtiya mūsā waʿīsā wamā ūtiya l-nabiyūna min rabbihim lā nufarriqu bayna aḥadin min'hum wanaḥnu lahu mus'limūna",
-    "translation": "",
+    "translation": "Say, [O believers], \"We have believed in Allāh and what has been revealed to us and what has been revealed to Abraham and Ishmael and Isaac and Jacob and the Descendants [al-Asbāṭ] and what was given to Moses and Jesus and what was given to the prophets from their Lord. We make no distinction between any of them, and we are Muslims [in submission] to Him.\"",
     "words": [
       {
         "id": "al-baqarah-136-1",
@@ -18469,7 +18604,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dites : « Nous avons cru en Allah et en ce qui nous fut révélé et révélé à Abraham, Ismaël, Isaac, Jacob et les Tribus ; en ce qui fut donné à Moïse et à Jésus, et ce qui fut donné aux Prophètes de la part de leur Seigneur. Nous ne faisons entre eux aucune distinction. Et à Lui nous sommes Soumis. »"
   },
   {
     "id": "al-baqarah-137",
@@ -18478,7 +18614,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنْ ءَامَنُوا۟ بِمِثْلِ مَآ ءَامَنتُم بِهِۦ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا هُمْ فِى شِقَاقٍ ۖ فَسَيَكْفِيكَهُمُ ٱللَّهُ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "فإن ءامنوا بمثل مآ ءامنتم به فقد ٱهتدوا  وإن تولوا فإنما هم فى شقاق  فسيكفيكهم ٱلله  وهو ٱلسميع ٱلعليم",
     "transliteration": "fa-in āmanū bimith'li mā āmantum bihi faqadi ih'tadaw wa-in tawallaw fa-innamā hum fī shiqāqin fasayakfīkahumu l-lahu wahuwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "So if they believe in the same as you believe in, then they have been [rightly] guided; but if they turn away, they are only in dissension, and Allāh will be sufficient for you against them. And He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "al-baqarah-137-1",
@@ -18614,7 +18750,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils croient aux mêmes (vérités) auxquelles vous croyez, ils auront alors trouvé la juste voie, et s’ils s’en détournent, ils auront fait scission (par rapport à vous). Allah te suffira (pour leur faire face). Lui, Qui Entend Tout, Lui, l’Omniscient."
   },
   {
     "id": "al-baqarah-138",
@@ -18623,7 +18760,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "صِبْغَةَ ٱللَّهِ ۖ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ صِبْغَةً ۖ وَنَحْنُ لَهُۥ عَـٰبِدُونَ",
     "textSimple": "صبغة ٱلله  ومن أحسن من ٱلله صبغة  ونحن له عـبدون",
     "transliteration": "ṣib'ghata l-lahi waman aḥsanu mina l-lahi ṣib'ghatan wanaḥnu lahu ʿābidūna",
-    "translation": "",
+    "translation": "[And say, \"Ours is] the religion of Allāh. And who is better than Allāh in [ordaining] religion? And we are worshippers of Him.\"",
     "words": [
       {
         "id": "al-baqarah-138-1",
@@ -18696,7 +18833,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est l’empreinte d’Allah ! Mais qui donc saurait donner à la religion meilleure empreinte qu’Allah ? C’est de Lui que nous sommes adorateurs."
   },
   {
     "id": "al-baqarah-139",
@@ -18705,7 +18843,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَتُحَآجُّونَنَا فِى ٱللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَآ أَعْمَـٰلُنَا وَلَكُمْ أَعْمَـٰلُكُمْ وَنَحْنُ لَهُۥ مُخْلِصُونَ",
     "textSimple": "قل أتحآجوننا فى ٱلله وهو ربنا وربكم ولنآ أعمـلنا ولكم أعمـلكم ونحن له مخلصون",
     "transliteration": "qul atuḥājjūnanā fī l-lahi wahuwa rabbunā warabbukum walanā aʿmālunā walakum aʿmālukum wanaḥnu lahu mukh'liṣūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Do you argue with us about Allāh while He is our Lord and your Lord? For us are our deeds, and for you are your deeds. And we are sincere [in deed and intention] to Him.\"",
     "words": [
       {
         "id": "al-baqarah-139-1",
@@ -18806,7 +18944,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Disputez-vous d’Allah avec nous (à coups d’arguments) alors qu’Il est notre Seigneur et le vôtre ? Nous avons nos œuvres à nous et vous avez les vôtres. Et nous Lui sommes infiniment fidèles."
   },
   {
     "id": "al-baqarah-140",
@@ -18815,7 +18954,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تَقُولُونَ إِنَّ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطَ كَانُوا۟ هُودًا أَوْ نَصَـٰرَىٰ ۗ قُلْ ءَأَنتُمْ أَعْلَمُ أَمِ ٱللَّهُ ۗ وَمَنْ أَظْلَمُ مِمَّن كَتَمَ شَهَـٰدَةً عِندَهُۥ مِنَ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "أم تقولون إن إبرهـم وإسمـعيل وإسحـق ويعقوب وٱلأسباط كانوا هودا أو نصـرى  قل ءأنتم أعلم أم ٱلله  ومن أظلم ممن كتم شهـدة عنده من ٱلله  وما ٱلله بغـفل عما تعملون",
     "transliteration": "am taqūlūna inna ib'rāhīma wa-is'māʿīla wa-is'ḥāqa wayaʿqūba wal-asbāṭa kānū hūdan aw naṣārā qul a-antum aʿlamu ami l-lahu waman aẓlamu mimman katama shahādatan ʿindahu mina l-lahi wamā l-lahu bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "Or do you say that Abraham and Ishmael and Isaac and Jacob and the Descendants were Jews or Christians? Say, \"Are you more knowing or is Allāh?\" And who is more unjust than one who conceals a testimony he has from Allāh? And Allāh is not unaware of what you do.",
     "words": [
       {
         "id": "al-baqarah-140-1",
@@ -19028,7 +19167,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors direz-vous qu’Abraham, Ismaël, Isaac, Jacob et les Tribus étaient Juifs ou Chrétiens ? Dis : « Qui de vous ou d’Allah est le plus savant ? » Y a-t-il plus injuste que celui qui tait un témoignage qui (lui vient) d’Allah ? Mais Allah n’est point distrait de ce que vous faites."
   },
   {
     "id": "al-baqarah-141",
@@ -19037,7 +19177,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ أُمَّةٌ قَدْ خَلَتْ ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "تلك أمة قد خلت  لها ما كسبت ولكم ما كسبتم  ولا تسـٔلون عما كانوا يعملون",
     "transliteration": "til'ka ummatun qad khalat lahā mā kasabat walakum mā kasabtum walā tus'alūna ʿammā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "That is a nation which has passed on. It will have [the consequence of] what it earned, and you will have what you have earned. And you will not be asked about what they used to do.",
     "words": [
       {
         "id": "al-baqarah-141-1",
@@ -19145,7 +19285,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’agit là d’une communauté disparue. Elle a pour elle ce qu’elle a acquis et vous avez pour vous ce que vous avez acquis. Et vous ne répondrez pas de ce qu’ils faisaient."
   },
   {
     "id": "al-baqarah-142",
@@ -19154,7 +19295,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": " سيقول ٱلسفهآء من ٱلناس ما ولىهم عن قبلتهم ٱلتى كانوا عليها  قل لله ٱلمشرق وٱلمغرب  يهدى من يشآء إلى صرط مستقيم",
     "transliteration": "sayaqūlu l-sufahāu mina l-nāsi mā wallāhum ʿan qib'latihimu allatī kānū ʿalayhā qul lillahi l-mashriqu wal-maghribu yahdī man yashāu ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "The foolish among the people will say, \"What has turned them away from their qiblah, which they used to face?\" Say, \"To Allāh belongs the east and the west. He guides whom He wills to a straight path.\"",
     "words": [
       {
         "id": "al-baqarah-142-1",
@@ -19304,7 +19445,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les ignares parmi les gens diront : « Qu’est ce donc qui les a détournés de leur direction rituelle (Qibla) ? » Dis : « À Allah appartiennent le Levant et le Couchant. Il guide qui Il veut vers une voie droite. »"
   },
   {
     "id": "al-baqarah-143",
@@ -19313,7 +19455,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ جَعَلْنَـٰكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَـٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
     "textSimple": "وكذلك جعلنـكم أمة وسطا لتكونوا شهدآء على ٱلناس ويكون ٱلرسول عليكم شهيدا  وما جعلنا ٱلقبلة ٱلتى كنت عليهآ إلا لنعلم من يتبع ٱلرسول ممن ينقلب على عقبيه  وإن كانت لكبيرة إلا على ٱلذين هدى ٱلله  وما كان ٱلله ليضيع إيمـنكم  إن ٱلله بٱلناس لرءوف رحيم",
     "transliteration": "wakadhālika jaʿalnākum ummatan wasaṭan litakūnū shuhadāa ʿalā l-nāsi wayakūna l-rasūlu ʿalaykum shahīdan wamā jaʿalnā l-qib'lata allatī kunta ʿalayhā illā linaʿlama man yattabiʿu l-rasūla mimman yanqalibu ʿalā ʿaqibayhi wa-in kānat lakabīratan illā ʿalā alladhīna hadā l-lahu wamā kāna l-lahu liyuḍīʿa īmānakum inna l-laha bil-nāsi laraūfun raḥīmun",
-    "translation": "",
+    "translation": "And thus We have made you a median [i.e., just] community that you will be witnesses over the people and the Messenger will be a witness over you. And We did not make the qiblah which you used to face except that We might make evident who would follow the Messenger from who would turn back on his heels. And indeed, it is difficult except for those whom Allāh has guided. And never would Allāh have caused you to lose your faith [i.e., your previous prayers]. Indeed Allāh is, to the people, Kind and Merciful.",
     "words": [
       {
         "id": "al-baqarah-143-1",
@@ -19631,7 +19773,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 44
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons aussi fait de vous une communauté du juste milieu pour que vous soyez témoins vis-à-vis des hommes et que le Messager soit témoin vis-à-vis de vous. Nous n’avons établi la direction rituelle vers laquelle tu t’orientais que pour savoir qui suivrait le Messager et qui lui tournerait les talons. Or quelque lourd que fût (ce transfert), il ne le sera point pour ceux qu’Allah a guidés. Et Allah n’aurait pas laissé perdre le prix de votre foi, car Allah est pour les hommes Tout Compatissant et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-144",
@@ -19640,7 +19783,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا يَعْمَلُونَ",
     "textSimple": "قد نرى تقلب وجهك فى ٱلسمآء  فلنولينك قبلة ترضىها  فول وجهك شطر ٱلمسجد ٱلحرام  وحيث ما كنتم فولوا وجوهكم شطره  وإن ٱلذين أوتوا ٱلكتـب ليعلمون أنه ٱلحق من ربهم  وما ٱلله بغـفل عما يعملون",
     "transliteration": "qad narā taqalluba wajhika fī l-samāi falanuwalliyannaka qib'latan tarḍāhā fawalli wajhaka shaṭra l-masjidi l-ḥarāmi waḥaythu mā kuntum fawallū wujūhakum shaṭrahu wa-inna alladhīna ūtū l-kitāba layaʿlamūna annahu l-ḥaqu min rabbihim wamā l-lahu bighāfilin ʿammā yaʿmalūna",
-    "translation": "",
+    "translation": "We have certainly seen the turning of your face, [O Muḥammad], toward the heaven, and We will surely turn you to a qiblah with which you will be pleased. So turn your face [i.e., yourself] toward al-Masjid al-Ḥarām. And wherever you [believers] are, turn your faces [i.e., yourselves] toward it [in prayer]. Indeed, those who have been given the Scripture [i.e., the Jews and the Christians] well know that it is the truth from their Lord. And Allāh is not unaware of what they do.",
     "words": [
       {
         "id": "al-baqarah-144-1",
@@ -19881,7 +20024,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous te voyons tourner la face vers le ciel le scrutant de tous côtés. Nous t’orientons alors vers une direction (Qibla) qui te satisfait. Tourne donc ton visage vers la Mosquée Sacrée. Où que vous soyez, vous tournerez (tous) vers elle vos visages. Ceux à qui fut donné le Livre savent certainement que c’est la vérité venue de leur Seigneur. Et Allah n’est point distrait de ce qu’ils font."
   },
   {
     "id": "al-baqarah-145",
@@ -19890,7 +20034,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَتَيْتَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ بِكُلِّ ءَايَةٍ مَّا تَبِعُوا۟ قِبْلَتَكَ ۚ وَمَآ أَنتَ بِتَابِعٍ قِبْلَتَهُمْ ۚ وَمَا بَعْضُهُم بِتَابِعٍ قِبْلَةَ بَعْضٍ ۚ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم مِّنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ ۙ إِنَّكَ إِذًا لَّمِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ولئن أتيت ٱلذين أوتوا ٱلكتـب بكل ءاية ما تبعوا قبلتك  ومآ أنت بتابع قبلتهم  وما بعضهم بتابع قبلة بعض  ولئن ٱتبعت أهوآءهم من بعد ما جآءك من ٱلعلم  إنك إذا لمن ٱلظـلمين",
     "transliteration": "wala-in atayta alladhīna ūtū l-kitāba bikulli āyatin mā tabiʿū qib'lataka wamā anta bitābiʿin qib'latahum wamā baʿḍuhum bitābiʿin qib'lata baʿḍin wala-ini ittabaʿta ahwāahum min baʿdi mā jāaka mina l-ʿil'mi innaka idhan lamina l-ẓālimīna",
-    "translation": "",
+    "translation": "And if you brought to those who were given the Scripture every sign, they would not follow your qiblah. Nor will you be a follower of their qiblah. Nor would they be followers of one another's qiblah. So if you were to follow their desires after what has come to you of knowledge, indeed, you would then be among the wrongdoers.",
     "words": [
       {
         "id": "al-baqarah-145-1",
@@ -20117,7 +20261,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand bien même tu apporterais toutes les preuves à ceux qui ont reçu le Livre, ils ne suivraient pas ta direction (ta Qibla). Pas plus que tu ne suivrais la leur. Et pas plus encore que, parmi eux, les uns ne suivraient celle des autres. Et si, après ce qui t’est parvenu comme science, tu suivais leurs désirs, tu serais alors du nombre des injustes."
   },
   {
     "id": "al-baqarah-146",
@@ -20126,7 +20271,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يَعْرِفُونَهُۥ كَمَا يَعْرِفُونَ أَبْنَآءَهُمْ ۖ وَإِنَّ فَرِيقًا مِّنْهُمْ لَيَكْتُمُونَ ٱلْحَقَّ وَهُمْ يَعْلَمُونَ",
     "textSimple": "ٱلذين ءاتينـهم ٱلكتـب يعرفونه كما يعرفون أبنآءهم  وإن فريقا منهم ليكتمون ٱلحق وهم يعلمون",
     "transliteration": "alladhīna ātaynāhumu l-kitāba yaʿrifūnahu kamā yaʿrifūna abnāahum wa-inna farīqan min'hum layaktumūna l-ḥaqa wahum yaʿlamūna",
-    "translation": "",
+    "translation": "Those to whom We gave the Scripture know him [i.e., Prophet Muḥammad (ﷺ)] as they know their own sons. But indeed, a party of them conceal the truth while they know [it].",
     "words": [
       {
         "id": "al-baqarah-146-1",
@@ -20227,7 +20372,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux à qui Nous avons donné le Livre le connaissent comme ils connaissent leurs propres enfants. Nombre d’entre eux, pourtant, taisent la vérité tout en la sachant."
   },
   {
     "id": "al-baqarah-147",
@@ -20236,7 +20382,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
     "textSimple": "ٱلحق من ربك  فلا تكونن من ٱلممترين",
     "transliteration": "al-ḥaqu min rabbika falā takūnanna mina l-mum'tarīna",
-    "translation": "",
+    "translation": "The truth is from your Lord, so never be among the doubters.",
     "words": [
       {
         "id": "al-baqarah-147-1",
@@ -20288,7 +20434,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vérité émane de ton Seigneur, alors ne sois pas de ceux qui doutent."
   },
   {
     "id": "al-baqarah-148",
@@ -20297,7 +20444,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ أَيْنَ مَا تَكُونُوا۟ يَأْتِ بِكُمُ ٱللَّهُ جَمِيعًا ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "ولكل وجهة هو موليها  فٱستبقوا ٱلخيرت  أين ما تكونوا يأت بكم ٱلله جميعا  إن ٱلله على كل شىء قدير",
     "transliteration": "walikullin wij'hatun huwa muwallīhā fa-is'tabiqū l-khayrāti ayna mā takūnū yati bikumu l-lahu jamīʿan inna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "For each [religious following] is a [prayer] direction toward which it faces. So race to [all that is] good. Wherever you may be, Allāh will bring you forth [for judgement] all together. Indeed, Allāh is over all things competent.",
     "words": [
       {
         "id": "al-baqarah-148-1",
@@ -20433,7 +20580,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est pour chacun une direction vers laquelle il se tourne. Rivalisez donc de bienfaisance. En quelque lieu que vous soyez, Allah vous fera tous revenir à Lui. Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-baqarah-149",
@@ -20442,7 +20590,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۖ وَإِنَّهُۥ لَلْحَقُّ مِن رَّبِّكَ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "ومن حيث خرجت فول وجهك شطر ٱلمسجد ٱلحرام  وإنه للحق من ربك  وما ٱلله بغـفل عما تعملون",
     "transliteration": "wamin ḥaythu kharajta fawalli wajhaka shaṭra l-masjidi l-ḥarāmi wa-innahu lalḥaqqu min rabbika wamā l-lahu bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "So from wherever you go out [for prayer, O Muḥammad], turn your face toward al-Masjid al-Ḥarām, and indeed, it is the truth from your Lord. And Allāh is not unaware of what you do.",
     "words": [
       {
         "id": "al-baqarah-149-1",
@@ -20564,7 +20712,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par où que tu sortes, tourne ton visage vers la Mosquée Sacrée. C’est là la vérité émanant de ton Seigneur. Et Allah n’est point distrait de ce que vous faites."
   },
   {
     "id": "al-baqarah-150",
@@ -20573,7 +20722,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِى وَلِأُتِمَّ نِعْمَتِى عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ",
     "textSimple": "ومن حيث خرجت فول وجهك شطر ٱلمسجد ٱلحرام  وحيث ما كنتم فولوا وجوهكم شطره لئلا يكون للناس عليكم حجة إلا ٱلذين ظلموا منهم فلا تخشوهم وٱخشونى ولأتم نعمتى عليكم ولعلكم تهتدون",
     "transliteration": "wamin ḥaythu kharajta fawalli wajhaka shaṭra l-masjidi l-ḥarāmi waḥaythu mā kuntum fawallū wujūhakum shaṭrahu li-allā yakūna lilnnāsi ʿalaykum ḥujjatun illā alladhīna ẓalamū min'hum falā takhshawhum wa-ikh'shawnī wali-utimma niʿ'matī ʿalaykum walaʿallakum tahtadūna",
-    "translation": "",
+    "translation": "And from wherever you go out [for prayer], turn your face toward al-Masjid al-Ḥarām. And wherever you [believers] may be, turn your faces toward it in order that the people will not have any argument against you, except for those of them who commit wrong; so fear them not but fear Me. And [it is] so I may complete My favor upon you and that you may be guided,",
     "words": [
       {
         "id": "al-baqarah-150-1",
@@ -20793,7 +20942,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et par où que tu sortes, tourne ton visage vers la Mosquée Sacrée, et où que vous soyez, tournez vers elle vos visages afin que les gens n’aient pas d’argument contre vous, hormis ceux qui, d’entre eux, ont commis des injustices. Ne les craignez donc pas et craignez-Moi, afin que Je parachève Ma grâce envers vous et que peut-être vous vous orientiez vers la juste voie."
   },
   {
     "id": "al-baqarah-151",
@@ -20802,7 +20952,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "كَمَآ أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُعَلِّمُكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ",
     "textSimple": "كمآ أرسلنا فيكم رسولا منكم يتلوا عليكم ءايـتنا ويزكيكم ويعلمكم ٱلكتـب وٱلحكمة ويعلمكم ما لم تكونوا تعلمون",
     "transliteration": "kamā arsalnā fīkum rasūlan minkum yatlū ʿalaykum āyātinā wayuzakkīkum wayuʿallimukumu l-kitāba wal-ḥik'mata wayuʿallimukum mā lam takūnū taʿlamūna",
-    "translation": "",
+    "translation": "Just as We have sent among you a messenger from yourselves reciting to you Our verses and purifying you and teaching you the Book and wisdom and teaching you that which you did not know.",
     "words": [
       {
         "id": "al-baqarah-151-1",
@@ -20924,7 +21074,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons ainsi envoyé vers vous un Messager des vôtres qui vous récite Nos versets, vous purifie et vous enseigne le Livre et la sagesse ; et qui vous enseigne ce que vous ne saviez pas."
   },
   {
     "id": "al-baqarah-152",
@@ -20933,7 +21084,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ",
     "textSimple": "فٱذكرونىٓ أذكركم وٱشكروا لى ولا تكفرون",
     "transliteration": "fa-udh'kurūnī adhkur'kum wa-ush'kurū lī walā takfurūni",
-    "translation": "",
+    "translation": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
     "words": [
       {
         "id": "al-baqarah-152-1",
@@ -20978,7 +21129,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoquez-Moi donc, Je vous évoquerai ! Rendez-Moi grâce et ne reniez pas (Mes faveurs sur vous) !"
   },
   {
     "id": "al-baqarah-153",
@@ -20987,7 +21139,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱستعينوا بٱلصبر وٱلصلوة  إن ٱلله مع ٱلصـبرين",
     "transliteration": "yāayyuhā alladhīna āmanū is'taʿīnū bil-ṣabri wal-ṣalati inna l-laha maʿa l-ṣābirīna",
-    "translation": "",
+    "translation": "O you who have believed, seek help through patience and prayer. Indeed, Allāh is with the patient.",
     "words": [
       {
         "id": "al-baqarah-153-1",
@@ -21060,7 +21212,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru, ayez recours au soutien de la patience et de la Çalât, car Allah est avec ceux qui prennent patience."
   },
   {
     "id": "al-baqarah-154",
@@ -21069,7 +21222,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقُولُوا۟ لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌ وَلَـٰكِن لَّا تَشْعُرُونَ",
     "textSimple": "ولا تقولوا لمن يقتل فى سبيل ٱلله أموت  بل أحيآء ولـكن لا تشعرون",
     "transliteration": "walā taqūlū liman yuq'talu fī sabīli l-lahi amwātun bal aḥyāon walākin lā tashʿurūna",
-    "translation": "",
+    "translation": "And do not say about those who are killed in the way of Allāh, \"They are dead.\" Rather, they are alive, but you perceive [it] not.",
     "words": [
       {
         "id": "al-baqarah-154-1",
@@ -21163,7 +21316,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne dites pas de ceux qui ont été tués pour la cause d’Allah qu’ils sont morts : non, ils sont vivants mais vous ne le sentez pas."
   },
   {
     "id": "al-baqarah-155",
@@ -21172,7 +21326,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّـٰبِرِينَ",
     "textSimple": "ولنبلونكم بشىء من ٱلخوف وٱلجوع ونقص من ٱلأمول وٱلأنفس وٱلثمرت  وبشر ٱلصـبرين",
     "transliteration": "walanabluwannakum bishayin mina l-khawfi wal-jūʿi wanaqṣin mina l-amwāli wal-anfusi wal-thamarāti wabashiri l-ṣābirīna",
-    "translation": "",
+    "translation": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits, but give good tidings to the patient,",
     "words": [
       {
         "id": "al-baqarah-155-1",
@@ -21259,7 +21413,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous mettrons à l’épreuve par un peu de peur, de faim, de manque de biens, de pertes de vies humaines et de fruits récoltés. Annonce donc l’heureuse nouvelle à ceux qui sont patients (à la peine)."
   },
   {
     "id": "al-baqarah-156",
@@ -21268,7 +21423,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ إِذَآ أَصَـٰبَتْهُم مُّصِيبَةٌ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
     "textSimple": "ٱلذين إذآ أصـبتهم مصيبة قالوٓا إنا لله وإنآ إليه رجعون",
     "transliteration": "alladhīna idhā aṣābathum muṣībatun qālū innā lillahi wa-innā ilayhi rājiʿūna",
-    "translation": "",
+    "translation": "Who, when disaster strikes them, say, \"Indeed we belong to Allāh, and indeed to Him we will return.\"",
     "words": [
       {
         "id": "al-baqarah-156-1",
@@ -21341,7 +21496,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là qui, lorsqu’un malheur les frappe, disent : « Nous sommes à Allah et à Lui nous ferons retour. »"
   },
   {
     "id": "al-baqarah-157",
@@ -21350,7 +21506,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
     "textSimple": "أولـٓئك عليهم صلوت من ربهم ورحمة  وأولـٓئك هم ٱلمهتدون",
     "transliteration": "ulāika ʿalayhim ṣalawātun min rabbihim waraḥmatun wa-ulāika humu l-muh'tadūna",
-    "translation": "",
+    "translation": "Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are the [rightly] guided.",
     "words": [
       {
         "id": "al-baqarah-157-1",
@@ -21416,7 +21572,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là ont sur eux les bénédictions de leur Seigneur et Sa miséricorde, et ceux-là sont guidés vers la juste voie."
   },
   {
     "id": "al-baqarah-158",
@@ -21425,7 +21582,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ ٱعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
     "textSimple": " إن ٱلصفا وٱلمروة من شعآئر ٱلله  فمن حج ٱلبيت أو ٱعتمر فلا جناح عليه أن يطوف بهما  ومن تطوع خيرا فإن ٱلله شاكر عليم",
     "transliteration": "inna l-ṣafā wal-marwata min shaʿāiri l-lahi faman ḥajja l-bayta awi iʿ'tamara falā junāḥa ʿalayhi an yaṭṭawwafa bihimā waman taṭawwaʿa khayran fa-inna l-laha shākirun ʿalīmun",
-    "translation": "",
+    "translation": "Indeed, aṣ-Ṣafā and al-Marwah are among the symbols of Allāh. So whoever makes ḥajj [pilgrimage] to the House or performs ʿumrah - there is no blame upon him for walking between them. And whoever volunteers good - then indeed, Allāh is Appreciative and Knowing.",
     "words": [
       {
         "id": "al-baqarah-158-1",
@@ -21596,7 +21753,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Sachez que) As-Safâ et Al-Marwâ font partie des rites d’Allah. Si bien que quiconque accomplit le pèlerinage (Hajj) ou la ‘Umra ne devra pas se faire faute d’accomplir le va-et-vient rituel (entre ces deux collines). Et celui qui fait le bien volontairement (qu’il sache qu’) Allah est Reconnaissant et Omniscient."
   },
   {
     "id": "al-baqarah-159",
@@ -21605,7 +21763,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلْنَا مِنَ ٱلْبَيِّنَـٰتِ وَٱلْهُدَىٰ مِنۢ بَعْدِ مَا بَيَّنَّـٰهُ لِلنَّاسِ فِى ٱلْكِتَـٰبِ ۙ أُو۟لَـٰٓئِكَ يَلْعَنُهُمُ ٱللَّهُ وَيَلْعَنُهُمُ ٱللَّـٰعِنُونَ",
     "textSimple": "إن ٱلذين يكتمون مآ أنزلنا من ٱلبينـت وٱلهدى من بعد ما بينـه للناس فى ٱلكتـب  أولـٓئك يلعنهم ٱلله ويلعنهم ٱللـعنون",
     "transliteration": "inna alladhīna yaktumūna mā anzalnā mina l-bayināti wal-hudā min baʿdi mā bayyannāhu lilnnāsi fī l-kitābi ulāika yalʿanuhumu l-lahu wayalʿanuhumu l-lāʿinūna",
-    "translation": "",
+    "translation": "Indeed, those who conceal what We sent down of clear proofs and guidance after We made it clear for the people in the Scripture - those are cursed by Allāh and cursed by those who curse,",
     "words": [
       {
         "id": "al-baqarah-159-1",
@@ -21748,7 +21906,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui taisent ce que Nous avons révélé comme preuves évidentes et comme bonnes orientations (al-hudâ), après que Nous les avons exposées clairement aux hommes dans le Livre, c’est bien ceux-là qu’Allah maudit et que maudissent les maudisseurs."
   },
   {
     "id": "al-baqarah-160",
@@ -21757,7 +21916,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَـٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ",
     "textSimple": "إلا ٱلذين تابوا وأصلحوا وبينوا فأولـٓئك أتوب عليهم  وأنا ٱلتواب ٱلرحيم",
     "transliteration": "illā alladhīna tābū wa-aṣlaḥū wabayyanū fa-ulāika atūbu ʿalayhim wa-anā l-tawābu l-raḥīmu",
-    "translation": "",
+    "translation": "Except for those who repent and correct themselves and make evident [what they concealed]. Those - I will accept their repentance, and I am the Accepting of Repentance, the Merciful.",
     "words": [
       {
         "id": "al-baqarah-160-1",
@@ -21837,7 +21996,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hormis ceux qui se sont repentis, se sont amendés et ont montré (au grand jour ce qu’ils cachaient auparavant). De ceux- là J’accepte le repentir. Car Je suis le Tout Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-161",
@@ -21846,7 +22006,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌ أُو۟لَـٰٓئِكَ عَلَيْهِمْ لَعْنَةُ ٱللَّهِ وَٱلْمَلَـٰٓئِكَةِ وَٱلنَّاسِ أَجْمَعِينَ",
     "textSimple": "إن ٱلذين كفروا وماتوا وهم كفار أولـٓئك عليهم لعنة ٱلله وٱلملـٓئكة وٱلناس أجمعين",
     "transliteration": "inna alladhīna kafarū wamātū wahum kuffārun ulāika ʿalayhim laʿnatu l-lahi wal-malāikati wal-nāsi ajmaʿīna",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve and die while they are disbelievers - upon them will be the curse of Allāh and of the angels and the people, all together,",
     "words": [
       {
         "id": "al-baqarah-161-1",
@@ -21940,7 +22100,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru et sont morts mécréants ont sur eux la malédiction d’Allah, des Anges et de l’humanité entière."
   },
   {
     "id": "al-baqarah-162",
@@ -21949,7 +22110,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَا ۖ لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
     "textSimple": "خـلدين فيها  لا يخفف عنهم ٱلعذاب ولا هم ينظرون",
     "transliteration": "khālidīna fīhā lā yukhaffafu ʿanhumu l-ʿadhābu walā hum yunẓarūna",
-    "translation": "",
+    "translation": "Abiding eternally therein. The punishment will not be lightened for them, nor will they be reprieved.",
     "words": [
       {
         "id": "al-baqarah-162-1",
@@ -22015,7 +22176,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils l’auront éternellement et leur supplice ne connaîtra ni allégement ni répit."
   },
   {
     "id": "al-baqarah-163",
@@ -22024,7 +22186,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ ۖ لَّآ إِلَـٰهَ إِلَّا هُوَ ٱلرَّحْمَـٰنُ ٱلرَّحِيمُ",
     "textSimple": "وإلـهكم إلـه وحد  لآ إلـه إلا هو ٱلرحمـن ٱلرحيم",
     "transliteration": "wa-ilāhukum ilāhun wāḥidun lā ilāha illā huwa l-raḥmānu l-raḥīmu",
-    "translation": "",
+    "translation": "And your god is one God. There is no deity [worthy of worship] except Him, the Entirely Merciful, the Especially Merciful.",
     "words": [
       {
         "id": "al-baqarah-163-1",
@@ -22090,7 +22252,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Dieu est un Dieu Unique. Nul dieu à part Lui, le Tout Clément le Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-164",
@@ -22099,7 +22262,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى خَلْقِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَـٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ وَتَصْرِيفِ ٱلرِّيَـٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَـَٔايَـٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
     "textSimple": "إن فى خلق ٱلسمـوت وٱلأرض وٱختلـف ٱليل وٱلنهار وٱلفلك ٱلتى تجرى فى ٱلبحر بما ينفع ٱلناس ومآ أنزل ٱلله من ٱلسمآء من مآء فأحيا به ٱلأرض بعد موتها وبث فيها من كل دآبة وتصريف ٱلريـح وٱلسحاب ٱلمسخر بين ٱلسمآء وٱلأرض لـٔايـت لقوم يعقلون",
     "transliteration": "inna fī khalqi l-samāwāti wal-arḍi wa-ikh'tilāfi al-layli wal-nahāri wal-ful'ki allatī tajrī fī l-baḥri bimā yanfaʿu l-nāsa wamā anzala l-lahu mina l-samāi min māin fa-aḥyā bihi l-arḍa baʿda mawtihā wabatha fīhā min kulli dābbatin wataṣrīfi l-riyāḥi wal-saḥābi l-musakhari bayna l-samāi wal-arḍi laāyātin liqawmin yaʿqilūna",
-    "translation": "",
+    "translation": "Indeed, in the creation of the heavens and the earth, and the alternation of the night and the day, and the [great] ships which sail through the sea with that which benefits people, and what Allāh has sent down from the heavens of rain, giving life thereby to the earth after its lifelessness and dispersing therein every [kind of] moving creature, and [His] directing of the winds and the clouds controlled between the heaven and earth are signs for a people who use reason.",
     "words": [
       {
         "id": "al-baqarah-164-1",
@@ -22403,7 +22566,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans la création des cieux et de la terre, la succession alternée des jours et des nuits, dans les vaisseaux qui voguent en mer pour (transporter) ce qui profite aux hommes, dans cette eau qu’Allah fait descendre du ciel et par laquelle Il fait revivre la terre morte, où il répand des bêtes de toutes espèces, dans la répartition des vents et dans les nuages assujettis entre ciel et terre, dans tout cela il y a des Signes pour des gens qui raisonnent."
   },
   {
     "id": "al-baqarah-165",
@@ -22412,7 +22576,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادًا يُحِبُّونَهُمْ كَحُبِّ ٱللَّهِ ۖ وَٱلَّذِينَ ءَامَنُوٓا۟ أَشَدُّ حُبًّا لِّلَّهِ ۗ وَلَوْ يَرَى ٱلَّذِينَ ظَلَمُوٓا۟ إِذْ يَرَوْنَ ٱلْعَذَابَ أَنَّ ٱلْقُوَّةَ لِلَّهِ جَمِيعًا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلْعَذَابِ",
     "textSimple": "ومن ٱلناس من يتخذ من دون ٱلله أندادا يحبونهم كحب ٱلله  وٱلذين ءامنوٓا أشد حبا لله  ولو يرى ٱلذين ظلموٓا إذ يرون ٱلعذاب أن ٱلقوة لله جميعا وأن ٱلله شديد ٱلعذاب",
     "transliteration": "wamina l-nāsi man yattakhidhu min dūni l-lahi andādan yuḥibbūnahum kaḥubbi l-lahi wa-alladhīna āmanū ashaddu ḥubban lillahi walaw yarā alladhīna ẓalamū idh yarawna l-ʿadhāba anna l-quwata lillahi jamīʿan wa-anna l-laha shadīdu l-ʿadhābi",
-    "translation": "",
+    "translation": "And [yet], among the people are those who take other than Allāh as equals [to Him]. They love them as they [should] love Allāh. But those who believe are stronger in love for Allāh. And if only they who have wronged would consider [that] when they see the punishment, [they will be certain] that all power belongs to Allāh and that Allāh is severe in punishment.",
     "words": [
       {
         "id": "al-baqarah-165-1",
@@ -22632,7 +22796,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est des hommes qui prennent en dehors d’Allah (des idoles qu’ils considèrent comme) Ses émules, qu’ils aiment comme Allah doit être aimé. Mais ceux qui croient ont pour Allah un amour bien plus intense. Si seulement ceux qui ont commis des injustices pouvaient voir, lorsqu’ils souffriront le supplice, que la force absolue est à Allah et qu’Allah a le supplice très dur !"
   },
   {
     "id": "al-baqarah-166",
@@ -22641,7 +22806,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُوا۟ مِنَ ٱلَّذِينَ ٱتَّبَعُوا۟ وَرَأَوُا۟ ٱلْعَذَابَ وَتَقَطَّعَتْ بِهِمُ ٱلْأَسْبَابُ",
     "textSimple": "إذ تبرأ ٱلذين ٱتبعوا من ٱلذين ٱتبعوا ورأوا ٱلعذاب وتقطعت بهم ٱلأسباب",
     "transliteration": "idh tabarra-a alladhīna ittubiʿū mina alladhīna ittabaʿū wara-awū l-ʿadhāba wataqaṭṭaʿat bihimu l-asbābu",
-    "translation": "",
+    "translation": "[And they should consider that] when those who have been followed disassociate themselves from those who followed [them], and they [all] see the punishment, and cut off from them are the ties [of relationship],",
     "words": [
       {
         "id": "al-baqarah-166-1",
@@ -22728,7 +22893,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand, en voyant le supplice, ceux qui ont été suivis renieront ceux qui ont suivi, tous les liens de salut seront brisés pour eux."
   },
   {
     "id": "al-baqarah-167",
@@ -22737,7 +22903,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ ٱتَّبَعُوا۟ لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّءُوا۟ مِنَّا ۗ كَذَٰلِكَ يُرِيهِمُ ٱللَّهُ أَعْمَـٰلَهُمْ حَسَرَٰتٍ عَلَيْهِمْ ۖ وَمَا هُم بِخَـٰرِجِينَ مِنَ ٱلنَّارِ",
     "textSimple": "وقال ٱلذين ٱتبعوا لو أن لنا كرة فنتبرأ منهم كما تبرءوا منا  كذلك يريهم ٱلله أعمـلهم حسرت عليهم  وما هم بخـرجين من ٱلنار",
     "transliteration": "waqāla alladhīna ittabaʿū law anna lanā karratan fanatabarra-a min'hum kamā tabarraū minnā kadhālika yurīhimu l-lahu aʿmālahum ḥasarātin ʿalayhim wamā hum bikhārijīna mina l-nāri",
-    "translation": "",
+    "translation": "Those who followed will say, \"If only we had another turn [at worldly life] so we could disassociate ourselves from them as they have disassociated themselves from us.\" Thus will Allāh show them their deeds as regrets upon them. And they are never to emerge from the Fire.",
     "words": [
       {
         "id": "al-baqarah-167-1",
@@ -22901,7 +23067,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont suivi diront : « Si seulement nous pouvions revenir pour les renier comme ils nous ont reniés ! » Ainsi Allah leur fera voir leurs œuvres, qui les rongeront de remords, et plus jamais ils ne sortiront du Feu."
   },
   {
     "id": "al-baqarah-168",
@@ -22910,7 +23077,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ حَلَـٰلًا طَيِّبًا وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
     "textSimple": "يـٓأيها ٱلناس كلوا مما فى ٱلأرض حلـلا طيبا ولا تتبعوا خطوت ٱلشيطـن  إنه لكم عدو مبين",
     "transliteration": "yāayyuhā l-nāsu kulū mimmā fī l-arḍi ḥalālan ṭayyiban walā tattabiʿū khuṭuwāti l-shayṭāni innahu lakum ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "O mankind, eat from whatever is on earth [that is] lawful and good and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.",
     "words": [
       {
         "id": "al-baqarah-168-1",
@@ -23025,7 +23192,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Mangez de tout ce qu’il y a de licite et pur sur terre. N’emboîtez pas le pas à Satan : il est pour vous un ennemi avéré."
   },
   {
     "id": "al-baqarah-169",
@@ -23034,7 +23202,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا يَأْمُرُكُم بِٱلسُّوٓءِ وَٱلْفَحْشَآءِ وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "إنما يأمركم بٱلسوٓء وٱلفحشآء وأن تقولوا على ٱلله ما لا تعلمون",
     "transliteration": "innamā yamurukum bil-sūi wal-faḥshāi wa-an taqūlū ʿalā l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "He only orders you to evil and immorality and to say about Allāh what you do not know.",
     "words": [
       {
         "id": "al-baqarah-169-1",
@@ -23114,7 +23282,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous commande le mal et la dépravation et (vous dicte) de dire d’Allah ce que vous ne savez pas."
   },
   {
     "id": "al-baqarah-170",
@@ -23123,7 +23292,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَآ أَلْفَيْنَا عَلَيْهِ ءَابَآءَنَآ ۗ أَوَلَوْ كَانَ ءَابَآؤُهُمْ لَا يَعْقِلُونَ شَيْـًٔا وَلَا يَهْتَدُونَ",
     "textSimple": "وإذا قيل لهم ٱتبعوا مآ أنزل ٱلله قالوا بل نتبع مآ ألفينا عليه ءابآءنآ  أولو كان ءابآؤهم لا يعقلون شيـٔا ولا يهتدون",
     "transliteration": "wa-idhā qīla lahumu ittabiʿū mā anzala l-lahu qālū bal nattabiʿu mā alfaynā ʿalayhi ābāanā awalaw kāna ābāuhum lā yaʿqilūna shayan walā yahtadūna",
-    "translation": "",
+    "translation": "And when it is said to them, \"Follow what Allāh has revealed,\" they say, \"Rather, we will follow that which we found our fathers doing.\" Even though their fathers understood nothing, nor were they guided?",
     "words": [
       {
         "id": "al-baqarah-170-1",
@@ -23280,7 +23449,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand il leur est dit : « Suivez ce qu’Allah a fait descendre (en révélation) », ils disent : « Non, nous suivrons la tradition léguée par nos ancêtres. » Et si donc leurs ancêtres ne raisonnaient point et n’étaient pas sur la juste voie ?"
   },
   {
     "id": "al-baqarah-171",
@@ -23289,7 +23459,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَثَلُ ٱلَّذِينَ كَفَرُوا۟ كَمَثَلِ ٱلَّذِى يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَآءً وَنِدَآءً ۚ صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَعْقِلُونَ",
     "textSimple": "ومثل ٱلذين كفروا كمثل ٱلذى ينعق بما لا يسمع إلا دعآء وندآء  صم بكم عمى فهم لا يعقلون",
     "transliteration": "wamathalu alladhīna kafarū kamathali alladhī yanʿiqu bimā lā yasmaʿu illā duʿāan wanidāan ṣummun buk'mun ʿum'yun fahum lā yaʿqilūna",
-    "translation": "",
+    "translation": "The example of those who disbelieve is like that of one who shouts at what hears nothing but calls and cries [i.e., cattle or sheep] - deaf, dumb and blind, so they do not understand.",
     "words": [
       {
         "id": "al-baqarah-171-1",
@@ -23418,7 +23588,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les mécréants sont tel ce troupeau que l’on hèle, qui n’entend qu’appels indistincts et vagues injonctions. Sourds, muets, aveugles, ils ne raisonnent point."
   },
   {
     "id": "al-baqarah-172",
@@ -23427,7 +23598,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا كلوا من طيبـت ما رزقنـكم وٱشكروا لله إن كنتم إياه تعبدون",
     "transliteration": "yāayyuhā alladhīna āmanū kulū min ṭayyibāti mā razaqnākum wa-ush'kurū lillahi in kuntum iyyāhu taʿbudūna",
-    "translation": "",
+    "translation": "O you who have believed, eat from the good [i.e., lawful] things which We have provided for you and be grateful to Allāh if it is [indeed] Him that you worship.",
     "words": [
       {
         "id": "al-baqarah-172-1",
@@ -23528,7 +23699,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Mangez des aliments purs que Nous vous avons accordés. Et rendez grâce à Allah si c’est Lui (Seul) que vous adorez."
   },
   {
     "id": "al-baqarah-173",
@@ -23537,7 +23709,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيْرِ ٱللَّهِ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "إنما حرم عليكم ٱلميتة وٱلدم ولحم ٱلخنزير ومآ أهل به لغير ٱلله  فمن ٱضطر غير باغ ولا عاد فلآ إثم عليه  إن ٱلله غفور رحيم",
     "transliteration": "innamā ḥarrama ʿalaykumu l-maytata wal-dama walaḥma l-khinzīri wamā uhilla bihi lighayri l-lahi famani uḍ'ṭurra ghayra bāghin walā ʿādin falā ith'ma ʿalayhi inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "He has only forbidden to you dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allāh. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], there is no sin upon him. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-baqarah-173-1",
@@ -23715,7 +23887,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous a seulement défendu la chair de la bête morte, le sang, la viande de porc et tout animal égorgé sur lequel on aura invoqué un autre nom que celui d’Allah. Celui qui pourtant en mange sous la contrainte, ni par abus ni par infraction, celui-là n’aura commis aucun péché, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-174",
@@ -23724,7 +23897,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلَ ٱللَّهُ مِنَ ٱلْكِتَـٰبِ وَيَشْتَرُونَ بِهِۦ ثَمَنًا قَلِيلًا ۙ أُو۟لَـٰٓئِكَ مَا يَأْكُلُونَ فِى بُطُونِهِمْ إِلَّا ٱلنَّارَ وَلَا يُكَلِّمُهُمُ ٱللَّهُ يَوْمَ ٱلْقِيَـٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "إن ٱلذين يكتمون مآ أنزل ٱلله من ٱلكتـب ويشترون به ثمنا قليلا  أولـٓئك ما يأكلون فى بطونهم إلا ٱلنار ولا يكلمهم ٱلله يوم ٱلقيـمة ولا يزكيهم ولهم عذاب أليم",
     "transliteration": "inna alladhīna yaktumūna mā anzala l-lahu mina l-kitābi wayashtarūna bihi thamanan qalīlan ulāika mā yakulūna fī buṭūnihim illā l-nāra walā yukallimuhumu l-lahu yawma l-qiyāmati walā yuzakkīhim walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Indeed, they who conceal what Allāh has sent down of the Book and exchange it for a small price - those consume not into their bellies except the Fire. And Allāh will not speak to them on the Day of Resurrection, nor will He purify them. And they will have a painful punishment.",
     "words": [
       {
         "id": "al-baqarah-174-1",
@@ -23930,7 +24103,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui tiennent caché ce qu’Allah a révélé dans les Écritures et le vendent à bas prix, ceux-là ne s’empiffrent que de Feu. Allah ne leur parlera point au Jour de la Résurrection ni ne les purifiera (de leurs péchés). Et ils auront un terrible supplice."
   },
   {
     "id": "al-baqarah-175",
@@ -23939,7 +24113,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَـٰلَةَ بِٱلْهُدَىٰ وَٱلْعَذَابَ بِٱلْمَغْفِرَةِ ۚ فَمَآ أَصْبَرَهُمْ عَلَى ٱلنَّارِ",
     "textSimple": "أولـٓئك ٱلذين ٱشتروا ٱلضلـلة بٱلهدى وٱلعذاب بٱلمغفرة  فمآ أصبرهم على ٱلنار",
     "transliteration": "ulāika alladhīna ish'tarawū l-ḍalālata bil-hudā wal-ʿadhāba bil-maghfirati famā aṣbarahum ʿalā l-nāri",
-    "translation": "",
+    "translation": "Those are the ones who have exchanged guidance for error and forgiveness for punishment. How patient they are for [i.e., in pursuit of] the Fire!",
     "words": [
       {
         "id": "al-baqarah-175-1",
@@ -24019,7 +24193,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là ont acheté l’égarement au prix de la juste orientation (hudâ), le supplice au prix du pardon. Qu’est-ce donc qui leur fera endurer le Feu ?"
   },
   {
     "id": "al-baqarah-176",
@@ -24028,7 +24203,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَـٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَـٰبِ لَفِى شِقَاقٍۭ بَعِيدٍ",
     "textSimple": "ذلك بأن ٱلله نزل ٱلكتـب بٱلحق  وإن ٱلذين ٱختلفوا فى ٱلكتـب لفى شقاق بعيد",
     "transliteration": "dhālika bi-anna l-laha nazzala l-kitāba bil-ḥaqi wa-inna alladhīna ikh'talafū fī l-kitābi lafī shiqāqin baʿīdin",
-    "translation": "",
+    "translation": "That is [deserved by them] because Allāh has sent down the Book in truth. And indeed, those who differ over the Book are in extreme dissension.",
     "words": [
       {
         "id": "al-baqarah-176-1",
@@ -24129,7 +24304,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est qu’Allah a fait descendre (en révélation) le Livre de la vérité. Et ceux qui divergent à propos du Livre sont dans une scission très avancée."
   },
   {
     "id": "al-baqarah-177",
@@ -24138,7 +24314,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَـٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَٱلْمَلَـٰٓئِكَةِ وَٱلْكِتَـٰبِ وَٱلنَّبِيِّـۧنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَـٰهَدُوا۟ ۖ وَٱلصَّـٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَـٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
     "textSimple": " ليس ٱلبر أن تولوا وجوهكم قبل ٱلمشرق وٱلمغرب ولـكن ٱلبر من ءامن بٱلله وٱليوم ٱلـٔاخر وٱلملـٓئكة وٱلكتـب وٱلنبيـن وءاتى ٱلمال على حبه ذوى ٱلقربى وٱليتـمى وٱلمسـكين وٱبن ٱلسبيل وٱلسآئلين وفى ٱلرقاب وأقام ٱلصلوة وءاتى ٱلزكوة وٱلموفون بعهدهم إذا عـهدوا  وٱلصـبرين فى ٱلبأسآء وٱلضرآء وحين ٱلبأس  أولـٓئك ٱلذين صدقوا  وأولـٓئك هم ٱلمتقون",
     "transliteration": "laysa l-bira an tuwallū wujūhakum qibala l-mashriqi wal-maghribi walākinna l-bira man āmana bil-lahi wal-yawmi l-ākhiri wal-malāikati wal-kitābi wal-nabiyīna waātā l-māla ʿalā ḥubbihi dhawī l-qur'bā wal-yatāmā wal-masākīna wa-ib'na l-sabīli wal-sāilīna wafī l-riqābi wa-aqāma l-ṣalata waātā l-zakata wal-mūfūna biʿahdihim idhā ʿāhadū wal-ṣābirīna fī l-basāi wal-ḍarāi waḥīna l-basi ulāika alladhīna ṣadaqū wa-ulāika humu l-mutaqūna",
-    "translation": "",
+    "translation": "Righteousness is not that you turn your faces toward the east or the west, but [true] righteousness is [in] one who believes in Allāh, the Last Day, the angels, the Book, and the prophets and gives wealth, in spite of love for it, to relatives, orphans, the needy, the traveler, those who ask [for help], and for freeing slaves; [and who] establishes prayer and gives zakāh; [those who] fulfill their promise when they promise; and [those who] are patient in poverty and hardship and during battle. Those are the ones who have been true, and it is those who are the righteous.",
     "words": [
       {
         "id": "al-baqarah-177-1",
@@ -24498,7 +24674,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 50
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La vraie vertu n’est certes pas de tourner vos visages vers le Levant ou le Couchant. La vraie vertu est de croire en Allah, au Jour Dernier, aux Anges, aux Livres (aux Écritures célestes) et aux Prophètes ; de donner de son bien, quel que soit l’amour qu’on lui voue, aux proches, aux orphelins, aux nécessiteux, aux voyageurs de grand chemin, aux mendiants, et pour le rachat de ceux qui en ont besoin ; d’accomplir la Çalât et de s’acquitter de la Zakât. Quant à ceux qui honorent leur engagement quand ils s’engagent, ceux qui sont patients à la misère, à la maladie et à la dureté des combats, ceux-là sont les véridiques et ceux-là sont certes les gens pieux."
   },
   {
     "id": "al-baqarah-178",
@@ -24507,7 +24684,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَـٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا كتب عليكم ٱلقصاص فى ٱلقتلى  ٱلحر بٱلحر وٱلعبد بٱلعبد وٱلأنثى بٱلأنثى  فمن عفى له من أخيه شىء فٱتباع بٱلمعروف وأدآء إليه بإحسـن  ذلك تخفيف من ربكم ورحمة  فمن ٱعتدى بعد ذلك فله عذاب أليم",
     "transliteration": "yāayyuhā alladhīna āmanū kutiba ʿalaykumu l-qiṣāṣu fī l-qatlā l-ḥuru bil-ḥuri wal-ʿabdu bil-ʿabdi wal-unthā bil-unthā faman ʿufiya lahu min akhīhi shayon fa-ittibāʿun bil-maʿrūfi wa-adāon ilayhi bi-iḥ'sānin dhālika takhfīfun min rabbikum waraḥmatun famani iʿ'tadā baʿda dhālika falahu ʿadhābun alīmun",
-    "translation": "",
+    "translation": "O you who have believed, prescribed for you is legal retribution for those murdered - the free for the free, the slave for the slave, and the female for the female. But whoever overlooks from his brother [i.e., the killer] anything, then there should be a suitable follow-up and payment to him [i.e., the deceased's heir or legal representative] with good conduct. This is an alleviation from your Lord and a mercy. But whoever transgresses after that will have a painful punishment.",
     "words": [
       {
         "id": "al-baqarah-178-1",
@@ -24769,7 +24946,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Il vous a été prescrit la loi du talion concernant les tués. Homme libre pour homme libre, esclave pour esclave, femme pour femme. Cependant, celui qui est pardonné par son frère en quoi que ce soit, celui-là doit être poursuivi à l’amiable et doit s’acquitter volontiers d’une rançon. C’est là un allégement de votre Seigneur et une miséricorde. Alors, quiconque, après cela, agresse (à nouveau) aura un terrible supplice."
   },
   {
     "id": "al-baqarah-179",
@@ -24778,7 +24956,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَكُمْ فِى ٱلْقِصَاصِ حَيَوٰةٌ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ لَعَلَّكُمْ تَتَّقُونَ",
     "textSimple": "ولكم فى ٱلقصاص حيوة يـٓأولى ٱلألبـب لعلكم تتقون",
     "transliteration": "walakum fī l-qiṣāṣi ḥayatun yāulī l-albābi laʿallakum tattaqūna",
-    "translation": "",
+    "translation": "And there is for you in legal retribution [saving of] life, O you [people] of understanding, that you may become righteous.",
     "words": [
       {
         "id": "al-baqarah-179-1",
@@ -24837,7 +25015,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous avez dans le talion une loi qui préserve la vie, ô vous qui avez l’esprit sagace : ainsi finirez-vous par craindre pieusement."
   },
   {
     "id": "al-baqarah-180",
@@ -24846,7 +25025,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ إِن تَرَكَ خَيْرًا ٱلْوَصِيَّةُ لِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُتَّقِينَ",
     "textSimple": "كتب عليكم إذا حضر أحدكم ٱلموت إن ترك خيرا ٱلوصية للولدين وٱلأقربين بٱلمعروف  حقا على ٱلمتقين",
     "transliteration": "kutiba ʿalaykum idhā ḥaḍara aḥadakumu l-mawtu in taraka khayran l-waṣiyatu lil'wālidayni wal-aqrabīna bil-maʿrūfi ḥaqqan ʿalā l-mutaqīna",
-    "translation": "",
+    "translation": "Prescribed for you when death approaches [any] one of you if he leaves wealth [is that he should make] a bequest for the parents and near relatives according to what is acceptable - a duty upon the righteous.",
     "words": [
       {
         "id": "al-baqarah-180-1",
@@ -24961,7 +25140,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous a été prescrit, quand l’un de vous est à l’article de la mort et qu’il lègue quelque bien, (de laisser) un testament (en bonne et due forme) au profit des deux parents et des proches. C’est là un devoir pour les gens pieux."
   },
   {
     "id": "al-baqarah-181",
@@ -24970,7 +25150,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنۢ بَدَّلَهُۥ بَعْدَ مَا سَمِعَهُۥ فَإِنَّمَآ إِثْمُهُۥ عَلَى ٱلَّذِينَ يُبَدِّلُونَهُۥٓ ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
     "textSimple": "فمن بدله بعد ما سمعه فإنمآ إثمه على ٱلذين يبدلونهٓ  إن ٱلله سميع عليم",
     "transliteration": "faman baddalahu baʿdamā samiʿahu fa-innamā ith'muhu ʿalā alladhīna yubaddilūnahu inna al-laha sami'un alimun",
-    "translation": "",
+    "translation": "Then whoever alters it [i.e., the bequest] after he has heard it - the sin is only upon those who have altered it. Indeed, Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-181-1",
@@ -25064,7 +25244,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui, l’ayant entendu, le modifient (le testament), seront ceux sur qui pèsera le péché de cette modification. Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "al-baqarah-182",
@@ -25073,7 +25254,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنْ خَافَ مِن مُّوصٍ جَنَفًا أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "فمن خاف من موص جنفا أو إثما فأصلح بينهم فلآ إثم عليه  إن ٱلله غفور رحيم",
     "transliteration": "faman khāfa min mūṣin janafan aw ith'man fa-aṣlaḥa baynahum falā ith'ma ʿalayhi inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "But if one fears from the bequeather [some] error or sin and corrects that which is between them [i.e., the concerned parties], there is no sin upon him. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-baqarah-182-1",
@@ -25188,7 +25369,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui, en revanche, craint d’un testateur l’erreur ou l’abus, et réconcilie (les héritiers), celui-là n’aura point péché. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-183",
@@ -25197,7 +25379,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا كتب عليكم ٱلصيام كما كتب على ٱلذين من قبلكم لعلكم تتقون",
     "transliteration": "yāayyuhā alladhīna āmanū kutiba ʿalaykumu l-ṣiyāmu kamā kutiba ʿalā alladhīna min qablikum laʿallakum tattaqūna",
-    "translation": "",
+    "translation": "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous -",
     "words": [
       {
         "id": "al-baqarah-183-1",
@@ -25298,7 +25480,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Le jeûne (Aç-Ciyâm) vous a été prescrit comme il a été prescrit à ceux qui vous ont précédés : ainsi finirez-vous par craindre pieusement."
   },
   {
     "id": "al-baqarah-184",
@@ -25307,7 +25490,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "أياما معدودت  فمن كان منكم مريضا أو على سفر فعدة من أيام أخر  وعلى ٱلذين يطيقونه فدية طعام مسكين  فمن تطوع خيرا فهو خير له  وأن تصوموا خير لكم  إن كنتم تعلمون",
     "transliteration": "ayyāman maʿdūdātin faman kāna minkum marīḍan aw ʿalā safarin faʿiddatun min ayyāmin ukhara waʿalā alladhīna yuṭīqūnahu fid'yatun ṭaʿāmu mis'kīnin faman taṭawwaʿa khayran fahuwa khayrun lahu wa-an taṣūmū khayrun lakum in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "[Fasting for] a limited number of days. So whoever among you is ill or on a journey [during them] - then an equal number of other days [are to be made up]. And upon those who are able [to fast, but with hardship] - a ransom [as substitute] of feeding a poor person [each day]. And whoever volunteers good [i.e., excess] - it is better for him. But to fast is best for you, if you only knew.",
     "words": [
       {
         "id": "al-baqarah-184-1",
@@ -25534,7 +25717,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un nombre de jours (sera bien déterminé). Alors, celui qui d’entre vous est malade ou parti en voyage, (s’acquittera) d’un nombre équivalent d’autres jours. Quant à ceux qui ne peuvent l’observer qu’à grand-peine, ils auront à (s’acquitter) d’une compensation en nourrissant un pauvre. Si quelqu’un fait mieux volontiers, cela est meilleur pour lui. Mais que vous jeûniez est certes meilleur pour vous, si seulement vous saviez !"
   },
   {
     "id": "al-baqarah-185",
@@ -25543,7 +25727,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَـٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "شهر رمضان ٱلذىٓ أنزل فيه ٱلقرءان هدى للناس وبينـت من ٱلهدى وٱلفرقان  فمن شهد منكم ٱلشهر فليصمه  ومن كان مريضا أو على سفر فعدة من أيام أخر  يريد ٱلله بكم ٱليسر ولا يريد بكم ٱلعسر ولتكملوا ٱلعدة ولتكبروا ٱلله على ما هدىكم ولعلكم تشكرون",
     "transliteration": "shahru ramaḍāna alladhī unzila fīhi l-qur'ānu hudan lilnnāsi wabayyinātin mina l-hudā wal-fur'qāni faman shahida minkumu l-shahra falyaṣum'hu waman kāna marīḍan aw ʿalā safarin faʿiddatun min ayyāmin ukhara yurīdu l-lahu bikumu l-yus'ra walā yurīdu bikumu l-ʿus'ra walituk'milū l-ʿidata walitukabbirū l-laha ʿalā mā hadākum walaʿallakum tashkurūna",
-    "translation": "",
+    "translation": "The month of Ramaḍān [is that] in which was revealed the Qur’ān, a guidance for the people and clear proofs of guidance and criterion. So whoever sights [the crescent of] the month, let him fast it; and whoever is ill or on a journey - then an equal number of other days. Allāh intends for you ease and does not intend for you hardship and [wants] for you to complete the period and to glorify Allāh for that [to] which He has guided you; and perhaps you will be grateful.",
     "words": [
       {
         "id": "al-baqarah-185-1",
@@ -25854,7 +26038,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 43
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est en ce mois de Ramadan que fut révélé le Coran en guide (hudâ) pour les hommes (vers la juste voie), et comme preuves évidentes de la bonne orientation et du discernement. Quiconque, alors, est présent en ce mois qu’il (le) jeûne ! Et si quelqu’un est malade ou parti en voyage, il (s’acquittera) d’un nombre équivalent d’autres jours. Allah veut pour vous l’aisance et ne veut pas pour vous la difficulté ; afin que vous complétiez les jours dus et que vous rendiez gloire à Allah Qui vous a bien guidés. Peut-être alors (Lui) serez-vous reconnaissants !"
   },
   {
     "id": "al-baqarah-186",
@@ -25863,7 +26048,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ",
     "textSimple": "وإذا سألك عبادى عنى فإنى قريب  أجيب دعوة ٱلداع إذا دعان  فليستجيبوا لى وليؤمنوا بى لعلهم يرشدون",
     "transliteration": "wa-idhā sa-alaka ʿibādī ʿannī fa-innī qarībun ujību daʿwata l-dāʿi idhā daʿāni falyastajībū lī walyu'minū bī laʿallahum yarshudūna",
-    "translation": "",
+    "translation": "And when My servants ask you, [O Muḥammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.",
     "words": [
       {
         "id": "al-baqarah-186-1",
@@ -25985,7 +26170,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Mes serviteurs t’interrogent sur Moi, (dis que) Je suis Proche. Je réponds à l’appel de celui qui implore quand il M’implore. Qu’ils répondent donc à Mon appel et qu’ils croient en Moi : peut-être alors en seront-ils mieux guidés."
   },
   {
     "id": "al-baqarah-187",
@@ -25994,7 +26180,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٔـٰنَ بَـٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَـٰشِرُوهُنَّ وَأَنتُمْ عَـٰكِفُونَ فِى ٱلْمَسَـٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَـٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
     "textSimple": "أحل لكم ليلة ٱلصيام ٱلرفث إلى نسآئكم  هن لباس لكم وأنتم لباس لهن  علم ٱلله أنكم كنتم تختانون أنفسكم فتاب عليكم وعفا عنكم  فٱلـٔـن بـشروهن وٱبتغوا ما كتب ٱلله لكم  وكلوا وٱشربوا حتى يتبين لكم ٱلخيط ٱلأبيض من ٱلخيط ٱلأسود من ٱلفجر  ثم أتموا ٱلصيام إلى ٱليل  ولا تبـشروهن وأنتم عـكفون فى ٱلمسـجد  تلك حدود ٱلله فلا تقربوها  كذلك يبين ٱلله ءايـته للناس لعلهم يتقون",
     "transliteration": "uḥilla lakum laylata l-ṣiyāmi l-rafathu ilā nisāikum hunna libāsun lakum wa-antum libāsun lahunna ʿalima l-lahu annakum kuntum takhtānūna anfusakum fatāba ʿalaykum waʿafā ʿankum fal-āna bāshirūhunna wa-ib'taghū mā kataba l-lahu lakum wakulū wa-ish'rabū ḥattā yatabayyana lakumu l-khayṭu l-abyaḍu mina l-khayṭi l-aswadi mina l-fajri thumma atimmū l-ṣiyāma ilā al-layli walā tubāshirūhunna wa-antum ʿākifūna fī l-masājidi til'ka ḥudūdu l-lahi falā taqrabūhā kadhālika yubayyinu l-lahu āyātihi lilnnāsi laʿallahum yattaqūna",
-    "translation": "",
+    "translation": "It has been made permissible for you the night preceding fasting to go to your wives [for sexual relations]. They are a clothing for you and you are a clothing for them. Allāh knows that you used to deceive yourselves, so He accepted your repentance and forgave you. So now, have relations with them and seek that which Allāh has decreed for you [i.e., offspring]. And eat and drink until the white thread of dawn becomes distinct to you from the black thread [of night]. Then complete the fast until the night [i.e., sunset]. And do not have relations with them as long as you are staying for worship in the mosques. These are the limits [set by] Allāh, so do not approach them. Thus does Allāh make clear His verses [i.e., ordinances] to the people that they may become righteous.",
     "words": [
       {
         "id": "al-baqarah-187-1",
@@ -26452,7 +26638,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 64
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous est permis, la nuit du jeûne (aç-ciyâm), d’avoir des rapports intimes avec vos femmes. Elles sont pour vous un vêtement et vous êtes pour elles un vêtement. Allah Sait qu’(ayant eu avec vos épouses des rapports intimes la nuit) vous vous trahissiez vous-mêmes (et vous vous exposiez aux punitions). Alors, Il accepte votre repentir et vous pardonne. Et maintenant vous pouvez les approcher. Recherchez (les joies) qu’Allah a prescrites pour vous. Mangez et buvez jusqu’à ce que deviennent distincts, à vos yeux, le fil blanc de l’aube et le fil noir de la nuit. Puis accomplissez le jeûne jusqu’à la nuit. Ne les approchez point pendant que vous observez la retraite rituelle (‘âkifîn) dans les mosquées. Telles sont les limites légales (hudûd) d’Allah, ne vous en approchez point. C’est ainsi qu’Allah expose clairement Ses Signes aux hommes, afin qu’ils (Le) craignent pieusement."
   },
   {
     "id": "al-baqarah-188",
@@ -26461,7 +26648,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَـٰطِلِ وَتُدْلُوا۟ بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ",
     "textSimple": "ولا تأكلوٓا أمولكم بينكم بٱلبـطل وتدلوا بهآ إلى ٱلحكام لتأكلوا فريقا من أمول ٱلناس بٱلإثم وأنتم تعلمون",
     "transliteration": "walā takulū amwālakum baynakum bil-bāṭili watud'lū bihā ilā l-ḥukāmi litakulū farīqan min amwāli l-nāsi bil-ith'mi wa-antum taʿlamūna",
-    "translation": "",
+    "translation": "And do not consume one another's wealth unjustly or send it [in bribery] to the rulers in order that [they might aid] you [to] consume a portion of the wealth of the people in sin, while you know [it is unlawful].",
     "words": [
       {
         "id": "al-baqarah-188-1",
@@ -26583,7 +26770,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne mangez pas vos biens illicitement entre vous. Ne les donnez pas aux juges dans l’intention de les corrompre et de manger ainsi les biens des gens par péché tout en le sachant."
   },
   {
     "id": "al-baqarah-189",
@@ -26592,7 +26780,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَسْـَٔلُونَكَ عَنِ ٱلْأَهِلَّةِ ۖ قُلْ هِىَ مَوَٰقِيتُ لِلنَّاسِ وَٱلْحَجِّ ۗ وَلَيْسَ ٱلْبِرُّ بِأَن تَأْتُوا۟ ٱلْبُيُوتَ مِن ظُهُورِهَا وَلَـٰكِنَّ ٱلْبِرَّ مَنِ ٱتَّقَىٰ ۗ وَأْتُوا۟ ٱلْبُيُوتَ مِنْ أَبْوَٰبِهَا ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
     "textSimple": " يسـٔلونك عن ٱلأهلة  قل هى موقيت للناس وٱلحج  وليس ٱلبر بأن تأتوا ٱلبيوت من ظهورها ولـكن ٱلبر من ٱتقى  وأتوا ٱلبيوت من أبوبها  وٱتقوا ٱلله لعلكم تفلحون",
     "transliteration": "yasalūnaka ʿani l-ahilati qul hiya mawāqītu lilnnāsi wal-ḥaji walaysa l-biru bi-an tatū l-buyūta min ẓuhūrihā walākinna l-bira mani ittaqā watū l-buyūta min abwābihā wa-ittaqū l-laha laʿallakum tuf'liḥūna",
-    "translation": "",
+    "translation": "They ask you, [O Muḥammad], about the crescent moons. Say, \"They are measurements of time for the people and for ḥajj [pilgrimage].\" And it is not righteousness to enter houses from the back, but righteousness is [in] one who fears Allāh. And enter houses from their doors. And fear Allāh that you may succeed.",
     "words": [
       {
         "id": "al-baqarah-189-1",
@@ -26784,7 +26972,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent sur les croissants des nouvelles lunes. Dis : « Ce sont des repères temporels pour les gens et pour le pèlerinage (Hajj). Et la vraie vertu n’est point d’entrer dans les maisons par derrière, la vraie vertu est d’avoir la piété. Entrez donc dans les maisons par leurs portes et craignez Allah : ainsi atteindrez-vous à la réussite."
   },
   {
     "id": "al-baqarah-190",
@@ -26793,7 +26982,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَـٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ ٱلَّذِينَ يُقَـٰتِلُونَكُمْ وَلَا تَعْتَدُوٓا۟ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُعْتَدِينَ",
     "textSimple": "وقـتلوا فى سبيل ٱلله ٱلذين يقـتلونكم ولا تعتدوٓا  إن ٱلله لا يحب ٱلمعتدين",
     "transliteration": "waqātilū fī sabīli l-lahi alladhīna yuqātilūnakum walā taʿtadū inna l-laha lā yuḥibbu l-muʿ'tadīna",
-    "translation": "",
+    "translation": "Fight in the way of Allāh those who fight against you but do not transgress. Indeed, Allāh does not like transgressors.",
     "words": [
       {
         "id": "al-baqarah-190-1",
@@ -26887,7 +27076,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combattez pour la cause d’Allah (dans le chemin d’Allah) ceux qui vous combattent et ne transgressez point, car Allah n’aime pas les transgresseurs."
   },
   {
     "id": "al-baqarah-191",
@@ -26896,7 +27086,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ ۚ وَٱلْفِتْنَةُ أَشَدُّ مِنَ ٱلْقَتْلِ ۚ وَلَا تُقَـٰتِلُوهُمْ عِندَ ٱلْمَسْجِدِ ٱلْحَرَامِ حَتَّىٰ يُقَـٰتِلُوكُمْ فِيهِ ۖ فَإِن قَـٰتَلُوكُمْ فَٱقْتُلُوهُمْ ۗ كَذَٰلِكَ جَزَآءُ ٱلْكَـٰفِرِينَ",
     "textSimple": "وٱقتلوهم حيث ثقفتموهم وأخرجوهم من حيث أخرجوكم  وٱلفتنة أشد من ٱلقتل  ولا تقـتلوهم عند ٱلمسجد ٱلحرام حتى يقـتلوكم فيه  فإن قـتلوكم فٱقتلوهم  كذلك جزآء ٱلكـفرين",
     "transliteration": "wa-uq'tulūhum ḥaythu thaqif'tumūhum wa-akhrijūhum min ḥaythu akhrajūkum wal-fit'natu ashaddu mina l-qatli walā tuqātilūhum ʿinda l-masjidi l-ḥarāmi ḥattā yuqātilūkum fīhi fa-in qātalūkum fa-uq'tulūhum kadhālika jazāu l-kāfirīna",
-    "translation": "",
+    "translation": "And kill them [in battle] wherever you overtake them and expel them from wherever they have expelled you, and fitnah is worse than killing. And do not fight them at al-Masjid al-Ḥarām until they fight you there. But if they fight you, then kill them. Such is the recompense of the disbelievers.",
     "words": [
       {
         "id": "al-baqarah-191-1",
@@ -27074,7 +27264,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tuez-les où vous les trouverez, et chassez-les d’où ils vous auront chassés : l’associâtrie (chirk) est plus terrible que la tuerie. Et ne les combattez point près de la Mosquée Sacrée sauf quand ils vous y auront combattus. Alors, s’ils vous combattent, tuez-les. Tel sera le châtiment des mécréants."
   },
   {
     "id": "al-baqarah-192",
@@ -27083,7 +27274,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "فإن ٱنتهوا فإن ٱلله غفور رحيم",
     "transliteration": "fa-ini intahaw fa-inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And if they cease, then indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-baqarah-192-1",
@@ -27128,7 +27319,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’ils cessent, alors Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-193",
@@ -27137,7 +27329,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَـٰتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ ٱلدِّينُ لِلَّهِ ۖ فَإِنِ ٱنتَهَوْا۟ فَلَا عُدْوَٰنَ إِلَّا عَلَى ٱلظَّـٰلِمِينَ",
     "textSimple": "وقـتلوهم حتى لا تكون فتنة ويكون ٱلدين لله  فإن ٱنتهوا فلا عدون إلا على ٱلظـلمين",
     "transliteration": "waqātilūhum ḥattā lā takūna fit'natun wayakūna l-dīnu lillahi fa-ini intahaw falā ʿud'wāna illā ʿalā l-ẓālimīna",
-    "translation": "",
+    "translation": "Fight them until there is no [more] fitnah and [until] religion [i.e., worship] is [acknowledged to be] for Allāh. But if they cease, then there is to be no aggression [i.e., assault] except against the oppressors.",
     "words": [
       {
         "id": "al-baqarah-193-1",
@@ -27245,7 +27437,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combattez-les jusqu’à ce qu’il n’y ait plus d’associâtrie et que la religion soit exclusivement à Allah. Et s’ils cessent (leurs hostilités et leur associâtrie), qu’il n’y ait plus alors d’agression hormis contre les injustes."
   },
   {
     "id": "al-baqarah-194",
@@ -27254,7 +27447,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلشَّهْرُ ٱلْحَرَامُ بِٱلشَّهْرِ ٱلْحَرَامِ وَٱلْحُرُمَـٰتُ قِصَاصٌ ۚ فَمَنِ ٱعْتَدَىٰ عَلَيْكُمْ فَٱعْتَدُوا۟ عَلَيْهِ بِمِثْلِ مَا ٱعْتَدَىٰ عَلَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
     "textSimple": "ٱلشهر ٱلحرام بٱلشهر ٱلحرام وٱلحرمـت قصاص  فمن ٱعتدى عليكم فٱعتدوا عليه بمثل ما ٱعتدى عليكم  وٱتقوا ٱلله وٱعلموٓا أن ٱلله مع ٱلمتقين",
     "transliteration": "al-shahru l-ḥarāmu bil-shahri l-ḥarāmi wal-ḥurumātu qiṣāṣun famani iʿ'tadā ʿalaykum fa-iʿ'tadū ʿalayhi bimith'li mā iʿ'tadā ʿalaykum wa-ittaqū l-laha wa-iʿ'lamū anna l-laha maʿa l-mutaqīna",
-    "translation": "",
+    "translation": "[Battle in] the sacred month is for [aggression committed in] the sacred month, and for [all] violations is legal retribution. So whoever has assaulted you, then assault him in the same way that he has assaulted you. And fear Allāh and know that Allāh is with those who fear Him.",
     "words": [
       {
         "id": "al-baqarah-194-1",
@@ -27411,7 +27604,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mois sacré pour mois sacré, et toutes les choses sacrées (se compensent) par la loi du talion. Alors, quiconque vous agresse, agressez-le en lui rendant la pareille. Craignez Allah, et sachez qu’Allah est avec les gens pieux."
   },
   {
     "id": "al-baqarah-195",
@@ -27420,7 +27614,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلَا تُلْقُوا۟ بِأَيْدِيكُمْ إِلَى ٱلتَّهْلُكَةِ ۛ وَأَحْسِنُوٓا۟ ۛ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
     "textSimple": "وأنفقوا فى سبيل ٱلله ولا تلقوا بأيديكم إلى ٱلتهلكة  وأحسنوٓا  إن ٱلله يحب ٱلمحسنين",
     "transliteration": "wa-anfiqū fī sabīli l-lahi walā tul'qū bi-aydīkum ilā l-tahlukati wa-aḥsinū inna l-laha yuḥibbu l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And spend in the way of Allāh and do not throw [yourselves] with your [own] hands into destruction [by refraining]. And do good; indeed, Allāh loves the doers of good.",
     "words": [
       {
         "id": "al-baqarah-195-1",
@@ -27521,7 +27715,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dépensez pour la cause d’Allah (dans le chemin d’Allah), ne courez pas par vos propres mains à la ruine. Et faites le bien car Allah aime les bienfaiteurs."
   },
   {
     "id": "al-baqarah-196",
@@ -27530,7 +27725,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًى مِّن رَّأْسِهِۦ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَـٰثَةِ أَيَّامٍ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌ كَامِلَةٌ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
     "textSimple": "وأتموا ٱلحج وٱلعمرة لله  فإن أحصرتم فما ٱستيسر من ٱلهدى  ولا تحلقوا رءوسكم حتى يبلغ ٱلهدى محله  فمن كان منكم مريضا أو بهٓ أذى من رأسه ففدية من صيام أو صدقة أو نسك  فإذآ أمنتم فمن تمتع بٱلعمرة إلى ٱلحج فما ٱستيسر من ٱلهدى  فمن لم يجد فصيام ثلـثة أيام فى ٱلحج وسبعة إذا رجعتم  تلك عشرة كاملة  ذلك لمن لم يكن أهله حاضرى ٱلمسجد ٱلحرام  وٱتقوا ٱلله وٱعلموٓا أن ٱلله شديد ٱلعقاب",
     "transliteration": "wa-atimmū l-ḥaja wal-ʿum'rata lillahi fa-in uḥ'ṣir'tum famā is'taysara mina l-hadyi walā taḥliqū ruūsakum ḥattā yablugha l-hadyu maḥillahu faman kāna minkum marīḍan aw bihi adhan min rasihi fafid'yatun min ṣiyāmin aw ṣadaqatin aw nusukin fa-idhā amintum faman tamattaʿa bil-ʿum'rati ilā l-ḥaji famā is'taysara mina l-hadyi faman lam yajid faṣiyāmu thalāthati ayyāmin fī l-ḥaji wasabʿatin idhā rajaʿtum til'ka ʿasharatun kāmilatun dhālika liman lam yakun ahluhu ḥāḍirī l-masjidi l-ḥarāmi wa-ittaqū l-laha wa-iʿ'lamū anna l-laha shadīdu l-ʿiqābi",
-    "translation": "",
+    "translation": "And complete the ḥajj and ʿumrah for Allāh. But if you are prevented, then [offer] what can be obtained with ease of sacrificial animals. And do not shave your heads until the sacrificial animal has reached its place of slaughter. And whoever among you is ill or has an ailment of the head [making shaving necessary must offer] a ransom of fasting [three days] or charity or sacrifice. And when you are secure, then whoever performs ʿumrah [during the ḥajj months] followed by ḥajj [offers] what can be obtained with ease of sacrificial animals. And whoever cannot find [or afford such an animal] - then a fast of three days during ḥajj and of seven when you have returned [home]. Those are ten complete [days]. This is for those whose family is not in the area of al-Masjid al-Ḥarām. And fear Allāh and know that Allāh is severe in penalty.",
     "words": [
       {
         "id": "al-baqarah-196-1",
@@ -28044,7 +28239,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 72
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accomplissez pour Allah le pèlerinage (Hajj) et la Umra. Si vous subissez quelque empêchement, alors un sacrifice qu’il vous soit aisé de faire. Ne vous rasez pas la tête jusqu’à ce que la bête sacrificielle soit arrivée à son lieu (d’immolation licite). Et si l’un de vous est malade ou souffre de quelque lésion à la tête, qu’il compense alors par un jeûne (çiyâm), par une aumône, ou par une immolation. Quand vous aurez accompli le rituel et si, étant en sécurité, quelqu’un (parmi vous) a joui des avantages de la vie normale (tamattu’), depuis la Umra jusqu’au pèlerinage, alors un sacrifice qu’il lui soit aisé de faire. S’il n’en a pas les moyens, alors un jeûne de trois jours pendant le pèlerinage et sept quand il revient chez lui, soit un total de dix. Cela concerne celui dont la famille n’habite pas près de la Mosquée Sacrée. Craignez Allah. Sachez qu’Allah a le châtiment terrible."
   },
   {
     "id": "al-baqarah-197",
@@ -28053,7 +28249,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْحَجُّ أَشْهُرٌ مَّعْلُومَـٰتٌ ۚ فَمَن فَرَضَ فِيهِنَّ ٱلْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِى ٱلْحَجِّ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ يَعْلَمْهُ ٱللَّهُ ۗ وَتَزَوَّدُوا۟ فَإِنَّ خَيْرَ ٱلزَّادِ ٱلتَّقْوَىٰ ۚ وَٱتَّقُونِ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ",
     "textSimple": "ٱلحج أشهر معلومـت  فمن فرض فيهن ٱلحج فلا رفث ولا فسوق ولا جدال فى ٱلحج  وما تفعلوا من خير يعلمه ٱلله  وتزودوا فإن خير ٱلزاد ٱلتقوى  وٱتقون يـٓأولى ٱلألبـب",
     "transliteration": "al-ḥaju ashhurun maʿlūmātun faman faraḍa fīhinna l-ḥaja falā rafatha walā fusūqa walā jidāla fī l-ḥaji wamā tafʿalū min khayrin yaʿlamhu l-lahu watazawwadū fa-inna khayra l-zādi l-taqwā wa-ittaqūni yāulī l-albābi",
-    "translation": "",
+    "translation": "Ḥajj is [during] well-known months, so whoever has made ḥajj obligatory upon himself therein [by entering the state of iḥrām], there is [to be for him] no sexual relations and no disobedience and no disputing during ḥajj. And whatever good you do - Allāh knows it. And take provisions, but indeed, the best provision is fear of Allāh. And fear Me, O you of understanding.",
     "words": [
       {
         "id": "al-baqarah-197-1",
@@ -28259,7 +28455,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le pèlerinage se fait pendant des mois bien connus. Que celui qui entreprend de le faire (sache ceci) : point de rapports sexuels, point de débauche, point de dispute pendant le Hajj. Quelque bien que vous fassiez, Allah certes le Sait. Prenez avec vous un viatique sachant que le meilleur viatique est la piété, et craignez-Moi, ô vous qui avez l’esprit sagace !"
   },
   {
     "id": "al-baqarah-198",
@@ -28268,7 +28465,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَـٰتٍ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
     "textSimple": "ليس عليكم جناح أن تبتغوا فضلا من ربكم  فإذآ أفضتم من عرفـت فٱذكروا ٱلله عند ٱلمشعر ٱلحرام  وٱذكروه كما هدىكم وإن كنتم من قبله لمن ٱلضآلين",
     "transliteration": "laysa ʿalaykum junāḥun an tabtaghū faḍlan min rabbikum fa-idhā afaḍtum min ʿarafātin fa-udh'kurū l-laha ʿinda l-mashʿari l-ḥarāmi wa-udh'kurūhu kamā hadākum wa-in kuntum min qablihi lamina l-ḍālīna",
-    "translation": "",
+    "translation": "There is no blame upon you for seeking bounty from your Lord [during ḥajj]. But when you depart from ʿArafāt, remember Allāh at al-Mashʿar al-Ḥarām. And remember Him, as He has guided you, for indeed, you were before that among those astray.",
     "words": [
       {
         "id": "al-baqarah-198-1",
@@ -28453,7 +28650,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous n’aurez commis aucun péché si vous convoitez une faveur de votre Seigneur. Quand vous aurez déferlé de ‘Arafat, invoquez Allah à Al-Mach’âr Al-Harâm (la Station sacrée). Invoquez-Le comme Il vous a orientés vers la juste voie quoique, par le passé, vous fussiez du nombre des égarés."
   },
   {
     "id": "al-baqarah-199",
@@ -28462,7 +28660,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَفِيضُوا۟ مِنْ حَيْثُ أَفَاضَ ٱلنَّاسُ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ثم أفيضوا من حيث أفاض ٱلناس وٱستغفروا ٱلله  إن ٱلله غفور رحيم",
     "transliteration": "thumma afīḍū min ḥaythu afāḍa l-nāsu wa-is'taghfirū l-laha inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Then depart from the place from where [all] the people depart and ask forgiveness of Allāh. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-baqarah-199-1",
@@ -28549,7 +28747,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis déferlez d’où les gens ont (toujours) déferlé, et demandez le pardon d’Allah car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-200",
@@ -28558,7 +28757,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا قَضَيْتُم مَّنَـٰسِكَكُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَذِكْرِكُمْ ءَابَآءَكُمْ أَوْ أَشَدَّ ذِكْرًا ۗ فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا وَمَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِنْ خَلَـٰقٍ",
     "textSimple": "فإذا قضيتم منـسككم فٱذكروا ٱلله كذكركم ءابآءكم أو أشد ذكرا  فمن ٱلناس من يقول ربنآ ءاتنا فى ٱلدنيا وما له فى ٱلـٔاخرة من خلـق",
     "transliteration": "fa-idhā qaḍaytum manāsikakum fa-udh'kurū l-laha kadhik'rikum ābāakum aw ashadda dhik'ran famina l-nāsi man yaqūlu rabbanā ātinā fī l-dun'yā wamā lahu fī l-ākhirati min khalāqin",
-    "translation": "",
+    "translation": "And when you have completed your rites, remember Allāh like your [previous] remembrance of your fathers or with [much] greater remembrance. And among the people is he who says, \"Our Lord, give us in this world,\" and he will have in the Hereafter no share.",
     "words": [
       {
         "id": "al-baqarah-200-1",
@@ -28729,7 +28928,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque vous aurez achevé votre rituel, invoquez Allah ainsi que vous invoquiez vos pères, ou en plus fervent encore. Or il est des gens qui disent : « Seigneur ! Comble-nous en ce bas monde ! » Ceux-là n’auront aucune part dans l’autre monde."
   },
   {
     "id": "al-baqarah-201",
@@ -28738,7 +28938,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ حَسَنَةً وَقِنَا عَذَابَ ٱلنَّارِ",
     "textSimple": "ومنهم من يقول ربنآ ءاتنا فى ٱلدنيا حسنة وفى ٱلـٔاخرة حسنة وقنا عذاب ٱلنار",
     "transliteration": "wamin'hum man yaqūlu rabbanā ātinā fī l-dun'yā ḥasanatan wafī l-ākhirati ḥasanatan waqinā ʿadhāba l-nāri",
-    "translation": "",
+    "translation": "But among them is he who says, \"Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.\"",
     "words": [
       {
         "id": "al-baqarah-201-1",
@@ -28839,7 +29039,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il en est qui disent : « Seigneur ! Puisses-Tu nous accorder un bienfait en ce bas monde et un bienfait dans l’autre monde, et nous préserver du supplice du Feu ! »"
   },
   {
     "id": "al-baqarah-202",
@@ -28848,7 +29049,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ لَهُمْ نَصِيبٌ مِّمَّا كَسَبُوا۟ ۚ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ",
     "textSimple": "أولـٓئك لهم نصيب مما كسبوا  وٱلله سريع ٱلحساب",
     "transliteration": "ulāika lahum naṣībun mimmā kasabū wal-lahu sarīʿu l-ḥisābi",
-    "translation": "",
+    "translation": "Those will have a share of what they have earned, and Allāh is swift in account.",
     "words": [
       {
         "id": "al-baqarah-202-1",
@@ -28907,7 +29108,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là auront une part conforme à leurs œuvres acquises, car Allah est prompt à dresser les comptes."
   },
   {
     "id": "al-baqarah-203",
@@ -28916,7 +29118,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱذْكُرُوا۟ ٱللَّهَ فِىٓ أَيَّامٍ مَّعْدُودَٰتٍ ۚ فَمَن تَعَجَّلَ فِى يَوْمَيْنِ فَلَآ إِثْمَ عَلَيْهِ وَمَن تَأَخَّرَ فَلَآ إِثْمَ عَلَيْهِ ۚ لِمَنِ ٱتَّقَىٰ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُمْ إِلَيْهِ تُحْشَرُونَ",
     "textSimple": " وٱذكروا ٱلله فىٓ أيام معدودت  فمن تعجل فى يومين فلآ إثم عليه ومن تأخر فلآ إثم عليه  لمن ٱتقى  وٱتقوا ٱلله وٱعلموٓا أنكم إليه تحشرون",
     "transliteration": "wa-udh'kurū l-laha fī ayyāmin maʿdūdātin faman taʿajjala fī yawmayni falā ith'ma ʿalayhi waman ta-akhara falā ith'ma ʿalayhi limani ittaqā wa-ittaqū l-laha wa-iʿ'lamū annakum ilayhi tuḥ'sharūna",
-    "translation": "",
+    "translation": "And remember Allāh during [specific] numbered days. Then whoever hastens [his departure] in two days - there is no sin upon him; and whoever delays [until the third] - there is no sin upon him - for him who fears Allāh. And fear Allāh and know that unto Him you will be gathered.",
     "words": [
       {
         "id": "al-baqarah-203-1",
@@ -29094,7 +29296,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Invoquez Allah en des jours précis. Mais celui qui se hâte en deux jours n’aura pas péché ; et celui qui s’attarde n’aura pas, non plus, péché. Craignez Allah. Sachez que c’est vers Lui que vous serez ramenés en foule."
   },
   {
     "id": "al-baqarah-204",
@@ -29103,7 +29306,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يُعْجِبُكَ قَوْلُهُۥ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَيُشْهِدُ ٱللَّهَ عَلَىٰ مَا فِى قَلْبِهِۦ وَهُوَ أَلَدُّ ٱلْخِصَامِ",
     "textSimple": "ومن ٱلناس من يعجبك قوله فى ٱلحيوة ٱلدنيا ويشهد ٱلله على ما فى قلبه وهو ألد ٱلخصام",
     "transliteration": "wamina l-nāsi man yuʿ'jibuka qawluhu fī l-ḥayati l-dun'yā wayush'hidu l-laha ʿalā mā fī qalbihi wahuwa aladdu l-khiṣāmi",
-    "translation": "",
+    "translation": "And of the people is he whose speech pleases you in worldly life, and he calls Allāh to witness as to what is in his heart, yet he is the fiercest of opponents.",
     "words": [
       {
         "id": "al-baqarah-204-1",
@@ -29225,7 +29428,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est parmi les hommes celui dont te plaît le propos sur la vie en ce bas monde, qui prend Allah à témoin (pour convaincre) de ce qu’il a dans le cœur, alors qu’il est le plus farouche des adversaires."
   },
   {
     "id": "al-baqarah-205",
@@ -29234,7 +29438,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
     "textSimple": "وإذا تولى سعى فى ٱلأرض ليفسد فيها ويهلك ٱلحرث وٱلنسل  وٱلله لا يحب ٱلفساد",
     "transliteration": "wa-idhā tawallā saʿā fī l-arḍi liyuf'sida fīhā wayuh'lika l-ḥartha wal-nasla wal-lahu lā yuḥibbu l-fasāda",
-    "translation": "",
+    "translation": "And when he goes away, he strives throughout the land to cause corruption therein and destroy crops and animals. And Allāh does not like corruption.",
     "words": [
       {
         "id": "al-baqarah-205-1",
@@ -29335,7 +29539,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sitôt le dos tourné, il parcourt la terre pour y semer la corruption, ravager les récoltes et le bétail. Et Allah n’aime pas la corruption."
   },
   {
     "id": "al-baqarah-206",
@@ -29344,7 +29549,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُ ٱتَّقِ ٱللَّهَ أَخَذَتْهُ ٱلْعِزَّةُ بِٱلْإِثْمِ ۚ فَحَسْبُهُۥ جَهَنَّمُ ۚ وَلَبِئْسَ ٱلْمِهَادُ",
     "textSimple": "وإذا قيل له ٱتق ٱلله أخذته ٱلعزة بٱلإثم  فحسبه جهنم  ولبئس ٱلمهاد",
     "transliteration": "wa-idhā qīla lahu ittaqi l-laha akhadhathu l-ʿizatu bil-ith'mi faḥasbuhu jahannamu walabi'sa l-mihādu",
-    "translation": "",
+    "translation": "And when it is said to him, \"Fear Allāh,\" pride in the sin takes hold of him. Sufficient for him is Hellfire, and how wretched is the resting place.",
     "words": [
       {
         "id": "al-baqarah-206-1",
@@ -29431,7 +29636,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il lui est dit : « Crains Allah ! » (le vertige de) la fierté pécheresse le prend. La Géhenne lui suffira et quelle terrible couche il aura !"
   },
   {
     "id": "al-baqarah-207",
@@ -29440,7 +29646,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يَشْرِى نَفْسَهُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ",
     "textSimple": "ومن ٱلناس من يشرى نفسه ٱبتغآء مرضات ٱلله  وٱلله رءوف بٱلعباد",
     "transliteration": "wamina l-nāsi man yashrī nafsahu ib'tighāa marḍāti l-lahi wal-lahu raūfun bil-ʿibādi",
-    "translation": "",
+    "translation": "And of the people is he who sells himself, seeking means to the approval of Allāh. And Allāh is Kind to [His] servants.",
     "words": [
       {
         "id": "al-baqarah-207-1",
@@ -29520,7 +29726,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il est parmi les hommes celui qui se voue complètement à obtenir la satisfaction d’Allah. Allah est Tout Compatissant envers Ses serviteurs."
   },
   {
     "id": "al-baqarah-208",
@@ -29529,7 +29736,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱدْخُلُوا۟ فِى ٱلسِّلْمِ كَآفَّةً وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱدخلوا فى ٱلسلم كآفة ولا تتبعوا خطوت ٱلشيطـن  إنه لكم عدو مبين",
     "transliteration": "yāayyuhā alladhīna āmanū ud'khulū fī l-sil'mi kāffatan walā tattabiʿū khuṭuwāti l-shayṭāni innahu lakum ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "O you who have believed, enter into Islām completely [and perfectly] and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.",
     "words": [
       {
         "id": "al-baqarah-208-1",
@@ -29637,7 +29844,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Entrez tous en Islam, n’emboîtez pas le pas à Satan car il est, pour vous, un ennemi avéré."
   },
   {
     "id": "al-baqarah-209",
@@ -29646,7 +29854,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن زَلَلْتُم مِّنۢ بَعْدِ مَا جَآءَتْكُمُ ٱلْبَيِّنَـٰتُ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
     "textSimple": "فإن زللتم من بعد ما جآءتكم ٱلبينـت فٱعلموٓا أن ٱلله عزيز حكيم",
     "transliteration": "fa-in zalaltum min baʿdi mā jāatkumu l-bayinātu fa-iʿ'lamū anna l-laha ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "But if you slip [i.e., deviate] after clear proofs have come to you, then know that Allāh is Exalted in Might and Wise.",
     "words": [
       {
         "id": "al-baqarah-209-1",
@@ -29733,7 +29941,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais, si vous avez dévié, après que vous sont venues les preuves évidentes, sachez alors qu’Allah est Tout- Puissant et Sage."
   },
   {
     "id": "al-baqarah-210",
@@ -29742,7 +29951,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى ظُلَلٍ مِّنَ ٱلْغَمَامِ وَٱلْمَلَـٰٓئِكَةُ وَقُضِىَ ٱلْأَمْرُ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
     "textSimple": "هل ينظرون إلآ أن يأتيهم ٱلله فى ظلل من ٱلغمام وٱلملـٓئكة وقضى ٱلأمر  وإلى ٱلله ترجع ٱلأمور",
     "transliteration": "hal yanẓurūna illā an yatiyahumu l-lahu fī ẓulalin mina l-ghamāmi wal-malāikatu waquḍiya l-amru wa-ilā l-lahi tur'jaʿu l-umūru",
-    "translation": "",
+    "translation": "Do they await but that Allāh should come to them in covers of clouds and the angels [as well] and the matter is [then] decided? And to Allāh [all] matters are returned.",
     "words": [
       {
         "id": "al-baqarah-210-1",
@@ -29864,7 +30073,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’attendent-ils sinon qu’Allah leur vienne à l’ombre des nuages, et (avec Lui) les Anges ? Leur sort en sera alors décrété, car c’est à Allah que Toutes les choses sont certes ramenées."
   },
   {
     "id": "al-baqarah-211",
@@ -29873,7 +30083,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "سَلْ بَنِىٓ إِسْرَٰٓءِيلَ كَمْ ءَاتَيْنَـٰهُم مِّنْ ءَايَةٍۭ بَيِّنَةٍ ۗ وَمَن يُبَدِّلْ نِعْمَةَ ٱللَّهِ مِنۢ بَعْدِ مَا جَآءَتْهُ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
     "textSimple": "سل بنىٓ إسرٓءيل كم ءاتينـهم من ءاية بينة  ومن يبدل نعمة ٱلله من بعد ما جآءته فإن ٱلله شديد ٱلعقاب",
     "transliteration": "sal banī is'rāīla kam ātaynāhum min āyatin bayyinatin waman yubaddil niʿ'mata l-lahi min baʿdi mā jāathu fa-inna l-laha shadīdu l-ʿiqābi",
-    "translation": "",
+    "translation": "Ask the Children of Israel how many a sign of evidence We have given them. And whoever exchanges the favor of Allāh [for disbelief] after it has come to him - then indeed, Allāh is severe in penalty.",
     "words": [
       {
         "id": "al-baqarah-211-1",
@@ -30016,7 +30226,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande aux Enfants d’Israël combien de preuves évidentes Nous leur avons apportées. Celui qui déforme la faveur (la religion) d’Allah quand elle lui est déjà parvenue, (qu’il sache qu’) Allah a le châtiment terrible."
   },
   {
     "id": "al-baqarah-212",
@@ -30025,7 +30236,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "زُيِّنَ لِلَّذِينَ كَفَرُوا۟ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَيَسْخَرُونَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ ۘ وَٱلَّذِينَ ٱتَّقَوْا۟ فَوْقَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ ۗ وَٱللَّهُ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
     "textSimple": "زين للذين كفروا ٱلحيوة ٱلدنيا ويسخرون من ٱلذين ءامنوا  وٱلذين ٱتقوا فوقهم يوم ٱلقيـمة  وٱلله يرزق من يشآء بغير حساب",
     "transliteration": "zuyyina lilladhīna kafarū l-ḥayatu l-dun'yā wayaskharūna mina alladhīna āmanū wa-alladhīna ittaqaw fawqahum yawma l-qiyāmati wal-lahu yarzuqu man yashāu bighayri ḥisābin",
-    "translation": "",
+    "translation": "Beautified for those who disbelieve is the life of this world, and they ridicule those who believe. But those who fear Allāh are above them on the Day of Resurrection. And Allāh gives provision to whom He wills without account.",
     "words": [
       {
         "id": "al-baqarah-212-1",
@@ -30168,7 +30379,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux qui ont mécru, la vie en ce bas monde a été embellie. Eux se raillent de ceux qui ont cru. Mais ceux qui auront craint pieusement (Allah) seront au-dessus d’eux, au Jour de la Résurrection. Et Allah donne sans compter à qui Il veut."
   },
   {
     "id": "al-baqarah-213",
@@ -30177,7 +30389,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "كَانَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً فَبَعَثَ ٱللَّهُ ٱلنَّبِيِّـۧنَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ ٱلْكِتَـٰبَ بِٱلْحَقِّ لِيَحْكُمَ بَيْنَ ٱلنَّاسِ فِيمَا ٱخْتَلَفُوا۟ فِيهِ ۚ وَمَا ٱخْتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَـٰتُ بَغْيًۢا بَيْنَهُمْ ۖ فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "كان ٱلناس أمة وحدة فبعث ٱلله ٱلنبيـن مبشرين ومنذرين وأنزل معهم ٱلكتـب بٱلحق ليحكم بين ٱلناس فيما ٱختلفوا فيه  وما ٱختلف فيه إلا ٱلذين أوتوه من بعد ما جآءتهم ٱلبينـت بغيا بينهم  فهدى ٱلله ٱلذين ءامنوا لما ٱختلفوا فيه من ٱلحق بإذنه  وٱلله يهدى من يشآء إلى صرط مستقيم",
     "transliteration": "kāna l-nāsu ummatan wāḥidatan fabaʿatha l-lahu l-nabiyīna mubashirīna wamundhirīna wa-anzala maʿahumu l-kitāba bil-ḥaqi liyaḥkuma bayna l-nāsi fīmā ikh'talafū fīhi wamā ikh'talafa fīhi illā alladhīna ūtūhu min baʿdi mā jāathumu l-bayinātu baghyan baynahum fahadā l-lahu alladhīna āmanū limā ikh'talafū fīhi mina l-ḥaqi bi-idh'nihi wal-lahu yahdī man yashāu ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "Mankind was [of] one religion [before their deviation]; then Allāh sent the prophets as bringers of good tidings and warners and sent down with them the Scripture in truth to judge between the people concerning that in which they differed. And none differed over it [i.e., the Scripture] except those who were given it - after the clear proofs came to them - out of jealous animosity among themselves. And Allāh guided those who believed to the truth concerning that over which they had differed, by His permission. And Allāh guides whom He wills to a straight path.",
     "words": [
       {
         "id": "al-baqarah-213-1",
@@ -30523,7 +30735,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 48
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes (à l’origine) étaient une seule nation. Allah envoya alors les Prophètes en annonciateurs d’heureuses nouvelles et en avertisseurs. Il fit descendre avec eux (en révélation) le Livre de la vérité pour juger entre les hommes quant aux questions à propos desquelles ils divergeaient. Or, par hostilité des uns envers les autres, seuls divergeaient à propos (du Livre) ceux à qui il fut donné après que leur furent parvenues les preuves évidentes ! Allah, par Sa permission, guida ainsi ceux qui ont cru vers la vérité à propos de laquelle d’autres divergeaient. Et Allah guide qui Il veut vers la voie droite."
   },
   {
     "id": "al-baqarah-214",
@@ -30532,7 +30745,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُم ۖ مَّسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌ",
     "textSimple": "أم حسبتم أن تدخلوا ٱلجنة ولما يأتكم مثل ٱلذين خلوا من قبلكم  مستهم ٱلبأسآء وٱلضرآء وزلزلوا حتى يقول ٱلرسول وٱلذين ءامنوا معه متى نصر ٱلله  ألآ إن نصر ٱلله قريب",
     "transliteration": "am ḥasib'tum an tadkhulū l-janata walammā yatikum mathalu alladhīna khalaw min qablikum massathumu l-basāu wal-ḍarāu wazul'zilū ḥattā yaqūla l-rasūlu wa-alladhīna āmanū maʿahu matā naṣru l-lahi alā inna naṣra l-lahi qarībun",
-    "translation": "",
+    "translation": "Or do you think that you will enter Paradise while such [trial] has not yet come to you as came to those who passed on before you? They were touched by poverty and hardship and were shaken until [even their] messenger and those who believed with him said, \"When is the help of Allāh?\" Unquestionably, the help of Allāh is near.",
     "words": [
       {
         "id": "al-baqarah-214-1",
@@ -30745,7 +30958,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or donc, pensiez-vous pouvoir entrer au Paradis quand vous n’avez encore rien connu de semblable à ce qu’ont connu ceux (qui vécurent) avant vous ? Ils furent si touchés par la misère et la maladie, si terriblement ébranlés que le Messager et ceux qui croyaient avec lui demandèrent : « Quand viendra donc le secours d’Allah ? » Certes, le secours d’Allah est tout proche."
   },
   {
     "id": "al-baqarah-215",
@@ -30754,7 +30968,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ ۖ قُلْ مَآ أَنفَقْتُم مِّنْ خَيْرٍ فَلِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
     "textSimple": "يسـٔلونك ماذا ينفقون  قل مآ أنفقتم من خير فللولدين وٱلأقربين وٱليتـمى وٱلمسـكين وٱبن ٱلسبيل  وما تفعلوا من خير فإن ٱلله به عليم",
     "transliteration": "yasalūnaka mādhā yunfiqūna qul mā anfaqtum min khayrin falil'wālidayni wal-aqrabīna wal-yatāmā wal-masākīni wa-ib'ni l-sabīli wamā tafʿalū min khayrin fa-inna l-laha bihi ʿalīmun",
-    "translation": "",
+    "translation": "They ask you, [O Muḥammad], what they should spend. Say, \"Whatever you spend of good is [to be] for parents and relatives and orphans and the needy and the traveler. And whatever you do of good - indeed, Allāh is Knowing of it.\"",
     "words": [
       {
         "id": "al-baqarah-215-1",
@@ -30911,7 +31125,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent à propos de ce qu’ils doivent dépenser. Dis : « Ce que vous dépensez en bien sera au profit des deux parents, des proches, des orphelins, des pauvres et des voyageurs de grand chemin. Et tout ce que vous faites comme bien, Allah certainement le Sait. »"
   },
   {
     "id": "al-baqarah-216",
@@ -30920,7 +31135,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "كُتِبَ عَلَيْكُمُ ٱلْقِتَالُ وَهُوَ كُرْهٌ لَّكُمْ ۖ وَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا وَهُوَ خَيْرٌ لَّكُمْ ۖ وَعَسَىٰٓ أَن تُحِبُّوا۟ شَيْـًٔا وَهُوَ شَرٌّ لَّكُمْ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
     "textSimple": "كتب عليكم ٱلقتال وهو كره لكم  وعسىٓ أن تكرهوا شيـٔا وهو خير لكم  وعسىٓ أن تحبوا شيـٔا وهو شر لكم  وٱلله يعلم وأنتم لا تعلمون",
     "transliteration": "kutiba ʿalaykumu l-qitālu wahuwa kur'hun lakum waʿasā an takrahū shayan wahuwa khayrun lakum waʿasā an tuḥibbū shayan wahuwa sharrun lakum wal-lahu yaʿlamu wa-antum lā taʿlamūna",
-    "translation": "",
+    "translation": "Battle has been enjoined upon you while it is hateful to you. But perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you. And Allāh knows, while you know not.",
     "words": [
       {
         "id": "al-baqarah-216-1",
@@ -31098,7 +31313,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le combat vous a été prescrit quoique vous le haïssiez. Or peut-être haïssez-vous une chose alors qu’elle est pour vous un bien et peut-être aimez-vous une chose alors qu’elle est pour vous un mal. Puis c’est Allah Qui Sait, et c’est vous qui ne savez pas."
   },
   {
     "id": "al-baqarah-217",
@@ -31107,7 +31323,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُونَكَ عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍ فِيهِ ۖ قُلْ قِتَالٌ فِيهِ كَبِيرٌ ۖ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفْرٌۢ بِهِۦ وَٱلْمَسْجِدِ ٱلْحَرَامِ وَإِخْرَاجُ أَهْلِهِۦ مِنْهُ أَكْبَرُ عِندَ ٱللَّهِ ۚ وَٱلْفِتْنَةُ أَكْبَرُ مِنَ ٱلْقَتْلِ ۗ وَلَا يَزَالُونَ يُقَـٰتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَن دِينِكُمْ إِنِ ٱسْتَطَـٰعُوا۟ ۚ وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِۦ فَيَمُتْ وَهُوَ كَافِرٌ فَأُو۟لَـٰٓئِكَ حَبِطَتْ أَعْمَـٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ وَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "يسـٔلونك عن ٱلشهر ٱلحرام قتال فيه  قل قتال فيه كبير  وصد عن سبيل ٱلله وكفر به وٱلمسجد ٱلحرام وإخراج أهله منه أكبر عند ٱلله  وٱلفتنة أكبر من ٱلقتل  ولا يزالون يقـتلونكم حتى يردوكم عن دينكم إن ٱستطـعوا  ومن يرتدد منكم عن دينه فيمت وهو كافر فأولـٓئك حبطت أعمـلهم فى ٱلدنيا وٱلـٔاخرة  وأولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "yasalūnaka ʿani l-shahri l-ḥarāmi qitālin fīhi qul qitālun fīhi kabīrun waṣaddun ʿan sabīli l-lahi wakuf'run bihi wal-masjidi l-ḥarāmi wa-ikh'rāju ahlihi min'hu akbaru ʿinda l-lahi wal-fit'natu akbaru mina l-qatli walā yazālūna yuqātilūnakum ḥattā yaruddūkum ʿan dīnikum ini is'taṭāʿū waman yartadid minkum ʿan dīnihi fayamut wahuwa kāfirun fa-ulāika ḥabiṭat aʿmāluhum fī l-dun'yā wal-ākhirati wa-ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "They ask you about the sacred month - about fighting therein. Say, \"Fighting therein is great [sin], but averting [people] from the way of Allāh and disbelief in Him and [preventing access to] al-Masjid al-Ḥarām and the expulsion of its people therefrom are greater [evil] in the sight of Allāh. And fitnah is greater than killing.\" And they will continue to fight you until they turn you back from your religion if they are able. And whoever of you reverts from his religion [to disbelief] and dies while he is a disbeliever - for those, their deeds have become worthless in this world and the Hereafter, and those are the companions of the Fire; they will abide therein eternally.",
     "words": [
       {
         "id": "al-baqarah-217-1",
@@ -31509,7 +31725,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 56
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent à propos du mois sacré et (se demandent) si le combat y est permis. Dis : « Le combat y est un péché majeur mais, plus grave encore que le meurtre est (le péché) d’entraver le passage vers le chemin d’Allah, de mécroire en Lui, de (profaner) la Mosquée Sacrée et d’en expulser les habitants. L’associâtrie est plus terrible que la tuerie. » Ils n’arrêteront pas de vous combattre jusqu’à ce qu’ils vous fassent, s’ils peuvent, apostasier votre religion. Or celui qui d’entre vous apostasie sa religion et meurt en mécréant, nulles seront ses œuvres en ce bas monde et dans l’autre. Ceux-là sont les hôtes du Feu, où ils séjourneront pour l’éternité."
   },
   {
     "id": "al-baqarah-218",
@@ -31518,7 +31735,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَاجَرُوا۟ وَجَـٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَـٰٓئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "إن ٱلذين ءامنوا وٱلذين هاجروا وجـهدوا فى سبيل ٱلله أولـٓئك يرجون رحمت ٱلله  وٱلله غفور رحيم",
     "transliteration": "inna alladhīna āmanū wa-alladhīna hājarū wajāhadū fī sabīli l-lahi ulāika yarjūna raḥmata l-lahi wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Indeed, those who have believed and those who have emigrated and fought in the cause of Allāh - those expect the mercy of Allāh. And Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-baqarah-218-1",
@@ -31633,7 +31850,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru, qui ont émigré et lutté pour la cause d’Allah, ceux-là espèrent la miséricorde d’Allah. Car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-219",
@@ -31642,7 +31860,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَسْـَٔلُونَكَ عَنِ ٱلْخَمْرِ وَٱلْمَيْسِرِ ۖ قُلْ فِيهِمَآ إِثْمٌ كَبِيرٌ وَمَنَـٰفِعُ لِلنَّاسِ وَإِثْمُهُمَآ أَكْبَرُ مِن نَّفْعِهِمَا ۗ وَيَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ قُلِ ٱلْعَفْوَ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
     "textSimple": " يسـٔلونك عن ٱلخمر وٱلميسر  قل فيهمآ إثم كبير ومنـفع للناس وإثمهمآ أكبر من نفعهما  ويسـٔلونك ماذا ينفقون قل ٱلعفو  كذلك يبين ٱلله لكم ٱلـٔايـت لعلكم تتفكرون",
     "transliteration": "yasalūnaka ʿani l-khamri wal-maysiri qul fīhimā ith'mun kabīrun wamanāfiʿu lilnnāsi wa-ith'muhumā akbaru min nafʿihimā wayasalūnaka mādhā yunfiqūna quli l-ʿafwa kadhālika yubayyinu l-lahu lakumu l-āyāti laʿallakum tatafakkarūna",
-    "translation": "",
+    "translation": "They ask you about wine and gambling. Say, \"In them is great sin and [yet, some] benefit for people. But their sin is greater than their benefit.\" And they ask you what they should spend. Say, \"The excess [beyond needs].\" Thus Allāh makes clear to you the verses [of revelation] that you might give thought",
     "words": [
       {
         "id": "al-baqarah-219-1",
@@ -31827,7 +32045,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent sur le vin et les jeux de hasard (maysir). Dis : « Il y a dans les deux un grand péché et certains profits pour les hommes. Mais leur péché est plus grand encore que leur profit. » Et ils t’interrogent à propos de ce qu’ils doivent donner en aumône. Dis : « Ce que vous possédez en excès. » C’est ainsi qu’Allah vous expose clairement Ses versets, afin que vous méditiez"
   },
   {
     "id": "al-baqarah-220",
@@ -31836,7 +32055,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۗ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَـٰمَىٰ ۖ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ ۖ وَإِن تُخَالِطُوهُمْ فَإِخْوَٰنُكُمْ ۚ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ ۚ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
     "textSimple": "فى ٱلدنيا وٱلـٔاخرة  ويسـٔلونك عن ٱليتـمى  قل إصلاح لهم خير  وإن تخالطوهم فإخونكم  وٱلله يعلم ٱلمفسد من ٱلمصلح  ولو شآء ٱلله لأعنتكم  إن ٱلله عزيز حكيم",
     "transliteration": "fī l-dun'yā wal-ākhirati wayasalūnaka ʿani l-yatāmā qul iṣ'lāḥun lahum khayrun wa-in tukhāliṭūhum fa-ikh'wānukum wal-lahu yaʿlamu l-muf'sida mina l-muṣ'liḥi walaw shāa l-lahu la-aʿnatakum inna l-laha ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "To this world and the Hereafter. And they ask you about orphans. Say, \"Improvement for them is best. And if you mix your affairs with theirs - they are your brothers. And Allāh knows the corrupter from the amender. And if Allāh had willed, He could have put you in difficulty. Indeed, Allāh is Exalted in Might and Wise.\"",
     "words": [
       {
         "id": "al-baqarah-220-1",
@@ -32021,7 +32240,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sur ce bas monde et sur l’autre monde. Ils t’interrogent enfin sur les orphelins. Dis : « Agir pour leur bien c’est ce qu’il y a de mieux (à faire). Et si vous mêlez (vos biens) aux leurs, ils sont alors vos frères. » Allah Sait qui est le corrupteur et qui est le bienfaiteur. Et s’Il l’avait voulu, Allah vous aurait accablés, car Allah est Tout- Puissant et Sage."
   },
   {
     "id": "al-baqarah-221",
@@ -32030,7 +32250,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَنكِحُوا۟ ٱلْمُشْرِكَـٰتِ حَتَّىٰ يُؤْمِنَّ ۚ وَلَأَمَةٌ مُّؤْمِنَةٌ خَيْرٌ مِّن مُّشْرِكَةٍ وَلَوْ أَعْجَبَتْكُمْ ۗ وَلَا تُنكِحُوا۟ ٱلْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا۟ ۚ وَلَعَبْدٌ مُّؤْمِنٌ خَيْرٌ مِّن مُّشْرِكٍ وَلَوْ أَعْجَبَكُمْ ۗ أُو۟لَـٰٓئِكَ يَدْعُونَ إِلَى ٱلنَّارِ ۖ وَٱللَّهُ يَدْعُوٓا۟ إِلَى ٱلْجَنَّةِ وَٱلْمَغْفِرَةِ بِإِذْنِهِۦ ۖ وَيُبَيِّنُ ءَايَـٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": "ولا تنكحوا ٱلمشركـت حتى يؤمن  ولأمة مؤمنة خير من مشركة ولو أعجبتكم  ولا تنكحوا ٱلمشركين حتى يؤمنوا  ولعبد مؤمن خير من مشرك ولو أعجبكم  أولـٓئك يدعون إلى ٱلنار  وٱلله يدعوٓا إلى ٱلجنة وٱلمغفرة بإذنه  ويبين ءايـته للناس لعلهم يتذكرون",
     "transliteration": "walā tankiḥū l-mush'rikāti ḥattā yu'minna wala-amatun mu'minatun khayrun min mush'rikatin walaw aʿjabatkum walā tunkiḥū l-mush'rikīna ḥattā yu'minū walaʿabdun mu'minun khayrun min mush'rikin walaw aʿjabakum ulāika yadʿūna ilā l-nāri wal-lahu yadʿū ilā l-janati wal-maghfirati bi-idh'nihi wayubayyinu āyātihi lilnnāsi laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "And do not marry polytheistic women until they believe. And a believing slave woman is better than a polytheist, even though she might please you. And do not marry polytheistic men [to your women] until they believe. And a believing slave is better than a polytheist, even though he might please you. Those invite [you] to the Fire, but Allāh invites to Paradise and to forgiveness, by His permission. And He makes clear His verses [i.e., ordinances] to the people that perhaps they may remember.",
     "words": [
       {
         "id": "al-baqarah-221-1",
@@ -32306,7 +32526,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’épousez pas les (femmes) associâtres avant qu’elles n’aient cru. Une esclave croyante vaut en effet mieux qu’une associâtre, même si celle-ci vous plaît. Ne donnez pas (vos femmes en) épouses aux associâtres avant qu’ils n’aient cru. Un esclave croyant vaut en effet mieux qu’un associâtre, même si celui-ci vous plaît. Ceux-là appellent vers le Feu alors qu’Allah appelle, par Sa permission, vers le Paradis et le pardon. Et Il expose clairement Ses Signes aux hommes afin qu’ils se rappellent."
   },
   {
     "id": "al-baqarah-222",
@@ -32315,7 +32536,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ",
     "textSimple": "ويسـٔلونك عن ٱلمحيض  قل هو أذى فٱعتزلوا ٱلنسآء فى ٱلمحيض  ولا تقربوهن حتى يطهرن  فإذا تطهرن فأتوهن من حيث أمركم ٱلله  إن ٱلله يحب ٱلتوبين ويحب ٱلمتطهرين",
     "transliteration": "wayasalūnaka ʿani l-maḥīḍi qul huwa adhan fa-iʿ'tazilū l-nisāa fī l-maḥīḍi walā taqrabūhunna ḥattā yaṭhur'na fa-idhā taṭahharna fatūhunna min ḥaythu amarakumu l-lahu inna l-laha yuḥibbu l-tawābīna wayuḥibbu l-mutaṭahirīna",
-    "translation": "",
+    "translation": "And they ask you about menstruation. Say, \"It is harm, so keep away from wives during menstruation. And do not approach them until they are pure. And when they have purified themselves, then come to them from where Allāh has ordained for you. Indeed, Allāh loves those who are constantly repentant and loves those who purify themselves.\"",
     "words": [
       {
         "id": "al-baqarah-222-1",
@@ -32507,7 +32728,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils t’interrogent sur la menstruation (des femmes). Dis : « Cela est nuisible (à votre santé). Éloignez-vous donc des femmes pendant la crise menstruelle et ne les approchez que lorsqu’elles redeviendront pures. Alors, une fois qu’elles seront redevenues pures, reprenez vos rapports intimes avec elles selon ce qu’Allah vous a ordonné. Allah aime les repentants et Il aime ceux qui s’emploient à se purifier."
   },
   {
     "id": "al-baqarah-223",
@@ -32516,7 +32738,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "نِسَآؤُكُمْ حَرْثٌ لَّكُمْ فَأْتُوا۟ حَرْثَكُمْ أَنَّىٰ شِئْتُمْ ۖ وَقَدِّمُوا۟ لِأَنفُسِكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُم مُّلَـٰقُوهُ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
     "textSimple": "نسآؤكم حرث لكم فأتوا حرثكم أنى شئتم  وقدموا لأنفسكم  وٱتقوا ٱلله وٱعلموٓا أنكم ملـقوه  وبشر ٱلمؤمنين",
     "transliteration": "nisāukum ḥarthun lakum fatū ḥarthakum annā shi'tum waqaddimū li-anfusikum wa-ittaqū l-laha wa-iʿ'lamū annakum mulāqūhu wabashiri l-mu'minīna",
-    "translation": "",
+    "translation": "Your wives are a place of cultivation [i.e., sowing of seed] for you, so come to your place of cultivation however you wish and put forth [righteousness] for yourselves. And fear Allāh and know that you will meet Him. And give good tidings to the believers.",
     "words": [
       {
         "id": "al-baqarah-223-1",
@@ -32631,7 +32853,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos femmes sont pour vous un champ à labourer. Alors, abordez votre (champ de) labour où et quand vous voulez. Avancez (les bonnes œuvres) dans votre propre intérêt. Craignez Allah et sachez que vous allez Le rencontrer. Et annonce l’heureuse nouvelle aux croyants !"
   },
   {
     "id": "al-baqarah-224",
@@ -32640,7 +32863,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَجْعَلُوا۟ ٱللَّهَ عُرْضَةً لِّأَيْمَـٰنِكُمْ أَن تَبَرُّوا۟ وَتَتَّقُوا۟ وَتُصْلِحُوا۟ بَيْنَ ٱلنَّاسِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
     "textSimple": "ولا تجعلوا ٱلله عرضة لأيمـنكم أن تبروا وتتقوا وتصلحوا بين ٱلناس  وٱلله سميع عليم",
     "transliteration": "walā tajʿalū l-laha ʿur'ḍatan li-aymānikum an tabarrū watattaqū watuṣ'liḥū bayna l-nāsi wal-lahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "And do not make [your oath by] Allāh an excuse against being righteous and fearing Allāh and making peace among people. And Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-224-1",
@@ -32741,7 +32964,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne faites pas du nom d’Allah un prétexte à vos serments pour vous dispenser d’être bienfaisants, d’avoir la piété et de réconcilier les gens. Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "al-baqarah-225",
@@ -32750,7 +32974,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَـٰنِكُمْ وَلَـٰكِن يُؤَاخِذُكُم بِمَا كَسَبَتْ قُلُوبُكُمْ ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌ",
     "textSimple": "لا يؤاخذكم ٱلله بٱللغو فىٓ أيمـنكم ولـكن يؤاخذكم بما كسبت قلوبكم  وٱلله غفور حليم",
     "transliteration": "lā yuākhidhukumu l-lahu bil-laghwi fī aymānikum walākin yuākhidhukum bimā kasabat qulūbukum wal-lahu ghafūrun ḥalīmun",
-    "translation": "",
+    "translation": "Allāh does not impose blame upon you for what is unintentional in your oaths, but He imposes blame upon you for what your hearts have earned. And Allāh is Forgiving and Forbearing.",
     "words": [
       {
         "id": "al-baqarah-225-1",
@@ -32851,7 +33075,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne vous reprochera pas les expressions abusives dans vos serments mais vous reprochera ce que vos cœurs ont acquis. Allah est Absoluteur et Longanime."
   },
   {
     "id": "al-baqarah-226",
@@ -32860,7 +33085,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "للذين يؤلون من نسآئهم تربص أربعة أشهر  فإن فآءو فإن ٱلله غفور رحيم",
     "transliteration": "lilladhīna yu'lūna min nisāihim tarabbuṣu arbaʿati ashhurin fa-in fāū fa-inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "For those who swear not to have sexual relations with their wives is a waiting time of four months, but if they return [to normal relations] - then indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-baqarah-226-1",
@@ -32954,7 +33179,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour ceux qui font serment de ne plus approcher leurs femmes, un délai de quatre mois est fixé (pour se rétracter). Et s’ils se rétractent, alors Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-baqarah-227",
@@ -32963,7 +33189,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنْ عَزَمُوا۟ ٱلطَّلَـٰقَ فَإِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
     "textSimple": "وإن عزموا ٱلطلـق فإن ٱلله سميع عليم",
     "transliteration": "wa-in ʿazamū l-ṭalāqa fa-inna l-laha samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "And if they decide on divorce - then indeed, Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-227-1",
@@ -33015,7 +33241,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si (au contraire) ils décident le divorce, alors Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "al-baqarah-228",
@@ -33024,7 +33251,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْمُطَلَّقَـٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَـٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَـٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
     "textSimple": "وٱلمطلقـت يتربصن بأنفسهن ثلـثة قروٓء  ولا يحل لهن أن يكتمن ما خلق ٱلله فىٓ أرحامهن إن كن يؤمن بٱلله وٱليوم ٱلـٔاخر  وبعولتهن أحق بردهن فى ذلك إن أرادوٓا إصلـحا  ولهن مثل ٱلذى عليهن بٱلمعروف  وللرجال عليهن درجة  وٱلله عزيز حكيم",
     "transliteration": "wal-muṭalaqātu yatarabbaṣna bi-anfusihinna thalāthata qurūin walā yaḥillu lahunna an yaktum'na mā khalaqa l-lahu fī arḥāmihinna in kunna yu'minna bil-lahi wal-yawmi l-ākhiri wabuʿūlatuhunna aḥaqqu biraddihinna fī dhālika in arādū iṣ'lāḥan walahunna mith'lu alladhī ʿalayhinna bil-maʿrūfi walilrrijāli ʿalayhinna darajatun wal-lahu ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "Divorced women remain in waiting [i.e., do not remarry] for three periods, and it is not lawful for them to conceal what Allāh has created in their wombs if they believe in Allāh and the Last Day. And their husbands have more right to take them back in this [period] if they want reconciliation. And due to them [i.e., the wives] is similar to what is expected of them, according to what is reasonable. But the men [i.e., husbands] have a degree over them [in responsibility and authority]. And Allāh is Exalted in Might and Wise.",
     "words": [
       {
         "id": "al-baqarah-228-1",
@@ -33307,7 +33534,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les divorcées doivent attendre que trois cycles menstruels se soient écoulés; et il n’est nullement licite pour elles de taire ce qu’Allah a créé dans leurs matrices, si elles croient en Allah et au Jour Dernier. Leurs époux, entre-temps, ont plein droit de les reprendre s’ils souhaitent une réconciliation. Les femmes, quant à elles, ont des droits comme elles ont des obligations, conformément aux bienséances. Les hommes, cependant, leur sont d’un cran supérieurs ; et Allah est Tout- Puissant et Sage."
   },
   {
     "id": "al-baqarah-229",
@@ -33316,7 +33544,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلطَّلَـٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَـٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "ٱلطلـق مرتان  فإمساك بمعروف أو تسريح بإحسـن  ولا يحل لكم أن تأخذوا ممآ ءاتيتموهن شيـٔا إلآ أن يخافآ ألا يقيما حدود ٱلله  فإن خفتم ألا يقيما حدود ٱلله فلا جناح عليهما فيما ٱفتدت به  تلك حدود ٱلله فلا تعتدوها  ومن يتعد حدود ٱلله فأولـٓئك هم ٱلظـلمون",
     "transliteration": "al-ṭalāqu marratāni fa-im'sākun bimaʿrūfin aw tasrīḥun bi-iḥ'sānin walā yaḥillu lakum an takhudhū mimmā ātaytumūhunna shayan illā an yakhāfā allā yuqīmā ḥudūda l-lahi fa-in khif'tum allā yuqīmā ḥudūda l-lahi falā junāḥa ʿalayhimā fīmā if'tadat bihi til'ka ḥudūdu l-lahi falā taʿtadūhā waman yataʿadda ḥudūda l-lahi fa-ulāika humu l-ẓālimūna",
-    "translation": "",
+    "translation": "Divorce is twice. Then [after that], either keep [her] in an acceptable manner or release [her] with good treatment. And it is not lawful for you to take anything of what you have given them unless both fear that they will not be able to keep [within] the limits of Allāh. But if you fear that they will not keep [within] the limits of Allāh, then there is no blame upon either of them concerning that by which she ransoms herself. These are the limits of Allāh, so do not transgress them. And whoever transgresses the limits of Allāh - it is those who are the wrongdoers [i.e., the unjust].",
     "words": [
       {
         "id": "al-baqarah-229-1",
@@ -33641,7 +33869,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 45
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le divorce est (prononcé) deux fois, puis c’est soit le maintien avec les égards, soit la libération avec bonté. Il ne vous est pas permis de reprendre quoi que ce soit de ce que vous leur avez offert (comme dot et comme présents), sauf si les deux conjoints craignent de ne pas observer les limites d’Allah. Alors, si vous craignez qu’ils n’observent point les limites d’Allah, il n’y aura pas péché si la femme rachète sa liberté (par une partie de sa dot). Ce sont là les limites d’Allah. Alors ne les enfreignez pas. Car ceux qui enfreignent les limites d’Allah, ceux-là sont les injustes."
   },
   {
     "id": "al-baqarah-230",
@@ -33650,7 +33879,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ ۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ ۗ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
     "textSimple": "فإن طلقها فلا تحل له من بعد حتى تنكح زوجا غيره  فإن طلقها فلا جناح عليهمآ أن يتراجعآ إن ظنآ أن يقيما حدود ٱلله  وتلك حدود ٱلله يبينها لقوم يعلمون",
     "transliteration": "fa-in ṭallaqahā falā taḥillu lahu min baʿdu ḥattā tankiḥa zawjan ghayrahu fa-in ṭallaqahā falā junāḥa ʿalayhimā an yatarājaʿā in ẓannā an yuqīmā ḥudūda l-lahi watil'ka ḥudūdu l-lahi yubayyinuhā liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "And if he has divorced her [for the third time], then she is not lawful to him afterward until [after] she marries a husband other than him. And if he [i.e., the latter husband] divorces her [or dies], there is no blame upon them [i.e., the woman and her former husband] for returning to each other if they think that they can keep [within] the limits of Allāh. These are the limits of Allāh, which He makes clear to a people who know [i.e.,understand].",
     "words": [
       {
         "id": "al-baqarah-230-1",
@@ -33863,7 +34092,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’il divorce d’avec elle, elle ne lui est plus licite jusqu’à ce qu’elle en épouse un autre. Et si celui-ci divorce d’avec elle, le (premier) couple ne commet aucun péché à revenir (à la vie conjugale), pourvu que les deux conjoints pensent pouvoir observer les limites d’Allah. Telles sont donc les limites d’Allah qu’Il expose clairement à un peuple qui sait."
   },
   {
     "id": "al-baqarah-231",
@@ -33872,7 +34102,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ ءَايَـٰتِ ٱللَّهِ هُزُوًا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَـٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "وإذا طلقتم ٱلنسآء فبلغن أجلهن فأمسكوهن بمعروف أو سرحوهن بمعروف  ولا تمسكوهن ضرارا لتعتدوا  ومن يفعل ذلك فقد ظلم نفسه  ولا تتخذوٓا ءايـت ٱلله هزوا  وٱذكروا نعمت ٱلله عليكم ومآ أنزل عليكم من ٱلكتـب وٱلحكمة يعظكم به  وٱتقوا ٱلله وٱعلموٓا أن ٱلله بكل شىء عليم",
     "transliteration": "wa-idhā ṭallaqtumu l-nisāa fabalaghna ajalahunna fa-amsikūhunna bimaʿrūfin aw sarriḥūhunna bimaʿrūfin walā tum'sikūhunna ḍirāran litaʿtadū waman yafʿal dhālika faqad ẓalama nafsahu walā tattakhidhū āyāti l-lahi huzuwan wa-udh'kurū niʿ'mata l-lahi ʿalaykum wamā anzala ʿalaykum mina l-kitābi wal-ḥik'mati yaʿiẓukum bihi wa-ittaqū l-laha wa-iʿ'lamū anna l-laha bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "And when you divorce women and they have [nearly] fulfilled their term, either retain them according to acceptable terms or release them according to acceptable terms, and do not keep them, intending harm, to transgress [against them]. And whoever does that has certainly wronged himself. And do not take the verses of Allāh in jest. And remember the favor of Allāh upon you and what has been revealed to you of the Book [i.e., the Qur’ān] and wisdom [i.e., the Prophet's sunnah] by which He instructs you. And fear Allāh and know that Allāh is Knowing of all things.",
     "words": [
       {
         "id": "al-baqarah-231-1",
@@ -34190,7 +34420,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 44
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une fois que vous aurez divorcé d’avec vos femmes et qu’elles auront atteint le terme de leur délai, retenez-les avec bonté ou libérez-les avec bonté. Ne les retenez point avec la mauvaise intention de leur faire du tort. Celui qui agit de la sorte se lèse lui-même. Ne prenez pas les versets d’Allah pour objets de dérision. Évoquez la grâce dont Allah vous a comblés, et le Livre et la Sagesse qu’Il a fait descendre sur vous en guise d’enseignement. Et craignez Allah, car Allah Sait parfaitement Toute chose."
   },
   {
     "id": "al-baqarah-232",
@@ -34199,7 +34430,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَلَا تَعْضُلُوهُنَّ أَن يَنكِحْنَ أَزْوَٰجَهُنَّ إِذَا تَرَٰضَوْا۟ بَيْنَهُم بِٱلْمَعْرُوفِ ۗ ذَٰلِكَ يُوعَظُ بِهِۦ مَن كَانَ مِنكُمْ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۗ ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
     "textSimple": "وإذا طلقتم ٱلنسآء فبلغن أجلهن فلا تعضلوهن أن ينكحن أزوجهن إذا ترضوا بينهم بٱلمعروف  ذلك يوعظ به من كان منكم يؤمن بٱلله وٱليوم ٱلـٔاخر  ذلكم أزكى لكم وأطهر  وٱلله يعلم وأنتم لا تعلمون",
     "transliteration": "wa-idhā ṭallaqtumu l-nisāa fabalaghna ajalahunna falā taʿḍulūhunna an yankiḥ'na azwājahunna idhā tarāḍaw baynahum bil-maʿrūfi dhālika yūʿaẓu bihi man kāna minkum yu'minu bil-lahi wal-yawmi l-ākhiri dhālikum azkā lakum wa-aṭharu wal-lahu yaʿlamu wa-antum lā taʿlamūna",
-    "translation": "",
+    "translation": "And when you divorce women and they have fulfilled their term, do not prevent them from remarrying their [former] husbands if they [i.e., all parties] agree among themselves on an acceptable basis. That is instructed to whoever of you believes in Allāh and the Last Day. That is better for you and purer, and Allāh knows and you know not.",
     "words": [
       {
         "id": "al-baqarah-232-1",
@@ -34433,7 +34664,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une fois que vous aurez divorcé d’avec vos femmes et qu’elles auront atteint le terme de leur délai, ne les empêchez point de se remarier avec leurs anciens époux si le couple s’est réconcilié conformément aux bienséances. Telle est la leçon enseignée à celui qui d’entre vous croit en Allah et au Jour Dernier. Cela est plus décent pour vous, et plus pur. Allah certes Sait et vous ne savez pas."
   },
   {
     "id": "al-baqarah-233",
@@ -34442,7 +34674,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱلْوَٰلِدَٰتُ يُرْضِعْنَ أَوْلَـٰدَهُنَّ حَوْلَيْنِ كَامِلَيْنِ ۖ لِمَنْ أَرَادَ أَن يُتِمَّ ٱلرَّضَاعَةَ ۚ وَعَلَى ٱلْمَوْلُودِ لَهُۥ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِٱلْمَعْرُوفِ ۚ لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا ۚ لَا تُضَآرَّ وَٰلِدَةٌۢ بِوَلَدِهَا وَلَا مَوْلُودٌ لَّهُۥ بِوَلَدِهِۦ ۚ وَعَلَى ٱلْوَارِثِ مِثْلُ ذَٰلِكَ ۗ فَإِنْ أَرَادَا فِصَالًا عَن تَرَاضٍ مِّنْهُمَا وَتَشَاوُرٍ فَلَا جُنَاحَ عَلَيْهِمَا ۗ وَإِنْ أَرَدتُّمْ أَن تَسْتَرْضِعُوٓا۟ أَوْلَـٰدَكُمْ فَلَا جُنَاحَ عَلَيْكُمْ إِذَا سَلَّمْتُم مَّآ ءَاتَيْتُم بِٱلْمَعْرُوفِ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": " وٱلولدت يرضعن أولـدهن حولين كاملين  لمن أراد أن يتم ٱلرضاعة  وعلى ٱلمولود له رزقهن وكسوتهن بٱلمعروف  لا تكلف نفس إلا وسعها  لا تضآر ولدة بولدها ولا مولود له بولده  وعلى ٱلوارث مثل ذلك  فإن أرادا فصالا عن تراض منهما وتشاور فلا جناح عليهما  وإن أردتم أن تسترضعوٓا أولـدكم فلا جناح عليكم إذا سلمتم مآ ءاتيتم بٱلمعروف  وٱتقوا ٱلله وٱعلموٓا أن ٱلله بما تعملون بصير",
     "transliteration": "wal-wālidātu yur'ḍiʿ'na awlādahunna ḥawlayni kāmilayni liman arāda an yutimma l-raḍāʿata waʿalā l-mawlūdi lahu riz'quhunna wakis'watuhunna bil-maʿrūfi lā tukallafu nafsun illā wus'ʿahā lā tuḍārra wālidatun biwaladihā walā mawlūdun lahu biwaladihi waʿalā l-wārithi mith'lu dhālika fa-in arādā fiṣālan ʿan tarāḍin min'humā watashāwurin falā junāḥa ʿalayhimā wa-in aradttum an tastarḍiʿū awlādakum falā junāḥa ʿalaykum idhā sallamtum mā ātaytum bil-maʿrūfi wa-ittaqū l-laha wa-iʿ'lamū anna l-laha bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "Mothers may nurse [i.e., breastfeed] their children two complete years for whoever wishes to complete the nursing [period]. Upon the father is their [i.e., the mothers'] provision and their clothing according to what is acceptable. No person is charged with more than his capacity. No mother should be harmed through her child, and no father through his child. And upon the [father's] heir is [a duty] like that [of the father]. And if they both desire weaning through mutual consent from both of them and consultation, there is no blame upon either of them. And if you wish to have your children nursed by a substitute, there is no blame upon you as long as you give payment according to what is acceptable. And fear Allāh and know that Allāh is Seeing of what you do.",
     "words": [
       {
         "id": "al-baqarah-233-1",
@@ -34893,7 +35125,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 63
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les mères qui voudraient mener l’allaitement à son terme allaiteront leurs enfants deux années entières. Au père (de l’enfant), il incombe de les nourrir et de les vêtir convenablement. Nul n’est tenu de supporter au-delà de ses moyens. La mère n’a pas à se nuire à cause de son enfant, pas plus que le père (à cause) de son enfant. À l’héritier, il incombe la même chose. Si, après concertation, les deux (conjoints) décident le sevrage (de leur enfant), il ne leur sera fait aucun grief. Et si vous souhaitez confier vos enfants à une nourrice, il ne vous sera fait, non plus, aucun grief, pourvu que vous remettiez ce qui est dû dans les règles convenues. Craignez Allah, et sachez qu’Allah Voit absolument ce que vous faites."
   },
   {
     "id": "al-baqarah-234",
@@ -34902,7 +35135,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًا يَتَرَبَّصْنَ بِأَنفُسِهِنَّ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ۖ فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَلَا جُنَاحَ عَلَيْكُمْ فِيمَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ بِٱلْمَعْرُوفِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "وٱلذين يتوفون منكم ويذرون أزوجا يتربصن بأنفسهن أربعة أشهر وعشرا  فإذا بلغن أجلهن فلا جناح عليكم فيما فعلن فىٓ أنفسهن بٱلمعروف  وٱلله بما تعملون خبير",
     "transliteration": "wa-alladhīna yutawaffawna minkum wayadharūna azwājan yatarabbaṣna bi-anfusihinna arbaʿata ashhurin waʿashran fa-idhā balaghna ajalahunna falā junāḥa ʿalaykum fīmā faʿalna fī anfusihinna bil-maʿrūfi wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "And those who are taken in death among you and leave wives behind - they, [the wives, shall] wait four months and ten [days]. And when they have fulfilled their term, then there is no blame upon you for what they do with themselves in an acceptable manner. And Allāh is [fully] Aware of what you do.",
     "words": [
       {
         "id": "al-baqarah-234-1",
@@ -35080,7 +35313,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Lorsque) ceux qui des vôtres décèdent et laissent des épouses, ces dernières doivent se donner un délai de quatre mois et dix jours. Lorsqu’elles auront atteint le terme de leur délai, il ne vous sera pas reproché qu’elles disposent d’elles-mêmes conformément aux bienséances. Et Allah est, de ce que vous faites, parfaitement Informé."
   },
   {
     "id": "al-baqarah-235",
@@ -35089,7 +35323,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَـٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَـٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
     "textSimple": "ولا جناح عليكم فيما عرضتم به من خطبة ٱلنسآء أو أكننتم فىٓ أنفسكم  علم ٱلله أنكم ستذكرونهن ولـكن لا تواعدوهن سرا إلآ أن تقولوا قولا معروفا  ولا تعزموا عقدة ٱلنكاح حتى يبلغ ٱلكتـب أجله  وٱعلموٓا أن ٱلله يعلم ما فىٓ أنفسكم فٱحذروه  وٱعلموٓا أن ٱلله غفور حليم",
     "transliteration": "walā junāḥa ʿalaykum fīmā ʿarraḍtum bihi min khiṭ'bati l-nisāi aw aknantum fī anfusikum ʿalima l-lahu annakum satadhkurūnahunna walākin lā tuwāʿidūhunna sirran illā an taqūlū qawlan maʿrūfan walā taʿzimū ʿuq'data l-nikāḥi ḥattā yablugha l-kitābu ajalahu wa-iʿ'lamū anna l-laha yaʿlamu mā fī anfusikum fa-iḥ'dharūhu wa-iʿ'lamū anna l-laha ghafūrun ḥalīmun",
-    "translation": "",
+    "translation": "There is no blame upon you for that to which you [indirectly] allude concerning a proposal to women or for what you conceal within yourselves. Allāh knows that you will have them in mind. But do not promise them secretly except for saying a proper saying. And do not determine to undertake a marriage contract until the decreed period reaches its end. And know that Allāh knows what is within yourselves, so beware of Him. And know that Allāh is Forgiving and Forbearing.",
     "words": [
       {
         "id": "al-baqarah-235-1",
@@ -35421,7 +35655,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 46
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il ne vous sera pas reproché de faire indirectement allusion au mariage devant les femmes. Non plus, si vous le projetez dans le secret du cœur. Allah Sait que vous penserez à elles. Cependant, ne leur faites point de promesses secrètes, sauf à leur tenir des propos décents. Ne vous décidez pas à conclure le mariage avant que le délai prescrit ne soit arrivé à son terme. Et sachez qu’Allah Sait ce qu’il y a au fond de vous-mêmes. Prenez donc garde à Lui, et sachez qu’Allah est Absoluteur et Longanime."
   },
   {
     "id": "al-baqarah-236",
@@ -35430,7 +35665,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا جُنَاحَ عَلَيْكُمْ إِن طَلَّقْتُمُ ٱلنِّسَآءَ مَا لَمْ تَمَسُّوهُنَّ أَوْ تَفْرِضُوا۟ لَهُنَّ فَرِيضَةً ۚ وَمَتِّعُوهُنَّ عَلَى ٱلْمُوسِعِ قَدَرُهُۥ وَعَلَى ٱلْمُقْتِرِ قَدَرُهُۥ مَتَـٰعًۢا بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُحْسِنِينَ",
     "textSimple": "لا جناح عليكم إن طلقتم ٱلنسآء ما لم تمسوهن أو تفرضوا لهن فريضة  ومتعوهن على ٱلموسع قدره وعلى ٱلمقتر قدره متـعا بٱلمعروف  حقا على ٱلمحسنين",
     "transliteration": "lā junāḥa ʿalaykum in ṭallaqtumu l-nisāa mā lam tamassūhunna aw tafriḍū lahunna farīḍatan wamattiʿūhunna ʿalā l-mūsiʿi qadaruhu waʿalā l-muq'tiri qadaruhu matāʿan bil-maʿrūfi ḥaqqan ʿalā l-muḥ'sinīna",
-    "translation": "",
+    "translation": "There is no blame upon you if you divorce women you have not touched nor specified for them an obligation. But give them [a gift of] compensation - the wealthy according to his capability and the poor according to his capability - a provision according to what is acceptable, a duty upon the doers of good.",
     "words": [
       {
         "id": "al-baqarah-236-1",
@@ -35608,7 +35843,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous n’aurez pas péché si vous divorcez d’avec des femmes que vous n’avez point touchées, et auxquelles vous n’avez pas fixé de dot (faridha). Faites-les bénéficier de quelque bien reconnu convenable, le nanti (parmi vous) selon ses moyens et le besogneux selon ses moyens. C’est là un devoir pour les bienfaiteurs."
   },
   {
     "id": "al-baqarah-237",
@@ -35617,7 +35853,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ وَقَدْ فَرَضْتُمْ لَهُنَّ فَرِيضَةً فَنِصْفُ مَا فَرَضْتُمْ إِلَّآ أَن يَعْفُونَ أَوْ يَعْفُوَا۟ ٱلَّذِى بِيَدِهِۦ عُقْدَةُ ٱلنِّكَاحِ ۚ وَأَن تَعْفُوٓا۟ أَقْرَبُ لِلتَّقْوَىٰ ۚ وَلَا تَنسَوُا۟ ٱلْفَضْلَ بَيْنَكُمْ ۚ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "وإن طلقتموهن من قبل أن تمسوهن وقد فرضتم لهن فريضة فنصف ما فرضتم إلآ أن يعفون أو يعفوا ٱلذى بيده عقدة ٱلنكاح  وأن تعفوٓا أقرب للتقوى  ولا تنسوا ٱلفضل بينكم  إن ٱلله بما تعملون بصير",
     "transliteration": "wa-in ṭallaqtumūhunna min qabli an tamassūhunna waqad faraḍtum lahunna farīḍatan faniṣ'fu mā faraḍtum illā an yaʿfūna aw yaʿfuwā alladhī biyadihi ʿuq'datu l-nikāḥi wa-an taʿfū aqrabu lilttaqwā walā tansawū l-faḍla baynakum inna l-laha bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "And if you divorce them before you have touched them and you have already specified for them an obligation, then [give] half of what you specified - unless they forego the right or the one in whose hand is the marriage contract foregoes it. And to forego it is nearer to righteousness. And do not forget graciousness between you. Indeed Allāh, of whatever you do, is Seeing.",
     "words": [
       {
         "id": "al-baqarah-237-1",
@@ -35865,7 +36101,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous divorcez d’avec elles avant que vous ne les ayez touchées, et que vous leur ayez déjà fixé une dot, alors vous leur verserez la moitié de cette dot, à moins qu’elles ne se désistent ou ne se désiste celui qui a en mains le contrat de mariage. Mais que vous vous désistiez est certes plus proche de la piété. Et n’oubliez pas d’être bienveillants les uns envers les autres. Allah Voit absolument ce que vous faites."
   },
   {
     "id": "al-baqarah-238",
@@ -35874,7 +36111,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "حَـٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَـٰنِتِينَ",
     "textSimple": "حـفظوا على ٱلصلوت وٱلصلوة ٱلوسطى وقوموا لله قـنتين",
     "transliteration": "ḥāfiẓū ʿalā l-ṣalawāti wal-ṣalati l-wus'ṭā waqūmū lillahi qānitīna",
-    "translation": "",
+    "translation": "Maintain with care the [obligatory] prayers and [in particular] the middle [i.e., ʿaṣr] prayer and stand before Allāh, devoutly obedient.",
     "words": [
       {
         "id": "al-baqarah-238-1",
@@ -35933,7 +36170,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Soyez assidus aux Çalâts, et à la Çalât médiane (surtout), et levez-vous devant Allah en toute humilité (pour accomplir la prière)."
   },
   {
     "id": "al-baqarah-239",
@@ -35942,7 +36180,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا ۖ فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ",
     "textSimple": "فإن خفتم فرجالا أو ركبانا  فإذآ أمنتم فٱذكروا ٱلله كما علمكم ما لم تكونوا تعلمون",
     "transliteration": "fa-in khif'tum farijālan aw ruk'bānan fa-idhā amintum fa-udh'kurū l-laha kamā ʿallamakum mā lam takūnū taʿlamūna",
-    "translation": "",
+    "translation": "And if you fear [an enemy, then pray] on foot or riding. But when you are secure, then remember Allāh [in prayer], as He has taught you that which you did not [previously] know.",
     "words": [
       {
         "id": "al-baqarah-239-1",
@@ -36050,7 +36288,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais s’il (vous arrive) de craindre (quelque danger), alors faites votre prière en marchant ou sur le dos de vos montures. Mais dès que vous aurez retrouvé la quiétude, invoquez Allah Qui vous a enseigné ce que vous ne saviez pas."
   },
   {
     "id": "al-baqarah-240",
@@ -36059,7 +36298,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًا وَصِيَّةً لِّأَزْوَٰجِهِم مَّتَـٰعًا إِلَى ٱلْحَوْلِ غَيْرَ إِخْرَاجٍ ۚ فَإِنْ خَرَجْنَ فَلَا جُنَاحَ عَلَيْكُمْ فِى مَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ مِن مَّعْرُوفٍ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
     "textSimple": "وٱلذين يتوفون منكم ويذرون أزوجا وصية لأزوجهم متـعا إلى ٱلحول غير إخراج  فإن خرجن فلا جناح عليكم فى ما فعلن فىٓ أنفسهن من معروف  وٱلله عزيز حكيم",
     "transliteration": "wa-alladhīna yutawaffawna minkum wayadharūna azwājan waṣiyyatan li-azwājihim matāʿan ilā l-ḥawli ghayra ikh'rājin fa-in kharajna falā junāḥa ʿalaykum fī mā faʿalna fī anfusihinna min maʿrūfin wal-lahu ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "And those who are taken in death among you and leave wives behind - for their wives is a bequest: maintenance for one year without turning [them] out. But if they leave [of their own accord], then there is no blame upon you for what they do with themselves in an acceptable way. And Allāh is Exalted in Might and Wise.",
     "words": [
       {
         "id": "al-baqarah-240-1",
@@ -36251,7 +36490,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui des vôtres décèdent et laissent des épouses, doivent leur avoir laissé un testament qui les fera bénéficier d’une année d’entretien et sans expulsion. Et si elles sortent de leur plein gré, il ne vous sera fait aucun grief de (les avoir laissées) disposer d’elles mêmes dans les limites du convenable. Allah est Tout – Puissant et Sage."
   },
   {
     "id": "al-baqarah-241",
@@ -36260,7 +36500,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلْمُطَلَّقَـٰتِ مَتَـٰعٌۢ بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُتَّقِينَ",
     "textSimple": "وللمطلقـت متـع بٱلمعروف  حقا على ٱلمتقين",
     "transliteration": "walil'muṭallaqāti matāʿun bil-maʿrūfi ḥaqqan ʿalā l-mutaqīna",
-    "translation": "",
+    "translation": "And for divorced women is a provision according to what is acceptable - a duty upon the righteous.",
     "words": [
       {
         "id": "al-baqarah-241-1",
@@ -36305,7 +36545,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les divorcées ont le droit de bénéficier d’une pension reconnue comme convenable. C’est là un devoir pour les gens pieux."
   },
   {
     "id": "al-baqarah-242",
@@ -36314,7 +36555,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": "كذلك يبين ٱلله لكم ءايـته لعلكم تعقلون",
     "transliteration": "kadhālika yubayyinu l-lahu lakum āyātihi laʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "Thus does Allāh make clear to you His verses [i.e., laws] that you might use reason.",
     "words": [
       {
         "id": "al-baqarah-242-1",
@@ -36366,7 +36607,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’Allah vous expose clairement Ses versets, pour que, peut-être, vous entendiez raison."
   },
   {
     "id": "al-baqarah-243",
@@ -36375,7 +36617,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ خَرَجُوا۟ مِن دِيَـٰرِهِمْ وَهُمْ أُلُوفٌ حَذَرَ ٱلْمَوْتِ فَقَالَ لَهُمُ ٱللَّهُ مُوتُوا۟ ثُمَّ أَحْيَـٰهُمْ ۚ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
     "textSimple": " ألم تر إلى ٱلذين خرجوا من ديـرهم وهم ألوف حذر ٱلموت فقال لهم ٱلله موتوا ثم أحيـهم  إن ٱلله لذو فضل على ٱلناس ولـكن أكثر ٱلناس لا يشكرون",
     "transliteration": "alam tara ilā alladhīna kharajū min diyārihim wahum ulūfun ḥadhara l-mawti faqāla lahumu l-lahu mūtū thumma aḥyāhum inna l-laha ladhū faḍlin ʿalā l-nāsi walākinna akthara l-nāsi lā yashkurūna",
-    "translation": "",
+    "translation": "Have you not considered those who left their homes in many thousands, fearing death? Allāh said to them, \"Die\"; then He restored them to life. And Allāh is the possessor of bounty for the people, but most of the people do not show gratitude.",
     "words": [
       {
         "id": "al-baqarah-243-1",
@@ -36574,7 +36816,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas vu ceux qui sont sortis de leurs maisons par milliers, craignant la mort ? Allah leur a dit : « Mourez ! » Puis Il les a fait revivre. Allah est Plein de Faveurs pour les hommes, mais la plupart des hommes ne sont pas reconnaissants."
   },
   {
     "id": "al-baqarah-244",
@@ -36583,7 +36826,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَـٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
     "textSimple": "وقـتلوا فى سبيل ٱلله وٱعلموٓا أن ٱلله سميع عليم",
     "transliteration": "waqātilū fī sabīli l-lahi wa-iʿ'lamū anna l-laha samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "And fight in the cause of Allāh and know that Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-244-1",
@@ -36649,7 +36892,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combattez pour la cause d’Allah et sachez qu’Allah Entend Tout et qu’Il est Omniscient."
   },
   {
     "id": "al-baqarah-245",
@@ -36658,7 +36902,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥٓ أَضْعَافًا كَثِيرَةً ۚ وَٱللَّهُ يَقْبِضُ وَيَبْصُۜطُ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "من ذا ٱلذى يقرض ٱلله قرضا حسنا فيضـعفه لهٓ أضعافا كثيرة  وٱلله يقبض ويبصط وإليه ترجعون",
     "transliteration": "man dhā alladhī yuq'riḍu l-laha qarḍan ḥasanan fayuḍāʿifahu lahu aḍʿāfan kathīratan wal-lahu yaqbiḍu wayabṣuṭu wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "Who is it that would loan Allāh a goodly loan so He may multiply it for him many times over? And it is Allāh who withholds and grants abundance, and to Him you will be returned.",
     "words": [
       {
         "id": "al-baqarah-245-1",
@@ -36773,7 +37017,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque fait gracieusement un prêt à Allah, Il le lui multipliera un grand nombre de fois. Allah resserre ou étend Ses faveurs. Et c’est à Lui que vous serez ramenés."
   },
   {
     "id": "al-baqarah-246",
@@ -36782,7 +37027,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلْمَلَإِ مِنۢ بَنِىٓ إِسْرَٰٓءِيلَ مِنۢ بَعْدِ مُوسَىٰٓ إِذْ قَالُوا۟ لِنَبِىٍّ لَّهُمُ ٱبْعَثْ لَنَا مَلِكًا نُّقَـٰتِلْ فِى سَبِيلِ ٱللَّهِ ۖ قَالَ هَلْ عَسَيْتُمْ إِن كُتِبَ عَلَيْكُمُ ٱلْقِتَالُ أَلَّا تُقَـٰتِلُوا۟ ۖ قَالُوا۟ وَمَا لَنَآ أَلَّا نُقَـٰتِلَ فِى سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِن دِيَـٰرِنَا وَأَبْنَآئِنَا ۖ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ تَوَلَّوْا۟ إِلَّا قَلِيلًا مِّنْهُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّـٰلِمِينَ",
     "textSimple": "ألم تر إلى ٱلملإ من بنىٓ إسرٓءيل من بعد موسىٓ إذ قالوا لنبى لهم ٱبعث لنا ملكا نقـتل فى سبيل ٱلله  قال هل عسيتم إن كتب عليكم ٱلقتال ألا تقـتلوا  قالوا وما لنآ ألا نقـتل فى سبيل ٱلله وقد أخرجنا من ديـرنا وأبنآئنا  فلما كتب عليهم ٱلقتال تولوا إلا قليلا منهم  وٱلله عليم بٱلظـلمين",
     "transliteration": "alam tara ilā l-mala-i min banī is'rāīla min baʿdi mūsā idh qālū linabiyyin lahumu ib'ʿath lanā malikan nuqātil fī sabīli l-lahi qāla hal ʿasaytum in kutiba ʿalaykumu l-qitālu allā tuqātilū qālū wamā lanā allā nuqātila fī sabīli l-lahi waqad ukh'rij'nā min diyārinā wa-abnāinā falammā kutiba ʿalayhimu l-qitālu tawallaw illā qalīlan min'hum wal-lahu ʿalīmun bil-ẓālimīna",
-    "translation": "",
+    "translation": "Have you not considered the assembly of the Children of Israel after [the time of] Moses when they said to a prophet of theirs, \"Send to us a king, and we will fight in the way of Allāh\"? He said, \"Would you perhaps refrain from fighting if battle was prescribed for you?\" They said, \"And why should we not fight in the cause of Allāh when we have been driven out from our homes and from our children?\" But when battle was prescribed for them, they turned away, except for a few of them. And Allāh is Knowing of the wrongdoers.",
     "words": [
       {
         "id": "al-baqarah-246-1",
@@ -37163,7 +37408,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 53
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas appris (ce qui s’est passé avec) les notables des Enfants d’Israël lorsque, après Moïse, ils dirent à un Prophète des leurs : « Désigne-nous un roi et nous combattrons dans le chemin d’Allah. » Il dit : « Mais, si le combat vous était prescrit, qui sait si vous ne refuserez pas de combattre ? » Ils dirent alors : « Mais pourquoi nous ne combattrions pas dans le chemin d’Allah quand nous avons été chassés de nos maisons et privés de nos enfants ? » Puis quand le combat leur fut prescrit, ils se rétractèrent, hors un petit nombre parmi eux. Allah Connaît parfaitement les injustes."
   },
   {
     "id": "al-baqarah-247",
@@ -37172,7 +37418,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ ٱللَّهَ قَدْ بَعَثَ لَكُمْ طَالُوتَ مَلِكًا ۚ قَالُوٓا۟ أَنَّىٰ يَكُونُ لَهُ ٱلْمُلْكُ عَلَيْنَا وَنَحْنُ أَحَقُّ بِٱلْمُلْكِ مِنْهُ وَلَمْ يُؤْتَ سَعَةً مِّنَ ٱلْمَالِ ۚ قَالَ إِنَّ ٱللَّهَ ٱصْطَفَىٰهُ عَلَيْكُمْ وَزَادَهُۥ بَسْطَةً فِى ٱلْعِلْمِ وَٱلْجِسْمِ ۖ وَٱللَّهُ يُؤْتِى مُلْكَهُۥ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
     "textSimple": "وقال لهم نبيهم إن ٱلله قد بعث لكم طالوت ملكا  قالوٓا أنى يكون له ٱلملك علينا ونحن أحق بٱلملك منه ولم يؤت سعة من ٱلمال  قال إن ٱلله ٱصطفىه عليكم وزاده بسطة فى ٱلعلم وٱلجسم  وٱلله يؤتى ملكه من يشآء  وٱلله وسع عليم",
     "transliteration": "waqāla lahum nabiyyuhum inna l-laha qad baʿatha lakum ṭālūta malikan qālū annā yakūnu lahu l-mul'ku ʿalaynā wanaḥnu aḥaqqu bil-mul'ki min'hu walam yu'ta saʿatan mina l-māli qāla inna l-laha iṣ'ṭafāhu ʿalaykum wazādahu basṭatan fī l-ʿil'mi wal-jis'mi wal-lahu yu'tī mul'kahu man yashāu wal-lahu wāsiʿun ʿalīmun",
-    "translation": "",
+    "translation": "And their prophet said to them, \"Indeed, Allāh has sent to you Saul as a king.\" They said, \"How can he have kingship over us while we are more worthy of kingship than him and he has not been given any measure of wealth?\" He said, \"Indeed, Allāh has chosen him over you and has increased him abundantly in knowledge and stature. And Allāh gives His sovereignty to whom He wills. And Allāh is all-Encompassing [in favor] and Knowing.\"",
     "words": [
       {
         "id": "al-baqarah-247-1",
@@ -37476,7 +37722,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur Prophète leur dit alors : « Allah vous a envoyé Talût comme roi. » À quoi ils répondirent : « Comment peut-il régner sur nous alors que nous sommes plus en droit que lui d’avoir la royauté ? De plus, il n’a même pas été doté du privilège de la fortune ! » Il dit : « Allah l’a élu (en roi) sur vous. Il lui a donné un plus large savoir et de meilleures dispositions physiques. Et Allah, certes, accorde Sa royauté à qui Il veut. Allah est Immense et Il est Omniscient."
   },
   {
     "id": "al-baqarah-248",
@@ -37485,7 +37732,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ ءَايَةَ مُلْكِهِۦٓ أَن يَأْتِيَكُمُ ٱلتَّابُوتُ فِيهِ سَكِينَةٌ مِّن رَّبِّكُمْ وَبَقِيَّةٌ مِّمَّا تَرَكَ ءَالُ مُوسَىٰ وَءَالُ هَـٰرُونَ تَحْمِلُهُ ٱلْمَلَـٰٓئِكَةُ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "وقال لهم نبيهم إن ءاية ملكهٓ أن يأتيكم ٱلتابوت فيه سكينة من ربكم وبقية مما ترك ءال موسى وءال هـرون تحمله ٱلملـٓئكة  إن فى ذلك لـٔاية لكم إن كنتم مؤمنين",
     "transliteration": "waqāla lahum nabiyyuhum inna āyata mul'kihi an yatiyakumu l-tābūtu fīhi sakīnatun min rabbikum wabaqiyyatun mimmā taraka ālu mūsā waālu hārūna taḥmiluhu l-malāikatu inna fī dhālika laāyatan lakum in kuntum mu'minīna",
-    "translation": "",
+    "translation": "And their prophet said to them, \"Indeed, a sign of his kingship is that the chest will come to you in which is assurance from your Lord and a remnant of what the family of Moses and the family of Aaron had left, carried by the angels. Indeed in that is a sign for you, if you are believers.\"",
     "words": [
       {
         "id": "al-baqarah-248-1",
@@ -37698,7 +37945,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et leur Prophète ajouta encore : « En signe de son règne, vous reviendra le Coffret emporté par les Anges, gage de quiétude envoyé par votre Seigneur, et contenant les reliques laissées par la famille de Moïse et la famille d’Aaron. Cela est bel et bien un signe pour vous, si vous êtes croyants ! »"
   },
   {
     "id": "al-baqarah-249",
@@ -37707,7 +37955,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلْجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبْتَلِيكُم بِنَهَرٍ فَمَن شَرِبَ مِنْهُ فَلَيْسَ مِنِّى وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ فَشَرِبُوا۟ مِنْهُ إِلَّا قَلِيلًا مِّنْهُمْ ۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ قَالُوا۟ لَا طَاقَةَ لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِۦ ۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَـٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةًۢ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّـٰبِرِينَ",
     "textSimple": "فلما فصل طالوت بٱلجنود قال إن ٱلله مبتليكم بنهر فمن شرب منه فليس منى ومن لم يطعمه فإنه منىٓ إلا من ٱغترف غرفة بيده  فشربوا منه إلا قليلا منهم  فلما جاوزه هو وٱلذين ءامنوا معه قالوا لا طاقة لنا ٱليوم بجالوت وجنوده  قال ٱلذين يظنون أنهم ملـقوا ٱلله كم من فئة قليلة غلبت فئة كثيرة بإذن ٱلله  وٱلله مع ٱلصـبرين",
     "transliteration": "falammā faṣala ṭālūtu bil-junūdi qāla inna l-laha mub'talīkum binaharin faman shariba min'hu falaysa minnī waman lam yaṭʿamhu fa-innahu minnī illā mani igh'tarafa ghur'fatan biyadihi fasharibū min'hu illā qalīlan min'hum falammā jāwazahu huwa wa-alladhīna āmanū maʿahu qālū lā ṭāqata lanā l-yawma bijālūta wajunūdihi qāla alladhīna yaẓunnūna annahum mulāqū l-lahi kam min fi-atin qalīlatin ghalabat fi-atan kathīratan bi-idh'ni l-lahi wal-lahu maʿa l-ṣābirīna",
-    "translation": "",
+    "translation": "And when Saul went forth with the soldiers, he said, \"Indeed, Allāh will be testing you with a river. So whoever drinks from it is not of me, and whoever does not taste it is indeed of me, excepting one who takes [from it] in the hollow of his hand.\" But they drank from it, except a [very] few of them. Then when he had crossed it along with those who believed with him, they said, \"There is no power for us today against Goliath and his soldiers.\" But those who were certain that they would meet Allāh said, \"How many a small company has overcome a large company by permission of Allāh. And Allāh is with the patient.\"",
     "words": [
       {
         "id": "al-baqarah-249-1",
@@ -38130,7 +38378,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 59
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Talût partit avec les soldats, il leur dit : « Allah va vous mettre à l’épreuve devant une rivière. Celui qui en boira ne sera pas des miens ; celui qui n’y goûtera point, ou n’en puisera qu’un peu dans le creux de la main, sera, lui, des miens. » Tous y burent excepté un petit nombre d’entre eux. Lorsqu’ils l’eurent traversée, lui et les croyants qui étaient avec lui, dirent : « Voilà que nous n’avons plus la force, aujourd’hui, de combattre Goliath et ses soldats ! » Alors ceux qui étaient persuadés qu’ils rencontreraient certainement Allah (au Jour Dernier) dirent : « Combien de fois, par la permission d’Allah, une troupe peu nombreuse a vaincu une troupe bien plus nombreuse. Allah est avec ceux qui prennent patience. »"
   },
   {
     "id": "al-baqarah-250",
@@ -38139,7 +38388,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
     "textSimple": "ولما برزوا لجالوت وجنوده قالوا ربنآ أفرغ علينا صبرا وثبت أقدامنا وٱنصرنا على ٱلقوم ٱلكـفرين",
     "transliteration": "walammā barazū lijālūta wajunūdihi qālū rabbanā afrigh ʿalaynā ṣabran wathabbit aqdāmanā wa-unṣur'nā ʿalā l-qawmi l-kāfirīna",
-    "translation": "",
+    "translation": "And when they went forth to [face] Goliath and his soldiers, they said, \"Our Lord, pour upon us patience and plant firmly our feet and give us victory over the disbelieving people.\"",
     "words": [
       {
         "id": "al-baqarah-250-1",
@@ -38247,7 +38496,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils firent front à Goliath et ses soldats, ils dirent : « Seigneur ! Déverse sur nous la patience, raffermis nos pas et fais-nous triompher du peuple mécréant ! »"
   },
   {
     "id": "al-baqarah-251",
@@ -38256,7 +38506,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّفَسَدَتِ ٱلْأَرْضُ وَلَـٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "فهزموهم بإذن ٱلله وقتل داود جالوت وءاتىه ٱلله ٱلملك وٱلحكمة وعلمه مما يشآء  ولولا دفع ٱلله ٱلناس بعضهم ببعض لفسدت ٱلأرض ولـكن ٱلله ذو فضل على ٱلعـلمين",
     "transliteration": "fahazamūhum bi-idh'ni l-lahi waqatala dāwūdu jālūta waātāhu l-lahu l-mul'ka wal-ḥik'mata waʿallamahu mimmā yashāu walawlā dafʿu l-lahi l-nāsa baʿḍahum bibaʿḍin lafasadati l-arḍu walākinna l-laha dhū faḍlin ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "So they defeated them by permission of Allāh, and David killed Goliath, and Allāh gave him the kingship and wisdom [i.e., prophethood] and taught him from that which He willed. And if it were not for Allāh checking [some] people by means of others, the earth would have been corrupted, but Allāh is the possessor of bounty for the worlds.",
     "words": [
       {
         "id": "al-baqarah-251-1",
@@ -38448,7 +38698,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils leur infligèrent une défaite, par la permission d’Allah, et David tua Goliath. Allah lui octroya et la royauté et la sagesse ; et Il lui enseigna de tout ce qu’Il voulait. Si Allah ne dissuadait pas les hommes les uns par les autres, la terre serait totalement corrompue. Mais Allah est Plein de Faveurs pour tout l’Univers."
   },
   {
     "id": "al-baqarah-252",
@@ -38457,7 +38708,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ءَايَـٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۚ وَإِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "تلك ءايـت ٱلله نتلوها عليك بٱلحق  وإنك لمن ٱلمرسلين",
     "transliteration": "til'ka āyātu l-lahi natlūhā ʿalayka bil-ḥaqi wa-innaka lamina l-mur'salīna",
-    "translation": "",
+    "translation": "These are the verses of Allāh which We recite to you, [O Muḥammad], in truth. And indeed, you are from among the messengers.",
     "words": [
       {
         "id": "al-baqarah-252-1",
@@ -38523,7 +38774,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tels sont les versets d’Allah que Nous te récitons en toute vérité. Et tu es certes du nombre des Envoyés."
   },
   {
     "id": "al-baqarah-253",
@@ -38532,7 +38784,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ تِلْكَ ٱلرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ ۘ مِّنْهُم مَّن كَلَّمَ ٱللَّهُ ۖ وَرَفَعَ بَعْضَهُمْ دَرَجَـٰتٍ ۚ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَـٰتِ وَأَيَّدْنَـٰهُ بِرُوحِ ٱلْقُدُسِ ۗ وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلَ ٱلَّذِينَ مِنۢ بَعْدِهِم مِّنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَـٰتُ وَلَـٰكِنِ ٱخْتَلَفُوا۟ فَمِنْهُم مَّنْ ءَامَنَ وَمِنْهُم مَّن كَفَرَ ۚ وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلُوا۟ وَلَـٰكِنَّ ٱللَّهَ يَفْعَلُ مَا يُرِيدُ",
     "textSimple": " تلك ٱلرسل فضلنا بعضهم على بعض  منهم من كلم ٱلله  ورفع بعضهم درجـت  وءاتينا عيسى ٱبن مريم ٱلبينـت وأيدنـه بروح ٱلقدس  ولو شآء ٱلله ما ٱقتتل ٱلذين من بعدهم من بعد ما جآءتهم ٱلبينـت ولـكن ٱختلفوا فمنهم من ءامن ومنهم من كفر  ولو شآء ٱلله ما ٱقتتلوا ولـكن ٱلله يفعل ما يريد",
     "transliteration": "til'ka l-rusulu faḍḍalnā baʿḍahum ʿalā baʿḍin min'hum man kallama l-lahu warafaʿa baʿḍahum darajātin waātaynā ʿīsā ib'na maryama l-bayināti wa-ayyadnāhu birūḥi l-qudusi walaw shāa l-lahu mā iq'tatala alladhīna min baʿdihim min baʿdi mā jāathumu l-bayinātu walākini ikh'talafū famin'hum man āmana wamin'hum man kafara walaw shāa l-lahu mā iq'tatalū walākinna l-laha yafʿalu mā yurīdu",
-    "translation": "",
+    "translation": "Those messengers - some of them We caused to exceed others. Among them were those to whom Allāh spoke, and He raised some of them in degree. And We gave Jesus, the son of Mary, clear proofs, and We supported him with the Pure Spirit [i.e., Gabriel]. If Allāh had willed, those [generations] succeeding them would not have fought each other after the clear proofs had come to them. But they differed, and some of them believed and some of them disbelieved. And if Allāh had willed, they would not have fought each other, but Allāh does what He intends.",
     "words": [
       {
         "id": "al-baqarah-253-1",
@@ -38899,7 +39151,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 51
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ces Messagers, nous en avons privilégié certains par rapport aux autres. Il en est à qui Allah a parlé ; et Il en a élevé d’autres à de plus hauts degrés. Nous avons donné à Jésus, fils de Marie, les preuves évidentes ; Nous l’avons appuyé par le Saint-Esprit (Gabriel). Si Allah avait voulu, ceux qui (vinrent) après eux ne se seraient point entretués ayant déjà reçu les preuves évidentes. Mais ils tombèrent en désaccord. Les uns, parmi eux, avaient cru, et les autres avaient mécru. Si Allah avait voulu, ils ne se seraient point entretués, mais Allah fait ce qu’Il veut."
   },
   {
     "id": "al-baqarah-254",
@@ -38908,7 +39161,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِمَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خُلَّةٌ وَلَا شَفَـٰعَةٌ ۗ وَٱلْكَـٰفِرُونَ هُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا أنفقوا مما رزقنـكم من قبل أن يأتى يوم لا بيع فيه ولا خلة ولا شفـعة  وٱلكـفرون هم ٱلظـلمون",
     "transliteration": "yāayyuhā alladhīna āmanū anfiqū mimmā razaqnākum min qabli an yatiya yawmun lā bayʿun fīhi walā khullatun walā shafāʿatun wal-kāfirūna humu l-ẓālimūna",
-    "translation": "",
+    "translation": "O you who have believed, spend from that which We have provided for you before there comes a Day in which there is no exchange [i.e., ransom] and no friendship and no intercession. And the disbelievers - they are the wrongdoers.",
     "words": [
       {
         "id": "al-baqarah-254-1",
@@ -39058,7 +39311,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Donnez en aumône de ce que Nous vous avons octroyé avant qu’un jour vienne où il n’y aura point de rachat ni d’amitié ni d’intercession. Et les mécréants, ce sont eux les injustes."
   },
   {
     "id": "al-baqarah-255",
@@ -39067,7 +39321,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
     "textSimple": "ٱلله لآ إلـه إلا هو ٱلحى ٱلقيوم  لا تأخذه سنة ولا نوم  له ما فى ٱلسمـوت وما فى ٱلأرض  من ذا ٱلذى يشفع عندهٓ إلا بإذنه  يعلم ما بين أيديهم وما خلفهم  ولا يحيطون بشىء من علمهٓ إلا بما شآء  وسع كرسيه ٱلسمـوت وٱلأرض  ولا يـٔوده حفظهما  وهو ٱلعلى ٱلعظيم",
     "transliteration": "al-lahu lā ilāha illā huwa l-ḥayu l-qayūmu lā takhudhuhu sinatun walā nawmun lahu mā fī l-samāwāti wamā fī l-arḍi man dhā alladhī yashfaʿu ʿindahu illā bi-idh'nihi yaʿlamu mā bayna aydīhim wamā khalfahum walā yuḥīṭūna bishayin min ʿil'mihi illā bimā shāa wasiʿa kur'siyyuhu l-samāwāti wal-arḍa walā yaūduhu ḥif'ẓuhumā wahuwa l-ʿaliyu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "Allāh - there is no deity except Him, the Ever-Living, the Self-Sustaining. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursī extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
     "words": [
       {
         "id": "al-baqarah-255-1",
@@ -39420,7 +39674,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 49
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ! Point d’autre divinité que Lui, le Vivant, l’Éternel Veilleur sur Toute chose (Al-Qayyûm) ; aucun assoupissement ne Le prend ni aucun sommeil ; à Lui (appartient) ce qui est dans les cieux et sur la terre. Qui donc intercède auprès de Lui, sinon avec Sa permission ? Il Sait ce qui est devant eux et ce qui est derrière eux ; et ceux-ci n’embrassent rien de Sa science excepté ce qu’Il veut. Son Trône excède en largeur les cieux et la terre dont la garde et le maintien ne lui causent aucune peine. Car Il est le Très Haut, le Très Grand."
   },
   {
     "id": "al-baqarah-256",
@@ -39429,7 +39684,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
     "textSimple": "لآ إكراه فى ٱلدين  قد تبين ٱلرشد من ٱلغى  فمن يكفر بٱلطـغوت ويؤمن بٱلله فقد ٱستمسك بٱلعروة ٱلوثقى لا ٱنفصام لها  وٱلله سميع عليم",
     "transliteration": "lā ik'rāha fī l-dīni qad tabayyana l-rush'du mina l-ghayi faman yakfur bil-ṭāghūti wayu'min bil-lahi faqadi is'tamsaka bil-ʿur'wati l-wuth'qā lā infiṣāma lahā wal-lahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "There shall be no compulsion in [acceptance of] the religion. The right course has become distinct from the wrong. So whoever disbelieves in ṭāghūt and believes in Allāh has grasped the most trustworthy handhold with no break in it. And Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-256-1",
@@ -39600,7 +39855,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Point de contrainte en religion ! C’est que la juste orientation se distingue clairement du fourvoiement. Quiconque mécroit à la Tyrannie du Rebelle (Tâghût), et croit en Allah, aura saisi l’anse la plus solide, que rien ne saurait rompre. Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "al-baqarah-257",
@@ -39609,7 +39865,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا۟ يُخْرِجُهُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۖ وَٱلَّذِينَ كَفَرُوٓا۟ أَوْلِيَآؤُهُمُ ٱلطَّـٰغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَـٰتِ ۗ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "ٱلله ولى ٱلذين ءامنوا يخرجهم من ٱلظلمـت إلى ٱلنور  وٱلذين كفروٓا أوليآؤهم ٱلطـغوت يخرجونهم من ٱلنور إلى ٱلظلمـت  أولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "al-lahu waliyyu alladhīna āmanū yukh'rijuhum mina l-ẓulumāti ilā l-nūri wa-alladhīna kafarū awliyāuhumu l-ṭāghūtu yukh'rijūnahum mina l-nūri ilā l-ẓulumāti ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Allāh is the Ally of those who believe. He brings them out from darknesses into the light. And those who disbelieve - their allies are ṭāghūt. They take them out of the light into darknesses. Those are the companions of the Fire; they will abide eternally therein.",
     "words": [
       {
         "id": "al-baqarah-257-1",
@@ -39780,7 +40036,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est le guide protecteur de ceux qui ont cru. Il les fait sortir des ténèbres vers la lumière. Ceux qui ont mécru ont pour guides protecteurs les Taghût (leurs idoles tyranniques), qui les font sortir de la lumière vers les ténèbres. Ceux-là sont les hôtes du Feu, où ils séjourneront pour l’éternité."
   },
   {
     "id": "al-baqarah-258",
@@ -39789,7 +40046,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِى حَآجَّ إِبْرَٰهِـۧمَ فِى رَبِّهِۦٓ أَنْ ءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ إِذْ قَالَ إِبْرَٰهِـۧمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِـۧمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ فَبُهِتَ ٱلَّذِى كَفَرَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ألم تر إلى ٱلذى حآج إبرهـم فى ربهٓ أن ءاتىه ٱلله ٱلملك إذ قال إبرهـم ربى ٱلذى يحى ويميت قال أنا أحى وأميت  قال إبرهـم فإن ٱلله يأتى بٱلشمس من ٱلمشرق فأت بها من ٱلمغرب فبهت ٱلذى كفر  وٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "alam tara ilā alladhī ḥājja ib'rāhīma fī rabbihi an ātāhu l-lahu l-mul'ka idh qāla ib'rāhīmu rabbiya alladhī yuḥ'yī wayumītu qāla anā uḥ'yī wa-umītu qāla ib'rāhīmu fa-inna l-laha yatī bil-shamsi mina l-mashriqi fati bihā mina l-maghribi fabuhita alladhī kafara wal-lahu lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "Have you not considered the one who argued with Abraham about his Lord [merely] because Allāh had given him kingship? When Abraham said, \"My Lord is the one who gives life and causes death,\" he said, \"I give life and cause death.\" Abraham said, \"Indeed, Allāh brings up the sun from the east, so bring it up from the west.\" So the disbeliever was overwhelmed [by astonishment], and Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "al-baqarah-258-1",
@@ -40093,7 +40350,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu donc pas considéré l’histoire de celui qui, Allah l’ayant fait roi, disputa avec Abraham au sujet de son Seigneur ? Abraham dit alors : « Mon Seigneur est Celui Qui dispense la vie et la mort. » « Moi aussi je dispense la vie et la mort ! » répliqua l’autre. Et Abraham lança alors : « Allah fait venir le soleil par l’Est, fais-le donc se lever par l’Ouest ! » Le mécréant en resta stupéfait. Et Allah ne guide pas les gens injustes."
   },
   {
     "id": "al-baqarah-259",
@@ -40102,7 +40360,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْىِۦ هَـٰذِهِ ٱللَّهُ بَعْدَ مَوْتِهَا ۖ فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامٍ ثُمَّ بَعَثَهُۥ ۖ قَالَ كَمْ لَبِثْتَ ۖ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍ ۖ قَالَ بَل لَّبِثْتَ مِا۟ئَةَ عَامٍ فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ ۖ وَٱنظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ ءَايَةً لِّلنَّاسِ ۖ وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًا ۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "أو كٱلذى مر على قرية وهى خاوية على عروشها قال أنى يحى هـذه ٱلله بعد موتها  فأماته ٱلله مائة عام ثم بعثه  قال كم لبثت  قال لبثت يوما أو بعض يوم  قال بل لبثت مائة عام فٱنظر إلى طعامك وشرابك لم يتسنه  وٱنظر إلى حمارك ولنجعلك ءاية للناس  وٱنظر إلى ٱلعظام كيف ننشزها ثم نكسوها لحما  فلما تبين له قال أعلم أن ٱلله على كل شىء قدير",
     "transliteration": "aw ka-alladhī marra ʿalā qaryatin wahiya khāwiyatun ʿalā ʿurūshihā qāla annā yuḥ'yī hādhihi l-lahu baʿda mawtihā fa-amātahu l-lahu mi-ata ʿāmin thumma baʿathahu qāla kam labith'ta qāla labith'tu yawman aw baʿḍa yawmin qāla bal labith'ta mi-ata ʿāmin fa-unẓur ilā ṭaʿāmika washarābika lam yatasannah wa-unẓur ilā ḥimārika walinajʿalaka āyatan lilnnāsi wa-unẓur ilā l-ʿiẓāmi kayfa nunshizuhā thumma naksūhā laḥman falammā tabayyana lahu qāla aʿlamu anna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Or [consider such an example] as the one who passed by a township which had fallen into ruin. He said, \"How will Allāh bring this to life after its death?\" So Allāh caused him to die for a hundred years; then He revived him. He said, \"How long have you remained?\" He [the man] said, \"I have remained a day or part of a day.\" He said, \"Rather, you have remained one hundred years. Look at your food and your drink; it has not changed with time. And look at your donkey; and We will make you a sign for the people. And look at the bones [of this donkey] - how We raise them and then We cover them with flesh.\" And when it became clear to him, he said, \"I know that Allāh is over all things competent.\"",
     "words": [
       {
         "id": "al-baqarah-259-1",
@@ -40574,7 +40832,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 66
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou comme celui qui, passant par un village désert et en désolation, dit : « Comment Allah saurait-t-Il faire revivre ce (village) après sa mort ? » Alors Allah le fit mourir pendant cent ans puis le ressuscita et lui dit : « Combien de temps es-tu resté ainsi ? » « Un jour, ou peut-être seulement une partie d’un jour. » « Certes non ! Tu es resté cent ans, dit Allah. Regarde un peu ta nourriture et ta boisson qui ne se sont point gâtées, et regarde aussi ton âne (mort). Cela, pour que Nous fassions de toi un Signe pour les hommes. Et regarde les ossements comment Nous les assemblons (à nouveau) et comment Nous les revêtons de chair. » Se rendant à l’évidence, il dit : « Je sais qu’Allah est de Toute chose Infiniment Capable ! »"
   },
   {
     "id": "al-baqarah-260",
@@ -40583,7 +40842,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ إِبْرَٰهِـۧمُ رَبِّ أَرِنِى كَيْفَ تُحْىِ ٱلْمَوْتَىٰ ۖ قَالَ أَوَلَمْ تُؤْمِن ۖ قَالَ بَلَىٰ وَلَـٰكِن لِّيَطْمَئِنَّ قَلْبِى ۖ قَالَ فَخُذْ أَرْبَعَةً مِّنَ ٱلطَّيْرِ فَصُرْهُنَّ إِلَيْكَ ثُمَّ ٱجْعَلْ عَلَىٰ كُلِّ جَبَلٍ مِّنْهُنَّ جُزْءًا ثُمَّ ٱدْعُهُنَّ يَأْتِينَكَ سَعْيًا ۚ وَٱعْلَمْ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
     "textSimple": "وإذ قال إبرهـم رب أرنى كيف تحى ٱلموتى  قال أولم تؤمن  قال بلى ولـكن ليطمئن قلبى  قال فخذ أربعة من ٱلطير فصرهن إليك ثم ٱجعل على كل جبل منهن جزءا ثم ٱدعهن يأتينك سعيا  وٱعلم أن ٱلله عزيز حكيم",
     "transliteration": "wa-idh qāla ib'rāhīmu rabbi arinī kayfa tuḥ'yī l-mawtā qāla awalam tu'min qāla balā walākin liyaṭma-inna qalbī qāla fakhudh arbaʿatan mina l-ṭayri faṣur'hunna ilayka thumma ij'ʿal ʿalā kulli jabalin min'hunna juz'an thumma ud'ʿuhunna yatīnaka saʿyan wa-iʿ'lam anna l-laha ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "And [mention] when Abraham said, \"My Lord, show me how You give life to the dead.\" [Allāh] said, \"Have you not believed?\" He said, \"Yes, but [I ask] only that my heart may be satisfied.\" [Allāh] said, \"Take four birds and commit them to yourself. Then [after slaughtering them] put on each hill a portion of them; then call them - they will come [flying] to you in haste. And know that Allāh is Exalted in Might and Wise.\"",
     "words": [
       {
         "id": "al-baqarah-260-1",
@@ -40859,7 +41118,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand Abraham eut dit : « Seigneur, montre-moi comment Tu fais revivre les morts », Allah répondit : « N’as-tu pas encore la foi ? » « Si ! dit Abraham, je veux seulement que mon cœur soit rasséréné. » « Prends alors quatre oiseaux, découpe-les, mets-en un morceau sur chaque montagne, puis appelle-les, ils voleront vers toi toutes ailes déployées. Et sache qu’Allah est Tout –Puissant et Sage. »"
   },
   {
     "id": "al-baqarah-261",
@@ -40868,7 +41128,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍ مِّا۟ئَةُ حَبَّةٍ ۗ وَٱللَّهُ يُضَـٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
     "textSimple": "مثل ٱلذين ينفقون أمولهم فى سبيل ٱلله كمثل حبة أنبتت سبع سنابل فى كل سنبلة مائة حبة  وٱلله يضـعف لمن يشآء  وٱلله وسع عليم",
     "transliteration": "mathalu alladhīna yunfiqūna amwālahum fī sabīli l-lahi kamathali ḥabbatin anbatat sabʿa sanābila fī kulli sunbulatin mi-atu ḥabbatin wal-lahu yuḍāʿifu liman yashāu wal-lahu wāsiʿun ʿalīmun",
-    "translation": "",
+    "translation": "The example of those who spend their wealth in the way of Allāh is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allāh multiplies [His reward] for whom He wills. And Allāh is all-Encompassing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-261-1",
@@ -41039,7 +41299,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui dépensent leurs biens dans le chemin d’Allah sont tel un grain qui fait pousser sept épis à cent grains chacun. Allah multiplie Ses faveurs à qui Il veut, et Allah est Immense et Omniscient."
   },
   {
     "id": "al-baqarah-262",
@@ -41048,7 +41309,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ مَنًّا وَلَآ أَذًى ۙ لَّهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "ٱلذين ينفقون أمولهم فى سبيل ٱلله ثم لا يتبعون مآ أنفقوا منا ولآ أذى  لهم أجرهم عند ربهم ولا خوف عليهم ولا هم يحزنون",
     "transliteration": "alladhīna yunfiqūna amwālahum fī sabīli l-lahi thumma lā yut'biʿūna mā anfaqū mannan walā adhan lahum ajruhum ʿinda rabbihim walā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Those who spend their wealth in the way of Allāh and then do not follow up what they have spent with reminders [of it] or [other] injury will have their reward with their Lord, and there will be no fear concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-baqarah-262-1",
@@ -41219,7 +41480,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui dépensent leurs biens dans le chemin d’Allah puis ni ne s’en vantent ni n’humilient autrui, auront une récompense auprès de leur Seigneur. Il n’y aura aucune crainte pour eux et ils n’auront aucune affliction."
   },
   {
     "id": "al-baqarah-263",
@@ -41228,7 +41490,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَوْلٌ مَّعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِّن صَدَقَةٍ يَتْبَعُهَآ أَذًى ۗ وَٱللَّهُ غَنِىٌّ حَلِيمٌ",
     "textSimple": " قول معروف ومغفرة خير من صدقة يتبعهآ أذى  وٱلله غنى حليم",
     "transliteration": "qawlun maʿrūfun wamaghfiratun khayrun min ṣadaqatin yatbaʿuhā adhan wal-lahu ghaniyyun ḥalīmun",
-    "translation": "",
+    "translation": "Kind speech and forgiveness are better than charity followed by injury. And Allāh is Free of need and Forbearing.",
     "words": [
       {
         "id": "al-baqarah-263-1",
@@ -41308,7 +41570,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une parole agréable et un pardon valent bien mieux qu’une charité suivie d’un tort. Allah Se passe de Toutes richesses et Il est Indulgent."
   },
   {
     "id": "al-baqarah-264",
@@ -41317,7 +41580,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُبْطِلُوا۟ صَدَقَـٰتِكُم بِٱلْمَنِّ وَٱلْأَذَىٰ كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ فَمَثَلُهُۥ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌ فَأَصَابَهُۥ وَابِلٌ فَتَرَكَهُۥ صَلْدًا ۖ لَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّمَّا كَسَبُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَـٰفِرِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تبطلوا صدقـتكم بٱلمن وٱلأذى كٱلذى ينفق ماله رئآء ٱلناس ولا يؤمن بٱلله وٱليوم ٱلـٔاخر  فمثله كمثل صفوان عليه تراب فأصابه وابل فتركه صلدا  لا يقدرون على شىء مما كسبوا  وٱلله لا يهدى ٱلقوم ٱلكـفرين",
     "transliteration": "yāayyuhā alladhīna āmanū lā tub'ṭilū ṣadaqātikum bil-mani wal-adhā ka-alladhī yunfiqu mālahu riāa l-nāsi walā yu'minu bil-lahi wal-yawmi l-ākhiri famathaluhu kamathali ṣafwānin ʿalayhi turābun fa-aṣābahu wābilun fatarakahu ṣaldan lā yaqdirūna ʿalā shayin mimmā kasabū wal-lahu lā yahdī l-qawma l-kāfirīna",
-    "translation": "",
+    "translation": "O you who have believed, do not invalidate your charities with reminders [of it] or injury as does one who spends his wealth [only] to be seen by the people and does not believe in Allāh and the Last Day. His example is like that of a [large] smooth stone upon which is dust and is hit by a downpour that leaves it bare. They are unable [to keep] anything of what they have earned. And Allāh does not guide the disbelieving people.",
     "words": [
       {
         "id": "al-baqarah-264-1",
@@ -41586,7 +41849,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! N’annulez pas vos aumônes par le rappel ostentatoire (menn) ou par le tort (de la condescendance humiliante), tel celui qui dépense son bien par exhibition (riya’) devant les gens, et qui ne croit pas en Allah et au Jour Dernier. Il est à l’image d’un rocher recouvert de terre : il suffit qu’une averse l’atteigne pour le mettre à nu. (Ces mécréants-là) ne pourront récolter aucun fruit de leurs œuvres, et Allah ne guide pas le peuple mécréant."
   },
   {
     "id": "al-baqarah-265",
@@ -41595,7 +41859,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًا مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌ فَطَلٌّ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "ومثل ٱلذين ينفقون أمولهم ٱبتغآء مرضات ٱلله وتثبيتا من أنفسهم كمثل جنة بربوة أصابها وابل فـٔاتت أكلها ضعفين فإن لم يصبها وابل فطل  وٱلله بما تعملون بصير",
     "transliteration": "wamathalu alladhīna yunfiqūna amwālahumu ib'tighāa marḍāti l-lahi watathbītan min anfusihim kamathali jannatin birabwatin aṣābahā wābilun faātat ukulahā ḍiʿ'fayni fa-in lam yuṣib'hā wābilun faṭallun wal-lahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "And the example of those who spend their wealth seeking means to the approval of Allāh and assuring [reward for] themselves is like a garden on high ground which is hit by a downpour - so it yields its fruits in double. And [even] if it is not hit by a downpour, then a drizzle [is sufficient]. And Allāh, of what you do, is Seeing.",
     "words": [
       {
         "id": "al-baqarah-265-1",
@@ -41787,7 +42051,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui, dépensant leurs biens, convoitent par là la satisfaction d’Allah et cherchent à s’en rassurer, sont comme un jardin juché sur une colline. S’il tombe sur lui une averse, il produit le double de sa récolte, et s’il ne tombe pas d’averse, il aura au moins la rosée. Et Allah Voit parfaitement ce que vous faites."
   },
   {
     "id": "al-baqarah-266",
@@ -41796,7 +42061,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌ فِيهِ نَارٌ فَٱحْتَرَقَتْ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
     "textSimple": "أيود أحدكم أن تكون له جنة من نخيل وأعناب تجرى من تحتها ٱلأنهـر له فيها من كل ٱلثمرت وأصابه ٱلكبر وله ذرية ضعفآء فأصابهآ إعصار فيه نار فٱحترقت  كذلك يبين ٱلله لكم ٱلـٔايـت لعلكم تتفكرون",
     "transliteration": "ayawaddu aḥadukum an takūna lahu jannatun min nakhīlin wa-aʿnābin tajrī min taḥtihā l-anhāru lahu fīhā min kulli l-thamarāti wa-aṣābahu l-kibaru walahu dhurriyyatun ḍuʿafāu fa-aṣābahā iʿ'ṣārun fīhi nārun fa-iḥ'taraqat kadhālika yubayyinu l-lahu lakumu l-āyāti laʿallakum tatafakkarūna",
-    "translation": "",
+    "translation": "Would one of you like to have a garden of palm trees and grapevines underneath which rivers flow in which he has from every fruit? But he is afflicted with old age and has weak [i.e., immature] offspring, and it is hit by a whirlwind containing fire and is burned. Thus does Allāh make clear to you [His] verses that you might give thought.",
     "words": [
       {
         "id": "al-baqarah-266-1",
@@ -42044,7 +42309,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui de vous voudrait avoir un jardin de palmiers et de vignes sous lesquels coulent les rivières, où il aura droit à toutes sortes de fruits, puis être frappé par la vieillesse quand ses enfants sont encore en bas âge, et que tombe sur (son jardin) un déluge de feu et le brûle ? C’est ainsi qu’Allah vous expose clairement les Signes évidents, afin que, peut-être, vous les méditiez !"
   },
   {
     "id": "al-baqarah-267",
@@ -42053,7 +42319,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِن طَيِّبَـٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا أنفقوا من طيبـت ما كسبتم وممآ أخرجنا لكم من ٱلأرض  ولا تيمموا ٱلخبيث منه تنفقون ولستم بـٔاخذيه إلآ أن تغمضوا فيه  وٱعلموٓا أن ٱلله غنى حميد",
     "transliteration": "yāayyuhā alladhīna āmanū anfiqū min ṭayyibāti mā kasabtum wamimmā akhrajnā lakum mina l-arḍi walā tayammamū l-khabītha min'hu tunfiqūna walastum biākhidhīhi illā an tugh'miḍū fīhi wa-iʿ'lamū anna l-laha ghaniyyun ḥamīdun",
-    "translation": "",
+    "translation": "O you who have believed, spend from the good things which you have earned and from that which We have produced for you from the earth. And do not aim toward the defective therefrom, spending [from that] while you would not take it [yourself] except with closed eyes. And know that Allāh is Free of need and Praiseworthy.",
     "words": [
       {
         "id": "al-baqarah-267-1",
@@ -42259,7 +42525,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Dépensez du meilleur que vous ayez acquis et de ce que Nous avons fait sortir de la terre pour vous. Ne choisissez donc pas de dépenser de ce que vous possédez de plus vil et que vous-mêmes n’accepteriez de prendre qu’en fermant les yeux. Et sachez qu’Allah Se passe de Toutes richesses et qu’Il est Digne de Toutes Louanges."
   },
   {
     "id": "al-baqarah-268",
@@ -42268,7 +42535,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلشَّيْطَـٰنُ يَعِدُكُمُ ٱلْفَقْرَ وَيَأْمُرُكُم بِٱلْفَحْشَآءِ ۖ وَٱللَّهُ يَعِدُكُم مَّغْفِرَةً مِّنْهُ وَفَضْلًا ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
     "textSimple": "ٱلشيطـن يعدكم ٱلفقر ويأمركم بٱلفحشآء  وٱلله يعدكم مغفرة منه وفضلا  وٱلله وسع عليم",
     "transliteration": "al-shayṭānu yaʿidukumu l-faqra wayamurukum bil-faḥshāi wal-lahu yaʿidukum maghfiratan min'hu wafaḍlan wal-lahu wāsiʿun ʿalīmun",
-    "translation": "",
+    "translation": "Satan threatens you with poverty and orders you to immorality, while Allāh promises you forgiveness from Him and bounty. And Allāh is all-Encompassing and Knowing.",
     "words": [
       {
         "id": "al-baqarah-268-1",
@@ -42362,7 +42629,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Satan vous promet la pauvreté et vous ordonne la dépravation ; Allah vous promet le pardon par Sa grâce. Et Allah est Immense et Omniscient."
   },
   {
     "id": "al-baqarah-269",
@@ -42371,7 +42639,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يُؤْتِى ٱلْحِكْمَةَ مَن يَشَآءُ ۚ وَمَن يُؤْتَ ٱلْحِكْمَةَ فَقَدْ أُوتِىَ خَيْرًا كَثِيرًا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ",
     "textSimple": "يؤتى ٱلحكمة من يشآء  ومن يؤت ٱلحكمة فقد أوتى خيرا كثيرا  وما يذكر إلآ أولوا ٱلألبـب",
     "transliteration": "yu'tī l-ḥik'mata man yashāu waman yu'ta l-ḥik'mata faqad ūtiya khayran kathīran wamā yadhakkaru illā ulū l-albābi",
-    "translation": "",
+    "translation": "He gives wisdom to whom He wills, and whoever has been given wisdom has certainly been given much good. And none will remember except those of understanding.",
     "words": [
       {
         "id": "al-baqarah-269-1",
@@ -42486,7 +42754,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il donne la sagesse à qui Il veut, et celui qui a reçu la sagesse a certes reçu un bien abondant. Seuls s’en souviennent les esprits sagaces."
   },
   {
     "id": "al-baqarah-270",
@@ -42495,7 +42764,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَنفَقْتُم مِّن نَّفَقَةٍ أَوْ نَذَرْتُم مِّن نَّذْرٍ فَإِنَّ ٱللَّهَ يَعْلَمُهُۥ ۗ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍ",
     "textSimple": "ومآ أنفقتم من نفقة أو نذرتم من نذر فإن ٱلله يعلمه  وما للظـلمين من أنصار",
     "transliteration": "wamā anfaqtum min nafaqatin aw nadhartum min nadhrin fa-inna l-laha yaʿlamuhu wamā lilẓẓālimīna min anṣārin",
-    "translation": "",
+    "translation": "And whatever you spend of expenditures or make of vows - indeed, Allāh knows of it. And for the wrongdoers there are no helpers.",
     "words": [
       {
         "id": "al-baqarah-270-1",
@@ -42603,7 +42872,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quelque dépense (en aumône) que vous ayez faite, quelque vœu pieux que vous ayez formé, Allah le Sait. Et les injustes n’auront aucun secours."
   },
   {
     "id": "al-baqarah-271",
@@ -42612,7 +42882,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِن تُبْدُوا۟ ٱلصَّدَقَـٰتِ فَنِعِمَّا هِىَ ۖ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌ لَّكُمْ ۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "إن تبدوا ٱلصدقـت فنعما هى  وإن تخفوها وتؤتوها ٱلفقرآء فهو خير لكم  ويكفر عنكم من سيـٔاتكم  وٱلله بما تعملون خبير",
     "transliteration": "in tub'dū l-ṣadaqāti faniʿimmā hiya wa-in tukh'fūhā watu'tūhā l-fuqarāa fahuwa khayrun lakum wayukaffiru ʿankum min sayyiātikum wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "If you disclose your charitable expenditures, they are good; but if you conceal them and give them to the poor, it is better for you, and He will remove from you some of your misdeeds [thereby]. And Allāh, of what you do, is [fully] Aware.",
     "words": [
       {
         "id": "al-baqarah-271-1",
@@ -42755,7 +43025,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous faites ouvertement vos charités, c’est bien ; et si vous les gardez secrètes et que vous les donniez aux pauvres, c’est encore mieux pour vous car cela rachètera une partie de vos péchés. Et Allah est, de ce que vous faites, parfaitement Informé."
   },
   {
     "id": "al-baqarah-272",
@@ -42764,7 +43035,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَّيْسَ عَلَيْكَ هُدَىٰهُمْ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَلِأَنفُسِكُمْ ۚ وَمَا تُنفِقُونَ إِلَّا ٱبْتِغَآءَ وَجْهِ ٱللَّهِ ۚ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ",
     "textSimple": " ليس عليك هدىهم ولـكن ٱلله يهدى من يشآء  وما تنفقوا من خير فلأنفسكم  وما تنفقون إلا ٱبتغآء وجه ٱلله  وما تنفقوا من خير يوف إليكم وأنتم لا تظلمون",
     "transliteration": "laysa ʿalayka hudāhum walākinna l-laha yahdī man yashāu wamā tunfiqū min khayrin fali-anfusikum wamā tunfiqūna illā ib'tighāa wajhi l-lahi wamā tunfiqū min khayrin yuwaffa ilaykum wa-antum lā tuẓ'lamūna",
-    "translation": "",
+    "translation": "Not upon you, [O Muḥammad], is [responsibility for] their guidance, but Allāh guides whom He wills. And whatever good you [believers] spend is for yourselves, and you do not spend except seeking the face [i.e., approval] of Allāh. And whatever you spend of good - it will be fully repaid to you, and you will not be wronged.",
     "words": [
       {
         "id": "al-baqarah-272-1",
@@ -42963,7 +43234,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne t’appartient pas de les guider (vers la juste voie), mais Allah guide qui Il veut. Tout ce que vous aurez dépensé comme biens, le sera pour vous-mêmes. Vous l’aurez dépensé pour être agréable à Allah. Tout ce que vous aurez dépensé comme biens vous sera généreusement rendu. Et vous ne serez point lésés."
   },
   {
     "id": "al-baqarah-273",
@@ -42972,7 +43244,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَـٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
     "textSimple": "للفقرآء ٱلذين أحصروا فى سبيل ٱلله لا يستطيعون ضربا فى ٱلأرض يحسبهم ٱلجاهل أغنيآء من ٱلتعفف تعرفهم بسيمـهم لا يسـٔلون ٱلناس إلحافا  وما تنفقوا من خير فإن ٱلله به عليم",
     "transliteration": "lil'fuqarāi alladhīna uḥ'ṣirū fī sabīli l-lahi lā yastaṭīʿūna ḍarban fī l-arḍi yaḥsabuhumu l-jāhilu aghniyāa mina l-taʿafufi taʿrifuhum bisīmāhum lā yasalūna l-nāsa il'ḥāfan wamā tunfiqū min khayrin fa-inna l-laha bihi ʿalīmun",
-    "translation": "",
+    "translation": "[Charity is] for the poor who have been restricted for the cause of Allāh, unable to move about in the land. An ignorant [person] would think them self-sufficient because of their restraint, but you will know them by their [characteristic] sign. They do not ask people persistently [or at all]. And whatever you spend of good - indeed, Allāh is Knowing of it.",
     "words": [
       {
         "id": "al-baqarah-273-1",
@@ -43185,7 +43457,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Vos dépenses en aumône iront) aux pauvres qui ont été retenus sur le chemin d’Allah, incapables de sillonner librement le monde, et que l’ignorant croit riches parce que, par pudeur, (ils n’osent pas demander la charité). Tu les reconnaîtras à leurs signes particuliers : ils n’incommodent pas les gens en mendiant avec insistance. Et Tout ce que vous dépensez comme biens Allah le Sait parfaitement."
   },
   {
     "id": "al-baqarah-274",
@@ -43194,7 +43467,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُم بِٱلَّيْلِ وَٱلنَّهَارِ سِرًّا وَعَلَانِيَةً فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "ٱلذين ينفقون أمولهم بٱليل وٱلنهار سرا وعلانية فلهم أجرهم عند ربهم ولا خوف عليهم ولا هم يحزنون",
     "transliteration": "alladhīna yunfiqūna amwālahum bi-al-layli wal-nahāri sirran waʿalāniyatan falahum ajruhum ʿinda rabbihim walā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Those who spend their wealth [in Allāh's way] by night and by day, secretly and publicly - they will have their reward with their Lord. And no fear will there be concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-baqarah-274-1",
@@ -43316,7 +43589,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui dépensent leurs biens nuit et jour, discrètement et ouvertement, auront leur récompense auprès de leur Seigneur ; il n’y aura nulle crainte pour eux, et ils n’auront aucune affliction."
   },
   {
     "id": "al-baqarah-275",
@@ -43325,7 +43599,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَـٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "ٱلذين يأكلون ٱلربوا لا يقومون إلا كما يقوم ٱلذى يتخبطه ٱلشيطـن من ٱلمس  ذلك بأنهم قالوٓا إنما ٱلبيع مثل ٱلربوا  وأحل ٱلله ٱلبيع وحرم ٱلربوا  فمن جآءه موعظة من ربه فٱنتهى فله ما سلف وأمرهٓ إلى ٱلله  ومن عاد فأولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "alladhīna yakulūna l-riba lā yaqūmūna illā kamā yaqūmu alladhī yatakhabbaṭuhu l-shayṭānu mina l-masi dhālika bi-annahum qālū innamā l-bayʿu mith'lu l-riba wa-aḥalla l-lahu l-bayʿa waḥarrama l-riba faman jāahu mawʿiẓatun min rabbihi fa-intahā falahu mā salafa wa-amruhu ilā l-lahi waman ʿāda fa-ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Those who consume interest cannot stand [on the Day of Resurrection] except as one stands who is being beaten by Satan into insanity. That is because they say, \"Trade is [just] like interest.\" But Allāh has permitted trade and has forbidden interest. So whoever has received an admonition from his Lord and desists may have what is past, and his affair rests with Allāh. But whoever returns [to dealing in interest or usury] - those are the companions of the Fire; they will abide eternally therein.",
     "words": [
       {
         "id": "al-baqarah-275-1",
@@ -43643,7 +43917,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 44
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui tirent profit de l’usure (ribâ), ne seront (rendus à la vie, le jour de la Résurrection) que comme celui que convulse l’emprise de Satan. Cela, parce qu’ils ont prétendu que la vente est identique à l’usure (ribâ). Mais Allah a permis la vente et a interdit l’usure (ribâ). Alors, celui qui a bien compris l’avertissement de son Seigneur et a arrêté (de pratiquer l’usure), gardera les gains déjà acquis et son cas dépendra d’Allah. Mais ceux qui récidivent, ce sont eux les hôtes du Feu, où ils séjourneront pour l’éternité."
   },
   {
     "id": "al-baqarah-276",
@@ -43652,7 +43927,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَمْحَقُ ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَـٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
     "textSimple": "يمحق ٱلله ٱلربوا ويربى ٱلصدقـت  وٱلله لا يحب كل كفار أثيم",
     "transliteration": "yamḥaqu l-lahu l-riba wayur'bī l-ṣadaqāti wal-lahu lā yuḥibbu kulla kaffārin athīmin",
-    "translation": "",
+    "translation": "Allāh destroys interest and gives increase for charities. And Allāh does not like every sinning disbeliever.",
     "words": [
       {
         "id": "al-baqarah-276-1",
@@ -43732,7 +44007,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah pulvérise l’usure (ribâ) tandis qu’Il fait fructifier les charités. Allah n’aime point tout mécréant pécheur."
   },
   {
     "id": "al-baqarah-277",
@@ -43741,7 +44017,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت وأقاموا ٱلصلوة وءاتوا ٱلزكوة لهم أجرهم عند ربهم ولا خوف عليهم ولا هم يحزنون",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti wa-aqāmū l-ṣalata waātawū l-zakata lahum ajruhum ʿinda rabbihim walā khawfun ʿalayhim walā hum yaḥzanūna",
-    "translation": "",
+    "translation": "Indeed, those who believe and do righteous deeds and establish prayer and give zakāh will have their reward with their Lord, and there will be no fear concerning them, nor will they grieve.",
     "words": [
       {
         "id": "al-baqarah-277-1",
@@ -43877,7 +44153,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru, ont accompli les bonnes œuvres, ont observé la Çalât et se sont acquittés de la Zakât, ceux là ont leur récompense auprès de leur Seigneur ; il n’y aura nulle crainte pour eux et ils n’auront aucune affliction."
   },
   {
     "id": "al-baqarah-278",
@@ -43886,7 +44163,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَذَرُوا۟ مَا بَقِىَ مِنَ ٱلرِّبَوٰٓا۟ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱتقوا ٱلله وذروا ما بقى من ٱلربوٓا إن كنتم مؤمنين",
     "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha wadharū mā baqiya mina l-riba in kuntum mu'minīna",
-    "translation": "",
+    "translation": "O you who have believed, fear Allāh and give up what remains [due to you] of interest, if you should be believers.",
     "words": [
       {
         "id": "al-baqarah-278-1",
@@ -43980,7 +44257,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Craignez Allah et renoncez à ce qui reste des gains usuraires (ribâ) si vous êtes croyants."
   },
   {
     "id": "al-baqarah-279",
@@ -43989,7 +44267,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن لَّمْ تَفْعَلُوا۟ فَأْذَنُوا۟ بِحَرْبٍ مِّنَ ٱللَّهِ وَرَسُولِهِۦ ۖ وَإِن تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَٰلِكُمْ لَا تَظْلِمُونَ وَلَا تُظْلَمُونَ",
     "textSimple": "فإن لم تفعلوا فأذنوا بحرب من ٱلله ورسوله  وإن تبتم فلكم رءوس أمولكم لا تظلمون ولا تظلمون",
     "transliteration": "fa-in lam tafʿalū fadhanū biḥarbin mina l-lahi warasūlihi wa-in tub'tum falakum ruūsu amwālikum lā taẓlimūna walā tuẓ'lamūna",
-    "translation": "",
+    "translation": "And if you do not, then be informed of a war [against you] from Allāh and His Messenger. But if you repent, you may have your principal - [thus] you do no wrong, nor are you wronged.",
     "words": [
       {
         "id": "al-baqarah-279-1",
@@ -44111,7 +44389,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous ne le faites pas, attendez-vous à une guerre de la part d’Allah et de Son Messager. Et si vous vous repentez, vous aurez toujours vos capitaux : vous ne léserez point et vous ne serez point lésés."
   },
   {
     "id": "al-baqarah-280",
@@ -44120,7 +44399,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "وإن كان ذو عسرة فنظرة إلى ميسرة  وأن تصدقوا خير لكم  إن كنتم تعلمون",
     "transliteration": "wa-in kāna dhū ʿus'ratin fanaẓiratun ilā maysaratin wa-an taṣaddaqū khayrun lakum in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "And if someone is in hardship, then [let there be] postponement until [a time of] ease. But if you give [from your right as] charity, then it is better for you, if you only knew.",
     "words": [
       {
         "id": "al-baqarah-280-1",
@@ -44221,7 +44500,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si (l’un de vos débiteurs) est dans la gêne, accordez-lui un délai jusqu’à ce que sa situation s’améliore. Mais ce serait bien meilleur pour vous de renoncer (à votre droit) par charité, si vous saviez !"
   },
   {
     "id": "al-baqarah-281",
@@ -44230,7 +44510,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ يَوْمًا تُرْجَعُونَ فِيهِ إِلَى ٱللَّهِ ۖ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
     "textSimple": "وٱتقوا يوما ترجعون فيه إلى ٱلله  ثم توفى كل نفس ما كسبت وهم لا يظلمون",
     "transliteration": "wa-ittaqū yawman tur'jaʿūna fīhi ilā l-lahi thumma tuwaffā kullu nafsin mā kasabat wahum lā yuẓ'lamūna",
-    "translation": "",
+    "translation": "And fear a Day when you will be returned to Allāh. Then every soul will be compensated for what it earned, and they will not be wronged [i.e., treated unjustly].",
     "words": [
       {
         "id": "al-baqarah-281-1",
@@ -44338,7 +44618,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et craignez un jour où vous serez ramenés à Allah, puis où chaque âme sera récompensée à la valeur de ce qu’elle aura acquis (comme actions). Ils ne seront point lésés."
   },
   {
     "id": "al-baqarah-282",
@@ -44347,7 +44628,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍ مُّسَمًّى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَـٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَـٰرَةً حَاضِرَةً تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌ وَلَا شَهِيدٌ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا تداينتم بدين إلىٓ أجل مسمى فٱكتبوه  وليكتب بينكم كاتب بٱلعدل  ولا يأب كاتب أن يكتب كما علمه ٱلله  فليكتب وليملل ٱلذى عليه ٱلحق وليتق ٱلله ربه ولا يبخس منه شيـٔا  فإن كان ٱلذى عليه ٱلحق سفيها أو ضعيفا أو لا يستطيع أن يمل هو فليملل وليه بٱلعدل  وٱستشهدوا شهيدين من رجالكم  فإن لم يكونا رجلين فرجل وٱمرأتان ممن ترضون من ٱلشهدآء أن تضل إحدىهما فتذكر إحدىهما ٱلأخرى  ولا يأب ٱلشهدآء إذا ما دعوا  ولا تسـٔموٓا أن تكتبوه صغيرا أو كبيرا إلىٓ أجله  ذلكم أقسط عند ٱلله وأقوم للشهـدة وأدنىٓ ألا ترتابوٓا  إلآ أن تكون تجـرة حاضرة تديرونها بينكم فليس عليكم جناح ألا تكتبوها  وأشهدوٓا إذا تبايعتم  ولا يضآر كاتب ولا شهيد  وإن تفعلوا فإنه فسوق بكم  وٱتقوا ٱلله  ويعلمكم ٱلله  وٱلله بكل شىء عليم",
     "transliteration": "yāayyuhā alladhīna āmanū idhā tadāyantum bidaynin ilā ajalin musamman fa-uk'tubūhu walyaktub baynakum kātibun bil-ʿadli walā yaba kātibun an yaktuba kamā ʿallamahu l-lahu falyaktub walyum'lili alladhī ʿalayhi l-ḥaqu walyattaqi l-laha rabbahu walā yabkhas min'hu shayan fa-in kāna alladhī ʿalayhi l-ḥaqu safīhan aw ḍaʿīfan aw lā yastaṭīʿu an yumilla huwa falyum'lil waliyyuhu bil-ʿadli wa-is'tashhidū shahīdayni min rijālikum fa-in lam yakūnā rajulayni farajulun wa-im'ra-atāni mimman tarḍawna mina l-shuhadāi an taḍilla iḥ'dāhumā fatudhakkira iḥ'dāhumā l-ukh'rā walā yaba l-shuhadāu idhā mā duʿū walā tasamū an taktubūhu ṣaghīran aw kabīran ilā ajalihi dhālikum aqsaṭu ʿinda l-lahi wa-aqwamu lilshahādati wa-adnā allā tartābū illā an takūna tijāratan ḥāḍiratan tudīrūnahā baynakum falaysa ʿalaykum junāḥun allā taktubūhā wa-ashhidū idhā tabāyaʿtum walā yuḍārra kātibun walā shahīdun wa-in tafʿalū fa-innahu fusūqun bikum wa-ittaqū l-laha wayuʿallimukumu l-lahu wal-lahu bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "O you who have believed, when you contract a debt for a specified term, write it down. And let a scribe write [it] between you in justice. Let no scribe refuse to write as Allāh has taught him. So let him write and let the one who has the obligation [i.e., the debtor] dictate. And let him fear Allāh, his Lord, and not leave anything out of it. But if the one who has the obligation is of limited understanding or weak or unable to dictate himself, then let his guardian dictate in justice. And bring to witness two witnesses from among your men. And if there are not two men [available], then a man and two women from those whom you accept as witnesses - so that if one of them [i.e., the women] errs, then the other can remind her. And let not the witnesses refuse when they are called upon. And do not be [too] weary to write it, whether it is small or large, for its [specified] term. That is more just in the sight of Allāh and stronger as evidence and more likely to prevent doubt between you, except when it is an immediate transaction which you conduct among yourselves. For [then] there is no blame upon you if you do not write it. And take witnesses when you conclude a contract. Let no scribe be harmed or any witness. For if you do so, indeed, it is [grave] disobedience in you. And fear Allāh. And Allāh teaches you. And Allāh is Knowing of all things.",
     "words": [
       {
         "id": "al-baqarah-282-1",
@@ -45246,7 +45527,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 127
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Lorsque vous contractez une dette à terme, qu’elle soit donc enregistrée par écrit. Et qu’un scripteur la consigne entre vous avec équité. Aucun scripteur ne doit refuser d’écrire conformément à ce qu’Allah lui a enseigné. Qu’il écrive donc pendant que le débiteur dicte. Que ce dernier craigne Allah, son Seigneur, et ne réduise rien de sa dette. Si le débiteur est débile, faible ou incapable de dicter lui-même, que dicte alors son tuteur avec équité. Faites-vous assister par deux hommes parmi les vôtres comme témoins. Si vous n’en trouvez pas deux, que ce soit un homme et deux femmes parmi celles que vous admettez comme témoins afin que si l’une d’elles s’égare l’autre lui rappelle (les faits). Les témoins n’auront pas à refuser quand ils sont appelés à témoigner. Et n’hésitez pas à l’écrire (la dette), qu’elle soit petite ou grande, en en fixant bien le terme. Voilà qui est, aux yeux d’Allah, plus équitable, plus crédible comme témoignage, et propre à vous empêcher de douter. Mais s’il s’agit d’une marchandise présente, que vous gérez entre vous, alors vous n’aurez pas péché en omettant de la consigner par écrit. Cependant, appelez toujours des témoins pour vos transactions et qu’il ne soit fait de tort ni au scripteur ni au témoin. Si vous le faisiez, ce serait le signe de votre perfidie. Craignez Allah. Allah vous enseigne et Allah est Omniscient."
   },
   {
     "id": "al-baqarah-283",
@@ -45255,7 +45537,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا۟ كَاتِبًا فَرِهَـٰنٌ مَّقْبُوضَةٌ ۖ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَـٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ ۗ وَلَا تَكْتُمُوا۟ ٱلشَّهَـٰدَةَ ۚ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ ءَاثِمٌ قَلْبُهُۥ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
     "textSimple": " وإن كنتم على سفر ولم تجدوا كاتبا فرهـن مقبوضة  فإن أمن بعضكم بعضا فليؤد ٱلذى ٱؤتمن أمـنته وليتق ٱلله ربه  ولا تكتموا ٱلشهـدة  ومن يكتمها فإنهٓ ءاثم قلبه  وٱلله بما تعملون عليم",
     "transliteration": "wa-in kuntum ʿalā safarin walam tajidū kātiban farihānun maqbūḍatun fa-in amina baʿḍukum baʿḍan falyu-addi alladhī u'tumina amānatahu walyattaqi l-laha rabbahu walā taktumū l-shahādata waman yaktum'hā fa-innahu āthimun qalbuhu wal-lahu bimā taʿmalūna ʿalīmun",
-    "translation": "",
+    "translation": "And if you are on a journey and cannot find a scribe, then a security deposit [should be] taken. And if one of you entrusts another, then let him who is entrusted discharge his trust [faithfully] and let him fear Allāh, his Lord. And do not conceal testimony, for whoever conceals it - his heart is indeed sinful, and Allāh is Knowing of what you do.",
     "words": [
       {
         "id": "al-baqarah-283-1",
@@ -45482,7 +45764,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si vous êtes en voyage et que vous ne trouviez pas de scripteur, un gage remis en main propre suffira. Et si vous vous tenez l’un l’autre en confiance, que celui à qui quelque chose a été confié le restitue ; qu’il craigne Allah, son Seigneur. Ne retenez pas le témoignage : celui qui le retient a certes péché en son cœur. Et Allah Sait parfaitement ce que vous faites."
   },
   {
     "id": "al-baqarah-284",
@@ -45491,7 +45774,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لِّلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَإِن تُبْدُوا۟ مَا فِىٓ أَنفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُم بِهِ ٱللَّهُ ۖ فَيَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "لله ما فى ٱلسمـوت وما فى ٱلأرض  وإن تبدوا ما فىٓ أنفسكم أو تخفوه يحاسبكم به ٱلله  فيغفر لمن يشآء ويعذب من يشآء  وٱلله على كل شىء قدير",
     "transliteration": "lillahi mā fī l-samāwāti wamā fī l-arḍi wa-in tub'dū mā fī anfusikum aw tukh'fūhu yuḥāsib'kum bihi l-lahu fayaghfiru liman yashāu wayuʿadhibu man yashāu wal-lahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "To Allāh belongs whatever is in the heavens and whatever is in the earth. Whether you show what is within yourselves or conceal it, Allāh will bring you to account for it. Then He will forgive whom He wills and punish whom He wills, and Allāh is over all things competent.",
     "words": [
       {
         "id": "al-baqarah-284-1",
@@ -45690,7 +45973,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah que revient ce qu’il y a dans les cieux et sur terre. Que vous montriez ce qui est au fond de vous-mêmes ou que vous le dissimuliez, Allah vous en demandera des comptes : Il pardonnera à qui Il voudra et soumettra au supplice qui Il voudra. Et Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-baqarah-285",
@@ -45699,7 +45983,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَـٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
     "textSimple": "ءامن ٱلرسول بمآ أنزل إليه من ربه وٱلمؤمنون  كل ءامن بٱلله وملـٓئكته وكتبه ورسله لا نفرق بين أحد من رسله  وقالوا سمعنا وأطعنا  غفرانك ربنا وإليك ٱلمصير",
     "transliteration": "āmana l-rasūlu bimā unzila ilayhi min rabbihi wal-mu'minūna kullun āmana bil-lahi wamalāikatihi wakutubihi warusulihi lā nufarriqu bayna aḥadin min rusulihi waqālū samiʿ'nā wa-aṭaʿnā ghuf'rānaka rabbanā wa-ilayka l-maṣīru",
-    "translation": "",
+    "translation": "The Messenger has believed in what was revealed to him from his Lord, and [so have] the believers. All of them have believed in Allāh and His angels and His books and His messengers, [saying], \"We make no distinction between any of His messengers.\" And they say, \"We hear and we obey. [We seek] Your forgiveness, our Lord, and to You is the [final] destination.\"",
     "words": [
       {
         "id": "al-baqarah-285-1",
@@ -45891,7 +46175,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Messager a cru en ce qu’a fait descendre sur lui (en révélation) son Seigneur, et les croyants ont tous cru en Allah, en Ses Anges, Ses livres et Ses Messagers : « Nous ne faisons nulle différence entre Ses Messagers », (ont-ils dit). Et ils ont dit aussi : «Nous avons entendu et nous avons obéi. Ta Clémence, Seigneur ! Car c’est vers Toi que sera le devenir. »"
   },
   {
     "id": "al-baqarah-286",
@@ -45900,7 +46185,7 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
     "textSimple": "لا يكلف ٱلله نفسا إلا وسعها  لها ما كسبت وعليها ما ٱكتسبت  ربنا لا تؤاخذنآ إن نسينآ أو أخطأنا  ربنا ولا تحمل علينآ إصرا كما حملته على ٱلذين من قبلنا  ربنا ولا تحملنا ما لا طاقة لنا به  وٱعف عنا وٱغفر لنا وٱرحمنآ  أنت مولىنا فٱنصرنا على ٱلقوم ٱلكـفرين",
     "transliteration": "lā yukallifu l-lahu nafsan illā wus'ʿahā lahā mā kasabat waʿalayhā mā ik'tasabat rabbanā lā tuākhidh'nā in nasīnā aw akhṭanā rabbanā walā taḥmil ʿalaynā iṣ'ran kamā ḥamaltahu ʿalā alladhīna min qablinā rabbanā walā tuḥammil'nā mā lā ṭāqata lanā bihi wa-uʿ'fu ʿannā wa-igh'fir lanā wa-ir'ḥamnā anta mawlānā fa-unṣur'nā ʿalā l-qawmi l-kāfirīna",
-    "translation": "",
+    "translation": "Allāh does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. \"Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people.\"",
     "words": [
       {
         "id": "al-baqarah-286-1",
@@ -46246,7 +46531,8 @@ export const AL_BAQARAH_AYAHS: Ayah[] = [
         "position": 48
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah n’impose à une âme que ce qu’elle peut supporter. Elle aura (la récompense) du bien qu’elle aura fait et (la punition) du mal qu’elle aura commis. Seigneur ! Ne nous en veux pas si nous avons oublié ou failli ! Seigneur ! Ne nous fais pas porter le fardeau dont Tu as chargé ceux qui nous ont précédés. Seigneur ! Ne nous fais pas supporter au-delà de nos capacités. Veuille nous accorder Ta clémence, pardonne-nous et accueille-nous dans Ton (infinie) miséricorde. Tu es Notre Maître, fais-nous donc triompher du peuple mécréant !"
   }
 ];
 

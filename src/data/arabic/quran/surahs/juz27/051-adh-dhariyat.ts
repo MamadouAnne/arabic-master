@@ -11,7 +11,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلذَّٰرِيَـٰتِ ذَرْوًا",
     "textSimple": " وٱلذريـت ذروا",
     "transliteration": "wal-dhāriyāti dharwan",
-    "translation": "",
+    "translation": "By the [winds] scattering [dust], dispersing [it]",
     "words": [
       {
         "id": "adh-dhariyat-1-1",
@@ -28,7 +28,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les éparpilleurs qui éparpillent tout !"
   },
   {
     "id": "adh-dhariyat-2",
@@ -37,7 +38,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْحَـٰمِلَـٰتِ وِقْرًا",
     "textSimple": "فٱلحـملـت وقرا",
     "transliteration": "fal-ḥāmilāti wiq'ran",
-    "translation": "",
+    "translation": "And the [clouds] carrying a load [of water]",
     "words": [
       {
         "id": "adh-dhariyat-2-1",
@@ -54,7 +55,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les porteurs de lourdes charges !"
   },
   {
     "id": "adh-dhariyat-3",
@@ -63,7 +65,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْجَـٰرِيَـٰتِ يُسْرًا",
     "textSimple": "فٱلجـريـت يسرا",
     "transliteration": "fal-jāriyāti yus'ran",
-    "translation": "",
+    "translation": "And the ships sailing with ease",
     "words": [
       {
         "id": "adh-dhariyat-3-1",
@@ -80,7 +82,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les coureurs avec autant d’aisance !"
   },
   {
     "id": "adh-dhariyat-4",
@@ -89,7 +92,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْمُقَسِّمَـٰتِ أَمْرًا",
     "textSimple": "فٱلمقسمـت أمرا",
     "transliteration": "fal-muqasimāti amran",
-    "translation": "",
+    "translation": "And the [angels] apportioning [each] matter,",
     "words": [
       {
         "id": "adh-dhariyat-4-1",
@@ -106,7 +109,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les distributeurs (des biens) conformément à un ordre !"
   },
   {
     "id": "adh-dhariyat-5",
@@ -115,7 +119,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا تُوعَدُونَ لَصَادِقٌ",
     "textSimple": "إنما توعدون لصادق",
     "transliteration": "innamā tūʿadūna laṣādiqun",
-    "translation": "",
+    "translation": "Indeed, what you are promised is true.",
     "words": [
       {
         "id": "adh-dhariyat-5-1",
@@ -139,7 +143,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qui vous est promis ne peut-être que vrai."
   },
   {
     "id": "adh-dhariyat-6",
@@ -148,7 +153,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ ٱلدِّينَ لَوَٰقِعٌ",
     "textSimple": "وإن ٱلدين لوقع",
     "transliteration": "wa-inna l-dīna lawāqiʿun",
-    "translation": "",
+    "translation": "And indeed, the recompense is to occur.",
     "words": [
       {
         "id": "adh-dhariyat-6-1",
@@ -172,7 +177,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et la Rétribution aura certes lieu."
   },
   {
     "id": "adh-dhariyat-7",
@@ -181,7 +187,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلْحُبُكِ",
     "textSimple": "وٱلسمآء ذات ٱلحبك",
     "transliteration": "wal-samāi dhāti l-ḥubuki",
-    "translation": "",
+    "translation": "By the heaven containing pathways,",
     "words": [
       {
         "id": "adh-dhariyat-7-1",
@@ -205,7 +211,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le ciel si harmonieusement façonné !"
   },
   {
     "id": "adh-dhariyat-8",
@@ -214,7 +221,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكُمْ لَفِى قَوْلٍ مُّخْتَلِفٍ",
     "textSimple": "إنكم لفى قول مختلف",
     "transliteration": "innakum lafī qawlin mukh'talifin",
-    "translation": "",
+    "translation": "Indeed, you are in differing speech.",
     "words": [
       {
         "id": "adh-dhariyat-8-1",
@@ -245,7 +252,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos avis sont inconstants."
   },
   {
     "id": "adh-dhariyat-9",
@@ -254,7 +262,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "يُؤْفَكُ عَنْهُ مَنْ أُفِكَ",
     "textSimple": "يؤفك عنه من أفك",
     "transliteration": "yu'faku ʿanhu man ufika",
-    "translation": "",
+    "translation": "Deluded away from it [i.e., the Qur’ān] is he who is deluded.",
     "words": [
       {
         "id": "adh-dhariyat-9-1",
@@ -285,7 +293,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Du Coran) se détournera certes celui qui s’est déjà détourné (de la foi)."
   },
   {
     "id": "adh-dhariyat-10",
@@ -294,7 +303,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "قُتِلَ ٱلْخَرَّٰصُونَ",
     "textSimple": "قتل ٱلخرصون",
     "transliteration": "qutila l-kharāṣūna",
-    "translation": "",
+    "translation": "Destroyed are the misinformers",
     "words": [
       {
         "id": "adh-dhariyat-10-1",
@@ -311,7 +320,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que périssent les fieffés menteurs,"
   },
   {
     "id": "adh-dhariyat-11",
@@ -320,7 +330,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ هُمْ فِى غَمْرَةٍ سَاهُونَ",
     "textSimple": "ٱلذين هم فى غمرة ساهون",
     "transliteration": "alladhīna hum fī ghamratin sāhūna",
-    "translation": "",
+    "translation": "Who are within a flood [of confusion] and heedless.",
     "words": [
       {
         "id": "adh-dhariyat-11-1",
@@ -358,7 +368,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui sont noyés dans l’insouciance,"
   },
   {
     "id": "adh-dhariyat-12",
@@ -367,7 +378,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ",
     "textSimple": "يسـٔلون أيان يوم ٱلدين",
     "transliteration": "yasalūna ayyāna yawmu l-dīni",
-    "translation": "",
+    "translation": "They ask, \"When is the Day of Recompense?\"",
     "words": [
       {
         "id": "adh-dhariyat-12-1",
@@ -398,7 +409,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui demandent : «Quand donc viendra le Jour de la Rétribution ? »"
   },
   {
     "id": "adh-dhariyat-13",
@@ -407,7 +419,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ",
     "textSimple": "يوم هم على ٱلنار يفتنون",
     "transliteration": "yawma hum ʿalā l-nāri yuf'tanūna",
-    "translation": "",
+    "translation": "[It is] the Day they will be tormented over the Fire.",
     "words": [
       {
         "id": "adh-dhariyat-13-1",
@@ -445,7 +457,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jour où ils seront éprouvés par le Feu."
   },
   {
     "id": "adh-dhariyat-14",
@@ -454,7 +467,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "ذُوقُوا۟ فِتْنَتَكُمْ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَسْتَعْجِلُونَ",
     "textSimple": "ذوقوا فتنتكم هـذا ٱلذى كنتم به تستعجلون",
     "transliteration": "dhūqū fit'natakum hādhā alladhī kuntum bihi tastaʿjilūna",
-    "translation": "",
+    "translation": "[And will be told], \"Taste your torment. This is that for which you were impatient.\"",
     "words": [
       {
         "id": "adh-dhariyat-14-1",
@@ -506,7 +519,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Goûtez donc votre épreuve, (leur sera-t-il dit), car c’est bien cela que vous vous empressiez de voir arriver ! »"
   },
   {
     "id": "adh-dhariyat-15",
@@ -515,7 +529,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "إن ٱلمتقين فى جنـت وعيون",
     "transliteration": "inna l-mutaqīna fī jannātin waʿuyūnin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be among gardens and springs,",
     "words": [
       {
         "id": "adh-dhariyat-15-1",
@@ -553,7 +567,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens pieux seront au milieu des jardins et des ruisseaux,"
   },
   {
     "id": "adh-dhariyat-16",
@@ -562,7 +577,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "ءَاخِذِينَ مَآ ءَاتَىٰهُمْ رَبُّهُمْ ۚ إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُحْسِنِينَ",
     "textSimple": "ءاخذين مآ ءاتىهم ربهم  إنهم كانوا قبل ذلك محسنين",
     "transliteration": "ākhidhīna mā ātāhum rabbuhum innahum kānū qabla dhālika muḥ'sinīna",
-    "translation": "",
+    "translation": "Accepting what their Lord has given them. Indeed, they were before that doers of good.",
     "words": [
       {
         "id": "adh-dhariyat-16-1",
@@ -628,7 +643,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "y recevant ce que leur aura donné leur Seigneur, car ils étaient autrefois bienfaisants."
   },
   {
     "id": "adh-dhariyat-17",
@@ -637,7 +653,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "كَانُوا۟ قَلِيلًا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ",
     "textSimple": "كانوا قليلا من ٱليل ما يهجعون",
     "transliteration": "kānū qalīlan mina al-layli mā yahjaʿūna",
-    "translation": "",
+    "translation": "They used to sleep but little of the night,",
     "words": [
       {
         "id": "adh-dhariyat-17-1",
@@ -682,7 +698,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La nuit, ils dormaient peu"
   },
   {
     "id": "adh-dhariyat-18",
@@ -691,7 +708,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ",
     "textSimple": "وبٱلأسحار هم يستغفرون",
     "transliteration": "wabil-asḥāri hum yastaghfirūna",
-    "translation": "",
+    "translation": "And in the hours before dawn they would ask forgiveness,",
     "words": [
       {
         "id": "adh-dhariyat-18-1",
@@ -715,7 +732,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À la pointe de l’aube, ils imploraient le pardon."
   },
   {
     "id": "adh-dhariyat-19",
@@ -724,7 +742,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
     "textSimple": "وفىٓ أمولهم حق للسآئل وٱلمحروم",
     "transliteration": "wafī amwālihim ḥaqqun lilssāili wal-maḥrūmi",
-    "translation": "",
+    "translation": "And from their properties was [given] the right of the [needy] petitioner and the deprived.",
     "words": [
       {
         "id": "adh-dhariyat-19-1",
@@ -762,7 +780,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une part de leurs biens était réservée aux mendiants et aux démunis."
   },
   {
     "id": "adh-dhariyat-20",
@@ -771,7 +790,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِى ٱلْأَرْضِ ءَايَـٰتٌ لِّلْمُوقِنِينَ",
     "textSimple": "وفى ٱلأرض ءايـت للموقنين",
     "transliteration": "wafī l-arḍi āyātun lil'mūqinīna",
-    "translation": "",
+    "translation": "And on the earth are signs for the certain [in faith]",
     "words": [
       {
         "id": "adh-dhariyat-20-1",
@@ -802,7 +821,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a sur terre des Signes pour ceux dont la foi est sûre."
   },
   {
     "id": "adh-dhariyat-21",
@@ -811,7 +831,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِىٓ أَنفُسِكُمْ ۚ أَفَلَا تُبْصِرُونَ",
     "textSimple": "وفىٓ أنفسكم  أفلا تبصرون",
     "transliteration": "wafī anfusikum afalā tub'ṣirūna",
-    "translation": "",
+    "translation": "And in yourselves. Then will you not see?",
     "words": [
       {
         "id": "adh-dhariyat-21-1",
@@ -842,7 +862,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (il y en a aussi) en vous-mêmes. Ne voyez-vous donc pas ?"
   },
   {
     "id": "adh-dhariyat-22",
@@ -851,7 +872,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِى ٱلسَّمَآءِ رِزْقُكُمْ وَمَا تُوعَدُونَ",
     "textSimple": "وفى ٱلسمآء رزقكم وما توعدون",
     "transliteration": "wafī l-samāi riz'qukum wamā tūʿadūna",
-    "translation": "",
+    "translation": "And in the heaven is your provision and whatever you are promised.",
     "words": [
       {
         "id": "adh-dhariyat-22-1",
@@ -889,7 +910,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans le ciel se trouvent votre subsistance et tout ce qui vous est promis."
   },
   {
     "id": "adh-dhariyat-23",
@@ -898,7 +920,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ",
     "textSimple": "فورب ٱلسمآء وٱلأرض إنه لحق مثل مآ أنكم تنطقون",
     "transliteration": "fawarabbi l-samāi wal-arḍi innahu laḥaqqun mith'la mā annakum tanṭiqūna",
-    "translation": "",
+    "translation": "Then by the Lord of the heaven and earth, indeed, it is truth - just as [sure as] it is that you are speaking.",
     "words": [
       {
         "id": "adh-dhariyat-23-1",
@@ -964,7 +986,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le Seigneur du ciel et de la terre, (cette promesse) est tout aussi vraie que l’est votre don de la parole."
   },
   {
     "id": "adh-dhariyat-24",
@@ -973,7 +996,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
     "textSimple": "هل أتىك حديث ضيف إبرهيم ٱلمكرمين",
     "transliteration": "hal atāka ḥadīthu ḍayfi ib'rāhīma l-muk'ramīna",
-    "translation": "",
+    "translation": "Has there reached you the story of the honored guests of Abraham? -",
     "words": [
       {
         "id": "adh-dhariyat-24-1",
@@ -1018,7 +1041,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "T’est-il donc parvenu le récit des hôtes honorés d’Abraham ?"
   },
   {
     "id": "adh-dhariyat-25",
@@ -1027,7 +1051,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَـٰمًا ۖ قَالَ سَلَـٰمٌ قَوْمٌ مُّنكَرُونَ",
     "textSimple": "إذ دخلوا عليه فقالوا سلـما  قال سلـم قوم منكرون",
     "transliteration": "idh dakhalū ʿalayhi faqālū salāman qāla salāmun qawmun munkarūna",
-    "translation": "",
+    "translation": "When they entered upon him and said, \"[We greet you with] peace.\" He answered, \"[And upon you] peace; [you are] a people unknown.\"",
     "words": [
       {
         "id": "adh-dhariyat-25-1",
@@ -1093,7 +1117,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entrés chez lui, ils lui dirent : « Paix ! (Salâm) » « Paix à vous, étranges inconnus ! » leur répondit-il."
   },
   {
     "id": "adh-dhariyat-26",
@@ -1102,7 +1127,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَرَاغَ إِلَىٰٓ أَهْلِهِۦ فَجَآءَ بِعِجْلٍ سَمِينٍ",
     "textSimple": "فراغ إلىٓ أهله فجآء بعجل سمين",
     "transliteration": "farāgha ilā ahlihi fajāa biʿij'lin samīnin",
-    "translation": "",
+    "translation": "Then he went to his family and came with a fat [roasted] calf.",
     "words": [
       {
         "id": "adh-dhariyat-26-1",
@@ -1147,7 +1172,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il se retira rapidement et discrètement auprès de sa famille et revint avec un veau gras."
   },
   {
     "id": "adh-dhariyat-27",
@@ -1156,7 +1182,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَقَرَّبَهُۥٓ إِلَيْهِمْ قَالَ أَلَا تَأْكُلُونَ",
     "textSimple": "فقربهٓ إليهم قال ألا تأكلون",
     "transliteration": "faqarrabahu ilayhim qāla alā takulūna",
-    "translation": "",
+    "translation": "And placed it near them; he said, \"Will you not eat?\"",
     "words": [
       {
         "id": "adh-dhariyat-27-1",
@@ -1194,7 +1220,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En leur présentant le plat, (Abraham) dit : « Ne mangez-vous pas ? »"
   },
   {
     "id": "adh-dhariyat-28",
@@ -1203,7 +1230,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَوْجَسَ مِنْهُمْ خِيفَةً ۖ قَالُوا۟ لَا تَخَفْ ۖ وَبَشَّرُوهُ بِغُلَـٰمٍ عَلِيمٍ",
     "textSimple": "فأوجس منهم خيفة  قالوا لا تخف  وبشروه بغلـم عليم",
     "transliteration": "fa-awjasa min'hum khīfatan qālū lā takhaf wabasharūhu bighulāmin ʿalīmin",
-    "translation": "",
+    "translation": "And he felt from them apprehension. They said, \"Fear not,\" and gave him good tidings of a learned boy.",
     "words": [
       {
         "id": "adh-dhariyat-28-1",
@@ -1269,7 +1296,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Voyant qu’) il commençait à prendre peur devant eux, ils lui dirent : « N’aie aucune crainte ! » et ils lui annoncèrent l’heureuse (venue au monde) d’un fils (doté) d’un grand savoir."
   },
   {
     "id": "adh-dhariyat-29",
@@ -1278,7 +1306,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
     "textSimple": "فأقبلت ٱمرأته فى صرة فصكت وجهها وقالت عجوز عقيم",
     "transliteration": "fa-aqbalati im'ra-atuhu fī ṣarratin faṣakkat wajhahā waqālat ʿajūzun ʿaqīmun",
-    "translation": "",
+    "translation": "And his wife approached with a cry [of alarm] and struck her face and said, \"[I am] a barren old woman!\"",
     "words": [
       {
         "id": "adh-dhariyat-29-1",
@@ -1344,7 +1372,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sa femme fit irruption, criant et se frappant le visage : « (Avoir des enfants ?) Une vieille femme stérile (comme moi) ? »"
   },
   {
     "id": "adh-dhariyat-30",
@@ -1353,7 +1382,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ كَذَٰلِكِ قَالَ رَبُّكِ ۖ إِنَّهُۥ هُوَ ٱلْحَكِيمُ ٱلْعَلِيمُ",
     "textSimple": "قالوا كذلك قال ربك  إنه هو ٱلحكيم ٱلعليم",
     "transliteration": "qālū kadhāliki qāla rabbuki innahu huwa l-ḥakīmu l-ʿalīmu",
-    "translation": "",
+    "translation": "They said, \"Thus has said your Lord; indeed, He is the Wise, the Knowing.\"",
     "words": [
       {
         "id": "adh-dhariyat-30-1",
@@ -1412,7 +1441,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est ce qu’a décrété ton Seigneur, répondirent-ils, c’est Lui le Sage et l’Omniscient. »"
   },
   {
     "id": "adh-dhariyat-31",
@@ -1421,7 +1451,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
     "textSimple": " قال فما خطبكم أيها ٱلمرسلون",
     "transliteration": "qāla famā khaṭbukum ayyuhā l-mur'salūna",
-    "translation": "",
+    "translation": "[Abraham] said, \"Then what is your business [here], O messengers?\"",
     "words": [
       {
         "id": "adh-dhariyat-31-1",
@@ -1459,7 +1489,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Quelle est donc la raison de votre visite, ô émissaires ? » demanda (Abraham)."
   },
   {
     "id": "adh-dhariyat-32",
@@ -1468,7 +1499,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
     "textSimple": "قالوٓا إنآ أرسلنآ إلى قوم مجرمين",
     "transliteration": "qālū innā ur'sil'nā ilā qawmin muj'rimīna",
-    "translation": "",
+    "translation": "They said, \"Indeed, we have been sent to a people of criminals",
     "words": [
       {
         "id": "adh-dhariyat-32-1",
@@ -1513,7 +1544,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous sommes envoyés vers des gens coupables, répondirent-ils,"
   },
   {
     "id": "adh-dhariyat-33",
@@ -1522,7 +1554,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "لِنُرْسِلَ عَلَيْهِمْ حِجَارَةً مِّن طِينٍ",
     "textSimple": "لنرسل عليهم حجارة من طين",
     "transliteration": "linur'sila ʿalayhim ḥijāratan min ṭīnin",
-    "translation": "",
+    "translation": "To send down upon them stones of clay,",
     "words": [
       {
         "id": "adh-dhariyat-33-1",
@@ -1560,7 +1592,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour faire pleuvoir sur eux des pierres d’argile"
   },
   {
     "id": "adh-dhariyat-34",
@@ -1569,7 +1602,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ",
     "textSimple": "مسومة عند ربك للمسرفين",
     "transliteration": "musawwamatan ʿinda rabbika lil'mus'rifīna",
-    "translation": "",
+    "translation": "Marked in the presence of your Lord for the transgressors.\"",
     "words": [
       {
         "id": "adh-dhariyat-34-1",
@@ -1600,7 +1633,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "portant un signe auprès de ton Seigneur pour ceux qui commettent des abus. »"
   },
   {
     "id": "adh-dhariyat-35",
@@ -1609,7 +1643,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخْرَجْنَا مَن كَانَ فِيهَا مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "فأخرجنا من كان فيها من ٱلمؤمنين",
     "transliteration": "fa-akhrajnā man kāna fīhā mina l-mu'minīna",
-    "translation": "",
+    "translation": "So We brought out whoever was in them [i.e., the cities] of the believers.",
     "words": [
       {
         "id": "adh-dhariyat-35-1",
@@ -1654,7 +1688,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous en fîmes évacuer ceux qui étaient croyants."
   },
   {
     "id": "adh-dhariyat-36",
@@ -1663,7 +1698,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍ مِّنَ ٱلْمُسْلِمِينَ",
     "textSimple": "فما وجدنا فيها غير بيت من ٱلمسلمين",
     "transliteration": "famā wajadnā fīhā ghayra baytin mina l-mus'limīna",
-    "translation": "",
+    "translation": "And We found not within them other than a [single] house of Muslims.",
     "words": [
       {
         "id": "adh-dhariyat-36-1",
@@ -1715,7 +1750,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Nous n’y trouvâmes qu’une seule maison de (croyants) Soumis."
   },
   {
     "id": "adh-dhariyat-37",
@@ -1724,7 +1760,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَكْنَا فِيهَآ ءَايَةً لِّلَّذِينَ يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ",
     "textSimple": "وتركنا فيهآ ءاية للذين يخافون ٱلعذاب ٱلأليم",
     "transliteration": "wataraknā fīhā āyatan lilladhīna yakhāfūna l-ʿadhāba l-alīma",
-    "translation": "",
+    "translation": "And We left therein a sign for those who fear the painful punishment.",
     "words": [
       {
         "id": "adh-dhariyat-37-1",
@@ -1776,7 +1812,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous y laissâmes un Signe pour ceux qui craignent le supplice très douloureux."
   },
   {
     "id": "adh-dhariyat-38",
@@ -1785,7 +1822,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِى مُوسَىٰٓ إِذْ أَرْسَلْنَـٰهُ إِلَىٰ فِرْعَوْنَ بِسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "وفى موسىٓ إذ أرسلنـه إلى فرعون بسلطـن مبين",
     "transliteration": "wafī mūsā idh arsalnāhu ilā fir'ʿawna bisul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "And in Moses [was a sign], when We sent him to Pharaoh with clear authority.",
     "words": [
       {
         "id": "adh-dhariyat-38-1",
@@ -1844,7 +1881,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il est aussi un Signe) en Moïse, que Nous envoyâmes à Pharaon muni d’une évidente preuve d’autorité."
   },
   {
     "id": "adh-dhariyat-39",
@@ -1853,7 +1891,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّىٰ بِرُكْنِهِۦ وَقَالَ سَـٰحِرٌ أَوْ مَجْنُونٌ",
     "textSimple": "فتولى بركنه وقال سـحر أو مجنون",
     "transliteration": "fatawallā biruk'nihi waqāla sāḥirun aw majnūnun",
-    "translation": "",
+    "translation": "But he turned away with his supporters and said, \"A magician or a madman.\"",
     "words": [
       {
         "id": "adh-dhariyat-39-1",
@@ -1898,7 +1936,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais il se détourna, conforté dans son pouvoir, et dit : « Voilà bien un magicien ou un fou ! »"
   },
   {
     "id": "adh-dhariyat-40",
@@ -1907,7 +1946,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذْنَـٰهُ وَجُنُودَهُۥ فَنَبَذْنَـٰهُمْ فِى ٱلْيَمِّ وَهُوَ مُلِيمٌ",
     "textSimple": "فأخذنـه وجنوده فنبذنـهم فى ٱليم وهو مليم",
     "transliteration": "fa-akhadhnāhu wajunūdahu fanabadhnāhum fī l-yami wahuwa mulīmun",
-    "translation": "",
+    "translation": "So We took him and his soldiers and cast them into the sea, and he was blameworthy.",
     "words": [
       {
         "id": "adh-dhariyat-40-1",
@@ -1959,7 +1998,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous Nous saisîmes alors de lui et de son armée, et les précipitâmes dans les flots. (Il y disparut) blâmé et réprouvé."
   },
   {
     "id": "adh-dhariyat-41",
@@ -1968,7 +2008,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِى عَادٍ إِذْ أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ",
     "textSimple": "وفى عاد إذ أرسلنا عليهم ٱلريح ٱلعقيم",
     "transliteration": "wafī ʿādin idh arsalnā ʿalayhimu l-rīḥa l-ʿaqīma",
-    "translation": "",
+    "translation": "And in ʿAad [was a sign], when We sent against them the barren wind.",
     "words": [
       {
         "id": "adh-dhariyat-41-1",
@@ -2020,7 +2060,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Un autre Signe) fut celui des ‘Ad, sur lesquels Nous déchaînâmes des vents ravageurs,"
   },
   {
     "id": "adh-dhariyat-42",
@@ -2029,7 +2070,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "مَا تَذَرُ مِن شَىْءٍ أَتَتْ عَلَيْهِ إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ",
     "textSimple": "ما تذر من شىء أتت عليه إلا جعلته كٱلرميم",
     "transliteration": "mā tadharu min shayin atat ʿalayhi illā jaʿalathu kal-ramīmi",
-    "translation": "",
+    "translation": "It left nothing of what it came upon but that it made it like disintegrated ruins.",
     "words": [
       {
         "id": "adh-dhariyat-42-1",
@@ -2095,7 +2136,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ne laissaient rien sur leur passage qu’ils n’aient réduit en poussière."
   },
   {
     "id": "adh-dhariyat-43",
@@ -2104,7 +2146,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفِى ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا۟ حَتَّىٰ حِينٍ",
     "textSimple": "وفى ثمود إذ قيل لهم تمتعوا حتى حين",
     "transliteration": "wafī thamūda idh qīla lahum tamattaʿū ḥattā ḥīnin",
-    "translation": "",
+    "translation": "And in Thamūd, when it was said to them, \"Enjoy yourselves for a time.\"",
     "words": [
       {
         "id": "adh-dhariyat-43-1",
@@ -2163,7 +2205,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De même les Thamûd, lorsqu’il leur fut dit : « Jouissez donc (de vos biens) pour un temps ! »"
   },
   {
     "id": "adh-dhariyat-44",
@@ -2172,7 +2215,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّـٰعِقَةُ وَهُمْ يَنظُرُونَ",
     "textSimple": "فعتوا عن أمر ربهم فأخذتهم ٱلصـعقة وهم ينظرون",
     "transliteration": "faʿataw ʿan amri rabbihim fa-akhadhathumu l-ṣāʿiqatu wahum yanẓurūna",
-    "translation": "",
+    "translation": "But they were insolent toward the command of their Lord, so the thunderbolt seized them while they were looking on.",
     "words": [
       {
         "id": "adh-dhariyat-44-1",
@@ -2231,7 +2274,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils se dressèrent contre l’ordre de leur Seigneur et furent emportés par la foudre, alors qu’ils ne faisaient que regarder, (impuissants)."
   },
   {
     "id": "adh-dhariyat-45",
@@ -2240,7 +2284,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا ٱسْتَطَـٰعُوا۟ مِن قِيَامٍ وَمَا كَانُوا۟ مُنتَصِرِينَ",
     "textSimple": "فما ٱستطـعوا من قيام وما كانوا منتصرين",
     "transliteration": "famā is'taṭāʿū min qiyāmin wamā kānū muntaṣirīna",
-    "translation": "",
+    "translation": "And they were unable to arise, nor could they defend themselves.",
     "words": [
       {
         "id": "adh-dhariyat-45-1",
@@ -2292,7 +2336,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne purent ni se lever, ni triompher (de ce qu’il leur arrivait)."
   },
   {
     "id": "adh-dhariyat-46",
@@ -2301,7 +2346,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ",
     "textSimple": "وقوم نوح من قبل  إنهم كانوا قوما فـسقين",
     "transliteration": "waqawma nūḥin min qablu innahum kānū qawman fāsiqīna",
-    "translation": "",
+    "translation": "And [We destroyed] the people of Noah before; indeed, they were a people defiantly disobedient.",
     "words": [
       {
         "id": "adh-dhariyat-46-1",
@@ -2360,7 +2405,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ainsi en fut-il) du peuple de Noé qui était aussi un peuple de pervers."
   },
   {
     "id": "adh-dhariyat-47",
@@ -2369,7 +2415,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّمَآءَ بَنَيْنَـٰهَا بِأَيْي۟دٍ وَإِنَّا لَمُوسِعُونَ",
     "textSimple": "وٱلسمآء بنينـها بأييد وإنا لموسعون",
     "transliteration": "wal-samāa banaynāhā bi-aydin wa-innā lamūsiʿūna",
-    "translation": "",
+    "translation": "And the heaven We constructed with strength, and indeed, We are [its] expander.",
     "words": [
       {
         "id": "adh-dhariyat-47-1",
@@ -2407,7 +2453,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le ciel, c’est Nous Qui l’avons puissamment bâti et Nous ne cessons de l’élargir."
   },
   {
     "id": "adh-dhariyat-48",
@@ -2416,7 +2463,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضَ فَرَشْنَـٰهَا فَنِعْمَ ٱلْمَـٰهِدُونَ",
     "textSimple": "وٱلأرض فرشنـها فنعم ٱلمـهدون",
     "transliteration": "wal-arḍa farashnāhā faniʿ'ma l-māhidūna",
-    "translation": "",
+    "translation": "And the earth We have spread out, and excellent is the preparer.",
     "words": [
       {
         "id": "adh-dhariyat-48-1",
@@ -2447,7 +2494,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La terre, c’est Nous Qui l’avons étendue (et aménagée)! Quel excellent Aménageur Nous sommes !"
   },
   {
     "id": "adh-dhariyat-49",
@@ -2456,7 +2504,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمِن كُلِّ شَىْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
     "textSimple": "ومن كل شىء خلقنا زوجين لعلكم تذكرون",
     "transliteration": "wamin kulli shayin khalaqnā zawjayni laʿallakum tadhakkarūna",
-    "translation": "",
+    "translation": "And of all things We created two mates [i.e., counterparts]; perhaps you will remember.",
     "words": [
       {
         "id": "adh-dhariyat-49-1",
@@ -2508,7 +2556,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De toute chose, Nous avons créé un couple afin que vous y réfléchissiez."
   },
   {
     "id": "adh-dhariyat-50",
@@ -2517,7 +2566,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَفِرُّوٓا۟ إِلَى ٱللَّهِ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
     "textSimple": "ففروٓا إلى ٱلله  إنى لكم منه نذير مبين",
     "transliteration": "fafirrū ilā l-lahi innī lakum min'hu nadhīrun mubīnun",
-    "translation": "",
+    "translation": "So flee to Allāh. Indeed, I am to you from Him a clear warner.",
     "words": [
       {
         "id": "adh-dhariyat-50-1",
@@ -2576,7 +2625,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Fuyez vers Allah ! Je viens vers vous de Sa part en avertisseur explicite."
   },
   {
     "id": "adh-dhariyat-51",
@@ -2585,7 +2635,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَجْعَلُوا۟ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
     "textSimple": "ولا تجعلوا مع ٱلله إلـها ءاخر  إنى لكم منه نذير مبين",
     "transliteration": "walā tajʿalū maʿa l-lahi ilāhan ākhara innī lakum min'hu nadhīrun mubīnun",
-    "translation": "",
+    "translation": "And do not make [as equal] with Allāh another deity. Indeed, I am to you from Him a clear warner.",
     "words": [
       {
         "id": "adh-dhariyat-51-1",
@@ -2665,7 +2715,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’associez à Allah aucune autre divinité ! Je viens de Sa part en avertisseur explicite. »"
   },
   {
     "id": "adh-dhariyat-52",
@@ -2674,7 +2725,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ مَآ أَتَى ٱلَّذِينَ مِن قَبْلِهِم مِّن رَّسُولٍ إِلَّا قَالُوا۟ سَاحِرٌ أَوْ مَجْنُونٌ",
     "textSimple": "كذلك مآ أتى ٱلذين من قبلهم من رسول إلا قالوا ساحر أو مجنون",
     "transliteration": "kadhālika mā atā alladhīna min qablihim min rasūlin illā qālū sāḥirun aw majnūnun",
-    "translation": "",
+    "translation": "Similarly, there came not to those before them any messenger except that they said, \"A magician or a madman.\"",
     "words": [
       {
         "id": "adh-dhariyat-52-1",
@@ -2768,7 +2819,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi, il n’était venu vers ceux qui les avaient devancés aucun Messager sans qu’ils n’aient dit (de lui) : « Voilà bien un magicien ou un fou ! »"
   },
   {
     "id": "adh-dhariyat-53",
@@ -2777,7 +2829,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌ طَاغُونَ",
     "textSimple": "أتواصوا به  بل هم قوم طاغون",
     "transliteration": "atawāṣaw bihi bal hum qawmun ṭāghūna",
-    "translation": "",
+    "translation": "Did they suggest it to them? Rather, they [themselves] are a transgressing people.",
     "words": [
       {
         "id": "adh-dhariyat-53-1",
@@ -2822,7 +2874,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Se seraient-ils passé le mot à son sujet ? Non, c’est plutôt un peuple rebelle."
   },
   {
     "id": "adh-dhariyat-54",
@@ -2831,7 +2884,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ بِمَلُومٍ",
     "textSimple": "فتول عنهم فمآ أنت بملوم",
     "transliteration": "fatawalla ʿanhum famā anta bimalūmin",
-    "translation": "",
+    "translation": "So leave them, [O Muḥammad], for you are not to be blamed.",
     "words": [
       {
         "id": "adh-dhariyat-54-1",
@@ -2869,7 +2922,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détourne-toi d’eux, tu n’en seras point blâmé !"
   },
   {
     "id": "adh-dhariyat-55",
@@ -2878,7 +2932,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَذَكِّرْ فَإِنَّ ٱلذِّكْرَىٰ تَنفَعُ ٱلْمُؤْمِنِينَ",
     "textSimple": "وذكر فإن ٱلذكرى تنفع ٱلمؤمنين",
     "transliteration": "wadhakkir fa-inna l-dhik'rā tanfaʿu l-mu'minīna",
-    "translation": "",
+    "translation": "And remind, for indeed, the reminder benefits the believers.",
     "words": [
       {
         "id": "adh-dhariyat-55-1",
@@ -2916,7 +2970,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et rappelle, car le rappel profite aux croyants."
   },
   {
     "id": "adh-dhariyat-56",
@@ -2925,7 +2980,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
     "textSimple": "وما خلقت ٱلجن وٱلإنس إلا ليعبدون",
     "transliteration": "wamā khalaqtu l-jina wal-insa illā liyaʿbudūni",
-    "translation": "",
+    "translation": "And I did not create the jinn and mankind except to worship Me.",
     "words": [
       {
         "id": "adh-dhariyat-56-1",
@@ -2970,7 +3025,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je n’ai créé les djinns et les hommes que pour qu’ils M’adorent."
   },
   {
     "id": "adh-dhariyat-57",
@@ -2979,7 +3035,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أُرِيدُ مِنْهُم مِّن رِّزْقٍ وَمَآ أُرِيدُ أَن يُطْعِمُونِ",
     "textSimple": "مآ أريد منهم من رزق ومآ أريد أن يطعمون",
     "transliteration": "mā urīdu min'hum min riz'qin wamā urīdu an yuṭ'ʿimūni",
-    "translation": "",
+    "translation": "I do not want from them any provision, nor do I want them to feed Me.",
     "words": [
       {
         "id": "adh-dhariyat-57-1",
@@ -3045,7 +3101,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne leur réclame aucune subsistance ni n’attends qu’ils Me nourrissent."
   },
   {
     "id": "adh-dhariyat-58",
@@ -3054,7 +3111,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ هُوَ ٱلرَّزَّاقُ ذُو ٱلْقُوَّةِ ٱلْمَتِينُ",
     "textSimple": "إن ٱلله هو ٱلرزاق ذو ٱلقوة ٱلمتين",
     "transliteration": "inna l-laha huwa l-razāqu dhū l-quwati l-matīnu",
-    "translation": "",
+    "translation": "Indeed, it is Allāh who is the [continual] Provider, the firm possessor of strength.",
     "words": [
       {
         "id": "adh-dhariyat-58-1",
@@ -3106,7 +3163,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, Lui, est le Dispensateur de subsistance, le Très Fort, l’Inébranlable."
   },
   {
     "id": "adh-dhariyat-59",
@@ -3115,7 +3173,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًا مِّثْلَ ذَنُوبِ أَصْحَـٰبِهِمْ فَلَا يَسْتَعْجِلُونِ",
     "textSimple": "فإن للذين ظلموا ذنوبا مثل ذنوب أصحـبهم فلا يستعجلون",
     "transliteration": "fa-inna lilladhīna ẓalamū dhanūban mith'la dhanūbi aṣḥābihim falā yastaʿjilūni",
-    "translation": "",
+    "translation": "And indeed, for those who have wronged is a portion [of punishment] like the portion of their companions [i.e., predecessors], so let them not impatiently urge Me.",
     "words": [
       {
         "id": "adh-dhariyat-59-1",
@@ -3181,7 +3239,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont commis des injustices auront une part (de châtiment) identique à celle de leurs semblables (des temps passés). Qu’ils ne soient donc pas empressés (de hâter le châtiment)."
   },
   {
     "id": "adh-dhariyat-60",
@@ -3190,7 +3249,7 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِن يَوْمِهِمُ ٱلَّذِى يُوعَدُونَ",
     "textSimple": "فويل للذين كفروا من يومهم ٱلذى يوعدون",
     "transliteration": "fawaylun lilladhīna kafarū min yawmihimu alladhī yūʿadūna",
-    "translation": "",
+    "translation": "And woe to those who have disbelieved from their Day which they are promised.",
     "words": [
       {
         "id": "adh-dhariyat-60-1",
@@ -3242,7 +3301,8 @@ export const ADH_DHARIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur à ceux qui ont mécru, quand (viendra) ce jour qui est le leur et dont ils sont menacés !"
   }
 ];
 

@@ -11,7 +11,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا ٱلشَّمْسُ كُوِّرَتْ",
     "textSimple": " إذا ٱلشمس كورت",
     "transliteration": "idhā l-shamsu kuwwirat",
-    "translation": "",
+    "translation": "When the sun is wrapped up [in darkness]",
     "words": [
       {
         "id": "at-takwir-1-1",
@@ -35,7 +35,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand le soleil sera une sphère obscurcie,"
   },
   {
     "id": "at-takwir-2",
@@ -44,7 +45,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
     "textSimple": "وإذا ٱلنجوم ٱنكدرت",
     "transliteration": "wa-idhā l-nujūmu inkadarat",
-    "translation": "",
+    "translation": "And when the stars fall, dispersing,",
     "words": [
       {
         "id": "at-takwir-2-1",
@@ -68,7 +69,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les étoiles tomberont, éteintes,"
   },
   {
     "id": "at-takwir-3",
@@ -77,7 +79,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
     "textSimple": "وإذا ٱلجبال سيرت",
     "transliteration": "wa-idhā l-jibālu suyyirat",
-    "translation": "",
+    "translation": "And when the mountains are removed",
     "words": [
       {
         "id": "at-takwir-3-1",
@@ -101,7 +103,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les montagnes seront mises en mouvement,"
   },
   {
     "id": "at-takwir-4",
@@ -110,7 +113,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
     "textSimple": "وإذا ٱلعشار عطلت",
     "transliteration": "wa-idhā l-ʿishāru ʿuṭṭilat",
-    "translation": "",
+    "translation": "And when full-term she-camels are neglected",
     "words": [
       {
         "id": "at-takwir-4-1",
@@ -134,7 +137,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les chamelles en gésine seront délaissées,"
   },
   {
     "id": "at-takwir-5",
@@ -143,7 +147,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
     "textSimple": "وإذا ٱلوحوش حشرت",
     "transliteration": "wa-idhā l-wuḥūshu ḥushirat",
-    "translation": "",
+    "translation": "And when the wild beasts are gathered",
     "words": [
       {
         "id": "at-takwir-5-1",
@@ -167,7 +171,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les bêtes sauvages seront rassemblées,"
   },
   {
     "id": "at-takwir-6",
@@ -176,7 +181,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
     "textSimple": "وإذا ٱلبحار سجرت",
     "transliteration": "wa-idhā l-biḥāru sujjirat",
-    "translation": "",
+    "translation": "And when the seas are filled with flame",
     "words": [
       {
         "id": "at-takwir-6-1",
@@ -200,7 +205,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les mers seront enflammées,"
   },
   {
     "id": "at-takwir-7",
@@ -209,7 +215,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ",
     "textSimple": "وإذا ٱلنفوس زوجت",
     "transliteration": "wa-idhā l-nufūsu zuwwijat",
-    "translation": "",
+    "translation": "And when the souls are paired",
     "words": [
       {
         "id": "at-takwir-7-1",
@@ -233,7 +239,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les âmes seront réunies en couples (semblables),"
   },
   {
     "id": "at-takwir-8",
@@ -242,7 +249,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
     "textSimple": "وإذا ٱلموءدة سئلت",
     "transliteration": "wa-idhā l-mawūdatu su-ilat",
-    "translation": "",
+    "translation": "And when the girl [who was] buried alive is asked",
     "words": [
       {
         "id": "at-takwir-8-1",
@@ -266,7 +273,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’il sera demandé à la fillette enterrée vivante"
   },
   {
     "id": "at-takwir-9",
@@ -275,7 +283,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "بِأَىِّ ذَنۢبٍ قُتِلَتْ",
     "textSimple": "بأى ذنب قتلت",
     "transliteration": "bi-ayyi dhanbin qutilat",
-    "translation": "",
+    "translation": "For what sin she was killed",
     "words": [
       {
         "id": "at-takwir-9-1",
@@ -299,7 +307,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour quel péché elle a été tuée,"
   },
   {
     "id": "at-takwir-10",
@@ -308,7 +317,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
     "textSimple": "وإذا ٱلصحف نشرت",
     "transliteration": "wa-idhā l-ṣuḥufu nushirat",
-    "translation": "",
+    "translation": "And when the pages are spread [i.e., made public]",
     "words": [
       {
         "id": "at-takwir-10-1",
@@ -332,7 +341,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand les feuilles (du Livre des comptes) seront déployées,"
   },
   {
     "id": "at-takwir-11",
@@ -341,7 +351,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
     "textSimple": "وإذا ٱلسمآء كشطت",
     "transliteration": "wa-idhā l-samāu kushiṭat",
-    "translation": "",
+    "translation": "And when the sky is stripped away",
     "words": [
       {
         "id": "at-takwir-11-1",
@@ -365,7 +375,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand le ciel sera dépouillé,"
   },
   {
     "id": "at-takwir-12",
@@ -374,7 +385,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
     "textSimple": "وإذا ٱلجحيم سعرت",
     "transliteration": "wa-idhā l-jaḥīmu suʿʿirat",
-    "translation": "",
+    "translation": "And when Hellfire is set ablaze",
     "words": [
       {
         "id": "at-takwir-12-1",
@@ -398,7 +409,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que l’Enfer sera attisé,"
   },
   {
     "id": "at-takwir-13",
@@ -407,7 +419,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
     "textSimple": "وإذا ٱلجنة أزلفت",
     "transliteration": "wa-idhā l-janatu uz'lifat",
-    "translation": "",
+    "translation": "And when Paradise is brought near,",
     "words": [
       {
         "id": "at-takwir-13-1",
@@ -431,7 +443,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et le Paradis rapproché,"
   },
   {
     "id": "at-takwir-14",
@@ -440,7 +453,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "عَلِمَتْ نَفْسٌ مَّآ أَحْضَرَتْ",
     "textSimple": "علمت نفس مآ أحضرت",
     "transliteration": "ʿalimat nafsun mā aḥḍarat",
-    "translation": "",
+    "translation": "A soul will [then] know what it has brought [with it].",
     "words": [
       {
         "id": "at-takwir-14-1",
@@ -471,7 +484,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "chaque âme saura alors ce qu’elle aura accompli."
   },
   {
     "id": "at-takwir-15",
@@ -480,7 +494,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
     "textSimple": "فلآ أقسم بٱلخنس",
     "transliteration": "falā uq'simu bil-khunasi",
-    "translation": "",
+    "translation": "So I swear by the retreating stars -",
     "words": [
       {
         "id": "at-takwir-15-1",
@@ -504,7 +518,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’en jure par les étoiles qui se meuvent,"
   },
   {
     "id": "at-takwir-16",
@@ -513,7 +528,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْجَوَارِ ٱلْكُنَّسِ",
     "textSimple": "ٱلجوار ٱلكنس",
     "transliteration": "al-jawāri l-kunasi",
-    "translation": "",
+    "translation": "Those that run [their courses] and disappear [i.e., set]",
     "words": [
       {
         "id": "at-takwir-16-1",
@@ -530,7 +545,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui surgissent et s’éclipsent,"
   },
   {
     "id": "at-takwir-17",
@@ -539,7 +555,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّيْلِ إِذَا عَسْعَسَ",
     "textSimple": "وٱليل إذا عسعس",
     "transliteration": "wa-al-layli idhā ʿasʿasa",
-    "translation": "",
+    "translation": "And by the night as it closes in",
     "words": [
       {
         "id": "at-takwir-17-1",
@@ -563,7 +579,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "par la nuit quand elle rampe et se répand,"
   },
   {
     "id": "at-takwir-18",
@@ -572,7 +589,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ",
     "textSimple": "وٱلصبح إذا تنفس",
     "transliteration": "wal-ṣub'ḥi idhā tanaffasa",
-    "translation": "",
+    "translation": "And by the dawn when it breathes [i.e., stirs]",
     "words": [
       {
         "id": "at-takwir-18-1",
@@ -596,7 +613,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "par l’aurore quand elle respire,"
   },
   {
     "id": "at-takwir-19",
@@ -605,7 +623,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
     "textSimple": "إنه لقول رسول كريم",
     "transliteration": "innahu laqawlu rasūlin karīmin",
-    "translation": "",
+    "translation": "[That] indeed, it [i.e., the Qur’ān] is a word [conveyed by] a noble messenger [i.e., Gabriel]",
     "words": [
       {
         "id": "at-takwir-19-1",
@@ -636,7 +654,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que c’est la parole d’un noble émissaire,"
   },
   {
     "id": "at-takwir-20",
@@ -645,7 +664,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍ",
     "textSimple": "ذى قوة عند ذى ٱلعرش مكين",
     "transliteration": "dhī quwwatin ʿinda dhī l-ʿarshi makīnin",
-    "translation": "",
+    "translation": "[Who is] possessed of power and with the Owner of the Throne, secure [in position],",
     "words": [
       {
         "id": "at-takwir-20-1",
@@ -690,7 +709,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "fort de l’estime du Détenteur du Trône,"
   },
   {
     "id": "at-takwir-21",
@@ -699,7 +719,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "مُّطَاعٍ ثَمَّ أَمِينٍ",
     "textSimple": "مطاع ثم أمين",
     "transliteration": "muṭāʿin thamma amīnin",
-    "translation": "",
+    "translation": "Obeyed there [in the heavens] and trustworthy.",
     "words": [
       {
         "id": "at-takwir-21-1",
@@ -723,7 +743,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "écouté et loyal."
   },
   {
     "id": "at-takwir-22",
@@ -732,7 +753,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا صَاحِبُكُم بِمَجْنُونٍ",
     "textSimple": "وما صاحبكم بمجنون",
     "transliteration": "wamā ṣāḥibukum bimajnūnin",
-    "translation": "",
+    "translation": "And your companion [i.e., Prophet Muḥammad (ﷺ) ] is not [at all] mad.",
     "words": [
       {
         "id": "at-takwir-22-1",
@@ -756,7 +777,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre compagnon n’est certes pas fou."
   },
   {
     "id": "at-takwir-23",
@@ -765,7 +787,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ",
     "textSimple": "ولقد رءاه بٱلأفق ٱلمبين",
     "transliteration": "walaqad raāhu bil-ufuqi l-mubīni",
-    "translation": "",
+    "translation": "And he has already seen him [i.e., Gabriel] in the clear horizon.",
     "words": [
       {
         "id": "at-takwir-23-1",
@@ -796,7 +818,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il l’a bien vu à l’horizon où tout est clair."
   },
   {
     "id": "at-takwir-24",
@@ -805,7 +828,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍ",
     "textSimple": "وما هو على ٱلغيب بضنين",
     "transliteration": "wamā huwa ʿalā l-ghaybi biḍanīnin",
-    "translation": "",
+    "translation": "And he [i.e., Muḥammad (ﷺ)] is not a withholder of [knowledge of] the unseen.",
     "words": [
       {
         "id": "at-takwir-24-1",
@@ -843,7 +866,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce n’est pas lui qui sera avare du mystère révélé."
   },
   {
     "id": "at-takwir-25",
@@ -852,7 +876,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هُوَ بِقَوْلِ شَيْطَـٰنٍ رَّجِيمٍ",
     "textSimple": "وما هو بقول شيطـن رجيم",
     "transliteration": "wamā huwa biqawli shayṭānin rajīmin",
-    "translation": "",
+    "translation": "And it [i.e., the Qur’ān] is not the word of a devil, expelled [from the heavens].",
     "words": [
       {
         "id": "at-takwir-25-1",
@@ -890,7 +914,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est nullement la parole d’un démon lapidé."
   },
   {
     "id": "at-takwir-26",
@@ -899,7 +924,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَيْنَ تَذْهَبُونَ",
     "textSimple": "فأين تذهبون",
     "transliteration": "fa-ayna tadhhabūna",
-    "translation": "",
+    "translation": "So where are you going?",
     "words": [
       {
         "id": "at-takwir-26-1",
@@ -916,7 +941,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’allez-vous donc chercher ?"
   },
   {
     "id": "at-takwir-27",
@@ -925,7 +951,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ",
     "textSimple": "إن هو إلا ذكر للعـلمين",
     "transliteration": "in huwa illā dhik'run lil'ʿālamīna",
-    "translation": "",
+    "translation": "It is not except a reminder to the worlds",
     "words": [
       {
         "id": "at-takwir-27-1",
@@ -963,7 +989,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est là qu’un Rappel pour l’Univers,"
   },
   {
     "id": "at-takwir-28",
@@ -972,7 +999,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ",
     "textSimple": "لمن شآء منكم أن يستقيم",
     "transliteration": "liman shāa minkum an yastaqīma",
-    "translation": "",
+    "translation": "For whoever wills among you to take a right course.",
     "words": [
       {
         "id": "at-takwir-28-1",
@@ -1010,7 +1037,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour ceux d’entre vous, qui voudraient prendre le droit chemin."
   },
   {
     "id": "at-takwir-29",
@@ -1019,7 +1047,7 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ",
     "textSimple": "وما تشآءون إلآ أن يشآء ٱلله رب ٱلعـلمين",
     "transliteration": "wamā tashāūna illā an yashāa l-lahu rabbu l-ʿālamīna",
-    "translation": "",
+    "translation": "And you do not will except that Allāh wills - Lord of the worlds.",
     "words": [
       {
         "id": "at-takwir-29-1",
@@ -1078,7 +1106,8 @@ export const AT_TAKWIR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or, vous ne voudrez rien qu’Allah ne veuille, Lui, le Seigneur de l’Univers."
   }
 ];
 

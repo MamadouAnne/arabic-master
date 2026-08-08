@@ -8,6 +8,7 @@ import { getSurahById } from '../../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../../src/hooks/useQuranData';
 import { useQuranStore } from '../../../../src/stores/quranStore';
 import { useAyahTranslations } from '../../../../src/hooks/useAyahTranslations';
+import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { ReviewRating } from '../../../../src/types/quran';
 
@@ -24,6 +25,7 @@ const RATING_CONFIG: { rating: ReviewRating; labelKey: string; color: string }[]
 
 export default function SpacedRepetitionScreen() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
 
   const surah = getSurahById(surahId);
@@ -89,7 +91,7 @@ export default function SpacedRepetitionScreen() {
 
   const ayahTranslation = currentAyah
     ? langTranslations.get(currentAyah.ayahNumber)
-      || currentAyah.translation
+      || lc(currentAyah.translation, currentAyah.translationFr)
       || currentAyah.words.map(w => w.translation).join(' ')
     : '';
 

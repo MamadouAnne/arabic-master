@@ -11,7 +11,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "بَرَآءَةٌ مِّنَ ٱللَّهِ وَرَسُولِهِۦٓ إِلَى ٱلَّذِينَ عَـٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ",
     "textSimple": "برآءة من ٱلله ورسولهٓ إلى ٱلذين عـهدتم من ٱلمشركين",
     "transliteration": "barāatun mina l-lahi warasūlihi ilā alladhīna ʿāhadttum mina l-mush'rikīna",
-    "translation": "",
+    "translation": "[This is a declaration of] disassociation, from Allāh and His Messenger, to those with whom you had made a treaty among the polytheists.",
     "words": [
       {
         "id": "at-tawbah-1-1",
@@ -77,7 +77,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Voici) la proclamation de désengagement d’Allah et de Son Messager (dénonçant) le pacte que vous avez conclu avec les associâtres."
   },
   {
     "id": "at-tawbah-2",
@@ -86,7 +87,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَسِيحُوا۟ فِى ٱلْأَرْضِ أَرْبَعَةَ أَشْهُرٍ وَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ مُعْجِزِى ٱللَّهِ ۙ وَأَنَّ ٱللَّهَ مُخْزِى ٱلْكَـٰفِرِينَ",
     "textSimple": "فسيحوا فى ٱلأرض أربعة أشهر وٱعلموٓا أنكم غير معجزى ٱلله  وأن ٱلله مخزى ٱلكـفرين",
     "transliteration": "fasīḥū fī l-arḍi arbaʿata ashhurin wa-iʿ'lamū annakum ghayru muʿ'jizī l-lahi wa-anna l-laha mukh'zī l-kāfirīna",
-    "translation": "",
+    "translation": "So travel freely, [O disbelievers], throughout the land [during] four months but know that you cannot cause failure to Allāh and that Allāh will disgrace the disbelievers.",
     "words": [
       {
         "id": "at-tawbah-2-1",
@@ -187,7 +188,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(À ces derniers Nous disons) : « Allez de par le pays pendant quatre mois et sachez que vous ne saurez mettre au défi la puissance d’Allah, et Allah couvre d’opprobre les mécréants. »"
   },
   {
     "id": "at-tawbah-3",
@@ -196,7 +198,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَذَٰنٌ مِّنَ ٱللَّهِ وَرَسُولِهِۦٓ إِلَى ٱلنَّاسِ يَوْمَ ٱلْحَجِّ ٱلْأَكْبَرِ أَنَّ ٱللَّهَ بَرِىٓءٌ مِّنَ ٱلْمُشْرِكِينَ ۙ وَرَسُولُهُۥ ۚ فَإِن تُبْتُمْ فَهُوَ خَيْرٌ لَّكُمْ ۖ وَإِن تَوَلَّيْتُمْ فَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ مُعْجِزِى ٱللَّهِ ۗ وَبَشِّرِ ٱلَّذِينَ كَفَرُوا۟ بِعَذَابٍ أَلِيمٍ",
     "textSimple": "وأذن من ٱلله ورسولهٓ إلى ٱلناس يوم ٱلحج ٱلأكبر أن ٱلله برىٓء من ٱلمشركين  ورسوله  فإن تبتم فهو خير لكم  وإن توليتم فٱعلموٓا أنكم غير معجزى ٱلله  وبشر ٱلذين كفروا بعذاب أليم",
     "transliteration": "wa-adhānun mina l-lahi warasūlihi ilā l-nāsi yawma l-ḥaji l-akbari anna l-laha barīon mina l-mush'rikīna warasūluhu fa-in tub'tum fahuwa khayrun lakum wa-in tawallaytum fa-iʿ'lamū annakum ghayru muʿ'jizī l-lahi wabashiri alladhīna kafarū biʿadhābin alīmin",
-    "translation": "",
+    "translation": "And [it is] an announcement from Allāh and His Messenger to the people on the day of the greater pilgrimage that Allāh is disassociated from the disbelievers, and [so is] His Messenger. So if you repent, that is best for you; but if you turn away - then know that you will not cause failure to Allāh. And give tidings to those who disbelieve of a painful punishment.",
     "words": [
       {
         "id": "at-tawbah-3-1",
@@ -423,7 +425,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Voici) une annonce, pour le jour du Grand Pèlerinage, adressée aux hommes de la part d’Allah et de Son Messager : Allah et Son Messager sont libres de tout engagement vis-à-vis des associâtres. Si vous vous repentez, cela vaudra mieux pour vous, et si vous vous détournez (de la foi), sachez que vous ne saurez mettre au défi la puissance d’Allah. À ceux qui n’ont pas cru, annonce un très douloureux supplice."
   },
   {
     "id": "at-tawbah-4",
@@ -432,7 +435,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ عَـٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ يَنقُصُوكُمْ شَيْـًٔا وَلَمْ يُظَـٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
     "textSimple": "إلا ٱلذين عـهدتم من ٱلمشركين ثم لم ينقصوكم شيـٔا ولم يظـهروا عليكم أحدا فأتموٓا إليهم عهدهم إلى مدتهم  إن ٱلله يحب ٱلمتقين",
     "transliteration": "illā alladhīna ʿāhadttum mina l-mush'rikīna thumma lam yanquṣūkum shayan walam yuẓāhirū ʿalaykum aḥadan fa-atimmū ilayhim ʿahdahum ilā muddatihim inna l-laha yuḥibbu l-mutaqīna",
-    "translation": "",
+    "translation": "Excepted are those with whom you made a treaty among the polytheists and then they have not been deficient toward you in anything or supported anyone against you; so complete for them their treaty until their term [has ended]. Indeed, Allāh loves the righteous [who fear Him].",
     "words": [
       {
         "id": "at-tawbah-4-1",
@@ -589,7 +592,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Exception sera faite de ceux qui, d’entre les associâtres, vous sont liés par un pacte auquel ils n’ont en rien failli, et qui n’ont prêté soutien à personne contre vous. Respectez donc leur pacte jusqu’à son terme, car Allah aime ceux qui Le craignent."
   },
   {
     "id": "at-tawbah-5",
@@ -598,7 +602,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "فإذا ٱنسلخ ٱلأشهر ٱلحرم فٱقتلوا ٱلمشركين حيث وجدتموهم وخذوهم وٱحصروهم وٱقعدوا لهم كل مرصد  فإن تابوا وأقاموا ٱلصلوة وءاتوا ٱلزكوة فخلوا سبيلهم  إن ٱلله غفور رحيم",
     "transliteration": "fa-idhā insalakha l-ashhuru l-ḥurumu fa-uq'tulū l-mush'rikīna ḥaythu wajadttumūhum wakhudhūhum wa-uḥ'ṣurūhum wa-uq'ʿudū lahum kulla marṣadin fa-in tābū wa-aqāmū l-ṣalata waātawū l-zakata fakhallū sabīlahum inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And when the inviolable months have passed, then kill the polytheists wherever you find them and capture them and besiege them and sit in wait for them at every place of ambush. But if they should repent, establish prayer, and give zakāh, let them [go] on their way. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-tawbah-5-1",
@@ -783,7 +787,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aussitôt qu’expirent les mois sacrés, tuez les associâtres là où vous les trouverez. Appréhendez-les, assiégez-les et soyez à l’affût, et dressez-leur toutes sortes d’embuscades. Et s’ils se repentent, observent la Çalât et s’acquittent de la Zakât, alors laissez-les en paix, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-6",
@@ -792,7 +797,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنْ أَحَدٌ مِّنَ ٱلْمُشْرِكِينَ ٱسْتَجَارَكَ فَأَجِرْهُ حَتَّىٰ يَسْمَعَ كَلَـٰمَ ٱللَّهِ ثُمَّ أَبْلِغْهُ مَأْمَنَهُۥ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْلَمُونَ",
     "textSimple": "وإن أحد من ٱلمشركين ٱستجارك فأجره حتى يسمع كلـم ٱلله ثم أبلغه مأمنه  ذلك بأنهم قوم لا يعلمون",
     "transliteration": "wa-in aḥadun mina l-mush'rikīna is'tajāraka fa-ajir'hu ḥattā yasmaʿa kalāma l-lahi thumma abligh'hu mamanahu dhālika bi-annahum qawmun lā yaʿlamūna",
-    "translation": "",
+    "translation": "And if any one of the polytheists seeks your protection, then grant him protection so that he may hear the words of Allāh [i.e., the Qur’ān]. Then deliver him to his place of safety. That is because they are a people who do not know.",
     "words": [
       {
         "id": "at-tawbah-6-1",
@@ -921,7 +926,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si l’un des associâtres te demande protection, tu la lui accorderas, afin qu’il entende (chez toi) la Parole d’Allah. Puis tu le feras conduire là où il se sentira en sécurité. C’est que ce sont des gens qui ne savent pas."
   },
   {
     "id": "at-tawbah-7",
@@ -930,7 +936,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "كَيْفَ يَكُونُ لِلْمُشْرِكِينَ عَهْدٌ عِندَ ٱللَّهِ وَعِندَ رَسُولِهِۦٓ إِلَّا ٱلَّذِينَ عَـٰهَدتُّمْ عِندَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۖ فَمَا ٱسْتَقَـٰمُوا۟ لَكُمْ فَٱسْتَقِيمُوا۟ لَهُمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
     "textSimple": "كيف يكون للمشركين عهد عند ٱلله وعند رسولهٓ إلا ٱلذين عـهدتم عند ٱلمسجد ٱلحرام  فما ٱستقـموا لكم فٱستقيموا لهم  إن ٱلله يحب ٱلمتقين",
     "transliteration": "kayfa yakūnu lil'mush'rikīna ʿahdun ʿinda l-lahi waʿinda rasūlihi illā alladhīna ʿāhadttum ʿinda l-masjidi l-ḥarāmi famā is'taqāmū lakum fa-is'taqīmū lahum inna l-laha yuḥibbu l-mutaqīna",
-    "translation": "",
+    "translation": "How can there be for the polytheists a treaty in the sight of Allāh and with His Messenger, except for those with whom you made a treaty at al-Masjid al-Ḥarām? So as long as they are upright toward you, be upright toward them. Indeed, Allāh loves the righteous [who fear Him].",
     "words": [
       {
         "id": "at-tawbah-7-1",
@@ -1094,7 +1100,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comment les associâtres peuvent-ils bénéficier d’un pacte les liant avec Allah et Son Messager, excepté ceux avec qui vous vous êtes engagés près de la Mosquée Sacrée ? Tant qu’ils se conduiront avec droiture à votre égard, conduisez-vous avec droiture à leur égard, car Allah aime ceux qui Le craignent."
   },
   {
     "id": "at-tawbah-8",
@@ -1103,7 +1110,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "كَيْفَ وَإِن يَظْهَرُوا۟ عَلَيْكُمْ لَا يَرْقُبُوا۟ فِيكُمْ إِلًّا وَلَا ذِمَّةً ۚ يُرْضُونَكُم بِأَفْوَٰهِهِمْ وَتَأْبَىٰ قُلُوبُهُمْ وَأَكْثَرُهُمْ فَـٰسِقُونَ",
     "textSimple": "كيف وإن يظهروا عليكم لا يرقبوا فيكم إلا ولا ذمة  يرضونكم بأفوههم وتأبى قلوبهم وأكثرهم فـسقون",
     "transliteration": "kayfa wa-in yaẓharū ʿalaykum lā yarqubū fīkum illan walā dhimmatan yur'ḍūnakum bi-afwāhihim watabā qulūbuhum wa-aktharuhum fāsiqūna",
-    "translation": "",
+    "translation": "How [can there be a treaty] while, if they gain dominance over you, they do not observe concerning you any pact of kinship or covenant of protection? They satisfy you with their mouths, but their hearts refuse [compliance], and most of them are defiantly disobedient.",
     "words": [
       {
         "id": "at-tawbah-8-1",
@@ -1218,7 +1225,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment (pourrait-il en être ainsi) alors que s’ils prenaient le dessus sur vous, ils ne respecteraient ni les liens du sang ni n’honoreraient leur engagement à votre égard. Tandis que du bout des lèvres ils s’emploient à vous faire plaisir, leurs cœurs s’obstinent à (vous) refuser (une telle faveur). La plupart d’entre eux sont des pervers."
   },
   {
     "id": "at-tawbah-9",
@@ -1227,7 +1235,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱشْتَرَوْا۟ بِـَٔايَـٰتِ ٱللَّهِ ثَمَنًا قَلِيلًا فَصَدُّوا۟ عَن سَبِيلِهِۦٓ ۚ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ٱشتروا بـٔايـت ٱلله ثمنا قليلا فصدوا عن سبيلهٓ  إنهم سآء ما كانوا يعملون",
     "transliteration": "ish'taraw biāyāti l-lahi thamanan qalīlan faṣaddū ʿan sabīlihi innahum sāa mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "They have exchanged the signs of Allāh for a small price and averted [people] from His way. Indeed, it was evil that they were doing.",
     "words": [
       {
         "id": "at-tawbah-9-1",
@@ -1321,7 +1329,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils vendent à bas prix les versets d’Allah et dressent des obstacles sur Son chemin. Combien mauvais est ce qu’ils font !"
   },
   {
     "id": "at-tawbah-10",
@@ -1330,7 +1339,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَرْقُبُونَ فِى مُؤْمِنٍ إِلًّا وَلَا ذِمَّةً ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُعْتَدُونَ",
     "textSimple": "لا يرقبون فى مؤمن إلا ولا ذمة  وأولـٓئك هم ٱلمعتدون",
     "transliteration": "lā yarqubūna fī mu'minin illan walā dhimmatan wa-ulāika humu l-muʿ'tadūna",
-    "translation": "",
+    "translation": "They do not observe toward a believer any pact of kinship or covenant of protection. And it is they who are the transgressors.",
     "words": [
       {
         "id": "at-tawbah-10-1",
@@ -1403,7 +1412,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne respectent, vis-à-vis d’un croyant, ni liens du sang ni engagement. Ceux-là sont les transgresseurs."
   },
   {
     "id": "at-tawbah-11",
@@ -1412,7 +1422,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ ۗ وَنُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ",
     "textSimple": "فإن تابوا وأقاموا ٱلصلوة وءاتوا ٱلزكوة فإخونكم فى ٱلدين  ونفصل ٱلـٔايـت لقوم يعلمون",
     "transliteration": "fa-in tābū wa-aqāmū l-ṣalata waātawū l-zakata fa-ikh'wānukum fī l-dīni wanufaṣṣilu l-āyāti liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "But if they repent, establish prayer, and give zakāh, then they are your brothers in religion; and We detail the verses for a people who know.",
     "words": [
       {
         "id": "at-tawbah-11-1",
@@ -1506,7 +1516,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils se repentent, accomplissent la Çalât et s’acquittent de la Zakât, alors ce sont vos frères par la religion. Nous détaillons clairement les versets pour des gens qui savent."
   },
   {
     "id": "at-tawbah-12",
@@ -1515,7 +1526,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن نَّكَثُوٓا۟ أَيْمَـٰنَهُم مِّنۢ بَعْدِ عَهْدِهِمْ وَطَعَنُوا۟ فِى دِينِكُمْ فَقَـٰتِلُوٓا۟ أَئِمَّةَ ٱلْكُفْرِ ۙ إِنَّهُمْ لَآ أَيْمَـٰنَ لَهُمْ لَعَلَّهُمْ يَنتَهُونَ",
     "textSimple": "وإن نكثوٓا أيمـنهم من بعد عهدهم وطعنوا فى دينكم فقـتلوٓا أئمة ٱلكفر  إنهم لآ أيمـن لهم لعلهم ينتهون",
     "transliteration": "wa-in nakathū aymānahum min baʿdi ʿahdihim waṭaʿanū fī dīnikum faqātilū a-immata l-kuf'ri innahum lā aymāna lahum laʿallahum yantahūna",
-    "translation": "",
+    "translation": "And if they break their oaths after their treaty and defame your religion, then combat the leaders of disbelief, for indeed, there are no oaths [sacred] to them; [fight them that] they might cease.",
     "words": [
       {
         "id": "at-tawbah-12-1",
@@ -1644,7 +1655,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’ils rompent leur engagement pris sous serment et dénigrent votre religion, vous combattrez alors les chefs de file de la mécréance, qui ne respectent aucun serment. Ainsi, peut-être, s’arrêteront-ils."
   },
   {
     "id": "at-tawbah-13",
@@ -1653,7 +1665,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَا تُقَـٰتِلُونَ قَوْمًا نَّكَثُوٓا۟ أَيْمَـٰنَهُمْ وَهَمُّوا۟ بِإِخْرَاجِ ٱلرَّسُولِ وَهُم بَدَءُوكُمْ أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَٱللَّهُ أَحَقُّ أَن تَخْشَوْهُ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "ألا تقـتلون قوما نكثوٓا أيمـنهم وهموا بإخراج ٱلرسول وهم بدءوكم أول مرة  أتخشونهم  فٱلله أحق أن تخشوه إن كنتم مؤمنين",
     "transliteration": "alā tuqātilūna qawman nakathū aymānahum wahammū bi-ikh'rāji l-rasūli wahum badaūkum awwala marratin atakhshawnahum fal-lahu aḥaqqu an takhshawhu in kuntum mu'minīna",
-    "translation": "",
+    "translation": "Would you not fight against a people who broke their oaths and determined to expel the Messenger, and they had begun [the attack upon] you the first time? Do you fear them? But Allāh has more right that you should fear Him, if you are [truly] believers.",
     "words": [
       {
         "id": "at-tawbah-13-1",
@@ -1796,7 +1808,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne combattriez-vous pas des gens qui se sont parjurés, qui ont tenté de bannir le Messager et qui vous ont attaqués les premiers ? Les craindriez-vous ? Allah, Lui, est plus digne de votre crainte si vous êtes croyants."
   },
   {
     "id": "at-tawbah-14",
@@ -1805,7 +1818,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "قَـٰتِلُوهُمْ يُعَذِّبْهُمُ ٱللَّهُ بِأَيْدِيكُمْ وَيُخْزِهِمْ وَيَنصُرْكُمْ عَلَيْهِمْ وَيَشْفِ صُدُورَ قَوْمٍ مُّؤْمِنِينَ",
     "textSimple": "قـتلوهم يعذبهم ٱلله بأيديكم ويخزهم وينصركم عليهم ويشف صدور قوم مؤمنين",
     "transliteration": "qātilūhum yuʿadhib'humu l-lahu bi-aydīkum wayukh'zihim wayanṣur'kum ʿalayhim wayashfi ṣudūra qawmin mu'minīna",
-    "translation": "",
+    "translation": "Fight them; Allāh will punish them by your hands and will disgrace them and give you victory over them and satisfy the breasts [i.e., desires] of a believing people",
     "words": [
       {
         "id": "at-tawbah-14-1",
@@ -1885,7 +1898,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combattez-les ! Allah leur infligera un châtiment par vos mains, les couvrira d’humiliation, vous fera triompher d’eux et guérira les cœurs d’un peuple de croyants."
   },
   {
     "id": "at-tawbah-15",
@@ -1894,7 +1908,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَيُذْهِبْ غَيْظَ قُلُوبِهِمْ ۗ وَيَتُوبُ ٱللَّهُ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "ويذهب غيظ قلوبهم  ويتوب ٱلله على من يشآء  وٱلله عليم حكيم",
     "transliteration": "wayudh'hib ghayẓa qulūbihim wayatūbu l-lahu ʿalā man yashāu wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "And remove the fury in their [i.e., the believers'] hearts. And Allāh turns in forgiveness to whom He wills; and Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "at-tawbah-15-1",
@@ -1974,7 +1988,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dissipera la colère qui ronge leurs cœurs. Allah accepte le repentir de qui Il veut, et Allah est Omniscient et Sage."
   },
   {
     "id": "at-tawbah-16",
@@ -1983,7 +1998,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبْتُمْ أَن تُتْرَكُوا۟ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَـٰهَدُوا۟ مِنكُمْ وَلَمْ يَتَّخِذُوا۟ مِن دُونِ ٱللَّهِ وَلَا رَسُولِهِۦ وَلَا ٱلْمُؤْمِنِينَ وَلِيجَةً ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
     "textSimple": "أم حسبتم أن تتركوا ولما يعلم ٱلله ٱلذين جـهدوا منكم ولم يتخذوا من دون ٱلله ولا رسوله ولا ٱلمؤمنين وليجة  وٱلله خبير بما تعملون",
     "transliteration": "am ḥasib'tum an tut'rakū walammā yaʿlami l-lahu alladhīna jāhadū minkum walam yattakhidhū min dūni l-lahi walā rasūlihi walā l-mu'minīna walījatan wal-lahu khabīrun bimā taʿmalūna",
-    "translation": "",
+    "translation": "Do you think that you will be left [as you are] while Allāh has not yet made evident those among you who strive [for His cause] and do not take other than Allāh, His Messenger and the believers as intimates? And Allāh is [fully] Aware of what you do.",
     "words": [
       {
         "id": "at-tawbah-16-1",
@@ -2154,7 +2169,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors pensiez-vous que vous seriez délaissés, quand Allah n’a pas encore reconnu ceux d’entre vous qui ont lutté et qui n’ont pas pris d’alliés en dehors d’Allah, de Son Messager et des croyants ? Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "at-tawbah-17",
@@ -2163,7 +2179,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ لِلْمُشْرِكِينَ أَن يَعْمُرُوا۟ مَسَـٰجِدَ ٱللَّهِ شَـٰهِدِينَ عَلَىٰٓ أَنفُسِهِم بِٱلْكُفْرِ ۚ أُو۟لَـٰٓئِكَ حَبِطَتْ أَعْمَـٰلُهُمْ وَفِى ٱلنَّارِ هُمْ خَـٰلِدُونَ",
     "textSimple": "ما كان للمشركين أن يعمروا مسـجد ٱلله شـهدين علىٓ أنفسهم بٱلكفر  أولـٓئك حبطت أعمـلهم وفى ٱلنار هم خـلدون",
     "transliteration": "mā kāna lil'mush'rikīna an yaʿmurū masājida l-lahi shāhidīna ʿalā anfusihim bil-kuf'ri ulāika ḥabiṭat aʿmāluhum wafī l-nāri hum khālidūna",
-    "translation": "",
+    "translation": "It is not for the polytheists to maintain the mosques of Allāh [while] witnessing against themselves with disbelief. [For] those, their deeds have become worthless, and in the Fire they will abide eternally.",
     "words": [
       {
         "id": "at-tawbah-17-1",
@@ -2292,7 +2308,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est certes pas aux associâtres d’emplir les mosquées d’Allah tout en témoignant contre eux-mêmes de leur mécréance. Ceux-là, vaines sont leurs œuvres, et dans le Feu sera éternellement leur séjour."
   },
   {
     "id": "at-tawbah-18",
@@ -2301,7 +2318,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا يَعْمُرُ مَسَـٰجِدَ ٱللَّهِ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَلَمْ يَخْشَ إِلَّا ٱللَّهَ ۖ فَعَسَىٰٓ أُو۟لَـٰٓئِكَ أَن يَكُونُوا۟ مِنَ ٱلْمُهْتَدِينَ",
     "textSimple": "إنما يعمر مسـجد ٱلله من ءامن بٱلله وٱليوم ٱلـٔاخر وأقام ٱلصلوة وءاتى ٱلزكوة ولم يخش إلا ٱلله  فعسىٓ أولـٓئك أن يكونوا من ٱلمهتدين",
     "transliteration": "innamā yaʿmuru masājida l-lahi man āmana bil-lahi wal-yawmi l-ākhiri wa-aqāma l-ṣalata waātā l-zakata walam yakhsha illā l-laha faʿasā ulāika an yakūnū mina l-muh'tadīna",
-    "translation": "",
+    "translation": "The mosques of Allāh are only to be maintained by those who believe in Allāh and the Last Day and establish prayer and give zakāh and do not fear except Allāh, for it is expected that those will be of the [rightly] guided.",
     "words": [
       {
         "id": "at-tawbah-18-1",
@@ -2465,7 +2482,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Devront plutôt emplir les mosquées d’Allah ceux qui croient en Allah et au Jour Dernier, qui accomplissent la Çalât, s’acquittent de la Zakât et ne redoutent qu’Allah. Peut-être que ceux-là seront guidés vers la juste voie (al-mouhtadîn)."
   },
   {
     "id": "at-tawbah-19",
@@ -2474,7 +2492,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَجَعَلْتُمْ سِقَايَةَ ٱلْحَآجِّ وَعِمَارَةَ ٱلْمَسْجِدِ ٱلْحَرَامِ كَمَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَجَـٰهَدَ فِى سَبِيلِ ٱللَّهِ ۚ لَا يَسْتَوُۥنَ عِندَ ٱللَّهِ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": " أجعلتم سقاية ٱلحآج وعمارة ٱلمسجد ٱلحرام كمن ءامن بٱلله وٱليوم ٱلـٔاخر وجـهد فى سبيل ٱلله  لا يستون عند ٱلله  وٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "ajaʿaltum siqāyata l-ḥāji waʿimārata l-masjidi l-ḥarāmi kaman āmana bil-lahi wal-yawmi l-ākhiri wajāhada fī sabīli l-lahi lā yastawūna ʿinda l-lahi wal-lahu lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "Have you made the providing of water for the pilgrim and the maintenance of al-Masjid al-Ḥarām equal to [the deeds of] one who believes in Allāh and the Last Day and strives in the cause of Allāh? They are not equal in the sight of Allāh. And Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "at-tawbah-19-1",
@@ -2645,7 +2663,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auriez-vous cru que le fait de donner à boire au pèlerin et d’entretenir la Mosquée Sacrée soient comparables au (statut de) celui qui croit en Allah et au Jour Dernier et lutte pour la cause d’Allah ? Ils ne sont point égaux auprès d’Allah, et Allah ne guide point les gens injustes."
   },
   {
     "id": "at-tawbah-20",
@@ -2654,7 +2673,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَـٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ أَعْظَمُ دَرَجَةً عِندَ ٱللَّهِ ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَآئِزُونَ",
     "textSimple": "ٱلذين ءامنوا وهاجروا وجـهدوا فى سبيل ٱلله بأمولهم وأنفسهم أعظم درجة عند ٱلله  وأولـٓئك هم ٱلفآئزون",
     "transliteration": "alladhīna āmanū wahājarū wajāhadū fī sabīli l-lahi bi-amwālihim wa-anfusihim aʿẓamu darajatan ʿinda l-lahi wa-ulāika humu l-fāizūna",
-    "translation": "",
+    "translation": "The ones who have believed, emigrated and striven in the cause of Allāh with their wealth and their lives are greater in rank in the sight of Allāh. And it is those who are the attainers [of success].",
     "words": [
       {
         "id": "at-tawbah-20-1",
@@ -2769,7 +2788,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru, qui ont émigré et lutté pour la cause d’Allah par leurs biens et leurs âmes, seront élevés à un rang supérieur auprès d’Allah. Et ce sont ceux-là les vrais gagnants."
   },
   {
     "id": "at-tawbah-21",
@@ -2778,7 +2798,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يُبَشِّرُهُمْ رَبُّهُم بِرَحْمَةٍ مِّنْهُ وَرِضْوَٰنٍ وَجَنَّـٰتٍ لَّهُمْ فِيهَا نَعِيمٌ مُّقِيمٌ",
     "textSimple": "يبشرهم ربهم برحمة منه ورضون وجنـت لهم فيها نعيم مقيم",
     "transliteration": "yubashiruhum rabbuhum biraḥmatin min'hu wariḍ'wānin wajannātin lahum fīhā naʿīmun muqīmun",
-    "translation": "",
+    "translation": "Their Lord gives them good tidings of mercy from Him and approval and of gardens for them wherein is enduring pleasure.",
     "words": [
       {
         "id": "at-tawbah-21-1",
@@ -2851,7 +2871,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur Seigneur leur annonce une miséricorde de Sa part, une satisfaction, et des jardins où il y aura pour eux une félicité permanente,"
   },
   {
     "id": "at-tawbah-22",
@@ -2860,7 +2881,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ إِنَّ ٱللَّهَ عِندَهُۥٓ أَجْرٌ عَظِيمٌ",
     "textSimple": "خـلدين فيهآ أبدا  إن ٱلله عندهٓ أجر عظيم",
     "transliteration": "khālidīna fīhā abadan inna l-laha ʿindahu ajrun ʿaẓīmun",
-    "translation": "",
+    "translation": "[They will be] abiding therein forever. Indeed, Allāh has with Him a great reward.",
     "words": [
       {
         "id": "at-tawbah-22-1",
@@ -2919,7 +2940,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "là ils séjourneront à jamais, car auprès d’Allah il y a une très grande récompense."
   },
   {
     "id": "at-tawbah-23",
@@ -2928,7 +2950,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوٓا۟ ءَابَآءَكُمْ وَإِخْوَٰنَكُمْ أَوْلِيَآءَ إِنِ ٱسْتَحَبُّوا۟ ٱلْكُفْرَ عَلَى ٱلْإِيمَـٰنِ ۚ وَمَن يَتَوَلَّهُم مِّنكُمْ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تتخذوٓا ءابآءكم وإخونكم أوليآء إن ٱستحبوا ٱلكفر على ٱلإيمـن  ومن يتولهم منكم فأولـٓئك هم ٱلظـلمون",
     "transliteration": "yāayyuhā alladhīna āmanū lā tattakhidhū ābāakum wa-ikh'wānakum awliyāa ini is'taḥabbū l-kuf'ra ʿalā l-īmāni waman yatawallahum minkum fa-ulāika humu l-ẓālimūna",
-    "translation": "",
+    "translation": "O you who have believed, do not take your fathers or your brothers as allies if they have preferred disbelief over belief. And whoever does so among you - then it is those who are the wrongdoers.",
     "words": [
       {
         "id": "at-tawbah-23-1",
@@ -3064,7 +3086,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne faites pas de vos pères et de vos frères vos alliés s’ils ont penché pour la mécréance plutôt que pour la foi. Ceux parmi vous qui les prennent pour alliés sont eux les injustes."
   },
   {
     "id": "at-tawbah-24",
@@ -3073,7 +3096,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِن كَانَ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ وَإِخْوَٰنُكُمْ وَأَزْوَٰجُكُمْ وَعَشِيرَتُكُمْ وَأَمْوَٰلٌ ٱقْتَرَفْتُمُوهَا وَتِجَـٰرَةٌ تَخْشَوْنَ كَسَادَهَا وَمَسَـٰكِنُ تَرْضَوْنَهَآ أَحَبَّ إِلَيْكُم مِّنَ ٱللَّهِ وَرَسُولِهِۦ وَجِهَادٍ فِى سَبِيلِهِۦ فَتَرَبَّصُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ",
     "textSimple": "قل إن كان ءابآؤكم وأبنآؤكم وإخونكم وأزوجكم وعشيرتكم وأمول ٱقترفتموها وتجـرة تخشون كسادها ومسـكن ترضونهآ أحب إليكم من ٱلله ورسوله وجهاد فى سبيله فتربصوا حتى يأتى ٱلله بأمره  وٱلله لا يهدى ٱلقوم ٱلفـسقين",
     "transliteration": "qul in kāna ābāukum wa-abnāukum wa-ikh'wānukum wa-azwājukum waʿashīratukum wa-amwālun iq'taraftumūhā watijāratun takhshawna kasādahā wamasākinu tarḍawnahā aḥabba ilaykum mina l-lahi warasūlihi wajihādin fī sabīlihi fatarabbaṣū ḥattā yatiya l-lahu bi-amrihi wal-lahu lā yahdī l-qawma l-fāsiqīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"If your fathers, your sons, your brothers, your wives, your relatives, wealth which you have obtained, commerce wherein you fear decline, and dwellings with which you are pleased are more beloved to you than Allāh and His Messenger and jihād [i.e., striving] in His cause, then wait until Allāh executes His command. And Allāh does not guide the defiantly disobedient people.\"",
     "words": [
       {
         "id": "at-tawbah-24-1",
@@ -3307,7 +3330,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si vos pères, vos fils, vos frères, vos épouses, votre clan, les biens que vous avez amassés, le commerce dont vous craignez la stagnation et les maisons où il vous plaît d’habiter, vous sont plus chers qu’Allah, Son Messager et la lutte pour Sa cause, alors attendez qu’Allah rende Son verdict. Allah ne guide point les gens pervers. »"
   },
   {
     "id": "at-tawbah-25",
@@ -3316,7 +3340,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ",
     "textSimple": "لقد نصركم ٱلله فى مواطن كثيرة  ويوم حنين  إذ أعجبتكم كثرتكم فلم تغن عنكم شيـٔا وضاقت عليكم ٱلأرض بما رحبت ثم وليتم مدبرين",
     "transliteration": "laqad naṣarakumu l-lahu fī mawāṭina kathīratin wayawma ḥunaynin idh aʿjabatkum kathratukum falam tugh'ni ʿankum shayan waḍāqat ʿalaykumu l-arḍu bimā raḥubat thumma wallaytum mud'birīna",
-    "translation": "",
+    "translation": "Allāh has already given you victory in many regions and [even] on the day of Ḥunayn, when your great number pleased you, but it did not avail you at all, and the earth was confining for you with [i.e., in spite of] its vastness; then you turned back, fleeing.",
     "words": [
       {
         "id": "at-tawbah-25-1",
@@ -3480,7 +3504,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah vous a secourus en divers endroits. Le jour de Hunayn (notamment), vous exultiez en raison de votre nombre, lequel ne vous a servi à rien. La terre était trop étroite pour vous, en dépit de sa vastitude. Puis vous avez pris la fuite et tourné le dos."
   },
   {
     "id": "at-tawbah-26",
@@ -3489,7 +3514,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَنزَلَ جُنُودًا لَّمْ تَرَوْهَا وَعَذَّبَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَذَٰلِكَ جَزَآءُ ٱلْكَـٰفِرِينَ",
     "textSimple": "ثم أنزل ٱلله سكينته على رسوله وعلى ٱلمؤمنين وأنزل جنودا لم تروها وعذب ٱلذين كفروا  وذلك جزآء ٱلكـفرين",
     "transliteration": "thumma anzala l-lahu sakīnatahu ʿalā rasūlihi waʿalā l-mu'minīna wa-anzala junūdan lam tarawhā waʿadhaba alladhīna kafarū wadhālika jazāu l-kāfirīna",
-    "translation": "",
+    "translation": "Then Allāh sent down His tranquility upon His Messenger and upon the believers and sent down soldiers [i.e., angels] whom you did not see and punished those who disbelieved. And that is the recompense of the disbelievers.",
     "words": [
       {
         "id": "at-tawbah-26-1",
@@ -3618,7 +3643,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah fit, par la suite, descendre Sa quiétude (sakîna) sur Son Messager et sur les croyants. Il fit descendre des armées que vous ne pouviez voir et soumit au supplice ceux qui ont mécru. Voilà la rétribution des mécréants."
   },
   {
     "id": "at-tawbah-27",
@@ -3627,7 +3653,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ثم يتوب ٱلله من بعد ذلك على من يشآء  وٱلله غفور رحيم",
     "transliteration": "thumma yatūbu l-lahu min baʿdi dhālika ʿalā man yashāu wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Then Allāh will accept repentance after that for whom He wills; and Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-tawbah-27-1",
@@ -3714,7 +3740,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, après cela, acceptera le repentir de qui Il veut, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-28",
@@ -3723,7 +3750,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْمُشْرِكُونَ نَجَسٌ فَلَا يَقْرَبُوا۟ ٱلْمَسْجِدَ ٱلْحَرَامَ بَعْدَ عَامِهِمْ هَـٰذَا ۚ وَإِنْ خِفْتُمْ عَيْلَةً فَسَوْفَ يُغْنِيكُمُ ٱللَّهُ مِن فَضْلِهِۦٓ إِن شَآءَ ۚ إِنَّ ٱللَّهَ عَلِيمٌ حَكِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إنما ٱلمشركون نجس فلا يقربوا ٱلمسجد ٱلحرام بعد عامهم هـذا  وإن خفتم عيلة فسوف يغنيكم ٱلله من فضلهٓ إن شآء  إن ٱلله عليم حكيم",
     "transliteration": "yāayyuhā alladhīna āmanū innamā l-mush'rikūna najasun falā yaqrabū l-masjida l-ḥarāma baʿda ʿāmihim hādhā wa-in khif'tum ʿaylatan fasawfa yugh'nīkumu l-lahu min faḍlihi in shāa inna l-laha ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "O you who have believed, indeed the polytheists are unclean, so let them not approach al-Masjid al-Ḥarām after this, their [final] year. And if you fear privation, Allāh will enrich you from His bounty if He wills. Indeed, Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "at-tawbah-28-1",
@@ -3915,7 +3942,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Les associâtres ne sont que souillure. Qu’ils ne s’approchent point de la Mosquée Sacrée après l’expiration de leur année-ci. Et si vous craignez une pénurie, Allah, s’Il veut, vous comblera de Ses largesses. Car Allah est Omniscient et Sage."
   },
   {
     "id": "at-tawbah-29",
@@ -3924,7 +3952,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "قَـٰتِلُوا۟ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْـَٔاخِرِ وَلَا يُحَرِّمُونَ مَا حَرَّمَ ٱللَّهُ وَرَسُولُهُۥ وَلَا يَدِينُونَ دِينَ ٱلْحَقِّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ حَتَّىٰ يُعْطُوا۟ ٱلْجِزْيَةَ عَن يَدٍ وَهُمْ صَـٰغِرُونَ",
     "textSimple": "قـتلوا ٱلذين لا يؤمنون بٱلله ولا بٱليوم ٱلـٔاخر ولا يحرمون ما حرم ٱلله ورسوله ولا يدينون دين ٱلحق من ٱلذين أوتوا ٱلكتـب حتى يعطوا ٱلجزية عن يد وهم صـغرون",
     "transliteration": "qātilū alladhīna lā yu'minūna bil-lahi walā bil-yawmi l-ākhiri walā yuḥarrimūna mā ḥarrama l-lahu warasūluhu walā yadīnūna dīna l-ḥaqi mina alladhīna ūtū l-kitāba ḥattā yuʿ'ṭū l-jiz'yata ʿan yadin wahum ṣāghirūna",
-    "translation": "",
+    "translation": "Fight against those who do not believe in Allāh or in the Last Day and who do not consider unlawful what Allāh and His Messenger have made unlawful and who do not adopt the religion of truth [i.e., Islām] from those who were given the Scripture - [fight] until they give the jizyah willingly while they are humbled.",
     "words": [
       {
         "id": "at-tawbah-29-1",
@@ -4130,7 +4158,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combattez, parmi les gens ayant reçu les Écritures, ceux qui ne croient ni en Allah ni au Jour Dernier, qui n’interdisent pas ce qu’Allah et Son Messager ont proscrit comme illicite, et qui n’adoptent pas la religion de la vérité ; cela, jusqu’à ce qu’ils viennent, le profil bas, verser de leurs propres mains le tribut de capitation."
   },
   {
     "id": "at-tawbah-30",
@@ -4139,7 +4168,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَـٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَـٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَـٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ يُؤْفَكُونَ",
     "textSimple": "وقالت ٱليهود عزير ٱبن ٱلله وقالت ٱلنصـرى ٱلمسيح ٱبن ٱلله  ذلك قولهم بأفوههم  يضـهـٔون قول ٱلذين كفروا من قبل  قـتلهم ٱلله  أنى يؤفكون",
     "transliteration": "waqālati l-yahūdu ʿuzayrun ub'nu l-lahi waqālati l-naṣārā l-masīḥu ub'nu l-lahi dhālika qawluhum bi-afwāhihim yuḍāhiūna qawla alladhīna kafarū min qablu qātalahumu l-lahu annā yu'fakūna",
-    "translation": "",
+    "translation": "The Jews say, \"Ezra is the son of Allāh\"; and the Christians say, \"The Messiah is the son of Allāh.\" That is their statement from their mouths; they imitate the saying of those who disbelieved before [them]. May Allāh destroy them; how are they deluded?",
     "words": [
       {
         "id": "at-tawbah-30-1",
@@ -4303,7 +4332,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Juifs ont dit : « ‘Uzayr est le fils d’Allah » et les Chrétiens ont dit : « Le Messie est le fils d’Allah ». Voilà ce qu’ils soutiennent de leurs propres bouches. Ils répètent des propos semblables à ceux des mécréants avant eux. Qu’Allah les fasse périr ! Combien ils sont dans l’erreur !"
   },
   {
     "id": "at-tawbah-31",
@@ -4312,7 +4342,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَـٰنَهُمْ أَرْبَابًا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَـٰهًا وَٰحِدًا ۖ لَّآ إِلَـٰهَ إِلَّا هُوَ ۚ سُبْحَـٰنَهُۥ عَمَّا يُشْرِكُونَ",
     "textSimple": "ٱتخذوٓا أحبارهم ورهبـنهم أربابا من دون ٱلله وٱلمسيح ٱبن مريم ومآ أمروٓا إلا ليعبدوٓا إلـها وحدا  لآ إلـه إلا هو  سبحـنه عما يشركون",
     "transliteration": "ittakhadhū aḥbārahum waruh'bānahum arbāban min dūni l-lahi wal-masīḥa ib'na maryama wamā umirū illā liyaʿbudū ilāhan wāḥidan lā ilāha illā huwa sub'ḥānahu ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "They have taken their scholars and monks as lords besides Allāh, and [also] the Messiah, the son of Mary. And they were not commanded except to worship one God; there is no deity except Him. Exalted is He above whatever they associate with Him.",
     "words": [
       {
         "id": "at-tawbah-31-1",
@@ -4476,7 +4506,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont pris leurs rabbins et leurs moines comme divinités en dehors d’Allah. Et ils ont fait de même avec le Messie, fils de Marie. Pourtant, ordre leur fut donné de n’adorer qu’un Seul Dieu. Point d’autre divinité que Lui ! Gloire Lui soit rendue, Lui Qui est bien au-dessus de ce qu’ils Lui prêtent comme associés."
   },
   {
     "id": "at-tawbah-32",
@@ -4485,7 +4516,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يُرِيدُونَ أَن يُطْفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَيَأْبَى ٱللَّهُ إِلَّآ أَن يُتِمَّ نُورَهُۥ وَلَوْ كَرِهَ ٱلْكَـٰفِرُونَ",
     "textSimple": "يريدون أن يطفـٔوا نور ٱلله بأفوههم ويأبى ٱلله إلآ أن يتم نوره ولو كره ٱلكـفرون",
     "transliteration": "yurīdūna an yuṭ'fiū nūra l-lahi bi-afwāhihim wayabā l-lahu illā an yutimma nūrahu walaw kariha l-kāfirūna",
-    "translation": "",
+    "translation": "They want to extinguish the light of Allāh with their mouths, but Allāh refuses except to perfect His light, although the disbelievers dislike it.",
     "words": [
       {
         "id": "at-tawbah-32-1",
@@ -4593,7 +4624,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils voudraient bien éteindre la lumière d’Allah par leurs bouches, mais Allah ne veut Rien de moins que parfaire Sa lumière, quelque dépit qu’en aient les mécréants."
   },
   {
     "id": "at-tawbah-33",
@@ -4602,7 +4634,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ وَلَوْ كَرِهَ ٱلْمُشْرِكُونَ",
     "textSimple": "هو ٱلذىٓ أرسل رسوله بٱلهدى ودين ٱلحق ليظهره على ٱلدين كله ولو كره ٱلمشركون",
     "transliteration": "huwa alladhī arsala rasūlahu bil-hudā wadīni l-ḥaqi liyuẓ'hirahu ʿalā l-dīni kullihi walaw kariha l-mush'rikūna",
-    "translation": "",
+    "translation": "It is He who has sent His Messenger with guidance and the religion of truth to manifest it over all religion, although they who associate others with Allāh dislike it.",
     "words": [
       {
         "id": "at-tawbah-33-1",
@@ -4703,7 +4735,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui envoya Son Messager avec l’orientation juste (hudâ) et la religion vraie, pour la faire prévaloir sur toute autre religion, n’en déplaise aux associâtres."
   },
   {
     "id": "at-tawbah-34",
@@ -4712,7 +4745,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ كَثِيرًا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
     "textSimple": " يـٓأيها ٱلذين ءامنوٓا إن كثيرا من ٱلأحبار وٱلرهبان ليأكلون أمول ٱلناس بٱلبـطل ويصدون عن سبيل ٱلله  وٱلذين يكنزون ٱلذهب وٱلفضة ولا ينفقونها فى سبيل ٱلله فبشرهم بعذاب أليم",
     "transliteration": "yāayyuhā alladhīna āmanū inna kathīran mina l-aḥbāri wal-ruh'bāni layakulūna amwāla l-nāsi bil-bāṭili wayaṣuddūna ʿan sabīli l-lahi wa-alladhīna yaknizūna l-dhahaba wal-fiḍata walā yunfiqūnahā fī sabīli l-lahi fabashir'hum biʿadhābin alīmin",
-    "translation": "",
+    "translation": "O you who have believed, indeed many of the scholars and the monks devour the wealth of people unjustly and avert [them] from the way of Allāh. And those who hoard gold and silver and spend it not in the way of Allāh - give them tidings of a painful punishment.",
     "words": [
       {
         "id": "at-tawbah-34-1",
@@ -4911,7 +4944,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Beaucoup de rabbins et de moines consomment frauduleusement les biens des gens et se mettent en travers du chemin d’Allah. À ceux qui thésaurisent or et argent et ne les dépensent pas pour la cause d’Allah, annonce un supplice très douloureux."
   },
   {
     "id": "at-tawbah-35",
@@ -4920,7 +4954,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يُحْمَىٰ عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَـٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
     "textSimple": "يوم يحمى عليها فى نار جهنم فتكوى بها جباههم وجنوبهم وظهورهم  هـذا ما كنزتم لأنفسكم فذوقوا ما كنتم تكنزون",
     "transliteration": "yawma yuḥ'mā ʿalayhā fī nāri jahannama fatuk'wā bihā jibāhuhum wajunūbuhum waẓuhūruhum hādhā mā kanaztum li-anfusikum fadhūqū mā kuntum taknizūna",
-    "translation": "",
+    "translation": "The Day when it will be heated in the fire of Hell and seared therewith will be their foreheads, their flanks, and their backs, [it will be said], \"This is what you hoarded for yourselves, so taste what you used to hoard.\"",
     "words": [
       {
         "id": "at-tawbah-35-1",
@@ -5056,7 +5090,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ce sera) un jour où (cet or et cet argent) seront chauffés au feu de la Géhenne (jusqu’à l’incandescence), puis brûleront leurs fronts, leurs flancs et leurs dos : voilà les trésors que vous avez amassés pour vous-mêmes, goûtez donc ce que vous amassiez !"
   },
   {
     "id": "at-tawbah-36",
@@ -5065,7 +5100,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِى كِتَـٰبِ ٱللَّهِ يَوْمَ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ مِنْهَآ أَرْبَعَةٌ حُرُمٌ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ ۚ فَلَا تَظْلِمُوا۟ فِيهِنَّ أَنفُسَكُمْ ۚ وَقَـٰتِلُوا۟ ٱلْمُشْرِكِينَ كَآفَّةً كَمَا يُقَـٰتِلُونَكُمْ كَآفَّةً ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
     "textSimple": "إن عدة ٱلشهور عند ٱلله ٱثنا عشر شهرا فى كتـب ٱلله يوم خلق ٱلسمـوت وٱلأرض منهآ أربعة حرم  ذلك ٱلدين ٱلقيم  فلا تظلموا فيهن أنفسكم  وقـتلوا ٱلمشركين كآفة كما يقـتلونكم كآفة  وٱعلموٓا أن ٱلله مع ٱلمتقين",
     "transliteration": "inna ʿiddata l-shuhūri ʿinda l-lahi ith'nā ʿashara shahran fī kitābi l-lahi yawma khalaqa l-samāwāti wal-arḍa min'hā arbaʿatun ḥurumun dhālika l-dīnu l-qayimu falā taẓlimū fīhinna anfusakum waqātilū l-mush'rikīna kāffatan kamā yuqātilūnakum kāffatan wa-iʿ'lamū anna l-laha maʿa l-mutaqīna",
-    "translation": "",
+    "translation": "Indeed, the number of months with Allāh is twelve [lunar] months in the register of Allāh [from] the day He created the heavens and the earth; of these, four are sacred. That is the correct religion [i.e., way], so do not wrong yourselves during them. And fight against the disbelievers collectively as they fight against you collectively. And know that Allāh is with the righteous [who fear Him].",
     "words": [
       {
         "id": "at-tawbah-36-1",
@@ -5320,7 +5355,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour Allah, et tel qu’il fut prescrit dans Son Livre le jour où Il créa les cieux et la terre, les mois sont au nombre de douze, dont quatre sont sacrés. Telle est la religion droite. Ne soyez donc pas injustes envers vous-mêmes pendant ces mois. Livrez combat, tous ensemble, à tous les associâtres, comme ils vous livrent combat, tous ensemble, et sachez qu’Allah est avec ceux qui Le craignent."
   },
   {
     "id": "at-tawbah-37",
@@ -5329,7 +5365,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلنَّسِىٓءُ زِيَادَةٌ فِى ٱلْكُفْرِ ۖ يُضَلُّ بِهِ ٱلَّذِينَ كَفَرُوا۟ يُحِلُّونَهُۥ عَامًا وَيُحَرِّمُونَهُۥ عَامًا لِّيُوَاطِـُٔوا۟ عِدَّةَ مَا حَرَّمَ ٱللَّهُ فَيُحِلُّوا۟ مَا حَرَّمَ ٱللَّهُ ۚ زُيِّنَ لَهُمْ سُوٓءُ أَعْمَـٰلِهِمْ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَـٰفِرِينَ",
     "textSimple": "إنما ٱلنسىٓء زيادة فى ٱلكفر  يضل به ٱلذين كفروا يحلونه عاما ويحرمونه عاما ليواطـٔوا عدة ما حرم ٱلله فيحلوا ما حرم ٱلله  زين لهم سوٓء أعمـلهم  وٱلله لا يهدى ٱلقوم ٱلكـفرين",
     "transliteration": "innamā l-nasīu ziyādatun fī l-kuf'ri yuḍallu bihi alladhīna kafarū yuḥillūnahu ʿāman wayuḥarrimūnahu ʿāman liyuwāṭiū ʿiddata mā ḥarrama l-lahu fayuḥillū mā ḥarrama l-lahu zuyyina lahum sūu aʿmālihim wal-lahu lā yahdī l-qawma l-kāfirīna",
-    "translation": "",
+    "translation": "Indeed, the postponing [of restriction within sacred months] is an increase in disbelief by which those who have disbelieved are led [further] astray. They make it lawful one year and unlawful another year to correspond to the number made unlawful by Allāh and [thus] make lawful what Allāh has made unlawful. Made pleasing to them is the evil of their deeds; and Allāh does not guide the disbelieving people.",
     "words": [
       {
         "id": "at-tawbah-37-1",
@@ -5549,7 +5585,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est un surplus de mécréance que de différer un mois sacré à une date ultérieure. Les mécréants n’en sont que davantage dévoyés. C’est ainsi qu’ils le profanent une année (le mois sacré), et le déclarent sacré une (autre) année, en se gardant bien de respecter (ce nombre total de mois) qu’Allah a prescrits comme sacrés. Voilà donc qu’ils profanent ce qu’Allah a fait sacré. Leurs méfaits sont embellis à leurs yeux. Allah ne guide point les gens mécréants."
   },
   {
     "id": "at-tawbah-38",
@@ -5558,7 +5595,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ مَا لَكُمْ إِذَا قِيلَ لَكُمُ ٱنفِرُوا۟ فِى سَبِيلِ ٱللَّهِ ٱثَّاقَلْتُمْ إِلَى ٱلْأَرْضِ ۚ أَرَضِيتُم بِٱلْحَيَوٰةِ ٱلدُّنْيَا مِنَ ٱلْـَٔاخِرَةِ ۚ فَمَا مَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا فِى ٱلْـَٔاخِرَةِ إِلَّا قَلِيلٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ما لكم إذا قيل لكم ٱنفروا فى سبيل ٱلله ٱثاقلتم إلى ٱلأرض  أرضيتم بٱلحيوة ٱلدنيا من ٱلـٔاخرة  فما متـع ٱلحيوة ٱلدنيا فى ٱلـٔاخرة إلا قليل",
     "transliteration": "yāayyuhā alladhīna āmanū mā lakum idhā qīla lakumu infirū fī sabīli l-lahi ithāqaltum ilā l-arḍi araḍītum bil-ḥayati l-dun'yā mina l-ākhirati famā matāʿu l-ḥayati l-dun'yā fī l-ākhirati illā qalīlun",
-    "translation": "",
+    "translation": "O you who have believed, what is [the matter] with you that, when you are told to go forth in the cause of Allāh, you adhere heavily to the earth? Are you satisfied with the life of this world rather than the Hereafter? But what is the enjoyment of worldly life compared to the Hereafter except a [very] little.",
     "words": [
       {
         "id": "at-tawbah-38-1",
@@ -5757,7 +5794,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Qu’avez-vous donc à ne vous mouvoir qu’avec lenteur (comme si vous étiez rivés à terre) à chaque fois qu’il vous est dit : « Accourez vers le chemin d’Allah » ? Vous êtes-vous donc contentés de la vie en ce bas monde plutôt que celle de l’autre monde ? Les plaisirs de la vie ici-bas ne sont pourtant que bien peu (de chose) comparés à ceux de l’au-delà."
   },
   {
     "id": "at-tawbah-39",
@@ -5766,7 +5804,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا تَنفِرُوا۟ يُعَذِّبْكُمْ عَذَابًا أَلِيمًا وَيَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّوهُ شَيْـًٔا ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "إلا تنفروا يعذبكم عذابا أليما ويستبدل قوما غيركم ولا تضروه شيـٔا  وٱلله على كل شىء قدير",
     "transliteration": "illā tanfirū yuʿadhib'kum ʿadhāban alīman wayastabdil qawman ghayrakum walā taḍurrūhu shayan wal-lahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "If you do not go forth, He will punish you with a painful punishment and will replace you with another people, and you will not harm Him at all. And Allāh is over all things competent.",
     "words": [
       {
         "id": "at-tawbah-39-1",
@@ -5881,7 +5919,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous ne vous précipitez pas vers le combat, Il vous infligera un supplice très douloureux, et vous substituera un autre peuple. Vous ne saurez Lui nuire en rien, et Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "at-tawbah-40",
@@ -5890,7 +5929,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَـٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍ لَّمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ ٱلَّذِينَ كَفَرُوا۟ ٱلسُّفْلَىٰ ۗ وَكَلِمَةُ ٱللَّهِ هِىَ ٱلْعُلْيَا ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
     "textSimple": "إلا تنصروه فقد نصره ٱلله إذ أخرجه ٱلذين كفروا ثانى ٱثنين إذ هما فى ٱلغار إذ يقول لصـحبه لا تحزن إن ٱلله معنا  فأنزل ٱلله سكينته عليه وأيده بجنود لم تروها وجعل كلمة ٱلذين كفروا ٱلسفلى  وكلمة ٱلله هى ٱلعليا  وٱلله عزيز حكيم",
     "transliteration": "illā tanṣurūhu faqad naṣarahu l-lahu idh akhrajahu alladhīna kafarū thāniya ith'nayni idh humā fī l-ghāri idh yaqūlu liṣāḥibihi lā taḥzan inna l-laha maʿanā fa-anzala l-lahu sakīnatahu ʿalayhi wa-ayyadahu bijunūdin lam tarawhā wajaʿala kalimata alladhīna kafarū l-suf'lā wakalimatu l-lahi hiya l-ʿul'yā wal-lahu ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "If you do not aid him [i.e., the Prophet (ﷺ)] - Allāh has already aided him when those who disbelieved had driven him out [of Makkah] as one of two, when they were in the cave and he [i.e., Muḥammad (ﷺ)] said to his companion, \"Do not grieve; indeed Allāh is with us.\" And Allāh sent down His tranquility upon him and supported him with soldiers [i.e., angels] you did not see and made the word of those who disbelieved the lowest, while the word of Allāh - that is the highest. And Allāh is Exalted in Might and Wise.",
     "words": [
       {
         "id": "at-tawbah-40-1",
@@ -6194,7 +6233,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 42
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si vous ne venez pas à son secours (au secours du Prophète), Allah est déjà venu à son secours lorsque les mécréants l’avaient expulsé et qu’il était le deuxième des deux (hommes que les mécréants avaient expulsés). Ils étaient alors dans la grotte et, lui, disait à son compagnon : « Ne t’afflige point, car Allah est avec nous ! » Allah fit alors descendre sur lui Sa quiétude (sakîna), l’appuya d’armées que vous ne pouviez voir, jeta bas la parole des mécréants et éleva la Parole d’Allah, car Allah est Tout-Puissant et Sage."
   },
   {
     "id": "at-tawbah-41",
@@ -6203,7 +6243,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱنفِرُوا۟ خِفَافًا وَثِقَالًا وَجَـٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "ٱنفروا خفافا وثقالا وجـهدوا بأمولكم وأنفسكم فى سبيل ٱلله  ذلكم خير لكم إن كنتم تعلمون",
     "transliteration": "infirū khifāfan wathiqālan wajāhidū bi-amwālikum wa-anfusikum fī sabīli l-lahi dhālikum khayrun lakum in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "Go forth, whether light or heavy, and strive with your wealth and your lives in the cause of Allāh. That is better for you, if you only knew.",
     "words": [
       {
         "id": "at-tawbah-41-1",
@@ -6311,7 +6351,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâtez-vous vers le combat, que vous soyez légers ou lourds, luttez par vos biens et vos âmes pour la cause d’Allah. Cela vaudrait beaucoup mieux pour vous, si vous le saviez."
   },
   {
     "id": "at-tawbah-42",
@@ -6320,7 +6361,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لَّٱتَّبَعُوكَ وَلَـٰكِنۢ بَعُدَتْ عَلَيْهِمُ ٱلشُّقَّةُ ۚ وَسَيَحْلِفُونَ بِٱللَّهِ لَوِ ٱسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنفُسَهُمْ وَٱللَّهُ يَعْلَمُ إِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": "لو كان عرضا قريبا وسفرا قاصدا لٱتبعوك ولـكن بعدت عليهم ٱلشقة  وسيحلفون بٱلله لو ٱستطعنا لخرجنا معكم يهلكون أنفسهم وٱلله يعلم إنهم لكـذبون",
     "transliteration": "law kāna ʿaraḍan qarīban wasafaran qāṣidan la-ittabaʿūka walākin baʿudat ʿalayhimu l-shuqatu wasayaḥlifūna bil-lahi lawi is'taṭaʿnā lakharajnā maʿakum yuh'likūna anfusahum wal-lahu yaʿlamu innahum lakādhibūna",
-    "translation": "",
+    "translation": "Had it been a near [i.e., easy] gain and a moderate trip, they [i.e., the hypocrites] would have followed you, but distant to them was the journey. And they will swear by Allāh, \"If we were able, we would have gone forth with you,\" destroying themselves [through false oaths], and Allāh knows that indeed they are liars.",
     "words": [
       {
         "id": "at-tawbah-42-1",
@@ -6484,7 +6525,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’il se fût agi d’un butin à portée de main ou d’un voyage (à destination) proche, ils t’auraient certainement suivi. Mais le trajet leur parut bien long. Ils jureront par Allah : « Si nous avions pu, nous serions certainement sortis avec vous. » N’est-ce pas qu’ils se perdent eux-mêmes ! Allah Sait bien qu’ils ne sont que menteurs."
   },
   {
     "id": "at-tawbah-43",
@@ -6493,7 +6535,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "عَفَا ٱللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ حَتَّىٰ يَتَبَيَّنَ لَكَ ٱلَّذِينَ صَدَقُوا۟ وَتَعْلَمَ ٱلْكَـٰذِبِينَ",
     "textSimple": "عفا ٱلله عنك لم أذنت لهم حتى يتبين لك ٱلذين صدقوا وتعلم ٱلكـذبين",
     "transliteration": "ʿafā l-lahu ʿanka lima adhinta lahum ḥattā yatabayyana laka alladhīna ṣadaqū wataʿlama l-kādhibīna",
-    "translation": "",
+    "translation": "Allāh has pardoned you, [O Muḥammad, but] why did you give them permission [to remain behind]? [You should not have] until it was evident to you who were truthful and you knew [who were] the liars.",
     "words": [
       {
         "id": "at-tawbah-43-1",
@@ -6587,7 +6629,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puisse Allah te pardonner ! Pourquoi donc leur as-tu donné la permission (de ne pas participer au combat) avant de reconnaître ceux d’entre eux qui disaient vrai et ceux qui mentaient ?"
   },
   {
     "id": "at-tawbah-44",
@@ -6596,7 +6639,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَسْتَـْٔذِنُكَ ٱلَّذِينَ يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ أَن يُجَـٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلْمُتَّقِينَ",
     "textSimple": "لا يستـٔذنك ٱلذين يؤمنون بٱلله وٱليوم ٱلـٔاخر أن يجـهدوا بأمولهم وأنفسهم  وٱلله عليم بٱلمتقين",
     "transliteration": "lā yastadhinuka alladhīna yu'minūna bil-lahi wal-yawmi l-ākhiri an yujāhidū bi-amwālihim wa-anfusihim wal-lahu ʿalīmun bil-mutaqīna",
-    "translation": "",
+    "translation": "Those who believe in Allāh and the Last Day would not ask permission of you to be excused from striving [i.e., fighting] with their wealth and their lives. And Allāh is Knowing of those who fear Him.",
     "words": [
       {
         "id": "at-tawbah-44-1",
@@ -6697,7 +6740,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui croient en Allah et au Jour Dernier, eux, ne te demanderont pas de les dispenser d’aller lutter par leurs biens et leurs âmes, et Allah Connaît parfaitement ceux qui ont la piété."
   },
   {
     "id": "at-tawbah-45",
@@ -6706,7 +6750,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا يَسْتَـْٔذِنُكَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَٱرْتَابَتْ قُلُوبُهُمْ فَهُمْ فِى رَيْبِهِمْ يَتَرَدَّدُونَ",
     "textSimple": "إنما يستـٔذنك ٱلذين لا يؤمنون بٱلله وٱليوم ٱلـٔاخر وٱرتابت قلوبهم فهم فى ريبهم يترددون",
     "transliteration": "innamā yastadhinuka alladhīna lā yu'minūna bil-lahi wal-yawmi l-ākhiri wa-ir'tābat qulūbuhum fahum fī raybihim yataraddadūna",
-    "translation": "",
+    "translation": "Only those would ask permission of you who do not believe in Allāh and the Last Day and whose hearts have doubted, and they, in their doubt, are hesitating.",
     "words": [
       {
         "id": "at-tawbah-45-1",
@@ -6807,7 +6851,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seuls te demandent cette dispense ceux qui ne croient pas en Allah et au Jour Dernier, ceux dont les cœurs sont rongés par le doute. Eux, dans leur incertitude, pataugent hésitants."
   },
   {
     "id": "at-tawbah-46",
@@ -6816,7 +6861,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَوْ أَرَادُوا۟ ٱلْخُرُوجَ لَأَعَدُّوا۟ لَهُۥ عُدَّةً وَلَـٰكِن كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ ٱقْعُدُوا۟ مَعَ ٱلْقَـٰعِدِينَ",
     "textSimple": " ولو أرادوا ٱلخروج لأعدوا له عدة ولـكن كره ٱلله ٱنبعاثهم فثبطهم وقيل ٱقعدوا مع ٱلقـعدين",
     "transliteration": "walaw arādū l-khurūja la-aʿaddū lahu ʿuddatan walākin kariha l-lahu inbiʿāthahum fathabbaṭahum waqīla uq'ʿudū maʿa l-qāʿidīna",
-    "translation": "",
+    "translation": "And if they had intended to go forth, they would have prepared for it [some] preparation. But Allāh disliked their being sent, so He kept them back, and they were told, \"Remain [behind] with those who remain.\"",
     "words": [
       {
         "id": "at-tawbah-46-1",
@@ -6924,7 +6969,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils avaient voulu sortir (combattre), ils s’y seraient déjà préparés. Mais il déplut à Allah qu’ils prennent ce départ. Alors, Il les rendit indolents et il leur fut dit : « Restez avec ceux qui restent ! »"
   },
   {
     "id": "at-tawbah-47",
@@ -6933,7 +6979,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ خَرَجُوا۟ فِيكُم مَّا زَادُوكُمْ إِلَّا خَبَالًا وَلَأَوْضَعُوا۟ خِلَـٰلَكُمْ يَبْغُونَكُمُ ٱلْفِتْنَةَ وَفِيكُمْ سَمَّـٰعُونَ لَهُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّـٰلِمِينَ",
     "textSimple": "لو خرجوا فيكم ما زادوكم إلا خبالا ولأوضعوا خلـلكم يبغونكم ٱلفتنة وفيكم سمـعون لهم  وٱلله عليم بٱلظـلمين",
     "transliteration": "law kharajū fīkum mā zādūkum illā khabālan wala-awḍaʿū khilālakum yabghūnakumu l-fit'nata wafīkum sammāʿūna lahum wal-lahu ʿalīmun bil-ẓālimīna",
-    "translation": "",
+    "translation": "Had they gone forth with you, they would not have increased you except in confusion, and they would have been active among you, seeking [to cause] you fitnah [i.e., chaos and dissension]. And among you are avid listeners to them. And Allāh is Knowing of the wrongdoers.",
     "words": [
       {
         "id": "at-tawbah-47-1",
@@ -7055,7 +7101,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils étaient sortis avec vous, ils n’auraient fait qu’ajouter à votre trouble ; ils auraient semé parmi vous la dissension et souhaité la discorde. Or, parmi vous, il en est qui les écoutent volontiers. Allah Connaît parfaitement les injustes."
   },
   {
     "id": "at-tawbah-48",
@@ -7064,7 +7111,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدِ ٱبْتَغَوُا۟ ٱلْفِتْنَةَ مِن قَبْلُ وَقَلَّبُوا۟ لَكَ ٱلْأُمُورَ حَتَّىٰ جَآءَ ٱلْحَقُّ وَظَهَرَ أَمْرُ ٱللَّهِ وَهُمْ كَـٰرِهُونَ",
     "textSimple": "لقد ٱبتغوا ٱلفتنة من قبل وقلبوا لك ٱلأمور حتى جآء ٱلحق وظهر أمر ٱلله وهم كـرهون",
     "transliteration": "laqadi ib'taghawū l-fit'nata min qablu waqallabū laka l-umūra ḥattā jāa l-ḥaqu waẓahara amru l-lahi wahum kārihūna",
-    "translation": "",
+    "translation": "They had already desired dissension before and had upset matters for you until the truth came and the ordinance [i.e., victory] of Allāh appeared, while they were averse.",
     "words": [
       {
         "id": "at-tawbah-48-1",
@@ -7179,7 +7226,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont déjà cherché, auparavant, à semer la discorde. Ils ont interverti autour de toi toutes les affaires, jusqu’à ce que la vérité fût advenue et que le commandement d’Allah eût triomphé contre leur gré."
   },
   {
     "id": "at-tawbah-49",
@@ -7188,7 +7236,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَقُولُ ٱئْذَن لِّى وَلَا تَفْتِنِّىٓ ۚ أَلَا فِى ٱلْفِتْنَةِ سَقَطُوا۟ ۗ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَـٰفِرِينَ",
     "textSimple": "ومنهم من يقول ٱئذن لى ولا تفتنىٓ  ألا فى ٱلفتنة سقطوا  وإن جهنم لمحيطة بٱلكـفرين",
     "transliteration": "wamin'hum man yaqūlu i'dhan lī walā taftinnī alā fī l-fit'nati saqaṭū wa-inna jahannama lamuḥīṭatun bil-kāfirīna",
-    "translation": "",
+    "translation": "And among them is he who says, \"Permit me [to remain at home] and do not put me to trial.\" Unquestionably, into trial they have fallen. And indeed, Hell will encompass the disbelievers.",
     "words": [
       {
         "id": "at-tawbah-49-1",
@@ -7296,7 +7344,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est, parmi eux, celui qui dit : « Autorise-moi (à ne pas aller au combat) et ne me livre pas à la tentation. » Mais, n’est-ce pas à la tentation qu’ils ont (finalement) succombé ? La Géhenne cerne de toutes parts les mécréants."
   },
   {
     "id": "at-tawbah-50",
@@ -7305,7 +7354,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِن تُصِبْكَ حَسَنَةٌ تَسُؤْهُمْ ۖ وَإِن تُصِبْكَ مُصِيبَةٌ يَقُولُوا۟ قَدْ أَخَذْنَآ أَمْرَنَا مِن قَبْلُ وَيَتَوَلَّوا۟ وَّهُمْ فَرِحُونَ",
     "textSimple": "إن تصبك حسنة تسؤهم  وإن تصبك مصيبة يقولوا قد أخذنآ أمرنا من قبل ويتولوا وهم فرحون",
     "transliteration": "in tuṣib'ka ḥasanatun tasu'hum wa-in tuṣib'ka muṣībatun yaqūlū qad akhadhnā amranā min qablu wayatawallaw wahum fariḥūna",
-    "translation": "",
+    "translation": "If good befalls you, it distresses them; but if disaster strikes you, they say, \"We took our matter [in hand] before,\" and turn away while they are rejoicing.",
     "words": [
       {
         "id": "at-tawbah-50-1",
@@ -7420,7 +7469,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si quelque chose d’heureux t’arrive, ils en sont déçus, et si c’est un événement néfaste, ils disent : « Nous avons pris nos précautions d’avance », et ils se détournent ravis."
   },
   {
     "id": "at-tawbah-51",
@@ -7429,7 +7479,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّن يُصِيبَنَآ إِلَّا مَا كَتَبَ ٱللَّهُ لَنَا هُوَ مَوْلَىٰنَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
     "textSimple": "قل لن يصيبنآ إلا ما كتب ٱلله لنا هو مولىنا  وعلى ٱلله فليتوكل ٱلمؤمنون",
     "transliteration": "qul lan yuṣībanā illā mā kataba l-lahu lanā huwa mawlānā waʿalā l-lahi falyatawakkali l-mu'minūna",
-    "translation": "",
+    "translation": "Say, \"Never will we be struck except by what Allāh has decreed for us; He is our protector.\" And upon Allāh let the believers rely.",
     "words": [
       {
         "id": "at-tawbah-51-1",
@@ -7530,7 +7580,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Rien ne nous atteindra qu’Allah n’ait déjà écrit (prédestiné) pour nous. Il est notre Protecteur, et c’est à Allah que devront s’en remettre les croyants. »"
   },
   {
     "id": "at-tawbah-52",
@@ -7539,7 +7590,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هَلْ تَرَبَّصُونَ بِنَآ إِلَّآ إِحْدَى ٱلْحُسْنَيَيْنِ ۖ وَنَحْنُ نَتَرَبَّصُ بِكُمْ أَن يُصِيبَكُمُ ٱللَّهُ بِعَذَابٍ مِّنْ عِندِهِۦٓ أَوْ بِأَيْدِينَا ۖ فَتَرَبَّصُوٓا۟ إِنَّا مَعَكُم مُّتَرَبِّصُونَ",
     "textSimple": "قل هل تربصون بنآ إلآ إحدى ٱلحسنيين  ونحن نتربص بكم أن يصيبكم ٱلله بعذاب من عندهٓ أو بأيدينا  فتربصوٓا إنا معكم متربصون",
     "transliteration": "qul hal tarabbaṣūna binā illā iḥ'dā l-ḥus'nayayni wanaḥnu natarabbaṣu bikum an yuṣībakumu l-lahu biʿadhābin min ʿindihi aw bi-aydīnā fatarabbaṣū innā maʿakum mutarabbiṣūna",
-    "translation": "",
+    "translation": "Say, \"Do you await for us except one of the two best things [i.e., martyrdom or victory] while we await for you that Allāh will afflict you with punishment from Himself or at our hands? So wait; indeed we, along with you, are waiting.\"",
     "words": [
       {
         "id": "at-tawbah-52-1",
@@ -7696,7 +7747,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qu’attendez-vous qu’il nous arrive sinon l’une des deux meilleures (choses possibles)? Nous, en revanche, attendons qu’Allah vous frappe d’un supplice venant de Sa part ou par nos mains. Attendez alors, nous attendrons avec vous ! »"
   },
   {
     "id": "at-tawbah-53",
@@ -7705,7 +7757,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَنفِقُوا۟ طَوْعًا أَوْ كَرْهًا لَّن يُتَقَبَّلَ مِنكُمْ ۖ إِنَّكُمْ كُنتُمْ قَوْمًا فَـٰسِقِينَ",
     "textSimple": "قل أنفقوا طوعا أو كرها لن يتقبل منكم  إنكم كنتم قوما فـسقين",
     "transliteration": "qul anfiqū ṭawʿan aw karhan lan yutaqabbala minkum innakum kuntum qawman fāsiqīna",
-    "translation": "",
+    "translation": "Say, \"Spend willingly or unwillingly; never will it be accepted from you. Indeed, you have been a defiantly disobedient people.\"",
     "words": [
       {
         "id": "at-tawbah-53-1",
@@ -7792,7 +7844,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Dépensez (de vos biens dans les œuvres de dévotion) volontairement ou malgré vous : rien ne sera accepté de vous, car vous êtes des gens pervers. »"
   },
   {
     "id": "at-tawbah-54",
@@ -7801,7 +7854,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَـٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَـٰرِهُونَ",
     "textSimple": "وما منعهم أن تقبل منهم نفقـتهم إلآ أنهم كفروا بٱلله وبرسوله ولا يأتون ٱلصلوة إلا وهم كسالى ولا ينفقون إلا وهم كـرهون",
     "transliteration": "wamā manaʿahum an tuq'bala min'hum nafaqātuhum illā annahum kafarū bil-lahi wabirasūlihi walā yatūna l-ṣalata illā wahum kusālā walā yunfiqūna illā wahum kārihūna",
-    "translation": "",
+    "translation": "And what prevents their expenditures from being accepted from them but that they have disbelieved in Allāh and in His Messenger and that they come not to prayer except while they are lazy and that they do not spend except while they are unwilling.",
     "words": [
       {
         "id": "at-tawbah-54-1",
@@ -7958,7 +8011,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien n’empêche pourtant que leurs dépenses soient acceptées sinon qu’ils ont mécru en Allah et en Son Messager, ne se présentent à la Çalât qu’en fainéants et ne dépensent que malgré eux."
   },
   {
     "id": "at-tawbah-55",
@@ -7967,7 +8021,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَلَآ أَوْلَـٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُعَذِّبَهُم بِهَا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَتَزْهَقَ أَنفُسُهُمْ وَهُمْ كَـٰفِرُونَ",
     "textSimple": "فلا تعجبك أمولهم ولآ أولـدهم  إنما يريد ٱلله ليعذبهم بها فى ٱلحيوة ٱلدنيا وتزهق أنفسهم وهم كـفرون",
     "transliteration": "falā tuʿ'jib'ka amwāluhum walā awlāduhum innamā yurīdu l-lahu liyuʿadhibahum bihā fī l-ḥayati l-dun'yā watazhaqa anfusuhum wahum kāfirūna",
-    "translation": "",
+    "translation": "So let not their wealth or their children impress you. Allāh only intends to punish them through them in worldly life and that their souls should depart [at death] while they are disbelievers.",
     "words": [
       {
         "id": "at-tawbah-55-1",
@@ -8089,7 +8143,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne te séduisent ni leurs richesses ni leurs enfants! Allah veut en faire pour eux une source de tourment en ce bas monde, et (veut) qu’ils rendent l’âme en mécréants."
   },
   {
     "id": "at-tawbah-56",
@@ -8098,7 +8153,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَيَحْلِفُونَ بِٱللَّهِ إِنَّهُمْ لَمِنكُمْ وَمَا هُم مِّنكُمْ وَلَـٰكِنَّهُمْ قَوْمٌ يَفْرَقُونَ",
     "textSimple": "ويحلفون بٱلله إنهم لمنكم وما هم منكم ولـكنهم قوم يفرقون",
     "transliteration": "wayaḥlifūna bil-lahi innahum laminkum wamā hum minkum walākinnahum qawmun yafraqūna",
-    "translation": "",
+    "translation": "And they swear by Allāh that they are from among you while they are not from among you; but they are a people who are afraid.",
     "words": [
       {
         "id": "at-tawbah-56-1",
@@ -8171,7 +8226,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils jurent par Allah qu’ils sont bien des vôtres, et ils ne le sont point. Ce sont plutôt des gens qui (jurent) sous l’empire de la peur."
   },
   {
     "id": "at-tawbah-57",
@@ -8180,7 +8236,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ يَجِدُونَ مَلْجَـًٔا أَوْ مَغَـٰرَٰتٍ أَوْ مُدَّخَلًا لَّوَلَّوْا۟ إِلَيْهِ وَهُمْ يَجْمَحُونَ",
     "textSimple": "لو يجدون ملجـٔا أو مغـرت أو مدخلا لولوا إليه وهم يجمحون",
     "transliteration": "law yajidūna malja-an aw maghārātin aw muddakhalan lawallaw ilayhi wahum yajmaḥūna",
-    "translation": "",
+    "translation": "If they could find a refuge or some caves or any place to enter [and hide], they would turn to it while they run heedlessly.",
     "words": [
       {
         "id": "at-tawbah-57-1",
@@ -8260,7 +8316,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils trouvaient un refuge, des grottes ou un souterrain, ils se tourneraient (aussitôt vers eux) et s’y précipiteraient."
   },
   {
     "id": "at-tawbah-58",
@@ -8269,7 +8326,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُم مَّن يَلْمِزُكَ فِى ٱلصَّدَقَـٰتِ فَإِنْ أُعْطُوا۟ مِنْهَا رَضُوا۟ وَإِن لَّمْ يُعْطَوْا۟ مِنْهَآ إِذَا هُمْ يَسْخَطُونَ",
     "textSimple": "ومنهم من يلمزك فى ٱلصدقـت فإن أعطوا منها رضوا وإن لم يعطوا منهآ إذا هم يسخطون",
     "transliteration": "wamin'hum man yalmizuka fī l-ṣadaqāti fa-in uʿ'ṭū min'hā raḍū wa-in lam yuʿ'ṭaw min'hā idhā hum yaskhaṭūna",
-    "translation": "",
+    "translation": "And among them are some who criticize you concerning the [distribution of] charities. If they are given from them, they approve; but if they are not given from them, at once they become angry.",
     "words": [
       {
         "id": "at-tawbah-58-1",
@@ -8384,7 +8441,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi eux, il en est qui te décrient au sujet des charités (sadaqât). Ils sont contents s’il leur en est donné ; s’ils n’en reçoivent rien, ils sont alors furieux."
   },
   {
     "id": "at-tawbah-59",
@@ -8393,7 +8451,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّهُمْ رَضُوا۟ مَآ ءَاتَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ وَقَالُوا۟ حَسْبُنَا ٱللَّهُ سَيُؤْتِينَا ٱللَّهُ مِن فَضْلِهِۦ وَرَسُولُهُۥٓ إِنَّآ إِلَى ٱللَّهِ رَٰغِبُونَ",
     "textSimple": "ولو أنهم رضوا مآ ءاتىهم ٱلله ورسوله وقالوا حسبنا ٱلله سيؤتينا ٱلله من فضله ورسولهٓ إنآ إلى ٱلله رغبون",
     "transliteration": "walaw annahum raḍū mā ātāhumu l-lahu warasūluhu waqālū ḥasbunā l-lahu sayu'tīnā l-lahu min faḍlihi warasūluhu innā ilā l-lahi rāghibūna",
-    "translation": "",
+    "translation": "If only they had been satisfied with what Allāh and His Messenger gave them and said, \"Sufficient for us is Allāh; Allāh will give us of His bounty, and [so will] His Messenger; indeed, we are desirous toward Allāh,\" [it would have been better for them].",
     "words": [
       {
         "id": "at-tawbah-59-1",
@@ -8529,7 +8587,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement ils avaient été satisfaits de ce que leur ont donné Allah et Son Messager, et avaient dit : « Allah nous suffira ! Allah nous donnera encore de Ses faveurs ainsi que Son Messager. C’est vers Allah que tendent tous nos désirs. »"
   },
   {
     "id": "at-tawbah-60",
@@ -8538,7 +8597,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّمَا ٱلصَّدَقَـٰتُ لِلْفُقَرَآءِ وَٱلْمَسَـٰكِينِ وَٱلْعَـٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَـٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": " إنما ٱلصدقـت للفقرآء وٱلمسـكين وٱلعـملين عليها وٱلمؤلفة قلوبهم وفى ٱلرقاب وٱلغـرمين وفى سبيل ٱلله وٱبن ٱلسبيل  فريضة من ٱلله  وٱلله عليم حكيم",
     "transliteration": "innamā l-ṣadaqātu lil'fuqarāi wal-masākīni wal-ʿāmilīna ʿalayhā wal-mu-alafati qulūbuhum wafī l-riqābi wal-ghārimīna wafī sabīli l-lahi wa-ib'ni l-sabīli farīḍatan mina l-lahi wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "Zakāh expenditures are only for the poor and for the needy and for those employed for it and for bringing hearts together [for Islām] and for freeing captives [or slaves] and for those in debt and for the cause of Allāh and for the [stranded] traveler - an obligation [imposed] by Allāh. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "at-tawbah-60-1",
@@ -8695,7 +8754,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les charités ne sont dues qu’aux pauvres, aux nécessiteux, à ceux qui s’emploient à les collecter, à ceux dont les cœurs sont déjà acquis à l’Islam et qui sont prêts à affermir leur foi, à l’affranchissement des captifs, aux endettés, à la cause d’Allah et au voyageur de grand chemin. C’est là une prescription d’Allah, et Allah est Omniscient et Sage."
   },
   {
     "id": "at-tawbah-61",
@@ -8704,7 +8764,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْهُمُ ٱلَّذِينَ يُؤْذُونَ ٱلنَّبِىَّ وَيَقُولُونَ هُوَ أُذُنٌ ۚ قُلْ أُذُنُ خَيْرٍ لَّكُمْ يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌ لِّلَّذِينَ ءَامَنُوا۟ مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "ومنهم ٱلذين يؤذون ٱلنبى ويقولون هو أذن  قل أذن خير لكم يؤمن بٱلله ويؤمن للمؤمنين ورحمة للذين ءامنوا منكم  وٱلذين يؤذون رسول ٱلله لهم عذاب أليم",
     "transliteration": "wamin'humu alladhīna yu'dhūna l-nabiya wayaqūlūna huwa udhunun qul udhunu khayrin lakum yu'minu bil-lahi wayu'minu lil'mu'minīna waraḥmatun lilladhīna āmanū minkum wa-alladhīna yu'dhūna rasūla l-lahi lahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And among them are those who abuse the Prophet and say, \"He is an ear.\" Say, \"[It is] an ear of goodness for you that believes in Allāh and believes the believers and [is] a mercy to those who believe among you.\" And those who abuse the Messenger of Allāh - for them is a painful punishment.",
     "words": [
       {
         "id": "at-tawbah-61-1",
@@ -8889,7 +8949,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parmi eux, il en est aussi qui offensent le Prophète en disant : « Il est tout ouïe » (écoute et croit ce qu’on lui jure). Dis : « Une ouïe pour votre bien. Il a foi en Allah et se fie à ceux qui ont la foi. Il est miséricorde pour ceux d’entre vous qui ont cru. Quant à ceux qui offensent le Messager d’Allah, ils auront un supplice très douloureux. »"
   },
   {
     "id": "at-tawbah-62",
@@ -8898,7 +8959,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَحْلِفُونَ بِٱللَّهِ لَكُمْ لِيُرْضُوكُمْ وَٱللَّهُ وَرَسُولُهُۥٓ أَحَقُّ أَن يُرْضُوهُ إِن كَانُوا۟ مُؤْمِنِينَ",
     "textSimple": "يحلفون بٱلله لكم ليرضوكم وٱلله ورسولهٓ أحق أن يرضوه إن كانوا مؤمنين",
     "transliteration": "yaḥlifūna bil-lahi lakum liyur'ḍūkum wal-lahu warasūluhu aḥaqqu an yur'ḍūhu in kānū mu'minīna",
-    "translation": "",
+    "translation": "They swear by Allāh to you [Muslims] to satisfy you. But Allāh and His Messenger are more worthy for them to satisfy, if they were to be believers.",
     "words": [
       {
         "id": "at-tawbah-62-1",
@@ -8985,7 +9046,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils vous jurent par Allah, cherchant à vous satisfaire. Mais c’est plutôt Allah Qui mérite qu’ils Le satisfassent ainsi que Son Messager, s’ils sont vraiment croyants."
   },
   {
     "id": "at-tawbah-63",
@@ -8994,7 +9056,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَعْلَمُوٓا۟ أَنَّهُۥ مَن يُحَادِدِ ٱللَّهَ وَرَسُولَهُۥ فَأَنَّ لَهُۥ نَارَ جَهَنَّمَ خَـٰلِدًا فِيهَا ۚ ذَٰلِكَ ٱلْخِزْىُ ٱلْعَظِيمُ",
     "textSimple": "ألم يعلموٓا أنه من يحادد ٱلله ورسوله فأن له نار جهنم خـلدا فيها  ذلك ٱلخزى ٱلعظيم",
     "transliteration": "alam yaʿlamū annahu man yuḥādidi l-laha warasūlahu fa-anna lahu nāra jahannama khālidan fīhā dhālika l-khiz'yu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "Do they not know that whoever opposes Allāh and His Messenger - that for him is the fire of Hell, wherein he will abide eternally? That is the great disgrace.",
     "words": [
       {
         "id": "at-tawbah-63-1",
@@ -9109,7 +9171,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne savent-ils pas que ceux qui s’opposent à Allah et à Son Messager auront (pour destination) le Feu de la Géhenne, où ils séjourneront pour l’éternité ? Voilà la suprême ignominie !"
   },
   {
     "id": "at-tawbah-64",
@@ -9118,7 +9181,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَحْذَرُ ٱلْمُنَـٰفِقُونَ أَن تُنَزَّلَ عَلَيْهِمْ سُورَةٌ تُنَبِّئُهُم بِمَا فِى قُلُوبِهِمْ ۚ قُلِ ٱسْتَهْزِءُوٓا۟ إِنَّ ٱللَّهَ مُخْرِجٌ مَّا تَحْذَرُونَ",
     "textSimple": "يحذر ٱلمنـفقون أن تنزل عليهم سورة تنبئهم بما فى قلوبهم  قل ٱستهزءوٓا إن ٱلله مخرج ما تحذرون",
     "transliteration": "yaḥdharu l-munāfiqūna an tunazzala ʿalayhim sūratun tunabbi-uhum bimā fī qulūbihim quli is'tahziū inna l-laha mukh'rijun mā taḥdharūna",
-    "translation": "",
+    "translation": "The hypocrites are apprehensive lest a sūrah be revealed about them, informing them of what is in their hearts. Say, \"Mock [as you wish]; indeed, Allāh will expose that which you fear.\"",
     "words": [
       {
         "id": "at-tawbah-64-1",
@@ -9240,7 +9303,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hypocrites ont peur qu’il ne soit révélé à leur sujet une sourate qui dévoilerait ce qu’il y a dans leurs cœurs. Dis : « Riez toujours ! Allah fera sortir ce dont qu’il ne soit dévoilé ! »"
   },
   {
     "id": "at-tawbah-65",
@@ -9249,7 +9313,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ ۚ قُلْ أَبِٱللَّهِ وَءَايَـٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ",
     "textSimple": "ولئن سألتهم ليقولن إنما كنا نخوض ونلعب  قل أبٱلله وءايـته ورسوله كنتم تستهزءون",
     "transliteration": "wala-in sa-altahum layaqūlunna innamā kunnā nakhūḍu wanalʿabu qul abil-lahi waāyātihi warasūlihi kuntum tastahziūna",
-    "translation": "",
+    "translation": "And if you ask them, they will surely say, \"We were only conversing and playing.\" Say, \"Is it Allāh and His verses and His Messenger that you were mocking?\"",
     "words": [
       {
         "id": "at-tawbah-65-1",
@@ -9343,7 +9407,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si tu les interrogeais (à ce propos), ils diraient sans doute : « Nous ne faisions que converser et jouer. » Dis alors : « Est-ce d’Allah, de Ses versets et de Son Messager que vous vous gaussiez ? »"
   },
   {
     "id": "at-tawbah-66",
@@ -9352,7 +9417,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا تَعْتَذِرُوا۟ قَدْ كَفَرْتُم بَعْدَ إِيمَـٰنِكُمْ ۚ إِن نَّعْفُ عَن طَآئِفَةٍ مِّنكُمْ نُعَذِّبْ طَآئِفَةًۢ بِأَنَّهُمْ كَانُوا۟ مُجْرِمِينَ",
     "textSimple": "لا تعتذروا قد كفرتم بعد إيمـنكم  إن نعف عن طآئفة منكم نعذب طآئفة بأنهم كانوا مجرمين",
     "transliteration": "lā taʿtadhirū qad kafartum baʿda īmānikum in naʿfu ʿan ṭāifatin minkum nuʿadhib ṭāifatan bi-annahum kānū muj'rimīna",
-    "translation": "",
+    "translation": "Make no excuse; you have disbelieved [i.e., rejected faith] after your belief. If We pardon one faction of you - We will punish another faction because they were criminals.",
     "words": [
       {
         "id": "at-tawbah-66-1",
@@ -9467,7 +9532,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne tentez certes pas de vous excuser. Vous avez bien mécru après avoir eu la foi. Si Nous pardonnons à une partie d’entre vous, Nous en vouerons une autre au supplice pour ses crimes."
   },
   {
     "id": "at-tawbah-67",
@@ -9476,7 +9542,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْمُنَـٰفِقُونَ وَٱلْمُنَـٰفِقَـٰتُ بَعْضُهُم مِّنۢ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمُنكَرِ وَيَنْهَوْنَ عَنِ ٱلْمَعْرُوفِ وَيَقْبِضُونَ أَيْدِيَهُمْ ۚ نَسُوا۟ ٱللَّهَ فَنَسِيَهُمْ ۗ إِنَّ ٱلْمُنَـٰفِقِينَ هُمُ ٱلْفَـٰسِقُونَ",
     "textSimple": "ٱلمنـفقون وٱلمنـفقـت بعضهم من بعض  يأمرون بٱلمنكر وينهون عن ٱلمعروف ويقبضون أيديهم  نسوا ٱلله فنسيهم  إن ٱلمنـفقين هم ٱلفـسقون",
     "transliteration": "al-munāfiqūna wal-munāfiqātu baʿḍuhum min baʿḍin yamurūna bil-munkari wayanhawna ʿani l-maʿrūfi wayaqbiḍūna aydiyahum nasū l-laha fanasiyahum inna l-munāfiqīna humu l-fāsiqūna",
-    "translation": "",
+    "translation": "The hypocrite men and hypocrite women are of one another. They enjoin what is wrong and forbid what is right and close their hands. They have forgotten Allāh, so He has forgotten them [accordingly]. Indeed, the hypocrites - it is they who are the defiantly disobedient.",
     "words": [
       {
         "id": "at-tawbah-67-1",
@@ -9612,7 +9678,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hommes et femmes hypocrites relèvent les uns des autres. Ils prescrivent le condamnable et proscrivent le convenable, et gardent leurs mains fermées par avarice. Ils ont oublié Allah, alors Il les a oubliés. Certes, les hypocrites sont eux les pervers."
   },
   {
     "id": "at-tawbah-68",
@@ -9621,7 +9688,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَعَدَ ٱللَّهُ ٱلْمُنَـٰفِقِينَ وَٱلْمُنَـٰفِقَـٰتِ وَٱلْكُفَّارَ نَارَ جَهَنَّمَ خَـٰلِدِينَ فِيهَا ۚ هِىَ حَسْبُهُمْ ۚ وَلَعَنَهُمُ ٱللَّهُ ۖ وَلَهُمْ عَذَابٌ مُّقِيمٌ",
     "textSimple": "وعد ٱلله ٱلمنـفقين وٱلمنـفقـت وٱلكفار نار جهنم خـلدين فيها  هى حسبهم  ولعنهم ٱلله  ولهم عذاب مقيم",
     "transliteration": "waʿada l-lahu l-munāfiqīna wal-munāfiqāti wal-kufāra nāra jahannama khālidīna fīhā hiya ḥasbuhum walaʿanahumu l-lahu walahum ʿadhābun muqīmun",
-    "translation": "",
+    "translation": "Allāh has promised the hypocrite men and hypocrite women and the disbelievers the fire of Hell, wherein they will abide eternally. It is sufficient for them. And Allāh has cursed them, and for them is an enduring punishment.",
     "words": [
       {
         "id": "at-tawbah-68-1",
@@ -9736,7 +9803,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a promis aux hommes et femmes hypocrites ainsi qu’aux mécréants, le Feu de la Géhenne : là ils séjourneront pour l’éternité. Que cela leur suffise ! Allah les a maudits, et ils auront un supplice constant."
   },
   {
     "id": "at-tawbah-69",
@@ -9745,7 +9813,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةً وَأَكْثَرَ أَمْوَٰلًا وَأَوْلَـٰدًا فَٱسْتَمْتَعُوا۟ بِخَلَـٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَـٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَـٰقِهِمْ وَخُضْتُمْ كَٱلَّذِى خَاضُوٓا۟ ۚ أُو۟لَـٰٓئِكَ حَبِطَتْ أَعْمَـٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "كٱلذين من قبلكم كانوٓا أشد منكم قوة وأكثر أمولا وأولـدا فٱستمتعوا بخلـقهم فٱستمتعتم بخلـقكم كما ٱستمتع ٱلذين من قبلكم بخلـقهم وخضتم كٱلذى خاضوٓا  أولـٓئك حبطت أعمـلهم فى ٱلدنيا وٱلـٔاخرة  وأولـٓئك هم ٱلخـسرون",
     "transliteration": "ka-alladhīna min qablikum kānū ashadda minkum quwwatan wa-akthara amwālan wa-awlādan fa-is'tamtaʿū bikhalāqihim fa-is'tamtaʿtum bikhalāqikum kamā is'tamtaʿa alladhīna min qablikum bikhalāqihim wakhuḍ'tum ka-alladhī khāḍū ulāika ḥabiṭat aʿmāluhum fī l-dun'yā wal-ākhirati wa-ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "[You disbelievers are] like those before you; they were stronger than you in power and more abundant in wealth and children. They enjoyed their portion [of worldly enjoyment], and you have enjoyed your portion as those before you enjoyed their portion, and you have engaged [in vanities] like that in which they engaged. [It is] those whose deeds have become worthless in this world and in the Hereafter, and it is they who are the losers.",
     "words": [
       {
         "id": "at-tawbah-69-1",
@@ -9972,7 +10040,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel fut le cas de ceux qui vécurent avant vous. Ils étaient dotés d’une plus grande force que vous et avaient plus de biens et d’enfants. Ils ont profité de leur part en ce monde et vous avez bien joui de la vôtre tout comme l’avaient fait vos prédécesseurs. Et vous avez débattu des mêmes sujets de conversation futiles dont ils avaient débattu. Ceux-là, vaines seront leurs actions dans ce bas monde et dans l’autre, et ceux-là sont bien les perdants."
   },
   {
     "id": "at-tawbah-70",
@@ -9981,7 +10050,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَأْتِهِمْ نَبَأُ ٱلَّذِينَ مِن قَبْلِهِمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ وَقَوْمِ إِبْرَٰهِيمَ وَأَصْحَـٰبِ مَدْيَنَ وَٱلْمُؤْتَفِكَـٰتِ ۚ أَتَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
     "textSimple": "ألم يأتهم نبأ ٱلذين من قبلهم قوم نوح وعاد وثمود وقوم إبرهيم وأصحـب مدين وٱلمؤتفكـت  أتتهم رسلهم بٱلبينـت  فما كان ٱلله ليظلمهم ولـكن كانوٓا أنفسهم يظلمون",
     "transliteration": "alam yatihim naba-u alladhīna min qablihim qawmi nūḥin waʿādin wathamūda waqawmi ib'rāhīma wa-aṣḥābi madyana wal-mu'tafikāti atathum rusuluhum bil-bayināti famā kāna l-lahu liyaẓlimahum walākin kānū anfusahum yaẓlimūna",
-    "translation": "",
+    "translation": "Has there not reached them the news of those before them - the people of Noah and [the tribes of] ʿAad and Thamūd and the people of Abraham and the companions [i.e., dwellers] of Madyan and the towns overturned? Their messengers came to them with clear proofs. And Allāh would never have wronged them, but they were wronging themselves.",
     "words": [
       {
         "id": "at-tawbah-70-1",
@@ -10166,7 +10235,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne leur est-il pas parvenu l’histoire de ceux qui vécurent avant eux, celle des peuples de Noé, des ‘Ad et des Thamûd, ou celle encore du peuple d’Abraham, des gens de Madyan et des cités renversées ? Leurs Messagers leur avaient apporté les preuves évidentes. Allah ne les avait nullement lésés mais ils se lésaient eux-mêmes."
   },
   {
     "id": "at-tawbah-71",
@@ -10175,7 +10245,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَـٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَـٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
     "textSimple": "وٱلمؤمنون وٱلمؤمنـت بعضهم أوليآء بعض  يأمرون بٱلمعروف وينهون عن ٱلمنكر ويقيمون ٱلصلوة ويؤتون ٱلزكوة ويطيعون ٱلله ورسولهٓ  أولـٓئك سيرحمهم ٱلله  إن ٱلله عزيز حكيم",
     "transliteration": "wal-mu'minūna wal-mu'minātu baʿḍuhum awliyāu baʿḍin yamurūna bil-maʿrūfi wayanhawna ʿani l-munkari wayuqīmūna l-ṣalata wayu'tūna l-zakata wayuṭīʿūna l-laha warasūlahu ulāika sayarḥamuhumu l-lahu inna l-laha ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "The believing men and believing women are allies of one another. They enjoin what is right and forbid what is wrong and establish prayer and give zakāh and obey Allāh and His Messenger. Those - Allāh will have mercy upon them. Indeed, Allāh is Exalted in Might and Wise.",
     "words": [
       {
         "id": "at-tawbah-71-1",
@@ -10346,7 +10416,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les croyants et les croyantes sont parents et solidaires. Ils prescrivent le convenable et proscrivent le condamnable, accomplissent la Çalât, s’acquittent de la Zakât, et obéissent à Allah et à Son Messager. Ceux-là, Allah leur fera miséricorde, car Allah est Tout-Puissant et Sage."
   },
   {
     "id": "at-tawbah-72",
@@ -10355,7 +10426,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَعَدَ ٱللَّهُ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا وَمَسَـٰكِنَ طَيِّبَةً فِى جَنَّـٰتِ عَدْنٍ ۚ وَرِضْوَٰنٌ مِّنَ ٱللَّهِ أَكْبَرُ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "وعد ٱلله ٱلمؤمنين وٱلمؤمنـت جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها ومسـكن طيبة فى جنـت عدن  ورضون من ٱلله أكبر  ذلك هو ٱلفوز ٱلعظيم",
     "transliteration": "waʿada l-lahu l-mu'minīna wal-mu'mināti jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā wamasākina ṭayyibatan fī jannāti ʿadnin wariḍ'wānun mina l-lahi akbaru dhālika huwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "Allāh has promised the believing men and believing women gardens beneath which rivers flow, wherein they abide eternally, and pleasant dwellings in gardens of perpetual residence; but approval from Allāh is greater. It is that which is the great attainment.",
     "words": [
       {
         "id": "at-tawbah-72-1",
@@ -10526,7 +10597,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a promis aux croyants et aux croyantes des jardins sous lesquels coulent les rivières, où ils séjourneront pour l’éternité, et des habitations où il fait bon vivre dans les Jardins d’Éden. Mais la satisfaction qu’ils auront d’Allah sera plus grande encore. Voilà le succès suprême !"
   },
   {
     "id": "at-tawbah-73",
@@ -10535,7 +10607,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ جَـٰهِدِ ٱلْكُفَّارَ وَٱلْمُنَـٰفِقِينَ وَٱغْلُظْ عَلَيْهِمْ ۚ وَمَأْوَىٰهُمْ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "يـٓأيها ٱلنبى جـهد ٱلكفار وٱلمنـفقين وٱغلظ عليهم  ومأوىهم جهنم  وبئس ٱلمصير",
     "transliteration": "yāayyuhā l-nabiyu jāhidi l-kufāra wal-munāfiqīna wa-ugh'luẓ ʿalayhim wamawāhum jahannamu wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "O Prophet, fight against the disbelievers and the hypocrites and be harsh upon them. And their refuge is Hell, and wretched is the destination.",
     "words": [
       {
         "id": "at-tawbah-73-1",
@@ -10615,7 +10687,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Lutte contre les mécréants et les hypocrites. Sois rude envers eux, car leur séjour sera la Géhenne et quel horrible sort !"
   },
   {
     "id": "at-tawbah-74",
@@ -10624,7 +10697,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَـٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "يحلفون بٱلله ما قالوا ولقد قالوا كلمة ٱلكفر وكفروا بعد إسلـمهم وهموا بما لم ينالوا  وما نقموٓا إلآ أن أغنىهم ٱلله ورسوله من فضله  فإن يتوبوا يك خيرا لهم  وإن يتولوا يعذبهم ٱلله عذابا أليما فى ٱلدنيا وٱلـٔاخرة  وما لهم فى ٱلأرض من ولى ولا نصير",
     "transliteration": "yaḥlifūna bil-lahi mā qālū walaqad qālū kalimata l-kuf'ri wakafarū baʿda is'lāmihim wahammū bimā lam yanālū wamā naqamū illā an aghnāhumu l-lahu warasūluhu min faḍlihi fa-in yatūbū yaku khayran lahum wa-in yatawallaw yuʿadhib'humu l-lahu ʿadhāban alīman fī l-dun'yā wal-ākhirati wamā lahum fī l-arḍi min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "They swear by Allāh that they did not say [anything against the Prophet (ﷺ)] while they had said the word of disbelief and disbelieved after their [pretense of] Islām and planned that which they were not to attain. And they were not resentful except [for the fact] that Allāh and His Messenger had enriched them of His bounty. So if they repent, it is better for them; but if they turn away, Allāh will punish them with a painful punishment in this world and the Hereafter. And there will not be for them on earth any protector or helper.",
     "words": [
       {
         "id": "at-tawbah-74-1",
@@ -10949,7 +11022,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 45
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils jurent par Allah qu’ils n’ont rien dit, quand ils ont bien prononcé les mots de la mécréance. Ils ont mécru après s’être soumis en Musulmans. Ils ont vainement envisagé (d’avoir) ce qu’ils n’ont pu obtenir, et ils n’ont rien à dénoncer sinon qu’Allah les a comblés de Ses grâces, ainsi que Son Messager. S’ils reviennent à Allah repentants, cela vaudra mieux pour eux, et s’ils se détournent, Allah les soumettra à un supplice très douloureux dans ce bas monde et dans l’autre. Et sur terre, ils n’auront ni soutien ni secours."
   },
   {
     "id": "at-tawbah-75",
@@ -10958,7 +11032,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمِنْهُم مَّنْ عَـٰهَدَ ٱللَّهَ لَئِنْ ءَاتَىٰنَا مِن فَضْلِهِۦ لَنَصَّدَّقَنَّ وَلَنَكُونَنَّ مِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": " ومنهم من عـهد ٱلله لئن ءاتىنا من فضله لنصدقن ولنكونن من ٱلصـلحين",
     "transliteration": "wamin'hum man ʿāhada l-laha la-in ātānā min faḍlihi lanaṣṣaddaqanna walanakūnanna mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And among them are those who made a covenant with Allāh, [saying], \"If He should give us from His bounty, we will surely spend in charity, and we will surely be among the righteous.\"",
     "words": [
       {
         "id": "at-tawbah-75-1",
@@ -11045,7 +11119,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est parmi eux qui se sont engagés devant Allah : « S’Il nous dispense de Ses faveurs, nous nous acquitterons de la Zakât et nous serons du nombre des vertueux. »"
   },
   {
     "id": "at-tawbah-76",
@@ -11054,7 +11129,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ ءَاتَىٰهُم مِّن فَضْلِهِۦ بَخِلُوا۟ بِهِۦ وَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ",
     "textSimple": "فلمآ ءاتىهم من فضله بخلوا به وتولوا وهم معرضون",
     "transliteration": "falammā ātāhum min faḍlihi bakhilū bihi watawallaw wahum muʿ'riḍūna",
-    "translation": "",
+    "translation": "But when He gave them from His bounty, they were stingy with it and turned away while they refused.",
     "words": [
       {
         "id": "at-tawbah-76-1",
@@ -11120,7 +11195,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais quand Il les eut comblés de Ses grâces, ils en furent avares et se rétractèrent en se détournant."
   },
   {
     "id": "at-tawbah-77",
@@ -11129,7 +11205,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَعْقَبَهُمْ نِفَاقًا فِى قُلُوبِهِمْ إِلَىٰ يَوْمِ يَلْقَوْنَهُۥ بِمَآ أَخْلَفُوا۟ ٱللَّهَ مَا وَعَدُوهُ وَبِمَا كَانُوا۟ يَكْذِبُونَ",
     "textSimple": "فأعقبهم نفاقا فى قلوبهم إلى يوم يلقونه بمآ أخلفوا ٱلله ما وعدوه وبما كانوا يكذبون",
     "transliteration": "fa-aʿqabahum nifāqan fī qulūbihim ilā yawmi yalqawnahu bimā akhlafū l-laha mā waʿadūhu wabimā kānū yakdhibūna",
-    "translation": "",
+    "translation": "So He penalized them with hypocrisy in their hearts until the Day they will meet Him - because they failed Allāh in what they promised Him and because they [habitually] used to lie.",
     "words": [
       {
         "id": "at-tawbah-77-1",
@@ -11237,7 +11313,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En conséquence, Il a marqué d’hypocrisie leurs cœurs jusqu’au jour où ils auront à Le rencontrer. Cela, pour les punir d’avoir failli à la promesse faite à Allah, et d’avoir menti."
   },
   {
     "id": "at-tawbah-78",
@@ -11246,7 +11323,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ سِرَّهُمْ وَنَجْوَىٰهُمْ وَأَنَّ ٱللَّهَ عَلَّـٰمُ ٱلْغُيُوبِ",
     "textSimple": "ألم يعلموٓا أن ٱلله يعلم سرهم ونجوىهم وأن ٱلله علـم ٱلغيوب",
     "transliteration": "alam yaʿlamū anna l-laha yaʿlamu sirrahum wanajwāhum wa-anna l-laha ʿallāmu l-ghuyūbi",
-    "translation": "",
+    "translation": "Did they not know that Allāh knows their secrets and their private conversations and that Allāh is the Knower of the unseen?",
     "words": [
       {
         "id": "at-tawbah-78-1",
@@ -11326,7 +11403,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne savent-ils donc pas qu’Allah Connaît leur secret et leurs confidences, et qu’Allah est le Suprême Connaisseur des secrets insondables ?"
   },
   {
     "id": "at-tawbah-79",
@@ -11335,7 +11413,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَلْمِزُونَ ٱلْمُطَّوِّعِينَ مِنَ ٱلْمُؤْمِنِينَ فِى ٱلصَّدَقَـٰتِ وَٱلَّذِينَ لَا يَجِدُونَ إِلَّا جُهْدَهُمْ فَيَسْخَرُونَ مِنْهُمْ ۙ سَخِرَ ٱللَّهُ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "ٱلذين يلمزون ٱلمطوعين من ٱلمؤمنين فى ٱلصدقـت وٱلذين لا يجدون إلا جهدهم فيسخرون منهم  سخر ٱلله منهم ولهم عذاب أليم",
     "transliteration": "alladhīna yalmizūna l-muṭawiʿīna mina l-mu'minīna fī l-ṣadaqāti wa-alladhīna lā yajidūna illā juh'dahum fayaskharūna min'hum sakhira l-lahu min'hum walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Those who criticize the contributors among the believers concerning [their] charities and [criticize] the ones who find nothing [to spend] except their effort, so they ridicule them - Allāh will ridicule them, and they will have a painful punishment.",
     "words": [
       {
         "id": "at-tawbah-79-1",
@@ -11478,7 +11556,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui dénigrent aussi bien les croyants qui font volontairement de généreuses aumônes que ceux qui n’en font que dans les limites de leurs faibles moyens et se moquent d’eux, Allah Se moquera d’eux et ils auront un supplice très douloureux."
   },
   {
     "id": "at-tawbah-80",
@@ -11487,7 +11566,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱسْتَغْفِرْ لَهُمْ أَوْ لَا تَسْتَغْفِرْ لَهُمْ إِن تَسْتَغْفِرْ لَهُمْ سَبْعِينَ مَرَّةً فَلَن يَغْفِرَ ٱللَّهُ لَهُمْ ۚ ذَٰلِكَ بِأَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ",
     "textSimple": "ٱستغفر لهم أو لا تستغفر لهم إن تستغفر لهم سبعين مرة فلن يغفر ٱلله لهم  ذلك بأنهم كفروا بٱلله ورسوله  وٱلله لا يهدى ٱلقوم ٱلفـسقين",
     "transliteration": "is'taghfir lahum aw lā tastaghfir lahum in tastaghfir lahum sabʿīna marratan falan yaghfira l-lahu lahum dhālika bi-annahum kafarū bil-lahi warasūlihi wal-lahu lā yahdī l-qawma l-fāsiqīna",
-    "translation": "",
+    "translation": "Ask forgiveness for them, [O Muḥammad], or do not ask forgiveness for them. If you should ask forgiveness for them seventy times - never will Allāh forgive them. That is because they disbelieved in Allāh and His Messenger, and Allāh does not guide the defiantly disobedient people.",
     "words": [
       {
         "id": "at-tawbah-80-1",
@@ -11665,7 +11744,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que tu implores pour eux le pardon ou que tu ne l’implores pas - dusses-tu même l’implorer soixante-dix fois - Allah ne leur pardonnera jamais. Cela, parce qu’ils ont mécru en Allah et en Son Messager. Or Allah ne guide point les gens pervers."
   },
   {
     "id": "at-tawbah-81",
@@ -11674,7 +11754,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَرِحَ ٱلْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلَـٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓا۟ أَن يُجَـٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَقَالُوا۟ لَا تَنفِرُوا۟ فِى ٱلْحَرِّ ۗ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا ۚ لَّوْ كَانُوا۟ يَفْقَهُونَ",
     "textSimple": "فرح ٱلمخلفون بمقعدهم خلـف رسول ٱلله وكرهوٓا أن يجـهدوا بأمولهم وأنفسهم فى سبيل ٱلله وقالوا لا تنفروا فى ٱلحر  قل نار جهنم أشد حرا  لو كانوا يفقهون",
     "transliteration": "fariḥa l-mukhalafūna bimaqʿadihim khilāfa rasūli l-lahi wakarihū an yujāhidū bi-amwālihim wa-anfusihim fī sabīli l-lahi waqālū lā tanfirū fī l-ḥari qul nāru jahannama ashaddu ḥarran law kānū yafqahūna",
-    "translation": "",
+    "translation": "Those who remained behind rejoiced in their staying [at home] after [the departure of] the Messenger of Allāh and disliked to strive with their wealth and their lives in the cause of Allāh and said, \"Do not go forth in the heat.\" Say, \"The fire of Hell is more intense in heat\" - if they would but understand.",
     "words": [
       {
         "id": "at-tawbah-81-1",
@@ -11866,7 +11946,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont demeurés à l’arrière se réjouissaient d’être restés chez eux, bien derrière le Messager. Ils avaient en horreur de combattre par leurs biens et par leurs âmes pour la cause d’Allah, et dirent : « Gardez-vous d’aller au combat par cette chaleur ! » Dis : « Le Feu de la Géhenne est plus chaud encore. » Si seulement ils pouvaient comprendre !"
   },
   {
     "id": "at-tawbah-82",
@@ -11875,7 +11956,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلْيَضْحَكُوا۟ قَلِيلًا وَلْيَبْكُوا۟ كَثِيرًا جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "فليضحكوا قليلا وليبكوا كثيرا جزآء بما كانوا يكسبون",
     "transliteration": "falyaḍḥakū qalīlan walyabkū kathīran jazāan bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "So let them laugh a little and [then] weep much as recompense for what they used to earn.",
     "words": [
       {
         "id": "at-tawbah-82-1",
@@ -11934,7 +12015,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ils rient un peu (en ce bas monde) et qu’ils pleurent beaucoup (dans l’autre monde), pour prix de ce qu’ils commettaient !"
   },
   {
     "id": "at-tawbah-83",
@@ -11943,7 +12025,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن رَّجَعَكَ ٱللَّهُ إِلَىٰ طَآئِفَةٍ مِّنْهُمْ فَٱسْتَـْٔذَنُوكَ لِلْخُرُوجِ فَقُل لَّن تَخْرُجُوا۟ مَعِىَ أَبَدًا وَلَن تُقَـٰتِلُوا۟ مَعِىَ عَدُوًّا ۖ إِنَّكُمْ رَضِيتُم بِٱلْقُعُودِ أَوَّلَ مَرَّةٍ فَٱقْعُدُوا۟ مَعَ ٱلْخَـٰلِفِينَ",
     "textSimple": "فإن رجعك ٱلله إلى طآئفة منهم فٱستـٔذنوك للخروج فقل لن تخرجوا معى أبدا ولن تقـتلوا معى عدوا  إنكم رضيتم بٱلقعود أول مرة فٱقعدوا مع ٱلخـلفين",
     "transliteration": "fa-in rajaʿaka l-lahu ilā ṭāifatin min'hum fa-is'tadhanūka lil'khurūji faqul lan takhrujū maʿiya abadan walan tuqātilū maʿiya ʿaduwwan innakum raḍītum bil-quʿūdi awwala marratin fa-uq'ʿudū maʿa l-khālifīna",
-    "translation": "",
+    "translation": "If Allāh should return you to a faction of them [after the expedition] and then they ask your permission to go out [to battle], say, \"You will not go out with me, ever, and you will never fight with me an enemy. Indeed, you were satisfied with sitting [at home] the first time, so sit [now] with those who stay behind.\"",
     "words": [
       {
         "id": "at-tawbah-83-1",
@@ -12121,7 +12203,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah te ramène vers certains d’entre eux et que ceux-ci te demandent l’autorisation d’aller au combat, tu leur diras : « Vous ne sortirez jamais avec moi, ni ne combattrez un ennemi à mes côtés, car il vous a plu de rester (chez vous) la première fois. Eh bien restez encore avec ceux qui restent à l’arrière ! »"
   },
   {
     "id": "at-tawbah-84",
@@ -12130,7 +12213,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍ مِّنْهُم مَّاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ ۖ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَـٰسِقُونَ",
     "textSimple": "ولا تصل علىٓ أحد منهم مات أبدا ولا تقم على قبرهٓ  إنهم كفروا بٱلله ورسوله وماتوا وهم فـسقون",
     "transliteration": "walā tuṣalli ʿalā aḥadin min'hum māta abadan walā taqum ʿalā qabrihi innahum kafarū bil-lahi warasūlihi wamātū wahum fāsiqūna",
-    "translation": "",
+    "translation": "And do not pray [the funeral prayer, O Muḥammad], over any of them who has died - ever - or stand at his grave. Indeed, they disbelieved in Allāh and His Messenger and died while they were defiantly disobedient.",
     "words": [
       {
         "id": "at-tawbah-84-1",
@@ -12259,7 +12342,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’accomplis jamais la Çalât (la prière funèbre) sur l’un d’entre eux quand il vient à mourir. Ne te recueille pas, debout, sur sa tombe. Ceux-là ont bien mécru en Allah et en Son Messager, et ils sont morts en pervers."
   },
   {
     "id": "at-tawbah-85",
@@ -12268,7 +12352,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَأَوْلَـٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ أَن يُعَذِّبَهُم بِهَا فِى ٱلدُّنْيَا وَتَزْهَقَ أَنفُسُهُمْ وَهُمْ كَـٰفِرُونَ",
     "textSimple": "ولا تعجبك أمولهم وأولـدهم  إنما يريد ٱلله أن يعذبهم بها فى ٱلدنيا وتزهق أنفسهم وهم كـفرون",
     "transliteration": "walā tuʿ'jib'ka amwāluhum wa-awlāduhum innamā yurīdu l-lahu an yuʿadhibahum bihā fī l-dun'yā watazhaqa anfusuhum wahum kāfirūna",
-    "translation": "",
+    "translation": "And let not their wealth and their children impress you. Allāh only intends to punish them through them in this world and that their souls should depart [at death] while they are disbelievers.",
     "words": [
       {
         "id": "at-tawbah-85-1",
@@ -12383,7 +12467,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne te séduisent ni leurs richesses ni leurs enfants! Allah veut en faire pour eux une source de tourment en ce bas monde, et (veut) qu’ils rendent l’âme en mécréants."
   },
   {
     "id": "at-tawbah-86",
@@ -12392,7 +12477,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ ءَامِنُوا۟ بِٱللَّهِ وَجَـٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَـٰعِدِينَ",
     "textSimple": "وإذآ أنزلت سورة أن ءامنوا بٱلله وجـهدوا مع رسوله ٱستـٔذنك أولوا ٱلطول منهم وقالوا ذرنا نكن مع ٱلقـعدين",
     "transliteration": "wa-idhā unzilat sūratun an āminū bil-lahi wajāhidū maʿa rasūlihi is'tadhanaka ulū l-ṭawli min'hum waqālū dharnā nakun maʿa l-qāʿidīna",
-    "translation": "",
+    "translation": "And when a sūrah was revealed [enjoining them] to believe in Allāh and to fight with His Messenger, those of wealth among them asked your permission [to stay back] and said, \"Leave us to be with them who sit [at home].\"",
     "words": [
       {
         "id": "at-tawbah-86-1",
@@ -12521,7 +12606,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsqu’une sourate révélée ordonne : « Croyez en Allah et luttez avec Son Messager », les plus nantis d’entre eux te demandent de les exempter (du combat) et disent : « Permets-nous de rester avec ceux qui ne peuvent combattre.»"
   },
   {
     "id": "at-tawbah-87",
@@ -12530,7 +12616,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "رَضُوا۟ بِأَن يَكُونُوا۟ مَعَ ٱلْخَوَالِفِ وَطُبِعَ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ",
     "textSimple": "رضوا بأن يكونوا مع ٱلخوالف وطبع على قلوبهم فهم لا يفقهون",
     "transliteration": "raḍū bi-an yakūnū maʿa l-khawālifi waṭubiʿa ʿalā qulūbihim fahum lā yafqahūna",
-    "translation": "",
+    "translation": "They were satisfied to be with those who stay behind, and their hearts were sealed over, so they do not understand.",
     "words": [
       {
         "id": "at-tawbah-87-1",
@@ -12610,7 +12696,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont satisfaits de rester à l’arrière (à l’instar des femmes). Un sceau a été apposé sur leurs cœurs, si bien qu’ils ne comprennent plus rien."
   },
   {
     "id": "at-tawbah-88",
@@ -12619,7 +12706,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَـٰكِنِ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ جَـٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۚ وَأُو۟لَـٰٓئِكَ لَهُمُ ٱلْخَيْرَٰتُ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "لـكن ٱلرسول وٱلذين ءامنوا معه جـهدوا بأمولهم وأنفسهم  وأولـٓئك لهم ٱلخيرت  وأولـٓئك هم ٱلمفلحون",
     "transliteration": "lākini l-rasūlu wa-alladhīna āmanū maʿahu jāhadū bi-amwālihim wa-anfusihim wa-ulāika lahumu l-khayrātu wa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "But the Messenger and those who believed with him fought with their wealth and their lives. Those will have [all that is] good and it is those who are the successful.",
     "words": [
       {
         "id": "at-tawbah-88-1",
@@ -12720,7 +12807,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais le Messager et ceux qui ont cru avec lui ont lutté par leurs biens et leurs âmes. Ceux-là auront droit à tous les biens et ceux-là auront réussi."
   },
   {
     "id": "at-tawbah-89",
@@ -12729,7 +12817,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَعَدَّ ٱللَّهُ لَهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "أعد ٱلله لهم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها  ذلك ٱلفوز ٱلعظيم",
     "transliteration": "aʿadda l-lahu lahum jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā dhālika l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "Allāh has prepared for them gardens beneath which rivers flow, wherein they will abide eternally. That is the great attainment.",
     "words": [
       {
         "id": "at-tawbah-89-1",
@@ -12823,7 +12911,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah leur a ménagé des jardins sous lesquels coulent les rivières, où ils séjourneront pour l’éternité. Voilà le succès suprême!"
   },
   {
     "id": "at-tawbah-90",
@@ -12832,7 +12921,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ ٱلْمُعَذِّرُونَ مِنَ ٱلْأَعْرَابِ لِيُؤْذَنَ لَهُمْ وَقَعَدَ ٱلَّذِينَ كَذَبُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ سَيُصِيبُ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "وجآء ٱلمعذرون من ٱلأعراب ليؤذن لهم وقعد ٱلذين كذبوا ٱلله ورسوله  سيصيب ٱلذين كفروا منهم عذاب أليم",
     "transliteration": "wajāa l-muʿadhirūna mina l-aʿrābi liyu'dhana lahum waqaʿada alladhīna kadhabū l-laha warasūlahu sayuṣību alladhīna kafarū min'hum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And those with excuses among the bedouins came to be permitted [to remain], and they who had lied to Allāh and His Messenger sat [at home]. There will strike those who disbelieved among them a painful punishment.",
     "words": [
       {
         "id": "at-tawbah-90-1",
@@ -12954,7 +13043,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certains bédouins, (ayant une excuse valable) sont venus te demander de les exempter (du combat), cependant que sont restés chez eux ceux qui ont menti à Allah et à Son Messager. Il atteindra les mécréants parmi eux un supplice très douloureux."
   },
   {
     "id": "at-tawbah-91",
@@ -12963,7 +13053,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ليس على ٱلضعفآء ولا على ٱلمرضى ولا على ٱلذين لا يجدون ما ينفقون حرج إذا نصحوا لله ورسوله  ما على ٱلمحسنين من سبيل  وٱلله غفور رحيم",
     "transliteration": "laysa ʿalā l-ḍuʿafāi walā ʿalā l-marḍā walā ʿalā alladhīna lā yajidūna mā yunfiqūna ḥarajun idhā naṣaḥū lillahi warasūlihi mā ʿalā l-muḥ'sinīna min sabīlin wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "There is not upon the weak or upon the ill or upon those who do not find anything to spend any discomfort [i.e., guilt] when they are sincere to Allāh and His Messenger. There is not upon the doers of good any cause [for blame]. And Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-tawbah-91-1",
@@ -13148,7 +13238,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucune possibilité de reproche ne devrait gêner les faibles, les malades ou ceux qui ne trouvent point de quoi dépenser (pour la cause d’Allah), pour autant qu’ils soient sincères envers Allah et Son Messager. Les bienfaiteurs, eux, ne méritent aucun reproche, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-92",
@@ -13157,7 +13248,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا عَلَى ٱلَّذِينَ إِذَا مَآ أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَآ أَجِدُ مَآ أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوا۟ وَّأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ",
     "textSimple": "ولا على ٱلذين إذا مآ أتوك لتحملهم قلت لآ أجد مآ أحملكم عليه تولوا وأعينهم تفيض من ٱلدمع حزنا ألا يجدوا ما ينفقون",
     "transliteration": "walā ʿalā alladhīna idhā mā atawka litaḥmilahum qul'ta lā ajidu mā aḥmilukum ʿalayhi tawallaw wa-aʿyunuhum tafīḍu mina l-damʿi ḥazanan allā yajidū mā yunfiqūna",
-    "translation": "",
+    "translation": "Nor [is there blame] upon those who, when they came to you for you to take them along, you said, \"I can find nothing upon which to carry you.\" They turned back while their eyes overflowed with tears out of grief that they could not find something to spend [for the cause of Allāh].",
     "words": [
       {
         "id": "at-tawbah-92-1",
@@ -13321,7 +13412,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Aucune possibilité de reproche ne devrait gêner, non plus, ceux qui sont venus te demander des montures (pour aller au combat) et à qui tu as répondu : « Je ne trouve rien sur quoi vous puissiez monter. » Ils s’en sont retournés alors, les yeux emplis de larmes, affligés de n’avoir pas trouvé de quoi dépenser (pour la cause d’Allah)."
   },
   {
     "id": "at-tawbah-93",
@@ -13330,7 +13422,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَسْتَـْٔذِنُونَكَ وَهُمْ أَغْنِيَآءُ ۚ رَضُوا۟ بِأَن يَكُونُوا۟ مَعَ ٱلْخَوَالِفِ وَطَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَعْلَمُونَ",
     "textSimple": " إنما ٱلسبيل على ٱلذين يستـٔذنونك وهم أغنيآء  رضوا بأن يكونوا مع ٱلخوالف وطبع ٱلله على قلوبهم فهم لا يعلمون",
     "transliteration": "innamā l-sabīlu ʿalā alladhīna yastadhinūnaka wahum aghniyāu raḍū bi-an yakūnū maʿa l-khawālifi waṭabaʿa l-lahu ʿalā qulūbihim fahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "The cause [for blame] is only upon those who ask permission of you while they are rich. They are satisfied to be with those who stay behind, and Allāh has sealed over their hearts, so they do not know.",
     "words": [
       {
         "id": "at-tawbah-93-1",
@@ -13466,7 +13558,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y a possibilité de reproche, en revanche, qu’à l’adresse de ceux qui te demandent de les exempter alors qu’ils sont riches. Ils sont satisfaits de rester à l’arrière (à l’instar des femmes). Allah a apposé un sceau sur leurs cœurs, si bien qu’ils ne savent rien."
   },
   {
     "id": "at-tawbah-94",
@@ -13475,7 +13568,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَعْتَذِرُونَ إِلَيْكُمْ إِذَا رَجَعْتُمْ إِلَيْهِمْ ۚ قُل لَّا تَعْتَذِرُوا۟ لَن نُّؤْمِنَ لَكُمْ قَدْ نَبَّأَنَا ٱللَّهُ مِنْ أَخْبَارِكُمْ ۚ وَسَيَرَى ٱللَّهُ عَمَلَكُمْ وَرَسُولُهُۥ ثُمَّ تُرَدُّونَ إِلَىٰ عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "يعتذرون إليكم إذا رجعتم إليهم  قل لا تعتذروا لن نؤمن لكم قد نبأنا ٱلله من أخباركم  وسيرى ٱلله عملكم ورسوله ثم تردون إلى عـلم ٱلغيب وٱلشهـدة فينبئكم بما كنتم تعملون",
     "transliteration": "yaʿtadhirūna ilaykum idhā rajaʿtum ilayhim qul lā taʿtadhirū lan nu'mina lakum qad nabba-anā l-lahu min akhbārikum wasayarā l-lahu ʿamalakum warasūluhu thumma turaddūna ilā ʿālimi l-ghaybi wal-shahādati fayunabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "They will make excuses to you when you have returned to them. Say, \"Make no excuse - never will we believe you. Allāh has already informed us of your news [i.e., affair]. And Allāh will observe your deeds, and [so will] His Messenger; then you will be taken back to the Knower of the unseen and the witnessed, and He will inform you of what you used to do.\"",
     "words": [
       {
         "id": "at-tawbah-94-1",
@@ -13688,7 +13781,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’excusent auprès de vous lorsque vous revenez vers eux. Dis : « Ne vous excusez point. Nous ne nous fions plus à vous. Allah nous a beaucoup instruits à votre sujet. Allah verra bien vos œuvres, ainsi que Son Messager, puis vous serez ramenés vers Celui Qui Connaît aussi bien les choses insondables que les choses observables. Il vous informera alors de tout ce que vous faisiez. »"
   },
   {
     "id": "at-tawbah-95",
@@ -13697,7 +13791,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "سَيَحْلِفُونَ بِٱللَّهِ لَكُمْ إِذَا ٱنقَلَبْتُمْ إِلَيْهِمْ لِتُعْرِضُوا۟ عَنْهُمْ ۖ فَأَعْرِضُوا۟ عَنْهُمْ ۖ إِنَّهُمْ رِجْسٌ ۖ وَمَأْوَىٰهُمْ جَهَنَّمُ جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "سيحلفون بٱلله لكم إذا ٱنقلبتم إليهم لتعرضوا عنهم  فأعرضوا عنهم  إنهم رجس  ومأوىهم جهنم جزآء بما كانوا يكسبون",
     "transliteration": "sayaḥlifūna bil-lahi lakum idhā inqalabtum ilayhim lituʿ'riḍū ʿanhum fa-aʿriḍū ʿanhum innahum rij'sun wamawāhum jahannamu jazāan bimā kānū yaksibūna",
-    "translation": "",
+    "translation": "They will swear by Allāh to you when you return to them that you would leave them alone. So leave them alone; indeed they are evil; and their refuge is Hell as recompense for what they had been earning.",
     "words": [
       {
         "id": "at-tawbah-95-1",
@@ -13826,7 +13920,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils vous jureront par Allah, quand vous serez revenus auprès d’eux, pour que vous ne teniez pas compte de ce qu’ils auront fait (comme fautes). Détournez-vous d’eux. Ils sont une souillure, et leur séjour sera la Géhenne pour prix de ce qu’ils ont commis."
   },
   {
     "id": "at-tawbah-96",
@@ -13835,7 +13930,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَحْلِفُونَ لَكُمْ لِتَرْضَوْا۟ عَنْهُمْ ۖ فَإِن تَرْضَوْا۟ عَنْهُمْ فَإِنَّ ٱللَّهَ لَا يَرْضَىٰ عَنِ ٱلْقَوْمِ ٱلْفَـٰسِقِينَ",
     "textSimple": "يحلفون لكم لترضوا عنهم  فإن ترضوا عنهم فإن ٱلله لا يرضى عن ٱلقوم ٱلفـسقين",
     "transliteration": "yaḥlifūna lakum litarḍaw ʿanhum fa-in tarḍaw ʿanhum fa-inna l-laha lā yarḍā ʿani l-qawmi l-fāsiqīna",
-    "translation": "",
+    "translation": "They swear to you so that you might be satisfied with them. But if you should be satisfied with them - indeed, Allāh is not satisfied with a defiantly disobedient people.",
     "words": [
       {
         "id": "at-tawbah-96-1",
@@ -13936,7 +14031,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils vous font des serments pour rentrer dans vos bonnes grâces, mais s’ils gagnent votre bienveillance, Allah n’accorde pas la Sienne aux gens pervers."
   },
   {
     "id": "at-tawbah-97",
@@ -13945,7 +14041,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْأَعْرَابُ أَشَدُّ كُفْرًا وَنِفَاقًا وَأَجْدَرُ أَلَّا يَعْلَمُوا۟ حُدُودَ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "ٱلأعراب أشد كفرا ونفاقا وأجدر ألا يعلموا حدود مآ أنزل ٱلله على رسوله  وٱلله عليم حكيم",
     "transliteration": "al-aʿrābu ashaddu kuf'ran wanifāqan wa-ajdaru allā yaʿlamū ḥudūda mā anzala l-lahu ʿalā rasūlihi wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "The bedouins are stronger in disbelief and hypocrisy and more likely not to know the limits of what [laws] Allāh has revealed to His Messenger. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "at-tawbah-97-1",
@@ -14060,7 +14156,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les bédouins sont les plus farouches des mécréants et des hypocrites. Ils sont portés à ignorer les limites prescrites (hudûd) qu’Allah a révélées à Son Messager. Et Allah Entend Tout et Il est Sage."
   },
   {
     "id": "at-tawbah-98",
@@ -14069,7 +14166,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ مَغْرَمًا وَيَتَرَبَّصُ بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
     "textSimple": "ومن ٱلأعراب من يتخذ ما ينفق مغرما ويتربص بكم ٱلدوآئر  عليهم دآئرة ٱلسوء  وٱلله سميع عليم",
     "transliteration": "wamina l-aʿrābi man yattakhidhu mā yunfiqu maghraman wayatarabbaṣu bikumu l-dawāira ʿalayhim dāiratu l-sawi wal-lahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "And among the bedouins are some who consider what they spend as a loss and await for you turns of misfortune. Upon them will be a misfortune of evil. And Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "at-tawbah-98-1",
@@ -14184,7 +14281,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi les bédouins, il en est qui considèrent leurs dépenses (pour la cause d’Allah) comme une lourde charge, et qui attendent que la fortune tourne contre vous. Puissent-ils être frappés eux-mêmes par la mauvaise fortune ! Et Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "at-tawbah-99",
@@ -14193,7 +14291,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلْأَعْرَابِ مَن يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَيَتَّخِذُ مَا يُنفِقُ قُرُبَـٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى رَحْمَتِهِۦٓ ۗ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ومن ٱلأعراب من يؤمن بٱلله وٱليوم ٱلـٔاخر ويتخذ ما ينفق قربـت عند ٱلله وصلوت ٱلرسول  ألآ إنها قربة لهم  سيدخلهم ٱلله فى رحمتهٓ  إن ٱلله غفور رحيم",
     "transliteration": "wamina l-aʿrābi man yu'minu bil-lahi wal-yawmi l-ākhiri wayattakhidhu mā yunfiqu qurubātin ʿinda l-lahi waṣalawāti l-rasūli alā innahā qur'batun lahum sayud'khiluhumu l-lahu fī raḥmatihi inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "But among the bedouins are some who believe in Allāh and the Last Day and consider what they spend as means of nearness to Allāh and of [obtaining] invocations of the Messenger. Unquestionably, it is a means of nearness for them. Allāh will admit them to His mercy. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-tawbah-99-1",
@@ -14385,7 +14483,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi les bédouins, il s’en rencontre aussi certains qui croient en Allah et au Jour Dernier, qui font de leurs dépenses un moyen de se rapprocher d’Allah et de gagner les bénédictions du Messager. Cela leur sera certes considéré comme un acte de rapprochement (d’Allah) (qurubât). Allah les accueillera dans Sa miséricorde. Car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-100",
@@ -14394,7 +14493,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّـٰبِقُونَ ٱلْأَوَّلُونَ مِنَ ٱلْمُهَـٰجِرِينَ وَٱلْأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَـٰنٍ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ وَأَعَدَّ لَهُمْ جَنَّـٰتٍ تَجْرِى تَحْتَهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "وٱلسـبقون ٱلأولون من ٱلمهـجرين وٱلأنصار وٱلذين ٱتبعوهم بإحسـن رضى ٱلله عنهم ورضوا عنه وأعد لهم جنـت تجرى تحتها ٱلأنهـر خـلدين فيهآ أبدا  ذلك ٱلفوز ٱلعظيم",
     "transliteration": "wal-sābiqūna l-awalūna mina l-muhājirīna wal-anṣāri wa-alladhīna ittabaʿūhum bi-iḥ'sānin raḍiya l-lahu ʿanhum waraḍū ʿanhu wa-aʿadda lahum jannātin tajrī taḥtahā l-anhāru khālidīna fīhā abadan dhālika l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "And the first forerunners [in the faith] among the Muhājireen and the Anṣār and those who followed them with good conduct - Allāh is pleased with them and they are pleased with Him, and He has prepared for them gardens beneath which rivers flow, wherein they will abide forever. That is the great attainment.",
     "words": [
       {
         "id": "at-tawbah-100-1",
@@ -14572,7 +14671,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les (tout premiers) précurseurs parmi les Émigrés (Muhâjirîn) et les Alliés (Ançâr), ainsi que ceux qui les auront suivis sur la voie du bien, Allah les agréera comme ils L’agréeront. Il a ménagé pour eux des jardins sous lesquels coulent les rivières, où ils séjourneront à tout jamais. Tel est le succès suprême."
   },
   {
     "id": "at-tawbah-101",
@@ -14581,7 +14681,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمِمَّنْ حَوْلَكُم مِّنَ ٱلْأَعْرَابِ مُنَـٰفِقُونَ ۖ وَمِنْ أَهْلِ ٱلْمَدِينَةِ ۖ مَرَدُوا۟ عَلَى ٱلنِّفَاقِ لَا تَعْلَمُهُمْ ۖ نَحْنُ نَعْلَمُهُمْ ۚ سَنُعَذِّبُهُم مَّرَّتَيْنِ ثُمَّ يُرَدُّونَ إِلَىٰ عَذَابٍ عَظِيمٍ",
     "textSimple": "وممن حولكم من ٱلأعراب منـفقون  ومن أهل ٱلمدينة  مردوا على ٱلنفاق لا تعلمهم  نحن نعلمهم  سنعذبهم مرتين ثم يردون إلى عذاب عظيم",
     "transliteration": "wamimman ḥawlakum mina l-aʿrābi munāfiqūna wamin ahli l-madīnati maradū ʿalā l-nifāqi lā taʿlamuhum naḥnu naʿlamuhum sanuʿadhibuhum marratayni thumma yuraddūna ilā ʿadhābin ʿaẓīmin",
-    "translation": "",
+    "translation": "And among those around you of the bedouins are hypocrites, and [also] from the people of Madīnah. They have persisted in hypocrisy. You, [O Muḥammad], do not know them, [but] We know them. We will punish them twice [in this world]; then they will be returned to a great punishment.",
     "words": [
       {
         "id": "at-tawbah-101-1",
@@ -14738,7 +14838,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi les bédouins qui sont autour de vous, et parmi les habitants de Médine, il est des hypocrites qui persistent obstinément dans l’hypocrisie. Tu ne saurais les reconnaître mais Nous les connaissons. Nous les soumettrons par deux fois au châtiment, puis ils seront voués à un terrible supplice."
   },
   {
     "id": "at-tawbah-102",
@@ -14747,7 +14848,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاخَرُونَ ٱعْتَرَفُوا۟ بِذُنُوبِهِمْ خَلَطُوا۟ عَمَلًا صَـٰلِحًا وَءَاخَرَ سَيِّئًا عَسَى ٱللَّهُ أَن يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "وءاخرون ٱعترفوا بذنوبهم خلطوا عملا صـلحا وءاخر سيئا عسى ٱلله أن يتوب عليهم  إن ٱلله غفور رحيم",
     "transliteration": "waākharūna iʿ'tarafū bidhunūbihim khalaṭū ʿamalan ṣāliḥan waākhara sayyi-an ʿasā l-lahu an yatūba ʿalayhim inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And [there are] others who have acknowledged their sins. They had mixed [i.e., polluted] a righteous deed with another that was bad. Perhaps Allāh will turn to them in forgiveness. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-tawbah-102-1",
@@ -14869,7 +14970,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "D’autres, ayant avoué leurs péchés, ont mêlé les bonnes œuvres aux mauvaises. Allah acceptera, peut-être, leur repentir, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-103",
@@ -14878,7 +14980,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
     "textSimple": "خذ من أمولهم صدقة تطهرهم وتزكيهم بها وصل عليهم  إن صلوتك سكن لهم  وٱلله سميع عليم",
     "transliteration": "khudh min amwālihim ṣadaqatan tuṭahhiruhum watuzakkīhim bihā waṣalli ʿalayhim inna ṣalataka sakanun lahum wal-lahu samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "Take, [O Muḥammad], from their wealth a charity by which you purify them and cause them increase, and invoke [Allāh's blessings] upon them. Indeed, your invocations are reassurance for them. And Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "at-tawbah-103-1",
@@ -14993,7 +15095,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends sur leurs biens une aumône (sadaqa) qui puisse les purifier et les bénir, et prie sur eux, car tes prières seront pour eux source de quiétude. Allah Entend Tout et Il est Omniscient."
   },
   {
     "id": "at-tawbah-104",
@@ -15002,7 +15105,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَـٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
     "textSimple": "ألم يعلموٓا أن ٱلله هو يقبل ٱلتوبة عن عباده ويأخذ ٱلصدقـت وأن ٱلله هو ٱلتواب ٱلرحيم",
     "transliteration": "alam yaʿlamū anna l-laha huwa yaqbalu l-tawbata ʿan ʿibādihi wayakhudhu l-ṣadaqāti wa-anna l-laha huwa l-tawābu l-raḥīmu",
-    "translation": "",
+    "translation": "Do they not know that it is Allāh who accepts repentance from His servants and receives charities and that it is Allāh who is the Accepting of Repentance, the Merciful?",
     "words": [
       {
         "id": "at-tawbah-104-1",
@@ -15117,7 +15220,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne savent-ils donc pas que c’est Allah Qui, Seul, accepte le repentir de Ses serviteurs et reçoit les aumônes (sadaqât), et que c’est Lui le Tout Absoluteur, le Tout Miséricordieux ?"
   },
   {
     "id": "at-tawbah-105",
@@ -15126,7 +15230,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلِ ٱعْمَلُوا۟ فَسَيَرَى ٱللَّهُ عَمَلَكُمْ وَرَسُولُهُۥ وَٱلْمُؤْمِنُونَ ۖ وَسَتُرَدُّونَ إِلَىٰ عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "وقل ٱعملوا فسيرى ٱلله عملكم ورسوله وٱلمؤمنون  وستردون إلى عـلم ٱلغيب وٱلشهـدة فينبئكم بما كنتم تعملون",
     "transliteration": "waquli iʿ'malū fasayarā l-lahu ʿamalakum warasūluhu wal-mu'minūna wasaturaddūna ilā ʿālimi l-ghaybi wal-shahādati fayunabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And say, \"Do [as you will], for Allāh will see your deeds, and [so will] His Messenger and the believers. And you will be returned to the Knower of the unseen and the witnessed, and He will inform you of what you used to do.\"",
     "words": [
       {
         "id": "at-tawbah-105-1",
@@ -15241,7 +15345,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Œuvrez donc! Allah verra vos œuvres, ainsi que Son Messager et les croyants ; et vous serez tous ramenés vers Celui Qui Connaît aussi bien les choses insondables que les choses observables. Il vous renseignera alors sur tout ce que vous faisiez. »"
   },
   {
     "id": "at-tawbah-106",
@@ -15250,7 +15355,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاخَرُونَ مُرْجَوْنَ لِأَمْرِ ٱللَّهِ إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "وءاخرون مرجون لأمر ٱلله إما يعذبهم وإما يتوب عليهم  وٱلله عليم حكيم",
     "transliteration": "waākharūna mur'jawna li-amri l-lahi immā yuʿadhibuhum wa-immā yatūbu ʿalayhim wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "And [there are] others deferred until the command of Allāh - whether He will punish them or whether He will forgive them. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "at-tawbah-106-1",
@@ -15337,7 +15442,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et d’autres devront attendre le verdict d’Allah : ou Il les châtiera ou Il leur pardonnera. Et Allah est Omniscient et Sage."
   },
   {
     "id": "at-tawbah-107",
@@ -15346,7 +15452,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ٱتَّخَذُوا۟ مَسْجِدًا ضِرَارًا وَكُفْرًا وَتَفْرِيقًۢا بَيْنَ ٱلْمُؤْمِنِينَ وَإِرْصَادًا لِّمَنْ حَارَبَ ٱللَّهَ وَرَسُولَهُۥ مِن قَبْلُ ۚ وَلَيَحْلِفُنَّ إِنْ أَرَدْنَآ إِلَّا ٱلْحُسْنَىٰ ۖ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": "وٱلذين ٱتخذوا مسجدا ضرارا وكفرا وتفريقا بين ٱلمؤمنين وإرصادا لمن حارب ٱلله ورسوله من قبل  وليحلفن إن أردنآ إلا ٱلحسنى  وٱلله يشهد إنهم لكـذبون",
     "transliteration": "wa-alladhīna ittakhadhū masjidan ḍirāran wakuf'ran watafrīqan bayna l-mu'minīna wa-ir'ṣādan liman ḥāraba l-laha warasūlahu min qablu walayaḥlifunna in aradnā illā l-ḥus'nā wal-lahu yashhadu innahum lakādhibūna",
-    "translation": "",
+    "translation": "And [there are] those [hypocrites] who took for themselves a mosque for causing harm and disbelief and division among the believers and as a station for whoever had warred against Allāh and His Messenger before. And they will surely swear, \"We intended only the best.\" And Allāh testifies that indeed they are liars.",
     "words": [
       {
         "id": "at-tawbah-107-1",
@@ -15517,7 +15623,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est qui ont bâti une mosquée pour en faire une source d’hostilité, de mécréance et de discorde entre les croyants, ou un lieu prêt à accueillir ceux qui, auparavant, avaient combattu Allah et Son Messager. Ils jurent : « Nous n’avons voulu que bien faire. » Mais Allah atteste que ce sont des menteurs."
   },
   {
     "id": "at-tawbah-108",
@@ -15526,7 +15633,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا تَقُمْ فِيهِ أَبَدًا ۚ لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ ۚ فِيهِ رِجَالٌ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ",
     "textSimple": "لا تقم فيه أبدا  لمسجد أسس على ٱلتقوى من أول يوم أحق أن تقوم فيه  فيه رجال يحبون أن يتطهروا  وٱلله يحب ٱلمطهرين",
     "transliteration": "lā taqum fīhi abadan lamasjidun ussisa ʿalā l-taqwā min awwali yawmin aḥaqqu an taqūma fīhi fīhi rijālun yuḥibbūna an yataṭahharū wal-lahu yuḥibbu l-muṭahirīna",
-    "translation": "",
+    "translation": "Do not stand [for prayer] within it - ever. A mosque founded on righteousness from the first day is more worthy for you to stand in. Within it are men who love to purify themselves; and Allāh loves those who purify themselves.",
     "words": [
       {
         "id": "at-tawbah-108-1",
@@ -15690,7 +15797,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne t’y rends jamais ! (pour prier). Une mosquée fondée dès le premier jour sur la piété sied mieux à ta présence. Là, se trouvent des hommes qui aiment à se purifier, et Allah aime ceux qui se purifient."
   },
   {
     "id": "at-tawbah-109",
@@ -15699,7 +15807,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَنْ أَسَّسَ بُنْيَـٰنَهُۥ عَلَىٰ تَقْوَىٰ مِنَ ٱللَّهِ وَرِضْوَٰنٍ خَيْرٌ أَم مَّنْ أَسَّسَ بُنْيَـٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٍ فَٱنْهَارَ بِهِۦ فِى نَارِ جَهَنَّمَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "أفمن أسس بنيـنه على تقوى من ٱلله ورضون خير أم من أسس بنيـنه على شفا جرف هار فٱنهار به فى نار جهنم  وٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "afaman assasa bun'yānahu ʿalā taqwā mina l-lahi wariḍ'wānin khayrun am man assasa bun'yānahu ʿalā shafā jurufin hārin fa-in'hāra bihi fī nāri jahannama wal-lahu lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "Then is one who laid the foundation of his building on righteousness [with fear] from Allāh and [seeking] His approval better or one who laid the foundation of his building on the edge of a bank about to collapse, so it collapsed with him into the fire of Hell? And Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "at-tawbah-109-1",
@@ -15891,7 +15999,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui donc a plus de mérite ? Celui qui a fondé son édifice sur la crainte d’Allah et sur Son agrément, ou celui qui l’a fondé sur une pente de terre croulière, au bord d’un abîme, laquelle s’effondre avec lui dans le Feu de La Géhenne ? Allah ne guide point les gens injustes."
   },
   {
     "id": "at-tawbah-110",
@@ -15900,7 +16009,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَزَالُ بُنْيَـٰنُهُمُ ٱلَّذِى بَنَوْا۟ رِيبَةً فِى قُلُوبِهِمْ إِلَّآ أَن تَقَطَّعَ قُلُوبُهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "لا يزال بنيـنهم ٱلذى بنوا ريبة فى قلوبهم إلآ أن تقطع قلوبهم  وٱلله عليم حكيم",
     "transliteration": "lā yazālu bun'yānuhumu alladhī banaw rībatan fī qulūbihim illā an taqaṭṭaʿa qulūbuhum wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "Their building which they built will not cease to be a [cause of] skepticism in their hearts until their hearts are cut [i.e., stopped]. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "at-tawbah-110-1",
@@ -16008,7 +16117,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’édifice qu’ils ont bâti ne cessera d’être un motif de doute dans leurs cœurs, jusqu’à ce que leurs cœurs en soient déchirés. Et Allah est Omniscient et Sage."
   },
   {
     "id": "at-tawbah-111",
@@ -16017,7 +16127,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ ٱشْتَرَىٰ مِنَ ٱلْمُؤْمِنِينَ أَنفُسَهُمْ وَأَمْوَٰلَهُم بِأَنَّ لَهُمُ ٱلْجَنَّةَ ۚ يُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ فَيَقْتُلُونَ وَيُقْتَلُونَ ۖ وَعْدًا عَلَيْهِ حَقًّا فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ وَٱلْقُرْءَانِ ۚ وَمَنْ أَوْفَىٰ بِعَهْدِهِۦ مِنَ ٱللَّهِ ۚ فَٱسْتَبْشِرُوا۟ بِبَيْعِكُمُ ٱلَّذِى بَايَعْتُم بِهِۦ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": " إن ٱلله ٱشترى من ٱلمؤمنين أنفسهم وأمولهم بأن لهم ٱلجنة  يقـتلون فى سبيل ٱلله فيقتلون ويقتلون  وعدا عليه حقا فى ٱلتورىة وٱلإنجيل وٱلقرءان  ومن أوفى بعهده من ٱلله  فٱستبشروا ببيعكم ٱلذى بايعتم به  وذلك هو ٱلفوز ٱلعظيم",
     "transliteration": "inna l-laha ish'tarā mina l-mu'minīna anfusahum wa-amwālahum bi-anna lahumu l-janata yuqātilūna fī sabīli l-lahi fayaqtulūna wayuq'talūna waʿdan ʿalayhi ḥaqqan fī l-tawrāti wal-injīli wal-qur'āni waman awfā biʿahdihi mina l-lahi fa-is'tabshirū bibayʿikumu alladhī bāyaʿtum bihi wadhālika huwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "Indeed, Allāh has purchased from the believers their lives and their properties [in exchange] for that they will have Paradise. They fight in the cause of Allāh, so they kill and are killed. [It is] a true promise [binding] upon Him in the Torah and the Gospel and the Qur’ān. And who is truer to his covenant than Allāh? So rejoice in your transaction which you have contracted. And it is that which is the great attainment.",
     "words": [
       {
         "id": "at-tawbah-111-1",
@@ -16279,7 +16389,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a acheté des croyants leurs personnes et leurs biens pour qu’en échange Il leur fît don du Paradis. Ils combattent pour la cause d’Allah en tuant et en se faisant tuer. Voilà une promesse véridique qu’Il a prise sur Lui-même dans la Torah, l’Évangile et le Coran. Or qui, plus fidèlement qu’Allah, honore ses engagements ? Réjouissez-vous donc d’un tel échange accompli par vous, car il s’agit du succès suprême."
   },
   {
     "id": "at-tawbah-112",
@@ -16288,7 +16399,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلتَّـٰٓئِبُونَ ٱلْعَـٰبِدُونَ ٱلْحَـٰمِدُونَ ٱلسَّـٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّـٰجِدُونَ ٱلْـَٔامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَـٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
     "textSimple": "ٱلتـٓئبون ٱلعـبدون ٱلحـمدون ٱلسـٓئحون ٱلركعون ٱلسـجدون ٱلـٔامرون بٱلمعروف وٱلناهون عن ٱلمنكر وٱلحـفظون لحدود ٱلله  وبشر ٱلمؤمنين",
     "transliteration": "al-tāibūna l-ʿābidūna l-ḥāmidūna l-sāiḥūna l-rākiʿūna l-sājidūna l-āmirūna bil-maʿrūfi wal-nāhūna ʿani l-munkari wal-ḥāfiẓūna liḥudūdi l-lahi wabashiri l-mu'minīna",
-    "translation": "",
+    "translation": "[Such believers are] the repentant, the worshippers, the praisers [of Allāh], the travelers [for His cause], those who bow and prostrate [in prayer], those who enjoin what is right and forbid what is wrong, and those who observe the limits [set by] Allāh. And give good tidings to the believers.",
     "words": [
       {
         "id": "at-tawbah-112-1",
@@ -16403,7 +16514,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont ceux qui se repentent, qui adorent (Allah), qui Le louent, qui jeûnent, qui s’inclinent, qui se prosternent, qui prescrivent le convenable et proscrivent le condamnable, et ceux qui respectent les limites établies par Allah (hudûd). Annonce donc l’heureuse nouvelle aux croyants."
   },
   {
     "id": "at-tawbah-113",
@@ -16412,7 +16524,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ لِلنَّبِىِّ وَٱلَّذِينَ ءَامَنُوٓا۟ أَن يَسْتَغْفِرُوا۟ لِلْمُشْرِكِينَ وَلَوْ كَانُوٓا۟ أُو۟لِى قُرْبَىٰ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمْ أَنَّهُمْ أَصْحَـٰبُ ٱلْجَحِيمِ",
     "textSimple": "ما كان للنبى وٱلذين ءامنوٓا أن يستغفروا للمشركين ولو كانوٓا أولى قربى من بعد ما تبين لهم أنهم أصحـب ٱلجحيم",
     "transliteration": "mā kāna lilnnabiyyi wa-alladhīna āmanū an yastaghfirū lil'mush'rikīna walaw kānū ulī qur'bā min baʿdi mā tabayyana lahum annahum aṣḥābu l-jaḥīmi",
-    "translation": "",
+    "translation": "It is not for the Prophet and those who have believed to ask forgiveness for the polytheists, even if they were relatives, after it has become clear to them that they are companions of Hellfire.",
     "words": [
       {
         "id": "at-tawbah-113-1",
@@ -16555,7 +16667,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne convient ni au Prophète, ni à ceux qui ont cru, d’implorer le pardon pour les associâtres, même s’ils sont leurs proches parents, après avoir eu la preuve évidente que ces derniers sont les hôtes de l’Enfer."
   },
   {
     "id": "at-tawbah-114",
@@ -16564,7 +16677,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ ٱسْتِغْفَارُ إِبْرَٰهِيمَ لِأَبِيهِ إِلَّا عَن مَّوْعِدَةٍ وَعَدَهَآ إِيَّاهُ فَلَمَّا تَبَيَّنَ لَهُۥٓ أَنَّهُۥ عَدُوٌّ لِّلَّهِ تَبَرَّأَ مِنْهُ ۚ إِنَّ إِبْرَٰهِيمَ لَأَوَّٰهٌ حَلِيمٌ",
     "textSimple": "وما كان ٱستغفار إبرهيم لأبيه إلا عن موعدة وعدهآ إياه فلما تبين لهٓ أنه عدو لله تبرأ منه  إن إبرهيم لأوه حليم",
     "transliteration": "wamā kāna is'tigh'fāru ib'rāhīma li-abīhi illā ʿan mawʿidatin waʿadahā iyyāhu falammā tabayyana lahu annahu ʿaduwwun lillahi tabarra-a min'hu inna ib'rāhīma la-awwāhun ḥalīmun",
-    "translation": "",
+    "translation": "And the request of forgiveness of Abraham for his father was only because of a promise he had made to him. But when it became apparent to him [i.e., Abraham] that he [i.e., the father] was an enemy to Allāh, he disassociated himself from him. Indeed was Abraham compassionate and patient.",
     "words": [
       {
         "id": "at-tawbah-114-1",
@@ -16721,7 +16834,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant au pardon qu’Abraham implora pour son père, il ne le fit que parce qu’il le lui avait déjà promis. Or, lorsqu’il eut la preuve évidente qu’il était l’ennemi d’Allah, il le désavoua. Car Abraham n’avait de cesse d’implorer et était magnanime."
   },
   {
     "id": "at-tawbah-115",
@@ -16730,7 +16844,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ ٱللَّهُ لِيُضِلَّ قَوْمًۢا بَعْدَ إِذْ هَدَىٰهُمْ حَتَّىٰ يُبَيِّنَ لَهُم مَّا يَتَّقُونَ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "وما كان ٱلله ليضل قوما بعد إذ هدىهم حتى يبين لهم ما يتقون  إن ٱلله بكل شىء عليم",
     "transliteration": "wamā kāna l-lahu liyuḍilla qawman baʿda idh hadāhum ḥattā yubayyina lahum mā yattaqūna inna l-laha bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "And Allāh would not let a people stray after He has guided them until He makes clear to them what they should avoid. Indeed, Allāh is Knowing of all things.",
     "words": [
       {
         "id": "at-tawbah-115-1",
@@ -16859,7 +16973,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah n’égare point les gens après les avoir guidés vers le droit chemin (hadâhum) et avant de leur avoir montré clairement ce dont ils doivent se préserver. Allah Sait parfaitement Toute chose."
   },
   {
     "id": "at-tawbah-116",
@@ -16868,7 +16983,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۚ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "إن ٱلله له ملك ٱلسمـوت وٱلأرض  يحى ويميت  وما لكم من دون ٱلله من ولى ولا نصير",
     "transliteration": "inna l-laha lahu mul'ku l-samāwāti wal-arḍi yuḥ'yī wayumītu wamā lakum min dūni l-lahi min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "Indeed, to Allāh belongs the dominion of the heavens and the earth; He gives life and causes death. And you have not besides Allāh any protector or any helper.",
     "words": [
       {
         "id": "at-tawbah-116-1",
@@ -16990,7 +17105,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a la royauté des cieux et de la terre. Il fait vivre et fait mourir, et vous n’avez, en dehors d’Allah, ni protecteur ni soutien."
   },
   {
     "id": "at-tawbah-117",
@@ -16999,7 +17115,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَـٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌ رَّحِيمٌ",
     "textSimple": "لقد تاب ٱلله على ٱلنبى وٱلمهـجرين وٱلأنصار ٱلذين ٱتبعوه فى ساعة ٱلعسرة من بعد ما كاد يزيغ قلوب فريق منهم ثم تاب عليهم  إنه بهم رءوف رحيم",
     "transliteration": "laqad tāba l-lahu ʿalā l-nabiyi wal-muhājirīna wal-anṣāri alladhīna ittabaʿūhu fī sāʿati l-ʿus'rati min baʿdi mā kāda yazīghu qulūbu farīqin min'hum thumma tāba ʿalayhim innahu bihim raūfun raḥīmun",
-    "translation": "",
+    "translation": "Allāh has already forgiven the Prophet and the Muhājireen and the Anṣār who followed him in the hour of difficulty after the hearts of a party of them had almost inclined [to doubt], and then He forgave them. Indeed, He was to them Kind and Merciful.",
     "words": [
       {
         "id": "at-tawbah-117-1",
@@ -17191,7 +17307,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a accepté le repentir du Prophète, des Émigrés et des Alliés qui l’avaient suivi aux heures pénibles, alors que les cœurs de certains d’entre eux allaient être dévoyés. Puis Il a accepté leur repentir car, à leur égard, Il est Tout Compatissant et Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-118",
@@ -17200,7 +17317,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَعَلَى ٱلثَّلَـٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
     "textSimple": "وعلى ٱلثلـثة ٱلذين خلفوا حتىٓ إذا ضاقت عليهم ٱلأرض بما رحبت وضاقت عليهم أنفسهم وظنوٓا أن لا ملجأ من ٱلله إلآ إليه ثم تاب عليهم ليتوبوٓا  إن ٱلله هو ٱلتواب ٱلرحيم",
     "transliteration": "waʿalā l-thalāthati alladhīna khullifū ḥattā idhā ḍāqat ʿalayhimu l-arḍu bimā raḥubat waḍāqat ʿalayhim anfusuhum waẓannū an lā malja-a mina l-lahi illā ilayhi thumma tāba ʿalayhim liyatūbū inna l-laha huwa l-tawābu l-raḥīmu",
-    "translation": "",
+    "translation": "And [He also forgave] the three who were left alone [i.e., boycotted, regretting their error] to the point that the earth closed in on them in spite of its vastness and their souls confined [i.e., anguished] them and they were certain that there is no refuge from Allāh except in Him. Then He turned to them so they could repent. Indeed, Allāh is the Accepting of Repentance, the Merciful.",
     "words": [
       {
         "id": "at-tawbah-118-1",
@@ -17420,7 +17537,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et Il a accepté aussi le repentir) des trois (hommes) qui étaient restés à l’arrière (n’étaient pas partis au combat) et devant qui la terre, si vaste qu’elle fût, devenait (beaucoup trop) étroite. Leurs propres personnes leur semblaient si exiguës qu’ils se rendirent à l’évidence qu’il n’est point d’autre refuge où se sauver d’Allah qu’auprès de Lui. Puis Il accepta leur repentir pour qu’ils reviennent (à Lui). Car Allah est, Lui, le Tout Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "at-tawbah-119",
@@ -17429,7 +17547,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَكُونُوا۟ مَعَ ٱلصَّـٰدِقِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱتقوا ٱلله وكونوا مع ٱلصـدقين",
     "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha wakūnū maʿa l-ṣādiqīna",
-    "translation": "",
+    "translation": "O you who have believed, fear Allāh and be with those who are true.",
     "words": [
       {
         "id": "at-tawbah-119-1",
@@ -17488,7 +17606,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Craignez Allah et soyez avec les véridiques !"
   },
   {
     "id": "at-tawbah-120",
@@ -17497,7 +17616,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَـٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
     "textSimple": "ما كان لأهل ٱلمدينة ومن حولهم من ٱلأعراب أن يتخلفوا عن رسول ٱلله ولا يرغبوا بأنفسهم عن نفسه  ذلك بأنهم لا يصيبهم ظمأ ولا نصب ولا مخمصة فى سبيل ٱلله ولا يطـٔون موطئا يغيظ ٱلكفار ولا ينالون من عدو نيلا إلا كتب لهم به عمل صـلح  إن ٱلله لا يضيع أجر ٱلمحسنين",
     "transliteration": "mā kāna li-ahli l-madīnati waman ḥawlahum mina l-aʿrābi an yatakhallafū ʿan rasūli l-lahi walā yarghabū bi-anfusihim ʿan nafsihi dhālika bi-annahum lā yuṣībuhum ẓama-on walā naṣabun walā makhmaṣatun fī sabīli l-lahi walā yaṭaūna mawṭi-an yaghīẓu l-kufāra walā yanālūna min ʿaduwwin naylan illā kutiba lahum bihi ʿamalun ṣāliḥun inna l-laha lā yuḍīʿu ajra l-muḥ'sinīna",
-    "translation": "",
+    "translation": "It was not [proper] for the people of Madīnah and those surrounding them of the bedouins that they remain behind after [the departure of] the Messenger of Allāh or that they prefer themselves over his self. That is because they are not afflicted by thirst or fatigue or hunger in the cause of Allāh, nor do they tread on any ground that enrages the disbelievers, nor do they inflict upon an enemy any infliction but that it is registered for them as a righteous deed. Indeed, Allāh does not allow to be lost the reward of the doers of good.",
     "words": [
       {
         "id": "at-tawbah-120-1",
@@ -17864,7 +17983,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 51
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne convient pas aux habitants de Médine et aux bédouins des alentours de rester derrière le Messager d’Allah, ni de lui préférer leurs propres personnes. Car ils ne connaîtront ni soif, ni fatigue, ni faim dans le chemin d’Allah, ne fouleront aucun sol au mépris des mécréants, et n’infligeront aucune défaite à l’ennemi, qui ne leur soit inscrite au nombre de leurs bonnes œuvres. Allah ne laisse pas se perdre la récompense des bienfaiteurs."
   },
   {
     "id": "at-tawbah-121",
@@ -17873,7 +17993,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يُنفِقُونَ نَفَقَةً صَغِيرَةً وَلَا كَبِيرَةً وَلَا يَقْطَعُونَ وَادِيًا إِلَّا كُتِبَ لَهُمْ لِيَجْزِيَهُمُ ٱللَّهُ أَحْسَنَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ولا ينفقون نفقة صغيرة ولا كبيرة ولا يقطعون واديا إلا كتب لهم ليجزيهم ٱلله أحسن ما كانوا يعملون",
     "transliteration": "walā yunfiqūna nafaqatan ṣaghīratan walā kabīratan walā yaqṭaʿūna wādiyan illā kutiba lahum liyajziyahumu l-lahu aḥsana mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Nor do they spend an expenditure, small or large, or cross a valley but that it is registered for them that Allāh may reward them for the best of what they were doing.",
     "words": [
       {
         "id": "at-tawbah-121-1",
@@ -18002,7 +18122,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’engageront, non plus, aucune dépense, petite ou grande, ne traverseront aucune vallée qui ne leur soit inscrite. Cela, afin qu’Allah les récompense de leurs meilleures œuvres."
   },
   {
     "id": "at-tawbah-122",
@@ -18011,7 +18132,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَا كَانَ ٱلْمُؤْمِنُونَ لِيَنفِرُوا۟ كَآفَّةً ۚ فَلَوْلَا نَفَرَ مِن كُلِّ فِرْقَةٍ مِّنْهُمْ طَآئِفَةٌ لِّيَتَفَقَّهُوا۟ فِى ٱلدِّينِ وَلِيُنذِرُوا۟ قَوْمَهُمْ إِذَا رَجَعُوٓا۟ إِلَيْهِمْ لَعَلَّهُمْ يَحْذَرُونَ",
     "textSimple": " وما كان ٱلمؤمنون لينفروا كآفة  فلولا نفر من كل فرقة منهم طآئفة ليتفقهوا فى ٱلدين ولينذروا قومهم إذا رجعوٓا إليهم لعلهم يحذرون",
     "transliteration": "wamā kāna l-mu'minūna liyanfirū kāffatan falawlā nafara min kulli fir'qatin min'hum ṭāifatun liyatafaqqahū fī l-dīni waliyundhirū qawmahum idhā rajaʿū ilayhim laʿallahum yaḥdharūna",
-    "translation": "",
+    "translation": "And it is not for the believers to go forth [to battle] all at once. For there should separate from every division of them a group [remaining] to obtain understanding in the religion and warn [i.e., advise] their people when they return to them that they might be cautious.",
     "words": [
       {
         "id": "at-tawbah-122-1",
@@ -18168,7 +18289,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les croyants n’ont pas à accourir tous (pour aller combattre). Ne vaudrait-il pas mieux que, de chaque groupe (de guerriers), quelques-uns se consacrent à approfondir leurs connaissances en religion et avertir leur peuple à leur retour, afin que ce dernier soit vigilant ?"
   },
   {
     "id": "at-tawbah-123",
@@ -18177,7 +18299,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ قَـٰتِلُوا۟ ٱلَّذِينَ يَلُونَكُم مِّنَ ٱلْكُفَّارِ وَلْيَجِدُوا۟ فِيكُمْ غِلْظَةً ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا قـتلوا ٱلذين يلونكم من ٱلكفار وليجدوا فيكم غلظة  وٱعلموٓا أن ٱلله مع ٱلمتقين",
     "transliteration": "yāayyuhā alladhīna āmanū qātilū alladhīna yalūnakum mina l-kufāri walyajidū fīkum ghil'ẓatan wa-iʿ'lamū anna l-laha maʿa l-mutaqīna",
-    "translation": "",
+    "translation": "O you who have believed, fight against those adjacent to you of the disbelievers and let them find in you harshness. And know that Allāh is with the righteous.",
     "words": [
       {
         "id": "at-tawbah-123-1",
@@ -18292,7 +18414,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Combattez ceux des mécréants qui vous entourent. Qu’ils trouvent en vous de la rudesse, et sachez qu’Allah est avec les gens qui Le craignent pieusement."
   },
   {
     "id": "at-tawbah-124",
@@ -18301,7 +18424,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَآ أُنزِلَتْ سُورَةٌ فَمِنْهُم مَّن يَقُولُ أَيُّكُمْ زَادَتْهُ هَـٰذِهِۦٓ إِيمَـٰنًا ۚ فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَزَادَتْهُمْ إِيمَـٰنًا وَهُمْ يَسْتَبْشِرُونَ",
     "textSimple": "وإذا مآ أنزلت سورة فمنهم من يقول أيكم زادته هـذهٓ إيمـنا  فأما ٱلذين ءامنوا فزادتهم إيمـنا وهم يستبشرون",
     "transliteration": "wa-idhā mā unzilat sūratun famin'hum man yaqūlu ayyukum zādathu hādhihi īmānan fa-ammā alladhīna āmanū fazādathum īmānan wahum yastabshirūna",
-    "translation": "",
+    "translation": "And whenever a sūrah is revealed, there are among them [i.e., the hypocrites] those who say, \"Which of you has this increased in faith?\" As for those who believed, it has increased them in faith, while they are rejoicing.",
     "words": [
       {
         "id": "at-tawbah-124-1",
@@ -18430,7 +18553,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’une sourate est révélée, il est parmi eux celui qui dit : « Qui de vous cette sourate a raffermi dans sa foi ? » Quant à ceux qui ont cru, elle a certes raffermi leur foi, et ils n’en sont que pleins de joie."
   },
   {
     "id": "at-tawbah-125",
@@ -18439,7 +18563,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ فَزَادَتْهُمْ رِجْسًا إِلَىٰ رِجْسِهِمْ وَمَاتُوا۟ وَهُمْ كَـٰفِرُونَ",
     "textSimple": "وأما ٱلذين فى قلوبهم مرض فزادتهم رجسا إلى رجسهم وماتوا وهم كـفرون",
     "transliteration": "wa-ammā alladhīna fī qulūbihim maraḍun fazādathum rij'san ilā rij'sihim wamātū wahum kāfirūna",
-    "translation": "",
+    "translation": "But as for those in whose hearts is disease, it has [only] increased them in evil [in addition] to their evil. And they will have died while they are disbelievers.",
     "words": [
       {
         "id": "at-tawbah-125-1",
@@ -18526,7 +18650,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ceux dont les cœurs sont rongés par le mal, elle ne fait qu’ajouter à leur souillure, et ils mourront en mécréants."
   },
   {
     "id": "at-tawbah-126",
@@ -18535,7 +18660,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَا يَرَوْنَ أَنَّهُمْ يُفْتَنُونَ فِى كُلِّ عَامٍ مَّرَّةً أَوْ مَرَّتَيْنِ ثُمَّ لَا يَتُوبُونَ وَلَا هُمْ يَذَّكَّرُونَ",
     "textSimple": "أولا يرون أنهم يفتنون فى كل عام مرة أو مرتين ثم لا يتوبون ولا هم يذكرون",
     "transliteration": "awalā yarawna annahum yuf'tanūna fī kulli ʿāmin marratan aw marratayni thumma lā yatūbūna walā hum yadhakkarūna",
-    "translation": "",
+    "translation": "Do they not see that they are tried every year once or twice but then they do not repent nor do they remember?",
     "words": [
       {
         "id": "at-tawbah-126-1",
@@ -18650,7 +18775,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voient-ils donc pas qu’ils sont mis à l’épreuve une ou deux fois par an, puis qu’ils ne se repentent pas, ni ne s’en souviennent ?"
   },
   {
     "id": "at-tawbah-127",
@@ -18659,7 +18785,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَآ أُنزِلَتْ سُورَةٌ نَّظَرَ بَعْضُهُمْ إِلَىٰ بَعْضٍ هَلْ يَرَىٰكُم مِّنْ أَحَدٍ ثُمَّ ٱنصَرَفُوا۟ ۚ صَرَفَ ٱللَّهُ قُلُوبَهُم بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
     "textSimple": "وإذا مآ أنزلت سورة نظر بعضهم إلى بعض هل يرىكم من أحد ثم ٱنصرفوا  صرف ٱلله قلوبهم بأنهم قوم لا يفقهون",
     "transliteration": "wa-idhā mā unzilat sūratun naẓara baʿḍuhum ilā baʿḍin hal yarākum min aḥadin thumma inṣarafū ṣarafa l-lahu qulūbahum bi-annahum qawmun lā yafqahūna",
-    "translation": "",
+    "translation": "And whenever a sūrah is revealed, they look at each other, [as if saying], \"Does anyone see you?\" and then they dismiss themselves. Allāh has dismissed their hearts because they are a people who do not understand.",
     "words": [
       {
         "id": "at-tawbah-127-1",
@@ -18809,7 +18935,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsqu’une sourate est révélée, ils se regardent les uns les autres et se disent : « Quelqu’un vous voit-il ? » Puis ils se retirent en se détournant. Qu’Allah détourne leurs cœurs (de la vérité), eux qui ne comprennent rien !"
   },
   {
     "id": "at-tawbah-128",
@@ -18818,7 +18945,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ جَآءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌ رَّحِيمٌ",
     "textSimple": "لقد جآءكم رسول من أنفسكم عزيز عليه ما عنتم حريص عليكم بٱلمؤمنين رءوف رحيم",
     "transliteration": "laqad jāakum rasūlun min anfusikum ʿazīzun ʿalayhi mā ʿanittum ḥarīṣun ʿalaykum bil-mu'minīna raūfun raḥīmun",
-    "translation": "",
+    "translation": "There has certainly come to you a Messenger from among yourselves. Grievous to him is what you suffer; [he is] concerned over you [i.e., your guidance] and to the believers is kind and merciful.",
     "words": [
       {
         "id": "at-tawbah-128-1",
@@ -18919,7 +19046,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous est venu un Messager (choisi) parmi vous. Il lui pèse de vous voir souffrir, et il lui importe de vous voir heureux. Et, envers les croyants, il est plein de pitié et de compassion."
   },
   {
     "id": "at-tawbah-129",
@@ -18928,7 +19056,7 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن تَوَلَّوْا۟ فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
     "textSimple": "فإن تولوا فقل حسبى ٱلله لآ إلـه إلا هو  عليه توكلت  وهو رب ٱلعرش ٱلعظيم",
     "transliteration": "fa-in tawallaw faqul ḥasbiya l-lahu lā ilāha illā huwa ʿalayhi tawakkaltu wahuwa rabbu l-ʿarshi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "But if they turn away, [O Muḥammad], say, \"Sufficient for me is Allāh; there is no deity except Him. On Him I have relied, and He is the Lord of the Great Throne.\"",
     "words": [
       {
         "id": "at-tawbah-129-1",
@@ -19036,7 +19164,8 @@ export const AT_TAWBAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils se détournent, indifférents, alors dis : « Allah me suffit! Point d’autre divinité que Lui ! C’est à Lui que je m’en remets, et c’est Lui le Seigneur du Sublime Trône. »"
   }
 ];
 

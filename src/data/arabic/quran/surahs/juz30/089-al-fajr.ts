@@ -11,7 +11,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلْفَجْرِ",
     "textSimple": " وٱلفجر",
     "transliteration": "wal-fajri",
-    "translation": "",
+    "translation": "By the dawn",
     "words": [
       {
         "id": "al-fajr-1-1",
@@ -21,7 +21,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par l’aube !"
   },
   {
     "id": "al-fajr-2",
@@ -30,7 +31,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَيَالٍ عَشْرٍ",
     "textSimple": "وليال عشر",
     "transliteration": "walayālin ʿashrin",
-    "translation": "",
+    "translation": "And [by] ten nights",
     "words": [
       {
         "id": "al-fajr-2-1",
@@ -47,7 +48,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les Dix nuits !"
   },
   {
     "id": "al-fajr-3",
@@ -56,7 +58,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
     "textSimple": "وٱلشفع وٱلوتر",
     "transliteration": "wal-shafʿi wal-watri",
-    "translation": "",
+    "translation": "And [by] the even [number] and the odd",
     "words": [
       {
         "id": "al-fajr-3-1",
@@ -73,7 +75,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le pair et l’impair !"
   },
   {
     "id": "al-fajr-4",
@@ -82,7 +85,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّيْلِ إِذَا يَسْرِ",
     "textSimple": "وٱليل إذا يسر",
     "transliteration": "wa-al-layli idhā yasri",
-    "translation": "",
+    "translation": "And [by] the night when it passes,",
     "words": [
       {
         "id": "al-fajr-4-1",
@@ -106,7 +109,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la nuit quand elle passe!"
   },
   {
     "id": "al-fajr-5",
@@ -115,7 +119,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
     "textSimple": "هل فى ذلك قسم لذى حجر",
     "transliteration": "hal fī dhālika qasamun lidhī ḥij'rin",
-    "translation": "",
+    "translation": "Is there [not] in [all] that an oath [sufficient] for one of perception?",
     "words": [
       {
         "id": "al-fajr-5-1",
@@ -160,7 +164,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’y a-t-il pas là un serment pour un esprit sagace?"
   },
   {
     "id": "al-fajr-6",
@@ -169,7 +174,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
     "textSimple": "ألم تر كيف فعل ربك بعاد",
     "transliteration": "alam tara kayfa faʿala rabbuka biʿādin",
-    "translation": "",
+    "translation": "Have you not considered how your Lord dealt with ʿAad -",
     "words": [
       {
         "id": "al-fajr-6-1",
@@ -214,7 +219,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas ce que ton Seigneur a fait des ‘Ad,"
   },
   {
     "id": "al-fajr-7",
@@ -223,7 +229,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
     "textSimple": "إرم ذات ٱلعماد",
     "transliteration": "irama dhāti l-ʿimādi",
-    "translation": "",
+    "translation": "[With] Iram - who had lofty pillars,",
     "words": [
       {
         "id": "al-fajr-7-1",
@@ -247,7 +253,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et de Iram, la cité aux (hautes) colonnes,"
   },
   {
     "id": "al-fajr-8",
@@ -256,7 +263,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
     "textSimple": "ٱلتى لم يخلق مثلها فى ٱلبلـد",
     "transliteration": "allatī lam yukh'laq mith'luhā fī l-bilādi",
-    "translation": "",
+    "translation": "The likes of whom had never been created in the land?",
     "words": [
       {
         "id": "al-fajr-8-1",
@@ -301,7 +308,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à laquelle jamais cité semblable ne fut créée dans la contrée ?"
   },
   {
     "id": "al-fajr-9",
@@ -310,7 +318,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
     "textSimple": "وثمود ٱلذين جابوا ٱلصخر بٱلواد",
     "transliteration": "wathamūda alladhīna jābū l-ṣakhra bil-wādi",
-    "translation": "",
+    "translation": "And [with] Thamūd, who carved out the rocks in the valley?",
     "words": [
       {
         "id": "al-fajr-9-1",
@@ -348,7 +356,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (ce qu’Il a fait) des Thamûd qui avaient taillé (leurs maisons) à même le roc dans la vallée,"
   },
   {
     "id": "al-fajr-10",
@@ -357,7 +366,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
     "textSimple": "وفرعون ذى ٱلأوتاد",
     "transliteration": "wafir'ʿawna dhī l-awtādi",
-    "translation": "",
+    "translation": "And [with] Pharaoh, owner of the stakes?",
     "words": [
       {
         "id": "al-fajr-10-1",
@@ -381,7 +390,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et de Pharaon, (qui avait inventé le supplice) des épieux,"
   },
   {
     "id": "al-fajr-11",
@@ -390,7 +400,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
     "textSimple": "ٱلذين طغوا فى ٱلبلـد",
     "transliteration": "alladhīna ṭaghaw fī l-bilādi",
-    "translation": "",
+    "translation": "[All of] whom oppressed within the lands",
     "words": [
       {
         "id": "al-fajr-11-1",
@@ -421,7 +431,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui tous transgressaient dans la contrée,"
   },
   {
     "id": "al-fajr-12",
@@ -430,7 +441,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
     "textSimple": "فأكثروا فيها ٱلفساد",
     "transliteration": "fa-aktharū fīhā l-fasāda",
-    "translation": "",
+    "translation": "And increased therein the corruption.",
     "words": [
       {
         "id": "al-fajr-12-1",
@@ -454,7 +465,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et y semaient un grand désordre ?"
   },
   {
     "id": "al-fajr-13",
@@ -463,7 +475,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
     "textSimple": "فصب عليهم ربك سوط عذاب",
     "transliteration": "faṣabba ʿalayhim rabbuka sawṭa ʿadhābin",
-    "translation": "",
+    "translation": "So your Lord poured upon them a scourge of punishment.",
     "words": [
       {
         "id": "al-fajr-13-1",
@@ -501,7 +513,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur sévit alors contre eux par le fouet de (Son) supplice."
   },
   {
     "id": "al-fajr-14",
@@ -510,7 +523,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
     "textSimple": "إن ربك لبٱلمرصاد",
     "transliteration": "inna rabbaka labil-mir'ṣādi",
-    "translation": "",
+    "translation": "Indeed, your Lord is in observation.",
     "words": [
       {
         "id": "al-fajr-14-1",
@@ -534,7 +547,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car, certes, ton Seigneur toujours guette."
   },
   {
     "id": "al-fajr-15",
@@ -543,7 +557,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
     "textSimple": "فأما ٱلإنسـن إذا ما ٱبتلىه ربه فأكرمه ونعمه فيقول ربىٓ أكرمن",
     "transliteration": "fa-ammā l-insānu idhā mā ib'talāhu rabbuhu fa-akramahu wanaʿʿamahu fayaqūlu rabbī akramani",
-    "translation": "",
+    "translation": "And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, \"My Lord has honored me.\"",
     "words": [
       {
         "id": "al-fajr-15-1",
@@ -623,7 +637,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand son Seigneur, en l’éprouvant, l’honore et le comble de bienfaits, l’homme dit : « Mon Seigneur m’a honoré ! »"
   },
   {
     "id": "al-fajr-16",
@@ -632,7 +647,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
     "textSimple": "وأمآ إذا ما ٱبتلىه فقدر عليه رزقه فيقول ربىٓ أهـنن",
     "transliteration": "wa-ammā idhā mā ib'talāhu faqadara ʿalayhi riz'qahu fayaqūlu rabbī ahānani",
-    "translation": "",
+    "translation": "But when He tries him and restricts his provision, he says, \"My Lord has humiliated me.\"",
     "words": [
       {
         "id": "al-fajr-16-1",
@@ -705,7 +720,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais quand, en l’éprouvant, Il lui accorde parcimonieusement sa subsistance, il proteste : « Mon Seigneur m’a humilié ! »"
   },
   {
     "id": "al-fajr-17",
@@ -714,7 +730,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
     "textSimple": "كلا  بل لا تكرمون ٱليتيم",
     "transliteration": "kallā bal lā tuk'rimūna l-yatīma",
-    "translation": "",
+    "translation": "No! But you do not honor the orphan",
     "words": [
       {
         "id": "al-fajr-17-1",
@@ -752,7 +768,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Car c’est plutôt vous qui manquez de générosité envers l’orphelin,"
   },
   {
     "id": "al-fajr-18",
@@ -761,7 +778,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
     "textSimple": "ولا تحـٓضون على طعام ٱلمسكين",
     "transliteration": "walā taḥāḍḍūna ʿalā ṭaʿāmi l-mis'kīni",
-    "translation": "",
+    "translation": "And you do not encourage one another to feed the poor.",
     "words": [
       {
         "id": "al-fajr-18-1",
@@ -799,7 +816,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ne vous exhortez pas (les uns les autres) à nourrir le pauvre,"
   },
   {
     "id": "al-fajr-19",
@@ -808,7 +826,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
     "textSimple": "وتأكلون ٱلتراث أكلا لما",
     "transliteration": "watakulūna l-turātha aklan lamman",
-    "translation": "",
+    "translation": "And you consume inheritance, devouring [it] altogether,",
     "words": [
       {
         "id": "al-fajr-19-1",
@@ -839,7 +857,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui vous emparez des héritages avec cupidité,"
   },
   {
     "id": "al-fajr-20",
@@ -848,7 +867,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا",
     "textSimple": "وتحبون ٱلمال حبا جما",
     "transliteration": "watuḥibbūna l-māla ḥubban jamman",
-    "translation": "",
+    "translation": "And you love wealth with immense love.",
     "words": [
       {
         "id": "al-fajr-20-1",
@@ -879,7 +898,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et aimez les richesses d’un amour démesuré."
   },
   {
     "id": "al-fajr-21",
@@ -888,7 +908,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
     "textSimple": "كلآ إذا دكت ٱلأرض دكا دكا",
     "transliteration": "kallā idhā dukkati l-arḍu dakkan dakkan",
-    "translation": "",
+    "translation": "No! When the earth has been leveled - pounded and crushed",
     "words": [
       {
         "id": "al-fajr-21-1",
@@ -933,7 +953,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non ! Lorsque la terre s’effritera parcelle par parcelle,"
   },
   {
     "id": "al-fajr-22",
@@ -942,7 +963,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
     "textSimple": "وجآء ربك وٱلملك صفا صفا",
     "transliteration": "wajāa rabbuka wal-malaku ṣaffan ṣaffan",
-    "translation": "",
+    "translation": "And your Lord has come and the angels, rank upon rank,",
     "words": [
       {
         "id": "al-fajr-22-1",
@@ -980,7 +1001,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et lorsque ton Seigneur viendra, de même que les Anges, rangée par rangée,"
   },
   {
     "id": "al-fajr-23",
@@ -989,7 +1011,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
     "textSimple": "وجاىٓء يومئذ بجهنم  يومئذ يتذكر ٱلإنسـن وأنى له ٱلذكرى",
     "transliteration": "wajīa yawma-idhin bijahannama yawma-idhin yatadhakkaru l-insānu wa-annā lahu l-dhik'rā",
-    "translation": "",
+    "translation": "And brought [within view], that Day, is Hell - that Day, man will remember, but how [i.e., what good] to him will be the remembrance?",
     "words": [
       {
         "id": "al-fajr-23-1",
@@ -1055,7 +1077,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et lorsque, ce jour-là, la Géhenne sera amenée; ce jour-là alors, l’homme se souviendra. Mais à quoi pourrait bien lui servir de se souvenir ?"
   },
   {
     "id": "al-fajr-24",
@@ -1064,7 +1087,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
     "textSimple": "يقول يـليتنى قدمت لحياتى",
     "transliteration": "yaqūlu yālaytanī qaddamtu liḥayātī",
-    "translation": "",
+    "translation": "He will say, \"Oh, I wish I had sent ahead [some good] for my life.\"",
     "words": [
       {
         "id": "al-fajr-24-1",
@@ -1095,7 +1118,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dira : « Ah, Si seulement j’avais prévu (de faire le bien) pour ma vie (dans l’autre monde) ! »"
   },
   {
     "id": "al-fajr-25",
@@ -1104,7 +1128,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
     "textSimple": "فيومئذ لا يعذب عذابهٓ أحد",
     "transliteration": "fayawma-idhin lā yuʿadhibu ʿadhābahu aḥadun",
-    "translation": "",
+    "translation": "So on that Day, none will punish [as severely] as His punishment,",
     "words": [
       {
         "id": "al-fajr-25-1",
@@ -1142,7 +1166,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, nul ne suppliciera comme Lui supplicie."
   },
   {
     "id": "al-fajr-26",
@@ -1151,7 +1176,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
     "textSimple": "ولا يوثق وثاقهٓ أحد",
     "transliteration": "walā yūthiqu wathāqahu aḥadun",
-    "translation": "",
+    "translation": "And none will bind [as severely] as His binding [of the evildoers].",
     "words": [
       {
         "id": "al-fajr-26-1",
@@ -1182,7 +1207,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nul ne ligotera comme Lui ligote."
   },
   {
     "id": "al-fajr-27",
@@ -1191,7 +1217,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
     "textSimple": "يـٓأيتها ٱلنفس ٱلمطمئنة",
     "transliteration": "yāayyatuhā l-nafsu l-muṭ'ma-inatu",
-    "translation": "",
+    "translation": "[To the righteous it will be said], \"O reassured soul,",
     "words": [
       {
         "id": "al-fajr-27-1",
@@ -1215,7 +1241,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô toi, âme sereine !"
   },
   {
     "id": "al-fajr-28",
@@ -1224,7 +1251,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
     "textSimple": "ٱرجعىٓ إلى ربك راضية مرضية",
     "transliteration": "ir'jiʿī ilā rabbiki rāḍiyatan marḍiyyatan",
-    "translation": "",
+    "translation": "Return to your Lord, well-pleased and pleasing [to Him],",
     "words": [
       {
         "id": "al-fajr-28-1",
@@ -1262,7 +1289,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Reviens vers ton Seigneur, contente et agréée !"
   },
   {
     "id": "al-fajr-29",
@@ -1271,7 +1299,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱدْخُلِى فِى عِبَـٰدِى",
     "textSimple": "فٱدخلى فى عبـدى",
     "transliteration": "fa-ud'khulī fī ʿibādī",
-    "translation": "",
+    "translation": "And enter among My [righteous] servants",
     "words": [
       {
         "id": "al-fajr-29-1",
@@ -1295,7 +1323,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entre parmi Mes serviteurs !"
   },
   {
     "id": "al-fajr-30",
@@ -1304,7 +1333,7 @@ export const AL_FAJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱدْخُلِى جَنَّتِى",
     "textSimple": "وٱدخلى جنتى",
     "transliteration": "wa-ud'khulī jannatī",
-    "translation": "",
+    "translation": "And enter My Paradise.\"",
     "words": [
       {
         "id": "al-fajr-30-1",
@@ -1321,7 +1350,8 @@ export const AL_FAJR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entre dans Mon Paradis !»"
   }
 ];
 

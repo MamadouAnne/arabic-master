@@ -11,7 +11,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
     "textSimple": " يـٓأيها ٱلناس ٱتقوا ربكم ٱلذى خلقكم من نفس وحدة وخلق منها زوجها وبث منهما رجالا كثيرا ونسآء  وٱتقوا ٱلله ٱلذى تسآءلون به وٱلأرحام  إن ٱلله كان عليكم رقيبا",
     "transliteration": "yāayyuhā l-nāsu ittaqū rabbakumu alladhī khalaqakum min nafsin wāḥidatin wakhalaqa min'hā zawjahā wabatha min'humā rijālan kathīran wanisāan wa-ittaqū l-laha alladhī tasāalūna bihi wal-arḥāma inna l-laha kāna ʿalaykum raqīban",
-    "translation": "",
+    "translation": "O mankind, fear your Lord, who created you from one soul and created from it its mate and dispersed from both of them many men and women. And fear Allāh, through whom you ask one another, and the wombs. Indeed Allāh is ever, over you, an Observer.",
     "words": [
       {
         "id": "an-nisa-1-1",
@@ -210,7 +210,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Craignez votre Seigneur Qui vous créa d’un seul être et Qui, de cet être, créa son épouse, puis des deux fit se répandre hommes et femmes en très grand nombre. Et craignez Allah au nom de Qui vous vous implorez mutuellement, et craignez de rompre les liens de parenté, car Allah est là, Qui vous surveille."
   },
   {
     "id": "an-nisa-2",
@@ -219,7 +220,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتُوا۟ ٱلْيَتَـٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ ٱلْخَبِيثَ بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًا كَبِيرًا",
     "textSimple": "وءاتوا ٱليتـمىٓ أمولهم  ولا تتبدلوا ٱلخبيث بٱلطيب  ولا تأكلوٓا أمولهم إلىٓ أمولكم  إنه كان حوبا كبيرا",
     "transliteration": "waātū l-yatāmā amwālahum walā tatabaddalū l-khabītha bil-ṭayibi walā takulū amwālahum ilā amwālikum innahu kāna ḥūban kabīran",
-    "translation": "",
+    "translation": "And give to the orphans their properties and do not substitute the defective [of your own] for the good [of theirs]. And do not consume their properties into your own. Indeed, that is ever a great sin.",
     "words": [
       {
         "id": "an-nisa-2-1",
@@ -334,7 +335,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et restituez aux orphelins leurs biens. Ne substituez pas au bon (de leurs biens) le mauvais (des vôtres). Ne consommez pas leurs biens en les mélangeant aux vôtres, car c’est vraiment l’un des péchés les plus grands."
   },
   {
     "id": "an-nisa-3",
@@ -343,7 +345,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا۟ فِى ٱلْيَتَـٰمَىٰ فَٱنكِحُوا۟ مَا طَابَ لَكُم مِّنَ ٱلنِّسَآءِ مَثْنَىٰ وَثُلَـٰثَ وَرُبَـٰعَ ۖ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا۟ فَوَٰحِدَةً أَوْ مَا مَلَكَتْ أَيْمَـٰنُكُمْ ۚ ذَٰلِكَ أَدْنَىٰٓ أَلَّا تَعُولُوا۟",
     "textSimple": "وإن خفتم ألا تقسطوا فى ٱليتـمى فٱنكحوا ما طاب لكم من ٱلنسآء مثنى وثلـث وربـع  فإن خفتم ألا تعدلوا فوحدة أو ما ملكت أيمـنكم  ذلك أدنىٓ ألا تعولوا",
     "transliteration": "wa-in khif'tum allā tuq'siṭū fī l-yatāmā fa-inkiḥū mā ṭāba lakum mina l-nisāi mathnā wathulātha warubāʿa fa-in khif'tum allā taʿdilū fawāḥidatan aw mā malakat aymānukum dhālika adnā allā taʿūlū",
-    "translation": "",
+    "translation": "And if you fear that you will not deal justly with the orphan girls, then marry those that please you of [other] women, two or three or four. But if you fear that you will not be just, then [marry only] one or those your right hands possess [i.e., slaves]. That is more suitable that you may not incline [to injustice].",
     "words": [
       {
         "id": "an-nisa-3-1",
@@ -542,7 +544,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si vous avez peur de ne pas être justes envers les orphelins, épousez alors ce qu’il vous plaira comme femmes, au nombre de deux, trois ou quatre. Mais si vous avez peur encore de ne pas être justes, alors n’en prenez qu’une seule, ou alors des esclaves en votre possession. Cela vous rapprochera d’autant plus de l’équité."
   },
   {
     "id": "an-nisa-4",
@@ -551,7 +554,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتُوا۟ ٱلنِّسَآءَ صَدُقَـٰتِهِنَّ نِحْلَةً ۚ فَإِن طِبْنَ لَكُمْ عَن شَىْءٍ مِّنْهُ نَفْسًا فَكُلُوهُ هَنِيٓـًٔا مَّرِيٓـًٔا",
     "textSimple": "وءاتوا ٱلنسآء صدقـتهن نحلة  فإن طبن لكم عن شىء منه نفسا فكلوه هنيٓـٔا مريٓـٔا",
     "transliteration": "waātū l-nisāa ṣaduqātihinna niḥ'latan fa-in ṭib'na lakum ʿan shayin min'hu nafsan fakulūhu hanīan marīan",
-    "translation": "",
+    "translation": "And give the women [upon marriage] their [bridal] gifts graciously. But if they give up willingly to you anything of it, then take it in satisfaction and ease.",
     "words": [
       {
         "id": "an-nisa-4-1",
@@ -652,7 +655,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Remettez aux épouses leur dot (mahr) de bon cœur. Et si, de leur plein gré, elles vous en cèdent une partie, vous pourrez en jouir comme il vous plaira et à votre guise."
   },
   {
     "id": "an-nisa-5",
@@ -661,7 +665,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَـٰمًا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا",
     "textSimple": "ولا تؤتوا ٱلسفهآء أمولكم ٱلتى جعل ٱلله لكم قيـما وٱرزقوهم فيها وٱكسوهم وقولوا لهم قولا معروفا",
     "transliteration": "walā tu'tū l-sufahāa amwālakumu allatī jaʿala l-lahu lakum qiyāman wa-ur'zuqūhum fīhā wa-ik'sūhum waqūlū lahum qawlan maʿrūfan",
-    "translation": "",
+    "translation": "And do not give the weak-minded your property, which Allāh has made a means of sustenance for you, but provide for them with it and clothe them and speak to them words of appropriate kindness.",
     "words": [
       {
         "id": "an-nisa-5-1",
@@ -776,7 +780,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne cédez pas aux incapables les biens qu’Allah vous a donnés comme moyen de subsistance. Prenez-en de quoi les nourrir et les vêtir et tenez-leur des propos convenables."
   },
   {
     "id": "an-nisa-6",
@@ -785,7 +790,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱبْتَلُوا۟ ٱلْيَتَـٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
     "textSimple": "وٱبتلوا ٱليتـمى حتىٓ إذا بلغوا ٱلنكاح فإن ءانستم منهم رشدا فٱدفعوٓا إليهم أمولهم  ولا تأكلوهآ إسرافا وبدارا أن يكبروا  ومن كان غنيا فليستعفف  ومن كان فقيرا فليأكل بٱلمعروف  فإذا دفعتم إليهم أمولهم فأشهدوا عليهم  وكفى بٱلله حسيبا",
     "transliteration": "wa-ib'talū l-yatāmā ḥattā idhā balaghū l-nikāḥa fa-in ānastum min'hum rush'dan fa-id'faʿū ilayhim amwālahum walā takulūhā is'rāfan wabidāran an yakbarū waman kāna ghaniyyan falyastaʿfif waman kāna faqīran falyakul bil-maʿrūfi fa-idhā dafaʿtum ilayhim amwālahum fa-ashhidū ʿalayhim wakafā bil-lahi ḥasīban",
-    "translation": "",
+    "translation": "And test the orphans [in their abilities] until they reach marriageable age. Then if you perceive in them sound judgement, release their property to them. And do not consume it excessively and quickly, [anticipating] that they will grow up. And whoever, [when acting as guardian], is self-sufficient should refrain [from taking a fee]; and whoever is poor - let him take according to what is acceptable. Then when you release their property to them, bring witnesses upon them. And sufficient is Allāh as Accountant.",
     "words": [
       {
         "id": "an-nisa-6-1",
@@ -1047,7 +1052,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et mettez à l’épreuve les orphelins (pour vous assurer de leur maturité) jusqu’à ce qu’ils soient en âge de se marier. Alors, s’ils font preuve de maturité, vous leur remettrez leurs biens. Ne profitez-en pas en les dilapidant avec empressement avant que (les orphelins) ne grandissent. Que celui qui est riche s’abstienne donc d’en profiter ; et que celui qui est pauvre en prenne avec modération. Et quand vous leur remettez leurs biens, faites-le devant témoins. Et Allah suffit pour tenir les comptes."
   },
   {
     "id": "an-nisa-7",
@@ -1056,7 +1062,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لِّلرِّجَالِ نَصِيبٌ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَلِلنِّسَآءِ نَصِيبٌ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ ۚ نَصِيبًا مَّفْرُوضًا",
     "textSimple": "للرجال نصيب مما ترك ٱلولدان وٱلأقربون وللنسآء نصيب مما ترك ٱلولدان وٱلأقربون مما قل منه أو كثر  نصيبا مفروضا",
     "transliteration": "lilrrijāli naṣībun mimmā taraka l-wālidāni wal-aqrabūna walilnnisāi naṣībun mimmā taraka l-wālidāni wal-aqrabūna mimmā qalla min'hu aw kathura naṣīban mafrūḍan",
-    "translation": "",
+    "translation": "For men is a share of what the parents and close relatives leave, and for women is a share of what the parents and close relatives leave, be it little or much - an obligatory share.",
     "words": [
       {
         "id": "an-nisa-7-1",
@@ -1192,7 +1198,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux (héritiers) mâles revient une part de ce qu’auront laissé les deux parents et les proches ; et aux femmes, de même, revient une part de ce qu’auront laissé les deux parents et les proches : que la quantité soit petite ou grande, une part déterminée."
   },
   {
     "id": "an-nisa-8",
@@ -1201,7 +1208,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا حَضَرَ ٱلْقِسْمَةَ أُو۟لُوا۟ ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينُ فَٱرْزُقُوهُم مِّنْهُ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا",
     "textSimple": "وإذا حضر ٱلقسمة أولوا ٱلقربى وٱليتـمى وٱلمسـكين فٱرزقوهم منه وقولوا لهم قولا معروفا",
     "transliteration": "wa-idhā ḥaḍara l-qis'mata ulū l-qur'bā wal-yatāmā wal-masākīnu fa-ur'zuqūhum min'hu waqūlū lahum qawlan maʿrūfan",
-    "translation": "",
+    "translation": "And when [other] relatives and orphans and the needy are present at the [time of] division, then provide for them [something] out of it [i.e., the estate] and speak to them words of appropriate kindness.",
     "words": [
       {
         "id": "an-nisa-8-1",
@@ -1295,7 +1302,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque les proches parents (parmi les non héritiers), les orphelins et les pauvres sont présents au partage, donnez-en leur et tenez-leur des propos convenables."
   },
   {
     "id": "an-nisa-9",
@@ -1304,7 +1312,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلْيَخْشَ ٱلَّذِينَ لَوْ تَرَكُوا۟ مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَـٰفًا خَافُوا۟ عَلَيْهِمْ فَلْيَتَّقُوا۟ ٱللَّهَ وَلْيَقُولُوا۟ قَوْلًا سَدِيدًا",
     "textSimple": "وليخش ٱلذين لو تركوا من خلفهم ذرية ضعـفا خافوا عليهم فليتقوا ٱلله وليقولوا قولا سديدا",
     "transliteration": "walyakhsha alladhīna law tarakū min khalfihim dhurriyyatan ḍiʿāfan khāfū ʿalayhim falyattaqū l-laha walyaqūlū qawlan sadīdan",
-    "translation": "",
+    "translation": "And let those [executors and guardians] fear [injustice] as if they [themselves] had left weak offspring behind and feared for them. So let them fear Allāh and speak words of appropriate justice.",
     "words": [
       {
         "id": "an-nisa-9-1",
@@ -1412,7 +1420,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui seraient inquiets de laisser, après leur mort, une descendance en bas âge, doivent craindre (la même chose pour les orphelins à leur charge). Qu’ils redoutent donc Allah et qu’ils disent donc une parole judicieuse."
   },
   {
     "id": "an-nisa-10",
@@ -1421,7 +1430,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَـٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ سَعِيرًا",
     "textSimple": "إن ٱلذين يأكلون أمول ٱليتـمى ظلما إنما يأكلون فى بطونهم نارا  وسيصلون سعيرا",
     "transliteration": "inna alladhīna yakulūna amwāla l-yatāmā ẓul'man innamā yakulūna fī buṭūnihim nāran wasayaṣlawna saʿīran",
-    "translation": "",
+    "translation": "Indeed, those who devour the property of orphans unjustly are only consuming into their bellies fire. And they will be burned in a Blaze [i.e., Hellfire].",
     "words": [
       {
         "id": "an-nisa-10-1",
@@ -1515,7 +1524,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui consomment (mangent) indûment les biens des orphelins, ingèrent en vérité du feu jusque dans leurs entrailles. Ils seront livrés à la Fournaise incandescente."
   },
   {
     "id": "an-nisa-11",
@@ -1524,7 +1534,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يُوصِيكُمُ ٱللَّهُ فِىٓ أَوْلَـٰدِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۚ فَإِن كُنَّ نِسَآءً فَوْقَ ٱثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِن كَانَتْ وَٰحِدَةً فَلَهَا ٱلنِّصْفُ ۚ وَلِأَبَوَيْهِ لِكُلِّ وَٰحِدٍ مِّنْهُمَا ٱلسُّدُسُ مِمَّا تَرَكَ إِن كَانَ لَهُۥ وَلَدٌ ۚ فَإِن لَّمْ يَكُن لَّهُۥ وَلَدٌ وَوَرِثَهُۥٓ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُ ۚ فَإِن كَانَ لَهُۥٓ إِخْوَةٌ فَلِأُمِّهِ ٱلسُّدُسُ ۚ مِنۢ بَعْدِ وَصِيَّةٍ يُوصِى بِهَآ أَوْ دَيْنٍ ۗ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ لَا تَدْرُونَ أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًا ۚ فَرِيضَةً مِّنَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
     "textSimple": "يوصيكم ٱلله فىٓ أولـدكم  للذكر مثل حظ ٱلأنثيين  فإن كن نسآء فوق ٱثنتين فلهن ثلثا ما ترك  وإن كانت وحدة فلها ٱلنصف  ولأبويه لكل وحد منهما ٱلسدس مما ترك إن كان له ولد  فإن لم يكن له ولد وورثهٓ أبواه فلأمه ٱلثلث  فإن كان لهٓ إخوة فلأمه ٱلسدس  من بعد وصية يوصى بهآ أو دين  ءابآؤكم وأبنآؤكم لا تدرون أيهم أقرب لكم نفعا  فريضة من ٱلله  إن ٱلله كان عليما حكيما",
     "transliteration": "yūṣīkumu l-lahu fī awlādikum lildhakari mith'lu ḥaẓẓi l-unthayayni fa-in kunna nisāan fawqa ith'natayni falahunna thuluthā mā taraka wa-in kānat wāḥidatan falahā l-niṣ'fu wali-abawayhi likulli wāḥidin min'humā l-sudusu mimmā taraka in kāna lahu waladun fa-in lam yakun lahu waladun wawarithahu abawāhu fali-ummihi l-thuluthu fa-in kāna lahu ikh'watun fali-ummihi l-sudusu min baʿdi waṣiyyatin yūṣī bihā aw daynin ābāukum wa-abnāukum lā tadrūna ayyuhum aqrabu lakum nafʿan farīḍatan mina l-lahi inna l-laha kāna ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "Allāh instructs you concerning your children [i.e., their portions of inheritance]: for the male, what is equal to the share of two females. But if there are [only] daughters, two or more, for them is two thirds of one's estate. And if there is only one, for her is half. And for one's parents, to each one of them is a sixth of his estate if he left children. But if he had no children and the parents [alone] inherit from him, then for his mother is one third. And if he had brothers [and/or sisters], for his mother is a sixth, after any bequest he [may have] made or debt. Your parents or your children - you know not which of them are nearest to you in benefit. [These shares are] an obligation [imposed] by Allāh. Indeed, Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-11-1",
@@ -2024,7 +2034,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 70
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah vous prescrit ceci, à propos de vos enfants : au garçon, une part égale à celle de deux filles. S’il n’y a que des filles et qu’elles soient deux ou plus, il leur reviendra les deux tiers de ce qu’a laissé le défunt. S’il n’y en a qu’une, elle aura droit à la moitié. Le père et la mère du défunt, quant à eux, auront chacun le sixième de ce qu’il laisse, s’il a une progéniture. S’il n’en a pas une et que ses deux parents soient ses héritiers, sa mère aura le tiers. S’il a des frères (ou des sœurs), sa mère aura le sixième, après qu’auront été exécutées les recommandations de legs et réglées les dettes. De vos parents ou de vos enfants, vous ne savez pas qui vous est plus bénéfique. C’est une prescription décrétée par Allah, et Allah est Omniscient et Sage."
   },
   {
     "id": "an-nisa-12",
@@ -2033,7 +2044,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَكُمْ نِصْفُ مَا تَرَكَ أَزْوَٰجُكُمْ إِن لَّمْ يَكُن لَّهُنَّ وَلَدٌ ۚ فَإِن كَانَ لَهُنَّ وَلَدٌ فَلَكُمُ ٱلرُّبُعُ مِمَّا تَرَكْنَ ۚ مِنۢ بَعْدِ وَصِيَّةٍ يُوصِينَ بِهَآ أَوْ دَيْنٍ ۚ وَلَهُنَّ ٱلرُّبُعُ مِمَّا تَرَكْتُمْ إِن لَّمْ يَكُن لَّكُمْ وَلَدٌ ۚ فَإِن كَانَ لَكُمْ وَلَدٌ فَلَهُنَّ ٱلثُّمُنُ مِمَّا تَرَكْتُم ۚ مِّنۢ بَعْدِ وَصِيَّةٍ تُوصُونَ بِهَآ أَوْ دَيْنٍ ۗ وَإِن كَانَ رَجُلٌ يُورَثُ كَلَـٰلَةً أَوِ ٱمْرَأَةٌ وَلَهُۥٓ أَخٌ أَوْ أُخْتٌ فَلِكُلِّ وَٰحِدٍ مِّنْهُمَا ٱلسُّدُسُ ۚ فَإِن كَانُوٓا۟ أَكْثَرَ مِن ذَٰلِكَ فَهُمْ شُرَكَآءُ فِى ٱلثُّلُثِ ۚ مِنۢ بَعْدِ وَصِيَّةٍ يُوصَىٰ بِهَآ أَوْ دَيْنٍ غَيْرَ مُضَآرٍّ ۚ وَصِيَّةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَلِيمٌ",
     "textSimple": " ولكم نصف ما ترك أزوجكم إن لم يكن لهن ولد  فإن كان لهن ولد فلكم ٱلربع مما تركن  من بعد وصية يوصين بهآ أو دين  ولهن ٱلربع مما تركتم إن لم يكن لكم ولد  فإن كان لكم ولد فلهن ٱلثمن مما تركتم  من بعد وصية توصون بهآ أو دين  وإن كان رجل يورث كلـلة أو ٱمرأة ولهٓ أخ أو أخت فلكل وحد منهما ٱلسدس  فإن كانوٓا أكثر من ذلك فهم شركآء فى ٱلثلث  من بعد وصية يوصى بهآ أو دين غير مضآر  وصية من ٱلله  وٱلله عليم حليم",
     "transliteration": "walakum niṣ'fu mā taraka azwājukum in lam yakun lahunna waladun fa-in kāna lahunna waladun falakumu l-rubuʿu mimmā tarakna min baʿdi waṣiyyatin yūṣīna bihā aw daynin walahunna l-rubuʿu mimmā taraktum in lam yakun lakum waladun fa-in kāna lakum waladun falahunna l-thumunu mimmā taraktum min baʿdi waṣiyyatin tūṣūna bihā aw daynin wa-in kāna rajulun yūrathu kalālatan awi im'ra-atun walahu akhun aw ukh'tun falikulli wāḥidin min'humā l-sudusu fa-in kānū akthara min dhālika fahum shurakāu fī l-thuluthi min baʿdi waṣiyyatin yūṣā bihā aw daynin ghayra muḍārrin waṣiyyatan mina l-lahi wal-lahu ʿalīmun ḥalīmun",
-    "translation": "",
+    "translation": "And for you is half of what your wives leave if they have no child. But if they have a child, for you is one fourth of what they leave, after any bequest they [may have] made or debt. And for them [i.e., the wives] is one fourth if you leave no child. But if you leave a child, then for them is an eighth of what you leave, after any bequest you [may have] made or debt. And if a man or woman leaves neither ascendants nor descendants but has a brother or a sister, then for each one of them is a sixth. But if they are more than two, they share a third, after any bequest which was made or debt, as long as there is no detriment [caused]. [This is] an ordinance from Allāh, and Allāh is Knowing and Forbearing.",
     "words": [
       {
         "id": "an-nisa-12-1",
@@ -2652,7 +2663,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 87
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il vous revient la moitié de ce qu’ont laissé vos épouses, si elles n’ont pas d’enfants. Si elles en ont, il vous reviendra le quart de ce qu’elles auront laissé, après qu’auront été exécutées les recommandations de legs et réglées les dettes. Et il leur revient (à vos épouses) le quart de ce que vous avez laissé, si vous n’avez pas d’enfants. Si vous en avez, il leur reviendra le huitième de ce que vous aurez laissé, après qu’auront été exécutées les recommandations de legs et réglées les dettes. Et si un homme ou une femme laissent un héritage sans avoir d’héritiers directs, et qu’ils aient un frère ou une sœur, alors, à chacun de ces derniers il revient le sixième. S’ils sont plus nombreux, ils se partageront le tiers, après qu’auront été exécutées les recommandations de legs et réglées les dettes, et à condition que le legs ne porte préjudice à personne. Tel est l’ordre d’Allah, et Allah est Omniscient et Longanime."
   },
   {
     "id": "an-nisa-13",
@@ -2661,7 +2673,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "تلك حدود ٱلله  ومن يطع ٱلله ورسوله يدخله جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها  وذلك ٱلفوز ٱلعظيم",
     "transliteration": "til'ka ḥudūdu l-lahi waman yuṭiʿi l-laha warasūlahu yud'khil'hu jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā wadhālika l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "These are the limits [set by] Allāh, and whoever obeys Allāh and His Messenger will be admitted by Him to gardens [in Paradise] under which rivers flow, abiding eternally therein; and that is the great attainment.",
     "words": [
       {
         "id": "an-nisa-13-1",
@@ -2790,7 +2802,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà les limites (les lois : hudûd) d’Allah. Ceux qui obéissent à Allah et à Son Messager, Il les fera accéder à des jardins sous lesquels coulent les rivières, et où ils séjourneront pour l’éternité. La voilà la réussite suprême !"
   },
   {
     "id": "an-nisa-14",
@@ -2799,7 +2812,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ وَيَتَعَدَّ حُدُودَهُۥ يُدْخِلْهُ نَارًا خَـٰلِدًا فِيهَا وَلَهُۥ عَذَابٌ مُّهِينٌ",
     "textSimple": "ومن يعص ٱلله ورسوله ويتعد حدوده يدخله نارا خـلدا فيها وله عذاب مهين",
     "transliteration": "waman yaʿṣi l-laha warasūlahu wayataʿadda ḥudūdahu yud'khil'hu nāran khālidan fīhā walahu ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "And whoever disobeys Allāh and His Messenger and transgresses His limits - He will put him into the Fire to abide eternally therein, and he will have a humiliating punishment.",
     "words": [
       {
         "id": "an-nisa-14-1",
@@ -2893,7 +2906,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quiconque désobéit à Allah et à Son Messager et outrepasse Ses limites (lois : hudûd) sera livré au Feu, où il séjournera pour l’éternité. Et il lui sera réservé un supplice humiliant."
   },
   {
     "id": "an-nisa-15",
@@ -2902,7 +2916,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّـٰتِى يَأْتِينَ ٱلْفَـٰحِشَةَ مِن نِّسَآئِكُمْ فَٱسْتَشْهِدُوا۟ عَلَيْهِنَّ أَرْبَعَةً مِّنكُمْ ۖ فَإِن شَهِدُوا۟ فَأَمْسِكُوهُنَّ فِى ٱلْبُيُوتِ حَتَّىٰ يَتَوَفَّىٰهُنَّ ٱلْمَوْتُ أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًا",
     "textSimple": "وٱلـتى يأتين ٱلفـحشة من نسآئكم فٱستشهدوا عليهن أربعة منكم  فإن شهدوا فأمسكوهن فى ٱلبيوت حتى يتوفىهن ٱلموت أو يجعل ٱلله لهن سبيلا",
     "transliteration": "wa-allātī yatīna l-fāḥishata min nisāikum fa-is'tashhidū ʿalayhinna arbaʿatan minkum fa-in shahidū fa-amsikūhunna fī l-buyūti ḥattā yatawaffāhunna l-mawtu aw yajʿala l-lahu lahunna sabīlan",
-    "translation": "",
+    "translation": "Those who commit immorality [i.e., unlawful sexual intercourse] of your women - bring against them four [witnesses] from among you. And if they testify, confine them [i.e., the guilty women] to houses until death takes them or Allāh ordains for them [another] way.",
     "words": [
       {
         "id": "an-nisa-15-1",
@@ -3059,7 +3073,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celles de vos femmes qui s’adonnent à la fornication, appelez quatre d’entre vous à témoigner contre elles. S’ils témoignent (contre elles), retenez ces femmes dans les maisons jusqu’à ce que la mort les prenne, ou qu’Allah décrète pour elles une autre issue possible."
   },
   {
     "id": "an-nisa-16",
@@ -3068,7 +3083,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذَانِ يَأْتِيَـٰنِهَا مِنكُمْ فَـَٔاذُوهُمَا ۖ فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ تَوَّابًا رَّحِيمًا",
     "textSimple": "وٱلذان يأتيـنها منكم فـٔاذوهما  فإن تابا وأصلحا فأعرضوا عنهمآ  إن ٱلله كان توابا رحيما",
     "transliteration": "wa-alladhāni yatiyānihā minkum faādhūhumā fa-in tābā wa-aṣlaḥā fa-aʿriḍū ʿanhumā inna l-laha kāna tawwāban raḥīman",
-    "translation": "",
+    "translation": "And the two who commit it [i.e., unlawful sexual intercourse] among you - punish [i.e., dishonor] them both. But if they repent and correct themselves, leave them alone. Indeed, Allāh is ever Accepting of Repentance and Merciful.",
     "words": [
       {
         "id": "an-nisa-16-1",
@@ -3169,7 +3184,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si deux personnes d’entre vous la commettent (la fornication), il faudra sévir contre elles. Mais si elles se repentent et font amende honorable, vous ne devez plus les importuner. Allah est Tout Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-17",
@@ -3178,7 +3194,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلتَّوْبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعْمَلُونَ ٱلسُّوٓءَ بِجَهَـٰلَةٍ ثُمَّ يَتُوبُونَ مِن قَرِيبٍ فَأُو۟لَـٰٓئِكَ يَتُوبُ ٱللَّهُ عَلَيْهِمْ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
     "textSimple": "إنما ٱلتوبة على ٱلله للذين يعملون ٱلسوٓء بجهـلة ثم يتوبون من قريب فأولـٓئك يتوب ٱلله عليهم  وكان ٱلله عليما حكيما",
     "transliteration": "innamā l-tawbatu ʿalā l-lahi lilladhīna yaʿmalūna l-sūa bijahālatin thumma yatūbūna min qarībin fa-ulāika yatūbu l-lahu ʿalayhim wakāna l-lahu ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "The repentance accepted by Allāh is only for those who do wrong in ignorance [or carelessness] and then repent soon [after]. It is those to whom Allāh will turn in forgiveness, and Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-17-1",
@@ -3321,7 +3337,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah n’accepte le repentir que de ceux qui font le mal par ignorance puis se repentent rapidement. C’est de ceux-là qu’Allah agrée le repentir. Et Allah est Omniscient et Sage."
   },
   {
     "id": "an-nisa-18",
@@ -3330,7 +3347,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَيْسَتِ ٱلتَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ حَتَّىٰٓ إِذَا حَضَرَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ إِنِّى تُبْتُ ٱلْـَٔـٰنَ وَلَا ٱلَّذِينَ يَمُوتُونَ وَهُمْ كُفَّارٌ ۚ أُو۟لَـٰٓئِكَ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًا",
     "textSimple": "وليست ٱلتوبة للذين يعملون ٱلسيـٔات حتىٓ إذا حضر أحدهم ٱلموت قال إنى تبت ٱلـٔـن ولا ٱلذين يموتون وهم كفار  أولـٓئك أعتدنا لهم عذابا أليما",
     "transliteration": "walaysati l-tawbatu lilladhīna yaʿmalūna l-sayiāti ḥattā idhā ḥaḍara aḥadahumu l-mawtu qāla innī tub'tu l-āna walā alladhīna yamūtūna wahum kuffārun ulāika aʿtadnā lahum ʿadhāban alīman",
-    "translation": "",
+    "translation": "But repentance is not [accepted] of those who [continue to] do evil deeds up until, when death comes to one of them, he says, \"Indeed, I have repented now,\" or of those who die while they are disbelievers. For them We have prepared a painful punishment.",
     "words": [
       {
         "id": "an-nisa-18-1",
@@ -3501,7 +3518,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et le repentir n’est pas accepté de ceux qui font le mal jusqu’à ce que la mort surprenne l’un d’eux et qui alors dit : « Maintenant je me repens. » Pas plus qu’il n’est accepté de ceux qui meurent en mécréants. Et pour ceux-là Nous avons préparé un supplice très douloureux."
   },
   {
     "id": "an-nisa-19",
@@ -3510,7 +3528,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًا ۖ وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ ۚ فَإِن كَرِهْتُمُوهُنَّ فَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا وَيَجْعَلَ ٱللَّهُ فِيهِ خَيْرًا كَثِيرًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا يحل لكم أن ترثوا ٱلنسآء كرها  ولا تعضلوهن لتذهبوا ببعض مآ ءاتيتموهن إلآ أن يأتين بفـحشة مبينة  وعاشروهن بٱلمعروف  فإن كرهتموهن فعسىٓ أن تكرهوا شيـٔا ويجعل ٱلله فيه خيرا كثيرا",
     "transliteration": "yāayyuhā alladhīna āmanū lā yaḥillu lakum an tarithū l-nisāa karhan walā taʿḍulūhunna litadhhabū bibaʿḍi mā ātaytumūhunna illā an yatīna bifāḥishatin mubayyinatin waʿāshirūhunna bil-maʿrūfi fa-in karih'tumūhunna faʿasā an takrahū shayan wayajʿala l-lahu fīhi khayran kathīran",
-    "translation": "",
+    "translation": "O you who have believed, it is not lawful for you to inherit women by compulsion. And do not make difficulties for them in order to take [back] part of what you gave them unless they commit a clear immorality [i.e., adultery]. And live with them in kindness. For if you dislike them - perhaps you dislike a thing and Allāh makes therein much good.",
     "words": [
       {
         "id": "an-nisa-19-1",
@@ -3751,7 +3769,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Il ne vous est pas permis d’acquérir par héritage les femmes (de vos proches parents) malgré elles. Et n’empêchez pas (les épouses dont vous venez de divorcer) de se remarier, par convoitise de quelque bien que vous leur aviez offert, à moins qu’elles ne fassent preuve d’immoralité avérée. Cohabitez convenablement avec elles. Et si vous les détestez, sachez que l’on peut parfois détester des choses où Allah a pourtant mis un bien abondant."
   },
   {
     "id": "an-nisa-20",
@@ -3760,7 +3779,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا ۚ أَتَأْخُذُونَهُۥ بُهْتَـٰنًا وَإِثْمًا مُّبِينًا",
     "textSimple": "وإن أردتم ٱستبدال زوج مكان زوج وءاتيتم إحدىهن قنطارا فلا تأخذوا منه شيـٔا  أتأخذونه بهتـنا وإثما مبينا",
     "transliteration": "wa-in aradttumu is'tib'dāla zawjin makāna zawjin waātaytum iḥ'dāhunna qinṭāran falā takhudhū min'hu shayan atakhudhūnahu buh'tānan wa-ith'man mubīnan",
-    "translation": "",
+    "translation": "But if you want to replace one wife with another and you have given one of them a great amount [in gifts], do not take [back] from it anything. Would you take it in injustice and manifest sin?",
     "words": [
       {
         "id": "an-nisa-20-1",
@@ -3882,7 +3901,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous voulez remplacer une épouse par une autre, et que vous ayez déjà donné un qintâr à l’une d’elles (la première), n’en reprenez rien. Le reprendriez-vous indûment et en péchant si manifestement ?"
   },
   {
     "id": "an-nisa-21",
@@ -3891,7 +3911,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَيْفَ تَأْخُذُونَهُۥ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنكُم مِّيثَـٰقًا غَلِيظًا",
     "textSimple": "وكيف تأخذونه وقد أفضى بعضكم إلى بعض وأخذن منكم ميثـقا غليظا",
     "transliteration": "wakayfa takhudhūnahu waqad afḍā baʿḍukum ilā baʿḍin wa-akhadhna minkum mīthāqan ghalīẓan",
-    "translation": "",
+    "translation": "And how could you take it while you have gone in unto each other and they have taken from you a solemn covenant?",
     "words": [
       {
         "id": "an-nisa-21-1",
@@ -3971,7 +3991,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment le reprendriez-vous quand vous vous êtes si intimement liés l’un à l’autre et qu’elles ont pris sur vous un engagement capital ?"
   },
   {
     "id": "an-nisa-22",
@@ -3980,7 +4001,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَنكِحُوا۟ مَا نَكَحَ ءَابَآؤُكُم مِّنَ ٱلنِّسَآءِ إِلَّا مَا قَدْ سَلَفَ ۚ إِنَّهُۥ كَانَ فَـٰحِشَةً وَمَقْتًا وَسَآءَ سَبِيلًا",
     "textSimple": "ولا تنكحوا ما نكح ءابآؤكم من ٱلنسآء إلا ما قد سلف  إنه كان فـحشة ومقتا وسآء سبيلا",
     "transliteration": "walā tankiḥū mā nakaḥa ābāukum mina l-nisāi illā mā qad salafa innahu kāna fāḥishatan wamaqtan wasāa sabīlan",
-    "translation": "",
+    "translation": "And do not marry those [women] whom your fathers married, except what has already occurred. Indeed, it was an immorality and hateful [to Allāh] and was evil as a way.",
     "words": [
       {
         "id": "an-nisa-22-1",
@@ -4102,7 +4123,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’épousez pas les femmes qu’ont déjà épousées vos pères, sauf si cela a eu lieu dans le passé. Pareille conduite est une perversion, une abjection et quelle pratique exécrable !"
   },
   {
     "id": "an-nisa-23",
@@ -4111,7 +4133,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَـٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّـٰتُكُمْ وَخَـٰلَـٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَـٰتُكُمُ ٱلَّـٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَـٰعَةِ وَأُمَّهَـٰتُ نِسَآئِكُمْ وَرَبَـٰٓئِبُكُمُ ٱلَّـٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّـٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَـٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَـٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
     "textSimple": "حرمت عليكم أمهـتكم وبناتكم وأخوتكم وعمـتكم وخـلـتكم وبنات ٱلأخ وبنات ٱلأخت وأمهـتكم ٱلـتىٓ أرضعنكم وأخوتكم من ٱلرضـعة وأمهـت نسآئكم وربـٓئبكم ٱلـتى فى حجوركم من نسآئكم ٱلـتى دخلتم بهن فإن لم تكونوا دخلتم بهن فلا جناح عليكم وحلـٓئل أبنآئكم ٱلذين من أصلـبكم وأن تجمعوا بين ٱلأختين إلا ما قد سلف  إن ٱلله كان غفورا رحيما",
     "transliteration": "ḥurrimat ʿalaykum ummahātukum wabanātukum wa-akhawātukum waʿammātukum wakhālātukum wabanātu l-akhi wabanātu l-ukh'ti wa-ummahātukumu allātī arḍaʿnakum wa-akhawātukum mina l-raḍāʿati wa-ummahātu nisāikum warabāibukumu allātī fī ḥujūrikum min nisāikumu allātī dakhaltum bihinna fa-in lam takūnū dakhaltum bihinna falā junāḥa ʿalaykum waḥalāilu abnāikumu alladhīna min aṣlābikum wa-an tajmaʿū bayna l-ukh'tayni illā mā qad salafa inna l-laha kāna ghafūran raḥīman",
-    "translation": "",
+    "translation": "Prohibited to you [for marriage] are your mothers, your daughters, your sisters, your father's sisters, your mother's sisters, your brother's daughters, your sister's daughters, your [milk] mothers who nursed you, your sisters through nursing, your wives' mothers, and your step-daughters under your guardianship [born] of your wives unto whom you have gone in. But if you have not gone in unto them, there is no sin upon you. And [also prohibited are] the wives of your sons who are from your [own] loins, and that you take [in marriage] two sisters simultaneously, except for what has already occurred. Indeed, Allāh is ever Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-23-1",
@@ -4492,7 +4514,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 53
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous sont défendues vos mères, vos filles, vos sœurs, vos tantes paternelles et vos tantes maternelles, les filles de vos frères et les filles de vos sœurs, ainsi que les mères qui vous ont allaités, vos sœurs de lait, les mères de vos femmes, vos belles-filles élevées dans votre giron et qui sont nées de vos femmes avec qui vous avez consommé le mariage. Mais si le mariage n’a pas été consommé avec elles, vous n’aurez pas péché (en les épousant). (Vous sont également défendues) les femmes de vos fils issus de vos reins ; et (il vous est défendu) d’avoir deux sœurs (comme épouses en même temps), sauf si cela a eu lieu dans le passé. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-24",
@@ -4501,7 +4524,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱلْمُحْصَنَـٰتُ مِنَ ٱلنِّسَآءِ إِلَّا مَا مَلَكَتْ أَيْمَـٰنُكُمْ ۖ كِتَـٰبَ ٱللَّهِ عَلَيْكُمْ ۚ وَأُحِلَّ لَكُم مَّا وَرَآءَ ذَٰلِكُمْ أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم مُّحْصِنِينَ غَيْرَ مُسَـٰفِحِينَ ۚ فَمَا ٱسْتَمْتَعْتُم بِهِۦ مِنْهُنَّ فَـَٔاتُوهُنَّ أُجُورَهُنَّ فَرِيضَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا تَرَٰضَيْتُم بِهِۦ مِنۢ بَعْدِ ٱلْفَرِيضَةِ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
     "textSimple": " وٱلمحصنـت من ٱلنسآء إلا ما ملكت أيمـنكم  كتـب ٱلله عليكم  وأحل لكم ما ورآء ذلكم أن تبتغوا بأمولكم محصنين غير مسـفحين  فما ٱستمتعتم به منهن فـٔاتوهن أجورهن فريضة  ولا جناح عليكم فيما ترضيتم به من بعد ٱلفريضة  إن ٱلله كان عليما حكيما",
     "transliteration": "wal-muḥ'ṣanātu mina l-nisāi illā mā malakat aymānukum kitāba l-lahi ʿalaykum wa-uḥilla lakum mā warāa dhālikum an tabtaghū bi-amwālikum muḥ'ṣinīna ghayra musāfiḥīna famā is'tamtaʿtum bihi min'hunna faātūhunna ujūrahunna farīḍatan walā junāḥa ʿalaykum fīmā tarāḍaytum bihi min baʿdi l-farīḍati inna l-laha kāna ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "And [also prohibited to you are all] married women except those your right hands possess. [This is] the decree of Allāh upon you. And lawful to you are [all others] beyond these, [provided] that you seek them [in marriage] with [gifts from] your property, desiring chastity, not unlawful sexual intercourse. So for whatever you enjoy [of marriage] from them, give them their due compensation as an obligation. And there is no blame upon you for what you mutually agree to beyond the obligation. Indeed, Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-24-1",
@@ -4798,7 +4821,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 41
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il vous est également défendu d’épouser) les femmes déjà mariées, sauf si elles sont vos captives de guerre. Tel est l’ordre qu’Allah a décrété pour vous. En dehors des interdictions que voilà, il vous est licite, disposant de biens et de moyens, de rechercher (des épouses) pour vous unir à elles d’une façon légitime et non en concubins. À celles dont vous jouissez (dans la consommation du mariage), vous verserez une dot (mahr) obligatoire. Et il n’y aura pas de grief à vous faire si, d’un commun accord, vous vous entendez plus tard sur (une éventuelle révision de) la dot. Allah est, certes, Omniscient et Sage."
   },
   {
     "id": "an-nisa-25",
@@ -4807,7 +4831,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَـٰتِ ٱلْمُؤْمِنَـٰتِ فَمِن مَّا مَلَكَتْ أَيْمَـٰنُكُم مِّن فَتَيَـٰتِكُمُ ٱلْمُؤْمِنَـٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَـٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَـٰتٍ غَيْرَ مُسَـٰفِحَـٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَـٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَـٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ومن لم يستطع منكم طولا أن ينكح ٱلمحصنـت ٱلمؤمنـت فمن ما ملكت أيمـنكم من فتيـتكم ٱلمؤمنـت  وٱلله أعلم بإيمـنكم  بعضكم من بعض  فٱنكحوهن بإذن أهلهن وءاتوهن أجورهن بٱلمعروف محصنـت غير مسـفحـت ولا متخذت أخدان  فإذآ أحصن فإن أتين بفـحشة فعليهن نصف ما على ٱلمحصنـت من ٱلعذاب  ذلك لمن خشى ٱلعنت منكم  وأن تصبروا خير لكم  وٱلله غفور رحيم",
     "transliteration": "waman lam yastaṭiʿ minkum ṭawlan an yankiḥa l-muḥ'ṣanāti l-mu'mināti famin mā malakat aymānukum min fatayātikumu l-mu'mināti wal-lahu aʿlamu biīmānikum baʿḍukum min baʿḍin fa-inkiḥūhunna bi-idh'ni ahlihinna waātūhunna ujūrahunna bil-maʿrūfi muḥ'ṣanātin ghayra musāfiḥātin walā muttakhidhāti akhdānin fa-idhā uḥ'ṣinna fa-in atayna bifāḥishatin faʿalayhinna niṣ'fu mā ʿalā l-muḥ'ṣanāti mina l-ʿadhābi dhālika liman khashiya l-ʿanata minkum wa-an taṣbirū khayrun lakum wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And whoever among you cannot [find] the means to marry free, believing women, then [he may marry] from those whom your right hands possess of believing slave girls. And Allāh is most knowing about your faith. You [believers] are of one another. So marry them with the permission of their people and give them their due compensation [i.e., mahr] according to what is acceptable. [They should be] chaste, neither [of] those who commit unlawful intercourse randomly nor those who take [secret] lovers. But once they are sheltered in marriage, if they should commit adultery, then for them is half the punishment for free [unmarried] women. This [allowance] is for him among you who fears affliction [i.e., sin], but to be patient is better for you. And Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-25-1",
@@ -5216,7 +5240,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 57
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si l’un de vous n’a pas les moyens d’épouser des femmes libres et croyantes, qu’il en épouse alors parmi vos jeunes esclaves croyantes. Allah en Sait mieux sur votre foi, et vous êtes tous issus les uns des autres. Épousez-les donc avec la permission des leurs et versez-leur leur dot convenable, (sachant qu’elles sont) chastes et vertueuses, non dépravées ou qui prennent des amants. Une fois mariées, si elles commettent l’adultère, elles subiront la moitié de la peine réservée aux femmes mariées de condition libre. Un tel mariage est autorisé à celui qui d’entre vous craint de succomber à la tentation de la débauche. Mais il est bien meilleur pour vous de prendre patience, et Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-26",
@@ -5225,7 +5250,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يُرِيدُ ٱللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ ٱلَّذِينَ مِن قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "يريد ٱلله ليبين لكم ويهديكم سنن ٱلذين من قبلكم ويتوب عليكم  وٱلله عليم حكيم",
     "transliteration": "yurīdu l-lahu liyubayyina lakum wayahdiyakum sunana alladhīna min qablikum wayatūba ʿalaykum wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "Allāh wants to make clear to you [the lawful from the unlawful] and guide you to the [good] practices of those before you and to accept your repentance. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-26-1",
@@ -5326,7 +5351,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah veut vous éclairer, vous orienter vers les voies de ceux qui vous ont précédés et veut accepter votre repentir, car Allah est Omniscient et Sage."
   },
   {
     "id": "an-nisa-27",
@@ -5335,7 +5361,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن تَمِيلُوا۟ مَيْلًا عَظِيمًا",
     "textSimple": "وٱلله يريد أن يتوب عليكم ويريد ٱلذين يتبعون ٱلشهوت أن تميلوا ميلا عظيما",
     "transliteration": "wal-lahu yurīdu an yatūba ʿalaykum wayurīdu alladhīna yattabiʿūna l-shahawāti an tamīlū maylan ʿaẓīman",
-    "translation": "",
+    "translation": "Allāh wants to accept your repentance, but those who follow [their] passions want you to digress [into] a great deviation.",
     "words": [
       {
         "id": "an-nisa-27-1",
@@ -5429,7 +5455,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Allah veut accepter votre repentir, mais ceux qui suivent leurs tentations voudraient bien que vous tendiez grandement à vous égarer."
   },
   {
     "id": "an-nisa-28",
@@ -5438,7 +5465,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَـٰنُ ضَعِيفًا",
     "textSimple": "يريد ٱلله أن يخفف عنكم  وخلق ٱلإنسـن ضعيفا",
     "transliteration": "yurīdu l-lahu an yukhaffifa ʿankum wakhuliqa l-insānu ḍaʿīfan",
-    "translation": "",
+    "translation": "And Allāh wants to lighten for you [your difficulties]; and mankind was created weak.",
     "words": [
       {
         "id": "an-nisa-28-1",
@@ -5497,7 +5524,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah veut alléger vos charges, car l’homme a été créé faible."
   },
   {
     "id": "an-nisa-29",
@@ -5506,7 +5534,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَـٰطِلِ إِلَّآ أَن تَكُونَ تِجَـٰرَةً عَن تَرَاضٍ مِّنكُمْ ۚ وَلَا تَقْتُلُوٓا۟ أَنفُسَكُمْ ۚ إِنَّ ٱللَّهَ كَانَ بِكُمْ رَحِيمًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تأكلوٓا أمولكم بينكم بٱلبـطل إلآ أن تكون تجـرة عن تراض منكم  ولا تقتلوٓا أنفسكم  إن ٱلله كان بكم رحيما",
     "transliteration": "yāayyuhā alladhīna āmanū lā takulū amwālakum baynakum bil-bāṭili illā an takūna tijāratan ʿan tarāḍin minkum walā taqtulū anfusakum inna l-laha kāna bikum raḥīman",
-    "translation": "",
+    "translation": "O you who have believed, do not consume one another's wealth unjustly but only [in lawful] business by mutual consent. And do not kill yourselves [or one another]. Indeed, Allāh is to you ever Merciful.",
     "words": [
       {
         "id": "an-nisa-29-1",
@@ -5670,7 +5698,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne vous dépossédez pas de vos biens les uns les autres par des moyens déloyaux. Pratiquez plutôt un commerce licite approuvé mutuellement. Et ne vous tuez pas, car Allah est, pour vous, Tout Miséricordieux."
   },
   {
     "id": "an-nisa-30",
@@ -5679,7 +5708,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَفْعَلْ ذَٰلِكَ عُدْوَٰنًا وَظُلْمًا فَسَوْفَ نُصْلِيهِ نَارًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
     "textSimple": "ومن يفعل ذلك عدونا وظلما فسوف نصليه نارا  وكان ذلك على ٱلله يسيرا",
     "transliteration": "waman yafʿal dhālika ʿud'wānan waẓul'man fasawfa nuṣ'līhi nāran wakāna dhālika ʿalā l-lahi yasīran",
-    "translation": "",
+    "translation": "And whoever does that in aggression and injustice - then We will drive him into a Fire. And that, for Allāh, is [always] easy.",
     "words": [
       {
         "id": "an-nisa-30-1",
@@ -5773,7 +5802,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quiconque le commettra, par abus et iniquité, Nous le vouerons au Feu (où il se consumera), ce qui est, pour Allah, chose vraiment aisée."
   },
   {
     "id": "an-nisa-31",
@@ -5782,7 +5812,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِن تَجْتَنِبُوا۟ كَبَآئِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَنُدْخِلْكُم مُّدْخَلًا كَرِيمًا",
     "textSimple": "إن تجتنبوا كبآئر ما تنهون عنه نكفر عنكم سيـٔاتكم وندخلكم مدخلا كريما",
     "transliteration": "in tajtanibū kabāira mā tun'hawna ʿanhu nukaffir ʿankum sayyiātikum wanud'khil'kum mud'khalan karīman",
-    "translation": "",
+    "translation": "If you avoid the major sins which you are forbidden, We will remove from you your lesser sins and admit you to a noble entrance [into Paradise].",
     "words": [
       {
         "id": "an-nisa-31-1",
@@ -5869,7 +5899,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous évitez les péchés majeurs qui vous sont défendus, Nous effacerons vos méfaits et Nous vous ferons accéder très dignement (au Paradis)."
   },
   {
     "id": "an-nisa-32",
@@ -5878,7 +5909,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍ ۚ لِّلرِّجَالِ نَصِيبٌ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌ مِّمَّا ٱكْتَسَبْنَ ۚ وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًا",
     "textSimple": "ولا تتمنوا ما فضل ٱلله به بعضكم على بعض  للرجال نصيب مما ٱكتسبوا  وللنسآء نصيب مما ٱكتسبن  وسـٔلوا ٱلله من فضلهٓ  إن ٱلله كان بكل شىء عليما",
     "transliteration": "walā tatamannaw mā faḍḍala l-lahu bihi baʿḍakum ʿalā baʿḍin lilrrijāli naṣībun mimmā ik'tasabū walilnnisāi naṣībun mimmā ik'tasabna wasalū l-laha min faḍlihi inna l-laha kāna bikulli shayin ʿalīman",
-    "translation": "",
+    "translation": "And do not wish for that by which Allāh has made some of you exceed others. For men is a share of what they have earned, and for women is a share of what they have earned. And ask Allāh of His bounty. Indeed Allāh is ever, of all things, Knowing.",
     "words": [
       {
         "id": "an-nisa-32-1",
@@ -6070,7 +6101,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne soyez pas envieux de ce par quoi Allah a favorisé certains d’entre vous par rapport aux autres. Aux hommes revient une part de ce qu’ils auront acquis (comme actions), et aux femmes revient une part de ce qu’elles auront acquis (comme actions). Et demandez à Allah de Ses faveurs, car Allah Sait parfaitement Toute chose."
   },
   {
     "id": "an-nisa-33",
@@ -6079,7 +6111,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلِكُلٍّ جَعَلْنَا مَوَٰلِىَ مِمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ ۚ وَٱلَّذِينَ عَقَدَتْ أَيْمَـٰنُكُمْ فَـَٔاتُوهُمْ نَصِيبَهُمْ ۚ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدًا",
     "textSimple": "ولكل جعلنا مولى مما ترك ٱلولدان وٱلأقربون  وٱلذين عقدت أيمـنكم فـٔاتوهم نصيبهم  إن ٱلله كان على كل شىء شهيدا",
     "transliteration": "walikullin jaʿalnā mawāliya mimmā taraka l-wālidāni wal-aqrabūna wa-alladhīna ʿaqadat aymānukum faātūhum naṣībahum inna l-laha kāna ʿalā kulli shayin shahīdan",
-    "translation": "",
+    "translation": "And for all, We have made heirs to what is left by parents and relatives. And to those whom your oaths have bound [to you] - give them their share. Indeed Allāh is ever, over all things, a Witness.",
     "words": [
       {
         "id": "an-nisa-33-1",
@@ -6215,7 +6247,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons, pour chacun, établi des héritiers ayant droit à ce que laissent les deux parents et les proches. Et remettez la part qui leur revient à ceux avec qui vous vous êtes engagés par contrat. Allah est de Toute chose Témoin."
   },
   {
     "id": "an-nisa-34",
@@ -6224,7 +6257,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّـٰلِحَـٰتُ قَـٰنِتَـٰتٌ حَـٰفِظَـٰتٌ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّـٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا",
     "textSimple": "ٱلرجال قومون على ٱلنسآء بما فضل ٱلله بعضهم على بعض وبمآ أنفقوا من أمولهم  فٱلصـلحـت قـنتـت حـفظـت للغيب بما حفظ ٱلله  وٱلـتى تخافون نشوزهن فعظوهن وٱهجروهن فى ٱلمضاجع وٱضربوهن  فإن أطعنكم فلا تبغوا عليهن سبيلا  إن ٱلله كان عليا كبيرا",
     "transliteration": "al-rijālu qawwāmūna ʿalā l-nisāi bimā faḍḍala l-lahu baʿḍahum ʿalā baʿḍin wabimā anfaqū min amwālihim fal-ṣāliḥātu qānitātun ḥāfiẓātun lil'ghaybi bimā ḥafiẓa l-lahu wa-allātī takhāfūna nushūzahunna faʿiẓūhunna wa-uh'jurūhunna fī l-maḍājiʿi wa-iḍ'ribūhunna fa-in aṭaʿnakum falā tabghū ʿalayhinna sabīlan inna l-laha kāna ʿaliyyan kabīran",
-    "translation": "",
+    "translation": "Men are in charge of women by [right of] what Allāh has given one over the other and what they spend [for maintenance] from their wealth. So righteous women are devoutly obedient, guarding in [the husband's] absence what Allāh would have them guard. But those [wives] from whom you fear arrogance - [first] advise them; [then if they persist], forsake them in bed; and [finally], strike them [lightly]. But if they obey you [once more], seek no means against them. Indeed, Allāh is ever Exalted and Grand.",
     "words": [
       {
         "id": "an-nisa-34-1",
@@ -6507,7 +6540,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes ont sur les femmes un droit de regard, de par les avantages dont Allah a favorisé ceux-ci par rapport à celles-là, et parce qu’ils sont tenus de dépenser de leurs biens. Les femmes vertueuses sont obéissantes, qui protègent jalousement ce qui leur est confié par leurs maris absents, grâce à la protection d’Allah. Quant à celles dont vous craignez l’indiscipline, sermonnez-les, désertez leurs lits et, (s’il le faut), corrigez-les. Si elles vous obéissent, finalement, ne tentez plus de leur nuire, car Allah est Très Haut et Très Grand."
   },
   {
     "id": "an-nisa-35",
@@ -6516,7 +6550,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًا مِّنْ أَهْلِهِۦ وَحَكَمًا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَـٰحًا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا خَبِيرًا",
     "textSimple": "وإن خفتم شقاق بينهما فٱبعثوا حكما من أهله وحكما من أهلهآ إن يريدآ إصلـحا يوفق ٱلله بينهمآ  إن ٱلله كان عليما خبيرا",
     "transliteration": "wa-in khif'tum shiqāqa baynihimā fa-ib'ʿathū ḥakaman min ahlihi waḥakaman min ahlihā in yurīdā iṣ'lāḥan yuwaffiqi l-lahu baynahumā inna l-laha kāna ʿalīman khabīran",
-    "translation": "",
+    "translation": "And if you fear dissension between the two, send an arbitrator from his people and an arbitrator from her people. If they both desire reconciliation, Allāh will cause it between them. Indeed, Allāh is ever Knowing and Aware.",
     "words": [
       {
         "id": "an-nisa-35-1",
@@ -6673,7 +6707,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous craignez une (éventuelle) rupture entre les deux (conjoints), envoyez un arbitre de sa famille à lui et un arbitre de sa famille à elle. Si les deux (conjoints) désirent une réconciliation, Allah rétablira leur entente, car Allah est Omniscient et de Toute chose Informé."
   },
   {
     "id": "an-nisa-36",
@@ -6682,7 +6717,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَـٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا",
     "textSimple": " وٱعبدوا ٱلله ولا تشركوا به شيـٔا  وبٱلولدين إحسـنا وبذى ٱلقربى وٱليتـمى وٱلمسـكين وٱلجار ذى ٱلقربى وٱلجار ٱلجنب وٱلصاحب بٱلجنب وٱبن ٱلسبيل وما ملكت أيمـنكم  إن ٱلله لا يحب من كان مختالا فخورا",
     "transliteration": "wa-uʿ'budū l-laha walā tush'rikū bihi shayan wabil-wālidayni iḥ'sānan wabidhī l-qur'bā wal-yatāmā wal-masākīni wal-jāri dhī l-qur'bā wal-jāri l-junubi wal-ṣāḥibi bil-janbi wa-ib'ni l-sabīli wamā malakat aymānukum inna l-laha lā yuḥibbu man kāna mukh'tālan fakhūran",
-    "translation": "",
+    "translation": "Worship Allāh and associate nothing with Him, and to parents do good, and to relatives, orphans, the needy, the near neighbor, the neighbor farther away, the companion at your side, the traveler, and those whom your right hands possess. Indeed, Allāh does not like those who are self-deluding and boastful,",
     "words": [
       {
         "id": "an-nisa-36-1",
@@ -6909,7 +6944,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adorez Allah et ne Lui associez rien. Traitez avec bonté vos deux parents, vos proches, les orphelins, les pauvres, le voisin proche et le voisin éloigné, le proche compagnon, le voyageur de grand chemin et ceux qui sont en votre possession, car Allah n’aime pas celui qui est hautain et vantard."
   },
   {
     "id": "an-nisa-37",
@@ -6918,7 +6954,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ وَيَكْتُمُونَ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ عَذَابًا مُّهِينًا",
     "textSimple": "ٱلذين يبخلون ويأمرون ٱلناس بٱلبخل ويكتمون مآ ءاتىهم ٱلله من فضله  وأعتدنا للكـفرين عذابا مهينا",
     "transliteration": "alladhīna yabkhalūna wayamurūna l-nāsa bil-bukh'li wayaktumūna mā ātāhumu l-lahu min faḍlihi wa-aʿtadnā lil'kāfirīna ʿadhāban muhīnan",
-    "translation": "",
+    "translation": "Who are stingy and enjoin upon [other] people stinginess and conceal what Allāh has given them of His bounty - and We have prepared for the disbelievers a humiliating punishment -",
     "words": [
       {
         "id": "an-nisa-37-1",
@@ -7026,7 +7062,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il n’aime pas, non plus) ceux qui sont avares, incitent à l’avarice parmi les hommes et dissimulent les faveurs qu’Allah leur a dispensées. Et pour les ingrats, Nous avons préparé un supplice humiliant."
   },
   {
     "id": "an-nisa-38",
@@ -7035,7 +7072,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْـَٔاخِرِ ۗ وَمَن يَكُنِ ٱلشَّيْطَـٰنُ لَهُۥ قَرِينًا فَسَآءَ قَرِينًا",
     "textSimple": "وٱلذين ينفقون أمولهم رئآء ٱلناس ولا يؤمنون بٱلله ولا بٱليوم ٱلـٔاخر  ومن يكن ٱلشيطـن له قرينا فسآء قرينا",
     "transliteration": "wa-alladhīna yunfiqūna amwālahum riāa l-nāsi walā yu'minūna bil-lahi walā bil-yawmi l-ākhiri waman yakuni l-shayṭānu lahu qarīnan fasāa qarīnan",
-    "translation": "",
+    "translation": "And [also] those who spend of their wealth to be seen by the people and believe not in Allāh nor in the Last Day. And he to whom Satan is a companion - then evil is he as a companion.",
     "words": [
       {
         "id": "an-nisa-38-1",
@@ -7164,7 +7201,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il n’aime pas, non plus) ceux qui dépensent leurs biens par ostentation et ne croient pas en Allah ni au Jour Dernier. Quiconque a Satan pour compagnon inséparable, ô combien mauvais est celui qu’il a comme compagnon !"
   },
   {
     "id": "an-nisa-39",
@@ -7173,7 +7211,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَاذَا عَلَيْهِمْ لَوْ ءَامَنُوا۟ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ ۚ وَكَانَ ٱللَّهُ بِهِمْ عَلِيمًا",
     "textSimple": "وماذا عليهم لو ءامنوا بٱلله وٱليوم ٱلـٔاخر وأنفقوا مما رزقهم ٱلله  وكان ٱلله بهم عليما",
     "transliteration": "wamādhā ʿalayhim law āmanū bil-lahi wal-yawmi l-ākhiri wa-anfaqū mimmā razaqahumu l-lahu wakāna l-lahu bihim ʿalīman",
-    "translation": "",
+    "translation": "And what [harm would come] upon them if they believed in Allāh and the Last Day and spent out of what Allāh provided for them? And Allāh is ever, about them, Knowing.",
     "words": [
       {
         "id": "an-nisa-39-1",
@@ -7281,7 +7319,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En quoi donc peut-il leur nuire de croire en Allah et au Jour Dernier, et de dépenser de ce qu’Allah leur a dispensé (comme biens) ? Allah les connaît parfaitement."
   },
   {
     "id": "an-nisa-40",
@@ -7290,7 +7329,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ ۖ وَإِن تَكُ حَسَنَةً يُضَـٰعِفْهَا وَيُؤْتِ مِن لَّدُنْهُ أَجْرًا عَظِيمًا",
     "textSimple": "إن ٱلله لا يظلم مثقال ذرة  وإن تك حسنة يضـعفها ويؤت من لدنه أجرا عظيما",
     "transliteration": "inna l-laha lā yaẓlimu mith'qāla dharratin wa-in taku ḥasanatan yuḍāʿif'hā wayu'ti min ladun'hu ajran ʿaẓīman",
-    "translation": "",
+    "translation": "Indeed, Allāh does not do injustice, [even] as much as an atom's weight; while if there is a good deed, He multiplies it and gives from Himself a great reward.",
     "words": [
       {
         "id": "an-nisa-40-1",
@@ -7398,7 +7437,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne lèse jamais personne, fût-ce du poids d’un atome. Le bienfait, Il le double. Et, de Sa part, vient la plus grande des récompenses."
   },
   {
     "id": "an-nisa-41",
@@ -7407,7 +7447,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ إِذَا جِئْنَا مِن كُلِّ أُمَّةٍۭ بِشَهِيدٍ وَجِئْنَا بِكَ عَلَىٰ هَـٰٓؤُلَآءِ شَهِيدًا",
     "textSimple": "فكيف إذا جئنا من كل أمة بشهيد وجئنا بك على هـٓؤلآء شهيدا",
     "transliteration": "fakayfa idhā ji'nā min kulli ummatin bishahīdin waji'nā bika ʿalā hāulāi shahīdan",
-    "translation": "",
+    "translation": "So how [will it be] when We bring from every nation a witness and We bring you, [O Muḥammad], against these [people] as a witness?",
     "words": [
       {
         "id": "an-nisa-41-1",
@@ -7494,7 +7534,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’en sera –t-il donc lorsque, de chaque communauté, Nous ferons venir un témoin, et que Nous te ferons venir contre ceux-là comme témoin ?"
   },
   {
     "id": "an-nisa-42",
@@ -7503,7 +7544,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَئِذٍ يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ وَعَصَوُا۟ ٱلرَّسُولَ لَوْ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ وَلَا يَكْتُمُونَ ٱللَّهَ حَدِيثًا",
     "textSimple": "يومئذ يود ٱلذين كفروا وعصوا ٱلرسول لو تسوى بهم ٱلأرض ولا يكتمون ٱلله حديثا",
     "transliteration": "yawma-idhin yawaddu alladhīna kafarū waʿaṣawū l-rasūla law tusawwā bihimu l-arḍu walā yaktumūna l-laha ḥadīthan",
-    "translation": "",
+    "translation": "That Day, those who disbelieved and disobeyed the Messenger will wish they could be covered by the earth. And they will not conceal from Allāh a [single] statement.",
     "words": [
       {
         "id": "an-nisa-42-1",
@@ -7604,7 +7645,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, ceux qui ont mécru et ont désobéi au Messager souhaiteront disparaître sous terre et ils ne sauront rien taire à Allah de ce qu’ils ont dit."
   },
   {
     "id": "an-nisa-43",
@@ -7613,7 +7655,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَـٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَـٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تقربوا ٱلصلوة وأنتم سكـرى حتى تعلموا ما تقولون ولا جنبا إلا عابرى سبيل حتى تغتسلوا  وإن كنتم مرضىٓ أو على سفر أو جآء أحد منكم من ٱلغآئط أو لـمستم ٱلنسآء فلم تجدوا مآء فتيمموا صعيدا طيبا فٱمسحوا بوجوهكم وأيديكم  إن ٱلله كان عفوا غفورا",
     "transliteration": "yāayyuhā alladhīna āmanū lā taqrabū l-ṣalata wa-antum sukārā ḥattā taʿlamū mā taqūlūna walā junuban illā ʿābirī sabīlin ḥattā taghtasilū wa-in kuntum marḍā aw ʿalā safarin aw jāa aḥadun minkum mina l-ghāiṭi aw lāmastumu l-nisāa falam tajidū māan fatayammamū ṣaʿīdan ṭayyiban fa-im'saḥū biwujūhikum wa-aydīkum inna l-laha kāna ʿafuwwan ghafūran",
-    "translation": "",
+    "translation": "O you who have believed, do not approach prayer while you are intoxicated until you know what you are saying or in a state of janābah, except those passing through [a place of prayer], until you have washed [your whole body]. And if you are ill or on a journey or one of you comes from the place of relieving himself or you have contacted women [i.e., had sexual intercourse] and find no water, then seek clean earth and wipe over your faces and your hands [with it]. Indeed, Allāh is ever Pardoning and Forgiving.",
     "words": [
       {
         "id": "an-nisa-43-1",
@@ -7952,7 +7994,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 47
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! N’approchez point la Çalât alors que vous êtes ivres, et cela jusqu’à ce que vous sachiez ce que vous dites. Et, non plus, quand vous êtes en état de souillure, à moins que vous ne soyez de passage. Si vous êtes malades ou en voyage, si l’un de vous vient de satisfaire ses besoins naturels, ou si vous avez eu contact avec les femmes et que vous ne trouviez pas d’eau, alors utilisez de la terre pure ; frottez-vous en le visage et les mains. Allah est Magnanime et Absoluteur."
   },
   {
     "id": "an-nisa-44",
@@ -7961,7 +8004,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَـٰبِ يَشْتَرُونَ ٱلضَّلَـٰلَةَ وَيُرِيدُونَ أَن تَضِلُّوا۟ ٱلسَّبِيلَ",
     "textSimple": "ألم تر إلى ٱلذين أوتوا نصيبا من ٱلكتـب يشترون ٱلضلـلة ويريدون أن تضلوا ٱلسبيل",
     "transliteration": "alam tara ilā alladhīna ūtū naṣīban mina l-kitābi yashtarūna l-ḍalālata wayurīdūna an taḍillū l-sabīla",
-    "translation": "",
+    "translation": "Have you not seen those who were given a portion of the Scripture, purchasing error [in exchange for it] and wishing you would lose the way?",
     "words": [
       {
         "id": "an-nisa-44-1",
@@ -8062,7 +8105,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne considères-tu pas ceux qui ont reçu une partie du Livre ? Ils achètent eux-mêmes l’égarement et voudraient que vous perdiez le droit chemin ?"
   },
   {
     "id": "an-nisa-45",
@@ -8071,7 +8115,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ أَعْلَمُ بِأَعْدَآئِكُمْ ۚ وَكَفَىٰ بِٱللَّهِ وَلِيًّا وَكَفَىٰ بِٱللَّهِ نَصِيرًا",
     "textSimple": "وٱلله أعلم بأعدآئكم  وكفى بٱلله وليا وكفى بٱلله نصيرا",
     "transliteration": "wal-lahu aʿlamu bi-aʿdāikum wakafā bil-lahi waliyyan wakafā bil-lahi naṣīran",
-    "translation": "",
+    "translation": "And Allāh is most knowing of your enemies; and sufficient is Allāh as an ally, and sufficient is Allāh as a helper.",
     "words": [
       {
         "id": "an-nisa-45-1",
@@ -8137,7 +8181,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah connaît le mieux vos ennemis. Allah vous suffit comme protecteur et Allah vous suffit comme allié."
   },
   {
     "id": "an-nisa-46",
@@ -8146,7 +8191,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ وَرَٰعِنَا لَيًّۢا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَـٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
     "textSimple": "من ٱلذين هادوا يحرفون ٱلكلم عن مواضعه ويقولون سمعنا وعصينا وٱسمع غير مسمع ورعنا ليا بألسنتهم وطعنا فى ٱلدين  ولو أنهم قالوا سمعنا وأطعنا وٱسمع وٱنظرنا لكان خيرا لهم وأقوم ولـكن لعنهم ٱلله بكفرهم فلا يؤمنون إلا قليلا",
     "transliteration": "mina alladhīna hādū yuḥarrifūna l-kalima ʿan mawāḍiʿihi wayaqūlūna samiʿ'nā waʿaṣaynā wa-is'maʿ ghayra mus'maʿin warāʿinā layyan bi-alsinatihim waṭaʿnan fī l-dīni walaw annahum qālū samiʿ'nā wa-aṭaʿnā wa-is'maʿ wa-unẓur'nā lakāna khayran lahum wa-aqwama walākin laʿanahumu l-lahu bikuf'rihim falā yu'minūna illā qalīlan",
-    "translation": "",
+    "translation": "Among the Jews are those who distort words from their [proper] places [i.e., usages] and say, \"We hear and disobey\" and \"Hear but be not heard\" and \"Rāʿinā,\" twisting their tongues and defaming the religion. And if they had said [instead], \"We hear and obey\" and \"Wait for us [to understand],\" it would have been better for them and more suitable. But Allāh has cursed them for their disbelief, so they believe not, except for a few.",
     "words": [
       {
         "id": "an-nisa-46-1",
@@ -8415,7 +8460,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est qui, parmi ceux qui se sont judaïsés, altèrent le sens des mots en disant : « Nous avons entendu et nous avons désobéi. » et encore : « Écoute, puisses-tu ne jamais percevoir par l’ouïe ! », et « favorise-nous (par rapport aux autres) » (Ra’inâ), tout cela avec des torsions de langue et pour bafouer la religion. Et s’ils avaient plutôt dit : « Nous avons entendu et nous avons obéi », « Écoute-nous » et « Regarde-nous », c’eût été, pour eux, meilleur et plus droit. Mais Allah les a maudits pour leur mécréance, eux qui sont de peu de foi."
   },
   {
     "id": "an-nisa-47",
@@ -8424,7 +8470,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ ءَامِنُوا۟ بِمَا نَزَّلْنَا مُصَدِّقًا لِّمَا مَعَكُم مِّن قَبْلِ أَن نَّطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰٓ أَدْبَارِهَآ أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّآ أَصْحَـٰبَ ٱلسَّبْتِ ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا",
     "textSimple": "يـٓأيها ٱلذين أوتوا ٱلكتـب ءامنوا بما نزلنا مصدقا لما معكم من قبل أن نطمس وجوها فنردها علىٓ أدبارهآ أو نلعنهم كما لعنآ أصحـب ٱلسبت  وكان أمر ٱلله مفعولا",
     "transliteration": "yāayyuhā alladhīna ūtū l-kitāba āminū bimā nazzalnā muṣaddiqan limā maʿakum min qabli an naṭmisa wujūhan fanaruddahā ʿalā adbārihā aw nalʿanahum kamā laʿannā aṣḥāba l-sabti wakāna amru l-lahi mafʿūlan",
-    "translation": "",
+    "translation": "O you who were given the Scripture, believe in what We have sent down [to Prophet Muḥammad (ﷺ)], confirming that which is with you, before We obliterate faces and turn them toward their backs or curse them as We cursed the sabbath-breakers. And ever is the matter [i.e., decree] of Allāh accomplished.",
     "words": [
       {
         "id": "an-nisa-47-1",
@@ -8623,7 +8669,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez reçu le Livre ! Croyez en ce que Nous avons fait descendre en confirmation de ce que vous avez déjà reçu, avant que Nous n’effacions les traits des visages et les tournions vers l’arrière, ou que Nous les maudissions comme Nous avons maudit les gens (qui ont violé) le Sabbat. Car l’ordre d’Allah toujours s’accomplit."
   },
   {
     "id": "an-nisa-48",
@@ -8632,7 +8679,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدِ ٱفْتَرَىٰٓ إِثْمًا عَظِيمًا",
     "textSimple": "إن ٱلله لا يغفر أن يشرك به ويغفر ما دون ذلك لمن يشآء  ومن يشرك بٱلله فقد ٱفترىٓ إثما عظيما",
     "transliteration": "inna l-laha lā yaghfiru an yush'raka bihi wayaghfiru mā dūna dhālika liman yashāu waman yush'rik bil-lahi faqadi if'tarā ith'man ʿaẓīman",
-    "translation": "",
+    "translation": "Indeed, Allāh does not forgive association with Him, but He forgives what is less than that for whom He wills. And he who associates others with Allāh has certainly fabricated a tremendous sin.",
     "words": [
       {
         "id": "an-nisa-48-1",
@@ -8775,7 +8822,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne pardonne pas que Lui soit associé quoi que ce soit et pardonne (tout autre péché) à qui Il veut. Celui qui attribue à Allah des associés commet le plus grand des péchés."
   },
   {
     "id": "an-nisa-49",
@@ -8784,7 +8832,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يُزَكُّونَ أَنفُسَهُم ۚ بَلِ ٱللَّهُ يُزَكِّى مَن يَشَآءُ وَلَا يُظْلَمُونَ فَتِيلًا",
     "textSimple": "ألم تر إلى ٱلذين يزكون أنفسهم  بل ٱلله يزكى من يشآء ولا يظلمون فتيلا",
     "transliteration": "alam tara ilā alladhīna yuzakkūna anfusahum bali l-lahu yuzakkī man yashāu walā yuẓ'lamūna fatīlan",
-    "translation": "",
+    "translation": "Have you not seen those who claim themselves to be pure? Rather, Allāh purifies whom He wills, and injustice is not done to them, [even] as much as a thread [inside a date seed].",
     "words": [
       {
         "id": "an-nisa-49-1",
@@ -8885,7 +8933,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas considéré ceux qui se proclament purs ? Or c’est Allah Qui purifie qui Il veut. Et ils ne seront point lésés, serait-ce du poids du petit fil qui recouvre le sillon d’un noyau de datte (fatîl)."
   },
   {
     "id": "an-nisa-50",
@@ -8894,7 +8943,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱنظُرْ كَيْفَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَكَفَىٰ بِهِۦٓ إِثْمًا مُّبِينًا",
     "textSimple": "ٱنظر كيف يفترون على ٱلله ٱلكذب  وكفى بهٓ إثما مبينا",
     "transliteration": "unẓur kayfa yaftarūna ʿalā l-lahi l-kadhiba wakafā bihi ith'man mubīnan",
-    "translation": "",
+    "translation": "Look how they invent about Allāh untruth, and sufficient is that as a manifest sin.",
     "words": [
       {
         "id": "an-nisa-50-1",
@@ -8967,7 +9016,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vois comme ils façonnent le mensonge au sujet d’Allah. Cela seul suffit comme péché flagrant."
   },
   {
     "id": "an-nisa-51",
@@ -8976,7 +9026,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَـٰبِ يُؤْمِنُونَ بِٱلْجِبْتِ وَٱلطَّـٰغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا۟ هَـٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ ءَامَنُوا۟ سَبِيلًا",
     "textSimple": "ألم تر إلى ٱلذين أوتوا نصيبا من ٱلكتـب يؤمنون بٱلجبت وٱلطـغوت ويقولون للذين كفروا هـٓؤلآء أهدى من ٱلذين ءامنوا سبيلا",
     "transliteration": "alam tara ilā alladhīna ūtū naṣīban mina l-kitābi yu'minūna bil-jib'ti wal-ṭāghūti wayaqūlūna lilladhīna kafarū hāulāi ahdā mina alladhīna āmanū sabīlan",
-    "translation": "",
+    "translation": "Have you not seen those who were given a portion of the Scripture, who believe in jibt [superstition] and ṭāghūt [false objects of worship] and say about the disbelievers, \"These are better guided than the believers as to the way\"?",
     "words": [
       {
         "id": "an-nisa-51-1",
@@ -9119,7 +9169,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas considéré comment ceux qui ont reçu une part du Livre croient à la sorcellerie (gibt) et aux fausses divinités (Tâghût) et disent des mécréants : « Ceux-là sont sur un meilleur chemin que ceux qui ont cru » ?"
   },
   {
     "id": "an-nisa-52",
@@ -9128,7 +9179,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ ۖ وَمَن يَلْعَنِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ نَصِيرًا",
     "textSimple": "أولـٓئك ٱلذين لعنهم ٱلله  ومن يلعن ٱلله فلن تجد له نصيرا",
     "transliteration": "ulāika alladhīna laʿanahumu l-lahu waman yalʿani l-lahu falan tajida lahu naṣīran",
-    "translation": "",
+    "translation": "Those are the ones whom Allāh has cursed; and he whom Allāh curses - never will you find for him a helper.",
     "words": [
       {
         "id": "an-nisa-52-1",
@@ -9208,7 +9259,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont eux qu’Allah a maudits ; et celui qu’Allah maudit, jamais tu ne lui trouveras de soutien et d’allié."
   },
   {
     "id": "an-nisa-53",
@@ -9217,7 +9269,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُمْ نَصِيبٌ مِّنَ ٱلْمُلْكِ فَإِذًا لَّا يُؤْتُونَ ٱلنَّاسَ نَقِيرًا",
     "textSimple": "أم لهم نصيب من ٱلملك فإذا لا يؤتون ٱلناس نقيرا",
     "transliteration": "am lahum naṣībun mina l-mul'ki fa-idhan lā yu'tūna l-nāsa naqīran",
-    "translation": "",
+    "translation": "Or have they a share of dominion? Then [if that were so], they would not give the people [even as much as] the speck on a date seed.",
     "words": [
       {
         "id": "an-nisa-53-1",
@@ -9290,7 +9342,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auraient-ils ne serait-ce qu’une part de la souveraineté qu’ils n’en donneraient rien à personne, fût-ce le point creux sur un noyau de datte (naqîr)."
   },
   {
     "id": "an-nisa-54",
@@ -9299,7 +9352,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَحْسُدُونَ ٱلنَّاسَ عَلَىٰ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ ءَاتَيْنَآ ءَالَ إِبْرَٰهِيمَ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَءَاتَيْنَـٰهُم مُّلْكًا عَظِيمًا",
     "textSimple": "أم يحسدون ٱلناس على مآ ءاتىهم ٱلله من فضله  فقد ءاتينآ ءال إبرهيم ٱلكتـب وٱلحكمة وءاتينـهم ملكا عظيما",
     "transliteration": "am yaḥsudūna l-nāsa ʿalā mā ātāhumu l-lahu min faḍlihi faqad ātaynā āla ib'rāhīma l-kitāba wal-ḥik'mata waātaynāhum mul'kan ʿaẓīman",
-    "translation": "",
+    "translation": "Or do they envy people for what Allāh has given them of His bounty? But We had already given the family of Abraham the Scripture and wisdom and conferred upon them a great kingdom.",
     "words": [
       {
         "id": "an-nisa-54-1",
@@ -9428,7 +9481,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Envient-ils donc les gens pour les faveurs qu’Allah leur a dispensées ? Mais Nous avons tout aussi bien donné à la famille d’Abraham l’Écriture et la Sagesse, et leur avons donné un royaume immense."
   },
   {
     "id": "an-nisa-55",
@@ -9437,7 +9491,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَمِنْهُم مَّنْ ءَامَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا",
     "textSimple": "فمنهم من ءامن به ومنهم من صد عنه  وكفى بجهنم سعيرا",
     "transliteration": "famin'hum man āmana bihi wamin'hum man ṣadda ʿanhu wakafā bijahannama saʿīran",
-    "translation": "",
+    "translation": "And some among them believed in it, and some among them were averse to it. And sufficient is Hell as a blaze.",
     "words": [
       {
         "id": "an-nisa-55-1",
@@ -9517,7 +9571,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certains d’entre eux ont cru en lui (Muhammad), d’autres se sont détournés de lui. Il leur suffira de brûler dans la Géhenne incandescente."
   },
   {
     "id": "an-nisa-56",
@@ -9526,7 +9581,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا سَوْفَ نُصْلِيهِمْ نَارًا كُلَّمَا نَضِجَتْ جُلُودُهُم بَدَّلْنَـٰهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا۟ ٱلْعَذَابَ ۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمًا",
     "textSimple": "إن ٱلذين كفروا بـٔايـتنا سوف نصليهم نارا كلما نضجت جلودهم بدلنـهم جلودا غيرها ليذوقوا ٱلعذاب  إن ٱلله كان عزيزا حكيما",
     "transliteration": "inna alladhīna kafarū biāyātinā sawfa nuṣ'līhim nāran kullamā naḍijat julūduhum baddalnāhum julūdan ghayrahā liyadhūqū l-ʿadhāba inna l-laha kāna ʿazīzan ḥakīman",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve in Our verses - We will drive them into a fire. Every time their skins are roasted through, We will replace them with other skins so they may taste the punishment. Indeed, Allāh is ever Exalted in Might and Wise.",
     "words": [
       {
         "id": "an-nisa-56-1",
@@ -9669,7 +9724,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru en Nos versets, Nous les ferons brûler dans un Feu où leurs peaux seront à chaque fois remplacées par d’autres, afin qu’ils goûtent le supplice. Allah est certes Tout –Puissant et Sage."
   },
   {
     "id": "an-nisa-57",
@@ -9678,7 +9734,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَنُدْخِلُهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ لَّهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت سندخلهم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيهآ أبدا  لهم فيهآ أزوج مطهرة  وندخلهم ظلا ظليلا",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti sanud'khiluhum jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā abadan lahum fīhā azwājun muṭahharatun wanud'khiluhum ẓillan ẓalīlan",
-    "translation": "",
+    "translation": "But those who believe and do righteous deeds - We will admit them to gardens beneath which rivers flow, wherein they abide forever. For them therein are purified spouses, and We will admit them to deepening shade.",
     "words": [
       {
         "id": "an-nisa-57-1",
@@ -9821,7 +9877,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont cru et ont accompli les bonnes œuvres, Nous les ferons accéder à des jardins sous lesquels coulent les rivières, où ils séjourneront à jamais. Ils y auront des épouses purifiées et nous les ferons entrer sous de profonds ombrages."
   },
   {
     "id": "an-nisa-58",
@@ -9830,7 +9887,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا۟ ٱلْأَمَـٰنَـٰتِ إِلَىٰٓ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ ۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ سَمِيعًۢا بَصِيرًا",
     "textSimple": " إن ٱلله يأمركم أن تؤدوا ٱلأمـنـت إلىٓ أهلها وإذا حكمتم بين ٱلناس أن تحكموا بٱلعدل  إن ٱلله نعما يعظكم بهٓ  إن ٱلله كان سميعا بصيرا",
     "transliteration": "inna l-laha yamurukum an tu-addū l-amānāti ilā ahlihā wa-idhā ḥakamtum bayna l-nāsi an taḥkumū bil-ʿadli inna l-laha niʿimmā yaʿiẓukum bihi inna l-laha kāna samīʿan baṣīran",
-    "translation": "",
+    "translation": "Indeed, Allāh commands you to render trusts to whom they are due and when you judge between people to judge with justice. Excellent is that which Allāh instructs you. Indeed, Allāh is ever Hearing and Seeing.",
     "words": [
       {
         "id": "an-nisa-58-1",
@@ -10008,7 +10065,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah vous ordonne de restituer les dépôts (qui vous sont confiés) à leurs ayants droit et, quand vous avez à juger entre les gens, de juger équitablement. Allah vous incite à accomplir une bien noble action ! Allah est Celui Qui Entend Tout et Qui Voit Tout."
   },
   {
     "id": "an-nisa-59",
@@ -10017,7 +10075,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَأُو۟لِى ٱلْأَمْرِ مِنكُمْ ۖ فَإِن تَنَـٰزَعْتُمْ فِى شَىْءٍ فَرُدُّوهُ إِلَى ٱللَّهِ وَٱلرَّسُولِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا أطيعوا ٱلله وأطيعوا ٱلرسول وأولى ٱلأمر منكم  فإن تنـزعتم فى شىء فردوه إلى ٱلله وٱلرسول إن كنتم تؤمنون بٱلله وٱليوم ٱلـٔاخر  ذلك خير وأحسن تأويلا",
     "transliteration": "yāayyuhā alladhīna āmanū aṭīʿū l-laha wa-aṭīʿū l-rasūla wa-ulī l-amri minkum fa-in tanāzaʿtum fī shayin faruddūhu ilā l-lahi wal-rasūli in kuntum tu'minūna bil-lahi wal-yawmi l-ākhiri dhālika khayrun wa-aḥsanu tawīlan",
-    "translation": "",
+    "translation": "O you who have believed, obey Allāh and obey the Messenger and those in authority among you. And if you disagree over anything, refer it to Allāh and the Messenger, if you should believe in Allāh and the Last Day. That is the best [way] and best in result.",
     "words": [
       {
         "id": "an-nisa-59-1",
@@ -10216,7 +10274,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Obéissez à Allah, obéissez au Messager et à ceux qui, d’entre vous, détiennent l’autorité. Et si vous tombez en désaccord à propos de quelque chose, vous le confierez à Allah et au Messager, si vous croyez en Allah et au Jour Dernier. Voilà qui est bien meilleur et aux conséquences plus heureuses."
   },
   {
     "id": "an-nisa-60",
@@ -10225,7 +10284,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا۟ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّـٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَـٰنُ أَن يُضِلَّهُمْ ضَلَـٰلًۢا بَعِيدًا",
     "textSimple": "ألم تر إلى ٱلذين يزعمون أنهم ءامنوا بمآ أنزل إليك ومآ أنزل من قبلك يريدون أن يتحاكموٓا إلى ٱلطـغوت وقد أمروٓا أن يكفروا به ويريد ٱلشيطـن أن يضلهم ضلـلا بعيدا",
     "transliteration": "alam tara ilā alladhīna yazʿumūna annahum āmanū bimā unzila ilayka wamā unzila min qablika yurīdūna an yataḥākamū ilā l-ṭāghūti waqad umirū an yakfurū bihi wayurīdu l-shayṭānu an yuḍillahum ḍalālan baʿīdan",
-    "translation": "",
+    "translation": "Have you not seen those who claim to have believed in what was revealed to you, [O Muḥammad], and what was revealed before you? They wish to refer legislation to ṭāghūt, while they were commanded to reject it; and Satan wishes to lead them far astray.",
     "words": [
       {
         "id": "an-nisa-60-1",
@@ -10438,7 +10497,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas vu ceux qui prétendent avoir cru à ce qui t’a été révélé et à ce qui a été révélé avant toi ? Ils veulent se référer au jugement des fausses divinités (Tâghût) quand ordre leur fut donné de mécroire en elles. Et Satan veut les mener bien loin dans l’égarement."
   },
   {
     "id": "an-nisa-61",
@@ -10447,7 +10507,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ إِلَىٰ مَآ أَنزَلَ ٱللَّهُ وَإِلَى ٱلرَّسُولِ رَأَيْتَ ٱلْمُنَـٰفِقِينَ يَصُدُّونَ عَنكَ صُدُودًا",
     "textSimple": "وإذا قيل لهم تعالوا إلى مآ أنزل ٱلله وإلى ٱلرسول رأيت ٱلمنـفقين يصدون عنك صدودا",
     "transliteration": "wa-idhā qīla lahum taʿālaw ilā mā anzala l-lahu wa-ilā l-rasūli ra-ayta l-munāfiqīna yaṣuddūna ʿanka ṣudūdan",
-    "translation": "",
+    "translation": "And when it is said to them, \"Come to what Allāh has revealed and to the Messenger,\" you see the hypocrites turning away from you in aversion.",
     "words": [
       {
         "id": "an-nisa-61-1",
@@ -10555,7 +10615,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est dit : « Venez donc vers ce qu’Allah a révélé et vers le Messager ! » tu vois les hypocrites se détourner complètement de toi."
   },
   {
     "id": "an-nisa-62",
@@ -10564,7 +10625,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ إِذَآ أَصَـٰبَتْهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَآءُوكَ يَحْلِفُونَ بِٱللَّهِ إِنْ أَرَدْنَآ إِلَّآ إِحْسَـٰنًا وَتَوْفِيقًا",
     "textSimple": "فكيف إذآ أصـبتهم مصيبة بما قدمت أيديهم ثم جآءوك يحلفون بٱلله إن أردنآ إلآ إحسـنا وتوفيقا",
     "transliteration": "fakayfa idhā aṣābathum muṣībatun bimā qaddamat aydīhim thumma jāūka yaḥlifūna bil-lahi in aradnā illā iḥ'sānan watawfīqan",
-    "translation": "",
+    "translation": "So how [will it be] when disaster strikes them because of what their hands have put forth and then they come to you swearing by Allāh, \"We intended nothing but good conduct and accommodation.\"",
     "words": [
       {
         "id": "an-nisa-62-1",
@@ -10679,7 +10740,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais qu’en sera-t-il donc, quand un mal les frappera en contrepartie des actes qu’ils auront commis de leurs propres mains ? Ils viendront alors te trouver et jureront par Allah : « Nous n’avons désiré rien d’autre que le bien et la bonne entente. »"
   },
   {
     "id": "an-nisa-63",
@@ -10688,7 +10750,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ يَعْلَمُ ٱللَّهُ مَا فِى قُلُوبِهِمْ فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ وَقُل لَّهُمْ فِىٓ أَنفُسِهِمْ قَوْلًۢا بَلِيغًا",
     "textSimple": "أولـٓئك ٱلذين يعلم ٱلله ما فى قلوبهم فأعرض عنهم وعظهم وقل لهم فىٓ أنفسهم قولا بليغا",
     "transliteration": "ulāika alladhīna yaʿlamu l-lahu mā fī qulūbihim fa-aʿriḍ ʿanhum waʿiẓ'hum waqul lahum fī anfusihim qawlan balīghan",
-    "translation": "",
+    "translation": "Those are the ones of whom Allāh knows what is in their hearts, so turn away from them but admonish them and speak to them a far-reaching [i.e., effective] word.",
     "words": [
       {
         "id": "an-nisa-63-1",
@@ -10803,7 +10865,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là, Allah Sait ce qu’ils ont au fond de leurs cœurs. Alors, ne tente pas de les punir, mais sermonne-les et dis-leur discrètement des paroles persuasives."
   },
   {
     "id": "an-nisa-64",
@@ -10812,7 +10875,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ ٱللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًا رَّحِيمًا",
     "textSimple": "ومآ أرسلنا من رسول إلا ليطاع بإذن ٱلله  ولو أنهم إذ ظلموٓا أنفسهم جآءوك فٱستغفروا ٱلله وٱستغفر لهم ٱلرسول لوجدوا ٱلله توابا رحيما",
     "transliteration": "wamā arsalnā min rasūlin illā liyuṭāʿa bi-idh'ni l-lahi walaw annahum idh ẓalamū anfusahum jāūka fa-is'taghfarū l-laha wa-is'taghfara lahumu l-rasūlu lawajadū l-laha tawwāban raḥīman",
-    "translation": "",
+    "translation": "And We did not send any messenger except to be obeyed by permission of Allāh. And if, when they wronged themselves, they had come to you, [O Muḥammad], and asked forgiveness of Allāh and the Messenger had asked forgiveness for them, they would have found Allāh Accepting of Repentance and Merciful.",
     "words": [
       {
         "id": "an-nisa-64-1",
@@ -10976,7 +11039,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé aucun messager sinon pour qu’il soit obéi avec la permission d’Allah. Et si, s’étant lésés eux-mêmes, ils étaient venus te trouver pour implorer le pardon d’Allah, et que le Messager ait demandé pour eux le pardon, ils auraient trouvé Allah Tout Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-65",
@@ -10985,7 +11049,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا۟ فِىٓ أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا۟ تَسْلِيمًا",
     "textSimple": "فلا وربك لا يؤمنون حتى يحكموك فيما شجر بينهم ثم لا يجدوا فىٓ أنفسهم حرجا مما قضيت ويسلموا تسليما",
     "transliteration": "falā warabbika lā yu'minūna ḥattā yuḥakkimūka fīmā shajara baynahum thumma lā yajidū fī anfusihim ḥarajan mimmā qaḍayta wayusallimū taslīman",
-    "translation": "",
+    "translation": "But no, by your Lord, they will not [truly] believe until they make you, [O Muḥammad], judge concerning that over which they dispute among themselves and then find within themselves no discomfort from what you have judged and submit in [full, willing] submission.",
     "words": [
       {
         "id": "an-nisa-65-1",
@@ -11121,7 +11185,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes non ! Par ton Seigneur ! Ils ne croiront pas tant qu’ils ne t’auront pas demandé de juger leurs différends, qu’ils n’auront ressenti aucune gêne de ce que tu auras prononcé comme verdict, et qu’ils ne s’y seront pas entièrement soumis."
   },
   {
     "id": "an-nisa-66",
@@ -11130,7 +11195,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ ٱقْتُلُوٓا۟ أَنفُسَكُمْ أَوِ ٱخْرُجُوا۟ مِن دِيَـٰرِكُم مَّا فَعَلُوهُ إِلَّا قَلِيلٌ مِّنْهُمْ ۖ وَلَوْ أَنَّهُمْ فَعَلُوا۟ مَا يُوعَظُونَ بِهِۦ لَكَانَ خَيْرًا لَّهُمْ وَأَشَدَّ تَثْبِيتًا",
     "textSimple": "ولو أنا كتبنا عليهم أن ٱقتلوٓا أنفسكم أو ٱخرجوا من ديـركم ما فعلوه إلا قليل منهم  ولو أنهم فعلوا ما يوعظون به لكان خيرا لهم وأشد تثبيتا",
     "transliteration": "walaw annā katabnā ʿalayhim ani uq'tulū anfusakum awi ukh'rujū min diyārikum mā faʿalūhu illā qalīlun min'hum walaw annahum faʿalū mā yūʿaẓūna bihi lakāna khayran lahum wa-ashadda tathbītan",
-    "translation": "",
+    "translation": "And if We had decreed upon them, \"Kill yourselves\" or \"Leave your homes,\" they would not have done it, except for a few of them. But if they had done what they were instructed, it would have been better for them and a firmer position [for them in faith].",
     "words": [
       {
         "id": "an-nisa-66-1",
@@ -11322,7 +11387,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous leur avions prescrit : « Tuez-vous vous-mêmes », ou « Quittez vos demeures », très peu d’entre eux seulement l’auraient fait. Et s’ils avaient exécuté ce à quoi ils étaient incités, c’eût été certainement bien mieux pour eux et leur foi en eût été plus solide."
   },
   {
     "id": "an-nisa-67",
@@ -11331,7 +11397,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذًا لَّـَٔاتَيْنَـٰهُم مِّن لَّدُنَّآ أَجْرًا عَظِيمًا",
     "textSimple": "وإذا لـٔاتينـهم من لدنآ أجرا عظيما",
     "transliteration": "wa-idhan laātaynāhum min ladunnā ajran ʿaẓīman",
-    "translation": "",
+    "translation": "And then We would have given them from Us a great reward.",
     "words": [
       {
         "id": "an-nisa-67-1",
@@ -11376,7 +11442,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur aurions alors accordé Nous-même une très grande rétribution,"
   },
   {
     "id": "an-nisa-68",
@@ -11385,7 +11452,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهَدَيْنَـٰهُمْ صِرَٰطًا مُّسْتَقِيمًا",
     "textSimple": "ولهدينـهم صرطا مستقيما",
     "transliteration": "walahadaynāhum ṣirāṭan mus'taqīman",
-    "translation": "",
+    "translation": "And We would have guided them to a straight path.",
     "words": [
       {
         "id": "an-nisa-68-1",
@@ -11409,7 +11476,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Nous les aurions orientés vers une voie droite."
   },
   {
     "id": "an-nisa-69",
@@ -11418,7 +11486,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَـٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّـۧنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّـٰلِحِينَ ۚ وَحَسُنَ أُو۟لَـٰٓئِكَ رَفِيقًا",
     "textSimple": "ومن يطع ٱلله وٱلرسول فأولـٓئك مع ٱلذين أنعم ٱلله عليهم من ٱلنبيـن وٱلصديقين وٱلشهدآء وٱلصـلحين  وحسن أولـٓئك رفيقا",
     "transliteration": "waman yuṭiʿi l-laha wal-rasūla fa-ulāika maʿa alladhīna anʿama l-lahu ʿalayhim mina l-nabiyīna wal-ṣidīqīna wal-shuhadāi wal-ṣāliḥīna waḥasuna ulāika rafīqan",
-    "translation": "",
+    "translation": "And whoever obeys Allāh and the Messenger - those will be with the ones upon whom Allāh has bestowed favor of the prophets, the steadfast affirmers of truth, the martyrs and the righteous. And excellent are those as companions.",
     "words": [
       {
         "id": "an-nisa-69-1",
@@ -11547,7 +11615,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui obéissent à Allah et au Messager seront les compagnons de ceux qu’Allah a comblés de Ses grâces : les Prophètes, les véridiques, les martyrs et les vertueux. Est-il donc meilleurs compagnons que ceux-là ?"
   },
   {
     "id": "an-nisa-70",
@@ -11556,7 +11625,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ ٱلْفَضْلُ مِنَ ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ عَلِيمًا",
     "textSimple": "ذلك ٱلفضل من ٱلله  وكفى بٱلله عليما",
     "transliteration": "dhālika l-faḍlu mina l-lahi wakafā bil-lahi ʿalīman",
-    "translation": "",
+    "translation": "That is the bounty from Allāh, and sufficient is Allāh as Knower.",
     "words": [
       {
         "id": "an-nisa-70-1",
@@ -11608,7 +11677,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la faveur d’Allah, et Allah suffit comme Sachant Tout."
   },
   {
     "id": "an-nisa-71",
@@ -11617,7 +11687,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ خُذُوا۟ حِذْرَكُمْ فَٱنفِرُوا۟ ثُبَاتٍ أَوِ ٱنفِرُوا۟ جَمِيعًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا خذوا حذركم فٱنفروا ثبات أو ٱنفروا جميعا",
     "transliteration": "yāayyuhā alladhīna āmanū khudhū ḥidh'rakum fa-infirū thubātin awi infirū jamīʿan",
-    "translation": "",
+    "translation": "O you who have believed, take your precaution and [either] go forth in companies or go forth all together.",
     "words": [
       {
         "id": "an-nisa-71-1",
@@ -11690,7 +11760,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Mettez-vous sur vos gardes ! Allez au combat par groupes détachés ou en masses."
   },
   {
     "id": "an-nisa-72",
@@ -11699,7 +11770,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ مِنكُمْ لَمَن لَّيُبَطِّئَنَّ فَإِنْ أَصَـٰبَتْكُم مُّصِيبَةٌ قَالَ قَدْ أَنْعَمَ ٱللَّهُ عَلَىَّ إِذْ لَمْ أَكُن مَّعَهُمْ شَهِيدًا",
     "textSimple": "وإن منكم لمن ليبطئن فإن أصـبتكم مصيبة قال قد أنعم ٱلله على إذ لم أكن معهم شهيدا",
     "transliteration": "wa-inna minkum laman layubaṭṭi-anna fa-in aṣābatkum muṣībatun qāla qad anʿama l-lahu ʿalayya idh lam akun maʿahum shahīdan",
-    "translation": "",
+    "translation": "And indeed, there is among you he who lingers behind; and if disaster strikes you, he says, \"Allāh has favored me in that I was not present with them.\"",
     "words": [
       {
         "id": "an-nisa-72-1",
@@ -11821,7 +11892,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y aura certes parmi vous celui qui traîne (pour aller au combat) et qui, s’il vous arrive un malheur, dira : « C’est une grâce d’Allah que je n’aie pas été présent avec eux (au combat). »"
   },
   {
     "id": "an-nisa-73",
@@ -11830,7 +11902,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَصَـٰبَكُمْ فَضْلٌ مِّنَ ٱللَّهِ لَيَقُولَنَّ كَأَن لَّمْ تَكُنۢ بَيْنَكُمْ وَبَيْنَهُۥ مَوَدَّةٌ يَـٰلَيْتَنِى كُنتُ مَعَهُمْ فَأَفُوزَ فَوْزًا عَظِيمًا",
     "textSimple": "ولئن أصـبكم فضل من ٱلله ليقولن كأن لم تكن بينكم وبينه مودة يـليتنى كنت معهم فأفوز فوزا عظيما",
     "transliteration": "wala-in aṣābakum faḍlun mina l-lahi layaqūlanna ka-an lam takun baynakum wabaynahu mawaddatun yālaytanī kuntu maʿahum fa-afūza fawzan ʿaẓīman",
-    "translation": "",
+    "translation": "But if bounty comes to you from Allāh, he will surely say, as if [i.e., showing that] there had never been between you and him any affection, \"Oh, I wish I had been with them so I could have attained a great attainment.\"",
     "words": [
       {
         "id": "an-nisa-73-1",
@@ -11959,7 +12031,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais si c’est une faveur d’Allah qui vous atteint, il dira, comme si aucun lien d’affection ne l’attachait à vous : « Ah ! Si seulement j’avais été avec eux ! J’aurais certainement récolté un butin énorme ! »"
   },
   {
     "id": "an-nisa-74",
@@ -11968,7 +12041,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَلْيُقَـٰتِلْ فِى سَبِيلِ ٱللَّهِ ٱلَّذِينَ يَشْرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِٱلْـَٔاخِرَةِ ۚ وَمَن يُقَـٰتِلْ فِى سَبِيلِ ٱللَّهِ فَيُقْتَلْ أَوْ يَغْلِبْ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
     "textSimple": " فليقـتل فى سبيل ٱلله ٱلذين يشرون ٱلحيوة ٱلدنيا بٱلـٔاخرة  ومن يقـتل فى سبيل ٱلله فيقتل أو يغلب فسوف نؤتيه أجرا عظيما",
     "transliteration": "falyuqātil fī sabīli l-lahi alladhīna yashrūna l-ḥayata l-dun'yā bil-ākhirati waman yuqātil fī sabīli l-lahi fayuq'tal aw yaghlib fasawfa nu'tīhi ajran ʿaẓīman",
-    "translation": "",
+    "translation": "So let those fight in the cause of Allāh who sell the life of this world for the Hereafter. And he who fights in the cause of Allāh and is killed or achieves victory - We will bestow upon him a great reward.",
     "words": [
       {
         "id": "an-nisa-74-1",
@@ -12118,7 +12191,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ils combattent donc pour la cause d’Allah, ceux-là qui ont sacrifié la vie en ce bas monde à la vie dans l’autre monde ! Car celui qui combat pour la cause d’Allah, qu’il soit tué ou qu’il remporte la victoire, Nous lui accorderons une très grande rétribution."
   },
   {
     "id": "an-nisa-75",
@@ -12127,7 +12201,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَكُمْ لَا تُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ ٱلَّذِينَ يَقُولُونَ رَبَّنَآ أَخْرِجْنَا مِنْ هَـٰذِهِ ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا وَٱجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّا وَٱجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا",
     "textSimple": "وما لكم لا تقـتلون فى سبيل ٱلله وٱلمستضعفين من ٱلرجال وٱلنسآء وٱلولدن ٱلذين يقولون ربنآ أخرجنا من هـذه ٱلقرية ٱلظالم أهلها وٱجعل لنا من لدنك وليا وٱجعل لنا من لدنك نصيرا",
     "transliteration": "wamā lakum lā tuqātilūna fī sabīli l-lahi wal-mus'taḍʿafīna mina l-rijāli wal-nisāi wal-wil'dāni alladhīna yaqūlūna rabbanā akhrij'nā min hādhihi l-qaryati l-ẓālimi ahluhā wa-ij'ʿal lanā min ladunka waliyyan wa-ij'ʿal lanā min ladunka naṣīran",
-    "translation": "",
+    "translation": "And what is [the matter] with you that you fight not in the cause of Allāh and [for] the oppressed among men, women, and children who say, \"Our Lord, take us out of this city of oppressive people and appoint for us from Yourself a protector and appoint for us from Yourself a helper\"?",
     "words": [
       {
         "id": "an-nisa-75-1",
@@ -12347,7 +12421,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourquoi ne combattriez-vous pas pour la cause d’Allah, et pour la cause des faibles parmi les hommes, les femmes et les enfants qui disent : « Ô Seigneur ! Fais-nous sortir de cette cité (peuplée) d’injustes, et envoie-nous de Ta part un protecteur, et envoie-nous de Ta part un allié ! »"
   },
   {
     "id": "an-nisa-76",
@@ -12356,7 +12431,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَامَنُوا۟ يُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَـٰتِلُونَ فِى سَبِيلِ ٱلطَّـٰغُوتِ فَقَـٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَـٰنِ ۖ إِنَّ كَيْدَ ٱلشَّيْطَـٰنِ كَانَ ضَعِيفًا",
     "textSimple": "ٱلذين ءامنوا يقـتلون فى سبيل ٱلله  وٱلذين كفروا يقـتلون فى سبيل ٱلطـغوت فقـتلوٓا أوليآء ٱلشيطـن  إن كيد ٱلشيطـن كان ضعيفا",
     "transliteration": "alladhīna āmanū yuqātilūna fī sabīli l-lahi wa-alladhīna kafarū yuqātilūna fī sabīli l-ṭāghūti faqātilū awliyāa l-shayṭāni inna kayda l-shayṭāni kāna ḍaʿīfan",
-    "translation": "",
+    "translation": "Those who believe fight in the cause of Allāh, and those who disbelieve fight in the cause of ṭāghūt. So fight against the allies of Satan. Indeed, the plot of Satan has ever been weak.",
     "words": [
       {
         "id": "an-nisa-76-1",
@@ -12499,7 +12574,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru se battent pour la cause d’Allah, et ceux qui ont mécru se battent dans la voie des fausses divinités (Tâghût). Alors, battez-vous contre les suppôts de Satan, car les intrigues de Satan sont certes faibles."
   },
   {
     "id": "an-nisa-77",
@@ -12508,7 +12584,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ قِيلَ لَهُمْ كُفُّوٓا۟ أَيْدِيَكُمْ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ إِذَا فَرِيقٌ مِّنْهُمْ يَخْشَوْنَ ٱلنَّاسَ كَخَشْيَةِ ٱللَّهِ أَوْ أَشَدَّ خَشْيَةً ۚ وَقَالُوا۟ رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا ٱلْقِتَالَ لَوْلَآ أَخَّرْتَنَآ إِلَىٰٓ أَجَلٍ قَرِيبٍ ۗ قُلْ مَتَـٰعُ ٱلدُّنْيَا قَلِيلٌ وَٱلْـَٔاخِرَةُ خَيْرٌ لِّمَنِ ٱتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا",
     "textSimple": "ألم تر إلى ٱلذين قيل لهم كفوٓا أيديكم وأقيموا ٱلصلوة وءاتوا ٱلزكوة فلما كتب عليهم ٱلقتال إذا فريق منهم يخشون ٱلناس كخشية ٱلله أو أشد خشية  وقالوا ربنا لم كتبت علينا ٱلقتال لولآ أخرتنآ إلىٓ أجل قريب  قل متـع ٱلدنيا قليل وٱلـٔاخرة خير لمن ٱتقى ولا تظلمون فتيلا",
     "transliteration": "alam tara ilā alladhīna qīla lahum kuffū aydiyakum wa-aqīmū l-ṣalata waātū l-zakata falammā kutiba ʿalayhimu l-qitālu idhā farīqun min'hum yakhshawna l-nāsa kakhashyati l-lahi aw ashadda khashyatan waqālū rabbanā lima katabta ʿalaynā l-qitāla lawlā akhartanā ilā ajalin qarībin qul matāʿu l-dun'yā qalīlun wal-ākhiratu khayrun limani ittaqā walā tuẓ'lamūna fatīlan",
-    "translation": "",
+    "translation": "Have you not seen those who were told, \"Restrain your hands [from fighting] and establish prayer and give zakāh\"? But then when battle was ordained for them, at once a party of them feared men as they fear Allāh or with [even] greater fear. They said, \"Our Lord, why have You decreed upon us fighting? If only You had postponed [it for] us for a short time.\" Say, \"The enjoyment of this world is little, and the Hereafter is better for he who fears Allāh. And injustice will not be done to you, [even] as much as a thread [inside a date seed].\"",
     "words": [
       {
         "id": "an-nisa-77-1",
@@ -12847,7 +12923,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 47
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas considéré ceux à qui il fut dit : « Cessez de combattre, accomplissez la Çalât et acquittez-vous de la Zakât. » Puis, une fois que le combat leur est prescrit, voilà qu’une partie d’entre eux se met à redouter les hommes comme on redoute Allah ou plus encore. Ils ont dit : « Seigneur ! Pourquoi nous as-Tu prescrit le combat ? Si Tu le reportais pour un délai proche ? » Dis : « Les jouissances en ce bas monde sont de peu de poids mais l’autre monde est bien meilleur pour celui qui fait preuve de piété. » Et vous ne serez point lésés, pas même d’un fatîl."
   },
   {
     "id": "an-nisa-78",
@@ -12856,7 +12933,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍ مُّشَيَّدَةٍ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَـٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَـٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَـٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
     "textSimple": "أينما تكونوا يدرككم ٱلموت ولو كنتم فى بروج مشيدة  وإن تصبهم حسنة يقولوا هـذه من عند ٱلله  وإن تصبهم سيئة يقولوا هـذه من عندك  قل كل من عند ٱلله  فمال هـٓؤلآء ٱلقوم لا يكادون يفقهون حديثا",
     "transliteration": "aynamā takūnū yud'rikkumu l-mawtu walaw kuntum fī burūjin mushayyadatin wa-in tuṣib'hum ḥasanatun yaqūlū hādhihi min ʿindi l-lahi wa-in tuṣib'hum sayyi-atun yaqūlū hādhihi min ʿindika qul kullun min ʿindi l-lahi famāli hāulāi l-qawmi lā yakādūna yafqahūna ḥadīthan",
-    "translation": "",
+    "translation": "Wherever you may be, death will overtake you, even if you should be within towers of lofty construction. But if good comes to them, they say, \"This is from Allāh\"; and if evil befalls them, they say, \"This is from you.\" Say, \"All [things] are from Allāh.\" So what is [the matter] with those people that they can hardly understand any statement?",
     "words": [
       {
         "id": "an-nisa-78-1",
@@ -13111,7 +13188,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Où que vous soyez, la mort vous atteindra, même si vous étiez dans des tours inexpugnables. Si quelque bien les atteint, ils disent : « Ceci vient d’Allah » et si quelque mal les frappe, ils disent : « Cela vient de toi. » Dis-leur alors : « Tout vient d’Allah. » Mais qu’ont donc ces gens qui ne comprennent que peu de ce qui leur est dit ?"
   },
   {
     "id": "an-nisa-79",
@@ -13120,7 +13198,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مَّآ أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ ٱللَّهِ ۖ وَمَآ أَصَابَكَ مِن سَيِّئَةٍ فَمِن نَّفْسِكَ ۚ وَأَرْسَلْنَـٰكَ لِلنَّاسِ رَسُولًا ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًا",
     "textSimple": "مآ أصابك من حسنة فمن ٱلله  ومآ أصابك من سيئة فمن نفسك  وأرسلنـك للناس رسولا  وكفى بٱلله شهيدا",
     "transliteration": "mā aṣābaka min ḥasanatin famina l-lahi wamā aṣābaka min sayyi-atin famin nafsika wa-arsalnāka lilnnāsi rasūlan wakafā bil-lahi shahīdan",
-    "translation": "",
+    "translation": "What comes to you of good is from Allāh, but what comes to you of evil, [O man], is from yourself. And We have sent you, [O Muḥammad], to the people as a messenger, and sufficient is Allāh as Witness.",
     "words": [
       {
         "id": "an-nisa-79-1",
@@ -13249,7 +13327,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout bien qui t’atteint est d’Allah et tout mal qui te frappe est de toi. Nous t’avons envoyé aux hommes en Messager, et Allah suffit comme Témoin."
   },
   {
     "id": "an-nisa-80",
@@ -13258,7 +13337,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مَّن يُطِعِ ٱلرَّسُولَ فَقَدْ أَطَاعَ ٱللَّهَ ۖ وَمَن تَوَلَّىٰ فَمَآ أَرْسَلْنَـٰكَ عَلَيْهِمْ حَفِيظًا",
     "textSimple": "من يطع ٱلرسول فقد أطاع ٱلله  ومن تولى فمآ أرسلنـك عليهم حفيظا",
     "transliteration": "man yuṭiʿi l-rasūla faqad aṭāʿa l-laha waman tawallā famā arsalnāka ʿalayhim ḥafīẓan",
-    "translation": "",
+    "translation": "He who obeys the Messenger has obeyed Allāh; but those who turn away - We have not sent you over them as a guardian.",
     "words": [
       {
         "id": "an-nisa-80-1",
@@ -13345,7 +13424,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui obéit au Messager a obéi à Allah, quant à ceux qui se détournent, Nous ne t’avons pas envoyé pour être leur gardien."
   },
   {
     "id": "an-nisa-81",
@@ -13354,7 +13434,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ طَاعَةٌ فَإِذَا بَرَزُوا۟ مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ ۖ وَٱللَّهُ يَكْتُبُ مَا يُبَيِّتُونَ ۖ فَأَعْرِضْ عَنْهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
     "textSimple": "ويقولون طاعة فإذا برزوا من عندك بيت طآئفة منهم غير ٱلذى تقول  وٱلله يكتب ما يبيتون  فأعرض عنهم وتوكل على ٱلله  وكفى بٱلله وكيلا",
     "transliteration": "wayaqūlūna ṭāʿatun fa-idhā barazū min ʿindika bayyata ṭāifatun min'hum ghayra alladhī taqūlu wal-lahu yaktubu mā yubayyitūna fa-aʿriḍ ʿanhum watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan",
-    "translation": "",
+    "translation": "And they say, \"[We pledge] obedience.\" But when they leave you, a group of them spend the night determining to do other than what you say. But Allāh records what they plan by night. So leave them alone and rely upon Allāh. And sufficient is Allāh as Disposer of affairs.",
     "words": [
       {
         "id": "an-nisa-81-1",
@@ -13525,7 +13605,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Devant toi, ils disent : « Nous obéissons ! » Mais quand ils sortent de chez toi, certains d’entre eux passent la nuit à tramer autre chose que ce qu’ils t’ont dit. Allah écrit ce à quoi ils conspirent la nuit. Ne tente rien contre eux, mets ta confiance en Allah, car Allah te suffira comme Protecteur."
   },
   {
     "id": "an-nisa-82",
@@ -13534,7 +13615,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ ۚ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُوا۟ فِيهِ ٱخْتِلَـٰفًا كَثِيرًا",
     "textSimple": "أفلا يتدبرون ٱلقرءان  ولو كان من عند غير ٱلله لوجدوا فيه ٱختلـفا كثيرا",
     "transliteration": "afalā yatadabbarūna l-qur'āna walaw kāna min ʿindi ghayri l-lahi lawajadū fīhi ikh'tilāfan kathīran",
-    "translation": "",
+    "translation": "Then do they not reflect upon the Qur’ān? If it had been from [any] other than Allāh, they would have found within it much contradiction.",
     "words": [
       {
         "id": "an-nisa-82-1",
@@ -13628,7 +13709,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne méditent-ils donc le Coran ? S’il venait d’un autre qu’Allah, ils le trouveraient truffé de contradictions."
   },
   {
     "id": "an-nisa-83",
@@ -13637,7 +13719,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَـٰنَ إِلَّا قَلِيلًا",
     "textSimple": "وإذا جآءهم أمر من ٱلأمن أو ٱلخوف أذاعوا به  ولو ردوه إلى ٱلرسول وإلىٓ أولى ٱلأمر منهم لعلمه ٱلذين يستنبطونه منهم  ولولا فضل ٱلله عليكم ورحمته لٱتبعتم ٱلشيطـن إلا قليلا",
     "transliteration": "wa-idhā jāahum amrun mina l-amni awi l-khawfi adhāʿū bihi walaw raddūhu ilā l-rasūli wa-ilā ulī l-amri min'hum laʿalimahu alladhīna yastanbiṭūnahu min'hum walawlā faḍlu l-lahi ʿalaykum waraḥmatuhu la-ittabaʿtumu l-shayṭāna illā qalīlan",
-    "translation": "",
+    "translation": "And when there comes to them something [i.e., information] about [public] security or fear, they spread it around. But if they had referred it back to the Messenger or to those of authority among them, then the ones who [can] draw correct conclusions from it would have known about it. And if not for the favor of Allāh upon you and His mercy, you would have followed Satan, except for a few.",
     "words": [
       {
         "id": "an-nisa-83-1",
@@ -13850,7 +13932,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque leur parvient une nouvelle, qu’elle soit rassurante ou alarmante, ils la répandent. S’ils la renvoyaient au Messager et aux détenteurs de l’autorité parmi eux, ceux qui désirent tirer les choses au clair l’apprendraient de ces derniers. Sans les faveurs d’Allah sur vous et sans Sa miséricorde, vous auriez certainement suivi Satan, hors une minorité d’entre vous."
   },
   {
     "id": "an-nisa-84",
@@ -13859,7 +13942,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَقَـٰتِلْ فِى سَبِيلِ ٱللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ وَحَرِّضِ ٱلْمُؤْمِنِينَ ۖ عَسَى ٱللَّهُ أَن يَكُفَّ بَأْسَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَٱللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنكِيلًا",
     "textSimple": "فقـتل فى سبيل ٱلله لا تكلف إلا نفسك  وحرض ٱلمؤمنين  عسى ٱلله أن يكف بأس ٱلذين كفروا  وٱلله أشد بأسا وأشد تنكيلا",
     "transliteration": "faqātil fī sabīli l-lahi lā tukallafu illā nafsaka waḥarriḍi l-mu'minīna ʿasā l-lahu an yakuffa basa alladhīna kafarū wal-lahu ashaddu basan wa-ashaddu tankīlan",
-    "translation": "",
+    "translation": "So fight, [O Muḥammad], in the cause of Allāh; you are not held responsible except for yourself. And encourage the believers [to join you] that perhaps Allāh will restrain the [military] might of those who disbelieve. And Allāh is greater in might and stronger in [exemplary] punishment.",
     "words": [
       {
         "id": "an-nisa-84-1",
@@ -14016,7 +14099,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combats donc pour la cause d’Allah, tu n’as à assumer que ta propre responsabilité. Exhorte les croyants, peut-être Allah fera-t-Il cesser les hostilités de ceux qui ont mécru. Allah est autrement plus Fort quand Il sévit, et plus Sévère quand Il punit."
   },
   {
     "id": "an-nisa-85",
@@ -14025,7 +14109,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مَّن يَشْفَعْ شَفَـٰعَةً حَسَنَةً يَكُن لَّهُۥ نَصِيبٌ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَـٰعَةً سَيِّئَةً يَكُن لَّهُۥ كِفْلٌ مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقِيتًا",
     "textSimple": "من يشفع شفـعة حسنة يكن له نصيب منها  ومن يشفع شفـعة سيئة يكن له كفل منها  وكان ٱلله على كل شىء مقيتا",
     "transliteration": "man yashfaʿ shafāʿatan ḥasanatan yakun lahu naṣībun min'hā waman yashfaʿ shafāʿatan sayyi-atan yakun lahu kif'lun min'hā wakāna l-lahu ʿalā kulli shayin muqītan",
-    "translation": "",
+    "translation": "Whoever intercedes for a good cause will have a share [i.e., reward] therefrom; and whoever intercedes for an evil cause will have a portion [i.e., burden] therefrom. And ever is Allāh, over all things, a Keeper.",
     "words": [
       {
         "id": "an-nisa-85-1",
@@ -14182,7 +14266,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque intercède pour une bonne cause aura une part (du bien qui en découle), et quiconque intercède pour une mauvaise cause aura une part de responsabilité (dans cette mauvaise intercession). Car Allah veille sur Toute chose."
   },
   {
     "id": "an-nisa-86",
@@ -14191,7 +14276,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا۟ بِأَحْسَنَ مِنْهَآ أَوْ رُدُّوهَآ ۗ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍ حَسِيبًا",
     "textSimple": "وإذا حييتم بتحية فحيوا بأحسن منهآ أو ردوهآ  إن ٱلله كان على كل شىء حسيبا",
     "transliteration": "wa-idhā ḥuyyītum bitaḥiyyatin faḥayyū bi-aḥsana min'hā aw ruddūhā inna l-laha kāna ʿalā kulli shayin ḥasīban",
-    "translation": "",
+    "translation": "And when you are greeted with a greeting, greet [in return] with one better than it or [at least] return it [in a like manner]. Indeed Allāh is ever, over all things, an Accountant.",
     "words": [
       {
         "id": "an-nisa-86-1",
@@ -14299,7 +14384,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il vous est adressé un salut, adressez-en un meilleur ou rendez le même salut. Allah prend en compte Toute chose."
   },
   {
     "id": "an-nisa-87",
@@ -14308,7 +14394,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ لَا رَيْبَ فِيهِ ۗ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ حَدِيثًا",
     "textSimple": "ٱلله لآ إلـه إلا هو  ليجمعنكم إلى يوم ٱلقيـمة لا ريب فيه  ومن أصدق من ٱلله حديثا",
     "transliteration": "al-lahu lā ilāha illā huwa layajmaʿannakum ilā yawmi l-qiyāmati lā rayba fīhi waman aṣdaqu mina l-lahi ḥadīthan",
-    "translation": "",
+    "translation": "Allāh - there is no deity except Him. He will surely assemble you for [account on] the Day of Resurrection, about which there is no doubt. And who is more truthful than Allāh in statement.",
     "words": [
       {
         "id": "an-nisa-87-1",
@@ -14430,7 +14516,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ! Point d’autre divinité que Lui ! Il vous réunira inéluctablement le Jour de la Résurrection. Nul doute à ce sujet ! Et qui a parole plus véridique qu’Allah ?"
   },
   {
     "id": "an-nisa-88",
@@ -14439,7 +14526,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَمَا لَكُمْ فِى ٱلْمُنَـٰفِقِينَ فِئَتَيْنِ وَٱللَّهُ أَرْكَسَهُم بِمَا كَسَبُوٓا۟ ۚ أَتُرِيدُونَ أَن تَهْدُوا۟ مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًا",
     "textSimple": " فما لكم فى ٱلمنـفقين فئتين وٱلله أركسهم بما كسبوٓا  أتريدون أن تهدوا من أضل ٱلله  ومن يضلل ٱلله فلن تجد له سبيلا",
     "transliteration": "famā lakum fī l-munāfiqīna fi-atayni wal-lahu arkasahum bimā kasabū aturīdūna an tahdū man aḍalla l-lahu waman yuḍ'lili l-lahu falan tajida lahu sabīlan",
-    "translation": "",
+    "translation": "What is [the matter] with you [that you are] two groups concerning the hypocrites, while Allāh has made them fall back [into error and disbelief] for what they earned. Do you wish to guide those whom Allāh has sent astray? And he whom Allāh sends astray - never will you find for him a way [of guidance].",
     "words": [
       {
         "id": "an-nisa-88-1",
@@ -14596,7 +14683,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’avez-vous donc à vous partager en deux clans à propos des hypocrites ? Allah les a pourtant renvoyés (à leur mécréance) pour les mauvaises actions qu’ils ont commises. Voulez-vous donc guider ceux qu’Allah a égarés ? Mais il ne se trouvera point d’issue à celui qu’Allah égare."
   },
   {
     "id": "an-nisa-89",
@@ -14605,7 +14693,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَدُّوا۟ لَوْ تَكْفُرُونَ كَمَا كَفَرُوا۟ فَتَكُونُونَ سَوَآءً ۖ فَلَا تَتَّخِذُوا۟ مِنْهُمْ أَوْلِيَآءَ حَتَّىٰ يُهَاجِرُوا۟ فِى سَبِيلِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ وَجَدتُّمُوهُمْ ۖ وَلَا تَتَّخِذُوا۟ مِنْهُمْ وَلِيًّا وَلَا نَصِيرًا",
     "textSimple": "ودوا لو تكفرون كما كفروا فتكونون سوآء  فلا تتخذوا منهم أوليآء حتى يهاجروا فى سبيل ٱلله  فإن تولوا فخذوهم وٱقتلوهم حيث وجدتموهم  ولا تتخذوا منهم وليا ولا نصيرا",
     "transliteration": "waddū law takfurūna kamā kafarū fatakūnūna sawāan falā tattakhidhū min'hum awliyāa ḥattā yuhājirū fī sabīli l-lahi fa-in tawallaw fakhudhūhum wa-uq'tulūhum ḥaythu wajadttumūhum walā tattakhidhū min'hum waliyyan walā naṣīran",
-    "translation": "",
+    "translation": "They wish you would disbelieve as they disbelieved so you would be alike. So do not take from among them allies until they emigrate for the cause of Allāh. But if they turn away [i.e., refuse], then seize them and kill them [for their betrayal] wherever you find them and take not from among them any ally or helper,",
     "words": [
       {
         "id": "an-nisa-89-1",
@@ -14804,7 +14892,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils auraient souhaité que vous mécroyiez comme ils ont mécru, car alors vous seriez pareils. Ne prenez donc pas d’alliés parmi eux avant qu’ils n’aient émigré dans le chemin d’Allah. S’ils se détournent, appréhendez-les et tuez-les là où vous les trouverez ; et ne prenez parmi eux ni allié ni soutien,"
   },
   {
     "id": "an-nisa-90",
@@ -14813,7 +14902,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَـٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَن يُقَـٰتِلُوكُمْ أَوْ يُقَـٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَـٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَـٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
     "textSimple": "إلا ٱلذين يصلون إلى قوم بينكم وبينهم ميثـق أو جآءوكم حصرت صدورهم أن يقـتلوكم أو يقـتلوا قومهم  ولو شآء ٱلله لسلطهم عليكم فلقـتلوكم  فإن ٱعتزلوكم فلم يقـتلوكم وألقوا إليكم ٱلسلم فما جعل ٱلله لكم عليهم سبيلا",
     "transliteration": "illā alladhīna yaṣilūna ilā qawmin baynakum wabaynahum mīthāqun aw jāūkum ḥaṣirat ṣudūruhum an yuqātilūkum aw yuqātilū qawmahum walaw shāa l-lahu lasallaṭahum ʿalaykum falaqātalūkum fa-ini iʿ'tazalūkum falam yuqātilūkum wa-alqaw ilaykumu l-salama famā jaʿala l-lahu lakum ʿalayhim sabīlan",
-    "translation": "",
+    "translation": "Except for those who take refuge with a people between yourselves and whom is a treaty or those who come to you, their hearts strained at [the prospect of] fighting you or fighting their own people. And if Allāh had willed, He could have given them power over you, and they would have fought you. So if they remove themselves from you and do not fight you and offer you peace, then Allāh has not made for you a cause [for fighting] against them.",
     "words": [
       {
         "id": "an-nisa-90-1",
@@ -15068,7 +15157,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "hormis ceux qui rejoignent un clan auquel vous lie un pacte, ou ceux qui viennent vers vous avec un serrement au cœur, ne sachant pas s’ils doivent vous combattre ou bien combattre les leurs. Mais si Allah l’avait voulu, Il les aurait mobilisés contre vous, et ces derniers vous auraient combattus. Alors, s’ils gardent leurs distances par rapport à vous, ne vous combattent pas et vous proposent la paix, Allah ne vous laisse aucun chemin pour (déclencher contre eux) les hostilités."
   },
   {
     "id": "an-nisa-91",
@@ -15077,7 +15167,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "سَتَجِدُونَ ءَاخَرِينَ يُرِيدُونَ أَن يَأْمَنُوكُمْ وَيَأْمَنُوا۟ قَوْمَهُمْ كُلَّ مَا رُدُّوٓا۟ إِلَى ٱلْفِتْنَةِ أُرْكِسُوا۟ فِيهَا ۚ فَإِن لَّمْ يَعْتَزِلُوكُمْ وَيُلْقُوٓا۟ إِلَيْكُمُ ٱلسَّلَمَ وَيَكُفُّوٓا۟ أَيْدِيَهُمْ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ ۚ وَأُو۟لَـٰٓئِكُمْ جَعَلْنَا لَكُمْ عَلَيْهِمْ سُلْطَـٰنًا مُّبِينًا",
     "textSimple": "ستجدون ءاخرين يريدون أن يأمنوكم ويأمنوا قومهم كل ما ردوٓا إلى ٱلفتنة أركسوا فيها  فإن لم يعتزلوكم ويلقوٓا إليكم ٱلسلم ويكفوٓا أيديهم فخذوهم وٱقتلوهم حيث ثقفتموهم  وأولـٓئكم جعلنا لكم عليهم سلطـنا مبينا",
     "transliteration": "satajidūna ākharīna yurīdūna an yamanūkum wayamanū qawmahum kulla mā ruddū ilā l-fit'nati ur'kisū fīhā fa-in lam yaʿtazilūkum wayul'qū ilaykumu l-salama wayakuffū aydiyahum fakhudhūhum wa-uq'tulūhum ḥaythu thaqif'tumūhum wa-ulāikum jaʿalnā lakum ʿalayhim sul'ṭānan mubīnan",
-    "translation": "",
+    "translation": "You will find others who wish to obtain security from you and [to] obtain security from their people. Every time they are returned to [the influence of] disbelief, they fall back into it. So if they do not withdraw from you or offer you peace or restrain their hands, then seize them and kill them wherever you overtake them. And those - We have made for you against them a clear authorization.",
     "words": [
       {
         "id": "an-nisa-91-1",
@@ -15304,7 +15394,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous en trouverez d’autres qui souhaitent gagner votre confiance et celle de leur propre peuple. Chaque fois qu’ils sont retournés vers l’idolâtrie ils y replongent tous. S’ils ne gardent pas leurs distances par rapport à vous, ne vous proposent pas la paix et n’arrêtent pas de vous inquiéter, alors attrapez-les et tuez-les là où vous les rencontrerez. Sur ceux-là, Nous vous avons dotés d’un pouvoir manifeste."
   },
   {
     "id": "an-nisa-92",
@@ -15313,7 +15404,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا خَطَـًٔا ۚ وَمَن قَتَلَ مُؤْمِنًا خَطَـًٔا فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ وَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّ لَّكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَـٰقٌ فَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ وَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
     "textSimple": "وما كان لمؤمن أن يقتل مؤمنا إلا خطـٔا  ومن قتل مؤمنا خطـٔا فتحرير رقبة مؤمنة ودية مسلمة إلىٓ أهلهٓ إلآ أن يصدقوا  فإن كان من قوم عدو لكم وهو مؤمن فتحرير رقبة مؤمنة  وإن كان من قوم بينكم وبينهم ميثـق فدية مسلمة إلىٓ أهله وتحرير رقبة مؤمنة  فمن لم يجد فصيام شهرين متتابعين توبة من ٱلله  وكان ٱلله عليما حكيما",
     "transliteration": "wamā kāna limu'minin an yaqtula mu'minan illā khaṭa-an waman qatala mu'minan khaṭa-an fataḥrīru raqabatin mu'minatin wadiyatun musallamatun ilā ahlihi illā an yaṣṣaddaqū fa-in kāna min qawmin ʿaduwwin lakum wahuwa mu'minun fataḥrīru raqabatin mu'minatin wa-in kāna min qawmin baynakum wabaynahum mīthāqun fadiyatun musallamatun ilā ahlihi wataḥrīru raqabatin mu'minatin faman lam yajid faṣiyāmu shahrayni mutatābiʿayni tawbatan mina l-lahi wakāna l-lahu ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "And never is it for a believer to kill a believer except by mistake. And whoever kills a believer by mistake - then the freeing of a believing slave and a compensation payment [diyah] presented to his [i.e., the deceased's] family [is required], unless they give [up their right as] charity. But if he [i.e., the deceased] was from a people at war with you and he was a believer - then [only] the freeing of a believing slave; and if he was from a people with whom you have a treaty - then a compensation payment presented to his family and the freeing of a believing slave. And whoever does not find [one or cannot afford to buy one] - then [instead], a fast for two months consecutively, [seeking] acceptance of repentance from Allāh. And Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-92-1",
@@ -15736,7 +15827,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 59
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un croyant n’a pas à tuer un autre croyant, sauf par erreur. Celui qui tue un croyant par erreur devra affranchir un esclave croyant et remettre le prix du sang à sa famille, si celle-ci ne décide pas de le céder en charité. Si (le défunt) est membre d’un groupe ennemi et qu’il soit croyant, vous devrez affranchir un esclave croyant. S’il est membre d’un clan auquel vous lie un pacte, vous paierez dans ce cas le prix du sang à sa famille et affranchirez un esclave croyant. Celui qui n’en a pas les moyens jeûnera deux mois successifs en signe de repentance et de retour à Allah. Allah est Omniscient et Sage."
   },
   {
     "id": "an-nisa-93",
@@ -15745,7 +15837,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَقْتُلْ مُؤْمِنًا مُّتَعَمِّدًا فَجَزَآؤُهُۥ جَهَنَّمُ خَـٰلِدًا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ وَأَعَدَّ لَهُۥ عَذَابًا عَظِيمًا",
     "textSimple": "ومن يقتل مؤمنا متعمدا فجزآؤه جهنم خـلدا فيها وغضب ٱلله عليه ولعنه وأعد له عذابا عظيما",
     "transliteration": "waman yaqtul mu'minan mutaʿammidan fajazāuhu jahannamu khālidan fīhā waghaḍiba l-lahu ʿalayhi walaʿanahu wa-aʿadda lahu ʿadhāban ʿaẓīman",
-    "translation": "",
+    "translation": "But whoever kills a believer intentionally - his recompense is Hell, wherein he will abide eternally, and Allāh has become angry with him and has cursed him and has prepared for him a great punishment.",
     "words": [
       {
         "id": "an-nisa-93-1",
@@ -15860,7 +15952,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui tue délibérément un croyant aura pour punition la Géhenne, où il séjournera pour l’éternité. Allah le frappera de Sa colère, le maudira et lui préparera un terrible supplice."
   },
   {
     "id": "an-nisa-94",
@@ -15869,7 +15962,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَـٰمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ مَغَانِمُ كَثِيرَةٌ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ فَمَنَّ ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا ضربتم فى سبيل ٱلله فتبينوا ولا تقولوا لمن ألقىٓ إليكم ٱلسلـم لست مؤمنا تبتغون عرض ٱلحيوة ٱلدنيا فعند ٱلله مغانم كثيرة  كذلك كنتم من قبل فمن ٱلله عليكم فتبينوٓا  إن ٱلله كان بما تعملون خبيرا",
     "transliteration": "yāayyuhā alladhīna āmanū idhā ḍarabtum fī sabīli l-lahi fatabayyanū walā taqūlū liman alqā ilaykumu l-salāma lasta mu'minan tabtaghūna ʿaraḍa l-ḥayati l-dun'yā faʿinda l-lahi maghānimu kathīratun kadhālika kuntum min qablu famanna l-lahu ʿalaykum fatabayyanū inna l-laha kāna bimā taʿmalūna khabīran",
-    "translation": "",
+    "translation": "O you who have believed, when you go forth [to fight] in the cause of Allāh, investigate; and do not say to one who gives you [a greeting of] peace, \"You are not a believer,\" aspiring for the goods of worldly life; for with Allāh are many acquisitions. You [yourselves] were like that before; then Allāh conferred His favor [i.e., guidance] upon you, so investigate. Indeed Allāh is ever, of what you do, Aware.",
     "words": [
       {
         "id": "an-nisa-94-1",
@@ -16145,7 +16238,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Quand vous partez combattre pour la cause d’Allah, soyez lucides dans vos actions, et ne dites pas à celui qui vous adresse le salut (en musulman) : « Tu n’es point croyant ! » (uniquement) parce que vous convoitez les richesses de ce bas monde. (Sachez qu’) auprès d’Allah se trouvent des butins en abondance. Vous-mêmes étiez ainsi auparavant, puis Allah vous a comblés de Ses grâces. Soyez donc lucides dans vos actions, car Allah est de Tout ce que vous faites Informé."
   },
   {
     "id": "an-nisa-95",
@@ -16154,7 +16248,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَسْتَوِى ٱلْقَـٰعِدُونَ مِنَ ٱلْمُؤْمِنِينَ غَيْرُ أُو۟لِى ٱلضَّرَرِ وَٱلْمُجَـٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۚ فَضَّلَ ٱللَّهُ ٱلْمُجَـٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَـٰعِدِينَ دَرَجَةً ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَفَضَّلَ ٱللَّهُ ٱلْمُجَـٰهِدِينَ عَلَى ٱلْقَـٰعِدِينَ أَجْرًا عَظِيمًا",
     "textSimple": "لا يستوى ٱلقـعدون من ٱلمؤمنين غير أولى ٱلضرر وٱلمجـهدون فى سبيل ٱلله بأمولهم وأنفسهم  فضل ٱلله ٱلمجـهدين بأمولهم وأنفسهم على ٱلقـعدين درجة  وكلا وعد ٱلله ٱلحسنى  وفضل ٱلله ٱلمجـهدين على ٱلقـعدين أجرا عظيما",
     "transliteration": "lā yastawī l-qāʿidūna mina l-mu'minīna ghayru ulī l-ḍarari wal-mujāhidūna fī sabīli l-lahi bi-amwālihim wa-anfusihim faḍḍala l-lahu l-mujāhidīna bi-amwālihim wa-anfusihim ʿalā l-qāʿidīna darajatan wakullan waʿada l-lahu l-ḥus'nā wafaḍḍala l-lahu l-mujāhidīna ʿalā l-qāʿidīna ajran ʿaẓīman",
-    "translation": "",
+    "translation": "Not equal are those believers remaining [at home] - other than the disabled - and the mujāhideen, [who strive and fight] in the cause of Allāh with their wealth and their lives. Allāh has preferred the mujāhideen through their wealth and their lives over those who remain [behind], by degrees. And to all [i.e., both] Allāh has promised the best [reward]. But Allāh has preferred the mujāhideen over those who remain [behind] with a great reward -",
     "words": [
       {
         "id": "an-nisa-95-1",
@@ -16388,7 +16482,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux des croyants qui restent en arrière, excepté les infirmes, ne sauraient égaler (en mérite) ceux qui luttent dans le chemin d’Allah par leurs biens et leurs vies. Allah a promu ceux qui luttent par leurs biens et leurs vies à un rang supérieur par rapport à ceux qui sont restés en arrière. Et à chacun (des croyants) Allah a promis la plus belle des récompenses ; mais Il a élevé les combattants à une dignité supérieure par rapport à ceux qui sont restés en arrière en leur réservant une récompense infiniment plus grande."
   },
   {
     "id": "an-nisa-96",
@@ -16397,7 +16492,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "دَرَجَـٰتٍ مِّنْهُ وَمَغْفِرَةً وَرَحْمَةً ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": "درجـت منه ومغفرة ورحمة  وكان ٱلله غفورا رحيما",
     "transliteration": "darajātin min'hu wamaghfiratan waraḥmatan wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "Degrees [of high position] from Him and forgiveness and mercy. And Allāh is ever Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-96-1",
@@ -16456,7 +16551,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il les a élevés) à des rangs venant de Lui, et (leur a accordé) un pardon et une miséricorde, car Allah est Absoluteur et Tout Miséricordieux !"
   },
   {
     "id": "an-nisa-97",
@@ -16465,7 +16561,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ تَوَفَّىٰهُمُ ٱلْمَلَـٰٓئِكَةُ ظَالِمِىٓ أَنفُسِهِمْ قَالُوا۟ فِيمَ كُنتُمْ ۖ قَالُوا۟ كُنَّا مُسْتَضْعَفِينَ فِى ٱلْأَرْضِ ۚ قَالُوٓا۟ أَلَمْ تَكُنْ أَرْضُ ٱللَّهِ وَٰسِعَةً فَتُهَاجِرُوا۟ فِيهَا ۚ فَأُو۟لَـٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ ۖ وَسَآءَتْ مَصِيرًا",
     "textSimple": "إن ٱلذين توفىهم ٱلملـٓئكة ظالمىٓ أنفسهم قالوا فيم كنتم  قالوا كنا مستضعفين فى ٱلأرض  قالوٓا ألم تكن أرض ٱلله وسعة فتهاجروا فيها  فأولـٓئك مأوىهم جهنم  وسآءت مصيرا",
     "transliteration": "inna alladhīna tawaffāhumu l-malāikatu ẓālimī anfusihim qālū fīma kuntum qālū kunnā mus'taḍʿafīna fī l-arḍi qālū alam takun arḍu l-lahi wāsiʿatan fatuhājirū fīhā fa-ulāika mawāhum jahannamu wasāat maṣīran",
-    "translation": "",
+    "translation": "Indeed, those whom the angels take [in death] while wronging themselves - [the angels] will say, \"In what [condition] were you?\" They will say, \"We were oppressed in the land.\" They [the angels] will say, \"Was not the earth of Allāh spacious [enough] for you to emigrate therein?\" For those, their refuge is Hell - and evil it is as a destination.",
     "words": [
       {
         "id": "an-nisa-97-1",
@@ -16657,7 +16753,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui se sont lésés eux-mêmes verront les Anges reprendre leurs âmes en disant : « En quoi étiez-vous donc ? » « Nous étions faibles sur terre », répondront-ils. (Les Anges demanderont alors) : « La terre d’Allah n’était-elle donc pas assez vaste pour que vous émigriez ? » Ceux-là auront pour séjour la Géhenne et quel horrible sort !"
   },
   {
     "id": "an-nisa-98",
@@ -16666,7 +16763,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ لَا يَسْتَطِيعُونَ حِيلَةً وَلَا يَهْتَدُونَ سَبِيلًا",
     "textSimple": "إلا ٱلمستضعفين من ٱلرجال وٱلنسآء وٱلولدن لا يستطيعون حيلة ولا يهتدون سبيلا",
     "transliteration": "illā l-mus'taḍʿafīna mina l-rijāli wal-nisāi wal-wil'dāni lā yastaṭīʿūna ḥīlatan walā yahtadūna sabīlan",
-    "translation": "",
+    "translation": "Except for the oppressed among men, women, and children who cannot devise a plan nor are they directed to a way -",
     "words": [
       {
         "id": "an-nisa-98-1",
@@ -16753,7 +16850,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À l’exception des faibles parmi les hommes, les femmes et les enfants, incapables qu’ils sont de trouver (tout seuls) les issues et les voies."
   },
   {
     "id": "an-nisa-99",
@@ -16762,7 +16860,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَأُو۟لَـٰٓئِكَ عَسَى ٱللَّهُ أَن يَعْفُوَ عَنْهُمْ ۚ وَكَانَ ٱللَّهُ عَفُوًّا غَفُورًا",
     "textSimple": "فأولـٓئك عسى ٱلله أن يعفو عنهم  وكان ٱلله عفوا غفورا",
     "transliteration": "fa-ulāika ʿasā l-lahu an yaʿfuwa ʿanhum wakāna l-lahu ʿafuwwan ghafūran",
-    "translation": "",
+    "translation": "For those it is expected that Allāh will pardon them, and Allāh is ever Pardoning and Forgiving.",
     "words": [
       {
         "id": "an-nisa-99-1",
@@ -16835,7 +16933,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux-là, Allah accordera peut-être le pardon, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-100",
@@ -16844,7 +16943,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًا كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": " ومن يهاجر فى سبيل ٱلله يجد فى ٱلأرض مرغما كثيرا وسعة  ومن يخرج من بيته مهاجرا إلى ٱلله ورسوله ثم يدركه ٱلموت فقد وقع أجره على ٱلله  وكان ٱلله غفورا رحيما",
     "transliteration": "waman yuhājir fī sabīli l-lahi yajid fī l-arḍi murāghaman kathīran wasaʿatan waman yakhruj min baytihi muhājiran ilā l-lahi warasūlihi thumma yud'rik'hu l-mawtu faqad waqaʿa ajruhu ʿalā l-lahi wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "And whoever emigrates for the cause of Allāh will find on the earth many [alternative] locations and abundance. And whoever leaves his home as an emigrant to Allāh and His Messenger and then death overtakes him - his reward has already become incumbent upon Allāh. And Allāh is ever Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-100-1",
@@ -17064,7 +17163,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui émigre pour la cause d’Allah, trouvera sur terre maints refuges et de vastes richesses. Et celui qui quitte sa demeure pour émigrer vers Allah et Son Messager, mais que la mort surprend (en cours de route), sa récompense est (assurée) auprès d’Allah. Allah est, certes, Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-101",
@@ -17073,7 +17173,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ ۚ إِنَّ ٱلْكَـٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّا مُّبِينًا",
     "textSimple": "وإذا ضربتم فى ٱلأرض فليس عليكم جناح أن تقصروا من ٱلصلوة إن خفتم أن يفتنكم ٱلذين كفروٓا  إن ٱلكـفرين كانوا لكم عدوا مبينا",
     "transliteration": "wa-idhā ḍarabtum fī l-arḍi falaysa ʿalaykum junāḥun an taqṣurū mina l-ṣalati in khif'tum an yaftinakumu alladhīna kafarū inna l-kāfirīna kānū lakum ʿaduwwan mubīnan",
-    "translation": "",
+    "translation": "And when you travel throughout the land, there is no blame upon you for shortening the prayer, [especially] if you fear that those who disbelieve may disrupt [or attack] you. Indeed, the disbelievers are ever to you a clear enemy.",
     "words": [
       {
         "id": "an-nisa-101-1",
@@ -17237,7 +17337,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque vous parcourez la terre, il ne vous sera pas fait grief de raccourcir la Çalât, si vous craignez d’être défiés par ceux qui ont mécru. Les mécréants, en effet, sont pour vous un ennemi avéré."
   },
   {
     "id": "an-nisa-102",
@@ -17246,7 +17347,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةً وَٰحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ ۖ وَخُذُوا۟ حِذْرَكُمْ ۗ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَـٰفِرِينَ عَذَابًا مُّهِينًا",
     "textSimple": "وإذا كنت فيهم فأقمت لهم ٱلصلوة فلتقم طآئفة منهم معك وليأخذوٓا أسلحتهم فإذا سجدوا فليكونوا من ورآئكم ولتأت طآئفة أخرى لم يصلوا فليصلوا معك وليأخذوا حذرهم وأسلحتهم  ود ٱلذين كفروا لو تغفلون عن أسلحتكم وأمتعتكم فيميلون عليكم ميلة وحدة  ولا جناح عليكم إن كان بكم أذى من مطر أو كنتم مرضىٓ أن تضعوٓا أسلحتكم  وخذوا حذركم  إن ٱلله أعد للكـفرين عذابا مهينا",
     "transliteration": "wa-idhā kunta fīhim fa-aqamta lahumu l-ṣalata faltaqum ṭāifatun min'hum maʿaka walyakhudhū asliḥatahum fa-idhā sajadū falyakūnū min warāikum waltati ṭāifatun ukh'rā lam yuṣallū falyuṣallū maʿaka walyakhudhū ḥidh'rahum wa-asliḥatahum wadda alladhīna kafarū law taghfulūna ʿan asliḥatikum wa-amtiʿatikum fayamīlūna ʿalaykum maylatan wāḥidatan walā junāḥa ʿalaykum in kāna bikum adhan min maṭarin aw kuntum marḍā an taḍaʿū asliḥatakum wakhudhū ḥidh'rakum inna l-laha aʿadda lil'kāfirīna ʿadhāban muhīnan",
-    "translation": "",
+    "translation": "And when you [i.e., the commander of an army] are among them and lead them in prayer, let a group of them stand [in prayer] with you and let them carry their arms. And when they have prostrated, let them be [in position] behind you and have the other group come forward which has not [yet] prayed and let them pray with you, taking precaution and carrying their arms. Those who disbelieve wish that you would neglect your weapons and your baggage so they could come down upon you in one [single] attack. But there is no blame upon you, if you are troubled by rain or are ill, for putting down your arms, but take precaution. Indeed, Allāh has prepared for the disbelievers a humiliating punishment.",
     "words": [
       {
         "id": "an-nisa-102-1",
@@ -17683,7 +17784,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 61
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque tu es parmi (tes troupes) et que tu dois les diriger dans l’accomplissement de la Çalât, que certains se tiennent debout à tes côtés en tenant leurs armes. Leur prosternation achevée, ils devront passer derrière vous pour que viennent d’autres qui n’ont pas encore accompli la Çalât. Qu’ils l’accomplissent avec toi en restant vigilants et en tenant leurs armes. Les mécréants aimeraient tant vous voir distraits au point d’en oublier vos armes et vos bagages. Ils vous tomberaient alors dessus d’un seul coup. Il ne vous sera pas fait grief si, gênés par la pluie ou souffrants, vous déposez vos armes. Mais restez toujours vigilants. Allah a préparé aux mécréants un supplice humiliant."
   },
   {
     "id": "an-nisa-103",
@@ -17692,7 +17794,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَـٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَـٰبًا مَّوْقُوتًا",
     "textSimple": "فإذا قضيتم ٱلصلوة فٱذكروا ٱلله قيـما وقعودا وعلى جنوبكم  فإذا ٱطمأننتم فأقيموا ٱلصلوة  إن ٱلصلوة كانت على ٱلمؤمنين كتـبا موقوتا",
     "transliteration": "fa-idhā qaḍaytumu l-ṣalata fa-udh'kurū l-laha qiyāman waquʿūdan waʿalā junūbikum fa-idhā iṭ'manantum fa-aqīmū l-ṣalata inna l-ṣalata kānat ʿalā l-mu'minīna kitāban mawqūtan",
-    "translation": "",
+    "translation": "And when you have completed the prayer, remember Allāh standing, sitting, or [lying] on your sides. But when you become secure, re-establish [regular] prayer. Indeed, prayer has been decreed upon the believers a decree of specified times.",
     "words": [
       {
         "id": "an-nisa-103-1",
@@ -17835,7 +17937,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque vous aurez accompli la Çalât, invoquez Allah, debout, assis ou étendus sur le côté. Une fois la sécurité retrouvée, accomplissez la Çalât (d’une façon normale), car la Çalât est pour les croyants une prescription déterminée dans le temps."
   },
   {
     "id": "an-nisa-104",
@@ -17844,7 +17947,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَهِنُوا۟ فِى ٱبْتِغَآءِ ٱلْقَوْمِ ۖ إِن تَكُونُوا۟ تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ ۖ وَتَرْجُونَ مِنَ ٱللَّهِ مَا لَا يَرْجُونَ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
     "textSimple": "ولا تهنوا فى ٱبتغآء ٱلقوم  إن تكونوا تألمون فإنهم يألمون كما تألمون  وترجون من ٱلله ما لا يرجون  وكان ٱلله عليما حكيما",
     "transliteration": "walā tahinū fī ib'tighāi l-qawmi in takūnū talamūna fa-innahum yalamūna kamā talamūna watarjūna mina l-lahi mā lā yarjūna wakāna l-lahu ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "And do not weaken in pursuit of the enemy. If you should be suffering - so are they suffering as you are suffering, but you expect from Allāh that which they expect not. And Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-104-1",
@@ -18001,7 +18104,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne lâchez pas pied en affrontant les ennemis. Car si vous souffrez, ils souffrent comme vous. Mais vous espérez d’Allah ce que, quant à eux, ils ne sauraient espérer. Allah est Omniscient et Sage !"
   },
   {
     "id": "an-nisa-105",
@@ -18010,7 +18114,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًا",
     "textSimple": "إنآ أنزلنآ إليك ٱلكتـب بٱلحق لتحكم بين ٱلناس بمآ أرىك ٱلله  ولا تكن للخآئنين خصيما",
     "transliteration": "innā anzalnā ilayka l-kitāba bil-ḥaqi litaḥkuma bayna l-nāsi bimā arāka l-lahu walā takun lil'khāinīna khaṣīman",
-    "translation": "",
+    "translation": "Indeed, We have revealed to you, [O Muḥammad], the Book in truth so you may judge between the people by that which Allāh has shown you. And do not be for the deceitful an advocate.",
     "words": [
       {
         "id": "an-nisa-105-1",
@@ -18118,7 +18222,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre (en révélation) vers toi le Livre de la vérité pour que tu juges entre les hommes par (les enseignements) qu’Allah t’a révélés. Ne sois donc pas le défenseur des traîtres."
   },
   {
     "id": "an-nisa-106",
@@ -18127,7 +18232,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
     "textSimple": "وٱستغفر ٱلله  إن ٱلله كان غفورا رحيما",
     "transliteration": "wa-is'taghfiri l-laha inna l-laha kāna ghafūran raḥīman",
-    "translation": "",
+    "translation": "And seek forgiveness of Allāh. Indeed, Allāh is ever Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-106-1",
@@ -18179,7 +18284,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et implore pour toi le pardon d’Allah, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-107",
@@ -18188,7 +18294,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُجَـٰدِلْ عَنِ ٱلَّذِينَ يَخْتَانُونَ أَنفُسَهُمْ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ خَوَّانًا أَثِيمًا",
     "textSimple": "ولا تجـدل عن ٱلذين يختانون أنفسهم  إن ٱلله لا يحب من كان خوانا أثيما",
     "transliteration": "walā tujādil ʿani alladhīna yakhtānūna anfusahum inna l-laha lā yuḥibbu man kāna khawwānan athīman",
-    "translation": "",
+    "translation": "And do not argue on behalf of those who deceive themselves. Indeed, Allāh loves not one who is a habitually sinful deceiver.",
     "words": [
       {
         "id": "an-nisa-107-1",
@@ -18289,7 +18395,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et n’argumente pas en faveur de ceux qui se trahissent eux-mêmes. Allah n’aime pas le traître déterminé et le pécheur obstiné."
   },
   {
     "id": "an-nisa-108",
@@ -18298,7 +18405,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَسْتَخْفُونَ مِنَ ٱلنَّاسِ وَلَا يَسْتَخْفُونَ مِنَ ٱللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَىٰ مِنَ ٱلْقَوْلِ ۚ وَكَانَ ٱللَّهُ بِمَا يَعْمَلُونَ مُحِيطًا",
     "textSimple": "يستخفون من ٱلناس ولا يستخفون من ٱلله وهو معهم إذ يبيتون ما لا يرضى من ٱلقول  وكان ٱلله بما يعملون محيطا",
     "transliteration": "yastakhfūna mina l-nāsi walā yastakhfūna mina l-lahi wahuwa maʿahum idh yubayyitūna mā lā yarḍā mina l-qawli wakāna l-lahu bimā yaʿmalūna muḥīṭan",
-    "translation": "",
+    "translation": "They conceal [their evil intentions and deeds] from the people, but they cannot conceal [them] from Allāh, and He is with them [in His knowledge] when they spend the night in such as He does not accept of speech. And ever is Allāh, of what they do, encompassing.",
     "words": [
       {
         "id": "an-nisa-108-1",
@@ -18448,7 +18555,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils font tout pour se cacher des hommes mais ne font rien pour se cacher d’Allah. Il est pourtant avec eux quand, la nuit, ils tiennent des propos qu’Il n’agrée pas. Allah, (par Son savoir), Cerne ce qu’ils font."
   },
   {
     "id": "an-nisa-109",
@@ -18457,7 +18565,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰٓأَنتُمْ هَـٰٓؤُلَآءِ جَـٰدَلْتُمْ عَنْهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا فَمَن يُجَـٰدِلُ ٱللَّهَ عَنْهُمْ يَوْمَ ٱلْقِيَـٰمَةِ أَم مَّن يَكُونُ عَلَيْهِمْ وَكِيلًا",
     "textSimple": "هـٓأنتم هـٓؤلآء جـدلتم عنهم فى ٱلحيوة ٱلدنيا فمن يجـدل ٱلله عنهم يوم ٱلقيـمة أم من يكون عليهم وكيلا",
     "transliteration": "hāantum hāulāi jādaltum ʿanhum fī l-ḥayati l-dun'yā faman yujādilu l-laha ʿanhum yawma l-qiyāmati am man yakūnu ʿalayhim wakīlan",
-    "translation": "",
+    "translation": "Here you are - those who argue on their behalf in [this] worldly life - but who will argue with Allāh for them on the Day of Resurrection, or who will [then] be their representative?",
     "words": [
       {
         "id": "an-nisa-109-1",
@@ -18586,7 +18694,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà donc que vous plaidez pour eux dans ce bas monde. Mais alors qui plaidera pour eux au Jour de la Résurrection ? Et qui sera leur défenseur ?"
   },
   {
     "id": "an-nisa-110",
@@ -18595,7 +18704,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًا رَّحِيمًا",
     "textSimple": "ومن يعمل سوٓءا أو يظلم نفسه ثم يستغفر ٱلله يجد ٱلله غفورا رحيما",
     "transliteration": "waman yaʿmal sūan aw yaẓlim nafsahu thumma yastaghfiri l-laha yajidi l-laha ghafūran raḥīman",
-    "translation": "",
+    "translation": "And whoever does a wrong or wrongs himself but then seeks forgiveness of Allāh will find Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-110-1",
@@ -18689,7 +18798,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui commet un méfait ou se lèse lui-même, puis implore le pardon, trouvera qu’Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-111",
@@ -18698,7 +18808,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَكْسِبْ إِثْمًا فَإِنَّمَا يَكْسِبُهُۥ عَلَىٰ نَفْسِهِۦ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
     "textSimple": "ومن يكسب إثما فإنما يكسبه على نفسه  وكان ٱلله عليما حكيما",
     "transliteration": "waman yaksib ith'man fa-innamā yaksibuhu ʿalā nafsihi wakāna l-lahu ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "And whoever earns [i.e., commits] a sin only earns it against himself. And Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-111-1",
@@ -18778,7 +18888,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et celui qui commet un péché l’aura commis contre lui-même. Allah est Omniscient et Sage."
   },
   {
     "id": "an-nisa-112",
@@ -18787,7 +18898,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَكْسِبْ خَطِيٓـَٔةً أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِۦ بَرِيٓـًٔا فَقَدِ ٱحْتَمَلَ بُهْتَـٰنًا وَإِثْمًا مُّبِينًا",
     "textSimple": "ومن يكسب خطيٓـٔة أو إثما ثم يرم به بريٓـٔا فقد ٱحتمل بهتـنا وإثما مبينا",
     "transliteration": "waman yaksib khaṭīatan aw ith'man thumma yarmi bihi barīan faqadi iḥ'tamala buh'tānan wa-ith'man mubīnan",
-    "translation": "",
+    "translation": "But whoever earns an offense or a sin and then blames it on an innocent [person] has taken upon himself a slander and manifest sin.",
     "words": [
       {
         "id": "an-nisa-112-1",
@@ -18888,7 +18999,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et celui qui se rend coupable d’une faute ou d’un péché puis en accuse un innocent assumera une injustice et un péché flagrant."
   },
   {
     "id": "an-nisa-113",
@@ -18897,7 +19009,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًا",
     "textSimple": "ولولا فضل ٱلله عليك ورحمته لهمت طآئفة منهم أن يضلوك وما يضلون إلآ أنفسهم  وما يضرونك من شىء  وأنزل ٱلله عليك ٱلكتـب وٱلحكمة وعلمك ما لم تكن تعلم  وكان فضل ٱلله عليك عظيما",
     "transliteration": "walawlā faḍlu l-lahi ʿalayka waraḥmatuhu lahammat ṭāifatun min'hum an yuḍillūka wamā yuḍillūna illā anfusahum wamā yaḍurrūnaka min shayin wa-anzala l-lahu ʿalayka l-kitāba wal-ḥik'mata waʿallamaka mā lam takun taʿlamu wakāna faḍlu l-lahi ʿalayka ʿaẓīman",
-    "translation": "",
+    "translation": "And if it was not for the favor of Allāh upon you, [O Muḥammad], and His mercy, a group of them would have determined to mislead you. But they do not mislead except themselves, and they will not harm you at all. And Allāh has revealed to you the Book and wisdom and has taught you that which you did not know. And ever has the favor of Allāh upon you been great.",
     "words": [
       {
         "id": "an-nisa-113-1",
@@ -19131,7 +19243,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sans la faveur et la grâce d’Allah envers toi, un groupe d’entre eux aurait tenté de t’égarer. Mais ils ne font que s’égarer eux-mêmes et ne sauraient en rien te nuire. Allah a fait descendre (en révélation) sur toi le Livre et la Sagesse, et t’a enseigné ce que tu ne savais pas. Et la faveur d’Allah est, envers toi, vraiment immense."
   },
   {
     "id": "an-nisa-114",
@@ -19140,7 +19253,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَّا خَيْرَ فِى كَثِيرٍ مِّن نَّجْوَىٰهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَـٰحٍۭ بَيْنَ ٱلنَّاسِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
     "textSimple": " لا خير فى كثير من نجوىهم إلا من أمر بصدقة أو معروف أو إصلـح بين ٱلناس  ومن يفعل ذلك ٱبتغآء مرضات ٱلله فسوف نؤتيه أجرا عظيما",
     "transliteration": "lā khayra fī kathīrin min najwāhum illā man amara biṣadaqatin aw maʿrūfin aw iṣ'lāḥin bayna l-nāsi waman yafʿal dhālika ib'tighāa marḍāti l-lahi fasawfa nu'tīhi ajran ʿaẓīman",
-    "translation": "",
+    "translation": "No good is there in much of their private conversation, except for those who enjoin charity or that which is right or conciliation between people. And whoever does that seeking means to the approval of Allāh - then We are going to give him a great reward.",
     "words": [
       {
         "id": "an-nisa-114-1",
@@ -19325,7 +19438,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est aucun bien dans beaucoup de leurs secrètes conspirations, sauf à ordonner une charité, un acte de bien ou une réconciliation entre les hommes. Celui qui agit de la sorte, souhaitant la satisfaction d’Allah, Nous lui accorderons une très grande récompense."
   },
   {
     "id": "an-nisa-115",
@@ -19334,7 +19448,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا",
     "textSimple": "ومن يشاقق ٱلرسول من بعد ما تبين له ٱلهدى ويتبع غير سبيل ٱلمؤمنين نوله ما تولى ونصله جهنم  وسآءت مصيرا",
     "transliteration": "waman yushāqiqi l-rasūla min baʿdi mā tabayyana lahu l-hudā wayattabiʿ ghayra sabīli l-mu'minīna nuwallihi mā tawallā wanuṣ'lihi jahannama wasāat maṣīran",
-    "translation": "",
+    "translation": "And whoever opposes the Messenger after guidance has become clear to him and follows other than the way of the believers - We will give him what he has taken and drive him into Hell, and evil it is as a destination.",
     "words": [
       {
         "id": "an-nisa-115-1",
@@ -19477,7 +19591,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et celui qui entre en dissidence avec le Messager, après que le droit chemin s’est nettement distingué pour lui, et qui suit un autre chemin que celui des croyants, Nous le dirigerons vers ce qu’il s’est choisi lui-même, et le ferons brûler dans la Géhenne. Et quel horrible sort !"
   },
   {
     "id": "an-nisa-116",
@@ -19486,7 +19601,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدْ ضَلَّ ضَلَـٰلًۢا بَعِيدًا",
     "textSimple": "إن ٱلله لا يغفر أن يشرك به ويغفر ما دون ذلك لمن يشآء  ومن يشرك بٱلله فقد ضل ضلـلا بعيدا",
     "transliteration": "inna l-laha lā yaghfiru an yush'raka bihi wayaghfiru mā dūna dhālika liman yashāu waman yush'rik bil-lahi faqad ḍalla ḍalālan baʿīdan",
-    "translation": "",
+    "translation": "Indeed, Allāh does not forgive association with Him, but He forgives what is less than that for whom He wills. And he who associates others with Allāh has certainly gone far astray.",
     "words": [
       {
         "id": "an-nisa-116-1",
@@ -19629,7 +19744,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne pardonne pas que Lui soit associé quoi que ce soit et pardonne (tout autre péché) à qui Il veut. Et celui qui donne des associés à Allah s’est égaré et est allé très loin dans l’égarement."
   },
   {
     "id": "an-nisa-117",
@@ -19638,7 +19754,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَدْعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَـٰثًا وَإِن يَدْعُونَ إِلَّا شَيْطَـٰنًا مَّرِيدًا",
     "textSimple": "إن يدعون من دونهٓ إلآ إنـثا وإن يدعون إلا شيطـنا مريدا",
     "transliteration": "in yadʿūna min dūnihi illā ināthan wa-in yadʿūna illā shayṭānan marīdan",
-    "translation": "",
+    "translation": "They call upon instead of Him none but female [deities], and they [actually] call upon none but a rebellious Satan,",
     "words": [
       {
         "id": "an-nisa-117-1",
@@ -19718,7 +19834,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’invoquent, en dehors de Lui, que des divinités féminines et n’invoquent que Satan le Rebelle."
   },
   {
     "id": "an-nisa-118",
@@ -19727,7 +19844,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لَّعَنَهُ ٱللَّهُ ۘ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًا مَّفْرُوضًا",
     "textSimple": "لعنه ٱلله  وقال لأتخذن من عبادك نصيبا مفروضا",
     "transliteration": "laʿanahu l-lahu waqāla la-attakhidhanna min ʿibādika naṣīban mafrūḍan",
-    "translation": "",
+    "translation": "Whom Allāh has cursed. For he had said, \"I will surely take from among Your servants a specific portion.",
     "words": [
       {
         "id": "an-nisa-118-1",
@@ -19786,7 +19903,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah l’a maudit, et (Satan) a dit : « Je m’attribuerai sûrement une partie déterminée de Tes serviteurs."
   },
   {
     "id": "an-nisa-119",
@@ -19795,7 +19913,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَـَٔامُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلْأَنْعَـٰمِ وَلَـَٔامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَـٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
     "textSimple": "ولأضلنهم ولأمنينهم ولـٔامرنهم فليبتكن ءاذان ٱلأنعـم ولـٔامرنهم فليغيرن خلق ٱلله  ومن يتخذ ٱلشيطـن وليا من دون ٱلله فقد خسر خسرانا مبينا",
     "transliteration": "wala-uḍillannahum wala-umanniyannahum walaāmurannahum falayubattikunna ādhāna l-anʿāmi walaāmurannahum falayughayyirunna khalqa l-lahi waman yattakhidhi l-shayṭāna waliyyan min dūni l-lahi faqad khasira khus'rānan mubīnan",
-    "translation": "",
+    "translation": "And I will mislead them, and I will arouse in them [sinful] desires, and I will command them so they will slit the ears of cattle, and I will command them so they will change the creation of Allāh.\" And whoever takes Satan as an ally instead of Allāh has certainly sustained a clear loss.",
     "words": [
       {
         "id": "an-nisa-119-1",
@@ -19945,7 +20063,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes je les égarerai et les nourrirai d’illusions. Je leur donnerai des ordres, et ils fendront les oreilles du bétail, je leur donnerai des ordres, et ils défigureront les créatures d’Allah. » Et celui qui prend pour maître Satan plutôt qu’Allah est voué à la perdition la plus évidente."
   },
   {
     "id": "an-nisa-120",
@@ -19954,7 +20073,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَعِدُهُمْ وَيُمَنِّيهِمْ ۖ وَمَا يَعِدُهُمُ ٱلشَّيْطَـٰنُ إِلَّا غُرُورًا",
     "textSimple": "يعدهم ويمنيهم  وما يعدهم ٱلشيطـن إلا غرورا",
     "transliteration": "yaʿiduhum wayumannīhim wamā yaʿiduhumu l-shayṭānu illā ghurūran",
-    "translation": "",
+    "translation": "He [i.e., Satan] promises them and arouses desire in them. But Satan does not promise them except delusion.",
     "words": [
       {
         "id": "an-nisa-120-1",
@@ -20006,7 +20125,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur fait des promesses, les nourrit d’espoirs vains, mais Satan ne saurait faire que promesses fallacieuses."
   },
   {
     "id": "an-nisa-121",
@@ -20015,7 +20135,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ وَلَا يَجِدُونَ عَنْهَا مَحِيصًا",
     "textSimple": "أولـٓئك مأوىهم جهنم ولا يجدون عنها محيصا",
     "transliteration": "ulāika mawāhum jahannamu walā yajidūna ʿanhā maḥīṣan",
-    "translation": "",
+    "translation": "The refuge of those will be Hell, and they will not find from it an escape.",
     "words": [
       {
         "id": "an-nisa-121-1",
@@ -20067,7 +20187,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là auront pour refuge la Géhenne, et ils ne trouveront aucune issue leur permettant d’y échapper."
   },
   {
     "id": "an-nisa-122",
@@ -20076,7 +20197,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَنُدْخِلُهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ قِيلًا",
     "textSimple": "وٱلذين ءامنوا وعملوا ٱلصـلحـت سندخلهم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيهآ أبدا  وعد ٱلله حقا  ومن أصدق من ٱلله قيلا",
     "transliteration": "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti sanud'khiluhum jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā abadan waʿda l-lahi ḥaqqan waman aṣdaqu mina l-lahi qīlan",
-    "translation": "",
+    "translation": "But the ones who believe and do righteous deeds - We will admit them to gardens beneath which rivers flow, wherein they will abide forever. [It is] the promise of Allāh, [which is] truth, and who is more truthful than Allāh in statement.",
     "words": [
       {
         "id": "an-nisa-122-1",
@@ -20226,7 +20347,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont cru et ont accompli les bonnes œuvres, Nous les ferons accéder à des jardins sous lesquels coulent les rivières, où ils séjourneront à jamais. Telle est la promesse d’Allah. Est-il plus véridique qu’Allah dans Ses Paroles ?"
   },
   {
     "id": "an-nisa-123",
@@ -20235,7 +20357,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَـٰبِ ۗ مَن يَعْمَلْ سُوٓءًا يُجْزَ بِهِۦ وَلَا يَجِدْ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
     "textSimple": "ليس بأمانيكم ولآ أمانى أهل ٱلكتـب  من يعمل سوٓءا يجز به ولا يجد له من دون ٱلله وليا ولا نصيرا",
     "transliteration": "laysa bi-amāniyyikum walā amāniyyi ahli l-kitābi man yaʿmal sūan yuj'za bihi walā yajid lahu min dūni l-lahi waliyyan walā naṣīran",
-    "translation": "",
+    "translation": "It [i.e., Paradise] is not [obtained] by your wishful thinking nor by that of the People of the Scripture. Whoever does a wrong will be recompensed for it, and he will not find besides Allāh a protector or a helper.",
     "words": [
       {
         "id": "an-nisa-123-1",
@@ -20378,7 +20500,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela ne sera dû ni à vos espérances ni aux espérances des gens du Livre : celui qui commet un forfait en recevra la rétribution, et il ne trouvera, en dehors d’Allah, ni allié ni soutien."
   },
   {
     "id": "an-nisa-124",
@@ -20387,7 +20510,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَأُو۟لَـٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًا",
     "textSimple": "ومن يعمل من ٱلصـلحـت من ذكر أو أنثى وهو مؤمن فأولـٓئك يدخلون ٱلجنة ولا يظلمون نقيرا",
     "transliteration": "waman yaʿmal mina l-ṣāliḥāti min dhakarin aw unthā wahuwa mu'minun fa-ulāika yadkhulūna l-janata walā yuẓ'lamūna naqīran",
-    "translation": "",
+    "translation": "And whoever does righteous deeds, whether male or female, while being a believer - those will enter Paradise and will not be wronged, [even as much as] the speck on a date seed.",
     "words": [
       {
         "id": "an-nisa-124-1",
@@ -20502,7 +20625,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui, hommes ou femmes, accomplissent les bonnes œuvres en (vrais) croyants, ceux-là entreront au Paradis et ne seront point lésés, pas même d’un naqîr (le point creux sur un noyau de datte)."
   },
   {
     "id": "an-nisa-125",
@@ -20511,7 +20635,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَحْسَنُ دِينًا مِّمَّنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌ وَٱتَّبَعَ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا ۗ وَٱتَّخَذَ ٱللَّهُ إِبْرَٰهِيمَ خَلِيلًا",
     "textSimple": "ومن أحسن دينا ممن أسلم وجهه لله وهو محسن وٱتبع ملة إبرهيم حنيفا  وٱتخذ ٱلله إبرهيم خليلا",
     "transliteration": "waman aḥsanu dīnan mimman aslama wajhahu lillahi wahuwa muḥ'sinun wa-ittabaʿa millata ib'rāhīma ḥanīfan wa-ittakhadha l-lahu ib'rāhīma khalīlan",
-    "translation": "",
+    "translation": "And who is better in religion than one who submits himself to Allāh while being a doer of good and follows the religion of Abraham, inclining toward truth? And Allāh took Abraham as an intimate friend.",
     "words": [
       {
         "id": "an-nisa-125-1",
@@ -20633,7 +20757,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui a meilleure religion que celui-là qui se soumet entièrement à Allah, tout en faisant le bien et en suivant la tradition d’Abraham, le vrai monothéiste ? Car Allah avait pris Abraham pour ami proche !"
   },
   {
     "id": "an-nisa-126",
@@ -20642,7 +20767,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ مُّحِيطًا",
     "textSimple": "ولله ما فى ٱلسمـوت وما فى ٱلأرض  وكان ٱلله بكل شىء محيطا",
     "transliteration": "walillahi mā fī l-samāwāti wamā fī l-arḍi wakāna l-lahu bikulli shayin muḥīṭan",
-    "translation": "",
+    "translation": "And to Allāh belongs whatever is in the heavens and whatever is on the earth. And ever is Allāh, of all things, encompassing.",
     "words": [
       {
         "id": "an-nisa-126-1",
@@ -20729,7 +20854,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient ce qu’il y a dans les cieux et sur terre. Et, de par Son savoir, Allah Cerne Toute chose."
   },
   {
     "id": "an-nisa-127",
@@ -20738,7 +20864,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْتَفْتُونَكَ فِى ٱلنِّسَآءِ ۖ قُلِ ٱللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِى ٱلْكِتَـٰبِ فِى يَتَـٰمَى ٱلنِّسَآءِ ٱلَّـٰتِى لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ وَتَرْغَبُونَ أَن تَنكِحُوهُنَّ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلْوِلْدَٰنِ وَأَن تَقُومُوا۟ لِلْيَتَـٰمَىٰ بِٱلْقِسْطِ ۚ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ كَانَ بِهِۦ عَلِيمًا",
     "textSimple": "ويستفتونك فى ٱلنسآء  قل ٱلله يفتيكم فيهن وما يتلى عليكم فى ٱلكتـب فى يتـمى ٱلنسآء ٱلـتى لا تؤتونهن ما كتب لهن وترغبون أن تنكحوهن وٱلمستضعفين من ٱلولدن وأن تقوموا لليتـمى بٱلقسط  وما تفعلوا من خير فإن ٱلله كان به عليما",
     "transliteration": "wayastaftūnaka fī l-nisāi quli l-lahu yuf'tīkum fīhinna wamā yut'lā ʿalaykum fī l-kitābi fī yatāmā l-nisāi allātī lā tu'tūnahunna mā kutiba lahunna watarghabūna an tankiḥūhunna wal-mus'taḍʿafīna mina l-wil'dāni wa-an taqūmū lil'yatāmā bil-qis'ṭi wamā tafʿalū min khayrin fa-inna l-laha kāna bihi ʿalīman",
-    "translation": "",
+    "translation": "And they request from you, [O Muḥammad], a [legal] ruling concerning women. Say, \"Allāh gives you a ruling about them and [about] what has been recited to you in the Book concerning the orphan girls to whom you do not give what is decreed for them - and [yet] you desire to marry them - and concerning the oppressed among children and that you maintain for orphans [their rights] in justice.\" And whatever you do of good - indeed, Allāh is ever Knowing of it.",
     "words": [
       {
         "id": "an-nisa-127-1",
@@ -21021,7 +21147,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent à propos des verdicts décrétés (fatwas) concernant les femmes. Dis : « Allah prononce pour vous Son verdict à leur sujet. (À cela s’ajoute le verdict concernant) ce qui vous est déjà récité dans le Livre au sujet des femmes orphelines, auxquelles vous ne remettez pas ce qui leur est dû et que vous désirez épouser vous-mêmes ; et (encore le verdict concernant) les mineurs sans protection. » Conduisez-vous envers les orphelins avec équité, car tout ce que vous faites de bien, Allah le Sait parfaitement."
   },
   {
     "id": "an-nisa-128",
@@ -21030,7 +21157,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًا ۚ وَٱلصُّلْحُ خَيْرٌ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
     "textSimple": "وإن ٱمرأة خافت من بعلها نشوزا أو إعراضا فلا جناح عليهمآ أن يصلحا بينهما صلحا  وٱلصلح خير  وأحضرت ٱلأنفس ٱلشح  وإن تحسنوا وتتقوا فإن ٱلله كان بما تعملون خبيرا",
     "transliteration": "wa-ini im'ra-atun khāfat min baʿlihā nushūzan aw iʿ'rāḍan falā junāḥa ʿalayhimā an yuṣ'liḥā baynahumā ṣul'ḥan wal-ṣul'ḥu khayrun wa-uḥ'ḍirati l-anfusu l-shuḥa wa-in tuḥ'sinū watattaqū fa-inna l-laha kāna bimā taʿmalūna khabīran",
-    "translation": "",
+    "translation": "And if a woman fears from her husband contempt or evasion, there is no sin upon them if they make terms of settlement between them - and settlement is best. And present in [human] souls is stinginess. But if you do good and fear Allāh - then indeed Allāh is ever, of what you do, Aware.",
     "words": [
       {
         "id": "an-nisa-128-1",
@@ -21236,7 +21363,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si une femme craint de son mari qu’il la délaisse ou la néglige, il n’y a aucun péché à ce qu’ils trouvent, tous les deux, un moyen de réconciliation. Se réconcilier est toujours meilleur, car les êtres sont enclins à l’égoïsme. Et si vous faites le bien et avez la piété, alors Allah est, de ce que vous faites, Informé."
   },
   {
     "id": "an-nisa-129",
@@ -21245,7 +21373,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
     "textSimple": "ولن تستطيعوٓا أن تعدلوا بين ٱلنسآء ولو حرصتم  فلا تميلوا كل ٱلميل فتذروها كٱلمعلقة  وإن تصلحوا وتتقوا فإن ٱلله كان غفورا رحيما",
     "transliteration": "walan tastaṭīʿū an taʿdilū bayna l-nisāi walaw ḥaraṣtum falā tamīlū kulla l-mayli fatadharūhā kal-muʿalaqati wa-in tuṣ'liḥū watattaqū fa-inna l-laha kāna ghafūran raḥīman",
-    "translation": "",
+    "translation": "And you will never be able to be equal [in feeling] between wives, even if you should strive [to do so]. So do not incline completely [toward one] and leave another hanging. And if you amend [your affairs] and fear Allāh - then indeed, Allāh is ever Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-129-1",
@@ -21402,7 +21530,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous ne saurez être équitables avec vos femmes, même si vous vous y employez avec soin. Ne penchez donc pas entièrement vers l’une, pour laisser l’autre comme suspendue. Mais si vous rétablissez de bons rapports et avez la piété, Allah alors est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-130",
@@ -21411,7 +21540,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يَتَفَرَّقَا يُغْنِ ٱللَّهُ كُلًّا مِّن سَعَتِهِۦ ۚ وَكَانَ ٱللَّهُ وَٰسِعًا حَكِيمًا",
     "textSimple": "وإن يتفرقا يغن ٱلله كلا من سعته  وكان ٱلله وسعا حكيما",
     "transliteration": "wa-in yatafarraqā yugh'ni l-lahu kullan min saʿatihi wakāna l-lahu wāsiʿan ḥakīman",
-    "translation": "",
+    "translation": "But if they separate [by divorce], Allāh will enrich each [of them] from His abundance. And ever is Allāh Encompassing and Wise.",
     "words": [
       {
         "id": "an-nisa-130-1",
@@ -21491,7 +21620,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’ils se séparent (les deux conjoints), Allah, de par Ses largesses, compensera à chacun ce qu’il aura perdu. Allah est Large et Sage."
   },
   {
     "id": "an-nisa-131",
@@ -21500,7 +21630,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَلَقَدْ وَصَّيْنَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ وَإِيَّاكُمْ أَنِ ٱتَّقُوا۟ ٱللَّهَ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ غَنِيًّا حَمِيدًا",
     "textSimple": "ولله ما فى ٱلسمـوت وما فى ٱلأرض  ولقد وصينا ٱلذين أوتوا ٱلكتـب من قبلكم وإياكم أن ٱتقوا ٱلله  وإن تكفروا فإن لله ما فى ٱلسمـوت وما فى ٱلأرض  وكان ٱلله غنيا حميدا",
     "transliteration": "walillahi mā fī l-samāwāti wamā fī l-arḍi walaqad waṣṣaynā alladhīna ūtū l-kitāba min qablikum wa-iyyākum ani ittaqū l-laha wa-in takfurū fa-inna lillahi mā fī l-samāwāti wamā fī l-arḍi wakāna l-lahu ghaniyyan ḥamīdan",
-    "translation": "",
+    "translation": "And to Allāh belongs whatever is in the heavens and whatever is on the earth. And We have instructed those who were given the Scripture before you and yourselves to fear Allāh. But if you disbelieve - then to Allāh belongs whatever is in the heavens and whatever is on the earth. And ever is Allāh Free of need and Praiseworthy.",
     "words": [
       {
         "id": "an-nisa-131-1",
@@ -21727,7 +21857,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient tout ce qu’il y a dans les cieux et sur terre. Nous avons recommandé à ceux qui ont reçu le Livre avant vous, ainsi qu’à vous-mêmes : « Craignez Allah ! » Et si vous mécroyez, (sachez qu’) à Allah appartient ce qu’il y a dans les cieux et sur terre. Allah se passe de Tout et il est Digne de Toutes Louanges."
   },
   {
     "id": "an-nisa-132",
@@ -21736,7 +21867,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
     "textSimple": "ولله ما فى ٱلسمـوت وما فى ٱلأرض  وكفى بٱلله وكيلا",
     "transliteration": "walillahi mā fī l-samāwāti wamā fī l-arḍi wakafā bil-lahi wakīlan",
-    "translation": "",
+    "translation": "And to Allāh belongs whatever is in the heavens and whatever is on the earth. And sufficient is Allāh as Disposer of affairs.",
     "words": [
       {
         "id": "an-nisa-132-1",
@@ -21809,7 +21940,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient ce qu’il y a dans les cieux et sur terre, et Allah suffit comme Protecteur."
   },
   {
     "id": "an-nisa-133",
@@ -21818,7 +21950,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَشَأْ يُذْهِبْكُمْ أَيُّهَا ٱلنَّاسُ وَيَأْتِ بِـَٔاخَرِينَ ۚ وَكَانَ ٱللَّهُ عَلَىٰ ذَٰلِكَ قَدِيرًا",
     "textSimple": "إن يشأ يذهبكم أيها ٱلناس ويأت بـٔاخرين  وكان ٱلله على ذلك قديرا",
     "transliteration": "in yasha yudh'hib'kum ayyuhā l-nāsu wayati biākharīna wakāna l-lahu ʿalā dhālika qadīran",
-    "translation": "",
+    "translation": "If He wills, He can do away with you, O people, and bring others [in your place]. And ever is Allāh competent to do that.",
     "words": [
       {
         "id": "an-nisa-133-1",
@@ -21905,7 +22037,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’Il voulait, Il vous réduirait à néant, ô hommes, et Il en ferait venir d’autres ! Car Allah est, de cela, Infiniment Capable."
   },
   {
     "id": "an-nisa-134",
@@ -21914,7 +22047,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مَّن كَانَ يُرِيدُ ثَوَابَ ٱلدُّنْيَا فَعِندَ ٱللَّهِ ثَوَابُ ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۚ وَكَانَ ٱللَّهُ سَمِيعًۢا بَصِيرًا",
     "textSimple": "من كان يريد ثواب ٱلدنيا فعند ٱلله ثواب ٱلدنيا وٱلـٔاخرة  وكان ٱلله سميعا بصيرا",
     "transliteration": "man kāna yurīdu thawāba l-dun'yā faʿinda l-lahi thawābu l-dun'yā wal-ākhirati wakāna l-lahu samīʿan baṣīran",
-    "translation": "",
+    "translation": "Whoever desires the reward of this world - then with Allāh is the reward of this world and the Hereafter. And ever is Allāh Hearing and Seeing.",
     "words": [
       {
         "id": "an-nisa-134-1",
@@ -22015,7 +22148,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quiconque veut la récompense de ce bas monde, (qu’il sache que) c’est auprès d’Allah que se trouvent et la récompense de ce monde et celle de l’autre. Et Allah Entend Tout et Voit Tout."
   },
   {
     "id": "an-nisa-135",
@@ -22024,7 +22158,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًا فَٱللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟ ۚ وَإِن تَلْوُۥٓا۟ أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
     "textSimple": " يـٓأيها ٱلذين ءامنوا كونوا قومين بٱلقسط شهدآء لله ولو علىٓ أنفسكم أو ٱلولدين وٱلأقربين  إن يكن غنيا أو فقيرا فٱلله أولى بهما  فلا تتبعوا ٱلهوىٓ أن تعدلوا  وإن تلوٓا أو تعرضوا فإن ٱلله كان بما تعملون خبيرا",
     "transliteration": "yāayyuhā alladhīna āmanū kūnū qawwāmīna bil-qis'ṭi shuhadāa lillahi walaw ʿalā anfusikum awi l-wālidayni wal-aqrabīna in yakun ghaniyyan aw faqīran fal-lahu awlā bihimā falā tattabiʿū l-hawā an taʿdilū wa-in talwū aw tuʿ'riḍū fa-inna l-laha kāna bimā taʿmalūna khabīran",
-    "translation": "",
+    "translation": "O you who have believed, be persistently standing firm in justice, witnesses for Allāh, even if it be against yourselves or parents and relatives. Whether one is rich or poor, Allāh is more worthy of both. So follow not [personal] inclination, lest you not be just. And if you distort [your testimony] or refuse [to give it], then indeed Allāh is ever, of what you do, Aware.",
     "words": [
       {
         "id": "an-nisa-135-1",
@@ -22286,7 +22420,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Soyez justes en étant témoins conformément (aux prescriptions) d’Allah, quitte à témoigner contre vous-mêmes, contre vos deux parents ou vos proches, qu’il s’agisse d’un riche ou d’un pauvre, car Allah est plus apte à (veiller à leurs intérêts). Ne suivez donc pas vos passions de peur que vous ne déviiez de l’équité. Et si vous témoignez par le mensonge ou refusez de témoigner, alors Allah est, de Tout ce que vous faites, Informé."
   },
   {
     "id": "an-nisa-136",
@@ -22295,7 +22430,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَـٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَـٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِٱللَّهِ وَمَلَـٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ وَٱلْيَوْمِ ٱلْـَٔاخِرِ فَقَدْ ضَلَّ ضَلَـٰلًۢا بَعِيدًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا ءامنوا بٱلله ورسوله وٱلكتـب ٱلذى نزل على رسوله وٱلكتـب ٱلذىٓ أنزل من قبل  ومن يكفر بٱلله وملـٓئكته وكتبه ورسله وٱليوم ٱلـٔاخر فقد ضل ضلـلا بعيدا",
     "transliteration": "yāayyuhā alladhīna āmanū āminū bil-lahi warasūlihi wal-kitābi alladhī nazzala ʿalā rasūlihi wal-kitābi alladhī anzala min qablu waman yakfur bil-lahi wamalāikatihi wakutubihi warusulihi wal-yawmi l-ākhiri faqad ḍalla ḍalālan baʿīdan",
-    "translation": "",
+    "translation": "O you who have believed, believe in Allāh and His Messenger and the Book that He sent down upon His Messenger and the Scripture which He sent down before. And whoever disbelieves in Allāh, His angels, His books, His messengers, and the Last Day has certainly gone far astray.",
     "words": [
       {
         "id": "an-nisa-136-1",
@@ -22494,7 +22629,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Croyez en Allah, au Messager et au Livre qu’Il a révélé à Son Messager, et aux Écritures qui ont été révélées auparavant. Et celui qui mécroit en Allah, en Ses Anges, Ses Livres, Ses Messagers et au Jour Dernier, s’est égaré et est allé très loin dans l’égarement."
   },
   {
     "id": "an-nisa-137",
@@ -22503,7 +22639,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ ثُمَّ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ ثُمَّ ٱزْدَادُوا۟ كُفْرًا لَّمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ سَبِيلًۢا",
     "textSimple": "إن ٱلذين ءامنوا ثم كفروا ثم ءامنوا ثم كفروا ثم ٱزدادوا كفرا لم يكن ٱلله ليغفر لهم ولا ليهديهم سبيلا",
     "transliteration": "inna alladhīna āmanū thumma kafarū thumma āmanū thumma kafarū thumma iz'dādū kuf'ran lam yakuni l-lahu liyaghfira lahum walā liyahdiyahum sabīlan",
-    "translation": "",
+    "translation": "Indeed, those who have believed then disbelieved, then believed then disbelieved, and then increased in disbelief - never will Allāh forgive them, nor will He guide them to a way.",
     "words": [
       {
         "id": "an-nisa-137-1",
@@ -22646,7 +22782,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru puis ont mécru, et ont cru puis ont mécru, puis ont gagné en mécréance, jamais Allah ne leur pardonnera, ni ne les guidera vers un chemin droit."
   },
   {
     "id": "an-nisa-138",
@@ -22655,7 +22792,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "بَشِّرِ ٱلْمُنَـٰفِقِينَ بِأَنَّ لَهُمْ عَذَابًا أَلِيمًا",
     "textSimple": "بشر ٱلمنـفقين بأن لهم عذابا أليما",
     "transliteration": "bashiri l-munāfiqīna bi-anna lahum ʿadhāban alīman",
-    "translation": "",
+    "translation": "Give tidings to the hypocrites that there is for them a painful punishment -",
     "words": [
       {
         "id": "an-nisa-138-1",
@@ -22700,7 +22837,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Annonce aux hypocrites qu’il y aura pour eux un très douloureux supplice,"
   },
   {
     "id": "an-nisa-139",
@@ -22709,7 +22847,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَتَّخِذُونَ ٱلْكَـٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۚ أَيَبْتَغُونَ عِندَهُمُ ٱلْعِزَّةَ فَإِنَّ ٱلْعِزَّةَ لِلَّهِ جَمِيعًا",
     "textSimple": "ٱلذين يتخذون ٱلكـفرين أوليآء من دون ٱلمؤمنين  أيبتغون عندهم ٱلعزة فإن ٱلعزة لله جميعا",
     "transliteration": "alladhīna yattakhidhūna l-kāfirīna awliyāa min dūni l-mu'minīna ayabtaghūna ʿindahumu l-ʿizata fa-inna l-ʿizata lillahi jamīʿan",
-    "translation": "",
+    "translation": "Those who take disbelievers as allies instead of the believers. Do they seek with them honor [through power]? But indeed, honor belongs to Allāh entirely.",
     "words": [
       {
         "id": "an-nisa-139-1",
@@ -22810,7 +22948,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là qui prennent des mécréants pour alliés, et non pas des croyants. Recherchent-ils donc auprès d’eux la puissance ? N’est-ce pas que la Puissance appartient Toute à Allah !"
   },
   {
     "id": "an-nisa-140",
@@ -22819,7 +22958,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَـٰبِ أَنْ إِذَا سَمِعْتُمْ ءَايَـٰتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَـٰفِقِينَ وَٱلْكَـٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
     "textSimple": "وقد نزل عليكم فى ٱلكتـب أن إذا سمعتم ءايـت ٱلله يكفر بها ويستهزأ بها فلا تقعدوا معهم حتى يخوضوا فى حديث غيرهٓ  إنكم إذا مثلهم  إن ٱلله جامع ٱلمنـفقين وٱلكـفرين فى جهنم جميعا",
     "transliteration": "waqad nazzala ʿalaykum fī l-kitābi an idhā samiʿ'tum āyāti l-lahi yuk'faru bihā wayus'tahza-u bihā falā taqʿudū maʿahum ḥattā yakhūḍū fī ḥadīthin ghayrihi innakum idhan mith'luhum inna l-laha jāmiʿu l-munāfiqīna wal-kāfirīna fī jahannama jamīʿan",
-    "translation": "",
+    "translation": "And it has already come down to you in the Book [i.e., the Qur’ān] that when you hear the verses of Allāh [recited], they are denied [by them] and ridiculed; so do not sit with them until they enter into another conversation. Indeed, you would then be like them. Indeed, Allāh will gather the hypocrites and disbelievers in Hell all together -",
     "words": [
       {
         "id": "an-nisa-140-1",
@@ -23053,7 +23192,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici ce qu’Il vous a déjà révélé dans le Livre : quand vous entendez renier et moquer les versets d’Allah, ne vous asseyez pas avec (ceux qui agissent de la sorte), à moins qu’ils ne se mettent à parler d’autre chose. Autrement, vous seriez à eux semblables. En vérité, Allah réunira tous ensemble dans la Géhenne les hypocrites et les mécréants."
   },
   {
     "id": "an-nisa-141",
@@ -23062,7 +23202,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَـٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَـٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَـٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
     "textSimple": "ٱلذين يتربصون بكم فإن كان لكم فتح من ٱلله قالوٓا ألم نكن معكم وإن كان للكـفرين نصيب قالوٓا ألم نستحوذ عليكم ونمنعكم من ٱلمؤمنين  فٱلله يحكم بينكم يوم ٱلقيـمة  ولن يجعل ٱلله للكـفرين على ٱلمؤمنين سبيلا",
     "transliteration": "alladhīna yatarabbaṣūna bikum fa-in kāna lakum fatḥun mina l-lahi qālū alam nakun maʿakum wa-in kāna lil'kāfirīna naṣībun qālū alam nastaḥwidh ʿalaykum wanamnaʿkum mina l-mu'minīna fal-lahu yaḥkumu baynakum yawma l-qiyāmati walan yajʿala l-lahu lil'kāfirīna ʿalā l-mu'minīna sabīlan",
-    "translation": "",
+    "translation": "Those who wait [and watch] you. Then if you gain a victory from Allāh, they say, \"Were we not with you?\" But if the disbelievers have a success, they say [to them], \"Did we not gain the advantage over you, but we protected you from the believers?\" Allāh will judge between [all of] you on the Day of Resurrection, and never will Allāh give the disbelievers over the believers a way [to overcome them].",
     "words": [
       {
         "id": "an-nisa-141-1",
@@ -23317,7 +23457,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont eux qui guettent ce qui vous arrive. S’il vous vient une victoire par la grâce d’Allah, ils disent : « N’étions-nous pas avec vous ? » Et si ce sont les mécréants qui ont eu leur part (à la victoire), ils disent : « Ne vous avions-nous pas sous notre tutelle ? Ne vous avions-nous pas protégés contre les croyants ? » Allah jugera entre vous au Jour de la Résurrection. Et aux mécréants, Allah ne donnera jamais le moyen (de nuire) aux croyants."
   },
   {
     "id": "an-nisa-142",
@@ -23326,7 +23467,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُنَـٰفِقِينَ يُخَـٰدِعُونَ ٱللَّهَ وَهُوَ خَـٰدِعُهُمْ وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًا",
     "textSimple": "إن ٱلمنـفقين يخـدعون ٱلله وهو خـدعهم وإذا قاموٓا إلى ٱلصلوة قاموا كسالى يرآءون ٱلناس ولا يذكرون ٱلله إلا قليلا",
     "transliteration": "inna l-munāfiqīna yukhādiʿūna l-laha wahuwa khādiʿuhum wa-idhā qāmū ilā l-ṣalati qāmū kusālā yurāūna l-nāsa walā yadhkurūna l-laha illā qalīlan",
-    "translation": "",
+    "translation": "Indeed, the hypocrites [think to] deceive Allāh, but He is deceiving them. And when they stand for prayer, they stand lazily, showing [themselves to] the people and not remembering Allāh except a little,",
     "words": [
       {
         "id": "an-nisa-142-1",
@@ -23462,7 +23603,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hypocrites s’essaient à tromper Allah, mais c’est Lui Qui les trompe. Quand ils se lèvent pour aller à la Çalât, ils le font en fainéants et pour l’exhiber devant les gens. Et ils n’évoquent Allah que rarement."
   },
   {
     "id": "an-nisa-143",
@@ -23471,7 +23613,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مُّذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَآ إِلَىٰ هَـٰٓؤُلَآءِ وَلَآ إِلَىٰ هَـٰٓؤُلَآءِ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًا",
     "textSimple": "مذبذبين بين ذلك لآ إلى هـٓؤلآء ولآ إلى هـٓؤلآء  ومن يضلل ٱلله فلن تجد له سبيلا",
     "transliteration": "mudhabdhabīna bayna dhālika lā ilā hāulāi walā ilā hāulāi waman yuḍ'lili l-lahu falan tajida lahu sabīlan",
-    "translation": "",
+    "translation": "Wavering between them, [belonging] neither to these [i.e., the believers] nor to those [i.e., the disbelievers]. And whoever Allāh sends astray - never will you find for him a way.",
     "words": [
       {
         "id": "an-nisa-143-1",
@@ -23586,7 +23728,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tiraillés entre deux choses (la foi et la mécréance), ils ne relèvent ni de ceux-ci (les croyants) ni de ceux-là (les mécréants). Mais celui qu’Allah voue à l’égarement, jamais tu ne lui trouveras de chemin."
   },
   {
     "id": "an-nisa-144",
@@ -23595,7 +23738,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ ٱلْكَـٰفِرِينَ أَوْلِيَآءَ مِن دُونِ ٱلْمُؤْمِنِينَ ۚ أَتُرِيدُونَ أَن تَجْعَلُوا۟ لِلَّهِ عَلَيْكُمْ سُلْطَـٰنًا مُّبِينًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تتخذوا ٱلكـفرين أوليآء من دون ٱلمؤمنين  أتريدون أن تجعلوا لله عليكم سلطـنا مبينا",
     "transliteration": "yāayyuhā alladhīna āmanū lā tattakhidhū l-kāfirīna awliyāa min dūni l-mu'minīna aturīdūna an tajʿalū lillahi ʿalaykum sul'ṭānan mubīnan",
-    "translation": "",
+    "translation": "O you who have believed, do not take the disbelievers as allies instead of the believers. Do you wish to give Allāh against yourselves a clear case?",
     "words": [
       {
         "id": "an-nisa-144-1",
@@ -23717,7 +23860,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne prenez pas pour alliés les mécréants plutôt que les croyants. Voulez-vous donc, par là, donner à Allah contre vous un argument évident ?"
   },
   {
     "id": "an-nisa-145",
@@ -23726,7 +23870,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُنَـٰفِقِينَ فِى ٱلدَّرْكِ ٱلْأَسْفَلِ مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا",
     "textSimple": "إن ٱلمنـفقين فى ٱلدرك ٱلأسفل من ٱلنار ولن تجد لهم نصيرا",
     "transliteration": "inna l-munāfiqīna fī l-darki l-asfali mina l-nāri walan tajida lahum naṣīran",
-    "translation": "",
+    "translation": "Indeed, the hypocrites will be in the lowest depths of the Fire - and never will you find for them a helper -",
     "words": [
       {
         "id": "an-nisa-145-1",
@@ -23806,7 +23950,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hypocrites seront relégués au plus bas niveau de l’Enfer. Tu n’y trouveras pour eux aucun allié pour les secourir,"
   },
   {
     "id": "an-nisa-146",
@@ -23815,7 +23960,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ وَأَخْلَصُوا۟ دِينَهُمْ لِلَّهِ فَأُو۟لَـٰٓئِكَ مَعَ ٱلْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًا",
     "textSimple": "إلا ٱلذين تابوا وأصلحوا وٱعتصموا بٱلله وأخلصوا دينهم لله فأولـٓئك مع ٱلمؤمنين  وسوف يؤت ٱلله ٱلمؤمنين أجرا عظيما",
     "transliteration": "illā alladhīna tābū wa-aṣlaḥū wa-iʿ'taṣamū bil-lahi wa-akhlaṣū dīnahum lillahi fa-ulāika maʿa l-mu'minīna wasawfa yu'ti l-lahu l-mu'minīna ajran ʿaẓīman",
-    "translation": "",
+    "translation": "Except for those who repent, correct themselves, hold fast to Allāh, and are sincere in their religion for Allāh, for those will be with the believers. And Allāh is going to give the believers a great reward.",
     "words": [
       {
         "id": "an-nisa-146-1",
@@ -23944,7 +24089,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté ceux qui se repentent, corrigent leurs erreurs, s’attachent indéfectiblement à Allah et Lui vouent un culte sincère. Ceux-là seront avec les croyants, et Allah accordera aux croyants une très grande récompense."
   },
   {
     "id": "an-nisa-147",
@@ -23953,7 +24099,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "مَّا يَفْعَلُ ٱللَّهُ بِعَذَابِكُمْ إِن شَكَرْتُمْ وَءَامَنتُمْ ۚ وَكَانَ ٱللَّهُ شَاكِرًا عَلِيمًا",
     "textSimple": "ما يفعل ٱلله بعذابكم إن شكرتم وءامنتم  وكان ٱلله شاكرا عليما",
     "transliteration": "mā yafʿalu l-lahu biʿadhābikum in shakartum waāmantum wakāna l-lahu shākiran ʿalīman",
-    "translation": "",
+    "translation": "What would Allāh do with [i.e., gain from] your punishment if you are grateful and believe? And ever is Allāh Appreciative and Knowing.",
     "words": [
       {
         "id": "an-nisa-147-1",
@@ -24033,7 +24179,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’a donc à faire Allah de votre châtiment, si vous avez reconnu (Ses faveurs) et si vous avez cru (en Lui) ? Allah est Reconnaissant et Omniscient."
   },
   {
     "id": "an-nisa-148",
@@ -24042,7 +24189,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَّا يُحِبُّ ٱللَّهُ ٱلْجَهْرَ بِٱلسُّوٓءِ مِنَ ٱلْقَوْلِ إِلَّا مَن ظُلِمَ ۚ وَكَانَ ٱللَّهُ سَمِيعًا عَلِيمًا",
     "textSimple": " لا يحب ٱلله ٱلجهر بٱلسوٓء من ٱلقول إلا من ظلم  وكان ٱلله سميعا عليما",
     "transliteration": "lā yuḥibbu l-lahu l-jahra bil-sūi mina l-qawli illā man ẓulima wakāna l-lahu samīʿan ʿalīman",
-    "translation": "",
+    "translation": "Allāh does not like the public mention of evil except by one who has been wronged. And ever is Allāh Hearing and Knowing.",
     "words": [
       {
         "id": "an-nisa-148-1",
@@ -24143,7 +24290,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah n’aime pas que soient divulguées de mauvaises choses (à propos d’autrui), à moins d’avoir été d’abord soi-même lésé. Allah Entend Tout et Sait Tout."
   },
   {
     "id": "an-nisa-149",
@@ -24152,7 +24300,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِن تُبْدُوا۟ خَيْرًا أَوْ تُخْفُوهُ أَوْ تَعْفُوا۟ عَن سُوٓءٍ فَإِنَّ ٱللَّهَ كَانَ عَفُوًّا قَدِيرًا",
     "textSimple": "إن تبدوا خيرا أو تخفوه أو تعفوا عن سوٓء فإن ٱلله كان عفوا قديرا",
     "transliteration": "in tub'dū khayran aw tukh'fūhu aw taʿfū ʿan sūin fa-inna l-laha kāna ʿafuwwan qadīran",
-    "translation": "",
+    "translation": "If [instead] you show [some] good or conceal it or pardon an offense - indeed, Allāh is ever Pardoning and Competent.",
     "words": [
       {
         "id": "an-nisa-149-1",
@@ -24253,7 +24401,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que vous montriez le bien que vous faites ou que vous le cachiez, ou bien que vous pardonniez un méfait, Allah est Indulgent et Omnipotent."
   },
   {
     "id": "an-nisa-150",
@@ -24262,7 +24411,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِٱللَّهِ وَرُسُلِهِۦ وَيُرِيدُونَ أَن يُفَرِّقُوا۟ بَيْنَ ٱللَّهِ وَرُسُلِهِۦ وَيَقُولُونَ نُؤْمِنُ بِبَعْضٍ وَنَكْفُرُ بِبَعْضٍ وَيُرِيدُونَ أَن يَتَّخِذُوا۟ بَيْنَ ذَٰلِكَ سَبِيلًا",
     "textSimple": "إن ٱلذين يكفرون بٱلله ورسله ويريدون أن يفرقوا بين ٱلله ورسله ويقولون نؤمن ببعض ونكفر ببعض ويريدون أن يتخذوا بين ذلك سبيلا",
     "transliteration": "inna alladhīna yakfurūna bil-lahi warusulihi wayurīdūna an yufarriqū bayna l-lahi warusulihi wayaqūlūna nu'minu bibaʿḍin wanakfuru bibaʿḍin wayurīdūna an yattakhidhū bayna dhālika sabīlan",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve in Allāh and His messengers and wish to discriminate between Allāh and His messengers and say, \"We believe in some and disbelieve in others,\" and wish to adopt a way in between -",
     "words": [
       {
         "id": "an-nisa-150-1",
@@ -24419,7 +24568,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui mécroient en Allah et en Ses Messagers, qui veulent séparer Allah de Ses Messagers en disant : « Nous croyons en certains et nous mécroyons en d’autres », et qui veulent se frayer un chemin entre les deux,"
   },
   {
     "id": "an-nisa-151",
@@ -24428,7 +24578,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَـٰفِرُونَ حَقًّا ۚ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ عَذَابًا مُّهِينًا",
     "textSimple": "أولـٓئك هم ٱلكـفرون حقا  وأعتدنا للكـفرين عذابا مهينا",
     "transliteration": "ulāika humu l-kāfirūna ḥaqqan wa-aʿtadnā lil'kāfirīna ʿadhāban muhīnan",
-    "translation": "",
+    "translation": "Those are the disbelievers, truly. And We have prepared for the disbelievers a humiliating punishment.",
     "words": [
       {
         "id": "an-nisa-151-1",
@@ -24487,7 +24637,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là, vraiment, sont les mécréants. Et Nous avons préparé aux mécréants un supplice humiliant."
   },
   {
     "id": "an-nisa-152",
@@ -24496,7 +24647,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ وَلَمْ يُفَرِّقُوا۟ بَيْنَ أَحَدٍ مِّنْهُمْ أُو۟لَـٰٓئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": "وٱلذين ءامنوا بٱلله ورسله ولم يفرقوا بين أحد منهم أولـٓئك سوف يؤتيهم أجورهم  وكان ٱلله غفورا رحيما",
     "transliteration": "wa-alladhīna āmanū bil-lahi warusulihi walam yufarriqū bayna aḥadin min'hum ulāika sawfa yu'tīhim ujūrahum wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "But they who believe in Allāh and His messengers and do not discriminate between any of them - to those He is going to give their rewards. And ever is Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "an-nisa-152-1",
@@ -24618,7 +24769,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui ont cru en Allah et en Ses Messagers, qui n’ont pas fait la différence entre qui que ce soit parmi eux, ceux-là Il leur attribuera leurs récompenses. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-nisa-153",
@@ -24627,7 +24779,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُكَ أَهْلُ ٱلْكِتَـٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَـٰبًا مِّنَ ٱلسَّمَآءِ ۚ فَقَدْ سَأَلُوا۟ مُوسَىٰٓ أَكْبَرَ مِن ذَٰلِكَ فَقَالُوٓا۟ أَرِنَا ٱللَّهَ جَهْرَةً فَأَخَذَتْهُمُ ٱلصَّـٰعِقَةُ بِظُلْمِهِمْ ۚ ثُمَّ ٱتَّخَذُوا۟ ٱلْعِجْلَ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَـٰتُ فَعَفَوْنَا عَن ذَٰلِكَ ۚ وَءَاتَيْنَا مُوسَىٰ سُلْطَـٰنًا مُّبِينًا",
     "textSimple": "يسـٔلك أهل ٱلكتـب أن تنزل عليهم كتـبا من ٱلسمآء  فقد سألوا موسىٓ أكبر من ذلك فقالوٓا أرنا ٱلله جهرة فأخذتهم ٱلصـعقة بظلمهم  ثم ٱتخذوا ٱلعجل من بعد ما جآءتهم ٱلبينـت فعفونا عن ذلك  وءاتينا موسى سلطـنا مبينا",
     "transliteration": "yasaluka ahlu l-kitābi an tunazzila ʿalayhim kitāban mina l-samāi faqad sa-alū mūsā akbara min dhālika faqālū arinā l-laha jahratan fa-akhadhathumu l-ṣāʿiqatu biẓul'mihim thumma ittakhadhū l-ʿij'la min baʿdi mā jāathumu l-bayinātu faʿafawnā ʿan dhālika waātaynā mūsā sul'ṭānan mubīnan",
-    "translation": "",
+    "translation": "The People of the Scripture ask you to bring down to them a book from the heaven. But they had asked of Moses [even] greater than that and said, \"Show us Allāh outright,\" so the thunderbolt struck them for their wrongdoing. Then they took the calf [for worship] after clear evidences had come to them, and We pardoned that. And We gave Moses a clear authority.",
     "words": [
       {
         "id": "an-nisa-153-1",
@@ -24889,7 +25041,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens (qui ont reçu) les Écritures te demandent de faire descendre (en révélation) sur eux un Livre du ciel. Ils avaient demandé plus grave encore à Moïse en lui disant : « Montre-nous Allah en toute clarté. » La foudre s’est alors abattue sur eux pour leur impudence. Puis, après que pourtant leur furent venues les preuves évidentes, ils prirent le Veau (pour idole). Nous le leur pardonnâmes et donnâmes à Moïse une autorité manifeste."
   },
   {
     "id": "an-nisa-154",
@@ -24898,7 +25051,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَرَفَعْنَا فَوْقَهُمُ ٱلطُّورَ بِمِيثَـٰقِهِمْ وَقُلْنَا لَهُمُ ٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُلْنَا لَهُمْ لَا تَعْدُوا۟ فِى ٱلسَّبْتِ وَأَخَذْنَا مِنْهُم مِّيثَـٰقًا غَلِيظًا",
     "textSimple": "ورفعنا فوقهم ٱلطور بميثـقهم وقلنا لهم ٱدخلوا ٱلباب سجدا وقلنا لهم لا تعدوا فى ٱلسبت وأخذنا منهم ميثـقا غليظا",
     "transliteration": "warafaʿnā fawqahumu l-ṭūra bimīthāqihim waqul'nā lahumu ud'khulū l-bāba sujjadan waqul'nā lahum lā taʿdū fī l-sabti wa-akhadhnā min'hum mīthāqan ghalīẓan",
-    "translation": "",
+    "translation": "And We raised over them the mount for [refusal of] their covenant; and We said to them, \"Enter the gate bowing humbly\"; and We said to them, \"Do not transgress on the sabbath\"; and We took from them a solemn covenant.",
     "words": [
       {
         "id": "an-nisa-154-1",
@@ -25034,7 +25187,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dressâmes au-dessus (de leurs têtes) le Mont pour avoir leur engagement, et Nous leur enjoignîmes : « Entrez par la porte, prosternés », et Nous leur dîmes aussi : « Ne transgressez pas le Sabbat. » Et Nous prîmes sur eux un engagement solennel."
   },
   {
     "id": "an-nisa-155",
@@ -25043,7 +25197,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَبِمَا نَقْضِهِم مِّيثَـٰقَهُمْ وَكُفْرِهِم بِـَٔايَـٰتِ ٱللَّهِ وَقَتْلِهِمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَقَوْلِهِمْ قُلُوبُنَا غُلْفٌۢ ۚ بَلْ طَبَعَ ٱللَّهُ عَلَيْهَا بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
     "textSimple": "فبما نقضهم ميثـقهم وكفرهم بـٔايـت ٱلله وقتلهم ٱلأنبيآء بغير حق وقولهم قلوبنا غلف  بل طبع ٱلله عليها بكفرهم فلا يؤمنون إلا قليلا",
     "transliteration": "fabimā naqḍihim mīthāqahum wakuf'rihim biāyāti l-lahi waqatlihimu l-anbiyāa bighayri ḥaqqin waqawlihim qulūbunā ghul'fun bal ṭabaʿa l-lahu ʿalayhā bikuf'rihim falā yu'minūna illā qalīlan",
-    "translation": "",
+    "translation": "And [We cursed them] for their breaking of the covenant and their disbelief in the signs of Allāh and their killing of the prophets without right and their saying, \"Our hearts are wrapped\" [i.e., sealed against reception]. Rather, Allāh has sealed them because of their disbelief, so they believe not, except for a few.",
     "words": [
       {
         "id": "an-nisa-155-1",
@@ -25200,7 +25354,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Si nous les avons maudits, c’est parce qu’ils) ont violé leur engagement, ont mécru aux Signes d’Allah, ont tué injustement les Prophètes, et ont dit : « Nos cœurs sont hermétiquement fermés. » C’est plutôt Allah qui les a scellés (leurs cœurs), pour prix de leur mécréance, car ils sont de peu de foi."
   },
   {
     "id": "an-nisa-156",
@@ -25209,7 +25364,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَـٰنًا عَظِيمًا",
     "textSimple": "وبكفرهم وقولهم على مريم بهتـنا عظيما",
     "transliteration": "wabikuf'rihim waqawlihim ʿalā maryama buh'tānan ʿaẓīman",
-    "translation": "",
+    "translation": "And [We cursed them] for their disbelief and their saying against Mary a great slander",
     "words": [
       {
         "id": "an-nisa-156-1",
@@ -25254,7 +25409,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parce qu’ils ont mécru et ont répandu contre Marie une ignoble calomnie."
   },
   {
     "id": "an-nisa-157",
@@ -25263,7 +25419,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَـٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًۢا",
     "textSimple": "وقولهم إنا قتلنا ٱلمسيح عيسى ٱبن مريم رسول ٱلله وما قتلوه وما صلبوه ولـكن شبه لهم  وإن ٱلذين ٱختلفوا فيه لفى شك منه  ما لهم به من علم إلا ٱتباع ٱلظن  وما قتلوه يقينا",
     "transliteration": "waqawlihim innā qatalnā l-masīḥa ʿīsā ib'na maryama rasūla l-lahi wamā qatalūhu wamā ṣalabūhu walākin shubbiha lahum wa-inna alladhīna ikh'talafū fīhi lafī shakkin min'hu mā lahum bihi min ʿil'min illā ittibāʿa l-ẓani wamā qatalūhu yaqīnan",
-    "translation": "",
+    "translation": "And [for] their saying, \"Indeed, we have killed the Messiah, Jesus the son of Mary, the messenger of Allāh.\" And they did not kill him, nor did they crucify him; but [another] was made to resemble him to them. And indeed, those who differ over it are in doubt about it. They have no knowledge of it except the following of assumption. And they did not kill him, for certain.",
     "words": [
       {
         "id": "an-nisa-157-1",
@@ -25504,7 +25660,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parce qu’ils ont dit : « Nous avons tué le Messie, Jésus fils de Marie, le Messager d’Allah. » Or ils ne l’ont point tué, pas plus qu’ils ne l’ont crucifié, mais ils étaient victimes d’une pure illusion. Ceux dont les avis étaient partagés à son sujet sont restés dans le doute : ils n’en ont aucune science et ne font que recourir aux supputations. Certainement, ils ne l’ont point tué."
   },
   {
     "id": "an-nisa-158",
@@ -25513,7 +25670,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "بَل رَّفَعَهُ ٱللَّهُ إِلَيْهِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًا",
     "textSimple": "بل رفعه ٱلله إليه  وكان ٱلله عزيزا حكيما",
     "transliteration": "bal rafaʿahu l-lahu ilayhi wakāna l-lahu ʿazīzan ḥakīman",
-    "translation": "",
+    "translation": "Rather, Allāh raised him to Himself. And ever is Allāh Exalted in Might and Wise.",
     "words": [
       {
         "id": "an-nisa-158-1",
@@ -25572,7 +25729,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est plutôt Allah Qui l’a élevé à Lui. Et Allah est Tout– Puissant et Sage."
   },
   {
     "id": "an-nisa-159",
@@ -25581,7 +25739,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن مِّنْ أَهْلِ ٱلْكِتَـٰبِ إِلَّا لَيُؤْمِنَنَّ بِهِۦ قَبْلَ مَوْتِهِۦ ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
     "textSimple": "وإن من أهل ٱلكتـب إلا ليؤمنن به قبل موته  ويوم ٱلقيـمة يكون عليهم شهيدا",
     "transliteration": "wa-in min ahli l-kitābi illā layu'minanna bihi qabla mawtihi wayawma l-qiyāmati yakūnu ʿalayhim shahīdan",
-    "translation": "",
+    "translation": "And there is none from the People of the Scripture but that he will surely believe in him [i.e., Jesus] before his death. And on the Day of Resurrection he will be against them a witness.",
     "words": [
       {
         "id": "an-nisa-159-1",
@@ -25682,7 +25840,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y aura pas un, parmi les gens du Livre, qui ne croira en lui avant sa mort. Et au Jour de la Résurrection, il sera témoin contre eux."
   },
   {
     "id": "an-nisa-160",
@@ -25691,7 +25850,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَبِظُلْمٍ مِّنَ ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا عَلَيْهِمْ طَيِّبَـٰتٍ أُحِلَّتْ لَهُمْ وَبِصَدِّهِمْ عَن سَبِيلِ ٱللَّهِ كَثِيرًا",
     "textSimple": "فبظلم من ٱلذين هادوا حرمنا عليهم طيبـت أحلت لهم وبصدهم عن سبيل ٱلله كثيرا",
     "transliteration": "fabiẓul'min mina alladhīna hādū ḥarramnā ʿalayhim ṭayyibātin uḥillat lahum wabiṣaddihim ʿan sabīli l-lahi kathīran",
-    "translation": "",
+    "translation": "For wrongdoing on the part of the Jews, We made unlawful for them [certain] good foods which had been lawful to them, and for their averting from the way of Allāh many [people],",
     "words": [
       {
         "id": "an-nisa-160-1",
@@ -25792,7 +25951,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est pour les injustices commises par les Juifs que Nous leur avons défendu les délicieuses nourritures qui leur étaient permises ; et c’est (aussi) parce qu’ils avaient repoussé, loin du chemin d’Allah, des gens très nombreux."
   },
   {
     "id": "an-nisa-161",
@@ -25801,7 +25961,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
     "textSimple": "وأخذهم ٱلربوا وقد نهوا عنه وأكلهم أمول ٱلناس بٱلبـطل  وأعتدنا للكـفرين منهم عذابا أليما",
     "transliteration": "wa-akhdhihimu l-riba waqad nuhū ʿanhu wa-aklihim amwāla l-nāsi bil-bāṭili wa-aʿtadnā lil'kāfirīna min'hum ʿadhāban alīman",
-    "translation": "",
+    "translation": "And [for] their taking of usury while they had been forbidden from it, and their consuming of the people's wealth unjustly. And We have prepared for the disbelievers among them a painful punishment.",
     "words": [
       {
         "id": "an-nisa-161-1",
@@ -25902,7 +26062,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et parce qu’ils ont touché aux intérêts usuraires (ribâ) alors qu’ils leur étaient défendus ; et parce qu’ils ont mangé les biens des gens en toute injustice. Nous avons préparé aux mécréants un supplice très douloureux."
   },
   {
     "id": "an-nisa-162",
@@ -25911,7 +26072,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لَّـٰكِنِ ٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ مِنْهُمْ وَٱلْمُؤْمِنُونَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ ۚ وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ أُو۟لَـٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا",
     "textSimple": "لـكن ٱلرسخون فى ٱلعلم منهم وٱلمؤمنون يؤمنون بمآ أنزل إليك ومآ أنزل من قبلك  وٱلمقيمين ٱلصلوة  وٱلمؤتون ٱلزكوة وٱلمؤمنون بٱلله وٱليوم ٱلـٔاخر أولـٓئك سنؤتيهم أجرا عظيما",
     "transliteration": "lākini l-rāsikhūna fī l-ʿil'mi min'hum wal-mu'minūna yu'minūna bimā unzila ilayka wamā unzila min qablika wal-muqīmīna l-ṣalata wal-mu'tūna l-zakata wal-mu'minūna bil-lahi wal-yawmi l-ākhiri ulāika sanu'tīhim ajran ʿaẓīman",
-    "translation": "",
+    "translation": "But those firm in knowledge among them and the believers believe in what has been revealed to you, [O Muḥammad], and what was revealed before you. And the establishers of prayer [especially] and the givers of zakāh and the believers in Allāh and the Last Day - those We will give a great reward.",
     "words": [
       {
         "id": "an-nisa-162-1",
@@ -26096,7 +26257,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais, ceux qui parmi eux sont enracinés dans la science, ainsi que les croyants, ceux-là croient à ce qui t’a été révélé et à ce qui fut révélé avant toi. Et ceux qui observent la Çalât, s’acquittent de la Zakât et croient en Allah et au Jour Dernier, ceux-là Nous leur accorderons une très grande récompense."
   },
   {
     "id": "an-nisa-163",
@@ -26105,7 +26267,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّآ أَوْحَيْنَآ إِلَيْكَ كَمَآ أَوْحَيْنَآ إِلَىٰ نُوحٍ وَٱلنَّبِيِّـۧنَ مِنۢ بَعْدِهِۦ ۚ وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَـٰرُونَ وَسُلَيْمَـٰنَ ۚ وَءَاتَيْنَا دَاوُۥدَ زَبُورًا",
     "textSimple": " إنآ أوحينآ إليك كمآ أوحينآ إلى نوح وٱلنبيـن من بعده  وأوحينآ إلىٓ إبرهيم وإسمـعيل وإسحـق ويعقوب وٱلأسباط وعيسى وأيوب ويونس وهـرون وسليمـن  وءاتينا داود زبورا",
     "transliteration": "innā awḥaynā ilayka kamā awḥaynā ilā nūḥin wal-nabiyīna min baʿdihi wa-awḥaynā ilā ib'rāhīma wa-is'māʿīla wa-is'ḥāqa wayaʿqūba wal-asbāṭi waʿīsā wa-ayyūba wayūnusa wahārūna wasulaymāna waātaynā dāwūda zabūran",
-    "translation": "",
+    "translation": "Indeed, We have revealed to you, [O Muḥammad], as We revealed to Noah and the prophets after him. And We revealed to Abraham, Ishmael, Isaac, Jacob, the Descendants, Jesus, Job, Jonah, Aaron, and Solomon, and to David We gave the book [of Psalms].",
     "words": [
       {
         "id": "an-nisa-163-1",
@@ -26283,7 +26445,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’avons inspiré des révélations comme nous les avons inspirées à Noé et aux Prophètes après lui. Nous les avons inspirées à Abraham, à Ismaël, à Isaac, à Jacob, aux (douze) Tribus, à Jésus, à Job, à Jonas, à Aaron, à Salomon et nous avons donné les Psaumes à David."
   },
   {
     "id": "an-nisa-164",
@@ -26292,7 +26455,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "وَرُسُلًا قَدْ قَصَصْنَـٰهُمْ عَلَيْكَ مِن قَبْلُ وَرُسُلًا لَّمْ نَقْصُصْهُمْ عَلَيْكَ ۚ وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
     "textSimple": "ورسلا قد قصصنـهم عليك من قبل ورسلا لم نقصصهم عليك  وكلم ٱلله موسى تكليما",
     "transliteration": "warusulan qad qaṣaṣnāhum ʿalayka min qablu warusulan lam naqṣuṣ'hum ʿalayka wakallama l-lahu mūsā taklīman",
-    "translation": "",
+    "translation": "And [We sent] messengers about whom We have related [their stories] to you before and messengers about whom We have not related to you. And Allāh spoke to Moses with [direct] speech.",
     "words": [
       {
         "id": "an-nisa-164-1",
@@ -26393,7 +26556,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est des Messagers dont Nous t’avons fait le récit et d’autres dont Nous ne t’avons pas fait le récit. Et Allah a parlé de vive voix à Moïse."
   },
   {
     "id": "an-nisa-165",
@@ -26402,7 +26566,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "رُّسُلًا مُّبَشِّرِينَ وَمُنذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى ٱللَّهِ حُجَّةٌۢ بَعْدَ ٱلرُّسُلِ ۚ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًا",
     "textSimple": "رسلا مبشرين ومنذرين لئلا يكون للناس على ٱلله حجة بعد ٱلرسل  وكان ٱلله عزيزا حكيما",
     "transliteration": "rusulan mubashirīna wamundhirīna li-allā yakūna lilnnāsi ʿalā l-lahi ḥujjatun baʿda l-rusuli wakāna l-lahu ʿazīzan ḥakīman",
-    "translation": "",
+    "translation": "[We sent] messengers as bringers of good tidings and warners so that mankind will have no argument against Allāh after the messengers. And ever is Allāh Exalted in Might and Wise.",
     "words": [
       {
         "id": "an-nisa-165-1",
@@ -26510,7 +26674,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des Messagers qui devaient annoncer et avertir, afin que, après leur venue, il n’y ait pas pour les hommes un argument contre Allah. Car Allah est Tout- Puissant et Sage."
   },
   {
     "id": "an-nisa-166",
@@ -26519,7 +26684,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لَّـٰكِنِ ٱللَّهُ يَشْهَدُ بِمَآ أَنزَلَ إِلَيْكَ ۖ أَنزَلَهُۥ بِعِلْمِهِۦ ۖ وَٱلْمَلَـٰٓئِكَةُ يَشْهَدُونَ ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًا",
     "textSimple": "لـكن ٱلله يشهد بمآ أنزل إليك  أنزله بعلمه  وٱلملـٓئكة يشهدون  وكفى بٱلله شهيدا",
     "transliteration": "lākini l-lahu yashhadu bimā anzala ilayka anzalahu biʿil'mihi wal-malāikatu yashhadūna wakafā bil-lahi shahīdan",
-    "translation": "",
+    "translation": "But Allāh bears witness to that which He has revealed to you. He has sent it down with His knowledge, and the angels bear witness [as well]. And sufficient is Allāh as Witness.",
     "words": [
       {
         "id": "an-nisa-166-1",
@@ -26613,7 +26778,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Allah témoigne de ce qu’Il t’a révélé, car Il l’a révélé en le Sachant. Les Anges aussi en témoignent et Allah suffit comme Témoin."
   },
   {
     "id": "an-nisa-167",
@@ -26622,7 +26788,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَـٰلًۢا بَعِيدًا",
     "textSimple": "إن ٱلذين كفروا وصدوا عن سبيل ٱلله قد ضلوا ضلـلا بعيدا",
     "transliteration": "inna alladhīna kafarū waṣaddū ʿan sabīli l-lahi qad ḍallū ḍalālan baʿīdan",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve and avert [people] from the way of Allāh have certainly gone far astray.",
     "words": [
       {
         "id": "an-nisa-167-1",
@@ -26702,7 +26868,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru dressant des obstacles devant le chemin d’Allah sont allés loin dans l’égarement."
   },
   {
     "id": "an-nisa-168",
@@ -26711,7 +26878,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَظَلَمُوا۟ لَمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ طَرِيقًا",
     "textSimple": "إن ٱلذين كفروا وظلموا لم يكن ٱلله ليغفر لهم ولا ليهديهم طريقا",
     "transliteration": "inna alladhīna kafarū waẓalamū lam yakuni l-lahu liyaghfira lahum walā liyahdiyahum ṭarīqan",
-    "translation": "",
+    "translation": "Indeed, those who disbelieve and commit wrong [or injustice] - never will Allāh forgive them, nor will He guide them to a path,",
     "words": [
       {
         "id": "an-nisa-168-1",
@@ -26798,7 +26965,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru et ont commis des injustices, Allah ne saurait leur pardonner ni les guider vers le droit chemin,"
   },
   {
     "id": "an-nisa-169",
@@ -26807,7 +26975,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا طَرِيقَ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
     "textSimple": "إلا طريق جهنم خـلدين فيهآ أبدا  وكان ذلك على ٱلله يسيرا",
     "transliteration": "illā ṭarīqa jahannama khālidīna fīhā abadan wakāna dhālika ʿalā l-lahi yasīran",
-    "translation": "",
+    "translation": "Except the path of Hell; they will abide therein forever. And that, for Allāh, is [always] easy.",
     "words": [
       {
         "id": "an-nisa-169-1",
@@ -26887,7 +27055,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sauf (s’il s’agit du) chemin de la Géhenne où ils séjourneront à tout jamais. Cela est pour Allah extrêmement aisé."
   },
   {
     "id": "an-nisa-170",
@@ -26896,7 +27065,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلرَّسُولُ بِٱلْحَقِّ مِن رَّبِّكُمْ فَـَٔامِنُوا۟ خَيْرًا لَّكُمْ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
     "textSimple": "يـٓأيها ٱلناس قد جآءكم ٱلرسول بٱلحق من ربكم فـٔامنوا خيرا لكم  وإن تكفروا فإن لله ما فى ٱلسمـوت وٱلأرض  وكان ٱلله عليما حكيما",
     "transliteration": "yāayyuhā l-nāsu qad jāakumu l-rasūlu bil-ḥaqi min rabbikum faāminū khayran lakum wa-in takfurū fa-inna lillahi mā fī l-samāwāti wal-arḍi wakāna l-lahu ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "O mankind, the Messenger has come to you with the truth from your Lord, so believe; it is better for you. But if you disbelieve - then indeed, to Allāh belongs whatever is in the heavens and earth. And ever is Allāh Knowing and Wise.",
     "words": [
       {
         "id": "an-nisa-170-1",
@@ -27060,7 +27229,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Le Messager vous apporte la vérité de la part de votre Seigneur. Croyez en lui pour votre bien. Et si vous mécroyez, (sachez qu’) à Allah appartient ce qu’il y a dans les cieux et sur terre. Allah est Omniscient et Sage."
   },
   {
     "id": "an-nisa-171",
@@ -27069,7 +27239,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَـٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَـٰهٌ وَٰحِدٌ ۖ سُبْحَـٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌ ۘ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
     "textSimple": "يـٓأهل ٱلكتـب لا تغلوا فى دينكم ولا تقولوا على ٱلله إلا ٱلحق  إنما ٱلمسيح عيسى ٱبن مريم رسول ٱلله وكلمتهٓ ألقىهآ إلى مريم وروح منه  فـٔامنوا بٱلله ورسله  ولا تقولوا ثلـثة  ٱنتهوا خيرا لكم  إنما ٱلله إلـه وحد  سبحـنهٓ أن يكون له ولد  له ما فى ٱلسمـوت وما فى ٱلأرض  وكفى بٱلله وكيلا",
     "transliteration": "yāahla l-kitābi lā taghlū fī dīnikum walā taqūlū ʿalā l-lahi illā l-ḥaqa innamā l-masīḥu ʿīsā ub'nu maryama rasūlu l-lahi wakalimatuhu alqāhā ilā maryama warūḥun min'hu faāminū bil-lahi warusulihi walā taqūlū thalāthatun intahū khayran lakum innamā l-lahu ilāhun wāḥidun sub'ḥānahu an yakūna lahu waladun lahu mā fī l-samāwāti wamā fī l-arḍi wakafā bil-lahi wakīlan",
-    "translation": "",
+    "translation": "O People of the Scripture, do not commit excess in your religion or say about Allāh except the truth. The Messiah, Jesus the son of Mary, was but a messenger of Allāh and His word which He directed to Mary and a soul [created at a command] from Him. So believe in Allāh and His messengers. And do not say, \"Three\"; desist - it is better for you. Indeed, Allāh is but one God. Exalted is He above having a son. To Him belongs whatever is in the heavens and whatever is on the earth. And sufficient is Allāh as Disposer of affairs.",
     "words": [
       {
         "id": "an-nisa-171-1",
@@ -27443,7 +27613,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 52
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô gens du Livre ! Ne soyez pas excessifs dans votre religion. Ne dites au sujet d’Allah que ce qui est vrai. Le Messie Jésus, fils de Marie, n’est que le Messager d’Allah, Sa Parole qu’Il lança vers Marie et un Esprit insufflé de Sa part. Croyez donc en Allah et en Ses Messagers, et ne dites point : « Trinité. » Cessez donc (de le dire) car cela est mieux pour vous ! Allah est bien un Dieu unique. Qu’il y a loin de Sa gloire et le fait d’avoir un fils ! À Lui appartient ce qu’il y a dans les cieux et sur terre, et Allah suffit comme Protecteur."
   },
   {
     "id": "an-nisa-172",
@@ -27452,7 +27623,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
     "textSimple": "لن يستنكف ٱلمسيح أن يكون عبدا لله ولا ٱلملـٓئكة ٱلمقربون  ومن يستنكف عن عبادته ويستكبر فسيحشرهم إليه جميعا",
     "transliteration": "lan yastankifa l-masīḥu an yakūna ʿabdan lillahi walā l-malāikatu l-muqarabūna waman yastankif ʿan ʿibādatihi wayastakbir fasayaḥshuruhum ilayhi jamīʿan",
-    "translation": "",
+    "translation": "Never would the Messiah disdain to be a servant of Allāh, nor would the angels near [to Him]. And whoever disdains His worship and is arrogant - He will gather them to Himself all together.",
     "words": [
       {
         "id": "an-nisa-172-1",
@@ -27581,7 +27752,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jamais le Messie n’a eu de honte à être le serviteur d’Allah, pas plus que les Anges rapprochés. Ceux qui sont beaucoup trop fiers pour L’adorer, et beaucoup trop hautains, ceux-là Il les ramènera tous à Lui en foule."
   },
   {
     "id": "an-nisa-173",
@@ -27590,7 +27762,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
     "textSimple": "فأما ٱلذين ءامنوا وعملوا ٱلصـلحـت فيوفيهم أجورهم ويزيدهم من فضله  وأما ٱلذين ٱستنكفوا وٱستكبروا فيعذبهم عذابا أليما ولا يجدون لهم من دون ٱلله وليا ولا نصيرا",
     "transliteration": "fa-ammā alladhīna āmanū waʿamilū l-ṣāliḥāti fayuwaffīhim ujūrahum wayazīduhum min faḍlihi wa-ammā alladhīna is'tankafū wa-is'takbarū fayuʿadhibuhum ʿadhāban alīman walā yajidūna lahum min dūni l-lahi waliyyan walā naṣīran",
-    "translation": "",
+    "translation": "And as for those who believed and did righteous deeds, He will give them in full their rewards and grant them extra from His bounty. But as for those who disdained and were arrogant, He will punish them with a painful punishment, and they will not find for themselves besides Allāh any protector or helper.",
     "words": [
       {
         "id": "an-nisa-173-1",
@@ -27775,7 +27947,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres, Il leur accordera leurs entières rétributions et y ajoutera un supplément de Sa faveur. Quant à ceux qui ont été beaucoup trop fiers et hautains, Il les soumettra à un horrible supplice. Ceux-là ne trouveront, en dehors d’Allah, aucun allié ni soutien."
   },
   {
     "id": "an-nisa-174",
@@ -27784,7 +27957,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُم بُرْهَـٰنٌ مِّن رَّبِّكُمْ وَأَنزَلْنَآ إِلَيْكُمْ نُورًا مُّبِينًا",
     "textSimple": "يـٓأيها ٱلناس قد جآءكم برهـن من ربكم وأنزلنآ إليكم نورا مبينا",
     "transliteration": "yāayyuhā l-nāsu qad jāakum bur'hānun min rabbikum wa-anzalnā ilaykum nūran mubīnan",
-    "translation": "",
+    "translation": "O mankind, there has come to you a conclusive proof from your Lord, and We have sent down to you a clear light.",
     "words": [
       {
         "id": "an-nisa-174-1",
@@ -27864,7 +28037,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Il vous est venu une preuve de votre Seigneur. Et Nous avons fait descendre vers vous une lumière éclatante."
   },
   {
     "id": "an-nisa-175",
@@ -27873,7 +28047,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍ مِّنْهُ وَفَضْلٍ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًا مُّسْتَقِيمًا",
     "textSimple": "فأما ٱلذين ءامنوا بٱلله وٱعتصموا به فسيدخلهم فى رحمة منه وفضل ويهديهم إليه صرطا مستقيما",
     "transliteration": "fa-ammā alladhīna āmanū bil-lahi wa-iʿ'taṣamū bihi fasayud'khiluhum fī raḥmatin min'hu wafaḍlin wayahdīhim ilayhi ṣirāṭan mus'taqīman",
-    "translation": "",
+    "translation": "So those who believe in Allāh and hold fast to Him - He will admit them to mercy from Himself and bounty and guide them to Himself on a straight path.",
     "words": [
       {
         "id": "an-nisa-175-1",
@@ -27981,7 +28155,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru en Allah et se sont attachés fortement à Lui, Il les accueillera dans une miséricorde et dans une faveur venues de Lui. Et Il les dirigera vers une voie droite."
   },
   {
     "id": "an-nisa-176",
@@ -27990,7 +28165,7 @@ export const AN_NISA_AYAHS: Ayah[] = [
     "textUthmani": "يَسْتَفْتُونَكَ قُلِ ٱللَّهُ يُفْتِيكُمْ فِى ٱلْكَلَـٰلَةِ ۚ إِنِ ٱمْرُؤٌا۟ هَلَكَ لَيْسَ لَهُۥ وَلَدٌ وَلَهُۥٓ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ ۚ وَهُوَ يَرِثُهَآ إِن لَّمْ يَكُن لَّهَا وَلَدٌ ۚ فَإِن كَانَتَا ٱثْنَتَيْنِ فَلَهُمَا ٱلثُّلُثَانِ مِمَّا تَرَكَ ۚ وَإِن كَانُوٓا۟ إِخْوَةً رِّجَالًا وَنِسَآءً فَلِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۗ يُبَيِّنُ ٱللَّهُ لَكُمْ أَن تَضِلُّوا۟ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۢ",
     "textSimple": "يستفتونك قل ٱلله يفتيكم فى ٱلكلـلة  إن ٱمرؤا هلك ليس له ولد ولهٓ أخت فلها نصف ما ترك  وهو يرثهآ إن لم يكن لها ولد  فإن كانتا ٱثنتين فلهما ٱلثلثان مما ترك  وإن كانوٓا إخوة رجالا ونسآء فللذكر مثل حظ ٱلأنثيين  يبين ٱلله لكم أن تضلوا  وٱلله بكل شىء عليم",
     "transliteration": "yastaftūnaka quli l-lahu yuf'tīkum fī l-kalālati ini im'ru-on halaka laysa lahu waladun walahu ukh'tun falahā niṣ'fu mā taraka wahuwa yarithuhā in lam yakun lahā waladun fa-in kānatā ith'natayni falahumā l-thuluthāni mimmā taraka wa-in kānū ikh'watan rijālan wanisāan falildhakari mith'lu ḥaẓẓi l-unthayayni yubayyinu l-lahu lakum an taḍillū wal-lahu bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "They request from you a [legal] ruling. Say, \"Allāh gives you a ruling concerning one having neither descendants nor ascendants [as heirs].\" If a man dies, leaving no child but [only] a sister, she will have half of what he left. And he inherits from her if she [dies and] has no child. But if there are two sisters [or more], they will have two thirds of what he left. If there are both brothers and sisters, the male will have the share of two females. Allāh makes clear to you [His law], lest you go astray. And Allāh is Knowing of all things.",
     "words": [
       {
         "id": "an-nisa-176-1",
@@ -28343,7 +28518,8 @@ export const AN_NISA_AYAHS: Ayah[] = [
         "position": 49
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent à propos de ce qui a été décrété comme verdicts (fatwas). Dis : « Allah prononce le verdict que voici à propos de alkalala, (c’est-à-dire sur le cas du défunt qui n’a ni géniteurs ni progéniture) : si un homme vient à mourir sans laisser d’enfants mais qu’il ait une sœur, celle-ci aura la moitié de ce qu’il laisse. Et lui hérite d’elle la totalité de ce qu’elle laisse (si elle vient à mourir) et qu’elle n’ait pas d’enfants. Si elles sont deux (sœurs ou plus), elles hériteront les deux tiers de ce que le défunt a laissé. Si ce dernier laisse des frères et des sœurs, alors chaque frère aura la part de deux sœurs. Allah vous explique (dans l’intimité du détail) pour vous épargner l’égarement. Et Allah est Omniscient."
   }
 ];
 

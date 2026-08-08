@@ -11,7 +11,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": " ٱقْتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلْقَمَرُ",
     "textSimple": " ٱقتربت ٱلساعة وٱنشق ٱلقمر",
     "transliteration": "iq'tarabati l-sāʿatu wa-inshaqqa l-qamaru",
-    "translation": "",
+    "translation": "The Hour has come near, and the moon has split [in two].",
     "words": [
       {
         "id": "al-qamar-1-1",
@@ -42,7 +42,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’Heure approche et la lune s’est fendue."
   },
   {
     "id": "al-qamar-2",
@@ -51,7 +52,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يَرَوْا۟ ءَايَةً يُعْرِضُوا۟ وَيَقُولُوا۟ سِحْرٌ مُّسْتَمِرٌّ",
     "textSimple": "وإن يروا ءاية يعرضوا ويقولوا سحر مستمر",
     "transliteration": "wa-in yaraw āyatan yuʿ'riḍū wayaqūlū siḥ'run mus'tamirrun",
-    "translation": "",
+    "translation": "And if they see a sign [i.e., miracle], they turn away and say, \"Passing magic.\"",
     "words": [
       {
         "id": "al-qamar-2-1",
@@ -103,7 +104,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voient-ils un Signe, ils s’en détournent en disant : « C’est une magie appelée à disparaître. »"
   },
   {
     "id": "al-qamar-3",
@@ -112,7 +114,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَّبُوا۟ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُمْ ۚ وَكُلُّ أَمْرٍ مُّسْتَقِرٌّ",
     "textSimple": "وكذبوا وٱتبعوٓا أهوآءهم  وكل أمر مستقر",
     "transliteration": "wakadhabū wa-ittabaʿū ahwāahum wakullu amrin mus'taqirrun",
-    "translation": "",
+    "translation": "And they denied and followed their inclinations. But for every matter is a [time of] settlement.",
     "words": [
       {
         "id": "al-qamar-3-1",
@@ -157,7 +159,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils crient au mensonge, suivent leurs penchants, mais tout ira (à son aboutissement)."
   },
   {
     "id": "al-qamar-4",
@@ -166,7 +169,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جَآءَهُم مِّنَ ٱلْأَنۢبَآءِ مَا فِيهِ مُزْدَجَرٌ",
     "textSimple": "ولقد جآءهم من ٱلأنبآء ما فيه مزدجر",
     "transliteration": "walaqad jāahum mina l-anbāi mā fīhi muz'dajarun",
-    "translation": "",
+    "translation": "And there has already come to them of information that in which there is deterrence.",
     "words": [
       {
         "id": "al-qamar-4-1",
@@ -218,7 +221,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur est pourtant parvenu des récits qui devaient les prévenir (de la mécréance),"
   },
   {
     "id": "al-qamar-5",
@@ -227,7 +231,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "حِكْمَةٌۢ بَـٰلِغَةٌ ۖ فَمَا تُغْنِ ٱلنُّذُرُ",
     "textSimple": "حكمة بـلغة  فما تغن ٱلنذر",
     "transliteration": "ḥik'matun bālighatun famā tugh'ni l-nudhuru",
-    "translation": "",
+    "translation": "Extensive wisdom - but warning does not avail [them].",
     "words": [
       {
         "id": "al-qamar-5-1",
@@ -265,7 +269,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(récits) d’une grande sagesse, mais les avertissements ne servirent à rien."
   },
   {
     "id": "al-qamar-6",
@@ -274,7 +279,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّ عَنْهُمْ ۘ يَوْمَ يَدْعُ ٱلدَّاعِ إِلَىٰ شَىْءٍ نُّكُرٍ",
     "textSimple": "فتول عنهم  يوم يدع ٱلداع إلى شىء نكر",
     "transliteration": "fatawalla ʿanhum yawma yadʿu l-dāʿi ilā shayin nukurin",
-    "translation": "",
+    "translation": "So leave them, [O Muḥammad]. The Day the Caller calls to something forbidding,",
     "words": [
       {
         "id": "al-qamar-6-1",
@@ -333,7 +338,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détourne-toi donc d’eux ! Le jour où le Héraut annoncera une chose terrifiante,"
   },
   {
     "id": "al-qamar-7",
@@ -342,7 +348,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "خُشَّعًا أَبْصَـٰرُهُمْ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ كَأَنَّهُمْ جَرَادٌ مُّنتَشِرٌ",
     "textSimple": "خشعا أبصـرهم يخرجون من ٱلأجداث كأنهم جراد منتشر",
     "transliteration": "khushaʿan abṣāruhum yakhrujūna mina l-ajdāthi ka-annahum jarādun muntashirun",
-    "translation": "",
+    "translation": "Their eyes humbled, they will emerge from the graves as if they were locusts spreading,",
     "words": [
       {
         "id": "al-qamar-7-1",
@@ -401,7 +407,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "les regards humbles de crainte, ils sortiront des tombes comme sauterelles dispersées,"
   },
   {
     "id": "al-qamar-8",
@@ -410,7 +417,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "مُّهْطِعِينَ إِلَى ٱلدَّاعِ ۖ يَقُولُ ٱلْكَـٰفِرُونَ هَـٰذَا يَوْمٌ عَسِرٌ",
     "textSimple": "مهطعين إلى ٱلداع  يقول ٱلكـفرون هـذا يوم عسر",
     "transliteration": "muh'ṭiʿīna ilā l-dāʿi yaqūlu l-kāfirūna hādhā yawmun ʿasirun",
-    "translation": "",
+    "translation": "Racing ahead toward the Caller. The disbelievers will say, \"This is a difficult Day.\"",
     "words": [
       {
         "id": "al-qamar-8-1",
@@ -469,7 +476,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "tous précipités vers (l’origine de) l’appel. « C’est un jour pénible ! », diront les mécréants."
   },
   {
     "id": "al-qamar-9",
@@ -478,7 +486,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "۞ كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ فَكَذَّبُوا۟ عَبْدَنَا وَقَالُوا۟ مَجْنُونٌ وَٱزْدُجِرَ",
     "textSimple": " كذبت قبلهم قوم نوح فكذبوا عبدنا وقالوا مجنون وٱزدجر",
     "transliteration": "kadhabat qablahum qawmu nūḥin fakadhabū ʿabdanā waqālū majnūnun wa-uz'dujira",
-    "translation": "",
+    "translation": "The people of Noah denied before them, and they denied Our servant and said, \"A madman,\" and he was repelled.",
     "words": [
       {
         "id": "al-qamar-9-1",
@@ -544,7 +552,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le peuple de Noé, avant eux, avait tout rejeté et traité de menteur Notre serviteur. Ils dirent alors de lui: « C’est un insensé ! » Et il fut repoussé (impitoyablement)."
   },
   {
     "id": "al-qamar-10",
@@ -553,7 +562,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَدَعَا رَبَّهُۥٓ أَنِّى مَغْلُوبٌ فَٱنتَصِرْ",
     "textSimple": "فدعا ربهٓ أنى مغلوب فٱنتصر",
     "transliteration": "fadaʿā rabbahu annī maghlūbun fa-intaṣir",
-    "translation": "",
+    "translation": "So he invoked his Lord, \"Indeed, I am overpowered, so help.\"",
     "words": [
       {
         "id": "al-qamar-10-1",
@@ -591,7 +600,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il pria son Seigneur : « Je suis vaincu, à Toi donc de faire triompher (Ta cause) ! »"
   },
   {
     "id": "al-qamar-11",
@@ -600,7 +610,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَفَتَحْنَآ أَبْوَٰبَ ٱلسَّمَآءِ بِمَآءٍ مُّنْهَمِرٍ",
     "textSimple": "ففتحنآ أبوب ٱلسمآء بمآء منهمر",
     "transliteration": "fafataḥnā abwāba l-samāi bimāin mun'hamirin",
-    "translation": "",
+    "translation": "Then We opened the gates of the heaven with rain pouring down",
     "words": [
       {
         "id": "al-qamar-11-1",
@@ -638,7 +648,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ouvrîmes alors les portes du ciel qui (laissèrent s’échapper) des eaux impétueuses."
   },
   {
     "id": "al-qamar-12",
@@ -647,7 +658,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍ قَدْ قُدِرَ",
     "textSimple": "وفجرنا ٱلأرض عيونا فٱلتقى ٱلمآء علىٓ أمر قد قدر",
     "transliteration": "wafajjarnā l-arḍa ʿuyūnan fal-taqā l-māu ʿalā amrin qad qudira",
-    "translation": "",
+    "translation": "And caused the earth to burst with springs, and the waters met for a matter already predestined.",
     "words": [
       {
         "id": "al-qamar-12-1",
@@ -713,7 +724,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes sourdre de la terre des ruisseaux, et les eaux (du ciel et de la terre) se rejoignirent par Nos ordres prédestinés."
   },
   {
     "id": "al-qamar-13",
@@ -722,7 +734,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَحَمَلْنَـٰهُ عَلَىٰ ذَاتِ أَلْوَٰحٍ وَدُسُرٍ",
     "textSimple": "وحملنـه على ذات ألوح ودسر",
     "transliteration": "waḥamalnāhu ʿalā dhāti alwāḥin wadusurin",
-    "translation": "",
+    "translation": "And We carried him on a [construction of] planks and nails,",
     "words": [
       {
         "id": "al-qamar-13-1",
@@ -760,7 +772,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le transportâmes sur (une Arche) faite de planches assemblées avec des clous,"
   },
   {
     "id": "al-qamar-14",
@@ -769,7 +782,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "تَجْرِى بِأَعْيُنِنَا جَزَآءً لِّمَن كَانَ كُفِرَ",
     "textSimple": "تجرى بأعيننا جزآء لمن كان كفر",
     "transliteration": "tajrī bi-aʿyuninā jazāan liman kāna kufira",
-    "translation": "",
+    "translation": "Sailing under Our observation as reward for he who had been denied.",
     "words": [
       {
         "id": "al-qamar-14-1",
@@ -814,7 +827,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui voguait sous Nos Yeux, en récompense pour celui qui fut renié."
   },
   {
     "id": "al-qamar-15",
@@ -823,7 +837,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَد تَّرَكْنَـٰهَآ ءَايَةً فَهَلْ مِن مُّدَّكِرٍ",
     "textSimple": "ولقد تركنـهآ ءاية فهل من مدكر",
     "transliteration": "walaqad taraknāhā āyatan fahal min muddakirin",
-    "translation": "",
+    "translation": "And We left it as a sign, so is there any who will remember?",
     "words": [
       {
         "id": "al-qamar-15-1",
@@ -868,7 +882,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous laissâmes (l’Arche) comme Signe à la postérité. Est-il donc quelqu’un pour y réfléchir ?"
   },
   {
     "id": "al-qamar-16",
@@ -877,7 +892,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
     "textSimple": "فكيف كان عذابى ونذر",
     "transliteration": "fakayfa kāna ʿadhābī wanudhuri",
-    "translation": "",
+    "translation": "And how [severe] were My punishment and warning.",
     "words": [
       {
         "id": "al-qamar-16-1",
@@ -908,7 +923,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels ne furent alors Mon Supplice et Mes Menaces !"
   },
   {
     "id": "al-qamar-17",
@@ -917,7 +933,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
     "textSimple": "ولقد يسرنا ٱلقرءان للذكر فهل من مدكر",
     "transliteration": "walaqad yassarnā l-qur'āna lildhik'ri fahal min muddakirin",
-    "translation": "",
+    "translation": "And We have certainly made the Qur’ān easy for remembrance, so is there any who will remember?",
     "words": [
       {
         "id": "al-qamar-17-1",
@@ -969,7 +985,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons rendu le Coran facile à méditer. Est-il donc quelqu’un pour y réfléchir ?"
   },
   {
     "id": "al-qamar-18",
@@ -978,7 +995,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ عَادٌ فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
     "textSimple": "كذبت عاد فكيف كان عذابى ونذر",
     "transliteration": "kadhabat ʿādun fakayfa kāna ʿadhābī wanudhuri",
-    "translation": "",
+    "translation": "ʿAad denied; and how [severe] were My punishment and warning.",
     "words": [
       {
         "id": "al-qamar-18-1",
@@ -1023,7 +1040,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les ‘Ad crièrent au mensonge. Quels ne furent alors Mon Supplice et Mes Menaces !"
   },
   {
     "id": "al-qamar-19",
@@ -1032,7 +1050,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ رِيحًا صَرْصَرًا فِى يَوْمِ نَحْسٍ مُّسْتَمِرٍّ",
     "textSimple": "إنآ أرسلنا عليهم ريحا صرصرا فى يوم نحس مستمر",
     "transliteration": "innā arsalnā ʿalayhim rīḥan ṣarṣaran fī yawmi naḥsin mus'tamirrin",
-    "translation": "",
+    "translation": "Indeed, We sent upon them a screaming wind on a day of continuous misfortune,",
     "words": [
       {
         "id": "al-qamar-19-1",
@@ -1098,7 +1116,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes contre eux, par un jour néfaste et sans fin, un vent impétueux et glacial,"
   },
   {
     "id": "al-qamar-20",
@@ -1107,7 +1126,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُّنقَعِرٍ",
     "textSimple": "تنزع ٱلناس كأنهم أعجاز نخل منقعر",
     "transliteration": "tanziʿu l-nāsa ka-annahum aʿjāzu nakhlin munqaʿirin",
-    "translation": "",
+    "translation": "Extracting the people as if they were trunks of palm trees uprooted.",
     "words": [
       {
         "id": "al-qamar-20-1",
@@ -1152,7 +1171,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui arrachait les hommes comme des troncs creux de palmiers (déracinés)."
   },
   {
     "id": "al-qamar-21",
@@ -1161,7 +1181,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
     "textSimple": "فكيف كان عذابى ونذر",
     "transliteration": "fakayfa kāna ʿadhābī wanudhuri",
-    "translation": "",
+    "translation": "And how [severe] were My punishment and warning.",
     "words": [
       {
         "id": "al-qamar-21-1",
@@ -1192,7 +1212,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels ne furent alors Mon Supplice et Mes Menaces !"
   },
   {
     "id": "al-qamar-22",
@@ -1201,7 +1222,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
     "textSimple": "ولقد يسرنا ٱلقرءان للذكر فهل من مدكر",
     "transliteration": "walaqad yassarnā l-qur'āna lildhik'ri fahal min muddakirin",
-    "translation": "",
+    "translation": "And We have certainly made the Qur’ān easy for remembrance, so is there any who will remember?",
     "words": [
       {
         "id": "al-qamar-22-1",
@@ -1253,7 +1274,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons rendu le Coran facile à méditer. Est-il donc quelqu’un pour y réfléchir ?"
   },
   {
     "id": "al-qamar-23",
@@ -1262,7 +1284,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ ثَمُودُ بِٱلنُّذُرِ",
     "textSimple": "كذبت ثمود بٱلنذر",
     "transliteration": "kadhabat thamūdu bil-nudhuri",
-    "translation": "",
+    "translation": "Thamūd denied the warning.",
     "words": [
       {
         "id": "al-qamar-23-1",
@@ -1286,7 +1308,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Thamûd taxèrent de mensonges les avertissements."
   },
   {
     "id": "al-qamar-24",
@@ -1295,7 +1318,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالُوٓا۟ أَبَشَرًا مِّنَّا وَٰحِدًا نَّتَّبِعُهُۥٓ إِنَّآ إِذًا لَّفِى ضَلَـٰلٍ وَسُعُرٍ",
     "textSimple": "فقالوٓا أبشرا منا وحدا نتبعهٓ إنآ إذا لفى ضلـل وسعر",
     "transliteration": "faqālū abasharan minnā wāḥidan nattabiʿuhu innā idhan lafī ḍalālin wasuʿurin",
-    "translation": "",
+    "translation": "And said, \"Is it one human being among us that we should follow? Indeed, we would then be in error and madness.",
     "words": [
       {
         "id": "al-qamar-24-1",
@@ -1368,7 +1391,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils protestèrent : « Allons nous suivre un seul homme d’entre nous ? Nous serions alors en plein égarement, et même complètement fous !"
   },
   {
     "id": "al-qamar-25",
@@ -1377,7 +1401,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَءُلْقِىَ ٱلذِّكْرُ عَلَيْهِ مِنۢ بَيْنِنَا بَلْ هُوَ كَذَّابٌ أَشِرٌ",
     "textSimple": "أءلقى ٱلذكر عليه من بيننا بل هو كذاب أشر",
     "transliteration": "a-ul'qiya l-dhik'ru ʿalayhi min bayninā bal huwa kadhābun ashirun",
-    "translation": "",
+    "translation": "Has the message been sent down upon him from among us? Rather, he is an insolent liar.\"",
     "words": [
       {
         "id": "al-qamar-25-1",
@@ -1443,7 +1467,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Message aurait-il été confié à lui seul d’entre nous tous ? Que non, c’est un fieffé menteur ! »"
   },
   {
     "id": "al-qamar-26",
@@ -1452,7 +1477,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "سَيَعْلَمُونَ غَدًا مَّنِ ٱلْكَذَّابُ ٱلْأَشِرُ",
     "textSimple": "سيعلمون غدا من ٱلكذاب ٱلأشر",
     "transliteration": "sayaʿlamūna ghadan mani l-kadhābu l-ashiru",
-    "translation": "",
+    "translation": "They will know tomorrow who is the insolent liar.",
     "words": [
       {
         "id": "al-qamar-26-1",
@@ -1490,7 +1515,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sauront demain qui est le fieffé menteur."
   },
   {
     "id": "al-qamar-27",
@@ -1499,7 +1525,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا مُرْسِلُوا۟ ٱلنَّاقَةِ فِتْنَةً لَّهُمْ فَٱرْتَقِبْهُمْ وَٱصْطَبِرْ",
     "textSimple": "إنا مرسلوا ٱلناقة فتنة لهم فٱرتقبهم وٱصطبر",
     "transliteration": "innā mur'silū l-nāqati fit'natan lahum fa-ir'taqib'hum wa-iṣ'ṭabir",
-    "translation": "",
+    "translation": "Indeed, We are sending the she-camel as trial for them, so watch them and be patient.",
     "words": [
       {
         "id": "al-qamar-27-1",
@@ -1551,7 +1577,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous allons leur envoyer la chamelle pour les éprouver. Observe-les donc et prends patience !"
   },
   {
     "id": "al-qamar-28",
@@ -1560,7 +1587,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَنَبِّئْهُمْ أَنَّ ٱلْمَآءَ قِسْمَةٌۢ بَيْنَهُمْ ۖ كُلُّ شِرْبٍ مُّحْتَضَرٌ",
     "textSimple": "ونبئهم أن ٱلمآء قسمة بينهم  كل شرب محتضر",
     "transliteration": "wanabbi'hum anna l-māa qis'matun baynahum kullu shir'bin muḥ'taḍarun",
-    "translation": "",
+    "translation": "And inform them that the water is shared between them, each [day of] drink attended [by turn].",
     "words": [
       {
         "id": "al-qamar-28-1",
@@ -1619,7 +1646,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Préviens-les que l’eau sera partagée entre eux (et la chamelle) et qu’ils en boiront chacun un jour."
   },
   {
     "id": "al-qamar-29",
@@ -1628,7 +1656,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَنَادَوْا۟ صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ",
     "textSimple": "فنادوا صاحبهم فتعاطى فعقر",
     "transliteration": "fanādaw ṣāḥibahum fataʿāṭā faʿaqara",
-    "translation": "",
+    "translation": "But they called their companion, and he dared and hamstrung [her].",
     "words": [
       {
         "id": "al-qamar-29-1",
@@ -1659,7 +1687,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils appelèrent leur compagnon qui prit (une arme) et l’abattit."
   },
   {
     "id": "al-qamar-30",
@@ -1668,7 +1697,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ",
     "textSimple": "فكيف كان عذابى ونذر",
     "transliteration": "fakayfa kāna ʿadhābī wanudhuri",
-    "translation": "",
+    "translation": "And how [severe] were My punishment and warning.",
     "words": [
       {
         "id": "al-qamar-30-1",
@@ -1699,7 +1728,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels ne furent alors Mon Supplice et Mes Menaces !"
   },
   {
     "id": "al-qamar-31",
@@ -1708,7 +1738,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَٰحِدَةً فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ",
     "textSimple": "إنآ أرسلنا عليهم صيحة وحدة فكانوا كهشيم ٱلمحتظر",
     "transliteration": "innā arsalnā ʿalayhim ṣayḥatan wāḥidatan fakānū kahashīmi l-muḥ'taẓiri",
-    "translation": "",
+    "translation": "Indeed, We sent upon them one shriek [i.e., blast from the sky], and they became like the dry twig fragments of an [animal] pen.",
     "words": [
       {
         "id": "al-qamar-31-1",
@@ -1767,7 +1797,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes contre eux un seul Cri et les voilà aussi inertes que le foin d’une étable."
   },
   {
     "id": "al-qamar-32",
@@ -1776,7 +1807,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
     "textSimple": "ولقد يسرنا ٱلقرءان للذكر فهل من مدكر",
     "transliteration": "walaqad yassarnā l-qur'āna lildhik'ri fahal min muddakirin",
-    "translation": "",
+    "translation": "And We have certainly made the Qur’ān easy for remembrance, so is there any who will remember?",
     "words": [
       {
         "id": "al-qamar-32-1",
@@ -1828,7 +1859,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons rendu le Coran facile à méditer. Est-il donc quelqu’un pour y réfléchir ?"
   },
   {
     "id": "al-qamar-33",
@@ -1837,7 +1869,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ قَوْمُ لُوطٍۭ بِٱلنُّذُرِ",
     "textSimple": "كذبت قوم لوط بٱلنذر",
     "transliteration": "kadhabat qawmu lūṭin bil-nudhuri",
-    "translation": "",
+    "translation": "The people of Lot denied the warning.",
     "words": [
       {
         "id": "al-qamar-33-1",
@@ -1868,7 +1900,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le peuple de Loth, (à son tour), tint pour mensonges les avertissements."
   },
   {
     "id": "al-qamar-34",
@@ -1877,7 +1910,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ حَاصِبًا إِلَّآ ءَالَ لُوطٍ ۖ نَّجَّيْنَـٰهُم بِسَحَرٍ",
     "textSimple": "إنآ أرسلنا عليهم حاصبا إلآ ءال لوط  نجينـهم بسحر",
     "transliteration": "innā arsalnā ʿalayhim ḥāṣiban illā āla lūṭin najjaynāhum bisaḥarin",
-    "translation": "",
+    "translation": "Indeed, We sent upon them a storm of stones, except the family of Lot - We saved them before dawn.",
     "words": [
       {
         "id": "al-qamar-34-1",
@@ -1943,7 +1976,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes alors contre eux des trombes de cailloux et n’épargnâmes que la famille de Loth peu avant l’aube."
   },
   {
     "id": "al-qamar-35",
@@ -1952,7 +1986,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "نِّعْمَةً مِّنْ عِندِنَا ۚ كَذَٰلِكَ نَجْزِى مَن شَكَرَ",
     "textSimple": "نعمة من عندنا  كذلك نجزى من شكر",
     "transliteration": "niʿ'matan min ʿindinā kadhālika najzī man shakara",
-    "translation": "",
+    "translation": "As favor from Us. Thus do We reward he who is grateful.",
     "words": [
       {
         "id": "al-qamar-35-1",
@@ -2004,7 +2038,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce fut un bienfait de Notre part, et c’est ainsi que Nous récompensons celui qui sait rendre grâces."
   },
   {
     "id": "al-qamar-36",
@@ -2013,7 +2048,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَنذَرَهُم بَطْشَتَنَا فَتَمَارَوْا۟ بِٱلنُّذُرِ",
     "textSimple": "ولقد أنذرهم بطشتنا فتماروا بٱلنذر",
     "transliteration": "walaqad andharahum baṭshatanā fatamāraw bil-nudhuri",
-    "translation": "",
+    "translation": "And he had already warned them of Our assault, but they disputed the warning.",
     "words": [
       {
         "id": "al-qamar-36-1",
@@ -2051,7 +2086,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Loth) les avait pourtant prévenus de la rigueur de Notre riposte, mais ils refusèrent de croire aux avertissements."
   },
   {
     "id": "al-qamar-37",
@@ -2060,7 +2096,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ رَٰوَدُوهُ عَن ضَيْفِهِۦ فَطَمَسْنَآ أَعْيُنَهُمْ فَذُوقُوا۟ عَذَابِى وَنُذُرِ",
     "textSimple": "ولقد رودوه عن ضيفه فطمسنآ أعينهم فذوقوا عذابى ونذر",
     "transliteration": "walaqad rāwadūhu ʿan ḍayfihi faṭamasnā aʿyunahum fadhūqū ʿadhābī wanudhuri",
-    "translation": "",
+    "translation": "And they had demanded from him his guests, but We obliterated their eyes, [saying], \"Taste My punishment and warning.\"",
     "words": [
       {
         "id": "al-qamar-37-1",
@@ -2126,7 +2162,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils voulaient porter atteinte à l’honneur de ses hôtes, mais Nous les privâmes de leur vue (en leur disant) : « Goûtez donc Mon Supplice et Mes Menaces ! »"
   },
   {
     "id": "al-qamar-38",
@@ -2135,7 +2172,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَبَّحَهُم بُكْرَةً عَذَابٌ مُّسْتَقِرٌّ",
     "textSimple": "ولقد صبحهم بكرة عذاب مستقر",
     "transliteration": "walaqad ṣabbaḥahum buk'ratan ʿadhābun mus'taqirrun",
-    "translation": "",
+    "translation": "And there came upon them by morning an abiding punishment.",
     "words": [
       {
         "id": "al-qamar-38-1",
@@ -2173,7 +2210,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le lendemain, au petit jour, un supplice continu fondit sur eux."
   },
   {
     "id": "al-qamar-39",
@@ -2182,7 +2220,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فَذُوقُوا۟ عَذَابِى وَنُذُرِ",
     "textSimple": "فذوقوا عذابى ونذر",
     "transliteration": "fadhūqū ʿadhābī wanudhuri",
-    "translation": "",
+    "translation": "So taste My punishment and warning.",
     "words": [
       {
         "id": "al-qamar-39-1",
@@ -2206,7 +2244,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Goûtez donc Mon Supplice et Mes Menaces ! »"
   },
   {
     "id": "al-qamar-40",
@@ -2215,7 +2254,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
     "textSimple": "ولقد يسرنا ٱلقرءان للذكر فهل من مدكر",
     "transliteration": "walaqad yassarnā l-qur'āna lildhik'ri fahal min muddakirin",
-    "translation": "",
+    "translation": "And We have certainly made the Qur’ān easy for remembrance, so is there any who will remember?",
     "words": [
       {
         "id": "al-qamar-40-1",
@@ -2267,7 +2306,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons rendu le Coran facile à méditer. Est-il donc quelqu’un pour y réfléchir ?"
   },
   {
     "id": "al-qamar-41",
@@ -2276,7 +2316,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جَآءَ ءَالَ فِرْعَوْنَ ٱلنُّذُرُ",
     "textSimple": "ولقد جآء ءال فرعون ٱلنذر",
     "transliteration": "walaqad jāa āla fir'ʿawna l-nudhuru",
-    "translation": "",
+    "translation": "And there certainly came to the people of Pharaoh warning.",
     "words": [
       {
         "id": "al-qamar-41-1",
@@ -2314,7 +2354,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au peuple de Pharaon, sont parvenus également les avertissements."
   },
   {
     "id": "al-qamar-42",
@@ -2323,7 +2364,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبُوا۟ بِـَٔايَـٰتِنَا كُلِّهَا فَأَخَذْنَـٰهُمْ أَخْذَ عَزِيزٍ مُّقْتَدِرٍ",
     "textSimple": "كذبوا بـٔايـتنا كلها فأخذنـهم أخذ عزيز مقتدر",
     "transliteration": "kadhabū biāyātinā kullihā fa-akhadhnāhum akhdha ʿazīzin muq'tadirin",
-    "translation": "",
+    "translation": "They denied Our signs, all of them, so We seized them with a seizure of one Exalted in Might and Perfect in Ability.",
     "words": [
       {
         "id": "al-qamar-42-1",
@@ -2375,7 +2416,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils tinrent pour mensonges tous Nos Signes, et Nous les emportâmes comme il sied à Qui est Tout -Puissant et Omnipotent."
   },
   {
     "id": "al-qamar-43",
@@ -2384,7 +2426,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَكُفَّارُكُمْ خَيْرٌ مِّنْ أُو۟لَـٰٓئِكُمْ أَمْ لَكُم بَرَآءَةٌ فِى ٱلزُّبُرِ",
     "textSimple": "أكفاركم خير من أولـٓئكم أم لكم برآءة فى ٱلزبر",
     "transliteration": "akuffārukum khayrun min ulāikum am lakum barāatun fī l-zuburi",
-    "translation": "",
+    "translation": "Are your disbelievers better than those [former ones], or have you immunity in the scriptures?",
     "words": [
       {
         "id": "al-qamar-43-1",
@@ -2450,7 +2492,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos mécréants seraient-ils donc meilleurs que ceux-là ? Ou bien argueriez-vous de quelque immunité vous venant des Écritures ?"
   },
   {
     "id": "al-qamar-44",
@@ -2459,7 +2502,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ نَحْنُ جَمِيعٌ مُّنتَصِرٌ",
     "textSimple": "أم يقولون نحن جميع منتصر",
     "transliteration": "am yaqūlūna naḥnu jamīʿun muntaṣirun",
-    "translation": "",
+    "translation": "Or do they say, \"We are an assembly supporting [each other]\"?",
     "words": [
       {
         "id": "al-qamar-44-1",
@@ -2497,7 +2540,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Peut-être diront-ils: « Nous sommes nombreux et solidaires, et nous serons vainqueurs. »"
   },
   {
     "id": "al-qamar-45",
@@ -2506,7 +2550,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "سَيُهْزَمُ ٱلْجَمْعُ وَيُوَلُّونَ ٱلدُّبُرَ",
     "textSimple": "سيهزم ٱلجمع ويولون ٱلدبر",
     "transliteration": "sayuh'zamu l-jamʿu wayuwallūna l-dubura",
-    "translation": "",
+    "translation": "[Their] assembly will be defeated, and they will turn their backs [in retreat].",
     "words": [
       {
         "id": "al-qamar-45-1",
@@ -2537,7 +2581,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tous seront vaincus, et tourneront le dos pour prendre la fuite."
   },
   {
     "id": "al-qamar-46",
@@ -2546,7 +2591,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱلسَّاعَةُ مَوْعِدُهُمْ وَٱلسَّاعَةُ أَدْهَىٰ وَأَمَرُّ",
     "textSimple": "بل ٱلساعة موعدهم وٱلساعة أدهى وأمر",
     "transliteration": "bali l-sāʿatu mawʿiduhum wal-sāʿatu adhā wa-amarru",
-    "translation": "",
+    "translation": "But the Hour is their appointment [for due punishment], and the Hour is more disastrous and more bitter.",
     "words": [
       {
         "id": "al-qamar-46-1",
@@ -2591,7 +2636,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’Heure sera plutôt leur rendez-vous, et l’Heure est plus cruelle encore, et bien plus amère."
   },
   {
     "id": "al-qamar-47",
@@ -2600,7 +2646,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُجْرِمِينَ فِى ضَلَـٰلٍ وَسُعُرٍ",
     "textSimple": "إن ٱلمجرمين فى ضلـل وسعر",
     "transliteration": "inna l-muj'rimīna fī ḍalālin wasuʿurin",
-    "translation": "",
+    "translation": "Indeed, the criminals are in error and madness..",
     "words": [
       {
         "id": "al-qamar-47-1",
@@ -2638,7 +2684,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les coupables sont en plein égarement et (livrés à) la démence."
   },
   {
     "id": "al-qamar-48",
@@ -2647,7 +2694,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يُسْحَبُونَ فِى ٱلنَّارِ عَلَىٰ وُجُوهِهِمْ ذُوقُوا۟ مَسَّ سَقَرَ",
     "textSimple": "يوم يسحبون فى ٱلنار على وجوههم ذوقوا مس سقر",
     "transliteration": "yawma yus'ḥabūna fī l-nāri ʿalā wujūhihim dhūqū massa saqara",
-    "translation": "",
+    "translation": "The Day they are dragged into the Fire on their faces [it will be said], \"Taste the touch of Saqar.\"",
     "words": [
       {
         "id": "al-qamar-48-1",
@@ -2713,7 +2760,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où ils seront dans le Feu, traînés sur leurs visages, (il leur sera dit) : « Goûtez donc la chaleur (de l’Enfer) qui (maintenant) vous touche ! »"
   },
   {
     "id": "al-qamar-49",
@@ -2722,7 +2770,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كُلَّ شَىْءٍ خَلَقْنَـٰهُ بِقَدَرٍ",
     "textSimple": "إنا كل شىء خلقنـه بقدر",
     "transliteration": "innā kulla shayin khalaqnāhu biqadarin",
-    "translation": "",
+    "translation": "Indeed, all things We created with predestination.",
     "words": [
       {
         "id": "al-qamar-49-1",
@@ -2760,7 +2808,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons tout créé selon un Décret."
   },
   {
     "id": "al-qamar-50",
@@ -2769,7 +2818,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَمْرُنَآ إِلَّا وَٰحِدَةٌ كَلَمْحٍۭ بِٱلْبَصَرِ",
     "textSimple": "ومآ أمرنآ إلا وحدة كلمح بٱلبصر",
     "transliteration": "wamā amrunā illā wāḥidatun kalamḥin bil-baṣari",
-    "translation": "",
+    "translation": "And Our command is but one, like a glance of the eye.",
     "words": [
       {
         "id": "al-qamar-50-1",
@@ -2814,7 +2863,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Notre ordre ne procède que d’un mot, un seul, aussi rapide que l’éclair."
   },
   {
     "id": "al-qamar-51",
@@ -2823,7 +2873,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَهْلَكْنَآ أَشْيَاعَكُمْ فَهَلْ مِن مُّدَّكِرٍ",
     "textSimple": "ولقد أهلكنآ أشياعكم فهل من مدكر",
     "transliteration": "walaqad ahlaknā ashyāʿakum fahal min muddakirin",
-    "translation": "",
+    "translation": "And We have already destroyed your kinds, so is there any who will remember?",
     "words": [
       {
         "id": "al-qamar-51-1",
@@ -2868,7 +2918,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons déjà fait périr des peuples qui vous étaient semblables. Est-il donc quelqu’un pour y méditer ?"
   },
   {
     "id": "al-qamar-52",
@@ -2877,7 +2928,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلُّ شَىْءٍ فَعَلُوهُ فِى ٱلزُّبُرِ",
     "textSimple": "وكل شىء فعلوه فى ٱلزبر",
     "transliteration": "wakullu shayin faʿalūhu fī l-zuburi",
-    "translation": "",
+    "translation": "And everything they did is in written records.",
     "words": [
       {
         "id": "al-qamar-52-1",
@@ -2915,7 +2966,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qu’ils ont fait est consigné dans les Registres (des bonnes et mauvaises œuvres)."
   },
   {
     "id": "al-qamar-53",
@@ -2924,7 +2976,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلُّ صَغِيرٍ وَكَبِيرٍ مُّسْتَطَرٌ",
     "textSimple": "وكل صغير وكبير مستطر",
     "transliteration": "wakullu ṣaghīrin wakabīrin mus'taṭarun",
-    "translation": "",
+    "translation": "And every small and great [thing] is inscribed.",
     "words": [
       {
         "id": "al-qamar-53-1",
@@ -2955,7 +3007,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute (action), qu’elle soit petite ou grande, y est inscrite."
   },
   {
     "id": "al-qamar-54",
@@ -2964,7 +3017,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَنَهَرٍ",
     "textSimple": "إن ٱلمتقين فى جنـت ونهر",
     "transliteration": "inna l-mutaqīna fī jannātin wanaharin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be among gardens and rivers,",
     "words": [
       {
         "id": "al-qamar-54-1",
@@ -3002,7 +3055,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens pieux seront au milieu des jardins et des rivières,"
   },
   {
     "id": "al-qamar-55",
@@ -3011,7 +3065,7 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
     "textUthmani": "فِى مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍۭ",
     "textSimple": "فى مقعد صدق عند مليك مقتدر",
     "transliteration": "fī maqʿadi ṣid'qin ʿinda malīkin muq'tadirin",
-    "translation": "",
+    "translation": "In a seat of honor near a Sovereign, Perfect in Ability.",
     "words": [
       {
         "id": "al-qamar-55-1",
@@ -3056,7 +3110,8 @@ export const AL_QAMAR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dans une Demeure de vérité, auprès d’un Roi Omnipotent."
   }
 ];
 

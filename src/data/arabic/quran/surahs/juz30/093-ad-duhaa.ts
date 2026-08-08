@@ -11,7 +11,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلضُّحَىٰ",
     "textSimple": " وٱلضحى",
     "transliteration": "wal-ḍuḥā",
-    "translation": "",
+    "translation": "By the morning brightness",
     "words": [
       {
         "id": "ad-duhaa-1-1",
@@ -21,7 +21,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la première clarté du jour !"
   },
   {
     "id": "ad-duhaa-2",
@@ -30,7 +31,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّيْلِ إِذَا سَجَىٰ",
     "textSimple": "وٱليل إذا سجى",
     "transliteration": "wa-al-layli idhā sajā",
-    "translation": "",
+    "translation": "And [by] the night when it covers with darkness,",
     "words": [
       {
         "id": "ad-duhaa-2-1",
@@ -54,7 +55,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la nuit quand elle voile tout !"
   },
   {
     "id": "ad-duhaa-3",
@@ -63,7 +65,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
     "textSimple": "ما ودعك ربك وما قلى",
     "transliteration": "mā waddaʿaka rabbuka wamā qalā",
-    "translation": "",
+    "translation": "Your Lord has not taken leave of you, [O Muḥammad], nor has He detested [you].",
     "words": [
       {
         "id": "ad-duhaa-3-1",
@@ -101,7 +103,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur ne t’a point délaissé, ni ne t’a haï."
   },
   {
     "id": "ad-duhaa-4",
@@ -110,7 +113,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ",
     "textSimple": "وللـٔاخرة خير لك من ٱلأولى",
     "transliteration": "walalākhiratu khayrun laka mina l-ūlā",
-    "translation": "",
+    "translation": "And the Hereafter is better for you than the first [life].",
     "words": [
       {
         "id": "ad-duhaa-4-1",
@@ -148,7 +151,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le monde dernier est pour toi meilleur que le premier."
   },
   {
     "id": "ad-duhaa-5",
@@ -157,7 +161,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
     "textSimple": "ولسوف يعطيك ربك فترضىٓ",
     "transliteration": "walasawfa yuʿ'ṭīka rabbuka fatarḍā",
-    "translation": "",
+    "translation": "And your Lord is going to give you, and you will be satisfied.",
     "words": [
       {
         "id": "ad-duhaa-5-1",
@@ -188,7 +192,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur te donnera certes ce dont tu seras satisfait."
   },
   {
     "id": "ad-duhaa-6",
@@ -197,7 +202,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَجِدْكَ يَتِيمًا فَـَٔاوَىٰ",
     "textSimple": "ألم يجدك يتيما فـٔاوى",
     "transliteration": "alam yajid'ka yatīman faāwā",
-    "translation": "",
+    "translation": "Did He not find you an orphan and give [you] refuge?",
     "words": [
       {
         "id": "ad-duhaa-6-1",
@@ -228,7 +233,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne t’a-t-Il pas trouvé orphelin, et Il t’a alors donné asile ?"
   },
   {
     "id": "ad-duhaa-7",
@@ -237,7 +243,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
     "textSimple": "ووجدك ضآلا فهدى",
     "transliteration": "wawajadaka ḍāllan fahadā",
-    "translation": "",
+    "translation": "And He found you lost and guided [you],",
     "words": [
       {
         "id": "ad-duhaa-7-1",
@@ -261,7 +267,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne t’a-t-Il pas trouvé égaré, et Il t’a alors guidé ?"
   },
   {
     "id": "ad-duhaa-8",
@@ -270,7 +277,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
     "textSimple": "ووجدك عآئلا فأغنى",
     "transliteration": "wawajadaka ʿāilan fa-aghnā",
-    "translation": "",
+    "translation": "And He found you poor and made [you] self-sufficient.",
     "words": [
       {
         "id": "ad-duhaa-8-1",
@@ -294,7 +301,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne t’a-t-Il pas trouvé pauvre, et Il t’a alors enrichi ?"
   },
   {
     "id": "ad-duhaa-9",
@@ -303,7 +311,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
     "textSimple": "فأما ٱليتيم فلا تقهر",
     "transliteration": "fa-ammā l-yatīma falā taqhar",
-    "translation": "",
+    "translation": "So as for the orphan, do not oppress [him].",
     "words": [
       {
         "id": "ad-duhaa-9-1",
@@ -334,7 +342,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à l’orphelin, ne le persécute point."
   },
   {
     "id": "ad-duhaa-10",
@@ -343,7 +352,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
     "textSimple": "وأما ٱلسآئل فلا تنهر",
     "transliteration": "wa-ammā l-sāila falā tanhar",
-    "translation": "",
+    "translation": "And as for the petitioner, do not repel [him].",
     "words": [
       {
         "id": "ad-duhaa-10-1",
@@ -374,7 +383,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant au mendiant, ne le malmène point."
   },
   {
     "id": "ad-duhaa-11",
@@ -383,7 +393,7 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
     "textSimple": "وأما بنعمة ربك فحدث",
     "transliteration": "wa-ammā biniʿ'mati rabbika faḥaddith",
-    "translation": "",
+    "translation": "But as for the favor of your Lord, report [it].",
     "words": [
       {
         "id": "ad-duhaa-11-1",
@@ -414,7 +424,8 @@ export const AD_DUHAA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quant aux bienfaits de ton Seigneur, proclame-les tout haut !"
   }
 ];
 

@@ -11,7 +11,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": " أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
     "textSimple": " أرءيت ٱلذى يكذب بٱلدين",
     "transliteration": "ara-ayta alladhī yukadhibu bil-dīni",
-    "translation": "",
+    "translation": "Have you seen the one who denies the Recompense?",
     "words": [
       {
         "id": "al-ma-un-1-1",
@@ -42,7 +42,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas considéré celui qui tient pour mensonge la Rétribution ?"
   },
   {
     "id": "al-ma-un-2",
@@ -51,7 +52,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
     "textSimple": "فذلك ٱلذى يدع ٱليتيم",
     "transliteration": "fadhālika alladhī yaduʿʿu l-yatīma",
-    "translation": "",
+    "translation": "For that is the one who drives away the orphan",
     "words": [
       {
         "id": "al-ma-un-2-1",
@@ -82,7 +83,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est justement lui qui rudoie l’orphelin,"
   },
   {
     "id": "al-ma-un-3",
@@ -91,7 +93,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
     "textSimple": "ولا يحض على طعام ٱلمسكين",
     "transliteration": "walā yaḥuḍḍu ʿalā ṭaʿāmi l-mis'kīni",
-    "translation": "",
+    "translation": "And does not encourage the feeding of the poor.",
     "words": [
       {
         "id": "al-ma-un-3-1",
@@ -129,7 +131,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui n’incite point à assurer la subsistance du pauvre."
   },
   {
     "id": "al-ma-un-4",
@@ -138,7 +141,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": "فَوَيْلٌ لِّلْمُصَلِّينَ",
     "textSimple": "فويل للمصلين",
     "transliteration": "fawaylun lil'muṣallīna",
-    "translation": "",
+    "translation": "So woe to those who pray",
     "words": [
       {
         "id": "al-ma-un-4-1",
@@ -155,7 +158,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur donc à ceux qui prient"
   },
   {
     "id": "al-ma-un-5",
@@ -164,7 +168,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
     "textSimple": "ٱلذين هم عن صلاتهم ساهون",
     "transliteration": "alladhīna hum ʿan ṣalātihim sāhūna",
-    "translation": "",
+    "translation": "[But] who are heedless of their prayer -",
     "words": [
       {
         "id": "al-ma-un-5-1",
@@ -202,7 +206,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais qui sont distraits de leur prière (Çalât),"
   },
   {
     "id": "al-ma-un-6",
@@ -211,7 +216,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
     "textSimple": "ٱلذين هم يرآءون",
     "transliteration": "alladhīna hum yurāūna",
-    "translation": "",
+    "translation": "Those who make show [of their deeds]",
     "words": [
       {
         "id": "al-ma-un-6-1",
@@ -235,7 +240,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui font tout par ostentation,"
   },
   {
     "id": "al-ma-un-7",
@@ -244,7 +250,7 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
     "textSimple": "ويمنعون ٱلماعون",
     "transliteration": "wayamnaʿūna l-māʿūna",
-    "translation": "",
+    "translation": "And withhold [simple] assistance.",
     "words": [
       {
         "id": "al-ma-un-7-1",
@@ -261,7 +267,8 @@ export const AL_MA_UN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et s’abstiennent de prêter (à autrui) le moindre ustensile."
   }
 ];
 

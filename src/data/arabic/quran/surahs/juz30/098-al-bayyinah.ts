@@ -11,7 +11,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": " لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
     "textSimple": " لم يكن ٱلذين كفروا من أهل ٱلكتـب وٱلمشركين منفكين حتى تأتيهم ٱلبينة",
     "transliteration": "lam yakuni alladhīna kafarū min ahli l-kitābi wal-mush'rikīna munfakkīna ḥattā tatiyahumu l-bayinatu",
-    "translation": "",
+    "translation": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence",
     "words": [
       {
         "id": "al-bayyinah-1-1",
@@ -98,7 +98,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les mécréants, parmi les gens du Livre et les associâtres, n’allaient pas renoncer (à leur impiété) avant que ne leur parvînt la preuve évidente :"
   },
   {
     "id": "al-bayyinah-2",
@@ -107,7 +108,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "رَسُولٌ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًا مُّطَهَّرَةً",
     "textSimple": "رسول من ٱلله يتلوا صحفا مطهرة",
     "transliteration": "rasūlun mina l-lahi yatlū ṣuḥufan muṭahharatan",
-    "translation": "",
+    "translation": "A Messenger from Allāh, reciting purified scriptures",
     "words": [
       {
         "id": "al-bayyinah-2-1",
@@ -152,7 +153,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "un Messager d’Allah qui récite des Feuillets purifiés,"
   },
   {
     "id": "al-bayyinah-3",
@@ -161,7 +163,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "فِيهَا كُتُبٌ قَيِّمَةٌ",
     "textSimple": "فيها كتب قيمة",
     "transliteration": "fīhā kutubun qayyimatun",
-    "translation": "",
+    "translation": "Within which are correct writings [i.e., rulings and laws].",
     "words": [
       {
         "id": "al-bayyinah-3-1",
@@ -185,7 +187,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dans lesquels se trouvent des Écritures parfaitement justes."
   },
   {
     "id": "al-bayyinah-4",
@@ -194,7 +197,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ",
     "textSimple": "وما تفرق ٱلذين أوتوا ٱلكتـب إلا من بعد ما جآءتهم ٱلبينة",
     "transliteration": "wamā tafarraqa alladhīna ūtū l-kitāba illā min baʿdi mā jāathumu l-bayinatu",
-    "translation": "",
+    "translation": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence.",
     "words": [
       {
         "id": "al-bayyinah-4-1",
@@ -274,7 +277,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux à qui le Livre a été donné ne se sont divisés qu’après avoir reçu la preuve évidente."
   },
   {
     "id": "al-bayyinah-5",
@@ -283,7 +287,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
     "textSimple": "ومآ أمروٓا إلا ليعبدوا ٱلله مخلصين له ٱلدين حنفآء ويقيموا ٱلصلوة ويؤتوا ٱلزكوة  وذلك دين ٱلقيمة",
     "transliteration": "wamā umirū illā liyaʿbudū l-laha mukh'liṣīna lahu l-dīna ḥunafāa wayuqīmū l-ṣalata wayu'tū l-zakata wadhālika dīnu l-qayimati",
-    "translation": "",
+    "translation": "And they were not commanded except to worship Allāh, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakāh. And that is the correct religion.",
     "words": [
       {
         "id": "al-bayyinah-5-1",
@@ -398,7 +402,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne leur a été ordonné que d’adorer Allah en Lui vouant un culte sincère, d’accomplir la Çalât et de s’acquitter de la Zakât. Telle est la religion juste."
   },
   {
     "id": "al-bayyinah-6",
@@ -407,7 +412,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ ۚ أُو۟لَـٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
     "textSimple": "إن ٱلذين كفروا من أهل ٱلكتـب وٱلمشركين فى نار جهنم خـلدين فيهآ  أولـٓئك هم شر ٱلبرية",
     "transliteration": "inna alladhīna kafarū min ahli l-kitābi wal-mush'rikīna fī nāri jahannama khālidīna fīhā ulāika hum sharru l-bariyati",
-    "translation": "",
+    "translation": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures.",
     "words": [
       {
         "id": "al-bayyinah-6-1",
@@ -522,7 +527,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru, parmi les gens du Livre et les associâtres, seront livrés au feu de la Géhenne, où ils demeureront pour l’éternité. Car ce sont les pires des créatures."
   },
   {
     "id": "al-bayyinah-7",
@@ -531,7 +537,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت أولـٓئك هم خير ٱلبرية",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti ulāika hum khayru l-bariyati",
-    "translation": "",
+    "translation": "Indeed, they who have believed and done righteous deeds - those are the best of creatures.",
     "words": [
       {
         "id": "al-bayyinah-7-1",
@@ -597,7 +603,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et accompli les bonnes œuvres, ceux là sont les meilleures de toutes les créatures."
   },
   {
     "id": "al-bayyinah-8",
@@ -606,7 +613,7 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
     "textUthmani": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّـٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
     "textSimple": "جزآؤهم عند ربهم جنـت عدن تجرى من تحتها ٱلأنهـر خـلدين فيهآ أبدا  رضى ٱلله عنهم ورضوا عنه  ذلك لمن خشى ربه",
     "transliteration": "jazāuhum ʿinda rabbihim jannātu ʿadnin tajrī min taḥtihā l-anhāru khālidīna fīhā abadan raḍiya l-lahu ʿanhum waraḍū ʿanhu dhālika liman khashiya rabbahu",
-    "translation": "",
+    "translation": "Their reward with their Lord will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allāh being pleased with them and they with Him. That is for whoever has feared his Lord.",
     "words": [
       {
         "id": "al-bayyinah-8-1",
@@ -756,7 +763,8 @@ export const AL_BAYYINAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur récompense, auprès de leur Seigneur, sera les Jardins d’Éden sous lesquels coulent les rivières, où ils séjourneront à tout jamais. Allah sera satisfait d’eux, et eux seront satisfaits de Lui. Voilà (ce qui attend) celui qui craint son Seigneur."
   }
 ];
 

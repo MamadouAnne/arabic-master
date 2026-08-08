@@ -11,7 +11,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُقَدِّمُوا۟ بَيْنَ يَدَىِ ٱللَّهِ وَرَسُولِهِۦ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
     "textSimple": " يـٓأيها ٱلذين ءامنوا لا تقدموا بين يدى ٱلله ورسوله  وٱتقوا ٱلله  إن ٱلله سميع عليم",
     "transliteration": "yāayyuhā alladhīna āmanū lā tuqaddimū bayna yadayi l-lahi warasūlihi wa-ittaqū l-laha inna l-laha samīʿun ʿalīmun",
-    "translation": "",
+    "translation": "O you who have believed, do not put [yourselves] before Allāh and His Messenger but fear Allāh. Indeed, Allāh is Hearing and Knowing.",
     "words": [
       {
         "id": "al-hujurat-1-1",
@@ -119,7 +119,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Gardez-vous de précéder (les décisions) d’Allah et de Son Messager ! Craignez Allah, car Allah Entend et Sait Tout."
   },
   {
     "id": "al-hujurat-2",
@@ -128,7 +129,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَرْفَعُوٓا۟ أَصْوَٰتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِىِّ وَلَا تَجْهَرُوا۟ لَهُۥ بِٱلْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَـٰلُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا ترفعوٓا أصوتكم فوق صوت ٱلنبى ولا تجهروا له بٱلقول كجهر بعضكم لبعض أن تحبط أعمـلكم وأنتم لا تشعرون",
     "transliteration": "yāayyuhā alladhīna āmanū lā tarfaʿū aṣwātakum fawqa ṣawti l-nabiyi walā tajharū lahu bil-qawli kajahri baʿḍikum libaʿḍin an taḥbaṭa aʿmālukum wa-antum lā tashʿurūna",
-    "translation": "",
+    "translation": "O you who have believed, do not raise your voices above the voice of the Prophet or be loud to him in speech like the loudness of some of you to others, lest your deeds become worthless while you perceive not.",
     "words": [
       {
         "id": "al-hujurat-2-1",
@@ -285,7 +286,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! N’élevez pas la voix au-dessus de celle du Prophète, ni ne haussez le ton en lui adressant la parole, comme vous le faites vous-mêmes les uns avec les autres. Ou alors vos œuvres deviendraient vaines sans que vous ne puissiez le sentir."
   },
   {
     "id": "al-hujurat-3",
@@ -294,7 +296,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَغُضُّونَ أَصْوَٰتَهُمْ عِندَ رَسُولِ ٱللَّهِ أُو۟لَـٰٓئِكَ ٱلَّذِينَ ٱمْتَحَنَ ٱللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ ۚ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ",
     "textSimple": "إن ٱلذين يغضون أصوتهم عند رسول ٱلله أولـٓئك ٱلذين ٱمتحن ٱلله قلوبهم للتقوى  لهم مغفرة وأجر عظيم",
     "transliteration": "inna alladhīna yaghuḍḍūna aṣwātahum ʿinda rasūli l-lahi ulāika alladhīna im'taḥana l-lahu qulūbahum lilttaqwā lahum maghfiratun wa-ajrun ʿaẓīmun",
-    "translation": "",
+    "translation": "Indeed, those who lower their voices before the Messenger of Allāh - they are the ones whose hearts Allāh has tested for righteousness. For them is forgiveness and great reward.",
     "words": [
       {
         "id": "al-hujurat-3-1",
@@ -416,7 +418,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui baissent la voix auprès du Messager d’Allah, sont ceux dont Allah a éprouvé les cœurs. Ils auront le pardon et une immense récompense."
   },
   {
     "id": "al-hujurat-4",
@@ -425,7 +428,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يُنَادُونَكَ مِن وَرَآءِ ٱلْحُجُرَٰتِ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
     "textSimple": "إن ٱلذين ينادونك من ورآء ٱلحجرت أكثرهم لا يعقلون",
     "transliteration": "inna alladhīna yunādūnaka min warāi l-ḥujurāti aktharuhum lā yaʿqilūna",
-    "translation": "",
+    "translation": "Indeed, those who call you, [O Muḥammad], from behind the chambers - most of them do not use reason.",
     "words": [
       {
         "id": "al-hujurat-4-1",
@@ -491,7 +494,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui t’interpellent de l’extérieur de (tes) appartements, pour la plupart, ne raisonnent point."
   },
   {
     "id": "al-hujurat-5",
@@ -500,7 +504,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّهُمْ صَبَرُوا۟ حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًا لَّهُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "ولو أنهم صبروا حتى تخرج إليهم لكان خيرا لهم  وٱلله غفور رحيم",
     "transliteration": "walaw annahum ṣabarū ḥattā takhruja ilayhim lakāna khayran lahum wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And if they had been patient until you [could] come out to them, it would have been better for them. But Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-hujurat-5-1",
@@ -587,7 +591,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils patientaient un peu jusqu’à ce que tu sortes au-devant d’eux, cela serait bien meilleur pour eux. Mais Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-hujurat-6",
@@ -596,7 +601,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَـٰلَةٍ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ نَـٰدِمِينَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إن جآءكم فاسق بنبإ فتبينوٓا أن تصيبوا قوما بجهـلة فتصبحوا على ما فعلتم نـدمين",
     "transliteration": "yāayyuhā alladhīna āmanū in jāakum fāsiqun binaba-in fatabayyanū an tuṣībū qawman bijahālatin fatuṣ'biḥū ʿalā mā faʿaltum nādimīna",
-    "translation": "",
+    "translation": "O you who have believed, if there comes to you a disobedient one with information, investigate, lest you harm a people out of ignorance and become, over what you have done, regretful.",
     "words": [
       {
         "id": "al-hujurat-6-1",
@@ -718,7 +723,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Si un homme dépravé vous apporte une nouvelle, vérifiez-en d’abord (la crédibilité), de peur que, par ignorance, vous ne lésiez des gens, et que, par la suite, vous ne vous retrouviez rongés par le remords."
   },
   {
     "id": "al-hujurat-7",
@@ -727,7 +733,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَـٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَـٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ",
     "textSimple": "وٱعلموٓا أن فيكم رسول ٱلله  لو يطيعكم فى كثير من ٱلأمر لعنتم ولـكن ٱلله حبب إليكم ٱلإيمـن وزينه فى قلوبكم وكره إليكم ٱلكفر وٱلفسوق وٱلعصيان  أولـٓئك هم ٱلرشدون",
     "transliteration": "wa-iʿ'lamū anna fīkum rasūla l-lahi law yuṭīʿukum fī kathīrin mina l-amri laʿanittum walākinna l-laha ḥabbaba ilaykumu l-īmāna wazayyanahu fī qulūbikum wakarraha ilaykumu l-kuf'ra wal-fusūqa wal-ʿiṣ'yāna ulāika humu l-rāshidūna",
-    "translation": "",
+    "translation": "And know that among you is the Messenger of Allāh. If he were to obey you in much of the matter, you would be in difficulty, but Allāh has endeared to you the faith and has made it pleasing in your hearts and has made hateful to you disbelief, defiance and disobedience. Those are the [rightly] guided.",
     "words": [
       {
         "id": "al-hujurat-7-1",
@@ -926,7 +932,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sachez que, parmi vous, se trouve le Messager d’Allah. S’il vous écoutait pour bon nombre de décisions, c’est vous qui en auriez à pâtir. Mais Allah vous a fait aimer la foi, l’a rendue belle au fond de vos cœurs, et Il vous a fait haïr la mécréance, la perversion et l’insoumission. C’est ainsi que se conduisent ceux qui sont sur le droit chemin,"
   },
   {
     "id": "al-hujurat-8",
@@ -935,7 +942,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "فَضْلًا مِّنَ ٱللَّهِ وَنِعْمَةً ۚ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "فضلا من ٱلله ونعمة  وٱلله عليم حكيم",
     "transliteration": "faḍlan mina l-lahi waniʿ'matan wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "[It is] as bounty from Allāh and favor. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "al-hujurat-8-1",
@@ -987,7 +994,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "comme faveur et bienfait émanant d’Allah. Allah est Omniscient et Sage."
   },
   {
     "id": "al-hujurat-9",
@@ -996,7 +1004,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَـٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
     "textSimple": "وإن طآئفتان من ٱلمؤمنين ٱقتتلوا فأصلحوا بينهما  فإن بغت إحدىهما على ٱلأخرى فقـتلوا ٱلتى تبغى حتى تفىٓء إلىٓ أمر ٱلله  فإن فآءت فأصلحوا بينهما بٱلعدل وأقسطوٓا  إن ٱلله يحب ٱلمقسطين",
     "transliteration": "wa-in ṭāifatāni mina l-mu'minīna iq'tatalū fa-aṣliḥū baynahumā fa-in baghat iḥ'dāhumā ʿalā l-ukh'rā faqātilū allatī tabghī ḥattā tafīa ilā amri l-lahi fa-in fāat fa-aṣliḥū baynahumā bil-ʿadli wa-aqsiṭū inna l-laha yuḥibbu l-muq'siṭīna",
-    "translation": "",
+    "translation": "And if two factions among the believers should fight, then make settlement between the two. But if one of them oppresses the other, then fight against the one that oppresses until it returns to the ordinance of Allāh. And if it returns, then make settlement between them in justice and act justly. Indeed, Allāh loves those who act justly.",
     "words": [
       {
         "id": "al-hujurat-9-1",
@@ -1209,7 +1217,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si deux groupes de croyants venaient à se combattre, faites qu’ils se réconcilient. Et si l’un (des deux groupes) agresse injustement l’autre, combattez (le groupe) agresseur tant qu’il ne se sera pas soumis à l’ordre d’Allah. S’il finit par s’y soumettre, réconciliez-les en toute équité et soyez justes, car Allah aime les justes."
   },
   {
     "id": "al-hujurat-10",
@@ -1218,7 +1227,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "إنما ٱلمؤمنون إخوة فأصلحوا بين أخويكم  وٱتقوا ٱلله لعلكم ترحمون",
     "transliteration": "innamā l-mu'minūna ikh'watun fa-aṣliḥū bayna akhawaykum wa-ittaqū l-laha laʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "The believers are but brothers, so make settlement between your brothers. And fear Allāh that you may receive mercy.",
     "words": [
       {
         "id": "al-hujurat-10-1",
@@ -1291,7 +1300,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les croyants ne sont rien moins que des frères. Réconciliez donc vos frères ! Craignez Allah ! Peut-être alors vous sera-t-il fait miséricorde !"
   },
   {
     "id": "al-hujurat-11",
@@ -1300,7 +1310,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًا مِّنْهُمْ وَلَا نِسَآءٌ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًا مِّنْهُنَّ ۖ وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَـٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَـٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا يسخر قوم من قوم عسىٓ أن يكونوا خيرا منهم ولا نسآء من نسآء عسىٓ أن يكن خيرا منهن  ولا تلمزوٓا أنفسكم ولا تنابزوا بٱلألقـب  بئس ٱلٱسم ٱلفسوق بعد ٱلإيمـن  ومن لم يتب فأولـٓئك هم ٱلظـلمون",
     "transliteration": "yāayyuhā alladhīna āmanū lā yaskhar qawmun min qawmin ʿasā an yakūnū khayran min'hum walā nisāon min nisāin ʿasā an yakunna khayran min'hunna walā talmizū anfusakum walā tanābazū bil-alqābi bi'sa l-s'mu l-fusūqu baʿda l-īmāni waman lam yatub fa-ulāika humu l-ẓālimūna",
-    "translation": "",
+    "translation": "O you who have believed, let not a people ridicule [another] people; perhaps they may be better than them; nor let women ridicule [other] women; perhaps they may be better than them. And do not insult one another and do not call each other by [offensive] nicknames. Wretched is the name [i.e., mention] of disobedience after [one's] faith. And whoever does not repent - then it is those who are the wrongdoers.",
     "words": [
       {
         "id": "al-hujurat-11-1",
@@ -1576,7 +1586,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Que certains d’entre vous ne se moquent point des autres, car ceux-ci pourraient être meilleurs qu’eux. Et que les femmes ne se moquent point d’autres femmes, car celles-ci pourraient être meilleures qu’elles. Ne vous dénigrez point les uns les autres, et point ne vous vexez en vous attribuant mutuellement de (blessants) sobriquets. Quel pire nom que celui de perversion après qu’on a eu la foi ! Ceux qui ne se repentent pas, ce sont eux les injustes."
   },
   {
     "id": "al-hujurat-12",
@@ -1585,7 +1596,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌ رَّحِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱجتنبوا كثيرا من ٱلظن إن بعض ٱلظن إثم  ولا تجسسوا ولا يغتب بعضكم بعضا  أيحب أحدكم أن يأكل لحم أخيه ميتا فكرهتموه  وٱتقوا ٱلله  إن ٱلله تواب رحيم",
     "transliteration": "yāayyuhā alladhīna āmanū ij'tanibū kathīran mina l-ẓani inna baʿḍa l-ẓani ith'mun walā tajassasū walā yaghtab baʿḍukum baʿḍan ayuḥibbu aḥadukum an yakula laḥma akhīhi maytan fakarih'tumūhu wa-ittaqū l-laha inna l-laha tawwābun raḥīmun",
-    "translation": "",
+    "translation": "O you who have believed, avoid much [negative] assumption. Indeed, some assumption is sin. And do not spy or backbite each other. Would one of you like to eat the flesh of his brother when dead? You would detest it. And fear Allāh; indeed, Allāh is Accepting of Repentance and Merciful.",
     "words": [
       {
         "id": "al-hujurat-12-1",
@@ -1805,7 +1816,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Évitez les suspicions fréquentes, car certaines suspicions peuvent être des péchés. Ne vous épiez pas (mutuellement) ! Ne médisez pas les uns des autres ! L’un de vous voudrait-il manger la chair de son frère mort ? Non, car vous l’auriez certainement en aversion. Craignez donc Allah ! Allah est Tout Absoluteur et Tout Miséricordieux !"
   },
   {
     "id": "al-hujurat-13",
@@ -1814,7 +1826,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَـٰكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَـٰكُمْ شُعُوبًا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ",
     "textSimple": "يـٓأيها ٱلناس إنا خلقنـكم من ذكر وأنثى وجعلنـكم شعوبا وقبآئل لتعارفوٓا  إن أكرمكم عند ٱلله أتقىكم  إن ٱلله عليم خبير",
     "transliteration": "yāayyuhā l-nāsu innā khalaqnākum min dhakarin wa-unthā wajaʿalnākum shuʿūban waqabāila litaʿārafū inna akramakum ʿinda l-lahi atqākum inna l-laha ʿalīmun khabīrun",
-    "translation": "",
+    "translation": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allāh is the most righteous of you. Indeed, Allāh is Knowing and Aware.",
     "words": [
       {
         "id": "al-hujurat-13-1",
@@ -1957,7 +1969,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Nous vous avons créés d’un mâle et d’une femelle. Nous avons fait de vous des nations et des tribus pour que vous vous connaissiez entre vous. Le plus digne d’entre vous, auprès d’Allah, est le plus pieux. Allah est Omniscient et parfaitement Informé."
   },
   {
     "id": "al-hujurat-14",
@@ -1966,7 +1979,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَتِ ٱلْأَعْرَابُ ءَامَنَّا ۖ قُل لَّمْ تُؤْمِنُوا۟ وَلَـٰكِن قُولُوٓا۟ أَسْلَمْنَا وَلَمَّا يَدْخُلِ ٱلْإِيمَـٰنُ فِى قُلُوبِكُمْ ۖ وَإِن تُطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ لَا يَلِتْكُم مِّنْ أَعْمَـٰلِكُمْ شَيْـًٔا ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": " قالت ٱلأعراب ءامنا  قل لم تؤمنوا ولـكن قولوٓا أسلمنا ولما يدخل ٱلإيمـن فى قلوبكم  وإن تطيعوا ٱلله ورسوله لا يلتكم من أعمـلكم شيـٔا  إن ٱلله غفور رحيم",
     "transliteration": "qālati l-aʿrābu āmannā qul lam tu'minū walākin qūlū aslamnā walammā yadkhuli l-īmānu fī qulūbikum wa-in tuṭīʿū l-laha warasūlahu lā yalit'kum min aʿmālikum shayan inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "The bedouins say, \"We have believed.\" Say, \"You have not [yet] believed; but say [instead], 'We have submitted,' for faith has not yet entered your hearts. And if you obey Allāh and His Messenger, He will not deprive you from your deeds of anything. Indeed, Allāh is Forgiving and Merciful.\"",
     "words": [
       {
         "id": "al-hujurat-14-1",
@@ -2158,7 +2171,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les bédouins déclarent : « Nous avons cru (en Allah). » Dis : « Non, vous n’êtes pas encore croyants, dites plutôt : “Nous nous sommes soumis”, car la foi n’a pas encore pénétré vos cœurs. Mais si vous obéissez à Allah et à Son Messager, il ne vous privera en rien (de la récompense due à) vos œuvres. » Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-hujurat-15",
@@ -2167,7 +2181,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ثُمَّ لَمْ يَرْتَابُوا۟ وَجَـٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلصَّـٰدِقُونَ",
     "textSimple": "إنما ٱلمؤمنون ٱلذين ءامنوا بٱلله ورسوله ثم لم يرتابوا وجـهدوا بأمولهم وأنفسهم فى سبيل ٱلله  أولـٓئك هم ٱلصـدقون",
     "transliteration": "innamā l-mu'minūna alladhīna āmanū bil-lahi warasūlihi thumma lam yartābū wajāhadū bi-amwālihim wa-anfusihim fī sabīli l-lahi ulāika humu l-ṣādiqūna",
-    "translation": "",
+    "translation": "The believers are only the ones who have believed in Allāh and His Messenger and then doubt not but strive with their properties and their lives in the cause of Allāh. It is those who are the truthful.",
     "words": [
       {
         "id": "al-hujurat-15-1",
@@ -2296,7 +2310,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les vrais croyants sont ceux qui ont cru en Allah et en Son Messager, puis n’ont jamais été tentés par le doute, et puis qui ont lutté par leurs biens et leurs âmes pour la cause d’Allah. Ceux-là sont (les croyants) sincères."
   },
   {
     "id": "al-hujurat-16",
@@ -2305,7 +2320,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَتُعَلِّمُونَ ٱللَّهَ بِدِينِكُمْ وَٱللَّهُ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "قل أتعلمون ٱلله بدينكم وٱلله يعلم ما فى ٱلسمـوت وما فى ٱلأرض  وٱلله بكل شىء عليم",
     "transliteration": "qul atuʿallimūna l-laha bidīnikum wal-lahu yaʿlamu mā fī l-samāwāti wamā fī l-arḍi wal-lahu bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "Say, \"Would you acquaint Allāh with your religion while Allāh knows whatever is in the heavens and whatever is on the earth, and Allāh is Knowing of all things?\"",
     "words": [
       {
         "id": "al-hujurat-16-1",
@@ -2420,7 +2435,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Apprendriez-vous à Allah votre religion quand Il sait ce qu’il y a dans les cieux et sur terre ? » Allah Sait parfaitement Toute chose."
   },
   {
     "id": "al-hujurat-17",
@@ -2429,7 +2445,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "يَمُنُّونَ عَلَيْكَ أَنْ أَسْلَمُوا۟ ۖ قُل لَّا تَمُنُّوا۟ عَلَىَّ إِسْلَـٰمَكُم ۖ بَلِ ٱللَّهُ يَمُنُّ عَلَيْكُمْ أَنْ هَدَىٰكُمْ لِلْإِيمَـٰنِ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "يمنون عليك أن أسلموا  قل لا تمنوا على إسلـمكم  بل ٱلله يمن عليكم أن هدىكم للإيمـن إن كنتم صـدقين",
     "transliteration": "yamunnūna ʿalayka an aslamū qul lā tamunnū ʿalayya is'lāmakum bali l-lahu yamunnu ʿalaykum an hadākum lil'īmāni in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "They consider it a favor to you that they have accepted Islām. Say, \"Do not consider your Islām a favor to me. Rather, Allāh has conferred favor upon you that He has guided you to the faith, if you should be truthful.\"",
     "words": [
       {
         "id": "al-hujurat-17-1",
@@ -2565,7 +2581,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils se targuent devant toi de s’être convertis à l’Islam. Dis : « Ne vous targuez pas devant moi de cette conversion à l’Islam comme si c’était une faveur de votre part. C’est plutôt une faveur qu’Allah vous a dispensée, Lui Qui vous a montré le chemin vers la foi, si tant est que vous soyez sincères ! »"
   },
   {
     "id": "al-hujurat-18",
@@ -2574,7 +2591,7 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ يَعْلَمُ غَيْبَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ بَصِيرٌۢ بِمَا تَعْمَلُونَ",
     "textSimple": "إن ٱلله يعلم غيب ٱلسمـوت وٱلأرض  وٱلله بصير بما تعملون",
     "transliteration": "inna l-laha yaʿlamu ghayba l-samāwāti wal-arḍi wal-lahu baṣīrun bimā taʿmalūna",
-    "translation": "",
+    "translation": "Indeed, Allāh knows the unseen [aspects] of the heavens and the earth. And Allāh is Seeing of what you do.",
     "words": [
       {
         "id": "al-hujurat-18-1",
@@ -2647,7 +2664,8 @@ export const AL_HUJURAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah Connaît le mystère des cieux et de la terre. Allah Voit clairement tout ce que vous faites."
   }
 ];
 

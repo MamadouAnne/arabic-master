@@ -11,7 +11,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": " سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": " سبح لله ما فى ٱلسمـوت وٱلأرض  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "sabbaḥa lillahi mā fī l-samāwāti wal-arḍi wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Whatever is in the heavens and earth exalts Allāh, and He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-hadid-1-1",
@@ -77,7 +77,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui est dans les cieux et sur terre rend gloire à Allah, Lui le Tout-Puissant, le Sage."
   },
   {
     "id": "al-hadid-2",
@@ -86,7 +87,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "له ملك ٱلسمـوت وٱلأرض  يحى ويميت  وهو على كل شىء قدير",
     "transliteration": "lahu mul'ku l-samāwāti wal-arḍi yuḥ'yī wayumītu wahuwa ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "His is the dominion of the heavens and earth. He gives life and causes death, and He is over all things competent.",
     "words": [
       {
         "id": "al-hadid-2-1",
@@ -166,7 +167,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartient la royauté des cieux et de la terre. Il fait vivre et mourir, et Il est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-hadid-3",
@@ -175,7 +177,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلْأَوَّلُ وَٱلْـَٔاخِرُ وَٱلظَّـٰهِرُ وَٱلْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "هو ٱلأول وٱلـٔاخر وٱلظـهر وٱلباطن  وهو بكل شىء عليم",
     "transliteration": "huwa l-awalu wal-ākhiru wal-ẓāhiru wal-bāṭinu wahuwa bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "He is the First and the Last, the Ascendant and the Intimate, and He is, of all things, Knowing.",
     "words": [
       {
         "id": "al-hadid-3-1",
@@ -241,7 +243,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est le Premier et le Dernier, le Patent et le Latent, et Il est de Toute chose Savant."
   },
   {
     "id": "al-hadid-4",
@@ -250,7 +253,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "هو ٱلذى خلق ٱلسمـوت وٱلأرض فى ستة أيام ثم ٱستوى على ٱلعرش  يعلم ما يلج فى ٱلأرض وما يخرج منها وما ينزل من ٱلسمآء وما يعرج فيها  وهو معكم أين ما كنتم  وٱلله بما تعملون بصير",
     "transliteration": "huwa alladhī khalaqa l-samāwāti wal-arḍa fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi yaʿlamu mā yaliju fī l-arḍi wamā yakhruju min'hā wamā yanzilu mina l-samāi wamā yaʿruju fīhā wahuwa maʿakum ayna mā kuntum wal-lahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "It is He who created the heavens and earth in six days and then established Himself above the Throne. He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein; and He is with you wherever you are. And Allāh, of what you do, is Seeing.",
     "words": [
       {
         "id": "al-hadid-4-1",
@@ -505,7 +508,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 35
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a créé les cieux et la terre en six jours, puis S’est installé avec une Infinie Majesté (istawâ) sur le Trône. Il Sait ce qui pénètre dans la terre et ce qui en sort, ce qui descend du ciel et ce qui y monte, et Il est avec vous en quelque lieu que vous soyez. Allah est parfaitement Lucide de ce que vous faites."
   },
   {
     "id": "al-hadid-5",
@@ -514,7 +518,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "لَّهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
     "textSimple": "له ملك ٱلسمـوت وٱلأرض  وإلى ٱلله ترجع ٱلأمور",
     "transliteration": "lahu mul'ku l-samāwāti wal-arḍi wa-ilā l-lahi tur'jaʿu l-umūru",
-    "translation": "",
+    "translation": "His is the dominion of the heavens and earth. And to Allāh are returned [all] matters.",
     "words": [
       {
         "id": "al-hadid-5-1",
@@ -573,7 +577,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartient la royauté des cieux et de la terre, et c’est vers Allah que toute chose doit faire retour."
   },
   {
     "id": "al-hadid-6",
@@ -582,7 +587,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۚ وَهُوَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "يولج ٱليل فى ٱلنهار ويولج ٱلنهار فى ٱليل  وهو عليم بذات ٱلصدور",
     "transliteration": "yūliju al-layla fī l-nahāri wayūliju l-nahāra fī al-layli wahuwa ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "He causes the night to enter the day and causes the day to enter the night, and He is Knowing of that within the breasts.",
     "words": [
       {
         "id": "al-hadid-6-1",
@@ -669,7 +674,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fait pénétrer la nuit dans le jour et Il fait pénétrer le jour dans la nuit, et Il Sait parfaitement ce que recèlent les cœurs."
   },
   {
     "id": "al-hadid-7",
@@ -678,7 +684,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌ كَبِيرٌ",
     "textSimple": "ءامنوا بٱلله ورسوله وأنفقوا مما جعلكم مستخلفين فيه  فٱلذين ءامنوا منكم وأنفقوا لهم أجر كبير",
     "transliteration": "āminū bil-lahi warasūlihi wa-anfiqū mimmā jaʿalakum mus'takhlafīna fīhi fa-alladhīna āmanū minkum wa-anfaqū lahum ajrun kabīrun",
-    "translation": "",
+    "translation": "Believe in Allāh and His Messenger and spend out of that in which He has made you successive inheritors. For those who have believed among you and spent, there will be a great reward.",
     "words": [
       {
         "id": "al-hadid-7-1",
@@ -786,7 +792,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Croyez en Allah et en Son Messager ! Dépensez de ce dont Il vous a faits les gérants ! Ceux d’entre vous qui croient et donnent de leurs biens (en aumônes) obtiendront certes une grande récompense."
   },
   {
     "id": "al-hadid-8",
@@ -795,7 +802,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَكُمْ لَا تُؤْمِنُونَ بِٱللَّهِ ۙ وَٱلرَّسُولُ يَدْعُوكُمْ لِتُؤْمِنُوا۟ بِرَبِّكُمْ وَقَدْ أَخَذَ مِيثَـٰقَكُمْ إِن كُنتُم مُّؤْمِنِينَ",
     "textSimple": "وما لكم لا تؤمنون بٱلله  وٱلرسول يدعوكم لتؤمنوا بربكم وقد أخذ ميثـقكم إن كنتم مؤمنين",
     "transliteration": "wamā lakum lā tu'minūna bil-lahi wal-rasūlu yadʿūkum litu'minū birabbikum waqad akhadha mīthāqakum in kuntum mu'minīna",
-    "translation": "",
+    "translation": "And why do you not believe in Allāh while the Messenger invites you to believe in your Lord and He has taken your covenant, if you should [truly] be believers?",
     "words": [
       {
         "id": "al-hadid-8-1",
@@ -903,7 +910,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourquoi ne croyez-vous pas en Allah quand le Messager vous invite à croire en votre Seigneur et qu’(Allah) a déjà obtenu de vous un engagement, si tant est que vous soyez croyants ?"
   },
   {
     "id": "al-hadid-9",
@@ -912,7 +920,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ ءَايَـٰتٍۭ بَيِّنَـٰتٍ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌ رَّحِيمٌ",
     "textSimple": "هو ٱلذى ينزل على عبدهٓ ءايـت بينـت ليخرجكم من ٱلظلمـت إلى ٱلنور  وإن ٱلله بكم لرءوف رحيم",
     "transliteration": "huwa alladhī yunazzilu ʿalā ʿabdihi āyātin bayyinātin liyukh'rijakum mina l-ẓulumāti ilā l-nūri wa-inna l-laha bikum laraūfun raḥīmun",
-    "translation": "",
+    "translation": "It is He who sends down upon His Servant [Muḥammad (ﷺ)] verses of clear evidence that He may bring you out from darknesses into the light. And indeed, Allāh is to you Kind and Merciful.",
     "words": [
       {
         "id": "al-hadid-9-1",
@@ -1034,7 +1042,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui révèle à Son serviteur des versets explicites pour vous faire sortir des ténèbres vers la lumière. Allah est, envers vous, Tout Compatissant et Tout Miséricordieux."
   },
   {
     "id": "al-hadid-10",
@@ -1043,7 +1052,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَكُمْ أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ لَا يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ ٱلْفَتْحِ وَقَـٰتَلَ ۚ أُو۟لَـٰٓئِكَ أَعْظَمُ دَرَجَةً مِّنَ ٱلَّذِينَ أَنفَقُوا۟ مِنۢ بَعْدُ وَقَـٰتَلُوا۟ ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "وما لكم ألا تنفقوا فى سبيل ٱلله ولله ميرث ٱلسمـوت وٱلأرض  لا يستوى منكم من أنفق من قبل ٱلفتح وقـتل  أولـٓئك أعظم درجة من ٱلذين أنفقوا من بعد وقـتلوا  وكلا وعد ٱلله ٱلحسنى  وٱلله بما تعملون خبير",
     "transliteration": "wamā lakum allā tunfiqū fī sabīli l-lahi walillahi mīrāthu l-samāwāti wal-arḍi lā yastawī minkum man anfaqa min qabli l-fatḥi waqātala ulāika aʿẓamu darajatan mina alladhīna anfaqū min baʿdu waqātalū wakullan waʿada l-lahu l-ḥus'nā wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "And why do you not spend in the cause of Allāh while to Allāh belongs the heritage of the heavens and the earth? Not equal among you are those who spent before the conquest [of Makkah] and fought [and those who did so after it]. Those are greater in degree than they who spent afterwards and fought. But to all Allāh has promised the best [reward]. And Allāh, of what you do, is Aware.",
     "words": [
       {
         "id": "al-hadid-10-1",
@@ -1305,7 +1314,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourquoi ne dépensez-vous pas (de vos biens) pour la cause d’Allah, à Qui doit revenir l’héritage des cieux et de la terre ? (Ne peuvent être tenus pour) égaux ceux d’entre vous qui auront dépensé (de leurs biens) et combattu avant la victoire (la prise de La Mecque) (et les autres). Ceux-là occuperont un rang plus élevé que ceux qui auront dépensé (de leurs biens) et combattu après (la victoire). Mais à tous, Allah a promis la plus belle des récompenses. Allah est, de tout ce que vous faites, parfaitement Informé."
   },
   {
     "id": "al-hadid-11",
@@ -1314,7 +1324,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥ وَلَهُۥٓ أَجْرٌ كَرِيمٌ",
     "textSimple": "من ذا ٱلذى يقرض ٱلله قرضا حسنا فيضـعفه له ولهٓ أجر كريم",
     "transliteration": "man dhā alladhī yuq'riḍu l-laha qarḍan ḥasanan fayuḍāʿifahu lahu walahu ajrun karīmun",
-    "translation": "",
+    "translation": "Who is it that would loan Allāh a goodly loan so He will multiply it for him and he will have a noble reward?",
     "words": [
       {
         "id": "al-hadid-11-1",
@@ -1401,7 +1411,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque accorde à Allah un prêt de bonne volonté se verra remboursé au centuple, et il aura rémunération généreuse."
   },
   {
     "id": "al-hadid-12",
@@ -1410,7 +1421,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَرَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ يَسْعَىٰ نُورُهُم بَيْنَ أَيْدِيهِمْ وَبِأَيْمَـٰنِهِم بُشْرَىٰكُمُ ٱلْيَوْمَ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "يوم ترى ٱلمؤمنين وٱلمؤمنـت يسعى نورهم بين أيديهم وبأيمـنهم بشرىكم ٱليوم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها  ذلك هو ٱلفوز ٱلعظيم",
     "transliteration": "yawma tarā l-mu'minīna wal-mu'mināti yasʿā nūruhum bayna aydīhim wabi-aymānihim bush'rākumu l-yawma jannātun tajrī min taḥtihā l-anhāru khālidīna fīhā dhālika huwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "On the Day you see the believing men and believing women, their light proceeding before them and on their right, [it will be said], \"Your good tidings today are [of] gardens beneath which rivers flow, wherein you will abide eternally.\" That is what is the great attainment.",
     "words": [
       {
         "id": "al-hadid-12-1",
@@ -1567,7 +1578,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où tu verras les croyants et les croyantes précédés de leur lumière qui se déploiera au devant d’eux et sur leur droite, il leur sera dit : « Heureuse nouvelle pour vous : aujourd’hui, (il y aura pour vous) des jardins sous lesquels coulent des rivières, et vous y séjournerez pour l’éternité. » Voilà le succès suprême."
   },
   {
     "id": "al-hadid-13",
@@ -1576,7 +1588,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَقُولُ ٱلْمُنَـٰفِقُونَ وَٱلْمُنَـٰفِقَـٰتُ لِلَّذِينَ ءَامَنُوا۟ ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَـٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
     "textSimple": "يوم يقول ٱلمنـفقون وٱلمنـفقـت للذين ءامنوا ٱنظرونا نقتبس من نوركم قيل ٱرجعوا ورآءكم فٱلتمسوا نورا فضرب بينهم بسور له باب باطنه فيه ٱلرحمة وظـهره من قبله ٱلعذاب",
     "transliteration": "yawma yaqūlu l-munāfiqūna wal-munāfiqātu lilladhīna āmanū unẓurūnā naqtabis min nūrikum qīla ir'jiʿū warāakum fal-tamisū nūran faḍuriba baynahum bisūrin lahu bābun bāṭinuhu fīhi l-raḥmatu waẓāhiruhu min qibalihi l-ʿadhābu",
-    "translation": "",
+    "translation": "On the [same] Day the hypocrite men and hypocrite women will say to those who believed, \"Wait for us that we may acquire some of your light.\" It will be said, \"Go back behind you and seek light.\" And a wall will be placed between them with a door, its interior containing mercy, but on the outside of it is torment.",
     "words": [
       {
         "id": "al-hadid-13-1",
@@ -1768,7 +1780,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En ce jour, les hypocrites, hommes et femmes, diront à ceux qui auront cru : « Attendez-nous que nous puissions prendre un peu de votre lumière. » Mais il leur sera répondu : « Revenez sur vos pas ! Allez quêter ailleurs (votre) lumière ! » Entre eux, sera alors dressée une muraille dont la porte donnera, à l’intérieur, accès à la miséricorde, et, à l’extérieur, fera face au supplice."
   },
   {
     "id": "al-hadid-14",
@@ -1777,7 +1790,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَـٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَٱرْتَبْتُمْ وَغَرَّتْكُمُ ٱلْأَمَانِىُّ حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ",
     "textSimple": "ينادونهم ألم نكن معكم  قالوا بلى ولـكنكم فتنتم أنفسكم وتربصتم وٱرتبتم وغرتكم ٱلأمانى حتى جآء أمر ٱلله وغركم بٱلله ٱلغرور",
     "transliteration": "yunādūnahum alam nakun maʿakum qālū balā walākinnakum fatantum anfusakum watarabbaṣtum wa-ir'tabtum wagharratkumu l-amāniyu ḥattā jāa amru l-lahi wagharrakum bil-lahi l-gharūru",
-    "translation": "",
+    "translation": "They [i.e., the hypocrites] will call to them [i.e., the believers], \"Were we not with you?\" They will say, \"Yes, but you afflicted yourselves and awaited [misfortune for us] and doubted, and wishful thinking deluded you until there came the command of Allāh. And the Deceiver [i.e., Satan] deceived you concerning Allāh.",
     "words": [
       {
         "id": "al-hadid-14-1",
@@ -1920,7 +1933,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« N’étions-nous pas avec vous ? » crieront (les hypocrites). « Si, répondront (les croyants), mais vous avez succombé (de vous-mêmes) à la tentation, vous ne faisiez qu’atermoyer, vous doutiez, et vous vous êtes laissé séduire par les (faux) espoirs, jusqu’à ce que fût venu l’ordre d’Allah. (Satan) le suborneur vous a abusés au sujet d’Allah."
   },
   {
     "id": "al-hadid-15",
@@ -1929,7 +1943,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْيَوْمَ لَا يُؤْخَذُ مِنكُمْ فِدْيَةٌ وَلَا مِنَ ٱلَّذِينَ كَفَرُوا۟ ۚ مَأْوَىٰكُمُ ٱلنَّارُ ۖ هِىَ مَوْلَىٰكُمْ ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "فٱليوم لا يؤخذ منكم فدية ولا من ٱلذين كفروا  مأوىكم ٱلنار  هى مولىكم  وبئس ٱلمصير",
     "transliteration": "fal-yawma lā yu'khadhu minkum fid'yatun walā mina alladhīna kafarū mawākumu l-nāru hiya mawlākum wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "So today no ransom will be taken from you or from those who disbelieved. Your refuge is the Fire. It is most worthy of you, and wretched is the destination.\"",
     "words": [
       {
         "id": "al-hadid-15-1",
@@ -2037,7 +2051,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aujourd’hui, aucune compensation ne sera acceptée de vous, ni de ceux qui ont mécru. Votre séjour est le Feu, c’est le lieu qui vous convient le mieux et quel affreux devenir ! »"
   },
   {
     "id": "al-hadid-16",
@@ -2046,7 +2061,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَلَمْ يَأْنِ لِلَّذِينَ ءَامَنُوٓا۟ أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ ٱللَّهِ وَمَا نَزَلَ مِنَ ٱلْحَقِّ وَلَا يَكُونُوا۟ كَٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلُ فَطَالَ عَلَيْهِمُ ٱلْأَمَدُ فَقَسَتْ قُلُوبُهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ",
     "textSimple": " ألم يأن للذين ءامنوٓا أن تخشع قلوبهم لذكر ٱلله وما نزل من ٱلحق ولا يكونوا كٱلذين أوتوا ٱلكتـب من قبل فطال عليهم ٱلأمد فقست قلوبهم  وكثير منهم فـسقون",
     "transliteration": "alam yani lilladhīna āmanū an takhshaʿa qulūbuhum lidhik'ri l-lahi wamā nazala mina l-ḥaqi walā yakūnū ka-alladhīna ūtū l-kitāba min qablu faṭāla ʿalayhimu l-amadu faqasat qulūbuhum wakathīrun min'hum fāsiqūna",
-    "translation": "",
+    "translation": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allāh and what has come down of the truth? And let them not be like those who were given the Scripture before, and a long period passed over them, so their hearts hardened; and many of them are defiantly disobedient.",
     "words": [
       {
         "id": "al-hadid-16-1",
@@ -2245,7 +2260,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’est-il donc pas temps, pour ceux qui ont cru, de laisser leurs cœurs se recueillir dans la contrition à l’évocation d’Allah et de ce qui est révélé comme vérité ? Qu’ils ne soient pas comme ceux qui ont reçu le Livre avant eux, et dont, avec le temps, les cœurs ont fini par s’endurcir. Bon nombre d’entre eux furent des pervers."
   },
   {
     "id": "al-hadid-17",
@@ -2254,7 +2270,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "ٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": "ٱعلموٓا أن ٱلله يحى ٱلأرض بعد موتها  قد بينا لكم ٱلـٔايـت لعلكم تعقلون",
     "transliteration": "iʿ'lamū anna l-laha yuḥ'yī l-arḍa baʿda mawtihā qad bayyannā lakumu l-āyāti laʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "Know that Allāh gives life to the earth after its lifelessness. We have made clear to you the signs; perhaps you will understand.",
     "words": [
       {
         "id": "al-hadid-17-1",
@@ -2348,7 +2364,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sachez qu’Allah fait revivre la terre, une fois morte. Nous vous avons expliqué les Signes afin que vous entendiez raison."
   },
   {
     "id": "al-hadid-18",
@@ -2357,7 +2374,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَـٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ",
     "textSimple": "إن ٱلمصدقين وٱلمصدقـت وأقرضوا ٱلله قرضا حسنا يضـعف لهم ولهم أجر كريم",
     "transliteration": "inna l-muṣadiqīna wal-muṣadiqāti wa-aqraḍū l-laha qarḍan ḥasanan yuḍāʿafu lahum walahum ajrun karīmun",
-    "translation": "",
+    "translation": "Indeed, the men who practice charity and the women who practice charity and [they who] have loaned Allāh a goodly loan - it will be multiplied for them, and they will have a noble reward.",
     "words": [
       {
         "id": "al-hadid-18-1",
@@ -2444,7 +2461,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes et les femmes qui font don d’aumônes, et qui ont consenti à Allah un prêt de bonne volonté, seront remboursés au centuple, et ils auront rémunération généreuse."
   },
   {
     "id": "al-hadid-19",
@@ -2453,7 +2471,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦٓ أُو۟لَـٰٓئِكَ هُمُ ٱلصِّدِّيقُونَ ۖ وَٱلشُّهَدَآءُ عِندَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ ۖ وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ",
     "textSimple": "وٱلذين ءامنوا بٱلله ورسلهٓ أولـٓئك هم ٱلصديقون  وٱلشهدآء عند ربهم لهم أجرهم ونورهم  وٱلذين كفروا وكذبوا بـٔايـتنآ أولـٓئك أصحـب ٱلجحيم",
     "transliteration": "wa-alladhīna āmanū bil-lahi warusulihi ulāika humu l-ṣidīqūna wal-shuhadāu ʿinda rabbihim lahum ajruhum wanūruhum wa-alladhīna kafarū wakadhabū biāyātinā ulāika aṣḥābu l-jaḥīmi",
-    "translation": "",
+    "translation": "And those who have believed in Allāh and His messengers - those are [in the ranks of] the supporters of truth and the martyrs, with their Lord. For them is their reward and their light. But those who have disbelieved and denied Our verses - those are the companions of Hellfire.",
     "words": [
       {
         "id": "al-hadid-19-1",
@@ -2596,7 +2614,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru en Allah et en Ses Messagers, ceux-là sont les véridiques par excellence et les témoins auprès de leur Seigneur. Ils auront leur récompense et leur lumière, tandis que ceux qui auront mécru et nié Nos Signes, ceux-là seront les hôtes du Brasier."
   },
   {
     "id": "al-hadid-20",
@@ -2605,7 +2624,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَـٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَـٰمًا ۖ وَفِى ٱلْـَٔاخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَـٰعُ ٱلْغُرُورِ",
     "textSimple": "ٱعلموٓا أنما ٱلحيوة ٱلدنيا لعب ولهو وزينة وتفاخر بينكم وتكاثر فى ٱلأمول وٱلأولـد  كمثل غيث أعجب ٱلكفار نباته ثم يهيج فترىه مصفرا ثم يكون حطـما  وفى ٱلـٔاخرة عذاب شديد ومغفرة من ٱلله ورضون  وما ٱلحيوة ٱلدنيآ إلا متـع ٱلغرور",
     "transliteration": "iʿ'lamū annamā l-ḥayatu l-dun'yā laʿibun walahwun wazīnatun watafākhurun baynakum watakāthurun fī l-amwāli wal-awlādi kamathali ghaythin aʿjaba l-kufāra nabātuhu thumma yahīju fatarāhu muṣ'farran thumma yakūnu ḥuṭāman wafī l-ākhirati ʿadhābun shadīdun wamaghfiratun mina l-lahi wariḍ'wānun wamā l-ḥayatu l-dun'yā illā matāʿu l-ghurūri",
-    "translation": "",
+    "translation": "Know that the life of this world is but amusement and diversion and adornment and boasting to one another and competition in increase of wealth and children - like the example of a rain whose [resulting] plant growth pleases the tillers; then it dries and you see it turned yellow; then it becomes [scattered] debris. And in the Hereafter is severe punishment and forgiveness from Allāh and approval. And what is the worldly life except the enjoyment of delusion.",
     "words": [
       {
         "id": "al-hadid-20-1",
@@ -2881,7 +2900,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sachez que la vie en ce bas monde n’est que jeu, divertissement, apparat, vaines émulations entre vous, et course aux biens et à la progéniture. Elle est telle une pluie faisant pousser une végétation qui plaît aux cultivateurs, mais qui, après avoir crû en abondance, finit par jaunir puis se réduire en amas de brindilles desséchées. Dans l’au-delà, ce sera soit un terrible supplice soit le pardon et l’agrément d’Allah. Et la vie en ce bas monde n’est que jouissance illusoire."
   },
   {
     "id": "al-hadid-21",
@@ -2890,7 +2910,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ ٱلسَّمَآءِ وَٱلْأَرْضِ أُعِدَّتْ لِلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
     "textSimple": "سابقوٓا إلى مغفرة من ربكم وجنة عرضها كعرض ٱلسمآء وٱلأرض أعدت للذين ءامنوا بٱلله ورسله  ذلك فضل ٱلله يؤتيه من يشآء  وٱلله ذو ٱلفضل ٱلعظيم",
     "transliteration": "sābiqū ilā maghfiratin min rabbikum wajannatin ʿarḍuhā kaʿarḍi l-samāi wal-arḍi uʿiddat lilladhīna āmanū bil-lahi warusulihi dhālika faḍlu l-lahi yu'tīhi man yashāu wal-lahu dhū l-faḍli l-ʿaẓīmi",
-    "translation": "",
+    "translation": "Race [i.e., compete] toward forgiveness from your Lord and a Garden whose width is like the width of the heavens and earth, prepared for those who believed in Allāh and His messengers. That is the bounty of Allāh which He gives to whom He wills, and Allāh is the possessor of great bounty.",
     "words": [
       {
         "id": "al-hadid-21-1",
@@ -3068,7 +3088,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Courez donc à qui mieux mieux vers un pardon de votre Seigneur, (et vers) un Paradis aussi large que le ciel et la terre, ménagé pour ceux qui auront cru en Allah et en Ses Messagers. Telle est la faveur d’Allah, qu’Il accorde à qui Il veut. Et Allah est le Détenteur de la Faveur Suprême."
   },
   {
     "id": "al-hadid-22",
@@ -3077,7 +3098,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَصَابَ مِن مُّصِيبَةٍ فِى ٱلْأَرْضِ وَلَا فِىٓ أَنفُسِكُمْ إِلَّا فِى كِتَـٰبٍ مِّن قَبْلِ أَن نَّبْرَأَهَآ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
     "textSimple": "مآ أصاب من مصيبة فى ٱلأرض ولا فىٓ أنفسكم إلا فى كتـب من قبل أن نبرأهآ  إن ذلك على ٱلله يسير",
     "transliteration": "mā aṣāba min muṣībatin fī l-arḍi walā fī anfusikum illā fī kitābin min qabli an nabra-ahā inna dhālika ʿalā l-lahi yasīrun",
-    "translation": "",
+    "translation": "No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being - indeed that, for Allāh, is easy -",
     "words": [
       {
         "id": "al-hadid-22-1",
@@ -3227,7 +3248,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est point de catastrophe frappant la terre ou (de malheur) vous frappant vous-mêmes, qui ne soit (consigné) dans un Livre bien avant que Nous ne l’ayons fait se produire. Cela est, pour Allah, chose vraiment aisée."
   },
   {
     "id": "al-hadid-23",
@@ -3236,7 +3258,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
     "textSimple": "لكيلا تأسوا على ما فاتكم ولا تفرحوا بمآ ءاتىكم  وٱلله لا يحب كل مختال فخور",
     "transliteration": "likaylā tasaw ʿalā mā fātakum walā tafraḥū bimā ātākum wal-lahu lā yuḥibbu kulla mukh'tālin fakhūrin",
-    "translation": "",
+    "translation": "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you. And Allāh does not like everyone self-deluded and boastful -",
     "words": [
       {
         "id": "al-hadid-23-1",
@@ -3344,7 +3366,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, pour que vous ne vous vous lamentiez pas (trop) sur les biens qui vous auront échappé, et que vous ne vous réjouissiez pas (outre mesure) de ce qu’Il vous a donné. Car Allah n’aime pas ceux qui sont hautains et vantards,"
   },
   {
     "id": "al-hadid-24",
@@ -3353,7 +3376,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ ۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
     "textSimple": "ٱلذين يبخلون ويأمرون ٱلناس بٱلبخل  ومن يتول فإن ٱلله هو ٱلغنى ٱلحميد",
     "transliteration": "alladhīna yabkhalūna wayamurūna l-nāsa bil-bukh'li waman yatawalla fa-inna l-laha huwa l-ghaniyu l-ḥamīdu",
-    "translation": "",
+    "translation": "[Those] who are stingy and enjoin upon people stinginess. And whoever turns away - then indeed, Allāh is the Free of need, the Praiseworthy.",
     "words": [
       {
         "id": "al-hadid-24-1",
@@ -3440,7 +3463,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui sont avares et exhortent les hommes à l’avarice. Que celui qui se détourne (des commandements divins sache qu’) Allah est Celui Qui se passe de Toute chose et qu’Il est le Digne de Toute Louange."
   },
   {
     "id": "al-hadid-25",
@@ -3449,7 +3473,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَـٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَـٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌ شَدِيدٌ وَمَنَـٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌ",
     "textSimple": "لقد أرسلنا رسلنا بٱلبينـت وأنزلنا معهم ٱلكتـب وٱلميزان ليقوم ٱلناس بٱلقسط  وأنزلنا ٱلحديد فيه بأس شديد ومنـفع للناس وليعلم ٱلله من ينصره ورسله بٱلغيب  إن ٱلله قوى عزيز",
     "transliteration": "laqad arsalnā rusulanā bil-bayināti wa-anzalnā maʿahumu l-kitāba wal-mīzāna liyaqūma l-nāsu bil-qis'ṭi wa-anzalnā l-ḥadīda fīhi basun shadīdun wamanāfiʿu lilnnāsi waliyaʿlama l-lahu man yanṣuruhu warusulahu bil-ghaybi inna l-laha qawiyyun ʿazīzun",
-    "translation": "",
+    "translation": "We have already sent Our messengers with clear evidences and sent down with them the Scripture and the balance that the people may maintain [their affairs] in justice. And We sent down iron, wherein is great military might and benefits for the people, and so that Allāh may make evident those who support Him and His messengers unseen. Indeed, Allāh is Powerful and Exalted in Might.",
     "words": [
       {
         "id": "al-hadid-25-1",
@@ -3648,7 +3672,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes Nos Messagers munis des preuves évidentes, et Nous fîmes descendre par leur intermédiaire le Livre et la Balance, afin que les hommes s’imposent la justice. Nous fîmes aussi descendre le fer, source de force redoutable, mais plein d’utilités pour les hommes. C’est aussi pour qu’Allah sache qui, sans même Le voir, soutiendra Sa cause et celle de Ses Messagers. Il est le Fort, le Tout -Puissant."
   },
   {
     "id": "al-hadid-26",
@@ -3657,7 +3682,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا وَإِبْرَٰهِيمَ وَجَعَلْنَا فِى ذُرِّيَّتِهِمَا ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ ۖ فَمِنْهُم مُّهْتَدٍ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ",
     "textSimple": "ولقد أرسلنا نوحا وإبرهيم وجعلنا فى ذريتهما ٱلنبوة وٱلكتـب  فمنهم مهتد  وكثير منهم فـسقون",
     "transliteration": "walaqad arsalnā nūḥan wa-ib'rāhīma wajaʿalnā fī dhurriyyatihimā l-nubuwata wal-kitāba famin'hum muh'tadin wakathīrun min'hum fāsiqūna",
-    "translation": "",
+    "translation": "And We have already sent Noah and Abraham and placed in their descendants prophethood and scripture; and among them is he who is guided, but many of them are defiantly disobedient.",
     "words": [
       {
         "id": "al-hadid-26-1",
@@ -3758,7 +3783,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes (en Messagers) Noé et Abraham, et fîmes don à leur descendance de la Prophétie et du Livre. Quelques-uns parmi eux étaient bien guidés, mais bon nombre d’entre eux étaient certes pervers."
   },
   {
     "id": "al-hadid-27",
@@ -3767,7 +3793,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ قَفَّيْنَا عَلَىٰٓ ءَاثَـٰرِهِم بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَـٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَـٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ ءَامَنُوا۟ مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ",
     "textSimple": "ثم قفينا علىٓ ءاثـرهم برسلنا وقفينا بعيسى ٱبن مريم وءاتينـه ٱلإنجيل وجعلنا فى قلوب ٱلذين ٱتبعوه رأفة ورحمة ورهبانية ٱبتدعوها ما كتبنـها عليهم إلا ٱبتغآء رضون ٱلله فما رعوها حق رعايتها  فـٔاتينا ٱلذين ءامنوا منهم أجرهم  وكثير منهم فـسقون",
     "transliteration": "thumma qaffaynā ʿalā āthārihim birusulinā waqaffaynā biʿīsā ib'ni maryama waātaynāhu l-injīla wajaʿalnā fī qulūbi alladhīna ittabaʿūhu rafatan waraḥmatan warahbāniyyatan ib'tadaʿūhā mā katabnāhā ʿalayhim illā ib'tighāa riḍ'wāni l-lahi famā raʿawhā ḥaqqa riʿāyatihā faātaynā alladhīna āmanū min'hum ajrahum wakathīrun min'hum fāsiqūna",
-    "translation": "",
+    "translation": "Then We sent following their footsteps [i.e., traditions] Our messengers and followed [them] with Jesus, the son of Mary, and gave him the Gospel. And We placed in the hearts of those who followed him compassion and mercy and monasticism, which they innovated; We did not prescribe it for them except [that they did so] seeking the approval of Allāh. But they did not observe it with due observance. So We gave the ones who believed among them their reward, but many of them are defiantly disobedient.",
     "words": [
       {
         "id": "al-hadid-27-1",
@@ -4043,7 +4069,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous leur fîmes succéder Nos Messagers (ultérieurs), et envoyâmes à leur suite Jésus, fils de Marie, à qui Nous confiâmes l’Évangile. Nous mîmes alors dans les cœurs de ses adeptes la pitié et la clémence. La vie monacale, ce sont eux qui l’inventèrent sans que Nous ne la leur imposions. (Par elle), ils voulaient obtenir la satisfaction d’Allah, mais ils ne surent l’appliquer telle qu’elle aurait dû l’être. Nous accordâmes leur récompense à ceux d’entre eux qui ont cru. Mais (les autres), pour la plupart, sont des pervers."
   },
   {
     "id": "al-hadid-28",
@@ -4052,7 +4079,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱتقوا ٱلله وءامنوا برسوله يؤتكم كفلين من رحمته ويجعل لكم نورا تمشون به ويغفر لكم  وٱلله غفور رحيم",
     "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha waāminū birasūlihi yu'tikum kif'layni min raḥmatihi wayajʿal lakum nūran tamshūna bihi wayaghfir lakum wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "O you who have believed, fear Allāh and believe in His Messenger; He will [then] give you a double portion of His mercy and make for you a light by which you will walk and forgive you; and Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-hadid-28-1",
@@ -4202,7 +4229,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Craignez Allah ! Croyez en Son Messager ! (Allah) vous accordera alors deux parts de Sa miséricorde, Il vous donnera une lumière pour guider votre marche, et vous pardonnera (vos péchés). Car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-hadid-29",
@@ -4211,7 +4239,7 @@ export const AL_HADID_AYAHS: Ayah[] = [
     "textUthmani": "لِّئَلَّا يَعْلَمَ أَهْلُ ٱلْكِتَـٰبِ أَلَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّن فَضْلِ ٱللَّهِ ۙ وَأَنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
     "textSimple": "لئلا يعلم أهل ٱلكتـب ألا يقدرون على شىء من فضل ٱلله  وأن ٱلفضل بيد ٱلله يؤتيه من يشآء  وٱلله ذو ٱلفضل ٱلعظيم",
     "transliteration": "li-allā yaʿlama ahlu l-kitābi allā yaqdirūna ʿalā shayin min faḍli l-lahi wa-anna l-faḍla biyadi l-lahi yu'tīhi man yashāu wal-lahu dhū l-faḍli l-ʿaẓīmi",
-    "translation": "",
+    "translation": "[This is] so that the People of the Scripture may know that they are not able [to obtain] anything from the bounty of Allāh and that [all] bounty is in the hand of Allāh; He gives it to whom He wills. And Allāh is the possessor of great bounty.",
     "words": [
       {
         "id": "al-hadid-29-1",
@@ -4368,7 +4396,8 @@ export const AL_HADID_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, afin que les gens du Livre sachent qu’ils n’ont aucun pouvoir pour obtenir la faveur d’Allah. Car la faveur est dans la Main d’Allah : Il la donne à qui Il veut, Lui le Détenteur de la Faveur Suprême."
   }
 ];
 

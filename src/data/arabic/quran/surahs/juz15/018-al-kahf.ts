@@ -11,7 +11,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": " ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَـٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا ۜ",
     "textSimple": " ٱلحمد لله ٱلذىٓ أنزل على عبده ٱلكتـب ولم يجعل له عوجا ",
     "transliteration": "al-ḥamdu lillahi alladhī anzala ʿalā ʿabdihi l-kitāba walam yajʿal lahu ʿiwajā",
-    "translation": "",
+    "translation": "[All] praise is [due] to Allāh, who has sent down upon His Servant [Muḥammad (ﷺ)] the Book and has not made therein any deviance.",
     "words": [
       {
         "id": "al-kahf-1-1",
@@ -91,7 +91,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Louange à Allah Qui a fait descendre (en révélation) le Livre sur Son serviteur et n’y a mis aucun (propos) sinueux."
   },
   {
     "id": "al-kahf-2",
@@ -100,7 +101,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا",
     "textSimple": "قيما لينذر بأسا شديدا من لدنه ويبشر ٱلمؤمنين ٱلذين يعملون ٱلصـلحـت أن لهم أجرا حسنا",
     "transliteration": "qayyiman liyundhira basan shadīdan min ladun'hu wayubashira l-mu'minīna alladhīna yaʿmalūna l-ṣāliḥāti anna lahum ajran ḥasanan",
-    "translation": "",
+    "translation": "[He has made it] straight, to warn of severe punishment from Him and to give good tidings to the believers who do righteous deeds that they will have a good reward [i.e., Paradise].",
     "words": [
       {
         "id": "al-kahf-2-1",
@@ -208,7 +209,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un livre parfaitement droit pour prévenir d’un terrible châtiment de Sa part, et pour annoncer aux croyants qui accomplissent les bonnes œuvres qu’ils auront une belle récompense,"
   },
   {
     "id": "al-kahf-3",
@@ -217,7 +219,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "مَّـٰكِثِينَ فِيهِ أَبَدًا",
     "textSimple": "مـكثين فيه أبدا",
     "transliteration": "mākithīna fīhi abadan",
-    "translation": "",
+    "translation": "In which they will remain forever",
     "words": [
       {
         "id": "al-kahf-3-1",
@@ -241,7 +243,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où ils resteront à tout jamais,"
   },
   {
     "id": "al-kahf-4",
@@ -250,7 +253,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَيُنذِرَ ٱلَّذِينَ قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا",
     "textSimple": "وينذر ٱلذين قالوا ٱتخذ ٱلله ولدا",
     "transliteration": "wayundhira alladhīna qālū ittakhadha l-lahu waladan",
-    "translation": "",
+    "translation": "And to warn those who say, \"Allāh has taken a son\".",
     "words": [
       {
         "id": "al-kahf-4-1",
@@ -295,7 +298,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et pour avertir ceux qui ont dit : « Allah S’est attribué un enfant. »"
   },
   {
     "id": "al-kahf-5",
@@ -304,7 +308,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "مَّا لَهُم بِهِۦ مِنْ عِلْمٍ وَلَا لِـَٔابَآئِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَٰهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا",
     "textSimple": "ما لهم به من علم ولا لـٔابآئهم  كبرت كلمة تخرج من أفوههم  إن يقولون إلا كذبا",
     "transliteration": "mā lahum bihi min ʿil'min walā liābāihim kaburat kalimatan takhruju min afwāhihim in yaqūlūna illā kadhiban",
-    "translation": "",
+    "translation": "They have no knowledge of it, nor had their fathers. Grave is the word that comes out of their mouths; they speak not except a lie.",
     "words": [
       {
         "id": "al-kahf-5-1",
@@ -419,7 +423,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or ils n’en savent rien, pas plus que leurs pères. Quelle abominable parole sort de leurs bouches ! Ils ne disent là que des mensonges."
   },
   {
     "id": "al-kahf-6",
@@ -428,7 +433,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَعَلَّكَ بَـٰخِعٌ نَّفْسَكَ عَلَىٰٓ ءَاثَـٰرِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَـٰذَا ٱلْحَدِيثِ أَسَفًا",
     "textSimple": "فلعلك بـخع نفسك علىٓ ءاثـرهم إن لم يؤمنوا بهـذا ٱلحديث أسفا",
     "transliteration": "falaʿallaka bākhiʿun nafsaka ʿalā āthārihim in lam yu'minū bihādhā l-ḥadīthi asafan",
-    "translation": "",
+    "translation": "Then perhaps you would kill yourself through grief over them, [O Muḥammad], if they do not believe in this message, [and] out of sorrow.",
     "words": [
       {
         "id": "al-kahf-6-1",
@@ -508,7 +513,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Peut-être vas-tu te tourmenter pour eux (à en mourir) parce qu’ils ne croient pas en ce discours (le Coran)."
   },
   {
     "id": "al-kahf-7",
@@ -517,7 +523,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا",
     "textSimple": "إنا جعلنا ما على ٱلأرض زينة لها لنبلوهم أيهم أحسن عملا",
     "transliteration": "innā jaʿalnā mā ʿalā l-arḍi zīnatan lahā linabluwahum ayyuhum aḥsanu ʿamalan",
-    "translation": "",
+    "translation": "Indeed, We have made that which is on the earth adornment for it that We may test them [as to] which of them is best in deed.",
     "words": [
       {
         "id": "al-kahf-7-1",
@@ -597,7 +603,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait de tout ce que porte la terre une parure pour les éprouver et savoir qui d’entre eux aura accompli les meilleures œuvres."
   },
   {
     "id": "al-kahf-8",
@@ -606,7 +613,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا لَجَـٰعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا",
     "textSimple": "وإنا لجـعلون ما عليها صعيدا جرزا",
     "transliteration": "wa-innā lajāʿilūna mā ʿalayhā ṣaʿīdan juruzan",
-    "translation": "",
+    "translation": "And indeed, We will make that which is upon it [into] a barren ground.",
     "words": [
       {
         "id": "al-kahf-8-1",
@@ -651,7 +658,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Nous réduirons certainement tout ce qu’elle porte en un sol aride."
   },
   {
     "id": "al-kahf-9",
@@ -660,7 +668,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ حَسِبْتَ أَنَّ أَصْحَـٰبَ ٱلْكَهْفِ وَٱلرَّقِيمِ كَانُوا۟ مِنْ ءَايَـٰتِنَا عَجَبًا",
     "textSimple": "أم حسبت أن أصحـب ٱلكهف وٱلرقيم كانوا من ءايـتنا عجبا",
     "transliteration": "am ḥasib'ta anna aṣḥāba l-kahfi wal-raqīmi kānū min āyātinā ʿajaban",
-    "translation": "",
+    "translation": "Or have you thought that the companions of the cave and the inscription were, among Our signs, a wonder?",
     "words": [
       {
         "id": "al-kahf-9-1",
@@ -733,7 +741,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Penserais-tu que les gens de la Caverne et de Ar-Raqîm soient les plus étonnants de Nos miracles ?"
   },
   {
     "id": "al-kahf-10",
@@ -742,7 +751,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
     "textSimple": "إذ أوى ٱلفتية إلى ٱلكهف فقالوا ربنآ ءاتنا من لدنك رحمة وهيئ لنا من أمرنا رشدا",
     "transliteration": "idh awā l-fit'yatu ilā l-kahfi faqālū rabbanā ātinā min ladunka raḥmatan wahayyi lanā min amrinā rashadan",
-    "translation": "",
+    "translation": "[Mention] when the youths retreated to the cave and said, \"Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance.\"",
     "words": [
       {
         "id": "al-kahf-10-1",
@@ -857,7 +866,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ces jeunes gens se réfugièrent dans la caverne ils dirent : « Seigneur ! Donne-nous de Ta part une miséricorde et assure pour nous la voie de la droiture. »"
   },
   {
     "id": "al-kahf-11",
@@ -866,7 +876,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ فِى ٱلْكَهْفِ سِنِينَ عَدَدًا",
     "textSimple": "فضربنا علىٓ ءاذانهم فى ٱلكهف سنين عددا",
     "transliteration": "faḍarabnā ʿalā ādhānihim fī l-kahfi sinīna ʿadadan",
-    "translation": "",
+    "translation": "So We cast [a cover of sleep] over their ears within the cave for a number of years.",
     "words": [
       {
         "id": "al-kahf-11-1",
@@ -918,7 +928,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons alors frappé (de surdité) leurs oreilles pendant de nombreuses années."
   },
   {
     "id": "al-kahf-12",
@@ -927,7 +938,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَعَثْنَـٰهُمْ لِنَعْلَمَ أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ لِمَا لَبِثُوٓا۟ أَمَدًا",
     "textSimple": "ثم بعثنـهم لنعلم أى ٱلحزبين أحصى لما لبثوٓا أمدا",
     "transliteration": "thumma baʿathnāhum linaʿlama ayyu l-ḥiz'bayni aḥṣā limā labithū amadan",
-    "translation": "",
+    "translation": "Then We awakened them that We might show which of the two factions was most precise in calculating what [extent] they had remained in time.",
     "words": [
       {
         "id": "al-kahf-12-1",
@@ -993,7 +1004,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous les réveillâmes pour savoir lequel des deux partis savait compter la juste durée de leur séjour."
   },
   {
     "id": "al-kahf-13",
@@ -1002,7 +1014,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ ۚ إِنَّهُمْ فِتْيَةٌ ءَامَنُوا۟ بِرَبِّهِمْ وَزِدْنَـٰهُمْ هُدًى",
     "textSimple": "نحن نقص عليك نبأهم بٱلحق  إنهم فتية ءامنوا بربهم وزدنـهم هدى",
     "transliteration": "naḥnu naquṣṣu ʿalayka naba-ahum bil-ḥaqi innahum fit'yatun āmanū birabbihim wazid'nāhum hudan",
-    "translation": "",
+    "translation": "It is We who relate to you, [O Muḥammad], their story in truth. Indeed, they were youths who believed in their Lord, and We increased them in guidance.",
     "words": [
       {
         "id": "al-kahf-13-1",
@@ -1082,7 +1094,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui allons te raconter leur histoire en vérité. Ce sont des jeunes qui ont cru en leur Seigneur ; et Nous les avons encore mieux guidés vers le droit chemin."
   },
   {
     "id": "al-kahf-14",
@@ -1091,7 +1104,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَـٰهًا ۖ لَّقَدْ قُلْنَآ إِذًا شَطَطًا",
     "textSimple": "وربطنا على قلوبهم إذ قاموا فقالوا ربنا رب ٱلسمـوت وٱلأرض لن ندعوا من دونهٓ إلـها  لقد قلنآ إذا شططا",
     "transliteration": "warabaṭnā ʿalā qulūbihim idh qāmū faqālū rabbunā rabbu l-samāwāti wal-arḍi lan nadʿuwā min dūnihi ilāhan laqad qul'nā idhan shaṭaṭan",
-    "translation": "",
+    "translation": "And We bound [i.e., made firm] their hearts when they stood up and said, \"Our Lord is the Lord of the heavens and the earth. Never will we invoke besides Him any deity. We would have certainly spoken, then, an excessive transgression.",
     "words": [
       {
         "id": "al-kahf-14-1",
@@ -1227,7 +1240,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons affermi leurs cœurs lorsqu’ils se sont dressés et ont dit : « Notre Seigneur est le Seigneur des cieux et de la terre, Nous n’invoquerons nulle autre divinité que Lui, ou alors nous aurions proféré des insanités."
   },
   {
     "id": "al-kahf-15",
@@ -1236,7 +1250,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰٓؤُلَآءِ قَوْمُنَا ٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةً ۖ لَّوْلَا يَأْتُونَ عَلَيْهِم بِسُلْطَـٰنٍۭ بَيِّنٍ ۖ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا",
     "textSimple": "هـٓؤلآء قومنا ٱتخذوا من دونهٓ ءالهة  لولا يأتون عليهم بسلطـن بين  فمن أظلم ممن ٱفترى على ٱلله كذبا",
     "transliteration": "hāulāi qawmunā ittakhadhū min dūnihi ālihatan lawlā yatūna ʿalayhim bisul'ṭānin bayyinin faman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban",
-    "translation": "",
+    "translation": "These, our people, have taken besides Him deities. Why do they not bring for [worship of] them a clear evidence? And who is more unjust than one who invents about Allāh a lie?\"",
     "words": [
       {
         "id": "al-kahf-15-1",
@@ -1365,7 +1379,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont les nôtres qui ont pris des divinités en dehors de Lui. Si au moins ils en apportaient des preuves d’autorité ! Est-il quelqu’un de plus injuste que celui qui débite des mensonges sur le compte d’Allah ? »"
   },
   {
     "id": "al-kahf-16",
@@ -1374,7 +1389,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا",
     "textSimple": "وإذ ٱعتزلتموهم وما يعبدون إلا ٱلله فأوٓا إلى ٱلكهف ينشر لكم ربكم من رحمته ويهيئ لكم من أمركم مرفقا",
     "transliteration": "wa-idhi iʿ'tazaltumūhum wamā yaʿbudūna illā l-laha fawū ilā l-kahfi yanshur lakum rabbukum min raḥmatihi wayuhayyi lakum min amrikum mir'faqan",
-    "translation": "",
+    "translation": "[The youths said to one another], \"And when you have withdrawn from them and that which they worship other than Allāh, retreat to the cave. Your Lord will spread out for you of His mercy and will prepare for you from your affair facility.\"",
     "words": [
       {
         "id": "al-kahf-16-1",
@@ -1510,7 +1525,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ils se sont dit après concertation) : « Une fois que vous vous serez éloignés d’eux et de ce qu’ils adorent en dehors d’Allah, cherchez refuge dans la caverne. Votre Seigneur, alors, déploiera sur vous de Sa miséricorde et assurera pour votre sort une issue clémente. »"
   },
   {
     "id": "al-kahf-17",
@@ -1519,7 +1535,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ ءَايَـٰتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
     "textSimple": " وترى ٱلشمس إذا طلعت تزور عن كهفهم ذات ٱليمين وإذا غربت تقرضهم ذات ٱلشمال وهم فى فجوة منه  ذلك من ءايـت ٱلله  من يهد ٱلله فهو ٱلمهتد  ومن يضلل فلن تجد له وليا مرشدا",
     "transliteration": "watarā l-shamsa idhā ṭalaʿat tazāwaru ʿan kahfihim dhāta l-yamīni wa-idhā gharabat taqriḍuhum dhāta l-shimāli wahum fī fajwatin min'hu dhālika min āyāti l-lahi man yahdi l-lahu fahuwa l-muh'tadi waman yuḍ'lil falan tajida lahu waliyyan mur'shidan",
-    "translation": "",
+    "translation": "And [had you been present], you would see the sun when it rose, inclining away from their cave on the right, and when it set, passing away from them on the left, while they were [lying] within an open space thereof. That was from the signs of Allāh. He whom Allāh guides is the [rightly] guided, but he whom He sends astray - never will you find for him a protecting guide.",
     "words": [
       {
         "id": "al-kahf-17-1",
@@ -1760,7 +1776,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu aurais pu voir le soleil, à son lever, incliner vers la droite de leur caverne et, à son coucher, s’écarter vers la gauche, cependant qu’ils étaient étendus dans une vaste ouverture de la caverne. Ceci est un des Signes d’Allah. Celui qu’Allah veut bien guider sera engagé sur la juste voie, et celui qu’Il entend perdre, tu ne lui trouveras aucun allié pour l’orienter."
   },
   {
     "id": "al-kahf-18",
@@ -1769,7 +1786,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَـٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
     "textSimple": "وتحسبهم أيقاظا وهم رقود  ونقلبهم ذات ٱليمين وذات ٱلشمال  وكلبهم بـسط ذراعيه بٱلوصيد  لو ٱطلعت عليهم لوليت منهم فرارا ولملئت منهم رعبا",
     "transliteration": "wataḥsabuhum ayqāẓan wahum ruqūdun wanuqallibuhum dhāta l-yamīni wadhāta l-shimāli wakalbuhum bāsiṭun dhirāʿayhi bil-waṣīdi lawi iṭṭalaʿta ʿalayhim lawallayta min'hum firāran walamuli'ta min'hum ruʿ'ban",
-    "translation": "",
+    "translation": "And you would think them awake, while they were asleep. And We turned them to the right and to the left, while their dog stretched his forelegs at the entrance. If you had looked at them, you would have turned from them in flight and been filled by them with terror.",
     "words": [
       {
         "id": "al-kahf-18-1",
@@ -1926,7 +1943,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu aurais pu croire qu’ils étaient réveillés alors qu’ils étaient endormis. Nous les faisions se retourner tantôt sur le côté droit et tantôt sur le côté gauche, tandis que leur chien était (couché) à l’entrée, les pattes étendues. Si tu avais pu les voir (dans cet état) tu te serais enfui, saisi de terreur à leur vue."
   },
   {
     "id": "al-kahf-19",
@@ -1935,7 +1953,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ بَعَثْنَـٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ ۚ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ ۖ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ ۚ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَـٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ بِكُمْ أَحَدًا",
     "textSimple": "وكذلك بعثنـهم ليتسآءلوا بينهم  قال قآئل منهم كم لبثتم  قالوا لبثنا يوما أو بعض يوم  قالوا ربكم أعلم بما لبثتم فٱبعثوٓا أحدكم بورقكم هـذهٓ إلى ٱلمدينة فلينظر أيهآ أزكى طعاما فليأتكم برزق منه وليتلطف ولا يشعرن بكم أحدا",
     "transliteration": "wakadhālika baʿathnāhum liyatasāalū baynahum qāla qāilun min'hum kam labith'tum qālū labith'nā yawman aw baʿḍa yawmin qālū rabbukum aʿlamu bimā labith'tum fa-ib'ʿathū aḥadakum biwariqikum hādhihi ilā l-madīnati falyanẓur ayyuhā azkā ṭaʿāman falyatikum biriz'qin min'hu walyatalaṭṭaf walā yush'ʿiranna bikum aḥadan",
-    "translation": "",
+    "translation": "And similarly, We awakened them that they might question one another. Said a speaker from among them, \"How long have you remained [here]?\" They said, \"We have remained a day or part of a day.\" They said, \"Your Lord is most knowing of how long you remained. So send one of you with this silver coin of yours to the city and let him look to which is the best of food and bring you provision from it and let him be cautious. And let no one be aware of you.",
     "words": [
       {
         "id": "al-kahf-19-1",
@@ -2204,7 +2222,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est ainsi que Nous les avons ressuscités pour qu’ils s’interrogent les uns les autres. « Combien de temps êtes-vous demeurés ici ? » demanda l’un d’eux. « Un jour, disent les uns, ou peut-être une bonne partie d’un jour. » Puis ils ajoutèrent : « Votre Seigneur Sait le mieux combien (de temps) vous êtes restés (ici). Envoyez donc quelqu’un à la ville avec ces pièces d’argent pour vous chercher de ses aliments les plus purs, de quoi vous sustenter. Qu’il soit avenant et n’attire sur vous l’attention de personne."
   },
   {
     "id": "al-kahf-20",
@@ -2213,7 +2232,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًا",
     "textSimple": "إنهم إن يظهروا عليكم يرجموكم أو يعيدوكم فى ملتهم ولن تفلحوٓا إذا أبدا",
     "transliteration": "innahum in yaẓharū ʿalaykum yarjumūkum aw yuʿīdūkum fī millatihim walan tuf'liḥū idhan abadan",
-    "translation": "",
+    "translation": "Indeed, if they come to know of you, they will stone you or return you to their religion. And never would you succeed, then - ever.\"",
     "words": [
       {
         "id": "al-kahf-20-1",
@@ -2307,7 +2326,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car s’ils venaient à vous surprendre ils vous lapideraient ou vous obligeraient à revenir à leur religion ; et alors, vous ne réussiriez plus jamais. »"
   },
   {
     "id": "al-kahf-21",
@@ -2316,7 +2336,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ يَتَنَـٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ ۖ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَـٰنًا ۖ رَّبُّهُمْ أَعْلَمُ بِهِمْ ۚ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًا",
     "textSimple": "وكذلك أعثرنا عليهم ليعلموٓا أن وعد ٱلله حق وأن ٱلساعة لا ريب فيهآ إذ يتنـزعون بينهم أمرهم  فقالوا ٱبنوا عليهم بنيـنا  ربهم أعلم بهم  قال ٱلذين غلبوا علىٓ أمرهم لنتخذن عليهم مسجدا",
     "transliteration": "wakadhālika aʿtharnā ʿalayhim liyaʿlamū anna waʿda l-lahi ḥaqqun wa-anna l-sāʿata lā rayba fīhā idh yatanāzaʿūna baynahum amrahum faqālū ib'nū ʿalayhim bun'yānan rabbuhum aʿlamu bihim qāla alladhīna ghalabū ʿalā amrihim lanattakhidhanna ʿalayhim masjidan",
-    "translation": "",
+    "translation": "And similarly, We caused them to be found that they [who found them] would know that the promise of Allāh is truth and that of the Hour there is no doubt. [That was] when they disputed among themselves about their affair and [then] said, \"Construct over them a structure. Their Lord is most knowing about them.\" Said those who prevailed in the matter, \"We will surely take [for ourselves] over them a masjid.\"",
     "words": [
       {
         "id": "al-kahf-21-1",
@@ -2543,7 +2563,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi Nous fîmes en sorte que soient retrouvées leurs traces pour que (les habitants de la cité) sachent que la promesse d’Allah est pure vérité et que l’Heure est indubitable. Ils se disputèrent à leur sujet et dirent : « Érigez au-dessus d’eux un édifice. Leur Seigneur Connaît mieux (leur secret) ! » Mais ceux qui eurent le dernier mot dirent : « Nous y érigerons plutôt un sanctuaire. »"
   },
   {
     "id": "al-kahf-22",
@@ -2552,7 +2573,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "سَيَقُولُونَ ثَلَـٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَـٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
     "textSimple": "سيقولون ثلـثة رابعهم كلبهم ويقولون خمسة سادسهم كلبهم رجما بٱلغيب  ويقولون سبعة وثامنهم كلبهم  قل ربىٓ أعلم بعدتهم ما يعلمهم إلا قليل  فلا تمار فيهم إلا مرآء ظـهرا ولا تستفت فيهم منهم أحدا",
     "transliteration": "sayaqūlūna thalāthatun rābiʿuhum kalbuhum wayaqūlūna khamsatun sādisuhum kalbuhum rajman bil-ghaybi wayaqūlūna sabʿatun wathāminuhum kalbuhum qul rabbī aʿlamu biʿiddatihim mā yaʿlamuhum illā qalīlun falā tumāri fīhim illā mirāan ẓāhiran walā tastafti fīhim min'hum aḥadan",
-    "translation": "",
+    "translation": "They [i.e., people] will say there were three, the fourth of them being their dog; and they will say there were five, the sixth of them being their dog - guessing at the unseen; and they will say there were seven, and the eighth of them was their dog. Say, [O Muḥammad], \"My Lord is most knowing of their number. None knows them except a few. So do not argue about them except with an obvious argument and do not inquire about them among [the speculators] from anyone.\"",
     "words": [
       {
         "id": "al-kahf-22-1",
@@ -2786,7 +2807,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : « Ils étaient trois et leur chien était leur quatrième. » Et, spéculant toujours sur leur mystère, ils diront qu’ils étaient cinq et leur chien leur sixième ; et ils diront : « Sept et leur chien leur huitième. » Dis : « Mon Seigneur Sait mieux leur nombre et il n’est que peu qui le savent. » Ne dispute donc point à leur sujet, si ce n’est selon ce qui t’a été révélé, et ne demande, en la matière, l’avis d’aucune personne."
   },
   {
     "id": "al-kahf-23",
@@ -2795,7 +2817,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌ ذَٰلِكَ غَدًا",
     "textSimple": "ولا تقولن لشاىء إنى فاعل ذلك غدا",
     "transliteration": "walā taqūlanna lishāy'in innī fāʿilun dhālika ghadan",
-    "translation": "",
+    "translation": "And never say of anything, \"Indeed, I will do that tomorrow,\"",
     "words": [
       {
         "id": "al-kahf-23-1",
@@ -2847,7 +2869,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ne dis jamais à propos de telle chose : « Je ferai cela demain »,"
   },
   {
     "id": "al-kahf-24",
@@ -2856,7 +2879,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَـٰذَا رَشَدًا",
     "textSimple": "إلآ أن يشآء ٱلله  وٱذكر ربك إذا نسيت وقل عسىٓ أن يهدين ربى لأقرب من هـذا رشدا",
     "transliteration": "illā an yashāa l-lahu wa-udh'kur rabbaka idhā nasīta waqul ʿasā an yahdiyani rabbī li-aqraba min hādhā rashadan",
-    "translation": "",
+    "translation": "Except [when adding], \"If Allāh wills.\" And remember your Lord when you forget [it] and say, \"Perhaps my Lord will guide me to what is nearer than this to right conduct.\"",
     "words": [
       {
         "id": "al-kahf-24-1",
@@ -2978,7 +3001,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "si tu n’ajoutes pas : « S’il plaît à Allah ! (inchâ’ Allah).» Évoque ton Seigneur lorsque tu viens à oublier et dis : « Puisse mon Seigneur me guider et me rapprocher de la voie la plus juste. »"
   },
   {
     "id": "al-kahf-25",
@@ -2987,7 +3011,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَبِثُوا۟ فِى كَهْفِهِمْ ثَلَـٰثَ مِا۟ئَةٍ سِنِينَ وَٱزْدَادُوا۟ تِسْعًا",
     "textSimple": "ولبثوا فى كهفهم ثلـث مائة سنين وٱزدادوا تسعا",
     "transliteration": "walabithū fī kahfihim thalātha mi-atin sinīna wa-iz'dādū tis'ʿan",
-    "translation": "",
+    "translation": "And they remained in their cave for three hundred years and exceeded by nine.",
     "words": [
       {
         "id": "al-kahf-25-1",
@@ -3046,7 +3070,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils demeurèrent dans leur Caverne trois cents ans et il s’en ajouta neuf."
   },
   {
     "id": "al-kahf-26",
@@ -3055,7 +3080,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱللَّهُ أَعْلَمُ بِمَا لَبِثُوا۟ ۖ لَهُۥ غَيْبُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ أَبْصِرْ بِهِۦ وَأَسْمِعْ ۚ مَا لَهُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا يُشْرِكُ فِى حُكْمِهِۦٓ أَحَدًا",
     "textSimple": "قل ٱلله أعلم بما لبثوا  له غيب ٱلسمـوت وٱلأرض  أبصر به وأسمع  ما لهم من دونه من ولى ولا يشرك فى حكمهٓ أحدا",
     "transliteration": "quli l-lahu aʿlamu bimā labithū lahu ghaybu l-samāwāti wal-arḍi abṣir bihi wa-asmiʿ mā lahum min dūnihi min waliyyin walā yush'riku fī ḥuk'mihi aḥadan",
-    "translation": "",
+    "translation": "Say, \"Allāh is most knowing of how long they remained. He has [knowledge of] the unseen [aspects] of the heavens and the earth. How Seeing is He and how Hearing! They have not besides Him any protector, and He shares not His legislation with anyone.\"",
     "words": [
       {
         "id": "al-kahf-26-1",
@@ -3219,7 +3244,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Allah Sait le mieux combien (de temps) ils y demeurèrent. À Lui Seul appartient l’Insondable mystère des cieux et de la terre. Car il n’est Vue plus claire ni Ouïe plus fine que les Siennes ! Ils n’ont nul allié en dehors de Lui Qui n’associe personne à Sa décision. »"
   },
   {
     "id": "al-kahf-27",
@@ -3228,7 +3254,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِن كِتَابِ رَبِّكَ ۖ لَا مُبَدِّلَ لِكَلِمَـٰتِهِۦ وَلَن تَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
     "textSimple": "وٱتل مآ أوحى إليك من كتاب ربك  لا مبدل لكلمـته ولن تجد من دونه ملتحدا",
     "transliteration": "wa-ut'lu mā ūḥiya ilayka min kitābi rabbika lā mubaddila likalimātihi walan tajida min dūnihi mul'taḥadan",
-    "translation": "",
+    "translation": "And recite, [O Muḥammad], what has been revealed to you of the Book of your Lord. There is no changer of His words, and never will you find in other than Him a refuge.",
     "words": [
       {
         "id": "al-kahf-27-1",
@@ -3336,7 +3362,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Récite ce qui t’a été révélé du Livre de ton Seigneur. Nul ne peut modifier Ses paroles et, en dehors de Lui, tu ne trouveras aucun refuge."
   },
   {
     "id": "al-kahf-28",
@@ -3345,7 +3372,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًا",
     "textSimple": "وٱصبر نفسك مع ٱلذين يدعون ربهم بٱلغدوة وٱلعشى يريدون وجهه  ولا تعد عيناك عنهم تريد زينة ٱلحيوة ٱلدنيا  ولا تطع من أغفلنا قلبه عن ذكرنا وٱتبع هوىه وكان أمره فرطا",
     "transliteration": "wa-iṣ'bir nafsaka maʿa alladhīna yadʿūna rabbahum bil-ghadati wal-ʿashiyi yurīdūna wajhahu walā taʿdu ʿaynāka ʿanhum turīdu zīnata l-ḥayati l-dun'yā walā tuṭiʿ man aghfalnā qalbahu ʿan dhik'rinā wa-ittabaʿa hawāhu wakāna amruhu furuṭan",
-    "translation": "",
+    "translation": "And keep yourself patient [by being] with those who call upon their Lord in the morning and the evening, seeking His face [i.e., acceptance]. And let not your eyes pass beyond them, desiring adornments of the worldly life, and do not obey one whose heart We have made heedless of Our remembrance and who follows his desire and whose affair is ever [in] neglect.",
     "words": [
       {
         "id": "al-kahf-28-1",
@@ -3558,7 +3585,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sois patient avec ceux qui invoquent leur Seigneur matin et soir, qui aspirent à voir (un jour) Sa face. Que tes yeux ne se détournent point d’eux pour se fixer sur le faux lustre de la vie en ce bas monde. N’obéis pas à celui dont Nous avons rendu le cœur trop insouciant pour se souvenir de Nous, qui a suivi ses propres désirs, et qui est tombé dans les travers de l’excès."
   },
   {
     "id": "al-kahf-29",
@@ -3567,7 +3595,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّـٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
     "textSimple": "وقل ٱلحق من ربكم  فمن شآء فليؤمن ومن شآء فليكفر  إنآ أعتدنا للظـلمين نارا أحاط بهم سرادقها  وإن يستغيثوا يغاثوا بمآء كٱلمهل يشوى ٱلوجوه  بئس ٱلشراب وسآءت مرتفقا",
     "transliteration": "waquli l-ḥaqu min rabbikum faman shāa falyu'min waman shāa falyakfur innā aʿtadnā lilẓẓālimīna nāran aḥāṭa bihim surādiquhā wa-in yastaghīthū yughāthū bimāin kal-muh'li yashwī l-wujūha bi'sa l-sharābu wasāat mur'tafaqan",
-    "translation": "",
+    "translation": "And say, \"The truth is from your Lord, so whoever wills - let him believe; and whoever wills - let him disbelieve.\" Indeed, We have prepared for the wrongdoers a fire whose walls will surround them. And if they call for relief, they will be relieved with water like murky oil, which scalds [their] faces. Wretched is the drink, and evil is the resting place.",
     "words": [
       {
         "id": "al-kahf-29-1",
@@ -3766,7 +3794,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « La vérité vient de votre Seigneur. » Croira donc qui voudra et mécroira qui voudra. Nous avons préparé aux injustes un Feu dont les flammes les cerneront de tous côtés. S’ils supplient qu’on leur donne à boire, ils seront abreuvés d’une eau bouillante comme de l’airain en fusion, qui calcine les visages. Quelle horrible boisson que la leur, et quelle affreuse demeure !"
   },
   {
     "id": "al-kahf-30",
@@ -3775,7 +3804,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلًا",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت إنا لا نضيع أجر من أحسن عملا",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti innā lā nuḍīʿu ajra man aḥsana ʿamalan",
-    "translation": "",
+    "translation": "Indeed, those who have believed and done righteous deeds - indeed, We will not allow to be lost the reward of any who did well in deeds.",
     "words": [
       {
         "id": "al-kahf-30-1",
@@ -3862,7 +3891,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui croient et accomplissent les bonnes œuvres (doivent savoir que) Nous ne laissons pas se perdre la récompense de quiconque fait le bien."
   },
   {
     "id": "al-kahf-31",
@@ -3871,7 +3901,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ لَهُمْ جَنَّـٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَـٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا",
     "textSimple": "أولـٓئك لهم جنـت عدن تجرى من تحتهم ٱلأنهـر يحلون فيها من أساور من ذهب ويلبسون ثيابا خضرا من سندس وإستبرق متكـٔين فيها على ٱلأرآئك  نعم ٱلثواب وحسنت مرتفقا",
     "transliteration": "ulāika lahum jannātu ʿadnin tajrī min taḥtihimu l-anhāru yuḥallawna fīhā min asāwira min dhahabin wayalbasūna thiyāban khuḍ'ran min sundusin wa-is'tabraqin muttakiīna fīhā ʿalā l-arāiki niʿ'ma l-thawābu waḥasunat mur'tafaqan",
-    "translation": "",
+    "translation": "Those will have gardens of perpetual residence; beneath them rivers will flow. They will be adorned therein with bracelets of gold and will wear green garments of fine silk and brocade, reclining therein on adorned couches. Excellent is the reward, and good is the resting place.",
     "words": [
       {
         "id": "al-kahf-31-1",
@@ -4070,7 +4100,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là auront des Jardins d’Éden où couleront à leurs pieds les rivières. Ils y seront parés de bracelets d’or et porteront des vêtements verts en soie fine ou en brocart. Ils seront accoudés sur des trônes. Quelle admirable récompense que la leur et quelle superbe demeure !"
   },
   {
     "id": "al-kahf-32",
@@ -4079,7 +4110,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَـٰبٍ وَحَفَفْنَـٰهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا",
     "textSimple": " وٱضرب لهم مثلا رجلين جعلنا لأحدهما جنتين من أعنـب وحففنـهما بنخل وجعلنا بينهما زرعا",
     "transliteration": "wa-iḍ'rib lahum mathalan rajulayni jaʿalnā li-aḥadihimā jannatayni min aʿnābin waḥafafnāhumā binakhlin wajaʿalnā baynahumā zarʿan",
-    "translation": "",
+    "translation": "And present to them an example of two men: We granted to one of them two gardens of grapevines, and We bordered them with palm trees and placed between them [fields of] crops.",
     "words": [
       {
         "id": "al-kahf-32-1",
@@ -4180,7 +4211,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Donne-leur donc en exemple (l’histoire) des deux hommes. À l’un Nous avons donné deux jardins plantés de vignes et bordés de palmiers. Entre les deux (jardins), Nous avons ménagé un champ cultivé (de céréales)."
   },
   {
     "id": "al-kahf-33",
@@ -4189,7 +4221,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "كِلْتَا ٱلْجَنَّتَيْنِ ءَاتَتْ أُكُلَهَا وَلَمْ تَظْلِم مِّنْهُ شَيْـًٔا ۚ وَفَجَّرْنَا خِلَـٰلَهُمَا نَهَرًا",
     "textSimple": "كلتا ٱلجنتين ءاتت أكلها ولم تظلم منه شيـٔا  وفجرنا خلـلهما نهرا",
     "transliteration": "kil'tā l-janatayni ātat ukulahā walam taẓlim min'hu shayan wafajjarnā khilālahumā naharan",
-    "translation": "",
+    "translation": "Each of the two gardens produced its fruit and did not fall short thereof in anything. And We caused to gush forth within them a river.",
     "words": [
       {
         "id": "al-kahf-33-1",
@@ -4269,7 +4301,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les deux jardins donnaient chacun sa production régulière sans jamais y faillir. Et Nous avons fait jaillir entre eux une rivière."
   },
   {
     "id": "al-kahf-34",
@@ -4278,7 +4311,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَانَ لَهُۥ ثَمَرٌ فَقَالَ لِصَـٰحِبِهِۦ وَهُوَ يُحَاوِرُهُۥٓ أَنَا۠ أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا",
     "textSimple": "وكان له ثمر فقال لصـحبه وهو يحاورهٓ أنا أكثر منك مالا وأعز نفرا",
     "transliteration": "wakāna lahu thamarun faqāla liṣāḥibihi wahuwa yuḥāwiruhu anā aktharu minka mālan wa-aʿazzu nafaran",
-    "translation": "",
+    "translation": "And he had fruit, so he said to his companion while he was conversing with him, \"I am greater than you in wealth and mightier in [numbers of] men.\"",
     "words": [
       {
         "id": "al-kahf-34-1",
@@ -4372,7 +4405,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comme il avait (beaucoup de) fruits, (le propriétaire des deux jardins) dit à son compagnon lors d’une conversation avec lui : « Je possède bien plus de richesses que toi et te surpasse en puissance grâce à mon clan. »"
   },
   {
     "id": "al-kahf-35",
@@ -4381,7 +4415,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَدَخَلَ جَنَّتَهُۥ وَهُوَ ظَالِمٌ لِّنَفْسِهِۦ قَالَ مَآ أَظُنُّ أَن تَبِيدَ هَـٰذِهِۦٓ أَبَدًا",
     "textSimple": "ودخل جنته وهو ظالم لنفسه قال مآ أظن أن تبيد هـذهٓ أبدا",
     "transliteration": "wadakhala jannatahu wahuwa ẓālimun linafsihi qāla mā aẓunnu an tabīda hādhihi abadan",
-    "translation": "",
+    "translation": "And he entered his garden while he was unjust to himself. He said, \"I do not think that this will perish - ever.",
     "words": [
       {
         "id": "al-kahf-35-1",
@@ -4468,7 +4502,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il entra dans son jardin, injuste envers lui-même (par son comportement), et dit : « Je ne pense pas que (tout) ceci puisse périr jamais !"
   },
   {
     "id": "al-kahf-36",
@@ -4477,7 +4512,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةً وَلَئِن رُّدِدتُّ إِلَىٰ رَبِّى لَأَجِدَنَّ خَيْرًا مِّنْهَا مُنقَلَبًا",
     "textSimple": "ومآ أظن ٱلساعة قآئمة ولئن رددت إلى ربى لأجدن خيرا منها منقلبا",
     "transliteration": "wamā aẓunnu l-sāʿata qāimatan wala-in rudidttu ilā rabbī la-ajidanna khayran min'hā munqalaban",
-    "translation": "",
+    "translation": "And I do not think the Hour will occur. And even if I should be brought back to my Lord, I will surely find better than this as a return.\"",
     "words": [
       {
         "id": "al-kahf-36-1",
@@ -4564,7 +4599,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et je ne pense pas que l’Heure doive venir ; et quand bien même je retournerais vers mon Seigneur, je trouverais certes bien meilleur lieu de retour que (ce jardin). »"
   },
   {
     "id": "al-kahf-37",
@@ -4573,7 +4609,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ يُحَاوِرُهُۥٓ أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ سَوَّىٰكَ رَجُلًا",
     "textSimple": "قال له صاحبه وهو يحاورهٓ أكفرت بٱلذى خلقك من تراب ثم من نطفة ثم سوىك رجلا",
     "transliteration": "qāla lahu ṣāḥibuhu wahuwa yuḥāwiruhu akafarta bi-alladhī khalaqaka min turābin thumma min nuṭ'fatin thumma sawwāka rajulan",
-    "translation": "",
+    "translation": "His companion said to him while he was conversing with him, \"Have you disbelieved in He who created you from dust and then from a sperm-drop and then proportioned you [as] a man?",
     "words": [
       {
         "id": "al-kahf-37-1",
@@ -4688,7 +4724,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son compagnon lui dit alors, en discutant avec lui : « Serais-tu en train de mécroire en Celui Qui t’a créé de terre, puis d’une goutte de sperme et t’a, ensuite, modelé en homme ?"
   },
   {
     "id": "al-kahf-38",
@@ -4697,7 +4734,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "لَّـٰكِنَّا۠ هُوَ ٱللَّهُ رَبِّى وَلَآ أُشْرِكُ بِرَبِّىٓ أَحَدًا",
     "textSimple": "لـكنا هو ٱلله ربى ولآ أشرك بربىٓ أحدا",
     "transliteration": "lākinnā huwa l-lahu rabbī walā ush'riku birabbī aḥadan",
-    "translation": "",
+    "translation": "But as for me, He is Allāh, my Lord, and I do not associate with my Lord anyone.",
     "words": [
       {
         "id": "al-kahf-38-1",
@@ -4756,7 +4793,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or mon Seigneur à moi c’est Allah, et à mon Seigneur je ne prête aucun associé."
   },
   {
     "id": "al-kahf-39",
@@ -4765,7 +4803,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَآ إِذْ دَخَلْتَ جَنَّتَكَ قُلْتَ مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِ ۚ إِن تَرَنِ أَنَا۠ أَقَلَّ مِنكَ مَالًا وَوَلَدًا",
     "textSimple": "ولولآ إذ دخلت جنتك قلت ما شآء ٱلله لا قوة إلا بٱلله  إن ترن أنا أقل منك مالا وولدا",
     "transliteration": "walawlā idh dakhalta jannataka qul'ta mā shāa l-lahu lā quwwata illā bil-lahi in tarani anā aqalla minka mālan wawaladan",
-    "translation": "",
+    "translation": "And why did you, when you entered your garden, not say, 'What Allāh willed [has occurred]; there is no power except in Allāh'? Although you see me less than you in wealth and children,",
     "words": [
       {
         "id": "al-kahf-39-1",
@@ -4901,7 +4939,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourquoi, en entrant dans ton jardin, ne dirais-tu pas plutôt : “ Telle est la volonté d’Allah, il n’y a de force que par Allah.” Si tu vois que je suis moins nanti que toi en biens et en progéniture,"
   },
   {
     "id": "al-kahf-40",
@@ -4910,7 +4949,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًا زَلَقًا",
     "textSimple": "فعسى ربىٓ أن يؤتين خيرا من جنتك ويرسل عليها حسبانا من ٱلسمآء فتصبح صعيدا زلقا",
     "transliteration": "faʿasā rabbī an yu'tiyani khayran min jannatika wayur'sila ʿalayhā ḥus'bānan mina l-samāi fatuṣ'biḥa ṣaʿīdan zalaqan",
-    "translation": "",
+    "translation": "It may be that my Lord will give me [something] better than your garden and will send upon it a [disastrous] penalty from the sky, and it will become a smooth, dusty ground,",
     "words": [
       {
         "id": "al-kahf-40-1",
@@ -5018,7 +5057,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il se peut que mon Seigneur me donne (un jour) mieux que ton jardin, et envoie du ciel sur (le tien) quelque fléau qui le réduise en terre glissante et inculte,"
   },
   {
     "id": "al-kahf-41",
@@ -5027,7 +5067,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يُصْبِحَ مَآؤُهَا غَوْرًا فَلَن تَسْتَطِيعَ لَهُۥ طَلَبًا",
     "textSimple": "أو يصبح مآؤها غورا فلن تستطيع له طلبا",
     "transliteration": "aw yuṣ'biḥa māuhā ghawran falan tastaṭīʿa lahu ṭalaban",
-    "translation": "",
+    "translation": "Or its water will become sunken [into the earth], so you would never be able to seek it.\"",
     "words": [
       {
         "id": "al-kahf-41-1",
@@ -5086,7 +5126,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou que son eau soit retenue dans les profondeurs (de la terre) si bien que tu ne pourras plus la puiser. »"
   },
   {
     "id": "al-kahf-42",
@@ -5095,7 +5136,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَأُحِيطَ بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَـٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًا",
     "textSimple": "وأحيط بثمره فأصبح يقلب كفيه على مآ أنفق فيها وهى خاوية على عروشها ويقول يـليتنى لم أشرك بربىٓ أحدا",
     "transliteration": "wa-uḥīṭa bithamarihi fa-aṣbaḥa yuqallibu kaffayhi ʿalā mā anfaqa fīhā wahiya khāwiyatun ʿalā ʿurūshihā wayaqūlu yālaytanī lam ush'rik birabbī aḥadan",
-    "translation": "",
+    "translation": "And his fruits were encompassed [by ruin], so he began to turn his hands about [in dismay] over what he had spent on it, while it had collapsed upon its trellises, and said, \"Oh, I wish I had not associated with my Lord anyone.\"",
     "words": [
       {
         "id": "al-kahf-42-1",
@@ -5231,7 +5272,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et sa récolte fut ravagée. Il se mit alors à tourner et retourner ses mains regrettant les dépenses qu’il avait effectuées, cependant que les treilles (de son jardin) avaient été complètement détruites. Il disait : « Comme je voudrais, hélas, n’avoir jamais associé personne à mon Seigneur ! »"
   },
   {
     "id": "al-kahf-43",
@@ -5240,7 +5282,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمْ تَكُن لَّهُۥ فِئَةٌ يَنصُرُونَهُۥ مِن دُونِ ٱللَّهِ وَمَا كَانَ مُنتَصِرًا",
     "textSimple": "ولم تكن له فئة ينصرونه من دون ٱلله وما كان منتصرا",
     "transliteration": "walam takun lahu fi-atun yanṣurūnahu min dūni l-lahi wamā kāna muntaṣiran",
-    "translation": "",
+    "translation": "And there was for him no company to aid him other than Allāh, nor could he defend himself.",
     "words": [
       {
         "id": "al-kahf-43-1",
@@ -5320,7 +5362,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’avait aucun clan qui pût le secourir contre (le châtiment) d’Allah, et il ne pouvait lui-même se secourir."
   },
   {
     "id": "al-kahf-44",
@@ -5329,7 +5372,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "هُنَالِكَ ٱلْوَلَـٰيَةُ لِلَّهِ ٱلْحَقِّ ۚ هُوَ خَيْرٌ ثَوَابًا وَخَيْرٌ عُقْبًا",
     "textSimple": "هنالك ٱلولـية لله ٱلحق  هو خير ثوابا وخير عقبا",
     "transliteration": "hunālika l-walāyatu lillahi l-ḥaqi huwa khayrun thawāban wakhayrun ʿuq'ban",
-    "translation": "",
+    "translation": "There the authority is [completely] for Allāh, the Truth. He is best in reward and best in outcome.",
     "words": [
       {
         "id": "al-kahf-44-1",
@@ -5395,7 +5438,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car alors, la protection n’appartient qu’à Allah, le Vrai. C’est Lui Qui donne la meilleure récompense et assure la meilleure issue."
   },
   {
     "id": "al-kahf-45",
@@ -5404,7 +5448,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَـٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَـٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
     "textSimple": "وٱضرب لهم مثل ٱلحيوة ٱلدنيا كمآء أنزلنـه من ٱلسمآء فٱختلط به نبات ٱلأرض فأصبح هشيما تذروه ٱلريـح  وكان ٱلله على كل شىء مقتدرا",
     "transliteration": "wa-iḍ'rib lahum mathala l-ḥayati l-dun'yā kamāin anzalnāhu mina l-samāi fa-ikh'talaṭa bihi nabātu l-arḍi fa-aṣbaḥa hashīman tadhrūhu l-riyāḥu wakāna l-lahu ʿalā kulli shayin muq'tadiran",
-    "translation": "",
+    "translation": "And present to them the example of the life of this world, [its being] like rain which We send down from the sky, and the vegetation of the earth mingles with it and [then] it becomes dry remnants, scattered by the winds. And Allāh is ever, over all things, Perfect in Ability.",
     "words": [
       {
         "id": "al-kahf-45-1",
@@ -5568,7 +5612,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Donne-leur en exemple la vie en ce bas monde. Elle est telle une eau que Nous faisons descendre du ciel et à laquelle se mêlent les plantes de la terre, lesquelles se transforment alors en herbes sèches dispersées par le vent. Car Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-kahf-46",
@@ -5577,7 +5622,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْمَالُ وَٱلْبَنُونَ زِينَةُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱلْبَـٰقِيَـٰتُ ٱلصَّـٰلِحَـٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ أَمَلًا",
     "textSimple": "ٱلمال وٱلبنون زينة ٱلحيوة ٱلدنيا  وٱلبـقيـت ٱلصـلحـت خير عند ربك ثوابا وخير أملا",
     "transliteration": "al-mālu wal-banūna zīnatu l-ḥayati l-dun'yā wal-bāqiyātu l-ṣāliḥātu khayrun ʿinda rabbika thawāban wakhayrun amalan",
-    "translation": "",
+    "translation": "Wealth and children are [but] adornment of the worldly life. But the enduring good deeds are better to your Lord for reward and better for [one's] hope.",
     "words": [
       {
         "id": "al-kahf-46-1",
@@ -5671,7 +5716,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Biens et enfants sont la parure de la vie en ce bas monde. Mais les bonnes œuvres, qui sont faites pour durer, sont mieux récompensées auprès de ton Seigneur et promises à une meilleure espérance."
   },
   {
     "id": "al-kahf-47",
@@ -5680,7 +5726,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةً وَحَشَرْنَـٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًا",
     "textSimple": "ويوم نسير ٱلجبال وترى ٱلأرض بارزة وحشرنـهم فلم نغادر منهم أحدا",
     "transliteration": "wayawma nusayyiru l-jibāla watarā l-arḍa bārizatan waḥasharnāhum falam nughādir min'hum aḥadan",
-    "translation": "",
+    "translation": "And [warn of] the Day when We will remove the mountains and you will see the earth exposed, and We will gather them and not leave behind from them anyone.",
     "words": [
       {
         "id": "al-kahf-47-1",
@@ -5760,7 +5806,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Nous ferons mouvoir les montagnes et où tu verras la terre toute nivelée, Nous les ramènerons en foule sans en laisser un seul."
   },
   {
     "id": "al-kahf-48",
@@ -5769,7 +5816,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَـٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
     "textSimple": "وعرضوا على ربك صفا لقد جئتمونا كما خلقنـكم أول مرة  بل زعمتم ألن نجعل لكم موعدا",
     "transliteration": "waʿuriḍū ʿalā rabbika ṣaffan laqad ji'tumūnā kamā khalaqnākum awwala marratin bal zaʿamtum allan najʿala lakum mawʿidan",
-    "translation": "",
+    "translation": "And they will be presented before your Lord in rows, [and He will say], \"You have certainly come to Us just as We created you the first time. But you claimed that We would never make for you an appointment.\"",
     "words": [
       {
         "id": "al-kahf-48-1",
@@ -5884,7 +5931,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront présentés devant ton Seigneur en rangs. « Voici que vous Nous revenez comme Nous vous avons créés la première fois. Et pourtant vous prétendiez que Nous ne vous avions pas fixé un moment de rencontre. »"
   },
   {
     "id": "al-kahf-49",
@@ -5893,7 +5941,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَوُضِعَ ٱلْكِتَـٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَـٰوَيْلَتَنَا مَالِ هَـٰذَا ٱلْكِتَـٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًا",
     "textSimple": "ووضع ٱلكتـب فترى ٱلمجرمين مشفقين مما فيه ويقولون يـويلتنا مال هـذا ٱلكتـب لا يغادر صغيرة ولا كبيرة إلآ أحصىها  ووجدوا ما عملوا حاضرا  ولا يظلم ربك أحدا",
     "transliteration": "wawuḍiʿa l-kitābu fatarā l-muj'rimīna mush'fiqīna mimmā fīhi wayaqūlūna yāwaylatanā māli hādhā l-kitābi lā yughādiru ṣaghīratan walā kabīratan illā aḥṣāhā wawajadū mā ʿamilū ḥāḍiran walā yaẓlimu rabbuka aḥadan",
-    "translation": "",
+    "translation": "And the record [of deeds] will be placed [open], and you will see the criminals fearful of that within it, and they will say, \"Oh, woe to us! What is this book that leaves nothing small or great except that it has enumerated it?\" And they will find what they did present [before them]. And your Lord does injustice to no one.",
     "words": [
       {
         "id": "al-kahf-49-1",
@@ -6085,7 +6133,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le livre (des œuvres de chacun) sera alors posé (dans sa main). Tu verras les criminels terrifiés de ce qui y est (inscrit) et ils s’écrieront : « Malheur à nous ! Qu’est-ce donc que ce livre qui n’omet de compter ni péché mineur ni péché majeur ? » Ils trouveront présent tout ce qu’ils auront fait, car ton Seigneur ne lèse personne."
   },
   {
     "id": "al-kahf-50",
@@ -6094,7 +6143,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ كَانَ مِنَ ٱلْجِنِّ فَفَسَقَ عَنْ أَمْرِ رَبِّهِۦٓ ۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى وَهُمْ لَكُمْ عَدُوٌّۢ ۚ بِئْسَ لِلظَّـٰلِمِينَ بَدَلًا",
     "textSimple": "وإذ قلنا للملـٓئكة ٱسجدوا لـٔادم فسجدوٓا إلآ إبليس كان من ٱلجن ففسق عن أمر ربهٓ  أفتتخذونه وذريتهٓ أوليآء من دونى وهم لكم عدو  بئس للظـلمين بدلا",
     "transliteration": "wa-idh qul'nā lil'malāikati us'judū liādama fasajadū illā ib'līsa kāna mina l-jini fafasaqa ʿan amri rabbihi afatattakhidhūnahu wadhurriyyatahu awliyāa min dūnī wahum lakum ʿaduwwun bi'sa lilẓẓālimīna badalan",
-    "translation": "",
+    "translation": "And [mention] when We said to the angels, \"Prostrate to Adam,\" and they prostrated, except for Iblees. He was of the jinn and departed from [i.e., disobeyed] the command of his Lord. Then will you take him and his descendants as allies other than Me while they are enemies to you? Wretched it is for the wrongdoers as an exchange.",
     "words": [
       {
         "id": "al-kahf-50-1",
@@ -6279,7 +6328,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Rappelle-toi) lorsque Nous dîmes aux Anges : « Prosternez-vous devant Adam », et qu’ils se prosternèrent, sauf Iblîs, qui était issu des djinns et qui s’éleva contre l’ordre de son Seigneur. Le prendriez-vous, lui et sa descendance, pour alliés en dehors de Moi, quand pourtant ils sont vos ennemis ? Quel abominable échange pour les injustes !"
   },
   {
     "id": "al-kahf-51",
@@ -6288,7 +6338,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "۞ مَّآ أَشْهَدتُّهُمْ خَلْقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلَا خَلْقَ أَنفُسِهِمْ وَمَا كُنتُ مُتَّخِذَ ٱلْمُضِلِّينَ عَضُدًا",
     "textSimple": " مآ أشهدتهم خلق ٱلسمـوت وٱلأرض ولا خلق أنفسهم وما كنت متخذ ٱلمضلين عضدا",
     "transliteration": "mā ashhadttuhum khalqa l-samāwāti wal-arḍi walā khalqa anfusihim wamā kuntu muttakhidha l-muḍilīna ʿaḍudan",
-    "translation": "",
+    "translation": "I did not make them witness to the creation of the heavens and the earth or to the creation of themselves, and I would not have taken the misguiders as assistants.",
     "words": [
       {
         "id": "al-kahf-51-1",
@@ -6382,7 +6432,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je n’en ai jamais appelé à eux pour qu’ils témoignent de la création des cieux et de la terre, ni pour qu’ils témoignent de leur propre création. Et Je n’ai pas pris pour assistants les tentateurs."
   },
   {
     "id": "al-kahf-52",
@@ -6391,7 +6442,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًا",
     "textSimple": "ويوم يقول نادوا شركآءى ٱلذين زعمتم فدعوهم فلم يستجيبوا لهم وجعلنا بينهم موبقا",
     "transliteration": "wayawma yaqūlu nādū shurakāiya alladhīna zaʿamtum fadaʿawhum falam yastajībū lahum wajaʿalnā baynahum mawbiqan",
-    "translation": "",
+    "translation": "And [warn of] the Day when He will say, \"Call My 'partners' whom you claimed,\" and they will invoke them, but they will not respond to them. And We will put between them [a valley of] destruction.",
     "words": [
       {
         "id": "al-kahf-52-1",
@@ -6485,7 +6536,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un jour, Il dira : « Appelez donc ces prétendus associés que vous Me prêtiez. » Ils les appelleront alors, mais ces derniers ne leur répondront pas. C’est que Nous aurons placé entre eux un abîme où périr."
   },
   {
     "id": "al-kahf-53",
@@ -6494,7 +6546,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَرَءَا ٱلْمُجْرِمُونَ ٱلنَّارَ فَظَنُّوٓا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمْ يَجِدُوا۟ عَنْهَا مَصْرِفًا",
     "textSimple": "ورءا ٱلمجرمون ٱلنار فظنوٓا أنهم مواقعوها ولم يجدوا عنها مصرفا",
     "transliteration": "waraā l-muj'rimūna l-nāra faẓannū annahum muwāqiʿūhā walam yajidū ʿanhā maṣrifan",
-    "translation": "",
+    "translation": "And the criminals will see the Fire and will be certain that they are to fall therein. And they will not find from it a way elsewhere.",
     "words": [
       {
         "id": "al-kahf-53-1",
@@ -6567,7 +6619,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les criminels verront le Feu et sauront qu’ils y seront précipités. Ils ne trouveront alors aucun moyen pour y échapper."
   },
   {
     "id": "al-kahf-54",
@@ -6576,7 +6629,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَرَّفْنَا فِى هَـٰذَا ٱلْقُرْءَانِ لِلنَّاسِ مِن كُلِّ مَثَلٍ ۚ وَكَانَ ٱلْإِنسَـٰنُ أَكْثَرَ شَىْءٍ جَدَلًا",
     "textSimple": "ولقد صرفنا فى هـذا ٱلقرءان للناس من كل مثل  وكان ٱلإنسـن أكثر شىء جدلا",
     "transliteration": "walaqad ṣarrafnā fī hādhā l-qur'āni lilnnāsi min kulli mathalin wakāna l-insānu akthara shayin jadalan",
-    "translation": "",
+    "translation": "And We have certainly diversified in this Qur’ān for the people from every [kind of] example; but man has ever been, most of anything, [prone to] dispute.",
     "words": [
       {
         "id": "al-kahf-54-1",
@@ -6677,7 +6730,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons détaillé dans ce Coran divers exemples. Mais l’homme est, de toutes choses, le plus porté à la querelle."
   },
   {
     "id": "al-kahf-55",
@@ -6686,7 +6740,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ سُنَّةُ ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًا",
     "textSimple": "وما منع ٱلناس أن يؤمنوٓا إذ جآءهم ٱلهدى ويستغفروا ربهم إلآ أن تأتيهم سنة ٱلأولين أو يأتيهم ٱلعذاب قبلا",
     "transliteration": "wamā manaʿa l-nāsa an yu'minū idh jāahumu l-hudā wayastaghfirū rabbahum illā an tatiyahum sunnatu l-awalīna aw yatiyahumu l-ʿadhābu qubulan",
-    "translation": "",
+    "translation": "And nothing has prevented the people from believing when guidance came to them and from asking forgiveness of their Lord except that there [must] befall them the [accustomed] precedent of the former peoples or that the punishment should come [directly] before them.",
     "words": [
       {
         "id": "al-kahf-55-1",
@@ -6822,7 +6876,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’est-ce donc qui empêche les hommes de croire quand la bonne direction (hudâ) leur est venue ? (Et qu’est-ce donc qui les empêche) d’implorer le pardon de leur Seigneur, sinon qu’ils attendent d’être exposés au même sort que les premiers (peuples), ou voir fondre sur eux le châtiment ?"
   },
   {
     "id": "al-kahf-56",
@@ -6831,7 +6886,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۚ وَيُجَـٰدِلُ ٱلَّذِينَ كَفَرُوا۟ بِٱلْبَـٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ ۖ وَٱتَّخَذُوٓا۟ ءَايَـٰتِى وَمَآ أُنذِرُوا۟ هُزُوًا",
     "textSimple": "وما نرسل ٱلمرسلين إلا مبشرين ومنذرين  ويجـدل ٱلذين كفروا بٱلبـطل ليدحضوا به ٱلحق  وٱتخذوٓا ءايـتى ومآ أنذروا هزوا",
     "transliteration": "wamā nur'silu l-mur'salīna illā mubashirīna wamundhirīna wayujādilu alladhīna kafarū bil-bāṭili liyud'ḥiḍū bihi l-ḥaqa wa-ittakhadhū āyātī wamā undhirū huzuwan",
-    "translation": "",
+    "translation": "And We send not the messengers except as bringers of good tidings and warners. And those who disbelieve dispute by [using] falsehood to [attempt to] invalidate thereby the truth and have taken My verses, and that of which they are warned, in ridicule.",
     "words": [
       {
         "id": "al-kahf-56-1",
@@ -6960,7 +7015,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’envoyons les Messagers que pour annoncer (l’heureuse nouvelle) ou avertir. Mais ceux qui ont mécru disputent encore pour réfuter la vérité, mobilisant maints arguments faux. Ils tournent en dérision Mes versets et les avertissements qui leur sont adressés."
   },
   {
     "id": "al-kahf-57",
@@ -6969,7 +7025,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَـٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا",
     "textSimple": "ومن أظلم ممن ذكر بـٔايـت ربه فأعرض عنها ونسى ما قدمت يداه  إنا جعلنا على قلوبهم أكنة أن يفقهوه وفىٓ ءاذانهم وقرا  وإن تدعهم إلى ٱلهدى فلن يهتدوٓا إذا أبدا",
     "transliteration": "waman aẓlamu mimman dhukkira biāyāti rabbihi fa-aʿraḍa ʿanhā wanasiya mā qaddamat yadāhu innā jaʿalnā ʿalā qulūbihim akinnatan an yafqahūhu wafī ādhānihim waqran wa-in tadʿuhum ilā l-hudā falan yahtadū idhan abadan",
-    "translation": "",
+    "translation": "And who is more unjust than one who is reminded of the verses of his Lord but turns away from them and forgets what his hands have put forth? Indeed, We have placed over their hearts coverings, lest they understand it, and in their ears deafness. And if you invite them to guidance - they will never be guided, then - ever.",
     "words": [
       {
         "id": "al-kahf-57-1",
@@ -7182,7 +7238,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui, bien que Nos Signes lui aient été rappelés, s’en détourne et oublie ce que ses mains ont commis ? Nous avons enveloppé leurs cœurs de voiles et rendu dures leurs oreilles pour qu’ils ne le comprennent pas. Quand bien même tu les appellerais à (s’engager dans) la bonne direction, ils ne voudraient jamais y être guidés."
   },
   {
     "id": "al-kahf-58",
@@ -7191,7 +7248,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًا",
     "textSimple": "وربك ٱلغفور ذو ٱلرحمة  لو يؤاخذهم بما كسبوا لعجل لهم ٱلعذاب  بل لهم موعد لن يجدوا من دونه موئلا",
     "transliteration": "warabbuka l-ghafūru dhū l-raḥmati law yuākhidhuhum bimā kasabū laʿajjala lahumu l-ʿadhāba bal lahum mawʿidun lan yajidū min dūnihi mawilan",
-    "translation": "",
+    "translation": "And your Lord is the Forgiving, the possessor of mercy. If He were to impose blame upon them for what they earned, He would have hastened for them the punishment. Rather, for them is an appointment from which they will never find an escape.",
     "words": [
       {
         "id": "al-kahf-58-1",
@@ -7327,7 +7384,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur, l’Absoluteur, Qui a fait Sienne la Miséricorde, s’Il voulait leur tenir rigueur pour ce qu’ils ont commis, Il hâterait pour eux le supplice. Or leur est déjà fixé un instant de rencontre, d’où il n’y aura pour eux nulle échappatoire."
   },
   {
     "id": "al-kahf-59",
@@ -7336,7 +7394,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَتِلْكَ ٱلْقُرَىٰٓ أَهْلَكْنَـٰهُمْ لَمَّا ظَلَمُوا۟ وَجَعَلْنَا لِمَهْلِكِهِم مَّوْعِدًا",
     "textSimple": "وتلك ٱلقرىٓ أهلكنـهم لما ظلموا وجعلنا لمهلكهم موعدا",
     "transliteration": "watil'ka l-qurā ahlaknāhum lammā ẓalamū wajaʿalnā limahlikihim mawʿidan",
-    "translation": "",
+    "translation": "And those cities - We destroyed them when they wronged, and We made for their destruction an appointed time.",
     "words": [
       {
         "id": "al-kahf-59-1",
@@ -7395,7 +7453,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de cités n’avons-Nous pas anéanties lorsque (leurs habitants) ont été injustes ; et Nous avons fixé l’instant de leur destruction."
   },
   {
     "id": "al-kahf-60",
@@ -7404,7 +7463,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ حُقُبًا",
     "textSimple": "وإذ قال موسى لفتىه لآ أبرح حتىٓ أبلغ مجمع ٱلبحرين أو أمضى حقبا",
     "transliteration": "wa-idh qāla mūsā lifatāhu lā abraḥu ḥattā ablugha majmaʿa l-baḥrayni aw amḍiya ḥuquban",
-    "translation": "",
+    "translation": "And [mention] when Moses said to his boy [i.e., servant], \"I will not cease [traveling] until I reach the junction of the two seas or continue for a long period.\"",
     "words": [
       {
         "id": "al-kahf-60-1",
@@ -7498,7 +7557,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi aussi) quand Moïse dit à son servant : « Je ne m’arrêterais (de marcher) qu’une fois arrivé au confluent des deux mers, même si je devais continuer (à le faire) pendant de longues années. »"
   },
   {
     "id": "al-kahf-61",
@@ -7507,7 +7567,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ سَرَبًا",
     "textSimple": "فلما بلغا مجمع بينهما نسيا حوتهما فٱتخذ سبيله فى ٱلبحر سربا",
     "transliteration": "falammā balaghā majmaʿa baynihimā nasiyā ḥūtahumā fa-ittakhadha sabīlahu fī l-baḥri saraban",
-    "translation": "",
+    "translation": "But when they reached the junction between them, they forgot their fish, and it took its course into the sea, slipping away.",
     "words": [
       {
         "id": "al-kahf-61-1",
@@ -7587,7 +7647,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils furent arrivés au confluent, ils oublièrent leur poisson et celui-ci se fraya son chemin dans la mer."
   },
   {
     "id": "al-kahf-62",
@@ -7596,7 +7657,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ ءَاتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَـٰذَا نَصَبًا",
     "textSimple": "فلما جاوزا قال لفتىه ءاتنا غدآءنا لقد لقينا من سفرنا هـذا نصبا",
     "transliteration": "falammā jāwazā qāla lifatāhu ātinā ghadāanā laqad laqīnā min safarinā hādhā naṣaban",
-    "translation": "",
+    "translation": "So when they had passed beyond it, [Moses] said to his boy, \"Bring us our morning meal. We have certainly suffered in this, our journey, [much] fatigue.\"",
     "words": [
       {
         "id": "al-kahf-62-1",
@@ -7683,7 +7744,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils eurent dépassé (le confluent), il dit à son servant : « Sers-nous notre déjeuner. Notre voyage nous a vraiment épuisés. »"
   },
   {
     "id": "al-kahf-63",
@@ -7692,7 +7754,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَرَءَيْتَ إِذْ أَوَيْنَآ إِلَى ٱلصَّخْرَةِ فَإِنِّى نَسِيتُ ٱلْحُوتَ وَمَآ أَنسَىٰنِيهُ إِلَّا ٱلشَّيْطَـٰنُ أَنْ أَذْكُرَهُۥ ۚ وَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ عَجَبًا",
     "textSimple": "قال أرءيت إذ أوينآ إلى ٱلصخرة فإنى نسيت ٱلحوت ومآ أنسىنيه إلا ٱلشيطـن أن أذكره  وٱتخذ سبيله فى ٱلبحر عجبا",
     "transliteration": "qāla ara-ayta idh awaynā ilā l-ṣakhrati fa-innī nasītu l-ḥūta wamā ansānīhu illā l-shayṭānu an adhkurahu wa-ittakhadha sabīlahu fī l-baḥri ʿajaban",
-    "translation": "",
+    "translation": "He said, \"Did you see when we retired to the rock? Indeed, I forgot [there] the fish. And none made me forget it except Satan - that I should mention it. And it took its course into the sea amazingly.\"",
     "words": [
       {
         "id": "al-kahf-63-1",
@@ -7835,7 +7897,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « Lorsque nous avons fait halte près du rocher, vois-tu, j’ai oublié le poisson. Seul Satan a dû me le faire oublier et ne point me le rappeler et, chose étonnante, il s’est frayé son chemin dans la mer. »"
   },
   {
     "id": "al-kahf-64",
@@ -7844,7 +7907,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ ءَاثَارِهِمَا قَصَصًا",
     "textSimple": "قال ذلك ما كنا نبغ  فٱرتدا علىٓ ءاثارهما قصصا",
     "transliteration": "qāla dhālika mā kunnā nabghi fa-ir'taddā ʿalā āthārihimā qaṣaṣan",
-    "translation": "",
+    "translation": "[Moses] said, \"That is what we were seeking.\" So they returned, following their footprints.",
     "words": [
       {
         "id": "al-kahf-64-1",
@@ -7910,7 +7973,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Moïse) dit : « C’est très justement (cet endroit) que nous voulions atteindre. » Et ils rebroussèrent chemin (vers le rocher)."
   },
   {
     "id": "al-kahf-65",
@@ -7919,7 +7983,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ ءَاتَيْنَـٰهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَـٰهُ مِن لَّدُنَّا عِلْمًا",
     "textSimple": "فوجدا عبدا من عبادنآ ءاتينـه رحمة من عندنا وعلمنـه من لدنا علما",
     "transliteration": "fawajadā ʿabdan min ʿibādinā ātaynāhu raḥmatan min ʿindinā waʿallamnāhu min ladunnā ʿil'man",
-    "translation": "",
+    "translation": "And they found a servant from among Our servants [i.e., al-Khiḍr] to whom We had given mercy from Us and had taught him from Us a [certain] knowledge.",
     "words": [
       {
         "id": "al-kahf-65-1",
@@ -8006,7 +8070,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils trouvèrent alors l’un de Nos serviteurs que Nous avions touché de Notre grâce et que Nous avions initié à une science de Notre part."
   },
   {
     "id": "al-kahf-66",
@@ -8015,7 +8080,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَهُۥ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا",
     "textSimple": "قال له موسى هل أتبعك علىٓ أن تعلمن مما علمت رشدا",
     "transliteration": "qāla lahu mūsā hal attabiʿuka ʿalā an tuʿallimani mimmā ʿullim'ta rush'dan",
-    "translation": "",
+    "translation": "Moses said to him, \"May I follow you on [the condition] that you teach me from what you have been taught of sound judgement?\"",
     "words": [
       {
         "id": "al-kahf-66-1",
@@ -8095,7 +8160,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse lui proposa : « Ne pourrais- je te suivre afin que tu m’enseignes de cette science de la droiture que tu as reçue ? »"
   },
   {
     "id": "al-kahf-67",
@@ -8104,7 +8170,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا",
     "textSimple": "قال إنك لن تستطيع معى صبرا",
     "transliteration": "qāla innaka lan tastaṭīʿa maʿiya ṣabran",
-    "translation": "",
+    "translation": "He said, \"Indeed, with me you will never be able to have patience.",
     "words": [
       {
         "id": "al-kahf-67-1",
@@ -8149,7 +8215,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tu ne pourrais avoir assez de patience en ma compagnie », répondit-il."
   },
   {
     "id": "al-kahf-68",
@@ -8158,7 +8225,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًا",
     "textSimple": "وكيف تصبر على ما لم تحط به خبرا",
     "transliteration": "wakayfa taṣbiru ʿalā mā lam tuḥiṭ bihi khub'ran",
-    "translation": "",
+    "translation": "And how can you have patience for what you do not encompass in knowledge?\"",
     "words": [
       {
         "id": "al-kahf-68-1",
@@ -8217,7 +8284,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et il poursuivit) : « Comment saurais-tu supporter patiemment les choses que tu n’as pas cernées par la connaissance ? »"
   },
   {
     "id": "al-kahf-69",
@@ -8226,7 +8294,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًا وَلَآ أَعْصِى لَكَ أَمْرًا",
     "textSimple": "قال ستجدنىٓ إن شآء ٱلله صابرا ولآ أعصى لك أمرا",
     "transliteration": "qāla satajidunī in shāa l-lahu ṣābiran walā aʿṣī laka amran",
-    "translation": "",
+    "translation": "[Moses] said, \"You will find me, if Allāh wills, patient, and I will not disobey you in [any] order.\"",
     "words": [
       {
         "id": "al-kahf-69-1",
@@ -8299,7 +8367,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« S’il plaît à Allah, tu me trouveras, répondit-il, plein de patience et je ne désobéirai point à tes ordres. »"
   },
   {
     "id": "al-kahf-70",
@@ -8308,7 +8377,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًا",
     "textSimple": "قال فإن ٱتبعتنى فلا تسـٔلنى عن شىء حتىٓ أحدث لك منه ذكرا",
     "transliteration": "qāla fa-ini ittabaʿtanī falā tasalnī ʿan shayin ḥattā uḥ'ditha laka min'hu dhik'ran",
-    "translation": "",
+    "translation": "He said, \"Then if you follow me, do not ask me about anything until I make to you about it mention [i.e., explanation].\"",
     "words": [
       {
         "id": "al-kahf-70-1",
@@ -8395,7 +8464,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Alors, dit (l’autre), si tu me suis, ne m’interroge sur rien avant que je ne t’en aie parlé moi-même. »"
   },
   {
     "id": "al-kahf-71",
@@ -8404,7 +8474,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
     "textSimple": "فٱنطلقا حتىٓ إذا ركبا فى ٱلسفينة خرقها  قال أخرقتها لتغرق أهلها لقد جئت شيـٔا إمرا",
     "transliteration": "fa-inṭalaqā ḥattā idhā rakibā fī l-safīnati kharaqahā qāla akharaqtahā litugh'riqa ahlahā laqad ji'ta shayan im'ran",
-    "translation": "",
+    "translation": "So they set out, until when they had embarked on the ship, he [i.e., al-Khiḍr] tore it open. [Moses] said, \"Have you torn it open to drown its people? You have certainly done a grave thing.\"",
     "words": [
       {
         "id": "al-kahf-71-1",
@@ -8512,7 +8582,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’en furent alors ensemble et quand ils furent montés à bord d’un vaisseau, (l’homme) y perça un trou. « En y perçant ainsi un trou, voudrais-tu donc noyer ceux qui sont à bord ? Tu commets là un acte monstrueux ! »"
   },
   {
     "id": "al-kahf-72",
@@ -8521,7 +8592,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَلَمْ أَقُلْ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا",
     "textSimple": "قال ألم أقل إنك لن تستطيع معى صبرا",
     "transliteration": "qāla alam aqul innaka lan tastaṭīʿa maʿiya ṣabran",
-    "translation": "",
+    "translation": "[Al-Khiḍr] said, \"Did I not say that with me you would never be able to have patience?\"",
     "words": [
       {
         "id": "al-kahf-72-1",
@@ -8580,7 +8651,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« N’avais-je pas dit que tu ne saurais rester patient en ma compagnie ? » répondit-il."
   },
   {
     "id": "al-kahf-73",
@@ -8589,7 +8661,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى عُسْرًا",
     "textSimple": "قال لا تؤاخذنى بما نسيت ولا ترهقنى من أمرى عسرا",
     "transliteration": "qāla lā tuākhidh'nī bimā nasītu walā tur'hiq'nī min amrī ʿus'ran",
-    "translation": "",
+    "translation": "[Moses] said, \"Do not blame me for what I forgot and do not overwhelm me in my matter with difficulty.\"",
     "words": [
       {
         "id": "al-kahf-73-1",
@@ -8662,7 +8734,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne m’en veux pas d’avoir oublié, fit Moïse, et ne me fais pas subir d’épreuves trop pénibles. »"
   },
   {
     "id": "al-kahf-74",
@@ -8671,7 +8744,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَـٰمًا فَقَتَلَهُۥ قَالَ أَقَتَلْتَ نَفْسًا زَكِيَّةًۢ بِغَيْرِ نَفْسٍ لَّقَدْ جِئْتَ شَيْـًٔا نُّكْرًا",
     "textSimple": "فٱنطلقا حتىٓ إذا لقيا غلـما فقتله قال أقتلت نفسا زكية بغير نفس لقد جئت شيـٔا نكرا",
     "transliteration": "fa-inṭalaqā ḥattā idhā laqiyā ghulāman faqatalahu qāla aqatalta nafsan zakiyyatan bighayri nafsin laqad ji'ta shayan nuk'ran",
-    "translation": "",
+    "translation": "So they set out, until when they met a boy, he [i.e., al-Khiḍr] killed him. [Moses] said, \"Have you killed a pure soul for other than [having killed] a soul? You have certainly done a deplorable thing.\"",
     "words": [
       {
         "id": "al-kahf-74-1",
@@ -8786,7 +8859,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils poursuivirent leur route et rencontrèrent un jeune garçon que (l’homme) s’empressa de tuer. « N’as-tu pas tué là un être innocent qui pourtant, lui, n’a tué personne ? Tu viens de commettre là un acte abominable ! » lui dit (Moïse)."
   },
   {
     "id": "al-kahf-75",
@@ -8795,7 +8869,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَ أَلَمْ أَقُل لَّكَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًا",
     "textSimple": " قال ألم أقل لك إنك لن تستطيع معى صبرا",
     "transliteration": "qāla alam aqul laka innaka lan tastaṭīʿa maʿiya ṣabran",
-    "translation": "",
+    "translation": "[Al-Khiḍr] said, \"Did I not tell you that with me you would never be able to have patience?\"",
     "words": [
       {
         "id": "al-kahf-75-1",
@@ -8861,7 +8935,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (l’autre) de répondre : « Ne t’avais-je pas dit que tu ne saurais rester patient en ma compagnie ? »"
   },
   {
     "id": "al-kahf-76",
@@ -8870,7 +8945,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِن سَأَلْتُكَ عَن شَىْءٍۭ بَعْدَهَا فَلَا تُصَـٰحِبْنِى ۖ قَدْ بَلَغْتَ مِن لَّدُنِّى عُذْرًا",
     "textSimple": "قال إن سألتك عن شىء بعدها فلا تصـحبنى  قد بلغت من لدنى عذرا",
     "transliteration": "qāla in sa-altuka ʿan shayin baʿdahā falā tuṣāḥib'nī qad balaghta min ladunnī ʿudh'ran",
-    "translation": "",
+    "translation": "[Moses] said, \"If I should ask you about anything after this, then do not keep me as a companion. You have obtained from me an excuse.\"",
     "words": [
       {
         "id": "al-kahf-76-1",
@@ -8964,7 +9039,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si je t’interroge encore sur quoi que ce soit, n’accepte plus ma compagnie, et tu auras toute excuse de te séparer de moi. »"
   },
   {
     "id": "al-kahf-77",
@@ -8973,7 +9049,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا",
     "textSimple": "فٱنطلقا حتىٓ إذآ أتيآ أهل قرية ٱستطعمآ أهلها فأبوا أن يضيفوهما فوجدا فيها جدارا يريد أن ينقض فأقامه  قال لو شئت لتخذت عليه أجرا",
     "transliteration": "fa-inṭalaqā ḥattā idhā atayā ahla qaryatin is'taṭʿamā ahlahā fa-abaw an yuḍayyifūhumā fawajadā fīhā jidāran yurīdu an yanqaḍḍa fa-aqāmahu qāla law shi'ta lattakhadhta ʿalayhi ajran",
-    "translation": "",
+    "translation": "So they set out, until when they came to the people of a town, they asked its people for food, but they refused to offer them hospitality. And they found therein a wall about to collapse, so he [i.e., al-Khiḍr] restored it. [Moses] said, \"If you wished, you could have taken for it a payment.\"",
     "words": [
       {
         "id": "al-kahf-77-1",
@@ -9144,7 +9220,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils reprirent tous deux leur route jusqu’à ce qu’ils atteignent un village où ils demandèrent à ses habitants de leur donner à manger, mais ces derniers leur refusèrent l’hospitalité. (Puis les deux compagnons de voyage) trouvèrent un mur sur le point de s’écrouler. (L’homme) le répara alors, et (Moïse) lui fit observer : « Si tu voulais, tu pourrais réclamer un salaire pour (un tel travail). »"
   },
   {
     "id": "al-kahf-78",
@@ -9153,7 +9230,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَـٰذَا فِرَاقُ بَيْنِى وَبَيْنِكَ ۚ سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا",
     "textSimple": "قال هـذا فراق بينى وبينك  سأنبئك بتأويل ما لم تستطع عليه صبرا",
     "transliteration": "qāla hādhā firāqu baynī wabaynika sa-unabbi-uka bitawīli mā lam tastaṭiʿ ʿalayhi ṣabran",
-    "translation": "",
+    "translation": "[Al-Khiḍr] said, \"This is parting between me and you. I will inform you of the interpretation of that about which you could not have patience.",
     "words": [
       {
         "id": "al-kahf-78-1",
@@ -9240,7 +9317,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ce sera donc la séparation entre moi et toi, dit-il. Mais, avant cela, je vais te donner l’interprétation de ce que tu n’as pu supporter avec patience."
   },
   {
     "id": "al-kahf-79",
@@ -9249,7 +9327,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَـٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا",
     "textSimple": "أما ٱلسفينة فكانت لمسـكين يعملون فى ٱلبحر فأردت أن أعيبها وكان ورآءهم ملك يأخذ كل سفينة غصبا",
     "transliteration": "ammā l-safīnatu fakānat limasākīna yaʿmalūna fī l-baḥri fa-aradttu an aʿībahā wakāna warāahum malikun yakhudhu kulla safīnatin ghaṣban",
-    "translation": "",
+    "translation": "As for the ship, it belonged to poor people working at sea. So I intended to cause defect in it as there was after them a king who seized every [good] ship by force.",
     "words": [
       {
         "id": "al-kahf-79-1",
@@ -9371,7 +9449,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant au bateau, il appartenait à de pauvres travailleurs de la mer. Si j’ai voulu l’endommager c’est parce qu’il y avait derrière eux un roi qui s’emparait de force de tous les bateaux (en bon état)."
   },
   {
     "id": "al-kahf-80",
@@ -9380,7 +9459,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلْغُلَـٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَآ أَن يُرْهِقَهُمَا طُغْيَـٰنًا وَكُفْرًا",
     "textSimple": "وأما ٱلغلـم فكان أبواه مؤمنين فخشينآ أن يرهقهما طغيـنا وكفرا",
     "transliteration": "wa-ammā l-ghulāmu fakāna abawāhu mu'minayni fakhashīnā an yur'hiqahumā ṭugh'yānan wakuf'ran",
-    "translation": "",
+    "translation": "And as for the boy, his parents were believers, and we feared that he would overburden them by transgression and disbelief.",
     "words": [
       {
         "id": "al-kahf-80-1",
@@ -9453,7 +9532,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant au jeune garçon, ses parents étaient des croyants et nous avons craint pour eux qu’il ne les accablât par sa tyrannie et sa mécréance."
   },
   {
     "id": "al-kahf-81",
@@ -9462,7 +9542,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًا مِّنْهُ زَكَوٰةً وَأَقْرَبَ رُحْمًا",
     "textSimple": "فأردنآ أن يبدلهما ربهما خيرا منه زكوة وأقرب رحما",
     "transliteration": "fa-aradnā an yub'dilahumā rabbuhumā khayran min'hu zakatan wa-aqraba ruḥ'man",
-    "translation": "",
+    "translation": "So we intended that their Lord should substitute for them one better than him in purity and nearer to mercy.",
     "words": [
       {
         "id": "al-kahf-81-1",
@@ -9528,7 +9608,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donc voulu qu’à sa place, leur Seigneur leur donnât un autre (enfant) plus pur et plus prévenant envers eux."
   },
   {
     "id": "al-kahf-82",
@@ -9537,7 +9618,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَـٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَـٰلِحًا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةً مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا",
     "textSimple": "وأما ٱلجدار فكان لغلـمين يتيمين فى ٱلمدينة وكان تحته كنز لهما وكان أبوهما صـلحا فأراد ربك أن يبلغآ أشدهما ويستخرجا كنزهما رحمة من ربك  وما فعلته عن أمرى  ذلك تأويل ما لم تسطع عليه صبرا",
     "transliteration": "wa-ammā l-jidāru fakāna lighulāmayni yatīmayni fī l-madīnati wakāna taḥtahu kanzun lahumā wakāna abūhumā ṣāliḥan fa-arāda rabbuka an yablughā ashuddahumā wayastakhrijā kanzahumā raḥmatan min rabbika wamā faʿaltuhu ʿan amrī dhālika tawīlu mā lam tasṭiʿ ʿalayhi ṣabran",
-    "translation": "",
+    "translation": "And as for the wall, it belonged to two orphan boys in the city, and there was beneath it a treasure for them, and their father had been righteous. So your Lord intended that they reach maturity and extract their treasure, as a mercy from your Lord. And I did it not of my own accord. That is the interpretation of that about which you could not have patience.\"",
     "words": [
       {
         "id": "al-kahf-82-1",
@@ -9785,7 +9866,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant au mur, enfin, il appartenait à deux jeunes orphelins de la ville. Et il y avait sous le mur un trésor qui leur appartenait. Leur père était un homme très vertueux. Ton Seigneur a donc voulu que, une fois arrivés à l’âge adulte, (les deux garçons) déterrent leur trésor comme grâce de ton Seigneur. Je ne l’ai donc point fait de ma propre initiative. Telle est l’interprétation de ce que tu n’as pu avoir la patience de supporter. »"
   },
   {
     "id": "al-kahf-83",
@@ -9794,7 +9876,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْـَٔلُونَكَ عَن ذِى ٱلْقَرْنَيْنِ ۖ قُلْ سَأَتْلُوا۟ عَلَيْكُم مِّنْهُ ذِكْرًا",
     "textSimple": "ويسـٔلونك عن ذى ٱلقرنين  قل سأتلوا عليكم منه ذكرا",
     "transliteration": "wayasalūnaka ʿan dhī l-qarnayni qul sa-atlū ʿalaykum min'hu dhik'ran",
-    "translation": "",
+    "translation": "And they ask you, [O Muḥammad], about Dhul-Qarnayn. Say, \"I will recite to you about him a report.\"",
     "words": [
       {
         "id": "al-kahf-83-1",
@@ -9860,7 +9942,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent sur Dhul-Qarnayn. Dis : « Je vais vous raconter son histoire. »"
   },
   {
     "id": "al-kahf-84",
@@ -9869,7 +9952,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَـٰهُ مِن كُلِّ شَىْءٍ سَبَبًا",
     "textSimple": "إنا مكنا له فى ٱلأرض وءاتينـه من كل شىء سببا",
     "transliteration": "innā makkannā lahu fī l-arḍi waātaynāhu min kulli shayin sababan",
-    "translation": "",
+    "translation": "Indeed, We established him upon the earth, and We gave him from everything a way [i.e., means].",
     "words": [
       {
         "id": "al-kahf-84-1",
@@ -9942,7 +10025,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons affermi son pouvoir sur terre et lui avons donné des voies d’accès à toute chose."
   },
   {
     "id": "al-kahf-85",
@@ -9951,7 +10035,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَتْبَعَ سَبَبًا",
     "textSimple": "فأتبع سببا",
     "transliteration": "fa-atbaʿa sababan",
-    "translation": "",
+    "translation": "So he followed a way",
     "words": [
       {
         "id": "al-kahf-85-1",
@@ -9968,7 +10052,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a donc suivi une voie,"
   },
   {
     "id": "al-kahf-86",
@@ -9977,7 +10062,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَـٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا",
     "textSimple": "حتىٓ إذا بلغ مغرب ٱلشمس وجدها تغرب فى عين حمئة ووجد عندها قوما  قلنا يـذا ٱلقرنين إمآ أن تعذب وإمآ أن تتخذ فيهم حسنا",
     "transliteration": "ḥattā idhā balagha maghriba l-shamsi wajadahā taghrubu fī ʿaynin ḥami-atin wawajada ʿindahā qawman qul'nā yādhā l-qarnayni immā an tuʿadhiba wa-immā an tattakhidha fīhim ḥus'nan",
-    "translation": "",
+    "translation": "Until, when he reached the setting of the sun [i.e., the west], he found it [as if] setting in a body of dark water, and he found near it a people. We [i.e., Allāh] said, \"O Dhul-Qarnayn, either you punish [them] or else adopt among them [a way of] goodness.\"",
     "words": [
       {
         "id": "al-kahf-86-1",
@@ -10148,7 +10233,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’à ce qu’il ait atteint le couchant. Il vit alors que le soleil se couchait dans une source boueuse près de laquelle il trouva un peuple (qui vivait là). Nous dîmes : « Ô Dhul-Qarnayn, tu pourras ou sévir contre ces gens ou les traiter avec bonté. »"
   },
   {
     "id": "al-kahf-87",
@@ -10157,7 +10243,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًا نُّكْرًا",
     "textSimple": "قال أما من ظلم فسوف نعذبه ثم يرد إلى ربه فيعذبه عذابا نكرا",
     "transliteration": "qāla ammā man ẓalama fasawfa nuʿadhibuhu thumma yuraddu ilā rabbihi fayuʿadhibuhu ʿadhāban nuk'ran",
-    "translation": "",
+    "translation": "He said, \"As for one who wrongs, we will punish him. Then he will be returned to his Lord, and He will punish him with a terrible punishment [i.e., Hellfire].",
     "words": [
       {
         "id": "al-kahf-87-1",
@@ -10251,7 +10337,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Celui qui a commis des injustices, répondit-il, nous le châtierons, puis il sera ramené vers son Seigneur Qui le soumettra à un terrible supplice."
   },
   {
     "id": "al-kahf-88",
@@ -10260,7 +10347,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَـٰلِحًا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًا",
     "textSimple": "وأما من ءامن وعمل صـلحا فله جزآء ٱلحسنى  وسنقول له من أمرنا يسرا",
     "transliteration": "wa-ammā man āmana waʿamila ṣāliḥan falahu jazāan l-ḥus'nā wasanaqūlu lahu min amrinā yus'ran",
-    "translation": "",
+    "translation": "But as for one who believes and does righteousness, he will have a reward of the best [i.e., Paradise], and we [i.e., Dhul-Qarnayn] will speak to him from our command with ease.\"",
     "words": [
       {
         "id": "al-kahf-88-1",
@@ -10354,7 +10441,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui a cru et a fait le bien, il aura la plus belle rétribution et nous lui adresserons des paroles bienveillantes. »"
   },
   {
     "id": "al-kahf-89",
@@ -10363,7 +10451,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَتْبَعَ سَبَبًا",
     "textSimple": "ثم أتبع سببا",
     "transliteration": "thumma atbaʿa sababan",
-    "translation": "",
+    "translation": "Then he followed a way",
     "words": [
       {
         "id": "al-kahf-89-1",
@@ -10387,7 +10475,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il suivit (une autre) voie,"
   },
   {
     "id": "al-kahf-90",
@@ -10396,7 +10485,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا",
     "textSimple": "حتىٓ إذا بلغ مطلع ٱلشمس وجدها تطلع على قوم لم نجعل لهم من دونها سترا",
     "transliteration": "ḥattā idhā balagha maṭliʿa l-shamsi wajadahā taṭluʿu ʿalā qawmin lam najʿal lahum min dūnihā sit'ran",
-    "translation": "",
+    "translation": "Until, when he came to the rising of the sun [i.e., the east], he found it rising on a people for whom We had not made against it any shield.",
     "words": [
       {
         "id": "al-kahf-90-1",
@@ -10504,7 +10593,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’à ce qu’il ait atteint le levant. Il vit alors que le soleil se levait sur un peuple que Nous n’avions pourvu d’aucune protection contre (sa chaleur)."
   },
   {
     "id": "al-kahf-91",
@@ -10513,7 +10603,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًا",
     "textSimple": "كذلك وقد أحطنا بما لديه خبرا",
     "transliteration": "kadhālika waqad aḥaṭnā bimā ladayhi khub'ran",
-    "translation": "",
+    "translation": "Thus. And We had encompassed [all] that he had in knowledge.",
     "words": [
       {
         "id": "al-kahf-91-1",
@@ -10558,7 +10648,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà ce qu’il en fut. Et Nous Cernions de Notre connaissance tout ce qui le concernait."
   },
   {
     "id": "al-kahf-92",
@@ -10567,7 +10658,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَتْبَعَ سَبَبًا",
     "textSimple": "ثم أتبع سببا",
     "transliteration": "thumma atbaʿa sababan",
-    "translation": "",
+    "translation": "Then he followed a way.",
     "words": [
       {
         "id": "al-kahf-92-1",
@@ -10591,7 +10682,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il suivit une autre voie,"
   },
   {
     "id": "al-kahf-93",
@@ -10600,7 +10692,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًا",
     "textSimple": "حتىٓ إذا بلغ بين ٱلسدين وجد من دونهما قوما لا يكادون يفقهون قولا",
     "transliteration": "ḥattā idhā balagha bayna l-sadayni wajada min dūnihimā qawman lā yakādūna yafqahūna qawlan",
-    "translation": "",
+    "translation": "Until, when he reached [a pass] between two mountains, he found beside them a people who could hardly understand [his] speech.",
     "words": [
       {
         "id": "al-kahf-93-1",
@@ -10694,7 +10786,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’à ce que, atteignant la gorge entre les Deux Montagnes, il trouvât derrière elles un peuple qui n’entendait aucun langage."
   },
   {
     "id": "al-kahf-94",
@@ -10703,7 +10796,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّا",
     "textSimple": "قالوا يـذا ٱلقرنين إن يأجوج ومأجوج مفسدون فى ٱلأرض فهل نجعل لك خرجا علىٓ أن تجعل بيننا وبينهم سدا",
     "transliteration": "qālū yādhā l-qarnayni inna yajūja wamajūja muf'sidūna fī l-arḍi fahal najʿalu laka kharjan ʿalā an tajʿala baynanā wabaynahum saddan",
-    "translation": "",
+    "translation": "They said, \"O Dhul-Qarnayn, indeed Gog and Magog are [great] corrupters in the land. So may we assign for you an expenditure that you might make between us and them a barrier?\"",
     "words": [
       {
         "id": "al-kahf-94-1",
@@ -10839,7 +10932,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ô Dhul- Qarnayn, les Gog et les Magog sont des semeurs de désordre sur terre. Accepterais-tu de percevoir de nous un tribut contre lequel tu dresserais entre eux et nous un barrage ? »"
   },
   {
     "id": "al-kahf-95",
@@ -10848,7 +10942,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌ فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا",
     "textSimple": "قال ما مكنى فيه ربى خير فأعينونى بقوة أجعل بينكم وبينهم ردما",
     "transliteration": "qāla mā makkannī fīhi rabbī khayrun fa-aʿīnūnī biquwwatin ajʿal baynakum wabaynahum radman",
-    "translation": "",
+    "translation": "He said, \"That in which my Lord has established me is better [than what you offer], but assist me with strength [i.e., manpower]; I will make between you and them a dam.",
     "words": [
       {
         "id": "al-kahf-95-1",
@@ -10935,7 +11029,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nul (tribut) n’est meilleur pour moi que la puissance dont mon Seigneur m’a gratifié. Prêtez-moi main forte et je dresserai entre vous et eux une muraille."
   },
   {
     "id": "al-kahf-96",
@@ -10944,7 +11039,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ءَاتُونِى زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًا",
     "textSimple": "ءاتونى زبر ٱلحديد  حتىٓ إذا ساوى بين ٱلصدفين قال ٱنفخوا  حتىٓ إذا جعله نارا قال ءاتونىٓ أفرغ عليه قطرا",
     "transliteration": "ātūnī zubara l-ḥadīdi ḥattā idhā sāwā bayna l-ṣadafayni qāla unfukhū ḥattā idhā jaʿalahu nāran qāla ātūnī uf'righ ʿalayhi qiṭ'ran",
-    "translation": "",
+    "translation": "Bring me bars of iron\" - until, when he had leveled [them] between the two mountain walls, he said, \"Blow [with bellows],\" until when he had made it [like] fire, he said, \"Bring me, that I may pour over it molten copper.\"",
     "words": [
       {
         "id": "al-kahf-96-1",
@@ -11080,7 +11175,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Apportez-moi des blocs de fer. » Lorsqu’il eut fermé l’espace entre les deux montagnes, il dit : « Soufflez (sur le feu) ! » Quand il eut rendu (le fer aussi rouge que) le feu, il reprit : « Apportez-moi de l’airain fondu afin que je puisse le verser dessus. »"
   },
   {
     "id": "al-kahf-97",
@@ -11089,7 +11185,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا ٱسْطَـٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَـٰعُوا۟ لَهُۥ نَقْبًا",
     "textSimple": "فما ٱسطـعوٓا أن يظهروه وما ٱستطـعوا له نقبا",
     "transliteration": "famā is'ṭāʿū an yaẓharūhu wamā is'taṭāʿū lahu naqban",
-    "translation": "",
+    "translation": "So they [i.e., Gog and Magog] were unable to pass over it, nor were they able [to effect] in it any penetration.",
     "words": [
       {
         "id": "al-kahf-97-1",
@@ -11148,7 +11244,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi, ils (les Gog et les Magog) ne purent ni escalader (la muraille) ni la percer."
   },
   {
     "id": "al-kahf-98",
@@ -11157,7 +11254,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَـٰذَا رَحْمَةٌ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّا",
     "textSimple": "قال هـذا رحمة من ربى  فإذا جآء وعد ربى جعله دكآء  وكان وعد ربى حقا",
     "transliteration": "qāla hādhā raḥmatun min rabbī fa-idhā jāa waʿdu rabbī jaʿalahu dakkāa wakāna waʿdu rabbī ḥaqqan",
-    "translation": "",
+    "translation": "[Dhul-Qarnayn] said, \"This is a mercy from my Lord; but when the promise of my Lord comes [i.e., approaches], He will make it level, and ever is the promise of my Lord true.\"",
     "words": [
       {
         "id": "al-kahf-98-1",
@@ -11265,7 +11362,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Ceci est un effet de la grâce de mon Seigneur. Mais le jour où arrivera la promesse de mon Seigneur, Il rasera cet ouvrage. Car la promesse de mon Seigneur est pure vérité."
   },
   {
     "id": "al-kahf-99",
@@ -11274,7 +11372,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ ۖ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَـٰهُمْ جَمْعًا",
     "textSimple": " وتركنا بعضهم يومئذ يموج فى بعض  ونفخ فى ٱلصور فجمعنـهم جمعا",
     "transliteration": "wataraknā baʿḍahum yawma-idhin yamūju fī baʿḍin wanufikha fī l-ṣūri fajamaʿnāhum jamʿan",
-    "translation": "",
+    "translation": "And We will leave them that day surging over each other, and [then] the Horn will be blown, and We will assemble them in [one] assembly.",
     "words": [
       {
         "id": "al-kahf-99-1",
@@ -11354,7 +11452,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, Nous les laisserons déferler en foule tels les vagues se roulant sur elles mêmes, il sera soufflé dans le Cor et voilà que Nous les aurons tous rassemblés."
   },
   {
     "id": "al-kahf-100",
@@ -11363,7 +11462,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "وَعَرَضْنَا جَهَنَّمَ يَوْمَئِذٍ لِّلْكَـٰفِرِينَ عَرْضًا",
     "textSimple": "وعرضنا جهنم يومئذ للكـفرين عرضا",
     "transliteration": "waʿaraḍnā jahannama yawma-idhin lil'kāfirīna ʿarḍan",
-    "translation": "",
+    "translation": "And We will present Hell that Day to the disbelievers, on display -",
     "words": [
       {
         "id": "al-kahf-100-1",
@@ -11401,7 +11500,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce jour-là, Nous présenterons la Géhenne clairement aux mécréants,"
   },
   {
     "id": "al-kahf-101",
@@ -11410,7 +11510,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ كَانَتْ أَعْيُنُهُمْ فِى غِطَآءٍ عَن ذِكْرِى وَكَانُوا۟ لَا يَسْتَطِيعُونَ سَمْعًا",
     "textSimple": "ٱلذين كانت أعينهم فى غطآء عن ذكرى وكانوا لا يستطيعون سمعا",
     "transliteration": "alladhīna kānat aʿyunuhum fī ghiṭāin ʿan dhik'rī wakānū lā yastaṭīʿūna samʿan",
-    "translation": "",
+    "translation": "Those whose eyes had been within a cover [removed] from My remembrance, and they were not able to hear.",
     "words": [
       {
         "id": "al-kahf-101-1",
@@ -11490,7 +11590,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là même dont les yeux étaient recouverts d’un voile les empêchant de M’évoquer et qui, non plus, ne pouvaient rien entendre."
   },
   {
     "id": "al-kahf-102",
@@ -11499,7 +11600,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَحَسِبَ ٱلَّذِينَ كَفَرُوٓا۟ أَن يَتَّخِذُوا۟ عِبَادِى مِن دُونِىٓ أَوْلِيَآءَ ۚ إِنَّآ أَعْتَدْنَا جَهَنَّمَ لِلْكَـٰفِرِينَ نُزُلًا",
     "textSimple": "أفحسب ٱلذين كفروٓا أن يتخذوا عبادى من دونىٓ أوليآء  إنآ أعتدنا جهنم للكـفرين نزلا",
     "transliteration": "afaḥasiba alladhīna kafarū an yattakhidhū ʿibādī min dūnī awliyāa innā aʿtadnā jahannama lil'kāfirīna nuzulan",
-    "translation": "",
+    "translation": "Then do those who disbelieve think that they can take My servants instead of Me as allies? Indeed, We have prepared Hell for the disbelievers as a lodging.",
     "words": [
       {
         "id": "al-kahf-102-1",
@@ -11600,7 +11701,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru pensent-ils vraiment prendre Mes serviteurs pour alliés en dehors de Moi ? Nous avons ménagé aux mécréants la Géhenne comme lieu de séjour."
   },
   {
     "id": "al-kahf-103",
@@ -11609,7 +11711,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَـٰلًا",
     "textSimple": "قل هل ننبئكم بٱلأخسرين أعمـلا",
     "transliteration": "qul hal nunabbi-ukum bil-akhsarīna aʿmālan",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Shall we [believers] inform you of the greatest losers as to [their] deeds?",
     "words": [
       {
         "id": "al-kahf-103-1",
@@ -11647,7 +11749,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Vous apprendrons-Nous donc qui seront les plus grands perdants quant à leurs œuvres ?"
   },
   {
     "id": "al-kahf-104",
@@ -11656,7 +11759,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
     "textSimple": "ٱلذين ضل سعيهم فى ٱلحيوة ٱلدنيا وهم يحسبون أنهم يحسنون صنعا",
     "transliteration": "alladhīna ḍalla saʿyuhum fī l-ḥayati l-dun'yā wahum yaḥsabūna annahum yuḥ'sinūna ṣun'ʿan",
-    "translation": "",
+    "translation": "[They are] those whose effort is lost in worldly life, while they think that they are doing well in work.\"",
     "words": [
       {
         "id": "al-kahf-104-1",
@@ -11736,7 +11839,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux dont l’effort se sera perdu dans la vie en ce bas monde, mais qui pourtant croient bien agir."
   },
   {
     "id": "al-kahf-105",
@@ -11745,7 +11849,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَـٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ وَزْنًا",
     "textSimple": "أولـٓئك ٱلذين كفروا بـٔايـت ربهم ولقآئه فحبطت أعمـلهم فلا نقيم لهم يوم ٱلقيـمة وزنا",
     "transliteration": "ulāika alladhīna kafarū biāyāti rabbihim waliqāihi faḥabiṭat aʿmāluhum falā nuqīmu lahum yawma l-qiyāmati waznan",
-    "translation": "",
+    "translation": "Those are the ones who disbelieve in the verses of their Lord and in [their] meeting Him, so their deeds have become worthless; and We will not assign to them on the Day of Resurrection any weight [i.e., importance].",
     "words": [
       {
         "id": "al-kahf-105-1",
@@ -11846,7 +11950,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont ceux qui ont rejeté les Signes de leur Seigneur et (ont mécru en) Sa rencontre. Vaines seront leurs œuvres et Nous ne leur accorderons aucun poids au Jour de la Résurrection. »"
   },
   {
     "id": "al-kahf-106",
@@ -11855,7 +11960,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ جَزَآؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا۟ وَٱتَّخَذُوٓا۟ ءَايَـٰتِى وَرُسُلِى هُزُوًا",
     "textSimple": "ذلك جزآؤهم جهنم بما كفروا وٱتخذوٓا ءايـتى ورسلى هزوا",
     "transliteration": "dhālika jazāuhum jahannamu bimā kafarū wa-ittakhadhū āyātī warusulī huzuwan",
-    "translation": "",
+    "translation": "That is their recompense - Hell - for what they denied and [because] they took My signs and My messengers in ridicule.",
     "words": [
       {
         "id": "al-kahf-106-1",
@@ -11921,7 +12026,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle sera leur rétribution : la Géhenne, puisqu’ils ont mécru et ont tourné en dérision Mes Signes et Mes Messagers."
   },
   {
     "id": "al-kahf-107",
@@ -11930,7 +12036,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ كَانَتْ لَهُمْ جَنَّـٰتُ ٱلْفِرْدَوْسِ نُزُلًا",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت كانت لهم جنـت ٱلفردوس نزلا",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti kānat lahum jannātu l-fir'dawsi nuzulan",
-    "translation": "",
+    "translation": "Indeed, those who have believed and done righteous deeds - they will have the Gardens of Paradise as a lodging,",
     "words": [
       {
         "id": "al-kahf-107-1",
@@ -12003,7 +12109,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui croient et accomplissent les bonnes œuvres auront les jardins du Paradis pour lieu de séjour."
   },
   {
     "id": "al-kahf-108",
@@ -12012,7 +12119,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا حِوَلًا",
     "textSimple": "خـلدين فيها لا يبغون عنها حولا",
     "transliteration": "khālidīna fīhā lā yabghūna ʿanhā ḥiwalan",
-    "translation": "",
+    "translation": "Wherein they abide eternally. They will not desire from it any transfer.",
     "words": [
       {
         "id": "al-kahf-108-1",
@@ -12057,7 +12164,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Là ils séjourneront pour l’éternité et ne voudront pas changer de lieu."
   },
   {
     "id": "al-kahf-109",
@@ -12066,7 +12174,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَـٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَـٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًا",
     "textSimple": "قل لو كان ٱلبحر مدادا لكلمـت ربى لنفد ٱلبحر قبل أن تنفد كلمـت ربى ولو جئنا بمثله مددا",
     "transliteration": "qul law kāna l-baḥru midādan likalimāti rabbī lanafida l-baḥru qabla an tanfada kalimātu rabbī walaw ji'nā bimith'lihi madadan",
-    "translation": "",
+    "translation": "Say, \"If the sea were ink for [writing] the words of my Lord, the sea would be exhausted before the words of my Lord were exhausted, even if We brought the like of it in [continual] supplement.\"",
     "words": [
       {
         "id": "al-kahf-109-1",
@@ -12195,7 +12303,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si la mer était une encre pour (écrire) les paroles de mon Seigneur, la mer serait épuisée avant que ne s’épuisent les paroles de mon Seigneur, même si Nous lui ajoutions autant de mers encore ! »"
   },
   {
     "id": "al-kahf-110",
@@ -12204,7 +12313,7 @@ export const AL_KAHF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ ۖ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَـٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا",
     "textSimple": "قل إنمآ أنا بشر مثلكم يوحىٓ إلى أنمآ إلـهكم إلـه وحد  فمن كان يرجوا لقآء ربه فليعمل عملا صـلحا ولا يشرك بعبادة ربهٓ أحدا",
     "transliteration": "qul innamā anā basharun mith'lukum yūḥā ilayya annamā ilāhukum ilāhun wāḥidun faman kāna yarjū liqāa rabbihi falyaʿmal ʿamalan ṣāliḥan walā yush'rik biʿibādati rabbihi aḥadan",
-    "translation": "",
+    "translation": "Say, \"I am only a man like you, to whom has been revealed that your god is one God. So whoever would hope for the meeting with his Lord - let him do righteous work and not associate in the worship of his Lord anyone.\"",
     "words": [
       {
         "id": "al-kahf-110-1",
@@ -12375,7 +12484,8 @@ export const AL_KAHF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne suis qu’un humain comme vous et il m’est révélé que votre Dieu est Un. Que celui qui espère rencontrer son Seigneur fasse le bien et n’associe personne à l’adoration de son Seigneur. »"
   }
 ];
 

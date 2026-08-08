@@ -11,7 +11,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": " حمٓ",
     "textSimple": " حمٓ",
     "transliteration": "hha-meem",
-    "translation": "",
+    "translation": "Ḥā, Meem.",
     "words": [
       {
         "id": "ash-shuraa-1-1",
@@ -21,7 +21,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâ, Mîm."
   },
   {
     "id": "ash-shuraa-2",
@@ -30,7 +31,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "عٓسٓقٓ",
     "textSimple": "عٓسٓقٓ",
     "transliteration": "ain-seen-qaf",
-    "translation": "",
+    "translation": "ʿAyn, Seen, Qāf.",
     "words": [
       {
         "id": "ash-shuraa-2-1",
@@ -40,7 +41,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "‘Aïn, Sîn, Qâf."
   },
   {
     "id": "ash-shuraa-3",
@@ -49,7 +51,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ يُوحِىٓ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "كذلك يوحىٓ إليك وإلى ٱلذين من قبلك ٱلله ٱلعزيز ٱلحكيم",
     "transliteration": "kadhālika yūḥī ilayka wa-ilā alladhīna min qablika l-lahu l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Thus has He revealed to you, [O Muḥammad], and to those before you - Allāh, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "ash-shuraa-3-1",
@@ -122,7 +124,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que t’envoie Ses révélations, comme à ceux qui t’ont précédé, Allah le Tout-Puissant, le Sage."
   },
   {
     "id": "ash-shuraa-4",
@@ -131,7 +134,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
     "textSimple": "له ما فى ٱلسمـوت وما فى ٱلأرض  وهو ٱلعلى ٱلعظيم",
     "transliteration": "lahu mā fī l-samāwāti wamā fī l-arḍi wahuwa l-ʿaliyu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "To Him belongs whatever is in the heavens and whatever is in the earth, and He is the Most High, the Most Great.",
     "words": [
       {
         "id": "ash-shuraa-4-1",
@@ -204,7 +207,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartient ce qui est dans les cieux et sur terre. Il est le Très Haut, le Très Grand."
   },
   {
     "id": "ash-shuraa-5",
@@ -213,7 +217,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "تَكَادُ ٱلسَّمَـٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَـٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
     "textSimple": "تكاد ٱلسمـوت يتفطرن من فوقهن  وٱلملـٓئكة يسبحون بحمد ربهم ويستغفرون لمن فى ٱلأرض  ألآ إن ٱلله هو ٱلغفور ٱلرحيم",
     "transliteration": "takādu l-samāwātu yatafaṭṭarna min fawqihinna wal-malāikatu yusabbiḥūna biḥamdi rabbihim wayastaghfirūna liman fī l-arḍi alā inna l-laha huwa l-ghafūru l-raḥīmu",
-    "translation": "",
+    "translation": "The heavens almost break from above them, and the angels exalt [Allāh] with praise of their Lord and ask forgiveness for those on earth. Unquestionably, it is Allāh who is the Forgiving, the Merciful.",
     "words": [
       {
         "id": "ash-shuraa-5-1",
@@ -349,7 +353,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les cieux manquent de se fendre depuis leur voûte, lorsque les Anges Lui rendent gloire, célèbrent Ses louanges, et implorent le pardon pour ceux qui peuplent la terre. Il est, certes, l’Absoluteur, le Tout Miséricordieux."
   },
   {
     "id": "ash-shuraa-6",
@@ -358,7 +363,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ٱللَّهُ حَفِيظٌ عَلَيْهِمْ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ",
     "textSimple": "وٱلذين ٱتخذوا من دونهٓ أوليآء ٱلله حفيظ عليهم ومآ أنت عليهم بوكيل",
     "transliteration": "wa-alladhīna ittakhadhū min dūnihi awliyāa l-lahu ḥafīẓun ʿalayhim wamā anta ʿalayhim biwakīlin",
-    "translation": "",
+    "translation": "And those who take as allies other than Him - Allāh is [yet] Guardian over them; and you, [O Muḥammad], are not over them a manager.",
     "words": [
       {
         "id": "ash-shuraa-6-1",
@@ -445,7 +450,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Quant à) ceux qui ont pris des protecteurs en dehors de Lui, Allah est le Gardien (Qui les surveille) et tu n’es point leur garant."
   },
   {
     "id": "ash-shuraa-7",
@@ -454,7 +460,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْءَانًا عَرَبِيًّا لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لَا رَيْبَ فِيهِ ۚ فَرِيقٌ فِى ٱلْجَنَّةِ وَفَرِيقٌ فِى ٱلسَّعِيرِ",
     "textSimple": "وكذلك أوحينآ إليك قرءانا عربيا لتنذر أم ٱلقرى ومن حولها وتنذر يوم ٱلجمع لا ريب فيه  فريق فى ٱلجنة وفريق فى ٱلسعير",
     "transliteration": "wakadhālika awḥaynā ilayka qur'ānan ʿarabiyyan litundhira umma l-qurā waman ḥawlahā watundhira yawma l-jamʿi lā rayba fīhi farīqun fī l-janati wafarīqun fī l-saʿīri",
-    "translation": "",
+    "translation": "And thus We have revealed to you an Arabic Qur’ān that you may warn the Mother of Cities [i.e., Makkah] and those around it and warn of the Day of Assembly, about which there is no doubt. A party will be in Paradise and a party in the Blaze.",
     "words": [
       {
         "id": "ash-shuraa-7-1",
@@ -611,7 +617,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi t’avons-Nous révélé un Coran (en langue) arabe pour que tu avertisses la Mère des cités et ceux qui l’entourent ; et pour prévenir du Jour du Rassemblement à propos duquel il n’y a nul doute. Il y aura alors un groupe au Paradis, et un (autre) groupe dans la Fournaise."
   },
   {
     "id": "ash-shuraa-8",
@@ -620,7 +627,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةً وَٰحِدَةً وَلَـٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّـٰلِمُونَ مَا لَهُم مِّن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "ولو شآء ٱلله لجعلهم أمة وحدة ولـكن يدخل من يشآء فى رحمته  وٱلظـلمون ما لهم من ولى ولا نصير",
     "transliteration": "walaw shāa l-lahu lajaʿalahum ummatan wāḥidatan walākin yud'khilu man yashāu fī raḥmatihi wal-ẓālimūna mā lahum min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "And if Allāh willed, He could have made them [of] one religion, but He admits whom He wills into His mercy. And the wrongdoers have not any protector or helper.",
     "words": [
       {
         "id": "ash-shuraa-8-1",
@@ -756,7 +763,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah l’avait voulu, Il en aurait fait une communauté unique. Mais Il accueille qui Il veut dans Sa miséricorde et les injustes n’ont ni protecteur ni allié."
   },
   {
     "id": "ash-shuraa-9",
@@ -765,7 +773,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "أَمِ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ۖ فَٱللَّهُ هُوَ ٱلْوَلِىُّ وَهُوَ يُحْىِ ٱلْمَوْتَىٰ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "أم ٱتخذوا من دونهٓ أوليآء  فٱلله هو ٱلولى وهو يحى ٱلموتى وهو على كل شىء قدير",
     "transliteration": "ami ittakhadhū min dūnihi awliyāa fal-lahu huwa l-waliyu wahuwa yuḥ'yī l-mawtā wahuwa ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Or have they taken protectors [or allies] besides Him? But Allāh - He is the Protector, and He gives life to the dead, and He is over all things competent.",
     "words": [
       {
         "id": "ash-shuraa-9-1",
@@ -880,7 +888,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors se sont-ils donnés en dehors de Lui des protecteurs ? Or c’est Allah Qui est le Protecteur, et c’est Lui Qui fait revivre les morts, et c’est Lui Qui est de Toute chose Infiniment Capable."
   },
   {
     "id": "ash-shuraa-10",
@@ -889,7 +898,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ٱخْتَلَفْتُمْ فِيهِ مِن شَىْءٍ فَحُكْمُهُۥٓ إِلَى ٱللَّهِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبِّى عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
     "textSimple": "وما ٱختلفتم فيه من شىء فحكمهٓ إلى ٱلله  ذلكم ٱلله ربى عليه توكلت وإليه أنيب",
     "transliteration": "wamā ikh'talaftum fīhi min shayin faḥuk'muhu ilā l-lahi dhālikumu l-lahu rabbī ʿalayhi tawakkaltu wa-ilayhi unību",
-    "translation": "",
+    "translation": "And in anything over which you disagree - its ruling is [to be referred] to Allāh. [Say], \"That is Allāh, my Lord; upon Him I have relied, and to Him I turn back.\"",
     "words": [
       {
         "id": "ash-shuraa-10-1",
@@ -997,7 +1006,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels que soient vos différends, c’est Allah Qui en détient le jugement. Tel est Allah, mon Seigneur ; à Lui je m’en remets, et vers Lui je reviens, repentant."
   },
   {
     "id": "ash-shuraa-11",
@@ -1006,7 +1016,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "فَاطِرُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا وَمِنَ ٱلْأَنْعَـٰمِ أَزْوَٰجًا ۖ يَذْرَؤُكُمْ فِيهِ ۚ لَيْسَ كَمِثْلِهِۦ شَىْءٌ ۖ وَهُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
     "textSimple": "فاطر ٱلسمـوت وٱلأرض  جعل لكم من أنفسكم أزوجا ومن ٱلأنعـم أزوجا  يذرؤكم فيه  ليس كمثله شىء  وهو ٱلسميع ٱلبصير",
     "transliteration": "fāṭiru l-samāwāti wal-arḍi jaʿala lakum min anfusikum azwājan wamina l-anʿāmi azwājan yadhra-ukum fīhi laysa kamith'lihi shayon wahuwa l-samīʿu l-baṣīru",
-    "translation": "",
+    "translation": "[He is] Creator of the heavens and the earth. He has made for you from yourselves, mates, and among the cattle, mates; He multiplies you thereby. There is nothing like unto Him, and He is the Hearing, the Seeing.",
     "words": [
       {
         "id": "ash-shuraa-11-1",
@@ -1142,7 +1152,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Créateur Premier des cieux et de la terre, Il vous a donné des épouses issues de vous-mêmes ; et à partir des bestiaux, des couples. Ainsi vous dissémine-t-Il (sur terre). Il est à nul autre semblable, Il Entend Tout et Il Voit Tout."
   },
   {
     "id": "ash-shuraa-12",
@@ -1151,7 +1162,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "لَهُۥ مَقَالِيدُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "له مقاليد ٱلسمـوت وٱلأرض  يبسط ٱلرزق لمن يشآء ويقدر  إنه بكل شىء عليم",
     "transliteration": "lahu maqālīdu l-samāwāti wal-arḍi yabsuṭu l-riz'qa liman yashāu wayaqdiru innahu bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "To Him belong the keys of the heavens and the earth. He extends provision for whom He wills and restricts [it]. Indeed He is, of all things, Knowing.",
     "words": [
       {
         "id": "ash-shuraa-12-1",
@@ -1245,7 +1256,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il détient les clefs des cieux et de la terre, et dispense Ses bienfaits à qui Il veut, avec générosité ou parcimonie. Il est de Toute chose Savant."
   },
   {
     "id": "ash-shuraa-13",
@@ -1254,7 +1266,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "۞ شَرَعَ لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحًا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ ۚ كَبُرَ عَلَى ٱلْمُشْرِكِينَ مَا تَدْعُوهُمْ إِلَيْهِ ۚ ٱللَّهُ يَجْتَبِىٓ إِلَيْهِ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَن يُنِيبُ",
     "textSimple": " شرع لكم من ٱلدين ما وصى به نوحا وٱلذىٓ أوحينآ إليك وما وصينا بهٓ إبرهيم وموسى وعيسىٓ  أن أقيموا ٱلدين ولا تتفرقوا فيه  كبر على ٱلمشركين ما تدعوهم إليه  ٱلله يجتبىٓ إليه من يشآء ويهدىٓ إليه من ينيب",
     "transliteration": "sharaʿa lakum mina l-dīni mā waṣṣā bihi nūḥan wa-alladhī awḥaynā ilayka wamā waṣṣaynā bihi ib'rāhīma wamūsā waʿīsā an aqīmū l-dīna walā tatafarraqū fīhi kabura ʿalā l-mush'rikīna mā tadʿūhum ilayhi l-lahu yajtabī ilayhi man yashāu wayahdī ilayhi man yunību",
-    "translation": "",
+    "translation": "He has ordained for you of religion what He enjoined upon Noah and that which We have revealed to you, [O Muḥammad], and what We enjoined upon Abraham and Moses and Jesus - to establish the religion and not be divided therein. Difficult for those who associate others with Allāh is that to which you invite them. Allāh chooses for Himself whom He wills and guides to Himself whoever turns back [to Him].",
     "words": [
       {
         "id": "ash-shuraa-13-1",
@@ -1523,7 +1535,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a prescrit pour vous, dans la religion, ce qu’Il a prescrit à Noé et ce que Nous t’avons révélé. C’est ce que Nous avons aussi prescrit à Abraham, à Moïse et à Jésus : « Observez la religion, et qu’elle ne vous soit pas un prétexte de scission. » Ce à quoi tu invites les associâtres leur est lourd à porter. Allah choisit ceux qu’Il veut pour faire d’eux Ses préférés, et Il guide vers Lui quiconque se repent."
   },
   {
     "id": "ash-shuraa-14",
@@ -1532,7 +1545,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَفَرَّقُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ إِلَىٰٓ أَجَلٍ مُّسَمًّى لَّقُضِىَ بَيْنَهُمْ ۚ وَإِنَّ ٱلَّذِينَ أُورِثُوا۟ ٱلْكِتَـٰبَ مِنۢ بَعْدِهِمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
     "textSimple": "وما تفرقوٓا إلا من بعد ما جآءهم ٱلعلم بغيا بينهم  ولولا كلمة سبقت من ربك إلىٓ أجل مسمى لقضى بينهم  وإن ٱلذين أورثوا ٱلكتـب من بعدهم لفى شك منه مريب",
     "transliteration": "wamā tafarraqū illā min baʿdi mā jāahumu l-ʿil'mu baghyan baynahum walawlā kalimatun sabaqat min rabbika ilā ajalin musamman laquḍiya baynahum wa-inna alladhīna ūrithū l-kitāba min baʿdihim lafī shakkin min'hu murībin",
-    "translation": "",
+    "translation": "And they did not become divided until after knowledge had come to them - out of jealous animosity between themselves. And if not for a word that preceded from your Lord [postponing the penalty] until a specified time, it would have been concluded between them. And indeed, those who were granted inheritance of the Scripture after them are, concerning it, in disquieting doubt.",
     "words": [
       {
         "id": "ash-shuraa-14-1",
@@ -1745,7 +1758,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne se sont divisés qu’après que la science leur fut parvenue (et ce par) hostilité des uns envers les autres. N’eût été le verdict de ton Seigneur déjà prononcé pour un terme nommé, ils auraient été départagés. Mais ceux qui, après eux, ont hérité du Livre, sont dans le doute le plus troublant (au sujet de leur religion)."
   },
   {
     "id": "ash-shuraa-15",
@@ -1754,7 +1768,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "فَلِذَٰلِكَ فَٱدْعُ ۖ وَٱسْتَقِمْ كَمَآ أُمِرْتَ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ ۖ وَقُلْ ءَامَنتُ بِمَآ أَنزَلَ ٱللَّهُ مِن كِتَـٰبٍ ۖ وَأُمِرْتُ لِأَعْدِلَ بَيْنَكُمُ ۖ ٱللَّهُ رَبُّنَا وَرَبُّكُمْ ۖ لَنَآ أَعْمَـٰلُنَا وَلَكُمْ أَعْمَـٰلُكُمْ ۖ لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ ۖ ٱللَّهُ يَجْمَعُ بَيْنَنَا ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
     "textSimple": "فلذلك فٱدع  وٱستقم كمآ أمرت  ولا تتبع أهوآءهم  وقل ءامنت بمآ أنزل ٱلله من كتـب  وأمرت لأعدل بينكم  ٱلله ربنا وربكم  لنآ أعمـلنا ولكم أعمـلكم  لا حجة بيننا وبينكم  ٱلله يجمع بيننا  وإليه ٱلمصير",
     "transliteration": "falidhālika fa-ud'ʿu wa-is'taqim kamā umir'ta walā tattabiʿ ahwāahum waqul āmantu bimā anzala l-lahu min kitābin wa-umir'tu li-aʿdila baynakumu l-lahu rabbunā warabbukum lanā aʿmālunā walakum aʿmālukum lā ḥujjata baynanā wabaynakumu l-lahu yajmaʿu baynanā wa-ilayhi l-maṣīru",
-    "translation": "",
+    "translation": "So to that [religion of Allāh] invite, [O Muḥammad], and remain on a right course as you are commanded and do not follow their inclinations but say, \"I have believed in what Allāh has revealed of scripture [i.e., the Qur’ān], and I have been commanded to do justice among you. Allāh is our Lord and your Lord. For us are our deeds, and for you your deeds. There is no [need for] argument between us and you. Allāh will bring us together, and to Him is the [final] destination.\"",
     "words": [
       {
         "id": "ash-shuraa-15-1",
@@ -1995,7 +2009,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Convie donc (les hommes à cette foi) ! Suis (la voie) de la droiture comme il t’a été ordonné ! Ne te laisse pas aller à suivre leurs penchants, et dis : « Je crois à tout Livre qu’Allah a fait descendre (en révélation), et ordre m’a été donné de juger entre vous équitablement. Allah est notre Seigneur et le vôtre. Nous avons nos propres œuvres et vous avez les vôtres. Il n’est aucun argument (de dispute) entre nous (désormais) : Allah nous réunira tous et c’est vers Lui que sera le devenir. »"
   },
   {
     "id": "ash-shuraa-16",
@@ -2004,7 +2019,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُحَآجُّونَ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ٱسْتُجِيبَ لَهُۥ حُجَّتُهُمْ دَاحِضَةٌ عِندَ رَبِّهِمْ وَعَلَيْهِمْ غَضَبٌ وَلَهُمْ عَذَابٌ شَدِيدٌ",
     "textSimple": "وٱلذين يحآجون فى ٱلله من بعد ما ٱستجيب له حجتهم داحضة عند ربهم وعليهم غضب ولهم عذاب شديد",
     "transliteration": "wa-alladhīna yuḥājjūna fī l-lahi min baʿdi mā us'tujība lahu ḥujjatuhum dāḥiḍatun ʿinda rabbihim waʿalayhim ghaḍabun walahum ʿadhābun shadīdun",
-    "translation": "",
+    "translation": "And those who argue concerning Allāh after He has been responded to - their argument is invalid with their Lord, and upon them is [His] wrath, and for them is a severe punishment.",
     "words": [
       {
         "id": "ash-shuraa-16-1",
@@ -2133,7 +2148,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui disputent (à coup d’arguments) au sujet d’Allah, après qu’il a été répondu à Son appel, leur argument n’a nulle valeur auprès de leur Seigneur. Sa colère s’abattra sur eux et ils auront un terrible supplice."
   },
   {
     "id": "ash-shuraa-17",
@@ -2142,7 +2158,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَـٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ ۗ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ قَرِيبٌ",
     "textSimple": "ٱلله ٱلذىٓ أنزل ٱلكتـب بٱلحق وٱلميزان  وما يدريك لعل ٱلساعة قريب",
     "transliteration": "al-lahu alladhī anzala l-kitāba bil-ḥaqi wal-mīzāna wamā yud'rīka laʿalla l-sāʿata qarībun",
-    "translation": "",
+    "translation": "It is Allāh who has sent down the Book in truth and [also] the balance [i.e., justice]. And what will make you perceive? Perhaps the Hour is near.",
     "words": [
       {
         "id": "ash-shuraa-17-1",
@@ -2222,7 +2238,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui a fait descendre (en révélation) le Livre en toute vérité, et (a établi) la balance (de la justice). Qu’en sais-tu ? Peut-être que l’Heure est toute proche."
   },
   {
     "id": "ash-shuraa-18",
@@ -2231,7 +2248,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ ءَامَنُوا۟ مُشْفِقُونَ مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ يُمَارُونَ فِى ٱلسَّاعَةِ لَفِى ضَلَـٰلٍۭ بَعِيدٍ",
     "textSimple": "يستعجل بها ٱلذين لا يؤمنون بها  وٱلذين ءامنوا مشفقون منها ويعلمون أنها ٱلحق  ألآ إن ٱلذين يمارون فى ٱلساعة لفى ضلـل بعيد",
     "transliteration": "yastaʿjilu bihā alladhīna lā yu'minūna bihā wa-alladhīna āmanū mush'fiqūna min'hā wayaʿlamūna annahā l-ḥaqu alā inna alladhīna yumārūna fī l-sāʿati lafī ḍalālin baʿīdin",
-    "translation": "",
+    "translation": "Those who do not believe in it are impatient for it, but those who believe are fearful of it and know that it is the truth. Unquestionably, those who dispute concerning the Hour are in extreme error.",
     "words": [
       {
         "id": "ash-shuraa-18-1",
@@ -2388,7 +2405,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui n’y croient pas voudraient en hâter (la venue) et ceux qui (y) croient en redoutent l’arrivée. Ils savent, (quant à eux) qu’elle est pure vérité. Ceux qui doutent de l’Heure vont loin dans l’égarement."
   },
   {
     "id": "ash-shuraa-19",
@@ -2397,7 +2415,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَطِيفٌۢ بِعِبَادِهِۦ يَرْزُقُ مَن يَشَآءُ ۖ وَهُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ",
     "textSimple": "ٱلله لطيف بعباده يرزق من يشآء  وهو ٱلقوى ٱلعزيز",
     "transliteration": "al-lahu laṭīfun biʿibādihi yarzuqu man yashāu wahuwa l-qawiyu l-ʿazīzu",
-    "translation": "",
+    "translation": "Allāh is Subtle with His servants; He gives provision to whom He wills. And He is the Powerful, the Exalted in Might.",
     "words": [
       {
         "id": "ash-shuraa-19-1",
@@ -2463,7 +2481,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est Subtil envers Ses serviteurs. Il dispense Ses bienfaits à qui Il veut et Il est le Fort, le Tout-Puissant."
   },
   {
     "id": "ash-shuraa-20",
@@ -2472,7 +2491,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "مَن كَانَ يُرِيدُ حَرْثَ ٱلْـَٔاخِرَةِ نَزِدْ لَهُۥ فِى حَرْثِهِۦ ۖ وَمَن كَانَ يُرِيدُ حَرْثَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَا لَهُۥ فِى ٱلْـَٔاخِرَةِ مِن نَّصِيبٍ",
     "textSimple": "من كان يريد حرث ٱلـٔاخرة نزد له فى حرثه  ومن كان يريد حرث ٱلدنيا نؤته منها وما له فى ٱلـٔاخرة من نصيب",
     "transliteration": "man kāna yurīdu ḥartha l-ākhirati nazid lahu fī ḥarthihi waman kāna yurīdu ḥartha l-dun'yā nu'tihi min'hā wamā lahu fī l-ākhirati min naṣībin",
-    "translation": "",
+    "translation": "Whoever desires the harvest of the Hereafter - We increase for him in his harvest [i.e., reward]. And whoever desires the harvest [i.e., benefits] of this world - We give him thereof, but there is not for him in the Hereafter any share.",
     "words": [
       {
         "id": "ash-shuraa-20-1",
@@ -2629,7 +2648,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque veut récolter (la moisson) de l’autre monde, Nous accroîtrons pour lui sa récolte ; et quiconque veut récolter (la moisson) de ce bas monde, Nous lui donnerons (de ce qu’il désire), mais il n’aura (droit à) aucune part de l’autre monde."
   },
   {
     "id": "ash-shuraa-21",
@@ -2638,7 +2658,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُمْ شُرَكَـٰٓؤُا۟ شَرَعُوا۟ لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "أم لهم شركـٓؤا شرعوا لهم من ٱلدين ما لم يأذن به ٱلله  ولولا كلمة ٱلفصل لقضى بينهم  وإن ٱلظـلمين لهم عذاب أليم",
     "transliteration": "am lahum shurakāu sharaʿū lahum mina l-dīni mā lam yadhan bihi l-lahu walawlā kalimatu l-faṣli laquḍiya baynahum wa-inna l-ẓālimīna lahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Or have they partners [i.e., other deities] who have ordained for them a religion to which Allāh has not consented? But if not for the decisive word, it would have been concluded between them. And indeed, the wrongdoers will have a painful punishment.",
     "words": [
       {
         "id": "ash-shuraa-21-1",
@@ -2795,7 +2815,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors ont-ils des associés qui ont prescrit pour eux, dans la religion, ce qu’Allah n’a pas permis ? Si le verdict tranchant n’avait pas été prononcé, ils auraient été départagés. Les injustes auront, certes, un supplice très douloureux."
   },
   {
     "id": "ash-shuraa-22",
@@ -2804,7 +2825,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "تَرَى ٱلظَّـٰلِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا۟ وَهُوَ وَاقِعٌۢ بِهِمْ ۗ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فِى رَوْضَاتِ ٱلْجَنَّاتِ ۖ لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
     "textSimple": "ترى ٱلظـلمين مشفقين مما كسبوا وهو واقع بهم  وٱلذين ءامنوا وعملوا ٱلصـلحـت فى روضات ٱلجنات  لهم ما يشآءون عند ربهم  ذلك هو ٱلفضل ٱلكبير",
     "transliteration": "tarā l-ẓālimīna mush'fiqīna mimmā kasabū wahuwa wāqiʿun bihim wa-alladhīna āmanū waʿamilū l-ṣāliḥāti fī rawḍāti l-janāti lahum mā yashāūna ʿinda rabbihim dhālika huwa l-faḍlu l-kabīru",
-    "translation": "",
+    "translation": "You will see the wrongdoers fearful of what they have earned, and it will [certainly] befall them. And those who have believed and done righteous deeds will be in lush regions of the gardens [in Paradise] having whatever they will in the presence of their Lord. That is what is the great bounty.",
     "words": [
       {
         "id": "ash-shuraa-22-1",
@@ -2975,7 +2996,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu verras les injustes redoutant les actions qu’ils ont commises. (Le supplice) fondra sur eux inexorablement. Ceux qui auront cru et auront accompli les bonnes œuvres seront, eux, dans des jardins verdoyants. Auprès de leur Seigneur, tous leurs désirs seront satisfaits. Telle est la faveur suprême !"
   },
   {
     "id": "ash-shuraa-23",
@@ -2984,7 +3006,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن يَقْتَرِفْ حَسَنَةً نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌ شَكُورٌ",
     "textSimple": "ذلك ٱلذى يبشر ٱلله عباده ٱلذين ءامنوا وعملوا ٱلصـلحـت  قل لآ أسـٔلكم عليه أجرا إلا ٱلمودة فى ٱلقربى  ومن يقترف حسنة نزد له فيها حسنا  إن ٱلله غفور شكور",
     "transliteration": "dhālika alladhī yubashiru l-lahu ʿibādahu alladhīna āmanū waʿamilū l-ṣāliḥāti qul lā asalukum ʿalayhi ajran illā l-mawadata fī l-qur'bā waman yaqtarif ḥasanatan nazid lahu fīhā ḥus'nan inna l-laha ghafūrun shakūrun",
-    "translation": "",
+    "translation": "It is that of which Allāh gives good tidings to His servants who believe and do righteous deeds. Say, [O Muḥammad], \"I do not ask you for it [i.e., this message] any payment [but] only good will through [i.e., due to] kinship.\" And whoever commits a good deed - We will increase for him good therein. Indeed, Allāh is Forgiving and Appreciative.",
     "words": [
       {
         "id": "ash-shuraa-23-1",
@@ -3190,7 +3212,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est l’heureuse nouvelle qu’Allah annonce à Ses serviteurs qui croient et accomplissent les bonnes œuvres. Dis : « Je ne vous réclame pour cela aucune récompense, hors l’affection due aux proches. » Quiconque accomplit une bonne action Nous la lui rendrons encore meilleure. Allah est Absoluteur et si Reconnaissant !"
   },
   {
     "id": "ash-shuraa-24",
@@ -3199,7 +3222,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۖ فَإِن يَشَإِ ٱللَّهُ يَخْتِمْ عَلَىٰ قَلْبِكَ ۗ وَيَمْحُ ٱللَّهُ ٱلْبَـٰطِلَ وَيُحِقُّ ٱلْحَقَّ بِكَلِمَـٰتِهِۦٓ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "أم يقولون ٱفترى على ٱلله كذبا  فإن يشإ ٱلله يختم على قلبك  ويمح ٱلله ٱلبـطل ويحق ٱلحق بكلمـتهٓ  إنه عليم بذات ٱلصدور",
     "transliteration": "am yaqūlūna if'tarā ʿalā l-lahi kadhiban fa-in yasha-i l-lahu yakhtim ʿalā qalbika wayamḥu l-lahu l-bāṭila wayuḥiqqu l-ḥaqa bikalimātihi innahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "Or do they say, \"He has invented about Allāh a lie\"? But if Allāh willed, He could seal over your heart. And Allāh eliminates falsehood and establishes the truth by His words. Indeed, He is Knowing of that within the breasts.",
     "words": [
       {
         "id": "ash-shuraa-24-1",
@@ -3356,7 +3379,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors disent-ils : « Il débite des mensonges sur le compte d’Allah » ? Mais si Allah voulait, Il imprimerait un sceau sur ton cœur. Allah, par Ses paroles, efface l’erreur et établit la vérité. Car Il Sait parfaitement ce qu’il y a au fond des cœurs."
   },
   {
     "id": "ash-shuraa-25",
@@ -3365,7 +3389,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَعْفُوا۟ عَنِ ٱلسَّيِّـَٔاتِ وَيَعْلَمُ مَا تَفْعَلُونَ",
     "textSimple": "وهو ٱلذى يقبل ٱلتوبة عن عباده ويعفوا عن ٱلسيـٔات ويعلم ما تفعلون",
     "transliteration": "wahuwa alladhī yaqbalu l-tawbata ʿan ʿibādihi wayaʿfū ʿani l-sayiāti wayaʿlamu mā tafʿalūna",
-    "translation": "",
+    "translation": "And it is He who accepts repentance from His servants and pardons misdeeds, and He knows what you do.",
     "words": [
       {
         "id": "ash-shuraa-25-1",
@@ -3452,7 +3476,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui accepte le repentir de Ses serviteurs, Qui pardonne les mauvaises actions et Sait ce que vous faites."
   },
   {
     "id": "ash-shuraa-26",
@@ -3461,7 +3486,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۚ وَٱلْكَـٰفِرُونَ لَهُمْ عَذَابٌ شَدِيدٌ",
     "textSimple": "ويستجيب ٱلذين ءامنوا وعملوا ٱلصـلحـت ويزيدهم من فضله  وٱلكـفرون لهم عذاب شديد",
     "transliteration": "wayastajību alladhīna āmanū waʿamilū l-ṣāliḥāti wayazīduhum min faḍlihi wal-kāfirūna lahum ʿadhābun shadīdun",
-    "translation": "",
+    "translation": "And He answers [the supplication of] those who have believed and done righteous deeds and increases [for] them from His bounty. But the disbelievers will have a severe punishment.",
     "words": [
       {
         "id": "ash-shuraa-26-1",
@@ -3548,7 +3573,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il exauce ceux qui ont cru et ont accompli les bonnes œuvres, et leur ajoute de Ses faveurs. Quant aux mécréants, ils sont voués à un terrible supplice."
   },
   {
     "id": "ash-shuraa-27",
@@ -3557,7 +3583,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَوْ بَسَطَ ٱللَّهُ ٱلرِّزْقَ لِعِبَادِهِۦ لَبَغَوْا۟ فِى ٱلْأَرْضِ وَلَـٰكِن يُنَزِّلُ بِقَدَرٍ مَّا يَشَآءُ ۚ إِنَّهُۥ بِعِبَادِهِۦ خَبِيرٌۢ بَصِيرٌ",
     "textSimple": " ولو بسط ٱلله ٱلرزق لعباده لبغوا فى ٱلأرض ولـكن ينزل بقدر ما يشآء  إنه بعباده خبير بصير",
     "transliteration": "walaw basaṭa l-lahu l-riz'qa liʿibādihi labaghaw fī l-arḍi walākin yunazzilu biqadarin mā yashāu innahu biʿibādihi khabīrun baṣīrun",
-    "translation": "",
+    "translation": "And if Allāh had extended [excessively] provision for His servants, they would have committed tyranny throughout the earth. But He sends [it] down in an amount which He wills. Indeed He is, of His servants, Aware and Seeing.",
     "words": [
       {
         "id": "ash-shuraa-27-1",
@@ -3679,7 +3705,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah dispensait trop largement les bienfaits à Ses serviteurs, ceux-ci se livreraient aux abus sur terre, mais Il leur envoie avec mesure ce qu’il Lui plaît (d’envoyer). Il est certes parfaitement Informé de Ses serviteurs, et Il est, à leur sujet, infiniment Lucide."
   },
   {
     "id": "ash-shuraa-28",
@@ -3688,7 +3715,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
     "textSimple": "وهو ٱلذى ينزل ٱلغيث من بعد ما قنطوا وينشر رحمته  وهو ٱلولى ٱلحميد",
     "transliteration": "wahuwa alladhī yunazzilu l-ghaytha min baʿdi mā qanaṭū wayanshuru raḥmatahu wahuwa l-waliyu l-ḥamīdu",
-    "translation": "",
+    "translation": "And it is He who sends down the rain after they had despaired and spreads His mercy. And He is the Protector, the Praiseworthy.",
     "words": [
       {
         "id": "ash-shuraa-28-1",
@@ -3782,7 +3809,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui fait descendre la pluie bénéfique après que (les hommes) en désespèrent, et répand Sa grâce, Lui le Protecteur, le Digne de Toute Louange."
   },
   {
     "id": "ash-shuraa-29",
@@ -3791,7 +3819,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ ءَايَـٰتِهِۦ خَلْقُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَثَّ فِيهِمَا مِن دَآبَّةٍ ۚ وَهُوَ عَلَىٰ جَمْعِهِمْ إِذَا يَشَآءُ قَدِيرٌ",
     "textSimple": "ومن ءايـته خلق ٱلسمـوت وٱلأرض وما بث فيهما من دآبة  وهو على جمعهم إذا يشآء قدير",
     "transliteration": "wamin āyātihi khalqu l-samāwāti wal-arḍi wamā batha fīhimā min dābbatin wahuwa ʿalā jamʿihim idhā yashāu qadīrun",
-    "translation": "",
+    "translation": "And of His signs is the creation of the heavens and earth and what He has dispersed throughout them of creatures. And He, for gathering them when He wills, is competent.",
     "words": [
       {
         "id": "ash-shuraa-29-1",
@@ -3906,7 +3934,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’un de Ses Signes est la création des cieux, de la terre et de tous les êtres vivants qui y sont dispersés. Or, Il est Infiniment Capable de les réunir quand Il le voudra."
   },
   {
     "id": "ash-shuraa-30",
@@ -3915,7 +3944,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَصَـٰبَكُم مِّن مُّصِيبَةٍ فَبِمَا كَسَبَتْ أَيْدِيكُمْ وَيَعْفُوا۟ عَن كَثِيرٍ",
     "textSimple": "ومآ أصـبكم من مصيبة فبما كسبت أيديكم ويعفوا عن كثير",
     "transliteration": "wamā aṣābakum min muṣībatin fabimā kasabat aydīkum wayaʿfū ʿan kathīrin",
-    "translation": "",
+    "translation": "And whatever strikes you of disaster - it is for what your hands have earned; but He pardons much.",
     "words": [
       {
         "id": "ash-shuraa-30-1",
@@ -3988,7 +4017,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucun malheur ne vous frappe qui ne soit dû aux œuvres commises de vos propres mains. Et Il (vous en) pardonne beaucoup."
   },
   {
     "id": "ash-shuraa-31",
@@ -3997,7 +4027,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
     "textSimple": "ومآ أنتم بمعجزين فى ٱلأرض  وما لكم من دون ٱلله من ولى ولا نصير",
     "transliteration": "wamā antum bimuʿ'jizīna fī l-arḍi wamā lakum min dūni l-lahi min waliyyin walā naṣīrin",
-    "translation": "",
+    "translation": "And you will not cause failure [to Allāh] upon the earth. And you have not besides Allāh any protector or helper.",
     "words": [
       {
         "id": "ash-shuraa-31-1",
@@ -4098,7 +4128,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous ne pourrez mettre au défi Sa puissance sur terre, et vous n’avez, en dehors d’Allah, ni protecteur ni allié."
   },
   {
     "id": "ash-shuraa-32",
@@ -4107,7 +4138,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنْ ءَايَـٰتِهِ ٱلْجَوَارِ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ",
     "textSimple": "ومن ءايـته ٱلجوار فى ٱلبحر كٱلأعلـم",
     "transliteration": "wamin āyātihi l-jawāri fī l-baḥri kal-aʿlāmi",
-    "translation": "",
+    "translation": "And of His signs are the ships in the sea, like mountains.",
     "words": [
       {
         "id": "ash-shuraa-32-1",
@@ -4152,7 +4183,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi Ses Signes, sont les vaisseaux (voguant) en mer, (hauts) comme des montagnes."
   },
   {
     "id": "ash-shuraa-33",
@@ -4161,7 +4193,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَشَأْ يُسْكِنِ ٱلرِّيحَ فَيَظْلَلْنَ رَوَاكِدَ عَلَىٰ ظَهْرِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
     "textSimple": "إن يشأ يسكن ٱلريح فيظللن رواكد على ظهرهٓ  إن فى ذلك لـٔايـت لكل صبار شكور",
     "transliteration": "in yasha yus'kini l-rīḥa fayaẓlalna rawākida ʿalā ẓahrihi inna fī dhālika laāyātin likulli ṣabbārin shakūrin",
-    "translation": "",
+    "translation": "If He willed, He could still the wind, and they would remain motionless on its surface. Indeed in that are signs for everyone patient and grateful.",
     "words": [
       {
         "id": "ash-shuraa-33-1",
@@ -4269,7 +4301,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’Il veut, Il calme les vents, (et les vaisseaux) restent alors immobiles à la surface (de la mer). Il y a certes là des Signes pour qui est persévérant et reconnaissant."
   },
   {
     "id": "ash-shuraa-34",
@@ -4278,7 +4311,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يُوبِقْهُنَّ بِمَا كَسَبُوا۟ وَيَعْفُ عَن كَثِيرٍ",
     "textSimple": "أو يوبقهن بما كسبوا ويعف عن كثير",
     "transliteration": "aw yūbiq'hunna bimā kasabū wayaʿfu ʿan kathīrin",
-    "translation": "",
+    "translation": "Or He could destroy them for what they earned; but He pardons much.",
     "words": [
       {
         "id": "ash-shuraa-34-1",
@@ -4330,7 +4363,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou bien (s’Il le voulait), Il ferait couler (ces vaisseaux) en punition de ce que (les hommes) ont commis (comme péchés). Mais Il (en) pardonne beaucoup !"
   },
   {
     "id": "ash-shuraa-35",
@@ -4339,7 +4373,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَعْلَمَ ٱلَّذِينَ يُجَـٰدِلُونَ فِىٓ ءَايَـٰتِنَا مَا لَهُم مِّن مَّحِيصٍ",
     "textSimple": "ويعلم ٱلذين يجـدلون فىٓ ءايـتنا ما لهم من محيص",
     "transliteration": "wayaʿlama alladhīna yujādilūna fī āyātinā mā lahum min maḥīṣin",
-    "translation": "",
+    "translation": "And [that is so] those who dispute concerning Our signs may know that for them there is no place of escape.",
     "words": [
       {
         "id": "ash-shuraa-35-1",
@@ -4405,7 +4439,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Afin que) ceux qui disputent au sujet de Nos Signes sachent bien qu’ils n’ont aucune issue (pour se sauver)."
   },
   {
     "id": "ash-shuraa-36",
@@ -4414,7 +4449,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "فَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَمَا عِندَ ٱللَّهِ خَيْرٌ وَأَبْقَىٰ لِلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
     "textSimple": "فمآ أوتيتم من شىء فمتـع ٱلحيوة ٱلدنيا  وما عند ٱلله خير وأبقى للذين ءامنوا وعلى ربهم يتوكلون",
     "transliteration": "famā ūtītum min shayin famatāʿu l-ḥayati l-dun'yā wamā ʿinda l-lahi khayrun wa-abqā lilladhīna āmanū waʿalā rabbihim yatawakkalūna",
-    "translation": "",
+    "translation": "So whatever thing you have been given - it is but [for] enjoyment of the worldly life. But what is with Allāh is better and more lasting for those who have believed and upon their Lord rely",
     "words": [
       {
         "id": "ash-shuraa-36-1",
@@ -4536,7 +4571,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien ne vous a été donné qui ne soit jouissance éphémère de ce bas monde. Ce qu’il y a auprès d’Allah est bien meilleur et plus durable pour ceux qui ont cru et qui s’en remettent à leur Seigneur,"
   },
   {
     "id": "ash-shuraa-37",
@@ -4545,7 +4581,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ وَإِذَا مَا غَضِبُوا۟ هُمْ يَغْفِرُونَ",
     "textSimple": "وٱلذين يجتنبون كبـٓئر ٱلإثم وٱلفوحش وإذا ما غضبوا هم يغفرون",
     "transliteration": "wa-alladhīna yajtanibūna kabāira l-ith'mi wal-fawāḥisha wa-idhā mā ghaḍibū hum yaghfirūna",
-    "translation": "",
+    "translation": "And those who avoid the major sins and immoralities, and when they are angry, they forgive,",
     "words": [
       {
         "id": "ash-shuraa-37-1",
@@ -4618,7 +4654,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui évitent les péchés majeurs et les turpitudes, et qui, (même) sous l’emprise de la colère, pardonnent volontiers ;"
   },
   {
     "id": "ash-shuraa-38",
@@ -4627,7 +4664,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     "textSimple": "وٱلذين ٱستجابوا لربهم وأقاموا ٱلصلوة وأمرهم شورى بينهم ومما رزقنـهم ينفقون",
     "transliteration": "wa-alladhīna is'tajābū lirabbihim wa-aqāmū l-ṣalata wa-amruhum shūrā baynahum wamimmā razaqnāhum yunfiqūna",
-    "translation": "",
+    "translation": "And those who have responded to their Lord and established prayer and whose affair is [determined by] consultation among themselves, and from what We have provided them, they spend,",
     "words": [
       {
         "id": "ash-shuraa-38-1",
@@ -4707,7 +4744,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ceux qui répondent (à l’appel) de leur Seigneur, accomplissent la Çalât et dont les affaires sont, entre eux, sujet de concertation ; ceux qui dépensent (en aumône) des biens que Nous leur dispensons,"
   },
   {
     "id": "ash-shuraa-39",
@@ -4716,7 +4754,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ إِذَآ أَصَابَهُمُ ٱلْبَغْىُ هُمْ يَنتَصِرُونَ",
     "textSimple": "وٱلذين إذآ أصابهم ٱلبغى هم ينتصرون",
     "transliteration": "wa-alladhīna idhā aṣābahumu l-baghyu hum yantaṣirūna",
-    "translation": "",
+    "translation": "And those who, when tyranny strikes them, they retaliate [in a just manner].",
     "words": [
       {
         "id": "ash-shuraa-39-1",
@@ -4761,7 +4799,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ceux qui, lorsqu’ils sont injustement agressés, se défendent."
   },
   {
     "id": "ash-shuraa-40",
@@ -4770,7 +4809,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَزَٰٓؤُا۟ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلظَّـٰلِمِينَ",
     "textSimple": "وجزٓؤا سيئة سيئة مثلها  فمن عفا وأصلح فأجره على ٱلله  إنه لا يحب ٱلظـلمين",
     "transliteration": "wajazāu sayyi-atin sayyi-atun mith'luhā faman ʿafā wa-aṣlaḥa fa-ajruhu ʿalā l-lahi innahu lā yuḥibbu l-ẓālimīna",
-    "translation": "",
+    "translation": "And the retribution for an evil act is an evil one like it, but whoever pardons and makes reconciliation - his reward is [due] from Allāh. Indeed, He does not like wrongdoers.",
     "words": [
       {
         "id": "ash-shuraa-40-1",
@@ -4871,7 +4910,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À tout tort subi une sanction égale. Celui qui pardonne, cependant, et cherche réconciliation, trouvera sa récompense auprès d’Allah, Qui, Lui, n’aime pas les injustes."
   },
   {
     "id": "ash-shuraa-41",
@@ -4880,7 +4920,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَنِ ٱنتَصَرَ بَعْدَ ظُلْمِهِۦ فَأُو۟لَـٰٓئِكَ مَا عَلَيْهِم مِّن سَبِيلٍ",
     "textSimple": "ولمن ٱنتصر بعد ظلمه فأولـٓئك ما عليهم من سبيل",
     "transliteration": "walamani intaṣara baʿda ẓul'mihi fa-ulāika mā ʿalayhim min sabīlin",
-    "translation": "",
+    "translation": "And whoever retaliates after having been wronged - those have not upon them any cause [for blame].",
     "words": [
       {
         "id": "ash-shuraa-41-1",
@@ -4946,7 +4986,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui se défendent contre une injustice, ceux-là ne sont sujets à aucune poursuite (légale)."
   },
   {
     "id": "ash-shuraa-42",
@@ -4955,7 +4996,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "إنما ٱلسبيل على ٱلذين يظلمون ٱلناس ويبغون فى ٱلأرض بغير ٱلحق  أولـٓئك لهم عذاب أليم",
     "transliteration": "innamā l-sabīlu ʿalā alladhīna yaẓlimūna l-nāsa wayabghūna fī l-arḍi bighayri l-ḥaqi ulāika lahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "The cause is only against the ones who wrong the people and tyrannize upon the earth without right. Those will have a painful punishment.",
     "words": [
       {
         "id": "ash-shuraa-42-1",
@@ -5063,7 +5104,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y aura de poursuite que contre ceux qui commettent des injustices envers les autres, qui se livrent, sans juste raison, aux abus sur terre : ceux-là subiront un supplice très douloureux."
   },
   {
     "id": "ash-shuraa-43",
@@ -5072,7 +5114,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ",
     "textSimple": "ولمن صبر وغفر إن ذلك لمن عزم ٱلأمور",
     "transliteration": "walaman ṣabara waghafara inna dhālika lamin ʿazmi l-umūri",
-    "translation": "",
+    "translation": "And whoever is patient and forgives - indeed, that is of the matters [worthy] of resolve.",
     "words": [
       {
         "id": "ash-shuraa-43-1",
@@ -5131,7 +5173,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Endurer et pardonner, voilà bien la meilleure résolution (à prendre)."
   },
   {
     "id": "ash-shuraa-44",
@@ -5140,7 +5183,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِن وَلِىٍّ مِّنۢ بَعْدِهِۦ ۗ وَتَرَى ٱلظَّـٰلِمِينَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ يَقُولُونَ هَلْ إِلَىٰ مَرَدٍّ مِّن سَبِيلٍ",
     "textSimple": "ومن يضلل ٱلله فما له من ولى من بعده  وترى ٱلظـلمين لما رأوا ٱلعذاب يقولون هل إلى مرد من سبيل",
     "transliteration": "waman yuḍ'lili l-lahu famā lahu min waliyyin min baʿdihi watarā l-ẓālimīna lammā ra-awū l-ʿadhāba yaqūlūna hal ilā maraddin min sabīlin",
-    "translation": "",
+    "translation": "And he whom Allāh sends astray - for him there is no protector beyond Him. And you will see the wrongdoers, when they see the punishment, saying, \"Is there for return [to the former world] any way?\"",
     "words": [
       {
         "id": "ash-shuraa-44-1",
@@ -5283,7 +5326,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qu’Allah égare n’aura point d’autre protecteur. Et tu verras les injustes dire, en voyant le supplice : « Est-il encore possible de revenir (sur terre) ? »"
   },
   {
     "id": "ash-shuraa-45",
@@ -5292,7 +5336,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَـٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّ ۗ وَقَالَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ ٱلْخَـٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّـٰلِمِينَ فِى عَذَابٍ مُّقِيمٍ",
     "textSimple": "وترىهم يعرضون عليها خـشعين من ٱلذل ينظرون من طرف خفى  وقال ٱلذين ءامنوٓا إن ٱلخـسرين ٱلذين خسروٓا أنفسهم وأهليهم يوم ٱلقيـمة  ألآ إن ٱلظـلمين فى عذاب مقيم",
     "transliteration": "watarāhum yuʿ'raḍūna ʿalayhā khāshiʿīna mina l-dhuli yanẓurūna min ṭarfin khafiyyin waqāla alladhīna āmanū inna l-khāsirīna alladhīna khasirū anfusahum wa-ahlīhim yawma l-qiyāmati alā inna l-ẓālimīna fī ʿadhābin muqīmin",
-    "translation": "",
+    "translation": "And you will see them being exposed to it [i.e., the Fire], humbled from humiliation, looking from [behind] a covert glance. And those who had believed will say, \"Indeed, the [true] losers are the ones who lost themselves and their families on the Day of Resurrection. Unquestionably, the wrongdoers are in an enduring punishment.\"",
     "words": [
       {
         "id": "ash-shuraa-45-1",
@@ -5484,7 +5528,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu les verras qui comparaîtront au-devant (de l’Enfer), la tête baissée d’humiliation et regardant de biais. Ceux qui ont cru diront : « Les vrais perdants sont ceux qui, au Jour de la Résurrection se seront perdus eux-mêmes et (auront perdu) leurs familles. » Les injustes seront certes voués à un supplice sans fin."
   },
   {
     "id": "ash-shuraa-46",
@@ -5493,7 +5538,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لَهُم مِّنْ أَوْلِيَآءَ يَنصُرُونَهُم مِّن دُونِ ٱللَّهِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِن سَبِيلٍ",
     "textSimple": "وما كان لهم من أوليآء ينصرونهم من دون ٱلله  ومن يضلل ٱلله فما له من سبيل",
     "transliteration": "wamā kāna lahum min awliyāa yanṣurūnahum min dūni l-lahi waman yuḍ'lili l-lahu famā lahu min sabīlin",
-    "translation": "",
+    "translation": "And there will not be for them any allies to aid them other than Allāh. And whoever Allāh sends astray - for him there is no way.",
     "words": [
       {
         "id": "ash-shuraa-46-1",
@@ -5608,7 +5653,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En dehors d’Allah, ils n’auront pas de protecteurs qui viendront à leur secours. Celui qu’Allah entend égarer ne retrouvera plus (son) chemin."
   },
   {
     "id": "ash-shuraa-47",
@@ -5617,7 +5663,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "ٱسْتَجِيبُوا۟ لِرَبِّكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۚ مَا لَكُم مِّن مَّلْجَإٍ يَوْمَئِذٍ وَمَا لَكُم مِّن نَّكِيرٍ",
     "textSimple": "ٱستجيبوا لربكم من قبل أن يأتى يوم لا مرد له من ٱلله  ما لكم من ملجإ يومئذ وما لكم من نكير",
     "transliteration": "is'tajībū lirabbikum min qabli an yatiya yawmun lā maradda lahu mina l-lahi mā lakum min malja-in yawma-idhin wamā lakum min nakīrin",
-    "translation": "",
+    "translation": "Respond to your Lord before a Day comes from Allāh of which there is no repelling. No refuge will you have that Day, nor for you will there be any denial.",
     "words": [
       {
         "id": "ash-shuraa-47-1",
@@ -5767,7 +5813,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Répondez donc à l’appel de votre Seigneur avant que n’arrive un jour qu’Allah ne différera pas. Ce jour-là, vous n’aurez point de refuge, ni d’endroit où vous dissimuler."
   },
   {
     "id": "ash-shuraa-48",
@@ -5776,7 +5823,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَـٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَـٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَـٰنَ مِنَّا رَحْمَةً فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَـٰنَ كَفُورٌ",
     "textSimple": "فإن أعرضوا فمآ أرسلنـك عليهم حفيظا  إن عليك إلا ٱلبلـغ  وإنآ إذآ أذقنا ٱلإنسـن منا رحمة فرح بها  وإن تصبهم سيئة بما قدمت أيديهم فإن ٱلإنسـن كفور",
     "transliteration": "fa-in aʿraḍū famā arsalnāka ʿalayhim ḥafīẓan in ʿalayka illā l-balāghu wa-innā idhā adhaqnā l-insāna minnā raḥmatan fariḥa bihā wa-in tuṣib'hum sayyi-atun bimā qaddamat aydīhim fa-inna l-insāna kafūrun",
-    "translation": "",
+    "translation": "But if they turn away - then We have not sent you, [O Muḥammad], over them as a guardian; upon you is only [the duty of] notification. And indeed, when We let man taste mercy from Us, he rejoices in it; but if evil afflicts him for what his hands have put forth, then indeed, man is ungrateful.",
     "words": [
       {
         "id": "ash-shuraa-48-1",
@@ -5968,7 +6015,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils se détournent, (sache que) Nous ne t’avons pas envoyé pour être leur gardien : il ne t’incombe que de transmettre (Notre Message). Lorsque Nous faisons goûter (aux hommes) une grâce de Notre part, ils s’en réjouissent, mais dès qu’un malheur les frappe pour prix de ce qu’ils ont commis de leurs propres mains, voilà que l’homme se montre outrageusement ingrat !"
   },
   {
     "id": "ash-shuraa-49",
@@ -5977,7 +6025,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "لِّلَّهِ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ يَخْلُقُ مَا يَشَآءُ ۚ يَهَبُ لِمَن يَشَآءُ إِنَـٰثًا وَيَهَبُ لِمَن يَشَآءُ ٱلذُّكُورَ",
     "textSimple": "لله ملك ٱلسمـوت وٱلأرض  يخلق ما يشآء  يهب لمن يشآء إنـثا ويهب لمن يشآء ٱلذكور",
     "transliteration": "lillahi mul'ku l-samāwāti wal-arḍi yakhluqu mā yashāu yahabu liman yashāu ināthan wayahabu liman yashāu l-dhukūra",
-    "translation": "",
+    "translation": "To Allāh belongs the dominion of the heavens and the earth; He creates what He wills. He gives to whom He wills female [children], and He gives to whom He wills males.",
     "words": [
       {
         "id": "ash-shuraa-49-1",
@@ -6085,7 +6133,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Allah que revient la royauté des cieux et de la terre. Il crée ce qu’Il veut. Il donne à qui Il veut des filles et donne à qui Il veut des garçons,"
   },
   {
     "id": "ash-shuraa-50",
@@ -6094,7 +6143,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يُزَوِّجُهُمْ ذُكْرَانًا وَإِنَـٰثًا ۖ وَيَجْعَلُ مَن يَشَآءُ عَقِيمًا ۚ إِنَّهُۥ عَلِيمٌ قَدِيرٌ",
     "textSimple": "أو يزوجهم ذكرانا وإنـثا  ويجعل من يشآء عقيما  إنه عليم قدير",
     "transliteration": "aw yuzawwijuhum dhuk'rānan wa-ināthan wayajʿalu man yashāu ʿaqīman innahu ʿalīmun qadīrun",
-    "translation": "",
+    "translation": "Or He makes them [both] males and females, and He renders whom He wills barren. Indeed, He is Knowing and Competent.",
     "words": [
       {
         "id": "ash-shuraa-50-1",
@@ -6174,7 +6223,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou mêle à la fois garçons et filles ; et Il fait stérile qui Il veut : Il est Omniscient et Omnipotent !"
   },
   {
     "id": "ash-shuraa-51",
@@ -6183,7 +6233,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَا كَانَ لِبَشَرٍ أَن يُكَلِّمَهُ ٱللَّهُ إِلَّا وَحْيًا أَوْ مِن وَرَآئِ حِجَابٍ أَوْ يُرْسِلَ رَسُولًا فَيُوحِىَ بِإِذْنِهِۦ مَا يَشَآءُ ۚ إِنَّهُۥ عَلِىٌّ حَكِيمٌ",
     "textSimple": " وما كان لبشر أن يكلمه ٱلله إلا وحيا أو من ورآئ حجاب أو يرسل رسولا فيوحى بإذنه ما يشآء  إنه على حكيم",
     "transliteration": "wamā kāna libasharin an yukallimahu l-lahu illā waḥyan aw min warāi ḥijābin aw yur'sila rasūlan fayūḥiya bi-idh'nihi mā yashāu innahu ʿaliyyun ḥakīmun",
-    "translation": "",
+    "translation": "And it is not for any human being that Allāh should speak to him except by revelation or from behind a partition or that He sends a messenger [i.e., angel] to reveal, by His permission, what He wills. Indeed, He is Most High and Wise.",
     "words": [
       {
         "id": "ash-shuraa-51-1",
@@ -6340,7 +6390,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un humain ne peut espérer qu’Allah lui parle si ce n’est par révélation, de derrière un voile ou par l’envoi d’un émissaire qui révèle, par Sa permission, ce que Lui veut. Il est certes Très Haut et Sage."
   },
   {
     "id": "ash-shuraa-52",
@@ -6349,7 +6400,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحًا مِّنْ أَمْرِنَا ۚ مَا كُنتَ تَدْرِى مَا ٱلْكِتَـٰبُ وَلَا ٱلْإِيمَـٰنُ وَلَـٰكِن جَعَلْنَـٰهُ نُورًا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا ۚ وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "وكذلك أوحينآ إليك روحا من أمرنا  ما كنت تدرى ما ٱلكتـب ولا ٱلإيمـن ولـكن جعلنـه نورا نهدى به من نشآء من عبادنا  وإنك لتهدىٓ إلى صرط مستقيم",
     "transliteration": "wakadhālika awḥaynā ilayka rūḥan min amrinā mā kunta tadrī mā l-kitābu walā l-īmānu walākin jaʿalnāhu nūran nahdī bihi man nashāu min ʿibādinā wa-innaka latahdī ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "And thus We have revealed to you an inspiration of Our command [i.e., the Qur’ān]. You did not know what is the Book or [what is] faith, but We have made it a light by which We guide whom We will of Our servants. And indeed, [O Muḥammad], you guide to a straight path -",
     "words": [
       {
         "id": "ash-shuraa-52-1",
@@ -6541,7 +6592,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous t’avons révélé un Esprit émanant de Notre ordre. Tu ne savais pas ce qu’est le Livre, pas plus que tu ne savais ce qu’est la foi. Mais Nous en avons fait la lumière dont Nous guidons qui Nous voulons parmi Nos serviteurs. Tu ne guides en vérité que vers une voie droite,"
   },
   {
     "id": "ash-shuraa-53",
@@ -6550,7 +6602,7 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
     "textUthmani": "صِرَٰطِ ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ أَلَآ إِلَى ٱللَّهِ تَصِيرُ ٱلْأُمُورُ",
     "textSimple": "صرط ٱلله ٱلذى له ما فى ٱلسمـوت وما فى ٱلأرض  ألآ إلى ٱلله تصير ٱلأمور",
     "transliteration": "ṣirāṭi l-lahi alladhī lahu mā fī l-samāwāti wamā fī l-arḍi alā ilā l-lahi taṣīru l-umūru",
-    "translation": "",
+    "translation": "The path of Allāh, to whom belongs whatever is in the heavens and whatever is on the earth. Unquestionably, to Allāh do [all] matters evolve [i.e., return].",
     "words": [
       {
         "id": "ash-shuraa-53-1",
@@ -6658,7 +6710,8 @@ export const ASH_SHURAA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "la voie d’Allah à Qui appartient ce qu’il y a dans les cieux et sur terre. Certes c’est vers Allah qu’ira le devenir de Toute chose !"
   }
 ];
 

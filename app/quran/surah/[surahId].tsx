@@ -4,6 +4,7 @@ import { useLocalSearchParams, router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { getSurahById, getSurahByNumber } from '../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../src/hooks/useQuranData';
 import { useQuranStore } from '../../../src/stores/quranStore';
@@ -17,6 +18,7 @@ import { showInterstitialIfReady } from '../../../src/services/adService';
 
 export default function SurahDetailScreen() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
   const [activeAyahId, setActiveAyahId] = useState<string | null>(null);
   const [audioState, setAudioState] = useState<AudioState>('idle');
@@ -350,7 +352,7 @@ export default function SurahDetailScreen() {
   const renderAyahItem = useCallback(({ item: ayah }: { item: typeof ayahs[0] }) => {
     // Override translation with language-specific version if available
     const translatedAyah = langTranslations.size > 0
-      ? { ...ayah, translation: langTranslations.get(ayah.ayahNumber) || ayah.translation }
+      ? { ...ayah, translation: langTranslations.get(ayah.ayahNumber) || lc(ayah.translation, ayah.translationFr) }
       : ayah;
 
     return (
@@ -381,7 +383,7 @@ export default function SurahDetailScreen() {
         onSpeedChange={handleSpeedChange}
       />
     );
-  }, [progress.settings, surahId, surah, surahProgress.bookmarkedAyahs, activeAyahId, audioState, isAyahLearned, isAyahMemorized, handlePlayAyah, handleBookmark, handleAyahPress, handleSpeedChange, langTranslations]);
+  }, [progress.settings, surahId, surah, surahProgress.bookmarkedAyahs, activeAyahId, audioState, isAyahLearned, isAyahMemorized, handlePlayAyah, handleBookmark, handleAyahPress, handleSpeedChange, langTranslations, lc]);
 
   // List header component
   const ListHeader = useCallback(() => (

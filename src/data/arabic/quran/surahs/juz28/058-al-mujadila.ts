@@ -11,7 +11,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": " قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَـٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمَآ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
     "textSimple": " قد سمع ٱلله قول ٱلتى تجـدلك فى زوجها وتشتكىٓ إلى ٱلله وٱلله يسمع تحاوركمآ  إن ٱلله سميع بصير",
     "transliteration": "qad samiʿa l-lahu qawla allatī tujādiluka fī zawjihā watashtakī ilā l-lahi wal-lahu yasmaʿu taḥāwurakumā inna l-laha samīʿun baṣīrun",
-    "translation": "",
+    "translation": "Certainly has Allāh heard the speech of the one who argues [i.e., pleads] with you, [O Muḥammad], concerning her husband and directs her complaint to Allāh. And Allāh hears your dialogue; indeed, Allāh is Hearing and Seeing.",
     "words": [
       {
         "id": "al-mujadila-1-1",
@@ -140,7 +140,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a entendu les dires de celle qui discutait avec toi au sujet de son époux, et dont les plaintes s’adressaient à Allah. Allah entendait votre entretien, Lui Qui Entend et Voit Tout."
   },
   {
     "id": "al-mujadila-2",
@@ -149,7 +150,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُظَـٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَـٰتِهِمْ ۖ إِنْ أُمَّهَـٰتُهُمْ إِلَّا ٱلَّـٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ ٱلْقَوْلِ وَزُورًا ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ",
     "textSimple": "ٱلذين يظـهرون منكم من نسآئهم ما هن أمهـتهم  إن أمهـتهم إلا ٱلـٓـٔى ولدنهم  وإنهم ليقولون منكرا من ٱلقول وزورا  وإن ٱلله لعفو غفور",
     "transliteration": "alladhīna yuẓāhirūna minkum min nisāihim mā hunna ummahātihim in ummahātuhum illā allāī waladnahum wa-innahum layaqūlūna munkaran mina l-qawli wazūran wa-inna l-laha laʿafuwwun ghafūrun",
-    "translation": "",
+    "translation": "Those who pronounce ẓihār among you [to separate] from their wives - they are not [consequently] their mothers. Their mothers are none but those who gave birth to them. And indeed, they are saying an objectionable statement and a falsehood. But indeed, Allāh is Pardoning and Forgiving.",
     "words": [
       {
         "id": "al-mujadila-2-1",
@@ -313,7 +314,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux d’entre vous qui répudient leurs femmes en affirmant qu’elles leurs sont désormais aussi défendues que leurs mères, cependant qu’elles ne sont nullement leurs mères – leurs mères étant celles qui les ont enfantés-, ne profèrent en vérité que des paroles condamnables et fausses. Mais Allah est Indulgent et Absoluteur."
   },
   {
     "id": "al-mujadila-3",
@@ -322,7 +324,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُظَـٰهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا۟ فَتَحْرِيرُ رَقَبَةٍ مِّن قَبْلِ أَن يَتَمَآسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِۦ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "وٱلذين يظـهرون من نسآئهم ثم يعودون لما قالوا فتحرير رقبة من قبل أن يتمآسا  ذلكم توعظون به  وٱلله بما تعملون خبير",
     "transliteration": "wa-alladhīna yuẓāhirūna min nisāihim thumma yaʿūdūna limā qālū fataḥrīru raqabatin min qabli an yatamāssā dhālikum tūʿaẓūna bihi wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "And those who pronounce ẓihār from their wives and then [wish to] go back on what they said - then [there must be] the freeing of a slave before they touch one another. That is what you are admonished thereby; and Allāh is Aware of what you do.",
     "words": [
       {
         "id": "al-mujadila-3-1",
@@ -472,7 +474,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui répudient leurs femmes (en prononçant cette formule qui les assimile au dos de leurs mères), puis reviennent sur leur parole, doivent affranchir un esclave avant d’avoir le moindre rapport intime (avec leurs femmes). C’est à cela que vous êtes exhortés. Et Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "al-mujadila-4",
@@ -481,7 +484,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِن قَبْلِ أَن يَتَمَآسَّا ۖ فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًا ۚ ذَٰلِكَ لِتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۗ وَلِلْكَـٰفِرِينَ عَذَابٌ أَلِيمٌ",
     "textSimple": "فمن لم يجد فصيام شهرين متتابعين من قبل أن يتمآسا  فمن لم يستطع فإطعام ستين مسكينا  ذلك لتؤمنوا بٱلله ورسوله  وتلك حدود ٱلله  وللكـفرين عذاب أليم",
     "transliteration": "faman lam yajid faṣiyāmu shahrayni mutatābiʿayni min qabli an yatamāssā faman lam yastaṭiʿ fa-iṭ'ʿāmu sittīna mis'kīnan dhālika litu'minū bil-lahi warasūlihi watil'ka ḥudūdu l-lahi walil'kāfirīna ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And he who does not find [a slave] - then a fast for two months consecutively before they touch one another; and he who is unable - then the feeding of sixty poor persons. That is for you to believe [completely] in Allāh and His Messenger; and those are the limits [set by] Allāh. And for the disbelievers is a painful punishment.",
     "words": [
       {
         "id": "al-mujadila-4-1",
@@ -666,7 +669,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque n’en trouve pas les moyens jeûnera deux mois consécutifs, avant d’avoir le moindre rapport intime avec (sa femme). S’il ne le peut, il devra alors nourrir soixante pauvres. Cela, pour que vous croyiez en Allah et en Son Messager. Telles sont les limites (hudûd) d’Allah, et aux mécréants il est (réservé) un supplice très douloureux."
   },
   {
     "id": "al-mujadila-5",
@@ -675,7 +679,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥ كُبِتُوا۟ كَمَا كُبِتَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ وَقَدْ أَنزَلْنَآ ءَايَـٰتٍۭ بَيِّنَـٰتٍ ۚ وَلِلْكَـٰفِرِينَ عَذَابٌ مُّهِينٌ",
     "textSimple": "إن ٱلذين يحآدون ٱلله ورسوله كبتوا كما كبت ٱلذين من قبلهم  وقد أنزلنآ ءايـت بينـت  وللكـفرين عذاب مهين",
     "transliteration": "inna alladhīna yuḥāddūna l-laha warasūlahu kubitū kamā kubita alladhīna min qablihim waqad anzalnā āyātin bayyinātin walil'kāfirīna ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "Indeed, those who oppose Allāh and His Messenger are abased as those before them were abased. And We have certainly sent down verses of clear evidence. And for the disbelievers is a humiliating punishment",
     "words": [
       {
         "id": "al-mujadila-5-1",
@@ -804,7 +808,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui défient Allah et Son Messager seront défaits et humiliés comme le furent, autrefois, leurs prédécesseurs. Nous avons révélé des Signes explicites, et les mécréants auront un supplice avilissant,"
   },
   {
     "id": "al-mujadila-6",
@@ -813,7 +818,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعًا فَيُنَبِّئُهُم بِمَا عَمِلُوٓا۟ ۚ أَحْصَىٰهُ ٱللَّهُ وَنَسُوهُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "textSimple": "يوم يبعثهم ٱلله جميعا فينبئهم بما عملوٓا  أحصىه ٱلله ونسوه  وٱلله على كل شىء شهيد",
     "transliteration": "yawma yabʿathuhumu l-lahu jamīʿan fayunabbi-uhum bimā ʿamilū aḥṣāhu l-lahu wanasūhu wal-lahu ʿalā kulli shayin shahīdun",
-    "translation": "",
+    "translation": "On the Day when Allāh will resurrect them all and inform them of what they did. Allāh had enumerated it, while they forgot it; and Allāh is, over all things, Witness.",
     "words": [
       {
         "id": "al-mujadila-6-1",
@@ -921,7 +926,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le jour où Allah les ressuscitera tous et les informera de ce qu’ils auront fait. Allah aura recensé (leurs œuvres), et eux les auront oubliées. Allah est Témoin de Toute chose."
   },
   {
     "id": "al-mujadila-7",
@@ -930,7 +936,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ مَا يَكُونُ مِن نَّجْوَىٰ ثَلَـٰثَةٍ إِلَّا هُوَ رَابِعُهُمْ وَلَا خَمْسَةٍ إِلَّا هُوَ سَادِسُهُمْ وَلَآ أَدْنَىٰ مِن ذَٰلِكَ وَلَآ أَكْثَرَ إِلَّا هُوَ مَعَهُمْ أَيْنَ مَا كَانُوا۟ ۖ ثُمَّ يُنَبِّئُهُم بِمَا عَمِلُوا۟ يَوْمَ ٱلْقِيَـٰمَةِ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
     "textSimple": "ألم تر أن ٱلله يعلم ما فى ٱلسمـوت وما فى ٱلأرض  ما يكون من نجوى ثلـثة إلا هو رابعهم ولا خمسة إلا هو سادسهم ولآ أدنى من ذلك ولآ أكثر إلا هو معهم أين ما كانوا  ثم ينبئهم بما عملوا يوم ٱلقيـمة  إن ٱلله بكل شىء عليم",
     "transliteration": "alam tara anna l-laha yaʿlamu mā fī l-samāwāti wamā fī l-arḍi mā yakūnu min najwā thalāthatin illā huwa rābiʿuhum walā khamsatin illā huwa sādisuhum walā adnā min dhālika walā akthara illā huwa maʿahum ayna mā kānū thumma yunabbi-uhum bimā ʿamilū yawma l-qiyāmati inna l-laha bikulli shayin ʿalīmun",
-    "translation": "",
+    "translation": "Have you not considered that Allāh knows what is in the heavens and what is on the earth? There are not three in a private conversation but that He is the fourth of them, nor are there five but that He is the sixth of them - and no less than that and no more except that He is with them [in knowledge] wherever they are. Then He will inform them of what they did, on the Day of Resurrection. Indeed Allāh is, of all things, Knowing.",
     "words": [
       {
         "id": "al-mujadila-7-1",
@@ -1262,7 +1268,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 46
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’Allah Sait ce qu’il y a dans les cieux et sur terre ? Il n’est point de confidence entre trois (personnes) sans qu’Il n’en soit le quatrième ; ni entre cinq sans qu’Il n’en soit le sixième. Qu’il s’agisse de moins (d’individus) ou de plus, Il sera toujours avec eux où qu’ils soient. Puis, au Jour de la Résurrection, Il les informera de ce qu’ils auront fait. Allah Sait parfaitement Toute chose."
   },
   {
     "id": "al-mujadila-8",
@@ -1271,7 +1278,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُوا۟ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُوا۟ عَنْهُ وَيَتَنَـٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِىٓ أَنفُسِهِمْ لَوْلَا يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ ۚ حَسْبُهُمْ جَهَنَّمُ يَصْلَوْنَهَا ۖ فَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "ألم تر إلى ٱلذين نهوا عن ٱلنجوى ثم يعودون لما نهوا عنه ويتنـجون بٱلإثم وٱلعدون ومعصيت ٱلرسول وإذا جآءوك حيوك بما لم يحيك به ٱلله ويقولون فىٓ أنفسهم لولا يعذبنا ٱلله بما نقول  حسبهم جهنم يصلونها  فبئس ٱلمصير",
     "transliteration": "alam tara ilā alladhīna nuhū ʿani l-najwā thumma yaʿūdūna limā nuhū ʿanhu wayatanājawna bil-ith'mi wal-ʿud'wāni wamaʿṣiyati l-rasūli wa-idhā jāūka ḥayyawka bimā lam yuḥayyika bihi l-lahu wayaqūlūna fī anfusihim lawlā yuʿadhibunā l-lahu bimā naqūlu ḥasbuhum jahannamu yaṣlawnahā fabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "Have you not considered those who were forbidden from private conversation [i.e., ridicule and conspiracy] and then return to that which they were forbidden and converse among themselves about sin and aggression and disobedience to the Messenger? And when they come to you, they greet you with that [word] by which Allāh does not greet you and say among themselves, \"Why does Allāh not punish us for what we say?\" Sufficient for them is Hell, which they will [enter to] burn, and wretched is the destination.",
     "words": [
       {
         "id": "al-mujadila-8-1",
@@ -1540,7 +1547,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas vu ceux à qui les entretiens secrets ont été défendus ? Ils reviennent (malgré tout) à ce qui leur a été défendu et conspirent pour commettre des péchés et se livrer aux transgressions ainsi qu’à la rébellion contre le Messager. Quand ils viennent te trouver, ils utilisent une salutation dont Allah ne t’a pas salué, et disent dans le secret du cœur : « Mais pourquoi Allah ne sévit-Il donc pas contre nous qui avons usé de ce langage ? » Que la Géhenne leur suffise, où ils brûleront, et quel affreux devenir !"
   },
   {
     "id": "al-mujadila-9",
@@ -1549,7 +1557,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَنَـٰجَيْتُمْ فَلَا تَتَنَـٰجَوْا۟ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَتَنَـٰجَوْا۟ بِٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا تنـجيتم فلا تتنـجوا بٱلإثم وٱلعدون ومعصيت ٱلرسول وتنـجوا بٱلبر وٱلتقوى  وٱتقوا ٱلله ٱلذىٓ إليه تحشرون",
     "transliteration": "yāayyuhā alladhīna āmanū idhā tanājaytum falā tatanājaw bil-ith'mi wal-ʿud'wāni wamaʿṣiyati l-rasūli watanājaw bil-biri wal-taqwā wa-ittaqū l-laha alladhī ilayhi tuḥ'sharūna",
-    "translation": "",
+    "translation": "O you who have believed, when you converse privately, do not converse about sin and aggression and disobedience to the Messenger but converse about righteousness and piety. And fear Allāh, to whom you will be gathered.",
     "words": [
       {
         "id": "al-mujadila-9-1",
@@ -1685,7 +1693,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Évitez, dans vos entretiens secrets, d’échanger des confidences pour commettre des péchés et vous livrer aux transgressions - (entretiens qui vous inciteraient) à désobéir au Messager. Que vos entretiens secrets (incitent) à la vertu et à la piété. Craignez Allah vers Qui vous serez ramenés en foule."
   },
   {
     "id": "al-mujadila-10",
@@ -1694,7 +1703,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا ٱلنَّجْوَىٰ مِنَ ٱلشَّيْطَـٰنِ لِيَحْزُنَ ٱلَّذِينَ ءَامَنُوا۟ وَلَيْسَ بِضَآرِّهِمْ شَيْـًٔا إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
     "textSimple": "إنما ٱلنجوى من ٱلشيطـن ليحزن ٱلذين ءامنوا وليس بضآرهم شيـٔا إلا بإذن ٱلله  وعلى ٱلله فليتوكل ٱلمؤمنون",
     "transliteration": "innamā l-najwā mina l-shayṭāni liyaḥzuna alladhīna āmanū walaysa biḍārrihim shayan illā bi-idh'ni l-lahi waʿalā l-lahi falyatawakkali l-mu'minūna",
-    "translation": "",
+    "translation": "Private conversation is only from Satan that he may grieve those who have believed, but he will not harm them at all except by permission of Allāh. And upon Allāh let the believers rely.",
     "words": [
       {
         "id": "al-mujadila-10-1",
@@ -1816,7 +1825,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les entretiens secrets ne relèvent que de Satan (qui les suggère) pour affliger ceux qui ont cru. Mais il ne leur nuira en rien sans la permission d’Allah. C’est donc à Allah que doivent s’en remettre les croyants."
   },
   {
     "id": "al-mujadila-11",
@@ -1825,7 +1835,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قِيلَ لَكُمْ تَفَسَّحُوا۟ فِى ٱلْمَجَـٰلِسِ فَٱفْسَحُوا۟ يَفْسَحِ ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَـٰتٍ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا قيل لكم تفسحوا فى ٱلمجـلس فٱفسحوا يفسح ٱلله لكم  وإذا قيل ٱنشزوا فٱنشزوا يرفع ٱلله ٱلذين ءامنوا منكم وٱلذين أوتوا ٱلعلم درجـت  وٱلله بما تعملون خبير",
     "transliteration": "yāayyuhā alladhīna āmanū idhā qīla lakum tafassaḥū fī l-majālisi fa-if'saḥū yafsaḥi l-lahu lakum wa-idhā qīla unshuzū fa-unshuzū yarfaʿi l-lahu alladhīna āmanū minkum wa-alladhīna ūtū l-ʿil'ma darajātin wal-lahu bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "O you who have believed, when you are told, \"Space yourselves\" in assemblies, then make space; Allāh will make space for you. And when you are told, \"Arise,\" then arise; Allāh will raise those who have believed among you and those who were given knowledge, by degrees. And Allāh is Aware of what you do.",
     "words": [
       {
         "id": "al-mujadila-11-1",
@@ -2038,7 +2048,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Quand il vous est dit : « Faites de la place (aux autres) dans les assemblées ! » faites-le, car Allah élargira devant vous (les espaces au Paradis). Et quand il vous est dit : « Levez-vous ! » levez-vous donc, car Allah élèvera en rang ceux d’entre vous qui auront cru et qui auront reçu la science. Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "al-mujadila-12",
@@ -2047,7 +2058,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَـٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةً ۚ ذَٰلِكَ خَيْرٌ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا نـجيتم ٱلرسول فقدموا بين يدى نجوىكم صدقة  ذلك خير لكم وأطهر  فإن لم تجدوا فإن ٱلله غفور رحيم",
     "transliteration": "yāayyuhā alladhīna āmanū idhā nājaytumu l-rasūla faqaddimū bayna yaday najwākum ṣadaqatan dhālika khayrun lakum wa-aṭharu fa-in lam tajidū fa-inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "O you who have believed, when you [wish to] privately consult the Messenger, present before your consultation a charity. That is better for you and purer. But if you find not [the means] - then indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-mujadila-12-1",
@@ -2204,7 +2215,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Quand vous avez une confidence à faire au Messager, faites-la précéder d’une charité. Cela est bien meilleur pour vous et bien plus pur. Mais, si vous n’en avez pas les moyens, (sachez qu’) Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-mujadila-13",
@@ -2213,7 +2225,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَشْفَقْتُمْ أَن تُقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَـٰتٍ ۚ فَإِذْ لَمْ تَفْعَلُوا۟ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
     "textSimple": "ءأشفقتم أن تقدموا بين يدى نجوىكم صدقـت  فإذ لم تفعلوا وتاب ٱلله عليكم فأقيموا ٱلصلوة وءاتوا ٱلزكوة وأطيعوا ٱلله ورسوله  وٱلله خبير بما تعملون",
     "transliteration": "a-ashfaqtum an tuqaddimū bayna yaday najwākum ṣadaqātin fa-idh lam tafʿalū watāba l-lahu ʿalaykum fa-aqīmū l-ṣalata waātū l-zakata wa-aṭīʿū l-laha warasūlahu wal-lahu khabīrun bimā taʿmalūna",
-    "translation": "",
+    "translation": "Have you feared to present before your consultation charities? Then when you do not and Allāh has forgiven you, then [at least] establish prayer and give zakāh and obey Allāh and His Messenger. And Allāh is Aware of what you do.",
     "words": [
       {
         "id": "al-mujadila-13-1",
@@ -2384,7 +2396,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craindriez-vous donc de faire précéder votre confidence d’aumônes ? Si vous ne l’avez pas fait et qu’Allah ait accepté votre repentir, accomplissez alors la Çalât, acquittez-vous de la Zakât et obéissez à Allah et à Son Messager. Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "al-mujadila-14",
@@ -2393,7 +2406,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ تَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِم مَّا هُم مِّنكُمْ وَلَا مِنْهُمْ وَيَحْلِفُونَ عَلَى ٱلْكَذِبِ وَهُمْ يَعْلَمُونَ",
     "textSimple": " ألم تر إلى ٱلذين تولوا قوما غضب ٱلله عليهم ما هم منكم ولا منهم ويحلفون على ٱلكذب وهم يعلمون",
     "transliteration": "alam tara ilā alladhīna tawallaw qawman ghaḍiba l-lahu ʿalayhim mā hum minkum walā min'hum wayaḥlifūna ʿalā l-kadhibi wahum yaʿlamūna",
-    "translation": "",
+    "translation": "Have you not considered those who make allies of a people with whom Allāh has become angry? They are neither of you nor of them, and they swear to untruth while they know [they are lying].",
     "words": [
       {
         "id": "al-mujadila-14-1",
@@ -2529,7 +2542,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas remarqué ceux qui ont pris pour alliés des gens qui ont provoqué contre eux la colère d’Allah ? Ils ne sont ni des vôtres ni des leurs. Ils jurent par de faux serments et ils le savent (bien)."
   },
   {
     "id": "al-mujadila-15",
@@ -2538,7 +2552,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "أعد ٱلله لهم عذابا شديدا  إنهم سآء ما كانوا يعملون",
     "transliteration": "aʿadda l-lahu lahum ʿadhāban shadīdan innahum sāa mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Allāh has prepared for them a severe punishment. Indeed, it was evil that they were doing.",
     "words": [
       {
         "id": "al-mujadila-15-1",
@@ -2611,7 +2625,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah leur a préparé un terrible supplice, leurs actions étant odieuses."
   },
   {
     "id": "al-mujadila-16",
@@ -2620,7 +2635,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "ٱتَّخَذُوٓا۟ أَيْمَـٰنَهُمْ جُنَّةً فَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ فَلَهُمْ عَذَابٌ مُّهِينٌ",
     "textSimple": "ٱتخذوٓا أيمـنهم جنة فصدوا عن سبيل ٱلله فلهم عذاب مهين",
     "transliteration": "ittakhadhū aymānahum junnatan faṣaddū ʿan sabīli l-lahi falahum ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "They took their [false] oaths as a cover, so they averted [people] from the way of Allāh, and for them is a humiliating punishment.",
     "words": [
       {
         "id": "al-mujadila-16-1",
@@ -2693,7 +2708,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont pris leur serment comme un bouclier protecteur, et ont repoussé (les autres) loin du chemin d’Allah. Ils auront alors un supplice humiliant."
   },
   {
     "id": "al-mujadila-17",
@@ -2702,7 +2718,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "لَّن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَـٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۚ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "لن تغنى عنهم أمولهم ولآ أولـدهم من ٱلله شيـٔا  أولـٓئك أصحـب ٱلنار  هم فيها خـلدون",
     "transliteration": "lan tugh'niya ʿanhum amwāluhum walā awlāduhum mina l-lahi shayan ulāika aṣḥābu l-nāri hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Never will their wealth or their children avail them against Allāh at all. Those are the companions of the Fire; they will abide therein eternally",
     "words": [
       {
         "id": "al-mujadila-17-1",
@@ -2810,7 +2826,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs biens ne leur seront en rien utiles contre Allah, pas plus que leurs progénitures. Ceux-là seront les hôtes du Feu, où ils demeureront pour l’éternité."
   },
   {
     "id": "al-mujadila-18",
@@ -2819,7 +2836,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعًا فَيَحْلِفُونَ لَهُۥ كَمَا يَحْلِفُونَ لَكُمْ ۖ وَيَحْسَبُونَ أَنَّهُمْ عَلَىٰ شَىْءٍ ۚ أَلَآ إِنَّهُمْ هُمُ ٱلْكَـٰذِبُونَ",
     "textSimple": "يوم يبعثهم ٱلله جميعا فيحلفون له كما يحلفون لكم  ويحسبون أنهم على شىء  ألآ إنهم هم ٱلكـذبون",
     "transliteration": "yawma yabʿathuhumu l-lahu jamīʿan fayaḥlifūna lahu kamā yaḥlifūna lakum wayaḥsabūna annahum ʿalā shayin alā innahum humu l-kādhibūna",
-    "translation": "",
+    "translation": "On the Day Allāh will resurrect them all, and they will swear to Him as they swear to you and think that they are [standing] on something. Unquestionably, it is they who are the liars.",
     "words": [
       {
         "id": "al-mujadila-18-1",
@@ -2941,7 +2958,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Allah les ressuscitera tous ensemble, ils Lui jureront comme ils auront juré devant vous, et ils penseront avoir des arguments. (Non), ce sont eux les menteurs."
   },
   {
     "id": "al-mujadila-19",
@@ -2950,7 +2968,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "ٱسْتَحْوَذَ عَلَيْهِمُ ٱلشَّيْطَـٰنُ فَأَنسَىٰهُمْ ذِكْرَ ٱللَّهِ ۚ أُو۟لَـٰٓئِكَ حِزْبُ ٱلشَّيْطَـٰنِ ۚ أَلَآ إِنَّ حِزْبَ ٱلشَّيْطَـٰنِ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "ٱستحوذ عليهم ٱلشيطـن فأنسىهم ذكر ٱلله  أولـٓئك حزب ٱلشيطـن  ألآ إن حزب ٱلشيطـن هم ٱلخـسرون",
     "transliteration": "is'taḥwadha ʿalayhimu l-shayṭānu fa-ansāhum dhik'ra l-lahi ulāika ḥiz'bu l-shayṭāni alā inna ḥiz'ba l-shayṭāni humu l-khāsirūna",
-    "translation": "",
+    "translation": "Satan has overcome them and made them forget the remembrance of Allāh. Those are the party of Satan. Unquestionably, the party of Satan - they will be the losers.",
     "words": [
       {
         "id": "al-mujadila-19-1",
@@ -3058,7 +3076,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Satan les a asservis et leur a fait oublier l’évocation d’Allah. Ceux-là forment le parti de Satan, et les partisans de Satan sont eux les perdants."
   },
   {
     "id": "al-mujadila-20",
@@ -3067,7 +3086,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥٓ أُو۟لَـٰٓئِكَ فِى ٱلْأَذَلِّينَ",
     "textSimple": "إن ٱلذين يحآدون ٱلله ورسولهٓ أولـٓئك فى ٱلأذلين",
     "transliteration": "inna alladhīna yuḥāddūna l-laha warasūlahu ulāika fī l-adhalīna",
-    "translation": "",
+    "translation": "Indeed, the ones who oppose Allāh and His Messenger - those will be among the most humbled.",
     "words": [
       {
         "id": "al-mujadila-20-1",
@@ -3126,7 +3145,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui défient Allah et Son Messager, ceux-là sont dans la pire ignominie."
   },
   {
     "id": "al-mujadila-21",
@@ -3135,7 +3155,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "كَتَبَ ٱللَّهُ لَأَغْلِبَنَّ أَنَا۠ وَرُسُلِىٓ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌ",
     "textSimple": "كتب ٱلله لأغلبن أنا ورسلىٓ  إن ٱلله قوى عزيز",
     "transliteration": "kataba l-lahu la-aghlibanna anā warusulī inna l-laha qawiyyun ʿazīzun",
-    "translation": "",
+    "translation": "Allāh has written [i.e., decreed], \"I will surely overcome, I and My messengers.\" Indeed, Allāh is Powerful and Exalted in Might.",
     "words": [
       {
         "id": "al-mujadila-21-1",
@@ -3201,7 +3221,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a décrété : « Je vaincrai (toujours), Moi et Mes Messagers. » Allah est Fort et Tout- Puissant."
   },
   {
     "id": "al-mujadila-22",
@@ -3210,7 +3231,7 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
     "textUthmani": "لَّا تَجِدُ قَوْمًا يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ يُوَآدُّونَ مَنْ حَآدَّ ٱللَّهَ وَرَسُولَهُۥ وَلَوْ كَانُوٓا۟ ءَابَآءَهُمْ أَوْ أَبْنَآءَهُمْ أَوْ إِخْوَٰنَهُمْ أَوْ عَشِيرَتَهُمْ ۚ أُو۟لَـٰٓئِكَ كَتَبَ فِى قُلُوبِهِمُ ٱلْإِيمَـٰنَ وَأَيَّدَهُم بِرُوحٍ مِّنْهُ ۖ وَيُدْخِلُهُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ رَضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ أُو۟لَـٰٓئِكَ حِزْبُ ٱللَّهِ ۚ أَلَآ إِنَّ حِزْبَ ٱللَّهِ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "لا تجد قوما يؤمنون بٱلله وٱليوم ٱلـٔاخر يوآدون من حآد ٱلله ورسوله ولو كانوٓا ءابآءهم أو أبنآءهم أو إخونهم أو عشيرتهم  أولـٓئك كتب فى قلوبهم ٱلإيمـن وأيدهم بروح منه  ويدخلهم جنـت تجرى من تحتها ٱلأنهـر خـلدين فيها  رضى ٱلله عنهم ورضوا عنه  أولـٓئك حزب ٱلله  ألآ إن حزب ٱلله هم ٱلمفلحون",
     "transliteration": "lā tajidu qawman yu'minūna bil-lahi wal-yawmi l-ākhiri yuwāddūna man ḥādda l-laha warasūlahu walaw kānū ābāahum aw abnāahum aw ikh'wānahum aw ʿashīratahum ulāika kataba fī qulūbihimu l-īmāna wa-ayyadahum birūḥin min'hu wayud'khiluhum jannātin tajrī min taḥtihā l-anhāru khālidīna fīhā raḍiya l-lahu ʿanhum waraḍū ʿanhu ulāika ḥiz'bu l-lahi alā inna ḥiz'ba l-lahi humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "You will not find a people who believe in Allāh and the Last Day having affection for those who oppose Allāh and His Messenger, even if they were their fathers or their sons or their brothers or their kindred. Those - He has decreed within their hearts faith and supported them with spirit from Him. And We will admit them to gardens beneath which rivers flow, wherein they abide eternally. Allāh is pleased with them, and they are pleased with Him - those are the party of Allāh. Unquestionably, the party of Allāh - they are the successful.",
     "words": [
       {
         "id": "al-mujadila-22-1",
@@ -3570,7 +3591,8 @@ export const AL_MUJADILA_AYAHS: Ayah[] = [
         "position": 50
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu ne trouveras pas de gens qui croient en Allah et au Jour Dernier et qui, en même temps, sont en affinité avec ceux qui défient Allah et Son Messager, dût-il s’agir de leurs pères, de leurs fils, de leurs frères ou des membres de leur tribu. Ceux-là, (Allah) a inscrit la foi dans leurs cœurs, les a appuyés d’un souffle (émanant) de Lui, et les fera entrer dans des jardins sous lesquels coulent les rivières, où ils séjourneront éternellement. Allah est satisfait d’eux, et ils sont satisfaits de Lui. Ceux-là forment le parti d’Allah. En vérité, ce sont les partisans d’Allah qui réussiront."
   }
 ];
 

@@ -11,7 +11,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
     "textSimple": " إذا وقعت ٱلواقعة",
     "transliteration": "idhā waqaʿati l-wāqiʿatu",
-    "translation": "",
+    "translation": "When the Occurrence occurs,",
     "words": [
       {
         "id": "al-waqi-ah-1-1",
@@ -35,7 +35,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand adviendra l’Événement,"
   },
   {
     "id": "al-waqi-ah-2",
@@ -44,7 +45,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
     "textSimple": "ليس لوقعتها كاذبة",
     "transliteration": "laysa liwaqʿatihā kādhibatun",
-    "translation": "",
+    "translation": "There is, at its occurrence, no denial.",
     "words": [
       {
         "id": "al-waqi-ah-2-1",
@@ -68,7 +69,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "nul ne pourra en repousser la survenue."
   },
   {
     "id": "al-waqi-ah-3",
@@ -77,7 +79,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "خَافِضَةٌ رَّافِعَةٌ",
     "textSimple": "خافضة رافعة",
     "transliteration": "khāfiḍatun rāfiʿatun",
-    "translation": "",
+    "translation": "It will bring down [some] and raise up [others].",
     "words": [
       {
         "id": "al-waqi-ah-3-1",
@@ -94,7 +96,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ravalera (les uns) et élèvera (les autres)."
   },
   {
     "id": "al-waqi-ah-4",
@@ -103,7 +106,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّا",
     "textSimple": "إذا رجت ٱلأرض رجا",
     "transliteration": "idhā rujjati l-arḍu rajjan",
-    "translation": "",
+    "translation": "When the earth is shaken with convulsion",
     "words": [
       {
         "id": "al-waqi-ah-4-1",
@@ -134,7 +137,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand la terre sera ébranlée d’un fort ébranlement,"
   },
   {
     "id": "al-waqi-ah-5",
@@ -143,7 +147,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَبُسَّتِ ٱلْجِبَالُ بَسًّا",
     "textSimple": "وبست ٱلجبال بسا",
     "transliteration": "wabussati l-jibālu bassan",
-    "translation": "",
+    "translation": "And the mountains are broken down, crumbling",
     "words": [
       {
         "id": "al-waqi-ah-5-1",
@@ -167,7 +171,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que les montagnes seront entièrement pulvérisées,"
   },
   {
     "id": "al-waqi-ah-6",
@@ -176,7 +181,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَكَانَتْ هَبَآءً مُّنۢبَثًّا",
     "textSimple": "فكانت هبآء منبثا",
     "transliteration": "fakānat habāan munbathan",
-    "translation": "",
+    "translation": "And become dust dispersing,",
     "words": [
       {
         "id": "al-waqi-ah-6-1",
@@ -200,7 +205,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et seront alors poussière dispersée,"
   },
   {
     "id": "al-waqi-ah-7",
@@ -209,7 +215,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَكُنتُمْ أَزْوَٰجًا ثَلَـٰثَةً",
     "textSimple": "وكنتم أزوجا ثلـثة",
     "transliteration": "wakuntum azwājan thalāthatan",
-    "translation": "",
+    "translation": "And you become [of] three kinds:",
     "words": [
       {
         "id": "al-waqi-ah-7-1",
@@ -233,7 +239,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vous (vous diviserez) alors en trois groupes."
   },
   {
     "id": "al-waqi-ah-8",
@@ -242,7 +249,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَصْحَـٰبُ ٱلْمَيْمَنَةِ مَآ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
     "textSimple": "فأصحـب ٱلميمنة مآ أصحـب ٱلميمنة",
     "transliteration": "fa-aṣḥābu l-maymanati mā aṣḥābu l-maymanati",
-    "translation": "",
+    "translation": "Then the companions of the right - what are the companions of the right?",
     "words": [
       {
         "id": "al-waqi-ah-8-1",
@@ -280,7 +287,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(D’abord), les gens de la dextre : mais que sont les gens de la dextre ?"
   },
   {
     "id": "al-waqi-ah-9",
@@ -289,7 +297,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْحَـٰبُ ٱلْمَشْـَٔمَةِ مَآ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
     "textSimple": "وأصحـب ٱلمشـٔمة مآ أصحـب ٱلمشـٔمة",
     "transliteration": "wa-aṣḥābu l-mashamati mā aṣḥābu l-mashamati",
-    "translation": "",
+    "translation": "And the companions of the left - what are companions of the left?",
     "words": [
       {
         "id": "al-waqi-ah-9-1",
@@ -327,7 +335,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Puis) les gens de la senestre : mais que sont les gens de la senestre ?"
   },
   {
     "id": "al-waqi-ah-10",
@@ -336,7 +345,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّـٰبِقُونَ ٱلسَّـٰبِقُونَ",
     "textSimple": "وٱلسـبقون ٱلسـبقون",
     "transliteration": "wal-sābiqūna l-sābiqūna",
-    "translation": "",
+    "translation": "And the forerunners, the forerunners -",
     "words": [
       {
         "id": "al-waqi-ah-10-1",
@@ -353,7 +362,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Enfin) les précurseurs (vers la foi et l’accomplissement des œuvres pies ici-bas), seront les précurseurs (vers les récompenses de l’au-delà) !"
   },
   {
     "id": "al-waqi-ah-11",
@@ -362,7 +372,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلْمُقَرَّبُونَ",
     "textSimple": "أولـٓئك ٱلمقربون",
     "transliteration": "ulāika l-muqarabūna",
-    "translation": "",
+    "translation": "Those are the ones brought near [to Allāh]",
     "words": [
       {
         "id": "al-waqi-ah-11-1",
@@ -379,7 +389,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là seront les plus rapprochés (d’Allah),"
   },
   {
     "id": "al-waqi-ah-12",
@@ -388,7 +399,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّـٰتِ ٱلنَّعِيمِ",
     "textSimple": "فى جنـت ٱلنعيم",
     "transliteration": "fī jannāti l-naʿīmi",
-    "translation": "",
+    "translation": "In the Gardens of Pleasure,",
     "words": [
       {
         "id": "al-waqi-ah-12-1",
@@ -412,7 +423,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dans les Jardins des délices."
   },
   {
     "id": "al-waqi-ah-13",
@@ -421,7 +433,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ",
     "textSimple": "ثلة من ٱلأولين",
     "transliteration": "thullatun mina l-awalīna",
-    "translation": "",
+    "translation": "A [large] company of the former peoples",
     "words": [
       {
         "id": "al-waqi-ah-13-1",
@@ -445,7 +457,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nombre seront (choisis) parmi les générations premières,"
   },
   {
     "id": "al-waqi-ah-14",
@@ -454,7 +467,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَلِيلٌ مِّنَ ٱلْـَٔاخِرِينَ",
     "textSimple": "وقليل من ٱلـٔاخرين",
     "transliteration": "waqalīlun mina l-ākhirīna",
-    "translation": "",
+    "translation": "And a few of the later peoples,",
     "words": [
       {
         "id": "al-waqi-ah-14-1",
@@ -478,7 +491,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et peu seront (choisis) parmi les générations qui ont suivi."
   },
   {
     "id": "al-waqi-ah-15",
@@ -487,7 +501,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ",
     "textSimple": "على سرر موضونة",
     "transliteration": "ʿalā sururin mawḍūnatin",
-    "translation": "",
+    "translation": "On thrones woven [with ornament],",
     "words": [
       {
         "id": "al-waqi-ah-15-1",
@@ -511,7 +525,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ils se reposeront) sur des lits incrustés d’or,"
   },
   {
     "id": "al-waqi-ah-16",
@@ -520,7 +535,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "مُّتَّكِـِٔينَ عَلَيْهَا مُتَقَـٰبِلِينَ",
     "textSimple": "متكـٔين عليها متقـبلين",
     "transliteration": "muttakiīna ʿalayhā mutaqābilīna",
-    "translation": "",
+    "translation": "Reclining on them, facing each other.",
     "words": [
       {
         "id": "al-waqi-ah-16-1",
@@ -544,7 +559,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et seront accoudés face à face."
   },
   {
     "id": "al-waqi-ah-17",
@@ -553,7 +569,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "يَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ",
     "textSimple": "يطوف عليهم ولدن مخلدون",
     "transliteration": "yaṭūfu ʿalayhim wil'dānun mukhalladūna",
-    "translation": "",
+    "translation": "There will circulate among them young boys made eternal.",
     "words": [
       {
         "id": "al-waqi-ah-17-1",
@@ -584,7 +600,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi eux circuleront des jeunes serviteurs faits éternels,"
   },
   {
     "id": "al-waqi-ah-18",
@@ -593,7 +610,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ",
     "textSimple": "بأكواب وأباريق وكأس من معين",
     "transliteration": "bi-akwābin wa-abārīqa wakasin min maʿīnin",
-    "translation": "",
+    "translation": "With vessels, pitchers and a cup [of wine] from a flowing spring -",
     "words": [
       {
         "id": "al-waqi-ah-18-1",
@@ -631,7 +648,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(portant) des coupes, des brocs et un verre rempli (d’un vin) coulant d’une source intarissable,"
   },
   {
     "id": "al-waqi-ah-19",
@@ -640,7 +658,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
     "textSimple": "لا يصدعون عنها ولا ينزفون",
     "transliteration": "lā yuṣaddaʿūna ʿanhā walā yunzifūna",
-    "translation": "",
+    "translation": "No headache will they have therefrom, nor will they be intoxicated -",
     "words": [
       {
         "id": "al-waqi-ah-19-1",
@@ -678,7 +696,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ne leur donnera pas (le moindre) mal de tête ni ne les fera divaguer ."
   },
   {
     "id": "al-waqi-ah-20",
@@ -687,7 +706,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَفَـٰكِهَةٍ مِّمَّا يَتَخَيَّرُونَ",
     "textSimple": "وفـكهة مما يتخيرون",
     "transliteration": "wafākihatin mimmā yatakhayyarūna",
-    "translation": "",
+    "translation": "And fruit of what they select",
     "words": [
       {
         "id": "al-waqi-ah-20-1",
@@ -711,7 +730,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (il y aura aussi) des fruits à leur goût,"
   },
   {
     "id": "al-waqi-ah-21",
@@ -720,7 +740,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ",
     "textSimple": "ولحم طير مما يشتهون",
     "transliteration": "walaḥmi ṭayrin mimmā yashtahūna",
-    "translation": "",
+    "translation": "And the meat of fowl, from whatever they desire.",
     "words": [
       {
         "id": "al-waqi-ah-21-1",
@@ -751,7 +771,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "la chair de volaille dont ils auront envie ;"
   },
   {
     "id": "al-waqi-ah-22",
@@ -760,7 +781,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَحُورٌ عِينٌ",
     "textSimple": "وحور عين",
     "transliteration": "waḥūrun ʿīnun",
-    "translation": "",
+    "translation": "And [for them are] fair women with large, [beautiful] eyes,",
     "words": [
       {
         "id": "al-waqi-ah-22-1",
@@ -777,7 +798,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et des houris aux grands yeux noirs,"
   },
   {
     "id": "al-waqi-ah-23",
@@ -786,7 +808,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "كَأَمْثَـٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
     "textSimple": "كأمثـل ٱللؤلؤ ٱلمكنون",
     "transliteration": "ka-amthāli l-lu'lu-i l-maknūni",
-    "translation": "",
+    "translation": "The likenesses of pearls well-protected,",
     "words": [
       {
         "id": "al-waqi-ah-23-1",
@@ -810,7 +832,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "telles des perles soigneusement conservées (dans leur coquillage)."
   },
   {
     "id": "al-waqi-ah-24",
@@ -819,7 +842,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "جزآء بما كانوا يعملون",
     "transliteration": "jazāan bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "As reward for what they used to do.",
     "words": [
       {
         "id": "al-waqi-ah-24-1",
@@ -850,7 +873,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà la récompense de leurs œuvres (ici-bas)."
   },
   {
     "id": "al-waqi-ah-25",
@@ -859,7 +883,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
     "textSimple": "لا يسمعون فيها لغوا ولا تأثيما",
     "transliteration": "lā yasmaʿūna fīhā laghwan walā tathīman",
-    "translation": "",
+    "translation": "They will not hear therein ill speech or commission of sin -",
     "words": [
       {
         "id": "al-waqi-ah-25-1",
@@ -904,7 +928,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’y entendront ni discours futiles ni propos injurieux,"
   },
   {
     "id": "al-waqi-ah-26",
@@ -913,7 +938,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا قِيلًا سَلَـٰمًا سَلَـٰمًا",
     "textSimple": "إلا قيلا سلـما سلـما",
     "transliteration": "illā qīlan salāman salāman",
-    "translation": "",
+    "translation": "Only a saying [of] peace, peace.",
     "words": [
       {
         "id": "al-waqi-ah-26-1",
@@ -944,7 +969,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais seulement : « Paix ! Paix ! (Salâm ! Salâm !) »"
   },
   {
     "id": "al-waqi-ah-27",
@@ -953,7 +979,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ",
     "textSimple": "وأصحـب ٱليمين مآ أصحـب ٱليمين",
     "transliteration": "wa-aṣḥābu l-yamīni mā aṣḥābu l-yamīni",
-    "translation": "",
+    "translation": "The companions of the right - what are the companions of the right?",
     "words": [
       {
         "id": "al-waqi-ah-27-1",
@@ -991,7 +1017,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens de la dextre : mais que sont les gens de la dextre ?"
   },
   {
     "id": "al-waqi-ah-28",
@@ -1000,7 +1027,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فِى سِدْرٍ مَّخْضُودٍ",
     "textSimple": "فى سدر مخضود",
     "transliteration": "fī sid'rin makhḍūdin",
-    "translation": "",
+    "translation": "[They will be] among lote trees with thorns removed.",
     "words": [
       {
         "id": "al-waqi-ah-28-1",
@@ -1024,7 +1051,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ceux-là seront) parmi des lotus sans épines,"
   },
   {
     "id": "al-waqi-ah-29",
@@ -1033,7 +1061,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَطَلْحٍ مَّنضُودٍ",
     "textSimple": "وطلح منضود",
     "transliteration": "waṭalḥin manḍūdin",
-    "translation": "",
+    "translation": "And [banana] trees layered [with fruit].",
     "words": [
       {
         "id": "al-waqi-ah-29-1",
@@ -1050,7 +1078,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et des fleurs d’acacias bellement disposées,"
   },
   {
     "id": "al-waqi-ah-30",
@@ -1059,7 +1088,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَظِلٍّ مَّمْدُودٍ",
     "textSimple": "وظل ممدود",
     "transliteration": "waẓillin mamdūdin",
-    "translation": "",
+    "translation": "And shade extended.",
     "words": [
       {
         "id": "al-waqi-ah-30-1",
@@ -1076,7 +1105,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sous des ombres qui s’étendent,"
   },
   {
     "id": "al-waqi-ah-31",
@@ -1085,7 +1115,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآءٍ مَّسْكُوبٍ",
     "textSimple": "ومآء مسكوب",
     "transliteration": "wamāin maskūbin",
-    "translation": "",
+    "translation": "And water poured out",
     "words": [
       {
         "id": "al-waqi-ah-31-1",
@@ -1102,7 +1132,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "auprès d’une eau coulant sans cesse,"
   },
   {
     "id": "al-waqi-ah-32",
@@ -1111,7 +1142,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَفَـٰكِهَةٍ كَثِيرَةٍ",
     "textSimple": "وفـكهة كثيرة",
     "transliteration": "wafākihatin kathīratin",
-    "translation": "",
+    "translation": "And fruit, abundant [and varied],",
     "words": [
       {
         "id": "al-waqi-ah-32-1",
@@ -1128,7 +1159,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et des fruits à profusion,"
   },
   {
     "id": "al-waqi-ah-33",
@@ -1137,7 +1169,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
     "textSimple": "لا مقطوعة ولا ممنوعة",
     "transliteration": "lā maqṭūʿatin walā mamnūʿatin",
-    "translation": "",
+    "translation": "Neither limited [to season] nor forbidden,",
     "words": [
       {
         "id": "al-waqi-ah-33-1",
@@ -1168,7 +1200,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ni introuvables ni défendus."
   },
   {
     "id": "al-waqi-ah-34",
@@ -1177,7 +1210,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَفُرُشٍ مَّرْفُوعَةٍ",
     "textSimple": "وفرش مرفوعة",
     "transliteration": "wafurushin marfūʿatin",
-    "translation": "",
+    "translation": "And [upon] beds raised high.",
     "words": [
       {
         "id": "al-waqi-ah-34-1",
@@ -1194,7 +1227,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (il y aura pour eux) des lits élevés."
   },
   {
     "id": "al-waqi-ah-35",
@@ -1203,7 +1237,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنشَأْنَـٰهُنَّ إِنشَآءً",
     "textSimple": "إنآ أنشأنـهن إنشآء",
     "transliteration": "innā anshanāhunna inshāan",
-    "translation": "",
+    "translation": "Indeed, We have produced them [i.e., the women of Paradise] in a [new] creation",
     "words": [
       {
         "id": "al-waqi-ah-35-1",
@@ -1227,7 +1261,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les avons (véritablement) créées d’une création (nouvelle),"
   },
   {
     "id": "al-waqi-ah-36",
@@ -1236,7 +1271,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلْنَـٰهُنَّ أَبْكَارًا",
     "textSimple": "فجعلنـهن أبكارا",
     "transliteration": "fajaʿalnāhunna abkāran",
-    "translation": "",
+    "translation": "And made them virgins,",
     "words": [
       {
         "id": "al-waqi-ah-36-1",
@@ -1253,7 +1288,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et nous en avons fait des vierges (éternelles),"
   },
   {
     "id": "al-waqi-ah-37",
@@ -1262,7 +1298,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "عُرُبًا أَتْرَابًا",
     "textSimple": "عربا أترابا",
     "transliteration": "ʿuruban atrāban",
-    "translation": "",
+    "translation": "Devoted [to their husbands] and of equal age,",
     "words": [
       {
         "id": "al-waqi-ah-37-1",
@@ -1279,7 +1315,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pleines de tendresse et toutes du même âge,"
   },
   {
     "id": "al-waqi-ah-38",
@@ -1288,7 +1325,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لِّأَصْحَـٰبِ ٱلْيَمِينِ",
     "textSimple": "لأصحـب ٱليمين",
     "transliteration": "li-aṣḥābi l-yamīni",
-    "translation": "",
+    "translation": "For the companions of the right [who are]",
     "words": [
       {
         "id": "al-waqi-ah-38-1",
@@ -1305,7 +1342,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à l’intention des gens de la dextre."
   },
   {
     "id": "al-waqi-ah-39",
@@ -1314,7 +1352,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ",
     "textSimple": "ثلة من ٱلأولين",
     "transliteration": "thullatun mina l-awalīna",
-    "translation": "",
+    "translation": "A company of the former peoples",
     "words": [
       {
         "id": "al-waqi-ah-39-1",
@@ -1338,7 +1376,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nombre seront (choisis) parmi les générations premières,"
   },
   {
     "id": "al-waqi-ah-40",
@@ -1347,7 +1386,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَثُلَّةٌ مِّنَ ٱلْـَٔاخِرِينَ",
     "textSimple": "وثلة من ٱلـٔاخرين",
     "transliteration": "wathullatun mina l-ākhirīna",
-    "translation": "",
+    "translation": "And a company of the later peoples.",
     "words": [
       {
         "id": "al-waqi-ah-40-1",
@@ -1371,7 +1410,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et nombre seront (choisis) parmi les générations qui ont suivi."
   },
   {
     "id": "al-waqi-ah-41",
@@ -1380,7 +1420,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْحَـٰبُ ٱلشِّمَالِ مَآ أَصْحَـٰبُ ٱلشِّمَالِ",
     "textSimple": "وأصحـب ٱلشمال مآ أصحـب ٱلشمال",
     "transliteration": "wa-aṣḥābu l-shimāli mā aṣḥābu l-shimāli",
-    "translation": "",
+    "translation": "And the companions of the left - what are the companions of the left?",
     "words": [
       {
         "id": "al-waqi-ah-41-1",
@@ -1418,7 +1458,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant aux gens de la senestre : mais que sont les gens de la senestre ?"
   },
   {
     "id": "al-waqi-ah-42",
@@ -1427,7 +1468,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فِى سَمُومٍ وَحَمِيمٍ",
     "textSimple": "فى سموم وحميم",
     "transliteration": "fī samūmin waḥamīmin",
-    "translation": "",
+    "translation": "[They will be] in scorching fire and scalding water",
     "words": [
       {
         "id": "al-waqi-ah-42-1",
@@ -1451,7 +1492,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront au sein même du souffle infernal et (baigneront) dans l’eau bouillante,"
   },
   {
     "id": "al-waqi-ah-43",
@@ -1460,7 +1502,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَظِلٍّ مِّن يَحْمُومٍ",
     "textSimple": "وظل من يحموم",
     "transliteration": "waẓillin min yaḥmūmin",
-    "translation": "",
+    "translation": "And a shade of black smoke,",
     "words": [
       {
         "id": "al-waqi-ah-43-1",
@@ -1484,7 +1526,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dans l’ombre d’une fumée épaisse et noire,"
   },
   {
     "id": "al-waqi-ah-44",
@@ -1493,7 +1536,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا بَارِدٍ وَلَا كَرِيمٍ",
     "textSimple": "لا بارد ولا كريم",
     "transliteration": "lā bāridin walā karīmin",
-    "translation": "",
+    "translation": "Neither cool nor beneficial.",
     "words": [
       {
         "id": "al-waqi-ah-44-1",
@@ -1524,7 +1567,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ni fraîche ni clémente."
   },
   {
     "id": "al-waqi-ah-45",
@@ -1533,7 +1577,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
     "textSimple": "إنهم كانوا قبل ذلك مترفين",
     "transliteration": "innahum kānū qabla dhālika mut'rafīna",
-    "translation": "",
+    "translation": "Indeed they were, before that, indulging in affluence,",
     "words": [
       {
         "id": "al-waqi-ah-45-1",
@@ -1571,7 +1615,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avant cela, ils étaient dans l’opulence,"
   },
   {
     "id": "al-waqi-ah-46",
@@ -1580,7 +1625,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
     "textSimple": "وكانوا يصرون على ٱلحنث ٱلعظيم",
     "transliteration": "wakānū yuṣirrūna ʿalā l-ḥinthi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "And they used to persist in the great violation,",
     "words": [
       {
         "id": "al-waqi-ah-46-1",
@@ -1618,7 +1663,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et s’obstinaient dans le comble du péché."
   },
   {
     "id": "al-waqi-ah-47",
@@ -1627,7 +1673,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَكَانُوا۟ يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
     "textSimple": "وكانوا يقولون أئذا متنا وكنا ترابا وعظـما أءنا لمبعوثون",
     "transliteration": "wakānū yaqūlūna a-idhā mit'nā wakunnā turāban waʿiẓāman a-innā lamabʿūthūna",
-    "translation": "",
+    "translation": "And they used to say, \"When we die and become dust and bones, are we indeed to be resurrected?",
     "words": [
       {
         "id": "al-waqi-ah-47-1",
@@ -1693,7 +1739,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disaient : « Une fois que nous serons morts, réduits en poussière et ossements, serons-nous vraiment ressuscités ?"
   },
   {
     "id": "al-waqi-ah-48",
@@ -1702,7 +1749,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
     "textSimple": "أوءابآؤنا ٱلأولون",
     "transliteration": "awaābāunā l-awalūna",
-    "translation": "",
+    "translation": "And our forefathers [as well]?\"",
     "words": [
       {
         "id": "al-waqi-ah-48-1",
@@ -1719,7 +1766,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et les premiers de nos ancêtres aussi ? »"
   },
   {
     "id": "al-waqi-ah-49",
@@ -1728,7 +1776,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْـَٔاخِرِينَ",
     "textSimple": "قل إن ٱلأولين وٱلـٔاخرين",
     "transliteration": "qul inna l-awalīna wal-ākhirīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Indeed, the former and later peoples",
     "words": [
       {
         "id": "al-waqi-ah-49-1",
@@ -1759,7 +1807,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Les premiers et les derniers"
   },
   {
     "id": "al-waqi-ah-50",
@@ -1768,7 +1817,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَمَجْمُوعُونَ إِلَىٰ مِيقَـٰتِ يَوْمٍ مَّعْلُومٍ",
     "textSimple": "لمجموعون إلى ميقـت يوم معلوم",
     "transliteration": "lamajmūʿūna ilā mīqāti yawmin maʿlūmin",
-    "translation": "",
+    "translation": "Are to be gathered together for the appointment of a known Day.\"",
     "words": [
       {
         "id": "al-waqi-ah-50-1",
@@ -1806,7 +1855,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "seront tous réunis pour le rendez-vous d’un jour déjà connu. »"
   },
   {
     "id": "al-waqi-ah-51",
@@ -1815,7 +1865,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ",
     "textSimple": "ثم إنكم أيها ٱلضآلون ٱلمكذبون",
     "transliteration": "thumma innakum ayyuhā l-ḍālūna l-mukadhibūna",
-    "translation": "",
+    "translation": "Then indeed you, O those astray [who are] deniers,",
     "words": [
       {
         "id": "al-waqi-ah-51-1",
@@ -1853,7 +1903,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis vous, les égarés, les négateurs,"
   },
   {
     "id": "al-waqi-ah-52",
@@ -1862,7 +1913,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَـَٔاكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
     "textSimple": "لـٔاكلون من شجر من زقوم",
     "transliteration": "laākilūna min shajarin min zaqqūmin",
-    "translation": "",
+    "translation": "Will be eating from trees of zaqqūm",
     "words": [
       {
         "id": "al-waqi-ah-52-1",
@@ -1900,7 +1951,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vous mangerez certainement de l’arbre de Zaqqûm,"
   },
   {
     "id": "al-waqi-ah-53",
@@ -1909,7 +1961,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
     "textSimple": "فمالـٔون منها ٱلبطون",
     "transliteration": "famāliūna min'hā l-buṭūna",
-    "translation": "",
+    "translation": "And filling with it your bellies",
     "words": [
       {
         "id": "al-waqi-ah-53-1",
@@ -1933,7 +1985,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et vos ventres en seront pleins."
   },
   {
     "id": "al-waqi-ah-54",
@@ -1942,7 +1995,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَشَـٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
     "textSimple": "فشـربون عليه من ٱلحميم",
     "transliteration": "fashāribūna ʿalayhi mina l-ḥamīmi",
-    "translation": "",
+    "translation": "And drinking on top of it from scalding water.",
     "words": [
       {
         "id": "al-waqi-ah-54-1",
@@ -1973,7 +2026,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis vous ingurgiterez en plus une eau bouillante,"
   },
   {
     "id": "al-waqi-ah-55",
@@ -1982,7 +2036,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَشَـٰرِبُونَ شُرْبَ ٱلْهِيمِ",
     "textSimple": "فشـربون شرب ٱلهيم",
     "transliteration": "fashāribūna shur'ba l-hīmi",
-    "translation": "",
+    "translation": "And will drink as the drinking of thirsty camels.",
     "words": [
       {
         "id": "al-waqi-ah-55-1",
@@ -2006,7 +2060,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dont vous boirez goulûment ainsi que des chameaux qui meurent de soif."
   },
   {
     "id": "al-waqi-ah-56",
@@ -2015,7 +2070,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ",
     "textSimple": "هـذا نزلهم يوم ٱلدين",
     "transliteration": "hādhā nuzuluhum yawma l-dīni",
-    "translation": "",
+    "translation": "That is their accommodation on the Day of Recompense.",
     "words": [
       {
         "id": "al-waqi-ah-56-1",
@@ -2046,7 +2101,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel sera le repas d’arrivée au Jour de la Rétribution."
   },
   {
     "id": "al-waqi-ah-57",
@@ -2055,7 +2111,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "نَحْنُ خَلَقْنَـٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
     "textSimple": "نحن خلقنـكم فلولا تصدقون",
     "transliteration": "naḥnu khalaqnākum falawlā tuṣaddiqūna",
-    "translation": "",
+    "translation": "We have created you, so why do you not believe?",
     "words": [
       {
         "id": "al-waqi-ah-57-1",
@@ -2086,7 +2142,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons créés, pourquoi ne croirez-vous donc pas (à votre résurrection)?"
   },
   {
     "id": "al-waqi-ah-58",
@@ -2095,7 +2152,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتُم مَّا تُمْنُونَ",
     "textSimple": "أفرءيتم ما تمنون",
     "transliteration": "afara-aytum mā tum'nūna",
-    "translation": "",
+    "translation": "Have you seen that which you emit?",
     "words": [
       {
         "id": "al-waqi-ah-58-1",
@@ -2119,7 +2176,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avez-vous considéré ce que vous éjaculez ?"
   },
   {
     "id": "al-waqi-ah-59",
@@ -2128,7 +2186,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَـٰلِقُونَ",
     "textSimple": "ءأنتم تخلقونهٓ أم نحن ٱلخـلقون",
     "transliteration": "a-antum takhluqūnahu am naḥnu l-khāliqūna",
-    "translation": "",
+    "translation": "Is it you who creates it, or are We the Creator?",
     "words": [
       {
         "id": "al-waqi-ah-59-1",
@@ -2166,7 +2224,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce vous qui le créez ou est-ce Nous le Créateur ?"
   },
   {
     "id": "al-waqi-ah-60",
@@ -2175,7 +2234,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
     "textSimple": "نحن قدرنا بينكم ٱلموت وما نحن بمسبوقين",
     "transliteration": "naḥnu qaddarnā baynakumu l-mawta wamā naḥnu bimasbūqīna",
-    "translation": "",
+    "translation": "We have decreed death among you, and We are not to be outdone",
     "words": [
       {
         "id": "al-waqi-ah-60-1",
@@ -2227,7 +2286,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui avons décrété la mort parmi vous, et personne ne Nous précédera"
   },
   {
     "id": "al-waqi-ah-61",
@@ -2236,7 +2296,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَـٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
     "textSimple": "علىٓ أن نبدل أمثـلكم وننشئكم فى ما لا تعلمون",
     "transliteration": "ʿalā an nubaddila amthālakum wanunshi-akum fī mā lā taʿlamūna",
-    "translation": "",
+    "translation": "In that We will change your likenesses and produce you in that [form] which you do not know.",
     "words": [
       {
         "id": "al-waqi-ah-61-1",
@@ -2302,7 +2362,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour vous remplacer par d’autres comme vous, ni pour vous recréer en ce que vous ne sauriez connaître."
   },
   {
     "id": "al-waqi-ah-62",
@@ -2311,7 +2372,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
     "textSimple": "ولقد علمتم ٱلنشأة ٱلأولى فلولا تذكرون",
     "transliteration": "walaqad ʿalim'tumu l-nashata l-ūlā falawlā tadhakkarūna",
-    "translation": "",
+    "translation": "And you have already known the first creation, so will you not remember?",
     "words": [
       {
         "id": "al-waqi-ah-62-1",
@@ -2356,7 +2417,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous avez pourtant connu la première création, que n’y réfléchissez-vous pas ?"
   },
   {
     "id": "al-waqi-ah-63",
@@ -2365,7 +2427,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
     "textSimple": "أفرءيتم ما تحرثون",
     "transliteration": "afara-aytum mā taḥruthūna",
-    "translation": "",
+    "translation": "And have you seen that [seed] which you sow?",
     "words": [
       {
         "id": "al-waqi-ah-63-1",
@@ -2389,7 +2451,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voyez-vous pas ce que vous labourez ?"
   },
   {
     "id": "al-waqi-ah-64",
@@ -2398,7 +2461,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَنتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
     "textSimple": "ءأنتم تزرعونهٓ أم نحن ٱلزرعون",
     "transliteration": "a-antum tazraʿūnahu am naḥnu l-zāriʿūna",
-    "translation": "",
+    "translation": "Is it you who makes it grow, or are We the grower?",
     "words": [
       {
         "id": "al-waqi-ah-64-1",
@@ -2436,7 +2499,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce vous qui en semez (les graines), ou est-ce Nous le Semeur ?"
   },
   {
     "id": "al-waqi-ah-65",
@@ -2445,7 +2509,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ نَشَآءُ لَجَعَلْنَـٰهُ حُطَـٰمًا فَظَلْتُمْ تَفَكَّهُونَ",
     "textSimple": "لو نشآء لجعلنـه حطـما فظلتم تفكهون",
     "transliteration": "law nashāu lajaʿalnāhu ḥuṭāman faẓaltum tafakkahūna",
-    "translation": "",
+    "translation": "If We willed, We could make it [dry] debris, and you would remain in wonder,",
     "words": [
       {
         "id": "al-waqi-ah-65-1",
@@ -2490,7 +2554,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous voulions, Nous en ferions un amas de débris, et vous n’en croiriez pas vos yeux."
   },
   {
     "id": "al-waqi-ah-66",
@@ -2499,7 +2564,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا لَمُغْرَمُونَ",
     "textSimple": "إنا لمغرمون",
     "transliteration": "innā lamugh'ramūna",
-    "translation": "",
+    "translation": "[Saying], \"Indeed, we are [now] in debt;",
     "words": [
       {
         "id": "al-waqi-ah-66-1",
@@ -2516,7 +2581,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous voilà criblés de dettes !"
   },
   {
     "id": "al-waqi-ah-67",
@@ -2525,7 +2591,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ نَحْنُ مَحْرُومُونَ",
     "textSimple": "بل نحن محرومون",
     "transliteration": "bal naḥnu maḥrūmūna",
-    "translation": "",
+    "translation": "Rather, we have been deprived.\"",
     "words": [
       {
         "id": "al-waqi-ah-67-1",
@@ -2549,7 +2615,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou nous voilà plutôt ruinés ! »"
   },
   {
     "id": "al-waqi-ah-68",
@@ -2558,7 +2625,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتُمُ ٱلْمَآءَ ٱلَّذِى تَشْرَبُونَ",
     "textSimple": "أفرءيتم ٱلمآء ٱلذى تشربون",
     "transliteration": "afara-aytumu l-māa alladhī tashrabūna",
-    "translation": "",
+    "translation": "And have you seen the water that you drink?",
     "words": [
       {
         "id": "al-waqi-ah-68-1",
@@ -2589,7 +2656,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voyez-vous pas l’eau dont vous buvez ?"
   },
   {
     "id": "al-waqi-ah-69",
@@ -2598,7 +2666,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ ٱلْمُنزِلُونَ",
     "textSimple": "ءأنتم أنزلتموه من ٱلمزن أم نحن ٱلمنزلون",
     "transliteration": "a-antum anzaltumūhu mina l-muz'ni am naḥnu l-munzilūna",
-    "translation": "",
+    "translation": "Is it you who brought it down from the clouds, or is it We who bring it down?",
     "words": [
       {
         "id": "al-waqi-ah-69-1",
@@ -2650,7 +2718,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce vous qui la faites descendre des nuages ou est-ce Nous qui le faisons ?"
   },
   {
     "id": "al-waqi-ah-70",
@@ -2659,7 +2728,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ نَشَآءُ جَعَلْنَـٰهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
     "textSimple": "لو نشآء جعلنـه أجاجا فلولا تشكرون",
     "transliteration": "law nashāu jaʿalnāhu ujājan falawlā tashkurūna",
-    "translation": "",
+    "translation": "If We willed, We could make it bitter, so why are you not grateful?",
     "words": [
       {
         "id": "al-waqi-ah-70-1",
@@ -2704,7 +2773,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous voulions, Nous en ferions une eau saumâtre. Que n’êtes-vous donc reconnaissants ?"
   },
   {
     "id": "al-waqi-ah-71",
@@ -2713,7 +2783,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتُمُ ٱلنَّارَ ٱلَّتِى تُورُونَ",
     "textSimple": "أفرءيتم ٱلنار ٱلتى تورون",
     "transliteration": "afara-aytumu l-nāra allatī tūrūna",
-    "translation": "",
+    "translation": "And have you seen the fire that you ignite?",
     "words": [
       {
         "id": "al-waqi-ah-71-1",
@@ -2744,7 +2814,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voyez-vous pas le feu que vous allumez ?"
   },
   {
     "id": "al-waqi-ah-72",
@@ -2753,7 +2824,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
     "textSimple": "ءأنتم أنشأتم شجرتهآ أم نحن ٱلمنشـٔون",
     "transliteration": "a-antum anshatum shajaratahā am naḥnu l-munshiūna",
-    "translation": "",
+    "translation": "Is it you who produced its tree, or are We the producer?",
     "words": [
       {
         "id": "al-waqi-ah-72-1",
@@ -2798,7 +2869,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce vous qui avez créé l’arbre (qui permet de l’allumer) ou est-ce Nous le Créateur ?"
   },
   {
     "id": "al-waqi-ah-73",
@@ -2807,7 +2879,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "نَحْنُ جَعَلْنَـٰهَا تَذْكِرَةً وَمَتَـٰعًا لِّلْمُقْوِينَ",
     "textSimple": "نحن جعلنـها تذكرة ومتـعا للمقوين",
     "transliteration": "naḥnu jaʿalnāhā tadhkiratan wamatāʿan lil'muq'wīna",
-    "translation": "",
+    "translation": "We have made it a reminder and provision for the travelers,",
     "words": [
       {
         "id": "al-waqi-ah-73-1",
@@ -2845,7 +2917,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait (du feu) un rappel et un élément au service des hommes."
   },
   {
     "id": "al-waqi-ah-74",
@@ -2854,7 +2927,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
     "textSimple": "فسبح بٱسم ربك ٱلعظيم",
     "transliteration": "fasabbiḥ bi-is'mi rabbika l-ʿaẓīmi",
-    "translation": "",
+    "translation": "So exalt the name of your Lord, the Most Great.",
     "words": [
       {
         "id": "al-waqi-ah-74-1",
@@ -2885,7 +2958,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rends donc gloire au nom de ton Seigneur, le Très Grand !"
   },
   {
     "id": "al-waqi-ah-75",
@@ -2894,7 +2968,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
     "textSimple": " فلآ أقسم بموقع ٱلنجوم",
     "transliteration": "falā uq'simu bimawāqiʿi l-nujūmi",
-    "translation": "",
+    "translation": "Then I swear by the setting of the stars,",
     "words": [
       {
         "id": "al-waqi-ah-75-1",
@@ -2925,7 +2999,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non ! J’en Jure par les positions des étoiles,"
   },
   {
     "id": "al-waqi-ah-76",
@@ -2934,7 +3009,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
     "textSimple": "وإنه لقسم لو تعلمون عظيم",
     "transliteration": "wa-innahu laqasamun law taʿlamūna ʿaẓīmun",
-    "translation": "",
+    "translation": "And indeed, it is an oath - if you could know - [most] great.",
     "words": [
       {
         "id": "al-waqi-ah-76-1",
@@ -2972,7 +3047,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et voilà le plus solennel des serments, si vous saviez,"
   },
   {
     "id": "al-waqi-ah-77",
@@ -2981,7 +3057,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ لَقُرْءَانٌ كَرِيمٌ",
     "textSimple": "إنه لقرءان كريم",
     "transliteration": "innahu laqur'ānun karīmun",
-    "translation": "",
+    "translation": "Indeed, it is a noble Qur’ān.",
     "words": [
       {
         "id": "al-waqi-ah-77-1",
@@ -3005,7 +3081,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que c’est certes un Coran noble,"
   },
   {
     "id": "al-waqi-ah-78",
@@ -3014,7 +3091,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فِى كِتَـٰبٍ مَّكْنُونٍ",
     "textSimple": "فى كتـب مكنون",
     "transliteration": "fī kitābin maknūnin",
-    "translation": "",
+    "translation": "In a Register well-protected;.",
     "words": [
       {
         "id": "al-waqi-ah-78-1",
@@ -3038,7 +3115,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en un Livre protégé,"
   },
   {
     "id": "al-waqi-ah-79",
@@ -3047,7 +3125,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ",
     "textSimple": "لا يمسهٓ إلا ٱلمطهرون",
     "transliteration": "lā yamassuhu illā l-muṭaharūna",
-    "translation": "",
+    "translation": "None touch it except the purified [i.e., the angels].",
     "words": [
       {
         "id": "al-waqi-ah-79-1",
@@ -3078,7 +3156,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que ne touchent que les purifiés."
   },
   {
     "id": "al-waqi-ah-80",
@@ -3087,7 +3166,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "تنزيل من رب ٱلعـلمين",
     "transliteration": "tanzīlun min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "[It is] a revelation from the Lord of the worlds.",
     "words": [
       {
         "id": "al-waqi-ah-80-1",
@@ -3118,7 +3197,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est là une révélation du Seigneur de l’Univers."
   },
   {
     "id": "al-waqi-ah-81",
@@ -3127,7 +3207,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَبِهَـٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
     "textSimple": "أفبهـذا ٱلحديث أنتم مدهنون",
     "transliteration": "afabihādhā l-ḥadīthi antum mud'hinūna",
-    "translation": "",
+    "translation": "Then is it to this statement that you are indifferent",
     "words": [
       {
         "id": "al-waqi-ah-81-1",
@@ -3158,7 +3238,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce donc à ce discours-là que vous refusez de croire ?"
   },
   {
     "id": "al-waqi-ah-82",
@@ -3167,7 +3248,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
     "textSimple": "وتجعلون رزقكم أنكم تكذبون",
     "transliteration": "watajʿalūna riz'qakum annakum tukadhibūna",
-    "translation": "",
+    "translation": "And make [the thanks for] your provision that you deny [the Provider]?",
     "words": [
       {
         "id": "al-waqi-ah-82-1",
@@ -3198,7 +3279,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serait-ce là votre manière de reconnaître les bienfaits que de tenir (le Coran) pour un mensonge ?"
   },
   {
     "id": "al-waqi-ah-83",
@@ -3207,7 +3289,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ",
     "textSimple": "فلولآ إذا بلغت ٱلحلقوم",
     "transliteration": "falawlā idhā balaghati l-ḥul'qūma",
-    "translation": "",
+    "translation": "Then why, when it [i.e., the soul at death] reaches the throat",
     "words": [
       {
         "id": "al-waqi-ah-83-1",
@@ -3238,7 +3320,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque ( avant d’être rendue) l’âme remonte jusqu’à la gorge,"
   },
   {
     "id": "al-waqi-ah-84",
@@ -3247,7 +3330,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ",
     "textSimple": "وأنتم حينئذ تنظرون",
     "transliteration": "wa-antum ḥīna-idhin tanẓurūna",
-    "translation": "",
+    "translation": "And you are at that time looking on -",
     "words": [
       {
         "id": "al-waqi-ah-84-1",
@@ -3271,7 +3354,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors que vous êtes là à regarder,"
   },
   {
     "id": "al-waqi-ah-85",
@@ -3280,7 +3364,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَـٰكِن لَّا تُبْصِرُونَ",
     "textSimple": "ونحن أقرب إليه منكم ولـكن لا تبصرون",
     "transliteration": "wanaḥnu aqrabu ilayhi minkum walākin lā tub'ṣirūna",
-    "translation": "",
+    "translation": "And We [i.e., Our angels] are nearer to him than you, but you do not see -",
     "words": [
       {
         "id": "al-waqi-ah-85-1",
@@ -3332,7 +3416,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que Nous sommes plus proches (du mourant) que vous ne l’êtes, mais vous ne le voyez pas,"
   },
   {
     "id": "al-waqi-ah-86",
@@ -3341,7 +3426,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ",
     "textSimple": "فلولآ إن كنتم غير مدينين",
     "transliteration": "falawlā in kuntum ghayra madīnīna",
-    "translation": "",
+    "translation": "Then why do you not, if you are not to be recompensed,",
     "words": [
       {
         "id": "al-waqi-ah-86-1",
@@ -3379,7 +3464,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pourquoi donc, si vous n’avez pas vraiment à payer pour vos œuvres,"
   },
   {
     "id": "al-waqi-ah-87",
@@ -3388,7 +3474,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "تَرْجِعُونَهَآ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ترجعونهآ إن كنتم صـدقين",
     "transliteration": "tarjiʿūnahā in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Bring it back, if you should be truthful?",
     "words": [
       {
         "id": "al-waqi-ah-87-1",
@@ -3419,7 +3505,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ne la faites-vous pas revenir, si vous êtes sincères (dans vos dires) ?"
   },
   {
     "id": "al-waqi-ah-88",
@@ -3428,7 +3515,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
     "textSimple": "فأمآ إن كان من ٱلمقربين",
     "transliteration": "fa-ammā in kāna mina l-muqarabīna",
-    "translation": "",
+    "translation": "And if he [i.e., the deceased] was of those brought near [to Allāh],",
     "words": [
       {
         "id": "al-waqi-ah-88-1",
@@ -3466,7 +3553,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si (le défunt) est du nombre des privilégiés,"
   },
   {
     "id": "al-waqi-ah-89",
@@ -3475,7 +3563,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ",
     "textSimple": "فروح وريحان وجنت نعيم",
     "transliteration": "farawḥun warayḥānun wajannatu naʿīmin",
-    "translation": "",
+    "translation": "Then [for him is] rest and bounty and a garden of pleasure.",
     "words": [
       {
         "id": "al-waqi-ah-89-1",
@@ -3506,7 +3594,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y aura alors pour lui repos, grâce et Jardin des délices."
   },
   {
     "id": "al-waqi-ah-90",
@@ -3515,7 +3604,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّآ إِن كَانَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
     "textSimple": "وأمآ إن كان من أصحـب ٱليمين",
     "transliteration": "wa-ammā in kāna min aṣḥābi l-yamīni",
-    "translation": "",
+    "translation": "And if he was of the companions of the right,",
     "words": [
       {
         "id": "al-waqi-ah-90-1",
@@ -3560,7 +3649,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’il est du nombre des gens de la dextre,"
   },
   {
     "id": "al-waqi-ah-91",
@@ -3569,7 +3659,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَسَلَـٰمٌ لَّكَ مِنْ أَصْحَـٰبِ ٱلْيَمِينِ",
     "textSimple": "فسلـم لك من أصحـب ٱليمين",
     "transliteration": "fasalāmun laka min aṣḥābi l-yamīni",
-    "translation": "",
+    "translation": "Then [the angels will say], \"Peace for you; [you are] from the companions of the right.\"",
     "words": [
       {
         "id": "al-waqi-ah-91-1",
@@ -3607,7 +3697,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, « Paix à toi (lui sera-t-il dit), (ô toi qui fais partie) des gens de la dextre. »"
   },
   {
     "id": "al-waqi-ah-92",
@@ -3616,7 +3707,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ",
     "textSimple": "وأمآ إن كان من ٱلمكذبين ٱلضآلين",
     "transliteration": "wa-ammā in kāna mina l-mukadhibīna l-ḍālīna",
-    "translation": "",
+    "translation": "But if he was of the deniers [who were] astray,",
     "words": [
       {
         "id": "al-waqi-ah-92-1",
@@ -3661,7 +3752,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’il est du nombre des négateurs fourvoyés,"
   },
   {
     "id": "al-waqi-ah-93",
@@ -3670,7 +3762,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَنُزُلٌ مِّنْ حَمِيمٍ",
     "textSimple": "فنزل من حميم",
     "transliteration": "fanuzulun min ḥamīmin",
-    "translation": "",
+    "translation": "Then [for him is] accommodation of scalding water",
     "words": [
       {
         "id": "al-waqi-ah-93-1",
@@ -3694,7 +3786,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il sera l’hôte (de l’Enfer) où il sera abreuvé d’eau bouillante,"
   },
   {
     "id": "al-waqi-ah-94",
@@ -3703,7 +3796,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَتَصْلِيَةُ جَحِيمٍ",
     "textSimple": "وتصلية جحيم",
     "transliteration": "wataṣliyatu jaḥīmin",
-    "translation": "",
+    "translation": "And burning in Hellfire.",
     "words": [
       {
         "id": "al-waqi-ah-94-1",
@@ -3720,7 +3813,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et où il brûlera dans la Fournaise."
   },
   {
     "id": "al-waqi-ah-95",
@@ -3729,7 +3823,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
     "textSimple": "إن هـذا لهو حق ٱليقين",
     "transliteration": "inna hādhā lahuwa ḥaqqu l-yaqīni",
-    "translation": "",
+    "translation": "Indeed, this is the true certainty,",
     "words": [
       {
         "id": "al-waqi-ah-95-1",
@@ -3767,7 +3861,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la véritable certitude."
   },
   {
     "id": "al-waqi-ah-96",
@@ -3776,7 +3871,7 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
     "textSimple": "فسبح بٱسم ربك ٱلعظيم",
     "transliteration": "fasabbiḥ bi-is'mi rabbika l-ʿaẓīmi",
-    "translation": "",
+    "translation": "So exalt the name of your Lord, the Most Great.",
     "words": [
       {
         "id": "al-waqi-ah-96-1",
@@ -3807,7 +3902,8 @@ export const AL_WAQI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rends donc gloire au Nom de ton Seigneur, le Très Grand."
   }
 ];
 

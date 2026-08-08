@@ -11,7 +11,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": " الٓر ۚ كِتَـٰبٌ أُحْكِمَتْ ءَايَـٰتُهُۥ ثُمَّ فُصِّلَتْ مِن لَّدُنْ حَكِيمٍ خَبِيرٍ",
     "textSimple": " الٓر  كتـب أحكمت ءايـته ثم فصلت من لدن حكيم خبير",
     "transliteration": "alif-lam-ra kitābun uḥ'kimat āyātuhu thumma fuṣṣilat min ladun ḥakīmin khabīrin",
-    "translation": "",
+    "translation": "Alif, Lām, Rā. [This is] a Book whose verses are perfected and then presented in detail from [one who is] Wise and Aware",
     "words": [
       {
         "id": "hud-1-1",
@@ -84,7 +84,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Rā. C’est un Livre dont les versets sont parfaitement éloquents et clairement détaillés de la part d’un Sage, Tout Informé."
   },
   {
     "id": "hud-2",
@@ -93,7 +94,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۚ إِنَّنِى لَكُم مِّنْهُ نَذِيرٌ وَبَشِيرٌ",
     "textSimple": "ألا تعبدوٓا إلا ٱلله  إننى لكم منه نذير وبشير",
     "transliteration": "allā taʿbudū illā l-laha innanī lakum min'hu nadhīrun wabashīrun",
-    "translation": "",
+    "translation": "[Through a messenger, saying], \"Do not worship except Allāh. Indeed, I am to you from Him a warner and a bringer of good tidings,\"",
     "words": [
       {
         "id": "hud-2-1",
@@ -159,7 +160,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Afin que vous n’adoriez qu’Allah, car je viens vers vous, de Sa part, pour avertir (de Son châtiment) et annoncer (Sa récompense),"
   },
   {
     "id": "hud-3",
@@ -168,7 +170,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُمَتِّعْكُم مَّتَـٰعًا حَسَنًا إِلَىٰٓ أَجَلٍ مُّسَمًّى وَيُؤْتِ كُلَّ ذِى فَضْلٍ فَضْلَهُۥ ۖ وَإِن تَوَلَّوْا۟ فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ",
     "textSimple": "وأن ٱستغفروا ربكم ثم توبوٓا إليه يمتعكم متـعا حسنا إلىٓ أجل مسمى ويؤت كل ذى فضل فضله  وإن تولوا فإنىٓ أخاف عليكم عذاب يوم كبير",
     "transliteration": "wa-ani is'taghfirū rabbakum thumma tūbū ilayhi yumattiʿ'kum matāʿan ḥasanan ilā ajalin musamman wayu'ti kulla dhī faḍlin faḍlahu wa-in tawallaw fa-innī akhāfu ʿalaykum ʿadhāba yawmin kabīrin",
-    "translation": "",
+    "translation": "And [saying], \"Seek forgiveness of your Lord and repent to Him, [and] He will let you enjoy a good provision for a specified term and give every doer of favor his favor [i.e., reward]. But if you turn away, then indeed, I fear for you the punishment of a great Day.",
     "words": [
       {
         "id": "hud-3-1",
@@ -346,7 +348,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que vous imploriez le pardon de la part de votre Seigneur, puis reveniez à Lui, repentants. Il vous fera profiter des belles jouissances jusqu’à un terme fixé, et Il attribuera à tout méritant la faveur qui lui est due. Mais si vous tournez le dos (à la vérité), je crains pour vous le supplice d’un très grand jour."
   },
   {
     "id": "hud-4",
@@ -355,7 +358,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَى ٱللَّهِ مَرْجِعُكُمْ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "إلى ٱلله مرجعكم  وهو على كل شىء قدير",
     "transliteration": "ilā l-lahi marjiʿukum wahuwa ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "To Allāh is your return, and He is over all things competent.\"",
     "words": [
       {
         "id": "hud-4-1",
@@ -414,7 +417,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vers Allah sera votre retour, et Il est de Toute chose Infiniment Capable."
   },
   {
     "id": "hud-5",
@@ -423,7 +427,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "ألآ إنهم يثنون صدورهم ليستخفوا منه  ألا حين يستغشون ثيابهم يعلم ما يسرون وما يعلنون  إنه عليم بذات ٱلصدور",
     "transliteration": "alā innahum yathnūna ṣudūrahum liyastakhfū min'hu alā ḥīna yastaghshūna thiyābahum yaʿlamu mā yusirrūna wamā yuʿ'linūna innahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "Unquestionably, they [i.e., the disbelievers] turn away their breasts to hide themselves from him. Unquestionably, [even] when they cover themselves in their clothing, He [i.e., Allāh] knows what they conceal and what they declare. Indeed, He is Knowing of that within the breasts.",
     "words": [
       {
         "id": "hud-5-1",
@@ -559,7 +563,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà qu’ils plient leurs poitrines pour se cacher de Lui. (Ils doivent savoir que) quand bien même ils se couvriraient de leurs vêtements, Il saurait ce qu’ils recèlent et ce qu’ils révèlent. Car Il Sait Parfaitement ce qu’il y a au fond des cœurs."
   },
   {
     "id": "hud-6",
@@ -568,7 +573,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ إِلَّا عَلَى ٱللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۚ كُلٌّ فِى كِتَـٰبٍ مُّبِينٍ",
     "textSimple": " وما من دآبة فى ٱلأرض إلا على ٱلله رزقها ويعلم مستقرها ومستودعها  كل فى كتـب مبين",
     "transliteration": "wamā min dābbatin fī l-arḍi illā ʿalā l-lahi riz'quhā wayaʿlamu mus'taqarrahā wamus'tawdaʿahā kullun fī kitābin mubīnin",
-    "translation": "",
+    "translation": "And there is no creature on earth but that upon Allāh is its provision, and He knows its place of dwelling and place of storage. All is in a clear register.",
     "words": [
       {
         "id": "hud-6-1",
@@ -683,7 +688,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est pas de bête sur terre dont la subsistance ne soit assurée par Allah, Qui en Sait le repaire et le dernier dépôt. Tout est inscrit dans un Livre explicite."
   },
   {
     "id": "hud-7",
@@ -692,7 +698,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ وَكَانَ عَرْشُهُۥ عَلَى ٱلْمَآءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۗ وَلَئِن قُلْتَ إِنَّكُم مَّبْعُوثُونَ مِنۢ بَعْدِ ٱلْمَوْتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَـٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
     "textSimple": "وهو ٱلذى خلق ٱلسمـوت وٱلأرض فى ستة أيام وكان عرشه على ٱلمآء ليبلوكم أيكم أحسن عملا  ولئن قلت إنكم مبعوثون من بعد ٱلموت ليقولن ٱلذين كفروٓا إن هـذآ إلا سحر مبين",
     "transliteration": "wahuwa alladhī khalaqa l-samāwāti wal-arḍa fī sittati ayyāmin wakāna ʿarshuhu ʿalā l-māi liyabluwakum ayyukum aḥsanu ʿamalan wala-in qul'ta innakum mabʿūthūna min baʿdi l-mawti layaqūlanna alladhīna kafarū in hādhā illā siḥ'run mubīnun",
-    "translation": "",
+    "translation": "And it is He who created the heavens and the earth in six days - and His Throne had been upon water - that He might test you as to which of you is best in deed. But if you say, \"Indeed, you are resurrected after death,\" those who disbelieve will surely say, \"This is not but obvious magic.\"",
     "words": [
       {
         "id": "hud-7-1",
@@ -912,7 +918,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a créé les cieux et la terre en six jours, alors que Son trône était encore sur l’eau, pour savoir, en vous éprouvant, qui de vous aurait les meilleures actions. Et si tu dis : « Vous serez certainement ressuscités après la mort », ceux qui ont mécru diront : « Ce n’est là que magie flagrante ! »"
   },
   {
     "id": "hud-8",
@@ -921,7 +928,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَخَّرْنَا عَنْهُمُ ٱلْعَذَابَ إِلَىٰٓ أُمَّةٍ مَّعْدُودَةٍ لَّيَقُولُنَّ مَا يَحْبِسُهُۥٓ ۗ أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا عَنْهُمْ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "ولئن أخرنا عنهم ٱلعذاب إلىٓ أمة معدودة ليقولن ما يحبسهٓ  ألا يوم يأتيهم ليس مصروفا عنهم وحاق بهم ما كانوا به يستهزءون",
     "transliteration": "wala-in akharnā ʿanhumu l-ʿadhāba ilā ummatin maʿdūdatin layaqūlunna mā yaḥbisuhu alā yawma yatīhim laysa maṣrūfan ʿanhum waḥāqa bihim mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And if We hold back from them the punishment for a limited time, they will surely say, \"What detains it?\" Unquestionably, on the Day it comes to them, it will not be averted from them, and they will be enveloped by what they used to ridicule.",
     "words": [
       {
         "id": "hud-8-1",
@@ -1078,7 +1085,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous renvoyons leur supplice à une période déterminée, Ils diront : « Qu’est-ce donc qui L’empêche (d’arriver) ? » Or, le jour où (le supplice) viendra, nul ne pourra plus l’éloigner, et ce qu’ils raillaient les cernera de toutes parts."
   },
   {
     "id": "hud-9",
@@ -1087,7 +1095,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَذَقْنَا ٱلْإِنسَـٰنَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَـٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌ كَفُورٌ",
     "textSimple": "ولئن أذقنا ٱلإنسـن منا رحمة ثم نزعنـها منه إنه ليـٔوس كفور",
     "transliteration": "wala-in adhaqnā l-insāna minnā raḥmatan thumma nazaʿnāhā min'hu innahu layaūsun kafūrun",
-    "translation": "",
+    "translation": "And if We give man a taste of mercy from Us and then We withdraw it from him, indeed, he is despairing and ungrateful.",
     "words": [
       {
         "id": "hud-9-1",
@@ -1167,7 +1175,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous faisons goûter à l’homme une grâce de Notre part, et que Nous la lui retirions par la suite, voilà qu’il est désespéré et outrageusement ingrat."
   },
   {
     "id": "hud-10",
@@ -1176,7 +1185,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِنْ أَذَقْنَـٰهُ نَعْمَآءَ بَعْدَ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّىٓ ۚ إِنَّهُۥ لَفَرِحٌ فَخُورٌ",
     "textSimple": "ولئن أذقنـه نعمآء بعد ضرآء مسته ليقولن ذهب ٱلسيـٔات عنىٓ  إنه لفرح فخور",
     "transliteration": "wala-in adhaqnāhu naʿmāa baʿda ḍarrāa massathu layaqūlanna dhahaba l-sayiātu ʿannī innahu lafariḥun fakhūrun",
-    "translation": "",
+    "translation": "But if We give him a taste of favor after hardship has touched him, he will surely say, \"Bad times have left me.\" Indeed, he is exultant and boastful -",
     "words": [
       {
         "id": "hud-10-1",
@@ -1270,7 +1279,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous lui faisons goûter les jours fastes après que l’ont affecté des jours néfastes, il dit : « Les maux sont loin de moi ! » et le revoilà ravi et plein d’orgueil."
   },
   {
     "id": "hud-11",
@@ -1279,7 +1289,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
     "textSimple": "إلا ٱلذين صبروا وعملوا ٱلصـلحـت أولـٓئك لهم مغفرة وأجر كبير",
     "transliteration": "illā alladhīna ṣabarū waʿamilū l-ṣāliḥāti ulāika lahum maghfiratun wa-ajrun kabīrun",
-    "translation": "",
+    "translation": "Except for those who are patient and do righteous deeds; those will have forgiveness and great reward.",
     "words": [
       {
         "id": "hud-11-1",
@@ -1352,7 +1362,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Excepté ceux qui savent prendre patience et accomplissent les bonnes œuvres, ceux-là obtiendront le pardon et une très grande récompense."
   },
   {
     "id": "hud-12",
@@ -1361,7 +1372,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَعَلَّكَ تَارِكٌۢ بَعْضَ مَا يُوحَىٰٓ إِلَيْكَ وَضَآئِقٌۢ بِهِۦ صَدْرُكَ أَن يَقُولُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ كَنزٌ أَوْ جَآءَ مَعَهُۥ مَلَكٌ ۚ إِنَّمَآ أَنتَ نَذِيرٌ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
     "textSimple": "فلعلك تارك بعض ما يوحىٓ إليك وضآئق به صدرك أن يقولوا لولآ أنزل عليه كنز أو جآء معه ملك  إنمآ أنت نذير  وٱلله على كل شىء وكيل",
     "transliteration": "falaʿallaka tārikun baʿḍa mā yūḥā ilayka waḍāiqun bihi ṣadruka an yaqūlū lawlā unzila ʿalayhi kanzun aw jāa maʿahu malakun innamā anta nadhīrun wal-lahu ʿalā kulli shayin wakīlun",
-    "translation": "",
+    "translation": "Then would you possibly leave [out] some of what is revealed to you, or is your breast constrained by it because they say, \"Why has there not been sent down to him a treasure or come with him an angel?\" But you are only a warner. And Allāh is Disposer of all things.",
     "words": [
       {
         "id": "hud-12-1",
@@ -1553,7 +1564,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il peut arriver que tu omettes une partie de ce qui t’est révélé et que tu aies le cœur serré quand ils disent : « Si au moins était descendu sur lui un trésor, ou était envoyé un Ange en sa compagnie ! » Tu n’es chargé que d’avertir. Allah est de Toute chose Garant."
   },
   {
     "id": "hud-13",
@@ -1562,7 +1574,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍ مِّثْلِهِۦ مُفْتَرَيَـٰتٍ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "أم يقولون ٱفترىه  قل فأتوا بعشر سور مثله مفتريـت وٱدعوا من ٱستطعتم من دون ٱلله إن كنتم صـدقين",
     "transliteration": "am yaqūlūna if'tarāhu qul fatū biʿashri suwarin mith'lihi muf'tarayātin wa-id'ʿū mani is'taṭaʿtum min dūni l-lahi in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Or do they say, \"He invented it\"? Say, \"Then bring ten sūrahs like it that have been invented and call upon [for assistance] whomever you can besides Allāh, if you should be truthful.\"",
     "words": [
       {
         "id": "hud-13-1",
@@ -1691,7 +1703,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront encore : « Il l’a inventé. » Dis : « Produisez donc dix sourates de semblables, qui soient inventées, et appelez (pour le faire) qui vous pourrez en dehors d’Allah, si vous dites vrai. »"
   },
   {
     "id": "hud-14",
@@ -1700,7 +1713,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَإِلَّمْ يَسْتَجِيبُوا۟ لَكُمْ فَٱعْلَمُوٓا۟ أَنَّمَآ أُنزِلَ بِعِلْمِ ٱللَّهِ وَأَن لَّآ إِلَـٰهَ إِلَّا هُوَ ۖ فَهَلْ أَنتُم مُّسْلِمُونَ",
     "textSimple": "فإلم يستجيبوا لكم فٱعلموٓا أنمآ أنزل بعلم ٱلله وأن لآ إلـه إلا هو  فهل أنتم مسلمون",
     "transliteration": "fa-illam yastajībū lakum fa-iʿ'lamū annamā unzila biʿil'mi l-lahi wa-an lā ilāha illā huwa fahal antum mus'limūna",
-    "translation": "",
+    "translation": "And if they do not respond to you - then know that it [i.e., the Qur’ān] was revealed with the knowledge of Allāh and that there is no deity except Him. Then, would you [not] be Muslims?",
     "words": [
       {
         "id": "hud-14-1",
@@ -1815,7 +1828,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’ils s’abstiennent de vous répondre, sachez qu’il n’a été révélé que par la science d’Allah, et qu’il n’y a point d’autre divinité que Lui. Allez-vous donc vous Soumettre (en Musulmans) ?"
   },
   {
     "id": "hud-15",
@@ -1824,7 +1838,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "مَن كَانَ يُرِيدُ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا نُوَفِّ إِلَيْهِمْ أَعْمَـٰلَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ",
     "textSimple": "من كان يريد ٱلحيوة ٱلدنيا وزينتها نوف إليهم أعمـلهم فيها وهم فيها لا يبخسون",
     "transliteration": "man kāna yurīdu l-ḥayata l-dun'yā wazīnatahā nuwaffi ilayhim aʿmālahum fīhā wahum fīhā lā yub'khasūna",
-    "translation": "",
+    "translation": "Whoever desires the life of this world and its adornments - We fully repay them for their deeds therein, and they therein will not be deprived.",
     "words": [
       {
         "id": "hud-15-1",
@@ -1925,7 +1939,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui veulent la vie en ce bas monde ainsi que son apparat, Nous leur réservons l’exacte rétribution des œuvres qu’ils ont accomplies ; rien ne leur en sera dévalorisé."
   },
   {
     "id": "hud-16",
@@ -1934,7 +1949,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى ٱلْـَٔاخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَـٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "أولـٓئك ٱلذين ليس لهم فى ٱلـٔاخرة إلا ٱلنار  وحبط ما صنعوا فيها وبـطل ما كانوا يعملون",
     "transliteration": "ulāika alladhīna laysa lahum fī l-ākhirati illā l-nāru waḥabiṭa mā ṣanaʿū fīhā wabāṭilun mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "Those are the ones for whom there is not in the Hereafter but the Fire. And lost is what they did therein, and worthless is what they used to do.",
     "words": [
       {
         "id": "hud-16-1",
@@ -2049,7 +2064,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont eux qui, dans l’autre monde, n’auront rien d’autre que le Feu. Leurs œuvres ici-bas auront été vaines et nul sera tout ce qu’ils faisaient."
   },
   {
     "id": "hud-17",
@@ -2058,7 +2074,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ وَيَتْلُوهُ شَاهِدٌ مِّنْهُ وَمِن قَبْلِهِۦ كِتَـٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ أُو۟لَـٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى مِرْيَةٍ مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
     "textSimple": "أفمن كان على بينة من ربه ويتلوه شاهد منه ومن قبله كتـب موسىٓ إماما ورحمة  أولـٓئك يؤمنون به  ومن يكفر به من ٱلأحزاب فٱلنار موعده  فلا تك فى مرية منه  إنه ٱلحق من ربك ولـكن أكثر ٱلناس لا يؤمنون",
     "transliteration": "afaman kāna ʿalā bayyinatin min rabbihi wayatlūhu shāhidun min'hu wamin qablihi kitābu mūsā imāman waraḥmatan ulāika yu'minūna bihi waman yakfur bihi mina l-aḥzābi fal-nāru mawʿiduhu falā taku fī mir'yatin min'hu innahu l-ḥaqu min rabbika walākinna akthara l-nāsi lā yu'minūna",
-    "translation": "",
+    "translation": "So is one who [stands] upon a clear evidence from his Lord [like the aforementioned]? And a witness from Him follows it, and before it was the Scripture of Moses to lead and as mercy. Those [believers in the former revelations] believe in it [i.e., the Qur’ān]. But whoever disbelieves in it from the [various] factions - the Fire is his promised destination. So be not in doubt about it. Indeed, it is the truth from your Lord, but most of the people do not believe.",
     "words": [
       {
         "id": "hud-17-1",
@@ -2334,7 +2350,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 38
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui détient une preuve évidente venant de son Seigneur, suivie par un témoin et précédée par le Livre de Moïse (comme) guide et miséricorde, (est-il à mettre sur un pied d’égalité avec celui qui ne se fonde sur rien) ? Ceux-là y croient. Mais celui qui, appartenant à certaines factions, y mécroit, le Feu lui est promis. Ne sois donc pas dans le doute à son sujet (le Coran). Il est la vérité venant de ton Seigneur, mais la plupart des hommes n’y croient pas."
   },
   {
     "id": "hud-18",
@@ -2343,7 +2360,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۚ أُو۟لَـٰٓئِكَ يُعْرَضُونَ عَلَىٰ رَبِّهِمْ وَيَقُولُ ٱلْأَشْهَـٰدُ هَـٰٓؤُلَآءِ ٱلَّذِينَ كَذَبُوا۟ عَلَىٰ رَبِّهِمْ ۚ أَلَا لَعْنَةُ ٱللَّهِ عَلَى ٱلظَّـٰلِمِينَ",
     "textSimple": "ومن أظلم ممن ٱفترى على ٱلله كذبا  أولـٓئك يعرضون على ربهم ويقول ٱلأشهـد هـٓؤلآء ٱلذين كذبوا على ربهم  ألا لعنة ٱلله على ٱلظـلمين",
     "transliteration": "waman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban ulāika yuʿ'raḍūna ʿalā rabbihim wayaqūlu l-ashhādu hāulāi alladhīna kadhabū ʿalā rabbihim alā laʿnatu l-lahi ʿalā l-ẓālimīna",
-    "translation": "",
+    "translation": "And who is more unjust than he who invents a lie about Allāh? Those will be presented before their Lord, and the witnesses will say, \"These are the ones who lied against their Lord.\" Unquestionably, the curse of Allāh is upon the wrongdoers.",
     "words": [
       {
         "id": "hud-18-1",
@@ -2507,7 +2524,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que ceux qui débitent des mensonges sur le compte d’Allah ? Ceux-là seront amenés à comparaître devant leur Seigneur et les témoins diront alors : « Ce sont ceux qui ont menti au sujet de leur Seigneur. » Puisse la malédiction d’Allah frapper les injustes,"
   },
   {
     "id": "hud-19",
@@ -2516,7 +2534,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ",
     "textSimple": "ٱلذين يصدون عن سبيل ٱلله ويبغونها عوجا وهم بٱلـٔاخرة هم كـفرون",
     "transliteration": "alladhīna yaṣuddūna ʿan sabīli l-lahi wayabghūnahā ʿiwajan wahum bil-ākhirati hum kāfirūna",
-    "translation": "",
+    "translation": "Who averted [people] from the way of Allāh and sought to make it [seem] deviant while they, concerning the Hereafter, were disbelievers.",
     "words": [
       {
         "id": "hud-19-1",
@@ -2596,7 +2614,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui se mettent en travers du chemin d’Allah, le souhaitent tortueux, et mécroient en l’autre monde."
   },
   {
     "id": "hud-20",
@@ -2605,7 +2624,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ لَمْ يَكُونُوا۟ مُعْجِزِينَ فِى ٱلْأَرْضِ وَمَا كَانَ لَهُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ۘ يُضَـٰعَفُ لَهُمُ ٱلْعَذَابُ ۚ مَا كَانُوا۟ يَسْتَطِيعُونَ ٱلسَّمْعَ وَمَا كَانُوا۟ يُبْصِرُونَ",
     "textSimple": "أولـٓئك لم يكونوا معجزين فى ٱلأرض وما كان لهم من دون ٱلله من أوليآء  يضـعف لهم ٱلعذاب  ما كانوا يستطيعون ٱلسمع وما كانوا يبصرون",
     "transliteration": "ulāika lam yakūnū muʿ'jizīna fī l-arḍi wamā kāna lahum min dūni l-lahi min awliyāa yuḍāʿafu lahumu l-ʿadhābu mā kānū yastaṭīʿūna l-samʿa wamā kānū yub'ṣirūna",
-    "translation": "",
+    "translation": "Those were not causing failure [to Allāh] on earth, nor did they have besides Allāh any protectors. For them the punishment will be multiplied. They were not able to hear, nor did they see.",
     "words": [
       {
         "id": "hud-20-1",
@@ -2776,7 +2795,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là ne sauraient mettre au défi la puissance d’Allah sur terre. Ils n’ont pas d’alliés en dehors d’Allah et leur supplice leur sera multiplié, car ils ne pouvaient ni entendre ni voir."
   },
   {
     "id": "hud-21",
@@ -2785,7 +2805,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
     "textSimple": "أولـٓئك ٱلذين خسروٓا أنفسهم وضل عنهم ما كانوا يفترون",
     "transliteration": "ulāika alladhīna khasirū anfusahum waḍalla ʿanhum mā kānū yaftarūna",
-    "translation": "",
+    "translation": "Those are the ones who will have lost themselves, and lost from them is what they used to invent.",
     "words": [
       {
         "id": "hud-21-1",
@@ -2851,7 +2871,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont ceux qui se sont perdus eux-mêmes et se sont vus délaissés par ce qu’ils inventaient (comme divinités)."
   },
   {
     "id": "hud-22",
@@ -2860,7 +2881,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "لَا جَرَمَ أَنَّهُمْ فِى ٱلْـَٔاخِرَةِ هُمُ ٱلْأَخْسَرُونَ",
     "textSimple": "لا جرم أنهم فى ٱلـٔاخرة هم ٱلأخسرون",
     "transliteration": "lā jarama annahum fī l-ākhirati humu l-akhsarūna",
-    "translation": "",
+    "translation": "Assuredly, it is they in the Hereafter who will be the greatest losers.",
     "words": [
       {
         "id": "hud-22-1",
@@ -2912,7 +2933,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce sont eux qui, sans conteste, seront les plus grands perdants dans l’autre monde."
   },
   {
     "id": "hud-23",
@@ -2921,7 +2943,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَأَخْبَتُوٓا۟ إِلَىٰ رَبِّهِمْ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت وأخبتوٓا إلى ربهم أولـٓئك أصحـب ٱلجنة  هم فيها خـلدون",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti wa-akhbatū ilā rabbihim ulāika aṣḥābu l-janati hum fīhā khālidūna",
-    "translation": "",
+    "translation": "Indeed, they who have believed and done righteous deeds and humbled themselves to their Lord - those are the companions of Paradise; they will abide eternally therein.",
     "words": [
       {
         "id": "hud-23-1",
@@ -3022,7 +3044,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui croient, accomplissent les bonnes œuvres et se font humbles devant leur Seigneur, ceux-là sont les hôtes du Paradis, où ils séjourneront pour l’éternité."
   },
   {
     "id": "hud-24",
@@ -3031,7 +3054,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "۞ مَثَلُ ٱلْفَرِيقَيْنِ كَٱلْأَعْمَىٰ وَٱلْأَصَمِّ وَٱلْبَصِيرِ وَٱلسَّمِيعِ ۚ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ أَفَلَا تَذَكَّرُونَ",
     "textSimple": " مثل ٱلفريقين كٱلأعمى وٱلأصم وٱلبصير وٱلسميع  هل يستويان مثلا  أفلا تذكرون",
     "transliteration": "mathalu l-farīqayni kal-aʿmā wal-aṣami wal-baṣīri wal-samīʿi hal yastawiyāni mathalan afalā tadhakkarūna",
-    "translation": "",
+    "translation": "The example of the two parties is like the blind and deaf, and the seeing and hearing. Are they equal in comparison? Then, will you not remember?",
     "words": [
       {
         "id": "hud-24-1",
@@ -3111,7 +3134,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ces deux groupes sont respectivement à l’image de l’aveugle et du sourd, et de celui qui voit et celui qui entend. L’un et l’autre (groupes) sont-ils donc égaux ? Ne sauriez-vous y méditer ?"
   },
   {
     "id": "hud-25",
@@ -3120,7 +3144,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ إِنِّى لَكُمْ نَذِيرٌ مُّبِينٌ",
     "textSimple": "ولقد أرسلنا نوحا إلى قومهٓ إنى لكم نذير مبين",
     "transliteration": "walaqad arsalnā nūḥan ilā qawmihi innī lakum nadhīrun mubīnun",
-    "translation": "",
+    "translation": "And We had certainly sent Noah to his people, [saying], \"Indeed, I am to you a clear warner",
     "words": [
       {
         "id": "hud-25-1",
@@ -3186,7 +3210,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons envoyé Noé à son peuple : « J’ai en charge, leur dit-il, de vous avertir explicitement"
   },
   {
     "id": "hud-26",
@@ -3195,7 +3220,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أَن لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍ",
     "textSimple": "أن لا تعبدوٓا إلا ٱلله  إنىٓ أخاف عليكم عذاب يوم أليم",
     "transliteration": "an lā taʿbudū illā l-laha innī akhāfu ʿalaykum ʿadhāba yawmin alīmin",
-    "translation": "",
+    "translation": "That you not worship except Allāh. Indeed, I fear for you the punishment of a painful day.\"",
     "words": [
       {
         "id": "hud-26-1",
@@ -3275,7 +3300,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "de n’adorer qu’Allah ; je crains pour vous le supplice d’un jour très douloureux. »"
   },
   {
     "id": "hud-27",
@@ -3284,7 +3310,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ مَا نَرَىٰكَ إِلَّا بَشَرًا مِّثْلَنَا وَمَا نَرَىٰكَ ٱتَّبَعَكَ إِلَّا ٱلَّذِينَ هُمْ أَرَاذِلُنَا بَادِىَ ٱلرَّأْىِ وَمَا نَرَىٰ لَكُمْ عَلَيْنَا مِن فَضْلٍۭ بَلْ نَظُنُّكُمْ كَـٰذِبِينَ",
     "textSimple": "فقال ٱلملأ ٱلذين كفروا من قومه ما نرىك إلا بشرا مثلنا وما نرىك ٱتبعك إلا ٱلذين هم أراذلنا بادى ٱلرأى وما نرى لكم علينا من فضل بل نظنكم كـذبين",
     "transliteration": "faqāla l-mala-u alladhīna kafarū min qawmihi mā narāka illā basharan mith'lanā wamā narāka ittabaʿaka illā alladhīna hum arādhilunā bādiya l-rayi wamā narā lakum ʿalaynā min faḍlin bal naẓunnukum kādhibīna",
-    "translation": "",
+    "translation": "So the eminent among those who disbelieved from his people said, \"We do not see you but as a man like ourselves, and we do not see you followed except by those who are the lowest of us [and] at first suggestion. And we do not see in you over us any merit; rather, we think you are liars.\"",
     "words": [
       {
         "id": "hud-27-1",
@@ -3490,7 +3516,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’assemblée des notables de son peuple, qui étaient mécréants, dirent : « Nous voyons que tu n’es qu’un simple humain comme nous, et nous voyons que seule notre valetaille t’a suivi du premier coup. Et nous ne vous voyons aucun mérite par rapport à nous. Nous pensons plutôt que vous êtes des menteurs. »"
   },
   {
     "id": "hud-28",
@@ -3499,7 +3526,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةً مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَـٰرِهُونَ",
     "textSimple": "قال يـقوم أرءيتم إن كنت على بينة من ربى وءاتىنى رحمة من عنده فعميت عليكم أنلزمكموها وأنتم لها كـرهون",
     "transliteration": "qāla yāqawmi ara-aytum in kuntu ʿalā bayyinatin min rabbī waātānī raḥmatan min ʿindihi faʿummiyat ʿalaykum anul'zimukumūhā wa-antum lahā kārihūna",
-    "translation": "",
+    "translation": "He said, \"O my people, have you considered: if I should be upon clear evidence from my Lord while He has given me mercy from Himself but it has been made unapparent to you, should we force it upon you while you are averse to it?",
     "words": [
       {
         "id": "hud-28-1",
@@ -3635,7 +3662,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit alors : « Ô peuple mien ! Avez-vous considéré (le fait que) si je me fonde sur une preuve évidente de mon Seigneur, qu’Il m’a accordée de par Sa grâce et qui vous est rendue invisible, vous l’imposerons-nous quand vous l’avez en horreur ?"
   },
   {
     "id": "hud-29",
@@ -3644,7 +3672,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ مَالًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۚ وَمَآ أَنَا۠ بِطَارِدِ ٱلَّذِينَ ءَامَنُوٓا۟ ۚ إِنَّهُم مُّلَـٰقُوا۟ رَبِّهِمْ وَلَـٰكِنِّىٓ أَرَىٰكُمْ قَوْمًا تَجْهَلُونَ",
     "textSimple": "ويـقوم لآ أسـٔلكم عليه مالا  إن أجرى إلا على ٱلله  ومآ أنا بطارد ٱلذين ءامنوٓا  إنهم ملـقوا ربهم ولـكنىٓ أرىكم قوما تجهلون",
     "transliteration": "wayāqawmi lā asalukum ʿalayhi mālan in ajriya illā ʿalā l-lahi wamā anā biṭāridi alladhīna āmanū innahum mulāqū rabbihim walākinnī arākum qawman tajhalūna",
-    "translation": "",
+    "translation": "And O my people, I ask not of you for it any wealth. My reward is not but from Allāh. And I am not one to drive away those who have believed. Indeed, they will meet their Lord, but I see that you are a people behaving ignorantly.",
     "words": [
       {
         "id": "hud-29-1",
@@ -3801,7 +3829,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Je ne vous demande nulle richesse en contrepartie, car ma récompense relève d’Allah. Je ne pourrai pas, par ailleurs, repousser ceux qui ont cru : ils rencontreront leur Seigneur. Mais je vois que vous êtes un peuple d’ignorants."
   },
   {
     "id": "hud-30",
@@ -3810,7 +3839,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ مَن يَنصُرُنِى مِنَ ٱللَّهِ إِن طَرَدتُّهُمْ ۚ أَفَلَا تَذَكَّرُونَ",
     "textSimple": "ويـقوم من ينصرنى من ٱلله إن طردتهم  أفلا تذكرون",
     "transliteration": "wayāqawmi man yanṣurunī mina l-lahi in ṭaradttuhum afalā tadhakkarūna",
-    "translation": "",
+    "translation": "And O my people, who would protect me from Allāh if I drove them away? Then will you not be reminded?",
     "words": [
       {
         "id": "hud-30-1",
@@ -3876,7 +3905,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Et qui me portera secours devant Allah si je les repousse ? Ne sauriez-vous y réfléchir ?"
   },
   {
     "id": "hud-31",
@@ -3885,7 +3915,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌ وَلَآ أَقُولُ لِلَّذِينَ تَزْدَرِىٓ أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًا لَّمِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "ولآ أقول لكم عندى خزآئن ٱلله ولآ أعلم ٱلغيب ولآ أقول إنى ملك ولآ أقول للذين تزدرىٓ أعينكم لن يؤتيهم ٱلله خيرا  ٱلله أعلم بما فىٓ أنفسهم  إنىٓ إذا لمن ٱلظـلمين",
     "transliteration": "walā aqūlu lakum ʿindī khazāinu l-lahi walā aʿlamu l-ghayba walā aqūlu innī malakun walā aqūlu lilladhīna tazdarī aʿyunukum lan yu'tiyahumu l-lahu khayran l-lahu aʿlamu bimā fī anfusihim innī idhan lamina l-ẓālimīna",
-    "translation": "",
+    "translation": "And I do not tell you that I have the depositories [containing the provision] of Allāh or that I know the unseen, nor do I tell you that I am an angel, nor do I say of those upon whom your eyes look down that Allāh will never grant them any good. Allāh is most knowing of what is within their souls. Indeed, I would then be among the wrongdoers [i.e., the unjust].\"",
     "words": [
       {
         "id": "hud-31-1",
@@ -4105,7 +4135,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne vous dis pas que je possède les trésors d’Allah, ni que je connais l’Inconnaissable (ghayb), pas plus (que je ne prétends être) un Ange. Et je ne dis pas à ceux que vous méprisez du regard qu’Allah ne les gratifiera d’aucune faveur. Allah en Sait mieux sur ce qu’ils cachent dans le secret de leurs cœurs. Ou alors je serai du nombre des injustes. »"
   },
   {
     "id": "hud-32",
@@ -4114,7 +4145,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰنُوحُ قَدْ جَـٰدَلْتَنَا فَأَكْثَرْتَ جِدَٰلَنَا فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "قالوا يـنوح قد جـدلتنا فأكثرت جدلنا فأتنا بما تعدنآ إن كنت من ٱلصـدقين",
     "transliteration": "qālū yānūḥu qad jādaltanā fa-aktharta jidālanā fatinā bimā taʿidunā in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "They said, \"O Noah, you have disputed [i.e., opposed] us and been frequent in dispute of us. So bring us what you threaten us, if you should be of the truthful.\"",
     "words": [
       {
         "id": "hud-32-1",
@@ -4208,7 +4239,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ô Noé ! Tu as déjà débattu (sur la question) avec nous et tu l’as même fait à plusieurs reprises. Fais donc se produire ce dont tu nous menaces, si tu dis vrai ! »"
   },
   {
     "id": "hud-33",
@@ -4217,7 +4249,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّمَا يَأْتِيكُم بِهِ ٱللَّهُ إِن شَآءَ وَمَآ أَنتُم بِمُعْجِزِينَ",
     "textSimple": "قال إنما يأتيكم به ٱلله إن شآء ومآ أنتم بمعجزين",
     "transliteration": "qāla innamā yatīkum bihi l-lahu in shāa wamā antum bimuʿ'jizīna",
-    "translation": "",
+    "translation": "He said, \"Allāh will only bring it to you if He wills, and you will not cause [Him] failure.",
     "words": [
       {
         "id": "hud-33-1",
@@ -4290,7 +4322,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Il n’y a qu’Allah qui puisse le produire, s’Il le veut. Et vous ne sauriez mettre au défi Sa puissance."
   },
   {
     "id": "hud-34",
@@ -4299,7 +4332,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "ولا ينفعكم نصحىٓ إن أردت أن أنصح لكم إن كان ٱلله يريد أن يغويكم  هو ربكم وإليه ترجعون",
     "transliteration": "walā yanfaʿukum nuṣ'ḥī in aradttu an anṣaḥa lakum in kāna l-lahu yurīdu an yugh'wiyakum huwa rabbukum wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "And my advice will not benefit you - although I wished to advise you - if Allāh should intend to put you in error. He is your Lord, and to Him you will be returned.\"",
     "words": [
       {
         "id": "hud-34-1",
@@ -4428,7 +4461,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pour autant que je veuille vous conseiller, mes conseils ne vous serviraient à rien, si Allah veut vous égarer. Il est votre Seigneur et c’est vers Lui que vous serez ramenés. »"
   },
   {
     "id": "hud-35",
@@ -4437,7 +4471,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَعَلَىَّ إِجْرَامِى وَأَنَا۠ بَرِىٓءٌ مِّمَّا تُجْرِمُونَ",
     "textSimple": "أم يقولون ٱفترىه  قل إن ٱفتريته فعلى إجرامى وأنا برىٓء مما تجرمون",
     "transliteration": "am yaqūlūna if'tarāhu qul ini if'taraytuhu faʿalayya ij'rāmī wa-anā barīon mimmā tuj'rimūna",
-    "translation": "",
+    "translation": "Or do they say [about Prophet Muḥammad (ﷺ)], \"He invented it\"? Say, \"If I have invented it, then upon me is [the consequence of] my crime; but I am innocent of what [crimes] you commit.\"",
     "words": [
       {
         "id": "hud-35-1",
@@ -4524,7 +4558,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Disent-ils donc : « Il l’a inventé ! » Dis alors : « Si je l’ai inventé, je serai seul à répondre de mon crime, mais je suis innocent des vôtres. »"
   },
   {
     "id": "hud-36",
@@ -4533,7 +4568,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَأُوحِىَ إِلَىٰ نُوحٍ أَنَّهُۥ لَن يُؤْمِنَ مِن قَوْمِكَ إِلَّا مَن قَدْ ءَامَنَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَفْعَلُونَ",
     "textSimple": "وأوحى إلى نوح أنه لن يؤمن من قومك إلا من قد ءامن فلا تبتئس بما كانوا يفعلون",
     "transliteration": "waūḥiya ilā nūḥin annahu lan yu'mina min qawmika illā man qad āmana falā tabta-is bimā kānū yafʿalūna",
-    "translation": "",
+    "translation": "And it was revealed to Noah that, \"No one will believe from your people except those who have already believed, so do not be distressed by what they have been doing.",
     "words": [
       {
         "id": "hud-36-1",
@@ -4655,7 +4690,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut alors révélé à Noé : « De ton peuple, plus personne ne croira, excepté ceux qui ont déjà cru. Ne sois donc pas peiné de ce qu’ils font."
   },
   {
     "id": "hud-37",
@@ -4664,7 +4700,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَـٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
     "textSimple": "وٱصنع ٱلفلك بأعيننا ووحينا ولا تخـطبنى فى ٱلذين ظلموٓا  إنهم مغرقون",
     "transliteration": "wa-iṣ'naʿi l-ful'ka bi-aʿyuninā wawaḥyinā walā tukhāṭib'nī fī alladhīna ẓalamū innahum mugh'raqūna",
-    "translation": "",
+    "translation": "And construct the ship under Our observation and Our inspiration and do not address Me concerning those who have wronged; indeed, they are [to be] drowned.\"",
     "words": [
       {
         "id": "hud-37-1",
@@ -4744,7 +4780,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Construis donc l’Arche sous Nos yeux et conformément à Notre révélation, et ne M’entretiens plus de ceux qui ont commis des injustices car ils seront bientôt noyés. »"
   },
   {
     "id": "hud-38",
@@ -4753,7 +4790,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ",
     "textSimple": "ويصنع ٱلفلك وكلما مر عليه ملأ من قومه سخروا منه  قال إن تسخروا منا فإنا نسخر منكم كما تسخرون",
     "transliteration": "wayaṣnaʿu l-ful'ka wakullamā marra ʿalayhi mala-on min qawmihi sakhirū min'hu qāla in taskharū minnā fa-innā naskharu minkum kamā taskharūna",
-    "translation": "",
+    "translation": "And he constructed the ship, and whenever an assembly of the eminent of his people passed by him, they ridiculed him. He said, \"If you ridicule us, then we will ridicule you just as you ridicule.",
     "words": [
       {
         "id": "hud-38-1",
@@ -4889,7 +4926,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il se mit à construire l’Arche et chaque fois que des notabilités de son peuple passaient auprès de lui, ils le raillaient. Il (leur) dit : « Si vous nous raillez, nous vous raillerons comme vous nous raillez."
   },
   {
     "id": "hud-39",
@@ -4898,7 +4936,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَسَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَيَحِلُّ عَلَيْهِ عَذَابٌ مُّقِيمٌ",
     "textSimple": "فسوف تعلمون من يأتيه عذاب يخزيه ويحل عليه عذاب مقيم",
     "transliteration": "fasawfa taʿlamūna man yatīhi ʿadhābun yukh'zīhi wayaḥillu ʿalayhi ʿadhābun muqīmun",
-    "translation": "",
+    "translation": "And you are going to know who will get a punishment that will disgrace him [on earth] and upon whom will descend an enduring punishment [in the Hereafter].\"",
     "words": [
       {
         "id": "hud-39-1",
@@ -4971,7 +5009,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et vous apprendrez bientôt qui subira un supplice humiliant et encourra un châtiment permanent. »"
   },
   {
     "id": "hud-40",
@@ -4980,7 +5019,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ ءَامَنَ ۚ وَمَآ ءَامَنَ مَعَهُۥٓ إِلَّا قَلِيلٌ",
     "textSimple": "حتىٓ إذا جآء أمرنا وفار ٱلتنور قلنا ٱحمل فيها من كل زوجين ٱثنين وأهلك إلا من سبق عليه ٱلقول ومن ءامن  ومآ ءامن معهٓ إلا قليل",
     "transliteration": "ḥattā idhā jāa amrunā wafāra l-tanūru qul'nā iḥ'mil fīhā min kullin zawjayni ith'nayni wa-ahlaka illā man sabaqa ʿalayhi l-qawlu waman āmana wamā āmana maʿahu illā qalīlun",
-    "translation": "",
+    "translation": "[So it was], until when Our command came and the oven overflowed, We said, \"Load upon it [i.e., the ship] of each [creature] two mates and your family, except those about whom the word [i.e., decree] has preceded, and [include] whoever has believed.\" But none had believed with him, except a few.",
     "words": [
       {
         "id": "hud-40-1",
@@ -5165,7 +5204,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Notre commandement fut venu et que la fournaise se mit à bouillonner, Nous dîmes : « Porte à bord (de cette Arche) un couple de chaque espèce, les membres de ta famille - excepté ceux contre qui le verdict (divin) est déjà prononcé - ainsi que ceux qui ont cru. » Mais ceux-là n’étaient pas nombreux."
   },
   {
     "id": "hud-41",
@@ -5174,7 +5214,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ رَّحِيمٌ",
     "textSimple": " وقال ٱركبوا فيها بسم ٱلله مجرىها ومرسىهآ  إن ربى لغفور رحيم",
     "transliteration": "waqāla ir'kabū fīhā bis'mi l-lahi majrahā wamur'sāhā inna rabbī laghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And [Noah] said, \"Embark therein; in the name of Allāh [are] its course and its anchorage. Indeed, my Lord is Forgiving and Merciful.\"",
     "words": [
       {
         "id": "hud-41-1",
@@ -5254,7 +5294,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Montez (dans l’Arche). Qu’au nom d’Allah soient sa course et son amarrage. Mon Seigneur est certes Absoluteur et Tout Miséricordieux. »"
   },
   {
     "id": "hud-42",
@@ -5263,7 +5304,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَـٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَـٰفِرِينَ",
     "textSimple": "وهى تجرى بهم فى موج كٱلجبال ونادى نوح ٱبنه وكان فى معزل يـبنى ٱركب معنا ولا تكن مع ٱلكـفرين",
     "transliteration": "wahiya tajrī bihim fī mawjin kal-jibāli wanādā nūḥun ib'nahu wakāna fī maʿzilin yābunayya ir'kab maʿanā walā takun maʿa l-kāfirīna",
-    "translation": "",
+    "translation": "And it sailed with them through waves like mountains, and Noah called to his son who was apart [from them], \"O my son, come aboard with us and be not with the disbelievers.\"",
     "words": [
       {
         "id": "hud-42-1",
@@ -5399,7 +5440,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et l’Arche voguait au milieu de vagues (hautes) comme des montagnes, quand Noé héla son fils, resté en un lieu isolé : « Monte (à bord) avec nous mon fils, et ne sois pas avec les mécréants ! »"
   },
   {
     "id": "hud-43",
@@ -5408,7 +5450,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
     "textSimple": "قال سـٔاوىٓ إلى جبل يعصمنى من ٱلمآء  قال لا عاصم ٱليوم من أمر ٱلله إلا من رحم  وحال بينهما ٱلموج فكان من ٱلمغرقين",
     "transliteration": "qāla saāwī ilā jabalin yaʿṣimunī mina l-māi qāla lā ʿāṣima l-yawma min amri l-lahi illā man raḥima waḥāla baynahumā l-mawju fakāna mina l-mugh'raqīna",
-    "translation": "",
+    "translation": "[But] he said, \"I will take refuge on a mountain to protect me from the water.\" [Noah] said, \"There is no protector today from the decree of Allāh, except for whom He gives mercy.\" And the waves came between them, and he was among the drowned.",
     "words": [
       {
         "id": "hud-43-1",
@@ -5572,7 +5614,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« J’irai me réfugier sur une montagne, répondit-il, qui me tiendra à l’abri des eaux. » Noé lui dit alors : « Aujourd’hui, nul protecteur ne te mettra à l’abri du décret d’Allah, (et ne sera épargné) que celui qui aura mérité Sa grâce ! » Les vagues se dressèrent alors entre eux, les séparant, et (le fils de Noé), lui aussi, se noya."
   },
   {
     "id": "hud-44",
@@ -5581,7 +5624,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلَ يَـٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَـٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "وقيل يـٓأرض ٱبلعى مآءك ويـسمآء أقلعى وغيض ٱلمآء وقضى ٱلأمر وٱستوت على ٱلجودى  وقيل بعدا للقوم ٱلظـلمين",
     "transliteration": "waqīla yāarḍu ib'laʿī māaki wayāsamāu aqliʿī waghīḍa l-māu waquḍiya l-amru wa-is'tawat ʿalā l-jūdiyi waqīla buʿ'dan lil'qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "And it was said, \"O earth, swallow your water, and O sky, withhold [your rain].\" And the water subsided, and the matter was accomplished, and it [i.e., the ship] came to rest on the [mountain of] Jūdiyy. And it was said, \"Away with the wrongdoing people.\"",
     "words": [
       {
         "id": "hud-44-1",
@@ -5703,7 +5746,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut dit : « Ô terre ! Absorbe donc tes eaux ! Ô ciel ! Arrête (tes pluies) ! » Alors les eaux baissèrent, le décret fut appliqué, et l’Arche s’immobilisa sur le (Mont) Joudî. Puis il fut dit : « Que périssent les injustes ! »"
   },
   {
     "id": "hud-45",
@@ -5712,7 +5756,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَنَادَىٰ نُوحٌ رَّبَّهُۥ فَقَالَ رَبِّ إِنَّ ٱبْنِى مِنْ أَهْلِى وَإِنَّ وَعْدَكَ ٱلْحَقُّ وَأَنتَ أَحْكَمُ ٱلْحَـٰكِمِينَ",
     "textSimple": "ونادى نوح ربه فقال رب إن ٱبنى من أهلى وإن وعدك ٱلحق وأنت أحكم ٱلحـكمين",
     "transliteration": "wanādā nūḥun rabbahu faqāla rabbi inna ib'nī min ahlī wa-inna waʿdaka l-ḥaqu wa-anta aḥkamu l-ḥākimīna",
-    "translation": "",
+    "translation": "And Noah called to his Lord and said, \"My Lord, indeed my son is of my family; and indeed, Your promise is true; and You are the most just of judges!\"",
     "words": [
       {
         "id": "hud-45-1",
@@ -5820,7 +5864,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Noé appela son Seigneur en disant : « Seigneur, mon fils est bien de ma famille, Ta promesse est pure vérité, et Tu es le plus sage d’entre les juges. »"
   },
   {
     "id": "hud-46",
@@ -5829,7 +5874,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰنُوحُ إِنَّهُۥ لَيْسَ مِنْ أَهْلِكَ ۖ إِنَّهُۥ عَمَلٌ غَيْرُ صَـٰلِحٍ ۖ فَلَا تَسْـَٔلْنِ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۖ إِنِّىٓ أَعِظُكَ أَن تَكُونَ مِنَ ٱلْجَـٰهِلِينَ",
     "textSimple": "قال يـنوح إنه ليس من أهلك  إنه عمل غير صـلح  فلا تسـٔلن ما ليس لك به علم  إنىٓ أعظك أن تكون من ٱلجـهلين",
     "transliteration": "qāla yānūḥu innahu laysa min ahlika innahu ʿamalun ghayru ṣāliḥin falā tasalni mā laysa laka bihi ʿil'mun innī aʿiẓuka an takūna mina l-jāhilīna",
-    "translation": "",
+    "translation": "He said, \"O Noah, indeed he is not of your family; indeed, he is [one whose] work was other than righteous, so ask Me not for that about which you have no knowledge. Indeed, I advise you, lest you be among the ignorant.\"",
     "words": [
       {
         "id": "hud-46-1",
@@ -5993,7 +6038,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Noé, dit (le Seigneur), il n’est point de ta famille, il a commis une action indigne. Ne me demande plus ce dont tu n’as pas connaissance. Moi, Je t’exhorte à ne pas être du nombre des ignorants. »"
   },
   {
     "id": "hud-47",
@@ -6002,7 +6048,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَـٰسِرِينَ",
     "textSimple": "قال رب إنىٓ أعوذ بك أن أسـٔلك ما ليس لى به علم  وإلا تغفر لى وترحمنىٓ أكن من ٱلخـسرين",
     "transliteration": "qāla rabbi innī aʿūdhu bika an asalaka mā laysa lī bihi ʿil'mun wa-illā taghfir lī watarḥamnī akun mina l-khāsirīna",
-    "translation": "",
+    "translation": "[Noah] said, \"My Lord, I seek refuge in You from asking that of which I have no knowledge. And unless You forgive me and have mercy upon me, I will be among the losers.\"",
     "words": [
       {
         "id": "hud-47-1",
@@ -6138,7 +6184,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « J’en appelle à Toi, Seigneur, pour me préserver des questions à propos de choses dont je n’ai pas connaissance. Si Tu ne m’accordes pas Ton pardon et Ta grâce, je serai du nombre des perdants. »"
   },
   {
     "id": "hud-48",
@@ -6147,7 +6194,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قِيلَ يَـٰنُوحُ ٱهْبِطْ بِسَلَـٰمٍ مِّنَّا وَبَرَكَـٰتٍ عَلَيْكَ وَعَلَىٰٓ أُمَمٍ مِّمَّن مَّعَكَ ۚ وَأُمَمٌ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُم مِّنَّا عَذَابٌ أَلِيمٌ",
     "textSimple": "قيل يـنوح ٱهبط بسلـم منا وبركـت عليك وعلىٓ أمم ممن معك  وأمم سنمتعهم ثم يمسهم منا عذاب أليم",
     "transliteration": "qīla yānūḥu ih'biṭ bisalāmin minnā wabarakātin ʿalayka waʿalā umamin mimman maʿaka wa-umamun sanumattiʿuhum thumma yamassuhum minnā ʿadhābun alīmun",
-    "translation": "",
+    "translation": "It was said, \"O Noah, disembark in security from Us and blessings upon you and upon nations [descending] from those with you. But other nations [of them] We will grant enjoyment; then there will touch them from Us a painful punishment.\"",
     "words": [
       {
         "id": "hud-48-1",
@@ -6276,7 +6323,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut dit : « Ô Noé ! Débarque donc, accompagné de la paix (qui t’est venue) de Notre part et de Nos bénédictions sur toi et sur les peuples engendrés par ceux qui sont avec toi. Mais il est d’autres peuples que Nous ferons profiter des jouissances (de ce bas monde) ; puis les atteindra de Notre part un supplice très douloureux."
   },
   {
     "id": "hud-49",
@@ -6285,7 +6333,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهَآ إِلَيْكَ ۖ مَا كُنتَ تَعْلَمُهَآ أَنتَ وَلَا قَوْمُكَ مِن قَبْلِ هَـٰذَا ۖ فَٱصْبِرْ ۖ إِنَّ ٱلْعَـٰقِبَةَ لِلْمُتَّقِينَ",
     "textSimple": "تلك من أنبآء ٱلغيب نوحيهآ إليك  ما كنت تعلمهآ أنت ولا قومك من قبل هـذا  فٱصبر  إن ٱلعـقبة للمتقين",
     "transliteration": "til'ka min anbāi l-ghaybi nūḥīhā ilayka mā kunta taʿlamuhā anta walā qawmuka min qabli hādhā fa-iṣ'bir inna l-ʿāqibata lil'muttaqīna",
-    "translation": "",
+    "translation": "That is from the news of the unseen which We reveal to you, [O Muḥammad]. You knew it not, neither you nor your people, before this. So be patient; indeed, the [best] outcome is for the righteous.",
     "words": [
       {
         "id": "hud-49-1",
@@ -6421,7 +6469,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà des informations (provenant) de l’Inconnaissable (ghayb), que Nous te révélons et que vous ne saviez ni toi ni ton peuple avant ce jour. Prends donc patience. Les lendemains meilleurs sont pour les gens pieux."
   },
   {
     "id": "hud-50",
@@ -6430,7 +6479,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ",
     "textSimple": "وإلى عاد أخاهم هودا  قال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيرهٓ  إن أنتم إلا مفترون",
     "transliteration": "wa-ilā ʿādin akhāhum hūdan qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu in antum illā muf'tarūna",
-    "translation": "",
+    "translation": "And to ʿAad [We sent] their brother Hūd. He said, \"O my people, worship Allāh; you have no deity other than Him. You are not but inventors [of falsehood].",
     "words": [
       {
         "id": "hud-50-1",
@@ -6552,7 +6601,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aux ‘Ad, (Nous envoyâmes) leur frère Hûd qui leur dit : « Ô peuple mien ! Adorez Allah. Vous n’avez point d’autre divinité que Lui. Mais vous n’êtes vraiment que des inventeurs (d’illusions)."
   },
   {
     "id": "hud-51",
@@ -6561,7 +6611,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱلَّذِى فَطَرَنِىٓ ۚ أَفَلَا تَعْقِلُونَ",
     "textSimple": "يـقوم لآ أسـٔلكم عليه أجرا  إن أجرى إلا على ٱلذى فطرنىٓ  أفلا تعقلون",
     "transliteration": "yāqawmi lā asalukum ʿalayhi ajran in ajriya illā ʿalā alladhī faṭaranī afalā taʿqilūna",
-    "translation": "",
+    "translation": "O my people, I do not ask you for it [i.e., my advice] any reward. My reward is only from the one who created me. Then will you not reason?",
     "words": [
       {
         "id": "hud-51-1",
@@ -6655,7 +6705,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Je ne vous demande pour cela aucune récompense, car ma récompense relève de Celui Qui m’a créé (sans modèle préalable). Ne sauriez-vous le comprendre ?"
   },
   {
     "id": "hud-52",
@@ -6664,7 +6715,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًا وَيَزِدْكُمْ قُوَّةً إِلَىٰ قُوَّتِكُمْ وَلَا تَتَوَلَّوْا۟ مُجْرِمِينَ",
     "textSimple": "ويـقوم ٱستغفروا ربكم ثم توبوٓا إليه يرسل ٱلسمآء عليكم مدرارا ويزدكم قوة إلى قوتكم ولا تتولوا مجرمين",
     "transliteration": "wayāqawmi is'taghfirū rabbakum thumma tūbū ilayhi yur'sili l-samāa ʿalaykum mid'rāran wayazid'kum quwwatan ilā quwwatikum walā tatawallaw muj'rimīna",
-    "translation": "",
+    "translation": "And O my people, ask forgiveness of your Lord and then repent to Him. He will send [rain from] the sky upon you in showers and increase you in strength [added] to your strength. And do not turn away, [being] criminals.\"",
     "words": [
       {
         "id": "hud-52-1",
@@ -6786,7 +6837,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Implorez le pardon de votre Seigneur, puis revenez à Lui repentants. Il enverra du ciel sur vous des eaux abondantes et ajoutera puissance à votre puissance. Ne vous détournez donc point de Lui en criminels. »"
   },
   {
     "id": "hud-53",
@@ -6795,7 +6847,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰهُودُ مَا جِئْتَنَا بِبَيِّنَةٍ وَمَا نَحْنُ بِتَارِكِىٓ ءَالِهَتِنَا عَن قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ",
     "textSimple": "قالوا يـهود ما جئتنا ببينة وما نحن بتاركىٓ ءالهتنا عن قولك وما نحن لك بمؤمنين",
     "transliteration": "qālū yāhūdu mā ji'tanā bibayyinatin wamā naḥnu bitārikī ālihatinā ʿan qawlika wamā naḥnu laka bimu'minīna",
-    "translation": "",
+    "translation": "They said, \"O Hūd, you have not brought us clear evidence, and we are not ones to leave our gods on your say-so. Nor are we believers in you.",
     "words": [
       {
         "id": "hud-53-1",
@@ -6903,7 +6955,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ô Hûd ! Tu ne nous as pas apporté une preuve convaincante, et nous n’allons pas renoncer à nos dieux sur la seule foi de ta parole ; et nous n’allons pas te croire."
   },
   {
     "id": "hud-54",
@@ -6912,7 +6965,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِن نَّقُولُ إِلَّا ٱعْتَرَىٰكَ بَعْضُ ءَالِهَتِنَا بِسُوٓءٍ ۗ قَالَ إِنِّىٓ أُشْهِدُ ٱللَّهَ وَٱشْهَدُوٓا۟ أَنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
     "textSimple": "إن نقول إلا ٱعترىك بعض ءالهتنا بسوٓء  قال إنىٓ أشهد ٱلله وٱشهدوٓا أنى برىٓء مما تشركون",
     "transliteration": "in naqūlu illā iʿ'tarāka baʿḍu ālihatinā bisūin qāla innī ush'hidu l-laha wa-ish'hadū annī barīon mimmā tush'rikūna",
-    "translation": "",
+    "translation": "We only say that some of our gods have possessed you with evil [i.e., insanity].\" He said, \"Indeed, I call Allāh to witness, and witness [yourselves] that I am free from whatever you associate with Allāh",
     "words": [
       {
         "id": "hud-54-1",
@@ -7027,7 +7080,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne dirons rien d’autre sinon que nos divinités t’ont frappé de quelque mal. » Il dit : « Je prends Allah à témoin, et soyez-m’en témoins aussi, que je désavoue (tous ceux que vous invoquez) comme associés"
   },
   {
     "id": "hud-55",
@@ -7036,7 +7090,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "مِن دُونِهِۦ ۖ فَكِيدُونِى جَمِيعًا ثُمَّ لَا تُنظِرُونِ",
     "textSimple": "من دونه  فكيدونى جميعا ثم لا تنظرون",
     "transliteration": "min dūnihi fakīdūnī jamīʿan thumma lā tunẓirūni",
-    "translation": "",
+    "translation": "Other than Him. So plot against me all together; then do not give me respite.",
     "words": [
       {
         "id": "hud-55-1",
@@ -7088,7 +7142,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en dehors de Lui. Complotez donc tous contre moi et ne me laissez aucun répit."
   },
   {
     "id": "hud-56",
@@ -7097,7 +7152,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "إنى توكلت على ٱلله ربى وربكم  ما من دآبة إلا هو ءاخذ بناصيتهآ  إن ربى على صرط مستقيم",
     "transliteration": "innī tawakkaltu ʿalā l-lahi rabbī warabbikum mā min dābbatin illā huwa ākhidhun bināṣiyatihā inna rabbī ʿalā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "Indeed, I have relied upon Allāh, my Lord and your Lord. There is no creature but that He holds it by its forelock [i.e., controls it]. Indeed, my Lord is on a path [that is] straight.",
     "words": [
       {
         "id": "hud-56-1",
@@ -7226,7 +7281,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je m’en remets à Allah, mon Seigneur et le vôtre. Il n’est aucune créature qu’Il ne tienne par le toupet. Mon Seigneur est sur une voie droite."
   },
   {
     "id": "hud-57",
@@ -7235,7 +7291,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن تَوَلَّوْا۟ فَقَدْ أَبْلَغْتُكُم مَّآ أُرْسِلْتُ بِهِۦٓ إِلَيْكُمْ ۚ وَيَسْتَخْلِفُ رَبِّى قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّونَهُۥ شَيْـًٔا ۚ إِنَّ رَبِّى عَلَىٰ كُلِّ شَىْءٍ حَفِيظٌ",
     "textSimple": "فإن تولوا فقد أبلغتكم مآ أرسلت بهٓ إليكم  ويستخلف ربى قوما غيركم ولا تضرونه شيـٔا  إن ربى على كل شىء حفيظ",
     "transliteration": "fa-in tawallaw faqad ablaghtukum mā ur'sil'tu bihi ilaykum wayastakhlifu rabbī qawman ghayrakum walā taḍurrūnahu shayan inna rabbī ʿalā kulli shayin ḥafīẓun",
-    "translation": "",
+    "translation": "But if you turn away, then I have already conveyed that with which I was sent to you. My Lord will give succession to a people other than you, and you will not harm Him at all. Indeed my Lord is, over all things, Guardian.\"",
     "words": [
       {
         "id": "hud-57-1",
@@ -7385,7 +7441,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous vous détournez (de mon message), je vous l’ai tout de même transmis. Mon Seigneur vous substituera un autre peuple et vous ne pourrez Lui nuire en rien. Mon Seigneur veille certes à la sauvegarde de Toute chose."
   },
   {
     "id": "hud-58",
@@ -7394,7 +7451,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا هُودًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَنَجَّيْنَـٰهُم مِّنْ عَذَابٍ غَلِيظٍ",
     "textSimple": "ولما جآء أمرنا نجينا هودا وٱلذين ءامنوا معه برحمة منا ونجينـهم من عذاب غليظ",
     "transliteration": "walammā jāa amrunā najjaynā hūdan wa-alladhīna āmanū maʿahu biraḥmatin minnā wanajjaynāhum min ʿadhābin ghalīẓin",
-    "translation": "",
+    "translation": "And when Our command came, We saved Hūd and those who believed with him, by mercy from Us; and We saved them from a harsh punishment.",
     "words": [
       {
         "id": "hud-58-1",
@@ -7495,7 +7552,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque vint Notre commandement, Nous sauvâmes, par un effet de Notre grâce, Hûd et ceux qui avaient cru avec lui. Nous leur épargnâmes un terrible supplice."
   },
   {
     "id": "hud-59",
@@ -7504,7 +7562,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَتِلْكَ عَادٌ ۖ جَحَدُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍ",
     "textSimple": "وتلك عاد  جحدوا بـٔايـت ربهم وعصوا رسله وٱتبعوٓا أمر كل جبار عنيد",
     "transliteration": "watil'ka ʿādun jaḥadū biāyāti rabbihim waʿaṣaw rusulahu wa-ittabaʿū amra kulli jabbārin ʿanīdin",
-    "translation": "",
+    "translation": "And that was ʿAad, who rejected the signs of their Lord and disobeyed His messengers and followed the order of every obstinate tyrant.",
     "words": [
       {
         "id": "hud-59-1",
@@ -7591,7 +7649,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tels furent les ‘Ad qui avaient renié les Signes de leur Seigneur, désobéi à Ses Messagers et suivi les ordres de tout despote obstiné."
   },
   {
     "id": "hud-60",
@@ -7600,7 +7659,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَأُتْبِعُوا۟ فِى هَـٰذِهِ ٱلدُّنْيَا لَعْنَةً وَيَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَآ إِنَّ عَادًا كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًا لِّعَادٍ قَوْمِ هُودٍ",
     "textSimple": "وأتبعوا فى هـذه ٱلدنيا لعنة ويوم ٱلقيـمة  ألآ إن عادا كفروا ربهم  ألا بعدا لعاد قوم هود",
     "transliteration": "wa-ut'biʿū fī hādhihi l-dun'yā laʿnatan wayawma l-qiyāmati alā inna ʿādan kafarū rabbahum alā buʿ'dan liʿādin qawmi hūdin",
-    "translation": "",
+    "translation": "And they were [therefore] followed in this world with a curse and [as well] on the Day of Resurrection. Unquestionably, ʿAad denied their Lord; then away with ʿAad, the people of Hūd.",
     "words": [
       {
         "id": "hud-60-1",
@@ -7722,7 +7781,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une malédiction les a donc suivis en ce bas monde et (les suivra) au Jour de la Résurrection. Les ‘Ad ont certes mécru en leur Seigneur : Que périssent les ‘Ad, peuple de Hûd !"
   },
   {
     "id": "hud-61",
@@ -7731,7 +7791,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَـٰلِحًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
     "textSimple": " وإلى ثمود أخاهم صـلحا  قال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيره  هو أنشأكم من ٱلأرض وٱستعمركم فيها فٱستغفروه ثم توبوٓا إليه  إن ربى قريب مجيب",
     "transliteration": "wa-ilā thamūda akhāhum ṣāliḥan qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu huwa ansha-akum mina l-arḍi wa-is'taʿmarakum fīhā fa-is'taghfirūhu thumma tūbū ilayhi inna rabbī qarībun mujībun",
-    "translation": "",
+    "translation": "And to Thamūd [We sent] their brother Ṣāliḥ. He said, \"O my people, worship Allāh; you have no deity other than Him. He has produced you from the earth and settled you in it, so ask forgiveness of Him and then repent to Him. Indeed, my Lord is near and responsive.\"",
     "words": [
       {
         "id": "hud-61-1",
@@ -7923,7 +7983,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (Nous envoyâmes) aux Thamûd leur frère Çâlih qui dit : « Ô peuple mien ! Adorez Allah, car vous n’avez d’autre divinité que Lui. C’est Lui Qui vous a créés de la terre et vous y a installés. Implorez donc Son pardon et revenez à Lui repentants, car mon Seigneur est Tout Proche et Répond (à toute prière). »"
   },
   {
     "id": "hud-62",
@@ -7932,7 +7993,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰصَـٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّا قَبْلَ هَـٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍ",
     "textSimple": "قالوا يـصـلح قد كنت فينا مرجوا قبل هـذآ  أتنهىنآ أن نعبد ما يعبد ءابآؤنا وإننا لفى شك مما تدعونآ إليه مريب",
     "transliteration": "qālū yāṣāliḥu qad kunta fīnā marjuwwan qabla hādhā atanhānā an naʿbuda mā yaʿbudu ābāunā wa-innanā lafī shakkin mimmā tadʿūnā ilayhi murībin",
-    "translation": "",
+    "translation": "They said, \"O Ṣāliḥ, you were among us a man of promise before this. Do you forbid us to worship what our fathers worshipped? And indeed we are, about that to which you invite us, in disquieting doubt.\"",
     "words": [
       {
         "id": "hud-62-1",
@@ -8082,7 +8143,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent alors : « Ô Çâlih ! Nous espérions beaucoup de toi auparavant. Vas-tu maintenant nous défendre d’adorer ce qu’adoraient nos pères ? Nous sommes vraiment dans le doute au sujet du (culte) auquel tu nous appelles. »"
   },
   {
     "id": "hud-63",
@@ -8091,7 +8153,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةً فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍ",
     "textSimple": "قال يـقوم أرءيتم إن كنت على بينة من ربى وءاتىنى منه رحمة فمن ينصرنى من ٱلله إن عصيته  فما تزيدوننى غير تخسير",
     "transliteration": "qāla yāqawmi ara-aytum in kuntu ʿalā bayyinatin min rabbī waātānī min'hu raḥmatan faman yanṣurunī mina l-lahi in ʿaṣaytuhu famā tazīdūnanī ghayra takhsīrin",
-    "translation": "",
+    "translation": "He said, \"O my people, have you considered: if I should be upon clear evidence from my Lord and He has given me mercy from Himself, who would protect me from Allāh if I disobeyed Him? So you would not increase me except in loss.",
     "words": [
       {
         "id": "hud-63-1",
@@ -8248,7 +8310,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô peuple mien, dit-il, songez-y bien, si je me fondais sur une preuve évidente de mon Seigneur Qui m’aurait accordé une grâce de Sa part, qui donc me soutiendrait contre Allah si je Lui désobéissais ? Vous ne feriez alors qu’accroître ma perdition."
   },
   {
     "id": "hud-64",
@@ -8257,7 +8320,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ هَـٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةً فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ وَلَا تَمَسُّوهَا بِسُوٓءٍ فَيَأْخُذَكُمْ عَذَابٌ قَرِيبٌ",
     "textSimple": "ويـقوم هـذه ناقة ٱلله لكم ءاية فذروها تأكل فىٓ أرض ٱلله ولا تمسوها بسوٓء فيأخذكم عذاب قريب",
     "transliteration": "wayāqawmi hādhihi nāqatu l-lahi lakum āyatan fadharūhā takul fī arḍi l-lahi walā tamassūhā bisūin fayakhudhakum ʿadhābun qarībun",
-    "translation": "",
+    "translation": "And O my people, this is the she-camel of Allāh - [she is] to you a sign. So let her feed upon Allāh's earth and do not touch her with harm, or you will be taken by an impending punishment.\"",
     "words": [
       {
         "id": "hud-64-1",
@@ -8379,7 +8442,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Voici la chamelle d’Allah. Elle est un Signe pour vous. Laissez-la paître sur la terre d’Allah et ne lui faites aucun mal, ou alors vous emportera un supplice imminent."
   },
   {
     "id": "hud-65",
@@ -8388,7 +8452,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَـٰثَةَ أَيَّامٍ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ",
     "textSimple": "فعقروها فقال تمتعوا فى داركم ثلـثة أيام  ذلك وعد غير مكذوب",
     "transliteration": "faʿaqarūhā faqāla tamattaʿū fī dārikum thalāthata ayyāmin dhālika waʿdun ghayru makdhūbin",
-    "translation": "",
+    "translation": "But they hamstrung her, so he said, \"Enjoy yourselves in your homes for three days. That is a promise not to be denied [i.e., unfailing].\"",
     "words": [
       {
         "id": "hud-65-1",
@@ -8468,7 +8532,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils l’abattirent. « Jouissez dans vos maisons pendant trois jours encore, leur dit-il aussitôt. Voilà une promesse qui ne sera point démentie. »"
   },
   {
     "id": "hud-66",
@@ -8477,7 +8542,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَـٰلِحًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ",
     "textSimple": "فلما جآء أمرنا نجينا صـلحا وٱلذين ءامنوا معه برحمة منا ومن خزى يومئذ  إن ربك هو ٱلقوى ٱلعزيز",
     "transliteration": "falammā jāa amrunā najjaynā ṣāliḥan wa-alladhīna āmanū maʿahu biraḥmatin minnā wamin khiz'yi yawmi-idhin inna rabbaka huwa l-qawiyu l-ʿazīzu",
-    "translation": "",
+    "translation": "So when Our command came, We saved Ṣāliḥ and those who believed with him, by mercy from Us, and [saved them] from the disgrace of that day. Indeed, it is your Lord who is the Powerful, the Exalted in Might.",
     "words": [
       {
         "id": "hud-66-1",
@@ -8606,7 +8671,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et lorsque vint Notre commandement, Nous sauvâmes, par un effet de Notre grâce, Çâlih et ceux qui avaient cru avec lui de l’humiliation d’un tel jour. C’est ton Seigneur Qui est le Fort, le Tout-Puissant !"
   },
   {
     "id": "hud-67",
@@ -8615,7 +8681,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَأَخَذَ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَـٰرِهِمْ جَـٰثِمِينَ",
     "textSimple": "وأخذ ٱلذين ظلموا ٱلصيحة فأصبحوا فى ديـرهم جـثمين",
     "transliteration": "wa-akhadha alladhīna ẓalamū l-ṣayḥatu fa-aṣbaḥū fī diyārihim jāthimīna",
-    "translation": "",
+    "translation": "And the shriek seized those who had wronged, and they became within their homes [corpses] fallen prone",
     "words": [
       {
         "id": "hud-67-1",
@@ -8674,7 +8740,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Cri (assourdissant) enveloppa alors les injustes, et le lendemain ils gisaient inertes dans leurs maisons,"
   },
   {
     "id": "hud-68",
@@ -8683,7 +8750,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَآ إِنَّ ثَمُودَا۟ كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًا لِّثَمُودَ",
     "textSimple": "كأن لم يغنوا فيهآ  ألآ إن ثمودا كفروا ربهم  ألا بعدا لثمود",
     "transliteration": "ka-an lam yaghnaw fīhā alā inna thamūdā kafarū rabbahum alā buʿ'dan lithamūda",
-    "translation": "",
+    "translation": "As if they had never prospered therein. Unquestionably, Thamūd denied their Lord; then, away with Thamūd.",
     "words": [
       {
         "id": "hud-68-1",
@@ -8770,7 +8837,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "comme s’ils n’y avaient jamais vécu prospères. Les Thamûd ont mécru en leur Seigneur : Que périssent les Thamûd !"
   },
   {
     "id": "hud-69",
@@ -8779,7 +8847,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوا۟ سَلَـٰمًا ۖ قَالَ سَلَـٰمٌ ۖ فَمَا لَبِثَ أَن جَآءَ بِعِجْلٍ حَنِيذٍ",
     "textSimple": "ولقد جآءت رسلنآ إبرهيم بٱلبشرى قالوا سلـما  قال سلـم  فما لبث أن جآء بعجل حنيذ",
     "transliteration": "walaqad jāat rusulunā ib'rāhīma bil-bush'rā qālū salāman qāla salāmun famā labitha an jāa biʿij'lin ḥanīdhin",
-    "translation": "",
+    "translation": "And certainly did Our messengers [i.e., angels] come to Abraham with good tidings; they said, \"Peace.\" He said, \"Peace,\" and did not delay in bringing [them] a roasted calf.",
     "words": [
       {
         "id": "hud-69-1",
@@ -8887,7 +8955,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nos émissaires (les Anges) apportèrent à Abraham l’heureuse nouvelle en lui disant : « Paix ! (Salâm) » Il répondit : « Paix ! (Salâm) » Puis, sans tarder, il leur servit un veau rôti."
   },
   {
     "id": "hud-70",
@@ -8896,7 +8965,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍ",
     "textSimple": "فلما رءآ أيديهم لا تصل إليه نكرهم وأوجس منهم خيفة  قالوا لا تخف إنآ أرسلنآ إلى قوم لوط",
     "transliteration": "falammā raā aydiyahum lā taṣilu ilayhi nakirahum wa-awjasa min'hum khīfatan qālū lā takhaf innā ur'sil'nā ilā qawmi lūṭin",
-    "translation": "",
+    "translation": "But when he saw their hands not reaching for it, he distrusted them and felt from them apprehension. They said, \"Fear not. We have been sent to the people of Lot.\"",
     "words": [
       {
         "id": "hud-70-1",
@@ -9025,7 +9094,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il vit que leurs mains ne touchaient pas (au repas), il devint méfiant à leur égard et en eut peur. Ils lui dirent : « N’aie donc pas peur ! Nous sommes envoyés au peuple de Loth. »"
   },
   {
     "id": "hud-71",
@@ -9034,7 +9104,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱمْرَأَتُهُۥ قَآئِمَةٌ فَضَحِكَتْ فَبَشَّرْنَـٰهَا بِإِسْحَـٰقَ وَمِن وَرَآءِ إِسْحَـٰقَ يَعْقُوبَ",
     "textSimple": "وٱمرأته قآئمة فضحكت فبشرنـها بإسحـق ومن ورآء إسحـق يعقوب",
     "transliteration": "wa-im'ra-atuhu qāimatun faḍaḥikat fabasharnāhā bi-is'ḥāqa wamin warāi is'ḥāqa yaʿqūba",
-    "translation": "",
+    "translation": "And his wife was standing, and she smiled. Then We gave her good tidings of Isaac and after Isaac, Jacob.",
     "words": [
       {
         "id": "hud-71-1",
@@ -9100,7 +9170,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sa femme, qui se tenait debout, se mit à rire. Nous lui annonçâmes alors la naissance d’Isaac, puis après Isaac, (celle de) Jacob."
   },
   {
     "id": "hud-72",
@@ -9109,7 +9180,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ يَـٰوَيْلَتَىٰٓ ءَأَلِدُ وَأَنَا۠ عَجُوزٌ وَهَـٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَـٰذَا لَشَىْءٌ عَجِيبٌ",
     "textSimple": "قالت يـويلتىٓ ءألد وأنا عجوز وهـذا بعلى شيخا  إن هـذا لشىء عجيب",
     "transliteration": "qālat yāwaylatā a-alidu wa-anā ʿajūzun wahādhā baʿlī shaykhan inna hādhā lashayon ʿajībun",
-    "translation": "",
+    "translation": "She said, \"Woe to me! Shall I give birth while I am an old woman and this, my husband, is an old man? Indeed, this is an amazing thing!\"",
     "words": [
       {
         "id": "hud-72-1",
@@ -9196,7 +9267,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle dit : « Malheur à moi ! Vais-je avoir des enfants, moi qui suis vieille et dont le mari que voici est un vieillard ? C’est vraiment là chose étrange ! »"
   },
   {
     "id": "hud-73",
@@ -9205,7 +9277,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَـٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌ مَّجِيدٌ",
     "textSimple": "قالوٓا أتعجبين من أمر ٱلله  رحمت ٱلله وبركـته عليكم أهل ٱلبيت  إنه حميد مجيد",
     "transliteration": "qālū ataʿjabīna min amri l-lahi raḥmatu l-lahi wabarakātuhu ʿalaykum ahla l-bayti innahu ḥamīdun majīdun",
-    "translation": "",
+    "translation": "They said, \"Are you amazed at the decree of Allāh? May the mercy of Allāh and His blessings be upon you, people of the house. Indeed, He is Praiseworthy and Honorable.\"",
     "words": [
       {
         "id": "hud-73-1",
@@ -9306,7 +9378,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Trouves-tu étrange l’ordre d’Allah ? Que la miséricorde d’Allah et Ses bénédictions soient sur vous, habitants de cette maison ! Il est Digne qu’on Le loue et qu’on Lui rende gloire ! »"
   },
   {
     "id": "hud-74",
@@ -9315,7 +9388,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا ذَهَبَ عَنْ إِبْرَٰهِيمَ ٱلرَّوْعُ وَجَآءَتْهُ ٱلْبُشْرَىٰ يُجَـٰدِلُنَا فِى قَوْمِ لُوطٍ",
     "textSimple": "فلما ذهب عن إبرهيم ٱلروع وجآءته ٱلبشرى يجـدلنا فى قوم لوط",
     "transliteration": "falammā dhahaba ʿan ib'rāhīma l-rawʿu wajāathu l-bush'rā yujādilunā fī qawmi lūṭin",
-    "translation": "",
+    "translation": "And when the fright had left Abraham and the good tidings had reached him, he began to argue [i.e., plead] with Us concerning the people of Lot.",
     "words": [
       {
         "id": "hud-74-1",
@@ -9395,7 +9468,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque, la frayeur d’Abraham s’étant dissipée, il reçut l’heureuse nouvelle, ne le voilà-t-il pas qui se met à discuter devant Nous (en défenseur) du peuple de Loth."
   },
   {
     "id": "hud-75",
@@ -9404,7 +9478,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ إِبْرَٰهِيمَ لَحَلِيمٌ أَوَّٰهٌ مُّنِيبٌ",
     "textSimple": "إن إبرهيم لحليم أوه منيب",
     "transliteration": "inna ib'rāhīma laḥalīmun awwāhun munībun",
-    "translation": "",
+    "translation": "Indeed, Abraham was forbearing, grieving and [frequently] returning [to Allāh].",
     "words": [
       {
         "id": "hud-75-1",
@@ -9442,7 +9516,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car Abraham était indulgent, enclin à l’imploration et toujours repentant."
   },
   {
     "id": "hud-76",
@@ -9451,7 +9526,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓإِبْرَٰهِيمُ أَعْرِضْ عَنْ هَـٰذَآ ۖ إِنَّهُۥ قَدْ جَآءَ أَمْرُ رَبِّكَ ۖ وَإِنَّهُمْ ءَاتِيهِمْ عَذَابٌ غَيْرُ مَرْدُودٍ",
     "textSimple": "يـٓإبرهيم أعرض عن هـذآ  إنه قد جآء أمر ربك  وإنهم ءاتيهم عذاب غير مردود",
     "transliteration": "yāib'rāhīmu aʿriḍ ʿan hādhā innahu qad jāa amru rabbika wa-innahum ātīhim ʿadhābun ghayru mardūdin",
-    "translation": "",
+    "translation": "[The angels said], \"O Abraham, give up this [plea]. Indeed, the command of your Lord has come, and indeed, there will reach them a punishment that cannot be repelled.\"",
     "words": [
       {
         "id": "hud-76-1",
@@ -9552,7 +9627,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Abraham, (dirent les émissaires), écarte-toi de cela, car l’ordre de Ton Seigneur est déjà arrivé, et sur eux va fondre un supplice inéluctable. »"
   },
   {
     "id": "hud-77",
@@ -9561,7 +9637,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالَ هَـٰذَا يَوْمٌ عَصِيبٌ",
     "textSimple": "ولما جآءت رسلنا لوطا سىٓء بهم وضاق بهم ذرعا وقال هـذا يوم عصيب",
     "transliteration": "walammā jāat rusulunā lūṭan sīa bihim waḍāqa bihim dharʿan waqāla hādhā yawmun ʿaṣībun",
-    "translation": "",
+    "translation": "And when Our messengers, [the angels], came to Lot, he was anguished for them and felt for them great discomfort and said, \"This is a trying day.\"",
     "words": [
       {
         "id": "hud-77-1",
@@ -9655,7 +9731,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nos émissaires vinrent à Loth, il s’affligea pour eux et fut gêné de leur présence. Il dit : « Ce sera une journée bien pénible ! »"
   },
   {
     "id": "hud-78",
@@ -9664,7 +9741,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَـٰقَوْمِ هَـٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
     "textSimple": "وجآءه قومه يهرعون إليه ومن قبل كانوا يعملون ٱلسيـٔات  قال يـقوم هـٓؤلآء بناتى هن أطهر لكم  فٱتقوا ٱلله ولا تخزون فى ضيفىٓ  أليس منكم رجل رشيد",
     "transliteration": "wajāahu qawmuhu yuh'raʿūna ilayhi wamin qablu kānū yaʿmalūna l-sayiāti qāla yāqawmi hāulāi banātī hunna aṭharu lakum fa-ittaqū l-laha walā tukh'zūni fī ḍayfī alaysa minkum rajulun rashīdun",
-    "translation": "",
+    "translation": "And his people came hastening to him, and before [this] they had been doing evil deeds. He said, \"O my people, these are my daughters; they are purer for you. So fear Allāh and do not disgrace me concerning my guests. Is there not among you a man of reason?\"",
     "words": [
       {
         "id": "hud-78-1",
@@ -9849,7 +9926,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nombre de gens de son peuple accoururent vers lui, eux qui commettaient les pires turpitudes. Il dit : « Ô peuple mien ! Ce sont là mes filles, et elles sont (assurément) plus pures pour vous. Craignez donc Allah et ne me couvrez pas de honte (en vous en prenant) à mes hôtes. N’y a-t-il donc pas parmi vous un homme sensé ? »"
   },
   {
     "id": "hud-79",
@@ -9858,7 +9936,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَقَدْ عَلِمْتَ مَا لَنَا فِى بَنَاتِكَ مِنْ حَقٍّ وَإِنَّكَ لَتَعْلَمُ مَا نُرِيدُ",
     "textSimple": "قالوا لقد علمت ما لنا فى بناتك من حق وإنك لتعلم ما نريد",
     "transliteration": "qālū laqad ʿalim'ta mā lanā fī banātika min ḥaqqin wa-innaka lataʿlamu mā nurīdu",
-    "translation": "",
+    "translation": "They said, \"You have already known that we have not concerning your daughters [i.e., women] any claim [i.e., desire], and indeed, you know what we want.\"",
     "words": [
       {
         "id": "hud-79-1",
@@ -9952,7 +10030,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Tu sais bien que nous n’avons aucun droit sur tes filles, et tu sais aussi ce que nous voulons. »"
   },
   {
     "id": "hud-80",
@@ -9961,7 +10040,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَوْ أَنَّ لِى بِكُمْ قُوَّةً أَوْ ءَاوِىٓ إِلَىٰ رُكْنٍ شَدِيدٍ",
     "textSimple": "قال لو أن لى بكم قوة أو ءاوىٓ إلى ركن شديد",
     "transliteration": "qāla law anna lī bikum quwwatan aw āwī ilā ruk'nin shadīdin",
-    "translation": "",
+    "translation": "He said, \"If only I had against you some power or could take refuge in a strong support.\"",
     "words": [
       {
         "id": "hud-80-1",
@@ -10041,7 +10120,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit alors : « Si seulement j’avais la force (de vous combattre) ou si je trouvais un appui sûr ! »"
   },
   {
     "id": "hud-81",
@@ -10050,7 +10130,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
     "textSimple": "قالوا يـلوط إنا رسل ربك لن يصلوٓا إليك  فأسر بأهلك بقطع من ٱليل ولا يلتفت منكم أحد إلا ٱمرأتك  إنه مصيبها مآ أصابهم  إن موعدهم ٱلصبح  أليس ٱلصبح بقريب",
     "transliteration": "qālū yālūṭu innā rusulu rabbika lan yaṣilū ilayka fa-asri bi-ahlika biqiṭ'ʿin mina al-layli walā yaltafit minkum aḥadun illā im'ra-ataka innahu muṣībuhā mā aṣābahum inna mawʿidahumu l-ṣub'ḥu alaysa l-ṣub'ḥu biqarībin",
-    "translation": "",
+    "translation": "They [the angels] said, \"O Lot, indeed we are messengers of your Lord; [therefore], they will never reach you. So set out with your family during a portion of the night and let not any among you look back - except your wife; indeed, she will be struck by that which strikes them. Indeed, their appointment is [for] the morning. Is not the morning near?\"",
     "words": [
       {
         "id": "hud-81-1",
@@ -10256,7 +10336,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Loth, dirent (les Anges), nous sommes les émissaires de ton Seigneur. Ils ne pourront pas t’atteindre. Pars donc avec ta famille vers la dernière partie de la nuit. Que personne d’entre vous ne se retourne, hormis ta femme qui subira le même châtiment que celui qu’ils subiront. Le moment qui leur est désigné est l’aube. L’aube n’est-elle pas proche ? »"
   },
   {
     "id": "hud-82",
@@ -10265,7 +10346,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَـٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ مَّنضُودٍ",
     "textSimple": "فلما جآء أمرنا جعلنا عـليها سافلها وأمطرنا عليها حجارة من سجيل منضود",
     "transliteration": "falammā jāa amrunā jaʿalnā ʿāliyahā sāfilahā wa-amṭarnā ʿalayhā ḥijāratan min sijjīlin manḍūdin",
-    "translation": "",
+    "translation": "So when Our command came, We made the highest part [of the city] its lowest and rained upon them stones of layered hard clay, [which were]",
     "words": [
       {
         "id": "hud-82-1",
@@ -10352,7 +10433,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque vint Notre commandement, Nous renversâmes (la cité) de fond en comble, et Nous fîmes pleuvoir sur elle des pierres d’argile, en ordre, les unes après les autres,"
   },
   {
     "id": "hud-83",
@@ -10361,7 +10443,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "مُّسَوَّمَةً عِندَ رَبِّكَ ۖ وَمَا هِىَ مِنَ ٱلظَّـٰلِمِينَ بِبَعِيدٍ",
     "textSimple": "مسومة عند ربك  وما هى من ٱلظـلمين ببعيد",
     "transliteration": "musawwamatan ʿinda rabbika wamā hiya mina l-ẓālimīna bibaʿīdin",
-    "translation": "",
+    "translation": "Marked from your Lord. And it [i.e., Allāh's punishment] is not from the wrongdoers [very] far.",
     "words": [
       {
         "id": "hud-83-1",
@@ -10420,7 +10502,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "marquées auprès de ton Seigneur et (ce châtiment) n’est pas loin (d’atteindre) les injustes."
   },
   {
     "id": "hud-84",
@@ -10429,7 +10512,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
     "textSimple": " وإلى مدين أخاهم شعيبا  قال يـقوم ٱعبدوا ٱلله ما لكم من إلـه غيره  ولا تنقصوا ٱلمكيال وٱلميزان  إنىٓ أرىكم بخير وإنىٓ أخاف عليكم عذاب يوم محيط",
     "transliteration": "wa-ilā madyana akhāhum shuʿayban qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu walā tanquṣū l-mik'yāla wal-mīzāna innī arākum bikhayrin wa-innī akhāfu ʿalaykum ʿadhāba yawmin muḥīṭin",
-    "translation": "",
+    "translation": "And to Madyan [We sent] their brother Shuʿayb. He said, \"O my people, worship Allāh; you have no deity other than Him. And do not decrease from the measure and the scale. Indeed, I see you in prosperity, but indeed, I fear for you the punishment of an all-encompassing Day.",
     "words": [
       {
         "id": "hud-84-1",
@@ -10614,7 +10697,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (Nous envoyâmes) aux gens de Madyan leur frère Chou ̒ayb qui leur dit : « Ô peuple mien ! Adorez Allah, car vous n’avez d’autre divinité que Lui ! Ne réduisez en rien les mesures et les poids. Je vous vois prospères, mais je crains pour vous le supplice d’un jour qui cernera toute chose."
   },
   {
     "id": "hud-85",
@@ -10623,7 +10707,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
     "textSimple": "ويـقوم أوفوا ٱلمكيال وٱلميزان بٱلقسط  ولا تبخسوا ٱلناس أشيآءهم ولا تعثوا فى ٱلأرض مفسدين",
     "transliteration": "wayāqawmi awfū l-mik'yāla wal-mīzāna bil-qis'ṭi walā tabkhasū l-nāsa ashyāahum walā taʿthaw fī l-arḍi muf'sidīna",
-    "translation": "",
+    "translation": "And O my people, give full measure and weight in justice and do not deprive the people of their due and do not commit abuse on the earth, spreading corruption.",
     "words": [
       {
         "id": "hud-85-1",
@@ -10724,7 +10808,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Donnez pleine mesure et pesez avec équité ! Ne rognez pas frauduleusement sur la valeur des biens d’autrui et n’allez pas de par la terre semer la corruption."
   },
   {
     "id": "hud-86",
@@ -10733,7 +10818,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "بَقِيَّتُ ٱللَّهِ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ",
     "textSimple": "بقيت ٱلله خير لكم إن كنتم مؤمنين  ومآ أنا عليكم بحفيظ",
     "transliteration": "baqiyyatu l-lahi khayrun lakum in kuntum mu'minīna wamā anā ʿalaykum biḥafīẓin",
-    "translation": "",
+    "translation": "What remains [lawful] from Allāh is best for you, if you would be believers. But I am not a guardian over you.\"",
     "words": [
       {
         "id": "hud-86-1",
@@ -10813,7 +10898,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qui (vous) reste auprès d’Allah est bien meilleur pour vous, et je ne suis point votre gardien. »"
   },
   {
     "id": "hud-87",
@@ -10822,7 +10908,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَآ أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَـٰٓؤُا۟ ۖ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ",
     "textSimple": "قالوا يـشعيب أصلوتك تأمرك أن نترك ما يعبد ءابآؤنآ أو أن نفعل فىٓ أمولنا ما نشـٓؤا  إنك لأنت ٱلحليم ٱلرشيد",
     "transliteration": "qālū yāshuʿaybu aṣalatuka tamuruka an natruka mā yaʿbudu ābāunā aw an nafʿala fī amwālinā mā nashāu innaka la-anta l-ḥalīmu l-rashīdu",
-    "translation": "",
+    "translation": "They said, \"O Shuʿayb, does your prayer [i.e., religion] command you that we should leave what our fathers worship or not do with our wealth what we please? Indeed, you are the forbearing, the discerning!\"",
     "words": [
       {
         "id": "hud-87-1",
@@ -10965,7 +11051,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Chou ̒ayb, dirent-ils, sont-ce donc tes prières qui te dictent de (nous obliger à) délaisser ce qu’adoraient nos pères, ou à ne plus faire de nos biens ce qu’il nous plaît? C’est pourtant toi, le tolérant, le raisonnable ! »"
   },
   {
     "id": "hud-88",
@@ -10974,7 +11061,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَرَزَقَنِى مِنْهُ رِزْقًا حَسَنًا ۚ وَمَآ أُرِيدُ أَنْ أُخَالِفَكُمْ إِلَىٰ مَآ أَنْهَىٰكُمْ عَنْهُ ۚ إِنْ أُرِيدُ إِلَّا ٱلْإِصْلَـٰحَ مَا ٱسْتَطَعْتُ ۚ وَمَا تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
     "textSimple": "قال يـقوم أرءيتم إن كنت على بينة من ربى ورزقنى منه رزقا حسنا  ومآ أريد أن أخالفكم إلى مآ أنهىكم عنه  إن أريد إلا ٱلإصلـح ما ٱستطعت  وما توفيقىٓ إلا بٱلله  عليه توكلت وإليه أنيب",
     "transliteration": "qāla yāqawmi ara-aytum in kuntu ʿalā bayyinatin min rabbī warazaqanī min'hu riz'qan ḥasanan wamā urīdu an ukhālifakum ilā mā anhākum ʿanhu in urīdu illā l-iṣ'lāḥa mā is'taṭaʿtu wamā tawfīqī illā bil-lahi ʿalayhi tawakkaltu wa-ilayhi unību",
-    "translation": "",
+    "translation": "He said, \"O my people, have you considered: if I am upon clear evidence from my Lord and He has provided me with a good provision from Him...? And I do not intend to differ from you in that which I have forbidden you; I only intend reform as much as I am able. And my success is not but through Allāh. Upon Him I have relied, and to Him I return.",
     "words": [
       {
         "id": "hud-88-1",
@@ -11222,7 +11309,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « Ô peuple mien ! Avez-vous considéré si je m’appuie sur une preuve évidente de mon Seigneur et qu’Il me dispense le plus beau don de Sa part ? Je n’ai nullement l’intention de faire ce que moi-même je vous défends de faire. Je ne veux qu’améliorer (les choses) autant que je le peux, et ma réussite ne dépend que d’Allah à Qui je m’en remets et auprès de Qui je me repens."
   },
   {
     "id": "hud-89",
@@ -11231,7 +11319,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِىٓ أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَـٰلِحٍ ۚ وَمَا قَوْمُ لُوطٍ مِّنكُم بِبَعِيدٍ",
     "textSimple": "ويـقوم لا يجرمنكم شقاقىٓ أن يصيبكم مثل مآ أصاب قوم نوح أو قوم هود أو قوم صـلح  وما قوم لوط منكم ببعيد",
     "transliteration": "wayāqawmi lā yajrimannakum shiqāqī an yuṣībakum mith'lu mā aṣāba qawma nūḥin aw qawma hūdin aw qawma ṣāliḥin wamā qawmu lūṭin minkum bibaʿīdin",
-    "translation": "",
+    "translation": "And O my people, let not [your] dissension from me cause you to be struck by that similar to what struck the people of Noah or the people of Hūd or the people of Ṣāliḥ. And the people of Lot are not from you far away.",
     "words": [
       {
         "id": "hud-89-1",
@@ -11388,7 +11476,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien ! Puisse mon désaccord avec vous ne pas vous conduire au même sort subi par le peuple de Noé, le peuple de Hûd, ou le peuple de Çâlih ; quant au peuple de Loth, il n’est point très loin de vous."
   },
   {
     "id": "hud-90",
@@ -11397,7 +11486,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌ وَدُودٌ",
     "textSimple": "وٱستغفروا ربكم ثم توبوٓا إليه  إن ربى رحيم ودود",
     "transliteration": "wa-is'taghfirū rabbakum thumma tūbū ilayhi inna rabbī raḥīmun wadūdun",
-    "translation": "",
+    "translation": "And ask forgiveness of your Lord and then repent to Him. Indeed, my Lord is Merciful and Affectionate.\"",
     "words": [
       {
         "id": "hud-90-1",
@@ -11463,7 +11552,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Implorez le pardon de votre Seigneur, puis revenez à Lui repentants, car mon Seigneur est Tout Miséricordieux et plein de Dilection. »"
   },
   {
     "id": "hud-91",
@@ -11472,7 +11562,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰشُعَيْبُ مَا نَفْقَهُ كَثِيرًا مِّمَّا تَقُولُ وَإِنَّا لَنَرَىٰكَ فِينَا ضَعِيفًا ۖ وَلَوْلَا رَهْطُكَ لَرَجَمْنَـٰكَ ۖ وَمَآ أَنتَ عَلَيْنَا بِعَزِيزٍ",
     "textSimple": "قالوا يـشعيب ما نفقه كثيرا مما تقول وإنا لنرىك فينا ضعيفا  ولولا رهطك لرجمنـك  ومآ أنت علينا بعزيز",
     "transliteration": "qālū yāshuʿaybu mā nafqahu kathīran mimmā taqūlu wa-innā lanarāka fīnā ḍaʿīfan walawlā rahṭuka larajamnāka wamā anta ʿalaynā biʿazīzin",
-    "translation": "",
+    "translation": "They said, \"O Shuʿayb, we do not understand much of what you say, and indeed, we consider you among us as weak. And if not for your family, we would have stoned you [to death]; and you are not to us one respected.\"",
     "words": [
       {
         "id": "hud-91-1",
@@ -11601,7 +11691,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ô Chou ̒ayb ! Nous ne comprenons pas grand-chose à ce que tu dis. Nous te voyons plutôt faible parmi nous, et n’eût- été ton clan nous t’aurions certainement lapidé ; et tu n’es pas assez fort (pour nous résister). »"
   },
   {
     "id": "hud-92",
@@ -11610,7 +11701,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ أَرَهْطِىٓ أَعَزُّ عَلَيْكُم مِّنَ ٱللَّهِ وَٱتَّخَذْتُمُوهُ وَرَآءَكُمْ ظِهْرِيًّا ۖ إِنَّ رَبِّى بِمَا تَعْمَلُونَ مُحِيطٌ",
     "textSimple": "قال يـقوم أرهطىٓ أعز عليكم من ٱلله وٱتخذتموه ورآءكم ظهريا  إن ربى بما تعملون محيط",
     "transliteration": "qāla yāqawmi arahṭī aʿazzu ʿalaykum mina l-lahi wa-ittakhadhtumūhu warāakum ẓih'riyyan inna rabbī bimā taʿmalūna muḥīṭun",
-    "translation": "",
+    "translation": "He said, \"O my people, is my family more respected for power by you than Allāh? But you put Him behind your backs [in neglect]. Indeed, my Lord is encompassing of what you do.",
     "words": [
       {
         "id": "hud-92-1",
@@ -11718,7 +11809,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Ô peuple mien ! Mon clan est-il donc, pour vous, plus puissant qu’Allah Dont vous semblez faire peu de cas ? Mon Seigneur Cerne de Sa science tout ce que vous faites."
   },
   {
     "id": "hud-93",
@@ -11727,7 +11819,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَيَـٰقَوْمِ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنِّى عَـٰمِلٌ ۖ سَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَمَنْ هُوَ كَـٰذِبٌ ۖ وَٱرْتَقِبُوٓا۟ إِنِّى مَعَكُمْ رَقِيبٌ",
     "textSimple": "ويـقوم ٱعملوا على مكانتكم إنى عـمل  سوف تعلمون من يأتيه عذاب يخزيه ومن هو كـذب  وٱرتقبوٓا إنى معكم رقيب",
     "transliteration": "wayāqawmi iʿ'malū ʿalā makānatikum innī ʿāmilun sawfa taʿlamūna man yatīhi ʿadhābun yukh'zīhi waman huwa kādhibun wa-ir'taqibū innī maʿakum raqībun",
-    "translation": "",
+    "translation": "And O my people, work according to your position; indeed, I am working. You are going to know to whom will come a punishment that will disgrace him and who is a liar. So watch; indeed, I am with you a watcher, [awaiting the outcome].\"",
     "words": [
       {
         "id": "hud-93-1",
@@ -11863,7 +11955,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô peuple mien! Agissez selon votre manière, j’agirai selon la mienne. Vous saurez bientôt sur qui s’abattra le supplice humiliant et qui aura débité des boniments ; et attendez, je serai là avec vous à attendre. »"
   },
   {
     "id": "hud-94",
@@ -11872,7 +11965,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا شُعَيْبًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَأَخَذَتِ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَـٰرِهِمْ جَـٰثِمِينَ",
     "textSimple": "ولما جآء أمرنا نجينا شعيبا وٱلذين ءامنوا معه برحمة منا وأخذت ٱلذين ظلموا ٱلصيحة فأصبحوا فى ديـرهم جـثمين",
     "transliteration": "walammā jāa amrunā najjaynā shuʿayban wa-alladhīna āmanū maʿahu biraḥmatin minnā wa-akhadhati alladhīna ẓalamū l-ṣayḥatu fa-aṣbaḥū fī diyārihim jāthimīna",
-    "translation": "",
+    "translation": "And when Our command came, We saved Shuʿayb and those who believed with him, by mercy from Us. And the shriek seized those who had wronged, and they became within their homes [corpses] fallen prone",
     "words": [
       {
         "id": "hud-94-1",
@@ -12001,7 +12094,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque vint Notre commandement, Nous sauvâmes, par l’effet d’une grâce de Notre part, Chou ̒ayb et ceux qui avaient cru avec lui. Le Cri (assourdissant) emporta les injustes qui, le lendemain, gisaient inertes dans leurs maisons,"
   },
   {
     "id": "hud-95",
@@ -12010,7 +12104,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَا بُعْدًا لِّمَدْيَنَ كَمَا بَعِدَتْ ثَمُودُ",
     "textSimple": "كأن لم يغنوا فيهآ  ألا بعدا لمدين كما بعدت ثمود",
     "transliteration": "ka-an lam yaghnaw fīhā alā buʿ'dan limadyana kamā baʿidat thamūdu",
-    "translation": "",
+    "translation": "As if they had never prospered therein. Then, away with Madyan as Thamūd was taken away.",
     "words": [
       {
         "id": "hud-95-1",
@@ -12083,7 +12177,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "comme s’ils n’y avaient jamais vécu prospères. Que périssent les Madyan comme ont péri les Thamûd !"
   },
   {
     "id": "hud-96",
@@ -12092,7 +12187,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "ولقد أرسلنا موسى بـٔايـتنا وسلطـن مبين",
     "transliteration": "walaqad arsalnā mūsā biāyātinā wasul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "And We did certainly send Moses with Our signs and a clear authority",
     "words": [
       {
         "id": "hud-96-1",
@@ -12137,7 +12232,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons envoyé Moïse, muni de Nos Signes et d’une autorité évidente,"
   },
   {
     "id": "hud-97",
@@ -12146,7 +12242,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱتَّبَعُوٓا۟ أَمْرَ فِرْعَوْنَ ۖ وَمَآ أَمْرُ فِرْعَوْنَ بِرَشِيدٍ",
     "textSimple": "إلى فرعون وملإيه فٱتبعوٓا أمر فرعون  ومآ أمر فرعون برشيد",
     "transliteration": "ilā fir'ʿawna wamala-ihi fa-ittabaʿū amra fir'ʿawna wamā amru fir'ʿawna birashīdin",
-    "translation": "",
+    "translation": "To Pharaoh and his establishment, but they followed the command of Pharaoh, and the command of Pharaoh was not [at all] discerning.",
     "words": [
       {
         "id": "hud-97-1",
@@ -12219,7 +12315,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à Pharaon et son assemblée de notables. Mais ils suivirent les ordres de Pharaon, lesquels ordres n’avaient rien de raisonnable."
   },
   {
     "id": "hud-98",
@@ -12228,7 +12325,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَـٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ",
     "textSimple": "يقدم قومه يوم ٱلقيـمة فأوردهم ٱلنار  وبئس ٱلورد ٱلمورود",
     "transliteration": "yaqdumu qawmahu yawma l-qiyāmati fa-awradahumu l-nāra wabi'sa l-wir'du l-mawrūdu",
-    "translation": "",
+    "translation": "He will precede his people on the Day of Resurrection and lead them into the Fire; and wretched is the place to which they are led.",
     "words": [
       {
         "id": "hud-98-1",
@@ -12294,7 +12391,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il devancera son peuple au Jour de la Résurrection et les conduira au Feu. Horrible aiguade que l’aiguade du Feu !"
   },
   {
     "id": "hud-99",
@@ -12303,7 +12401,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَأُتْبِعُوا۟ فِى هَـٰذِهِۦ لَعْنَةً وَيَوْمَ ٱلْقِيَـٰمَةِ ۚ بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ",
     "textSimple": "وأتبعوا فى هـذه لعنة ويوم ٱلقيـمة  بئس ٱلرفد ٱلمرفود",
     "transliteration": "wa-ut'biʿū fī hādhihi laʿnatan wayawma l-qiyāmati bi'sa l-rif'du l-marfūdu",
-    "translation": "",
+    "translation": "And they were followed in this [world] with a curse and on the Day of Resurrection. And wretched is the gift which is given.",
     "words": [
       {
         "id": "hud-99-1",
@@ -12369,7 +12467,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront suivis par une malédiction en ce bas monde et au Jour de la Résurrection. Horrible don qui leur sera donné !"
   },
   {
     "id": "hud-100",
@@ -12378,7 +12477,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌ وَحَصِيدٌ",
     "textSimple": "ذلك من أنبآء ٱلقرى نقصه عليك  منها قآئم وحصيد",
     "transliteration": "dhālika min anbāi l-qurā naquṣṣuhu ʿalayka min'hā qāimun waḥaṣīdun",
-    "translation": "",
+    "translation": "That is from the news of the cities, which We relate to you; of them, some are [still] standing and some are [as] a harvest [mowed down].",
     "words": [
       {
         "id": "hud-100-1",
@@ -12444,7 +12543,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telles sont les histoires, qu’en partie, Nous te contons des cités dont certaines sont encore érigées, et d’autres abattues à ras de terre."
   },
   {
     "id": "hud-101",
@@ -12453,7 +12553,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ظَلَمْنَـٰهُمْ وَلَـٰكِن ظَلَمُوٓا۟ أَنفُسَهُمْ ۖ فَمَآ أَغْنَتْ عَنْهُمْ ءَالِهَتُهُمُ ٱلَّتِى يَدْعُونَ مِن دُونِ ٱللَّهِ مِن شَىْءٍ لَّمَّا جَآءَ أَمْرُ رَبِّكَ ۖ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ",
     "textSimple": "وما ظلمنـهم ولـكن ظلموٓا أنفسهم  فمآ أغنت عنهم ءالهتهم ٱلتى يدعون من دون ٱلله من شىء لما جآء أمر ربك  وما زادوهم غير تتبيب",
     "transliteration": "wamā ẓalamnāhum walākin ẓalamū anfusahum famā aghnat ʿanhum ālihatuhumu allatī yadʿūna min dūni l-lahi min shayin lammā jāa amru rabbika wamā zādūhum ghayra tatbībin",
-    "translation": "",
+    "translation": "And We did not wrong them, but they wronged themselves. And they were not availed at all by their gods which they invoked other than Allāh when there came the command of your Lord. And they did not increase them in other than ruin.",
     "words": [
       {
         "id": "hud-101-1",
@@ -12624,7 +12724,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne les avons point lésés, ils se sont lésés eux-mêmes. Leurs divinités, qu’ils invoquaient en dehors d’Allah, ne leur furent d’aucun soutien lorsque fut arrivé le décret de ton Seigneur. Elles ne firent qu’ajouter à leur perdition."
   },
   {
     "id": "hud-102",
@@ -12633,7 +12734,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَخْذُ رَبِّكَ إِذَآ أَخَذَ ٱلْقُرَىٰ وَهِىَ ظَـٰلِمَةٌ ۚ إِنَّ أَخْذَهُۥٓ أَلِيمٌ شَدِيدٌ",
     "textSimple": "وكذلك أخذ ربك إذآ أخذ ٱلقرى وهى ظـلمة  إن أخذهٓ أليم شديد",
     "transliteration": "wakadhālika akhdhu rabbika idhā akhadha l-qurā wahiya ẓālimatun inna akhdhahu alīmun shadīdun",
-    "translation": "",
+    "translation": "And thus is the seizure of your Lord when He seizes the cities while they are committing wrong. Indeed, His seizure is painful and severe.",
     "words": [
       {
         "id": "hud-102-1",
@@ -12720,7 +12821,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que ton Seigneur S’empare des cités quand elles sont injustes. Il S’en empare alors par un châtiment douloureux et dur."
   },
   {
     "id": "hud-103",
@@ -12729,7 +12831,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّمَنْ خَافَ عَذَابَ ٱلْـَٔاخِرَةِ ۚ ذَٰلِكَ يَوْمٌ مَّجْمُوعٌ لَّهُ ٱلنَّاسُ وَذَٰلِكَ يَوْمٌ مَّشْهُودٌ",
     "textSimple": "إن فى ذلك لـٔاية لمن خاف عذاب ٱلـٔاخرة  ذلك يوم مجموع له ٱلناس وذلك يوم مشهود",
     "transliteration": "inna fī dhālika laāyatan liman khāfa ʿadhāba l-ākhirati dhālika yawmun majmūʿun lahu l-nāsu wadhālika yawmun mashhūdun",
-    "translation": "",
+    "translation": "Indeed in that is a sign for those who fear the punishment of the Hereafter. That is a Day for which the people will be collected, and that is a Day [which will be] witnessed.",
     "words": [
       {
         "id": "hud-103-1",
@@ -12844,7 +12946,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a là un Signe pour quiconque craint le supplice de l’au-delà. Ce sera un jour où tous les hommes seront réunis, et ce sera un jour où tous seront présents."
   },
   {
     "id": "hud-104",
@@ -12853,7 +12956,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نُؤَخِّرُهُۥٓ إِلَّا لِأَجَلٍ مَّعْدُودٍ",
     "textSimple": "وما نؤخرهٓ إلا لأجل معدود",
     "transliteration": "wamā nu-akhiruhu illā li-ajalin maʿdūdin",
-    "translation": "",
+    "translation": "And We do not delay it except for a limited term.",
     "words": [
       {
         "id": "hud-104-1",
@@ -12891,7 +12994,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne le différons que pour un délai déterminé."
   },
   {
     "id": "hud-105",
@@ -12900,7 +13004,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّ وَسَعِيدٌ",
     "textSimple": "يوم يأت لا تكلم نفس إلا بإذنه  فمنهم شقى وسعيد",
     "transliteration": "yawma yati lā takallamu nafsun illā bi-idh'nihi famin'hum shaqiyyun wasaʿīdun",
-    "translation": "",
+    "translation": "The Day it comes no soul will speak except by His permission. And among them will be the wretched and the prosperous.",
     "words": [
       {
         "id": "hud-105-1",
@@ -12973,7 +13077,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où (ce terme) arrivera, nulle âme ne parlera sans Sa permission. Les uns parmi eux seront misérables et les autres heureux."
   },
   {
     "id": "hud-106",
@@ -12982,7 +13087,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ٱلَّذِينَ شَقُوا۟ فَفِى ٱلنَّارِ لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ",
     "textSimple": "فأما ٱلذين شقوا ففى ٱلنار لهم فيها زفير وشهيق",
     "transliteration": "fa-ammā alladhīna shaqū fafī l-nāri lahum fīhā zafīrun washahīqun",
-    "translation": "",
+    "translation": "As for those who were [destined to be] wretched, they will be in the Fire. For them therein is [violent] exhaling and inhaling.",
     "words": [
       {
         "id": "hud-106-1",
@@ -13048,7 +13153,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant aux misérables d’entre eux, ils seront dans le Feu où ils auront soupirs et sanglots."
   },
   {
     "id": "hud-107",
@@ -13057,7 +13163,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۚ إِنَّ رَبَّكَ فَعَّالٌ لِّمَا يُرِيدُ",
     "textSimple": "خـلدين فيها ما دامت ٱلسمـوت وٱلأرض إلا ما شآء ربك  إن ربك فعال لما يريد",
     "transliteration": "khālidīna fīhā mā dāmati l-samāwātu wal-arḍu illā mā shāa rabbuka inna rabbaka faʿʿālun limā yurīdu",
-    "translation": "",
+    "translation": "[They will be] abiding therein as long as the heavens and the earth endure, except what your Lord should will. Indeed, your Lord is an effecter of what He intends.",
     "words": [
       {
         "id": "hud-107-1",
@@ -13165,7 +13271,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Là ils séjourneront pour l’éternité tant que dureront les cieux et la terre, à moins que ton Seigneur ne le veuille autrement. Car ton Seigneur fait certes ce qu’Il veut."
   },
   {
     "id": "hud-108",
@@ -13174,7 +13281,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَأَمَّا ٱلَّذِينَ سُعِدُوا۟ فَفِى ٱلْجَنَّةِ خَـٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ مَجْذُوذٍ",
     "textSimple": " وأما ٱلذين سعدوا ففى ٱلجنة خـلدين فيها ما دامت ٱلسمـوت وٱلأرض إلا ما شآء ربك  عطآء غير مجذوذ",
     "transliteration": "wa-ammā alladhīna suʿidū fafī l-janati khālidīna fīhā mā dāmati l-samāwātu wal-arḍu illā mā shāa rabbuka ʿaṭāan ghayra majdhūdhin",
-    "translation": "",
+    "translation": "And as for those who were [destined to be] prosperous, they will be in Paradise, abiding therein as long as the heavens and the earth endure, except what your Lord should will - a bestowal uninterrupted.",
     "words": [
       {
         "id": "hud-108-1",
@@ -13303,7 +13410,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les heureux, quant à eux, seront dans le Paradis, là ils séjourneront pour l’éternité tant que dureront les cieux et la terre, à moins que ton Seigneur ne le veuille autrement. Mais ce sera un don ininterrompu."
   },
   {
     "id": "hud-109",
@@ -13312,7 +13420,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تَكُ فِى مِرْيَةٍ مِّمَّا يَعْبُدُ هَـٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُم مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍ",
     "textSimple": "فلا تك فى مرية مما يعبد هـٓؤلآء  ما يعبدون إلا كما يعبد ءابآؤهم من قبل  وإنا لموفوهم نصيبهم غير منقوص",
     "transliteration": "falā taku fī mir'yatin mimmā yaʿbudu hāulāi mā yaʿbudūna illā kamā yaʿbudu ābāuhum min qablu wa-innā lamuwaffūhum naṣībahum ghayra manqūṣin",
-    "translation": "",
+    "translation": "So do not be in doubt, [O Muḥammad], as to what these [polytheists] are worshipping. They worship not except as their fathers worshipped before. And indeed, We will give them their share undiminished.",
     "words": [
       {
         "id": "hud-109-1",
@@ -13455,7 +13563,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sois donc pas dans le doute à propos de ce que ceux-là adorent : ils n’adorent que comme faisaient déjà leurs pères. Nous leur attribuerons leur part sans diminution aucune."
   },
   {
     "id": "hud-110",
@@ -13464,7 +13573,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ فَٱخْتُلِفَ فِيهِ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب فٱختلف فيه  ولولا كلمة سبقت من ربك لقضى بينهم  وإنهم لفى شك منه مريب",
     "transliteration": "walaqad ātaynā mūsā l-kitāba fa-ukh'tulifa fīhi walawlā kalimatun sabaqat min rabbika laquḍiya baynahum wa-innahum lafī shakkin min'hu murībin",
-    "translation": "",
+    "translation": "And We had certainly given Moses the Scripture, but it came under disagreement. And if not for a word that preceded from your Lord, it would have been judged between them. And indeed they are, concerning it [i.e., the Qur’ān], in disquieting doubt.",
     "words": [
       {
         "id": "hud-110-1",
@@ -13593,7 +13702,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donné à Moïse le Livre qui fut la cause de controverses. Et sans un verdict antérieur de ton Seigneur, leur désaccord aurait été tranché. Ils sont, à son sujet (la Torah) dans un doute troublant."
   },
   {
     "id": "hud-111",
@@ -13602,7 +13712,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ كُلًّا لَّمَّا لَيُوَفِّيَنَّهُمْ رَبُّكَ أَعْمَـٰلَهُمْ ۚ إِنَّهُۥ بِمَا يَعْمَلُونَ خَبِيرٌ",
     "textSimple": "وإن كلا لما ليوفينهم ربك أعمـلهم  إنه بما يعملون خبير",
     "transliteration": "wa-inna kullan lammā layuwaffiyannahum rabbuka aʿmālahum innahu bimā yaʿmalūna khabīrun",
-    "translation": "",
+    "translation": "And indeed, each [of the believers and disbelievers] - your Lord will fully compensate them for their deeds. Indeed, He is Aware of what they do.",
     "words": [
       {
         "id": "hud-111-1",
@@ -13675,7 +13785,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur accordera à tous la rétribution (qu’ils méritent) pour leurs œuvres. Il est parfaitement Informé de ce qu’ils font."
   },
   {
     "id": "hud-112",
@@ -13684,7 +13795,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "فٱستقم كمآ أمرت ومن تاب معك ولا تطغوا  إنه بما تعملون بصير",
     "transliteration": "fa-is'taqim kamā umir'ta waman tāba maʿaka walā taṭghaw innahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "So remain on a right course as you have been commanded, [you] and those who have turned back with you [to Allāh], and do not transgress. Indeed, He is Seeing of what you do.",
     "words": [
       {
         "id": "hud-112-1",
@@ -13771,7 +13882,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suis donc la voie droite comme il t’a été ordonné, ainsi qu’à ceux qui sont revenus (à Allah) avec toi. Ne succombez pas aux abus, car Il Voit parfaitement ce que vous faites."
   },
   {
     "id": "hud-113",
@@ -13780,7 +13892,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَرْكَنُوٓا۟ إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ثُمَّ لَا تُنصَرُونَ",
     "textSimple": "ولا تركنوٓا إلى ٱلذين ظلموا فتمسكم ٱلنار وما لكم من دون ٱلله من أوليآء ثم لا تنصرون",
     "transliteration": "walā tarkanū ilā alladhīna ẓalamū fatamassakumu l-nāru wamā lakum min dūni l-lahi min awliyāa thumma lā tunṣarūna",
-    "translation": "",
+    "translation": "And do not incline toward those who do wrong, lest you be touched by the Fire, and you would not have other than Allāh any protectors; then you would not be helped.",
     "words": [
       {
         "id": "hud-113-1",
@@ -13902,7 +14014,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne penchez pas pour les fauteurs d’injustice, ou le Feu vous atteindra. Vous n’avez point d’alliés en dehors d’Allah et vous ne serez point secourus."
   },
   {
     "id": "hud-114",
@@ -13911,7 +14024,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَـٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ",
     "textSimple": "وأقم ٱلصلوة طرفى ٱلنهار وزلفا من ٱليل  إن ٱلحسنـت يذهبن ٱلسيـٔات  ذلك ذكرى للذكرين",
     "transliteration": "wa-aqimi l-ṣalata ṭarafayi l-nahāri wazulafan mina al-layli inna l-ḥasanāti yudh'hib'na l-sayiāti dhālika dhik'rā lildhākirīna",
-    "translation": "",
+    "translation": "And establish prayer at the two ends of the day and at the approach of the night. Indeed, good deeds do away with misdeeds. That is a reminder for those who remember.",
     "words": [
       {
         "id": "hud-114-1",
@@ -14012,7 +14125,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accomplis la Çalât aux deux extrémités du jour et à certains moments de la nuit. Les bonnes œuvres effacent les mauvaises. Voilà un rappel pour ceux qui savent se rappeler."
   },
   {
     "id": "hud-115",
@@ -14021,7 +14135,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
     "textSimple": "وٱصبر فإن ٱلله لا يضيع أجر ٱلمحسنين",
     "transliteration": "wa-iṣ'bir fa-inna l-laha lā yuḍīʿu ajra l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And be patient, for indeed, Allāh does not allow to be lost the reward of those who do good.",
     "words": [
       {
         "id": "hud-115-1",
@@ -14073,7 +14187,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et prends patience, car Allah ne laisse pas se perdre la récompense des bienfaiteurs."
   },
   {
     "id": "hud-116",
@@ -14082,7 +14197,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
     "textSimple": "فلولا كان من ٱلقرون من قبلكم أولوا بقية ينهون عن ٱلفساد فى ٱلأرض إلا قليلا ممن أنجينا منهم  وٱتبع ٱلذين ظلموا مآ أترفوا فيه وكانوا مجرمين",
     "transliteration": "falawlā kāna mina l-qurūni min qablikum ulū baqiyyatin yanhawna ʿani l-fasādi fī l-arḍi illā qalīlan mimman anjaynā min'hum wa-ittabaʿa alladhīna ẓalamū mā ut'rifū fīhi wakānū muj'rimīna",
-    "translation": "",
+    "translation": "So why were there not among the generations before you those of enduring discrimination forbidding corruption on earth - except a few of those We saved from among them? But those who wronged pursued what luxury they were given therein, and they were criminals.",
     "words": [
       {
         "id": "hud-116-1",
@@ -14267,7 +14382,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement il y avait eu, parmi les générations passées, des hommes (suffisamment) vertueux pour interdire la corruption sur terre ! Mais il n’y en eut que très peu que Nous sauvâmes, cependant que les fauteurs d’injustice baignaient dans l’opulence et n’étaient rien de moins que des scélérats."
   },
   {
     "id": "hud-117",
@@ -14276,7 +14392,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ رَبُّكَ لِيُهْلِكَ ٱلْقُرَىٰ بِظُلْمٍ وَأَهْلُهَا مُصْلِحُونَ",
     "textSimple": "وما كان ربك ليهلك ٱلقرى بظلم وأهلها مصلحون",
     "transliteration": "wamā kāna rabbuka liyuh'lika l-qurā biẓul'min wa-ahluhā muṣ'liḥūna",
-    "translation": "",
+    "translation": "And your Lord would not have destroyed the cities unjustly while their people were reformers.",
     "words": [
       {
         "id": "hud-117-1",
@@ -14335,7 +14451,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur n’aurait jamais fait périr injustement des cités dont les habitants voulaient améliorer les choses."
   },
   {
     "id": "hud-118",
@@ -14344,7 +14461,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةً وَٰحِدَةً ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ",
     "textSimple": "ولو شآء ربك لجعل ٱلناس أمة وحدة  ولا يزالون مختلفين",
     "transliteration": "walaw shāa rabbuka lajaʿala l-nāsa ummatan wāḥidatan walā yazālūna mukh'talifīna",
-    "translation": "",
+    "translation": "And if your Lord had willed, He could have made mankind one community; but they will not cease to differ,",
     "words": [
       {
         "id": "hud-118-1",
@@ -14417,7 +14534,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Allah l’avait voulu, Il aurait fait des hommes une seule nation. Mais ils ne cessent de s’opposer les uns aux autres,"
   },
   {
     "id": "hud-119",
@@ -14426,7 +14544,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
     "textSimple": "إلا من رحم ربك  ولذلك خلقهم  وتمت كلمة ربك لأملأن جهنم من ٱلجنة وٱلناس أجمعين",
     "transliteration": "illā man raḥima rabbuka walidhālika khalaqahum watammat kalimatu rabbika la-amla-anna jahannama mina l-jinati wal-nāsi ajmaʿīna",
-    "translation": "",
+    "translation": "Except whom your Lord has given mercy, and for that He created them. But the word of your Lord is to be fulfilled that, \"I will surely fill Hell with jinn and men all together.\"",
     "words": [
       {
         "id": "hud-119-1",
@@ -14534,7 +14652,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté ceux auxquels ton Seigneur a accordé Sa miséricorde. Voilà pourquoi Il les a créés. Et c’est ainsi que se sera accomplie cette parole de ton Seigneur : « Je remplirai certainement la Géhenne à la fois de djinns et d’hommes. »"
   },
   {
     "id": "hud-120",
@@ -14543,7 +14662,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَـٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
     "textSimple": "وكلا نقص عليك من أنبآء ٱلرسل ما نثبت به فؤادك  وجآءك فى هـذه ٱلحق وموعظة وذكرى للمؤمنين",
     "transliteration": "wakullan naquṣṣu ʿalayka min anbāi l-rusuli mā nuthabbitu bihi fuādaka wajāaka fī hādhihi l-ḥaqu wamawʿiẓatun wadhik'rā lil'mu'minīna",
-    "translation": "",
+    "translation": "And each [story] We relate to you from the news of the messengers is that by which We make firm your heart. And there has come to you, in this, the truth and an instruction and a reminder for the believers.",
     "words": [
       {
         "id": "hud-120-1",
@@ -14665,7 +14784,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce que Nous te relatons comme histoires à propos des Messagers vise à affermir ton cœur. Dans (cette sourate) t’est parvenue la vérité, de même qu’une exhortation et un rappel pour les croyants."
   },
   {
     "id": "hud-121",
@@ -14674,7 +14794,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَقُل لِّلَّذِينَ لَا يُؤْمِنُونَ ٱعْمَلُوا۟ عَلَىٰ مَكَانَتِكُمْ إِنَّا عَـٰمِلُونَ",
     "textSimple": "وقل للذين لا يؤمنون ٱعملوا على مكانتكم إنا عـملون",
     "transliteration": "waqul lilladhīna lā yu'minūna iʿ'malū ʿalā makānatikum innā ʿāmilūna",
-    "translation": "",
+    "translation": "And say to those who do not believe, \"Work according to your position; indeed, we are working.",
     "words": [
       {
         "id": "hud-121-1",
@@ -14740,7 +14860,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis à ceux qui ne croient pas : « Agissez selon votre manière, j’agirai selon la mienne."
   },
   {
     "id": "hud-122",
@@ -14749,7 +14870,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱنتَظِرُوٓا۟ إِنَّا مُنتَظِرُونَ",
     "textSimple": "وٱنتظروٓا إنا منتظرون",
     "transliteration": "wa-intaẓirū innā muntaẓirūna",
-    "translation": "",
+    "translation": "And wait; indeed, we are waiting.\"",
     "words": [
       {
         "id": "hud-122-1",
@@ -14773,7 +14894,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et attendez, nous attendrons de même. »"
   },
   {
     "id": "hud-123",
@@ -14782,7 +14904,7 @@ export const HUD_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّهِ غَيْبُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَإِلَيْهِ يُرْجَعُ ٱلْأَمْرُ كُلُّهُۥ فَٱعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ ۚ وَمَا رَبُّكَ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "ولله غيب ٱلسمـوت وٱلأرض وإليه يرجع ٱلأمر كله فٱعبده وتوكل عليه  وما ربك بغـفل عما تعملون",
     "transliteration": "walillahi ghaybu l-samāwāti wal-arḍi wa-ilayhi yur'jaʿu l-amru kulluhu fa-uʿ'bud'hu watawakkal ʿalayhi wamā rabbuka bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "And to Allāh belong the unseen [aspects] of the heavens and the earth and to Him will be returned the matter, all of it, so worship Him and rely upon Him. And your Lord is not unaware of that which you do.",
     "words": [
       {
         "id": "hud-123-1",
@@ -14897,7 +15019,8 @@ export const HUD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Allah Qui détient le secret Inconnaissable (ghayb) des cieux et de la terre. C’est vers Lui que sera ramenée toute chose. Adore-Le donc, confie-toi à Lui, car ton Seigneur n’est point distrait de ce que vous faites."
   }
 ];
 

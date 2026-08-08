@@ -11,7 +11,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلْمُرْسَلَـٰتِ عُرْفًا",
     "textSimple": " وٱلمرسلـت عرفا",
     "transliteration": "wal-mur'salāti ʿur'fan",
-    "translation": "",
+    "translation": "By those [winds] sent forth in gusts",
     "words": [
       {
         "id": "al-mursalat-1-1",
@@ -28,7 +28,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ceux qui sont envoyés l’un après l’autre !"
   },
   {
     "id": "al-mursalat-2",
@@ -37,7 +38,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْعَـٰصِفَـٰتِ عَصْفًا",
     "textSimple": "فٱلعـصفـت عصفا",
     "transliteration": "fal-ʿāṣifāti ʿaṣfan",
-    "translation": "",
+    "translation": "And the winds that blow violently",
     "words": [
       {
         "id": "al-mursalat-2-1",
@@ -54,7 +55,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les tempêtes déchaînées !"
   },
   {
     "id": "al-mursalat-3",
@@ -63,7 +65,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلنَّـٰشِرَٰتِ نَشْرًا",
     "textSimple": "وٱلنـشرت نشرا",
     "transliteration": "wal-nāshirāti nashran",
-    "translation": "",
+    "translation": "And [by] the winds that spread [clouds]",
     "words": [
       {
         "id": "al-mursalat-3-1",
@@ -80,7 +82,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ceux qui répandent et déploient,"
   },
   {
     "id": "al-mursalat-4",
@@ -89,7 +92,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْفَـٰرِقَـٰتِ فَرْقًا",
     "textSimple": "فٱلفـرقـت فرقا",
     "transliteration": "fal-fāriqāti farqan",
-    "translation": "",
+    "translation": "And those [angels] who bring criterion",
     "words": [
       {
         "id": "al-mursalat-4-1",
@@ -106,7 +109,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "séparent et discernent !"
   },
   {
     "id": "al-mursalat-5",
@@ -115,7 +119,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
     "textSimple": "فٱلملقيـت ذكرا",
     "transliteration": "fal-mul'qiyāti dhik'ran",
-    "translation": "",
+    "translation": "And those [angels] who deliver a message.",
     "words": [
       {
         "id": "al-mursalat-5-1",
@@ -132,7 +136,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ceux qui sèment (partout) le Rappel,"
   },
   {
     "id": "al-mursalat-6",
@@ -141,7 +146,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "عُذْرًا أَوْ نُذْرًا",
     "textSimple": "عذرا أو نذرا",
     "transliteration": "ʿudh'ran aw nudh'ran",
-    "translation": "",
+    "translation": "As justification or warning,",
     "words": [
       {
         "id": "al-mursalat-6-1",
@@ -165,7 +170,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "soit pour justifier soit pour avertir !"
   },
   {
     "id": "al-mursalat-7",
@@ -174,7 +180,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ",
     "textSimple": "إنما توعدون لوقع",
     "transliteration": "innamā tūʿadūna lawāqiʿun",
-    "translation": "",
+    "translation": "Indeed, what you are promised is to occur.",
     "words": [
       {
         "id": "al-mursalat-7-1",
@@ -198,7 +204,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qui vous est promis s’accomplira certainement."
   },
   {
     "id": "al-mursalat-8",
@@ -207,7 +214,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
     "textSimple": "فإذا ٱلنجوم طمست",
     "transliteration": "fa-idhā l-nujūmu ṭumisat",
-    "translation": "",
+    "translation": "So when the stars are obliterated",
     "words": [
       {
         "id": "al-mursalat-8-1",
@@ -231,7 +238,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand les étoiles seront éteintes,"
   },
   {
     "id": "al-mursalat-9",
@@ -240,7 +248,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
     "textSimple": "وإذا ٱلسمآء فرجت",
     "transliteration": "wa-idhā l-samāu furijat",
-    "translation": "",
+    "translation": "And when the heaven is opened",
     "words": [
       {
         "id": "al-mursalat-9-1",
@@ -264,7 +272,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que le ciel sera fendu,"
   },
   {
     "id": "al-mursalat-10",
@@ -273,7 +282,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
     "textSimple": "وإذا ٱلجبال نسفت",
     "transliteration": "wa-idhā l-jibālu nusifat",
-    "translation": "",
+    "translation": "And when the mountains are blown away",
     "words": [
       {
         "id": "al-mursalat-10-1",
@@ -297,7 +306,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que les montagnes seront désintégrées,"
   },
   {
     "id": "al-mursalat-11",
@@ -306,7 +316,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
     "textSimple": "وإذا ٱلرسل أقتت",
     "transliteration": "wa-idhā l-rusulu uqqitat",
-    "translation": "",
+    "translation": "And when the messengers' time has come...",
     "words": [
       {
         "id": "al-mursalat-11-1",
@@ -330,7 +340,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que le moment sera venu pour les Messagers de comparaître,"
   },
   {
     "id": "al-mursalat-12",
@@ -339,7 +350,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
     "textSimple": "لأى يوم أجلت",
     "transliteration": "li-ayyi yawmin ujjilat",
-    "translation": "",
+    "translation": "For what Day was it postponed?",
     "words": [
       {
         "id": "al-mursalat-12-1",
@@ -363,7 +374,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à quel jour cela est-il donc différé ?"
   },
   {
     "id": "al-mursalat-13",
@@ -372,7 +384,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "لِيَوْمِ ٱلْفَصْلِ",
     "textSimple": "ليوم ٱلفصل",
     "transliteration": "liyawmi l-faṣli",
-    "translation": "",
+    "translation": "For the Day of Judgement.",
     "words": [
       {
         "id": "al-mursalat-13-1",
@@ -389,7 +401,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au jour de la Décision."
   },
   {
     "id": "al-mursalat-14",
@@ -398,7 +411,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
     "textSimple": "ومآ أدرىك ما يوم ٱلفصل",
     "transliteration": "wamā adrāka mā yawmu l-faṣli",
-    "translation": "",
+    "translation": "And what can make you know what is the Day of Judgement?",
     "words": [
       {
         "id": "al-mursalat-14-1",
@@ -436,7 +449,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est le jour de la Décision ?"
   },
   {
     "id": "al-mursalat-15",
@@ -445,7 +459,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-15-1",
@@ -469,7 +483,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-16",
@@ -478,7 +493,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ",
     "textSimple": "ألم نهلك ٱلأولين",
     "transliteration": "alam nuh'liki l-awalīna",
-    "translation": "",
+    "translation": "Did We not destroy the former peoples?",
     "words": [
       {
         "id": "al-mursalat-16-1",
@@ -502,7 +517,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’avons-Nous pas anéanti les (peuples) premiers ?"
   },
   {
     "id": "al-mursalat-17",
@@ -511,7 +527,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ",
     "textSimple": "ثم نتبعهم ٱلـٔاخرين",
     "transliteration": "thumma nut'biʿuhumu l-ākhirīna",
-    "translation": "",
+    "translation": "Then We will follow them with the later ones.",
     "words": [
       {
         "id": "al-mursalat-17-1",
@@ -535,7 +551,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis n’avons-Nous pas enchaîné par les derniers ?"
   },
   {
     "id": "al-mursalat-18",
@@ -544,7 +561,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
     "textSimple": "كذلك نفعل بٱلمجرمين",
     "transliteration": "kadhālika nafʿalu bil-muj'rimīna",
-    "translation": "",
+    "translation": "Thus do We deal with the criminals.",
     "words": [
       {
         "id": "al-mursalat-18-1",
@@ -568,7 +585,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous traitons les criminels."
   },
   {
     "id": "al-mursalat-19",
@@ -577,7 +595,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-19-1",
@@ -601,7 +619,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-20",
@@ -610,7 +629,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ",
     "textSimple": "ألم نخلقكم من مآء مهين",
     "transliteration": "alam nakhluqkkum min māin mahīnin",
-    "translation": "",
+    "translation": "Did We not create you from a liquid disdained?",
     "words": [
       {
         "id": "al-mursalat-20-1",
@@ -648,7 +667,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous avons-Nous pas créés d’un vulgaire liquide,"
   },
   {
     "id": "al-mursalat-21",
@@ -657,7 +677,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلْنَـٰهُ فِى قَرَارٍ مَّكِينٍ",
     "textSimple": "فجعلنـه فى قرار مكين",
     "transliteration": "fajaʿalnāhu fī qarārin makīnin",
-    "translation": "",
+    "translation": "And We placed it in a firm lodging [i.e., the womb]",
     "words": [
       {
         "id": "al-mursalat-21-1",
@@ -688,7 +708,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que Nous avons établi dans un réceptacle sûr,"
   },
   {
     "id": "al-mursalat-22",
@@ -697,7 +718,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ قَدَرٍ مَّعْلُومٍ",
     "textSimple": "إلى قدر معلوم",
     "transliteration": "ilā qadarin maʿlūmin",
-    "translation": "",
+    "translation": "For a known extent.",
     "words": [
       {
         "id": "al-mursalat-22-1",
@@ -721,7 +742,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour un délai déjà fixé ?"
   },
   {
     "id": "al-mursalat-23",
@@ -730,7 +752,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ",
     "textSimple": "فقدرنا فنعم ٱلقـدرون",
     "transliteration": "faqadarnā faniʿ'ma l-qādirūna",
-    "translation": "",
+    "translation": "And We determined [it], and excellent [are We] to determine.",
     "words": [
       {
         "id": "al-mursalat-23-1",
@@ -754,7 +776,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi l’avons-Nous déterminé, et nul ne le pourra mieux que Nous !"
   },
   {
     "id": "al-mursalat-24",
@@ -763,7 +786,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-24-1",
@@ -787,7 +810,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-25",
@@ -796,7 +820,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
     "textSimple": "ألم نجعل ٱلأرض كفاتا",
     "transliteration": "alam najʿali l-arḍa kifātan",
-    "translation": "",
+    "translation": "Have We not made the earth a container",
     "words": [
       {
         "id": "al-mursalat-25-1",
@@ -827,7 +851,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’avons-Nous pas fait de la terre un réceptacle commun"
   },
   {
     "id": "al-mursalat-26",
@@ -836,7 +861,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "أَحْيَآءً وَأَمْوَٰتًا",
     "textSimple": "أحيآء وأموتا",
     "transliteration": "aḥyāan wa-amwātan",
-    "translation": "",
+    "translation": "Of the living and the dead?",
     "words": [
       {
         "id": "al-mursalat-26-1",
@@ -853,7 +878,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "aux vivants et aux morts ?"
   },
   {
     "id": "al-mursalat-27",
@@ -862,7 +888,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا",
     "textSimple": "وجعلنا فيها روسى شـمخـت وأسقينـكم مآء فراتا",
     "transliteration": "wajaʿalnā fīhā rawāsiya shāmikhātin wa-asqaynākum māan furātan",
-    "translation": "",
+    "translation": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water.",
     "words": [
       {
         "id": "al-mursalat-27-1",
@@ -914,7 +940,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’y avons-Nous pas implanté des montagnes altières ? Ne vous avons-Nous pas donné à boire une eau très douce ?"
   },
   {
     "id": "al-mursalat-28",
@@ -923,7 +950,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-28-1",
@@ -947,7 +974,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-29",
@@ -956,7 +984,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
     "textSimple": "ٱنطلقوٓا إلى ما كنتم به تكذبون",
     "transliteration": "inṭaliqū ilā mā kuntum bihi tukadhibūna",
-    "translation": "",
+    "translation": "[They will be told], \"Proceed to that which you used to deny.",
     "words": [
       {
         "id": "al-mursalat-29-1",
@@ -1001,7 +1029,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Précipitez-vous donc vers ce que vous teniez pour mensonge !"
   },
   {
     "id": "al-mursalat-30",
@@ -1010,7 +1039,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَـٰثِ شُعَبٍ",
     "textSimple": "ٱنطلقوٓا إلى ظل ذى ثلـث شعب",
     "transliteration": "inṭaliqū ilā ẓillin dhī thalāthi shuʿabin",
-    "translation": "",
+    "translation": "Proceed to a shadow [of smoke] having three columns.",
     "words": [
       {
         "id": "al-mursalat-30-1",
@@ -1055,7 +1084,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Élancez-vous vers l’ombre aux trois colonnes de (la fumée de l’Enfer),"
   },
   {
     "id": "al-mursalat-31",
@@ -1064,7 +1094,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
     "textSimple": "لا ظليل ولا يغنى من ٱللهب",
     "transliteration": "lā ẓalīlin walā yugh'nī mina l-lahabi",
-    "translation": "",
+    "translation": "[But having] no cool shade and availing not against the flame.\"",
     "words": [
       {
         "id": "al-mursalat-31-1",
@@ -1109,7 +1139,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ne protège ni ne prémunit contre les flammes."
   },
   {
     "id": "al-mursalat-32",
@@ -1118,7 +1149,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ",
     "textSimple": "إنها ترمى بشرر كٱلقصر",
     "transliteration": "innahā tarmī bishararin kal-qaṣri",
-    "translation": "",
+    "translation": "Indeed, it throws sparks [as huge] as a fortress,",
     "words": [
       {
         "id": "al-mursalat-32-1",
@@ -1149,7 +1180,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car (le Feu de la Géhenne) projette des étincelles aussi grandes que de hautes citadelles,"
   },
   {
     "id": "al-mursalat-33",
@@ -1158,7 +1190,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "كَأَنَّهُۥ جِمَـٰلَتٌ صُفْرٌ",
     "textSimple": "كأنه جمـلت صفر",
     "transliteration": "ka-annahu jimālatun ṣuf'run",
-    "translation": "",
+    "translation": "As if they were yellowish [black] camels.",
     "words": [
       {
         "id": "al-mursalat-33-1",
@@ -1182,7 +1214,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou semblables à des chameaux jaunes."
   },
   {
     "id": "al-mursalat-34",
@@ -1191,7 +1224,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-34-1",
@@ -1215,7 +1248,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-35",
@@ -1224,7 +1258,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا يَوْمُ لَا يَنطِقُونَ",
     "textSimple": "هـذا يوم لا ينطقون",
     "transliteration": "hādhā yawmu lā yanṭiqūna",
-    "translation": "",
+    "translation": "This is a Day they will not speak,",
     "words": [
       {
         "id": "al-mursalat-35-1",
@@ -1255,7 +1289,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, (les mécréants) ne pourront ni parler,"
   },
   {
     "id": "al-mursalat-36",
@@ -1264,7 +1299,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
     "textSimple": "ولا يؤذن لهم فيعتذرون",
     "transliteration": "walā yu'dhanu lahum fayaʿtadhirūna",
-    "translation": "",
+    "translation": "Nor will it be permitted for them to make an excuse.",
     "words": [
       {
         "id": "al-mursalat-36-1",
@@ -1295,7 +1330,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ni ne seront autorisés à présenter des excuses."
   },
   {
     "id": "al-mursalat-37",
@@ -1304,7 +1340,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-37-1",
@@ -1328,7 +1364,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-38",
@@ -1337,7 +1374,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ",
     "textSimple": "هـذا يوم ٱلفصل  جمعنـكم وٱلأولين",
     "transliteration": "hādhā yawmu l-faṣli jamaʿnākum wal-awalīna",
-    "translation": "",
+    "translation": "This is the Day of Judgement; We will have assembled you and the former peoples.",
     "words": [
       {
         "id": "al-mursalat-38-1",
@@ -1375,7 +1412,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici venu le Jour de la Décision où Nous vous réunissons avec ceux qui vous ont précédés."
   },
   {
     "id": "al-mursalat-39",
@@ -1384,7 +1422,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
     "textSimple": "فإن كان لكم كيد فكيدون",
     "transliteration": "fa-in kāna lakum kaydun fakīdūni",
-    "translation": "",
+    "translation": "So if you have a plan, then plan against Me.",
     "words": [
       {
         "id": "al-mursalat-39-1",
@@ -1422,7 +1460,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous avez quelque stratagème faites-en donc usage contre Moi !"
   },
   {
     "id": "al-mursalat-40",
@@ -1431,7 +1470,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-40-1",
@@ -1455,7 +1494,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-41",
@@ -1464,7 +1504,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍ وَعُيُونٍ",
     "textSimple": "إن ٱلمتقين فى ظلـل وعيون",
     "transliteration": "inna l-mutaqīna fī ẓilālin waʿuyūnin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be among shades and springs",
     "words": [
       {
         "id": "al-mursalat-41-1",
@@ -1502,7 +1542,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont pieux seront au milieu d’ombrages et de sources (vives),"
   },
   {
     "id": "al-mursalat-42",
@@ -1511,7 +1552,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
     "textSimple": "وفوكه مما يشتهون",
     "transliteration": "wafawākiha mimmā yashtahūna",
-    "translation": "",
+    "translation": "And fruits from whatever they desire,",
     "words": [
       {
         "id": "al-mursalat-42-1",
@@ -1535,7 +1576,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et auront les fruits qu’ils désireront."
   },
   {
     "id": "al-mursalat-43",
@@ -1544,7 +1586,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "كلوا وٱشربوا هنيٓـٔا بما كنتم تعملون",
     "transliteration": "kulū wa-ish'rabū hanīan bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "[Being told], \"Eat and drink in satisfaction for what you used to do.\"",
     "words": [
       {
         "id": "al-mursalat-43-1",
@@ -1589,7 +1631,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mangez et buvez en paix pour tout ce que vous faisiez. »"
   },
   {
     "id": "al-mursalat-44",
@@ -1598,7 +1641,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "إنا كذلك نجزى ٱلمحسنين",
     "transliteration": "innā kadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Indeed, We thus reward the doers of good.",
     "words": [
       {
         "id": "al-mursalat-44-1",
@@ -1629,7 +1672,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous rétribuons les bienfaiteurs."
   },
   {
     "id": "al-mursalat-45",
@@ -1638,7 +1682,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-45-1",
@@ -1662,7 +1706,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-46",
@@ -1671,7 +1716,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
     "textSimple": "كلوا وتمتعوا قليلا إنكم مجرمون",
     "transliteration": "kulū watamattaʿū qalīlan innakum muj'rimūna",
-    "translation": "",
+    "translation": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals.",
     "words": [
       {
         "id": "al-mursalat-46-1",
@@ -1709,7 +1754,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mangez et jouissez pour peu de temps (ô mécréants), vous êtes certes des scélérats ! »"
   },
   {
     "id": "al-mursalat-47",
@@ -1718,7 +1764,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-47-1",
@@ -1742,7 +1788,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-48",
@@ -1751,7 +1798,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
     "textSimple": "وإذا قيل لهم ٱركعوا لا يركعون",
     "transliteration": "wa-idhā qīla lahumu ir'kaʿū lā yarkaʿūna",
-    "translation": "",
+    "translation": "And when it is said to them, \"Bow [in prayer],\" they do not bow.",
     "words": [
       {
         "id": "al-mursalat-48-1",
@@ -1796,7 +1843,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est dit : « Inclinez-vous (pour la Çalât) », ils ne s’inclinent pas."
   },
   {
     "id": "al-mursalat-49",
@@ -1805,7 +1853,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "ويل يومئذ للمكذبين",
     "transliteration": "waylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Woe, that Day, to the deniers.",
     "words": [
       {
         "id": "al-mursalat-49-1",
@@ -1829,7 +1877,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Malheur, ce jour-là, aux négateurs !"
   },
   {
     "id": "al-mursalat-50",
@@ -1838,7 +1887,7 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
     "textSimple": "فبأى حديث بعده يؤمنون",
     "transliteration": "fabi-ayyi ḥadīthin baʿdahu yu'minūna",
-    "translation": "",
+    "translation": "Then in what statement after it [i.e., the Qur’ān] will they believe?",
     "words": [
       {
         "id": "al-mursalat-50-1",
@@ -1869,7 +1918,8 @@ export const AL_MURSALAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En quelle parole, après celle-là, vont-ils donc croire ?"
   }
 ];
 

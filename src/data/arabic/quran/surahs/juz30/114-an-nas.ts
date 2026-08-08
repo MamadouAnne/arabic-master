@@ -11,7 +11,7 @@ export const AN_NAS_AYAHS: Ayah[] = [
     "textUthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
     "textSimple": " قل أعوذ برب ٱلناس",
     "transliteration": "qul aʿūdhu birabbi l-nāsi",
-    "translation": "",
+    "translation": "Say, \"I seek refuge in the Lord of mankind,",
     "words": [
       {
         "id": "an-nas-1-1",
@@ -42,7 +42,8 @@ export const AN_NAS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je cherche refuge auprès du Seigneur des hommes,"
   },
   {
     "id": "an-nas-2",
@@ -51,7 +52,7 @@ export const AN_NAS_AYAHS: Ayah[] = [
     "textUthmani": "مَلِكِ ٱلنَّاسِ",
     "textSimple": "ملك ٱلناس",
     "transliteration": "maliki l-nāsi",
-    "translation": "",
+    "translation": "The Sovereign of mankind,",
     "words": [
       {
         "id": "an-nas-2-1",
@@ -68,7 +69,8 @@ export const AN_NAS_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Roi des hommes,"
   },
   {
     "id": "an-nas-3",
@@ -77,7 +79,7 @@ export const AN_NAS_AYAHS: Ayah[] = [
     "textUthmani": "إِلَـٰهِ ٱلنَّاسِ",
     "textSimple": "إلـه ٱلناس",
     "transliteration": "ilāhi l-nāsi",
-    "translation": "",
+    "translation": "The God of mankind,",
     "words": [
       {
         "id": "an-nas-3-1",
@@ -94,7 +96,8 @@ export const AN_NAS_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dieu des hommes,"
   },
   {
     "id": "an-nas-4",
@@ -103,7 +106,7 @@ export const AN_NAS_AYAHS: Ayah[] = [
     "textUthmani": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
     "textSimple": "من شر ٱلوسواس ٱلخناس",
     "transliteration": "min sharri l-waswāsi l-khanāsi",
-    "translation": "",
+    "translation": "From the evil of the retreating whisperer -",
     "words": [
       {
         "id": "an-nas-4-1",
@@ -134,7 +137,8 @@ export const AN_NAS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "contre le mal du tentateur qui toujours se dérobe,"
   },
   {
     "id": "an-nas-5",
@@ -143,7 +147,7 @@ export const AN_NAS_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
     "textSimple": "ٱلذى يوسوس فى صدور ٱلناس",
     "transliteration": "alladhī yuwaswisu fī ṣudūri l-nāsi",
-    "translation": "",
+    "translation": "Who whispers [evil] into the breasts of mankind -",
     "words": [
       {
         "id": "an-nas-5-1",
@@ -181,7 +185,8 @@ export const AN_NAS_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui susurre le mal dans les cœurs des hommes,"
   },
   {
     "id": "an-nas-6",
@@ -190,7 +195,7 @@ export const AN_NAS_AYAHS: Ayah[] = [
     "textUthmani": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
     "textSimple": "من ٱلجنة وٱلناس",
     "transliteration": "mina l-jinati wal-nāsi",
-    "translation": "",
+    "translation": "From among the jinn and mankind\".",
     "words": [
       {
         "id": "an-nas-6-1",
@@ -214,7 +219,8 @@ export const AN_NAS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qu’il soit (quant à lui) djinn ou homme. »"
   }
 ];
 

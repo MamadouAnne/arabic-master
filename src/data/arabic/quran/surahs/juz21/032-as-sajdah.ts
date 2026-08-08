@@ -11,7 +11,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": " الٓمٓ",
     "textSimple": " الٓمٓ",
     "transliteration": "alif-lam-meem",
-    "translation": "",
+    "translation": "Alif, Lām, Meem.",
     "words": [
       {
         "id": "as-sajdah-1-1",
@@ -21,7 +21,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Mîm."
   },
   {
     "id": "as-sajdah-2",
@@ -30,7 +31,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلُ ٱلْكِتَـٰبِ لَا رَيْبَ فِيهِ مِن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "تنزيل ٱلكتـب لا ريب فيه من رب ٱلعـلمين",
     "transliteration": "tanzīlu l-kitābi lā rayba fīhi min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "[This is] the revelation of the Book about which there is no doubt from the Lord of the worlds.",
     "words": [
       {
         "id": "as-sajdah-2-1",
@@ -89,7 +90,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La révélation du Livre à propos duquel il n’y a nul doute vient du Seigneur de l’Univers."
   },
   {
     "id": "as-sajdah-3",
@@ -98,7 +100,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۚ بَلْ هُوَ ٱلْحَقُّ مِن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّآ أَتَىٰهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَهْتَدُونَ",
     "textSimple": "أم يقولون ٱفترىه  بل هو ٱلحق من ربك لتنذر قوما مآ أتىهم من نذير من قبلك لعلهم يهتدون",
     "transliteration": "am yaqūlūna if'tarāhu bal huwa l-ḥaqu min rabbika litundhira qawman mā atāhum min nadhīrin min qablika laʿallahum yahtadūna",
-    "translation": "",
+    "translation": "Or do they say, \"He invented it\"? Rather, it is the truth from your Lord, [O Muḥammad], that you may warn a people to whom no warner has come before you [so] perhaps they will be guided.",
     "words": [
       {
         "id": "as-sajdah-3-1",
@@ -227,7 +229,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors disent-ils c’est lui qui l’a inventé ? Non, c’est plutôt la vérité procédant de ton Seigneur, pour que tu avertisses un peuple qu’avant toi personne n’avait averti afin qu’ils soient bien guidés."
   },
   {
     "id": "as-sajdah-4",
@@ -236,7 +239,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ مَا لَكُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا شَفِيعٍ ۚ أَفَلَا تَتَذَكَّرُونَ",
     "textSimple": "ٱلله ٱلذى خلق ٱلسمـوت وٱلأرض وما بينهما فى ستة أيام ثم ٱستوى على ٱلعرش  ما لكم من دونه من ولى ولا شفيع  أفلا تتذكرون",
     "transliteration": "al-lahu alladhī khalaqa l-samāwāti wal-arḍa wamā baynahumā fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi mā lakum min dūnihi min waliyyin walā shafīʿin afalā tatadhakkarūna",
-    "translation": "",
+    "translation": "It is Allāh who created the heavens and the earth and whatever is between them in six days; then He established Himself above the Throne. You have not besides Him any protector or any intercessor; so will you not be reminded?",
     "words": [
       {
         "id": "as-sajdah-4-1",
@@ -407,7 +410,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est Celui Qui, en six jours, a créé les cieux, la terre et ce qu’il y a entre eux. Puis Il S’est établi avec une infinie Majesté (istawâ) sur le Trône. En dehors de Lui, vous n’avez ni protecteur ni intercesseur. N’allez-vous donc pas y réfléchir ?"
   },
   {
     "id": "as-sajdah-5",
@@ -416,7 +420,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
     "textSimple": "يدبر ٱلأمر من ٱلسمآء إلى ٱلأرض ثم يعرج إليه فى يوم كان مقدارهٓ ألف سنة مما تعدون",
     "transliteration": "yudabbiru l-amra mina l-samāi ilā l-arḍi thumma yaʿruju ilayhi fī yawmin kāna miq'dāruhu alfa sanatin mimmā taʿuddūna",
-    "translation": "",
+    "translation": "He arranges [each] matter from the heaven to the earth; then it will ascend to Him in a Day, the extent of which is a thousand years of those which you count.",
     "words": [
       {
         "id": "as-sajdah-5-1",
@@ -538,7 +542,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il gère toutes les affaires, depuis le ciel jusqu’à la terre. Puis tout remonte vers Lui en un jour dont la durée équivaut à mille ans selon vos calculs."
   },
   {
     "id": "as-sajdah-6",
@@ -547,7 +552,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "ذلك عـلم ٱلغيب وٱلشهـدة ٱلعزيز ٱلرحيم",
     "transliteration": "dhālika ʿālimu l-ghaybi wal-shahādati l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "That is the Knower of the unseen and the witnessed, the Exalted in Might, the Merciful,",
     "words": [
       {
         "id": "as-sajdah-6-1",
@@ -592,7 +597,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui Connaît aussi bien les choses insondables que les choses observables. Il est le Tout-Puissant, le Tout Miséricordieux,"
   },
   {
     "id": "as-sajdah-7",
@@ -601,7 +607,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِىٓ أَحْسَنَ كُلَّ شَىْءٍ خَلَقَهُۥ ۖ وَبَدَأَ خَلْقَ ٱلْإِنسَـٰنِ مِن طِينٍ",
     "textSimple": "ٱلذىٓ أحسن كل شىء خلقه  وبدأ خلق ٱلإنسـن من طين",
     "transliteration": "alladhī aḥsana kulla shayin khalaqahu wabada-a khalqa l-insāni min ṭīnin",
-    "translation": "",
+    "translation": "Who perfected everything which He created and began the creation of man from clay.",
     "words": [
       {
         "id": "as-sajdah-7-1",
@@ -674,7 +680,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui a parfaitement modelé tout ce qu’Il a créé, et Qui a initié la création de l’homme à partir de l’argile."
   },
   {
     "id": "as-sajdah-8",
@@ -683,7 +690,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ جَعَلَ نَسْلَهُۥ مِن سُلَـٰلَةٍ مِّن مَّآءٍ مَّهِينٍ",
     "textSimple": "ثم جعل نسله من سلـلة من مآء مهين",
     "transliteration": "thumma jaʿala naslahu min sulālatin min māin mahīnin",
-    "translation": "",
+    "translation": "Then He made his posterity out of the extract of a liquid disdained.",
     "words": [
       {
         "id": "as-sajdah-8-1",
@@ -742,7 +749,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Il a extrait sa descendance à partir d’un vulgaire liquide,"
   },
   {
     "id": "as-sajdah-9",
@@ -751,7 +759,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ سَوَّىٰهُ وَنَفَخَ فِيهِ مِن رُّوحِهِۦ ۖ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
     "textSimple": "ثم سوىه ونفخ فيه من روحه  وجعل لكم ٱلسمع وٱلأبصـر وٱلأفـٔدة  قليلا ما تشكرون",
     "transliteration": "thumma sawwāhu wanafakha fīhi min rūḥihi wajaʿala lakumu l-samʿa wal-abṣāra wal-afidata qalīlan mā tashkurūna",
-    "translation": "",
+    "translation": "Then He proportioned him and breathed into him from His [created] soul and made for you hearing and vision and hearts [i.e., intellect]; little are you grateful.",
     "words": [
       {
         "id": "as-sajdah-9-1",
@@ -852,7 +860,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "l’a modelée en sa forme définitive et lui a insufflé de Son esprit. Il vous a donné l’ouïe, les yeux et la raison. Mais vous n’êtes guère reconnaissants !"
   },
   {
     "id": "as-sajdah-10",
@@ -861,7 +870,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ أَءِنَّا لَفِى خَلْقٍ جَدِيدٍۭ ۚ بَلْ هُم بِلِقَآءِ رَبِّهِمْ كَـٰفِرُونَ",
     "textSimple": "وقالوٓا أءذا ضللنا فى ٱلأرض أءنا لفى خلق جديد  بل هم بلقآء ربهم كـفرون",
     "transliteration": "waqālū a-idhā ḍalalnā fī l-arḍi a-innā lafī khalqin jadīdin bal hum biliqāi rabbihim kāfirūna",
-    "translation": "",
+    "translation": "And they say, \"When we are lost [i.e., disintegrated] within the earth, will we indeed be [recreated] in a new creation?\" Rather, they are, in the meeting with their Lord, disbelievers.",
     "words": [
       {
         "id": "as-sajdah-10-1",
@@ -962,7 +971,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Une fois ensevelis sous terre, renaîtrons-nous vraiment à une nouvelle création ? » Mais ils mécroient en la rencontre de leur Seigneur."
   },
   {
     "id": "as-sajdah-11",
@@ -971,7 +981,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ يَتَوَفَّىٰكُم مَّلَكُ ٱلْمَوْتِ ٱلَّذِى وُكِّلَ بِكُمْ ثُمَّ إِلَىٰ رَبِّكُمْ تُرْجَعُونَ",
     "textSimple": " قل يتوفىكم ملك ٱلموت ٱلذى وكل بكم ثم إلى ربكم ترجعون",
     "transliteration": "qul yatawaffākum malaku l-mawti alladhī wukkila bikum thumma ilā rabbikum tur'jaʿūna",
-    "translation": "",
+    "translation": "Say, \"The angel of death who has been entrusted with you will take you. Then to your Lord you will be returned.\"",
     "words": [
       {
         "id": "as-sajdah-11-1",
@@ -1051,7 +1061,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « L’Ange de la mort, qui a été chargé de vous, reprendra vos âmes, puis vers votre Seigneur vous serez ramenés. »"
   },
   {
     "id": "as-sajdah-12",
@@ -1060,7 +1071,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ تَرَىٰٓ إِذِ ٱلْمُجْرِمُونَ نَاكِسُوا۟ رُءُوسِهِمْ عِندَ رَبِّهِمْ رَبَّنَآ أَبْصَرْنَا وَسَمِعْنَا فَٱرْجِعْنَا نَعْمَلْ صَـٰلِحًا إِنَّا مُوقِنُونَ",
     "textSimple": "ولو ترىٓ إذ ٱلمجرمون ناكسوا رءوسهم عند ربهم ربنآ أبصرنا وسمعنا فٱرجعنا نعمل صـلحا إنا موقنون",
     "transliteration": "walaw tarā idhi l-muj'rimūna nākisū ruūsihim ʿinda rabbihim rabbanā abṣarnā wasamiʿ'nā fa-ir'jiʿ'nā naʿmal ṣāliḥan innā mūqinūna",
-    "translation": "",
+    "translation": "If you could but see when the criminals are hanging their heads before their Lord, [saying], \"Our Lord, we have seen and heard, so return us [to the world]; we will work righteousness. Indeed, we are [now] certain.\"",
     "words": [
       {
         "id": "as-sajdah-12-1",
@@ -1175,7 +1186,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu voyais alors comment les criminels auront la tête baissée devant leur Seigneur. « Seigneur, diront-ils, nous avons vu et entendu, fais-nous revenir (sur terre) et nous y ferons le bien. Nous sommes à présent convaincus. »"
   },
   {
     "id": "as-sajdah-13",
@@ -1184,7 +1196,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ شِئْنَا لَـَٔاتَيْنَا كُلَّ نَفْسٍ هُدَىٰهَا وَلَـٰكِنْ حَقَّ ٱلْقَوْلُ مِنِّى لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
     "textSimple": "ولو شئنا لـٔاتينا كل نفس هدىها ولـكن حق ٱلقول منى لأملأن جهنم من ٱلجنة وٱلناس أجمعين",
     "transliteration": "walaw shi'nā laātaynā kulla nafsin hudāhā walākin ḥaqqa l-qawlu minnī la-amla-anna jahannama mina l-jinati wal-nāsi ajmaʿīna",
-    "translation": "",
+    "translation": "And if We had willed, We could have given every soul its guidance, but the word from Me will come into effect [that] \"I will surely fill Hell with jinn and people all together.",
     "words": [
       {
         "id": "as-sajdah-13-1",
@@ -1299,7 +1311,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous avions voulu, Nous aurions montré à chaque âme sa juste direction. Mais le verdict relevant de Moi a été prononcé : « Je remplirai la Géhenne de djinns et d’hommes réunis ! »"
   },
   {
     "id": "as-sajdah-14",
@@ -1308,7 +1321,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "فَذُوقُوا۟ بِمَا نَسِيتُمْ لِقَآءَ يَوْمِكُمْ هَـٰذَآ إِنَّا نَسِينَـٰكُمْ ۖ وَذُوقُوا۟ عَذَابَ ٱلْخُلْدِ بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "فذوقوا بما نسيتم لقآء يومكم هـذآ إنا نسينـكم  وذوقوا عذاب ٱلخلد بما كنتم تعملون",
     "transliteration": "fadhūqū bimā nasītum liqāa yawmikum hādhā innā nasīnākum wadhūqū ʿadhāba l-khul'di bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "So taste [punishment] because you forgot the meeting of this, your Day; indeed, We have [accordingly] forgotten you. And taste the punishment of eternity for what you used to do.\"",
     "words": [
       {
         "id": "as-sajdah-14-1",
@@ -1409,7 +1422,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Goûtez donc (à ce châtiment) pour avoir oublié la rencontre de ce jour qui est le vôtre. Nous vous avons également oubliés. Goûtez le supplice éternel pour prix de ce que vous faisiez !"
   },
   {
     "id": "as-sajdah-15",
@@ -1418,7 +1432,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا يُؤْمِنُ بِـَٔايَـٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ ۩",
     "textSimple": "إنما يؤمن بـٔايـتنا ٱلذين إذا ذكروا بها خروا سجدا وسبحوا بحمد ربهم وهم لا يستكبرون ",
     "transliteration": "innamā yu'minu biāyātinā alladhīna idhā dhukkirū bihā kharrū sujjadan wasabbaḥū biḥamdi rabbihim wahum lā yastakbirūna",
-    "translation": "",
+    "translation": "Only those believe in Our verses who, when they are reminded by them, fall down in prostration and exalt [Allāh] with praise of their Lord, and they are not arrogant.",
     "words": [
       {
         "id": "as-sajdah-15-1",
@@ -1526,7 +1540,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont foi en Nos versets que ceux qui, lorsqu’ils leur sont rappelés, tombent à terre prosternés, rendent gloire à leur Seigneur et célèbrent Ses louanges, sans se montrer hautains."
   },
   {
     "id": "as-sajdah-16",
@@ -1535,7 +1550,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     "textSimple": "تتجافى جنوبهم عن ٱلمضاجع يدعون ربهم خوفا وطمعا ومما رزقنـهم ينفقون",
     "transliteration": "tatajāfā junūbuhum ʿani l-maḍājiʿi yadʿūna rabbahum khawfan waṭamaʿan wamimmā razaqnāhum yunfiqūna",
-    "translation": "",
+    "translation": "Their sides part [i.e., they arise] from [their] beds; they supplicate their Lord in fear and aspiration, and from what We have provided them, they spend.",
     "words": [
       {
         "id": "as-sajdah-16-1",
@@ -1615,7 +1630,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leurs flancs désertent leurs couches pour invoquer alors leur Seigneur pleins de crainte et d’espoir, et ils dépensent de ce que Nous leur dispensons."
   },
   {
     "id": "as-sajdah-17",
@@ -1624,7 +1640,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تَعْلَمُ نَفْسٌ مَّآ أُخْفِىَ لَهُم مِّن قُرَّةِ أَعْيُنٍ جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "فلا تعلم نفس مآ أخفى لهم من قرة أعين جزآء بما كانوا يعملون",
     "transliteration": "falā taʿlamu nafsun mā ukh'fiya lahum min qurrati aʿyunin jazāan bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And no soul knows what has been hidden for them of comfort for eyes [i.e., satisfaction] as reward for what they used to do.",
     "words": [
       {
         "id": "as-sajdah-17-1",
@@ -1718,7 +1734,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Personne (n’est en mesure de) savoir quelles joies leur sont destinées en récompense de ce qu’ils faisaient."
   },
   {
     "id": "as-sajdah-18",
@@ -1727,7 +1744,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن كَانَ مُؤْمِنًا كَمَن كَانَ فَاسِقًا ۚ لَّا يَسْتَوُۥنَ",
     "textSimple": "أفمن كان مؤمنا كمن كان فاسقا  لا يستون",
     "transliteration": "afaman kāna mu'minan kaman kāna fāsiqan lā yastawūna",
-    "translation": "",
+    "translation": "Then is one who was a believer like one who was defiantly disobedient? They are not equal.",
     "words": [
       {
         "id": "as-sajdah-18-1",
@@ -1786,7 +1803,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le croyant peut-il être assimilé au pervers ? Non, ils ne sont point égaux."
   },
   {
     "id": "as-sajdah-19",
@@ -1795,7 +1813,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ جَنَّـٰتُ ٱلْمَأْوَىٰ نُزُلًۢا بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "أما ٱلذين ءامنوا وعملوا ٱلصـلحـت فلهم جنـت ٱلمأوى نزلا بما كانوا يعملون",
     "transliteration": "ammā alladhīna āmanū waʿamilū l-ṣāliḥāti falahum jannātu l-mawā nuzulan bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "As for those who believed and did righteous deeds, for them will be the Gardens of Refuge as accommodation for what they used to do.",
     "words": [
       {
         "id": "as-sajdah-19-1",
@@ -1882,7 +1900,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres auront, pour prix de ce qu’ils faisaient, les Jardins du Refuge pour résidence."
   },
   {
     "id": "as-sajdah-20",
@@ -1891,7 +1910,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا ٱلَّذِينَ فَسَقُوا۟ فَمَأْوَىٰهُمُ ٱلنَّارُ ۖ كُلَّمَآ أَرَادُوٓا۟ أَن يَخْرُجُوا۟ مِنْهَآ أُعِيدُوا۟ فِيهَا وَقِيلَ لَهُمْ ذُوقُوا۟ عَذَابَ ٱلنَّارِ ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
     "textSimple": "وأما ٱلذين فسقوا فمأوىهم ٱلنار  كلمآ أرادوٓا أن يخرجوا منهآ أعيدوا فيها وقيل لهم ذوقوا عذاب ٱلنار ٱلذى كنتم به تكذبون",
     "transliteration": "wa-ammā alladhīna fasaqū famawāhumu l-nāru kullamā arādū an yakhrujū min'hā uʿīdū fīhā waqīla lahum dhūqū ʿadhāba l-nāri alladhī kuntum bihi tukadhibūna",
-    "translation": "",
+    "translation": "But as for those who defiantly disobeyed, their refuge is the Fire. Every time they wish to emerge from it, they will be returned to it while it is said to them, \"Taste the punishment of the Fire which you used to deny.\"",
     "words": [
       {
         "id": "as-sajdah-20-1",
@@ -2041,7 +2060,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui se sont viciés, leur refuge sera le Feu. Chaque fois qu’ils voudront en sortir, ils y seront reconduits, et il leur sera dit : « Goûtez le supplice du Feu que vous preniez pour un mensonge ! »"
   },
   {
     "id": "as-sajdah-21",
@@ -2050,7 +2070,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَنُذِيقَنَّهُم مِّنَ ٱلْعَذَابِ ٱلْأَدْنَىٰ دُونَ ٱلْعَذَابِ ٱلْأَكْبَرِ لَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "ولنذيقنهم من ٱلعذاب ٱلأدنى دون ٱلعذاب ٱلأكبر لعلهم يرجعون",
     "transliteration": "walanudhīqannahum mina l-ʿadhābi l-adnā dūna l-ʿadhābi l-akbari laʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And We will surely let them taste the nearer punishment short of the greater punishment that perhaps they will return [i.e., repent].",
     "words": [
       {
         "id": "as-sajdah-21-1",
@@ -2116,7 +2136,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur ferons d’abord goûter le supplice mineur (de ce bas monde), avant celui plus grand (de l’autre monde). Peut-être reviendront-ils (au droit chemin)."
   },
   {
     "id": "as-sajdah-22",
@@ -2125,7 +2146,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَـٰتِ رَبِّهِۦ ثُمَّ أَعْرَضَ عَنْهَآ ۚ إِنَّا مِنَ ٱلْمُجْرِمِينَ مُنتَقِمُونَ",
     "textSimple": "ومن أظلم ممن ذكر بـٔايـت ربه ثم أعرض عنهآ  إنا من ٱلمجرمين منتقمون",
     "transliteration": "waman aẓlamu mimman dhukkira biāyāti rabbihi thumma aʿraḍa ʿanhā innā mina l-muj'rimīna muntaqimūna",
-    "translation": "",
+    "translation": "And who is more unjust than one who is reminded of the verses of his Lord; then he turns away from them? Indeed We, from the criminals, will take retribution.",
     "words": [
       {
         "id": "as-sajdah-22-1",
@@ -2219,7 +2240,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il plus injuste que celui qui, bien que les Signes de son Seigneur lui soient rappelés, s’obstine à les rejeter ? Nous allons certes tirer vengeance des criminels."
   },
   {
     "id": "as-sajdah-23",
@@ -2228,7 +2250,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ فَلَا تَكُن فِى مِرْيَةٍ مِّن لِّقَآئِهِۦ ۖ وَجَعَلْنَـٰهُ هُدًى لِّبَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "ولقد ءاتينا موسى ٱلكتـب فلا تكن فى مرية من لقآئه  وجعلنـه هدى لبنىٓ إسرٓءيل",
     "transliteration": "walaqad ātaynā mūsā l-kitāba falā takun fī mir'yatin min liqāihi wajaʿalnāhu hudan libanī is'rāīla",
-    "translation": "",
+    "translation": "And We certainly gave Moses the Scripture, so do not be in doubt over his meeting. And We made it [i.e., the Torah] guidance for the Children of Israel.",
     "words": [
       {
         "id": "as-sajdah-23-1",
@@ -2329,7 +2351,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donné le Livre à Moïse - ne sois donc pas dans le doute à propos de ta rencontre avec lui - et Nous en avons fait un guide pour les Enfants d’Israël."
   },
   {
     "id": "as-sajdah-24",
@@ -2338,7 +2361,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَـٰتِنَا يُوقِنُونَ",
     "textSimple": "وجعلنا منهم أئمة يهدون بأمرنا لما صبروا  وكانوا بـٔايـتنا يوقنون",
     "transliteration": "wajaʿalnā min'hum a-immatan yahdūna bi-amrinā lammā ṣabarū wakānū biāyātinā yūqinūna",
-    "translation": "",
+    "translation": "And We made from among them leaders guiding by Our command when they were patient and [when] they were certain of Our signs.",
     "words": [
       {
         "id": "as-sajdah-24-1",
@@ -2411,7 +2434,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous avons établi parmi eux des chefs qui dirigeaient (les gens) par Nos ordres, lorsqu’ils se montrèrent patients et crurent fermement à Nos versets."
   },
   {
     "id": "as-sajdah-25",
@@ -2420,7 +2444,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ هُوَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
     "textSimple": "إن ربك هو يفصل بينهم يوم ٱلقيـمة فيما كانوا فيه يختلفون",
     "transliteration": "inna rabbaka huwa yafṣilu baynahum yawma l-qiyāmati fīmā kānū fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "Indeed, your Lord will judge between them on the Day of Resurrection concerning that over which they used to differ.",
     "words": [
       {
         "id": "as-sajdah-25-1",
@@ -2500,7 +2524,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ton Seigneur Qui, Lui, le Jour de la Résurrection, tranchera entre eux sur tout ce qui était cause de leurs divergences."
   },
   {
     "id": "as-sajdah-26",
@@ -2509,7 +2534,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَـٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ ۖ أَفَلَا يَسْمَعُونَ",
     "textSimple": "أولم يهد لهم كم أهلكنا من قبلهم من ٱلقرون يمشون فى مسـكنهم  إن فى ذلك لـٔايـت  أفلا يسمعون",
     "transliteration": "awalam yahdi lahum kam ahlaknā min qablihim mina l-qurūni yamshūna fī masākinihim inna fī dhālika laāyātin afalā yasmaʿūna",
-    "translation": "",
+    "translation": "Has it not become clear to them how many generations We destroyed before them, [as] they walk among their dwellings? Indeed in that are signs; then do they not hear?",
     "words": [
       {
         "id": "as-sajdah-26-1",
@@ -2638,7 +2663,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sont-ils donc point éclairés (en voyant) combien de générations Nous avons fait périr avant eux, et dans les habitations desquelles ils vont et viennent (aujourd’hui) ? Il y a certes là des Signes. N’entendent-ils donc pas ?"
   },
   {
     "id": "as-sajdah-27",
@@ -2647,7 +2673,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَوْا۟ أَنَّا نَسُوقُ ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ زَرْعًا تَأْكُلُ مِنْهُ أَنْعَـٰمُهُمْ وَأَنفُسُهُمْ ۖ أَفَلَا يُبْصِرُونَ",
     "textSimple": "أولم يروا أنا نسوق ٱلمآء إلى ٱلأرض ٱلجرز فنخرج به زرعا تأكل منه أنعـمهم وأنفسهم  أفلا يبصرون",
     "transliteration": "awalam yaraw annā nasūqu l-māa ilā l-arḍi l-juruzi fanukh'riju bihi zarʿan takulu min'hu anʿāmuhum wa-anfusuhum afalā yub'ṣirūna",
-    "translation": "",
+    "translation": "Have they not seen that We drive water [in clouds] to barren land and bring forth thereby crops from which their livestock eat and [they] themselves? Then do they not see?",
     "words": [
       {
         "id": "as-sajdah-27-1",
@@ -2769,7 +2795,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils pas vu comment Nous conduisons l’eau vers les terres arides où Nous faisons pousser les cultures dont ils se nourrissent, eux et leurs troupeaux ? Ne voient-ils donc pas ?"
   },
   {
     "id": "as-sajdah-28",
@@ -2778,7 +2805,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْفَتْحُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلفتح إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-fatḥu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When will be this conquest, if you should be truthful?\"",
     "words": [
       {
         "id": "as-sajdah-28-1",
@@ -2830,7 +2857,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « À quand donc cette victoire, si ce que vous dites est vrai ? »"
   },
   {
     "id": "as-sajdah-29",
@@ -2839,7 +2867,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَوْمَ ٱلْفَتْحِ لَا يَنفَعُ ٱلَّذِينَ كَفَرُوٓا۟ إِيمَـٰنُهُمْ وَلَا هُمْ يُنظَرُونَ",
     "textSimple": "قل يوم ٱلفتح لا ينفع ٱلذين كفروٓا إيمـنهم ولا هم ينظرون",
     "transliteration": "qul yawma l-fatḥi lā yanfaʿu alladhīna kafarū īmānuhum walā hum yunẓarūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"On the Day of Conquest the belief of those who had disbelieved will not benefit them, nor will they be reprieved.\"",
     "words": [
       {
         "id": "as-sajdah-29-1",
@@ -2919,7 +2947,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Au Jour de la Victoire, il ne servira plus à rien aux mécréants de croire, et ils n’auront droit à plus aucun sursis."
   },
   {
     "id": "as-sajdah-30",
@@ -2928,7 +2957,7 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَعْرِضْ عَنْهُمْ وَٱنتَظِرْ إِنَّهُم مُّنتَظِرُونَ",
     "textSimple": "فأعرض عنهم وٱنتظر إنهم منتظرون",
     "transliteration": "fa-aʿriḍ ʿanhum wa-intaẓir innahum muntaẓirūna",
-    "translation": "",
+    "translation": "So turn away from them and wait. Indeed, they are waiting.",
     "words": [
       {
         "id": "as-sajdah-30-1",
@@ -2966,7 +2995,8 @@ export const AS_SAJDAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détourne-toi d’eux et attends. Car eux aussi sont là à attendre."
   }
 ];
 

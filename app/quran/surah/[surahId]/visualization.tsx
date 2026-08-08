@@ -8,6 +8,7 @@ import { getSurahById } from '../../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../../src/hooks/useQuranData';
 import { useQuranStore } from '../../../../src/stores/quranStore';
 import { useAyahTranslations } from '../../../../src/hooks/useAyahTranslations';
+import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { ReviewRating } from '../../../../src/types/quran';
 import { buildAyahScene, AnchorWord } from '../../../../src/utils/sceneBuilder';
@@ -52,6 +53,7 @@ function AnchorChip({ anchor, index, hidden, onReveal }: { anchor: AnchorWord; i
 
 export default function VisualizationScreen() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
   const surah = getSurahById(surahId);
   const { ayahs, isLoading } = useQuranSurah(surahId);
@@ -69,7 +71,7 @@ export default function VisualizationScreen() {
 
   const ayahTranslation = currentAyah
     ? langTranslations.get(currentAyah.ayahNumber)
-      || currentAyah.translation
+      || lc(currentAyah.translation, currentAyah.translationFr)
       || currentAyah.words.map(w => w.translation).join(' ')
     : '';
 

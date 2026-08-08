@@ -11,7 +11,7 @@ export const QURAYSH_AYAHS: Ayah[] = [
     "textUthmani": " لِإِيلَـٰفِ قُرَيْشٍ",
     "textSimple": " لإيلـف قريش",
     "transliteration": "liīlāfi qurayshin",
-    "translation": "",
+    "translation": "For the accustomed security of the Quraysh -",
     "words": [
       {
         "id": "quraysh-1-1",
@@ -28,7 +28,8 @@ export const QURAYSH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour les bienfaits reçus par Qoraïch,"
   },
   {
     "id": "quraysh-2",
@@ -37,7 +38,7 @@ export const QURAYSH_AYAHS: Ayah[] = [
     "textUthmani": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
     "textSimple": "إلـفهم رحلة ٱلشتآء وٱلصيف",
     "transliteration": "īlāfihim riḥ'lata l-shitāi wal-ṣayfi",
-    "translation": "",
+    "translation": "Their accustomed security [in] the caravan of winter and summer -",
     "words": [
       {
         "id": "quraysh-2-1",
@@ -68,7 +69,8 @@ export const QURAYSH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour les bienfaits de leurs voyages d’hiver et d’été,"
   },
   {
     "id": "quraysh-3",
@@ -77,7 +79,7 @@ export const QURAYSH_AYAHS: Ayah[] = [
     "textUthmani": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
     "textSimple": "فليعبدوا رب هـذا ٱلبيت",
     "transliteration": "falyaʿbudū rabba hādhā l-bayti",
-    "translation": "",
+    "translation": "Let them worship the Lord of this House,",
     "words": [
       {
         "id": "quraysh-3-1",
@@ -108,7 +110,8 @@ export const QURAYSH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qu’ils adorent donc le Seigneur de cette Maison,"
   },
   {
     "id": "quraysh-4",
@@ -117,7 +120,7 @@ export const QURAYSH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
     "textSimple": "ٱلذىٓ أطعمهم من جوع وءامنهم من خوف",
     "transliteration": "alladhī aṭʿamahum min jūʿin waāmanahum min khawfin",
-    "translation": "",
+    "translation": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear.",
     "words": [
       {
         "id": "quraysh-4-1",
@@ -169,7 +172,8 @@ export const QURAYSH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui les a nourris au mépris de la faim, et les a rassurés en dépit de la peur !"
   }
 ];
 

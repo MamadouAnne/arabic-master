@@ -11,7 +11,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": " لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَـٰمَةِ",
     "textSimple": " لآ أقسم بيوم ٱلقيـمة",
     "transliteration": "lā uq'simu biyawmi l-qiyāmati",
-    "translation": "",
+    "translation": "I swear by the Day of Resurrection",
     "words": [
       {
         "id": "al-qiyamah-1-1",
@@ -42,7 +42,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’en jure par le Jour de la Résurrection !"
   },
   {
     "id": "al-qiyamah-2",
@@ -51,7 +52,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَآ أُقْسِمُ بِٱلنَّفْسِ ٱللَّوَّامَةِ",
     "textSimple": "ولآ أقسم بٱلنفس ٱللوامة",
     "transliteration": "walā uq'simu bil-nafsi l-lawāmati",
-    "translation": "",
+    "translation": "And I swear by the reproaching soul [to the certainty of resurrection].",
     "words": [
       {
         "id": "al-qiyamah-2-1",
@@ -82,7 +83,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’en jure par l’âme prompte à se blâmer !"
   },
   {
     "id": "al-qiyamah-3",
@@ -91,7 +93,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "أَيَحْسَبُ ٱلْإِنسَـٰنُ أَلَّن نَّجْمَعَ عِظَامَهُۥ",
     "textSimple": "أيحسب ٱلإنسـن ألن نجمع عظامه",
     "transliteration": "ayaḥsabu l-insānu allan najmaʿa ʿiẓāmahu",
-    "translation": "",
+    "translation": "Does man think that We will not assemble his bones?",
     "words": [
       {
         "id": "al-qiyamah-3-1",
@@ -129,7 +131,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme s’imagine-t-il que Nous ne rassemblerons pas ses os ?"
   },
   {
     "id": "al-qiyamah-4",
@@ -138,7 +141,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰ قَـٰدِرِينَ عَلَىٰٓ أَن نُّسَوِّىَ بَنَانَهُۥ",
     "textSimple": "بلى قـدرين علىٓ أن نسوى بنانه",
     "transliteration": "balā qādirīna ʿalā an nusawwiya banānahu",
-    "translation": "",
+    "translation": "Yes. [We are] Able [even] to proportion his fingertips.",
     "words": [
       {
         "id": "al-qiyamah-4-1",
@@ -183,7 +186,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que si ! Nous sommes Capable même de reconstituer tel quel le bout de ses doigts."
   },
   {
     "id": "al-qiyamah-5",
@@ -192,7 +196,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ يُرِيدُ ٱلْإِنسَـٰنُ لِيَفْجُرَ أَمَامَهُۥ",
     "textSimple": "بل يريد ٱلإنسـن ليفجر أمامه",
     "transliteration": "bal yurīdu l-insānu liyafjura amāmahu",
-    "translation": "",
+    "translation": "But man desires to continue in sin.",
     "words": [
       {
         "id": "al-qiyamah-5-1",
@@ -230,7 +234,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme préfèrerait poursuivre sa vie en rebelle et pervers."
   },
   {
     "id": "al-qiyamah-6",
@@ -239,7 +244,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَـٰمَةِ",
     "textSimple": "يسـٔل أيان يوم ٱلقيـمة",
     "transliteration": "yasalu ayyāna yawmu l-qiyāmati",
-    "translation": "",
+    "translation": "He asks, \"When is the Day of Resurrection?\"",
     "words": [
       {
         "id": "al-qiyamah-6-1",
@@ -270,7 +275,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il demande : « À quand donc le Jour de la Résurrection ? »"
   },
   {
     "id": "al-qiyamah-7",
@@ -279,7 +285,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا بَرِقَ ٱلْبَصَرُ",
     "textSimple": "فإذا برق ٱلبصر",
     "transliteration": "fa-idhā bariqa l-baṣaru",
-    "translation": "",
+    "translation": "So when vision is dazzled.",
     "words": [
       {
         "id": "al-qiyamah-7-1",
@@ -303,7 +309,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis lorsque l’œil sera hagard,"
   },
   {
     "id": "al-qiyamah-8",
@@ -312,7 +319,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَخَسَفَ ٱلْقَمَرُ",
     "textSimple": "وخسف ٱلقمر",
     "transliteration": "wakhasafa l-qamaru",
-    "translation": "",
+    "translation": "And the moon darkens.",
     "words": [
       {
         "id": "al-qiyamah-8-1",
@@ -329,7 +336,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que la lune se sera éclipsée,"
   },
   {
     "id": "al-qiyamah-9",
@@ -338,7 +346,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَجُمِعَ ٱلشَّمْسُ وَٱلْقَمَرُ",
     "textSimple": "وجمع ٱلشمس وٱلقمر",
     "transliteration": "wajumiʿa l-shamsu wal-qamaru",
-    "translation": "",
+    "translation": "And the sun and the moon are joined,",
     "words": [
       {
         "id": "al-qiyamah-9-1",
@@ -362,7 +370,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que le soleil et la lune auront été réunis,"
   },
   {
     "id": "al-qiyamah-10",
@@ -371,7 +380,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "يَقُولُ ٱلْإِنسَـٰنُ يَوْمَئِذٍ أَيْنَ ٱلْمَفَرُّ",
     "textSimple": "يقول ٱلإنسـن يومئذ أين ٱلمفر",
     "transliteration": "yaqūlu l-insānu yawma-idhin ayna l-mafaru",
-    "translation": "",
+    "translation": "Man will say on that Day, \"Where is the [place of] escape?\"",
     "words": [
       {
         "id": "al-qiyamah-10-1",
@@ -409,7 +418,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "l’homme dira, ce jour-là : « Où fuir ? »"
   },
   {
     "id": "al-qiyamah-11",
@@ -418,7 +428,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا لَا وَزَرَ",
     "textSimple": "كلا لا وزر",
     "transliteration": "kallā lā wazara",
-    "translation": "",
+    "translation": "No! There is no refuge.",
     "words": [
       {
         "id": "al-qiyamah-11-1",
@@ -442,7 +452,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non ! Il n’y aura point d’issue."
   },
   {
     "id": "al-qiyamah-12",
@@ -451,7 +462,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمُسْتَقَرُّ",
     "textSimple": "إلى ربك يومئذ ٱلمستقر",
     "transliteration": "ilā rabbika yawma-idhin l-mus'taqaru",
-    "translation": "",
+    "translation": "To your Lord, that Day, is the [place of] permanence.",
     "words": [
       {
         "id": "al-qiyamah-12-1",
@@ -482,7 +493,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est vers ton Seigneur que, ce jour-là, sera l’aboutissement."
   },
   {
     "id": "al-qiyamah-13",
@@ -491,7 +503,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "يُنَبَّؤُا۟ ٱلْإِنسَـٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ",
     "textSimple": "ينبؤا ٱلإنسـن يومئذ بما قدم وأخر",
     "transliteration": "yunabba-u l-insānu yawma-idhin bimā qaddama wa-akhara",
-    "translation": "",
+    "translation": "Man will be informed that Day of what he sent ahead and kept back.",
     "words": [
       {
         "id": "al-qiyamah-13-1",
@@ -536,7 +548,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce jour-là, l’homme sera informé de ce qu’il aura avancé (comme acte) et de ce qu’il aura renvoyé à plus tard."
   },
   {
     "id": "al-qiyamah-14",
@@ -545,7 +558,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱلْإِنسَـٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌ",
     "textSimple": "بل ٱلإنسـن على نفسه بصيرة",
     "transliteration": "bali l-insānu ʿalā nafsihi baṣīratun",
-    "translation": "",
+    "translation": "Rather, man, against himself, will be a witness,",
     "words": [
       {
         "id": "al-qiyamah-14-1",
@@ -583,7 +596,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme se dressera plutôt contre lui-même en témoin oculaire,"
   },
   {
     "id": "al-qiyamah-15",
@@ -592,7 +606,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
     "textSimple": "ولو ألقى معاذيره",
     "transliteration": "walaw alqā maʿādhīrahu",
-    "translation": "",
+    "translation": "Even if he presents his excuses.",
     "words": [
       {
         "id": "al-qiyamah-15-1",
@@ -616,7 +630,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand bien même il invoquerait ses excuses."
   },
   {
     "id": "al-qiyamah-16",
@@ -625,7 +640,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
     "textSimple": "لا تحرك به لسانك لتعجل بهٓ",
     "transliteration": "lā tuḥarrik bihi lisānaka litaʿjala bihi",
-    "translation": "",
+    "translation": "Move not your tongue with it, [O Muḥammad], to hasten with it [i.e., recitation of the Qur’ān].",
     "words": [
       {
         "id": "al-qiyamah-16-1",
@@ -670,7 +685,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne le tourne pas (plusieurs fois) dans ta langue, pressé que tu es de le retenir."
   },
   {
     "id": "al-qiyamah-17",
@@ -679,7 +695,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
     "textSimple": "إن علينا جمعه وقرءانه",
     "transliteration": "inna ʿalaynā jamʿahu waqur'ānahu",
-    "translation": "",
+    "translation": "Indeed, upon Us is its collection [in your heart] and [to make possible] its recitation.",
     "words": [
       {
         "id": "al-qiyamah-17-1",
@@ -710,7 +726,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à Nous qu’il appartient de le rassembler (dans ton cœur et ta mémoire) et de te le faire lire."
   },
   {
     "id": "al-qiyamah-18",
@@ -719,7 +736,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا قَرَأْنَـٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ",
     "textSimple": "فإذا قرأنـه فٱتبع قرءانه",
     "transliteration": "fa-idhā qaranāhu fa-ittabiʿ qur'ānahu",
-    "translation": "",
+    "translation": "So when We have recited it [through Gabriel], then follow its recitation.",
     "words": [
       {
         "id": "al-qiyamah-18-1",
@@ -750,7 +767,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Nous le lisons, suis-en la lecture."
   },
   {
     "id": "al-qiyamah-19",
@@ -759,7 +777,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُۥ",
     "textSimple": "ثم إن علينا بيانه",
     "transliteration": "thumma inna ʿalaynā bayānahu",
-    "translation": "",
+    "translation": "Then upon Us is its clarification [to you].",
     "words": [
       {
         "id": "al-qiyamah-19-1",
@@ -790,7 +808,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il Nous appartient de l’expliquer."
   },
   {
     "id": "al-qiyamah-20",
@@ -799,7 +818,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا بَلْ تُحِبُّونَ ٱلْعَاجِلَةَ",
     "textSimple": "كلا بل تحبون ٱلعاجلة",
     "transliteration": "kallā bal tuḥibbūna l-ʿājilata",
-    "translation": "",
+    "translation": "No! But you [i.e., mankind] love the immediate",
     "words": [
       {
         "id": "al-qiyamah-20-1",
@@ -830,7 +849,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, vous aimez plutôt la vie fugace."
   },
   {
     "id": "al-qiyamah-21",
@@ -839,7 +859,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَتَذَرُونَ ٱلْـَٔاخِرَةَ",
     "textSimple": "وتذرون ٱلـٔاخرة",
     "transliteration": "watadharūna l-ākhirata",
-    "translation": "",
+    "translation": "And leave [i.e., neglect] the Hereafter.",
     "words": [
       {
         "id": "al-qiyamah-21-1",
@@ -856,7 +876,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et vous négligez la vie de l’autre monde."
   },
   {
     "id": "al-qiyamah-22",
@@ -865,7 +886,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ",
     "textSimple": "وجوه يومئذ ناضرة",
     "transliteration": "wujūhun yawma-idhin nāḍiratun",
-    "translation": "",
+    "translation": "[Some] faces, that Day, will be radiant,",
     "words": [
       {
         "id": "al-qiyamah-22-1",
@@ -889,7 +910,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, des visages seront épanouis,"
   },
   {
     "id": "al-qiyamah-23",
@@ -898,7 +920,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ رَبِّهَا نَاظِرَةٌ",
     "textSimple": "إلى ربها ناظرة",
     "transliteration": "ilā rabbihā nāẓiratun",
-    "translation": "",
+    "translation": "Looking at their Lord.",
     "words": [
       {
         "id": "al-qiyamah-23-1",
@@ -922,7 +944,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui contempleront leur Seigneur."
   },
   {
     "id": "al-qiyamah-24",
@@ -931,7 +954,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَوُجُوهٌ يَوْمَئِذٍۭ بَاسِرَةٌ",
     "textSimple": "ووجوه يومئذ باسرة",
     "transliteration": "wawujūhun yawma-idhin bāsiratun",
-    "translation": "",
+    "translation": "And [some] faces, that Day, will be contorted,",
     "words": [
       {
         "id": "al-qiyamah-24-1",
@@ -955,7 +978,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce jour-là, (d’autres) visages seront livides,"
   },
   {
     "id": "al-qiyamah-25",
@@ -964,7 +988,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌ",
     "textSimple": "تظن أن يفعل بها فاقرة",
     "transliteration": "taẓunnu an yuf'ʿala bihā fāqiratun",
-    "translation": "",
+    "translation": "Expecting that there will be done to them [something] backbreaking.",
     "words": [
       {
         "id": "al-qiyamah-25-1",
@@ -1002,7 +1026,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’attendant à courir un terrible péril."
   },
   {
     "id": "al-qiyamah-26",
@@ -1011,7 +1036,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
     "textSimple": "كلآ إذا بلغت ٱلتراقى",
     "transliteration": "kallā idhā balaghati l-tarāqiya",
-    "translation": "",
+    "translation": "No! When it [i.e., the soul] has reached the collar bones",
     "words": [
       {
         "id": "al-qiyamah-26-1",
@@ -1042,7 +1067,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non ! Quand (l’âme à l’agonie) aura atteint les clavicules,"
   },
   {
     "id": "al-qiyamah-27",
@@ -1051,7 +1077,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلَ مَنْ ۜ رَاقٍ",
     "textSimple": "وقيل من  راق",
     "transliteration": "waqīla man rāqin",
-    "translation": "",
+    "translation": "And it is said, \"Who will cure [him]?\"",
     "words": [
       {
         "id": "al-qiyamah-27-1",
@@ -1075,7 +1101,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’il sera demandé : « Quel exorciste (peut la sauver) ? »"
   },
   {
     "id": "al-qiyamah-28",
@@ -1084,7 +1111,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَظَنَّ أَنَّهُ ٱلْفِرَاقُ",
     "textSimple": "وظن أنه ٱلفراق",
     "transliteration": "waẓanna annahu l-firāqu",
-    "translation": "",
+    "translation": "And he [i.e., the dying one] is certain that it is the [time of] separation",
     "words": [
       {
         "id": "al-qiyamah-28-1",
@@ -1108,7 +1135,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que (l’agonisant) aura réalisé que le moment de la séparation est arrivé,"
   },
   {
     "id": "al-qiyamah-29",
@@ -1117,7 +1145,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
     "textSimple": "وٱلتفت ٱلساق بٱلساق",
     "transliteration": "wal-tafati l-sāqu bil-sāqi",
-    "translation": "",
+    "translation": "And the leg is wound about the leg,",
     "words": [
       {
         "id": "al-qiyamah-29-1",
@@ -1141,7 +1169,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que ses deux jambes se seront croisées,"
   },
   {
     "id": "al-qiyamah-30",
@@ -1150,7 +1179,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ",
     "textSimple": "إلى ربك يومئذ ٱلمساق",
     "transliteration": "ilā rabbika yawma-idhin l-masāqu",
-    "translation": "",
+    "translation": "To your Lord, that Day, will be the procession.",
     "words": [
       {
         "id": "al-qiyamah-30-1",
@@ -1181,7 +1210,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est vers ton Seigneur, alors, qu’il sera acheminé."
   },
   {
     "id": "al-qiyamah-31",
@@ -1190,7 +1220,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
     "textSimple": "فلا صدق ولا صلى",
     "transliteration": "falā ṣaddaqa walā ṣallā",
-    "translation": "",
+    "translation": "And he [i.e., the disbeliever] had not believed, nor had he prayed.",
     "words": [
       {
         "id": "al-qiyamah-31-1",
@@ -1221,7 +1251,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’a ni cru ni prié,"
   },
   {
     "id": "al-qiyamah-32",
@@ -1230,7 +1261,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
     "textSimple": "ولـكن كذب وتولى",
     "transliteration": "walākin kadhaba watawallā",
-    "translation": "",
+    "translation": "But [instead], he denied and turned away.",
     "words": [
       {
         "id": "al-qiyamah-32-1",
@@ -1254,7 +1285,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais il a nié (le Message) et s’est détourné de la foi."
   },
   {
     "id": "al-qiyamah-33",
@@ -1263,7 +1295,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
     "textSimple": "ثم ذهب إلىٓ أهله يتمطىٓ",
     "transliteration": "thumma dhahaba ilā ahlihi yatamaṭṭā",
-    "translation": "",
+    "translation": "And then he went to his people, swaggering [in pride].",
     "words": [
       {
         "id": "al-qiyamah-33-1",
@@ -1301,7 +1333,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il s’en est allé, fier et heureux, vers sa famille."
   },
   {
     "id": "al-qiyamah-34",
@@ -1310,7 +1343,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "أَوْلَىٰ لَكَ فَأَوْلَىٰ",
     "textSimple": "أولى لك فأولى",
     "transliteration": "awlā laka fa-awlā",
-    "translation": "",
+    "translation": "Woe to you, and woe!",
     "words": [
       {
         "id": "al-qiyamah-34-1",
@@ -1334,7 +1367,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "«Malheur à toi, sur malheur !"
   },
   {
     "id": "al-qiyamah-35",
@@ -1343,7 +1377,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَوْلَىٰ لَكَ فَأَوْلَىٰٓ",
     "textSimple": "ثم أولى لك فأولىٓ",
     "transliteration": "thumma awlā laka fa-awlā",
-    "translation": "",
+    "translation": "Then woe to you, and woe!",
     "words": [
       {
         "id": "al-qiyamah-35-1",
@@ -1374,7 +1408,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis malheur à toi, sur malheur ! »"
   },
   {
     "id": "al-qiyamah-36",
@@ -1383,7 +1418,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "أَيَحْسَبُ ٱلْإِنسَـٰنُ أَن يُتْرَكَ سُدًى",
     "textSimple": "أيحسب ٱلإنسـن أن يترك سدى",
     "transliteration": "ayaḥsabu l-insānu an yut'raka sudan",
-    "translation": "",
+    "translation": "Does man think that he will be left neglected?",
     "words": [
       {
         "id": "al-qiyamah-36-1",
@@ -1421,7 +1456,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme s’imagine-il qu’il n’aura pas de compte à rendre ?"
   },
   {
     "id": "al-qiyamah-37",
@@ -1430,7 +1466,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَكُ نُطْفَةً مِّن مَّنِىٍّ يُمْنَىٰ",
     "textSimple": "ألم يك نطفة من منى يمنى",
     "transliteration": "alam yaku nuṭ'fatan min maniyyin yum'nā",
-    "translation": "",
+    "translation": "Had he not been a sperm from semen emitted?",
     "words": [
       {
         "id": "al-qiyamah-37-1",
@@ -1475,7 +1511,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’a-t-il pas été une simple goutte de sperme éjaculé,"
   },
   {
     "id": "al-qiyamah-38",
@@ -1484,7 +1521,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ",
     "textSimple": "ثم كان علقة فخلق فسوى",
     "transliteration": "thumma kāna ʿalaqatan fakhalaqa fasawwā",
-    "translation": "",
+    "translation": "Then he was a clinging clot, and [Allāh] created [his form] and proportioned [him]",
     "words": [
       {
         "id": "al-qiyamah-38-1",
@@ -1522,7 +1559,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis une petite masse de sang coagulé qu’Allah a, par la suite, créée et façonnée ?"
   },
   {
     "id": "al-qiyamah-39",
@@ -1531,7 +1569,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلَ مِنْهُ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
     "textSimple": "فجعل منه ٱلزوجين ٱلذكر وٱلأنثىٓ",
     "transliteration": "fajaʿala min'hu l-zawjayni l-dhakara wal-unthā",
-    "translation": "",
+    "translation": "And made of him two mates, the male and the female.",
     "words": [
       {
         "id": "al-qiyamah-39-1",
@@ -1569,7 +1607,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en a fait alors le couple : le mâle et la femelle."
   },
   {
     "id": "al-qiyamah-40",
@@ -1578,7 +1617,7 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
     "textUthmani": "أَلَيْسَ ذَٰلِكَ بِقَـٰدِرٍ عَلَىٰٓ أَن يُحْـِۧىَ ٱلْمَوْتَىٰ",
     "textSimple": "أليس ذلك بقـدر علىٓ أن يحـى ٱلموتى",
     "transliteration": "alaysa dhālika biqādirin ʿalā an yuḥ'yiya l-mawtā",
-    "translation": "",
+    "translation": "Is not that [Creator] Able to give life to the dead?",
     "words": [
       {
         "id": "al-qiyamah-40-1",
@@ -1630,7 +1669,8 @@ export const AL_QIYAMAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui (Qui a pu faire cela) ne serait-il pas Capable de faire revivre les morts ?"
   }
 ];
 

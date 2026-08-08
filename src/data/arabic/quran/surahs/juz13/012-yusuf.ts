@@ -11,7 +11,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": " الٓر ۚ تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْمُبِينِ",
     "textSimple": " الٓر  تلك ءايـت ٱلكتـب ٱلمبين",
     "transliteration": "alif-lam-ra til'ka āyātu l-kitābi l-mubīni",
-    "translation": "",
+    "translation": "Alif, Lām, Rā. These are the verses of the clear Book.",
     "words": [
       {
         "id": "yusuf-1-1",
@@ -49,7 +49,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Rā. Voici les versets du Livre explicite."
   },
   {
     "id": "yusuf-2",
@@ -58,7 +59,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنزَلْنَـٰهُ قُرْءَٰنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": "إنآ أنزلنـه قرءنا عربيا لعلكم تعقلون",
     "transliteration": "innā anzalnāhu qur'ānan ʿarabiyyan laʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "Indeed, We have sent it down as an Arabic Qur’ān that you might understand.",
     "words": [
       {
         "id": "yusuf-2-1",
@@ -103,7 +104,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’avons fait descendre (en révélation) : un Coran arabe, pour que, peut-être, vous le compreniez."
   },
   {
     "id": "yusuf-3",
@@ -112,7 +114,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ بِمَآ أَوْحَيْنَآ إِلَيْكَ هَـٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَـٰفِلِينَ",
     "textSimple": "نحن نقص عليك أحسن ٱلقصص بمآ أوحينآ إليك هـذا ٱلقرءان وإن كنت من قبله لمن ٱلغـفلين",
     "transliteration": "naḥnu naquṣṣu ʿalayka aḥsana l-qaṣaṣi bimā awḥaynā ilayka hādhā l-qur'āna wa-in kunta min qablihi lamina l-ghāfilīna",
-    "translation": "",
+    "translation": "We relate to you, [O Muḥammad], the best of stories in what We have revealed to you of this Qur’ān although you were, before it, among the unaware.",
     "words": [
       {
         "id": "yusuf-3-1",
@@ -227,7 +229,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous te faisons récit de la meilleure des histoires à travers ce que Nous te révélons dans ce Coran, même si, auparavant, tu étais certes du nombre des distraits."
   },
   {
     "id": "yusuf-4",
@@ -236,7 +239,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَـٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَـٰجِدِينَ",
     "textSimple": "إذ قال يوسف لأبيه يـٓأبت إنى رأيت أحد عشر كوكبا وٱلشمس وٱلقمر رأيتهم لى سـجدين",
     "transliteration": "idh qāla yūsufu li-abīhi yāabati innī ra-aytu aḥada ʿashara kawkaban wal-shamsa wal-qamara ra-aytuhum lī sājidīna",
-    "translation": "",
+    "translation": "[Of these stories mention] when Joseph said to his father, \"O my father, indeed I have seen [in a dream] eleven stars and the sun and the moon; I saw them prostrating to me.\"",
     "words": [
       {
         "id": "yusuf-4-1",
@@ -344,7 +347,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Relate, Muhammad, l’histoire de) Joseph qui dit (un jour) à son père : « Père, j’ai vu en songe onze astres, ainsi que le soleil et la lune. Je les ai vus devant moi prosternés! »"
   },
   {
     "id": "yusuf-5",
@@ -353,7 +357,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَـٰنَ لِلْإِنسَـٰنِ عَدُوٌّ مُّبِينٌ",
     "textSimple": "قال يـبنى لا تقصص رءياك علىٓ إخوتك فيكيدوا لك كيدا  إن ٱلشيطـن للإنسـن عدو مبين",
     "transliteration": "qāla yābunayya lā taqṣuṣ ru'yāka ʿalā ikh'watika fayakīdū laka kaydan inna l-shayṭāna lil'insāni ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "He said, \"O my son, do not relate your vision to your brothers or they will contrive against you a plan. Indeed Satan, to man, is a manifest enemy.",
     "words": [
       {
         "id": "yusuf-5-1",
@@ -461,7 +465,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Mon fils, ne raconte pas ta vision à tes frères ou ils trameraient contre toi une intrigue, car Satan est pour l’homme un ennemi avéré."
   },
   {
     "id": "yusuf-6",
@@ -470,7 +475,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَـٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌ",
     "textSimple": "وكذلك يجتبيك ربك ويعلمك من تأويل ٱلأحاديث ويتم نعمته عليك وعلىٓ ءال يعقوب كمآ أتمها علىٓ أبويك من قبل إبرهيم وإسحـق  إن ربك عليم حكيم",
     "transliteration": "wakadhālika yajtabīka rabbuka wayuʿallimuka min tawīli l-aḥādīthi wayutimmu niʿ'matahu ʿalayka waʿalā āli yaʿqūba kamā atammahā ʿalā abawayka min qablu ib'rāhīma wa-is'ḥāqa inna rabbaka ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "And thus will your Lord choose you and teach you the interpretation of narratives [i.e., events or dreams] and complete His favor upon you and upon the family of Jacob, as He completed it upon your fathers before, Abraham and Isaac. Indeed, your Lord is Knowing and Wise.\"",
     "words": [
       {
         "id": "yusuf-6-1",
@@ -648,7 +653,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est ainsi que ton Seigneur te choisit et t’apprend à interpréter les songes ; Il te comblera de Sa pleine grâce, ainsi que la famille de Jacob, comme Il l’a auparavant accordée tout aussi pleine à tes ancêtres Abraham et Isaac. Ton Seigneur est Omniscient et Sage. »"
   },
   {
     "id": "yusuf-7",
@@ -657,7 +663,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِۦٓ ءَايَـٰتٌ لِّلسَّآئِلِينَ",
     "textSimple": " لقد كان فى يوسف وإخوتهٓ ءايـت للسآئلين",
     "transliteration": "laqad kāna fī yūsufa wa-ikh'watihi āyātun lilssāilīna",
-    "translation": "",
+    "translation": "Certainly were there in Joseph and his brothers signs for those who ask, [such as]",
     "words": [
       {
         "id": "yusuf-7-1",
@@ -709,7 +715,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes en (l’exemple de) Joseph et ses frères des enseignements pour ceux qui s’interrogent (à ce sujet)."
   },
   {
     "id": "yusuf-8",
@@ -718,7 +725,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "إذ قالوا ليوسف وأخوه أحب إلىٓ أبينا منا ونحن عصبة إن أبانا لفى ضلـل مبين",
     "transliteration": "idh qālū layūsufu wa-akhūhu aḥabbu ilā abīnā minnā wanaḥnu ʿuṣ'batun inna abānā lafī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "When they said, \"Joseph and his brother are more beloved to our father than we, while we are a clan. Indeed, our father is in clear error.",
     "words": [
       {
         "id": "yusuf-8-1",
@@ -826,7 +833,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les frères de Joseph) dirent un jour : « Joseph et son frère sont plus aimés que nous de notre père, bien que nous soyons tout un groupe. Notre père est certes dans l’erreur la plus manifeste !"
   },
   {
     "id": "yusuf-9",
@@ -835,7 +843,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًا صَـٰلِحِينَ",
     "textSimple": "ٱقتلوا يوسف أو ٱطرحوه أرضا يخل لكم وجه أبيكم وتكونوا من بعده قوما صـلحين",
     "transliteration": "uq'tulū yūsufa awi iṭ'raḥūhu arḍan yakhlu lakum wajhu abīkum watakūnū min baʿdihi qawman ṣāliḥīna",
-    "translation": "",
+    "translation": "Kill Joseph or cast him out to [another] land; the countenance [i.e., attention] of your father will [then] be only for you, and you will be after that a righteous people.\"",
     "words": [
       {
         "id": "yusuf-9-1",
@@ -936,7 +944,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tuez donc Joseph, ou abandonnez-le dans quelque terre (lointaine), c’est seulement ainsi que votre père sera désormais tout entier à vous. Après cela, vous serez des gens vertueux. »"
   },
   {
     "id": "yusuf-10",
@@ -945,7 +954,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ قَآئِلٌ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَـٰبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَـٰعِلِينَ",
     "textSimple": "قال قآئل منهم لا تقتلوا يوسف وألقوه فى غيـبت ٱلجب يلتقطه بعض ٱلسيارة إن كنتم فـعلين",
     "transliteration": "qāla qāilun min'hum lā taqtulū yūsufa wa-alqūhu fī ghayābati l-jubi yaltaqiṭ'hu baʿḍu l-sayārati in kuntum fāʿilīna",
-    "translation": "",
+    "translation": "Said a speaker among them, \"Do not kill Joseph but throw him into the bottom of the well; some travelers will pick him up - if you would do [something].\"",
     "words": [
       {
         "id": "yusuf-10-1",
@@ -1060,7 +1069,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne tuez pas Joseph, rétorqua l’un d’eux, jetez-le plutôt au fond du puits, il y sera recueilli par des voyageurs, si vous êtes décidés à faire quelque chose. »"
   },
   {
     "id": "yusuf-11",
@@ -1069,7 +1079,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَـٰصِحُونَ",
     "textSimple": "قالوا يـٓأبانا ما لك لا تأمنا على يوسف وإنا له لنـصحون",
     "transliteration": "qālū yāabānā mā laka lā tamannā ʿalā yūsufa wa-innā lahu lanāṣiḥūna",
-    "translation": "",
+    "translation": "They said, \"O our father, why do you not entrust us with Joseph while indeed, we are to him sincere counselors?",
     "words": [
       {
         "id": "yusuf-11-1",
@@ -1149,7 +1159,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Père, dirent-ils, pourquoi ne pas nous confier Joseph ? Nous ne voulons pourtant que son bien."
   },
   {
     "id": "yusuf-12",
@@ -1158,7 +1169,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
     "textSimple": "أرسله معنا غدا يرتع ويلعب وإنا له لحـفظون",
     "transliteration": "arsil'hu maʿanā ghadan yartaʿ wayalʿab wa-innā lahu laḥāfiẓūna",
-    "translation": "",
+    "translation": "Send him with us tomorrow that he may eat well and play. And indeed, we will be his guardians.\"",
     "words": [
       {
         "id": "yusuf-12-1",
@@ -1217,7 +1228,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-le venir avec nous demain. Il pourra gambader et jouer (librement). Nous serons pour lui les meilleurs des gardiens. »"
   },
   {
     "id": "yusuf-13",
@@ -1226,7 +1238,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا۟ بِهِۦ وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَـٰفِلُونَ",
     "textSimple": "قال إنى ليحزننىٓ أن تذهبوا به وأخاف أن يأكله ٱلذئب وأنتم عنه غـفلون",
     "transliteration": "qāla innī layaḥzununī an tadhhabū bihi wa-akhāfu an yakulahu l-dhi'bu wa-antum ʿanhu ghāfilūna",
-    "translation": "",
+    "translation": "[Jacob] said, \"Indeed, it saddens me that you should take him, and I fear that a wolf would eat him while you are of him unaware.\"",
     "words": [
       {
         "id": "yusuf-13-1",
@@ -1320,7 +1332,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Je serai bien triste que vous l’emmeniez avec vous, et j’aurai vraiment peur qu’un loup ne le dévore à un moment où à lui vous ne serez pas attentifs. »"
   },
   {
     "id": "yusuf-14",
@@ -1329,7 +1342,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًا لَّخَـٰسِرُونَ",
     "textSimple": "قالوا لئن أكله ٱلذئب ونحن عصبة إنآ إذا لخـسرون",
     "transliteration": "qālū la-in akalahu l-dhi'bu wanaḥnu ʿuṣ'batun innā idhan lakhāsirūna",
-    "translation": "",
+    "translation": "They said, \"If a wolf should eat him while we are a [strong] clan, indeed, we would then be losers.\"",
     "words": [
       {
         "id": "yusuf-14-1",
@@ -1395,7 +1408,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si le loup doit le dévorer alors que nous sommes tout un groupe, répondirent-ils, c’est que nous sommes des incapables et (bel et bien) perdus. »"
   },
   {
     "id": "yusuf-15",
@@ -1404,7 +1418,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَـٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَـٰذَا وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "فلما ذهبوا به وأجمعوٓا أن يجعلوه فى غيـبت ٱلجب  وأوحينآ إليه لتنبئنهم بأمرهم هـذا وهم لا يشعرون",
     "transliteration": "falammā dhahabū bihi wa-ajmaʿū an yajʿalūhu fī ghayābati l-jubi wa-awḥaynā ilayhi latunabbi-annahum bi-amrihim hādhā wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "So when they took him [out] and agreed to put him into the bottom of the well... But We inspired to him, \"You will surely inform them [someday] about this affair of theirs while they do not perceive [your identity].\"",
     "words": [
       {
         "id": "yusuf-15-1",
@@ -1526,7 +1540,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils furent partis avec lui et qu’ils eurent décidé unanimement de le jeter au fond du puits, Nous lui révélâmes (à Joseph) : « Tu les informeras (un jour) de leur forfait sans qu’ils s’y attendent. »"
   },
   {
     "id": "yusuf-16",
@@ -1535,7 +1550,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءُوٓ أَبَاهُمْ عِشَآءً يَبْكُونَ",
     "textSimple": "وجآءوٓ أباهم عشآء يبكون",
     "transliteration": "wajāū abāhum ʿishāan yabkūna",
-    "translation": "",
+    "translation": "And they came to their father at night, weeping.",
     "words": [
       {
         "id": "yusuf-16-1",
@@ -1566,7 +1581,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et le soir, tout en pleurs, ils vinrent trouver leur père."
   },
   {
     "id": "yusuf-17",
@@ -1575,7 +1591,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰٓأَبَانَآ إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَـٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍ لَّنَا وَلَوْ كُنَّا صَـٰدِقِينَ",
     "textSimple": "قالوا يـٓأبانآ إنا ذهبنا نستبق وتركنا يوسف عند متـعنا فأكله ٱلذئب  ومآ أنت بمؤمن لنا ولو كنا صـدقين",
     "transliteration": "qālū yāabānā innā dhahabnā nastabiqu wataraknā yūsufa ʿinda matāʿinā fa-akalahu l-dhi'bu wamā anta bimu'minin lanā walaw kunnā ṣādiqīna",
-    "translation": "",
+    "translation": "They said, \"O our father, indeed we went racing each other and left Joseph with our possessions, and a wolf ate him. But you would not believe us, even if we were truthful.\"",
     "words": [
       {
         "id": "yusuf-17-1",
@@ -1704,7 +1720,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Père, nous sommes partis nous mesurer à la course en laissant Joseph près de nos affaires. Le loup l’a alors dévoré. Tu ne nous croiras certainement pas quoique nous disions la vérité ! »"
   },
   {
     "id": "yusuf-18",
@@ -1713,7 +1730,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
     "textSimple": "وجآءو على قميصه بدم كذب  قال بل سولت لكم أنفسكم أمرا  فصبر جميل  وٱلله ٱلمستعان على ما تصفون",
     "transliteration": "wajāū ʿalā qamīṣihi bidamin kadhibin qāla bal sawwalat lakum anfusukum amran faṣabrun jamīlun wal-lahu l-mus'taʿānu ʿalā mā taṣifūna",
-    "translation": "",
+    "translation": "And they brought upon his shirt false blood. [Jacob] said, \"Rather, your souls have enticed you to something, so patience is most fitting. And Allāh is the one sought for help against that which you describe.\"",
     "words": [
       {
         "id": "yusuf-18-1",
@@ -1842,7 +1859,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils (lui) montrèrent sa tunique prétendument tachée de (son) sang. « Ce sont plutôt vos âmes, dit-il, qui vous ont induits à commettre quelque chose (de répréhensible). Je n’ai plus qu’à (m’armer) d’une digne patience. C’est auprès d’Allah que je chercherai assistance pour (endurer) ce que vous prétendez ! »"
   },
   {
     "id": "yusuf-19",
@@ -1851,7 +1869,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَـٰبُشْرَىٰ هَـٰذَا غُلَـٰمٌ ۚ وَأَسَرُّوهُ بِضَـٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
     "textSimple": "وجآءت سيارة فأرسلوا واردهم فأدلى دلوه  قال يـبشرى هـذا غلـم  وأسروه بضـعة  وٱلله عليم بما يعملون",
     "transliteration": "wajāat sayyāratun fa-arsalū wāridahum fa-adlā dalwahu qāla yābush'rā hādhā ghulāmun wa-asarrūhu biḍāʿatan wal-lahu ʿalīmun bimā yaʿmalūna",
-    "translation": "",
+    "translation": "And there came a company of travelers; then they sent their water drawer, and he let down his bucket. He said, \"Good news! Here is a boy.\" And they concealed him, [taking him] as merchandise; and Allāh was Knowing of what they did.",
     "words": [
       {
         "id": "yusuf-19-1",
@@ -1966,7 +1984,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une caravane, passant par là, envoya son pourvoyeur d’eau qui jeta son seau (dans le puits) et s’écria : « Quelle chance ! Il y a ici un garçon ! » Ils le cachèrent pour le vendre comme une (vulgaire) marchandise. Mais Allah Savait parfaitement ce qu’ils faisaient."
   },
   {
     "id": "yusuf-20",
@@ -1975,7 +1994,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍ دَرَٰهِمَ مَعْدُودَةٍ وَكَانُوا۟ فِيهِ مِنَ ٱلزَّٰهِدِينَ",
     "textSimple": "وشروه بثمن بخس درهم معدودة وكانوا فيه من ٱلزهدين",
     "transliteration": "washarawhu bithamanin bakhsin darāhima maʿdūdatin wakānū fīhi mina l-zāhidīna",
-    "translation": "",
+    "translation": "And they sold him for a reduced price - a few dirhams - and they were, concerning him, of those content with little.",
     "words": [
       {
         "id": "yusuf-20-1",
@@ -2041,7 +2060,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils le vendirent à bas prix et pour quelques pièces d’argent, car ils ne tenaient pas tellement à le garder."
   },
   {
     "id": "yusuf-21",
@@ -2050,7 +2070,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "وقال ٱلذى ٱشترىه من مصر لٱمرأتهٓ أكرمى مثوىه عسىٓ أن ينفعنآ أو نتخذه ولدا  وكذلك مكنا ليوسف فى ٱلأرض ولنعلمه من تأويل ٱلأحاديث  وٱلله غالب علىٓ أمره ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "waqāla alladhī ish'tarāhu min miṣ'ra li-im'ra-atihi akrimī mathwāhu ʿasā an yanfaʿanā aw nattakhidhahu waladan wakadhālika makkannā liyūsufa fī l-arḍi walinuʿallimahu min tawīli l-aḥādīthi wal-lahu ghālibun ʿalā amrihi walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "And the one from Egypt who bought him said to his wife, \"Make his residence comfortable. Perhaps he will benefit us, or we will adopt him as a son.\" And thus, We established Joseph in the land that We might teach him the interpretation of events [i.e., dreams]. And Allāh is predominant over His affair, but most of the people do not know.",
     "words": [
       {
         "id": "yusuf-21-1",
@@ -2277,7 +2297,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui l’acheta en Égypte, dit alors à sa femme: « Sois généreuse en l’accueillant, il nous sera peut-être utile ou nous pourrions l’adopter comme fils. » C’est ainsi que Nous établîmes Joseph sur cette terre afin de lui apprendre l’interprétation des songes. Allah triomphe toujours dans Sa décision, mais la plupart des gens ne le savent pas."
   },
   {
     "id": "yusuf-22",
@@ -2286,7 +2307,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَـٰهُ حُكْمًا وَعِلْمًا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "ولما بلغ أشدهٓ ءاتينـه حكما وعلما  وكذلك نجزى ٱلمحسنين",
     "transliteration": "walammā balagha ashuddahu ātaynāhu ḥuk'man waʿil'man wakadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And when he [i.e., Joseph] reached maturity, We gave him judgement and knowledge. And thus We reward the doers of good.",
     "words": [
       {
         "id": "yusuf-22-1",
@@ -2352,7 +2373,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il eut atteint l’âge mûr, Nous lui donnâmes la sagesse et la science, et c’est ainsi que Nous rétribuons les bienfaiteurs."
   },
   {
     "id": "yusuf-23",
@@ -2361,7 +2383,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّـٰلِمُونَ",
     "textSimple": "ورودته ٱلتى هو فى بيتها عن نفسه وغلقت ٱلأبوب وقالت هيت لك  قال معاذ ٱلله  إنه ربىٓ أحسن مثواى  إنه لا يفلح ٱلظـلمون",
     "transliteration": "warāwadathu allatī huwa fī baytihā ʿan nafsihi waghallaqati l-abwāba waqālat hayta laka qāla maʿādha l-lahi innahu rabbī aḥsana mathwāya innahu lā yuf'liḥu l-ẓālimūna",
-    "translation": "",
+    "translation": "And she, in whose house he was, sought to seduce him. She closed the doors and said, \"Come, you.\" He said, \"[I seek] the refuge of Allāh. Indeed, he is my master, who has made good my residence. Indeed, wrongdoers will not succeed.\"",
     "words": [
       {
         "id": "yusuf-23-1",
@@ -2525,7 +2547,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celle dans la maison de qui il se trouvait tenta de le séduire. Ayant d’abord fermé hermétiquement les portes, elle lui dit : « Viens donc, je suis à toi ! » Il répondit aussitôt : « Allah m’en préserve ! (Ton mari) est mon maître et il m’a fait bon accueil. Les injustes ne réussissent pas. »"
   },
   {
     "id": "yusuf-24",
@@ -2534,7 +2557,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَـٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
     "textSimple": "ولقد همت به  وهم بها لولآ أن رءا برهـن ربه  كذلك لنصرف عنه ٱلسوٓء وٱلفحشآء  إنه من عبادنا ٱلمخلصين",
     "transliteration": "walaqad hammat bihi wahamma bihā lawlā an raā bur'hāna rabbihi kadhālika linaṣrifa ʿanhu l-sūa wal-faḥshāa innahu min ʿibādinā l-mukh'laṣīna",
-    "translation": "",
+    "translation": "And she certainly determined [to seduce] him, and he would have inclined to her had he not seen the proof [i.e., sign] of his Lord. And thus [it was] that We should avert from him evil and immorality. Indeed, he was of Our chosen servants.",
     "words": [
       {
         "id": "yusuf-24-1",
@@ -2670,7 +2693,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle le désira tant, et lui-même eût succombé à son désir s’il n’avait vu la preuve évidente de son Seigneur. C’était ainsi que Nous voulions lui épargner de succomber au mal et à la dépravation. Car il était l’un de Nos serviteurs privilégiés."
   },
   {
     "id": "yusuf-25",
@@ -2679,7 +2703,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
     "textSimple": "وٱستبقا ٱلباب وقدت قميصه من دبر وألفيا سيدها لدا ٱلباب  قالت ما جزآء من أراد بأهلك سوٓءا إلآ أن يسجن أو عذاب أليم",
     "transliteration": "wa-is'tabaqā l-bāba waqaddat qamīṣahu min duburin wa-alfayā sayyidahā ladā l-bābi qālat mā jazāu man arāda bi-ahlika sūan illā an yus'jana aw ʿadhābun alīmun",
-    "translation": "",
+    "translation": "And they both raced to the door, and she tore his shirt from the back, and they found her husband at the door. She said, \"What is the recompense of one who intended evil for your wife but that he be imprisoned or a painful punishment?\"",
     "words": [
       {
         "id": "yusuf-25-1",
@@ -2843,7 +2867,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chacun des deux s’élança pour rejoindre la porte avant l’autre ; c’est alors qu’elle lui déchira sa tunique par derrière et qu’ils se trouvèrent tous deux devant le mari sur le pas de la porte. Elle s’écria : « Quelle sanction pour celui qui a voulu abuser de ta femme sinon la prison ou quelque supplice douloureux ? »"
   },
   {
     "id": "yusuf-26",
@@ -2852,7 +2877,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ قُدَّ مِن قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَـٰذِبِينَ",
     "textSimple": "قال هى رودتنى عن نفسى  وشهد شاهد من أهلهآ إن كان قميصه قد من قبل فصدقت وهو من ٱلكـذبين",
     "transliteration": "qāla hiya rāwadatnī ʿan nafsī washahida shāhidun min ahlihā in kāna qamīṣuhu qudda min qubulin faṣadaqat wahuwa mina l-kādhibīna",
-    "translation": "",
+    "translation": "[Joseph] said, \"It was she who sought to seduce me.\" And a witness from her family testified, \"If his shirt is torn from the front, then she has told the truth, and he is of the liars.",
     "words": [
       {
         "id": "yusuf-26-1",
@@ -2988,7 +3013,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est-elle qui a essayé de me séduire », dit-il. Un témoin de sa famille à elle, témoigna : « Si sa tunique est déchirée par devant, c’est elle qui a dit vrai et c’est lui qui a menti ;"
   },
   {
     "id": "yusuf-27",
@@ -2997,7 +3023,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "وإن كان قميصه قد من دبر فكذبت وهو من ٱلصـدقين",
     "transliteration": "wa-in kāna qamīṣuhu qudda min duburin fakadhabat wahuwa mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "But if his shirt is torn from the back, then she has lied, and he is of the truthful.\"",
     "words": [
       {
         "id": "yusuf-27-1",
@@ -3070,7 +3096,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et si sa tunique est déchirée par derrière, c’est elle qui a menti et c’est lui qui a dit vrai. »"
   },
   {
     "id": "yusuf-28",
@@ -3079,7 +3106,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
     "textSimple": "فلما رءا قميصه قد من دبر قال إنه من كيدكن  إن كيدكن عظيم",
     "transliteration": "falammā raā qamīṣahu qudda min duburin qāla innahu min kaydikunna inna kaydakunna ʿaẓīmun",
-    "translation": "",
+    "translation": "So when he [i.e., her husband] saw his shirt torn from the back, he said, \"Indeed, it is of your [i.e., women's] plan. Indeed, your plan is great [i.e., vehement].",
     "words": [
       {
         "id": "yusuf-28-1",
@@ -3173,7 +3200,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voyant que la tunique était déchirée par derrière, (le mari) dit : « C’est bien l’une de vos ruses de femmes ! Monumentales sont vraiment vos ruses !"
   },
   {
     "id": "yusuf-29",
@@ -3182,7 +3210,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "يُوسُفُ أَعْرِضْ عَنْ هَـٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ ٱلْخَاطِـِٔينَ",
     "textSimple": "يوسف أعرض عن هـذا  وٱستغفرى لذنبك  إنك كنت من ٱلخاطـٔين",
     "transliteration": "yūsufu aʿriḍ ʿan hādhā wa-is'taghfirī lidhanbiki innaki kunti mina l-khāṭiīna",
-    "translation": "",
+    "translation": "Joseph, ignore this. And, [my wife], ask forgiveness for your sin. Indeed, you were of the sinful.\"",
     "words": [
       {
         "id": "yusuf-29-1",
@@ -3255,7 +3283,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Joseph, n’y songe plus ! Quant à toi (femme) implore le pardon pour ton péché, car tu es coupable. »"
   },
   {
     "id": "yusuf-30",
@@ -3264,7 +3293,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَقَالَ نِسْوَةٌ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": " وقال نسوة فى ٱلمدينة ٱمرأت ٱلعزيز ترود فتىها عن نفسه  قد شغفها حبا  إنا لنرىها فى ضلـل مبين",
     "transliteration": "waqāla nis'watun fī l-madīnati im'ra-atu l-ʿazīzi turāwidu fatāhā ʿan nafsihi qad shaghafahā ḥubban innā lanarāhā fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "And women in the city said, \"The wife of al-ʿAzeez is seeking to seduce her slave boy; he has impassioned her with love. Indeed, we see her [to be] in clear error.\"",
     "words": [
       {
         "id": "yusuf-30-1",
@@ -3393,7 +3422,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les femmes, dans la ville, se dirent : « L’épouse d’Al-‘Aziz a tenté de séduire son esclave. Elle en est éperdument amoureuse, et nous trouvons qu’elle est dans l’erreur la plus évidente. »"
   },
   {
     "id": "yusuf-31",
@@ -3402,7 +3432,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَـًٔا وَءَاتَتْ كُلَّ وَٰحِدَةٍ مِّنْهُنَّ سِكِّينًا وَقَالَتِ ٱخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُۥٓ أَكْبَرْنَهُۥ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَـٰشَ لِلَّهِ مَا هَـٰذَا بَشَرًا إِنْ هَـٰذَآ إِلَّا مَلَكٌ كَرِيمٌ",
     "textSimple": "فلما سمعت بمكرهن أرسلت إليهن وأعتدت لهن متكـٔا وءاتت كل وحدة منهن سكينا وقالت ٱخرج عليهن  فلما رأينهٓ أكبرنه وقطعن أيديهن وقلن حـش لله ما هـذا بشرا إن هـذآ إلا ملك كريم",
     "transliteration": "falammā samiʿat bimakrihinna arsalat ilayhinna wa-aʿtadat lahunna muttaka-an waātat kulla wāḥidatin min'hunna sikkīnan waqālati ukh'ruj ʿalayhinna falammā ra-aynahu akbarnahu waqaṭṭaʿna aydiyahunna waqul'na ḥāsha lillahi mā hādhā basharan in hādhā illā malakun karīmun",
-    "translation": "",
+    "translation": "So when she heard of their scheming, she sent for them and prepared for them a banquet and gave each one of them a knife and said [to Joseph], \"Come out before them.\" And when they saw him, they greatly admired him and cut their hands and said, \"Perfect is Allāh! This is not a man; this is none but a noble angel.\"",
     "words": [
       {
         "id": "yusuf-31-1",
@@ -3629,7 +3659,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’elle eut entendu leurs propos malveillants, elle envoya les inviter pour une collation. Elle donna à chacune d’elles un couteau et dit : « Tu peux te montrer à elles (Joseph) ! » L’ayant vu, les femmes furent si éblouies (par sa beauté) qu’elles s’en coupèrent les mains en disant : « Qu’à Allah ne plaise, ce n’est point là un mortel ! Ce ne peut être qu’un ange des plus nobles ! »"
   },
   {
     "id": "yusuf-32",
@@ -3638,7 +3669,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُۥ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ ٱلصَّـٰغِرِينَ",
     "textSimple": "قالت فذلكن ٱلذى لمتننى فيه  ولقد رودته عن نفسه فٱستعصم  ولئن لم يفعل مآ ءامره ليسجنن وليكونا من ٱلصـغرين",
     "transliteration": "qālat fadhālikunna alladhī lum'tunnanī fīhi walaqad rāwadttuhu ʿan nafsihi fa-is'taʿṣama wala-in lam yafʿal mā āmuruhu layus'jananna walayakūnan mina l-ṣāghirīna",
-    "translation": "",
+    "translation": "She said, \"That is the one about whom you blamed me. And I certainly sought to seduce him, but he firmly refused; and if he will not do what I order him, he will surely be imprisoned and will be of those debased.\"",
     "words": [
       {
         "id": "yusuf-32-1",
@@ -3774,7 +3805,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle dit : « Voilà celui à cause de qui vous me couvriez de reproches. Oui, j’ai tenté de le séduire, mais il s’est bien prémuni (contre mes avances). Et d’ailleurs s’il s’obstine encore à ne pas faire ce que je lui ordonne, il sera certes emprisonné et sera du nombre des humiliés. »"
   },
   {
     "id": "yusuf-33",
@@ -3783,7 +3815,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَـٰهِلِينَ",
     "textSimple": "قال رب ٱلسجن أحب إلى مما يدعوننىٓ إليه  وإلا تصرف عنى كيدهن أصب إليهن وأكن من ٱلجـهلين",
     "transliteration": "qāla rabbi l-sij'nu aḥabbu ilayya mimmā yadʿūnanī ilayhi wa-illā taṣrif ʿannī kaydahunna aṣbu ilayhinna wa-akun mina l-jāhilīna",
-    "translation": "",
+    "translation": "He said, \"My Lord, prison is more to my liking than that to which they invite me. And if You do not avert from me their plan, I might incline toward them and [thus] be of the ignorant.\"",
     "words": [
       {
         "id": "yusuf-33-1",
@@ -3905,7 +3937,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur ! La prison est bien meilleure pour moi que de m’exécuter, soumis à leurs avances. Si Tu ne m’épargnes pas leur ruse, je céderai à mes penchants pour elles et je serai du nombre des ignorants. »"
   },
   {
     "id": "yusuf-34",
@@ -3914,7 +3947,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ عَنْهُ كَيْدَهُنَّ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "فٱستجاب له ربه فصرف عنه كيدهن  إنه هو ٱلسميع ٱلعليم",
     "transliteration": "fa-is'tajāba lahu rabbuhu faṣarafa ʿanhu kaydahunna innahu huwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "So his Lord responded to him and averted from him their plan. Indeed, He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "yusuf-34-1",
@@ -3987,7 +4020,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son Seigneur répondit donc à sa prière en éloignant de lui leurs intrigues, car c’est Lui Qui Entend Tout et c’est Lui l’Omniscient."
   },
   {
     "id": "yusuf-35",
@@ -3996,7 +4030,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْـَٔايَـٰتِ لَيَسْجُنُنَّهُۥ حَتَّىٰ حِينٍ",
     "textSimple": "ثم بدا لهم من بعد ما رأوا ٱلـٔايـت ليسجننه حتى حين",
     "transliteration": "thumma badā lahum min baʿdi mā ra-awū l-āyāti layasjununnahu ḥattā ḥīnin",
-    "translation": "",
+    "translation": "Then it appeared to them after they had seen the signs that he [i.e., al-ʿAzeez] should surely imprison him for a time.",
     "words": [
       {
         "id": "yusuf-35-1",
@@ -4076,7 +4110,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis après que son innocence fut manifestement prouvée, il leur sembla bon de l’emprisonner pour quelque temps."
   },
   {
     "id": "yusuf-36",
@@ -4085,7 +4120,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًا ۖ وَقَالَ ٱلْـَٔاخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
     "textSimple": "ودخل معه ٱلسجن فتيان  قال أحدهمآ إنىٓ أرىنىٓ أعصر خمرا  وقال ٱلـٔاخر إنىٓ أرىنىٓ أحمل فوق رأسى خبزا تأكل ٱلطير منه  نبئنا بتأويلهٓ  إنا نرىك من ٱلمحسنين",
     "transliteration": "wadakhala maʿahu l-sij'na fatayāni qāla aḥaduhumā innī arānī aʿṣiru khamran waqāla l-ākharu innī arānī aḥmilu fawqa rasī khub'zan takulu l-ṭayru min'hu nabbi'nā bitawīlihi innā narāka mina l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And there entered the prison with him two young men. One of them said, \"Indeed, I have seen myself [in a dream] pressing [grapes for] wine.\" The other said, \"Indeed, I have seen myself carrying upon my head [some] bread, from which the birds were eating. Inform us of its interpretation; indeed, we see you to be of those who do good.\"",
     "words": [
       {
         "id": "yusuf-36-1",
@@ -4277,7 +4312,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Deux autres jeunes gens entrèrent avec lui en prison. « Je me suis vu en songe en train de presser du raisin », lui dit l’un d’eux. « Quant à moi, dit l’autre, je me suis vu portant du pain sur la tête et les oiseaux venaient en picorer. Instruis-nous donc sur le sens de (ces songes), car nous voyons que tu es quelqu’un de bienfaisant.»"
   },
   {
     "id": "yusuf-37",
@@ -4286,7 +4322,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَا يَأْتِيكُمَا طَعَامٌ تُرْزَقَانِهِۦٓ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِۦ قَبْلَ أَن يَأْتِيَكُمَا ۚ ذَٰلِكُمَا مِمَّا عَلَّمَنِى رَبِّىٓ ۚ إِنِّى تَرَكْتُ مِلَّةَ قَوْمٍ لَّا يُؤْمِنُونَ بِٱللَّهِ وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ",
     "textSimple": "قال لا يأتيكما طعام ترزقانهٓ إلا نبأتكما بتأويله قبل أن يأتيكما  ذلكما مما علمنى ربىٓ  إنى تركت ملة قوم لا يؤمنون بٱلله وهم بٱلـٔاخرة هم كـفرون",
     "transliteration": "qāla lā yatīkumā ṭaʿāmun tur'zaqānihi illā nabbatukumā bitawīlihi qabla an yatiyakumā dhālikumā mimmā ʿallamanī rabbī innī taraktu millata qawmin lā yu'minūna bil-lahi wahum bil-ākhirati hum kāfirūna",
-    "translation": "",
+    "translation": "He said, \"You will not receive food that is provided to you except that I will inform you of its interpretation before it comes to you. That is from what my Lord has taught me. Indeed, I have left the religion of a people who do not believe in Allāh, and they, in the Hereafter, are disbelievers.",
     "words": [
       {
         "id": "yusuf-37-1",
@@ -4471,7 +4507,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « Il ne vous sera pas servi de nourriture (en rêve) dont je ne vous donne l’interprétation avant qu’elle ne vous parvienne. Cela fait partie des choses que mon Seigneur m’a enseignées, car j’ai renoncé à la religion d’un peuple qui ne croit pas en Allah et mécroit en l’autre monde."
   },
   {
     "id": "yusuf-38",
@@ -4480,7 +4517,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّبَعْتُ مِلَّةَ ءَابَآءِىٓ إِبْرَٰهِيمَ وَإِسْحَـٰقَ وَيَعْقُوبَ ۚ مَا كَانَ لَنَآ أَن نُّشْرِكَ بِٱللَّهِ مِن شَىْءٍ ۚ ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
     "textSimple": "وٱتبعت ملة ءابآءىٓ إبرهيم وإسحـق ويعقوب  ما كان لنآ أن نشرك بٱلله من شىء  ذلك من فضل ٱلله علينا وعلى ٱلناس ولـكن أكثر ٱلناس لا يشكرون",
     "transliteration": "wa-ittabaʿtu millata ābāī ib'rāhīma wa-is'ḥāqa wayaʿqūba mā kāna lanā an nush'rika bil-lahi min shayin dhālika min faḍli l-lahi ʿalaynā waʿalā l-nāsi walākinna akthara l-nāsi lā yashkurūna",
-    "translation": "",
+    "translation": "And I have followed the religion of my fathers, Abraham, Isaac and Jacob. And it was not for us to associate anything with Allāh. That is from the favor of Allāh upon us and upon the people, but most of the people are not grateful.",
     "words": [
       {
         "id": "yusuf-38-1",
@@ -4665,7 +4702,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’ai suivi la religion de mes ancêtres Abraham, Isaac et Jacob. Il ne nous sied nullement de rien associer à Allah. C’est là une grâce d’Allah envers nous et envers les hommes, mais la plupart des hommes ne rendent pas grâce."
   },
   {
     "id": "yusuf-39",
@@ -4674,7 +4712,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰصَـٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
     "textSimple": "يـصـحبى ٱلسجن ءأرباب متفرقون خير أم ٱلله ٱلوحد ٱلقهار",
     "transliteration": "yāṣāḥibayi l-sij'ni a-arbābun mutafarriqūna khayrun ami l-lahu l-wāḥidu l-qahāru",
-    "translation": "",
+    "translation": "O [my] two companions of prison, are separate lords better or Allāh, the One, the Prevailing?",
     "words": [
       {
         "id": "yusuf-39-1",
@@ -4740,7 +4778,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous deux, mes compagnons de prison ! Est-ce que des divinités multiples sont meilleures ou Allah l’Unique, le Haut Dominateur ?"
   },
   {
     "id": "yusuf-40",
@@ -4749,7 +4788,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءً سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "ما تعبدون من دونهٓ إلآ أسمآء سميتموهآ أنتم وءابآؤكم مآ أنزل ٱلله بها من سلطـن  إن ٱلحكم إلا لله  أمر ألا تعبدوٓا إلآ إياه  ذلك ٱلدين ٱلقيم ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "mā taʿbudūna min dūnihi illā asmāan sammaytumūhā antum waābāukum mā anzala l-lahu bihā min sul'ṭānin ini l-ḥuk'mu illā lillahi amara allā taʿbudū illā iyyāhu dhālika l-dīnu l-qayimu walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "You worship not besides Him except [mere] names you have named them, you and your fathers, for which Allāh has sent down no evidence. Legislation is not but for Allāh. He has commanded that you worship not except Him. That is the correct religion, but most of the people do not know.",
     "words": [
       {
         "id": "yusuf-40-1",
@@ -4976,7 +5015,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous n’adorez en dehors de Lui que des noms forgés par vous et vos ancêtres, et pour la confirmation desquels Allah n’a fait descendre aucune preuve d’autorité. Or il n’est de jugement que celui d’Allah Qui vous ordonne de n’adorer que Lui. Telle est la religion droite, mais la plupart des hommes ne le savent pas."
   },
   {
     "id": "yusuf-41",
@@ -4985,7 +5025,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰصَـٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًا ۖ وَأَمَّا ٱلْـَٔاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
     "textSimple": "يـصـحبى ٱلسجن أمآ أحدكما فيسقى ربه خمرا  وأما ٱلـٔاخر فيصلب فتأكل ٱلطير من رأسه  قضى ٱلأمر ٱلذى فيه تستفتيان",
     "transliteration": "yāṣāḥibayi l-sij'ni ammā aḥadukumā fayasqī rabbahu khamran wa-ammā l-ākharu fayuṣ'labu fatakulu l-ṭayru min rasihi quḍiya l-amru alladhī fīhi tastaftiyāni",
-    "translation": "",
+    "translation": "O two companions of prison, as for one of you, he will give drink to his master of wine; but as for the other, he will be crucified, and the birds will eat from his head. The matter has been decreed about which you both inquire.\"",
     "words": [
       {
         "id": "yusuf-41-1",
@@ -5121,7 +5161,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous deux, compagnons de prison ! L’un de vous deux servira de sommelier à son maître, l’autre sera crucifié et les oiseaux viendront picorer son crâne. La décision sur l’affaire que vous me demandiez de vous interpréter est déjà arrêtée. »"
   },
   {
     "id": "yusuf-42",
@@ -5130,7 +5171,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَـٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ",
     "textSimple": "وقال للذى ظن أنه ناج منهما ٱذكرنى عند ربك فأنسىه ٱلشيطـن ذكر ربه فلبث فى ٱلسجن بضع سنين",
     "transliteration": "waqāla lilladhī ẓanna annahu nājin min'humā udh'kur'nī ʿinda rabbika fa-ansāhu l-shayṭānu dhik'ra rabbihi falabitha fī l-sij'ni biḍ'ʿa sinīna",
-    "translation": "",
+    "translation": "And he said to the one whom he knew would go free, \"Mention me before your master.\" But Satan made him forget the mention [to] his master, and he [i.e., Joseph] remained in prison several years.",
     "words": [
       {
         "id": "yusuf-42-1",
@@ -5259,7 +5300,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il dit à celui dont il savait qu’il serait sauvé : « Évoque-moi auprès de ton maître. » Mais Satan l’ayant distrait, celui-ci oublia de parler (de Joseph) à son maître et Joseph resta en prison quelques années encore."
   },
   {
     "id": "yusuf-43",
@@ -5268,7 +5310,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَـٰتٍ خُضْرٍ وَأُخَرَ يَابِسَـٰتٍ ۖ يَـٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَـٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
     "textSimple": "وقال ٱلملك إنىٓ أرى سبع بقرت سمان يأكلهن سبع عجاف وسبع سنبلـت خضر وأخر يابسـت  يـٓأيها ٱلملأ أفتونى فى رءيـى إن كنتم للرءيا تعبرون",
     "transliteration": "waqāla l-maliku innī arā sabʿa baqarātin simānin yakuluhunna sabʿun ʿijāfun wasabʿa sunbulātin khuḍ'rin wa-ukhara yābisātin yāayyuhā l-mala-u aftūnī fī ru'yāya in kuntum lilrru'yā taʿburūna",
-    "translation": "",
+    "translation": "And [subsequently] the king said, \"Indeed, I have seen [in a dream] seven fat cows being eaten by seven [that were] lean, and seven green spikes [of grain] and others [that were] dry. O eminent ones, explain to me my vision, if you should interpret visions.\"",
     "words": [
       {
         "id": "yusuf-43-1",
@@ -5439,7 +5481,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le roi dit un jour : « J’ai vu en songe sept vaches grasses que mangent sept autres maigres, et sept épis verts et sept autres desséchés. Ô vous, assemblée de notables, pourriez-vous vous prononcer sur ma vision si vous savez interpréter les songes ? »"
   },
   {
     "id": "yusuf-44",
@@ -5448,7 +5491,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَضْغَـٰثُ أَحْلَـٰمٍ ۖ وَمَا نَحْنُ بِتَأْوِيلِ ٱلْأَحْلَـٰمِ بِعَـٰلِمِينَ",
     "textSimple": "قالوٓا أضغـث أحلـم  وما نحن بتأويل ٱلأحلـم بعـلمين",
     "transliteration": "qālū aḍghāthu aḥlāmin wamā naḥnu bitawīli l-aḥlāmi biʿālimīna",
-    "translation": "",
+    "translation": "They said, \"[It is but] a mixture of false dreams, and we are not learned in the interpretation of dreams.\"",
     "words": [
       {
         "id": "yusuf-44-1",
@@ -5507,7 +5550,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ce ne sont que rêves confus, et dans l’interprétation des rêves nous ne sommes guère connaisseurs ! »"
   },
   {
     "id": "yusuf-45",
@@ -5516,7 +5560,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِى نَجَا مِنْهُمَا وَٱدَّكَرَ بَعْدَ أُمَّةٍ أَنَا۠ أُنَبِّئُكُم بِتَأْوِيلِهِۦ فَأَرْسِلُونِ",
     "textSimple": "وقال ٱلذى نجا منهما وٱدكر بعد أمة أنا أنبئكم بتأويله فأرسلون",
     "transliteration": "waqāla alladhī najā min'humā wa-iddakara baʿda ummatin anā unabbi-ukum bitawīlihi fa-arsilūni",
-    "translation": "",
+    "translation": "But the one who was freed and remembered after a time said, \"I will inform you of its interpretation, so send me forth.\"",
     "words": [
       {
         "id": "yusuf-45-1",
@@ -5596,7 +5640,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or celui des deux serviteurs emprisonnés qui avait été libéré, se souvint après plusieurs années et dit : « Moi, je vous en donnerai l’interprétation, envoyez-moi donc (à Joseph) »"
   },
   {
     "id": "yusuf-46",
@@ -5605,7 +5650,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعِ سُنۢبُلَـٰتٍ خُضْرٍ وَأُخَرَ يَابِسَـٰتٍ لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
     "textSimple": "يوسف أيها ٱلصديق أفتنا فى سبع بقرت سمان يأكلهن سبع عجاف وسبع سنبلـت خضر وأخر يابسـت لعلىٓ أرجع إلى ٱلناس لعلهم يعلمون",
     "transliteration": "yūsufu ayyuhā l-ṣidīqu aftinā fī sabʿi baqarātin simānin yakuluhunna sabʿun ʿijāfun wasabʿi sunbulātin khuḍ'rin wa-ukhara yābisātin laʿallī arjiʿu ilā l-nāsi laʿallahum yaʿlamūna",
-    "translation": "",
+    "translation": "[He said], \"Joseph, O man of truth, explain to us about seven fat cows eaten by seven [that were] lean, and seven green spikes [of grain] and others [that were] dry - that I may return to the people [i.e., the king and his court]; perhaps they will know [about you].\"",
     "words": [
       {
         "id": "yusuf-46-1",
@@ -5762,7 +5807,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Joseph, dit-il, ô toi le véridique, donne-nous l’interprétation de sept vaches grasses que mangent sept autres maigres, et sept épis verts et sept autres desséchés, afin que je puisse revenir vers les gens et qu’ils apprennent (ce qu’ils ne savaient pas). »"
   },
   {
     "id": "yusuf-47",
@@ -5771,7 +5817,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
     "textSimple": "قال تزرعون سبع سنين دأبا فما حصدتم فذروه فى سنبلهٓ إلا قليلا مما تأكلون",
     "transliteration": "qāla tazraʿūna sabʿa sinīna da-aban famā ḥaṣadttum fadharūhu fī sunbulihi illā qalīlan mimmā takulūna",
-    "translation": "",
+    "translation": "[Joseph] said, \"You will plant for seven years consecutively; and what you harvest leave in its spikes, except a little from which you will eat.",
     "words": [
       {
         "id": "yusuf-47-1",
@@ -5872,7 +5918,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Vous sèmerez sept années de suite. Tout ce que vous aurez récolté (comme blé moissonné) laissez-le dans les épis, excepté le peu dont vous aurez besoin pour votre nourriture."
   },
   {
     "id": "yusuf-48",
@@ -5881,7 +5928,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌ شِدَادٌ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًا مِّمَّا تُحْصِنُونَ",
     "textSimple": "ثم يأتى من بعد ذلك سبع شداد يأكلن ما قدمتم لهن إلا قليلا مما تحصنون",
     "transliteration": "thumma yatī min baʿdi dhālika sabʿun shidādun yakul'na mā qaddamtum lahunna illā qalīlan mimmā tuḥ'ṣinūna",
-    "translation": "",
+    "translation": "Then will come after that seven difficult [years] which will consume what you advanced [i.e., saved] for them, except a little from which you will store.",
     "words": [
       {
         "id": "yusuf-48-1",
@@ -5989,7 +6036,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis viendront par la suite sept autres années très rudes, qui viendront dévorer tout ce que vous leur aurez réservé sauf le peu (de semence) que vous aurez épargné."
   },
   {
     "id": "yusuf-49",
@@ -5998,7 +6046,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ",
     "textSimple": "ثم يأتى من بعد ذلك عام فيه يغاث ٱلناس وفيه يعصرون",
     "transliteration": "thumma yatī min baʿdi dhālika ʿāmun fīhi yughāthu l-nāsu wafīhi yaʿṣirūna",
-    "translation": "",
+    "translation": "Then will come after that a year in which the people will be given rain and in which they will press [olives and grapes].\"",
     "words": [
       {
         "id": "yusuf-49-1",
@@ -6078,7 +6126,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis par la suite (encore), viendra une année où les hommes seront secourus par les pluies bénéfiques et où ils presseront tout à loisir (le raisin et l’olive). »"
   },
   {
     "id": "yusuf-50",
@@ -6087,7 +6136,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّـٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌ",
     "textSimple": "وقال ٱلملك ٱئتونى به  فلما جآءه ٱلرسول قال ٱرجع إلى ربك فسـٔله ما بال ٱلنسوة ٱلـتى قطعن أيديهن  إن ربى بكيدهن عليم",
     "transliteration": "waqāla l-maliku i'tūnī bihi falammā jāahu l-rasūlu qāla ir'jiʿ ilā rabbika fasalhu mā bālu l-nis'wati allātī qaṭṭaʿna aydiyahunna inna rabbī bikaydihinna ʿalīmun",
-    "translation": "",
+    "translation": "And the king said, \"Bring him to me.\" But when the messenger came to him, [Joseph] said, \"Return to your master and ask him what is the case of the women who cut their hands. Indeed, my Lord is Knowing of their plan.\"",
     "words": [
       {
         "id": "yusuf-50-1",
@@ -6244,7 +6293,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le roi dit alors : « Amenez-le moi ! » Mais lorsque l’émissaire fut venu, (Joseph) lui dit : « Retourne chez ton maître et demande-lui : « Qu’en est-il des femmes qui se sont tailladé les mains ? Mon Seigneur Connaît parfaitement leur ruse. »"
   },
   {
     "id": "yusuf-51",
@@ -6253,7 +6303,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَـٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٔـٰنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "قال ما خطبكن إذ رودتن يوسف عن نفسه  قلن حـش لله ما علمنا عليه من سوٓء  قالت ٱمرأت ٱلعزيز ٱلـٔـن حصحص ٱلحق أنا رودته عن نفسه وإنه لمن ٱلصـدقين",
     "transliteration": "qāla mā khaṭbukunna idh rāwadttunna yūsufa ʿan nafsihi qul'na ḥāsha lillahi mā ʿalim'nā ʿalayhi min sūin qālati im'ra-atu l-ʿazīzi l-āna ḥaṣḥaṣa l-ḥaqu anā rāwadttuhu ʿan nafsihi wa-innahu lamina l-ṣādiqīna",
-    "translation": "",
+    "translation": "Said [the king to the women], \"What was your condition when you sought to seduce Joseph?\" They said, \"Perfect is Allāh! We know about him no evil.\" The wife of al-ʿAzeez said, \"Now the truth has become evident. It was I who sought to seduce him, and indeed, he is of the truthful.",
     "words": [
       {
         "id": "yusuf-51-1",
@@ -6459,7 +6509,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le roi demanda (aux femmes) : « Quelles étaient donc vos intentions alors que vous tentiez de séduire Joseph ? » « Allah nous en garde ! (répondirent-elles). Il n’est aucun mal que nous lui sachions ! » La femme d’Al-‘Aziz dit alors : « Voilà donc qu’est apparue, dans toute sa clarté, la pure vérité. C’est moi qui lui ai fait des avances, et c’est lui qui est véridique."
   },
   {
     "id": "yusuf-52",
@@ -6468,7 +6519,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ ٱلْخَآئِنِينَ",
     "textSimple": "ذلك ليعلم أنى لم أخنه بٱلغيب وأن ٱلله لا يهدى كيد ٱلخآئنين",
     "transliteration": "dhālika liyaʿlama annī lam akhun'hu bil-ghaybi wa-anna l-laha lā yahdī kayda l-khāinīna",
-    "translation": "",
+    "translation": "That is so he [i.e., al-ʿAzeez] will know that I did not betray him in [his] absence and that Allāh does not guide the plan of betrayers.",
     "words": [
       {
         "id": "yusuf-52-1",
@@ -6555,7 +6606,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, pour qu’il sache que je ne l’ai effectivement point trahi en son absence, et qu’Allah ne mène point à bon terme la félonie des traîtres."
   },
   {
     "id": "yusuf-53",
@@ -6564,7 +6616,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا رَحِمَ رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌ رَّحِيمٌ",
     "textSimple": " ومآ أبرئ نفسىٓ  إن ٱلنفس لأمارة بٱلسوٓء إلا ما رحم ربىٓ  إن ربى غفور رحيم",
     "transliteration": "wamā ubarri-u nafsī inna l-nafsa la-ammāratun bil-sūi illā mā raḥima rabbī inna rabbī ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "And I do not acquit myself. Indeed, the soul is a persistent enjoiner of evil, except those upon which my Lord has mercy. Indeed, my Lord is Forgiving and Merciful.\"",
     "words": [
       {
         "id": "yusuf-53-1",
@@ -6672,7 +6724,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et je n’entends pas m’innocenter car l’âme (humaine) aime à suggérer le mal, sauf si mon Seigneur (nous en préserve) par Sa pitié. Car mon Seigneur est Absoluteur et Tout Miséricordieux. »"
   },
   {
     "id": "yusuf-54",
@@ -6681,7 +6734,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌ",
     "textSimple": "وقال ٱلملك ٱئتونى بهٓ أستخلصه لنفسى  فلما كلمه قال إنك ٱليوم لدينا مكين أمين",
     "transliteration": "waqāla l-maliku i'tūnī bihi astakhliṣ'hu linafsī falammā kallamahu qāla innaka l-yawma ladaynā makīnun amīnun",
-    "translation": "",
+    "translation": "And the king said, \"Bring him to me; I will appoint him exclusively for myself.\" And when he spoke to him, he said, \"Indeed, you are today established [in position] and trusted.\"",
     "words": [
       {
         "id": "yusuf-54-1",
@@ -6782,7 +6835,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le roi dit : « Amenez-le moi, car je compte le réserver à mon service exclusif. » Après avoir discuté avec lui, il dit : « Nous te tenons aujourd’hui en très haute position et tu es notre homme de confiance. »"
   },
   {
     "id": "yusuf-55",
@@ -6791,7 +6845,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌ",
     "textSimple": "قال ٱجعلنى على خزآئن ٱلأرض  إنى حفيظ عليم",
     "transliteration": "qāla ij'ʿalnī ʿalā khazāini l-arḍi innī ḥafīẓun ʿalīmun",
-    "translation": "",
+    "translation": "[Joseph] said, \"Appoint me over the storehouses of the land. Indeed, I will be a knowing guardian.\"",
     "words": [
       {
         "id": "yusuf-55-1",
@@ -6850,7 +6904,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Donne-moi la charge de l’intendance du pays, (dit Joseph), j’en serai le gardien en toute connaissance. »"
   },
   {
     "id": "yusuf-56",
@@ -6859,7 +6914,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
     "textSimple": "وكذلك مكنا ليوسف فى ٱلأرض يتبوأ منها حيث يشآء  نصيب برحمتنا من نشآء  ولا نضيع أجر ٱلمحسنين",
     "transliteration": "wakadhālika makkannā liyūsufa fī l-arḍi yatabawwa-u min'hā ḥaythu yashāu nuṣību biraḥmatinā man nashāu walā nuḍīʿu ajra l-muḥ'sinīna",
-    "translation": "",
+    "translation": "And thus We established Joseph in the land to settle therein wherever he willed. We touch with Our mercy whom We will, and We do not allow to be lost the reward of those who do good.",
     "words": [
       {
         "id": "yusuf-56-1",
@@ -6981,7 +7036,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous avons établi Joseph dans cette terre. Il pouvait y élire domicile partout où il voulait. Nous touchons de Notre grâce qui Nous voulons et ne laissons point se perdre la récompense des bienfaiteurs."
   },
   {
     "id": "yusuf-57",
@@ -6990,7 +7046,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَأَجْرُ ٱلْـَٔاخِرَةِ خَيْرٌ لِّلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
     "textSimple": "ولأجر ٱلـٔاخرة خير للذين ءامنوا وكانوا يتقون",
     "transliteration": "wala-ajru l-ākhirati khayrun lilladhīna āmanū wakānū yattaqūna",
-    "translation": "",
+    "translation": "And the reward of the Hereafter is better for those who believed and were fearing Allāh.",
     "words": [
       {
         "id": "yusuf-57-1",
@@ -7042,7 +7098,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La récompense de l’autre monde est certes meilleure pour ceux qui auront cru et auront eu la piété."
   },
   {
     "id": "yusuf-58",
@@ -7051,7 +7108,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا۟ عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُۥ مُنكِرُونَ",
     "textSimple": "وجآء إخوة يوسف فدخلوا عليه فعرفهم وهم له منكرون",
     "transliteration": "wajāa ikh'watu yūsufa fadakhalū ʿalayhi faʿarafahum wahum lahu munkirūna",
-    "translation": "",
+    "translation": "And the brothers of Joseph came [seeking food], and they entered upon him; and he recognized them, but he was to them unknown.",
     "words": [
       {
         "id": "yusuf-58-1",
@@ -7117,7 +7174,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les frères de Joseph vinrent (en Égypte) et se présentèrent devant lui. Lui les reconnut alors qu’eux ne le reconnurent point."
   },
   {
     "id": "yusuf-59",
@@ -7126,7 +7184,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ قَالَ ٱئْتُونِى بِأَخٍ لَّكُم مِّنْ أَبِيكُمْ ۚ أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ وَأَنَا۠ خَيْرُ ٱلْمُنزِلِينَ",
     "textSimple": "ولما جهزهم بجهازهم قال ٱئتونى بأخ لكم من أبيكم  ألا ترون أنىٓ أوفى ٱلكيل وأنا خير ٱلمنزلين",
     "transliteration": "walammā jahhazahum bijahāzihim qāla i'tūnī bi-akhin lakum min abīkum alā tarawna annī ūfī l-kayla wa-anā khayru l-munzilīna",
-    "translation": "",
+    "translation": "And when he had furnished them with their supplies, he said, \"Bring me a brother of yours from your father. Do you not see that I give full measure and that I am the best of accommodators?",
     "words": [
       {
         "id": "yusuf-59-1",
@@ -7248,7 +7306,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Après les avoir pourvus en ravitaillement, il leur dit : « Amenez-moi un frère à vous du côté de votre père, ne voyez-vous pas que j’accorde pleine mesure et que je suis le meilleur des hôtes ?"
   },
   {
     "id": "yusuf-60",
@@ -7257,7 +7316,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن لَّمْ تَأْتُونِى بِهِۦ فَلَا كَيْلَ لَكُمْ عِندِى وَلَا تَقْرَبُونِ",
     "textSimple": "فإن لم تأتونى به فلا كيل لكم عندى ولا تقربون",
     "transliteration": "fa-in lam tatūnī bihi falā kayla lakum ʿindī walā taqrabūni",
-    "translation": "",
+    "translation": "But if you do not bring him to me, no measure will there be [hereafter] for you from me, nor will you approach me.\"",
     "words": [
       {
         "id": "yusuf-60-1",
@@ -7330,7 +7389,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous ne me l’amenez pas, vous n’aurez plus de ravitaillement chez moi, ni ne pourrez m’approcher (désormais) ! »"
   },
   {
     "id": "yusuf-61",
@@ -7339,7 +7399,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سَنُرَٰوِدُ عَنْهُ أَبَاهُ وَإِنَّا لَفَـٰعِلُونَ",
     "textSimple": "قالوا سنرود عنه أباه وإنا لفـعلون",
     "transliteration": "qālū sanurāwidu ʿanhu abāhu wa-innā lafāʿilūna",
-    "translation": "",
+    "translation": "They said, \"We will attempt to dissuade his father from [keeping] him, and indeed, we will do [it].\"",
     "words": [
       {
         "id": "yusuf-61-1",
@@ -7384,7 +7444,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent alors : « Nous tenterons de persuader son père, et nous le ferons certainement (venir). »"
   },
   {
     "id": "yusuf-62",
@@ -7393,7 +7454,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ لِفِتْيَـٰنِهِ ٱجْعَلُوا۟ بِضَـٰعَتَهُمْ فِى رِحَالِهِمْ لَعَلَّهُمْ يَعْرِفُونَهَآ إِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمْ لَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "وقال لفتيـنه ٱجعلوا بضـعتهم فى رحالهم لعلهم يعرفونهآ إذا ٱنقلبوٓا إلىٓ أهلهم لعلهم يرجعون",
     "transliteration": "waqāla lifit'yānihi ij'ʿalū biḍāʿatahum fī riḥālihim laʿallahum yaʿrifūnahā idhā inqalabū ilā ahlihim laʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And [Joseph] said to his servants, \"Put their merchandise into their saddlebags so they might recognize it when they have gone back to their people that perhaps they will [again] return.\"",
     "words": [
       {
         "id": "yusuf-62-1",
@@ -7494,7 +7555,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit à ses serviteurs : «Mettez leurs marchandises dans les bâts (de leurs bêtes), peut-être que s’ils les reconnaissent, une fois retournés chez eux, ils reviendront. »"
   },
   {
     "id": "yusuf-63",
@@ -7503,7 +7565,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَـٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
     "textSimple": "فلما رجعوٓا إلىٓ أبيهم قالوا يـٓأبانا منع منا ٱلكيل فأرسل معنآ أخانا نكتل وإنا له لحـفظون",
     "transliteration": "falammā rajaʿū ilā abīhim qālū yāabānā muniʿa minnā l-kaylu fa-arsil maʿanā akhānā naktal wa-innā lahu laḥāfiẓūna",
-    "translation": "",
+    "translation": "So when they returned to their father, they said, \"O our father, [further] measure has been denied to us, so send with us our brother [that] we will be given measure. And indeed, we will be his guardians.\"",
     "words": [
       {
         "id": "yusuf-63-1",
@@ -7618,7 +7680,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Revenus auprès de leur père, ils dirent : « Père ! Désormais, le ravitaillement nous sera refusé. Envoie donc avec nous notre frère pour que nous soyons approvisionnés. Nous veillerons bien sur lui. »"
   },
   {
     "id": "yusuf-64",
@@ -7627,7 +7690,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَـٰفِظًا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
     "textSimple": "قال هل ءامنكم عليه إلا كمآ أمنتكم علىٓ أخيه من قبل  فٱلله خير حـفظا  وهو أرحم ٱلرحمين",
     "transliteration": "qāla hal āmanukum ʿalayhi illā kamā amintukum ʿalā akhīhi min qablu fal-lahu khayrun ḥāfiẓan wahuwa arḥamu l-rāḥimīna",
-    "translation": "",
+    "translation": "He said, \"Should I entrust you with him except [under coercion] as I entrusted you with his brother before? But Allāh is the best guardian, and He is the most merciful of the merciful.\"",
     "words": [
       {
         "id": "yusuf-64-1",
@@ -7749,7 +7812,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Vous le confierai-je comme j’ai autrefois fait de son frère ? Mais Allah est le Meilleur gardien et Il est le plus Miséricordieux des miséricordieux ! »"
   },
   {
     "id": "yusuf-65",
@@ -7758,7 +7822,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا فَتَحُوا۟ مَتَـٰعَهُمْ وَجَدُوا۟ بِضَـٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَـٰٓأَبَانَا مَا نَبْغِى ۖ هَـٰذِهِۦ بِضَـٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍ ۖ ذَٰلِكَ كَيْلٌ يَسِيرٌ",
     "textSimple": "ولما فتحوا متـعهم وجدوا بضـعتهم ردت إليهم  قالوا يـٓأبانا ما نبغى  هـذه بضـعتنا ردت إلينا  ونمير أهلنا ونحفظ أخانا ونزداد كيل بعير  ذلك كيل يسير",
     "transliteration": "walammā fataḥū matāʿahum wajadū biḍāʿatahum ruddat ilayhim qālū yāabānā mā nabghī hādhihi biḍāʿatunā ruddat ilaynā wanamīru ahlanā wanaḥfaẓu akhānā wanazdādu kayla baʿīrin dhālika kaylun yasīrun",
-    "translation": "",
+    "translation": "And when they opened their baggage, they found their merchandise returned to them. They said, \"O our father, what [more] could we desire? This is our merchandise returned to us. And we will obtain supplies [i.e., food] for our family and protect our brother and obtain an increase of a camel's load; that is an easy measurement.\"",
     "words": [
       {
         "id": "yusuf-65-1",
@@ -7936,7 +8000,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais voilà que lorsqu’ils eurent défait leurs chargements, ils trouvèrent que leur marchandise leur avait été restituée. Ils dirent alors: « Père ! Que voulons-nous de mieux ? Ce sont là nos marchandises qui nous ont été restituées. Nous ravitaillerons donc notre famille, nous surveillerons notre frère et nous aurons encore le chargement d’un chameau supplémentaire ; ce sera un chargement facile (à obtenir). »"
   },
   {
     "id": "yusuf-66",
@@ -7945,7 +8010,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَنْ أُرْسِلَهُۥ مَعَكُمْ حَتَّىٰ تُؤْتُونِ مَوْثِقًا مِّنَ ٱللَّهِ لَتَأْتُنَّنِى بِهِۦٓ إِلَّآ أَن يُحَاطَ بِكُمْ ۖ فَلَمَّآ ءَاتَوْهُ مَوْثِقَهُمْ قَالَ ٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌ",
     "textSimple": "قال لن أرسله معكم حتى تؤتون موثقا من ٱلله لتأتننى بهٓ إلآ أن يحاط بكم  فلمآ ءاتوه موثقهم قال ٱلله على ما نقول وكيل",
     "transliteration": "qāla lan ur'silahu maʿakum ḥattā tu'tūni mawthiqan mina l-lahi latatunnanī bihi illā an yuḥāṭa bikum falammā ātawhu mawthiqahum qāla l-lahu ʿalā mā naqūlu wakīlun",
-    "translation": "",
+    "translation": "[Jacob] said, \"Never will I send him with you until you give me a promise [i.e., oath] by Allāh that you will bring him [back] to me, unless you should be surrounded [i.e., overcome by enemies].\" And when they had given their promise, he said, \"Allāh, over what we say, is Entrusted.\"",
     "words": [
       {
         "id": "yusuf-66-1",
@@ -8116,7 +8181,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Je ne l’enverrai pas avec vous, répondit-il, tant que vous n’aurez pas pris l’engagement devant Allah de me le ramener, à moins que vous ne soyez dans l’impossibilité de le faire. » Une fois cet engagement pris, il leur dit : « Allah est Garant de ce que nous disons. »"
   },
   {
     "id": "yusuf-67",
@@ -8125,7 +8191,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ يَـٰبَنِىَّ لَا تَدْخُلُوا۟ مِنۢ بَابٍ وَٰحِدٍ وَٱدْخُلُوا۟ مِنْ أَبْوَٰبٍ مُّتَفَرِّقَةٍ ۖ وَمَآ أُغْنِى عَنكُم مِّنَ ٱللَّهِ مِن شَىْءٍ ۖ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَعَلَيْهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ",
     "textSimple": "وقال يـبنى لا تدخلوا من باب وحد وٱدخلوا من أبوب متفرقة  ومآ أغنى عنكم من ٱلله من شىء  إن ٱلحكم إلا لله  عليه توكلت  وعليه فليتوكل ٱلمتوكلون",
     "transliteration": "waqāla yābaniyya lā tadkhulū min bābin wāḥidin wa-ud'khulū min abwābin mutafarriqatin wamā ugh'nī ʿankum mina l-lahi min shayin ini l-ḥuk'mu illā lillahi ʿalayhi tawakkaltu waʿalayhi falyatawakkali l-mutawakilūna",
-    "translation": "",
+    "translation": "And he said, \"O my sons, do not enter from one gate but enter from different gates; and I cannot avail you against [the decree of] Allāh at all. The decision is only for Allāh; upon Him I have relied, and upon Him let those who would rely [indeed] rely.\"",
     "words": [
       {
         "id": "yusuf-67-1",
@@ -8317,7 +8383,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il dit encore : « Mes fils ! N’entrez pas par une seule porte, entrez par des portes différentes, (même si) je ne puis vous être d’aucun secours contre le verdict d’Allah. Le Jugement appartient à Allah (Seul). C’est à Lui Seul que je m’en remets, et c’est à Lui Seul que doivent s’en remettre ceux qui cherchent à qui s’en remettre. »"
   },
   {
     "id": "yusuf-68",
@@ -8326,7 +8393,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا دَخَلُوا۟ مِنْ حَيْثُ أَمَرَهُمْ أَبُوهُم مَّا كَانَ يُغْنِى عَنْهُم مِّنَ ٱللَّهِ مِن شَىْءٍ إِلَّا حَاجَةً فِى نَفْسِ يَعْقُوبَ قَضَىٰهَا ۚ وَإِنَّهُۥ لَذُو عِلْمٍ لِّمَا عَلَّمْنَـٰهُ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
     "textSimple": "ولما دخلوا من حيث أمرهم أبوهم ما كان يغنى عنهم من ٱلله من شىء إلا حاجة فى نفس يعقوب قضىها  وإنه لذو علم لما علمنـه ولـكن أكثر ٱلناس لا يعلمون",
     "transliteration": "walammā dakhalū min ḥaythu amarahum abūhum mā kāna yugh'nī ʿanhum mina l-lahi min shayin illā ḥājatan fī nafsi yaʿqūba qaḍāhā wa-innahu ladhū ʿil'min limā ʿallamnāhu walākinna akthara l-nāsi lā yaʿlamūna",
-    "translation": "",
+    "translation": "And when they entered from where their father had ordered them, it did not avail them against Allāh at all except [it was] a need [i.e., concern] within the soul of Jacob, which he satisfied. And indeed, he was a possessor of knowledge because of what We had taught him, but most of the people do not know.",
     "words": [
       {
         "id": "yusuf-68-1",
@@ -8539,7 +8606,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils entrèrent par là où leur père le leur avait demandé, il n’y avait rien qui pût leur éviter le verdict d’Allah, sauf que Jacob avait jugé utile de leur recommander cette précaution. Car il possédait bien le savoir que Nous lui avons enseigné. Mais la plupart des hommes, eux, ne savent pas."
   },
   {
     "id": "yusuf-69",
@@ -8548,7 +8616,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَخَاهُ ۖ قَالَ إِنِّىٓ أَنَا۠ أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ولما دخلوا على يوسف ءاوىٓ إليه أخاه  قال إنىٓ أنا أخوك فلا تبتئس بما كانوا يعملون",
     "transliteration": "walammā dakhalū ʿalā yūsufa āwā ilayhi akhāhu qāla innī anā akhūka falā tabta-is bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "And when they entered upon Joseph, he took his brother to himself; he said, \"Indeed, I am your brother, so do not despair over what they used to do [to me].\"",
     "words": [
       {
         "id": "yusuf-69-1",
@@ -8663,7 +8731,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils furent introduits devant Joseph, ce dernier retint son frère (Benjamin) et lui dit : « Je suis ton frère. Ne t’attriste pas (d’apprendre) ce qu’ils faisaient. »"
   },
   {
     "id": "yusuf-70",
@@ -8672,7 +8741,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَـٰرِقُونَ",
     "textSimple": "فلما جهزهم بجهازهم جعل ٱلسقاية فى رحل أخيه ثم أذن مؤذن أيتها ٱلعير إنكم لسـرقون",
     "transliteration": "falammā jahhazahum bijahāzihim jaʿala l-siqāyata fī raḥli akhīhi thumma adhana mu-adhinun ayyatuhā l-ʿīru innakum lasāriqūna",
-    "translation": "",
+    "translation": "So when he had furnished them with their supplies, he put the [gold measuring] bowl into the bag of his brother. Then an announcer called out, \"O caravan, indeed you are thieves.\"",
     "words": [
       {
         "id": "yusuf-70-1",
@@ -8780,7 +8849,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il les eut approvisionnés, il enfouit la coupe (du roi) dans la sacoche de son frère. Aussitôt, un héraut cria : « Caravaniers ! Vous n’êtes que des voleurs ! »"
   },
   {
     "id": "yusuf-71",
@@ -8789,7 +8859,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا تَفْقِدُونَ",
     "textSimple": "قالوا وأقبلوا عليهم ماذا تفقدون",
     "transliteration": "qālū wa-aqbalū ʿalayhim mādhā tafqidūna",
-    "translation": "",
+    "translation": "They said while approaching them, \"What is it you are missing?\"",
     "words": [
       {
         "id": "yusuf-71-1",
@@ -8827,7 +8897,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils revinrent alors vers eux en disant : « Qu’avez-vous donc perdu ? »"
   },
   {
     "id": "yusuf-72",
@@ -8836,7 +8907,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍ وَأَنَا۠ بِهِۦ زَعِيمٌ",
     "textSimple": "قالوا نفقد صواع ٱلملك ولمن جآء به حمل بعير وأنا به زعيم",
     "transliteration": "qālū nafqidu ṣuwāʿa l-maliki waliman jāa bihi ḥim'lu baʿīrin wa-anā bihi zaʿīmun",
-    "translation": "",
+    "translation": "They said, \"We are missing the measure of the king. And for he who produces it is [the reward of] a camel's load, and I am responsible for it.\"",
     "words": [
       {
         "id": "yusuf-72-1",
@@ -8923,7 +8994,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous venons de perdre la coupe (à mesurer) du roi », dirent-ils. « Celui qui la rapportera aura (comme récompense) le chargement d’un chameau, je m’en porte garant ! », (ajouta le héraut)."
   },
   {
     "id": "yusuf-73",
@@ -8932,7 +9004,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ تَٱللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِى ٱلْأَرْضِ وَمَا كُنَّا سَـٰرِقِينَ",
     "textSimple": "قالوا تٱلله لقد علمتم ما جئنا لنفسد فى ٱلأرض وما كنا سـرقين",
     "transliteration": "qālū tal-lahi laqad ʿalim'tum mā ji'nā linuf'sida fī l-arḍi wamā kunnā sāriqīna",
-    "translation": "",
+    "translation": "They said, \"By Allāh, you have certainly known that we did not come to cause corruption in the land, and we have not been thieves.\"",
     "words": [
       {
         "id": "yusuf-73-1",
@@ -9019,7 +9091,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils répondirent : « Par Allah, vous savez bien que nous ne sommes pas venus en semeurs de désordre dans ce pays, et nous ne sommes pas des voleurs. »"
   },
   {
     "id": "yusuf-74",
@@ -9028,7 +9101,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ فَمَا جَزَٰٓؤُهُۥٓ إِن كُنتُمْ كَـٰذِبِينَ",
     "textSimple": "قالوا فما جزٓؤهٓ إن كنتم كـذبين",
     "transliteration": "qālū famā jazāuhu in kuntum kādhibīna",
-    "translation": "",
+    "translation": "They [the accusers] said, \"Then what would be its recompense if you should be liars?\"",
     "words": [
       {
         "id": "yusuf-74-1",
@@ -9073,7 +9146,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Et quelle en sera donc la sanction, s’il s’avère que vous êtes des menteurs ? » dirent les autres."
   },
   {
     "id": "yusuf-75",
@@ -9082,7 +9156,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّـٰلِمِينَ",
     "textSimple": "قالوا جزٓؤه من وجد فى رحله فهو جزٓؤه  كذلك نجزى ٱلظـلمين",
     "transliteration": "qālū jazāuhu man wujida fī raḥlihi fahuwa jazāuhu kadhālika najzī l-ẓālimīna",
-    "translation": "",
+    "translation": "[The brothers] said, \"Its recompense is that he in whose bag it is found - he [himself] will be its recompense. Thus do we recompense the wrongdoers.\"",
     "words": [
       {
         "id": "yusuf-75-1",
@@ -9162,7 +9236,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils répondirent : « La sanction sera (de livrer en esclave au propriétaire de la coupe) celui dans les bagages de qui elle aura été trouvée. Tel est, chez nous, le châtiment des injustes."
   },
   {
     "id": "yusuf-76",
@@ -9171,7 +9246,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَـٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
     "textSimple": "فبدأ بأوعيتهم قبل وعآء أخيه ثم ٱستخرجها من وعآء أخيه  كذلك كدنا ليوسف  ما كان ليأخذ أخاه فى دين ٱلملك إلآ أن يشآء ٱلله  نرفع درجـت من نشآء  وفوق كل ذى علم عليم",
     "transliteration": "fabada-a bi-awʿiyatihim qabla wiʿāi akhīhi thumma is'takhrajahā min wiʿāi akhīhi kadhālika kid'nā liyūsufa mā kāna liyakhudha akhāhu fī dīni l-maliki illā an yashāa l-lahu narfaʿu darajātin man nashāu wafawqa kulli dhī ʿil'min ʿalīmun",
-    "translation": "",
+    "translation": "So he began [the search] with their bags before the bag of his brother; then he extracted it from the bag of his brother. Thus did We plan for Joseph. He could not have taken his brother within the religion [i.e., law] of the king except that Allāh willed. We raise in degrees whom We will, but over every possessor of knowledge is one [more] knowing.",
     "words": [
       {
         "id": "yusuf-76-1",
@@ -9405,7 +9480,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Joseph) commença par (fouiller) leurs sacs avant celui de son frère, puis il la sortit du sac de celui-ci. C’est ainsi que Nous inspirâmes ce stratagème à Joseph, car, selon la loi du roi, il ne pouvait retenir son frère, à moins qu’Allah ne l’eût voulu. Nous élevons le rang de qui Nous voulons ; et au-dessus de tout savant, il y a plus savant encore."
   },
   {
     "id": "yusuf-77",
@@ -9414,7 +9490,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
     "textSimple": " قالوٓا إن يسرق فقد سرق أخ له من قبل  فأسرها يوسف فى نفسه ولم يبدها لهم  قال أنتم شر مكانا  وٱلله أعلم بما تصفون",
     "transliteration": "qālū in yasriq faqad saraqa akhun lahu min qablu fa-asarrahā yūsufu fī nafsihi walam yub'dihā lahum qāla antum sharrun makānan wal-lahu aʿlamu bimā taṣifūna",
-    "translation": "",
+    "translation": "They said, \"If he steals - a brother of his has stolen before.\" But Joseph kept it within himself and did not reveal it to them. He said, \"You are worse in position, and Allāh is most knowing of what you describe.\"",
     "words": [
       {
         "id": "yusuf-77-1",
@@ -9585,7 +9661,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « S’il vient de commettre un vol, un autre frère à lui, autrefois, a volé. Joseph contint sa réaction et ne leur montra rien. Il dit (dans le secret du cœur) : « Votre condition est encore bien pire. Allah en Sait mieux sur ce que vous êtes en train de raconter. »"
   },
   {
     "id": "yusuf-78",
@@ -9594,7 +9671,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰٓأَيُّهَا ٱلْعَزِيزُ إِنَّ لَهُۥٓ أَبًا شَيْخًا كَبِيرًا فَخُذْ أَحَدَنَا مَكَانَهُۥٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
     "textSimple": "قالوا يـٓأيها ٱلعزيز إن لهٓ أبا شيخا كبيرا فخذ أحدنا مكانهٓ  إنا نرىك من ٱلمحسنين",
     "transliteration": "qālū yāayyuhā l-ʿazīzu inna lahu aban shaykhan kabīran fakhudh aḥadanā makānahu innā narāka mina l-muḥ'sinīna",
-    "translation": "",
+    "translation": "They said, \"O ʿAzeez, indeed he has a father [who is] an old man, so take one of us in place of him. Indeed, we see you as a doer of good.\"",
     "words": [
       {
         "id": "yusuf-78-1",
@@ -9702,7 +9779,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ô Al-‘Aziz, il a un père très âgé, prends donc l’un de nous à sa place. Nous voyons en toi quelqu’un de bienfaisant. »"
   },
   {
     "id": "yusuf-79",
@@ -9711,7 +9789,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَـٰعَنَا عِندَهُۥٓ إِنَّآ إِذًا لَّظَـٰلِمُونَ",
     "textSimple": "قال معاذ ٱلله أن نأخذ إلا من وجدنا متـعنا عندهٓ إنآ إذا لظـلمون",
     "transliteration": "qāla maʿādha l-lahi an nakhudha illā man wajadnā matāʿanā ʿindahu innā idhan laẓālimūna",
-    "translation": "",
+    "translation": "He said, \"[I seek] the refuge of Allāh [to prevent] that we take except him with whom we found our possession. Indeed, we would then be unjust.\"",
     "words": [
       {
         "id": "yusuf-79-1",
@@ -9805,7 +9883,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Allah nous préserve de retenir un autre que celui chez qui nous avons retrouvé notre bien, ou alors nous serions vraiment injustes. »"
   },
   {
     "id": "yusuf-80",
@@ -9814,7 +9893,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَـٰكِمِينَ",
     "textSimple": "فلما ٱستيـٔسوا منه خلصوا نجيا  قال كبيرهم ألم تعلموٓا أن أباكم قد أخذ عليكم موثقا من ٱلله ومن قبل ما فرطتم فى يوسف  فلن أبرح ٱلأرض حتى يأذن لىٓ أبىٓ أو يحكم ٱلله لى  وهو خير ٱلحـكمين",
     "transliteration": "falammā is'tayasū min'hu khalaṣū najiyyan qāla kabīruhum alam taʿlamū anna abākum qad akhadha ʿalaykum mawthiqan mina l-lahi wamin qablu mā farraṭtum fī yūsufa falan abraḥa l-arḍa ḥattā yadhana lī abī aw yaḥkuma l-lahu lī wahuwa khayru l-ḥākimīna",
-    "translation": "",
+    "translation": "So when they had despaired of him, they secluded themselves in private consultation. The eldest of them said, \"Do you not know that your father has taken upon you an oath by Allāh and [that] before you failed in [your duty to] Joseph? So I will never leave [this] land until my father permits me or Allāh decides for me, and He is the best of judges.",
     "words": [
       {
         "id": "yusuf-80-1",
@@ -10076,7 +10155,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils eurent désespéré de (ramener leur frère), ils se mirent à l’écart et se consultèrent : « Ne savez-vous pas, dit l’aîné, que vous avez pris un engagement envers votre père et devant Allah, et que déjà vous avez autrefois laissé se perdre Joseph ? Non, je ne quitterai pas cette terre tant que mon père ne me l’aura pas permis, ou qu’Allah ne m’aura réservé un jugement favorable, car c’est Lui le Meilleur des juges."
   },
   {
     "id": "yusuf-81",
@@ -10085,7 +10165,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَـٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَـٰفِظِينَ",
     "textSimple": "ٱرجعوٓا إلىٓ أبيكم فقولوا يـٓأبانآ إن ٱبنك سرق وما شهدنآ إلا بما علمنا وما كنا للغيب حـفظين",
     "transliteration": "ir'jiʿū ilā abīkum faqūlū yāabānā inna ib'naka saraqa wamā shahid'nā illā bimā ʿalim'nā wamā kunnā lil'ghaybi ḥāfiẓīna",
-    "translation": "",
+    "translation": "Return to your father and say, 'O our father, indeed your son has stolen, and we did not testify except to what we knew. And we were not witnesses of the unseen.",
     "words": [
       {
         "id": "yusuf-81-1",
@@ -10207,7 +10287,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Revenez auprès de votre père et dites-lui : \"Père, ton fils a commis un vol. Nous ne témoignons ici que de ce que nous avons su, mais nous ne pouvons répondre de ce qui nous était inconnu."
   },
   {
     "id": "yusuf-82",
@@ -10216,7 +10297,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا وَٱلْعِيرَ ٱلَّتِىٓ أَقْبَلْنَا فِيهَا ۖ وَإِنَّا لَصَـٰدِقُونَ",
     "textSimple": "وسـٔل ٱلقرية ٱلتى كنا فيها وٱلعير ٱلتىٓ أقبلنا فيها  وإنا لصـدقون",
     "transliteration": "wasali l-qaryata allatī kunnā fīhā wal-ʿīra allatī aqbalnā fīhā wa-innā laṣādiqūna",
-    "translation": "",
+    "translation": "And ask the city in which we were and the caravan in which we came - and indeed, we are truthful.'\"",
     "words": [
       {
         "id": "yusuf-82-1",
@@ -10296,7 +10377,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Interroge aussi la cité où nous étions et la caravane dans laquelle nous sommes venus. (Tu sauras bien que) nous te disons la vérité.\" »"
   },
   {
     "id": "yusuf-83",
@@ -10305,7 +10387,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
     "textSimple": "قال بل سولت لكم أنفسكم أمرا  فصبر جميل  عسى ٱلله أن يأتينى بهم جميعا  إنه هو ٱلعليم ٱلحكيم",
     "transliteration": "qāla bal sawwalat lakum anfusukum amran faṣabrun jamīlun ʿasā l-lahu an yatiyanī bihim jamīʿan innahu huwa l-ʿalīmu l-ḥakīmu",
-    "translation": "",
+    "translation": "[Jacob] said, \"Rather, your souls have enticed you to something, so patience is most fitting. Perhaps Allāh will bring them to me all together. Indeed, it is He who is the Knowing, the Wise.\"",
     "words": [
       {
         "id": "yusuf-83-1",
@@ -10434,7 +10516,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Jacob) dit : « Ce sont plutôt vos âmes qui vous ont induits à (commettre) quelque chose (de répréhensible). Je n’ai plus qu’à (m’armer) d’une digne patience. Allah peut-être me les rendra tous les deux, car c’est Lui l’Omniscient, le Sage. »"
   },
   {
     "id": "yusuf-84",
@@ -10443,7 +10526,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ",
     "textSimple": "وتولى عنهم وقال يـٓأسفى على يوسف وٱبيضت عيناه من ٱلحزن فهو كظيم",
     "transliteration": "watawallā ʿanhum waqāla yāasafā ʿalā yūsufa wa-ib'yaḍḍat ʿaynāhu mina l-ḥuz'ni fahuwa kaẓīmun",
-    "translation": "",
+    "translation": "And he turned away from them and said, \"Oh, my sorrow over Joseph,\" and his eyes became white from grief, for he was [of that] a suppressor.",
     "words": [
       {
         "id": "yusuf-84-1",
@@ -10530,7 +10613,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur tourna le dos et dit : «Hélas ! Que mon chagrin pour Joseph est profond ! » Et ses yeux blanchirent de tristesse. Il contenait mal sa douleur."
   },
   {
     "id": "yusuf-85",
@@ -10539,7 +10623,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَـٰلِكِينَ",
     "textSimple": "قالوا تٱلله تفتؤا تذكر يوسف حتى تكون حرضا أو تكون من ٱلهـلكين",
     "transliteration": "qālū tal-lahi tafta-u tadhkuru yūsufa ḥattā takūna ḥaraḍan aw takūna mina l-hālikīna",
-    "translation": "",
+    "translation": "They said, \"By Allāh, you will not cease remembering Joseph until you become fatally ill or become of those who perish.\"",
     "words": [
       {
         "id": "yusuf-85-1",
@@ -10626,7 +10710,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Par Allah ! Tu n’auras de cesse d’évoquer Joseph jusqu’à ce que tu sois usé ou que tu rejoignes les morts ! »"
   },
   {
     "id": "yusuf-86",
@@ -10635,7 +10720,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "قال إنمآ أشكوا بثى وحزنىٓ إلى ٱلله وأعلم من ٱلله ما لا تعلمون",
     "transliteration": "qāla innamā ashkū bathī waḥuz'nī ilā l-lahi wa-aʿlamu mina l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "He said, \"I only complain of my suffering and my grief to Allāh, and I know from Allāh that which you do not know.",
     "words": [
       {
         "id": "yusuf-86-1",
@@ -10729,7 +10814,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « Ce n’est qu’à Allah que me je plains de ma déchirure et de mon chagrin. Et d’Allah, je sais ce que vous ne savez pas."
   },
   {
     "id": "yusuf-87",
@@ -10738,7 +10824,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَـٰفِرُونَ",
     "textSimple": "يـبنى ٱذهبوا فتحسسوا من يوسف وأخيه ولا تايـٔسوا من روح ٱلله  إنه لا يايـٔس من روح ٱلله إلا ٱلقوم ٱلكـفرون",
     "transliteration": "yābaniyya idh'habū fataḥassasū min yūsufa wa-akhīhi walā tāy'asū min rawḥi l-lahi innahu lā yāy'asu min rawḥi l-lahi illā l-qawmu l-kāfirūna",
-    "translation": "",
+    "translation": "O my sons, go and find out about Joseph and his brother and despair not of relief from Allāh. Indeed, no one despairs of relief from Allāh except the disbelieving people.\"",
     "words": [
       {
         "id": "yusuf-87-1",
@@ -10881,7 +10967,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô mes fils ! Partez à la recherche de Joseph et de son frère. Ne désespérez surtout pas de la clémence d’Allah, car seuls désespèrent de Sa clémence les gens mécréants. »"
   },
   {
     "id": "yusuf-88",
@@ -10890,7 +10977,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا دَخَلُوا۟ عَلَيْهِ قَالُوا۟ يَـٰٓأَيُّهَا ٱلْعَزِيزُ مَسَّنَا وَأَهْلَنَا ٱلضُّرُّ وَجِئْنَا بِبِضَـٰعَةٍ مُّزْجَىٰةٍ فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ ۖ إِنَّ ٱللَّهَ يَجْزِى ٱلْمُتَصَدِّقِينَ",
     "textSimple": "فلما دخلوا عليه قالوا يـٓأيها ٱلعزيز مسنا وأهلنا ٱلضر وجئنا ببضـعة مزجىة فأوف لنا ٱلكيل وتصدق علينآ  إن ٱلله يجزى ٱلمتصدقين",
     "transliteration": "falammā dakhalū ʿalayhi qālū yāayyuhā l-ʿazīzu massanā wa-ahlanā l-ḍuru waji'nā bibiḍāʿatin muz'jātin fa-awfi lanā l-kayla wataṣaddaq ʿalaynā inna l-laha yajzī l-mutaṣadiqīna",
-    "translation": "",
+    "translation": "So when they entered upon him [i.e., Joseph], they said, \"O ʿAzeez, adversity has touched us and our family, and we have come with goods poor in quality, but give us full measure and be charitable to us. Indeed, Allāh rewards the charitable.\"",
     "words": [
       {
         "id": "yusuf-88-1",
@@ -11040,7 +11127,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils se présentèrent devant (Joseph), ils dirent : « Ô Al-‘Aziz ! Le malheur nous a frappés, nous et les nôtres, et nous sommes venus avec une marchandise de peu de valeur. Veuille nous donner bonne mesure et sois charitable avec nous : Allah récompense les hommes charitables. »"
   },
   {
     "id": "yusuf-89",
@@ -11049,7 +11137,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَلْ عَلِمْتُم مَّا فَعَلْتُم بِيُوسُفَ وَأَخِيهِ إِذْ أَنتُمْ جَـٰهِلُونَ",
     "textSimple": "قال هل علمتم ما فعلتم بيوسف وأخيه إذ أنتم جـهلون",
     "transliteration": "qāla hal ʿalim'tum mā faʿaltum biyūsufa wa-akhīhi idh antum jāhilūna",
-    "translation": "",
+    "translation": "He said, \"Do you know what you did with Joseph and his brother when you were ignorant?\"",
     "words": [
       {
         "id": "yusuf-89-1",
@@ -11122,7 +11210,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Savez-vous ce que vous avez fait de Joseph et de son frère quand vous pataugiez dans l’ignorance ? »"
   },
   {
     "id": "yusuf-90",
@@ -11131,7 +11220,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَـٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
     "textSimple": "قالوٓا أءنك لأنت يوسف  قال أنا يوسف وهـذآ أخى  قد من ٱلله علينآ  إنه من يتق ويصبر فإن ٱلله لا يضيع أجر ٱلمحسنين",
     "transliteration": "qālū a-innaka la-anta yūsufu qāla anā yūsufu wahādhā akhī qad manna l-lahu ʿalaynā innahu man yattaqi wayaṣbir fa-inna l-laha lā yuḍīʿu ajra l-muḥ'sinīna",
-    "translation": "",
+    "translation": "They said, \"Are you indeed Joseph?\" He said, \"I am Joseph, and this is my brother. Allāh has certainly favored us. Indeed, he who fears Allāh and is patient, then indeed, Allāh does not allow to be lost the reward of those who do good.\"",
     "words": [
       {
         "id": "yusuf-90-1",
@@ -11295,7 +11384,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Tu dois être Joseph ! » « Je suis Joseph, répondit-il, et voilà mon frère. Allah nous a privilégiés, car ceux qui ont la piété et sont patients (doivent savoir qu’) Allah ne laisse pas se perdre la récompense des bienfaiteurs. »"
   },
   {
     "id": "yusuf-91",
@@ -11304,7 +11394,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَـٰطِـِٔينَ",
     "textSimple": "قالوا تٱلله لقد ءاثرك ٱلله علينا وإن كنا لخـطـٔين",
     "transliteration": "qālū tal-lahi laqad ātharaka l-lahu ʿalaynā wa-in kunnā lakhāṭiīna",
-    "translation": "",
+    "translation": "They said, \"By Allāh, certainly has Allāh preferred you over us, and indeed, we have been sinners.\"",
     "words": [
       {
         "id": "yusuf-91-1",
@@ -11370,7 +11460,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Par Allah, dirent-ils, Allah t’a préféré à nous et nous étions coupables. »"
   },
   {
     "id": "yusuf-92",
@@ -11379,7 +11470,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
     "textSimple": "قال لا تثريب عليكم ٱليوم  يغفر ٱلله لكم  وهو أرحم ٱلرحمين",
     "transliteration": "qāla lā tathrība ʿalaykumu l-yawma yaghfiru l-lahu lakum wahuwa arḥamu l-rāḥimīna",
-    "translation": "",
+    "translation": "He said, \"No blame will there be upon you today. May Allāh forgive you; and He is the most merciful of the merciful.",
     "words": [
       {
         "id": "yusuf-92-1",
@@ -11459,7 +11550,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Je n’ai point à réclamer contre vous aujourd’hui. Qu’Allah vous pardonne ! Il est en effet le plus Miséricordieux des miséricordieux."
   },
   {
     "id": "yusuf-93",
@@ -11468,7 +11560,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱذْهَبُوا۟ بِقَمِيصِى هَـٰذَا فَأَلْقُوهُ عَلَىٰ وَجْهِ أَبِى يَأْتِ بَصِيرًا وَأْتُونِى بِأَهْلِكُمْ أَجْمَعِينَ",
     "textSimple": "ٱذهبوا بقميصى هـذا فألقوه على وجه أبى يأت بصيرا وأتونى بأهلكم أجمعين",
     "transliteration": "idh'habū biqamīṣī hādhā fa-alqūhu ʿalā wajhi abī yati baṣīran watūnī bi-ahlikum ajmaʿīna",
-    "translation": "",
+    "translation": "Take this, my shirt, and cast it over the face of my father; he will become seeing. And bring me your family, all together.\"",
     "words": [
       {
         "id": "yusuf-93-1",
@@ -11555,7 +11647,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prenez avec vous ma tunique que voici. Mettez-la sur le visage de mon père : il recouvrera la vue ; puis ramenez vers moi toute votre famille. »"
   },
   {
     "id": "yusuf-94",
@@ -11564,7 +11657,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن تُفَنِّدُونِ",
     "textSimple": "ولما فصلت ٱلعير قال أبوهم إنى لأجد ريح يوسف  لولآ أن تفندون",
     "transliteration": "walammā faṣalati l-ʿīru qāla abūhum innī la-ajidu rīḥa yūsufa lawlā an tufannidūni",
-    "translation": "",
+    "translation": "And when the caravan departed [from Egypt], their father said, \"Indeed, I find the smell of Joseph [and would say that he was alive] if you did not think me weakened in mind.\"",
     "words": [
       {
         "id": "yusuf-94-1",
@@ -11651,7 +11744,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dès que la caravane eut franchi les frontières, leur père dit : « Je distingue l’odeur de Joseph, même si vous dites que je divague. »"
   },
   {
     "id": "yusuf-95",
@@ -11660,7 +11754,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَـٰلِكَ ٱلْقَدِيمِ",
     "textSimple": "قالوا تٱلله إنك لفى ضلـلك ٱلقديم",
     "transliteration": "qālū tal-lahi innaka lafī ḍalālika l-qadīmi",
-    "translation": "",
+    "translation": "They said, \"By Allāh, indeed you are in your [same] old error.\"",
     "words": [
       {
         "id": "yusuf-95-1",
@@ -11705,7 +11799,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent alors : « Par Allah ! Tu es toujours dans ton égarement d’autrefois. »"
   },
   {
     "id": "yusuf-96",
@@ -11714,7 +11809,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
     "textSimple": "فلمآ أن جآء ٱلبشير ألقىه على وجهه فٱرتد بصيرا  قال ألم أقل لكم إنىٓ أعلم من ٱلله ما لا تعلمون",
     "transliteration": "falammā an jāa l-bashīru alqāhu ʿalā wajhihi fa-ir'tadda baṣīran qāla alam aqul lakum innī aʿlamu mina l-lahi mā lā taʿlamūna",
-    "translation": "",
+    "translation": "And when the bearer of good tidings arrived, he cast it over his face, and he returned [once again] seeing. He said, \"Did I not tell you that I know from Allāh that which you do not know?\"",
     "words": [
       {
         "id": "yusuf-96-1",
@@ -11857,7 +11952,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand le porteur de l’heureuse nouvelle fut arrivé, il mit (la tunique) sur le visage du (père) qui, aussitôt, recouvra la vue. Il dit : « Ne vous avais-je pas dit que je sais de la part d’Allah ce que vous ne savez pas ? »"
   },
   {
     "id": "yusuf-97",
@@ -11866,7 +11962,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَـٰطِـِٔينَ",
     "textSimple": "قالوا يـٓأبانا ٱستغفر لنا ذنوبنآ إنا كنا خـطـٔين",
     "transliteration": "qālū yāabānā is'taghfir lanā dhunūbanā innā kunnā khāṭiīna",
-    "translation": "",
+    "translation": "They said, \"O our father, ask for us forgiveness of our sins; indeed, we have been sinners.\"",
     "words": [
       {
         "id": "yusuf-97-1",
@@ -11925,7 +12021,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Père ! Implore pour nous le pardon de nos péchés, car nous étions coupables. »"
   },
   {
     "id": "yusuf-98",
@@ -11934,7 +12031,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
     "textSimple": "قال سوف أستغفر لكم ربىٓ  إنه هو ٱلغفور ٱلرحيم",
     "transliteration": "qāla sawfa astaghfiru lakum rabbī innahu huwa l-ghafūru l-raḥīmu",
-    "translation": "",
+    "translation": "He said, \"I will ask forgiveness for you from my Lord. Indeed, it is He who is the Forgiving, the Merciful.\"",
     "words": [
       {
         "id": "yusuf-98-1",
@@ -12000,7 +12097,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « J’implorerai pour vous le pardon de mon Seigneur, car c’est Lui l’Absoluteur, le Tout Miséricordieux. »"
   },
   {
     "id": "yusuf-99",
@@ -12009,7 +12107,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَبَوَيْهِ وَقَالَ ٱدْخُلُوا۟ مِصْرَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ",
     "textSimple": "فلما دخلوا على يوسف ءاوىٓ إليه أبويه وقال ٱدخلوا مصر إن شآء ٱلله ءامنين",
     "transliteration": "falammā dakhalū ʿalā yūsufa āwā ilayhi abawayhi waqāla ud'khulū miṣ'ra in shāa l-lahu āminīna",
-    "translation": "",
+    "translation": "And when they entered upon Joseph, he took his parents to himself [i.e., embraced them] and said, \"Enter Egypt, Allāh willing, safe [and secure].\"",
     "words": [
       {
         "id": "yusuf-99-1",
@@ -12110,7 +12208,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque (Jacob et sa famille) se présentèrent devant Joseph, celui-ci accueillit (fort chaleureusement) son père et sa mère, puis leur dit : « Entrez en Égypte si le veut Allah, et (vivez-y) en toute sécurité. »"
   },
   {
     "id": "yusuf-100",
@@ -12119,7 +12218,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَـٰٓأَبَتِ هَـٰذَا تَأْوِيلُ رُءْيَـٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَـٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
     "textSimple": "ورفع أبويه على ٱلعرش وخروا له سجدا  وقال يـٓأبت هـذا تأويل رءيـى من قبل قد جعلها ربى حقا  وقد أحسن بىٓ إذ أخرجنى من ٱلسجن وجآء بكم من ٱلبدو من بعد أن نزغ ٱلشيطـن بينى وبين إخوتىٓ  إن ربى لطيف لما يشآء  إنه هو ٱلعليم ٱلحكيم",
     "transliteration": "warafaʿa abawayhi ʿalā l-ʿarshi wakharrū lahu sujjadan waqāla yāabati hādhā tawīlu ru'yāya min qablu qad jaʿalahā rabbī ḥaqqan waqad aḥsana bī idh akhrajanī mina l-sij'ni wajāa bikum mina l-badwi min baʿdi an nazagha l-shayṭānu baynī wabayna ikh'watī inna rabbī laṭīfun limā yashāu innahu huwa l-ʿalīmu l-ḥakīmu",
-    "translation": "",
+    "translation": "And he raised his parents upon the throne, and they bowed to him in prostration. And he said, \"O my father, this is the explanation of my vision of before. My Lord has made it reality. And He was certainly good to me when He took me out of prison and brought you [here] from bedouin life after Satan had induced [estrangement] between me and my brothers. Indeed, my Lord is Subtle in what He wills. Indeed, it is He who is the Knowing, the Wise.",
     "words": [
       {
         "id": "yusuf-100-1",
@@ -12444,7 +12543,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 45
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il installa son père et sa mère bien haut sur le trône et tous se prosternèrent devant lui. « Père, dit Joseph, voici l’interprétation de mon rêve d’autrefois. Allah l’a rendu réel. Il a déjà été infiniment bon avec moi en me faisant libérer de prison, puis en vous faisant venir du désert, après que Satan nous eut induits à la discorde, mes frères et moi. Mon Seigneur est plein de sollicitude envers ce qu’Il veut. Et c’est Lui l’Omniscient, le Sage."
   },
   {
     "id": "yusuf-101",
@@ -12453,7 +12553,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
     "textSimple": " رب قد ءاتيتنى من ٱلملك وعلمتنى من تأويل ٱلأحاديث  فاطر ٱلسمـوت وٱلأرض أنت ولى فى ٱلدنيا وٱلـٔاخرة  توفنى مسلما وألحقنى بٱلصـلحين",
     "transliteration": "rabbi qad ātaytanī mina l-mul'ki waʿallamtanī min tawīli l-aḥādīthi fāṭira l-samāwāti wal-arḍi anta waliyyī fī l-dun'yā wal-ākhirati tawaffanī mus'liman wa-alḥiq'nī bil-ṣāliḥīna",
-    "translation": "",
+    "translation": "My Lord, You have given me [something] of sovereignty and taught me of the interpretation of dreams. Creator of the heavens and earth, You are my protector in this world and the Hereafter. Cause me to die a Muslim and join me with the righteous.\"",
     "words": [
       {
         "id": "yusuf-101-1",
@@ -12603,7 +12703,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô mon Seigneur ! Tu m’as accordé une part d’autorité et m’as enseigné l’art d’interpréter les songes. Créateur Premier des cieux et de la terre ! Tu es mon protecteur en ce bas monde et dans l’autre, rappelle-moi à Toi en être Soumis et fais que je rejoigne la communauté des vertueux ! »"
   },
   {
     "id": "yusuf-102",
@@ -12612,7 +12713,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۖ وَمَا كُنتَ لَدَيْهِمْ إِذْ أَجْمَعُوٓا۟ أَمْرَهُمْ وَهُمْ يَمْكُرُونَ",
     "textSimple": "ذلك من أنبآء ٱلغيب نوحيه إليك  وما كنت لديهم إذ أجمعوٓا أمرهم وهم يمكرون",
     "transliteration": "dhālika min anbāi l-ghaybi nūḥīhi ilayka wamā kunta ladayhim idh ajmaʿū amrahum wahum yamkurūna",
-    "translation": "",
+    "translation": "That is from the news of the unseen which We reveal, [O Muḥammad], to you. And you were not with them when they put together their plan while they conspired.",
     "words": [
       {
         "id": "yusuf-102-1",
@@ -12713,7 +12814,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà des récits qui te sont inconnus et que Nous te révélons. Car tu n’y étais pas quand ils avaient décidé unanimement de tramer leur intrigue."
   },
   {
     "id": "yusuf-103",
@@ -12722,7 +12824,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَكْثَرُ ٱلنَّاسِ وَلَوْ حَرَصْتَ بِمُؤْمِنِينَ",
     "textSimple": "ومآ أكثر ٱلناس ولو حرصت بمؤمنين",
     "transliteration": "wamā aktharu l-nāsi walaw ḥaraṣta bimu'minīna",
-    "translation": "",
+    "translation": "And most of the people, although you strive [for it], are not believers.",
     "words": [
       {
         "id": "yusuf-103-1",
@@ -12767,7 +12869,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et la plupart des hommes, quoi que tu fasses, ne sont pas croyants."
   },
   {
     "id": "yusuf-104",
@@ -12776,7 +12879,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَسْـَٔلُهُمْ عَلَيْهِ مِنْ أَجْرٍ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ",
     "textSimple": "وما تسـٔلهم عليه من أجر  إن هو إلا ذكر للعـلمين",
     "transliteration": "wamā tasaluhum ʿalayhi min ajrin in huwa illā dhik'run lil'ʿālamīna",
-    "translation": "",
+    "translation": "And you do not ask of them for it any payment. It is not except a reminder to the worlds.",
     "words": [
       {
         "id": "yusuf-104-1",
@@ -12849,7 +12952,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu ne leur réclames pour cela aucune récompense, car ce n’est qu’un rappel adressé à l’univers."
   },
   {
     "id": "yusuf-105",
@@ -12858,7 +12962,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأَيِّن مِّنْ ءَايَةٍ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ يَمُرُّونَ عَلَيْهَا وَهُمْ عَنْهَا مُعْرِضُونَ",
     "textSimple": "وكأين من ءاية فى ٱلسمـوت وٱلأرض يمرون عليها وهم عنها معرضون",
     "transliteration": "waka-ayyin min āyatin fī l-samāwāti wal-arḍi yamurrūna ʿalayhā wahum ʿanhā muʿ'riḍūna",
-    "translation": "",
+    "translation": "And how many a sign within the heavens and earth do they pass over while they, therefrom, are turning away.",
     "words": [
       {
         "id": "yusuf-105-1",
@@ -12938,7 +13042,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de Signes il y a dans les cieux et sur terre près desquels les hommes passent en se détournant !"
   },
   {
     "id": "yusuf-106",
@@ -12947,7 +13052,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يُؤْمِنُ أَكْثَرُهُم بِٱللَّهِ إِلَّا وَهُم مُّشْرِكُونَ",
     "textSimple": "وما يؤمن أكثرهم بٱلله إلا وهم مشركون",
     "transliteration": "wamā yu'minu aktharuhum bil-lahi illā wahum mush'rikūna",
-    "translation": "",
+    "translation": "And most of them believe not in Allāh except while they associate others with Him.",
     "words": [
       {
         "id": "yusuf-106-1",
@@ -12999,7 +13104,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La plupart d’entre eux ne croient en Allah qu’en Lui prêtant des associés."
   },
   {
     "id": "yusuf-107",
@@ -13008,7 +13114,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَـٰشِيَةٌ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "أفأمنوٓا أن تأتيهم غـشية من عذاب ٱلله أو تأتيهم ٱلساعة بغتة وهم لا يشعرون",
     "transliteration": "afa-aminū an tatiyahum ghāshiyatun min ʿadhābi l-lahi aw tatiyahumu l-sāʿatu baghtatan wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "Then do they feel secure that there will not come to them an overwhelming [aspect] of the punishment of Allāh or that the Hour will not come upon them suddenly while they do not perceive?",
     "words": [
       {
         "id": "yusuf-107-1",
@@ -13109,7 +13215,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sont-ils si rassurés de ne pas voir le châtiment d’Allah les envelopper ou de ne pas être surpris par l’Heure qui leur viendra soudain et sans qu’ils le sentent ?"
   },
   {
     "id": "yusuf-108",
@@ -13118,7 +13225,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هَـٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى ۖ وَسُبْحَـٰنَ ٱللَّهِ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
     "textSimple": "قل هـذه سبيلىٓ أدعوٓا إلى ٱلله  على بصيرة أنا ومن ٱتبعنى  وسبحـن ٱلله ومآ أنا من ٱلمشركين",
     "transliteration": "qul hādhihi sabīlī adʿū ilā l-lahi ʿalā baṣīratin anā wamani ittabaʿanī wasub'ḥāna l-lahi wamā anā mina l-mush'rikīna",
-    "translation": "",
+    "translation": "Say, \"This is my way; I invite to Allāh with insight, I and those who follow me. And exalted is Allāh; and I am not of those who associate others with Him.\"",
     "words": [
       {
         "id": "yusuf-108-1",
@@ -13240,7 +13347,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Voici donc mon chemin, j’appelle à Allah en toute connaissance (et muni de preuves certaines), moi et ceux qui me suivent. Gloire soit rendue à Allah ! Je ne suis pas du nombre des associâtres. »"
   },
   {
     "id": "yusuf-109",
@@ -13249,7 +13357,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًا نُّوحِىٓ إِلَيْهِم مِّنْ أَهْلِ ٱلْقُرَىٰٓ ۗ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۗ وَلَدَارُ ٱلْـَٔاخِرَةِ خَيْرٌ لِّلَّذِينَ ٱتَّقَوْا۟ ۗ أَفَلَا تَعْقِلُونَ",
     "textSimple": "ومآ أرسلنا من قبلك إلا رجالا نوحىٓ إليهم من أهل ٱلقرىٓ  أفلم يسيروا فى ٱلأرض فينظروا كيف كان عـقبة ٱلذين من قبلهم  ولدار ٱلـٔاخرة خير للذين ٱتقوا  أفلا تعقلون",
     "transliteration": "wamā arsalnā min qablika illā rijālan nūḥī ilayhim min ahli l-qurā afalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim waladāru l-ākhirati khayrun lilladhīna ittaqaw afalā taʿqilūna",
-    "translation": "",
+    "translation": "And We sent not before you [as messengers] except men to whom We revealed from among the people of cities. So have they not traveled through the earth and observed how was the end of those before them? And the home of the Hereafter is best for those who fear Allāh; then will you not reason?",
     "words": [
       {
         "id": "yusuf-109-1",
@@ -13455,7 +13563,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé avant toi, parmi les habitants des cités, que des hommes auxquels Nous avons inspiré des révélations. (Ceux qui osent te démentir, ô Muhammad) n’ont-ils donc pas parcouru le monde ? N’ont-ils pas vu quel fut le sort de ceux qui vécurent avant eux ? L’ultime demeure est certes meilleure pour ceux qui craignent (Allah). N’entendez-vous pas raison ?"
   },
   {
     "id": "yusuf-110",
@@ -13464,7 +13573,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا ٱسْتَيْـَٔسَ ٱلرُّسُلُ وَظَنُّوٓا۟ أَنَّهُمْ قَدْ كُذِبُوا۟ جَآءَهُمْ نَصْرُنَا فَنُجِّىَ مَن نَّشَآءُ ۖ وَلَا يُرَدُّ بَأْسُنَا عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ",
     "textSimple": "حتىٓ إذا ٱستيـٔس ٱلرسل وظنوٓا أنهم قد كذبوا جآءهم نصرنا فنجى من نشآء  ولا يرد بأسنا عن ٱلقوم ٱلمجرمين",
     "transliteration": "ḥattā idhā is'tayasa l-rusulu waẓannū annahum qad kudhibū jāahum naṣrunā fanujjiya man nashāu walā yuraddu basunā ʿani l-qawmi l-muj'rimīna",
-    "translation": "",
+    "translation": "[They continued] until, when the messengers despaired and were certain that they had been denied, there came to them Our victory, and whoever We willed was saved. And Our punishment cannot be repelled from the people who are criminals.",
     "words": [
       {
         "id": "yusuf-110-1",
@@ -13600,7 +13709,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque, désespérés, les Messagers crurent qu’ils étaient définitivement désavoués, Notre secours leur parvint. Ceux que Nous voulions (sauver) étaient sauvés, mais Notre châtiment rigoureux ne peut être évité à la gent criminelle."
   },
   {
     "id": "yusuf-111",
@@ -13609,7 +13719,7 @@ export const YUSUF_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَـٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَـٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "لقد كان فى قصصهم عبرة لأولى ٱلألبـب  ما كان حديثا يفترى ولـكن تصديق ٱلذى بين يديه وتفصيل كل شىء وهدى ورحمة لقوم يؤمنون",
     "transliteration": "laqad kāna fī qaṣaṣihim ʿib'ratun li-ulī l-albābi mā kāna ḥadīthan yuf'tarā walākin taṣdīqa alladhī bayna yadayhi watafṣīla kulli shayin wahudan waraḥmatan liqawmin yu'minūna",
-    "translation": "",
+    "translation": "There was certainly in their stories a lesson for those of understanding. Never was it [i.e., the Qur’ān] a narration invented, but a confirmation of what was before it and a detailed explanation of all things and guidance and mercy for a people who believe.",
     "words": [
       {
         "id": "yusuf-111-1",
@@ -13773,7 +13883,8 @@ export const YUSUF_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans leurs récits, il est une leçon pour les esprits sagaces. Ce (Livre) n’est point paroles inventées mais une confirmation de ce qui l’a précédé, un exposé détaillé de toute chose, un guide (qui conduit vers la juste voie) et une miséricorde pour des gens qui ont la foi."
   }
 ];
 

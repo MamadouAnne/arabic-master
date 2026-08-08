@@ -11,7 +11,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلسَّمَآءِ وَٱلطَّارِقِ",
     "textSimple": " وٱلسمآء وٱلطارق",
     "transliteration": "wal-samāi wal-ṭāriqi",
-    "translation": "",
+    "translation": "By the sky and the night comer",
     "words": [
       {
         "id": "at-tariq-1-1",
@@ -28,7 +28,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le ciel et l’étoile nocturne !"
   },
   {
     "id": "at-tariq-2",
@@ -37,7 +38,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
     "textSimple": "ومآ أدرىك ما ٱلطارق",
     "transliteration": "wamā adrāka mā l-ṭāriqu",
-    "translation": "",
+    "translation": "And what can make you know what is the night comer?",
     "words": [
       {
         "id": "at-tariq-2-1",
@@ -68,7 +69,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est l’étoile nocturne ?"
   },
   {
     "id": "at-tariq-3",
@@ -77,7 +79,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلنَّجْمُ ٱلثَّاقِبُ",
     "textSimple": "ٱلنجم ٱلثاقب",
     "transliteration": "al-najmu l-thāqibu",
-    "translation": "",
+    "translation": "It is the piercing star",
     "words": [
       {
         "id": "at-tariq-3-1",
@@ -94,7 +96,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’étoile (à la lumière) pénétrante."
   },
   {
     "id": "at-tariq-4",
@@ -103,7 +106,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ",
     "textSimple": "إن كل نفس لما عليها حافظ",
     "transliteration": "in kullu nafsin lammā ʿalayhā ḥāfiẓun",
-    "translation": "",
+    "translation": "There is no soul but that it has over it a protector.",
     "words": [
       {
         "id": "at-tariq-4-1",
@@ -148,7 +151,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est pas d’âme qui n’ait son (Ange) gardien."
   },
   {
     "id": "at-tariq-5",
@@ -157,7 +161,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ مِمَّ خُلِقَ",
     "textSimple": "فلينظر ٱلإنسـن مم خلق",
     "transliteration": "falyanẓuri l-insānu mimma khuliqa",
-    "translation": "",
+    "translation": "So let man observe from what he was created.",
     "words": [
       {
         "id": "at-tariq-5-1",
@@ -188,7 +192,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que l’homme voie donc de quoi il est créé !"
   },
   {
     "id": "at-tariq-6",
@@ -197,7 +202,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
     "textSimple": "خلق من مآء دافق",
     "transliteration": "khuliqa min māin dāfiqin",
-    "translation": "",
+    "translation": "He was created from a fluid, ejected,",
     "words": [
       {
         "id": "at-tariq-6-1",
@@ -228,7 +233,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est créé d’une eau qui gicle,"
   },
   {
     "id": "at-tariq-7",
@@ -237,7 +243,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
     "textSimple": "يخرج من بين ٱلصلب وٱلترآئب",
     "transliteration": "yakhruju min bayni l-ṣul'bi wal-tarāibi",
-    "translation": "",
+    "translation": "Emerging from between the backbone and the ribs.",
     "words": [
       {
         "id": "at-tariq-7-1",
@@ -275,7 +281,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sortant d’entre les reins (de l’homme) et les côtes (de la femme)."
   },
   {
     "id": "at-tariq-8",
@@ -284,7 +291,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌ",
     "textSimple": "إنه على رجعه لقادر",
     "transliteration": "innahu ʿalā rajʿihi laqādirun",
-    "translation": "",
+    "translation": "Indeed, He [i.e., Allāh], to return him [to life], is Able.",
     "words": [
       {
         "id": "at-tariq-8-1",
@@ -315,7 +322,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) est certes Capable de le ressusciter."
   },
   {
     "id": "at-tariq-9",
@@ -324,7 +332,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
     "textSimple": "يوم تبلى ٱلسرآئر",
     "transliteration": "yawma tub'lā l-sarāiru",
-    "translation": "",
+    "translation": "The Day when secrets will be put on trial,",
     "words": [
       {
         "id": "at-tariq-9-1",
@@ -348,7 +356,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où les secrets seront révélés,"
   },
   {
     "id": "at-tariq-10",
@@ -357,7 +366,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا لَهُۥ مِن قُوَّةٍ وَلَا نَاصِرٍ",
     "textSimple": "فما له من قوة ولا ناصر",
     "transliteration": "famā lahu min quwwatin walā nāṣirin",
-    "translation": "",
+    "translation": "Then he [i.e., man] will have no power or any helper.",
     "words": [
       {
         "id": "at-tariq-10-1",
@@ -402,7 +411,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il n’aura ni force ni soutien."
   },
   {
     "id": "at-tariq-11",
@@ -411,7 +421,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
     "textSimple": "وٱلسمآء ذات ٱلرجع",
     "transliteration": "wal-samāi dhāti l-rajʿi",
-    "translation": "",
+    "translation": "By the sky which sends back",
     "words": [
       {
         "id": "at-tariq-11-1",
@@ -435,7 +445,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le ciel qui fait revenir (régulièrement la pluie) !"
   },
   {
     "id": "at-tariq-12",
@@ -444,7 +455,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
     "textSimple": "وٱلأرض ذات ٱلصدع",
     "transliteration": "wal-arḍi dhāti l-ṣadʿi",
-    "translation": "",
+    "translation": "And [by] the earth which splits,",
     "words": [
       {
         "id": "at-tariq-12-1",
@@ -468,7 +479,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la terre qui se fend (quand les graines viennent à pousser) !"
   },
   {
     "id": "at-tariq-13",
@@ -477,7 +489,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ لَقَوْلٌ فَصْلٌ",
     "textSimple": "إنه لقول فصل",
     "transliteration": "innahu laqawlun faṣlun",
-    "translation": "",
+    "translation": "Indeed, it [i.e., the Qur’ān] is a decisive statement,",
     "words": [
       {
         "id": "at-tariq-13-1",
@@ -501,7 +513,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est là, certes, une parole décisive,"
   },
   {
     "id": "at-tariq-14",
@@ -510,7 +523,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هُوَ بِٱلْهَزْلِ",
     "textSimple": "وما هو بٱلهزل",
     "transliteration": "wamā huwa bil-hazli",
-    "translation": "",
+    "translation": "And it is not amusement.",
     "words": [
       {
         "id": "at-tariq-14-1",
@@ -534,7 +547,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et non point des propos frivoles."
   },
   {
     "id": "at-tariq-15",
@@ -543,7 +557,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
     "textSimple": "إنهم يكيدون كيدا",
     "transliteration": "innahum yakīdūna kaydan",
-    "translation": "",
+    "translation": "Indeed, they are planning a plan,",
     "words": [
       {
         "id": "at-tariq-15-1",
@@ -567,7 +581,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils rusent de leur meilleure ruse,"
   },
   {
     "id": "at-tariq-16",
@@ -576,7 +591,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَكِيدُ كَيْدًا",
     "textSimple": "وأكيد كيدا",
     "transliteration": "wa-akīdu kaydan",
-    "translation": "",
+    "translation": "But I am planning a plan.",
     "words": [
       {
         "id": "at-tariq-16-1",
@@ -593,7 +608,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Je ruse de Ma meilleure ruse."
   },
   {
     "id": "at-tariq-17",
@@ -602,7 +618,7 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
     "textUthmani": "فَمَهِّلِ ٱلْكَـٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
     "textSimple": "فمهل ٱلكـفرين أمهلهم رويدا",
     "transliteration": "famahhili l-kāfirīna amhil'hum ruwaydan",
-    "translation": "",
+    "translation": "So allow time for the disbelievers. Leave them awhile.",
     "words": [
       {
         "id": "at-tariq-17-1",
@@ -633,7 +649,8 @@ export const AT_TARIQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accorde donc un délai aux mécréants, donne-leur répit pour quelque temps."
   }
 ];
 

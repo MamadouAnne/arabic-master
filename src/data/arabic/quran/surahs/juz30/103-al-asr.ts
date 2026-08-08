@@ -11,7 +11,7 @@ export const AL__ASR_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلْعَصْرِ",
     "textSimple": " وٱلعصر",
     "transliteration": "wal-ʿaṣri",
-    "translation": "",
+    "translation": "By time,",
     "words": [
       {
         "id": "al-asr-1-1",
@@ -21,7 +21,8 @@ export const AL__ASR_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le Temps!"
   },
   {
     "id": "al-asr-2",
@@ -30,7 +31,7 @@ export const AL__ASR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
     "textSimple": "إن ٱلإنسـن لفى خسر",
     "transliteration": "inna l-insāna lafī khus'rin",
-    "translation": "",
+    "translation": "Indeed, mankind is in loss,",
     "words": [
       {
         "id": "al-asr-2-1",
@@ -61,7 +62,8 @@ export const AL__ASR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme, en vérité, est en perdition,"
   },
   {
     "id": "al-asr-3",
@@ -70,7 +72,7 @@ export const AL__ASR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
     "textSimple": "إلا ٱلذين ءامنوا وعملوا ٱلصـلحـت وتواصوا بٱلحق وتواصوا بٱلصبر",
     "transliteration": "illā alladhīna āmanū waʿamilū l-ṣāliḥāti watawāṣaw bil-ḥaqi watawāṣaw bil-ṣabri",
-    "translation": "",
+    "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
     "words": [
       {
         "id": "al-asr-3-1",
@@ -136,7 +138,8 @@ export const AL__ASR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à l’exception de ceux qui ont cru, ont accompli les bonnes œuvres, se sont recommandé la vérité, et se sont recommandé la patience."
   }
 ];
 

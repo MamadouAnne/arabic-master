@@ -11,7 +11,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
     "textSimple": "بسم ٱلله ٱلرحمـن ٱلرحيم",
     "transliteration": "bis'mi l-lahi l-raḥmāni l-raḥīmi",
-    "translation": "",
+    "translation": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
     "words": [
       {
         "id": "al-fatihah-1-1",
@@ -42,7 +42,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au nom d’Allah, le Tout Clément, le Tout Miséricordieux."
   },
   {
     "id": "al-fatihah-2",
@@ -51,7 +52,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ٱلحمد لله رب ٱلعـلمين",
     "transliteration": "al-ḥamdu lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "[All] praise is [due] to Allāh, Lord of the worlds -",
     "words": [
       {
         "id": "al-fatihah-2-1",
@@ -82,7 +83,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Louange à Allah, Seigneur de l’Univers."
   },
   {
     "id": "al-fatihah-3",
@@ -91,7 +93,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
     "textSimple": "ٱلرحمـن ٱلرحيم",
     "transliteration": "al-raḥmāni l-raḥīmi",
-    "translation": "",
+    "translation": "The Entirely Merciful, the Especially Merciful,",
     "words": [
       {
         "id": "al-fatihah-3-1",
@@ -108,7 +110,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Tout Clément, le Tout Miséricordieux."
   },
   {
     "id": "al-fatihah-4",
@@ -117,7 +120,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
     "textSimple": "مـلك يوم ٱلدين",
     "transliteration": "māliki yawmi l-dīni",
-    "translation": "",
+    "translation": "Sovereign of the Day of Recompense.",
     "words": [
       {
         "id": "al-fatihah-4-1",
@@ -141,7 +144,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Souverain du Jour de la Rétribution."
   },
   {
     "id": "al-fatihah-5",
@@ -150,7 +154,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
     "textSimple": "إياك نعبد وإياك نستعين",
     "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʿīnu",
-    "translation": "",
+    "translation": "It is You we worship and You we ask for help.",
     "words": [
       {
         "id": "al-fatihah-5-1",
@@ -181,7 +185,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Toi (Seul) Que nous adorons, et c’est Toi (Seul) Dont nous cherchons l’assistance."
   },
   {
     "id": "al-fatihah-6",
@@ -190,7 +195,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
     "textSimple": "ٱهدنا ٱلصرط ٱلمستقيم",
     "transliteration": "ih'dinā l-ṣirāṭa l-mus'taqīma",
-    "translation": "",
+    "translation": "Guide us to the straight path -",
     "words": [
       {
         "id": "al-fatihah-6-1",
@@ -214,7 +219,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Guide-nous sur la voie droite,"
   },
   {
     "id": "al-fatihah-7",
@@ -223,7 +229,7 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
     "textUthmani": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
     "textSimple": "صرط ٱلذين أنعمت عليهم غير ٱلمغضوب عليهم ولا ٱلضآلين",
     "transliteration": "ṣirāṭa alladhīna anʿamta ʿalayhim ghayri l-maghḍūbi ʿalayhim walā l-ḍālīna",
-    "translation": "",
+    "translation": "The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
     "words": [
       {
         "id": "al-fatihah-7-1",
@@ -289,7 +295,8 @@ export const AL_FATIHAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "voie de ceux que Tu as comblés de Tes grâces, non celle des réprouvés, ni celle des égarés."
   }
 ];
 

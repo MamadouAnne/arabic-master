@@ -11,7 +11,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
     "textSimple": " إذا ٱلسمآء ٱنشقت",
     "transliteration": "idhā l-samāu inshaqqat",
-    "translation": "",
+    "translation": "When the sky has split [open]",
     "words": [
       {
         "id": "al-inshiqaq-1-1",
@@ -35,7 +35,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand le ciel sera lézardé,"
   },
   {
     "id": "al-inshiqaq-2",
@@ -44,7 +45,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
     "textSimple": "وأذنت لربها وحقت",
     "transliteration": "wa-adhinat lirabbihā waḥuqqat",
-    "translation": "",
+    "translation": "And has listened [i.e., responded] to its Lord and was obligated [to do so]",
     "words": [
       {
         "id": "al-inshiqaq-2-1",
@@ -68,7 +69,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’il aura obéi à son Seigneur et accompli son devoir,"
   },
   {
     "id": "al-inshiqaq-3",
@@ -77,7 +79,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
     "textSimple": "وإذا ٱلأرض مدت",
     "transliteration": "wa-idhā l-arḍu muddat",
-    "translation": "",
+    "translation": "And when the earth has been extended",
     "words": [
       {
         "id": "al-inshiqaq-3-1",
@@ -101,7 +103,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quand la terre sera aplanie,"
   },
   {
     "id": "al-inshiqaq-4",
@@ -110,7 +113,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
     "textSimple": "وألقت ما فيها وتخلت",
     "transliteration": "wa-alqat mā fīhā watakhallat",
-    "translation": "",
+    "translation": "And has cast out that within it and relinquished [it].",
     "words": [
       {
         "id": "al-inshiqaq-4-1",
@@ -141,7 +144,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qu’elle aura expulsé son contenu et s’en sera débarrassée,"
   },
   {
     "id": "al-inshiqaq-5",
@@ -150,7 +154,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
     "textSimple": "وأذنت لربها وحقت",
     "transliteration": "wa-adhinat lirabbihā waḥuqqat",
-    "translation": "",
+    "translation": "And has listened [i.e., responded] to its Lord and was obligated [to do so] -",
     "words": [
       {
         "id": "al-inshiqaq-5-1",
@@ -174,7 +178,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’elle aura obéi à son Seigneur et accompli son devoir,"
   },
   {
     "id": "al-inshiqaq-6",
@@ -183,7 +188,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلْإِنسَـٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَـٰقِيهِ",
     "textSimple": "يـٓأيها ٱلإنسـن إنك كادح إلى ربك كدحا فملـقيه",
     "transliteration": "yāayyuhā l-insānu innaka kādiḥun ilā rabbika kadḥan famulāqīhi",
-    "translation": "",
+    "translation": "O mankind, indeed you are laboring toward your Lord with [great] exertion and will meet it.",
     "words": [
       {
         "id": "al-inshiqaq-6-1",
@@ -242,7 +247,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors, ô toi être humain qui sans cesse t’évertues pour aller vers ton Seigneur, (sache que) tu Le rencontreras !"
   },
   {
     "id": "al-inshiqaq-7",
@@ -251,7 +257,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
     "textSimple": "فأما من أوتى كتـبه بيمينه",
     "transliteration": "fa-ammā man ūtiya kitābahu biyamīnihi",
-    "translation": "",
+    "translation": "Then as for he who is given his record in his right hand,",
     "words": [
       {
         "id": "al-inshiqaq-7-1",
@@ -289,7 +295,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui aura reçu son Livre en sa main droite"
   },
   {
     "id": "al-inshiqaq-8",
@@ -298,7 +305,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
     "textSimple": "فسوف يحاسب حسابا يسيرا",
     "transliteration": "fasawfa yuḥāsabu ḥisāban yasīran",
-    "translation": "",
+    "translation": "He will be judged with an easy account",
     "words": [
       {
         "id": "al-inshiqaq-8-1",
@@ -329,7 +336,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sera jugé d’un jugement clément,"
   },
   {
     "id": "al-inshiqaq-9",
@@ -338,7 +346,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
     "textSimple": "وينقلب إلىٓ أهله مسرورا",
     "transliteration": "wayanqalibu ilā ahlihi masrūran",
-    "translation": "",
+    "translation": "And return to his people in happiness.",
     "words": [
       {
         "id": "al-inshiqaq-9-1",
@@ -369,7 +377,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et s’en reviendra heureux auprès de sa famille."
   },
   {
     "id": "al-inshiqaq-10",
@@ -378,7 +387,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
     "textSimple": "وأما من أوتى كتـبه ورآء ظهره",
     "transliteration": "wa-ammā man ūtiya kitābahu warāa ẓahrihi",
-    "translation": "",
+    "translation": "But as for he who is given his record behind his back,",
     "words": [
       {
         "id": "al-inshiqaq-10-1",
@@ -423,7 +432,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui recevra son Livre derrière son dos,"
   },
   {
     "id": "al-inshiqaq-11",
@@ -432,7 +442,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَسَوْفَ يَدْعُوا۟ ثُبُورًا",
     "textSimple": "فسوف يدعوا ثبورا",
     "transliteration": "fasawfa yadʿū thubūran",
-    "translation": "",
+    "translation": "He will cry out for destruction",
     "words": [
       {
         "id": "al-inshiqaq-11-1",
@@ -456,7 +466,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il criera au malheur"
   },
   {
     "id": "al-inshiqaq-12",
@@ -465,7 +476,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَيَصْلَىٰ سَعِيرًا",
     "textSimple": "ويصلى سعيرا",
     "transliteration": "wayaṣlā saʿīran",
-    "translation": "",
+    "translation": "And [enter to] burn in a Blaze.",
     "words": [
       {
         "id": "al-inshiqaq-12-1",
@@ -482,7 +493,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et brûlera dans le Brasier."
   },
   {
     "id": "al-inshiqaq-13",
@@ -491,7 +503,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
     "textSimple": "إنه كان فىٓ أهله مسرورا",
     "transliteration": "innahu kāna fī ahlihi masrūran",
-    "translation": "",
+    "translation": "Indeed, he had [once] been among his people in happiness;",
     "words": [
       {
         "id": "al-inshiqaq-13-1",
@@ -529,7 +541,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il était heureux auprès de sa famille,"
   },
   {
     "id": "al-inshiqaq-14",
@@ -538,7 +551,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
     "textSimple": "إنه ظن أن لن يحور",
     "transliteration": "innahu ẓanna an lan yaḥūra",
-    "translation": "",
+    "translation": "Indeed, he had thought he would never return [to Allāh].",
     "words": [
       {
         "id": "al-inshiqaq-14-1",
@@ -576,7 +589,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "s’imaginant que jamais il ne reviendrait à la vie (pour être jugé)."
   },
   {
     "id": "al-inshiqaq-15",
@@ -585,7 +599,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًا",
     "textSimple": "بلىٓ إن ربه كان به بصيرا",
     "transliteration": "balā inna rabbahu kāna bihi baṣīran",
-    "translation": "",
+    "translation": "But yes! Indeed, his Lord was ever, of him, Seeing.",
     "words": [
       {
         "id": "al-inshiqaq-15-1",
@@ -630,7 +644,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Eh bien si ! Son Seigneur, Tout Voyant, l’observait en permanence."
   },
   {
     "id": "al-inshiqaq-16",
@@ -639,7 +654,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
     "textSimple": "فلآ أقسم بٱلشفق",
     "transliteration": "falā uq'simu bil-shafaqi",
-    "translation": "",
+    "translation": "So I swear by the twilight glow",
     "words": [
       {
         "id": "al-inshiqaq-16-1",
@@ -663,7 +678,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’en jure par le crépuscule !"
   },
   {
     "id": "al-inshiqaq-17",
@@ -672,7 +688,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّيْلِ وَمَا وَسَقَ",
     "textSimple": "وٱليل وما وسق",
     "transliteration": "wa-al-layli wamā wasaqa",
-    "translation": "",
+    "translation": "And [by] the night and what it envelops",
     "words": [
       {
         "id": "al-inshiqaq-17-1",
@@ -696,7 +712,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la nuit et ce qu’elle englobe !"
   },
   {
     "id": "al-inshiqaq-18",
@@ -705,7 +722,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
     "textSimple": "وٱلقمر إذا ٱتسق",
     "transliteration": "wal-qamari idhā ittasaqa",
-    "translation": "",
+    "translation": "And [by] the moon when it becomes full",
     "words": [
       {
         "id": "al-inshiqaq-18-1",
@@ -729,7 +746,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la lune quand elle est pleine !"
   },
   {
     "id": "al-inshiqaq-19",
@@ -738,7 +756,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
     "textSimple": "لتركبن طبقا عن طبق",
     "transliteration": "latarkabunna ṭabaqan ʿan ṭabaqin",
-    "translation": "",
+    "translation": "[That] you will surely embark upon [i.e., experience] state after state.",
     "words": [
       {
         "id": "al-inshiqaq-19-1",
@@ -769,7 +787,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous passerez sans cesse étape par étape."
   },
   {
     "id": "al-inshiqaq-20",
@@ -778,7 +797,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
     "textSimple": "فما لهم لا يؤمنون",
     "transliteration": "famā lahum lā yu'minūna",
-    "translation": "",
+    "translation": "So what is [the matter] with them [that] they do not believe,",
     "words": [
       {
         "id": "al-inshiqaq-20-1",
@@ -809,7 +828,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourquoi donc ne croient-ils pas ?"
   },
   {
     "id": "al-inshiqaq-21",
@@ -818,7 +838,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
     "textSimple": "وإذا قرئ عليهم ٱلقرءان لا يسجدون ",
     "transliteration": "wa-idhā quri-a ʿalayhimu l-qur'ānu lā yasjudūna",
-    "translation": "",
+    "translation": "And when the Qur’ān is recited to them, they do not prostrate [to Allāh]?",
     "words": [
       {
         "id": "al-inshiqaq-21-1",
@@ -863,7 +883,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand le Coran leur est lu ne se prosternent-ils pas ?"
   },
   {
     "id": "al-inshiqaq-22",
@@ -872,7 +893,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
     "textSimple": "بل ٱلذين كفروا يكذبون",
     "transliteration": "bali alladhīna kafarū yukadhibūna",
-    "translation": "",
+    "translation": "But those who have disbelieved deny,",
     "words": [
       {
         "id": "al-inshiqaq-22-1",
@@ -903,7 +924,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est que les mécréants le tiennent pour mensonge."
   },
   {
     "id": "al-inshiqaq-23",
@@ -912,7 +934,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
     "textSimple": "وٱلله أعلم بما يوعون",
     "transliteration": "wal-lahu aʿlamu bimā yūʿūna",
-    "translation": "",
+    "translation": "And Allāh is most knowing of what they keep within themselves.",
     "words": [
       {
         "id": "al-inshiqaq-23-1",
@@ -943,7 +965,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Allah Sait le mieux (les sentiments secrets) qu’ils nourrissent."
   },
   {
     "id": "al-inshiqaq-24",
@@ -952,7 +975,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
     "textSimple": "فبشرهم بعذاب أليم",
     "transliteration": "fabashir'hum biʿadhābin alīmin",
-    "translation": "",
+    "translation": "So give them tidings of a painful punishment,",
     "words": [
       {
         "id": "al-inshiqaq-24-1",
@@ -976,7 +999,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Annonce-leur donc un supplice très douloureux."
   },
   {
     "id": "al-inshiqaq-25",
@@ -985,7 +1009,7 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
     "textSimple": "إلا ٱلذين ءامنوا وعملوا ٱلصـلحـت لهم أجر غير ممنون",
     "transliteration": "illā alladhīna āmanū waʿamilū l-ṣāliḥāti lahum ajrun ghayru mamnūnin",
-    "translation": "",
+    "translation": "Except for those who believe and do righteous deeds. For them is a reward uninterrupted.",
     "words": [
       {
         "id": "al-inshiqaq-25-1",
@@ -1051,7 +1075,8 @@ export const AL_INSHIQAQ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À l’exception de ceux qui ont cru et ont accompli les bonnes œuvres, et qui auront alors une récompense illimitée."
   }
 ];
 

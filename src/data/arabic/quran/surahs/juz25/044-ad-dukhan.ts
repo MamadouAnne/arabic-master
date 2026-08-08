@@ -11,7 +11,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": " حمٓ",
     "textSimple": " حمٓ",
     "transliteration": "hha-meem",
-    "translation": "",
+    "translation": "Ḥā, Meem.",
     "words": [
       {
         "id": "ad-dukhan-1-1",
@@ -21,7 +21,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâ, Mîm."
   },
   {
     "id": "ad-dukhan-2",
@@ -30,7 +31,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْكِتَـٰبِ ٱلْمُبِينِ",
     "textSimple": "وٱلكتـب ٱلمبين",
     "transliteration": "wal-kitābi l-mubīni",
-    "translation": "",
+    "translation": "By the clear Book,",
     "words": [
       {
         "id": "ad-dukhan-2-1",
@@ -47,7 +48,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le Livre explicite !"
   },
   {
     "id": "ad-dukhan-3",
@@ -56,7 +58,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنزَلْنَـٰهُ فِى لَيْلَةٍ مُّبَـٰرَكَةٍ ۚ إِنَّا كُنَّا مُنذِرِينَ",
     "textSimple": "إنآ أنزلنـه فى ليلة مبـركة  إنا كنا منذرين",
     "transliteration": "innā anzalnāhu fī laylatin mubārakatin innā kunnā mundhirīna",
-    "translation": "",
+    "translation": "Indeed, We sent it down during a blessed night. Indeed, We were to warn [mankind].",
     "words": [
       {
         "id": "ad-dukhan-3-1",
@@ -115,7 +117,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’avons fait descendre (en révélation) par une nuit bénie, et Nous Nous devions d’avertir."
   },
   {
     "id": "ad-dukhan-4",
@@ -124,7 +127,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهَا يُفْرَقُ كُلُّ أَمْرٍ حَكِيمٍ",
     "textSimple": "فيها يفرق كل أمر حكيم",
     "transliteration": "fīhā yuf'raqu kullu amrin ḥakīmin",
-    "translation": "",
+    "translation": "Therein [i.e., on that night] is made distinct every precise matter -",
     "words": [
       {
         "id": "ad-dukhan-4-1",
@@ -162,7 +165,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(En cette nuit) est arrêtée toute décision."
   },
   {
     "id": "ad-dukhan-5",
@@ -171,7 +175,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "أَمْرًا مِّنْ عِندِنَآ ۚ إِنَّا كُنَّا مُرْسِلِينَ",
     "textSimple": "أمرا من عندنآ  إنا كنا مرسلين",
     "transliteration": "amran min ʿindinā innā kunnā mur'silīna",
-    "translation": "",
+    "translation": "[Every] matter [proceeding] from Us. Indeed, We were to send [a messenger]",
     "words": [
       {
         "id": "ad-dukhan-5-1",
@@ -216,7 +220,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cet Ordre émane de Nous. Car c’est Nous qui envoyons (les Messagers),"
   },
   {
     "id": "ad-dukhan-6",
@@ -225,7 +230,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "رَحْمَةً مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "رحمة من ربك  إنه هو ٱلسميع ٱلعليم",
     "transliteration": "raḥmatan min rabbika innahu huwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "As mercy from your Lord. Indeed, He is the Hearing, the Knowing,",
     "words": [
       {
         "id": "ad-dukhan-6-1",
@@ -277,7 +282,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "par miséricorde de ton Seigneur, Lui Qui Entend tout et Lui l’Omniscient,"
   },
   {
     "id": "ad-dukhan-7",
@@ -286,7 +292,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم مُّوقِنِينَ",
     "textSimple": "رب ٱلسمـوت وٱلأرض وما بينهمآ  إن كنتم موقنين",
     "transliteration": "rabbi l-samāwāti wal-arḍi wamā baynahumā in kuntum mūqinīna",
-    "translation": "",
+    "translation": "Lord of the heavens and the earth and that between them, if you would be certain.",
     "words": [
       {
         "id": "ad-dukhan-7-1",
@@ -345,7 +351,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur des cieux, de la terre et de ce qu’il y a entre eux, pour peu que vous en ayez la certitude."
   },
   {
     "id": "ad-dukhan-8",
@@ -354,7 +361,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "لَآ إِلَـٰهَ إِلَّا هُوَ يُحْىِۦ وَيُمِيتُ ۖ رَبُّكُمْ وَرَبُّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ",
     "textSimple": "لآ إلـه إلا هو يحى ويميت  ربكم ورب ءابآئكم ٱلأولين",
     "transliteration": "lā ilāha illā huwa yuḥ'yī wayumītu rabbukum warabbu ābāikumu l-awalīna",
-    "translation": "",
+    "translation": "There is no deity except Him; He gives life and causes death. [He is] your Lord and the Lord of your first forefathers.",
     "words": [
       {
         "id": "ad-dukhan-8-1",
@@ -427,7 +434,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est point d’autre divinité que Lui. Il fait vivre et Il fait mourir, Lui votre Seigneur et le Seigneur de vos premiers ancêtres."
   },
   {
     "id": "ad-dukhan-9",
@@ -436,7 +444,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ هُمْ فِى شَكٍّ يَلْعَبُونَ",
     "textSimple": "بل هم فى شك يلعبون",
     "transliteration": "bal hum fī shakkin yalʿabūna",
-    "translation": "",
+    "translation": "But they are in doubt, amusing themselves.",
     "words": [
       {
         "id": "ad-dukhan-9-1",
@@ -474,7 +482,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils sont dans le doute et ne font que s’amuser."
   },
   {
     "id": "ad-dukhan-10",
@@ -483,7 +492,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱرْتَقِبْ يَوْمَ تَأْتِى ٱلسَّمَآءُ بِدُخَانٍ مُّبِينٍ",
     "textSimple": "فٱرتقب يوم تأتى ٱلسمآء بدخان مبين",
     "transliteration": "fa-ir'taqib yawma tatī l-samāu bidukhānin mubīnin",
-    "translation": "",
+    "translation": "Then watch for the Day when the sky will bring a visible smoke",
     "words": [
       {
         "id": "ad-dukhan-10-1",
@@ -528,7 +537,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Attends donc le jour où le ciel fera venir une fumée bien visible,"
   },
   {
     "id": "ad-dukhan-11",
@@ -537,7 +547,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "يَغْشَى ٱلنَّاسَ ۖ هَـٰذَا عَذَابٌ أَلِيمٌ",
     "textSimple": "يغشى ٱلناس  هـذا عذاب أليم",
     "transliteration": "yaghshā l-nāsa hādhā ʿadhābun alīmun",
-    "translation": "",
+    "translation": "Covering the people; this is a painful torment.",
     "words": [
       {
         "id": "ad-dukhan-11-1",
@@ -575,7 +585,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui enveloppera les hommes : voilà donc un supplice très douloureux !"
   },
   {
     "id": "ad-dukhan-12",
@@ -584,7 +595,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ",
     "textSimple": "ربنا ٱكشف عنا ٱلعذاب إنا مؤمنون",
     "transliteration": "rabbanā ik'shif ʿannā l-ʿadhāba innā mu'minūna",
-    "translation": "",
+    "translation": "[They will say], \"Our Lord, remove from us the torment; indeed, we are believers.\"",
     "words": [
       {
         "id": "ad-dukhan-12-1",
@@ -629,7 +640,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, s’écrieront-ils, débarrasse-nous du supplice, nous sommes (devenus) vraiment croyants. »"
   },
   {
     "id": "ad-dukhan-13",
@@ -638,7 +650,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "أَنَّىٰ لَهُمُ ٱلذِّكْرَىٰ وَقَدْ جَآءَهُمْ رَسُولٌ مُّبِينٌ",
     "textSimple": "أنى لهم ٱلذكرى وقد جآءهم رسول مبين",
     "transliteration": "annā lahumu l-dhik'rā waqad jāahum rasūlun mubīnun",
-    "translation": "",
+    "translation": "How will there be for them a reminder [at that time]? And there had come to them a clear Messenger.",
     "words": [
       {
         "id": "ad-dukhan-13-1",
@@ -690,7 +702,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À quoi leur sert-il (aujourd’hui) de se souvenir, quand un Messager explicite est déjà venu à eux ?"
   },
   {
     "id": "ad-dukhan-14",
@@ -699,7 +712,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ تَوَلَّوْا۟ عَنْهُ وَقَالُوا۟ مُعَلَّمٌ مَّجْنُونٌ",
     "textSimple": "ثم تولوا عنه وقالوا معلم مجنون",
     "transliteration": "thumma tawallaw ʿanhu waqālū muʿallamun majnūnun",
-    "translation": "",
+    "translation": "Then they turned away from him and said, \"[He was] taught [and is] a madman.\"",
     "words": [
       {
         "id": "ad-dukhan-14-1",
@@ -744,7 +757,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils se sont détournés de lui en disant : « C’est qu’il a déjà été initié (à ce genre d’exhortations), et ce n’est qu’un fou ! »"
   },
   {
     "id": "ad-dukhan-15",
@@ -753,7 +767,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَاشِفُوا۟ ٱلْعَذَابِ قَلِيلًا ۚ إِنَّكُمْ عَآئِدُونَ",
     "textSimple": "إنا كاشفوا ٱلعذاب قليلا  إنكم عآئدون",
     "transliteration": "innā kāshifū l-ʿadhābi qalīlan innakum ʿāidūna",
-    "translation": "",
+    "translation": "Indeed, We will remove the torment for a little. Indeed, you [disbelievers] will return [to disbelief].",
     "words": [
       {
         "id": "ad-dukhan-15-1",
@@ -798,7 +812,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que Nous interrompions le supplice pour peu de temps, et vous voilà revenus (à votre mécréance)."
   },
   {
     "id": "ad-dukhan-16",
@@ -807,7 +822,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ نَبْطِشُ ٱلْبَطْشَةَ ٱلْكُبْرَىٰٓ إِنَّا مُنتَقِمُونَ",
     "textSimple": "يوم نبطش ٱلبطشة ٱلكبرىٓ إنا منتقمون",
     "transliteration": "yawma nabṭishu l-baṭshata l-kub'rā innā muntaqimūna",
-    "translation": "",
+    "translation": "The Day We will strike with the greatest assault, indeed, We will take retribution.",
     "words": [
       {
         "id": "ad-dukhan-16-1",
@@ -852,7 +867,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Nous sévirons de Notre plus grande colère, Nous aurons tiré vengeance."
   },
   {
     "id": "ad-dukhan-17",
@@ -861,7 +877,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَقَدْ فَتَنَّا قَبْلَهُمْ قَوْمَ فِرْعَوْنَ وَجَآءَهُمْ رَسُولٌ كَرِيمٌ",
     "textSimple": " ولقد فتنا قبلهم قوم فرعون وجآءهم رسول كريم",
     "transliteration": "walaqad fatannā qablahum qawma fir'ʿawna wajāahum rasūlun karīmun",
-    "translation": "",
+    "translation": "And We had already tried before them the people of Pharaoh, and there came to them a noble messenger [i.e., Moses],",
     "words": [
       {
         "id": "ad-dukhan-17-1",
@@ -920,7 +936,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons éprouvé avant eux le peuple de Pharaon, alors que leur était déjà venu un digne Messager."
   },
   {
     "id": "ad-dukhan-18",
@@ -929,7 +946,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "أَنْ أَدُّوٓا۟ إِلَىَّ عِبَادَ ٱللَّهِ ۖ إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
     "textSimple": "أن أدوٓا إلى عباد ٱلله  إنى لكم رسول أمين",
     "transliteration": "an addū ilayya ʿibāda l-lahi innī lakum rasūlun amīnun",
-    "translation": "",
+    "translation": "[Saying], \"Render to me the servants of Allāh. Indeed, I am to you a trustworthy messenger,\"",
     "words": [
       {
         "id": "ad-dukhan-18-1",
@@ -995,7 +1012,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Laissez-moi prendre (avec moi) les serviteurs d’Allah, je suis pour vous un Messager fiable."
   },
   {
     "id": "ad-dukhan-19",
@@ -1004,7 +1022,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَن لَّا تَعْلُوا۟ عَلَى ٱللَّهِ ۖ إِنِّىٓ ءَاتِيكُم بِسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "وأن لا تعلوا على ٱلله  إنىٓ ءاتيكم بسلطـن مبين",
     "transliteration": "wa-an lā taʿlū ʿalā l-lahi innī ātīkum bisul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "And [saying], \"Be not haughty with Allāh. Indeed, I have come to you with clear evidence.",
     "words": [
       {
         "id": "ad-dukhan-19-1",
@@ -1070,7 +1088,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous élevez pas contre Allah, je vous apporte une évidente preuve d’autorité."
   },
   {
     "id": "ad-dukhan-20",
@@ -1079,7 +1098,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنِّى عُذْتُ بِرَبِّى وَرَبِّكُمْ أَن تَرْجُمُونِ",
     "textSimple": "وإنى عذت بربى وربكم أن ترجمون",
     "transliteration": "wa-innī ʿudh'tu birabbī warabbikum an tarjumūni",
-    "translation": "",
+    "translation": "And indeed, I have sought refuge in my Lord and your Lord, lest you stone me.",
     "words": [
       {
         "id": "ad-dukhan-20-1",
@@ -1124,7 +1143,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je cherche refuge auprès de mon Seigneur et (Qui est aussi) le vôtre pour que vous ne me lapidiez pas."
   },
   {
     "id": "ad-dukhan-21",
@@ -1133,7 +1153,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن لَّمْ تُؤْمِنُوا۟ لِى فَٱعْتَزِلُونِ",
     "textSimple": "وإن لم تؤمنوا لى فٱعتزلون",
     "transliteration": "wa-in lam tu'minū lī fa-iʿ'tazilūni",
-    "translation": "",
+    "translation": "But if you do not believe me, then leave me alone.\"",
     "words": [
       {
         "id": "ad-dukhan-21-1",
@@ -1171,7 +1191,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous ne me croyez pas, alors tenez-vous loin de moi. »"
   },
   {
     "id": "ad-dukhan-22",
@@ -1180,7 +1201,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَدَعَا رَبَّهُۥٓ أَنَّ هَـٰٓؤُلَآءِ قَوْمٌ مُّجْرِمُونَ",
     "textSimple": "فدعا ربهٓ أن هـٓؤلآء قوم مجرمون",
     "transliteration": "fadaʿā rabbahu anna hāulāi qawmun muj'rimūna",
-    "translation": "",
+    "translation": "And [finally] he called to his Lord that these were a criminal people.",
     "words": [
       {
         "id": "ad-dukhan-22-1",
@@ -1225,7 +1246,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il implora son Seigneur (en disant) : « Ceux-là sont des gens criminels. »"
   },
   {
     "id": "ad-dukhan-23",
@@ -1234,7 +1256,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَأَسْرِ بِعِبَادِى لَيْلًا إِنَّكُم مُّتَّبَعُونَ",
     "textSimple": "فأسر بعبادى ليلا إنكم متبعون",
     "transliteration": "fa-asri biʿibādī laylan innakum muttabaʿūna",
-    "translation": "",
+    "translation": "[Allāh said], \"Then set out with My servants by night. Indeed, you are to be pursued.",
     "words": [
       {
         "id": "ad-dukhan-23-1",
@@ -1272,7 +1294,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Pars de nuit avec Mes serviteurs (lui répondit Allah), vous serez certes poursuivis."
   },
   {
     "id": "ad-dukhan-24",
@@ -1281,7 +1304,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتْرُكِ ٱلْبَحْرَ رَهْوًا ۖ إِنَّهُمْ جُندٌ مُّغْرَقُونَ",
     "textSimple": "وٱترك ٱلبحر رهوا  إنهم جند مغرقون",
     "transliteration": "wa-ut'ruki l-baḥra rahwan innahum jundun mugh'raqūna",
-    "translation": "",
+    "translation": "And leave the sea in stillness. Indeed, they are an army to be drowned.\"",
     "words": [
       {
         "id": "ad-dukhan-24-1",
@@ -1326,7 +1349,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse la mer (derrière toi ouverte) et immobile, car les armées (qui te suivront) y seront noyées. »"
   },
   {
     "id": "ad-dukhan-25",
@@ -1335,7 +1359,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "كَمْ تَرَكُوا۟ مِن جَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "كم تركوا من جنـت وعيون",
     "transliteration": "kam tarakū min jannātin waʿuyūnin",
-    "translation": "",
+    "translation": "How much they left behind of gardens and springs",
     "words": [
       {
         "id": "ad-dukhan-25-1",
@@ -1373,7 +1397,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de jardins et de sources (vives) n’ont-ils pas laissés (derrière eux) !"
   },
   {
     "id": "ad-dukhan-26",
@@ -1382,7 +1407,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَزُرُوعٍ وَمَقَامٍ كَرِيمٍ",
     "textSimple": "وزروع ومقام كريم",
     "transliteration": "wazurūʿin wamaqāmin karīmin",
-    "translation": "",
+    "translation": "And crops and noble sites",
     "words": [
       {
         "id": "ad-dukhan-26-1",
@@ -1406,7 +1431,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de champs généreux et d’habitations huppées !"
   },
   {
     "id": "ad-dukhan-27",
@@ -1415,7 +1441,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَنَعْمَةٍ كَانُوا۟ فِيهَا فَـٰكِهِينَ",
     "textSimple": "ونعمة كانوا فيها فـكهين",
     "transliteration": "wanaʿmatin kānū fīhā fākihīna",
-    "translation": "",
+    "translation": "And comfort wherein they were amused.",
     "words": [
       {
         "id": "ad-dukhan-27-1",
@@ -1446,7 +1472,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et de délices dont ils goûtaient au milieu des réjouissances !"
   },
   {
     "id": "ad-dukhan-28",
@@ -1455,7 +1482,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ ۖ وَأَوْرَثْنَـٰهَا قَوْمًا ءَاخَرِينَ",
     "textSimple": "كذلك  وأورثنـها قوما ءاخرين",
     "transliteration": "kadhālika wa-awrathnāhā qawman ākharīna",
-    "translation": "",
+    "translation": "Thus. And We caused to inherit it another people.",
     "words": [
       {
         "id": "ad-dukhan-28-1",
@@ -1486,7 +1513,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’il en fut. Et Nous en donnâmes l’héritage à d’autres peuples."
   },
   {
     "id": "ad-dukhan-29",
@@ -1495,7 +1523,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا بَكَتْ عَلَيْهِمُ ٱلسَّمَآءُ وَٱلْأَرْضُ وَمَا كَانُوا۟ مُنظَرِينَ",
     "textSimple": "فما بكت عليهم ٱلسمآء وٱلأرض وما كانوا منظرين",
     "transliteration": "famā bakat ʿalayhimu l-samāu wal-arḍu wamā kānū munẓarīna",
-    "translation": "",
+    "translation": "And the heaven and earth wept not for them, nor were they reprieved.",
     "words": [
       {
         "id": "ad-dukhan-29-1",
@@ -1554,7 +1582,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ni le ciel ni la terre ne les pleurèrent et aucun sursis ne leur fut accordé."
   },
   {
     "id": "ad-dukhan-30",
@@ -1563,7 +1592,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ نَجَّيْنَا بَنِىٓ إِسْرَٰٓءِيلَ مِنَ ٱلْعَذَابِ ٱلْمُهِينِ",
     "textSimple": "ولقد نجينا بنىٓ إسرٓءيل من ٱلعذاب ٱلمهين",
     "transliteration": "walaqad najjaynā banī is'rāīla mina l-ʿadhābi l-muhīni",
-    "translation": "",
+    "translation": "And We certainly saved the Children of Israel from the humiliating torment -",
     "words": [
       {
         "id": "ad-dukhan-30-1",
@@ -1615,7 +1644,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons certes sauvé les Enfants d’Israël du supplice humiliant,"
   },
   {
     "id": "ad-dukhan-31",
@@ -1624,7 +1654,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "مِن فِرْعَوْنَ ۚ إِنَّهُۥ كَانَ عَالِيًا مِّنَ ٱلْمُسْرِفِينَ",
     "textSimple": "من فرعون  إنه كان عاليا من ٱلمسرفين",
     "transliteration": "min fir'ʿawna innahu kāna ʿāliyan mina l-mus'rifīna",
-    "translation": "",
+    "translation": "From Pharaoh. Indeed, he was a haughty one among the transgressors.",
     "words": [
       {
         "id": "ad-dukhan-31-1",
@@ -1676,7 +1706,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "de Pharaon qui était arrogant et enclin aux outrances."
   },
   {
     "id": "ad-dukhan-32",
@@ -1685,7 +1716,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدِ ٱخْتَرْنَـٰهُمْ عَلَىٰ عِلْمٍ عَلَى ٱلْعَـٰلَمِينَ",
     "textSimple": "ولقد ٱخترنـهم على علم على ٱلعـلمين",
     "transliteration": "walaqadi ikh'tarnāhum ʿalā ʿil'min ʿalā l-ʿālamīna",
-    "translation": "",
+    "translation": "And We certainly chose them by knowledge over [all] the worlds.",
     "words": [
       {
         "id": "ad-dukhan-32-1",
@@ -1730,7 +1761,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De tous les peuples de l’Univers, Nous les avons choisis en toute connaissance parmi les autres peuples (de leur temps)."
   },
   {
     "id": "ad-dukhan-33",
@@ -1739,7 +1771,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتَيْنَـٰهُم مِّنَ ٱلْـَٔايَـٰتِ مَا فِيهِ بَلَـٰٓؤٌا۟ مُّبِينٌ",
     "textSimple": "وءاتينـهم من ٱلـٔايـت ما فيه بلـٓؤا مبين",
     "transliteration": "waātaynāhum mina l-āyāti mā fīhi balāon mubīnun",
-    "translation": "",
+    "translation": "And We gave them of signs that in which there was a clear trial.",
     "words": [
       {
         "id": "ad-dukhan-33-1",
@@ -1791,7 +1823,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons produit devant eux des prodiges qui devaient leur être des épreuves manifestes."
   },
   {
     "id": "ad-dukhan-34",
@@ -1800,7 +1833,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰٓؤُلَآءِ لَيَقُولُونَ",
     "textSimple": "إن هـٓؤلآء ليقولون",
     "transliteration": "inna hāulāi layaqūlūna",
-    "translation": "",
+    "translation": "Indeed, these [disbelievers] are saying,",
     "words": [
       {
         "id": "ad-dukhan-34-1",
@@ -1824,7 +1857,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là disent :"
   },
   {
     "id": "ad-dukhan-35",
@@ -1833,7 +1867,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هِىَ إِلَّا مَوْتَتُنَا ٱلْأُولَىٰ وَمَا نَحْنُ بِمُنشَرِينَ",
     "textSimple": "إن هى إلا موتتنا ٱلأولى وما نحن بمنشرين",
     "transliteration": "in hiya illā mawtatunā l-ūlā wamā naḥnu bimunsharīna",
-    "translation": "",
+    "translation": "\"There is not but our first death, and we will not be resurrected.",
     "words": [
       {
         "id": "ad-dukhan-35-1",
@@ -1892,7 +1926,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Il n’y aura que notre première mort, et nous ne serons point ressuscités."
   },
   {
     "id": "ad-dukhan-36",
@@ -1901,7 +1936,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَأْتُوا۟ بِـَٔابَآئِنَآ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "فأتوا بـٔابآئنآ إن كنتم صـدقين",
     "transliteration": "fatū biābāinā in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Then bring [back] our forefathers, if you should be truthful.\"",
     "words": [
       {
         "id": "ad-dukhan-36-1",
@@ -1939,7 +1974,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Faites donc revenir nos ancêtres, si ce que vous dites est vrai ! »"
   },
   {
     "id": "ad-dukhan-37",
@@ -1948,7 +1984,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "أَهُمْ خَيْرٌ أَمْ قَوْمُ تُبَّعٍ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ أَهْلَكْنَـٰهُمْ ۖ إِنَّهُمْ كَانُوا۟ مُجْرِمِينَ",
     "textSimple": "أهم خير أم قوم تبع وٱلذين من قبلهم  أهلكنـهم  إنهم كانوا مجرمين",
     "transliteration": "ahum khayrun am qawmu tubbaʿin wa-alladhīna min qablihim ahlaknāhum innahum kānū muj'rimīna",
-    "translation": "",
+    "translation": "Are they better or the people of Tubbaʿ and those before them? We destroyed them, [for] indeed, they were criminals.",
     "words": [
       {
         "id": "ad-dukhan-37-1",
@@ -2035,7 +2071,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sont-ils meilleurs que le peuple de Tubba‘ et les (générations) d’avant ? Nous les avons fait périr, car ils étaient coupables."
   },
   {
     "id": "ad-dukhan-38",
@@ -2044,7 +2081,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا خَلَقْنَا ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَـٰعِبِينَ",
     "textSimple": "وما خلقنا ٱلسمـوت وٱلأرض وما بينهما لـعبين",
     "transliteration": "wamā khalaqnā l-samāwāti wal-arḍa wamā baynahumā lāʿibīna",
-    "translation": "",
+    "translation": "And We did not create the heavens and earth and that between them in play.",
     "words": [
       {
         "id": "ad-dukhan-38-1",
@@ -2096,7 +2133,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons pas créé les cieux, la terre et ce qu’il y a entre eux pour Nous divertir."
   },
   {
     "id": "ad-dukhan-39",
@@ -2105,7 +2143,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "مَا خَلَقْنَـٰهُمَآ إِلَّا بِٱلْحَقِّ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "ما خلقنـهمآ إلا بٱلحق ولـكن أكثرهم لا يعلمون",
     "transliteration": "mā khalaqnāhumā illā bil-ḥaqi walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "We did not create them except in truth, but most of them do not know.",
     "words": [
       {
         "id": "ad-dukhan-39-1",
@@ -2164,7 +2202,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne les avons créés qu’en toute vérité. Mais la plupart d’entre eux ne le savent point."
   },
   {
     "id": "ad-dukhan-40",
@@ -2173,7 +2212,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ يَوْمَ ٱلْفَصْلِ مِيقَـٰتُهُمْ أَجْمَعِينَ",
     "textSimple": "إن يوم ٱلفصل ميقـتهم أجمعين",
     "transliteration": "inna yawma l-faṣli mīqātuhum ajmaʿīna",
-    "translation": "",
+    "translation": "Indeed, the Day of Judgement is the appointed time for them all -",
     "words": [
       {
         "id": "ad-dukhan-40-1",
@@ -2211,7 +2250,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Jour de la Décision sera celui de leur comparution à tous."
   },
   {
     "id": "ad-dukhan-41",
@@ -2220,7 +2260,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ لَا يُغْنِى مَوْلًى عَن مَّوْلًى شَيْـًٔا وَلَا هُمْ يُنصَرُونَ",
     "textSimple": "يوم لا يغنى مولى عن مولى شيـٔا ولا هم ينصرون",
     "transliteration": "yawma lā yugh'nī mawlan ʿan mawlan shayan walā hum yunṣarūna",
-    "translation": "",
+    "translation": "The Day when no relation will avail a relation at all, nor will they be helped -",
     "words": [
       {
         "id": "ad-dukhan-41-1",
@@ -2293,7 +2333,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jour où tel allié ne sera en rien utile à tel (autre) allié, et où ils n’auront aucun secours,"
   },
   {
     "id": "ad-dukhan-42",
@@ -2302,7 +2343,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَن رَّحِمَ ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "إلا من رحم ٱلله  إنه هو ٱلعزيز ٱلرحيم",
     "transliteration": "illā man raḥima l-lahu innahu huwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "Except those [believers] on whom Allāh has mercy. Indeed, He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ad-dukhan-42-1",
@@ -2361,7 +2402,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "hormis ceux à qui Allah fera miséricorde, Lui le Tout-Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ad-dukhan-43",
@@ -2370,7 +2412,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ شَجَرَتَ ٱلزَّقُّومِ",
     "textSimple": "إن شجرت ٱلزقوم",
     "transliteration": "inna shajarata l-zaqūmi",
-    "translation": "",
+    "translation": "Indeed, the tree of zaqqūm",
     "words": [
       {
         "id": "ad-dukhan-43-1",
@@ -2394,7 +2436,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’arbre de Zaqqûm"
   },
   {
     "id": "ad-dukhan-44",
@@ -2403,7 +2446,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "طَعَامُ ٱلْأَثِيمِ",
     "textSimple": "طعام ٱلأثيم",
     "transliteration": "ṭaʿāmu l-athīmi",
-    "translation": "",
+    "translation": "Is food for the sinful.",
     "words": [
       {
         "id": "ad-dukhan-44-1",
@@ -2420,7 +2463,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "est la (seule) nourriture du pécheur invétéré."
   },
   {
     "id": "ad-dukhan-45",
@@ -2429,7 +2473,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "كَٱلْمُهْلِ يَغْلِى فِى ٱلْبُطُونِ",
     "textSimple": "كٱلمهل يغلى فى ٱلبطون",
     "transliteration": "kal-muh'li yaghlī fī l-buṭūni",
-    "translation": "",
+    "translation": "Like murky oil, it boils within bellies",
     "words": [
       {
         "id": "ad-dukhan-45-1",
@@ -2460,7 +2504,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comme de l’airain en fusion, (cette nourriture) bouillonnera dans les entrailles,"
   },
   {
     "id": "ad-dukhan-46",
@@ -2469,7 +2514,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "كَغَلْىِ ٱلْحَمِيمِ",
     "textSimple": "كغلى ٱلحميم",
     "transliteration": "kaghalyi l-ḥamīmi",
-    "translation": "",
+    "translation": "Like the boiling of scalding water.",
     "words": [
       {
         "id": "ad-dukhan-46-1",
@@ -2486,7 +2531,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "tout comme (bouillonne) l’eau en ébullition."
   },
   {
     "id": "ad-dukhan-47",
@@ -2495,7 +2541,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "خُذُوهُ فَٱعْتِلُوهُ إِلَىٰ سَوَآءِ ٱلْجَحِيمِ",
     "textSimple": "خذوه فٱعتلوه إلى سوآء ٱلجحيم",
     "transliteration": "khudhūhu fa-iʿ'tilūhu ilā sawāi l-jaḥīmi",
-    "translation": "",
+    "translation": "[It will be commanded], \"Seize him and drag him into the midst of the Hellfire,",
     "words": [
       {
         "id": "ad-dukhan-47-1",
@@ -2533,7 +2579,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Prenez-le (sera-t-il ordonné), et traînez-le jusqu’au fin fond de la Fournaise !"
   },
   {
     "id": "ad-dukhan-48",
@@ -2542,7 +2589,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ صُبُّوا۟ فَوْقَ رَأْسِهِۦ مِنْ عَذَابِ ٱلْحَمِيمِ",
     "textSimple": "ثم صبوا فوق رأسه من عذاب ٱلحميم",
     "transliteration": "thumma ṣubbū fawqa rasihi min ʿadhābi l-ḥamīmi",
-    "translation": "",
+    "translation": "Then pour over his head from the torment of scalding water.\"",
     "words": [
       {
         "id": "ad-dukhan-48-1",
@@ -2594,7 +2641,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, comme supplice, versez sur sa tête de l’eau bouillante ! »"
   },
   {
     "id": "ad-dukhan-49",
@@ -2603,7 +2651,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "ذُقْ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْكَرِيمُ",
     "textSimple": "ذق إنك أنت ٱلعزيز ٱلكريم",
     "transliteration": "dhuq innaka anta l-ʿazīzu l-karīmu",
-    "translation": "",
+    "translation": "[It will be said], \"Taste! Indeed, you are the honored, the noble!",
     "words": [
       {
         "id": "ad-dukhan-49-1",
@@ -2641,7 +2689,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Puis il sera dit) : « Goûte donc cela, toi (qui te disais) puissant et digne !"
   },
   {
     "id": "ad-dukhan-50",
@@ -2650,7 +2699,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا مَا كُنتُم بِهِۦ تَمْتَرُونَ",
     "textSimple": "إن هـذا ما كنتم به تمترون",
     "transliteration": "inna hādhā mā kuntum bihi tamtarūna",
-    "translation": "",
+    "translation": "Indeed, this is what you used to dispute.\"",
     "words": [
       {
         "id": "ad-dukhan-50-1",
@@ -2695,7 +2744,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà (les tourments) vous que mettiez en doute ! »"
   },
   {
     "id": "ad-dukhan-51",
@@ -2704,7 +2754,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُتَّقِينَ فِى مَقَامٍ أَمِينٍ",
     "textSimple": "إن ٱلمتقين فى مقام أمين",
     "transliteration": "inna l-mutaqīna fī maqāmin amīnin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be in a secure place:",
     "words": [
       {
         "id": "ad-dukhan-51-1",
@@ -2742,7 +2792,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens pieux, quant à eux, seront en sécurité (dans un lieu amène)."
   },
   {
     "id": "ad-dukhan-52",
@@ -2751,7 +2802,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "فى جنـت وعيون",
     "transliteration": "fī jannātin waʿuyūnin",
-    "translation": "",
+    "translation": "Within gardens and springs,",
     "words": [
       {
         "id": "ad-dukhan-52-1",
@@ -2775,7 +2826,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au milieu de jardins et de sources (vives)."
   },
   {
     "id": "ad-dukhan-53",
@@ -2784,7 +2836,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "يَلْبَسُونَ مِن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَقَـٰبِلِينَ",
     "textSimple": "يلبسون من سندس وإستبرق متقـبلين",
     "transliteration": "yalbasūna min sundusin wa-is'tabraqin mutaqābilīna",
-    "translation": "",
+    "translation": "Wearing [garments of] fine silk and brocade, facing each other.",
     "words": [
       {
         "id": "ad-dukhan-53-1",
@@ -2822,7 +2874,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y seront habillés en soie fine et en brocart et se tiendront face à face."
   },
   {
     "id": "ad-dukhan-54",
@@ -2831,7 +2884,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ وَزَوَّجْنَـٰهُم بِحُورٍ عِينٍ",
     "textSimple": "كذلك وزوجنـهم بحور عين",
     "transliteration": "kadhālika wazawwajnāhum biḥūrin ʿīnin",
-    "translation": "",
+    "translation": "Thus. And We will marry them to fair women with large, [beautiful] eyes.",
     "words": [
       {
         "id": "ad-dukhan-54-1",
@@ -2862,7 +2915,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’il en sera. Et Nous leur accorderons comme épouses des houris aux grands yeux noirs."
   },
   {
     "id": "ad-dukhan-55",
@@ -2871,7 +2925,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "يَدْعُونَ فِيهَا بِكُلِّ فَـٰكِهَةٍ ءَامِنِينَ",
     "textSimple": "يدعون فيها بكل فـكهة ءامنين",
     "transliteration": "yadʿūna fīhā bikulli fākihatin āminīna",
-    "translation": "",
+    "translation": "They will call therein for every [kind of] fruit - safe and secure.",
     "words": [
       {
         "id": "ad-dukhan-55-1",
@@ -2909,7 +2963,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y demanderont des fruits de toutes sortes et y seront en sécurité."
   },
   {
     "id": "ad-dukhan-56",
@@ -2918,7 +2973,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَذُوقُونَ فِيهَا ٱلْمَوْتَ إِلَّا ٱلْمَوْتَةَ ٱلْأُولَىٰ ۖ وَوَقَىٰهُمْ عَذَابَ ٱلْجَحِيمِ",
     "textSimple": "لا يذوقون فيها ٱلموت إلا ٱلموتة ٱلأولى  ووقىهم عذاب ٱلجحيم",
     "transliteration": "lā yadhūqūna fīhā l-mawta illā l-mawtata l-ūlā wawaqāhum ʿadhāba l-jaḥīmi",
-    "translation": "",
+    "translation": "They will not taste death therein except the first death, and He will have protected them from the punishment of Hellfire",
     "words": [
       {
         "id": "ad-dukhan-56-1",
@@ -2991,7 +3046,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’y goûteront plus la mort après leur première mort. Et (Allah) les préservera du supplice du Brasier,"
   },
   {
     "id": "ad-dukhan-57",
@@ -3000,7 +3056,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَضْلًا مِّن رَّبِّكَ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "فضلا من ربك  ذلك هو ٱلفوز ٱلعظيم",
     "transliteration": "faḍlan min rabbika dhālika huwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "As bounty from your Lord. That is what is the great attainment.",
     "words": [
       {
         "id": "ad-dukhan-57-1",
@@ -3052,7 +3108,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "faveur de ton Seigneur. Tel est le succès suprême !"
   },
   {
     "id": "ad-dukhan-58",
@@ -3061,7 +3118,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّمَا يَسَّرْنَـٰهُ بِلِسَانِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
     "textSimple": "فإنما يسرنـه بلسانك لعلهم يتذكرون",
     "transliteration": "fa-innamā yassarnāhu bilisānika laʿallahum yatadhakkarūna",
-    "translation": "",
+    "translation": "And indeed, We have eased it [i.e., the Qur’ān] in your tongue that they might be reminded.",
     "words": [
       {
         "id": "ad-dukhan-58-1",
@@ -3099,7 +3156,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous l’avons rendu si accessible en ta propre langue, c’est pour qu’ils s’en souviennent."
   },
   {
     "id": "ad-dukhan-59",
@@ -3108,7 +3166,7 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱرْتَقِبْ إِنَّهُم مُّرْتَقِبُونَ",
     "textSimple": "فٱرتقب إنهم مرتقبون",
     "transliteration": "fa-ir'taqib innahum mur'taqibūna",
-    "translation": "",
+    "translation": "So watch, [O Muḥammad]; indeed, they are watching [for your end].",
     "words": [
       {
         "id": "ad-dukhan-59-1",
@@ -3132,7 +3190,8 @@ export const AD_DUKHAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Attends donc, car eux aussi sont là qui attendent."
   }
 ];
 

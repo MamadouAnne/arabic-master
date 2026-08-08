@@ -11,7 +11,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": " ٱلْحَمْدُ لِلَّهِ فَاطِرِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَـٰٓئِكَةِ رُسُلًا أُو۟لِىٓ أَجْنِحَةٍ مَّثْنَىٰ وَثُلَـٰثَ وَرُبَـٰعَ ۚ يَزِيدُ فِى ٱلْخَلْقِ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": " ٱلحمد لله فاطر ٱلسمـوت وٱلأرض جاعل ٱلملـٓئكة رسلا أولىٓ أجنحة مثنى وثلـث وربـع  يزيد فى ٱلخلق ما يشآء  إن ٱلله على كل شىء قدير",
     "transliteration": "al-ḥamdu lillahi fāṭiri l-samāwāti wal-arḍi jāʿili l-malāikati rusulan ulī ajniḥatin mathnā wathulātha warubāʿa yazīdu fī l-khalqi mā yashāu inna l-laha ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "[All] praise is [due] to Allāh, Creator of the heavens and the earth, [who] made the angels messengers having wings, two or three or four. He increases in creation what He wills. Indeed, Allāh is over all things competent.",
     "words": [
       {
         "id": "fatir-1-1",
@@ -182,7 +182,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Louange à Allah, Créateur Premier des cieux et de la terre, Qui fit des Anges des émissaires dotés de deux, trois ou quatre ailes. Il ajoute à Sa création ce qu’Il veut. Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "fatir-2",
@@ -191,7 +192,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "ما يفتح ٱلله للناس من رحمة فلا ممسك لها  وما يمسك فلا مرسل له من بعده  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "mā yaftaḥi l-lahu lilnnāsi min raḥmatin falā mum'sika lahā wamā yum'sik falā mur'sila lahu min baʿdihi wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Whatever Allāh grants to people of mercy - none can withhold it; and whatever He withholds - none can release it thereafter. And He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "fatir-2-1",
@@ -327,7 +328,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qu’Allah accorde en grâce aux hommes, personne ne saurait le retenir ; et ce qu’Il retient, personne, en dehors de Lui, ne saurait le dispenser. C’est Lui le Tout- Puissant, le Sage."
   },
   {
     "id": "fatir-3",
@@ -336,7 +338,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَـٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
     "textSimple": "يـٓأيها ٱلناس ٱذكروا نعمت ٱلله عليكم  هل من خـلق غير ٱلله يرزقكم من ٱلسمآء وٱلأرض  لآ إلـه إلا هو  فأنى تؤفكون",
     "transliteration": "yāayyuhā l-nāsu udh'kurū niʿ'mata l-lahi ʿalaykum hal min khāliqin ghayru l-lahi yarzuqukum mina l-samāi wal-arḍi lā ilāha illā huwa fa-annā tu'fakūna",
-    "translation": "",
+    "translation": "O mankind, remember the favor of Allāh upon you. Is there any creator other than Allāh who provides for you from the heaven and earth? There is no deity except Him, so how are you deluded?",
     "words": [
       {
         "id": "fatir-3-1",
@@ -486,7 +488,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Évoquez les bienfaits d’Allah envers vous. Y a-t-il un autre créateur qu’Allah qui vous accorde une subsistance du ciel et de la terre ? Il n’y a point d’autre divinité que Lui ! Jusqu’où vous obstinerez-vous à ignorer (Son adoration) ?"
   },
   {
     "id": "fatir-4",
@@ -495,7 +498,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يُكَذِّبُوكَ فَقَدْ كُذِّبَتْ رُسُلٌ مِّن قَبْلِكَ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
     "textSimple": "وإن يكذبوك فقد كذبت رسل من قبلك  وإلى ٱلله ترجع ٱلأمور",
     "transliteration": "wa-in yukadhibūka faqad kudhibat rusulun min qablika wa-ilā l-lahi tur'jaʿu l-umūru",
-    "translation": "",
+    "translation": "And if they deny you, [O Muḥammad] - already were messengers denied before you. And to Allāh are returned [all] matters.",
     "words": [
       {
         "id": "fatir-4-1",
@@ -575,7 +578,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te traitent de menteur, d’autres Messagers, avant toi, ont été traités de menteurs. C’est vers Allah que les choses feront retour."
   },
   {
     "id": "fatir-5",
@@ -584,7 +588,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ فَلَا تَغُرَّنَّكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۖ وَلَا يَغُرَّنَّكُم بِٱللَّهِ ٱلْغَرُورُ",
     "textSimple": "يـٓأيها ٱلناس إن وعد ٱلله حق  فلا تغرنكم ٱلحيوة ٱلدنيا  ولا يغرنكم بٱلله ٱلغرور",
     "transliteration": "yāayyuhā l-nāsu inna waʿda l-lahi ḥaqqun falā taghurrannakumu l-ḥayatu l-dun'yā walā yaghurrannakum bil-lahi l-gharūru",
-    "translation": "",
+    "translation": "O mankind, indeed the promise of Allāh is truth, so let not the worldly life delude you and be not deceived about Allāh by the Deceiver [i.e., Satan].",
     "words": [
       {
         "id": "fatir-5-1",
@@ -685,7 +689,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! La promesse d’Allah est pure vérité. Que ce bas monde ne vous leurre donc pas, et que ne vous leurre pas, au sujet d’Allah, (Satan) le suborneur."
   },
   {
     "id": "fatir-6",
@@ -694,7 +699,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلشَّيْطَـٰنَ لَكُمْ عَدُوٌّ فَٱتَّخِذُوهُ عَدُوًّا ۚ إِنَّمَا يَدْعُوا۟ حِزْبَهُۥ لِيَكُونُوا۟ مِنْ أَصْحَـٰبِ ٱلسَّعِيرِ",
     "textSimple": "إن ٱلشيطـن لكم عدو فٱتخذوه عدوا  إنما يدعوا حزبه ليكونوا من أصحـب ٱلسعير",
     "transliteration": "inna l-shayṭāna lakum ʿaduwwun fa-ittakhidhūhu ʿaduwwan innamā yadʿū ḥiz'bahu liyakūnū min aṣḥābi l-saʿīri",
-    "translation": "",
+    "translation": "Indeed, Satan is an enemy to you; so take him as an enemy. He only invites his party to be among the companions of the Blaze.",
     "words": [
       {
         "id": "fatir-6-1",
@@ -788,7 +793,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Satan est pour vous un ennemi. Considérez-le donc comme tel ! Il ne fait qu’appeler ses partisans à être parmi les gens de la Fournaise."
   },
   {
     "id": "fatir-7",
@@ -797,7 +803,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ كَفَرُوا۟ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
     "textSimple": "ٱلذين كفروا لهم عذاب شديد  وٱلذين ءامنوا وعملوا ٱلصـلحـت لهم مغفرة وأجر كبير",
     "transliteration": "alladhīna kafarū lahum ʿadhābun shadīdun wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lahum maghfiratun wa-ajrun kabīrun",
-    "translation": "",
+    "translation": "Those who disbelieve will have a severe punishment, and those who believe and do righteous deeds will have forgiveness and great reward.",
     "words": [
       {
         "id": "fatir-7-1",
@@ -891,7 +897,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru auront un terrible supplice, mais ceux qui ont cru et ont accompli les bonnes œuvres auront un pardon et une grande récompense."
   },
   {
     "id": "fatir-8",
@@ -900,7 +907,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَصْنَعُونَ",
     "textSimple": "أفمن زين له سوٓء عمله فرءاه حسنا  فإن ٱلله يضل من يشآء ويهدى من يشآء  فلا تذهب نفسك عليهم حسرت  إن ٱلله عليم بما يصنعون",
     "transliteration": "afaman zuyyina lahu sūu ʿamalihi faraāhu ḥasanan fa-inna l-laha yuḍillu man yashāu wayahdī man yashāu falā tadhhab nafsuka ʿalayhim ḥasarātin inna l-laha ʿalīmun bimā yaṣnaʿūna",
-    "translation": "",
+    "translation": "Then is one to whom the evil of his deed has been made attractive so he considers it good [like one rightly guided]? For indeed, Allāh sends astray whom He wills and guides whom He wills. So do not let yourself perish over them in regret. Indeed, Allāh is Knowing of what they do.",
     "words": [
       {
         "id": "fatir-8-1",
@@ -1078,7 +1085,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui à qui ses mauvaises actions sont si parées qu’elles semblent belles à ses yeux, (est-il comparable à celui qui voit clair) ? Allah égare qui Il veut et guide qui Il veut. Que ton âme ne se consume donc pas en regrets à cause d’eux. Allah Sait parfaitement ce qu’ils font."
   },
   {
     "id": "fatir-9",
@@ -1087,7 +1095,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَـٰحَ فَتُثِيرُ سَحَابًا فَسُقْنَـٰهُ إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ كَذَٰلِكَ ٱلنُّشُورُ",
     "textSimple": "وٱلله ٱلذىٓ أرسل ٱلريـح فتثير سحابا فسقنـه إلى بلد ميت فأحيينا به ٱلأرض بعد موتها  كذلك ٱلنشور",
     "transliteration": "wal-lahu alladhī arsala l-riyāḥa fatuthīru saḥāban fasuq'nāhu ilā baladin mayyitin fa-aḥyaynā bihi l-arḍa baʿda mawtihā kadhālika l-nushūru",
-    "translation": "",
+    "translation": "And it is Allāh who sends the winds, and they stir the clouds, and We drive them to a dead land and give life thereby to the earth after its lifelessness. Thus is the resurrection.",
     "words": [
       {
         "id": "fatir-9-1",
@@ -1209,7 +1217,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est Celui Qui a envoyé les vents qui font s’élever les nuages. Nous les menons alors vers une contrée morte (de sécheresse), et Nous faisons revivre la terre déjà morte. Telle sera la Résurrection."
   },
   {
     "id": "fatir-10",
@@ -1218,7 +1227,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّـٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَمَكْرُ أُو۟لَـٰٓئِكَ هُوَ يَبُورُ",
     "textSimple": "من كان يريد ٱلعزة فلله ٱلعزة جميعا  إليه يصعد ٱلكلم ٱلطيب وٱلعمل ٱلصـلح يرفعه  وٱلذين يمكرون ٱلسيـٔات لهم عذاب شديد  ومكر أولـٓئك هو يبور",
     "transliteration": "man kāna yurīdu l-ʿizata falillahi l-ʿizatu jamīʿan ilayhi yaṣʿadu l-kalimu l-ṭayibu wal-ʿamalu l-ṣāliḥu yarfaʿuhu wa-alladhīna yamkurūna l-sayiāti lahum ʿadhābun shadīdun wamakru ulāika huwa yabūru",
-    "translation": "",
+    "translation": "Whoever desires honor [through power] - then to Allāh belongs all honor. To Him ascends good speech, and righteous work raises it. But they who plot evil deeds will have a severe punishment, and the plotting of those - it will perish.",
     "words": [
       {
         "id": "fatir-10-1",
@@ -1389,7 +1398,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque ambitionne la puissance (doit savoir qu’) à Allah appartient la Toute-Puissance. Vers Lui monte la bonne parole. Quant à l’œuvre de bien, Il l’élève bien haut. Ceux qui trament des intrigues auront un terrible supplice, et leurs intrigues seront avortées."
   },
   {
     "id": "fatir-11",
@@ -1398,7 +1408,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا يُنقَصُ مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَـٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
     "textSimple": "وٱلله خلقكم من تراب ثم من نطفة ثم جعلكم أزوجا  وما تحمل من أنثى ولا تضع إلا بعلمه  وما يعمر من معمر ولا ينقص من عمرهٓ إلا فى كتـب  إن ذلك على ٱلله يسير",
     "transliteration": "wal-lahu khalaqakum min turābin thumma min nuṭ'fatin thumma jaʿalakum azwājan wamā taḥmilu min unthā walā taḍaʿu illā biʿil'mihi wamā yuʿammaru min muʿammarin walā yunqaṣu min ʿumurihi illā fī kitābin inna dhālika ʿalā l-lahi yasīrun",
-    "translation": "",
+    "translation": "And Allāh created you from dust, then from a sperm-drop; then He made you mates. And no female conceives nor does she give birth except with His knowledge. And no aged person is granted [additional] life nor is his lifespan lessened but that it is in a register. Indeed, that for Allāh is easy.",
     "words": [
       {
         "id": "fatir-11-1",
@@ -1639,7 +1649,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah vous a créés de terre, puis d’une goutte de sperme. Ensuite, Il a fait de vous des couples. Aucune femelle ne porte ni ne met bas sans qu’Il ne le sache. Aucune vie n’est prolongée ou écourtée qui ne soit (déjà inscrite) dans un Livre. C’est pour Allah chose vraiment aisée !"
   },
   {
     "id": "fatir-12",
@@ -1648,7 +1659,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَسْتَوِى ٱلْبَحْرَانِ هَـٰذَا عَذْبٌ فُرَاتٌ سَآئِغٌ شَرَابُهُۥ وَهَـٰذَا مِلْحٌ أُجَاجٌ ۖ وَمِن كُلٍّ تَأْكُلُونَ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُونَ حِلْيَةً تَلْبَسُونَهَا ۖ وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "وما يستوى ٱلبحران هـذا عذب فرات سآئغ شرابه وهـذا ملح أجاج  ومن كل تأكلون لحما طريا وتستخرجون حلية تلبسونها  وترى ٱلفلك فيه مواخر لتبتغوا من فضله ولعلكم تشكرون",
     "transliteration": "wamā yastawī l-baḥrāni hādhā ʿadhbun furātun sāighun sharābuhu wahādhā mil'ḥun ujājun wamin kullin takulūna laḥman ṭariyyan watastakhrijūna ḥil'yatan talbasūnahā watarā l-ful'ka fīhi mawākhira litabtaghū min faḍlihi walaʿallakum tashkurūna",
-    "translation": "",
+    "translation": "And not alike are the two seas [i.e., bodies of water]. One is fresh and sweet, palatable for drinking, and one is salty and bitter. And from each you eat tender meat and extract ornaments which you wear, and you see the ships plowing through [them] that you might seek of His bounty; and perhaps you will be grateful.",
     "words": [
       {
         "id": "fatir-12-1",
@@ -1847,7 +1858,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les deux mers ne sont pas pareilles : ici (une eau) douce, fraîche, agréable à boire, là (une) eau salée et saumâtre. De chacune des deux (mers) vous mangez une chair tendre et retirez des bijoux pour vous parer en les portant. Tu vois les vaisseaux fendre les flots (prêts à vous transporter et vous permettre de) rechercher de Ses faveurs. Peut-être Lui rendrez-vous grâces."
   },
   {
     "id": "fatir-13",
@@ -1856,7 +1868,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ ۚ وَٱلَّذِينَ تَدْعُونَ مِن دُونِهِۦ مَا يَمْلِكُونَ مِن قِطْمِيرٍ",
     "textSimple": "يولج ٱليل فى ٱلنهار ويولج ٱلنهار فى ٱليل وسخر ٱلشمس وٱلقمر كل يجرى لأجل مسمى  ذلكم ٱلله ربكم له ٱلملك  وٱلذين تدعون من دونه ما يملكون من قطمير",
     "transliteration": "yūliju al-layla fī l-nahāri wayūliju l-nahāra fī al-layli wasakhara l-shamsa wal-qamara kullun yajrī li-ajalin musamman dhālikumu l-lahu rabbukum lahu l-mul'ku wa-alladhīna tadʿūna min dūnihi mā yamlikūna min qiṭ'mīrin",
-    "translation": "",
+    "translation": "He causes the night to enter the day, and He causes the day to enter the night and has subjected the sun and the moon - each running [its course] for a specified term. That is Allāh, your Lord; to Him belongs sovereignty. And those whom you invoke other than Him do not possess [as much as] the membrane of a date seed.",
     "words": [
       {
         "id": "fatir-13-1",
@@ -2055,7 +2067,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fait pénétrer la nuit dans le jour et le jour dans la nuit. Il a soumis le soleil et la lune qui courent, chacun de son côté, vers un terme déjà nommé. Voilà pour vous Allah, votre Seigneur, à Qui revient la royauté, cependant que ceux que vous invoquez en dehors de Lui ne possèdent même pas la fine membrane d’un noyau de datte."
   },
   {
     "id": "fatir-14",
@@ -2064,7 +2077,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِن تَدْعُوهُمْ لَا يَسْمَعُوا۟ دُعَآءَكُمْ وَلَوْ سَمِعُوا۟ مَا ٱسْتَجَابُوا۟ لَكُمْ ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُونَ بِشِرْكِكُمْ ۚ وَلَا يُنَبِّئُكَ مِثْلُ خَبِيرٍ",
     "textSimple": "إن تدعوهم لا يسمعوا دعآءكم ولو سمعوا ما ٱستجابوا لكم  ويوم ٱلقيـمة يكفرون بشرككم  ولا ينبئك مثل خبير",
     "transliteration": "in tadʿūhum lā yasmaʿū duʿāakum walaw samiʿū mā is'tajābū lakum wayawma l-qiyāmati yakfurūna bishir'kikum walā yunabbi-uka mith'lu khabīrin",
-    "translation": "",
+    "translation": "If you invoke them, they do not hear your supplication; and if they heard, they would not respond to you. And on the Day of Resurrection they will deny your association. And none can inform you like [one] Aware [of all matters].",
     "words": [
       {
         "id": "fatir-14-1",
@@ -2193,7 +2206,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous leur adressez des prières, ils n’entendent pas vos prières. Et les entendraient-ils qu’ils ne les exauceraient pas. Au jour de la Résurrection, ils renieront votre associâtrie. Nul ne saurait si bien te donner des nouvelles que Celui Qui est Parfaitement Informé."
   },
   {
     "id": "fatir-15",
@@ -2202,7 +2216,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "۞ يَـٰٓأَيُّهَا ٱلنَّاسُ أَنتُمُ ٱلْفُقَرَآءُ إِلَى ٱللَّهِ ۖ وَٱللَّهُ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
     "textSimple": " يـٓأيها ٱلناس أنتم ٱلفقرآء إلى ٱلله  وٱلله هو ٱلغنى ٱلحميد",
     "transliteration": "yāayyuhā l-nāsu antumu l-fuqarāu ilā l-lahi wal-lahu huwa l-ghaniyu l-ḥamīdu",
-    "translation": "",
+    "translation": "O mankind, you are those in need of Allāh, while Allāh is the Free of need, the Praiseworthy.",
     "words": [
       {
         "id": "fatir-15-1",
@@ -2275,7 +2289,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! C’est vous qui êtes les pauvres vis-à-vis d’Allah, et Allah est Celui Qui Se passe de Toutes richesses, le Digne de Toute Louange"
   },
   {
     "id": "fatir-16",
@@ -2284,7 +2299,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍ جَدِيدٍ",
     "textSimple": "إن يشأ يذهبكم ويأت بخلق جديد",
     "transliteration": "in yasha yudh'hib'kum wayati bikhalqin jadīdin",
-    "translation": "",
+    "translation": "If He wills, He can do away with you and bring forth a new creation.",
     "words": [
       {
         "id": "fatir-16-1",
@@ -2329,7 +2344,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’Il voulait, Il vous ferait disparaître et vous remplacerait par d’autres créatures."
   },
   {
     "id": "fatir-17",
@@ -2338,7 +2354,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ذَٰلِكَ عَلَى ٱللَّهِ بِعَزِيزٍ",
     "textSimple": "وما ذلك على ٱلله بعزيز",
     "transliteration": "wamā dhālika ʿalā l-lahi biʿazīzin",
-    "translation": "",
+    "translation": "And that is for Allāh not difficult.",
     "words": [
       {
         "id": "fatir-17-1",
@@ -2376,7 +2392,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, pour Allah, ne serait pas difficile."
   },
   {
     "id": "fatir-18",
@@ -2385,7 +2402,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ ۚ وَإِن تَدْعُ مُثْقَلَةٌ إِلَىٰ حِمْلِهَا لَا يُحْمَلْ مِنْهُ شَىْءٌ وَلَوْ كَانَ ذَا قُرْبَىٰٓ ۗ إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
     "textSimple": "ولا تزر وازرة وزر أخرى  وإن تدع مثقلة إلى حملها لا يحمل منه شىء ولو كان ذا قربىٓ  إنما تنذر ٱلذين يخشون ربهم بٱلغيب وأقاموا ٱلصلوة  ومن تزكى فإنما يتزكى لنفسه  وإلى ٱلله ٱلمصير",
     "transliteration": "walā taziru wāziratun wiz'ra ukh'rā wa-in tadʿu muth'qalatun ilā ḥim'lihā lā yuḥ'mal min'hu shayon walaw kāna dhā qur'bā innamā tundhiru alladhīna yakhshawna rabbahum bil-ghaybi wa-aqāmū l-ṣalata waman tazakkā fa-innamā yatazakkā linafsihi wa-ilā l-lahi l-maṣīru",
-    "translation": "",
+    "translation": "And no bearer of burdens will bear the burden of another. And if a heavily laden soul calls [another] to [carry some of] its load, nothing of it will be carried, even if he should be a close relative. You can only warn those who fear their Lord unseen and have established prayer. And whoever purifies himself only purifies himself for [the benefit of] his soul. And to Allāh is the [final] destination.",
     "words": [
       {
         "id": "fatir-18-1",
@@ -2626,7 +2643,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nul ne portera le fardeau d’un autre. Si une âme, croulant sous le poids (de ses péchés), appelle pour être aidée à porter sa lourde charge, rien n’en sera porté (par personne), dût-il s’agir d’un proche parent. Tu ne saurais avertir que ceux qui craignent leur Seigneur sans même Le voir et qui accomplissent la Çalât. Quiconque se purifie se purifie pour lui-même, et c’est vers Allah que sera le devenir."
   },
   {
     "id": "fatir-19",
@@ -2635,7 +2653,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ",
     "textSimple": "وما يستوى ٱلأعمى وٱلبصير",
     "transliteration": "wamā yastawī l-aʿmā wal-baṣīru",
-    "translation": "",
+    "translation": "Not equal are the blind and the seeing,",
     "words": [
       {
         "id": "fatir-19-1",
@@ -2666,7 +2684,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’aveugle et le voyant ne sauraient être égaux."
   },
   {
     "id": "fatir-20",
@@ -2675,7 +2694,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا ٱلظُّلُمَـٰتُ وَلَا ٱلنُّورُ",
     "textSimple": "ولا ٱلظلمـت ولا ٱلنور",
     "transliteration": "walā l-ẓulumātu walā l-nūru",
-    "translation": "",
+    "translation": "Nor are the darknesses and the light,",
     "words": [
       {
         "id": "fatir-20-1",
@@ -2706,7 +2725,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pas plus que ne sauraient l’être les ténèbres et la lumière."
   },
   {
     "id": "fatir-21",
@@ -2715,7 +2735,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ",
     "textSimple": "ولا ٱلظل ولا ٱلحرور",
     "transliteration": "walā l-ẓilu walā l-ḥarūru",
-    "translation": "",
+    "translation": "Nor are the shade and the heat,",
     "words": [
       {
         "id": "fatir-21-1",
@@ -2746,7 +2766,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ni l’ombre (rafraîchissante) et la chaleur (brûlante)."
   },
   {
     "id": "fatir-22",
@@ -2755,7 +2776,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَسْتَوِى ٱلْأَحْيَآءُ وَلَا ٱلْأَمْوَٰتُ ۚ إِنَّ ٱللَّهَ يُسْمِعُ مَن يَشَآءُ ۖ وَمَآ أَنتَ بِمُسْمِعٍ مَّن فِى ٱلْقُبُورِ",
     "textSimple": "وما يستوى ٱلأحيآء ولا ٱلأموت  إن ٱلله يسمع من يشآء  ومآ أنت بمسمع من فى ٱلقبور",
     "transliteration": "wamā yastawī l-aḥyāu walā l-amwātu inna l-laha yus'miʿu man yashāu wamā anta bimus'miʿin man fī l-qubūri",
-    "translation": "",
+    "translation": "And not equal are the living and the dead. Indeed, Allāh causes to hear whom He wills, but you cannot make hear those in the graves.",
     "words": [
       {
         "id": "fatir-22-1",
@@ -2870,7 +2891,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comme ne sauraient être égaux, non plus, les morts et les vivants. Allah fait entendre qui Il veut, tandis que toi tu ne pourras faire entendre ceux qui sont dans les tombes."
   },
   {
     "id": "fatir-23",
@@ -2879,7 +2901,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ أَنتَ إِلَّا نَذِيرٌ",
     "textSimple": "إن أنت إلا نذير",
     "transliteration": "in anta illā nadhīrun",
-    "translation": "",
+    "translation": "You, [O Muḥammad], are not but a warner.",
     "words": [
       {
         "id": "fatir-23-1",
@@ -2910,7 +2932,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’es là que pour avertir."
   },
   {
     "id": "fatir-24",
@@ -2919,7 +2942,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَرْسَلْنَـٰكَ بِٱلْحَقِّ بَشِيرًا وَنَذِيرًا ۚ وَإِن مِّنْ أُمَّةٍ إِلَّا خَلَا فِيهَا نَذِيرٌ",
     "textSimple": "إنآ أرسلنـك بٱلحق بشيرا ونذيرا  وإن من أمة إلا خلا فيها نذير",
     "transliteration": "innā arsalnāka bil-ḥaqi bashīran wanadhīran wa-in min ummatin illā khalā fīhā nadhīrun",
-    "translation": "",
+    "translation": "Indeed, We have sent you with the truth as a bringer of good tidings and a warner. And there was no nation but that there had passed within it a warner.",
     "words": [
       {
         "id": "fatir-24-1",
@@ -3006,7 +3029,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’avons envoyé, avec la vérité, afin de faire heureuse annonce et d’avertir. Il n’est pas une seule nation qui n’ait vu venir à elle un avertisseur."
   },
   {
     "id": "fatir-25",
@@ -3015,7 +3039,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ وَبِٱلزُّبُرِ وَبِٱلْكِتَـٰبِ ٱلْمُنِيرِ",
     "textSimple": "وإن يكذبوك فقد كذب ٱلذين من قبلهم جآءتهم رسلهم بٱلبينـت وبٱلزبر وبٱلكتـب ٱلمنير",
     "transliteration": "wa-in yukadhibūka faqad kadhaba alladhīna min qablihim jāathum rusuluhum bil-bayināti wabil-zuburi wabil-kitābi l-munīri",
-    "translation": "",
+    "translation": "And if they deny you - then already have those before them denied. Their messengers came to them with clear proofs and written ordinances and with the enlightening Scripture.",
     "words": [
       {
         "id": "fatir-25-1",
@@ -3109,7 +3133,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te traitent de menteur, ceux qui les ont précédés avaient déjà traité de menteurs (les Messagers) qui leur apportaient les preuves évidentes, les Écritures et le Livre pour les éclairer."
   },
   {
     "id": "fatir-26",
@@ -3118,7 +3143,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَخَذْتُ ٱلَّذِينَ كَفَرُوا۟ ۖ فَكَيْفَ كَانَ نَكِيرِ",
     "textSimple": "ثم أخذت ٱلذين كفروا  فكيف كان نكير",
     "transliteration": "thumma akhadhtu alladhīna kafarū fakayfa kāna nakīri",
-    "translation": "",
+    "translation": "Then I seized the ones who disbelieved, and how [terrible] was My reproach.",
     "words": [
       {
         "id": "fatir-26-1",
@@ -3170,7 +3195,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Je Me saisis des mécréants. Quelle ne fut alors Ma réprobation !"
   },
   {
     "id": "fatir-27",
@@ -3179,7 +3205,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ سُودٌ",
     "textSimple": "ألم تر أن ٱلله أنزل من ٱلسمآء مآء فأخرجنا به ثمرت مختلفا ألونها  ومن ٱلجبال جدد بيض وحمر مختلف ألونها وغرابيب سود",
     "transliteration": "alam tara anna l-laha anzala mina l-samāi māan fa-akhrajnā bihi thamarātin mukh'talifan alwānuhā wamina l-jibāli judadun bīḍun waḥum'run mukh'talifun alwānuhā wagharābību sūdun",
-    "translation": "",
+    "translation": "Do you not see that Allāh sends down rain from the sky, and We produce thereby fruits of varying colors? And in the mountains are tracts, white and red of varying shades and [some] extremely black.",
     "words": [
       {
         "id": "fatir-27-1",
@@ -3336,7 +3362,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas vu qu’Allah fait descendre du ciel une eau, par laquelle Nous faisons pousser toutes sortes de fruits aux couleurs différentes ? Certaines montagnes sont striées de blanc et de rouge, dont les nuances sont si variées, et d’autres sont d’un noir profond."
   },
   {
     "id": "fatir-28",
@@ -3345,7 +3372,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ وَٱلدَّوَآبِّ وَٱلْأَنْعَـٰمِ مُخْتَلِفٌ أَلْوَٰنُهُۥ كَذَٰلِكَ ۗ إِنَّمَا يَخْشَى ٱللَّهَ مِنْ عِبَادِهِ ٱلْعُلَمَـٰٓؤُا۟ ۗ إِنَّ ٱللَّهَ عَزِيزٌ غَفُورٌ",
     "textSimple": "ومن ٱلناس وٱلدوآب وٱلأنعـم مختلف ألونه كذلك  إنما يخشى ٱلله من عباده ٱلعلمـٓؤا  إن ٱلله عزيز غفور",
     "transliteration": "wamina l-nāsi wal-dawābi wal-anʿāmi mukh'talifun alwānuhu kadhālika innamā yakhshā l-laha min ʿibādihi l-ʿulamāu inna l-laha ʿazīzun ghafūrun",
-    "translation": "",
+    "translation": "And among people and moving creatures and grazing livestock are various colors similarly. Only those fear Allāh, from among His servants, who have knowledge. Indeed, Allāh is Exalted in Might and Forgiving.",
     "words": [
       {
         "id": "fatir-28-1",
@@ -3467,7 +3494,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pour les hommes, les animaux et le bétail, il existe aussi des couleurs tout aussi variées. C’est ainsi que, parmi Ses serviteurs, Seuls les savants craignent Allah. Allah est certes Tout-Puissant et Absoluteur."
   },
   {
     "id": "fatir-29",
@@ -3476,7 +3504,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَـٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَـٰهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَـٰرَةً لَّن تَبُورَ",
     "textSimple": "إن ٱلذين يتلون كتـب ٱلله وأقاموا ٱلصلوة وأنفقوا مما رزقنـهم سرا وعلانية يرجون تجـرة لن تبور",
     "transliteration": "inna alladhīna yatlūna kitāba l-lahi wa-aqāmū l-ṣalata wa-anfaqū mimmā razaqnāhum sirran waʿalāniyatan yarjūna tijāratan lan tabūra",
-    "translation": "",
+    "translation": "Indeed, those who recite the Book of Allāh and establish prayer and spend [in His cause] out of what We have provided them, secretly and publicly, [can] expect a transaction [i.e., profit] that will never perish -",
     "words": [
       {
         "id": "fatir-29-1",
@@ -3591,7 +3619,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui récitent le Livre d’Allah, qui accomplissent la Çalât et dépensent de ce que Nous leur avons dispensé, secrètement et en public, peuvent espérer un commerce qui jamais ne s’épuisera,"
   },
   {
     "id": "fatir-30",
@@ -3600,7 +3629,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "لِيُوَفِّيَهُمْ أُجُورَهُمْ وَيَزِيدَهُم مِّن فَضْلِهِۦٓ ۚ إِنَّهُۥ غَفُورٌ شَكُورٌ",
     "textSimple": "ليوفيهم أجورهم ويزيدهم من فضلهٓ  إنه غفور شكور",
     "transliteration": "liyuwaffiyahum ujūrahum wayazīdahum min faḍlihi innahu ghafūrun shakūrun",
-    "translation": "",
+    "translation": "That He may give them in full their rewards and increase for them of His bounty. Indeed, He is Forgiving and Appreciative.",
     "words": [
       {
         "id": "fatir-30-1",
@@ -3659,7 +3688,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin qu’(Allah) leur attribue leur pleine récompense et leur ajoute de Ses faveurs. Il est Absoluteur et si Reconnaissant !"
   },
   {
     "id": "fatir-31",
@@ -3668,7 +3698,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ هُوَ ٱلْحَقُّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ ۗ إِنَّ ٱللَّهَ بِعِبَادِهِۦ لَخَبِيرٌۢ بَصِيرٌ",
     "textSimple": "وٱلذىٓ أوحينآ إليك من ٱلكتـب هو ٱلحق مصدقا لما بين يديه  إن ٱلله بعباده لخبير بصير",
     "transliteration": "wa-alladhī awḥaynā ilayka mina l-kitābi huwa l-ḥaqu muṣaddiqan limā bayna yadayhi inna l-laha biʿibādihi lakhabīrun baṣīrun",
-    "translation": "",
+    "translation": "And that which We have revealed to you, [O Muḥammad], of the Book is the truth, confirming what was before it. Indeed Allāh, of His servants, is Aware and Seeing.",
     "words": [
       {
         "id": "fatir-31-1",
@@ -3783,7 +3813,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce que Nous t’avons révélé du Livre est la vérité même, qui vient confirmer (les Écritures) qui l’ont précédé. Allah est, au sujet de Ses serviteurs, Informé et Lucide."
   },
   {
     "id": "fatir-32",
@@ -3792,7 +3823,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَوْرَثْنَا ٱلْكِتَـٰبَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا ۖ فَمِنْهُمْ ظَالِمٌ لِّنَفْسِهِۦ وَمِنْهُم مُّقْتَصِدٌ وَمِنْهُمْ سَابِقٌۢ بِٱلْخَيْرَٰتِ بِإِذْنِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
     "textSimple": "ثم أورثنا ٱلكتـب ٱلذين ٱصطفينا من عبادنا  فمنهم ظالم لنفسه ومنهم مقتصد ومنهم سابق بٱلخيرت بإذن ٱلله  ذلك هو ٱلفضل ٱلكبير",
     "transliteration": "thumma awrathnā l-kitāba alladhīna iṣ'ṭafaynā min ʿibādinā famin'hum ẓālimun linafsihi wamin'hum muq'taṣidun wamin'hum sābiqun bil-khayrāti bi-idh'ni l-lahi dhālika huwa l-faḍlu l-kabīru",
-    "translation": "",
+    "translation": "Then We caused to inherit the Book those We have chosen of Our servants; and among them is he who wrongs himself [i.e., sins], and among them is he who is moderate, and among them is he who is foremost in good deeds by permission of Allāh. That [inheritance] is what is the great bounty.",
     "words": [
       {
         "id": "fatir-32-1",
@@ -3942,7 +3973,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous avons attribué l’héritage du Livre à ceux que Nous avons élus parmi Nos serviteurs. Certains parmi eux se lèsent eux-mêmes, d’autres empruntent une voie médiane (dans leurs actions), et d’autres enfin vont au-devant des bonnes œuvres : telle est la faveur suprême!"
   },
   {
     "id": "fatir-33",
@@ -3951,7 +3983,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "جَنَّـٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
     "textSimple": "جنـت عدن يدخلونها يحلون فيها من أساور من ذهب ولؤلؤا  ولباسهم فيها حرير",
     "transliteration": "jannātu ʿadnin yadkhulūnahā yuḥallawna fīhā min asāwira min dhahabin walu'lu-an walibāsuhum fīhā ḥarīrun",
-    "translation": "",
+    "translation": "[For them are] gardens of perpetual residence which they will enter. They will be adorned therein with bracelets of gold and pearls, and their garments therein will be silk.",
     "words": [
       {
         "id": "fatir-33-1",
@@ -4045,7 +4077,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils entreront dans les Jardins d’Éden où ils porteront en parures des bracelets en or et des perles, et ils seront de soie vêtus."
   },
   {
     "id": "fatir-34",
@@ -4054,7 +4087,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌ شَكُورٌ",
     "textSimple": "وقالوا ٱلحمد لله ٱلذىٓ أذهب عنا ٱلحزن  إن ربنا لغفور شكور",
     "transliteration": "waqālū l-ḥamdu lillahi alladhī adhhaba ʿannā l-ḥazana inna rabbanā laghafūrun shakūrun",
-    "translation": "",
+    "translation": "And they will say, \"Praise to Allāh, who has removed from us [all] sorrow. Indeed, our Lord is Forgiving and Appreciative -",
     "words": [
       {
         "id": "fatir-34-1",
@@ -4134,7 +4167,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Louange à Allah Qui a éloigné de nous l’affliction, diront-ils, Notre Seigneur est Absoluteur et si Reconnaissant !"
   },
   {
     "id": "fatir-35",
@@ -4143,7 +4177,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِىٓ أَحَلَّنَا دَارَ ٱلْمُقَامَةِ مِن فَضْلِهِۦ لَا يَمَسُّنَا فِيهَا نَصَبٌ وَلَا يَمَسُّنَا فِيهَا لُغُوبٌ",
     "textSimple": "ٱلذىٓ أحلنا دار ٱلمقامة من فضله لا يمسنا فيها نصب ولا يمسنا فيها لغوب",
     "transliteration": "alladhī aḥallanā dāra l-muqāmati min faḍlihi lā yamassunā fīhā naṣabun walā yamassunā fīhā lughūbun",
-    "translation": "",
+    "translation": "He who has settled us in the home of duration [i.e., Paradise] out of His bounty. There touches us not in it any fatigue, and there touches us not in it weariness [of mind].\"",
     "words": [
       {
         "id": "fatir-35-1",
@@ -4244,7 +4278,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui, par Sa grâce, nous a établis dans la Demeure permanente où ni fatigue ni lassitude ne peuvent nous atteindre. »"
   },
   {
     "id": "fatir-36",
@@ -4253,7 +4288,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ نَارُ جَهَنَّمَ لَا يُقْضَىٰ عَلَيْهِمْ فَيَمُوتُوا۟ وَلَا يُخَفَّفُ عَنْهُم مِّنْ عَذَابِهَا ۚ كَذَٰلِكَ نَجْزِى كُلَّ كَفُورٍ",
     "textSimple": "وٱلذين كفروا لهم نار جهنم لا يقضى عليهم فيموتوا ولا يخفف عنهم من عذابها  كذلك نجزى كل كفور",
     "transliteration": "wa-alladhīna kafarū lahum nāru jahannama lā yuq'ḍā ʿalayhim fayamūtū walā yukhaffafu ʿanhum min ʿadhābihā kadhālika najzī kulla kafūrin",
-    "translation": "",
+    "translation": "And for those who disbelieve will be the fire of Hell. [Death] is not decreed for them so they may die, nor will its torment be lightened for them. Thus do We recompense every ungrateful one.",
     "words": [
       {
         "id": "fatir-36-1",
@@ -4382,7 +4417,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru auront, quant à eux, (pour rétribution) le feu de la Géhenne. Aucun coup mortel ne leur sera donné et ils ne connaîtront pas le trépas ; rien du supplice ne leur sera atténué. C’est ainsi que Nous récompensons tout mécréant ingrat."
   },
   {
     "id": "fatir-37",
@@ -4391,7 +4427,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَهُمْ يَصْطَرِخُونَ فِيهَا رَبَّنَآ أَخْرِجْنَا نَعْمَلْ صَـٰلِحًا غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ أَوَلَمْ نُعَمِّرْكُم مَّا يَتَذَكَّرُ فِيهِ مَن تَذَكَّرَ وَجَآءَكُمُ ٱلنَّذِيرُ ۖ فَذُوقُوا۟ فَمَا لِلظَّـٰلِمِينَ مِن نَّصِيرٍ",
     "textSimple": "وهم يصطرخون فيها ربنآ أخرجنا نعمل صـلحا غير ٱلذى كنا نعمل  أولم نعمركم ما يتذكر فيه من تذكر وجآءكم ٱلنذير  فذوقوا فما للظـلمين من نصير",
     "transliteration": "wahum yaṣṭarikhūna fīhā rabbanā akhrij'nā naʿmal ṣāliḥan ghayra alladhī kunnā naʿmalu awalam nuʿammir'kum mā yatadhakkaru fīhi man tadhakkara wajāakumu l-nadhīru fadhūqū famā lilẓẓālimīna min naṣīrin",
-    "translation": "",
+    "translation": "And they will cry out therein, \"Our Lord, remove us; we will do righteousness - other than what we were doing!\" But did We not grant you life enough for whoever would remember therein to remember, and the warner had come to you? So taste [the punishment], for there is not for the wrongdoers any helper.",
     "words": [
       {
         "id": "fatir-37-1",
@@ -4569,7 +4605,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils crieront (au fond de l’Enfer) : « Seigneur ! Fais-nous sortir et nous ferons le bien que nous ne faisions pas autrefois. » « Ne vous avons-Nous pas donné assez longue vie, leur sera-t-il dit, pour que ceux qui voulaient réfléchir aient pu réfléchir ? Et l’avertisseur n’est-il pas venu vers vous ? Alors, goûtez (le supplice) ! Les injustes n’auront aucun allié pour les secourir ! »"
   },
   {
     "id": "fatir-38",
@@ -4578,7 +4615,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ عَـٰلِمُ غَيْبِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "إن ٱلله عـلم غيب ٱلسمـوت وٱلأرض  إنه عليم بذات ٱلصدور",
     "transliteration": "inna l-laha ʿālimu ghaybi l-samāwāti wal-arḍi innahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "Indeed, Allāh is Knower of the unseen [aspects] of the heavens and earth. Indeed, He is Knowing of that within the breasts.",
     "words": [
       {
         "id": "fatir-38-1",
@@ -4651,7 +4688,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah Connaît l’Inconnaissable (ghayb) des cieux et de la terre. Il connaît le mieux ce qu’il y a au fond des cœurs."
   },
   {
     "id": "fatir-39",
@@ -4660,7 +4698,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى جَعَلَكُمْ خَلَـٰٓئِفَ فِى ٱلْأَرْضِ ۚ فَمَن كَفَرَ فَعَلَيْهِ كُفْرُهُۥ ۖ وَلَا يَزِيدُ ٱلْكَـٰفِرِينَ كُفْرُهُمْ عِندَ رَبِّهِمْ إِلَّا مَقْتًا ۖ وَلَا يَزِيدُ ٱلْكَـٰفِرِينَ كُفْرُهُمْ إِلَّا خَسَارًا",
     "textSimple": "هو ٱلذى جعلكم خلـٓئف فى ٱلأرض  فمن كفر فعليه كفره  ولا يزيد ٱلكـفرين كفرهم عند ربهم إلا مقتا  ولا يزيد ٱلكـفرين كفرهم إلا خسارا",
     "transliteration": "huwa alladhī jaʿalakum khalāifa fī l-arḍi faman kafara faʿalayhi kuf'ruhu walā yazīdu l-kāfirīna kuf'ruhum ʿinda rabbihim illā maqtan walā yazīdu l-kāfirīna kuf'ruhum illā khasāran",
-    "translation": "",
+    "translation": "It is He who has made you successors upon the earth. And whoever disbelieves - upon him will be [the consequence of] his disbelief. And the disbelief of the disbelievers does not increase them in the sight of their Lord except in hatred; and the disbelief of the disbelievers does not increase them except in loss.",
     "words": [
       {
         "id": "fatir-39-1",
@@ -4831,7 +4869,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a fait de vous des générations qui se succèdent sur terre. Quiconque a mécru verra retomber sur lui sa propre mécréance. Or la mécréance ne rend les mécréants que plus infâmes pour leur Seigneur, et elle ne fait qu’ajouter à leur ruine."
   },
   {
     "id": "fatir-40",
@@ -4840,7 +4879,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ شُرَكَآءَكُمُ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَـٰوَٰتِ أَمْ ءَاتَيْنَـٰهُمْ كِتَـٰبًا فَهُمْ عَلَىٰ بَيِّنَتٍ مِّنْهُ ۚ بَلْ إِن يَعِدُ ٱلظَّـٰلِمُونَ بَعْضُهُم بَعْضًا إِلَّا غُرُورًا",
     "textSimple": "قل أرءيتم شركآءكم ٱلذين تدعون من دون ٱلله أرونى ماذا خلقوا من ٱلأرض أم لهم شرك فى ٱلسمـوت أم ءاتينـهم كتـبا فهم على بينت منه  بل إن يعد ٱلظـلمون بعضهم بعضا إلا غرورا",
     "transliteration": "qul ara-aytum shurakāakumu alladhīna tadʿūna min dūni l-lahi arūnī mādhā khalaqū mina l-arḍi am lahum shir'kun fī l-samāwāti am ātaynāhum kitāban fahum ʿalā bayyinatin min'hu bal in yaʿidu l-ẓālimūna baʿḍuhum baʿḍan illā ghurūran",
-    "translation": "",
+    "translation": "Say, \"Have you considered your 'partners' whom you invoke besides Allāh? Show me what they have created from the earth, or have they partnership [with Him] in the heavens? Or have We given them a book so they are [standing] on evidence therefrom? [No], rather, the wrongdoers do not promise each other except delusion.\"",
     "words": [
       {
         "id": "fatir-40-1",
@@ -5074,7 +5113,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 32
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Voyez-vous ces (divinités) associées que vous invoquez en dehors d’Allah ? Montrez-moi ce qu’elles ont créé de la terre. Ou peut-être ont-elles pris part à la création des cieux ! Ou peut-être encore leur avons-Nous donné un Livre dont ils tirent les preuves évidentes ! Non, les injustes ne se font mutuellement que des promesses trompeuses !"
   },
   {
     "id": "fatir-41",
@@ -5083,7 +5123,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ أَن تَزُولَا ۚ وَلَئِن زَالَتَآ إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِّنۢ بَعْدِهِۦٓ ۚ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًا",
     "textSimple": " إن ٱلله يمسك ٱلسمـوت وٱلأرض أن تزولا  ولئن زالتآ إن أمسكهما من أحد من بعدهٓ  إنه كان حليما غفورا",
     "transliteration": "inna l-laha yum'siku l-samāwāti wal-arḍa an tazūlā wala-in zālatā in amsakahumā min aḥadin min baʿdihi innahu kāna ḥalīman ghafūran",
-    "translation": "",
+    "translation": "Indeed, Allāh holds the heavens and the earth, lest they cease. And if they should cease, no one could hold them [in place] after Him. Indeed, He is Forbearing and Forgiving.",
     "words": [
       {
         "id": "fatir-41-1",
@@ -5219,7 +5259,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah retient les cieux et la terre qu’ils ne s’écroulent. Mais s’il arrivait qu’ils s’écroulent, nul autre après Lui, ne saurait les retenir. Il est si Absoluteur et si Longanime !"
   },
   {
     "id": "fatir-42",
@@ -5228,7 +5269,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَـٰنِهِمْ لَئِن جَآءَهُمْ نَذِيرٌ لَّيَكُونُنَّ أَهْدَىٰ مِنْ إِحْدَى ٱلْأُمَمِ ۖ فَلَمَّا جَآءَهُمْ نَذِيرٌ مَّا زَادَهُمْ إِلَّا نُفُورًا",
     "textSimple": "وأقسموا بٱلله جهد أيمـنهم لئن جآءهم نذير ليكونن أهدى من إحدى ٱلأمم  فلما جآءهم نذير ما زادهم إلا نفورا",
     "transliteration": "wa-aqsamū bil-lahi jahda aymānihim la-in jāahum nadhīrun layakūnunna ahdā min iḥ'dā l-umami falammā jāahum nadhīrun mā zādahum illā nufūran",
-    "translation": "",
+    "translation": "And they swore by Allāh their strongest oaths that if a warner came to them, they would be more guided than [any] one of the [previous] nations. But when a warner came to them, it did not increase them except in aversion",
     "words": [
       {
         "id": "fatir-42-1",
@@ -5364,7 +5405,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils jurèrent par Allah de leurs serments les plus solennels que si un avertisseur venait vers eux, ils seraient mieux guidés qu’aucune autre communauté. Puis lorsqu’un avertisseur est venu vers eux, cela n’a fait qu’ajouter à leur aversion,"
   },
   {
     "id": "fatir-43",
@@ -5373,7 +5415,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "ٱسْتِكْبَارًا فِى ٱلْأَرْضِ وَمَكْرَ ٱلسَّيِّئِ ۚ وَلَا يَحِيقُ ٱلْمَكْرُ ٱلسَّيِّئُ إِلَّا بِأَهْلِهِۦ ۚ فَهَلْ يَنظُرُونَ إِلَّا سُنَّتَ ٱلْأَوَّلِينَ ۚ فَلَن تَجِدَ لِسُنَّتِ ٱللَّهِ تَبْدِيلًا ۖ وَلَن تَجِدَ لِسُنَّتِ ٱللَّهِ تَحْوِيلًا",
     "textSimple": "ٱستكبارا فى ٱلأرض ومكر ٱلسيئ  ولا يحيق ٱلمكر ٱلسيئ إلا بأهله  فهل ينظرون إلا سنت ٱلأولين  فلن تجد لسنت ٱلله تبديلا  ولن تجد لسنت ٱلله تحويلا",
     "transliteration": "is'tik'bāran fī l-arḍi wamakra l-sayi-i walā yaḥīqu l-makru l-sayi-u illā bi-ahlihi fahal yanẓurūna illā sunnata l-awalīna falan tajida lisunnati l-lahi tabdīlan walan tajida lisunnati l-lahi taḥwīlan",
-    "translation": "",
+    "translation": "[Due to] arrogance in the land and plotting of evil; but the evil plot does not encompass except its own people. Then do they await except the way [i.e., fate] of the former peoples? But you will never find in the way [i.e., established method] of Allāh any change, and you will never find in the way of Allāh any alteration.",
     "words": [
       {
         "id": "fatir-43-1",
@@ -5558,7 +5600,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(ainsi qu’à leur) arrogance sur terre et à leurs intrigues néfastes. Mais les intrigues néfastes ne cernent que leurs propres auteurs. S’attendent-ils donc à un autre sort que celui des anciens ? Tu ne trouveras certainement ni changement ni variation dans la loi d’Allah."
   },
   {
     "id": "fatir-44",
@@ -5567,7 +5610,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ وَكَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةً ۚ وَمَا كَانَ ٱللَّهُ لِيُعْجِزَهُۥ مِن شَىْءٍ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ عَلِيمًا قَدِيرًا",
     "textSimple": "أولم يسيروا فى ٱلأرض فينظروا كيف كان عـقبة ٱلذين من قبلهم وكانوٓا أشد منهم قوة  وما كان ٱلله ليعجزه من شىء فى ٱلسمـوت ولا فى ٱلأرض  إنه كان عليما قديرا",
     "transliteration": "awalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim wakānū ashadda min'hum quwwatan wamā kāna l-lahu liyuʿ'jizahu min shayin fī l-samāwāti walā fī l-arḍi innahu kāna ʿalīman qadīran",
-    "translation": "",
+    "translation": "Have they not traveled through the land and observed how was the end of those before them? And they were greater than them in power. But Allāh is not to be caused failure [i.e., prevented] by anything in the heavens or on the earth. Indeed, He is ever Knowing and Competent.",
     "words": [
       {
         "id": "fatir-44-1",
@@ -5780,7 +5823,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils pas parcouru la terre pour voir quel fut le sort de ceux qui les ont précédés et qui étaient pourtant bien plus puissants qu’eux ? Rien dans les cieux ni sur terre ne peut mettre au défi la puissance d’Allah. Il est Omniscient et Omnipotent."
   },
   {
     "id": "fatir-45",
@@ -5789,7 +5833,7 @@ export const FATIR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِمَا كَسَبُوا۟ مَا تَرَكَ عَلَىٰ ظَهْرِهَا مِن دَآبَّةٍ وَلَـٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۖ فَإِذَا جَآءَ أَجَلُهُمْ فَإِنَّ ٱللَّهَ كَانَ بِعِبَادِهِۦ بَصِيرًۢا",
     "textSimple": "ولو يؤاخذ ٱلله ٱلناس بما كسبوا ما ترك على ظهرها من دآبة ولـكن يؤخرهم إلىٓ أجل مسمى  فإذا جآء أجلهم فإن ٱلله كان بعباده بصيرا",
     "transliteration": "walaw yuākhidhu l-lahu l-nāsa bimā kasabū mā taraka ʿalā ẓahrihā min dābbatin walākin yu-akhiruhum ilā ajalin musamman fa-idhā jāa ajaluhum fa-inna l-laha kāna biʿibādihi baṣīran",
-    "translation": "",
+    "translation": "And if Allāh were to impose blame on the people for what they have earned, He would not leave upon it [i.e., the earth] any creature. But He defers them for a specified term. And when their time comes, then indeed Allāh has ever been, of His servants, Seeing.",
     "words": [
       {
         "id": "fatir-45-1",
@@ -5967,7 +6011,8 @@ export const FATIR_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah châtiait les hommes pour ce qu’ils acquièrent (comme mauvaises actions), Il ne laisserait pas à la surface de la terre un seul être vivant. Mais Il leur accorde un sursis jusqu’à un terme déjà nommé. Alors, quand leur terme sera venu…Allah est, au sujet de Ses serviteurs, parfaitement Lucide."
   }
 ];
 

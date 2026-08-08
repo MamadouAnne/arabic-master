@@ -11,7 +11,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": " طسٓمٓ",
     "textSimple": " طسٓمٓ",
     "transliteration": "tta-seen-meem",
-    "translation": "",
+    "translation": "Ṭā, Seen, Meem.",
     "words": [
       {
         "id": "ash-shu-ara-1-1",
@@ -21,7 +21,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tâ, Sîn, Mîm."
   },
   {
     "id": "ash-shu-ara-2",
@@ -30,7 +31,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْمُبِينِ",
     "textSimple": "تلك ءايـت ٱلكتـب ٱلمبين",
     "transliteration": "til'ka āyātu l-kitābi l-mubīni",
-    "translation": "",
+    "translation": "These are the verses of the clear Book.",
     "words": [
       {
         "id": "ash-shu-ara-2-1",
@@ -61,7 +62,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là les versets d’un Livre explicite."
   },
   {
     "id": "ash-shu-ara-3",
@@ -70,7 +72,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "لَعَلَّكَ بَـٰخِعٌ نَّفْسَكَ أَلَّا يَكُونُوا۟ مُؤْمِنِينَ",
     "textSimple": "لعلك بـخع نفسك ألا يكونوا مؤمنين",
     "transliteration": "laʿallaka bākhiʿun nafsaka allā yakūnū mu'minīna",
-    "translation": "",
+    "translation": "Perhaps, [O Muḥammad], you would kill yourself with grief that they will not be believers.",
     "words": [
       {
         "id": "ash-shu-ara-3-1",
@@ -115,7 +117,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Peut-être vas-tu te tourmenter pour eux (à en mourir) parce qu’ils ne sont pas croyants !"
   },
   {
     "id": "ash-shu-ara-4",
@@ -124,7 +127,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِن نَّشَأْ نُنَزِّلْ عَلَيْهِم مِّنَ ٱلسَّمَآءِ ءَايَةً فَظَلَّتْ أَعْنَـٰقُهُمْ لَهَا خَـٰضِعِينَ",
     "textSimple": "إن نشأ ننزل عليهم من ٱلسمآء ءاية فظلت أعنـقهم لها خـضعين",
     "transliteration": "in nasha nunazzil ʿalayhim mina l-samāi āyatan faẓallat aʿnāquhum lahā khāḍiʿīna",
-    "translation": "",
+    "translation": "If We willed, We could send down to them from the sky a sign for which their necks would remain humbled.",
     "words": [
       {
         "id": "ash-shu-ara-4-1",
@@ -204,7 +207,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous le voulions, Nous ferions descendre sur eux du ciel un prodige, devant lequel leurs cous demeureraient courbés."
   },
   {
     "id": "ash-shu-ara-5",
@@ -213,7 +217,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَأْتِيهِم مِّن ذِكْرٍ مِّنَ ٱلرَّحْمَـٰنِ مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ",
     "textSimple": "وما يأتيهم من ذكر من ٱلرحمـن محدث إلا كانوا عنه معرضين",
     "transliteration": "wamā yatīhim min dhik'rin mina l-raḥmāni muḥ'dathin illā kānū ʿanhu muʿ'riḍīna",
-    "translation": "",
+    "translation": "And no mention [i.e., revelation] comes to them anew from the Most Merciful except that they turn away from it.",
     "words": [
       {
         "id": "ash-shu-ara-5-1",
@@ -293,7 +297,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est aucun nouveau rappel, leur parvenant du Tout Clément, dont ils ne se détournent indifférents."
   },
   {
     "id": "ash-shu-ara-6",
@@ -302,7 +307,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَقَدْ كَذَّبُوا۟ فَسَيَأْتِيهِمْ أَنۢبَـٰٓؤُا۟ مَا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "فقد كذبوا فسيأتيهم أنبـٓؤا ما كانوا به يستهزءون",
     "transliteration": "faqad kadhabū fasayatīhim anbāu mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "For they have already denied, but there will come to them the news of that which they used to ridicule.",
     "words": [
       {
         "id": "ash-shu-ara-6-1",
@@ -361,7 +366,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont déjà osé tout démentir. Alors, il leur parviendra bientôt des nouvelles de ce qu’ils tournaient en dérision."
   },
   {
     "id": "ash-shu-ara-7",
@@ -370,7 +376,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلْأَرْضِ كَمْ أَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
     "textSimple": "أولم يروا إلى ٱلأرض كم أنبتنا فيها من كل زوج كريم",
     "transliteration": "awalam yaraw ilā l-arḍi kam anbatnā fīhā min kulli zawjin karīmin",
-    "translation": "",
+    "translation": "Did they not look at the earth - how much We have produced therein from every noble kind?",
     "words": [
       {
         "id": "ash-shu-ara-7-1",
@@ -450,7 +456,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils pas vu la terre et combien d’espèces généreuses, et de toutes les variétés, Nous y avons fait pousser ?"
   },
   {
     "id": "ash-shu-ara-8",
@@ -459,7 +466,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-8-1",
@@ -518,7 +525,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là un Signe mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-9",
@@ -527,7 +535,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-9-1",
@@ -565,7 +573,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout -Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-10",
@@ -574,7 +583,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰٓ أَنِ ٱئْتِ ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "وإذ نادى ربك موسىٓ أن ٱئت ٱلقوم ٱلظـلمين",
     "transliteration": "wa-idh nādā rabbuka mūsā ani i'ti l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "And [mention] when your Lord called Moses, [saying], \"Go to the wrongdoing people -",
     "words": [
       {
         "id": "ash-shu-ara-10-1",
@@ -633,7 +642,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) lorsque ton Seigneur appela Moïse : « Va trouver le peuple injuste,"
   },
   {
     "id": "ash-shu-ara-11",
@@ -642,7 +652,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَوْمَ فِرْعَوْنَ ۚ أَلَا يَتَّقُونَ",
     "textSimple": "قوم فرعون  ألا يتقون",
     "transliteration": "qawma fir'ʿawna alā yattaqūna",
-    "translation": "",
+    "translation": "The people of Pharaoh. Will they not fear Allāh?\"",
     "words": [
       {
         "id": "ash-shu-ara-11-1",
@@ -673,7 +683,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le peuple de Pharaon. N’entendent-ils donc pas (Me) craindre ? »"
   },
   {
     "id": "ash-shu-ara-12",
@@ -682,7 +693,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنِّىٓ أَخَافُ أَن يُكَذِّبُونِ",
     "textSimple": "قال رب إنىٓ أخاف أن يكذبون",
     "transliteration": "qāla rabbi innī akhāfu an yukadhibūni",
-    "translation": "",
+    "translation": "He said, \"My Lord, indeed I fear that they will deny me",
     "words": [
       {
         "id": "ash-shu-ara-12-1",
@@ -727,7 +738,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur ! J’ai peur qu’ils ne me traitent de menteur,"
   },
   {
     "id": "ash-shu-ara-13",
@@ -736,7 +748,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَضِيقُ صَدْرِى وَلَا يَنطَلِقُ لِسَانِى فَأَرْسِلْ إِلَىٰ هَـٰرُونَ",
     "textSimple": "ويضيق صدرى ولا ينطلق لسانى فأرسل إلى هـرون",
     "transliteration": "wayaḍīqu ṣadrī walā yanṭaliqu lisānī fa-arsil ilā hārūna",
-    "translation": "",
+    "translation": "And that my breast will tighten and my tongue will not be fluent, so send for Aaron.",
     "words": [
       {
         "id": "ash-shu-ara-13-1",
@@ -795,7 +807,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que je n’en aie la poitrine serrée et que ma langue ne puisse se délier. Veuille envoyer (avec moi) Aaron."
   },
   {
     "id": "ash-shu-ara-14",
@@ -804,7 +817,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهُمْ عَلَىَّ ذَنۢبٌ فَأَخَافُ أَن يَقْتُلُونِ",
     "textSimple": "ولهم على ذنب فأخاف أن يقتلون",
     "transliteration": "walahum ʿalayya dhanbun fa-akhāfu an yaqtulūni",
-    "translation": "",
+    "translation": "And they have upon me a [claim due to] sin, so I fear that they will kill me.\"",
     "words": [
       {
         "id": "ash-shu-ara-14-1",
@@ -849,7 +862,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils me reprochent déjà un crime. Je crains donc qu’ils ne me mettent à mort. »"
   },
   {
     "id": "ash-shu-ara-15",
@@ -858,7 +872,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ كَلَّا ۖ فَٱذْهَبَا بِـَٔايَـٰتِنَآ ۖ إِنَّا مَعَكُم مُّسْتَمِعُونَ",
     "textSimple": "قال كلا  فٱذهبا بـٔايـتنآ  إنا معكم مستمعون",
     "transliteration": "qāla kallā fa-idh'habā biāyātinā innā maʿakum mus'tamiʿūna",
-    "translation": "",
+    "translation": "[Allāh] said, \"No. Go both of you with Our signs; indeed, We are with you, listening.",
     "words": [
       {
         "id": "ash-shu-ara-15-1",
@@ -910,7 +924,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Que non, dit (le Seigneur), partez tous deux munis de Nos Signes. Nous sommes avec vous et Nous écoutons."
   },
   {
     "id": "ash-shu-ara-16",
@@ -919,7 +934,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأْتِيَا فِرْعَوْنَ فَقُولَآ إِنَّا رَسُولُ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فأتيا فرعون فقولآ إنا رسول رب ٱلعـلمين",
     "transliteration": "fatiyā fir'ʿawna faqūlā innā rasūlu rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Go to Pharaoh and say, 'We are the messengers of the Lord of the worlds,",
     "words": [
       {
         "id": "ash-shu-ara-16-1",
@@ -971,7 +986,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Présentez-vous à Pharaon et dites-lui : “ Nous sommes les envoyés du Seigneur de l’Univers,"
   },
   {
     "id": "ash-shu-ara-17",
@@ -980,7 +996,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَنْ أَرْسِلْ مَعَنَا بَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "أن أرسل معنا بنىٓ إسرٓءيل",
     "transliteration": "an arsil maʿanā banī is'rāīla",
-    "translation": "",
+    "translation": "[Commanded to say], \"Send with us the Children of Israel.\"'\"",
     "words": [
       {
         "id": "ash-shu-ara-17-1",
@@ -1018,7 +1034,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(venus te demander) d’envoyer avec nous les Enfants d’Israël. ” »"
   },
   {
     "id": "ash-shu-ara-18",
@@ -1027,7 +1044,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ",
     "textSimple": "قال ألم نربك فينا وليدا ولبثت فينا من عمرك سنين",
     "transliteration": "qāla alam nurabbika fīnā walīdan walabith'ta fīnā min ʿumurika sinīna",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"Did we not raise you among us as a child, and you remained among us for years of your life?",
     "words": [
       {
         "id": "ash-shu-ara-18-1",
@@ -1100,7 +1117,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne t’avons-nous pas élevé parmi nous, dit Pharaon, quand tu étais enfant ? N’as-tu pas passé parmi nous plusieurs années de ta vie ?"
   },
   {
     "id": "ash-shu-ara-19",
@@ -1109,7 +1127,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَفَعَلْتَ فَعْلَتَكَ ٱلَّتِى فَعَلْتَ وَأَنتَ مِنَ ٱلْكَـٰفِرِينَ",
     "textSimple": "وفعلت فعلتك ٱلتى فعلت وأنت من ٱلكـفرين",
     "transliteration": "wafaʿalta faʿlataka allatī faʿalta wa-anta mina l-kāfirīna",
-    "translation": "",
+    "translation": "And [then] you did your deed which you did, and you were of the ungrateful.\"",
     "words": [
       {
         "id": "ash-shu-ara-19-1",
@@ -1161,7 +1179,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, ingrat (comme tu l’étais), tu commis le forfait que tu sais. »"
   },
   {
     "id": "ash-shu-ara-20",
@@ -1170,7 +1189,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَعَلْتُهَآ إِذًا وَأَنَا۠ مِنَ ٱلضَّآلِّينَ",
     "textSimple": "قال فعلتهآ إذا وأنا من ٱلضآلين",
     "transliteration": "qāla faʿaltuhā idhan wa-anā mina l-ḍālīna",
-    "translation": "",
+    "translation": "[Moses] said, \"I did it, then, while I was of those astray [i.e., ignorant].",
     "words": [
       {
         "id": "ash-shu-ara-20-1",
@@ -1215,7 +1234,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Quand je l’ai commis, fit (Moïse), j’étais alors parmi les égarés."
   },
   {
     "id": "ash-shu-ara-21",
@@ -1224,7 +1244,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَفَرَرْتُ مِنكُمْ لَمَّا خِفْتُكُمْ فَوَهَبَ لِى رَبِّى حُكْمًا وَجَعَلَنِى مِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "ففررت منكم لما خفتكم فوهب لى ربى حكما وجعلنى من ٱلمرسلين",
     "transliteration": "fafarartu minkum lammā khif'tukum fawahaba lī rabbī ḥuk'man wajaʿalanī mina l-mur'salīna",
-    "translation": "",
+    "translation": "So I fled from you when I feared you. Then my Lord granted me judgement [i.e., wisdom and prophet hood] and appointed me [as one] of the messengers.",
     "words": [
       {
         "id": "ash-shu-ara-21-1",
@@ -1304,7 +1324,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je vous ai donc fuis par peur, puis mon Seigneur m’a fait don de la sagesse et m’a désigné au nombre des Messagers."
   },
   {
     "id": "ash-shu-ara-22",
@@ -1313,7 +1334,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَتِلْكَ نِعْمَةٌ تَمُنُّهَا عَلَىَّ أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "وتلك نعمة تمنها على أن عبدت بنىٓ إسرٓءيل",
     "transliteration": "watil'ka niʿ'matun tamunnuhā ʿalayya an ʿabbadtta banī is'rāīla",
-    "translation": "",
+    "translation": "And is this a favor of which you remind me - that you have enslaved the Children of Israel?\"",
     "words": [
       {
         "id": "ash-shu-ara-22-1",
@@ -1372,7 +1393,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serait-ce là une faveur que tu me rappelles quand tu as réduit en esclavage les Enfants d’Israël ? »"
   },
   {
     "id": "ash-shu-ara-23",
@@ -1381,7 +1403,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فِرْعَوْنُ وَمَا رَبُّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قال فرعون وما رب ٱلعـلمين",
     "transliteration": "qāla fir'ʿawnu wamā rabbu l-ʿālamīna",
-    "translation": "",
+    "translation": "Said Pharaoh, \"And what is the Lord of the worlds?\"",
     "words": [
       {
         "id": "ash-shu-ara-23-1",
@@ -1419,7 +1441,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon demanda : « Et qu’est-ce que le Seigneur de l’Univers ? »"
   },
   {
     "id": "ash-shu-ara-24",
@@ -1428,7 +1451,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم مُّوقِنِينَ",
     "textSimple": "قال رب ٱلسمـوت وٱلأرض وما بينهمآ  إن كنتم موقنين",
     "transliteration": "qāla rabbu l-samāwāti wal-arḍi wamā baynahumā in kuntum mūqinīna",
-    "translation": "",
+    "translation": "[Moses] said, \"The Lord of the heavens and earth and that between them, if you should be convinced.\"",
     "words": [
       {
         "id": "ash-shu-ara-24-1",
@@ -1494,7 +1517,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Le Seigneur des cieux, de la terre et ce qu’il y a entre eux, répondit (Moïse), pour peu que vous en ayez la certitude. »"
   },
   {
     "id": "ash-shu-ara-25",
@@ -1503,7 +1527,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لِمَنْ حَوْلَهُۥٓ أَلَا تَسْتَمِعُونَ",
     "textSimple": "قال لمن حولهٓ ألا تستمعون",
     "transliteration": "qāla liman ḥawlahu alā tastamiʿūna",
-    "translation": "",
+    "translation": "[Pharaoh] said to those around him, \"Do you not hear?\"",
     "words": [
       {
         "id": "ash-shu-ara-25-1",
@@ -1541,7 +1565,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« N’entendez-vous pas ? » dit (Pharaon) à ceux qui l’entouraient."
   },
   {
     "id": "ash-shu-ara-26",
@@ -1550,7 +1575,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبُّكُمْ وَرَبُّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ",
     "textSimple": "قال ربكم ورب ءابآئكم ٱلأولين",
     "transliteration": "qāla rabbukum warabbu ābāikumu l-awalīna",
-    "translation": "",
+    "translation": "[Moses] said, \"Your Lord and the Lord of your first forefathers.\"",
     "words": [
       {
         "id": "ash-shu-ara-26-1",
@@ -1588,7 +1613,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse ajouta : « C’est votre Seigneur et le Seigneur de vos premiers ancêtres. »"
   },
   {
     "id": "ash-shu-ara-27",
@@ -1597,7 +1623,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّ رَسُولَكُمُ ٱلَّذِىٓ أُرْسِلَ إِلَيْكُمْ لَمَجْنُونٌ",
     "textSimple": "قال إن رسولكم ٱلذىٓ أرسل إليكم لمجنون",
     "transliteration": "qāla inna rasūlakumu alladhī ur'sila ilaykum lamajnūnun",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"Indeed, your 'messenger' who has been sent to you is mad.\"",
     "words": [
       {
         "id": "ash-shu-ara-27-1",
@@ -1649,7 +1675,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ce Messager qui vous est envoyé, fit (Pharaon), est vraiment possédé ! »"
   },
   {
     "id": "ash-shu-ara-28",
@@ -1658,7 +1685,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُمْ تَعْقِلُونَ",
     "textSimple": "قال رب ٱلمشرق وٱلمغرب وما بينهمآ  إن كنتم تعقلون",
     "transliteration": "qāla rabbu l-mashriqi wal-maghribi wamā baynahumā in kuntum taʿqilūna",
-    "translation": "",
+    "translation": "[Moses] said, \"Lord of the east and the west and that between them, if you were to reason.\"",
     "words": [
       {
         "id": "ash-shu-ara-28-1",
@@ -1724,7 +1751,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est, poursuivit (Moïse), le Seigneur du Levant, du Couchant et de ce qu’il y a entre les deux, si seulement vous entendiez raison. »"
   },
   {
     "id": "ash-shu-ara-29",
@@ -1733,7 +1761,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَئِنِ ٱتَّخَذْتَ إِلَـٰهًا غَيْرِى لَأَجْعَلَنَّكَ مِنَ ٱلْمَسْجُونِينَ",
     "textSimple": "قال لئن ٱتخذت إلـها غيرى لأجعلنك من ٱلمسجونين",
     "transliteration": "qāla la-ini ittakhadhta ilāhan ghayrī la-ajʿalannaka mina l-masjūnīna",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"If you take a god other than me, I will surely place you among those imprisoned.\"",
     "words": [
       {
         "id": "ash-shu-ara-29-1",
@@ -1792,7 +1820,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si tu prends une autre divinité que moi, dit (Pharaon), je te ferai mettre en prison. »"
   },
   {
     "id": "ash-shu-ara-30",
@@ -1801,7 +1830,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَوَلَوْ جِئْتُكَ بِشَىْءٍ مُّبِينٍ",
     "textSimple": "قال أولو جئتك بشىء مبين",
     "transliteration": "qāla awalaw ji'tuka bishayin mubīnin",
-    "translation": "",
+    "translation": "[Moses] said, \"Even if I brought you something [i.e., proof] manifest?\"",
     "words": [
       {
         "id": "ash-shu-ara-30-1",
@@ -1839,7 +1868,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Même si je t’apportais une preuve évidente ? » demanda (Moïse)."
   },
   {
     "id": "ash-shu-ara-31",
@@ -1848,7 +1878,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَأْتِ بِهِۦٓ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "قال فأت بهٓ إن كنت من ٱلصـدقين",
     "transliteration": "qāla fati bihi in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"Then bring it, if you should be of the truthful.\"",
     "words": [
       {
         "id": "ash-shu-ara-31-1",
@@ -1900,7 +1930,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Apporte-la donc, si tu dis vrai. » fit (Pharaon)."
   },
   {
     "id": "ash-shu-ara-32",
@@ -1909,7 +1940,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِىَ ثُعْبَانٌ مُّبِينٌ",
     "textSimple": "فألقى عصاه فإذا هى ثعبان مبين",
     "transliteration": "fa-alqā ʿaṣāhu fa-idhā hiya thuʿ'bānun mubīnun",
-    "translation": "",
+    "translation": "So [Moses] threw his staff, and suddenly it was a serpent manifest.",
     "words": [
       {
         "id": "ash-shu-ara-32-1",
@@ -1954,7 +1985,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il jeta son bâton, que voilà transformé en véritable serpent."
   },
   {
     "id": "ash-shu-ara-33",
@@ -1963,7 +1995,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَنَزَعَ يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّـٰظِرِينَ",
     "textSimple": "ونزع يده فإذا هى بيضآء للنـظرين",
     "transliteration": "wanazaʿa yadahu fa-idhā hiya bayḍāu lilnnāẓirīna",
-    "translation": "",
+    "translation": "And he drew out his hand; thereupon it was white for the observers.",
     "words": [
       {
         "id": "ash-shu-ara-33-1",
@@ -2008,7 +2040,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il retira (de sa tunique) sa main qui parut d’une éclatante blancheur aux yeux de l’assistance."
   },
   {
     "id": "ash-shu-ara-34",
@@ -2017,7 +2050,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لِلْمَلَإِ حَوْلَهُۥٓ إِنَّ هَـٰذَا لَسَـٰحِرٌ عَلِيمٌ",
     "textSimple": "قال للملإ حولهٓ إن هـذا لسـحر عليم",
     "transliteration": "qāla lil'mala-i ḥawlahu inna hādhā lasāḥirun ʿalīmun",
-    "translation": "",
+    "translation": "[Pharaoh] said to the eminent ones around him, \"Indeed, this is a learned magician.",
     "words": [
       {
         "id": "ash-shu-ara-34-1",
@@ -2069,7 +2102,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À l’assemblée des notables qui l’entourait, (Pharaon) dit alors : « C’est un magicien à la vaste connaissance !"
   },
   {
     "id": "ash-shu-ara-35",
@@ -2078,7 +2112,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "يُرِيدُ أَن يُخْرِجَكُم مِّنْ أَرْضِكُم بِسِحْرِهِۦ فَمَاذَا تَأْمُرُونَ",
     "textSimple": "يريد أن يخرجكم من أرضكم بسحره فماذا تأمرون",
     "transliteration": "yurīdu an yukh'rijakum min arḍikum bisiḥ'rihi famādhā tamurūna",
-    "translation": "",
+    "translation": "He wants to drive you out of your land by his magic, so what do you advise?\"",
     "words": [
       {
         "id": "ash-shu-ara-35-1",
@@ -2137,7 +2171,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il veut par (ses tours de) magie vous faire sortir de votre terre. Que conseillez-vous ? »"
   },
   {
     "id": "ash-shu-ara-36",
@@ -2146,7 +2181,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَٱبْعَثْ فِى ٱلْمَدَآئِنِ حَـٰشِرِينَ",
     "textSimple": "قالوٓا أرجه وأخاه وٱبعث فى ٱلمدآئن حـشرين",
     "transliteration": "qālū arjih wa-akhāhu wa-ib'ʿath fī l-madāini ḥāshirīna",
-    "translation": "",
+    "translation": "They said, \"Postpone [the matter of] him and his brother and send among the cities gatherers",
     "words": [
       {
         "id": "ash-shu-ara-36-1",
@@ -2198,7 +2233,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Fais-le attendre avec son frère et dépêche de par les cités des hommes chargés de rassembler,"
   },
   {
     "id": "ash-shu-ara-37",
@@ -2207,7 +2243,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "يَأْتُوكَ بِكُلِّ سَحَّارٍ عَلِيمٍ",
     "textSimple": "يأتوك بكل سحار عليم",
     "transliteration": "yatūka bikulli saḥḥārin ʿalīmin",
-    "translation": "",
+    "translation": "Who will bring you every learned, skilled magician.\"",
     "words": [
       {
         "id": "ash-shu-ara-37-1",
@@ -2238,7 +2274,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin qu’ils te ramènent des magiciens à la vaste connaissance. »"
   },
   {
     "id": "ash-shu-ara-38",
@@ -2247,7 +2284,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَجُمِعَ ٱلسَّحَرَةُ لِمِيقَـٰتِ يَوْمٍ مَّعْلُومٍ",
     "textSimple": "فجمع ٱلسحرة لميقـت يوم معلوم",
     "transliteration": "fajumiʿa l-saḥaratu limīqāti yawmin maʿlūmin",
-    "translation": "",
+    "translation": "So the magicians were assembled for the appointment of a well-known day.",
     "words": [
       {
         "id": "ash-shu-ara-38-1",
@@ -2285,7 +2322,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les magiciens furent rassemblés pour le jour convenu de la rencontre."
   },
   {
     "id": "ash-shu-ara-39",
@@ -2294,7 +2332,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلَ لِلنَّاسِ هَلْ أَنتُم مُّجْتَمِعُونَ",
     "textSimple": "وقيل للناس هل أنتم مجتمعون",
     "transliteration": "waqīla lilnnāsi hal antum muj'tamiʿūna",
-    "translation": "",
+    "translation": "And it was said to the people, \"Will you congregate.",
     "words": [
       {
         "id": "ash-shu-ara-39-1",
@@ -2332,7 +2370,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut demandé aux gens : « Allez-vous donc vous rassembler ?"
   },
   {
     "id": "ash-shu-ara-40",
@@ -2341,7 +2380,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "لَعَلَّنَا نَتَّبِعُ ٱلسَّحَرَةَ إِن كَانُوا۟ هُمُ ٱلْغَـٰلِبِينَ",
     "textSimple": "لعلنا نتبع ٱلسحرة إن كانوا هم ٱلغـلبين",
     "transliteration": "laʿallanā nattabiʿu l-saḥarata in kānū humu l-ghālibīna",
-    "translation": "",
+    "translation": "That we might follow the magicians if they are the predominant?\"",
     "words": [
       {
         "id": "ash-shu-ara-40-1",
@@ -2393,7 +2432,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous suivrions ainsi les magiciens s’ils s’en sortaient vainqueurs. »"
   },
   {
     "id": "ash-shu-ara-41",
@@ -2402,7 +2442,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَ ٱلسَّحَرَةُ قَالُوا۟ لِفِرْعَوْنَ أَئِنَّ لَنَا لَأَجْرًا إِن كُنَّا نَحْنُ ٱلْغَـٰلِبِينَ",
     "textSimple": "فلما جآء ٱلسحرة قالوا لفرعون أئن لنا لأجرا إن كنا نحن ٱلغـلبين",
     "transliteration": "falammā jāa l-saḥaratu qālū lifir'ʿawna a-inna lanā la-ajran in kunnā naḥnu l-ghālibīna",
-    "translation": "",
+    "translation": "And when the magicians arrived, they said to Pharaoh, \"Is there indeed for us a reward if we are the predominant?\"",
     "words": [
       {
         "id": "ash-shu-ara-41-1",
@@ -2489,7 +2529,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Arrivés, les magiciens dirent à Pharaon : « Aurons-nous une récompense si nous sortons vainqueurs ? »"
   },
   {
     "id": "ash-shu-ara-42",
@@ -2498,7 +2539,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ نَعَمْ وَإِنَّكُمْ إِذًا لَّمِنَ ٱلْمُقَرَّبِينَ",
     "textSimple": "قال نعم وإنكم إذا لمن ٱلمقربين",
     "transliteration": "qāla naʿam wa-innakum idhan lamina l-muqarabīna",
-    "translation": "",
+    "translation": "He said, \"Yes, and indeed, you will then be of those near [to me].\"",
     "words": [
       {
         "id": "ash-shu-ara-42-1",
@@ -2543,7 +2584,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Oui, dit Pharaon, et vous ferez certainement partie des privilégiés. »"
   },
   {
     "id": "ash-shu-ara-43",
@@ -2552,7 +2594,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَهُم مُّوسَىٰٓ أَلْقُوا۟ مَآ أَنتُم مُّلْقُونَ",
     "textSimple": "قال لهم موسىٓ ألقوا مآ أنتم ملقون",
     "transliteration": "qāla lahum mūsā alqū mā antum mul'qūna",
-    "translation": "",
+    "translation": "Moses said to them, \"Throw whatever you will throw.\"",
     "words": [
       {
         "id": "ash-shu-ara-43-1",
@@ -2604,7 +2646,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse leur dit : « Jetez ce que vous avez à jeter. »"
   },
   {
     "id": "ash-shu-ara-44",
@@ -2613,7 +2656,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَلْقَوْا۟ حِبَالَهُمْ وَعِصِيَّهُمْ وَقَالُوا۟ بِعِزَّةِ فِرْعَوْنَ إِنَّا لَنَحْنُ ٱلْغَـٰلِبُونَ",
     "textSimple": "فألقوا حبالهم وعصيهم وقالوا بعزة فرعون إنا لنحن ٱلغـلبون",
     "transliteration": "fa-alqaw ḥibālahum waʿiṣiyyahum waqālū biʿizzati fir'ʿawna innā lanaḥnu l-ghālibūna",
-    "translation": "",
+    "translation": "So they threw their ropes and their staffs and said, \"By the might of Pharaoh, indeed it is we who are predominant.\"",
     "words": [
       {
         "id": "ash-shu-ara-44-1",
@@ -2679,7 +2722,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils jetèrent leurs cordes et leurs bâtons et dirent : « Par la puissance de Pharaon ! Nous serons bien les vainqueurs ! »"
   },
   {
     "id": "ash-shu-ara-45",
@@ -2688,7 +2732,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَلْقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ",
     "textSimple": "فألقى موسى عصاه فإذا هى تلقف ما يأفكون",
     "transliteration": "fa-alqā mūsā ʿaṣāhu fa-idhā hiya talqafu mā yafikūna",
-    "translation": "",
+    "translation": "Then Moses threw his staff, and at once it devoured what they falsified.",
     "words": [
       {
         "id": "ash-shu-ara-45-1",
@@ -2747,7 +2791,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse jeta alors son bâton qui aussitôt se mit à avaler leurs artifices."
   },
   {
     "id": "ash-shu-ara-46",
@@ -2756,7 +2801,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأُلْقِىَ ٱلسَّحَرَةُ سَـٰجِدِينَ",
     "textSimple": "فألقى ٱلسحرة سـجدين",
     "transliteration": "fa-ul'qiya l-saḥaratu sājidīna",
-    "translation": "",
+    "translation": "So the magicians fell down in prostration [to Allāh].",
     "words": [
       {
         "id": "ash-shu-ara-46-1",
@@ -2780,7 +2825,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et les magiciens, se jetant à terre prosternés,"
   },
   {
     "id": "ash-shu-ara-47",
@@ -2789,7 +2835,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قالوٓا ءامنا برب ٱلعـلمين",
     "transliteration": "qālū āmannā birabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "They said, \"We have believed in the Lord of the worlds,",
     "words": [
       {
         "id": "ash-shu-ara-47-1",
@@ -2820,7 +2866,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dirent : « Nous croyons au Seigneur de l’Univers,"
   },
   {
     "id": "ash-shu-ara-48",
@@ -2829,7 +2876,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ مُوسَىٰ وَهَـٰرُونَ",
     "textSimple": "رب موسى وهـرون",
     "transliteration": "rabbi mūsā wahārūna",
-    "translation": "",
+    "translation": "The Lord of Moses and Aaron.\"",
     "words": [
       {
         "id": "ash-shu-ara-48-1",
@@ -2853,7 +2900,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "au Seigneur de Moïse et d’Aaron. »"
   },
   {
     "id": "ash-shu-ara-49",
@@ -2862,7 +2910,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ فَلَسَوْفَ تَعْلَمُونَ ۚ لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَـٰفٍ وَلَأُصَلِّبَنَّكُمْ أَجْمَعِينَ",
     "textSimple": "قال ءامنتم له قبل أن ءاذن لكم  إنه لكبيركم ٱلذى علمكم ٱلسحر فلسوف تعلمون  لأقطعن أيديكم وأرجلكم من خلـف ولأصلبنكم أجمعين",
     "transliteration": "qāla āmantum lahu qabla an ādhana lakum innahu lakabīrukumu alladhī ʿallamakumu l-siḥ'ra falasawfa taʿlamūna la-uqaṭṭiʿanna aydiyakum wa-arjulakum min khilāfin wala-uṣallibannakum ajmaʿīna",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"You believed him [i.e., Moses] before I gave you permission. Indeed, he is your leader who has taught you magic, but you are going to know. I will surely cut off your hands and your feet on opposite sides, and I will surely crucify you all.\"",
     "words": [
       {
         "id": "ash-shu-ara-49-1",
@@ -3012,7 +3060,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et Pharaon) dit : « Osez-vous croire en lui avant que je ne vous le permette ? La vérité est qu’il est votre chef et c’est lui qui vous a initiés à la magie. Vous allez bientôt savoir. Je vous ferai couper les mains et les jambes opposées puis vous ferai tous crucifier. »"
   },
   {
     "id": "ash-shu-ara-50",
@@ -3021,7 +3070,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَا ضَيْرَ ۖ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
     "textSimple": "قالوا لا ضير  إنآ إلى ربنا منقلبون",
     "transliteration": "qālū lā ḍayra innā ilā rabbinā munqalibūna",
-    "translation": "",
+    "translation": "They said, \"No harm. Indeed, to our Lord we will return.",
     "words": [
       {
         "id": "ash-shu-ara-50-1",
@@ -3073,7 +3122,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Il n’y a là aucun mal, puisque c’est vers notre Seigneur que nous ferons retour."
   },
   {
     "id": "ash-shu-ara-51",
@@ -3082,7 +3132,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَطْمَعُ أَن يَغْفِرَ لَنَا رَبُّنَا خَطَـٰيَـٰنَآ أَن كُنَّآ أَوَّلَ ٱلْمُؤْمِنِينَ",
     "textSimple": "إنا نطمع أن يغفر لنا ربنا خطـيـنآ أن كنآ أول ٱلمؤمنين",
     "transliteration": "innā naṭmaʿu an yaghfira lanā rabbunā khaṭāyānā an kunnā awwala l-mu'minīna",
-    "translation": "",
+    "translation": "Indeed, we aspire that our Lord will forgive us our sins because we were the first of the believers.\"",
     "words": [
       {
         "id": "ash-shu-ara-51-1",
@@ -3162,7 +3212,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous espérons que notre Seigneur nous pardonnera nos péchés, puisque nous avons été parmi les premiers croyants. »"
   },
   {
     "id": "ash-shu-ara-52",
@@ -3171,7 +3222,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِىٓ إِنَّكُم مُّتَّبَعُونَ",
     "textSimple": " وأوحينآ إلى موسىٓ أن أسر بعبادىٓ إنكم متبعون",
     "transliteration": "wa-awḥaynā ilā mūsā an asri biʿibādī innakum muttabaʿūna",
-    "translation": "",
+    "translation": "And We inspired to Moses, \"Travel by night with My servants; indeed, you will be pursued.\"",
     "words": [
       {
         "id": "ash-shu-ara-52-1",
@@ -3230,7 +3281,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous révélâmes à Moïse : « Tu partiras, pendant la nuit, avec Mes serviteurs, car vous serez poursuivis. »"
   },
   {
     "id": "ash-shu-ara-53",
@@ -3239,7 +3291,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرْسَلَ فِرْعَوْنُ فِى ٱلْمَدَآئِنِ حَـٰشِرِينَ",
     "textSimple": "فأرسل فرعون فى ٱلمدآئن حـشرين",
     "transliteration": "fa-arsala fir'ʿawnu fī l-madāini ḥāshirīna",
-    "translation": "",
+    "translation": "Then Pharaoh sent among the cities gatherers",
     "words": [
       {
         "id": "ash-shu-ara-53-1",
@@ -3277,7 +3329,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon dépêcha dans toutes les cités des hommes chargés de mobiliser (qui annoncèrent) :"
   },
   {
     "id": "ash-shu-ara-54",
@@ -3286,7 +3339,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰٓؤُلَآءِ لَشِرْذِمَةٌ قَلِيلُونَ",
     "textSimple": "إن هـٓؤلآء لشرذمة قليلون",
     "transliteration": "inna hāulāi lashir'dhimatun qalīlūna",
-    "translation": "",
+    "translation": "[And said], \"Indeed, those are but a small band,",
     "words": [
       {
         "id": "ash-shu-ara-54-1",
@@ -3317,7 +3370,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ils constituent un groupuscule et sont peu nombreux,"
   },
   {
     "id": "ash-shu-ara-55",
@@ -3326,7 +3380,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُمْ لَنَا لَغَآئِظُونَ",
     "textSimple": "وإنهم لنا لغآئظون",
     "transliteration": "wa-innahum lanā laghāiẓūna",
-    "translation": "",
+    "translation": "And indeed, they are enraging us,",
     "words": [
       {
         "id": "ash-shu-ara-55-1",
@@ -3350,7 +3404,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ont provoqué notre courroux."
   },
   {
     "id": "ash-shu-ara-56",
@@ -3359,7 +3414,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا لَجَمِيعٌ حَـٰذِرُونَ",
     "textSimple": "وإنا لجميع حـذرون",
     "transliteration": "wa-innā lajamīʿun ḥādhirūna",
-    "translation": "",
+    "translation": "And indeed, we are a cautious society...\"",
     "words": [
       {
         "id": "ash-shu-ara-56-1",
@@ -3383,7 +3438,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous demeurons tous, quant à nous, très vigilants. »"
   },
   {
     "id": "ash-shu-ara-57",
@@ -3392,7 +3448,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخْرَجْنَـٰهُم مِّن جَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "فأخرجنـهم من جنـت وعيون",
     "transliteration": "fa-akhrajnāhum min jannātin waʿuyūnin",
-    "translation": "",
+    "translation": "So We removed them from gardens and springs",
     "words": [
       {
         "id": "ash-shu-ara-57-1",
@@ -3423,7 +3479,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les ravîmes alors à (leurs) jardins et à (leurs) sources,"
   },
   {
     "id": "ash-shu-ara-58",
@@ -3432,7 +3489,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَكُنُوزٍ وَمَقَامٍ كَرِيمٍ",
     "textSimple": "وكنوز ومقام كريم",
     "transliteration": "wakunūzin wamaqāmin karīmin",
-    "translation": "",
+    "translation": "And treasures and honorable station -",
     "words": [
       {
         "id": "ash-shu-ara-58-1",
@@ -3456,7 +3513,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à (leurs) trésors et à (leurs) splendides résidences."
   },
   {
     "id": "ash-shu-ara-59",
@@ -3465,7 +3523,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ وَأَوْرَثْنَـٰهَا بَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "كذلك وأورثنـها بنىٓ إسرٓءيل",
     "transliteration": "kadhālika wa-awrathnāhā banī is'rāīla",
-    "translation": "",
+    "translation": "Thus. And We caused to inherit it the Children of Israel.",
     "words": [
       {
         "id": "ash-shu-ara-59-1",
@@ -3496,7 +3554,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’il en fut, et Nous en fîmes hériter les Enfants d’Israël."
   },
   {
     "id": "ash-shu-ara-60",
@@ -3505,7 +3564,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَتْبَعُوهُم مُّشْرِقِينَ",
     "textSimple": "فأتبعوهم مشرقين",
     "transliteration": "fa-atbaʿūhum mush'riqīna",
-    "translation": "",
+    "translation": "So they pursued them at sunrise.",
     "words": [
       {
         "id": "ash-shu-ara-60-1",
@@ -3522,7 +3581,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au petit jour, ils se lancèrent à leur poursuite."
   },
   {
     "id": "ash-shu-ara-61",
@@ -3531,7 +3591,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا تَرَٰٓءَا ٱلْجَمْعَانِ قَالَ أَصْحَـٰبُ مُوسَىٰٓ إِنَّا لَمُدْرَكُونَ",
     "textSimple": "فلما ترٓءا ٱلجمعان قال أصحـب موسىٓ إنا لمدركون",
     "transliteration": "falammā tarāā l-jamʿāni qāla aṣḥābu mūsā innā lamud'rakūna",
-    "translation": "",
+    "translation": "And when the two companies saw one another, the companions of Moses said, \"Indeed, we are to be overtaken!\"",
     "words": [
       {
         "id": "ash-shu-ara-61-1",
@@ -3590,7 +3650,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque les deux groupes furent en vue, l’un face à l’autre, les compagnons de Moïse dirent : « Nous sommes bientôt rejoints. »"
   },
   {
     "id": "ash-shu-ara-62",
@@ -3599,7 +3660,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ كَلَّآ ۖ إِنَّ مَعِىَ رَبِّى سَيَهْدِينِ",
     "textSimple": "قال كلآ  إن معى ربى سيهدين",
     "transliteration": "qāla kallā inna maʿiya rabbī sayahdīni",
-    "translation": "",
+    "translation": "[Moses] said, \"No! Indeed, with me is my Lord; He will guide me.\"",
     "words": [
       {
         "id": "ash-shu-ara-62-1",
@@ -3644,7 +3705,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Certes non, dit (Moïse), car mon Seigneur est avec moi, Qui me guidera ! »"
   },
   {
     "id": "ash-shu-ara-63",
@@ -3653,7 +3715,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْبَحْرَ ۖ فَٱنفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَٱلطَّوْدِ ٱلْعَظِيمِ",
     "textSimple": "فأوحينآ إلى موسىٓ أن ٱضرب بعصاك ٱلبحر  فٱنفلق فكان كل فرق كٱلطود ٱلعظيم",
     "transliteration": "fa-awḥaynā ilā mūsā ani iḍ'rib biʿaṣāka l-baḥra fa-infalaqa fakāna kullu fir'qin kal-ṭawdi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "Then We inspired to Moses, \"Strike with your staff the sea,\" and it parted, and each portion was like a great towering mountain.",
     "words": [
       {
         "id": "ash-shu-ara-63-1",
@@ -3747,7 +3809,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous révélâmes à Moïse : « Frappe la mer de ton bâton. » Et (la mer) se fendit en deux, formant de part et d’autre comme deux gigantesques pans de montagnes."
   },
   {
     "id": "ash-shu-ara-64",
@@ -3756,7 +3819,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَزْلَفْنَا ثَمَّ ٱلْـَٔاخَرِينَ",
     "textSimple": "وأزلفنا ثم ٱلـٔاخرين",
     "transliteration": "wa-azlafnā thamma l-ākharīna",
-    "translation": "",
+    "translation": "And We advanced thereto the others [i.e., the pursuers].",
     "words": [
       {
         "id": "ash-shu-ara-64-1",
@@ -3780,7 +3843,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous y laissâmes s’en approcher les autres,"
   },
   {
     "id": "ash-shu-ara-65",
@@ -3789,7 +3853,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنجَيْنَا مُوسَىٰ وَمَن مَّعَهُۥٓ أَجْمَعِينَ",
     "textSimple": "وأنجينا موسى ومن معهٓ أجمعين",
     "transliteration": "wa-anjaynā mūsā waman maʿahu ajmaʿīna",
-    "translation": "",
+    "translation": "And We saved Moses and those with him, all together.",
     "words": [
       {
         "id": "ash-shu-ara-65-1",
@@ -3827,7 +3891,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et sauvâmes Moïse et tous ceux qui étaient avec lui."
   },
   {
     "id": "ash-shu-ara-66",
@@ -3836,7 +3901,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَغْرَقْنَا ٱلْـَٔاخَرِينَ",
     "textSimple": "ثم أغرقنا ٱلـٔاخرين",
     "transliteration": "thumma aghraqnā l-ākharīna",
-    "translation": "",
+    "translation": "Then We drowned the others.",
     "words": [
       {
         "id": "ash-shu-ara-66-1",
@@ -3860,7 +3925,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous y noyâmes le reste."
   },
   {
     "id": "ash-shu-ara-67",
@@ -3869,7 +3935,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-67-1",
@@ -3928,7 +3994,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a là un Signe mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-68",
@@ -3937,7 +4004,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-68-1",
@@ -3975,7 +4042,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout- Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-69",
@@ -3984,7 +4052,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتْلُ عَلَيْهِمْ نَبَأَ إِبْرَٰهِيمَ",
     "textSimple": "وٱتل عليهم نبأ إبرهيم",
     "transliteration": "wa-ut'lu ʿalayhim naba-a ib'rāhīma",
-    "translation": "",
+    "translation": "And recite to them the news of Abraham,",
     "words": [
       {
         "id": "ash-shu-ara-69-1",
@@ -4015,7 +4083,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Raconte-leur aussi l’histoire d’Abraham."
   },
   {
     "id": "ash-shu-ara-70",
@@ -4024,7 +4093,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا تَعْبُدُونَ",
     "textSimple": "إذ قال لأبيه وقومه ما تعبدون",
     "transliteration": "idh qāla li-abīhi waqawmihi mā taʿbudūna",
-    "translation": "",
+    "translation": "When he said to his father and his people, \"What do you worship?\"",
     "words": [
       {
         "id": "ash-shu-ara-70-1",
@@ -4069,7 +4138,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il demanda à son père et à son peuple : « Qu’adorez-vous donc ? »"
   },
   {
     "id": "ash-shu-ara-71",
@@ -4078,7 +4148,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ نَعْبُدُ أَصْنَامًا فَنَظَلُّ لَهَا عَـٰكِفِينَ",
     "textSimple": "قالوا نعبد أصناما فنظل لها عـكفين",
     "transliteration": "qālū naʿbudu aṣnāman fanaẓallu lahā ʿākifīna",
-    "translation": "",
+    "translation": "They said, \"We worship idols and remain to them devoted.\"",
     "words": [
       {
         "id": "ash-shu-ara-71-1",
@@ -4123,7 +4193,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous adorons des idoles, répondirent-ils, et nous leur vouons un culte exclusif. »"
   },
   {
     "id": "ash-shu-ara-72",
@@ -4132,7 +4203,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَلْ يَسْمَعُونَكُمْ إِذْ تَدْعُونَ",
     "textSimple": "قال هل يسمعونكم إذ تدعون",
     "transliteration": "qāla hal yasmaʿūnakum idh tadʿūna",
-    "translation": "",
+    "translation": "He said, \"Do they hear you when you supplicate?",
     "words": [
       {
         "id": "ash-shu-ara-72-1",
@@ -4170,7 +4241,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Est-ce qu’elles vous entendent, leur demanda-t-il, quand vous les invoquez ?"
   },
   {
     "id": "ash-shu-ara-73",
@@ -4179,7 +4251,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يَنفَعُونَكُمْ أَوْ يَضُرُّونَ",
     "textSimple": "أو ينفعونكم أو يضرون",
     "transliteration": "aw yanfaʿūnakum aw yaḍurrūna",
-    "translation": "",
+    "translation": "Or do they benefit you, or do they harm?\"",
     "words": [
       {
         "id": "ash-shu-ara-73-1",
@@ -4210,7 +4282,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Peuvent-elles vous profiter ? Peuvent-elles vous nuire ? »"
   },
   {
     "id": "ash-shu-ara-74",
@@ -4219,7 +4292,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ بَلْ وَجَدْنَآ ءَابَآءَنَا كَذَٰلِكَ يَفْعَلُونَ",
     "textSimple": "قالوا بل وجدنآ ءابآءنا كذلك يفعلون",
     "transliteration": "qālū bal wajadnā ābāanā kadhālika yafʿalūna",
-    "translation": "",
+    "translation": "They said, \"But we found our fathers doing thus.\"",
     "words": [
       {
         "id": "ash-shu-ara-74-1",
@@ -4264,7 +4337,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est que nous avons trouvé nos pères les adorant ainsi », dirent-ils."
   },
   {
     "id": "ash-shu-ara-75",
@@ -4273,7 +4347,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَفَرَءَيْتُم مَّا كُنتُمْ تَعْبُدُونَ",
     "textSimple": "قال أفرءيتم ما كنتم تعبدون",
     "transliteration": "qāla afara-aytum mā kuntum taʿbudūna",
-    "translation": "",
+    "translation": "He said, \"Then do you see what you have been worshipping,",
     "words": [
       {
         "id": "ash-shu-ara-75-1",
@@ -4311,7 +4385,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« N’avez-vous donc pas vu, dit (Abraham), ce que vous adorez,"
   },
   {
     "id": "ash-shu-ara-76",
@@ -4320,7 +4395,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَنتُمْ وَءَابَآؤُكُمُ ٱلْأَقْدَمُونَ",
     "textSimple": "أنتم وءابآؤكم ٱلأقدمون",
     "transliteration": "antum waābāukumu l-aqdamūna",
-    "translation": "",
+    "translation": "You and your ancient forefathers?",
     "words": [
       {
         "id": "ash-shu-ara-76-1",
@@ -4344,7 +4419,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vous et vos premiers ancêtres ?"
   },
   {
     "id": "ash-shu-ara-77",
@@ -4353,7 +4429,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّهُمْ عَدُوٌّ لِّىٓ إِلَّا رَبَّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فإنهم عدو لىٓ إلا رب ٱلعـلمين",
     "transliteration": "fa-innahum ʿaduwwun lī illā rabba l-ʿālamīna",
-    "translation": "",
+    "translation": "Indeed, they are enemies to me, except the Lord of the worlds,",
     "words": [
       {
         "id": "ash-shu-ara-77-1",
@@ -4398,7 +4474,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Eh bien), ce sont tous là pour moi des ennemis, excepté le Seigneur de l’Univers,"
   },
   {
     "id": "ash-shu-ara-78",
@@ -4407,7 +4484,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى خَلَقَنِى فَهُوَ يَهْدِينِ",
     "textSimple": "ٱلذى خلقنى فهو يهدين",
     "transliteration": "alladhī khalaqanī fahuwa yahdīni",
-    "translation": "",
+    "translation": "Who created me, and He [it is who] guides me.",
     "words": [
       {
         "id": "ash-shu-ara-78-1",
@@ -4438,7 +4515,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui m’a créé et Qui me conduit (vers le droit chemin),"
   },
   {
     "id": "ash-shu-ara-79",
@@ -4447,7 +4525,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِى هُوَ يُطْعِمُنِى وَيَسْقِينِ",
     "textSimple": "وٱلذى هو يطعمنى ويسقين",
     "transliteration": "wa-alladhī huwa yuṭ'ʿimunī wayasqīni",
-    "translation": "",
+    "translation": "And it is He who feeds me and gives me drink.",
     "words": [
       {
         "id": "ash-shu-ara-79-1",
@@ -4478,7 +4556,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Qui me nourrit et me donne à boire,"
   },
   {
     "id": "ash-shu-ara-80",
@@ -4487,7 +4566,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ",
     "textSimple": "وإذا مرضت فهو يشفين",
     "transliteration": "wa-idhā mariḍ'tu fahuwa yashfīni",
-    "translation": "",
+    "translation": "And when I am ill, it is He who cures me",
     "words": [
       {
         "id": "ash-shu-ara-80-1",
@@ -4518,7 +4597,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui, lorsque je tombe malade, me guérit."
   },
   {
     "id": "ash-shu-ara-81",
@@ -4527,7 +4607,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِى يُمِيتُنِى ثُمَّ يُحْيِينِ",
     "textSimple": "وٱلذى يميتنى ثم يحيين",
     "transliteration": "wa-alladhī yumītunī thumma yuḥ'yīni",
-    "translation": "",
+    "translation": "And who will cause me to die and then bring me to life",
     "words": [
       {
         "id": "ash-shu-ara-81-1",
@@ -4558,7 +4638,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui me fera mourir puis me fera revivre,"
   },
   {
     "id": "ash-shu-ara-82",
@@ -4567,7 +4648,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِىٓ أَطْمَعُ أَن يَغْفِرَ لِى خَطِيٓـَٔتِى يَوْمَ ٱلدِّينِ",
     "textSimple": "وٱلذىٓ أطمع أن يغفر لى خطيٓـٔتى يوم ٱلدين",
     "transliteration": "wa-alladhī aṭmaʿu an yaghfira lī khaṭīatī yawma l-dīni",
-    "translation": "",
+    "translation": "And who I aspire that He will forgive me my sin on the Day of Recompense.\"",
     "words": [
       {
         "id": "ash-shu-ara-82-1",
@@ -4626,7 +4707,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et c’est Lui Dont j’espère le pardon de ma faute au Jour de la Rétribution."
   },
   {
     "id": "ash-shu-ara-83",
@@ -4635,7 +4717,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ هَبْ لِى حُكْمًا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
     "textSimple": "رب هب لى حكما وألحقنى بٱلصـلحين",
     "transliteration": "rabbi hab lī ḥuk'man wa-alḥiq'nī bil-ṣāliḥīna",
-    "translation": "",
+    "translation": "[And he said], \"My Lord, grant me authority and join me with the righteous.",
     "words": [
       {
         "id": "ash-shu-ara-83-1",
@@ -4680,7 +4762,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Veuille me faire don de la sagesse et daigne me faire rejoindre les gens vertueux."
   },
   {
     "id": "ash-shu-ara-84",
@@ -4689,7 +4772,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱجْعَل لِّى لِسَانَ صِدْقٍ فِى ٱلْـَٔاخِرِينَ",
     "textSimple": "وٱجعل لى لسان صدق فى ٱلـٔاخرين",
     "transliteration": "wa-ij'ʿal lī lisāna ṣid'qin fī l-ākhirīna",
-    "translation": "",
+    "translation": "And grant me a mention [i.e., reputation] of honor among later generations.",
     "words": [
       {
         "id": "ash-shu-ara-84-1",
@@ -4734,7 +4817,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puisses-tu faire que je sois cité en bien par les langues des générations futures."
   },
   {
     "id": "ash-shu-ara-85",
@@ -4743,7 +4827,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
     "textSimple": "وٱجعلنى من ورثة جنة ٱلنعيم",
     "transliteration": "wa-ij'ʿalnī min warathati jannati l-naʿīmi",
-    "translation": "",
+    "translation": "And place me among the inheritors of the Garden of Pleasure.",
     "words": [
       {
         "id": "ash-shu-ara-85-1",
@@ -4781,7 +4865,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Fais-moi l’un des héritiers du Jardin des délices."
   },
   {
     "id": "ash-shu-ara-86",
@@ -4790,7 +4875,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱغْفِرْ لِأَبِىٓ إِنَّهُۥ كَانَ مِنَ ٱلضَّآلِّينَ",
     "textSimple": "وٱغفر لأبىٓ إنه كان من ٱلضآلين",
     "transliteration": "wa-igh'fir li-abī innahu kāna mina l-ḍālīna",
-    "translation": "",
+    "translation": "And forgive my father. Indeed, he has been of those astray.",
     "words": [
       {
         "id": "ash-shu-ara-86-1",
@@ -4835,7 +4920,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pardonne à mon père qui était du nombre des égarés."
   },
   {
     "id": "ash-shu-ara-87",
@@ -4844,7 +4930,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُخْزِنِى يَوْمَ يُبْعَثُونَ",
     "textSimple": "ولا تخزنى يوم يبعثون",
     "transliteration": "walā tukh'zinī yawma yub'ʿathūna",
-    "translation": "",
+    "translation": "And do not disgrace me on the Day they are [all] resurrected -",
     "words": [
       {
         "id": "ash-shu-ara-87-1",
@@ -4875,7 +4961,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne me couvre pas d’infamie le jour où ils seront ressuscités,"
   },
   {
     "id": "ash-shu-ara-88",
@@ -4884,7 +4971,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ لَا يَنفَعُ مَالٌ وَلَا بَنُونَ",
     "textSimple": "يوم لا ينفع مال ولا بنون",
     "transliteration": "yawma lā yanfaʿu mālun walā banūna",
-    "translation": "",
+    "translation": "The Day when there will not benefit [anyone] wealth or children",
     "words": [
       {
         "id": "ash-shu-ara-88-1",
@@ -4929,7 +5016,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le jour où ni biens ni enfants ne seront d’aucune utilité,"
   },
   {
     "id": "ash-shu-ara-89",
@@ -4938,7 +5026,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَنْ أَتَى ٱللَّهَ بِقَلْبٍ سَلِيمٍ",
     "textSimple": "إلا من أتى ٱلله بقلب سليم",
     "transliteration": "illā man atā l-laha biqalbin salīmin",
-    "translation": "",
+    "translation": "But only one who comes to Allāh with a sound heart.\"",
     "words": [
       {
         "id": "ash-shu-ara-89-1",
@@ -4983,7 +5071,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté celui qui viendra vers Allah avec un cœur pur. »"
   },
   {
     "id": "ash-shu-ara-90",
@@ -4992,7 +5081,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ",
     "textSimple": "وأزلفت ٱلجنة للمتقين",
     "transliteration": "wa-uz'lifati l-janatu lil'muttaqīna",
-    "translation": "",
+    "translation": "And Paradise will be brought near [that Day] to the righteous.",
     "words": [
       {
         "id": "ash-shu-ara-90-1",
@@ -5016,7 +5105,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Paradis sera alors rapproché des hommes pieux."
   },
   {
     "id": "ash-shu-ara-91",
@@ -5025,7 +5115,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَبُرِّزَتِ ٱلْجَحِيمُ لِلْغَاوِينَ",
     "textSimple": "وبرزت ٱلجحيم للغاوين",
     "transliteration": "waburrizati l-jaḥīmu lil'ghāwīna",
-    "translation": "",
+    "translation": "And Hellfire will be brought forth for the deviators,",
     "words": [
       {
         "id": "ash-shu-ara-91-1",
@@ -5049,7 +5139,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et la Fournaise apparaîtra devant les dévoyés."
   },
   {
     "id": "ash-shu-ara-92",
@@ -5058,7 +5149,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلَ لَهُمْ أَيْنَ مَا كُنتُمْ تَعْبُدُونَ",
     "textSimple": "وقيل لهم أين ما كنتم تعبدون",
     "transliteration": "waqīla lahum ayna mā kuntum taʿbudūna",
-    "translation": "",
+    "translation": "And it will be said to them, \"Where are those you used to worship",
     "words": [
       {
         "id": "ash-shu-ara-92-1",
@@ -5103,7 +5194,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera dit : « Où sont donc ceux-là que vous adoriez"
   },
   {
     "id": "ash-shu-ara-93",
@@ -5112,7 +5204,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "مِن دُونِ ٱللَّهِ هَلْ يَنصُرُونَكُمْ أَوْ يَنتَصِرُونَ",
     "textSimple": "من دون ٱلله هل ينصرونكم أو ينتصرون",
     "transliteration": "min dūni l-lahi hal yanṣurūnakum aw yantaṣirūna",
-    "translation": "",
+    "translation": "Other than Allāh? Can they help you or help themselves?\"",
     "words": [
       {
         "id": "ash-shu-ara-93-1",
@@ -5164,7 +5256,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en dehors d’Allah ? Vont-ils vous secourir ou se secourir eux-mêmes ? »"
   },
   {
     "id": "ash-shu-ara-94",
@@ -5173,7 +5266,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَكُبْكِبُوا۟ فِيهَا هُمْ وَٱلْغَاوُۥنَ",
     "textSimple": "فكبكبوا فيها هم وٱلغاون",
     "transliteration": "fakub'kibū fīhā hum wal-ghāwūna",
-    "translation": "",
+    "translation": "So they will be overturned into it [i.e., Hellfire], they and the deviators",
     "words": [
       {
         "id": "ash-shu-ara-94-1",
@@ -5204,7 +5297,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y seront jetés, les uns sur les autres, eux et les dévoyés."
   },
   {
     "id": "ash-shu-ara-95",
@@ -5213,7 +5307,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَجُنُودُ إِبْلِيسَ أَجْمَعُونَ",
     "textSimple": "وجنود إبليس أجمعون",
     "transliteration": "wajunūdu ib'līsa ajmaʿūna",
-    "translation": "",
+    "translation": "And the soldiers of Iblees, all together.",
     "words": [
       {
         "id": "ash-shu-ara-95-1",
@@ -5237,7 +5331,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ainsi que toutes les armées d’Iblîs."
   },
   {
     "id": "ash-shu-ara-96",
@@ -5246,7 +5341,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ وَهُمْ فِيهَا يَخْتَصِمُونَ",
     "textSimple": "قالوا وهم فيها يختصمون",
     "transliteration": "qālū wahum fīhā yakhtaṣimūna",
-    "translation": "",
+    "translation": "They will say while they dispute therein,",
     "words": [
       {
         "id": "ash-shu-ara-96-1",
@@ -5277,7 +5372,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils diront, s’y disputant :"
   },
   {
     "id": "ash-shu-ara-97",
@@ -5286,7 +5382,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "تَٱللَّهِ إِن كُنَّا لَفِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "تٱلله إن كنا لفى ضلـل مبين",
     "transliteration": "tal-lahi in kunnā lafī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "\"By Allāh, we were indeed in manifest error",
     "words": [
       {
         "id": "ash-shu-ara-97-1",
@@ -5331,7 +5427,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Par Allah ! Nous étions vraiment en plein égarement,"
   },
   {
     "id": "ash-shu-ara-98",
@@ -5340,7 +5437,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ نُسَوِّيكُم بِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "إذ نسويكم برب ٱلعـلمين",
     "transliteration": "idh nusawwīkum birabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "When we equated you with the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-98-1",
@@ -5371,7 +5468,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque nous vous mettions sur un pied d’égalité avec le Seigneur de l’Univers."
   },
   {
     "id": "ash-shu-ara-99",
@@ -5380,7 +5478,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَضَلَّنَآ إِلَّا ٱلْمُجْرِمُونَ",
     "textSimple": "ومآ أضلنآ إلا ٱلمجرمون",
     "transliteration": "wamā aḍallanā illā l-muj'rimūna",
-    "translation": "",
+    "translation": "And no one misguided us except the criminals.",
     "words": [
       {
         "id": "ash-shu-ara-99-1",
@@ -5411,7 +5509,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seuls des criminels nous ont ainsi égarés."
   },
   {
     "id": "ash-shu-ara-100",
@@ -5420,7 +5519,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا لَنَا مِن شَـٰفِعِينَ",
     "textSimple": "فما لنا من شـفعين",
     "transliteration": "famā lanā min shāfiʿīna",
-    "translation": "",
+    "translation": "So now we have no intercessors",
     "words": [
       {
         "id": "ash-shu-ara-100-1",
@@ -5451,7 +5550,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et nous n’avons pas d’intercesseurs,"
   },
   {
     "id": "ash-shu-ara-101",
@@ -5460,7 +5560,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا صَدِيقٍ حَمِيمٍ",
     "textSimple": "ولا صديق حميم",
     "transliteration": "walā ṣadīqin ḥamīmin",
-    "translation": "",
+    "translation": "And not a devoted friend.",
     "words": [
       {
         "id": "ash-shu-ara-101-1",
@@ -5484,7 +5584,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ni d’ami chaleureux."
   },
   {
     "id": "ash-shu-ara-102",
@@ -5493,7 +5594,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْ أَنَّ لَنَا كَرَّةً فَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "فلو أن لنا كرة فنكون من ٱلمؤمنين",
     "transliteration": "falaw anna lanā karratan fanakūna mina l-mu'minīna",
-    "translation": "",
+    "translation": "Then if we only had a return [to the world] and could be of the believers...\"",
     "words": [
       {
         "id": "ash-shu-ara-102-1",
@@ -5545,7 +5646,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement une deuxième chance nous était donnée ! Nous serions alors du nombre des croyants ! »"
   },
   {
     "id": "ash-shu-ara-103",
@@ -5554,7 +5656,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-103-1",
@@ -5613,7 +5715,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là un Signe évident, mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-104",
@@ -5622,7 +5725,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-104-1",
@@ -5660,7 +5763,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout- Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-105",
@@ -5669,7 +5773,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ قَوْمُ نُوحٍ ٱلْمُرْسَلِينَ",
     "textSimple": "كذبت قوم نوح ٱلمرسلين",
     "transliteration": "kadhabat qawmu nūḥin l-mur'salīna",
-    "translation": "",
+    "translation": "The people of Noah denied the messengers",
     "words": [
       {
         "id": "ash-shu-ara-105-1",
@@ -5700,7 +5804,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le peuple de Noé traita aussi les Messagers de menteurs,"
   },
   {
     "id": "ash-shu-ara-106",
@@ -5709,7 +5814,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لَهُمْ أَخُوهُمْ نُوحٌ أَلَا تَتَّقُونَ",
     "textSimple": "إذ قال لهم أخوهم نوح ألا تتقون",
     "transliteration": "idh qāla lahum akhūhum nūḥun alā tattaqūna",
-    "translation": "",
+    "translation": "When their brother Noah said to them, \"Will you not fear Allāh?",
     "words": [
       {
         "id": "ash-shu-ara-106-1",
@@ -5761,7 +5866,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque Noé, leur frère, leur demanda : « Ne craignez-vous donc pas (Allah)?"
   },
   {
     "id": "ash-shu-ara-107",
@@ -5770,7 +5876,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
     "textSimple": "إنى لكم رسول أمين",
     "transliteration": "innī lakum rasūlun amīnun",
-    "translation": "",
+    "translation": "Indeed, I am to you a trustworthy messenger.",
     "words": [
       {
         "id": "ash-shu-ara-107-1",
@@ -5801,7 +5907,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je suis envoyé vers vous en Messager fiable."
   },
   {
     "id": "ash-shu-ara-108",
@@ -5810,7 +5917,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-108-1",
@@ -5834,7 +5941,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-109",
@@ -5843,7 +5951,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومآ أسـٔلكم عليه من أجر  إن أجرى إلا على رب ٱلعـلمين",
     "transliteration": "wamā asalukum ʿalayhi min ajrin in ajriya illā ʿalā rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And I do not ask you for it any payment. My payment is only from the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-109-1",
@@ -5923,7 +6031,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne vous réclamerai pour cela aucune récompense, car ma récompense ne relève que du Seigneur de l’Univers."
   },
   {
     "id": "ash-shu-ara-110",
@@ -5932,7 +6041,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.\"",
     "words": [
       {
         "id": "ash-shu-ara-110-1",
@@ -5956,7 +6065,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi ! »"
   },
   {
     "id": "ash-shu-ara-111",
@@ -5965,7 +6075,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالُوٓا۟ أَنُؤْمِنُ لَكَ وَٱتَّبَعَكَ ٱلْأَرْذَلُونَ",
     "textSimple": " قالوٓا أنؤمن لك وٱتبعك ٱلأرذلون",
     "transliteration": "qālū anu'minu laka wa-ittabaʿaka l-ardhalūna",
-    "translation": "",
+    "translation": "They said, \"Should we believe you while you are followed by the lowest [class of people]?\"",
     "words": [
       {
         "id": "ash-shu-ara-111-1",
@@ -6003,7 +6113,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Allons-nous croire en toi quand seule t’a suivi la vile populace ? »"
   },
   {
     "id": "ash-shu-ara-112",
@@ -6012,7 +6123,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ وَمَا عِلْمِى بِمَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "قال وما علمى بما كانوا يعملون",
     "transliteration": "qāla wamā ʿil'mī bimā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "He said, \"And what is my knowledge of what they used to do?",
     "words": [
       {
         "id": "ash-shu-ara-112-1",
@@ -6057,7 +6168,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « Que sais-je de ce qu’ils faisaient ?"
   },
   {
     "id": "ash-shu-ara-113",
@@ -6066,7 +6178,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ حِسَابُهُمْ إِلَّا عَلَىٰ رَبِّى ۖ لَوْ تَشْعُرُونَ",
     "textSimple": "إن حسابهم إلا على ربى  لو تشعرون",
     "transliteration": "in ḥisābuhum illā ʿalā rabbī law tashʿurūna",
-    "translation": "",
+    "translation": "Their account is only upon my Lord, if you [could] perceive.",
     "words": [
       {
         "id": "ash-shu-ara-113-1",
@@ -6118,7 +6230,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seul mon Seigneur peut dresser leur compte. Si seulement vous pouviez le sentir !"
   },
   {
     "id": "ash-shu-ara-114",
@@ -6127,7 +6240,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَنَا۠ بِطَارِدِ ٱلْمُؤْمِنِينَ",
     "textSimple": "ومآ أنا بطارد ٱلمؤمنين",
     "transliteration": "wamā anā biṭāridi l-mu'minīna",
-    "translation": "",
+    "translation": "And I am not one to drive away the believers.",
     "words": [
       {
         "id": "ash-shu-ara-114-1",
@@ -6158,7 +6271,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et je ne m’en vais nullement chasser les croyants."
   },
   {
     "id": "ash-shu-ara-115",
@@ -6167,7 +6281,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ أَنَا۠ إِلَّا نَذِيرٌ مُّبِينٌ",
     "textSimple": "إن أنا إلا نذير مبين",
     "transliteration": "in anā illā nadhīrun mubīnun",
-    "translation": "",
+    "translation": "I am only a clear warner.\"",
     "words": [
       {
         "id": "ash-shu-ara-115-1",
@@ -6205,7 +6319,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne suis là que pour avertir ouvertement. »"
   },
   {
     "id": "ash-shu-ara-116",
@@ -6214,7 +6329,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَئِن لَّمْ تَنتَهِ يَـٰنُوحُ لَتَكُونَنَّ مِنَ ٱلْمَرْجُومِينَ",
     "textSimple": "قالوا لئن لم تنته يـنوح لتكونن من ٱلمرجومين",
     "transliteration": "qālū la-in lam tantahi yānūḥu latakūnanna mina l-marjūmīna",
-    "translation": "",
+    "translation": "They said, \"If you do not desist, O Noah, you will surely be of those who are stoned.\"",
     "words": [
       {
         "id": "ash-shu-ara-116-1",
@@ -6273,7 +6388,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si tu n’arrêtes pas, Noé, dirent-ils, tu seras certainement lapidé. »"
   },
   {
     "id": "ash-shu-ara-117",
@@ -6282,7 +6398,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ إِنَّ قَوْمِى كَذَّبُونِ",
     "textSimple": "قال رب إن قومى كذبون",
     "transliteration": "qāla rabbi inna qawmī kadhabūni",
-    "translation": "",
+    "translation": "He said, \"My Lord, indeed my people have denied me.",
     "words": [
       {
         "id": "ash-shu-ara-117-1",
@@ -6320,7 +6436,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Noé dit : « Seigneur, mon peuple m’a traité de menteur."
   },
   {
     "id": "ash-shu-ara-118",
@@ -6329,7 +6446,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "فٱفتح بينى وبينهم فتحا ونجنى ومن معى من ٱلمؤمنين",
     "transliteration": "fa-if'taḥ baynī wabaynahum fatḥan wanajjinī waman maʿiya mina l-mu'minīna",
-    "translation": "",
+    "translation": "Then judge between me and them with decisive judgement and save me and those with me of the believers.\"",
     "words": [
       {
         "id": "ash-shu-ara-118-1",
@@ -6395,7 +6512,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Décide donc entre eux et moi, sauve-moi ainsi que les croyants qui sont avec moi. »"
   },
   {
     "id": "ash-shu-ara-119",
@@ -6404,7 +6522,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنجَيْنَـٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
     "textSimple": "فأنجينـه ومن معه فى ٱلفلك ٱلمشحون",
     "transliteration": "fa-anjaynāhu waman maʿahu fī l-ful'ki l-mashḥūni",
-    "translation": "",
+    "translation": "So We saved him and those with him in the laden ship.",
     "words": [
       {
         "id": "ash-shu-ara-119-1",
@@ -6449,7 +6567,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes alors ainsi que ceux qui étaient avec lui dans l’Arche chargée."
   },
   {
     "id": "ash-shu-ara-120",
@@ -6458,7 +6577,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَغْرَقْنَا بَعْدُ ٱلْبَاقِينَ",
     "textSimple": "ثم أغرقنا بعد ٱلباقين",
     "transliteration": "thumma aghraqnā baʿdu l-bāqīna",
-    "translation": "",
+    "translation": "Then We drowned thereafter the remaining ones.",
     "words": [
       {
         "id": "ash-shu-ara-120-1",
@@ -6489,7 +6608,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous noyâmes ceux qui restaient."
   },
   {
     "id": "ash-shu-ara-121",
@@ -6498,7 +6618,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-121-1",
@@ -6557,7 +6677,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là un Signe, mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-122",
@@ -6566,7 +6687,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-122-1",
@@ -6604,7 +6725,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout -Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-123",
@@ -6613,7 +6735,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ",
     "textSimple": "كذبت عاد ٱلمرسلين",
     "transliteration": "kadhabat ʿādun l-mur'salīna",
-    "translation": "",
+    "translation": "ʿAad denied the messengers",
     "words": [
       {
         "id": "ash-shu-ara-123-1",
@@ -6637,7 +6759,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les ‘Ad aussi taxèrent de mensonge les Envoyés,"
   },
   {
     "id": "ash-shu-ara-124",
@@ -6646,7 +6769,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لَهُمْ أَخُوهُمْ هُودٌ أَلَا تَتَّقُونَ",
     "textSimple": "إذ قال لهم أخوهم هود ألا تتقون",
     "transliteration": "idh qāla lahum akhūhum hūdun alā tattaqūna",
-    "translation": "",
+    "translation": "When their brother Hūd said to them, \"Will you not fear Allāh?",
     "words": [
       {
         "id": "ash-shu-ara-124-1",
@@ -6698,7 +6821,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque leur frère Hûd leur dit : « Ne craignez-vous donc pas (Allah) ?"
   },
   {
     "id": "ash-shu-ara-125",
@@ -6707,7 +6831,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
     "textSimple": "إنى لكم رسول أمين",
     "transliteration": "innī lakum rasūlun amīnun",
-    "translation": "",
+    "translation": "Indeed, I am to you a trustworthy messenger.",
     "words": [
       {
         "id": "ash-shu-ara-125-1",
@@ -6738,7 +6862,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je suis envoyé vers vous en Messager fiable."
   },
   {
     "id": "ash-shu-ara-126",
@@ -6747,7 +6872,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-126-1",
@@ -6771,7 +6896,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-127",
@@ -6780,7 +6906,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومآ أسـٔلكم عليه من أجر  إن أجرى إلا على رب ٱلعـلمين",
     "transliteration": "wamā asalukum ʿalayhi min ajrin in ajriya illā ʿalā rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And I do not ask you for it any payment. My payment is only from the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-127-1",
@@ -6860,7 +6986,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne vous réclame pour cela aucune récompense, car ma récompense ne relève que du Seigneur de l’Univers."
   },
   {
     "id": "ash-shu-ara-128",
@@ -6869,7 +6996,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةً تَعْبَثُونَ",
     "textSimple": "أتبنون بكل ريع ءاية تعبثون",
     "transliteration": "atabnūna bikulli rīʿin āyatan taʿbathūna",
-    "translation": "",
+    "translation": "Do you construct on every elevation a sign, amusing yourselves,",
     "words": [
       {
         "id": "ash-shu-ara-128-1",
@@ -6907,7 +7034,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allez-vous donc bâtir, pour vous divertir, sur chaque colline un monument ?"
   },
   {
     "id": "ash-shu-ara-129",
@@ -6916,7 +7044,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ",
     "textSimple": "وتتخذون مصانع لعلكم تخلدون",
     "transliteration": "watattakhidhūna maṣāniʿa laʿallakum takhludūna",
-    "translation": "",
+    "translation": "And take for yourselves constructions [i.e., palaces and fortresses] that you might abide eternally?",
     "words": [
       {
         "id": "ash-shu-ara-129-1",
@@ -6947,7 +7075,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Continuerez-vous) à ériger des forteresses comme pour y vivre éternellement ?"
   },
   {
     "id": "ash-shu-ara-130",
@@ -6956,7 +7085,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا بَطَشْتُم بَطَشْتُمْ جَبَّارِينَ",
     "textSimple": "وإذا بطشتم بطشتم جبارين",
     "transliteration": "wa-idhā baṭashtum baṭashtum jabbārīna",
-    "translation": "",
+    "translation": "And when you strike, you strike as tyrants.",
     "words": [
       {
         "id": "ash-shu-ara-130-1",
@@ -6987,7 +7116,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand vous avez recours à la violence, le ferez-vous toujours en impitoyables despotes ?"
   },
   {
     "id": "ash-shu-ara-131",
@@ -6996,7 +7126,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-131-1",
@@ -7020,7 +7150,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-132",
@@ -7029,7 +7160,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ ٱلَّذِىٓ أَمَدَّكُم بِمَا تَعْلَمُونَ",
     "textSimple": "وٱتقوا ٱلذىٓ أمدكم بما تعلمون",
     "transliteration": "wa-ittaqū alladhī amaddakum bimā taʿlamūna",
-    "translation": "",
+    "translation": "And fear He who provided you with that which you know,",
     "words": [
       {
         "id": "ash-shu-ara-132-1",
@@ -7067,7 +7198,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez Celui Qui vous a dispensé tout ce que vous savez."
   },
   {
     "id": "ash-shu-ara-133",
@@ -7076,7 +7208,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَمَدَّكُم بِأَنْعَـٰمٍ وَبَنِينَ",
     "textSimple": "أمدكم بأنعـم وبنين",
     "transliteration": "amaddakum bi-anʿāmin wabanīna",
-    "translation": "",
+    "translation": "Provided you with grazing livestock and children",
     "words": [
       {
         "id": "ash-shu-ara-133-1",
@@ -7100,7 +7232,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui vous a donné des bestiaux et des enfants,"
   },
   {
     "id": "ash-shu-ara-134",
@@ -7109,7 +7242,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "وجنـت وعيون",
     "transliteration": "wajannātin waʿuyūnin",
-    "translation": "",
+    "translation": "And gardens and springs.",
     "words": [
       {
         "id": "ash-shu-ara-134-1",
@@ -7126,7 +7259,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des jardins et des sources."
   },
   {
     "id": "ash-shu-ara-135",
@@ -7135,7 +7269,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
     "textSimple": "إنىٓ أخاف عليكم عذاب يوم عظيم",
     "transliteration": "innī akhāfu ʿalaykum ʿadhāba yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "Indeed, I fear for you the punishment of a terrible day.\"",
     "words": [
       {
         "id": "ash-shu-ara-135-1",
@@ -7180,7 +7314,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je crains pour vous le supplice d’un grand jour ! »"
   },
   {
     "id": "ash-shu-ara-136",
@@ -7189,7 +7324,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سَوَآءٌ عَلَيْنَآ أَوَعَظْتَ أَمْ لَمْ تَكُن مِّنَ ٱلْوَٰعِظِينَ",
     "textSimple": "قالوا سوآء علينآ أوعظت أم لم تكن من ٱلوعظين",
     "transliteration": "qālū sawāon ʿalaynā awaʿaẓta am lam takun mina l-wāʿiẓīna",
-    "translation": "",
+    "translation": "They said, \"It is all the same to us whether you advise or are not of the advisors.",
     "words": [
       {
         "id": "ash-shu-ara-136-1",
@@ -7255,7 +7390,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Que tu nous exhortes ou non, lui répondirent-ils, cela nous est égal."
   },
   {
     "id": "ash-shu-ara-137",
@@ -7264,7 +7400,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هَـٰذَآ إِلَّا خُلُقُ ٱلْأَوَّلِينَ",
     "textSimple": "إن هـذآ إلا خلق ٱلأولين",
     "transliteration": "in hādhā illā khuluqu l-awalīna",
-    "translation": "",
+    "translation": "This is not but the custom of the former peoples,",
     "words": [
       {
         "id": "ash-shu-ara-137-1",
@@ -7302,7 +7438,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce ne sont là que les traditions des peuples d’autrefois ;"
   },
   {
     "id": "ash-shu-ara-138",
@@ -7311,7 +7448,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نَحْنُ بِمُعَذَّبِينَ",
     "textSimple": "وما نحن بمعذبين",
     "transliteration": "wamā naḥnu bimuʿadhabīna",
-    "translation": "",
+    "translation": "And we are not to be punished.\"",
     "words": [
       {
         "id": "ash-shu-ara-138-1",
@@ -7335,7 +7472,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et nous ne serons nullement soumis au supplice. »"
   },
   {
     "id": "ash-shu-ara-139",
@@ -7344,7 +7482,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَأَهْلَكْنَـٰهُمْ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "فكذبوه فأهلكنـهم  إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "fakadhabūhu fa-ahlaknāhum inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "And they denied him, so We destroyed them. Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-139-1",
@@ -7417,7 +7555,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils l’accusèrent donc de mensonge et Nous les fîmes périr. Il y a certes là un Signe évident, mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-140",
@@ -7426,7 +7565,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-140-1",
@@ -7464,7 +7603,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout-Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-141",
@@ -7473,7 +7613,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ",
     "textSimple": "كذبت ثمود ٱلمرسلين",
     "transliteration": "kadhabat thamūdu l-mur'salīna",
-    "translation": "",
+    "translation": "Thamūd denied the messengers",
     "words": [
       {
         "id": "ash-shu-ara-141-1",
@@ -7497,7 +7637,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Thamûd aussi taxèrent de mensonge les Envoyés,"
   },
   {
     "id": "ash-shu-ara-142",
@@ -7506,7 +7647,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لَهُمْ أَخُوهُمْ صَـٰلِحٌ أَلَا تَتَّقُونَ",
     "textSimple": "إذ قال لهم أخوهم صـلح ألا تتقون",
     "transliteration": "idh qāla lahum akhūhum ṣāliḥun alā tattaqūna",
-    "translation": "",
+    "translation": "When their brother Ṣāliḥ said to them, \"Will you not fear Allāh?",
     "words": [
       {
         "id": "ash-shu-ara-142-1",
@@ -7558,7 +7699,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque leur frère Çâlih leur dit : « Ne craignez-vous donc pas (Allah) ?"
   },
   {
     "id": "ash-shu-ara-143",
@@ -7567,7 +7709,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
     "textSimple": "إنى لكم رسول أمين",
     "transliteration": "innī lakum rasūlun amīnun",
-    "translation": "",
+    "translation": "Indeed, I am to you a trustworthy messenger.",
     "words": [
       {
         "id": "ash-shu-ara-143-1",
@@ -7598,7 +7740,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je suis envoyé vers vous en Messager fiable."
   },
   {
     "id": "ash-shu-ara-144",
@@ -7607,7 +7750,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-144-1",
@@ -7631,7 +7774,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-145",
@@ -7640,7 +7784,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومآ أسـٔلكم عليه من أجر  إن أجرى إلا على رب ٱلعـلمين",
     "transliteration": "wamā asalukum ʿalayhi min ajrin in ajriya illā ʿalā rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And I do not ask you for it any payment. My payment is only from the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-145-1",
@@ -7720,7 +7864,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne vous réclame pour cela aucune récompense, car ma récompense ne relève que du Seigneur de l’Univers."
   },
   {
     "id": "ash-shu-ara-146",
@@ -7729,7 +7874,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَتُتْرَكُونَ فِى مَا هَـٰهُنَآ ءَامِنِينَ",
     "textSimple": "أتتركون فى ما هـهنآ ءامنين",
     "transliteration": "atut'rakūna fī mā hāhunā āminīna",
-    "translation": "",
+    "translation": "Will you be left in what is here, secure [from death],",
     "words": [
       {
         "id": "ash-shu-ara-146-1",
@@ -7767,7 +7912,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serez-vous donc laissés tranquillement dans cette (confortable) situation qui est la vôtre ?"
   },
   {
     "id": "ash-shu-ara-147",
@@ -7776,7 +7922,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "فى جنـت وعيون",
     "transliteration": "fī jannātin waʿuyūnin",
-    "translation": "",
+    "translation": "Within gardens and springs",
     "words": [
       {
         "id": "ash-shu-ara-147-1",
@@ -7800,7 +7946,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au milieu de jardins et de sources,"
   },
   {
     "id": "ash-shu-ara-148",
@@ -7809,7 +7956,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَزُرُوعٍ وَنَخْلٍ طَلْعُهَا هَضِيمٌ",
     "textSimple": "وزروع ونخل طلعها هضيم",
     "transliteration": "wazurūʿin wanakhlin ṭalʿuhā haḍīmun",
-    "translation": "",
+    "translation": "And fields of crops and palm trees with softened fruit?",
     "words": [
       {
         "id": "ash-shu-ara-148-1",
@@ -7840,7 +7987,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "de cultures et de palmiers de belle venue, aux fruits mûrs ?"
   },
   {
     "id": "ash-shu-ara-149",
@@ -7849,7 +7997,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا فَـٰرِهِينَ",
     "textSimple": "وتنحتون من ٱلجبال بيوتا فـرهين",
     "transliteration": "watanḥitūna mina l-jibāli buyūtan fārihīna",
-    "translation": "",
+    "translation": "And you carve out of the mountains, homes, with skill.",
     "words": [
       {
         "id": "ash-shu-ara-149-1",
@@ -7887,7 +8035,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allez-vous (continuer à) tailler aussi adroitement vos maisons dans les montagnes ?"
   },
   {
     "id": "ash-shu-ara-150",
@@ -7896,7 +8045,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-150-1",
@@ -7920,7 +8069,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-151",
@@ -7929,7 +8079,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُطِيعُوٓا۟ أَمْرَ ٱلْمُسْرِفِينَ",
     "textSimple": "ولا تطيعوٓا أمر ٱلمسرفين",
     "transliteration": "walā tuṭīʿū amra l-mus'rifīna",
-    "translation": "",
+    "translation": "And do not obey the order of the transgressors,",
     "words": [
       {
         "id": "ash-shu-ara-151-1",
@@ -7960,7 +8110,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et n’obéissez point aux ordres des transgresseurs,"
   },
   {
     "id": "ash-shu-ara-152",
@@ -7969,7 +8120,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ",
     "textSimple": "ٱلذين يفسدون فى ٱلأرض ولا يصلحون",
     "transliteration": "alladhīna yuf'sidūna fī l-arḍi walā yuṣ'liḥūna",
-    "translation": "",
+    "translation": "Who cause corruption in the land and do not amend.\"",
     "words": [
       {
         "id": "ash-shu-ara-152-1",
@@ -8014,7 +8165,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui sèment la corruption sur terre et n’appellent pas à la réforme. »"
   },
   {
     "id": "ash-shu-ara-153",
@@ -8023,7 +8175,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّمَآ أَنتَ مِنَ ٱلْمُسَحَّرِينَ",
     "textSimple": "قالوٓا إنمآ أنت من ٱلمسحرين",
     "transliteration": "qālū innamā anta mina l-musaḥarīna",
-    "translation": "",
+    "translation": "They said, \"You are only of those affected by magic.",
     "words": [
       {
         "id": "ash-shu-ara-153-1",
@@ -8061,7 +8213,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tu ne peux être que sous l’emprise d’un ensorcellement répété, lui dirent-ils."
   },
   {
     "id": "ash-shu-ara-154",
@@ -8070,7 +8223,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَنتَ إِلَّا بَشَرٌ مِّثْلُنَا فَأْتِ بِـَٔايَةٍ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "مآ أنت إلا بشر مثلنا فأت بـٔاية إن كنت من ٱلصـدقين",
     "transliteration": "mā anta illā basharun mith'lunā fati biāyatin in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "You are but a man like ourselves, so bring a sign, if you should be of the truthful.\"",
     "words": [
       {
         "id": "ash-shu-ara-154-1",
@@ -8150,7 +8303,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’es qu’un humain comme nous, ou alors produis un prodige si tu dis vrai. »"
   },
   {
     "id": "ash-shu-ara-155",
@@ -8159,7 +8313,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَـٰذِهِۦ نَاقَةٌ لَّهَا شِرْبٌ وَلَكُمْ شِرْبُ يَوْمٍ مَّعْلُومٍ",
     "textSimple": "قال هـذه ناقة لها شرب ولكم شرب يوم معلوم",
     "transliteration": "qāla hādhihi nāqatun lahā shir'bun walakum shir'bu yawmin maʿlūmin",
-    "translation": "",
+    "translation": "He said, \"This is a she-camel. For her is a [time of] drink, and for you is a [time of] drink, [each] on a known day.",
     "words": [
       {
         "id": "ash-shu-ara-155-1",
@@ -8225,7 +8379,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voici une chamelle, leur dit-il, elle devra boire à certains jours et vous devrez boire à d’autres."
   },
   {
     "id": "ash-shu-ara-156",
@@ -8234,7 +8389,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَمَسُّوهَا بِسُوٓءٍ فَيَأْخُذَكُمْ عَذَابُ يَوْمٍ عَظِيمٍ",
     "textSimple": "ولا تمسوها بسوٓء فيأخذكم عذاب يوم عظيم",
     "transliteration": "walā tamassūhā bisūin fayakhudhakum ʿadhābu yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "And do not touch her with harm, lest you be seized by the punishment of a terrible day.\"",
     "words": [
       {
         "id": "ash-shu-ara-156-1",
@@ -8286,7 +8441,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne lui faites aucun mal, ou vous subirez le supplice d’un grand jour! »"
   },
   {
     "id": "ash-shu-ara-157",
@@ -8295,7 +8451,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَعَقَرُوهَا فَأَصْبَحُوا۟ نَـٰدِمِينَ",
     "textSimple": "فعقروها فأصبحوا نـدمين",
     "transliteration": "faʿaqarūhā fa-aṣbaḥū nādimīna",
-    "translation": "",
+    "translation": "But they hamstrung her and so became regretful.",
     "words": [
       {
         "id": "ash-shu-ara-157-1",
@@ -8319,7 +8475,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils l’abattirent et furent, le lendemain, rongés par le remords."
   },
   {
     "id": "ash-shu-ara-158",
@@ -8328,7 +8485,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَهُمُ ٱلْعَذَابُ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "فأخذهم ٱلعذاب  إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "fa-akhadhahumu l-ʿadhābu inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "And the punishment seized them. Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-158-1",
@@ -8401,7 +8558,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le supplice les saisit. Il y a certes là un Signe indéniable, mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-159",
@@ -8410,7 +8568,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-159-1",
@@ -8448,7 +8606,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout-Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-160",
@@ -8457,7 +8616,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ قَوْمُ لُوطٍ ٱلْمُرْسَلِينَ",
     "textSimple": "كذبت قوم لوط ٱلمرسلين",
     "transliteration": "kadhabat qawmu lūṭin l-mur'salīna",
-    "translation": "",
+    "translation": "The people of Lot denied the messengers",
     "words": [
       {
         "id": "ash-shu-ara-160-1",
@@ -8488,7 +8647,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le peuple de Loth aussi accusa de mensonge les Envoyés,"
   },
   {
     "id": "ash-shu-ara-161",
@@ -8497,7 +8657,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لَهُمْ أَخُوهُمْ لُوطٌ أَلَا تَتَّقُونَ",
     "textSimple": "إذ قال لهم أخوهم لوط ألا تتقون",
     "transliteration": "idh qāla lahum akhūhum lūṭun alā tattaqūna",
-    "translation": "",
+    "translation": "When their brother Lot said to them, \"Will you not fear Allāh?",
     "words": [
       {
         "id": "ash-shu-ara-161-1",
@@ -8549,7 +8709,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque leur frère Loth leur dit : « Ne craignez-vous donc pas (Allah) ?"
   },
   {
     "id": "ash-shu-ara-162",
@@ -8558,7 +8719,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
     "textSimple": "إنى لكم رسول أمين",
     "transliteration": "innī lakum rasūlun amīnun",
-    "translation": "",
+    "translation": "Indeed, I am to you a trustworthy messenger.",
     "words": [
       {
         "id": "ash-shu-ara-162-1",
@@ -8589,7 +8750,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je suis envoyé vers vous en Messager fiable."
   },
   {
     "id": "ash-shu-ara-163",
@@ -8598,7 +8760,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-163-1",
@@ -8622,7 +8784,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-164",
@@ -8631,7 +8794,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومآ أسـٔلكم عليه من أجر  إن أجرى إلا على رب ٱلعـلمين",
     "transliteration": "wamā asalukum ʿalayhi min ajrin in ajriya illā ʿalā rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And I do not ask you for it any payment. My payment is only from the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-164-1",
@@ -8711,7 +8874,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne vous réclame pour cela aucune récompense, car ma récompense ne relève que du Seigneur de l’Univers."
   },
   {
     "id": "ash-shu-ara-165",
@@ -8720,7 +8884,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَتَأْتُونَ ٱلذُّكْرَانَ مِنَ ٱلْعَـٰلَمِينَ",
     "textSimple": "أتأتون ٱلذكران من ٱلعـلمين",
     "transliteration": "atatūna l-dhuk'rāna mina l-ʿālamīna",
-    "translation": "",
+    "translation": "Do you approach males among the worlds",
     "words": [
       {
         "id": "ash-shu-ara-165-1",
@@ -8751,7 +8915,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rechercherez-vous donc des rapports intimes avec les mâles de parmi les humains,"
   },
   {
     "id": "ash-shu-ara-166",
@@ -8760,7 +8925,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَذَرُونَ مَا خَلَقَ لَكُمْ رَبُّكُم مِّنْ أَزْوَٰجِكُم ۚ بَلْ أَنتُمْ قَوْمٌ عَادُونَ",
     "textSimple": "وتذرون ما خلق لكم ربكم من أزوجكم  بل أنتم قوم عادون",
     "transliteration": "watadharūna mā khalaqa lakum rabbukum min azwājikum bal antum qawmun ʿādūna",
-    "translation": "",
+    "translation": "And leave what your Lord has created for you as mates? But you are a people transgressing.\"",
     "words": [
       {
         "id": "ash-shu-ara-166-1",
@@ -8840,7 +9005,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et délaissez les épouses que votre Seigneur a créées pour vous ? Vous n’êtes certes que des transgresseurs ! »"
   },
   {
     "id": "ash-shu-ara-167",
@@ -8849,7 +9015,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَئِن لَّمْ تَنتَهِ يَـٰلُوطُ لَتَكُونَنَّ مِنَ ٱلْمُخْرَجِينَ",
     "textSimple": "قالوا لئن لم تنته يـلوط لتكونن من ٱلمخرجين",
     "transliteration": "qālū la-in lam tantahi yālūṭu latakūnanna mina l-mukh'rajīna",
-    "translation": "",
+    "translation": "They said, \"If you do not desist, O Lot, you will surely be of those evicted.\"",
     "words": [
       {
         "id": "ash-shu-ara-167-1",
@@ -8908,7 +9074,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si tu n’arrêtes pas, ô Loth, lui dirent-ils, tu seras banni. »"
   },
   {
     "id": "ash-shu-ara-168",
@@ -8917,7 +9084,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنِّى لِعَمَلِكُم مِّنَ ٱلْقَالِينَ",
     "textSimple": "قال إنى لعملكم من ٱلقالين",
     "transliteration": "qāla innī liʿamalikum mina l-qālīna",
-    "translation": "",
+    "translation": "He said, \"Indeed, I am, toward your deed, of those who detest [it].",
     "words": [
       {
         "id": "ash-shu-ara-168-1",
@@ -8955,7 +9122,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « Je suis vraiment de ceux qui abhorrent ce que vous faites !"
   },
   {
     "id": "ash-shu-ara-169",
@@ -8964,7 +9132,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ نَجِّنِى وَأَهْلِى مِمَّا يَعْمَلُونَ",
     "textSimple": "رب نجنى وأهلى مما يعملون",
     "transliteration": "rabbi najjinī wa-ahlī mimmā yaʿmalūna",
-    "translation": "",
+    "translation": "My Lord, save me and my family from [the consequence of] what they do.\"",
     "words": [
       {
         "id": "ash-shu-ara-169-1",
@@ -9002,7 +9170,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur, sauve-moi, ainsi que ma famille, de ce qu’ils font ! »"
   },
   {
     "id": "ash-shu-ara-170",
@@ -9011,7 +9180,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَنَجَّيْنَـٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ",
     "textSimple": "فنجينـه وأهلهٓ أجمعين",
     "transliteration": "fanajjaynāhu wa-ahlahu ajmaʿīna",
-    "translation": "",
+    "translation": "So We saved him and his family, all,",
     "words": [
       {
         "id": "ash-shu-ara-170-1",
@@ -9035,7 +9204,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes ainsi que toute sa famille."
   },
   {
     "id": "ash-shu-ara-171",
@@ -9044,7 +9214,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عَجُوزًا فِى ٱلْغَـٰبِرِينَ",
     "textSimple": "إلا عجوزا فى ٱلغـبرين",
     "transliteration": "illā ʿajūzan fī l-ghābirīna",
-    "translation": "",
+    "translation": "Except an old woman among those who remained behind.",
     "words": [
       {
         "id": "ash-shu-ara-171-1",
@@ -9075,7 +9245,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hormis une vieille femme qui fut parmi les disparus."
   },
   {
     "id": "ash-shu-ara-172",
@@ -9084,7 +9255,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ دَمَّرْنَا ٱلْـَٔاخَرِينَ",
     "textSimple": "ثم دمرنا ٱلـٔاخرين",
     "transliteration": "thumma dammarnā l-ākharīna",
-    "translation": "",
+    "translation": "Then We destroyed the others.",
     "words": [
       {
         "id": "ash-shu-ara-172-1",
@@ -9108,7 +9279,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous anéantîmes les autres."
   },
   {
     "id": "ash-shu-ara-173",
@@ -9117,7 +9289,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا ۖ فَسَآءَ مَطَرُ ٱلْمُنذَرِينَ",
     "textSimple": "وأمطرنا عليهم مطرا  فسآء مطر ٱلمنذرين",
     "transliteration": "wa-amṭarnā ʿalayhim maṭaran fasāa maṭaru l-mundharīna",
-    "translation": "",
+    "translation": "And We rained upon them a rain [of stones], and evil was the rain of those who were warned.",
     "words": [
       {
         "id": "ash-shu-ara-173-1",
@@ -9162,7 +9334,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes tomber sur eux une pluie de pierres, et quelle funeste pluie pour des gens (pourtant) prévenus !"
   },
   {
     "id": "ash-shu-ara-174",
@@ -9171,7 +9344,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-174-1",
@@ -9230,7 +9403,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là un Signe évident, mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-175",
@@ -9239,7 +9413,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-175-1",
@@ -9277,7 +9451,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout-Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-176",
@@ -9286,7 +9461,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَ أَصْحَـٰبُ لْـَٔيْكَةِ ٱلْمُرْسَلِينَ",
     "textSimple": "كذب أصحـب لـٔيكة ٱلمرسلين",
     "transliteration": "kadhaba aṣḥābu al'aykati l-mur'salīna",
-    "translation": "",
+    "translation": "The companions of the thicket [i.e., the people of Madyan] denied the messengers",
     "words": [
       {
         "id": "ash-shu-ara-176-1",
@@ -9317,7 +9492,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens d’Al-Aykah aussi taxèrent de mensonge les Envoyés,"
   },
   {
     "id": "ash-shu-ara-177",
@@ -9326,7 +9502,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لَهُمْ شُعَيْبٌ أَلَا تَتَّقُونَ",
     "textSimple": "إذ قال لهم شعيب ألا تتقون",
     "transliteration": "idh qāla lahum shuʿaybun alā tattaqūna",
-    "translation": "",
+    "translation": "When Shuʿayb said to them, \"Will you not fear Allāh?",
     "words": [
       {
         "id": "ash-shu-ara-177-1",
@@ -9371,7 +9547,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque Chou ̒ayb leur dit : « Ne craignez-vous donc pas (Allah) ?"
   },
   {
     "id": "ash-shu-ara-178",
@@ -9380,7 +9557,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
     "textSimple": "إنى لكم رسول أمين",
     "transliteration": "innī lakum rasūlun amīnun",
-    "translation": "",
+    "translation": "Indeed, I am to you a trustworthy messenger.",
     "words": [
       {
         "id": "ash-shu-ara-178-1",
@@ -9411,7 +9588,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je suis envoyé vers vous en Messager fiable."
   },
   {
     "id": "ash-shu-ara-179",
@@ -9420,7 +9598,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "فٱتقوا ٱلله وأطيعون",
     "transliteration": "fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "So fear Allāh and obey me.",
     "words": [
       {
         "id": "ash-shu-ara-179-1",
@@ -9444,7 +9622,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez donc Allah, obéissez-moi !"
   },
   {
     "id": "ash-shu-ara-180",
@@ -9453,7 +9632,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ومآ أسـٔلكم عليه من أجر  إن أجرى إلا على رب ٱلعـلمين",
     "transliteration": "wamā asalukum ʿalayhi min ajrin in ajriya illā ʿalā rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And I do not ask you for it any payment. My payment is only from the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-180-1",
@@ -9533,7 +9712,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je ne vous réclame pour cela aucune récompense, car ma récompense ne relève que du Seigneur de l’Univers."
   },
   {
     "id": "ash-shu-ara-181",
@@ -9542,7 +9722,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ",
     "textSimple": " أوفوا ٱلكيل ولا تكونوا من ٱلمخسرين",
     "transliteration": "awfū l-kayla walā takūnū mina l-mukh'sirīna",
-    "translation": "",
+    "translation": "Give full measure and do not be of those who cause loss.",
     "words": [
       {
         "id": "ash-shu-ara-181-1",
@@ -9587,7 +9767,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Donnez pleine mesure et ne fraudez point pour faire perdre (aux gens leurs droits)."
   },
   {
     "id": "ash-shu-ara-182",
@@ -9596,7 +9777,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
     "textSimple": "وزنوا بٱلقسطاس ٱلمستقيم",
     "transliteration": "wazinū bil-qis'ṭāsi l-mus'taqīmi",
-    "translation": "",
+    "translation": "And weigh with an even [i.e., honest] balance.",
     "words": [
       {
         "id": "ash-shu-ara-182-1",
@@ -9620,7 +9801,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pesez avec une balance exacte."
   },
   {
     "id": "ash-shu-ara-183",
@@ -9629,7 +9811,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
     "textSimple": "ولا تبخسوا ٱلناس أشيآءهم ولا تعثوا فى ٱلأرض مفسدين",
     "transliteration": "walā tabkhasū l-nāsa ashyāahum walā taʿthaw fī l-arḍi muf'sidīna",
-    "translation": "",
+    "translation": "And do not deprive people of their due and do not commit abuse on earth, spreading corruption.",
     "words": [
       {
         "id": "ash-shu-ara-183-1",
@@ -9695,7 +9877,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne rognez pas les biens d’autrui et ne parcourez pas la terre en y semant la corruption."
   },
   {
     "id": "ash-shu-ara-184",
@@ -9704,7 +9887,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ ٱلَّذِى خَلَقَكُمْ وَٱلْجِبِلَّةَ ٱلْأَوَّلِينَ",
     "textSimple": "وٱتقوا ٱلذى خلقكم وٱلجبلة ٱلأولين",
     "transliteration": "wa-ittaqū alladhī khalaqakum wal-jibilata l-awalīna",
-    "translation": "",
+    "translation": "And fear He who created you and the former creation.\"",
     "words": [
       {
         "id": "ash-shu-ara-184-1",
@@ -9742,7 +9925,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Craignez Celui Qui vous a créés, vous et les premières générations ! »"
   },
   {
     "id": "ash-shu-ara-185",
@@ -9751,7 +9935,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّمَآ أَنتَ مِنَ ٱلْمُسَحَّرِينَ",
     "textSimple": "قالوٓا إنمآ أنت من ٱلمسحرين",
     "transliteration": "qālū innamā anta mina l-musaḥarīna",
-    "translation": "",
+    "translation": "They said, \"You are only of those affected by magic.",
     "words": [
       {
         "id": "ash-shu-ara-185-1",
@@ -9789,7 +9973,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tu ne peux être que sous l’emprise d’un ensorcellement répété, lui dirent-ils."
   },
   {
     "id": "ash-shu-ara-186",
@@ -9798,7 +9983,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَنتَ إِلَّا بَشَرٌ مِّثْلُنَا وَإِن نَّظُنُّكَ لَمِنَ ٱلْكَـٰذِبِينَ",
     "textSimple": "ومآ أنت إلا بشر مثلنا وإن نظنك لمن ٱلكـذبين",
     "transliteration": "wamā anta illā basharun mith'lunā wa-in naẓunnuka lamina l-kādhibīna",
-    "translation": "",
+    "translation": "You are but a man like ourselves, and indeed, we think you are among the liars.",
     "words": [
       {
         "id": "ash-shu-ara-186-1",
@@ -9864,7 +10049,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et tu n’es qu’un humain comme nous, et nous pensons vraiment que tu es un menteur !"
   },
   {
     "id": "ash-shu-ara-187",
@@ -9873,7 +10059,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَسْقِطْ عَلَيْنَا كِسَفًا مِّنَ ٱلسَّمَآءِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "فأسقط علينا كسفا من ٱلسمآء إن كنت من ٱلصـدقين",
     "transliteration": "fa-asqiṭ ʿalaynā kisafan mina l-samāi in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "So cause to fall upon us fragments of the sky, if you should be of the truthful.\"",
     "words": [
       {
         "id": "ash-shu-ara-187-1",
@@ -9939,7 +10125,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Fais donc tomber sur nous des pans du ciel, si tu dis vrai ! »"
   },
   {
     "id": "ash-shu-ara-188",
@@ -9948,7 +10135,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّىٓ أَعْلَمُ بِمَا تَعْمَلُونَ",
     "textSimple": "قال ربىٓ أعلم بما تعملون",
     "transliteration": "qāla rabbī aʿlamu bimā taʿmalūna",
-    "translation": "",
+    "translation": "He said, \"My Lord is most knowing of what you do.\"",
     "words": [
       {
         "id": "ash-shu-ara-188-1",
@@ -9986,7 +10173,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mon Seigneur, dit-il, en Sait le mieux sur ce que vous faites. »"
   },
   {
     "id": "ash-shu-ara-189",
@@ -9995,7 +10183,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ ٱلظُّلَّةِ ۚ إِنَّهُۥ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ",
     "textSimple": "فكذبوه فأخذهم عذاب يوم ٱلظلة  إنه كان عذاب يوم عظيم",
     "transliteration": "fakadhabūhu fa-akhadhahum ʿadhābu yawmi l-ẓulati innahu kāna ʿadhāba yawmin ʿaẓīmin",
-    "translation": "",
+    "translation": "And they denied him, so the punishment of the day of the black cloud seized them. Indeed, it was the punishment of a terrible day.",
     "words": [
       {
         "id": "ash-shu-ara-189-1",
@@ -10068,7 +10256,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils le traitèrent de menteur. Et le supplice du jour du Nuage sombre les saisit. Ce fut le supplice d’un jour terrifiant."
   },
   {
     "id": "ash-shu-ara-190",
@@ -10077,7 +10266,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية  وما كان أكثرهم مؤمنين",
     "transliteration": "inna fī dhālika laāyatan wamā kāna aktharuhum mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign, but most of them were not to be believers.",
     "words": [
       {
         "id": "ash-shu-ara-190-1",
@@ -10136,7 +10325,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là un Signe, mais la plupart d’entre eux ne sont pas croyants."
   },
   {
     "id": "ash-shu-ara-191",
@@ -10145,7 +10335,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
     "textSimple": "وإن ربك لهو ٱلعزيز ٱلرحيم",
     "transliteration": "wa-inna rabbaka lahuwa l-ʿazīzu l-raḥīmu",
-    "translation": "",
+    "translation": "And indeed, your Lord - He is the Exalted in Might, the Merciful.",
     "words": [
       {
         "id": "ash-shu-ara-191-1",
@@ -10183,7 +10373,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Tout- Puissant, le Tout Miséricordieux."
   },
   {
     "id": "ash-shu-ara-192",
@@ -10192,7 +10383,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "وإنه لتنزيل رب ٱلعـلمين",
     "transliteration": "wa-innahu latanzīlu rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And indeed, it [i.e., the Qur’ān] is the revelation of the Lord of the worlds.",
     "words": [
       {
         "id": "ash-shu-ara-192-1",
@@ -10223,7 +10414,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ce Livre) est une révélation du Seigneur de l’Univers,"
   },
   {
     "id": "ash-shu-ara-193",
@@ -10232,7 +10424,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ",
     "textSimple": "نزل به ٱلروح ٱلأمين",
     "transliteration": "nazala bihi l-rūḥu l-amīnu",
-    "translation": "",
+    "translation": "The Trustworthy Spirit [i.e., Gabriel] has brought it down",
     "words": [
       {
         "id": "ash-shu-ara-193-1",
@@ -10263,7 +10455,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que l’Esprit fidèle est descendu"
   },
   {
     "id": "ash-shu-ara-194",
@@ -10272,7 +10465,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ",
     "textSimple": "على قلبك لتكون من ٱلمنذرين",
     "transliteration": "ʿalā qalbika litakūna mina l-mundhirīna",
-    "translation": "",
+    "translation": "Upon your heart, [O Muḥammad] - that you may be of the warners -",
     "words": [
       {
         "id": "ash-shu-ara-194-1",
@@ -10310,7 +10503,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(confier) à ton cœur, pour que tu sois de ceux qui avertissent."
   },
   {
     "id": "ash-shu-ara-195",
@@ -10319,7 +10513,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "بِلِسَانٍ عَرَبِىٍّ مُّبِينٍ",
     "textSimple": "بلسان عربى مبين",
     "transliteration": "bilisānin ʿarabiyyin mubīnin",
-    "translation": "",
+    "translation": "In a clear Arabic language.",
     "words": [
       {
         "id": "ash-shu-ara-195-1",
@@ -10343,7 +10537,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en une langue arabe limpide."
   },
   {
     "id": "ash-shu-ara-196",
@@ -10352,7 +10547,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَفِى زُبُرِ ٱلْأَوَّلِينَ",
     "textSimple": "وإنه لفى زبر ٱلأولين",
     "transliteration": "wa-innahu lafī zuburi l-awalīna",
-    "translation": "",
+    "translation": "And indeed, it is [mentioned] in the scriptures of former peoples.",
     "words": [
       {
         "id": "ash-shu-ara-196-1",
@@ -10383,7 +10578,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il était déjà annoncé dans les Écritures des peuples anciens."
   },
   {
     "id": "ash-shu-ara-197",
@@ -10392,7 +10588,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَكُن لَّهُمْ ءَايَةً أَن يَعْلَمَهُۥ عُلَمَـٰٓؤُا۟ بَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "أولم يكن لهم ءاية أن يعلمه علمـٓؤا بنىٓ إسرٓءيل",
     "transliteration": "awalam yakun lahum āyatan an yaʿlamahu ʿulamāu banī is'rāīla",
-    "translation": "",
+    "translation": "And has it not been a sign to them that it is recognized by the scholars of the Children of Israel?",
     "words": [
       {
         "id": "ash-shu-ara-197-1",
@@ -10458,7 +10654,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’est-ce pas pour eux un Signe que les savants, parmi les Enfants d’Israël, en aient déjà eu connaissance ?"
   },
   {
     "id": "ash-shu-ara-198",
@@ -10467,7 +10664,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ نَزَّلْنَـٰهُ عَلَىٰ بَعْضِ ٱلْأَعْجَمِينَ",
     "textSimple": "ولو نزلنـه على بعض ٱلأعجمين",
     "transliteration": "walaw nazzalnāhu ʿalā baʿḍi l-aʿjamīna",
-    "translation": "",
+    "translation": "And even if We had revealed it to one among the foreigners",
     "words": [
       {
         "id": "ash-shu-ara-198-1",
@@ -10505,7 +10702,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous l’avions révélé à (un homme de) quelque peuple étranger,"
   },
   {
     "id": "ash-shu-ara-199",
@@ -10514,7 +10712,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَقَرَأَهُۥ عَلَيْهِم مَّا كَانُوا۟ بِهِۦ مُؤْمِنِينَ",
     "textSimple": "فقرأه عليهم ما كانوا به مؤمنين",
     "transliteration": "faqara-ahu ʿalayhim mā kānū bihi mu'minīna",
-    "translation": "",
+    "translation": "And he had recited it to them [perfectly], they would [still] not have been believers in it.",
     "words": [
       {
         "id": "ash-shu-ara-199-1",
@@ -10559,7 +10757,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que (leur Messager) le leur eût récité, ils n’y auraient pas cru (pour autant)."
   },
   {
     "id": "ash-shu-ara-200",
@@ -10568,7 +10767,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ سَلَكْنَـٰهُ فِى قُلُوبِ ٱلْمُجْرِمِينَ",
     "textSimple": "كذلك سلكنـه فى قلوب ٱلمجرمين",
     "transliteration": "kadhālika salaknāhu fī qulūbi l-muj'rimīna",
-    "translation": "",
+    "translation": "Thus have We inserted it [i.e., disbelief] into the hearts of the criminals.",
     "words": [
       {
         "id": "ash-shu-ara-200-1",
@@ -10606,7 +10805,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous avons introduit (le scepticisme) dans les cœurs des criminels."
   },
   {
     "id": "ash-shu-ara-201",
@@ -10615,7 +10815,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "لَا يُؤْمِنُونَ بِهِۦ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ",
     "textSimple": "لا يؤمنون به حتى يروا ٱلعذاب ٱلأليم",
     "transliteration": "lā yu'minūna bihi ḥattā yarawū l-ʿadhāba l-alīma",
-    "translation": "",
+    "translation": "They will not believe in it until they see the painful punishment.",
     "words": [
       {
         "id": "ash-shu-ara-201-1",
@@ -10667,7 +10867,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’y croiront donc pas avant de voir le supplice très douloureux,"
   },
   {
     "id": "ash-shu-ara-202",
@@ -10676,7 +10877,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَيَأْتِيَهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "فيأتيهم بغتة وهم لا يشعرون",
     "transliteration": "fayatiyahum baghtatan wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "And it will come to them suddenly while they perceive [it] not.",
     "words": [
       {
         "id": "ash-shu-ara-202-1",
@@ -10714,7 +10915,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui fondra sur eux soudainement et sans qu’ils en sentent (l’arrivée)."
   },
   {
     "id": "ash-shu-ara-203",
@@ -10723,7 +10925,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَيَقُولُوا۟ هَلْ نَحْنُ مُنظَرُونَ",
     "textSimple": "فيقولوا هل نحن منظرون",
     "transliteration": "fayaqūlū hal naḥnu munẓarūna",
-    "translation": "",
+    "translation": "And they will say, \"May we be reprieved?\"",
     "words": [
       {
         "id": "ash-shu-ara-203-1",
@@ -10754,7 +10956,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : « Nous sera-t-il accordé un sursis ? »"
   },
   {
     "id": "ash-shu-ara-204",
@@ -10763,7 +10966,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَبِعَذَابِنَا يَسْتَعْجِلُونَ",
     "textSimple": "أفبعذابنا يستعجلون",
     "transliteration": "afabiʿadhābinā yastaʿjilūna",
-    "translation": "",
+    "translation": "So for Our punishment are they impatient?",
     "words": [
       {
         "id": "ash-shu-ara-204-1",
@@ -10780,7 +10983,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Veulent-ils donc hâter Notre supplice ?"
   },
   {
     "id": "ash-shu-ara-205",
@@ -10789,7 +10993,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَرَءَيْتَ إِن مَّتَّعْنَـٰهُمْ سِنِينَ",
     "textSimple": "أفرءيت إن متعنـهم سنين",
     "transliteration": "afara-ayta in mattaʿnāhum sinīna",
-    "translation": "",
+    "translation": "Then have you considered if We gave them enjoyment for years",
     "words": [
       {
         "id": "ash-shu-ara-205-1",
@@ -10820,7 +11024,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "As-tu considéré que si Nous les laissions jouir de leur vie pendant des années,"
   },
   {
     "id": "ash-shu-ara-206",
@@ -10829,7 +11034,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ جَآءَهُم مَّا كَانُوا۟ يُوعَدُونَ",
     "textSimple": "ثم جآءهم ما كانوا يوعدون",
     "transliteration": "thumma jāahum mā kānū yūʿadūna",
-    "translation": "",
+    "translation": "And then there came to them that which they were promised?",
     "words": [
       {
         "id": "ash-shu-ara-206-1",
@@ -10867,7 +11072,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que, par la suite, leur parvienne ce qui leur était promis (comme châtiment),"
   },
   {
     "id": "ash-shu-ara-207",
@@ -10876,7 +11082,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يُمَتَّعُونَ",
     "textSimple": "مآ أغنى عنهم ما كانوا يمتعون",
     "transliteration": "mā aghnā ʿanhum mā kānū yumattaʿūna",
-    "translation": "",
+    "translation": "They would not be availed by the enjoyment with which they were provided.",
     "words": [
       {
         "id": "ash-shu-ara-207-1",
@@ -10921,7 +11127,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "leurs jouissances passées leur serviraient-elles à quelque chose ?"
   },
   {
     "id": "ash-shu-ara-208",
@@ -10930,7 +11137,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَهْلَكْنَا مِن قَرْيَةٍ إِلَّا لَهَا مُنذِرُونَ",
     "textSimple": "ومآ أهلكنا من قرية إلا لها منذرون",
     "transliteration": "wamā ahlaknā min qaryatin illā lahā mundhirūna",
-    "translation": "",
+    "translation": "And We did not destroy any city except that it had warners",
     "words": [
       {
         "id": "ash-shu-ara-208-1",
@@ -10982,7 +11189,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons détruit aucune cité qui n’ait déjà eu des avertisseurs"
   },
   {
     "id": "ash-shu-ara-209",
@@ -10991,7 +11199,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ذِكْرَىٰ وَمَا كُنَّا ظَـٰلِمِينَ",
     "textSimple": "ذكرى وما كنا ظـلمين",
     "transliteration": "dhik'rā wamā kunnā ẓālimīna",
-    "translation": "",
+    "translation": "As a reminder; and never have We been unjust.",
     "words": [
       {
         "id": "ash-shu-ara-209-1",
@@ -11022,7 +11230,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour leur rappeler (Nos preuves) ; et Nous n’avons jamais été injuste."
   },
   {
     "id": "ash-shu-ara-210",
@@ -11031,7 +11240,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَنَزَّلَتْ بِهِ ٱلشَّيَـٰطِينُ",
     "textSimple": "وما تنزلت به ٱلشيـطين",
     "transliteration": "wamā tanazzalat bihi l-shayāṭīnu",
-    "translation": "",
+    "translation": "And the devils have not brought it [i.e., the revelation] down.",
     "words": [
       {
         "id": "ash-shu-ara-210-1",
@@ -11062,7 +11271,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce ne sont point les démons qui sont descendus avec cette révélation."
   },
   {
     "id": "ash-shu-ara-211",
@@ -11071,7 +11281,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَنۢبَغِى لَهُمْ وَمَا يَسْتَطِيعُونَ",
     "textSimple": "وما ينبغى لهم وما يستطيعون",
     "transliteration": "wamā yanbaghī lahum wamā yastaṭīʿūna",
-    "translation": "",
+    "translation": "It is not allowable for them, nor would they be able.",
     "words": [
       {
         "id": "ash-shu-ara-211-1",
@@ -11109,7 +11319,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne leur est pas donné de le faire, et ils en sont incapables."
   },
   {
     "id": "ash-shu-ara-212",
@@ -11118,7 +11329,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ عَنِ ٱلسَّمْعِ لَمَعْزُولُونَ",
     "textSimple": "إنهم عن ٱلسمع لمعزولون",
     "transliteration": "innahum ʿani l-samʿi lamaʿzūlūna",
-    "translation": "",
+    "translation": "Indeed they, from [its] hearing, are removed.",
     "words": [
       {
         "id": "ash-shu-ara-212-1",
@@ -11149,7 +11360,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont tenus loin pour ne point pouvoir l’écouter."
   },
   {
     "id": "ash-shu-ara-213",
@@ -11158,7 +11370,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا تَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَتَكُونَ مِنَ ٱلْمُعَذَّبِينَ",
     "textSimple": "فلا تدع مع ٱلله إلـها ءاخر فتكون من ٱلمعذبين",
     "transliteration": "falā tadʿu maʿa l-lahi ilāhan ākhara fatakūna mina l-muʿadhabīna",
-    "translation": "",
+    "translation": "So do not invoke with Allāh another deity and [thus] be among the punished.",
     "words": [
       {
         "id": "ash-shu-ara-213-1",
@@ -11224,7 +11436,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’invoque donc pas une autre divinité avec Allah, ou tu seras parmi ceux qui seront soumis au supplice."
   },
   {
     "id": "ash-shu-ara-214",
@@ -11233,7 +11446,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ",
     "textSimple": "وأنذر عشيرتك ٱلأقربين",
     "transliteration": "wa-andhir ʿashīrataka l-aqrabīna",
-    "translation": "",
+    "translation": "And warn, [O Muḥammad], your closest kindred.",
     "words": [
       {
         "id": "ash-shu-ara-214-1",
@@ -11257,7 +11470,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avertis les plus proches parmi les tiens"
   },
   {
     "id": "ash-shu-ara-215",
@@ -11266,7 +11480,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱخْفِضْ جَنَاحَكَ لِمَنِ ٱتَّبَعَكَ مِنَ ٱلْمُؤْمِنِينَ",
     "textSimple": "وٱخفض جناحك لمن ٱتبعك من ٱلمؤمنين",
     "transliteration": "wa-ikh'fiḍ janāḥaka limani ittabaʿaka mina l-mu'minīna",
-    "translation": "",
+    "translation": "And lower your wing [i.e., show kindness] to those who follow you of the believers.",
     "words": [
       {
         "id": "ash-shu-ara-215-1",
@@ -11311,7 +11525,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Abaisse ton aile pour ceux qui t’ont suivi parmi les croyants."
   },
   {
     "id": "ash-shu-ara-216",
@@ -11320,7 +11535,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنْ عَصَوْكَ فَقُلْ إِنِّى بَرِىٓءٌ مِّمَّا تَعْمَلُونَ",
     "textSimple": "فإن عصوك فقل إنى برىٓء مما تعملون",
     "transliteration": "fa-in ʿaṣawka faqul innī barīon mimmā taʿmalūna",
-    "translation": "",
+    "translation": "And if they disobey you, then say, \"Indeed, I am disassociated from what you are doing.\"",
     "words": [
       {
         "id": "ash-shu-ara-216-1",
@@ -11372,7 +11587,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te désobéissent, dis : « Je désavoue ce que vous faites. »"
   },
   {
     "id": "ash-shu-ara-217",
@@ -11381,7 +11597,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ ٱلرَّحِيمِ",
     "textSimple": "وتوكل على ٱلعزيز ٱلرحيم",
     "transliteration": "watawakkal ʿalā l-ʿazīzi l-raḥīmi",
-    "translation": "",
+    "translation": "And rely upon the Exalted in Might, the Merciful,",
     "words": [
       {
         "id": "ash-shu-ara-217-1",
@@ -11412,7 +11628,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Confie-toi au Tout- Puissant, Tout Miséricordieux,"
   },
   {
     "id": "ash-shu-ara-218",
@@ -11421,7 +11638,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى يَرَىٰكَ حِينَ تَقُومُ",
     "textSimple": "ٱلذى يرىك حين تقوم",
     "transliteration": "alladhī yarāka ḥīna taqūmu",
-    "translation": "",
+    "translation": "Who sees you when you arise",
     "words": [
       {
         "id": "ash-shu-ara-218-1",
@@ -11452,7 +11669,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qui te Voit quand tu te lèves (pour prier),"
   },
   {
     "id": "ash-shu-ara-219",
@@ -11461,7 +11679,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَقَلُّبَكَ فِى ٱلسَّـٰجِدِينَ",
     "textSimple": "وتقلبك فى ٱلسـجدين",
     "transliteration": "wataqallubaka fī l-sājidīna",
-    "translation": "",
+    "translation": "And your movement among those who prostrate.",
     "words": [
       {
         "id": "ash-shu-ara-219-1",
@@ -11485,7 +11703,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et (te Voit) parmi ceux qui se prosternent."
   },
   {
     "id": "ash-shu-ara-220",
@@ -11494,7 +11713,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "إنه هو ٱلسميع ٱلعليم",
     "transliteration": "innahu huwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "Indeed, He is the Hearing, the Knowing.",
     "words": [
       {
         "id": "ash-shu-ara-220-1",
@@ -11525,7 +11744,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui Entend Tout, et c’est Lui l’Omniscient."
   },
   {
     "id": "ash-shu-ara-221",
@@ -11534,7 +11754,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ أُنَبِّئُكُمْ عَلَىٰ مَن تَنَزَّلُ ٱلشَّيَـٰطِينُ",
     "textSimple": "هل أنبئكم على من تنزل ٱلشيـطين",
     "transliteration": "hal unabbi-ukum ʿalā man tanazzalu l-shayāṭīnu",
-    "translation": "",
+    "translation": "Shall I inform you upon whom the devils descend?",
     "words": [
       {
         "id": "ash-shu-ara-221-1",
@@ -11579,7 +11799,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous apprendrai-je sur qui descendent les démons ?"
   },
   {
     "id": "ash-shu-ara-222",
@@ -11588,7 +11809,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍ",
     "textSimple": "تنزل على كل أفاك أثيم",
     "transliteration": "tanazzalu ʿalā kulli affākin athīmin",
-    "translation": "",
+    "translation": "They descend upon every sinful liar.",
     "words": [
       {
         "id": "ash-shu-ara-222-1",
@@ -11626,7 +11847,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils descendent sur tout calomniateur et dépravé."
   },
   {
     "id": "ash-shu-ara-223",
@@ -11635,7 +11857,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "يُلْقُونَ ٱلسَّمْعَ وَأَكْثَرُهُمْ كَـٰذِبُونَ",
     "textSimple": "يلقون ٱلسمع وأكثرهم كـذبون",
     "transliteration": "yul'qūna l-samʿa wa-aktharuhum kādhibūna",
-    "translation": "",
+    "translation": "They pass on what is heard, and most of them are liars.",
     "words": [
       {
         "id": "ash-shu-ara-223-1",
@@ -11666,7 +11888,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils tendent l’oreille et la plupart d’entre eux sont des menteurs."
   },
   {
     "id": "ash-shu-ara-224",
@@ -11675,7 +11898,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلشُّعَرَآءُ يَتَّبِعُهُمُ ٱلْغَاوُۥنَ",
     "textSimple": "وٱلشعرآء يتبعهم ٱلغاون",
     "transliteration": "wal-shuʿarāu yattabiʿuhumu l-ghāwūna",
-    "translation": "",
+    "translation": "And the poets - [only] the deviators follow them;",
     "words": [
       {
         "id": "ash-shu-ara-224-1",
@@ -11699,7 +11922,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant aux poètes, seuls les suivent les dévoyés."
   },
   {
     "id": "ash-shu-ara-225",
@@ -11708,7 +11932,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّهُمْ فِى كُلِّ وَادٍ يَهِيمُونَ",
     "textSimple": "ألم تر أنهم فى كل واد يهيمون",
     "transliteration": "alam tara annahum fī kulli wādin yahīmūna",
-    "translation": "",
+    "translation": "Do you not see that in every valley they roam",
     "words": [
       {
         "id": "ash-shu-ara-225-1",
@@ -11760,7 +11984,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’ils errent par tous les vaux,"
   },
   {
     "id": "ash-shu-ara-226",
@@ -11769,7 +11994,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّهُمْ يَقُولُونَ مَا لَا يَفْعَلُونَ",
     "textSimple": "وأنهم يقولون ما لا يفعلون",
     "transliteration": "wa-annahum yaqūlūna mā lā yafʿalūna",
-    "translation": "",
+    "translation": "And that they say what they do not do? -",
     "words": [
       {
         "id": "ash-shu-ara-226-1",
@@ -11807,7 +12032,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qu’ils disent ce qu’ils ne font point ?"
   },
   {
     "id": "ash-shu-ara-227",
@@ -11816,7 +12042,7 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَذَكَرُوا۟ ٱللَّهَ كَثِيرًا وَٱنتَصَرُوا۟ مِنۢ بَعْدِ مَا ظُلِمُوا۟ ۗ وَسَيَعْلَمُ ٱلَّذِينَ ظَلَمُوٓا۟ أَىَّ مُنقَلَبٍ يَنقَلِبُونَ",
     "textSimple": "إلا ٱلذين ءامنوا وعملوا ٱلصـلحـت وذكروا ٱلله كثيرا وٱنتصروا من بعد ما ظلموا  وسيعلم ٱلذين ظلموٓا أى منقلب ينقلبون",
     "transliteration": "illā alladhīna āmanū waʿamilū l-ṣāliḥāti wadhakarū l-laha kathīran wa-intaṣarū min baʿdi mā ẓulimū wasayaʿlamu alladhīna ẓalamū ayya munqalabin yanqalibūna",
-    "translation": "",
+    "translation": "Except those [poets] who believe and do righteous deeds and remember Allāh often and defend [the Muslims] after they were wronged. And those who have wronged are going to know to what [kind of] return they will be returned.",
     "words": [
       {
         "id": "ash-shu-ara-227-1",
@@ -11952,7 +12178,8 @@ export const ASH_SHU_ARA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hormis ceux qui (d’entre eux) croient, accomplissent les bonnes œuvres, évoquent souvent le nom d’Allah et répondent aux attaques dont ils sont victimes. Les injustes verront bientôt le sort qui sera le leur."
   }
 ];
 

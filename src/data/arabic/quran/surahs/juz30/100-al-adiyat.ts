@@ -11,7 +11,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلْعَـٰدِيَـٰتِ ضَبْحًا",
     "textSimple": " وٱلعـديـت ضبحا",
     "transliteration": "wal-ʿādiyāti ḍabḥan",
-    "translation": "",
+    "translation": "By the racers, panting,",
     "words": [
       {
         "id": "al-adiyat-1-1",
@@ -28,7 +28,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les coursiers haletant,"
   },
   {
     "id": "al-adiyat-2",
@@ -37,7 +38,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْمُورِيَـٰتِ قَدْحًا",
     "textSimple": "فٱلموريـت قدحا",
     "transliteration": "fal-mūriyāti qadḥan",
-    "translation": "",
+    "translation": "And the producers of sparks [when] striking",
     "words": [
       {
         "id": "al-adiyat-2-1",
@@ -54,7 +55,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "faisant jaillir des étincelles (en galopant),"
   },
   {
     "id": "al-adiyat-3",
@@ -63,7 +65,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْمُغِيرَٰتِ صُبْحًا",
     "textSimple": "فٱلمغيرت صبحا",
     "transliteration": "fal-mughīrāti ṣub'ḥan",
-    "translation": "",
+    "translation": "And the chargers at dawn,",
     "words": [
       {
         "id": "al-adiyat-3-1",
@@ -80,7 +82,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui attaquent au petit jour,"
   },
   {
     "id": "al-adiyat-4",
@@ -89,7 +92,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَثَرْنَ بِهِۦ نَقْعًا",
     "textSimple": "فأثرن به نقعا",
     "transliteration": "fa-atharna bihi naqʿan",
-    "translation": "",
+    "translation": "Stirring up thereby [clouds of] dust,",
     "words": [
       {
         "id": "al-adiyat-4-1",
@@ -113,7 +116,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et font voler la poussière (sous leurs sabots),"
   },
   {
     "id": "al-adiyat-5",
@@ -122,7 +126,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "فَوَسَطْنَ بِهِۦ جَمْعًا",
     "textSimple": "فوسطن به جمعا",
     "transliteration": "fawasaṭna bihi jamʿan",
-    "translation": "",
+    "translation": "Arriving thereby in the center collectively,",
     "words": [
       {
         "id": "al-adiyat-5-1",
@@ -146,7 +150,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis percent au milieu (des rangs ennemis) !"
   },
   {
     "id": "al-adiyat-6",
@@ -155,7 +160,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ",
     "textSimple": "إن ٱلإنسـن لربه لكنود",
     "transliteration": "inna l-insāna lirabbihi lakanūdun",
-    "translation": "",
+    "translation": "Indeed mankind, to his Lord, is ungrateful.",
     "words": [
       {
         "id": "al-adiyat-6-1",
@@ -186,7 +191,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme est, en vérité, bien ingrat envers son Seigneur."
   },
   {
     "id": "al-adiyat-7",
@@ -195,7 +201,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ",
     "textSimple": "وإنه على ذلك لشهيد",
     "transliteration": "wa-innahu ʿalā dhālika lashahīdun",
-    "translation": "",
+    "translation": "And indeed, he is to that a witness.",
     "words": [
       {
         "id": "al-adiyat-7-1",
@@ -226,7 +232,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est d’ailleurs lui-même témoin."
   },
   {
     "id": "al-adiyat-8",
@@ -235,7 +242,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
     "textSimple": "وإنه لحب ٱلخير لشديد",
     "transliteration": "wa-innahu liḥubbi l-khayri lashadīdun",
-    "translation": "",
+    "translation": "And indeed he is, in love of wealth, intense.",
     "words": [
       {
         "id": "al-adiyat-8-1",
@@ -266,7 +273,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et certes, il porte aux biens (terrestres) un amour très intense."
   },
   {
     "id": "al-adiyat-9",
@@ -275,7 +283,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
     "textSimple": " أفلا يعلم إذا بعثر ما فى ٱلقبور",
     "transliteration": "afalā yaʿlamu idhā buʿ'thira mā fī l-qubūri",
-    "translation": "",
+    "translation": "But does he not know that when the contents of the graves are scattered",
     "words": [
       {
         "id": "al-adiyat-9-1",
@@ -327,7 +335,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sait-il donc pas que lorsque sera dispersé ce qu’il y a dans les tombes,"
   },
   {
     "id": "al-adiyat-10",
@@ -336,7 +345,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
     "textSimple": "وحصل ما فى ٱلصدور",
     "transliteration": "waḥuṣṣila mā fī l-ṣudūri",
-    "translation": "",
+    "translation": "And that within the breasts is obtained,",
     "words": [
       {
         "id": "al-adiyat-10-1",
@@ -367,7 +376,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que sera révélé ce que cachent les cœurs,"
   },
   {
     "id": "al-adiyat-11",
@@ -376,7 +386,7 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ",
     "textSimple": "إن ربهم بهم يومئذ لخبير",
     "transliteration": "inna rabbahum bihim yawma-idhin lakhabīrun",
-    "translation": "",
+    "translation": "Indeed, their Lord with them, that Day, is [fully] Aware.",
     "words": [
       {
         "id": "al-adiyat-11-1",
@@ -414,7 +424,8 @@ export const AL__ADIYAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ce jour-là, leur Seigneur sera à leur sujet parfaitement Informé ?"
   }
 ];
 

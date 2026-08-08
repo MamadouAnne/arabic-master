@@ -11,7 +11,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": " أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
     "textSimple": " ألهىكم ٱلتكاثر",
     "transliteration": "alhākumu l-takāthuru",
-    "translation": "",
+    "translation": "Competition in [worldly] increase diverts you",
     "words": [
       {
         "id": "at-takathur-1-1",
@@ -28,7 +28,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La ruée vers les richesses vous distrait,"
   },
   {
     "id": "at-takathur-2",
@@ -37,7 +38,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
     "textSimple": "حتى زرتم ٱلمقابر",
     "transliteration": "ḥattā zur'tumu l-maqābira",
-    "translation": "",
+    "translation": "Until you visit the graveyards.",
     "words": [
       {
         "id": "at-takathur-2-1",
@@ -61,7 +62,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’au bord de vos tombes."
   },
   {
     "id": "at-takathur-3",
@@ -70,7 +72,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا سَوْفَ تَعْلَمُونَ",
     "textSimple": "كلا سوف تعلمون",
     "transliteration": "kallā sawfa taʿlamūna",
-    "translation": "",
+    "translation": "No! You are going to know.",
     "words": [
       {
         "id": "at-takathur-3-1",
@@ -94,7 +96,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais vous allez bientôt savoir."
   },
   {
     "id": "at-takathur-4",
@@ -103,7 +106,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
     "textSimple": "ثم كلا سوف تعلمون",
     "transliteration": "thumma kallā sawfa taʿlamūna",
-    "translation": "",
+    "translation": "Then, no! You are going to know.",
     "words": [
       {
         "id": "at-takathur-4-1",
@@ -134,7 +137,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Oui, vous allez bientôt savoir."
   },
   {
     "id": "at-takathur-5",
@@ -143,7 +147,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
     "textSimple": "كلا لو تعلمون علم ٱليقين",
     "transliteration": "kallā law taʿlamūna ʿil'ma l-yaqīni",
-    "translation": "",
+    "translation": "No! If you only knew with knowledge of certainty...",
     "words": [
       {
         "id": "at-takathur-5-1",
@@ -181,7 +185,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement vous pouviez savoir avec certitude,"
   },
   {
     "id": "at-takathur-6",
@@ -190,7 +195,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "لَتَرَوُنَّ ٱلْجَحِيمَ",
     "textSimple": "لترون ٱلجحيم",
     "transliteration": "latarawunna l-jaḥīma",
-    "translation": "",
+    "translation": "You will surely see the Hellfire.",
     "words": [
       {
         "id": "at-takathur-6-1",
@@ -207,7 +212,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous verriez alors l’Enfer !"
   },
   {
     "id": "at-takathur-7",
@@ -216,7 +222,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
     "textSimple": "ثم لترونها عين ٱليقين",
     "transliteration": "thumma latarawunnahā ʿayna l-yaqīni",
-    "translation": "",
+    "translation": "Then you will surely see it with the eye of certainty.",
     "words": [
       {
         "id": "at-takathur-7-1",
@@ -247,7 +253,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis vous le verriez, de vos yeux le verriez,"
   },
   {
     "id": "at-takathur-8",
@@ -256,7 +263,7 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
     "textSimple": "ثم لتسـٔلن يومئذ عن ٱلنعيم",
     "transliteration": "thumma latus'alunna yawma-idhin ʿani l-naʿīmi",
-    "translation": "",
+    "translation": "Then you will surely be asked that Day about pleasure.",
     "words": [
       {
         "id": "at-takathur-8-1",
@@ -294,7 +301,8 @@ export const AT_TAKATHUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, ce jour-là, vous serez certes interrogés au sujet des plaisirs."
   }
 ];
 

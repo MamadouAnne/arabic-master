@@ -11,7 +11,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلْمُزَّمِّلُ",
     "textSimple": " يـٓأيها ٱلمزمل",
     "transliteration": "yāayyuhā l-muzamilu",
-    "translation": "",
+    "translation": "O you who wraps himself [in clothing]",
     "words": [
       {
         "id": "al-muzzammil-1-1",
@@ -28,7 +28,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô toi qui t’emmitoufles dans tes vêtements !"
   },
   {
     "id": "al-muzzammil-2",
@@ -37,7 +38,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "قُمِ ٱلَّيْلَ إِلَّا قَلِيلًا",
     "textSimple": "قم ٱليل إلا قليلا",
     "transliteration": "qumi al-layla illā qalīlan",
-    "translation": "",
+    "translation": "Arise [to pray] the night, except for a little -",
     "words": [
       {
         "id": "al-muzzammil-2-1",
@@ -68,7 +69,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lève-toi la nuit (pour prier), et n’en excepte qu’une petite partie."
   },
   {
     "id": "al-muzzammil-3",
@@ -77,7 +79,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "نِّصْفَهُۥٓ أَوِ ٱنقُصْ مِنْهُ قَلِيلًا",
     "textSimple": "نصفهٓ أو ٱنقص منه قليلا",
     "transliteration": "niṣ'fahu awi unquṣ min'hu qalīlan",
-    "translation": "",
+    "translation": "Half of it - or subtract from it a little",
     "words": [
       {
         "id": "al-muzzammil-3-1",
@@ -115,7 +117,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sera sa moitié, un peu moins,"
   },
   {
     "id": "al-muzzammil-4",
@@ -124,7 +127,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا",
     "textSimple": "أو زد عليه ورتل ٱلقرءان ترتيلا",
     "transliteration": "aw zid ʿalayhi warattili l-qur'āna tartīlan",
-    "translation": "",
+    "translation": "Or add to it, and recite the Qur’ān with measured recitation.",
     "words": [
       {
         "id": "al-muzzammil-4-1",
@@ -169,7 +172,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou un peu plus. Et récite le Coran de ta plus belle récitation."
   },
   {
     "id": "al-muzzammil-5",
@@ -178,7 +182,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًا ثَقِيلًا",
     "textSimple": "إنا سنلقى عليك قولا ثقيلا",
     "transliteration": "innā sanul'qī ʿalayka qawlan thaqīlan",
-    "translation": "",
+    "translation": "Indeed, We will cast upon you a heavy word.",
     "words": [
       {
         "id": "al-muzzammil-5-1",
@@ -216,7 +220,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous allons bientôt te faire porter de lourdes paroles."
   },
   {
     "id": "al-muzzammil-6",
@@ -225,7 +230,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًٔا وَأَقْوَمُ قِيلًا",
     "textSimple": "إن ناشئة ٱليل هى أشد وطـٔا وأقوم قيلا",
     "transliteration": "inna nāshi-ata al-layli hiya ashaddu waṭan wa-aqwamu qīlan",
-    "translation": "",
+    "translation": "Indeed, the hours of the night are more effective for concurrence [of heart and tongue] and more suitable for words.",
     "words": [
       {
         "id": "al-muzzammil-6-1",
@@ -284,7 +289,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La prière du réveil nocturne est d’un impact plus profond et les paroles en sont plus justes."
   },
   {
     "id": "al-muzzammil-7",
@@ -293,7 +299,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ لَكَ فِى ٱلنَّهَارِ سَبْحًا طَوِيلًا",
     "textSimple": "إن لك فى ٱلنهار سبحا طويلا",
     "transliteration": "inna laka fī l-nahāri sabḥan ṭawīlan",
-    "translation": "",
+    "translation": "Indeed, for you by day is prolonged occupation.",
     "words": [
       {
         "id": "al-muzzammil-7-1",
@@ -338,7 +344,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu as, en vérité, de longs moments d’activité pendant la journée."
   },
   {
     "id": "al-muzzammil-8",
@@ -347,7 +354,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
     "textSimple": "وٱذكر ٱسم ربك وتبتل إليه تبتيلا",
     "transliteration": "wa-udh'kuri is'ma rabbika watabattal ilayhi tabtīlan",
-    "translation": "",
+    "translation": "And remember the name of your Lord and devote yourself to Him with [complete] devotion.",
     "words": [
       {
         "id": "al-muzzammil-8-1",
@@ -392,7 +399,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque le Nom de ton Seigneur ! Voue-toi exclusivement à Son culte !"
   },
   {
     "id": "al-muzzammil-9",
@@ -401,7 +409,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَـٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًا",
     "textSimple": "رب ٱلمشرق وٱلمغرب لآ إلـه إلا هو فٱتخذه وكيلا",
     "transliteration": "rabbu l-mashriqi wal-maghribi lā ilāha illā huwa fa-ittakhidh'hu wakīlan",
-    "translation": "",
+    "translation": "[He is] the Lord of the East and the West; there is no deity except Him, so take Him as Disposer of [your] affairs.",
     "words": [
       {
         "id": "al-muzzammil-9-1",
@@ -467,7 +475,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est le Seigneur du Levant et du Couchant. Il n’est point d’autre divinité que Lui. Prends-Le donc pour unique Protecteur !"
   },
   {
     "id": "al-muzzammil-10",
@@ -476,7 +485,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًا جَمِيلًا",
     "textSimple": "وٱصبر على ما يقولون وٱهجرهم هجرا جميلا",
     "transliteration": "wa-iṣ'bir ʿalā mā yaqūlūna wa-uh'jur'hum hajran jamīlan",
-    "translation": "",
+    "translation": "And be patient over what they say and avoid them with gracious avoidance.",
     "words": [
       {
         "id": "al-muzzammil-10-1",
@@ -528,7 +537,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends en patience ce qu’ils disent et déserte-les de la désertion la plus sereine !"
   },
   {
     "id": "al-muzzammil-11",
@@ -537,7 +547,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "وَذَرْنِى وَٱلْمُكَذِّبِينَ أُو۟لِى ٱلنَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا",
     "textSimple": "وذرنى وٱلمكذبين أولى ٱلنعمة ومهلهم قليلا",
     "transliteration": "wadharnī wal-mukadhibīna ulī l-naʿmati wamahhil'hum qalīlan",
-    "translation": "",
+    "translation": "And leave Me with [the matter of] the deniers, those of ease [in life], and allow them respite a little.",
     "words": [
       {
         "id": "al-muzzammil-11-1",
@@ -582,7 +592,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-Moi avec les contradicteurs, qui sont privilégiés par les biens (de ce monde). Accorde-leur quelque répit."
   },
   {
     "id": "al-muzzammil-12",
@@ -591,7 +602,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ لَدَيْنَآ أَنكَالًا وَجَحِيمًا",
     "textSimple": "إن لدينآ أنكالا وجحيما",
     "transliteration": "inna ladaynā ankālan wajaḥīman",
-    "translation": "",
+    "translation": "Indeed, with Us [for them] are shackles and burning fire.",
     "words": [
       {
         "id": "al-muzzammil-12-1",
@@ -622,7 +633,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous disposons (pour eux) de lourdes chaînes et d’un ardent Brasier,"
   },
   {
     "id": "al-muzzammil-13",
@@ -631,7 +643,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "وَطَعَامًا ذَا غُصَّةٍ وَعَذَابًا أَلِيمًا",
     "textSimple": "وطعاما ذا غصة وعذابا أليما",
     "transliteration": "waṭaʿāman dhā ghuṣṣatin waʿadhāban alīman",
-    "translation": "",
+    "translation": "And food that chokes and a painful punishment -",
     "words": [
       {
         "id": "al-muzzammil-13-1",
@@ -669,7 +681,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "d’une nourriture qui étouffe et d’un supplice très douloureux."
   },
   {
     "id": "al-muzzammil-14",
@@ -678,7 +691,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَرْجُفُ ٱلْأَرْضُ وَٱلْجِبَالُ وَكَانَتِ ٱلْجِبَالُ كَثِيبًا مَّهِيلًا",
     "textSimple": "يوم ترجف ٱلأرض وٱلجبال وكانت ٱلجبال كثيبا مهيلا",
     "transliteration": "yawma tarjufu l-arḍu wal-jibālu wakānati l-jibālu kathīban mahīlan",
-    "translation": "",
+    "translation": "On the Day the earth and the mountains will convulse and the mountains will become a heap of sand pouring down.",
     "words": [
       {
         "id": "al-muzzammil-14-1",
@@ -737,7 +750,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, la terre et les montagnes s’ébranleront ; et les massifs se mueront en dunes de terre mouvante."
   },
   {
     "id": "al-muzzammil-15",
@@ -746,7 +760,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَرْسَلْنَآ إِلَيْكُمْ رَسُولًا شَـٰهِدًا عَلَيْكُمْ كَمَآ أَرْسَلْنَآ إِلَىٰ فِرْعَوْنَ رَسُولًا",
     "textSimple": "إنآ أرسلنآ إليكم رسولا شـهدا عليكم كمآ أرسلنآ إلى فرعون رسولا",
     "transliteration": "innā arsalnā ilaykum rasūlan shāhidan ʿalaykum kamā arsalnā ilā fir'ʿawna rasūlan",
-    "translation": "",
+    "translation": "Indeed, We have sent to you a Messenger as a witness upon you just as We sent to Pharaoh a messenger.",
     "words": [
       {
         "id": "al-muzzammil-15-1",
@@ -826,7 +840,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons envoyé un Messager qui témoignera contre vous, comme Nous avions déjà envoyé un Messager à Pharaon."
   },
   {
     "id": "al-muzzammil-16",
@@ -835,7 +850,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "فَعَصَىٰ فِرْعَوْنُ ٱلرَّسُولَ فَأَخَذْنَـٰهُ أَخْذًا وَبِيلًا",
     "textSimple": "فعصى فرعون ٱلرسول فأخذنـه أخذا وبيلا",
     "transliteration": "faʿaṣā fir'ʿawnu l-rasūla fa-akhadhnāhu akhdhan wabīlan",
-    "translation": "",
+    "translation": "But Pharaoh disobeyed the messenger, so We seized him with a ruinous seizure.",
     "words": [
       {
         "id": "al-muzzammil-16-1",
@@ -880,7 +895,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon ayant désobéi au Messager, Nous sévîmes contre lui d’une façon implacable."
   },
   {
     "id": "al-muzzammil-17",
@@ -889,7 +905,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "فَكَيْفَ تَتَّقُونَ إِن كَفَرْتُمْ يَوْمًا يَجْعَلُ ٱلْوِلْدَٰنَ شِيبًا",
     "textSimple": "فكيف تتقون إن كفرتم يوما يجعل ٱلولدن شيبا",
     "transliteration": "fakayfa tattaqūna in kafartum yawman yajʿalu l-wil'dāna shīban",
-    "translation": "",
+    "translation": "Then how can you fear, if you disbelieve, a Day that will make the children white-haired?",
     "words": [
       {
         "id": "al-muzzammil-17-1",
@@ -948,7 +964,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comment, si vous mécroyez, pourrez-vous donc vous protéger d’un jour où les enfants seront chenus ?"
   },
   {
     "id": "al-muzzammil-18",
@@ -957,7 +974,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "ٱلسَّمَآءُ مُنفَطِرٌۢ بِهِۦ ۚ كَانَ وَعْدُهُۥ مَفْعُولًا",
     "textSimple": "ٱلسمآء منفطر به  كان وعده مفعولا",
     "transliteration": "al-samāu munfaṭirun bihi kāna waʿduhu mafʿūlan",
-    "translation": "",
+    "translation": "The heaven will break apart therefrom; ever is His promise fulfilled.",
     "words": [
       {
         "id": "al-muzzammil-18-1",
@@ -1002,7 +1019,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le ciel, alors, en sera fendu, car Sa promesse à Lui se sera accomplie."
   },
   {
     "id": "al-muzzammil-19",
@@ -1011,7 +1029,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذِهِۦ تَذْكِرَةٌ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا",
     "textSimple": "إن هـذه تذكرة  فمن شآء ٱتخذ إلى ربه سبيلا",
     "transliteration": "inna hādhihi tadhkiratun faman shāa ittakhadha ilā rabbihi sabīlan",
-    "translation": "",
+    "translation": "Indeed, this is a reminder, so whoever wills may take to his Lord a way.",
     "words": [
       {
         "id": "al-muzzammil-19-1",
@@ -1077,7 +1095,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà qui est un rappel. Prenne donc qui voudra le chemin vers son Seigneur !"
   },
   {
     "id": "al-muzzammil-20",
@@ -1086,7 +1105,7 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
     "textSimple": " إن ربك يعلم أنك تقوم أدنى من ثلثى ٱليل ونصفه وثلثه وطآئفة من ٱلذين معك  وٱلله يقدر ٱليل وٱلنهار  علم أن لن تحصوه فتاب عليكم  فٱقرءوا ما تيسر من ٱلقرءان  علم أن سيكون منكم مرضى  وءاخرون يضربون فى ٱلأرض يبتغون من فضل ٱلله  وءاخرون يقـتلون فى سبيل ٱلله  فٱقرءوا ما تيسر منه  وأقيموا ٱلصلوة وءاتوا ٱلزكوة وأقرضوا ٱلله قرضا حسنا  وما تقدموا لأنفسكم من خير تجدوه عند ٱلله هو خيرا وأعظم أجرا  وٱستغفروا ٱلله  إن ٱلله غفور رحيم",
     "transliteration": "inna rabbaka yaʿlamu annaka taqūmu adnā min thuluthayi al-layli waniṣ'fahu wathuluthahu waṭāifatun mina alladhīna maʿaka wal-lahu yuqaddiru al-layla wal-nahāra ʿalima an lan tuḥ'ṣūhu fatāba ʿalaykum fa-iq'raū mā tayassara mina l-qur'āni ʿalima an sayakūnu minkum marḍā waākharūna yaḍribūna fī l-arḍi yabtaghūna min faḍli l-lahi waākharūna yuqātilūna fī sabīli l-lahi fa-iq'raū mā tayassara min'hu wa-aqīmū l-ṣalata waātū l-zakata wa-aqriḍū l-laha qarḍan ḥasanan wamā tuqaddimū li-anfusikum min khayrin tajidūhu ʿinda l-lahi huwa khayran wa-aʿẓama ajran wa-is'taghfirū l-laha inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Indeed, your Lord knows, [O Muḥammad], that you stand [in prayer] almost two thirds of the night or half of it or a third of it, and [so do] a group of those with you. And Allāh determines [the extent of] the night and the day. He has known that you [Muslims] will not be able to do it and has turned to you in forgiveness, so recite what is easy [for you] of the Qur’ān. He has known that there will be among you those who are ill and others traveling throughout the land seeking [something] of the bounty of Allāh and others fighting for the cause of Allāh. So recite what is easy from it and establish prayer and give zakāh and loan Allāh a goodly loan. And whatever good you put forward for yourselves - you will find it with Allāh. It is better and greater in reward. And seek forgiveness of Allāh. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-muzzammil-20-1",
@@ -1635,7 +1654,8 @@ export const AL_MUZZAMMIL_AYAHS: Ayah[] = [
         "position": 77
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur Sait que, toi et quelques-uns de ceux qui t’accompagnent, vous vous levez (pour prier) durant les deux tiers, parfois la moitié et parfois le tiers, de la nuit. Or c’est Allah Qui Sait estimer (la durée) de la nuit et du jour. Il Sait que vous ne pourrez passer toute la nuit à prier et vous pardonne. Récitez donc ce que vous pourrez du Coran, car (Allah) Sait que parmi vous il y a des malades, que d’autres ont à parcourir la terre pour quêter les faveurs d’Allah ; que d’autres encore combattent pour la cause d’Allah. Récitez-en donc ce que vous pourrez ! Accomplissez la Çalât ! Acquittez-vous de la Zakât ! Faites à Allah un prêt de bonne volonté ! Tout ce que vous aurez avancé comme bien pour vous-mêmes (en ce bas monde), vous le trouverez bien meilleur auprès d’Allah et bien mieux récompensé. Implorez le pardon d’Allah, car Allah est Absoluteur et Tout Miséricordieux."
   }
 ];
 

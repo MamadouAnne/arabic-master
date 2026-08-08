@@ -11,7 +11,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": " الٓمٓ",
     "textSimple": " الٓمٓ",
     "transliteration": "alif-lam-meem",
-    "translation": "",
+    "translation": "Alif, Lām, Meem.",
     "words": [
       {
         "id": "luqman-1-1",
@@ -21,7 +21,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Mîm."
   },
   {
     "id": "luqman-2",
@@ -30,7 +31,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ ٱلْحَكِيمِ",
     "textSimple": "تلك ءايـت ٱلكتـب ٱلحكيم",
     "transliteration": "til'ka āyātu l-kitābi l-ḥakīmi",
-    "translation": "",
+    "translation": "These are verses of the wise Book,",
     "words": [
       {
         "id": "luqman-2-1",
@@ -61,7 +62,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là les versets du Livre éminemment structuré,"
   },
   {
     "id": "luqman-3",
@@ -70,7 +72,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "هُدًى وَرَحْمَةً لِّلْمُحْسِنِينَ",
     "textSimple": "هدى ورحمة للمحسنين",
     "transliteration": "hudan waraḥmatan lil'muḥ'sinīna",
-    "translation": "",
+    "translation": "As guidance and mercy for the doers of good",
     "words": [
       {
         "id": "luqman-3-1",
@@ -94,7 +96,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "juste direction (hudâ) et miséricorde pour les bienfaiteurs,"
   },
   {
     "id": "luqman-4",
@@ -103,7 +106,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
     "textSimple": "ٱلذين يقيمون ٱلصلوة ويؤتون ٱلزكوة وهم بٱلـٔاخرة هم يوقنون",
     "transliteration": "alladhīna yuqīmūna l-ṣalata wayu'tūna l-zakata wahum bil-ākhirati hum yūqinūna",
-    "translation": "",
+    "translation": "Who establish prayer and give zakāh, and they, of the Hereafter, are certain [in faith].",
     "words": [
       {
         "id": "luqman-4-1",
@@ -169,7 +172,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui accomplissent la Çalât, s’acquittent de la Zakât et qui croient avec certitude à la vie future."
   },
   {
     "id": "luqman-5",
@@ -178,7 +182,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "أولـٓئك على هدى من ربهم  وأولـٓئك هم ٱلمفلحون",
     "transliteration": "ulāika ʿalā hudan min rabbihim wa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "Those are on [right] guidance from their Lord, and it is those who are the successful.",
     "words": [
       {
         "id": "luqman-5-1",
@@ -237,7 +241,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont sur la voie de leur Seigneur, et ceux-là sont ceux qui ont réussi."
   },
   {
     "id": "luqman-6",
@@ -246,7 +251,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
     "textSimple": "ومن ٱلناس من يشترى لهو ٱلحديث ليضل عن سبيل ٱلله بغير علم ويتخذها هزوا  أولـٓئك لهم عذاب مهين",
     "transliteration": "wamina l-nāsi man yashtarī lahwa l-ḥadīthi liyuḍilla ʿan sabīli l-lahi bighayri ʿil'min wayattakhidhahā huzuwan ulāika lahum ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "And of the people is he who buys the amusement of speech to mislead [others] from the way of Allāh without knowledge and who takes it [i.e., His way] in ridicule. Those will have a humiliating punishment.",
     "words": [
       {
         "id": "luqman-6-1",
@@ -375,7 +380,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est parmi les hommes ceux qui acquièrent le plus divertissant des discours, par lesquels ils égarent sans science aucune (leurs semblables) du chemin d’Allah, chemin qu’ils tournent en dérision. Ceux-là seront soumis à un supplice humiliant."
   },
   {
     "id": "luqman-7",
@@ -384,7 +390,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تُتْلَىٰ عَلَيْهِ ءَايَـٰتُنَا وَلَّىٰ مُسْتَكْبِرًا كَأَن لَّمْ يَسْمَعْهَا كَأَنَّ فِىٓ أُذُنَيْهِ وَقْرًا ۖ فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ",
     "textSimple": "وإذا تتلى عليه ءايـتنا ولى مستكبرا كأن لم يسمعها كأن فىٓ أذنيه وقرا  فبشره بعذاب أليم",
     "transliteration": "wa-idhā tut'lā ʿalayhi āyātunā wallā mus'takbiran ka-an lam yasmaʿhā ka-anna fī udhunayhi waqran fabashir'hu biʿadhābin alīmin",
-    "translation": "",
+    "translation": "And when Our verses are recited to him, he turns away arrogantly as if he had not heard them, as if there was in his ears deafness. So give him tidings of a painful punishment.",
     "words": [
       {
         "id": "luqman-7-1",
@@ -499,7 +505,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque Nos versets lui sont récités, (le mécréant) se détourne plein de dédain, tout comme s’il ne les avait pas entendus ou qu’il était dur d’oreille. Annonce-lui donc un supplice très douloureux !"
   },
   {
     "id": "luqman-8",
@@ -508,7 +515,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتُ ٱلنَّعِيمِ",
     "textSimple": "إن ٱلذين ءامنوا وعملوا ٱلصـلحـت لهم جنـت ٱلنعيم",
     "transliteration": "inna alladhīna āmanū waʿamilū l-ṣāliḥāti lahum jannātu l-naʿīmi",
-    "translation": "",
+    "translation": "Indeed, those who believe and do righteous deeds - for them are the Gardens of Pleasure,",
     "words": [
       {
         "id": "luqman-8-1",
@@ -567,7 +574,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru et ont accompli les bonnes œuvres auront (comme récompense) les Jardins des délices,"
   },
   {
     "id": "luqman-9",
@@ -576,7 +584,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "خـلدين فيها  وعد ٱلله حقا  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "khālidīna fīhā waʿda l-lahi ḥaqqan wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Wherein they abide eternally; [it is] the promise of Allāh [which is] truth. And He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "luqman-9-1",
@@ -635,7 +643,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où ils séjourneront pour l’éternité. Telle est véritablement la promesse d’Allah, et c’est Lui le Tout-Puissant, le Sage."
   },
   {
     "id": "luqman-10",
@@ -644,7 +653,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱلسَّمَـٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
     "textSimple": "خلق ٱلسمـوت بغير عمد ترونها  وألقى فى ٱلأرض روسى أن تميد بكم وبث فيها من كل دآبة  وأنزلنا من ٱلسمآء مآء فأنبتنا فيها من كل زوج كريم",
     "transliteration": "khalaqa l-samāwāti bighayri ʿamadin tarawnahā wa-alqā fī l-arḍi rawāsiya an tamīda bikum wabatha fīhā min kulli dābbatin wa-anzalnā mina l-samāi māan fa-anbatnā fīhā min kulli zawjin karīmin",
-    "translation": "",
+    "translation": "He created the heavens without pillars that you see and has cast into the earth firmly set mountains, lest it should shift with you, and dispersed therein from every creature. And We sent down rain from the sky and made grow therein [plants] of every noble kind.",
     "words": [
       {
         "id": "luqman-10-1",
@@ -836,7 +845,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a créé les cieux sans aucune colonne que vous puissiez voir. Il a implanté des montagnes dans la terre pour qu’elle ne meuve pas sous (vos pieds) et Il y a disséminé des bêtes de toutes espèces. Et du ciel, Nous avons fait descendre une eau pour y faire pousser toutes sortes de plantes en couples généreux."
   },
   {
     "id": "luqman-11",
@@ -845,7 +855,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا خَلْقُ ٱللَّهِ فَأَرُونِى مَاذَا خَلَقَ ٱلَّذِينَ مِن دُونِهِۦ ۚ بَلِ ٱلظَّـٰلِمُونَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "هـذا خلق ٱلله فأرونى ماذا خلق ٱلذين من دونه  بل ٱلظـلمون فى ضلـل مبين",
     "transliteration": "hādhā khalqu l-lahi fa-arūnī mādhā khalaqa alladhīna min dūnihi bali l-ẓālimūna fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "This is the creation of Allāh. So show Me what those other than Him have created. Rather, the wrongdoers are in clear error.",
     "words": [
       {
         "id": "luqman-11-1",
@@ -946,7 +956,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la création d’Allah, montrez-moi donc ce qu’ont créé ceux (que vous adorez) en dehors de Lui ? Or les injustes sont dans un égarement manifeste."
   },
   {
     "id": "luqman-12",
@@ -955,7 +966,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا لُقْمَـٰنَ ٱلْحِكْمَةَ أَنِ ٱشْكُرْ لِلَّهِ ۚ وَمَن يَشْكُرْ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
     "textSimple": "ولقد ءاتينا لقمـن ٱلحكمة أن ٱشكر لله  ومن يشكر فإنما يشكر لنفسه  ومن كفر فإن ٱلله غنى حميد",
     "transliteration": "walaqad ātaynā luq'māna l-ḥik'mata ani ush'kur lillahi waman yashkur fa-innamā yashkuru linafsihi waman kafara fa-inna l-laha ghaniyyun ḥamīdun",
-    "translation": "",
+    "translation": "And We had certainly given Luqmān wisdom [and said], \"Be grateful to Allāh.\" And whoever is grateful is grateful for [the benefit of] himself. And whoever denies [His favor] - then indeed, Allāh is Free of need and Praiseworthy.",
     "words": [
       {
         "id": "luqman-12-1",
@@ -1084,7 +1095,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons certes donné à Luqmân la sagesse (en lui enjoignant) : « Rends grâces à Allah, car celui qui Lui rend grâces le fait pour lui-même. Quant à l’ingrat qui méconnaît (les bienfaits d’Allah), (il doit savoir qu’) Allah Se passe (de Toute gratitude) et qu’Il est Digne de Toutes Louanges."
   },
   {
     "id": "luqman-13",
@@ -1093,7 +1105,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ لُقْمَـٰنُ لِٱبْنِهِۦ وَهُوَ يَعِظُهُۥ يَـٰبُنَىَّ لَا تُشْرِكْ بِٱللَّهِ ۖ إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌ",
     "textSimple": "وإذ قال لقمـن لٱبنه وهو يعظه يـبنى لا تشرك بٱلله  إن ٱلشرك لظلم عظيم",
     "transliteration": "wa-idh qāla luq'mānu li-ib'nihi wahuwa yaʿiẓuhu yābunayya lā tush'rik bil-lahi inna l-shir'ka laẓul'mun ʿaẓīmun",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Luqmān said to his son while he was instructing him, \"O my son, do not associate [anything] with Allāh. Indeed, association [with Him] is great injustice.\"",
     "words": [
       {
         "id": "luqman-13-1",
@@ -1194,7 +1206,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) Luqmân lorsqu’il dit à son fils qu’il moralisait : « Mon fils, ne prête pas d’associés à Allah, car l’associâtrie est une énorme injustice. »"
   },
   {
     "id": "luqman-14",
@@ -1203,7 +1216,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حَمَلَتْهُ أُمُّهُۥ وَهْنًا عَلَىٰ وَهْنٍ وَفِصَـٰلُهُۥ فِى عَامَيْنِ أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ",
     "textSimple": "ووصينا ٱلإنسـن بولديه حملته أمه وهنا على وهن وفصـله فى عامين أن ٱشكر لى ولولديك إلى ٱلمصير",
     "transliteration": "wawaṣṣaynā l-insāna biwālidayhi ḥamalathu ummuhu wahnan ʿalā wahnin wafiṣāluhu fī ʿāmayni ani ush'kur lī waliwālidayka ilayya l-maṣīru",
-    "translation": "",
+    "translation": "And We have enjoined upon man [care] for his parents. His mother carried him, [increasing her] in weakness upon weakness, and his weaning is in two years. Be grateful to Me and to your parents; to Me is the [final] destination.",
     "words": [
       {
         "id": "luqman-14-1",
@@ -1325,7 +1338,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons recommandé à l’homme (de bien traiter) ses deux parents : sa mère l’a porté en endurant épuisement après épuisement, et son sevrage n’a lieu qu’au bout de deux ans. Rends- Moi donc grâces, ainsi qu’à tes deux parents. C’est vers Moi qu’est le devenir."
   },
   {
     "id": "luqman-15",
@@ -1334,7 +1348,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن جَـٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "وإن جـهداك علىٓ أن تشرك بى ما ليس لك به علم فلا تطعهما  وصاحبهما فى ٱلدنيا معروفا  وٱتبع سبيل من أناب إلى  ثم إلى مرجعكم فأنبئكم بما كنتم تعملون",
     "transliteration": "wa-in jāhadāka ʿalā an tush'rika bī mā laysa laka bihi ʿil'mun falā tuṭiʿ'humā waṣāḥib'humā fī l-dun'yā maʿrūfan wa-ittabiʿ sabīla man anāba ilayya thumma ilayya marjiʿukum fa-unabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them but accompany them in [this] world with appropriate kindness and follow the way of those who turn back to Me [in repentance]. Then to Me will be your return, and I will inform you about what you used to do.",
     "words": [
       {
         "id": "luqman-15-1",
@@ -1540,7 +1554,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais s’ils essaient de te contraindre à M’associer ce dont tu n’as nulle science, ne leur obéis point. Sois-leur cependant un compagnon de toute bonté en ce bas monde, et suis le chemin de celui qui revient repentant vers Moi. Car c’est vers Moi que sera votre retour, et Je vous informerai alors de ce que vous faisiez."
   },
   {
     "id": "luqman-16",
@@ -1549,7 +1564,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَـٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
     "textSimple": "يـبنى إنهآ إن تك مثقال حبة من خردل فتكن فى صخرة أو فى ٱلسمـوت أو فى ٱلأرض يأت بها ٱلله  إن ٱلله لطيف خبير",
     "transliteration": "yābunayya innahā in taku mith'qāla ḥabbatin min khardalin fatakun fī ṣakhratin aw fī l-samāwāti aw fī l-arḍi yati bihā l-lahu inna l-laha laṭīfun khabīrun",
-    "translation": "",
+    "translation": "[And Luqmān said], \"O my son, indeed if it [i.e., a wrong] should be the weight of a mustard seed and should be within a rock or [anywhere] in the heavens or in the earth, Allāh will bring it forth. Indeed, Allāh is Subtle and Aware.",
     "words": [
       {
         "id": "luqman-16-1",
@@ -1720,7 +1735,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mon fils, (dit encore Luqmân), (la moindre action), fût-elle du poids d’un grain de moutarde, enfouie dans quelque rocher, dans les cieux ou sur terre, Allah l’exposera (au Jour de la Résurrection). Allah est Subtil et parfaitement Informé."
   },
   {
     "id": "luqman-17",
@@ -1729,7 +1745,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
     "textSimple": "يـبنى أقم ٱلصلوة وأمر بٱلمعروف وٱنه عن ٱلمنكر وٱصبر على مآ أصابك  إن ذلك من عزم ٱلأمور",
     "transliteration": "yābunayya aqimi l-ṣalata wamur bil-maʿrūfi wa-in'ha ʿani l-munkari wa-iṣ'bir ʿalā mā aṣābaka inna dhālika min ʿazmi l-umūri",
-    "translation": "",
+    "translation": "O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] resolve.",
     "words": [
       {
         "id": "luqman-17-1",
@@ -1851,7 +1867,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mon fils, accomplis la Çalât ! Enjoins ce qui est convenable et interdis ce qui est condamnable ! Prends ton mal en patience ! Voilà bien la résolution (à prendre)."
   },
   {
     "id": "luqman-18",
@@ -1860,7 +1877,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
     "textSimple": "ولا تصعر خدك للناس ولا تمش فى ٱلأرض مرحا  إن ٱلله لا يحب كل مختال فخور",
     "transliteration": "walā tuṣaʿʿir khaddaka lilnnāsi walā tamshi fī l-arḍi maraḥan inna l-laha lā yuḥibbu kulla mukh'tālin fakhūrin",
-    "translation": "",
+    "translation": "And do not turn your cheek [in contempt] toward people and do not walk through the earth exultantly. Indeed, Allāh does not like everyone self-deluded and boastful.",
     "words": [
       {
         "id": "luqman-18-1",
@@ -1975,7 +1992,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne détourne pas ton visage (avec dédain) devant les autres et ne te pavane pas sur terre avec suffisance ! Allah n’aime pas tout vaniteux imbu de lui-même."
   },
   {
     "id": "luqman-19",
@@ -1984,7 +2002,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
     "textSimple": "وٱقصد فى مشيك وٱغضض من صوتك  إن أنكر ٱلأصوت لصوت ٱلحمير",
     "transliteration": "wa-iq'ṣid fī mashyika wa-ugh'ḍuḍ min ṣawtika inna ankara l-aṣwāti laṣawtu l-ḥamīri",
-    "translation": "",
+    "translation": "And be moderate in your pace and lower your voice; indeed, the most disagreeable of sounds is the voice of donkeys.\"",
     "words": [
       {
         "id": "luqman-19-1",
@@ -2064,7 +2082,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sois sans prétention dans ta démarche ! Baisse ta voix car la plus exécrable des voix est bien celle des ânes ! »"
   },
   {
     "id": "luqman-20",
@@ -2073,7 +2092,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَوْا۟ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُۥ ظَـٰهِرَةً وَبَاطِنَةً ۗ وَمِنَ ٱلنَّاسِ مَن يُجَـٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍ وَلَا هُدًى وَلَا كِتَـٰبٍ مُّنِيرٍ",
     "textSimple": "ألم تروا أن ٱلله سخر لكم ما فى ٱلسمـوت وما فى ٱلأرض وأسبغ عليكم نعمه ظـهرة وباطنة  ومن ٱلناس من يجـدل فى ٱلله بغير علم ولا هدى ولا كتـب منير",
     "transliteration": "alam taraw anna l-laha sakhara lakum mā fī l-samāwāti wamā fī l-arḍi wa-asbagha ʿalaykum niʿamahu ẓāhiratan wabāṭinatan wamina l-nāsi man yujādilu fī l-lahi bighayri ʿil'min walā hudan walā kitābin munīrin",
-    "translation": "",
+    "translation": "Do you not see that Allāh has made subject to you whatever is in the heavens and whatever is in the earth and amply bestowed upon you His favors, [both] apparent and unapparent? But of the people is he who disputes about Allāh without knowledge or guidance or an enlightening Book [from Him].",
     "words": [
       {
         "id": "luqman-20-1",
@@ -2286,7 +2305,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voyez-vous donc pas qu’Allah a mis (à votre service) ce qui est dans les cieux et sur terre et qu’Il répand sur vous Ses bienfaits patents et latents ? Il est des hommes qui disputent au sujet d’Allah sans aucune science, ni juste direction ni Livre pour les éclairer."
   },
   {
     "id": "luqman-21",
@@ -2295,7 +2315,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ ءَابَآءَنَآ ۚ أَوَلَوْ كَانَ ٱلشَّيْطَـٰنُ يَدْعُوهُمْ إِلَىٰ عَذَابِ ٱلسَّعِيرِ",
     "textSimple": "وإذا قيل لهم ٱتبعوا مآ أنزل ٱلله قالوا بل نتبع ما وجدنا عليه ءابآءنآ  أولو كان ٱلشيطـن يدعوهم إلى عذاب ٱلسعير",
     "transliteration": "wa-idhā qīla lahumu ittabiʿū mā anzala l-lahu qālū bal nattabiʿu mā wajadnā ʿalayhi ābāanā awalaw kāna l-shayṭānu yadʿūhum ilā ʿadhābi l-saʿīri",
-    "translation": "",
+    "translation": "And when it is said to them, \"Follow what Allāh has revealed,\" they say, \"Rather, we will follow that upon which we found our fathers.\" Even if Satan was inviting them to the punishment of the Blaze?",
     "words": [
       {
         "id": "luqman-21-1",
@@ -2445,7 +2465,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est dit : « Suivez donc ce qu’Allah a fait descendre (en révélation) ! » ils répliquent : « Nous suivrons plutôt ce que nous avons trouvé chez nos ancêtres. » Et cela même si Satan les appelait au supplice de la Fournaise ?"
   },
   {
     "id": "luqman-22",
@@ -2454,7 +2475,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ ۗ وَإِلَى ٱللَّهِ عَـٰقِبَةُ ٱلْأُمُورِ",
     "textSimple": " ومن يسلم وجههٓ إلى ٱلله وهو محسن فقد ٱستمسك بٱلعروة ٱلوثقى  وإلى ٱلله عـقبة ٱلأمور",
     "transliteration": "waman yus'lim wajhahu ilā l-lahi wahuwa muḥ'sinun faqadi is'tamsaka bil-ʿur'wati l-wuth'qā wa-ilā l-lahi ʿāqibatu l-umūri",
-    "translation": "",
+    "translation": "And whoever submits his face [i.e., self] to Allāh while he is a doer of good - then he has grasped the most trustworthy handhold. And to Allāh will be the outcome of [all] matters.",
     "words": [
       {
         "id": "luqman-22-1",
@@ -2562,7 +2583,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui se soumet entièrement à Allah, en s’employant à faire le bien, aura fermement saisi l’anse la plus solide. C’est à Allah que revient l’issue de Toute chose."
   },
   {
     "id": "luqman-23",
@@ -2571,7 +2593,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن كَفَرَ فَلَا يَحْزُنكَ كُفْرُهُۥٓ ۚ إِلَيْنَا مَرْجِعُهُمْ فَنُنَبِّئُهُم بِمَا عَمِلُوٓا۟ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "ومن كفر فلا يحزنك كفرهٓ  إلينا مرجعهم فننبئهم بما عملوٓا  إن ٱلله عليم بذات ٱلصدور",
     "transliteration": "waman kafara falā yaḥzunka kuf'ruhu ilaynā marjiʿuhum fanunabbi-uhum bimā ʿamilū inna l-laha ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "And whoever has disbelieved - let not his disbelief grieve you. To Us is their return, and We will inform them of what they did. Indeed, Allāh is Knowing of that within the breasts.",
     "words": [
       {
         "id": "luqman-23-1",
@@ -2679,7 +2701,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que la mécréance de ceux qui ont mécru ne t’afflige point ! C’est vers Nous que sera leur retour, et Nous les informerons alors de ce qu’ils auront fait. Allah Sait parfaitement ce qu’il y a tout au fond des cœurs."
   },
   {
     "id": "luqman-24",
@@ -2688,7 +2711,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "نُمَتِّعُهُمْ قَلِيلًا ثُمَّ نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ غَلِيظٍ",
     "textSimple": "نمتعهم قليلا ثم نضطرهم إلى عذاب غليظ",
     "transliteration": "numattiʿuhum qalīlan thumma naḍṭarruhum ilā ʿadhābin ghalīẓin",
-    "translation": "",
+    "translation": "We grant them enjoyment for a little; then We will force them to a massive punishment.",
     "words": [
       {
         "id": "luqman-24-1",
@@ -2740,7 +2763,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les faisons jouir des biens de ce monde pour quelque temps puis Nous les astreindrons à un supplice terrifiant."
   },
   {
     "id": "luqman-25",
@@ -2749,7 +2773,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
     "textSimple": "ولئن سألتهم من خلق ٱلسمـوت وٱلأرض ليقولن ٱلله  قل ٱلحمد لله  بل أكثرهم لا يعلمون",
     "transliteration": "wala-in sa-altahum man khalaqa l-samāwāti wal-arḍa layaqūlunna l-lahu quli l-ḥamdu lillahi bal aktharuhum lā yaʿlamūna",
-    "translation": "",
+    "translation": "And if you asked them, \"Who created the heavens and earth?\" they would surely say, \"Allāh.\" Say, \"[All] praise is [due] to Allāh\"; but most of them do not know.",
     "words": [
       {
         "id": "luqman-25-1",
@@ -2857,7 +2881,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu leur demandais : « Qui a créé les cieux et la terre ? » ils répondraient certainement : « Allah ! » Dis : « Louange donc à Allah ! » Or la plupart d’entre eux n’en savent rien."
   },
   {
     "id": "luqman-26",
@@ -2866,7 +2891,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
     "textSimple": "لله ما فى ٱلسمـوت وٱلأرض  إن ٱلله هو ٱلغنى ٱلحميد",
     "transliteration": "lillahi mā fī l-samāwāti wal-arḍi inna l-laha huwa l-ghaniyu l-ḥamīdu",
-    "translation": "",
+    "translation": "To Allāh belongs whatever is in the heavens and earth. Indeed, Allāh is the Free of need, the Praiseworthy.",
     "words": [
       {
         "id": "luqman-26-1",
@@ -2939,7 +2964,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Allah appartient tout ce qui est dans les cieux et sur terre. Allah est Celui Qui se passe de toute chose, et Il est Digne de Toute Louange."
   },
   {
     "id": "luqman-27",
@@ -2948,7 +2974,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّمَا فِى ٱلْأَرْضِ مِن شَجَرَةٍ أَقْلَـٰمٌ وَٱلْبَحْرُ يَمُدُّهُۥ مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍ مَّا نَفِدَتْ كَلِمَـٰتُ ٱللَّهِ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
     "textSimple": "ولو أنما فى ٱلأرض من شجرة أقلـم وٱلبحر يمده من بعده سبعة أبحر ما نفدت كلمـت ٱلله  إن ٱلله عزيز حكيم",
     "transliteration": "walaw annamā fī l-arḍi min shajaratin aqlāmun wal-baḥru yamudduhu min baʿdihi sabʿatu abḥurin mā nafidat kalimātu l-lahi inna l-laha ʿazīzun ḥakīmun",
-    "translation": "",
+    "translation": "And if whatever trees upon the earth were pens and the sea [was ink], replenished thereafter by seven [more] seas, the words of Allāh would not be exhausted. Indeed, Allāh is Exalted in Might and Wise.",
     "words": [
       {
         "id": "luqman-27-1",
@@ -3098,7 +3124,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Même si tous les arbres de la terre étaient autant de calames, et qu’à la mer s’ajoutaient sept autres mers pour en être l’encre, les paroles d’Allah ne s’épuiseraient point. Car Allah est Tout- Puissant et Sage."
   },
   {
     "id": "luqman-28",
@@ -3107,7 +3134,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "مَّا خَلْقُكُمْ وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍ وَٰحِدَةٍ ۗ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
     "textSimple": "ما خلقكم ولا بعثكم إلا كنفس وحدة  إن ٱلله سميع بصير",
     "transliteration": "mā khalqukum walā baʿthukum illā kanafsin wāḥidatin inna l-laha samīʿun baṣīrun",
-    "translation": "",
+    "translation": "Your creation and your resurrection will not be but as that of a single soul. Indeed, Allāh is Hearing and Seeing.",
     "words": [
       {
         "id": "luqman-28-1",
@@ -3187,7 +3214,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre création et votre résurrection sont (aussi aisées que) celles d’une seule âme. Allah Entend Tout et Voit Tout."
   },
   {
     "id": "luqman-29",
@@ -3196,7 +3224,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِىٓ إِلَىٰٓ أَجَلٍ مُّسَمًّى وَأَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ خَبِيرٌ",
     "textSimple": "ألم تر أن ٱلله يولج ٱليل فى ٱلنهار ويولج ٱلنهار فى ٱليل وسخر ٱلشمس وٱلقمر كل يجرىٓ إلىٓ أجل مسمى وأن ٱلله بما تعملون خبير",
     "transliteration": "alam tara anna l-laha yūliju al-layla fī l-nahāri wayūliju l-nahāra fī al-layli wasakhara l-shamsa wal-qamara kullun yajrī ilā ajalin musamman wa-anna l-laha bimā taʿmalūna khabīrun",
-    "translation": "",
+    "translation": "Do you not see [i.e., know] that Allāh causes the night to enter the day and causes the day to enter the night and has subjected the sun and the moon, each running [its course] for a specified term, and that Allāh, of whatever you do, is Aware?",
     "words": [
       {
         "id": "luqman-29-1",
@@ -3374,7 +3402,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’Allah fait entrer la nuit dans le jour et qu’Il fait entrer le jour dans la nuit, qu’Il a soumis le soleil et la lune, tous les deux poursuivant leur course vers un terme déjà nommé, et qu’Allah est, de tout ce que vous faites, parfaitement Informé ?"
   },
   {
     "id": "luqman-30",
@@ -3383,7 +3412,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ ٱلْبَـٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ",
     "textSimple": "ذلك بأن ٱلله هو ٱلحق وأن ما يدعون من دونه ٱلبـطل وأن ٱلله هو ٱلعلى ٱلكبير",
     "transliteration": "dhālika bi-anna l-laha huwa l-ḥaqu wa-anna mā yadʿūna min dūnihi l-bāṭilu wa-anna l-laha huwa l-ʿaliyu l-kabīru",
-    "translation": "",
+    "translation": "That is because Allāh is the True Reality, and that what they call upon other than Him is falsehood, and because Allāh is the Most High, the Grand.",
     "words": [
       {
         "id": "luqman-30-1",
@@ -3498,7 +3527,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce qu’Allah est la Vérité, que ce qu’ils invoquent en dehors de Lui n’est que mensonge, et qu’Allah est le Très Haut, le Très Grand."
   },
   {
     "id": "luqman-31",
@@ -3507,7 +3537,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِنِعْمَتِ ٱللَّهِ لِيُرِيَكُم مِّنْ ءَايَـٰتِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
     "textSimple": "ألم تر أن ٱلفلك تجرى فى ٱلبحر بنعمت ٱلله ليريكم من ءايـتهٓ  إن فى ذلك لـٔايـت لكل صبار شكور",
     "transliteration": "alam tara anna l-ful'ka tajrī fī l-baḥri biniʿ'mati l-lahi liyuriyakum min āyātihi inna fī dhālika laāyātin likulli ṣabbārin shakūrin",
-    "translation": "",
+    "translation": "Do you not see that ships sail through the sea by the favor of Allāh that He may show you of His signs? Indeed in that are signs for everyone patient and grateful.",
     "words": [
       {
         "id": "luqman-31-1",
@@ -3643,7 +3673,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas que les vaisseaux voguent en haute mer par la grâce d’Allah, Qui veut vous montrer certains de Ses prodiges ? Il y a certes là des Signes pour tout homme patient à la peine et reconnaissant."
   },
   {
     "id": "luqman-32",
@@ -3652,7 +3683,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
     "textSimple": "وإذا غشيهم موج كٱلظلل دعوا ٱلله مخلصين له ٱلدين فلما نجىهم إلى ٱلبر فمنهم مقتصد  وما يجحد بـٔايـتنآ إلا كل ختار كفور",
     "transliteration": "wa-idhā ghashiyahum mawjun kal-ẓulali daʿawū l-laha mukh'liṣīna lahu l-dīna falammā najjāhum ilā l-bari famin'hum muq'taṣidun wamā yajḥadu biāyātinā illā kullu khattārin kafūrin",
-    "translation": "",
+    "translation": "And when waves come over them like canopies, they supplicate Allāh, sincere to Him in religion [i.e., faith]. But when He delivers them to the land, there are [some] of them who are moderate [in faith]. And none rejects Our signs except everyone treacherous and ungrateful.",
     "words": [
       {
         "id": "luqman-32-1",
@@ -3809,7 +3840,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une vague les envahit-elle, aussi noire que l’ombre, que les voilà à implorer Allah et à L’invoquer en Lui vouant un culte sincère. Mais quand Il les ramène sains et saufs à la terre ferme, certains d’entre eux se montrent moins zélés. Seul méconnaît Nos Signes le traître plein d’ingratitude."
   },
   {
     "id": "luqman-33",
@@ -3818,7 +3850,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمْ وَٱخْشَوْا۟ يَوْمًا لَّا يَجْزِى وَالِدٌ عَن وَلَدِهِۦ وَلَا مَوْلُودٌ هُوَ جَازٍ عَن وَالِدِهِۦ شَيْـًٔا ۚ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ فَلَا تَغُرَّنَّكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَلَا يَغُرَّنَّكُم بِٱللَّهِ ٱلْغَرُورُ",
     "textSimple": "يـٓأيها ٱلناس ٱتقوا ربكم وٱخشوا يوما لا يجزى والد عن ولده ولا مولود هو جاز عن والده شيـٔا  إن وعد ٱلله حق  فلا تغرنكم ٱلحيوة ٱلدنيا ولا يغرنكم بٱلله ٱلغرور",
     "transliteration": "yāayyuhā l-nāsu ittaqū rabbakum wa-ikh'shaw yawman lā yajzī wālidun ʿan waladihi walā mawlūdun huwa jāzin ʿan wālidihi shayan inna waʿda l-lahi ḥaqqun falā taghurrannakumu l-ḥayatu l-dun'yā walā yaghurrannakum bil-lahi l-gharūru",
-    "translation": "",
+    "translation": "O mankind, fear your Lord and fear a Day when no father will avail his son, nor will a son avail his father at all. Indeed, the promise of Allāh is truth, so let not the worldly life delude you and be not deceived about Allāh by the Deceiver [i.e., Satan].",
     "words": [
       {
         "id": "luqman-33-1",
@@ -4031,7 +4063,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Craignez votre Seigneur ! Redoutez un jour où le père ne pourra racheter son enfant, ni l’enfant racheter son père. La promesse d’Allah est pure vérité. Que la vie en ce bas monde ne vous séduise pas, et que ne vous abuse point au sujet d’Allah (Satan) le suborneur !"
   },
   {
     "id": "luqman-34",
@@ -4040,7 +4073,7 @@ export const LUQMAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
     "textSimple": "إن ٱلله عنده علم ٱلساعة وينزل ٱلغيث ويعلم ما فى ٱلأرحام  وما تدرى نفس ماذا تكسب غدا  وما تدرى نفس بأى أرض تموت  إن ٱلله عليم خبير",
     "transliteration": "inna l-laha ʿindahu ʿil'mu l-sāʿati wayunazzilu l-ghaytha wayaʿlamu mā fī l-arḥāmi wamā tadrī nafsun mādhā taksibu ghadan wamā tadrī nafsun bi-ayyi arḍin tamūtu inna l-laha ʿalīmun khabīrun",
-    "translation": "",
+    "translation": "Indeed, Allāh [alone] has knowledge of the Hour and sends down the rain and knows what is in the wombs. And no soul perceives what it will earn tomorrow, and no soul perceives in what land it will die. Indeed, Allāh is Knowing and Aware.",
     "words": [
       {
         "id": "luqman-34-1",
@@ -4232,7 +4265,8 @@ export const LUQMAN_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah détient la science de l’Heure. C’est Lui Qui fait descendre la pluie bénéfique, et Sait ce qu’il y a dans les matrices. Nulle âme ne sait ce qu’elle pourra acquérir demain et nulle âme ne sait en quelle terre elle mourra. Allah est certes Omniscient et parfaitement Informé."
   }
 ];
 

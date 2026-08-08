@@ -11,7 +11,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمْ ۚ إِنَّ زَلْزَلَةَ ٱلسَّاعَةِ شَىْءٌ عَظِيمٌ",
     "textSimple": " يـٓأيها ٱلناس ٱتقوا ربكم  إن زلزلة ٱلساعة شىء عظيم",
     "transliteration": "yāayyuhā l-nāsu ittaqū rabbakum inna zalzalata l-sāʿati shayon ʿaẓīmun",
-    "translation": "",
+    "translation": "O mankind, fear your Lord. Indeed, the convulsion of the [final] Hour is a terrible thing.",
     "words": [
       {
         "id": "al-hajj-1-1",
@@ -77,7 +77,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Craignez votre Seigneur. Le séisme de l’Heure est quelque chose de terrifiant."
   },
   {
     "id": "al-hajj-2",
@@ -86,7 +87,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّآ أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى ٱلنَّاسَ سُكَـٰرَىٰ وَمَا هُم بِسُكَـٰرَىٰ وَلَـٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٌ",
     "textSimple": "يوم ترونها تذهل كل مرضعة عمآ أرضعت وتضع كل ذات حمل حملها وترى ٱلناس سكـرى وما هم بسكـرى ولـكن عذاب ٱلله شديد",
     "transliteration": "yawma tarawnahā tadhhalu kullu mur'ḍiʿatin ʿammā arḍaʿat wataḍaʿu kullu dhāti ḥamlin ḥamlahā watarā l-nāsa sukārā wamā hum bisukārā walākinna ʿadhāba l-lahi shadīdun",
-    "translation": "",
+    "translation": "On the Day you see it every nursing mother will be distracted from that [child] she was nursing, and every pregnant woman will abort her pregnancy, and you will see the people [appearing] intoxicated while they are not intoxicated; but the punishment of Allāh is severe.",
     "words": [
       {
         "id": "al-hajj-2-1",
@@ -243,7 +244,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où vous le verrez, toute nourrice oubliera le (nourrisson) qu’elle allaitait ; toute femme enceinte accouchera de ce qu’elle portait. Et tu verras les hommes ivres bien que n’étant pas ivres, car le supplice d’Allah est vraiment très dur."
   },
   {
     "id": "al-hajj-3",
@@ -252,7 +254,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يُجَـٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّبِعُ كُلَّ شَيْطَـٰنٍ مَّرِيدٍ",
     "textSimple": "ومن ٱلناس من يجـدل فى ٱلله بغير علم ويتبع كل شيطـن مريد",
     "transliteration": "wamina l-nāsi man yujādilu fī l-lahi bighayri ʿil'min wayattabiʿu kulla shayṭānin marīdin",
-    "translation": "",
+    "translation": "And of the people is he who disputes about Allāh without knowledge and follows every rebellious devil.",
     "words": [
       {
         "id": "al-hajj-3-1",
@@ -339,7 +341,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est, parmi les hommes, qui disputent d’Allah sans science aucune, et qui suivent tout démon rebelle."
   },
   {
     "id": "al-hajj-4",
@@ -348,7 +351,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ",
     "textSimple": "كتب عليه أنه من تولاه فأنه يضله ويهديه إلى عذاب ٱلسعير",
     "transliteration": "kutiba ʿalayhi annahu man tawallāhu fa-annahu yuḍilluhu wayahdīhi ilā ʿadhābi l-saʿīri",
-    "translation": "",
+    "translation": "It has been decreed for him [i.e., every devil] that whoever turns to him - he will misguide him and will lead him to the punishment of the Blaze.",
     "words": [
       {
         "id": "al-hajj-4-1",
@@ -428,7 +431,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a été écrit à propos de (Satan) qu’il Egarerait quiconque l’aurait pris pour allié et qu’il le conduirait tout droit au supplice du Brasier."
   },
   {
     "id": "al-hajj-5",
@@ -437,7 +441,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَـٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
     "textSimple": "يـٓأيها ٱلناس إن كنتم فى ريب من ٱلبعث فإنا خلقنـكم من تراب ثم من نطفة ثم من علقة ثم من مضغة مخلقة وغير مخلقة لنبين لكم  ونقر فى ٱلأرحام ما نشآء إلىٓ أجل مسمى ثم نخرجكم طفلا ثم لتبلغوٓا أشدكم  ومنكم من يتوفى ومنكم من يرد إلىٓ أرذل ٱلعمر لكيلا يعلم من بعد علم شيـٔا  وترى ٱلأرض هامدة فإذآ أنزلنا عليها ٱلمآء ٱهتزت وربت وأنبتت من كل زوج بهيج",
     "transliteration": "yāayyuhā l-nāsu in kuntum fī raybin mina l-baʿthi fa-innā khalaqnākum min turābin thumma min nuṭ'fatin thumma min ʿalaqatin thumma min muḍ'ghatin mukhallaqatin waghayri mukhallaqatin linubayyina lakum wanuqirru fī l-arḥāmi mā nashāu ilā ajalin musamman thumma nukh'rijukum ṭif'lan thumma litablughū ashuddakum waminkum man yutawaffā waminkum man yuraddu ilā ardhali l-ʿumuri likaylā yaʿlama min baʿdi ʿil'min shayan watarā l-arḍa hāmidatan fa-idhā anzalnā ʿalayhā l-māa ih'tazzat warabat wa-anbatat min kulli zawjin bahījin",
-    "translation": "",
+    "translation": "O people, if you should be in doubt about the Resurrection, then [consider that] indeed, We created you from dust, then from a sperm-drop, then from a clinging clot, and then from a lump of flesh, formed and unformed - that We may show you. And We settle in the wombs whom We will for a specified term, then We bring you out as a child, and then [We develop you] that you may reach your [time of] maturity. And among you is he who is taken in [early] death, and among you is he who is returned to the most decrepit [old] age so that he knows, after [once having] knowledge, nothing. And you see the earth barren, but when We send down upon it rain, it quivers and swells and grows [something] of every beautiful kind.",
     "words": [
       {
         "id": "al-hajj-5-1",
@@ -923,7 +927,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 68
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Si vous êtes dans le doute au sujet de la Résurrection, (sachez que) Nous vous avons créés de terre, puis d’une goutte de sperme, puis d’un grumeau de sang, puis d’une masse de chair complètement formée ou sans forme, (cela) pour vous montrer (Notre pouvoir). Nous laissons dans les matrices ce qui Nous plaît jusqu’à un terme déjà nommé, puis Nous vous faisons sortir (sous la forme d’un) enfant, pour que, par la suite, vous atteigniez la force de l’âge. Les uns parmi vous meurent (jeunes), d’autres atteignent le plus décrépit des âges et qui ne sauront plus rien après avoir tant su. Tu vois bien que, desséchée et inerte, la terre bouge, se gonfle et fait pousser de toutes les espèces de végétaux exubérants, dès que Nous y faisons descendre l’eau."
   },
   {
     "id": "al-hajj-6",
@@ -932,7 +937,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّهُۥ يُحْىِ ٱلْمَوْتَىٰ وَأَنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "ذلك بأن ٱلله هو ٱلحق وأنه يحى ٱلموتى وأنه على كل شىء قدير",
     "transliteration": "dhālika bi-anna l-laha huwa l-ḥaqu wa-annahu yuḥ'yī l-mawtā wa-annahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "That is because Allāh is the True Reality and because He gives life to the dead and because He is over all things competent",
     "words": [
       {
         "id": "al-hajj-6-1",
@@ -1026,7 +1031,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce qu’Allah est la Vérité, qu’Il fait revivre les morts et qu’Il est de Toute chose Infiniment Capable,"
   },
   {
     "id": "al-hajj-7",
@@ -1035,7 +1041,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ ٱلسَّاعَةَ ءَاتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ ٱللَّهَ يَبْعَثُ مَن فِى ٱلْقُبُورِ",
     "textSimple": "وأن ٱلساعة ءاتية لا ريب فيها وأن ٱلله يبعث من فى ٱلقبور",
     "transliteration": "wa-anna l-sāʿata ātiyatun lā rayba fīhā wa-anna l-laha yabʿathu man fī l-qubūri",
-    "translation": "",
+    "translation": "And [that they may know] that the Hour is coming - no doubt about it - and that Allāh will resurrect those in the graves.",
     "words": [
       {
         "id": "al-hajj-7-1",
@@ -1122,7 +1128,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que l’Heure viendra sans aucun doute, et qu’Allah ressuscitera ceux qui se trouvent dans les tombes."
   },
   {
     "id": "al-hajj-8",
@@ -1131,7 +1138,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يُجَـٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍ وَلَا هُدًى وَلَا كِتَـٰبٍ مُّنِيرٍ",
     "textSimple": "ومن ٱلناس من يجـدل فى ٱلله بغير علم ولا هدى ولا كتـب منير",
     "transliteration": "wamina l-nāsi man yujādilu fī l-lahi bighayri ʿil'min walā hudan walā kitābin munīrin",
-    "translation": "",
+    "translation": "And of the people is he who disputes about Allāh without knowledge or guidance or an enlightening book [from Him],",
     "words": [
       {
         "id": "al-hajj-8-1",
@@ -1225,7 +1232,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en est qui, parmi les hommes, dispute d’Allah sans science aucune, ni direction (hudâ), ni Livre qui puisse l’éclairer."
   },
   {
     "id": "al-hajj-9",
@@ -1234,7 +1242,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ثَانِىَ عِطْفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ ۖ لَهُۥ فِى ٱلدُّنْيَا خِزْىٌ ۖ وَنُذِيقُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ عَذَابَ ٱلْحَرِيقِ",
     "textSimple": "ثانى عطفه ليضل عن سبيل ٱلله  له فى ٱلدنيا خزى  ونذيقه يوم ٱلقيـمة عذاب ٱلحريق",
     "transliteration": "thāniya ʿiṭ'fihi liyuḍilla ʿan sabīli l-lahi lahu fī l-dun'yā khiz'yun wanudhīquhu yawma l-qiyāmati ʿadhāba l-ḥarīqi",
-    "translation": "",
+    "translation": "Twisting his neck [in arrogance] to mislead [people] from the way of Allāh. For him in the world is disgrace, and We will make him taste on the Day of Resurrection the punishment of the Burning Fire [while it is said],",
     "words": [
       {
         "id": "al-hajj-9-1",
@@ -1342,7 +1350,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Celui-là) détourne la tête d’un air de supériorité pour égarer (les autres) de la voie d’Allah. Il sera marqué d’infamie en ce bas monde, et Nous lui ferons goûter, au Jour de la Résurrection, le supplice de la Fournaise."
   },
   {
     "id": "al-hajj-10",
@@ -1351,7 +1360,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِمَا قَدَّمَتْ يَدَاكَ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّـٰمٍ لِّلْعَبِيدِ",
     "textSimple": "ذلك بما قدمت يداك وأن ٱلله ليس بظلـم للعبيد",
     "transliteration": "dhālika bimā qaddamat yadāka wa-anna l-laha laysa biẓallāmin lil'ʿabīdi",
-    "translation": "",
+    "translation": "\"That is for what your hands have put forth and because Allāh is not ever unjust to [His] servants.\"",
     "words": [
       {
         "id": "al-hajj-10-1",
@@ -1417,7 +1426,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, (en rétribution) pour ce que tes deux mains ont accompli à l’avance, car Allah ne saurait être injuste envers Ses serviteurs."
   },
   {
     "id": "al-hajj-11",
@@ -1426,7 +1436,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلنَّاسِ مَن يَعْبُدُ ٱللَّهَ عَلَىٰ حَرْفٍ ۖ فَإِنْ أَصَابَهُۥ خَيْرٌ ٱطْمَأَنَّ بِهِۦ ۖ وَإِنْ أَصَابَتْهُ فِتْنَةٌ ٱنقَلَبَ عَلَىٰ وَجْهِهِۦ خَسِرَ ٱلدُّنْيَا وَٱلْـَٔاخِرَةَ ۚ ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ",
     "textSimple": "ومن ٱلناس من يعبد ٱلله على حرف  فإن أصابه خير ٱطمأن به  وإن أصابته فتنة ٱنقلب على وجهه خسر ٱلدنيا وٱلـٔاخرة  ذلك هو ٱلخسران ٱلمبين",
     "transliteration": "wamina l-nāsi man yaʿbudu l-laha ʿalā ḥarfin fa-in aṣābahu khayrun iṭ'ma-anna bihi wa-in aṣābathu fit'natun inqalaba ʿalā wajhihi khasira l-dun'yā wal-ākhirata dhālika huwa l-khus'rānu l-mubīnu",
-    "translation": "",
+    "translation": "And of the people is he who worships Allāh on an edge. If he is touched by good, he is reassured by it; but if he is struck by trial, he turns on his face [to unbelief]. He has lost [this] world and the Hereafter. That is what is the manifest loss.",
     "words": [
       {
         "id": "al-hajj-11-1",
@@ -1604,7 +1614,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il en est qui, parmi les hommes, adore Allah avec réticence. S’il lui arrive un bien, il en est rassuré, et s’il est soumis à quelque épreuve, voilà qu’il détourne son visage. Il aura ainsi perdu le bas monde et l’autre monde. Voilà la perte évidente !"
   },
   {
     "id": "al-hajj-12",
@@ -1613,7 +1624,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَدْعُوا۟ مِن دُونِ ٱللَّهِ مَا لَا يَضُرُّهُۥ وَمَا لَا يَنفَعُهُۥ ۚ ذَٰلِكَ هُوَ ٱلضَّلَـٰلُ ٱلْبَعِيدُ",
     "textSimple": "يدعوا من دون ٱلله ما لا يضره وما لا ينفعه  ذلك هو ٱلضلـل ٱلبعيد",
     "transliteration": "yadʿū min dūni l-lahi mā lā yaḍurruhu wamā lā yanfaʿuhu dhālika huwa l-ḍalālu l-baʿīdu",
-    "translation": "",
+    "translation": "He invokes instead of Allāh that which neither harms him nor benefits him. That is what is the extreme error.",
     "words": [
       {
         "id": "al-hajj-12-1",
@@ -1714,7 +1725,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il invoque en dehors d’Allah ce qui ne peut ni lui nuire ni lui profiter : voilà l’égarement extrême !"
   },
   {
     "id": "al-hajj-13",
@@ -1723,7 +1735,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَدْعُوا۟ لَمَن ضَرُّهُۥٓ أَقْرَبُ مِن نَّفْعِهِۦ ۚ لَبِئْسَ ٱلْمَوْلَىٰ وَلَبِئْسَ ٱلْعَشِيرُ",
     "textSimple": "يدعوا لمن ضرهٓ أقرب من نفعه  لبئس ٱلمولى ولبئس ٱلعشير",
     "transliteration": "yadʿū laman ḍarruhu aqrabu min nafʿihi labi'sa l-mawlā walabi'sa l-ʿashīru",
-    "translation": "",
+    "translation": "He invokes one whose harm is closer than his benefit - how wretched the protector and how wretched the associate.",
     "words": [
       {
         "id": "al-hajj-13-1",
@@ -1796,7 +1808,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il invoque celui qui est plus nuisible que favorable. Quel piètre allié et quel triste compère !"
   },
   {
     "id": "al-hajj-14",
@@ -1805,7 +1818,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ إِنَّ ٱللَّهَ يَفْعَلُ مَا يُرِيدُ",
     "textSimple": "إن ٱلله يدخل ٱلذين ءامنوا وعملوا ٱلصـلحـت جنـت تجرى من تحتها ٱلأنهـر  إن ٱلله يفعل ما يريد",
     "transliteration": "inna l-laha yud'khilu alladhīna āmanū waʿamilū l-ṣāliḥāti jannātin tajrī min taḥtihā l-anhāru inna l-laha yafʿalu mā yurīdu",
-    "translation": "",
+    "translation": "Indeed, Allāh will admit those who believe and do righteous deeds to gardens beneath which rivers flow. Indeed, Allāh does what He intends.",
     "words": [
       {
         "id": "al-hajj-14-1",
@@ -1927,7 +1940,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah fait entrer ceux qui ont cru et ont accompli les bonnes œuvres dans des jardins sous lesquels coulent les rivières. Allah, en effet, fait ce qu’il veut."
   },
   {
     "id": "al-hajj-15",
@@ -1936,7 +1950,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ",
     "textSimple": "من كان يظن أن لن ينصره ٱلله فى ٱلدنيا وٱلـٔاخرة فليمدد بسبب إلى ٱلسمآء ثم ليقطع فلينظر هل يذهبن كيده ما يغيظ",
     "transliteration": "man kāna yaẓunnu an lan yanṣurahu l-lahu fī l-dun'yā wal-ākhirati falyamdud bisababin ilā l-samāi thumma l'yaqṭaʿ falyanẓur hal yudh'hibanna kayduhu mā yaghīẓu",
-    "translation": "",
+    "translation": "Whoever should think that Allāh will not support him [i.e., Prophet Muḥammad (ﷺ)] in this world and the Hereafter - let him extend a rope to the ceiling, then cut off [his breath], and let him see: will his effort remove that which enrages [him]?",
     "words": [
       {
         "id": "al-hajj-15-1",
@@ -2093,7 +2107,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui croit qu’Allah ne secourra (Son Prophète) ni dans ce bas monde ni dans l’autre, qu’il cherche un moyen pour atteindre le ciel puis coupe (l’approvisionnement qui en provient), et voie si ce stratagème peut dissiper sa rage."
   },
   {
     "id": "al-hajj-16",
@@ -2102,7 +2117,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَنزَلْنَـٰهُ ءَايَـٰتٍۭ بَيِّنَـٰتٍ وَأَنَّ ٱللَّهَ يَهْدِى مَن يُرِيدُ",
     "textSimple": "وكذلك أنزلنـه ءايـت بينـت وأن ٱلله يهدى من يريد",
     "transliteration": "wakadhālika anzalnāhu āyātin bayyinātin wa-anna l-laha yahdī man yurīdu",
-    "translation": "",
+    "translation": "And thus have We sent it [i.e., the Qur’ān] down as verses of clear evidence and because Allāh guides whom He intends.",
     "words": [
       {
         "id": "al-hajj-16-1",
@@ -2168,7 +2183,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est ainsi que Nous l’avons fait descendre (en révélation) en versets bien clairs. Allah guide qui Il veut."
   },
   {
     "id": "al-hajj-17",
@@ -2177,7 +2193,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلصَّـٰبِـِٔينَ وَٱلنَّصَـٰرَىٰ وَٱلْمَجُوسَ وَٱلَّذِينَ أَشْرَكُوٓا۟ إِنَّ ٱللَّهَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "textSimple": "إن ٱلذين ءامنوا وٱلذين هادوا وٱلصـبـٔين وٱلنصـرى وٱلمجوس وٱلذين أشركوٓا إن ٱلله يفصل بينهم يوم ٱلقيـمة  إن ٱلله على كل شىء شهيد",
     "transliteration": "inna alladhīna āmanū wa-alladhīna hādū wal-ṣābiīna wal-naṣārā wal-majūsa wa-alladhīna ashrakū inna l-laha yafṣilu baynahum yawma l-qiyāmati inna l-laha ʿalā kulli shayin shahīdun",
-    "translation": "",
+    "translation": "Indeed, those who have believed and those who were Jews and the Sabeans and the Christians and the Magians and those who associated with Allāh - Allāh will judge between them on the Day of Resurrection. Indeed Allāh is, over all things, Witness.",
     "words": [
       {
         "id": "al-hajj-17-1",
@@ -2334,7 +2350,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru (les Musulmans), les Juifs, les Sabéens, les Nazaréens (les Chrétiens), les Mazdéens et les associâtres, Allah les départagera au Jour de la Résurrection. Allah est témoin de Toute chose."
   },
   {
     "id": "al-hajj-18",
@@ -2343,7 +2360,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَسْجُدُ لَهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَمَن فِى ٱلْأَرْضِ وَٱلشَّمْسُ وَٱلْقَمَرُ وَٱلنُّجُومُ وَٱلْجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ وَكَثِيرٌ مِّنَ ٱلنَّاسِ ۖ وَكَثِيرٌ حَقَّ عَلَيْهِ ٱلْعَذَابُ ۗ وَمَن يُهِنِ ٱللَّهُ فَمَا لَهُۥ مِن مُّكْرِمٍ ۚ إِنَّ ٱللَّهَ يَفْعَلُ مَا يَشَآءُ ۩",
     "textSimple": "ألم تر أن ٱلله يسجد له من فى ٱلسمـوت ومن فى ٱلأرض وٱلشمس وٱلقمر وٱلنجوم وٱلجبال وٱلشجر وٱلدوآب وكثير من ٱلناس  وكثير حق عليه ٱلعذاب  ومن يهن ٱلله فما له من مكرم  إن ٱلله يفعل ما يشآء ",
     "transliteration": "alam tara anna l-laha yasjudu lahu man fī l-samāwāti waman fī l-arḍi wal-shamsu wal-qamaru wal-nujūmu wal-jibālu wal-shajaru wal-dawābu wakathīrun mina l-nāsi wakathīrun ḥaqqa ʿalayhi l-ʿadhābu waman yuhini l-lahu famā lahu min muk'rimin inna l-laha yafʿalu mā yashāu",
-    "translation": "",
+    "translation": "Do you not see [i.e., know] that to Allāh prostrates whoever is in the heavens and whoever is on the earth and the sun, the moon, the stars, the mountains, the trees, the moving creatures and many of the people? But upon many the punishment has been justified. And he whom Allāh humiliates - for him there is no bestower of honor. Indeed, Allāh does what He wills.",
     "words": [
       {
         "id": "al-hajj-18-1",
@@ -2605,7 +2622,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas que devant Allah se prosternent ceux qui sont dans les cieux et sur terre : le soleil, la lune, les étoiles, les montagnes, les arbres, les animaux et beaucoup d’hommes ? Beaucoup (d’autres) aussi auront mérité le supplice. Car celui qu’Allah humilie, nul ne pourra l’honorer. Allah, en effet, fait ce qu’il Lui plaît."
   },
   {
     "id": "al-hajj-19",
@@ -2614,7 +2632,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "۞ هَـٰذَانِ خَصْمَانِ ٱخْتَصَمُوا۟ فِى رَبِّهِمْ ۖ فَٱلَّذِينَ كَفَرُوا۟ قُطِّعَتْ لَهُمْ ثِيَابٌ مِّن نَّارٍ يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ",
     "textSimple": " هـذان خصمان ٱختصموا فى ربهم  فٱلذين كفروا قطعت لهم ثياب من نار يصب من فوق رءوسهم ٱلحميم",
     "transliteration": "hādhāni khaṣmāni ikh'taṣamū fī rabbihim fa-alladhīna kafarū quṭṭiʿat lahum thiyābun min nārin yuṣabbu min fawqi ruūsihimu l-ḥamīmu",
-    "translation": "",
+    "translation": "These are two adversaries who have disputed over their Lord. But those who disbelieved will have cut out for them garments of fire. Poured upon their heads will be scalding water",
     "words": [
       {
         "id": "al-hajj-19-1",
@@ -2736,7 +2754,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici deux clans adverses qui sont en désaccord au sujet de leur Seigneur. À ceux qui ont mécru seront taillés des vêtements de feu, et sur leur tête sera versée une eau bouillante,"
   },
   {
     "id": "al-hajj-20",
@@ -2745,7 +2764,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يُصْهَرُ بِهِۦ مَا فِى بُطُونِهِمْ وَٱلْجُلُودُ",
     "textSimple": "يصهر به ما فى بطونهم وٱلجلود",
     "transliteration": "yuṣ'haru bihi mā fī buṭūnihim wal-julūdu",
-    "translation": "",
+    "translation": "By which is melted that within their bellies and [their] skins.",
     "words": [
       {
         "id": "al-hajj-20-1",
@@ -2790,7 +2809,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui fera se liquéfier leurs entrailles et (consumera) leurs peaux."
   },
   {
     "id": "al-hajj-21",
@@ -2799,7 +2819,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهُم مَّقَـٰمِعُ مِنْ حَدِيدٍ",
     "textSimple": "ولهم مقـمع من حديد",
     "transliteration": "walahum maqāmiʿu min ḥadīdin",
-    "translation": "",
+    "translation": "And for [striking] them are maces of iron.",
     "words": [
       {
         "id": "al-hajj-21-1",
@@ -2830,7 +2850,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il y aura pour eux des massues en fer."
   },
   {
     "id": "al-hajj-22",
@@ -2839,7 +2860,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "كُلَّمَآ أَرَادُوٓا۟ أَن يَخْرُجُوا۟ مِنْهَا مِنْ غَمٍّ أُعِيدُوا۟ فِيهَا وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
     "textSimple": "كلمآ أرادوٓا أن يخرجوا منها من غم أعيدوا فيها وذوقوا عذاب ٱلحريق",
     "transliteration": "kullamā arādū an yakhrujū min'hā min ghammin uʿīdū fīhā wadhūqū ʿadhāba l-ḥarīqi",
-    "translation": "",
+    "translation": "Every time they want to get out of it [i.e., Hellfire] from anguish, they will be returned to it, and [it will be said], \"Taste the punishment of the Burning Fire!\"",
     "words": [
       {
         "id": "al-hajj-22-1",
@@ -2926,7 +2947,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque fois qu’ils voudront en sortir, angoissés, ils y seront reconduits. « Goûtez le supplice du Brasier ! » (leur sera-t-il dit)."
   },
   {
     "id": "al-hajj-23",
@@ -2935,7 +2957,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
     "textSimple": "إن ٱلله يدخل ٱلذين ءامنوا وعملوا ٱلصـلحـت جنـت تجرى من تحتها ٱلأنهـر يحلون فيها من أساور من ذهب ولؤلؤا  ولباسهم فيها حرير",
     "transliteration": "inna l-laha yud'khilu alladhīna āmanū waʿamilū l-ṣāliḥāti jannātin tajrī min taḥtihā l-anhāru yuḥallawna fīhā min asāwira min dhahabin walu'lu-an walibāsuhum fīhā ḥarīrun",
-    "translation": "",
+    "translation": "Indeed, Allāh will admit those who believe and do righteous deeds to gardens beneath which rivers flow. They will be adorned therein with bracelets of gold and pearl, and their garments therein will be silk.",
     "words": [
       {
         "id": "al-hajj-23-1",
@@ -3092,7 +3114,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah fera entrer ceux qui auront cru et auront accompli les bonnes œuvres dans des jardins sous lesquels coulent les rivières. Ils y seront parés de bracelets en or et de perles ; et leurs vêtements y seront en soie."
   },
   {
     "id": "al-hajj-24",
@@ -3101,7 +3124,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَهُدُوٓا۟ إِلَى ٱلطَّيِّبِ مِنَ ٱلْقَوْلِ وَهُدُوٓا۟ إِلَىٰ صِرَٰطِ ٱلْحَمِيدِ",
     "textSimple": "وهدوٓا إلى ٱلطيب من ٱلقول وهدوٓا إلى صرط ٱلحميد",
     "transliteration": "wahudū ilā l-ṭayibi mina l-qawli wahudū ilā ṣirāṭi l-ḥamīdi",
-    "translation": "",
+    "translation": "And they had been guided [in worldly life] to good speech, and they were guided to the path of the Praiseworthy.",
     "words": [
       {
         "id": "al-hajj-24-1",
@@ -3167,7 +3190,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ici-bas), ils ont été guidés vers les bonnes paroles et vers la voie (d’Allah), le Digne de Toutes louanges."
   },
   {
     "id": "al-hajj-25",
@@ -3176,7 +3200,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلْمَسْجِدِ ٱلْحَرَامِ ٱلَّذِى جَعَلْنَـٰهُ لِلنَّاسِ سَوَآءً ٱلْعَـٰكِفُ فِيهِ وَٱلْبَادِ ۚ وَمَن يُرِدْ فِيهِ بِإِلْحَادٍۭ بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ",
     "textSimple": "إن ٱلذين كفروا ويصدون عن سبيل ٱلله وٱلمسجد ٱلحرام ٱلذى جعلنـه للناس سوآء ٱلعـكف فيه وٱلباد  ومن يرد فيه بإلحاد بظلم نذقه من عذاب أليم",
     "transliteration": "inna alladhīna kafarū wayaṣuddūna ʿan sabīli l-lahi wal-masjidi l-ḥarāmi alladhī jaʿalnāhu lilnnāsi sawāan l-ʿākifu fīhi wal-bādi waman yurid fīhi bi-il'ḥādin biẓul'min nudhiq'hu min ʿadhābin alīmin",
-    "translation": "",
+    "translation": "Indeed, those who have disbelieved and avert [people] from the way of Allāh and [from] al-Masjid al-Ḥarām, which We made for the people - equal are the resident therein and one from outside - and [also] whoever intends [a deed] therein of deviation [in religion] by wrongdoing - We will make him taste of a painful punishment.",
     "words": [
       {
         "id": "al-hajj-25-1",
@@ -3354,7 +3378,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui mécroient, qui barrent le chemin d’Allah et celui de la Mosquée Sacrée que Nous avons établie pour tous les hommes, qu’ils y résident ou qu’ils viennent d’ailleurs, (doivent savoir que) quiconque cherche à la profaner Nous lui ferons goûter un supplice très douloureux."
   },
   {
     "id": "al-hajj-26",
@@ -3363,7 +3388,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ بَوَّأْنَا لِإِبْرَٰهِيمَ مَكَانَ ٱلْبَيْتِ أَن لَّا تُشْرِكْ بِى شَيْـًٔا وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
     "textSimple": "وإذ بوأنا لإبرهيم مكان ٱلبيت أن لا تشرك بى شيـٔا وطهر بيتى للطآئفين وٱلقآئمين وٱلركع ٱلسجود",
     "transliteration": "wa-idh bawwanā li-ib'rāhīma makāna l-bayti an lā tush'rik bī shayan waṭahhir baytiya lilṭṭāifīna wal-qāimīna wal-rukaʿi l-sujūdi",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when We designated for Abraham the site of the House, [saying], \"Do not associate anything with Me and purify My House for those who perform ṭawāf and those who stand [in prayer] and those who bow and prostrate.",
     "words": [
       {
         "id": "al-hajj-26-1",
@@ -3478,7 +3503,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi donc) quand Nous désignâmes à Abraham la place de la Maison (et lui dîmes) : « Ne M’associe rien. Purifie Ma Maison pour ceux qui y accomplissent les circumambulations, ceux qui s’y tiennent debout pour la prière, ceux qui s’y inclinent et s’y prosternent. »"
   },
   {
     "id": "al-hajj-27",
@@ -3487,7 +3513,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَذِّن فِى ٱلنَّاسِ بِٱلْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ",
     "textSimple": "وأذن فى ٱلناس بٱلحج يأتوك رجالا وعلى كل ضامر يأتين من كل فج عميق",
     "transliteration": "wa-adhin fī l-nāsi bil-ḥaji yatūka rijālan waʿalā kulli ḍāmirin yatīna min kulli fajjin ʿamīqin",
-    "translation": "",
+    "translation": "And proclaim to the people the ḥajj [pilgrimage]; they will come to you on foot and on every lean camel; they will come from every distant pass -",
     "words": [
       {
         "id": "al-hajj-27-1",
@@ -3588,7 +3614,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Appelle les hommes au Hajj (le pèlerinage) : ils viendront vers toi à pied, ou à dos de monture efflanquée, par les chemins les plus éloignés,"
   },
   {
     "id": "al-hajj-28",
@@ -3597,7 +3624,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لِّيَشْهَدُوا۟ مَنَـٰفِعَ لَهُمْ وَيَذْكُرُوا۟ ٱسْمَ ٱللَّهِ فِىٓ أَيَّامٍ مَّعْلُومَـٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلْأَنْعَـٰمِ ۖ فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْبَآئِسَ ٱلْفَقِيرَ",
     "textSimple": "ليشهدوا منـفع لهم ويذكروا ٱسم ٱلله فىٓ أيام معلومـت على ما رزقهم من بهيمة ٱلأنعـم  فكلوا منها وأطعموا ٱلبآئس ٱلفقير",
     "transliteration": "liyashhadū manāfiʿa lahum wayadhkurū is'ma l-lahi fī ayyāmin maʿlūmātin ʿalā mā razaqahum min bahīmati l-anʿāmi fakulū min'hā wa-aṭʿimū l-bāisa l-faqīra",
-    "translation": "",
+    "translation": "That they may witness [i.e., attend] benefits for themselves and mention the name of Allāh on known [i.e., specific] days over what He has provided for them of [sacrificial] animals. So eat of them and feed the miserable and poor.",
     "words": [
       {
         "id": "al-hajj-28-1",
@@ -3740,7 +3767,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour être témoins des avantages (qui leur seront réservés), et invoquer en des jours déterminés le nom d’Allah sur ce qu’Il leur a dispensé comme bétail. « Mangez-en donc, et nourrissez-en le miséreux sans ressources. »"
   },
   {
     "id": "al-hajj-29",
@@ -3749,7 +3777,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لْيَقْضُوا۟ تَفَثَهُمْ وَلْيُوفُوا۟ نُذُورَهُمْ وَلْيَطَّوَّفُوا۟ بِٱلْبَيْتِ ٱلْعَتِيقِ",
     "textSimple": "ثم ليقضوا تفثهم وليوفوا نذورهم وليطوفوا بٱلبيت ٱلعتيق",
     "transliteration": "thumma l'yaqḍū tafathahum walyūfū nudhūrahum walyaṭṭawwafū bil-bayti l-ʿatīqi",
-    "translation": "",
+    "translation": "Then let them end their untidiness and fulfill their vows and perform ṭawāf around the ancient House.\"",
     "words": [
       {
         "id": "al-hajj-29-1",
@@ -3808,7 +3836,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis qu’ils sortent de leur état de sacralité rituelle, qu’ils accomplissent leurs vœux et qu’ils effectuent leurs circumambulations autour de la Maison Antique."
   },
   {
     "id": "al-hajj-30",
@@ -3817,7 +3846,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَـٰتِ ٱللَّهِ فَهُوَ خَيْرٌ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَـٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَـٰنِ وَٱجْتَنِبُوا۟ قَوْلَ ٱلزُّورِ",
     "textSimple": "ذلك ومن يعظم حرمـت ٱلله فهو خير له عند ربه  وأحلت لكم ٱلأنعـم إلا ما يتلى عليكم  فٱجتنبوا ٱلرجس من ٱلأوثـن وٱجتنبوا قول ٱلزور",
     "transliteration": "dhālika waman yuʿaẓẓim ḥurumāti l-lahi fahuwa khayrun lahu ʿinda rabbihi wa-uḥillat lakumu l-anʿāmu illā mā yut'lā ʿalaykum fa-ij'tanibū l-rij'sa mina l-awthāni wa-ij'tanibū qawla l-zūri",
-    "translation": "",
+    "translation": "That [has been commanded], and whoever honors the sacred ordinances of Allāh - it is best for him in the sight of his Lord. And permitted to you are the grazing livestock, except what is recited to you. So avoid the uncleanliness of idols and avoid false statement,",
     "words": [
       {
         "id": "al-hajj-30-1",
@@ -3988,7 +4017,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà (les devoirs à accomplir). Et quiconque respecte grandement les interdits d’Allah, cela lui vaudra mieux auprès de son Seigneur. Excepté (les cas dont les interdictions) vous ont déjà été mentionnées, le bétail vous est rendu licite. Évitez la souillure des idoles, évitez toute parole fausse"
   },
   {
     "id": "al-hajj-31",
@@ -3997,7 +4027,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "حُنَفَآءَ لِلَّهِ غَيْرَ مُشْرِكِينَ بِهِۦ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَكَأَنَّمَا خَرَّ مِنَ ٱلسَّمَآءِ فَتَخْطَفُهُ ٱلطَّيْرُ أَوْ تَهْوِى بِهِ ٱلرِّيحُ فِى مَكَانٍ سَحِيقٍ",
     "textSimple": "حنفآء لله غير مشركين به  ومن يشرك بٱلله فكأنما خر من ٱلسمآء فتخطفه ٱلطير أو تهوى به ٱلريح فى مكان سحيق",
     "transliteration": "ḥunafāa lillahi ghayra mush'rikīna bihi waman yush'rik bil-lahi faka-annamā kharra mina l-samāi fatakhṭafuhu l-ṭayru aw tahwī bihi l-rīḥu fī makānin saḥīqin",
-    "translation": "",
+    "translation": "Inclining [only] to Allāh, not associating [anything] with Him. And he who associates with Allāh - it is as though he had fallen from the sky and was snatched by the birds or the wind carried him down into a remote place.",
     "words": [
       {
         "id": "al-hajj-31-1",
@@ -4147,7 +4177,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en purs monothéistes et ne Lui associez rien. Quiconque prête des associés à Allah, c’est comme si, tombant du ciel, il était happé par les oiseaux (prédateurs) ; ou comme si le vent l’envoyait dans un précipice sans fond."
   },
   {
     "id": "al-hajj-32",
@@ -4156,7 +4187,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ وَمَن يُعَظِّمْ شَعَـٰٓئِرَ ٱللَّهِ فَإِنَّهَا مِن تَقْوَى ٱلْقُلُوبِ",
     "textSimple": "ذلك ومن يعظم شعـٓئر ٱلله فإنها من تقوى ٱلقلوب",
     "transliteration": "dhālika waman yuʿaẓẓim shaʿāira l-lahi fa-innahā min taqwā l-qulūbi",
-    "translation": "",
+    "translation": "That [is so]. And whoever honors the symbols [i.e., rites] of Allāh - indeed, it is from the piety of hearts.",
     "words": [
       {
         "id": "al-hajj-32-1",
@@ -4222,7 +4253,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est cela (qui est décrété). Quiconque respecte grandement les rites (prescrits par) Allah, (son attitude relève de) la piété des cœurs."
   },
   {
     "id": "al-hajj-33",
@@ -4231,7 +4263,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لَكُمْ فِيهَا مَنَـٰفِعُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ مَحِلُّهَآ إِلَى ٱلْبَيْتِ ٱلْعَتِيقِ",
     "textSimple": "لكم فيها منـفع إلىٓ أجل مسمى ثم محلهآ إلى ٱلبيت ٱلعتيق",
     "transliteration": "lakum fīhā manāfiʿu ilā ajalin musamman thumma maḥilluhā ilā l-bayti l-ʿatīqi",
-    "translation": "",
+    "translation": "For you therein [i.e., the animals marked for sacrifice] are benefits for a specified term; then their place of sacrifice is at the ancient House.",
     "words": [
       {
         "id": "al-hajj-33-1",
@@ -4311,7 +4343,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous trouvez diverses utilités (dans les bêtes à immoler) jusqu’à un terme déjà nommé. Puis leur lieu de sacrifice sera la Maison Antique."
   },
   {
     "id": "al-hajj-34",
@@ -4320,7 +4353,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَلِكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا لِّيَذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلْأَنْعَـٰمِ ۗ فَإِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ فَلَهُۥٓ أَسْلِمُوا۟ ۗ وَبَشِّرِ ٱلْمُخْبِتِينَ",
     "textSimple": "ولكل أمة جعلنا منسكا ليذكروا ٱسم ٱلله على ما رزقهم من بهيمة ٱلأنعـم  فإلـهكم إلـه وحد فلهٓ أسلموا  وبشر ٱلمخبتين",
     "transliteration": "walikulli ummatin jaʿalnā mansakan liyadhkurū is'ma l-lahi ʿalā mā razaqahum min bahīmati l-anʿāmi fa-ilāhukum ilāhun wāḥidun falahu aslimū wabashiri l-mukh'bitīna",
-    "translation": "",
+    "translation": "And for every [religious] community We have appointed a rite [of sacrifice] that they may mention the name of Allāh over what He has provided for them of [sacrificial] animals. For your god is one God, so to Him submit. And, [O Muḥammad], give good tidings to the humble [before their Lord]",
     "words": [
       {
         "id": "al-hajj-34-1",
@@ -4463,7 +4496,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour chaque communauté Nous avons établi des rites sacrificiels pour qu’ils invoquent le nom d’Allah sur le bétail qu’Il leur a dispensé. Votre Dieu est un Dieu Unique. C’est à Lui que vous vous soumettrez. Annonce l’heureuse nouvelle à ceux qui sont humbles,"
   },
   {
     "id": "al-hajj-35",
@@ -4472,7 +4506,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَٱلصَّـٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمْ وَٱلْمُقِيمِى ٱلصَّلَوٰةِ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
     "textSimple": "ٱلذين إذا ذكر ٱلله وجلت قلوبهم وٱلصـبرين على مآ أصابهم وٱلمقيمى ٱلصلوة ومما رزقنـهم ينفقون",
     "transliteration": "alladhīna idhā dhukira l-lahu wajilat qulūbuhum wal-ṣābirīna ʿalā mā aṣābahum wal-muqīmī l-ṣalati wamimmā razaqnāhum yunfiqūna",
-    "translation": "",
+    "translation": "Who, when Allāh is mentioned, their hearts are fearful, and [to] the patient over what has afflicted them, and the establishers of prayer and those who spend from what We have provided them.",
     "words": [
       {
         "id": "al-hajj-35-1",
@@ -4580,7 +4614,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui, lorsqu’on évoque Allah, ont les cœurs qui palpitent de crainte, ceux qui sont patients à la peine, et ceux qui observent la Çalât et qui dépensent de ce que Nous leur avons dispensé."
   },
   {
     "id": "al-hajj-36",
@@ -4589,7 +4624,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْبُدْنَ جَعَلْنَـٰهَا لَكُم مِّن شَعَـٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَـٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
     "textSimple": "وٱلبدن جعلنـها لكم من شعـٓئر ٱلله لكم فيها خير  فٱذكروا ٱسم ٱلله عليها صوآف  فإذا وجبت جنوبها فكلوا منها وأطعموا ٱلقانع وٱلمعتر  كذلك سخرنـها لكم لعلكم تشكرون",
     "transliteration": "wal-bud'na jaʿalnāhā lakum min shaʿāiri l-lahi lakum fīhā khayrun fa-udh'kurū is'ma l-lahi ʿalayhā ṣawāffa fa-idhā wajabat junūbuhā fakulū min'hā wa-aṭʿimū l-qāniʿa wal-muʿ'tara kadhālika sakharnāhā lakum laʿallakum tashkurūna",
-    "translation": "",
+    "translation": "And the camels and cattle We have appointed for you as among the symbols [i.e., rites] of Allāh; for you therein is good. So mention the name of Allāh upon them when lined up [for sacrifice]; and when they are [lifeless] on their sides, then eat from them and feed the needy [who does not seek aid] and the beggar. Thus have We subjected them to you that you may be grateful.",
     "words": [
       {
         "id": "al-hajj-36-1",
@@ -4781,7 +4816,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons consacré pour vous les bêtes grasses (parmi les camélidés et les bovidés) pour certains rites (prescrits par) Allah. Vous y trouvez beaucoup d’avantages. Prononcez donc le nom d’Allah sur celles qui sont sur le point d’être immolées. Une fois qu’elles gisent sur leur flanc, (inertes), mangez-en, nourrissez-en aussi le nécessiteux réservé et le mendiant avéré. C’est ainsi que Nous vous les avons soumises, peut-être Nous serez vous reconnaissants."
   },
   {
     "id": "al-hajj-37",
@@ -4790,7 +4826,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لَن يَنَالَ ٱللَّهَ لُحُومُهَا وَلَا دِمَآؤُهَا وَلَـٰكِن يَنَالُهُ ٱلتَّقْوَىٰ مِنكُمْ ۚ كَذَٰلِكَ سَخَّرَهَا لَكُمْ لِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ ۗ وَبَشِّرِ ٱلْمُحْسِنِينَ",
     "textSimple": "لن ينال ٱلله لحومها ولا دمآؤها ولـكن يناله ٱلتقوى منكم  كذلك سخرها لكم لتكبروا ٱلله على ما هدىكم  وبشر ٱلمحسنين",
     "transliteration": "lan yanāla l-laha luḥūmuhā walā dimāuhā walākin yanāluhu l-taqwā minkum kadhālika sakharahā lakum litukabbirū l-laha ʿalā mā hadākum wabashiri l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Their meat will not reach Allāh, nor will their blood, but what reaches Him is piety from you. Thus have We subjected them to you that you may glorify Allāh for that [to] which He has guided you; and give good tidings to the doers of good.",
     "words": [
       {
         "id": "al-hajj-37-1",
@@ -4933,7 +4969,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur chair, pas plus que leur sang, ne parviendront à Allah. Mais c’est la piété qui Lui parviendra de votre part. Ainsi vous les a-t-Il soumises, afin que vous magnifiiez la grandeur d’Allah pour la bonne direction qu’Il vous a indiquée. Annonce l’heureuse nouvelle aux bienfaiteurs."
   },
   {
     "id": "al-hajj-38",
@@ -4942,7 +4979,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "۞ إِنَّ ٱللَّهَ يُدَٰفِعُ عَنِ ٱلَّذِينَ ءَامَنُوٓا۟ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ خَوَّانٍ كَفُورٍ",
     "textSimple": " إن ٱلله يدفع عن ٱلذين ءامنوٓا  إن ٱلله لا يحب كل خوان كفور",
     "transliteration": "inna l-laha yudāfiʿu ʿani alladhīna āmanū inna l-laha lā yuḥibbu kulla khawwānin kafūrin",
-    "translation": "",
+    "translation": "Indeed, Allāh defends those who have believed. Indeed, Allāh does not like everyone treacherous and ungrateful.",
     "words": [
       {
         "id": "al-hajj-38-1",
@@ -5036,7 +5073,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah prend la défense de ceux qui ont cru. Allah n’aime pas les traîtres ingrats."
   },
   {
     "id": "al-hajj-39",
@@ -5045,7 +5083,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "أُذِنَ لِلَّذِينَ يُقَـٰتَلُونَ بِأَنَّهُمْ ظُلِمُوا۟ ۚ وَإِنَّ ٱللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ",
     "textSimple": "أذن للذين يقـتلون بأنهم ظلموا  وإن ٱلله على نصرهم لقدير",
     "transliteration": "udhina lilladhīna yuqātalūna bi-annahum ẓulimū wa-inna l-laha ʿalā naṣrihim laqadīrun",
-    "translation": "",
+    "translation": "Permission [to fight] has been given to those who are being fought, because they were wronged. And indeed, Allāh is competent to give them victory.",
     "words": [
       {
         "id": "al-hajj-39-1",
@@ -5118,7 +5156,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a été autorisé à ceux qui sont combattus (de se défendre), pour avoir été lésés. Allah est Infiniment Capable de les faire triompher,"
   },
   {
     "id": "al-hajj-40",
@@ -5127,7 +5166,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَـٰرِهِم بِغَيْرِ حَقٍّ إِلَّآ أَن يَقُولُوا۟ رَبُّنَا ٱللَّهُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌ وَصَلَوَٰتٌ وَمَسَـٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًا ۗ وَلَيَنصُرَنَّ ٱللَّهُ مَن يَنصُرُهُۥٓ ۗ إِنَّ ٱللَّهَ لَقَوِىٌّ عَزِيزٌ",
     "textSimple": "ٱلذين أخرجوا من ديـرهم بغير حق إلآ أن يقولوا ربنا ٱلله  ولولا دفع ٱلله ٱلناس بعضهم ببعض لهدمت صومع وبيع وصلوت ومسـجد يذكر فيها ٱسم ٱلله كثيرا  ولينصرن ٱلله من ينصرهٓ  إن ٱلله لقوى عزيز",
     "transliteration": "alladhīna ukh'rijū min diyārihim bighayri ḥaqqin illā an yaqūlū rabbunā l-lahu walawlā dafʿu l-lahi l-nāsa baʿḍahum bibaʿḍin lahuddimat ṣawāmiʿu wabiyaʿun waṣalawātun wamasājidu yudh'karu fīhā us'mu l-lahi kathīran walayanṣuranna l-lahu man yanṣuruhu inna l-laha laqawiyyun ʿazīzun",
-    "translation": "",
+    "translation": "[They are] those who have been evicted from their homes without right - only because they say, \"Our Lord is Allāh.\" And were it not that Allāh checks the people, some by means of others, there would have been demolished monasteries, churches, synagogues, and mosques in which the name of Allāh is much mentioned [i.e., praised]. And Allāh will surely support those who support Him [i.e., His cause]. Indeed, Allāh is Powerful and Exalted in Might.",
     "words": [
       {
         "id": "al-hajj-40-1",
@@ -5375,7 +5414,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux-là qui ont été chassés sans juste raison de leurs foyers seulement pour avoir dit : « Notre Seigneur c’est Allah. » Si Allah ne repoussait une partie des hommes par une autre, seraient alors démolis nombre de monastères, de synagogues, d’oratoires et de mosquées où le nom d’Allah est sans cesse évoqué. Allah fait triompher quiconque défend Sa cause. Allah est Fort et Tout-Puissant."
   },
   {
     "id": "al-hajj-41",
@@ -5384,7 +5424,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ إِن مَّكَّنَّـٰهُمْ فِى ٱلْأَرْضِ أَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ وَأَمَرُوا۟ بِٱلْمَعْرُوفِ وَنَهَوْا۟ عَنِ ٱلْمُنكَرِ ۗ وَلِلَّهِ عَـٰقِبَةُ ٱلْأُمُورِ",
     "textSimple": "ٱلذين إن مكنـهم فى ٱلأرض أقاموا ٱلصلوة وءاتوا ٱلزكوة وأمروا بٱلمعروف ونهوا عن ٱلمنكر  ولله عـقبة ٱلأمور",
     "transliteration": "alladhīna in makkannāhum fī l-arḍi aqāmū l-ṣalata waātawū l-zakata wa-amarū bil-maʿrūfi wanahaw ʿani l-munkari walillahi ʿāqibatu l-umūri",
-    "translation": "",
+    "translation": "[And they are] those who, if We give them authority in the land, establish prayer and give zakāh and enjoin what is right and forbid what is wrong. And to Allāh belongs the outcome of [all] matters.",
     "words": [
       {
         "id": "al-hajj-41-1",
@@ -5506,7 +5546,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah soutient) ceux qui, si Nous affermissons leur position sur terre, accomplissent la Çalât, s’acquittent de la Zakât, prescrivent le convenable et proscrivent le condamnable. C’est Allah Qui détient le sort de Toute chose."
   },
   {
     "id": "al-hajj-42",
@@ -5515,7 +5556,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَعَادٌ وَثَمُودُ",
     "textSimple": "وإن يكذبوك فقد كذبت قبلهم قوم نوح وعاد وثمود",
     "transliteration": "wa-in yukadhibūka faqad kadhabat qablahum qawmu nūḥin waʿādun wathamūdu",
-    "translation": "",
+    "translation": "And if they deny you, [O Muḥammad] - so, before them, did the people of Noah and ʿAad and Thamūd deny [their prophets],",
     "words": [
       {
         "id": "al-hajj-42-1",
@@ -5581,7 +5622,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils te taxent de mensonge, le peuple de Noé avant eux, mais aussi les ‘Ad et les Thamûd, avaient traité d’imposteurs (leurs Prophètes),"
   },
   {
     "id": "al-hajj-43",
@@ -5590,7 +5632,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَقَوْمُ إِبْرَٰهِيمَ وَقَوْمُ لُوطٍ",
     "textSimple": "وقوم إبرهيم وقوم لوط",
     "transliteration": "waqawmu ib'rāhīma waqawmu lūṭin",
-    "translation": "",
+    "translation": "And the people of Abraham and the people of Lot.",
     "words": [
       {
         "id": "al-hajj-43-1",
@@ -5621,7 +5663,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et aussi le peuple d’Abraham, celui de Loth,"
   },
   {
     "id": "al-hajj-44",
@@ -5630,7 +5673,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَأَصْحَـٰبُ مَدْيَنَ ۖ وَكُذِّبَ مُوسَىٰ فَأَمْلَيْتُ لِلْكَـٰفِرِينَ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ نَكِيرِ",
     "textSimple": "وأصحـب مدين  وكذب موسى فأمليت للكـفرين ثم أخذتهم  فكيف كان نكير",
     "transliteration": "wa-aṣḥābu madyana wakudhiba mūsā fa-amlaytu lil'kāfirīna thumma akhadhtuhum fakayfa kāna nakīri",
-    "translation": "",
+    "translation": "And the inhabitants of Madyan. And Moses was denied, so I prolonged enjoyment for the disbelievers; then I seized them, and how [terrible] was My reproach.",
     "words": [
       {
         "id": "al-hajj-44-1",
@@ -5710,7 +5753,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les gens de Madyan. Moïse aussi fut traité d’imposteur. J’ai alors accordé un répit aux mécréants, puis Je les ai châtiés. Quelle ne fut Ma réprobation !"
   },
   {
     "id": "al-hajj-45",
@@ -5719,7 +5763,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَـٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ مَّشِيدٍ",
     "textSimple": "فكأين من قرية أهلكنـها وهى ظالمة فهى خاوية على عروشها وبئر معطلة وقصر مشيد",
     "transliteration": "faka-ayyin min qaryatin ahlaknāhā wahiya ẓālimatun fahiya khāwiyatun ʿalā ʿurūshihā wabi'rin muʿaṭṭalatin waqaṣrin mashīdin",
-    "translation": "",
+    "translation": "And how many a city did We destroy while it was committing wrong - so it is [now] fallen into ruin - and [how many] an abandoned well and [how many] a lofty palace.",
     "words": [
       {
         "id": "al-hajj-45-1",
@@ -5820,7 +5864,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de cités avons-Nous anéanties, qui étaient injustes ! Voilà qu’elles ne sont (maintenant) que ruines et désolation ! Que de puits désaffectés ! Que de palais (autrefois) haut édifiés et (aujourd’hui dépeuplés) !"
   },
   {
     "id": "al-hajj-46",
@@ -5829,7 +5874,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَتَكُونَ لَهُمْ قُلُوبٌ يَعْقِلُونَ بِهَآ أَوْ ءَاذَانٌ يَسْمَعُونَ بِهَا ۖ فَإِنَّهَا لَا تَعْمَى ٱلْأَبْصَـٰرُ وَلَـٰكِن تَعْمَى ٱلْقُلُوبُ ٱلَّتِى فِى ٱلصُّدُورِ",
     "textSimple": "أفلم يسيروا فى ٱلأرض فتكون لهم قلوب يعقلون بهآ أو ءاذان يسمعون بها  فإنها لا تعمى ٱلأبصـر ولـكن تعمى ٱلقلوب ٱلتى فى ٱلصدور",
     "transliteration": "afalam yasīrū fī l-arḍi fatakūna lahum qulūbun yaʿqilūna bihā aw ādhānun yasmaʿūna bihā fa-innahā lā taʿmā l-abṣāru walākin taʿmā l-qulūbu allatī fī l-ṣudūri",
-    "translation": "",
+    "translation": "So have they not traveled through the earth and have hearts by which to reason and ears by which to hear? For indeed, it is not eyes that are blinded, but blinded are the hearts which are within the breasts.",
     "words": [
       {
         "id": "al-hajj-46-1",
@@ -5993,7 +6038,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourquoi ne voyagent-ils donc pas à travers le monde ? Ils auraient alors des cœurs pour comprendre et des oreilles pour entendre. Ce ne sont certes pas les yeux qui deviennent aveugles, ce sont les cœurs (battant) dans les poitrines qui deviennent aveugles."
   },
   {
     "id": "al-hajj-47",
@@ -6002,7 +6048,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ ۚ وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ سَنَةٍ مِّمَّا تَعُدُّونَ",
     "textSimple": "ويستعجلونك بٱلعذاب ولن يخلف ٱلله وعده  وإن يوما عند ربك كألف سنة مما تعدون",
     "transliteration": "wayastaʿjilūnaka bil-ʿadhābi walan yukh'lifa l-lahu waʿdahu wa-inna yawman ʿinda rabbika ka-alfi sanatin mimmā taʿuddūna",
-    "translation": "",
+    "translation": "And they urge you to hasten the punishment. But Allāh will never fail in His promise. And indeed, a day with your Lord is like a thousand years of those which you count.",
     "words": [
       {
         "id": "al-hajj-47-1",
@@ -6103,7 +6149,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils te demandent de hâter le supplice. Mais Allah ne manquera pas à Sa promesse, et un jour pour ton Seigneur équivaut à mille ans selon votre décompte."
   },
   {
     "id": "al-hajj-48",
@@ -6112,7 +6159,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأَيِّن مِّن قَرْيَةٍ أَمْلَيْتُ لَهَا وَهِىَ ظَالِمَةٌ ثُمَّ أَخَذْتُهَا وَإِلَىَّ ٱلْمَصِيرُ",
     "textSimple": "وكأين من قرية أمليت لها وهى ظالمة ثم أخذتها وإلى ٱلمصير",
     "transliteration": "waka-ayyin min qaryatin amlaytu lahā wahiya ẓālimatun thumma akhadhtuhā wa-ilayya l-maṣīru",
-    "translation": "",
+    "translation": "And for how many a city did I prolong enjoyment while it was committing wrong. Then I seized it, and to Me is the [final] destination.",
     "words": [
       {
         "id": "al-hajj-48-1",
@@ -6192,7 +6239,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Combien de cités n’ai-Je pas épargnées pour un temps, quand pourtant elles étaient injustes ! Puis Je M’en suis saisi, car c’est vers Moi qu’est le devenir."
   },
   {
     "id": "al-hajj-49",
@@ -6201,7 +6249,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّمَآ أَنَا۠ لَكُمْ نَذِيرٌ مُّبِينٌ",
     "textSimple": "قل يـٓأيها ٱلناس إنمآ أنا لكم نذير مبين",
     "transliteration": "qul yāayyuhā l-nāsu innamā anā lakum nadhīrun mubīnun",
-    "translation": "",
+    "translation": "Say, \"O people, I am only to you a clear warner.\"",
     "words": [
       {
         "id": "al-hajj-49-1",
@@ -6260,7 +6308,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô hommes ! Je ne suis chargé que de vous avertir explicitement. »"
   },
   {
     "id": "al-hajj-50",
@@ -6269,7 +6318,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
     "textSimple": "فٱلذين ءامنوا وعملوا ٱلصـلحـت لهم مغفرة ورزق كريم",
     "transliteration": "fa-alladhīna āmanū waʿamilū l-ṣāliḥāti lahum maghfiratun wariz'qun karīmun",
-    "translation": "",
+    "translation": "And those who have believed and done righteous deeds - for them is forgiveness and noble provision.",
     "words": [
       {
         "id": "al-hajj-50-1",
@@ -6328,7 +6377,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui croient et accomplissent les bonnes œuvres, ils auront le pardon et les dons généreux."
   },
   {
     "id": "al-hajj-51",
@@ -6337,7 +6387,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ سَعَوْا۟ فِىٓ ءَايَـٰتِنَا مُعَـٰجِزِينَ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ",
     "textSimple": "وٱلذين سعوا فىٓ ءايـتنا معـجزين أولـٓئك أصحـب ٱلجحيم",
     "transliteration": "wa-alladhīna saʿaw fī āyātinā muʿājizīna ulāika aṣḥābu l-jaḥīmi",
-    "translation": "",
+    "translation": "But the ones who strove against Our verses, [seeking] to cause failure - those are the companions of Hellfire.",
     "words": [
       {
         "id": "al-hajj-51-1",
@@ -6396,7 +6446,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ceux qui se sont employés à mettre au défi Nos Signes, ceux-là seront voués à l’Enfer."
   },
   {
     "id": "al-hajj-52",
@@ -6405,7 +6456,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِىٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلْقَى ٱلشَّيْطَـٰنُ فِىٓ أُمْنِيَّتِهِۦ فَيَنسَخُ ٱللَّهُ مَا يُلْقِى ٱلشَّيْطَـٰنُ ثُمَّ يُحْكِمُ ٱللَّهُ ءَايَـٰتِهِۦ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "ومآ أرسلنا من قبلك من رسول ولا نبى إلآ إذا تمنىٓ ألقى ٱلشيطـن فىٓ أمنيته فينسخ ٱلله ما يلقى ٱلشيطـن ثم يحكم ٱلله ءايـته  وٱلله عليم حكيم",
     "transliteration": "wamā arsalnā min qablika min rasūlin walā nabiyyin illā idhā tamannā alqā l-shayṭānu fī um'niyyatihi fayansakhu l-lahu mā yul'qī l-shayṭānu thumma yuḥ'kimu l-lahu āyātihi wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "And We did not send before you any messenger or prophet except that when he spoke [or recited], Satan threw into it [some misunderstanding]. But Allāh abolishes that which Satan throws in; then Allāh makes precise His verses. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "al-hajj-52-1",
@@ -6597,7 +6648,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé, avant toi, aucun Messager ni aucun Prophète qui, en récitant (les versets révélés), n’ait eu sa récitation perturbée par Satan. Mais Allah abolit les suggestions de Satan, et Allah confirme Ses versets. Allah est Omniscient et Sage."
   },
   {
     "id": "al-hajj-53",
@@ -6606,7 +6658,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لِّيَجْعَلَ مَا يُلْقِى ٱلشَّيْطَـٰنُ فِتْنَةً لِّلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْقَاسِيَةِ قُلُوبُهُمْ ۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَفِى شِقَاقٍۭ بَعِيدٍ",
     "textSimple": "ليجعل ما يلقى ٱلشيطـن فتنة للذين فى قلوبهم مرض وٱلقاسية قلوبهم  وإن ٱلظـلمين لفى شقاق بعيد",
     "transliteration": "liyajʿala mā yul'qī l-shayṭānu fit'natan lilladhīna fī qulūbihim maraḍun wal-qāsiyati qulūbuhum wa-inna l-ẓālimīna lafī shiqāqin baʿīdin",
-    "translation": "",
+    "translation": "[That is] so He may make what Satan throws in [i.e., asserts] a trial for those within whose hearts is disease and those hard of heart. And indeed, the wrongdoers are in extreme dissension.",
     "words": [
       {
         "id": "al-hajj-53-1",
@@ -6721,7 +6773,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah permet) ce que sème Satan, pour tenter ceux qui ont le cœur malade et dur. Et les injustes, certes, sont allés loin dans la scission."
   },
   {
     "id": "al-hajj-54",
@@ -6730,7 +6783,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَلِيَعْلَمَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُوا۟ بِهِۦ فَتُخْبِتَ لَهُۥ قُلُوبُهُمْ ۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "وليعلم ٱلذين أوتوا ٱلعلم أنه ٱلحق من ربك فيؤمنوا به فتخبت له قلوبهم  وإن ٱلله لهاد ٱلذين ءامنوٓا إلى صرط مستقيم",
     "transliteration": "waliyaʿlama alladhīna ūtū l-ʿil'ma annahu l-ḥaqu min rabbika fayu'minū bihi fatukh'bita lahu qulūbuhum wa-inna l-laha lahādi alladhīna āmanū ilā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "And so those who were given knowledge may know that it is the truth from your Lord and [therefore] believe in it, and their hearts humbly submit to it. And indeed is Allāh the Guide of those who have believed to a straight path.",
     "words": [
       {
         "id": "al-hajj-54-1",
@@ -6880,7 +6933,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais également pour que ceux qui ont reçu la science sachent qu’il s’agit de la vérité émanant de ton Seigneur, et qu’ils y croient alors, et que leurs cœurs s’y soumettent avec componction. Allah guidera certes ceux qui auront cru vers une voie droite."
   },
   {
     "id": "al-hajj-55",
@@ -6889,7 +6943,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ فِى مِرْيَةٍ مِّنْهُ حَتَّىٰ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً أَوْ يَأْتِيَهُمْ عَذَابُ يَوْمٍ عَقِيمٍ",
     "textSimple": "ولا يزال ٱلذين كفروا فى مرية منه حتى تأتيهم ٱلساعة بغتة أو يأتيهم عذاب يوم عقيم",
     "transliteration": "walā yazālu alladhīna kafarū fī mir'yatin min'hu ḥattā tatiyahumu l-sāʿatu baghtatan aw yatiyahum ʿadhābu yawmin ʿaqīmin",
-    "translation": "",
+    "translation": "But those who disbelieve will not cease to be in doubt of it until the Hour comes upon them unexpectedly or there comes to them the punishment of a barren Day.",
     "words": [
       {
         "id": "al-hajj-55-1",
@@ -7004,7 +7058,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ceux qui ont mécru seront encore dans le doute à son sujet, jusqu’à ce que l’Heure les surprenne ou que fonde sur eux le supplice d’un jour redoutable."
   },
   {
     "id": "al-hajj-56",
@@ -7013,7 +7068,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْمُلْكُ يَوْمَئِذٍ لِّلَّهِ يَحْكُمُ بَيْنَهُمْ ۚ فَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فِى جَنَّـٰتِ ٱلنَّعِيمِ",
     "textSimple": "ٱلملك يومئذ لله يحكم بينهم  فٱلذين ءامنوا وعملوا ٱلصـلحـت فى جنـت ٱلنعيم",
     "transliteration": "al-mul'ku yawma-idhin lillahi yaḥkumu baynahum fa-alladhīna āmanū waʿamilū l-ṣāliḥāti fī jannāti l-naʿīmi",
-    "translation": "",
+    "translation": "[All] sovereignty that Day is for Allāh; He will judge between them. So they who believed and did righteous deeds will be in the Gardens of Pleasure.",
     "words": [
       {
         "id": "al-hajj-56-1",
@@ -7100,7 +7155,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La royauté en ce jour sera tout entière à Allah, Qui jugera entre eux. Alors, ceux qui auront cru et auront accompli les bonnes œuvres seront dans les Jardins des délices."
   },
   {
     "id": "al-hajj-57",
@@ -7109,7 +7165,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا فَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
     "textSimple": "وٱلذين كفروا وكذبوا بـٔايـتنا فأولـٓئك لهم عذاب مهين",
     "transliteration": "wa-alladhīna kafarū wakadhabū biāyātinā fa-ulāika lahum ʿadhābun muhīnun",
-    "translation": "",
+    "translation": "And they who disbelieved and denied Our signs - for those there will be a humiliating punishment.",
     "words": [
       {
         "id": "al-hajj-57-1",
@@ -7168,7 +7224,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui auront mécru et auront osé démentir Nos Signes, ceux-là seront voués au supplice humiliant."
   },
   {
     "id": "al-hajj-58",
@@ -7177,7 +7234,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ هَاجَرُوا۟ فِى سَبِيلِ ٱللَّهِ ثُمَّ قُتِلُوٓا۟ أَوْ مَاتُوا۟ لَيَرْزُقَنَّهُمُ ٱللَّهُ رِزْقًا حَسَنًا ۚ وَإِنَّ ٱللَّهَ لَهُوَ خَيْرُ ٱلرَّٰزِقِينَ",
     "textSimple": "وٱلذين هاجروا فى سبيل ٱلله ثم قتلوٓا أو ماتوا ليرزقنهم ٱلله رزقا حسنا  وإن ٱلله لهو خير ٱلرزقين",
     "transliteration": "wa-alladhīna hājarū fī sabīli l-lahi thumma qutilū aw mātū layarzuqannahumu l-lahu riz'qan ḥasanan wa-inna l-laha lahuwa khayru l-rāziqīna",
-    "translation": "",
+    "translation": "And those who emigrated for the cause of Allāh and then were killed or died - Allāh will surely provide for them a good provision. And indeed, it is Allāh who is the best of providers.",
     "words": [
       {
         "id": "al-hajj-58-1",
@@ -7306,7 +7363,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont émigré dans le chemin d’Allah, puis ont été tués (au combat) ou sont morts (dans leurs lits), Allah leur dispensera une belle récompense, car Allah est le Meilleur des dispensateurs."
   },
   {
     "id": "al-hajj-59",
@@ -7315,7 +7373,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لَيُدْخِلَنَّهُم مُّدْخَلًا يَرْضَوْنَهُۥ ۗ وَإِنَّ ٱللَّهَ لَعَلِيمٌ حَلِيمٌ",
     "textSimple": "ليدخلنهم مدخلا يرضونه  وإن ٱلله لعليم حليم",
     "transliteration": "layud'khilannahum mud'khalan yarḍawnahu wa-inna l-laha laʿalīmun ḥalīmun",
-    "translation": "",
+    "translation": "He will surely cause them to enter an entrance with which they will be pleased, and indeed, Allāh is Knowing and Forbearing.",
     "words": [
       {
         "id": "al-hajj-59-1",
@@ -7367,7 +7425,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les fera entrer dans un lieu dont ils seront satisfaits. Allah est Omniscient et Longanime."
   },
   {
     "id": "al-hajj-60",
@@ -7376,7 +7435,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "۞ ذَٰلِكَ وَمَنْ عَاقَبَ بِمِثْلِ مَا عُوقِبَ بِهِۦ ثُمَّ بُغِىَ عَلَيْهِ لَيَنصُرَنَّهُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ",
     "textSimple": " ذلك ومن عاقب بمثل ما عوقب به ثم بغى عليه لينصرنه ٱلله  إن ٱلله لعفو غفور",
     "transliteration": "dhālika waman ʿāqaba bimith'li mā ʿūqiba bihi thumma bughiya ʿalayhi layanṣurannahu l-lahu inna l-laha laʿafuwwun ghafūrun",
-    "translation": "",
+    "translation": "That [is so]. And whoever responds [to injustice] with the equivalent of that with which he was harmed and then is tyrannized - Allāh will surely aid him. Indeed, Allāh is Pardoning and Forgiving.",
     "words": [
       {
         "id": "al-hajj-60-1",
@@ -7491,7 +7550,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en sera ainsi. Quant à celui qui est agressé et se rend justice de manière similaire, puis se trouve victime d’une autre agression, Allah viendra à son secours. Car Allah est si Indulgent et Il est Absoluteur."
   },
   {
     "id": "al-hajj-61",
@@ -7500,7 +7560,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱللَّهَ يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَأَنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
     "textSimple": "ذلك بأن ٱلله يولج ٱليل فى ٱلنهار ويولج ٱلنهار فى ٱليل وأن ٱلله سميع بصير",
     "transliteration": "dhālika bi-anna l-laha yūliju al-layla fī l-nahāri wayūliju l-nahāra fī al-layli wa-anna l-laha samīʿun baṣīrun",
-    "translation": "",
+    "translation": "That is because Allāh causes the night to enter the day and causes the day to enter the night and because Allāh is Hearing and Seeing.",
     "words": [
       {
         "id": "al-hajj-61-1",
@@ -7608,7 +7668,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi Allah fait-Il entrer la nuit dans le jour et fait-il entrer le jour dans la nuit. Il Entend Tout et Il est Lucide."
   },
   {
     "id": "al-hajj-62",
@@ -7617,7 +7678,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِۦ هُوَ ٱلْبَـٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ",
     "textSimple": "ذلك بأن ٱلله هو ٱلحق وأن ما يدعون من دونه هو ٱلبـطل وأن ٱلله هو ٱلعلى ٱلكبير",
     "transliteration": "dhālika bi-anna l-laha huwa l-ḥaqu wa-anna mā yadʿūna min dūnihi huwa l-bāṭilu wa-anna l-laha huwa l-ʿaliyu l-kabīru",
-    "translation": "",
+    "translation": "That is because Allāh is the True Reality, and that which they call upon other than Him is falsehood, and because Allāh is the Most High, the Grand.",
     "words": [
       {
         "id": "al-hajj-62-1",
@@ -7739,7 +7800,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi Allah est-Il la Vérité même, tandis que ce qui est invoqué en dehors de Lui est le mensonge même. Allah est le Très Haut, le Grand."
   },
   {
     "id": "al-hajj-63",
@@ -7748,7 +7810,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَتُصْبِحُ ٱلْأَرْضُ مُخْضَرَّةً ۗ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
     "textSimple": "ألم تر أن ٱلله أنزل من ٱلسمآء مآء فتصبح ٱلأرض مخضرة  إن ٱلله لطيف خبير",
     "transliteration": "alam tara anna l-laha anzala mina l-samāi māan fatuṣ'biḥu l-arḍu mukh'ḍarratan inna l-laha laṭīfun khabīrun",
-    "translation": "",
+    "translation": "Do you not see that Allāh has sent down rain from the sky and the earth becomes green? Indeed, Allāh is Subtle and Aware.",
     "words": [
       {
         "id": "al-hajj-63-1",
@@ -7856,7 +7918,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’Allah fait descendre de l’eau du ciel, et qu’alors la terre verdit ? Allah est Subtil et Il est Tout Informé."
   },
   {
     "id": "al-hajj-64",
@@ -7865,7 +7928,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
     "textSimple": "له ما فى ٱلسمـوت وما فى ٱلأرض  وإن ٱلله لهو ٱلغنى ٱلحميد",
     "transliteration": "lahu mā fī l-samāwāti wamā fī l-arḍi wa-inna l-laha lahuwa l-ghaniyu l-ḥamīdu",
-    "translation": "",
+    "translation": "To Him belongs what is in the heavens and what is on the earth. And indeed, Allāh is the Free of need, the Praiseworthy.",
     "words": [
       {
         "id": "al-hajj-64-1",
@@ -7952,7 +8015,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartient ce qu’il y a dans les cieux et sur terre. Allah est Celui Qui Se passe de Tout, le Digne de Toutes louanges !"
   },
   {
     "id": "al-hajj-65",
@@ -7961,7 +8025,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
     "textSimple": "ألم تر أن ٱلله سخر لكم ما فى ٱلأرض وٱلفلك تجرى فى ٱلبحر بأمره ويمسك ٱلسمآء أن تقع على ٱلأرض إلا بإذنهٓ  إن ٱلله بٱلناس لرءوف رحيم",
     "transliteration": "alam tara anna l-laha sakhara lakum mā fī l-arḍi wal-ful'ka tajrī fī l-baḥri bi-amrihi wayum'siku l-samāa an taqaʿa ʿalā l-arḍi illā bi-idh'nihi inna l-laha bil-nāsi laraūfun raḥīmun",
-    "translation": "",
+    "translation": "Do you not see that Allāh has subjected to you whatever is on the earth and the ships which run through the sea by His command? And He restrains the sky from falling upon the earth, unless by His permission. Indeed Allāh, to the people, is Kind and Merciful.",
     "words": [
       {
         "id": "al-hajj-65-1",
@@ -8153,7 +8217,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vois-tu pas qu’Allah a soumis pour vous tout ce qu’il y a sur terre, et même les vaisseaux qui voguent en mer par Son ordre ? Il tient le ciel (suspendu) et l’empêche, sans Sa permission, de tomber sur terre. Allah est envers les hommes Tout Indulgent et Absoluteur."
   },
   {
     "id": "al-hajj-66",
@@ -8162,7 +8227,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِىٓ أَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۗ إِنَّ ٱلْإِنسَـٰنَ لَكَفُورٌ",
     "textSimple": "وهو ٱلذىٓ أحياكم ثم يميتكم ثم يحييكم  إن ٱلإنسـن لكفور",
     "transliteration": "wahuwa alladhī aḥyākum thumma yumītukum thumma yuḥ'yīkum inna l-insāna lakafūrun",
-    "translation": "",
+    "translation": "And He is the one who gave you life; then He causes you to die and then will [again] give you life. Indeed, mankind is ungrateful.",
     "words": [
       {
         "id": "al-hajj-66-1",
@@ -8235,7 +8300,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a fait vivre, Qui vous fera mourir, puis vous fera revivre. L’homme est outrageusement ingrat."
   },
   {
     "id": "al-hajj-67",
@@ -8244,7 +8310,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "لِّكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا هُمْ نَاسِكُوهُ ۖ فَلَا يُنَـٰزِعُنَّكَ فِى ٱلْأَمْرِ ۚ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ إِنَّكَ لَعَلَىٰ هُدًى مُّسْتَقِيمٍ",
     "textSimple": "لكل أمة جعلنا منسكا هم ناسكوه  فلا ينـزعنك فى ٱلأمر  وٱدع إلى ربك  إنك لعلى هدى مستقيم",
     "transliteration": "likulli ummatin jaʿalnā mansakan hum nāsikūhu falā yunāziʿunnaka fī l-amri wa-ud'ʿu ilā rabbika innaka laʿalā hudan mus'taqīmin",
-    "translation": "",
+    "translation": "For every [religious] community We have appointed rites which they perform. So, [O Muḥammad], let them [i.e., the disbelievers] not contend with you over the matter but invite [them] to your Lord. Indeed, you are upon straight guidance.",
     "words": [
       {
         "id": "al-hajj-67-1",
@@ -8366,7 +8432,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour chaque communauté Nous avons établi un rituel qu’elle doit observer. Qu’ils ne disputent donc pas de cet ordre avec toi. Appelle (les hommes) vers ton Seigneur. Tu es dans la droite direction."
   },
   {
     "id": "al-hajj-68",
@@ -8375,7 +8442,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن جَـٰدَلُوكَ فَقُلِ ٱللَّهُ أَعْلَمُ بِمَا تَعْمَلُونَ",
     "textSimple": "وإن جـدلوك فقل ٱلله أعلم بما تعملون",
     "transliteration": "wa-in jādalūka faquli l-lahu aʿlamu bimā taʿmalūna",
-    "translation": "",
+    "translation": "And if they dispute with you, then say, \"Allāh is most knowing of what you do.",
     "words": [
       {
         "id": "al-hajj-68-1",
@@ -8427,7 +8494,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si, malgré tout, ils disputent avec toi à ce sujet, dis (-leur) : « Allah Sait le mieux ce que vous faites."
   },
   {
     "id": "al-hajj-69",
@@ -8436,7 +8504,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَـٰمَةِ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
     "textSimple": "ٱلله يحكم بينكم يوم ٱلقيـمة فيما كنتم فيه تختلفون",
     "transliteration": "al-lahu yaḥkumu baynakum yawma l-qiyāmati fīmā kuntum fīhi takhtalifūna",
-    "translation": "",
+    "translation": "Allāh will judge between you on the Day of Resurrection concerning that over which you used to differ.\"",
     "words": [
       {
         "id": "al-hajj-69-1",
@@ -8502,7 +8570,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah jugera bien vos différends au Jour de la Résurrection. »"
   },
   {
     "id": "al-hajj-70",
@@ -8511,7 +8580,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ إِنَّ ذَٰلِكَ فِى كِتَـٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
     "textSimple": "ألم تعلم أن ٱلله يعلم ما فى ٱلسمآء وٱلأرض  إن ذلك فى كتـب  إن ذلك على ٱلله يسير",
     "transliteration": "alam taʿlam anna l-laha yaʿlamu mā fī l-samāi wal-arḍi inna dhālika fī kitābin inna dhālika ʿalā l-lahi yasīrun",
-    "translation": "",
+    "translation": "Do you not know that Allāh knows what is in the heaven and earth? Indeed, that is in a Record. Indeed that, for Allāh, is easy.",
     "words": [
       {
         "id": "al-hajj-70-1",
@@ -8640,7 +8709,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sais-tu pas qu’Allah Sait ce qu’il y a dans le ciel et sur terre ? Cela est (consigné) dans un Livre et cela, pour Allah, est chose si facile."
   },
   {
     "id": "al-hajj-71",
@@ -8649,7 +8719,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا وَمَا لَيْسَ لَهُم بِهِۦ عِلْمٌ ۗ وَمَا لِلظَّـٰلِمِينَ مِن نَّصِيرٍ",
     "textSimple": "ويعبدون من دون ٱلله ما لم ينزل به سلطـنا وما ليس لهم به علم  وما للظـلمين من نصير",
     "transliteration": "wayaʿbudūna min dūni l-lahi mā lam yunazzil bihi sul'ṭānan wamā laysa lahum bihi ʿil'mun wamā lilẓẓālimīna min naṣīrin",
-    "translation": "",
+    "translation": "And they worship besides Allāh that for which He has not sent down authority and that of which they have no knowledge. And there will not be for the wrongdoers any helper.",
     "words": [
       {
         "id": "al-hajj-71-1",
@@ -8778,7 +8848,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils adorent en dehors d’Allah ce qu’Il n’a appuyé d’aucune preuve d’autorité, et ce dont ils n’ont aucun savoir. Les injustes n’auront point de défenseur."
   },
   {
     "id": "al-hajj-72",
@@ -8787,7 +8858,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ تَعْرِفُ فِى وُجُوهِ ٱلَّذِينَ كَفَرُوا۟ ٱلْمُنكَرَ ۖ يَكَادُونَ يَسْطُونَ بِٱلَّذِينَ يَتْلُونَ عَلَيْهِمْ ءَايَـٰتِنَا ۗ قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ ۗ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "وإذا تتلى عليهم ءايـتنا بينـت تعرف فى وجوه ٱلذين كفروا ٱلمنكر  يكادون يسطون بٱلذين يتلون عليهم ءايـتنا  قل أفأنبئكم بشر من ذلكم  ٱلنار وعدها ٱلله ٱلذين كفروا  وبئس ٱلمصير",
     "transliteration": "wa-idhā tut'lā ʿalayhim āyātunā bayyinātin taʿrifu fī wujūhi alladhīna kafarū l-munkara yakādūna yasṭūna bi-alladhīna yatlūna ʿalayhim āyātinā qul afa-unabbi-ukum bisharrin min dhālikumu l-nāru waʿadahā l-lahu alladhīna kafarū wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "And when Our verses are recited to them as clear evidences, you recognize in the faces of those who disbelieve disapproval. They are almost on the verge of assaulting those who recite to them Our verses. Say, \"Then shall I inform you of [what is] worse than that? [It is] the Fire which Allāh has promised those who disbelieve, and wretched is the destination.\"",
     "words": [
       {
         "id": "al-hajj-72-1",
@@ -8993,7 +9064,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque leur sont récités Nos versets explicites, tu décèles le rejet sur les visages des mécréants. Pour un peu, ils brutaliseraient ceux qui leur récitent Nos versets. Dis : « Vous apprendrai-je quelque chose de pire ? À ceux qui ont mécru, Allah a promis le Feu. Quelle affreuse destinée ! »"
   },
   {
     "id": "al-hajj-73",
@@ -9002,7 +9074,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
     "textSimple": "يـٓأيها ٱلناس ضرب مثل فٱستمعوا لهٓ  إن ٱلذين تدعون من دون ٱلله لن يخلقوا ذبابا ولو ٱجتمعوا له  وإن يسلبهم ٱلذباب شيـٔا لا يستنقذوه منه  ضعف ٱلطالب وٱلمطلوب",
     "transliteration": "yāayyuhā l-nāsu ḍuriba mathalun fa-is'tamiʿū lahu inna alladhīna tadʿūna min dūni l-lahi lan yakhluqū dhubāban walawi ij'tamaʿū lahu wa-in yaslub'humu l-dhubābu shayan lā yastanqidhūhu min'hu ḍaʿufa l-ṭālibu wal-maṭlūbu",
-    "translation": "",
+    "translation": "O people, an example is presented, so listen to it. Indeed, those you invoke besides Allāh will never create [as much as] a fly, even if they gathered together for it [i.e., that purpose]. And if the fly should steal from them a [tiny] thing, they could not recover it from him. Weak are the pursuer and pursued.",
     "words": [
       {
         "id": "al-hajj-73-1",
@@ -9201,7 +9273,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô hommes ! Il vous est proposé une parabole, écoutez-la : ceux que vous invoquez en dehors d’Allah ne créeront même pas une mouche, dussent-ils, pour cela, s’y employer tous ensemble. Et si la mouche venait à leur ôter quelque chose, ils ne pourraient le lui reprendre. Aussi bien sont donc faibles le solliciteur et le sollicité."
   },
   {
     "id": "al-hajj-74",
@@ -9210,7 +9283,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "مَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ ۗ إِنَّ ٱللَّهَ لَقَوِىٌّ عَزِيزٌ",
     "textSimple": "ما قدروا ٱلله حق قدرهٓ  إن ٱلله لقوى عزيز",
     "transliteration": "mā qadarū l-laha ḥaqqa qadrihi inna l-laha laqawiyyun ʿazīzun",
-    "translation": "",
+    "translation": "They have not appraised Allāh with true appraisal. Indeed, Allāh is Powerful and Exalted in Might.",
     "words": [
       {
         "id": "al-hajj-74-1",
@@ -9276,7 +9349,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne tiennent point Allah en l’estime digne de Sa valeur. Allah est Fort et Tout – Puissant."
   },
   {
     "id": "al-hajj-75",
@@ -9285,7 +9359,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ يَصْطَفِى مِنَ ٱلْمَلَـٰٓئِكَةِ رُسُلًا وَمِنَ ٱلنَّاسِ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
     "textSimple": "ٱلله يصطفى من ٱلملـٓئكة رسلا ومن ٱلناس  إن ٱلله سميع بصير",
     "transliteration": "al-lahu yaṣṭafī mina l-malāikati rusulan wamina l-nāsi inna l-laha samīʿun baṣīrun",
-    "translation": "",
+    "translation": "Allāh chooses from the angels messengers and from the people. Indeed, Allāh is Hearing and Seeing.",
     "words": [
       {
         "id": "al-hajj-75-1",
@@ -9365,7 +9439,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah élit des Envoyés parmi les Anges et les hommes. Allah Entend Tout et Il est Lucide."
   },
   {
     "id": "al-hajj-76",
@@ -9374,7 +9449,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۗ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
     "textSimple": "يعلم ما بين أيديهم وما خلفهم  وإلى ٱلله ترجع ٱلأمور",
     "transliteration": "yaʿlamu mā bayna aydīhim wamā khalfahum wa-ilā l-lahi tur'jaʿu l-umūru",
-    "translation": "",
+    "translation": "He knows what is [presently] before them and what will be after them. And to Allāh will be returned [all] matters.",
     "words": [
       {
         "id": "al-hajj-76-1",
@@ -9447,7 +9522,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Sait ce qu’il y a devant eux et ce qu’il y a derrière eux, et c’est vers Lui que tout doit être ramené."
   },
   {
     "id": "al-hajj-77",
@@ -9456,7 +9532,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱركعوا وٱسجدوا وٱعبدوا ربكم وٱفعلوا ٱلخير لعلكم تفلحون ",
     "transliteration": "yāayyuhā alladhīna āmanū ir'kaʿū wa-us'judū wa-uʿ'budū rabbakum wa-if'ʿalū l-khayra laʿallakum tuf'liḥūna",
-    "translation": "",
+    "translation": "O you who have believed, bow and prostrate and worship your Lord and do good - that you may succeed.",
     "words": [
       {
         "id": "al-hajj-77-1",
@@ -9536,7 +9612,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Inclinez-vous, prosternez-vous, adorez votre Seigneur et faites le bien, peut-être aurez-vous la réussite."
   },
   {
     "id": "al-hajj-78",
@@ -9545,7 +9622,7 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
     "textUthmani": "وَجَـٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَـٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ",
     "textSimple": "وجـهدوا فى ٱلله حق جهاده  هو ٱجتبىكم وما جعل عليكم فى ٱلدين من حرج  ملة أبيكم إبرهيم  هو سمىكم ٱلمسلمين من قبل وفى هـذا ليكون ٱلرسول شهيدا عليكم وتكونوا شهدآء على ٱلناس  فأقيموا ٱلصلوة وءاتوا ٱلزكوة وٱعتصموا بٱلله هو مولىكم  فنعم ٱلمولى ونعم ٱلنصير",
     "transliteration": "wajāhidū fī l-lahi ḥaqqa jihādihi huwa ij'tabākum wamā jaʿala ʿalaykum fī l-dīni min ḥarajin millata abīkum ib'rāhīma huwa sammākumu l-mus'limīna min qablu wafī hādhā liyakūna l-rasūlu shahīdan ʿalaykum watakūnū shuhadāa ʿalā l-nāsi fa-aqīmū l-ṣalata waātū l-zakata wa-iʿ'taṣimū bil-lahi huwa mawlākum faniʿ'ma l-mawlā waniʿ'ma l-naṣīru",
-    "translation": "",
+    "translation": "And strive for Allāh with the striving due to Him. He has chosen you and has not placed upon you in the religion any difficulty. [It is] the religion of your father, Abraham. He [i.e., Allāh] named you \"Muslims\" before [in former scriptures] and in this [revelation] that the Messenger may be a witness over you and you may be witnesses over the people. So establish prayer and give zakāh and hold fast to Allāh. He is your protector; and excellent is the protector, and excellent is the helper.",
     "words": [
       {
         "id": "al-hajj-78-1",
@@ -9856,7 +9933,8 @@ export const AL_HAJJ_AYAHS: Ayah[] = [
         "position": 43
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Luttez pour Allah comme il convient que soit la lutte (pour Sa cause). C’est Lui Qui vous a élus. Il ne vous a soumis à aucune gêne dans cette religion qui est celle de votre père Abraham. C’est Lui Qui auparavant vous a nommés « les Soumis » (les « Musulmans »), et dans ce Livre même, afin que le Messager soit votre témoin et que vous soyez vous-mêmes les témoins des (autres hommes). Accomplissez donc la Çalât, acquittez-vous de la Zakât, et attachez-vous à Allah. C’est Lui votre Protecteur. Quel parfait Protecteur, et quel parfait Soutien !"
   }
 ];
 

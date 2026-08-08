@@ -11,7 +11,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": " ٱقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ وَهُمْ فِى غَفْلَةٍ مُّعْرِضُونَ",
     "textSimple": " ٱقترب للناس حسابهم وهم فى غفلة معرضون",
     "transliteration": "iq'taraba lilnnāsi ḥisābuhum wahum fī ghaflatin muʿ'riḍūna",
-    "translation": "",
+    "translation": "[The time of] their account has approached for the people, while they are in heedlessness turning away.",
     "words": [
       {
         "id": "al-anbya-1-1",
@@ -63,7 +63,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(L’Heure) approche où les hommes auront à rendre compte (de leurs actions), mais ils s’en détournent, distraits."
   },
   {
     "id": "al-anbya-2",
@@ -72,7 +73,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم مُّحْدَثٍ إِلَّا ٱسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ",
     "textSimple": "ما يأتيهم من ذكر من ربهم محدث إلا ٱستمعوه وهم يلعبون",
     "transliteration": "mā yatīhim min dhik'rin min rabbihim muḥ'dathin illā is'tamaʿūhu wahum yalʿabūna",
-    "translation": "",
+    "translation": "No mention [i.e., revelation] comes to them anew from their Lord except that they listen to it while they are at play",
     "words": [
       {
         "id": "al-anbya-2-1",
@@ -152,7 +153,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne leur parvient aucun rappel récent de leur Seigneur qu’ils n’écoutent en plaisantant,"
   },
   {
     "id": "al-anbya-3",
@@ -161,7 +163,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَاهِيَةً قُلُوبُهُمْ ۗ وَأَسَرُّوا۟ ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُوا۟ هَلْ هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ",
     "textSimple": "لاهية قلوبهم  وأسروا ٱلنجوى ٱلذين ظلموا هل هـذآ إلا بشر مثلكم  أفتأتون ٱلسحر وأنتم تبصرون",
     "transliteration": "lāhiyatan qulūbuhum wa-asarrū l-najwā alladhīna ẓalamū hal hādhā illā basharun mith'lukum afatatūna l-siḥ'ra wa-antum tub'ṣirūna",
-    "translation": "",
+    "translation": "With their hearts distracted. And those who do wrong conceal their private conversation, [saying], \"Is this [Prophet] except a human being like you? So would you approach magic while you are aware [of it]?\"",
     "words": [
       {
         "id": "al-anbya-3-1",
@@ -269,7 +271,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et le cœur distrait. Ceux qui ont commis des injustices se disent en secret : « Est-ce là autre chose qu’un être humain comme vous ? Allez-vous donc croire à la magie alors que vous voyez bien (de quoi il s’agit). »"
   },
   {
     "id": "al-anbya-4",
@@ -278,7 +281,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّى يَعْلَمُ ٱلْقَوْلَ فِى ٱلسَّمَآءِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
     "textSimple": "قال ربى يعلم ٱلقول فى ٱلسمآء وٱلأرض  وهو ٱلسميع ٱلعليم",
     "transliteration": "qāla rabbī yaʿlamu l-qawla fī l-samāi wal-arḍi wahuwa l-samīʿu l-ʿalīmu",
-    "translation": "",
+    "translation": "He [the Prophet (ﷺ)] said, \"My Lord knows whatever is said throughout the heaven and earth, and He is the Hearing, the Knowing.\"",
     "words": [
       {
         "id": "al-anbya-4-1",
@@ -351,7 +354,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Mon Seigneur Sait tout ce qui se dit dans le ciel et sur terre. Il Entend Tout et il est l’Omniscient. »"
   },
   {
     "id": "al-anbya-5",
@@ -360,7 +364,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ قَالُوٓا۟ أَضْغَـٰثُ أَحْلَـٰمٍۭ بَلِ ٱفْتَرَىٰهُ بَلْ هُوَ شَاعِرٌ فَلْيَأْتِنَا بِـَٔايَةٍ كَمَآ أُرْسِلَ ٱلْأَوَّلُونَ",
     "textSimple": "بل قالوٓا أضغـث أحلـم بل ٱفترىه بل هو شاعر فليأتنا بـٔاية كمآ أرسل ٱلأولون",
     "transliteration": "bal qālū aḍghāthu aḥlāmin bali if'tarāhu bal huwa shāʿirun falyatinā biāyatin kamā ur'sila l-awalūna",
-    "translation": "",
+    "translation": "But they say, \"[The revelation is but] a mixture of false dreams; rather, he has invented it; rather, he is a poet. So let him bring us a sign just as the previous [messengers] were sent [with miracles].\"",
     "words": [
       {
         "id": "al-anbya-5-1",
@@ -461,7 +465,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent alors : « Ce ne sont là que songes confus, ou peut-être l’a-t-il inventé lui-même. Peut-être même est-ce un poète. Qu’il nous apporte donc un Signe comme (en ont apporté) les premiers Envoyés. »"
   },
   {
     "id": "al-anbya-6",
@@ -470,7 +475,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "مَآ ءَامَنَتْ قَبْلَهُم مِّن قَرْيَةٍ أَهْلَكْنَـٰهَآ ۖ أَفَهُمْ يُؤْمِنُونَ",
     "textSimple": "مآ ءامنت قبلهم من قرية أهلكنـهآ  أفهم يؤمنون",
     "transliteration": "mā āmanat qablahum min qaryatin ahlaknāhā afahum yu'minūna",
-    "translation": "",
+    "translation": "Not a [single] city which We destroyed believed before them, so will they believe?",
     "words": [
       {
         "id": "al-anbya-6-1",
@@ -529,7 +534,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucune cité n’avait cru de celles-là que Nous avons fait périr. Ceux-ci vont-ils donc croire ?"
   },
   {
     "id": "al-anbya-7",
@@ -538,7 +544,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا قَبْلَكَ إِلَّا رِجَالًا نُّوحِىٓ إِلَيْهِمْ ۖ فَسْـَٔلُوٓا۟ أَهْلَ ٱلذِّكْرِ إِن كُنتُمْ لَا تَعْلَمُونَ",
     "textSimple": "ومآ أرسلنا قبلك إلا رجالا نوحىٓ إليهم  فسـٔلوٓا أهل ٱلذكر إن كنتم لا تعلمون",
     "transliteration": "wamā arsalnā qablaka illā rijālan nūḥī ilayhim fasalū ahla l-dhik'ri in kuntum lā taʿlamūna",
-    "translation": "",
+    "translation": "And We sent not before you, [O Muḥammad], except men to whom We revealed [the message], so ask the people of the message [i.e., former scriptures] if you do not know.",
     "words": [
       {
         "id": "al-anbya-7-1",
@@ -639,7 +645,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé avant toi que des hommes auxquels Nous faisions des révélations. Interrogez donc (à ce sujet) les gens initiés aux Écritures, si vous ne le savez pas."
   },
   {
     "id": "al-anbya-8",
@@ -648,7 +655,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا جَعَلْنَـٰهُمْ جَسَدًا لَّا يَأْكُلُونَ ٱلطَّعَامَ وَمَا كَانُوا۟ خَـٰلِدِينَ",
     "textSimple": "وما جعلنـهم جسدا لا يأكلون ٱلطعام وما كانوا خـلدين",
     "transliteration": "wamā jaʿalnāhum jasadan lā yakulūna l-ṭaʿāma wamā kānū khālidīna",
-    "translation": "",
+    "translation": "And We did not make them [i.e., the prophets] forms not eating food, nor were they immortal [on earth].",
     "words": [
       {
         "id": "al-anbya-8-1",
@@ -714,7 +721,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous ne leur avons point donné des corps qui pouvaient se passer de nourriture, et ils n’étaient point immortels."
   },
   {
     "id": "al-anbya-9",
@@ -723,7 +731,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ صَدَقْنَـٰهُمُ ٱلْوَعْدَ فَأَنجَيْنَـٰهُمْ وَمَن نَّشَآءُ وَأَهْلَكْنَا ٱلْمُسْرِفِينَ",
     "textSimple": "ثم صدقنـهم ٱلوعد فأنجينـهم ومن نشآء وأهلكنا ٱلمسرفين",
     "transliteration": "thumma ṣadaqnāhumu l-waʿda fa-anjaynāhum waman nashāu wa-ahlaknā l-mus'rifīna",
-    "translation": "",
+    "translation": "Then We fulfilled for them the promise, and We saved them and whom We willed and destroyed the transgressors.",
     "words": [
       {
         "id": "al-anbya-9-1",
@@ -782,7 +790,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons honoré la promesse (que Nous leur avions faite) et les avons sauvés avec ceux que Nous voulions (sauver). Et Nous avons fait périr ceux qui abusaient."
   },
   {
     "id": "al-anbya-10",
@@ -791,7 +800,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ أَنزَلْنَآ إِلَيْكُمْ كِتَـٰبًا فِيهِ ذِكْرُكُمْ ۖ أَفَلَا تَعْقِلُونَ",
     "textSimple": "لقد أنزلنآ إليكم كتـبا فيه ذكركم  أفلا تعقلون",
     "transliteration": "laqad anzalnā ilaykum kitāban fīhi dhik'rukum afalā taʿqilūna",
-    "translation": "",
+    "translation": "We have certainly sent down to you a Book [i.e., the Qur’ān] in which is your mention. Then will you not reason?",
     "words": [
       {
         "id": "al-anbya-10-1",
@@ -850,7 +859,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait descendre (en révélation) vers vous un Livre où il y a pour vous gloire et honneur. N’allez-vous donc pas entendre raison ?"
   },
   {
     "id": "al-anbya-11",
@@ -859,7 +869,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنشَأْنَا بَعْدَهَا قَوْمًا ءَاخَرِينَ",
     "textSimple": "وكم قصمنا من قرية كانت ظالمة وأنشأنا بعدها قوما ءاخرين",
     "transliteration": "wakam qaṣamnā min qaryatin kānat ẓālimatan wa-anshanā baʿdahā qawman ākharīna",
-    "translation": "",
+    "translation": "And how many a city which was unjust have We shattered and produced after it another people.",
     "words": [
       {
         "id": "al-anbya-11-1",
@@ -932,7 +942,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de cités n’avons-Nous pas écrasées, qui étaient injustes ! Nous avons alors créé à leur place d’autres communautés."
   },
   {
     "id": "al-anbya-12",
@@ -941,7 +952,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَحَسُّوا۟ بَأْسَنَآ إِذَا هُم مِّنْهَا يَرْكُضُونَ",
     "textSimple": "فلمآ أحسوا بأسنآ إذا هم منها يركضون",
     "transliteration": "falammā aḥassū basanā idhā hum min'hā yarkuḍūna",
-    "translation": "",
+    "translation": "And when they [i.e., its inhabitants] perceived Our punishment, at once they fled from it.",
     "words": [
       {
         "id": "al-anbya-12-1",
@@ -993,7 +1004,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils avaient senti combien dure allait être Notre riposte, ils s’enfuirent de (leurs cités) précipitamment."
   },
   {
     "id": "al-anbya-13",
@@ -1002,7 +1014,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَا تَرْكُضُوا۟ وَٱرْجِعُوٓا۟ إِلَىٰ مَآ أُتْرِفْتُمْ فِيهِ وَمَسَـٰكِنِكُمْ لَعَلَّكُمْ تُسْـَٔلُونَ",
     "textSimple": "لا تركضوا وٱرجعوٓا إلى مآ أترفتم فيه ومسـكنكم لعلكم تسـٔلون",
     "transliteration": "lā tarkuḍū wa-ir'jiʿū ilā mā ut'rif'tum fīhi wamasākinikum laʿallakum tus'alūna",
-    "translation": "",
+    "translation": "[Some angels said], \"Do not flee but return to where you were given luxury and to your homes - perhaps you will be questioned.\"",
     "words": [
       {
         "id": "al-anbya-13-1",
@@ -1075,7 +1087,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne prenez pas la fuite, revenez au faste où vous étiez, et à vos maisons (huppées), peut-être serez-vous interrogés."
   },
   {
     "id": "al-anbya-14",
@@ -1084,7 +1097,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰوَيْلَنَآ إِنَّا كُنَّا ظَـٰلِمِينَ",
     "textSimple": "قالوا يـويلنآ إنا كنا ظـلمين",
     "transliteration": "qālū yāwaylanā innā kunnā ẓālimīna",
-    "translation": "",
+    "translation": "They said, \"O woe to us! Indeed, we were wrongdoers.\"",
     "words": [
       {
         "id": "al-anbya-14-1",
@@ -1122,7 +1135,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Malheur à nous, dirent-ils, nous étions vraiment injustes ! »"
   },
   {
     "id": "al-anbya-15",
@@ -1131,7 +1145,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَـٰهُمْ حَصِيدًا خَـٰمِدِينَ",
     "textSimple": "فما زالت تلك دعوىهم حتى جعلنـهم حصيدا خـمدين",
     "transliteration": "famā zālat til'ka daʿwāhum ḥattā jaʿalnāhum ḥaṣīdan khāmidīna",
-    "translation": "",
+    "translation": "And that declaration of theirs did not cease until We made them [as] a harvest [mowed down], extinguished [like a fire].",
     "words": [
       {
         "id": "al-anbya-15-1",
@@ -1190,7 +1204,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et leurs plaintes se poursuivirent ainsi jusqu’à ce que Nous ayons fait d’eux comme un champ moissonné et inerte."
   },
   {
     "id": "al-anbya-16",
@@ -1199,7 +1214,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَـٰعِبِينَ",
     "textSimple": "وما خلقنا ٱلسمآء وٱلأرض وما بينهما لـعبين",
     "transliteration": "wamā khalaqnā l-samāa wal-arḍa wamā baynahumā lāʿibīna",
-    "translation": "",
+    "translation": "And We did not create the heaven and earth and that between them in play.",
     "words": [
       {
         "id": "al-anbya-16-1",
@@ -1251,7 +1266,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons pas créé le ciel, la terre et ce qu’il y a entre eux, pour Nous distraire."
   },
   {
     "id": "al-anbya-17",
@@ -1260,7 +1276,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ أَرَدْنَآ أَن نَّتَّخِذَ لَهْوًا لَّٱتَّخَذْنَـٰهُ مِن لَّدُنَّآ إِن كُنَّا فَـٰعِلِينَ",
     "textSimple": "لو أردنآ أن نتخذ لهوا لٱتخذنـه من لدنآ إن كنا فـعلين",
     "transliteration": "law aradnā an nattakhidha lahwan la-ittakhadhnāhu min ladunnā in kunnā fāʿilīna",
-    "translation": "",
+    "translation": "Had We intended to take a diversion, We could have taken it from [what is] with Us - if [indeed] We were to do so.",
     "words": [
       {
         "id": "al-anbya-17-1",
@@ -1340,7 +1356,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous avions voulu en faire un jeu, Nous l’aurions fait par Nous-même, pour peu que Nous ayons désiré le faire."
   },
   {
     "id": "al-anbya-18",
@@ -1349,7 +1366,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَـٰطِلِ فَيَدْمَغُهُۥ فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ",
     "textSimple": "بل نقذف بٱلحق على ٱلبـطل فيدمغه فإذا هو زاهق  ولكم ٱلويل مما تصفون",
     "transliteration": "bal naqdhifu bil-ḥaqi ʿalā l-bāṭili fayadmaghuhu fa-idhā huwa zāhiqun walakumu l-waylu mimmā taṣifūna",
-    "translation": "",
+    "translation": "Rather, We dash the truth upon falsehood, and it destroys it, and thereupon it departs. And for you is destruction from that which you describe.",
     "words": [
       {
         "id": "al-anbya-18-1",
@@ -1443,7 +1460,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lançons plutôt sur le mensonge la vérité qui lui porte un grand coup, et voilà qu’il n’est plus. Malheur à vous pour ce que vous attribuez (à Allah) !"
   },
   {
     "id": "al-anbya-19",
@@ -1452,7 +1470,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَمَنْ عِندَهُۥ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِۦ وَلَا يَسْتَحْسِرُونَ",
     "textSimple": "وله من فى ٱلسمـوت وٱلأرض  ومن عنده لا يستكبرون عن عبادته ولا يستحسرون",
     "transliteration": "walahu man fī l-samāwāti wal-arḍi waman ʿindahu lā yastakbirūna ʿan ʿibādatihi walā yastaḥsirūna",
-    "translation": "",
+    "translation": "To Him belongs whoever is in the heavens and the earth. And those near Him [i.e., the angels] are not prevented by arrogance from His worship, nor do they tire.",
     "words": [
       {
         "id": "al-anbya-19-1",
@@ -1546,7 +1564,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartiennent ceux qui se trouvent dans les cieux et la terre. Et ceux qui sont auprès de Lui ne dédaignent pas Son adoration ni ne s’en lassent."
   },
   {
     "id": "al-anbya-20",
@@ -1555,7 +1574,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ لَا يَفْتُرُونَ",
     "textSimple": "يسبحون ٱليل وٱلنهار لا يفترون",
     "transliteration": "yusabbiḥūna al-layla wal-nahāra lā yafturūna",
-    "translation": "",
+    "translation": "They exalt [Him] night and day [and] do not slacken.",
     "words": [
       {
         "id": "al-anbya-20-1",
@@ -1593,7 +1612,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils Lui rendent gloire nuit et jour et sans s’interrompre jamais."
   },
   {
     "id": "al-anbya-21",
@@ -1602,7 +1622,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "أَمِ ٱتَّخَذُوٓا۟ ءَالِهَةً مِّنَ ٱلْأَرْضِ هُمْ يُنشِرُونَ",
     "textSimple": "أم ٱتخذوٓا ءالهة من ٱلأرض هم ينشرون",
     "transliteration": "ami ittakhadhū ālihatan mina l-arḍi hum yunshirūna",
-    "translation": "",
+    "translation": "Or have they [i.e., men] taken for themselves gods from the earth who resurrect [the dead]?",
     "words": [
       {
         "id": "al-anbya-21-1",
@@ -1654,7 +1674,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors ont-ils adopté des divinités à partir de la terre qui, celles-là, vont ressusciter les morts ?"
   },
   {
     "id": "al-anbya-22",
@@ -1663,7 +1684,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا ۚ فَسُبْحَـٰنَ ٱللَّهِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ",
     "textSimple": "لو كان فيهمآ ءالهة إلا ٱلله لفسدتا  فسبحـن ٱلله رب ٱلعرش عما يصفون",
     "transliteration": "law kāna fīhimā ālihatun illā l-lahu lafasadatā fasub'ḥāna l-lahi rabbi l-ʿarshi ʿammā yaṣifūna",
-    "translation": "",
+    "translation": "Had there been within them [i.e., the heavens and earth] gods besides Allāh, they both would have been ruined. So exalted is Allāh, Lord of the Throne, above what they describe.",
     "words": [
       {
         "id": "al-anbya-22-1",
@@ -1757,7 +1778,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si dans (le ciel et sur terre) il y avait d’autres divinités qu’Allah, tous deux seraient certes altérés. Gloire donc soit rendue à Allah, le Seigneur du Trône, Lui Qui est bien au-delà de ce qu’ils Lui attribuent !"
   },
   {
     "id": "al-anbya-23",
@@ -1766,7 +1788,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَا يُسْـَٔلُ عَمَّا يَفْعَلُ وَهُمْ يُسْـَٔلُونَ",
     "textSimple": "لا يسـٔل عما يفعل وهم يسـٔلون",
     "transliteration": "lā yus'alu ʿammā yafʿalu wahum yus'alūna",
-    "translation": "",
+    "translation": "He is not questioned about what He does, but they will be questioned.",
     "words": [
       {
         "id": "al-anbya-23-1",
@@ -1811,7 +1833,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne saurait être questionné sur Ses œuvres, mais eux seront questionnés sur les leurs."
   },
   {
     "id": "al-anbya-24",
@@ -1820,7 +1843,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "أَمِ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةً ۖ قُلْ هَاتُوا۟ بُرْهَـٰنَكُمْ ۖ هَـٰذَا ذِكْرُ مَن مَّعِىَ وَذِكْرُ مَن قَبْلِى ۗ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ ٱلْحَقَّ ۖ فَهُم مُّعْرِضُونَ",
     "textSimple": "أم ٱتخذوا من دونهٓ ءالهة  قل هاتوا برهـنكم  هـذا ذكر من معى وذكر من قبلى  بل أكثرهم لا يعلمون ٱلحق  فهم معرضون",
     "transliteration": "ami ittakhadhū min dūnihi ālihatan qul hātū bur'hānakum hādhā dhik'ru man maʿiya wadhik'ru man qablī bal aktharuhum lā yaʿlamūna l-ḥaqa fahum muʿ'riḍūna",
-    "translation": "",
+    "translation": "Or have they taken gods besides Him? Say, [O Muḥammad], \"Produce your proof. This [Qur’ān] is the message for those with me and the message of those before me.\" But most of them do not know the truth, so they are turning away.",
     "words": [
       {
         "id": "al-anbya-24-1",
@@ -1977,7 +2000,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors ils ont pris des divinités en dehors de Lui ? Dis : « Montrez donc votre preuve ! » Voici le Rappel de ceux qui sont avec moi et le Rappel de ceux qui étaient avant moi. Pourtant, la plupart ne savent pas la vérité et s’en détournent."
   },
   {
     "id": "al-anbya-25",
@@ -1986,7 +2010,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
     "textSimple": "ومآ أرسلنا من قبلك من رسول إلا نوحىٓ إليه أنه لآ إلـه إلآ أنا فٱعبدون",
     "transliteration": "wamā arsalnā min qablika min rasūlin illā nūḥī ilayhi annahu lā ilāha illā anā fa-uʿ'budūni",
-    "translation": "",
+    "translation": "And We sent not before you any messenger except We revealed to him that, \"There is no deity except Me, so worship Me.\"",
     "words": [
       {
         "id": "al-anbya-25-1",
@@ -2094,7 +2118,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons envoyé aucun Messager avant toi sans que Nous ne Lui ayons fait la révélation que voici : « Il n’y a point d’autre divinité que Moi. Adorez-Moi donc. »"
   },
   {
     "id": "al-anbya-26",
@@ -2103,7 +2128,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَـٰنُ وَلَدًا ۗ سُبْحَـٰنَهُۥ ۚ بَلْ عِبَادٌ مُّكْرَمُونَ",
     "textSimple": "وقالوا ٱتخذ ٱلرحمـن ولدا  سبحـنه  بل عباد مكرمون",
     "transliteration": "waqālū ittakhadha l-raḥmānu waladan sub'ḥānahu bal ʿibādun muk'ramūna",
-    "translation": "",
+    "translation": "And they say, \"The Most Merciful has taken a son.\" Exalted is He! Rather, they are [but] honored servants.",
     "words": [
       {
         "id": "al-anbya-26-1",
@@ -2162,7 +2187,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Le Tout Clément S’est donné des enfants. » Gloire Lui soit rendue ! Ce sont plutôt des serviteurs honorés."
   },
   {
     "id": "al-anbya-27",
@@ -2171,7 +2197,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَسْبِقُونَهُۥ بِٱلْقَوْلِ وَهُم بِأَمْرِهِۦ يَعْمَلُونَ",
     "textSimple": "لا يسبقونه بٱلقول وهم بأمره يعملون",
     "transliteration": "lā yasbiqūnahu bil-qawli wahum bi-amrihi yaʿmalūna",
-    "translation": "",
+    "translation": "They cannot precede Him in word, and they act by His command.",
     "words": [
       {
         "id": "al-anbya-27-1",
@@ -2216,7 +2242,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne prononcent pas (de verdicts) avant Lui, et ils n’agissent que par Ses ordres."
   },
   {
     "id": "al-anbya-28",
@@ -2225,7 +2252,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يَشْفَعُونَ إِلَّا لِمَنِ ٱرْتَضَىٰ وَهُم مِّنْ خَشْيَتِهِۦ مُشْفِقُونَ",
     "textSimple": "يعلم ما بين أيديهم وما خلفهم ولا يشفعون إلا لمن ٱرتضى وهم من خشيته مشفقون",
     "transliteration": "yaʿlamu mā bayna aydīhim wamā khalfahum walā yashfaʿūna illā limani ir'taḍā wahum min khashyatihi mush'fiqūna",
-    "translation": "",
+    "translation": "He knows what is [presently] before them and what will be after them, and they cannot intercede except on behalf of one whom He approves. And they, from fear of Him, are apprehensive.",
     "words": [
       {
         "id": "al-anbya-28-1",
@@ -2333,7 +2360,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Sait ce qu’il y a devant eux et ce qu’il y a derrière eux. Ils n’intercèdent qu’en faveur de ceux qu’Il a agréés, et se tiennent pleins de crainte devant Lui."
   },
   {
     "id": "al-anbya-29",
@@ -2342,7 +2370,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَن يَقُلْ مِنْهُمْ إِنِّىٓ إِلَـٰهٌ مِّن دُونِهِۦ فَذَٰلِكَ نَجْزِيهِ جَهَنَّمَ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّـٰلِمِينَ",
     "textSimple": " ومن يقل منهم إنىٓ إلـه من دونه فذلك نجزيه جهنم  كذلك نجزى ٱلظـلمين",
     "transliteration": "waman yaqul min'hum innī ilāhun min dūnihi fadhālika najzīhi jahannama kadhālika najzī l-ẓālimīna",
-    "translation": "",
+    "translation": "And whoever of them should say, \"Indeed, I am a god besides Him\" - that one We would recompense with Hell. Thus do We recompense the wrongdoers.",
     "words": [
       {
         "id": "al-anbya-29-1",
@@ -2436,7 +2464,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui, parmi eux, qui dirait : « Je suis une divinité en dehors de Lui » aurait de Nous pour rétribution la Géhenne. Ainsi rétribuons-Nous les injustes."
   },
   {
     "id": "al-anbya-30",
@@ -2445,7 +2474,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَـٰهُمَا ۖ وَجَعَلْنَا مِنَ ٱلْمَآءِ كُلَّ شَىْءٍ حَىٍّ ۖ أَفَلَا يُؤْمِنُونَ",
     "textSimple": "أولم ير ٱلذين كفروٓا أن ٱلسمـوت وٱلأرض كانتا رتقا ففتقنـهما  وجعلنا من ٱلمآء كل شىء حى  أفلا يؤمنون",
     "transliteration": "awalam yara alladhīna kafarū anna l-samāwāti wal-arḍa kānatā ratqan fafataqnāhumā wajaʿalnā mina l-māi kulla shayin ḥayyin afalā yu'minūna",
-    "translation": "",
+    "translation": "Have those who disbelieved not considered that the heavens and the earth were a joined entity, and then We separated them and made from water every living thing? Then will they not believe?",
     "words": [
       {
         "id": "al-anbya-30-1",
@@ -2574,7 +2603,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les mécréants n’ont-ils pas vu que les cieux et la terre étaient soudés (en un seul magma)? Puis Nous les avons disjoints et, de l’eau, Nous avons tiré toute chose vivante. Ne croiront-ils donc pas ?"
   },
   {
     "id": "al-anbya-31",
@@ -2583,7 +2613,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِهِمْ وَجَعَلْنَا فِيهَا فِجَاجًا سُبُلًا لَّعَلَّهُمْ يَهْتَدُونَ",
     "textSimple": "وجعلنا فى ٱلأرض روسى أن تميد بهم وجعلنا فيها فجاجا سبلا لعلهم يهتدون",
     "transliteration": "wajaʿalnā fī l-arḍi rawāsiya an tamīda bihim wajaʿalnā fīhā fijājan subulan laʿallahum yahtadūna",
-    "translation": "",
+    "translation": "And We placed within the earth firmly set mountains, lest it should shift with them, and We made therein [mountain] passes [as] roads that they might be guided.",
     "words": [
       {
         "id": "al-anbya-31-1",
@@ -2677,7 +2707,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons établi sur la terre des montagnes fermes pour qu’elle ne se meuve pas sous leurs pieds. Nous y avons frayé des chemins afin qu’ils soient guidés."
   },
   {
     "id": "al-anbya-32",
@@ -2686,7 +2717,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا ٱلسَّمَآءَ سَقْفًا مَّحْفُوظًا ۖ وَهُمْ عَنْ ءَايَـٰتِهَا مُعْرِضُونَ",
     "textSimple": "وجعلنا ٱلسمآء سقفا محفوظا  وهم عن ءايـتها معرضون",
     "transliteration": "wajaʿalnā l-samāa saqfan maḥfūẓan wahum ʿan āyātihā muʿ'riḍūna",
-    "translation": "",
+    "translation": "And We made the sky a protected ceiling, but they, from its signs, are turning away.",
     "words": [
       {
         "id": "al-anbya-32-1",
@@ -2745,7 +2776,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes du ciel un toit imprenable, mais de ses Signes ils se détournent."
   },
   {
     "id": "al-anbya-33",
@@ -2754,7 +2786,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى خَلَقَ ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
     "textSimple": "وهو ٱلذى خلق ٱليل وٱلنهار وٱلشمس وٱلقمر  كل فى فلك يسبحون",
     "transliteration": "wahuwa alladhī khalaqa al-layla wal-nahāra wal-shamsa wal-qamara kullun fī falakin yasbaḥūna",
-    "translation": "",
+    "translation": "And it is He who created the night and the day and the sun and the moon; all [heavenly bodies] in an orbit are swimming.",
     "words": [
       {
         "id": "al-anbya-33-1",
@@ -2834,7 +2866,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui a créé la nuit et le jour, le soleil et la lune : chacun voguant dans son orbite."
   },
   {
     "id": "al-anbya-34",
@@ -2843,7 +2876,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا جَعَلْنَا لِبَشَرٍ مِّن قَبْلِكَ ٱلْخُلْدَ ۖ أَفَإِي۟ن مِّتَّ فَهُمُ ٱلْخَـٰلِدُونَ",
     "textSimple": "وما جعلنا لبشر من قبلك ٱلخلد  أفإين مت فهم ٱلخـلدون",
     "transliteration": "wamā jaʿalnā libasharin min qablika l-khul'da afa-in mitta fahumu l-khālidūna",
-    "translation": "",
+    "translation": "And We did not grant to any man before you eternity [on earth]; so if you die - would they be eternal?",
     "words": [
       {
         "id": "al-anbya-34-1",
@@ -2916,7 +2949,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons donné l’immortalité à aucun humain avant toi. Si tu venais à mourir, seraient-ils, eux, éternels ?"
   },
   {
     "id": "al-anbya-35",
@@ -2925,7 +2959,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَنَبْلُوكُم بِٱلشَّرِّ وَٱلْخَيْرِ فِتْنَةً ۖ وَإِلَيْنَا تُرْجَعُونَ",
     "textSimple": "كل نفس ذآئقة ٱلموت  ونبلوكم بٱلشر وٱلخير فتنة  وإلينا ترجعون",
     "transliteration": "kullu nafsin dhāiqatu l-mawti wanablūkum bil-shari wal-khayri fit'natan wa-ilaynā tur'jaʿūna",
-    "translation": "",
+    "translation": "Every soul will taste death. And We test you with evil and with good as trial; and to Us you will be returned.",
     "words": [
       {
         "id": "al-anbya-35-1",
@@ -2998,7 +3032,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toute âme goûtera la mort. Nous vous mettons à l’épreuve de la tentation par le mal et par le bien, et c’est vers Nous que vous serez ramenés."
   },
   {
     "id": "al-anbya-36",
@@ -3007,7 +3042,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَءَاكَ ٱلَّذِينَ كَفَرُوٓا۟ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَـٰذَا ٱلَّذِى يَذْكُرُ ءَالِهَتَكُمْ وَهُم بِذِكْرِ ٱلرَّحْمَـٰنِ هُمْ كَـٰفِرُونَ",
     "textSimple": "وإذا رءاك ٱلذين كفروٓا إن يتخذونك إلا هزوا أهـذا ٱلذى يذكر ءالهتكم وهم بذكر ٱلرحمـن هم كـفرون",
     "transliteration": "wa-idhā raāka alladhīna kafarū in yattakhidhūnaka illā huzuwan ahādhā alladhī yadhkuru ālihatakum wahum bidhik'ri l-raḥmāni hum kāfirūna",
-    "translation": "",
+    "translation": "And when those who disbelieve see you, [O Muḥammad], they take you not except in ridicule, [saying], \"Is this the one who mentions [i.e., insults] your gods?\" And they are, at the mention of the Most Merciful, disbelievers.",
     "words": [
       {
         "id": "al-anbya-36-1",
@@ -3129,7 +3164,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En te voyant, ceux qui ont mécru te tournent en dérision (en disant) : « Est-ce celui-là qui évoque (en mal) vos divinités ? » Mais eux rejettent l’évocation du Tout Clément !"
   },
   {
     "id": "al-anbya-37",
@@ -3138,7 +3174,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "خُلِقَ ٱلْإِنسَـٰنُ مِنْ عَجَلٍ ۚ سَأُو۟رِيكُمْ ءَايَـٰتِى فَلَا تَسْتَعْجِلُونِ",
     "textSimple": "خلق ٱلإنسـن من عجل  سأوريكم ءايـتى فلا تستعجلون",
     "transliteration": "khuliqa l-insānu min ʿajalin sa-urīkum āyātī falā tastaʿjilūni",
-    "translation": "",
+    "translation": "Man was created of haste [i.e., impatience]. I will show you My signs [i.e., vengeance], so do not impatiently urge Me.",
     "words": [
       {
         "id": "al-anbya-37-1",
@@ -3197,7 +3233,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme a été créé empressé. Je vous ferai voir Mes Signes, ne Me pressez pas !"
   },
   {
     "id": "al-anbya-38",
@@ -3206,7 +3243,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلوعد إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When is this promise, if you should be truthful?\"",
     "words": [
       {
         "id": "al-anbya-38-1",
@@ -3258,7 +3295,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « À quand donc cette promesse si vous dites vrai ? »"
   },
   {
     "id": "al-anbya-39",
@@ -3267,7 +3305,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ يَعْلَمُ ٱلَّذِينَ كَفَرُوا۟ حِينَ لَا يَكُفُّونَ عَن وُجُوهِهِمُ ٱلنَّارَ وَلَا عَن ظُهُورِهِمْ وَلَا هُمْ يُنصَرُونَ",
     "textSimple": "لو يعلم ٱلذين كفروا حين لا يكفون عن وجوههم ٱلنار ولا عن ظهورهم ولا هم ينصرون",
     "transliteration": "law yaʿlamu alladhīna kafarū ḥīna lā yakuffūna ʿan wujūhihimu l-nāra walā ʿan ẓuhūrihim walā hum yunṣarūna",
-    "translation": "",
+    "translation": "If those who disbelieved but knew the time when they will not avert the Fire from their faces or from their backs and they will not be aided...",
     "words": [
       {
         "id": "al-anbya-39-1",
@@ -3382,7 +3420,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si seulement les mécréants pouvaient connaître ce moment où ils ne pourront protéger du Feu ni leurs visages ni leurs dos ; et ils n’auront aucun secours !"
   },
   {
     "id": "al-anbya-40",
@@ -3391,7 +3430,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ تَأْتِيهِم بَغْتَةً فَتَبْهَتُهُمْ فَلَا يَسْتَطِيعُونَ رَدَّهَا وَلَا هُمْ يُنظَرُونَ",
     "textSimple": "بل تأتيهم بغتة فتبهتهم فلا يستطيعون ردها ولا هم ينظرون",
     "transliteration": "bal tatīhim baghtatan fatabhatuhum falā yastaṭīʿūna raddahā walā hum yunẓarūna",
-    "translation": "",
+    "translation": "Rather, it will come to them unexpectedly and bewilder them, and they will not be able to repel it, nor will they be reprieved.",
     "words": [
       {
         "id": "al-anbya-40-1",
@@ -3464,7 +3503,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (le Feu) les saisira soudain, et les plongera dans la stupeur, et ils ne pourront alors le repousser ni n’auront aucun répit."
   },
   {
     "id": "al-anbya-41",
@@ -3473,7 +3513,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍ مِّن قَبْلِكَ فَحَاقَ بِٱلَّذِينَ سَخِرُوا۟ مِنْهُم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "ولقد ٱستهزئ برسل من قبلك فحاق بٱلذين سخروا منهم ما كانوا به يستهزءون",
     "transliteration": "walaqadi us'tuh'zi-a birusulin min qablika faḥāqa bi-alladhīna sakhirū min'hum mā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And already were messengers ridiculed before you, but those who mocked them were enveloped by what they used to ridicule.",
     "words": [
       {
         "id": "al-anbya-41-1",
@@ -3567,7 +3607,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des Messagers avant toi furent raillés. Mais ceux qui se moquaient d’eux furent eux-mêmes cernés par (le châtiment) dont ils se moquaient."
   },
   {
     "id": "al-anbya-42",
@@ -3576,7 +3617,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَـٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ",
     "textSimple": "قل من يكلؤكم بٱليل وٱلنهار من ٱلرحمـن  بل هم عن ذكر ربهم معرضون",
     "transliteration": "qul man yakla-ukum bi-al-layli wal-nahāri mina l-raḥmāni bal hum ʿan dhik'ri rabbihim muʿ'riḍūna",
-    "translation": "",
+    "translation": "Say, \"Who can protect you at night or by day from the Most Merciful?\" But they are, from the remembrance of their Lord, turning away.",
     "words": [
       {
         "id": "al-anbya-42-1",
@@ -3670,7 +3711,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui donc vous protégera, de nuit comme de jour, (du supplice) du Tout Clément ? Mais ils ne s’en détournent pas moins de l’évocation de leur Seigneur."
   },
   {
     "id": "al-anbya-43",
@@ -3679,7 +3721,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُمْ ءَالِهَةٌ تَمْنَعُهُم مِّن دُونِنَا ۚ لَا يَسْتَطِيعُونَ نَصْرَ أَنفُسِهِمْ وَلَا هُم مِّنَّا يُصْحَبُونَ",
     "textSimple": "أم لهم ءالهة تمنعهم من دوننا  لا يستطيعون نصر أنفسهم ولا هم منا يصحبون",
     "transliteration": "am lahum ālihatun tamnaʿuhum min dūninā lā yastaṭīʿūna naṣra anfusihim walā hum minnā yuṣ'ḥabūna",
-    "translation": "",
+    "translation": "Or do they have gods to defend them other than Us? They are unable [even] to help themselves, nor can they be protected from Us.",
     "words": [
       {
         "id": "al-anbya-43-1",
@@ -3780,7 +3822,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ont-ils donc, en dehors de Nous, des divinités qui les protègent quand elles ne peuvent se secourir elles-mêmes, pas plus qu’elles ne peuvent avoir d’alliés contre Nous ?"
   },
   {
     "id": "al-anbya-44",
@@ -3789,7 +3832,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ مَتَّعْنَا هَـٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَـٰلِبُونَ",
     "textSimple": "بل متعنا هـٓؤلآء وءابآءهم حتى طال عليهم ٱلعمر  أفلا يرون أنا نأتى ٱلأرض ننقصها من أطرافهآ  أفهم ٱلغـلبون",
     "transliteration": "bal mattaʿnā hāulāi waābāahum ḥattā ṭāla ʿalayhimu l-ʿumuru afalā yarawna annā natī l-arḍa nanquṣuhā min aṭrāfihā afahumu l-ghālibūna",
-    "translation": "",
+    "translation": "But, [on the contrary], We have provided good things for these [disbelievers] and their fathers until life was prolonged for them. Then do they not see that We set upon the land, reducing it from its borders? Is it they who will overcome?",
     "words": [
       {
         "id": "al-anbya-44-1",
@@ -3918,7 +3961,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons en réalité laissé jouir ceux-là et leurs pères jusqu’à ce que l’âge leur parût long. Ne voient-ils donc pas qu’en sévissant (contre les mécréants) Nous prenons la terre et en réduisons les extrémités ? Sauraient-ils donc être les vainqueurs ?"
   },
   {
     "id": "al-anbya-45",
@@ -3927,7 +3971,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَآ أُنذِرُكُم بِٱلْوَحْىِ ۚ وَلَا يَسْمَعُ ٱلصُّمُّ ٱلدُّعَآءَ إِذَا مَا يُنذَرُونَ",
     "textSimple": "قل إنمآ أنذركم بٱلوحى  ولا يسمع ٱلصم ٱلدعآء إذا ما ينذرون",
     "transliteration": "qul innamā undhirukum bil-waḥyi walā yasmaʿu l-ṣumu l-duʿāa idhā mā yundharūna",
-    "translation": "",
+    "translation": "Say, \"I only warn you by revelation.\" But the deaf do not hear the call when they are warned.",
     "words": [
       {
         "id": "al-anbya-45-1",
@@ -4007,7 +4051,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne fais que vous avertir par ce qui m’est révélé. » Mais, les sourds ne sauraient entendre l’appel quand ils sont avertis."
   },
   {
     "id": "al-anbya-46",
@@ -4016,7 +4061,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن مَّسَّتْهُمْ نَفْحَةٌ مِّنْ عَذَابِ رَبِّكَ لَيَقُولُنَّ يَـٰوَيْلَنَآ إِنَّا كُنَّا ظَـٰلِمِينَ",
     "textSimple": "ولئن مستهم نفحة من عذاب ربك ليقولن يـويلنآ إنا كنا ظـلمين",
     "transliteration": "wala-in massathum nafḥatun min ʿadhābi rabbika layaqūlunna yāwaylanā innā kunnā ẓālimīna",
-    "translation": "",
+    "translation": "And if [as much as] a whiff of the punishment of your Lord should touch them, they would surely say, \"O woe to us! Indeed, we have been wrongdoers.\"",
     "words": [
       {
         "id": "al-anbya-46-1",
@@ -4096,7 +4141,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si le (moindre) souffle du supplice de ton Seigneur venait à les toucher, ils s’écrieraient : « Malheur à nous, nous étions vraiment injustes ! »"
   },
   {
     "id": "al-anbya-47",
@@ -4105,7 +4151,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَـٰمَةِ فَلَا تُظْلَمُ نَفْسٌ شَيْـًٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَـٰسِبِينَ",
     "textSimple": "ونضع ٱلموزين ٱلقسط ليوم ٱلقيـمة فلا تظلم نفس شيـٔا  وإن كان مثقال حبة من خردل أتينا بها  وكفى بنا حـسبين",
     "transliteration": "wanaḍaʿu l-mawāzīna l-qis'ṭa liyawmi l-qiyāmati falā tuẓ'lamu nafsun shayan wa-in kāna mith'qāla ḥabbatin min khardalin ataynā bihā wakafā binā ḥāsibīna",
-    "translation": "",
+    "translation": "And We place the scales of justice for the Day of Resurrection, so no soul will be treated unjustly at all. And if there is [even] the weight of a mustard seed, We will bring it forth. And sufficient are We as accountant.",
     "words": [
       {
         "id": "al-anbya-47-1",
@@ -4248,7 +4294,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous placerons, au Jour de la Résurrection, les balances justes. Nulle âme ne sera en rien lésée, pas même du poids d’un grain de moutarde que Nous ferons amener. Et Nous suffirons pour dresser les comptes."
   },
   {
     "id": "al-anbya-48",
@@ -4257,7 +4304,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَىٰ وَهَـٰرُونَ ٱلْفُرْقَانَ وَضِيَآءً وَذِكْرًا لِّلْمُتَّقِينَ",
     "textSimple": "ولقد ءاتينا موسى وهـرون ٱلفرقان وضيآء وذكرا للمتقين",
     "transliteration": "walaqad ātaynā mūsā wahārūna l-fur'qāna waḍiyāan wadhik'ran lil'muttaqīna",
-    "translation": "",
+    "translation": "And We had already given Moses and Aaron the criterion and a light and a reminder for the righteous",
     "words": [
       {
         "id": "al-anbya-48-1",
@@ -4316,7 +4363,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous apportâmes à Moïse et à Aaron le Discernement (Al-Furqân), lumière et rappel pour ceux qui sont pieux,"
   },
   {
     "id": "al-anbya-49",
@@ -4325,7 +4373,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَهُم مِّنَ ٱلسَّاعَةِ مُشْفِقُونَ",
     "textSimple": "ٱلذين يخشون ربهم بٱلغيب وهم من ٱلساعة مشفقون",
     "transliteration": "alladhīna yakhshawna rabbahum bil-ghaybi wahum mina l-sāʿati mush'fiqūna",
-    "translation": "",
+    "translation": "Who fear their Lord unseen, while they are of the Hour apprehensive.",
     "words": [
       {
         "id": "al-anbya-49-1",
@@ -4384,7 +4432,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui craignent leur Seigneur sans Le voir (et sans ostentation) et qui s’angoissent au souvenir de l’Heure."
   },
   {
     "id": "al-anbya-50",
@@ -4393,7 +4442,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَهَـٰذَا ذِكْرٌ مُّبَارَكٌ أَنزَلْنَـٰهُ ۚ أَفَأَنتُمْ لَهُۥ مُنكِرُونَ",
     "textSimple": "وهـذا ذكر مبارك أنزلنـه  أفأنتم له منكرون",
     "transliteration": "wahādhā dhik'run mubārakun anzalnāhu afa-antum lahu munkirūna",
-    "translation": "",
+    "translation": "And this [Qur’ān] is a blessed message which We have sent down. Then are you with it unacquainted?",
     "words": [
       {
         "id": "al-anbya-50-1",
@@ -4445,7 +4494,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici un Rappel béni que Nous avons fait descendre (en révélation). Le nieriez-vous donc ?"
   },
   {
     "id": "al-anbya-51",
@@ -4454,7 +4504,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَقَدْ ءَاتَيْنَآ إِبْرَٰهِيمَ رُشْدَهُۥ مِن قَبْلُ وَكُنَّا بِهِۦ عَـٰلِمِينَ",
     "textSimple": " ولقد ءاتينآ إبرهيم رشده من قبل وكنا به عـلمين",
     "transliteration": "walaqad ātaynā ib'rāhīma rush'dahu min qablu wakunnā bihi ʿālimīna",
-    "translation": "",
+    "translation": "And We had certainly given Abraham his sound judgement before, and We were of him well-Knowing",
     "words": [
       {
         "id": "al-anbya-51-1",
@@ -4520,7 +4570,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auparavant, Nous avions engagé Abraham sur la voie droite. Nous le Connaissions parfaitement."
   },
   {
     "id": "al-anbya-52",
@@ -4529,7 +4580,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا هَـٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَـٰكِفُونَ",
     "textSimple": "إذ قال لأبيه وقومه ما هـذه ٱلتماثيل ٱلتىٓ أنتم لها عـكفون",
     "transliteration": "idh qāla li-abīhi waqawmihi mā hādhihi l-tamāthīlu allatī antum lahā ʿākifūna",
-    "translation": "",
+    "translation": "When he said to his father and his people, \"What are these statues to which you are devoted?\"",
     "words": [
       {
         "id": "al-anbya-52-1",
@@ -4609,7 +4660,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit à son père et à son peuple : « Qu’est-ce donc que ces statues auxquelles vous montrez tant de dévotion ? »"
   },
   {
     "id": "al-anbya-53",
@@ -4618,7 +4670,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ وَجَدْنَآ ءَابَآءَنَا لَهَا عَـٰبِدِينَ",
     "textSimple": "قالوا وجدنآ ءابآءنا لها عـبدين",
     "transliteration": "qālū wajadnā ābāanā lahā ʿābidīna",
-    "translation": "",
+    "translation": "They said, \"We found our fathers worshippers of them.\"",
     "words": [
       {
         "id": "al-anbya-53-1",
@@ -4656,7 +4708,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous avons trouvé nos pères qui les adoraient (avant nous) », répondirent-ils."
   },
   {
     "id": "al-anbya-54",
@@ -4665,7 +4718,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَقَدْ كُنتُمْ أَنتُمْ وَءَابَآؤُكُمْ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "قال لقد كنتم أنتم وءابآؤكم فى ضلـل مبين",
     "transliteration": "qāla laqad kuntum antum waābāukum fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "He said, \"You were certainly, you and your fathers, in manifest error.\"",
     "words": [
       {
         "id": "al-anbya-54-1",
@@ -4724,7 +4777,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Vous étiez donc, vous et vos pères, dans un égarement évident », fit-il observer."
   },
   {
     "id": "al-anbya-55",
@@ -4733,7 +4787,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَجِئْتَنَا بِٱلْحَقِّ أَمْ أَنتَ مِنَ ٱللَّـٰعِبِينَ",
     "textSimple": "قالوٓا أجئتنا بٱلحق أم أنت من ٱللـعبين",
     "transliteration": "qālū aji'tanā bil-ḥaqi am anta mina l-lāʿibīna",
-    "translation": "",
+    "translation": "They said, \"Have you come to us with truth, or are you of those who jest?\"",
     "words": [
       {
         "id": "al-anbya-55-1",
@@ -4785,7 +4839,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Es-tu venu nous apporter la vérité, dirent-ils, ou es-tu en train de plaisanter ? »"
   },
   {
     "id": "al-anbya-56",
@@ -4794,7 +4849,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ بَل رَّبُّكُمْ رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ٱلَّذِى فَطَرَهُنَّ وَأَنَا۠ عَلَىٰ ذَٰلِكُم مِّنَ ٱلشَّـٰهِدِينَ",
     "textSimple": "قال بل ربكم رب ٱلسمـوت وٱلأرض ٱلذى فطرهن وأنا على ذلكم من ٱلشـهدين",
     "transliteration": "qāla bal rabbukum rabbu l-samāwāti wal-arḍi alladhī faṭarahunna wa-anā ʿalā dhālikum mina l-shāhidīna",
-    "translation": "",
+    "translation": "He said, \"[No], rather, your Lord is the Lord of the heavens and the earth who created them, and I, to that, am of those who testify.",
     "words": [
       {
         "id": "al-anbya-56-1",
@@ -4888,7 +4943,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Votre Seigneur, répliqua-t-il, est le Seigneur des cieux et de la terre, Qui les a créés (de rien). Je suis de ceux qui peuvent en témoigner."
   },
   {
     "id": "al-anbya-57",
@@ -4897,7 +4953,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَـٰمَكُم بَعْدَ أَن تُوَلُّوا۟ مُدْبِرِينَ",
     "textSimple": "وتٱلله لأكيدن أصنـمكم بعد أن تولوا مدبرين",
     "transliteration": "watal-lahi la-akīdanna aṣnāmakum baʿda an tuwallū mud'birīna",
-    "translation": "",
+    "translation": "And [I swear] by Allāh, I will surely plan against your idols after you have turned and gone away.\"",
     "words": [
       {
         "id": "al-anbya-57-1",
@@ -4949,7 +5005,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par Allah, j’userai d’un stratagème contre vos idoles, quand vous aurez le dos tourné. »"
   },
   {
     "id": "al-anbya-58",
@@ -4958,7 +5015,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلَهُمْ جُذَٰذًا إِلَّا كَبِيرًا لَّهُمْ لَعَلَّهُمْ إِلَيْهِ يَرْجِعُونَ",
     "textSimple": "فجعلهم جذذا إلا كبيرا لهم لعلهم إليه يرجعون",
     "transliteration": "fajaʿalahum judhādhan illā kabīran lahum laʿallahum ilayhi yarjiʿūna",
-    "translation": "",
+    "translation": "So he made them into fragments, except a large one among them, that they might return to it [and question].",
     "words": [
       {
         "id": "al-anbya-58-1",
@@ -5017,7 +5074,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les réduisit en morceaux sauf l’idole la plus grande pour qu’ils reviennent vers elle."
   },
   {
     "id": "al-anbya-59",
@@ -5026,7 +5084,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ مَن فَعَلَ هَـٰذَا بِـَٔالِهَتِنَآ إِنَّهُۥ لَمِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "قالوا من فعل هـذا بـٔالهتنآ إنه لمن ٱلظـلمين",
     "transliteration": "qālū man faʿala hādhā biālihatinā innahu lamina l-ẓālimīna",
-    "translation": "",
+    "translation": "They said, \"Who has done this to our gods? Indeed, he is of the wrongdoers.\"",
     "words": [
       {
         "id": "al-anbya-59-1",
@@ -5085,7 +5143,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Qui donc a fait cela de nos divinités, ce doit être quelqu’un d’injuste ! »"
   },
   {
     "id": "al-anbya-60",
@@ -5094,7 +5153,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ سَمِعْنَا فَتًى يَذْكُرُهُمْ يُقَالُ لَهُۥٓ إِبْرَٰهِيمُ",
     "textSimple": "قالوا سمعنا فتى يذكرهم يقال لهٓ إبرهيم",
     "transliteration": "qālū samiʿ'nā fatan yadhkuruhum yuqālu lahu ib'rāhīmu",
-    "translation": "",
+    "translation": "They said, \"We heard a young man mention them who is called Abraham.\"",
     "words": [
       {
         "id": "al-anbya-60-1",
@@ -5146,7 +5205,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(D’autres) dirent : « Nous avons entendu en médire un jeune homme nommé Abraham. »"
   },
   {
     "id": "al-anbya-61",
@@ -5155,7 +5215,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ فَأْتُوا۟ بِهِۦ عَلَىٰٓ أَعْيُنِ ٱلنَّاسِ لَعَلَّهُمْ يَشْهَدُونَ",
     "textSimple": "قالوا فأتوا به علىٓ أعين ٱلناس لعلهم يشهدون",
     "transliteration": "qālū fatū bihi ʿalā aʿyuni l-nāsi laʿallahum yashhadūna",
-    "translation": "",
+    "translation": "They said, \"Then bring him before the eyes of the people that they may testify.\"",
     "words": [
       {
         "id": "al-anbya-61-1",
@@ -5214,7 +5274,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qu’on l’amène, s’écrièrent (les premiers), et que les gens puissent le voir de leurs yeux et en être témoins. »"
   },
   {
     "id": "al-anbya-62",
@@ -5223,7 +5284,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ ءَأَنتَ فَعَلْتَ هَـٰذَا بِـَٔالِهَتِنَا يَـٰٓإِبْرَٰهِيمُ",
     "textSimple": "قالوٓا ءأنت فعلت هـذا بـٔالهتنا يـٓإبرهيم",
     "transliteration": "qālū a-anta faʿalta hādhā biālihatinā yāib'rāhīmu",
-    "translation": "",
+    "translation": "They said, \"Have you done this to our gods, O Abraham?\"",
     "words": [
       {
         "id": "al-anbya-62-1",
@@ -5268,7 +5329,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Est-ce toi qui as fait cela à nos divinités, Abraham ? » lui demandèrent-ils."
   },
   {
     "id": "al-anbya-63",
@@ -5277,7 +5339,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ بَلْ فَعَلَهُۥ كَبِيرُهُمْ هَـٰذَا فَسْـَٔلُوهُمْ إِن كَانُوا۟ يَنطِقُونَ",
     "textSimple": "قال بل فعله كبيرهم هـذا فسـٔلوهم إن كانوا ينطقون",
     "transliteration": "qāla bal faʿalahu kabīruhum hādhā fasalūhum in kānū yanṭiqūna",
-    "translation": "",
+    "translation": "He said, \"Rather, this - the largest of them - did it, so ask them, if they should [be able to] speak.\"",
     "words": [
       {
         "id": "al-anbya-63-1",
@@ -5343,7 +5405,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Non, c’est la plus grande d’entre elles qui l’a fait. Interrogez-les donc si tant est qu’elles puissent vous répondre ! »"
   },
   {
     "id": "al-anbya-64",
@@ -5352,7 +5415,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَرَجَعُوٓا۟ إِلَىٰٓ أَنفُسِهِمْ فَقَالُوٓا۟ إِنَّكُمْ أَنتُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "فرجعوٓا إلىٓ أنفسهم فقالوٓا إنكم أنتم ٱلظـلمون",
     "transliteration": "farajaʿū ilā anfusihim faqālū innakum antumu l-ẓālimūna",
-    "translation": "",
+    "translation": "So they returned to [blaming] themselves and said [to each other], \"Indeed, you are the wrongdoers.\"",
     "words": [
       {
         "id": "al-anbya-64-1",
@@ -5404,7 +5467,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Se blâmant les uns les autres, ils se dirent : « C’est peut-être vous qui êtes injustes. »"
   },
   {
     "id": "al-anbya-65",
@@ -5413,7 +5477,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ نُكِسُوا۟ عَلَىٰ رُءُوسِهِمْ لَقَدْ عَلِمْتَ مَا هَـٰٓؤُلَآءِ يَنطِقُونَ",
     "textSimple": "ثم نكسوا على رءوسهم لقد علمت ما هـٓؤلآء ينطقون",
     "transliteration": "thumma nukisū ʿalā ruūsihim laqad ʿalim'ta mā hāulāi yanṭiqūna",
-    "translation": "",
+    "translation": "Then they reversed themselves, [saying], \"You have already known that these do not speak!\"",
     "words": [
       {
         "id": "al-anbya-65-1",
@@ -5479,7 +5543,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, baissant la tête (à court d’arguments), ils dirent : « Tu sais bien que celles-ci ne parlent pas. »"
   },
   {
     "id": "al-anbya-66",
@@ -5488,7 +5553,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَفَتَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُكُمْ شَيْـًٔا وَلَا يَضُرُّكُمْ",
     "textSimple": "قال أفتعبدون من دون ٱلله ما لا ينفعكم شيـٔا ولا يضركم",
     "transliteration": "qāla afataʿbudūna min dūni l-lahi mā lā yanfaʿukum shayan walā yaḍurrukum",
-    "translation": "",
+    "translation": "He said, \"Then do you worship instead of Allāh that which does not benefit you at all or harm you?",
     "words": [
       {
         "id": "al-anbya-66-1",
@@ -5568,7 +5633,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Adorez-vous, dit-il, en dehors d’Allah, ce qui ne peut en rien vous être utile ou nuisible ?"
   },
   {
     "id": "al-anbya-67",
@@ -5577,7 +5643,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "أُفٍّ لَّكُمْ وَلِمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ ۖ أَفَلَا تَعْقِلُونَ",
     "textSimple": "أف لكم ولما تعبدون من دون ٱلله  أفلا تعقلون",
     "transliteration": "uffin lakum walimā taʿbudūna min dūni l-lahi afalā taʿqilūna",
-    "translation": "",
+    "translation": "Uff to you and to what you worship instead of Allāh. Then will you not use reason?\"",
     "words": [
       {
         "id": "al-anbya-67-1",
@@ -5643,7 +5709,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Fi de vous tous et de ce que vous adorez en dehors d’Allah ! Entendrez-vous jamais raison ? »"
   },
   {
     "id": "al-anbya-68",
@@ -5652,7 +5719,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ حَرِّقُوهُ وَٱنصُرُوٓا۟ ءَالِهَتَكُمْ إِن كُنتُمْ فَـٰعِلِينَ",
     "textSimple": "قالوا حرقوه وٱنصروٓا ءالهتكم إن كنتم فـعلين",
     "transliteration": "qālū ḥarriqūhu wa-unṣurū ālihatakum in kuntum fāʿilīna",
-    "translation": "",
+    "translation": "They said, \"Burn him and support your gods - if you are to act.\"",
     "words": [
       {
         "id": "al-anbya-68-1",
@@ -5704,7 +5771,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’écrièrent alors : « Brûlez-le, vengez vos divinités, si vous voulez vraiment faire quelque chose ! »"
   },
   {
     "id": "al-anbya-69",
@@ -5713,7 +5781,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْنَا يَـٰنَارُ كُونِى بَرْدًا وَسَلَـٰمًا عَلَىٰٓ إِبْرَٰهِيمَ",
     "textSimple": "قلنا يـنار كونى بردا وسلـما علىٓ إبرهيم",
     "transliteration": "qul'nā yānāru kūnī bardan wasalāman ʿalā ib'rāhīma",
-    "translation": "",
+    "translation": "We [i.e., Allāh] said, \"O fire, be coolness and safety upon Abraham.\"",
     "words": [
       {
         "id": "al-anbya-69-1",
@@ -5765,7 +5833,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dîmes alors : « Ô feu ! Sois fraîcheur et salut sur Abraham ! »"
   },
   {
     "id": "al-anbya-70",
@@ -5774,7 +5843,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَـٰهُمُ ٱلْأَخْسَرِينَ",
     "textSimple": "وأرادوا به كيدا فجعلنـهم ٱلأخسرين",
     "transliteration": "wa-arādū bihi kaydan fajaʿalnāhumu l-akhsarīna",
-    "translation": "",
+    "translation": "And they intended for him a plan [i.e., harm], but We made them the greatest losers.",
     "words": [
       {
         "id": "al-anbya-70-1",
@@ -5812,7 +5881,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils avaient comploté pour le perdre mais Nous fîmes d’eux les plus grands perdants."
   },
   {
     "id": "al-anbya-71",
@@ -5821,7 +5891,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَنَجَّيْنَـٰهُ وَلُوطًا إِلَى ٱلْأَرْضِ ٱلَّتِى بَـٰرَكْنَا فِيهَا لِلْعَـٰلَمِينَ",
     "textSimple": "ونجينـه ولوطا إلى ٱلأرض ٱلتى بـركنا فيها للعـلمين",
     "transliteration": "wanajjaynāhu walūṭan ilā l-arḍi allatī bāraknā fīhā lil'ʿālamīna",
-    "translation": "",
+    "translation": "And We delivered him and Lot to the land which We had blessed for the worlds [i.e., peoples].",
     "words": [
       {
         "id": "al-anbya-71-1",
@@ -5880,7 +5950,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes ainsi que Loth, et les (conduisîmes) vers la terre que Nous avons bénie pour tous les êtres de l’Univers."
   },
   {
     "id": "al-anbya-72",
@@ -5889,7 +5960,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ نَافِلَةً ۖ وَكُلًّا جَعَلْنَا صَـٰلِحِينَ",
     "textSimple": "ووهبنا لهٓ إسحـق ويعقوب نافلة  وكلا جعلنا صـلحين",
     "transliteration": "wawahabnā lahu is'ḥāqa wayaʿqūba nāfilatan wakullan jaʿalnā ṣāliḥīna",
-    "translation": "",
+    "translation": "And We gave him Isaac and Jacob in addition, and all [of them] We made righteous.",
     "words": [
       {
         "id": "al-anbya-72-1",
@@ -5948,7 +6019,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui fîmes don d’Isaac, et lui ajoutâmes Jacob, dont Nous fîmes des hommes vertueux."
   },
   {
     "id": "al-anbya-73",
@@ -5957,7 +6029,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَـٰهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَـٰبِدِينَ",
     "textSimple": "وجعلنـهم أئمة يهدون بأمرنا وأوحينآ إليهم فعل ٱلخيرت وإقام ٱلصلوة وإيتآء ٱلزكوة  وكانوا لنا عـبدين",
     "transliteration": "wajaʿalnāhum a-immatan yahdūna bi-amrinā wa-awḥaynā ilayhim fiʿ'la l-khayrāti wa-iqāma l-ṣalati waītāa l-zakati wakānū lanā ʿābidīna",
-    "translation": "",
+    "translation": "And We made them leaders guiding by Our command. And We inspired to them the doing of good deeds, establishment of prayer, and giving of zakāh; and they were worshippers of Us.",
     "words": [
       {
         "id": "al-anbya-73-1",
@@ -6065,7 +6137,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous en fîmes des chefs qui guidaient (vers la voie droite) par Nos ordres. Nous leur inspirâmes de faire le bien, d’observer la Çalât et de s’acquitter de la Zakât ; ils étaient Nos adorateurs."
   },
   {
     "id": "al-anbya-74",
@@ -6074,7 +6147,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلُوطًا ءَاتَيْنَـٰهُ حُكْمًا وَعِلْمًا وَنَجَّيْنَـٰهُ مِنَ ٱلْقَرْيَةِ ٱلَّتِى كَانَت تَّعْمَلُ ٱلْخَبَـٰٓئِثَ ۗ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ فَـٰسِقِينَ",
     "textSimple": "ولوطا ءاتينـه حكما وعلما ونجينـه من ٱلقرية ٱلتى كانت تعمل ٱلخبـٓئث  إنهم كانوا قوم سوء فـسقين",
     "transliteration": "walūṭan ātaynāhu ḥuk'man waʿil'man wanajjaynāhu mina l-qaryati allatī kānat taʿmalu l-khabāitha innahum kānū qawma sawin fāsiqīna",
-    "translation": "",
+    "translation": "And to Lot We gave judgement and knowledge, and We saved him from the city that was committing wicked deeds. Indeed, they were a people of evil, defiantly disobedient.",
     "words": [
       {
         "id": "al-anbya-74-1",
@@ -6189,7 +6262,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à Loth, Nous lui accordâmes sagesse et science, et Nous le sauvâmes de la cité qui commettait des turpitudes. Ils étaient vraiment des gens mauvais, des vicieux."
   },
   {
     "id": "al-anbya-75",
@@ -6198,7 +6272,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَدْخَلْنَـٰهُ فِى رَحْمَتِنَآ ۖ إِنَّهُۥ مِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "وأدخلنـه فى رحمتنآ  إنه من ٱلصـلحين",
     "transliteration": "wa-adkhalnāhu fī raḥmatinā innahu mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And We admitted him into Our mercy. Indeed, he was of the righteous.",
     "words": [
       {
         "id": "al-anbya-75-1",
@@ -6243,7 +6317,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le reçûmes dans Notre miséricorde, lui qui était du nombre des vertueux."
   },
   {
     "id": "al-anbya-76",
@@ -6252,7 +6327,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَنُوحًا إِذْ نَادَىٰ مِن قَبْلُ فَٱسْتَجَبْنَا لَهُۥ فَنَجَّيْنَـٰهُ وَأَهْلَهُۥ مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
     "textSimple": "ونوحا إذ نادى من قبل فٱستجبنا له فنجينـه وأهله من ٱلكرب ٱلعظيم",
     "transliteration": "wanūḥan idh nādā min qablu fa-is'tajabnā lahu fanajjaynāhu wa-ahlahu mina l-karbi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "And [mention] Noah, when he called [to Allāh] before [that time], so We responded to him and saved him and his family from the great affliction [i.e., the flood].",
     "words": [
       {
         "id": "al-anbya-76-1",
@@ -6339,7 +6414,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Noé, qui (Nous) avait invoqué avant cela et que Nous exauçâmes, en le délivrant, lui et sa famille, du grand désarroi."
   },
   {
     "id": "al-anbya-77",
@@ -6348,7 +6424,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَنَصَرْنَـٰهُ مِنَ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ فَأَغْرَقْنَـٰهُمْ أَجْمَعِينَ",
     "textSimple": "ونصرنـه من ٱلقوم ٱلذين كذبوا بـٔايـتنآ  إنهم كانوا قوم سوء فأغرقنـهم أجمعين",
     "transliteration": "wanaṣarnāhu mina l-qawmi alladhīna kadhabū biāyātinā innahum kānū qawma sawin fa-aghraqnāhum ajmaʿīna",
-    "translation": "",
+    "translation": "And We aided [i.e., saved] him from the people who denied Our signs. Indeed, they were a people of evil, so We drowned them, all together.",
     "words": [
       {
         "id": "al-anbya-77-1",
@@ -6435,7 +6511,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’appuyâmes contre les gens qui avaient osé démentir Nos Signes : des gens mauvais que Nous noyâmes jusqu’au dernier."
   },
   {
     "id": "al-anbya-78",
@@ -6444,7 +6521,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَدَاوُۥدَ وَسُلَيْمَـٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَـٰهِدِينَ",
     "textSimple": "وداود وسليمـن إذ يحكمان فى ٱلحرث إذ نفشت فيه غنم ٱلقوم وكنا لحكمهم شـهدين",
     "transliteration": "wadāwūda wasulaymāna idh yaḥkumāni fī l-ḥarthi idh nafashat fīhi ghanamu l-qawmi wakunnā liḥuk'mihim shāhidīna",
-    "translation": "",
+    "translation": "And [mention] David and Solomon, when they judged concerning the field - when the sheep of a people overran it [at night], and We were witness to their judgement.",
     "words": [
       {
         "id": "al-anbya-78-1",
@@ -6545,7 +6622,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et David, et Salomon, qui devaient juger un litige au sujet d’un champ ravagé par les moutons d’une peuplade (étrangère) venus y paître de nuit : Nous étions témoin de leur jugement."
   },
   {
     "id": "al-anbya-79",
@@ -6554,7 +6632,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَفَهَّمْنَـٰهَا سُلَيْمَـٰنَ ۚ وَكُلًّا ءَاتَيْنَا حُكْمًا وَعِلْمًا ۚ وَسَخَّرْنَا مَعَ دَاوُۥدَ ٱلْجِبَالَ يُسَبِّحْنَ وَٱلطَّيْرَ ۚ وَكُنَّا فَـٰعِلِينَ",
     "textSimple": "ففهمنـها سليمـن  وكلا ءاتينا حكما وعلما  وسخرنا مع داود ٱلجبال يسبحن وٱلطير  وكنا فـعلين",
     "transliteration": "fafahhamnāhā sulaymāna wakullan ātaynā ḥuk'man waʿil'man wasakharnā maʿa dāwūda l-jibāla yusabbiḥ'na wal-ṭayra wakunnā fāʿilīna",
-    "translation": "",
+    "translation": "And We gave understanding of it [i.e., the case] to Solomon, and to each [of them] We gave judgement and knowledge. And We subjected the mountains to exalt [Us], along with David and [also] the birds. And We were doing [that].",
     "words": [
       {
         "id": "al-anbya-79-1",
@@ -6655,7 +6733,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous inspirâmes à Salomon (le verdict à propos de ce différend) et Nous accordâmes à chacun sagesse et science. Nous assujettîmes les montagnes et les oiseaux à Nous rendre gloire avec David. Et tout cela c’est Nous Qui l’avons fait."
   },
   {
     "id": "al-anbya-80",
@@ -6664,7 +6743,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَعَلَّمْنَـٰهُ صَنْعَةَ لَبُوسٍ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ ۖ فَهَلْ أَنتُمْ شَـٰكِرُونَ",
     "textSimple": "وعلمنـه صنعة لبوس لكم لتحصنكم من بأسكم  فهل أنتم شـكرون",
     "transliteration": "waʿallamnāhu ṣanʿata labūsin lakum lituḥ'ṣinakum min basikum fahal antum shākirūna",
-    "translation": "",
+    "translation": "And We taught him the fashioning of coats of armor to protect you from your [enemy in] battle. So will you then be grateful?",
     "words": [
       {
         "id": "al-anbya-80-1",
@@ -6737,7 +6816,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous initiâmes David à l’art de fabriquer des cuirasses pour vous protéger dans vos combats. En serez-vous donc reconnaissants ?"
   },
   {
     "id": "al-anbya-81",
@@ -6746,7 +6826,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلِسُلَيْمَـٰنَ ٱلرِّيحَ عَاصِفَةً تَجْرِى بِأَمْرِهِۦٓ إِلَى ٱلْأَرْضِ ٱلَّتِى بَـٰرَكْنَا فِيهَا ۚ وَكُنَّا بِكُلِّ شَىْءٍ عَـٰلِمِينَ",
     "textSimple": "ولسليمـن ٱلريح عاصفة تجرى بأمرهٓ إلى ٱلأرض ٱلتى بـركنا فيها  وكنا بكل شىء عـلمين",
     "transliteration": "walisulaymāna l-rīḥa ʿāṣifatan tajrī bi-amrihi ilā l-arḍi allatī bāraknā fīhā wakunnā bikulli shayin ʿālimīna",
-    "translation": "",
+    "translation": "And to Solomon [We subjected] the wind, blowing forcefully, proceeding by his command toward the land which We had blessed. And We are ever, of all things, Knowing.",
     "words": [
       {
         "id": "al-anbya-81-1",
@@ -6847,7 +6927,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et à Salomon (Nous assujettîmes) le vent en tempête qui courait par son ordre vers la terre que Nous avons bénie. Nous sommes de Toute chose Instruit."
   },
   {
     "id": "al-anbya-82",
@@ -6856,7 +6937,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلشَّيَـٰطِينِ مَن يَغُوصُونَ لَهُۥ وَيَعْمَلُونَ عَمَلًا دُونَ ذَٰلِكَ ۖ وَكُنَّا لَهُمْ حَـٰفِظِينَ",
     "textSimple": "ومن ٱلشيـطين من يغوصون له ويعملون عملا دون ذلك  وكنا لهم حـفظين",
     "transliteration": "wamina l-shayāṭīni man yaghūṣūna lahu wayaʿmalūna ʿamalan dūna dhālika wakunnā lahum ḥāfiẓīna",
-    "translation": "",
+    "translation": "And of the devils [i.e., jinn] were those who dived for him and did work other than that. And We were of them a guardian.",
     "words": [
       {
         "id": "al-anbya-82-1",
@@ -6943,7 +7024,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en était même qui, parmi les démons, plongeaient pour lui (explorant les fonds marins) et qui faisaient d’autres travaux. Nous assurions Nous-même leur surveillance."
   },
   {
     "id": "al-anbya-83",
@@ -6952,7 +7034,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
     "textSimple": " وأيوب إذ نادى ربهٓ أنى مسنى ٱلضر وأنت أرحم ٱلرحمين",
     "transliteration": "wa-ayyūba idh nādā rabbahu annī massaniya l-ḍuru wa-anta arḥamu l-rāḥimīna",
-    "translation": "",
+    "translation": "And [mention] Job, when he called to his Lord, \"Indeed, adversity has touched me, and You are the most merciful of the merciful.\"",
     "words": [
       {
         "id": "al-anbya-83-1",
@@ -7025,7 +7107,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis (évoque) Job, qui supplia son Seigneur : « Le mal m’a atteint et Tu es le plus Miséricordieux des miséricordieux ! »"
   },
   {
     "id": "al-anbya-84",
@@ -7034,7 +7117,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّ ۖ وَءَاتَيْنَـٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَـٰبِدِينَ",
     "textSimple": "فٱستجبنا له فكشفنا ما به من ضر  وءاتينـه أهله ومثلهم معهم رحمة من عندنا وذكرى للعـبدين",
     "transliteration": "fa-is'tajabnā lahu fakashafnā mā bihi min ḍurrin waātaynāhu ahlahu wamith'lahum maʿahum raḥmatan min ʿindinā wadhik'rā lil'ʿābidīna",
-    "translation": "",
+    "translation": "So We responded to him and removed what afflicted him of adversity. And We gave him [back] his family and the like thereof with them as mercy from Us and a reminder for the worshippers [of Allāh].",
     "words": [
       {
         "id": "al-anbya-84-1",
@@ -7149,7 +7232,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’exauçâmes alors, dissipâmes tous ses maux, et lui rendîmes sa famille à laquelle (Nous ajoutâmes) une autre pareille, par un effet de Notre grâce et comme rappel pour les adorateurs."
   },
   {
     "id": "al-anbya-85",
@@ -7158,7 +7242,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِسْمَـٰعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ ۖ كُلٌّ مِّنَ ٱلصَّـٰبِرِينَ",
     "textSimple": "وإسمـعيل وإدريس وذا ٱلكفل  كل من ٱلصـبرين",
     "transliteration": "wa-is'māʿīla wa-id'rīsa wadhā l-kif'li kullun mina l-ṣābirīna",
-    "translation": "",
+    "translation": "And [mention] Ishmael and Idrees and Dhul-Kifl; all were of the patient.",
     "words": [
       {
         "id": "al-anbya-85-1",
@@ -7210,7 +7294,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Ismaël, et Idrîs, et Dhul-Kifl, tous étaient des (modèles) de patience."
   },
   {
     "id": "al-anbya-86",
@@ -7219,7 +7304,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَدْخَلْنَـٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "وأدخلنـهم فى رحمتنآ  إنهم من ٱلصـلحين",
     "transliteration": "wa-adkhalnāhum fī raḥmatinā innahum mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And We admitted them into Our mercy. Indeed, they were of the righteous.",
     "words": [
       {
         "id": "al-anbya-86-1",
@@ -7264,7 +7349,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les reçûmes dans Notre miséricorde, car ils étaient du nombre des vertueux."
   },
   {
     "id": "al-anbya-87",
@@ -7273,7 +7359,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَذَا ٱلنُّونِ إِذ ذَّهَبَ مُغَـٰضِبًا فَظَنَّ أَن لَّن نَّقْدِرَ عَلَيْهِ فَنَادَىٰ فِى ٱلظُّلُمَـٰتِ أَن لَّآ إِلَـٰهَ إِلَّآ أَنتَ سُبْحَـٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّـٰلِمِينَ",
     "textSimple": "وذا ٱلنون إذ ذهب مغـضبا فظن أن لن نقدر عليه فنادى فى ٱلظلمـت أن لآ إلـه إلآ أنت سبحـنك إنى كنت من ٱلظـلمين",
     "transliteration": "wadhā l-nūni idh dhahaba mughāḍiban faẓanna an lan naqdira ʿalayhi fanādā fī l-ẓulumāti an lā ilāha illā anta sub'ḥānaka innī kuntu mina l-ẓālimīna",
-    "translation": "",
+    "translation": "And [mention] the man of the fish [i.e., Jonah], when he went off in anger and thought that We would not decree [anything] upon him. And he called out within the darknesses, \"There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.\"",
     "words": [
       {
         "id": "al-anbya-87-1",
@@ -7437,7 +7523,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Dhu-Nûn, qui s’en alla dépité croyant pouvoir échapper à Nos rigueurs. Puis il appela dans les ténèbres : « Il n’est point d’autre divinité que Toi, gloire Te soit rendue, j’étais certes du nombre des injustes ! »"
   },
   {
     "id": "al-anbya-88",
@@ -7446,7 +7533,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَجَبْنَا لَهُۥ وَنَجَّيْنَـٰهُ مِنَ ٱلْغَمِّ ۚ وَكَذَٰلِكَ نُـۨجِى ٱلْمُؤْمِنِينَ",
     "textSimple": "فٱستجبنا له ونجينـه من ٱلغم  وكذلك نـجى ٱلمؤمنين",
     "transliteration": "fa-is'tajabnā lahu wanajjaynāhu mina l-ghami wakadhālika nunjī l-mu'minīna",
-    "translation": "",
+    "translation": "So We responded to him and saved him from the distress. And thus do We save the believers.",
     "words": [
       {
         "id": "al-anbya-88-1",
@@ -7505,7 +7592,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’exauçâmes et le délivrâmes de l’angoisse. Ainsi délivrons-Nous les croyants."
   },
   {
     "id": "al-anbya-89",
@@ -7514,7 +7602,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَزَكَرِيَّآ إِذْ نَادَىٰ رَبَّهُۥ رَبِّ لَا تَذَرْنِى فَرْدًا وَأَنتَ خَيْرُ ٱلْوَٰرِثِينَ",
     "textSimple": "وزكريآ إذ نادى ربه رب لا تذرنى فردا وأنت خير ٱلورثين",
     "transliteration": "wazakariyyā idh nādā rabbahu rabbi lā tadharnī fardan wa-anta khayru l-wārithīna",
-    "translation": "",
+    "translation": "And [mention] Zechariah, when he called to his Lord, \"My Lord, do not leave me alone [with no heir], while You are the best of inheritors.\"",
     "words": [
       {
         "id": "al-anbya-89-1",
@@ -7594,7 +7682,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Zacharie, qui supplia son Seigneur : « Seigneur, ne me laisse pas seul (sans descendance), Toi le meilleur des héritiers ! »"
   },
   {
     "id": "al-anbya-90",
@@ -7603,7 +7692,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًا وَرَهَبًا ۖ وَكَانُوا۟ لَنَا خَـٰشِعِينَ",
     "textSimple": "فٱستجبنا له ووهبنا له يحيى وأصلحنا له زوجهٓ  إنهم كانوا يسـرعون فى ٱلخيرت ويدعوننا رغبا ورهبا  وكانوا لنا خـشعين",
     "transliteration": "fa-is'tajabnā lahu wawahabnā lahu yaḥyā wa-aṣlaḥnā lahu zawjahu innahum kānū yusāriʿūna fī l-khayrāti wayadʿūnanā raghaban warahaban wakānū lanā khāshiʿīna",
-    "translation": "",
+    "translation": "So We responded to him, and We gave to him John, and amended for him his wife. Indeed, they used to hasten to good deeds and supplicate Us in hope and fear, and they were to Us humbly submissive.",
     "words": [
       {
         "id": "al-anbya-90-1",
@@ -7739,7 +7828,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’exauçâmes, (lui aussi), lui fîmes don de Yahyâ (Jean le Baptiste) et guérîmes son épouse. Tous rivalisaient de vertu et Nous invoquaient pleins d’espoir et avec crainte ; tous se recueillaient, humbles devant Nous."
   },
   {
     "id": "al-anbya-91",
@@ -7748,7 +7838,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَـٰهَا وَٱبْنَهَآ ءَايَةً لِّلْعَـٰلَمِينَ",
     "textSimple": "وٱلتىٓ أحصنت فرجها فنفخنا فيها من روحنا وجعلنـها وٱبنهآ ءاية للعـلمين",
     "transliteration": "wa-allatī aḥṣanat farjahā fanafakhnā fīhā min rūḥinā wajaʿalnāhā wa-ib'nahā āyatan lil'ʿālamīna",
-    "translation": "",
+    "translation": "And [mention] the one who guarded her chastity [i.e., Mary], so We blew into her [garment] through Our angel [i.e., Gabriel], and We made her and her son a sign for the worlds.",
     "words": [
       {
         "id": "al-anbya-91-1",
@@ -7828,7 +7918,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et celle qui sut garder sa chasteté. Nous insufflâmes en elle de Notre Esprit et fîmes d’elle et de son fils un Signe pour tout l’Univers."
   },
   {
     "id": "al-anbya-92",
@@ -7837,7 +7928,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذِهِۦٓ أُمَّتُكُمْ أُمَّةً وَٰحِدَةً وَأَنَا۠ رَبُّكُمْ فَٱعْبُدُونِ",
     "textSimple": "إن هـذهٓ أمتكم أمة وحدة وأنا ربكم فٱعبدون",
     "transliteration": "inna hādhihi ummatukum ummatan wāḥidatan wa-anā rabbukum fa-uʿ'budūni",
-    "translation": "",
+    "translation": "Indeed this, your religion, is one religion, and I am your Lord, so worship Me.",
     "words": [
       {
         "id": "al-anbya-92-1",
@@ -7896,7 +7987,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cette religion est la vôtre et c’est une religion unique. Je suis votre Seigneur, alors adorez-Moi."
   },
   {
     "id": "al-anbya-93",
@@ -7905,7 +7997,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ ۖ كُلٌّ إِلَيْنَا رَٰجِعُونَ",
     "textSimple": "وتقطعوٓا أمرهم بينهم  كل إلينا رجعون",
     "transliteration": "wataqaṭṭaʿū amrahum baynahum kullun ilaynā rājiʿūna",
-    "translation": "",
+    "translation": "And [yet] they divided their affair [i.e., that of their religion] among themselves, [but] all to Us will return.",
     "words": [
       {
         "id": "al-anbya-93-1",
@@ -7950,7 +8042,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils se sont partagés en sectes mais reviendront tous vers Nous."
   },
   {
     "id": "al-anbya-94",
@@ -7959,7 +8052,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ وَهُوَ مُؤْمِنٌ فَلَا كُفْرَانَ لِسَعْيِهِۦ وَإِنَّا لَهُۥ كَـٰتِبُونَ",
     "textSimple": "فمن يعمل من ٱلصـلحـت وهو مؤمن فلا كفران لسعيه وإنا له كـتبون",
     "transliteration": "faman yaʿmal mina l-ṣāliḥāti wahuwa mu'minun falā kuf'rāna lisaʿyihi wa-innā lahu kātibūna",
-    "translation": "",
+    "translation": "So whoever does righteous deeds while he is a believer - no denial will there be for his effort, and indeed We [i.e., Our angels], of it, are recorders.",
     "words": [
       {
         "id": "al-anbya-94-1",
@@ -8046,7 +8139,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui, étant croyant, accomplit de bonnes œuvres, nulle méconnaissance ne (décevra) son effort ; et Nous le lui inscrirons (au nombre de ses bienfaits)."
   },
   {
     "id": "al-anbya-95",
@@ -8055,7 +8149,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَحَرَٰمٌ عَلَىٰ قَرْيَةٍ أَهْلَكْنَـٰهَآ أَنَّهُمْ لَا يَرْجِعُونَ",
     "textSimple": "وحرم على قرية أهلكنـهآ أنهم لا يرجعون",
     "transliteration": "waḥarāmun ʿalā qaryatin ahlaknāhā annahum lā yarjiʿūna",
-    "translation": "",
+    "translation": "And it is prohibited to [the people of] a city which We have destroyed that they will [ever] return",
     "words": [
       {
         "id": "al-anbya-95-1",
@@ -8107,7 +8201,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est défendu aux habitants d’une cité que Nous avons anéantie de revenir."
   },
   {
     "id": "al-anbya-96",
@@ -8116,7 +8211,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ",
     "textSimple": "حتىٓ إذا فتحت يأجوج ومأجوج وهم من كل حدب ينسلون",
     "transliteration": "ḥattā idhā futiḥat yajūju wamajūju wahum min kulli ḥadabin yansilūna",
-    "translation": "",
+    "translation": "Until when [the dam of] Gog and Magog has been opened and they, from every elevation, descend",
     "words": [
       {
         "id": "al-anbya-96-1",
@@ -8189,7 +8284,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jusqu’à ce que la voie s’ouvre devant les Gog et Magog qui déferleront de tous les reliefs."
   },
   {
     "id": "al-anbya-97",
@@ -8198,7 +8294,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱقْتَرَبَ ٱلْوَعْدُ ٱلْحَقُّ فَإِذَا هِىَ شَـٰخِصَةٌ أَبْصَـٰرُ ٱلَّذِينَ كَفَرُوا۟ يَـٰوَيْلَنَا قَدْ كُنَّا فِى غَفْلَةٍ مِّنْ هَـٰذَا بَلْ كُنَّا ظَـٰلِمِينَ",
     "textSimple": "وٱقترب ٱلوعد ٱلحق فإذا هى شـخصة أبصـر ٱلذين كفروا يـويلنا قد كنا فى غفلة من هـذا بل كنا ظـلمين",
     "transliteration": "wa-iq'taraba l-waʿdu l-ḥaqu fa-idhā hiya shākhiṣatun abṣāru alladhīna kafarū yāwaylanā qad kunnā fī ghaflatin min hādhā bal kunnā ẓālimīna",
-    "translation": "",
+    "translation": "And [when] the true promise [i.e., the resurrection] has approached; then suddenly the eyes of those who disbelieved will be staring [in horror, while they say], \"O woe to us; we had been unmindful of this; rather, we were wrongdoers.\"",
     "words": [
       {
         "id": "al-anbya-97-1",
@@ -8334,7 +8430,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La promesse vraie étant alors toute proche, les regards des mécréants se figeront : « Malheur à nous, diront-ils, qui étions si distraits, voire si injustes ! »"
   },
   {
     "id": "al-anbya-98",
@@ -8343,7 +8440,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكُمْ وَمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ حَصَبُ جَهَنَّمَ أَنتُمْ لَهَا وَٰرِدُونَ",
     "textSimple": "إنكم وما تعبدون من دون ٱلله حصب جهنم أنتم لها وردون",
     "transliteration": "innakum wamā taʿbudūna min dūni l-lahi ḥaṣabu jahannama antum lahā wāridūna",
-    "translation": "",
+    "translation": "Indeed, you [disbelievers] and what you worship other than Allāh are the firewood of Hell. You will be coming to [enter] it.",
     "words": [
       {
         "id": "al-anbya-98-1",
@@ -8423,7 +8520,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il sera dit alors) : « Vous et ce que vous adoriez en dehors d’Allah servirez de combustible au (feu de) la Géhenne. Vous y entrerez tous."
   },
   {
     "id": "al-anbya-99",
@@ -8432,7 +8530,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ كَانَ هَـٰٓؤُلَآءِ ءَالِهَةً مَّا وَرَدُوهَا ۖ وَكُلٌّ فِيهَا خَـٰلِدُونَ",
     "textSimple": "لو كان هـٓؤلآء ءالهة ما وردوها  وكل فيها خـلدون",
     "transliteration": "law kāna hāulāi ālihatan mā waradūhā wakullun fīhā khālidūna",
-    "translation": "",
+    "translation": "Had these [false deities] been [actual] gods, they would not have come to it, but all are eternal therein.",
     "words": [
       {
         "id": "al-anbya-99-1",
@@ -8498,7 +8596,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si celles-ci étaient de réelles divinités, elles n’y entreraient pas. Tous y resteront pour l’éternité. »"
   },
   {
     "id": "al-anbya-100",
@@ -8507,7 +8606,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَهُمْ فِيهَا زَفِيرٌ وَهُمْ فِيهَا لَا يَسْمَعُونَ",
     "textSimple": "لهم فيها زفير وهم فيها لا يسمعون",
     "transliteration": "lahum fīhā zafīrun wahum fīhā lā yasmaʿūna",
-    "translation": "",
+    "translation": "For them therein is heavy sighing, and they therein will not hear.",
     "words": [
       {
         "id": "al-anbya-100-1",
@@ -8559,7 +8658,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y feront entendre des râles sibilants mais eux n’entendront rien."
   },
   {
     "id": "al-anbya-101",
@@ -8568,7 +8668,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ سَبَقَتْ لَهُم مِّنَّا ٱلْحُسْنَىٰٓ أُو۟لَـٰٓئِكَ عَنْهَا مُبْعَدُونَ",
     "textSimple": "إن ٱلذين سبقت لهم منا ٱلحسنىٓ أولـٓئك عنها مبعدون",
     "transliteration": "inna alladhīna sabaqat lahum minnā l-ḥus'nā ulāika ʿanhā mub'ʿadūna",
-    "translation": "",
+    "translation": "Indeed, those for whom the best [reward] has preceded from Us - they are from it far removed.",
     "words": [
       {
         "id": "al-anbya-101-1",
@@ -8634,7 +8734,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux à qui étaient déjà promise Notre plus belle récompense, ceux-là en seront tenus éloignés."
   },
   {
     "id": "al-anbya-102",
@@ -8643,7 +8744,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِى مَا ٱشْتَهَتْ أَنفُسُهُمْ خَـٰلِدُونَ",
     "textSimple": "لا يسمعون حسيسها  وهم فى ما ٱشتهت أنفسهم خـلدون",
     "transliteration": "lā yasmaʿūna ḥasīsahā wahum fī mā ish'tahat anfusuhum khālidūna",
-    "translation": "",
+    "translation": "They will not hear its sound, while they are, in that which their souls desire, abiding eternally.",
     "words": [
       {
         "id": "al-anbya-102-1",
@@ -8709,7 +8810,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’entendront pas ses sifflements et jouiront éternellement de tout ce dont ils auront envie."
   },
   {
     "id": "al-anbya-103",
@@ -8718,7 +8820,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَحْزُنُهُمُ ٱلْفَزَعُ ٱلْأَكْبَرُ وَتَتَلَقَّىٰهُمُ ٱلْمَلَـٰٓئِكَةُ هَـٰذَا يَوْمُكُمُ ٱلَّذِى كُنتُمْ تُوعَدُونَ",
     "textSimple": "لا يحزنهم ٱلفزع ٱلأكبر وتتلقىهم ٱلملـٓئكة هـذا يومكم ٱلذى كنتم توعدون",
     "transliteration": "lā yaḥzunuhumu l-fazaʿu l-akbaru watatalaqqāhumu l-malāikatu hādhā yawmukumu alladhī kuntum tūʿadūna",
-    "translation": "",
+    "translation": "They will not be grieved by the greatest terror, and the angels will meet them, [saying], \"This is your Day which you have been promised\" -",
     "words": [
       {
         "id": "al-anbya-103-1",
@@ -8798,7 +8900,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Grand Effroi ne les inquiétera point, et les Anges les accueilleront (en disant) : « Voici venu le jour qui vous était promis. »"
   },
   {
     "id": "al-anbya-104",
@@ -8807,7 +8910,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَـٰعِلِينَ",
     "textSimple": "يوم نطوى ٱلسمآء كطى ٱلسجل للكتب  كما بدأنآ أول خلق نعيده  وعدا علينآ  إنا كنا فـعلين",
     "transliteration": "yawma naṭwī l-samāa kaṭayyi l-sijili lil'kutubi kamā badanā awwala khalqin nuʿīduhu waʿdan ʿalaynā innā kunnā fāʿilīna",
-    "translation": "",
+    "translation": "The Day when We will fold the heaven like the folding of a [written] sheet for the records. As We began the first creation, We will repeat it. [That is] a promise binding upon Us. Indeed, We will do it.",
     "words": [
       {
         "id": "al-anbya-104-1",
@@ -8922,7 +9025,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là Nous plierons le ciel comme on plie le parchemin sur ce qui y est écrit. De même que Nous avons initié la création une première fois, Nous la recommencerons : c’est une promesse que Nous devons tenir et Nous la tiendrons."
   },
   {
     "id": "al-anbya-105",
@@ -8931,7 +9035,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ كَتَبْنَا فِى ٱلزَّبُورِ مِنۢ بَعْدِ ٱلذِّكْرِ أَنَّ ٱلْأَرْضَ يَرِثُهَا عِبَادِىَ ٱلصَّـٰلِحُونَ",
     "textSimple": "ولقد كتبنا فى ٱلزبور من بعد ٱلذكر أن ٱلأرض يرثها عبادى ٱلصـلحون",
     "transliteration": "walaqad katabnā fī l-zabūri min baʿdi l-dhik'ri anna l-arḍa yarithuhā ʿibādiya l-ṣāliḥūna",
-    "translation": "",
+    "translation": "And We have already written in the book [of Psalms] after the [previous] mention that the land [of Paradise] is inherited by My righteous servants.",
     "words": [
       {
         "id": "al-anbya-105-1",
@@ -9018,7 +9122,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons écrit dans les Psaumes (le Zabûr), après l’avoir évoqué (dans le Livre éternel) que la terre sera l’héritage de Mes serviteurs les plus vertueux."
   },
   {
     "id": "al-anbya-106",
@@ -9027,7 +9132,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى هَـٰذَا لَبَلَـٰغًا لِّقَوْمٍ عَـٰبِدِينَ",
     "textSimple": "إن فى هـذا لبلـغا لقوم عـبدين",
     "transliteration": "inna fī hādhā labalāghan liqawmin ʿābidīna",
-    "translation": "",
+    "translation": "Indeed, in this [Qur’ān] is notification for a worshipping people.",
     "words": [
       {
         "id": "al-anbya-106-1",
@@ -9072,7 +9177,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a là un enseignement pour un peuple qui (Nous) adore."
   },
   {
     "id": "al-anbya-107",
@@ -9081,7 +9187,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَرْسَلْنَـٰكَ إِلَّا رَحْمَةً لِّلْعَـٰلَمِينَ",
     "textSimple": "ومآ أرسلنـك إلا رحمة للعـلمين",
     "transliteration": "wamā arsalnāka illā raḥmatan lil'ʿālamīna",
-    "translation": "",
+    "translation": "And We have not sent you, [O Muḥammad], except as a mercy to the worlds.",
     "words": [
       {
         "id": "al-anbya-107-1",
@@ -9119,7 +9225,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne t’avons envoyé qu’en miséricorde pour l’Univers."
   },
   {
     "id": "al-anbya-108",
@@ -9128,7 +9235,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَا يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ ۖ فَهَلْ أَنتُم مُّسْلِمُونَ",
     "textSimple": "قل إنما يوحىٓ إلى أنمآ إلـهكم إلـه وحد  فهل أنتم مسلمون",
     "transliteration": "qul innamā yūḥā ilayya annamā ilāhukum ilāhun wāḥidun fahal antum mus'limūna",
-    "translation": "",
+    "translation": "Say, \"It is only revealed to me that your god is but one God; so will you be Muslims [in submission to Him]?\"",
     "words": [
       {
         "id": "al-anbya-108-1",
@@ -9208,7 +9315,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ce qui m’est révélé n’est rien de moins que : votre Seigneur est un Dieu Unique. Allez-vous devenir soumis ? »"
   },
   {
     "id": "al-anbya-109",
@@ -9217,7 +9325,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِن تَوَلَّوْا۟ فَقُلْ ءَاذَنتُكُمْ عَلَىٰ سَوَآءٍ ۖ وَإِنْ أَدْرِىٓ أَقَرِيبٌ أَم بَعِيدٌ مَّا تُوعَدُونَ",
     "textSimple": "فإن تولوا فقل ءاذنتكم على سوآء  وإن أدرىٓ أقريب أم بعيد ما توعدون",
     "transliteration": "fa-in tawallaw faqul ādhantukum ʿalā sawāin wa-in adrī aqarībun am baʿīdun mā tūʿadūna",
-    "translation": "",
+    "translation": "But if they turn away, then say, \"I have announced to [all of] you equally. And I know not whether near or far is that which you are promised.",
     "words": [
       {
         "id": "al-anbya-109-1",
@@ -9311,7 +9419,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils se détournent, alors dis : « Je vous ai avertis tous également. Et je ne sais moi-même si ce qui vous est promis est imminent ou lointain."
   },
   {
     "id": "al-anbya-110",
@@ -9320,7 +9429,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ مِنَ ٱلْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ",
     "textSimple": "إنه يعلم ٱلجهر من ٱلقول ويعلم ما تكتمون",
     "transliteration": "innahu yaʿlamu l-jahra mina l-qawli wayaʿlamu mā taktumūna",
-    "translation": "",
+    "translation": "Indeed, He knows what is declared of speech, and He knows what you conceal.",
     "words": [
       {
         "id": "al-anbya-110-1",
@@ -9379,7 +9488,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui Sait ce que vous dites tout haut et ce que vous taisez."
   },
   {
     "id": "al-anbya-111",
@@ -9388,7 +9498,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنْ أَدْرِى لَعَلَّهُۥ فِتْنَةٌ لَّكُمْ وَمَتَـٰعٌ إِلَىٰ حِينٍ",
     "textSimple": "وإن أدرى لعله فتنة لكم ومتـع إلى حين",
     "transliteration": "wa-in adrī laʿallahu fit'natun lakum wamatāʿun ilā ḥīnin",
-    "translation": "",
+    "translation": "And I know not; perhaps it is a trial for you and enjoyment for a time.\"",
     "words": [
       {
         "id": "al-anbya-111-1",
@@ -9447,7 +9557,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et que sais-je ? Peut-être que ce (sursis) est une tentation pour vous éprouver et une jouissance pour un temps. »"
   },
   {
     "id": "al-anbya-112",
@@ -9456,7 +9567,7 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
     "textUthmani": "قَـٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَـٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
     "textSimple": "قـل رب ٱحكم بٱلحق  وربنا ٱلرحمـن ٱلمستعان على ما تصفون",
     "transliteration": "qāla rabbi uḥ'kum bil-ḥaqi warabbunā l-raḥmānu l-mus'taʿānu ʿalā mā taṣifūna",
-    "translation": "",
+    "translation": "[The Prophet (ﷺ)] has said, \"My Lord, judge [between us] in truth. And our Lord is the Most Merciful, the one whose help is sought against that which you describe.\"",
     "words": [
       {
         "id": "al-anbya-112-1",
@@ -9529,7 +9640,8 @@ export const AL_ANBYA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur ! Juge (entre nous) en toute équité ! Et notre Seigneur est le Tout Clément, Celui Dont nous cherchons l’assistance contre vos allégations. »"
   }
 ];
 

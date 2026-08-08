@@ -11,7 +11,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": " صٓ ۚ وَٱلْقُرْءَانِ ذِى ٱلذِّكْرِ",
     "textSimple": " صٓ  وٱلقرءان ذى ٱلذكر",
     "transliteration": "sad wal-qur'āni dhī l-dhik'ri",
-    "translation": "",
+    "translation": "Ṣād. By the Qur’ān containing reminder...",
     "words": [
       {
         "id": "sad-1-1",
@@ -42,7 +42,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Çâd. Par le Coran plein de noblesse (dhidh-dhikr)."
   },
   {
     "id": "sad-2",
@@ -51,7 +52,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى عِزَّةٍ وَشِقَاقٍ",
     "textSimple": "بل ٱلذين كفروا فى عزة وشقاق",
     "transliteration": "bali alladhīna kafarū fī ʿizzatin washiqāqin",
-    "translation": "",
+    "translation": "But those who disbelieve are in pride and dissension.",
     "words": [
       {
         "id": "sad-2-1",
@@ -96,7 +97,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourtant, ceux qui ont mécru sont plongés dans l’orgueil et la dissidence."
   },
   {
     "id": "sad-3",
@@ -105,7 +107,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ فَنَادَوا۟ وَّلَاتَ حِينَ مَنَاصٍ",
     "textSimple": "كم أهلكنا من قبلهم من قرن فنادوا ولات حين مناص",
     "transliteration": "kam ahlaknā min qablihim min qarnin fanādaw walāta ḥīna manāṣin",
-    "translation": "",
+    "translation": "How many a generation have We destroyed before them, and they [then] called out; but it was not a time for escape.",
     "words": [
       {
         "id": "sad-3-1",
@@ -178,7 +180,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de générations n’avons-Nous pas fait périr avant eux, qui appelèrent (au secours) quand il était trop tard pour échapper (au châtiment)."
   },
   {
     "id": "sad-4",
@@ -187,7 +190,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَعَجِبُوٓا۟ أَن جَآءَهُم مُّنذِرٌ مِّنْهُمْ ۖ وَقَالَ ٱلْكَـٰفِرُونَ هَـٰذَا سَـٰحِرٌ كَذَّابٌ",
     "textSimple": "وعجبوٓا أن جآءهم منذر منهم  وقال ٱلكـفرون هـذا سـحر كذاب",
     "transliteration": "waʿajibū an jāahum mundhirun min'hum waqāla l-kāfirūna hādhā sāḥirun kadhābun",
-    "translation": "",
+    "translation": "And they wonder that there has come to them a warner [i.e., Prophet Muḥammad (ﷺ)] from among themselves. And the disbelievers say, \"This is a magician and a liar.",
     "words": [
       {
         "id": "sad-4-1",
@@ -260,7 +263,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’étonnèrent que l’un des leurs vînt les avertir, et les mécréants dirent : « C’est un magicien, un menteur !"
   },
   {
     "id": "sad-5",
@@ -269,7 +273,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَجَعَلَ ٱلْـَٔالِهَةَ إِلَـٰهًا وَٰحِدًا ۖ إِنَّ هَـٰذَا لَشَىْءٌ عُجَابٌ",
     "textSimple": "أجعل ٱلـٔالهة إلـها وحدا  إن هـذا لشىء عجاب",
     "transliteration": "ajaʿala l-ālihata ilāhan wāḥidan inna hādhā lashayon ʿujābun",
-    "translation": "",
+    "translation": "Has he made the gods [only] one God? Indeed, this is a curious thing.\"",
     "words": [
       {
         "id": "sad-5-1",
@@ -328,7 +332,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Fera-t-il des divinités un Dieu Unique ? C’est vraiment chose étrange ! »"
   },
   {
     "id": "sad-6",
@@ -337,7 +342,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱنطَلَقَ ٱلْمَلَأُ مِنْهُمْ أَنِ ٱمْشُوا۟ وَٱصْبِرُوا۟ عَلَىٰٓ ءَالِهَتِكُمْ ۖ إِنَّ هَـٰذَا لَشَىْءٌ يُرَادُ",
     "textSimple": "وٱنطلق ٱلملأ منهم أن ٱمشوا وٱصبروا علىٓ ءالهتكم  إن هـذا لشىء يراد",
     "transliteration": "wa-inṭalaqa l-mala-u min'hum ani im'shū wa-iṣ'birū ʿalā ālihatikum inna hādhā lashayon yurādu",
-    "translation": "",
+    "translation": "And the eminent among them went forth, [saying], \"Continue, and be patient over [the defense of] your gods. Indeed, this is a thing intended.",
     "words": [
       {
         "id": "sad-6-1",
@@ -424,7 +429,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur assemblée des notables s’en furent en disant : « Allez donc et persévérez (dans l’adoration) de vos divinités. Car (vous détourner d’elles) c’est ce qui est voulu."
   },
   {
     "id": "sad-7",
@@ -433,7 +439,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "مَا سَمِعْنَا بِهَـٰذَا فِى ٱلْمِلَّةِ ٱلْـَٔاخِرَةِ إِنْ هَـٰذَآ إِلَّا ٱخْتِلَـٰقٌ",
     "textSimple": "ما سمعنا بهـذا فى ٱلملة ٱلـٔاخرة إن هـذآ إلا ٱختلـق",
     "transliteration": "mā samiʿ'nā bihādhā fī l-milati l-ākhirati in hādhā illā ikh'tilāqun",
-    "translation": "",
+    "translation": "We have not heard of this in the latest religion. This is not but a fabrication.",
     "words": [
       {
         "id": "sad-7-1",
@@ -506,7 +512,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons pas entendu pareille chose dans la dernière religion. Ce n’est réellement qu’une pure invention !"
   },
   {
     "id": "sad-8",
@@ -515,7 +522,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَءُنزِلَ عَلَيْهِ ٱلذِّكْرُ مِنۢ بَيْنِنَا ۚ بَلْ هُمْ فِى شَكٍّ مِّن ذِكْرِى ۖ بَل لَّمَّا يَذُوقُوا۟ عَذَابِ",
     "textSimple": "أءنزل عليه ٱلذكر من بيننا  بل هم فى شك من ذكرى  بل لما يذوقوا عذاب",
     "transliteration": "a-unzila ʿalayhi l-dhik'ru min bayninā bal hum fī shakkin min dhik'rī bal lammā yadhūqū ʿadhābi",
-    "translation": "",
+    "translation": "Has the message been revealed to him out of [all of] us?\" Rather, they are in doubt about My message. Rather, they have not yet tasted My punishment.",
     "words": [
       {
         "id": "sad-8-1",
@@ -623,7 +630,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce n’est donc que sur lui, d’entre nous tous, que le Rappel serait descendu (en révélation) ? » Ils sont plutôt dans le doute au sujet de Mon Rappel, car ils n’ont pas encore goûté Mon supplice."
   },
   {
     "id": "sad-9",
@@ -632,7 +640,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ عِندَهُمْ خَزَآئِنُ رَحْمَةِ رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ",
     "textSimple": "أم عندهم خزآئن رحمة ربك ٱلعزيز ٱلوهاب",
     "transliteration": "am ʿindahum khazāinu raḥmati rabbika l-ʿazīzi l-wahābi",
-    "translation": "",
+    "translation": "Or do they have the depositories of the mercy of your Lord, the Exalted in Might, the Bestower?",
     "words": [
       {
         "id": "sad-9-1",
@@ -684,7 +692,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors disposent-ils des trésors de la grâce de ton Seigneur, le Tout-Puissant, le Donateur Absolu !"
   },
   {
     "id": "sad-10",
@@ -693,7 +702,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُم مُّلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۖ فَلْيَرْتَقُوا۟ فِى ٱلْأَسْبَـٰبِ",
     "textSimple": "أم لهم ملك ٱلسمـوت وٱلأرض وما بينهما  فليرتقوا فى ٱلأسبـب",
     "transliteration": "am lahum mul'ku l-samāwāti wal-arḍi wamā baynahumā falyartaqū fī l-asbābi",
-    "translation": "",
+    "translation": "Or is theirs the dominion of the heavens and the earth and what is between them? Then let them ascend through [any] ways of access.",
     "words": [
       {
         "id": "sad-10-1",
@@ -766,7 +775,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou encore détiennent-ils la royauté des cieux, de la terre et de ce qu’il y a entre eux ! Qu’ils suivent donc les voies leur permettant d’y monter !"
   },
   {
     "id": "sad-11",
@@ -775,7 +785,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "جُندٌ مَّا هُنَالِكَ مَهْزُومٌ مِّنَ ٱلْأَحْزَابِ",
     "textSimple": "جند ما هنالك مهزوم من ٱلأحزاب",
     "transliteration": "jundun mā hunālika mahzūmun mina l-aḥzābi",
-    "translation": "",
+    "translation": "[They are but] soldiers [who will be] defeated there among the companies [of disbelievers].",
     "words": [
       {
         "id": "sad-11-1",
@@ -820,7 +830,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ce ne sont qu’) une armée de coalisés qui seront défaits !"
   },
   {
     "id": "sad-12",
@@ -829,7 +840,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَعَادٌ وَفِرْعَوْنُ ذُو ٱلْأَوْتَادِ",
     "textSimple": "كذبت قبلهم قوم نوح وعاد وفرعون ذو ٱلأوتاد",
     "transliteration": "kadhabat qablahum qawmu nūḥin waʿādun wafir'ʿawnu dhū l-awtādi",
-    "translation": "",
+    "translation": "The people of Noah denied before them, and [the tribe of] ʿAad and Pharaoh, the owner of stakes,",
     "words": [
       {
         "id": "sad-12-1",
@@ -888,7 +899,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avant eux, avaient déjà crié au mensonge les peuples de Noé, des ‘Ad et de Pharaon (qui avait inventé le supplice) des épieux;"
   },
   {
     "id": "sad-13",
@@ -897,7 +909,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَثَمُودُ وَقَوْمُ لُوطٍ وَأَصْحَـٰبُ لْـَٔيْكَةِ ۚ أُو۟لَـٰٓئِكَ ٱلْأَحْزَابُ",
     "textSimple": "وثمود وقوم لوط وأصحـب لـٔيكة  أولـٓئك ٱلأحزاب",
     "transliteration": "wathamūdu waqawmu lūṭin wa-aṣḥābu al'aykati ulāika l-aḥzābu",
-    "translation": "",
+    "translation": "And [the tribe of] Thamūd and the people of Lot and the companions of the thicket [i.e., people of Madyan]. Those are the companies.",
     "words": [
       {
         "id": "sad-13-1",
@@ -949,7 +961,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais aussi les Thamûd, le peuple de Loth et les gens d’Al-Aykah. Ce sont là les coalisés."
   },
   {
     "id": "sad-14",
@@ -958,7 +971,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِن كُلٌّ إِلَّا كَذَّبَ ٱلرُّسُلَ فَحَقَّ عِقَابِ",
     "textSimple": "إن كل إلا كذب ٱلرسل فحق عقاب",
     "transliteration": "in kullun illā kadhaba l-rusula faḥaqqa ʿiqābi",
-    "translation": "",
+    "translation": "Each of them denied the messengers, so My penalty was justified.",
     "words": [
       {
         "id": "sad-14-1",
@@ -1010,7 +1023,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tous n’avaient fait que traiter les Messagers de menteurs, et (tous) avaient mérité Mon châtiment."
   },
   {
     "id": "sad-15",
@@ -1019,7 +1033,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَنظُرُ هَـٰٓؤُلَآءِ إِلَّا صَيْحَةً وَٰحِدَةً مَّا لَهَا مِن فَوَاقٍ",
     "textSimple": "وما ينظر هـٓؤلآء إلا صيحة وحدة ما لها من فواق",
     "transliteration": "wamā yanẓuru hāulāi illā ṣayḥatan wāḥidatan mā lahā min fawāqin",
-    "translation": "",
+    "translation": "And these [disbelievers] await not but one blast [of the Horn]; for it there will be no delay.",
     "words": [
       {
         "id": "sad-15-1",
@@ -1092,7 +1106,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là n’attendront qu’un seul Cri, qui ne sera point repris."
   },
   {
     "id": "sad-16",
@@ -1101,7 +1116,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ رَبَّنَا عَجِّل لَّنَا قِطَّنَا قَبْلَ يَوْمِ ٱلْحِسَابِ",
     "textSimple": "وقالوا ربنا عجل لنا قطنا قبل يوم ٱلحساب",
     "transliteration": "waqālū rabbanā ʿajjil lanā qiṭṭanā qabla yawmi l-ḥisābi",
-    "translation": "",
+    "translation": "And they say, \"Our Lord, hasten for us our share [of the punishment] before the Day of Account.\"",
     "words": [
       {
         "id": "sad-16-1",
@@ -1160,7 +1175,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, disent-ils, hâte pour nous notre part (du châtiment) avant le Jour des Comptes ! »"
   },
   {
     "id": "sad-17",
@@ -1169,7 +1185,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "ٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱذْكُرْ عَبْدَنَا دَاوُۥدَ ذَا ٱلْأَيْدِ ۖ إِنَّهُۥٓ أَوَّابٌ",
     "textSimple": "ٱصبر على ما يقولون وٱذكر عبدنا داود ذا ٱلأيد  إنهٓ أواب",
     "transliteration": "iṣ'bir ʿalā mā yaqūlūna wa-udh'kur ʿabdanā dāwūda dhā l-aydi innahu awwābun",
-    "translation": "",
+    "translation": "Be patient over what they say and remember Our servant, David, the possessor of strength; indeed, he was one who repeatedly turned back [to Allāh].",
     "words": [
       {
         "id": "sad-17-1",
@@ -1249,7 +1265,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Supporte patiemment ce qu’ils disent. Évoque Notre serviteur David, qui était doté de la force de la foi et aimait tant à se repentir."
   },
   {
     "id": "sad-18",
@@ -1258,7 +1275,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا سَخَّرْنَا ٱلْجِبَالَ مَعَهُۥ يُسَبِّحْنَ بِٱلْعَشِىِّ وَٱلْإِشْرَاقِ",
     "textSimple": "إنا سخرنا ٱلجبال معه يسبحن بٱلعشى وٱلإشراق",
     "transliteration": "innā sakharnā l-jibāla maʿahu yusabbiḥ'na bil-ʿashiyi wal-ish'rāqi",
-    "translation": "",
+    "translation": "Indeed, We subjected the mountains [to praise] with him, exalting [Allāh] in the [late] afternoon and [after] sunrise.",
     "words": [
       {
         "id": "sad-18-1",
@@ -1310,7 +1327,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui avons soumis les montagnes qui, avec lui, rendaient gloire (à Allah) au soir et au point du jour."
   },
   {
     "id": "sad-19",
@@ -1319,7 +1337,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلطَّيْرَ مَحْشُورَةً ۖ كُلٌّ لَّهُۥٓ أَوَّابٌ",
     "textSimple": "وٱلطير محشورة  كل لهٓ أواب",
     "transliteration": "wal-ṭayra maḥshūratan kullun lahu awwābun",
-    "translation": "",
+    "translation": "And the birds were assembled, all with him repeating [praises].",
     "words": [
       {
         "id": "sad-19-1",
@@ -1357,7 +1375,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ainsi en fut-il) des oiseaux qui se rassemblaient par volées et lui obéissaient."
   },
   {
     "id": "sad-20",
@@ -1366,7 +1385,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَشَدَدْنَا مُلْكَهُۥ وَءَاتَيْنَـٰهُ ٱلْحِكْمَةَ وَفَصْلَ ٱلْخِطَابِ",
     "textSimple": "وشددنا ملكه وءاتينـه ٱلحكمة وفصل ٱلخطاب",
     "transliteration": "washadadnā mul'kahu waātaynāhu l-ḥik'mata wafaṣla l-khiṭābi",
-    "translation": "",
+    "translation": "And We strengthened his kingdom and gave him wisdom and discernment in speech.",
     "words": [
       {
         "id": "sad-20-1",
@@ -1411,7 +1430,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons affermi son pouvoir et lui avons donné sagesse et perspicacité."
   },
   {
     "id": "sad-21",
@@ -1420,7 +1440,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَهَلْ أَتَىٰكَ نَبَؤُا۟ ٱلْخَصْمِ إِذْ تَسَوَّرُوا۟ ٱلْمِحْرَابَ",
     "textSimple": " وهل أتىك نبؤا ٱلخصم إذ تسوروا ٱلمحراب",
     "transliteration": "wahal atāka naba-u l-khaṣmi idh tasawwarū l-miḥ'rāba",
-    "translation": "",
+    "translation": "And has there come to you the news of the adversaries, when they climbed over the wall of [his] prayer chamber -",
     "words": [
       {
         "id": "sad-21-1",
@@ -1472,7 +1492,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "T’est-il donc parvenu l’histoire des plaideurs qui avaient escaladé le mur du sanctuaire ?"
   },
   {
     "id": "sad-22",
@@ -1481,7 +1502,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ ٱلصِّرَٰطِ",
     "textSimple": "إذ دخلوا على داود ففزع منهم  قالوا لا تخف  خصمان بغى بعضنا على بعض فٱحكم بيننا بٱلحق ولا تشطط وٱهدنآ إلى سوآء ٱلصرط",
     "transliteration": "idh dakhalū ʿalā dāwūda fafaziʿa min'hum qālū lā takhaf khaṣmāni baghā baʿḍunā ʿalā baʿḍin fa-uḥ'kum baynanā bil-ḥaqi walā tush'ṭiṭ wa-ih'dinā ilā sawāi l-ṣirāṭi",
-    "translation": "",
+    "translation": "When they entered upon David and he was alarmed by them? They said, \"Fear not. [We are] two adversaries, one of whom has wronged the other, so judge between us with truth and do not exceed [it] and guide us to the sound path.",
     "words": [
       {
         "id": "sad-22-1",
@@ -1645,7 +1666,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils entrèrent (soudain) auprès de David, qui en fut effrayé, ils dirent : « Ne crains rien ! Nous sommes deux plaideurs. L’un de nous a commis une injustice envers l’autre. Alors juge entre nous équitablement, ne sois pas partial et conduis-nous vers la voie droite."
   },
   {
     "id": "sad-23",
@@ -1654,7 +1676,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَآ أَخِى لَهُۥ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِىَ نَعْجَةٌ وَٰحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ",
     "textSimple": "إن هـذآ أخى له تسع وتسعون نعجة ولى نعجة وحدة فقال أكفلنيها وعزنى فى ٱلخطاب",
     "transliteration": "inna hādhā akhī lahu tis'ʿun watis'ʿūna naʿjatan waliya naʿjatun wāḥidatun faqāla akfil'nīhā waʿazzanī fī l-khiṭābi",
-    "translation": "",
+    "translation": "Indeed this, my brother, has ninety-nine ewes, and I have one ewe; so he said, 'Entrust her to me,' and he overpowered me in speech.\"",
     "words": [
       {
         "id": "sad-23-1",
@@ -1762,7 +1784,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mon frère que voici a quatre-vingt-dix-neuf brebis et je n’en ai qu’une seule. “Donne-la moi” m’a-t-il dit (un jour). Plus fort que moi dans la dispute, il a eu le dernier mot. »"
   },
   {
     "id": "sad-24",
@@ -1771,7 +1794,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّـٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
     "textSimple": "قال لقد ظلمك بسؤال نعجتك إلى نعاجه  وإن كثيرا من ٱلخلطآء ليبغى بعضهم على بعض إلا ٱلذين ءامنوا وعملوا ٱلصـلحـت وقليل ما هم  وظن داود أنما فتنـه فٱستغفر ربه وخر راكعا وأناب ",
     "transliteration": "qāla laqad ẓalamaka bisuāli naʿjatika ilā niʿājihi wa-inna kathīran mina l-khulaṭāi layabghī baʿḍuhum ʿalā baʿḍin illā alladhīna āmanū waʿamilū l-ṣāliḥāti waqalīlun mā hum waẓanna dāwūdu annamā fatannāhu fa-is'taghfara rabbahu wakharra rākiʿan wa-anāba",
-    "translation": "",
+    "translation": "[David] said, \"He has certainly wronged you in demanding your ewe [in addition] to his ewes. And indeed, many associates oppress one another, except for those who believe and do righteous deeds - and few are they.\" And David became certain that We had tried him, and he asked forgiveness of his Lord and fell down bowing [in prostration] and turned in repentance [to Allāh].",
     "words": [
       {
         "id": "sad-24-1",
@@ -1998,7 +2021,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 31
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Il t’a lésé, dit (David), en t’imposant de joindre ta brebis aux siennes. » Beaucoup d’associés agissent frauduleusement les uns envers les autres, hormis ceux qui ont cru et ont accompli les bonnes œuvres. Or ils sont peu ! David comprit que Nous le mettions à l’épreuve. Il implora donc le pardon de son Seigneur et se jeta à terre, prosterné et repentant."
   },
   {
     "id": "sad-25",
@@ -2007,7 +2031,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
     "textSimple": "فغفرنا له ذلك  وإن له عندنا لزلفى وحسن مـٔاب",
     "transliteration": "faghafarnā lahu dhālika wa-inna lahu ʿindanā lazul'fā waḥus'na maābin",
-    "translation": "",
+    "translation": "So We forgave him that; and indeed, for him is nearness to Us and a good place of return.",
     "words": [
       {
         "id": "sad-25-1",
@@ -2073,7 +2097,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le lui avons pardonné : il aura, auprès de Nous, une place rapprochée et un heureux retour."
   },
   {
     "id": "sad-26",
@@ -2082,7 +2107,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰدَاوُۥدُ إِنَّا جَعَلْنَـٰكَ خَلِيفَةً فِى ٱلْأَرْضِ فَٱحْكُم بَيْنَ ٱلنَّاسِ بِٱلْحَقِّ وَلَا تَتَّبِعِ ٱلْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّ ٱلَّذِينَ يَضِلُّونَ عَن سَبِيلِ ٱللَّهِ لَهُمْ عَذَابٌ شَدِيدٌۢ بِمَا نَسُوا۟ يَوْمَ ٱلْحِسَابِ",
     "textSimple": "يـداود إنا جعلنـك خليفة فى ٱلأرض فٱحكم بين ٱلناس بٱلحق ولا تتبع ٱلهوى فيضلك عن سبيل ٱلله  إن ٱلذين يضلون عن سبيل ٱلله لهم عذاب شديد بما نسوا يوم ٱلحساب",
     "transliteration": "yādāwūdu innā jaʿalnāka khalīfatan fī l-arḍi fa-uḥ'kum bayna l-nāsi bil-ḥaqi walā tattabiʿi l-hawā fayuḍillaka ʿan sabīli l-lahi inna alladhīna yaḍillūna ʿan sabīli l-lahi lahum ʿadhābun shadīdun bimā nasū yawma l-ḥisābi",
-    "translation": "",
+    "translation": "[We said], \"O David, indeed We have made you a successor upon the earth, so judge between the people in truth and do not follow [your own] desire, as it will lead you astray from the way of Allāh.\" Indeed, those who go astray from the way of Allāh will have a severe punishment for having forgotten the Day of Account.",
     "words": [
       {
         "id": "sad-26-1",
@@ -2295,7 +2320,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô David ! Nous avons fait de toi un héritier sur terre. Juge donc entre les hommes par la vérité. Ne suis pas les passions qui risquent de te fourvoyer loin du chemin d’Allah. Car ceux qui se fourvoient loin du chemin d’Allah auront un terrible supplice pour avoir oublié le Jour des Comptes. »"
   },
   {
     "id": "sad-27",
@@ -2304,7 +2330,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا بَـٰطِلًا ۚ ذَٰلِكَ ظَنُّ ٱلَّذِينَ كَفَرُوا۟ ۚ فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِنَ ٱلنَّارِ",
     "textSimple": "وما خلقنا ٱلسمآء وٱلأرض وما بينهما بـطلا  ذلك ظن ٱلذين كفروا  فويل للذين كفروا من ٱلنار",
     "transliteration": "wamā khalaqnā l-samāa wal-arḍa wamā baynahumā bāṭilan dhālika ẓannu alladhīna kafarū fawaylun lilladhīna kafarū mina l-nāri",
-    "translation": "",
+    "translation": "And We did not create the heaven and the earth and that between them aimlessly. That is the assumption of those who disbelieve, so woe to those who disbelieve from the Fire.",
     "words": [
       {
         "id": "sad-27-1",
@@ -2419,7 +2445,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons pas créé le ciel, la terre et ce qu’il y a entre eux en pure perte. C’est cependant ce que pensent les mécréants. Malheur à ceux qui ont mécru, car ils seront livrés au Feu !"
   },
   {
     "id": "sad-28",
@@ -2428,7 +2455,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ نَجْعَلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ كَٱلْمُفْسِدِينَ فِى ٱلْأَرْضِ أَمْ نَجْعَلُ ٱلْمُتَّقِينَ كَٱلْفُجَّارِ",
     "textSimple": "أم نجعل ٱلذين ءامنوا وعملوا ٱلصـلحـت كٱلمفسدين فى ٱلأرض أم نجعل ٱلمتقين كٱلفجار",
     "transliteration": "am najʿalu alladhīna āmanū waʿamilū l-ṣāliḥāti kal-muf'sidīna fī l-arḍi am najʿalu l-mutaqīna kal-fujāri",
-    "translation": "",
+    "translation": "Or should We treat those who believe and do righteous deeds like corrupters in the land? Or should We treat those who fear Allāh like the wicked?",
     "words": [
       {
         "id": "sad-28-1",
@@ -2522,7 +2549,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Traiterons-Nous ceux qui ont cru et ont accompli les bonnes œuvres tout comme les corrupteurs sur terre? Traiterons-Nous les gens pieux tout comme les dépravés ?"
   },
   {
     "id": "sad-29",
@@ -2531,7 +2559,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "كِتَـٰبٌ أَنزَلْنَـٰهُ إِلَيْكَ مُبَـٰرَكٌ لِّيَدَّبَّرُوٓا۟ ءَايَـٰتِهِۦ وَلِيَتَذَكَّرَ أُو۟لُوا۟ ٱلْأَلْبَـٰبِ",
     "textSimple": "كتـب أنزلنـه إليك مبـرك ليدبروٓا ءايـته وليتذكر أولوا ٱلألبـب",
     "transliteration": "kitābun anzalnāhu ilayka mubārakun liyaddabbarū āyātihi waliyatadhakkara ulū l-albābi",
-    "translation": "",
+    "translation": "[This is] a blessed Book which We have revealed to you, [O Muḥammad], that they might reflect upon its verses and that those of understanding would be reminded.",
     "words": [
       {
         "id": "sad-29-1",
@@ -2597,7 +2625,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Voici) un Livre béni que Nous avons fait descendre (en révélation) vers toi pour qu’ils méditent ses versets et pour que les esprits sagaces y réfléchissent."
   },
   {
     "id": "sad-30",
@@ -2606,7 +2635,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لِدَاوُۥدَ سُلَيْمَـٰنَ ۚ نِعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ",
     "textSimple": "ووهبنا لداود سليمـن  نعم ٱلعبد  إنهٓ أواب",
     "transliteration": "wawahabnā lidāwūda sulaymāna niʿ'ma l-ʿabdu innahu awwābun",
-    "translation": "",
+    "translation": "And to David We gave Solomon. An excellent servant, indeed he was one repeatedly turning back [to Allāh].",
     "words": [
       {
         "id": "sad-30-1",
@@ -2658,7 +2687,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À David, Nous avons donné Salomon qui fut un excellent serviteur et aimait tant à se repentir."
   },
   {
     "id": "sad-31",
@@ -2667,7 +2697,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ عُرِضَ عَلَيْهِ بِٱلْعَشِىِّ ٱلصَّـٰفِنَـٰتُ ٱلْجِيَادُ",
     "textSimple": "إذ عرض عليه بٱلعشى ٱلصـفنـت ٱلجياد",
     "transliteration": "idh ʿuriḍa ʿalayhi bil-ʿashiyi l-ṣāfinātu l-jiyādu",
-    "translation": "",
+    "translation": "[Mention] when there were exhibited before him in the afternoon the poised [standing] racehorses.",
     "words": [
       {
         "id": "sad-31-1",
@@ -2712,7 +2742,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) lorsque, au soir tombant, lui furent présentés d’élégants destriers."
   },
   {
     "id": "sad-32",
@@ -2721,7 +2752,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ إِنِّىٓ أَحْبَبْتُ حُبَّ ٱلْخَيْرِ عَن ذِكْرِ رَبِّى حَتَّىٰ تَوَارَتْ بِٱلْحِجَابِ",
     "textSimple": "فقال إنىٓ أحببت حب ٱلخير عن ذكر ربى حتى توارت بٱلحجاب",
     "transliteration": "faqāla innī aḥbabtu ḥubba l-khayri ʿan dhik'ri rabbī ḥattā tawārat bil-ḥijābi",
-    "translation": "",
+    "translation": "And he said, \"Indeed, I gave preference to the love of good [things] over the remembrance of my Lord until it [i.e., the sun] disappeared into the curtain [of darkness].\"",
     "words": [
       {
         "id": "sad-32-1",
@@ -2801,7 +2832,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « J’ai aimé les biens de ce monde plutôt que l’évocation de mon Seigneur jusqu’à ce que (le soleil) disparaisse derrière un voile (sans je n’aie accompli la prière) !"
   },
   {
     "id": "sad-33",
@@ -2810,7 +2842,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "رُدُّوهَا عَلَىَّ ۖ فَطَفِقَ مَسْحًۢا بِٱلسُّوقِ وَٱلْأَعْنَاقِ",
     "textSimple": "ردوها على  فطفق مسحا بٱلسوق وٱلأعناق",
     "transliteration": "ruddūhā ʿalayya faṭafiqa masḥan bil-sūqi wal-aʿnāqi",
-    "translation": "",
+    "translation": "[He said], \"Return them to me,\" and set about striking [their] legs and necks.",
     "words": [
       {
         "id": "sad-33-1",
@@ -2855,7 +2887,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’on me ramène (ces chevaux). » Et il se mit à les frapper de taille, leur coupant les jarrets et les cous."
   },
   {
     "id": "sad-34",
@@ -2864,7 +2897,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ فَتَنَّا سُلَيْمَـٰنَ وَأَلْقَيْنَا عَلَىٰ كُرْسِيِّهِۦ جَسَدًا ثُمَّ أَنَابَ",
     "textSimple": "ولقد فتنا سليمـن وألقينا على كرسيه جسدا ثم أناب",
     "transliteration": "walaqad fatannā sulaymāna wa-alqaynā ʿalā kur'siyyihi jasadan thumma anāba",
-    "translation": "",
+    "translation": "And We certainly tried Solomon and placed on his throne a body; then he returned.",
     "words": [
       {
         "id": "sad-34-1",
@@ -2930,7 +2963,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons aussi éprouvé Salomon en mettant sur son trône un corps. Mais il est ensuite revenu vers Nous, repentant."
   },
   {
     "id": "sad-35",
@@ -2939,7 +2973,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱغْفِرْ لِى وَهَبْ لِى مُلْكًا لَّا يَنۢبَغِى لِأَحَدٍ مِّنۢ بَعْدِىٓ ۖ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
     "textSimple": "قال رب ٱغفر لى وهب لى ملكا لا ينبغى لأحد من بعدىٓ  إنك أنت ٱلوهاب",
     "transliteration": "qāla rabbi igh'fir lī wahab lī mul'kan lā yanbaghī li-aḥadin min baʿdī innaka anta l-wahābu",
-    "translation": "",
+    "translation": "He said, \"My Lord, forgive me and grant me a kingdom such as will not belong to anyone after me. Indeed, You are the Bestower.\"",
     "words": [
       {
         "id": "sad-35-1",
@@ -3047,7 +3081,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit-il, pardonne-moi ! Et donne-moi un royaume qui sera, après moi, à nul autre pareil ! C’est Toi le Suprême Donateur ! »"
   },
   {
     "id": "sad-36",
@@ -3056,7 +3091,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "فَسَخَّرْنَا لَهُ ٱلرِّيحَ تَجْرِى بِأَمْرِهِۦ رُخَآءً حَيْثُ أَصَابَ",
     "textSimple": "فسخرنا له ٱلريح تجرى بأمره رخآء حيث أصاب",
     "transliteration": "fasakharnā lahu l-rīḥa tajrī bi-amrihi rukhāan ḥaythu aṣāba",
-    "translation": "",
+    "translation": "So We subjected to him the wind blowing by his command, gently, wherever he directed,",
     "words": [
       {
         "id": "sad-36-1",
@@ -3115,7 +3150,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui avons soumis le vent qui, sur son ordre, soufflait légèrement là où il souhaitait,"
   },
   {
     "id": "sad-37",
@@ -3124,7 +3160,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلشَّيَـٰطِينَ كُلَّ بَنَّآءٍ وَغَوَّاصٍ",
     "textSimple": "وٱلشيـطين كل بنآء وغواص",
     "transliteration": "wal-shayāṭīna kulla bannāin waghawwāṣin",
-    "translation": "",
+    "translation": "And [also] the devils [of jinn] - every builder and diver.",
     "words": [
       {
         "id": "sad-37-1",
@@ -3155,7 +3191,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les démons parmi les bâtisseurs et les plongeurs,"
   },
   {
     "id": "sad-38",
@@ -3164,7 +3201,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاخَرِينَ مُقَرَّنِينَ فِى ٱلْأَصْفَادِ",
     "textSimple": "وءاخرين مقرنين فى ٱلأصفاد",
     "transliteration": "waākharīna muqarranīna fī l-aṣfādi",
-    "translation": "",
+    "translation": "And others bound together in irons.",
     "words": [
       {
         "id": "sad-38-1",
@@ -3195,7 +3232,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et d’autres enchaînés dans les carcans."
   },
   {
     "id": "sad-39",
@@ -3204,7 +3242,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا عَطَآؤُنَا فَٱمْنُنْ أَوْ أَمْسِكْ بِغَيْرِ حِسَابٍ",
     "textSimple": "هـذا عطآؤنا فٱمنن أو أمسك بغير حساب",
     "transliteration": "hādhā ʿaṭāunā fa-um'nun aw amsik bighayri ḥisābin",
-    "translation": "",
+    "translation": "[We said], \"This is Our gift, so grant or withhold without account.\"",
     "words": [
       {
         "id": "sad-39-1",
@@ -3256,7 +3294,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voilà Nos dons, (Ô Salomon), dispense-les ou garde-les sans devoir en rendre compte. »"
   },
   {
     "id": "sad-40",
@@ -3265,7 +3304,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
     "textSimple": "وإن له عندنا لزلفى وحسن مـٔاب",
     "transliteration": "wa-inna lahu ʿindanā lazul'fā waḥus'na maābin",
-    "translation": "",
+    "translation": "And indeed, for him is nearness to Us and a good place of return.",
     "words": [
       {
         "id": "sad-40-1",
@@ -3310,7 +3349,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il aura certes, auprès de Nous, une place rapprochée et un heureux retour."
   },
   {
     "id": "sad-41",
@@ -3319,7 +3359,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ عَبْدَنَآ أَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلشَّيْطَـٰنُ بِنُصْبٍ وَعَذَابٍ",
     "textSimple": "وٱذكر عبدنآ أيوب إذ نادى ربهٓ أنى مسنى ٱلشيطـن بنصب وعذاب",
     "transliteration": "wa-udh'kur ʿabdanā ayyūba idh nādā rabbahu annī massaniya l-shayṭānu binuṣ'bin waʿadhābin",
-    "translation": "",
+    "translation": "And remember Our servant Job, when he called to his Lord, \"Indeed, Satan has touched me with hardship and torment.\"",
     "words": [
       {
         "id": "sad-41-1",
@@ -3399,7 +3439,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque aussi Notre serviteur Job lorsqu’il invoqua (ainsi) son Seigneur : « Satan m’inflige peine et souffrance. »"
   },
   {
     "id": "sad-42",
@@ -3408,7 +3449,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "ٱرْكُضْ بِرِجْلِكَ ۖ هَـٰذَا مُغْتَسَلٌۢ بَارِدٌ وَشَرَابٌ",
     "textSimple": "ٱركض برجلك  هـذا مغتسل بارد وشراب",
     "transliteration": "ur'kuḍ birij'lika hādhā mugh'tasalun bāridun washarābun",
-    "translation": "",
+    "translation": "[So he was told], \"Strike [the ground] with your foot; this is a [spring for a] cool bath and drink.\"",
     "words": [
       {
         "id": "sad-42-1",
@@ -3453,7 +3494,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Frappe le sol de ton pied, (lui fut-il dit), voici une source d’eau fraîche où tu pourras te laver et boire ! »"
   },
   {
     "id": "sad-43",
@@ -3462,7 +3504,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَـٰبِ",
     "textSimple": "ووهبنا لهٓ أهله ومثلهم معهم رحمة منا وذكرى لأولى ٱلألبـب",
     "transliteration": "wawahabnā lahu ahlahu wamith'lahum maʿahum raḥmatan minnā wadhik'rā li-ulī l-albābi",
-    "translation": "",
+    "translation": "And We granted him his family and a like [number] with them as mercy from Us and a reminder for those of understanding.",
     "words": [
       {
         "id": "sad-43-1",
@@ -3535,7 +3577,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui avons rendu sa famille et en avons doublé le nombre, miséricorde de Notre part et leçon pour les esprits sagaces."
   },
   {
     "id": "sad-44",
@@ -3544,7 +3587,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَخُذْ بِيَدِكَ ضِغْثًا فَٱضْرِب بِّهِۦ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَـٰهُ صَابِرًا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ",
     "textSimple": "وخذ بيدك ضغثا فٱضرب به ولا تحنث  إنا وجدنـه صابرا  نعم ٱلعبد  إنهٓ أواب",
     "transliteration": "wakhudh biyadika ḍigh'than fa-iḍ'rib bihi walā taḥnath innā wajadnāhu ṣābiran niʿ'ma l-ʿabdu innahu awwābun",
-    "translation": "",
+    "translation": "[We said], \"And take in your hand a bunch [of grass] and strike with it and do not break your oath.\" Indeed, We found him patient, an excellent servant. Indeed, he was one repeatedly turning back [to Allāh].",
     "words": [
       {
         "id": "sad-44-1",
@@ -3645,7 +3688,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Prends donc, (ô Job), un faisceau de brindilles, frappes-en (ta femme) et ne te parjure point ! » Nous l’avons trouvé patient à la peine. Et quel excellent serviteur ! Il aimait tant à se repentir."
   },
   {
     "id": "sad-45",
@@ -3654,7 +3698,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ عِبَـٰدَنَآ إِبْرَٰهِيمَ وَإِسْحَـٰقَ وَيَعْقُوبَ أُو۟لِى ٱلْأَيْدِى وَٱلْأَبْصَـٰرِ",
     "textSimple": "وٱذكر عبـدنآ إبرهيم وإسحـق ويعقوب أولى ٱلأيدى وٱلأبصـر",
     "transliteration": "wa-udh'kur ʿibādanā ib'rāhīma wa-is'ḥāqa wayaʿqūba ulī l-aydī wal-abṣāri",
-    "translation": "",
+    "translation": "And remember Our servants, Abraham, Isaac and Jacob - those of strength and [religious] vision.",
     "words": [
       {
         "id": "sad-45-1",
@@ -3713,7 +3757,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque aussi Nos serviteurs Abraham, Isaac, et Jacob, hommes dotés de la force de (la foi) et (hommes) clairvoyants."
   },
   {
     "id": "sad-46",
@@ -3722,7 +3767,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَخْلَصْنَـٰهُم بِخَالِصَةٍ ذِكْرَى ٱلدَّارِ",
     "textSimple": "إنآ أخلصنـهم بخالصة ذكرى ٱلدار",
     "transliteration": "innā akhlaṣnāhum bikhāliṣatin dhik'rā l-dāri",
-    "translation": "",
+    "translation": "Indeed, We chose them for an exclusive quality: remembrance of the home [of the Hereafter].",
     "words": [
       {
         "id": "sad-46-1",
@@ -3760,7 +3805,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les avions dotés d’une qualité particulière : celle de (toujours) évoquer la Demeure Ultime."
   },
   {
     "id": "sad-47",
@@ -3769,7 +3815,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُمْ عِندَنَا لَمِنَ ٱلْمُصْطَفَيْنَ ٱلْأَخْيَارِ",
     "textSimple": "وإنهم عندنا لمن ٱلمصطفين ٱلأخيار",
     "transliteration": "wa-innahum ʿindanā lamina l-muṣ'ṭafayna l-akhyāri",
-    "translation": "",
+    "translation": "And indeed they are, to Us, among the chosen and outstanding.",
     "words": [
       {
         "id": "sad-47-1",
@@ -3807,7 +3853,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont auprès de Nous parmi les élus les meilleurs."
   },
   {
     "id": "sad-48",
@@ -3816,7 +3863,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْ إِسْمَـٰعِيلَ وَٱلْيَسَعَ وَذَا ٱلْكِفْلِ ۖ وَكُلٌّ مِّنَ ٱلْأَخْيَارِ",
     "textSimple": "وٱذكر إسمـعيل وٱليسع وذا ٱلكفل  وكل من ٱلأخيار",
     "transliteration": "wa-udh'kur is'māʿīla wal-yasaʿa wadhā l-kif'li wakullun mina l-akhyāri",
-    "translation": "",
+    "translation": "And remember Ishmael, Elisha and Dhul-Kifl, and all are among the outstanding.",
     "words": [
       {
         "id": "sad-48-1",
@@ -3875,7 +3922,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque aussi Ismaël, Élisée et Dhul-Kifl. Tous étaient du nombre des meilleurs (de Nos serviteurs)."
   },
   {
     "id": "sad-49",
@@ -3884,7 +3932,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا ذِكْرٌ ۚ وَإِنَّ لِلْمُتَّقِينَ لَحُسْنَ مَـَٔابٍ",
     "textSimple": "هـذا ذكر  وإن للمتقين لحسن مـٔاب",
     "transliteration": "hādhā dhik'run wa-inna lil'muttaqīna laḥus'na maābin",
-    "translation": "",
+    "translation": "This is a reminder. And indeed, for the righteous is a good place of return -",
     "words": [
       {
         "id": "sad-49-1",
@@ -3929,7 +3977,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà qui est un rappel. Ce sont les gens pieux qui auront le plus heureux retour."
   },
   {
     "id": "sad-50",
@@ -3938,7 +3987,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "جَنَّـٰتِ عَدْنٍ مُّفَتَّحَةً لَّهُمُ ٱلْأَبْوَٰبُ",
     "textSimple": "جنـت عدن مفتحة لهم ٱلأبوب",
     "transliteration": "jannāti ʿadnin mufattaḥatan lahumu l-abwābu",
-    "translation": "",
+    "translation": "Gardens of perpetual residence, whose doors will be opened to them.",
     "words": [
       {
         "id": "sad-50-1",
@@ -3976,7 +4025,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des Jardins d’Éden dont les portes seront devant eux grandes ouvertes."
   },
   {
     "id": "sad-51",
@@ -3985,7 +4035,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "مُتَّكِـِٔينَ فِيهَا يَدْعُونَ فِيهَا بِفَـٰكِهَةٍ كَثِيرَةٍ وَشَرَابٍ",
     "textSimple": "متكـٔين فيها يدعون فيها بفـكهة كثيرة وشراب",
     "transliteration": "muttakiīna fīhā yadʿūna fīhā bifākihatin kathīratin washarābin",
-    "translation": "",
+    "translation": "Reclining within them, they will call therein for abundant fruit and drink.",
     "words": [
       {
         "id": "sad-51-1",
@@ -4037,7 +4087,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accoudés, ils y demanderont des fruits et des boissons de toutes sortes."
   },
   {
     "id": "sad-52",
@@ -4046,7 +4097,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَعِندَهُمْ قَـٰصِرَٰتُ ٱلطَّرْفِ أَتْرَابٌ",
     "textSimple": " وعندهم قـصرت ٱلطرف أتراب",
     "transliteration": "waʿindahum qāṣirātu l-ṭarfi atrābun",
-    "translation": "",
+    "translation": "And with them will be women limiting [their] glances and of equal age.",
     "words": [
       {
         "id": "sad-52-1",
@@ -4077,7 +4128,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils auront à leurs côtés des femmes au regard chaste et d’égale jeunesse."
   },
   {
     "id": "sad-53",
@@ -4086,7 +4138,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا مَا تُوعَدُونَ لِيَوْمِ ٱلْحِسَابِ",
     "textSimple": "هـذا ما توعدون ليوم ٱلحساب",
     "transliteration": "hādhā mā tūʿadūna liyawmi l-ḥisābi",
-    "translation": "",
+    "translation": "This is what you, [the righteous], are promised for the Day of Account.",
     "words": [
       {
         "id": "sad-53-1",
@@ -4124,7 +4176,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien cela qui vous est promis pour le Jour des Comptes."
   },
   {
     "id": "sad-54",
@@ -4133,7 +4186,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا لَرِزْقُنَا مَا لَهُۥ مِن نَّفَادٍ",
     "textSimple": "إن هـذا لرزقنا ما له من نفاد",
     "transliteration": "inna hādhā lariz'qunā mā lahu min nafādin",
-    "translation": "",
+    "translation": "Indeed, this is Our provision; for it there is no depletion.",
     "words": [
       {
         "id": "sad-54-1",
@@ -4185,7 +4238,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont là Nos bienfaits et ils sont inépuisables."
   },
   {
     "id": "sad-55",
@@ -4194,7 +4248,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا ۚ وَإِنَّ لِلطَّـٰغِينَ لَشَرَّ مَـَٔابٍ",
     "textSimple": "هـذا  وإن للطـغين لشر مـٔاب",
     "transliteration": "hādhā wa-inna lilṭṭāghīna lasharra maābin",
-    "translation": "",
+    "translation": "This [is so]. But indeed, for the transgressors is an evil place of return -",
     "words": [
       {
         "id": "sad-55-1",
@@ -4232,7 +4286,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’il en sera, alors qu’aux rebelles sera (réservé) le pire des retours."
   },
   {
     "id": "sad-56",
@@ -4241,7 +4296,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "جَهَنَّمَ يَصْلَوْنَهَا فَبِئْسَ ٱلْمِهَادُ",
     "textSimple": "جهنم يصلونها فبئس ٱلمهاد",
     "transliteration": "jahannama yaṣlawnahā fabi'sa l-mihādu",
-    "translation": "",
+    "translation": "Hell, which they will [enter to] burn, and wretched is the resting place.",
     "words": [
       {
         "id": "sad-56-1",
@@ -4272,7 +4327,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La Géhenne, où ils seront brûlés, et quelle affreuse couche !"
   },
   {
     "id": "sad-57",
@@ -4281,7 +4337,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا فَلْيَذُوقُوهُ حَمِيمٌ وَغَسَّاقٌ",
     "textSimple": "هـذا فليذوقوه حميم وغساق",
     "transliteration": "hādhā falyadhūqūhu ḥamīmun waghassāqun",
-    "translation": "",
+    "translation": "This - so let them taste it - is scalding water and [foul] purulence.",
     "words": [
       {
         "id": "sad-57-1",
@@ -4312,7 +4368,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’il en sera ! Qu’ils y goûtent donc : eau bouillante et purulence !"
   },
   {
     "id": "sad-58",
@@ -4321,7 +4378,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاخَرُ مِن شَكْلِهِۦٓ أَزْوَٰجٌ",
     "textSimple": "وءاخر من شكلهٓ أزوج",
     "transliteration": "waākharu min shaklihi azwājun",
-    "translation": "",
+    "translation": "And other [punishments] of its type [in various] kinds.",
     "words": [
       {
         "id": "sad-58-1",
@@ -4352,7 +4409,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et d’autres supplices similaires."
   },
   {
     "id": "sad-59",
@@ -4361,7 +4419,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ",
     "textSimple": "هـذا فوج مقتحم معكم  لا مرحبا بهم  إنهم صالوا ٱلنار",
     "transliteration": "hādhā fawjun muq'taḥimun maʿakum lā marḥaban bihim innahum ṣālū l-nāri",
-    "translation": "",
+    "translation": "[Its inhabitants will say], \"This is a company bursting in with you. No welcome for them. Indeed, they will burn in the Fire.\"",
     "words": [
       {
         "id": "sad-59-1",
@@ -4434,7 +4492,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voici un autre contingent qui vous rejoint (en Enfer) ! » (se diront ceux qui y seront les premiers) » Puis ils ajouteront : « Ils n’y sont pas les bienvenus car ils vont brûler dans le Feu ! »"
   },
   {
     "id": "sad-60",
@@ -4443,7 +4502,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ بَلْ أَنتُمْ لَا مَرْحَبًۢا بِكُمْ ۖ أَنتُمْ قَدَّمْتُمُوهُ لَنَا ۖ فَبِئْسَ ٱلْقَرَارُ",
     "textSimple": "قالوا بل أنتم لا مرحبا بكم  أنتم قدمتموه لنا  فبئس ٱلقرار",
     "transliteration": "qālū bal antum lā marḥaban bikum antum qaddamtumūhu lanā fabi'sa l-qarāru",
-    "translation": "",
+    "translation": "They will say, \"Nor you! No welcome for you. You, [our leaders], brought this upon us, and wretched is the settlement.\"",
     "words": [
       {
         "id": "sad-60-1",
@@ -4523,7 +4582,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est plutôt vous qui n’êtes pas les bienvenus, diront (les nouveaux venus en Enfer), car c’est vous qui avez été à l’origine de ce (supplice). Horrible séjour que celui-là ! »"
   },
   {
     "id": "sad-61",
@@ -4532,7 +4592,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ رَبَّنَا مَن قَدَّمَ لَنَا هَـٰذَا فَزِدْهُ عَذَابًا ضِعْفًا فِى ٱلنَّارِ",
     "textSimple": "قالوا ربنا من قدم لنا هـذا فزده عذابا ضعفا فى ٱلنار",
     "transliteration": "qālū rabbanā man qaddama lanā hādhā fazid'hu ʿadhāban ḍiʿ'fan fī l-nāri",
-    "translation": "",
+    "translation": "They will say, \"Our Lord, whoever brought this upon us - increase for him double punishment in the Fire.\"",
     "words": [
       {
         "id": "sad-61-1",
@@ -4612,7 +4672,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils diront encore : « Seigneur, fais donc que celui qui a été à l’origine de (ce châtiment) reçoive le double supplice par le Feu ! »"
   },
   {
     "id": "sad-62",
@@ -4621,7 +4682,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ مَا لَنَا لَا نَرَىٰ رِجَالًا كُنَّا نَعُدُّهُم مِّنَ ٱلْأَشْرَارِ",
     "textSimple": "وقالوا ما لنا لا نرى رجالا كنا نعدهم من ٱلأشرار",
     "transliteration": "waqālū mā lanā lā narā rijālan kunnā naʿudduhum mina l-ashrāri",
-    "translation": "",
+    "translation": "And they will say, \"Why do we not see men whom we used to count among the worst?",
     "words": [
       {
         "id": "sad-62-1",
@@ -4694,7 +4755,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Et pourquoi, diront-ils, ne voyons-nous pas des hommes que nous tenions pour mauvais ?"
   },
   {
     "id": "sad-63",
@@ -4703,7 +4765,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَتَّخَذْنَـٰهُمْ سِخْرِيًّا أَمْ زَاغَتْ عَنْهُمُ ٱلْأَبْصَـٰرُ",
     "textSimple": "أتخذنـهم سخريا أم زاغت عنهم ٱلأبصـر",
     "transliteration": "attakhadhnāhum sikh'riyyan am zāghat ʿanhumu l-abṣāru",
-    "translation": "",
+    "translation": "Is it [because] we took them in ridicule, or has [our] vision turned away from them?\"",
     "words": [
       {
         "id": "sad-63-1",
@@ -4748,7 +4810,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous étions-nous donc trompés en les raillant ou sont-ils là qui se dérobent à nos regards ? »"
   },
   {
     "id": "sad-64",
@@ -4757,7 +4820,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ذَٰلِكَ لَحَقٌّ تَخَاصُمُ أَهْلِ ٱلنَّارِ",
     "textSimple": "إن ذلك لحق تخاصم أهل ٱلنار",
     "transliteration": "inna dhālika laḥaqqun takhāṣumu ahli l-nāri",
-    "translation": "",
+    "translation": "Indeed, that is truth [i.e., reality] - the quarreling of the people of the Fire.",
     "words": [
       {
         "id": "sad-64-1",
@@ -4802,7 +4865,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà, en vérité, comment se querelleront les hôtes de l’Enfer."
   },
   {
     "id": "sad-65",
@@ -4811,7 +4875,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَآ أَنَا۠ مُنذِرٌ ۖ وَمَا مِنْ إِلَـٰهٍ إِلَّا ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
     "textSimple": "قل إنمآ أنا منذر  وما من إلـه إلا ٱلله ٱلوحد ٱلقهار",
     "transliteration": "qul innamā anā mundhirun wamā min ilāhin illā l-lahu l-wāḥidu l-qahāru",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"I am only a warner, and there is not any deity except Allāh, the One, the Prevailing,",
     "words": [
       {
         "id": "sad-65-1",
@@ -4891,7 +4955,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne suis là que pour avertir. Il n’y a point d’autre divinité qu’Allah, l’Un, le Haut Dominateur,"
   },
   {
     "id": "sad-66",
@@ -4900,7 +4965,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلْعَزِيزُ ٱلْغَفَّـٰرُ",
     "textSimple": "رب ٱلسمـوت وٱلأرض وما بينهما ٱلعزيز ٱلغفـر",
     "transliteration": "rabbu l-samāwāti wal-arḍi wamā baynahumā l-ʿazīzu l-ghafāru",
-    "translation": "",
+    "translation": "Lord of the heavens and the earth and whatever is between them, the Exalted in Might, the Perpetual Forgiver.\"",
     "words": [
       {
         "id": "sad-66-1",
@@ -4952,7 +5017,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Seigneur des cieux, de la terre et de ce qu’il y a entre eux, le Tout-Puissant, le Très Absoluteur. »"
   },
   {
     "id": "sad-67",
@@ -4961,7 +5027,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هُوَ نَبَؤٌا۟ عَظِيمٌ",
     "textSimple": "قل هو نبؤا عظيم",
     "transliteration": "qul huwa naba-on ʿaẓīmun",
-    "translation": "",
+    "translation": "Say, \"It is great news",
     "words": [
       {
         "id": "sad-67-1",
@@ -4992,7 +5058,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ceci est une très grande nouvelle,"
   },
   {
     "id": "sad-68",
@@ -5001,7 +5068,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "أَنتُمْ عَنْهُ مُعْرِضُونَ",
     "textSimple": "أنتم عنه معرضون",
     "transliteration": "antum ʿanhu muʿ'riḍūna",
-    "translation": "",
+    "translation": "From which you turn away.",
     "words": [
       {
         "id": "sad-68-1",
@@ -5025,7 +5092,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dont vous vous détournez."
   },
   {
     "id": "sad-69",
@@ -5034,7 +5102,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "مَا كَانَ لِىَ مِنْ عِلْمٍۭ بِٱلْمَلَإِ ٱلْأَعْلَىٰٓ إِذْ يَخْتَصِمُونَ",
     "textSimple": "ما كان لى من علم بٱلملإ ٱلأعلىٓ إذ يختصمون",
     "transliteration": "mā kāna liya min ʿil'min bil-mala-i l-aʿlā idh yakhtaṣimūna",
-    "translation": "",
+    "translation": "I had no knowledge of the exalted assembly [of angels] when they were disputing [the creation of Adam].",
     "words": [
       {
         "id": "sad-69-1",
@@ -5100,7 +5168,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je n’avais aucune science de l’Assemblée Supérieure quand ils se disputaient (au sujet d’Adam)."
   },
   {
     "id": "sad-70",
@@ -5109,7 +5178,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِن يُوحَىٰٓ إِلَىَّ إِلَّآ أَنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
     "textSimple": "إن يوحىٓ إلى إلآ أنمآ أنا نذير مبين",
     "transliteration": "in yūḥā ilayya illā annamā anā nadhīrun mubīnun",
-    "translation": "",
+    "translation": "It has not been revealed to me except that I am a clear warner.\"",
     "words": [
       {
         "id": "sad-70-1",
@@ -5168,7 +5237,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne m’a été révélé que d’avertir en toute clarté. »"
   },
   {
     "id": "sad-71",
@@ -5177,7 +5247,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ رَبُّكَ لِلْمَلَـٰٓئِكَةِ إِنِّى خَـٰلِقٌۢ بَشَرًا مِّن طِينٍ",
     "textSimple": "إذ قال ربك للملـٓئكة إنى خـلق بشرا من طين",
     "transliteration": "idh qāla rabbuka lil'malāikati innī khāliqun basharan min ṭīnin",
-    "translation": "",
+    "translation": "[So mention] when your Lord said to the angels, \"Indeed, I am going to create a human being from clay.",
     "words": [
       {
         "id": "sad-71-1",
@@ -5243,7 +5313,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque ton Seigneur lorsqu’Il dit aux Anges : « Je vais créer un homme à partir de l’argile."
   },
   {
     "id": "sad-72",
@@ -5252,7 +5323,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَـٰجِدِينَ",
     "textSimple": "فإذا سويته ونفخت فيه من روحى فقعوا له سـجدين",
     "transliteration": "fa-idhā sawwaytuhu wanafakhtu fīhi min rūḥī faqaʿū lahu sājidīna",
-    "translation": "",
+    "translation": "So when I have proportioned him and breathed into him of My [created] soul, then fall down to him in prostration.\"",
     "words": [
       {
         "id": "sad-72-1",
@@ -5318,7 +5389,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une fois que Je l’aurai façonné et lui aurai insufflé de Mon Esprit, tombez devant lui prosternés. »"
   },
   {
     "id": "sad-73",
@@ -5327,7 +5399,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "فَسَجَدَ ٱلْمَلَـٰٓئِكَةُ كُلُّهُمْ أَجْمَعُونَ",
     "textSimple": "فسجد ٱلملـٓئكة كلهم أجمعون",
     "transliteration": "fasajada l-malāikatu kulluhum ajmaʿūna",
-    "translation": "",
+    "translation": "So the angels prostrated - all of them entirely,",
     "words": [
       {
         "id": "sad-73-1",
@@ -5358,7 +5430,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Anges se prosternèrent alors tous ensemble,"
   },
   {
     "id": "sad-74",
@@ -5367,7 +5440,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّآ إِبْلِيسَ ٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ",
     "textSimple": "إلآ إبليس ٱستكبر وكان من ٱلكـفرين",
     "transliteration": "illā ib'līsa is'takbara wakāna mina l-kāfirīna",
-    "translation": "",
+    "translation": "Except Iblees; he was arrogant and became among the disbelievers.",
     "words": [
       {
         "id": "sad-74-1",
@@ -5412,7 +5485,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "hormis Iblîs qui se montra orgueilleux et fut du nombre des mécréants."
   },
   {
     "id": "sad-75",
@@ -5421,7 +5495,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰٓإِبْلِيسُ مَا مَنَعَكَ أَن تَسْجُدَ لِمَا خَلَقْتُ بِيَدَىَّ ۖ أَسْتَكْبَرْتَ أَمْ كُنتَ مِنَ ٱلْعَالِينَ",
     "textSimple": "قال يـٓإبليس ما منعك أن تسجد لما خلقت بيدى  أستكبرت أم كنت من ٱلعالين",
     "transliteration": "qāla yāib'līsu mā manaʿaka an tasjuda limā khalaqtu biyadayya astakbarta am kunta mina l-ʿālīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"O Iblees, what prevented you from prostrating to that which I created with My hands? Were you arrogant [then], or were you [already] among the haughty?\"",
     "words": [
       {
         "id": "sad-75-1",
@@ -5522,7 +5596,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Iblîs ! (lui dit Allah) Qu’est-ce qui t’empêche de te prosterner devant ce que J’ai créé de Mes Mains ? Serais-tu à ce point orgueilleux, ou te croirais-tu supérieur ? »"
   },
   {
     "id": "sad-76",
@@ -5531,7 +5606,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَنَا۠ خَيْرٌ مِّنْهُ ۖ خَلَقْتَنِى مِن نَّارٍ وَخَلَقْتَهُۥ مِن طِينٍ",
     "textSimple": "قال أنا خير منه  خلقتنى من نار وخلقته من طين",
     "transliteration": "qāla anā khayrun min'hu khalaqtanī min nārin wakhalaqtahu min ṭīnin",
-    "translation": "",
+    "translation": "He said, \"I am better than him. You created me from fire and created him from clay.\"",
     "words": [
       {
         "id": "sad-76-1",
@@ -5604,7 +5679,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Je suis bien meilleur que lui, répondit Iblîs ; Tu m’as créé de feu et Tu l’as créé d’argile. »"
   },
   {
     "id": "sad-77",
@@ -5613,7 +5689,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ",
     "textSimple": "قال فٱخرج منها فإنك رجيم",
     "transliteration": "qāla fa-ukh'ruj min'hā fa-innaka rajīmun",
-    "translation": "",
+    "translation": "[Allāh] said, \"Then get out of it [i.e., Paradise], for indeed, you are expelled.",
     "words": [
       {
         "id": "sad-77-1",
@@ -5651,7 +5727,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Sors donc d’ici ! lui ordonna (Allah), tu es lapidé ;"
   },
   {
     "id": "sad-78",
@@ -5660,7 +5737,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ عَلَيْكَ لَعْنَتِىٓ إِلَىٰ يَوْمِ ٱلدِّينِ",
     "textSimple": "وإن عليك لعنتىٓ إلى يوم ٱلدين",
     "transliteration": "wa-inna ʿalayka laʿnatī ilā yawmi l-dīni",
-    "translation": "",
+    "translation": "And indeed, upon you is My curse until the Day of Recompense.\"",
     "words": [
       {
         "id": "sad-78-1",
@@ -5705,7 +5782,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que Ma malédiction soit sur toi jusqu’au Jour de la Rétribution ! »"
   },
   {
     "id": "sad-79",
@@ -5714,7 +5792,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ فَأَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
     "textSimple": "قال رب فأنظرنىٓ إلى يوم يبعثون",
     "transliteration": "qāla rabbi fa-anẓir'nī ilā yawmi yub'ʿathūna",
-    "translation": "",
+    "translation": "He said, \"My Lord, then reprieve me until the Day they are resurrected.\"",
     "words": [
       {
         "id": "sad-79-1",
@@ -5759,7 +5837,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, répliqua Iblîs, donne-moi donc un répit jusqu’au Jour où (les hommes) seront ressuscités. »"
   },
   {
     "id": "sad-80",
@@ -5768,7 +5847,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَإِنَّكَ مِنَ ٱلْمُنظَرِينَ",
     "textSimple": "قال فإنك من ٱلمنظرين",
     "transliteration": "qāla fa-innaka mina l-munẓarīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"So indeed, you are of those reprieved",
     "words": [
       {
         "id": "sad-80-1",
@@ -5799,7 +5878,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Tu es de ceux, dit (le Seigneur), auquel répit est accordé,"
   },
   {
     "id": "sad-81",
@@ -5808,7 +5888,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ يَوْمِ ٱلْوَقْتِ ٱلْمَعْلُومِ",
     "textSimple": "إلى يوم ٱلوقت ٱلمعلوم",
     "transliteration": "ilā yawmi l-waqti l-maʿlūmi",
-    "translation": "",
+    "translation": "Until the Day of the time well-known.\"",
     "words": [
       {
         "id": "sad-81-1",
@@ -5839,7 +5919,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’au jour du moment connu. »."
   },
   {
     "id": "sad-82",
@@ -5848,7 +5929,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَبِعِزَّتِكَ لَأُغْوِيَنَّهُمْ أَجْمَعِينَ",
     "textSimple": "قال فبعزتك لأغوينهم أجمعين",
     "transliteration": "qāla fabiʿizzatika la-ugh'wiyannahum ajmaʿīna",
-    "translation": "",
+    "translation": "[Iblees] said, \"By Your might, I will surely mislead them all.",
     "words": [
       {
         "id": "sad-82-1",
@@ -5879,7 +5960,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Par Ta Toute-Puissance, dit alors Iblîs, je les dévoierai tous,"
   },
   {
     "id": "sad-83",
@@ -5888,7 +5970,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ",
     "textSimple": "إلا عبادك منهم ٱلمخلصين",
     "transliteration": "illā ʿibādaka min'humu l-mukh'laṣīna",
-    "translation": "",
+    "translation": "Except, among them, Your chosen servants.\"",
     "words": [
       {
         "id": "sad-83-1",
@@ -5919,7 +6001,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté les élus parmi Tes serviteurs. »"
   },
   {
     "id": "sad-84",
@@ -5928,7 +6011,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَٱلْحَقُّ وَٱلْحَقَّ أَقُولُ",
     "textSimple": "قال فٱلحق وٱلحق أقول",
     "transliteration": "qāla fal-ḥaqu wal-ḥaqa aqūlu",
-    "translation": "",
+    "translation": "[Allāh] said, \"The truth [is My oath], and the truth I say -",
     "words": [
       {
         "id": "sad-84-1",
@@ -5959,7 +6042,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) dit : « (Voici) la vérité ! Et la vérité Je déclare :"
   },
   {
     "id": "sad-85",
@@ -5968,7 +6052,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "لَأَمْلَأَنَّ جَهَنَّمَ مِنكَ وَمِمَّن تَبِعَكَ مِنْهُمْ أَجْمَعِينَ",
     "textSimple": "لأملأن جهنم منك وممن تبعك منهم أجمعين",
     "transliteration": "la-amla-anna jahannama minka wamimman tabiʿaka min'hum ajmaʿīna",
-    "translation": "",
+    "translation": "[That] I will surely fill Hell with you and those of them that follow you all together.\"",
     "words": [
       {
         "id": "sad-85-1",
@@ -6020,7 +6104,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je remplirai assurément la Géhenne de toi et de tous ceux qui, parmi eux, t’auront suivi. »"
   },
   {
     "id": "sad-86",
@@ -6029,7 +6114,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ وَمَآ أَنَا۠ مِنَ ٱلْمُتَكَلِّفِينَ",
     "textSimple": "قل مآ أسـٔلكم عليه من أجر ومآ أنا من ٱلمتكلفين",
     "transliteration": "qul mā asalukum ʿalayhi min ajrin wamā anā mina l-mutakalifīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"I do not ask you for it [i.e., the Qur’ān] any payment, and I am not of the pretentious.",
     "words": [
       {
         "id": "sad-86-1",
@@ -6102,7 +6187,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Je ne vous réclame point pour cela de récompense, et je ne suis nullement un usurpateur."
   },
   {
     "id": "sad-87",
@@ -6111,7 +6197,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَـٰلَمِينَ",
     "textSimple": "إن هو إلا ذكر للعـلمين",
     "transliteration": "in huwa illā dhik'run lil'ʿālamīna",
-    "translation": "",
+    "translation": "It is but a reminder to the worlds.",
     "words": [
       {
         "id": "sad-87-1",
@@ -6149,7 +6235,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela n’est qu’un Rappel adressé à tout l’Univers."
   },
   {
     "id": "sad-88",
@@ -6158,7 +6245,7 @@ export const SAD_AYAHS: Ayah[] = [
     "textUthmani": "وَلَتَعْلَمُنَّ نَبَأَهُۥ بَعْدَ حِينٍۭ",
     "textSimple": "ولتعلمن نبأه بعد حين",
     "transliteration": "walataʿlamunna naba-ahu baʿda ḥīnin",
-    "translation": "",
+    "translation": "And you will surely know [the truth of] its information after a time.\"",
     "words": [
       {
         "id": "sad-88-1",
@@ -6189,7 +6276,8 @@ export const SAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et vous saurez sous peu (la véracité) de ce qu’il vous annonce. »"
   }
 ];
 

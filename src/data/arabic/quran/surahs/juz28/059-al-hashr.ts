@@ -11,7 +11,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": " سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": " سبح لله ما فى ٱلسمـوت وما فى ٱلأرض  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "sabbaḥa lillahi mā fī l-samāwāti wamā fī l-arḍi wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Whatever is in the heavens and whatever is on the earth exalts Allāh, and He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-hashr-1-1",
@@ -91,7 +91,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui est dans les cieux et tout ce qui est sur terre rend gloire à Allah, Lui, le Tout-Puissant, le Sage."
   },
   {
     "id": "al-hashr-2",
@@ -100,7 +101,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ مِن دِيَـٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَـٰٓأُو۟لِى ٱلْأَبْصَـٰرِ",
     "textSimple": "هو ٱلذىٓ أخرج ٱلذين كفروا من أهل ٱلكتـب من ديـرهم لأول ٱلحشر  ما ظننتم أن يخرجوا  وظنوٓا أنهم مانعتهم حصونهم من ٱلله فأتىهم ٱلله من حيث لم يحتسبوا  وقذف فى قلوبهم ٱلرعب  يخربون بيوتهم بأيديهم وأيدى ٱلمؤمنين فٱعتبروا يـٓأولى ٱلأبصـر",
     "transliteration": "huwa alladhī akhraja alladhīna kafarū min ahli l-kitābi min diyārihim li-awwali l-ḥashri mā ẓanantum an yakhrujū waẓannū annahum māniʿatuhum ḥuṣūnuhum mina l-lahi fa-atāhumu l-lahu min ḥaythu lam yaḥtasibū waqadhafa fī qulūbihimu l-ruʿ'ba yukh'ribūna buyūtahum bi-aydīhim wa-aydī l-mu'minīna fa-iʿ'tabirū yāulī l-abṣāri",
-    "translation": "",
+    "translation": "It is He who expelled the ones who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allāh; but [the decree of] Allāh came upon them from where they had not expected, and He cast terror into their hearts [so] they destroyed their houses by their [own] hands and the hands of the believers. So take warning, O people of vision.",
     "words": [
       {
         "id": "al-hashr-2-1",
@@ -383,7 +384,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 39
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui fit sortir de leurs foyers, pour le premier exil, les mécréants parmi les gens du Livre. Vous ne pensiez pas qu’ils sortiraient (jamais) et eux s’imaginaient que leurs forteresses leur étaient une protection contre Allah. Mais Allah les surprit là où ils ne s’y attendaient point. Dans leurs cœurs, Il instilla tant de terreur qu’ils se mirent à démolir leurs maisons de leurs propres mains, aidés en cela par les croyants. Tirez-en donc la leçon, ô vous qui avez claire la vision !"
   },
   {
     "id": "al-hashr-3",
@@ -392,7 +394,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَآ أَن كَتَبَ ٱللَّهُ عَلَيْهِمُ ٱلْجَلَآءَ لَعَذَّبَهُمْ فِى ٱلدُّنْيَا ۖ وَلَهُمْ فِى ٱلْـَٔاخِرَةِ عَذَابُ ٱلنَّارِ",
     "textSimple": "ولولآ أن كتب ٱلله عليهم ٱلجلآء لعذبهم فى ٱلدنيا  ولهم فى ٱلـٔاخرة عذاب ٱلنار",
     "transliteration": "walawlā an kataba l-lahu ʿalayhimu l-jalāa laʿadhabahum fī l-dun'yā walahum fī l-ākhirati ʿadhābu l-nāri",
-    "translation": "",
+    "translation": "And if not that Allāh had decreed for them evacuation, He would have punished them in [this] world, and for them in the Hereafter is the punishment of the Fire.",
     "words": [
       {
         "id": "al-hashr-3-1",
@@ -493,7 +495,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Allah n’avait pas décrété leur bannissement, Il les aurait châtiés dans ce bas monde, alors que dans l’autre monde, ils auront le supplice du Feu."
   },
   {
     "id": "al-hashr-4",
@@ -502,7 +505,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمْ شَآقُّوا۟ ٱللَّهَ وَرَسُولَهُۥ ۖ وَمَن يُشَآقِّ ٱللَّهَ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
     "textSimple": "ذلك بأنهم شآقوا ٱلله ورسوله  ومن يشآق ٱلله فإن ٱلله شديد ٱلعقاب",
     "transliteration": "dhālika bi-annahum shāqqū l-laha warasūlahu waman yushāqqi l-laha fa-inna l-laha shadīdu l-ʿiqābi",
-    "translation": "",
+    "translation": "That is because they opposed Allāh and His Messenger. And whoever opposes Allāh - then indeed, Allāh is severe in penalty.",
     "words": [
       {
         "id": "al-hashr-4-1",
@@ -589,7 +592,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce qu’ils se sont opposés à Allah et à Son Messager. Or, quiconque s’oppose à Allah (doit savoir qu’) Allah a le châtiment très dur."
   },
   {
     "id": "al-hashr-5",
@@ -598,7 +602,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا قَآئِمَةً عَلَىٰٓ أُصُولِهَا فَبِإِذْنِ ٱللَّهِ وَلِيُخْزِىَ ٱلْفَـٰسِقِينَ",
     "textSimple": "ما قطعتم من لينة أو تركتموها قآئمة علىٓ أصولها فبإذن ٱلله وليخزى ٱلفـسقين",
     "transliteration": "mā qaṭaʿtum min līnatin aw taraktumūhā qāimatan ʿalā uṣūlihā fabi-idh'ni l-lahi waliyukh'ziya l-fāsiqīna",
-    "translation": "",
+    "translation": "Whatever you have cut down of [their] palm trees or left standing on their trunks - it was by permission of Allāh and so He would disgrace the defiantly disobedient.",
     "words": [
       {
         "id": "al-hashr-5-1",
@@ -692,7 +696,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Chaque palmier que vous avez coupé ou laissé droit sur ses racines, c’est par la permission d’Allah (que vous l’avez fait) et pour qu’(Allah) humilie les pervers."
   },
   {
     "id": "al-hashr-6",
@@ -701,7 +706,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَـٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "ومآ أفآء ٱلله على رسوله منهم فمآ أوجفتم عليه من خيل ولا ركاب ولـكن ٱلله يسلط رسله على من يشآء  وٱلله على كل شىء قدير",
     "transliteration": "wamā afāa l-lahu ʿalā rasūlihi min'hum famā awjaftum ʿalayhi min khaylin walā rikābin walākinna l-laha yusalliṭu rusulahu ʿalā man yashāu wal-lahu ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "And what Allāh restored [of property] to His Messenger from them - you did not spur for it [in an expedition] any horses or camels, but Allāh gives His messengers power over whom He wills, and Allāh is over all things competent.",
     "words": [
       {
         "id": "al-hashr-6-1",
@@ -879,7 +884,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le butin qu’Allah a accordé à Son Messager et pris sur leurs (biens), vous (l’avez obtenu sans combat), sans y engager ni chevaux ni chameaux. Mais Allah donne à Ses Messagers l’autorité sur qui Il veut. Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-hashr-7",
@@ -888,7 +894,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
     "textSimple": "مآ أفآء ٱلله على رسوله من أهل ٱلقرى فلله وللرسول ولذى ٱلقربى وٱليتـمى وٱلمسـكين وٱبن ٱلسبيل كى لا يكون دولة بين ٱلأغنيآء منكم  ومآ ءاتىكم ٱلرسول فخذوه وما نهىكم عنه فٱنتهوا  وٱتقوا ٱلله  إن ٱلله شديد ٱلعقاب",
     "transliteration": "mā afāa l-lahu ʿalā rasūlihi min ahli l-qurā falillahi walilrrasūli walidhī l-qur'bā wal-yatāmā wal-masākīni wa-ib'ni l-sabīli kay lā yakūna dūlatan bayna l-aghniyāi minkum wamā ātākumu l-rasūlu fakhudhūhu wamā nahākum ʿanhu fa-intahū wa-ittaqū l-laha inna l-laha shadīdu l-ʿiqābi",
-    "translation": "",
+    "translation": "And what Allāh restored to His Messenger from the people of the towns - it is for Allāh and for the Messenger and for [his] near relatives and orphans and the needy and the [stranded] traveler - so that it will not be a perpetual distribution among the rich from among you. And whatever the Messenger has given you - take; and what he has forbidden you - refrain from. And fear Allāh; indeed, Allāh is severe in penalty.",
     "words": [
       {
         "id": "al-hashr-7-1",
@@ -1150,7 +1156,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 36
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qu’Allah a accordé comme butin à Son Messager (pris sur les biens) des habitants des cités, revient à Allah, à Son Messager, aux proches parents, aux orphelins, aux pauvres et au voyageur de grand chemin, afin que les nantis parmi vous n’en aient pas le monopole. Ce que le Messager vous donne, prenez-le, et ce qu’il vous défend, privez-vous en. Et craignez Allah, car Allah a le châtiment très dur."
   },
   {
     "id": "al-hashr-8",
@@ -1159,7 +1166,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "لِلْفُقَرَآءِ ٱلْمُهَـٰجِرِينَ ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَـٰرِهِمْ وَأَمْوَٰلِهِمْ يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا وَيَنصُرُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلصَّـٰدِقُونَ",
     "textSimple": "للفقرآء ٱلمهـجرين ٱلذين أخرجوا من ديـرهم وأمولهم يبتغون فضلا من ٱلله ورضونا وينصرون ٱلله ورسولهٓ  أولـٓئك هم ٱلصـدقون",
     "transliteration": "lil'fuqarāi l-muhājirīna alladhīna ukh'rijū min diyārihim wa-amwālihim yabtaghūna faḍlan mina l-lahi wariḍ'wānan wayanṣurūna l-laha warasūlahu ulāika humu l-ṣādiqūna",
-    "translation": "",
+    "translation": "For the poor emigrants who were expelled from their homes and their properties, seeking bounty from Allāh and [His] approval and supporting [the cause of] Allāh and His Messenger, [there is also a share]. Those are the truthful.",
     "words": [
       {
         "id": "al-hashr-8-1",
@@ -1288,7 +1295,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Le butin revient aussi) aux pauvres parmi les émigrés qui furent expulsés de leurs foyers et (dépossédés) de leurs biens, alors qu’ils espéraient une faveur et un agrément d’Allah et appuyaient (la cause d’) Allah et de Son Messager. Ceux-là sont les (croyants) sincères."
   },
   {
     "id": "al-hashr-9",
@@ -1297,7 +1305,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَـٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
     "textSimple": "وٱلذين تبوءو ٱلدار وٱلإيمـن من قبلهم يحبون من هاجر إليهم ولا يجدون فى صدورهم حاجة ممآ أوتوا ويؤثرون علىٓ أنفسهم ولو كان بهم خصاصة  ومن يوق شح نفسه فأولـٓئك هم ٱلمفلحون",
     "transliteration": "wa-alladhīna tabawwaū l-dāra wal-īmāna min qablihim yuḥibbūna man hājara ilayhim walā yajidūna fī ṣudūrihim ḥājatan mimmā ūtū wayu'thirūna ʿalā anfusihim walaw kāna bihim khaṣāṣatun waman yūqa shuḥḥa nafsihi fa-ulāika humu l-muf'liḥūna",
-    "translation": "",
+    "translation": "And [also for] those who were settled in the Home [i.e.,al-Madīnah] and [adopted] the faith before them. They love those who emigrated to them and find not any want in their breasts of what they [i.e., the emigrants] were given but give [them] preference over themselves, even though they are in privation. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
     "words": [
       {
         "id": "al-hashr-9-1",
@@ -1517,7 +1525,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 30
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Le butin revient également) à ceux qui, avant eux déjà, se sont installés à Médine, et qui, (confortés) dans la foi, aiment tous ceux qui émigrent vers eux, ne sont nullement envieux de ce que ces derniers reçoivent (comme dons à leur arrivée), et sont prêts à s’en priver les préférant à leurs propres personnes, fussent-ils eux-mêmes dans le besoin. Ceux qui sont préservés de leur propre avarice sont ceux qui réussissent."
   },
   {
     "id": "al-hashr-10",
@@ -1526,7 +1535,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌ رَّحِيمٌ",
     "textSimple": "وٱلذين جآءو من بعدهم يقولون ربنا ٱغفر لنا ولإخوننا ٱلذين سبقونا بٱلإيمـن ولا تجعل فى قلوبنا غلا للذين ءامنوا ربنآ إنك رءوف رحيم",
     "transliteration": "wa-alladhīna jāū min baʿdihim yaqūlūna rabbanā igh'fir lanā wali-ikh'wāninā alladhīna sabaqūnā bil-īmāni walā tajʿal fī qulūbinā ghillan lilladhīna āmanū rabbanā innaka raūfun raḥīmun",
-    "translation": "",
+    "translation": "And [there is a share for] those who come after them, saying, \"Our Lord, forgive us and our brothers who preceded us in faith and put not in our hearts [any] resentment toward those who have believed. Our Lord, indeed You are Kind and Merciful.\"",
     "words": [
       {
         "id": "al-hashr-10-1",
@@ -1690,7 +1699,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (le butin revient également à) ceux qui, arrivés plus tard (à Médine), disent : « Seigneur, veuille nous pardonner, ainsi qu’à nos frères qui nous ont précédés dans la foi ! Ne mets point de rancune dans nos cœurs envers ceux qui ont cru ! Seigneur, Tu es si Compatissant et Tout Miséricordieux ! »"
   },
   {
     "id": "al-hashr-11",
@@ -1699,7 +1709,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ نَافَقُوا۟ يَقُولُونَ لِإِخْوَٰنِهِمُ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": " ألم تر إلى ٱلذين نافقوا يقولون لإخونهم ٱلذين كفروا من أهل ٱلكتـب لئن أخرجتم لنخرجن معكم ولا نطيع فيكم أحدا أبدا وإن قوتلتم لننصرنكم وٱلله يشهد إنهم لكـذبون",
     "transliteration": "alam tara ilā alladhīna nāfaqū yaqūlūna li-ikh'wānihimu alladhīna kafarū min ahli l-kitābi la-in ukh'rij'tum lanakhrujanna maʿakum walā nuṭīʿu fīkum aḥadan abadan wa-in qūtil'tum lananṣurannakum wal-lahu yashhadu innahum lakādhibūna",
-    "translation": "",
+    "translation": "Have you not considered those who practice hypocrisy, saying to their brothers [i.e., associates] who have disbelieved among the People of the Scripture, \"If you are expelled, we will surely leave with you, and we will not obey, in regard to you, anyone - ever; and if you are fought, we will surely aid you.\" But Allāh testifies that they are liars.",
     "words": [
       {
         "id": "al-hashr-11-1",
@@ -1898,7 +1908,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu donc pas vu les hypocrites disant à leurs frères mécréants parmi les gens du Livre : « Si vous êtes expulsés, nous sortirons avec vous. Nous n’obéirons jamais à personne contre vous. Et si vous êtes combattus, nous vous soutiendrons. » Allah est témoin qu’ils ne font que mentir !"
   },
   {
     "id": "al-hashr-12",
@@ -1907,7 +1918,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "لَئِنْ أُخْرِجُوا۟ لَا يَخْرُجُونَ مَعَهُمْ وَلَئِن قُوتِلُوا۟ لَا يَنصُرُونَهُمْ وَلَئِن نَّصَرُوهُمْ لَيُوَلُّنَّ ٱلْأَدْبَـٰرَ ثُمَّ لَا يُنصَرُونَ",
     "textSimple": "لئن أخرجوا لا يخرجون معهم ولئن قوتلوا لا ينصرونهم ولئن نصروهم ليولن ٱلأدبـر ثم لا ينصرون",
     "transliteration": "la-in ukh'rijū lā yakhrujūna maʿahum wala-in qūtilū lā yanṣurūnahum wala-in naṣarūhum layuwallunna l-adbāra thumma lā yunṣarūna",
-    "translation": "",
+    "translation": "If they are expelled, they will not leave with them, and if they are fought, they will not aid them. And [even] if they should aid them, they will surely turn their backs; then [thereafter] they will not be aided.",
     "words": [
       {
         "id": "al-hashr-12-1",
@@ -2022,7 +2033,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils sont expulsés, ils ne sortiront pas avec eux ; s’ils sont combattus, ils ne les soutiendront pas. Et s’ils les soutiennent, ils tourneront vite le dos et ne seront point secourus."
   },
   {
     "id": "al-hashr-13",
@@ -2031,7 +2043,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "لَأَنتُمْ أَشَدُّ رَهْبَةً فِى صُدُورِهِم مِّنَ ٱللَّهِ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
     "textSimple": "لأنتم أشد رهبة فى صدورهم من ٱلله  ذلك بأنهم قوم لا يفقهون",
     "transliteration": "la-antum ashaddu rahbatan fī ṣudūrihim mina l-lahi dhālika bi-annahum qawmun lā yafqahūna",
-    "translation": "",
+    "translation": "You [believers] are more fearful within their breasts than Allāh. That is because they are a people who do not understand.",
     "words": [
       {
         "id": "al-hashr-13-1",
@@ -2118,7 +2130,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous jetez dans leurs cœurs plus d’épouvante qu’Allah (ne leur en inspire) car ce sont des gens qui ne comprennent pas."
   },
   {
     "id": "al-hashr-14",
@@ -2127,7 +2140,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "لَا يُقَـٰتِلُونَكُمْ جَمِيعًا إِلَّا فِى قُرًى مُّحَصَّنَةٍ أَوْ مِن وَرَآءِ جُدُرٍۭ ۚ بَأْسُهُم بَيْنَهُمْ شَدِيدٌ ۚ تَحْسَبُهُمْ جَمِيعًا وَقُلُوبُهُمْ شَتَّىٰ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْقِلُونَ",
     "textSimple": "لا يقـتلونكم جميعا إلا فى قرى محصنة أو من ورآء جدر  بأسهم بينهم شديد  تحسبهم جميعا وقلوبهم شتى  ذلك بأنهم قوم لا يعقلون",
     "transliteration": "lā yuqātilūnakum jamīʿan illā fī quran muḥaṣṣanatin aw min warāi judurin basuhum baynahum shadīdun taḥsabuhum jamīʿan waqulūbuhum shattā dhālika bi-annahum qawmun lā yaʿqilūna",
-    "translation": "",
+    "translation": "They will not fight you all except within fortified cities or from behind walls. Their violence [i.e., enmity] among themselves is severe. You think they are together, but their hearts are diverse. That is because they are a people who do not reason.",
     "words": [
       {
         "id": "al-hashr-14-1",
@@ -2291,7 +2304,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne vous combattent réunis que de l’intérieur des cités fortifiées ou de derrière des murailles. Leur animosité est entre eux féroce : tu les tiens pour unis mais leurs cœurs sont divisés, car ce sont des gens qui ne savent raisonner."
   },
   {
     "id": "al-hashr-15",
@@ -2300,7 +2314,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "كَمَثَلِ ٱلَّذِينَ مِن قَبْلِهِمْ قَرِيبًا ۖ ذَاقُوا۟ وَبَالَ أَمْرِهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
     "textSimple": "كمثل ٱلذين من قبلهم قريبا  ذاقوا وبال أمرهم ولهم عذاب أليم",
     "transliteration": "kamathali alladhīna min qablihim qarīban dhāqū wabāla amrihim walahum ʿadhābun alīmun",
-    "translation": "",
+    "translation": "[Theirs is] like the example of those shortly before them: they tasted the bad consequence of their affair, and they will have a painful punishment.",
     "words": [
       {
         "id": "al-hashr-15-1",
@@ -2380,7 +2394,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont à l’image de ceux qui, il n’y a guère, ont goûté le péril dû à leur conduite : ils auront un supplice très douloureux."
   },
   {
     "id": "al-hashr-16",
@@ -2389,7 +2404,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "كَمَثَلِ ٱلشَّيْطَـٰنِ إِذْ قَالَ لِلْإِنسَـٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌ مِّنكَ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَـٰلَمِينَ",
     "textSimple": "كمثل ٱلشيطـن إذ قال للإنسـن ٱكفر فلما كفر قال إنى برىٓء منك إنىٓ أخاف ٱلله رب ٱلعـلمين",
     "transliteration": "kamathali l-shayṭāni idh qāla lil'insāni uk'fur falammā kafara qāla innī barīon minka innī akhāfu l-laha rabba l-ʿālamīna",
-    "translation": "",
+    "translation": "[The hypocrites are] like the example of Satan when he says to man, \"Disbelieve.\" But when he disbelieves, he says, \"Indeed, I am disassociated from you. Indeed, I fear Allāh, Lord of the worlds.\"",
     "words": [
       {
         "id": "al-hashr-16-1",
@@ -2511,7 +2526,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont aussi à l’image de Satan disant à l’homme : « Mécrois ! » Puis lorsque (l’homme) eut mécru, il dit : « Je te renie, car moi je crains Allah, le Seigneur de l’Univers. »"
   },
   {
     "id": "al-hashr-17",
@@ -2520,7 +2536,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "فَكَانَ عَـٰقِبَتَهُمَآ أَنَّهُمَا فِى ٱلنَّارِ خَـٰلِدَيْنِ فِيهَا ۚ وَذَٰلِكَ جَزَٰٓؤُا۟ ٱلظَّـٰلِمِينَ",
     "textSimple": "فكان عـقبتهمآ أنهما فى ٱلنار خـلدين فيها  وذلك جزٓؤا ٱلظـلمين",
     "transliteration": "fakāna ʿāqibatahumā annahumā fī l-nāri khālidayni fīhā wadhālika jazāu l-ẓālimīna",
-    "translation": "",
+    "translation": "So the outcome for both of them is that they will be in the Fire, abiding eternally therein. And that is the recompense of the wrongdoers.",
     "words": [
       {
         "id": "al-hashr-17-1",
@@ -2593,7 +2609,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tous deux auront comme sort d’être livrés au Feu, où ils demeureront pour l’éternité. Telle est la rétribution des injustes."
   },
   {
     "id": "al-hashr-18",
@@ -2602,7 +2619,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱتقوا ٱلله ولتنظر نفس ما قدمت لغد  وٱتقوا ٱلله  إن ٱلله خبير بما تعملون",
     "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha waltanẓur nafsun mā qaddamat lighadin wa-ittaqū l-laha inna l-laha khabīrun bimā taʿmalūna",
-    "translation": "",
+    "translation": "O you who have believed, fear Allāh. And let every soul look to what it has put forth for tomorrow - and fear Allāh. Indeed, Allāh is Aware of what you do.",
     "words": [
       {
         "id": "al-hashr-18-1",
@@ -2724,7 +2741,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Craignez Allah ! Que chaque âme considère ce qu’elle a déjà fait pour demain. Craignez Allah, car Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "al-hashr-19",
@@ -2733,7 +2751,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَكُونُوا۟ كَٱلَّذِينَ نَسُوا۟ ٱللَّهَ فَأَنسَىٰهُمْ أَنفُسَهُمْ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ",
     "textSimple": "ولا تكونوا كٱلذين نسوا ٱلله فأنسىهم أنفسهم  أولـٓئك هم ٱلفـسقون",
     "transliteration": "walā takūnū ka-alladhīna nasū l-laha fa-ansāhum anfusahum ulāika humu l-fāsiqūna",
-    "translation": "",
+    "translation": "And be not like those who forgot Allāh, so He made them forget themselves. Those are the defiantly disobedient.",
     "words": [
       {
         "id": "al-hashr-19-1",
@@ -2806,7 +2824,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne soyez pas comme ceux qui ont oublié Allah ! Allah a fait qu’ils s’oublient eux-mêmes. Ceux-là sont les pervers."
   },
   {
     "id": "al-hashr-20",
@@ -2815,7 +2834,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَسْتَوِىٓ أَصْحَـٰبُ ٱلنَّارِ وَأَصْحَـٰبُ ٱلْجَنَّةِ ۚ أَصْحَـٰبُ ٱلْجَنَّةِ هُمُ ٱلْفَآئِزُونَ",
     "textSimple": "لا يستوىٓ أصحـب ٱلنار وأصحـب ٱلجنة  أصحـب ٱلجنة هم ٱلفآئزون",
     "transliteration": "lā yastawī aṣḥābu l-nāri wa-aṣḥābu l-janati aṣḥābu l-janati humu l-fāizūna",
-    "translation": "",
+    "translation": "Not equal are the companions of the Fire and the companions of Paradise. The companions of Paradise - they are the attainers [of success].",
     "words": [
       {
         "id": "al-hashr-20-1",
@@ -2888,7 +2907,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hôtes du Feu ne sauraient égaler les hôtes du Paradis. Les hôtes du Paradis sont eux les gagnants."
   },
   {
     "id": "al-hashr-21",
@@ -2897,7 +2917,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ أَنزَلْنَا هَـٰذَا ٱلْقُرْءَانَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُۥ خَـٰشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ ٱللَّهِ ۚ وَتِلْكَ ٱلْأَمْثَـٰلُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ",
     "textSimple": "لو أنزلنا هـذا ٱلقرءان على جبل لرأيته خـشعا متصدعا من خشية ٱلله  وتلك ٱلأمثـل نضربها للناس لعلهم يتفكرون",
     "transliteration": "law anzalnā hādhā l-qur'āna ʿalā jabalin lara-aytahu khāshiʿan mutaṣaddiʿan min khashyati l-lahi watil'ka l-amthālu naḍribuhā lilnnāsi laʿallahum yatafakkarūna",
-    "translation": "",
+    "translation": "If We had sent down this Qur’ān upon a mountain, you would have seen it humbled and splitting from fear of Allāh. And these examples We present to the people that perhaps they will give thought.",
     "words": [
       {
         "id": "al-hashr-21-1",
@@ -3026,7 +3046,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous avions fait descendre ce Coran sur une montagne, tu aurais vu celle-ci recueillie au point de s’affaisser et de se fendre, par la crainte d’Allah. Ce sont là des exemples que nous donnons aux hommes, peut-être y réfléchiront-ils."
   },
   {
     "id": "al-hashr-22",
@@ -3035,7 +3056,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۖ هُوَ ٱلرَّحْمَـٰنُ ٱلرَّحِيمُ",
     "textSimple": "هو ٱلله ٱلذى لآ إلـه إلا هو  عـلم ٱلغيب وٱلشهـدة  هو ٱلرحمـن ٱلرحيم",
     "transliteration": "huwa l-lahu alladhī lā ilāha illā huwa ʿālimu l-ghaybi wal-shahādati huwa l-raḥmānu l-raḥīmu",
-    "translation": "",
+    "translation": "He is Allāh, other than whom there is no deity, Knower of the unseen and the witnessed. He is the Entirely Merciful, the Especially Merciful.",
     "words": [
       {
         "id": "al-hashr-22-1",
@@ -3129,7 +3150,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui, Allah. Il n’y a point d’autre divinité que Lui. Il Connaît aussi bien les choses insondables que les choses observables, et c’est Lui le Tout Clément, le Tout Miséricordieux."
   },
   {
     "id": "al-hashr-23",
@@ -3138,7 +3160,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
     "textSimple": "هو ٱلله ٱلذى لآ إلـه إلا هو ٱلملك ٱلقدوس ٱلسلـم ٱلمؤمن ٱلمهيمن ٱلعزيز ٱلجبار ٱلمتكبر  سبحـن ٱلله عما يشركون",
     "transliteration": "huwa l-lahu alladhī lā ilāha illā huwa l-maliku l-qudūsu l-salāmu l-mu'minu l-muhayminu l-ʿazīzu l-jabāru l-mutakabiru sub'ḥāna l-lahi ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "He is Allāh, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Grantor of Security, the Overseer, the Exalted in Might, the Compeller, the Superior. Exalted is Allāh above whatever they associate with Him.",
     "words": [
       {
         "id": "al-hashr-23-1",
@@ -3274,7 +3296,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui : Allah. Il n’y a point d’autre divinité que Lui, Il est le Souverain, le Très-Pur, le Salutaire, le Sécurisant, le Régnant, le Tout-Puissant, le Contraignant, l’Orgueilleux. Gloire soit rendue à Allah Qui est bien plus Haut que ce qu’ils Lui associent."
   },
   {
     "id": "al-hashr-24",
@@ -3283,7 +3306,7 @@ export const AL_HASHR_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱللَّهُ ٱلْخَـٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "هو ٱلله ٱلخـلق ٱلبارئ ٱلمصور  له ٱلأسمآء ٱلحسنى  يسبح له ما فى ٱلسمـوت وٱلأرض  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "huwa l-lahu l-khāliqu l-bāri-u l-muṣawiru lahu l-asmāu l-ḥus'nā yusabbiḥu lahu mā fī l-samāwāti wal-arḍi wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "He is Allāh, the Creator, the Producer, the Fashioner; to Him belong the best names. Whatever is in the heavens and earth is exalting Him. And He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-hashr-24-1",
@@ -3405,7 +3428,8 @@ export const AL_HASHR_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui, Allah, le Créateur, l’Exécuteur, le Formateur. À Lui (reviennent) les plus Beaux Noms. Tout ce qui est dans les cieux et sur terre Lui rend gloire, et c’est Lui le Tout-Puissant, le Sage."
   }
 ];
 

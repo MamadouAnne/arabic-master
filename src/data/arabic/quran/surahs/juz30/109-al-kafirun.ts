@@ -11,7 +11,7 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
     "textUthmani": " قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ",
     "textSimple": " قل يـٓأيها ٱلكـفرون",
     "transliteration": "qul yāayyuhā l-kāfirūna",
-    "translation": "",
+    "translation": "Say, \"O disbelievers,",
     "words": [
       {
         "id": "al-kafirun-1-1",
@@ -35,7 +35,8 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô vous les mécréants !"
   },
   {
     "id": "al-kafirun-2",
@@ -44,7 +45,7 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
     "textUthmani": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
     "textSimple": "لآ أعبد ما تعبدون",
     "transliteration": "lā aʿbudu mā taʿbudūna",
-    "translation": "",
+    "translation": "I do not worship what you worship.",
     "words": [
       {
         "id": "al-kafirun-2-1",
@@ -75,7 +76,8 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je n’adore point ce que vous adorez."
   },
   {
     "id": "al-kafirun-3",
@@ -84,7 +86,7 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
     "textSimple": "ولآ أنتم عـبدون مآ أعبد",
     "transliteration": "walā antum ʿābidūna mā aʿbudu",
-    "translation": "",
+    "translation": "Nor are you worshippers of what I worship.",
     "words": [
       {
         "id": "al-kafirun-3-1",
@@ -122,7 +124,8 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pas plus que vous n’allez adorer ce que j’adore."
   },
   {
     "id": "al-kafirun-4",
@@ -131,7 +134,7 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ",
     "textSimple": "ولآ أنا عابد ما عبدتم",
     "transliteration": "walā anā ʿābidun mā ʿabadttum",
-    "translation": "",
+    "translation": "Nor will I be a worshipper of what you worship.",
     "words": [
       {
         "id": "al-kafirun-4-1",
@@ -169,7 +172,8 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ni moi je ne vais adorer ce que vous avez adoré."
   },
   {
     "id": "al-kafirun-5",
@@ -178,7 +182,7 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَآ أَنتُمْ عَـٰبِدُونَ مَآ أَعْبُدُ",
     "textSimple": "ولآ أنتم عـبدون مآ أعبد",
     "transliteration": "walā antum ʿābidūna mā aʿbudu",
-    "translation": "",
+    "translation": "Nor will you be worshippers of what I worship.",
     "words": [
       {
         "id": "al-kafirun-5-1",
@@ -216,7 +220,8 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pas plus que vous n’allez adorer ce que j’adore."
   },
   {
     "id": "al-kafirun-6",
@@ -225,7 +230,7 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
     "textUthmani": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
     "textSimple": "لكم دينكم ولى دين",
     "transliteration": "lakum dīnukum waliya dīni",
-    "translation": "",
+    "translation": "For you is your religion, and for me is my religion.\"",
     "words": [
       {
         "id": "al-kafirun-6-1",
@@ -256,7 +261,8 @@ export const AL_KAFIRUN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous, vous avez votre religion et moi, j’ai la mienne. »"
   }
 ];
 

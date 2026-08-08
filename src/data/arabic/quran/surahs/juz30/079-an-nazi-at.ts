@@ -11,7 +11,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلنَّـٰزِعَـٰتِ غَرْقًا",
     "textSimple": " وٱلنـزعـت غرقا",
     "transliteration": "wal-nāziʿāti gharqan",
-    "translation": "",
+    "translation": "By those [angels] who extract with violence",
     "words": [
       {
         "id": "an-nazi-at-1-1",
@@ -28,7 +28,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par les arracheurs (des âmes) avec violence !"
   },
   {
     "id": "an-nazi-at-2",
@@ -37,7 +38,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلنَّـٰشِطَـٰتِ نَشْطًا",
     "textSimple": "وٱلنـشطـت نشطا",
     "transliteration": "wal-nāshiṭāti nashṭan",
-    "translation": "",
+    "translation": "And [by] those who remove with ease",
     "words": [
       {
         "id": "an-nazi-at-2-1",
@@ -54,7 +55,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et par ceux qui les cueillent avec douceur !"
   },
   {
     "id": "an-nazi-at-3",
@@ -63,7 +65,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّـٰبِحَـٰتِ سَبْحًا",
     "textSimple": "وٱلسـبحـت سبحا",
     "transliteration": "wal-sābiḥāti sabḥan",
-    "translation": "",
+    "translation": "And [by] those who glide [as if] swimming",
     "words": [
       {
         "id": "an-nazi-at-3-1",
@@ -80,7 +82,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ceux qui naviguent librement,"
   },
   {
     "id": "an-nazi-at-4",
@@ -89,7 +92,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلسَّـٰبِقَـٰتِ سَبْقًا",
     "textSimple": "فٱلسـبقـت سبقا",
     "transliteration": "fal-sābiqāti sabqan",
-    "translation": "",
+    "translation": "And those who race each other in a race",
     "words": [
       {
         "id": "an-nazi-at-4-1",
@@ -106,7 +109,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis courent et devancent,"
   },
   {
     "id": "an-nazi-at-5",
@@ -115,7 +119,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْمُدَبِّرَٰتِ أَمْرًا",
     "textSimple": "فٱلمدبرت أمرا",
     "transliteration": "fal-mudabirāti amran",
-    "translation": "",
+    "translation": "And those who arrange [each] matter,",
     "words": [
       {
         "id": "an-nazi-at-5-1",
@@ -132,7 +136,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour mieux gérer les affaires !"
   },
   {
     "id": "an-nazi-at-6",
@@ -141,7 +146,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
     "textSimple": "يوم ترجف ٱلراجفة",
     "transliteration": "yawma tarjufu l-rājifatu",
-    "translation": "",
+    "translation": "On the Day the blast [of the Horn] will convulse [creation],",
     "words": [
       {
         "id": "an-nazi-at-6-1",
@@ -165,7 +170,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où retentira (le premier son du Cor),"
   },
   {
     "id": "an-nazi-at-7",
@@ -174,7 +180,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "تَتْبَعُهَا ٱلرَّادِفَةُ",
     "textSimple": "تتبعها ٱلرادفة",
     "transliteration": "tatbaʿuhā l-rādifatu",
-    "translation": "",
+    "translation": "There will follow it the subsequent [one].",
     "words": [
       {
         "id": "an-nazi-at-7-1",
@@ -191,7 +197,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que suivra le second (son du Cor),"
   },
   {
     "id": "an-nazi-at-8",
@@ -200,7 +207,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ",
     "textSimple": "قلوب يومئذ واجفة",
     "transliteration": "qulūbun yawma-idhin wājifatun",
-    "translation": "",
+    "translation": "Hearts, that Day, will tremble,",
     "words": [
       {
         "id": "an-nazi-at-8-1",
@@ -224,7 +231,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des cœurs, ce jour-là, seront saisis de frayeur,"
   },
   {
     "id": "an-nazi-at-9",
@@ -233,7 +241,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "أَبْصَـٰرُهَا خَـٰشِعَةٌ",
     "textSimple": "أبصـرها خـشعة",
     "transliteration": "abṣāruhā khāshiʿatun",
-    "translation": "",
+    "translation": "Their eyes humbled.",
     "words": [
       {
         "id": "an-nazi-at-9-1",
@@ -250,7 +258,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et des regards saisis d’humilité."
   },
   {
     "id": "an-nazi-at-10",
@@ -259,7 +268,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ",
     "textSimple": "يقولون أءنا لمردودون فى ٱلحافرة",
     "transliteration": "yaqūlūna a-innā lamardūdūna fī l-ḥāfirati",
-    "translation": "",
+    "translation": "They are [presently] saying, \"Will we indeed be returned to [our] former state [of life]?",
     "words": [
       {
         "id": "an-nazi-at-10-1",
@@ -297,7 +306,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Serons-nous donc, demanderont-ils, ramenés à notre vie sur terre,"
   },
   {
     "id": "an-nazi-at-11",
@@ -306,7 +316,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "أَءِذَا كُنَّا عِظَـٰمًا نَّخِرَةً",
     "textSimple": "أءذا كنا عظـما نخرة",
     "transliteration": "a-idhā kunnā ʿiẓāman nakhiratan",
-    "translation": "",
+    "translation": "Even if we should be decayed bones?\"",
     "words": [
       {
         "id": "an-nazi-at-11-1",
@@ -337,7 +347,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors même que nous ne serons plus qu’ossements rongés? »"
   },
   {
     "id": "an-nazi-at-12",
@@ -346,7 +357,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ",
     "textSimple": "قالوا تلك إذا كرة خاسرة",
     "transliteration": "qālū til'ka idhan karratun khāsiratun",
-    "translation": "",
+    "translation": "They say, \"That, then, would be a losing return.\"",
     "words": [
       {
         "id": "an-nazi-at-12-1",
@@ -384,7 +395,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ce serait donc, diront-ils, un retour où nous serions perdants ! »"
   },
   {
     "id": "an-nazi-at-13",
@@ -393,7 +405,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ",
     "textSimple": "فإنما هى زجرة وحدة",
     "transliteration": "fa-innamā hiya zajratun wāḥidatun",
-    "translation": "",
+    "translation": "Indeed, it will be but one shout,",
     "words": [
       {
         "id": "an-nazi-at-13-1",
@@ -424,7 +436,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y aura qu’un seul Cri,"
   },
   {
     "id": "an-nazi-at-14",
@@ -433,7 +446,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
     "textSimple": "فإذا هم بٱلساهرة",
     "transliteration": "fa-idhā hum bil-sāhirati",
-    "translation": "",
+    "translation": "And suddenly they will be [alert] upon the earth's surface.",
     "words": [
       {
         "id": "an-nazi-at-14-1",
@@ -457,7 +470,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les voilà tous qui se réveillent à la surface de la terre !"
   },
   {
     "id": "an-nazi-at-15",
@@ -466,7 +480,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
     "textSimple": "هل أتىك حديث موسىٓ",
     "transliteration": "hal atāka ḥadīthu mūsā",
-    "translation": "",
+    "translation": "Has there reached you the story of Moses? -",
     "words": [
       {
         "id": "an-nazi-at-15-1",
@@ -497,7 +511,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’histoire de Moïse t’est-elle parvenue ?"
   },
   {
     "id": "an-nazi-at-16",
@@ -506,7 +521,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
     "textSimple": "إذ نادىه ربه بٱلواد ٱلمقدس طوى",
     "transliteration": "idh nādāhu rabbuhu bil-wādi l-muqadasi ṭuwan",
-    "translation": "",
+    "translation": "When his Lord called to him in the sacred valley of Ṭuwā,",
     "words": [
       {
         "id": "an-nazi-at-16-1",
@@ -551,7 +566,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Son Seigneur l’appela dans la vallée sacrée de Touwâ en lui disant :"
   },
   {
     "id": "an-nazi-at-17",
@@ -560,7 +576,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
     "textSimple": "ٱذهب إلى فرعون إنه طغى",
     "transliteration": "idh'hab ilā fir'ʿawna innahu ṭaghā",
-    "translation": "",
+    "translation": "\"Go to Pharaoh. Indeed, he has transgressed.",
     "words": [
       {
         "id": "an-nazi-at-17-1",
@@ -598,7 +614,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Va trouver Pharaon, car il a transgressé !"
   },
   {
     "id": "an-nazi-at-18",
@@ -607,7 +624,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
     "textSimple": "فقل هل لك إلىٓ أن تزكى",
     "transliteration": "faqul hal laka ilā an tazakkā",
-    "translation": "",
+    "translation": "And say to him, 'Would you [be willing to] purify yourself",
     "words": [
       {
         "id": "an-nazi-at-18-1",
@@ -652,7 +669,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis-lui : “Ne voudrais-tu pas te purifier"
   },
   {
     "id": "an-nazi-at-19",
@@ -661,7 +679,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ",
     "textSimple": "وأهديك إلى ربك فتخشى",
     "transliteration": "wa-ahdiyaka ilā rabbika fatakhshā",
-    "translation": "",
+    "translation": "And let me guide you to your Lord so you would fear [Him]?'\"",
     "words": [
       {
         "id": "an-nazi-at-19-1",
@@ -692,7 +710,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et me laisser te guider vers ton Seigneur que tu craindras alors ?” »"
   },
   {
     "id": "an-nazi-at-20",
@@ -701,7 +720,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرَىٰهُ ٱلْـَٔايَةَ ٱلْكُبْرَىٰ",
     "textSimple": "فأرىه ٱلـٔاية ٱلكبرى",
     "transliteration": "fa-arāhu l-āyata l-kub'rā",
-    "translation": "",
+    "translation": "And he showed him the greatest sign,",
     "words": [
       {
         "id": "an-nazi-at-20-1",
@@ -725,7 +744,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Moïse) fit voir (à Pharaon) le plus grand prodige."
   },
   {
     "id": "an-nazi-at-21",
@@ -734,7 +754,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبَ وَعَصَىٰ",
     "textSimple": "فكذب وعصى",
     "transliteration": "fakadhaba waʿaṣā",
-    "translation": "",
+    "translation": "But he [i.e., Pharaoh] denied and disobeyed.",
     "words": [
       {
         "id": "an-nazi-at-21-1",
@@ -751,7 +771,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais celui-ci le tint pour mensonge et désobéit (à Allah),"
   },
   {
     "id": "an-nazi-at-22",
@@ -760,7 +781,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
     "textSimple": "ثم أدبر يسعى",
     "transliteration": "thumma adbara yasʿā",
-    "translation": "",
+    "translation": "Then he turned his back, striving [i.e., plotting].",
     "words": [
       {
         "id": "an-nazi-at-22-1",
@@ -784,7 +805,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis se détourna persistant dans la mécréance."
   },
   {
     "id": "an-nazi-at-23",
@@ -793,7 +815,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَحَشَرَ فَنَادَىٰ",
     "textSimple": "فحشر فنادى",
     "transliteration": "faḥashara fanādā",
-    "translation": "",
+    "translation": "And he gathered [his people] and called out.",
     "words": [
       {
         "id": "an-nazi-at-23-1",
@@ -810,7 +832,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il rassembla (les siens) et fit cette déclaration :"
   },
   {
     "id": "an-nazi-at-24",
@@ -819,7 +842,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ",
     "textSimple": "فقال أنا ربكم ٱلأعلى",
     "transliteration": "faqāla anā rabbukumu l-aʿlā",
-    "translation": "",
+    "translation": "And said, \"I am your most exalted lord.\"",
     "words": [
       {
         "id": "an-nazi-at-24-1",
@@ -850,7 +873,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Je suis votre seigneur le plus haut ! »"
   },
   {
     "id": "an-nazi-at-25",
@@ -859,7 +883,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْـَٔاخِرَةِ وَٱلْأُولَىٰٓ",
     "textSimple": "فأخذه ٱلله نكال ٱلـٔاخرة وٱلأولىٓ",
     "transliteration": "fa-akhadhahu l-lahu nakāla l-ākhirati wal-ūlā",
-    "translation": "",
+    "translation": "So Allāh seized him in exemplary punishment for the last and the first [transgression]..",
     "words": [
       {
         "id": "an-nazi-at-25-1",
@@ -897,7 +921,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah sévit contre lui par le supplice exemplaire de l’autre monde et de la vie ici-bas."
   },
   {
     "id": "an-nazi-at-26",
@@ -906,7 +931,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰٓ",
     "textSimple": "إن فى ذلك لعبرة لمن يخشىٓ",
     "transliteration": "inna fī dhālika laʿib'ratan liman yakhshā",
-    "translation": "",
+    "translation": "Indeed in that is a lesson [i.e., warning] for whoever would fear [Allāh].",
     "words": [
       {
         "id": "an-nazi-at-26-1",
@@ -951,7 +976,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a certes là une leçon à méditer par quiconque craint (Allah)."
   },
   {
     "id": "an-nazi-at-27",
@@ -960,7 +986,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
     "textSimple": "ءأنتم أشد خلقا أم ٱلسمآء  بنىها",
     "transliteration": "a-antum ashaddu khalqan ami l-samāu banāhā",
-    "translation": "",
+    "translation": "Are you a more difficult creation or is the heaven? He [i.e., Allāh] constructed it.",
     "words": [
       {
         "id": "an-nazi-at-27-1",
@@ -1005,7 +1031,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Êtes-vous plus difficiles à créer que le ciel qu’Il a édifié ?"
   },
   {
     "id": "an-nazi-at-28",
@@ -1014,7 +1041,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "رَفَعَ سَمْكَهَا فَسَوَّىٰهَا",
     "textSimple": "رفع سمكها فسوىها",
     "transliteration": "rafaʿa samkahā fasawwāhā",
-    "translation": "",
+    "translation": "He raised its ceiling and proportioned it.",
     "words": [
       {
         "id": "an-nazi-at-28-1",
@@ -1038,7 +1065,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en a élevé bien haut la voûte et a su en parfaire la forme."
   },
   {
     "id": "an-nazi-at-29",
@@ -1047,7 +1075,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
     "textSimple": "وأغطش ليلها وأخرج ضحىها",
     "transliteration": "wa-aghṭasha laylahā wa-akhraja ḍuḥāhā",
-    "translation": "",
+    "translation": "And He darkened its night and extracted its brightness.",
     "words": [
       {
         "id": "an-nazi-at-29-1",
@@ -1078,7 +1106,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en a rendu la nuit obscure et en a fait briller le jour."
   },
   {
     "id": "an-nazi-at-30",
@@ -1087,7 +1116,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ",
     "textSimple": "وٱلأرض بعد ذلك دحىهآ",
     "transliteration": "wal-arḍa baʿda dhālika daḥāhā",
-    "translation": "",
+    "translation": "And after that He spread the earth.",
     "words": [
       {
         "id": "an-nazi-at-30-1",
@@ -1118,7 +1147,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La terre, après cela, Il l’a nivelée."
   },
   {
     "id": "an-nazi-at-31",
@@ -1127,7 +1157,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا",
     "textSimple": "أخرج منها مآءها ومرعىها",
     "transliteration": "akhraja min'hā māahā wamarʿāhā",
-    "translation": "",
+    "translation": "He extracted from it its water and its pasture,",
     "words": [
       {
         "id": "an-nazi-at-31-1",
@@ -1158,7 +1188,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en a fait sortir eaux et pâturages."
   },
   {
     "id": "an-nazi-at-32",
@@ -1167,7 +1198,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْجِبَالَ أَرْسَىٰهَا",
     "textSimple": "وٱلجبال أرسىها",
     "transliteration": "wal-jibāla arsāhā",
-    "translation": "",
+    "translation": "And the mountains He set firmly",
     "words": [
       {
         "id": "an-nazi-at-32-1",
@@ -1184,7 +1215,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les montagnes, Il les a implantées,"
   },
   {
     "id": "an-nazi-at-33",
@@ -1193,7 +1225,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "مَتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
     "textSimple": "متـعا لكم ولأنعـمكم",
     "transliteration": "matāʿan lakum wali-anʿāmikum",
-    "translation": "",
+    "translation": "As enjoyment [i.e., provision] for you and your grazing livestock.",
     "words": [
       {
         "id": "an-nazi-at-33-1",
@@ -1217,7 +1249,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour vos besoins à vous et à ceux de vos bestiaux."
   },
   {
     "id": "an-nazi-at-34",
@@ -1226,7 +1259,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ",
     "textSimple": "فإذا جآءت ٱلطآمة ٱلكبرى",
     "transliteration": "fa-idhā jāati l-ṭāmatu l-kub'rā",
-    "translation": "",
+    "translation": "But when there comes the greatest Overwhelming Calamity -",
     "words": [
       {
         "id": "an-nazi-at-34-1",
@@ -1257,7 +1290,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais quand se produira le plus grand des cataclysmes,"
   },
   {
     "id": "an-nazi-at-35",
@@ -1266,7 +1300,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَـٰنُ مَا سَعَىٰ",
     "textSimple": "يوم يتذكر ٱلإنسـن ما سعى",
     "transliteration": "yawma yatadhakkaru l-insānu mā saʿā",
-    "translation": "",
+    "translation": "The Day when man will remember that for which he strove,",
     "words": [
       {
         "id": "an-nazi-at-35-1",
@@ -1304,7 +1338,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le jour où l’homme se souviendra de ce tout ce qu’il s’est employé à accomplir,"
   },
   {
     "id": "an-nazi-at-36",
@@ -1313,7 +1348,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ",
     "textSimple": "وبرزت ٱلجحيم لمن يرى",
     "transliteration": "waburrizati l-jaḥīmu liman yarā",
-    "translation": "",
+    "translation": "And Hellfire will be exposed for [all] those who see -",
     "words": [
       {
         "id": "an-nazi-at-36-1",
@@ -1344,7 +1379,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que l’Enfer sera mis en évidence devant quiconque peut voir,"
   },
   {
     "id": "an-nazi-at-37",
@@ -1353,7 +1389,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا مَن طَغَىٰ",
     "textSimple": "فأما من طغى",
     "transliteration": "fa-ammā man ṭaghā",
-    "translation": "",
+    "translation": "So as for he who transgressed",
     "words": [
       {
         "id": "an-nazi-at-37-1",
@@ -1377,7 +1413,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors, celui qui se sera livré à la démesure,"
   },
   {
     "id": "an-nazi-at-38",
@@ -1386,7 +1423,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
     "textSimple": "وءاثر ٱلحيوة ٱلدنيا",
     "transliteration": "waāthara l-ḥayata l-dun'yā",
-    "translation": "",
+    "translation": "And preferred the life of the world,",
     "words": [
       {
         "id": "an-nazi-at-38-1",
@@ -1410,7 +1447,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et qui aura préféré la vie en ce bas monde,"
   },
   {
     "id": "an-nazi-at-39",
@@ -1419,7 +1457,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ",
     "textSimple": "فإن ٱلجحيم هى ٱلمأوى",
     "transliteration": "fa-inna l-jaḥīma hiya l-mawā",
-    "translation": "",
+    "translation": "Then indeed, Hellfire will be [his] refuge.",
     "words": [
       {
         "id": "an-nazi-at-39-1",
@@ -1450,7 +1488,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "aura pour seul refuge l’Enfer !"
   },
   {
     "id": "an-nazi-at-40",
@@ -1459,7 +1498,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
     "textSimple": "وأما من خاف مقام ربه ونهى ٱلنفس عن ٱلهوى",
     "transliteration": "wa-ammā man khāfa maqāma rabbihi wanahā l-nafsa ʿani l-hawā",
-    "translation": "",
+    "translation": "But as for he who feared the position of his Lord and prevented the soul from [unlawful] inclination,",
     "words": [
       {
         "id": "an-nazi-at-40-1",
@@ -1525,7 +1564,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui que le statut suprême de son Seigneur (faisait trembler) de crainte, (celui qui) s’interdisait de succomber aux passions,"
   },
   {
     "id": "an-nazi-at-41",
@@ -1534,7 +1574,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ",
     "textSimple": "فإن ٱلجنة هى ٱلمأوى",
     "transliteration": "fa-inna l-janata hiya l-mawā",
-    "translation": "",
+    "translation": "Then indeed, Paradise will be [his] refuge.",
     "words": [
       {
         "id": "an-nazi-at-41-1",
@@ -1565,7 +1605,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le Paradis sera son séjour."
   },
   {
     "id": "an-nazi-at-42",
@@ -1574,7 +1615,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا",
     "textSimple": "يسـٔلونك عن ٱلساعة أيان مرسىها",
     "transliteration": "yasalūnaka ʿani l-sāʿati ayyāna mur'sāhā",
-    "translation": "",
+    "translation": "They ask you, [O Muḥammad], about the Hour: when is its arrival?",
     "words": [
       {
         "id": "an-nazi-at-42-1",
@@ -1612,7 +1653,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent au sujet de l’Heure : « Quand va-t-elle enfin venir ? »"
   },
   {
     "id": "an-nazi-at-43",
@@ -1621,7 +1663,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "فِيمَ أَنتَ مِن ذِكْرَىٰهَآ",
     "textSimple": "فيم أنت من ذكرىهآ",
     "transliteration": "fīma anta min dhik'rāhā",
-    "translation": "",
+    "translation": "In what [position] are you that you should mention it?",
     "words": [
       {
         "id": "an-nazi-at-43-1",
@@ -1652,7 +1694,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comment saurais-tu y trouver réponse ?"
   },
   {
     "id": "an-nazi-at-44",
@@ -1661,7 +1704,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
     "textSimple": "إلى ربك منتهىهآ",
     "transliteration": "ilā rabbika muntahāhā",
-    "translation": "",
+    "translation": "To your Lord is its finality.",
     "words": [
       {
         "id": "an-nazi-at-44-1",
@@ -1685,7 +1728,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est de ton Seigneur que relève son terme."
   },
   {
     "id": "an-nazi-at-45",
@@ -1694,7 +1738,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا",
     "textSimple": "إنمآ أنت منذر من يخشىها",
     "transliteration": "innamā anta mundhiru man yakhshāhā",
-    "translation": "",
+    "translation": "You are only a warner for those who fear it.",
     "words": [
       {
         "id": "an-nazi-at-45-1",
@@ -1732,7 +1776,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’es là, (quant à toi), que pour avertir quiconque l’appréhende."
   },
   {
     "id": "an-nazi-at-46",
@@ -1741,7 +1786,7 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
     "textUthmani": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
     "textSimple": "كأنهم يوم يرونها لم يلبثوٓا إلا عشية أو ضحىها",
     "transliteration": "ka-annahum yawma yarawnahā lam yalbathū illā ʿashiyyatan aw ḍuḥāhā",
-    "translation": "",
+    "translation": "It will be, on the Day they see it, as though they had not remained [in the world] except for an afternoon or a morning thereof.",
     "words": [
       {
         "id": "an-nazi-at-46-1",
@@ -1807,7 +1852,8 @@ export const AN_NAZI_AT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où ils la verront, ce sera comme s’ils n’étaient restés (sur terre) qu’un après-midi ou une matinée !"
   }
 ];
 

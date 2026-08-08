@@ -11,7 +11,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": " هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
     "textSimple": " هل أتىك حديث ٱلغـشية",
     "transliteration": "hal atāka ḥadīthu l-ghāshiyati",
-    "translation": "",
+    "translation": "Has there reached you the report of the Overwhelming [event]?",
     "words": [
       {
         "id": "al-ghashiyah-1-1",
@@ -42,7 +42,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "T’est-il parvenu la nouvelle de (la Journée) envahissante ?"
   },
   {
     "id": "al-ghashiyah-2",
@@ -51,7 +52,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
     "textSimple": "وجوه يومئذ خـشعة",
     "transliteration": "wujūhun yawma-idhin khāshiʿatun",
-    "translation": "",
+    "translation": "[Some] faces, that Day, will be humbled,",
     "words": [
       {
         "id": "al-ghashiyah-2-1",
@@ -75,7 +76,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des visages, ce jour-là, seront empreints d’humiliation,"
   },
   {
     "id": "al-ghashiyah-3",
@@ -84,7 +86,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "عَامِلَةٌ نَّاصِبَةٌ",
     "textSimple": "عاملة ناصبة",
     "transliteration": "ʿāmilatun nāṣibatun",
-    "translation": "",
+    "translation": "Working [hard] and exhausted.",
     "words": [
       {
         "id": "al-ghashiyah-3-1",
@@ -101,7 +103,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "peinant, épuisés,"
   },
   {
     "id": "al-ghashiyah-4",
@@ -110,7 +113,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "تَصْلَىٰ نَارًا حَامِيَةً",
     "textSimple": "تصلى نارا حامية",
     "transliteration": "taṣlā nāran ḥāmiyatan",
-    "translation": "",
+    "translation": "They will [enter to] burn in an intensely hot Fire.",
     "words": [
       {
         "id": "al-ghashiyah-4-1",
@@ -134,7 +137,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui brûleront dans un Feu très ardent,"
   },
   {
     "id": "al-ghashiyah-5",
@@ -143,7 +147,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
     "textSimple": "تسقى من عين ءانية",
     "transliteration": "tus'qā min ʿaynin āniyatin",
-    "translation": "",
+    "translation": "They will be given drink from a boiling spring.",
     "words": [
       {
         "id": "al-ghashiyah-5-1",
@@ -174,7 +178,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et boiront à une source d’eau bouillante."
   },
   {
     "id": "al-ghashiyah-6",
@@ -183,7 +188,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
     "textSimple": "ليس لهم طعام إلا من ضريع",
     "transliteration": "laysa lahum ṭaʿāmun illā min ḍarīʿin",
-    "translation": "",
+    "translation": "For them there will be no food except from a poisonous, thorny plant",
     "words": [
       {
         "id": "al-ghashiyah-6-1",
@@ -228,7 +233,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’auront pour toute nourriture que du Dhari‘,"
   },
   {
     "id": "al-ghashiyah-7",
@@ -237,7 +243,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
     "textSimple": "لا يسمن ولا يغنى من جوع",
     "transliteration": "lā yus'minu walā yugh'nī min jūʿin",
-    "translation": "",
+    "translation": "Which neither nourishes nor avails against hunger.",
     "words": [
       {
         "id": "al-ghashiyah-7-1",
@@ -282,7 +288,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui n’engraissera point, ni ne calmera la faim."
   },
   {
     "id": "al-ghashiyah-8",
@@ -291,7 +298,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
     "textSimple": "وجوه يومئذ ناعمة",
     "transliteration": "wujūhun yawma-idhin nāʿimatun",
-    "translation": "",
+    "translation": "[Other] faces, that Day, will show pleasure.",
     "words": [
       {
         "id": "al-ghashiyah-8-1",
@@ -315,7 +322,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il y aura, ce jour-là, des visages radieux,"
   },
   {
     "id": "al-ghashiyah-9",
@@ -324,7 +332,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "لِّسَعْيِهَا رَاضِيَةٌ",
     "textSimple": "لسعيها راضية",
     "transliteration": "lisaʿyihā rāḍiyatun",
-    "translation": "",
+    "translation": "With their effort [they are] satisfied",
     "words": [
       {
         "id": "al-ghashiyah-9-1",
@@ -341,7 +349,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "satisfaits de ce qu’ils auront accompli,"
   },
   {
     "id": "al-ghashiyah-10",
@@ -350,7 +359,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّةٍ عَالِيَةٍ",
     "textSimple": "فى جنة عالية",
     "transliteration": "fī jannatin ʿāliyatin",
-    "translation": "",
+    "translation": "In an elevated garden,",
     "words": [
       {
         "id": "al-ghashiyah-10-1",
@@ -374,7 +383,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dans des jardins surplombants,"
   },
   {
     "id": "al-ghashiyah-11",
@@ -383,7 +393,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
     "textSimple": "لا تسمع فيها لـغية",
     "transliteration": "lā tasmaʿu fīhā lāghiyatan",
-    "translation": "",
+    "translation": "Wherein they will hear no unsuitable speech.",
     "words": [
       {
         "id": "al-ghashiyah-11-1",
@@ -414,7 +424,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où il ne sera entendu aucune parole futile."
   },
   {
     "id": "al-ghashiyah-12",
@@ -423,7 +434,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فِيهَا عَيْنٌ جَارِيَةٌ",
     "textSimple": "فيها عين جارية",
     "transliteration": "fīhā ʿaynun jāriyatun",
-    "translation": "",
+    "translation": "Within it is a flowing spring.",
     "words": [
       {
         "id": "al-ghashiyah-12-1",
@@ -447,7 +458,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’y trouvera une source qui coule,"
   },
   {
     "id": "al-ghashiyah-13",
@@ -456,7 +468,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
     "textSimple": "فيها سرر مرفوعة",
     "transliteration": "fīhā sururun marfūʿatun",
-    "translation": "",
+    "translation": "Within it are couches raised high",
     "words": [
       {
         "id": "al-ghashiyah-13-1",
@@ -480,7 +492,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des lits y seront élevés,"
   },
   {
     "id": "al-ghashiyah-14",
@@ -489,7 +502,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
     "textSimple": "وأكواب موضوعة",
     "transliteration": "wa-akwābun mawḍūʿatun",
-    "translation": "",
+    "translation": "And cups put in place",
     "words": [
       {
         "id": "al-ghashiyah-14-1",
@@ -506,7 +519,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des coupes posées,"
   },
   {
     "id": "al-ghashiyah-15",
@@ -515,7 +529,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَنَمَارِقُ مَصْفُوفَةٌ",
     "textSimple": "ونمارق مصفوفة",
     "transliteration": "wanamāriqu maṣfūfatun",
-    "translation": "",
+    "translation": "And cushions lined up",
     "words": [
       {
         "id": "al-ghashiyah-15-1",
@@ -532,7 +546,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des coussins bien disposés,"
   },
   {
     "id": "al-ghashiyah-16",
@@ -541,7 +556,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَزَرَابِىُّ مَبْثُوثَةٌ",
     "textSimple": "وزرابى مبثوثة",
     "transliteration": "wazarābiyyu mabthūthatun",
-    "translation": "",
+    "translation": "And carpets spread around.",
     "words": [
       {
         "id": "al-ghashiyah-16-1",
@@ -558,7 +573,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et des tapis étendus."
   },
   {
     "id": "al-ghashiyah-17",
@@ -567,7 +583,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
     "textSimple": "أفلا ينظرون إلى ٱلإبل كيف خلقت",
     "transliteration": "afalā yanẓurūna ilā l-ibili kayfa khuliqat",
-    "translation": "",
+    "translation": "Then do they not look at the camels - how they are created?",
     "words": [
       {
         "id": "al-ghashiyah-17-1",
@@ -612,7 +628,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voient-ils donc pas comment les chameaux ont été créés ?"
   },
   {
     "id": "al-ghashiyah-18",
@@ -621,7 +638,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
     "textSimple": "وإلى ٱلسمآء كيف رفعت",
     "transliteration": "wa-ilā l-samāi kayfa rufiʿat",
-    "translation": "",
+    "translation": "And at the sky - how it is raised?",
     "words": [
       {
         "id": "al-ghashiyah-18-1",
@@ -652,7 +669,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment le ciel a été élevé ?"
   },
   {
     "id": "al-ghashiyah-19",
@@ -661,7 +679,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
     "textSimple": "وإلى ٱلجبال كيف نصبت",
     "transliteration": "wa-ilā l-jibāli kayfa nuṣibat",
-    "translation": "",
+    "translation": "And at the mountains - how they are erected?",
     "words": [
       {
         "id": "al-ghashiyah-19-1",
@@ -692,7 +710,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment les montagnes ont été érigées ?"
   },
   {
     "id": "al-ghashiyah-20",
@@ -701,7 +720,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
     "textSimple": "وإلى ٱلأرض كيف سطحت",
     "transliteration": "wa-ilā l-arḍi kayfa suṭiḥat",
-    "translation": "",
+    "translation": "And at the earth - how it is spread out?",
     "words": [
       {
         "id": "al-ghashiyah-20-1",
@@ -732,7 +751,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et comment la terre a été aplanie ?"
   },
   {
     "id": "al-ghashiyah-21",
@@ -741,7 +761,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
     "textSimple": "فذكر إنمآ أنت مذكر",
     "transliteration": "fadhakkir innamā anta mudhakkirun",
-    "translation": "",
+    "translation": "So remind, [O Muḥammad]; you are only a reminder.",
     "words": [
       {
         "id": "al-ghashiyah-21-1",
@@ -772,7 +792,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rappelle donc ! Car tu es là pour rappeler !"
   },
   {
     "id": "al-ghashiyah-22",
@@ -781,7 +802,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
     "textSimple": "لست عليهم بمصيطر",
     "transliteration": "lasta ʿalayhim bimuṣayṭirin",
-    "translation": "",
+    "translation": "You are not over them a controller.",
     "words": [
       {
         "id": "al-ghashiyah-22-1",
@@ -805,7 +826,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu n’as pas à les contraindre,"
   },
   {
     "id": "al-ghashiyah-23",
@@ -814,7 +836,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
     "textSimple": "إلا من تولى وكفر",
     "transliteration": "illā man tawallā wakafara",
-    "translation": "",
+    "translation": "However, he who turns away and disbelieves",
     "words": [
       {
         "id": "al-ghashiyah-23-1",
@@ -845,7 +867,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "mais celui-là seul qui se détourne et mécroit,"
   },
   {
     "id": "al-ghashiyah-24",
@@ -854,7 +877,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
     "textSimple": "فيعذبه ٱلله ٱلعذاب ٱلأكبر",
     "transliteration": "fayuʿadhibuhu l-lahu l-ʿadhāba l-akbara",
-    "translation": "",
+    "translation": "Then Allāh will punish him with the greatest punishment.",
     "words": [
       {
         "id": "al-ghashiyah-24-1",
@@ -885,7 +908,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah lui infligera le plus grand supplice."
   },
   {
     "id": "al-ghashiyah-25",
@@ -894,7 +918,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
     "textSimple": "إن إلينآ إيابهم",
     "transliteration": "inna ilaynā iyābahum",
-    "translation": "",
+    "translation": "Indeed, to Us is their return.",
     "words": [
       {
         "id": "al-ghashiyah-25-1",
@@ -918,7 +942,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est vers Nous, certes, que sera leur retour."
   },
   {
     "id": "al-ghashiyah-26",
@@ -927,7 +952,7 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
     "textSimple": "ثم إن علينا حسابهم",
     "transliteration": "thumma inna ʿalaynā ḥisābahum",
-    "translation": "",
+    "translation": "Then indeed, upon Us is their account.",
     "words": [
       {
         "id": "al-ghashiyah-26-1",
@@ -958,7 +983,8 @@ export const AL_GHASHIYAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis c’est à Nous qu’il incombera de leur demander des comptes."
   }
 ];
 

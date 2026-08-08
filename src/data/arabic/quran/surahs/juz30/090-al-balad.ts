@@ -11,7 +11,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": " لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
     "textSimple": " لآ أقسم بهـذا ٱلبلد",
     "transliteration": "lā uq'simu bihādhā l-baladi",
-    "translation": "",
+    "translation": "I swear by this city [i.e., Makkah]",
     "words": [
       {
         "id": "al-balad-1-1",
@@ -42,7 +42,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’en jure par cette cité,"
   },
   {
     "id": "al-balad-2",
@@ -51,7 +52,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ",
     "textSimple": "وأنت حل بهـذا ٱلبلد",
     "transliteration": "wa-anta ḥillun bihādhā l-baladi",
-    "translation": "",
+    "translation": "And you, [O Muḥammad], are free of restriction in this city",
     "words": [
       {
         "id": "al-balad-2-1",
@@ -82,7 +83,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où il t’est licite (de combattre tes ennemis) !"
   },
   {
     "id": "al-balad-3",
@@ -91,7 +93,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "وَوَالِدٍ وَمَا وَلَدَ",
     "textSimple": "ووالد وما ولد",
     "transliteration": "wawālidin wamā walada",
-    "translation": "",
+    "translation": "And [by] the father and that which was born [of him],",
     "words": [
       {
         "id": "al-balad-3-1",
@@ -115,7 +117,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le primogéniteur et ce qu’il a engendré !"
   },
   {
     "id": "al-balad-4",
@@ -124,7 +127,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
     "textSimple": "لقد خلقنا ٱلإنسـن فى كبد",
     "transliteration": "laqad khalaqnā l-insāna fī kabadin",
-    "translation": "",
+    "translation": "We have certainly created man into hardship.",
     "words": [
       {
         "id": "al-balad-4-1",
@@ -162,7 +165,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons certes créé l’homme livré à l’adversité."
   },
   {
     "id": "al-balad-5",
@@ -171,7 +175,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
     "textSimple": "أيحسب أن لن يقدر عليه أحد",
     "transliteration": "ayaḥsabu an lan yaqdira ʿalayhi aḥadun",
-    "translation": "",
+    "translation": "Does he think that never will anyone overcome him?",
     "words": [
       {
         "id": "al-balad-5-1",
@@ -216,7 +220,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’imagine-t-il que personne ne pourra rien contre lui ?"
   },
   {
     "id": "al-balad-6",
@@ -225,7 +230,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا",
     "textSimple": "يقول أهلكت مالا لبدا",
     "transliteration": "yaqūlu ahlaktu mālan lubadan",
-    "translation": "",
+    "translation": "He says, \"I have spent wealth in abundance.\"",
     "words": [
       {
         "id": "al-balad-6-1",
@@ -256,7 +261,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« J’ai prodigué, dit-il, une énorme fortune. »"
   },
   {
     "id": "al-balad-7",
@@ -265,7 +271,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ",
     "textSimple": "أيحسب أن لم يرهٓ أحد",
     "transliteration": "ayaḥsabu an lam yarahu aḥadun",
-    "translation": "",
+    "translation": "Does he think that no one has seen him?",
     "words": [
       {
         "id": "al-balad-7-1",
@@ -303,7 +309,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Croit-il donc que personne ne l’a vu ?"
   },
   {
     "id": "al-balad-8",
@@ -312,7 +319,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ",
     "textSimple": "ألم نجعل له عينين",
     "transliteration": "alam najʿal lahu ʿaynayni",
-    "translation": "",
+    "translation": "Have We not made for him two eyes?",
     "words": [
       {
         "id": "al-balad-8-1",
@@ -343,7 +350,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne lui avons-Nous pas donné deux yeux,"
   },
   {
     "id": "al-balad-9",
@@ -352,7 +360,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "وَلِسَانًا وَشَفَتَيْنِ",
     "textSimple": "ولسانا وشفتين",
     "transliteration": "walisānan washafatayni",
-    "translation": "",
+    "translation": "And a tongue and two lips?",
     "words": [
       {
         "id": "al-balad-9-1",
@@ -369,7 +377,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "une langue et deux lèvres ?"
   },
   {
     "id": "al-balad-10",
@@ -378,7 +387,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
     "textSimple": "وهدينـه ٱلنجدين",
     "transliteration": "wahadaynāhu l-najdayni",
-    "translation": "",
+    "translation": "And have shown him the two ways?",
     "words": [
       {
         "id": "al-balad-10-1",
@@ -395,7 +404,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne lui avons-Nous pas montré les deux voies ?"
   },
   {
     "id": "al-balad-11",
@@ -404,7 +414,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
     "textSimple": "فلا ٱقتحم ٱلعقبة",
     "transliteration": "falā iq'taḥama l-ʿaqabata",
-    "translation": "",
+    "translation": "But he has not broken through the difficult pass.",
     "words": [
       {
         "id": "al-balad-11-1",
@@ -428,7 +438,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or, il n’a pas osé affronter la voie pentue."
   },
   {
     "id": "al-balad-12",
@@ -437,7 +448,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
     "textSimple": "ومآ أدرىك ما ٱلعقبة",
     "transliteration": "wamā adrāka mā l-ʿaqabatu",
-    "translation": "",
+    "translation": "And what can make you know what is [breaking through] the difficult pass?",
     "words": [
       {
         "id": "al-balad-12-1",
@@ -468,7 +479,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est la voie pentue ?"
   },
   {
     "id": "al-balad-13",
@@ -477,7 +489,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "فَكُّ رَقَبَةٍ",
     "textSimple": "فك رقبة",
     "transliteration": "fakku raqabatin",
-    "translation": "",
+    "translation": "It is the freeing of a slave",
     "words": [
       {
         "id": "al-balad-13-1",
@@ -494,7 +506,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est affranchir un esclave,"
   },
   {
     "id": "al-balad-14",
@@ -503,7 +516,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ",
     "textSimple": "أو إطعـم فى يوم ذى مسغبة",
     "transliteration": "aw iṭ'ʿāmun fī yawmin dhī masghabatin",
-    "translation": "",
+    "translation": "Or feeding on a day of severe hunger",
     "words": [
       {
         "id": "al-balad-14-1",
@@ -548,7 +561,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou donner à manger, en un jour de disette,"
   },
   {
     "id": "al-balad-15",
@@ -557,7 +571,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "يَتِيمًا ذَا مَقْرَبَةٍ",
     "textSimple": "يتيما ذا مقربة",
     "transliteration": "yatīman dhā maqrabatin",
-    "translation": "",
+    "translation": "An orphan of near relationship",
     "words": [
       {
         "id": "al-balad-15-1",
@@ -581,7 +595,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à un orphelin de la proche famille,"
   },
   {
     "id": "al-balad-16",
@@ -590,7 +605,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
     "textSimple": "أو مسكينا ذا متربة",
     "transliteration": "aw mis'kīnan dhā matrabatin",
-    "translation": "",
+    "translation": "Or a needy person in misery",
     "words": [
       {
         "id": "al-balad-16-1",
@@ -621,7 +636,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou à un pauvre hère qui couche à même la terre."
   },
   {
     "id": "al-balad-17",
@@ -630,7 +646,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
     "textSimple": "ثم كان من ٱلذين ءامنوا وتواصوا بٱلصبر وتواصوا بٱلمرحمة",
     "transliteration": "thumma kāna mina alladhīna āmanū watawāṣaw bil-ṣabri watawāṣaw bil-marḥamati",
-    "translation": "",
+    "translation": "And then being among those who believed and advised one another to patience and advised one another to compassion.",
     "words": [
       {
         "id": "al-balad-17-1",
@@ -696,7 +712,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(C’est aussi être de) ceux qui croient, se recommandent mutuellement la patience, et se recommandent mutuellement la commisération."
   },
   {
     "id": "al-balad-18",
@@ -705,7 +722,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
     "textSimple": "أولـٓئك أصحـب ٱلميمنة",
     "transliteration": "ulāika aṣḥābu l-maymanati",
-    "translation": "",
+    "translation": "Those are the companions of the right.",
     "words": [
       {
         "id": "al-balad-18-1",
@@ -729,7 +746,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont les gens de la dextre."
   },
   {
     "id": "al-balad-19",
@@ -738,7 +756,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
     "textSimple": "وٱلذين كفروا بـٔايـتنا هم أصحـب ٱلمشـٔمة",
     "transliteration": "wa-alladhīna kafarū biāyātinā hum aṣḥābu l-mashamati",
-    "translation": "",
+    "translation": "But they who disbelieved in Our signs - those are the companions of the left.",
     "words": [
       {
         "id": "al-balad-19-1",
@@ -783,7 +801,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui ont nié Nos Signes, ce sont les gens de la senestre."
   },
   {
     "id": "al-balad-20",
@@ -792,7 +811,7 @@ export const AL_BALAD_AYAHS: Ayah[] = [
     "textUthmani": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ",
     "textSimple": "عليهم نار مؤصدة",
     "transliteration": "ʿalayhim nārun mu'ṣadatun",
-    "translation": "",
+    "translation": "Over them will be fire closed in.",
     "words": [
       {
         "id": "al-balad-20-1",
@@ -816,7 +835,8 @@ export const AL_BALAD_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sur eux (de toutes parts) se refermera le Feu (de la Géhenne)."
   }
 ];
 

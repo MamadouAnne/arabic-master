@@ -11,7 +11,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": " عَمَّ يَتَسَآءَلُونَ",
     "textSimple": " عم يتسآءلون",
     "transliteration": "ʿamma yatasāalūna",
-    "translation": "",
+    "translation": "About what are they asking one another?",
     "words": [
       {
         "id": "an-naba-1-1",
@@ -28,7 +28,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À propos de quoi s’interrogent-ils les uns les autres ?"
   },
   {
     "id": "an-naba-2",
@@ -37,7 +38,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
     "textSimple": "عن ٱلنبإ ٱلعظيم",
     "transliteration": "ʿani l-naba-i l-ʿaẓīmi",
-    "translation": "",
+    "translation": "About the great news -",
     "words": [
       {
         "id": "an-naba-2-1",
@@ -61,7 +62,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est à propos de la grande nouvelle,"
   },
   {
     "id": "an-naba-3",
@@ -70,7 +72,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
     "textSimple": "ٱلذى هم فيه مختلفون",
     "transliteration": "alladhī hum fīhi mukh'talifūna",
-    "translation": "",
+    "translation": "That over which they are in disagreement.",
     "words": [
       {
         "id": "an-naba-3-1",
@@ -101,7 +103,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui les a mis en désaccord."
   },
   {
     "id": "an-naba-4",
@@ -110,7 +113,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "كَلَّا سَيَعْلَمُونَ",
     "textSimple": "كلا سيعلمون",
     "transliteration": "kallā sayaʿlamūna",
-    "translation": "",
+    "translation": "No! They are going to know.",
     "words": [
       {
         "id": "an-naba-4-1",
@@ -127,7 +130,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, ils sauront bientôt,"
   },
   {
     "id": "an-naba-5",
@@ -136,7 +140,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
     "textSimple": "ثم كلا سيعلمون",
     "transliteration": "thumma kallā sayaʿlamūna",
-    "translation": "",
+    "translation": "Then, no! They are going to know.",
     "words": [
       {
         "id": "an-naba-5-1",
@@ -160,7 +164,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que non, ils sauront bientôt."
   },
   {
     "id": "an-naba-6",
@@ -169,7 +174,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَـٰدًا",
     "textSimple": "ألم نجعل ٱلأرض مهـدا",
     "transliteration": "alam najʿali l-arḍa mihādan",
-    "translation": "",
+    "translation": "Have We not made the earth a resting place?",
     "words": [
       {
         "id": "an-naba-6-1",
@@ -200,7 +205,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’avons-Nous pas étendu la terre telle une couche ?"
   },
   {
     "id": "an-naba-7",
@@ -209,7 +215,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْجِبَالَ أَوْتَادًا",
     "textSimple": "وٱلجبال أوتادا",
     "transliteration": "wal-jibāla awtādan",
-    "translation": "",
+    "translation": "And the mountains as stakes?",
     "words": [
       {
         "id": "an-naba-7-1",
@@ -226,7 +232,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et fait des montagnes des piquets ?"
   },
   {
     "id": "an-naba-8",
@@ -235,7 +242,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَخَلَقْنَـٰكُمْ أَزْوَٰجًا",
     "textSimple": "وخلقنـكم أزوجا",
     "transliteration": "wakhalaqnākum azwājan",
-    "translation": "",
+    "translation": "And We created you in pairs.",
     "words": [
       {
         "id": "an-naba-8-1",
@@ -252,7 +259,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons créés en couples,"
   },
   {
     "id": "an-naba-9",
@@ -261,7 +269,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
     "textSimple": "وجعلنا نومكم سباتا",
     "transliteration": "wajaʿalnā nawmakum subātan",
-    "translation": "",
+    "translation": "And made your sleep [a means for] rest",
     "words": [
       {
         "id": "an-naba-9-1",
@@ -285,7 +293,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et avons fait que votre sommeil soit un repos."
   },
   {
     "id": "an-naba-10",
@@ -294,7 +303,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًا",
     "textSimple": "وجعلنا ٱليل لباسا",
     "transliteration": "wajaʿalnā al-layla libāsan",
-    "translation": "",
+    "translation": "And made the night as clothing.",
     "words": [
       {
         "id": "an-naba-10-1",
@@ -318,7 +327,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait de la nuit un habit,"
   },
   {
     "id": "an-naba-11",
@@ -327,7 +337,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًا",
     "textSimple": "وجعلنا ٱلنهار معاشا",
     "transliteration": "wajaʿalnā l-nahāra maʿāshan",
-    "translation": "",
+    "translation": "And made the day for livelihood.",
     "words": [
       {
         "id": "an-naba-11-1",
@@ -351,7 +361,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et du jour un moment propice aux occupations vitales."
   },
   {
     "id": "an-naba-12",
@@ -360,7 +371,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا",
     "textSimple": "وبنينا فوقكم سبعا شدادا",
     "transliteration": "wabanaynā fawqakum sabʿan shidādan",
-    "translation": "",
+    "translation": "And constructed above you seven strong [heavens].",
     "words": [
       {
         "id": "an-naba-12-1",
@@ -391,7 +402,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons bâti au-dessus de vous sept (cieux) impressionnants,"
   },
   {
     "id": "an-naba-13",
@@ -400,7 +412,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا سِرَاجًا وَهَّاجًا",
     "textSimple": "وجعلنا سراجا وهاجا",
     "transliteration": "wajaʿalnā sirājan wahhājan",
-    "translation": "",
+    "translation": "And made [therein] a burning lamp",
     "words": [
       {
         "id": "an-naba-13-1",
@@ -424,7 +436,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et y avons mis un flambeau à l’ardente lumière."
   },
   {
     "id": "an-naba-14",
@@ -433,7 +446,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءً ثَجَّاجًا",
     "textSimple": "وأنزلنا من ٱلمعصرت مآء ثجاجا",
     "transliteration": "wa-anzalnā mina l-muʿ'ṣirāti māan thajjājan",
-    "translation": "",
+    "translation": "And sent down, from the rain clouds, pouring water.",
     "words": [
       {
         "id": "an-naba-14-1",
@@ -471,7 +484,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des nuages (gorgés de pluie), Nous avons fait descendre une eau en abondance,"
   },
   {
     "id": "an-naba-15",
@@ -480,7 +494,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "لِّنُخْرِجَ بِهِۦ حَبًّا وَنَبَاتًا",
     "textSimple": "لنخرج به حبا ونباتا",
     "transliteration": "linukh'rija bihi ḥabban wanabātan",
-    "translation": "",
+    "translation": "That We may bring forth thereby grain and vegetation.",
     "words": [
       {
         "id": "an-naba-15-1",
@@ -511,7 +525,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "par laquelle Nous faisons pousser des graines, des plantes,"
   },
   {
     "id": "an-naba-16",
@@ -520,7 +535,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَنَّـٰتٍ أَلْفَافًا",
     "textSimple": "وجنـت ألفافا",
     "transliteration": "wajannātin alfāfan",
-    "translation": "",
+    "translation": "And gardens of entwined growth.",
     "words": [
       {
         "id": "an-naba-16-1",
@@ -537,7 +552,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et des jardins très denses."
   },
   {
     "id": "an-naba-17",
@@ -546,7 +562,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَـٰتًا",
     "textSimple": "إن يوم ٱلفصل كان ميقـتا",
     "transliteration": "inna yawma l-faṣli kāna mīqātan",
-    "translation": "",
+    "translation": "Indeed, the Day of Judgement is an appointed time -",
     "words": [
       {
         "id": "an-naba-17-1",
@@ -584,7 +600,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Jour de la Décision est une échéance déjà fixée."
   },
   {
     "id": "an-naba-18",
@@ -593,7 +610,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
     "textSimple": "يوم ينفخ فى ٱلصور فتأتون أفواجا",
     "transliteration": "yawma yunfakhu fī l-ṣūri fatatūna afwājan",
-    "translation": "",
+    "translation": "The Day the Horn is blown and you will come forth in multitudes",
     "words": [
       {
         "id": "an-naba-18-1",
@@ -638,7 +655,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(C’est) le jour où il sera soufflé dans le Cor et où vous viendrez en foules."
   },
   {
     "id": "an-naba-19",
@@ -647,7 +665,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا",
     "textSimple": "وفتحت ٱلسمآء فكانت أبوبا",
     "transliteration": "wafutiḥati l-samāu fakānat abwāban",
-    "translation": "",
+    "translation": "And the heaven is opened and will become gateways.",
     "words": [
       {
         "id": "an-naba-19-1",
@@ -678,7 +696,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le ciel sera alors ouvert, béant de toutes ses portes."
   },
   {
     "id": "an-naba-20",
@@ -687,7 +706,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
     "textSimple": "وسيرت ٱلجبال فكانت سرابا",
     "transliteration": "wasuyyirati l-jibālu fakānat sarāban",
-    "translation": "",
+    "translation": "And the mountains are removed and will be [but] a mirage.",
     "words": [
       {
         "id": "an-naba-20-1",
@@ -718,7 +737,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les montagnes seront mises en mouvement et ne seront plus que mirages."
   },
   {
     "id": "an-naba-21",
@@ -727,7 +747,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا",
     "textSimple": "إن جهنم كانت مرصادا",
     "transliteration": "inna jahannama kānat mir'ṣādan",
-    "translation": "",
+    "translation": "Indeed, Hell has been lying in wait",
     "words": [
       {
         "id": "an-naba-21-1",
@@ -758,7 +778,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La Géhenne guettera,"
   },
   {
     "id": "an-naba-22",
@@ -767,7 +788,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "لِّلطَّـٰغِينَ مَـَٔابًا",
     "textSimple": "للطـغين مـٔابا",
     "transliteration": "lilṭṭāghīna maāban",
-    "translation": "",
+    "translation": "For the transgressors, a place of return,",
     "words": [
       {
         "id": "an-naba-22-1",
@@ -784,7 +805,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(ultime) refuge pour les rebelles,"
   },
   {
     "id": "an-naba-23",
@@ -793,7 +815,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "لَّـٰبِثِينَ فِيهَآ أَحْقَابًا",
     "textSimple": "لـبثين فيهآ أحقابا",
     "transliteration": "lābithīna fīhā aḥqāban",
-    "translation": "",
+    "translation": "In which they will remain for ages [unending].",
     "words": [
       {
         "id": "an-naba-23-1",
@@ -817,7 +839,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui y demeureront des ères infinies."
   },
   {
     "id": "an-naba-24",
@@ -826,7 +849,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا",
     "textSimple": "لا يذوقون فيها بردا ولا شرابا",
     "transliteration": "lā yadhūqūna fīhā bardan walā sharāban",
-    "translation": "",
+    "translation": "They will not taste therein [any] coolness or drink.",
     "words": [
       {
         "id": "an-naba-24-1",
@@ -871,7 +894,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’y goûteront ni fraîcheur ni boisson,"
   },
   {
     "id": "an-naba-25",
@@ -880,7 +904,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا حَمِيمًا وَغَسَّاقًا",
     "textSimple": "إلا حميما وغساقا",
     "transliteration": "illā ḥamīman waghassāqan",
-    "translation": "",
+    "translation": "Except scalding water and [foul] purulence -",
     "words": [
       {
         "id": "an-naba-25-1",
@@ -904,7 +928,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "autre qu’eau bouillante et purulence,"
   },
   {
     "id": "an-naba-26",
@@ -913,7 +938,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "جَزَآءً وِفَاقًا",
     "textSimple": "جزآء وفاقا",
     "transliteration": "jazāan wifāqan",
-    "translation": "",
+    "translation": "An appropriate recompense.",
     "words": [
       {
         "id": "an-naba-26-1",
@@ -930,7 +955,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en juste rétribution (pour ce qu’ils auront fait)."
   },
   {
     "id": "an-naba-27",
@@ -939,7 +965,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًا",
     "textSimple": "إنهم كانوا لا يرجون حسابا",
     "transliteration": "innahum kānū lā yarjūna ḥisāban",
-    "translation": "",
+    "translation": "Indeed, they were not expecting an account",
     "words": [
       {
         "id": "an-naba-27-1",
@@ -977,7 +1003,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne prévoyaient nullement qu’ils auraient des comptes à rendre,"
   },
   {
     "id": "an-naba-28",
@@ -986,7 +1013,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا كِذَّابًا",
     "textSimple": "وكذبوا بـٔايـتنا كذابا",
     "transliteration": "wakadhabū biāyātinā kidhāban",
-    "translation": "",
+    "translation": "And denied Our verses with [emphatic] denial.",
     "words": [
       {
         "id": "an-naba-28-1",
@@ -1010,7 +1037,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ils traitaient obstinément Nos versets de mensonges."
   },
   {
     "id": "an-naba-29",
@@ -1019,7 +1047,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ كِتَـٰبًا",
     "textSimple": "وكل شىء أحصينـه كتـبا",
     "transliteration": "wakulla shayin aḥṣaynāhu kitāban",
-    "translation": "",
+    "translation": "But all things We have enumerated in writing.",
     "words": [
       {
         "id": "an-naba-29-1",
@@ -1050,7 +1078,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons pourtant tout recensé en un Livre."
   },
   {
     "id": "an-naba-30",
@@ -1059,7 +1088,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
     "textSimple": "فذوقوا فلن نزيدكم إلا عذابا",
     "transliteration": "fadhūqū falan nazīdakum illā ʿadhāban",
-    "translation": "",
+    "translation": "\"So taste [the penalty], and never will We increase you except in torment.\"",
     "words": [
       {
         "id": "an-naba-30-1",
@@ -1097,7 +1126,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Goûtez donc, Nous ne ferons qu’ajouter à votre supplice !"
   },
   {
     "id": "an-naba-31",
@@ -1106,7 +1136,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
     "textSimple": "إن للمتقين مفازا",
     "transliteration": "inna lil'muttaqīna mafāzan",
-    "translation": "",
+    "translation": "Indeed, for the righteous is attainment -",
     "words": [
       {
         "id": "an-naba-31-1",
@@ -1130,7 +1160,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont pieux atteindront certes au succès suprême."
   },
   {
     "id": "an-naba-32",
@@ -1139,7 +1170,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "حَدَآئِقَ وَأَعْنَـٰبًا",
     "textSimple": "حدآئق وأعنـبا",
     "transliteration": "ḥadāiqa wa-aʿnāban",
-    "translation": "",
+    "translation": "Gardens and grapevines.",
     "words": [
       {
         "id": "an-naba-32-1",
@@ -1156,7 +1187,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il y aura pour eux) des jardins et des vignes,"
   },
   {
     "id": "an-naba-33",
@@ -1165,7 +1197,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَوَاعِبَ أَتْرَابًا",
     "textSimple": "وكواعب أترابا",
     "transliteration": "wakawāʿiba atrāban",
-    "translation": "",
+    "translation": "And full-breasted [companions] of equal age.",
     "words": [
       {
         "id": "an-naba-33-1",
@@ -1182,7 +1214,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des femmes jeunes aux seins fermes et toutes du même âge,"
   },
   {
     "id": "an-naba-34",
@@ -1191,7 +1224,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَأْسًا دِهَاقًا",
     "textSimple": "وكأسا دهاقا",
     "transliteration": "wakasan dihāqan",
-    "translation": "",
+    "translation": "And a full cup.",
     "words": [
       {
         "id": "an-naba-34-1",
@@ -1208,7 +1241,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des coupes pleines (de boissons) débordantes."
   },
   {
     "id": "an-naba-35",
@@ -1217,7 +1251,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّٰبًا",
     "textSimple": "لا يسمعون فيها لغوا ولا كذبا",
     "transliteration": "lā yasmaʿūna fīhā laghwan walā kidhāban",
-    "translation": "",
+    "translation": "No ill speech will they hear therein or any falsehood -",
     "words": [
       {
         "id": "an-naba-35-1",
@@ -1262,7 +1296,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils n’y entendront ni vains propos ni mensonges."
   },
   {
     "id": "an-naba-36",
@@ -1271,7 +1306,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا",
     "textSimple": "جزآء من ربك عطآء حسابا",
     "transliteration": "jazāan min rabbika ʿaṭāan ḥisāban",
-    "translation": "",
+    "translation": "[As] reward from your Lord, [a generous] gift [made due by] account,",
     "words": [
       {
         "id": "an-naba-36-1",
@@ -1309,7 +1344,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la récompense de ton Seigneur : don prodigue et généreux !"
   },
   {
     "id": "an-naba-37",
@@ -1318,7 +1354,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "رَّبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَـٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
     "textSimple": "رب ٱلسمـوت وٱلأرض وما بينهما ٱلرحمـن  لا يملكون منه خطابا",
     "transliteration": "rabbi l-samāwāti wal-arḍi wamā baynahumā l-raḥmāni lā yamlikūna min'hu khiṭāban",
-    "translation": "",
+    "translation": "[From] the Lord of the heavens and the earth and whatever is between them, the Most Merciful. They possess not from Him [authority for] speech.",
     "words": [
       {
         "id": "an-naba-37-1",
@@ -1391,7 +1427,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur des cieux, de la terre et de ce qui est entre eux, le Tout Clément à Qui ils ne pourront adresser aucune parole."
   },
   {
     "id": "an-naba-38",
@@ -1400,7 +1437,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَـٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَقَالَ صَوَابًا",
     "textSimple": "يوم يقوم ٱلروح وٱلملـٓئكة صفا  لا يتكلمون إلا من أذن له ٱلرحمـن وقال صوابا",
     "transliteration": "yawma yaqūmu l-rūḥu wal-malāikatu ṣaffan lā yatakallamūna illā man adhina lahu l-raḥmānu waqāla ṣawāban",
-    "translation": "",
+    "translation": "The Day that the Spirit [i.e., Gabriel] and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct.",
     "words": [
       {
         "id": "an-naba-38-1",
@@ -1501,7 +1538,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ce sera) le jour où l’Esprit et les Anges se tiendront en rangées, ne disant mot, sauf ceux à qui le Tout Clément permettra (de parler) et dont la parole sera vérité."
   },
   {
     "id": "an-naba-39",
@@ -1510,7 +1548,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
     "textSimple": "ذلك ٱليوم ٱلحق  فمن شآء ٱتخذ إلى ربه مـٔابا",
     "transliteration": "dhālika l-yawmu l-ḥaqu faman shāa ittakhadha ilā rabbihi maāban",
-    "translation": "",
+    "translation": "That is the True [i.e., certain] Day; so he who wills may take to his Lord a [way of] return.",
     "words": [
       {
         "id": "an-naba-39-1",
@@ -1576,7 +1614,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel sera le Vrai jour ! Prenne donc refuge auprès de son Seigneur celui qui le voudra."
   },
   {
     "id": "an-naba-40",
@@ -1585,7 +1624,7 @@ export const AN_NABA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَنذَرْنَـٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَـٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
     "textSimple": "إنآ أنذرنـكم عذابا قريبا يوم ينظر ٱلمرء ما قدمت يداه ويقول ٱلكافر يـليتنى كنت تربا",
     "transliteration": "innā andharnākum ʿadhāban qarīban yawma yanẓuru l-maru mā qaddamat yadāhu wayaqūlu l-kāfiru yālaytanī kuntu turāban",
-    "translation": "",
+    "translation": "Indeed, We have warned you of an impending punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, \"Oh, I wish that I were dust!\"",
     "words": [
       {
         "id": "an-naba-40-1",
@@ -1693,7 +1732,8 @@ export const AN_NABA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons mis en garde contre un supplice tout proche. Ce jour-là l’homme verra ce qu’il aura fait de ses propres mains, et le mécréant dira : « Ah ! si seulement j’étais poussière ! »"
   }
 ];
 

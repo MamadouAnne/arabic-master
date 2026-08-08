@@ -11,7 +11,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": " هَلْ أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًٔا مَّذْكُورًا",
     "textSimple": " هل أتى على ٱلإنسـن حين من ٱلدهر لم يكن شيـٔا مذكورا",
     "transliteration": "hal atā ʿalā l-insāni ḥīnun mina l-dahri lam yakun shayan madhkūran",
-    "translation": "",
+    "translation": "Has there [not] come upon man a period of time when he was not a thing [even] mentioned?",
     "words": [
       {
         "id": "al-insan-1-1",
@@ -91,7 +91,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne s’est-il pas écoulé un temps très long durant lequel l’homme ne méritait même pas d’être cité ?"
   },
   {
     "id": "al-insan-2",
@@ -100,7 +101,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا خَلَقْنَا ٱلْإِنسَـٰنَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَـٰهُ سَمِيعًۢا بَصِيرًا",
     "textSimple": "إنا خلقنا ٱلإنسـن من نطفة أمشاج نبتليه فجعلنـه سميعا بصيرا",
     "transliteration": "innā khalaqnā l-insāna min nuṭ'fatin amshājin nabtalīhi fajaʿalnāhu samīʿan baṣīran",
-    "translation": "",
+    "translation": "Indeed, We created man from a sperm-drop mixture that We may try him; and We made him hearing and seeing.",
     "words": [
       {
         "id": "al-insan-2-1",
@@ -173,7 +174,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé l’homme d’une goutte de sperme combinée à d’autres éléments, pour l’éprouver, et Nous l’avons fait qui entend et qui voit."
   },
   {
     "id": "al-insan-3",
@@ -182,7 +184,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا هَدَيْنَـٰهُ ٱلسَّبِيلَ إِمَّا شَاكِرًا وَإِمَّا كَفُورًا",
     "textSimple": "إنا هدينـه ٱلسبيل إما شاكرا وإما كفورا",
     "transliteration": "innā hadaynāhu l-sabīla immā shākiran wa-immā kafūran",
-    "translation": "",
+    "translation": "Indeed, We guided him to the way, be he grateful or be he ungrateful.",
     "words": [
       {
         "id": "al-insan-3-1",
@@ -234,7 +236,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui avons indiqué le droit chemin, qu’il fût reconnaissant ou ingrat."
   },
   {
     "id": "al-insan-4",
@@ -243,7 +246,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ أَعْتَدْنَا لِلْكَـٰفِرِينَ سَلَـٰسِلَا۟ وَأَغْلَـٰلًا وَسَعِيرًا",
     "textSimple": "إنآ أعتدنا للكـفرين سلـسلا وأغلـلا وسعيرا",
     "transliteration": "innā aʿtadnā lil'kāfirīna salāsilā wa-aghlālan wasaʿīran",
-    "translation": "",
+    "translation": "Indeed, We have prepared for the disbelievers chains and shackles and a blaze.",
     "words": [
       {
         "id": "al-insan-4-1",
@@ -288,7 +291,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons préparé pour les mécréants des chaînes, des carcans et un Brasier ardent."
   },
   {
     "id": "al-insan-5",
@@ -297,7 +301,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْأَبْرَارَ يَشْرَبُونَ مِن كَأْسٍ كَانَ مِزَاجُهَا كَافُورًا",
     "textSimple": "إن ٱلأبرار يشربون من كأس كان مزاجها كافورا",
     "transliteration": "inna l-abrāra yashrabūna min kasin kāna mizājuhā kāfūran",
-    "translation": "",
+    "translation": "Indeed, the righteous will drink from a cup [of wine] whose mixture is of Kāfūr,",
     "words": [
       {
         "id": "al-insan-5-1",
@@ -356,7 +360,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les vertueux boiront dans une coupe dont la mixture sera d’un camphre"
   },
   {
     "id": "al-insan-6",
@@ -365,7 +370,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "عَيْنًا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًا",
     "textSimple": "عينا يشرب بها عباد ٱلله يفجرونها تفجيرا",
     "transliteration": "ʿaynan yashrabu bihā ʿibādu l-lahi yufajjirūnahā tafjīran",
-    "translation": "",
+    "translation": "A spring of which the [righteous] servants of Allāh will drink; they will make it gush forth in force [and abundance].",
     "words": [
       {
         "id": "al-insan-6-1",
@@ -417,7 +422,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puisé à une source dont boiront les serviteurs d’Allah et qu’ils feront jaillir comme ils le voudront."
   },
   {
     "id": "al-insan-7",
@@ -426,7 +432,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "يُوفُونَ بِٱلنَّذْرِ وَيَخَافُونَ يَوْمًا كَانَ شَرُّهُۥ مُسْتَطِيرًا",
     "textSimple": "يوفون بٱلنذر ويخافون يوما كان شره مستطيرا",
     "transliteration": "yūfūna bil-nadhri wayakhāfūna yawman kāna sharruhu mus'taṭīran",
-    "translation": "",
+    "translation": "They [are those who] fulfill [their] vows and fear a Day whose evil will be widespread.",
     "words": [
       {
         "id": "al-insan-7-1",
@@ -478,7 +484,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Durant leur vie en ce bas monde), ils respectaient leurs vœux et redoutaient un jour au mal envahissant."
   },
   {
     "id": "al-insan-8",
@@ -487,7 +494,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا",
     "textSimple": "ويطعمون ٱلطعام على حبه مسكينا ويتيما وأسيرا",
     "transliteration": "wayuṭ'ʿimūna l-ṭaʿāma ʿalā ḥubbihi mis'kīnan wayatīman wa-asīran",
-    "translation": "",
+    "translation": "And they give food in spite of love for it to the needy, the orphan, and the captive,",
     "words": [
       {
         "id": "al-insan-8-1",
@@ -539,7 +546,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils donnaient la nourriture, qui leur était pourtant chère, au pauvre, à l’orphelin et au prisonnier."
   },
   {
     "id": "al-insan-9",
@@ -548,7 +556,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءً وَلَا شُكُورًا",
     "textSimple": "إنما نطعمكم لوجه ٱلله لا نريد منكم جزآء ولا شكورا",
     "transliteration": "innamā nuṭ'ʿimukum liwajhi l-lahi lā nurīdu minkum jazāan walā shukūran",
-    "translation": "",
+    "translation": "[Saying], \"We feed you only for the face [i.e., approval] of Allāh. We wish not from you reward or gratitude.",
     "words": [
       {
         "id": "al-insan-9-1",
@@ -621,7 +629,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(et ils disaient) : « Nous ne vous donnons à manger que pour obtenir l’agrément d’Allah. Nous ne voulons de vous ni récompense ni reconnaissance."
   },
   {
     "id": "al-insan-10",
@@ -630,7 +639,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًا قَمْطَرِيرًا",
     "textSimple": "إنا نخاف من ربنا يوما عبوسا قمطريرا",
     "transliteration": "innā nakhāfu min rabbinā yawman ʿabūsan qamṭarīran",
-    "translation": "",
+    "translation": "Indeed, We fear from our Lord a Day austere and distressful.\"",
     "words": [
       {
         "id": "al-insan-10-1",
@@ -682,7 +691,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous redoutons seulement, de la part de notre Seigneur, la venue d’un jour sombre et terrible."
   },
   {
     "id": "al-insan-11",
@@ -691,7 +701,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً وَسُرُورًا",
     "textSimple": "فوقىهم ٱلله شر ذلك ٱليوم ولقىهم نضرة وسرورا",
     "transliteration": "fawaqāhumu l-lahu sharra dhālika l-yawmi walaqqāhum naḍratan wasurūran",
-    "translation": "",
+    "translation": "So Allāh will protect them from the evil of that Day and give them radiance and happiness",
     "words": [
       {
         "id": "al-insan-11-1",
@@ -750,7 +760,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah les préservera donc des calamités de ce jour, et leur destinera l’épanouissement et la joie."
   },
   {
     "id": "al-insan-12",
@@ -759,7 +770,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةً وَحَرِيرًا",
     "textSimple": "وجزىهم بما صبروا جنة وحريرا",
     "transliteration": "wajazāhum bimā ṣabarū jannatan waḥarīran",
-    "translation": "",
+    "translation": "And will reward them for what they patiently endured [with] a garden [in Paradise] and silk [garments].",
     "words": [
       {
         "id": "al-insan-12-1",
@@ -797,7 +808,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour leur patience, Il leur accordera en récompense le jardin du Paradis et (des vêtements) en soie."
   },
   {
     "id": "al-insan-13",
@@ -806,7 +818,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۖ لَا يَرَوْنَ فِيهَا شَمْسًا وَلَا زَمْهَرِيرًا",
     "textSimple": "متكـٔين فيها على ٱلأرآئك  لا يرون فيها شمسا ولا زمهريرا",
     "transliteration": "muttakiīna fīhā ʿalā l-arāiki lā yarawna fīhā shamsan walā zamharīran",
-    "translation": "",
+    "translation": "[They will be] reclining therein on adorned couches. They will not see therein any [burning] sun or [freezing] cold.",
     "words": [
       {
         "id": "al-insan-13-1",
@@ -879,7 +891,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accoudés sur des couches, ils n’y sentiront ni la chaleur du soleil ni la rigueur du froid."
   },
   {
     "id": "al-insan-14",
@@ -888,7 +901,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَدَانِيَةً عَلَيْهِمْ ظِلَـٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
     "textSimple": "ودانية عليهم ظلـلها وذللت قطوفها تذليلا",
     "transliteration": "wadāniyatan ʿalayhim ẓilāluhā wadhullilat quṭūfuhā tadhlīlan",
-    "translation": "",
+    "translation": "And near above them are its shades, and its [fruit] to be picked will be lowered in compliance.",
     "words": [
       {
         "id": "al-insan-14-1",
@@ -933,7 +946,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les ombres (du Paradis) s’étendront sur eux toutes proches, et ses fruits seront à portée de leurs mains."
   },
   {
     "id": "al-insan-15",
@@ -942,7 +956,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيُطَافُ عَلَيْهِم بِـَٔانِيَةٍ مِّن فِضَّةٍ وَأَكْوَابٍ كَانَتْ قَوَارِيرَا۠",
     "textSimple": "ويطاف عليهم بـٔانية من فضة وأكواب كانت قواريرا",
     "transliteration": "wayuṭāfu ʿalayhim biāniyatin min fiḍḍatin wa-akwābin kānat qawārīrā",
-    "translation": "",
+    "translation": "And there will be circulated among them vessels of silver and cups having been [created] clear [as glass],",
     "words": [
       {
         "id": "al-insan-15-1",
@@ -1001,7 +1015,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi eux circuleront des plats d’argent et des coupes en cristal,"
   },
   {
     "id": "al-insan-16",
@@ -1010,7 +1025,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "قَوَارِيرَا۟ مِن فِضَّةٍ قَدَّرُوهَا تَقْدِيرًا",
     "textSimple": "قواريرا من فضة قدروها تقديرا",
     "transliteration": "qawārīrā min fiḍḍatin qaddarūhā taqdīran",
-    "translation": "",
+    "translation": "Clear glasses [made] from silver of which they have determined the measure.",
     "words": [
       {
         "id": "al-insan-16-1",
@@ -1048,7 +1063,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(des coupes) en argent translucide et à la capacité bien déterminée."
   },
   {
     "id": "al-insan-17",
@@ -1057,7 +1073,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيُسْقَوْنَ فِيهَا كَأْسًا كَانَ مِزَاجُهَا زَنجَبِيلًا",
     "textSimple": "ويسقون فيها كأسا كان مزاجها زنجبيلا",
     "transliteration": "wayus'qawna fīhā kasan kāna mizājuhā zanjabīlan",
-    "translation": "",
+    "translation": "And they will be given to drink a cup [of wine] whose mixture is of ginger",
     "words": [
       {
         "id": "al-insan-17-1",
@@ -1102,7 +1118,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront abreuvés d’une coupe dont (la boisson) sera de gingembre mêlée,"
   },
   {
     "id": "al-insan-18",
@@ -1111,7 +1128,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "عَيْنًا فِيهَا تُسَمَّىٰ سَلْسَبِيلًا",
     "textSimple": "عينا فيها تسمى سلسبيلا",
     "transliteration": "ʿaynan fīhā tusammā salsabīlan",
-    "translation": "",
+    "translation": "[From] a fountain within it [i.e., Paradise] named Salsabeel.",
     "words": [
       {
         "id": "al-insan-18-1",
@@ -1142,7 +1159,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puisée à une source du nom de Salsabîl."
   },
   {
     "id": "al-insan-19",
@@ -1151,7 +1169,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًا مَّنثُورًا",
     "textSimple": " ويطوف عليهم ولدن مخلدون إذا رأيتهم حسبتهم لؤلؤا منثورا",
     "transliteration": "wayaṭūfu ʿalayhim wil'dānun mukhalladūna idhā ra-aytahum ḥasib'tahum lu'lu-an manthūran",
-    "translation": "",
+    "translation": "There will circulate among them young boys made eternal. When you see them, you would think them [as beautiful as] scattered pearls.",
     "words": [
       {
         "id": "al-insan-19-1",
@@ -1217,7 +1235,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi eux, circuleront des serviteurs à la jeunesse éternelle. Quand tu les verras, tu les prendras pour des perles éparpillées."
   },
   {
     "id": "al-insan-20",
@@ -1226,7 +1245,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَأَيْتَ ثَمَّ رَأَيْتَ نَعِيمًا وَمُلْكًا كَبِيرًا",
     "textSimple": "وإذا رأيت ثم رأيت نعيما وملكا كبيرا",
     "transliteration": "wa-idhā ra-ayta thamma ra-ayta naʿīman wamul'kan kabīran",
-    "translation": "",
+    "translation": "And when you look there [in Paradise], you will see pleasure and great dominion.",
     "words": [
       {
         "id": "al-insan-20-1",
@@ -1278,7 +1297,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Y tourneras-tu ton regard, tu y verras des délices et un immense royaume."
   },
   {
     "id": "al-insan-21",
@@ -1287,7 +1307,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "عَـٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًا طَهُورًا",
     "textSimple": "عـليهم ثياب سندس خضر وإستبرق  وحلوٓا أساور من فضة وسقىهم ربهم شرابا طهورا",
     "transliteration": "ʿāliyahum thiyābu sundusin khuḍ'run wa-is'tabraqun waḥullū asāwira min fiḍḍatin wasaqāhum rabbuhum sharāban ṭahūran",
-    "translation": "",
+    "translation": "Upon them [i.e., the inhabitants] will be green garments of fine silk and brocade. And they will be adorned with bracelets of silver, and their Lord will give them a purifying drink.",
     "words": [
       {
         "id": "al-insan-21-1",
@@ -1381,7 +1401,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront de vert vêtus, de satin et de brocart, et parés de bracelets d’argent. Leur Seigneur leur donnera à boire un breuvage très pur."
   },
   {
     "id": "al-insan-22",
@@ -1390,7 +1411,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ سَعْيُكُم مَّشْكُورًا",
     "textSimple": "إن هـذا كان لكم جزآء وكان سعيكم مشكورا",
     "transliteration": "inna hādhā kāna lakum jazāan wakāna saʿyukum mashkūran",
-    "translation": "",
+    "translation": "[And it will be said], \"Indeed, this is for you a reward, and your effort has been appreciated.\"",
     "words": [
       {
         "id": "al-insan-22-1",
@@ -1449,7 +1470,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle sera votre récompense, et tels seront reconnus vos efforts."
   },
   {
     "id": "al-insan-23",
@@ -1458,7 +1480,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْءَانَ تَنزِيلًا",
     "textSimple": "إنا نحن نزلنا عليك ٱلقرءان تنزيلا",
     "transliteration": "innā naḥnu nazzalnā ʿalayka l-qur'āna tanzīlan",
-    "translation": "",
+    "translation": "Indeed, it is We who have sent down to you, [O Muḥammad], the Qur’ān progressively.",
     "words": [
       {
         "id": "al-insan-23-1",
@@ -1503,7 +1525,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui avons graduellement fait descendre vers toi le Coran."
   },
   {
     "id": "al-insan-24",
@@ -1512,7 +1535,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًا",
     "textSimple": "فٱصبر لحكم ربك ولا تطع منهم ءاثما أو كفورا",
     "transliteration": "fa-iṣ'bir liḥuk'mi rabbika walā tuṭiʿ min'hum āthiman aw kafūran",
-    "translation": "",
+    "translation": "So be patient for the decision of your Lord and do not obey from among them a sinner or ungrateful [disbeliever].",
     "words": [
       {
         "id": "al-insan-24-1",
@@ -1578,7 +1601,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends donc en patience le Jugement de ton Seigneur ! N’obéis pas au pécheur d’entre eux ni à aucun mécréant obstiné."
   },
   {
     "id": "al-insan-25",
@@ -1587,7 +1611,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا",
     "textSimple": "وٱذكر ٱسم ربك بكرة وأصيلا",
     "transliteration": "wa-udh'kuri is'ma rabbika buk'ratan wa-aṣīlan",
-    "translation": "",
+    "translation": "And mention the name of your Lord [in prayer] morning and evening",
     "words": [
       {
         "id": "al-insan-25-1",
@@ -1625,7 +1649,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoque le Nom de ton Seigneur au lever et au déclin du jour."
   },
   {
     "id": "al-insan-26",
@@ -1634,7 +1659,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًا طَوِيلًا",
     "textSimple": "ومن ٱليل فٱسجد له وسبحه ليلا طويلا",
     "transliteration": "wamina al-layli fa-us'jud lahu wasabbiḥ'hu laylan ṭawīlan",
-    "translation": "",
+    "translation": "And during the night prostrate to Him and exalt [i.e., praise] Him a long [part of the] night.",
     "words": [
       {
         "id": "al-insan-26-1",
@@ -1686,7 +1711,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pendant une partie de la nuit, prosterne-toi devant Lui, et rends-Lui alors longuement gloire."
   },
   {
     "id": "al-insan-27",
@@ -1695,7 +1721,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا ثَقِيلًا",
     "textSimple": "إن هـٓؤلآء يحبون ٱلعاجلة ويذرون ورآءهم يوما ثقيلا",
     "transliteration": "inna hāulāi yuḥibbūna l-ʿājilata wayadharūna warāahum yawman thaqīlan",
-    "translation": "",
+    "translation": "Indeed, these [disbelievers] love the immediate and leave behind them a grave Day.",
     "words": [
       {
         "id": "al-insan-27-1",
@@ -1754,7 +1780,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là aiment cette vie fugace et jettent derrière eux un jour lourd (de conséquences)."
   },
   {
     "id": "al-insan-28",
@@ -1763,7 +1790,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "نَّحْنُ خَلَقْنَـٰهُمْ وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَـٰلَهُمْ تَبْدِيلًا",
     "textSimple": "نحن خلقنـهم وشددنآ أسرهم  وإذا شئنا بدلنآ أمثـلهم تبديلا",
     "transliteration": "naḥnu khalaqnāhum washadadnā asrahum wa-idhā shi'nā baddalnā amthālahum tabdīlan",
-    "translation": "",
+    "translation": "We have created them and strengthened their forms, and when We will, We can change their likenesses with [complete] alteration.",
     "words": [
       {
         "id": "al-insan-28-1",
@@ -1829,7 +1856,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui les avons créés et Qui les avons soutenus, et si Nous voulions, Nous les remplacerions par d’autres (êtres) similaires."
   },
   {
     "id": "al-insan-29",
@@ -1838,7 +1866,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذِهِۦ تَذْكِرَةٌ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِيلًا",
     "textSimple": "إن هـذه تذكرة  فمن شآء ٱتخذ إلى ربه سبيلا",
     "transliteration": "inna hādhihi tadhkiratun faman shāa ittakhadha ilā rabbihi sabīlan",
-    "translation": "",
+    "translation": "Indeed, this is a reminder, so he who wills may take to his Lord a way.",
     "words": [
       {
         "id": "al-insan-29-1",
@@ -1904,7 +1932,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà qui est un rappel ! Suive donc qui voudra la voie de son Seigneur !"
   },
   {
     "id": "al-insan-30",
@@ -1913,7 +1942,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
     "textSimple": "وما تشآءون إلآ أن يشآء ٱلله  إن ٱلله كان عليما حكيما",
     "transliteration": "wamā tashāūna illā an yashāa l-lahu inna l-laha kāna ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "And you do not will except that Allāh wills. Indeed, Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "al-insan-30-1",
@@ -1993,7 +2022,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais vous ne voudrez rien qu’Allah n’ait voulu, car Allah est Omniscient et Sage."
   },
   {
     "id": "al-insan-31",
@@ -2002,7 +2032,7 @@ export const AL_INSAN_AYAHS: Ayah[] = [
     "textUthmani": "يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّـٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا",
     "textSimple": "يدخل من يشآء فى رحمته  وٱلظـلمين أعد لهم عذابا أليما",
     "transliteration": "yud'khilu man yashāu fī raḥmatihi wal-ẓālimīna aʿadda lahum ʿadhāban alīman",
-    "translation": "",
+    "translation": "He admits whom He wills into His mercy; but the wrongdoers - He has prepared for them a painful punishment.",
     "words": [
       {
         "id": "al-insan-31-1",
@@ -2075,7 +2105,8 @@ export const AL_INSAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il reçoit en Sa miséricorde qui Il veut, et aux injustes, Il prévoit un supplice très douloureux."
   }
 ];
 

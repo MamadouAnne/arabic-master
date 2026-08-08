@@ -11,7 +11,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": " الٓر ۚ تِلْكَ ءَايَـٰتُ ٱلْكِتَـٰبِ وَقُرْءَانٍ مُّبِينٍ",
     "textSimple": " الٓر  تلك ءايـت ٱلكتـب وقرءان مبين",
     "transliteration": "alif-lam-ra til'ka āyātu l-kitābi waqur'ānin mubīnin",
-    "translation": "",
+    "translation": "Alif, Lām, Rā. These are the verses of the Book and a clear Qur’ān [i.e., recitation].",
     "words": [
       {
         "id": "al-hijr-1-1",
@@ -56,7 +56,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alif, Lâm, Rā. Voici les versets du Livre et ceux d’un Coran très clair."
   },
   {
     "id": "al-hijr-2",
@@ -65,7 +66,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "رُّبَمَا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ لَوْ كَانُوا۟ مُسْلِمِينَ",
     "textSimple": "ربما يود ٱلذين كفروا لو كانوا مسلمين",
     "transliteration": "rubamā yawaddu alladhīna kafarū law kānū mus'limīna",
-    "translation": "",
+    "translation": "Perhaps those who disbelieve will wish that they had been Muslims.",
     "words": [
       {
         "id": "al-hijr-2-1",
@@ -117,7 +118,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru voudront peut-être (le Jour du Jugement Dernier) avoir été Musulmans."
   },
   {
     "id": "al-hijr-3",
@@ -126,7 +128,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "ذَرْهُمْ يَأْكُلُوا۟ وَيَتَمَتَّعُوا۟ وَيُلْهِهِمُ ٱلْأَمَلُ ۖ فَسَوْفَ يَعْلَمُونَ",
     "textSimple": "ذرهم يأكلوا ويتمتعوا ويلههم ٱلأمل  فسوف يعلمون",
     "transliteration": "dharhum yakulū wayatamattaʿū wayul'hihimu l-amalu fasawfa yaʿlamūna",
-    "translation": "",
+    "translation": "Let them eat and enjoy themselves and be diverted by [false] hope, for they are going to know.",
     "words": [
       {
         "id": "al-hijr-3-1",
@@ -178,7 +180,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-les manger, profiter des jouissances éphémères et se nourrir d’illusions. Bientôt ils sauront !"
   },
   {
     "id": "al-hijr-4",
@@ -187,7 +190,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَهْلَكْنَا مِن قَرْيَةٍ إِلَّا وَلَهَا كِتَابٌ مَّعْلُومٌ",
     "textSimple": "ومآ أهلكنا من قرية إلا ولها كتاب معلوم",
     "transliteration": "wamā ahlaknā min qaryatin illā walahā kitābun maʿlūmun",
-    "translation": "",
+    "translation": "And We did not destroy any city but that for it was a known decree.",
     "words": [
       {
         "id": "al-hijr-4-1",
@@ -246,7 +249,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons détruit aucune cité sans qu’elle n’ait eu son terme écrit et déjà su."
   },
   {
     "id": "al-hijr-5",
@@ -255,7 +259,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "مَّا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَـْٔخِرُونَ",
     "textSimple": "ما تسبق من أمة أجلها وما يستـٔخرون",
     "transliteration": "mā tasbiqu min ummatin ajalahā wamā yastakhirūna",
-    "translation": "",
+    "translation": "No nation will precede its term, nor will they remain thereafter.",
     "words": [
       {
         "id": "al-hijr-5-1",
@@ -307,7 +311,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucune communauté ne saurait devancer son terme ni le différer."
   },
   {
     "id": "al-hijr-6",
@@ -316,7 +321,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ يَـٰٓأَيُّهَا ٱلَّذِى نُزِّلَ عَلَيْهِ ٱلذِّكْرُ إِنَّكَ لَمَجْنُونٌ",
     "textSimple": "وقالوا يـٓأيها ٱلذى نزل عليه ٱلذكر إنك لمجنون",
     "transliteration": "waqālū yāayyuhā alladhī nuzzila ʿalayhi l-dhik'ru innaka lamajnūnun",
-    "translation": "",
+    "translation": "And they say, \"O you upon whom the message has been sent down, indeed you are mad.",
     "words": [
       {
         "id": "al-hijr-6-1",
@@ -375,7 +380,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Ô toi sur qui le Rappel (le Dhikr) est descendu (en révélation) ! Tu n’es qu’un fou !"
   },
   {
     "id": "al-hijr-7",
@@ -384,7 +390,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَّوْ مَا تَأْتِينَا بِٱلْمَلَـٰٓئِكَةِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
     "textSimple": "لو ما تأتينا بٱلملـٓئكة إن كنت من ٱلصـدقين",
     "transliteration": "law mā tatīnā bil-malāikati in kunta mina l-ṣādiqīna",
-    "translation": "",
+    "translation": "Why do you not bring us the angels, if you should be among the truthful?\"",
     "words": [
       {
         "id": "al-hijr-7-1",
@@ -443,7 +449,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que n’amènes-tu pas avec toi des Anges si tu dis vrai ? »"
   },
   {
     "id": "al-hijr-8",
@@ -452,7 +459,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "مَا نُنَزِّلُ ٱلْمَلَـٰٓئِكَةَ إِلَّا بِٱلْحَقِّ وَمَا كَانُوٓا۟ إِذًا مُّنظَرِينَ",
     "textSimple": "ما ننزل ٱلملـٓئكة إلا بٱلحق وما كانوٓا إذا منظرين",
     "transliteration": "mā nunazzilu l-malāikata illā bil-ḥaqi wamā kānū idhan munẓarīna",
-    "translation": "",
+    "translation": "We do not send down the angels except with truth; and they [i.e., the disbelievers] would not then be reprieved.",
     "words": [
       {
         "id": "al-hijr-8-1",
@@ -518,7 +525,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne faisons descendre les Anges qu’avec la vérité et quand (ils descendront) il ne sera, alors, accordé plus aucun délai aux (mécréants)."
   },
   {
     "id": "al-hijr-9",
@@ -527,7 +535,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ",
     "textSimple": "إنا نحن نزلنا ٱلذكر وإنا له لحـفظون",
     "transliteration": "innā naḥnu nazzalnā l-dhik'ra wa-innā lahu laḥāfiẓūna",
-    "translation": "",
+    "translation": "Indeed, it is We who sent down the message [i.e., the Qur’ān], and indeed, We will be its guardian.",
     "words": [
       {
         "id": "al-hijr-9-1",
@@ -579,7 +587,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous qui avons fait descendre le Rappel (le Dhikr) et c’est Nous qui en assurons la préservation."
   },
   {
     "id": "al-hijr-10",
@@ -588,7 +597,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ فِى شِيَعِ ٱلْأَوَّلِينَ",
     "textSimple": "ولقد أرسلنا من قبلك فى شيع ٱلأولين",
     "transliteration": "walaqad arsalnā min qablika fī shiyaʿi l-awalīna",
-    "translation": "",
+    "translation": "And We had certainly sent [messengers] before you, [O Muḥammad], among the sects of the former peoples.",
     "words": [
       {
         "id": "al-hijr-10-1",
@@ -640,7 +649,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Avant toi, Nous avons déjà envoyé des Messagers parmi les peuples premiers."
   },
   {
     "id": "al-hijr-11",
@@ -649,7 +659,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "وما يأتيهم من رسول إلا كانوا به يستهزءون",
     "transliteration": "wamā yatīhim min rasūlin illā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "And no messenger would come to them except that they ridiculed him.",
     "words": [
       {
         "id": "al-hijr-11-1",
@@ -708,7 +718,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pas un seul Messager ne vint vers eux qu’ils n’eussent raillé."
   },
   {
     "id": "al-hijr-12",
@@ -717,7 +728,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ نَسْلُكُهُۥ فِى قُلُوبِ ٱلْمُجْرِمِينَ",
     "textSimple": "كذلك نسلكه فى قلوب ٱلمجرمين",
     "transliteration": "kadhālika naslukuhu fī qulūbi l-muj'rimīna",
-    "translation": "",
+    "translation": "Thus do We insert it [i.e., denial] into the hearts of the criminals.",
     "words": [
       {
         "id": "al-hijr-12-1",
@@ -755,7 +766,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous l’introduisons (la dénégation) dans les cœurs des criminels."
   },
   {
     "id": "al-hijr-13",
@@ -764,7 +776,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَا يُؤْمِنُونَ بِهِۦ ۖ وَقَدْ خَلَتْ سُنَّةُ ٱلْأَوَّلِينَ",
     "textSimple": "لا يؤمنون به  وقد خلت سنة ٱلأولين",
     "transliteration": "lā yu'minūna bihi waqad khalat sunnatu l-awalīna",
-    "translation": "",
+    "translation": "They will not believe in it, while there has already occurred the precedent of the former peoples.",
     "words": [
       {
         "id": "al-hijr-13-1",
@@ -816,7 +828,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne croiront pas en lui bien que le châtiment infligé aux anciens (peuples) soit bien connu."
   },
   {
     "id": "al-hijr-14",
@@ -825,7 +838,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ يَعْرُجُونَ",
     "textSimple": "ولو فتحنا عليهم بابا من ٱلسمآء فظلوا فيه يعرجون",
     "transliteration": "walaw fataḥnā ʿalayhim bāban mina l-samāi faẓallū fīhi yaʿrujūna",
-    "translation": "",
+    "translation": "And [even] if We opened to them a gate from the heaven and they continued therein to ascend,",
     "words": [
       {
         "id": "al-hijr-14-1",
@@ -891,7 +904,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur ouvririons-Nous une porte dans le ciel et (leur donnerions-Nous la possibilité) d’y accéder,"
   },
   {
     "id": "al-hijr-15",
@@ -900,7 +914,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَقَالُوٓا۟ إِنَّمَا سُكِّرَتْ أَبْصَـٰرُنَا بَلْ نَحْنُ قَوْمٌ مَّسْحُورُونَ",
     "textSimple": "لقالوٓا إنما سكرت أبصـرنا بل نحن قوم مسحورون",
     "transliteration": "laqālū innamā sukkirat abṣārunā bal naḥnu qawmun masḥūrūna",
-    "translation": "",
+    "translation": "They would say, \"Our eyes have only been dazzled. Rather, we are a people affected by magic.\"",
     "words": [
       {
         "id": "al-hijr-15-1",
@@ -959,7 +973,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ils diraient : « Nos vues sont obnubilées, et peut-être même sommes nous des gens ensorcelés ! »"
   },
   {
     "id": "al-hijr-16",
@@ -968,7 +983,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ جَعَلْنَا فِى ٱلسَّمَآءِ بُرُوجًا وَزَيَّنَّـٰهَا لِلنَّـٰظِرِينَ",
     "textSimple": "ولقد جعلنا فى ٱلسمآء بروجا وزينـها للنـظرين",
     "transliteration": "walaqad jaʿalnā fī l-samāi burūjan wazayyannāhā lilnnāẓirīna",
-    "translation": "",
+    "translation": "And We have placed within the heaven great stars and have beautified it for the observers.",
     "words": [
       {
         "id": "al-hijr-16-1",
@@ -1020,7 +1035,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En vérité, Nous avons établi dans le ciel des constellations et Nous l’avons embelli pour ceux qui le contemplent."
   },
   {
     "id": "al-hijr-17",
@@ -1029,7 +1045,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَحَفِظْنَـٰهَا مِن كُلِّ شَيْطَـٰنٍ رَّجِيمٍ",
     "textSimple": "وحفظنـها من كل شيطـن رجيم",
     "transliteration": "waḥafiẓ'nāhā min kulli shayṭānin rajīmin",
-    "translation": "",
+    "translation": "And We have protected it from every devil expelled [from the mercy of Allāh]",
     "words": [
       {
         "id": "al-hijr-17-1",
@@ -1067,7 +1083,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous l’avons protégé contre tout démon lapidé."
   },
   {
     "id": "al-hijr-18",
@@ -1076,7 +1093,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَنِ ٱسْتَرَقَ ٱلسَّمْعَ فَأَتْبَعَهُۥ شِهَابٌ مُّبِينٌ",
     "textSimple": "إلا من ٱسترق ٱلسمع فأتبعه شهاب مبين",
     "transliteration": "illā mani is'taraqa l-samʿa fa-atbaʿahu shihābun mubīnun",
-    "translation": "",
+    "translation": "Except one who steals a hearing and is pursued by a clear burning flame.",
     "words": [
       {
         "id": "al-hijr-18-1",
@@ -1128,7 +1145,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hormis ceux qui, (parmi les démons), cherchent à écouter à la dérobée et qu’une comète à l’éblouissante flamme aussitôt poursuit."
   },
   {
     "id": "al-hijr-19",
@@ -1137,7 +1155,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضَ مَدَدْنَـٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
     "textSimple": "وٱلأرض مددنـها وألقينا فيها روسى وأنبتنا فيها من كل شىء موزون",
     "transliteration": "wal-arḍa madadnāhā wa-alqaynā fīhā rawāsiya wa-anbatnā fīhā min kulli shayin mawzūnin",
-    "translation": "",
+    "translation": "And the earth - We have spread it and cast therein firmly set mountains and caused to grow therein [something] of every well-balanced thing.",
     "words": [
       {
         "id": "al-hijr-19-1",
@@ -1217,7 +1235,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La terre, Nous l’avons déployée, y avons (solidement) érigé des montagnes et y avons fait pousser toute chose en proportion."
   },
   {
     "id": "al-hijr-20",
@@ -1226,7 +1245,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا لَكُمْ فِيهَا مَعَـٰيِشَ وَمَن لَّسْتُمْ لَهُۥ بِرَٰزِقِينَ",
     "textSimple": "وجعلنا لكم فيها معـيش ومن لستم له برزقين",
     "transliteration": "wajaʿalnā lakum fīhā maʿāyisha waman lastum lahu birāziqīna",
-    "translation": "",
+    "translation": "And We have made for you therein means of living and [for] those for whom you are not providers.",
     "words": [
       {
         "id": "al-hijr-20-1",
@@ -1285,7 +1304,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous y avons prévu des sources de subsistance, pour vous et pour ceux que vous n’êtes pas tenus de nourrir."
   },
   {
     "id": "al-hijr-21",
@@ -1294,7 +1314,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن مِّن شَىْءٍ إِلَّا عِندَنَا خَزَآئِنُهُۥ وَمَا نُنَزِّلُهُۥٓ إِلَّا بِقَدَرٍ مَّعْلُومٍ",
     "textSimple": "وإن من شىء إلا عندنا خزآئنه وما ننزلهٓ إلا بقدر معلوم",
     "transliteration": "wa-in min shayin illā ʿindanā khazāinuhu wamā nunazziluhu illā biqadarin maʿlūmin",
-    "translation": "",
+    "translation": "And there is not a thing but that with Us are its depositories, and We do not send it down except according to a known [i.e., specified] measure.",
     "words": [
       {
         "id": "al-hijr-21-1",
@@ -1374,7 +1394,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il n’est rien dont Nous n’ayons les dépôts, encore que Nous n’en fassions descendre que par quantités déterminées."
   },
   {
     "id": "al-hijr-22",
@@ -1383,7 +1404,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَرْسَلْنَا ٱلرِّيَـٰحَ لَوَٰقِحَ فَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَسْقَيْنَـٰكُمُوهُ وَمَآ أَنتُمْ لَهُۥ بِخَـٰزِنِينَ",
     "textSimple": "وأرسلنا ٱلريـح لوقح فأنزلنا من ٱلسمآء مآء فأسقينـكموه ومآ أنتم له بخـزنين",
     "transliteration": "wa-arsalnā l-riyāḥa lawāqiḥa fa-anzalnā mina l-samāi māan fa-asqaynākumūhu wamā antum lahu bikhāzinīna",
-    "translation": "",
+    "translation": "And We have sent the fertilizing winds and sent down water from the sky and given you drink from it. And you are not its retainers.",
     "words": [
       {
         "id": "al-hijr-22-1",
@@ -1470,7 +1491,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous envoyons les vents qui fécondent et faisons descendre l’eau du ciel pour vous désaltérer alors que vous n’êtes pas capables de l’emmagasiner."
   },
   {
     "id": "al-hijr-23",
@@ -1479,7 +1501,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا لَنَحْنُ نُحْىِۦ وَنُمِيتُ وَنَحْنُ ٱلْوَٰرِثُونَ",
     "textSimple": "وإنا لنحن نحى ونميت ونحن ٱلورثون",
     "transliteration": "wa-innā lanaḥnu nuḥ'yī wanumītu wanaḥnu l-wārithūna",
-    "translation": "",
+    "translation": "And indeed, it is We who give life and cause death, and We are the Inheritor.",
     "words": [
       {
         "id": "al-hijr-23-1",
@@ -1524,7 +1546,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui faisons vivre et faisons mourir, et c’est Nous Qui hériterons (de Toute chose)."
   },
   {
     "id": "al-hijr-24",
@@ -1533,7 +1556,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ عَلِمْنَا ٱلْمُسْتَقْدِمِينَ مِنكُمْ وَلَقَدْ عَلِمْنَا ٱلْمُسْتَـْٔخِرِينَ",
     "textSimple": "ولقد علمنا ٱلمستقدمين منكم ولقد علمنا ٱلمستـٔخرين",
     "transliteration": "walaqad ʿalim'nā l-mus'taqdimīna minkum walaqad ʿalim'nā l-mus'takhirīna",
-    "translation": "",
+    "translation": "And We have already known the preceding [generations] among you, and We have already known the later [ones to come].",
     "words": [
       {
         "id": "al-hijr-24-1",
@@ -1585,7 +1608,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous savons qui de vous sont les générations premières et les générations dernières."
   },
   {
     "id": "al-hijr-25",
@@ -1594,7 +1618,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ هُوَ يَحْشُرُهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
     "textSimple": "وإن ربك هو يحشرهم  إنه حكيم عليم",
     "transliteration": "wa-inna rabbaka huwa yaḥshuruhum innahu ḥakīmun ʿalīmun",
-    "translation": "",
+    "translation": "And indeed, your Lord will gather them; indeed, He is Wise and Knowing.",
     "words": [
       {
         "id": "al-hijr-25-1",
@@ -1646,7 +1670,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est certes Celui Qui les ramènera vers Lui en foule. Il est Sage et Omniscient."
   },
   {
     "id": "al-hijr-26",
@@ -1655,7 +1680,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
     "textSimple": "ولقد خلقنا ٱلإنسـن من صلصـل من حمإ مسنون",
     "transliteration": "walaqad khalaqnā l-insāna min ṣalṣālin min ḥama-in masnūnin",
-    "translation": "",
+    "translation": "And We did certainly create man out of clay from an altered black mud.",
     "words": [
       {
         "id": "al-hijr-26-1",
@@ -1714,7 +1739,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé l’homme d’une argile dure et sonore, venant à son tour d’une boue lisse."
   },
   {
     "id": "al-hijr-27",
@@ -1723,7 +1749,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْجَآنَّ خَلَقْنَـٰهُ مِن قَبْلُ مِن نَّارِ ٱلسَّمُومِ",
     "textSimple": "وٱلجآن خلقنـه من قبل من نار ٱلسموم",
     "transliteration": "wal-jāna khalaqnāhu min qablu min nāri l-samūmi",
-    "translation": "",
+    "translation": "And the jinn We created before from scorching fire.",
     "words": [
       {
         "id": "al-hijr-27-1",
@@ -1775,7 +1801,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les djinns, Nous les avons créés avant (les hommes) d’un feu ardent."
   },
   {
     "id": "al-hijr-28",
@@ -1784,7 +1811,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَـٰٓئِكَةِ إِنِّى خَـٰلِقٌۢ بَشَرًا مِّن صَلْصَـٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
     "textSimple": "وإذ قال ربك للملـٓئكة إنى خـلق بشرا من صلصـل من حمإ مسنون",
     "transliteration": "wa-idh qāla rabbuka lil'malāikati innī khāliqun basharan min ṣalṣālin min ḥama-in masnūnin",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when your Lord said to the angels, \"I will create a human being out of clay from an altered black mud.",
     "words": [
       {
         "id": "al-hijr-28-1",
@@ -1871,7 +1898,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Un jour) ton Seigneur dit aux Anges : « Je m’en vais créer un humain à partir d’une argile dure et sonore, venant à son tour d’une boue lisse."
   },
   {
     "id": "al-hijr-29",
@@ -1880,7 +1908,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَـٰجِدِينَ",
     "textSimple": "فإذا سويته ونفخت فيه من روحى فقعوا له سـجدين",
     "transliteration": "fa-idhā sawwaytuhu wanafakhtu fīhi min rūḥī faqaʿū lahu sājidīna",
-    "translation": "",
+    "translation": "And when I have proportioned him and breathed into him of My [created] soul, then fall down to him in prostration.\"",
     "words": [
       {
         "id": "al-hijr-29-1",
@@ -1946,7 +1974,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dès que J’aurai achevé de le modeler et que Je lui aurai insufflé de Mon souffle, vous vous jetterez (par terre) prosternés devant lui. »"
   },
   {
     "id": "al-hijr-30",
@@ -1955,7 +1984,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَسَجَدَ ٱلْمَلَـٰٓئِكَةُ كُلُّهُمْ أَجْمَعُونَ",
     "textSimple": "فسجد ٱلملـٓئكة كلهم أجمعون",
     "transliteration": "fasajada l-malāikatu kulluhum ajmaʿūna",
-    "translation": "",
+    "translation": "So the angels prostrated - all of them entirely,",
     "words": [
       {
         "id": "al-hijr-30-1",
@@ -1986,7 +2015,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Anges se prosternèrent tous,"
   },
   {
     "id": "al-hijr-31",
@@ -1995,7 +2025,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّآ إِبْلِيسَ أَبَىٰٓ أَن يَكُونَ مَعَ ٱلسَّـٰجِدِينَ",
     "textSimple": "إلآ إبليس أبىٓ أن يكون مع ٱلسـجدين",
     "transliteration": "illā ib'līsa abā an yakūna maʿa l-sājidīna",
-    "translation": "",
+    "translation": "Except Iblees; he refused to be with those who prostrated.",
     "words": [
       {
         "id": "al-hijr-31-1",
@@ -2047,7 +2077,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sauf Iblîs, qui refusa de se joindre à ceux qui s’étaient prosternés."
   },
   {
     "id": "al-hijr-32",
@@ -2056,7 +2087,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰٓإِبْلِيسُ مَا لَكَ أَلَّا تَكُونَ مَعَ ٱلسَّـٰجِدِينَ",
     "textSimple": "قال يـٓإبليس ما لك ألا تكون مع ٱلسـجدين",
     "transliteration": "qāla yāib'līsu mā laka allā takūna maʿa l-sājidīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"O Iblees, what is [the matter] with you that you are not with those who prostrate?\"",
     "words": [
       {
         "id": "al-hijr-32-1",
@@ -2115,7 +2146,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Iblîs, dit (Allah), pourquoi n’es tu pas parmi ceux qui se sont prosternés ? »"
   },
   {
     "id": "al-hijr-33",
@@ -2124,7 +2156,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَـٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
     "textSimple": "قال لم أكن لأسجد لبشر خلقته من صلصـل من حمإ مسنون",
     "transliteration": "qāla lam akun li-asjuda libasharin khalaqtahu min ṣalṣālin min ḥama-in masnūnin",
-    "translation": "",
+    "translation": "He said, \"Never would I prostrate to a human whom You created out of clay from an altered black mud.\"",
     "words": [
       {
         "id": "al-hijr-33-1",
@@ -2204,7 +2236,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Je ne me serais jamais prosterné devant un humain que Tu as créé d’argile et de boue lisse. »"
   },
   {
     "id": "al-hijr-34",
@@ -2213,7 +2246,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ",
     "textSimple": "قال فٱخرج منها فإنك رجيم",
     "transliteration": "qāla fa-ukh'ruj min'hā fa-innaka rajīmun",
-    "translation": "",
+    "translation": "[Allāh] said, \"Then depart from it, for indeed, you are expelled.",
     "words": [
       {
         "id": "al-hijr-34-1",
@@ -2251,7 +2284,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Sors d’ici ! dit (Allah), tu es vraiment lapidé,"
   },
   {
     "id": "al-hijr-35",
@@ -2260,7 +2294,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ عَلَيْكَ ٱللَّعْنَةَ إِلَىٰ يَوْمِ ٱلدِّينِ",
     "textSimple": "وإن عليك ٱللعنة إلى يوم ٱلدين",
     "transliteration": "wa-inna ʿalayka l-laʿnata ilā yawmi l-dīni",
-    "translation": "",
+    "translation": "And indeed, upon you is the curse until the Day of Recompense.\"",
     "words": [
       {
         "id": "al-hijr-35-1",
@@ -2305,7 +2339,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et maudit sois-tu jusqu’au Jour de la Rétribution ! »"
   },
   {
     "id": "al-hijr-36",
@@ -2314,7 +2349,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ فَأَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
     "textSimple": "قال رب فأنظرنىٓ إلى يوم يبعثون",
     "transliteration": "qāla rabbi fa-anẓir'nī ilā yawmi yub'ʿathūna",
-    "translation": "",
+    "translation": "He said, \"My Lord, then reprieve me until the Day they are resurrected.\"",
     "words": [
       {
         "id": "al-hijr-36-1",
@@ -2359,7 +2394,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Seigneur ! Donne-moi un répit jusqu’au jour où ils (les hommes) seront ressuscités. »"
   },
   {
     "id": "al-hijr-37",
@@ -2368,7 +2404,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَإِنَّكَ مِنَ ٱلْمُنظَرِينَ",
     "textSimple": "قال فإنك من ٱلمنظرين",
     "transliteration": "qāla fa-innaka mina l-munẓarīna",
-    "translation": "",
+    "translation": "[Allāh] said, \"So indeed, you are of those reprieved",
     "words": [
       {
         "id": "al-hijr-37-1",
@@ -2399,7 +2435,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah dit alors : « Tu es de ceux à qui répit est accordé,"
   },
   {
     "id": "al-hijr-38",
@@ -2408,7 +2445,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَىٰ يَوْمِ ٱلْوَقْتِ ٱلْمَعْلُومِ",
     "textSimple": "إلى يوم ٱلوقت ٱلمعلوم",
     "transliteration": "ilā yawmi l-waqti l-maʿlūmi",
-    "translation": "",
+    "translation": "Until the Day of the time well-known.\"",
     "words": [
       {
         "id": "al-hijr-38-1",
@@ -2439,7 +2476,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "jusqu’au jour du moment connu. »"
   },
   {
     "id": "al-hijr-39",
@@ -2448,7 +2486,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ بِمَآ أَغْوَيْتَنِى لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ",
     "textSimple": "قال رب بمآ أغويتنى لأزينن لهم فى ٱلأرض ولأغوينهم أجمعين",
     "transliteration": "qāla rabbi bimā aghwaytanī la-uzayyinanna lahum fī l-arḍi wala-ugh'wiyannahum ajmaʿīna",
-    "translation": "",
+    "translation": "[Iblees] said, \"My Lord, because You have put me in error, I will surely make [disobedience] attractive to them [i.e., mankind] on earth, and I will mislead them all",
     "words": [
       {
         "id": "al-hijr-39-1",
@@ -2521,7 +2559,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur, dit-il, comme Tu m’as égaré, j’embellirai à leurs yeux (le péché) sur terre et les induirai tous à l’égarement."
   },
   {
     "id": "al-hijr-40",
@@ -2530,7 +2569,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ",
     "textSimple": "إلا عبادك منهم ٱلمخلصين",
     "transliteration": "illā ʿibādaka min'humu l-mukh'laṣīna",
-    "translation": "",
+    "translation": "Except, among them, Your chosen servants.\"",
     "words": [
       {
         "id": "al-hijr-40-1",
@@ -2561,7 +2600,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté, parmi eux, (ceux de) Tes serviteurs que Tu auras élus. »"
   },
   {
     "id": "al-hijr-41",
@@ -2570,7 +2610,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَـٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ",
     "textSimple": "قال هـذا صرط على مستقيم",
     "transliteration": "qāla hādhā ṣirāṭun ʿalayya mus'taqīmun",
-    "translation": "",
+    "translation": "[Allāh] said, \"This is a path [of return] to Me [that is] straight.",
     "words": [
       {
         "id": "al-hijr-41-1",
@@ -2608,7 +2648,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voici une voie qui mène droit vers Moi, dit (Allah),"
   },
   {
     "id": "al-hijr-42",
@@ -2617,7 +2658,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَـٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ",
     "textSimple": "إن عبادى ليس لك عليهم سلطـن إلا من ٱتبعك من ٱلغاوين",
     "transliteration": "inna ʿibādī laysa laka ʿalayhim sul'ṭānun illā mani ittabaʿaka mina l-ghāwīna",
-    "translation": "",
+    "translation": "Indeed, My servants - no authority will you have over them, except those who follow you of the deviators.",
     "words": [
       {
         "id": "al-hijr-42-1",
@@ -2697,7 +2738,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "quant à Mes serviteurs, tu n’auras aucune autorité sur eux, hormis ceux qui t’auront suivi en égarés."
   },
   {
     "id": "al-hijr-43",
@@ -2706,7 +2748,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ جَهَنَّمَ لَمَوْعِدُهُمْ أَجْمَعِينَ",
     "textSimple": "وإن جهنم لموعدهم أجمعين",
     "transliteration": "wa-inna jahannama lamawʿiduhum ajmaʿīna",
-    "translation": "",
+    "translation": "And indeed, Hell is the promised place for them all.",
     "words": [
       {
         "id": "al-hijr-43-1",
@@ -2737,7 +2779,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La Géhenne sera leur lieu de rencontre."
   },
   {
     "id": "al-hijr-44",
@@ -2746,7 +2789,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَهَا سَبْعَةُ أَبْوَٰبٍ لِّكُلِّ بَابٍ مِّنْهُمْ جُزْءٌ مَّقْسُومٌ",
     "textSimple": "لها سبعة أبوب لكل باب منهم جزء مقسوم",
     "transliteration": "lahā sabʿatu abwābin likulli bābin min'hum juz'on maqsūmun",
-    "translation": "",
+    "translation": "It has seven gates; for every gate is of them [i.e., Satan's followers] a portion designated.\"",
     "words": [
       {
         "id": "al-hijr-44-1",
@@ -2805,7 +2848,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle (la Géhenne) aura sept portes ; et à chaque porte ira une part (parmi les alliés d’Iblîs). »"
   },
   {
     "id": "al-hijr-45",
@@ -2814,7 +2858,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَعُيُونٍ",
     "textSimple": "إن ٱلمتقين فى جنـت وعيون",
     "transliteration": "inna l-mutaqīna fī jannātin waʿuyūnin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be within gardens and springs,",
     "words": [
       {
         "id": "al-hijr-45-1",
@@ -2852,7 +2896,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens pieux, quant à eux, seront dans des jardins arrosés de sources."
   },
   {
     "id": "al-hijr-46",
@@ -2861,7 +2906,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْخُلُوهَا بِسَلَـٰمٍ ءَامِنِينَ",
     "textSimple": "ٱدخلوها بسلـم ءامنين",
     "transliteration": "ud'khulūhā bisalāmin āminīna",
-    "translation": "",
+    "translation": "[Having been told], \"Enter it in peace, safe [and secure].\"",
     "words": [
       {
         "id": "al-hijr-46-1",
@@ -2885,7 +2930,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera dit : « Entrez-y en paix et en toute sécurité ! »"
   },
   {
     "id": "al-hijr-47",
@@ -2894,7 +2940,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ سُرُرٍ مُّتَقَـٰبِلِينَ",
     "textSimple": "ونزعنا ما فى صدورهم من غل إخونا على سرر متقـبلين",
     "transliteration": "wanazaʿnā mā fī ṣudūrihim min ghillin ikh'wānan ʿalā sururin mutaqābilīna",
-    "translation": "",
+    "translation": "And We will remove whatever is in their breasts of resentment, [so they will be] brothers, on thrones facing each other.",
     "words": [
       {
         "id": "al-hijr-47-1",
@@ -2967,7 +3013,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous aurons extirpé toute rancune de leurs cœurs. Ils seront frères, (étendus) sur des lits et se faisant face."
   },
   {
     "id": "al-hijr-48",
@@ -2976,7 +3023,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَا يَمَسُّهُمْ فِيهَا نَصَبٌ وَمَا هُم مِّنْهَا بِمُخْرَجِينَ",
     "textSimple": "لا يمسهم فيها نصب وما هم منها بمخرجين",
     "transliteration": "lā yamassuhum fīhā naṣabun wamā hum min'hā bimukh'rajīna",
-    "translation": "",
+    "translation": "No fatigue will touch them therein, nor from it will they [ever] be removed.",
     "words": [
       {
         "id": "al-hijr-48-1",
@@ -3035,7 +3082,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Là, ne les atteindra aucune fatigue, et de là nul ne les fera sortir."
   },
   {
     "id": "al-hijr-49",
@@ -3044,7 +3092,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "۞ نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ",
     "textSimple": " نبئ عبادىٓ أنىٓ أنا ٱلغفور ٱلرحيم",
     "transliteration": "nabbi ʿibādī annī anā l-ghafūru l-raḥīmu",
-    "translation": "",
+    "translation": "[O Muḥammad], inform My servants that it is I who am the Forgiving, the Merciful,",
     "words": [
       {
         "id": "al-hijr-49-1",
@@ -3089,7 +3137,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Informe Mes serviteurs que c’est Moi l’Absoluteur, le Tout Miséricordieux,"
   },
   {
     "id": "al-hijr-50",
@@ -3098,7 +3147,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ عَذَابِى هُوَ ٱلْعَذَابُ ٱلْأَلِيمُ",
     "textSimple": "وأن عذابى هو ٱلعذاب ٱلأليم",
     "transliteration": "wa-anna ʿadhābī huwa l-ʿadhābu l-alīmu",
-    "translation": "",
+    "translation": "And that it is My punishment which is the painful punishment.",
     "words": [
       {
         "id": "al-hijr-50-1",
@@ -3136,7 +3185,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que Mon supplice est le supplice très douloureux."
   },
   {
     "id": "al-hijr-51",
@@ -3145,7 +3195,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَنَبِّئْهُمْ عَن ضَيْفِ إِبْرَٰهِيمَ",
     "textSimple": "ونبئهم عن ضيف إبرهيم",
     "transliteration": "wanabbi'hum ʿan ḍayfi ib'rāhīma",
-    "translation": "",
+    "translation": "And inform them about the guests of Abraham,",
     "words": [
       {
         "id": "al-hijr-51-1",
@@ -3176,7 +3226,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et informe-les sur les hôtes d’Abraham."
   },
   {
     "id": "al-hijr-52",
@@ -3185,7 +3236,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَـٰمًا قَالَ إِنَّا مِنكُمْ وَجِلُونَ",
     "textSimple": "إذ دخلوا عليه فقالوا سلـما قال إنا منكم وجلون",
     "transliteration": "idh dakhalū ʿalayhi faqālū salāman qāla innā minkum wajilūna",
-    "translation": "",
+    "translation": "When they entered upon him and said, \"Peace.\" [Abraham] said, \"Indeed, we are fearful [i.e., apprehensive] of you.\"",
     "words": [
       {
         "id": "al-hijr-52-1",
@@ -3251,7 +3302,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils furent entrés chez lui et eurent dit : « Paix ! (Salâm) » il dit : « J’ai en vérité peur de vous. »"
   },
   {
     "id": "al-hijr-53",
@@ -3260,7 +3312,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَا تَوْجَلْ إِنَّا نُبَشِّرُكَ بِغُلَـٰمٍ عَلِيمٍ",
     "textSimple": "قالوا لا توجل إنا نبشرك بغلـم عليم",
     "transliteration": "qālū lā tawjal innā nubashiruka bighulāmin ʿalīmin",
-    "translation": "",
+    "translation": "[The angels] said, \"Fear not. Indeed, we give you good tidings of a learned boy.\"",
     "words": [
       {
         "id": "al-hijr-53-1",
@@ -3312,7 +3364,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« N’aie pas peur, dirent-ils, nous t’annonçons l’heureuse naissance d’un garçon doté d’un grand savoir. »"
   },
   {
     "id": "al-hijr-54",
@@ -3321,7 +3374,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَبَشَّرْتُمُونِى عَلَىٰٓ أَن مَّسَّنِىَ ٱلْكِبَرُ فَبِمَ تُبَشِّرُونَ",
     "textSimple": "قال أبشرتمونى علىٓ أن مسنى ٱلكبر فبم تبشرون",
     "transliteration": "qāla abashartumūnī ʿalā an massaniya l-kibaru fabima tubashirūna",
-    "translation": "",
+    "translation": "He said, \"Have you given me good tidings although old age has come upon me? Then of what [wonder] do you inform?\"",
     "words": [
       {
         "id": "al-hijr-54-1",
@@ -3380,7 +3433,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit : « M’annoncez-vous cette (heureuse nouvelle) quand m’a déjà atteint le grand âge? Quelle heureuse nouvelle m’annoncez-vous donc là ? »"
   },
   {
     "id": "al-hijr-55",
@@ -3389,7 +3443,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ بَشَّرْنَـٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَـٰنِطِينَ",
     "textSimple": "قالوا بشرنـك بٱلحق فلا تكن من ٱلقـنطين",
     "transliteration": "qālū basharnāka bil-ḥaqi falā takun mina l-qāniṭīna",
-    "translation": "",
+    "translation": "They said, \"We have given you good tidings in truth, so do not be of the despairing.\"",
     "words": [
       {
         "id": "al-hijr-55-1",
@@ -3441,7 +3495,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous t’avons annoncé la vérité. Ne sois donc pas si désespéré ! »"
   },
   {
     "id": "al-hijr-56",
@@ -3450,7 +3505,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ",
     "textSimple": "قال ومن يقنط من رحمة ربهٓ إلا ٱلضآلون",
     "transliteration": "qāla waman yaqnaṭu min raḥmati rabbihi illā l-ḍālūna",
-    "translation": "",
+    "translation": "He said, \"And who despairs of the mercy of his Lord except for those astray?\"",
     "words": [
       {
         "id": "al-hijr-56-1",
@@ -3509,7 +3564,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Et qui pourrait désespérer de la miséricorde de son Seigneur, mis à part les égarés ? » dit-il."
   },
   {
     "id": "al-hijr-57",
@@ -3518,7 +3574,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
     "textSimple": "قال فما خطبكم أيها ٱلمرسلون",
     "transliteration": "qāla famā khaṭbukum ayyuhā l-mur'salūna",
-    "translation": "",
+    "translation": "[Abraham] said, \"Then what is your business [here], O messengers?\"",
     "words": [
       {
         "id": "al-hijr-57-1",
@@ -3556,7 +3612,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il ajouta : « Que voulez-vous donc, ô émissaires (d’Allah) ? »"
   },
   {
     "id": "al-hijr-58",
@@ -3565,7 +3622,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمٍ مُّجْرِمِينَ",
     "textSimple": "قالوٓا إنآ أرسلنآ إلى قوم مجرمين",
     "transliteration": "qālū innā ur'sil'nā ilā qawmin muj'rimīna",
-    "translation": "",
+    "translation": "They said, \"Indeed, we have been sent to a people of criminals,",
     "words": [
       {
         "id": "al-hijr-58-1",
@@ -3610,7 +3667,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous avons été envoyés vers un peuple de criminels,"
   },
   {
     "id": "al-hijr-59",
@@ -3619,7 +3677,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّآ ءَالَ لُوطٍ إِنَّا لَمُنَجُّوهُمْ أَجْمَعِينَ",
     "textSimple": "إلآ ءال لوط إنا لمنجوهم أجمعين",
     "transliteration": "illā āla lūṭin innā lamunajjūhum ajmaʿīna",
-    "translation": "",
+    "translation": "Except the family of Lot; indeed, we will save them all",
     "words": [
       {
         "id": "al-hijr-59-1",
@@ -3664,7 +3722,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "hormis la famille de Loth que nous épargnerons tout entière,"
   },
   {
     "id": "al-hijr-60",
@@ -3673,7 +3732,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَآ ۙ إِنَّهَا لَمِنَ ٱلْغَـٰبِرِينَ",
     "textSimple": "إلا ٱمرأته قدرنآ  إنها لمن ٱلغـبرين",
     "transliteration": "illā im'ra-atahu qaddarnā innahā lamina l-ghābirīna",
-    "translation": "",
+    "translation": "Except his wife.\" We [i.e., Allāh] decreed that she is of those who remain behind.",
     "words": [
       {
         "id": "al-hijr-60-1",
@@ -3718,7 +3777,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "à l’exception de sa femme. » « Nous (Allah) l’avons destinée à être du nombre des disparus. »"
   },
   {
     "id": "al-hijr-61",
@@ -3727,7 +3787,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَ ءَالَ لُوطٍ ٱلْمُرْسَلُونَ",
     "textSimple": "فلما جآء ءال لوط ٱلمرسلون",
     "transliteration": "falammā jāa āla lūṭin l-mur'salūna",
-    "translation": "",
+    "translation": "And when the messengers came to the family of Lot,",
     "words": [
       {
         "id": "al-hijr-61-1",
@@ -3765,7 +3825,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque les émissaires vinrent trouver la famille de Loth,"
   },
   {
     "id": "al-hijr-62",
@@ -3774,7 +3835,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّكُمْ قَوْمٌ مُّنكَرُونَ",
     "textSimple": "قال إنكم قوم منكرون",
     "transliteration": "qāla innakum qawmun munkarūna",
-    "translation": "",
+    "translation": "He said, \"Indeed, you are people unknown.\"",
     "words": [
       {
         "id": "al-hijr-62-1",
@@ -3805,7 +3866,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "celui-ci leur dit : « Vous nous êtes des inconnus. »"
   },
   {
     "id": "al-hijr-63",
@@ -3814,7 +3876,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ بَلْ جِئْنَـٰكَ بِمَا كَانُوا۟ فِيهِ يَمْتَرُونَ",
     "textSimple": "قالوا بل جئنـك بما كانوا فيه يمترون",
     "transliteration": "qālū bal ji'nāka bimā kānū fīhi yamtarūna",
-    "translation": "",
+    "translation": "They said, \"But we have come to you with that about which they were disputing,",
     "words": [
       {
         "id": "al-hijr-63-1",
@@ -3866,7 +3928,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Nous sommes plutôt venus t’apporter (le châtiment) à propos duquel ils étaient dans le doute."
   },
   {
     "id": "al-hijr-64",
@@ -3875,7 +3938,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَتَيْنَـٰكَ بِٱلْحَقِّ وَإِنَّا لَصَـٰدِقُونَ",
     "textSimple": "وأتينـك بٱلحق وإنا لصـدقون",
     "transliteration": "wa-ataynāka bil-ḥaqi wa-innā laṣādiqūna",
-    "translation": "",
+    "translation": "And we have come to you with truth, and indeed, we are truthful.",
     "words": [
       {
         "id": "al-hijr-64-1",
@@ -3906,7 +3969,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous sommes venus t’apporter la vérité, et nous sommes véridiques."
   },
   {
     "id": "al-hijr-65",
@@ -3915,7 +3979,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَـٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
     "textSimple": "فأسر بأهلك بقطع من ٱليل وٱتبع أدبـرهم ولا يلتفت منكم أحد وٱمضوا حيث تؤمرون",
     "transliteration": "fa-asri bi-ahlika biqiṭ'ʿin mina al-layli wa-ittabiʿ adbārahum walā yaltafit minkum aḥadun wa-im'ḍū ḥaythu tu'marūna",
-    "translation": "",
+    "translation": "So set out with your family during a portion of the night and follow behind them and let not anyone among you look back and continue on to where you are commanded.\"",
     "words": [
       {
         "id": "al-hijr-65-1",
@@ -4016,7 +4080,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pars, accompagné de ta famille, lorsqu’une partie de la nuit se sera écoulée, suis-les en restant à l’arrière, et que personne d’entre vous ne se retourne ! Allez là où il vous sera ordonné. »"
   },
   {
     "id": "al-hijr-66",
@@ -4025,7 +4090,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَقَضَيْنَآ إِلَيْهِ ذَٰلِكَ ٱلْأَمْرَ أَنَّ دَابِرَ هَـٰٓؤُلَآءِ مَقْطُوعٌ مُّصْبِحِينَ",
     "textSimple": "وقضينآ إليه ذلك ٱلأمر أن دابر هـٓؤلآء مقطوع مصبحين",
     "transliteration": "waqaḍaynā ilayhi dhālika l-amra anna dābira hāulāi maqṭūʿun muṣ'biḥīna",
-    "translation": "",
+    "translation": "And We conveyed to him [the decree] of that matter: that those [sinners] would be eliminated by early morning.",
     "words": [
       {
         "id": "al-hijr-66-1",
@@ -4091,7 +4156,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est alors que Nous lui fîmes part (à Loth) de Notre décision : tout son peuple sera exterminé au point du jour."
   },
   {
     "id": "al-hijr-67",
@@ -4100,7 +4166,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ أَهْلُ ٱلْمَدِينَةِ يَسْتَبْشِرُونَ",
     "textSimple": "وجآء أهل ٱلمدينة يستبشرون",
     "transliteration": "wajāa ahlu l-madīnati yastabshirūna",
-    "translation": "",
+    "translation": "And the people of the city came rejoicing.",
     "words": [
       {
         "id": "al-hijr-67-1",
@@ -4131,7 +4197,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les habitants de la cité vinrent le trouver en jubilant."
   },
   {
     "id": "al-hijr-68",
@@ -4140,7 +4207,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ إِنَّ هَـٰٓؤُلَآءِ ضَيْفِى فَلَا تَفْضَحُونِ",
     "textSimple": "قال إن هـٓؤلآء ضيفى فلا تفضحون",
     "transliteration": "qāla inna hāulāi ḍayfī falā tafḍaḥūni",
-    "translation": "",
+    "translation": "[Lot] said, \"Indeed, these are my guests, so do not shame me.",
     "words": [
       {
         "id": "al-hijr-68-1",
@@ -4185,7 +4252,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur dit : « Ceux-là sont mes hôtes, ne me couvrez pas de honte,"
   },
   {
     "id": "al-hijr-69",
@@ -4194,7 +4262,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ",
     "textSimple": "وٱتقوا ٱلله ولا تخزون",
     "transliteration": "wa-ittaqū l-laha walā tukh'zūni",
-    "translation": "",
+    "translation": "And fear Allāh and do not disgrace me.\"",
     "words": [
       {
         "id": "al-hijr-69-1",
@@ -4225,7 +4293,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "craignez Allah, évitez-moi le déshonneur ! »"
   },
   {
     "id": "al-hijr-70",
@@ -4234,7 +4303,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ أَوَلَمْ نَنْهَكَ عَنِ ٱلْعَـٰلَمِينَ",
     "textSimple": "قالوٓا أولم ننهك عن ٱلعـلمين",
     "transliteration": "qālū awalam nanhaka ʿani l-ʿālamīna",
-    "translation": "",
+    "translation": "They said, \"Have we not forbidden you from [protecting] people?\"",
     "words": [
       {
         "id": "al-hijr-70-1",
@@ -4272,7 +4341,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ne t’avons-nous pas défendu (d’accueillir) qui que ce soit au monde ? »"
   },
   {
     "id": "al-hijr-71",
@@ -4281,7 +4351,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَـٰٓؤُلَآءِ بَنَاتِىٓ إِن كُنتُمْ فَـٰعِلِينَ",
     "textSimple": "قال هـٓؤلآء بناتىٓ إن كنتم فـعلين",
     "transliteration": "qāla hāulāi banātī in kuntum fāʿilīna",
-    "translation": "",
+    "translation": "[Lot] said, \"These are my daughters - if you would be doers [of lawful marriage].\"",
     "words": [
       {
         "id": "al-hijr-71-1",
@@ -4326,7 +4396,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Voici mes filles, si vous devez (absolument) faire (ce que vous avez l’intention de faire) ! »"
   },
   {
     "id": "al-hijr-72",
@@ -4335,7 +4406,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَعَمْرُكَ إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ",
     "textSimple": "لعمرك إنهم لفى سكرتهم يعمهون",
     "transliteration": "laʿamruka innahum lafī sakratihim yaʿmahūna",
-    "translation": "",
+    "translation": "By your life, [O Muḥammad], indeed they were, in their intoxication, wandering blindly.",
     "words": [
       {
         "id": "al-hijr-72-1",
@@ -4373,7 +4444,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ta vie ! (ô Muhammad), ils pataugeaient aveuglément dans l’ivresse de leur égarement."
   },
   {
     "id": "al-hijr-73",
@@ -4382,7 +4454,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُشْرِقِينَ",
     "textSimple": "فأخذتهم ٱلصيحة مشرقين",
     "transliteration": "fa-akhadhathumu l-ṣayḥatu mush'riqīna",
-    "translation": "",
+    "translation": "So the shriek seized them at sunrise.",
     "words": [
       {
         "id": "al-hijr-73-1",
@@ -4406,7 +4478,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Cri (assourdissant) les saisit au lever du soleil."
   },
   {
     "id": "al-hijr-74",
@@ -4415,7 +4488,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلْنَا عَـٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
     "textSimple": "فجعلنا عـليها سافلها وأمطرنا عليهم حجارة من سجيل",
     "transliteration": "fajaʿalnā ʿāliyahā sāfilahā wa-amṭarnā ʿalayhim ḥijāratan min sijjīlin",
-    "translation": "",
+    "translation": "And We made the highest part [of the city] its lowest and rained upon them stones of hard clay.",
     "words": [
       {
         "id": "al-hijr-74-1",
@@ -4474,7 +4547,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous renversâmes alors (la cité) de fond en comble et fîmes pleuvoir sur eux des pierres d’argile durcie."
   },
   {
     "id": "al-hijr-75",
@@ -4483,7 +4557,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّلْمُتَوَسِّمِينَ",
     "textSimple": "إن فى ذلك لـٔايـت للمتوسمين",
     "transliteration": "inna fī dhālika laāyātin lil'mutawassimīna",
-    "translation": "",
+    "translation": "Indeed in that are signs for those who discern.",
     "words": [
       {
         "id": "al-hijr-75-1",
@@ -4521,7 +4595,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a là, vraiment, des Signes pour ceux qui savent en scruter le sens."
   },
   {
     "id": "al-hijr-76",
@@ -4530,7 +4605,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهَا لَبِسَبِيلٍ مُّقِيمٍ",
     "textSimple": "وإنها لبسبيل مقيم",
     "transliteration": "wa-innahā labisabīlin muqīmin",
-    "translation": "",
+    "translation": "And indeed, they [i.e., those cities] are [situated] on an established road.",
     "words": [
       {
         "id": "al-hijr-76-1",
@@ -4554,7 +4629,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle est située (cette cité) sur une route bien fréquentée."
   },
   {
     "id": "al-hijr-77",
@@ -4563,7 +4639,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ",
     "textSimple": "إن فى ذلك لـٔاية للمؤمنين",
     "transliteration": "inna fī dhālika laāyatan lil'mu'minīna",
-    "translation": "",
+    "translation": "Indeed in that is a sign for the believers.",
     "words": [
       {
         "id": "al-hijr-77-1",
@@ -4601,7 +4677,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y a là un Signe pour les croyants."
   },
   {
     "id": "al-hijr-78",
@@ -4610,7 +4687,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَانَ أَصْحَـٰبُ ٱلْأَيْكَةِ لَظَـٰلِمِينَ",
     "textSimple": "وإن كان أصحـب ٱلأيكة لظـلمين",
     "transliteration": "wa-in kāna aṣḥābu l-aykati laẓālimīna",
-    "translation": "",
+    "translation": "And the companions of the thicket [i.e., the people of Madyan] were [also] wrongdoers,",
     "words": [
       {
         "id": "al-hijr-78-1",
@@ -4648,7 +4725,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les habitants d’Al-Aykah, eux aussi, étaient injustes."
   },
   {
     "id": "al-hijr-79",
@@ -4657,7 +4735,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنتَقَمْنَا مِنْهُمْ وَإِنَّهُمَا لَبِإِمَامٍ مُّبِينٍ",
     "textSimple": "فٱنتقمنا منهم وإنهما لبإمام مبين",
     "transliteration": "fa-intaqamnā min'hum wa-innahumā labi-imāmin mubīnin",
-    "translation": "",
+    "translation": "So We took retribution from them, and indeed, both [cities] are on a clear highway.",
     "words": [
       {
         "id": "al-hijr-79-1",
@@ -4695,7 +4773,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous tirâmes d’eux vengeance, et les deux cités (l’une comme l’autre) sont situées sur une voie évidente pour tous."
   },
   {
     "id": "al-hijr-80",
@@ -4704,7 +4783,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ كَذَّبَ أَصْحَـٰبُ ٱلْحِجْرِ ٱلْمُرْسَلِينَ",
     "textSimple": "ولقد كذب أصحـب ٱلحجر ٱلمرسلين",
     "transliteration": "walaqad kadhaba aṣḥābu l-ḥij'ri l-mur'salīna",
-    "translation": "",
+    "translation": "And certainly did the companions of al-Ḥijr [i.e., the Thamūd] deny the messengers.",
     "words": [
       {
         "id": "al-hijr-80-1",
@@ -4742,7 +4821,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les habitants d’Al-Ḥijr avaient, de même, osé démentir les Messagers."
   },
   {
     "id": "al-hijr-81",
@@ -4751,7 +4831,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتَيْنَـٰهُمْ ءَايَـٰتِنَا فَكَانُوا۟ عَنْهَا مُعْرِضِينَ",
     "textSimple": "وءاتينـهم ءايـتنا فكانوا عنها معرضين",
     "transliteration": "waātaynāhum āyātinā fakānū ʿanhā muʿ'riḍīna",
-    "translation": "",
+    "translation": "And We gave them Our signs, but from them they were turning away.",
     "words": [
       {
         "id": "al-hijr-81-1",
@@ -4789,7 +4869,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur avons apporté Nos Signes mais ils s’en sont détournés."
   },
   {
     "id": "al-hijr-82",
@@ -4798,7 +4879,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا ءَامِنِينَ",
     "textSimple": "وكانوا ينحتون من ٱلجبال بيوتا ءامنين",
     "transliteration": "wakānū yanḥitūna mina l-jibāli buyūtan āminīna",
-    "translation": "",
+    "translation": "And they used to carve from the mountains, houses, feeling secure.",
     "words": [
       {
         "id": "al-hijr-82-1",
@@ -4843,7 +4924,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils creusaient à même les montagnes des maisons où (ils habitaient) en toute quiétude."
   },
   {
     "id": "al-hijr-83",
@@ -4852,7 +4934,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُصْبِحِينَ",
     "textSimple": "فأخذتهم ٱلصيحة مصبحين",
     "transliteration": "fa-akhadhathumu l-ṣayḥatu muṣ'biḥīna",
-    "translation": "",
+    "translation": "But the shriek seized them at early morning,",
     "words": [
       {
         "id": "al-hijr-83-1",
@@ -4876,7 +4958,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est alors que le Cri (assourdissant) les saisit au point du jour."
   },
   {
     "id": "al-hijr-84",
@@ -4885,7 +4968,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ",
     "textSimple": "فمآ أغنى عنهم ما كانوا يكسبون",
     "transliteration": "famā aghnā ʿanhum mā kānū yaksibūna",
-    "translation": "",
+    "translation": "So nothing availed them [from] what they used to earn.",
     "words": [
       {
         "id": "al-hijr-84-1",
@@ -4930,7 +5013,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qu’ils avaient acquis ne leur aura servi à rien."
   },
   {
     "id": "al-hijr-85",
@@ -4939,7 +5023,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا خَلَقْنَا ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ ۗ وَإِنَّ ٱلسَّاعَةَ لَـَٔاتِيَةٌ ۖ فَٱصْفَحِ ٱلصَّفْحَ ٱلْجَمِيلَ",
     "textSimple": "وما خلقنا ٱلسمـوت وٱلأرض وما بينهمآ إلا بٱلحق  وإن ٱلساعة لـٔاتية  فٱصفح ٱلصفح ٱلجميل",
     "transliteration": "wamā khalaqnā l-samāwāti wal-arḍa wamā baynahumā illā bil-ḥaqi wa-inna l-sāʿata laātiyatun fa-iṣ'faḥi l-ṣafḥa l-jamīla",
-    "translation": "",
+    "translation": "And We have not created the heavens and earth and that between them except in truth. And indeed, the Hour is coming; so forgive with gracious forgiveness.",
     "words": [
       {
         "id": "al-hijr-85-1",
@@ -5040,7 +5124,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons créé les cieux et la terre, et ce qui est entre les deux, qu’en toute vérité. L’heure viendra sûrement, pardonne donc de ton plus beau pardon."
   },
   {
     "id": "al-hijr-86",
@@ -5049,7 +5134,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ هُوَ ٱلْخَلَّـٰقُ ٱلْعَلِيمُ",
     "textSimple": "إن ربك هو ٱلخلـق ٱلعليم",
     "transliteration": "inna rabbaka huwa l-khalāqu l-ʿalīmu",
-    "translation": "",
+    "translation": "Indeed, your Lord - He is the Knowing Creator.",
     "words": [
       {
         "id": "al-hijr-86-1",
@@ -5087,7 +5172,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est, Lui, le Parfait Créateur, l’Omniscient."
   },
   {
     "id": "al-hijr-87",
@@ -5096,7 +5182,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَـٰكَ سَبْعًا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ",
     "textSimple": "ولقد ءاتينـك سبعا من ٱلمثانى وٱلقرءان ٱلعظيم",
     "transliteration": "walaqad ātaynāka sabʿan mina l-mathānī wal-qur'āna l-ʿaẓīma",
-    "translation": "",
+    "translation": "And We have certainly given you, [O Muḥammad], seven of the often repeated [verses] and the great Qur’ān.",
     "words": [
       {
         "id": "al-hijr-87-1",
@@ -5148,7 +5234,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’avons donné les sept versets que l’on réitère, et le Coran Sublime."
   },
   {
     "id": "al-hijr-88",
@@ -5157,7 +5244,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "لَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ وَلَا تَحْزَنْ عَلَيْهِمْ وَٱخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ",
     "textSimple": "لا تمدن عينيك إلى ما متعنا بهٓ أزوجا منهم ولا تحزن عليهم وٱخفض جناحك للمؤمنين",
     "transliteration": "lā tamuddanna ʿaynayka ilā mā mattaʿnā bihi azwājan min'hum walā taḥzan ʿalayhim wa-ikh'fiḍ janāḥaka lil'mu'minīna",
-    "translation": "",
+    "translation": "Do not extend your eyes toward that by which We have given enjoyment to [certain] categories of them [i.e., the disbelievers], and do not grieve over them. And lower your wing [i.e., show kindness] to the believers.",
     "words": [
       {
         "id": "al-hijr-88-1",
@@ -5265,7 +5352,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne porte surtout pas un regard envieux sur ces jouissances dont Nous gratifions certains groupes (parmi les mécréants), ne t’attriste pas pour eux, et sois humble et bienveillant avec les croyants."
   },
   {
     "id": "al-hijr-89",
@@ -5274,7 +5362,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلْ إِنِّىٓ أَنَا ٱلنَّذِيرُ ٱلْمُبِينُ",
     "textSimple": "وقل إنىٓ أنا ٱلنذير ٱلمبين",
     "transliteration": "waqul innī anā l-nadhīru l-mubīnu",
-    "translation": "",
+    "translation": "And say, \"Indeed, I am the clear warner\" -",
     "words": [
       {
         "id": "al-hijr-89-1",
@@ -5312,7 +5400,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et dis : « Je suis l’avertisseur explicite. »"
   },
   {
     "id": "al-hijr-90",
@@ -5321,7 +5410,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "كَمَآ أَنزَلْنَا عَلَى ٱلْمُقْتَسِمِينَ",
     "textSimple": "كمآ أنزلنا على ٱلمقتسمين",
     "transliteration": "kamā anzalnā ʿalā l-muq'tasimīna",
-    "translation": "",
+    "translation": "Just as We had revealed [scriptures] to the separators",
     "words": [
       {
         "id": "al-hijr-90-1",
@@ -5352,7 +5441,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aussi avons-Nous fait s’abattre (Notre châtiment) sur ceux qui se sont fait le serment (de renier les Messagers),"
   },
   {
     "id": "al-hijr-91",
@@ -5361,7 +5451,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ جَعَلُوا۟ ٱلْقُرْءَانَ عِضِينَ",
     "textSimple": "ٱلذين جعلوا ٱلقرءان عضين",
     "transliteration": "alladhīna jaʿalū l-qur'āna ʿiḍīna",
-    "translation": "",
+    "translation": "Who have made the Qur’ān into portions.",
     "words": [
       {
         "id": "al-hijr-91-1",
@@ -5392,7 +5482,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceux qui ont fait du Coran des fragments disparates."
   },
   {
     "id": "al-hijr-92",
@@ -5401,7 +5492,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَوَرَبِّكَ لَنَسْـَٔلَنَّهُمْ أَجْمَعِينَ",
     "textSimple": "فوربك لنسـٔلنهم أجمعين",
     "transliteration": "fawarabbika lanasalannahum ajmaʿīna",
-    "translation": "",
+    "translation": "So by your Lord, We will surely question them all",
     "words": [
       {
         "id": "al-hijr-92-1",
@@ -5425,7 +5516,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par ton Seigneur ! Nous les interrogerons tous"
   },
   {
     "id": "al-hijr-93",
@@ -5434,7 +5526,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "عَمَّا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "عما كانوا يعملون",
     "transliteration": "ʿammā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "About what they used to do.",
     "words": [
       {
         "id": "al-hijr-93-1",
@@ -5458,7 +5550,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sur ce qu’ils faisaient."
   },
   {
     "id": "al-hijr-94",
@@ -5467,7 +5560,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
     "textSimple": "فٱصدع بما تؤمر وأعرض عن ٱلمشركين",
     "transliteration": "fa-iṣ'daʿ bimā tu'maru wa-aʿriḍ ʿani l-mush'rikīna",
-    "translation": "",
+    "translation": "Then declare what you are commanded and turn away from the polytheists.",
     "words": [
       {
         "id": "al-hijr-94-1",
@@ -5512,7 +5605,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Proclame tout haut ce qui t’est ordonné et détourne-toi des associâtres."
   },
   {
     "id": "al-hijr-95",
@@ -5521,7 +5615,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَفَيْنَـٰكَ ٱلْمُسْتَهْزِءِينَ",
     "textSimple": "إنا كفينـك ٱلمستهزءين",
     "transliteration": "innā kafaynāka l-mus'tahziīna",
-    "translation": "",
+    "translation": "Indeed, We are sufficient for you against the mockers",
     "words": [
       {
         "id": "al-hijr-95-1",
@@ -5545,7 +5639,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous te suffisons comme défenseur contre les railleurs,"
   },
   {
     "id": "al-hijr-96",
@@ -5554,7 +5649,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يَجْعَلُونَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۚ فَسَوْفَ يَعْلَمُونَ",
     "textSimple": "ٱلذين يجعلون مع ٱلله إلـها ءاخر  فسوف يعلمون",
     "transliteration": "alladhīna yajʿalūna maʿa l-lahi ilāhan ākhara fasawfa yaʿlamūna",
-    "translation": "",
+    "translation": "Who make [equal] with Allāh another deity. But they are going to know.",
     "words": [
       {
         "id": "al-hijr-96-1",
@@ -5613,7 +5708,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui associent à Allah une autre divinité. Ceux-là vont bientôt savoir (ce qui les attend)."
   },
   {
     "id": "al-hijr-97",
@@ -5622,7 +5718,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ",
     "textSimple": "ولقد نعلم أنك يضيق صدرك بما يقولون",
     "transliteration": "walaqad naʿlamu annaka yaḍīqu ṣadruka bimā yaqūlūna",
-    "translation": "",
+    "translation": "And We already know that your breast is constrained by what they say.",
     "words": [
       {
         "id": "al-hijr-97-1",
@@ -5674,7 +5770,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous savons que tu as des serrements au cœur (en entendant) ce qu’ils disent."
   },
   {
     "id": "al-hijr-98",
@@ -5683,7 +5780,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّـٰجِدِينَ",
     "textSimple": "فسبح بحمد ربك وكن من ٱلسـجدين",
     "transliteration": "fasabbiḥ biḥamdi rabbika wakun mina l-sājidīna",
-    "translation": "",
+    "translation": "So exalt [Allāh] with praise of your Lord and be of those who prostrate [to Him].",
     "words": [
       {
         "id": "al-hijr-98-1",
@@ -5728,7 +5825,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rends donc gloire à ton Seigneur en célébrant Ses louanges, et sois avec ceux qui se prosternent."
   },
   {
     "id": "al-hijr-99",
@@ -5737,7 +5835,7 @@ export const AL_HIJR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ",
     "textSimple": "وٱعبد ربك حتى يأتيك ٱليقين",
     "transliteration": "wa-uʿ'bud rabbaka ḥattā yatiyaka l-yaqīnu",
-    "translation": "",
+    "translation": "And worship your Lord until there comes to you the certainty [i.e., death].",
     "words": [
       {
         "id": "al-hijr-99-1",
@@ -5775,7 +5873,8 @@ export const AL_HIJR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adore ton Seigneur jusqu’à ce que vienne à toi la certitude (de la mort)."
   }
 ];
 

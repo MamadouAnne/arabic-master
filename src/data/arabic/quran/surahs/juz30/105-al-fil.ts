@@ -11,7 +11,7 @@ export const AL_FIL_AYAHS: Ayah[] = [
     "textUthmani": " أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
     "textSimple": " ألم تر كيف فعل ربك بأصحـب ٱلفيل",
     "transliteration": "alam tara kayfa faʿala rabbuka bi-aṣḥābi l-fīli",
-    "translation": "",
+    "translation": "Have you not considered, [O Muḥammad], how your Lord dealt with the companions of the elephant?",
     "words": [
       {
         "id": "al-fil-1-1",
@@ -63,7 +63,8 @@ export const AL_FIL_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’as-tu pas vu ce que fit ton Seigneur aux compagnons de l’Éléphant ?"
   },
   {
     "id": "al-fil-2",
@@ -72,7 +73,7 @@ export const AL_FIL_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
     "textSimple": "ألم يجعل كيدهم فى تضليل",
     "transliteration": "alam yajʿal kaydahum fī taḍlīlin",
-    "translation": "",
+    "translation": "Did He not make their plan into misguidance?",
     "words": [
       {
         "id": "al-fil-2-1",
@@ -110,7 +111,8 @@ export const AL_FIL_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’a-t-Il pas déjoué leurs intrigues,"
   },
   {
     "id": "al-fil-3",
@@ -119,7 +121,7 @@ export const AL_FIL_AYAHS: Ayah[] = [
     "textUthmani": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
     "textSimple": "وأرسل عليهم طيرا أبابيل",
     "transliteration": "wa-arsala ʿalayhim ṭayran abābīla",
-    "translation": "",
+    "translation": "And He sent against them birds in flocks,",
     "words": [
       {
         "id": "al-fil-3-1",
@@ -150,7 +152,8 @@ export const AL_FIL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en leur envoyant des nuées d’oiseaux,"
   },
   {
     "id": "al-fil-4",
@@ -159,7 +162,7 @@ export const AL_FIL_AYAHS: Ayah[] = [
     "textUthmani": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
     "textSimple": "ترميهم بحجارة من سجيل",
     "transliteration": "tarmīhim biḥijāratin min sijjīlin",
-    "translation": "",
+    "translation": "Striking them with stones of hard clay,",
     "words": [
       {
         "id": "al-fil-4-1",
@@ -190,7 +193,8 @@ export const AL_FIL_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui leur lançaient des pierres argileuses ?"
   },
   {
     "id": "al-fil-5",
@@ -199,7 +203,7 @@ export const AL_FIL_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
     "textSimple": "فجعلهم كعصف مأكول",
     "transliteration": "fajaʿalahum kaʿaṣfin makūlin",
-    "translation": "",
+    "translation": "And He made them like eaten straw.",
     "words": [
       {
         "id": "al-fil-5-1",
@@ -223,7 +227,8 @@ export const AL_FIL_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il les rendit telles des brindilles mâchées (et recrachées.)."
   }
 ];
 

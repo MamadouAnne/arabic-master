@@ -11,7 +11,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": " سُبْحَـٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَـٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ ءَايَـٰتِنَآ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
     "textSimple": " سبحـن ٱلذىٓ أسرى بعبده ليلا من ٱلمسجد ٱلحرام إلى ٱلمسجد ٱلأقصا ٱلذى بـركنا حوله لنريه من ءايـتنآ  إنه هو ٱلسميع ٱلبصير",
     "transliteration": "sub'ḥāna alladhī asrā biʿabdihi laylan mina l-masjidi l-ḥarāmi ilā l-masjidi l-aqṣā alladhī bāraknā ḥawlahu linuriyahu min āyātinā innahu huwa l-samīʿu l-baṣīru",
-    "translation": "",
+    "translation": "Exalted is He who took His Servant [i.e., Prophet Muḥammad (ﷺ)] by night from al-Masjid al-Ḥarām to al-Masjid al-Aqṣā, whose surroundings We have blessed, to show him of Our signs. Indeed, He is the Hearing, the Seeing.",
     "words": [
       {
         "id": "al-isra-1-1",
@@ -161,7 +161,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire soit rendue à Celui Qui fit voyager Son serviteur de nuit, depuis la Mosquée Sacrée (Al Masjid Al-Harâm) à la Mosquée Éloignée (Al Masjid Al-Aqçâ), dont Nous avons béni les environs, pour lui montrer certains de Nos Signes. C’est Lui Qui Entend Tout et Voit parfaitement clair."
   },
   {
     "id": "al-isra-2",
@@ -170,7 +171,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ وَجَعَلْنَـٰهُ هُدًى لِّبَنِىٓ إِسْرَٰٓءِيلَ أَلَّا تَتَّخِذُوا۟ مِن دُونِى وَكِيلًا",
     "textSimple": "وءاتينا موسى ٱلكتـب وجعلنـه هدى لبنىٓ إسرٓءيل ألا تتخذوا من دونى وكيلا",
     "transliteration": "waātaynā mūsā l-kitāba wajaʿalnāhu hudan libanī is'rāīla allā tattakhidhū min dūnī wakīlan",
-    "translation": "",
+    "translation": "And We gave Moses the Scripture and made it a guidance for the Children of Israel that you not take other than Me as Disposer of affairs,",
     "words": [
       {
         "id": "al-isra-2-1",
@@ -257,7 +258,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons donné à Moïse le Livre que Nous avons établi en guide pour les Enfants d’Israël (et y avons prescrit) : « Ne prenez pas d’autre protecteur que Moi. »"
   },
   {
     "id": "al-isra-3",
@@ -266,7 +268,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ ۚ إِنَّهُۥ كَانَ عَبْدًا شَكُورًا",
     "textSimple": "ذرية من حملنا مع نوح  إنه كان عبدا شكورا",
     "transliteration": "dhurriyyata man ḥamalnā maʿa nūḥin innahu kāna ʿabdan shakūran",
-    "translation": "",
+    "translation": "O descendants of those We carried [in the ship] with Noah. Indeed, he was a grateful servant.",
     "words": [
       {
         "id": "al-isra-3-1",
@@ -332,7 +334,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Vous) les descendants de ceux que Nous avons transportés sur l’Arche avec Noé : il était un serviteur très reconnaissant."
   },
   {
     "id": "al-isra-4",
@@ -341,7 +344,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَضَيْنَآ إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ فِى ٱلْكِتَـٰبِ لَتُفْسِدُنَّ فِى ٱلْأَرْضِ مَرَّتَيْنِ وَلَتَعْلُنَّ عُلُوًّا كَبِيرًا",
     "textSimple": "وقضينآ إلى بنىٓ إسرٓءيل فى ٱلكتـب لتفسدن فى ٱلأرض مرتين ولتعلن علوا كبيرا",
     "transliteration": "waqaḍaynā ilā banī is'rāīla fī l-kitābi latuf'sidunna fī l-arḍi marratayni walataʿlunna ʿuluwwan kabīran",
-    "translation": "",
+    "translation": "And We conveyed to the Children of Israel in the Scripture that, \"You will surely cause corruption on the earth twice, and you will surely reach [a degree of] great haughtiness.\"",
     "words": [
       {
         "id": "al-isra-4-1",
@@ -435,7 +438,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons décrété dans le Livre, pour les Enfants d’Israël : « Vous sèmerez à deux reprises la corruption sur terre et vous vous montrerez excessivement hautains. »"
   },
   {
     "id": "al-isra-5",
@@ -444,7 +448,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا جَآءَ وَعْدُ أُولَىٰهُمَا بَعَثْنَا عَلَيْكُمْ عِبَادًا لَّنَآ أُو۟لِى بَأْسٍ شَدِيدٍ فَجَاسُوا۟ خِلَـٰلَ ٱلدِّيَارِ ۚ وَكَانَ وَعْدًا مَّفْعُولًا",
     "textSimple": "فإذا جآء وعد أولىهما بعثنا عليكم عبادا لنآ أولى بأس شديد فجاسوا خلـل ٱلديار  وكان وعدا مفعولا",
     "transliteration": "fa-idhā jāa waʿdu ūlāhumā baʿathnā ʿalaykum ʿibādan lanā ulī basin shadīdin fajāsū khilāla l-diyāri wakāna waʿdan mafʿūlan",
-    "translation": "",
+    "translation": "So when the [time of] promise came for the first of them, We sent against you servants of Ours - those of great military might, and they probed [even] into the homes, and it was a promise fulfilled.",
     "words": [
       {
         "id": "al-isra-5-1",
@@ -566,7 +570,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque sera accomplie la première des deux (promesses), Nous enverrons contre vous certains de Nos serviteurs féroces au combat, qui ravageront vos maisons. Et la promesse, alors, s’accomplira."
   },
   {
     "id": "al-isra-6",
@@ -575,7 +580,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ وَأَمْدَدْنَـٰكُم بِأَمْوَٰلٍ وَبَنِينَ وَجَعَلْنَـٰكُمْ أَكْثَرَ نَفِيرًا",
     "textSimple": "ثم رددنا لكم ٱلكرة عليهم وأمددنـكم بأمول وبنين وجعلنـكم أكثر نفيرا",
     "transliteration": "thumma radadnā lakumu l-karata ʿalayhim wa-amdadnākum bi-amwālin wabanīna wajaʿalnākum akthara nafīran",
-    "translation": "",
+    "translation": "Then We gave back to you a return victory over them. And We reinforced you with wealth and sons and made you more numerous in manpower.",
     "words": [
       {
         "id": "al-isra-6-1",
@@ -655,7 +660,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous vous permettrons de prendre sur eux votre revanche et vous donnerons en renfort des biens et des enfants ; et Nous ferons de vous un peuple plus nombreux."
   },
   {
     "id": "al-isra-7",
@@ -664,7 +670,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ ٱلْـَٔاخِرَةِ لِيَسُـۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ وَلِيُتَبِّرُوا۟ مَا عَلَوْا۟ تَتْبِيرًا",
     "textSimple": "إن أحسنتم أحسنتم لأنفسكم  وإن أسأتم فلها  فإذا جآء وعد ٱلـٔاخرة ليسـٓـٔوا وجوهكم وليدخلوا ٱلمسجد كما دخلوه أول مرة وليتبروا ما علوا تتبيرا",
     "transliteration": "in aḥsantum aḥsantum li-anfusikum wa-in asatum falahā fa-idhā jāa waʿdu l-ākhirati liyasūū wujūhakum waliyadkhulū l-masjida kamā dakhalūhu awwala marratin waliyutabbirū mā ʿalaw tatbīran",
-    "translation": "",
+    "translation": "[And said], \"If you do good, you do good for yourselves; and if you do evil, [you do it] to them [i.e., yourselves].\" Then when the final [i.e., second] promise came, [We sent your enemies] to sadden your faces and to enter the masjid [i.e., the temple in Jerusalem], as they entered it the first time, and to destroy what they had taken over with [total] destruction.",
     "words": [
       {
         "id": "al-isra-7-1",
@@ -828,7 +834,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous faites le bien, vous le ferez certainement pour vous-mêmes ; et si vous faites le mal, ce sera à votre détriment. Et lorsque s’accomplira l’autre promesse, ils viendront marquer d’affliction vos visages, et entreront dans la Mosquée comme ils y étaient entrés la première fois, et dévasteront complètement ce qu’ils auront envahi."
   },
   {
     "id": "al-isra-8",
@@ -837,7 +844,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "عَسَىٰ رَبُّكُمْ أَن يَرْحَمَكُمْ ۚ وَإِنْ عُدتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكَـٰفِرِينَ حَصِيرًا",
     "textSimple": "عسى ربكم أن يرحمكم  وإن عدتم عدنا  وجعلنا جهنم للكـفرين حصيرا",
     "transliteration": "ʿasā rabbukum an yarḥamakum wa-in ʿudttum ʿud'nā wajaʿalnā jahannama lil'kāfirīna ḥaṣīran",
-    "translation": "",
+    "translation": "[Then Allāh said], \"It is expected, [if you repent], that your Lord will have mercy upon you. But if you return [to sin], We will return [to punishment]. And We have made Hell, for the disbelievers, a prison-bed.\"",
     "words": [
       {
         "id": "al-isra-8-1",
@@ -917,7 +924,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur, peut-être, vous fera miséricorde. Mais si vous revenez à la charge, Nous reviendrons aussi. Et Nous avons fait de la Géhenne la prison des mécréants."
   },
   {
     "id": "al-isra-9",
@@ -926,7 +934,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ أَجْرًا كَبِيرًا",
     "textSimple": "إن هـذا ٱلقرءان يهدى للتى هى أقوم ويبشر ٱلمؤمنين ٱلذين يعملون ٱلصـلحـت أن لهم أجرا كبيرا",
     "transliteration": "inna hādhā l-qur'āna yahdī lillatī hiya aqwamu wayubashiru l-mu'minīna alladhīna yaʿmalūna l-ṣāliḥāti anna lahum ajran kabīran",
-    "translation": "",
+    "translation": "Indeed, this Qur’ān guides to that which is most suitable and gives good tidings to the believers who do righteous deeds that they will have a great reward",
     "words": [
       {
         "id": "al-isra-9-1",
@@ -1041,7 +1049,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce Coran conduit vers la voie de la droiture, et annonce aux croyants qui accomplissent les bonnes œuvres qu’ils seront grandement récompensés,"
   },
   {
     "id": "al-isra-10",
@@ -1050,7 +1059,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًا",
     "textSimple": "وأن ٱلذين لا يؤمنون بٱلـٔاخرة أعتدنا لهم عذابا أليما",
     "transliteration": "wa-anna alladhīna lā yu'minūna bil-ākhirati aʿtadnā lahum ʿadhāban alīman",
-    "translation": "",
+    "translation": "And that those who do not believe in the Hereafter - We have prepared for them a painful punishment.",
     "words": [
       {
         "id": "al-isra-10-1",
@@ -1116,7 +1125,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et (annonce de même) à ceux qui ne croient pas en l’autre monde, que Nous leur avons ménagé un supplice très douloureux."
   },
   {
     "id": "al-isra-11",
@@ -1125,7 +1135,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَدْعُ ٱلْإِنسَـٰنُ بِٱلشَّرِّ دُعَآءَهُۥ بِٱلْخَيْرِ ۖ وَكَانَ ٱلْإِنسَـٰنُ عَجُولًا",
     "textSimple": "ويدع ٱلإنسـن بٱلشر دعآءه بٱلخير  وكان ٱلإنسـن عجولا",
     "transliteration": "wayadʿu l-insānu bil-shari duʿāahu bil-khayri wakāna l-insānu ʿajūlan",
-    "translation": "",
+    "translation": "And man supplicates for evil [when angry] as he supplicates for good, and man is ever hasty.",
     "words": [
       {
         "id": "al-isra-11-1",
@@ -1184,7 +1194,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’homme lance des imprécations pour obtenir le mal (contre lui-même et contre les siens) tout comme il prie pour obtenir le bien. C’est que l’homme est extrêmement pressé."
   },
   {
     "id": "al-isra-12",
@@ -1193,7 +1204,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ ءَايَتَيْنِ ۖ فَمَحَوْنَآ ءَايَةَ ٱلَّيْلِ وَجَعَلْنَآ ءَايَةَ ٱلنَّهَارِ مُبْصِرَةً لِّتَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍ فَصَّلْنَـٰهُ تَفْصِيلًا",
     "textSimple": "وجعلنا ٱليل وٱلنهار ءايتين  فمحونآ ءاية ٱليل وجعلنآ ءاية ٱلنهار مبصرة لتبتغوا فضلا من ربكم ولتعلموا عدد ٱلسنين وٱلحساب  وكل شىء فصلنـه تفصيلا",
     "transliteration": "wajaʿalnā al-layla wal-nahāra āyatayni famaḥawnā āyata al-layli wajaʿalnā āyata l-nahāri mub'ṣiratan litabtaghū faḍlan min rabbikum walitaʿlamū ʿadada l-sinīna wal-ḥisāba wakulla shayin faṣṣalnāhu tafṣīlan",
-    "translation": "",
+    "translation": "And We have made the night and day two signs, and We erased the sign of the night and made the sign of the day visible that you may seek bounty from your Lord and may know the number of years and the account [of time]. And everything We have set out in detail.",
     "words": [
       {
         "id": "al-isra-12-1",
@@ -1357,7 +1368,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons fait de la nuit et du jour deux Signes. Nous avons rendu obscur le Signe de la nuit et Nous avons rendu clair le Signe du jour, afin que vous sollicitiez les faveurs de votre Seigneur et que vous sachiez compter les années et calculer le temps. Ainsi avons-Nous exposé toute chose dans l’intimité du détail."
   },
   {
     "id": "al-isra-13",
@@ -1366,7 +1378,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَكُلَّ إِنسَـٰنٍ أَلْزَمْنَـٰهُ طَـٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَـٰمَةِ كِتَـٰبًا يَلْقَىٰهُ مَنشُورًا",
     "textSimple": "وكل إنسـن ألزمنـه طـٓئره فى عنقه  ونخرج له يوم ٱلقيـمة كتـبا يلقىه منشورا",
     "transliteration": "wakulla insānin alzamnāhu ṭāirahu fī ʿunuqihi wanukh'riju lahu yawma l-qiyāmati kitāban yalqāhu manshūran",
-    "translation": "",
+    "translation": "And [for] every person We have imposed his fate upon his neck, and We will produce for him on the Day of Resurrection a record which he will encounter spread open.",
     "words": [
       {
         "id": "al-isra-13-1",
@@ -1460,7 +1472,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons attaché au cou de chaque homme son augure. Et au Jour de la Résurrection, Nous sortirons pour lui un Livre qu’il trouvera déployé (devant lui)."
   },
   {
     "id": "al-isra-14",
@@ -1469,7 +1482,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ٱقْرَأْ كِتَـٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيبًا",
     "textSimple": "ٱقرأ كتـبك كفى بنفسك ٱليوم عليك حسيبا",
     "transliteration": "iq'ra kitābaka kafā binafsika l-yawma ʿalayka ḥasīban",
-    "translation": "",
+    "translation": "[It will be said], \"Read your record. Sufficient is yourself against you this Day as accountant.\"",
     "words": [
       {
         "id": "al-isra-14-1",
@@ -1521,7 +1534,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Lis ton Livre. Il suffira de toi seul aujourd’hui pour te demander des comptes à toi-même », lui sera-t-il dit."
   },
   {
     "id": "al-isra-15",
@@ -1530,7 +1544,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًا",
     "textSimple": "من ٱهتدى فإنما يهتدى لنفسه  ومن ضل فإنما يضل عليها  ولا تزر وازرة وزر أخرى  وما كنا معذبين حتى نبعث رسولا",
     "transliteration": "mani ih'tadā fa-innamā yahtadī linafsihi waman ḍalla fa-innamā yaḍillu ʿalayhā walā taziru wāziratun wiz'ra ukh'rā wamā kunnā muʿadhibīna ḥattā nabʿatha rasūlan",
-    "translation": "",
+    "translation": "Whoever is guided is only guided for [the benefit of] his soul. And whoever errs only errs against it. And no bearer of burdens will bear the burden of another. And never would We punish until We sent a messenger.",
     "words": [
       {
         "id": "al-isra-15-1",
@@ -1680,7 +1694,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui trouve la bonne direction l’aura trouvée pour lui-même (ihtadâ), et celui qui se perd se sera perdu à ses dépens. Nul Ne portera le fardeau d’un autre, et Nous ne sévissons contre aucun peuple auquel Nous n’ayons déjà envoyé un Messager."
   },
   {
     "id": "al-isra-16",
@@ -1689,7 +1704,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَآ أَرَدْنَآ أَن نُّهْلِكَ قَرْيَةً أَمَرْنَا مُتْرَفِيهَا فَفَسَقُوا۟ فِيهَا فَحَقَّ عَلَيْهَا ٱلْقَوْلُ فَدَمَّرْنَـٰهَا تَدْمِيرًا",
     "textSimple": "وإذآ أردنآ أن نهلك قرية أمرنا مترفيها ففسقوا فيها فحق عليها ٱلقول فدمرنـها تدميرا",
     "transliteration": "wa-idhā aradnā an nuh'lika qaryatan amarnā mut'rafīhā fafasaqū fīhā faḥaqqa ʿalayhā l-qawlu fadammarnāhā tadmīran",
-    "translation": "",
+    "translation": "And when We intend to destroy a city, We command its affluent but they defiantly disobey therein; so the word [i.e., deserved decree] comes into effect upon it, and We destroy it with [complete] destruction.",
     "words": [
       {
         "id": "al-isra-16-1",
@@ -1790,7 +1805,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand Nous voulons faire périr une cité, Nous ordonnons à ses hommes les plus fastueux (de Nous obéir), mais ils se livrent à tous les vices. Le verdict contre elle est alors justifié et Nous la démolissons complètement."
   },
   {
     "id": "al-isra-17",
@@ -1799,7 +1815,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ أَهْلَكْنَا مِنَ ٱلْقُرُونِ مِنۢ بَعْدِ نُوحٍ ۗ وَكَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِۦ خَبِيرًۢا بَصِيرًا",
     "textSimple": "وكم أهلكنا من ٱلقرون من بعد نوح  وكفى بربك بذنوب عباده خبيرا بصيرا",
     "transliteration": "wakam ahlaknā mina l-qurūni min baʿdi nūḥin wakafā birabbika bidhunūbi ʿibādihi khabīran baṣīran",
-    "translation": "",
+    "translation": "And how many have We destroyed from the generations after Noah. And sufficient is your Lord, concerning the sins of His servants, as Aware and Seeing.",
     "words": [
       {
         "id": "al-isra-17-1",
@@ -1893,7 +1909,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de nations n’avons-nous pas fait périr après Noé ! Ton Seigneur suffit pour être, des péchés de Ses serviteurs, Informé et Lucide."
   },
   {
     "id": "al-isra-18",
@@ -1902,7 +1919,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ يَصْلَىٰهَا مَذْمُومًا مَّدْحُورًا",
     "textSimple": "من كان يريد ٱلعاجلة عجلنا له فيها ما نشآء لمن نريد ثم جعلنا له جهنم يصلىها مذموما مدحورا",
     "transliteration": "man kāna yurīdu l-ʿājilata ʿajjalnā lahu fīhā mā nashāu liman nurīdu thumma jaʿalnā lahu jahannama yaṣlāhā madhmūman madḥūran",
-    "translation": "",
+    "translation": "Whoever should desire the immediate - We hasten for him from it what We will to whom We intend. Then We have made for him Hell, which he will [enter to] burn, censured and banished.",
     "words": [
       {
         "id": "al-isra-18-1",
@@ -2031,7 +2048,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui veut le monde immédiat, Nous Nous hâtons de lui en accorder ce que Nous voulons à qui Nous voulons. Puis Nous le vouons à la Géhenne où il brûlera, réprouvé et banni."
   },
   {
     "id": "al-isra-19",
@@ -2040,7 +2058,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَرَادَ ٱلْـَٔاخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌ فَأُو۟لَـٰٓئِكَ كَانَ سَعْيُهُم مَّشْكُورًا",
     "textSimple": "ومن أراد ٱلـٔاخرة وسعى لها سعيها وهو مؤمن فأولـٓئك كان سعيهم مشكورا",
     "transliteration": "waman arāda l-ākhirata wasaʿā lahā saʿyahā wahuwa mu'minun fa-ulāika kāna saʿyuhum mashkūran",
-    "translation": "",
+    "translation": "But whoever desires the Hereafter and exerts the effort due to it while he is a believer - it is those whose effort is ever appreciated [by Allāh].",
     "words": [
       {
         "id": "al-isra-19-1",
@@ -2127,7 +2145,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui veulent l’autre monde et s’emploient à y parvenir par les efforts qu’il faut, en ayant la foi, ceux-là (verront) leurs efforts reconnus."
   },
   {
     "id": "al-isra-20",
@@ -2136,7 +2155,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "كُلًّا نُّمِدُّ هَـٰٓؤُلَآءِ وَهَـٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا",
     "textSimple": "كلا نمد هـٓؤلآء وهـٓؤلآء من عطآء ربك  وما كان عطآء ربك محظورا",
     "transliteration": "kullan numiddu hāulāi wahāulāi min ʿaṭāi rabbika wamā kāna ʿaṭāu rabbika maḥẓūran",
-    "translation": "",
+    "translation": "To each [category] We extend - to these and to those - from the gift of your Lord. And never has the gift of your Lord been restricted.",
     "words": [
       {
         "id": "al-isra-20-1",
@@ -2223,7 +2242,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dispensons des dons de ton Seigneur à tous, à ceux-ci et à ceux-là. Les dons de ton Seigneur ne sont défendus (à personne)."
   },
   {
     "id": "al-isra-21",
@@ -2232,7 +2252,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ٱنظُرْ كَيْفَ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ ۚ وَلَلْـَٔاخِرَةُ أَكْبَرُ دَرَجَـٰتٍ وَأَكْبَرُ تَفْضِيلًا",
     "textSimple": "ٱنظر كيف فضلنا بعضهم على بعض  وللـٔاخرة أكبر درجـت وأكبر تفضيلا",
     "transliteration": "unẓur kayfa faḍḍalnā baʿḍahum ʿalā baʿḍin walalākhiratu akbaru darajātin wa-akbaru tafḍīlan",
-    "translation": "",
+    "translation": "Look how We have favored [in provision] some of them over others. But the Hereafter is greater in degrees [of difference] and greater in distinction.",
     "words": [
       {
         "id": "al-isra-21-1",
@@ -2312,7 +2332,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vois comment Nous avons privilégié certains par rapport à d’autres. Dans l’autre monde il y aura de plus hauts degrés encore et de plus grands privilèges."
   },
   {
     "id": "al-isra-22",
@@ -2321,7 +2342,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَتَقْعُدَ مَذْمُومًا مَّخْذُولًا",
     "textSimple": "لا تجعل مع ٱلله إلـها ءاخر فتقعد مذموما مخذولا",
     "transliteration": "lā tajʿal maʿa l-lahi ilāhan ākhara fataqʿuda madhmūman makhdhūlan",
-    "translation": "",
+    "translation": "Do not make [as equal] with Allāh another deity and [thereby] become censured and forsaken.",
     "words": [
       {
         "id": "al-isra-22-1",
@@ -2387,7 +2408,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne prends pas avec Allah une autre divinité, ou alors tu seras réprouvé et délaissé."
   },
   {
     "id": "al-isra-23",
@@ -2396,7 +2418,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
     "textSimple": " وقضى ربك ألا تعبدوٓا إلآ إياه وبٱلولدين إحسـنا  إما يبلغن عندك ٱلكبر أحدهمآ أو كلاهما فلا تقل لهمآ أف ولا تنهرهما وقل لهما قولا كريما",
     "transliteration": "waqaḍā rabbuka allā taʿbudū illā iyyāhu wabil-wālidayni iḥ'sānan immā yablughanna ʿindaka l-kibara aḥaduhumā aw kilāhumā falā taqul lahumā uffin walā tanharhumā waqul lahumā qawlan karīman",
-    "translation": "",
+    "translation": "And your Lord has decreed that you worship not except Him, and to parents, good treatment. Whether one or both of them reach old age [while] with you, say not to them [so much as], \"uff,\" and do not repel them but speak to them a noble word.",
     "words": [
       {
         "id": "al-isra-23-1",
@@ -2574,7 +2596,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur a prononcé le décret que voici : « N’adorez que Lui et (ayez) de la bienveillance envers vos deux parents. Et si l’un d’eux, ou les deux ensemble, atteignent auprès de toi le grand âge, ne leur dis point « Fi (de vous) ! » et ne les rabroue pas, mais dis-leur des mots gentils."
   },
   {
     "id": "al-isra-24",
@@ -2583,7 +2606,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
     "textSimple": "وٱخفض لهما جناح ٱلذل من ٱلرحمة وقل رب ٱرحمهما كما ربيانى صغيرا",
     "transliteration": "wa-ikh'fiḍ lahumā janāḥa l-dhuli mina l-raḥmati waqul rabbi ir'ḥamhumā kamā rabbayānī ṣaghīran",
-    "translation": "",
+    "translation": "And lower to them the wing of humility out of mercy and say, \"My Lord, have mercy upon them as they brought me up [when I was] small.\"",
     "words": [
       {
         "id": "al-isra-24-1",
@@ -2670,7 +2693,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Abaisse vers eux, par miséricorde, l’aile de l’humilité et dis : « Seigneur, veuille leur accorder miséricorde, comme ils m’ont élevé tout petit ! »"
   },
   {
     "id": "al-isra-25",
@@ -2679,7 +2703,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ ۚ إِن تَكُونُوا۟ صَـٰلِحِينَ فَإِنَّهُۥ كَانَ لِلْأَوَّٰبِينَ غَفُورًا",
     "textSimple": "ربكم أعلم بما فى نفوسكم  إن تكونوا صـلحين فإنه كان للأوبين غفورا",
     "transliteration": "rabbukum aʿlamu bimā fī nufūsikum in takūnū ṣāliḥīna fa-innahu kāna lil'awwābīna ghafūran",
-    "translation": "",
+    "translation": "Your Lord is most knowing of what is within yourselves. If you should be righteous [in intention] - then indeed He is ever, to the often returning [to Him], Forgiving.",
     "words": [
       {
         "id": "al-isra-25-1",
@@ -2766,7 +2790,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur Sait le mieux ce qu’il y a au fond de vous-mêmes. Si vous êtes bons, Il est Absoluteur pour ceux qui savent revenir vers Lui, repentants."
   },
   {
     "id": "al-isra-26",
@@ -2775,7 +2800,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ وَلَا تُبَذِّرْ تَبْذِيرًا",
     "textSimple": "وءات ذا ٱلقربى حقه وٱلمسكين وٱبن ٱلسبيل ولا تبذر تبذيرا",
     "transliteration": "waāti dhā l-qur'bā ḥaqqahu wal-mis'kīna wa-ib'na l-sabīli walā tubadhir tabdhīran",
-    "translation": "",
+    "translation": "And give the relative his right, and [also] the poor and the traveler, and do not spend wastefully.",
     "words": [
       {
         "id": "al-isra-26-1",
@@ -2848,7 +2873,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Donne ce qui leur est dû au proche parent, au pauvre et au voyageur de grand chemin, et ne dilapide pas les biens ouvertement."
   },
   {
     "id": "al-isra-27",
@@ -2857,7 +2883,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُبَذِّرِينَ كَانُوٓا۟ إِخْوَٰنَ ٱلشَّيَـٰطِينِ ۖ وَكَانَ ٱلشَّيْطَـٰنُ لِرَبِّهِۦ كَفُورًا",
     "textSimple": "إن ٱلمبذرين كانوٓا إخون ٱلشيـطين  وكان ٱلشيطـن لربه كفورا",
     "transliteration": "inna l-mubadhirīna kānū ikh'wāna l-shayāṭīni wakāna l-shayṭānu lirabbihi kafūran",
-    "translation": "",
+    "translation": "Indeed, the wasteful are brothers of the devils, and ever has Satan been to his Lord ungrateful.",
     "words": [
       {
         "id": "al-isra-27-1",
@@ -2923,7 +2949,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les dilapidateurs sont les frères des démons, et Satan est outrageusement ingrat envers son Seigneur !"
   },
   {
     "id": "al-isra-28",
@@ -2932,7 +2959,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا",
     "textSimple": "وإما تعرضن عنهم ٱبتغآء رحمة من ربك ترجوها فقل لهم قولا ميسورا",
     "transliteration": "wa-immā tuʿ'riḍanna ʿanhumu ib'tighāa raḥmatin min rabbika tarjūhā faqul lahum qawlan maysūran",
-    "translation": "",
+    "translation": "And if you [must] turn away from them [i.e., the needy] awaiting mercy from your Lord which you expect, then speak to them a gentle word.",
     "words": [
       {
         "id": "al-isra-28-1",
@@ -3019,7 +3046,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu te détournes d’eux, parce que tu aspires à la miséricorde de ton Seigneur, tiens-leur un langage avenant."
   },
   {
     "id": "al-isra-29",
@@ -3028,7 +3056,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ فَتَقْعُدَ مَلُومًا مَّحْسُورًا",
     "textSimple": "ولا تجعل يدك مغلولة إلى عنقك ولا تبسطها كل ٱلبسط فتقعد ملوما محسورا",
     "transliteration": "walā tajʿal yadaka maghlūlatan ilā ʿunuqika walā tabsuṭ'hā kulla l-basṭi fataqʿuda malūman maḥsūran",
-    "translation": "",
+    "translation": "And do not make your hand [as] chained to your neck or extend it completely and [thereby] become blamed and insolvent.",
     "words": [
       {
         "id": "al-isra-29-1",
@@ -3122,7 +3150,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne garde pas ta main enchaînée à ton cou, ni ne l’étends exagérément, ou tu t’en trouveras blâmé et plein de regrets."
   },
   {
     "id": "al-isra-30",
@@ -3131,7 +3160,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًا",
     "textSimple": "إن ربك يبسط ٱلرزق لمن يشآء ويقدر  إنه كان بعباده خبيرا بصيرا",
     "transliteration": "inna rabbaka yabsuṭu l-riz'qa liman yashāu wayaqdiru innahu kāna biʿibādihi khabīran baṣīran",
-    "translation": "",
+    "translation": "Indeed, your Lord extends provision for whom He wills and restricts [it]. Indeed He is ever, concerning His servants, Aware and Seeing.",
     "words": [
       {
         "id": "al-isra-30-1",
@@ -3218,7 +3247,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur étend Ses dons pour qui Il veut ou les dispense avec mesure. Il est, de Ses serviteurs, Informé et Lucide."
   },
   {
     "id": "al-isra-31",
@@ -3227,7 +3257,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُمْ خَشْيَةَ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ خِطْـًٔا كَبِيرًا",
     "textSimple": "ولا تقتلوٓا أولـدكم خشية إملـق  نحن نرزقهم وإياكم  إن قتلهم كان خطـٔا كبيرا",
     "transliteration": "walā taqtulū awlādakum khashyata im'lāqin naḥnu narzuquhum wa-iyyākum inna qatlahum kāna khiṭ'an kabīran",
-    "translation": "",
+    "translation": "And do not kill your children for fear of poverty. We provide for them and for you. Indeed, their killing is ever a great sin.",
     "words": [
       {
         "id": "al-isra-31-1",
@@ -3321,7 +3351,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne tuez pas vos enfants par peur de la pauvreté. Nous assurons leur subsistance et la vôtre. C’est une énorme faute que de les tuer."
   },
   {
     "id": "al-isra-32",
@@ -3330,7 +3361,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةً وَسَآءَ سَبِيلًا",
     "textSimple": "ولا تقربوا ٱلزنىٓ  إنه كان فـحشة وسآء سبيلا",
     "transliteration": "walā taqrabū l-zinā innahu kāna fāḥishatan wasāa sabīlan",
-    "translation": "",
+    "translation": "And do not approach unlawful sexual intercourse. Indeed, it is ever an immorality and is evil as a way.",
     "words": [
       {
         "id": "al-isra-32-1",
@@ -3389,7 +3420,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’approchez pas la fornication, car c’est une turpitude et quel horrible chemin."
   },
   {
     "id": "al-isra-33",
@@ -3398,7 +3430,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۗ وَمَن قُتِلَ مَظْلُومًا فَقَدْ جَعَلْنَا لِوَلِيِّهِۦ سُلْطَـٰنًا فَلَا يُسْرِف فِّى ٱلْقَتْلِ ۖ إِنَّهُۥ كَانَ مَنصُورًا",
     "textSimple": "ولا تقتلوا ٱلنفس ٱلتى حرم ٱلله إلا بٱلحق  ومن قتل مظلوما فقد جعلنا لوليه سلطـنا فلا يسرف فى ٱلقتل  إنه كان منصورا",
     "transliteration": "walā taqtulū l-nafsa allatī ḥarrama l-lahu illā bil-ḥaqi waman qutila maẓlūman faqad jaʿalnā liwaliyyihi sul'ṭānan falā yus'rif fī l-qatli innahu kāna manṣūran",
-    "translation": "",
+    "translation": "And do not kill the soul [i.e., person] which Allāh has forbidden, except by right. And whoever is killed unjustly - We have given his heir authority, but let him not exceed limits in [the matter of] taking life. Indeed, he has been supported [by the law].",
     "words": [
       {
         "id": "al-isra-33-1",
@@ -3555,7 +3587,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ôtez la vie qu’Allah a rendue sacrée qu’en toute justice. Quant à celui qui serait tué injustement, Nous avons donné à son représentant le pouvoir (de réclamer justice). Que celui-ci ne se laisse pas aller à tuer exagérément, car il a le soutien de la loi."
   },
   {
     "id": "al-isra-34",
@@ -3564,7 +3597,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۚ وَأَوْفُوا۟ بِٱلْعَهْدِ ۖ إِنَّ ٱلْعَهْدَ كَانَ مَسْـُٔولًا",
     "textSimple": "ولا تقربوا مال ٱليتيم إلا بٱلتى هى أحسن حتى يبلغ أشده  وأوفوا بٱلعهد  إن ٱلعهد كان مسـٔولا",
     "transliteration": "walā taqrabū māla l-yatīmi illā bi-allatī hiya aḥsanu ḥattā yablugha ashuddahu wa-awfū bil-ʿahdi inna l-ʿahda kāna masūlan",
-    "translation": "",
+    "translation": "And do not approach the property of an orphan, except in the way that is best, until he reaches maturity. And fulfill [every] commitment. Indeed, the commitment is ever [that about which one will be] questioned.",
     "words": [
       {
         "id": "al-isra-34-1",
@@ -3686,7 +3719,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et n’approchez pas les biens de l’orphelin, sauf de la meilleure façon qui convienne et jusqu’à ce qu’il atteigne sa majorité. Honorez vos engagements car vous aurez à répondre de vos engagements."
   },
   {
     "id": "al-isra-35",
@@ -3695,7 +3729,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
     "textSimple": "وأوفوا ٱلكيل إذا كلتم وزنوا بٱلقسطاس ٱلمستقيم  ذلك خير وأحسن تأويلا",
     "transliteration": "wa-awfū l-kayla idhā kil'tum wazinū bil-qis'ṭāsi l-mus'taqīmi dhālika khayrun wa-aḥsanu tawīlan",
-    "translation": "",
+    "translation": "And give full measure when you measure, and weigh with an even [i.e., honest] balance. That is the best [way] and best in result.",
     "words": [
       {
         "id": "al-isra-35-1",
@@ -3775,7 +3809,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Donnez la bonne mesure quand vous avez à mesurer ; servez-vous d’une balance exacte quand vous avez (quelque chose) à peser. Cela vaut bien mieux et la conséquence n’en sera que meilleure."
   },
   {
     "id": "al-isra-36",
@@ -3784,7 +3819,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۚ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَـٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًا",
     "textSimple": "ولا تقف ما ليس لك به علم  إن ٱلسمع وٱلبصر وٱلفؤاد كل أولـٓئك كان عنه مسـٔولا",
     "transliteration": "walā taqfu mā laysa laka bihi ʿil'mun inna l-samʿa wal-baṣara wal-fuāda kullu ulāika kāna ʿanhu masūlan",
-    "translation": "",
+    "translation": "And do not pursue that of which you have no knowledge. Indeed, the hearing, the sight and the heart - about all those [one] will be questioned.",
     "words": [
       {
         "id": "al-isra-36-1",
@@ -3899,7 +3934,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne poursuis pas ce dont tu ne détiens pas la science. L’ouïe, la vue et le cœur, de tout cela il sera demandé des comptes."
   },
   {
     "id": "al-isra-37",
@@ -3908,7 +3944,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
     "textSimple": "ولا تمش فى ٱلأرض مرحا  إنك لن تخرق ٱلأرض ولن تبلغ ٱلجبال طولا",
     "transliteration": "walā tamshi fī l-arḍi maraḥan innaka lan takhriqa l-arḍa walan tablugha l-jibāla ṭūlan",
-    "translation": "",
+    "translation": "And do not walk upon the earth exultantly. Indeed, you will never tear the earth [apart], and you will never reach the mountains in height.",
     "words": [
       {
         "id": "al-isra-37-1",
@@ -4002,7 +4038,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne marche pas sur terre plein de fatuité : tu ne saurais (de tes pieds) fendre le sol, ni (de ta tête) atteindre à la hauteur des montagnes."
   },
   {
     "id": "al-isra-38",
@@ -4011,7 +4048,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "كُلُّ ذَٰلِكَ كَانَ سَيِّئُهُۥ عِندَ رَبِّكَ مَكْرُوهًا",
     "textSimple": "كل ذلك كان سيئه عند ربك مكروها",
     "transliteration": "kullu dhālika kāna sayyi-uhu ʿinda rabbika makrūhan",
-    "translation": "",
+    "translation": "All that [i.e., the aforementioned] - its evil is ever, in the sight of your Lord, detested.",
     "words": [
       {
         "id": "al-isra-38-1",
@@ -4063,7 +4100,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce que cela comporte de mauvais est exécré de ton Seigneur."
   },
   {
     "id": "al-isra-39",
@@ -4072,7 +4110,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ مِمَّآ أَوْحَىٰٓ إِلَيْكَ رَبُّكَ مِنَ ٱلْحِكْمَةِ ۗ وَلَا تَجْعَلْ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَتُلْقَىٰ فِى جَهَنَّمَ مَلُومًا مَّدْحُورًا",
     "textSimple": "ذلك ممآ أوحىٓ إليك ربك من ٱلحكمة  ولا تجعل مع ٱلله إلـها ءاخر فتلقى فى جهنم ملوما مدحورا",
     "transliteration": "dhālika mimmā awḥā ilayka rabbuka mina l-ḥik'mati walā tajʿal maʿa l-lahi ilāhan ākhara fatul'qā fī jahannama malūman madḥūran",
-    "translation": "",
+    "translation": "That is from what your Lord has revealed to you, [O Muḥammad], of wisdom. And, [O mankind], do not make [as equal] with Allāh another deity, lest you be thrown into Hell, blamed and banished.",
     "words": [
       {
         "id": "al-isra-39-1",
@@ -4201,7 +4239,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà ce que ton Seigneur t’a révélé comme sagesse. Ne prends pas avec Allah une autre divinité, ou alors tu seras jeté dans la Géhenne, blâmé et banni."
   },
   {
     "id": "al-isra-40",
@@ -4210,7 +4249,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَأَصْفَىٰكُمْ رَبُّكُم بِٱلْبَنِينَ وَٱتَّخَذَ مِنَ ٱلْمَلَـٰٓئِكَةِ إِنَـٰثًا ۚ إِنَّكُمْ لَتَقُولُونَ قَوْلًا عَظِيمًا",
     "textSimple": "أفأصفىكم ربكم بٱلبنين وٱتخذ من ٱلملـٓئكة إنـثا  إنكم لتقولون قولا عظيما",
     "transliteration": "afa-aṣfākum rabbukum bil-banīna wa-ittakhadha mina l-malāikati ināthan innakum lataqūlūna qawlan ʿaẓīman",
-    "translation": "",
+    "translation": "Then, has your Lord chosen you for [having] sons and taken [i.e., adopted] from among the angels daughters? Indeed, you say a grave saying.",
     "words": [
       {
         "id": "al-isra-40-1",
@@ -4290,7 +4329,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur vous aurait-Il réservé les enfants mâles et Se serait donné des filles parmi les Anges ? Ce que vous dites là est une abomination !"
   },
   {
     "id": "al-isra-41",
@@ -4299,7 +4339,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَرَّفْنَا فِى هَـٰذَا ٱلْقُرْءَانِ لِيَذَّكَّرُوا۟ وَمَا يَزِيدُهُمْ إِلَّا نُفُورًا",
     "textSimple": "ولقد صرفنا فى هـذا ٱلقرءان ليذكروا وما يزيدهم إلا نفورا",
     "transliteration": "walaqad ṣarrafnā fī hādhā l-qur'āni liyadhakkarū wamā yazīduhum illā nufūran",
-    "translation": "",
+    "translation": "And We have certainly diversified [the contents] in this Qur’ān that they [i.e., mankind] may be reminded, but it does not increase them [i.e., the disbelievers] except in aversion.",
     "words": [
       {
         "id": "al-isra-41-1",
@@ -4372,7 +4412,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons tout détaillé dans ce Coran afin qu’ils y réfléchissent, mais cela ne fait qu’accentuer leur aversion."
   },
   {
     "id": "al-isra-42",
@@ -4381,7 +4422,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّوْ كَانَ مَعَهُۥٓ ءَالِهَةٌ كَمَا يَقُولُونَ إِذًا لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًا",
     "textSimple": "قل لو كان معهٓ ءالهة كما يقولون إذا لٱبتغوا إلى ذى ٱلعرش سبيلا",
     "transliteration": "qul law kāna maʿahu ālihatun kamā yaqūlūna idhan la-ib'taghaw ilā dhī l-ʿarshi sabīlan",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"If there had been with Him [other] gods, as they say, then they [each] would have sought to the Owner of the Throne a way.\"",
     "words": [
       {
         "id": "al-isra-42-1",
@@ -4475,7 +4516,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si, comme ils le prétendent, il y avait d’autres divinités avec Lui, elles chercheraient un chemin pour parvenir au Maître du Trône ! »"
   },
   {
     "id": "al-isra-43",
@@ -4484,7 +4526,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يَقُولُونَ عُلُوًّا كَبِيرًا",
     "textSimple": "سبحـنه وتعـلى عما يقولون علوا كبيرا",
     "transliteration": "sub'ḥānahu wataʿālā ʿammā yaqūlūna ʿuluwwan kabīran",
-    "translation": "",
+    "translation": "Exalted is He and high above what they say by great sublimity.",
     "words": [
       {
         "id": "al-isra-43-1",
@@ -4529,7 +4571,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire Lui soit rendue ! Il est bien au-dessus de tout ce qu’ils disent !"
   },
   {
     "id": "al-isra-44",
@@ -4538,7 +4581,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "تُسَبِّحُ لَهُ ٱلسَّمَـٰوَٰتُ ٱلسَّبْعُ وَٱلْأَرْضُ وَمَن فِيهِنَّ ۚ وَإِن مِّن شَىْءٍ إِلَّا يُسَبِّحُ بِحَمْدِهِۦ وَلَـٰكِن لَّا تَفْقَهُونَ تَسْبِيحَهُمْ ۗ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًا",
     "textSimple": "تسبح له ٱلسمـوت ٱلسبع وٱلأرض ومن فيهن  وإن من شىء إلا يسبح بحمده ولـكن لا تفقهون تسبيحهم  إنه كان حليما غفورا",
     "transliteration": "tusabbiḥu lahu l-samāwātu l-sabʿu wal-arḍu waman fīhinna wa-in min shayin illā yusabbiḥu biḥamdihi walākin lā tafqahūna tasbīḥahum innahu kāna ḥalīman ghafūran",
-    "translation": "",
+    "translation": "The seven heavens and the earth and whatever is in them exalt Him. And there is not a thing except that it exalts [Allāh] by His praise, but you do not understand their [way of] exalting. Indeed, He is ever Forbearing and Forgiving.",
     "words": [
       {
         "id": "al-isra-44-1",
@@ -4688,7 +4731,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les sept cieux, la terre, et tous ceux qui y sont, Lui rendent gloire. Il n’est rien qui ne Lui rende gloire et ne célèbre Ses louanges, mais vous ne comprenez pas leurs glorifications. Il est Longanime et Absoluteur."
   },
   {
     "id": "al-isra-45",
@@ -4697,7 +4741,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ حِجَابًا مَّسْتُورًا",
     "textSimple": "وإذا قرأت ٱلقرءان جعلنا بينك وبين ٱلذين لا يؤمنون بٱلـٔاخرة حجابا مستورا",
     "transliteration": "wa-idhā qarata l-qur'āna jaʿalnā baynaka wabayna alladhīna lā yu'minūna bil-ākhirati ḥijāban mastūran",
-    "translation": "",
+    "translation": "And when you recite the Qur’ān, We put between you and those who do not believe in the Hereafter a concealed partition.",
     "words": [
       {
         "id": "al-isra-45-1",
@@ -4784,7 +4828,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand tu lis le Coran, Nous mettons entre toi et ceux qui ne croient pas en l’autre monde un rideau invisible."
   },
   {
     "id": "al-isra-46",
@@ -4793,7 +4838,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَـٰرِهِمْ نُفُورًا",
     "textSimple": "وجعلنا على قلوبهم أكنة أن يفقهوه وفىٓ ءاذانهم وقرا  وإذا ذكرت ربك فى ٱلقرءان وحده ولوا علىٓ أدبـرهم نفورا",
     "transliteration": "wajaʿalnā ʿalā qulūbihim akinnatan an yafqahūhu wafī ādhānihim waqran wa-idhā dhakarta rabbaka fī l-qur'āni waḥdahu wallaw ʿalā adbārihim nufūran",
-    "translation": "",
+    "translation": "And We have placed over their hearts coverings, lest they understand it, and in their ears deafness. And when you mention your Lord alone in the Qur’ān, they turn back in aversion.",
     "words": [
       {
         "id": "al-isra-46-1",
@@ -4929,7 +4974,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons mis sur leurs cœurs des voiles pour qu’ils ne le comprennent pas et rendu leurs oreilles dures. Et lorsque, dans le Coran, tu évoques le nom de ton Seigneur Lui Seul, ils tournent le dos, par aversion."
   },
   {
     "id": "al-isra-47",
@@ -4938,7 +4984,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "نَّحْنُ أَعْلَمُ بِمَا يَسْتَمِعُونَ بِهِۦٓ إِذْ يَسْتَمِعُونَ إِلَيْكَ وَإِذْ هُمْ نَجْوَىٰٓ إِذْ يَقُولُ ٱلظَّـٰلِمُونَ إِن تَتَّبِعُونَ إِلَّا رَجُلًا مَّسْحُورًا",
     "textSimple": "نحن أعلم بما يستمعون بهٓ إذ يستمعون إليك وإذ هم نجوىٓ إذ يقول ٱلظـلمون إن تتبعون إلا رجلا مسحورا",
     "transliteration": "naḥnu aʿlamu bimā yastamiʿūna bihi idh yastamiʿūna ilayka wa-idh hum najwā idh yaqūlu l-ẓālimūna in tattabiʿūna illā rajulan masḥūran",
-    "translation": "",
+    "translation": "We are most knowing of how they listen to it when they listen to you and [of] when they are in private conversation, when the wrongdoers say, \"You follow not but a man affected by magic.\"",
     "words": [
       {
         "id": "al-isra-47-1",
@@ -5074,7 +5120,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous Savons mieux (que nul autre) comment ils t’écoutent. Quand ils viennent t’écouter puis quand ils se disent des choses tout bas, les injustes concluent : « Celui que vous suivez n’est qu’un homme ensorcelé ! »"
   },
   {
     "id": "al-isra-48",
@@ -5083,7 +5130,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ٱنظُرْ كَيْفَ ضَرَبُوا۟ لَكَ ٱلْأَمْثَالَ فَضَلُّوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًا",
     "textSimple": "ٱنظر كيف ضربوا لك ٱلأمثال فضلوا فلا يستطيعون سبيلا",
     "transliteration": "unẓur kayfa ḍarabū laka l-amthāla faḍallū falā yastaṭīʿūna sabīlan",
-    "translation": "",
+    "translation": "Look how they strike for you comparisons; but they have strayed, so they cannot [find] a way.",
     "words": [
       {
         "id": "al-isra-48-1",
@@ -5149,7 +5196,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà à quoi ils t’assimilent ! Ils se sont égarés et ne sauront retrouver leur chemin."
   },
   {
     "id": "al-isra-49",
@@ -5158,7 +5206,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَـٰمًا وَرُفَـٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًا جَدِيدًا",
     "textSimple": "وقالوٓا أءذا كنا عظـما ورفـتا أءنا لمبعوثون خلقا جديدا",
     "transliteration": "waqālū a-idhā kunnā ʿiẓāman warufātan a-innā lamabʿūthūna khalqan jadīdan",
-    "translation": "",
+    "translation": "And they say, \"When we are bones and crumbled particles, will we [truly] be resurrected as a new creation?\"",
     "words": [
       {
         "id": "al-isra-49-1",
@@ -5224,7 +5272,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Se peut-il qu’après avoir été réduits à des os et de la poussière, nous soyons ressuscités en une nouvelle création ? »"
   },
   {
     "id": "al-isra-50",
@@ -5233,7 +5282,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "۞ قُلْ كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا",
     "textSimple": " قل كونوا حجارة أو حديدا",
     "transliteration": "qul kūnū ḥijāratan aw ḥadīdan",
-    "translation": "",
+    "translation": "Say, \"Be you stones or iron",
     "words": [
       {
         "id": "al-isra-50-1",
@@ -5271,7 +5320,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Soyez pierre ou fer,"
   },
   {
     "id": "al-isra-51",
@@ -5280,7 +5330,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ خَلْقًا مِّمَّا يَكْبُرُ فِى صُدُورِكُمْ ۚ فَسَيَقُولُونَ مَن يُعِيدُنَا ۖ قُلِ ٱلَّذِى فَطَرَكُمْ أَوَّلَ مَرَّةٍ ۚ فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ ۖ قُلْ عَسَىٰٓ أَن يَكُونَ قَرِيبًا",
     "textSimple": "أو خلقا مما يكبر فى صدوركم  فسيقولون من يعيدنا  قل ٱلذى فطركم أول مرة  فسينغضون إليك رءوسهم ويقولون متى هو  قل عسىٓ أن يكون قريبا",
     "transliteration": "aw khalqan mimmā yakburu fī ṣudūrikum fasayaqūlūna man yuʿīdunā quli alladhī faṭarakum awwala marratin fasayun'ghiḍūna ilayka ruūsahum wayaqūlūna matā huwa qul ʿasā an yakūna qarīban",
-    "translation": "",
+    "translation": "Or [any] creation of that which is great within your breasts.\" And they will say, \"Who will restore us?\" Say, \"He who brought you forth the first time.\" Then they will nod their heads toward you and say, \"When is that?\" Say, \"Perhaps it will be soon -",
     "words": [
       {
         "id": "al-isra-51-1",
@@ -5458,7 +5508,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou une autre créature, quelque grande qu’elle soit à vos yeux », ils diront toujours : « Qui nous fera revenir (à la vie)? » Dis : « Celui Qui vous a créés la première fois. » Ils hocheront la tête et diront : « Et quand cela ? » Réponds : « Cela est peut-être tout proche. »"
   },
   {
     "id": "al-isra-52",
@@ -5467,7 +5518,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَدْعُوكُمْ فَتَسْتَجِيبُونَ بِحَمْدِهِۦ وَتَظُنُّونَ إِن لَّبِثْتُمْ إِلَّا قَلِيلًا",
     "textSimple": "يوم يدعوكم فتستجيبون بحمده وتظنون إن لبثتم إلا قليلا",
     "transliteration": "yawma yadʿūkum fatastajībūna biḥamdihi wataẓunnūna in labith'tum illā qalīlan",
-    "translation": "",
+    "translation": "On the Day He will call you and you will respond with praise of Him and think that you had not remained [in the world] except for a little.\"",
     "words": [
       {
         "id": "al-isra-52-1",
@@ -5533,7 +5584,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Il vous appellera (à Lui), vous répondrez (à Sa volonté) en célébrant Ses louanges, et vous croirez n’être restés que peu de temps (sur terre)."
   },
   {
     "id": "al-isra-53",
@@ -5542,7 +5594,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ ٱلشَّيْطَـٰنَ يَنزَغُ بَيْنَهُمْ ۚ إِنَّ ٱلشَّيْطَـٰنَ كَانَ لِلْإِنسَـٰنِ عَدُوًّا مُّبِينًا",
     "textSimple": "وقل لعبادى يقولوا ٱلتى هى أحسن  إن ٱلشيطـن ينزغ بينهم  إن ٱلشيطـن كان للإنسـن عدوا مبينا",
     "transliteration": "waqul liʿibādī yaqūlū allatī hiya aḥsanu inna l-shayṭāna yanzaghu baynahum inna l-shayṭāna kāna lil'insāni ʿaduwwan mubīnan",
-    "translation": "",
+    "translation": "And tell My servants to say that which is best. Indeed, Satan induces [dissension] among them. Indeed Satan is ever, to mankind, a clear enemy.",
     "words": [
       {
         "id": "al-isra-53-1",
@@ -5657,7 +5709,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis à Mes serviteurs de tenir le meilleur langage (qui convienne), car Satan aime à semer entre eux la discorde. Satan est certes pour l’homme un ennemi avéré."
   },
   {
     "id": "al-isra-54",
@@ -5666,7 +5719,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "رَّبُّكُمْ أَعْلَمُ بِكُمْ ۖ إِن يَشَأْ يَرْحَمْكُمْ أَوْ إِن يَشَأْ يُعَذِّبْكُمْ ۚ وَمَآ أَرْسَلْنَـٰكَ عَلَيْهِمْ وَكِيلًا",
     "textSimple": "ربكم أعلم بكم  إن يشأ يرحمكم أو إن يشأ يعذبكم  ومآ أرسلنـك عليهم وكيلا",
     "transliteration": "rabbukum aʿlamu bikum in yasha yarḥamkum aw in yasha yuʿadhib'kum wamā arsalnāka ʿalayhim wakīlan",
-    "translation": "",
+    "translation": "Your Lord is most knowing of you. If He wills, He will have mercy upon you; or if He wills, He will punish you. And We have not sent you, [O Muḥammad], over them as a manager.",
     "words": [
       {
         "id": "al-isra-54-1",
@@ -5767,7 +5820,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur en Sait mieux sur vous. S’Il veut, Il vous accueille volontiers dans Sa grâce, et s’Il veut, Il vous soumet au supplice. Nous ne t’avons pas envoyé vers eux pour être leur répondant."
   },
   {
     "id": "al-isra-55",
@@ -5776,7 +5830,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَرَبُّكَ أَعْلَمُ بِمَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَلَقَدْ فَضَّلْنَا بَعْضَ ٱلنَّبِيِّـۧنَ عَلَىٰ بَعْضٍ ۖ وَءَاتَيْنَا دَاوُۥدَ زَبُورًا",
     "textSimple": "وربك أعلم بمن فى ٱلسمـوت وٱلأرض  ولقد فضلنا بعض ٱلنبيـن على بعض  وءاتينا داود زبورا",
     "transliteration": "warabbuka aʿlamu biman fī l-samāwāti wal-arḍi walaqad faḍḍalnā baʿḍa l-nabiyīna ʿalā baʿḍin waātaynā dāwūda zabūran",
-    "translation": "",
+    "translation": "And your Lord is most knowing of whoever is in the heavens and the earth. And We have made some of the prophets exceed others [in various ways], and to David We gave the book [of Psalms].",
     "words": [
       {
         "id": "al-isra-55-1",
@@ -5884,7 +5938,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ton Seigneur en Sait mieux sur ceux qui sont dans les cieux et sur terre. Nous avons certes privilégié certains Prophètes par rapport à d’autres et Nous avons donné à David les Psaumes (le Zabûr)."
   },
   {
     "id": "al-isra-56",
@@ -5893,7 +5948,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِهِۦ فَلَا يَمْلِكُونَ كَشْفَ ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا",
     "textSimple": "قل ٱدعوا ٱلذين زعمتم من دونه فلا يملكون كشف ٱلضر عنكم ولا تحويلا",
     "transliteration": "quli id'ʿū alladhīna zaʿamtum min dūnihi falā yamlikūna kashfa l-ḍuri ʿankum walā taḥwīlan",
-    "translation": "",
+    "translation": "Say, \"Invoke those you have claimed [as gods] besides Him, for they do not possess the [ability for] removal of adversity from you or [for its] transfer [to someone else].\"",
     "words": [
       {
         "id": "al-isra-56-1",
@@ -5987,7 +6042,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Invoquez donc ceux que vous prétendez (être Ses émules) en dehors de Lui. Ils ne détiennent ni le pouvoir de vous éviter le mal ni de le détourner (de vous). »"
   },
   {
     "id": "al-isra-57",
@@ -5996,7 +6052,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًا",
     "textSimple": "أولـٓئك ٱلذين يدعون يبتغون إلى ربهم ٱلوسيلة أيهم أقرب ويرجون رحمته ويخافون عذابهٓ  إن عذاب ربك كان محذورا",
     "transliteration": "ulāika alladhīna yadʿūna yabtaghūna ilā rabbihimu l-wasīlata ayyuhum aqrabu wayarjūna raḥmatahu wayakhāfūna ʿadhābahu inna ʿadhāba rabbika kāna maḥdhūran",
-    "translation": "",
+    "translation": "Those whom they invoke seek means of access to their Lord, [striving as to] which of them would be nearest, and they hope for His mercy and fear His punishment. Indeed, the punishment of your Lord is ever feared.",
     "words": [
       {
         "id": "al-isra-57-1",
@@ -6125,7 +6181,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qu’ils invoquent aspirent eux-mêmes, à l’envi, à trouver un moyen qui les rapproche de leur Seigneur. Ils espèrent Sa grâce et redoutent Son supplice. Car le supplice de ton Seigneur est vraiment redoutable !"
   },
   {
     "id": "al-isra-58",
@@ -6134,7 +6191,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن مِّن قَرْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ ٱلْقِيَـٰمَةِ أَوْ مُعَذِّبُوهَا عَذَابًا شَدِيدًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَـٰبِ مَسْطُورًا",
     "textSimple": "وإن من قرية إلا نحن مهلكوها قبل يوم ٱلقيـمة أو معذبوها عذابا شديدا  كان ذلك فى ٱلكتـب مسطورا",
     "transliteration": "wa-in min qaryatin illā naḥnu muh'likūhā qabla yawmi l-qiyāmati aw muʿadhibūhā ʿadhāban shadīdan kāna dhālika fī l-kitābi masṭūran",
-    "translation": "",
+    "translation": "And there is no city but that We will destroy it before the Day of Resurrection or punish it with a severe punishment. That has ever been in the Register inscribed.",
     "words": [
       {
         "id": "al-isra-58-1",
@@ -6263,7 +6320,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est point de cité que Nous ne fassions périr avant le Jour de la Résurrection, ou contre laquelle Nous ne sévissions par un terrible supplice. Cela est inscrit dans le Livre éternel."
   },
   {
     "id": "al-isra-59",
@@ -6272,7 +6330,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مَنَعَنَآ أَن نُّرْسِلَ بِٱلْـَٔايَـٰتِ إِلَّآ أَن كَذَّبَ بِهَا ٱلْأَوَّلُونَ ۚ وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةً فَظَلَمُوا۟ بِهَا ۚ وَمَا نُرْسِلُ بِٱلْـَٔايَـٰتِ إِلَّا تَخْوِيفًا",
     "textSimple": "وما منعنآ أن نرسل بٱلـٔايـت إلآ أن كذب بها ٱلأولون  وءاتينا ثمود ٱلناقة مبصرة فظلموا بها  وما نرسل بٱلـٔايـت إلا تخويفا",
     "transliteration": "wamā manaʿanā an nur'sila bil-āyāti illā an kadhaba bihā l-awalūna waātaynā thamūda l-nāqata mub'ṣiratan faẓalamū bihā wamā nur'silu bil-āyāti illā takhwīfan",
-    "translation": "",
+    "translation": "And nothing has prevented Us from sending signs [i.e., miracles] except that the former peoples denied them. And We gave Thamūd the she-camel as a visible sign, but they wronged her. And We send not the signs except as a warning.",
     "words": [
       {
         "id": "al-isra-59-1",
@@ -6422,7 +6480,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce qui Nous empêche d’envoyer des miracles est qu’ils furent déjà traités de mensonges par les premiers (peuples). Nous avons donné au peuple des Thamûd la chamelle comme miracle évident, mais ils la maltraitèrent injustement. Nous n’envoyons les miracles que pour faire peur."
   },
   {
     "id": "al-isra-60",
@@ -6431,7 +6490,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَـٰكَ إِلَّا فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَـٰنًا كَبِيرًا",
     "textSimple": "وإذ قلنا لك إن ربك أحاط بٱلناس  وما جعلنا ٱلرءيا ٱلتىٓ أرينـك إلا فتنة للناس وٱلشجرة ٱلملعونة فى ٱلقرءان  ونخوفهم فما يزيدهم إلا طغيـنا كبيرا",
     "transliteration": "wa-idh qul'nā laka inna rabbaka aḥāṭa bil-nāsi wamā jaʿalnā l-ru'yā allatī araynāka illā fit'natan lilnnāsi wal-shajarata l-malʿūnata fī l-qur'āni wanukhawwifuhum famā yazīduhum illā ṭugh'yānan kabīran",
-    "translation": "",
+    "translation": "And [remember, O Muḥammad], when We told you, \"Indeed, your Lord has encompassed the people.\" And We did not make the sight which We showed you except as a trial for the people, as was the accursed tree [mentioned] in the Qur’ān. And We threaten [i.e., warn] them, but it increases them not except in great transgression.",
     "words": [
       {
         "id": "al-isra-60-1",
@@ -6609,7 +6668,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Rappelle-toi) lorsque Nous t’avons dit que Ton Seigneur cerne les hommes de toutes parts. La vision que Nous t’avons montrée n’était qu’une mise à l’épreuve pour les hommes, tout comme l’arbre maudit cité dans le Coran. Nous leur faisons peur (pour les intimider) et ils n’en sont que plus rebelles."
   },
   {
     "id": "al-isra-61",
@@ -6618,7 +6678,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ قَالَ ءَأَسْجُدُ لِمَنْ خَلَقْتَ طِينًا",
     "textSimple": "وإذ قلنا للملـٓئكة ٱسجدوا لـٔادم فسجدوٓا إلآ إبليس قال ءأسجد لمن خلقت طينا",
     "transliteration": "wa-idh qul'nā lil'malāikati us'judū liādama fasajadū illā ib'līsa qāla a-asjudu liman khalaqta ṭīnan",
-    "translation": "",
+    "translation": "And [mention] when We said to the angels, \"Prostrate to Adam,\" and they prostrated, except for Iblees. He said, \"Should I prostrate to one You created from clay?\"",
     "words": [
       {
         "id": "al-isra-61-1",
@@ -6712,7 +6772,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (rappelle-toi aussi) lorsque Nous dîmes aux Anges : « Prosternez-vous devant Adam ! » et qu’ils se prosternèrent sauf Iblîs, qui dit : « Me prosternerai-je devant celui que Tu as créé d’argile ? »"
   },
   {
     "id": "al-isra-62",
@@ -6721,7 +6782,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَرَءَيْتَكَ هَـٰذَا ٱلَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًا",
     "textSimple": "قال أرءيتك هـذا ٱلذى كرمت على لئن أخرتن إلى يوم ٱلقيـمة لأحتنكن ذريتهٓ إلا قليلا",
     "transliteration": "qāla ara-aytaka hādhā alladhī karramta ʿalayya la-in akhartani ilā yawmi l-qiyāmati la-aḥtanikanna dhurriyyatahu illā qalīlan",
-    "translation": "",
+    "translation": "[Iblees] said, \"Do You see this one whom You have honored above me? If You delay me [i.e., my death] until the Day of Resurrection, I will surely destroy his descendants, except for a few.\"",
     "words": [
       {
         "id": "al-isra-62-1",
@@ -6829,7 +6890,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis il ajouta : « Vois-Tu celui-là que Tu as honoré plus que moi ? Eh bien, si Tu m’accordes un sursis jusqu’au Jour de la Résurrection, je m’emploierai à dévoyer sa descendance, hormis un petit nombre. »"
   },
   {
     "id": "al-isra-63",
@@ -6838,7 +6900,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱذْهَبْ فَمَن تَبِعَكَ مِنْهُمْ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمْ جَزَآءً مَّوْفُورًا",
     "textSimple": "قال ٱذهب فمن تبعك منهم فإن جهنم جزآؤكم جزآء موفورا",
     "transliteration": "qāla idh'hab faman tabiʿaka min'hum fa-inna jahannama jazāukum jazāan mawfūran",
-    "translation": "",
+    "translation": "[Allāh] said, \"Go, for whoever of them follows you, indeed Hell will be the recompense of [all of] you - an ample recompense.",
     "words": [
       {
         "id": "al-isra-63-1",
@@ -6911,7 +6973,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) dit : « Va-t-en ! Toi et quiconque parmi eux te suivra vous aurez pour récompense l’Enfer, large récompense s’il en est."
   },
   {
     "id": "al-isra-64",
@@ -6920,7 +6983,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَـٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَـٰنُ إِلَّا غُرُورًا",
     "textSimple": "وٱستفزز من ٱستطعت منهم بصوتك وأجلب عليهم بخيلك ورجلك وشاركهم فى ٱلأمول وٱلأولـد وعدهم  وما يعدهم ٱلشيطـن إلا غرورا",
     "transliteration": "wa-is'tafziz mani is'taṭaʿta min'hum biṣawtika wa-ajlib ʿalayhim bikhaylika warajilika washārik'hum fī l-amwāli wal-awlādi waʿid'hum wamā yaʿiduhumu l-shayṭānu illā ghurūran",
-    "translation": "",
+    "translation": "And incite [to senselessness] whoever you can among them with your voice and assault them with your horses and foot soldiers and become a partner in their wealth and their children and promise them.\" But Satan does not promise them except delusion.",
     "words": [
       {
         "id": "al-isra-64-1",
@@ -7056,7 +7119,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Attire de ta voix ceux que tu pourras, mobilise contre eux et ta cavalerie et ta piétaille, sois leur associé dans leurs biens et leur progéniture, et fais- leur des promesses. Mais les promesses de Satan ne sont que leurre et duperie."
   },
   {
     "id": "al-isra-65",
@@ -7065,7 +7129,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَـٰنٌ ۚ وَكَفَىٰ بِرَبِّكَ وَكِيلًا",
     "textSimple": "إن عبادى ليس لك عليهم سلطـن  وكفى بربك وكيلا",
     "transliteration": "inna ʿibādī laysa laka ʿalayhim sul'ṭānun wakafā birabbika wakīlan",
-    "translation": "",
+    "translation": "Indeed, over My [believing] servants there is for you no authority. And sufficient is your Lord as Disposer of affairs.",
     "words": [
       {
         "id": "al-isra-65-1",
@@ -7131,7 +7195,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sur Mes serviteurs, en vérité, tu n’as aucune autorité. Que ton Seigneur suffise pour être leur Protecteur ! »"
   },
   {
     "id": "al-isra-66",
@@ -7140,7 +7205,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًا",
     "textSimple": "ربكم ٱلذى يزجى لكم ٱلفلك فى ٱلبحر لتبتغوا من فضلهٓ  إنه كان بكم رحيما",
     "transliteration": "rabbukumu alladhī yuz'jī lakumu l-ful'ka fī l-baḥri litabtaghū min faḍlihi innahu kāna bikum raḥīman",
-    "translation": "",
+    "translation": "It is your Lord who drives the ship for you through the sea that you may seek of His bounty. Indeed, He is ever, to you, Merciful.",
     "words": [
       {
         "id": "al-isra-66-1",
@@ -7241,7 +7306,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seigneur est Celui Qui fait voguer pour vous les vaisseaux en mer pour que vous partiez quêter de Ses faveurs. Il est certes, pour vous, Tout Miséricordieux."
   },
   {
     "id": "al-isra-67",
@@ -7250,7 +7316,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِى ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلَّآ إِيَّاهُ ۖ فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَـٰنُ كَفُورًا",
     "textSimple": "وإذا مسكم ٱلضر فى ٱلبحر ضل من تدعون إلآ إياه  فلما نجىكم إلى ٱلبر أعرضتم  وكان ٱلإنسـن كفورا",
     "transliteration": "wa-idhā massakumu l-ḍuru fī l-baḥri ḍalla man tadʿūna illā iyyāhu falammā najjākum ilā l-bari aʿraḍtum wakāna l-insānu kafūran",
-    "translation": "",
+    "translation": "And when adversity touches you at sea, lost are [all] those you invoke except for Him. But when He delivers you to the land, you turn away [from Him]. And ever is man ungrateful.",
     "words": [
       {
         "id": "al-isra-67-1",
@@ -7379,7 +7445,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si un malheur vous atteint en mer, ceux que vous invoquiez en dehors de Lui se dispersent d’autour de vous. Mais aussitôt que Lui vous sauve et vous ramène sur la terre ferme, vous vous détournez. L’homme est outrageusement ingrat !"
   },
   {
     "id": "al-isra-68",
@@ -7388,7 +7455,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَأَمِنتُمْ أَن يَخْسِفَ بِكُمْ جَانِبَ ٱلْبَرِّ أَوْ يُرْسِلَ عَلَيْكُمْ حَاصِبًا ثُمَّ لَا تَجِدُوا۟ لَكُمْ وَكِيلًا",
     "textSimple": "أفأمنتم أن يخسف بكم جانب ٱلبر أو يرسل عليكم حاصبا ثم لا تجدوا لكم وكيلا",
     "transliteration": "afa-amintum an yakhsifa bikum jāniba l-bari aw yur'sila ʿalaykum ḥāṣiban thumma lā tajidū lakum wakīlan",
-    "translation": "",
+    "translation": "Then do you feel secure that [instead] He will not cause a part of the land to swallow you or send against you a storm of stones? Then you would not find for yourselves an advocate.",
     "words": [
       {
         "id": "al-isra-68-1",
@@ -7496,7 +7563,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Êtes-vous donc si assurés (une fois que vous êtes à nouveau sur la terre ferme) qu’Il ne fasse s’effondrer le sol sous vos pieds pour vous y ensevelir, ou qu’Il ne vous envoie une pluie de pierres ? Alors vous ne trouverez aucun protecteur."
   },
   {
     "id": "al-isra-69",
@@ -7505,7 +7573,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَىٰ فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًا",
     "textSimple": "أم أمنتم أن يعيدكم فيه تارة أخرى فيرسل عليكم قاصفا من ٱلريح فيغرقكم بما كفرتم  ثم لا تجدوا لكم علينا به تبيعا",
     "transliteration": "am amintum an yuʿīdakum fīhi tāratan ukh'rā fayur'sila ʿalaykum qāṣifan mina l-rīḥi fayugh'riqakum bimā kafartum thumma lā tajidū lakum ʿalaynā bihi tabīʿan",
-    "translation": "",
+    "translation": "Or do you feel secure that He will not send you back into it [i.e., the sea] another time and send upon you a hurricane of wind and drown you for what you denied? Then you would not find for yourselves against Us an avenger.",
     "words": [
       {
         "id": "al-isra-69-1",
@@ -7662,7 +7730,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou peut-être êtes-vous sûrs qu’Il ne vous ramènera pas une autre fois (en haute mer) pour vous envoyer un ouragan dévastateur, qui vous engloutira pour votre mécréance ! Alors vous ne trouverez aucun recours contre Nous."
   },
   {
     "id": "al-isra-70",
@@ -7671,7 +7740,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَقَدْ كَرَّمْنَا بَنِىٓ ءَادَمَ وَحَمَلْنَـٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَـٰهُم مِّنَ ٱلطَّيِّبَـٰتِ وَفَضَّلْنَـٰهُمْ عَلَىٰ كَثِيرٍ مِّمَّنْ خَلَقْنَا تَفْضِيلًا",
     "textSimple": " ولقد كرمنا بنىٓ ءادم وحملنـهم فى ٱلبر وٱلبحر ورزقنـهم من ٱلطيبـت وفضلنـهم على كثير ممن خلقنا تفضيلا",
     "transliteration": "walaqad karramnā banī ādama waḥamalnāhum fī l-bari wal-baḥri warazaqnāhum mina l-ṭayibāti wafaḍḍalnāhum ʿalā kathīrin mimman khalaqnā tafḍīlan",
-    "translation": "",
+    "translation": "And We have certainly honored the children of Adam and carried them on the land and sea and provided for them of the good things and preferred them over much of what We have created, with [definite] preference.",
     "words": [
       {
         "id": "al-isra-70-1",
@@ -7793,7 +7862,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons honoré les fils d’Adam. Nous les avons transportés sur terre et sur mer, leur avons dispensé de Nos meilleures nourritures, et les avons manifestement privilégiés par rapport à nombre de Nos créatures."
   },
   {
     "id": "al-isra-71",
@@ -7802,7 +7872,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ نَدْعُوا۟ كُلَّ أُنَاسٍۭ بِإِمَـٰمِهِمْ ۖ فَمَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ فَأُو۟لَـٰٓئِكَ يَقْرَءُونَ كِتَـٰبَهُمْ وَلَا يُظْلَمُونَ فَتِيلًا",
     "textSimple": "يوم ندعوا كل أناس بإمـمهم  فمن أوتى كتـبه بيمينه فأولـٓئك يقرءون كتـبهم ولا يظلمون فتيلا",
     "transliteration": "yawma nadʿū kulla unāsin bi-imāmihim faman ūtiya kitābahu biyamīnihi fa-ulāika yaqraūna kitābahum walā yuẓ'lamūna fatīlan",
-    "translation": "",
+    "translation": "[Mention, O Muḥammad], the Day We will call forth every people with their record [of deeds]. Then whoever is given his record in his right hand - those will read their records, and injustice will not be done to them, [even] as much as a thread [inside the date seed].",
     "words": [
       {
         "id": "al-isra-71-1",
@@ -7910,7 +7980,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour (viendra) où Nous appellerons toute communauté par son chef. Ceux à qui leur Livre sera mis dans la main droite le liront (avec joie) et ne seront pas lésés d’un cheveu."
   },
   {
     "id": "al-isra-72",
@@ -7919,7 +7990,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن كَانَ فِى هَـٰذِهِۦٓ أَعْمَىٰ فَهُوَ فِى ٱلْـَٔاخِرَةِ أَعْمَىٰ وَأَضَلُّ سَبِيلًا",
     "textSimple": "ومن كان فى هـذهٓ أعمى فهو فى ٱلـٔاخرة أعمى وأضل سبيلا",
     "transliteration": "waman kāna fī hādhihi aʿmā fahuwa fī l-ākhirati aʿmā wa-aḍallu sabīlan",
-    "translation": "",
+    "translation": "And whoever is blind in this [life] will be blind in the Hereafter and more astray in way.",
     "words": [
       {
         "id": "al-isra-72-1",
@@ -7999,7 +8070,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui aura été aveugle en ce bas monde, il sera tout aussi aveugle dans l’autre monde, et plus égaré du droit chemin."
   },
   {
     "id": "al-isra-73",
@@ -8008,7 +8080,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَادُوا۟ لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ ۖ وَإِذًا لَّٱتَّخَذُوكَ خَلِيلًا",
     "textSimple": "وإن كادوا ليفتنونك عن ٱلذىٓ أوحينآ إليك لتفترى علينا غيره  وإذا لٱتخذوك خليلا",
     "transliteration": "wa-in kādū layaftinūnaka ʿani alladhī awḥaynā ilayka litaftariya ʿalaynā ghayrahu wa-idhan la-ittakhadhūka khalīlan",
-    "translation": "",
+    "translation": "And indeed, they were about to tempt you away from that which We revealed to you in order to [make] you invent about Us something else; and then they would have taken you as a friend.",
     "words": [
       {
         "id": "al-isra-73-1",
@@ -8102,7 +8174,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’en est fallu de peu qu’ils ne t’aient tenté et détourné de ce que Nous t’avons révélé, pour te conduire à Nous prêter d’autres révélations inventées (de toutes pièces). Ils t’auraient pris alors pour leur ami le plus proche."
   },
   {
     "id": "al-isra-74",
@@ -8111,7 +8184,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَآ أَن ثَبَّتْنَـٰكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًٔا قَلِيلًا",
     "textSimple": "ولولآ أن ثبتنـك لقد كدت تركن إليهم شيـٔا قليلا",
     "transliteration": "walawlā an thabbatnāka laqad kidtta tarkanu ilayhim shayan qalīlan",
-    "translation": "",
+    "translation": "And if We had not strengthened you, you would have almost inclined to them a little.",
     "words": [
       {
         "id": "al-isra-74-1",
@@ -8177,7 +8250,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si Nous n’avions pas affermi ta position, tu aurais quelque peu penché pour eux."
   },
   {
     "id": "al-isra-75",
@@ -8186,7 +8260,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِذًا لَّأَذَقْنَـٰكَ ضِعْفَ ٱلْحَيَوٰةِ وَضِعْفَ ٱلْمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيْنَا نَصِيرًا",
     "textSimple": "إذا لأذقنـك ضعف ٱلحيوة وضعف ٱلممات ثم لا تجد لك علينا نصيرا",
     "transliteration": "idhan la-adhaqnāka ḍiʿ'fa l-ḥayati waḍiʿ'fa l-mamāti thumma lā tajidu laka ʿalaynā naṣīran",
-    "translation": "",
+    "translation": "Then [if you had], We would have made you taste double [punishment in] life and double [after] death. Then you would not find for yourself against Us a helper.",
     "words": [
       {
         "id": "al-isra-75-1",
@@ -8273,7 +8347,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’aurions alors fait goûter le double du (tourment) dans la vie et dans la mort, puis tu n’aurais trouvé aucun soutien contre Nous."
   },
   {
     "id": "al-isra-76",
@@ -8282,7 +8357,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَادُوا۟ لَيَسْتَفِزُّونَكَ مِنَ ٱلْأَرْضِ لِيُخْرِجُوكَ مِنْهَا ۖ وَإِذًا لَّا يَلْبَثُونَ خِلَـٰفَكَ إِلَّا قَلِيلًا",
     "textSimple": "وإن كادوا ليستفزونك من ٱلأرض ليخرجوك منها  وإذا لا يلبثون خلـفك إلا قليلا",
     "transliteration": "wa-in kādū layastafizzūnaka mina l-arḍi liyukh'rijūka min'hā wa-idhan lā yalbathūna khilāfaka illā qalīlan",
-    "translation": "",
+    "translation": "And indeed, they were about to provoke [i.e., drive] you from the land [i.e., Makkah] to evict you therefrom. And then [when they do], they will not remain [there] after you, except for a little.",
     "words": [
       {
         "id": "al-isra-76-1",
@@ -8376,7 +8451,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils faillirent, en vérité, te pousser à quitter le pays. Mais alors, ils n’y seraient demeurés que peu de temps après toi."
   },
   {
     "id": "al-isra-77",
@@ -8385,7 +8461,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "سُنَّةَ مَن قَدْ أَرْسَلْنَا قَبْلَكَ مِن رُّسُلِنَا ۖ وَلَا تَجِدُ لِسُنَّتِنَا تَحْوِيلًا",
     "textSimple": "سنة من قد أرسلنا قبلك من رسلنا  ولا تجد لسنتنا تحويلا",
     "transliteration": "sunnata man qad arsalnā qablaka min rusulinā walā tajidu lisunnatinā taḥwīlan",
-    "translation": "",
+    "translation": "[That is Our] established way for those We had sent before you of Our messengers; and you will not find in Our way any alteration.",
     "words": [
       {
         "id": "al-isra-77-1",
@@ -8465,7 +8541,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà la tradition suivie par ceux, d’entre Nos Messagers, que Nous avons envoyés avant toi. Tu ne trouveras rien de changé à Notre tradition."
   },
   {
     "id": "al-isra-78",
@@ -8474,7 +8551,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا",
     "textSimple": "أقم ٱلصلوة لدلوك ٱلشمس إلى غسق ٱليل وقرءان ٱلفجر  إن قرءان ٱلفجر كان مشهودا",
     "transliteration": "aqimi l-ṣalata lidulūki l-shamsi ilā ghasaqi al-layli waqur'āna l-fajri inna qur'āna l-fajri kāna mashhūdan",
-    "translation": "",
+    "translation": "Establish prayer at the decline of the sun [from its meridian] until the darkness of the night and [also] the Qur’ān [i.e., recitation] of dawn. Indeed, the recitation of dawn is ever witnessed.",
     "words": [
       {
         "id": "al-isra-78-1",
@@ -8575,7 +8652,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Accomplis la Çalât depuis le déclin du soleil jusqu’aux premières obscurités de la nuit, et (récite aussi) le Coran à l’aube, car à (la lecture) du Coran de l’aube assistent des (Anges) témoins."
   },
   {
     "id": "al-isra-79",
@@ -8584,7 +8662,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةً لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا",
     "textSimple": "ومن ٱليل فتهجد به نافلة لك عسىٓ أن يبعثك ربك مقاما محمودا",
     "transliteration": "wamina al-layli fatahajjad bihi nāfilatan laka ʿasā an yabʿathaka rabbuka maqāman maḥmūdan",
-    "translation": "",
+    "translation": "And from [part of] the night, pray with it [i.e., recitation of the Qur’ān] as additional [worship] for you; it is expected that your Lord will resurrect you to a praised station.",
     "words": [
       {
         "id": "al-isra-79-1",
@@ -8671,7 +8749,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Réveille-toi une partie de la nuit pour réciter (le Coran) dans tes prières surérogatoires, afin que ton Seigneur, peut-être, te ressuscite élevé à une dignité louable."
   },
   {
     "id": "al-isra-80",
@@ -8680,7 +8759,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقُل رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَـٰنًا نَّصِيرًا",
     "textSimple": "وقل رب أدخلنى مدخل صدق وأخرجنى مخرج صدق وٱجعل لى من لدنك سلطـنا نصيرا",
     "transliteration": "waqul rabbi adkhil'nī mud'khala ṣid'qin wa-akhrij'nī mukh'raja ṣid'qin wa-ij'ʿal lī min ladunka sul'ṭānan naṣīran",
-    "translation": "",
+    "translation": "And say, \"My Lord, cause me to enter a sound entrance and to exit a sound exit and grant me from Yourself a supporting authority.\"",
     "words": [
       {
         "id": "al-isra-80-1",
@@ -8781,7 +8860,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Seigneur ! Veuille me faire entrer d’une entrée heureuse et me faire sortir d’une sortie (tout aussi) heureuse. Fais que me soient accordés, de Ta part, pouvoir et soutien."
   },
   {
     "id": "al-isra-81",
@@ -8790,7 +8870,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَـٰطِلُ ۚ إِنَّ ٱلْبَـٰطِلَ كَانَ زَهُوقًا",
     "textSimple": "وقل جآء ٱلحق وزهق ٱلبـطل  إن ٱلبـطل كان زهوقا",
     "transliteration": "waqul jāa l-ḥaqu wazahaqa l-bāṭilu inna l-bāṭila kāna zahūqan",
-    "translation": "",
+    "translation": "And say, \"Truth has come, and falsehood has departed. Indeed is falsehood, [by nature], ever bound to depart.\"",
     "words": [
       {
         "id": "al-isra-81-1",
@@ -8856,7 +8936,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « La vérité est venue, l’erreur s’en est allée, car l’erreur ne peut que s’en aller. »"
   },
   {
     "id": "al-isra-82",
@@ -8865,7 +8946,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّـٰلِمِينَ إِلَّا خَسَارًا",
     "textSimple": "وننزل من ٱلقرءان ما هو شفآء ورحمة للمؤمنين  ولا يزيد ٱلظـلمين إلا خسارا",
     "transliteration": "wanunazzilu mina l-qur'āni mā huwa shifāon waraḥmatun lil'mu'minīna walā yazīdu l-ẓālimīna illā khasāran",
-    "translation": "",
+    "translation": "And We send down of the Qur’ān that which is healing and mercy for the believers, but it does not increase the wrongdoers except in loss.",
     "words": [
       {
         "id": "al-isra-82-1",
@@ -8959,7 +9040,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dans le Coran, Nous envoyons ce qui est guérison et miséricorde pour les croyants. Mais il ne fait qu’ajouter à la perdition des injustes."
   },
   {
     "id": "al-isra-83",
@@ -8968,7 +9050,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَـٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًا",
     "textSimple": "وإذآ أنعمنا على ٱلإنسـن أعرض ونـٔا بجانبه  وإذا مسه ٱلشر كان يـٔوسا",
     "transliteration": "wa-idhā anʿamnā ʿalā l-insāni aʿraḍa wanaā bijānibihi wa-idhā massahu l-sharu kāna yaūsan",
-    "translation": "",
+    "translation": "And when We bestow favor upon man [i.e., the disbeliever], he turns away and distances himself; and when evil touches him, he is ever despairing.",
     "words": [
       {
         "id": "al-isra-83-1",
@@ -9055,7 +9137,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aussitôt que Nous le comblons de Nos grâces, l’homme se détourne et se retire loin de Nous, mais dès qu’un mal l’affecte, voilà qu’il désespère !"
   },
   {
     "id": "al-isra-84",
@@ -9064,7 +9147,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ كُلٌّ يَعْمَلُ عَلَىٰ شَاكِلَتِهِۦ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًا",
     "textSimple": "قل كل يعمل على شاكلته فربكم أعلم بمن هو أهدى سبيلا",
     "transliteration": "qul kullun yaʿmalu ʿalā shākilatihi farabbukum aʿlamu biman huwa ahdā sabīlan",
-    "translation": "",
+    "translation": "Say, \"Each works according to his manner, but your Lord is most knowing of who is best guided in way.\"",
     "words": [
       {
         "id": "al-isra-84-1",
@@ -9144,7 +9227,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Chacun agit comme il l’entend, mais votre Seigneur Sait mieux qui suit le meilleur chemin. »"
   },
   {
     "id": "al-isra-85",
@@ -9153,7 +9237,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْـَٔلُونَكَ عَنِ ٱلرُّوحِ ۖ قُلِ ٱلرُّوحُ مِنْ أَمْرِ رَبِّى وَمَآ أُوتِيتُم مِّنَ ٱلْعِلْمِ إِلَّا قَلِيلًا",
     "textSimple": "ويسـٔلونك عن ٱلروح  قل ٱلروح من أمر ربى ومآ أوتيتم من ٱلعلم إلا قليلا",
     "transliteration": "wayasalūnaka ʿani l-rūḥi quli l-rūḥu min amri rabbī wamā ūtītum mina l-ʿil'mi illā qalīlan",
-    "translation": "",
+    "translation": "And they ask you, [O Muḥammad], about the soul. Say, \"The soul is of the affair [i.e., concern] of my Lord. And you [i.e., mankind] have not been given of knowledge except a little.\"",
     "words": [
       {
         "id": "al-isra-85-1",
@@ -9254,7 +9338,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent à propos de l’âme. Dis : « L’âme est du ressort de mon Seigneur, et il ne vous a été donné que très peu de science. »"
   },
   {
     "id": "al-isra-86",
@@ -9263,7 +9348,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ ثُمَّ لَا تَجِدُ لَكَ بِهِۦ عَلَيْنَا وَكِيلًا",
     "textSimple": "ولئن شئنا لنذهبن بٱلذىٓ أوحينآ إليك ثم لا تجد لك به علينا وكيلا",
     "transliteration": "wala-in shi'nā lanadhhabanna bi-alladhī awḥaynā ilayka thumma lā tajidu laka bihi ʿalaynā wakīlan",
-    "translation": "",
+    "translation": "And if We willed, We could surely do away with that which We revealed to you. Then you would not find for yourself concerning it an advocate against Us.",
     "words": [
       {
         "id": "al-isra-86-1",
@@ -9357,7 +9442,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si nous voulions, Nous ferions certes disparaître tout ce que Nous t’avons révélé ; alors tu ne trouverais personne pour te défendre auprès de Nous,"
   },
   {
     "id": "al-isra-87",
@@ -9366,7 +9452,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا رَحْمَةً مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًا",
     "textSimple": "إلا رحمة من ربك  إن فضله كان عليك كبيرا",
     "transliteration": "illā raḥmatan min rabbika inna faḍlahu kāna ʿalayka kabīran",
-    "translation": "",
+    "translation": "Except [We have left it with you] as a mercy from your Lord. Indeed, His favor upon you has ever been great.",
     "words": [
       {
         "id": "al-isra-87-1",
@@ -9432,7 +9518,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais il n’en est rien, par miséricorde de ton Seigneur, car Ses faveurs envers toi sont immenses."
   },
   {
     "id": "al-isra-88",
@@ -9441,7 +9528,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّئِنِ ٱجْتَمَعَتِ ٱلْإِنسُ وَٱلْجِنُّ عَلَىٰٓ أَن يَأْتُوا۟ بِمِثْلِ هَـٰذَا ٱلْقُرْءَانِ لَا يَأْتُونَ بِمِثْلِهِۦ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيرًا",
     "textSimple": "قل لئن ٱجتمعت ٱلإنس وٱلجن علىٓ أن يأتوا بمثل هـذا ٱلقرءان لا يأتون بمثله ولو كان بعضهم لبعض ظهيرا",
     "transliteration": "qul la-ini ij'tamaʿati l-insu wal-jinu ʿalā an yatū bimith'li hādhā l-qur'āni lā yatūna bimith'lihi walaw kāna baʿḍuhum libaʿḍin ẓahīran",
-    "translation": "",
+    "translation": "Say, \"If mankind and the jinn gathered in order to produce the like of this Qur’ān, they could not produce the like of it, even if they were to each other assistants.\"",
     "words": [
       {
         "id": "al-isra-88-1",
@@ -9577,7 +9664,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Quand bien même les hommes et les djinns s’uniraient pour produire quelque chose de semblable au Coran, ils ne produiraient rien qui lui soit semblable, fussent-ils en cela très solidaires les uns des autres. »"
   },
   {
     "id": "al-isra-89",
@@ -9586,7 +9674,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ صَرَّفْنَا لِلنَّاسِ فِى هَـٰذَا ٱلْقُرْءَانِ مِن كُلِّ مَثَلٍ فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ إِلَّا كُفُورًا",
     "textSimple": "ولقد صرفنا للناس فى هـذا ٱلقرءان من كل مثل فأبىٓ أكثر ٱلناس إلا كفورا",
     "transliteration": "walaqad ṣarrafnā lilnnāsi fī hādhā l-qur'āni min kulli mathalin fa-abā aktharu l-nāsi illā kufūran",
-    "translation": "",
+    "translation": "And We have certainly diversified for the people in this Qur’ān from every [kind of] example, but most of the people refused except disbelief.",
     "words": [
       {
         "id": "al-isra-89-1",
@@ -9687,7 +9775,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons, dans ce Coran, détaillé toutes sortes d’exemples pour les hommes. Mais la plupart des hommes refusent obstinément de renoncer à la mécréance."
   },
   {
     "id": "al-isra-90",
@@ -9696,7 +9785,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَن نُّؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا",
     "textSimple": "وقالوا لن نؤمن لك حتى تفجر لنا من ٱلأرض ينبوعا",
     "transliteration": "waqālū lan nu'mina laka ḥattā tafjura lanā mina l-arḍi yanbūʿan",
-    "translation": "",
+    "translation": "And they say, \"We will not believe you until you break open for us from the ground a spring",
     "words": [
       {
         "id": "al-isra-90-1",
@@ -9769,7 +9858,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Nous ne croirons pas en toi avant que tu ne fasses jaillir de la terre une source (inépuisable),"
   },
   {
     "id": "al-isra-91",
@@ -9778,7 +9868,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ تَكُونَ لَكَ جَنَّةٌ مِّن نَّخِيلٍ وَعِنَبٍ فَتُفَجِّرَ ٱلْأَنْهَـٰرَ خِلَـٰلَهَا تَفْجِيرًا",
     "textSimple": "أو تكون لك جنة من نخيل وعنب فتفجر ٱلأنهـر خلـلها تفجيرا",
     "transliteration": "aw takūna laka jannatun min nakhīlin waʿinabin fatufajjira l-anhāra khilālahā tafjīran",
-    "translation": "",
+    "translation": "Or [until] you have a garden of palm trees and grapes and make rivers gush forth within them in force [and abundance]",
     "words": [
       {
         "id": "al-isra-91-1",
@@ -9858,7 +9948,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou que, dans un jardin de palmiers et de vignes que tu possèdes toi-même, tu ne fasses sourdre maints torrents d’abondantes eaux vives ;"
   },
   {
     "id": "al-isra-92",
@@ -9867,7 +9958,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَـٰٓئِكَةِ قَبِيلًا",
     "textSimple": "أو تسقط ٱلسمآء كما زعمت علينا كسفا أو تأتى بٱلله وٱلملـٓئكة قبيلا",
     "transliteration": "aw tus'qiṭa l-samāa kamā zaʿamta ʿalaynā kisafan aw tatiya bil-lahi wal-malāikati qabīlan",
-    "translation": "",
+    "translation": "Or you make the heaven fall upon us in fragments as you have claimed or you bring Allāh and the angels before [us]",
     "words": [
       {
         "id": "al-isra-92-1",
@@ -9954,7 +10045,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou que, comme tu le prétends, tu ne fasses tomber sur nous le ciel par pans entiers, ou ne fasses se tenir devant nous Allah et Ses Anges ;"
   },
   {
     "id": "al-isra-93",
@@ -9963,7 +10055,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ يَكُونَ لَكَ بَيْتٌ مِّن زُخْرُفٍ أَوْ تَرْقَىٰ فِى ٱلسَّمَآءِ وَلَن نُّؤْمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَـٰبًا نَّقْرَؤُهُۥ ۗ قُلْ سُبْحَانَ رَبِّى هَلْ كُنتُ إِلَّا بَشَرًا رَّسُولًا",
     "textSimple": "أو يكون لك بيت من زخرف أو ترقى فى ٱلسمآء ولن نؤمن لرقيك حتى تنزل علينا كتـبا نقرؤه  قل سبحان ربى هل كنت إلا بشرا رسولا",
     "transliteration": "aw yakūna laka baytun min zukh'rufin aw tarqā fī l-samāi walan nu'mina liruqiyyika ḥattā tunazzila ʿalaynā kitāban naqra-uhu qul sub'ḥāna rabbī hal kuntu illā basharan rasūlan",
-    "translation": "",
+    "translation": "Or you have a house of ornament [i.e., gold] or you ascend into the sky. And [even then], we will not believe in your ascension until you bring down to us a book we may read.\" Say, \"Exalted is my Lord! Was I ever but a human messenger?\"",
     "words": [
       {
         "id": "al-isra-93-1",
@@ -10148,7 +10240,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ou que tu n’aies une maison richement ornementée, ou que tu ne t’élèves jusqu’au ciel : là encore nous ne croirons point à ton élévation avant que tu n’aies fait descendre un Livre que nous puissions lire. » Dis : « Gloire soit rendue à mon Seigneur ! Suis-je autre chose qu’un homme et qu’un Messager ? »"
   },
   {
     "id": "al-isra-94",
@@ -10157,7 +10250,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰٓ إِلَّآ أَن قَالُوٓا۟ أَبَعَثَ ٱللَّهُ بَشَرًا رَّسُولًا",
     "textSimple": "وما منع ٱلناس أن يؤمنوٓا إذ جآءهم ٱلهدىٓ إلآ أن قالوٓا أبعث ٱلله بشرا رسولا",
     "transliteration": "wamā manaʿa l-nāsa an yu'minū idh jāahumu l-hudā illā an qālū abaʿatha l-lahu basharan rasūlan",
-    "translation": "",
+    "translation": "And what prevented the people from believing when guidance came to them except that they said, \"Has Allāh sent a human messenger?\"",
     "words": [
       {
         "id": "al-isra-94-1",
@@ -10265,7 +10358,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien n’empêche les hommes de croire, lorsque la bonne direction (hudâ) leur est parvenue, sinon qu’ils s’écrient : « Allah envoie-t-Il donc un (simple) humain en Messager ? »"
   },
   {
     "id": "al-isra-95",
@@ -10274,7 +10368,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّوْ كَانَ فِى ٱلْأَرْضِ مَلَـٰٓئِكَةٌ يَمْشُونَ مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكًا رَّسُولًا",
     "textSimple": "قل لو كان فى ٱلأرض ملـٓئكة يمشون مطمئنين لنزلنا عليهم من ٱلسمآء ملكا رسولا",
     "transliteration": "qul law kāna fī l-arḍi malāikatun yamshūna muṭ'ma-innīna lanazzalnā ʿalayhim mina l-samāi malakan rasūlan",
-    "translation": "",
+    "translation": "Say, \"If there were upon the earth angels walking securely, We would have sent down to them from the heaven an angel [as a] messenger.\"",
     "words": [
       {
         "id": "al-isra-95-1",
@@ -10375,7 +10469,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « S’il n’y avait eu sur terre que des Anges marchant sereinement, Nous leur aurions envoyé du ciel un Ange pour Messager. »"
   },
   {
     "id": "al-isra-96",
@@ -10384,7 +10479,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ كَفَىٰ بِٱللَّهِ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًا",
     "textSimple": "قل كفى بٱلله شهيدا بينى وبينكم  إنه كان بعباده خبيرا بصيرا",
     "transliteration": "qul kafā bil-lahi shahīdan baynī wabaynakum innahu kāna biʿibādihi khabīran baṣīran",
-    "translation": "",
+    "translation": "Say, \"Sufficient is Allāh as Witness between me and you. Indeed He is ever, concerning His servants, Aware and Seeing.\"",
     "words": [
       {
         "id": "al-isra-96-1",
@@ -10464,7 +10559,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qu’Allah suffise comme témoin entre vous et moi. » Car Il est, de Ses serviteurs, Informé et Lucide."
   },
   {
     "id": "al-isra-97",
@@ -10473,7 +10569,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَـٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَـٰهُمْ سَعِيرًا",
     "textSimple": "ومن يهد ٱلله فهو ٱلمهتد  ومن يضلل فلن تجد لهم أوليآء من دونه  ونحشرهم يوم ٱلقيـمة على وجوههم عميا وبكما وصما  مأوىهم جهنم  كلما خبت زدنـهم سعيرا",
     "transliteration": "waman yahdi l-lahu fahuwa l-muh'tadi waman yuḍ'lil falan tajida lahum awliyāa min dūnihi wanaḥshuruhum yawma l-qiyāmati ʿalā wujūhihim ʿum'yan wabuk'man waṣumman mawāhum jahannamu kullamā khabat zid'nāhum saʿīran",
-    "translation": "",
+    "translation": "And whoever Allāh guides - he is the [rightly] guided; and whoever He sends astray - you will never find for them protectors besides Him, and We will gather them on the Day of Resurrection [fallen] on their faces - blind, dumb and deaf. Their refuge is Hell; every time it subsides, We increase [for] them blazing fire.",
     "words": [
       {
         "id": "al-isra-97-1",
@@ -10665,7 +10761,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qu’Allah guide, celui-là est bien guidé ; et ceux qu’Il égare, tu ne leur trouveras aucun allié en dehors de Lui. Nous les ramènerons en foule au Jour de la Résurrection, le visage à même la terre, aveugles, muets et sourds. Leur séjour sera la Géhenne. Dès que sa flamme se sera atténuée, Nous l’attiserons par un feu plus ardent."
   },
   {
     "id": "al-isra-98",
@@ -10674,7 +10771,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ جَزَآؤُهُم بِأَنَّهُمْ كَفَرُوا۟ بِـَٔايَـٰتِنَا وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَـٰمًا وَرُفَـٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًا جَدِيدًا",
     "textSimple": "ذلك جزآؤهم بأنهم كفروا بـٔايـتنا وقالوٓا أءذا كنا عظـما ورفـتا أءنا لمبعوثون خلقا جديدا",
     "transliteration": "dhālika jazāuhum bi-annahum kafarū biāyātinā waqālū a-idhā kunnā ʿiẓāman warufātan a-innā lamabʿūthūna khalqan jadīdan",
-    "translation": "",
+    "translation": "That is their recompense because they disbelieved in Our verses and said, \"When we are bones and crumbled particles, will we [truly] be resurrected [in] a new creation?\"",
     "words": [
       {
         "id": "al-isra-98-1",
@@ -10775,7 +10872,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est leur récompense car ils ont mécru en Nos Signes et ont dit : « Se peut-il qu’après avoir été réduits à des os et de la poussière, nous soyons ressuscités en une nouvelle création ? »"
   },
   {
     "id": "al-isra-99",
@@ -10784,7 +10882,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "۞ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّـٰلِمُونَ إِلَّا كُفُورًا",
     "textSimple": " أولم يروا أن ٱلله ٱلذى خلق ٱلسمـوت وٱلأرض قادر علىٓ أن يخلق مثلهم وجعل لهم أجلا لا ريب فيه فأبى ٱلظـلمون إلا كفورا",
     "transliteration": "awalam yaraw anna l-laha alladhī khalaqa l-samāwāti wal-arḍa qādirun ʿalā an yakhluqa mith'lahum wajaʿala lahum ajalan lā rayba fīhi fa-abā l-ẓālimūna illā kufūran",
-    "translation": "",
+    "translation": "Do they not see that Allāh, who created the heavens and earth, is [the one] Able to create the likes of them? And He has appointed for them a term, about which there is no doubt. But the wrongdoers refuse except disbelief.",
     "words": [
       {
         "id": "al-isra-99-1",
@@ -10948,7 +11046,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils donc pas vu qu’Allah Qui a créé les cieux et la terre est Capable de créer des êtres qui leur sont semblables ? Il leur a fixé un terme à propos duquel il n’y a nul doute, mais les injustes s’obstinent à renoncer à la mécréance."
   },
   {
     "id": "al-isra-100",
@@ -10957,7 +11056,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَـٰنُ قَتُورًا",
     "textSimple": "قل لو أنتم تملكون خزآئن رحمة ربىٓ إذا لأمسكتم خشية ٱلإنفاق  وكان ٱلإنسـن قتورا",
     "transliteration": "qul law antum tamlikūna khazāina raḥmati rabbī idhan la-amsaktum khashyata l-infāqi wakāna l-insānu qatūran",
-    "translation": "",
+    "translation": "Say [to them], \"If you possessed the depositories of the mercy of my Lord, then you would withhold out of fear of spending.\" And ever has man been stingy.",
     "words": [
       {
         "id": "al-isra-100-1",
@@ -11058,7 +11157,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Posséderiez-vous tous les trésors de la grâce de mon Seigneur, vous en retiendriez de peur d’avoir à en dépenser. L’homme est (foncièrement) avare. »"
   },
   {
     "id": "al-isra-101",
@@ -11067,7 +11167,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا مُوسَىٰ تِسْعَ ءَايَـٰتٍۭ بَيِّنَـٰتٍ ۖ فَسْـَٔلْ بَنِىٓ إِسْرَٰٓءِيلَ إِذْ جَآءَهُمْ فَقَالَ لَهُۥ فِرْعَوْنُ إِنِّى لَأَظُنُّكَ يَـٰمُوسَىٰ مَسْحُورًا",
     "textSimple": "ولقد ءاتينا موسى تسع ءايـت بينـت  فسـٔل بنىٓ إسرٓءيل إذ جآءهم فقال له فرعون إنى لأظنك يـموسى مسحورا",
     "transliteration": "walaqad ātaynā mūsā tis'ʿa āyātin bayyinātin fasal banī is'rāīla idh jāahum faqāla lahu fir'ʿawnu innī la-aẓunnuka yāmūsā masḥūran",
-    "translation": "",
+    "translation": "And We had certainly given Moses nine evident signs, so ask the Children of Israel [about] when he came to them and Pharaoh said to him, \"Indeed I think, O Moses, that you are affected by magic.\"",
     "words": [
       {
         "id": "al-isra-101-1",
@@ -11196,7 +11296,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous donnâmes à Moïse neuf prodiges évidents. Interroge donc les Enfants d’Israël (à propos de lui), lorsqu’il vint vers eux et que Pharaon lui dit : « Je crois, ô Moïse, que tu as été ensorcelé. »"
   },
   {
     "id": "al-isra-102",
@@ -11205,7 +11306,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَقَدْ عَلِمْتَ مَآ أَنزَلَ هَـٰٓؤُلَآءِ إِلَّا رَبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ بَصَآئِرَ وَإِنِّى لَأَظُنُّكَ يَـٰفِرْعَوْنُ مَثْبُورًا",
     "textSimple": "قال لقد علمت مآ أنزل هـٓؤلآء إلا رب ٱلسمـوت وٱلأرض بصآئر وإنى لأظنك يـفرعون مثبورا",
     "transliteration": "qāla laqad ʿalim'ta mā anzala hāulāi illā rabbu l-samāwāti wal-arḍi baṣāira wa-innī la-aẓunnuka yāfir'ʿawnu mathbūran",
-    "translation": "",
+    "translation": "[Moses] said, \"You have already known that none has sent down these [signs] except the Lord of the heavens and the earth as evidence, and indeed I think, O Pharaoh, that you are destroyed.\"",
     "words": [
       {
         "id": "al-isra-102-1",
@@ -11313,7 +11414,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il répondit alors : « Tu sais bien que ceux-là (les prodiges), n’ont été envoyés d’en haut par nul autre que le Seigneur des cieux et de la terre en Signes éclatants. Et je crois, ô Pharaon, que tu es perdu. »"
   },
   {
     "id": "al-isra-103",
@@ -11322,7 +11424,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرَادَ أَن يَسْتَفِزَّهُم مِّنَ ٱلْأَرْضِ فَأَغْرَقْنَـٰهُ وَمَن مَّعَهُۥ جَمِيعًا",
     "textSimple": "فأراد أن يستفزهم من ٱلأرض فأغرقنـه ومن معه جميعا",
     "transliteration": "fa-arāda an yastafizzahum mina l-arḍi fa-aghraqnāhu waman maʿahu jamīʿan",
-    "translation": "",
+    "translation": "So he intended to drive them from the land, but We drowned him and those with him all together.",
     "words": [
       {
         "id": "al-isra-103-1",
@@ -11388,7 +11490,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il (Pharaon) voulut les chasser du pays, mais Nous les noyâmes tous ensemble, lui et ceux qui l’accompagnaient."
   },
   {
     "id": "al-isra-104",
@@ -11397,7 +11500,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلْنَا مِنۢ بَعْدِهِۦ لِبَنِىٓ إِسْرَٰٓءِيلَ ٱسْكُنُوا۟ ٱلْأَرْضَ فَإِذَا جَآءَ وَعْدُ ٱلْـَٔاخِرَةِ جِئْنَا بِكُمْ لَفِيفًا",
     "textSimple": "وقلنا من بعده لبنىٓ إسرٓءيل ٱسكنوا ٱلأرض فإذا جآء وعد ٱلـٔاخرة جئنا بكم لفيفا",
     "transliteration": "waqul'nā min baʿdihi libanī is'rāīla us'kunū l-arḍa fa-idhā jāa waʿdu l-ākhirati ji'nā bikum lafīfan",
-    "translation": "",
+    "translation": "And We said after him [i.e., Pharaoh] to the Children of Israel, \"Dwell in the land, and when there comes the promise [i.e., appointment] of the Hereafter, We will bring you forth in [one] gathering.\"",
     "words": [
       {
         "id": "al-isra-104-1",
@@ -11498,7 +11601,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous dîmes après lui aux Enfants d’Israël : « Habitez cette terre, et quand arrivera la promesse de l’autre monde, Nous vous ramènerons en masse. »"
   },
   {
     "id": "al-isra-105",
@@ -11507,7 +11611,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَبِٱلْحَقِّ أَنزَلْنَـٰهُ وَبِٱلْحَقِّ نَزَلَ ۗ وَمَآ أَرْسَلْنَـٰكَ إِلَّا مُبَشِّرًا وَنَذِيرًا",
     "textSimple": "وبٱلحق أنزلنـه وبٱلحق نزل  ومآ أرسلنـك إلا مبشرا ونذيرا",
     "transliteration": "wabil-ḥaqi anzalnāhu wabil-ḥaqi nazala wamā arsalnāka illā mubashiran wanadhīran",
-    "translation": "",
+    "translation": "And with the truth We have sent it [i.e., the Qur’ān] down, and with the truth it has descended. And We have not sent you, [O Muḥammad], except as a bringer of good tidings and a warner.",
     "words": [
       {
         "id": "al-isra-105-1",
@@ -11573,7 +11677,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’avons fait descendre (en révélation) avec la vérité, et c’est en toute vérité qu’il est descendu ; et Nous ne t’avons envoyé que pour annoncer et avertir."
   },
   {
     "id": "al-isra-106",
@@ -11582,7 +11687,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقُرْءَانًا فَرَقْنَـٰهُ لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍ وَنَزَّلْنَـٰهُ تَنزِيلًا",
     "textSimple": "وقرءانا فرقنـه لتقرأه على ٱلناس على مكث ونزلنـه تنزيلا",
     "transliteration": "waqur'ānan faraqnāhu litaqra-ahu ʿalā l-nāsi ʿalā muk'thin wanazzalnāhu tanzīlan",
-    "translation": "",
+    "translation": "And [it is] a Qur’ān which We have separated [by intervals] that you might recite it to the people over a prolonged period. And We have sent it down progressively.",
     "words": [
       {
         "id": "al-isra-106-1",
@@ -11648,7 +11753,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (Nous avons révélé) un Coran que Nous avons partagé en fragments afin que tu le lises aux hommes progressivement (et sans hâte), car Nous l’avons (Nous-même) fait descendre progressivement."
   },
   {
     "id": "al-isra-107",
@@ -11657,7 +11763,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ ءَامِنُوا۟ بِهِۦٓ أَوْ لَا تُؤْمِنُوٓا۟ ۚ إِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ مِن قَبْلِهِۦٓ إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًا",
     "textSimple": "قل ءامنوا بهٓ أو لا تؤمنوٓا  إن ٱلذين أوتوا ٱلعلم من قبلهٓ إذا يتلى عليهم يخرون للأذقان سجدا",
     "transliteration": "qul āminū bihi aw lā tu'minū inna alladhīna ūtū l-ʿil'ma min qablihi idhā yut'lā ʿalayhim yakhirrūna lil'adhqāni sujjadan",
-    "translation": "",
+    "translation": "Say, \"Believe in it or do not believe.\" Indeed, those who were given knowledge before it - when it is recited to them, they fall upon their faces in prostration,",
     "words": [
       {
         "id": "al-isra-107-1",
@@ -11786,7 +11892,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Que vous y croyiez ou que vous n’y croyiez pas, ceux qui ont déjà reçu la connaissance avant (ce Coran) se prosternent, menton contre terre, quand il leur est récité"
   },
   {
     "id": "al-isra-108",
@@ -11795,7 +11902,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ سُبْحَـٰنَ رَبِّنَآ إِن كَانَ وَعْدُ رَبِّنَا لَمَفْعُولًا",
     "textSimple": "ويقولون سبحـن ربنآ إن كان وعد ربنا لمفعولا",
     "transliteration": "wayaqūlūna sub'ḥāna rabbinā in kāna waʿdu rabbinā lamafʿūlan",
-    "translation": "",
+    "translation": "And they say, \"Exalted is our Lord! Indeed, the promise of our Lord has been fulfilled.\"",
     "words": [
       {
         "id": "al-isra-108-1",
@@ -11854,7 +11961,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et ils disent : \"Gloire soit rendue à notre Seigneur ! Voilà accomplie la promesse de notre Seigneur !\" »"
   },
   {
     "id": "al-isra-109",
@@ -11863,7 +11971,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَخِرُّونَ لِلْأَذْقَانِ يَبْكُونَ وَيَزِيدُهُمْ خُشُوعًا ۩",
     "textSimple": "ويخرون للأذقان يبكون ويزيدهم خشوعا ",
     "transliteration": "wayakhirrūna lil'adhqāni yabkūna wayazīduhum khushūʿan",
-    "translation": "",
+    "translation": "And they fall upon their faces weeping, and it [i.e., the Qur’ān] increases them in humble submission.",
     "words": [
       {
         "id": "al-isra-109-1",
@@ -11901,7 +12009,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ils se jettent, menton contre terre, tout en pleurs, et cela ajoute encore à leur humilité."
   },
   {
     "id": "al-isra-110",
@@ -11910,7 +12019,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَـٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
     "textSimple": "قل ٱدعوا ٱلله أو ٱدعوا ٱلرحمـن  أيا ما تدعوا فله ٱلأسمآء ٱلحسنى  ولا تجهر بصلاتك ولا تخافت بها وٱبتغ بين ذلك سبيلا",
     "transliteration": "quli id'ʿū l-laha awi id'ʿū l-raḥmāna ayyan mā tadʿū falahu l-asmāu l-ḥus'nā walā tajhar biṣalātika walā tukhāfit bihā wa-ib'taghi bayna dhālika sabīlan",
-    "translation": "",
+    "translation": "Say, \"Call upon Allāh or call upon the Most Merciful [ar-Raḥmān]. Whichever [name] you call - to Him belong the best names.\" And do not recite [too] loudly in your prayer or [too] quietly but seek between that an [intermediate] way.",
     "words": [
       {
         "id": "al-isra-110-1",
@@ -12067,7 +12176,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Que vous invoquiez Allah ou que vous invoquiez le Tout Clément, de quelque nom que vous L’invoquiez, Il a les Noms les plus Beaux. N’élève pas trop la voix pendant ta Çalât, ni ne la baisse (plus qu’il n’en faut), mais trouve-toi une méthode intermédiaire. »"
   },
   {
     "id": "al-isra-111",
@@ -12076,7 +12186,7 @@ export const AL_ISRA_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
     "textSimple": "وقل ٱلحمد لله ٱلذى لم يتخذ ولدا ولم يكن له شريك فى ٱلملك ولم يكن له ولى من ٱلذل  وكبره تكبيرا",
     "transliteration": "waquli l-ḥamdu lillahi alladhī lam yattakhidh waladan walam yakun lahu sharīkun fī l-mul'ki walam yakun lahu waliyyun mina l-dhuli wakabbir'hu takbīran",
-    "translation": "",
+    "translation": "And say, \"Praise to Allāh, who has not taken a son and has had no partner in [His] dominion and has no [need of a] protector out of weakness; and glorify Him with [great] glorification.\"",
     "words": [
       {
         "id": "al-isra-111-1",
@@ -12226,7 +12336,8 @@ export const AL_ISRA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Toute louange à Allah Qui ne S’est pas donné d’enfant, Qui n’a point d’associé dans la Royauté, et Qui n’a nul besoin d’un défenseur contre l’offense. » Glorifie bien haut Sa grandeur !"
   }
 ];
 

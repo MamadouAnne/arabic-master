@@ -11,7 +11,7 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
     "textUthmani": " قُلْ هُوَ ٱللَّهُ أَحَدٌ",
     "textSimple": " قل هو ٱلله أحد",
     "transliteration": "qul huwa l-lahu aḥadun",
-    "translation": "",
+    "translation": "Say, \"He is Allāh, [who is] One,",
     "words": [
       {
         "id": "al-ikhlas-1-1",
@@ -42,7 +42,8 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il est Allah, l’Un."
   },
   {
     "id": "al-ikhlas-2",
@@ -51,7 +52,7 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ ٱلصَّمَدُ",
     "textSimple": "ٱلله ٱلصمد",
     "transliteration": "al-lahu l-ṣamadu",
-    "translation": "",
+    "translation": "Allāh, the Eternal Refuge.",
     "words": [
       {
         "id": "al-ikhlas-2-1",
@@ -68,7 +69,8 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, le Primultime."
   },
   {
     "id": "al-ikhlas-3",
@@ -77,7 +79,7 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
     "textUthmani": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
     "textSimple": "لم يلد ولم يولد",
     "transliteration": "lam yalid walam yūlad",
-    "translation": "",
+    "translation": "He neither begets nor is born,",
     "words": [
       {
         "id": "al-ikhlas-3-1",
@@ -108,7 +110,8 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’a pas engendré ni n’a été engendré."
   },
   {
     "id": "al-ikhlas-4",
@@ -117,7 +120,7 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
     "textSimple": "ولم يكن له كفوا أحد",
     "transliteration": "walam yakun lahu kufuwan aḥadun",
-    "translation": "",
+    "translation": "Nor is there to Him any equivalent.\"",
     "words": [
       {
         "id": "al-ikhlas-4-1",
@@ -155,7 +158,8 @@ export const AL_IKHLAS_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et nul n’est Son égal ! »"
   }
 ];
 

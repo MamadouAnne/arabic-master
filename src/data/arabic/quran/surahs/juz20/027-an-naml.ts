@@ -11,7 +11,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": " طسٓ ۚ تِلْكَ ءَايَـٰتُ ٱلْقُرْءَانِ وَكِتَابٍ مُّبِينٍ",
     "textSimple": " طسٓ  تلك ءايـت ٱلقرءان وكتاب مبين",
     "transliteration": "tta-seen til'ka āyātu l-qur'āni wakitābin mubīnin",
-    "translation": "",
+    "translation": "Ṭā, Seen. These are the verses of the Qur’ān [i.e., recitation] and a clear Book",
     "words": [
       {
         "id": "an-naml-1-1",
@@ -56,7 +56,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tâ, Sîn. Ce sont là les versets du Coran, (versets) d’un Livre explicite,"
   },
   {
     "id": "an-naml-2",
@@ -65,7 +66,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "هُدًى وَبُشْرَىٰ لِلْمُؤْمِنِينَ",
     "textSimple": "هدى وبشرى للمؤمنين",
     "transliteration": "hudan wabush'rā lil'mu'minīna",
-    "translation": "",
+    "translation": "As guidance and good tidings for the believers",
     "words": [
       {
         "id": "an-naml-2-1",
@@ -89,7 +90,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "juste direction (hudâ) et heureuse annonce pour les croyants,"
   },
   {
     "id": "an-naml-3",
@@ -98,7 +100,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
     "textSimple": "ٱلذين يقيمون ٱلصلوة ويؤتون ٱلزكوة وهم بٱلـٔاخرة هم يوقنون",
     "transliteration": "alladhīna yuqīmūna l-ṣalata wayu'tūna l-zakata wahum bil-ākhirati hum yūqinūna",
-    "translation": "",
+    "translation": "Who establish prayer and give zakāh, and of the Hereafter they are certain [in faith].",
     "words": [
       {
         "id": "an-naml-3-1",
@@ -164,7 +166,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui accomplissent la Çalât, s’acquittent de la Zakât et ont une foi certaine en l’autre monde."
   },
   {
     "id": "an-naml-4",
@@ -173,7 +176,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ زَيَّنَّا لَهُمْ أَعْمَـٰلَهُمْ فَهُمْ يَعْمَهُونَ",
     "textSimple": "إن ٱلذين لا يؤمنون بٱلـٔاخرة زينا لهم أعمـلهم فهم يعمهون",
     "transliteration": "inna alladhīna lā yu'minūna bil-ākhirati zayyannā lahum aʿmālahum fahum yaʿmahūna",
-    "translation": "",
+    "translation": "Indeed, for those who do not believe in the Hereafter, We have made pleasing to them their deeds, so they wander blindly.",
     "words": [
       {
         "id": "an-naml-4-1",
@@ -246,7 +249,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux qui ne croient pas en l’autre monde, Nous embellissons tellement les œuvres et les voici qui pataugent aveuglément."
   },
   {
     "id": "an-naml-5",
@@ -255,7 +259,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَهُمْ سُوٓءُ ٱلْعَذَابِ وَهُمْ فِى ٱلْـَٔاخِرَةِ هُمُ ٱلْأَخْسَرُونَ",
     "textSimple": "أولـٓئك ٱلذين لهم سوٓء ٱلعذاب وهم فى ٱلـٔاخرة هم ٱلأخسرون",
     "transliteration": "ulāika alladhīna lahum sūu l-ʿadhābi wahum fī l-ākhirati humu l-akhsarūna",
-    "translation": "",
+    "translation": "Those are the ones for whom there will be the worst of punishment, and in the Hereafter they are the greatest losers.",
     "words": [
       {
         "id": "an-naml-5-1",
@@ -328,7 +332,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là sont ceux qui auront le pire des supplices, et qui, dans l’autre monde, seront les grands perdants."
   },
   {
     "id": "an-naml-6",
@@ -337,7 +342,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّكَ لَتُلَقَّى ٱلْقُرْءَانَ مِن لَّدُنْ حَكِيمٍ عَلِيمٍ",
     "textSimple": "وإنك لتلقى ٱلقرءان من لدن حكيم عليم",
     "transliteration": "wa-innaka latulaqqā l-qur'āna min ladun ḥakīmin ʿalīmin",
-    "translation": "",
+    "translation": "And indeed, [O Muḥammad], you receive the Qur’ān from one Wise and Knowing.",
     "words": [
       {
         "id": "an-naml-6-1",
@@ -389,7 +394,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu reçois certes le Coran d’un Sage Omniscient."
   },
   {
     "id": "an-naml-7",
@@ -398,7 +404,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ ءَانَسْتُ نَارًا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ ءَاتِيكُم بِشِهَابٍ قَبَسٍ لَّعَلَّكُمْ تَصْطَلُونَ",
     "textSimple": "إذ قال موسى لأهلهٓ إنىٓ ءانست نارا سـٔاتيكم منها بخبر أو ءاتيكم بشهاب قبس لعلكم تصطلون",
     "transliteration": "idh qāla mūsā li-ahlihi innī ānastu nāran saātīkum min'hā bikhabarin aw ātīkum bishihābin qabasin laʿallakum taṣṭalūna",
-    "translation": "",
+    "translation": "[Mention] when Moses said to his family, \"Indeed, I have perceived a fire. I will bring you from there information or will bring you a burning torch that you may warm yourselves.\"",
     "words": [
       {
         "id": "an-naml-7-1",
@@ -513,7 +519,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) Moïse qui dit aux siens : «J’aperçois un feu. Je m’en vais vous apporter quelque information (pour retrouver notre chemin) ou un tison pour vous réchauffer. »"
   },
   {
     "id": "an-naml-8",
@@ -522,7 +529,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَهَا نُودِىَ أَنۢ بُورِكَ مَن فِى ٱلنَّارِ وَمَنْ حَوْلَهَا وَسُبْحَـٰنَ ٱللَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فلما جآءها نودى أن بورك من فى ٱلنار ومن حولها وسبحـن ٱلله رب ٱلعـلمين",
     "transliteration": "falammā jāahā nūdiya an būrika man fī l-nāri waman ḥawlahā wasub'ḥāna l-lahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "But when he came to it, he was called, \"Blessed is whoever is at the fire and whoever is around it. And exalted is Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "an-naml-8-1",
@@ -623,7 +630,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il y fut arrivé, il fut interpellé : « Béni soit Celui Qui (se trouve) dans le Feu et ceux qui (se trouvent) à l’entour ! Gloire soit rendue à Allah, Seigneur de l’Univers ! »"
   },
   {
     "id": "an-naml-9",
@@ -632,7 +640,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰمُوسَىٰٓ إِنَّهُۥٓ أَنَا ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "يـموسىٓ إنهٓ أنا ٱلله ٱلعزيز ٱلحكيم",
     "transliteration": "yāmūsā innahu anā l-lahu l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "O Moses, indeed it is I - Allāh, the Exalted in Might, the Wise.\"",
     "words": [
       {
         "id": "an-naml-9-1",
@@ -677,7 +685,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Moïse, c’est Moi, Allah, le Tout-Puissant, le Sage."
   },
   {
     "id": "an-naml-10",
@@ -686,7 +695,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَـٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ",
     "textSimple": "وألق عصاك  فلما رءاها تهتز كأنها جآن ولى مدبرا ولم يعقب  يـموسى لا تخف إنى لا يخاف لدى ٱلمرسلون",
     "transliteration": "wa-alqi ʿaṣāka falammā raāhā tahtazzu ka-annahā jānnun wallā mud'biran walam yuʿaqqib yāmūsā lā takhaf innī lā yakhāfu ladayya l-mur'salūna",
-    "translation": "",
+    "translation": "And [he was told], \"Throw down your staff.\" But when he saw it writhing as if it were a snake, he turned in flight and did not return. [Allāh said], \"O Moses, fear not. Indeed, in My presence the messengers do not fear.",
     "words": [
       {
         "id": "an-naml-10-1",
@@ -822,7 +831,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jette ton bâton. » Mais, lorsqu’il le vit se remuer tel un serpent, il tourna les talons et s’enfuit sans se retourner. « Ô Moïse, (dit alors Allah), ne crains rien, car les Messagers ne craignent rien auprès de Moi."
   },
   {
     "id": "an-naml-11",
@@ -831,7 +841,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَن ظَلَمَ ثُمَّ بَدَّلَ حُسْنًۢا بَعْدَ سُوٓءٍ فَإِنِّى غَفُورٌ رَّحِيمٌ",
     "textSimple": "إلا من ظلم ثم بدل حسنا بعد سوٓء فإنى غفور رحيم",
     "transliteration": "illā man ẓalama thumma baddala ḥus'nan baʿda sūin fa-innī ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Otherwise, he who wrongs, then substitutes good after evil - indeed, I am Forgiving and Merciful.",
     "words": [
       {
         "id": "an-naml-11-1",
@@ -911,7 +921,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à ceux qui ont commis une injustice puis ont substitué au mal le bien, (ceux-là doivent savoir que) Je suis Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "an-naml-12",
@@ -920,7 +931,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَأَدْخِلْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ ۖ فِى تِسْعِ ءَايَـٰتٍ إِلَىٰ فِرْعَوْنَ وَقَوْمِهِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ",
     "textSimple": "وأدخل يدك فى جيبك تخرج بيضآء من غير سوٓء  فى تسع ءايـت إلى فرعون وقومهٓ  إنهم كانوا قوما فـسقين",
     "transliteration": "wa-adkhil yadaka fī jaybika takhruj bayḍāa min ghayri sūin fī tis'ʿi āyātin ilā fir'ʿawna waqawmihi innahum kānū qawman fāsiqīna",
-    "translation": "",
+    "translation": "And put your hand into the opening of your garment [at the breast]; it will come out white without disease. [These are] among the nine signs [you will take] to Pharaoh and his people. Indeed, they have been a people defiantly disobedient.\"",
     "words": [
       {
         "id": "an-naml-12-1",
@@ -1056,7 +1067,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Introduis ta main dans la fente de ta tunique, elle en ressortira blanche et saine de toute maladie. C’est là l’un des neuf Signes réservés à Pharaon et à son peuple, car il s’agit d’un peuple de pervers. »"
   },
   {
     "id": "an-naml-13",
@@ -1065,7 +1077,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَتْهُمْ ءَايَـٰتُنَا مُبْصِرَةً قَالُوا۟ هَـٰذَا سِحْرٌ مُّبِينٌ",
     "textSimple": "فلما جآءتهم ءايـتنا مبصرة قالوا هـذا سحر مبين",
     "transliteration": "falammā jāathum āyātunā mub'ṣiratan qālū hādhā siḥ'run mubīnun",
-    "translation": "",
+    "translation": "But when there came to them Our visible signs, they said, \"This is obvious magic.\"",
     "words": [
       {
         "id": "an-naml-13-1",
@@ -1124,7 +1136,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais lorsque Nos Signes leur furent parvenus, ils dirent : « C’est manifestement de la magie ! »"
   },
   {
     "id": "an-naml-14",
@@ -1133,7 +1146,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَجَحَدُوا۟ بِهَا وَٱسْتَيْقَنَتْهَآ أَنفُسُهُمْ ظُلْمًا وَعُلُوًّا ۚ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُفْسِدِينَ",
     "textSimple": "وجحدوا بها وٱستيقنتهآ أنفسهم ظلما وعلوا  فٱنظر كيف كان عـقبة ٱلمفسدين",
     "transliteration": "wajaḥadū bihā wa-is'tayqanathā anfusuhum ẓul'man waʿuluwwan fa-unẓur kayfa kāna ʿāqibatu l-muf'sidīna",
-    "translation": "",
+    "translation": "And they rejected them, while their [inner] selves were convinced thereof, out of injustice and haughtiness. So see how was the end of the corrupters.",
     "words": [
       {
         "id": "an-naml-14-1",
@@ -1213,7 +1226,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils les nièrent, injustes et fiers, encore qu’en eux-mêmes ils en eussent la certitude. Vois donc quel fut le sort des semeurs de désordre."
   },
   {
     "id": "an-naml-15",
@@ -1222,7 +1236,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَـٰنَ عِلْمًا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ",
     "textSimple": "ولقد ءاتينا داود وسليمـن علما  وقالا ٱلحمد لله ٱلذى فضلنا على كثير من عباده ٱلمؤمنين",
     "transliteration": "walaqad ātaynā dāwūda wasulaymāna ʿil'man waqālā l-ḥamdu lillahi alladhī faḍḍalanā ʿalā kathīrin min ʿibādihi l-mu'minīna",
-    "translation": "",
+    "translation": "And We had certainly given to David and Solomon knowledge, and they said, \"Praise [is due] to Allāh, who has favored us over many of His believing servants.\"",
     "words": [
       {
         "id": "an-naml-15-1",
@@ -1330,7 +1344,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous donnâmes la science à David et à Salomon, qui dirent alors: « Louange à Allah Qui nous a privilégiés par rapport à bon nombre de Ses serviteurs croyants. »"
   },
   {
     "id": "an-naml-16",
@@ -1339,7 +1354,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَوَرِثَ سُلَيْمَـٰنُ دَاوُۥدَ ۖ وَقَالَ يَـٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَـٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ",
     "textSimple": "وورث سليمـن داود  وقال يـٓأيها ٱلناس علمنا منطق ٱلطير وأوتينا من كل شىء  إن هـذا لهو ٱلفضل ٱلمبين",
     "transliteration": "wawaritha sulaymānu dāwūda waqāla yāayyuhā l-nāsu ʿullim'nā manṭiqa l-ṭayri waūtīnā min kulli shayin inna hādhā lahuwa l-faḍlu l-mubīnu",
-    "translation": "",
+    "translation": "And Solomon inherited David. He said, \"O people, we have been taught the language of birds, and we have been given from all things. Indeed, this is evident bounty.\"",
     "words": [
       {
         "id": "an-naml-16-1",
@@ -1468,7 +1483,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Digne) héritier de David, Salomon dit : « Ô hommes ! Nous avons été initiés au langage des oiseaux et il nous a été fait don de toutes les choses. Voilà donc l’évidente faveur ! »"
   },
   {
     "id": "an-naml-17",
@@ -1477,7 +1493,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَحُشِرَ لِسُلَيْمَـٰنَ جُنُودُهُۥ مِنَ ٱلْجِنِّ وَٱلْإِنسِ وَٱلطَّيْرِ فَهُمْ يُوزَعُونَ",
     "textSimple": "وحشر لسليمـن جنوده من ٱلجن وٱلإنس وٱلطير فهم يوزعون",
     "transliteration": "waḥushira lisulaymāna junūduhu mina l-jini wal-insi wal-ṭayri fahum yūzaʿūna",
-    "translation": "",
+    "translation": "And gathered for Solomon were his soldiers of the jinn and men and birds, and they were [marching] in rows",
     "words": [
       {
         "id": "an-naml-17-1",
@@ -1543,7 +1559,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis furent rassemblées devant Salomon ses armées de djinns, d’hommes et d’oiseaux qui furent maintenus chacun à la place qui lui sied."
   },
   {
     "id": "an-naml-18",
@@ -1552,7 +1569,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَآ أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌ يَـٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَـٰكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَـٰنُ وَجُنُودُهُۥ وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "حتىٓ إذآ أتوا على واد ٱلنمل قالت نملة يـٓأيها ٱلنمل ٱدخلوا مسـكنكم لا يحطمنكم سليمـن وجنوده وهم لا يشعرون",
     "transliteration": "ḥattā idhā ataw ʿalā wādi l-namli qālat namlatun yāayyuhā l-namlu ud'khulū masākinakum lā yaḥṭimannakum sulaymānu wajunūduhu wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "Until, when they came upon the valley of the ants, an ant said, \"O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not.\"",
     "words": [
       {
         "id": "an-naml-18-1",
@@ -1688,7 +1705,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Ces armées) arrivées près de la Vallée des fourmis, l’une de ces dernières dit : « Ô vous fourmis, rentrez dans vos demeures ou Salomon et ses armées, sans s’en rendre compte, vous écraseront. »"
   },
   {
     "id": "an-naml-19",
@@ -1697,7 +1715,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
     "textSimple": "فتبسم ضاحكا من قولها وقال رب أوزعنىٓ أن أشكر نعمتك ٱلتىٓ أنعمت على وعلى ولدى وأن أعمل صـلحا ترضىه وأدخلنى برحمتك فى عبادك ٱلصـلحين",
     "transliteration": "fatabassama ḍāḥikan min qawlihā waqāla rabbi awziʿ'nī an ashkura niʿ'mataka allatī anʿamta ʿalayya waʿalā wālidayya wa-an aʿmala ṣāliḥan tarḍāhu wa-adkhil'nī biraḥmatika fī ʿibādika l-ṣāliḥīna",
-    "translation": "",
+    "translation": "So [Solomon] smiled, amused at her speech, and said, \"My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants.\"",
     "words": [
       {
         "id": "an-naml-19-1",
@@ -1868,7 +1886,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Salomon) sourit alors aux propos de la fourmi, et dit : « Seigneur, fais que je Te rende grâces des faveurs dont Tu m’as comblé, moi et mes parents, et que j’accomplisse les bonnes œuvres que Tu agrées. Veuille me recevoir en Ta miséricorde avec les plus vertueux de Tes serviteurs ! »"
   },
   {
     "id": "an-naml-20",
@@ -1877,7 +1896,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَتَفَقَّدَ ٱلطَّيْرَ فَقَالَ مَا لِىَ لَآ أَرَى ٱلْهُدْهُدَ أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ",
     "textSimple": "وتفقد ٱلطير فقال ما لى لآ أرى ٱلهدهد أم كان من ٱلغآئبين",
     "transliteration": "watafaqqada l-ṭayra faqāla mā liya lā arā l-hud'huda am kāna mina l-ghāibīna",
-    "translation": "",
+    "translation": "And he took attendance of the birds and said, \"Why do I not see the hoopoe - or is he among the absent?",
     "words": [
       {
         "id": "an-naml-20-1",
@@ -1964,7 +1983,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis passant en revue les oiseaux, il dit : « Je ne vois pas la huppe. Serait-elle absente ?"
   },
   {
     "id": "an-naml-21",
@@ -1973,7 +1993,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "لَأُعَذِّبَنَّهُۥ عَذَابًا شَدِيدًا أَوْ لَأَا۟ذْبَحَنَّهُۥٓ أَوْ لَيَأْتِيَنِّى بِسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "لأعذبنه عذابا شديدا أو لأاذبحنهٓ أو ليأتينى بسلطـن مبين",
     "transliteration": "la-uʿadhibannahu ʿadhāban shadīdan aw laādh'baḥannahu aw layatiyannī bisul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "I will surely punish him with a severe punishment or slaughter him unless he brings me clear authorization.\"",
     "words": [
       {
         "id": "an-naml-21-1",
@@ -2039,7 +2059,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je lui infligerai un terrible supplice ou l’égorgerai, à moins qu’elle ne m’apporte une excuse valable. »"
   },
   {
     "id": "an-naml-22",
@@ -2048,7 +2069,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِۦ وَجِئْتُكَ مِن سَبَإٍۭ بِنَبَإٍ يَقِينٍ",
     "textSimple": "فمكث غير بعيد فقال أحطت بما لم تحط به وجئتك من سبإ بنبإ يقين",
     "transliteration": "famakatha ghayra baʿīdin faqāla aḥaṭtu bimā lam tuḥiṭ bihi waji'tuka min saba-in binaba-in yaqīnin",
-    "translation": "",
+    "translation": "But he [i.e., the hoopoe] stayed not long and said, \"I have encompassed [in knowledge] that which you have not encompassed, and I have come to you from Sheba with certain news.",
     "words": [
       {
         "id": "an-naml-22-1",
@@ -2149,7 +2170,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(La huppe), qui ne fut pas longtemps absente, dit alors : « Je viens d’apprendre ce que tu ne savais point. Je t’apporte de Saba une nouvelle de (source) sûre."
   },
   {
     "id": "an-naml-23",
@@ -2158,7 +2180,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى وَجَدتُّ ٱمْرَأَةً تَمْلِكُهُمْ وَأُوتِيَتْ مِن كُلِّ شَىْءٍ وَلَهَا عَرْشٌ عَظِيمٌ",
     "textSimple": "إنى وجدت ٱمرأة تملكهم وأوتيت من كل شىء ولها عرش عظيم",
     "transliteration": "innī wajadttu im'ra-atan tamlikuhum waūtiyat min kulli shayin walahā ʿarshun ʿaẓīmun",
-    "translation": "",
+    "translation": "Indeed, I found [there] a woman ruling them, and she has been given of all things, and she has a great throne.",
     "words": [
       {
         "id": "an-naml-23-1",
@@ -2238,7 +2260,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "J’ai découvert que règne sur eux une femme comblée de toutes choses, et qui a un trône magnifique."
   },
   {
     "id": "an-naml-24",
@@ -2247,7 +2270,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَجَدتُّهَا وَقَوْمَهَا يَسْجُدُونَ لِلشَّمْسِ مِن دُونِ ٱللَّهِ وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ أَعْمَـٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ فَهُمْ لَا يَهْتَدُونَ",
     "textSimple": "وجدتها وقومها يسجدون للشمس من دون ٱلله وزين لهم ٱلشيطـن أعمـلهم فصدهم عن ٱلسبيل فهم لا يهتدون",
     "transliteration": "wajadttuhā waqawmahā yasjudūna lilshamsi min dūni l-lahi wazayyana lahumu l-shayṭānu aʿmālahum faṣaddahum ʿani l-sabīli fahum lā yahtadūna",
-    "translation": "",
+    "translation": "I found her and her people prostrating to the sun instead of Allāh, and Satan has made their deeds pleasing to them and averted them from [His] way, so they are not guided,",
     "words": [
       {
         "id": "an-naml-24-1",
@@ -2369,7 +2392,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je l’ai trouvée, ainsi que son peuple, qui se prosternaient devant le soleil en dehors d’Allah. Satan leur a embelli leurs œuvres, les repoussant ainsi loin du chemin droit, si bien qu’ils ne savent plus se diriger."
   },
   {
     "id": "an-naml-25",
@@ -2378,7 +2402,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَلَّا يَسْجُدُوا۟ لِلَّهِ ٱلَّذِى يُخْرِجُ ٱلْخَبْءَ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُخْفُونَ وَمَا تُعْلِنُونَ",
     "textSimple": "ألا يسجدوا لله ٱلذى يخرج ٱلخبء فى ٱلسمـوت وٱلأرض ويعلم ما تخفون وما تعلنون",
     "transliteration": "allā yasjudū lillahi alladhī yukh'riju l-khaba-a fī l-samāwāti wal-arḍi wayaʿlamu mā tukh'fūna wamā tuʿ'linūna",
-    "translation": "",
+    "translation": "[And] so they do not prostrate to Allāh, who brings forth what is hidden within the heavens and the earth and knows what you conceal and what you declare -",
     "words": [
       {
         "id": "an-naml-25-1",
@@ -2479,7 +2503,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Satan leur a embelli leurs œuvres) afin qu’ils ne se prosternent point devant Allah Qui dévoile ce que cèlent les cieux et la terre, et Qui Sait ce que vous tenez caché et ce que vous exprimez ouvertement."
   },
   {
     "id": "an-naml-26",
@@ -2488,7 +2513,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ ۩",
     "textSimple": "ٱلله لآ إلـه إلا هو رب ٱلعرش ٱلعظيم ",
     "transliteration": "al-lahu lā ilāha illā huwa rabbu l-ʿarshi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "Allāh - there is no deity except Him, Lord of the Great Throne.\"",
     "words": [
       {
         "id": "an-naml-26-1",
@@ -2547,7 +2572,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, point d’autre divinité que Lui, Seigneur du Trône sublime ! »"
   },
   {
     "id": "an-naml-27",
@@ -2556,7 +2582,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَالَ سَنَنظُرُ أَصَدَقْتَ أَمْ كُنتَ مِنَ ٱلْكَـٰذِبِينَ",
     "textSimple": " قال سننظر أصدقت أم كنت من ٱلكـذبين",
     "transliteration": "qāla sananẓuru aṣadaqta am kunta mina l-kādhibīna",
-    "translation": "",
+    "translation": "[Solomon] said, \"We will see whether you were truthful or were of the liars.",
     "words": [
       {
         "id": "an-naml-27-1",
@@ -2608,7 +2634,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Salomon) dit alors : « Nous allons bien voir si tu dis vrai ou si tu mens."
   },
   {
     "id": "an-naml-28",
@@ -2617,7 +2644,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "ٱذْهَب بِّكِتَـٰبِى هَـٰذَا فَأَلْقِهْ إِلَيْهِمْ ثُمَّ تَوَلَّ عَنْهُمْ فَٱنظُرْ مَاذَا يَرْجِعُونَ",
     "textSimple": "ٱذهب بكتـبى هـذا فألقه إليهم ثم تول عنهم فٱنظر ماذا يرجعون",
     "transliteration": "idh'hab bikitābī hādhā fa-alqih ilayhim thumma tawalla ʿanhum fa-unẓur mādhā yarjiʿūna",
-    "translation": "",
+    "translation": "Take this letter of mine and deliver it to them. Then leave them and see what [answer] they will return.\"",
     "words": [
       {
         "id": "an-naml-28-1",
@@ -2697,7 +2724,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Va donc les trouver muni de ma missive que voici. Lance-la vers eux, puis éloigne-toi d’eux et regarde comment ils vont réagir. »"
   },
   {
     "id": "an-naml-29",
@@ -2706,7 +2734,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ يَـٰٓأَيُّهَا ٱلْمَلَؤُا۟ إِنِّىٓ أُلْقِىَ إِلَىَّ كِتَـٰبٌ كَرِيمٌ",
     "textSimple": "قالت يـٓأيها ٱلملؤا إنىٓ ألقى إلى كتـب كريم",
     "transliteration": "qālat yāayyuhā l-mala-u innī ul'qiya ilayya kitābun karīmun",
-    "translation": "",
+    "translation": "She said, \"O eminent ones, indeed, to me has been delivered a noble letter.",
     "words": [
       {
         "id": "an-naml-29-1",
@@ -2765,7 +2793,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô vous, assemblée de notables, une honorable missive vient de m’être lancée."
   },
   {
     "id": "an-naml-30",
@@ -2774,7 +2803,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ مِن سُلَيْمَـٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
     "textSimple": "إنه من سليمـن وإنه بسم ٱلله ٱلرحمـن ٱلرحيم",
     "transliteration": "innahu min sulaymāna wa-innahu bis'mi l-lahi l-raḥmāni l-raḥīmi",
-    "translation": "",
+    "translation": "Indeed, it is from Solomon, and indeed, it is [i.e., reads]: 'In the name of Allāh, the Entirely Merciful, the Especially Merciful,",
     "words": [
       {
         "id": "an-naml-30-1",
@@ -2833,7 +2862,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle est de Salomon, et (il y est écrit ce qui suit) : “ Au nom d’Allah le Tout Clément le Tout Miséricordieux."
   },
   {
     "id": "an-naml-31",
@@ -2842,7 +2872,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَلَّا تَعْلُوا۟ عَلَىَّ وَأْتُونِى مُسْلِمِينَ",
     "textSimple": "ألا تعلوا على وأتونى مسلمين",
     "transliteration": "allā taʿlū ʿalayya watūnī mus'limīna",
-    "translation": "",
+    "translation": "Be not haughty with me but come to me in submission [as Muslims].'\"",
     "words": [
       {
         "id": "an-naml-31-1",
@@ -2880,7 +2910,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne vous montrez pas hautains et venez vers moi entièrement soumis.” »"
   },
   {
     "id": "an-naml-32",
@@ -2889,7 +2920,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ يَـٰٓأَيُّهَا ٱلْمَلَؤُا۟ أَفْتُونِى فِىٓ أَمْرِى مَا كُنتُ قَاطِعَةً أَمْرًا حَتَّىٰ تَشْهَدُونِ",
     "textSimple": "قالت يـٓأيها ٱلملؤا أفتونى فىٓ أمرى ما كنت قاطعة أمرا حتى تشهدون",
     "transliteration": "qālat yāayyuhā l-mala-u aftūnī fī amrī mā kuntu qāṭiʿatan amran ḥattā tashhadūni",
-    "translation": "",
+    "translation": "She said, \"O eminent ones, advise me in my affair. I would not decide a matter until you witness [for] me.\"",
     "words": [
       {
         "id": "an-naml-32-1",
@@ -2976,7 +3007,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et elle ajouta : « Ô vous, assemblée de notables, je vous demande conseil à propos de cette affaire. Je ne saurais trancher aucune affaire sans votre présence et vos conseils. »"
   },
   {
     "id": "an-naml-33",
@@ -2985,7 +3017,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ نَحْنُ أُو۟لُوا۟ قُوَّةٍ وَأُو۟لُوا۟ بَأْسٍ شَدِيدٍ وَٱلْأَمْرُ إِلَيْكِ فَٱنظُرِى مَاذَا تَأْمُرِينَ",
     "textSimple": "قالوا نحن أولوا قوة وأولوا بأس شديد وٱلأمر إليك فٱنظرى ماذا تأمرين",
     "transliteration": "qālū naḥnu ulū quwwatin wa-ulū basin shadīdin wal-amru ilayki fa-unẓurī mādhā tamurīna",
-    "translation": "",
+    "translation": "They said, \"We are men of strength and of great military might, but the command is yours, so see what you will command.\"",
     "words": [
       {
         "id": "an-naml-33-1",
@@ -3072,7 +3104,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous sommes dotés d’une (grande) force et disposons d’une puissance redoutable, répondirent-ils, mais c’est à toi que revient le dernier mot. À toi donc de voir ce que tu nous ordonneras. »"
   },
   {
     "id": "an-naml-34",
@@ -3081,7 +3114,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَتْ إِنَّ ٱلْمُلُوكَ إِذَا دَخَلُوا۟ قَرْيَةً أَفْسَدُوهَا وَجَعَلُوٓا۟ أَعِزَّةَ أَهْلِهَآ أَذِلَّةً ۖ وَكَذَٰلِكَ يَفْعَلُونَ",
     "textSimple": "قالت إن ٱلملوك إذا دخلوا قرية أفسدوها وجعلوٓا أعزة أهلهآ أذلة  وكذلك يفعلون",
     "transliteration": "qālat inna l-mulūka idhā dakhalū qaryatan afsadūhā wajaʿalū aʿizzata ahlihā adhillatan wakadhālika yafʿalūna",
-    "translation": "",
+    "translation": "She said, \"Indeed kings - when they enter a city, they ruin it and render the honored of its people humbled. And thus do they do.",
     "words": [
       {
         "id": "an-naml-34-1",
@@ -3175,7 +3208,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Lorsqu’ils entrent dans une ville, répondit-elle, les rois y sèment le désordre et humilient les plus honorables de ses habitants. C’est ce qu’ils font toujours."
   },
   {
     "id": "an-naml-35",
@@ -3184,7 +3218,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنِّى مُرْسِلَةٌ إِلَيْهِم بِهَدِيَّةٍ فَنَاظِرَةٌۢ بِمَ يَرْجِعُ ٱلْمُرْسَلُونَ",
     "textSimple": "وإنى مرسلة إليهم بهدية فناظرة بم يرجع ٱلمرسلون",
     "transliteration": "wa-innī mur'silatun ilayhim bihadiyyatin fanāẓiratun bima yarjiʿu l-mur'salūna",
-    "translation": "",
+    "translation": "But indeed, I will send to them a gift and see with what [reply] the messengers will return.\"",
     "words": [
       {
         "id": "an-naml-35-1",
@@ -3243,7 +3277,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je vais leur envoyer un présent et attendre avec quoi reviendront les émissaires. »"
   },
   {
     "id": "an-naml-36",
@@ -3252,7 +3287,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَ سُلَيْمَـٰنَ قَالَ أَتُمِدُّونَنِ بِمَالٍ فَمَآ ءَاتَىٰنِۦَ ٱللَّهُ خَيْرٌ مِّمَّآ ءَاتَىٰكُم بَلْ أَنتُم بِهَدِيَّتِكُمْ تَفْرَحُونَ",
     "textSimple": "فلما جآء سليمـن قال أتمدونن بمال فمآ ءاتىن ٱلله خير ممآ ءاتىكم بل أنتم بهديتكم تفرحون",
     "transliteration": "falammā jāa sulaymāna qāla atumiddūnani bimālin famā ātāniya l-lahu khayrun mimmā ātākum bal antum bihadiyyatikum tafraḥūna",
-    "translation": "",
+    "translation": "So when they came to Solomon, he said, \"Do you provide me with wealth? But what Allāh has given me is better than what He has given you. Rather, it is you who rejoice in your gift.",
     "words": [
       {
         "id": "an-naml-36-1",
@@ -3367,7 +3402,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque (les émissaires) furent arrivés chez Salomon, celui-ci dit : « Comptez-vous donc me combler de biens alors que ce qu’Allah m’a donné est bien meilleur que ce qu’Il vous a donné ? Non, c’est plutôt vous qui vous réjouissez des présents qui vous sont faits."
   },
   {
     "id": "an-naml-37",
@@ -3376,7 +3412,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "ٱرْجِعْ إِلَيْهِمْ فَلَنَأْتِيَنَّهُم بِجُنُودٍ لَّا قِبَلَ لَهُم بِهَا وَلَنُخْرِجَنَّهُم مِّنْهَآ أَذِلَّةً وَهُمْ صَـٰغِرُونَ",
     "textSimple": "ٱرجع إليهم فلنأتينهم بجنود لا قبل لهم بها ولنخرجنهم منهآ أذلة وهم صـغرون",
     "transliteration": "ir'jiʿ ilayhim falanatiyannahum bijunūdin lā qibala lahum bihā walanukh'rijannahum min'hā adhillatan wahum ṣāghirūna",
-    "translation": "",
+    "translation": "Return to them, for we will surely come to them with soldiers that they will be powerless to encounter, and we will surely expel them therefrom in humiliation, and they will be debased.\"",
     "words": [
       {
         "id": "an-naml-37-1",
@@ -3470,7 +3506,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Retournez donc vers eux. Nous viendrons les trouver avec des armées auxquelles ils ne pourront résister. Nous les chasserons de leur pays, humiliés et la tête basse. »"
   },
   {
     "id": "an-naml-38",
@@ -3479,7 +3516,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰٓأَيُّهَا ٱلْمَلَؤُا۟ أَيُّكُمْ يَأْتِينِى بِعَرْشِهَا قَبْلَ أَن يَأْتُونِى مُسْلِمِينَ",
     "textSimple": "قال يـٓأيها ٱلملؤا أيكم يأتينى بعرشها قبل أن يأتونى مسلمين",
     "transliteration": "qāla yāayyuhā l-mala-u ayyukum yatīnī biʿarshihā qabla an yatūnī mus'limīna",
-    "translation": "",
+    "translation": "[Solomon] said, \"O assembly [of jinn], which of you will bring me her throne before they come to me in submission?\"",
     "words": [
       {
         "id": "an-naml-38-1",
@@ -3552,7 +3589,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il ajouta : « Ô vous, assemblée de notables ! Qui de vous pourrait m’apporter son trône (à elle) avant même qu’ils ne viennent vers moi soumis ? »"
   },
   {
     "id": "an-naml-39",
@@ -3561,7 +3599,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ عِفْرِيتٌ مِّنَ ٱلْجِنِّ أَنَا۠ ءَاتِيكَ بِهِۦ قَبْلَ أَن تَقُومَ مِن مَّقَامِكَ ۖ وَإِنِّى عَلَيْهِ لَقَوِىٌّ أَمِينٌ",
     "textSimple": "قال عفريت من ٱلجن أنا ءاتيك به قبل أن تقوم من مقامك  وإنى عليه لقوى أمين",
     "transliteration": "qāla ʿif'rītun mina l-jini anā ātīka bihi qabla an taqūma min maqāmika wa-innī ʿalayhi laqawiyyun amīnun",
-    "translation": "",
+    "translation": "A powerful one from among the jinn said, \"I will bring it to you before you rise from your place, and indeed, I am for this [task] strong and trustworthy.\"",
     "words": [
       {
         "id": "an-naml-39-1",
@@ -3676,7 +3714,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un puissant djinn répondit alors : « Moi, je te l’apporterai avant même que tu ne te sois levé de ta place. Pour ce faire, je suis fort et digne de confiance. »"
   },
   {
     "id": "an-naml-40",
@@ -3685,7 +3724,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱلَّذِى عِندَهُۥ عِلْمٌ مِّنَ ٱلْكِتَـٰبِ أَنَا۠ ءَاتِيكَ بِهِۦ قَبْلَ أَن يَرْتَدَّ إِلَيْكَ طَرْفُكَ ۚ فَلَمَّا رَءَاهُ مُسْتَقِرًّا عِندَهُۥ قَالَ هَـٰذَا مِن فَضْلِ رَبِّى لِيَبْلُوَنِىٓ ءَأَشْكُرُ أَمْ أَكْفُرُ ۖ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ رَبِّى غَنِىٌّ كَرِيمٌ",
     "textSimple": "قال ٱلذى عنده علم من ٱلكتـب أنا ءاتيك به قبل أن يرتد إليك طرفك  فلما رءاه مستقرا عنده قال هـذا من فضل ربى ليبلونىٓ ءأشكر أم أكفر  ومن شكر فإنما يشكر لنفسه  ومن كفر فإن ربى غنى كريم",
     "transliteration": "qāla alladhī ʿindahu ʿil'mun mina l-kitābi anā ātīka bihi qabla an yartadda ilayka ṭarfuka falammā raāhu mus'taqirran ʿindahu qāla hādhā min faḍli rabbī liyabluwanī a-ashkuru am akfuru waman shakara fa-innamā yashkuru linafsihi waman kafara fa-inna rabbī ghaniyyun karīmun",
-    "translation": "",
+    "translation": "Said one who had knowledge from the Scripture, \"I will bring it to you before your glance returns to you.\" And when [Solomon] saw it placed before him, he said, \"This is from the favor of my Lord to test me whether I will be grateful or ungrateful. And whoever is grateful - his gratitude is only for [the benefit of] himself. And whoever is ungrateful - then indeed, my Lord is Free of need and Generous.\"",
     "words": [
       {
         "id": "an-naml-40-1",
@@ -3954,7 +3993,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui était initié à la science du Livre dit alors : « Moi, je te l’apporterai avant même que tu n’aies cligné de l’œil. » Lorsque Salomon eut vu (le trône) installé près de lui, il dit : « C’est là une des faveurs de mon Seigneur Qui m’éprouve (pour voir) si je suis reconnaissant ou ingrat. Car, quiconque est reconnaissant le sera pour lui-même, et quiconque est ingrat (doit savoir qu’) Allah Se passe de (sa reconnaissance) et qu’Il est Généreux. »"
   },
   {
     "id": "an-naml-41",
@@ -3963,7 +4003,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ نَكِّرُوا۟ لَهَا عَرْشَهَا نَنظُرْ أَتَهْتَدِىٓ أَمْ تَكُونُ مِنَ ٱلَّذِينَ لَا يَهْتَدُونَ",
     "textSimple": "قال نكروا لها عرشها ننظر أتهتدىٓ أم تكون من ٱلذين لا يهتدون",
     "transliteration": "qāla nakkirū lahā ʿarshahā nanẓur atahtadī am takūnu mina alladhīna lā yahtadūna",
-    "translation": "",
+    "translation": "He said, \"Disguise for her her throne; we will see whether she will be guided [to truth] or will be of those who is not guided.\"",
     "words": [
       {
         "id": "an-naml-41-1",
@@ -4050,7 +4090,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Salomon) dit : « Déguisez-lui son trône. Nous allons voir si elle sera suffisamment guidée (pour le reconnaître) ou si elle sera de ceux qui ne sont point guidés. »"
   },
   {
     "id": "an-naml-42",
@@ -4059,7 +4100,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَتْ قِيلَ أَهَـٰكَذَا عَرْشُكِ ۖ قَالَتْ كَأَنَّهُۥ هُوَ ۚ وَأُوتِينَا ٱلْعِلْمَ مِن قَبْلِهَا وَكُنَّا مُسْلِمِينَ",
     "textSimple": "فلما جآءت قيل أهـكذا عرشك  قالت كأنه هو  وأوتينا ٱلعلم من قبلها وكنا مسلمين",
     "transliteration": "falammā jāat qīla ahākadhā ʿarshuki qālat ka-annahu huwa waūtīnā l-ʿil'ma min qablihā wakunnā mus'limīna",
-    "translation": "",
+    "translation": "So when she arrived, it was said [to her], \"Is your throne like this?\" She said, \"[It is] as though it was it.\" [Solomon said], \"And we were given knowledge before her, and we have been Muslims [in submission to Allāh].",
     "words": [
       {
         "id": "an-naml-42-1",
@@ -4160,7 +4201,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand (la reine) fut venue, il lui fut demandé : « Est-ce bien là ton trône ? » Elle répondit : « Il m’a tout l’air de l’être. » (Salomon dit alors dans le secret du cœur) : « Le savoir nous a été donné avant elle et nous étions Soumis. »"
   },
   {
     "id": "an-naml-43",
@@ -4169,7 +4211,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَصَدَّهَا مَا كَانَت تَّعْبُدُ مِن دُونِ ٱللَّهِ ۖ إِنَّهَا كَانَتْ مِن قَوْمٍ كَـٰفِرِينَ",
     "textSimple": "وصدها ما كانت تعبد من دون ٱلله  إنها كانت من قوم كـفرين",
     "transliteration": "waṣaddahā mā kānat taʿbudu min dūni l-lahi innahā kānat min qawmin kāfirīna",
-    "translation": "",
+    "translation": "And that which she was worshipping other than Allāh had averted her [from submission to Him]. Indeed, she was from a disbelieving people.\"",
     "words": [
       {
         "id": "an-naml-43-1",
@@ -4256,7 +4298,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ce qu’elle adorait en dehors d’Allah qui la détournait (de la foi), car elle était issue d’un peuple mécréant."
   },
   {
     "id": "an-naml-44",
@@ -4265,7 +4308,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَـٰنَ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "قيل لها ٱدخلى ٱلصرح  فلما رأته حسبته لجة وكشفت عن ساقيها  قال إنه صرح ممرد من قوارير  قالت رب إنى ظلمت نفسى وأسلمت مع سليمـن لله رب ٱلعـلمين",
     "transliteration": "qīla lahā ud'khulī l-ṣarḥa falammā ra-athu ḥasibathu lujjatan wakashafat ʿan sāqayhā qāla innahu ṣarḥun mumarradun min qawārīra qālat rabbi innī ẓalamtu nafsī wa-aslamtu maʿa sulaymāna lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "She was told, \"Enter the palace.\" But when she saw it, she thought it was a body of water and uncovered her shins [to wade through]. He said, \"Indeed, it is a palace [whose floor is] made smooth with glass.\" She said, \"My Lord, indeed I have wronged myself, and I submit with Solomon to Allāh, Lord of the worlds.\"",
     "words": [
       {
         "id": "an-naml-44-1",
@@ -4464,7 +4507,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il lui fut dit : « Entre dans le palais. » Or le voyant, elle crut (devoir pénétrer dans) une eau profonde et, (retroussant sa robe), elle découvrit ses jambes. (Salomon) dit alors : « C’est un palais tout pavé de cristal. » À quoi elle répliqua : « Seigneur ! J’ai été injuste envers moi-même. Je me soumets, aux côtés de Salomon, au Seigneur de l’Univers. »"
   },
   {
     "id": "an-naml-45",
@@ -4473,7 +4517,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَآ إِلَىٰ ثَمُودَ أَخَاهُمْ صَـٰلِحًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ فَإِذَا هُمْ فَرِيقَانِ يَخْتَصِمُونَ",
     "textSimple": "ولقد أرسلنآ إلى ثمود أخاهم صـلحا أن ٱعبدوا ٱلله فإذا هم فريقان يختصمون",
     "transliteration": "walaqad arsalnā ilā thamūda akhāhum ṣāliḥan ani uʿ'budū l-laha fa-idhā hum farīqāni yakhtaṣimūna",
-    "translation": "",
+    "translation": "And We had certainly sent to Thamūd their brother Ṣāliḥ, [saying], \"Worship Allāh,\" and at once they were two parties conflicting.",
     "words": [
       {
         "id": "an-naml-45-1",
@@ -4567,7 +4611,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes vers les Thamûd leur frère Çâlih, (qui leur enjoignit) : « Adorez donc Allah. » Mais ils se partagèrent en deux clans et se querellèrent."
   },
   {
     "id": "an-naml-46",
@@ -4576,7 +4621,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰقَوْمِ لِمَ تَسْتَعْجِلُونَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ ۖ لَوْلَا تَسْتَغْفِرُونَ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
     "textSimple": "قال يـقوم لم تستعجلون بٱلسيئة قبل ٱلحسنة  لولا تستغفرون ٱلله لعلكم ترحمون",
     "transliteration": "qāla yāqawmi lima tastaʿjilūna bil-sayi-ati qabla l-ḥasanati lawlā tastaghfirūna l-laha laʿallakum tur'ḥamūna",
-    "translation": "",
+    "translation": "He said, \"O my people, why are you impatient for evil before [i.e., instead of] good? Why do you not seek forgiveness of Allāh that you may receive mercy?\"",
     "words": [
       {
         "id": "an-naml-46-1",
@@ -4663,7 +4708,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Ô peuple mien ! Pourquoi appelez-vous le châtiment d’Allah sur vous plutôt que Sa grâce ? Que ne sollicitez-vous le pardon d’Allah ? Peut-être alors serez-vous reçus en Sa miséricorde. »"
   },
   {
     "id": "an-naml-47",
@@ -4672,7 +4718,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ ٱطَّيَّرْنَا بِكَ وَبِمَن مَّعَكَ ۚ قَالَ طَـٰٓئِرُكُمْ عِندَ ٱللَّهِ ۖ بَلْ أَنتُمْ قَوْمٌ تُفْتَنُونَ",
     "textSimple": "قالوا ٱطيرنا بك وبمن معك  قال طـٓئركم عند ٱلله  بل أنتم قوم تفتنون",
     "transliteration": "qālū iṭṭayyarnā bika wabiman maʿaka qāla ṭāirukum ʿinda l-lahi bal antum qawmun tuf'tanūna",
-    "translation": "",
+    "translation": "They said, \"We consider you a bad omen, you and those with you.\" He said, \"Your omen [i.e., fate] is with Allāh. Rather, you are a people being tested.\"",
     "words": [
       {
         "id": "an-naml-47-1",
@@ -4766,7 +4812,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Pour nous, dirent-ils, vous êtes, toi et tes compagnons, des oiseaux de mauvais augure. » Il répondit : « C’est d’Allah que relève votre sort. Seulement, vous êtes des gens qui sont mis à l’épreuve."
   },
   {
     "id": "an-naml-48",
@@ -4775,7 +4822,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَكَانَ فِى ٱلْمَدِينَةِ تِسْعَةُ رَهْطٍ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ",
     "textSimple": "وكان فى ٱلمدينة تسعة رهط يفسدون فى ٱلأرض ولا يصلحون",
     "transliteration": "wakāna fī l-madīnati tis'ʿatu rahṭin yuf'sidūna fī l-arḍi walā yuṣ'liḥūna",
-    "translation": "",
+    "translation": "And there were in the city nine family heads causing corruption in the land and not amending [its affairs].",
     "words": [
       {
         "id": "an-naml-48-1",
@@ -4848,7 +4895,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or il y avait dans la cité neuf personnes qui semaient la corruption sur terre et ne faisaient rien pour le mieux."
   },
   {
     "id": "an-naml-49",
@@ -4857,7 +4905,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ تَقَاسَمُوا۟ بِٱللَّهِ لَنُبَيِّتَنَّهُۥ وَأَهْلَهُۥ ثُمَّ لَنَقُولَنَّ لِوَلِيِّهِۦ مَا شَهِدْنَا مَهْلِكَ أَهْلِهِۦ وَإِنَّا لَصَـٰدِقُونَ",
     "textSimple": "قالوا تقاسموا بٱلله لنبيتنه وأهله ثم لنقولن لوليه ما شهدنا مهلك أهله وإنا لصـدقون",
     "transliteration": "qālū taqāsamū bil-lahi lanubayyitannahu wa-ahlahu thumma lanaqūlanna liwaliyyihi mā shahid'nā mahlika ahlihi wa-innā laṣādiqūna",
-    "translation": "",
+    "translation": "They said, \"Take a mutual oath by Allāh that we will kill him by night, he and his family. Then we will say to his executor, 'We did not witness the destruction of his family, and indeed, we are truthful.'\"",
     "words": [
       {
         "id": "an-naml-49-1",
@@ -4958,7 +5006,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Jurons-nous par Allah que nous le tuerons de nuit avec sa famille. Puis nous dirons à son ayant-droit : « Nous n’étions pas présents à ce meurtre, et nous disons vrai. »"
   },
   {
     "id": "an-naml-50",
@@ -4967,7 +5016,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَمَكَرُوا۟ مَكْرًا وَمَكَرْنَا مَكْرًا وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "ومكروا مكرا ومكرنا مكرا وهم لا يشعرون",
     "transliteration": "wamakarū makran wamakarnā makran wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "And they planned a plan, and We planned a plan, while they perceived not.",
     "words": [
       {
         "id": "an-naml-50-1",
@@ -5019,7 +5068,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont tramé leur intrigue et Nous avons tramé la Nôtre sans qu’ils n’en sentent rien."
   },
   {
     "id": "an-naml-51",
@@ -5028,7 +5078,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ مَكْرِهِمْ أَنَّا دَمَّرْنَـٰهُمْ وَقَوْمَهُمْ أَجْمَعِينَ",
     "textSimple": "فٱنظر كيف كان عـقبة مكرهم أنا دمرنـهم وقومهم أجمعين",
     "transliteration": "fa-unẓur kayfa kāna ʿāqibatu makrihim annā dammarnāhum waqawmahum ajmaʿīna",
-    "translation": "",
+    "translation": "Then look how was the outcome of their plan - that We destroyed them and their people, all.",
     "words": [
       {
         "id": "an-naml-51-1",
@@ -5094,7 +5144,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vois donc quelle fut la conséquence de leur intrigue : Nous les anéantîmes avec tout leur peuple."
   },
   {
     "id": "an-naml-52",
@@ -5103,7 +5154,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَتِلْكَ بُيُوتُهُمْ خَاوِيَةًۢ بِمَا ظَلَمُوٓا۟ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّقَوْمٍ يَعْلَمُونَ",
     "textSimple": "فتلك بيوتهم خاوية بما ظلموٓا  إن فى ذلك لـٔاية لقوم يعلمون",
     "transliteration": "fatil'ka buyūtuhum khāwiyatan bimā ẓalamū inna fī dhālika laāyatan liqawmin yaʿlamūna",
-    "translation": "",
+    "translation": "So those are their houses, desolate because of the wrong they had done. Indeed in that is a sign for people who know.",
     "words": [
       {
         "id": "an-naml-52-1",
@@ -5183,7 +5234,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voilà leurs maisons qui sont désertes pour toutes les injustices qu’ils avaient commises. Il y a certes là un Signe pour des gens qui savent."
   },
   {
     "id": "an-naml-53",
@@ -5192,7 +5244,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنجَيْنَا ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
     "textSimple": "وأنجينا ٱلذين ءامنوا وكانوا يتقون",
     "transliteration": "wa-anjaynā alladhīna āmanū wakānū yattaqūna",
-    "translation": "",
+    "translation": "And We saved those who believed and used to fear Allāh.",
     "words": [
       {
         "id": "an-naml-53-1",
@@ -5230,7 +5282,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous sauvâmes ceux qui avaient cru et qui étaient pieux."
   },
   {
     "id": "an-naml-54",
@@ -5239,7 +5292,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَـٰحِشَةَ وَأَنتُمْ تُبْصِرُونَ",
     "textSimple": "ولوطا إذ قال لقومهٓ أتأتون ٱلفـحشة وأنتم تبصرون",
     "transliteration": "walūṭan idh qāla liqawmihi atatūna l-fāḥishata wa-antum tub'ṣirūna",
-    "translation": "",
+    "translation": "And [mention] Lot, when he said to his people, \"Do you commit immorality while you are seeing?",
     "words": [
       {
         "id": "an-naml-54-1",
@@ -5298,7 +5351,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) Loth, lorsqu’il dit à son peuple : « Vous adonnez-vous à la perversité (de l’homosexualité) en public ?"
   },
   {
     "id": "an-naml-55",
@@ -5307,7 +5361,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةً مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ تَجْهَلُونَ",
     "textSimple": "أئنكم لتأتون ٱلرجال شهوة من دون ٱلنسآء  بل أنتم قوم تجهلون",
     "transliteration": "a-innakum latatūna l-rijāla shahwatan min dūni l-nisāi bal antum qawmun tajhalūna",
-    "translation": "",
+    "translation": "Do you indeed approach men with desire instead of women? Rather, you are a people behaving ignorantly.\"",
     "words": [
       {
         "id": "an-naml-55-1",
@@ -5387,7 +5441,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Désirez-vous les hommes plutôt que les femmes ? Vous êtes décidément un peuple d’ignorants ! »"
   },
   {
     "id": "an-naml-56",
@@ -5396,7 +5451,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوٓا۟ أَخْرِجُوٓا۟ ءَالَ لُوطٍ مِّن قَرْيَتِكُمْ ۖ إِنَّهُمْ أُنَاسٌ يَتَطَهَّرُونَ",
     "textSimple": " فما كان جواب قومهٓ إلآ أن قالوٓا أخرجوٓا ءال لوط من قريتكم  إنهم أناس يتطهرون",
     "transliteration": "famā kāna jawāba qawmihi illā an qālū akhrijū āla lūṭin min qaryatikum innahum unāsun yataṭahharūna",
-    "translation": "",
+    "translation": "But the answer of his people was not except that they said, \"Expel the family of Lot from your city. Indeed, they are people who keep themselves pure.\"",
     "words": [
       {
         "id": "an-naml-56-1",
@@ -5504,7 +5559,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour toute réponse, son peuple eut ces mots : « Chassez de votre cité la famille de Loth, ce sont des gens qui revendiquent la pureté ! »"
   },
   {
     "id": "an-naml-57",
@@ -5513,7 +5569,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَأَنجَيْنَـٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَـٰهَا مِنَ ٱلْغَـٰبِرِينَ",
     "textSimple": "فأنجينـه وأهلهٓ إلا ٱمرأته قدرنـها من ٱلغـبرين",
     "transliteration": "fa-anjaynāhu wa-ahlahu illā im'ra-atahu qaddarnāhā mina l-ghābirīna",
-    "translation": "",
+    "translation": "So We saved him and his family, except for his wife; We destined her to be of those who remained behind.",
     "words": [
       {
         "id": "an-naml-57-1",
@@ -5565,7 +5621,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes, lui et sa famille, hormis sa femme pour laquelle Nous avons décrété qu’elle serait du nombre des disparus."
   },
   {
     "id": "an-naml-58",
@@ -5574,7 +5631,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا ۖ فَسَآءَ مَطَرُ ٱلْمُنذَرِينَ",
     "textSimple": "وأمطرنا عليهم مطرا  فسآء مطر ٱلمنذرين",
     "transliteration": "wa-amṭarnā ʿalayhim maṭaran fasāa maṭaru l-mundharīna",
-    "translation": "",
+    "translation": "And We rained upon them a rain [of stones], and evil was the rain of those who were warned.",
     "words": [
       {
         "id": "an-naml-58-1",
@@ -5619,7 +5676,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous fîmes s’abattre sur eux une pluie (de pierres), et quelle funeste pluie pour des gens (pourtant) avertis !"
   },
   {
     "id": "an-naml-59",
@@ -5628,7 +5686,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَـٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ",
     "textSimple": "قل ٱلحمد لله وسلـم على عباده ٱلذين ٱصطفىٓ  ءآلله خير أما يشركون",
     "transliteration": "quli l-ḥamdu lillahi wasalāmun ʿalā ʿibādihi alladhīna iṣ'ṭafā āllahu khayrun ammā yush'rikūna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Praise be to Allāh, and peace upon His servants whom He has chosen. Is Allāh better or what they associate with Him?\"",
     "words": [
       {
         "id": "an-naml-59-1",
@@ -5715,7 +5773,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Louange à Allah ! Que la paix soit sur Ses serviteurs élus ! Allah est-Il meilleur ou ce qu’ils Lui associent ?"
   },
   {
     "id": "an-naml-60",
@@ -5724,7 +5783,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌ يَعْدِلُونَ",
     "textSimple": "أمن خلق ٱلسمـوت وٱلأرض وأنزل لكم من ٱلسمآء مآء فأنبتنا به حدآئق ذات بهجة ما كان لكم أن تنبتوا شجرهآ  أءلـه مع ٱلله  بل هم قوم يعدلون",
     "transliteration": "amman khalaqa l-samāwāti wal-arḍa wa-anzala lakum mina l-samāi māan fa-anbatnā bihi ḥadāiqa dhāta bahjatin mā kāna lakum an tunbitū shajarahā a-ilāhun maʿa l-lahi bal hum qawmun yaʿdilūna",
-    "translation": "",
+    "translation": "[More precisely], is He [not best] who created the heavens and the earth and sent down for you rain from the sky, causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof? Is there a deity with Allāh? [No], but they are a people who ascribe equals [to Him].",
     "words": [
       {
         "id": "an-naml-60-1",
@@ -5916,7 +5975,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Qui d’autre que) Lui a créé les cieux et la terre, a fait descendre du ciel une eau par laquelle Nous faisons pousser des jardins de toute beauté ? Vous ne seriez nullement en mesure d’en faire pousser les arbres. Y a-t-il donc, avec Allah, une autre divinité ? Non, ce sont des gens qui (s’obstinent) à Lui donner des émules."
   },
   {
     "id": "an-naml-61",
@@ -5925,7 +5985,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّن جَعَلَ ٱلْأَرْضَ قَرَارًا وَجَعَلَ خِلَـٰلَهَآ أَنْهَـٰرًا وَجَعَلَ لَهَا رَوَٰسِىَ وَجَعَلَ بَيْنَ ٱلْبَحْرَيْنِ حَاجِزًا ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
     "textSimple": "أمن جعل ٱلأرض قرارا وجعل خلـلهآ أنهـرا وجعل لها روسى وجعل بين ٱلبحرين حاجزا  أءلـه مع ٱلله  بل أكثرهم لا يعلمون",
     "transliteration": "amman jaʿala l-arḍa qarāran wajaʿala khilālahā anhāran wajaʿala lahā rawāsiya wajaʿala bayna l-baḥrayni ḥājizan a-ilāhun maʿa l-lahi bal aktharuhum lā yaʿlamūna",
-    "translation": "",
+    "translation": "Is He [not best] who made the earth a stable ground and placed within it rivers and made for it firmly set mountains and placed between the two seas a barrier? Is there a deity with Allāh? [No], but most of them do not know.",
     "words": [
       {
         "id": "an-naml-61-1",
@@ -6075,7 +6135,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Qui d’autre que) Lui a fait de la terre un lieu stable pour y vivre, a tracé à travers elle des rivières, y a implanté des montagnes et a dressé une barrière entre les deux mers ? Y a-t-il donc, avec Allah, une autre divinité ? Non, mais la plupart d’entre eux ne savent pas."
   },
   {
     "id": "an-naml-62",
@@ -6084,7 +6145,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّن يُجِيبُ ٱلْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ ٱلسُّوٓءَ وَيَجْعَلُكُمْ خُلَفَآءَ ٱلْأَرْضِ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
     "textSimple": "أمن يجيب ٱلمضطر إذا دعاه ويكشف ٱلسوٓء ويجعلكم خلفآء ٱلأرض  أءلـه مع ٱلله  قليلا ما تذكرون",
     "transliteration": "amman yujību l-muḍ'ṭara idhā daʿāhu wayakshifu l-sūa wayajʿalukum khulafāa l-arḍi a-ilāhun maʿa l-lahi qalīlan mā tadhakkarūna",
-    "translation": "",
+    "translation": "Is He [not best] who responds to the desperate one when he calls upon Him and removes evil and makes you inheritors of the earth? Is there a deity with Allāh? Little do you remember.",
     "words": [
       {
         "id": "an-naml-62-1",
@@ -6199,7 +6260,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Qui d’autre que) Lui répond à l’appel du désespéré quand il L’invoque, débarrasse du mal, et fait de vous des héritiers sur terre ? Y a-t-il donc, avec Allah, une autre divinité ? Non, mais il est rare que vous vous en souveniez."
   },
   {
     "id": "an-naml-63",
@@ -6208,7 +6270,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّن يَهْدِيكُمْ فِى ظُلُمَـٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَـٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ تَعَـٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ",
     "textSimple": "أمن يهديكم فى ظلمـت ٱلبر وٱلبحر ومن يرسل ٱلريـح بشرا بين يدى رحمتهٓ  أءلـه مع ٱلله  تعـلى ٱلله عما يشركون",
     "transliteration": "amman yahdīkum fī ẓulumāti l-bari wal-baḥri waman yur'silu l-riyāḥa bush'ran bayna yaday raḥmatihi a-ilāhun maʿa l-lahi taʿālā l-lahu ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "Is He [not best] who guides you through the darknesses of the land and sea and who sends the winds as good tidings before His mercy? Is there a deity with Allāh? High is Allāh above whatever they associate with Him.",
     "words": [
       {
         "id": "an-naml-63-1",
@@ -6351,7 +6413,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Qui d’autre que) Lui vous éclaire le chemin au milieu des ténèbres de la terre ferme et de la haute mer, et envoie les vents en signe avant-coureur de Sa grâce? Y a-t-il donc, avec Allah, une autre divinité ? Allah est infiniment plus Haut que ce qu’ils Lui associent."
   },
   {
     "id": "an-naml-64",
@@ -6360,7 +6423,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَمَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ قُلْ هَاتُوا۟ بُرْهَـٰنَكُمْ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "أمن يبدؤا ٱلخلق ثم يعيده ومن يرزقكم من ٱلسمآء وٱلأرض  أءلـه مع ٱلله  قل هاتوا برهـنكم إن كنتم صـدقين",
     "transliteration": "amman yabda-u l-khalqa thumma yuʿīduhu waman yarzuqukum mina l-samāi wal-arḍi a-ilāhun maʿa l-lahi qul hātū bur'hānakum in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Is He [not best] who begins creation and then repeats it and who provides for you from the heaven and earth? Is there a deity with Allāh? Say, \"Produce your proof, if you should be truthful.\"",
     "words": [
       {
         "id": "an-naml-64-1",
@@ -6496,7 +6559,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Qui d’autre que) Lui initie la création puis la recommence, et qui (d’autre que Lui) vous procure votre subsistance des cieux et de la terre ? Y a-t-il donc, avec Allah, une autre divinité ? Dis : « Apportez votre preuve, si vous dites vrai ! »"
   },
   {
     "id": "an-naml-65",
@@ -6505,7 +6569,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّا يَعْلَمُ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ٱلْغَيْبَ إِلَّا ٱللَّهُ ۚ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ",
     "textSimple": "قل لا يعلم من فى ٱلسمـوت وٱلأرض ٱلغيب إلا ٱلله  وما يشعرون أيان يبعثون",
     "transliteration": "qul lā yaʿlamu man fī l-samāwāti wal-arḍi l-ghayba illā l-lahu wamā yashʿurūna ayyāna yub'ʿathūna",
-    "translation": "",
+    "translation": "Say, \"None in the heavens and earth knows the unseen except Allāh, and they do not perceive when they will be resurrected.\"",
     "words": [
       {
         "id": "an-naml-65-1",
@@ -6606,7 +6670,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis encore : « Nul, parmi ceux qui sont dans les cieux et sur terre, ne connaît l’Inconnaissable (ghayb), hormis Allah. » Ils ne peuvent savoir quand ils seront ressuscités."
   },
   {
     "id": "an-naml-66",
@@ -6615,7 +6680,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "بَلِ ٱدَّٰرَكَ عِلْمُهُمْ فِى ٱلْـَٔاخِرَةِ ۚ بَلْ هُمْ فِى شَكٍّ مِّنْهَا ۖ بَلْ هُم مِّنْهَا عَمُونَ",
     "textSimple": "بل ٱدرك علمهم فى ٱلـٔاخرة  بل هم فى شك منها  بل هم منها عمون",
     "transliteration": "bali iddāraka ʿil'muhum fī l-ākhirati bal hum fī shakkin min'hā bal hum min'hā ʿamūna",
-    "translation": "",
+    "translation": "Rather, their knowledge is arrested concerning the Hereafter. Rather, they are in doubt about it. Rather, they are, concerning it, blind.",
     "words": [
       {
         "id": "an-naml-66-1",
@@ -6716,7 +6781,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur science est incapable d’avoir la connaissance de l’autre monde, mais ils sont encore dans le doute, voire aveugles à son sujet."
   },
   {
     "id": "an-naml-67",
@@ -6725,7 +6791,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ أَءِذَا كُنَّا تُرَٰبًا وَءَابَآؤُنَآ أَئِنَّا لَمُخْرَجُونَ",
     "textSimple": "وقال ٱلذين كفروٓا أءذا كنا تربا وءابآؤنآ أئنا لمخرجون",
     "transliteration": "waqāla alladhīna kafarū a-idhā kunnā turāban waābāunā a-innā lamukh'rajūna",
-    "translation": "",
+    "translation": "And those who disbelieve say, \"When we have become dust as well as our forefathers, will we indeed be brought out [of the graves]?",
     "words": [
       {
         "id": "an-naml-67-1",
@@ -6791,7 +6857,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont mécru disent : « Une fois que nous serons devenus poussière, nous et nos pères, est-il vrai que nous serons sortis à nouveau (vivants des tombes) ?"
   },
   {
     "id": "an-naml-68",
@@ -6800,7 +6867,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ وُعِدْنَا هَـٰذَا نَحْنُ وَءَابَآؤُنَا مِن قَبْلُ إِنْ هَـٰذَآ إِلَّآ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
     "textSimple": "لقد وعدنا هـذا نحن وءابآؤنا من قبل إن هـذآ إلآ أسـطير ٱلأولين",
     "transliteration": "laqad wuʿid'nā hādhā naḥnu waābāunā min qablu in hādhā illā asāṭīru l-awalīna",
-    "translation": "",
+    "translation": "We have been promised this, we and our forefathers, before. This is not but legends of the former peoples.\"",
     "words": [
       {
         "id": "an-naml-68-1",
@@ -6887,7 +6954,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une telle promesse nous a été faite par le passé, à nous et à nos pères. Mais ce ne sont là que d’anciennes légendes ! »"
   },
   {
     "id": "an-naml-69",
@@ -6896,7 +6964,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُجْرِمِينَ",
     "textSimple": "قل سيروا فى ٱلأرض فٱنظروا كيف كان عـقبة ٱلمجرمين",
     "transliteration": "qul sīrū fī l-arḍi fa-unẓurū kayfa kāna ʿāqibatu l-muj'rimīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Proceed [i.e., travel] through the land and observe how was the end of the criminals.\"",
     "words": [
       {
         "id": "an-naml-69-1",
@@ -6962,7 +7030,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Allez de par le monde et voyez quel fut le sort des criminels. »"
   },
   {
     "id": "an-naml-70",
@@ -6971,7 +7040,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُن فِى ضَيْقٍ مِّمَّا يَمْكُرُونَ",
     "textSimple": "ولا تحزن عليهم ولا تكن فى ضيق مما يمكرون",
     "transliteration": "walā taḥzan ʿalayhim walā takun fī ḍayqin mimmā yamkurūna",
-    "translation": "",
+    "translation": "And grieve not over them or be in distress from what they conspire.",
     "words": [
       {
         "id": "an-naml-70-1",
@@ -7037,7 +7106,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne sois pas triste à leur sujet, ni angoissé des intrigues qu’ils trament."
   },
   {
     "id": "an-naml-71",
@@ -7046,7 +7116,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلوعد إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When is [the fulfillment of] this promise, if you should be truthful?\"",
     "words": [
       {
         "id": "an-naml-71-1",
@@ -7098,7 +7168,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils demandent : « À quand donc cette promesse, si vous êtes véridiques ? »"
   },
   {
     "id": "an-naml-72",
@@ -7107,7 +7178,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ عَسَىٰٓ أَن يَكُونَ رَدِفَ لَكُم بَعْضُ ٱلَّذِى تَسْتَعْجِلُونَ",
     "textSimple": "قل عسىٓ أن يكون ردف لكم بعض ٱلذى تستعجلون",
     "transliteration": "qul ʿasā an yakūna radifa lakum baʿḍu alladhī tastaʿjilūna",
-    "translation": "",
+    "translation": "Say, \"Perhaps it is close behind you [i.e., very near] - some of that for which you are impatient.",
     "words": [
       {
         "id": "an-naml-72-1",
@@ -7173,7 +7244,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il est possible qu’une partie de ce que vous êtes pressés (de voir arriver) soit imminente. »"
   },
   {
     "id": "an-naml-73",
@@ -7182,7 +7254,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ",
     "textSimple": "وإن ربك لذو فضل على ٱلناس ولـكن أكثرهم لا يشكرون",
     "transliteration": "wa-inna rabbaka ladhū faḍlin ʿalā l-nāsi walākinna aktharahum lā yashkurūna",
-    "translation": "",
+    "translation": "And indeed, your Lord is the possessor of bounty for the people, but most of them are not grateful.\"",
     "words": [
       {
         "id": "an-naml-73-1",
@@ -7255,7 +7327,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur est Plein de faveurs pour les hommes, mais la plupart d’entre eux ne (Lui) rendent pas grâces."
   },
   {
     "id": "an-naml-74",
@@ -7264,7 +7337,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ رَبَّكَ لَيَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
     "textSimple": "وإن ربك ليعلم ما تكن صدورهم وما يعلنون",
     "transliteration": "wa-inna rabbaka layaʿlamu mā tukinnu ṣudūruhum wamā yuʿ'linūna",
-    "translation": "",
+    "translation": "And indeed, your Lord knows what their breasts conceal and what they declare.",
     "words": [
       {
         "id": "an-naml-74-1",
@@ -7323,7 +7396,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur, certes, Sait ce qu’ils cachent dans le secret du cœur et ce qu’ils révèlent au grand jour."
   },
   {
     "id": "an-naml-75",
@@ -7332,7 +7406,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مِنْ غَآئِبَةٍ فِى ٱلسَّمَآءِ وَٱلْأَرْضِ إِلَّا فِى كِتَـٰبٍ مُّبِينٍ",
     "textSimple": "وما من غآئبة فى ٱلسمآء وٱلأرض إلا فى كتـب مبين",
     "transliteration": "wamā min ghāibatin fī l-samāi wal-arḍi illā fī kitābin mubīnin",
-    "translation": "",
+    "translation": "And there is nothing concealed within the heaven and the earth except that it is in a clear Register.",
     "words": [
       {
         "id": "an-naml-75-1",
@@ -7405,7 +7479,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est aucune chose cachée, dans le ciel et sur terre, qui ne soit (consignée) dans un Livre explicite."
   },
   {
     "id": "an-naml-76",
@@ -7414,7 +7489,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا ٱلْقُرْءَانَ يَقُصُّ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَكْثَرَ ٱلَّذِى هُمْ فِيهِ يَخْتَلِفُونَ",
     "textSimple": "إن هـذا ٱلقرءان يقص على بنىٓ إسرٓءيل أكثر ٱلذى هم فيه يختلفون",
     "transliteration": "inna hādhā l-qur'āna yaquṣṣu ʿalā banī is'rāīla akthara alladhī hum fīhi yakhtalifūna",
-    "translation": "",
+    "translation": "Indeed, this Qur’ān relates to the Children of Israel most of that over which they disagree.",
     "words": [
       {
         "id": "an-naml-76-1",
@@ -7501,7 +7576,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce Coran relate aux Enfants d’Israël la plupart des sujets sur lesquels ils sont partagés."
   },
   {
     "id": "an-naml-77",
@@ -7510,7 +7586,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
     "textSimple": "وإنه لهدى ورحمة للمؤمنين",
     "transliteration": "wa-innahu lahudan waraḥmatun lil'mu'minīna",
-    "translation": "",
+    "translation": "And indeed, it is guidance and mercy for the believers.",
     "words": [
       {
         "id": "an-naml-77-1",
@@ -7541,7 +7617,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il est une juste direction (hudâ) et une miséricorde pour les croyants."
   },
   {
     "id": "an-naml-78",
@@ -7550,7 +7627,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ رَبَّكَ يَقْضِى بَيْنَهُم بِحُكْمِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْعَلِيمُ",
     "textSimple": "إن ربك يقضى بينهم بحكمه  وهو ٱلعزيز ٱلعليم",
     "transliteration": "inna rabbaka yaqḍī baynahum biḥuk'mihi wahuwa l-ʿazīzu l-ʿalīmu",
-    "translation": "",
+    "translation": "Indeed, your Lord will judge between them by His [wise] judgement. And He is the Exalted in Might, the Knowing.",
     "words": [
       {
         "id": "an-naml-78-1",
@@ -7609,7 +7686,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ton Seigneur les départagera par Son Jugement, Lui le Tout- Puissant, l’Omniscient."
   },
   {
     "id": "an-naml-79",
@@ -7618,7 +7696,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَكَّلْ عَلَى ٱللَّهِ ۖ إِنَّكَ عَلَى ٱلْحَقِّ ٱلْمُبِينِ",
     "textSimple": "فتوكل على ٱلله  إنك على ٱلحق ٱلمبين",
     "transliteration": "fatawakkal ʿalā l-lahi innaka ʿalā l-ḥaqi l-mubīni",
-    "translation": "",
+    "translation": "So rely upon Allāh; indeed, you are upon the clear truth.",
     "words": [
       {
         "id": "an-naml-79-1",
@@ -7670,7 +7748,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Confie-toi à Allah, tu te fondes sur la vérité évidente."
   },
   {
     "id": "an-naml-80",
@@ -7679,7 +7758,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
     "textSimple": "إنك لا تسمع ٱلموتى ولا تسمع ٱلصم ٱلدعآء إذا ولوا مدبرين",
     "transliteration": "innaka lā tus'miʿu l-mawtā walā tus'miʿu l-ṣuma l-duʿāa idhā wallaw mud'birīna",
-    "translation": "",
+    "translation": "Indeed, you will not make the dead hear, nor will you make the deaf hear the call when they have turned their backs retreating.",
     "words": [
       {
         "id": "an-naml-80-1",
@@ -7759,7 +7838,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu ne peux faire que les morts entendent ni que les sourds perçoivent l’appel quand ils tournent les talons et se sauvent."
   },
   {
     "id": "an-naml-81",
@@ -7768,7 +7848,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَنتَ بِهَـٰدِى ٱلْعُمْىِ عَن ضَلَـٰلَتِهِمْ ۖ إِن تُسْمِعُ إِلَّا مَن يُؤْمِنُ بِـَٔايَـٰتِنَا فَهُم مُّسْلِمُونَ",
     "textSimple": "ومآ أنت بهـدى ٱلعمى عن ضلـلتهم  إن تسمع إلا من يؤمن بـٔايـتنا فهم مسلمون",
     "transliteration": "wamā anta bihādī l-ʿum'yi ʿan ḍalālatihim in tus'miʿu illā man yu'minu biāyātinā fahum mus'limūna",
-    "translation": "",
+    "translation": "And you cannot guide the blind away from their error. You will only make hear those who believe in Our verses so they are Muslims [i.e., submitting to Allāh].",
     "words": [
       {
         "id": "an-naml-81-1",
@@ -7869,7 +7949,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu ne saurais, non plus, guider les aveugles qui se sont égarés. Tu ne peux faire entendre que ceux qui croient en Nos Signes et s’y soumettent en Musulmans."
   },
   {
     "id": "an-naml-82",
@@ -7878,7 +7959,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذَا وَقَعَ ٱلْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَآبَّةً مِّنَ ٱلْأَرْضِ تُكَلِّمُهُمْ أَنَّ ٱلنَّاسَ كَانُوا۟ بِـَٔايَـٰتِنَا لَا يُوقِنُونَ",
     "textSimple": " وإذا وقع ٱلقول عليهم أخرجنا لهم دآبة من ٱلأرض تكلمهم أن ٱلناس كانوا بـٔايـتنا لا يوقنون",
     "transliteration": "wa-idhā waqaʿa l-qawlu ʿalayhim akhrajnā lahum dābbatan mina l-arḍi tukallimuhum anna l-nāsa kānū biāyātinā lā yūqinūna",
-    "translation": "",
+    "translation": "And when the word [i.e., decree] befalls them, We will bring forth for them a creature from the earth speaking to them, [saying] that the people were, of Our verses, not certain [in faith].",
     "words": [
       {
         "id": "an-naml-82-1",
@@ -7993,7 +8074,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand le verdict sera prononcé à leur sujet, Nous ferons sortir de la terre une bête qui leur parlera et leur dira que les hommes ne croyaient pas fermement en Nos Signes."
   },
   {
     "id": "an-naml-83",
@@ -8002,7 +8084,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ نَحْشُرُ مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِـَٔايَـٰتِنَا فَهُمْ يُوزَعُونَ",
     "textSimple": "ويوم نحشر من كل أمة فوجا ممن يكذب بـٔايـتنا فهم يوزعون",
     "transliteration": "wayawma naḥshuru min kulli ummatin fawjan mimman yukadhibu biāyātinā fahum yūzaʿūna",
-    "translation": "",
+    "translation": "And [warn of] the Day when We will gather from every nation a company of those who deny Our signs, and they will be [driven] in rows",
     "words": [
       {
         "id": "an-naml-83-1",
@@ -8082,7 +8164,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où Nous rassemblerons de chaque communauté un groupe de ceux qui traitaient Nos Signes de mensonges, et qu’ils seront maintenus chacun à la place qui lui sied,"
   },
   {
     "id": "an-naml-84",
@@ -8091,7 +8174,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا جَآءُو قَالَ أَكَذَّبْتُم بِـَٔايَـٰتِى وَلَمْ تُحِيطُوا۟ بِهَا عِلْمًا أَمَّاذَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "حتىٓ إذا جآءو قال أكذبتم بـٔايـتى ولم تحيطوا بها علما أماذا كنتم تعملون",
     "transliteration": "ḥattā idhā jāū qāla akadhabtum biāyātī walam tuḥīṭū bihā ʿil'man ammādhā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "Until, when they arrive [at the place of Judgement], He will say, \"Did you deny My signs while you encompassed them not in knowledge, or what [was it that] you were doing?\"",
     "words": [
       {
         "id": "an-naml-84-1",
@@ -8185,7 +8268,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et se présenteront devant Allah, Il leur dira : « Avez-vous traité Mes Signes de mensonges sans en avoir cerné le sens ? Ou alors que faisiez-vous donc ? »"
   },
   {
     "id": "an-naml-85",
@@ -8194,7 +8278,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا يَنطِقُونَ",
     "textSimple": "ووقع ٱلقول عليهم بما ظلموا فهم لا ينطقون",
     "transliteration": "wawaqaʿa l-qawlu ʿalayhim bimā ẓalamū fahum lā yanṭiqūna",
-    "translation": "",
+    "translation": "And the decree will befall them for the wrong they did, and they will not [be able to] speak.",
     "words": [
       {
         "id": "an-naml-85-1",
@@ -8253,7 +8337,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le verdict sera alors prononcé contre eux pour les injustices qu’ils auront commises ; et ils ne diront mot."
   },
   {
     "id": "an-naml-86",
@@ -8262,7 +8347,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "أَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا ٱلَّيْلَ لِيَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
     "textSimple": "ألم يروا أنا جعلنا ٱليل ليسكنوا فيه وٱلنهار مبصرا  إن فى ذلك لـٔايـت لقوم يؤمنون",
     "transliteration": "alam yaraw annā jaʿalnā al-layla liyaskunū fīhi wal-nahāra mub'ṣiran inna fī dhālika laāyātin liqawmin yu'minūna",
-    "translation": "",
+    "translation": "Do they not see that We made the night that they may rest therein and the day giving sight? Indeed in that are signs for a people who believe.",
     "words": [
       {
         "id": "an-naml-86-1",
@@ -8370,7 +8455,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’ont-ils pas vu que Nous avons fait la nuit pour qu’ils s’y reposent, et le jour pour y voir clair ? Il y a certes là des Signes pour des gens qui ont la foi."
   },
   {
     "id": "an-naml-87",
@@ -8379,7 +8465,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَيَوْمَ يُنفَخُ فِى ٱلصُّورِ فَفَزِعَ مَن فِى ٱلسَّمَـٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
     "textSimple": "ويوم ينفخ فى ٱلصور ففزع من فى ٱلسمـوت ومن فى ٱلأرض إلا من شآء ٱلله  وكل أتوه دخرين",
     "transliteration": "wayawma yunfakhu fī l-ṣūri fafaziʿa man fī l-samāwāti waman fī l-arḍi illā man shāa l-lahu wakullun atawhu dākhirīna",
-    "translation": "",
+    "translation": "And [warn of] the Day the Horn will be blown, and whoever is in the heavens and whoever is on the earth will be terrified except whom Allāh wills. And all will come to Him humbled.",
     "words": [
       {
         "id": "an-naml-87-1",
@@ -8508,7 +8594,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où il sera soufflé dans le Cor, alors que ceux qui sont dans les cieux et sur terre seront saisis d’effroi - hormis ceux qu’il plaira à Allah d’excepter. Tous viendront vers Lui, humbles et soumis."
   },
   {
     "id": "an-naml-88",
@@ -8517,7 +8604,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ صُنْعَ ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
     "textSimple": "وترى ٱلجبال تحسبها جامدة وهى تمر مر ٱلسحاب  صنع ٱلله ٱلذىٓ أتقن كل شىء  إنه خبير بما تفعلون",
     "transliteration": "watarā l-jibāla taḥsabuhā jāmidatan wahiya tamurru marra l-saḥābi ṣun'ʿa l-lahi alladhī atqana kulla shayin innahu khabīrun bimā tafʿalūna",
-    "translation": "",
+    "translation": "And you see the mountains, thinking them motionless, while they will pass as the passing of clouds. [It is] the work of Allāh, who perfected all things. Indeed, He is Aware of that which you do.",
     "words": [
       {
         "id": "an-naml-88-1",
@@ -8646,7 +8733,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu verras les montagnes, que tu dirais immobiles, passer comme passent les nuages. (Regardez) l’ouvrage d’Allah Qui a parfait (la création de) Toute chose. Il est, Lui, parfaitement Informé de ce que vous faites !"
   },
   {
     "id": "an-naml-89",
@@ -8655,7 +8743,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ خَيْرٌ مِّنْهَا وَهُم مِّن فَزَعٍ يَوْمَئِذٍ ءَامِنُونَ",
     "textSimple": "من جآء بٱلحسنة فله خير منها وهم من فزع يومئذ ءامنون",
     "transliteration": "man jāa bil-ḥasanati falahu khayrun min'hā wahum min fazaʿin yawma-idhin āminūna",
-    "translation": "",
+    "translation": "Whoever comes [at Judgement] with a good deed will have better than it, and they, from the terror of that Day, will be safe.",
     "words": [
       {
         "id": "an-naml-89-1",
@@ -8735,7 +8823,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui viendront avec une bonne œuvre auront bien mieux encore, et ils seront à l’abri de toute frayeur."
   },
   {
     "id": "an-naml-90",
@@ -8744,7 +8833,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن جَآءَ بِٱلسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِى ٱلنَّارِ هَلْ تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "ومن جآء بٱلسيئة فكبت وجوههم فى ٱلنار هل تجزون إلا ما كنتم تعملون",
     "transliteration": "waman jāa bil-sayi-ati fakubbat wujūhuhum fī l-nāri hal tuj'zawna illā mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And whoever comes with an evil deed - their faces will be overturned into the Fire, [and it will be said], \"Are you recompensed except for what you used to do?\"",
     "words": [
       {
         "id": "an-naml-90-1",
@@ -8838,7 +8927,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui viendront avec une mauvaise œuvre seront jetés face en premier dans le Feu. « Aurez-vous d’autre récompense que celle (conforme) à ce que vous faisiez ? » (leur sera-t-il demandé)."
   },
   {
     "id": "an-naml-91",
@@ -8847,7 +8937,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هَـٰذِهِ ٱلْبَلْدَةِ ٱلَّذِى حَرَّمَهَا وَلَهُۥ كُلُّ شَىْءٍ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُسْلِمِينَ",
     "textSimple": "إنمآ أمرت أن أعبد رب هـذه ٱلبلدة ٱلذى حرمها وله كل شىء  وأمرت أن أكون من ٱلمسلمين",
     "transliteration": "innamā umir'tu an aʿbuda rabba hādhihi l-baldati alladhī ḥarramahā walahu kullu shayin wa-umir'tu an akūna mina l-mus'limīna",
-    "translation": "",
+    "translation": "[Say, O Muḥammad], \"I have only been commanded to worship the Lord of this city, who made it sacred and to whom [belongs] all things. And I am commanded to be of the Muslims [i.e., those who submit to Allāh].",
     "words": [
       {
         "id": "an-naml-91-1",
@@ -8969,7 +9059,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Dis, ô Messager) : « Il m’a été seulement ordonné d’adorer le Seigneur de cette cité que Lui-même a rendue sacrée. À lui appartient Toute chose. Il m’a été ordonné d’être au nombre des Musulmans,"
   },
   {
     "id": "an-naml-92",
@@ -8978,7 +9069,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنْ أَتْلُوَا۟ ٱلْقُرْءَانَ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَقُلْ إِنَّمَآ أَنَا۠ مِنَ ٱلْمُنذِرِينَ",
     "textSimple": "وأن أتلوا ٱلقرءان  فمن ٱهتدى فإنما يهتدى لنفسه  ومن ضل فقل إنمآ أنا من ٱلمنذرين",
     "transliteration": "wa-an atluwā l-qur'āna famani ih'tadā fa-innamā yahtadī linafsihi waman ḍalla faqul innamā anā mina l-mundhirīna",
-    "translation": "",
+    "translation": "And to recite the Qur’ān.\" And whoever is guided is only guided for [the benefit of] himself; and whoever strays - say, \"I am only [one] of the warners.\"",
     "words": [
       {
         "id": "an-naml-92-1",
@@ -9086,7 +9177,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et de réciter le Coran. » Quiconque s’engage sur la juste voie, le fera pour lui-même, et quiconque se dévoie, dis-lui : « Je ne suis que l’un de ceux qui avertissent. »"
   },
   {
     "id": "an-naml-93",
@@ -9095,7 +9187,7 @@ export const AN_NAML_AYAHS: Ayah[] = [
     "textUthmani": "وَقُلِ ٱلْحَمْدُ لِلَّهِ سَيُرِيكُمْ ءَايَـٰتِهِۦ فَتَعْرِفُونَهَا ۚ وَمَا رَبُّكَ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
     "textSimple": "وقل ٱلحمد لله سيريكم ءايـته فتعرفونها  وما ربك بغـفل عما تعملون",
     "transliteration": "waquli l-ḥamdu lillahi sayurīkum āyātihi fataʿrifūnahā wamā rabbuka bighāfilin ʿammā taʿmalūna",
-    "translation": "",
+    "translation": "And say, \"[All] praise is [due] to Allāh. He will show you His signs, and you will recognize them. And your Lord is not unaware of what you do.\"",
     "words": [
       {
         "id": "an-naml-93-1",
@@ -9175,7 +9267,8 @@ export const AN_NAML_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et dis : « Louange à Allah Qui vous fera bientôt voir Ses Signes, et vous les reconnaîtrez alors. » Ton Seigneur n’est point distrait de ce que vous faites."
   }
 ];
 

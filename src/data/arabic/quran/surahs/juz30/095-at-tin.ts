@@ -11,7 +11,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلتِّينِ وَٱلزَّيْتُونِ",
     "textSimple": "وٱلتين وٱلزيتون",
     "transliteration": "wal-tīni wal-zaytūni",
-    "translation": "",
+    "translation": "By the fig and the olive",
     "words": [
       {
         "id": "at-tin-1-1",
@@ -28,7 +28,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le figuier et l’olivier !"
   },
   {
     "id": "at-tin-2",
@@ -37,7 +38,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "وَطُورِ سِينِينَ",
     "textSimple": "وطور سينين",
     "transliteration": "waṭūri sīnīna",
-    "translation": "",
+    "translation": "And [by] Mount Sinai",
     "words": [
       {
         "id": "at-tin-2-1",
@@ -54,7 +55,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le mont Sinaï !"
   },
   {
     "id": "at-tin-3",
@@ -63,7 +65,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "وَهَـٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
     "textSimple": "وهـذا ٱلبلد ٱلأمين",
     "transliteration": "wahādhā l-baladi l-amīni",
-    "translation": "",
+    "translation": "And [by] this secure city [i.e., Makkah],",
     "words": [
       {
         "id": "at-tin-3-1",
@@ -87,7 +89,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par cette cité si sûre !"
   },
   {
     "id": "at-tin-4",
@@ -96,7 +99,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
     "textSimple": "لقد خلقنا ٱلإنسـن فىٓ أحسن تقويم",
     "transliteration": "laqad khalaqnā l-insāna fī aḥsani taqwīmin",
-    "translation": "",
+    "translation": "We have certainly created man in the best of stature;",
     "words": [
       {
         "id": "at-tin-4-1",
@@ -141,7 +144,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons créé l’homme dans la meilleure forme qui soit."
   },
   {
     "id": "at-tin-5",
@@ -150,7 +154,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ رَدَدْنَـٰهُ أَسْفَلَ سَـٰفِلِينَ",
     "textSimple": "ثم رددنـه أسفل سـفلين",
     "transliteration": "thumma radadnāhu asfala sāfilīna",
-    "translation": "",
+    "translation": "Then We return him to the lowest of the low,",
     "words": [
       {
         "id": "at-tin-5-1",
@@ -181,7 +185,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous l’avons fait choir au rang le plus bas,"
   },
   {
     "id": "at-tin-6",
@@ -190,7 +195,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
     "textSimple": "إلا ٱلذين ءامنوا وعملوا ٱلصـلحـت فلهم أجر غير ممنون",
     "transliteration": "illā alladhīna āmanū waʿamilū l-ṣāliḥāti falahum ajrun ghayru mamnūnin",
-    "translation": "",
+    "translation": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
     "words": [
       {
         "id": "at-tin-6-1",
@@ -256,7 +261,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sauf ceux qui ont cru et accompli les bonnes œuvres, qui, eux, auront une récompense inépuisable."
   },
   {
     "id": "at-tin-7",
@@ -265,7 +271,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
     "textSimple": "فما يكذبك بعد بٱلدين",
     "transliteration": "famā yukadhibuka baʿdu bil-dīni",
-    "translation": "",
+    "translation": "So what yet causes you to deny the Recompense?",
     "words": [
       {
         "id": "at-tin-7-1",
@@ -296,7 +302,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’est-ce qui te pousse (ô homme), après cela, à prendre pour un mensonge la Rétribution?"
   },
   {
     "id": "at-tin-8",
@@ -305,7 +312,7 @@ export const AT_TIN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَـٰكِمِينَ",
     "textSimple": "أليس ٱلله بأحكم ٱلحـكمين",
     "transliteration": "alaysa l-lahu bi-aḥkami l-ḥākimīna",
-    "translation": "",
+    "translation": "Is not Allāh the most just of judges?",
     "words": [
       {
         "id": "at-tin-8-1",
@@ -336,7 +343,8 @@ export const AT_TIN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah n’est-Il pas le plus Sage des juges ?"
   }
 ];
 

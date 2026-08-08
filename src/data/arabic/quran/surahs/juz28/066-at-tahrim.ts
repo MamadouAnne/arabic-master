@@ -11,7 +11,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": " يـٓأيها ٱلنبى لم تحرم مآ أحل ٱلله لك  تبتغى مرضات أزوجك  وٱلله غفور رحيم",
     "transliteration": "yāayyuhā l-nabiyu lima tuḥarrimu mā aḥalla l-lahu laka tabtaghī marḍāta azwājika wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "O Prophet, why do you prohibit [yourself from] what Allāh has made lawful for you, seeking the approval of your wives? And Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "at-tahrim-1-1",
@@ -112,7 +112,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Pourquoi, pour faire plaisir à tes épouses, t’interdis-tu ce qu’Allah a rendu pour toi licite ? Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "at-tahrim-2",
@@ -121,7 +122,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ فَرَضَ ٱللَّهُ لَكُمْ تَحِلَّةَ أَيْمَـٰنِكُمْ ۚ وَٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
     "textSimple": "قد فرض ٱلله لكم تحلة أيمـنكم  وٱلله مولىكم  وهو ٱلعليم ٱلحكيم",
     "transliteration": "qad faraḍa l-lahu lakum taḥillata aymānikum wal-lahu mawlākum wahuwa l-ʿalīmu l-ḥakīmu",
-    "translation": "",
+    "translation": "Allāh has already ordained for you [Muslims] the dissolution of your oaths. And Allāh is your protector, and He is the Knowing, the Wise.",
     "words": [
       {
         "id": "at-tahrim-2-1",
@@ -201,7 +202,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a prescrit pour vous (le moyen) de vous dégager licitement de vos serments. Allah est votre Protecteur et c’est Lui l’Omniscient, le Sage."
   },
   {
     "id": "at-tahrim-3",
@@ -210,7 +212,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَسَرَّ ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِۦ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِۦ وَأَظْهَرَهُ ٱللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُۥ وَأَعْرَضَ عَنۢ بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِۦ قَالَتْ مَنْ أَنۢبَأَكَ هَـٰذَا ۖ قَالَ نَبَّأَنِىَ ٱلْعَلِيمُ ٱلْخَبِيرُ",
     "textSimple": "وإذ أسر ٱلنبى إلى بعض أزوجه حديثا فلما نبأت به وأظهره ٱلله عليه عرف بعضه وأعرض عن بعض  فلما نبأها به قالت من أنبأك هـذا  قال نبأنى ٱلعليم ٱلخبير",
     "transliteration": "wa-idh asarra l-nabiyu ilā baʿḍi azwājihi ḥadīthan falammā nabba-at bihi wa-aẓharahu l-lahu ʿalayhi ʿarrafa baʿḍahu wa-aʿraḍa ʿan baʿḍin falammā nabba-ahā bihi qālat man anba-aka hādhā qāla nabba-aniya l-ʿalīmu l-khabīru",
-    "translation": "",
+    "translation": "And [remember] when the Prophet confided to one of his wives a statement; and when she informed [another] of it and Allāh showed it to him, he made known part of it and ignored a part. And when he informed her about it, she said, \"Who told you this?\" He said, \"I was informed by the Knowing, the Aware.\"",
     "words": [
       {
         "id": "at-tahrim-3-1",
@@ -416,7 +418,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand le Prophète fit une confidence à l’une de ses épouses, et que celle-ci s’en fut le divulguer (à une autre épouse), Allah en informa (le Prophète) qui en révéla une partie et ne dit mot de l’autre. Informée, (l’épouse) dit : « Mais qui donc te l’a appris ? » « Celui Qui me l’a appris, répondit (le Messager), est l’Omniscient, le parfaitement Informé. »"
   },
   {
     "id": "at-tahrim-4",
@@ -425,7 +428,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "إِن تَتُوبَآ إِلَى ٱللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا ۖ وَإِن تَظَـٰهَرَا عَلَيْهِ فَإِنَّ ٱللَّهَ هُوَ مَوْلَىٰهُ وَجِبْرِيلُ وَصَـٰلِحُ ٱلْمُؤْمِنِينَ ۖ وَٱلْمَلَـٰٓئِكَةُ بَعْدَ ذَٰلِكَ ظَهِيرٌ",
     "textSimple": "إن تتوبآ إلى ٱلله فقد صغت قلوبكما  وإن تظـهرا عليه فإن ٱلله هو مولىه وجبريل وصـلح ٱلمؤمنين  وٱلملـٓئكة بعد ذلك ظهير",
     "transliteration": "in tatūbā ilā l-lahi faqad ṣaghat qulūbukumā wa-in taẓāharā ʿalayhi fa-inna l-laha huwa mawlāhu wajib'rīlu waṣāliḥu l-mu'minīna wal-malāikatu baʿda dhālika ẓahīrun",
-    "translation": "",
+    "translation": "If you two [wives] repent to Allāh, [it is best], for your hearts have deviated. But if you cooperate against him - then indeed Allāh is his protector, and Gabriel and the righteous of the believers and the angels, moreover, are [his] assistants.",
     "words": [
       {
         "id": "at-tahrim-4-1",
@@ -575,7 +578,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si vous deux vous vous repentez auprès d’Allah, c’est que vos cœurs ont écouté (la voix de la raison) ; et si vous vous liguez contre lui, (alors sachez qu’) Allah sera Son allié, ainsi que (l’Ange) Gabriel et les meilleurs d’entre les croyants, puis les Anges, après cela, sauront le soutenir."
   },
   {
     "id": "at-tahrim-5",
@@ -584,7 +588,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًا مِّنكُنَّ مُسْلِمَـٰتٍ مُّؤْمِنَـٰتٍ قَـٰنِتَـٰتٍ تَـٰٓئِبَـٰتٍ عَـٰبِدَٰتٍ سَـٰٓئِحَـٰتٍ ثَيِّبَـٰتٍ وَأَبْكَارًا",
     "textSimple": "عسى ربهٓ إن طلقكن أن يبدلهٓ أزوجا خيرا منكن مسلمـت مؤمنـت قـنتـت تـٓئبـت عـبدت سـٓئحـت ثيبـت وأبكارا",
     "transliteration": "ʿasā rabbuhu in ṭallaqakunna an yub'dilahu azwājan khayran minkunna mus'limātin mu'minātin qānitātin tāibātin ʿābidātin sāiḥātin thayyibātin wa-abkāran",
-    "translation": "",
+    "translation": "Perhaps his Lord, if he divorced you [all], would substitute for him wives better than you - submitting [to Allāh], believing, devoutly obedient, repentant, worshipping, and traveling - [ones] previously married and virgins.",
     "words": [
       {
         "id": "at-tahrim-5-1",
@@ -706,7 +710,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il se peut, s’il divorce d’avec vous, qu’Allah lui donne de bien meilleures épouses que vous : des musulmanes, croyantes, obéissantes, repentantes, qui prient et jeûnent assidûment, ayant été déjà mariées ou encore vierges."
   },
   {
     "id": "at-tahrim-6",
@@ -715,7 +720,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلَـٰٓئِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا قوٓا أنفسكم وأهليكم نارا وقودها ٱلناس وٱلحجارة عليها ملـٓئكة غلاظ شداد لا يعصون ٱلله مآ أمرهم ويفعلون ما يؤمرون",
     "transliteration": "yāayyuhā alladhīna āmanū qū anfusakum wa-ahlīkum nāran waqūduhā l-nāsu wal-ḥijāratu ʿalayhā malāikatun ghilāẓun shidādun lā yaʿṣūna l-laha mā amarahum wayafʿalūna mā yu'marūna",
-    "translation": "",
+    "translation": "O you who have believed, protect yourselves and your families from a Fire whose fuel is people and stones, over which are [appointed] angels, harsh and severe; they do not disobey Allāh in what He commands them but do what they are commanded.",
     "words": [
       {
         "id": "at-tahrim-6-1",
@@ -872,7 +877,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Préservez vos propres personnes ainsi que vos familles d’un Feu qui sera alimenté par les hommes et les pierres, et (qui sera gardé) par des Anges rudes et intraitables, qui ne désobéissent jamais aux ordres d’Allah et exécutent ce qu’Il leur enjoint (de faire)."
   },
   {
     "id": "at-tahrim-7",
@@ -881,7 +887,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ كَفَرُوا۟ لَا تَعْتَذِرُوا۟ ٱلْيَوْمَ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "يـٓأيها ٱلذين كفروا لا تعتذروا ٱليوم  إنما تجزون ما كنتم تعملون",
     "transliteration": "yāayyuhā alladhīna kafarū lā taʿtadhirū l-yawma innamā tuj'zawna mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "O you who have disbelieved, make no excuses that Day. You will only be recompensed for what you used to do.",
     "words": [
       {
         "id": "at-tahrim-7-1",
@@ -961,7 +967,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez mécru ! N’invoquez aujourd’hui aucune excuse ! Car vous serez seulement rétribués selon ce que vous faisiez."
   },
   {
     "id": "at-tahrim-8",
@@ -970,7 +977,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةً نَّصُوحًا عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ ۖ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَـٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا توبوٓا إلى ٱلله توبة نصوحا عسى ربكم أن يكفر عنكم سيـٔاتكم ويدخلكم جنـت تجرى من تحتها ٱلأنهـر يوم لا يخزى ٱلله ٱلنبى وٱلذين ءامنوا معه  نورهم يسعى بين أيديهم وبأيمـنهم يقولون ربنآ أتمم لنا نورنا وٱغفر لنآ  إنك على كل شىء قدير",
     "transliteration": "yāayyuhā alladhīna āmanū tūbū ilā l-lahi tawbatan naṣūḥan ʿasā rabbukum an yukaffira ʿankum sayyiātikum wayud'khilakum jannātin tajrī min taḥtihā l-anhāru yawma lā yukh'zī l-lahu l-nabiya wa-alladhīna āmanū maʿahu nūruhum yasʿā bayna aydīhim wabi-aymānihim yaqūlūna rabbanā atmim lanā nūranā wa-igh'fir lanā innaka ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "O you who have believed, repent to Allāh with sincere repentance. Perhaps your Lord will remove from you your misdeeds and admit you into gardens beneath which rivers flow [on] the Day when Allāh will not disgrace the Prophet and those who believed with him. Their light will proceed before them and on their right; they will say, \"Our Lord, perfect for us our light and forgive us. Indeed, You are over all things competent.\"",
     "words": [
       {
         "id": "at-tahrim-8-1",
@@ -1288,7 +1295,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 44
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Repentez-vous auprès d’Allah d’un repentir sincère, peut-être que votre Seigneur rachètera vos péchés et vous fera entrer dans des jardins sous lesquels coulent les rivières, en ce jour où Allah évitera l’humiliation au Prophète et à ceux qui auront cru avec lui. Leur lumière se déploiera devant eux et sur leur droite, et ils diront : « Seigneur, veuille parfaire notre lumière ! Pardonne-nous ! Tu es de Toute chose Infiniment Capable !"
   },
   {
     "id": "at-tahrim-9",
@@ -1297,7 +1305,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ جَـٰهِدِ ٱلْكُفَّارَ وَٱلْمُنَـٰفِقِينَ وَٱغْلُظْ عَلَيْهِمْ ۚ وَمَأْوَىٰهُمْ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "يـٓأيها ٱلنبى جـهد ٱلكفار وٱلمنـفقين وٱغلظ عليهم  ومأوىهم جهنم  وبئس ٱلمصير",
     "transliteration": "yāayyuhā l-nabiyu jāhidi l-kufāra wal-munāfiqīna wa-ugh'luẓ ʿalayhim wamawāhum jahannamu wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "O Prophet, strive against the disbelievers and the hypocrites and be harsh upon them. And their refuge is Hell, and wretched is the destination.",
     "words": [
       {
         "id": "at-tahrim-9-1",
@@ -1377,7 +1385,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Lutte contre les mécréants et les hypocrites ! Sois rude avec eux ! Leur séjour sera la Géhenne, et quelle affreuse destinée !"
   },
   {
     "id": "at-tahrim-10",
@@ -1386,7 +1395,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "ضَرَبَ ٱللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا۟ ٱمْرَأَتَ نُوحٍ وَٱمْرَأَتَ لُوطٍ ۖ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَـٰلِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًٔا وَقِيلَ ٱدْخُلَا ٱلنَّارَ مَعَ ٱلدَّٰخِلِينَ",
     "textSimple": "ضرب ٱلله مثلا للذين كفروا ٱمرأت نوح وٱمرأت لوط  كانتا تحت عبدين من عبادنا صـلحين فخانتاهما فلم يغنيا عنهما من ٱلله شيـٔا وقيل ٱدخلا ٱلنار مع ٱلدخلين",
     "transliteration": "ḍaraba l-lahu mathalan lilladhīna kafarū im'ra-ata nūḥin wa-im'ra-ata lūṭin kānatā taḥta ʿabdayni min ʿibādinā ṣāliḥayni fakhānatāhumā falam yugh'niyā ʿanhumā mina l-lahi shayan waqīla ud'khulā l-nāra maʿa l-dākhilīna",
-    "translation": "",
+    "translation": "Allāh presents an example of those who disbelieved: the wife of Noah and the wife of Lot. They were under two of Our righteous servants but betrayed them, so they [i.e., those prophets] did not avail them from Allāh at all, and it was said, \"Enter the Fire with those who enter.\"",
     "words": [
       {
         "id": "at-tahrim-10-1",
@@ -1578,7 +1587,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 26
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a donné comme exemple aux mécréants celui de la femme de Noé et de la femme de Loth, lesquelles vivaient sous l’autorité de deux de Nos serviteurs les plus vertueux. Or elles les trahirent (en choisissant la mécréance) et (leurs époux) ne purent rien pour elles auprès d’Allah. Il leur sera dit : « Entrez toutes les deux en Enfer, avec ceux qui vont y entrer ! »"
   },
   {
     "id": "at-tahrim-11",
@@ -1587,7 +1597,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "وَضَرَبَ ٱللَّهُ مَثَلًا لِّلَّذِينَ ءَامَنُوا۟ ٱمْرَأَتَ فِرْعَوْنَ إِذْ قَالَتْ رَبِّ ٱبْنِ لِى عِندَكَ بَيْتًا فِى ٱلْجَنَّةِ وَنَجِّنِى مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
     "textSimple": "وضرب ٱلله مثلا للذين ءامنوا ٱمرأت فرعون إذ قالت رب ٱبن لى عندك بيتا فى ٱلجنة ونجنى من فرعون وعمله ونجنى من ٱلقوم ٱلظـلمين",
     "transliteration": "waḍaraba l-lahu mathalan lilladhīna āmanū im'ra-ata fir'ʿawna idh qālat rabbi ib'ni lī ʿindaka baytan fī l-janati wanajjinī min fir'ʿawna waʿamalihi wanajjinī mina l-qawmi l-ẓālimīna",
-    "translation": "",
+    "translation": "And Allāh presents an example of those who believed: the wife of Pharaoh, when she said, \"My Lord, build for me near You a house in Paradise and save me from Pharaoh and his deeds and save me from the wrongdoing people.\"",
     "words": [
       {
         "id": "at-tahrim-11-1",
@@ -1758,7 +1768,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a donné comme exemple aux croyants celui de la femme de Pharaon, laquelle supplia : « Seigneur ! Fais bâtir pour moi une maison auprès de Toi, au Paradis ! Délivre-moi de Pharaon et de ce qu’il commet, et sauve-moi des gens injustes ! »"
   },
   {
     "id": "at-tahrim-12",
@@ -1767,7 +1778,7 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
     "textUthmani": "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَـٰتِ رَبِّهَا وَكُتُبِهِۦ وَكَانَتْ مِنَ ٱلْقَـٰنِتِينَ",
     "textSimple": "ومريم ٱبنت عمرن ٱلتىٓ أحصنت فرجها فنفخنا فيه من روحنا وصدقت بكلمـت ربها وكتبه وكانت من ٱلقـنتين",
     "transliteration": "wamaryama ib'nata ʿim'rāna allatī aḥṣanat farjahā fanafakhnā fīhi min rūḥinā waṣaddaqat bikalimāti rabbihā wakutubihi wakānat mina l-qānitīna",
-    "translation": "",
+    "translation": "And [the example of] Mary, the daughter of ʿImrān, who guarded her chastity, so We blew into [her garment] through Our angel [i.e., Gabriel], and she believed in the words of her Lord and His scriptures and was of the devoutly obedient.",
     "words": [
       {
         "id": "at-tahrim-12-1",
@@ -1889,7 +1900,8 @@ export const AT_TAHRIM_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et aussi Marie, fille d’Imrân, laquelle préserva sa chasteté et en qui Nous insufflâmes de Notre Esprit. Elle crut fermement aux paroles et aux Livres de son Seigneur et fut du nombre des fervents."
   }
 ];
 

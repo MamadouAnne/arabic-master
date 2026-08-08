@@ -11,7 +11,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": " ٱلْحَآقَّةُ",
     "textSimple": " ٱلحآقة",
     "transliteration": "al-ḥāqatu",
-    "translation": "",
+    "translation": "The Inevitable Reality -",
     "words": [
       {
         "id": "al-haqqah-1-1",
@@ -21,7 +21,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’Heure de Vérité !"
   },
   {
     "id": "al-haqqah-2",
@@ -30,7 +31,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "مَا ٱلْحَآقَّةُ",
     "textSimple": "ما ٱلحآقة",
     "transliteration": "mā l-ḥāqatu",
-    "translation": "",
+    "translation": "What is the Inevitable Reality?",
     "words": [
       {
         "id": "al-haqqah-2-1",
@@ -47,7 +48,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’est-ce que l’Heure de Vérité ?"
   },
   {
     "id": "al-haqqah-3",
@@ -56,7 +58,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
     "textSimple": "ومآ أدرىك ما ٱلحآقة",
     "transliteration": "wamā adrāka mā l-ḥāqatu",
-    "translation": "",
+    "translation": "And what can make you know what is the Inevitable Reality?",
     "words": [
       {
         "id": "al-haqqah-3-1",
@@ -87,7 +89,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce qu’est l’Heure de Vérité ?"
   },
   {
     "id": "al-haqqah-4",
@@ -96,7 +99,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ",
     "textSimple": "كذبت ثمود وعاد بٱلقارعة",
     "transliteration": "kadhabat thamūdu waʿādun bil-qāriʿati",
-    "translation": "",
+    "translation": "Thamūd and ʿAad denied the Striking Calamity [i.e., the Resurrection].",
     "words": [
       {
         "id": "al-haqqah-4-1",
@@ -127,7 +130,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Thamûd et les ‘Ad avaient traité de mensonge (l’ultime) Fracas."
   },
   {
     "id": "al-haqqah-5",
@@ -136,7 +140,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
     "textSimple": "فأما ثمود فأهلكوا بٱلطاغية",
     "transliteration": "fa-ammā thamūdu fa-uh'likū bil-ṭāghiyati",
-    "translation": "",
+    "translation": "So as for Thamūd, they were destroyed by the overpowering [blast].",
     "words": [
       {
         "id": "al-haqqah-5-1",
@@ -167,7 +171,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant aux Thamûd, ils furent anéantis par le Cri terrifiant."
   },
   {
     "id": "al-haqqah-6",
@@ -176,7 +181,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا عَادٌ فَأُهْلِكُوا۟ بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
     "textSimple": "وأما عاد فأهلكوا بريح صرصر عاتية",
     "transliteration": "wa-ammā ʿādun fa-uh'likū birīḥin ṣarṣarin ʿātiyatin",
-    "translation": "",
+    "translation": "And as for ʿAad, they were destroyed by a screaming, violent wind",
     "words": [
       {
         "id": "al-haqqah-6-1",
@@ -221,7 +226,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les ‘Ad, eux, furent emportés par un vent impétueux et glacé,"
   },
   {
     "id": "al-haqqah-7",
@@ -230,7 +236,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَـٰنِيَةَ أَيَّامٍ حُسُومًا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ",
     "textSimple": "سخرها عليهم سبع ليال وثمـنية أيام حسوما فترى ٱلقوم فيها صرعى كأنهم أعجاز نخل خاوية",
     "transliteration": "sakharahā ʿalayhim sabʿa layālin wathamāniyata ayyāmin ḥusūman fatarā l-qawma fīhā ṣarʿā ka-annahum aʿjāzu nakhlin khāwiyatin",
-    "translation": "",
+    "translation": "Which He [i.e., Allāh] imposed upon them for seven nights and eight days in succession, so you would see the people therein fallen as if they were hollow trunks of palm trees.",
     "words": [
       {
         "id": "al-haqqah-7-1",
@@ -338,7 +344,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’(Allah) envoya contre eux durant sept nuits et huit jours consécutifs ; on voyait alors les gens étendus inertes, tels des troncs creux de palmiers."
   },
   {
     "id": "al-haqqah-8",
@@ -347,7 +354,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍ",
     "textSimple": "فهل ترى لهم من باقية",
     "transliteration": "fahal tarā lahum min bāqiyatin",
-    "translation": "",
+    "translation": "Then do you see of them any remains?",
     "words": [
       {
         "id": "al-haqqah-8-1",
@@ -385,7 +392,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En vois-tu encore les moindres traces ?"
   },
   {
     "id": "al-haqqah-9",
@@ -394,7 +402,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَـٰتُ بِٱلْخَاطِئَةِ",
     "textSimple": "وجآء فرعون ومن قبله وٱلمؤتفكـت بٱلخاطئة",
     "transliteration": "wajāa fir'ʿawnu waman qablahu wal-mu'tafikātu bil-khāṭi-ati",
-    "translation": "",
+    "translation": "And there came Pharaoh and those before him and the overturned cities with sin.",
     "words": [
       {
         "id": "al-haqqah-9-1",
@@ -439,7 +447,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon, ceux qui l’avaient précédé, et les cités renversées, avaient commis des fautes."
   },
   {
     "id": "al-haqqah-10",
@@ -448,7 +457,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
     "textSimple": "فعصوا رسول ربهم فأخذهم أخذة رابية",
     "transliteration": "faʿaṣaw rasūla rabbihim fa-akhadhahum akhdhatan rābiyatan",
-    "translation": "",
+    "translation": "And they disobeyed the messenger of their Lord, so He seized them with a seizure exceeding [in severity].",
     "words": [
       {
         "id": "al-haqqah-10-1",
@@ -493,7 +502,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils avaient désobéi au Messager de leur Seigneur Qui les emporta irréversiblement."
   },
   {
     "id": "al-haqqah-11",
@@ -502,7 +512,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَـٰكُمْ فِى ٱلْجَارِيَةِ",
     "textSimple": "إنا لما طغا ٱلمآء حملنـكم فى ٱلجارية",
     "transliteration": "innā lammā ṭaghā l-māu ḥamalnākum fī l-jāriyati",
-    "translation": "",
+    "translation": "Indeed, when the water overflowed, We carried you [i.e., your ancestors] in the sailing ship",
     "words": [
       {
         "id": "al-haqqah-11-1",
@@ -554,7 +564,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand les eaux (du Déluge) eurent tout couvert, Nous vous sauvâmes sur l’Arche qui court (fendant les flots)."
   },
   {
     "id": "al-haqqah-12",
@@ -563,7 +574,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَآ أُذُنٌ وَٰعِيَةٌ",
     "textSimple": "لنجعلها لكم تذكرة وتعيهآ أذن وعية",
     "transliteration": "linajʿalahā lakum tadhkiratan wataʿiyahā udhunun wāʿiyatun",
-    "translation": "",
+    "translation": "That We might make it for you a reminder and [that] a conscious ear would be conscious of it.",
     "words": [
       {
         "id": "al-haqqah-12-1",
@@ -608,7 +619,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin que cela reste pour vous un exemple gravé dans toutes les mémoires et assimilé par toute oreille consciente."
   },
   {
     "id": "al-haqqah-13",
@@ -617,7 +629,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌ وَٰحِدَةٌ",
     "textSimple": "فإذا نفخ فى ٱلصور نفخة وحدة",
     "transliteration": "fa-idhā nufikha fī l-ṣūri nafkhatun wāḥidatun",
-    "translation": "",
+    "translation": "Then when the Horn is blown with one blast",
     "words": [
       {
         "id": "al-haqqah-13-1",
@@ -662,7 +674,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’il sera soufflé dans le Cor une fois, une seule,"
   },
   {
     "id": "al-haqqah-14",
@@ -671,7 +684,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةً وَٰحِدَةً",
     "textSimple": "وحملت ٱلأرض وٱلجبال فدكتا دكة وحدة",
     "transliteration": "waḥumilati l-arḍu wal-jibālu fadukkatā dakkatan wāḥidatan",
-    "translation": "",
+    "translation": "And the earth and the mountains are lifted and leveled with one blow [i.e., stroke] -",
     "words": [
       {
         "id": "al-haqqah-14-1",
@@ -716,7 +729,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que la terre et les montagnes seront soulevées puis broyées d’un coup, un seul,"
   },
   {
     "id": "al-haqqah-15",
@@ -725,7 +739,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَيَوْمَئِذٍ وَقَعَتِ ٱلْوَاقِعَةُ",
     "textSimple": "فيومئذ وقعت ٱلواقعة",
     "transliteration": "fayawma-idhin waqaʿati l-wāqiʿatu",
-    "translation": "",
+    "translation": "Then on that Day, the Occurrence [i.e., Resurrection] will occur,",
     "words": [
       {
         "id": "al-haqqah-15-1",
@@ -749,7 +763,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "alors adviendra l’Événement !"
   },
   {
     "id": "al-haqqah-16",
@@ -758,7 +773,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
     "textSimple": "وٱنشقت ٱلسمآء فهى يومئذ واهية",
     "transliteration": "wa-inshaqqati l-samāu fahiya yawma-idhin wāhiyatun",
-    "translation": "",
+    "translation": "And the heaven will split [open], for that Day it is infirm.",
     "words": [
       {
         "id": "al-haqqah-16-1",
@@ -796,7 +811,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le ciel se fendra et sera, en ce jour, prêt à s’écrouler."
   },
   {
     "id": "al-haqqah-17",
@@ -805,7 +821,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَـٰنِيَةٌ",
     "textSimple": "وٱلملك علىٓ أرجآئها  ويحمل عرش ربك فوقهم يومئذ ثمـنية",
     "transliteration": "wal-malaku ʿalā arjāihā wayaḥmilu ʿarsha rabbika fawqahum yawma-idhin thamāniyatun",
-    "translation": "",
+    "translation": "And the angels are at its edges. And there will bear the Throne of your Lord above them, that Day, eight [of them].",
     "words": [
       {
         "id": "al-haqqah-17-1",
@@ -871,7 +887,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Anges seront là, sur ses horizons. Huit d’entre eux, ce jour-là, porteront le Trône de ton Seigneur."
   },
   {
     "id": "al-haqqah-18",
@@ -880,7 +897,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَئِذٍ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌ",
     "textSimple": "يومئذ تعرضون لا تخفى منكم خافية",
     "transliteration": "yawma-idhin tuʿ'raḍūna lā takhfā minkum khāfiyatun",
-    "translation": "",
+    "translation": "That Day, you will be exhibited [for judgement]; not hidden among you is anything concealed.",
     "words": [
       {
         "id": "al-haqqah-18-1",
@@ -925,7 +942,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En ce jour, vous comparaîtrez (devant Allah) et rien de vous ne sera tenu caché."
   },
   {
     "id": "al-haqqah-19",
@@ -934,7 +952,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَـٰبِيَهْ",
     "textSimple": "فأما من أوتى كتـبه بيمينه فيقول هآؤم ٱقرءوا كتـبيه",
     "transliteration": "fa-ammā man ūtiya kitābahu biyamīnihi fayaqūlu hāumu iq'raū kitābiyah",
-    "translation": "",
+    "translation": "So as for he who is given his record in his right hand, he will say, \"Here, read my record!",
     "words": [
       {
         "id": "al-haqqah-19-1",
@@ -1000,7 +1018,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui aura reçu son Livre dans sa main droite, il s’écriera : « Prenez, lisez mon Livre !"
   },
   {
     "id": "al-haqqah-20",
@@ -1009,7 +1028,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّى ظَنَنتُ أَنِّى مُلَـٰقٍ حِسَابِيَهْ",
     "textSimple": "إنى ظننت أنى ملـق حسابيه",
     "transliteration": "innī ẓanantu annī mulāqin ḥisābiyah",
-    "translation": "",
+    "translation": "Indeed, I was certain that I would be meeting my account.\"",
     "words": [
       {
         "id": "al-haqqah-20-1",
@@ -1047,7 +1066,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je savais bien que j’allais rendre compte (de mes œuvres). »"
   },
   {
     "id": "al-haqqah-21",
@@ -1056,7 +1076,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
     "textSimple": "فهو فى عيشة راضية",
     "transliteration": "fahuwa fī ʿīshatin rāḍiyatin",
-    "translation": "",
+    "translation": "So he will be in a pleasant life -",
     "words": [
       {
         "id": "al-haqqah-21-1",
@@ -1087,7 +1107,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui-là vivra dans la félicité,"
   },
   {
     "id": "al-haqqah-22",
@@ -1096,7 +1117,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّةٍ عَالِيَةٍ",
     "textSimple": "فى جنة عالية",
     "transliteration": "fī jannatin ʿāliyatin",
-    "translation": "",
+    "translation": "In an elevated garden,",
     "words": [
       {
         "id": "al-haqqah-22-1",
@@ -1120,7 +1141,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dans un jardin surplombant,"
   },
   {
     "id": "al-haqqah-23",
@@ -1129,7 +1151,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "قُطُوفُهَا دَانِيَةٌ",
     "textSimple": "قطوفها دانية",
     "transliteration": "quṭūfuhā dāniyatun",
-    "translation": "",
+    "translation": "Its [fruit] to be picked hanging near.",
     "words": [
       {
         "id": "al-haqqah-23-1",
@@ -1146,7 +1168,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dont les fruits seront tout proches."
   },
   {
     "id": "al-haqqah-24",
@@ -1155,7 +1178,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
     "textSimple": "كلوا وٱشربوا هنيٓـٔا بمآ أسلفتم فى ٱلأيام ٱلخالية",
     "transliteration": "kulū wa-ish'rabū hanīan bimā aslaftum fī l-ayāmi l-khāliyati",
-    "translation": "",
+    "translation": "[They will be told], \"Eat and drink in satisfaction for what you put forth in the days past.\"",
     "words": [
       {
         "id": "al-haqqah-24-1",
@@ -1214,7 +1237,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mangez et buvez à votre aise pour les œuvres que vous avez autrefois accomplies. »"
   },
   {
     "id": "al-haqqah-25",
@@ -1223,7 +1247,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَـٰلَيْتَنِى لَمْ أُوتَ كِتَـٰبِيَهْ",
     "textSimple": "وأما من أوتى كتـبه بشماله فيقول يـليتنى لم أوت كتـبيه",
     "transliteration": "wa-ammā man ūtiya kitābahu bishimālihi fayaqūlu yālaytanī lam ūta kitābiyah",
-    "translation": "",
+    "translation": "But as for he who is given his record in his left hand, he will say, \"Oh, I wish I had not been given my record",
     "words": [
       {
         "id": "al-haqqah-25-1",
@@ -1296,7 +1320,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui qui aura reçu son Livre dans sa main gauche, il dira : « Ah, si seulement je n’avais point reçu mon Livre,"
   },
   {
     "id": "al-haqqah-26",
@@ -1305,7 +1330,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
     "textSimple": "ولم أدر ما حسابيه",
     "transliteration": "walam adri mā ḥisābiyah",
-    "translation": "",
+    "translation": "And had not known what is my account.",
     "words": [
       {
         "id": "al-haqqah-26-1",
@@ -1336,7 +1361,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ni eu connaissance de mon compte !"
   },
   {
     "id": "al-haqqah-27",
@@ -1345,7 +1371,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰلَيْتَهَا كَانَتِ ٱلْقَاضِيَةَ",
     "textSimple": "يـليتها كانت ٱلقاضية",
     "transliteration": "yālaytahā kānati l-qāḍiyata",
-    "translation": "",
+    "translation": "I wish it [i.e., my death] had been the decisive one.",
     "words": [
       {
         "id": "al-haqqah-27-1",
@@ -1369,7 +1395,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Comme j’aurais aimé, hélas, que ma mort fût irréversible !"
   },
   {
     "id": "al-haqqah-28",
@@ -1378,7 +1405,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَغْنَىٰ عَنِّى مَالِيَهْ ۜ",
     "textSimple": "مآ أغنى عنى ماليه ",
     "transliteration": "mā aghnā ʿannī māliyah",
-    "translation": "",
+    "translation": "My wealth has not availed me.",
     "words": [
       {
         "id": "al-haqqah-28-1",
@@ -1409,7 +1436,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mes biens ne m’auront servi à rien,"
   },
   {
     "id": "al-haqqah-29",
@@ -1418,7 +1446,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "هَلَكَ عَنِّى سُلْطَـٰنِيَهْ",
     "textSimple": "هلك عنى سلطـنيه",
     "transliteration": "halaka ʿannī sul'ṭāniyah",
-    "translation": "",
+    "translation": "Gone from me is my authority.\"",
     "words": [
       {
         "id": "al-haqqah-29-1",
@@ -1442,7 +1470,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et mon autorité, anéantie, m’a laissé seul ! »"
   },
   {
     "id": "al-haqqah-30",
@@ -1451,7 +1480,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "خُذُوهُ فَغُلُّوهُ",
     "textSimple": "خذوه فغلوه",
     "transliteration": "khudhūhu faghullūhu",
-    "translation": "",
+    "translation": "[Allāh will say], \"Seize him and shackle him.",
     "words": [
       {
         "id": "al-haqqah-30-1",
@@ -1468,7 +1497,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il sera alors dit de lui) : « Prenez-le ! Enchaînez-le !"
   },
   {
     "id": "al-haqqah-31",
@@ -1477,7 +1507,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
     "textSimple": "ثم ٱلجحيم صلوه",
     "transliteration": "thumma l-jaḥīma ṣallūhu",
-    "translation": "",
+    "translation": "Then into Hellfire drive him.",
     "words": [
       {
         "id": "al-haqqah-31-1",
@@ -1501,7 +1531,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis, dans le Brasier, brûlez-le !"
   },
   {
     "id": "al-haqqah-32",
@@ -1510,7 +1541,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ فِى سِلْسِلَةٍ ذَرْعُهَا سَبْعُونَ ذِرَاعًا فَٱسْلُكُوهُ",
     "textSimple": "ثم فى سلسلة ذرعها سبعون ذراعا فٱسلكوه",
     "transliteration": "thumma fī sil'silatin dharʿuhā sabʿūna dhirāʿan fa-us'lukūhu",
-    "translation": "",
+    "translation": "Then into a chain whose length is seventy cubits insert him.\"",
     "words": [
       {
         "id": "al-haqqah-32-1",
@@ -1562,7 +1593,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ensuite, avec une chaîne (longue) de soixante-dix coudées, attachez-le !"
   },
   {
     "id": "al-haqqah-33",
@@ -1571,7 +1603,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
     "textSimple": "إنه كان لا يؤمن بٱلله ٱلعظيم",
     "transliteration": "innahu kāna lā yu'minu bil-lahi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "Indeed, he did not used to believe in Allāh, the Most Great,",
     "words": [
       {
         "id": "al-haqqah-33-1",
@@ -1616,7 +1648,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Car il ne croyait pas en Allah le Très Grand,"
   },
   {
     "id": "al-haqqah-34",
@@ -1625,7 +1658,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
     "textSimple": "ولا يحض على طعام ٱلمسكين",
     "transliteration": "walā yaḥuḍḍu ʿalā ṭaʿāmi l-mis'kīni",
-    "translation": "",
+    "translation": "Nor did he encourage the feeding of the poor.",
     "words": [
       {
         "id": "al-haqqah-34-1",
@@ -1663,7 +1696,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pas plus qu’il n’incitait à donner à manger au pauvre."
   },
   {
     "id": "al-haqqah-35",
@@ -1672,7 +1706,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَـٰهُنَا حَمِيمٌ",
     "textSimple": "فليس له ٱليوم هـهنا حميم",
     "transliteration": "falaysa lahu l-yawma hāhunā ḥamīmun",
-    "translation": "",
+    "translation": "So there is not for him here this Day any devoted friend",
     "words": [
       {
         "id": "al-haqqah-35-1",
@@ -1710,7 +1744,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aujourd’hui, ici, il n’a aucun ami chaleureux,"
   },
   {
     "id": "al-haqqah-36",
@@ -1719,7 +1754,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
     "textSimple": "ولا طعام إلا من غسلين",
     "transliteration": "walā ṭaʿāmun illā min ghis'līnin",
-    "translation": "",
+    "translation": "Nor any food except from the discharge of wounds;",
     "words": [
       {
         "id": "al-haqqah-36-1",
@@ -1757,7 +1792,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ni nourriture autre que le pus"
   },
   {
     "id": "al-haqqah-37",
@@ -1766,7 +1802,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَـٰطِـُٔونَ",
     "textSimple": "لا يأكلهٓ إلا ٱلخـطـٔون",
     "transliteration": "lā yakuluhu illā l-khāṭiūna",
-    "translation": "",
+    "translation": "None will eat it except the sinners.",
     "words": [
       {
         "id": "al-haqqah-37-1",
@@ -1797,7 +1833,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "dont seuls se nourriront les coupables. »"
   },
   {
     "id": "al-haqqah-38",
@@ -1806,7 +1843,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
     "textSimple": "فلآ أقسم بما تبصرون",
     "transliteration": "falā uq'simu bimā tub'ṣirūna",
-    "translation": "",
+    "translation": "So I swear by what you see",
     "words": [
       {
         "id": "al-haqqah-38-1",
@@ -1837,7 +1874,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, J’en jure par ce que vous voyez,"
   },
   {
     "id": "al-haqqah-39",
@@ -1846,7 +1884,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا لَا تُبْصِرُونَ",
     "textSimple": "وما لا تبصرون",
     "transliteration": "wamā lā tub'ṣirūna",
-    "translation": "",
+    "translation": "And what you do not see",
     "words": [
       {
         "id": "al-haqqah-39-1",
@@ -1870,7 +1908,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et par ce que vous ne voyez pas,"
   },
   {
     "id": "al-haqqah-40",
@@ -1879,7 +1918,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
     "textSimple": "إنه لقول رسول كريم",
     "transliteration": "innahu laqawlu rasūlin karīmin",
-    "translation": "",
+    "translation": "[That] indeed, it [i.e., the Qur’ān] is the word of a noble Messenger.",
     "words": [
       {
         "id": "al-haqqah-40-1",
@@ -1910,7 +1949,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ceci est le propos (transmis) par un Noble Messager,"
   },
   {
     "id": "al-haqqah-41",
@@ -1919,7 +1959,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
     "textSimple": "وما هو بقول شاعر  قليلا ما تؤمنون",
     "transliteration": "wamā huwa biqawli shāʿirin qalīlan mā tu'minūna",
-    "translation": "",
+    "translation": "And it is not the word of a poet; little do you believe.",
     "words": [
       {
         "id": "al-haqqah-41-1",
@@ -1971,7 +2011,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et non le propos d’un poète. Comme vous êtes peu nombreux à y croire !"
   },
   {
     "id": "al-haqqah-42",
@@ -1980,7 +2021,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا بِقَوْلِ كَاهِنٍ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
     "textSimple": "ولا بقول كاهن  قليلا ما تذكرون",
     "transliteration": "walā biqawli kāhinin qalīlan mā tadhakkarūna",
-    "translation": "",
+    "translation": "Nor the word of a soothsayer; little do you remember.",
     "words": [
       {
         "id": "al-haqqah-42-1",
@@ -2025,7 +2066,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ce n’est pas, non plus, le propos d’un devin. Comme vous êtes peu nombreux à y réfléchir !"
   },
   {
     "id": "al-haqqah-43",
@@ -2034,7 +2076,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلٌ مِّن رَّبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "تنزيل من رب ٱلعـلمين",
     "transliteration": "tanzīlun min rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "[It is] a revelation from the Lord of the worlds.",
     "words": [
       {
         "id": "al-haqqah-43-1",
@@ -2065,7 +2107,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien une révélation du Seigneur de l’Univers."
   },
   {
     "id": "al-haqqah-44",
@@ -2074,7 +2117,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ",
     "textSimple": "ولو تقول علينا بعض ٱلأقاويل",
     "transliteration": "walaw taqawwala ʿalaynā baʿḍa l-aqāwīli",
-    "translation": "",
+    "translation": "And if he [i.e., Muḥammad] had made up about Us some [false] sayings,",
     "words": [
       {
         "id": "al-haqqah-44-1",
@@ -2112,7 +2155,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si (Muhammad) Nous avait attribué certaines paroles (qui n’étaient pas les Nôtres),"
   },
   {
     "id": "al-haqqah-45",
@@ -2121,7 +2165,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "لَأَخَذْنَا مِنْهُ بِٱلْيَمِينِ",
     "textSimple": "لأخذنا منه بٱليمين",
     "transliteration": "la-akhadhnā min'hu bil-yamīni",
-    "translation": "",
+    "translation": "We would have seized him by the right hand;",
     "words": [
       {
         "id": "al-haqqah-45-1",
@@ -2145,7 +2189,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’aurions saisi en Notre Main Droite,"
   },
   {
     "id": "al-haqqah-46",
@@ -2154,7 +2199,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ",
     "textSimple": "ثم لقطعنا منه ٱلوتين",
     "transliteration": "thumma laqaṭaʿnā min'hu l-watīna",
-    "translation": "",
+    "translation": "Then We would have cut from him the aorta.",
     "words": [
       {
         "id": "al-haqqah-46-1",
@@ -2185,7 +2230,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "puis lui aurions tranché l’aorte."
   },
   {
     "id": "al-haqqah-47",
@@ -2194,7 +2240,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَـٰجِزِينَ",
     "textSimple": "فما منكم من أحد عنه حـجزين",
     "transliteration": "famā minkum min aḥadin ʿanhu ḥājizīna",
-    "translation": "",
+    "translation": "And there is no one of you who could prevent [Us] from him.",
     "words": [
       {
         "id": "al-haqqah-47-1",
@@ -2239,7 +2285,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nul d’entre vous alors n’aurait pu le protéger."
   },
   {
     "id": "al-haqqah-48",
@@ -2248,7 +2295,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَتَذْكِرَةٌ لِّلْمُتَّقِينَ",
     "textSimple": "وإنه لتذكرة للمتقين",
     "transliteration": "wa-innahu latadhkiratun lil'muttaqīna",
-    "translation": "",
+    "translation": "And indeed, it [i.e., the Qur’ān] is a reminder for the righteous.",
     "words": [
       {
         "id": "al-haqqah-48-1",
@@ -2272,7 +2319,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce (Coran) est, en vérité, un Rappel à l’adresse de ceux qui sont pieux."
   },
   {
     "id": "al-haqqah-49",
@@ -2281,7 +2329,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
     "textSimple": "وإنا لنعلم أن منكم مكذبين",
     "transliteration": "wa-innā lanaʿlamu anna minkum mukadhibīna",
-    "translation": "",
+    "translation": "And indeed, We know that among you are deniers.",
     "words": [
       {
         "id": "al-haqqah-49-1",
@@ -2319,7 +2367,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous savons (pourtant) que, parmi vous, certains crient (encore) au mensonge."
   },
   {
     "id": "al-haqqah-50",
@@ -2328,7 +2377,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَحَسْرَةٌ عَلَى ٱلْكَـٰفِرِينَ",
     "textSimple": "وإنه لحسرة على ٱلكـفرين",
     "transliteration": "wa-innahu laḥasratun ʿalā l-kāfirīna",
-    "translation": "",
+    "translation": "And indeed, it will be [a cause of] regret upon the disbelievers.",
     "words": [
       {
         "id": "al-haqqah-50-1",
@@ -2359,7 +2408,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sera plutôt un sujet d’amers regrets pour les mécréants."
   },
   {
     "id": "al-haqqah-51",
@@ -2368,7 +2418,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
     "textSimple": "وإنه لحق ٱليقين",
     "transliteration": "wa-innahu laḥaqqu l-yaqīni",
-    "translation": "",
+    "translation": "And indeed, it is the truth of certainty.",
     "words": [
       {
         "id": "al-haqqah-51-1",
@@ -2392,7 +2442,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est là, assurément, la vraie certitude."
   },
   {
     "id": "al-haqqah-52",
@@ -2401,7 +2452,7 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
     "textUthmani": "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ",
     "textSimple": "فسبح بٱسم ربك ٱلعظيم",
     "transliteration": "fasabbiḥ bi-is'mi rabbika l-ʿaẓīmi",
-    "translation": "",
+    "translation": "So exalt the name of your Lord, the Most Great.",
     "words": [
       {
         "id": "al-haqqah-52-1",
@@ -2432,7 +2483,8 @@ export const AL_HAQQAH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rends donc gloire au Nom de ton Seigneur, le Très Grand !"
   }
 ];
 

@@ -11,7 +11,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلطُّورِ",
     "textSimple": " وٱلطور",
     "transliteration": "wal-ṭūri",
-    "translation": "",
+    "translation": "By the mount",
     "words": [
       {
         "id": "at-tur-1-1",
@@ -21,7 +21,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le Mont !"
   },
   {
     "id": "at-tur-2",
@@ -30,7 +31,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَكِتَـٰبٍ مَّسْطُورٍ",
     "textSimple": "وكتـب مسطور",
     "transliteration": "wakitābin masṭūrin",
-    "translation": "",
+    "translation": "And [by] a Book inscribed",
     "words": [
       {
         "id": "at-tur-2-1",
@@ -47,7 +48,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par un Livre écrit"
   },
   {
     "id": "at-tur-3",
@@ -56,7 +58,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فِى رَقٍّ مَّنشُورٍ",
     "textSimple": "فى رق منشور",
     "transliteration": "fī raqqin manshūrin",
-    "translation": "",
+    "translation": "In parchment spread open",
     "words": [
       {
         "id": "at-tur-3-1",
@@ -80,7 +82,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sur un parchemin que l’on déplie !"
   },
   {
     "id": "at-tur-4",
@@ -89,7 +92,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْبَيْتِ ٱلْمَعْمُورِ",
     "textSimple": "وٱلبيت ٱلمعمور",
     "transliteration": "wal-bayti l-maʿmūri",
-    "translation": "",
+    "translation": "And [by] the frequented House",
     "words": [
       {
         "id": "at-tur-4-1",
@@ -106,7 +109,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la Maison emplie (d’adorateurs) !"
   },
   {
     "id": "at-tur-5",
@@ -115,7 +119,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّقْفِ ٱلْمَرْفُوعِ",
     "textSimple": "وٱلسقف ٱلمرفوع",
     "transliteration": "wal-saqfi l-marfūʿi",
-    "translation": "",
+    "translation": "And [by] the ceiling [i.e., heaven] raised high",
     "words": [
       {
         "id": "at-tur-5-1",
@@ -132,7 +136,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la Voûte bien haute !"
   },
   {
     "id": "at-tur-6",
@@ -141,7 +146,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْبَحْرِ ٱلْمَسْجُورِ",
     "textSimple": "وٱلبحر ٱلمسجور",
     "transliteration": "wal-baḥri l-masjūri",
-    "translation": "",
+    "translation": "And [by] the sea set on fire,",
     "words": [
       {
         "id": "at-tur-6-1",
@@ -158,7 +163,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et par la mer embrasée !"
   },
   {
     "id": "at-tur-7",
@@ -167,7 +173,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ عَذَابَ رَبِّكَ لَوَٰقِعٌ",
     "textSimple": "إن عذاب ربك لوقع",
     "transliteration": "inna ʿadhāba rabbika lawāqiʿun",
-    "translation": "",
+    "translation": "Indeed, the punishment of your Lord will occur.",
     "words": [
       {
         "id": "at-tur-7-1",
@@ -198,7 +204,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le supplice de ton Seigneur s’accomplira sans nul doute."
   },
   {
     "id": "at-tur-8",
@@ -207,7 +214,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "مَّا لَهُۥ مِن دَافِعٍ",
     "textSimple": "ما له من دافع",
     "transliteration": "mā lahu min dāfiʿin",
-    "translation": "",
+    "translation": "Of it there is no preventer.",
     "words": [
       {
         "id": "at-tur-8-1",
@@ -238,7 +245,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rien ne pourra le repousser."
   },
   {
     "id": "at-tur-9",
@@ -247,7 +255,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تَمُورُ ٱلسَّمَآءُ مَوْرًا",
     "textSimple": "يوم تمور ٱلسمآء مورا",
     "transliteration": "yawma tamūru l-samāu mawran",
-    "translation": "",
+    "translation": "On the Day the heaven will sway with circular motion",
     "words": [
       {
         "id": "at-tur-9-1",
@@ -278,7 +286,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où le ciel se mettra à tournoyer intensément,"
   },
   {
     "id": "at-tur-10",
@@ -287,7 +296,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَتَسِيرُ ٱلْجِبَالُ سَيْرًا",
     "textSimple": "وتسير ٱلجبال سيرا",
     "transliteration": "watasīru l-jibālu sayran",
-    "translation": "",
+    "translation": "And the mountains will pass on, departing -",
     "words": [
       {
         "id": "at-tur-10-1",
@@ -311,7 +320,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les montagnes se mettront réellement en mouvement,"
   },
   {
     "id": "at-tur-11",
@@ -320,7 +330,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فَوَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
     "textSimple": "فويل يومئذ للمكذبين",
     "transliteration": "fawaylun yawma-idhin lil'mukadhibīna",
-    "translation": "",
+    "translation": "Then woe, that Day, to the deniers,",
     "words": [
       {
         "id": "at-tur-11-1",
@@ -344,7 +354,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "malheur, ce jour-là, aux négateurs obstinés,"
   },
   {
     "id": "at-tur-12",
@@ -353,7 +364,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ هُمْ فِى خَوْضٍ يَلْعَبُونَ",
     "textSimple": "ٱلذين هم فى خوض يلعبون",
     "transliteration": "alladhīna hum fī khawḍin yalʿabūna",
-    "translation": "",
+    "translation": "Who are in [empty] discourse amusing themselves.",
     "words": [
       {
         "id": "at-tur-12-1",
@@ -391,7 +402,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui se complaisent dans de vaines paroles."
   },
   {
     "id": "at-tur-13",
@@ -400,7 +412,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
     "textSimple": "يوم يدعون إلى نار جهنم دعا",
     "transliteration": "yawma yudaʿʿūna ilā nāri jahannama daʿʿan",
-    "translation": "",
+    "translation": "The Day they are thrust toward the fire of Hell with a [violent] thrust, [its angels will say],",
     "words": [
       {
         "id": "at-tur-13-1",
@@ -445,7 +457,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, ils seront précipités dans le Feu de la Géhenne."
   },
   {
     "id": "at-tur-14",
@@ -454,7 +467,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذِهِ ٱلنَّارُ ٱلَّتِى كُنتُم بِهَا تُكَذِّبُونَ",
     "textSimple": "هـذه ٱلنار ٱلتى كنتم بها تكذبون",
     "transliteration": "hādhihi l-nāru allatī kuntum bihā tukadhibūna",
-    "translation": "",
+    "translation": "\"This is the Fire which you used to deny.",
     "words": [
       {
         "id": "at-tur-14-1",
@@ -499,7 +512,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voici le Feu que vous teniez pour un mensonge."
   },
   {
     "id": "at-tur-15",
@@ -508,7 +522,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَفَسِحْرٌ هَـٰذَآ أَمْ أَنتُمْ لَا تُبْصِرُونَ",
     "textSimple": "أفسحر هـذآ أم أنتم لا تبصرون",
     "transliteration": "afasiḥ'run hādhā am antum lā tub'ṣirūna",
-    "translation": "",
+    "translation": "Then is this magic, or do you not see?",
     "words": [
       {
         "id": "at-tur-15-1",
@@ -553,7 +567,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce donc de la magie, ou ne voyez-vous pas clair ?"
   },
   {
     "id": "at-tur-16",
@@ -562,7 +577,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "ٱصْلَوْهَا فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "ٱصلوها فٱصبروٓا أو لا تصبروا سوآء عليكم  إنما تجزون ما كنتم تعملون",
     "transliteration": "iṣ'lawhā fa-iṣ'birū aw lā taṣbirū sawāon ʿalaykum innamā tuj'zawna mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "[Enter to] burn therein; then be patient or impatient - it is all the same for you. You are only being recompensed [for] what you used to do.\"",
     "words": [
       {
         "id": "at-tur-16-1",
@@ -649,7 +664,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entrez-y et brûlez! Que vous le supportiez ou que vous ne le supportiez pas, la chose sera pour vous égale. Vous n’êtes rétribués que pour ce que vous faisiez. »"
   },
   {
     "id": "at-tur-17",
@@ -658,7 +674,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَنَعِيمٍ",
     "textSimple": "إن ٱلمتقين فى جنـت ونعيم",
     "transliteration": "inna l-mutaqīna fī jannātin wanaʿīmin",
-    "translation": "",
+    "translation": "Indeed, the righteous will be in gardens and pleasure,",
     "words": [
       {
         "id": "at-tur-17-1",
@@ -696,7 +712,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les gens pieux seront dans des jardins, (au milieu) des délices,"
   },
   {
     "id": "at-tur-18",
@@ -705,7 +722,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فَـٰكِهِينَ بِمَآ ءَاتَىٰهُمْ رَبُّهُمْ وَوَقَىٰهُمْ رَبُّهُمْ عَذَابَ ٱلْجَحِيمِ",
     "textSimple": "فـكهين بمآ ءاتىهم ربهم ووقىهم ربهم عذاب ٱلجحيم",
     "transliteration": "fākihīna bimā ātāhum rabbuhum wawaqāhum rabbuhum ʿadhāba l-jaḥīmi",
-    "translation": "",
+    "translation": "Enjoying what their Lord has given them, and their Lord protected them from the punishment of Hellfire.",
     "words": [
       {
         "id": "at-tur-18-1",
@@ -764,7 +781,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "y jouissant de ce que leur Seigneur leur aura accordé, et (heureux) que leur Seigneur les ait préservés du supplice de la Fournaise."
   },
   {
     "id": "at-tur-19",
@@ -773,7 +791,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "كلوا وٱشربوا هنيٓـٔا بما كنتم تعملون",
     "transliteration": "kulū wa-ish'rabū hanīan bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "[They will be told], \"Eat and drink in satisfaction for what you used to do.\"",
     "words": [
       {
         "id": "at-tur-19-1",
@@ -818,7 +836,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mangez et buvez en paix, c’est là le prix de vos œuvres ! »"
   },
   {
     "id": "at-tur-20",
@@ -827,7 +846,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَـٰهُم بِحُورٍ عِينٍ",
     "textSimple": "متكـٔين على سرر مصفوفة  وزوجنـهم بحور عين",
     "transliteration": "muttakiīna ʿalā sururin maṣfūfatin wazawwajnāhum biḥūrin ʿīnin",
-    "translation": "",
+    "translation": "They will be reclining on thrones lined up, and We will marry them to fair women with large, [beautiful] eyes.",
     "words": [
       {
         "id": "at-tur-20-1",
@@ -879,7 +898,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront accoudés sur des lits bien disposés, et Nous leur donnerons comme épouses des houris aux grands yeux noirs."
   },
   {
     "id": "at-tur-21",
@@ -888,7 +908,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَٱتَّبَعَتْهُمْ ذُرِّيَّتُهُم بِإِيمَـٰنٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَآ أَلَتْنَـٰهُم مِّنْ عَمَلِهِم مِّن شَىْءٍ ۚ كُلُّ ٱمْرِئٍۭ بِمَا كَسَبَ رَهِينٌ",
     "textSimple": "وٱلذين ءامنوا وٱتبعتهم ذريتهم بإيمـن ألحقنا بهم ذريتهم ومآ ألتنـهم من عملهم من شىء  كل ٱمرئ بما كسب رهين",
     "transliteration": "wa-alladhīna āmanū wa-ittabaʿathum dhurriyyatuhum biīmānin alḥaqnā bihim dhurriyyatahum wamā alatnāhum min ʿamalihim min shayin kullu im'ri-in bimā kasaba rahīnun",
-    "translation": "",
+    "translation": "And those who believed and whose descendants followed them in faith - We will join with them their descendants, and We will not deprive them of anything of their deeds. Every person, for what he earned, is retained.",
     "words": [
       {
         "id": "at-tur-21-1",
@@ -1024,7 +1044,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui ont cru puis ont été suivis dans la foi par leur progéniture, Nous les ferons rejoindre par leur descendance sans rien diminuer du mérite de leurs œuvres, chaque individu devant répondre de ce qu’il aura accompli."
   },
   {
     "id": "at-tur-22",
@@ -1033,7 +1054,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمْدَدْنَـٰهُم بِفَـٰكِهَةٍ وَلَحْمٍ مِّمَّا يَشْتَهُونَ",
     "textSimple": "وأمددنـهم بفـكهة ولحم مما يشتهون",
     "transliteration": "wa-amdadnāhum bifākihatin walaḥmin mimmā yashtahūna",
-    "translation": "",
+    "translation": "And We will provide them with fruit and meat from whatever they desire.",
     "words": [
       {
         "id": "at-tur-22-1",
@@ -1071,7 +1092,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur donnerons à profusion les fruits et les viandes dont ils auront envie."
   },
   {
     "id": "at-tur-23",
@@ -1080,7 +1102,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "يَتَنَـٰزَعُونَ فِيهَا كَأْسًا لَّا لَغْوٌ فِيهَا وَلَا تَأْثِيمٌ",
     "textSimple": "يتنـزعون فيها كأسا لا لغو فيها ولا تأثيم",
     "transliteration": "yatanāzaʿūna fīhā kasan lā laghwun fīhā walā tathīmun",
-    "translation": "",
+    "translation": "They will exchange with one another a cup [of wine] wherein [results] no ill speech or commission of sin.",
     "words": [
       {
         "id": "at-tur-23-1",
@@ -1139,7 +1161,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils y feront tourner entre eux une coupe (de vin) qui n’est la cause ni de propos futiles ni n’induit au péché."
   },
   {
     "id": "at-tur-24",
@@ -1148,7 +1171,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَيَطُوفُ عَلَيْهِمْ غِلْمَانٌ لَّهُمْ كَأَنَّهُمْ لُؤْلُؤٌ مَّكْنُونٌ",
     "textSimple": " ويطوف عليهم غلمان لهم كأنهم لؤلؤ مكنون",
     "transliteration": "wayaṭūfu ʿalayhim ghil'mānun lahum ka-annahum lu'lu-on maknūnun",
-    "translation": "",
+    "translation": "There will circulate among them [servant] boys [especially] for them, as if they were pearls well-protected.",
     "words": [
       {
         "id": "at-tur-24-1",
@@ -1200,7 +1223,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De jeunes serviteurs à leurs ordres circuleront entre eux, tels des perles soigneusement conservées (dans leur coquillage)."
   },
   {
     "id": "at-tur-25",
@@ -1209,7 +1233,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَسَآءَلُونَ",
     "textSimple": "وأقبل بعضهم على بعض يتسآءلون",
     "transliteration": "wa-aqbala baʿḍuhum ʿalā baʿḍin yatasāalūna",
-    "translation": "",
+    "translation": "And they will approach one another, inquiring of each other.",
     "words": [
       {
         "id": "at-tur-25-1",
@@ -1247,7 +1271,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’élanceront les uns vers les autres, en s’interrogeant :"
   },
   {
     "id": "at-tur-26",
@@ -1256,7 +1281,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّا كُنَّا قَبْلُ فِىٓ أَهْلِنَا مُشْفِقِينَ",
     "textSimple": "قالوٓا إنا كنا قبل فىٓ أهلنا مشفقين",
     "transliteration": "qālū innā kunnā qablu fī ahlinā mush'fiqīna",
-    "translation": "",
+    "translation": "They will say, \"Indeed, we were previously among our people fearful [of displeasing Allāh].",
     "words": [
       {
         "id": "at-tur-26-1",
@@ -1308,7 +1333,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Quand nous étions autrefois parmi les nôtres, nous redoutions (le châtiment d’Allah)."
   },
   {
     "id": "at-tur-27",
@@ -1317,7 +1343,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فَمَنَّ ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ",
     "textSimple": "فمن ٱلله علينا ووقىنا عذاب ٱلسموم",
     "transliteration": "famanna l-lahu ʿalaynā wawaqānā ʿadhāba l-samūmi",
-    "translation": "",
+    "translation": "So Allāh conferred favor upon us and protected us from the punishment of the Scorching Fire.",
     "words": [
       {
         "id": "at-tur-27-1",
@@ -1362,7 +1388,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah nous a donc fait grâce en nous épargnant le tourment de As-Samûm."
   },
   {
     "id": "at-tur-28",
@@ -1371,7 +1398,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ",
     "textSimple": "إنا كنا من قبل ندعوه  إنه هو ٱلبر ٱلرحيم",
     "transliteration": "innā kunnā min qablu nadʿūhu innahu huwa l-baru l-raḥīmu",
-    "translation": "",
+    "translation": "Indeed, we used to supplicate Him before. Indeed, it is He who is the Beneficent, the Merciful.\"",
     "words": [
       {
         "id": "at-tur-28-1",
@@ -1437,7 +1464,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui que Nous invoquions autrefois, car c’est Lui le Bienfaiteur, le Tout Miséricordieux."
   },
   {
     "id": "at-tur-29",
@@ -1446,7 +1474,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فَذَكِّرْ فَمَآ أَنتَ بِنِعْمَتِ رَبِّكَ بِكَاهِنٍ وَلَا مَجْنُونٍ",
     "textSimple": "فذكر فمآ أنت بنعمت ربك بكاهن ولا مجنون",
     "transliteration": "fadhakkir famā anta biniʿ'mati rabbika bikāhinin walā majnūnin",
-    "translation": "",
+    "translation": "So remind, [O Muḥammad], for you are not, by the favor of your Lord, a soothsayer or a madman.",
     "words": [
       {
         "id": "at-tur-29-1",
@@ -1505,7 +1533,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Adresse-leur donc un rappel car, par la grâce de ton Seigneur, tu n’es ni devin ni fou."
   },
   {
     "id": "at-tur-30",
@@ -1514,7 +1543,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ شَاعِرٌ نَّتَرَبَّصُ بِهِۦ رَيْبَ ٱلْمَنُونِ",
     "textSimple": "أم يقولون شاعر نتربص به ريب ٱلمنون",
     "transliteration": "am yaqūlūna shāʿirun natarabbaṣu bihi rayba l-manūni",
-    "translation": "",
+    "translation": "Or do they say [of you], \"A poet for whom we await a misfortune of time\"?",
     "words": [
       {
         "id": "at-tur-30-1",
@@ -1566,7 +1595,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or s’ils disent : « C’est un poète. Attendons que la mort vienne l’emporter (lui et son Message). »"
   },
   {
     "id": "at-tur-31",
@@ -1575,7 +1605,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ تَرَبَّصُوا۟ فَإِنِّى مَعَكُم مِّنَ ٱلْمُتَرَبِّصِينَ",
     "textSimple": "قل تربصوا فإنى معكم من ٱلمتربصين",
     "transliteration": "qul tarabbaṣū fa-innī maʿakum mina l-mutarabiṣīna",
-    "translation": "",
+    "translation": "Say, \"Wait, for indeed I am, with you, among the waiters.\"",
     "words": [
       {
         "id": "at-tur-31-1",
@@ -1620,7 +1650,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Réponds-leur : « Attendez donc ! Je serai avec vous à attendre. »"
   },
   {
     "id": "at-tur-32",
@@ -1629,7 +1660,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تَأْمُرُهُمْ أَحْلَـٰمُهُم بِهَـٰذَآ ۚ أَمْ هُمْ قَوْمٌ طَاغُونَ",
     "textSimple": "أم تأمرهم أحلـمهم بهـذآ  أم هم قوم طاغون",
     "transliteration": "am tamuruhum aḥlāmuhum bihādhā am hum qawmun ṭāghūna",
-    "translation": "",
+    "translation": "Or do their minds command them to [say] this, or are they a transgressing people?",
     "words": [
       {
         "id": "at-tur-32-1",
@@ -1688,7 +1719,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serait-ce leur raison qui leur ordonne (de telles allégations) ? Ou bien sont-ils des gens enclins à la démesure ?"
   },
   {
     "id": "at-tur-33",
@@ -1697,7 +1729,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَقُولُونَ تَقَوَّلَهُۥ ۚ بَل لَّا يُؤْمِنُونَ",
     "textSimple": "أم يقولون تقوله  بل لا يؤمنون",
     "transliteration": "am yaqūlūna taqawwalahu bal lā yu'minūna",
-    "translation": "",
+    "translation": "Or do they say, \"He has made it up\"? Rather, they do not believe.",
     "words": [
       {
         "id": "at-tur-33-1",
@@ -1742,7 +1774,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors diront-ils : « C’est lui qui l’a inventé. » Or ce sont eux qui n’y croient pas."
   },
   {
     "id": "at-tur-34",
@@ -1751,7 +1784,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فَلْيَأْتُوا۟ بِحَدِيثٍ مِّثْلِهِۦٓ إِن كَانُوا۟ صَـٰدِقِينَ",
     "textSimple": "فليأتوا بحديث مثلهٓ إن كانوا صـدقين",
     "transliteration": "falyatū biḥadīthin mith'lihi in kānū ṣādiqīna",
-    "translation": "",
+    "translation": "Then let them produce a statement like it, if they should be truthful.",
     "words": [
       {
         "id": "at-tur-34-1",
@@ -1796,7 +1829,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’ils apportent donc un discours qui lui soit semblable, si ce qu’ils disent est vrai."
   },
   {
     "id": "at-tur-35",
@@ -1805,7 +1839,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَـٰلِقُونَ",
     "textSimple": "أم خلقوا من غير شىء أم هم ٱلخـلقون",
     "transliteration": "am khuliqū min ghayri shayin am humu l-khāliqūna",
-    "translation": "",
+    "translation": "Or were they created by nothing, or were they the creators [of themselves]?",
     "words": [
       {
         "id": "at-tur-35-1",
@@ -1864,7 +1898,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ont-ils été créés de rien ou sont-ils leurs propres créateurs ?"
   },
   {
     "id": "at-tur-36",
@@ -1873,7 +1908,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ خَلَقُوا۟ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ",
     "textSimple": "أم خلقوا ٱلسمـوت وٱلأرض  بل لا يوقنون",
     "transliteration": "am khalaqū l-samāwāti wal-arḍa bal lā yūqinūna",
-    "translation": "",
+    "translation": "Or did they create the heavens and the earth? Rather, they are not certain.",
     "words": [
       {
         "id": "at-tur-36-1",
@@ -1925,7 +1960,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou ont-ils (eux-mêmes) créé les cieux et la terre ? Non, ils n’ont aucune certitude."
   },
   {
     "id": "at-tur-37",
@@ -1934,7 +1970,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ عِندَهُمْ خَزَآئِنُ رَبِّكَ أَمْ هُمُ ٱلْمُصَۣيْطِرُونَ",
     "textSimple": "أم عندهم خزآئن ربك أم هم ٱلمصيطرون",
     "transliteration": "am ʿindahum khazāinu rabbika am humu l-muṣayṭirūna",
-    "translation": "",
+    "translation": "Or have they the depositories [containing the provision] of your Lord? Or are they the controllers [of them]?",
     "words": [
       {
         "id": "at-tur-37-1",
@@ -1986,7 +2022,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détiendraient-ils les trésors de ton Seigneur ? Seraient-ils, eux, les maîtres dominateurs ?"
   },
   {
     "id": "at-tur-38",
@@ -1995,7 +2032,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُمْ سُلَّمٌ يَسْتَمِعُونَ فِيهِ ۖ فَلْيَأْتِ مُسْتَمِعُهُم بِسُلْطَـٰنٍ مُّبِينٍ",
     "textSimple": "أم لهم سلم يستمعون فيه  فليأت مستمعهم بسلطـن مبين",
     "transliteration": "am lahum sullamun yastamiʿūna fīhi falyati mus'tamiʿuhum bisul'ṭānin mubīnin",
-    "translation": "",
+    "translation": "Or have they a stairway [into the heaven] upon which they listen? Then let their listener produce a clear authority [i.e., proof].",
     "words": [
       {
         "id": "at-tur-38-1",
@@ -2061,7 +2098,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auraient-ils une échelle depuis laquelle ils écouteraient (les entretiens célestes) ? Que celui qui, parmi eux, est là à écouter apporte donc une évidente preuve d’autorité !"
   },
   {
     "id": "at-tur-39",
@@ -2070,7 +2108,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُ ٱلْبَنَـٰتُ وَلَكُمُ ٱلْبَنُونَ",
     "textSimple": "أم له ٱلبنـت ولكم ٱلبنون",
     "transliteration": "am lahu l-banātu walakumu l-banūna",
-    "translation": "",
+    "translation": "Or has He daughters while you have sons?",
     "words": [
       {
         "id": "at-tur-39-1",
@@ -2108,7 +2146,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) aurait donc les filles, alors que vous les fils ?"
   },
   {
     "id": "at-tur-40",
@@ -2117,7 +2156,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
     "textSimple": "أم تسـٔلهم أجرا فهم من مغرم مثقلون",
     "transliteration": "am tasaluhum ajran fahum min maghramin muth'qalūna",
-    "translation": "",
+    "translation": "Or do you, [O Muḥammad], ask of them a payment, so they are by debt burdened down?",
     "words": [
       {
         "id": "at-tur-40-1",
@@ -2169,7 +2208,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Leur réclamerais- tu une récompense dont ils seraient lourdement obérés ?"
   },
   {
     "id": "at-tur-41",
@@ -2178,7 +2218,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ",
     "textSimple": "أم عندهم ٱلغيب فهم يكتبون",
     "transliteration": "am ʿindahumu l-ghaybu fahum yaktubūna",
-    "translation": "",
+    "translation": "Or have they [knowledge of] the unseen, so they write [it] down?",
     "words": [
       {
         "id": "at-tur-41-1",
@@ -2216,7 +2256,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Disposeraient-ils des clefs de l’Inconnaissable (ghayb) dont ils pourraient consigner par écrit (les secrets) ?"
   },
   {
     "id": "at-tur-42",
@@ -2225,7 +2266,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يُرِيدُونَ كَيْدًا ۖ فَٱلَّذِينَ كَفَرُوا۟ هُمُ ٱلْمَكِيدُونَ",
     "textSimple": "أم يريدون كيدا  فٱلذين كفروا هم ٱلمكيدون",
     "transliteration": "am yurīdūna kaydan fa-alladhīna kafarū humu l-makīdūna",
-    "translation": "",
+    "translation": "Or do they intend a plan? But those who disbelieve - they are the object of a plan.",
     "words": [
       {
         "id": "at-tur-42-1",
@@ -2277,7 +2318,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou chercheraient-ils à tramer des intrigues ? Les mécréants seront alors les victimes de leurs propres intrigues."
   },
   {
     "id": "at-tur-43",
@@ -2286,7 +2328,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَهُمْ إِلَـٰهٌ غَيْرُ ٱللَّهِ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
     "textSimple": "أم لهم إلـه غير ٱلله  سبحـن ٱلله عما يشركون",
     "transliteration": "am lahum ilāhun ghayru l-lahi sub'ḥāna l-lahi ʿammā yush'rikūna",
-    "translation": "",
+    "translation": "Or have they a deity other than Allāh? Exalted is Allāh above whatever they associate with Him.",
     "words": [
       {
         "id": "at-tur-43-1",
@@ -2352,7 +2394,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auraient-ils une divinité autre qu’Allah ? Gloire soit rendue à Allah, (Il est bien plus Haut) que tout ce qu’ils Lui associent !"
   },
   {
     "id": "at-tur-44",
@@ -2361,7 +2404,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن يَرَوْا۟ كِسْفًا مِّنَ ٱلسَّمَآءِ سَاقِطًا يَقُولُوا۟ سَحَابٌ مَّرْكُومٌ",
     "textSimple": "وإن يروا كسفا من ٱلسمآء ساقطا يقولوا سحاب مركوم",
     "transliteration": "wa-in yaraw kis'fan mina l-samāi sāqiṭan yaqūlū saḥābun markūmun",
-    "translation": "",
+    "translation": "And if they were to see a fragment from the sky falling, they would say, \"[It is merely] clouds heaped up.\"",
     "words": [
       {
         "id": "at-tur-44-1",
@@ -2427,7 +2470,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand bien même ils verraient choir des pans du ciel, ils diraient : « Ce ne sont là que nuages amoncelés. »"
   },
   {
     "id": "at-tur-45",
@@ -2436,7 +2480,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "فَذَرْهُمْ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى فِيهِ يُصْعَقُونَ",
     "textSimple": "فذرهم حتى يلـقوا يومهم ٱلذى فيه يصعقون",
     "transliteration": "fadharhum ḥattā yulāqū yawmahumu alladhī fīhi yuṣ'ʿaqūna",
-    "translation": "",
+    "translation": "So leave them until they meet their Day in which they will be struck insensible -",
     "words": [
       {
         "id": "at-tur-45-1",
@@ -2488,7 +2532,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-les donc attendre leur jour, où ils seront foudroyés."
   },
   {
     "id": "at-tur-46",
@@ -2497,7 +2542,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ لَا يُغْنِى عَنْهُمْ كَيْدُهُمْ شَيْـًٔا وَلَا هُمْ يُنصَرُونَ",
     "textSimple": "يوم لا يغنى عنهم كيدهم شيـٔا ولا هم ينصرون",
     "transliteration": "yawma lā yugh'nī ʿanhum kayduhum shayan walā hum yunṣarūna",
-    "translation": "",
+    "translation": "The Day their plan will not avail them at all, nor will they be helped.",
     "words": [
       {
         "id": "at-tur-46-1",
@@ -2563,7 +2608,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où leurs intrigues ne leur seront utiles en rien, et où ils n’auront aucun secours."
   },
   {
     "id": "at-tur-47",
@@ -2572,7 +2618,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ لِلَّذِينَ ظَلَمُوا۟ عَذَابًا دُونَ ذَٰلِكَ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "textSimple": "وإن للذين ظلموا عذابا دون ذلك ولـكن أكثرهم لا يعلمون",
     "transliteration": "wa-inna lilladhīna ẓalamū ʿadhāban dūna dhālika walākinna aktharahum lā yaʿlamūna",
-    "translation": "",
+    "translation": "And indeed, for those who have wronged is a punishment before that, but most of them do not know.",
     "words": [
       {
         "id": "at-tur-47-1",
@@ -2645,7 +2691,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui auront commis des injustices auront (à subir) un supplice avancé, mais la plupart d’entre eux ne le savent pas."
   },
   {
     "id": "at-tur-48",
@@ -2654,7 +2701,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَٱصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا ۖ وَسَبِّحْ بِحَمْدِ رَبِّكَ حِينَ تَقُومُ",
     "textSimple": "وٱصبر لحكم ربك فإنك بأعيننا  وسبح بحمد ربك حين تقوم",
     "transliteration": "wa-iṣ'bir liḥuk'mi rabbika fa-innaka bi-aʿyuninā wasabbiḥ biḥamdi rabbika ḥīna taqūmu",
-    "translation": "",
+    "translation": "And be patient, [O Muḥammad], for the decision of your Lord, for indeed, you are in Our eyes [i.e., sight]. And exalt [Allāh] with praise of your Lord when you arise",
     "words": [
       {
         "id": "at-tur-48-1",
@@ -2727,7 +2774,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends donc en patience le Jugement de ton Seigneur ! Car Nous t’avons sous Nos Yeux. Rends gloire à ton Seigneur et célèbre Ses louanges en te levant."
   },
   {
     "id": "at-tur-49",
@@ -2736,7 +2784,7 @@ export const AT_TUR_AYAHS: Ayah[] = [
     "textUthmani": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَإِدْبَـٰرَ ٱلنُّجُومِ",
     "textSimple": "ومن ٱليل فسبحه وإدبـر ٱلنجوم",
     "transliteration": "wamina al-layli fasabbiḥ'hu wa-id'bāra l-nujūmi",
-    "translation": "",
+    "translation": "And in a part of the night exalt Him and after [the setting of] the stars.",
     "words": [
       {
         "id": "at-tur-49-1",
@@ -2774,7 +2822,8 @@ export const AT_TUR_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et glorifie-Le durant une (bonne) partie de la nuit et quand déclinent les étoiles."
   }
 ];
 

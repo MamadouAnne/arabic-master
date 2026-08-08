@@ -11,7 +11,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": " إِذَا جَآءَكَ ٱلْمُنَـٰفِقُونَ قَالُوا۟ نَشْهَدُ إِنَّكَ لَرَسُولُ ٱللَّهِ ۗ وَٱللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُۥ وَٱللَّهُ يَشْهَدُ إِنَّ ٱلْمُنَـٰفِقِينَ لَكَـٰذِبُونَ",
     "textSimple": " إذا جآءك ٱلمنـفقون قالوا نشهد إنك لرسول ٱلله  وٱلله يعلم إنك لرسوله وٱلله يشهد إن ٱلمنـفقين لكـذبون",
     "transliteration": "idhā jāaka l-munāfiqūna qālū nashhadu innaka larasūlu l-lahi wal-lahu yaʿlamu innaka larasūluhu wal-lahu yashhadu inna l-munāfiqīna lakādhibūna",
-    "translation": "",
+    "translation": "When the hypocrites come to you, [O Muḥammad], they say, \"We testify that you are the Messenger of Allāh.\" And Allāh knows that you are His Messenger, and Allāh testifies that the hypocrites are liars.",
     "words": [
       {
         "id": "al-munafiqun-1-1",
@@ -133,7 +133,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand les hypocrites viennent te trouver, ils disent : « Nous attestons que tu es le Messager d’Allah. » Mais Allah Sait que tu es Son Messager, et Il atteste que les hypocrites sont des menteurs."
   },
   {
     "id": "al-munafiqun-2",
@@ -142,7 +143,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "ٱتَّخَذُوٓا۟ أَيْمَـٰنَهُمْ جُنَّةً فَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ",
     "textSimple": "ٱتخذوٓا أيمـنهم جنة فصدوا عن سبيل ٱلله  إنهم سآء ما كانوا يعملون",
     "transliteration": "ittakhadhū aymānahum junnatan faṣaddū ʿan sabīli l-lahi innahum sāa mā kānū yaʿmalūna",
-    "translation": "",
+    "translation": "They have taken their oaths as a cover, so they averted [people] from the way of Allāh. Indeed, it was evil that they were doing.",
     "words": [
       {
         "id": "al-munafiqun-2-1",
@@ -229,7 +230,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont pris leur serment comme bouclier protecteur, et ont repoussé (les autres) loin du chemin d’Allah. Comme étaient détestables les choses qu’ils faisaient !"
   },
   {
     "id": "al-munafiqun-3",
@@ -238,7 +240,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ بِأَنَّهُمْ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ فَطُبِعَ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ",
     "textSimple": "ذلك بأنهم ءامنوا ثم كفروا فطبع على قلوبهم فهم لا يفقهون",
     "transliteration": "dhālika bi-annahum āmanū thumma kafarū faṭubiʿa ʿalā qulūbihim fahum lā yafqahūna",
-    "translation": "",
+    "translation": "That is because they believed, and then they disbelieved; so their hearts were sealed over, and they do not understand.",
     "words": [
       {
         "id": "al-munafiqun-3-1",
@@ -318,7 +320,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, parce qu’ils ont cru, puis mécru. Leurs cœurs en sont alors scellés, et ils ne comprennent plus rien."
   },
   {
     "id": "al-munafiqun-4",
@@ -327,7 +330,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَـٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ",
     "textSimple": " وإذا رأيتهم تعجبك أجسامهم  وإن يقولوا تسمع لقولهم  كأنهم خشب مسندة  يحسبون كل صيحة عليهم  هم ٱلعدو فٱحذرهم  قـتلهم ٱلله  أنى يؤفكون",
     "transliteration": "wa-idhā ra-aytahum tuʿ'jibuka ajsāmuhum wa-in yaqūlū tasmaʿ liqawlihim ka-annahum khushubun musannadatun yaḥsabūna kulla ṣayḥatin ʿalayhim humu l-ʿaduwu fa-iḥ'dharhum qātalahumu l-lahu annā yu'fakūna",
-    "translation": "",
+    "translation": "And when you see them, their forms please you, and if they speak, you listen to their speech. [They are] as if they were pieces of wood propped up - they think that every shout is against them. They are the enemy, so beware of them. May Allāh destroy them; how are they deluded?",
     "words": [
       {
         "id": "al-munafiqun-4-1",
@@ -484,7 +487,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand tu les vois, leur apparence physique te plaît, et s’ils parlent tu écoutes (volontiers) ce qu’ils disent. Ils sont tels des poutres appuyées (contre le mur). Ils pensent que le moindre cri les concerne. Ce sont eux l’ennemi. Méfie-toi d’eux ! Qu’Allah les combatte ! Comme ils se détournent (du droit chemin) !"
   },
   {
     "id": "al-munafiqun-5",
@@ -493,7 +497,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ يَسْتَغْفِرْ لَكُمْ رَسُولُ ٱللَّهِ لَوَّوْا۟ رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُم مُّسْتَكْبِرُونَ",
     "textSimple": "وإذا قيل لهم تعالوا يستغفر لكم رسول ٱلله لووا رءوسهم ورأيتهم يصدون وهم مستكبرون",
     "transliteration": "wa-idhā qīla lahum taʿālaw yastaghfir lakum rasūlu l-lahi lawwaw ruūsahum wara-aytahum yaṣuddūna wahum mus'takbirūna",
-    "translation": "",
+    "translation": "And when it is said to them, \"Come, the Messenger of Allāh will ask forgiveness for you,\" they turn their heads aside and you see them evading while they are arrogant.",
     "words": [
       {
         "id": "al-munafiqun-5-1",
@@ -594,7 +598,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand il leur est dit : « Venez ! Le Messager d’Allah va implorer le pardon pour vous », ils détournent la tête, et tu les vois se retirer, dédaigneux, pleins de morgue."
   },
   {
     "id": "al-munafiqun-6",
@@ -603,7 +608,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "سَوَآءٌ عَلَيْهِمْ أَسْتَغْفَرْتَ لَهُمْ أَمْ لَمْ تَسْتَغْفِرْ لَهُمْ لَن يَغْفِرَ ٱللَّهُ لَهُمْ ۚ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ",
     "textSimple": "سوآء عليهم أستغفرت لهم أم لم تستغفر لهم لن يغفر ٱلله لهم  إن ٱلله لا يهدى ٱلقوم ٱلفـسقين",
     "transliteration": "sawāon ʿalayhim astaghfarta lahum am lam tastaghfir lahum lan yaghfira l-lahu lahum inna l-laha lā yahdī l-qawma l-fāsiqīna",
-    "translation": "",
+    "translation": "It is all the same for them whether you ask forgiveness for them or do not ask forgiveness for them; never will Allāh forgive them. Indeed, Allāh does not guide the defiantly disobedient people.",
     "words": [
       {
         "id": "al-munafiqun-6-1",
@@ -732,7 +737,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que tu implores pour eux le pardon ou que tu ne l’implores pas, cela est égal. Car Allah ne leur pardonnera pas. Allah ne guide pas les gens pervers."
   },
   {
     "id": "al-munafiqun-7",
@@ -741,7 +747,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "هُمُ ٱلَّذِينَ يَقُولُونَ لَا تُنفِقُوا۟ عَلَىٰ مَنْ عِندَ رَسُولِ ٱللَّهِ حَتَّىٰ يَنفَضُّوا۟ ۗ وَلِلَّهِ خَزَآئِنُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلَـٰكِنَّ ٱلْمُنَـٰفِقِينَ لَا يَفْقَهُونَ",
     "textSimple": "هم ٱلذين يقولون لا تنفقوا على من عند رسول ٱلله حتى ينفضوا  ولله خزآئن ٱلسمـوت وٱلأرض ولـكن ٱلمنـفقين لا يفقهون",
     "transliteration": "humu alladhīna yaqūlūna lā tunfiqū ʿalā man ʿinda rasūli l-lahi ḥattā yanfaḍḍū walillahi khazāinu l-samāwāti wal-arḍi walākinna l-munāfiqīna lā yafqahūna",
-    "translation": "",
+    "translation": "They are the ones who say, \"Do not spend on those who are with the Messenger of Allāh until they disband.\" And to Allāh belong the depositories of the heavens and the earth, but the hypocrites do not understand.",
     "words": [
       {
         "id": "al-munafiqun-7-1",
@@ -884,7 +890,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce sont eux qui disent : « Ne dépensez plus (de vos biens) en faveur de ceux qui sont (toujours) auprès du Messager d’Allah. C’est ainsi seulement qu’ils finiront par se disperser (d’autour de lui.) » C’est à Allah qu’appartiennent les trésors des cieux et de la terre, mais les hypocrites, eux, ne (le) comprennent pas."
   },
   {
     "id": "al-munafiqun-8",
@@ -893,7 +900,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "يَقُولُونَ لَئِن رَّجَعْنَآ إِلَى ٱلْمَدِينَةِ لَيُخْرِجَنَّ ٱلْأَعَزُّ مِنْهَا ٱلْأَذَلَّ ۚ وَلِلَّهِ ٱلْعِزَّةُ وَلِرَسُولِهِۦ وَلِلْمُؤْمِنِينَ وَلَـٰكِنَّ ٱلْمُنَـٰفِقِينَ لَا يَعْلَمُونَ",
     "textSimple": "يقولون لئن رجعنآ إلى ٱلمدينة ليخرجن ٱلأعز منها ٱلأذل  ولله ٱلعزة ولرسوله وللمؤمنين ولـكن ٱلمنـفقين لا يعلمون",
     "transliteration": "yaqūlūna la-in rajaʿnā ilā l-madīnati layukh'rijanna l-aʿazu min'hā l-adhala walillahi l-ʿizatu walirasūlihi walil'mu'minīna walākinna l-munāfiqīna lā yaʿlamūna",
-    "translation": "",
+    "translation": "They say, \"If we return to al-Madīnah, the more honored [for power] will surely expel therefrom the more humble.\" And to Allāh belongs [all] honor, and to His Messenger, and to the believers, but the hypocrites do not know.",
     "words": [
       {
         "id": "al-munafiqun-8-1",
@@ -1015,7 +1022,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Si nous revenons à Médine, le plus puissant en chassera le plus humble. » C’est pourtant à Allah qu’appartient la Puissance, à Son Messager et aux croyants. Mais les hypocrites ne (le) savent pas."
   },
   {
     "id": "al-munafiqun-9",
@@ -1024,7 +1032,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَـٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تلهكم أمولكم ولآ أولـدكم عن ذكر ٱلله  ومن يفعل ذلك فأولـٓئك هم ٱلخـسرون",
     "transliteration": "yāayyuhā alladhīna āmanū lā tul'hikum amwālukum walā awlādukum ʿan dhik'ri l-lahi waman yafʿal dhālika fa-ulāika humu l-khāsirūna",
-    "translation": "",
+    "translation": "O you who have believed, let not your wealth and your children divert you from the remembrance of Allāh. And whoever does that - then those are the losers.",
     "words": [
       {
         "id": "al-munafiqun-9-1",
@@ -1146,7 +1154,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Que vos biens et vos enfants ne vous distraient point de l’Invocation d’Allah. Ceux qui le font sont eux les perdants."
   },
   {
     "id": "al-munafiqun-10",
@@ -1155,7 +1164,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنفِقُوا۟ مِن مَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "وأنفقوا من ما رزقنـكم من قبل أن يأتى أحدكم ٱلموت فيقول رب لولآ أخرتنىٓ إلىٓ أجل قريب فأصدق وأكن من ٱلصـلحين",
     "transliteration": "wa-anfiqū min mā razaqnākum min qabli an yatiya aḥadakumu l-mawtu fayaqūla rabbi lawlā akhartanī ilā ajalin qarībin fa-aṣṣaddaqa wa-akun mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And spend [in the way of Allāh] from what We have provided you before death approaches one of you and he says, \"My Lord, if only You would delay me for a brief term so I would give charity and be of the righteous.\"",
     "words": [
       {
         "id": "al-munafiqun-10-1",
@@ -1305,7 +1314,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dépensez des (biens) que Nous vous avons dispensés, avant que la mort ne vienne (surprendre) l’un d’entre vous, qui dira alors: « Seigneur, si Tu m’accordais un sursis pour un délai proche, je ferais alors la charité et je serais du nombre des vertueux ! »"
   },
   {
     "id": "al-munafiqun-11",
@@ -1314,7 +1324,7 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَن يُؤَخِّرَ ٱللَّهُ نَفْسًا إِذَا جَآءَ أَجَلُهَا ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
     "textSimple": "ولن يؤخر ٱلله نفسا إذا جآء أجلها  وٱلله خبير بما تعملون",
     "transliteration": "walan yu-akhira l-lahu nafsan idhā jāa ajaluhā wal-lahu khabīrun bimā taʿmalūna",
-    "translation": "",
+    "translation": "But never will Allāh delay a soul when its time has come. And Allāh is Aware of what you do.",
     "words": [
       {
         "id": "al-munafiqun-11-1",
@@ -1394,7 +1404,8 @@ export const AL_MUNAFIQUN_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Allah ne renvoie jamais à plus tard le terme d’une âme quand il est arrivé. Allah est parfaitement Informé de ce que vous faites."
   }
 ];
 

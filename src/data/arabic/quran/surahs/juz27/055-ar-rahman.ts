@@ -11,7 +11,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": " ٱلرَّحْمَـٰنُ",
     "textSimple": " ٱلرحمـن",
     "transliteration": "al-raḥmānu",
-    "translation": "",
+    "translation": "The Most Merciful",
     "words": [
       {
         "id": "ar-rahman-1-1",
@@ -21,7 +21,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Tout Clément."
   },
   {
     "id": "ar-rahman-2",
@@ -30,7 +31,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "عَلَّمَ ٱلْقُرْءَانَ",
     "textSimple": "علم ٱلقرءان",
     "transliteration": "ʿallama l-qur'āna",
-    "translation": "",
+    "translation": "Taught the Qur’ān,",
     "words": [
       {
         "id": "ar-rahman-2-1",
@@ -47,7 +48,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a enseigné le Coran."
   },
   {
     "id": "ar-rahman-3",
@@ -56,7 +58,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱلْإِنسَـٰنَ",
     "textSimple": "خلق ٱلإنسـن",
     "transliteration": "khalaqa l-insāna",
-    "translation": "",
+    "translation": "Created man,",
     "words": [
       {
         "id": "ar-rahman-3-1",
@@ -73,7 +75,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a créé l’homme,"
   },
   {
     "id": "ar-rahman-4",
@@ -82,7 +85,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "عَلَّمَهُ ٱلْبَيَانَ",
     "textSimple": "علمه ٱلبيان",
     "transliteration": "ʿallamahu l-bayāna",
-    "translation": "",
+    "translation": "[And] taught him eloquence.",
     "words": [
       {
         "id": "ar-rahman-4-1",
@@ -99,7 +102,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Lui a appris à parler clairement."
   },
   {
     "id": "ar-rahman-5",
@@ -108,7 +112,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍ",
     "textSimple": "ٱلشمس وٱلقمر بحسبان",
     "transliteration": "al-shamsu wal-qamaru biḥus'bānin",
-    "translation": "",
+    "translation": "The sun and the moon [move] by precise calculation,",
     "words": [
       {
         "id": "ar-rahman-5-1",
@@ -132,7 +136,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le soleil et la lune (gravitent) selon un calcul (précis)."
   },
   {
     "id": "ar-rahman-6",
@@ -141,7 +146,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
     "textSimple": "وٱلنجم وٱلشجر يسجدان",
     "transliteration": "wal-najmu wal-shajaru yasjudāni",
-    "translation": "",
+    "translation": "And the stars and trees prostrate.",
     "words": [
       {
         "id": "ar-rahman-6-1",
@@ -165,7 +170,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’étoile et les arbres se prosternent."
   },
   {
     "id": "ar-rahman-7",
@@ -174,7 +180,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
     "textSimple": "وٱلسمآء رفعها ووضع ٱلميزان",
     "transliteration": "wal-samāa rafaʿahā wawaḍaʿa l-mīzāna",
-    "translation": "",
+    "translation": "And the heaven He raised and imposed the balance",
     "words": [
       {
         "id": "ar-rahman-7-1",
@@ -205,7 +211,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le ciel, Il l’a élevé, et Il a établi la balance (de l’équité),"
   },
   {
     "id": "ar-rahman-8",
@@ -214,7 +221,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
     "textSimple": "ألا تطغوا فى ٱلميزان",
     "transliteration": "allā taṭghaw fī l-mīzāni",
-    "translation": "",
+    "translation": "That you not transgress within the balance.",
     "words": [
       {
         "id": "ar-rahman-8-1",
@@ -245,7 +252,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin que vous n’abusiez pas dans la pesée."
   },
   {
     "id": "ar-rahman-9",
@@ -254,7 +262,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
     "textSimple": "وأقيموا ٱلوزن بٱلقسط ولا تخسروا ٱلميزان",
     "transliteration": "wa-aqīmū l-wazna bil-qis'ṭi walā tukh'sirū l-mīzāna",
-    "translation": "",
+    "translation": "And establish weight in justice and do not make deficient the balance.",
     "words": [
       {
         "id": "ar-rahman-9-1",
@@ -299,7 +307,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pesez donc avec équité, ne trichez pas dans la pesée."
   },
   {
     "id": "ar-rahman-10",
@@ -308,7 +317,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
     "textSimple": "وٱلأرض وضعها للأنام",
     "transliteration": "wal-arḍa waḍaʿahā lil'anāmi",
-    "translation": "",
+    "translation": "And the earth He laid [out] for the creatures.",
     "words": [
       {
         "id": "ar-rahman-10-1",
@@ -332,7 +341,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La terre, Il l’a aménagée pour les humains."
   },
   {
     "id": "ar-rahman-11",
@@ -341,7 +351,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهَا فَـٰكِهَةٌ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ",
     "textSimple": "فيها فـكهة وٱلنخل ذات ٱلأكمام",
     "transliteration": "fīhā fākihatun wal-nakhlu dhātu l-akmāmi",
-    "translation": "",
+    "translation": "Therein is fruit and palm trees having sheaths [of dates]",
     "words": [
       {
         "id": "ar-rahman-11-1",
@@ -379,7 +389,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’y trouvent des fruits, ainsi que les palmiers chargés de leurs régimes."
   },
   {
     "id": "ar-rahman-12",
@@ -388,7 +399,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
     "textSimple": "وٱلحب ذو ٱلعصف وٱلريحان",
     "transliteration": "wal-ḥabu dhū l-ʿaṣfi wal-rayḥānu",
-    "translation": "",
+    "translation": "And grain having husks and scented plants.",
     "words": [
       {
         "id": "ar-rahman-12-1",
@@ -419,7 +430,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et les graines (de céréales) dans leurs enveloppes, ainsi que les plantes odoriférantes."
   },
   {
     "id": "ar-rahman-13",
@@ -428,7 +440,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-13-1",
@@ -459,7 +471,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-14",
@@ -468,7 +481,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "خَلَقَ ٱلْإِنسَـٰنَ مِن صَلْصَـٰلٍ كَٱلْفَخَّارِ",
     "textSimple": "خلق ٱلإنسـن من صلصـل كٱلفخار",
     "transliteration": "khalaqa l-insāna min ṣalṣālin kal-fakhāri",
-    "translation": "",
+    "translation": "He created man from clay like [that of] pottery.",
     "words": [
       {
         "id": "ar-rahman-14-1",
@@ -506,7 +519,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il créa l’homme d’une argile semblable à celle de la poterie."
   },
   {
     "id": "ar-rahman-15",
@@ -515,7 +529,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ",
     "textSimple": "وخلق ٱلجآن من مارج من نار",
     "transliteration": "wakhalaqa l-jāna min mārijin min nārin",
-    "translation": "",
+    "translation": "And He created the jinn from a smokeless flame of fire.",
     "words": [
       {
         "id": "ar-rahman-15-1",
@@ -560,7 +574,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Il créa les djinns d’un feu pur et sans fumée."
   },
   {
     "id": "ar-rahman-16",
@@ -569,7 +584,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-16-1",
@@ -600,7 +615,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-17",
@@ -609,7 +625,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
     "textSimple": "رب ٱلمشرقين ورب ٱلمغربين",
     "transliteration": "rabbu l-mashriqayni warabbu l-maghribayni",
-    "translation": "",
+    "translation": "[He is] Lord of the two sunrises and Lord of the two sunsets.",
     "words": [
       {
         "id": "ar-rahman-17-1",
@@ -640,7 +656,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Seigneur des deux Orients, (Il est aussi) le Seigneur des deux Occidents."
   },
   {
     "id": "ar-rahman-18",
@@ -649,7 +666,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-18-1",
@@ -680,7 +697,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-19",
@@ -689,7 +707,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
     "textSimple": "مرج ٱلبحرين يلتقيان",
     "transliteration": "maraja l-baḥrayni yaltaqiyāni",
-    "translation": "",
+    "translation": "He released the two seas, meeting [one another];",
     "words": [
       {
         "id": "ar-rahman-19-1",
@@ -713,7 +731,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a laissé courir les deux mers qui se rencontrent."
   },
   {
     "id": "ar-rahman-20",
@@ -722,7 +741,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
     "textSimple": "بينهما برزخ لا يبغيان",
     "transliteration": "baynahumā barzakhun lā yabghiyāni",
-    "translation": "",
+    "translation": "Between them is a barrier so neither of them transgresses.",
     "words": [
       {
         "id": "ar-rahman-20-1",
@@ -753,7 +772,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entre les deux (se dresse) une barrière pour qu’elles n’empiètent pas l’une sur l’autre."
   },
   {
     "id": "ar-rahman-21",
@@ -762,7 +782,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-21-1",
@@ -793,7 +813,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-22",
@@ -802,7 +823,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
     "textSimple": "يخرج منهما ٱللؤلؤ وٱلمرجان",
     "transliteration": "yakhruju min'humā l-lu'lu-u wal-marjānu",
-    "translation": "",
+    "translation": "From both of them emerge pearl and coral.",
     "words": [
       {
         "id": "ar-rahman-22-1",
@@ -833,7 +854,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "De toutes deux sortent les perles et le corail."
   },
   {
     "id": "ar-rahman-23",
@@ -842,7 +864,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-23-1",
@@ -873,7 +895,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-24",
@@ -882,7 +905,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ",
     "textSimple": "وله ٱلجوار ٱلمنشـٔات فى ٱلبحر كٱلأعلـم",
     "transliteration": "walahu l-jawāri l-munshaātu fī l-baḥri kal-aʿlāmi",
-    "translation": "",
+    "translation": "And to Him belong the ships [with sails] elevated in the sea like mountains.",
     "words": [
       {
         "id": "ar-rahman-24-1",
@@ -927,7 +950,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartiennent les navires qui voguent en haute mer (et se dressent fièrement) comme des montagnes."
   },
   {
     "id": "ar-rahman-25",
@@ -936,7 +960,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-25-1",
@@ -967,7 +991,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-26",
@@ -976,7 +1001,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
     "textSimple": "كل من عليها فان",
     "transliteration": "kullu man ʿalayhā fānin",
-    "translation": "",
+    "translation": "Everyone upon it [i.e., the earth] will perish,",
     "words": [
       {
         "id": "ar-rahman-26-1",
@@ -1007,7 +1032,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui est sur elle est appelé à périr,"
   },
   {
     "id": "ar-rahman-27",
@@ -1016,7 +1042,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
     "textSimple": "ويبقى وجه ربك ذو ٱلجلـل وٱلإكرام",
     "transliteration": "wayabqā wajhu rabbika dhū l-jalāli wal-ik'rāmi",
-    "translation": "",
+    "translation": "And there will remain the Face of your Lord, Owner of Majesty and Honor.",
     "words": [
       {
         "id": "ar-rahman-27-1",
@@ -1061,7 +1087,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et seul restera le Visage (Wajh) de ton Seigneur, à la Majesté Suprême et à l’Infinie Noblesse."
   },
   {
     "id": "ar-rahman-28",
@@ -1070,7 +1097,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-28-1",
@@ -1101,7 +1128,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-29",
@@ -1110,7 +1138,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ",
     "textSimple": "يسـٔله من فى ٱلسمـوت وٱلأرض  كل يوم هو فى شأن",
     "transliteration": "yasaluhu man fī l-samāwāti wal-arḍi kulla yawmin huwa fī shanin",
-    "translation": "",
+    "translation": "Whoever is within the heavens and earth asks Him; every day He is in [i.e., bringing about] a matter.",
     "words": [
       {
         "id": "ar-rahman-29-1",
@@ -1183,7 +1211,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont dans les cieux et sur terre L’implorent (sans cesse), Lui Qui, chaque jour, S’occupe d’une œuvre (nouvelle)."
   },
   {
     "id": "ar-rahman-30",
@@ -1192,7 +1221,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-30-1",
@@ -1223,7 +1252,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-31",
@@ -1232,7 +1262,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
     "textSimple": "سنفرغ لكم أيه ٱلثقلان",
     "transliteration": "sanafrughu lakum ayyuha l-thaqalāni",
-    "translation": "",
+    "translation": "We will attend to you, O prominent beings.",
     "words": [
       {
         "id": "ar-rahman-31-1",
@@ -1263,7 +1293,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous allons bientôt Nous occuper de votre jugement, ô vous, hommes et djinns."
   },
   {
     "id": "ar-rahman-32",
@@ -1272,7 +1303,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-32-1",
@@ -1303,7 +1334,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-33",
@@ -1312,7 +1344,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَـٰنٍ",
     "textSimple": "يـمعشر ٱلجن وٱلإنس إن ٱستطعتم أن تنفذوا من أقطار ٱلسمـوت وٱلأرض فٱنفذوا  لا تنفذون إلا بسلطـن",
     "transliteration": "yāmaʿshara l-jini wal-insi ini is'taṭaʿtum an tanfudhū min aqṭāri l-samāwāti wal-arḍi fa-unfudhū lā tanfudhūna illā bisul'ṭānin",
-    "translation": "",
+    "translation": "O company of jinn and mankind, if you are able to pass beyond the regions of the heavens and the earth, then pass. You will not pass except by authority [from Allāh].",
     "words": [
       {
         "id": "ar-rahman-33-1",
@@ -1427,7 +1459,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous autres, djinns et humains ! Si vous pouvez vous échapper des domaines des cieux et de la terre, faites-le. Mais vous ne pourrez le faire que forts d’une autorité."
   },
   {
     "id": "ar-rahman-34",
@@ -1436,7 +1469,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-34-1",
@@ -1467,7 +1500,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-35",
@@ -1476,7 +1510,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ",
     "textSimple": "يرسل عليكما شواظ من نار ونحاس فلا تنتصران",
     "transliteration": "yur'salu ʿalaykumā shuwāẓun min nārin wanuḥāsun falā tantaṣirāni",
-    "translation": "",
+    "translation": "There will be sent upon you a flame of fire and smoke, and you will not defend yourselves.",
     "words": [
       {
         "id": "ar-rahman-35-1",
@@ -1535,7 +1569,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Flammes, fumée et cuivre fondu seront projetés sur vous et vous n’aurez aucun secours."
   },
   {
     "id": "ar-rahman-36",
@@ -1544,7 +1579,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-36-1",
@@ -1575,7 +1610,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-37",
@@ -1584,7 +1620,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
     "textSimple": "فإذا ٱنشقت ٱلسمآء فكانت وردة كٱلدهان",
     "transliteration": "fa-idhā inshaqqati l-samāu fakānat wardatan kal-dihāni",
-    "translation": "",
+    "translation": "And when the heaven is split open and becomes rose-colored like oil -",
     "words": [
       {
         "id": "ar-rahman-37-1",
@@ -1629,7 +1665,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque le ciel se sera fendu, et qu’il sera devenu comme une rose de couleur pourpre, (ou comme la coulée de plomb fondu)."
   },
   {
     "id": "ar-rahman-38",
@@ -1638,7 +1675,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-38-1",
@@ -1669,7 +1706,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-39",
@@ -1678,7 +1716,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَيَوْمَئِذٍ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌ وَلَا جَآنٌّ",
     "textSimple": "فيومئذ لا يسـٔل عن ذنبهٓ إنس ولا جآن",
     "transliteration": "fayawma-idhin lā yus'alu ʿan dhanbihi insun walā jānnun",
-    "translation": "",
+    "translation": "Then on that Day none will be asked about his sin among men or jinn.",
     "words": [
       {
         "id": "ar-rahman-39-1",
@@ -1737,7 +1775,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, ni hommes ni djinns ne seront interrogés sur leurs péchés ?"
   },
   {
     "id": "ar-rahman-40",
@@ -1746,7 +1785,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-40-1",
@@ -1777,7 +1816,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir."
   },
   {
     "id": "ar-rahman-41",
@@ -1786,7 +1826,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَـٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
     "textSimple": "يعرف ٱلمجرمون بسيمـهم فيؤخذ بٱلنوصى وٱلأقدام",
     "transliteration": "yuʿ'rafu l-muj'rimūna bisīmāhum fayu'khadhu bil-nawāṣī wal-aqdāmi",
-    "translation": "",
+    "translation": "The criminals will be known by their marks, and they will be seized by the forelocks and the feet.",
     "words": [
       {
         "id": "ar-rahman-41-1",
@@ -1831,7 +1871,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les criminels seront reconnaissables à leurs traits particuliers. Ils seront saisis par les toupets et par les pieds."
   },
   {
     "id": "ar-rahman-42",
@@ -1840,7 +1881,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-42-1",
@@ -1871,7 +1912,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-43",
@@ -1880,7 +1922,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ",
     "textSimple": "هـذه جهنم ٱلتى يكذب بها ٱلمجرمون",
     "transliteration": "hādhihi jahannamu allatī yukadhibu bihā l-muj'rimūna",
-    "translation": "",
+    "translation": "This is Hell, which the criminals deny.",
     "words": [
       {
         "id": "ar-rahman-43-1",
@@ -1925,7 +1967,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Voici la Géhenne que ces scélérats tenaient pour mensonge !"
   },
   {
     "id": "ar-rahman-44",
@@ -1934,7 +1977,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍ",
     "textSimple": "يطوفون بينها وبين حميم ءان",
     "transliteration": "yaṭūfūna baynahā wabayna ḥamīmin ānin",
-    "translation": "",
+    "translation": "They will circulate between it and scalding water, heated [to the utmost degree].",
     "words": [
       {
         "id": "ar-rahman-44-1",
@@ -1972,7 +2015,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils circuleront entre elle et une eau bouillante."
   },
   {
     "id": "ar-rahman-45",
@@ -1981,7 +2025,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-45-1",
@@ -2012,7 +2056,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-46",
@@ -2021,7 +2066,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
     "textSimple": "ولمن خاف مقام ربه جنتان",
     "transliteration": "waliman khāfa maqāma rabbihi jannatāni",
-    "translation": "",
+    "translation": "But for he who has feared the position of his Lord are two gardens -",
     "words": [
       {
         "id": "ar-rahman-46-1",
@@ -2059,7 +2104,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À celui qui aura redouté la rencontre de son Seigneur seront (destinés) deux jardins."
   },
   {
     "id": "ar-rahman-47",
@@ -2068,7 +2114,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-47-1",
@@ -2099,7 +2145,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-48",
@@ -2108,7 +2155,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "ذَوَاتَآ أَفْنَانٍ",
     "textSimple": "ذواتآ أفنان",
     "transliteration": "dhawātā afnānin",
-    "translation": "",
+    "translation": "Having [spreading] branches.",
     "words": [
       {
         "id": "ar-rahman-48-1",
@@ -2125,7 +2172,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Deux jardins) aux branches magnifiquement garnies de fruits."
   },
   {
     "id": "ar-rahman-49",
@@ -2134,7 +2182,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-49-1",
@@ -2165,7 +2213,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-50",
@@ -2174,7 +2223,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
     "textSimple": "فيهما عينان تجريان",
     "transliteration": "fīhimā ʿaynāni tajriyāni",
-    "translation": "",
+    "translation": "In both of them are two springs, flowing.",
     "words": [
       {
         "id": "ar-rahman-50-1",
@@ -2198,7 +2247,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’y trouvent deux ruisseaux qui courent."
   },
   {
     "id": "ar-rahman-51",
@@ -2207,7 +2257,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-51-1",
@@ -2238,7 +2288,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-52",
@@ -2247,7 +2298,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِمَا مِن كُلِّ فَـٰكِهَةٍ زَوْجَانِ",
     "textSimple": "فيهما من كل فـكهة زوجان",
     "transliteration": "fīhimā min kulli fākihatin zawjāni",
-    "translation": "",
+    "translation": "In both of them are of every fruit, two kinds.",
     "words": [
       {
         "id": "ar-rahman-52-1",
@@ -2285,7 +2336,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et de toutes sortes de fruits, il y aura deux espèces."
   },
   {
     "id": "ar-rahman-53",
@@ -2294,7 +2346,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-53-1",
@@ -2325,7 +2377,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-54",
@@ -2334,7 +2387,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ",
     "textSimple": "متكـٔين على فرش بطآئنها من إستبرق  وجنى ٱلجنتين دان",
     "transliteration": "muttakiīna ʿalā furushin baṭāinuhā min is'tabraqin wajanā l-janatayni dānin",
-    "translation": "",
+    "translation": "[They are] reclining on beds whose linings are of silk brocade, and the fruit of the two gardens is hanging low.",
     "words": [
       {
         "id": "ar-rahman-54-1",
@@ -2400,7 +2453,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront là, accoudés sur des tapis au revers de brocart, et les fruits des deux jardins seront à portée de main."
   },
   {
     "id": "ar-rahman-55",
@@ -2409,7 +2463,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-55-1",
@@ -2440,7 +2494,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-56",
@@ -2449,7 +2504,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِنَّ قَـٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
     "textSimple": "فيهن قـصرت ٱلطرف لم يطمثهن إنس قبلهم ولا جآن",
     "transliteration": "fīhinna qāṣirātu l-ṭarfi lam yaṭmith'hunna insun qablahum walā jānnun",
-    "translation": "",
+    "translation": "In them are women limiting [their] glances, untouched before them by man or jinnī -",
     "words": [
       {
         "id": "ar-rahman-56-1",
@@ -2515,7 +2570,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il y aura des jeunes filles au regard chaste, que ni homme ni djinn n’auront souillées."
   },
   {
     "id": "ar-rahman-57",
@@ -2524,7 +2580,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-57-1",
@@ -2555,7 +2611,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-58",
@@ -2564,7 +2621,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
     "textSimple": "كأنهن ٱلياقوت وٱلمرجان",
     "transliteration": "ka-annahunna l-yāqūtu wal-marjānu",
-    "translation": "",
+    "translation": "As if they were rubies and coral.",
     "words": [
       {
         "id": "ar-rahman-58-1",
@@ -2588,7 +2645,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elles seront pareilles au rubis et au corail."
   },
   {
     "id": "ar-rahman-59",
@@ -2597,7 +2655,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-59-1",
@@ -2628,7 +2686,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-60",
@@ -2637,7 +2696,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ جَزَآءُ ٱلْإِحْسَـٰنِ إِلَّا ٱلْإِحْسَـٰنُ",
     "textSimple": "هل جزآء ٱلإحسـن إلا ٱلإحسـن",
     "transliteration": "hal jazāu l-iḥ'sāni illā l-iḥ'sānu",
-    "translation": "",
+    "translation": "Is the reward for good [anything] but good?",
     "words": [
       {
         "id": "ar-rahman-60-1",
@@ -2675,7 +2734,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il autre récompense pour la bienfaisance, que la bienfaisance ?"
   },
   {
     "id": "ar-rahman-61",
@@ -2684,7 +2744,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-61-1",
@@ -2715,7 +2775,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-62",
@@ -2724,7 +2785,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "وَمِن دُونِهِمَا جَنَّتَانِ",
     "textSimple": "ومن دونهما جنتان",
     "transliteration": "wamin dūnihimā jannatāni",
-    "translation": "",
+    "translation": "And below them both [in excellence] are two [other] gardens -",
     "words": [
       {
         "id": "ar-rahman-62-1",
@@ -2748,7 +2809,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "En contrebas de ces deux jardins, il y en aura deux autres encore."
   },
   {
     "id": "ar-rahman-63",
@@ -2757,7 +2819,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-63-1",
@@ -2788,7 +2850,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-64",
@@ -2797,7 +2860,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "مُدْهَآمَّتَانِ",
     "textSimple": "مدهآمتان",
     "transliteration": "mud'hāmmatāni",
-    "translation": "",
+    "translation": "Dark green [in color].",
     "words": [
       {
         "id": "ar-rahman-64-1",
@@ -2807,7 +2870,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Deux jardins) d’un vert des plus sombres."
   },
   {
     "id": "ar-rahman-65",
@@ -2816,7 +2880,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-65-1",
@@ -2847,7 +2911,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-66",
@@ -2856,7 +2921,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
     "textSimple": "فيهما عينان نضاختان",
     "transliteration": "fīhimā ʿaynāni naḍḍākhatāni",
-    "translation": "",
+    "translation": "In both of them are two springs, spouting.",
     "words": [
       {
         "id": "ar-rahman-66-1",
@@ -2880,7 +2945,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Où il y aura deux sources dont l’eau jaillit en abondance."
   },
   {
     "id": "ar-rahman-67",
@@ -2889,7 +2955,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-67-1",
@@ -2920,7 +2986,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-68",
@@ -2929,7 +2996,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِمَا فَـٰكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
     "textSimple": "فيهما فـكهة ونخل ورمان",
     "transliteration": "fīhimā fākihatun wanakhlun warummānun",
-    "translation": "",
+    "translation": "In both of them are fruit and palm trees and pomegranates.",
     "words": [
       {
         "id": "ar-rahman-68-1",
@@ -2960,7 +3027,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’y trouveront des fruits, des palmiers et des grenadiers."
   },
   {
     "id": "ar-rahman-69",
@@ -2969,7 +3037,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-69-1",
@@ -3000,7 +3068,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-70",
@@ -3009,7 +3078,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌ",
     "textSimple": "فيهن خيرت حسان",
     "transliteration": "fīhinna khayrātun ḥisānun",
-    "translation": "",
+    "translation": "In them are good and beautiful women -",
     "words": [
       {
         "id": "ar-rahman-70-1",
@@ -3033,7 +3102,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il y aura des (femmes) vertueuses et belles."
   },
   {
     "id": "ar-rahman-71",
@@ -3042,7 +3112,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-71-1",
@@ -3073,7 +3143,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-72",
@@ -3082,7 +3153,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ",
     "textSimple": "حور مقصورت فى ٱلخيام",
     "transliteration": "ḥūrun maqṣūrātun fī l-khiyāmi",
-    "translation": "",
+    "translation": "Fair ones reserved in pavilions -",
     "words": [
       {
         "id": "ar-rahman-72-1",
@@ -3113,7 +3184,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des houris retirées sous les tentes."
   },
   {
     "id": "ar-rahman-73",
@@ -3122,7 +3194,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-73-1",
@@ -3153,7 +3225,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-74",
@@ -3162,7 +3235,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
     "textSimple": "لم يطمثهن إنس قبلهم ولا جآن",
     "transliteration": "lam yaṭmith'hunna insun qablahum walā jānnun",
-    "translation": "",
+    "translation": "Untouched before them by man or jinnī -",
     "words": [
       {
         "id": "ar-rahman-74-1",
@@ -3207,7 +3280,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’aucun homme, avant eux, ni aucun djinn, n’aura souillées."
   },
   {
     "id": "ar-rahman-75",
@@ -3216,7 +3290,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny? -",
     "words": [
       {
         "id": "ar-rahman-75-1",
@@ -3247,7 +3321,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-76",
@@ -3256,7 +3331,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِىٍّ حِسَانٍ",
     "textSimple": "متكـٔين على رفرف خضر وعبقرى حسان",
     "transliteration": "muttakiīna ʿalā rafrafin khuḍ'rin waʿabqariyyin ḥisānin",
-    "translation": "",
+    "translation": "Reclining on green cushions and beautiful fine carpets.",
     "words": [
       {
         "id": "ar-rahman-76-1",
@@ -3301,7 +3376,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils seront accoudés sur des coussins verts, (étendus) sur d’épais tapis de toute beauté."
   },
   {
     "id": "ar-rahman-77",
@@ -3310,7 +3386,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
     "textSimple": "فبأى ءالآء ربكما تكذبان",
     "transliteration": "fabi-ayyi ālāi rabbikumā tukadhibāni",
-    "translation": "",
+    "translation": "So which of the favors of your Lord would you deny?",
     "words": [
       {
         "id": "ar-rahman-77-1",
@@ -3341,7 +3417,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quels bienfaits de votre Seigneur, oseriez-vous donc, vous deux, démentir ?"
   },
   {
     "id": "ar-rahman-78",
@@ -3350,7 +3427,7 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
     "textUthmani": "تَبَـٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَـٰلِ وَٱلْإِكْرَامِ",
     "textSimple": "تبـرك ٱسم ربك ذى ٱلجلـل وٱلإكرام",
     "transliteration": "tabāraka us'mu rabbika dhī l-jalāli wal-ik'rāmi",
-    "translation": "",
+    "translation": "Blessed is the name of your Lord, Owner of Majesty and Honor.",
     "words": [
       {
         "id": "ar-rahman-78-1",
@@ -3395,7 +3472,8 @@ export const AR_RAHMAN_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Béni soit le Nom de ton Seigneur, à la Majesté Suprême, à l’Infinie Noblesse."
   }
 ];
 

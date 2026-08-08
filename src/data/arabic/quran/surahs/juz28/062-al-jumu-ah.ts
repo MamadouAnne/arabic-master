@@ -11,7 +11,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": " يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ٱلْمَلِكِ ٱلْقُدُّوسِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
     "textSimple": " يسبح لله ما فى ٱلسمـوت وما فى ٱلأرض ٱلملك ٱلقدوس ٱلعزيز ٱلحكيم",
     "transliteration": "yusabbiḥu lillahi mā fī l-samāwāti wamā fī l-arḍi l-maliki l-qudūsi l-ʿazīzi l-ḥakīmi",
-    "translation": "",
+    "translation": "Whatever is in the heavens and whatever is on the earth is exalting Allāh, the Sovereign, the Pure, the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-jumu-ah-1-1",
@@ -98,7 +98,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tout ce qui est dans les cieux et ce qui est sur terre rend gloire à Allah, le Souverain, le Très Pur, le Puissant, le Sage."
   },
   {
     "id": "al-jumu-ah-2",
@@ -107,7 +108,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى بَعَثَ فِى ٱلْأُمِّيِّـۧنَ رَسُولًا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِهِۦ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَإِن كَانُوا۟ مِن قَبْلُ لَفِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "هو ٱلذى بعث فى ٱلأميـن رسولا منهم يتلوا عليهم ءايـته ويزكيهم ويعلمهم ٱلكتـب وٱلحكمة وإن كانوا من قبل لفى ضلـل مبين",
     "transliteration": "huwa alladhī baʿatha fī l-umiyīna rasūlan min'hum yatlū ʿalayhim āyātihi wayuzakkīhim wayuʿallimuhumu l-kitāba wal-ḥik'mata wa-in kānū min qablu lafī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "It is He who has sent among the unlettered [Arabs] a Messenger from themselves reciting to them His verses and purifying them and teaching them the Book [i.e., the Qur’ān] and wisdom [i.e., the sunnah] - although they were before in clear error -",
     "words": [
       {
         "id": "al-jumu-ah-2-1",
@@ -257,7 +258,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui envoya parmi les illettrés un Messager issu de leur peuple, qui leur récite Ses versets, les purifie et les initie au Livre et à la sagesse, même si, autrefois, ils étaient dans un égarement manifeste."
   },
   {
     "id": "al-jumu-ah-3",
@@ -266,7 +268,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا۟ بِهِمْ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "وءاخرين منهم لما يلحقوا بهم  وهو ٱلعزيز ٱلحكيم",
     "transliteration": "waākharīna min'hum lammā yalḥaqū bihim wahuwa l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "And [to] others of them who have not yet joined them. And He is the Exalted in Might, the Wise.",
     "words": [
       {
         "id": "al-jumu-ah-3-1",
@@ -325,7 +327,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Il l’envoya aussi) à d’autres qui ne les ont pas encore rejoints. C’est Lui le Tout-Puissant, le Sage."
   },
   {
     "id": "al-jumu-ah-4",
@@ -334,7 +337,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
     "textSimple": "ذلك فضل ٱلله يؤتيه من يشآء  وٱلله ذو ٱلفضل ٱلعظيم",
     "transliteration": "dhālika faḍlu l-lahi yu'tīhi man yashāu wal-lahu dhū l-faḍli l-ʿaẓīmi",
-    "translation": "",
+    "translation": "That is the bounty of Allāh, which He gives to whom He wills, and Allāh is the possessor of great bounty.",
     "words": [
       {
         "id": "al-jumu-ah-4-1",
@@ -407,7 +410,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la faveur d’Allah, qu’Il accorde à qui Il veut. Allah est le Détenteur de la Faveur Suprême."
   },
   {
     "id": "al-jumu-ah-5",
@@ -416,7 +420,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "مَثَلُ ٱلَّذِينَ حُمِّلُوا۟ ٱلتَّوْرَىٰةَ ثُمَّ لَمْ يَحْمِلُوهَا كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًۢا ۚ بِئْسَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِ ٱللَّهِ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
     "textSimple": "مثل ٱلذين حملوا ٱلتورىة ثم لم يحملوها كمثل ٱلحمار يحمل أسفارا  بئس مثل ٱلقوم ٱلذين كذبوا بـٔايـت ٱلله  وٱلله لا يهدى ٱلقوم ٱلظـلمين",
     "transliteration": "mathalu alladhīna ḥummilū l-tawrāta thumma lam yaḥmilūhā kamathali l-ḥimāri yaḥmilu asfāran bi'sa mathalu l-qawmi alladhīna kadhabū biāyāti l-lahi wal-lahu lā yahdī l-qawma l-ẓālimīna",
-    "translation": "",
+    "translation": "The example of those who were entrusted with the Torah and then did not take it on is like that of a donkey who carries volumes [of books]. Wretched is the example of the people who deny the signs of Allāh. And Allāh does not guide the wrongdoing people.",
     "words": [
       {
         "id": "al-jumu-ah-5-1",
@@ -580,7 +584,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui eurent à assumer (le Message de) la Torah et qui ne l’assumèrent point sont à l’image d’un âne (lourdement) chargé de livres. Piètre exemple que celui des gens qui tiennent pour mensonges les Signes d’Allah. Allah ne guide pas les gens injustes."
   },
   {
     "id": "al-jumu-ah-6",
@@ -589,7 +594,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ يَـٰٓأَيُّهَا ٱلَّذِينَ هَادُوٓا۟ إِن زَعَمْتُمْ أَنَّكُمْ أَوْلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "قل يـٓأيها ٱلذين هادوٓا إن زعمتم أنكم أوليآء لله من دون ٱلناس فتمنوا ٱلموت إن كنتم صـدقين",
     "transliteration": "qul yāayyuhā alladhīna hādū in zaʿamtum annakum awliyāu lillahi min dūni l-nāsi fatamannawū l-mawta in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Say, \"O you who are Jews, if you claim that you are allies of Allāh, excluding the [other] people, then wish for death, if you should be truthful.\"",
     "words": [
       {
         "id": "al-jumu-ah-6-1",
@@ -711,7 +716,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Ô vous qui professez le judaïsme ! Si vous prétendez être les aimés d’Allah, en dehors de tous les hommes, alors souhaitez la mort si ce que vous dites est vrai. »"
   },
   {
     "id": "al-jumu-ah-7",
@@ -720,7 +726,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَتَمَنَّوْنَهُۥٓ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۚ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّـٰلِمِينَ",
     "textSimple": "ولا يتمنونهٓ أبدا بما قدمت أيديهم  وٱلله عليم بٱلظـلمين",
     "transliteration": "walā yatamannawnahu abadan bimā qaddamat aydīhim wal-lahu ʿalīmun bil-ẓālimīna",
-    "translation": "",
+    "translation": "But they will not wish for it, ever, because of what their hands have put forth. And Allāh is Knowing of the wrongdoers.",
     "words": [
       {
         "id": "al-jumu-ah-7-1",
@@ -786,7 +792,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils ne la souhaiteront jamais, en raison de tout ce qu’ils ont commis de leurs propres mains. Allah en Sait Infiniment sur les injustes."
   },
   {
     "id": "al-jumu-ah-8",
@@ -795,7 +802,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّ ٱلْمَوْتَ ٱلَّذِى تَفِرُّونَ مِنْهُ فَإِنَّهُۥ مُلَـٰقِيكُمْ ۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "قل إن ٱلموت ٱلذى تفرون منه فإنه ملـقيكم  ثم تردون إلى عـلم ٱلغيب وٱلشهـدة فينبئكم بما كنتم تعملون",
     "transliteration": "qul inna l-mawta alladhī tafirrūna min'hu fa-innahu mulāqīkum thumma turaddūna ilā ʿālimi l-ghaybi wal-shahādati fayunabbi-ukum bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "Say, \"Indeed, the death from which you flee - indeed, it will meet you. Then you will be returned to the Knower of the unseen and the witnessed, and He will inform you about what you used to do.\"",
     "words": [
       {
         "id": "al-jumu-ah-8-1",
@@ -924,7 +931,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « La mort que vous fuyez vous trouvera, puis vous serez ramenés vers Celui Qui Connaît aussi bien les choses insondables que les choses observables. Alors, Il vous informera de ce que vous faisiez."
   },
   {
     "id": "al-jumu-ah-9",
@@ -933,7 +941,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا نودى للصلوة من يوم ٱلجمعة فٱسعوا إلى ذكر ٱلله وذروا ٱلبيع  ذلكم خير لكم إن كنتم تعلمون",
     "transliteration": "yāayyuhā alladhīna āmanū idhā nūdiya lilṣṣalati min yawmi l-jumuʿati fa-is'ʿaw ilā dhik'ri l-lahi wadharū l-bayʿa dhālikum khayrun lakum in kuntum taʿlamūna",
-    "translation": "",
+    "translation": "O you who have believed, when [the adhān] is called for the prayer on the day of Jumuʿah [Friday], then proceed to the remembrance of Allāh and leave trade. That is better for you, if you only knew.",
     "words": [
       {
         "id": "al-jumu-ah-9-1",
@@ -1083,7 +1091,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Lorsqu’il est appelé à la Çalât du vendredi, hâtez-vous pour évoquer Allah ! Laissez là tout commerce ! Cela est bien meilleur pour vous, si vous saviez !"
   },
   {
     "id": "al-jumu-ah-10",
@@ -1092,7 +1101,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ",
     "textSimple": "فإذا قضيت ٱلصلوة فٱنتشروا فى ٱلأرض وٱبتغوا من فضل ٱلله وٱذكروا ٱلله كثيرا لعلكم تفلحون",
     "transliteration": "fa-idhā quḍiyati l-ṣalatu fa-intashirū fī l-arḍi wa-ib'taghū min faḍli l-lahi wa-udh'kurū l-laha kathīran laʿallakum tuf'liḥūna",
-    "translation": "",
+    "translation": "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allāh, and remember Allāh often that you may succeed.",
     "words": [
       {
         "id": "al-jumu-ah-10-1",
@@ -1200,7 +1209,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis la Çalât finie, dispersez-vous partout ailleurs ! Espérez les faveurs d’Allah ! Évoquez abondamment (le nom d’)Allah, peut-être réussirez-vous !"
   },
   {
     "id": "al-jumu-ah-11",
@@ -1209,7 +1219,7 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَأَوْا۟ تِجَـٰرَةً أَوْ لَهْوًا ٱنفَضُّوٓا۟ إِلَيْهَا وَتَرَكُوكَ قَآئِمًا ۚ قُلْ مَا عِندَ ٱللَّهِ خَيْرٌ مِّنَ ٱللَّهْوِ وَمِنَ ٱلتِّجَـٰرَةِ ۚ وَٱللَّهُ خَيْرُ ٱلرَّٰزِقِينَ",
     "textSimple": "وإذا رأوا تجـرة أو لهوا ٱنفضوٓا إليها وتركوك قآئما  قل ما عند ٱلله خير من ٱللهو ومن ٱلتجـرة  وٱلله خير ٱلرزقين",
     "transliteration": "wa-idhā ra-aw tijāratan aw lahwan infaḍḍū ilayhā watarakūka qāiman qul mā ʿinda l-lahi khayrun mina l-lahwi wamina l-tijārati wal-lahu khayru l-rāziqīna",
-    "translation": "",
+    "translation": "But [on one occasion] when they saw a transaction or a diversion, [O Muḥammad], they rushed to it and left you standing. Say, \"What is with Allāh is better than diversion and than a transaction, and Allāh is the best of providers.\"",
     "words": [
       {
         "id": "al-jumu-ah-11-1",
@@ -1359,7 +1369,8 @@ export const AL_JUMU_AH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dès qu’ils entraperçoivent quelque commerce ou quelque divertissement, ils se dispersent d’autour de toi et te laissent là, debout. Dis : « Ce qui se trouve auprès d’Allah est bien meilleur que le divertissement et le commerce. Allah est, certes, le Meilleur des dispensateurs. »"
   }
 ];
 

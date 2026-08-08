@@ -11,7 +11,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": " حمٓ",
     "textSimple": " حمٓ",
     "transliteration": "hha-meem",
-    "translation": "",
+    "translation": "Ḥā, Meem.",
     "words": [
       {
         "id": "az-zukhruf-1-1",
@@ -21,7 +21,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Hâ, Mîm."
   },
   {
     "id": "az-zukhruf-2",
@@ -30,7 +31,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْكِتَـٰبِ ٱلْمُبِينِ",
     "textSimple": "وٱلكتـب ٱلمبين",
     "transliteration": "wal-kitābi l-mubīni",
-    "translation": "",
+    "translation": "By the clear Book,",
     "words": [
       {
         "id": "az-zukhruf-2-1",
@@ -47,7 +48,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le Livre explicite !"
   },
   {
     "id": "az-zukhruf-3",
@@ -56,7 +58,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا جَعَلْنَـٰهُ قُرْءَٰنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ",
     "textSimple": "إنا جعلنـه قرءنا عربيا لعلكم تعقلون",
     "transliteration": "innā jaʿalnāhu qur'ānan ʿarabiyyan laʿallakum taʿqilūna",
-    "translation": "",
+    "translation": "Indeed, We have made it an Arabic Qur’ān that you might understand.",
     "words": [
       {
         "id": "az-zukhruf-3-1",
@@ -101,7 +103,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous en avons fait un Coran en arabe, afin que vous (le) compreniez."
   },
   {
     "id": "az-zukhruf-4",
@@ -110,7 +113,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ فِىٓ أُمِّ ٱلْكِتَـٰبِ لَدَيْنَا لَعَلِىٌّ حَكِيمٌ",
     "textSimple": "وإنه فىٓ أم ٱلكتـب لدينا لعلى حكيم",
     "transliteration": "wa-innahu fī ummi l-kitābi ladaynā laʿaliyyun ḥakīmun",
-    "translation": "",
+    "translation": "And indeed it is, in the Mother of the Book with Us, exalted and full of wisdom.",
     "words": [
       {
         "id": "az-zukhruf-4-1",
@@ -162,7 +165,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est, certes, auprès de Nous, dans le Livre Matriciel, bien haut et plein de sagesse."
   },
   {
     "id": "az-zukhruf-5",
@@ -171,7 +175,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَنَضْرِبُ عَنكُمُ ٱلذِّكْرَ صَفْحًا أَن كُنتُمْ قَوْمًا مُّسْرِفِينَ",
     "textSimple": "أفنضرب عنكم ٱلذكر صفحا أن كنتم قوما مسرفين",
     "transliteration": "afanaḍribu ʿankumu l-dhik'ra ṣafḥan an kuntum qawman mus'rifīna",
-    "translation": "",
+    "translation": "Then should We turn the message away, disregarding you, because you are a transgressing people?",
     "words": [
       {
         "id": "az-zukhruf-5-1",
@@ -230,7 +234,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allons-Nous donc vous délaisser et vous priver du Rappel parce que vous êtes un peuple porté aux excès ?"
   },
   {
     "id": "az-zukhruf-6",
@@ -239,7 +244,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَمْ أَرْسَلْنَا مِن نَّبِىٍّ فِى ٱلْأَوَّلِينَ",
     "textSimple": "وكم أرسلنا من نبى فى ٱلأولين",
     "transliteration": "wakam arsalnā min nabiyyin fī l-awalīna",
-    "translation": "",
+    "translation": "And how many a prophet We sent among the former peoples,",
     "words": [
       {
         "id": "az-zukhruf-6-1",
@@ -284,7 +289,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que de Prophètes n’avons-Nous pas envoyés aux premiers peuples !"
   },
   {
     "id": "az-zukhruf-7",
@@ -293,7 +299,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا يَأْتِيهِم مِّن نَّبِىٍّ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
     "textSimple": "وما يأتيهم من نبى إلا كانوا به يستهزءون",
     "transliteration": "wamā yatīhim min nabiyyin illā kānū bihi yastahziūna",
-    "translation": "",
+    "translation": "But there would not come to them a prophet except that they used to ridicule him.",
     "words": [
       {
         "id": "az-zukhruf-7-1",
@@ -352,7 +358,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aucun Prophète n’est venu vers eux qu’ils n’aient tourné en dérision."
   },
   {
     "id": "az-zukhruf-8",
@@ -361,7 +368,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَأَهْلَكْنَآ أَشَدَّ مِنْهُم بَطْشًا وَمَضَىٰ مَثَلُ ٱلْأَوَّلِينَ",
     "textSimple": "فأهلكنآ أشد منهم بطشا ومضى مثل ٱلأولين",
     "transliteration": "fa-ahlaknā ashadda min'hum baṭshan wamaḍā mathalu l-awalīna",
-    "translation": "",
+    "translation": "And We destroyed greater than them in [striking] power, and the example of the former peoples has preceded.",
     "words": [
       {
         "id": "az-zukhruf-8-1",
@@ -413,7 +420,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons (pourtant) fait périr de bien plus féroces que ceux-ci, et que d’exemples sur les premiers (peuples) n’avons-Nous pas cités !"
   },
   {
     "id": "az-zukhruf-9",
@@ -422,7 +430,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ خَلَقَهُنَّ ٱلْعَزِيزُ ٱلْعَلِيمُ",
     "textSimple": "ولئن سألتهم من خلق ٱلسمـوت وٱلأرض ليقولن خلقهن ٱلعزيز ٱلعليم",
     "transliteration": "wala-in sa-altahum man khalaqa l-samāwāti wal-arḍa layaqūlunna khalaqahunna l-ʿazīzu l-ʿalīmu",
-    "translation": "",
+    "translation": "And if you should ask them, \"Who has created the heavens and the earth?\" they would surely say, \"They were created by the Exalted in Might, the Knowing,\"",
     "words": [
       {
         "id": "az-zukhruf-9-1",
@@ -495,7 +503,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu leur demandes : « Qui a créé les cieux et la terre ? » ils répondront certainement : « Celui Qui les a créés est le Tout-Puissant, l’Omniscient ! »"
   },
   {
     "id": "az-zukhruf-10",
@@ -504,7 +513,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَجَعَلَ لَكُمْ فِيهَا سُبُلًا لَّعَلَّكُمْ تَهْتَدُونَ",
     "textSimple": "ٱلذى جعل لكم ٱلأرض مهدا وجعل لكم فيها سبلا لعلكم تهتدون",
     "transliteration": "alladhī jaʿala lakumu l-arḍa mahdan wajaʿala lakum fīhā subulan laʿallakum tahtadūna",
-    "translation": "",
+    "translation": "[The one] who has made for you the earth a bed and made for you upon it roads that you might be guided",
     "words": [
       {
         "id": "az-zukhruf-10-1",
@@ -584,7 +593,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a fait de la terre un berceau, et vous y a tracé des chemins pour vous guider."
   },
   {
     "id": "az-zukhruf-11",
@@ -593,7 +603,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِى نَزَّلَ مِنَ ٱلسَّمَآءِ مَآءًۢ بِقَدَرٍ فَأَنشَرْنَا بِهِۦ بَلْدَةً مَّيْتًا ۚ كَذَٰلِكَ تُخْرَجُونَ",
     "textSimple": "وٱلذى نزل من ٱلسمآء مآء بقدر فأنشرنا به بلدة ميتا  كذلك تخرجون",
     "transliteration": "wa-alladhī nazzala mina l-samāi māan biqadarin fa-ansharnā bihi baldatan maytan kadhālika tukh'rajūna",
-    "translation": "",
+    "translation": "And who sends down rain from the sky in measured amounts, and We revive thereby a dead land - thus will you be brought forth -",
     "words": [
       {
         "id": "az-zukhruf-11-1",
@@ -680,7 +690,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est aussi Lui Qui fait descendre du ciel une eau en proportion (déterminée). Par elle, Nous ramenons à la vie toute une terre morte. C’est ainsi que vous serez sortis (de vos tombes)."
   },
   {
     "id": "az-zukhruf-12",
@@ -689,7 +700,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا وَجَعَلَ لَكُم مِّنَ ٱلْفُلْكِ وَٱلْأَنْعَـٰمِ مَا تَرْكَبُونَ",
     "textSimple": "وٱلذى خلق ٱلأزوج كلها وجعل لكم من ٱلفلك وٱلأنعـم ما تركبون",
     "transliteration": "wa-alladhī khalaqa l-azwāja kullahā wajaʿala lakum mina l-ful'ki wal-anʿāmi mā tarkabūna",
-    "translation": "",
+    "translation": "And who created the species, all of them, and has made for you of ships and animals those which you mount",
     "words": [
       {
         "id": "az-zukhruf-12-1",
@@ -769,7 +780,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est aussi Lui Qui a créé tous les couples, et Qui des vaisseaux a fait pour vous (des moyens de transport) et des bestiaux, des montures,"
   },
   {
     "id": "az-zukhruf-13",
@@ -778,7 +790,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "لِتَسْتَوُۥا۟ عَلَىٰ ظُهُورِهِۦ ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ إِذَا ٱسْتَوَيْتُمْ عَلَيْهِ وَتَقُولُوا۟ سُبْحَـٰنَ ٱلَّذِى سَخَّرَ لَنَا هَـٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ",
     "textSimple": "لتستوا على ظهوره ثم تذكروا نعمة ربكم إذا ٱستويتم عليه وتقولوا سبحـن ٱلذى سخر لنا هـذا وما كنا له مقرنين",
     "transliteration": "litastawū ʿalā ẓuhūrihi thumma tadhkurū niʿ'mata rabbikum idhā is'tawaytum ʿalayhi wataqūlū sub'ḥāna alladhī sakhara lanā hādhā wamā kunnā lahu muq'rinīna",
-    "translation": "",
+    "translation": "That you may settle yourselves upon their backs and then remember the favor of your Lord when you have settled upon them and say, \"Exalted is He who has subjected this to us, and we could not have [otherwise] subdued it.",
     "words": [
       {
         "id": "az-zukhruf-13-1",
@@ -921,7 +933,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin que sur le dos (des bestiaux ou à bord des vaisseaux) vous preniez place, et qu’une fois installés, vous vous rappeliez le bienfait de votre Seigneur et disiez : « Gloire soit rendue à Celui Qui a mis cela (à notre service) alors que nous n’aurions pu le faire nous-mêmes !"
   },
   {
     "id": "az-zukhruf-14",
@@ -930,7 +943,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
     "textSimple": "وإنآ إلى ربنا لمنقلبون",
     "transliteration": "wa-innā ilā rabbinā lamunqalibūna",
-    "translation": "",
+    "translation": "And indeed we, to our Lord, will [surely] return.\"",
     "words": [
       {
         "id": "az-zukhruf-14-1",
@@ -961,7 +974,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et c’est certes vers notre Seigneur que nous retournerons. »"
   },
   {
     "id": "az-zukhruf-15",
@@ -970,7 +984,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلُوا۟ لَهُۥ مِنْ عِبَادِهِۦ جُزْءًا ۚ إِنَّ ٱلْإِنسَـٰنَ لَكَفُورٌ مُّبِينٌ",
     "textSimple": "وجعلوا له من عباده جزءا  إن ٱلإنسـن لكفور مبين",
     "transliteration": "wajaʿalū lahu min ʿibādihi juz'an inna l-insāna lakafūrun mubīnun",
-    "translation": "",
+    "translation": "But they have attributed to Him from His servants a portion. Indeed, man is clearly ungrateful.",
     "words": [
       {
         "id": "az-zukhruf-15-1",
@@ -1036,7 +1050,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils Lui ont attribué une partie de Ses serviteurs. L’homme est d’une ingratitude manifeste."
   },
   {
     "id": "az-zukhruf-16",
@@ -1045,7 +1060,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍ وَأَصْفَىٰكُم بِٱلْبَنِينَ",
     "textSimple": "أم ٱتخذ مما يخلق بنات وأصفىكم بٱلبنين",
     "transliteration": "ami ittakhadha mimmā yakhluqu banātin wa-aṣfākum bil-banīna",
-    "translation": "",
+    "translation": "Or has He taken, out of what He has created, daughters and chosen you for [having] sons?",
     "words": [
       {
         "id": "az-zukhruf-16-1",
@@ -1097,7 +1112,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Se serait-Il donné des filles de parmi Ses créatures, et vous aurait réservé les garçons ?"
   },
   {
     "id": "az-zukhruf-17",
@@ -1106,7 +1122,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَـٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
     "textSimple": "وإذا بشر أحدهم بما ضرب للرحمـن مثلا ظل وجهه مسودا وهو كظيم",
     "transliteration": "wa-idhā bushira aḥaduhum bimā ḍaraba lilrraḥmāni mathalan ẓalla wajhuhu mus'waddan wahuwa kaẓīmun",
-    "translation": "",
+    "translation": "And when one of them is given good tidings of that which he attributes to the Most Merciful in comparison [i.e., a daughter], his face becomes dark, and he suppresses grief.",
     "words": [
       {
         "id": "az-zukhruf-17-1",
@@ -1193,7 +1209,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Annonce-t-on à l’un d’eux (la naissance) de ce qu’il attribue de semblable au Tout Clément, il en a le visage assombri et il en est très affligé."
   },
   {
     "id": "az-zukhruf-18",
@@ -1202,7 +1219,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَوَمَن يُنَشَّؤُا۟ فِى ٱلْحِلْيَةِ وَهُوَ فِى ٱلْخِصَامِ غَيْرُ مُبِينٍ",
     "textSimple": "أومن ينشؤا فى ٱلحلية وهو فى ٱلخصام غير مبين",
     "transliteration": "awaman yunasha-u fī l-ḥil'yati wahuwa fī l-khiṣāmi ghayru mubīnin",
-    "translation": "",
+    "translation": "So is one brought up in ornaments while being during conflict unevident [attributed to Allāh]?",
     "words": [
       {
         "id": "az-zukhruf-18-1",
@@ -1268,7 +1285,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Lui attribuez-vous donc des filles) élevées au milieu des parures et qui, dans la dispute, n’ont pas l’argumentation claire ?"
   },
   {
     "id": "az-zukhruf-19",
@@ -1277,7 +1295,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلُوا۟ ٱلْمَلَـٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَـٰدُ ٱلرَّحْمَـٰنِ إِنَـٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَـٰدَتُهُمْ وَيُسْـَٔلُونَ",
     "textSimple": "وجعلوا ٱلملـٓئكة ٱلذين هم عبـد ٱلرحمـن إنـثا  أشهدوا خلقهم  ستكتب شهـدتهم ويسـٔلون",
     "transliteration": "wajaʿalū l-malāikata alladhīna hum ʿibādu l-raḥmāni ināthan ashahidū khalqahum satuk'tabu shahādatuhum wayus'alūna",
-    "translation": "",
+    "translation": "And they described the angels, who are servants of the Most Merciful, as females. Did they witness their creation? Their testimony will be recorded, and they will be questioned.",
     "words": [
       {
         "id": "az-zukhruf-19-1",
@@ -1364,7 +1382,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont fait des Anges, qui sont des serviteurs du Tout Clément, des (êtres) de sexe féminin. Étaient-ils donc témoins de leur création ? Leur témoignage sera consigné par écrit et ils devront en répondre."
   },
   {
     "id": "az-zukhruf-20",
@@ -1373,7 +1392,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَـٰنُ مَا عَبَدْنَـٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ",
     "textSimple": "وقالوا لو شآء ٱلرحمـن ما عبدنـهم  ما لهم بذلك من علم  إن هم إلا يخرصون",
     "transliteration": "waqālū law shāa l-raḥmānu mā ʿabadnāhum mā lahum bidhālika min ʿil'min in hum illā yakhruṣūna",
-    "translation": "",
+    "translation": "And they said, \"If the Most Merciful had willed, we would not have worshipped them.\" They have of that no knowledge. They are not but misjudging.",
     "words": [
       {
         "id": "az-zukhruf-20-1",
@@ -1481,7 +1500,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Si le Tout Clément avait voulu, nous ne les aurions jamais adorées. » En vérité, ils n’en ont aucune connaissance, ils ne font que supposer."
   },
   {
     "id": "az-zukhruf-21",
@@ -1490,7 +1510,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ ءَاتَيْنَـٰهُمْ كِتَـٰبًا مِّن قَبْلِهِۦ فَهُم بِهِۦ مُسْتَمْسِكُونَ",
     "textSimple": "أم ءاتينـهم كتـبا من قبله فهم به مستمسكون",
     "transliteration": "am ātaynāhum kitāban min qablihi fahum bihi mus'tamsikūna",
-    "translation": "",
+    "translation": "Or have We given them a book before it [i.e., the Qur’ān] to which they are adhering?",
     "words": [
       {
         "id": "az-zukhruf-21-1",
@@ -1549,7 +1569,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou alors leur avons-Nous déjà donné un Livre auquel ils tiendraient fermement ?"
   },
   {
     "id": "az-zukhruf-22",
@@ -1558,7 +1579,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ قَالُوٓا۟ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ ءَاثَـٰرِهِم مُّهْتَدُونَ",
     "textSimple": "بل قالوٓا إنا وجدنآ ءابآءنا علىٓ أمة وإنا علىٓ ءاثـرهم مهتدون",
     "transliteration": "bal qālū innā wajadnā ābāanā ʿalā ummatin wa-innā ʿalā āthārihim muh'tadūna",
-    "translation": "",
+    "translation": "Rather, they say, \"Indeed, we found our fathers upon a religion, and we are in their footsteps [rightly] guided.\"",
     "words": [
       {
         "id": "az-zukhruf-22-1",
@@ -1638,7 +1659,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or ils disent: « Nous avons trouvé nos ancêtres embrassant telle religion, et nous sommes engagés sur leur voie. »"
   },
   {
     "id": "az-zukhruf-23",
@@ -1647,7 +1669,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ ءَاثَـٰرِهِم مُّقْتَدُونَ",
     "textSimple": "وكذلك مآ أرسلنا من قبلك فى قرية من نذير إلا قال مترفوهآ إنا وجدنآ ءابآءنا علىٓ أمة وإنا علىٓ ءاثـرهم مقتدون",
     "transliteration": "wakadhālika mā arsalnā min qablika fī qaryatin min nadhīrin illā qāla mut'rafūhā innā wajadnā ābāanā ʿalā ummatin wa-innā ʿalā āthārihim muq'tadūna",
-    "translation": "",
+    "translation": "And similarly, We did not send before you any warner into a city except that its affluent said, \"Indeed, we found our fathers upon a religion, and we are, in their footsteps, following.\"",
     "words": [
       {
         "id": "az-zukhruf-23-1",
@@ -1797,7 +1819,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous n’avons jamais envoyé avant toi un (Messager) pour avertir une cité, sans que les plus opulents de ses habitants n’aient déclaré : « Nous avons trouvé nos ancêtres embrassant telle religion, et nous suivrons leur exemple. »"
   },
   {
     "id": "az-zukhruf-24",
@@ -1806,7 +1829,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَـٰلَ أَوَلَوْ جِئْتُكُم بِأَهْدَىٰ مِمَّا وَجَدتُّمْ عَلَيْهِ ءَابَآءَكُمْ ۖ قَالُوٓا۟ إِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَـٰفِرُونَ",
     "textSimple": " قـل أولو جئتكم بأهدى مما وجدتم عليه ءابآءكم  قالوٓا إنا بمآ أرسلتم به كـفرون",
     "transliteration": "qāla awalaw ji'tukum bi-ahdā mimmā wajadttum ʿalayhi ābāakum qālū innā bimā ur'sil'tum bihi kāfirūna",
-    "translation": "",
+    "translation": "[Each warner] said, \"Even if I brought you better guidance than that [religion] upon which you found your fathers?\" They said, \"Indeed we, in that with which you were sent, are disbelievers.\"",
     "words": [
       {
         "id": "az-zukhruf-24-1",
@@ -1907,7 +1930,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Le Messager avertisseur leur) disait : « Et si je vous proposais meilleure direction que celle dans laquelle vous avez trouvé engagés vos ancêtres ? » (Les nantis) répondaient alors : « Nous mécroyons certes en ce message qui est le vôtre. »"
   },
   {
     "id": "az-zukhruf-25",
@@ -1916,7 +1940,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنتَقَمْنَا مِنْهُمْ ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُكَذِّبِينَ",
     "textSimple": "فٱنتقمنا منهم  فٱنظر كيف كان عـقبة ٱلمكذبين",
     "transliteration": "fa-intaqamnā min'hum fa-unẓur kayfa kāna ʿāqibatu l-mukadhibīna",
-    "translation": "",
+    "translation": "So We took retribution from them; then see how was the end of the deniers.",
     "words": [
       {
         "id": "az-zukhruf-25-1",
@@ -1968,7 +1992,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous tirâmes vengeance d’eux. Vois quel fut le sort de ceux qui ont osé démentir !"
   },
   {
     "id": "az-zukhruf-26",
@@ -1977,7 +2002,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَ إِبْرَٰهِيمُ لِأَبِيهِ وَقَوْمِهِۦٓ إِنَّنِى بَرَآءٌ مِّمَّا تَعْبُدُونَ",
     "textSimple": "وإذ قال إبرهيم لأبيه وقومهٓ إننى برآء مما تعبدون",
     "transliteration": "wa-idh qāla ib'rāhīmu li-abīhi waqawmihi innanī barāon mimmā taʿbudūna",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when Abraham said to his father and his people, \"Indeed, I am disassociated from that which you worship",
     "words": [
       {
         "id": "az-zukhruf-26-1",
@@ -2043,7 +2068,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) quand Abraham dit à son père et à son peuple : « Je suis totalement innocent de ce que vous adorez,"
   },
   {
     "id": "az-zukhruf-27",
@@ -2052,7 +2078,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا ٱلَّذِى فَطَرَنِى فَإِنَّهُۥ سَيَهْدِينِ",
     "textSimple": "إلا ٱلذى فطرنى فإنه سيهدين",
     "transliteration": "illā alladhī faṭaranī fa-innahu sayahdīni",
-    "translation": "",
+    "translation": "Except for He who created me; and indeed, He will guide me.\"",
     "words": [
       {
         "id": "az-zukhruf-27-1",
@@ -2090,7 +2116,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Excepté Celui Qui m’a créé et Qui certes me guidera. »"
   },
   {
     "id": "az-zukhruf-28",
@@ -2099,7 +2126,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلَهَا كَلِمَةًۢ بَاقِيَةً فِى عَقِبِهِۦ لَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "وجعلها كلمة باقية فى عقبه لعلهم يرجعون",
     "transliteration": "wajaʿalahā kalimatan bāqiyatan fī ʿaqibihi laʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And he made it a word remaining among his descendants that they might return [to it].",
     "words": [
       {
         "id": "az-zukhruf-28-1",
@@ -2151,7 +2178,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fit que cette parole fût perpétuée par ses descendants dans l’espoir de les faire revenir (à Allah)."
   },
   {
     "id": "az-zukhruf-29",
@@ -2160,7 +2188,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ مَتَّعْتُ هَـٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ جَآءَهُمُ ٱلْحَقُّ وَرَسُولٌ مُّبِينٌ",
     "textSimple": "بل متعت هـٓؤلآء وءابآءهم حتى جآءهم ٱلحق ورسول مبين",
     "transliteration": "bal mattaʿtu hāulāi waābāahum ḥattā jāahumu l-ḥaqu warasūlun mubīnun",
-    "translation": "",
+    "translation": "However, I gave enjoyment to these [people of Makkah] and their fathers until there came to them the truth and a clear Messenger.",
     "words": [
       {
         "id": "az-zukhruf-29-1",
@@ -2226,7 +2254,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or J’ai accordé à ceux-là, et à leurs ancêtres, la jouissance (des biens de ce bas monde), jusqu’au jour où vinrent à eux la vérité et un Messager explicite."
   },
   {
     "id": "az-zukhruf-30",
@@ -2235,7 +2264,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَهُمُ ٱلْحَقُّ قَالُوا۟ هَـٰذَا سِحْرٌ وَإِنَّا بِهِۦ كَـٰفِرُونَ",
     "textSimple": "ولما جآءهم ٱلحق قالوا هـذا سحر وإنا به كـفرون",
     "transliteration": "walammā jāahumu l-ḥaqu qālū hādhā siḥ'run wa-innā bihi kāfirūna",
-    "translation": "",
+    "translation": "But when the truth came to them, they said, \"This is magic, and indeed we are, concerning it, disbelievers.\"",
     "words": [
       {
         "id": "az-zukhruf-30-1",
@@ -2301,7 +2330,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais lorsque la vérité leur fut parvenue, ils dirent : « C’est de la (pure) magie et nous y mécroyons. »"
   },
   {
     "id": "az-zukhruf-31",
@@ -2310,7 +2340,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْلَا نُزِّلَ هَـٰذَا ٱلْقُرْءَانُ عَلَىٰ رَجُلٍ مِّنَ ٱلْقَرْيَتَيْنِ عَظِيمٍ",
     "textSimple": "وقالوا لولا نزل هـذا ٱلقرءان على رجل من ٱلقريتين عظيم",
     "transliteration": "waqālū lawlā nuzzila hādhā l-qur'ānu ʿalā rajulin mina l-qaryatayni ʿaẓīmin",
-    "translation": "",
+    "translation": "And they said, \"Why was this Qur’ān not sent down upon a great man from [one of] the two cities?\"",
     "words": [
       {
         "id": "az-zukhruf-31-1",
@@ -2383,7 +2413,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Mais pourquoi, s’étonnèrent-ils, ce Coran n’est-il pas descendu (en révélation) sur un notable de l’une des deux cités ? »"
   },
   {
     "id": "az-zukhruf-32",
@@ -2392,7 +2423,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍ دَرَجَـٰتٍ لِّيَتَّخِذَ بَعْضُهُم بَعْضًا سُخْرِيًّا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
     "textSimple": "أهم يقسمون رحمت ربك  نحن قسمنا بينهم معيشتهم فى ٱلحيوة ٱلدنيا  ورفعنا بعضهم فوق بعض درجـت ليتخذ بعضهم بعضا سخريا  ورحمت ربك خير مما يجمعون",
     "transliteration": "ahum yaqsimūna raḥmata rabbika naḥnu qasamnā baynahum maʿīshatahum fī l-ḥayati l-dun'yā warafaʿnā baʿḍahum fawqa baʿḍin darajātin liyattakhidha baʿḍuhum baʿḍan sukh'riyyan waraḥmatu rabbika khayrun mimmā yajmaʿūna",
-    "translation": "",
+    "translation": "Do they distribute the mercy of your Lord? It is We who have apportioned among them their livelihood in the life of this world and have raised some of them above others in degrees [of rank] that they may make use of one another for service. But the mercy of your Lord is better than whatever they accumulate.",
     "words": [
       {
         "id": "az-zukhruf-32-1",
@@ -2570,7 +2601,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce que ce sont eux qui répartissent la grâce de ton Seigneur ? C’est Nous Qui avons partagé entre eux leurs moyens de subsistance en ce bas monde, et les avons élevés en rangs les uns par rapport aux autres, afin qu’ils puissent être au service les uns des autres. La miséricorde de ton Seigneur est meilleure que tout ce qu’ils amassent."
   },
   {
     "id": "az-zukhruf-33",
@@ -2579,7 +2611,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَآ أَن يَكُونَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً لَّجَعَلْنَا لِمَن يَكْفُرُ بِٱلرَّحْمَـٰنِ لِبُيُوتِهِمْ سُقُفًا مِّن فِضَّةٍ وَمَعَارِجَ عَلَيْهَا يَظْهَرُونَ",
     "textSimple": "ولولآ أن يكون ٱلناس أمة وحدة لجعلنا لمن يكفر بٱلرحمـن لبيوتهم سقفا من فضة ومعارج عليها يظهرون",
     "transliteration": "walawlā an yakūna l-nāsu ummatan wāḥidatan lajaʿalnā liman yakfuru bil-raḥmāni libuyūtihim suqufan min fiḍḍatin wamaʿārija ʿalayhā yaẓharūna",
-    "translation": "",
+    "translation": "And if it were not that the people would become one community [of disbelievers], We would have made for those who disbelieve in the Most Merciful - for their houses - ceilings and stairways of silver upon which to mount.",
     "words": [
       {
         "id": "az-zukhruf-33-1",
@@ -2701,7 +2733,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si ce n’était pour éviter que tous les hommes ne se réunissent en une seule communauté (de mécréants), Nous aurions fait que ceux qui mécroient aient des maisons aux toits et aux escaliers d’argent pour y monter."
   },
   {
     "id": "az-zukhruf-34",
@@ -2710,7 +2743,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلِبُيُوتِهِمْ أَبْوَٰبًا وَسُرُرًا عَلَيْهَا يَتَّكِـُٔونَ",
     "textSimple": "ولبيوتهم أبوبا وسررا عليها يتكـٔون",
     "transliteration": "walibuyūtihim abwāban wasururan ʿalayhā yattakiūna",
-    "translation": "",
+    "translation": "And for their houses - doors and couches [of silver] upon which to recline",
     "words": [
       {
         "id": "az-zukhruf-34-1",
@@ -2748,7 +2781,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Nous aurions mis) à leurs maisons des portes et (y aurions installé) des lits sur lesquels ils se reposeraient,"
   },
   {
     "id": "az-zukhruf-35",
@@ -2757,7 +2791,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَزُخْرُفًا ۚ وَإِن كُلُّ ذَٰلِكَ لَمَّا مَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَٱلْـَٔاخِرَةُ عِندَ رَبِّكَ لِلْمُتَّقِينَ",
     "textSimple": "وزخرفا  وإن كل ذلك لما متـع ٱلحيوة ٱلدنيا  وٱلـٔاخرة عند ربك للمتقين",
     "transliteration": "wazukh'rufan wa-in kullu dhālika lammā matāʿu l-ḥayati l-dun'yā wal-ākhiratu ʿinda rabbika lil'muttaqīna",
-    "translation": "",
+    "translation": "And gold ornament. But all that is not but the enjoyment of worldly life. And the Hereafter with your Lord is for the righteous.",
     "words": [
       {
         "id": "az-zukhruf-35-1",
@@ -2844,7 +2878,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(et y aurions prévu) des ornements. Mais cela n’est que jouissance de la vie en ce bas monde, alors que l’autre monde, auprès de ton Seigneur, est destiné aux gens pieux."
   },
   {
     "id": "az-zukhruf-36",
@@ -2853,7 +2888,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَـٰنِ نُقَيِّضْ لَهُۥ شَيْطَـٰنًا فَهُوَ لَهُۥ قَرِينٌ",
     "textSimple": "ومن يعش عن ذكر ٱلرحمـن نقيض له شيطـنا فهو له قرين",
     "transliteration": "waman yaʿshu ʿan dhik'ri l-raḥmāni nuqayyiḍ lahu shayṭānan fahuwa lahu qarīnun",
-    "translation": "",
+    "translation": "And whoever is blinded from remembrance of the Most Merciful - We appoint for him a devil, and he is to him a companion.",
     "words": [
       {
         "id": "az-zukhruf-36-1",
@@ -2933,7 +2968,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À celui qui, dans son aveuglement, délaisse le Rappel du Tout Clément, Nous associons un démon comme (proche) compagnon."
   },
   {
     "id": "az-zukhruf-37",
@@ -2942,7 +2978,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ",
     "textSimple": "وإنهم ليصدونهم عن ٱلسبيل ويحسبون أنهم مهتدون",
     "transliteration": "wa-innahum layaṣuddūnahum ʿani l-sabīli wayaḥsabūna annahum muh'tadūna",
-    "translation": "",
+    "translation": "And indeed, they [i.e., the devils] avert them from the way [of guidance] while they think that they are [rightly] guided",
     "words": [
       {
         "id": "az-zukhruf-37-1",
@@ -2994,7 +3030,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils (les démons) les repoussent loin du (droit) chemin et eux (les hommes) s’imaginent qu’ils sont dans la bonne direction."
   },
   {
     "id": "az-zukhruf-38",
@@ -3003,7 +3040,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "حَتَّىٰٓ إِذَا جَآءَنَا قَالَ يَـٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ ٱلْقَرِينُ",
     "textSimple": "حتىٓ إذا جآءنا قال يـليت بينى وبينك بعد ٱلمشرقين فبئس ٱلقرين",
     "transliteration": "ḥattā idhā jāanā qāla yālayta baynī wabaynaka buʿ'da l-mashriqayni fabi'sa l-qarīnu",
-    "translation": "",
+    "translation": "Until, when he comes to Us [at Judgement], he says [to his companion], \"How I wish there was between me and you the distance between the east and west; and what a wretched companion.\"",
     "words": [
       {
         "id": "az-zukhruf-38-1",
@@ -3083,7 +3120,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Viendra alors le jour où (tel homme), comparaîtra devant Nous et dira (à son compagnon démoniaque) : « Plût à (Allah) qu’il y eût entre toi et moi la distance séparant le Levant du Couchant ! Quel horrible compagnon tu fais ! »"
   },
   {
     "id": "az-zukhruf-39",
@@ -3092,7 +3130,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَن يَنفَعَكُمُ ٱلْيَوْمَ إِذ ظَّلَمْتُمْ أَنَّكُمْ فِى ٱلْعَذَابِ مُشْتَرِكُونَ",
     "textSimple": "ولن ينفعكم ٱليوم إذ ظلمتم أنكم فى ٱلعذاب مشتركون",
     "transliteration": "walan yanfaʿakumu l-yawma idh ẓalamtum annakum fī l-ʿadhābi mush'tarikūna",
-    "translation": "",
+    "translation": "And never will it benefit you that Day, when you have wronged, that you are [all] sharing in the punishment.",
     "words": [
       {
         "id": "az-zukhruf-39-1",
@@ -3158,7 +3196,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aujourd’hui, il ne vous servira à rien, alors que vous avez déjà fait preuve d’injustice, d’être solidaires dans le supplice."
   },
   {
     "id": "az-zukhruf-40",
@@ -3167,7 +3206,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ أَوْ تَهْدِى ٱلْعُمْىَ وَمَن كَانَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "أفأنت تسمع ٱلصم أو تهدى ٱلعمى ومن كان فى ضلـل مبين",
     "transliteration": "afa-anta tus'miʿu l-ṣuma aw tahdī l-ʿum'ya waman kāna fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Then will you make the deaf hear, [O Muḥammad], or guide the blind or he who is in clear error?",
     "words": [
       {
         "id": "az-zukhruf-40-1",
@@ -3247,7 +3286,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serait-ce donc toi qui pourrais faire entendre les sourds, montrer la voie aux aveugles et à tous ceux qui sont en plein égarement ?"
   },
   {
     "id": "az-zukhruf-41",
@@ -3256,7 +3296,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَإِمَّا نَذْهَبَنَّ بِكَ فَإِنَّا مِنْهُم مُّنتَقِمُونَ",
     "textSimple": "فإما نذهبن بك فإنا منهم منتقمون",
     "transliteration": "fa-immā nadhhabanna bika fa-innā min'hum muntaqimūna",
-    "translation": "",
+    "translation": "And whether [or not] We take you away [in death], indeed, We will take retribution upon them.",
     "words": [
       {
         "id": "az-zukhruf-41-1",
@@ -3301,7 +3341,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que Nous te fassions disparaître (ou pas), Nous tirerons d’eux vengeance,"
   },
   {
     "id": "az-zukhruf-42",
@@ -3310,7 +3351,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَوْ نُرِيَنَّكَ ٱلَّذِى وَعَدْنَـٰهُمْ فَإِنَّا عَلَيْهِم مُّقْتَدِرُونَ",
     "textSimple": "أو نرينك ٱلذى وعدنـهم فإنا عليهم مقتدرون",
     "transliteration": "aw nuriyannaka alladhī waʿadnāhum fa-innā ʿalayhim muq'tadirūna",
-    "translation": "",
+    "translation": "Or whether [or not] We show you that which We have promised them, indeed, We are Perfect in Ability.",
     "words": [
       {
         "id": "az-zukhruf-42-1",
@@ -3362,7 +3403,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que Nous te montrions ce que Nous leur avons promis (ou pas), Nous avons sur eux tout pouvoir."
   },
   {
     "id": "az-zukhruf-43",
@@ -3371,7 +3413,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَمْسِكْ بِٱلَّذِىٓ أُوحِىَ إِلَيْكَ ۖ إِنَّكَ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "فٱستمسك بٱلذىٓ أوحى إليك  إنك على صرط مستقيم",
     "transliteration": "fa-is'tamsik bi-alladhī ūḥiya ilayka innaka ʿalā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "So adhere to that which is revealed to you. Indeed, you are on a straight path.",
     "words": [
       {
         "id": "az-zukhruf-43-1",
@@ -3430,7 +3472,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tiens t’en donc avec fermeté à ce qui t’a été révélé, car tu es sur une voie droite."
   },
   {
     "id": "az-zukhruf-44",
@@ -3439,7 +3482,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَذِكْرٌ لَّكَ وَلِقَوْمِكَ ۖ وَسَوْفَ تُسْـَٔلُونَ",
     "textSimple": "وإنه لذكر لك ولقومك  وسوف تسـٔلون",
     "transliteration": "wa-innahu ladhik'run laka waliqawmika wasawfa tus'alūna",
-    "translation": "",
+    "translation": "And indeed, it is a remembrance for you and your people, and you [all] are going to be questioned.",
     "words": [
       {
         "id": "az-zukhruf-44-1",
@@ -3484,7 +3527,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce Rappel t’est certes destiné à toi et à ton peuple, et vous serez interrogés (à son sujet)."
   },
   {
     "id": "az-zukhruf-45",
@@ -3493,7 +3537,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَسْـَٔلْ مَنْ أَرْسَلْنَا مِن قَبْلِكَ مِن رُّسُلِنَآ أَجَعَلْنَا مِن دُونِ ٱلرَّحْمَـٰنِ ءَالِهَةً يُعْبَدُونَ",
     "textSimple": "وسـٔل من أرسلنا من قبلك من رسلنآ أجعلنا من دون ٱلرحمـن ءالهة يعبدون",
     "transliteration": "wasal man arsalnā min qablika min rusulinā ajaʿalnā min dūni l-raḥmāni ālihatan yuʿ'badūna",
-    "translation": "",
+    "translation": "And ask those We sent before you of Our messengers; have We made besides the Most Merciful deities to be worshipped?",
     "words": [
       {
         "id": "az-zukhruf-45-1",
@@ -3587,7 +3631,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande donc aux Messagers que Nous avons envoyés avant toi : avons-Nous établi, en dehors du Tout Clément, des divinités à adorer ?"
   },
   {
     "id": "az-zukhruf-46",
@@ -3596,7 +3641,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَـٰتِنَآ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَقَالَ إِنِّى رَسُولُ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "ولقد أرسلنا موسى بـٔايـتنآ إلى فرعون وملإيه فقال إنى رسول رب ٱلعـلمين",
     "transliteration": "walaqad arsalnā mūsā biāyātinā ilā fir'ʿawna wamala-ihi faqāla innī rasūlu rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And certainly did We send Moses with Our signs to Pharaoh and his establishment, and he said, \"Indeed, I am the messenger of the Lord of the worlds.\"",
     "words": [
       {
         "id": "az-zukhruf-46-1",
@@ -3683,7 +3728,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous envoyâmes Moïse, muni de Nos Signes, à Pharaon et à son assemblée de notables, auxquels il dit : « Je suis le Messager du Seigneur de l’Univers. »"
   },
   {
     "id": "az-zukhruf-47",
@@ -3692,7 +3738,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا جَآءَهُم بِـَٔايَـٰتِنَآ إِذَا هُم مِّنْهَا يَضْحَكُونَ",
     "textSimple": "فلما جآءهم بـٔايـتنآ إذا هم منها يضحكون",
     "transliteration": "falammā jāahum biāyātinā idhā hum min'hā yaḍḥakūna",
-    "translation": "",
+    "translation": "But when he brought them Our signs, at once they laughed at them.",
     "words": [
       {
         "id": "az-zukhruf-47-1",
@@ -3744,7 +3790,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais lorsqu’il leur eut montré Nos Signes, ils se mirent aussitôt à en rire."
   },
   {
     "id": "az-zukhruf-48",
@@ -3753,7 +3800,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا نُرِيهِم مِّنْ ءَايَةٍ إِلَّا هِىَ أَكْبَرُ مِنْ أُخْتِهَا ۖ وَأَخَذْنَـٰهُم بِٱلْعَذَابِ لَعَلَّهُمْ يَرْجِعُونَ",
     "textSimple": "وما نريهم من ءاية إلا هى أكبر من أختها  وأخذنـهم بٱلعذاب لعلهم يرجعون",
     "transliteration": "wamā nurīhim min āyatin illā hiya akbaru min ukh'tihā wa-akhadhnāhum bil-ʿadhābi laʿallahum yarjiʿūna",
-    "translation": "",
+    "translation": "And We showed them not a sign except that it was greater than its sister, and We seized them with affliction that perhaps they might return [to faith].",
     "words": [
       {
         "id": "az-zukhruf-48-1",
@@ -3847,7 +3894,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne leur avons montré aucun Signe qui ne fût plus éclatant que l’autre. Nous sévîmes donc contre eux pour les faire revenir (à Nous)."
   },
   {
     "id": "az-zukhruf-49",
@@ -3856,7 +3904,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ يَـٰٓأَيُّهَ ٱلسَّاحِرُ ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ إِنَّنَا لَمُهْتَدُونَ",
     "textSimple": "وقالوا يـٓأيه ٱلساحر ٱدع لنا ربك بما عهد عندك إننا لمهتدون",
     "transliteration": "waqālū yāayyuha l-sāḥiru ud'ʿu lanā rabbaka bimā ʿahida ʿindaka innanā lamuh'tadūna",
-    "translation": "",
+    "translation": "And they said [to Moses], \"O magician, invoke for us your Lord by what He has promised you. Indeed, we will be guided.\"",
     "words": [
       {
         "id": "az-zukhruf-49-1",
@@ -3936,7 +3984,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ô toi le magicien ! Implore donc pour nous ton Seigneur, en vertu de l’engagement qu’Il a pris envers toi, et nous trouverons certes le droit chemin ! »"
   },
   {
     "id": "az-zukhruf-50",
@@ -3945,7 +3994,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا كَشَفْنَا عَنْهُمُ ٱلْعَذَابَ إِذَا هُمْ يَنكُثُونَ",
     "textSimple": "فلما كشفنا عنهم ٱلعذاب إذا هم ينكثون",
     "transliteration": "falammā kashafnā ʿanhumu l-ʿadhāba idhā hum yankuthūna",
-    "translation": "",
+    "translation": "But when We removed from them the affliction, at once they broke their word.",
     "words": [
       {
         "id": "az-zukhruf-50-1",
@@ -3997,7 +4046,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais lorsque Nous eûmes mis fin à leur supplice, voilà qu’ils se parjurèrent."
   },
   {
     "id": "az-zukhruf-51",
@@ -4006,7 +4056,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَادَىٰ فِرْعَوْنُ فِى قَوْمِهِۦ قَالَ يَـٰقَوْمِ أَلَيْسَ لِى مُلْكُ مِصْرَ وَهَـٰذِهِ ٱلْأَنْهَـٰرُ تَجْرِى مِن تَحْتِىٓ ۖ أَفَلَا تُبْصِرُونَ",
     "textSimple": "ونادى فرعون فى قومه قال يـقوم أليس لى ملك مصر وهـذه ٱلأنهـر تجرى من تحتىٓ  أفلا تبصرون",
     "transliteration": "wanādā fir'ʿawnu fī qawmihi qāla yāqawmi alaysa lī mul'ku miṣ'ra wahādhihi l-anhāru tajrī min taḥtī afalā tub'ṣirūna",
-    "translation": "",
+    "translation": "And Pharaoh called out among his people; he said, \"O my people, does not the kingdom of Egypt belong to me, and these rivers flowing beneath me; then do you not see?",
     "words": [
       {
         "id": "az-zukhruf-51-1",
@@ -4128,7 +4178,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon lança à l’adresse de son peuple : « Ô peuple mien, n’ai-je pas en ma possession tout le royaume d’Égypte et toutes ces rivières qui coulent à mes pieds ? Ne voyez-vous donc pas ?"
   },
   {
     "id": "az-zukhruf-52",
@@ -4137,7 +4188,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ أَنَا۠ خَيْرٌ مِّنْ هَـٰذَا ٱلَّذِى هُوَ مَهِينٌ وَلَا يَكَادُ يُبِينُ",
     "textSimple": "أم أنا خير من هـذا ٱلذى هو مهين ولا يكاد يبين",
     "transliteration": "am anā khayrun min hādhā alladhī huwa mahīnun walā yakādu yubīnu",
-    "translation": "",
+    "translation": "Or am I [not] better than this one [i.e., Moses] who is insignificant and hardly makes himself clear?",
     "words": [
       {
         "id": "az-zukhruf-52-1",
@@ -4217,7 +4268,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne suis-je pas meilleur que ce pauvre hère qui articule à peine ses mots ?"
   },
   {
     "id": "az-zukhruf-53",
@@ -4226,7 +4278,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَآ أُلْقِىَ عَلَيْهِ أَسْوِرَةٌ مِّن ذَهَبٍ أَوْ جَآءَ مَعَهُ ٱلْمَلَـٰٓئِكَةُ مُقْتَرِنِينَ",
     "textSimple": "فلولآ ألقى عليه أسورة من ذهب أو جآء معه ٱلملـٓئكة مقترنين",
     "transliteration": "falawlā ul'qiya ʿalayhi aswiratun min dhahabin aw jāa maʿahu l-malāikatu muq'tarinīna",
-    "translation": "",
+    "translation": "Then why have there not been placed upon him bracelets of gold or come with him the angels in conjunction?\"",
     "words": [
       {
         "id": "az-zukhruf-53-1",
@@ -4306,7 +4358,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que n’ont été lancés vers lui des bracelets d’or, ou que ne sont venus les Anges avec lui comme compagnons ! »"
   },
   {
     "id": "az-zukhruf-54",
@@ -4315,7 +4368,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَخَفَّ قَوْمَهُۥ فَأَطَاعُوهُ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ",
     "textSimple": "فٱستخف قومه فأطاعوه  إنهم كانوا قوما فـسقين",
     "transliteration": "fa-is'takhaffa qawmahu fa-aṭāʿūhu innahum kānū qawman fāsiqīna",
-    "translation": "",
+    "translation": "So he bluffed his people, and they obeyed him. Indeed, they were [themselves] a people defiantly disobedient [of Allāh].",
     "words": [
       {
         "id": "az-zukhruf-54-1",
@@ -4367,7 +4420,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi qu’il manipula son peuple qui alors lui obéit. Car c’était un peuple de pervers."
   },
   {
     "id": "az-zukhruf-55",
@@ -4376,7 +4430,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ ءَاسَفُونَا ٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَـٰهُمْ أَجْمَعِينَ",
     "textSimple": "فلمآ ءاسفونا ٱنتقمنا منهم فأغرقنـهم أجمعين",
     "transliteration": "falammā āsafūnā intaqamnā min'hum fa-aghraqnāhum ajmaʿīna",
-    "translation": "",
+    "translation": "And when they angered Us, We took retribution from them and drowned them all.",
     "words": [
       {
         "id": "az-zukhruf-55-1",
@@ -4421,7 +4475,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Irrité de leur comportement, Nous tirâmes vengeance d’eux et les noyâmes tous autant qu’ils étaient."
   },
   {
     "id": "az-zukhruf-56",
@@ -4430,7 +4485,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَجَعَلْنَـٰهُمْ سَلَفًا وَمَثَلًا لِّلْـَٔاخِرِينَ",
     "textSimple": "فجعلنـهم سلفا ومثلا للـٔاخرين",
     "transliteration": "fajaʿalnāhum salafan wamathalan lil'ākhirīna",
-    "translation": "",
+    "translation": "And We made them a precedent and an example for the later peoples.",
     "words": [
       {
         "id": "az-zukhruf-56-1",
@@ -4461,7 +4516,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous en fîmes un précédent et un exemple pour les autres (générations)."
   },
   {
     "id": "az-zukhruf-57",
@@ -4470,7 +4526,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَلَمَّا ضُرِبَ ٱبْنُ مَرْيَمَ مَثَلًا إِذَا قَوْمُكَ مِنْهُ يَصِدُّونَ",
     "textSimple": " ولما ضرب ٱبن مريم مثلا إذا قومك منه يصدون",
     "transliteration": "walammā ḍuriba ub'nu maryama mathalan idhā qawmuka min'hu yaṣiddūna",
-    "translation": "",
+    "translation": "And when the son of Mary was presented as an example, immediately your people laughed aloud.",
     "words": [
       {
         "id": "az-zukhruf-57-1",
@@ -4536,7 +4592,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’exemple du fils de Marie proposé, voilà que ton peuple s’en détourne,"
   },
   {
     "id": "az-zukhruf-58",
@@ -4545,7 +4602,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ ءَأَـٰلِهَتُنَا خَيْرٌ أَمْ هُوَ ۚ مَا ضَرَبُوهُ لَكَ إِلَّا جَدَلًۢا ۚ بَلْ هُمْ قَوْمٌ خَصِمُونَ",
     "textSimple": "وقالوٓا ءأـلهتنا خير أم هو  ما ضربوه لك إلا جدلا  بل هم قوم خصمون",
     "transliteration": "waqālū aālihatunā khayrun am huwa mā ḍarabūhu laka illā jadalan bal hum qawmun khaṣimūna",
-    "translation": "",
+    "translation": "And they said, \"Are our gods better, or is he?\" They did not present it [i.e., the comparison] except for [mere] argument. But, [in fact], they are a people prone to dispute.",
     "words": [
       {
         "id": "az-zukhruf-58-1",
@@ -4646,7 +4703,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en disant : « Qui de nos divinités ou de lui est meilleur ? » Mais ce n’est que (par goût) de la polémique qu’ils te le citent en exemple : ce sont des gens querelleurs."
   },
   {
     "id": "az-zukhruf-59",
@@ -4655,7 +4713,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "إِنْ هُوَ إِلَّا عَبْدٌ أَنْعَمْنَا عَلَيْهِ وَجَعَلْنَـٰهُ مَثَلًا لِّبَنِىٓ إِسْرَٰٓءِيلَ",
     "textSimple": "إن هو إلا عبد أنعمنا عليه وجعلنـه مثلا لبنىٓ إسرٓءيل",
     "transliteration": "in huwa illā ʿabdun anʿamnā ʿalayhi wajaʿalnāhu mathalan libanī is'rāīla",
-    "translation": "",
+    "translation": "He [i.e., Jesus] was not but a servant upon whom We bestowed favor, and We made him an example for the Children of Israel.",
     "words": [
       {
         "id": "az-zukhruf-59-1",
@@ -4728,7 +4786,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est qu’un serviteur que Nous avons comblé de nos faveurs, et dont Nous avons fait un Signe pour les Enfants d’Israël."
   },
   {
     "id": "az-zukhruf-60",
@@ -4737,7 +4796,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ نَشَآءُ لَجَعَلْنَا مِنكُم مَّلَـٰٓئِكَةً فِى ٱلْأَرْضِ يَخْلُفُونَ",
     "textSimple": "ولو نشآء لجعلنا منكم ملـٓئكة فى ٱلأرض يخلفون",
     "transliteration": "walaw nashāu lajaʿalnā minkum malāikatan fī l-arḍi yakhlufūna",
-    "translation": "",
+    "translation": "And if We willed, We could have made [instead] of you angels succeeding [one another] on the earth.",
     "words": [
       {
         "id": "az-zukhruf-60-1",
@@ -4796,7 +4855,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si Nous voulions, Nous établirions à votre place des Anges qui vous succèderaient sur terre."
   },
   {
     "id": "az-zukhruf-61",
@@ -4805,7 +4865,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّهُۥ لَعِلْمٌ لِّلسَّاعَةِ فَلَا تَمْتَرُنَّ بِهَا وَٱتَّبِعُونِ ۚ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
     "textSimple": "وإنه لعلم للساعة فلا تمترن بها وٱتبعون  هـذا صرط مستقيم",
     "transliteration": "wa-innahu laʿil'mun lilssāʿati falā tamtarunna bihā wa-ittabiʿūni hādhā ṣirāṭun mus'taqīmun",
-    "translation": "",
+    "translation": "And indeed, he [i.e., Jesus] will be [a sign for] knowledge of the Hour, so be not in doubt of it, and follow Me. This is a straight path.",
     "words": [
       {
         "id": "az-zukhruf-61-1",
@@ -4878,7 +4938,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Jésus) sera un Signe (de l’arrivée) de l’Heure. N’ayez aucun doute au sujet de celle-ci. Et suivez-moi donc : voici une voie droite."
   },
   {
     "id": "az-zukhruf-62",
@@ -4887,7 +4948,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَصُدَّنَّكُمُ ٱلشَّيْطَـٰنُ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
     "textSimple": "ولا يصدنكم ٱلشيطـن  إنه لكم عدو مبين",
     "transliteration": "walā yaṣuddannakumu l-shayṭānu innahu lakum ʿaduwwun mubīnun",
-    "translation": "",
+    "translation": "And never let Satan avert you. Indeed, he is to you a clear enemy.",
     "words": [
       {
         "id": "az-zukhruf-62-1",
@@ -4939,7 +5000,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que Satan ne vous repousse pas (loin de la foi), il est pour vous un ennemi manifeste."
   },
   {
     "id": "az-zukhruf-63",
@@ -4948,7 +5010,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا جَآءَ عِيسَىٰ بِٱلْبَيِّنَـٰتِ قَالَ قَدْ جِئْتُكُم بِٱلْحِكْمَةِ وَلِأُبَيِّنَ لَكُم بَعْضَ ٱلَّذِى تَخْتَلِفُونَ فِيهِ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
     "textSimple": "ولما جآء عيسى بٱلبينـت قال قد جئتكم بٱلحكمة ولأبين لكم بعض ٱلذى تختلفون فيه  فٱتقوا ٱلله وأطيعون",
     "transliteration": "walammā jāa ʿīsā bil-bayināti qāla qad ji'tukum bil-ḥik'mati wali-ubayyina lakum baʿḍa alladhī takhtalifūna fīhi fa-ittaqū l-laha wa-aṭīʿūni",
-    "translation": "",
+    "translation": "And when Jesus brought clear proofs, he said, \"I have come to you with wisdom [i.e., prophethood] and to make clear to you some of that over which you differ, so fear Allāh and obey me.",
     "words": [
       {
         "id": "az-zukhruf-63-1",
@@ -5070,7 +5132,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Apportant avec lui les preuves évidentes, Jésus dit : « Je suis venu vers vous, muni de la sagesse, pour vous rendre claire une partie de vos différends. Craignez donc Allah et soyez envers moi obéissants. »"
   },
   {
     "id": "az-zukhruf-64",
@@ -5079,7 +5142,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ هُوَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
     "textSimple": "إن ٱلله هو ربى وربكم فٱعبدوه  هـذا صرط مستقيم",
     "transliteration": "inna l-laha huwa rabbī warabbukum fa-uʿ'budūhu hādhā ṣirāṭun mus'taqīmun",
-    "translation": "",
+    "translation": "Indeed, Allāh is my Lord and your Lord, so worship Him. This is a straight path.\"",
     "words": [
       {
         "id": "az-zukhruf-64-1",
@@ -5145,7 +5208,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah est mon Seigneur et le vôtre. Adorez-Le. Voici une voie droite."
   },
   {
     "id": "az-zukhruf-65",
@@ -5154,7 +5218,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱخْتَلَفَ ٱلْأَحْزَابُ مِنۢ بَيْنِهِمْ ۖ فَوَيْلٌ لِّلَّذِينَ ظَلَمُوا۟ مِنْ عَذَابِ يَوْمٍ أَلِيمٍ",
     "textSimple": "فٱختلف ٱلأحزاب من بينهم  فويل للذين ظلموا من عذاب يوم أليم",
     "transliteration": "fa-ikh'talafa l-aḥzābu min baynihim fawaylun lilladhīna ẓalamū min ʿadhābi yawmin alīmin",
-    "translation": "",
+    "translation": "But the denominations from among them differed [and separated], so woe to those who have wronged from the punishment of a painful Day.",
     "words": [
       {
         "id": "az-zukhruf-65-1",
@@ -5234,7 +5298,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais les clans s’opposèrent entre eux. Malheur aux injustes qui subiront le supplice d’un jour très douloureux !"
   },
   {
     "id": "az-zukhruf-66",
@@ -5243,7 +5308,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "هَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
     "textSimple": "هل ينظرون إلا ٱلساعة أن تأتيهم بغتة وهم لا يشعرون",
     "transliteration": "hal yanẓurūna illā l-sāʿata an tatiyahum baghtatan wahum lā yashʿurūna",
-    "translation": "",
+    "translation": "Are they waiting except for the Hour to come upon them suddenly while they perceive not?",
     "words": [
       {
         "id": "az-zukhruf-66-1",
@@ -5316,7 +5381,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Qu’attendent-ils sinon que l’Heure fonde sur eux à l’improviste et sans qu’ils la sentent (venir) ?"
   },
   {
     "id": "az-zukhruf-67",
@@ -5325,7 +5391,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلْأَخِلَّآءُ يَوْمَئِذٍۭ بَعْضُهُمْ لِبَعْضٍ عَدُوٌّ إِلَّا ٱلْمُتَّقِينَ",
     "textSimple": "ٱلأخلآء يومئذ بعضهم لبعض عدو إلا ٱلمتقين",
     "transliteration": "al-akhilāu yawma-idhin baʿḍuhum libaʿḍin ʿaduwwun illā l-mutaqīna",
-    "translation": "",
+    "translation": "Close friends, that Day, will be enemies to each other, except for the righteous",
     "words": [
       {
         "id": "az-zukhruf-67-1",
@@ -5377,7 +5443,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les amis seront, en ce jour, ennemis les uns des autres, à l’exception des gens pieux."
   },
   {
     "id": "az-zukhruf-68",
@@ -5386,7 +5453,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰعِبَادِ لَا خَوْفٌ عَلَيْكُمُ ٱلْيَوْمَ وَلَآ أَنتُمْ تَحْزَنُونَ",
     "textSimple": "يـعباد لا خوف عليكم ٱليوم ولآ أنتم تحزنون",
     "transliteration": "yāʿibādi lā khawfun ʿalaykumu l-yawma walā antum taḥzanūna",
-    "translation": "",
+    "translation": "[To whom Allāh will say], \"O My servants, no fear will there be concerning you this Day, nor will you grieve,",
     "words": [
       {
         "id": "az-zukhruf-68-1",
@@ -5445,7 +5512,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô vous Mes serviteurs ! Il n’y aura nulle crainte pour vous, en ce jour, et vous ne serez point affligés,"
   },
   {
     "id": "az-zukhruf-69",
@@ -5454,7 +5522,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ ءَامَنُوا۟ بِـَٔايَـٰتِنَا وَكَانُوا۟ مُسْلِمِينَ",
     "textSimple": "ٱلذين ءامنوا بـٔايـتنا وكانوا مسلمين",
     "transliteration": "alladhīna āmanū biāyātinā wakānū mus'limīna",
-    "translation": "",
+    "translation": "[You] who believed in Our verses and were Muslims.",
     "words": [
       {
         "id": "az-zukhruf-69-1",
@@ -5492,7 +5560,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "vous qui avez cru en Nos Signes et étiez Musulmans,"
   },
   {
     "id": "az-zukhruf-70",
@@ -5501,7 +5570,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْخُلُوا۟ ٱلْجَنَّةَ أَنتُمْ وَأَزْوَٰجُكُمْ تُحْبَرُونَ",
     "textSimple": "ٱدخلوا ٱلجنة أنتم وأزوجكم تحبرون",
     "transliteration": "ud'khulū l-janata antum wa-azwājukum tuḥ'barūna",
-    "translation": "",
+    "translation": "Enter Paradise, you and your kinds, delighted.\"",
     "words": [
       {
         "id": "az-zukhruf-70-1",
@@ -5539,7 +5608,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Entrez au Paradis, vous et vos compagnes, vous y serez honorés. »"
   },
   {
     "id": "az-zukhruf-71",
@@ -5548,7 +5618,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "يُطَافُ عَلَيْهِم بِصِحَافٍ مِّن ذَهَبٍ وَأَكْوَابٍ ۖ وَفِيهَا مَا تَشْتَهِيهِ ٱلْأَنفُسُ وَتَلَذُّ ٱلْأَعْيُنُ ۖ وَأَنتُمْ فِيهَا خَـٰلِدُونَ",
     "textSimple": "يطاف عليهم بصحاف من ذهب وأكواب  وفيها ما تشتهيه ٱلأنفس وتلذ ٱلأعين  وأنتم فيها خـلدون",
     "transliteration": "yuṭāfu ʿalayhim biṣiḥāfin min dhahabin wa-akwābin wafīhā mā tashtahīhi l-anfusu wataladhu l-aʿyunu wa-antum fīhā khālidūna",
-    "translation": "",
+    "translation": "Circulated among them will be plates and vessels of gold. And therein is whatever the souls desire and [what] delights the eyes, and you will abide therein eternally.",
     "words": [
       {
         "id": "az-zukhruf-71-1",
@@ -5656,7 +5726,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Circuleront alors parmi eux des plats et des coupes d’or. Il y aura ce que toute âme désire et dont se délectent les yeux ; et vous y séjournerez pour l’éternité."
   },
   {
     "id": "az-zukhruf-72",
@@ -5665,7 +5736,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَتِلْكَ ٱلْجَنَّةُ ٱلَّتِىٓ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "وتلك ٱلجنة ٱلتىٓ أورثتموها بما كنتم تعملون",
     "transliteration": "watil'ka l-janatu allatī ūrith'tumūhā bimā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And that is Paradise which you are made to inherit for what you used to do.",
     "words": [
       {
         "id": "az-zukhruf-72-1",
@@ -5717,7 +5788,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tel est le Paradis dont vous avez été faits les héritiers en prix de vos actions."
   },
   {
     "id": "az-zukhruf-73",
@@ -5726,7 +5798,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "لَكُمْ فِيهَا فَـٰكِهَةٌ كَثِيرَةٌ مِّنْهَا تَأْكُلُونَ",
     "textSimple": "لكم فيها فـكهة كثيرة منها تأكلون",
     "transliteration": "lakum fīhā fākihatun kathīratun min'hā takulūna",
-    "translation": "",
+    "translation": "For you therein is much fruit from which you will eat.",
     "words": [
       {
         "id": "az-zukhruf-73-1",
@@ -5771,7 +5843,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous y aurez des fruits en abondance dont vous (pourrez) manger."
   },
   {
     "id": "az-zukhruf-74",
@@ -5780,7 +5853,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُجْرِمِينَ فِى عَذَابِ جَهَنَّمَ خَـٰلِدُونَ",
     "textSimple": "إن ٱلمجرمين فى عذاب جهنم خـلدون",
     "transliteration": "inna l-muj'rimīna fī ʿadhābi jahannama khālidūna",
-    "translation": "",
+    "translation": "Indeed, the criminals will be in the punishment of Hell, abiding eternally.",
     "words": [
       {
         "id": "az-zukhruf-74-1",
@@ -5825,7 +5898,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les criminels, quant à eux, sont éternellement plongés dans le supplice de la Géhenne,"
   },
   {
     "id": "az-zukhruf-75",
@@ -5834,7 +5908,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "لَا يُفَتَّرُ عَنْهُمْ وَهُمْ فِيهِ مُبْلِسُونَ",
     "textSimple": "لا يفتر عنهم وهم فيه مبلسون",
     "transliteration": "lā yufattaru ʿanhum wahum fīhi mub'lisūna",
-    "translation": "",
+    "translation": "It will not be allowed to subside for them, and they, therein, are in despair.",
     "words": [
       {
         "id": "az-zukhruf-75-1",
@@ -5879,7 +5953,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui ne leur sera point atténué et ils y seront livrés au désespoir."
   },
   {
     "id": "az-zukhruf-76",
@@ -5888,7 +5963,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا ظَلَمْنَـٰهُمْ وَلَـٰكِن كَانُوا۟ هُمُ ٱلظَّـٰلِمِينَ",
     "textSimple": "وما ظلمنـهم ولـكن كانوا هم ٱلظـلمين",
     "transliteration": "wamā ẓalamnāhum walākin kānū humu l-ẓālimīna",
-    "translation": "",
+    "translation": "And We did not wrong them, but it was they who were the wrongdoers.",
     "words": [
       {
         "id": "az-zukhruf-76-1",
@@ -5933,7 +6008,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons point été envers eux injustes mais ils étaient eux les injustes."
   },
   {
     "id": "az-zukhruf-77",
@@ -5942,7 +6018,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَنَادَوْا۟ يَـٰمَـٰلِكُ لِيَقْضِ عَلَيْنَا رَبُّكَ ۖ قَالَ إِنَّكُم مَّـٰكِثُونَ",
     "textSimple": "ونادوا يـمـلك ليقض علينا ربك  قال إنكم مـكثون",
     "transliteration": "wanādaw yāmāliku liyaqḍi ʿalaynā rabbuka qāla innakum mākithūna",
-    "translation": "",
+    "translation": "And they will call, \"O Mālik, let your Lord put an end to us!\" He will say, \"Indeed, you will remain.\"",
     "words": [
       {
         "id": "az-zukhruf-77-1",
@@ -6001,7 +6077,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Mâlik, s’écrieront-ils, que ton Seigneur nous anéantisse ! » Il répondra : « Vous y êtes pour toujours ! »"
   },
   {
     "id": "az-zukhruf-78",
@@ -6010,7 +6087,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ جِئْنَـٰكُم بِٱلْحَقِّ وَلَـٰكِنَّ أَكْثَرَكُمْ لِلْحَقِّ كَـٰرِهُونَ",
     "textSimple": "لقد جئنـكم بٱلحق ولـكن أكثركم للحق كـرهون",
     "transliteration": "laqad ji'nākum bil-ḥaqi walākinna aktharakum lil'ḥaqqi kārihūna",
-    "translation": "",
+    "translation": "We had certainly brought you the truth, but most of you, to the truth, were averse.",
     "words": [
       {
         "id": "az-zukhruf-78-1",
@@ -6062,7 +6139,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous vous avions apporté la vérité, mais la plupart d’entre vous avaient la vérité en horreur. »"
   },
   {
     "id": "az-zukhruf-79",
@@ -6071,7 +6149,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ أَبْرَمُوٓا۟ أَمْرًا فَإِنَّا مُبْرِمُونَ",
     "textSimple": "أم أبرموٓا أمرا فإنا مبرمون",
     "transliteration": "am abramū amran fa-innā mub'rimūna",
-    "translation": "",
+    "translation": "Or have they devised [some] affair? But indeed, We are devising [a plan].",
     "words": [
       {
         "id": "az-zukhruf-79-1",
@@ -6109,7 +6187,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Trament-ils quelque intrigue ? Nous (en) tramerons (une) à Notre tour."
   },
   {
     "id": "az-zukhruf-80",
@@ -6118,7 +6197,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ يَحْسَبُونَ أَنَّا لَا نَسْمَعُ سِرَّهُمْ وَنَجْوَىٰهُم ۚ بَلَىٰ وَرُسُلُنَا لَدَيْهِمْ يَكْتُبُونَ",
     "textSimple": "أم يحسبون أنا لا نسمع سرهم ونجوىهم  بلى ورسلنا لديهم يكتبون",
     "transliteration": "am yaḥsabūna annā lā nasmaʿu sirrahum wanajwāhum balā warusulunā ladayhim yaktubūna",
-    "translation": "",
+    "translation": "Or do they think that We hear not their secrets and their private conversations? Yes, [We do], and Our messengers [i.e., angels] are with them recording.",
     "words": [
       {
         "id": "az-zukhruf-80-1",
@@ -6198,7 +6277,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Croient-ils que Nous n’entendons pas ce qu’ils (tiennent) secret et ce qu’ils (murmurent) en confidence ? Que si ! Et Nos émissaires, près d’eux, consignent tout par écrit."
   },
   {
     "id": "az-zukhruf-81",
@@ -6207,7 +6287,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِن كَانَ لِلرَّحْمَـٰنِ وَلَدٌ فَأَنَا۠ أَوَّلُ ٱلْعَـٰبِدِينَ",
     "textSimple": "قل إن كان للرحمـن ولد فأنا أول ٱلعـبدين",
     "transliteration": "qul in kāna lilrraḥmāni waladun fa-anā awwalu l-ʿābidīna",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"If the Most Merciful had a son, then I would be the first of [his] worshippers.\"",
     "words": [
       {
         "id": "az-zukhruf-81-1",
@@ -6266,7 +6346,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Si le Tout Clément avait un enfant, je serais alors le premier à l’adorer. »"
   },
   {
     "id": "az-zukhruf-82",
@@ -6275,7 +6356,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "سُبْحَـٰنَ رَبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ",
     "textSimple": "سبحـن رب ٱلسمـوت وٱلأرض رب ٱلعرش عما يصفون",
     "transliteration": "sub'ḥāna rabbi l-samāwāti wal-arḍi rabbi l-ʿarshi ʿammā yaṣifūna",
-    "translation": "",
+    "translation": "Exalted is the Lord of the heavens and the earth, Lord of the Throne, above what they describe.",
     "words": [
       {
         "id": "az-zukhruf-82-1",
@@ -6334,7 +6415,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire soit rendue au Seigneur des cieux et de la terre, Seigneur du Trône. Il est bien au-dessus de ce qu’ils décrivent."
   },
   {
     "id": "az-zukhruf-83",
@@ -6343,7 +6425,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَـٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
     "textSimple": "فذرهم يخوضوا ويلعبوا حتى يلـقوا يومهم ٱلذى يوعدون",
     "transliteration": "fadharhum yakhūḍū wayalʿabū ḥattā yulāqū yawmahumu alladhī yūʿadūna",
-    "translation": "",
+    "translation": "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised.",
     "words": [
       {
         "id": "az-zukhruf-83-1",
@@ -6402,7 +6484,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Laisse-les donc à leurs (vaines) conversations et à leurs jeux (futiles), jusqu’à ce qu’ils rencontrent le jour qui leur est promis."
   },
   {
     "id": "az-zukhruf-84",
@@ -6411,7 +6494,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَهُوَ ٱلَّذِى فِى ٱلسَّمَآءِ إِلَـٰهٌ وَفِى ٱلْأَرْضِ إِلَـٰهٌ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْعَلِيمُ",
     "textSimple": "وهو ٱلذى فى ٱلسمآء إلـه وفى ٱلأرض إلـه  وهو ٱلحكيم ٱلعليم",
     "transliteration": "wahuwa alladhī fī l-samāi ilāhun wafī l-arḍi ilāhun wahuwa l-ḥakīmu l-ʿalīmu",
-    "translation": "",
+    "translation": "And it is He [i.e., Allāh] who is [the only] deity in the heaven, and on the earth [the only] deity. And He is the Wise, the Knowing.",
     "words": [
       {
         "id": "az-zukhruf-84-1",
@@ -6491,7 +6574,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est Celui Qui est Dieu dans le ciel et Dieu sur terre, et Il est le Sage, l’Omniscient."
   },
   {
     "id": "az-zukhruf-85",
@@ -6500,7 +6584,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَتَبَارَكَ ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَعِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَإِلَيْهِ تُرْجَعُونَ",
     "textSimple": "وتبارك ٱلذى له ملك ٱلسمـوت وٱلأرض وما بينهما وعنده علم ٱلساعة وإليه ترجعون",
     "transliteration": "watabāraka alladhī lahu mul'ku l-samāwāti wal-arḍi wamā baynahumā waʿindahu ʿil'mu l-sāʿati wa-ilayhi tur'jaʿūna",
-    "translation": "",
+    "translation": "And blessed is He to whom belongs the dominion of the heavens and the earth and whatever is between them and with whom is knowledge of the Hour and to whom you will be returned.",
     "words": [
       {
         "id": "az-zukhruf-85-1",
@@ -6594,7 +6678,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Béni soit donc Celui Qui a la royauté des cieux, de la terre et de ce qu’il y a entre eux, Qui détient la science de l’Heure, et vers Qui vous serez ramenés."
   },
   {
     "id": "az-zukhruf-86",
@@ -6603,7 +6688,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَمْلِكُ ٱلَّذِينَ يَدْعُونَ مِن دُونِهِ ٱلشَّفَـٰعَةَ إِلَّا مَن شَهِدَ بِٱلْحَقِّ وَهُمْ يَعْلَمُونَ",
     "textSimple": "ولا يملك ٱلذين يدعون من دونه ٱلشفـعة إلا من شهد بٱلحق وهم يعلمون",
     "transliteration": "walā yamliku alladhīna yadʿūna min dūnihi l-shafāʿata illā man shahida bil-ḥaqi wahum yaʿlamūna",
-    "translation": "",
+    "translation": "And those they invoke besides Him do not possess [power of] intercession; but only those who testify to the truth [can benefit], and they know.",
     "words": [
       {
         "id": "az-zukhruf-86-1",
@@ -6697,7 +6782,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui sont invoqués en dehors de Lui ne disposent d’aucun pouvoir d’intercession. Seuls (pourront intercéder) ceux qui auront témoigné de la vérité en toute connaissance."
   },
   {
     "id": "az-zukhruf-87",
@@ -6706,7 +6792,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَهُمْ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
     "textSimple": "ولئن سألتهم من خلقهم ليقولن ٱلله  فأنى يؤفكون",
     "transliteration": "wala-in sa-altahum man khalaqahum layaqūlunna l-lahu fa-annā yu'fakūna",
-    "translation": "",
+    "translation": "And if you asked them who created them, they would surely say, \"Allāh.\" So how are they deluded?",
     "words": [
       {
         "id": "az-zukhruf-87-1",
@@ -6765,7 +6851,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si tu leur demandes Qui les a créés, ils diront : « Allah ! » Comment peuvent-ils donc se détourner de Lui ?"
   },
   {
     "id": "az-zukhruf-88",
@@ -6774,7 +6861,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "وَقِيلِهِۦ يَـٰرَبِّ إِنَّ هَـٰٓؤُلَآءِ قَوْمٌ لَّا يُؤْمِنُونَ",
     "textSimple": "وقيله يـرب إن هـٓؤلآء قوم لا يؤمنون",
     "transliteration": "waqīlihi yārabbi inna hāulāi qawmun lā yu'minūna",
-    "translation": "",
+    "translation": "And [Allāh acknowledges] his saying, \"O my Lord, indeed these are a people who do not believe.\"",
     "words": [
       {
         "id": "az-zukhruf-88-1",
@@ -6826,7 +6913,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et telle était la plainte (du Prophète) : « Seigneur ! Ces gens ne croient pas. »"
   },
   {
     "id": "az-zukhruf-89",
@@ -6835,7 +6923,7 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْفَحْ عَنْهُمْ وَقُلْ سَلَـٰمٌ ۚ فَسَوْفَ يَعْلَمُونَ",
     "textSimple": "فٱصفح عنهم وقل سلـم  فسوف يعلمون",
     "transliteration": "fa-iṣ'faḥ ʿanhum waqul salāmun fasawfa yaʿlamūna",
-    "translation": "",
+    "translation": "So turn aside from them and say, \"Peace.\" But they are going to know.",
     "words": [
       {
         "id": "az-zukhruf-89-1",
@@ -6880,7 +6968,8 @@ export const AZ_ZUKHRUF_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détourne-toi donc d’eux (en leur pardonnant) et dis : « Paix ! (Salâm) ». Bientôt ils sauront."
   }
 ];
 

@@ -32,6 +32,7 @@ export interface Ayah {
   tajweedRules: TajweedOccurrence[];
   transliteration: string;
   translation: string;
+  translationFr?: string;
   audioUrl?: string;
   audioTimestamps?: WordTimestamp[];
 }

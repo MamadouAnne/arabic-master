@@ -11,7 +11,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلصَّـٰٓفَّـٰتِ صَفًّا",
     "textSimple": " وٱلصـٓفـت صفا",
     "transliteration": "wal-ṣāfāti ṣaffan",
-    "translation": "",
+    "translation": "By those [angels] lined up in rows",
     "words": [
       {
         "id": "as-saffat-1-1",
@@ -28,7 +28,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par (les Anges) qui se tiennent harmonieusement alignés,"
   },
   {
     "id": "as-saffat-2",
@@ -37,7 +38,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلزَّٰجِرَٰتِ زَجْرًا",
     "textSimple": "فٱلزجرت زجرا",
     "transliteration": "fal-zājirāti zajran",
-    "translation": "",
+    "translation": "And those who drive [the clouds]",
     "words": [
       {
         "id": "as-saffat-2-1",
@@ -54,7 +55,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui poussent énergiquement (les nuages),"
   },
   {
     "id": "as-saffat-3",
@@ -63,7 +65,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلتَّـٰلِيَـٰتِ ذِكْرًا",
     "textSimple": "فٱلتـليـت ذكرا",
     "transliteration": "fal-tāliyāti dhik'ran",
-    "translation": "",
+    "translation": "And those who recite the message,",
     "words": [
       {
         "id": "as-saffat-3-1",
@@ -80,7 +82,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui récitent le Rappel."
   },
   {
     "id": "as-saffat-4",
@@ -89,7 +92,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ إِلَـٰهَكُمْ لَوَٰحِدٌ",
     "textSimple": "إن إلـهكم لوحد",
     "transliteration": "inna ilāhakum lawāḥidun",
-    "translation": "",
+    "translation": "Indeed, your God is One,",
     "words": [
       {
         "id": "as-saffat-4-1",
@@ -113,7 +116,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Dieu est Un ;"
   },
   {
     "id": "as-saffat-5",
@@ -122,7 +126,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "رَّبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَـٰرِقِ",
     "textSimple": "رب ٱلسمـوت وٱلأرض وما بينهما ورب ٱلمشـرق",
     "transliteration": "rabbu l-samāwāti wal-arḍi wamā baynahumā warabbu l-mashāriqi",
-    "translation": "",
+    "translation": "Lord of the heavens and the earth and that between them and Lord of the sunrises.",
     "words": [
       {
         "id": "as-saffat-5-1",
@@ -174,7 +178,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "le Seigneur des cieux, de la terre, et de ce qu’il y a entre eux, le Seigneur des (divers) orients."
   },
   {
     "id": "as-saffat-6",
@@ -183,7 +188,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِزِينَةٍ ٱلْكَوَاكِبِ",
     "textSimple": "إنا زينا ٱلسمآء ٱلدنيا بزينة ٱلكواكب",
     "transliteration": "innā zayyannā l-samāa l-dun'yā bizīnatin l-kawākibi",
-    "translation": "",
+    "translation": "Indeed, We have adorned the nearest heaven with an adornment of stars",
     "words": [
       {
         "id": "as-saffat-6-1",
@@ -228,7 +233,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons paré le ciel le plus proche d’une parure (que sont) les étoiles,"
   },
   {
     "id": "as-saffat-7",
@@ -237,7 +243,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَحِفْظًا مِّن كُلِّ شَيْطَـٰنٍ مَّارِدٍ",
     "textSimple": "وحفظا من كل شيطـن مارد",
     "transliteration": "waḥif'ẓan min kulli shayṭānin māridin",
-    "translation": "",
+    "translation": "And as protection against every rebellious devil",
     "words": [
       {
         "id": "as-saffat-7-1",
@@ -275,7 +281,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et l’avons soigneusement protégé de tout démon rebelle."
   },
   {
     "id": "as-saffat-8",
@@ -284,7 +291,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَسَّمَّعُونَ إِلَى ٱلْمَلَإِ ٱلْأَعْلَىٰ وَيُقْذَفُونَ مِن كُلِّ جَانِبٍ",
     "textSimple": "لا يسمعون إلى ٱلملإ ٱلأعلى ويقذفون من كل جانب",
     "transliteration": "lā yassammaʿūna ilā l-mala-i l-aʿlā wayuq'dhafūna min kulli jānibin",
-    "translation": "",
+    "translation": "[So] they may not listen to the exalted assembly [of angels] and are pelted from every side,",
     "words": [
       {
         "id": "as-saffat-8-1",
@@ -350,7 +357,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ne peuvent écouter l’Assemblée Supérieure, car ils seront assaillis de tous côtés."
   },
   {
     "id": "as-saffat-9",
@@ -359,7 +367,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "دُحُورًا ۖ وَلَهُمْ عَذَابٌ وَاصِبٌ",
     "textSimple": "دحورا  ولهم عذاب واصب",
     "transliteration": "duḥūran walahum ʿadhābun wāṣibun",
-    "translation": "",
+    "translation": "Repelled; and for them is a constant punishment,",
     "words": [
       {
         "id": "as-saffat-9-1",
@@ -390,7 +398,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils sont au loin refoulés et auront un supplice permanent."
   },
   {
     "id": "as-saffat-10",
@@ -399,7 +408,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌ ثَاقِبٌ",
     "textSimple": "إلا من خطف ٱلخطفة فأتبعه شهاب ثاقب",
     "transliteration": "illā man khaṭifa l-khaṭfata fa-atbaʿahu shihābun thāqibun",
-    "translation": "",
+    "translation": "Except one who snatches [some words] by theft, but they are pursued by a burning flame, piercing [in brightness].",
     "words": [
       {
         "id": "as-saffat-10-1",
@@ -451,7 +460,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À l’exception de celui qui intercepte furtivement quelques propos, celui-là est alors suivi par un météore (à l’éclat) pénétrant."
   },
   {
     "id": "as-saffat-11",
@@ -460,7 +470,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَـٰهُم مِّن طِينٍ لَّازِبٍۭ",
     "textSimple": "فٱستفتهم أهم أشد خلقا أم من خلقنآ  إنا خلقنـهم من طين لازب",
     "transliteration": "fa-is'taftihim ahum ashaddu khalqan am man khalaqnā innā khalaqnāhum min ṭīnin lāzibin",
-    "translation": "",
+    "translation": "Then inquire of them, [O Muḥammad], \"Are they a stronger [or more difficult] creation or those [others] We have created?\" Indeed, We created them [i.e., men] from sticky clay.",
     "words": [
       {
         "id": "as-saffat-11-1",
@@ -547,7 +557,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande-leur (aux mécréants) qui est plus difficile à créer : eux ou ceux que Nous avons créés ? Nous les avons créés d’argile gluante."
   },
   {
     "id": "as-saffat-12",
@@ -556,7 +567,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ عَجِبْتَ وَيَسْخَرُونَ",
     "textSimple": "بل عجبت ويسخرون",
     "transliteration": "bal ʿajib'ta wayaskharūna",
-    "translation": "",
+    "translation": "But you wonder, while they mock,",
     "words": [
       {
         "id": "as-saffat-12-1",
@@ -580,7 +591,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Toi tu t’étonnes, et eux ils se moquent !"
   },
   {
     "id": "as-saffat-13",
@@ -589,7 +601,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا ذُكِّرُوا۟ لَا يَذْكُرُونَ",
     "textSimple": "وإذا ذكروا لا يذكرون",
     "transliteration": "wa-idhā dhukkirū lā yadhkurūna",
-    "translation": "",
+    "translation": "And when they are reminded, they remember not.",
     "words": [
       {
         "id": "as-saffat-13-1",
@@ -620,7 +632,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand (le Coran) leur est rappelé, ils ne se rappellent point."
   },
   {
     "id": "as-saffat-14",
@@ -629,7 +642,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذَا رَأَوْا۟ ءَايَةً يَسْتَسْخِرُونَ",
     "textSimple": "وإذا رأوا ءاية يستسخرون",
     "transliteration": "wa-idhā ra-aw āyatan yastaskhirūna",
-    "translation": "",
+    "translation": "And when they see a sign, they ridicule.",
     "words": [
       {
         "id": "as-saffat-14-1",
@@ -660,7 +673,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quand ils voient un Signe, ils s’en moquent encore."
   },
   {
     "id": "as-saffat-15",
@@ -669,7 +683,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوٓا۟ إِنْ هَـٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
     "textSimple": "وقالوٓا إن هـذآ إلا سحر مبين",
     "transliteration": "waqālū in hādhā illā siḥ'run mubīnun",
-    "translation": "",
+    "translation": "And say, \"This is not but obvious magic.",
     "words": [
       {
         "id": "as-saffat-15-1",
@@ -714,7 +728,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « C’est là de la pure magie !"
   },
   {
     "id": "as-saffat-16",
@@ -723,7 +738,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
     "textSimple": "أءذا متنا وكنا ترابا وعظـما أءنا لمبعوثون",
     "transliteration": "a-idhā mit'nā wakunnā turāban waʿiẓāman a-innā lamabʿūthūna",
-    "translation": "",
+    "translation": "When we have died and become dust and bones, are we indeed to be resurrected?",
     "words": [
       {
         "id": "as-saffat-16-1",
@@ -775,7 +790,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-il donc possible qu’une fois morts, réduits en poussière et en ossements, nous soyons ressuscités ?"
   },
   {
     "id": "as-saffat-17",
@@ -784,7 +800,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ",
     "textSimple": "أوءابآؤنا ٱلأولون",
     "transliteration": "awaābāunā l-awalūna",
-    "translation": "",
+    "translation": "And our forefathers [as well]?\"",
     "words": [
       {
         "id": "as-saffat-17-1",
@@ -801,7 +817,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et en sera-t-il de même de nos premiers ancêtres ? »"
   },
   {
     "id": "as-saffat-18",
@@ -810,7 +827,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ نَعَمْ وَأَنتُمْ دَٰخِرُونَ",
     "textSimple": "قل نعم وأنتم دخرون",
     "transliteration": "qul naʿam wa-antum dākhirūna",
-    "translation": "",
+    "translation": "Say, \"Yes, and you will be [rendered] contemptible.\"",
     "words": [
       {
         "id": "as-saffat-18-1",
@@ -841,7 +858,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Oui, et vous (en) serez tout humiliés. »"
   },
   {
     "id": "as-saffat-19",
@@ -850,7 +868,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ فَإِذَا هُمْ يَنظُرُونَ",
     "textSimple": "فإنما هى زجرة وحدة فإذا هم ينظرون",
     "transliteration": "fa-innamā hiya zajratun wāḥidatun fa-idhā hum yanẓurūna",
-    "translation": "",
+    "translation": "It will be only one shout, and at once they will be observing.",
     "words": [
       {
         "id": "as-saffat-19-1",
@@ -902,7 +920,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y aura certes qu’un seul Cri et ils seront là à observer."
   },
   {
     "id": "as-saffat-20",
@@ -911,7 +930,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ يَـٰوَيْلَنَا هَـٰذَا يَوْمُ ٱلدِّينِ",
     "textSimple": "وقالوا يـويلنا هـذا يوم ٱلدين",
     "transliteration": "waqālū yāwaylanā hādhā yawmu l-dīni",
-    "translation": "",
+    "translation": "They will say, \"O woe to us! This is the Day of Recompense.\"",
     "words": [
       {
         "id": "as-saffat-20-1",
@@ -949,7 +968,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : « Malheur à nous, c’est bien le Jour de la Rétribution ! »"
   },
   {
     "id": "as-saffat-21",
@@ -958,7 +978,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰذَا يَوْمُ ٱلْفَصْلِ ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
     "textSimple": "هـذا يوم ٱلفصل ٱلذى كنتم به تكذبون",
     "transliteration": "hādhā yawmu l-faṣli alladhī kuntum bihi tukadhibūna",
-    "translation": "",
+    "translation": "[They will be told], \"This is the Day of Judgement which you used to deny.\"",
     "words": [
       {
         "id": "as-saffat-21-1",
@@ -1010,7 +1030,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il leur sera répondu : « Oui, c’est le Jour du Jugement que vous teniez pour un mensonge."
   },
   {
     "id": "as-saffat-22",
@@ -1019,7 +1040,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ ٱحْشُرُوا۟ ٱلَّذِينَ ظَلَمُوا۟ وَأَزْوَٰجَهُمْ وَمَا كَانُوا۟ يَعْبُدُونَ",
     "textSimple": " ٱحشروا ٱلذين ظلموا وأزوجهم وما كانوا يعبدون",
     "transliteration": "uḥ'shurū alladhīna ẓalamū wa-azwājahum wamā kānū yaʿbudūna",
-    "translation": "",
+    "translation": "[The angels will be ordered], \"Gather those who committed wrong, their kinds, and what they used to worship",
     "words": [
       {
         "id": "as-saffat-22-1",
@@ -1071,7 +1092,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que soient donc rassemblés ceux qui ont commis des injustices, ainsi que leurs semblables et tout ce qu’ils adoraient,"
   },
   {
     "id": "as-saffat-23",
@@ -1080,7 +1102,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "مِن دُونِ ٱللَّهِ فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ",
     "textSimple": "من دون ٱلله فٱهدوهم إلى صرط ٱلجحيم",
     "transliteration": "min dūni l-lahi fa-ih'dūhum ilā ṣirāṭi l-jaḥīmi",
-    "translation": "",
+    "translation": "Other than Allāh, and guide them to the path of Hellfire",
     "words": [
       {
         "id": "as-saffat-23-1",
@@ -1132,7 +1154,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "en dehors d’Allah. Conduisez-les vers la voie (menant à) la Fournaise !"
   },
   {
     "id": "as-saffat-24",
@@ -1141,7 +1164,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقِفُوهُمْ ۖ إِنَّهُم مَّسْـُٔولُونَ",
     "textSimple": "وقفوهم  إنهم مسـٔولون",
     "transliteration": "waqifūhum innahum masūlūna",
-    "translation": "",
+    "translation": "And stop them; indeed, they are to be questioned.\"",
     "words": [
       {
         "id": "as-saffat-24-1",
@@ -1165,7 +1188,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Arrêtez-les, car ils seront questionnés ! »"
   },
   {
     "id": "as-saffat-25",
@@ -1174,7 +1198,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "مَا لَكُمْ لَا تَنَاصَرُونَ",
     "textSimple": "ما لكم لا تناصرون",
     "transliteration": "mā lakum lā tanāṣarūna",
-    "translation": "",
+    "translation": "[They will be asked], \"What is [wrong] with you? Why do you not help each other?\"",
     "words": [
       {
         "id": "as-saffat-25-1",
@@ -1205,7 +1229,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Pourquoi ne vous portez-vous pas secours les uns aux autres ? » (leur sera-t-il dit)."
   },
   {
     "id": "as-saffat-26",
@@ -1214,7 +1239,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ هُمُ ٱلْيَوْمَ مُسْتَسْلِمُونَ",
     "textSimple": "بل هم ٱليوم مستسلمون",
     "transliteration": "bal humu l-yawma mus'taslimūna",
-    "translation": "",
+    "translation": "But they, that Day, are in surrender.",
     "words": [
       {
         "id": "as-saffat-26-1",
@@ -1245,7 +1270,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais, ce jour-là, ils seront résignés."
   },
   {
     "id": "as-saffat-27",
@@ -1254,7 +1280,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَسَآءَلُونَ",
     "textSimple": "وأقبل بعضهم على بعض يتسآءلون",
     "transliteration": "wa-aqbala baʿḍuhum ʿalā baʿḍin yatasāalūna",
-    "translation": "",
+    "translation": "And they will approach one another asking [i.e., blaming] each other.",
     "words": [
       {
         "id": "as-saffat-27-1",
@@ -1292,7 +1318,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les uns se tourneront alors vers les autres et les interrogeront."
   },
   {
     "id": "as-saffat-28",
@@ -1301,7 +1328,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنَّكُمْ كُنتُمْ تَأْتُونَنَا عَنِ ٱلْيَمِينِ",
     "textSimple": "قالوٓا إنكم كنتم تأتوننا عن ٱليمين",
     "transliteration": "qālū innakum kuntum tatūnanā ʿani l-yamīni",
-    "translation": "",
+    "translation": "They will say, \"Indeed, you used to come at us from the right.\"",
     "words": [
       {
         "id": "as-saffat-28-1",
@@ -1346,7 +1373,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : « Vous veniez à nous par la force (pour nous obliger à mécroire). »"
   },
   {
     "id": "as-saffat-29",
@@ -1355,7 +1383,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ بَل لَّمْ تَكُونُوا۟ مُؤْمِنِينَ",
     "textSimple": "قالوا بل لم تكونوا مؤمنين",
     "transliteration": "qālū bal lam takūnū mu'minīna",
-    "translation": "",
+    "translation": "They [i.e., the oppressors] will say, \"Rather, you [yourselves] were not believers,",
     "words": [
       {
         "id": "as-saffat-29-1",
@@ -1393,7 +1421,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est plutôt vous, leur répondront (leurs chefs), qui n’étiez pas croyants."
   },
   {
     "id": "as-saffat-30",
@@ -1402,7 +1431,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَـٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًا طَـٰغِينَ",
     "textSimple": "وما كان لنا عليكم من سلطـن  بل كنتم قوما طـغين",
     "transliteration": "wamā kāna lanā ʿalaykum min sul'ṭānin bal kuntum qawman ṭāghīna",
-    "translation": "",
+    "translation": "And we had over you no authority, but you were a transgressing people.",
     "words": [
       {
         "id": "as-saffat-30-1",
@@ -1475,7 +1504,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et nous n’avions aucune autorité sur vous. Vous étiez vous-mêmes portés à la transgression."
   },
   {
     "id": "as-saffat-31",
@@ -1484,7 +1514,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ ۖ إِنَّا لَذَآئِقُونَ",
     "textSimple": "فحق علينا قول ربنآ  إنا لذآئقون",
     "transliteration": "faḥaqqa ʿalaynā qawlu rabbinā innā ladhāiqūna",
-    "translation": "",
+    "translation": "So the word [i.e., decree] of our Lord has come into effect upon us; indeed, we will taste [punishment].",
     "words": [
       {
         "id": "as-saffat-31-1",
@@ -1529,7 +1559,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le verdict de notre Seigneur s’est donc accompli contre nous, et nous allons certainement goûter (le supplice)."
   },
   {
     "id": "as-saffat-32",
@@ -1538,7 +1569,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَغْوَيْنَـٰكُمْ إِنَّا كُنَّا غَـٰوِينَ",
     "textSimple": "فأغوينـكم إنا كنا غـوين",
     "transliteration": "fa-aghwaynākum innā kunnā ghāwīna",
-    "translation": "",
+    "translation": "And we led you to deviation; indeed, we were deviators.\"",
     "words": [
       {
         "id": "as-saffat-32-1",
@@ -1569,7 +1600,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous vous avons certes dévoyés car nous étions nous-mêmes dévoyés. »"
   },
   {
     "id": "as-saffat-33",
@@ -1578,7 +1610,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّهُمْ يَوْمَئِذٍ فِى ٱلْعَذَابِ مُشْتَرِكُونَ",
     "textSimple": "فإنهم يومئذ فى ٱلعذاب مشتركون",
     "transliteration": "fa-innahum yawma-idhin fī l-ʿadhābi mush'tarikūna",
-    "translation": "",
+    "translation": "So indeed they, that Day, will be sharing in the punishment.",
     "words": [
       {
         "id": "as-saffat-33-1",
@@ -1616,7 +1648,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, ils subiront en commun le même supplice."
   },
   {
     "id": "as-saffat-34",
@@ -1625,7 +1658,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
     "textSimple": "إنا كذلك نفعل بٱلمجرمين",
     "transliteration": "innā kadhālika nafʿalu bil-muj'rimīna",
-    "translation": "",
+    "translation": "Indeed, that is how We deal with the criminals.",
     "words": [
       {
         "id": "as-saffat-34-1",
@@ -1656,7 +1689,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ce que, certainement, Nous ferons des criminels."
   },
   {
     "id": "as-saffat-35",
@@ -1665,7 +1699,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ كَانُوٓا۟ إِذَا قِيلَ لَهُمْ لَآ إِلَـٰهَ إِلَّا ٱللَّهُ يَسْتَكْبِرُونَ",
     "textSimple": "إنهم كانوٓا إذا قيل لهم لآ إلـه إلا ٱلله يستكبرون",
     "transliteration": "innahum kānū idhā qīla lahum lā ilāha illā l-lahu yastakbirūna",
-    "translation": "",
+    "translation": "Indeed they, when it was said to them, \"There is no deity but Allāh,\" were arrogant",
     "words": [
       {
         "id": "as-saffat-35-1",
@@ -1738,7 +1772,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Eux, qui, lorsqu’il leur était dit : « Il n’y a point d’autre divinité qu’Allah » se montraient dédaigneux,"
   },
   {
     "id": "as-saffat-36",
@@ -1747,7 +1782,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ ءَالِهَتِنَا لِشَاعِرٍ مَّجْنُونٍۭ",
     "textSimple": "ويقولون أئنا لتاركوٓا ءالهتنا لشاعر مجنون",
     "transliteration": "wayaqūlūna a-innā latārikū ālihatinā lishāʿirin majnūnin",
-    "translation": "",
+    "translation": "And were saying, \"Are we to leave our gods for a mad poet?\"",
     "words": [
       {
         "id": "as-saffat-36-1",
@@ -1792,7 +1827,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et disaient : « Devons-nous renoncer à nos divinités au profit d’un poète fou ? »"
   },
   {
     "id": "as-saffat-37",
@@ -1801,7 +1837,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "بَلْ جَآءَ بِٱلْحَقِّ وَصَدَّقَ ٱلْمُرْسَلِينَ",
     "textSimple": "بل جآء بٱلحق وصدق ٱلمرسلين",
     "transliteration": "bal jāa bil-ḥaqi waṣaddaqa l-mur'salīna",
-    "translation": "",
+    "translation": "Rather, he [i.e., the Prophet (ﷺ)] has come with the truth and confirmed the [previous] messengers.",
     "words": [
       {
         "id": "as-saffat-37-1",
@@ -1839,7 +1875,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Non, il est venu apporter la vérité et confirmer les paroles des Messagers."
   },
   {
     "id": "as-saffat-38",
@@ -1848,7 +1885,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكُمْ لَذَآئِقُوا۟ ٱلْعَذَابِ ٱلْأَلِيمِ",
     "textSimple": "إنكم لذآئقوا ٱلعذاب ٱلأليم",
     "transliteration": "innakum ladhāiqū l-ʿadhābi l-alīmi",
-    "translation": "",
+    "translation": "Indeed, you [disbelievers] will be tasters of the painful punishment,",
     "words": [
       {
         "id": "as-saffat-38-1",
@@ -1879,7 +1916,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous allez certes goûter le supplice très douloureux,"
   },
   {
     "id": "as-saffat-39",
@@ -1888,7 +1926,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
     "textSimple": "وما تجزون إلا ما كنتم تعملون",
     "transliteration": "wamā tuj'zawna illā mā kuntum taʿmalūna",
-    "translation": "",
+    "translation": "And you will not be recompensed except for what you used to do -",
     "words": [
       {
         "id": "as-saffat-39-1",
@@ -1933,7 +1971,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et n’aurez pour rétribution que le prix des actions que vous aurez commises,"
   },
   {
     "id": "as-saffat-40",
@@ -1942,7 +1981,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
     "textSimple": "إلا عباد ٱلله ٱلمخلصين",
     "transliteration": "illā ʿibāda l-lahi l-mukh'laṣīna",
-    "translation": "",
+    "translation": "But not the chosen servants of Allāh.",
     "words": [
       {
         "id": "as-saffat-40-1",
@@ -1973,7 +2012,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté les élus parmi les serviteurs d’Allah."
   },
   {
     "id": "as-saffat-41",
@@ -1982,7 +2022,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أُو۟لَـٰٓئِكَ لَهُمْ رِزْقٌ مَّعْلُومٌ",
     "textSimple": "أولـٓئك لهم رزق معلوم",
     "transliteration": "ulāika lahum riz'qun maʿlūmun",
-    "translation": "",
+    "translation": "Those will have a provision determined -",
     "words": [
       {
         "id": "as-saffat-41-1",
@@ -2013,7 +2053,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux-là auront (droit à) une récompense bien connue :"
   },
   {
     "id": "as-saffat-42",
@@ -2022,7 +2063,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ",
     "textSimple": "فوكه  وهم مكرمون",
     "transliteration": "fawākihu wahum muk'ramūna",
-    "translation": "",
+    "translation": "Fruits; and they will be honored",
     "words": [
       {
         "id": "as-saffat-42-1",
@@ -2046,7 +2087,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "des fruits. Et ils seront honorés,"
   },
   {
     "id": "as-saffat-43",
@@ -2055,7 +2097,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فِى جَنَّـٰتِ ٱلنَّعِيمِ",
     "textSimple": "فى جنـت ٱلنعيم",
     "transliteration": "fī jannāti l-naʿīmi",
-    "translation": "",
+    "translation": "In gardens of pleasure",
     "words": [
       {
         "id": "as-saffat-43-1",
@@ -2079,7 +2121,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "au milieu des Jardins des délices,"
   },
   {
     "id": "as-saffat-44",
@@ -2088,7 +2131,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "عَلَىٰ سُرُرٍ مُّتَقَـٰبِلِينَ",
     "textSimple": "على سرر متقـبلين",
     "transliteration": "ʿalā sururin mutaqābilīna",
-    "translation": "",
+    "translation": "On thrones facing one another.",
     "words": [
       {
         "id": "as-saffat-44-1",
@@ -2112,7 +2155,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sur des couches et se faisant face."
   },
   {
     "id": "as-saffat-45",
@@ -2121,7 +2165,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "يُطَافُ عَلَيْهِم بِكَأْسٍ مِّن مَّعِينٍۭ",
     "textSimple": "يطاف عليهم بكأس من معين",
     "transliteration": "yuṭāfu ʿalayhim bikasin min maʿīnin",
-    "translation": "",
+    "translation": "There will be circulated among them a cup [of wine] from a flowing spring,",
     "words": [
       {
         "id": "as-saffat-45-1",
@@ -2159,7 +2203,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Sera alors tournée entre eux une coupe remplie d’une source"
   },
   {
     "id": "as-saffat-46",
@@ -2168,7 +2213,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "بَيْضَآءَ لَذَّةٍ لِّلشَّـٰرِبِينَ",
     "textSimple": "بيضآء لذة للشـربين",
     "transliteration": "bayḍāa ladhatin lilshāribīna",
-    "translation": "",
+    "translation": "White and delicious to the drinkers;",
     "words": [
       {
         "id": "as-saffat-46-1",
@@ -2192,7 +2237,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "blanche et que les buveurs trouveront délicieuse."
   },
   {
     "id": "as-saffat-47",
@@ -2201,7 +2247,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "لَا فِيهَا غَوْلٌ وَلَا هُمْ عَنْهَا يُنزَفُونَ",
     "textSimple": "لا فيها غول ولا هم عنها ينزفون",
     "transliteration": "lā fīhā ghawlun walā hum ʿanhā yunzafūna",
-    "translation": "",
+    "translation": "No bad effect is there in it, nor from it will they be intoxicated.",
     "words": [
       {
         "id": "as-saffat-47-1",
@@ -2253,7 +2299,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Elle ne leur causera ni migraine ni ivresse."
   },
   {
     "id": "as-saffat-48",
@@ -2262,7 +2309,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَعِندَهُمْ قَـٰصِرَٰتُ ٱلطَّرْفِ عِينٌ",
     "textSimple": "وعندهم قـصرت ٱلطرف عين",
     "transliteration": "waʿindahum qāṣirātu l-ṭarfi ʿīnun",
-    "translation": "",
+    "translation": "And with them will be women limiting [their] glances, with large, [beautiful] eyes,",
     "words": [
       {
         "id": "as-saffat-48-1",
@@ -2293,7 +2340,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À leurs côtés, il y aura des femmes (jeunes) au regard chaste, aux grands yeux noirs"
   },
   {
     "id": "as-saffat-49",
@@ -2302,7 +2350,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "كَأَنَّهُنَّ بَيْضٌ مَّكْنُونٌ",
     "textSimple": "كأنهن بيض مكنون",
     "transliteration": "ka-annahunna bayḍun maknūnun",
-    "translation": "",
+    "translation": "As if they were [delicate] eggs, well-protected.",
     "words": [
       {
         "id": "as-saffat-49-1",
@@ -2326,7 +2374,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et à (la peau) d’une blancheur semblable à celle des œufs bien gardés."
   },
   {
     "id": "as-saffat-50",
@@ -2335,7 +2384,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَسَآءَلُونَ",
     "textSimple": "فأقبل بعضهم على بعض يتسآءلون",
     "transliteration": "fa-aqbala baʿḍuhum ʿalā baʿḍin yatasāalūna",
-    "translation": "",
+    "translation": "And they will approach one another, inquiring of each other.",
     "words": [
       {
         "id": "as-saffat-50-1",
@@ -2373,7 +2422,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les uns se tourneront alors vers les autres et s’interrogeront."
   },
   {
     "id": "as-saffat-51",
@@ -2382,7 +2432,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ قَآئِلٌ مِّنْهُمْ إِنِّى كَانَ لِى قَرِينٌ",
     "textSimple": "قال قآئل منهم إنى كان لى قرين",
     "transliteration": "qāla qāilun min'hum innī kāna lī qarīnun",
-    "translation": "",
+    "translation": "A speaker among them will say, \"Indeed, I had a companion [on earth].",
     "words": [
       {
         "id": "as-saffat-51-1",
@@ -2434,7 +2484,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’un d’eux dira : « J’avais un compagnon,"
   },
   {
     "id": "as-saffat-52",
@@ -2443,7 +2494,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "يَقُولُ أَءِنَّكَ لَمِنَ ٱلْمُصَدِّقِينَ",
     "textSimple": "يقول أءنك لمن ٱلمصدقين",
     "transliteration": "yaqūlu a-innaka lamina l-muṣadiqīna",
-    "translation": "",
+    "translation": "Who would say, 'Are you indeed of those who believe",
     "words": [
       {
         "id": "as-saffat-52-1",
@@ -2474,7 +2525,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qui (me) demandait : \"Es-tu vraiment de ceux qui croient ?"
   },
   {
     "id": "as-saffat-53",
@@ -2483,7 +2535,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَدِينُونَ",
     "textSimple": "أءذا متنا وكنا ترابا وعظـما أءنا لمدينون",
     "transliteration": "a-idhā mit'nā wakunnā turāban waʿiẓāman a-innā lamadīnūna",
-    "translation": "",
+    "translation": "That when we have died and become dust and bones, we will indeed be recompensed?'\"",
     "words": [
       {
         "id": "as-saffat-53-1",
@@ -2535,7 +2587,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Une fois morts, réduits en poussière et ossements, aurons-nous à répondre de (nos actes) ?\" »"
   },
   {
     "id": "as-saffat-54",
@@ -2544,7 +2597,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هَلْ أَنتُم مُّطَّلِعُونَ",
     "textSimple": "قال هل أنتم مطلعون",
     "transliteration": "qāla hal antum muṭṭaliʿūna",
-    "translation": "",
+    "translation": "He will say, \"Would you [care to] look?\"",
     "words": [
       {
         "id": "as-saffat-54-1",
@@ -2575,7 +2628,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Voulez-vous bien regarder d’en haut ? » proposera-t-il (à ses compagnons du Paradis). »"
   },
   {
     "id": "as-saffat-55",
@@ -2584,7 +2638,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱطَّلَعَ فَرَءَاهُ فِى سَوَآءِ ٱلْجَحِيمِ",
     "textSimple": "فٱطلع فرءاه فى سوآء ٱلجحيم",
     "transliteration": "fa-iṭṭalaʿa faraāhu fī sawāi l-jaḥīmi",
-    "translation": "",
+    "translation": "And he will look and see him in the midst of the Hellfire.",
     "words": [
       {
         "id": "as-saffat-55-1",
@@ -2622,7 +2676,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il regardera d’en haut et le verra au fin fond de la Fournaise."
   },
   {
     "id": "as-saffat-56",
@@ -2631,7 +2686,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ تَٱللَّهِ إِن كِدتَّ لَتُرْدِينِ",
     "textSimple": "قال تٱلله إن كدت لتردين",
     "transliteration": "qāla tal-lahi in kidtta latur'dīni",
-    "translation": "",
+    "translation": "He will say, \"By Allāh, you almost ruined me.",
     "words": [
       {
         "id": "as-saffat-56-1",
@@ -2669,7 +2724,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Par Allah, lui dira-t-il, tu as failli me conduire à ma perte !"
   },
   {
     "id": "as-saffat-57",
@@ -2678,7 +2734,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَا نِعْمَةُ رَبِّى لَكُنتُ مِنَ ٱلْمُحْضَرِينَ",
     "textSimple": "ولولا نعمة ربى لكنت من ٱلمحضرين",
     "transliteration": "walawlā niʿ'matu rabbī lakuntu mina l-muḥ'ḍarīna",
-    "translation": "",
+    "translation": "If not for the favor of my Lord, I would have been of those brought in [to Hell].",
     "words": [
       {
         "id": "as-saffat-57-1",
@@ -2723,7 +2779,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’eût été la grâce de mon Seigneur, j’aurais été du nombre de ceux (appelés) à comparaître (pour le supplice)."
   },
   {
     "id": "as-saffat-58",
@@ -2732,7 +2789,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَا نَحْنُ بِمَيِّتِينَ",
     "textSimple": "أفما نحن بميتين",
     "transliteration": "afamā naḥnu bimayyitīna",
-    "translation": "",
+    "translation": "Then, are we not to die",
     "words": [
       {
         "id": "as-saffat-58-1",
@@ -2756,7 +2813,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’est-ce donc pas vrai que nous n’avons à mourir"
   },
   {
     "id": "as-saffat-59",
@@ -2765,7 +2823,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَوْتَتَنَا ٱلْأُولَىٰ وَمَا نَحْنُ بِمُعَذَّبِينَ",
     "textSimple": "إلا موتتنا ٱلأولى وما نحن بمعذبين",
     "transliteration": "illā mawtatanā l-ūlā wamā naḥnu bimuʿadhabīna",
-    "translation": "",
+    "translation": "Except for our first death, and we will not be punished?\"",
     "words": [
       {
         "id": "as-saffat-59-1",
@@ -2810,7 +2868,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que de notre première mort et point ne subirons le supplice ?"
   },
   {
     "id": "as-saffat-60",
@@ -2819,7 +2878,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا لَهُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
     "textSimple": "إن هـذا لهو ٱلفوز ٱلعظيم",
     "transliteration": "inna hādhā lahuwa l-fawzu l-ʿaẓīmu",
-    "translation": "",
+    "translation": "Indeed, this is the great attainment.",
     "words": [
       {
         "id": "as-saffat-60-1",
@@ -2857,7 +2916,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est bien là le succès suprême !"
   },
   {
     "id": "as-saffat-61",
@@ -2866,7 +2926,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "لِمِثْلِ هَـٰذَا فَلْيَعْمَلِ ٱلْعَـٰمِلُونَ",
     "textSimple": "لمثل هـذا فليعمل ٱلعـملون",
     "transliteration": "limith'li hādhā falyaʿmali l-ʿāmilūna",
-    "translation": "",
+    "translation": "For the like of this let the workers [on earth] work.",
     "words": [
       {
         "id": "as-saffat-61-1",
@@ -2897,7 +2957,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ceux qui œuvrent, œuvrent donc pour une chose pareille !"
   },
   {
     "id": "as-saffat-62",
@@ -2906,7 +2967,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَذَٰلِكَ خَيْرٌ نُّزُلًا أَمْ شَجَرَةُ ٱلزَّقُّومِ",
     "textSimple": "أذلك خير نزلا أم شجرة ٱلزقوم",
     "transliteration": "adhālika khayrun nuzulan am shajaratu l-zaqūmi",
-    "translation": "",
+    "translation": "Is that [i.e., Paradise] a better accommodation or the tree of zaqqūm?",
     "words": [
       {
         "id": "as-saffat-62-1",
@@ -2951,7 +3012,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela est-il meilleur accueil, ou l’arbre de Zaqqûm,"
   },
   {
     "id": "as-saffat-63",
@@ -2960,7 +3022,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا جَعَلْنَـٰهَا فِتْنَةً لِّلظَّـٰلِمِينَ",
     "textSimple": "إنا جعلنـها فتنة للظـلمين",
     "transliteration": "innā jaʿalnāhā fit'natan lilẓẓālimīna",
-    "translation": "",
+    "translation": "Indeed, We have made it a torment for the wrongdoers.",
     "words": [
       {
         "id": "as-saffat-63-1",
@@ -2991,7 +3053,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "que Nous avons réservé au supplice des injustes?"
   },
   {
     "id": "as-saffat-64",
@@ -3000,7 +3063,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهَا شَجَرَةٌ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ",
     "textSimple": "إنها شجرة تخرج فىٓ أصل ٱلجحيم",
     "transliteration": "innahā shajaratun takhruju fī aṣli l-jaḥīmi",
-    "translation": "",
+    "translation": "Indeed, it is a tree issuing from the bottom of the Hellfire,",
     "words": [
       {
         "id": "as-saffat-64-1",
@@ -3045,7 +3108,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est un arbre qui sort du fin fond de la Fournaise."
   },
   {
     "id": "as-saffat-65",
@@ -3054,7 +3118,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "طَلْعُهَا كَأَنَّهُۥ رُءُوسُ ٱلشَّيَـٰطِينِ",
     "textSimple": "طلعها كأنه رءوس ٱلشيـطين",
     "transliteration": "ṭalʿuhā ka-annahu ruūsu l-shayāṭīni",
-    "translation": "",
+    "translation": "Its emerging fruit as if it was heads of the devils.",
     "words": [
       {
         "id": "as-saffat-65-1",
@@ -3085,7 +3149,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ses fruits sont comme les têtes des démons."
   },
   {
     "id": "as-saffat-66",
@@ -3094,7 +3159,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّهُمْ لَـَٔاكِلُونَ مِنْهَا فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
     "textSimple": "فإنهم لـٔاكلون منها فمالـٔون منها ٱلبطون",
     "transliteration": "fa-innahum laākilūna min'hā famāliūna min'hā l-buṭūna",
-    "translation": "",
+    "translation": "And indeed, they will eat from it and fill with it their bellies.",
     "words": [
       {
         "id": "as-saffat-66-1",
@@ -3139,7 +3204,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils en mangeront et s’en rempliront le ventre."
   },
   {
     "id": "as-saffat-67",
@@ -3148,7 +3214,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًا مِّنْ حَمِيمٍ",
     "textSimple": "ثم إن لهم عليها لشوبا من حميم",
     "transliteration": "thumma inna lahum ʿalayhā lashawban min ḥamīmin",
-    "translation": "",
+    "translation": "Then indeed, they will have after it a mixture of scalding water.",
     "words": [
       {
         "id": "as-saffat-67-1",
@@ -3200,7 +3266,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (pour breuvage), en plus, ils auront une mixture bouillante."
   },
   {
     "id": "as-saffat-68",
@@ -3209,7 +3276,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى ٱلْجَحِيمِ",
     "textSimple": "ثم إن مرجعهم لإلى ٱلجحيم",
     "transliteration": "thumma inna marjiʿahum la-ilā l-jaḥīmi",
-    "translation": "",
+    "translation": "Then indeed, their return will be to the Hellfire.",
     "words": [
       {
         "id": "as-saffat-68-1",
@@ -3247,7 +3314,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis leur retour ne sera que vers la Fournaise."
   },
   {
     "id": "as-saffat-69",
@@ -3256,7 +3324,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ",
     "textSimple": "إنهم ألفوا ءابآءهم ضآلين",
     "transliteration": "innahum alfaw ābāahum ḍāllīna",
-    "translation": "",
+    "translation": "Indeed they found their fathers astray.",
     "words": [
       {
         "id": "as-saffat-69-1",
@@ -3287,7 +3355,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils avaient en effet trouvé leurs ancêtres en plein égarement,"
   },
   {
     "id": "as-saffat-70",
@@ -3296,7 +3365,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَهُمْ عَلَىٰٓ ءَاثَـٰرِهِمْ يُهْرَعُونَ",
     "textSimple": "فهم علىٓ ءاثـرهم يهرعون",
     "transliteration": "fahum ʿalā āthārihim yuh'raʿūna",
-    "translation": "",
+    "translation": "So they hastened [to follow] in their footsteps.",
     "words": [
       {
         "id": "as-saffat-70-1",
@@ -3327,7 +3396,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et s’étaient empressés à leur emboîter le pas."
   },
   {
     "id": "as-saffat-71",
@@ -3336,7 +3406,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ ضَلَّ قَبْلَهُمْ أَكْثَرُ ٱلْأَوَّلِينَ",
     "textSimple": "ولقد ضل قبلهم أكثر ٱلأولين",
     "transliteration": "walaqad ḍalla qablahum aktharu l-awalīna",
-    "translation": "",
+    "translation": "And there had already strayed before them most of the former peoples,",
     "words": [
       {
         "id": "as-saffat-71-1",
@@ -3374,7 +3444,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La plupart des premiers (peuples) s’étaient égarés avant eux."
   },
   {
     "id": "as-saffat-72",
@@ -3383,7 +3454,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرْسَلْنَا فِيهِم مُّنذِرِينَ",
     "textSimple": "ولقد أرسلنا فيهم منذرين",
     "transliteration": "walaqad arsalnā fīhim mundhirīna",
-    "translation": "",
+    "translation": "And We had already sent among them warners.",
     "words": [
       {
         "id": "as-saffat-72-1",
@@ -3414,7 +3485,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et pourtant Nous leur avions envoyé des avertisseurs."
   },
   {
     "id": "as-saffat-73",
@@ -3423,7 +3495,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُنذَرِينَ",
     "textSimple": "فٱنظر كيف كان عـقبة ٱلمنذرين",
     "transliteration": "fa-unẓur kayfa kāna ʿāqibatu l-mundharīna",
-    "translation": "",
+    "translation": "Then look how was the end of those who were warned -",
     "words": [
       {
         "id": "as-saffat-73-1",
@@ -3461,7 +3533,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vois donc quel fut le sort de ceux qui avaient été (pourtant) avertis !"
   },
   {
     "id": "as-saffat-74",
@@ -3470,7 +3543,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
     "textSimple": "إلا عباد ٱلله ٱلمخلصين",
     "transliteration": "illā ʿibāda l-lahi l-mukh'laṣīna",
-    "translation": "",
+    "translation": "But not the chosen servants of Allāh.",
     "words": [
       {
         "id": "as-saffat-74-1",
@@ -3501,7 +3574,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À l’exception des élus parmi les serviteurs d’Allah."
   },
   {
     "id": "as-saffat-75",
@@ -3510,7 +3584,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ نَادَىٰنَا نُوحٌ فَلَنِعْمَ ٱلْمُجِيبُونَ",
     "textSimple": "ولقد نادىنا نوح فلنعم ٱلمجيبون",
     "transliteration": "walaqad nādānā nūḥun falaniʿ'ma l-mujībūna",
-    "translation": "",
+    "translation": "And Noah had certainly called Us, and [We are] the best of responders.",
     "words": [
       {
         "id": "as-saffat-75-1",
@@ -3548,7 +3622,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Noé Nous adressa un appel, et qui mieux que Nous répond (aux appels) !"
   },
   {
     "id": "as-saffat-76",
@@ -3557,7 +3632,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَنَجَّيْنَـٰهُ وَأَهْلَهُۥ مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
     "textSimple": "ونجينـه وأهله من ٱلكرب ٱلعظيم",
     "transliteration": "wanajjaynāhu wa-ahlahu mina l-karbi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "And We saved him and his family from the great affliction.",
     "words": [
       {
         "id": "as-saffat-76-1",
@@ -3595,7 +3670,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes, lui et les siens, du grand péril."
   },
   {
     "id": "as-saffat-77",
@@ -3604,7 +3680,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلْنَا ذُرِّيَّتَهُۥ هُمُ ٱلْبَاقِينَ",
     "textSimple": "وجعلنا ذريته هم ٱلباقين",
     "transliteration": "wajaʿalnā dhurriyyatahu humu l-bāqīna",
-    "translation": "",
+    "translation": "And We made his descendants those remaining [on the earth]",
     "words": [
       {
         "id": "as-saffat-77-1",
@@ -3635,7 +3711,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes que seule survécût sa descendance."
   },
   {
     "id": "as-saffat-78",
@@ -3644,7 +3721,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْـَٔاخِرِينَ",
     "textSimple": "وتركنا عليه فى ٱلـٔاخرين",
     "transliteration": "wataraknā ʿalayhi fī l-ākhirīna",
-    "translation": "",
+    "translation": "And left for him [favorable mention] among later generations:",
     "words": [
       {
         "id": "as-saffat-78-1",
@@ -3675,7 +3752,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et nous le fîmes passer à la postérité."
   },
   {
     "id": "as-saffat-79",
@@ -3684,7 +3762,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "سَلَـٰمٌ عَلَىٰ نُوحٍ فِى ٱلْعَـٰلَمِينَ",
     "textSimple": "سلـم على نوح فى ٱلعـلمين",
     "transliteration": "salāmun ʿalā nūḥin fī l-ʿālamīna",
-    "translation": "",
+    "translation": "\"Peace upon Noah among the worlds.\"",
     "words": [
       {
         "id": "as-saffat-79-1",
@@ -3722,7 +3800,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que la paix soit sur Noé dans tout l’Univers !"
   },
   {
     "id": "as-saffat-80",
@@ -3731,7 +3810,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "إنا كذلك نجزى ٱلمحسنين",
     "transliteration": "innā kadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Indeed, We thus reward the doers of good.",
     "words": [
       {
         "id": "as-saffat-80-1",
@@ -3762,7 +3841,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi rétribuons-Nous les bienfaiteurs !"
   },
   {
     "id": "as-saffat-81",
@@ -3771,7 +3851,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
     "textSimple": "إنه من عبادنا ٱلمؤمنين",
     "transliteration": "innahu min ʿibādinā l-mu'minīna",
-    "translation": "",
+    "translation": "Indeed, he was of Our believing servants.",
     "words": [
       {
         "id": "as-saffat-81-1",
@@ -3802,7 +3882,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut l’un de Nos serviteurs croyants."
   },
   {
     "id": "as-saffat-82",
@@ -3811,7 +3892,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ أَغْرَقْنَا ٱلْـَٔاخَرِينَ",
     "textSimple": "ثم أغرقنا ٱلـٔاخرين",
     "transliteration": "thumma aghraqnā l-ākharīna",
-    "translation": "",
+    "translation": "Then We drowned the others [i.e., disbelievers].",
     "words": [
       {
         "id": "as-saffat-82-1",
@@ -3835,7 +3916,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous noyâmes les autres."
   },
   {
     "id": "as-saffat-83",
@@ -3844,7 +3926,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَإِنَّ مِن شِيعَتِهِۦ لَإِبْرَٰهِيمَ",
     "textSimple": " وإن من شيعته لإبرهيم",
     "transliteration": "wa-inna min shīʿatihi la-ib'rāhīma",
-    "translation": "",
+    "translation": "And indeed, among his kind was Abraham,",
     "words": [
       {
         "id": "as-saffat-83-1",
@@ -3875,7 +3957,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Parmi les adeptes (de Noé), fut certes Abraham."
   },
   {
     "id": "as-saffat-84",
@@ -3884,7 +3967,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ جَآءَ رَبَّهُۥ بِقَلْبٍ سَلِيمٍ",
     "textSimple": "إذ جآء ربه بقلب سليم",
     "transliteration": "idh jāa rabbahu biqalbin salīmin",
-    "translation": "",
+    "translation": "When he came to his Lord with a sound heart",
     "words": [
       {
         "id": "as-saffat-84-1",
@@ -3922,7 +4005,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand, revenant vers son Seigneur, le cœur pur,"
   },
   {
     "id": "as-saffat-85",
@@ -3931,7 +4015,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَاذَا تَعْبُدُونَ",
     "textSimple": "إذ قال لأبيه وقومه ماذا تعبدون",
     "transliteration": "idh qāla li-abīhi waqawmihi mādhā taʿbudūna",
-    "translation": "",
+    "translation": "[And] when he said to his father and his people, \"What do you worship?",
     "words": [
       {
         "id": "as-saffat-85-1",
@@ -3976,7 +4060,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il dit à son père et à son peuple : « Qu’adorez-vous ?"
   },
   {
     "id": "as-saffat-86",
@@ -3985,7 +4070,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَئِفْكًا ءَالِهَةً دُونَ ٱللَّهِ تُرِيدُونَ",
     "textSimple": "أئفكا ءالهة دون ٱلله تريدون",
     "transliteration": "a-if'kan ālihatan dūna l-lahi turīdūna",
-    "translation": "",
+    "translation": "Is it falsehood [as] gods other than Allāh you desire?",
     "words": [
       {
         "id": "as-saffat-86-1",
@@ -4023,7 +4108,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tenez-vous, en dehors d’Allah, à des divinités que vous avez vous-mêmes inventées ?"
   },
   {
     "id": "as-saffat-87",
@@ -4032,7 +4118,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَمَا ظَنُّكُم بِرَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "فما ظنكم برب ٱلعـلمين",
     "transliteration": "famā ẓannukum birabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "Then what is your thought about the Lord of the worlds?\"",
     "words": [
       {
         "id": "as-saffat-87-1",
@@ -4063,7 +4149,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que pensez-vous donc du Seigneur de l’Univers ? »"
   },
   {
     "id": "as-saffat-88",
@@ -4072,7 +4159,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَنَظَرَ نَظْرَةً فِى ٱلنُّجُومِ",
     "textSimple": "فنظر نظرة فى ٱلنجوم",
     "transliteration": "fanaẓara naẓratan fī l-nujūmi",
-    "translation": "",
+    "translation": "And he cast a look at the stars.",
     "words": [
       {
         "id": "as-saffat-88-1",
@@ -4103,7 +4190,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il jeta un regard vers les étoiles"
   },
   {
     "id": "as-saffat-89",
@@ -4112,7 +4200,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ إِنِّى سَقِيمٌ",
     "textSimple": "فقال إنى سقيم",
     "transliteration": "faqāla innī saqīmun",
-    "translation": "",
+    "translation": "And said, \"Indeed, I am [about to be] ill.\"",
     "words": [
       {
         "id": "as-saffat-89-1",
@@ -4136,7 +4224,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et dit : « Je me sens malade. »"
   },
   {
     "id": "as-saffat-90",
@@ -4145,7 +4234,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّوْا۟ عَنْهُ مُدْبِرِينَ",
     "textSimple": "فتولوا عنه مدبرين",
     "transliteration": "fatawallaw ʿanhu mud'birīna",
-    "translation": "",
+    "translation": "So they turned away from him, departing.",
     "words": [
       {
         "id": "as-saffat-90-1",
@@ -4169,7 +4258,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’en allèrent en lui tournant le dos."
   },
   {
     "id": "as-saffat-91",
@@ -4178,7 +4268,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَرَاغَ إِلَىٰٓ ءَالِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
     "textSimple": "فراغ إلىٓ ءالهتهم فقال ألا تأكلون",
     "transliteration": "farāgha ilā ālihatihim faqāla alā takulūna",
-    "translation": "",
+    "translation": "Then he turned to their gods and said, \"Do you not eat?",
     "words": [
       {
         "id": "as-saffat-91-1",
@@ -4223,7 +4313,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il se faufila vers leurs divinités et leur dit : « Ne mangez-vous donc pas ?"
   },
   {
     "id": "as-saffat-92",
@@ -4232,7 +4323,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "مَا لَكُمْ لَا تَنطِقُونَ",
     "textSimple": "ما لكم لا تنطقون",
     "transliteration": "mā lakum lā tanṭiqūna",
-    "translation": "",
+    "translation": "What is [wrong] with you that you do not speak?\".",
     "words": [
       {
         "id": "as-saffat-92-1",
@@ -4263,7 +4354,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pourquoi ne dites-vous rien ? »"
   },
   {
     "id": "as-saffat-93",
@@ -4272,7 +4364,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
     "textSimple": "فراغ عليهم ضربا بٱليمين",
     "transliteration": "farāgha ʿalayhim ḍarban bil-yamīni",
-    "translation": "",
+    "translation": "And he turned upon them a blow with [his] right hand.",
     "words": [
       {
         "id": "as-saffat-93-1",
@@ -4303,7 +4395,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et il se jeta sur elles, les frappant de sa main droite."
   },
   {
     "id": "as-saffat-94",
@@ -4312,7 +4405,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَقْبَلُوٓا۟ إِلَيْهِ يَزِفُّونَ",
     "textSimple": "فأقبلوٓا إليه يزفون",
     "transliteration": "fa-aqbalū ilayhi yaziffūna",
-    "translation": "",
+    "translation": "Then they [i.e., the people] came toward him, hastening.",
     "words": [
       {
         "id": "as-saffat-94-1",
@@ -4336,7 +4429,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les autres gens de son peuple) accoururent alors vers lui."
   },
   {
     "id": "as-saffat-95",
@@ -4345,7 +4439,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ",
     "textSimple": "قال أتعبدون ما تنحتون",
     "transliteration": "qāla ataʿbudūna mā tanḥitūna",
-    "translation": "",
+    "translation": "He said, \"Do you worship that which you [yourselves] carve,",
     "words": [
       {
         "id": "as-saffat-95-1",
@@ -4376,7 +4470,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Adorez-vous donc, leur dit-il, ce que vous-mêmes avez sculpté ?"
   },
   {
     "id": "as-saffat-96",
@@ -4385,7 +4480,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ",
     "textSimple": "وٱلله خلقكم وما تعملون",
     "transliteration": "wal-lahu khalaqakum wamā taʿmalūna",
-    "translation": "",
+    "translation": "While Allāh created you and that which you do?\"",
     "words": [
       {
         "id": "as-saffat-96-1",
@@ -4416,7 +4511,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est pourtant Allah Qui vous a créés, vous et ce que vous faites ! »"
   },
   {
     "id": "as-saffat-97",
@@ -4425,7 +4521,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ ٱبْنُوا۟ لَهُۥ بُنْيَـٰنًا فَأَلْقُوهُ فِى ٱلْجَحِيمِ",
     "textSimple": "قالوا ٱبنوا له بنيـنا فألقوه فى ٱلجحيم",
     "transliteration": "qālū ib'nū lahu bun'yānan fa-alqūhu fī l-jaḥīmi",
-    "translation": "",
+    "translation": "They said, \"Construct for him a structure [i.e., furnace] and throw him into the burning fire.\"",
     "words": [
       {
         "id": "as-saffat-97-1",
@@ -4477,7 +4573,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Faites construire pour lui un bûcher ! Qu’il soit jeté dans le brasier ! » s’écrièrent-t-ils."
   },
   {
     "id": "as-saffat-98",
@@ -4486,7 +4583,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَـٰهُمُ ٱلْأَسْفَلِينَ",
     "textSimple": "فأرادوا به كيدا فجعلنـهم ٱلأسفلين",
     "transliteration": "fa-arādū bihi kaydan fajaʿalnāhumu l-asfalīna",
-    "translation": "",
+    "translation": "And they intended for him a plan [i.e., harm], but We made them the most debased.",
     "words": [
       {
         "id": "as-saffat-98-1",
@@ -4524,7 +4621,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils voulurent intriguer contre lui, mais ce sont eux que Nous avons humiliés."
   },
   {
     "id": "as-saffat-99",
@@ -4533,7 +4631,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالَ إِنِّى ذَاهِبٌ إِلَىٰ رَبِّى سَيَهْدِينِ",
     "textSimple": "وقال إنى ذاهب إلى ربى سيهدين",
     "transliteration": "waqāla innī dhāhibun ilā rabbī sayahdīni",
-    "translation": "",
+    "translation": "And [then] he said, \"Indeed, I will go to [where I am ordered by] my Lord; He will guide me.",
     "words": [
       {
         "id": "as-saffat-99-1",
@@ -4578,7 +4676,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Je m’en vais vers mon Seigneur, Qui me guidera."
   },
   {
     "id": "as-saffat-100",
@@ -4587,7 +4686,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "رَبِّ هَبْ لِى مِنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "رب هب لى من ٱلصـلحين",
     "transliteration": "rabbi hab lī mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "My Lord, grant me [a child] from among the righteous.\"",
     "words": [
       {
         "id": "as-saffat-100-1",
@@ -4625,7 +4724,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Donne-moi (une descendance) qui soit du nombre des vertueux."
   },
   {
     "id": "as-saffat-101",
@@ -4634,7 +4734,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَبَشَّرْنَـٰهُ بِغُلَـٰمٍ حَلِيمٍ",
     "textSimple": "فبشرنـه بغلـم حليم",
     "transliteration": "fabasharnāhu bighulāmin ḥalīmin",
-    "translation": "",
+    "translation": "So We gave him good tidings of a forbearing boy.",
     "words": [
       {
         "id": "as-saffat-101-1",
@@ -4658,7 +4758,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, Nous lui apprîmes, en heureuse nouvelle, (la venue au monde) d’un garçon magnanime."
   },
   {
     "id": "as-saffat-102",
@@ -4667,7 +4768,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَـٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَـٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّـٰبِرِينَ",
     "textSimple": "فلما بلغ معه ٱلسعى قال يـبنى إنىٓ أرى فى ٱلمنام أنىٓ أذبحك فٱنظر ماذا ترى  قال يـٓأبت ٱفعل ما تؤمر  ستجدنىٓ إن شآء ٱلله من ٱلصـبرين",
     "transliteration": "falammā balagha maʿahu l-saʿya qāla yābunayya innī arā fī l-manāmi annī adhbaḥuka fa-unẓur mādhā tarā qāla yāabati if'ʿal mā tu'maru satajidunī in shāa l-lahu mina l-ṣābirīna",
-    "translation": "",
+    "translation": "And when he reached with him [the age of] exertion, he said, \"O my son, indeed I have seen in a dream that I [must] sacrifice you, so see what you think.\" He said, \"O my father, do as you are commanded. You will find me, if Allāh wills, of the steadfast.\"",
     "words": [
       {
         "id": "as-saffat-102-1",
@@ -4852,7 +4953,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque celui-ci fut en âge de le suivre là où il allait, il lui dit : « Ô mon fils, je me suis vu en songe en train de t’égorger ! Réfléchis un peu et dis-moi ce que tu en penses. » Il répondit : « Père, fais ce qui t’est ordonné, et tu me trouveras, si Allah le veut, de ceux qui savent être patients (à la peine) ! »"
   },
   {
     "id": "as-saffat-103",
@@ -4861,7 +4963,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَسْلَمَا وَتَلَّهُۥ لِلْجَبِينِ",
     "textSimple": "فلمآ أسلما وتله للجبين",
     "transliteration": "falammā aslamā watallahu lil'jabīni",
-    "translation": "",
+    "translation": "And when they had both submitted and he put him down upon his forehead,",
     "words": [
       {
         "id": "as-saffat-103-1",
@@ -4892,7 +4994,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque tous les deux se soumirent (à la volonté d’Allah), et (que le père) mit le front (de son fils) à même la terre,"
   },
   {
     "id": "as-saffat-104",
@@ -4901,7 +5004,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَنَـٰدَيْنَـٰهُ أَن يَـٰٓإِبْرَٰهِيمُ",
     "textSimple": "ونـدينـه أن يـٓإبرهيم",
     "transliteration": "wanādaynāhu an yāib'rāhīmu",
-    "translation": "",
+    "translation": "We called to him, \"O Abraham,",
     "words": [
       {
         "id": "as-saffat-104-1",
@@ -4925,7 +5028,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous l’appelâmes : « Ô Abraham !"
   },
   {
     "id": "as-saffat-105",
@@ -4934,7 +5038,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ صَدَّقْتَ ٱلرُّءْيَآ ۚ إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "قد صدقت ٱلرءيآ  إنا كذلك نجزى ٱلمحسنين",
     "transliteration": "qad ṣaddaqta l-ru'yā innā kadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "You have fulfilled the vision.\" Indeed, We thus reward the doers of good.",
     "words": [
       {
         "id": "as-saffat-105-1",
@@ -4986,7 +5090,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu viens d’accomplir la vision. C’est ainsi que Nous récompensons les bienfaiteurs ! »"
   },
   {
     "id": "as-saffat-106",
@@ -4995,7 +5100,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ هَـٰذَا لَهُوَ ٱلْبَلَـٰٓؤُا۟ ٱلْمُبِينُ",
     "textSimple": "إن هـذا لهو ٱلبلـٓؤا ٱلمبين",
     "transliteration": "inna hādhā lahuwa l-balāu l-mubīnu",
-    "translation": "",
+    "translation": "Indeed, this was the clear trial.",
     "words": [
       {
         "id": "as-saffat-106-1",
@@ -5033,7 +5138,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce fut là l’épreuve manifeste."
   },
   {
     "id": "as-saffat-107",
@@ -5042,7 +5148,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَفَدَيْنَـٰهُ بِذِبْحٍ عَظِيمٍ",
     "textSimple": "وفدينـه بذبح عظيم",
     "transliteration": "wafadaynāhu bidhib'ḥin ʿaẓīmin",
-    "translation": "",
+    "translation": "And We ransomed him with a great sacrifice,",
     "words": [
       {
         "id": "as-saffat-107-1",
@@ -5066,7 +5172,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous rachetâmes (Ismaël) par une grandiose bête sacrificielle."
   },
   {
     "id": "as-saffat-108",
@@ -5075,7 +5182,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْـَٔاخِرِينَ",
     "textSimple": "وتركنا عليه فى ٱلـٔاخرين",
     "transliteration": "wataraknā ʿalayhi fī l-ākhirīna",
-    "translation": "",
+    "translation": "And We left for him [favorable mention] among later generations:",
     "words": [
       {
         "id": "as-saffat-108-1",
@@ -5106,7 +5213,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Nous le fîmes passer à la postérité."
   },
   {
     "id": "as-saffat-109",
@@ -5115,7 +5223,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "سَلَـٰمٌ عَلَىٰٓ إِبْرَٰهِيمَ",
     "textSimple": "سلـم علىٓ إبرهيم",
     "transliteration": "salāmun ʿalā ib'rāhīma",
-    "translation": "",
+    "translation": "\"Peace upon Abraham.\"",
     "words": [
       {
         "id": "as-saffat-109-1",
@@ -5139,7 +5247,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que la paix soit sur Abraham !"
   },
   {
     "id": "as-saffat-110",
@@ -5148,7 +5257,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "كذلك نجزى ٱلمحسنين",
     "transliteration": "kadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Indeed, We thus reward the doers of good.",
     "words": [
       {
         "id": "as-saffat-110-1",
@@ -5172,7 +5281,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi récompensons-Nous les bienfaiteurs."
   },
   {
     "id": "as-saffat-111",
@@ -5181,7 +5291,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
     "textSimple": "إنه من عبادنا ٱلمؤمنين",
     "transliteration": "innahu min ʿibādinā l-mu'minīna",
-    "translation": "",
+    "translation": "Indeed, he was of Our believing servants.",
     "words": [
       {
         "id": "as-saffat-111-1",
@@ -5212,7 +5322,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut l’un de Nos serviteurs croyants."
   },
   {
     "id": "as-saffat-112",
@@ -5221,7 +5332,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَبَشَّرْنَـٰهُ بِإِسْحَـٰقَ نَبِيًّا مِّنَ ٱلصَّـٰلِحِينَ",
     "textSimple": "وبشرنـه بإسحـق نبيا من ٱلصـلحين",
     "transliteration": "wabasharnāhu bi-is'ḥāqa nabiyyan mina l-ṣāliḥīna",
-    "translation": "",
+    "translation": "And We gave him good tidings of Isaac, a prophet from among the righteous.",
     "words": [
       {
         "id": "as-saffat-112-1",
@@ -5259,7 +5370,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui apprîmes, en heureuse annonce, la venue d’Isaac, Prophète du nombre des vertueux."
   },
   {
     "id": "as-saffat-113",
@@ -5268,7 +5380,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَبَـٰرَكْنَا عَلَيْهِ وَعَلَىٰٓ إِسْحَـٰقَ ۚ وَمِن ذُرِّيَّتِهِمَا مُحْسِنٌ وَظَالِمٌ لِّنَفْسِهِۦ مُبِينٌ",
     "textSimple": "وبـركنا عليه وعلىٓ إسحـق  ومن ذريتهما محسن وظالم لنفسه مبين",
     "transliteration": "wabāraknā ʿalayhi waʿalā is'ḥāqa wamin dhurriyyatihimā muḥ'sinun waẓālimun linafsihi mubīnun",
-    "translation": "",
+    "translation": "And We blessed him and Isaac. But among their descendants is the doer of good and the clearly unjust to himself [i.e., sinner].",
     "words": [
       {
         "id": "as-saffat-113-1",
@@ -5341,7 +5453,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le bénîmes ainsi qu’Isaac, et il y eut parmi leur descendance qui est porté à faire le bien et qui est manifestement injuste envers lui-même."
   },
   {
     "id": "as-saffat-114",
@@ -5350,7 +5463,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ مَنَنَّا عَلَىٰ مُوسَىٰ وَهَـٰرُونَ",
     "textSimple": "ولقد مننا على موسى وهـرون",
     "transliteration": "walaqad manannā ʿalā mūsā wahārūna",
-    "translation": "",
+    "translation": "And We did certainly confer favor upon Moses and Aaron.",
     "words": [
       {
         "id": "as-saffat-114-1",
@@ -5388,7 +5501,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous répandîmes Nos faveurs sur Moïse et Aaron."
   },
   {
     "id": "as-saffat-115",
@@ -5397,7 +5511,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَنَجَّيْنَـٰهُمَا وَقَوْمَهُمَا مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
     "textSimple": "ونجينـهما وقومهما من ٱلكرب ٱلعظيم",
     "transliteration": "wanajjaynāhumā waqawmahumā mina l-karbi l-ʿaẓīmi",
-    "translation": "",
+    "translation": "And We saved them and their people from the great affliction,",
     "words": [
       {
         "id": "as-saffat-115-1",
@@ -5435,7 +5549,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les sauvâmes, avec leur peuple, du grand péril."
   },
   {
     "id": "as-saffat-116",
@@ -5444,7 +5559,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَنَصَرْنَـٰهُمْ فَكَانُوا۟ هُمُ ٱلْغَـٰلِبِينَ",
     "textSimple": "ونصرنـهم فكانوا هم ٱلغـلبين",
     "transliteration": "wanaṣarnāhum fakānū humu l-ghālibīna",
-    "translation": "",
+    "translation": "And We supported them so it was they who overcame.",
     "words": [
       {
         "id": "as-saffat-116-1",
@@ -5475,7 +5590,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur portâmes secours et ils furent les vainqueurs."
   },
   {
     "id": "as-saffat-117",
@@ -5484,7 +5600,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَءَاتَيْنَـٰهُمَا ٱلْكِتَـٰبَ ٱلْمُسْتَبِينَ",
     "textSimple": "وءاتينـهما ٱلكتـب ٱلمستبين",
     "transliteration": "waātaynāhumā l-kitāba l-mus'tabīna",
-    "translation": "",
+    "translation": "And We gave them the explicit Scripture [i.e., the Torah],",
     "words": [
       {
         "id": "as-saffat-117-1",
@@ -5508,7 +5624,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous leur donnâmes le Livre explicite,"
   },
   {
     "id": "as-saffat-118",
@@ -5517,7 +5634,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَهَدَيْنَـٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
     "textSimple": "وهدينـهما ٱلصرط ٱلمستقيم",
     "transliteration": "wahadaynāhumā l-ṣirāṭa l-mus'taqīma",
-    "translation": "",
+    "translation": "And We guided them on the straight path.",
     "words": [
       {
         "id": "as-saffat-118-1",
@@ -5541,7 +5658,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et les conduisîmes vers la voie droite."
   },
   {
     "id": "as-saffat-119",
@@ -5550,7 +5668,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَكْنَا عَلَيْهِمَا فِى ٱلْـَٔاخِرِينَ",
     "textSimple": "وتركنا عليهما فى ٱلـٔاخرين",
     "transliteration": "wataraknā ʿalayhimā fī l-ākhirīna",
-    "translation": "",
+    "translation": "And We left for them [favorable mention] among later generations:",
     "words": [
       {
         "id": "as-saffat-119-1",
@@ -5581,7 +5699,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous les fîmes passer à la postérité."
   },
   {
     "id": "as-saffat-120",
@@ -5590,7 +5709,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "سَلَـٰمٌ عَلَىٰ مُوسَىٰ وَهَـٰرُونَ",
     "textSimple": "سلـم على موسى وهـرون",
     "transliteration": "salāmun ʿalā mūsā wahārūna",
-    "translation": "",
+    "translation": "\"Peace upon Moses and Aaron.\"",
     "words": [
       {
         "id": "as-saffat-120-1",
@@ -5621,7 +5740,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que la paix soit sur Moïse et Aaron !"
   },
   {
     "id": "as-saffat-121",
@@ -5630,7 +5750,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "إنا كذلك نجزى ٱلمحسنين",
     "transliteration": "innā kadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Indeed, We thus reward the doers of good.",
     "words": [
       {
         "id": "as-saffat-121-1",
@@ -5661,7 +5781,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous récompensons les bienfaiteurs."
   },
   {
     "id": "as-saffat-122",
@@ -5670,7 +5791,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمَا مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
     "textSimple": "إنهما من عبادنا ٱلمؤمنين",
     "transliteration": "innahumā min ʿibādinā l-mu'minīna",
-    "translation": "",
+    "translation": "Indeed, they were of Our believing servants.",
     "words": [
       {
         "id": "as-saffat-122-1",
@@ -5701,7 +5822,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils furent tous les deux de Nos serviteurs croyants."
   },
   {
     "id": "as-saffat-123",
@@ -5710,7 +5832,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ إِلْيَاسَ لَمِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "وإن إلياس لمن ٱلمرسلين",
     "transliteration": "wa-inna il'yāsa lamina l-mur'salīna",
-    "translation": "",
+    "translation": "And indeed, Elias was from among the messengers,",
     "words": [
       {
         "id": "as-saffat-123-1",
@@ -5741,7 +5863,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Élie fut aussi du nombre des Envoyés."
   },
   {
     "id": "as-saffat-124",
@@ -5750,7 +5873,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ قَالَ لِقَوْمِهِۦٓ أَلَا تَتَّقُونَ",
     "textSimple": "إذ قال لقومهٓ ألا تتقون",
     "transliteration": "idh qāla liqawmihi alā tattaqūna",
-    "translation": "",
+    "translation": "When he said to his people, \"Will you not fear Allāh?",
     "words": [
       {
         "id": "as-saffat-124-1",
@@ -5788,7 +5911,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne craignez-vous donc pas (Allah)? dit-il à son peuple."
   },
   {
     "id": "as-saffat-125",
@@ -5797,7 +5921,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَتَدْعُونَ بَعْلًا وَتَذَرُونَ أَحْسَنَ ٱلْخَـٰلِقِينَ",
     "textSimple": "أتدعون بعلا وتذرون أحسن ٱلخـلقين",
     "transliteration": "atadʿūna baʿlan watadharūna aḥsana l-khāliqīna",
-    "translation": "",
+    "translation": "Do you call upon Baʿl and leave the best of creators -",
     "words": [
       {
         "id": "as-saffat-125-1",
@@ -5835,7 +5959,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Invoquerez-vous donc Baal en délaissant le Meilleur des créateurs,"
   },
   {
     "id": "as-saffat-126",
@@ -5844,7 +5969,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهَ رَبَّكُمْ وَرَبَّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ",
     "textSimple": "ٱلله ربكم ورب ءابآئكم ٱلأولين",
     "transliteration": "al-laha rabbakum warabba ābāikumu l-awalīna",
-    "translation": "",
+    "translation": "Allāh, your Lord and the Lord of your first forefathers?\"",
     "words": [
       {
         "id": "as-saffat-126-1",
@@ -5882,7 +6007,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah, votre Seigneur et le Seigneur de vos tout premiers ancêtres? »"
   },
   {
     "id": "as-saffat-127",
@@ -5891,7 +6017,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَإِنَّهُمْ لَمُحْضَرُونَ",
     "textSimple": "فكذبوه فإنهم لمحضرون",
     "transliteration": "fakadhabūhu fa-innahum lamuḥ'ḍarūna",
-    "translation": "",
+    "translation": "And they denied him, so indeed, they will be brought [for punishment],",
     "words": [
       {
         "id": "as-saffat-127-1",
@@ -5915,7 +6041,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or, ils le traitèrent de menteur, et ils comparaîtront assurément et ils seront livrés au supplice,"
   },
   {
     "id": "as-saffat-128",
@@ -5924,7 +6051,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
     "textSimple": "إلا عباد ٱلله ٱلمخلصين",
     "transliteration": "illā ʿibāda l-lahi l-mukh'laṣīna",
-    "translation": "",
+    "translation": "Except the chosen servants of Allāh.",
     "words": [
       {
         "id": "as-saffat-128-1",
@@ -5955,7 +6082,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "excepté les élus parmi les serviteurs d’Allah."
   },
   {
     "id": "as-saffat-129",
@@ -5964,7 +6092,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَتَرَكْنَا عَلَيْهِ فِى ٱلْـَٔاخِرِينَ",
     "textSimple": "وتركنا عليه فى ٱلـٔاخرين",
     "transliteration": "wataraknā ʿalayhi fī l-ākhirīna",
-    "translation": "",
+    "translation": "And We left for him [favorable mention] among later generations:",
     "words": [
       {
         "id": "as-saffat-129-1",
@@ -5995,7 +6123,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le fîmes passer à la postérité."
   },
   {
     "id": "as-saffat-130",
@@ -6004,7 +6133,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "سَلَـٰمٌ عَلَىٰٓ إِلْ يَاسِينَ",
     "textSimple": "سلـم علىٓ إل ياسين",
     "transliteration": "salāmun ʿalā il yāsīna",
-    "translation": "",
+    "translation": "\"Peace upon Elias.\"",
     "words": [
       {
         "id": "as-saffat-130-1",
@@ -6028,7 +6157,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que la paix soit sur Élie !"
   },
   {
     "id": "as-saffat-131",
@@ -6037,7 +6167,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
     "textSimple": "إنا كذلك نجزى ٱلمحسنين",
     "transliteration": "innā kadhālika najzī l-muḥ'sinīna",
-    "translation": "",
+    "translation": "Indeed, We thus reward the doers of good.",
     "words": [
       {
         "id": "as-saffat-131-1",
@@ -6068,7 +6198,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous récompensons les bienfaiteurs."
   },
   {
     "id": "as-saffat-132",
@@ -6077,7 +6208,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ",
     "textSimple": "إنه من عبادنا ٱلمؤمنين",
     "transliteration": "innahu min ʿibādinā l-mu'minīna",
-    "translation": "",
+    "translation": "Indeed, he was of Our believing servants.",
     "words": [
       {
         "id": "as-saffat-132-1",
@@ -6108,7 +6239,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il fut l’un de Nos serviteurs croyants."
   },
   {
     "id": "as-saffat-133",
@@ -6117,7 +6249,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ لُوطًا لَّمِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "وإن لوطا لمن ٱلمرسلين",
     "transliteration": "wa-inna lūṭan lamina l-mur'salīna",
-    "translation": "",
+    "translation": "And indeed, Lot was among the messengers.",
     "words": [
       {
         "id": "as-saffat-133-1",
@@ -6148,7 +6280,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Loth fut aussi du nombre des Envoyés."
   },
   {
     "id": "as-saffat-134",
@@ -6157,7 +6290,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ نَجَّيْنَـٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ",
     "textSimple": "إذ نجينـه وأهلهٓ أجمعين",
     "transliteration": "idh najjaynāhu wa-ahlahu ajmaʿīna",
-    "translation": "",
+    "translation": "[So mention] when We saved him and his family, all,",
     "words": [
       {
         "id": "as-saffat-134-1",
@@ -6188,7 +6321,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le sauvâmes ainsi que tous les siens,"
   },
   {
     "id": "as-saffat-135",
@@ -6197,7 +6331,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عَجُوزًا فِى ٱلْغَـٰبِرِينَ",
     "textSimple": "إلا عجوزا فى ٱلغـبرين",
     "transliteration": "illā ʿajūzan fī l-ghābirīna",
-    "translation": "",
+    "translation": "Except an old woman [i.e., his wife] among those who remained [with the evildoers].",
     "words": [
       {
         "id": "as-saffat-135-1",
@@ -6228,7 +6362,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "hormis une vieille femme qui fut, elle, parmi les disparus."
   },
   {
     "id": "as-saffat-136",
@@ -6237,7 +6372,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ دَمَّرْنَا ٱلْـَٔاخَرِينَ",
     "textSimple": "ثم دمرنا ٱلـٔاخرين",
     "transliteration": "thumma dammarnā l-ākharīna",
-    "translation": "",
+    "translation": "Then We destroyed the others.",
     "words": [
       {
         "id": "as-saffat-136-1",
@@ -6261,7 +6396,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis Nous anéantîmes tous les autres."
   },
   {
     "id": "as-saffat-137",
@@ -6270,7 +6406,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ",
     "textSimple": "وإنكم لتمرون عليهم مصبحين",
     "transliteration": "wa-innakum latamurrūna ʿalayhim muṣ'biḥīna",
-    "translation": "",
+    "translation": "And indeed, you pass by them in the morning",
     "words": [
       {
         "id": "as-saffat-137-1",
@@ -6301,7 +6437,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous passez près (de leurs vestiges) le matin"
   },
   {
     "id": "as-saffat-138",
@@ -6310,7 +6447,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَبِٱلَّيْلِ ۗ أَفَلَا تَعْقِلُونَ",
     "textSimple": "وبٱليل  أفلا تعقلون",
     "transliteration": "wabi-al-layli afalā taʿqilūna",
-    "translation": "",
+    "translation": "And at night. Then will you not use reason?",
     "words": [
       {
         "id": "as-saffat-138-1",
@@ -6334,7 +6471,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et la nuit. N’entendez-vous pas raison ?"
   },
   {
     "id": "as-saffat-139",
@@ -6343,7 +6481,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ يُونُسَ لَمِنَ ٱلْمُرْسَلِينَ",
     "textSimple": "وإن يونس لمن ٱلمرسلين",
     "transliteration": "wa-inna yūnusa lamina l-mur'salīna",
-    "translation": "",
+    "translation": "And indeed, Jonah was among the messengers.",
     "words": [
       {
         "id": "as-saffat-139-1",
@@ -6374,7 +6512,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jonas fut aussi du nombre des Messagers."
   },
   {
     "id": "as-saffat-140",
@@ -6383,7 +6522,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ أَبَقَ إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
     "textSimple": "إذ أبق إلى ٱلفلك ٱلمشحون",
     "transliteration": "idh abaqa ilā l-ful'ki l-mashḥūni",
-    "translation": "",
+    "translation": "[Mention] when he ran away to the laden ship.",
     "words": [
       {
         "id": "as-saffat-140-1",
@@ -6421,7 +6560,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il s’était enfui sur le vaisseau chargé."
   },
   {
     "id": "as-saffat-141",
@@ -6430,7 +6570,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
     "textSimple": "فساهم فكان من ٱلمدحضين",
     "transliteration": "fasāhama fakāna mina l-mud'ḥaḍīna",
-    "translation": "",
+    "translation": "And he drew lots and was among the losers.",
     "words": [
       {
         "id": "as-saffat-141-1",
@@ -6461,7 +6601,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Désigné par le tirage au sort, il fut du nombre des perdants."
   },
   {
     "id": "as-saffat-142",
@@ -6470,7 +6611,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ مُلِيمٌ",
     "textSimple": "فٱلتقمه ٱلحوت وهو مليم",
     "transliteration": "fal-taqamahu l-ḥūtu wahuwa mulīmun",
-    "translation": "",
+    "translation": "Then the fish swallowed him, while he was blameworthy.",
     "words": [
       {
         "id": "as-saffat-142-1",
@@ -6501,7 +6642,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le poisson l’avala, lui qui était à blâmer."
   },
   {
     "id": "as-saffat-143",
@@ -6510,7 +6652,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَلَوْلَآ أَنَّهُۥ كَانَ مِنَ ٱلْمُسَبِّحِينَ",
     "textSimple": "فلولآ أنه كان من ٱلمسبحين",
     "transliteration": "falawlā annahu kāna mina l-musabiḥīna",
-    "translation": "",
+    "translation": "And had he not been of those who exalt Allāh,",
     "words": [
       {
         "id": "as-saffat-143-1",
@@ -6548,7 +6690,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’il n’avait été de ceux qui rendent gloire (à Allah),"
   },
   {
     "id": "as-saffat-144",
@@ -6557,7 +6700,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "لَلَبِثَ فِى بَطْنِهِۦٓ إِلَىٰ يَوْمِ يُبْعَثُونَ",
     "textSimple": "للبث فى بطنهٓ إلى يوم يبعثون",
     "transliteration": "lalabitha fī baṭnihi ilā yawmi yub'ʿathūna",
-    "translation": "",
+    "translation": "He would have remained inside its belly until the Day they are resurrected.",
     "words": [
       {
         "id": "as-saffat-144-1",
@@ -6602,7 +6745,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il serait certainement resté dans le ventre (du poisson) jusqu’au Jour où (les hommes) seront ressuscités."
   },
   {
     "id": "as-saffat-145",
@@ -6611,7 +6755,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "۞ فَنَبَذْنَـٰهُ بِٱلْعَرَآءِ وَهُوَ سَقِيمٌ",
     "textSimple": " فنبذنـه بٱلعرآء وهو سقيم",
     "transliteration": "fanabadhnāhu bil-ʿarāi wahuwa saqīmun",
-    "translation": "",
+    "translation": "But We threw him onto the open shore while he was ill.",
     "words": [
       {
         "id": "as-saffat-145-1",
@@ -6642,7 +6786,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous le fîmes rejeter, malade, sur une terre nue."
   },
   {
     "id": "as-saffat-146",
@@ -6651,7 +6796,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنۢبَتْنَا عَلَيْهِ شَجَرَةً مِّن يَقْطِينٍ",
     "textSimple": "وأنبتنا عليه شجرة من يقطين",
     "transliteration": "wa-anbatnā ʿalayhi shajaratan min yaqṭīnin",
-    "translation": "",
+    "translation": "And We caused to grow over him a gourd vine.",
     "words": [
       {
         "id": "as-saffat-146-1",
@@ -6689,7 +6834,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous fîmes pousser au-dessus de lui un plant de courge,"
   },
   {
     "id": "as-saffat-147",
@@ -6698,7 +6844,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَرْسَلْنَـٰهُ إِلَىٰ مِا۟ئَةِ أَلْفٍ أَوْ يَزِيدُونَ",
     "textSimple": "وأرسلنـه إلى مائة ألف أو يزيدون",
     "transliteration": "wa-arsalnāhu ilā mi-ati alfin aw yazīdūna",
-    "translation": "",
+    "translation": "And We sent him to [his people of] a hundred thousand or more.",
     "words": [
       {
         "id": "as-saffat-147-1",
@@ -6743,7 +6889,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et Nous l’envoyâmes (en Messager) à quelque cent mille (hommes) ou plus."
   },
   {
     "id": "as-saffat-148",
@@ -6752,7 +6899,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَـَٔامَنُوا۟ فَمَتَّعْنَـٰهُمْ إِلَىٰ حِينٍ",
     "textSimple": "فـٔامنوا فمتعنـهم إلى حين",
     "transliteration": "faāmanū famattaʿnāhum ilā ḥīnin",
-    "translation": "",
+    "translation": "And they believed, so We gave them enjoyment [of life] for a time.",
     "words": [
       {
         "id": "as-saffat-148-1",
@@ -6783,7 +6930,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils crurent et Nous les fîmes jouir (de ce bas monde) pour un temps."
   },
   {
     "id": "as-saffat-149",
@@ -6792,7 +6940,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَٱسْتَفْتِهِمْ أَلِرَبِّكَ ٱلْبَنَاتُ وَلَهُمُ ٱلْبَنُونَ",
     "textSimple": "فٱستفتهم ألربك ٱلبنات ولهم ٱلبنون",
     "transliteration": "fa-is'taftihim alirabbika l-banātu walahumu l-banūna",
-    "translation": "",
+    "translation": "So inquire of them, [O Muḥammad], \"Does your Lord have daughters while they have sons?",
     "words": [
       {
         "id": "as-saffat-149-1",
@@ -6830,7 +6978,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demande-leur : « Ton Seigneur aurait-Il, Lui, les filles, et eux les fils ?"
   },
   {
     "id": "as-saffat-150",
@@ -6839,7 +6988,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ خَلَقْنَا ٱلْمَلَـٰٓئِكَةَ إِنَـٰثًا وَهُمْ شَـٰهِدُونَ",
     "textSimple": "أم خلقنا ٱلملـٓئكة إنـثا وهم شـهدون",
     "transliteration": "am khalaqnā l-malāikata ināthan wahum shāhidūna",
-    "translation": "",
+    "translation": "Or did We create the angels as females while they were witnesses?\"",
     "words": [
       {
         "id": "as-saffat-150-1",
@@ -6884,7 +7033,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou bien alors avons-Nous créé les Anges de sexe féminin et ils en ont été témoins ? »"
   },
   {
     "id": "as-saffat-151",
@@ -6893,7 +7043,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَلَآ إِنَّهُم مِّنْ إِفْكِهِمْ لَيَقُولُونَ",
     "textSimple": "ألآ إنهم من إفكهم ليقولون",
     "transliteration": "alā innahum min if'kihim layaqūlūna",
-    "translation": "",
+    "translation": "Unquestionably, it is out of their [invented] falsehood that they say,",
     "words": [
       {
         "id": "as-saffat-151-1",
@@ -6931,7 +7081,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Victime de) leur mensonge, ils disent :"
   },
   {
     "id": "as-saffat-152",
@@ -6940,7 +7091,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَـٰذِبُونَ",
     "textSimple": "ولد ٱلله وإنهم لكـذبون",
     "transliteration": "walada l-lahu wa-innahum lakādhibūna",
-    "translation": "",
+    "translation": "\"Allāh has begotten,\" and indeed, they are liars.",
     "words": [
       {
         "id": "as-saffat-152-1",
@@ -6971,7 +7122,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Allah a engendré ! » Or ils ne font que mentir."
   },
   {
     "id": "as-saffat-153",
@@ -6980,7 +7132,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَصْطَفَى ٱلْبَنَاتِ عَلَى ٱلْبَنِينَ",
     "textSimple": "أصطفى ٱلبنات على ٱلبنين",
     "transliteration": "aṣṭafā l-banāti ʿalā l-banīna",
-    "translation": "",
+    "translation": "Has He chosen daughters over sons?",
     "words": [
       {
         "id": "as-saffat-153-1",
@@ -7011,7 +7163,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aurait-Il donc préféré des filles plutôt que des fils ?"
   },
   {
     "id": "as-saffat-154",
@@ -7020,7 +7173,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "مَا لَكُمْ كَيْفَ تَحْكُمُونَ",
     "textSimple": "ما لكم كيف تحكمون",
     "transliteration": "mā lakum kayfa taḥkumūna",
-    "translation": "",
+    "translation": "What is [wrong] with you? How do you make judgement?",
     "words": [
       {
         "id": "as-saffat-154-1",
@@ -7051,7 +7204,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pour quelle raison jugez-vous donc ainsi ?"
   },
   {
     "id": "as-saffat-155",
@@ -7060,7 +7214,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَا تَذَكَّرُونَ",
     "textSimple": "أفلا تذكرون",
     "transliteration": "afalā tadhakkarūna",
-    "translation": "",
+    "translation": "Then will you not be reminded?",
     "words": [
       {
         "id": "as-saffat-155-1",
@@ -7077,7 +7231,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’allez vous pas réfléchir ?"
   },
   {
     "id": "as-saffat-156",
@@ -7086,7 +7241,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ لَكُمْ سُلْطَـٰنٌ مُّبِينٌ",
     "textSimple": "أم لكم سلطـن مبين",
     "transliteration": "am lakum sul'ṭānun mubīnun",
-    "translation": "",
+    "translation": "Or do you have a clear authority?",
     "words": [
       {
         "id": "as-saffat-156-1",
@@ -7117,7 +7272,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ou, peut-être, avez-vous un argument d’autorité ?"
   },
   {
     "id": "as-saffat-157",
@@ -7126,7 +7282,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَأْتُوا۟ بِكِتَـٰبِكُمْ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "فأتوا بكتـبكم إن كنتم صـدقين",
     "transliteration": "fatū bikitābikum in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "Then produce your scripture, if you should be truthful.",
     "words": [
       {
         "id": "as-saffat-157-1",
@@ -7164,7 +7320,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Apportez donc votre Livre si ce que vous dites est vrai."
   },
   {
     "id": "as-saffat-158",
@@ -7173,7 +7330,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَجَعَلُوا۟ بَيْنَهُۥ وَبَيْنَ ٱلْجِنَّةِ نَسَبًا ۚ وَلَقَدْ عَلِمَتِ ٱلْجِنَّةُ إِنَّهُمْ لَمُحْضَرُونَ",
     "textSimple": "وجعلوا بينه وبين ٱلجنة نسبا  ولقد علمت ٱلجنة إنهم لمحضرون",
     "transliteration": "wajaʿalū baynahu wabayna l-jinati nasaban walaqad ʿalimati l-jinatu innahum lamuḥ'ḍarūna",
-    "translation": "",
+    "translation": "And they have made [i.e., claimed] between Him and the jinn a lineage, but the jinn have already known that they [who made such claims] will be brought [to punishment].",
     "words": [
       {
         "id": "as-saffat-158-1",
@@ -7246,7 +7403,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils ont supposé entre Lui et les djinns des liens de parenté, cependant que les djinns (eux-mêmes) savent bien que (les mécréants) comparaîtront (pour être livrés au supplice)."
   },
   {
     "id": "as-saffat-159",
@@ -7255,7 +7413,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "سُبْحَـٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
     "textSimple": "سبحـن ٱلله عما يصفون",
     "transliteration": "sub'ḥāna l-lahi ʿammā yaṣifūna",
-    "translation": "",
+    "translation": "Exalted is Allāh above what they describe,",
     "words": [
       {
         "id": "as-saffat-159-1",
@@ -7286,7 +7444,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire soit rendue à Allah ! Il est bien au-dessus de tout ce qu’ils peuvent décrire !"
   },
   {
     "id": "as-saffat-160",
@@ -7295,7 +7454,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
     "textSimple": "إلا عباد ٱلله ٱلمخلصين",
     "transliteration": "illā ʿibāda l-lahi l-mukh'laṣīna",
-    "translation": "",
+    "translation": "Except the chosen servants of Allāh [who do not share in that sin].",
     "words": [
       {
         "id": "as-saffat-160-1",
@@ -7326,7 +7485,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Excepté les élus parmi les serviteurs d’Allah."
   },
   {
     "id": "as-saffat-161",
@@ -7335,7 +7495,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِنَّكُمْ وَمَا تَعْبُدُونَ",
     "textSimple": "فإنكم وما تعبدون",
     "transliteration": "fa-innakum wamā taʿbudūna",
-    "translation": "",
+    "translation": "So indeed, you [disbelievers] and whatever you worship,",
     "words": [
       {
         "id": "as-saffat-161-1",
@@ -7359,7 +7519,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous et ce que vous adorez,"
   },
   {
     "id": "as-saffat-162",
@@ -7368,7 +7529,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَنتُمْ عَلَيْهِ بِفَـٰتِنِينَ",
     "textSimple": "مآ أنتم عليه بفـتنين",
     "transliteration": "mā antum ʿalayhi bifātinīna",
-    "translation": "",
+    "translation": "You cannot tempt [anyone] away from Him",
     "words": [
       {
         "id": "as-saffat-162-1",
@@ -7399,7 +7560,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "ne sauriez être les tentateurs de personne,"
   },
   {
     "id": "as-saffat-163",
@@ -7408,7 +7570,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا مَنْ هُوَ صَالِ ٱلْجَحِيمِ",
     "textSimple": "إلا من هو صال ٱلجحيم",
     "transliteration": "illā man huwa ṣāli l-jaḥīmi",
-    "translation": "",
+    "translation": "Except he who is to [enter and] burn in the Hellfire.",
     "words": [
       {
         "id": "as-saffat-163-1",
@@ -7446,7 +7608,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "hormis celui qui brûlera dans la Fournaise."
   },
   {
     "id": "as-saffat-164",
@@ -7455,7 +7618,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا مِنَّآ إِلَّا لَهُۥ مَقَامٌ مَّعْلُومٌ",
     "textSimple": "وما منآ إلا له مقام معلوم",
     "transliteration": "wamā minnā illā lahu maqāmun maʿlūmun",
-    "translation": "",
+    "translation": "[The angels say], \"There is not among us any except that he has a known position.",
     "words": [
       {
         "id": "as-saffat-164-1",
@@ -7500,7 +7663,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Il n’est pas un parmi nous (disent les Anges) qui n’ait une place bien connue."
   },
   {
     "id": "as-saffat-165",
@@ -7509,7 +7673,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا لَنَحْنُ ٱلصَّآفُّونَ",
     "textSimple": "وإنا لنحن ٱلصآفون",
     "transliteration": "wa-innā lanaḥnu l-ṣāfūna",
-    "translation": "",
+    "translation": "And indeed, we are those who line up [for prayer].",
     "words": [
       {
         "id": "as-saffat-165-1",
@@ -7533,7 +7697,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous sommes certes ceux qui se tiennent harmonieusement alignés."
   },
   {
     "id": "as-saffat-166",
@@ -7542,7 +7707,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّا لَنَحْنُ ٱلْمُسَبِّحُونَ",
     "textSimple": "وإنا لنحن ٱلمسبحون",
     "transliteration": "wa-innā lanaḥnu l-musabiḥūna",
-    "translation": "",
+    "translation": "And indeed, we are those who exalt Allāh.\"",
     "words": [
       {
         "id": "as-saffat-166-1",
@@ -7566,7 +7731,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et nous sommes certes ceux qui rendent gloire (à Allah). »"
   },
   {
     "id": "as-saffat-167",
@@ -7575,7 +7741,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كَانُوا۟ لَيَقُولُونَ",
     "textSimple": "وإن كانوا ليقولون",
     "transliteration": "wa-in kānū layaqūlūna",
-    "translation": "",
+    "translation": "And indeed, they [i.e., the disbelievers] used to say,",
     "words": [
       {
         "id": "as-saffat-167-1",
@@ -7599,7 +7765,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Les mécréants) disaient (auparavant) :"
   },
   {
     "id": "as-saffat-168",
@@ -7608,7 +7775,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "لَوْ أَنَّ عِندَنَا ذِكْرًا مِّنَ ٱلْأَوَّلِينَ",
     "textSimple": "لو أن عندنا ذكرا من ٱلأولين",
     "transliteration": "law anna ʿindanā dhik'ran mina l-awalīna",
-    "translation": "",
+    "translation": "\"If we had a message from [those of] the former peoples,",
     "words": [
       {
         "id": "as-saffat-168-1",
@@ -7653,7 +7820,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si seulement nous avions eu un Rappel de la part des premiers (peuples),"
   },
   {
     "id": "as-saffat-169",
@@ -7662,7 +7830,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "لَكُنَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
     "textSimple": "لكنا عباد ٱلله ٱلمخلصين",
     "transliteration": "lakunnā ʿibāda l-lahi l-mukh'laṣīna",
-    "translation": "",
+    "translation": "We would have been the chosen servants of Allāh.\"",
     "words": [
       {
         "id": "as-saffat-169-1",
@@ -7693,7 +7861,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "nous aurions alors été les élus parmi les serviteurs d’Allah ! »"
   },
   {
     "id": "as-saffat-170",
@@ -7702,7 +7871,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَكَفَرُوا۟ بِهِۦ ۖ فَسَوْفَ يَعْلَمُونَ",
     "textSimple": "فكفروا به  فسوف يعلمون",
     "transliteration": "fakafarū bihi fasawfa yaʿlamūna",
-    "translation": "",
+    "translation": "But they disbelieved in it, so they are going to know.",
     "words": [
       {
         "id": "as-saffat-170-1",
@@ -7733,7 +7902,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils y ont mécru, et ils sauront bientôt (ce qui les attend)."
   },
   {
     "id": "as-saffat-171",
@@ -7742,7 +7912,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ سَبَقَتْ كَلِمَتُنَا لِعِبَادِنَا ٱلْمُرْسَلِينَ",
     "textSimple": "ولقد سبقت كلمتنا لعبادنا ٱلمرسلين",
     "transliteration": "walaqad sabaqat kalimatunā liʿibādinā l-mur'salīna",
-    "translation": "",
+    "translation": "And Our word [i.e., decree] has already preceded for Our servants, the messengers,",
     "words": [
       {
         "id": "as-saffat-171-1",
@@ -7780,7 +7950,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Notre Parole est déjà parvenue à Nos serviteurs les Envoyés"
   },
   {
     "id": "as-saffat-172",
@@ -7789,7 +7960,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُمْ لَهُمُ ٱلْمَنصُورُونَ",
     "textSimple": "إنهم لهم ٱلمنصورون",
     "transliteration": "innahum lahumu l-manṣūrūna",
-    "translation": "",
+    "translation": "[That] indeed, they would be those given victory",
     "words": [
       {
         "id": "as-saffat-172-1",
@@ -7813,7 +7984,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "qu’ils seraient certes les secourus,"
   },
   {
     "id": "as-saffat-173",
@@ -7822,7 +7994,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنَّ جُندَنَا لَهُمُ ٱلْغَـٰلِبُونَ",
     "textSimple": "وإن جندنا لهم ٱلغـلبون",
     "transliteration": "wa-inna jundanā lahumu l-ghālibūna",
-    "translation": "",
+    "translation": "And [that] indeed, Our soldiers [i.e., the believers] will be those who overcome.",
     "words": [
       {
         "id": "as-saffat-173-1",
@@ -7853,7 +8025,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que Nos armées, à leurs côtés, seraient certes les victorieuses."
   },
   {
     "id": "as-saffat-174",
@@ -7862,7 +8035,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍ",
     "textSimple": "فتول عنهم حتى حين",
     "transliteration": "fatawalla ʿanhum ḥattā ḥīnin",
-    "translation": "",
+    "translation": "So, [O Muḥammad], leave them for a time.",
     "words": [
       {
         "id": "as-saffat-174-1",
@@ -7893,7 +8066,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Détourne-toi d’eux pour un temps."
   },
   {
     "id": "as-saffat-175",
@@ -7902,7 +8076,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَبْصِرْهُمْ فَسَوْفَ يُبْصِرُونَ",
     "textSimple": "وأبصرهم فسوف يبصرون",
     "transliteration": "wa-abṣir'hum fasawfa yub'ṣirūna",
-    "translation": "",
+    "translation": "And see [what will befall] them, for they are going to see.",
     "words": [
       {
         "id": "as-saffat-175-1",
@@ -7926,7 +8100,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Regarde-les (attentivement) ; bientôt ils verront."
   },
   {
     "id": "as-saffat-176",
@@ -7935,7 +8110,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "أَفَبِعَذَابِنَا يَسْتَعْجِلُونَ",
     "textSimple": "أفبعذابنا يستعجلون",
     "transliteration": "afabiʿadhābinā yastaʿjilūna",
-    "translation": "",
+    "translation": "Then for Our punishment are they impatient?",
     "words": [
       {
         "id": "as-saffat-176-1",
@@ -7952,7 +8127,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Est-ce donc Notre supplice qu’ils veulent hâter ?"
   },
   {
     "id": "as-saffat-177",
@@ -7961,7 +8137,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "فَإِذَا نَزَلَ بِسَاحَتِهِمْ فَسَآءَ صَبَاحُ ٱلْمُنذَرِينَ",
     "textSimple": "فإذا نزل بساحتهم فسآء صباح ٱلمنذرين",
     "transliteration": "fa-idhā nazala bisāḥatihim fasāa ṣabāḥu l-mundharīna",
-    "translation": "",
+    "translation": "But when it descends in their territory, then evil is the morning of those who were warned.",
     "words": [
       {
         "id": "as-saffat-177-1",
@@ -8006,7 +8182,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand celui-ci fondra sur eux, combien mauvais sera le matin de ceux qui auront été avertis !"
   },
   {
     "id": "as-saffat-178",
@@ -8015,7 +8192,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَتَوَلَّ عَنْهُمْ حَتَّىٰ حِينٍ",
     "textSimple": "وتول عنهم حتى حين",
     "transliteration": "watawalla ʿanhum ḥattā ḥīnin",
-    "translation": "",
+    "translation": "And leave them for a time.",
     "words": [
       {
         "id": "as-saffat-178-1",
@@ -8046,7 +8223,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et détourne-toi d’eux pour un temps."
   },
   {
     "id": "as-saffat-179",
@@ -8055,7 +8233,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَأَبْصِرْ فَسَوْفَ يُبْصِرُونَ",
     "textSimple": "وأبصر فسوف يبصرون",
     "transliteration": "wa-abṣir fasawfa yub'ṣirūna",
-    "translation": "",
+    "translation": "And see, for they are going to see.",
     "words": [
       {
         "id": "as-saffat-179-1",
@@ -8079,7 +8257,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Regarde (attentivement) ; bientôt ils verront."
   },
   {
     "id": "as-saffat-180",
@@ -8088,7 +8267,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "سُبْحَـٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ",
     "textSimple": "سبحـن ربك رب ٱلعزة عما يصفون",
     "transliteration": "sub'ḥāna rabbika rabbi l-ʿizati ʿammā yaṣifūna",
-    "translation": "",
+    "translation": "Exalted is your Lord, the Lord of might, above what they describe.",
     "words": [
       {
         "id": "as-saffat-180-1",
@@ -8133,7 +8312,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Gloire soit rendue à ton Seigneur, Seigneur de la Toute-Puissance. Il est bien au-dessus de tout ce qu’ils peuvent décrire !"
   },
   {
     "id": "as-saffat-181",
@@ -8142,7 +8322,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَسَلَـٰمٌ عَلَى ٱلْمُرْسَلِينَ",
     "textSimple": "وسلـم على ٱلمرسلين",
     "transliteration": "wasalāmun ʿalā l-mur'salīna",
-    "translation": "",
+    "translation": "And peace upon the messengers.",
     "words": [
       {
         "id": "as-saffat-181-1",
@@ -8166,7 +8346,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Paix aux Envoyés !"
   },
   {
     "id": "as-saffat-182",
@@ -8175,7 +8356,7 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
     "textSimple": "وٱلحمد لله رب ٱلعـلمين",
     "transliteration": "wal-ḥamdu lillahi rabbi l-ʿālamīna",
-    "translation": "",
+    "translation": "And praise to Allāh, Lord of the worlds.",
     "words": [
       {
         "id": "as-saffat-182-1",
@@ -8206,7 +8387,8 @@ export const AS_SAFFAT_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et louange à Allah, Seigneur de l’Univers !"
   }
 ];
 

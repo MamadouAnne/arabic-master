@@ -11,7 +11,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": " وَٱلشَّمْسِ وَضُحَىٰهَا",
     "textSimple": " وٱلشمس وضحىها",
     "transliteration": "wal-shamsi waḍuḥāhā",
-    "translation": "",
+    "translation": "By the sun and its brightness",
     "words": [
       {
         "id": "ash-shams-1-1",
@@ -28,7 +28,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le soleil et sa clarté !"
   },
   {
     "id": "ash-shams-2",
@@ -37,7 +38,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
     "textSimple": "وٱلقمر إذا تلىها",
     "transliteration": "wal-qamari idhā talāhā",
-    "translation": "",
+    "translation": "And [by] the moon when it follows it",
     "words": [
       {
         "id": "ash-shams-2-1",
@@ -61,7 +62,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la lune quand elle le suit !"
   },
   {
     "id": "ash-shams-3",
@@ -70,7 +72,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
     "textSimple": "وٱلنهار إذا جلىها",
     "transliteration": "wal-nahāri idhā jallāhā",
-    "translation": "",
+    "translation": "And [by] the day when it displays it",
     "words": [
       {
         "id": "ash-shams-3-1",
@@ -94,7 +96,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le jour quand il en montre tout l’éclat !"
   },
   {
     "id": "ash-shams-4",
@@ -103,7 +106,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
     "textSimple": "وٱليل إذا يغشىها",
     "transliteration": "wa-al-layli idhā yaghshāhā",
-    "translation": "",
+    "translation": "And [by] the night when it covers [i.e., conceals] it",
     "words": [
       {
         "id": "ash-shams-4-1",
@@ -127,7 +130,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la nuit quand elle le voile !"
   },
   {
     "id": "ash-shams-5",
@@ -136,7 +140,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
     "textSimple": "وٱلسمآء وما بنىها",
     "transliteration": "wal-samāi wamā banāhā",
-    "translation": "",
+    "translation": "And [by] the sky and He who constructed it",
     "words": [
       {
         "id": "ash-shams-5-1",
@@ -160,7 +164,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par le ciel et ce qui l’a bâti !"
   },
   {
     "id": "ash-shams-6",
@@ -169,7 +174,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
     "textSimple": "وٱلأرض وما طحىها",
     "transliteration": "wal-arḍi wamā ṭaḥāhā",
-    "translation": "",
+    "translation": "And [by] the earth and He who spread it",
     "words": [
       {
         "id": "ash-shams-6-1",
@@ -193,7 +198,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par la terre et ce qui l’a étendue !"
   },
   {
     "id": "ash-shams-7",
@@ -202,7 +208,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
     "textSimple": "ونفس وما سوىها",
     "transliteration": "wanafsin wamā sawwāhā",
-    "translation": "",
+    "translation": "And [by] the soul and He who proportioned it",
     "words": [
       {
         "id": "ash-shams-7-1",
@@ -226,7 +232,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Par l’âme et ce qui l’a si harmonieusement formée,"
   },
   {
     "id": "ash-shams-8",
@@ -235,7 +242,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
     "textSimple": "فألهمها فجورها وتقوىها",
     "transliteration": "fa-alhamahā fujūrahā wataqwāhā",
-    "translation": "",
+    "translation": "And inspired it [with discernment of] its wickedness and its righteousness,",
     "words": [
       {
         "id": "ash-shams-8-1",
@@ -259,7 +266,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lui suggérant sa perversion ou sa piété !"
   },
   {
     "id": "ash-shams-9",
@@ -268,7 +276,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
     "textSimple": "قد أفلح من زكىها",
     "transliteration": "qad aflaḥa man zakkāhā",
-    "translation": "",
+    "translation": "He has succeeded who purifies it,",
     "words": [
       {
         "id": "ash-shams-9-1",
@@ -299,7 +307,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Heureux sera, assurément, celui qui la purifie,"
   },
   {
     "id": "ash-shams-10",
@@ -308,7 +317,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
     "textSimple": "وقد خاب من دسىها",
     "transliteration": "waqad khāba man dassāhā",
-    "translation": "",
+    "translation": "And he has failed who instills it [with corruption].",
     "words": [
       {
         "id": "ash-shams-10-1",
@@ -339,7 +348,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et perdu sera celui qui la souille."
   },
   {
     "id": "ash-shams-11",
@@ -348,7 +358,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
     "textSimple": "كذبت ثمود بطغوىهآ",
     "transliteration": "kadhabat thamūdu biṭaghwāhā",
-    "translation": "",
+    "translation": "Thamūd denied [their prophet] by reason of their transgression,",
     "words": [
       {
         "id": "ash-shams-11-1",
@@ -372,7 +382,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Thamûd ont crié au mensonge, emportés par leur transgression,"
   },
   {
     "id": "ash-shams-12",
@@ -381,7 +392,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
     "textSimple": "إذ ٱنبعث أشقىها",
     "transliteration": "idhi inbaʿatha ashqāhā",
-    "translation": "",
+    "translation": "When the most wretched of them was sent forth.",
     "words": [
       {
         "id": "ash-shams-12-1",
@@ -405,7 +416,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "lorsque (pour tuer la chamelle) surgit le plus maudit d’entre eux."
   },
   {
     "id": "ash-shams-13",
@@ -414,7 +426,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَـٰهَا",
     "textSimple": "فقال لهم رسول ٱلله ناقة ٱلله وسقيـها",
     "transliteration": "faqāla lahum rasūlu l-lahi nāqata l-lahi wasuq'yāhā",
-    "translation": "",
+    "translation": "And the messenger of Allāh [i.e., Ṣāliḥ] said to them, \"[Do not harm] the she-camel of Allāh or [prevent her from] her drink.\"",
     "words": [
       {
         "id": "ash-shams-13-1",
@@ -466,7 +478,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Messager d’Allah leur avait dit : « C’est la chamelle d’Allah, laissez-la donc s’abreuver! »"
   },
   {
     "id": "ash-shams-14",
@@ -475,7 +488,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
     "textSimple": "فكذبوه فعقروها فدمدم عليهم ربهم بذنبهم فسوىها",
     "transliteration": "fakadhabūhu faʿaqarūhā fadamdama ʿalayhim rabbuhum bidhanbihim fasawwāhā",
-    "translation": "",
+    "translation": "But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them].",
     "words": [
       {
         "id": "ash-shams-14-1",
@@ -527,7 +540,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais ils le traitèrent de menteur et la tuèrent. Leur Seigneur sévit contre eux (les punissant) de leur péché et Il les châtia tous d’un égal supplice."
   },
   {
     "id": "ash-shams-15",
@@ -536,7 +550,7 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا يَخَافُ عُقْبَـٰهَا",
     "textSimple": "ولا يخاف عقبـها",
     "transliteration": "walā yakhāfu ʿuq'bāhā",
-    "translation": "",
+    "translation": "And He does not fear the consequence thereof.",
     "words": [
       {
         "id": "ash-shams-15-1",
@@ -560,7 +574,8 @@ export const ASH_SHAMS_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et Il n’en craint pas les conséquences."
   }
 ];
 

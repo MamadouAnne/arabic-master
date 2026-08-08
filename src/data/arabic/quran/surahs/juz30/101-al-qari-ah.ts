@@ -11,7 +11,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": " ٱلْقَارِعَةُ",
     "textSimple": " ٱلقارعة",
     "transliteration": "al-qāriʿatu",
-    "translation": "",
+    "translation": "The Striking Calamity -",
     "words": [
       {
         "id": "al-qari-ah-1-1",
@@ -21,7 +21,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Fracas!"
   },
   {
     "id": "al-qari-ah-2",
@@ -30,7 +31,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "مَا ٱلْقَارِعَةُ",
     "textSimple": "ما ٱلقارعة",
     "transliteration": "mā l-qāriʿatu",
-    "translation": "",
+    "translation": "What is the Striking Calamity?",
     "words": [
       {
         "id": "al-qari-ah-2-1",
@@ -47,7 +48,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais qu’est-ce donc que le Fracas ?"
   },
   {
     "id": "al-qari-ah-3",
@@ -56,7 +58,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
     "textSimple": "ومآ أدرىك ما ٱلقارعة",
     "transliteration": "wamā adrāka mā l-qāriʿatu",
-    "translation": "",
+    "translation": "And what can make you know what is the Striking Calamity?",
     "words": [
       {
         "id": "al-qari-ah-3-1",
@@ -87,7 +89,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce que c’est que le Fracas ?"
   },
   {
     "id": "al-qari-ah-4",
@@ -96,7 +99,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
     "textSimple": "يوم يكون ٱلناس كٱلفراش ٱلمبثوث",
     "transliteration": "yawma yakūnu l-nāsu kal-farāshi l-mabthūthi",
-    "translation": "",
+    "translation": "It is the Day when people will be like moths, dispersed,",
     "words": [
       {
         "id": "al-qari-ah-4-1",
@@ -134,7 +137,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est le jour où les hommes seront tels des papillons dispersés,"
   },
   {
     "id": "al-qari-ah-5",
@@ -143,7 +147,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
     "textSimple": "وتكون ٱلجبال كٱلعهن ٱلمنفوش",
     "transliteration": "watakūnu l-jibālu kal-ʿih'ni l-manfūshi",
-    "translation": "",
+    "translation": "And the mountains will be like wool, fluffed up.",
     "words": [
       {
         "id": "al-qari-ah-5-1",
@@ -174,7 +178,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où les montagnes seront comme de la laine démêlée en flocons."
   },
   {
     "id": "al-qari-ah-6",
@@ -183,7 +188,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
     "textSimple": "فأما من ثقلت موزينه",
     "transliteration": "fa-ammā man thaqulat mawāzīnuhu",
-    "translation": "",
+    "translation": "Then as for one whose scales are heavy [with good deeds],",
     "words": [
       {
         "id": "al-qari-ah-6-1",
@@ -214,7 +219,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quant à celui dont les (œuvres) seront lourdes à la balance,"
   },
   {
     "id": "al-qari-ah-7",
@@ -223,7 +229,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَهُوَ فِى عِيشَةٍ رَّاضِيَةٍ",
     "textSimple": "فهو فى عيشة راضية",
     "transliteration": "fahuwa fī ʿīshatin rāḍiyatin",
-    "translation": "",
+    "translation": "He will be in a pleasant life.",
     "words": [
       {
         "id": "al-qari-ah-7-1",
@@ -254,7 +260,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "il aura une vie agréable,"
   },
   {
     "id": "al-qari-ah-8",
@@ -263,7 +270,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
     "textSimple": "وأما من خفت موزينه",
     "transliteration": "wa-ammā man khaffat mawāzīnuhu",
-    "translation": "",
+    "translation": "But as for one whose scales are light,",
     "words": [
       {
         "id": "al-qari-ah-8-1",
@@ -294,7 +301,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et quant à celui dont les (œuvres) seront légères à la balance,"
   },
   {
     "id": "al-qari-ah-9",
@@ -303,7 +311,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "فَأُمُّهُۥ هَاوِيَةٌ",
     "textSimple": "فأمه هاوية",
     "transliteration": "fa-ummuhu hāwiyatun",
-    "translation": "",
+    "translation": "His refuge will be an abyss.",
     "words": [
       {
         "id": "al-qari-ah-9-1",
@@ -320,7 +328,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "sa destination sera l’abîme."
   },
   {
     "id": "al-qari-ah-10",
@@ -329,7 +338,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
     "textSimple": "ومآ أدرىك ما هيه",
     "transliteration": "wamā adrāka mā hiyah",
-    "translation": "",
+    "translation": "And what can make you know what that is?",
     "words": [
       {
         "id": "al-qari-ah-10-1",
@@ -360,7 +369,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et qui te fera jamais savoir ce que c’est (que l’abîme)?"
   },
   {
     "id": "al-qari-ah-11",
@@ -369,7 +379,7 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
     "textUthmani": "نَارٌ حَامِيَةٌۢ",
     "textSimple": "نار حامية",
     "transliteration": "nārun ḥāmiyatun",
-    "translation": "",
+    "translation": "It is a Fire, intensely hot.",
     "words": [
       {
         "id": "al-qari-ah-11-1",
@@ -386,7 +396,8 @@ export const AL_QARI_AH_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un Feu très ardent !"
   }
 ];
 

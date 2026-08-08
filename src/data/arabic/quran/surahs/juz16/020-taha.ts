@@ -11,7 +11,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": " طه",
     "textSimple": " طه",
     "transliteration": "tta-ha",
-    "translation": "",
+    "translation": "Ṭā, Hā.",
     "words": [
       {
         "id": "taha-1-1",
@@ -21,7 +21,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 0
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tâ, Hâ."
   },
   {
     "id": "taha-2",
@@ -30,7 +31,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ لِتَشْقَىٰٓ",
     "textSimple": "مآ أنزلنا عليك ٱلقرءان لتشقىٓ",
     "transliteration": "mā anzalnā ʿalayka l-qur'āna litashqā",
-    "translation": "",
+    "translation": "We have not sent down to you the Qur’ān that you be distressed",
     "words": [
       {
         "id": "taha-2-1",
@@ -68,7 +69,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous ne t’avons pas révélé le Coran pour que tu sois en peine."
   },
   {
     "id": "taha-3",
@@ -77,7 +79,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِلَّا تَذْكِرَةً لِّمَن يَخْشَىٰ",
     "textSimple": "إلا تذكرة لمن يخشى",
     "transliteration": "illā tadhkiratan liman yakhshā",
-    "translation": "",
+    "translation": "But only as a reminder for those who fear [Allāh] -",
     "words": [
       {
         "id": "taha-3-1",
@@ -108,7 +110,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais pour que ce soit un Rappel dont profite celui qui craint (Allah)."
   },
   {
     "id": "taha-4",
@@ -117,7 +120,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "تَنزِيلًا مِّمَّنْ خَلَقَ ٱلْأَرْضَ وَٱلسَّمَـٰوَٰتِ ٱلْعُلَى",
     "textSimple": "تنزيلا ممن خلق ٱلأرض وٱلسمـوت ٱلعلى",
     "transliteration": "tanzīlan mimman khalaqa l-arḍa wal-samāwāti l-ʿulā",
-    "translation": "",
+    "translation": "A revelation from He who created the earth and highest heavens,",
     "words": [
       {
         "id": "taha-4-1",
@@ -162,7 +165,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Le Coran est) une révélation de la part de Celui Qui a créé la terre et les cieux altissimes."
   },
   {
     "id": "taha-5",
@@ -171,7 +175,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلرَّحْمَـٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ",
     "textSimple": "ٱلرحمـن على ٱلعرش ٱستوى",
     "transliteration": "al-raḥmānu ʿalā l-ʿarshi is'tawā",
-    "translation": "",
+    "translation": "The Most Merciful [who is] above the Throne established.",
     "words": [
       {
         "id": "taha-5-1",
@@ -202,7 +206,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Tout Clément S’est installé avec une infinie Majesté (istawâ) sur le Trône."
   },
   {
     "id": "taha-6",
@@ -211,7 +216,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَمَا بَيْنَهُمَا وَمَا تَحْتَ ٱلثَّرَىٰ",
     "textSimple": "له ما فى ٱلسمـوت وما فى ٱلأرض وما بينهما وما تحت ٱلثرى",
     "transliteration": "lahu mā fī l-samāwāti wamā fī l-arḍi wamā baynahumā wamā taḥta l-tharā",
-    "translation": "",
+    "translation": "To Him belongs what is in the heavens and what is on the earth and what is between them and what is under the soil.",
     "words": [
       {
         "id": "taha-6-1",
@@ -298,7 +303,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À Lui appartiennent ce qui est dans les cieux et sur terre, ce qui est entre les deux et ce qui est sous terre."
   },
   {
     "id": "taha-7",
@@ -307,7 +313,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن تَجْهَرْ بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ ٱلسِّرَّ وَأَخْفَى",
     "textSimple": "وإن تجهر بٱلقول فإنه يعلم ٱلسر وأخفى",
     "transliteration": "wa-in tajhar bil-qawli fa-innahu yaʿlamu l-sira wa-akhfā",
-    "translation": "",
+    "translation": "And if you speak aloud - then indeed, He knows the secret and what is [even] more hidden.",
     "words": [
       {
         "id": "taha-7-1",
@@ -359,7 +365,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que tu parles à voix haute (ou non), Il Sait tous les secrets, et même ce qui est plus caché encore."
   },
   {
     "id": "taha-8",
@@ -368,7 +375,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ",
     "textSimple": "ٱلله لآ إلـه إلا هو  له ٱلأسمآء ٱلحسنى",
     "transliteration": "al-lahu lā ilāha illā huwa lahu l-asmāu l-ḥus'nā",
-    "translation": "",
+    "translation": "Allāh - there is no deity except Him. To Him belong the best names.",
     "words": [
       {
         "id": "taha-8-1",
@@ -427,7 +434,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ! Point d’autre divinité que Lui ! Il a les plus Beaux Noms."
   },
   {
     "id": "taha-9",
@@ -436,7 +444,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَهَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
     "textSimple": "وهل أتىك حديث موسىٓ",
     "transliteration": "wahal atāka ḥadīthu mūsā",
-    "translation": "",
+    "translation": "And has the story of Moses reached you? -",
     "words": [
       {
         "id": "taha-9-1",
@@ -467,7 +475,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’histoire de Moïse t’est-elle donc parvenue ?"
   },
   {
     "id": "taha-10",
@@ -476,7 +485,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ رَءَا نَارًا فَقَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًى",
     "textSimple": "إذ رءا نارا فقال لأهله ٱمكثوٓا إنىٓ ءانست نارا لعلىٓ ءاتيكم منها بقبس أو أجد على ٱلنار هدى",
     "transliteration": "idh raā nāran faqāla li-ahlihi um'kuthū innī ānastu nāran laʿallī ātīkum min'hā biqabasin aw ajidu ʿalā l-nāri hudan",
-    "translation": "",
+    "translation": "When he saw a fire and said to his family, \"Stay here; indeed, I have perceived a fire; perhaps I can bring you a torch or find at the fire some guidance.\"",
     "words": [
       {
         "id": "taha-10-1",
@@ -605,7 +614,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ayant aperçu du feu, il dit aux siens : « Attendez ici, j’aperçois un feu au loin. Je pourrais peut-être vous en apporter un tison, ou trouver là (quelqu’un qui pourrait) nous guider."
   },
   {
     "id": "taha-11",
@@ -614,7 +624,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّآ أَتَىٰهَا نُودِىَ يَـٰمُوسَىٰٓ",
     "textSimple": "فلمآ أتىها نودى يـموسىٓ",
     "transliteration": "falammā atāhā nūdiya yāmūsā",
-    "translation": "",
+    "translation": "And when he came to it, he was called, \"O Moses,",
     "words": [
       {
         "id": "taha-11-1",
@@ -645,7 +655,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Arrivé au feu, il fut appelé : « Ô Moïse !"
   },
   {
     "id": "taha-12",
@@ -654,7 +665,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
     "textSimple": "إنىٓ أنا ربك فٱخلع نعليك  إنك بٱلواد ٱلمقدس طوى",
     "transliteration": "innī anā rabbuka fa-ikh'laʿ naʿlayka innaka bil-wādi l-muqadasi ṭuwan",
-    "translation": "",
+    "translation": "Indeed, I am your Lord, so remove your sandals. Indeed, you are in the blessed valley of Ṭuwā.",
     "words": [
       {
         "id": "taha-12-1",
@@ -720,7 +731,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Moi, ton Seigneur. Ôte donc tes sandales car tu es dans la vallée sacrée de Touwâ."
   },
   {
     "id": "taha-13",
@@ -729,7 +741,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَا ٱخْتَرْتُكَ فَٱسْتَمِعْ لِمَا يُوحَىٰٓ",
     "textSimple": "وأنا ٱخترتك فٱستمع لما يوحىٓ",
     "transliteration": "wa-anā ikh'tartuka fa-is'tamiʿ limā yūḥā",
-    "translation": "",
+    "translation": "And I have chosen you, so listen to what is revealed [to you].",
     "words": [
       {
         "id": "taha-13-1",
@@ -767,7 +779,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Moi Qui t’ai choisi. Écoute donc bien ce qui va être révélé."
   },
   {
     "id": "taha-14",
@@ -776,7 +789,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
     "textSimple": "إننىٓ أنا ٱلله لآ إلـه إلآ أنا فٱعبدنى وأقم ٱلصلوة لذكرىٓ",
     "transliteration": "innanī anā l-lahu lā ilāha illā anā fa-uʿ'bud'nī wa-aqimi l-ṣalata lidhik'rī",
-    "translation": "",
+    "translation": "Indeed, I am Allāh. There is no deity except Me, so worship Me and establish prayer for My remembrance.",
     "words": [
       {
         "id": "taha-14-1",
@@ -856,7 +869,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Certes, Je suis Allah. Point d’autre divinité que Moi. Adore-Moi donc, accomplis la Çalât pour Me rappeler à ton souvenir."
   },
   {
     "id": "taha-15",
@@ -865,7 +879,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلسَّاعَةَ ءَاتِيَةٌ أَكَادُ أُخْفِيهَا لِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا تَسْعَىٰ",
     "textSimple": "إن ٱلساعة ءاتية أكاد أخفيها لتجزى كل نفس بما تسعى",
     "transliteration": "inna l-sāʿata ātiyatun akādu ukh'fīhā lituj'zā kullu nafsin bimā tasʿā",
-    "translation": "",
+    "translation": "Indeed, the Hour is coming - I almost conceal it - so that every soul may be recompensed according to that for which it strives.",
     "words": [
       {
         "id": "taha-15-1",
@@ -938,7 +952,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "L’Heure arrivera et Je la tiens cachée de tous pour que toute âme soit rétribuée selon ce qu’elle s’emploie à accomplir."
   },
   {
     "id": "taha-16",
@@ -947,7 +962,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَا يَصُدَّنَّكَ عَنْهَا مَن لَّا يُؤْمِنُ بِهَا وَٱتَّبَعَ هَوَىٰهُ فَتَرْدَىٰ",
     "textSimple": "فلا يصدنك عنها من لا يؤمن بها وٱتبع هوىه فتردى",
     "transliteration": "falā yaṣuddannaka ʿanhā man lā yu'minu bihā wa-ittabaʿa hawāhu fatardā",
-    "translation": "",
+    "translation": "So do not let one avert you from it who does not believe in it and follows his desire, for you [then] would perish.",
     "words": [
       {
         "id": "taha-16-1",
@@ -1020,7 +1035,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que ne t’en détourne donc pas ceux qui n’y croient pas et qui suivent leurs passions, ou tu serais alors perdu."
   },
   {
     "id": "taha-17",
@@ -1029,7 +1045,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا تِلْكَ بِيَمِينِكَ يَـٰمُوسَىٰ",
     "textSimple": "وما تلك بيمينك يـموسى",
     "transliteration": "wamā til'ka biyamīnika yāmūsā",
-    "translation": "",
+    "translation": "And what is that in your right hand, O Moses?\"",
     "words": [
       {
         "id": "taha-17-1",
@@ -1060,7 +1076,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais qu’est ce donc que tu as dans ta main droite, Moïse ? »"
   },
   {
     "id": "taha-18",
@@ -1069,7 +1086,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَىٰ",
     "textSimple": "قال هى عصاى أتوكؤا عليها وأهش بها على غنمى ولى فيها مـٔارب أخرى",
     "transliteration": "qāla hiya ʿaṣāya atawakka-u ʿalayhā wa-ahushu bihā ʿalā ghanamī waliya fīhā maāribu ukh'rā",
-    "translation": "",
+    "translation": "He said, \"It is my staff; I lean upon it, and I bring down leaves for my sheep and I have therein other uses.\"",
     "words": [
       {
         "id": "taha-18-1",
@@ -1163,7 +1180,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« C’est mon bâton, dit (Moïse), sur lequel je m’appuie et avec lequel je fais tomber (les feuilles des arbres) pour mes moutons ; je m’en sers aussi pour d’autres utilités. »"
   },
   {
     "id": "taha-19",
@@ -1172,7 +1190,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَلْقِهَا يَـٰمُوسَىٰ",
     "textSimple": "قال ألقها يـموسى",
     "transliteration": "qāla alqihā yāmūsā",
-    "translation": "",
+    "translation": "[Allāh] said, \"Throw it down, O Moses.\"",
     "words": [
       {
         "id": "taha-19-1",
@@ -1196,7 +1214,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il lui dit : « Jette-le donc, Moïse ! »"
   },
   {
     "id": "taha-20",
@@ -1205,7 +1224,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَلْقَىٰهَا فَإِذَا هِىَ حَيَّةٌ تَسْعَىٰ",
     "textSimple": "فألقىها فإذا هى حية تسعى",
     "transliteration": "fa-alqāhā fa-idhā hiya ḥayyatun tasʿā",
-    "translation": "",
+    "translation": "So he threw it down, and thereupon it was a snake, moving swiftly.",
     "words": [
       {
         "id": "taha-20-1",
@@ -1243,7 +1262,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il le jeta, et le voilà devenu un serpent qui rampait."
   },
   {
     "id": "taha-21",
@@ -1252,7 +1272,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ خُذْهَا وَلَا تَخَفْ ۖ سَنُعِيدُهَا سِيرَتَهَا ٱلْأُولَىٰ",
     "textSimple": "قال خذها ولا تخف  سنعيدها سيرتها ٱلأولى",
     "transliteration": "qāla khudh'hā walā takhaf sanuʿīduhā sīratahā l-ūlā",
-    "translation": "",
+    "translation": "[Allāh] said, \"Seize it and fear not; We will return it to its former condition.",
     "words": [
       {
         "id": "taha-21-1",
@@ -1304,7 +1324,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) dit : « Prends-le, n’aie pas peur. Nous le rendrons à sa forme première !"
   },
   {
     "id": "taha-22",
@@ -1313,7 +1334,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱضْمُمْ يَدَكَ إِلَىٰ جَنَاحِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ ءَايَةً أُخْرَىٰ",
     "textSimple": "وٱضمم يدك إلى جناحك تخرج بيضآء من غير سوٓء ءاية أخرى",
     "transliteration": "wa-uḍ'mum yadaka ilā janāḥika takhruj bayḍāa min ghayri sūin āyatan ukh'rā",
-    "translation": "",
+    "translation": "And draw in your hand to your side; it will come out white without disease - another sign,",
     "words": [
       {
         "id": "taha-22-1",
@@ -1393,7 +1414,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Serre ta main contre ton flanc, elle en sortira blanche et saine de toute maladie ; ce sera là un autre prodige."
   },
   {
     "id": "taha-23",
@@ -1402,7 +1424,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "لِنُرِيَكَ مِنْ ءَايَـٰتِنَا ٱلْكُبْرَى",
     "textSimple": "لنريك من ءايـتنا ٱلكبرى",
     "transliteration": "linuriyaka min āyātinā l-kub'rā",
-    "translation": "",
+    "translation": "That We may show you [some] of Our greater signs.",
     "words": [
       {
         "id": "taha-23-1",
@@ -1433,7 +1455,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela, pour que Nous te montrions (certains) de Nos Signes les plus grands."
   },
   {
     "id": "taha-24",
@@ -1442,7 +1465,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
     "textSimple": "ٱذهب إلى فرعون إنه طغى",
     "transliteration": "idh'hab ilā fir'ʿawna innahu ṭaghā",
-    "translation": "",
+    "translation": "Go to Pharaoh. Indeed, he has transgressed [i.e., tyrannized].\"",
     "words": [
       {
         "id": "taha-24-1",
@@ -1480,7 +1503,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Va trouver Pharaon car il a transgressé ! »"
   },
   {
     "id": "taha-25",
@@ -1489,7 +1513,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ ٱشْرَحْ لِى صَدْرِى",
     "textSimple": "قال رب ٱشرح لى صدرى",
     "transliteration": "qāla rabbi ish'raḥ lī ṣadrī",
-    "translation": "",
+    "translation": "[Moses] said, \"My Lord, expand [i.e., relax] for me my breast [with assurance]",
     "words": [
       {
         "id": "taha-25-1",
@@ -1527,7 +1551,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Moïse) dit : « Seigneur ! Fais que ma poitrine s’ouvre (à Ta révélation) !"
   },
   {
     "id": "taha-26",
@@ -1536,7 +1561,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسِّرْ لِىٓ أَمْرِى",
     "textSimple": "ويسر لىٓ أمرى",
     "transliteration": "wayassir lī amrī",
-    "translation": "",
+    "translation": "And ease for me my task",
     "words": [
       {
         "id": "taha-26-1",
@@ -1560,7 +1585,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rends ma mission facile."
   },
   {
     "id": "taha-27",
@@ -1569,7 +1595,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱحْلُلْ عُقْدَةً مِّن لِّسَانِى",
     "textSimple": "وٱحلل عقدة من لسانى",
     "transliteration": "wa-uḥ'lul ʿuq'datan min lisānī",
-    "translation": "",
+    "translation": "And untie the knot from my tongue",
     "words": [
       {
         "id": "taha-27-1",
@@ -1600,7 +1626,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Défais le nœud (qui lie) ma langue,"
   },
   {
     "id": "taha-28",
@@ -1609,7 +1636,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَفْقَهُوا۟ قَوْلِى",
     "textSimple": "يفقهوا قولى",
     "transliteration": "yafqahū qawlī",
-    "translation": "",
+    "translation": "That they may understand my speech.",
     "words": [
       {
         "id": "taha-28-1",
@@ -1626,7 +1653,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin qu’ils comprennent ce que je (leur) dis."
   },
   {
     "id": "taha-29",
@@ -1635,7 +1663,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱجْعَل لِّى وَزِيرًا مِّنْ أَهْلِى",
     "textSimple": "وٱجعل لى وزيرا من أهلى",
     "transliteration": "wa-ij'ʿal lī wazīran min ahlī",
-    "translation": "",
+    "translation": "And appoint for me a minister [i.e., assistant] from my family -",
     "words": [
       {
         "id": "taha-29-1",
@@ -1673,7 +1701,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Donne-moi un assistant issu des miens :"
   },
   {
     "id": "taha-30",
@@ -1682,7 +1711,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "هَـٰرُونَ أَخِى",
     "textSimple": "هـرون أخى",
     "transliteration": "hārūna akhī",
-    "translation": "",
+    "translation": "Aaron, my brother.",
     "words": [
       {
         "id": "taha-30-1",
@@ -1699,7 +1728,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aaron, mon frère ;"
   },
   {
     "id": "taha-31",
@@ -1708,7 +1738,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱشْدُدْ بِهِۦٓ أَزْرِى",
     "textSimple": "ٱشدد بهٓ أزرى",
     "transliteration": "ush'dud bihi azrī",
-    "translation": "",
+    "translation": "Increase through him my strength",
     "words": [
       {
         "id": "taha-31-1",
@@ -1732,7 +1762,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "fais qu’il me soit appui et renfort ;"
   },
   {
     "id": "taha-32",
@@ -1741,7 +1772,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَشْرِكْهُ فِىٓ أَمْرِى",
     "textSimple": "وأشركه فىٓ أمرى",
     "transliteration": "wa-ashrik'hu fī amrī",
-    "translation": "",
+    "translation": "And let him share my task",
     "words": [
       {
         "id": "taha-32-1",
@@ -1765,7 +1796,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "associe-le à ma mission,"
   },
   {
     "id": "taha-33",
@@ -1774,7 +1806,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "كَىْ نُسَبِّحَكَ كَثِيرًا",
     "textSimple": "كى نسبحك كثيرا",
     "transliteration": "kay nusabbiḥaka kathīran",
-    "translation": "",
+    "translation": "That we may exalt You much",
     "words": [
       {
         "id": "taha-33-1",
@@ -1798,7 +1830,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin que nous Te rendions gloire abondamment,"
   },
   {
     "id": "taha-34",
@@ -1807,7 +1840,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَنَذْكُرَكَ كَثِيرًا",
     "textSimple": "ونذكرك كثيرا",
     "transliteration": "wanadhkuraka kathīran",
-    "translation": "",
+    "translation": "And remember You much.",
     "words": [
       {
         "id": "taha-34-1",
@@ -1824,7 +1857,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et que nous T’évoquions abondamment."
   },
   {
     "id": "taha-35",
@@ -1833,7 +1867,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّكَ كُنتَ بِنَا بَصِيرًا",
     "textSimple": "إنك كنت بنا بصيرا",
     "transliteration": "innaka kunta binā baṣīran",
-    "translation": "",
+    "translation": "Indeed, You are of us ever Seeing.\"",
     "words": [
       {
         "id": "taha-35-1",
@@ -1864,7 +1898,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu Vois parfaitement clair en nous. »"
   },
   {
     "id": "taha-36",
@@ -1873,7 +1908,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ قَدْ أُوتِيتَ سُؤْلَكَ يَـٰمُوسَىٰ",
     "textSimple": "قال قد أوتيت سؤلك يـموسى",
     "transliteration": "qāla qad ūtīta su'laka yāmūsā",
-    "translation": "",
+    "translation": "[Allāh] said, \"You have been granted your request, O Moses.",
     "words": [
       {
         "id": "taha-36-1",
@@ -1911,7 +1946,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Allah) dit : « Accordée est ta demande, Moïse !"
   },
   {
     "id": "taha-37",
@@ -1920,7 +1956,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ مَنَنَّا عَلَيْكَ مَرَّةً أُخْرَىٰٓ",
     "textSimple": "ولقد مننا عليك مرة أخرىٓ",
     "transliteration": "walaqad manannā ʿalayka marratan ukh'rā",
-    "translation": "",
+    "translation": "And We had already conferred favor upon you another time,",
     "words": [
       {
         "id": "taha-37-1",
@@ -1958,7 +1994,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous t’avons déjà favorisé une première fois,"
   },
   {
     "id": "taha-38",
@@ -1967,7 +2004,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ أَوْحَيْنَآ إِلَىٰٓ أُمِّكَ مَا يُوحَىٰٓ",
     "textSimple": "إذ أوحينآ إلىٓ أمك ما يوحىٓ",
     "transliteration": "idh awḥaynā ilā ummika mā yūḥā",
-    "translation": "",
+    "translation": "When We inspired to your mother what We inspired,",
     "words": [
       {
         "id": "taha-38-1",
@@ -2012,7 +2049,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand, à ta mère, Nous avons inspiré ce qui s’inspire :"
   },
   {
     "id": "taha-39",
@@ -2021,7 +2059,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "أَنِ ٱقْذِفِيهِ فِى ٱلتَّابُوتِ فَٱقْذِفِيهِ فِى ٱلْيَمِّ فَلْيُلْقِهِ ٱلْيَمُّ بِٱلسَّاحِلِ يَأْخُذْهُ عَدُوٌّ لِّى وَعَدُوٌّ لَّهُۥ ۚ وَأَلْقَيْتُ عَلَيْكَ مَحَبَّةً مِّنِّى وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ",
     "textSimple": "أن ٱقذفيه فى ٱلتابوت فٱقذفيه فى ٱليم فليلقه ٱليم بٱلساحل يأخذه عدو لى وعدو له  وألقيت عليك محبة منى ولتصنع على عينىٓ",
     "transliteration": "ani iq'dhifīhi fī l-tābūti fa-iq'dhifīhi fī l-yami falyul'qihi l-yamu bil-sāḥili yakhudh'hu ʿaduwwun lī waʿaduwwun lahu wa-alqaytu ʿalayka maḥabbatan minnī walituṣ'naʿa ʿalā ʿaynī",
-    "translation": "",
+    "translation": "[Saying], 'Cast him into the chest and cast it into the river, and the river will throw it onto the bank; there will take him an enemy to Me and an enemy to him.' And I bestowed upon you love from Me that you would be brought up under My eye [i.e., observation and care].",
     "words": [
       {
         "id": "taha-39-1",
@@ -2178,7 +2216,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "\"Mets-le dans une caisse que tu jetteras dans les eaux du fleuve. Les flots l’entraîneront jusqu’à l’autre rive. Là le recueillera un ennemi à lui et à Moi.\" Et j’ai répandu sur toi, comme Signe de Ma grâce, l’amour (de tous), afin que tu sois élevé sous Mes yeux."
   },
   {
     "id": "taha-40",
@@ -2187,7 +2226,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَـٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَـٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّـٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَـٰمُوسَىٰ",
     "textSimple": "إذ تمشىٓ أختك فتقول هل أدلكم على من يكفله  فرجعنـك إلىٓ أمك كى تقر عينها ولا تحزن  وقتلت نفسا فنجينـك من ٱلغم وفتنـك فتونا  فلبثت سنين فىٓ أهل مدين ثم جئت على قدر يـموسى",
     "transliteration": "idh tamshī ukh'tuka fataqūlu hal adullukum ʿalā man yakfuluhu farajaʿnāka ilā ummika kay taqarra ʿaynuhā walā taḥzana waqatalta nafsan fanajjaynāka mina l-ghami wafatannāka futūnan falabith'ta sinīna fī ahli madyana thumma ji'ta ʿalā qadarin yāmūsā",
-    "translation": "",
+    "translation": "[And We favored you] when your sister went and said, 'Shall I direct you to someone who will be responsible for him?' So We restored you to your mother that she might be content and not grieve. And you killed someone, but We saved you from retaliation and tried you with a [severe] trial. And you remained [some] years among the people of Madyan. Then you came [here] at the decreed time, O Moses.",
     "words": [
       {
         "id": "taha-40-1",
@@ -2428,7 +2467,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 33
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Or ta sœur qui te suivait dit : \"Voulez-vous que je vous indique (une nourrice) pour le prendre en charge ?\" Alors, Nous t’avons rendu à ta mère pour qu’elle soit heureuse et pour qu’elle ne s’afflige point. Puis tu as tué un homme et Nous t’avons sauvé des tourments et t’avons mis plus d’une fois à l’épreuve. Pendant plusieurs années, ensuite, tu as vécu parmi le peuple de Madyan. Puis tu es venu, Moïse, d’après un terme décrété."
   },
   {
     "id": "taha-41",
@@ -2437,7 +2477,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَٱصْطَنَعْتُكَ لِنَفْسِى",
     "textSimple": "وٱصطنعتك لنفسى",
     "transliteration": "wa-iṣ'ṭanaʿtuka linafsī",
-    "translation": "",
+    "translation": "And I produced you for Myself.",
     "words": [
       {
         "id": "taha-41-1",
@@ -2454,7 +2494,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 1
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je t’ai élu pour Moi-même."
   },
   {
     "id": "taha-42",
@@ -2463,7 +2504,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱذْهَبْ أَنتَ وَأَخُوكَ بِـَٔايَـٰتِى وَلَا تَنِيَا فِى ذِكْرِى",
     "textSimple": "ٱذهب أنت وأخوك بـٔايـتى ولا تنيا فى ذكرى",
     "transliteration": "idh'hab anta wa-akhūka biāyātī walā taniyā fī dhik'rī",
-    "translation": "",
+    "translation": "Go, you and your brother, with My signs and do not slacken in My remembrance.",
     "words": [
       {
         "id": "taha-42-1",
@@ -2522,7 +2563,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Va donc avec ton frère, munis tous les deux de Mes Signes, et ne cessez pas de M’évoquer."
   },
   {
     "id": "taha-43",
@@ -2531,7 +2573,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
     "textSimple": "ٱذهبآ إلى فرعون إنه طغى",
     "transliteration": "idh'habā ilā fir'ʿawna innahu ṭaghā",
-    "translation": "",
+    "translation": "Go, both of you, to Pharaoh. Indeed, he has transgressed.",
     "words": [
       {
         "id": "taha-43-1",
@@ -2569,7 +2611,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allez tous deux vers Pharaon car il a transgressé !"
   },
   {
     "id": "taha-44",
@@ -2578,7 +2621,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَقُولَا لَهُۥ قَوْلًا لَّيِّنًا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ",
     "textSimple": "فقولا له قولا لينا لعله يتذكر أو يخشى",
     "transliteration": "faqūlā lahu qawlan layyinan laʿallahu yatadhakkaru aw yakhshā",
-    "translation": "",
+    "translation": "And speak to him with gentle speech that perhaps he may be reminded or fear [Allāh].\"",
     "words": [
       {
         "id": "taha-44-1",
@@ -2637,7 +2680,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tenez-lui des propos conciliants, peut-être qu’il se rappellera et (Me) craindra. »"
   },
   {
     "id": "taha-45",
@@ -2646,7 +2690,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ",
     "textSimple": "قالا ربنآ إننا نخاف أن يفرط علينآ أو أن يطغى",
     "transliteration": "qālā rabbanā innanā nakhāfu an yafruṭa ʿalaynā aw an yaṭghā",
-    "translation": "",
+    "translation": "They said, \"Our Lord, indeed we are afraid that he will hasten [punishment] against us or that he will transgress.\"",
     "words": [
       {
         "id": "taha-45-1",
@@ -2719,7 +2763,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Seigneur ! Nous craignons fort qu’il ne s’en prenne à nous ou qu’il n’abuse », dirent-ils."
   },
   {
     "id": "taha-46",
@@ -2728,7 +2773,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَا تَخَافَآ ۖ إِنَّنِى مَعَكُمَآ أَسْمَعُ وَأَرَىٰ",
     "textSimple": "قال لا تخافآ  إننى معكمآ أسمع وأرى",
     "transliteration": "qāla lā takhāfā innanī maʿakumā asmaʿu wa-arā",
-    "translation": "",
+    "translation": "[Allāh] said, \"Fear not. Indeed, I am with you both; I hear and I see.",
     "words": [
       {
         "id": "taha-46-1",
@@ -2780,7 +2825,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ne craignez rien, dit Allah, Je suis avec vous, J’Entends et Je Vois."
   },
   {
     "id": "taha-47",
@@ -2789,7 +2835,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأْتِيَاهُ فَقُولَآ إِنَّا رَسُولَا رَبِّكَ فَأَرْسِلْ مَعَنَا بَنِىٓ إِسْرَٰٓءِيلَ وَلَا تُعَذِّبْهُمْ ۖ قَدْ جِئْنَـٰكَ بِـَٔايَةٍ مِّن رَّبِّكَ ۖ وَٱلسَّلَـٰمُ عَلَىٰ مَنِ ٱتَّبَعَ ٱلْهُدَىٰٓ",
     "textSimple": "فأتياه فقولآ إنا رسولا ربك فأرسل معنا بنىٓ إسرٓءيل ولا تعذبهم  قد جئنـك بـٔاية من ربك  وٱلسلـم على من ٱتبع ٱلهدىٓ",
     "transliteration": "fatiyāhu faqūlā innā rasūlā rabbika fa-arsil maʿanā banī is'rāīla walā tuʿadhib'hum qad ji'nāka biāyatin min rabbika wal-salāmu ʿalā mani ittabaʿa l-hudā",
-    "translation": "",
+    "translation": "So go to him and say, 'Indeed, we are messengers of your Lord, so send with us the Children of Israel and do not torment them. We have come to you with a sign from your Lord. And peace will be upon he who follows the guidance.",
     "words": [
       {
         "id": "taha-47-1",
@@ -2939,7 +2985,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allez lui dire : “Nous sommes deux envoyés de ton Seigneur. Laisse donc partir avec nous les Enfants d’Israël, ne les torture plus. Nous sommes venus vers toi munis d’un Signe de ton Seigneur. Que la paix soit sur quiconque suivra la juste direction (hudâ)."
   },
   {
     "id": "taha-48",
@@ -2948,7 +2995,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا قَدْ أُوحِىَ إِلَيْنَآ أَنَّ ٱلْعَذَابَ عَلَىٰ مَن كَذَّبَ وَتَوَلَّىٰ",
     "textSimple": "إنا قد أوحى إلينآ أن ٱلعذاب على من كذب وتولى",
     "transliteration": "innā qad ūḥiya ilaynā anna l-ʿadhāba ʿalā man kadhaba watawallā",
-    "translation": "",
+    "translation": "Indeed, it has been revealed to us that the punishment will be upon whoever denies and turns away.'\"",
     "words": [
       {
         "id": "taha-48-1",
@@ -3021,7 +3068,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il nous est révélé que le supplice frappera ceux qui osent démentir (les Signes d’Allah) et qui s’en détournent.” »"
   },
   {
     "id": "taha-49",
@@ -3030,7 +3078,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَمَن رَّبُّكُمَا يَـٰمُوسَىٰ",
     "textSimple": "قال فمن ربكما يـموسى",
     "transliteration": "qāla faman rabbukumā yāmūsā",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"So who is the Lord of you two, O Moses?\"",
     "words": [
       {
         "id": "taha-49-1",
@@ -3061,7 +3109,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qui est donc votre Seigneur à vous deux, Moïse ? » interrogea Pharaon."
   },
   {
     "id": "taha-50",
@@ -3070,7 +3119,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ",
     "textSimple": "قال ربنا ٱلذىٓ أعطى كل شىء خلقه ثم هدى",
     "transliteration": "qāla rabbunā alladhī aʿṭā kulla shayin khalqahu thumma hadā",
-    "translation": "",
+    "translation": "He said, \"Our Lord is He who gave each thing its form and then guided [it].\"",
     "words": [
       {
         "id": "taha-50-1",
@@ -3136,7 +3185,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Notre Seigneur, répondit Moïse, est Celui Qui a donné à chaque chose la forme de sa création puis l’a conduite (vers la vérité). »"
   },
   {
     "id": "taha-51",
@@ -3145,7 +3195,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ",
     "textSimple": "قال فما بال ٱلقرون ٱلأولى",
     "transliteration": "qāla famā bālu l-qurūni l-ūlā",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"Then what is the case of the former generations?\"",
     "words": [
       {
         "id": "taha-51-1",
@@ -3183,7 +3233,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qu’en est-il alors des générations révolues », répliqua Pharaon."
   },
   {
     "id": "taha-52",
@@ -3192,7 +3243,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ عِلْمُهَا عِندَ رَبِّى فِى كِتَـٰبٍ ۖ لَّا يَضِلُّ رَبِّى وَلَا يَنسَى",
     "textSimple": "قال علمها عند ربى فى كتـب  لا يضل ربى ولا ينسى",
     "transliteration": "qāla ʿil'muhā ʿinda rabbī fī kitābin lā yaḍillu rabbī walā yansā",
-    "translation": "",
+    "translation": "[Moses] said, \"The knowledge thereof is with my Lord in a record. My Lord neither errs nor forgets.\"",
     "words": [
       {
         "id": "taha-52-1",
@@ -3272,7 +3323,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse dit: « La connaissance de ce qui les concerne est du ressort exclusif de mon Seigneur, (consignée) dans un Livre. Mon Seigneur ne saurait d’ailleurs ni Se tromper ni oublier."
   },
   {
     "id": "taha-53",
@@ -3281,7 +3333,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن نَّبَاتٍ شَتَّىٰ",
     "textSimple": "ٱلذى جعل لكم ٱلأرض مهدا وسلك لكم فيها سبلا وأنزل من ٱلسمآء مآء فأخرجنا بهٓ أزوجا من نبات شتى",
     "transliteration": "alladhī jaʿala lakumu l-arḍa mahdan wasalaka lakum fīhā subulan wa-anzala mina l-samāi māan fa-akhrajnā bihi azwājan min nabātin shattā",
-    "translation": "",
+    "translation": "[It is He] who has made for you the earth as a bed [spread out] and inserted therein for you roadways and sent down from the sky, rain and produced thereby categories of various plants.",
     "words": [
       {
         "id": "taha-53-1",
@@ -3417,7 +3469,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui vous a fait de la terre un berceau, y a tracé pour vous des chemins, a fait pleuvoir de l’eau du ciel par laquelle Nous faisons pousser des plantes en couples et de toutes les variétés. »"
   },
   {
     "id": "taha-54",
@@ -3426,7 +3479,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "كُلُوا۟ وَٱرْعَوْا۟ أَنْعَـٰمَكُمْ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
     "textSimple": "كلوا وٱرعوا أنعـمكم  إن فى ذلك لـٔايـت لأولى ٱلنهى",
     "transliteration": "kulū wa-ir'ʿaw anʿāmakum inna fī dhālika laāyātin li-ulī l-nuhā",
-    "translation": "",
+    "translation": "Eat [therefrom] and pasture your livestock. Indeed in that are signs for those of intelligence.",
     "words": [
       {
         "id": "taha-54-1",
@@ -3492,7 +3545,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mangez-en donc et laissez paître votre bétail. Il y a certainement là des Signes pour les esprits sagaces."
   },
   {
     "id": "taha-55",
@@ -3501,7 +3555,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "۞ مِنْهَا خَلَقْنَـٰكُمْ وَفِيهَا نُعِيدُكُمْ وَمِنْهَا نُخْرِجُكُمْ تَارَةً أُخْرَىٰ",
     "textSimple": " منها خلقنـكم وفيها نعيدكم ومنها نخرجكم تارة أخرى",
     "transliteration": "min'hā khalaqnākum wafīhā nuʿīdukum wamin'hā nukh'rijukum tāratan ukh'rā",
-    "translation": "",
+    "translation": "From it [i.e., the earth] We created you, and into it We will return you, and from it We will extract you another time.",
     "words": [
       {
         "id": "taha-55-1",
@@ -3560,7 +3614,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "D’elle (la terre), Nous vous avons créés, et vers elle Nous vous ferons retourner, puis d’elle Nous vous ferons sortir une nouvelle fois."
   },
   {
     "id": "taha-56",
@@ -3569,7 +3624,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَرَيْنَـٰهُ ءَايَـٰتِنَا كُلَّهَا فَكَذَّبَ وَأَبَىٰ",
     "textSimple": "ولقد أرينـه ءايـتنا كلها فكذب وأبى",
     "transliteration": "walaqad araynāhu āyātinā kullahā fakadhaba wa-abā",
-    "translation": "",
+    "translation": "And We certainly showed him [i.e., Pharaoh] Our signs - all of them - but he denied and refused.",
     "words": [
       {
         "id": "taha-56-1",
@@ -3614,7 +3669,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous lui fîmes (pourtant) voir tous Nos Signes. Mais il les traita de mensonges et refusa d’y croire."
   },
   {
     "id": "taha-57",
@@ -3623,7 +3679,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ أَجِئْتَنَا لِتُخْرِجَنَا مِنْ أَرْضِنَا بِسِحْرِكَ يَـٰمُوسَىٰ",
     "textSimple": "قال أجئتنا لتخرجنا من أرضنا بسحرك يـموسى",
     "transliteration": "qāla aji'tanā litukh'rijanā min arḍinā bisiḥ'rika yāmūsā",
-    "translation": "",
+    "translation": "He said, \"Have you come to us to drive us out of our land with your magic, O Moses?",
     "words": [
       {
         "id": "taha-57-1",
@@ -3675,7 +3731,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Es-tu venu vers nous, Moïse, pour nous chasser de notre terre avec ta magie ?"
   },
   {
     "id": "taha-58",
@@ -3684,7 +3741,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَلَنَأْتِيَنَّكَ بِسِحْرٍ مِّثْلِهِۦ فَٱجْعَلْ بَيْنَنَا وَبَيْنَكَ مَوْعِدًا لَّا نُخْلِفُهُۥ نَحْنُ وَلَآ أَنتَ مَكَانًا سُوًى",
     "textSimple": "فلنأتينك بسحر مثله فٱجعل بيننا وبينك موعدا لا نخلفه نحن ولآ أنت مكانا سوى",
     "transliteration": "falanatiyannaka bisiḥ'rin mith'lihi fa-ij'ʿal baynanā wabaynaka mawʿidan lā nukh'lifuhu naḥnu walā anta makānan suwan",
-    "translation": "",
+    "translation": "Then we will surely bring you magic like it, so make between us and you an appointment, which we will not fail to keep and neither will you, in a place assigned.\"",
     "words": [
       {
         "id": "taha-58-1",
@@ -3785,7 +3842,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous allons donc t’apporter une magie semblable. Fixe-nous un rendez-vous que nous ne manquerons pas, ni nous ni toi. Que ce soit dans un lieu qui nous convienne (à tous deux).»"
   },
   {
     "id": "taha-59",
@@ -3794,7 +3852,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن يُحْشَرَ ٱلنَّاسُ ضُحًى",
     "textSimple": "قال موعدكم يوم ٱلزينة وأن يحشر ٱلناس ضحى",
     "transliteration": "qāla mawʿidukum yawmu l-zīnati wa-an yuḥ'shara l-nāsu ḍuḥan",
-    "translation": "",
+    "translation": "[Moses] said, \"Your appointment is on the day of the festival when the people assemble at mid-morning.\"",
     "words": [
       {
         "id": "taha-59-1",
@@ -3853,7 +3911,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Vous avez rendez-vous au jour des festivités et que les gens soient rassemblés dans la matinée. »"
   },
   {
     "id": "taha-60",
@@ -3862,7 +3921,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَتَوَلَّىٰ فِرْعَوْنُ فَجَمَعَ كَيْدَهُۥ ثُمَّ أَتَىٰ",
     "textSimple": "فتولى فرعون فجمع كيده ثم أتى",
     "transliteration": "fatawallā fir'ʿawnu fajamaʿa kaydahu thumma atā",
-    "translation": "",
+    "translation": "So Pharaoh went away, put together his plan, and then came [to Moses].",
     "words": [
       {
         "id": "taha-60-1",
@@ -3907,7 +3966,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon se retira, mobilisa tous ses stratagèmes et revint."
   },
   {
     "id": "taha-61",
@@ -3916,7 +3976,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ لَهُم مُّوسَىٰ وَيْلَكُمْ لَا تَفْتَرُوا۟ عَلَى ٱللَّهِ كَذِبًا فَيُسْحِتَكُم بِعَذَابٍ ۖ وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ",
     "textSimple": "قال لهم موسى ويلكم لا تفتروا على ٱلله كذبا فيسحتكم بعذاب  وقد خاب من ٱفترى",
     "transliteration": "qāla lahum mūsā waylakum lā taftarū ʿalā l-lahi kadhiban fayus'ḥitakum biʿadhābin waqad khāba mani if'tarā",
-    "translation": "",
+    "translation": "Moses said to them [i.e., the magicians summoned by Pharaoh], \"Woe to you! Do not invent a lie against Allāh or He will exterminate you with a punishment; and he has failed who invents [such falsehood].\"",
     "words": [
       {
         "id": "taha-61-1",
@@ -4024,7 +4084,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse leur dit : « Malheur à vous ! Ne débitez point de mensonges sur le compte d’Allah ou alors Il vous exterminera par un supplice. Car celui qui débite des mensonges échouera. »"
   },
   {
     "id": "taha-62",
@@ -4033,7 +4094,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَتَنَـٰزَعُوٓا۟ أَمْرَهُم بَيْنَهُمْ وَأَسَرُّوا۟ ٱلنَّجْوَىٰ",
     "textSimple": "فتنـزعوٓا أمرهم بينهم وأسروا ٱلنجوى",
     "transliteration": "fatanāzaʿū amrahum baynahum wa-asarrū l-najwā",
-    "translation": "",
+    "translation": "So they disputed over their affair among themselves and concealed their private conversation.",
     "words": [
       {
         "id": "taha-62-1",
@@ -4071,7 +4132,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils discutèrent alors entre eux et tinrent secrètes leurs délibérations."
   },
   {
     "id": "taha-63",
@@ -4080,7 +4142,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوٓا۟ إِنْ هَـٰذَٰنِ لَسَـٰحِرَٰنِ يُرِيدَانِ أَن يُخْرِجَاكُم مِّنْ أَرْضِكُم بِسِحْرِهِمَا وَيَذْهَبَا بِطَرِيقَتِكُمُ ٱلْمُثْلَىٰ",
     "textSimple": "قالوٓا إن هـذن لسـحرن يريدان أن يخرجاكم من أرضكم بسحرهما ويذهبا بطريقتكم ٱلمثلى",
     "transliteration": "qālū in hādhāni lasāḥirāni yurīdāni an yukh'rijākum min arḍikum bisiḥ'rihimā wayadhhabā biṭarīqatikumu l-muth'lā",
-    "translation": "",
+    "translation": "They said, \"Indeed, these are two magicians who want to drive you out of your land with their magic and do away with your most exemplary way [i.e., religion or tradition].",
     "words": [
       {
         "id": "taha-63-1",
@@ -4174,7 +4236,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent : « Ces deux-là ne sont que des magiciens qui, par leurs sortilèges, veulent vous chasser de votre terre et se réserver votre tradition parfaite."
   },
   {
     "id": "taha-64",
@@ -4183,7 +4246,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَجْمِعُوا۟ كَيْدَكُمْ ثُمَّ ٱئْتُوا۟ صَفًّا ۚ وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ",
     "textSimple": "فأجمعوا كيدكم ثم ٱئتوا صفا  وقد أفلح ٱليوم من ٱستعلى",
     "transliteration": "fa-ajmiʿū kaydakum thumma i'tū ṣaffan waqad aflaḥa l-yawma mani is'taʿlā",
-    "translation": "",
+    "translation": "So resolve upon your plan and then come [forward] in line. And he has succeeded today who overcomes.\"",
     "words": [
       {
         "id": "taha-64-1",
@@ -4256,7 +4319,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mobilisez donc tous vos stratagèmes, serrez les rangs, car aura certes réussi celui qui triomphera ! »"
   },
   {
     "id": "taha-65",
@@ -4265,7 +4329,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ يَـٰمُوسَىٰٓ إِمَّآ أَن تُلْقِىَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنْ أَلْقَىٰ",
     "textSimple": "قالوا يـموسىٓ إمآ أن تلقى وإمآ أن نكون أول من ألقى",
     "transliteration": "qālū yāmūsā immā an tul'qiya wa-immā an nakūna awwala man alqā",
-    "translation": "",
+    "translation": "They said, \"O Moses, either you throw or we will be the first to throw.\"",
     "words": [
       {
         "id": "taha-65-1",
@@ -4345,7 +4409,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ô Moïse, dirent-ils, jetteras-tu (ton bâton) ou veux-tu que nous jetions d’abord (ce que nous avons) ? »"
   },
   {
     "id": "taha-66",
@@ -4354,7 +4419,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ بَلْ أَلْقُوا۟ ۖ فَإِذَا حِبَالُهُمْ وَعِصِيُّهُمْ يُخَيَّلُ إِلَيْهِ مِن سِحْرِهِمْ أَنَّهَا تَسْعَىٰ",
     "textSimple": "قال بل ألقوا  فإذا حبالهم وعصيهم يخيل إليه من سحرهم أنها تسعى",
     "transliteration": "qāla bal alqū fa-idhā ḥibāluhum waʿiṣiyyuhum yukhayyalu ilayhi min siḥ'rihim annahā tasʿā",
-    "translation": "",
+    "translation": "He said, \"Rather, you throw.\" And suddenly their ropes and staffs seemed to him from their magic that they were moving [like snakes].",
     "words": [
       {
         "id": "taha-66-1",
@@ -4441,7 +4506,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dit : « Jetez (ce que vous avez). » Aussitôt, leurs cordes et leurs bâtons lui semblèrent ramper par l’effet de leur sorcellerie."
   },
   {
     "id": "taha-67",
@@ -4450,7 +4516,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَوْجَسَ فِى نَفْسِهِۦ خِيفَةً مُّوسَىٰ",
     "textSimple": "فأوجس فى نفسه خيفة موسى",
     "transliteration": "fa-awjasa fī nafsihi khīfatan mūsā",
-    "translation": "",
+    "translation": "And he sensed within himself apprehension, did Moses.",
     "words": [
       {
         "id": "taha-67-1",
@@ -4488,7 +4554,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ressentit au fond de lui-même quelque peur, Moïse."
   },
   {
     "id": "taha-68",
@@ -4497,7 +4564,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنتَ ٱلْأَعْلَىٰ",
     "textSimple": "قلنا لا تخف إنك أنت ٱلأعلى",
     "transliteration": "qul'nā lā takhaf innaka anta l-aʿlā",
-    "translation": "",
+    "translation": "We [i.e., Allāh] said, \"Fear not. Indeed, it is you who are superior.",
     "words": [
       {
         "id": "taha-68-1",
@@ -4542,7 +4609,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dîmes : « N’aie pas peur, c’est toi qui leur es supérieur!"
   },
   {
     "id": "taha-69",
@@ -4551,7 +4619,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ كَيْدُ سَـٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
     "textSimple": "وألق ما فى يمينك تلقف ما صنعوٓا  إنما صنعوا كيد سـحر  ولا يفلح ٱلساحر حيث أتى",
     "transliteration": "wa-alqi mā fī yamīnika talqaf mā ṣanaʿū innamā ṣanaʿū kaydu sāḥirin walā yuf'liḥu l-sāḥiru ḥaythu atā",
-    "translation": "",
+    "translation": "And throw what is in your right hand; it will swallow up what they have crafted. What they have crafted is but the trick of a magician, and the magician will not succeed wherever he is.\"",
     "words": [
       {
         "id": "taha-69-1",
@@ -4666,7 +4734,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Jette ce que tu as dans ta main droite, et (tu le verras) happer tout ce qu’ils ont fait comme artifice. Ce qu’ils viennent de faire comme artifice n’est qu’illusions de magicien. Or le magicien, où qu’il aille, ne saurait prospérer. »"
   },
   {
     "id": "taha-70",
@@ -4675,7 +4744,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأُلْقِىَ ٱلسَّحَرَةُ سُجَّدًا قَالُوٓا۟ ءَامَنَّا بِرَبِّ هَـٰرُونَ وَمُوسَىٰ",
     "textSimple": "فألقى ٱلسحرة سجدا قالوٓا ءامنا برب هـرون وموسى",
     "transliteration": "fa-ul'qiya l-saḥaratu sujjadan qālū āmannā birabbi hārūna wamūsā",
-    "translation": "",
+    "translation": "So the magicians fell down in prostration. They said, \"We have believed in the Lord of Aaron and Moses.\"",
     "words": [
       {
         "id": "taha-70-1",
@@ -4734,7 +4803,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les magiciens se jetèrent (à terre) prosternés en s’écriant : « Nous croyons au Seigneur d’Aaron et de Moïse ! »"
   },
   {
     "id": "taha-71",
@@ -4743,7 +4813,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ ۖ فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَـٰفٍ وَلَأُصَلِّبَنَّكُمْ فِى جُذُوعِ ٱلنَّخْلِ وَلَتَعْلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابًا وَأَبْقَىٰ",
     "textSimple": "قال ءامنتم له قبل أن ءاذن لكم  إنه لكبيركم ٱلذى علمكم ٱلسحر  فلأقطعن أيديكم وأرجلكم من خلـف ولأصلبنكم فى جذوع ٱلنخل ولتعلمن أينآ أشد عذابا وأبقى",
     "transliteration": "qāla āmantum lahu qabla an ādhana lakum innahu lakabīrukumu alladhī ʿallamakumu l-siḥ'ra fala-uqaṭṭiʿanna aydiyakum wa-arjulakum min khilāfin wala-uṣallibannakum fī judhūʿi l-nakhli walataʿlamunna ayyunā ashaddu ʿadhāban wa-abqā",
-    "translation": "",
+    "translation": "[Pharaoh] said, \"You believed him [i.e., Moses] before I gave you permission. Indeed, he is your leader who has taught you magic. So I will surely cut off your hands and your feet on opposite sides, and I will crucify you on the trunks of palm trees, and you will surely know which of us is more severe in [giving] punishment and more enduring.\"",
     "words": [
       {
         "id": "taha-71-1",
@@ -4928,7 +4998,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Et Pharaon) leur dit : « Osez-vous croire en lui avant que je ne vous le permette ? Ce doit être votre chef et c’est lui qui a dû vous initier à la magie. Je vous ferai couper les mains et les pieds opposés puis vous ferai crucifier sur les troncs de palmiers. Vous saurez ainsi qui (du Seigneur de Moïse ou de moi) a le supplice le plus dur et le plus durable.»"
   },
   {
     "id": "taha-72",
@@ -4937,7 +5008,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَن نُّؤْثِرَكَ عَلَىٰ مَا جَآءَنَا مِنَ ٱلْبَيِّنَـٰتِ وَٱلَّذِى فَطَرَنَا ۖ فَٱقْضِ مَآ أَنتَ قَاضٍ ۖ إِنَّمَا تَقْضِى هَـٰذِهِ ٱلْحَيَوٰةَ ٱلدُّنْيَآ",
     "textSimple": "قالوا لن نؤثرك على ما جآءنا من ٱلبينـت وٱلذى فطرنا  فٱقض مآ أنت قاض  إنما تقضى هـذه ٱلحيوة ٱلدنيآ",
     "transliteration": "qālū lan nu'thiraka ʿalā mā jāanā mina l-bayināti wa-alladhī faṭaranā fa-iq'ḍi mā anta qāḍin innamā taqḍī hādhihi l-ḥayata l-dun'yā",
-    "translation": "",
+    "translation": "They said, \"Never will we prefer you over what has come to us of clear proofs and [over] He who created us. So decree whatever you are to decree. You can only decree for this worldly life.",
     "words": [
       {
         "id": "taha-72-1",
@@ -5073,7 +5144,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils dirent alors : « Nous ne te préfèrerons pas aux preuves évidentes qui nous sont parvenues, Pas plus que (nous ne te préfèrerons) à Celui Qui nous a créés (sans modèle préalable). Prononce donc le verdict que tu as à prononcer. Car tes sentences ne concernent que la vie en ce bas monde."
   },
   {
     "id": "taha-73",
@@ -5082,7 +5154,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّآ ءَامَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا خَطَـٰيَـٰنَا وَمَآ أَكْرَهْتَنَا عَلَيْهِ مِنَ ٱلسِّحْرِ ۗ وَٱللَّهُ خَيْرٌ وَأَبْقَىٰٓ",
     "textSimple": "إنآ ءامنا بربنا ليغفر لنا خطـيـنا ومآ أكرهتنا عليه من ٱلسحر  وٱلله خير وأبقىٓ",
     "transliteration": "innā āmannā birabbinā liyaghfira lanā khaṭāyānā wamā akrahtanā ʿalayhi mina l-siḥ'ri wal-lahu khayrun wa-abqā",
-    "translation": "",
+    "translation": "Indeed, we have believed in our Lord that He may forgive us our sins and what you compelled us [to do] of magic. And Allāh is better and more enduring.\"",
     "words": [
       {
         "id": "taha-73-1",
@@ -5183,7 +5255,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous n’avons cru en notre Seigneur que pour qu’Il pardonne nos péchés et (nous pardonne) cette magie que tu nous as contraints (à pratiquer). Allah est Meilleur et (Sa rétribution) est plus durable. »"
   },
   {
     "id": "taha-74",
@@ -5192,7 +5265,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّهُۥ مَن يَأْتِ رَبَّهُۥ مُجْرِمًا فَإِنَّ لَهُۥ جَهَنَّمَ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
     "textSimple": "إنه من يأت ربه مجرما فإن له جهنم لا يموت فيها ولا يحيى",
     "transliteration": "innahu man yati rabbahu muj'riman fa-inna lahu jahannama lā yamūtu fīhā walā yaḥyā",
-    "translation": "",
+    "translation": "Indeed, whoever comes to his Lord as a criminal - indeed, for him is Hell; he will neither die therein nor live.",
     "words": [
       {
         "id": "taha-74-1",
@@ -5286,7 +5359,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui qui vient à son Seigneur en criminel aura (mérité) la Géhenne, où il ne mourra pas, ni ne vivra."
   },
   {
     "id": "taha-75",
@@ -5295,7 +5369,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَأْتِهِۦ مُؤْمِنًا قَدْ عَمِلَ ٱلصَّـٰلِحَـٰتِ فَأُو۟لَـٰٓئِكَ لَهُمُ ٱلدَّرَجَـٰتُ ٱلْعُلَىٰ",
     "textSimple": "ومن يأته مؤمنا قد عمل ٱلصـلحـت فأولـٓئك لهم ٱلدرجـت ٱلعلى",
     "transliteration": "waman yatihi mu'minan qad ʿamila l-ṣāliḥāti fa-ulāika lahumu l-darajātu l-ʿulā",
-    "translation": "",
+    "translation": "But whoever comes to Him as a believer having done righteous deeds - for those will be the highest degrees [in position]:",
     "words": [
       {
         "id": "taha-75-1",
@@ -5368,7 +5442,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui comparaîtront devant Lui en croyants, ayant accompli les bonnes œuvres, ceux-là auront (mérité) les plus hauts rangs."
   },
   {
     "id": "taha-76",
@@ -5377,7 +5452,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "جَنَّـٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ وَذَٰلِكَ جَزَآءُ مَن تَزَكَّىٰ",
     "textSimple": "جنـت عدن تجرى من تحتها ٱلأنهـر خـلدين فيها  وذلك جزآء من تزكى",
     "transliteration": "jannātu ʿadnin tajrī min taḥtihā l-anhāru khālidīna fīhā wadhālika jazāu man tazakkā",
-    "translation": "",
+    "translation": "Gardens of perpetual residence beneath which rivers flow, wherein they abide eternally. And that is the reward of one who purifies himself.",
     "words": [
       {
         "id": "taha-76-1",
@@ -5464,7 +5539,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Des Jardins d’Éden sous lesquels coulent les rivières, où ils séjourneront pour l’éternité. Telle est la récompense de qui s’est purifié."
   },
   {
     "id": "taha-77",
@@ -5473,7 +5549,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَـٰفُ دَرَكًا وَلَا تَخْشَىٰ",
     "textSimple": "ولقد أوحينآ إلى موسىٓ أن أسر بعبادى فٱضرب لهم طريقا فى ٱلبحر يبسا لا تخـف دركا ولا تخشى",
     "transliteration": "walaqad awḥaynā ilā mūsā an asri biʿibādī fa-iḍ'rib lahum ṭarīqan fī l-baḥri yabasan lā takhāfu darakan walā takhshā",
-    "translation": "",
+    "translation": "And We had inspired to Moses, \"Travel by night with My servants and strike for them a dry path through the sea; you will not fear being overtaken [by Pharaoh] nor be afraid [of drowning].\"",
     "words": [
       {
         "id": "taha-77-1",
@@ -5602,7 +5678,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous révélâmes à Moïse : « Pars avec Mes serviteurs, de nuit. Fraie dans la mer un passage à sec. Ne crains pas d’être rejoint, n’éprouve aucune peur. »"
   },
   {
     "id": "taha-78",
@@ -5611,7 +5688,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِۦ فَغَشِيَهُم مِّنَ ٱلْيَمِّ مَا غَشِيَهُمْ",
     "textSimple": "فأتبعهم فرعون بجنوده فغشيهم من ٱليم ما غشيهم",
     "transliteration": "fa-atbaʿahum fir'ʿawnu bijunūdihi faghashiyahum mina l-yami mā ghashiyahum",
-    "translation": "",
+    "translation": "So Pharaoh pursued them with his soldiers, and there covered them from the sea that which covered them,",
     "words": [
       {
         "id": "taha-78-1",
@@ -5670,7 +5747,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon les suivit avec ses troupes et ils furent tous engloutis par les flots de la mer."
   },
   {
     "id": "taha-79",
@@ -5679,7 +5757,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَضَلَّ فِرْعَوْنُ قَوْمَهُۥ وَمَا هَدَىٰ",
     "textSimple": "وأضل فرعون قومه وما هدى",
     "transliteration": "wa-aḍalla fir'ʿawnu qawmahu wamā hadā",
-    "translation": "",
+    "translation": "And Pharaoh led his people astray and did not guide [them].",
     "words": [
       {
         "id": "taha-79-1",
@@ -5717,7 +5795,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Pharaon égara ainsi son peuple et ne le guida point vers la bonne direction (hudâ)."
   },
   {
     "id": "taha-80",
@@ -5726,7 +5805,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰبَنِىٓ إِسْرَٰٓءِيلَ قَدْ أَنجَيْنَـٰكُم مِّنْ عَدُوِّكُمْ وَوَٰعَدْنَـٰكُمْ جَانِبَ ٱلطُّورِ ٱلْأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ",
     "textSimple": "يـبنىٓ إسرٓءيل قد أنجينـكم من عدوكم ووعدنـكم جانب ٱلطور ٱلأيمن ونزلنا عليكم ٱلمن وٱلسلوى",
     "transliteration": "yābanī is'rāīla qad anjaynākum min ʿaduwwikum wawāʿadnākum jāniba l-ṭūri l-aymana wanazzalnā ʿalaykumu l-mana wal-salwā",
-    "translation": "",
+    "translation": "O Children of Israel, We delivered you from your enemy, and We made an appointment with you at the right side of the mount, and We sent down to you manna and quails,",
     "words": [
       {
         "id": "taha-80-1",
@@ -5827,7 +5906,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Enfants d’Israël ! Nous vous avons ainsi délivrés de vos ennemis. Nous vous avons fixé rendez-vous sur le flanc droit du Mont et Nous avons fait pleuvoir sur vous la manne et les cailles."
   },
   {
     "id": "taha-81",
@@ -5836,7 +5916,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ",
     "textSimple": "كلوا من طيبـت ما رزقنـكم ولا تطغوا فيه فيحل عليكم غضبى  ومن يحلل عليه غضبى فقد هوى",
     "transliteration": "kulū min ṭayyibāti mā razaqnākum walā taṭghaw fīhi fayaḥilla ʿalaykum ghaḍabī waman yaḥlil ʿalayhi ghaḍabī faqad hawā",
-    "translation": "",
+    "translation": "[Saying], \"Eat from the good things with which We have provided you and do not transgress [or oppress others] therein, lest My anger should descend upon you. And he upon whom My anger descends has certainly fallen [i.e., perished].\"",
     "words": [
       {
         "id": "taha-81-1",
@@ -5958,7 +6038,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mangez des délices que Nous vous avons dispensées et n’y commettez pas d’abus, ou alors Ma colère fondra sur vous. Car celui que frappe Ma colère tombe dans un abîme sans fond."
   },
   {
     "id": "taha-82",
@@ -5967,7 +6048,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِنِّى لَغَفَّارٌ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَـٰلِحًا ثُمَّ ٱهْتَدَىٰ",
     "textSimple": "وإنى لغفار لمن تاب وءامن وعمل صـلحا ثم ٱهتدى",
     "transliteration": "wa-innī laghaffārun liman tāba waāmana waʿamila ṣāliḥan thumma ih'tadā",
-    "translation": "",
+    "translation": "But indeed, I am the Perpetual Forgiver of whoever repents and believes and does righteousness and then continues in guidance.",
     "words": [
       {
         "id": "taha-82-1",
@@ -6033,7 +6114,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Je suis Très Absoluteur pour quiconque se repent, croit, fait le bien puis s’engage sur le droit chemin (ihtadâ)."
   },
   {
     "id": "taha-83",
@@ -6042,7 +6124,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَآ أَعْجَلَكَ عَن قَوْمِكَ يَـٰمُوسَىٰ",
     "textSimple": " ومآ أعجلك عن قومك يـموسى",
     "transliteration": "wamā aʿjalaka ʿan qawmika yāmūsā",
-    "translation": "",
+    "translation": "[Allāh said], \"And what made you hasten from your people, O Moses?\"",
     "words": [
       {
         "id": "taha-83-1",
@@ -6080,7 +6162,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qu’est-ce donc qui t’a fait quitter si tôt ton peuple, ô Moïse ? » (dit Allah)."
   },
   {
     "id": "taha-84",
@@ -6089,7 +6172,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ هُمْ أُو۟لَآءِ عَلَىٰٓ أَثَرِى وَعَجِلْتُ إِلَيْكَ رَبِّ لِتَرْضَىٰ",
     "textSimple": "قال هم أولآء علىٓ أثرى وعجلت إليك رب لترضى",
     "transliteration": "qāla hum ulāi ʿalā atharī waʿajil'tu ilayka rabbi litarḍā",
-    "translation": "",
+    "translation": "He said, \"They are close upon my tracks, and I hastened to You, my Lord, that You be pleased.\"",
     "words": [
       {
         "id": "taha-84-1",
@@ -6155,7 +6238,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ils sont derrière moi qui me suivent, dit Moïse, mais moi je me suis hâté pour que Tu sois satisfait. »"
   },
   {
     "id": "taha-85",
@@ -6164,7 +6248,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَإِنَّا قَدْ فَتَنَّا قَوْمَكَ مِنۢ بَعْدِكَ وَأَضَلَّهُمُ ٱلسَّامِرِىُّ",
     "textSimple": "قال فإنا قد فتنا قومك من بعدك وأضلهم ٱلسامرى",
     "transliteration": "qāla fa-innā qad fatannā qawmaka min baʿdika wa-aḍallahumu l-sāmiriyu",
-    "translation": "",
+    "translation": "[Allāh] said, \"But indeed, We have tried your people after you [departed], and the Sāmirī has led them astray.\"",
     "words": [
       {
         "id": "taha-85-1",
@@ -6230,7 +6314,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous avons mis les tiens à l’épreuve, pendant ton absence. Le Sâmirî les a égarés. »"
   },
   {
     "id": "taha-86",
@@ -6239,7 +6324,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَـٰنَ أَسِفًا ۚ قَالَ يَـٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى",
     "textSimple": "فرجع موسىٓ إلى قومه غضبـن أسفا  قال يـقوم ألم يعدكم ربكم وعدا حسنا  أفطال عليكم ٱلعهد أم أردتم أن يحل عليكم غضب من ربكم فأخلفتم موعدى",
     "transliteration": "farajaʿa mūsā ilā qawmihi ghaḍbāna asifan qāla yāqawmi alam yaʿid'kum rabbukum waʿdan ḥasanan afaṭāla ʿalaykumu l-ʿahdu am aradttum an yaḥilla ʿalaykum ghaḍabun min rabbikum fa-akhlaftum mawʿidī",
-    "translation": "",
+    "translation": "So Moses returned to his people, angry and grieved. He said, \"O my people, did your Lord not make you a good promise? Then, was the time [of its fulfillment] too long for you, or did you wish that wrath from your Lord descend upon you, so you broke your promise [of obedience] to me?\"",
     "words": [
       {
         "id": "taha-86-1",
@@ -6424,7 +6509,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 25
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Moïse revint alors vers son peuple, en colère et affligé. Il dit : « Ô peuple mien ! Votre Seigneur ne vous a-t-Il pas fait une belle promesse ? La durée de l’engagement vous a-t-elle donc paru trop longue, ou vouliez-vous subir la colère de votre Seigneur pour avoir violé votre engagement envers moi ? »"
   },
   {
     "id": "taha-87",
@@ -6433,7 +6519,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ مَآ أَخْلَفْنَا مَوْعِدَكَ بِمَلْكِنَا وَلَـٰكِنَّا حُمِّلْنَآ أَوْزَارًا مِّن زِينَةِ ٱلْقَوْمِ فَقَذَفْنَـٰهَا فَكَذَٰلِكَ أَلْقَى ٱلسَّامِرِىُّ",
     "textSimple": "قالوا مآ أخلفنا موعدك بملكنا ولـكنا حملنآ أوزارا من زينة ٱلقوم فقذفنـها فكذلك ألقى ٱلسامرى",
     "transliteration": "qālū mā akhlafnā mawʿidaka bimalkinā walākinnā ḥummil'nā awzāran min zīnati l-qawmi faqadhafnāhā fakadhālika alqā l-sāmiriyu",
-    "translation": "",
+    "translation": "They said, \"We did not break our promise to you by our will, but we were made to carry burdens from the ornaments of the people [of Pharaoh], so we threw them [into the fire], and thus did the Sāmirī throw.\"",
     "words": [
       {
         "id": "taha-87-1",
@@ -6541,7 +6627,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Ce n’est pas de notre propre volonté que nous avons violé notre engagement envers toi. Seulement, nous étions lourdement chargés de bijoux (appartenant) au peuple. Nous les avons jetés au feu tout comme fit le Sâmirî. »"
   },
   {
     "id": "taha-88",
@@ -6550,7 +6637,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُۥ خُوَارٌ فَقَالُوا۟ هَـٰذَآ إِلَـٰهُكُمْ وَإِلَـٰهُ مُوسَىٰ فَنَسِىَ",
     "textSimple": "فأخرج لهم عجلا جسدا له خوار فقالوا هـذآ إلـهكم وإلـه موسى فنسى",
     "transliteration": "fa-akhraja lahum ʿij'lan jasadan lahu khuwārun faqālū hādhā ilāhukum wa-ilāhu mūsā fanasiya",
-    "translation": "",
+    "translation": "And he extracted for them [the statue of] a calf which had a lowing sound, and they said, \"This is your god and the god of Moses, but he forgot.\"",
     "words": [
       {
         "id": "taha-88-1",
@@ -6637,7 +6724,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il en fit sortir ensuite le corps d’un veau émettant comme un mugissement. Ils dirent alors : « Voici votre dieu et le dieu de Moïse qu’il a dû oublier ! »"
   },
   {
     "id": "taha-89",
@@ -6646,7 +6734,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَا يَرَوْنَ أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا وَلَا يَمْلِكُ لَهُمْ ضَرًّا وَلَا نَفْعًا",
     "textSimple": "أفلا يرون ألا يرجع إليهم قولا ولا يملك لهم ضرا ولا نفعا",
     "transliteration": "afalā yarawna allā yarjiʿu ilayhim qawlan walā yamliku lahum ḍarran walā nafʿan",
-    "translation": "",
+    "translation": "Did they not see that it could not return to them any speech [i.e., response] and that it did not possess for them any harm or benefit?",
     "words": [
       {
         "id": "taha-89-1",
@@ -6733,7 +6821,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voyaient-ils donc pas qu’il ne pouvait répliquer à leur parole et qu’il ne possédait ni le pouvoir de leur nuire ni celui de leur profiter en quoi que ce fût ?"
   },
   {
     "id": "taha-90",
@@ -6742,7 +6831,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ قَالَ لَهُمْ هَـٰرُونُ مِن قَبْلُ يَـٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ ٱلرَّحْمَـٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى",
     "textSimple": "ولقد قال لهم هـرون من قبل يـقوم إنما فتنتم به  وإن ربكم ٱلرحمـن فٱتبعونى وأطيعوٓا أمرى",
     "transliteration": "walaqad qāla lahum hārūnu min qablu yāqawmi innamā futintum bihi wa-inna rabbakumu l-raḥmānu fa-ittabiʿūnī wa-aṭīʿū amrī",
-    "translation": "",
+    "translation": "And Aaron had already told them before [the return of Moses], \"O my people, you are only being tested by it, and indeed, your Lord is the Most Merciful, so follow me and obey my order.\"",
     "words": [
       {
         "id": "taha-90-1",
@@ -6857,7 +6946,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Aaron leur avait pourtant dit auparavant: « Ô peuple mien ! Ce veau était une tentation pour vous mettre à l’épreuve. Votre (Seul) Seigneur c’est le Tout Clément. Suivez-moi donc et obéissez à mes ordres. »"
   },
   {
     "id": "taha-91",
@@ -6866,7 +6956,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ لَن نَّبْرَحَ عَلَيْهِ عَـٰكِفِينَ حَتَّىٰ يَرْجِعَ إِلَيْنَا مُوسَىٰ",
     "textSimple": "قالوا لن نبرح عليه عـكفين حتى يرجع إلينا موسى",
     "transliteration": "qālū lan nabraḥa ʿalayhi ʿākifīna ḥattā yarjiʿa ilaynā mūsā",
-    "translation": "",
+    "translation": "They said, \"We will never cease being devoted to it [i.e., the calf] until Moses returns to us.\"",
     "words": [
       {
         "id": "taha-91-1",
@@ -6932,7 +7022,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Nous continuerons à l’adorer, dirent-ils, jusqu’à ce que Moïse revienne vers nous. »"
   },
   {
     "id": "taha-92",
@@ -6941,7 +7032,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَـٰهَـٰرُونُ مَا مَنَعَكَ إِذْ رَأَيْتَهُمْ ضَلُّوٓا۟",
     "textSimple": "قال يـهـرون ما منعك إذ رأيتهم ضلوٓا",
     "transliteration": "qāla yāhārūnu mā manaʿaka idh ra-aytahum ḍallū",
-    "translation": "",
+    "translation": "[Moses] said, \"O Aaron, what prevented you, when you saw them going astray,",
     "words": [
       {
         "id": "taha-92-1",
@@ -6993,7 +7084,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Qu’est-ce donc qui t’a empêché, Aaron, lorsque tu les as vus s’égarer, dit (Moïse à son retour),"
   },
   {
     "id": "taha-93",
@@ -7002,7 +7094,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "أَلَّا تَتَّبِعَنِ ۖ أَفَعَصَيْتَ أَمْرِى",
     "textSimple": "ألا تتبعن  أفعصيت أمرى",
     "transliteration": "allā tattabiʿani afaʿaṣayta amrī",
-    "translation": "",
+    "translation": "From following me? Then have you disobeyed my order?\"",
     "words": [
       {
         "id": "taha-93-1",
@@ -7033,7 +7125,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "de me rejoindre ? As-tu donc désobéi à mes ordres ? »"
   },
   {
     "id": "taha-94",
@@ -7042,7 +7135,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ يَبْنَؤُمَّ لَا تَأْخُذْ بِلِحْيَتِى وَلَا بِرَأْسِىٓ ۖ إِنِّى خَشِيتُ أَن تَقُولَ فَرَّقْتَ بَيْنَ بَنِىٓ إِسْرَٰٓءِيلَ وَلَمْ تَرْقُبْ قَوْلِى",
     "textSimple": "قال يبنؤم لا تأخذ بلحيتى ولا برأسىٓ  إنى خشيت أن تقول فرقت بين بنىٓ إسرٓءيل ولم ترقب قولى",
     "transliteration": "qāla yabna-umma lā takhudh biliḥ'yatī walā birasī innī khashītu an taqūla farraqta bayna banī is'rāīla walam tarqub qawlī",
-    "translation": "",
+    "translation": "[Aaron] said, \"O son of my mother, do not seize [me] by my beard or by my head. Indeed, I feared that you would say, 'You caused division among the Children of Israel, and you did not observe [or await] my word.'\"",
     "words": [
       {
         "id": "taha-94-1",
@@ -7171,7 +7264,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et (Aaron) répondit : « Fils de ma mère, ne me prends pas par la barbe, ni par la tête. J’ai simplement craint que tu ne dises : “Tu as semé la discorde parmi les Enfants d’Israël et tu n’as pas tenu compte de ce que j’ai dit. ” »"
   },
   {
     "id": "taha-95",
@@ -7180,7 +7274,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَمَا خَطْبُكَ يَـٰسَـٰمِرِىُّ",
     "textSimple": "قال فما خطبك يـسـمرى",
     "transliteration": "qāla famā khaṭbuka yāsāmiriyyu",
-    "translation": "",
+    "translation": "[Moses] said, \"And what is your case, O Sāmirī?\"",
     "words": [
       {
         "id": "taha-95-1",
@@ -7211,7 +7305,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 3
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Et quel était ton dessein, toi le Sâmirî ? » demanda (Moïse)."
   },
   {
     "id": "taha-96",
@@ -7220,7 +7315,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ فَقَبَضْتُ قَبْضَةً مِّنْ أَثَرِ ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى",
     "textSimple": "قال بصرت بما لم يبصروا به فقبضت قبضة من أثر ٱلرسول فنبذتها وكذلك سولت لى نفسى",
     "transliteration": "qāla baṣur'tu bimā lam yabṣurū bihi faqabaḍtu qabḍatan min athari l-rasūli fanabadhtuhā wakadhālika sawwalat lī nafsī",
-    "translation": "",
+    "translation": "He said, \"I saw what they did not see, so I took a handful [of dust] from the track of the messenger and threw it, and thus did my soul entice me.\"",
     "words": [
       {
         "id": "taha-96-1",
@@ -7335,7 +7430,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« J’ai vu ce qu’ils n’ont pas vu, dit-il. J’ai pris une poignée (de poussière) sur les traces de l’Envoyé (l’Ange Gabriel) et je l’ai jetée. C’est ce que mon âme m’a suggéré (de faire). »"
   },
   {
     "id": "taha-97",
@@ -7344,7 +7440,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَـٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
     "textSimple": "قال فٱذهب فإن لك فى ٱلحيوة أن تقول لا مساس  وإن لك موعدا لن تخلفه  وٱنظر إلىٓ إلـهك ٱلذى ظلت عليه عاكفا  لنحرقنه ثم لننسفنه فى ٱليم نسفا",
     "transliteration": "qāla fa-idh'hab fa-inna laka fī l-ḥayati an taqūla lā misāsa wa-inna laka mawʿidan lan tukh'lafahu wa-unẓur ilā ilāhika alladhī ẓalta ʿalayhi ʿākifan lanuḥarriqannahu thumma lanansifannahu fī l-yami nasfan",
-    "translation": "",
+    "translation": "[Moses] said, \"Then go. And indeed, it is [decreed] for you in [this] life to say, 'No contact.' And indeed, you have an appointment [in the Hereafter] you will not fail to keep. And look at your 'god' to which you remained devoted. We will surely burn it and blow it [i.e., its ashes] into the sea with a blast.",
     "words": [
       {
         "id": "taha-97-1",
@@ -7543,7 +7639,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Pars, dit (Moïse), tu auras (pour châtiment) en ce bas monde de dire (à qui te rencontrera) : \"Ne me touche pas !\" ; et (dans l’autre monde) un rendez-vous t’attend, que tu ne manqueras pas. Regarde ton dieu (le Veau) que tu as adoré assidûment. Nous allons le brûler puis disperser ses cendres dans la mer."
   },
   {
     "id": "taha-98",
@@ -7552,7 +7649,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَآ إِلَـٰهُكُمُ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۚ وَسِعَ كُلَّ شَىْءٍ عِلْمًا",
     "textSimple": "إنمآ إلـهكم ٱلله ٱلذى لآ إلـه إلا هو  وسع كل شىء علما",
     "transliteration": "innamā ilāhukumu l-lahu alladhī lā ilāha illā huwa wasiʿa kulla shayin ʿil'man",
-    "translation": "",
+    "translation": "Your god is only Allāh, except for whom there is no deity. He has encompassed all things in knowledge.\"",
     "words": [
       {
         "id": "taha-98-1",
@@ -7639,7 +7736,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Votre Seul Dieu est Allah. Il n’y a point d’autre dieu que Lui. Il cerne Toute chose de Sa science. »"
   },
   {
     "id": "taha-99",
@@ -7648,7 +7746,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ مَا قَدْ سَبَقَ ۚ وَقَدْ ءَاتَيْنَـٰكَ مِن لَّدُنَّا ذِكْرًا",
     "textSimple": "كذلك نقص عليك من أنبآء ما قد سبق  وقد ءاتينـك من لدنا ذكرا",
     "transliteration": "kadhālika naquṣṣu ʿalayka min anbāi mā qad sabaqa waqad ātaynāka min ladunnā dhik'ran",
-    "translation": "",
+    "translation": "Thus, [O Muḥammad], We relate to you from the news of what has preceded. And We have certainly given you from Us a message [i.e., the Qur’ān].",
     "words": [
       {
         "id": "taha-99-1",
@@ -7742,7 +7840,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous te contons les histoires des temps passés et, de Notre part, Nous t’apportons un Rappel."
   },
   {
     "id": "taha-100",
@@ -7751,7 +7850,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "مَّنْ أَعْرَضَ عَنْهُ فَإِنَّهُۥ يَحْمِلُ يَوْمَ ٱلْقِيَـٰمَةِ وِزْرًا",
     "textSimple": "من أعرض عنه فإنه يحمل يوم ٱلقيـمة وزرا",
     "transliteration": "man aʿraḍa ʿanhu fa-innahu yaḥmilu yawma l-qiyāmati wiz'ran",
-    "translation": "",
+    "translation": "Whoever turns away from it - then indeed, he will bear on the Day of Resurrection a burden [i.e., great sin],",
     "words": [
       {
         "id": "taha-100-1",
@@ -7810,7 +7909,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quiconque s’en détourne devra porter un (lourd) fardeau au Jour de la Résurrection."
   },
   {
     "id": "taha-101",
@@ -7819,7 +7919,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهِ ۖ وَسَآءَ لَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ حِمْلًا",
     "textSimple": "خـلدين فيه  وسآء لهم يوم ٱلقيـمة حملا",
     "transliteration": "khālidīna fīhi wasāa lahum yawma l-qiyāmati ḥim'lan",
-    "translation": "",
+    "translation": "[Abiding] eternally therein, and evil it is for them on the Day of Resurrection as a load -",
     "words": [
       {
         "id": "taha-101-1",
@@ -7871,7 +7971,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils (le porteront) éternellement, et quel horrible fardeau ils porteront au Jour de la Résurrection !"
   },
   {
     "id": "taha-102",
@@ -7880,7 +7981,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
     "textSimple": "يوم ينفخ فى ٱلصور  ونحشر ٱلمجرمين يومئذ زرقا",
     "transliteration": "yawma yunfakhu fī l-ṣūri wanaḥshuru l-muj'rimīna yawma-idhin zur'qan",
-    "translation": "",
+    "translation": "The Day the Horn will be blown. And We will gather the criminals, that Day, blue-eyed.",
     "words": [
       {
         "id": "taha-102-1",
@@ -7939,7 +8040,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Au jour où il sera soufflé dans le Cor et où Nous rassemblerons les criminels livides (de peur)."
   },
   {
     "id": "taha-103",
@@ -7948,7 +8050,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَتَخَـٰفَتُونَ بَيْنَهُمْ إِن لَّبِثْتُمْ إِلَّا عَشْرًا",
     "textSimple": "يتخـفتون بينهم إن لبثتم إلا عشرا",
     "transliteration": "yatakhāfatūna baynahum in labith'tum illā ʿashran",
-    "translation": "",
+    "translation": "They will murmur among themselves, \"You remained not but ten [days in the world].\"",
     "words": [
       {
         "id": "taha-103-1",
@@ -7993,7 +8095,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils se diront les uns aux autres en chuchotant : « Vous n’êtes restés guère plus de dix (jours en ce bas monde). »"
   },
   {
     "id": "taha-104",
@@ -8002,7 +8105,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ إِذْ يَقُولُ أَمْثَلُهُمْ طَرِيقَةً إِن لَّبِثْتُمْ إِلَّا يَوْمًا",
     "textSimple": "نحن أعلم بما يقولون إذ يقول أمثلهم طريقة إن لبثتم إلا يوما",
     "transliteration": "naḥnu aʿlamu bimā yaqūlūna idh yaqūlu amthaluhum ṭarīqatan in labith'tum illā yawman",
-    "translation": "",
+    "translation": "We are most knowing of what they say when the best of them in manner [i.e., wisdom or speech] will say, \"You remained not but one day.\"",
     "words": [
       {
         "id": "taha-104-1",
@@ -8089,7 +8192,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Nous Qui Savons le mieux ce qu’ils disent. Le plus sage d’entre eux en conduite dira : « Vous n’y êtes restés qu’un jour ! »"
   },
   {
     "id": "taha-105",
@@ -8098,7 +8202,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَيَسْـَٔلُونَكَ عَنِ ٱلْجِبَالِ فَقُلْ يَنسِفُهَا رَبِّى نَسْفًا",
     "textSimple": "ويسـٔلونك عن ٱلجبال فقل ينسفها ربى نسفا",
     "transliteration": "wayasalūnaka ʿani l-jibāli faqul yansifuhā rabbī nasfan",
-    "translation": "",
+    "translation": "And they ask you about the mountains, so say, \"My Lord will blow them away with a blast.",
     "words": [
       {
         "id": "taha-105-1",
@@ -8150,7 +8254,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils t’interrogent à propos des montagnes. Dis : « Mon Seigneur les réduira en poussière."
   },
   {
     "id": "taha-106",
@@ -8159,7 +8264,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَيَذَرُهَا قَاعًا صَفْصَفًا",
     "textSimple": "فيذرها قاعا صفصفا",
     "transliteration": "fayadharuhā qāʿan ṣafṣafan",
-    "translation": "",
+    "translation": "And He will leave it [i.e., the earth] a level plain;",
     "words": [
       {
         "id": "taha-106-1",
@@ -8183,7 +8288,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Faisant (de la terre) une étendue plate et nue,"
   },
   {
     "id": "taha-107",
@@ -8192,7 +8298,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "لَّا تَرَىٰ فِيهَا عِوَجًا وَلَآ أَمْتًا",
     "textSimple": "لا ترى فيها عوجا ولآ أمتا",
     "transliteration": "lā tarā fīhā ʿiwajan walā amtan",
-    "translation": "",
+    "translation": "You will not see therein a depression or an elevation.\"",
     "words": [
       {
         "id": "taha-107-1",
@@ -8237,7 +8343,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où tu ne verras ni creux ni bosses. »"
   },
   {
     "id": "taha-108",
@@ -8246,7 +8353,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَئِذٍ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ ۖ وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَـٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًا",
     "textSimple": "يومئذ يتبعون ٱلداعى لا عوج له  وخشعت ٱلأصوات للرحمـن فلا تسمع إلا همسا",
     "transliteration": "yawma-idhin yattabiʿūna l-dāʿiya lā ʿiwaja lahu wakhashaʿati l-aṣwātu lilrraḥmāni falā tasmaʿu illā hamsan",
-    "translation": "",
+    "translation": "That Day, they [i.e., everyone] will follow [the call of] the Caller [with] no deviation therefrom, and [all] voices will be stilled before the Most Merciful, so you will not hear except a whisper [of footsteps].",
     "words": [
       {
         "id": "taha-108-1",
@@ -8340,7 +8447,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, ils suivront celui qui les appellera (au Jugement). Il n’y aura aucun détour (pour le fuir). Les voix se feront toutes basses devant le Tout Clément, et tu n’entendras que murmures."
   },
   {
     "id": "taha-109",
@@ -8349,7 +8457,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَئِذٍ لَّا تَنفَعُ ٱلشَّفَـٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَرَضِىَ لَهُۥ قَوْلًا",
     "textSimple": "يومئذ لا تنفع ٱلشفـعة إلا من أذن له ٱلرحمـن ورضى له قولا",
     "transliteration": "yawma-idhin lā tanfaʿu l-shafāʿatu illā man adhina lahu l-raḥmānu waraḍiya lahu qawlan",
-    "translation": "",
+    "translation": "That Day, no intercession will benefit except [that of] one to whom the Most Merciful has given permission and has accepted his word.",
     "words": [
       {
         "id": "taha-109-1",
@@ -8436,7 +8544,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ce jour-là, l’intercession ne servira à personne, à moins (qu’elle ne provienne) de quelqu’un qui aura eu la permission du Tout Clément et dont la parole aura été agréée par Lui."
   },
   {
     "id": "taha-110",
@@ -8445,7 +8554,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِهِۦ عِلْمًا",
     "textSimple": "يعلم ما بين أيديهم وما خلفهم ولا يحيطون به علما",
     "transliteration": "yaʿlamu mā bayna aydīhim wamā khalfahum walā yuḥīṭūna bihi ʿil'man",
-    "translation": "",
+    "translation": "He [i.e., Allāh] knows what is [presently] before them and what will be after them, but they do not encompass it [i.e., what He knows] in knowledge.",
     "words": [
       {
         "id": "taha-110-1",
@@ -8518,7 +8627,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il Sait ce qu’ils ont devant eux et derrière eux, quand eux ne peuvent Le cerner de leur science."
   },
   {
     "id": "taha-111",
@@ -8527,7 +8637,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا",
     "textSimple": " وعنت ٱلوجوه للحى ٱلقيوم  وقد خاب من حمل ظلما",
     "transliteration": "waʿanati l-wujūhu lil'ḥayyi l-qayūmi waqad khāba man ḥamala ẓul'man",
-    "translation": "",
+    "translation": "And [all] faces will be humbled before the Ever-Living, the Self-Sustaining. And he will have failed who carries injustice.",
     "words": [
       {
         "id": "taha-111-1",
@@ -8593,7 +8703,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les visages seront baissés devant le Vivant, Le Veilleur éternel sur Toute chose (Al-Qayyûm) ; et sera perdu quiconque portera (le lourd fardeau) d’une injustice."
   },
   {
     "id": "taha-112",
@@ -8602,7 +8713,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ وَهُوَ مُؤْمِنٌ فَلَا يَخَافُ ظُلْمًا وَلَا هَضْمًا",
     "textSimple": "ومن يعمل من ٱلصـلحـت وهو مؤمن فلا يخاف ظلما ولا هضما",
     "transliteration": "waman yaʿmal mina l-ṣāliḥāti wahuwa mu'minun falā yakhāfu ẓul'man walā haḍman",
-    "translation": "",
+    "translation": "But he who does of righteous deeds while he is a believer - he will neither fear injustice nor deprivation.",
     "words": [
       {
         "id": "taha-112-1",
@@ -8682,7 +8793,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et celui qui, tout en étant croyant, fait le bien, n’aura à craindre, lui, ni injustice ni privation."
   },
   {
     "id": "taha-113",
@@ -8691,7 +8803,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ أَنزَلْنَـٰهُ قُرْءَانًا عَرَبِيًّا وَصَرَّفْنَا فِيهِ مِنَ ٱلْوَعِيدِ لَعَلَّهُمْ يَتَّقُونَ أَوْ يُحْدِثُ لَهُمْ ذِكْرًا",
     "textSimple": "وكذلك أنزلنـه قرءانا عربيا وصرفنا فيه من ٱلوعيد لعلهم يتقون أو يحدث لهم ذكرا",
     "transliteration": "wakadhālika anzalnāhu qur'ānan ʿarabiyyan waṣarrafnā fīhi mina l-waʿīdi laʿallahum yattaqūna aw yuḥ'dithu lahum dhik'ran",
-    "translation": "",
+    "translation": "And thus We have sent it down as an Arabic Qur’ān and have diversified therein the warnings that perhaps they will avoid [sin] or it would cause them remembrance.",
     "words": [
       {
         "id": "taha-113-1",
@@ -8792,7 +8904,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ainsi l’avons-Nous révélé : un Coran (en langue) arabe où Nous avons varié les menaces, peut-être auront-ils la piété ou seront-ils amenés à réfléchir."
   },
   {
     "id": "taha-114",
@@ -8801,7 +8914,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۗ وَلَا تَعْجَلْ بِٱلْقُرْءَانِ مِن قَبْلِ أَن يُقْضَىٰٓ إِلَيْكَ وَحْيُهُۥ ۖ وَقُل رَّبِّ زِدْنِى عِلْمًا",
     "textSimple": "فتعـلى ٱلله ٱلملك ٱلحق  ولا تعجل بٱلقرءان من قبل أن يقضىٓ إليك وحيه  وقل رب زدنى علما",
     "transliteration": "fataʿālā l-lahu l-maliku l-ḥaqu walā taʿjal bil-qur'āni min qabli an yuq'ḍā ilayka waḥyuhu waqul rabbi zid'nī ʿil'man",
-    "translation": "",
+    "translation": "So high [above all] is Allāh, the Sovereign, the Truth. And, [O Muḥammad], do not hasten with [recitation of] the Qur’ān before its revelation is completed to you, and say, \"My Lord, increase me in knowledge.\"",
     "words": [
       {
         "id": "taha-114-1",
@@ -8923,7 +9036,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Exalté soit Allah, le Souverain le Vrai ! Ne t’empresse pas de (réciter) le Coran avant que la révélation qui t’en est faite ne soit terminée et dis : « Seigneur, ajoute à ma science ! »"
   },
   {
     "id": "taha-115",
@@ -8932,7 +9046,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ عَهِدْنَآ إِلَىٰٓ ءَادَمَ مِن قَبْلُ فَنَسِىَ وَلَمْ نَجِدْ لَهُۥ عَزْمًا",
     "textSimple": "ولقد عهدنآ إلىٓ ءادم من قبل فنسى ولم نجد له عزما",
     "transliteration": "walaqad ʿahid'nā ilā ādama min qablu fanasiya walam najid lahu ʿazman",
-    "translation": "",
+    "translation": "And We had already taken a promise from Adam before, but he forgot; and We found not in him determination.",
     "words": [
       {
         "id": "taha-115-1",
@@ -9012,7 +9126,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Auparavant, Nous avions fait une recommandation à Adam mais il l’oublia et Nous ne trouvâmes pas chez lui de ferme résolution."
   },
   {
     "id": "taha-116",
@@ -9021,7 +9136,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ",
     "textSimple": "وإذ قلنا للملـٓئكة ٱسجدوا لـٔادم فسجدوٓا إلآ إبليس أبى",
     "transliteration": "wa-idh qul'nā lil'malāikati us'judū liādama fasajadū illā ib'līsa abā",
-    "translation": "",
+    "translation": "And [mention] when We said to the angels, \"Prostrate to Adam,\" and they prostrated, except Iblees; he refused.",
     "words": [
       {
         "id": "taha-116-1",
@@ -9087,7 +9202,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est alors que Nous dîmes aux Anges : « Prosternez-vous devant Adam ! » Ils se prosternèrent tous, sauf Iblîs qui refusa (d’obéir)."
   },
   {
     "id": "taha-117",
@@ -9096,7 +9212,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَقُلْنَا يَـٰٓـَٔادَمُ إِنَّ هَـٰذَا عَدُوٌّ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ فَتَشْقَىٰٓ",
     "textSimple": "فقلنا يـٓـٔادم إن هـذا عدو لك ولزوجك فلا يخرجنكما من ٱلجنة فتشقىٓ",
     "transliteration": "faqul'nā yāādamu inna hādhā ʿaduwwun laka walizawjika falā yukh'rijannakumā mina l-janati fatashqā",
-    "translation": "",
+    "translation": "So We said, \"O Adam, indeed this is an enemy to you and to your wife. Then let him not remove you from Paradise so you would suffer.",
     "words": [
       {
         "id": "taha-117-1",
@@ -9183,7 +9299,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous dîmes : « Ô Adam, celui-là est pour toi et ton épouse un ennemi. Gardez-vous de le laisser vous chasser du Paradis, ou alors tu auras à peiner."
   },
   {
     "id": "taha-118",
@@ -9192,7 +9309,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا تَعْرَىٰ",
     "textSimple": "إن لك ألا تجوع فيها ولا تعرى",
     "transliteration": "inna laka allā tajūʿa fīhā walā taʿrā",
-    "translation": "",
+    "translation": "Indeed, it is [promised] for you not to be hungry therein or be unclothed.",
     "words": [
       {
         "id": "taha-118-1",
@@ -9244,7 +9361,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ici tu ne connaîtras ni la faim ni la nudité ;"
   },
   {
     "id": "taha-119",
@@ -9253,7 +9371,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنَّكَ لَا تَظْمَؤُا۟ فِيهَا وَلَا تَضْحَىٰ",
     "textSimple": "وأنك لا تظمؤا فيها ولا تضحى",
     "transliteration": "wa-annaka lā taẓma-u fīhā walā taḍḥā",
-    "translation": "",
+    "translation": "And indeed, you will not be thirsty therein or be hot from the sun.\"",
     "words": [
       {
         "id": "taha-119-1",
@@ -9298,7 +9416,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "tu ne sentiras ni la soif ni la chaleur du soleil. »"
   },
   {
     "id": "taha-120",
@@ -9307,7 +9426,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَوَسْوَسَ إِلَيْهِ ٱلشَّيْطَـٰنُ قَالَ يَـٰٓـَٔادَمُ هَلْ أَدُلُّكَ عَلَىٰ شَجَرَةِ ٱلْخُلْدِ وَمُلْكٍ لَّا يَبْلَىٰ",
     "textSimple": "فوسوس إليه ٱلشيطـن قال يـٓـٔادم هل أدلك على شجرة ٱلخلد وملك لا يبلى",
     "transliteration": "fawaswasa ilayhi l-shayṭānu qāla yāādamu hal adulluka ʿalā shajarati l-khul'di wamul'kin lā yablā",
-    "translation": "",
+    "translation": "Then Satan whispered to him; he said, \"O Adam, shall I direct you to the tree of eternity and possession that will not deteriorate?\"",
     "words": [
       {
         "id": "taha-120-1",
@@ -9401,7 +9520,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais Satan lui susurra : « Ô Adam ! Veux-tu que je te montre l’arbre de l’immortalité et un royaume qui jamais ne périra ? »."
   },
   {
     "id": "taha-121",
@@ -9410,7 +9530,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰٓ ءَادَمُ رَبَّهُۥ فَغَوَىٰ",
     "textSimple": "فأكلا منها فبدت لهما سوءتهما وطفقا يخصفان عليهما من ورق ٱلجنة  وعصىٓ ءادم ربه فغوى",
     "transliteration": "fa-akalā min'hā fabadat lahumā sawātuhumā waṭafiqā yakhṣifāni ʿalayhimā min waraqi l-janati waʿaṣā ādamu rabbahu faghawā",
-    "translation": "",
+    "translation": "And they [i.e., Adam and his wife] ate of it, and their private parts became apparent to them, and they began to fasten over themselves from the leaves of Paradise. And Adam disobeyed his Lord and erred.",
     "words": [
       {
         "id": "taha-121-1",
@@ -9518,7 +9638,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tous deux en mangèrent et leur nudité leur apparut aussitôt. Alors, ils se mirent à se couvrir avec des feuilles du Paradis. Adam désobéit à son Seigneur, et il fut ainsi dévoyé."
   },
   {
     "id": "taha-122",
@@ -9527,7 +9648,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ٱجْتَبَـٰهُ رَبُّهُۥ فَتَابَ عَلَيْهِ وَهَدَىٰ",
     "textSimple": "ثم ٱجتبـه ربه فتاب عليه وهدى",
     "transliteration": "thumma ij'tabāhu rabbuhu fatāba ʿalayhi wahadā",
-    "translation": "",
+    "translation": "Then his Lord chose him and turned to him in forgiveness and guided [him].",
     "words": [
       {
         "id": "taha-122-1",
@@ -9572,7 +9693,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis son Seigneur fit de lui Son élu, accueillit son repentir et l’engagea sur la bonne voie."
   },
   {
     "id": "taha-123",
@@ -9581,7 +9703,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ",
     "textSimple": "قال ٱهبطا منها جميعا  بعضكم لبعض عدو  فإما يأتينكم منى هدى فمن ٱتبع هداى فلا يضل ولا يشقى",
     "transliteration": "qāla ih'biṭā min'hā jamīʿan baʿḍukum libaʿḍin ʿaduwwun fa-immā yatiyannakum minnī hudan famani ittabaʿa hudāya falā yaḍillu walā yashqā",
-    "translation": "",
+    "translation": "[Allāh] said, \"Descend from it [i.e., Paradise] - all, [your descendants] being enemies to one another. And if there should come to you guidance from Me - then whoever follows My guidance will neither go astray [in the world] nor suffer [in the Hereafter].",
     "words": [
       {
         "id": "taha-123-1",
@@ -9710,7 +9832,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Descendez de là vous deux ! dit (Allah). Vous serez ennemis les uns des autres. Cependant, si jamais une bonne direction (hudâ) vous parvenait de Moi, celui qui la suivra ne serait ni égaré ni malheureux."
   },
   {
     "id": "taha-124",
@@ -9719,7 +9842,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةً ضَنكًا وَنَحْشُرُهُۥ يَوْمَ ٱلْقِيَـٰمَةِ أَعْمَىٰ",
     "textSimple": "ومن أعرض عن ذكرى فإن له معيشة ضنكا ونحشره يوم ٱلقيـمة أعمى",
     "transliteration": "waman aʿraḍa ʿan dhik'rī fa-inna lahu maʿīshatan ḍankan wanaḥshuruhu yawma l-qiyāmati aʿmā",
-    "translation": "",
+    "translation": "And whoever turns away from My remembrance - indeed, he will have a depressed [i.e., difficult] life, and We will gather [i.e., raise] him on the Day of Resurrection blind.\"",
     "words": [
       {
         "id": "taha-124-1",
@@ -9806,7 +9929,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Mais celui qui ne se souciera pas de M’évoquer aura une vie pénible. Nous le ramènerons aveugle (au grand rassemblement du Jour Dernier). »"
   },
   {
     "id": "taha-125",
@@ -9815,7 +9939,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ رَبِّ لِمَ حَشَرْتَنِىٓ أَعْمَىٰ وَقَدْ كُنتُ بَصِيرًا",
     "textSimple": "قال رب لم حشرتنىٓ أعمى وقد كنت بصيرا",
     "transliteration": "qāla rabbi lima ḥashartanī aʿmā waqad kuntu baṣīran",
-    "translation": "",
+    "translation": "He will say, \"My Lord, why have you raised me blind while I was [once] seeing?\"",
     "words": [
       {
         "id": "taha-125-1",
@@ -9874,7 +9998,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il dira : « Seigneur, pourquoi m’as-Tu ramené aveugle quand autrefois j’étais voyant ? »"
   },
   {
     "id": "taha-126",
@@ -9883,7 +10008,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قَالَ كَذَٰلِكَ أَتَتْكَ ءَايَـٰتُنَا فَنَسِيتَهَا ۖ وَكَذَٰلِكَ ٱلْيَوْمَ تُنسَىٰ",
     "textSimple": "قال كذلك أتتك ءايـتنا فنسيتها  وكذلك ٱليوم تنسى",
     "transliteration": "qāla kadhālika atatka āyātunā fanasītahā wakadhālika l-yawma tunsā",
-    "translation": "",
+    "translation": "[Allāh] will say, \"Thus did Our signs come to you, and you forgot [i.e., disregarded] them; and thus will you this Day be forgotten.\"",
     "words": [
       {
         "id": "taha-126-1",
@@ -9942,7 +10067,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« De la même façon que tu as oublié Nos Signes, répondra (Allah), tu seras oublié aujourd’hui ! »"
   },
   {
     "id": "taha-127",
@@ -9951,7 +10077,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَكَذَٰلِكَ نَجْزِى مَنْ أَسْرَفَ وَلَمْ يُؤْمِنۢ بِـَٔايَـٰتِ رَبِّهِۦ ۚ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَشَدُّ وَأَبْقَىٰٓ",
     "textSimple": "وكذلك نجزى من أسرف ولم يؤمن بـٔايـت ربه  ولعذاب ٱلـٔاخرة أشد وأبقىٓ",
     "transliteration": "wakadhālika najzī man asrafa walam yu'min biāyāti rabbihi walaʿadhābu l-ākhirati ashaddu wa-abqā",
-    "translation": "",
+    "translation": "And thus do We recompense he who transgressed and did not believe in the signs of his Lord. And the punishment of the Hereafter is more severe and more enduring.",
     "words": [
       {
         "id": "taha-127-1",
@@ -10038,7 +10164,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est ainsi que Nous rétribuons quiconque se livre aux excès et ne croit pas aux Signes de son Seigneur. Le supplice de l’autre monde est certes plus dur et plus durable."
   },
   {
     "id": "taha-128",
@@ -10047,7 +10174,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَـٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
     "textSimple": "أفلم يهد لهم كم أهلكنا قبلهم من ٱلقرون يمشون فى مسـكنهم  إن فى ذلك لـٔايـت لأولى ٱلنهى",
     "transliteration": "afalam yahdi lahum kam ahlaknā qablahum mina l-qurūni yamshūna fī masākinihim inna fī dhālika laāyātin li-ulī l-nuhā",
-    "translation": "",
+    "translation": "Then, has it not become clear to them how many generations We destroyed before them as they walk among their dwellings? Indeed in that are signs for those of intelligence.",
     "words": [
       {
         "id": "taha-128-1",
@@ -10169,7 +10296,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Cela ne les a-t-il pas suffisamment éclairés (de voir) combien de générations, avant eux, Nous avons fait périr ? C’est dans leurs demeures qu’ils marchent (aujourd’hui). Il y a bien là des Signes pour les esprits sagaces."
   },
   {
     "id": "taha-129",
@@ -10178,7 +10306,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَكَانَ لِزَامًا وَأَجَلٌ مُّسَمًّى",
     "textSimple": "ولولا كلمة سبقت من ربك لكان لزاما وأجل مسمى",
     "transliteration": "walawlā kalimatun sabaqat min rabbika lakāna lizāman wa-ajalun musamman",
-    "translation": "",
+    "translation": "And if not for a word that preceded from your Lord, it [i.e., punishment] would have been an obligation [due immediately], and [if not for] a specified term [decreed].",
     "words": [
       {
         "id": "taha-129-1",
@@ -10244,7 +10372,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’il n’y avait eu un arrêt déjà décrété de ton Seigneur, et un terme déjà nommé, (leur supplice) eût été (immédiat)."
   },
   {
     "id": "taha-130",
@@ -10253,7 +10382,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
     "textSimple": "فٱصبر على ما يقولون وسبح بحمد ربك قبل طلوع ٱلشمس وقبل غروبها  ومن ءانآئ ٱليل فسبح وأطراف ٱلنهار لعلك ترضى",
     "transliteration": "fa-iṣ'bir ʿalā mā yaqūlūna wasabbiḥ biḥamdi rabbika qabla ṭulūʿi l-shamsi waqabla ghurūbihā wamin ānāi al-layli fasabbiḥ wa-aṭrāfa l-nahāri laʿallaka tarḍā",
-    "translation": "",
+    "translation": "So be patient over what they say and exalt [Allāh] with praise of your Lord before the rising of the sun and before its setting; and during periods of the night [exalt Him] and at the ends of the day, that you may be satisfied.",
     "words": [
       {
         "id": "taha-130-1",
@@ -10396,7 +10525,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 19
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Prends donc ce qu’ils disent en patience, rends gloire à ton Seigneur et célèbre Ses louanges avant le lever du soleil et avant son coucher ! Rends-Lui donc gloire pendant la nuit et aux extrémités du jour ! Peut-être seras-tu satisfait (par la récompense divine)."
   },
   {
     "id": "taha-131",
@@ -10405,7 +10535,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ زَهْرَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا لِنَفْتِنَهُمْ فِيهِ ۚ وَرِزْقُ رَبِّكَ خَيْرٌ وَأَبْقَىٰ",
     "textSimple": "ولا تمدن عينيك إلى ما متعنا بهٓ أزوجا منهم زهرة ٱلحيوة ٱلدنيا لنفتنهم فيه  ورزق ربك خير وأبقى",
     "transliteration": "walā tamuddanna ʿaynayka ilā mā mattaʿnā bihi azwājan min'hum zahrata l-ḥayati l-dun'yā linaftinahum fīhi wariz'qu rabbika khayrun wa-abqā",
-    "translation": "",
+    "translation": "And do not extend your eyes toward that by which We have given enjoyment to [some] categories of them, [its being but] the splendor of worldly life by which We test them. And the provision of your Lord is better and more enduring.",
     "words": [
       {
         "id": "taha-131-1",
@@ -10534,7 +10664,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne porte point tes yeux sur les jouissances éphémères que Nous avons (réservées) à certains d’entre eux : apparat de ce bas monde par lequel Nous les éprouvons. Mais les biens que dispense ton Seigneur sont bien meilleurs et plus durables."
   },
   {
     "id": "taha-132",
@@ -10543,7 +10674,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَـٰقِبَةُ لِلتَّقْوَىٰ",
     "textSimple": "وأمر أهلك بٱلصلوة وٱصطبر عليها  لا نسـٔلك رزقا  نحن نرزقك  وٱلعـقبة للتقوى",
     "transliteration": "wamur ahlaka bil-ṣalati wa-iṣ'ṭabir ʿalayhā lā nasaluka riz'qan naḥnu narzuquka wal-ʿāqibatu lilttaqwā",
-    "translation": "",
+    "translation": "And enjoin prayer upon your family [and people] and be steadfast therein. We ask you not for provision; We provide for you, and the [best] outcome is for [those of] righteousness.",
     "words": [
       {
         "id": "taha-132-1",
@@ -10630,7 +10761,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ordonne aux tiens la Çalât. Observe-la toi-même avec constance. Nous ne te demandons point de subsistance, c’est Nous qui pourvoyons à la tienne. Et c’est aux gens pieux qu’est (promise) l’heureuse conséquence."
   },
   {
     "id": "taha-133",
@@ -10639,7 +10771,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْلَا يَأْتِينَا بِـَٔايَةٍ مِّن رَّبِّهِۦٓ ۚ أَوَلَمْ تَأْتِهِم بَيِّنَةُ مَا فِى ٱلصُّحُفِ ٱلْأُولَىٰ",
     "textSimple": "وقالوا لولا يأتينا بـٔاية من ربهٓ  أولم تأتهم بينة ما فى ٱلصحف ٱلأولى",
     "transliteration": "waqālū lawlā yatīnā biāyatin min rabbihi awalam tatihim bayyinatu mā fī l-ṣuḥufi l-ūlā",
-    "translation": "",
+    "translation": "And they say, \"Why does he not bring us a sign from his Lord?\" Has there not come to them evidence of what was in the former scriptures?",
     "words": [
       {
         "id": "taha-133-1",
@@ -10733,7 +10865,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils disent : « Si au moins il nous apportait un Signe de son Seigneur ! » Ne leur est-il donc pas parvenu une preuve évidente de ce qui était (consigné) dans les anciens Feuillets ?"
   },
   {
     "id": "taha-134",
@@ -10742,7 +10875,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ أَنَّآ أَهْلَكْنَـٰهُم بِعَذَابٍ مِّن قَبْلِهِۦ لَقَالُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ ءَايَـٰتِكَ مِن قَبْلِ أَن نَّذِلَّ وَنَخْزَىٰ",
     "textSimple": "ولو أنآ أهلكنـهم بعذاب من قبله لقالوا ربنا لولآ أرسلت إلينا رسولا فنتبع ءايـتك من قبل أن نذل ونخزى",
     "transliteration": "walaw annā ahlaknāhum biʿadhābin min qablihi laqālū rabbanā lawlā arsalta ilaynā rasūlan fanattabiʿa āyātika min qabli an nadhilla wanakhzā",
-    "translation": "",
+    "translation": "And if We had destroyed them with a punishment before him, they would have said, \"Our Lord, why did You not send to us a messenger so we could have followed Your verses [i.e., teachings] before we were humiliated and disgraced?\"",
     "words": [
       {
         "id": "taha-134-1",
@@ -10878,7 +11011,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si pourtant Nous les avions fait périr par un supplice avant lui (Muhammad), ils auraient certainement dit : « Seigneur, pourquoi ne nous as-Tu pas envoyé un Messager ? Nous aurions alors suivi Tes Signes avant d’être frappés d’humiliation et couverts d’infamie ? »"
   },
   {
     "id": "taha-135",
@@ -10887,7 +11021,7 @@ export const TAHA_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ كُلٌّ مُّتَرَبِّصٌ فَتَرَبَّصُوا۟ ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَـٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ",
     "textSimple": "قل كل متربص فتربصوا  فستعلمون من أصحـب ٱلصرط ٱلسوى ومن ٱهتدى",
     "transliteration": "qul kullun mutarabbiṣun fatarabbaṣū fasataʿlamūna man aṣḥābu l-ṣirāṭi l-sawiyi wamani ih'tadā",
-    "translation": "",
+    "translation": "Say, \"Each [of us] is waiting; so wait. For you will know who are the companions of the sound path and who is guided.\"",
     "words": [
       {
         "id": "taha-135-1",
@@ -10967,7 +11101,8 @@ export const TAHA_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Chacun de nous attend. Attendez donc ! Vous saurez bientôt quels sont les partisans de la voie droite et qui est bien orienté. »"
   }
 ];
 

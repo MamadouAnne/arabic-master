@@ -11,7 +11,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ ٱتَّقِ ٱللَّهَ وَلَا تُطِعِ ٱلْكَـٰفِرِينَ وَٱلْمُنَـٰفِقِينَ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
     "textSimple": " يـٓأيها ٱلنبى ٱتق ٱلله ولا تطع ٱلكـفرين وٱلمنـفقين  إن ٱلله كان عليما حكيما",
     "transliteration": "yāayyuhā l-nabiyu ittaqi l-laha walā tuṭiʿi l-kāfirīna wal-munāfiqīna inna l-laha kāna ʿalīman ḥakīman",
-    "translation": "",
+    "translation": "O Prophet, fear Allāh and do not obey the disbelievers and the hypocrites. Indeed, Allāh is ever Knowing and Wise.",
     "words": [
       {
         "id": "al-ahzab-1-1",
@@ -105,7 +105,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète, crains Allah ! N’obéis pas aux mécréants et aux hypocrites ! Allah est Omniscient et Sage."
   },
   {
     "id": "al-ahzab-2",
@@ -114,7 +115,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ مِن رَّبِّكَ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
     "textSimple": "وٱتبع ما يوحىٓ إليك من ربك  إن ٱلله كان بما تعملون خبيرا",
     "transliteration": "wa-ittabiʿ mā yūḥā ilayka min rabbika inna l-laha kāna bimā taʿmalūna khabīran",
-    "translation": "",
+    "translation": "And follow that which is revealed to you from your Lord. Indeed Allāh is ever, of what you do, Aware.",
     "words": [
       {
         "id": "al-ahzab-2-1",
@@ -201,7 +202,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Suis ce qui t’est révélé de la part de ton Seigneur, car Allah est parfaitement Informé de ce que vous faites."
   },
   {
     "id": "al-ahzab-3",
@@ -210,7 +212,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
     "textSimple": "وتوكل على ٱلله  وكفى بٱلله وكيلا",
     "transliteration": "watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan",
-    "translation": "",
+    "translation": "And rely upon Allāh; and sufficient is Allāh as Disposer of affairs.",
     "words": [
       {
         "id": "al-ahzab-3-1",
@@ -255,7 +257,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Confie-toi à Allah ! Qu’Allah (te) suffise comme protecteur."
   },
   {
     "id": "al-ahzab-4",
@@ -264,7 +267,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "مَّا جَعَلَ ٱللَّهُ لِرَجُلٍ مِّن قَلْبَيْنِ فِى جَوْفِهِۦ ۚ وَمَا جَعَلَ أَزْوَٰجَكُمُ ٱلَّـٰٓـِٔى تُظَـٰهِرُونَ مِنْهُنَّ أُمَّهَـٰتِكُمْ ۚ وَمَا جَعَلَ أَدْعِيَآءَكُمْ أَبْنَآءَكُمْ ۚ ذَٰلِكُمْ قَوْلُكُم بِأَفْوَٰهِكُمْ ۖ وَٱللَّهُ يَقُولُ ٱلْحَقَّ وَهُوَ يَهْدِى ٱلسَّبِيلَ",
     "textSimple": "ما جعل ٱلله لرجل من قلبين فى جوفه  وما جعل أزوجكم ٱلـٓـٔى تظـهرون منهن أمهـتكم  وما جعل أدعيآءكم أبنآءكم  ذلكم قولكم بأفوهكم  وٱلله يقول ٱلحق وهو يهدى ٱلسبيل",
     "transliteration": "mā jaʿala l-lahu lirajulin min qalbayni fī jawfihi wamā jaʿala azwājakumu allāī tuẓāhirūna min'hunna ummahātikum wamā jaʿala adʿiyāakum abnāakum dhālikum qawlukum bi-afwāhikum wal-lahu yaqūlu l-ḥaqa wahuwa yahdī l-sabīla",
-    "translation": "",
+    "translation": "Allāh has not made for a man two hearts in his interior. And He has not made your wives whom you declare unlawful your mothers. And He has not made your claimed [i.e., adopted] sons your [true] sons. That is [merely] your saying by your mouths, but Allāh says the truth, and He guides to the [right] way.",
     "words": [
       {
         "id": "al-ahzab-4-1",
@@ -463,7 +466,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah n’a pas mis deux cœurs dans la poitrine de l’homme. Il n’a point fait de vos épouses vos mères, (vos épouses) que vous répudiez en affirmant qu’elles vous sont aussi défendues que vos mères. Et Il n’a point fait de vos enfants adoptifs vos vrais enfants. Ce ne sont là que des paroles (qui sortent) de votre bouche. Allah, Lui, dit la vérité, et Il conduit vers le (droit) chemin."
   },
   {
     "id": "al-ahzab-5",
@@ -472,7 +476,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "ٱدْعُوهُمْ لِـَٔابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَـٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": "ٱدعوهم لـٔابآئهم هو أقسط عند ٱلله  فإن لم تعلموٓا ءابآءهم فإخونكم فى ٱلدين وموليكم  وليس عليكم جناح فيمآ أخطأتم به ولـكن ما تعمدت قلوبكم  وكان ٱلله غفورا رحيما",
     "transliteration": "id'ʿūhum liābāihim huwa aqsaṭu ʿinda l-lahi fa-in lam taʿlamū ābāahum fa-ikh'wānukum fī l-dīni wamawālīkum walaysa ʿalaykum junāḥun fīmā akhṭatum bihi walākin mā taʿammadat qulūbukum wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "Call them by [the names of] their fathers; it is more just in the sight of Allāh. But if you do not know their fathers - then they are [still] your brothers in religion and those entrusted to you. And there is no blame upon you for that in which you have erred but [only for] what your hearts intended. And ever is Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "al-ahzab-5-1",
@@ -671,7 +675,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 27
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Affiliez (ces enfants adoptifs) à leurs vrais pères : cela est plus juste pour Allah. Et si vous ne connaissez pas leurs pères, ce sont donc vos frères en religion ou vos alliés. Nul grief ne vous sera fait de vos erreurs, mais (il vous en sera fait) de ce que vos cœurs commettent intentionnellement. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-ahzab-6",
@@ -680,7 +685,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَـٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَـٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَـٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَـٰبِ مَسْطُورًا",
     "textSimple": "ٱلنبى أولى بٱلمؤمنين من أنفسهم  وأزوجهٓ أمهـتهم  وأولوا ٱلأرحام بعضهم أولى ببعض فى كتـب ٱلله من ٱلمؤمنين وٱلمهـجرين إلآ أن تفعلوٓا إلىٓ أوليآئكم معروفا  كان ذلك فى ٱلكتـب مسطورا",
     "transliteration": "al-nabiyu awlā bil-mu'minīna min anfusihim wa-azwājuhu ummahātuhum wa-ulū l-arḥāmi baʿḍuhum awlā bibaʿḍin fī kitābi l-lahi mina l-mu'minīna wal-muhājirīna illā an tafʿalū ilā awliyāikum maʿrūfan kāna dhālika fī l-kitābi masṭūran",
-    "translation": "",
+    "translation": "The Prophet is more worthy of the believers than themselves, and his wives are [in the position of] their mothers. And those of [blood] relationship are more entitled [to inheritance] in the decree of Allāh than the [other] believers and the emigrants, except that you may do to your close associates a kindness [through bequest]. That was in the Book inscribed.",
     "words": [
       {
         "id": "al-ahzab-6-1",
@@ -886,7 +891,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 28
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le Prophète a plus de droit sur les croyants que ceux-ci n’en ont sur eux-mêmes ; ses épouses sont leurs mères (dans les successions). Selon le Livre d’Allah, les liens de consanguinité sont prioritaires (en héritage) par rapport à ceux qui unissent les croyants et les Émigrés. À moins pour vous de faire une donation en faveur de vos alliés (en religion). Car cela est inscrit dans le Livre."
   },
   {
     "id": "al-ahzab-7",
@@ -895,7 +901,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ أَخَذْنَا مِنَ ٱلنَّبِيِّـۧنَ مِيثَـٰقَهُمْ وَمِنكَ وَمِن نُّوحٍ وَإِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَى ٱبْنِ مَرْيَمَ ۖ وَأَخَذْنَا مِنْهُم مِّيثَـٰقًا غَلِيظًا",
     "textSimple": "وإذ أخذنا من ٱلنبيـن ميثـقهم ومنك ومن نوح وإبرهيم وموسى وعيسى ٱبن مريم  وأخذنا منهم ميثـقا غليظا",
     "transliteration": "wa-idh akhadhnā mina l-nabiyīna mīthāqahum waminka wamin nūḥin wa-ib'rāhīma wamūsā waʿīsā ib'ni maryama wa-akhadhnā min'hum mīthāqan ghalīẓan",
-    "translation": "",
+    "translation": "And [mention, O Muḥammad], when We took from the prophets their covenant and from you and from Noah and Abraham and Moses and Jesus, the son of Mary; and We took from them a solemn covenant",
     "words": [
       {
         "id": "al-ahzab-7-1",
@@ -1017,7 +1023,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Évoque) lorsque Nous avons pris des Prophètes un engagement (ainsi que) de toi-même, de Noé, d’Abraham, de Moïse et de Jésus, fils de Marie. C’est un engagement solennel que Nous avons pris d’eux,"
   },
   {
     "id": "al-ahzab-8",
@@ -1026,7 +1033,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "لِّيَسْـَٔلَ ٱلصَّـٰدِقِينَ عَن صِدْقِهِمْ ۚ وَأَعَدَّ لِلْكَـٰفِرِينَ عَذَابًا أَلِيمًا",
     "textSimple": "ليسـٔل ٱلصـدقين عن صدقهم  وأعد للكـفرين عذابا أليما",
     "transliteration": "liyasala l-ṣādiqīna ʿan ṣid'qihim wa-aʿadda lil'kāfirīna ʿadhāban alīman",
-    "translation": "",
+    "translation": "That He may question the truthful about their truth. And He has prepared for the disbelievers a painful punishment.",
     "words": [
       {
         "id": "al-ahzab-8-1",
@@ -1085,7 +1092,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "afin (qu’Allah) interrogeât ceux qui sont sincères sur leur sincérité. Il a préparé aux mécréants un supplice très douloureux."
   },
   {
     "id": "al-ahzab-9",
@@ -1094,7 +1102,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًا وَجُنُودًا لَّمْ تَرَوْهَا ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱذكروا نعمة ٱلله عليكم إذ جآءتكم جنود فأرسلنا عليهم ريحا وجنودا لم تروها  وكان ٱلله بما تعملون بصيرا",
     "transliteration": "yāayyuhā alladhīna āmanū udh'kurū niʿ'mata l-lahi ʿalaykum idh jāatkum junūdun fa-arsalnā ʿalayhim rīḥan wajunūdan lam tarawhā wakāna l-lahu bimā taʿmalūna baṣīran",
-    "translation": "",
+    "translation": "O you who have believed, remember the favor of Allāh upon you when armies came to [attack] you and We sent upon them a wind and armies [of angels] you did not see. And ever is Allāh, of what you do, Seeing.",
     "words": [
       {
         "id": "al-ahzab-9-1",
@@ -1244,7 +1252,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Rappelez-vous ce bienfait d’Allah envers vous, lorsque des armées vous ont assiégés et que Nous avons envoyé contre elles un vent et des troupes que vous ne pouviez voir. Allah Voit clairement tout ce que vous faites."
   },
   {
     "id": "al-ahzab-10",
@@ -1253,7 +1262,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِذْ جَآءُوكُم مِّن فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنكُمْ وَإِذْ زَاغَتِ ٱلْأَبْصَـٰرُ وَبَلَغَتِ ٱلْقُلُوبُ ٱلْحَنَاجِرَ وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠",
     "textSimple": "إذ جآءوكم من فوقكم ومن أسفل منكم وإذ زاغت ٱلأبصـر وبلغت ٱلقلوب ٱلحناجر وتظنون بٱلله ٱلظنونا",
     "transliteration": "idh jāūkum min fawqikum wamin asfala minkum wa-idh zāghati l-abṣāru wabalaghati l-qulūbu l-ḥanājira wataẓunnūna bil-lahi l-ẓunūnā",
-    "translation": "",
+    "translation": "[Remember] when they came at you from above you and from below you, and when eyes shifted [in fear], and hearts reached the throats, and you assumed about Allāh [various] assumptions.",
     "words": [
       {
         "id": "al-ahzab-10-1",
@@ -1368,7 +1377,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils venaient alors vers vous par en dessus de vous et par en dessous. Les yeux étaient révulsés et les gorges nouées, et vous hasardiez au sujet d’Allah les fausses conjectures."
   },
   {
     "id": "al-ahzab-11",
@@ -1377,7 +1387,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "هُنَالِكَ ٱبْتُلِىَ ٱلْمُؤْمِنُونَ وَزُلْزِلُوا۟ زِلْزَالًا شَدِيدًا",
     "textSimple": "هنالك ٱبتلى ٱلمؤمنون وزلزلوا زلزالا شديدا",
     "transliteration": "hunālika ub'tuliya l-mu'minūna wazul'zilū zil'zālan shadīdan",
-    "translation": "",
+    "translation": "There the believers were tested and shaken with a severe shaking.",
     "words": [
       {
         "id": "al-ahzab-11-1",
@@ -1422,7 +1432,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Là, les croyants furent mis à l’épreuve et durement ébranlés."
   },
   {
     "id": "al-ahzab-12",
@@ -1431,7 +1442,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ يَقُولُ ٱلْمُنَـٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ مَّا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥٓ إِلَّا غُرُورًا",
     "textSimple": "وإذ يقول ٱلمنـفقون وٱلذين فى قلوبهم مرض ما وعدنا ٱلله ورسولهٓ إلا غرورا",
     "transliteration": "wa-idh yaqūlu l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun mā waʿadanā l-lahu warasūluhu illā ghurūran",
-    "translation": "",
+    "translation": "And [remember] when the hypocrites and those in whose hearts is disease said, \"Allāh and His Messenger did not promise us except delusion,\"",
     "words": [
       {
         "id": "al-ahzab-12-1",
@@ -1525,7 +1536,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Alors, les hypocrites et ceux qui avaient le cœur malade disaient : « Allah et Son Messager ne nous ont promis que des illusions. »"
   },
   {
     "id": "al-ahzab-13",
@@ -1534,7 +1546,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ قَالَت طَّآئِفَةٌ مِّنْهُمْ يَـٰٓأَهْلَ يَثْرِبَ لَا مُقَامَ لَكُمْ فَٱرْجِعُوا۟ ۚ وَيَسْتَـْٔذِنُ فَرِيقٌ مِّنْهُمُ ٱلنَّبِىَّ يَقُولُونَ إِنَّ بُيُوتَنَا عَوْرَةٌ وَمَا هِىَ بِعَوْرَةٍ ۖ إِن يُرِيدُونَ إِلَّا فِرَارًا",
     "textSimple": "وإذ قالت طآئفة منهم يـٓأهل يثرب لا مقام لكم فٱرجعوا  ويستـٔذن فريق منهم ٱلنبى يقولون إن بيوتنا عورة وما هى بعورة  إن يريدون إلا فرارا",
     "transliteration": "wa-idh qālat ṭāifatun min'hum yāahla yathriba lā muqāma lakum fa-ir'jiʿū wayastadhinu farīqun min'humu l-nabiya yaqūlūna inna buyūtanā ʿawratun wamā hiya biʿawratin in yurīdūna illā firāran",
-    "translation": "",
+    "translation": "And when a faction of them said, \"O people of Yathrib, there is no stability for you [here], so return [home].\" And a party of them asked permission of the Prophet, saying, \"Indeed, our houses are exposed [i.e., unprotected],\" while they were not exposed. They did not intend except to flee.",
     "words": [
       {
         "id": "al-ahzab-13-1",
@@ -1712,7 +1724,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Un groupe parmi eux disait : « Ô gens de Yathrib ! Il n’y a pas de place pour vous ici ! Retournez donc (chez vous). » Un (autre) groupe demandait au Prophète la permission de s’en aller en disant : « Nos maisons sont exposées (au danger). » Or elles ne l’étaient point, et ils ne pensaient qu’à prendre la fuite."
   },
   {
     "id": "al-ahzab-14",
@@ -1721,7 +1734,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَلَوْ دُخِلَتْ عَلَيْهِم مِّنْ أَقْطَارِهَا ثُمَّ سُئِلُوا۟ ٱلْفِتْنَةَ لَـَٔاتَوْهَا وَمَا تَلَبَّثُوا۟ بِهَآ إِلَّا يَسِيرًا",
     "textSimple": "ولو دخلت عليهم من أقطارها ثم سئلوا ٱلفتنة لـٔاتوها وما تلبثوا بهآ إلا يسيرا",
     "transliteration": "walaw dukhilat ʿalayhim min aqṭārihā thumma su-ilū l-fit'nata laātawhā wamā talabbathū bihā illā yasīran",
-    "translation": "",
+    "translation": "And if they had been entered upon from all its [surrounding] regions and fitnah [i.e., disbelief] had been demanded of them, they would have done it and not hesitated over it except briefly.",
     "words": [
       {
         "id": "al-ahzab-14-1",
@@ -1822,7 +1835,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si (l’ennemi) avait pénétré dans (la ville) par tous les côtés et qu’il les ait exhortés à apostasier, ils auraient obtempéré sans trop d’hésitation."
   },
   {
     "id": "al-ahzab-15",
@@ -1831,7 +1845,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ كَانُوا۟ عَـٰهَدُوا۟ ٱللَّهَ مِن قَبْلُ لَا يُوَلُّونَ ٱلْأَدْبَـٰرَ ۚ وَكَانَ عَهْدُ ٱللَّهِ مَسْـُٔولًا",
     "textSimple": "ولقد كانوا عـهدوا ٱلله من قبل لا يولون ٱلأدبـر  وكان عهد ٱلله مسـٔولا",
     "transliteration": "walaqad kānū ʿāhadū l-laha min qablu lā yuwallūna l-adbāra wakāna ʿahdu l-lahi masūlan",
-    "translation": "",
+    "translation": "And they had already promised Allāh before not to turn their backs [i.e., flee]. And ever is the promise to Allāh [that about which one will be] questioned.",
     "words": [
       {
         "id": "al-ahzab-15-1",
@@ -1925,7 +1939,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils avaient pourtant pris l’engagement devant Allah de ne point fuir (l’ennemi). Ils auront certes à répondre de leur engagement envers Allah."
   },
   {
     "id": "al-ahzab-16",
@@ -1934,7 +1949,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "قُل لَّن يَنفَعَكُمُ ٱلْفِرَارُ إِن فَرَرْتُم مِّنَ ٱلْمَوْتِ أَوِ ٱلْقَتْلِ وَإِذًا لَّا تُمَتَّعُونَ إِلَّا قَلِيلًا",
     "textSimple": "قل لن ينفعكم ٱلفرار إن فررتم من ٱلموت أو ٱلقتل وإذا لا تمتعون إلا قليلا",
     "transliteration": "qul lan yanfaʿakumu l-firāru in farartum mina l-mawti awi l-qatli wa-idhan lā tumattaʿūna illā qalīlan",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Never will fleeing benefit you if you should flee from death or killing; and then [if you did], you would not be given enjoyment [of life] except for a little.\"",
     "words": [
       {
         "id": "al-ahzab-16-1",
@@ -2042,7 +2057,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Il ne vous servira à rien de fuir pour éviter la mort (naturelle) ou d’être tués (au combat). Car vous ne jouirez (de la vie) que pour peu de temps. »"
   },
   {
     "id": "al-ahzab-17",
@@ -2051,7 +2067,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ مَن ذَا ٱلَّذِى يَعْصِمُكُم مِّنَ ٱللَّهِ إِنْ أَرَادَ بِكُمْ سُوٓءًا أَوْ أَرَادَ بِكُمْ رَحْمَةً ۚ وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
     "textSimple": "قل من ذا ٱلذى يعصمكم من ٱلله إن أراد بكم سوٓءا أو أراد بكم رحمة  ولا يجدون لهم من دون ٱلله وليا ولا نصيرا",
     "transliteration": "qul man dhā alladhī yaʿṣimukum mina l-lahi in arāda bikum sūan aw arāda bikum raḥmatan walā yajidūna lahum min dūni l-lahi waliyyan walā naṣīran",
-    "translation": "",
+    "translation": "Say, \"Who is it that can protect you from Allāh if He intends for you an ill or intends for you a mercy?\" And they will not find for themselves besides Allāh any protector or any helper.",
     "words": [
       {
         "id": "al-ahzab-17-1",
@@ -2222,7 +2238,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Qui vous protégera contre Allah s’Il entend vous frapper d’un malheur ou vous combler d’une grâce ? » Ils ne trouveront pour eux-mêmes, en dehors d’Allah, ni allié ni soutien."
   },
   {
     "id": "al-ahzab-18",
@@ -2231,7 +2248,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "۞ قَدْ يَعْلَمُ ٱللَّهُ ٱلْمُعَوِّقِينَ مِنكُمْ وَٱلْقَآئِلِينَ لِإِخْوَٰنِهِمْ هَلُمَّ إِلَيْنَا ۖ وَلَا يَأْتُونَ ٱلْبَأْسَ إِلَّا قَلِيلًا",
     "textSimple": " قد يعلم ٱلله ٱلمعوقين منكم وٱلقآئلين لإخونهم هلم إلينا  ولا يأتون ٱلبأس إلا قليلا",
     "transliteration": "qad yaʿlamu l-lahu l-muʿawiqīna minkum wal-qāilīna li-ikh'wānihim halumma ilaynā walā yatūna l-basa illā qalīlan",
-    "translation": "",
+    "translation": "Already Allāh knows the hinderers among you and those [hypocrites] who say to their brothers, \"Come to us,\" and do not go to battle, except for a few,",
     "words": [
       {
         "id": "al-ahzab-18-1",
@@ -2332,7 +2349,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah connaît certes ceux qui parmi vous font obstruction (au combat), ceux qui disent à leurs frères : « Rejoignez-nous. » Ceux-là ne montrent que peu de zèle au combat,"
   },
   {
     "id": "al-ahzab-19",
@@ -2341,7 +2359,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَآءَ ٱلْخَوْفُ رَأَيْتَهُمْ يَنظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَٱلَّذِى يُغْشَىٰ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَإِذَا ذَهَبَ ٱلْخَوْفُ سَلَقُوكُم بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلْخَيْرِ ۚ أُو۟لَـٰٓئِكَ لَمْ يُؤْمِنُوا۟ فَأَحْبَطَ ٱللَّهُ أَعْمَـٰلَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
     "textSimple": "أشحة عليكم  فإذا جآء ٱلخوف رأيتهم ينظرون إليك تدور أعينهم كٱلذى يغشى عليه من ٱلموت  فإذا ذهب ٱلخوف سلقوكم بألسنة حداد أشحة على ٱلخير  أولـٓئك لم يؤمنوا فأحبط ٱلله أعمـلهم  وكان ذلك على ٱلله يسيرا",
     "transliteration": "ashiḥḥatan ʿalaykum fa-idhā jāa l-khawfu ra-aytahum yanẓurūna ilayka tadūru aʿyunuhum ka-alladhī yugh'shā ʿalayhi mina l-mawti fa-idhā dhahaba l-khawfu salaqūkum bi-alsinatin ḥidādin ashiḥḥatan ʿalā l-khayri ulāika lam yu'minū fa-aḥbaṭa l-lahu aʿmālahum wakāna dhālika ʿalā l-lahi yasīran",
-    "translation": "",
+    "translation": "Indisposed toward you. And when fear comes, you see them looking at you, their eyes revolving like one being overcome by death. But when fear departs, they lash you with sharp tongues, indisposed toward [any] good. Those have not believed, so Allāh has rendered their deeds worthless, and ever is that, for Allāh, easy.",
     "words": [
       {
         "id": "al-ahzab-19-1",
@@ -2589,7 +2607,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "et sont bien avares (lorsqu’il s’agit de vous prêter main forte). Quand ils prennent peur, tu les vois qui te regardent avec les yeux chavirés de celui qui s’évanouit à l’approche de la mort. Puis quand la peur s’en va, ils vous écorchent de leurs langues acérées, car ils sont âpres à réclamer le butin. Ceux-là n’ont jamais eu la foi. Allah annulera leurs œuvres et c’est pour Lui chose vraiment aisée."
   },
   {
     "id": "al-ahzab-20",
@@ -2598,7 +2617,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَحْسَبُونَ ٱلْأَحْزَابَ لَمْ يَذْهَبُوا۟ ۖ وَإِن يَأْتِ ٱلْأَحْزَابُ يَوَدُّوا۟ لَوْ أَنَّهُم بَادُونَ فِى ٱلْأَعْرَابِ يَسْـَٔلُونَ عَنْ أَنۢبَآئِكُمْ ۖ وَلَوْ كَانُوا۟ فِيكُم مَّا قَـٰتَلُوٓا۟ إِلَّا قَلِيلًا",
     "textSimple": "يحسبون ٱلأحزاب لم يذهبوا  وإن يأت ٱلأحزاب يودوا لو أنهم بادون فى ٱلأعراب يسـٔلون عن أنبآئكم  ولو كانوا فيكم ما قـتلوٓا إلا قليلا",
     "transliteration": "yaḥsabūna l-aḥzāba lam yadhhabū wa-in yati l-aḥzābu yawaddū law annahum bādūna fī l-aʿrābi yasalūna ʿan anbāikum walaw kānū fīkum mā qātalū illā qalīlan",
-    "translation": "",
+    "translation": "They think the companies have not [yet] withdrawn. And if the companies should come [again], they would wish they were in the desert among the bedouins, inquiring [from afar] about your news. And if they should be among you, they would not fight except for a little.",
     "words": [
       {
         "id": "al-ahzab-20-1",
@@ -2762,7 +2781,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 22
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils s’imaginent que les coalisés ne sont pas partis. Mais si les coalisés revenaient, (ces mécréants) souhaiteraient se trouver parmi les nomades (du désert) demandant (de loin) de vos nouvelles. Et s’ils étaient parmi vous, ils ne combattraient que très peu (à vos côtés)."
   },
   {
     "id": "al-ahzab-21",
@@ -2771,7 +2791,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْـَٔاخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًا",
     "textSimple": "لقد كان لكم فى رسول ٱلله أسوة حسنة لمن كان يرجوا ٱلله وٱليوم ٱلـٔاخر وذكر ٱلله كثيرا",
     "transliteration": "laqad kāna lakum fī rasūli l-lahi us'watun ḥasanatun liman kāna yarjū l-laha wal-yawma l-ākhira wadhakara l-laha kathīran",
-    "translation": "",
+    "translation": "There has certainly been for you in the Messenger of Allāh an excellent pattern for anyone whose hope is in Allāh and the Last Day and [who] remembers Allāh often.",
     "words": [
       {
         "id": "al-ahzab-21-1",
@@ -2893,7 +2913,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous avez dans le Messager d’Allah un bel exemple (à suivre) par quiconque espère en Allah et au Jour Dernier, et qui souvent évoque Allah."
   },
   {
     "id": "al-ahzab-22",
@@ -2902,7 +2923,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَلَمَّا رَءَا ٱلْمُؤْمِنُونَ ٱلْأَحْزَابَ قَالُوا۟ هَـٰذَا مَا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥ وَصَدَقَ ٱللَّهُ وَرَسُولُهُۥ ۚ وَمَا زَادَهُمْ إِلَّآ إِيمَـٰنًا وَتَسْلِيمًا",
     "textSimple": "ولما رءا ٱلمؤمنون ٱلأحزاب قالوا هـذا ما وعدنا ٱلله ورسوله وصدق ٱلله ورسوله  وما زادهم إلآ إيمـنا وتسليما",
     "transliteration": "walammā raā l-mu'minūna l-aḥzāba qālū hādhā mā waʿadanā l-lahu warasūluhu waṣadaqa l-lahu warasūluhu wamā zādahum illā īmānan wataslīman",
-    "translation": "",
+    "translation": "And when the believers saw the companies, they said, \"This is what Allāh and His Messenger had promised us, and Allāh and His Messenger spoke the truth.\" And it increased them only in faith and acceptance.",
     "words": [
       {
         "id": "al-ahzab-22-1",
@@ -3031,7 +3052,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsque les croyants virent les coalisés, ils dirent : « Voilà la promesse que nous avaient faite Allah et Son Messager. Allah et Son Messager disaient donc vrai. » Et cela ne fit qu’accroître leur foi et leur soumission."
   },
   {
     "id": "al-ahzab-23",
@@ -3040,7 +3062,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "مِّنَ ٱلْمُؤْمِنِينَ رِجَالٌ صَدَقُوا۟ مَا عَـٰهَدُوا۟ ٱللَّهَ عَلَيْهِ ۖ فَمِنْهُم مَّن قَضَىٰ نَحْبَهُۥ وَمِنْهُم مَّن يَنتَظِرُ ۖ وَمَا بَدَّلُوا۟ تَبْدِيلًا",
     "textSimple": "من ٱلمؤمنين رجال صدقوا ما عـهدوا ٱلله عليه  فمنهم من قضى نحبه ومنهم من ينتظر  وما بدلوا تبديلا",
     "transliteration": "mina l-mu'minīna rijālun ṣadaqū mā ʿāhadū l-laha ʿalayhi famin'hum man qaḍā naḥbahu wamin'hum man yantaẓiru wamā baddalū tabdīlan",
-    "translation": "",
+    "translation": "Among the believers are men true to what they promised Allāh. Among them is he who has fulfilled his vow [to the death], and among them is he who awaits [his chance]. And they did not alter [the terms of their commitment] by any alteration -",
     "words": [
       {
         "id": "al-ahzab-23-1",
@@ -3169,7 +3191,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il est, parmi les croyants, des hommes qui ont honoré leur engagement envers Allah. Il en est qui ont atteint la fin (de leurs jours), d’autres l’attendent toujours sans avoir rien changé (à leur engagement initial)."
   },
   {
     "id": "al-ahzab-24",
@@ -3178,7 +3201,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "لِّيَجْزِىَ ٱللَّهُ ٱلصَّـٰدِقِينَ بِصِدْقِهِمْ وَيُعَذِّبَ ٱلْمُنَـٰفِقِينَ إِن شَآءَ أَوْ يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
     "textSimple": "ليجزى ٱلله ٱلصـدقين بصدقهم ويعذب ٱلمنـفقين إن شآء أو يتوب عليهم  إن ٱلله كان غفورا رحيما",
     "transliteration": "liyajziya l-lahu l-ṣādiqīna biṣid'qihim wayuʿadhiba l-munāfiqīna in shāa aw yatūba ʿalayhim inna l-laha kāna ghafūran raḥīman",
-    "translation": "",
+    "translation": "That Allāh may reward the truthful for their truth and punish the hypocrites if He wills or accept their repentance. Indeed, Allāh is ever Forgiving and Merciful.",
     "words": [
       {
         "id": "al-ahzab-24-1",
@@ -3293,7 +3316,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah récompensera alors ceux qui sont sincères pour leur sincérité, et Il soumettra au supplice les hypocrites, s’Il le veut, ou acceptera leur repentir. Car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-ahzab-25",
@@ -3302,7 +3326,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَرَدَّ ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ بِغَيْظِهِمْ لَمْ يَنَالُوا۟ خَيْرًا ۚ وَكَفَى ٱللَّهُ ٱلْمُؤْمِنِينَ ٱلْقِتَالَ ۚ وَكَانَ ٱللَّهُ قَوِيًّا عَزِيزًا",
     "textSimple": "ورد ٱلله ٱلذين كفروا بغيظهم لم ينالوا خيرا  وكفى ٱلله ٱلمؤمنين ٱلقتال  وكان ٱلله قويا عزيزا",
     "transliteration": "waradda l-lahu alladhīna kafarū bighayẓihim lam yanālū khayran wakafā l-lahu l-mu'minīna l-qitāla wakāna l-lahu qawiyyan ʿazīzan",
-    "translation": "",
+    "translation": "And Allāh repelled those who disbelieved, in their rage, not having obtained any good. And sufficient was Allāh for the believers in battle, and ever is Allāh Powerful and Exalted in Might.",
     "words": [
       {
         "id": "al-ahzab-25-1",
@@ -3417,7 +3441,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a repoussé les mécréants écumant de rage et sans avoir récolté aucun bien, Allah a évité aux croyants de livrer combat. Allah est Fort et Tout-Puissant."
   },
   {
     "id": "al-ahzab-26",
@@ -3426,7 +3451,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَأَنزَلَ ٱلَّذِينَ ظَـٰهَرُوهُم مِّنْ أَهْلِ ٱلْكِتَـٰبِ مِن صَيَاصِيهِمْ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
     "textSimple": "وأنزل ٱلذين ظـهروهم من أهل ٱلكتـب من صياصيهم وقذف فى قلوبهم ٱلرعب فريقا تقتلون وتأسرون فريقا",
     "transliteration": "wa-anzala alladhīna ẓāharūhum min ahli l-kitābi min ṣayāṣīhim waqadhafa fī qulūbihimu l-ruʿ'ba farīqan taqtulūna watasirūna farīqan",
-    "translation": "",
+    "translation": "And He brought down those who supported them among the People of the Scripture from their fortresses and cast terror into their hearts [so that] a party [i.e., their men] you killed, and you took captive a party [i.e., the women and children].",
     "words": [
       {
         "id": "al-ahzab-26-1",
@@ -3541,7 +3566,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il a fait descendre de leurs forteresses ceux qui, parmi les gens du Livre, les avaient soutenus. Il a jeté la terreur dans leurs cœurs : vous avez tué une partie d’entre eux, et vous avez tenu en captivité une autre."
   },
   {
     "id": "al-ahzab-27",
@@ -3550,7 +3576,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَأَوْرَثَكُمْ أَرْضَهُمْ وَدِيَـٰرَهُمْ وَأَمْوَٰلَهُمْ وَأَرْضًا لَّمْ تَطَـُٔوهَا ۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرًا",
     "textSimple": "وأورثكم أرضهم وديـرهم وأمولهم وأرضا لم تطـٔوها  وكان ٱلله على كل شىء قديرا",
     "transliteration": "wa-awrathakum arḍahum wadiyārahum wa-amwālahum wa-arḍan lam taṭaūhā wakāna l-lahu ʿalā kulli shayin qadīran",
-    "translation": "",
+    "translation": "And He caused you to inherit their land and their homes and their properties and a land which you have not trodden. And ever is Allāh, over all things, competent.",
     "words": [
       {
         "id": "al-ahzab-27-1",
@@ -3644,7 +3670,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il vous a fait hériter de leur terre, de leurs demeures, de leurs biens et d’une (autre) terre que vous n’aviez point foulée. Allah est de Toute chose Infiniment Capable."
   },
   {
     "id": "al-ahzab-28",
@@ -3653,7 +3680,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ إِن كُنتُنَّ تُرِدْنَ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُنَّ وَأُسَرِّحْكُنَّ سَرَاحًا جَمِيلًا",
     "textSimple": "يـٓأيها ٱلنبى قل لأزوجك إن كنتن تردن ٱلحيوة ٱلدنيا وزينتها فتعالين أمتعكن وأسرحكن سراحا جميلا",
     "transliteration": "yāayyuhā l-nabiyu qul li-azwājika in kuntunna turid'na l-ḥayata l-dun'yā wazīnatahā fataʿālayna umattiʿ'kunna wa-usarriḥ'kunna sarāḥan jamīlan",
-    "translation": "",
+    "translation": "O Prophet, say to your wives, \"If you should desire the worldly life and its adornment, then come, I will provide for you and give you a gracious release.",
     "words": [
       {
         "id": "al-ahzab-28-1",
@@ -3761,7 +3788,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Dis à tes épouses : « Si c’est la vie en ce bas monde que vous désirez, avec son apparat, venez donc que je vous offre en jouissance quelque bien compensatoire et que je vous libère d’une bien belle manière."
   },
   {
     "id": "al-ahzab-29",
@@ -3770,7 +3798,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن كُنتُنَّ تُرِدْنَ ٱللَّهَ وَرَسُولَهُۥ وَٱلدَّارَ ٱلْـَٔاخِرَةَ فَإِنَّ ٱللَّهَ أَعَدَّ لِلْمُحْسِنَـٰتِ مِنكُنَّ أَجْرًا عَظِيمًا",
     "textSimple": "وإن كنتن تردن ٱلله ورسوله وٱلدار ٱلـٔاخرة فإن ٱلله أعد للمحسنـت منكن أجرا عظيما",
     "transliteration": "wa-in kuntunna turid'na l-laha warasūlahu wal-dāra l-ākhirata fa-inna l-laha aʿadda lil'muḥ'sināti minkunna ajran ʿaẓīman",
-    "translation": "",
+    "translation": "But if you should desire Allāh and His Messenger and the home of the Hereafter - then indeed, Allāh has prepared for the doers of good among you a great reward.\"",
     "words": [
       {
         "id": "al-ahzab-29-1",
@@ -3871,7 +3899,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et si c’est Allah, Son Messager et la Demeure Ultime que vous recherchez, alors (sachez qu’) Allah a préparé aux bienfaitrices d’entre vous une immense récompense. »"
   },
   {
     "id": "al-ahzab-30",
@@ -3880,7 +3909,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰنِسَآءَ ٱلنَّبِىِّ مَن يَأْتِ مِنكُنَّ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ يُضَـٰعَفْ لَهَا ٱلْعَذَابُ ضِعْفَيْنِ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
     "textSimple": "يـنسآء ٱلنبى من يأت منكن بفـحشة مبينة يضـعف لها ٱلعذاب ضعفين  وكان ذلك على ٱلله يسيرا",
     "transliteration": "yānisāa l-nabiyi man yati minkunna bifāḥishatin mubayyinatin yuḍāʿaf lahā l-ʿadhābu ḍiʿ'fayni wakāna dhālika ʿalā l-lahi yasīran",
-    "translation": "",
+    "translation": "O wives of the Prophet, whoever of you should commit a clear immorality - for her the punishment would be doubled two fold, and ever is that, for Allāh, easy.",
     "words": [
       {
         "id": "al-ahzab-30-1",
@@ -3995,7 +4024,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô femmes du Prophète ! Celle d’entre vous qui aura commis une flagrante turpitude verra son supplice doublé. C’est pour Allah chose vraiment aisée."
   },
   {
     "id": "al-ahzab-31",
@@ -4004,7 +4034,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "۞ وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعْمَلْ صَـٰلِحًا نُّؤْتِهَآ أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقًا كَرِيمًا",
     "textSimple": " ومن يقنت منكن لله ورسوله وتعمل صـلحا نؤتهآ أجرها مرتين وأعتدنا لها رزقا كريما",
     "transliteration": "waman yaqnut minkunna lillahi warasūlihi wataʿmal ṣāliḥan nu'tihā ajrahā marratayni wa-aʿtadnā lahā riz'qan karīman",
-    "translation": "",
+    "translation": "And whoever of you devoutly obeys Allāh and His Messenger and does righteousness - We will give her her reward twice; and We have prepared for her a noble provision.",
     "words": [
       {
         "id": "al-ahzab-31-1",
@@ -4105,7 +4135,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À celle d’entre vous qui se soumet entièrement à Allah et à Son Messager, et fait le bien, Nous attribuerons le double de sa récompense et lui réserverons des dons généreux."
   },
   {
     "id": "al-ahzab-32",
@@ -4114,7 +4145,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا",
     "textSimple": "يـنسآء ٱلنبى لستن كأحد من ٱلنسآء  إن ٱتقيتن فلا تخضعن بٱلقول فيطمع ٱلذى فى قلبه مرض وقلن قولا معروفا",
     "transliteration": "yānisāa l-nabiyi lastunna ka-aḥadin mina l-nisāi ini ittaqaytunna falā takhḍaʿna bil-qawli fayaṭmaʿa alladhī fī qalbihi maraḍun waqul'na qawlan maʿrūfan",
-    "translation": "",
+    "translation": "O wives of the Prophet, you are not like anyone among women. If you fear Allāh, then do not be soft in speech [to men], lest he in whose heart is disease should covet, but speak with appropriate speech.",
     "words": [
       {
         "id": "al-ahzab-32-1",
@@ -4250,7 +4281,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô femmes du Prophète ! Vous n’êtes semblables à aucune des autres femmes. Si vous faites montre de piété, n’adoucissez pas vos propos, pour que les cœurs malades n’aient pas des vues (malsaines) sur vous. Ne tenez que des propos décents."
   },
   {
     "id": "al-ahzab-33",
@@ -4259,7 +4291,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَـٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا",
     "textSimple": "وقرن فى بيوتكن ولا تبرجن تبرج ٱلجـهلية ٱلأولى  وأقمن ٱلصلوة وءاتين ٱلزكوة وأطعن ٱلله ورسولهٓ  إنما يريد ٱلله ليذهب عنكم ٱلرجس أهل ٱلبيت ويطهركم تطهيرا",
     "transliteration": "waqarna fī buyūtikunna walā tabarrajna tabarruja l-jāhiliyati l-ūlā wa-aqim'na l-ṣalata waātīna l-zakata wa-aṭiʿ'na l-laha warasūlahu innamā yurīdu l-lahu liyudh'hiba ʿankumu l-rij'sa ahla l-bayti wayuṭahhirakum taṭhīran",
-    "translation": "",
+    "translation": "And abide in your houses and do not display yourselves as [was] the display of the former times of ignorance. And establish prayer and give zakāh and obey Allāh and His Messenger. Allāh intends only to remove from you the impurity [of sin], O people of the [Prophet's] household, and to purify you with [extensive] purification.",
     "words": [
       {
         "id": "al-ahzab-33-1",
@@ -4437,7 +4469,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Demeurez dans vos foyers et n’exhibez pas (vos charmes) comme faisaient les femmes de l’époque préislamique (Jahilyya). Accomplissez la Çalât, acquittez-vous de la Zakât, obéissez à Allah et à Son Messager ! Allah ne veut qu’éloigner de vous la souillure, ô gens de la maison (du Prophète), Il veut vous purifier complètement."
   },
   {
     "id": "al-ahzab-34",
@@ -4446,7 +4479,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَٱذْكُرْنَ مَا يُتْلَىٰ فِى بُيُوتِكُنَّ مِنْ ءَايَـٰتِ ٱللَّهِ وَٱلْحِكْمَةِ ۚ إِنَّ ٱللَّهَ كَانَ لَطِيفًا خَبِيرًا",
     "textSimple": "وٱذكرن ما يتلى فى بيوتكن من ءايـت ٱلله وٱلحكمة  إن ٱلله كان لطيفا خبيرا",
     "transliteration": "wa-udh'kur'na mā yut'lā fī buyūtikunna min āyāti l-lahi wal-ḥik'mati inna l-laha kāna laṭīfan khabīran",
-    "translation": "",
+    "translation": "And remember what is recited in your houses of the verses of Allāh and wisdom. Indeed, Allāh is ever Subtle and Aware.",
     "words": [
       {
         "id": "al-ahzab-34-1",
@@ -4547,7 +4580,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Évoquez les versets d’Allah et la sagesse qui sont récités dans vos demeures. Allah est Subtil et Informé."
   },
   {
     "id": "al-ahzab-35",
@@ -4556,7 +4590,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَـٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَٱلْقَـٰنِتِينَ وَٱلْقَـٰنِتَـٰتِ وَٱلصَّـٰدِقِينَ وَٱلصَّـٰدِقَـٰتِ وَٱلصَّـٰبِرِينَ وَٱلصَّـٰبِرَٰتِ وَٱلْخَـٰشِعِينَ وَٱلْخَـٰشِعَـٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَـٰتِ وَٱلصَّـٰٓئِمِينَ وَٱلصَّـٰٓئِمَـٰتِ وَٱلْحَـٰفِظِينَ فُرُوجَهُمْ وَٱلْحَـٰفِظَـٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا",
     "textSimple": "إن ٱلمسلمين وٱلمسلمـت وٱلمؤمنين وٱلمؤمنـت وٱلقـنتين وٱلقـنتـت وٱلصـدقين وٱلصـدقـت وٱلصـبرين وٱلصـبرت وٱلخـشعين وٱلخـشعـت وٱلمتصدقين وٱلمتصدقـت وٱلصـٓئمين وٱلصـٓئمـت وٱلحـفظين فروجهم وٱلحـفظـت وٱلذكرين ٱلله كثيرا وٱلذكرت أعد ٱلله لهم مغفرة وأجرا عظيما",
     "transliteration": "inna l-mus'limīna wal-mus'limāti wal-mu'minīna wal-mu'mināti wal-qānitīna wal-qānitāti wal-ṣādiqīna wal-ṣādiqāti wal-ṣābirīna wal-ṣābirāti wal-khāshiʿīna wal-khāshiʿāti wal-mutaṣadiqīna wal-mutaṣadiqāti wal-ṣāimīna wal-ṣāimāti wal-ḥāfiẓīna furūjahum wal-ḥāfiẓāti wal-dhākirīna l-laha kathīran wal-dhākirāti aʿadda l-lahu lahum maghfiratan wa-ajran ʿaẓīman",
-    "translation": "",
+    "translation": "Indeed, the Muslim men and Muslim women, the believing men and believing women, the obedient men and obedient women, the truthful men and truthful women, the patient men and patient women, the humble men and humble women, the charitable men and charitable women, the fasting men and fasting women, the men who guard their private parts and the women who do so, and the men who remember Allāh often and the women who do so - for them Allāh has prepared forgiveness and a great reward.",
     "words": [
       {
         "id": "al-ahzab-35-1",
@@ -4769,7 +4803,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les Musulmans et les Musulmanes, les croyants et les croyantes, les soumis et les soumises, les loyaux et les loyales, les endurants et les endurantes, ceux et celles qui se recueillent, ceux et celles qui font la charité, les jeûneurs et les jeûneuses, ceux et celles qui préservent leur chasteté, et ceux et celles qui évoquent fréquemment le nom d’Allah, (à tous ceux-là) Allah a préparé un pardon et une immense récompense."
   },
   {
     "id": "al-ahzab-36",
@@ -4778,7 +4813,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى ٱللَّهُ وَرَسُولُهُۥٓ أَمْرًا أَن يَكُونَ لَهُمُ ٱلْخِيَرَةُ مِنْ أَمْرِهِمْ ۗ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ ضَلَّ ضَلَـٰلًا مُّبِينًا",
     "textSimple": "وما كان لمؤمن ولا مؤمنة إذا قضى ٱلله ورسولهٓ أمرا أن يكون لهم ٱلخيرة من أمرهم  ومن يعص ٱلله ورسوله فقد ضل ضلـلا مبينا",
     "transliteration": "wamā kāna limu'minin walā mu'minatin idhā qaḍā l-lahu warasūluhu amran an yakūna lahumu l-khiyaratu min amrihim waman yaʿṣi l-laha warasūlahu faqad ḍalla ḍalālan mubīnan",
-    "translation": "",
+    "translation": "It is not for a believing man or a believing woman, when Allāh and His Messenger have decided a matter, that they should [thereafter] have any choice about their affair. And whoever disobeys Allāh and His Messenger has certainly strayed into clear error.",
     "words": [
       {
         "id": "al-ahzab-36-1",
@@ -4949,7 +4984,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 23
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’appartient nullement à un croyant ou à une croyante, lorsque Allah et Son Messager ont décidé d’une affaire, d’avoir le choix (d’en décider à leur tour). Quiconque désobéit à Allah et à Son Messager s’égare manifestement."
   },
   {
     "id": "al-ahzab-37",
@@ -4958,7 +4994,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَإِذْ تَقُولُ لِلَّذِىٓ أَنْعَمَ ٱللَّهُ عَلَيْهِ وَأَنْعَمْتَ عَلَيْهِ أَمْسِكْ عَلَيْكَ زَوْجَكَ وَٱتَّقِ ٱللَّهَ وَتُخْفِى فِى نَفْسِكَ مَا ٱللَّهُ مُبْدِيهِ وَتَخْشَى ٱلنَّاسَ وَٱللَّهُ أَحَقُّ أَن تَخْشَىٰهُ ۖ فَلَمَّا قَضَىٰ زَيْدٌ مِّنْهَا وَطَرًا زَوَّجْنَـٰكَهَا لِكَىْ لَا يَكُونَ عَلَى ٱلْمُؤْمِنِينَ حَرَجٌ فِىٓ أَزْوَٰجِ أَدْعِيَآئِهِمْ إِذَا قَضَوْا۟ مِنْهُنَّ وَطَرًا ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا",
     "textSimple": "وإذ تقول للذىٓ أنعم ٱلله عليه وأنعمت عليه أمسك عليك زوجك وٱتق ٱلله وتخفى فى نفسك ما ٱلله مبديه وتخشى ٱلناس وٱلله أحق أن تخشىه  فلما قضى زيد منها وطرا زوجنـكها لكى لا يكون على ٱلمؤمنين حرج فىٓ أزوج أدعيآئهم إذا قضوا منهن وطرا  وكان أمر ٱلله مفعولا",
     "transliteration": "wa-idh taqūlu lilladhī anʿama l-lahu ʿalayhi wa-anʿamta ʿalayhi amsik ʿalayka zawjaka wa-ittaqi l-laha watukh'fī fī nafsika mā l-lahu mub'dīhi watakhshā l-nāsa wal-lahu aḥaqqu an takhshāhu falammā qaḍā zaydun min'hā waṭaran zawwajnākahā likay lā yakūna ʿalā l-mu'minīna ḥarajun fī azwāji adʿiyāihim idhā qaḍaw min'hunna waṭaran wakāna amru l-lahi mafʿūlan",
-    "translation": "",
+    "translation": "And [remember, O Muḥammad], when you said to the one on whom Allāh bestowed favor and you bestowed favor, \"Keep your wife and fear Allāh,\" while you concealed within yourself that which Allāh is to disclose. And you feared the people, while Allāh has more right that you fear Him. So when Zayd had no longer any need for her, We married her to you in order that there not be upon the believers any discomfort [i.e., guilt] concerning the wives of their claimed [i.e., adopted] sons when they no longer have need of them. And ever is the command [i.e., decree] of Allāh accomplished.",
     "words": [
       {
         "id": "al-ahzab-37-1",
@@ -5297,7 +5333,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 47
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Souviens-toi, Muhammad) quand tu disais à celui qu’Allah a comblé de Ses faveurs, et que tu as aussi comblé des tiennes : « Garde auprès de toi ton épouse et crains Allah ! » Tu cachais alors en toi-même ce qu’Allah allait dévoiler. Tu craignais les hommes alors qu’Allah est plus digne que tu Le craignes. Lorsque Zeyd eut mis fin à tout rapport avec elle, Nous te la donnâmes comme épouse, afin que les croyants n’aient plus à s’embarrasser d’épouser les femmes de leurs fils adoptifs, une fois que ces derniers cessent tout rapport avec elles. L’arrêt d’Allah doit être ainsi accompli."
   },
   {
     "id": "al-ahzab-38",
@@ -5306,7 +5343,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًا مَّقْدُورًا",
     "textSimple": "ما كان على ٱلنبى من حرج فيما فرض ٱلله له  سنة ٱلله فى ٱلذين خلوا من قبل  وكان أمر ٱلله قدرا مقدورا",
     "transliteration": "mā kāna ʿalā l-nabiyi min ḥarajin fīmā faraḍa l-lahu lahu sunnata l-lahi fī alladhīna khalaw min qablu wakāna amru l-lahi qadaran maqdūran",
-    "translation": "",
+    "translation": "There is not to be upon the Prophet any discomfort concerning that which Allāh has imposed upon him. [This is] the established way of Allāh with those [prophets] who have passed on before. And ever is the command of Allāh a destiny decreed.",
     "words": [
       {
         "id": "al-ahzab-38-1",
@@ -5463,7 +5500,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’est aucun reproche à faire au Prophète en ce qu’Allah lui a prescrit selon la règle divine établie depuis toujours pour ceux qui ont vécu par le passé. L’ordre d’Allah est un arrêt inéluctable."
   },
   {
     "id": "al-ahzab-39",
@@ -5472,7 +5510,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِينَ يُبَلِّغُونَ رِسَـٰلَـٰتِ ٱللَّهِ وَيَخْشَوْنَهُۥ وَلَا يَخْشَوْنَ أَحَدًا إِلَّا ٱللَّهَ ۗ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
     "textSimple": "ٱلذين يبلغون رسـلـت ٱلله ويخشونه ولا يخشون أحدا إلا ٱلله  وكفى بٱلله حسيبا",
     "transliteration": "alladhīna yuballighūna risālāti l-lahi wayakhshawnahu walā yakhshawna aḥadan illā l-laha wakafā bil-lahi ḥasīban",
-    "translation": "",
+    "translation": "[Allāh praises] those who convey the messages of Allāh and fear Him and do not fear anyone but Allāh. And sufficient is Allāh as Accountant.",
     "words": [
       {
         "id": "al-ahzab-39-1",
@@ -5566,7 +5604,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui transmettaient les messages d’Allah, craignaient Allah et ne craignaient nul autre que Lui. Allah suffit pour dresser les comptes."
   },
   {
     "id": "al-ahzab-40",
@@ -5575,7 +5614,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍ مِّن رِّجَالِكُمْ وَلَـٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّـۧنَ ۗ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
     "textSimple": "ما كان محمد أبآ أحد من رجالكم ولـكن رسول ٱلله وخاتم ٱلنبيـن  وكان ٱلله بكل شىء عليما",
     "transliteration": "mā kāna muḥammadun abā aḥadin min rijālikum walākin rasūla l-lahi wakhātama l-nabiyīna wakāna l-lahu bikulli shayin ʿalīman",
-    "translation": "",
+    "translation": "Muḥammad is not the father of [any] one of your men, but [he is] the Messenger of Allāh and seal [i.e., last] of the prophets. And ever is Allāh, of all things, Knowing.",
     "words": [
       {
         "id": "al-ahzab-40-1",
@@ -5697,7 +5736,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 16
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Muhammad n’est le père d’aucun homme parmi vous, mais (il est) le Messager d’Allah et le Sceau des Prophètes. Allah est de Toute chose Omniscient."
   },
   {
     "id": "al-ahzab-41",
@@ -5706,7 +5746,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ ٱللَّهَ ذِكْرًا كَثِيرًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱذكروا ٱلله ذكرا كثيرا",
     "transliteration": "yāayyuhā alladhīna āmanū udh'kurū l-laha dhik'ran kathīran",
-    "translation": "",
+    "translation": "O you who have believed, remember Allāh with much remembrance",
     "words": [
       {
         "id": "al-ahzab-41-1",
@@ -5758,7 +5798,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Évoquez Allah fréquemment !"
   },
   {
     "id": "al-ahzab-42",
@@ -5767,7 +5808,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا",
     "textSimple": "وسبحوه بكرة وأصيلا",
     "transliteration": "wasabbiḥūhu buk'ratan wa-aṣīlan",
-    "translation": "",
+    "translation": "And exalt Him morning and afternoon.",
     "words": [
       {
         "id": "al-ahzab-42-1",
@@ -5791,7 +5832,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 2
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Rendez-Lui gloire, matin et soir !"
   },
   {
     "id": "al-ahzab-43",
@@ -5800,7 +5842,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَـٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًا",
     "textSimple": "هو ٱلذى يصلى عليكم وملـٓئكته ليخرجكم من ٱلظلمـت إلى ٱلنور  وكان بٱلمؤمنين رحيما",
     "transliteration": "huwa alladhī yuṣallī ʿalaykum wamalāikatuhu liyukh'rijakum mina l-ẓulumāti ilā l-nūri wakāna bil-mu'minīna raḥīman",
-    "translation": "",
+    "translation": "It is He who confers blessing upon you, and His angels [ask Him to do so] that He may bring you out from darknesses into the light. And ever is He, to the believers, Merciful.",
     "words": [
       {
         "id": "al-ahzab-43-1",
@@ -5894,7 +5936,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui répand sur vous Ses bénédictions, ainsi que Ses Anges, pour vous faire sortir des ténèbres vers la lumière. Et Il est, envers les croyants, Tout Miséricordieux."
   },
   {
     "id": "al-ahzab-44",
@@ -5903,7 +5946,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُۥ سَلَـٰمٌ ۚ وَأَعَدَّ لَهُمْ أَجْرًا كَرِيمًا",
     "textSimple": "تحيتهم يوم يلقونه سلـم  وأعد لهم أجرا كريما",
     "transliteration": "taḥiyyatuhum yawma yalqawnahu salāmun wa-aʿadda lahum ajran karīman",
-    "translation": "",
+    "translation": "Their greeting the Day they meet Him will be, \"Peace.\" And He has prepared for them a noble reward.",
     "words": [
       {
         "id": "al-ahzab-44-1",
@@ -5962,7 +6005,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "La salutation qui leur sera adressée le jour où ils Le rencontreront sera « Paix ! (Salâm) ». Et Il leur a préparé une large récompense."
   },
   {
     "id": "al-ahzab-45",
@@ -5971,7 +6015,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَرْسَلْنَـٰكَ شَـٰهِدًا وَمُبَشِّرًا وَنَذِيرًا",
     "textSimple": "يـٓأيها ٱلنبى إنآ أرسلنـك شـهدا ومبشرا ونذيرا",
     "transliteration": "yāayyuhā l-nabiyu innā arsalnāka shāhidan wamubashiran wanadhīran",
-    "translation": "",
+    "translation": "O Prophet, indeed We have sent you as a witness and a bringer of good tidings and a warner",
     "words": [
       {
         "id": "al-ahzab-45-1",
@@ -6023,7 +6067,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Nous t’avons envoyé en témoin, en annonciateur et en avertisseur,"
   },
   {
     "id": "al-ahzab-46",
@@ -6032,7 +6077,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَدَاعِيًا إِلَى ٱللَّهِ بِإِذْنِهِۦ وَسِرَاجًا مُّنِيرًا",
     "textSimple": "وداعيا إلى ٱلله بإذنه وسراجا منيرا",
     "transliteration": "wadāʿiyan ilā l-lahi bi-idh'nihi wasirājan munīran",
-    "translation": "",
+    "translation": "And one who invites to Allāh, by His permission, and an illuminating lamp.",
     "words": [
       {
         "id": "al-ahzab-46-1",
@@ -6077,7 +6122,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "pour appeler à Allah avec Sa permission, et pour (éclairer) en flambeau lumineux."
   },
   {
     "id": "al-ahzab-47",
@@ -6086,7 +6132,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَبَشِّرِ ٱلْمُؤْمِنِينَ بِأَنَّ لَهُم مِّنَ ٱللَّهِ فَضْلًا كَبِيرًا",
     "textSimple": "وبشر ٱلمؤمنين بأن لهم من ٱلله فضلا كبيرا",
     "transliteration": "wabashiri l-mu'minīna bi-anna lahum mina l-lahi faḍlan kabīran",
-    "translation": "",
+    "translation": "And give good tidings to the believers that they will have from Allāh great bounty.",
     "words": [
       {
         "id": "al-ahzab-47-1",
@@ -6145,7 +6191,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Annonce l’heureuse nouvelle aux croyants qu’ils auront d’Allah une grande faveur."
   },
   {
     "id": "al-ahzab-48",
@@ -6154,7 +6201,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَلَا تُطِعِ ٱلْكَـٰفِرِينَ وَٱلْمُنَـٰفِقِينَ وَدَعْ أَذَىٰهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
     "textSimple": "ولا تطع ٱلكـفرين وٱلمنـفقين ودع أذىهم وتوكل على ٱلله  وكفى بٱلله وكيلا",
     "transliteration": "walā tuṭiʿi l-kāfirīna wal-munāfiqīna wadaʿ adhāhum watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan",
-    "translation": "",
+    "translation": "And do not obey the disbelievers and the hypocrites and disregard their annoyance, and rely upon Allāh. And sufficient is Allāh as Disposer of affairs.",
     "words": [
       {
         "id": "al-ahzab-48-1",
@@ -6241,7 +6288,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "N’obéis pas aux mécréants et aux hypocrites ! Ne fais pas grand cas de leurs méfaits ! Confie-toi à Allah ! Qu’Allah te suffise en parfait protecteur."
   },
   {
     "id": "al-ahzab-49",
@@ -6250,7 +6298,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَكَحْتُمُ ٱلْمُؤْمِنَـٰتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا ۖ فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحًا جَمِيلًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا نكحتم ٱلمؤمنـت ثم طلقتموهن من قبل أن تمسوهن فما لكم عليهن من عدة تعتدونها  فمتعوهن وسرحوهن سراحا جميلا",
     "transliteration": "yāayyuhā alladhīna āmanū idhā nakaḥtumu l-mu'mināti thumma ṭallaqtumūhunna min qabli an tamassūhunna famā lakum ʿalayhinna min ʿiddatin taʿtaddūnahā famattiʿūhunna wasarriḥūhunna sarāḥan jamīlan",
-    "translation": "",
+    "translation": "O you who have believed, when you marry believing women and then divorce them before you have touched them [i.e., consummated the marriage], then there is not for you any waiting period to count concerning them. So provide for them and give them a gracious release.",
     "words": [
       {
         "id": "al-ahzab-49-1",
@@ -6407,7 +6455,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 21
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Quand vous épousez des croyantes puis divorcez d’avec elles avant d’avoir consommé le mariage, vous n’avez aucune période de viduité (‘idda) à leur imposer. Offrez-leur en jouissance quelque bien compensatoire et libérez-les d’une bien belle manière."
   },
   {
     "id": "al-ahzab-50",
@@ -6416,7 +6465,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّـٰتِىٓ ءَاتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّـٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَـٰلَـٰتِكَ ٱلَّـٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَـٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": "يـٓأيها ٱلنبى إنآ أحللنا لك أزوجك ٱلـتىٓ ءاتيت أجورهن وما ملكت يمينك ممآ أفآء ٱلله عليك وبنات عمك وبنات عمـتك وبنات خالك وبنات خـلـتك ٱلـتى هاجرن معك وٱمرأة مؤمنة إن وهبت نفسها للنبى إن أراد ٱلنبى أن يستنكحها خالصة لك من دون ٱلمؤمنين  قد علمنا ما فرضنا عليهم فىٓ أزوجهم وما ملكت أيمـنهم لكيلا يكون عليك حرج  وكان ٱلله غفورا رحيما",
     "transliteration": "yāayyuhā l-nabiyu innā aḥlalnā laka azwājaka allātī ātayta ujūrahunna wamā malakat yamīnuka mimmā afāa l-lahu ʿalayka wabanāti ʿammika wabanāti ʿammātika wabanāti khālika wabanāti khālātika allātī hājarna maʿaka wa-im'ra-atan mu'minatan in wahabat nafsahā lilnnabiyyi in arāda l-nabiyu an yastankiḥahā khāliṣatan laka min dūni l-mu'minīna qad ʿalim'nā mā faraḍnā ʿalayhim fī azwājihim wamā malakat aymānuhum likaylā yakūna ʿalayka ḥarajun wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "O Prophet, indeed We have made lawful to you your wives to whom you have given their due compensation and those your right hand possesses from what Allāh has returned to you [of captives] and the daughters of your paternal uncles and the daughters of your paternal aunts and the daughters of your maternal uncles and the daughters of your maternal aunts who emigrated with you and a believing woman if she gives herself to the Prophet [and] if the Prophet wishes to marry her; [this is] only for you, excluding the [other] believers. We certainly know what We have made obligatory upon them concerning their wives and those their right hands possess, [but this is for you] in order that there will be upon you no discomfort [i.e., difficulty]. And ever is Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "al-ahzab-50-1",
@@ -6846,7 +6895,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 60
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Nous t’avons rendu licites tes épouses que tu as dotées d’un mahr, tes esclaves (ou captives) que tu possèdes de droit et qu’Allah t’a accordées, les filles de ton oncle paternel, les filles de tes tantes paternelles, les filles de ton oncle maternel et les filles de tes tantes maternelles parmi celles qui avaient émigré en ta compagnie, et toute femme croyante qui s’offre en mariage au Prophète, à condition que le Prophète daigne la prendre pour épouse. C’est là une faveur qui t’est destinée exclusivement et en dehors de tous les croyants. Nous savons ainsi ce que Nous leur avons imposé au sujet de leurs épouses et de celles qu’ils possèdent de droit, afin qu’il ne te soit fait aucun grief. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-ahzab-51",
@@ -6855,7 +6905,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "۞ تُرْجِى مَن تَشَآءُ مِنْهُنَّ وَتُـْٔوِىٓ إِلَيْكَ مَن تَشَآءُ ۖ وَمَنِ ٱبْتَغَيْتَ مِمَّنْ عَزَلْتَ فَلَا جُنَاحَ عَلَيْكَ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن تَقَرَّ أَعْيُنُهُنَّ وَلَا يَحْزَنَّ وَيَرْضَيْنَ بِمَآ ءَاتَيْتَهُنَّ كُلُّهُنَّ ۚ وَٱللَّهُ يَعْلَمُ مَا فِى قُلُوبِكُمْ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَلِيمًا",
     "textSimple": " ترجى من تشآء منهن وتـٔوىٓ إليك من تشآء  ومن ٱبتغيت ممن عزلت فلا جناح عليك  ذلك أدنىٓ أن تقر أعينهن ولا يحزن ويرضين بمآ ءاتيتهن كلهن  وٱلله يعلم ما فى قلوبكم  وكان ٱلله عليما حليما",
     "transliteration": "tur'jī man tashāu min'hunna watu'wī ilayka man tashāu wamani ib'taghayta mimman ʿazalta falā junāḥa ʿalayka dhālika adnā an taqarra aʿyunuhunna walā yaḥzanna wayarḍayna bimā ātaytahunna kulluhunna wal-lahu yaʿlamu mā fī qulūbikum wakāna l-lahu ʿalīman ḥalīman",
-    "translation": "",
+    "translation": "You, [O Muḥammad], may put aside whom you will of them or take to yourself whom you will. And any that you desire of those [wives] from whom you had [temporarily] separated - there is no blame upon you [in returning her]. That is more suitable that they should be content and not grieve and that they should be satisfied with what you have given them - all of them. And Allāh knows what is in your hearts. And ever is Allāh Knowing and Forbearing.",
     "words": [
       {
         "id": "al-ahzab-51-1",
@@ -7103,7 +7153,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 34
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Tu pourras faire attendre qui tu voudras parmi elles, et tu en retiendras à tes côtés qui tu voudras. Tu pourras, sans encourir aucun grief, en reprendre une parmi celles dont tu t’étais auparavant séparé. Cela est plus à même de les réjouir, de leur faire oublier leur chagrin et de les satisfaire de ce que tu leur as accordé à toutes. Allah Sait ce que recèlent vos cœurs. Allah est Omniscient et Longanime."
   },
   {
     "id": "al-ahzab-52",
@@ -7112,7 +7163,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَحِلُّ لَكَ ٱلنِّسَآءُ مِنۢ بَعْدُ وَلَآ أَن تَبَدَّلَ بِهِنَّ مِنْ أَزْوَٰجٍ وَلَوْ أَعْجَبَكَ حُسْنُهُنَّ إِلَّا مَا مَلَكَتْ يَمِينُكَ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ رَّقِيبًا",
     "textSimple": "لا يحل لك ٱلنسآء من بعد ولآ أن تبدل بهن من أزوج ولو أعجبك حسنهن إلا ما ملكت يمينك  وكان ٱلله على كل شىء رقيبا",
     "transliteration": "lā yaḥillu laka l-nisāu min baʿdu walā an tabaddala bihinna min azwājin walaw aʿjabaka ḥus'nuhunna illā mā malakat yamīnuka wakāna l-lahu ʿalā kulli shayin raqīban",
-    "translation": "",
+    "translation": "Not lawful to you, [O Muḥammad], are [any additional] women after [this], nor [is it] for you to exchange them for [other] wives, even if their beauty were to please you, except what your right hand possesses. And ever is Allāh, over all things, an Observer.",
     "words": [
       {
         "id": "al-ahzab-52-1",
@@ -7290,7 +7341,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 24
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il ne t’est plus licite d’épouser d’autres femmes, ni d’en changer, même si tu es attiré par leur beauté, hormis celles que tu possèdes de droit. Allah Veille sur Toute chose."
   },
   {
     "id": "al-ahzab-53",
@@ -7299,7 +7351,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَـٰظِرِينَ إِنَىٰهُ وَلَـٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ لِحَدِيثٍ ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ ۖ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَـٰعًا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تدخلوا بيوت ٱلنبى إلآ أن يؤذن لكم إلى طعام غير نـظرين إنىه ولـكن إذا دعيتم فٱدخلوا فإذا طعمتم فٱنتشروا ولا مستـٔنسين لحديث  إن ذلكم كان يؤذى ٱلنبى فيستحى منكم  وٱلله لا يستحى من ٱلحق  وإذا سألتموهن متـعا فسـٔلوهن من ورآء حجاب  ذلكم أطهر لقلوبكم وقلوبهن  وما كان لكم أن تؤذوا رسول ٱلله ولآ أن تنكحوٓا أزوجه من بعدهٓ أبدا  إن ذلكم كان عند ٱلله عظيما",
     "transliteration": "yāayyuhā alladhīna āmanū lā tadkhulū buyūta l-nabiyi illā an yu'dhana lakum ilā ṭaʿāmin ghayra nāẓirīna ināhu walākin idhā duʿītum fa-ud'khulū fa-idhā ṭaʿim'tum fa-intashirū walā mus'tanisīna liḥadīthin inna dhālikum kāna yu'dhī l-nabiya fayastaḥyī minkum wal-lahu lā yastaḥyī mina l-ḥaqi wa-idhā sa-altumūhunna matāʿan fasalūhunna min warāi ḥijābin dhālikum aṭharu liqulūbikum waqulūbihinna wamā kāna lakum an tu'dhū rasūla l-lahi walā an tankiḥū azwājahu min baʿdihi abadan inna dhālikum kāna ʿinda l-lahi ʿaẓīman",
-    "translation": "",
+    "translation": "O you who have believed, do not enter the houses of the Prophet except when you are permitted for a meal, without awaiting its readiness. But when you are invited, then enter; and when you have eaten, disperse without seeking to remain for conversation. Indeed, that [behavior] was troubling the Prophet, and he is shy of [dismissing] you. But Allāh is not shy of the truth. And when you ask [his wives] for something, ask them from behind a partition. That is purer for your hearts and their hearts. And it is not [conceivable or lawful] for you to harm the Messenger of Allāh or to marry his wives after him, ever. Indeed, that would be in the sight of Allāh an enormity.",
     "words": [
       {
         "id": "al-ahzab-53-1",
@@ -7785,7 +7837,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 68
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! N’entrez dans les maisons du Prophète que si vous êtes conviés à un repas et sans être là à attendre que celui-ci soit prêt. Mais quand vous êtes invités, entrez ; et une fois que vous avez mangé, dispersez-vous en évitant de prendre vos aises pour tenir conversation, car cela contrarie le Prophète qui a honte (de vous l’avouer.) Allah, Lui, n’a pas honte de (dire) la vérité. Si vous leur demandez (aux épouses du Prophète) quelque objet, faites-le derrière un rideau, cela est plus pur pour vos cœurs et pour les leurs. Vous n’avez pas à faire de la peine au Messager d’Allah, pas plus que vous ne devez épouser jamais ses femmes après lui. Car, pour Allah, il s’agit là d’un péché d’une énorme gravité."
   },
   {
     "id": "al-ahzab-54",
@@ -7794,7 +7847,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِن تُبْدُوا۟ شَيْـًٔا أَوْ تُخْفُوهُ فَإِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًا",
     "textSimple": "إن تبدوا شيـٔا أو تخفوه فإن ٱلله كان بكل شىء عليما",
     "transliteration": "in tub'dū shayan aw tukh'fūhu fa-inna l-laha kāna bikulli shayin ʿalīman",
-    "translation": "",
+    "translation": "Whether you reveal a thing or conceal it, indeed Allāh is ever, of all things, Knowing.",
     "words": [
       {
         "id": "al-ahzab-54-1",
@@ -7874,7 +7927,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que vous révéliez quelque chose au grand jour ou que vous le gardiez secret, Allah Sait parfaitement Toute chose."
   },
   {
     "id": "al-ahzab-55",
@@ -7883,7 +7937,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "لَّا جُنَاحَ عَلَيْهِنَّ فِىٓ ءَابَآئِهِنَّ وَلَآ أَبْنَآئِهِنَّ وَلَآ إِخْوَٰنِهِنَّ وَلَآ أَبْنَآءِ إِخْوَٰنِهِنَّ وَلَآ أَبْنَآءِ أَخَوَٰتِهِنَّ وَلَا نِسَآئِهِنَّ وَلَا مَا مَلَكَتْ أَيْمَـٰنُهُنَّ ۗ وَٱتَّقِينَ ٱللَّهَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدًا",
     "textSimple": "لا جناح عليهن فىٓ ءابآئهن ولآ أبنآئهن ولآ إخونهن ولآ أبنآء إخونهن ولآ أبنآء أخوتهن ولا نسآئهن ولا ما ملكت أيمـنهن  وٱتقين ٱلله  إن ٱلله كان على كل شىء شهيدا",
     "transliteration": "lā junāḥa ʿalayhinna fī ābāihinna walā abnāihinna walā ikh'wānihinna walā abnāi ikh'wānihinna walā abnāi akhawātihinna walā nisāihinna walā mā malakat aymānuhunna wa-ittaqīna l-laha inna l-laha kāna ʿalā kulli shayin shahīdan",
-    "translation": "",
+    "translation": "There is no blame upon them [i.e., women] concerning their fathers or their sons or their brothers or their brothers' sons or their sisters' sons or their women or those their right hands possess [i.e., slaves]. And fear Allāh. Indeed Allāh is ever, over all things, Witness.",
     "words": [
       {
         "id": "al-ahzab-55-1",
@@ -8096,7 +8150,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 29
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il n’y a aucun grief à leur faire (si les femmes se montrent sans voile devant) leurs pères, leurs fils, leurs frères, les fils de leurs frères, les fils de leurs sœurs, les femmes (musulmanes) et celles qu’elles possèdent de droit. Craignez Allah (ô femmes), car Allah est de Toute chose Témoin !"
   },
   {
     "id": "al-ahzab-56",
@@ -8105,7 +8160,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا",
     "textSimple": "إن ٱلله وملـٓئكته يصلون على ٱلنبى  يـٓأيها ٱلذين ءامنوا صلوا عليه وسلموا تسليما",
     "transliteration": "inna l-laha wamalāikatahu yuṣallūna ʿalā l-nabiyi yāayyuhā alladhīna āmanū ṣallū ʿalayhi wasallimū taslīman",
-    "translation": "",
+    "translation": "Indeed, Allāh confers blessing upon the Prophet, and His angels [ask Him to do so]. O you who have believed, ask [Allāh to confer] blessing upon him and ask [Allāh to grant him] peace.",
     "words": [
       {
         "id": "al-ahzab-56-1",
@@ -8199,7 +8254,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah et Ses Anges répandent les bénédictions sur le Prophète ; ô vous qui avez cru, répandez donc sur lui bénédiction et salut !"
   },
   {
     "id": "al-ahzab-57",
@@ -8208,7 +8264,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يُؤْذُونَ ٱللَّهَ وَرَسُولَهُۥ لَعَنَهُمُ ٱللَّهُ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَأَعَدَّ لَهُمْ عَذَابًا مُّهِينًا",
     "textSimple": "إن ٱلذين يؤذون ٱلله ورسوله لعنهم ٱلله فى ٱلدنيا وٱلـٔاخرة وأعد لهم عذابا مهينا",
     "transliteration": "inna alladhīna yu'dhūna l-laha warasūlahu laʿanahumu l-lahu fī l-dun'yā wal-ākhirati wa-aʿadda lahum ʿadhāban muhīnan",
-    "translation": "",
+    "translation": "Indeed, those who abuse Allāh and His Messenger - Allāh has cursed them in this world and the Hereafter and prepared for them a humiliating punishment.",
     "words": [
       {
         "id": "al-ahzab-57-1",
@@ -8309,7 +8365,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui offensent Allah et Son Messager, Allah les maudira en ce bas monde et dans l’autre. Et Il leur a préparé un supplice humiliant."
   },
   {
     "id": "al-ahzab-58",
@@ -8318,7 +8375,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَٱلَّذِينَ يُؤْذُونَ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ بِغَيْرِ مَا ٱكْتَسَبُوا۟ فَقَدِ ٱحْتَمَلُوا۟ بُهْتَـٰنًا وَإِثْمًا مُّبِينًا",
     "textSimple": "وٱلذين يؤذون ٱلمؤمنين وٱلمؤمنـت بغير ما ٱكتسبوا فقد ٱحتملوا بهتـنا وإثما مبينا",
     "transliteration": "wa-alladhīna yu'dhūna l-mu'minīna wal-mu'mināti bighayri mā ik'tasabū faqadi iḥ'tamalū buh'tānan wa-ith'man mubīnan",
-    "translation": "",
+    "translation": "And those who harm believing men and believing women for [something] other than what they have earned [i.e., deserved] have certainly borne upon themselves a slander and manifest sin.",
     "words": [
       {
         "id": "al-ahzab-58-1",
@@ -8405,7 +8462,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et ceux qui offensent les croyants et les croyantes pour ce qu’ils n’ont pas commis assument une ignoble calomnie et un péché manifeste."
   },
   {
     "id": "al-ahzab-59",
@@ -8414,7 +8472,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَـٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
     "textSimple": "يـٓأيها ٱلنبى قل لأزوجك وبناتك ونسآء ٱلمؤمنين يدنين عليهن من جلـبيبهن  ذلك أدنىٓ أن يعرفن فلا يؤذين  وكان ٱلله غفورا رحيما",
     "transliteration": "yāayyuhā l-nabiyu qul li-azwājika wabanātika wanisāi l-mu'minīna yud'nīna ʿalayhinna min jalābībihinna dhālika adnā an yuʿ'rafna falā yu'dhayna wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "O Prophet, tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments. That is more suitable that they will be known and not be abused. And ever is Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "al-ahzab-59-1",
@@ -8564,7 +8622,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Dis à tes épouses, à tes filles et aux femmes des croyants, de ramener sur elles une partie de leurs mantes. Cela, afin qu’elles puissent être reconnues et que leur soit évité d’être importunées. Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-ahzab-60",
@@ -8573,7 +8632,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "۞ لَّئِن لَّمْ يَنتَهِ ٱلْمُنَـٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْمُرْجِفُونَ فِى ٱلْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ ثُمَّ لَا يُجَاوِرُونَكَ فِيهَآ إِلَّا قَلِيلًا",
     "textSimple": " لئن لم ينته ٱلمنـفقون وٱلذين فى قلوبهم مرض وٱلمرجفون فى ٱلمدينة لنغرينك بهم ثم لا يجاورونك فيهآ إلا قليلا",
     "transliteration": "la-in lam yantahi l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun wal-mur'jifūna fī l-madīnati lanugh'riyannaka bihim thumma lā yujāwirūnaka fīhā illā qalīlan",
-    "translation": "",
+    "translation": "If the hypocrites and those in whose hearts is disease and those who spread rumors in al-Madīnah do not cease, We will surely incite you against them; then they will not remain your neighbors therein except for a little,",
     "words": [
       {
         "id": "al-ahzab-60-1",
@@ -8709,7 +8768,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si les hypocrites, ceux dont les cœurs sont malades, et les colporteurs de fausses nouvelles à Médine, ne mettent pas fin à leurs agissements, Nous te pousserons à sévir contre eux, et ils ne resteront plus guère en ton voisinage."
   },
   {
     "id": "al-ahzab-61",
@@ -8718,7 +8778,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "مَّلْعُونِينَ ۖ أَيْنَمَا ثُقِفُوٓا۟ أُخِذُوا۟ وَقُتِّلُوا۟ تَقْتِيلًا",
     "textSimple": "ملعونين  أينما ثقفوٓا أخذوا وقتلوا تقتيلا",
     "transliteration": "malʿūnīna aynamā thuqifū ukhidhū waquttilū taqtīlan",
-    "translation": "",
+    "translation": "Accursed wherever they are found, [being] seized and massacred completely.",
     "words": [
       {
         "id": "al-ahzab-61-1",
@@ -8763,7 +8823,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 5
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Maudits ils sont, et ils seront saisis où qu’ils se trouvent pour être tués sans aucune pitié."
   },
   {
     "id": "al-ahzab-62",
@@ -8772,7 +8833,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
     "textSimple": "سنة ٱلله فى ٱلذين خلوا من قبل  ولن تجد لسنة ٱلله تبديلا",
     "transliteration": "sunnata l-lahi fī alladhīna khalaw min qablu walan tajida lisunnati l-lahi tabdīlan",
-    "translation": "",
+    "translation": "[This is] the established way of Allāh with those who passed on before; and you will not find in the way of Allāh any change.",
     "words": [
       {
         "id": "al-ahzab-62-1",
@@ -8859,7 +8920,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Telle est la tradition d’Allah établie depuis toujours pour ceux qui ont vécu par le passé, et tu ne saurais trouver changement à la règle d’Allah."
   },
   {
     "id": "al-ahzab-63",
@@ -8868,7 +8930,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَسْـَٔلُكَ ٱلنَّاسُ عَنِ ٱلسَّاعَةِ ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ ۚ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ تَكُونُ قَرِيبًا",
     "textSimple": "يسـٔلك ٱلناس عن ٱلساعة  قل إنما علمها عند ٱلله  وما يدريك لعل ٱلساعة تكون قريبا",
     "transliteration": "yasaluka l-nāsu ʿani l-sāʿati qul innamā ʿil'muhā ʿinda l-lahi wamā yud'rīka laʿalla l-sāʿata takūnu qarīban",
-    "translation": "",
+    "translation": "People ask you concerning the Hour. Say, \"Knowledge of it is only with Allāh. And what may make you perceive? Perhaps the Hour is near.\"",
     "words": [
       {
         "id": "al-ahzab-63-1",
@@ -8976,7 +9038,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Les hommes t’interrogent au sujet de l’Heure. Dis : « Sa science ne relève que d’Allah. » Qu’est-ce que tu en sais toi-même ? L’Heure est peut-être toute proche !"
   },
   {
     "id": "al-ahzab-64",
@@ -8985,7 +9048,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱللَّهَ لَعَنَ ٱلْكَـٰفِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا",
     "textSimple": "إن ٱلله لعن ٱلكـفرين وأعد لهم سعيرا",
     "transliteration": "inna l-laha laʿana l-kāfirīna wa-aʿadda lahum saʿīran",
-    "translation": "",
+    "translation": "Indeed, Allāh has cursed the disbelievers and prepared for them a Blaze.",
     "words": [
       {
         "id": "al-ahzab-64-1",
@@ -9037,7 +9100,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah a maudit les mécréants et leur a préparé une Fournaise,"
   },
   {
     "id": "al-ahzab-65",
@@ -9046,7 +9110,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ لَّا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا",
     "textSimple": "خـلدين فيهآ أبدا  لا يجدون وليا ولا نصيرا",
     "transliteration": "khālidīna fīhā abadan lā yajidūna waliyyan walā naṣīran",
-    "translation": "",
+    "translation": "Abiding therein forever, they will not find a protector or a helper.",
     "words": [
       {
         "id": "al-ahzab-65-1",
@@ -9105,7 +9169,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "où ils demeureront à tout jamais, sans trouver allié ni protecteur."
   },
   {
     "id": "al-ahzab-66",
@@ -9114,7 +9179,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَوْمَ تُقَلَّبُ وُجُوهُهُمْ فِى ٱلنَّارِ يَقُولُونَ يَـٰلَيْتَنَآ أَطَعْنَا ٱللَّهَ وَأَطَعْنَا ٱلرَّسُولَا۠",
     "textSimple": "يوم تقلب وجوههم فى ٱلنار يقولون يـليتنآ أطعنا ٱلله وأطعنا ٱلرسولا",
     "transliteration": "yawma tuqallabu wujūhuhum fī l-nāri yaqūlūna yālaytanā aṭaʿnā l-laha wa-aṭaʿnā l-rasūlā",
-    "translation": "",
+    "translation": "The Day their faces will be turned about in the Fire, they will say, \"How we wish we had obeyed Allāh and obeyed the Messenger.\"",
     "words": [
       {
         "id": "al-ahzab-66-1",
@@ -9194,7 +9259,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Le jour où dans le Feu leurs visages seront tournés et retournés, ils diront : « Si seulement nous avions obéi à Allah et obéi au Messager ! »"
   },
   {
     "id": "al-ahzab-67",
@@ -9203,7 +9269,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ رَبَّنَآ إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠",
     "textSimple": "وقالوا ربنآ إنآ أطعنا سادتنا وكبرآءنا فأضلونا ٱلسبيلا",
     "transliteration": "waqālū rabbanā innā aṭaʿnā sādatanā wakubarāanā fa-aḍallūnā l-sabīlā",
-    "translation": "",
+    "translation": "And they will say, \"Our Lord, indeed we obeyed our masters and our dignitaries, and they led us astray from the [right] way.",
     "words": [
       {
         "id": "al-ahzab-67-1",
@@ -9262,7 +9328,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront encore : « Seigneur, nous avons obéi à nos maîtres et à ceux qui étaient grands parmi nous, et ils nous ont fait perdre le chemin (droit)."
   },
   {
     "id": "al-ahzab-68",
@@ -9271,7 +9338,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَآ ءَاتِهِمْ ضِعْفَيْنِ مِنَ ٱلْعَذَابِ وَٱلْعَنْهُمْ لَعْنًا كَبِيرًا",
     "textSimple": "ربنآ ءاتهم ضعفين من ٱلعذاب وٱلعنهم لعنا كبيرا",
     "transliteration": "rabbanā ātihim ḍiʿ'fayni mina l-ʿadhābi wal-ʿanhum laʿnan kabīran",
-    "translation": "",
+    "translation": "Our Lord, give them double the punishment and curse them with a great curse.\"",
     "words": [
       {
         "id": "al-ahzab-68-1",
@@ -9330,7 +9397,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur, fais-leur subir le double du supplice, et maudis-les de la plus grande des malédictions ! »"
   },
   {
     "id": "al-ahzab-69",
@@ -9339,7 +9407,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَكُونُوا۟ كَٱلَّذِينَ ءَاذَوْا۟ مُوسَىٰ فَبَرَّأَهُ ٱللَّهُ مِمَّا قَالُوا۟ ۚ وَكَانَ عِندَ ٱللَّهِ وَجِيهًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تكونوا كٱلذين ءاذوا موسى فبرأه ٱلله مما قالوا  وكان عند ٱلله وجيها",
     "transliteration": "yāayyuhā alladhīna āmanū lā takūnū ka-alladhīna ādhaw mūsā fabarra-ahu l-lahu mimmā qālū wakāna ʿinda l-lahi wajīhan",
-    "translation": "",
+    "translation": "O you who have believed, be not like those who abused Moses; then Allāh cleared him of what they said. And he, in the sight of Allāh, was distinguished.",
     "words": [
       {
         "id": "al-ahzab-69-1",
@@ -9454,7 +9522,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 15
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne soyez pas comme ceux qui ont offensé Moïse ! Allah l’a innocenté de leurs allégations et il était auprès d’Allah tenu en très haute estime."
   },
   {
     "id": "al-ahzab-70",
@@ -9463,7 +9532,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَقُولُوا۟ قَوْلًا سَدِيدًا",
     "textSimple": "يـٓأيها ٱلذين ءامنوا ٱتقوا ٱلله وقولوا قولا سديدا",
     "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha waqūlū qawlan sadīdan",
-    "translation": "",
+    "translation": "O you who have believed, fear Allāh and speak words of appropriate justice.",
     "words": [
       {
         "id": "al-ahzab-70-1",
@@ -9522,7 +9591,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Craignez Allah ! Tenez des propos justes et droits !"
   },
   {
     "id": "al-ahzab-71",
@@ -9531,7 +9601,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "يُصْلِحْ لَكُمْ أَعْمَـٰلَكُمْ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ فَازَ فَوْزًا عَظِيمًا",
     "textSimple": "يصلح لكم أعمـلكم ويغفر لكم ذنوبكم  ومن يطع ٱلله ورسوله فقد فاز فوزا عظيما",
     "transliteration": "yuṣ'liḥ lakum aʿmālakum wayaghfir lakum dhunūbakum waman yuṭiʿi l-laha warasūlahu faqad fāza fawzan ʿaẓīman",
-    "translation": "",
+    "translation": "He will [then] amend for you your deeds and forgive you your sins. And whoever obeys Allāh and His Messenger has certainly attained a great attainment.",
     "words": [
       {
         "id": "al-ahzab-71-1",
@@ -9632,7 +9702,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Il rendra vos œuvres meilleures et vous pardonnera vos péchés. Quiconque obéit à Allah et à Son Messager atteindra à la plus grande des réussites."
   },
   {
     "id": "al-ahzab-72",
@@ -9641,7 +9712,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَـٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًا جَهُولًا",
     "textSimple": "إنا عرضنا ٱلأمانة على ٱلسمـوت وٱلأرض وٱلجبال فأبين أن يحملنها وأشفقن منها وحملها ٱلإنسـن  إنه كان ظلوما جهولا",
     "transliteration": "innā ʿaraḍnā l-amānata ʿalā l-samāwāti wal-arḍi wal-jibāli fa-abayna an yaḥmil'nahā wa-ashfaqna min'hā waḥamalahā l-insānu innahu kāna ẓalūman jahūlan",
-    "translation": "",
+    "translation": "Indeed, We offered the Trust to the heavens and the earth and the mountains, and they declined to bear it and feared it; but man [undertook to] bear it. Indeed, he was unjust and ignorant.",
     "words": [
       {
         "id": "al-ahzab-72-1",
@@ -9770,7 +9841,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons proposé aux cieux, à la terre et aux montagnes d’assumer la charge (du discernement entre le vrai et le faux), mais ils ont refusé de l’assumer et ont pris peur. L’homme l’a assumée, car il est grandement injuste et si ignorant."
   },
   {
     "id": "al-ahzab-73",
@@ -9779,7 +9851,7 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
     "textUthmani": "لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَـٰفِقِينَ وَٱلْمُنَـٰفِقَـٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَـٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًۢا",
     "textSimple": "ليعذب ٱلله ٱلمنـفقين وٱلمنـفقـت وٱلمشركين وٱلمشركـت ويتوب ٱلله على ٱلمؤمنين وٱلمؤمنـت  وكان ٱلله غفورا رحيما",
     "transliteration": "liyuʿadhiba l-lahu l-munāfiqīna wal-munāfiqāti wal-mush'rikīna wal-mush'rikāti wayatūba l-lahu ʿalā l-mu'minīna wal-mu'mināti wakāna l-lahu ghafūran raḥīman",
-    "translation": "",
+    "translation": "[It was] so that Allāh may punish the hypocrite men and hypocrite women and the men and women who associate others with Him and that Allāh may accept repentance from the believing men and believing women. And ever is Allāh Forgiving and Merciful.",
     "words": [
       {
         "id": "al-ahzab-73-1",
@@ -9887,7 +9959,8 @@ export const AL_AHZAB_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(Tout cela) afin qu’Allah soumette au supplice les hypocrites (qu’ils soient) hommes ou femmes et les associâtres (qu’ils soient) hommes ou femmes, et accepte le repentir des croyants et des croyantes. Allah est Absoluteur et Tout Miséricordieux."
   }
 ];
 

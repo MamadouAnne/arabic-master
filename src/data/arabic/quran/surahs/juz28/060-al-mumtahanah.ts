@@ -11,7 +11,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": " يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ عَدُوِّى وَعَدُوَّكُمْ أَوْلِيَآءَ تُلْقُونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَقَدْ كَفَرُوا۟ بِمَا جَآءَكُم مِّنَ ٱلْحَقِّ يُخْرِجُونَ ٱلرَّسُولَ وَإِيَّاكُمْ ۙ أَن تُؤْمِنُوا۟ بِٱللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَـٰدًا فِى سَبِيلِى وَٱبْتِغَآءَ مَرْضَاتِى ۚ تُسِرُّونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَأَنَا۠ أَعْلَمُ بِمَآ أَخْفَيْتُمْ وَمَآ أَعْلَنتُمْ ۚ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ",
     "textSimple": " يـٓأيها ٱلذين ءامنوا لا تتخذوا عدوى وعدوكم أوليآء تلقون إليهم بٱلمودة وقد كفروا بما جآءكم من ٱلحق يخرجون ٱلرسول وإياكم  أن تؤمنوا بٱلله ربكم إن كنتم خرجتم جهـدا فى سبيلى وٱبتغآء مرضاتى  تسرون إليهم بٱلمودة وأنا أعلم بمآ أخفيتم ومآ أعلنتم  ومن يفعله منكم فقد ضل سوآء ٱلسبيل",
     "transliteration": "yāayyuhā alladhīna āmanū lā tattakhidhū ʿaduwwī waʿaduwwakum awliyāa tul'qūna ilayhim bil-mawadati waqad kafarū bimā jāakum mina l-ḥaqi yukh'rijūna l-rasūla wa-iyyākum an tu'minū bil-lahi rabbikum in kuntum kharajtum jihādan fī sabīlī wa-ib'tighāa marḍātī tusirrūna ilayhim bil-mawadati wa-anā aʿlamu bimā akhfaytum wamā aʿlantum waman yafʿalhu minkum faqad ḍalla sawāa l-sabīli",
-    "translation": "",
+    "translation": "O you who have believed, do not take My enemies and your enemies as allies, extending to them affection while they have disbelieved in what came to you of the truth, having driven out the Prophet and yourselves [only] because you believe in Allāh, your Lord. If you have come out for jihād [i.e., fighting or striving] in My cause and seeking means to My approval, [take them not as friends]. You confide to them affection [i.e., instruction], but I am most knowing of what you have concealed and what you have declared. And whoever does it among you has certainly strayed from the soundness of the way.",
     "words": [
       {
         "id": "al-mumtahanah-1-1",
@@ -350,7 +350,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 47
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne faites pas de Mon ennemi et du vôtre des alliés, auxquels vous proposez votre amitié alors qu’ils ont mécru à la vérité qui vous est parvenue. Ils vous ont expulsés, le Messager et vous, parce que vous croyez en Allah, votre Seigneur. Si vous êtes sortis pour vraiment combattre dans Mon chemin et obtenir Mon agrément, leur montreriez-vous secrètement quelque affinité, alors que Je Connais ce que vous tenez caché et ce que vous révélez ? Quiconque parmi vous le fait s’égare du droit chemin."
   },
   {
     "id": "al-mumtahanah-2",
@@ -359,7 +360,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "إِن يَثْقَفُوكُمْ يَكُونُوا۟ لَكُمْ أَعْدَآءً وَيَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ وَأَلْسِنَتَهُم بِٱلسُّوٓءِ وَوَدُّوا۟ لَوْ تَكْفُرُونَ",
     "textSimple": "إن يثقفوكم يكونوا لكم أعدآء ويبسطوٓا إليكم أيديهم وألسنتهم بٱلسوٓء وودوا لو تكفرون",
     "transliteration": "in yathqafūkum yakūnū lakum aʿdāan wayabsuṭū ilaykum aydiyahum wa-alsinatahum bil-sūi wawaddū law takfurūna",
-    "translation": "",
+    "translation": "If they gain dominance over you, they would be [i.e., behave] to you as enemies and extend against you their hands and their tongues with evil, and they wish you would disbelieve.",
     "words": [
       {
         "id": "al-mumtahanah-2-1",
@@ -453,7 +454,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "S’ils (parviennent jamais) à prendre le dessus sur vous, ils vous seront des ennemis, lèveront les mains contre vous et feront usage de leurs langues pour vous faire du mal, souhaitant vous voir apostasier."
   },
   {
     "id": "al-mumtahanah-3",
@@ -462,7 +464,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَـٰدُكُمْ ۚ يَوْمَ ٱلْقِيَـٰمَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
     "textSimple": "لن تنفعكم أرحامكم ولآ أولـدكم  يوم ٱلقيـمة يفصل بينكم  وٱلله بما تعملون بصير",
     "transliteration": "lan tanfaʿakum arḥāmukum walā awlādukum yawma l-qiyāmati yafṣilu baynakum wal-lahu bimā taʿmalūna baṣīrun",
-    "translation": "",
+    "translation": "Never will your relatives or your children benefit you; the Day of Resurrection He will judge between you. And Allāh, of what you do, is Seeing.",
     "words": [
       {
         "id": "al-mumtahanah-3-1",
@@ -556,7 +558,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vos proches parents ne vous seront pas utiles, au Jour de la Résurrection, pas plus que ne vous le seront vos propres enfants. (Allah Seul, ce jour-là) vous départagera. Allah Voit tout ce que vous faites."
   },
   {
     "id": "al-mumtahanah-4",
@@ -565,7 +568,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِىٓ إِبْرَٰهِيمَ وَٱلَّذِينَ مَعَهُۥٓ إِذْ قَالُوا۟ لِقَوْمِهِمْ إِنَّا بُرَءَٰٓؤُا۟ مِنكُمْ وَمِمَّا تَعْبُدُونَ مِن دُونِ ٱللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ ٱلْعَدَٰوَةُ وَٱلْبَغْضَآءُ أَبَدًا حَتَّىٰ تُؤْمِنُوا۟ بِٱللَّهِ وَحْدَهُۥٓ إِلَّا قَوْلَ إِبْرَٰهِيمَ لِأَبِيهِ لَأَسْتَغْفِرَنَّ لَكَ وَمَآ أَمْلِكُ لَكَ مِنَ ٱللَّهِ مِن شَىْءٍ ۖ رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ",
     "textSimple": "قد كانت لكم أسوة حسنة فىٓ إبرهيم وٱلذين معهٓ إذ قالوا لقومهم إنا برءٓؤا منكم ومما تعبدون من دون ٱلله كفرنا بكم وبدا بيننا وبينكم ٱلعدوة وٱلبغضآء أبدا حتى تؤمنوا بٱلله وحدهٓ إلا قول إبرهيم لأبيه لأستغفرن لك ومآ أملك لك من ٱلله من شىء  ربنا عليك توكلنا وإليك أنبنا وإليك ٱلمصير",
     "transliteration": "qad kānat lakum us'watun ḥasanatun fī ib'rāhīma wa-alladhīna maʿahu idh qālū liqawmihim innā buraāu minkum wamimmā taʿbudūna min dūni l-lahi kafarnā bikum wabadā baynanā wabaynakumu l-ʿadāwatu wal-baghḍāu abadan ḥattā tu'minū bil-lahi waḥdahu illā qawla ib'rāhīma li-abīhi la-astaghfiranna laka wamā amliku laka mina l-lahi min shayin rabbanā ʿalayka tawakkalnā wa-ilayka anabnā wa-ilayka l-maṣīru",
-    "translation": "",
+    "translation": "There has already been for you an excellent pattern in Abraham and those with him, when they said to their people, \"Indeed, we are disassociated from you and from whatever you worship other than Allāh. We have denied you, and there has appeared between us and you animosity and hatred forever until you believe in Allāh alone\" - except for the saying of Abraham to his father, \"I will surely ask forgiveness for you, but I have not [power to do] for you anything against Allāh. Our Lord, upon You we have relied, and to You we have returned, and to You is the destination.",
     "words": [
       {
         "id": "al-mumtahanah-4-1",
@@ -932,7 +935,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 51
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous avez un exemple édifiant en Abraham et en ceux qui étaient avec lui, lorsqu’ils dirent à leur peuple : « Nous vous désavouons, vous et ce que vous adorez en dehors d’Allah. Nous vous renions. L’inimitié et la rancœur sont désormais et à tout jamais entre nous, tant que vous n’aurez pas cru exclusivement en Allah. » À l’exception de ce qu’avait dit Abrahm à son père : « J’implorerai en ta faveur le pardon (d’Allah), mais je ne pourrai rien faire pour toi contre (la sentence) d’Allah. Seigneur ! C’est à Toi que nous nous en remettons, c’est auprès de Toi que nous nous repentons, et c’est vers Toi que sera le devenir !"
   },
   {
     "id": "al-mumtahanah-5",
@@ -941,7 +945,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةً لِّلَّذِينَ كَفَرُوا۟ وَٱغْفِرْ لَنَا رَبَّنَآ ۖ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
     "textSimple": "ربنا لا تجعلنا فتنة للذين كفروا وٱغفر لنا ربنآ  إنك أنت ٱلعزيز ٱلحكيم",
     "transliteration": "rabbanā lā tajʿalnā fit'natan lilladhīna kafarū wa-igh'fir lanā rabbanā innaka anta l-ʿazīzu l-ḥakīmu",
-    "translation": "",
+    "translation": "Our Lord, make us not [objects of] torment for the disbelievers and forgive us, our Lord. Indeed, it is You who is the Exalted in Might, the Wise.\"",
     "words": [
       {
         "id": "al-mumtahanah-5-1",
@@ -1035,7 +1039,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Seigneur ! Ne fais pas de nous une tentation pour les mécréants ! Pardonne-nous, car Tu es le Tout- Puissant, le Sage ! »"
   },
   {
     "id": "al-mumtahanah-6",
@@ -1044,7 +1049,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "لَقَدْ كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْـَٔاخِرَ ۚ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
     "textSimple": "لقد كان لكم فيهم أسوة حسنة لمن كان يرجوا ٱلله وٱليوم ٱلـٔاخر  ومن يتول فإن ٱلله هو ٱلغنى ٱلحميد",
     "transliteration": "laqad kāna lakum fīhim us'watun ḥasanatun liman kāna yarjū l-laha wal-yawma l-ākhira waman yatawalla fa-inna l-laha huwa l-ghaniyu l-ḥamīdu",
-    "translation": "",
+    "translation": "There has certainly been for you in them an excellent pattern for anyone whose hope is in Allāh and the Last Day. And whoever turns away - then indeed, Allāh is the Free of need, the Praiseworthy.",
     "words": [
       {
         "id": "al-mumtahanah-6-1",
@@ -1180,7 +1185,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Vous avez en eux un excellent modèle pour celui qui espère en Allah et en le Jour Dernier. Quiconque, cependant, se détourne (doit savoir qu’) Allah est Celui Qui Se passe de Toute chose, le Digne de Toute Louange."
   },
   {
     "id": "al-mumtahanah-7",
@@ -1189,7 +1195,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "۞ عَسَى ٱللَّهُ أَن يَجْعَلَ بَيْنَكُمْ وَبَيْنَ ٱلَّذِينَ عَادَيْتُم مِّنْهُم مَّوَدَّةً ۚ وَٱللَّهُ قَدِيرٌ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
     "textSimple": " عسى ٱلله أن يجعل بينكم وبين ٱلذين عاديتم منهم مودة  وٱلله قدير  وٱلله غفور رحيم",
     "transliteration": "ʿasā l-lahu an yajʿala baynakum wabayna alladhīna ʿādaytum min'hum mawaddatan wal-lahu qadīrun wal-lahu ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "Perhaps Allāh will put, between you and those to whom you have been enemies among them, affection. And Allāh is competent, and Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-mumtahanah-7-1",
@@ -1297,7 +1303,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Peut-être qu’Allah établira (des liens) d’amitié entre vous et ceux qui, parmi eux, étaient vos ennemis. Allah est Omnipotent et Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-mumtahanah-8",
@@ -1306,7 +1313,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "لَّا يَنْهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمْ يُقَـٰتِلُوكُمْ فِى ٱلدِّينِ وَلَمْ يُخْرِجُوكُم مِّن دِيَـٰرِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوٓا۟ إِلَيْهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
     "textSimple": "لا ينهىكم ٱلله عن ٱلذين لم يقـتلوكم فى ٱلدين ولم يخرجوكم من ديـركم أن تبروهم وتقسطوٓا إليهم  إن ٱلله يحب ٱلمقسطين",
     "transliteration": "lā yanhākumu l-lahu ʿani alladhīna lam yuqātilūkum fī l-dīni walam yukh'rijūkum min diyārikum an tabarrūhum watuq'siṭū ilayhim inna l-laha yuḥibbu l-muq'siṭīna",
-    "translation": "",
+    "translation": "Allāh does not forbid you from those who do not fight you because of religion and do not expel you from your homes - from being righteous toward them and acting justly toward them. Indeed, Allāh loves those who act justly.",
     "words": [
       {
         "id": "al-mumtahanah-8-1",
@@ -1456,7 +1463,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah ne vous défend pas d’être bons et équitables envers ceux qui ne vous ont pas combattus à cause de votre religion, et qui ne vous ont pas chassés de vos maisons. Allah aime ceux qui sont équitables."
   },
   {
     "id": "al-mumtahanah-9",
@@ -1465,7 +1473,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّمَا يَنْهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ قَـٰتَلُوكُمْ فِى ٱلدِّينِ وَأَخْرَجُوكُم مِّن دِيَـٰرِكُمْ وَظَـٰهَرُوا۟ عَلَىٰٓ إِخْرَاجِكُمْ أَن تَوَلَّوْهُمْ ۚ وَمَن يَتَوَلَّهُمْ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
     "textSimple": "إنما ينهىكم ٱلله عن ٱلذين قـتلوكم فى ٱلدين وأخرجوكم من ديـركم وظـهروا علىٓ إخراجكم أن تولوهم  ومن يتولهم فأولـٓئك هم ٱلظـلمون",
     "transliteration": "innamā yanhākumu l-lahu ʿani alladhīna qātalūkum fī l-dīni wa-akhrajūkum min diyārikum waẓāharū ʿalā ikh'rājikum an tawallawhum waman yatawallahum fa-ulāika humu l-ẓālimūna",
-    "translation": "",
+    "translation": "Allāh only forbids you from those who fight you because of religion and expel you from your homes and aid in your expulsion - [forbids] that you make allies of them. And whoever makes allies of them, then it is those who are the wrongdoers.",
     "words": [
       {
         "id": "al-mumtahanah-9-1",
@@ -1615,7 +1623,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Allah vous défend seulement de prendre pour alliés ceux qui vous ont combattus à cause de votre religion, vous ont chassés de vos foyers ou ont aidé à votre expulsion. Ceux qui les prennent pour alliés sont eux les injustes."
   },
   {
     "id": "al-mumtahanah-10",
@@ -1624,7 +1633,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا جَآءَكُمُ ٱلْمُؤْمِنَـٰتُ مُهَـٰجِرَٰتٍ فَٱمْتَحِنُوهُنَّ ۖ ٱللَّهُ أَعْلَمُ بِإِيمَـٰنِهِنَّ ۖ فَإِنْ عَلِمْتُمُوهُنَّ مُؤْمِنَـٰتٍ فَلَا تَرْجِعُوهُنَّ إِلَى ٱلْكُفَّارِ ۖ لَا هُنَّ حِلٌّ لَّهُمْ وَلَا هُمْ يَحِلُّونَ لَهُنَّ ۖ وَءَاتُوهُم مَّآ أَنفَقُوا۟ ۚ وَلَا جُنَاحَ عَلَيْكُمْ أَن تَنكِحُوهُنَّ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ ۚ وَلَا تُمْسِكُوا۟ بِعِصَمِ ٱلْكَوَافِرِ وَسْـَٔلُوا۟ مَآ أَنفَقْتُمْ وَلْيَسْـَٔلُوا۟ مَآ أَنفَقُوا۟ ۚ ذَٰلِكُمْ حُكْمُ ٱللَّهِ ۖ يَحْكُمُ بَيْنَكُمْ ۚ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
     "textSimple": "يـٓأيها ٱلذين ءامنوٓا إذا جآءكم ٱلمؤمنـت مهـجرت فٱمتحنوهن  ٱلله أعلم بإيمـنهن  فإن علمتموهن مؤمنـت فلا ترجعوهن إلى ٱلكفار  لا هن حل لهم ولا هم يحلون لهن  وءاتوهم مآ أنفقوا  ولا جناح عليكم أن تنكحوهن إذآ ءاتيتموهن أجورهن  ولا تمسكوا بعصم ٱلكوافر وسـٔلوا مآ أنفقتم وليسـٔلوا مآ أنفقوا  ذلكم حكم ٱلله  يحكم بينكم  وٱلله عليم حكيم",
     "transliteration": "yāayyuhā alladhīna āmanū idhā jāakumu l-mu'minātu muhājirātin fa-im'taḥinūhunna l-lahu aʿlamu biīmānihinna fa-in ʿalim'tumūhunna mu'minātin falā tarjiʿūhunna ilā l-kufāri lā hunna ḥillun lahum walā hum yaḥillūna lahunna waātūhum mā anfaqū walā junāḥa ʿalaykum an tankiḥūhunna idhā ātaytumūhunna ujūrahunna walā tum'sikū biʿiṣami l-kawāfiri wasalū mā anfaqtum walyasalū mā anfaqū dhālikum ḥuk'mu l-lahi yaḥkumu baynakum wal-lahu ʿalīmun ḥakīmun",
-    "translation": "",
+    "translation": "O you who have believed, when the believing women come to you as emigrants, examine [i.e., test] them. Allāh is most knowing as to their faith. And if you know them to be believers, then do not return them to the disbelievers; they are not lawful [wives] for them, nor are they lawful [husbands] for them. But give them [i.e., the disbelievers] what they have spent. And there is no blame upon you if you marry them when you have given them their due compensation [i.e., mahr]. And hold not to marriage bonds with disbelieving women, but ask for what you have spent and let them [i.e., the disbelievers] ask for what they have spent. That is the judgement of Allāh; He judges between you. And Allāh is Knowing and Wise.",
     "words": [
       {
         "id": "al-mumtahanah-10-1",
@@ -2012,7 +2021,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 54
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Quand des croyantes viennent vers vous en émigrées, mettez-les à l’épreuve, car Allah en Sait mieux sur leur foi. Si vous les avez trouvées vraiment croyantes, ne les rendez pas aux (maris) mécréants. Désormais, ni elles ne seront plus licites pour eux, ni eux ne seront licites pour elles. Mais rendez-leur ce qu’ils ont dépensé (comme mahr : dot). Il n’y aura alors aucun grief contre vous si vous les épousez en leur versant (à votre tour) leur mahr (dot). De même, ne conservez pas les liens du mariage avec les mécréantes. Réclamez (à votre tour) ce que vous avez dépensé comme mahr (dot), tout comme (les maris mécréants) le réclament. Tel est le Jugement d’Allah Qui décide entre vous. Allah est Omniscient et Sage."
   },
   {
     "id": "al-mumtahanah-11",
@@ -2021,7 +2031,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "وَإِن فَاتَكُمْ شَىْءٌ مِّنْ أَزْوَٰجِكُمْ إِلَى ٱلْكُفَّارِ فَعَاقَبْتُمْ فَـَٔاتُوا۟ ٱلَّذِينَ ذَهَبَتْ أَزْوَٰجُهُم مِّثْلَ مَآ أَنفَقُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ أَنتُم بِهِۦ مُؤْمِنُونَ",
     "textSimple": "وإن فاتكم شىء من أزوجكم إلى ٱلكفار فعاقبتم فـٔاتوا ٱلذين ذهبت أزوجهم مثل مآ أنفقوا  وٱتقوا ٱلله ٱلذىٓ أنتم به مؤمنون",
     "transliteration": "wa-in fātakum shayon min azwājikum ilā l-kufāri faʿāqabtum faātū alladhīna dhahabat azwājuhum mith'la mā anfaqū wa-ittaqū l-laha alladhī antum bihi mu'minūna",
-    "translation": "",
+    "translation": "And if you have lost any of your wives to the disbelievers and you subsequently obtain [something], then give those whose wives have gone the equivalent of what they had spent. And fear Allāh, in whom you are believers.",
     "words": [
       {
         "id": "al-mumtahanah-11-1",
@@ -2171,7 +2181,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 20
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Si certaines de vos femmes fuient vers les mécréants, et que, lors d’une riposte victorieuse (vous preniez possession d’un butin), donnez alors à ceux que leurs femmes ont fuis, (prélevé sur ce butin), le mahr (dot) qu’ils avaient versé. Et craignez Allah en Qui vous croyez."
   },
   {
     "id": "al-mumtahanah-12",
@@ -2180,7 +2191,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَـٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَـٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَـٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
     "textSimple": "يـٓأيها ٱلنبى إذا جآءك ٱلمؤمنـت يبايعنك علىٓ أن لا يشركن بٱلله شيـٔا ولا يسرقن ولا يزنين ولا يقتلن أولـدهن ولا يأتين ببهتـن يفترينه بين أيديهن وأرجلهن ولا يعصينك فى معروف  فبايعهن وٱستغفر لهن ٱلله  إن ٱلله غفور رحيم",
     "transliteration": "yāayyuhā l-nabiyu idhā jāaka l-mu'minātu yubāyiʿ'naka ʿalā an lā yush'rik'na bil-lahi shayan walā yasriq'na walā yaznīna walā yaqtul'na awlādahunna walā yatīna bibuh'tānin yaftarīnahu bayna aydīhinna wa-arjulihinna walā yaʿṣīnaka fī maʿrūfin fabāyiʿ'hunna wa-is'taghfir lahunna l-laha inna l-laha ghafūrun raḥīmun",
-    "translation": "",
+    "translation": "O Prophet, when the believing women come to you pledging to you that they will not associate anything with Allāh, nor will they steal, nor will they commit unlawful sexual intercourse, nor will they kill their children, nor will they bring forth a slander they have invented between their arms and legs, nor will they disobey you in what is right - then accept their pledge and ask forgiveness for them of Allāh. Indeed, Allāh is Forgiving and Merciful.",
     "words": [
       {
         "id": "al-mumtahanah-12-1",
@@ -2449,7 +2460,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 37
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô Prophète ! Quand les croyantes, par un serment d’allégeance, viennent jurer devant toi qu’elles n’associeront rien à Allah, qu’elles ne voleront point, ne commettront point la fornication, ne tueront point leurs enfants, n’attribueront pas mensongèrement (à leurs maris des enfants adultérins), ni ne te désobéiront en ce qui est convenable, alors accepte leur allégeance, et implore pour elles le pardon d’Allah, car Allah est Absoluteur et Tout Miséricordieux."
   },
   {
     "id": "al-mumtahanah-13",
@@ -2458,7 +2470,7 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
     "textUthmani": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِمْ قَدْ يَئِسُوا۟ مِنَ ٱلْـَٔاخِرَةِ كَمَا يَئِسَ ٱلْكُفَّارُ مِنْ أَصْحَـٰبِ ٱلْقُبُورِ",
     "textSimple": "يـٓأيها ٱلذين ءامنوا لا تتولوا قوما غضب ٱلله عليهم قد يئسوا من ٱلـٔاخرة كما يئس ٱلكفار من أصحـب ٱلقبور",
     "transliteration": "yāayyuhā alladhīna āmanū lā tatawallaw qawman ghaḍiba l-lahu ʿalayhim qad ya-isū mina l-ākhirati kamā ya-isa l-kufāru min aṣḥābi l-qubūri",
-    "translation": "",
+    "translation": "O you who have believed, do not make allies of a people with whom Allāh has become angry. They have despaired of [reward in] the Hereafter just as the disbelievers have despaired of [meeting] the companions [i.e., inhabitants] of the graves.",
     "words": [
       {
         "id": "al-mumtahanah-13-1",
@@ -2594,7 +2606,8 @@ export const AL_MUMTAHANAH_AYAHS: Ayah[] = [
         "position": 18
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ô vous qui avez cru ! Ne prenez pas pour alliés des gens qui ont provoqué contre eux la colère d’Allah, qui désespèrent de l’autre monde, comme les mécréants désespèrent (du retour à la vie) de ceux qui sont dans les tombes."
   }
 ];
 

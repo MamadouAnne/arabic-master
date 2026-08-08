@@ -11,7 +11,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": " تَبَـٰرَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
     "textSimple": " تبـرك ٱلذى بيده ٱلملك وهو على كل شىء قدير",
     "transliteration": "tabāraka alladhī biyadihi l-mul'ku wahuwa ʿalā kulli shayin qadīrun",
-    "translation": "",
+    "translation": "Blessed is He in whose hand is dominion, and He is over all things competent -",
     "words": [
       {
         "id": "al-mulk-1-1",
@@ -77,7 +77,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Béni soit Celui Qui détient en Sa Main la Royauté et Qui de Toute chose est Infiniment Capable."
   },
   {
     "id": "al-mulk-2",
@@ -86,7 +87,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ",
     "textSimple": "ٱلذى خلق ٱلموت وٱلحيوة ليبلوكم أيكم أحسن عملا  وهو ٱلعزيز ٱلغفور",
     "transliteration": "alladhī khalaqa l-mawta wal-ḥayata liyabluwakum ayyukum aḥsanu ʿamalan wahuwa l-ʿazīzu l-ghafūru",
-    "translation": "",
+    "translation": "[He] who created death and life to test you [as to] which of you is best in deed - and He is the Exalted in Might, the Forgiving -",
     "words": [
       {
         "id": "al-mulk-2-1",
@@ -166,7 +167,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui a créé la mort et la vie pour voir, en vous éprouvant, qui de vous fait meilleure œuvre ; et c’est Lui le Tout-Puissant, l’Absoluteur."
   },
   {
     "id": "al-mulk-3",
@@ -175,7 +177,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَـٰنِ مِن تَفَـٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
     "textSimple": "ٱلذى خلق سبع سمـوت طباقا  ما ترى فى خلق ٱلرحمـن من تفـوت  فٱرجع ٱلبصر هل ترى من فطور",
     "transliteration": "alladhī khalaqa sabʿa samāwātin ṭibāqan mā tarā fī khalqi l-raḥmāni min tafāwutin fa-ir'jiʿi l-baṣara hal tarā min fuṭūrin",
-    "translation": "",
+    "translation": "[And] who created seven heavens in layers. You do not see in the creation of the Most Merciful any inconsistency. So return [your] vision [to the sky]; do you see any breaks?",
     "words": [
       {
         "id": "al-mulk-3-1",
@@ -304,7 +306,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Celui Qui a créé sept cieux qui se superposent. Aucune irrégularité ne se perçoit dans la création du Tout Clément. Lève à nouveau les yeux, y vois-tu la moindre fêlure ?"
   },
   {
     "id": "al-mulk-4",
@@ -313,7 +316,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "ثُمَّ ٱرْجِعِ ٱلْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ ٱلْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ",
     "textSimple": "ثم ٱرجع ٱلبصر كرتين ينقلب إليك ٱلبصر خاسئا وهو حسير",
     "transliteration": "thumma ir'jiʿi l-baṣara karratayni yanqalib ilayka l-baṣaru khāsi-an wahuwa ḥasīrun",
-    "translation": "",
+    "translation": "Then return [your] vision twice again. [Your] vision will return to you humbled while it is fatigued.",
     "words": [
       {
         "id": "al-mulk-4-1",
@@ -386,7 +389,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Puis reviens-y par deux fois du regard. Ton regard retournera vers toi humilié et impuissant."
   },
   {
     "id": "al-mulk-5",
@@ -395,7 +399,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَـٰبِيحَ وَجَعَلْنَـٰهَا رُجُومًا لِّلشَّيَـٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
     "textSimple": "ولقد زينا ٱلسمآء ٱلدنيا بمصـبيح وجعلنـها رجوما للشيـطين  وأعتدنا لهم عذاب ٱلسعير",
     "transliteration": "walaqad zayyannā l-samāa l-dun'yā bimaṣābīḥa wajaʿalnāhā rujūman lilshayāṭīni wa-aʿtadnā lahum ʿadhāba l-saʿīri",
-    "translation": "",
+    "translation": "And We have certainly beautified the nearest heaven with lamps [i.e., stars] and have made [from] them what is thrown at the devils and have prepared for them the punishment of the Blaze.",
     "words": [
       {
         "id": "al-mulk-5-1",
@@ -482,7 +486,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Nous avons orné de luminaires (flamboyants) le ciel le plus proche de ce bas monde. Nous en avons fait des météores pour lapider les démons. Et Nous leur avons préparé le supplice du Brasier."
   },
   {
     "id": "al-mulk-6",
@@ -491,7 +496,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "وَلِلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ ٱلْمَصِيرُ",
     "textSimple": "وللذين كفروا بربهم عذاب جهنم  وبئس ٱلمصير",
     "transliteration": "walilladhīna kafarū birabbihim ʿadhābu jahannama wabi'sa l-maṣīru",
-    "translation": "",
+    "translation": "And for those who disbelieved in their Lord is the punishment of Hell, and wretched is the destination.",
     "words": [
       {
         "id": "al-mulk-6-1",
@@ -543,7 +548,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "À ceux qui auront renié leur Seigneur, (il sera réservé) le supplice de la Géhenne, et quel affreux destin !"
   },
   {
     "id": "al-mulk-7",
@@ -552,7 +558,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "إِذَآ أُلْقُوا۟ فِيهَا سَمِعُوا۟ لَهَا شَهِيقًا وَهِىَ تَفُورُ",
     "textSimple": "إذآ ألقوا فيها سمعوا لها شهيقا وهى تفور",
     "transliteration": "idhā ul'qū fīhā samiʿū lahā shahīqan wahiya tafūru",
-    "translation": "",
+    "translation": "When they are thrown into it, they hear from it a [dreadful] inhaling while it boils up.",
     "words": [
       {
         "id": "al-mulk-7-1",
@@ -611,7 +617,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quand ils y seront précipités, ils en percevront un râle et un bouillonnement."
   },
   {
     "id": "al-mulk-8",
@@ -620,7 +627,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "تَكَادُ تَمَيَّزُ مِنَ ٱلْغَيْظِ ۖ كُلَّمَآ أُلْقِىَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ نَذِيرٌ",
     "textSimple": "تكاد تميز من ٱلغيظ  كلمآ ألقى فيها فوج سألهم خزنتهآ ألم يأتكم نذير",
     "transliteration": "takādu tamayyazu mina l-ghayẓi kullamā ul'qiya fīhā fawjun sa-alahum khazanatuhā alam yatikum nadhīrun",
-    "translation": "",
+    "translation": "It almost bursts with rage. Every time a company is thrown into it, its keepers ask them, \"Did there not come to you a warner?\"",
     "words": [
       {
         "id": "al-mulk-8-1",
@@ -714,7 +721,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "(La Géhenne) sera sur le point d’exploser de rage. Chaque fois qu’on y jettera un contingent (de damnés) ses gardiens leur demanderont : « N’est-il pas venu vers vous quelqu’un pour vous mettre en garde ? »"
   },
   {
     "id": "al-mulk-9",
@@ -723,7 +731,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قَالُوا۟ بَلَىٰ قَدْ جَآءَنَا نَذِيرٌ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ ٱللَّهُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ كَبِيرٍ",
     "textSimple": "قالوا بلى قد جآءنا نذير فكذبنا وقلنا ما نزل ٱلله من شىء إن أنتم إلا فى ضلـل كبير",
     "transliteration": "qālū balā qad jāanā nadhīrun fakadhabnā waqul'nā mā nazzala l-lahu min shayin in antum illā fī ḍalālin kabīrin",
-    "translation": "",
+    "translation": "They will say, \"Yes, a warner had come to us, but we denied and said, 'Allāh has not sent down anything. You are not but in great error.'\"",
     "words": [
       {
         "id": "al-mulk-9-1",
@@ -852,7 +860,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 17
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "« Si, répondront-ils, il nous est bien venu un Envoyé pour nous avertir, mais nous l’avons traité de menteur en disant : “Allah n’a rien révélé et vous êtes, (toi Muhammad et tes partisans) en plein égarement. ” »"
   },
   {
     "id": "al-mulk-10",
@@ -861,7 +870,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَـٰبِ ٱلسَّعِيرِ",
     "textSimple": "وقالوا لو كنا نسمع أو نعقل ما كنا فىٓ أصحـب ٱلسعير",
     "transliteration": "waqālū law kunnā nasmaʿu aw naʿqilu mā kunnā fī aṣḥābi l-saʿīri",
-    "translation": "",
+    "translation": "And they will say, \"If only we had been listening or reasoning, we would not be among the companions of the Blaze.\"",
     "words": [
       {
         "id": "al-mulk-10-1",
@@ -941,7 +950,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront encore : « Si nous avions su écouter ou raisonner, nous n’aurions pas été parmi les hôtes du Brasier ! »"
   },
   {
     "id": "al-mulk-11",
@@ -950,7 +960,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "فَٱعْتَرَفُوا۟ بِذَنۢبِهِمْ فَسُحْقًا لِّأَصْحَـٰبِ ٱلسَّعِيرِ",
     "textSimple": "فٱعترفوا بذنبهم فسحقا لأصحـب ٱلسعير",
     "transliteration": "fa-iʿ'tarafū bidhanbihim fasuḥ'qan li-aṣḥābi l-saʿīri",
-    "translation": "",
+    "translation": "And they will admit their sin, so [it is] alienation for the companions of the Blaze.",
     "words": [
       {
         "id": "al-mulk-11-1",
@@ -988,7 +998,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 4
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils auront alors reconnu leurs péchés. Que périssent donc les damnés du Brasier !"
   },
   {
     "id": "al-mulk-12",
@@ -997,7 +1008,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
     "textSimple": "إن ٱلذين يخشون ربهم بٱلغيب لهم مغفرة وأجر كبير",
     "transliteration": "inna alladhīna yakhshawna rabbahum bil-ghaybi lahum maghfiratun wa-ajrun kabīrun",
-    "translation": "",
+    "translation": "Indeed, those who fear their Lord unseen will have forgiveness and great reward.",
     "words": [
       {
         "id": "al-mulk-12-1",
@@ -1063,7 +1074,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui craignent leur Seigneur sans même Le voir mériteront le pardon et une immense récompense."
   },
   {
     "id": "al-mulk-13",
@@ -1072,7 +1084,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
     "textSimple": "وأسروا قولكم أو ٱجهروا بهٓ  إنه عليم بذات ٱلصدور",
     "transliteration": "wa-asirrū qawlakum awi ij'harū bihi innahu ʿalīmun bidhāti l-ṣudūri",
-    "translation": "",
+    "translation": "And conceal your speech or publicize it; indeed, He is Knowing of that within the breasts.",
     "words": [
       {
         "id": "al-mulk-13-1",
@@ -1138,7 +1150,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Que vous teniez secrets vos propos ou que vous les révéliez au grand jour, Il Sait parfaitement ce qui est au fond des cœurs."
   },
   {
     "id": "al-mulk-14",
@@ -1147,7 +1160,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
     "textSimple": "ألا يعلم من خلق وهو ٱللطيف ٱلخبير",
     "transliteration": "alā yaʿlamu man khalaqa wahuwa l-laṭīfu l-khabīru",
-    "translation": "",
+    "translation": "Does He who created not know, while He is the Subtle, the Aware?",
     "words": [
       {
         "id": "al-mulk-14-1",
@@ -1199,7 +1212,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne connaîtrait-Il pas ceux qu’Il a créés quand Il est le Subtil et le parfaitement Informé ?"
   },
   {
     "id": "al-mulk-15",
@@ -1208,7 +1222,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
     "textSimple": "هو ٱلذى جعل لكم ٱلأرض ذلولا فٱمشوا فى مناكبها وكلوا من رزقه  وإليه ٱلنشور",
     "transliteration": "huwa alladhī jaʿala lakumu l-arḍa dhalūlan fa-im'shū fī manākibihā wakulū min riz'qihi wa-ilayhi l-nushūru",
-    "translation": "",
+    "translation": "It is He who made the earth tame for you - so walk among its slopes and eat of His provision - and to Him is the resurrection.",
     "words": [
       {
         "id": "al-mulk-15-1",
@@ -1309,7 +1323,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 13
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "C’est Lui Qui fit pour vous la terre si soumise. Parcourez-la donc par monts et par vaux ! Nourrissez-vous des biens qu’Il vous dispense. C’est vers Lui que se fera la Résurrection."
   },
   {
     "id": "al-mulk-16",
@@ -1318,7 +1333,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "ءَأَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يَخْسِفَ بِكُمُ ٱلْأَرْضَ فَإِذَا هِىَ تَمُورُ",
     "textSimple": "ءأمنتم من فى ٱلسمآء أن يخسف بكم ٱلأرض فإذا هى تمور",
     "transliteration": "a-amintum man fī l-samāi an yakhsifa bikumu l-arḍa fa-idhā hiya tamūru",
-    "translation": "",
+    "translation": "Do you feel secure that He who is above would not cause the earth to swallow you and suddenly it would sway?",
     "words": [
       {
         "id": "al-mulk-16-1",
@@ -1398,7 +1413,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 10
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Êtes-vous donc si sûrs que Celui Qui est au ciel ne fasse pas crouler la terre sous vos pieds et ne la fasse pas trembler ?"
   },
   {
     "id": "al-mulk-17",
@@ -1407,7 +1423,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "أَمْ أَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًا ۖ فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ",
     "textSimple": "أم أمنتم من فى ٱلسمآء أن يرسل عليكم حاصبا  فستعلمون كيف نذير",
     "transliteration": "am amintum man fī l-samāi an yur'sila ʿalaykum ḥāṣiban fasataʿlamūna kayfa nadhīri",
-    "translation": "",
+    "translation": "Or do you feel secure that He who is above would not send against you a storm of stones? Then you would know how [severe] was My warning.",
     "words": [
       {
         "id": "al-mulk-17-1",
@@ -1494,7 +1510,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Êtes- vous donc, (encore une fois), si sûrs que Celui Qui est au ciel ne fasse pas pleuvoir sur vous un torrent de pierres ? Ainsi saurez-vous la vérité de Ma Menace."
   },
   {
     "id": "al-mulk-18",
@@ -1503,7 +1520,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "وَلَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ",
     "textSimple": "ولقد كذب ٱلذين من قبلهم فكيف كان نكير",
     "transliteration": "walaqad kadhaba alladhīna min qablihim fakayfa kāna nakīri",
-    "translation": "",
+    "translation": "And already had those before them denied, and how [terrible] was My reproach.",
     "words": [
       {
         "id": "al-mulk-18-1",
@@ -1562,7 +1579,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ceux qui les ont précédés avaient déjà crié au mensonge. Quelles ne furent mes représailles !"
   },
   {
     "id": "al-mulk-19",
@@ -1571,7 +1589,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَـٰٓفَّـٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَـٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
     "textSimple": "أولم يروا إلى ٱلطير فوقهم صـٓفـت ويقبضن  ما يمسكهن إلا ٱلرحمـن  إنه بكل شىء بصير",
     "transliteration": "awalam yaraw ilā l-ṭayri fawqahum ṣāffātin wayaqbiḍ'na mā yum'sikuhunna illā l-raḥmānu innahu bikulli shayin baṣīrun",
-    "translation": "",
+    "translation": "Do they not see the birds above them with wings outspread and [sometimes] folded in? None holds them [aloft] except the Most Merciful. Indeed He is, of all things, Seeing.",
     "words": [
       {
         "id": "al-mulk-19-1",
@@ -1679,7 +1697,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ne voient-ils pas les oiseaux au-dessus d’eux, toutes ailes tour à tour déployées et pliées ? Nul ne les soutient (dans les airs) hormis le Tout Clément, Lui Qui est de Toute chose Lucide."
   },
   {
     "id": "al-mulk-20",
@@ -1688,7 +1707,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّنْ هَـٰذَا ٱلَّذِى هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَـٰنِ ۚ إِنِ ٱلْكَـٰفِرُونَ إِلَّا فِى غُرُورٍ",
     "textSimple": "أمن هـذا ٱلذى هو جند لكم ينصركم من دون ٱلرحمـن  إن ٱلكـفرون إلا فى غرور",
     "transliteration": "amman hādhā alladhī huwa jundun lakum yanṣurukum min dūni l-raḥmāni ini l-kāfirūna illā fī ghurūrin",
-    "translation": "",
+    "translation": "Or who is it that could be an army for you to aid you other than the Most Merciful? The disbelievers are not but in delusion.",
     "words": [
       {
         "id": "al-mulk-20-1",
@@ -1796,7 +1815,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Quel est donc celui qui serait pour vous (à lui seul) une armée et vous secourrait en dehors du Tout Clément ? Les mécréants sont vraiment en pleine illusion."
   },
   {
     "id": "al-mulk-21",
@@ -1805,7 +1825,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "أَمَّنْ هَـٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى عُتُوٍّ وَنُفُورٍ",
     "textSimple": "أمن هـذا ٱلذى يرزقكم إن أمسك رزقه  بل لجوا فى عتو ونفور",
     "transliteration": "amman hādhā alladhī yarzuqukum in amsaka riz'qahu bal lajjū fī ʿutuwwin wanufūrin",
-    "translation": "",
+    "translation": "Or who is it that could provide for you if He withheld His provision? But they have persisted in insolence and aversion.",
     "words": [
       {
         "id": "al-mulk-21-1",
@@ -1892,7 +1912,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Et quel est donc celui qui pourrait vous dispenser une subsistance si (Allah) cesse de vous dispenser la Sienne ? Pourtant (les mécréants) persistent dans leur arrogance et leur rébellion."
   },
   {
     "id": "al-mulk-22",
@@ -1901,7 +1922,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
     "textSimple": "أفمن يمشى مكبا على وجههٓ أهدىٓ أمن يمشى سويا على صرط مستقيم",
     "transliteration": "afaman yamshī mukibban ʿalā wajhihi ahdā amman yamshī sawiyyan ʿalā ṣirāṭin mus'taqīmin",
-    "translation": "",
+    "translation": "Then is one who walks fallen on his face better guided or one who walks erect on a straight path?",
     "words": [
       {
         "id": "al-mulk-22-1",
@@ -1988,7 +2009,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lequel tiendrait la direction la plus juste, celui qui se traîne, le front à même le sol, ou celui qui marche tout droit sur un chemin droit ?"
   },
   {
     "id": "al-mulk-23",
@@ -1997,7 +2019,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هُوَ ٱلَّذِىٓ أَنشَأَكُمْ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۖ قَلِيلًا مَّا تَشْكُرُونَ",
     "textSimple": "قل هو ٱلذىٓ أنشأكم وجعل لكم ٱلسمع وٱلأبصـر وٱلأفـٔدة  قليلا ما تشكرون",
     "transliteration": "qul huwa alladhī ansha-akum wajaʿala lakumu l-samʿa wal-abṣāra wal-afidata qalīlan mā tashkurūna",
-    "translation": "",
+    "translation": "Say, \"It is He who has produced you and made for you hearing and vision and hearts [i.e., intellect]; little are you grateful.\"",
     "words": [
       {
         "id": "al-mulk-23-1",
@@ -2084,7 +2106,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 11
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est Lui Qui vous a fait être et vous a donné l’ouïe, la vue et la raison. Mais vous êtes bien peu reconnaissants ! »"
   },
   {
     "id": "al-mulk-24",
@@ -2093,7 +2116,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
     "textSimple": "قل هو ٱلذى ذرأكم فى ٱلأرض وإليه تحشرون",
     "transliteration": "qul huwa alladhī dhara-akum fī l-arḍi wa-ilayhi tuḥ'sharūna",
-    "translation": "",
+    "translation": "Say, \"It is He who has multiplied you throughout the earth, and to Him you will be gathered.\"",
     "words": [
       {
         "id": "al-mulk-24-1",
@@ -2152,7 +2175,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 7
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est Lui Qui vous a disséminés sur terre et c’est vers Lui que vous serez ramenés en foule. »"
   },
   {
     "id": "al-mulk-25",
@@ -2161,7 +2185,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
     "textSimple": "ويقولون متى هـذا ٱلوعد إن كنتم صـدقين",
     "transliteration": "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna",
-    "translation": "",
+    "translation": "And they say, \"When is this promise, if you should be truthful?\"",
     "words": [
       {
         "id": "al-mulk-25-1",
@@ -2213,7 +2237,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 6
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Ils diront : «Quand donc cette promesse sera-t-elle tenue si ce que vous dites est vrai ? »"
   },
   {
     "id": "al-mulk-26",
@@ -2222,7 +2247,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ إِنَّمَا ٱلْعِلْمُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
     "textSimple": "قل إنما ٱلعلم عند ٱلله وإنمآ أنا نذير مبين",
     "transliteration": "qul innamā l-ʿil'mu ʿinda l-lahi wa-innamā anā nadhīrun mubīnun",
-    "translation": "",
+    "translation": "Say, \"The knowledge is only with Allāh, and I am only a clear warner.\"",
     "words": [
       {
         "id": "al-mulk-26-1",
@@ -2288,7 +2313,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 8
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Seul Allah en détient la Science, quant à moi, je ne suis là que pour avertir en toute clarté. »"
   },
   {
     "id": "al-mulk-27",
@@ -2297,7 +2323,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا۟ وَقِيلَ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَدَّعُونَ",
     "textSimple": "فلما رأوه زلفة سيٓـٔت وجوه ٱلذين كفروا وقيل هـذا ٱلذى كنتم به تدعون",
     "transliteration": "falammā ra-awhu zul'fatan sīat wujūhu alladhīna kafarū waqīla hādhā alladhī kuntum bihi taddaʿūna",
-    "translation": "",
+    "translation": "But when they see it approaching, the faces of those who disbelieve will be distressed, and it will be said, \"This is that for which you used to call.\"",
     "words": [
       {
         "id": "al-mulk-27-1",
@@ -2391,7 +2417,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Lorsqu’ils l’auront vu de très près, les mécréants en auront le visage tout blême, et il leur sera dit : « Voici ce que vous appeliez (de vos vœux avec empressement) ! »"
   },
   {
     "id": "al-mulk-28",
@@ -2400,7 +2427,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَـٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
     "textSimple": "قل أرءيتم إن أهلكنى ٱلله ومن معى أو رحمنا فمن يجير ٱلكـفرين من عذاب أليم",
     "transliteration": "qul ara-aytum in ahlakaniya l-lahu waman maʿiya aw raḥimanā faman yujīru l-kāfirīna min ʿadhābin alīmin",
-    "translation": "",
+    "translation": "Say, [O Muḥammad], \"Have you considered: whether Allāh should cause my death and those with me or have mercy upon us, who can protect the disbelievers from a painful punishment?\"",
     "words": [
       {
         "id": "al-mulk-28-1",
@@ -2508,7 +2535,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 14
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « Méditez donc ceci : si Allah me fait périr ainsi que ceux qui sont avec moi, ou s’Il nous reçoit dans Sa miséricorde, qui mettra les mécréants à l’abri d’un supplice très douloureux ? »"
   },
   {
     "id": "al-mulk-29",
@@ -2517,7 +2545,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ هُوَ ٱلرَّحْمَـٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَـٰلٍ مُّبِينٍ",
     "textSimple": "قل هو ٱلرحمـن ءامنا به وعليه توكلنا  فستعلمون من هو فى ضلـل مبين",
     "transliteration": "qul huwa l-raḥmānu āmannā bihi waʿalayhi tawakkalnā fasataʿlamūna man huwa fī ḍalālin mubīnin",
-    "translation": "",
+    "translation": "Say, \"He is the Most Merciful; we have believed in Him, and upon Him we have relied. And you will [come to] know who it is that is in clear error.\"",
     "words": [
       {
         "id": "al-mulk-29-1",
@@ -2611,7 +2639,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 12
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis : « C’est Lui le Tout Clément, en Qui nous croyons et à Qui nous nous en remettons. Vous saurez donc bientôt qui aura été dans un égarement manifeste. »"
   },
   {
     "id": "al-mulk-30",
@@ -2620,7 +2649,7 @@ export const AL_MULK_AYAHS: Ayah[] = [
     "textUthmani": "قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَآءٍ مَّعِينٍۭ",
     "textSimple": "قل أرءيتم إن أصبح مآؤكم غورا فمن يأتيكم بمآء معين",
     "transliteration": "qul ara-aytum in aṣbaḥa māukum ghawran faman yatīkum bimāin maʿīnin",
-    "translation": "",
+    "translation": "Say, \"Have you considered: if your water was to become sunken [into the earth], then who could bring you flowing water?\"",
     "words": [
       {
         "id": "al-mulk-30-1",
@@ -2693,7 +2722,8 @@ export const AL_MULK_AYAHS: Ayah[] = [
         "position": 9
       }
     ],
-    "tajweedRules": []
+    "tajweedRules": [],
+    "translationFr": "Dis enfin : « Méditez encore ceci : si votre eau était aspirée bien loin dans les profondeurs de la terre, qui donc vous apporterait de l’eau qui coule de source ? »"
   }
 ];
 
