@@ -15,6 +15,8 @@ import { arabicLetters } from '../../src/data/arabic/alphabet/letters';
 import { vocabularyWords } from '../../src/data/arabic/vocabulary';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
+import { QuizOption } from '../../src/components/quiz/QuizOption';
+import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
 
 interface Question {
   id: string;
@@ -330,47 +332,28 @@ export default function ExerciseScreen() {
 
       {/* Options */}
       <View style={styles.optionsContainer}>
-        {currentQuestion.options.map((option) => {
+        {currentQuestion.options.map((option, index) => {
           const isSelected = selectedAnswer === option.id;
           const isCorrect = option.id === currentQuestion.correctAnswerId;
           const showCorrect = isAnswered && isCorrect;
           const showWrong = isAnswered && isSelected && !isCorrect;
+          const state = showCorrect ? 'correct' : showWrong ? 'wrong' : isSelected ? 'selected' : 'idle';
+
+          const hasArabic = !!option.textArabic;
+          const translation = lc(option.text, option.textFr);
 
           return (
-            <Pressable
+            <QuizOption
               key={option.id}
-              style={[
-                styles.optionButton,
-                isSelected && styles.optionSelected,
-                showCorrect && styles.optionCorrect,
-                showWrong && styles.optionWrong,
-              ]}
-              onPress={() => handleSelectAnswer(option.id)}
+              index={index}
+              primary={hasArabic ? option.textArabic! : translation}
+              primaryArabic={hasArabic}
+              secondary={hasArabic && translation && translation !== option.textArabic ? translation : undefined}
+              state={state}
               disabled={isAnswered}
-            >
-              {option.textArabic && (
-                <Text
-                  style={[
-                    styles.optionArabic,
-                    (showCorrect || showWrong) && styles.optionTextActive,
-                  ]}
-                >
-                  {option.textArabic}
-                </Text>
-              )}
-              <Text
-                style={[
-                  styles.optionText,
-                  (showCorrect || showWrong) && styles.optionTextActive,
-                ]}
-              >
-                {lc(option.text, option.textFr)}
-              </Text>
-              {showCorrect && (
-                <Ionicons name="checkmark-circle" size={24} color="#ffffff" />
-              )}
-              {showWrong && <Ionicons name="close-circle" size={24} color="#ffffff" />}
-            </Pressable>
+              onPress={() => handleSelectAnswer(option.id)}
+              onAudio={hasArabic ? () => speak(option.textArabic!) : undefined}
+            />
           );
         })}
       </View>
@@ -378,12 +361,11 @@ export default function ExerciseScreen() {
       {/* Next Button */}
       {isAnswered && (
         <View style={styles.nextButtonContainer}>
-          <Pressable style={styles.nextButton} onPress={handleNext}>
-            <Text style={styles.nextButtonText}>
-              {currentIndex < questions.length - 1 ? t('exercise.nextQuestion') : t('exercise.seeResults')}
-            </Text>
-            <Ionicons name="arrow-forward" size={20} color="#ffffff" />
-          </Pressable>
+          <QuizPrimaryButton
+            label={currentIndex < questions.length - 1 ? t('exercise.nextQuestion') : t('exercise.seeResults')}
+            onPress={handleNext}
+            style={styles.nextButtonOverride}
+          />
         </View>
       )}
     </SafeAreaView>
@@ -478,6 +460,7 @@ const styles = StyleSheet.create({
   },
   questionArabic: {
     fontSize: 72,
+    lineHeight: 104,
     color: '#ffffff',
     textAlign: 'center',
   },
@@ -497,60 +480,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     gap: 12,
   },
-  optionButton: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
-    padding: 18,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    borderWidth: 2,
-    borderColor: 'transparent',
-  },
-  optionSelected: {
-    borderColor: '#6366f1',
-  },
-  optionCorrect: {
-    backgroundColor: '#22c55e',
-    borderColor: '#22c55e',
-  },
-  optionWrong: {
-    backgroundColor: '#ef4444',
-    borderColor: '#ef4444',
-  },
-  optionArabic: {
-    fontSize: 28,
-    color: '#ffffff',
-    marginRight: 12,
-  },
-  optionText: {
-    flex: 1,
-    fontSize: 16,
-    color: '#ffffff',
-    fontWeight: '500',
-  },
-  optionTextActive: {
-    color: '#ffffff',
-  },
   nextButtonContainer: {
     position: 'absolute',
     bottom: 40,
     left: 20,
     right: 20,
   },
-  nextButton: {
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
-    padding: 18,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  nextButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginRight: 8,
+  nextButtonOverride: {
+    marginHorizontal: 0,
   },
   completeContainer: {
     flex: 1,

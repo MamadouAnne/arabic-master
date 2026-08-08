@@ -14,6 +14,7 @@ import ArabicVowelText from '../../src/components/arabic/ArabicVowelText';
 import { getLessonById } from '../../src/data/arabic/grammar/lessons';
 import HighlightedText from '../../src/components/ui/HighlightedText';
 import { lessonContent, getGrammarId } from '../../src/data/arabic/grammar/lessonContent';
+import { QuizOption, QuizOptionState } from '../../src/components/quiz/QuizOption';
 
 // Note: lessonContent and helper functions are now imported from
 // '../../src/data/arabic/grammar/lessonContent'
@@ -277,6 +278,18 @@ export default function GrammarLessonScreen() {
 
     const currentExercise = activeExercises[currentExerciseIndex];
 
+    // Hide the Arabic prompt when it already contains the correct answer (tashkeel-insensitive),
+    // otherwise "choose the correct: '<phrase>'" questions give the answer away.
+    const stripTashkeel = (s: string) => s.replace(/[ً-ْٰـ]/g, '').replace(/\s+/g, ' ').trim();
+    const correctOpt = currentExercise.options?.find((o) => o.isCorrect);
+    const correctText = correctOpt ? (correctOpt.textArabic || lc(correctOpt.text, (correctOpt as any).textFr)) : '';
+    const questionArabicRevealsAnswer =
+      !!currentExercise.questionArabic &&
+      !!correctText &&
+      stripTashkeel(currentExercise.questionArabic).includes(stripTashkeel(correctText)) &&
+      stripTashkeel(correctText).length > 0;
+    const showQuestionArabic = !!currentExercise.questionArabic && !questionArabicRevealsAnswer;
+
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
@@ -312,7 +325,7 @@ export default function GrammarLessonScreen() {
           {/* Question */}
           <View style={styles.questionCard}>
             <Text style={styles.questionText}>{lc(currentExercise.question, (currentExercise as any).questionFr)}</Text>
-            {currentExercise.questionArabic && (
+            {showQuestionArabic && (
               <Pressable
                 style={styles.questionArabicRow}
                 onPress={() => currentExercise.questionArabic && speak(currentExercise.questionArabic)}
@@ -323,79 +336,34 @@ export default function GrammarLessonScreen() {
             )}
           </View>
 
-          {/* Options for Multiple Choice */}
-          {currentExercise.type === 'multiple_choice' && currentExercise.options && (
+          {/* Options for Multiple Choice / Fill-in-the-blank with choices */}
+          {(currentExercise.type === 'multiple_choice' || currentExercise.type === 'fill_blank') && currentExercise.options && (
             <View style={styles.optionsContainer}>
-              {currentExercise.options.map((option) => {
+              {currentExercise.options.map((option, index) => {
                 const isSelected = selectedAnswer === option.id;
                 const showCorrect = showResult && option.isCorrect;
                 const showWrong = showResult && isSelected && !option.isCorrect;
+                const state: QuizOptionState = showCorrect
+                  ? 'correct'
+                  : showWrong
+                  ? 'wrong'
+                  : isSelected && !showResult
+                  ? 'selected'
+                  : 'idle';
+                const hasArabic = !!option.textArabic;
+                const translation = lc(option.text, (option as any).textFr);
 
                 return (
-                  <Pressable
+                  <QuizOption
                     key={option.id}
-                    style={[
-                      styles.optionBtn,
-                      isSelected && !showResult && styles.optionBtnSelected,
-                      showCorrect && styles.optionBtnCorrect,
-                      showWrong && styles.optionBtnWrong,
-                    ]}
-                    onPress={() => !showResult && handleSelectAnswer(option.id, option.isCorrect)}
+                    index={index}
+                    primary={hasArabic ? option.textArabic! : translation}
+                    primaryArabic={hasArabic}
+                    state={state}
                     disabled={showResult}
-                  >
-                    <Text style={[
-                      styles.optionText,
-                      showCorrect && styles.optionTextCorrect,
-                      showWrong && styles.optionTextWrong,
-                    ]}>
-                      {option.textArabic || lc(option.text, (option as any).textFr)}
-                    </Text>
-                    {showCorrect && (
-                      <Ionicons name="checkmark-circle" size={24} color="#22c55e" />
-                    )}
-                    {showWrong && (
-                      <Ionicons name="close-circle" size={24} color="#ef4444" />
-                    )}
-                  </Pressable>
-                );
-              })}
-            </View>
-          )}
-
-          {/* Fill in the Blank - show as multiple choice if options exist, otherwise as text input */}
-          {currentExercise.type === 'fill_blank' && currentExercise.options && (
-            <View style={styles.optionsContainer}>
-              {currentExercise.options.map((option) => {
-                const isSelected = selectedAnswer === option.id;
-                const showCorrect = showResult && option.isCorrect;
-                const showWrong = showResult && isSelected && !option.isCorrect;
-
-                return (
-                  <Pressable
-                    key={option.id}
-                    style={[
-                      styles.optionBtn,
-                      isSelected && !showResult && styles.optionBtnSelected,
-                      showCorrect && styles.optionBtnCorrect,
-                      showWrong && styles.optionBtnWrong,
-                    ]}
                     onPress={() => !showResult && handleSelectAnswer(option.id, option.isCorrect)}
-                    disabled={showResult}
-                  >
-                    <Text style={[
-                      styles.optionText,
-                      showCorrect && styles.optionTextCorrect,
-                      showWrong && styles.optionTextWrong,
-                    ]}>
-                      {option.textArabic || lc(option.text, (option as any).textFr)}
-                    </Text>
-                    {showCorrect && (
-                      <Ionicons name="checkmark-circle" size={24} color="#22c55e" />
-                    )}
-                    {showWrong && (
-                      <Ionicons name="close-circle" size={24} color="#ef4444" />
-                    )}
-                  </Pressable>
+                    onAudio={hasArabic ? () => speak(option.textArabic!) : undefined}
+                  />
                 );
               })}
             </View>
@@ -1249,40 +1217,6 @@ const styles = StyleSheet.create({
   },
   optionsContainer: {
     marginBottom: 20,
-  },
-  optionBtn: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    borderWidth: 2,
-    borderColor: 'transparent',
-  },
-  optionBtnSelected: {
-    borderColor: '#6366f1',
-    backgroundColor: '#6366f120',
-  },
-  optionBtnCorrect: {
-    borderColor: '#22c55e',
-    backgroundColor: '#22c55e20',
-  },
-  optionBtnWrong: {
-    borderColor: '#ef4444',
-    backgroundColor: '#ef444420',
-  },
-  optionText: {
-    color: '#ffffff',
-    fontSize: 16,
-    flex: 1,
-  },
-  optionTextCorrect: {
-    color: '#22c55e',
-  },
-  optionTextWrong: {
-    color: '#ef4444',
   },
   explanationBox: {
     backgroundColor: '#D4AF3720',

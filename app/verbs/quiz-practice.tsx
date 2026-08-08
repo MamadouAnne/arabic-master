@@ -15,6 +15,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { Exercise } from '../../src/types/arabic';
 import ArabicWritingInput from '../../src/components/arabic/ArabicWritingInput';
+import { QuizOption, QuizOptionState } from '../../src/components/quiz/QuizOption';
+import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
 
 export default function VerbsQuizPracticeScreen() {
   const { t } = useTranslation();
@@ -248,37 +250,31 @@ export default function VerbsQuizPracticeScreen() {
           {/* Multiple Choice Options */}
           {!isFillBlank && currentExercise.options && (
             <View style={styles.optionsContainer}>
-              {currentExercise.options.map((option) => {
+              {currentExercise.options.map((option, index) => {
                 const isSelected = selectedAnswer === option.id;
                 const isCorrectOption = option.id === currentExercise.correctAnswer;
                 const showCorrect = isAnswered && isCorrectOption;
                 const showWrong = isAnswered && isSelected && !isCorrectOption;
+                const state: QuizOptionState = showCorrect
+                  ? 'correct'
+                  : showWrong
+                  ? 'wrong'
+                  : isSelected
+                  ? 'selected'
+                  : 'idle';
+                const hasArabic = /[؀-ۿ]/.test(option.text);
 
                 return (
-                  <Pressable
+                  <QuizOption
                     key={option.id}
-                    style={[
-                      styles.optionButton,
-                      isSelected && styles.optionSelected,
-                      showCorrect && styles.optionCorrect,
-                      showWrong && styles.optionWrong,
-                    ]}
-                    onPress={() => checkMultipleChoice(option.id)}
+                    index={index}
+                    primary={option.text}
+                    primaryArabic={hasArabic}
+                    state={state}
                     disabled={isAnswered}
-                  >
-                    <Text
-                      style={[
-                        styles.optionText,
-                        (showCorrect || showWrong) && styles.optionTextActive,
-                      ]}
-                    >
-                      {option.text}
-                    </Text>
-                    {showCorrect && (
-                      <Ionicons name="checkmark-circle" size={24} color="#ffffff" />
-                    )}
-                    {showWrong && <Ionicons name="close-circle" size={24} color="#ffffff" />}
-                  </Pressable>
+                    onPress={() => checkMultipleChoice(option.id)}
+                    onAudio={hasArabic ? () => speak(option.text) : undefined}
+                  />
                 );
               })}
             </View>
@@ -345,12 +341,11 @@ export default function VerbsQuizPracticeScreen() {
       {/* Next Button */}
       {isAnswered && (
         <View style={styles.actionContainer}>
-          <Pressable style={styles.nextButton} onPress={handleNext}>
-            <Text style={styles.nextButtonText}>
-              {currentIndex < quizExercises.length - 1 ? t('verbQuiz.nextQuestion') : t('verbQuiz.seeResults')}
-            </Text>
-            <Ionicons name="arrow-forward" size={20} color="#ffffff" />
-          </Pressable>
+          <QuizPrimaryButton
+            label={currentIndex < quizExercises.length - 1 ? t('verbQuiz.nextQuestion') : t('verbQuiz.seeResults')}
+            onPress={handleNext}
+            style={styles.nextButtonOverride}
+          />
         </View>
       )}
     </SafeAreaView>
@@ -456,42 +451,13 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   questionArabic: {
-    fontSize: 18,
-    color: '#ec4899',
+    fontSize: 30,
+    lineHeight: 50,
+    color: '#D4AF37',
     textAlign: 'center',
   },
   optionsContainer: {
     gap: 12,
-  },
-  optionButton: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
-    padding: 18,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    borderWidth: 2,
-    borderColor: 'transparent',
-  },
-  optionSelected: {
-    borderColor: '#ec4899',
-  },
-  optionCorrect: {
-    backgroundColor: '#22c55e',
-    borderColor: '#22c55e',
-  },
-  optionWrong: {
-    backgroundColor: '#ef4444',
-    borderColor: '#ef4444',
-  },
-  optionText: {
-    flex: 1,
-    fontSize: 16,
-    color: '#ffffff',
-    fontWeight: '500',
-  },
-  optionTextActive: {
-    color: '#ffffff',
   },
   fillBlankContainer: {
     gap: 12,
@@ -588,19 +554,8 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     paddingTop: 12,
   },
-  nextButton: {
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
-    padding: 18,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  nextButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginRight: 8,
+  nextButtonOverride: {
+    marginHorizontal: 0,
   },
   completeContainer: {
     flex: 1,

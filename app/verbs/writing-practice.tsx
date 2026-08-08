@@ -14,6 +14,7 @@ import { verbExercises } from '../../src/data/arabic/exercises/verbExercises';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import ArabicWritingInput from '../../src/components/arabic/ArabicWritingInput';
+import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
 
 export default function VerbsWritingPracticeScreen() {
   const { t } = useTranslation();
@@ -298,12 +299,11 @@ export default function VerbsWritingPracticeScreen() {
         />
       ) : (
         <View style={styles.actionContainer}>
-          <Pressable style={styles.nextButton} onPress={handleNext}>
-            <Text style={styles.nextButtonText}>
-              {currentIndex < writingExercises.length - 1 ? t('verbWriting.nextQuestion') : t('verbWriting.seeResults')}
-            </Text>
-            <Ionicons name="arrow-forward" size={20} color="#ffffff" />
-          </Pressable>
+          <QuizPrimaryButton
+            label={currentIndex < writingExercises.length - 1 ? t('verbWriting.nextQuestion') : t('verbWriting.seeResults')}
+            onPress={handleNext}
+            style={styles.nextButtonOverride}
+          />
         </View>
       )}
     </SafeAreaView>
@@ -516,19 +516,8 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     paddingTop: 12,
   },
-  nextButton: {
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
-    padding: 18,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  nextButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginRight: 8,
+  nextButtonOverride: {
+    marginHorizontal: 0,
   },
   completeContainer: {
     flex: 1,

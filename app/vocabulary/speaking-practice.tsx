@@ -19,6 +19,7 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useSpeechRecognition, PronunciationResult } from '../../src/hooks/useSpeechRecognition';
 import { VocabularyWord } from '../../src/types/arabic';
+import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
 
 type PracticeState = 'ready' | 'listening' | 'recording' | 'processing' | 'result';
 
@@ -422,15 +423,11 @@ export default function SpeakingPracticeScreen() {
                 </Pressable>
               )}
 
-              <Pressable
-                style={[styles.nextButton, !result.isCorrect && styles.nextButtonSecondary]}
+              <QuizPrimaryButton
+                label={currentIndex < words.length - 1 ? t('vocabulary.nextWord') : t('vocabulary.finish')}
                 onPress={handleNextWord}
-              >
-                <Text style={styles.nextButtonText}>
-                  {currentIndex < words.length - 1 ? t('vocabulary.nextWord') : t('vocabulary.finish')}
-                </Text>
-                <Ionicons name="arrow-forward" size={20} color="#ffffff" />
-              </Pressable>
+                style={styles.nextButtonOverride}
+              />
             </View>
           </Animated.View>
         )}
@@ -739,23 +736,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
   },
-  nextButton: {
+  nextButtonOverride: {
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#6366f1',
-    paddingVertical: 16,
-    borderRadius: 16,
-    gap: 8,
-  },
-  nextButtonSecondary: {
-    flex: 1,
-  },
-  nextButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: '600',
+    marginHorizontal: 0,
   },
   exampleCard: {
     backgroundColor: '#1e293b',
