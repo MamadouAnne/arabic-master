@@ -98,8 +98,10 @@ export const PRAYER_LESSONS: PrayerLesson[] = [
   {
     id: 'salah-7',
     title: 'Common Scenarios',
+    titleFr: 'Scénarios courants',
     titleArabic: 'سيناريوهات شائعة',
     description: 'Seven practical scenarios with solutions for correcting prayer mistakes.',
+    descriptionFr: 'Sept scénarios pratiques avec des solutions pour corriger les erreurs de prière.',
     icon: 'list',
     color: '#D4AF37',
     category: 'sujud_sahw',

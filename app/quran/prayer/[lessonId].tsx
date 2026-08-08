@@ -154,6 +154,7 @@ export default function PrayerLessonScreen() {
 
   const renderTable = (block: PrayerContent & { type: 'table' }, index: number) => {
     const localizedHeaders = block.headersFr ? lc(block.headers, block.headersFr) : block.headers;
+    const localizedRows = block.rowsFr ? lc(block.rows, block.rowsFr) : block.rows;
     return (
     <View key={index} style={styles.sectionBlock}>
       {block.title && (
@@ -172,7 +173,7 @@ export default function PrayerLessonScreen() {
             </View>
           ))}
         </View>
-        {block.rows.map((row, rowIdx) => (
+        {localizedRows.map((row, rowIdx) => (
           <View
             key={rowIdx}
             style={[
@@ -240,7 +241,7 @@ export default function PrayerLessonScreen() {
           </View>
           {step.isSunnah && (
             <View style={styles.sunnahBadge}>
-              <Text style={styles.sunnahBadgeText}>SUNNAH</Text>
+              <Text style={styles.sunnahBadgeText}>{t('prayerFeature.sunnah')}</Text>
             </View>
           )}
         </View>
@@ -361,7 +362,7 @@ export default function PrayerLessonScreen() {
                 <Text style={[styles.prayerTimeName, { color }]}>{lc(row.name, row.nameFr)}</Text>
                 <Text style={styles.prayerTimeArabic}>{row.nameArabic}</Text>
                 <View style={[styles.rakaatBadge, { backgroundColor: color + '20' }]}>
-                  <Text style={[styles.rakaatText, { color }]}>{row.rakaat} rak'ahs</Text>
+                  <Text style={[styles.rakaatText, { color }]}>{row.rakaat} {t('prayerFeature.rakaat')}</Text>
                 </View>
               </View>
               <View style={styles.prayerTimeDetails}>

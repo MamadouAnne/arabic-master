@@ -719,6 +719,8 @@ export default {
     sunnahBefore: 'Sunnah before',
     sunnahAfter: 'Sunnah after',
     markComplete: 'Mark as Complete',
+    rakaat: 'rak\'ahs',
+    sunnah: 'SUNNAH',
   },
   prophetsFeature: {
     title: 'Prophet Stories',

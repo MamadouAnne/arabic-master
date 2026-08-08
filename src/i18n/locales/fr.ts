@@ -719,6 +719,8 @@ export default {
     sunnahBefore: 'Sunnah avant',
     sunnahAfter: 'Sunnah après',
     markComplete: 'Marquer comme Terminé',
+    rakaat: 'rakats',
+    sunnah: 'SUNNA',
   },
   prophetsFeature: {
     title: 'Histoires des Prophètes',
