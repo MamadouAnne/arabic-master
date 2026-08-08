@@ -762,21 +762,27 @@ export default function GrammarLessonScreen() {
 
             {/* Regular Practice Button */}
             {regularExercises.length > 0 && (
-              <Pressable style={styles.practiceButton} onPress={() => handleStartPractice('regular')}>
-                <Ionicons name="play" size={20} color="#ffffff" />
-                <Text style={styles.practiceButtonText}>
+              <Pressable style={styles.practiceRow} onPress={() => handleStartPractice('regular')}>
+                <View style={[styles.practiceIconChip, styles.quizChip]}>
+                  <Ionicons name="play" size={19} color="#34d399" />
+                </View>
+                <Text style={styles.practiceRowText}>
                   {t('grammar.quizPracticeCount', { count: regularExercises.length })}
                 </Text>
+                <Ionicons name="chevron-forward" size={20} color="#64748b" />
               </Pressable>
             )}
 
             {/* Writing Practice Button */}
             {writingExercises.length > 0 && (
-              <Pressable style={styles.writingPracticeButton} onPress={() => handleStartPractice('writing')}>
-                <Ionicons name="create" size={20} color="#ffffff" />
-                <Text style={styles.practiceButtonText}>
+              <Pressable style={styles.practiceRow} onPress={() => handleStartPractice('writing')}>
+                <View style={[styles.practiceIconChip, styles.writingChip]}>
+                  <Ionicons name="create" size={19} color="#818cf8" />
+                </View>
+                <Text style={styles.practiceRowText}>
                   {t('grammar.writingPracticeCount', { count: writingExercises.length })}
                 </Text>
+                <Ionicons name="chevron-forward" size={20} color="#64748b" />
               </Pressable>
             )}
           </View>
@@ -785,7 +791,7 @@ export default function GrammarLessonScreen() {
         {/* Complete Button */}
         <View style={[styles.section, { marginBottom: 100 }]}>
           <Pressable style={styles.completeButton} onPress={handleComplete}>
-            <Ionicons name="checkmark-circle" size={24} color="#ffffff" />
+            <Ionicons name="checkmark-circle" size={22} color="#0f172a" />
             <Text style={styles.completeButtonText}>{t('grammar.markComplete')}</Text>
           </Pressable>
         </View>
@@ -870,7 +876,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   exampleArabic: {
-    fontSize: 22,
+    fontSize: 28,
+    lineHeight: 48,
     color: '#ffffff',
   },
   exampleTranslit: {
@@ -992,7 +999,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#10b98108',
   },
   comparisonArabic: {
-    fontSize: 22,
+    fontSize: 28,
+    lineHeight: 48,
     color: '#ffffff',
     marginBottom: 4,
   },
@@ -1012,7 +1020,8 @@ const styles = StyleSheet.create({
     borderColor: '#10b98130',
   },
   arabicDescriptionText: {
-    fontSize: 20,
+    fontSize: 26,
+    lineHeight: 44,
     color: '#10b981',
     flex: 1,
     textAlign: 'right',
@@ -1069,7 +1078,8 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   exampleCardArabic: {
-    fontSize: 20,
+    fontSize: 26,
+    lineHeight: 46,
     color: '#ffffff',
     textAlign: 'center',
     marginBottom: 8,
@@ -1108,42 +1118,56 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginBottom: 16,
   },
-  practiceButton: {
-    backgroundColor: '#22c55e',
-    borderRadius: 12,
-    padding: 16,
+  practiceRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    gap: 14,
+    backgroundColor: '#0f172a',
+    borderRadius: 14,
+    paddingVertical: 12,
+    paddingHorizontal: 12,
+    borderWidth: 1,
+    borderColor: '#334155',
     marginBottom: 12,
   },
-  writingPracticeButton: {
-    backgroundColor: '#6366f1',
+  practiceIconChip: {
+    width: 40,
+    height: 40,
     borderRadius: 12,
-    padding: 16,
-    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  practiceButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginLeft: 8,
+  quizChip: {
+    backgroundColor: 'rgba(52, 211, 153, 0.14)',
+  },
+  writingChip: {
+    backgroundColor: 'rgba(129, 140, 248, 0.14)',
+  },
+  practiceRowText: {
+    flex: 1,
+    color: '#f1f5f9',
+    fontSize: 15,
+    fontWeight: '700',
   },
   completeButton: {
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
-    padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
+    gap: 10,
+    backgroundColor: '#D4AF37',
+    borderRadius: 16,
+    paddingVertical: 17,
+    marginHorizontal: 24,
+    shadowColor: '#D4AF37',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.35,
+    shadowRadius: 14,
+    elevation: 6,
   },
   completeButtonText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginLeft: 8,
+    color: '#0f172a',
+    fontSize: 17,
+    fontWeight: '800',
   },
   comingSoon: {
     flex: 1,

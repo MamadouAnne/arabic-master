@@ -413,7 +413,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   verbArabicText: {
-    fontSize: 20,
+    fontSize: 26,
+    lineHeight: 44,
     color: '#ffffff',
     fontWeight: '600',
     marginBottom: 4,

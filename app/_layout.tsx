@@ -289,11 +289,8 @@ export default function RootLayout() {
           <Stack.Screen name="terms-of-service" />
         </Stack>
         <MiniAudioPlayer />
-        {/* Hide the AI floating button on community screens (the tab and all community/*
-            stack routes) and on the challenge quiz screens — those areas have their own actions. */}
-        {segments[0] !== 'community' &&
-          segments[0] !== 'quiz' &&
-          !(segments[0] === '(tabs)' && segments[1] === 'community') && <AIFloatingButton />}
+        {/* Show the AI floating button only on the home tab. */}
+        {segments[0] === '(tabs)' && !segments[1] && <AIFloatingButton />}
         <AIChatSheet />
       </GestureHandlerRootView>
     </AppErrorBoundary>

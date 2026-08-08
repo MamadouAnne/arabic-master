@@ -797,10 +797,10 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   exampleCardArabic: {
-    fontSize: 18,
+    fontSize: 24,
     color: '#ffffff',
     marginBottom: 4,
-    lineHeight: 28,
+    lineHeight: 42,
   },
   exampleCardTranslit: {
     fontSize: 12,
@@ -846,7 +846,8 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   wordArabic: {
-    fontSize: 22,
+    fontSize: 30,
+    lineHeight: 50,
     color: '#ffffff',
     fontWeight: '500',
   },

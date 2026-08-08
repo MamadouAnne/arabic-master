@@ -431,7 +431,8 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   conjugationText: {
-    fontSize: 20,
+    fontSize: 26,
+    lineHeight: 44,
     color: '#ffffff',
     fontWeight: '500',
   },
@@ -448,7 +449,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   exampleArabic: {
-    fontSize: 18,
+    fontSize: 24,
+    lineHeight: 42,
     color: '#ffffff',
     marginBottom: 4,
   },
