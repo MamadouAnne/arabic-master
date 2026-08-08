@@ -85,6 +85,12 @@ export default {
     verbsLearned: '{{count}} verbes appris',
     textsCompleted: '{{count}} textes termin\u00e9s',
     continuePracticing: 'Continuer la pratique',
+    explore: 'Explorer',
+    lessonsLabel: 'Leçons',
+    dayStreak: 'Série',
+    bestStreak: 'Record',
+    complete: 'Terminé',
+    resume: 'Reprendre',
   },
   learn: {
     title: 'Apprendre l\'Arabe',

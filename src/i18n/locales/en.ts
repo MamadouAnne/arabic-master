@@ -85,6 +85,12 @@ export default {
     verbsLearned: '{{count}} verbs learned',
     textsCompleted: '{{count}} texts completed',
     continuePracticing: 'Continue practicing',
+    explore: 'Explore',
+    lessonsLabel: 'Lessons',
+    dayStreak: 'Day streak',
+    bestStreak: 'Best',
+    complete: 'Complete',
+    resume: 'Resume',
   },
   learn: {
     title: 'Learn Arabic',
