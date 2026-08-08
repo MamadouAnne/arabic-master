@@ -12,22 +12,18 @@ import {
   ActivityIndicator,
   RefreshControl,
 } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
-import { useCreditStore, getCreditDisplayInfo } from '../../src/stores/creditStore';
-import { useCommunityStore } from '../../src/stores/communityStore';
-import { GROUP_TEMPLATES } from '../../src/data/community/groupTemplates';
-import { GroupTemplate } from '../../src/types/community';
+import { useCommunityStore } from '../../stores/communityStore';
+import { GROUP_TEMPLATES } from '../../data/community/groupTemplates';
+import { GroupTemplate } from '../../types/community';
 
 const GROUP_ICONS = ['book', 'school', 'mic', 'language', 'moon', 'star', 'people', 'flag'];
 const GROUP_COLORS = ['#10b981', '#f59e0b', '#f97316', '#818cf8', '#14b8a6', '#fb923c', '#f43e5e', '#34d399'];
 
-export default function StudyGroupsScreen() {
+export function GroupsTab() {
   const { t } = useTranslation();
-  const creditState = useCreditStore();
-  const isPremium = getCreditDisplayInfo(creditState).isPremium;
 
   const [refreshing, setRefreshing] = useState(false);
   const [showCreateModal, setShowCreateModal] = useState(false);
@@ -92,19 +88,7 @@ export default function StudyGroupsScreen() {
   });
 
   return (
-    <SafeAreaView style={styles.container}>
-      {/* Header */}
-      <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.backBtn}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
-        </Pressable>
-        <View style={styles.headerCenter}>
-          <Ionicons name="people" size={20} color="#818cf8" />
-          <Text style={styles.headerTitle}>{t('community.studyGroups')}</Text>
-        </View>
-        <View style={{ width: 32 }} />
-      </View>
-
+    <View style={styles.container}>
       {/* Search bar */}
       <View style={styles.searchBar}>
         <Ionicons name="search" size={18} color="#64748b" />
@@ -132,7 +116,7 @@ export default function StudyGroupsScreen() {
           contentContainerStyle={styles.list}
           showsVerticalScrollIndicator={false}
           refreshControl={
-            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor="#f97316" />
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor="#818cf8" />
           }
         >
           {/* Description */}
@@ -339,34 +323,13 @@ export default function StudyGroupsScreen() {
           </View>
         </KeyboardAvoidingView>
       </Modal>
-    </SafeAreaView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
-  },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingBottom: 12,
-  },
-  backBtn: {
-    padding: 4,
-  },
-  headerCenter: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  headerTitle: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: '#ffffff',
   },
   searchBar: {
     flexDirection: 'row',
@@ -509,8 +472,8 @@ const styles = StyleSheet.create({
   },
   fab: {
     position: 'absolute',
-    bottom: 30,
-    right: 20,
+    bottom: 24,
+    left: 20,
     width: 56,
     height: 56,
     borderRadius: 28,

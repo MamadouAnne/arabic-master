@@ -227,6 +227,10 @@ export default {
     templateCustomDesc: 'Cr\u00e9ez votre propre groupe avec un sujet et objectif personnalis\u00e9s',
     startFromTemplate: 'Commencer \u00e0 partir d\u2019un mod\u00e8le',
     orCreateCustom: 'ou cr\u00e9er le v\u00f4tre',
+    // Community hub tabs
+    tabGroups: 'Groupes',
+    tabDiscussions: 'Discussions',
+    tabChallenges: 'D\u00e9fis',
     // Pinned Messages
     pinnedMessage: '\u00c9pingl\u00e9',
     pinMessage: '\u00c9pingler le message',

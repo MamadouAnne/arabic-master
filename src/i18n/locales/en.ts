@@ -227,6 +227,10 @@ export default {
     templateCustomDesc: 'Create your own group with a custom topic and goal',
     startFromTemplate: 'Start from a template',
     orCreateCustom: 'or create your own',
+    // Community hub tabs
+    tabGroups: 'Groups',
+    tabDiscussions: 'Discussions',
+    tabChallenges: 'Challenges',
     // Pinned Messages
     pinnedMessage: 'Pinned',
     pinMessage: 'Pin Message',
