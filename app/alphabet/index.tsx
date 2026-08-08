@@ -70,6 +70,18 @@ export default function AlphabetScreen() {
           </View>
         </View>
 
+        {/* Print vs Handwriting entry */}
+        <Pressable style={styles.scriptsCard} onPress={() => router.push('/alphabet/styles' as any)}>
+          <View style={styles.scriptsIcon}>
+            <Ionicons name="brush" size={20} color="#6366f1" />
+          </View>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.scriptsTitle}>{t('alphabet.scriptsCardTitle')}</Text>
+            <Text style={styles.scriptsDesc}>{t('alphabet.scriptsCardDesc')}</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={18} color="#64748b" />
+        </Pressable>
+
         {/* Legend */}
         <View style={styles.legend}>
           <View style={styles.legendItem}>
@@ -248,6 +260,28 @@ const styles = StyleSheet.create({
     width: 36,
     textAlign: 'right',
   },
+  scriptsCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    marginHorizontal: 16,
+    marginBottom: 20,
+    padding: 14,
+    backgroundColor: '#1e293b',
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#334155',
+  },
+  scriptsIcon: {
+    width: 42,
+    height: 42,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(99,102,241,0.15)',
+  },
+  scriptsTitle: { fontSize: 15, fontWeight: '700', color: '#e2e8f0' },
+  scriptsDesc: { fontSize: 12.5, color: '#94a3b8', marginTop: 2 },
   legend: {
     flexDirection: 'row',
     justifyContent: 'center',

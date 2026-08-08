@@ -8,6 +8,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useEffect, useState } from 'react';
+import { useFonts } from 'expo-font';
+import { ARABIC_SCRIPT_FONTS, SCRIPT_META, scriptFontFamily, ArabicScript } from '../../src/data/arabic/alphabet/scriptFonts';
 import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
 import type { SharedContent } from '../../src/data/community/socialData';
 
@@ -27,6 +29,9 @@ export default function LetterDetailScreen() {
   const [isLearned, setIsLearned] = useState(false);
   const [isMastered, setIsMastered] = useState(false);
   const [shareContent, setShareContent] = useState<SharedContent | null>(null);
+  const [script, setScript] = useState<ArabicScript>('naskh');
+  useFonts(ARABIC_SCRIPT_FONTS); // custom scripts fall back to system until loaded
+  const arabicFont = scriptFontFamily(script);
   const { speak, isSpeaking } = useArabicSpeech();
 
   useEffect(() => {
@@ -117,7 +122,7 @@ export default function LetterDetailScreen() {
 
         {/* Main Letter Display */}
         <View style={styles.mainLetterCard}>
-          <Text style={styles.mainLetter}>{letter.letter}</Text>
+          <Text style={[styles.mainLetter, arabicFont ? { fontFamily: arabicFont } : null]}>{letter.letter}</Text>
           <Text style={styles.transliteration}>{letter.transliteration}</Text>
           {isMastered && (
             <View style={styles.masteredBadge}>
@@ -131,6 +136,19 @@ export default function LetterDetailScreen() {
               <Text style={styles.learnedText}>{t('common.learned')}</Text>
             </View>
           )}
+
+          {/* Writing-style selector — applies to the letter, its forms and examples */}
+          <View style={styles.scriptRow}>
+            {SCRIPT_META.map((s) => (
+              <Pressable
+                key={s.key}
+                style={[styles.scriptPill, script === s.key && { backgroundColor: `${s.color}22`, borderColor: s.color }]}
+                onPress={() => setScript(s.key)}
+              >
+                <Text style={[styles.scriptPillText, script === s.key && { color: s.color }]}>{t(s.nameKey)}</Text>
+              </Pressable>
+            ))}
+          </View>
         </View>
 
         {/* Sound Description */}
@@ -153,7 +171,7 @@ export default function LetterDetailScreen() {
           <View style={styles.formsGrid}>
             {forms.map((form) => (
               <View key={form.key} style={styles.formCard}>
-                <Text style={styles.formLetter}>{form.form}</Text>
+                <Text style={[styles.formLetter, arabicFont ? { fontFamily: arabicFont } : null]}>{form.form}</Text>
                 <Text style={styles.formLabel}>{form.label}</Text>
                 <Text style={styles.formLabelAr}>{form.labelAr}</Text>
               </View>
@@ -167,7 +185,7 @@ export default function LetterDetailScreen() {
           {letter.examples.map((example, index) => (
             <View key={index} style={styles.exampleCard}>
               <View style={styles.exampleLeft}>
-                <Text style={styles.exampleArabic}>{example.word}</Text>
+                <Text style={[styles.exampleArabic, arabicFont ? { fontFamily: arabicFont } : null]}>{example.word}</Text>
                 <Text style={styles.exampleTranslit}>{example.transliteration}</Text>
               </View>
               <View style={styles.exampleRight}>
@@ -337,8 +355,27 @@ const styles = StyleSheet.create({
   },
   mainLetter: {
     fontSize: 120,
+    lineHeight: 160, // room for tall scripts (Nastaliq) so glyphs don't clip
     color: '#ffffff',
     marginBottom: 8,
+  },
+  scriptRow: {
+    flexDirection: 'row',
+    gap: 8,
+    marginTop: 16,
+  },
+  scriptPill: {
+    paddingHorizontal: 14,
+    paddingVertical: 7,
+    borderRadius: 16,
+    backgroundColor: '#0f172a',
+    borderWidth: 1.5,
+    borderColor: 'transparent',
+  },
+  scriptPillText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: '#94a3b8',
   },
   transliteration: {
     fontSize: 24,
@@ -417,6 +454,7 @@ const styles = StyleSheet.create({
   },
   formLetter: {
     fontSize: 40,
+    lineHeight: 62,
     color: '#ffffff',
     marginBottom: 8,
   },
@@ -443,6 +481,7 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontSize: 28,
+    lineHeight: 46,
     color: '#ffffff',
     textAlign: 'left',
   },
