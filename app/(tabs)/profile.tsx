@@ -18,7 +18,6 @@ import { revenueCatService } from '../../src/services/revenueCatService';
 import { useCommunityStore } from '../../src/stores/communityStore';
 import * as communityService from '../../src/services/communityService';
 import { LeaderboardType } from '../../src/types/community';
-import { CommunityStatsBar } from '../../src/components/community/CommunityStatsBar';
 import { LeaderboardPreview } from '../../src/components/community/LeaderboardPreview';
 
 export default function ProfileScreen() {
@@ -48,8 +47,6 @@ export default function ProfileScreen() {
     dailyChallenge,
     initializeChallenges,
     fetchCommunityStats,
-    communityStatsData,
-    isLoadingStats,
     fetchLeaderboard,
     leaderboardEntries,
     isLoadingLeaderboard,
@@ -428,11 +425,6 @@ export default function ProfileScreen() {
               <Text style={styles.xpCardStatLabel}>{t('profile.accuracy')}</Text>
             </View>
           </View>
-        </View>
-
-        {/* Community Stats Bar */}
-        <View style={styles.communityStatsSection}>
-          <CommunityStatsBar stats={communityStatsData} isLoading={isLoadingStats} />
         </View>
 
         {/* Shortcut Cards — Leaderboard + Challenges */}
@@ -1530,10 +1522,6 @@ const styles = StyleSheet.create({
   },
 
   // ── Community gamification sections ──────────────────────────────
-  communityStatsSection: {
-    paddingHorizontal: 20,
-    marginBottom: 20,
-  },
   shortcutCardsRow: {
     flexDirection: 'row',
     paddingHorizontal: 20,

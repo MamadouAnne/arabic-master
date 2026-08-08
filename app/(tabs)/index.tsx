@@ -2,7 +2,6 @@ import { useMemo } from 'react';
 import { View, Text, ScrollView, Pressable, StyleSheet, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import Svg, { Circle } from 'react-native-svg';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useProgressStore, ModuleType } from '../../src/stores/progressStore';
@@ -27,59 +26,15 @@ const MODULES: Record<ModuleType, {
 const MODULE_ORDER: ModuleType[] = ['alphabet', 'vocabulary', 'grammar', 'verbs', 'reading', 'practice'];
 const TIPS_COUNT = 5;
 
-// ── Circular progress ring ─────────────────────────────────────────
-const RING = 76;
-const STROKE = 7;
-const R = (RING - STROKE) / 2;
-const C = 2 * Math.PI * R;
-
-function ProgressRing({ percent }: { percent: number }) {
-  const offset = C * (1 - Math.min(percent, 100) / 100);
-  return (
-    <View style={styles.ringWrap}>
-      <Svg width={RING} height={RING} style={StyleSheet.absoluteFill}>
-        <Circle cx={RING / 2} cy={RING / 2} r={R} stroke="#334155" strokeWidth={STROKE} fill="none" />
-        <Circle
-          cx={RING / 2}
-          cy={RING / 2}
-          r={R}
-          stroke="#D4AF37"
-          strokeWidth={STROKE}
-          fill="none"
-          strokeDasharray={C}
-          strokeDashoffset={offset}
-          strokeLinecap="round"
-          transform={`rotate(-90 ${RING / 2} ${RING / 2})`}
-        />
-      </Svg>
-      <Text style={styles.ringPct}>{percent}%</Text>
-    </View>
-  );
-}
-
 export default function HomeScreen() {
   const { t } = useTranslation();
-  const { progress, getAlphabetCompletionPercent, getVocabularyCompletionPercent, lastAccessed } = useProgressStore();
+  const { progress, lastAccessed } = useProgressStore();
 
   const tipIndex = useMemo(() => {
     const now = new Date();
     const dayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86400000);
     return dayOfYear % TIPS_COUNT;
   }, []);
-
-  const totalLessons = useMemo(() =>
-    progress.alphabetProgress.lettersLearned.length +
-    progress.vocabularyProgress.themesCompleted.length +
-    progress.grammarProgress.lessonsCompleted.length +
-    progress.verbProgress.verbsLearned.length +
-    progress.readingProgress.textsCompleted.length,
-  [progress]);
-
-  const overallPercent = useMemo(() => {
-    const alpha = getAlphabetCompletionPercent();
-    const vocab = getVocabularyCompletionPercent();
-    return Math.round((alpha + vocab) / 2);
-  }, [progress]);
 
   const currentModule = MODULES[lastAccessed?.module || 'alphabet'];
 
@@ -108,41 +63,6 @@ export default function HomeScreen() {
             <Text style={styles.greetingEnglish}>{t('home.greetingEnglish')}</Text>
           </View>
           <Image source={require('../../assets/images/adaptive-icon.png')} style={styles.appIcon} />
-        </View>
-
-        {/* Hero progress card */}
-        <View style={styles.heroCard}>
-          <View style={styles.heroTop}>
-            <ProgressRing percent={overallPercent} />
-            <View style={styles.heroInfo}>
-              <Text style={styles.heroLabel}>{t('home.yourProgress')}</Text>
-              <View style={styles.heroXpRow}>
-                <Text style={styles.heroXp}>{progress.totalXp.toLocaleString()}</Text>
-                <Text style={styles.heroXpUnit}>XP</Text>
-              </View>
-              <Text style={styles.heroSub}>{t('home.lessonsCompletedCount', { count: totalLessons })}</Text>
-            </View>
-          </View>
-
-          <View style={styles.statTiles}>
-            <View style={styles.statTile}>
-              <Text style={styles.statValue}>{totalLessons}</Text>
-              <Text style={styles.statLabel}>{t('home.lessonsLabel')}</Text>
-            </View>
-            <View style={styles.statDivider} />
-            <View style={styles.statTile}>
-              <View style={styles.statValueRow}>
-                <Ionicons name="flame" size={16} color="#f97316" />
-                <Text style={styles.statValue}>{progress.currentStreak}</Text>
-              </View>
-              <Text style={styles.statLabel}>{t('home.dayStreak')}</Text>
-            </View>
-            <View style={styles.statDivider} />
-            <View style={styles.statTile}>
-              <Text style={styles.statValue}>{progress.longestStreak}</Text>
-              <Text style={styles.statLabel}>{t('home.bestStreak')}</Text>
-            </View>
-          </View>
         </View>
 
         {/* Continue Learning */}
@@ -177,7 +97,7 @@ export default function HomeScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t('home.explore')}</Text>
           <View style={styles.grid}>
-            {MODULE_ORDER.map((key) => {
+            {MODULE_ORDER.slice(0, 4).map((key) => {
               const m = MODULES[key];
               return (
                 <Pressable
@@ -253,96 +173,6 @@ const styles = StyleSheet.create({
     width: 56,
     height: 56,
     borderRadius: 16,
-  },
-
-  // Hero card
-  heroCard: {
-    backgroundColor: '#1e293b',
-    marginHorizontal: 20,
-    borderRadius: 22,
-    padding: 20,
-    marginBottom: 26,
-    borderWidth: 1,
-    borderColor: 'rgba(212, 175, 55, 0.28)',
-  },
-  heroTop: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 18,
-  },
-  ringWrap: {
-    width: RING,
-    height: RING,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  ringPct: {
-    color: '#ffffff',
-    fontSize: 17,
-    fontWeight: '800',
-  },
-  heroInfo: {
-    flex: 1,
-  },
-  heroLabel: {
-    color: '#94a3b8',
-    fontSize: 13,
-    fontWeight: '600',
-    textTransform: 'uppercase',
-    letterSpacing: 0.8,
-  },
-  heroXpRow: {
-    flexDirection: 'row',
-    alignItems: 'baseline',
-    gap: 6,
-    marginTop: 4,
-  },
-  heroXp: {
-    color: '#D4AF37',
-    fontSize: 36,
-    fontWeight: '800',
-  },
-  heroXpUnit: {
-    color: '#D4AF37',
-    fontSize: 18,
-    fontWeight: '700',
-  },
-  heroSub: {
-    color: '#94a3b8',
-    fontSize: 13,
-    marginTop: 2,
-  },
-  statTiles: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginTop: 20,
-    paddingTop: 18,
-    borderTopWidth: 1,
-    borderTopColor: '#334155',
-  },
-  statTile: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  statValueRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-  },
-  statValue: {
-    color: '#ffffff',
-    fontSize: 20,
-    fontWeight: '800',
-  },
-  statLabel: {
-    color: '#64748b',
-    fontSize: 12,
-    marginTop: 3,
-  },
-  statDivider: {
-    width: 1,
-    height: 34,
-    backgroundColor: '#334155',
   },
 
   // Sections
