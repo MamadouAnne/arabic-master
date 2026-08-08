@@ -11,6 +11,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useState, useCallback, useRef, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { getSurahById } from '../../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../../src/hooks/useQuranData';
 import ArabicKeyboard from '../../../../src/components/arabic/ArabicKeyboard';
@@ -208,6 +209,7 @@ function compareTexts(userText: string, expectedText: string): ComparisonResult 
 
 export default function WritingExerciseScreen() {
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
+  const { t } = useTranslation();
 
   const surah = getSurahById(surahId);
   const { ayahs, isLoading } = useQuranSurah(surahId);
@@ -345,7 +347,7 @@ export default function WritingExerciseScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Loading ayahs...</Text>
+          <Text style={styles.loadingText}>{t('surahWrite.loadingAyahs')}</Text>
         </View>
       </SafeAreaView>
     );
@@ -361,7 +363,7 @@ export default function WritingExerciseScreen() {
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.surahName}>{surah.nameArabic}</Text>
-            <Text style={styles.subtitle}>Writing Practice</Text>
+            <Text style={styles.subtitle}>{t('surahWrite.writingPractice')}</Text>
           </View>
           <View style={styles.headerRight}>
             <Ionicons name="pencil" size={20} color="#10b981" />
@@ -429,7 +431,7 @@ export default function WritingExerciseScreen() {
                 color={writingMode === 'hints_only' ? '#ffffff' : '#64748b'}
               />
               <Text style={[styles.modeText, writingMode === 'hints_only' && styles.modeTextActive]}>
-                From Memory
+                {t('surahWrite.fromMemory')}
               </Text>
             </Pressable>
             <Pressable
@@ -442,7 +444,7 @@ export default function WritingExerciseScreen() {
                 color={writingMode === 'with_reference' ? '#ffffff' : '#64748b'}
               />
               <Text style={[styles.modeText, writingMode === 'with_reference' && styles.modeTextActive]}>
-                Show Ayah
+                {t('surahWrite.showAyah')}
               </Text>
             </Pressable>
           </View>
@@ -481,10 +483,10 @@ export default function WritingExerciseScreen() {
             onLayout={(e) => setInputAreaY(e.nativeEvent.layout.y)}
           >
             <View style={styles.inputHeader}>
-              <Text style={styles.inputLabel}>Write the ayah:</Text>
+              <Text style={styles.inputLabel}>{t('surahWrite.writeTheAyah')}</Text>
               {userInput.length > 0 && !hasSubmitted && (
                 <Pressable onPress={() => { setUserInput(''); setCursorPosition(0); }}>
-                  <Text style={styles.clearText}>Clear</Text>
+                  <Text style={styles.clearText}>{t('surahWrite.clear')}</Text>
                 </Pressable>
               )}
             </View>
@@ -543,15 +545,15 @@ export default function WritingExerciseScreen() {
                 />
                 <Text style={styles.accuracyText}>
                   {comparisonResult.correctWords === comparisonResult.totalWords
-                    ? 'Perfect!'
-                    : `${comparisonResult.correctWords}/${comparisonResult.totalWords} Words Correct`}
+                    ? t('surahWrite.perfect')
+                    : t('surahWrite.wordsCorrect', { correct: comparisonResult.correctWords, total: comparisonResult.totalWords })}
                 </Text>
               </View>
 
               {/* Word Comparison Display */}
               {comparisonResult.correctWords < comparisonResult.totalWords && (
                 <View style={styles.wordComparisonSection}>
-                  <Text style={styles.wordComparisonTitle}>Your Answer:</Text>
+                  <Text style={styles.wordComparisonTitle}>{t('surahWrite.yourAnswer')}</Text>
                   <Text style={styles.wordComparisonText}>
                     {comparisonResult.wordComparison.map((wordInfo, index) => (
                       <Text key={index}>
@@ -581,7 +583,7 @@ export default function WritingExerciseScreen() {
                     color="#10b981"
                   />
                   <Text style={styles.solutionButtonText}>
-                    {showSolution ? 'Hide Solution' : 'Show Solution'}
+                    {showSolution ? t('surahWrite.hideSolution') : t('surahWrite.showSolution')}
                   </Text>
                 </Pressable>
               )}
@@ -589,7 +591,7 @@ export default function WritingExerciseScreen() {
               {/* Solution */}
               {showSolution && selectedAyah && comparisonResult && (
                 <View style={styles.solutionCard}>
-                  <Text style={styles.solutionLabel}>Word-by-Word Correction:</Text>
+                  <Text style={styles.solutionLabel}>{t('surahWrite.wordByWord')}</Text>
 
                   {/* Show incorrect words with explanation */}
                   {comparisonResult.wordComparison
@@ -631,7 +633,7 @@ export default function WritingExerciseScreen() {
                 disabled={!userInput.trim()}
               >
                 <Ionicons name="checkmark" size={20} color="#ffffff" />
-                <Text style={styles.submitButtonText}>Check Writing</Text>
+                <Text style={styles.submitButtonText}>{t('surahWrite.checkWriting')}</Text>
               </Pressable>
             ) : (
               <View style={styles.postSubmitButtons}>
@@ -664,7 +666,7 @@ export default function WritingExerciseScreen() {
           <View style={styles.modalOverlay}>
             <View style={styles.modalContent}>
               <View style={styles.modalHeader}>
-                <Text style={styles.modalTitle}>Select Ayah</Text>
+                <Text style={styles.modalTitle}>{t('surahWrite.selectAyah')}</Text>
                 <Pressable onPress={() => setShowAyahPicker(false)}>
                   <Ionicons name="close" size={24} color="#ffffff" />
                 </Pressable>

@@ -3,6 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useState, useMemo, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { getSurahById } from '../../../../src/data/arabic/quran';
 import { fetchSurahAyahsById } from '../../../../src/services/staticQuranService';
 import { useQuranStore } from '../../../../src/stores/quranStore';
@@ -20,6 +21,7 @@ interface Question {
 
 export default function TestModeScreen() {
   const { surahId } = useLocalSearchParams<{ surahId: string }>();
+  const { t } = useTranslation();
 
   const surah = getSurahById(surahId);
   const [ayahs, setAyahs] = useState<Ayah[]>([]);
@@ -93,7 +95,7 @@ export default function TestModeScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#8b5cf6" />
-          <Text style={styles.loadingText}>Loading questions...</Text>
+          <Text style={styles.loadingText}>{t('surahTest.loadingQuestions')}</Text>
         </View>
       </SafeAreaView>
     );
@@ -107,15 +109,15 @@ export default function TestModeScreen() {
             <View style={styles.completeIcon}>
               <Ionicons name="trophy" size={48} color="#f59e0b" />
             </View>
-            <Text style={styles.completeTitle}>Test Complete!</Text>
+            <Text style={styles.completeTitle}>{t('surahTest.testComplete')}</Text>
             <Text style={styles.completeScore}>
-              {correctAnswers} / {questions.length} correct
+              {t('surahTest.scoreCorrect', { correct: correctAnswers, total: questions.length })}
             </Text>
             <Text style={styles.completePercent}>
               {Math.round((correctAnswers / questions.length) * 100)}%
             </Text>
             <Pressable style={styles.completeButton} onPress={() => router.back()}>
-              <Text style={styles.completeButtonText}>Back to Surah</Text>
+              <Text style={styles.completeButtonText}>{t('surahTest.backToSurah')}</Text>
             </Pressable>
           </View>
         </SafeAreaView>
@@ -124,7 +126,7 @@ export default function TestModeScreen() {
 
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.errorText}>No questions available</Text>
+        <Text style={styles.errorText}>{t('surahTest.noQuestions')}</Text>
       </SafeAreaView>
     );
   }
@@ -159,7 +161,7 @@ export default function TestModeScreen() {
     if (currentQuestion.type === 'fill_blank') {
       return (
         <View style={styles.questionContent}>
-          <Text style={styles.questionLabel}>Fill in the missing word:</Text>
+          <Text style={styles.questionLabel}>{t('surahTest.fillBlank')}</Text>
           <View style={styles.fillBlankContainer}>
             {ayah.words.map((word, index) => (
               <Text
@@ -180,7 +182,7 @@ export default function TestModeScreen() {
     if (currentQuestion.type === 'continue_from') {
       return (
         <View style={styles.questionContent}>
-          <Text style={styles.questionLabel}>What comes after this ayah?</Text>
+          <Text style={styles.questionLabel}>{t('surahTest.whatNext')}</Text>
           <View style={styles.continueContainer}>
             <Text style={styles.continueAyah}>{ayah.textUthmani}</Text>
           </View>
@@ -200,7 +202,7 @@ export default function TestModeScreen() {
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahName}>{surah.nameArabic}</Text>
-          <Text style={styles.subtitle}>Test Mode</Text>
+          <Text style={styles.subtitle}>{t('surahTest.testMode')}</Text>
         </View>
         <View style={styles.headerProgress}>
           <Text style={styles.progressText}>
@@ -273,12 +275,12 @@ export default function TestModeScreen() {
             onPress={handleSubmit}
             disabled={!selectedAnswer}
           >
-            <Text style={styles.submitButtonText}>Check Answer</Text>
+            <Text style={styles.submitButtonText}>{t('surahTest.checkAnswer')}</Text>
           </Pressable>
         ) : (
           <Pressable style={styles.nextButton} onPress={handleNext}>
             <Text style={styles.nextButtonText}>
-              {currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'See Results'}
+              {currentQuestionIndex < questions.length - 1 ? t('surahTest.nextQuestion') : t('surahTest.seeResults')}
             </Text>
             <Ionicons name="arrow-forward" size={20} color="#ffffff" />
           </Pressable>

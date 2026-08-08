@@ -196,6 +196,7 @@ function RangeSelector({
   selectedRange: string;
   onSelectRange: (range: string) => void;
 }) {
+  const { t } = useTranslation();
   const ranges = [
     { id: 'all', label: 'All 114', labelAr: 'الكل' },
     { id: '1-10', label: '1-10', labelAr: '١-١٠' },
@@ -233,7 +234,7 @@ function RangeSelector({
               selectedRange === range.id && styles.rangeButtonTextActive,
             ]}
           >
-            {range.label}
+            {range.id === 'all' ? t('surahLearn.all114') : range.label}
           </Text>
         </Pressable>
       ))}
