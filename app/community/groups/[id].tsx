@@ -16,6 +16,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
+import { localizeGoal } from '../../../src/data/community/goalLocalization';
 import { useCommunityStore } from '../../../src/stores/communityStore';
 import { useSettingsStore } from '../../../src/stores/settingsStore';
 import { SIMULATED_GROUPS } from '../../../src/data/community/socialData';
@@ -135,6 +137,7 @@ function dayLabel(dateStr: string): string {
 export default function GroupDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { t } = useTranslation();
+  const { lc, language } = useLocalizedContent();
   const flatListRef = useRef<FlatList>(null);
 
   const user = useSettingsStore((s) => s.user);
@@ -968,7 +971,7 @@ export default function GroupDetailScreen() {
           <Ionicons name={group.icon as any} size={22} color={group.color} />
         </View>
         <View style={styles.headerInfoBlock}>
-          <Text style={styles.headerTitle} numberOfLines={2}>{group.name}</Text>
+          <Text style={styles.headerTitle} numberOfLines={2}>{lc(group.name, group.nameFr)}</Text>
           <View style={styles.headerSubRow}>
             <Ionicons name="people" size={13} color="#94a3b8" />
             <Text style={styles.headerSub}>
@@ -999,9 +1002,9 @@ export default function GroupDetailScreen() {
             <View style={[styles.previewIconLarge, { backgroundColor: `${group.color}20` }]}>
               <Ionicons name={group.icon as any} size={40} color={group.color} />
             </View>
-            <Text style={styles.previewName}>{group.name}</Text>
-            <Text style={styles.previewTopic}>{group.topic}</Text>
-            <Text style={styles.previewDesc}>{group.description}</Text>
+            <Text style={styles.previewName}>{lc(group.name, group.nameFr)}</Text>
+            <Text style={styles.previewTopic}>{lc(group.topic, group.topicFr)}</Text>
+            <Text style={styles.previewDesc}>{lc(group.description, group.descriptionFr)}</Text>
           </View>
 
           <View style={styles.previewStatsRow}>
@@ -1020,7 +1023,7 @@ export default function GroupDetailScreen() {
           {group.goal ? (
             <View style={styles.previewGoal}>
               <Ionicons name="flag-outline" size={16} color={group.color} />
-              <Text style={styles.previewGoalText}>{group.goal}</Text>
+              <Text style={styles.previewGoalText}>{localizeGoal(lc(group.goal, group.goalFr), language)}</Text>
             </View>
           ) : null}
 

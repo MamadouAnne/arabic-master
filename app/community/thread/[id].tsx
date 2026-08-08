@@ -14,6 +14,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { useCommunityStore } from '../../../src/stores/communityStore';
 
 const categoryColors: Record<string, string> = {
@@ -27,6 +28,7 @@ const categoryColors: Record<string, string> = {
 export default function ThreadDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const scrollRef = useRef<ScrollView>(null);
 
   const [replyText, setReplyText] = useState('');
@@ -124,8 +126,8 @@ export default function ThreadDetailScreen() {
               </View>
             )}
 
-            <Text style={styles.threadTitle}>{currentThread.title}</Text>
-            <Text style={styles.threadBody}>{currentThread.body}</Text>
+            <Text style={styles.threadTitle}>{lc(currentThread.title, currentThread.titleFr)}</Text>
+            <Text style={styles.threadBody}>{lc(currentThread.body, currentThread.bodyFr)}</Text>
 
             <View style={styles.threadMeta}>
               <Text style={styles.authorName}>{currentThread.authorName}</Text>

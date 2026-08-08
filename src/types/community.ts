@@ -68,7 +68,9 @@ export type DiscussionCategory = 'general' | 'quran' | 'arabic' | 'prayer' | 'ti
 export interface DiscussionThread {
   id: string;
   title: string;
+  titleFr?: string;
   body: string;
+  bodyFr?: string;
   authorName: string;
   authorAvatar?: string;
   category: DiscussionCategory;
@@ -82,13 +84,17 @@ export interface DiscussionThread {
 export interface StudyGroup {
   id: string;
   name: string;
+  nameFr?: string;
   description: string;
+  descriptionFr?: string;
   topic: string;
+  topicFr?: string;
   memberCount: number;
   maxMembers: number;
   isActive: boolean;
   isJoined: boolean;
   goal: string;
+  goalFr?: string;
   icon: string;
   color: string;
   createdAt: string;

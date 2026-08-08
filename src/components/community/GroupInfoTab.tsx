@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, StyleSheet, Pressable, Share } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { StudyGroup, StudySession, GroupChallenge } from '../../types/community';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent';
+import { localizeGoal } from '../../data/community/goalLocalization';
 import { SessionCard } from './SessionCard';
 import { GroupChallengeCard } from './GroupChallengeCard';
 
@@ -24,6 +26,7 @@ export function GroupInfoTab({
   group, messages, sessions, challenges, getDaysAgo, t, canManage, inviteCode,
   onGenerateInvite, onRsvpSession, onCreateSession, onCreateChallenge,
 }: Props) {
+  const { lc, language } = useLocalizedContent();
   const handleShareInvite = async () => {
     const code = inviteCode || group.inviteCode;
     if (!code) {
@@ -47,9 +50,9 @@ export function GroupInfoTab({
         <View style={[styles.infoIconLarge, { backgroundColor: `${group.color}20` }]}>
           <Ionicons name={group.icon as any} size={36} color={group.color} />
         </View>
-        <Text style={styles.infoName}>{group.name}</Text>
-        <Text style={styles.infoTopic}>{group.topic}</Text>
-        <Text style={styles.infoDesc}>{group.description}</Text>
+        <Text style={styles.infoName}>{lc(group.name, group.nameFr)}</Text>
+        <Text style={styles.infoTopic}>{lc(group.topic, group.topicFr)}</Text>
+        <Text style={styles.infoDesc}>{lc(group.description, group.descriptionFr)}</Text>
       </View>
 
       {/* Stats */}
@@ -149,7 +152,7 @@ export function GroupInfoTab({
         <Ionicons name="flag-outline" size={18} color={group.color} />
         <View style={styles.goalInfo}>
           <Text style={styles.goalTitle}>{t('community.groupGoal', { goal: '' }).replace(': ', '')}</Text>
-          <Text style={styles.goalValue}>{group.goal}</Text>
+          <Text style={styles.goalValue}>{localizeGoal(lc(group.goal, group.goalFr), language)}</Text>
         </View>
       </View>
 

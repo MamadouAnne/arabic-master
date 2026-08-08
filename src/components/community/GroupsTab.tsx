@@ -15,8 +15,10 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent';
 import { useCommunityStore } from '../../stores/communityStore';
 import { GROUP_TEMPLATES } from '../../data/community/groupTemplates';
+import { localizeGoal } from '../../data/community/goalLocalization';
 import { GroupTemplate } from '../../types/community';
 
 const GROUP_ICONS = ['book', 'school', 'mic', 'language', 'moon', 'star', 'people', 'flag'];
@@ -24,6 +26,7 @@ const GROUP_COLORS = ['#10b981', '#f59e0b', '#f97316', '#818cf8', '#14b8a6', '#f
 
 export function GroupsTab() {
   const { t } = useTranslation();
+  const { lc, language } = useLocalizedContent();
 
   const [refreshing, setRefreshing] = useState(false);
   const [showCreateModal, setShowCreateModal] = useState(false);
@@ -79,7 +82,7 @@ export function GroupsTab() {
 
   // Filter by search, then sort
   const filtered = search.trim()
-    ? groups.filter((g) => g.name.toLowerCase().includes(search.trim().toLowerCase()))
+    ? groups.filter((g) => lc(g.name, g.nameFr).toLowerCase().includes(search.trim().toLowerCase()))
     : groups;
   const sorted = [...filtered].sort((a, b) => {
     if (a.isActive && !b.isActive) return -1;
@@ -136,8 +139,8 @@ export function GroupsTab() {
                       <Ionicons name={group.icon as any} size={26} color={group.color} />
                     </View>
                     <View style={styles.cardInfo}>
-                      <Text style={styles.groupName}>{group.name}</Text>
-                      <Text style={styles.groupDesc} numberOfLines={2}>{group.description}</Text>
+                      <Text style={styles.groupName}>{lc(group.name, group.nameFr)}</Text>
+                      <Text style={styles.groupDesc} numberOfLines={2}>{lc(group.description, group.descriptionFr)}</Text>
                     </View>
                   </View>
 
@@ -160,7 +163,7 @@ export function GroupsTab() {
                   {/* Goal */}
                   <View style={styles.goalRow}>
                     <Ionicons name="flag-outline" size={14} color="#94a3b8" />
-                    <Text style={styles.goalText}>{t('community.groupGoal', { goal: group.goal })}</Text>
+                    <Text style={styles.goalText}>{t('community.groupGoal', { goal: localizeGoal(lc(group.goal, group.goalFr), language) })}</Text>
                   </View>
 
                   {/* Progress bar */}

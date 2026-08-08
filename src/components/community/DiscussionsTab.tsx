@@ -15,6 +15,7 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent';
 import { useCommunityStore } from '../../stores/communityStore';
 import { DiscussionCategory } from '../../types/community';
 
@@ -29,6 +30,7 @@ const CATEGORIES: { key: DiscussionCategory | 'all'; icon: string; color: string
 
 export function DiscussionsTab() {
   const { t } = useTranslation();
+  const { lc } = useLocalizedContent();
   const [selectedCategory, setSelectedCategory] = useState<DiscussionCategory | 'all'>('all');
   const [refreshing, setRefreshing] = useState(false);
   const [showPostModal, setShowPostModal] = useState(false);
@@ -153,8 +155,8 @@ export function DiscussionsTab() {
                   </View>
                 )}
 
-                <Text style={styles.threadTitle}>{thread.title}</Text>
-                <Text style={styles.threadBody} numberOfLines={2}>{thread.body}</Text>
+                <Text style={styles.threadTitle}>{lc(thread.title, thread.titleFr)}</Text>
+                <Text style={styles.threadBody} numberOfLines={2}>{lc(thread.body, thread.bodyFr)}</Text>
 
                 <View style={styles.threadFooter}>
                   <View style={[styles.catBadge, { backgroundColor: `${categoryColors[thread.category] || '#64748b'}20` }]}>
