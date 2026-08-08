@@ -188,7 +188,7 @@ export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo
 
   if (isMe) {
     return (
-      <View style={[styles.bubbleRowMe, !showAvatar && { marginTop: 2 }]}>
+      <View style={[styles.bubbleRowMe, isMedia && styles.mediaRowMe, !showAvatar && { marginTop: 2 }]}>
         <Pressable style={[styles.bubbleMe, isMedia && styles.bubbleMedia, deleted && styles.bubbleDeleted]} onLongPress={onLongPress} delayLongPress={250}>
           {inner}
         </Pressable>
@@ -198,7 +198,7 @@ export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo
   }
 
   return (
-    <View style={[styles.bubbleRowOther, !showAvatar && { marginTop: 2 }]}>
+    <View style={[styles.bubbleRowOther, isMedia && styles.mediaRowOther, !showAvatar && { marginTop: 2 }]}>
       {showAvatar ? (
         <View style={[styles.msgAvatar, { backgroundColor: `${groupColor}25` }]}>
           <Text style={[styles.msgAvatarText, { color: groupColor }]}>{msg.avatar}</Text>
@@ -437,11 +437,14 @@ const styles = StyleSheet.create({
   milestoneMsg: { flexDirection: 'row', alignItems: 'center', gap: 8, alignSelf: 'center', backgroundColor: '#1e293b', paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12, borderWidth: 1, marginVertical: 8 },
   milestoneMsgText: { fontSize: 13, fontWeight: '600' },
   bubbleRowMe: { flexDirection: 'column', alignItems: 'flex-end', marginTop: 8, paddingLeft: 50 },
+  // Media (shared cards / images) get a wider footprint and more breathing room.
+  mediaRowMe: { paddingLeft: 16, marginTop: 14 },
+  mediaRowOther: { paddingRight: 16, marginTop: 14 },
   bubbleMe: { backgroundColor: '#10b981', borderRadius: 18, borderBottomRightRadius: 4, paddingHorizontal: 14, paddingVertical: 10, maxWidth: '100%' },
   bubbleMeBody: { fontSize: 15, color: '#ffffff', lineHeight: 21 },
   bubbleMeTime: { fontSize: 11, color: 'rgba(255,255,255,0.55)', marginTop: 4 },
   bubbleRowOther: { flexDirection: 'row', alignItems: 'flex-end', marginTop: 8, paddingRight: 50, gap: 8 },
-  classRow: { marginTop: 10, paddingHorizontal: 2 },
+  classRow: { marginTop: 16, paddingHorizontal: 2 },
   msgAvatar: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
   msgAvatarText: { fontSize: 13, fontWeight: '700' },
   avatarSpacer: { width: 32 },

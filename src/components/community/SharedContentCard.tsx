@@ -35,21 +35,21 @@ export const SharedContentCard = React.memo(function SharedContentCard({ content
         <Ionicons name={meta.icon as any} size={14} color={groupColor} />
         <Text style={[styles.kind, { color: groupColor }]}>{meta.label}</Text>
         {content.ref ? <Text style={styles.ref} numberOfLines={1}>{content.ref}</Text> : null}
+        {audioText ? (
+          <Pressable style={[styles.audioBtn, { backgroundColor: `${groupColor}22` }]} onPress={() => speak(audioText)} hitSlop={6}>
+            <Ionicons name={isSpeaking ? 'volume-high' : 'volume-medium'} size={16} color={groupColor} />
+          </Pressable>
+        ) : null}
       </View>
 
       {content.arabic ? (
-        <Pressable style={styles.arabicRow} onPress={() => audioText && speak(audioText)}>
-          <Text style={styles.arabic} numberOfLines={3}>{content.arabic}</Text>
-          {audioText ? (
-            <View style={[styles.audioBtn, { backgroundColor: `${groupColor}22` }]}>
-              <Ionicons name={isSpeaking ? 'volume-high' : 'volume-medium'} size={16} color={groupColor} />
-            </View>
-          ) : null}
+        <Pressable onPress={() => audioText && speak(audioText)}>
+          <Text style={styles.arabic}>{content.arabic}</Text>
         </Pressable>
       ) : null}
 
-      {content.translit ? <Text style={styles.translit} numberOfLines={2}>{content.translit}</Text> : null}
-      {content.translation ? <Text style={styles.translation} numberOfLines={3}>{content.translation}</Text> : null}
+      {content.translit ? <Text style={styles.translit}>{content.translit}</Text> : null}
+      {content.translation ? <Text style={styles.translation}>{content.translation}</Text> : null}
 
       {content.example ? (
         <View style={styles.exampleBox}>
@@ -77,15 +77,14 @@ export const SharedContentCard = React.memo(function SharedContentCard({ content
 });
 
 const styles = StyleSheet.create({
-  card: { borderRadius: 16, padding: 14, maxWidth: 290, borderWidth: 1 },
+  card: { borderRadius: 16, padding: 14, maxWidth: '100%', minWidth: 240, borderWidth: 1 },
   cardMe: { backgroundColor: 'rgba(16,185,129,0.18)', borderColor: 'rgba(16,185,129,0.4)', borderBottomRightRadius: 4 },
   cardOther: { backgroundColor: '#1e293b', borderColor: '#334155', borderBottomLeftRadius: 4 },
   header: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 8 },
   kind: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.4 },
   ref: { fontSize: 11, color: '#94a3b8', marginLeft: 'auto', maxWidth: 130 },
-  arabicRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
-  arabic: { flex: 1, fontSize: 26, color: '#f8fafc', lineHeight: 42, textAlign: 'right', writingDirection: 'rtl' },
-  audioBtn: { width: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center' },
+  arabic: { fontSize: 26, color: '#f8fafc', lineHeight: 46, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
+  audioBtn: { width: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center', marginLeft: 6 },
   translit: { fontSize: 13, color: '#cbd5e1', fontStyle: 'italic', marginTop: 4 },
   translation: { fontSize: 15, color: '#e2e8f0', lineHeight: 21, marginTop: 4 },
   exampleBox: { marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: '#33415580' },
