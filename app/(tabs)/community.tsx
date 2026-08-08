@@ -8,11 +8,9 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
-import { useCommunityStore } from '../../src/stores/communityStore';
 import * as communityService from '../../src/services/communityService';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useSettingsStore } from '../../src/stores/settingsStore';
-import { CommunityStatsBar } from '../../src/components/community/CommunityStatsBar';
 import { GroupsTab } from '../../src/components/community/GroupsTab';
 import { DiscussionsTab } from '../../src/components/community/DiscussionsTab';
 import { ChallengesTab } from '../../src/components/community/ChallengesTab';
@@ -32,14 +30,7 @@ export default function CommunityScreen() {
   const userId = useSettingsStore((s) => s.user?.id);
   const progress = useProgressStore((s) => s.progress);
 
-  const {
-    fetchCommunityStats,
-    communityStatsData,
-    isLoadingStats,
-  } = useCommunityStore();
-
   useEffect(() => {
-    fetchCommunityStats();
     if (userId && progress.totalXp > 0) {
       communityService.syncProgress(userId, progress.totalXp, progress.currentStreak, progress.longestStreak);
     }
@@ -53,11 +44,6 @@ export default function CommunityScreen() {
           <Text style={styles.headerTitle}>{t('community.title')}</Text>
           <Text style={styles.headerTitleArabic}>{'المجتمع'}</Text>
         </View>
-      </View>
-
-      {/* Stats bar */}
-      <View style={styles.statsSection}>
-        <CommunityStatsBar stats={communityStatsData} isLoading={isLoadingStats} />
       </View>
 
       {/* Tab bar */}
@@ -117,10 +103,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: '#D4AF37',
     fontWeight: '600',
-  },
-  statsSection: {
-    paddingHorizontal: 20,
-    marginBottom: 16,
   },
   tabBar: {
     flexDirection: 'row',
