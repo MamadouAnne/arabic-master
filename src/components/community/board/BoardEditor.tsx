@@ -108,7 +108,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   // Bring the caret into view above the keyboard when inline text editing starts.
   useEffect(() => {
     if (!editing) return;
-    const target = Math.max(0, editing.y - canvas.h * 0.32);
+    const maxScroll = Math.max(0, contentH - canvas.h);
+    // Place the caret near the top of the board so the keyboard never covers it.
+    const target = Math.max(0, Math.min(maxScroll, editing.y - Math.min(150, canvas.h * 0.22)));
     scrollYRef.current = target;
     requestAnimationFrame(() => scrollRef.current?.scrollTo({ y: target, animated: true }));
   }, [editing]);
@@ -319,8 +321,11 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
   // Virtual canvas height: at least the viewport, plus headroom below the drawn
   // content so the board can be scrolled and extended in edit mode.
+  // Keep a full extra viewport of bottom headroom so ANY caret position (even a
+  // tap at the very bottom) can be scrolled up above the keyboard, and there is
+  // always room to draw/type below existing content — even on an empty board.
   const contentH = useMemo(
-    () => (canvas.w < 2 ? canvas.h : Math.max(canvas.h, boardContentHeight(elements, canvas.w) + 320)),
+    () => (canvas.w < 2 ? canvas.h : Math.max(canvas.h, boardContentHeight(elements, canvas.w)) + canvas.h),
     [elements, canvas.w, canvas.h]
   );
   contentHRef.current = contentH;
