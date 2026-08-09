@@ -277,6 +277,8 @@ export default function RootLayout() {
           <Stack.Screen name="vocabulary/flashcards" />
           <Stack.Screen name="grammar/index" />
           <Stack.Screen name="grammar/[lessonId]" />
+          <Stack.Screen name="numbers/index" />
+          <Stack.Screen name="numbers/[lessonId]" />
           <Stack.Screen name="reading/index" />
           <Stack.Screen name="reading/[textId]" />
           <Stack.Screen name="exercise/[exerciseId]" options={{ animation: 'slide_from_bottom', presentation: 'modal' }} />

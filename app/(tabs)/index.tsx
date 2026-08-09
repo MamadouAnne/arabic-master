@@ -17,6 +17,7 @@ const MODULES: Record<ModuleType, {
 }> = {
   alphabet: { titleKey: 'home.alphabet', titleArabic: 'الْحُرُوف', icon: 'text', color: '#818cf8', route: '/alphabet', arabicChar: 'أ' },
   vocabulary: { titleKey: 'home.vocabulary', titleArabic: 'الْمُفْرَدَات', icon: 'library', color: '#D4AF37', route: '/vocabulary', arabicChar: 'ك' },
+  numbers: { titleKey: 'learn.numbers', titleArabic: 'الْأَرْقَام', icon: 'keypad', color: '#14b8a6', route: '/numbers', arabicChar: '٥' },
   grammar: { titleKey: 'learn.grammar', titleArabic: 'الْقَوَاعِد', icon: 'git-branch', color: '#34d399', route: '/grammar', arabicChar: 'ق' },
   verbs: { titleKey: 'learn.verbConjugations', titleArabic: 'تَصْرِيفُ الْأَفْعَال', icon: 'swap-horizontal', color: '#f472b6', route: '/verbs', arabicChar: 'ف' },
   reading: { titleKey: 'learn.reading', titleArabic: 'الْقِرَاءَة', icon: 'document-text', color: '#fbbf24', route: '/reading', arabicChar: 'ر' },

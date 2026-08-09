@@ -104,11 +104,18 @@ export default {
     verbConjugationsDesc: 'Learn verb patterns and conjugations in all tenses',
     vocabulary: 'Vocabulary',
     vocabularyDesc: 'Build your Arabic vocabulary with themed word lists',
+    numbers: 'Numbers',
+    numbersDesc: 'Master the Arabic numbering system — digits, words, and counting rules',
     reading: 'Reading',
     readingDesc: 'Practice reading Arabic texts with and without vowels',
     practice: 'Practice',
     practiceDesc: 'Handwriting practice, typing exercises, and more',
     vowelsInfo: 'Vowel marks (harakat) are shown on all Arabic text to help you learn proper pronunciation. You can toggle this off in settings once you advance.',
+  },
+  numbersFeature: {
+    title: 'Numbers',
+    subtitle: 'A step-by-step course on the Arabic numbering system: the digits and how they are written, the number words, ordinals, and the full grammar of counting.',
+    notFound: 'Lesson not found.',
   },
   community: {
     title: 'Community',

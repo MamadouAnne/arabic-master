@@ -144,6 +144,17 @@ export default function LearnScreen() {
       locked: false,
     },
     {
+      id: 'numbers',
+      title: t('learn.numbers'),
+      titleArabic: 'الْأَرْقَام',
+      description: t('learn.numbersDesc'),
+      icon: 'keypad' as const,
+      color: '#14b8a6',
+      progress: 0,
+      route: '/numbers',
+      locked: false,
+    },
+    {
       id: 'reading',
       title: t('learn.reading'),
       titleArabic: 'الْقِرَاءَة',

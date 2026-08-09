@@ -104,11 +104,18 @@ export default {
     verbConjugationsDesc: 'Apprenez les mod\u00e8les de verbes et les conjugaisons \u00e0 tous les temps',
     vocabulary: 'Vocabulaire',
     vocabularyDesc: 'Enrichissez votre vocabulaire arabe avec des listes th\u00e9matiques',
+    numbers: 'Les nombres',
+    numbersDesc: 'Ma\u00eetrisez le syst\u00e8me de num\u00e9ration arabe \u2014 chiffres, mots et r\u00e8gles de comptage',
     reading: 'Lecture',
     readingDesc: 'Pratiquez la lecture de textes arabes avec et sans voyelles',
     practice: 'Pratique',
     practiceDesc: 'Pratique d\'\u00e9criture manuscrite, exercices de frappe et plus',
     vowelsInfo: 'Les signes diacritiques (harakat) sont affich\u00e9s sur tout le texte arabe pour vous aider \u00e0 apprendre la bonne prononciation. Vous pouvez les d\u00e9sactiver dans les param\u00e8tres une fois avanc\u00e9.',
+  },
+  numbersFeature: {
+    title: 'Les nombres',
+    subtitle: 'Un cours pas \u00e0 pas sur le syst\u00e8me de num\u00e9ration arabe : les chiffres et leur \u00e9criture, les mots des nombres, les ordinaux et toute la grammaire du comptage.',
+    notFound: 'Le\u00e7on introuvable.',
   },
   community: {
     title: 'Communaut\u00e9',
