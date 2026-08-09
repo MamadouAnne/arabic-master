@@ -91,6 +91,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const longPressRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pendingHitRef = useRef<{ index: number; orig: BoardElement } | null>(null);
   const momentumRef = useRef<number | null>(null); // rAF id for inertial scrolling
+  const tapRef = useRef<{ x: number; y: number } | null>(null); // where a Text-tool touch began
 
   // Drop a message's text onto the board (once the canvas is measured).
   useEffect(() => {
@@ -167,6 +168,31 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     return Number.isFinite(x) && Number.isFinite(y);
   };
 
+  // Open the inline caret at (x,y): edit a tapped text element, else start a new one.
+  const openTextEditorAt = (x: number, y: number) => {
+    const els = elementsRef.current, cw = canvasRef.current.w;
+    let hitIdx = -1;
+    for (let i = els.length - 1; i >= 0; i--) {
+      const el = els[i];
+      // Only re-edit normal left-aligned text (skip centered headings/badges).
+      if (el.type === 'text' && (el as any).align !== 'center' && hitTest(el, x, y, cw)) { hitIdx = i; break; }
+    }
+    if (hitIdx >= 0) {
+      const el = els[hitIdx] as Extract<BoardElement, { type: 'text' }>;
+      setTextValue(el.text);
+      setTextColor(el.color);
+      setTextSize(el.size);
+      setEditingIndex(hitIdx);
+      setEditing({ x: el.x, y: el.y - el.size * 0.82 });
+    } else {
+      setTextValue('');
+      setTextColor(colorRef.current);
+      setTextSize(Math.round(Math.min(40, Math.max(20, canvasRef.current.w / 13))));
+      setEditingIndex(null);
+      setEditing({ x, y });
+    }
+  };
+
   const pan = useRef(
     PanResponder.create({
       onStartShouldSetPanResponder: shouldClaim,
@@ -177,44 +203,21 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         const { locationX: x, locationY: y } = e.nativeEvent;
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current, c = colorRef.current, w0 = widthRef.current;
-        if (t === 'text') {
-          // Tap an existing text element to edit it; otherwise start a new one.
-          const els = elementsRef.current, cw = canvasRef.current.w;
-          let hitIdx = -1;
-          for (let i = els.length - 1; i >= 0; i--) {
-            const el = els[i];
-            // Only re-edit normal left-aligned text (skip centered headings/badges).
-            if (el.type === 'text' && (el as any).align !== 'center' && hitTest(el, x, y, cw)) { hitIdx = i; break; }
-          }
-          if (hitIdx >= 0) {
-            const el = els[hitIdx] as Extract<BoardElement, { type: 'text' }>;
-            setTextValue(el.text);
-            setTextColor(el.color);
-            setTextSize(el.size);
-            setEditingIndex(hitIdx);
-            setEditing({ x: el.x, y: el.y - el.size * 0.82 });
-          } else {
-            setTextValue('');
-            setTextColor(colorRef.current);
-            setTextSize(Math.round(Math.min(40, Math.max(20, canvasRef.current.w / 13))));
-            setEditingIndex(null);
-            setEditing({ x, y });
-          }
-          return;
-        }
         if (t === 'eraser') { eraseAt(x, y); return; }
-        if (t === 'move') {
-          // Default to panning. Long-press an element to pick it up for moving.
+        if (t === 'move' || t === 'text') {
+          // Both tools pan the board on drag. Move: long-press to grab an element.
+          // Text: a tap (no drag) opens the caret to add/edit text.
           movedRef.current = false;
           panStartScrollRef.current = scrollYRef.current;
           dragRef.current = null;
           pendingHitRef.current = null;
+          tapRef.current = { x, y };
           const els = elementsRef.current, cw = canvasRef.current.w;
           for (let i = els.length - 1; i >= 0; i--) {
             if (hitTest(els[i], x, y, cw)) { pendingHitRef.current = { index: i, orig: els[i] }; break; }
           }
           clearLongPress();
-          if (pendingHitRef.current) {
+          if (t === 'move' && pendingHitRef.current) {
             longPressRef.current = setTimeout(() => {
               if (!movedRef.current && pendingHitRef.current) {
                 dragRef.current = { index: pendingHitRef.current.index, orig: pendingHitRef.current.orig, sx: x, sy: y };
@@ -240,7 +243,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current;
         if (t === 'eraser') { eraseAt(x, y); return; }
-        if (t === 'move') {
+        if (t === 'move' || t === 'text') {
           if (!movedRef.current && Math.hypot(g.dx, g.dy) > 6) movedRef.current = true;
           if (dragRef.current) {
             // Long-press engaged → move the picked-up element by the finger delta.
@@ -271,11 +274,16 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
       },
       onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null); },
       onPanResponderRelease: (e, g) => {
-        if (toolRef.current === 'move') {
+        const t = toolRef.current;
+        if (t === 'move' || t === 'text') {
           const wasDragging = !!dragRef.current;
+          const tapped = !movedRef.current;
           clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null);
-          // Fling the board if the pan ended with speed (and we weren't moving an element).
-          if (!wasDragging && movedRef.current && Math.abs(g.vy) > 0.05) startMomentum(-g.vy);
+          if (t === 'text' && tapped && tapRef.current) {
+            openTextEditorAt(tapRef.current.x, tapRef.current.y);
+          } else if (!wasDragging && movedRef.current && Math.abs(g.vy) > 0.05) {
+            startMomentum(-g.vy); // fling the board
+          }
           return;
         }
         const cur = liveRef.current;
@@ -427,11 +435,12 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           <ScrollView
             ref={scrollRef}
             style={StyleSheet.absoluteFill}
-            scrollEnabled={false}
+            scrollEnabled={editing != null}
             onScroll={(e) => { scrollYRef.current = e.nativeEvent.contentOffset.y; }}
             scrollEventThrottle={16}
             showsVerticalScrollIndicator
             keyboardShouldPersistTaps="handled"
+            keyboardDismissMode="none"
           >
             <View style={{ width: canvas.w, height: contentH }}>
               <View style={StyleSheet.absoluteFill}>
@@ -521,7 +530,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           )}
           {/* Text-mode hint */}
           {tool === 'text' && !editing && (
-            <Text style={styles.moveHint}>Tap empty space to add text · tap text to edit it</Text>
+            <Text style={styles.moveHint}>Tap to add or edit text · drag to scroll</Text>
           )}
 
           {/* Primary tools (labeled) */}
