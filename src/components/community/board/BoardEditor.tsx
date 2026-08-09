@@ -58,7 +58,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const [canvas, setCanvas] = useState({ w: 1, h: 1 });
   const [editing, setEditing] = useState<{ x: number; y: number } | null>(null);
   const [editingIndex, setEditingIndex] = useState<number | null>(null); // index of the text element being re-edited (null = new)
-  const [pickedIndex, setPickedIndex] = useState<number | null>(null); // element picked up for moving (Move mode long-press)
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null); // element selected in Move mode (tap to select, drag to move)
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
   const [textColor, setTextColor] = useState('#f8fafc');
@@ -92,6 +92,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const pendingHitRef = useRef<{ index: number; orig: BoardElement } | null>(null);
   const momentumRef = useRef<number | null>(null); // rAF id for inertial scrolling
   const tapRef = useRef<{ x: number; y: number } | null>(null); // where a Text-tool touch began
+  const selectedIndexRef = useRef(selectedIndex); selectedIndexRef.current = selectedIndex;
 
   // Drop a message's text onto the board (once the canvas is measured).
   useEffect(() => {
@@ -112,6 +113,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
   // Cancel any pending animations/timers on unmount.
   useEffect(() => () => { stopMomentum(); clearLongPress(); }, []);
+
+  // Selection only applies to the Move tool and never while typing.
+  useEffect(() => { if (tool !== 'move' || editing) setSelectedIndex(null); }, [tool, editing]);
 
   // Bring the caret into view above the keyboard when inline text editing starts.
   useEffect(() => {
@@ -206,8 +210,8 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         const t = toolRef.current, c = colorRef.current, w0 = widthRef.current;
         if (t === 'eraser') { eraseAt(x, y); return; }
         if (t === 'move' || t === 'text') {
-          // Both tools pan the board on drag. Move: long-press to grab an element.
-          // Text: a tap (no drag) opens the caret to add/edit text.
+          // Move: tap an element to select it, then drag the SELECTED element to move
+          // it; drag elsewhere scrolls. Text: tap opens the caret.
           movedRef.current = false;
           panStartScrollRef.current = scrollYRef.current;
           dragRef.current = null;
@@ -217,15 +221,10 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           for (let i = els.length - 1; i >= 0; i--) {
             if (hitTest(els[i], x, y, cw)) { pendingHitRef.current = { index: i, orig: els[i] }; break; }
           }
-          clearLongPress();
-          if (t === 'move' && pendingHitRef.current) {
-            longPressRef.current = setTimeout(() => {
-              if (!movedRef.current && pendingHitRef.current) {
-                dragRef.current = { index: pendingHitRef.current.index, orig: pendingHitRef.current.orig, sx: x, sy: y };
-                setPickedIndex(pendingHitRef.current.index);
-                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
-              }
-            }, 200);
+          // Grabbing the already-selected element starts a move immediately.
+          if (t === 'move' && pendingHitRef.current && pendingHitRef.current.index === selectedIndexRef.current) {
+            dragRef.current = { index: pendingHitRef.current.index, orig: pendingHitRef.current.orig, sx: x, sy: y };
+            Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
           }
           return;
         }
@@ -273,15 +272,20 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           liveRef.current = next; setLive(next);
         }
       },
-      onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null); },
+      onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; },
       onPanResponderRelease: (e, g) => {
         const t = toolRef.current;
         if (t === 'move' || t === 'text') {
           const wasDragging = !!dragRef.current;
           const tapped = !movedRef.current;
-          clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null);
+          const hit = pendingHitRef.current;
+          clearLongPress(); dragRef.current = null; pendingHitRef.current = null;
           if (t === 'text' && tapped && tapRef.current) {
             openTextEditorAt(tapRef.current.x, tapRef.current.y);
+          } else if (t === 'move' && tapped) {
+            // Tap selects the element under the finger (or clears the selection).
+            setSelectedIndex(hit ? hit.index : null);
+            if (hit) Haptics.selectionAsync().catch(() => {});
           } else if (!wasDragging && movedRef.current && Math.abs(g.vy) > 0.05) {
             startMomentum(-g.vy); // fling the board
           }
@@ -457,11 +461,11 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
               </View>
               {/* Live overlay (1:1 with canvas): in-progress strokes + picked-up highlight */}
               <View style={StyleSheet.absoluteFill} pointerEvents="none">
-                {(live || (pickedIndex != null && elements[pickedIndex])) && (
+                {(live || (selectedIndex != null && elements[selectedIndex])) && (
                   <Svg width={canvas.w} height={contentH} viewBox={`0 0 ${canvas.w} ${contentH}`}>
                     {live ? renderBoardElement(live, 'live', canvas.w) : null}
-                    {pickedIndex != null && elements[pickedIndex] ? (() => {
-                      const b = boundsOf(elements[pickedIndex], canvas.w);
+                    {selectedIndex != null && elements[selectedIndex] ? (() => {
+                      const b = boundsOf(elements[selectedIndex], canvas.w);
                       return <Rect x={b[0] - 6} y={b[1] - 6} width={(b[2] - b[0]) + 12} height={(b[3] - b[1]) + 12} rx={8} stroke={groupColor} strokeWidth={2} strokeDasharray="6 5" fill={`${groupColor}18`} />;
                     })() : null}
                   </Svg>
@@ -533,7 +537,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
           {/* Move-mode hint */}
           {tool === 'move' && !editing && (
-            <Text style={styles.moveHint}>Drag to scroll · press &amp; hold an item, then drag to move</Text>
+            <Text style={styles.moveHint}>
+              {selectedIndex != null ? 'Drag the selected item to move it · tap empty space to deselect' : 'Tap an item to select · drag empty space to scroll'}
+            </Text>
           )}
           {/* Text-mode hint */}
           {tool === 'text' && !editing && (
