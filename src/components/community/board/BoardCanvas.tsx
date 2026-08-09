@@ -9,7 +9,8 @@ export function boardContentHeight(elements: BoardElement[], width: number, minH
   let maxY = 0;
   for (const el of elements) {
     if (el.type === 'text') {
-      const lines = wrapBoardText(el.text, el.size, Math.max(80, width - el.x - 12)).length;
+      const avail = el.align === 'right' ? Math.max(80, width - 32) : Math.max(80, width - el.x - 12);
+      const lines = wrapBoardText(el.text, el.size, avail).length;
       maxY = Math.max(maxY, el.y + lines * el.size * 1.28);
     } else if (el.type === 'stroke') {
       maxY = Math.max(maxY, el.bbox[3]);
@@ -128,12 +129,18 @@ export function renderBoardElement(el: BoardElement, key: string, canvasWidth = 
   }
   if (el.type === 'text') {
     const centered = el.align === 'center';
-    const anchorX = el.x;
-    const availWidth = centered ? Math.max(80, canvasWidth - 2 * Math.min(el.x, canvasWidth - el.x)) : Math.max(80, canvasWidth - el.x - 12);
+    const right = el.align === 'right'; // RTL/Arabic: anchored to the right margin, full width
+    const RM = 16;
+    const anchorX = centered ? el.x : right ? canvasWidth - RM : el.x;
+    const availWidth = centered
+      ? Math.max(80, canvasWidth - 2 * Math.min(el.x, canvasWidth - el.x))
+      : right
+        ? Math.max(80, canvasWidth - 2 * RM)
+        : Math.max(80, canvasWidth - el.x - 12);
     const lines = wrapBoardText(el.text, el.size, availWidth);
     const lh = el.size * 1.28;
     return (
-      <SvgText key={key} x={anchorX} y={el.y} fill={el.color} fontSize={el.size} fontWeight={el.weight || '700'} textAnchor={centered ? 'middle' : 'start'}>
+      <SvgText key={key} x={anchorX} y={el.y} fill={el.color} fontSize={el.size} fontWeight={el.weight || '700'} textAnchor={centered ? 'middle' : right ? 'end' : 'start'}>
         {lines.map((ln, i) => (
           <TSpan key={i} x={anchorX} dy={i === 0 ? 0 : lh}>{dirSafeArrows(ln)}</TSpan>
         ))}

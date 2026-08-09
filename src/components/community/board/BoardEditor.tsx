@@ -118,8 +118,8 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     if (!editing) return;
     stopMomentum();
     const maxScroll = Math.max(0, contentH - canvas.h);
-    // Place the caret near the top of the board so the keyboard never covers it.
-    const target = Math.max(0, Math.min(maxScroll, editing.y - Math.min(150, canvas.h * 0.22)));
+    // Keep the caret ~60px below the top of the view (well above the keyboard).
+    const target = Math.max(0, Math.min(maxScroll, editing.y - 60));
     scrollYRef.current = target;
     requestAnimationFrame(() => scrollRef.current?.scrollTo({ y: target, animated: true }));
   }, [editing]);
@@ -189,7 +189,8 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
       setTextColor(colorRef.current);
       setTextSize(Math.round(Math.min(40, Math.max(20, canvasRef.current.w / 13))));
       setEditingIndex(null);
-      setEditing({ x, y });
+      // New text starts at the top-left of the current view (top-right handled by RTL).
+      setEditing({ x: 16, y: scrollYRef.current + 60 });
     }
   };
 
@@ -314,25 +315,29 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     { text: 'Clear', style: 'destructive', onPress: () => { setElements([]); redo.current = []; } },
   ]);
 
+  // Arabic → right-aligned (top-right); Latin → left-aligned (top-left).
+  const rtl = /[\u0600-\u06FF\u0750-\u077F]/.test(textValue);
   // Clamp the caret x so text always has room to wrap into full lines (no cutting).
   const inlineX = editing ? Math.min(editing.x, Math.max(16, canvas.w * 0.34)) : 0;
 
   const commitInlineText = () => {
     if (editing) {
       const txt = textValue.trim();
+      const el: BoardElement = rtl
+        ? { type: 'text', x: 16, y: editing.y + textSize * 0.82, text: txt, color: textColor, size: textSize, align: 'right' }
+        : { type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: txt, color: textColor, size: textSize };
       if (editingIndex != null) {
         // Editing an existing element: replace it, or delete it if emptied.
         setElements((prev) => {
           if (editingIndex >= prev.length) return prev;
           if (!txt) return prev.filter((_, i) => i !== editingIndex);
           const next = [...prev];
-          next[editingIndex] = { type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: txt, color: textColor, size: textSize };
+          next[editingIndex] = el;
           return next;
         });
         redo.current = [];
       } else if (txt) {
-        // el.y is the text baseline; offset from the caret top so it lands where typed.
-        commit({ type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: txt, color: textColor, size: textSize });
+        commit(el);
       }
     }
     setEditing(null); setEditingIndex(null); setTextValue('');
@@ -470,12 +475,14 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                   style={[
                     styles.inlineInput,
                     {
-                      left: inlineX,
+                      left: rtl ? 16 : inlineX,
                       top: editing.y,
-                      width: Math.max(60, canvas.w - inlineX - 8),
+                      width: rtl ? Math.max(60, canvas.w - 32) : Math.max(60, canvas.w - inlineX - 8),
                       color: textColor,
                       fontSize: Math.min(textSize, 44),
                       lineHeight: Math.min(textSize, 44) * 1.28,
+                      textAlign: rtl ? 'right' : 'left',
+                      writingDirection: rtl ? 'rtl' : 'ltr',
                     },
                   ]}
                   value={textValue}
@@ -652,37 +659,28 @@ function translateElement(orig: BoardElement, dx: number, dy: number): BoardElem
 }
 
 // Bounding box of an element in board coordinates (used for the picked-up highlight).
+function textBounds(el: Extract<BoardElement, { type: 'text' }>, canvasWidth: number): [number, number, number, number] {
+  const RM = 16;
+  const right = el.align === 'right';
+  const avail = right ? Math.max(80, canvasWidth - 2 * RM) : Math.max(80, canvasWidth - el.x - 12);
+  const lines = wrapBoardText(el.text, el.size, avail);
+  const longest = Math.max(...lines.map((l) => l.length), 1);
+  const w = longest * el.size * 0.55;
+  const h = lines.length * el.size * 1.28;
+  const top = el.y - el.size;
+  // Right-aligned text is anchored to the right margin and grows leftward.
+  return right ? [canvasWidth - RM - w, top, canvasWidth - RM, top + h] : [el.x, top, el.x + w, top + h];
+}
+
 function boundsOf(el: BoardElement, canvasWidth: number): [number, number, number, number] {
   if (el.type === 'stroke') return el.bbox;
-  if (el.type === 'text') {
-    const avail = Math.max(80, canvasWidth - el.x - 12);
-    const lines = wrapBoardText(el.text, el.size, avail);
-    const longest = Math.max(...lines.map((l) => l.length), 1);
-    const w = longest * el.size * 0.55;
-    const h = lines.length * el.size * 1.28;
-    const top = el.y - el.size;
-    return [el.x, top, el.x + w, top + h];
-  }
+  if (el.type === 'text') return textBounds(el, canvasWidth);
   return [Math.min(el.x1, el.x2), Math.min(el.y1, el.y2), Math.max(el.x1, el.x2), Math.max(el.y1, el.y2)];
 }
 
 function hitTest(el: BoardElement, x: number, y: number, canvasWidth: number): boolean {
   const pad = 14;
-  let bb: [number, number, number, number];
-  if (el.type === 'stroke') {
-    bb = el.bbox;
-  } else if (el.type === 'text') {
-    // Real multi-line bounds so text can be grabbed anywhere on any line.
-    const avail = Math.max(80, canvasWidth - el.x - 12);
-    const lines = wrapBoardText(el.text, el.size, avail);
-    const longest = Math.max(...lines.map((l) => l.length), 1);
-    const w = longest * el.size * 0.55;
-    const h = lines.length * el.size * 1.28;
-    const top = el.y - el.size;
-    bb = [el.x, top, el.x + w, top + h];
-  } else {
-    bb = [Math.min(el.x1, el.x2), Math.min(el.y1, el.y2), Math.max(el.x1, el.x2), Math.max(el.y1, el.y2)];
-  }
+  const bb = boundsOf(el, canvasWidth);
   return x >= bb[0] - pad && x <= bb[2] + pad && y >= bb[1] - pad && y <= bb[3] + pad;
 }
 

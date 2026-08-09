@@ -71,7 +71,7 @@ export interface BoardText {
   text: string;
   color: string;
   size: number;
-  align?: 'left' | 'center'; // text anchor (default left)
+  align?: 'left' | 'center' | 'right'; // text anchor (default left; right = RTL/Arabic, anchored to the right margin)
   weight?: '400' | '500' | '600' | '700' | '800'; // font weight (default 700)
 }
 export type BoardElement = BoardStroke | BoardShape | BoardText;
