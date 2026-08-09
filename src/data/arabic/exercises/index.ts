@@ -5,6 +5,7 @@ import grammarExercises from './grammarExercises';
 import verbExercises from './verbExercises';
 import { grammarExercises2 } from './grammarExercises2';
 import { grammarExercises3 } from './grammarExercises3';
+import { additionalVerbExercises } from './additionalVerbExercises';
 
 // Combine all exercises
 export const exercises: Exercise[] = [
@@ -14,6 +15,7 @@ export const exercises: Exercise[] = [
   ...grammarExercises2,
   ...grammarExercises3,
   ...verbExercises,
+  ...additionalVerbExercises,
 ];
 
 // Helper functions
@@ -259,6 +261,20 @@ export const getExercisesForGrammarLesson = (lessonId: string): Exercise[] => {
     'grammar-tamyiz': ['ex-grammar-tamyiz-1', 'ex-grammar-tamyiz-2', 'ex-grammar-tamyiz-3', 'ex-grammar-tamyiz-4'],
     'grammar-five-nouns': ['ex-grammar-five-nouns-1', 'ex-grammar-five-nouns-2', 'ex-grammar-five-nouns-3', 'ex-grammar-five-nouns-4'],
     'grammar-diptote': ['ex-grammar-diptote-1', 'ex-grammar-diptote-2', 'ex-grammar-diptote-3', 'ex-grammar-diptote-4'],
+    // Verb conjugation lessons (rendered through the grammar lesson screen)
+    'verb-lesson-1': ['ex-verb-conj-1', 'ex-verb-conj-2', 'ex-verb-conj-3'],
+    'verb-lesson-2': ['ex-verb-past-1', 'ex-verb-past-2', 'ex-verb-past-3', 'ex-verb-past-4', 'ex-verb-past-5'],
+    'verb-lesson-3': ['ex-verb-present-1', 'ex-verb-present-2', 'ex-verb-present-3', 'ex-verb-present-4', 'ex-verb-present-5'],
+    'verb-lesson-4': ['ex-verb-future-1', 'ex-verb-future-2', 'ex-verb-future-3', 'ex-verb-future-4'],
+    'verb-lesson-5': ['ex-verb-imp-1', 'ex-verb-imp-2', 'ex-verb-imp-3'],
+    'verb-lesson-6': ['ex-verb-mean-1', 'ex-verb-mean-2', 'ex-verb-mean-3', 'ex-verb-mean-4', 'ex-verb-fill-1', 'ex-verb-fill-2', 'ex-verb-fill-3'],
+    'verb-lesson-7': ['ex-verb-l7-1', 'ex-verb-l7-2', 'ex-verb-l7-3', 'ex-verb-l7-4'],
+    'verb-lesson-8': ['ex-verb-l8-1', 'ex-verb-l8-2', 'ex-verb-l8-3', 'ex-verb-l8-4'],
+    'verb-lesson-9': ['ex-verb-l9-1', 'ex-verb-l9-2', 'ex-verb-l9-3', 'ex-verb-l9-4'],
+    'verb-lesson-10': ['ex-verb-l10-1', 'ex-verb-l10-2', 'ex-verb-l10-3', 'ex-verb-l10-4'],
+    'verb-lesson-11': ['ex-verb-l11-1', 'ex-verb-l11-2', 'ex-verb-l11-3', 'ex-verb-l11-4'],
+    'verb-lesson-12': ['ex-verb-l12-1', 'ex-verb-l12-2', 'ex-verb-l12-3', 'ex-verb-l12-4'],
+    'verb-lesson-13': ['ex-verb-l13-1', 'ex-verb-l13-2', 'ex-verb-l13-3', 'ex-verb-l13-4'],
   };
 
   const exerciseIds = lessonExerciseMap[lessonId] || [];

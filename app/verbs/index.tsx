@@ -51,6 +51,37 @@ export default function VerbsScreen() {
     },
   ];
 
+  // Verb lessons grouped by level, numbered continuously by teaching order
+  const sortedLessons = [...verbLessons].sort((a, b) => a.order - b.order);
+  const lessonNumber: Record<string, number> = {};
+  sortedLessons.forEach((l, i) => { lessonNumber[l.id] = i + 1; });
+
+  const LEVELS: { key: string; label: string; ar: string; color: string }[] = [
+    { key: 'beginner', label: t('common.beginner'), ar: 'الْمُبْتَدِئ', color: '#10b981' },
+    { key: 'intermediate', label: t('common.intermediate'), ar: 'الْمُتَوَسِّط', color: '#6366f1' },
+    { key: 'advanced', label: t('common.advanced'), ar: 'الْمُتَقَدِّم', color: '#D4AF37' },
+  ];
+
+  const renderLessonCard = (lesson: (typeof verbLessons)[number], color: string) => (
+    <Pressable
+      key={lesson.id}
+      style={styles.lessonCard}
+      onPress={() => router.push(`/grammar/${lesson.id}` as any)}
+    >
+      <View style={[styles.lessonNumber, { backgroundColor: color + '30' }]}>
+        <Text style={[styles.lessonNumberText, { color }]}>{lessonNumber[lesson.id]}</Text>
+      </View>
+      <View style={styles.lessonContent}>
+        <Text style={styles.lessonTitle}>{lc(lesson.title, (lesson as any).titleFr)}</Text>
+        <Text style={styles.lessonTitleArabic}>{lesson.titleArabic}</Text>
+        <Text style={styles.lessonDescription} numberOfLines={2}>
+          {lc(lesson.description, (lesson as any).descriptionFr)}
+        </Text>
+      </View>
+      <Ionicons name="chevron-forward" size={20} color="#64748b" />
+    </Pressable>
+  );
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
@@ -80,34 +111,27 @@ export default function VerbsScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t('verbs.verbLessons')}</Text>
           <Text style={styles.sectionSubtitle}>{t('verbs.verbLessonsDesc')}</Text>
-          <View style={styles.lessonsGrid}>
-            {[...verbLessons].sort((a, b) => a.order - b.order).map((lesson, index) => (
-              <Pressable
-                key={lesson.id}
-                style={styles.lessonCard}
-                onPress={() => router.push(`/grammar/${lesson.id}` as any)}
-              >
-                <View style={[styles.lessonNumber, { backgroundColor: index < 4 ? '#10b98130' : '#6366f130' }]}>
-                  <Text style={[styles.lessonNumberText, { color: index < 4 ? '#10b981' : '#6366f1' }]}>{index + 1}</Text>
-                </View>
-                <View style={styles.lessonContent}>
-                  <Text style={styles.lessonTitle}>{lc(lesson.title, (lesson as any).titleFr)}</Text>
-                  <Text style={styles.lessonTitleArabic}>{lesson.titleArabic}</Text>
-                  <Text style={styles.lessonDescription} numberOfLines={2}>
-                    {lc(lesson.description, (lesson as any).descriptionFr)}
-                  </Text>
-                  <View style={styles.lessonMeta}>
-                    <View style={[styles.levelBadge, { backgroundColor: lesson.level === 'beginner' ? '#10b98130' : '#6366f130' }]}>
-                      <Text style={[styles.levelText, { color: lesson.level === 'beginner' ? '#10b981' : '#6366f1' }]}>
-                        {lesson.level}
-                      </Text>
+          {LEVELS.map((lvl) => {
+            const group = sortedLessons.filter((l) => l.level === lvl.key);
+            if (group.length === 0) return null;
+            return (
+              <View key={lvl.key} style={styles.levelGroup}>
+                <View style={styles.levelGroupHeader}>
+                  <View style={styles.levelGroupLeft}>
+                    <View style={[styles.levelGroupDot, { backgroundColor: lvl.color }]} />
+                    <Text style={styles.levelGroupTitle}>{lvl.label}</Text>
+                    <View style={styles.levelGroupCount}>
+                      <Text style={styles.levelGroupCountText}>{group.length}</Text>
                     </View>
                   </View>
+                  <Text style={styles.levelGroupAr}>{lvl.ar}</Text>
                 </View>
-                <Ionicons name="chevron-forward" size={20} color="#64748b" />
-              </Pressable>
-            ))}
-          </View>
+                <View style={styles.lessonsGrid}>
+                  {group.map((lesson) => renderLessonCard(lesson, lvl.color))}
+                </View>
+              </View>
+            );
+          })}
         </View>
 
         {/* Tense Categories */}
@@ -468,6 +492,50 @@ const styles = StyleSheet.create({
     lineHeight: 20,
   },
   // Verb Lessons styles
+  levelGroup: {
+    marginBottom: 6,
+  },
+  levelGroupHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 8,
+    marginBottom: 10,
+  },
+  levelGroupLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  levelGroupDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  levelGroupTitle: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#e2e8f0',
+    textTransform: 'capitalize',
+  },
+  levelGroupCount: {
+    minWidth: 22,
+    height: 22,
+    paddingHorizontal: 6,
+    borderRadius: 11,
+    backgroundColor: '#1e293b',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  levelGroupCountText: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#94a3b8',
+  },
+  levelGroupAr: {
+    fontSize: 13,
+    color: '#64748b',
+  },
   lessonsGrid: {
     gap: 12,
   },
@@ -508,19 +576,5 @@ const styles = StyleSheet.create({
     color: '#94a3b8',
     marginTop: 4,
     lineHeight: 18,
-  },
-  lessonMeta: {
-    flexDirection: 'row',
-    marginTop: 8,
-  },
-  levelBadge: {
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-    borderRadius: 8,
-  },
-  levelText: {
-    fontSize: 11,
-    fontWeight: '600',
-    textTransform: 'capitalize',
   },
 });

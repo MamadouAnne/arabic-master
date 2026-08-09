@@ -1,4 +1,5 @@
 import { GrammarLesson } from '../../../types/arabic';
+import { ADDITIONAL_VERB_LESSONS } from './additionalVerbLessons';
 
 export const verbLessons: GrammarLesson[] = [
   // LESSON 1: Introduction to Arabic Verbs
@@ -1053,6 +1054,7 @@ export const verbLessons: GrammarLesson[] = [
       },
     ],
   },
+  ...ADDITIONAL_VERB_LESSONS,
 ];
 
 export default verbLessons;
