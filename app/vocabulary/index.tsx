@@ -22,6 +22,43 @@ export default function VocabularyScreen() {
     return 'new';
   };
 
+  const LEVELS: { key: 'beginner' | 'intermediate' | 'advanced'; label: string; ar: string; color: string }[] = [
+    { key: 'beginner', label: t('common.beginner'), ar: 'الْمُبْتَدِئ', color: '#10b981' },
+    { key: 'intermediate', label: t('common.intermediate'), ar: 'الْمُتَوَسِّط', color: '#6366f1' },
+    { key: 'advanced', label: t('common.advanced'), ar: 'الْمُتَقَدِّم', color: '#D4AF37' },
+  ];
+
+  const renderThemeCard = (theme: (typeof vocabularyThemes)[number]) => {
+    const status = getThemeStatus(theme.id);
+    return (
+      <Pressable
+        key={theme.id}
+        style={styles.themeCard}
+        onPress={() => router.push(`/vocabulary/${theme.id}` as any)}
+      >
+        <View style={[styles.themeIconBg, { backgroundColor: theme.color + '20' }]}>
+          <Text style={styles.themeIcon}>{theme.icon}</Text>
+        </View>
+        <Text style={styles.themeName}>{lc(theme.name, theme.nameFr)}</Text>
+        <Text style={styles.themeNameAr}>{theme.nameArabic}</Text>
+        <View style={styles.themeFooter}>
+          <Text style={styles.themeWordCount}>{t('vocabulary.wordsCount', { count: theme.wordCount })}</Text>
+          {status === 'completed' && (
+            <View style={styles.completedBadge}>
+              <Ionicons name="checkmark-circle" size={14} color="#10b981" />
+            </View>
+          )}
+          {status === 'in_progress' && (
+            <View style={styles.progressBadge}>
+              <Ionicons name="time" size={14} color="#D4AF37" />
+            </View>
+          )}
+        </View>
+        <View style={[styles.themeColorBar, { backgroundColor: theme.color }]} />
+      </Pressable>
+    );
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
@@ -60,49 +97,34 @@ export default function VocabularyScreen() {
           </View>
         </View>
 
-        {/* Theme Grid */}
+        {/* Theme Grid — grouped by level */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t('vocabulary.vocabularyThemes')}</Text>
           <Text style={styles.sectionSubtitle}>
             {t('vocabulary.themesSubtitle')}
           </Text>
 
-          <View style={styles.themeGrid}>
-            {vocabularyThemes.map((theme) => {
-              const status = getThemeStatus(theme.id);
-              return (
-                <Pressable
-                  key={theme.id}
-                  style={styles.themeCard}
-                  onPress={() => router.push(`/vocabulary/${theme.id}` as any)}
-                >
-                  <View
-                    style={[styles.themeIconBg, { backgroundColor: theme.color + '20' }]}
-                  >
-                    <Text style={styles.themeIcon}>{theme.icon}</Text>
+          {LEVELS.map((lvl) => {
+            const group = vocabularyThemes.filter((th) => th.level === lvl.key);
+            if (group.length === 0) return null;
+            return (
+              <View key={lvl.key} style={styles.levelGroup}>
+                <View style={styles.levelGroupHeader}>
+                  <View style={styles.levelGroupLeft}>
+                    <View style={[styles.levelGroupDot, { backgroundColor: lvl.color }]} />
+                    <Text style={styles.levelGroupTitle}>{lvl.label}</Text>
+                    <View style={styles.levelGroupCount}>
+                      <Text style={styles.levelGroupCountText}>{group.length}</Text>
+                    </View>
                   </View>
-                  <Text style={styles.themeName}>{lc(theme.name, theme.nameFr)}</Text>
-                  <Text style={styles.themeNameAr}>{theme.nameArabic}</Text>
-                  <View style={styles.themeFooter}>
-                    <Text style={styles.themeWordCount}>{t('vocabulary.wordsCount', { count: theme.wordCount })}</Text>
-                    {status === 'completed' && (
-                      <View style={styles.completedBadge}>
-                        <Ionicons name="checkmark-circle" size={14} color="#10b981" />
-                      </View>
-                    )}
-                    {status === 'in_progress' && (
-                      <View style={styles.progressBadge}>
-                        <Ionicons name="time" size={14} color="#D4AF37" />
-                      </View>
-                    )}
-                  </View>
-                  <View
-                    style={[styles.themeColorBar, { backgroundColor: theme.color }]}
-                  />
-                </Pressable>
-              );
-            })}
-          </View>
+                  <Text style={styles.levelGroupAr}>{lvl.ar}</Text>
+                </View>
+                <View style={styles.themeGrid}>
+                  {group.map(renderThemeCard)}
+                </View>
+              </View>
+            );
+          })}
         </View>
 
         {/* Spaced Review */}
@@ -292,6 +314,50 @@ const styles = StyleSheet.create({
     color: '#94a3b8',
     fontSize: 14,
     marginBottom: 16,
+  },
+  levelGroup: {
+    marginBottom: 8,
+  },
+  levelGroupHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 8,
+    marginBottom: 12,
+  },
+  levelGroupLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  levelGroupDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+  },
+  levelGroupTitle: {
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#e2e8f0',
+    textTransform: 'capitalize',
+  },
+  levelGroupCount: {
+    minWidth: 22,
+    height: 22,
+    paddingHorizontal: 6,
+    borderRadius: 11,
+    backgroundColor: '#1e293b',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  levelGroupCountText: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#94a3b8',
+  },
+  levelGroupAr: {
+    fontSize: 13,
+    color: '#64748b',
   },
   themeGrid: {
     flexDirection: 'row',

@@ -9,6 +9,7 @@ import { animalsTheme, animalsWords } from './themes/animals';
 import { timeTheme, timeWords } from './themes/time';
 import { placesTheme, placesWords } from './themes/places';
 import { objectsTheme, objectsWords } from './themes/objects';
+import { additionalThemes, additionalWords } from './themes/additional';
 
 // Export all themes
 export const vocabularyThemes: VocabularyTheme[] = [
@@ -22,6 +23,7 @@ export const vocabularyThemes: VocabularyTheme[] = [
   timeTheme,
   placesTheme,
   objectsTheme,
+  ...additionalThemes,
 ].sort((a, b) => a.order - b.order);
 
 // Export all words
@@ -36,6 +38,7 @@ export const vocabularyWords: VocabularyWord[] = [
   ...timeWords,
   ...placesWords,
   ...objectsWords,
+  ...additionalWords,
 ];
 
 // Helper functions

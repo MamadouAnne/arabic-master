@@ -6,6 +6,7 @@ import verbExercises from './verbExercises';
 import { grammarExercises2 } from './grammarExercises2';
 import { grammarExercises3 } from './grammarExercises3';
 import { additionalVerbExercises } from './additionalVerbExercises';
+import { additionalVocabularyExercises } from './additionalVocabularyExercises';
 
 // Combine all exercises
 export const exercises: Exercise[] = [
@@ -16,6 +17,7 @@ export const exercises: Exercise[] = [
   ...grammarExercises3,
   ...verbExercises,
   ...additionalVerbExercises,
+  ...additionalVocabularyExercises,
 ];
 
 // Helper functions
@@ -295,6 +297,12 @@ export const getExercisesForVocabularyTheme = (themeId: string): Exercise[] => {
     'time': 'ex-vocab-time',
     'places': 'ex-vocab-place',
     'objects': 'ex-vocab-obj',
+    'nature': 'ex-vocab-nature',
+    'clothing': 'ex-vocab-cloth',
+    'professions': 'ex-vocab-prof',
+    'travel': 'ex-vocab-travel',
+    'verbs-common': 'ex-vocab-cverb',
+    'emotions': 'ex-vocab-emo',
   };
 
   const prefix = themePrefixMap[themeId];
