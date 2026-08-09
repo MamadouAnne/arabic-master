@@ -78,14 +78,15 @@ export function elementOk(el: BoardElement): boolean {
 }
 
 // A directional arrow inside RTL Arabic (e.g. "كِتابٌ → الْكِتابُ") is reordered
-// unpredictably by bidi. Force any line containing an arrow to render left-to-right
-// (LRE…PDF) and normalize all arrows to "→" so it reads source → result.
+// unpredictably by bidi. Prefix any line containing an arrow with a left-to-right
+// MARK (LRM) so the line lays out source → result, and normalize all arrows to "→".
+// NOTE: do NOT use LRE/PDF embedding here — on iOS react-native-svg those
+// directional-embedding characters make the RTL run render twice (duplicate text).
 const ARROW_RE = /[←→⟶⇒➔➜]/;
-const LRE = String.fromCharCode(0x202a); // LEFT-TO-RIGHT EMBEDDING
-const PDF = String.fromCharCode(0x202c); // POP DIRECTIONAL FORMATTING
+const LRM = String.fromCharCode(0x200e); // LEFT-TO-RIGHT MARK (zero-width, not an embedding)
 function dirSafeArrows(line: string): string {
   if (!ARROW_RE.test(line)) return line;
-  return `${LRE}${line.replace(/[←⟶⇒➔➜]/g, '→')}${PDF}`;
+  return `${LRM}${line.replace(/[←⟶⇒➔➜]/g, '→')}`;
 }
 
 export function renderBoardElement(el: BoardElement, key: string, canvasWidth = 360) {
