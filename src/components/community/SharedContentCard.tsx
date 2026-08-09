@@ -48,6 +48,8 @@ export const SharedContentCard = React.memo(function SharedContentCard({ content
         </Pressable>
       ) : null}
 
+      {(content.translit || content.translation) ? <View style={styles.divider} /> : null}
+
       {content.translit ? <Text style={styles.translit}>{content.translit}</Text> : null}
       {content.translation ? <Text style={styles.translation}>{content.translation}</Text> : null}
 
@@ -83,10 +85,11 @@ const styles = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 8 },
   kind: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.4 },
   ref: { fontSize: 11, color: '#94a3b8', marginLeft: 'auto', maxWidth: 130 },
-  arabic: { fontSize: 26, color: '#f8fafc', lineHeight: 46, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
+  arabic: { fontSize: 27, color: '#f8fafc', lineHeight: 48, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
   audioBtn: { width: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center', marginLeft: 6 },
-  translit: { fontSize: 13, color: '#cbd5e1', fontStyle: 'italic', marginTop: 4 },
-  translation: { fontSize: 15, color: '#e2e8f0', lineHeight: 21, marginTop: 4 },
+  divider: { height: 1, backgroundColor: 'rgba(148,163,184,0.2)', marginTop: 12, marginBottom: 10 },
+  translit: { fontSize: 15, color: '#cbd5e1', lineHeight: 25, letterSpacing: 0.2 },
+  translation: { fontSize: 16, color: '#f1f5f9', lineHeight: 25, marginTop: 12 },
   exampleBox: { marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: '#33415580' },
   exampleArabic: { fontSize: 17, color: '#f1f5f9', lineHeight: 28, textAlign: 'right', writingDirection: 'rtl' },
   exampleTr: { fontSize: 12, color: '#94a3b8', marginTop: 2 },
