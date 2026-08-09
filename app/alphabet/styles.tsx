@@ -89,7 +89,7 @@ export default function AlphabetStylesScreen() {
                   <Text style={styles.letterTranslit}>{letter.transliteration}</Text>
                 </View>
                 {STYLES.map((s) => (
-                  <View key={s.key} style={[styles.glyphCell, { backgroundColor: `${s.color}14` }]}>
+                  <View key={s.key} style={styles.glyphCell}>
                     <Text style={[styles.glyph, s.font ? { fontFamily: s.font } : null]}>{glyph}</Text>
                   </View>
                 ))}
@@ -124,11 +124,11 @@ const styles = StyleSheet.create({
   formPillText: { fontSize: 13, fontWeight: '600', color: '#94a3b8' },
   formPillTextActive: { color: '#a5b4fc' },
   tableHeader: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 8, borderBottomWidth: 1, borderBottomColor: '#1e293b', marginBottom: 4 },
-  colHead: { flex: 1, fontSize: 12, fontWeight: '700', textAlign: 'center', textTransform: 'uppercase', letterSpacing: 0.3, marginHorizontal: 3 },
-  row: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 6, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
+  colHead: { flex: 1, fontSize: 12, fontWeight: '700', textAlign: 'center', textTransform: 'uppercase', letterSpacing: 0.3 },
+  row: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
   nameCol: { width: 92 },
   letterName: { fontSize: 14, fontWeight: '700', color: '#e2e8f0' },
   letterTranslit: { fontSize: 12, color: '#64748b', fontStyle: 'italic', marginTop: 1 },
-  glyphCell: { flex: 1, alignItems: 'center', justifyContent: 'center', minHeight: 68, marginHorizontal: 3, borderRadius: 10 },
-  glyph: { fontSize: 36, color: '#f8fafc', lineHeight: 64, textAlign: 'center', writingDirection: 'rtl' },
+  glyphCell: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  glyph: { fontSize: 34, color: '#f8fafc', lineHeight: 56, textAlign: 'center', writingDirection: 'rtl' },
 });
