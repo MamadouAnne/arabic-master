@@ -348,6 +348,14 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   };
   const cancelInlineText = () => { setEditing(null); setEditingIndex(null); setTextValue(''); };
 
+  // Switching tools must finish any open text first (e.g. if the keyboard was
+  // swiped away without pressing Done, `editing` would otherwise stay set and
+  // block the next tool's gestures).
+  const changeTool = (next: Tool) => {
+    if (editing) commitInlineText();
+    setTool(next);
+  };
+
   // ── Selected-element actions (Move tool) ───────────────────────
   const resizeSelected = (dir: 1 | -1) => {
     if (selectedIndex == null) return;
@@ -554,7 +562,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
               {SHAPES.map((s) => {
                 const on = tool === s.tool;
                 return (
-                  <Pressable key={s.tool} onPress={() => setTool(s.tool)} style={[styles.shapeBtn, on && { backgroundColor: `${groupColor}22`, borderColor: groupColor }]}>
+                  <Pressable key={s.tool} onPress={() => changeTool(s.tool)} style={[styles.shapeBtn, on && { backgroundColor: `${groupColor}22`, borderColor: groupColor }]}>
                     <Ionicons name={s.icon as any} size={16} color={on ? groupColor : '#cbd5e1'} />
                     <Text style={[styles.shapeText, on && { color: groupColor }]}>{s.label}</Text>
                   </Pressable>
@@ -595,7 +603,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                 <Pressable
                   key={t.tool}
                   style={styles.toolCol}
-                  onPress={() => (t.tool === 'shapes' ? (!isShape && setTool('arrow')) : setTool(t.tool as Tool))}
+                  onPress={() => (t.tool === 'shapes' ? (!isShape && changeTool('arrow')) : changeTool(t.tool as Tool))}
                 >
                   <View style={[styles.toolIcon, active && { backgroundColor: groupColor }]}>
                     <Ionicons name={t.icon as any} size={22} color={active ? '#ffffff' : '#cbd5e1'} />
