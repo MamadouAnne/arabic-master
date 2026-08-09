@@ -64,6 +64,7 @@ export default {
     totalXp: 'XP Total',
     alphabet: 'Alphabet',
     vocabulary: 'Vocabulaire',
+    quran: 'Coran',
     accuracy: 'Pr\u00e9cision',
     continueLearning: 'Continuer \u00e0 Apprendre',
     quickActions: 'Actions Rapides',

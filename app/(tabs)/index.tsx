@@ -25,6 +25,15 @@ const MODULES: Record<ModuleType, {
 };
 
 const MODULE_ORDER: ModuleType[] = ['alphabet', 'vocabulary', 'grammar', 'verbs', 'reading', 'practice'];
+
+// Cards shown in the "Explore" grid (independent of the learning modules above).
+type ExploreCard = { titleKey: string; titleArabic: string; icon: keyof typeof Ionicons.glyphMap; color: string; route: string; arabicChar: string };
+const EXPLORE: ExploreCard[] = [
+  MODULES.alphabet,
+  { titleKey: 'home.quran', titleArabic: 'الْقُرْآن', icon: 'book', color: '#D4AF37', route: '/quran', arabicChar: '۞' },
+  MODULES.grammar,
+  MODULES.verbs,
+];
 const TIPS_COUNT = 5;
 
 export default function HomeScreen() {
@@ -98,11 +107,10 @@ export default function HomeScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t('home.explore')}</Text>
           <View style={styles.grid}>
-            {MODULE_ORDER.slice(0, 4).map((key) => {
-              const m = MODULES[key];
+            {EXPLORE.map((m) => {
               return (
                 <Pressable
-                  key={key}
+                  key={m.route}
                   style={styles.moduleCard}
                   onPress={() => router.push(m.route as any)}
                   accessibilityRole="button"
