@@ -556,11 +556,9 @@ const styles = StyleSheet.create({
     fontSize: 13,
   },
   sentencesHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
     paddingHorizontal: 20,
     marginBottom: 16,
+    gap: 12,
   },
   sectionTitle: {
     color: '#ffffff',
@@ -570,6 +568,8 @@ const styles = StyleSheet.create({
   headerButtons: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap',
     gap: 8,
   },
   speedToggle: {

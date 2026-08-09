@@ -17,8 +17,6 @@ import { CreditPurchaseSheet } from '../../src/components/ai/CreditPurchaseSheet
 import { revenueCatService } from '../../src/services/revenueCatService';
 import { useCommunityStore } from '../../src/stores/communityStore';
 import * as communityService from '../../src/services/communityService';
-import { LeaderboardType } from '../../src/types/community';
-import { LeaderboardPreview } from '../../src/components/community/LeaderboardPreview';
 
 export default function ProfileScreen() {
   const { t, i18n } = useTranslation();
@@ -38,18 +36,13 @@ export default function ProfileScreen() {
   const unlockedList = getUnlockedAchievements();
   const lockedList = ACHIEVEMENTS.filter((a) => !unlockedAchievements.includes(a.id));
 
-  // ── Community / Gamification data ──────────────────────────────
-  const [lbType, setLbType] = useState<LeaderboardType>('allTime');
+  // ── Gamification data ──────────────────────────────────────────
   const [refreshing, setRefreshing] = useState(false);
   const userId = useSettingsStore((s) => s.user?.id);
 
   const {
     dailyChallenge,
     initializeChallenges,
-    fetchCommunityStats,
-    fetchLeaderboard,
-    leaderboardEntries,
-    isLoadingLeaderboard,
   } = useCommunityStore();
 
   useEffect(() => {
@@ -57,22 +50,13 @@ export default function ProfileScreen() {
     if (userId && progress.totalXp > 0) {
       communityService.syncProgress(userId, progress.totalXp, progress.currentStreak, progress.longestStreak);
     }
-    fetchCommunityStats();
   }, []);
-
-  useEffect(() => {
-    fetchLeaderboard(lbType, userId);
-  }, [lbType, userId]);
 
   const onRefresh = useCallback(async () => {
     setRefreshing(true);
     initializeChallenges();
-    await Promise.all([
-      fetchCommunityStats(true),
-      fetchLeaderboard(lbType, userId, true),
-    ]);
     setRefreshing(false);
-  }, [initializeChallenges, fetchCommunityStats, fetchLeaderboard, lbType, userId]);
+  }, [initializeChallenges]);
 
   const handleLanguageChange = (lang: 'en' | 'fr') => {
     setLanguage(lang);
@@ -347,126 +331,113 @@ export default function ProfileScreen() {
           />
         </View>
 
-        {/* Profile Info Card */}
-        <View style={styles.profileCard}>
-          <View style={styles.profileAvatar}>
-            <Ionicons name="person-circle" size={56} color="#818cf8" />
-          </View>
-          <View style={styles.profileInfo}>
-            {isEditingName ? (
-              <View style={styles.editNameRow}>
-                <TextInput
-                  ref={nameInputRef}
-                  style={styles.editNameInput}
-                  value={editNameValue}
-                  onChangeText={setEditNameValue}
-                  placeholder={t('profile.enterName') || 'Enter your name'}
-                  placeholderTextColor="#64748b"
-                  maxLength={50}
-                  autoCapitalize="words"
-                  returnKeyType="done"
-                  onSubmitEditing={handleSaveName}
-                />
-                <View style={styles.editNameActions}>
-                  {isSavingName ? (
-                    <ActivityIndicator size="small" color="#10b981" />
-                  ) : (
-                    <>
-                      <Pressable onPress={handleSaveName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel="Save">
-                        <Ionicons name="checkmark" size={20} color="#10b981" />
-                      </Pressable>
-                      <Pressable onPress={handleCancelEditName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel="Cancel">
-                        <Ionicons name="close" size={20} color="#ef4444" />
-                      </Pressable>
-                    </>
-                  )}
+        {/* Profile hero: identity + XP + stats */}
+        <View style={styles.heroCard}>
+          <View style={styles.heroTopRow}>
+            <View style={styles.avatarRing}>
+              <View style={styles.avatarInner}>
+                <Ionicons name="person" size={32} color="#818cf8" />
+              </View>
+            </View>
+            <View style={styles.heroInfo}>
+              {isEditingName ? (
+                <View style={styles.editNameRow}>
+                  <TextInput
+                    ref={nameInputRef}
+                    style={styles.editNameInput}
+                    value={editNameValue}
+                    onChangeText={setEditNameValue}
+                    placeholder={t('profile.enterName') || 'Enter your name'}
+                    placeholderTextColor="#64748b"
+                    maxLength={50}
+                    autoCapitalize="words"
+                    returnKeyType="done"
+                    onSubmitEditing={handleSaveName}
+                  />
+                  <View style={styles.editNameActions}>
+                    {isSavingName ? (
+                      <ActivityIndicator size="small" color="#10b981" />
+                    ) : (
+                      <>
+                        <Pressable onPress={handleSaveName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel="Save">
+                          <Ionicons name="checkmark" size={20} color="#10b981" />
+                        </Pressable>
+                        <Pressable onPress={handleCancelEditName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel="Cancel">
+                          <Ionicons name="close" size={20} color="#ef4444" />
+                        </Pressable>
+                      </>
+                    )}
+                  </View>
                 </View>
-              </View>
-            ) : (
-              <View style={styles.nameRow}>
-                <Text style={styles.profileName}>
-                  {displayName || user?.email?.split('@')[0] || t('profile.learner') || 'Learner'}
-                </Text>
-                <Pressable onPress={handleEditName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel={t('profile.editName') || 'Edit name'}>
-                  <Ionicons name="pencil" size={16} color="#64748b" />
-                </Pressable>
-              </View>
-            )}
+              ) : (
+                <>
+                  <View style={styles.nameRow}>
+                    <Text style={styles.profileName} numberOfLines={1}>
+                      {displayName || user?.email?.split('@')[0] || t('profile.learner') || 'Learner'}
+                    </Text>
+                    <Pressable onPress={handleEditName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel={t('profile.editName') || 'Edit name'}>
+                      <Ionicons name="pencil" size={15} color="#64748b" />
+                    </Pressable>
+                  </View>
+                  {!!user?.email && (
+                    <Text style={styles.heroEmail} numberOfLines={1}>{user.email}</Text>
+                  )}
+                  <View style={styles.xpPill}>
+                    <Ionicons name="star" size={13} color="#0f172a" />
+                    <Text style={styles.xpPillText}>{progress.totalXp.toLocaleString()} XP</Text>
+                  </View>
+                </>
+              )}
+            </View>
+          </View>
+
+          <View style={styles.statsGrid}>
+            <View style={styles.statTile}>
+              <Ionicons name="flame" size={20} color="#f59e0b" />
+              <Text style={styles.statValue}>{progress.currentStreak}</Text>
+              <Text style={styles.statLabel}>{t('profile.dayStreak')}</Text>
+            </View>
+            <View style={styles.statTile}>
+              <Ionicons name="trophy" size={20} color="#D4AF37" />
+              <Text style={styles.statValue}>{progress.longestStreak}</Text>
+              <Text style={styles.statLabel}>{t('profile.bestStreak')}</Text>
+            </View>
+            <View style={styles.statTile}>
+              <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+              <Text style={styles.statValue}>{progress.exerciseResults.totalCompleted}</Text>
+              <Text style={styles.statLabel}>{t('profile.exercises')}</Text>
+            </View>
+            <View style={styles.statTile}>
+              <Ionicons name="analytics" size={20} color="#6366f1" />
+              <Text style={styles.statValue}>{getAccuracy()}%</Text>
+              <Text style={styles.statLabel}>{t('profile.accuracy')}</Text>
+            </View>
           </View>
         </View>
 
-        {/* XP Card */}
-        <View style={styles.xpCard}>
-          <View style={styles.xpCardMain}>
-            <Ionicons name="star" size={28} color="#f59e0b" />
-            <Text style={styles.xpCardValue}>{progress.totalXp}</Text>
-            <Text style={styles.xpCardLabel}>XP</Text>
+        {/* Challenges */}
+        <Pressable
+          style={styles.challengeCard}
+          onPress={() => router.push('/community/challenges' as Href)}
+          accessibilityRole="button"
+          accessibilityLabel={t('community.challenges')}
+        >
+          <View style={styles.challengeIcon}>
+            <Ionicons name="flag" size={22} color="#f97316" />
           </View>
-          <View style={styles.xpCardDivider} />
-          <View style={styles.xpCardStats}>
-            <View style={styles.xpCardStat}>
-              <Ionicons name="flame" size={18} color="#f59e0b" />
-              <Text style={styles.xpCardStatValue}>{progress.currentStreak}</Text>
-              <Text style={styles.xpCardStatLabel}>{t('profile.dayStreak')}</Text>
-            </View>
-            <View style={styles.xpCardStat}>
-              <Ionicons name="trophy" size={18} color="#D4AF37" />
-              <Text style={styles.xpCardStatValue}>{progress.longestStreak}</Text>
-              <Text style={styles.xpCardStatLabel}>{t('profile.bestStreak')}</Text>
-            </View>
-            <View style={styles.xpCardStat}>
-              <Ionicons name="checkmark-circle" size={18} color="#10b981" />
-              <Text style={styles.xpCardStatValue}>{progress.exerciseResults.totalCompleted}</Text>
-              <Text style={styles.xpCardStatLabel}>{t('profile.exercises')}</Text>
-            </View>
-            <View style={styles.xpCardStat}>
-              <Ionicons name="analytics" size={18} color="#6366f1" />
-              <Text style={styles.xpCardStatValue}>{getAccuracy()}%</Text>
-              <Text style={styles.xpCardStatLabel}>{t('profile.accuracy')}</Text>
-            </View>
+          <View style={styles.challengeText}>
+            <Text style={styles.challengeTitle}>{t('community.challenges')}</Text>
+            <Text style={styles.challengeArabic}>التحديات</Text>
           </View>
-        </View>
-
-        {/* Shortcut Cards — Leaderboard + Challenges */}
-        <View style={styles.shortcutCardsRow}>
-          <Pressable
-            style={styles.shortcutCard}
-            onPress={() => router.push('/community/leaderboard' as Href)}
-            accessibilityRole="button"
-            accessibilityLabel={t('community.leaderboard')}
-          >
-            <View style={[styles.shortcutIconContainer, { backgroundColor: 'rgba(212, 175, 55, 0.15)' }]}>
-              <Ionicons name="trophy" size={26} color="#D4AF37" />
-            </View>
-            <Text style={styles.shortcutTitle}>{t('community.leaderboard')}</Text>
-            <Text style={styles.shortcutTitleArabic}>الترتيب</Text>
-          </Pressable>
-          <Pressable
-            style={styles.shortcutCard}
-            onPress={() => router.push('/community/challenges' as Href)}
-            accessibilityRole="button"
-            accessibilityLabel={t('community.challenges')}
-          >
-            <View style={[styles.shortcutIconContainer, { backgroundColor: 'rgba(249, 115, 22, 0.15)' }]}>
-              <Ionicons name="flag" size={26} color="#f97316" />
-            </View>
-            <Text style={styles.shortcutTitle}>{t('community.challenges')}</Text>
-            <Text style={styles.shortcutTitleArabic}>التحديات</Text>
-            {dailyChallenge && (
-              <Text style={styles.shortcutSubtitle} numberOfLines={1}>
+          {dailyChallenge && (
+            <View style={styles.challengeProgressPill}>
+              <Text style={styles.challengeProgressText}>
                 {dailyChallenge.currentValue}/{dailyChallenge.targetValue}
               </Text>
-            )}
-          </Pressable>
-        </View>
-
-        {/* Embedded Leaderboard Preview */}
-        <LeaderboardPreview
-          entries={leaderboardEntries}
-          isLoading={isLoadingLeaderboard}
-          currentType={lbType}
-          onTypeChange={setLbType}
-        />
+            </View>
+          )}
+          <Ionicons name="chevron-forward" size={20} color="#64748b" />
+        </Pressable>
 
         {/* Subscription & Credits */}
         <View style={styles.section}>
@@ -941,34 +912,72 @@ const styles = StyleSheet.create({
     color: '#D4AF37',
     marginTop: 4,
   },
-  profileCard: {
+  heroCard: {
     backgroundColor: '#1e293b',
     marginHorizontal: 20,
-    borderRadius: 16,
-    paddingHorizontal: 16,
-    paddingVertical: 12,
+    borderRadius: 20,
+    padding: 18,
+    marginBottom: 18,
+    borderWidth: 1,
+    borderColor: '#334155',
+  },
+  heroTopRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 24,
+    gap: 14,
   },
-  profileAvatar: {
-    width: 56,
-    height: 56,
+  avatarRing: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
     alignItems: 'center',
     justifyContent: 'center',
+    borderWidth: 2,
+    borderColor: 'rgba(129, 140, 248, 0.5)',
+    backgroundColor: 'rgba(129, 140, 248, 0.06)',
   },
-  profileInfo: {
+  avatarInner: {
+    width: 52,
+    height: 52,
+    borderRadius: 26,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(129, 140, 248, 0.14)',
+  },
+  heroInfo: {
     flex: 1,
-    marginLeft: 12,
   },
   nameRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    gap: 6,
   },
   profileName: {
-    fontSize: 18,
-    fontWeight: 'bold',
+    fontSize: 20,
+    fontWeight: '800',
     color: '#ffffff',
+    flexShrink: 1,
+  },
+  heroEmail: {
+    fontSize: 13,
+    color: '#94a3b8',
+    marginTop: 2,
+  },
+  xpPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    alignSelf: 'flex-start',
+    marginTop: 10,
+    backgroundColor: '#D4AF37',
+    borderRadius: 20,
+    paddingHorizontal: 12,
+    paddingVertical: 5,
+  },
+  xpPillText: {
+    color: '#0f172a',
+    fontSize: 13,
+    fontWeight: '800',
   },
   editNameRow: {
     flexDirection: 'row',
@@ -997,52 +1006,72 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  xpCard: {
-    backgroundColor: '#1e293b',
-    marginHorizontal: 20,
-    borderRadius: 16,
-    padding: 20,
-    marginBottom: 24,
-    borderWidth: 1,
-    borderColor: '#f59e0b25',
-  },
-  xpCardMain: {
+  statsGrid: {
     flexDirection: 'row',
+    marginTop: 18,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: '#293548',
+  },
+  statTile: {
+    flex: 1,
+    alignItems: 'center',
+    gap: 5,
+  },
+  statValue: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#f8fafc',
+  },
+  statLabel: {
+    fontSize: 11,
+    color: '#64748b',
+  },
+  challengeCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    marginHorizontal: 20,
+    marginBottom: 24,
+    backgroundColor: '#1e293b',
+    borderRadius: 16,
+    padding: 14,
+    borderWidth: 1,
+    borderColor: '#334155',
+  },
+  challengeIcon: {
+    width: 44,
+    height: 44,
+    borderRadius: 13,
+    backgroundColor: 'rgba(249, 115, 22, 0.14)',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 8,
   },
-  xpCardValue: {
-    fontSize: 36,
-    fontWeight: 'bold',
-    color: '#f5f5f0',
+  challengeText: {
+    flex: 1,
   },
-  xpCardLabel: {
-    fontSize: 18,
-    fontWeight: '600',
-    color: '#f59e0b',
+  challengeTitle: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: '#ffffff',
   },
-  xpCardDivider: {
-    height: 1,
-    backgroundColor: '#334155',
-    marginVertical: 16,
+  challengeArabic: {
+    fontSize: 13,
+    color: '#D4AF37',
+    marginTop: 1,
   },
-  xpCardStats: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
+  challengeProgressPill: {
+    backgroundColor: '#0f172a',
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderWidth: 1,
+    borderColor: '#334155',
   },
-  xpCardStat: {
-    alignItems: 'center',
-    gap: 4,
-  },
-  xpCardStatValue: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#f5f5f0',
-  },
-  xpCardStatLabel: {
-    fontSize: 11,
-    color: '#94a3b8',
+  challengeProgressText: {
+    color: '#f97316',
+    fontSize: 13,
+    fontWeight: '700',
   },
   section: {
     paddingHorizontal: 20,
@@ -1522,49 +1551,6 @@ const styles = StyleSheet.create({
   },
 
   // ── Community gamification sections ──────────────────────────────
-  shortcutCardsRow: {
-    flexDirection: 'row',
-    paddingHorizontal: 20,
-    gap: 12,
-    marginBottom: 24,
-  },
-  shortcutCard: {
-    flex: 1,
-    alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
-    paddingVertical: 16,
-    paddingHorizontal: 12,
-    borderWidth: 1,
-    borderColor: '#334155',
-  },
-  shortcutIconContainer: {
-    width: 48,
-    height: 48,
-    borderRadius: 14,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 10,
-  },
-  shortcutTitle: {
-    fontSize: 15,
-    fontWeight: '700',
-    color: '#ffffff',
-    textAlign: 'center',
-  },
-  shortcutTitleArabic: {
-    fontSize: 12,
-    color: '#D4AF37',
-    marginTop: 2,
-    textAlign: 'center',
-  },
-  shortcutSubtitle: {
-    fontSize: 12,
-    color: '#94a3b8',
-    marginTop: 4,
-    textAlign: 'center',
-  },
-
   // Storage styles
   storageCard: {
     backgroundColor: '#1e293b',
