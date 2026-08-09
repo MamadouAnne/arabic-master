@@ -48,16 +48,18 @@ const BACKGROUNDS: BoardBackground[] = ['dark', 'chalk', 'white', 'cream'];
 export function BoardEditor({ visible, groupColor, initial, seedText, onSave, onClose }: Props) {
   const [background, setBackground] = useState<BoardBackground>(initial?.background || 'dark');
   const [grid, setGrid] = useState<BoardGrid>(initial?.grid || 'none');
-  const [tool, setTool] = useState<Tool>(seedText ? 'move' : 'pen');
+  // Existing boards open in Move mode (pan/scroll + reposition); new blank boards in Draw.
+  const [tool, setTool] = useState<Tool>(seedText || initial ? 'move' : 'pen');
   const [color, setColor] = useState<string>(BOARD_DEFAULT_INK[initial?.background || 'dark']);
   const [width, setWidth] = useState<number>(WIDTHS[1]);
   const [elements, setElements] = useState<BoardElement[]>((initial?.elements || []).filter(elementOk));
   const [live, setLive] = useState<BoardElement | null>(null);
   const [canvas, setCanvas] = useState({ w: 1, h: 1 });
-  const [textModal, setTextModal] = useState<{ x: number; y: number } | null>(null);
+  const [editing, setEditing] = useState<{ x: number; y: number } | null>(null);
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
   const [textColor, setTextColor] = useState('#f8fafc');
+  const [elemDragging, setElemDragging] = useState(false); // dragging an element in Move mode
   // AI course drafting
   const [aiModal, setAiModal] = useState<null | 'draft' | 'refine'>(null);
   const [aiLoading, setAiLoading] = useState(false);
@@ -78,6 +80,8 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const canvasRef = useRef(canvas); canvasRef.current = canvas;
   const dragRef = useRef<{ index: number; orig: BoardElement; sx: number; sy: number } | null>(null);
   const seededRef = useRef(false);
+  const editingRef = useRef(editing); editingRef.current = editing;
+  const scrollRef = useRef<ScrollView>(null);
 
   // Drop a message's text onto the board (once the canvas is measured).
   useEffect(() => {
@@ -96,6 +100,13 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     redo.current = [];
   };
 
+  // Bring the caret into view above the keyboard when inline text editing starts.
+  useEffect(() => {
+    if (!editing) return;
+    const target = Math.max(0, editing.y - canvas.h * 0.32);
+    requestAnimationFrame(() => scrollRef.current?.scrollTo({ y: target, animated: true }));
+  }, [editing]);
+
   const eraseAt = (x: number, y: number) => {
     const cw = canvasRef.current.w;
     setElements((prev) => {
@@ -106,10 +117,25 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     });
   };
 
+  // Decide whether the draw layer grabs this touch. Drawing tools always grab
+  // (so the ScrollView can't scroll mid-stroke); in Move mode we only grab when
+  // a touch lands on an element — empty space falls through so the board scrolls.
+  const shouldClaim = (e: any) => {
+    if (editingRef.current) return false; // typing: let taps reach the input
+    const { locationX: x, locationY: y } = e.nativeEvent;
+    if (!Number.isFinite(x) || !Number.isFinite(y)) return false;
+    if (toolRef.current === 'move') {
+      const els = elementsRef.current, cw = canvasRef.current.w;
+      for (let i = els.length - 1; i >= 0; i--) if (hitTest(els[i], x, y, cw)) return true;
+      return false;
+    }
+    return true;
+  };
+
   const pan = useRef(
     PanResponder.create({
-      onStartShouldSetPanResponder: () => true,
-      onMoveShouldSetPanResponder: () => true,
+      onStartShouldSetPanResponder: shouldClaim,
+      onMoveShouldSetPanResponder: shouldClaim,
       onPanResponderGrant: (e) => {
         const { locationX: x, locationY: y } = e.nativeEvent;
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
@@ -118,7 +144,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           setTextValue('');
           setTextColor(colorRef.current);
           setTextSize(Math.round(Math.min(40, Math.max(20, canvasRef.current.w / 13))));
-          setTextModal({ x, y });
+          setEditing({ x, y });
           return;
         }
         if (t === 'eraser') { eraseAt(x, y); return; }
@@ -126,7 +152,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           const els = elementsRef.current;
           const cw = canvasRef.current.w;
           for (let i = els.length - 1; i >= 0; i--) {
-            if (hitTest(els[i], x, y, cw)) { dragRef.current = { index: i, orig: els[i], sx: x, sy: y }; break; }
+            if (hitTest(els[i], x, y, cw)) { dragRef.current = { index: i, orig: els[i], sx: x, sy: y }; setElemDragging(true); break; }
           }
           return;
         }
@@ -165,7 +191,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         }
       },
       onPanResponderRelease: () => {
-        if (toolRef.current === 'move') { dragRef.current = null; return; }
+        if (toolRef.current === 'move') { dragRef.current = null; setElemDragging(false); return; }
         const cur = liveRef.current;
         if (cur) {
           // Ignore near-zero shapes (accidental taps). Text is never live here.
@@ -194,14 +220,17 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     { text: 'Clear', style: 'destructive', onPress: () => { setElements([]); redo.current = []; } },
   ]);
 
-  const addText = () => {
-    if (textModal && textValue.trim()) {
-      // Clamp x so text always has room to wrap into full lines (no cutting).
-      const x = Math.min(textModal.x, Math.max(16, canvas.w * 0.34));
-      commit({ type: 'text', x, y: textModal.y, text: textValue.trim(), color: textColor, size: textSize });
+  // Clamp the caret x so text always has room to wrap into full lines (no cutting).
+  const inlineX = editing ? Math.min(editing.x, Math.max(16, canvas.w * 0.34)) : 0;
+
+  const commitInlineText = () => {
+    if (editing && textValue.trim()) {
+      // el.y is the text baseline; offset from the caret top so it lands where typed.
+      commit({ type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: textValue.trim(), color: textColor, size: textSize });
     }
-    setTextModal(null); setTextValue('');
+    setEditing(null); setTextValue('');
   };
+  const cancelInlineText = () => { setEditing(null); setTextValue(''); };
 
   // Render a CourseSpec onto the board (shared by AI + manual builder), keeping
   // freehand drawings added after the previous course.
@@ -261,6 +290,15 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
   const isShape = SHAPE_TOOLS.includes(tool);
 
+  // Virtual canvas height: at least the viewport, plus headroom below the drawn
+  // content so the board can be scrolled and extended in edit mode.
+  const contentH = useMemo(
+    () => (canvas.w < 2 ? canvas.h : Math.max(canvas.h, boardContentHeight(elements, canvas.w) + 320)),
+    [elements, canvas.w, canvas.h]
+  );
+  // Scroll only in Move mode (drawing tools own the gesture); frozen while typing/dragging.
+  const canScroll = tool === 'move' && !editing && !elemDragging;
+
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top', 'bottom']}>
@@ -285,22 +323,56 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           style={styles.canvasWrap}
           onLayout={(ev) => setCanvas({ w: Math.round(ev.nativeEvent.layout.width), h: Math.round(ev.nativeEvent.layout.height) })}
         >
-          <View style={StyleSheet.absoluteFill}>
-            <BoardCanvas content={baseContent} width={canvas.w} height={canvas.h} />
-          </View>
-          {/* Live overlay (1:1 with canvas) */}
-          <View style={StyleSheet.absoluteFill} pointerEvents="none">
-            {live && (
-              <Svg width={canvas.w} height={canvas.h} viewBox={`0 0 ${canvas.w} ${canvas.h}`}>
-                {renderBoardElement(live, 'live', canvas.w)}
-              </Svg>
-            )}
-          </View>
-          {/* Touch layer */}
-          <View style={StyleSheet.absoluteFill} {...pan.panHandlers} />
+          <ScrollView
+            ref={scrollRef}
+            style={StyleSheet.absoluteFill}
+            scrollEnabled={canScroll}
+            showsVerticalScrollIndicator
+            keyboardShouldPersistTaps="handled"
+          >
+            <View style={{ width: canvas.w, height: contentH }}>
+              <View style={StyleSheet.absoluteFill}>
+                <BoardCanvas content={{ ...baseContent, height: contentH }} width={canvas.w} height={contentH} />
+              </View>
+              {/* Live overlay (1:1 with canvas) */}
+              <View style={StyleSheet.absoluteFill} pointerEvents="none">
+                {live && (
+                  <Svg width={canvas.w} height={contentH} viewBox={`0 0 ${canvas.w} ${contentH}`}>
+                    {renderBoardElement(live, 'live', canvas.w)}
+                  </Svg>
+                )}
+              </View>
+              {/* Touch layer (disabled while typing so taps reach the caret) */}
+              {!editing && <View style={StyleSheet.absoluteFill} {...pan.panHandlers} />}
+              {/* Inline text caret — type directly on the board */}
+              {editing && (
+                <TextInput
+                  style={[
+                    styles.inlineInput,
+                    {
+                      left: inlineX,
+                      top: editing.y,
+                      width: Math.max(60, canvas.w - inlineX - 8),
+                      color: textColor,
+                      fontSize: Math.min(textSize, 44),
+                      lineHeight: Math.min(textSize, 44) * 1.28,
+                    },
+                  ]}
+                  value={textValue}
+                  onChangeText={setTextValue}
+                  autoFocus
+                  multiline
+                  blurOnSubmit={false}
+                  selectionColor={groupColor}
+                  placeholder="Type…"
+                  placeholderTextColor="#64748b"
+                />
+              )}
+            </View>
+          </ScrollView>
 
           {/* Empty-state: draft with AI or build manually */}
-          {elements.length === 0 && !live && (
+          {elements.length === 0 && !live && !editing && (
             <View style={styles.emptyState} pointerEvents="box-none">
               <Pressable style={[styles.draftBtn, { backgroundColor: groupColor }]} onPress={() => setAiModal('draft')}>
                 <Ionicons name="sparkles" size={18} color="#ffffff" />
@@ -383,48 +455,26 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           </View>
         </View>
 
-        {/* Text entry */}
-        {textModal && (
-          <Modal transparent animationType="fade" onRequestClose={() => setTextModal(null)}>
-            <KeyboardAvoidingView style={styles.textBackdrop} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
-              <Pressable style={StyleSheet.absoluteFill} onPress={() => setTextModal(null)} />
-              <View style={styles.textCard}>
-                <Text style={styles.textLabel}>Add text</Text>
-
-                {/* Live preview of how it will look on the board */}
-                <View style={[styles.textPreview, { backgroundColor: BOARD_BG[background] }]}>
-                  <Text style={{ color: textColor, fontSize: Math.min(textSize, 34), lineHeight: Math.min(textSize, 34) * 1.28, fontWeight: '700' }}>
-                    {textValue || 'Preview'}
-                  </Text>
-                </View>
-
-                <TextInput style={styles.textInput} value={textValue} onChangeText={setTextValue} placeholder="Type a word or a full sentence…" placeholderTextColor="#64748b" autoFocus multiline />
-
-                {/* Size stepper */}
-                <View style={styles.textCtrlRow}>
-                  <Text style={styles.textCtrlLabel}>Size</Text>
-                  <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.max(14, s - 3))}><Ionicons name="remove" size={20} color="#e2e8f0" /></Pressable>
-                  <Text style={styles.stepVal}>{textSize}</Text>
-                  <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.min(80, s + 3))}><Ionicons name="add" size={20} color="#e2e8f0" /></Pressable>
-                </View>
-
-                {/* Color */}
-                <View style={styles.textCtrlRow}>
-                  <Text style={styles.textCtrlLabel}>Color</Text>
-                  <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 10, alignItems: 'center' }}>
-                    {PALETTE.map((c) => (
-                      <Pressable key={c} onPress={() => setTextColor(c)} style={[styles.swatch, { backgroundColor: c }, textColor === c && styles.swatchActive]} />
-                    ))}
-                  </ScrollView>
-                </View>
-
-                <View style={styles.textActions}>
-                  <Pressable onPress={() => setTextModal(null)}><Text style={styles.textCancel}>Cancel</Text></Pressable>
-                  <Pressable onPress={addText} style={[styles.textAdd, { backgroundColor: groupColor }]}><Text style={styles.textAddText}>Add</Text></Pressable>
-                </View>
-              </View>
-            </KeyboardAvoidingView>
-          </Modal>
+        {/* Inline text controls — float above the keyboard while typing on the board */}
+        {editing && (
+          <KeyboardAvoidingView
+            style={styles.textBarWrap}
+            behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+            pointerEvents="box-none"
+          >
+            <View style={styles.textBar}>
+              <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.max(14, s - 3))}><Ionicons name="remove" size={20} color="#e2e8f0" /></Pressable>
+              <Text style={styles.stepVal}>{textSize}</Text>
+              <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.min(80, s + 3))}><Ionicons name="add" size={20} color="#e2e8f0" /></Pressable>
+              <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.textBarSwatches} contentContainerStyle={{ gap: 10, alignItems: 'center', paddingHorizontal: 4 }} keyboardShouldPersistTaps="handled">
+                {PALETTE.map((c) => (
+                  <Pressable key={c} onPress={() => setTextColor(c)} style={[styles.swatch, { backgroundColor: c }, textColor === c && styles.swatchActive]} />
+                ))}
+              </ScrollView>
+              <Pressable onPress={cancelInlineText} hitSlop={6}><Text style={styles.textCancel}>Cancel</Text></Pressable>
+              <Pressable onPress={commitInlineText} style={[styles.textAdd, { backgroundColor: groupColor }]}><Text style={styles.textAddText}>Done</Text></Pressable>
+            </View>
+          </KeyboardAvoidingView>
         )}
 
         {/* AI course drafting / refining */}
@@ -529,17 +579,15 @@ const styles = StyleSheet.create({
   action: { alignItems: 'center', gap: 3, paddingHorizontal: 8, paddingVertical: 4 },
   actionText: { fontSize: 11, fontWeight: '600', color: '#94a3b8' },
   paperSwatch: { width: 19, height: 19, borderRadius: 5, borderWidth: 1, borderColor: '#475569' },
-  textBackdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.6)', justifyContent: 'center', paddingHorizontal: 22 },
-  textCard: { backgroundColor: '#1e293b', borderRadius: 18, padding: 16, borderWidth: 1, borderColor: '#334155' },
-  textLabel: { fontSize: 15, fontWeight: '700', color: '#f8fafc', marginBottom: 10 },
-  textPreview: { minHeight: 60, borderRadius: 12, paddingHorizontal: 14, paddingVertical: 12, justifyContent: 'center', marginBottom: 10, borderWidth: 1, borderColor: '#334155' },
-  textInput: { backgroundColor: '#0f172a', borderRadius: 10, padding: 12, fontSize: 16, color: '#f8fafc', borderWidth: 1, borderColor: '#334155', minHeight: 48, maxHeight: 120 },
-  textCtrlRow: { flexDirection: 'row', alignItems: 'center', gap: 12, marginTop: 12 },
-  textCtrlLabel: { fontSize: 13, fontWeight: '700', color: '#94a3b8', width: 46 },
-  stepBtn: { width: 38, height: 34, borderRadius: 9, backgroundColor: '#0f172a', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: '#334155' },
-  stepVal: { fontSize: 15, fontWeight: '800', color: '#f8fafc', minWidth: 34, textAlign: 'center', fontVariant: ['tabular-nums'] },
-  textActions: { flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', gap: 16, marginTop: 16 },
+  // Inline text caret (typed directly on the board)
+  inlineInput: { position: 'absolute', padding: 0, margin: 0, fontWeight: '700', textAlignVertical: 'top', includeFontPadding: false },
+  // Floating text controls above the keyboard
+  textBarWrap: { position: 'absolute', left: 0, right: 0, bottom: 0, justifyContent: 'flex-end' },
+  textBar: { flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', paddingHorizontal: 12, paddingVertical: 10 },
+  textBarSwatches: { flex: 1 },
+  stepBtn: { width: 38, height: 34, borderRadius: 9, backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: '#334155' },
+  stepVal: { fontSize: 15, fontWeight: '800', color: '#f8fafc', minWidth: 30, textAlign: 'center', fontVariant: ['tabular-nums'] },
   textCancel: { fontSize: 15, color: '#94a3b8', fontWeight: '600' },
-  textAdd: { paddingHorizontal: 18, paddingVertical: 8, borderRadius: 10 },
+  textAdd: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 10 },
   textAddText: { color: '#ffffff', fontWeight: '700' },
 });
