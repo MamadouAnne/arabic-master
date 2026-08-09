@@ -348,6 +348,34 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   };
   const cancelInlineText = () => { setEditing(null); setEditingIndex(null); setTextValue(''); };
 
+  // ── Selected-element actions (Move tool) ───────────────────────
+  const resizeSelected = (dir: 1 | -1) => {
+    if (selectedIndex == null) return;
+    setElements((prev) => prev.map((el, i) => {
+      if (i !== selectedIndex) return el;
+      if (el.type === 'text') return { ...el, size: Math.max(12, Math.min(96, el.size + dir * 3)) };
+      if (el.type === 'stroke') return el; // freehand strokes aren't resized
+      const cx = (el.x1 + el.x2) / 2, cy = (el.y1 + el.y2) / 2, f = dir > 0 ? 1.12 : 0.89;
+      return { ...el, x1: cx + (el.x1 - cx) * f, y1: cy + (el.y1 - cy) * f, x2: cx + (el.x2 - cx) * f, y2: cy + (el.y2 - cy) * f };
+    }));
+    redo.current = [];
+  };
+  const editSelected = () => {
+    if (selectedIndex == null) return;
+    const el = elements[selectedIndex];
+    if (!el || el.type !== 'text') return;
+    setTextValue(el.text); setTextColor(el.color); setTextSize(el.size);
+    setEditingIndex(selectedIndex);
+    setEditing({ x: el.x, y: el.y - el.size * 0.82 });
+    setSelectedIndex(null);
+  };
+  const deleteSelected = () => {
+    if (selectedIndex == null) return;
+    setElements((prev) => prev.filter((_, i) => i !== selectedIndex));
+    redo.current = [];
+    setSelectedIndex(null);
+  };
+
   // Render a CourseSpec onto the board (shared by AI + manual builder), keeping
   // freehand drawings added after the previous course.
   const renderCourse = (spec: CourseSpec, keepManual: boolean) => {
@@ -535,12 +563,25 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
             </View>
           )}
 
-          {/* Move-mode hint */}
-          {tool === 'move' && !editing && (
-            <Text style={styles.moveHint}>
-              {selectedIndex != null ? 'Drag the selected item to move it · tap empty space to deselect' : 'Tap an item to select · drag empty space to scroll'}
-            </Text>
-          )}
+          {/* Selected-element action bar (Move tool) */}
+          {tool === 'move' && !editing && selectedIndex != null && elements[selectedIndex] ? (
+            <View style={styles.selBar}>
+              {elements[selectedIndex].type !== 'stroke' && (
+                <View style={styles.selResize}>
+                  <Pressable style={styles.stepBtn} onPress={() => resizeSelected(-1)}><Ionicons name="remove" size={18} color="#e2e8f0" /></Pressable>
+                  <Text style={styles.selResizeLabel}>Size</Text>
+                  <Pressable style={styles.stepBtn} onPress={() => resizeSelected(1)}><Ionicons name="add" size={18} color="#e2e8f0" /></Pressable>
+                </View>
+              )}
+              {elements[selectedIndex].type === 'text' && (
+                <Pressable style={styles.selAction} onPress={editSelected}><Ionicons name="create-outline" size={17} color="#cbd5e1" /><Text style={styles.selActionText}>Edit</Text></Pressable>
+              )}
+              <Pressable style={styles.selAction} onPress={deleteSelected}><Ionicons name="trash-outline" size={17} color="#ef4444" /><Text style={[styles.selActionText, { color: '#ef4444' }]}>Delete</Text></Pressable>
+              <Pressable style={styles.selAction} onPress={() => setSelectedIndex(null)}><Text style={[styles.selActionText, { color: groupColor }]}>Done</Text></Pressable>
+            </View>
+          ) : tool === 'move' && !editing ? (
+            <Text style={styles.moveHint}>Tap an item to select · drag empty space to scroll</Text>
+          ) : null}
           {/* Text-mode hint */}
           {tool === 'text' && !editing && (
             <Text style={styles.moveHint}>Tap to add or edit text · drag to scroll</Text>
@@ -710,6 +751,11 @@ const styles = StyleSheet.create({
   panel: { backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', paddingTop: 8 },
   shapeRow: { flexDirection: 'row', justifyContent: 'center', gap: 8, paddingHorizontal: 12, paddingBottom: 8 },
   moveHint: { fontSize: 11.5, color: '#64748b', textAlign: 'center', paddingBottom: 6 },
+  selBar: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 12, paddingHorizontal: 12, paddingBottom: 8, flexWrap: 'wrap' },
+  selResize: { flexDirection: 'row', alignItems: 'center', gap: 6 },
+  selResizeLabel: { fontSize: 12, fontWeight: '700', color: '#94a3b8' },
+  selAction: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 6 },
+  selActionText: { fontSize: 13, fontWeight: '700', color: '#cbd5e1' },
   shapeBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 12, paddingVertical: 7, borderRadius: 20, backgroundColor: '#1e293b', borderWidth: 1.5, borderColor: 'transparent' },
   shapeText: { fontSize: 13, fontWeight: '600', color: '#cbd5e1' },
   toolsRow: { flexDirection: 'row', justifyContent: 'space-around', paddingHorizontal: 6, paddingBottom: 6 },
