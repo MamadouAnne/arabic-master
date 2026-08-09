@@ -30,8 +30,11 @@ export default function LetterDetailScreen() {
   const [isMastered, setIsMastered] = useState(false);
   const [shareContent, setShareContent] = useState<SharedContent | null>(null);
   const [script, setScript] = useState<ArabicScript>('naskh');
-  useFonts(ARABIC_SCRIPT_FONTS); // custom scripts fall back to system until loaded
-  const arabicFont = scriptFontFamily(script);
+  const [scriptFontsLoaded] = useFonts(ARABIC_SCRIPT_FONTS);
+  // Until the custom fonts finish loading, fall back to the system (Naskh) font
+  // rather than an unregistered family, which renders blank on iOS.
+  const arabicFont = scriptFontsLoaded ? scriptFontFamily(script) : undefined;
+  const activeScriptColor = SCRIPT_META.find((s) => s.key === script)?.color ?? '#6366f1';
   const { speak, isSpeaking } = useArabicSpeech();
 
   useEffect(() => {
@@ -121,7 +124,7 @@ export default function LetterDetailScreen() {
         </View>
 
         {/* Main Letter Display */}
-        <View style={styles.mainLetterCard}>
+        <View style={[styles.mainLetterCard, script !== 'naskh' && { borderWidth: 1.5, borderColor: activeScriptColor }]}>
           <Text style={[styles.mainLetter, arabicFont ? { fontFamily: arabicFont } : null]}>{letter.letter}</Text>
           <Text style={styles.transliteration}>{letter.transliteration}</Text>
           {isMastered && (
@@ -454,9 +457,10 @@ const styles = StyleSheet.create({
   },
   formLetter: {
     fontSize: 40,
-    lineHeight: 62,
+    lineHeight: 72, // headroom for tall/cascading scripts (Nastaliq)
     color: '#ffffff',
     marginBottom: 8,
+    textAlign: 'center',
   },
   formLabel: {
     fontSize: 12,
@@ -481,7 +485,7 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontSize: 28,
-    lineHeight: 46,
+    lineHeight: 60, // whole words in Nastaliq cascade downward — give them room
     color: '#ffffff',
     textAlign: 'left',
   },
