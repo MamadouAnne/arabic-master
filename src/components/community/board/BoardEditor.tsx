@@ -90,6 +90,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const movedRef = useRef(false);     // finger moved past the tap threshold
   const longPressRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pendingHitRef = useRef<{ index: number; orig: BoardElement } | null>(null);
+  const momentumRef = useRef<number | null>(null); // rAF id for inertial scrolling
 
   // Drop a message's text onto the board (once the canvas is measured).
   useEffect(() => {
@@ -108,9 +109,13 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     redo.current = [];
   };
 
+  // Cancel any pending animations/timers on unmount.
+  useEffect(() => () => { stopMomentum(); clearLongPress(); }, []);
+
   // Bring the caret into view above the keyboard when inline text editing starts.
   useEffect(() => {
     if (!editing) return;
+    stopMomentum();
     const maxScroll = Math.max(0, contentH - canvas.h);
     // Place the caret near the top of the board so the keyboard never covers it.
     const target = Math.max(0, Math.min(maxScroll, editing.y - Math.min(150, canvas.h * 0.22)));
@@ -129,6 +134,29 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   };
 
   const clearLongPress = () => { if (longPressRef.current) { clearTimeout(longPressRef.current); longPressRef.current = null; } };
+  const stopMomentum = () => { if (momentumRef.current) { cancelAnimationFrame(momentumRef.current); momentumRef.current = null; } };
+
+  // Inertial scroll after a flick (manual pan has no native momentum).
+  const startMomentum = (v0: number) => {
+    stopMomentum();
+    let v = v0; // px per ms in scroll space
+    let last = Date.now();
+    const step = () => {
+      const now = Date.now();
+      const dt = Math.max(1, now - last);
+      last = now;
+      v *= Math.pow(0.95, dt / 16); // friction
+      const maxScroll = Math.max(0, contentHRef.current - canvasRef.current.h);
+      let next = scrollYRef.current + v * dt;
+      if (next <= 0) { next = 0; v = 0; }
+      if (next >= maxScroll) { next = maxScroll; v = 0; }
+      scrollYRef.current = next;
+      scrollRef.current?.scrollTo({ y: next, animated: false });
+      if (Math.abs(v) < 0.015) { momentumRef.current = null; return; }
+      momentumRef.current = requestAnimationFrame(step);
+    };
+    momentumRef.current = requestAnimationFrame(step);
+  };
 
   // The draw layer always grabs the touch (except while typing). In Move mode we
   // pan the board ourselves and only start moving an element after a long-press,
@@ -145,6 +173,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
       onMoveShouldSetPanResponder: shouldClaim,
       onPanResponderTerminationRequest: () => false, // keep the gesture through a whole stroke/pan
       onPanResponderGrant: (e) => {
+        stopMomentum(); // a new touch halts any ongoing fling
         const { locationX: x, locationY: y } = e.nativeEvent;
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current, c = colorRef.current, w0 = widthRef.current;
@@ -241,8 +270,14 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         }
       },
       onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null); },
-      onPanResponderRelease: () => {
-        if (toolRef.current === 'move') { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null); return; }
+      onPanResponderRelease: (e, g) => {
+        if (toolRef.current === 'move') {
+          const wasDragging = !!dragRef.current;
+          clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null);
+          // Fling the board if the pan ended with speed (and we weren't moving an element).
+          if (!wasDragging && movedRef.current && Math.abs(g.vy) > 0.05) startMomentum(-g.vy);
+          return;
+        }
         const cur = liveRef.current;
         if (cur) {
           // Ignore near-zero shapes (accidental taps). Text is never live here.
