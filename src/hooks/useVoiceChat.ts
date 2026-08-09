@@ -207,7 +207,7 @@ export function useVoiceChat(options: UseVoiceChatOptions = {}) {
     if (current === 'idle') {
       await startListeningFlow();
     } else if (current === 'listening') {
-      processAndSpeak();
+      processAndSpeak().catch(() => {});
     } else {
       await killSpeech();
       updateStatus('idle');
@@ -219,7 +219,7 @@ export function useVoiceChat(options: UseVoiceChatOptions = {}) {
   const cancel = useCallback(async () => {
     killSpeech();
     if (statusRef.current === 'listening') {
-      stt.stopListening();
+      stt.stopListening().catch(() => {});
     }
     updateStatus('idle');
   }, [killSpeech, stt, updateStatus]);

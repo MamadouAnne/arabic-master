@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import {
   useAudioRecorder,
   requestRecordingPermissionsAsync,
@@ -23,11 +23,12 @@ export function useWhisperSTT(): UseWhisperSTTReturn {
   const [hasPermission, setHasPermission] = useState(false);
 
   const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
+  const startedRef = useRef(false); // guard: only stop a recorder we actually started
 
   useEffect(() => {
-    requestRecordingPermissionsAsync().then((result) => {
-      setHasPermission(result.granted);
-    });
+    requestRecordingPermissionsAsync()
+      .then((result) => setHasPermission(result.granted))
+      .catch(() => setHasPermission(false));
   }, []);
 
   const startListening = useCallback(async () => {
@@ -47,6 +48,7 @@ export function useWhisperSTT(): UseWhisperSTTReturn {
       await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
       await recorder.prepareToRecordAsync();
       recorder.record();
+      startedRef.current = true;
       setIsListening(true);
     } catch (err: any) {
       console.error('[WhisperSTT] startListening error:', err);
@@ -58,6 +60,8 @@ export function useWhisperSTT(): UseWhisperSTTReturn {
   const stopListening = useCallback(async (): Promise<string> => {
     try {
       setIsListening(false);
+      if (!startedRef.current) return ''; // nothing was recording; don't touch the recorder
+      startedRef.current = false;
       await recorder.stop();
       await setAudioModeAsync({ allowsRecording: false, playsInSilentMode: true });
 
