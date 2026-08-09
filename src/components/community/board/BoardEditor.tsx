@@ -59,7 +59,6 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
   const [textColor, setTextColor] = useState('#f8fafc');
-  const [elemDragging, setElemDragging] = useState(false); // dragging an element in Move mode
   // AI course drafting
   const [aiModal, setAiModal] = useState<null | 'draft' | 'refine'>(null);
   const [aiLoading, setAiLoading] = useState(false);
@@ -82,6 +81,12 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const seededRef = useRef(false);
   const editingRef = useRef(editing); editingRef.current = editing;
   const scrollRef = useRef<ScrollView>(null);
+  const scrollYRef = useRef(0);       // current vertical scroll offset
+  const contentHRef = useRef(1);      // virtual content height (set after contentH)
+  const panStartScrollRef = useRef(0); // scroll offset when a Move gesture began
+  const movedRef = useRef(false);     // finger moved past the tap threshold
+  const longPressRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pendingHitRef = useRef<{ index: number; orig: BoardElement } | null>(null);
 
   // Drop a message's text onto the board (once the canvas is measured).
   useEffect(() => {
@@ -104,6 +109,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   useEffect(() => {
     if (!editing) return;
     const target = Math.max(0, editing.y - canvas.h * 0.32);
+    scrollYRef.current = target;
     requestAnimationFrame(() => scrollRef.current?.scrollTo({ y: target, animated: true }));
   }, [editing]);
 
@@ -117,25 +123,22 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     });
   };
 
-  // Decide whether the draw layer grabs this touch. Drawing tools always grab
-  // (so the ScrollView can't scroll mid-stroke); in Move mode we only grab when
-  // a touch lands on an element — empty space falls through so the board scrolls.
+  const clearLongPress = () => { if (longPressRef.current) { clearTimeout(longPressRef.current); longPressRef.current = null; } };
+
+  // The draw layer always grabs the touch (except while typing). In Move mode we
+  // pan the board ourselves and only start moving an element after a long-press,
+  // so a normal drag scrolls the board instead of dragging whatever it lands on.
   const shouldClaim = (e: any) => {
     if (editingRef.current) return false; // typing: let taps reach the input
     const { locationX: x, locationY: y } = e.nativeEvent;
-    if (!Number.isFinite(x) || !Number.isFinite(y)) return false;
-    if (toolRef.current === 'move') {
-      const els = elementsRef.current, cw = canvasRef.current.w;
-      for (let i = els.length - 1; i >= 0; i--) if (hitTest(els[i], x, y, cw)) return true;
-      return false;
-    }
-    return true;
+    return Number.isFinite(x) && Number.isFinite(y);
   };
 
   const pan = useRef(
     PanResponder.create({
       onStartShouldSetPanResponder: shouldClaim,
       onMoveShouldSetPanResponder: shouldClaim,
+      onPanResponderTerminationRequest: () => false, // keep the gesture through a whole stroke/pan
       onPanResponderGrant: (e) => {
         const { locationX: x, locationY: y } = e.nativeEvent;
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
@@ -149,10 +152,23 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         }
         if (t === 'eraser') { eraseAt(x, y); return; }
         if (t === 'move') {
-          const els = elementsRef.current;
-          const cw = canvasRef.current.w;
+          // Default to panning. Long-press an element to pick it up for moving.
+          movedRef.current = false;
+          panStartScrollRef.current = scrollYRef.current;
+          dragRef.current = null;
+          pendingHitRef.current = null;
+          const els = elementsRef.current, cw = canvasRef.current.w;
           for (let i = els.length - 1; i >= 0; i--) {
-            if (hitTest(els[i], x, y, cw)) { dragRef.current = { index: i, orig: els[i], sx: x, sy: y }; setElemDragging(true); break; }
+            if (hitTest(els[i], x, y, cw)) { pendingHitRef.current = { index: i, orig: els[i] }; break; }
+          }
+          clearLongPress();
+          if (pendingHitRef.current) {
+            longPressRef.current = setTimeout(() => {
+              if (!movedRef.current && pendingHitRef.current) {
+                dragRef.current = { index: pendingHitRef.current.index, orig: pendingHitRef.current.orig, sx: x, sy: y };
+               
+              }
+            }, 260);
           }
           return;
         }
@@ -166,16 +182,26 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           liveRef.current = el; setLive(el);
         }
       },
-      onPanResponderMove: (e) => {
+      onPanResponderMove: (e, g) => {
         const { locationX: x, locationY: y } = e.nativeEvent;
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current;
         if (t === 'eraser') { eraseAt(x, y); return; }
         if (t === 'move') {
-          const d = dragRef.current;
-          if (!d) return;
-          const moved = translateElement(d.orig, x - d.sx, y - d.sy);
-          setElements((prev) => prev.map((el, i) => (i === d.index ? moved : el)));
+          if (!movedRef.current && Math.hypot(g.dx, g.dy) > 6) movedRef.current = true;
+          if (dragRef.current) {
+            // Long-press engaged → move the picked-up element by the finger delta.
+            const d = dragRef.current;
+            const moved = translateElement(d.orig, g.dx, g.dy);
+            setElements((prev) => prev.map((el, i) => (i === d.index ? moved : el)));
+          } else {
+            // Panning the board: a real drag cancels the pending long-press.
+            if (movedRef.current) clearLongPress();
+            const maxScroll = Math.max(0, contentHRef.current - canvasRef.current.h);
+            const target = Math.max(0, Math.min(maxScroll, panStartScrollRef.current - g.dy));
+            scrollYRef.current = target;
+            scrollRef.current?.scrollTo({ y: target, animated: false });
+          }
           return;
         }
         const cur = liveRef.current;
@@ -190,8 +216,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           liveRef.current = next; setLive(next);
         }
       },
+      onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; },
       onPanResponderRelease: () => {
-        if (toolRef.current === 'move') { dragRef.current = null; setElemDragging(false); return; }
+        if (toolRef.current === 'move') { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; return; }
         const cur = liveRef.current;
         if (cur) {
           // Ignore near-zero shapes (accidental taps). Text is never live here.
@@ -296,8 +323,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
     () => (canvas.w < 2 ? canvas.h : Math.max(canvas.h, boardContentHeight(elements, canvas.w) + 320)),
     [elements, canvas.w, canvas.h]
   );
-  // Scroll only in Move mode (drawing tools own the gesture); frozen while typing/dragging.
-  const canScroll = tool === 'move' && !editing && !elemDragging;
+  contentHRef.current = contentH;
 
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
@@ -326,7 +352,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           <ScrollView
             ref={scrollRef}
             style={StyleSheet.absoluteFill}
-            scrollEnabled={canScroll}
+            scrollEnabled={false}
+            onScroll={(e) => { scrollYRef.current = e.nativeEvent.contentOffset.y; }}
+            scrollEventThrottle={16}
             showsVerticalScrollIndicator
             keyboardShouldPersistTaps="handled"
           >
@@ -402,6 +430,11 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                 );
               })}
             </View>
+          )}
+
+          {/* Move-mode hint */}
+          {tool === 'move' && !editing && (
+            <Text style={styles.moveHint}>Drag to scroll · hold an item to move it</Text>
           )}
 
           {/* Primary tools (labeled) */}
@@ -561,6 +594,7 @@ const styles = StyleSheet.create({
   // Bottom panel
   panel: { backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', paddingTop: 8 },
   shapeRow: { flexDirection: 'row', justifyContent: 'center', gap: 8, paddingHorizontal: 12, paddingBottom: 8 },
+  moveHint: { fontSize: 11.5, color: '#64748b', textAlign: 'center', paddingBottom: 6 },
   shapeBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 12, paddingVertical: 7, borderRadius: 20, backgroundColor: '#1e293b', borderWidth: 1.5, borderColor: 'transparent' },
   shapeText: { fontSize: 13, fontWeight: '600', color: '#cbd5e1' },
   toolsRow: { flexDirection: 'row', justifyContent: 'space-around', paddingHorizontal: 6, paddingBottom: 6 },
