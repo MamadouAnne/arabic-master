@@ -56,6 +56,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const [live, setLive] = useState<BoardElement | null>(null);
   const [canvas, setCanvas] = useState({ w: 1, h: 1 });
   const [editing, setEditing] = useState<{ x: number; y: number } | null>(null);
+  const [editingIndex, setEditingIndex] = useState<number | null>(null); // index of the text element being re-edited (null = new)
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
   const [textColor, setTextColor] = useState('#f8fafc');
@@ -146,10 +147,28 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
         if (!Number.isFinite(x) || !Number.isFinite(y)) return;
         const t = toolRef.current, c = colorRef.current, w0 = widthRef.current;
         if (t === 'text') {
-          setTextValue('');
-          setTextColor(colorRef.current);
-          setTextSize(Math.round(Math.min(40, Math.max(20, canvasRef.current.w / 13))));
-          setEditing({ x, y });
+          // Tap an existing text element to edit it; otherwise start a new one.
+          const els = elementsRef.current, cw = canvasRef.current.w;
+          let hitIdx = -1;
+          for (let i = els.length - 1; i >= 0; i--) {
+            const el = els[i];
+            // Only re-edit normal left-aligned text (skip centered headings/badges).
+            if (el.type === 'text' && (el as any).align !== 'center' && hitTest(el, x, y, cw)) { hitIdx = i; break; }
+          }
+          if (hitIdx >= 0) {
+            const el = els[hitIdx] as Extract<BoardElement, { type: 'text' }>;
+            setTextValue(el.text);
+            setTextColor(el.color);
+            setTextSize(el.size);
+            setEditingIndex(hitIdx);
+            setEditing({ x: el.x, y: el.y - el.size * 0.82 });
+          } else {
+            setTextValue('');
+            setTextColor(colorRef.current);
+            setTextSize(Math.round(Math.min(40, Math.max(20, canvasRef.current.w / 13))));
+            setEditingIndex(null);
+            setEditing({ x, y });
+          }
           return;
         }
         if (t === 'eraser') { eraseAt(x, y); return; }
@@ -253,13 +272,26 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const inlineX = editing ? Math.min(editing.x, Math.max(16, canvas.w * 0.34)) : 0;
 
   const commitInlineText = () => {
-    if (editing && textValue.trim()) {
-      // el.y is the text baseline; offset from the caret top so it lands where typed.
-      commit({ type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: textValue.trim(), color: textColor, size: textSize });
+    if (editing) {
+      const txt = textValue.trim();
+      if (editingIndex != null) {
+        // Editing an existing element: replace it, or delete it if emptied.
+        setElements((prev) => {
+          if (editingIndex >= prev.length) return prev;
+          if (!txt) return prev.filter((_, i) => i !== editingIndex);
+          const next = [...prev];
+          next[editingIndex] = { type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: txt, color: textColor, size: textSize };
+          return next;
+        });
+        redo.current = [];
+      } else if (txt) {
+        // el.y is the text baseline; offset from the caret top so it lands where typed.
+        commit({ type: 'text', x: inlineX, y: editing.y + textSize * 0.82, text: txt, color: textColor, size: textSize });
+      }
     }
-    setEditing(null); setTextValue('');
+    setEditing(null); setEditingIndex(null); setTextValue('');
   };
-  const cancelInlineText = () => { setEditing(null); setTextValue(''); };
+  const cancelInlineText = () => { setEditing(null); setEditingIndex(null); setTextValue(''); };
 
   // Render a CourseSpec onto the board (shared by AI + manual builder), keeping
   // freehand drawings added after the previous course.
@@ -365,7 +397,11 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           >
             <View style={{ width: canvas.w, height: contentH }}>
               <View style={StyleSheet.absoluteFill}>
-                <BoardCanvas content={{ ...baseContent, height: contentH }} width={canvas.w} height={contentH} />
+                <BoardCanvas
+                  content={{ ...baseContent, height: contentH, elements: editingIndex != null ? elements.filter((_, i) => i !== editingIndex) : elements }}
+                  width={canvas.w}
+                  height={contentH}
+                />
               </View>
               {/* Live overlay (1:1 with canvas) */}
               <View style={StyleSheet.absoluteFill} pointerEvents="none">
@@ -440,6 +476,10 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           {/* Move-mode hint */}
           {tool === 'move' && !editing && (
             <Text style={styles.moveHint}>Drag to scroll · hold an item to move it</Text>
+          )}
+          {/* Text-mode hint */}
+          {tool === 'text' && !editing && (
+            <Text style={styles.moveHint}>Tap empty space to add text · tap text to edit it</Text>
           )}
 
           {/* Primary tools (labeled) */}
