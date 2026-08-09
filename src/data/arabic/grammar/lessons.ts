@@ -1,5 +1,6 @@
 import { GrammarLesson, GrammarContent } from '../../../types/arabic';
 import { verbLessons } from '../verbs/verbLessons';
+import { ADDITIONAL_GRAMMAR_LESSONS } from './additionalLessons';
 
 export const grammarLessons: GrammarLesson[] = [
   // LESSON 1: The Arabic Alphabet Overview
@@ -6102,6 +6103,7 @@ export const grammarLessons: GrammarLesson[] = [
       },
     ],
   },
+  ...ADDITIONAL_GRAMMAR_LESSONS,
 ];
 
 // Helper functions

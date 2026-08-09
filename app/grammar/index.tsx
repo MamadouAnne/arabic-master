@@ -18,15 +18,27 @@ const categoryConfig: Record<string, { icon: string; color: string }> = {
   other: { icon: 'bulb', color: '#14b8a6' },
 };
 
+const CATEGORY_KEY: Record<string, string> = {
+  articles: 'grammar.catArticles',
+  pronouns: 'grammar.catPronouns',
+  verbs: 'grammar.catVerbs',
+  nouns: 'grammar.catNouns',
+  adjectives: 'grammar.catAdjectives',
+  sentences: 'grammar.catSentences',
+  other: 'grammar.catOther',
+};
+
 // Transform lessons data for UI - keep raw data, localize in component
-const grammarLessons = lessonsData.map((lesson) => ({
+const grammarLessons = lessonsData.map((lesson, i) => ({
   id: lesson.id,
+  number: i + 1,
   title: lesson.title,
   titleFr: (lesson as any).titleFr,
   titleArabic: lesson.titleArabic,
   description: lesson.description,
   descriptionFr: (lesson as any).descriptionFr,
   level: lesson.level,
+  category: lesson.category,
   icon: categoryConfig[lesson.category]?.icon || 'book',
   color: categoryConfig[lesson.category]?.color || '#6366f1',
 }));
@@ -47,6 +59,60 @@ export default function GrammarScreen() {
     if (startedLessons.includes(lessonId)) return 'in_progress';
     return 'new';
   };
+
+  const renderCard = (lesson: (typeof grammarLessons)[number]) => {
+    const status = getLessonStatus(lesson.id);
+    return (
+      <Pressable
+        key={lesson.id}
+        style={styles.lessonCard}
+        onPress={() => router.push(`/grammar/${lesson.id}` as any)}
+      >
+        <View style={[styles.lessonIcon, { backgroundColor: lesson.color + '20' }]}>
+          <Ionicons name={lesson.icon as any} size={24} color={lesson.color} />
+          <View style={styles.lessonNumberBadge}>
+            <Text style={styles.lessonNumberText}>{lesson.number}</Text>
+          </View>
+        </View>
+        <View style={styles.lessonContent}>
+          <View style={styles.lessonHeader}>
+            <Text style={styles.lessonTitle}>{lc(lesson.title, lesson.titleFr)}</Text>
+            {status === 'completed' && <Ionicons name="checkmark-circle" size={20} color="#22c55e" />}
+            {status === 'in_progress' && <Ionicons name="time" size={20} color="#D4AF37" />}
+          </View>
+          <Text style={styles.lessonTitleAr}>{lesson.titleArabic}</Text>
+          <Text style={styles.lessonDesc}>{lc(lesson.description, lesson.descriptionFr)}</Text>
+          <View style={[styles.categoryPill, { backgroundColor: lesson.color + '1a' }]}>
+            <View style={[styles.categoryDot, { backgroundColor: lesson.color }]} />
+            <Text style={[styles.categoryLabel, { color: lesson.color }]}>
+              {t(CATEGORY_KEY[lesson.category] || 'grammar.catOther')}
+            </Text>
+          </View>
+        </View>
+        <Ionicons name="chevron-forward" size={20} color="#64748b" />
+      </Pressable>
+    );
+  };
+
+  const renderSection = (
+    title: string,
+    titleAr: string,
+    lessons: typeof grammarLessons,
+    last?: boolean,
+  ) => (
+    <View style={[styles.section, last && { marginBottom: 100 }]}>
+      <View style={styles.sectionHeader}>
+        <View style={styles.sectionHeaderLeft}>
+          <Text style={styles.sectionTitle}>{title}</Text>
+          <View style={styles.sectionCount}>
+            <Text style={styles.sectionCountText}>{lessons.length}</Text>
+          </View>
+        </View>
+        <Text style={styles.sectionTitleAr}>{titleAr}</Text>
+      </View>
+      {lessons.map(renderCard)}
+    </View>
+  );
 
   return (
     <SafeAreaView style={styles.container}>
@@ -85,122 +151,9 @@ export default function GrammarScreen() {
           </View>
         </View>
 
-        {/* Beginner Section */}
-        <View style={styles.section}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>{t('common.beginner')}</Text>
-            <Text style={styles.sectionTitleAr}>الْمُبْتَدِئ</Text>
-          </View>
-
-          {beginnerLessons.map((lesson) => {
-            const status = getLessonStatus(lesson.id);
-            return (
-              <Pressable
-                key={lesson.id}
-                style={styles.lessonCard}
-                onPress={() => router.push(`/grammar/${lesson.id}` as any)}
-              >
-                <View
-                  style={[styles.lessonIcon, { backgroundColor: lesson.color + '20' }]}
-                >
-                  <Ionicons name={lesson.icon as any} size={24} color={lesson.color} />
-                </View>
-                <View style={styles.lessonContent}>
-                  <View style={styles.lessonHeader}>
-                    <Text style={styles.lessonTitle}>{lc(lesson.title, lesson.titleFr)}</Text>
-                    {status === 'completed' && (
-                      <Ionicons name="checkmark-circle" size={20} color="#22c55e" />
-                    )}
-                    {status === 'in_progress' && (
-                      <Ionicons name="time" size={20} color="#D4AF37" />
-                    )}
-                  </View>
-                  <Text style={styles.lessonTitleAr}>{lesson.titleArabic}</Text>
-                  <Text style={styles.lessonDesc}>{lc(lesson.description, lesson.descriptionFr)}</Text>
-                </View>
-                <Ionicons name="chevron-forward" size={20} color="#64748b" />
-              </Pressable>
-            );
-          })}
-        </View>
-
-        {/* Intermediate Section */}
-        <View style={styles.section}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>{t('common.intermediate')}</Text>
-            <Text style={styles.sectionTitleAr}>الْمُتَوَسِّط</Text>
-          </View>
-
-          {intermediateLessons.map((lesson) => {
-            const status = getLessonStatus(lesson.id);
-            return (
-              <Pressable
-                key={lesson.id}
-                style={styles.lessonCard}
-                onPress={() => router.push(`/grammar/${lesson.id}` as any)}
-              >
-                <View
-                  style={[styles.lessonIcon, { backgroundColor: lesson.color + '20' }]}
-                >
-                  <Ionicons name={lesson.icon as any} size={24} color={lesson.color} />
-                </View>
-                <View style={styles.lessonContent}>
-                  <View style={styles.lessonHeader}>
-                    <Text style={styles.lessonTitle}>{lc(lesson.title, lesson.titleFr)}</Text>
-                    {status === 'completed' && (
-                      <Ionicons name="checkmark-circle" size={20} color="#22c55e" />
-                    )}
-                    {status === 'in_progress' && (
-                      <Ionicons name="time" size={20} color="#D4AF37" />
-                    )}
-                  </View>
-                  <Text style={styles.lessonTitleAr}>{lesson.titleArabic}</Text>
-                  <Text style={styles.lessonDesc}>{lc(lesson.description, lesson.descriptionFr)}</Text>
-                </View>
-                <Ionicons name="chevron-forward" size={20} color="#64748b" />
-              </Pressable>
-            );
-          })}
-        </View>
-
-        {/* Advanced Section */}
-        <View style={[styles.section, { marginBottom: 100 }]}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>{t('common.advanced')}</Text>
-            <Text style={styles.sectionTitleAr}>الْمُتَقَدِّم</Text>
-          </View>
-
-          {advancedLessons.map((lesson) => {
-            const status = getLessonStatus(lesson.id);
-            return (
-              <Pressable
-                key={lesson.id}
-                style={styles.lessonCard}
-                onPress={() => router.push(`/grammar/${lesson.id}` as any)}
-              >
-                <View
-                  style={[styles.lessonIcon, { backgroundColor: lesson.color + '20' }]}
-                >
-                  <Ionicons name={lesson.icon as any} size={24} color={lesson.color} />
-                </View>
-                <View style={styles.lessonContent}>
-                  <View style={styles.lessonHeader}>
-                    <Text style={styles.lessonTitle}>{lc(lesson.title, lesson.titleFr)}</Text>
-                    {status === 'completed' && (
-                      <Ionicons name="checkmark-circle" size={20} color="#22c55e" />
-                    )}
-                    {status === 'in_progress' && (
-                      <Ionicons name="time" size={20} color="#D4AF37" />
-                    )}
-                  </View>
-                  <Text style={styles.lessonTitleAr}>{lesson.titleArabic}</Text>
-                  <Text style={styles.lessonDesc}>{lc(lesson.description, lesson.descriptionFr)}</Text>
-                </View>
-                <Ionicons name="chevron-forward" size={20} color="#64748b" />
-              </Pressable>
-            );
-          })}
-        </View>
+        {renderSection(t('common.beginner'), 'الْمُبْتَدِئ', beginnerLessons)}
+        {renderSection(t('common.intermediate'), 'الْمُتَوَسِّط', intermediateLessons)}
+        {renderSection(t('common.advanced'), 'الْمُتَقَدِّم', advancedLessons, true)}
       </ScrollView>
     </SafeAreaView>
   );
@@ -293,6 +246,65 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     marginBottom: 16,
+  },
+  sectionHeaderLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  sectionCount: {
+    minWidth: 24,
+    height: 22,
+    paddingHorizontal: 7,
+    borderRadius: 11,
+    backgroundColor: '#1e293b',
+    borderWidth: 1,
+    borderColor: '#334155',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  sectionCountText: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: '#94a3b8',
+  },
+  lessonNumberBadge: {
+    position: 'absolute',
+    top: -5,
+    right: -5,
+    minWidth: 18,
+    height: 18,
+    paddingHorizontal: 4,
+    borderRadius: 9,
+    backgroundColor: '#0f172a',
+    borderWidth: 1,
+    borderColor: '#334155',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  lessonNumberText: {
+    fontSize: 10,
+    fontWeight: '700',
+    color: '#94a3b8',
+  },
+  categoryPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    alignSelf: 'flex-start',
+    marginTop: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 8,
+  },
+  categoryDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+  },
+  categoryLabel: {
+    fontSize: 11,
+    fontWeight: '700',
   },
   sectionTitle: {
     color: '#ffffff',

@@ -4,6 +4,7 @@ import vocabularyExercises from './vocabularyExercises';
 import grammarExercises from './grammarExercises';
 import verbExercises from './verbExercises';
 import { grammarExercises2 } from './grammarExercises2';
+import { grammarExercises3 } from './grammarExercises3';
 
 // Combine all exercises
 export const exercises: Exercise[] = [
@@ -11,6 +12,7 @@ export const exercises: Exercise[] = [
   ...vocabularyExercises,
   ...grammarExercises,
   ...grammarExercises2,
+  ...grammarExercises3,
   ...verbExercises,
 ];
 
@@ -249,6 +251,14 @@ export const getExercisesForGrammarLesson = (lessonId: string): Exercise[] => {
     'grammar-38': ['ex-grammar-38-1', 'ex-grammar-38-2', 'ex-grammar-38-3', 'ex-grammar-38-4', 'ex-grammar-38-5'],
     'grammar-39': ['ex-grammar-39-1', 'ex-grammar-39-2', 'ex-grammar-39-3', 'ex-grammar-39-4', 'ex-grammar-39-5'],
     'grammar-40': ['ex-grammar-40-1', 'ex-grammar-40-2', 'ex-grammar-40-3', 'ex-grammar-40-4', 'ex-grammar-40-5'],
+    'grammar-indefinite': ['ex-grammar-indefinite-1', 'ex-grammar-indefinite-2', 'ex-grammar-indefinite-3', 'ex-grammar-indefinite-4'],
+    'grammar-kana': ['ex-grammar-kana-1', 'ex-grammar-kana-2', 'ex-grammar-kana-3', 'ex-grammar-kana-4'],
+    'grammar-inna': ['ex-grammar-inna-1', 'ex-grammar-inna-2', 'ex-grammar-inna-3', 'ex-grammar-inna-4'],
+    'grammar-weak-verbs': ['ex-grammar-weak-verbs-1', 'ex-grammar-weak-verbs-2', 'ex-grammar-weak-verbs-3', 'ex-grammar-weak-verbs-4'],
+    'grammar-hal': ['ex-grammar-hal-1', 'ex-grammar-hal-2', 'ex-grammar-hal-3', 'ex-grammar-hal-4'],
+    'grammar-tamyiz': ['ex-grammar-tamyiz-1', 'ex-grammar-tamyiz-2', 'ex-grammar-tamyiz-3', 'ex-grammar-tamyiz-4'],
+    'grammar-five-nouns': ['ex-grammar-five-nouns-1', 'ex-grammar-five-nouns-2', 'ex-grammar-five-nouns-3', 'ex-grammar-five-nouns-4'],
+    'grammar-diptote': ['ex-grammar-diptote-1', 'ex-grammar-diptote-2', 'ex-grammar-diptote-3', 'ex-grammar-diptote-4'],
   };
 
   const exerciseIds = lessonExerciseMap[lessonId] || [];
