@@ -2,7 +2,8 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { View, Text, StyleSheet, Pressable, Modal, PanResponder, ScrollView, TextInput, Alert, KeyboardAvoidingView, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
-import Svg from 'react-native-svg';
+import Svg, { Rect } from 'react-native-svg';
+import * as Haptics from 'expo-haptics';
 import { BoardCanvas, renderBoardElement, boardContentHeight, wrapBoardText, elementOk } from './BoardCanvas';
 import type { BoardContent, BoardElement, BoardBackground, BoardGrid, BoardStroke, BoardShape } from '../../../types/classContent';
 import { BOARD_BG, BOARD_DEFAULT_INK } from '../../../types/classContent';
@@ -57,6 +58,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const [canvas, setCanvas] = useState({ w: 1, h: 1 });
   const [editing, setEditing] = useState<{ x: number; y: number } | null>(null);
   const [editingIndex, setEditingIndex] = useState<number | null>(null); // index of the text element being re-edited (null = new)
+  const [pickedIndex, setPickedIndex] = useState<number | null>(null); // element picked up for moving (Move mode long-press)
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
   const [textColor, setTextColor] = useState('#f8fafc');
@@ -187,9 +189,10 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
             longPressRef.current = setTimeout(() => {
               if (!movedRef.current && pendingHitRef.current) {
                 dragRef.current = { index: pendingHitRef.current.index, orig: pendingHitRef.current.orig, sx: x, sy: y };
-               
+                setPickedIndex(pendingHitRef.current.index);
+                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium).catch(() => {});
               }
-            }, 260);
+            }, 200);
           }
           return;
         }
@@ -237,9 +240,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           liveRef.current = next; setLive(next);
         }
       },
-      onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; },
+      onPanResponderTerminate: () => { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null); },
       onPanResponderRelease: () => {
-        if (toolRef.current === 'move') { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; return; }
+        if (toolRef.current === 'move') { clearLongPress(); dragRef.current = null; pendingHitRef.current = null; setPickedIndex(null); return; }
         const cur = liveRef.current;
         if (cur) {
           // Ignore near-zero shapes (accidental taps). Text is never live here.
@@ -403,11 +406,15 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                   height={contentH}
                 />
               </View>
-              {/* Live overlay (1:1 with canvas) */}
+              {/* Live overlay (1:1 with canvas): in-progress strokes + picked-up highlight */}
               <View style={StyleSheet.absoluteFill} pointerEvents="none">
-                {live && (
+                {(live || (pickedIndex != null && elements[pickedIndex])) && (
                   <Svg width={canvas.w} height={contentH} viewBox={`0 0 ${canvas.w} ${contentH}`}>
-                    {renderBoardElement(live, 'live', canvas.w)}
+                    {live ? renderBoardElement(live, 'live', canvas.w) : null}
+                    {pickedIndex != null && elements[pickedIndex] ? (() => {
+                      const b = boundsOf(elements[pickedIndex], canvas.w);
+                      return <Rect x={b[0] - 6} y={b[1] - 6} width={(b[2] - b[0]) + 12} height={(b[3] - b[1]) + 12} rx={8} stroke={groupColor} strokeWidth={2} strokeDasharray="6 5" fill={`${groupColor}18`} />;
+                    })() : null}
                   </Svg>
                 )}
               </View>
@@ -475,7 +482,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
           {/* Move-mode hint */}
           {tool === 'move' && !editing && (
-            <Text style={styles.moveHint}>Drag to scroll · hold an item to move it</Text>
+            <Text style={styles.moveHint}>Drag to scroll · press &amp; hold an item, then drag to move</Text>
           )}
           {/* Text-mode hint */}
           {tool === 'text' && !editing && (
@@ -598,6 +605,21 @@ function translateElement(orig: BoardElement, dx: number, dy: number): BoardElem
     return { ...orig, d, bbox: [bb[0] + dx, bb[1] + dy, bb[2] + dx, bb[3] + dy] };
   }
   return { ...orig, x1: orig.x1 + dx, y1: orig.y1 + dy, x2: orig.x2 + dx, y2: orig.y2 + dy };
+}
+
+// Bounding box of an element in board coordinates (used for the picked-up highlight).
+function boundsOf(el: BoardElement, canvasWidth: number): [number, number, number, number] {
+  if (el.type === 'stroke') return el.bbox;
+  if (el.type === 'text') {
+    const avail = Math.max(80, canvasWidth - el.x - 12);
+    const lines = wrapBoardText(el.text, el.size, avail);
+    const longest = Math.max(...lines.map((l) => l.length), 1);
+    const w = longest * el.size * 0.55;
+    const h = lines.length * el.size * 1.28;
+    const top = el.y - el.size;
+    return [el.x, top, el.x + w, top + h];
+  }
+  return [Math.min(el.x1, el.x2), Math.min(el.y1, el.y2), Math.max(el.x1, el.x2), Math.max(el.y1, el.y2)];
 }
 
 function hitTest(el: BoardElement, x: number, y: number, canvasWidth: number): boolean {
