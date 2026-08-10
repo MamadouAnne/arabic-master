@@ -40,6 +40,14 @@ async function doInitialize(): Promise<void> {
       return;
     }
 
+    // RevenueCat Test Store keys (test_…) force-close a RELEASE build with a
+    // "Wrong API Key" dialog. Skip configuring so preview/production builds don't
+    // crash on launch; purchases stay disabled until a real goog_/appl_ key is set.
+    if (apiKey.startsWith('test_') && !__DEV__) {
+      console.warn('[RevenueCat] Test API key in a release build — skipping init to avoid crash.');
+      return;
+    }
+
     Purchases.setLogLevel(__DEV__ ? LOG_LEVEL.VERBOSE : LOG_LEVEL.ERROR);
     Purchases.configure({ apiKey });
     isConfigured = true;
