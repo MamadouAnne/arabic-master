@@ -30,6 +30,13 @@ function initialize(): Promise<void> {
 
 async function doInitialize(): Promise<void> {
   try {
+    // Off-switch: set EXPO_PUBLIC_SUBSCRIPTIONS_ENABLED=false (e.g. in the preview
+    // environment) to skip RevenueCat entirely until real store keys are ready.
+    if (process.env.EXPO_PUBLIC_SUBSCRIPTIONS_ENABLED === 'false') {
+      __DEV__ && console.log('[RevenueCat] Subscriptions disabled via env, skipping init');
+      return;
+    }
+
     const apiKey = Platform.select({
       ios: process.env.EXPO_PUBLIC_REVENUECAT_APPLE_KEY,
       android: process.env.EXPO_PUBLIC_REVENUECAT_GOOGLE_KEY,
