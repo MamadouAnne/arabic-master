@@ -19,11 +19,20 @@ import { QuizOption, QuizOptionState } from '../../src/components/quiz/QuizOptio
 // Note: lessonContent and helper functions are now imported from
 // '../../src/data/arabic/grammar/lessonContent'
 
+// Match Arabic answers regardless of tashkeel/tatweel/alef variants (Latin just trims/lowercases).
+const normalizeAnswer = (s: string) =>
+  s.trim()
+    .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g, "")
+    .replace(/[\u0623\u0625\u0622]/g, "\u0627")
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+
 export default function GrammarLessonScreen() {
   const { t } = useTranslation();
   const { lc } = useLocalizedContent();
   const { lessonId } = useLocalSearchParams<{ lessonId: string }>();
-  const { startLesson, completeLesson, addXp, updateStreak } = useProgressStore();
+  const { startLesson, completeLesson, addXp, updateStreak, progress } = useProgressStore();
+  const isCompleted = !!lessonId && progress.grammarProgress.lessonsCompleted.includes(lessonId);
   const { speak } = useArabicSpeech();
   const [showExercises, setShowExercises] = useState(false);
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
@@ -186,12 +195,11 @@ export default function GrammarLessonScreen() {
   }
 
   const handleComplete = () => {
-    if (lessonId) {
-      completeLesson(lessonId);
-      addXp(50);
-      updateStreak();
-      router.back();
-    }
+    // Award XP only the first time; re-taps after completion do nothing.
+    if (!lessonId || isCompleted) return;
+    completeLesson(lessonId);
+    addXp(50);
+    updateStreak();
   };
 
   const handleStartPractice = (type: 'regular' | 'writing') => {
@@ -218,15 +226,14 @@ export default function GrammarLessonScreen() {
   };
 
   const handleCheckWrittenAnswer = (exercise: Exercise) => {
-    const userAnswer = writtenAnswer.trim();
+    const userAnswer = normalizeAnswer(writtenAnswer);
     const correctAnswersList = Array.isArray(exercise.correctAnswer)
       ? exercise.correctAnswer
       : [exercise.correctAnswer];
 
-    // Check if user's answer matches any correct answer (case-insensitive, trim spaces)
+    // Match Arabic regardless of tashkeel/alef variants; Latin case-insensitively.
     const isCorrect = correctAnswersList.some(
-      (correct) => correct.trim().toLowerCase() === userAnswer.toLowerCase() ||
-                   correct.trim() === userAnswer
+      (correct) => normalizeAnswer(correct) === userAnswer
     );
 
     setIsWritingCorrect(isCorrect);
@@ -790,9 +797,15 @@ export default function GrammarLessonScreen() {
 
         {/* Complete Button */}
         <View style={[styles.section, { marginBottom: 100 }]}>
-          <Pressable style={styles.completeButton} onPress={handleComplete}>
-            <Ionicons name="checkmark-circle" size={22} color="#0f172a" />
-            <Text style={styles.completeButtonText}>{t('grammar.markComplete')}</Text>
+          <Pressable
+            style={[styles.completeButton, isCompleted && styles.completeButtonDone]}
+            onPress={handleComplete}
+            disabled={isCompleted}
+          >
+            <Ionicons name="checkmark-circle" size={22} color={isCompleted ? '#34d399' : '#0f172a'} />
+            <Text style={[styles.completeButtonText, isCompleted && styles.completeButtonTextDone]}>
+              {isCompleted ? t('common.completed') : t('grammar.markComplete')}
+            </Text>
           </Pressable>
         </View>
       </ScrollView>
@@ -1168,6 +1181,16 @@ const styles = StyleSheet.create({
     color: '#0f172a',
     fontSize: 17,
     fontWeight: '800',
+  },
+  completeButtonDone: {
+    backgroundColor: '#1e293b',
+    borderWidth: 1.5,
+    borderColor: '#34d399',
+    shadowOpacity: 0,
+    elevation: 0,
+  },
+  completeButtonTextDone: {
+    color: '#34d399',
   },
   comingSoon: {
     flex: 1,

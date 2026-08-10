@@ -25,6 +25,15 @@ type ScreenState = 'loading' | 'ready' | 'playing' | 'feedback' | 'results';
 
 const TIME_PER_QUESTION = 30;
 
+// Normalize a typed answer so Arabic is matched regardless of vowel marks
+// (tashkeel), tatweel, or alef variants; Latin answers just get trimmed/lowercased.
+const normalizeAnswer = (s: string) =>
+  s.trim()
+    .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g, "")
+    .replace(/[\u0623\u0625\u0622]/g, "\u0627")
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+
 export default function GrammarQuizScreen() {
   const { t } = useTranslation();
   const { lc } = useLocalizedContent();
@@ -155,15 +164,13 @@ export default function GrammarQuizScreen() {
 
     const timeSpent = (TIME_PER_QUESTION - timeLeft) * 1000;
     const correctAnswer = currentQuestion.correctAnswer;
-    const normalizedInput = fillBlankAnswer.trim();
+    const normalizedInput = normalizeAnswer(fillBlankAnswer);
 
     let correct = false;
     if (Array.isArray(correctAnswer)) {
-      correct = correctAnswer.some(
-        (ans) => normalizedInput === ans.trim() || normalizedInput.toLowerCase() === ans.trim().toLowerCase()
-      );
+      correct = correctAnswer.some((ans) => normalizeAnswer(ans) === normalizedInput);
     } else {
-      correct = normalizedInput === correctAnswer.trim() || normalizedInput.toLowerCase() === correctAnswer.trim().toLowerCase();
+      correct = normalizeAnswer(correctAnswer) === normalizedInput;
     }
 
     setIsCorrect(correct);
