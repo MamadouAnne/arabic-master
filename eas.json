@@ -25,6 +25,16 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "ascApiKeyPath": "./credentials/AuthKey_Y69KMN6339.p8",
+        "ascApiKeyId": "Y69KMN6339",
+        "ascApiKeyIssuerId": "b5cc4e16-0d57-4156-9fd0-4a16878ce978",
+        "appleTeamId": "B6WA62RY89",
+        "ascAppId": "6801198221",
+        "companyName": "KAZTEK LLC",
+        "language": "en-US"
+      }
+    }
   }
 }
