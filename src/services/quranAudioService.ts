@@ -133,6 +133,11 @@ class QuranAudioService {
       await setAudioModeAsync({
         playsInSilentMode: true,
         shouldPlayInBackground: true,
+        // `doNotMix` makes this the PRIMARY audio session (category .playback
+        // with no .mixWithOthers option). iOS only shows lock-screen / Now
+        // Playing controls for primary audio — a mixable session (the native
+        // default is `mixWithOthers`) gets no lock-screen controls at all.
+        interruptionMode: 'doNotMix',
       });
       // Small delay to let iOS audio session initialize
       await new Promise(resolve => setTimeout(resolve, 50));
@@ -212,10 +217,16 @@ class QuranAudioService {
     this.isTransitioning = true;
     this.stoppedByUser = false;
 
-    try {
-      // Swap player without dropping the audio session — keeps background alive
-      this.releasePlayer();
+    // Hold onto the outgoing player. We hand the lock-screen (Now Playing)
+    // session over to the new player BEFORE tearing this one down, so the
+    // iOS lock-screen controls stay alive continuously across ayahs instead
+    // of flickering out between every short recitation file.
+    const previousPlayer = this.player;
+    const previousSub = this.statusSubscription;
+    this.player = null;
+    this.statusSubscription = null;
 
+    try {
       // Configure audio session (cached after first call, only reconfigures on error)
       await this.configureAudio().catch(() => {
         // Audio config failure is non-fatal, playback may still work
@@ -236,32 +247,32 @@ class QuranAudioService {
       this.onStateChangeCallback = options?.onStateChange || null;
 
       // Create new audio player
-      this.player = createAudioPlayer(url);
+      const player = createAudioPlayer(url);
+      this.player = player;
 
       // Set playback rate
-      this.player.setPlaybackRate(rate);
+      player.setPlaybackRate(rate);
 
-      // Enable lock screen controls with Now Playing metadata
+      // Enable lock screen controls with Now Playing metadata. Doing this on the
+      // NEW player transfers the "active" flag off the previous one (only one
+      // player can own the lock screen), so detaching the previous player below
+      // no longer clears the Now Playing info.
       try {
-        const reciter = QURAN_RECITERS[options?.reciterId || this.currentReciter];
-        const surah = getSurahByNumber(surahNumber);
-        const title = surah
-          ? `${surah.nameEnglish}: ${ayahNumber}`
-          : `Surah ${surahNumber}: ${ayahNumber}`;
-        this.player.setActiveForLockScreen(true, {
-          title,
-          artist: reciter.nameEnglish,
-          albumTitle: 'Quran',
-        }, {
-          showSeekForward: true,
-          showSeekBackward: true,
-        });
+        player.setActiveForLockScreen(
+          true,
+          this.buildLockScreenMetadata(surahNumber, ayahNumber, options?.reciterId),
+          { showSeekForward: true, showSeekBackward: true }
+        );
       } catch {
         // Lock screen controls may not be available (e.g. on simulators)
       }
 
-      // Listen for playback status — stored so releasePlayer() can clean it up on error
-      this.statusSubscription = this.player.addListener('playbackStatusUpdate', (status) => {
+      // The new player now owns the lock screen — safe to release the old one
+      // without wiping the Now Playing info (no gap in the controls).
+      this.detachPlayer(previousPlayer, previousSub);
+
+      // Listen for playback status — stored so we can clean it up on swap/error
+      this.statusSubscription = player.addListener('playbackStatusUpdate', (status) => {
         // Update loading state when audio is loaded
         if (status.isLoaded && this.audioState === 'loading') {
           this.audioState = 'playing';
@@ -278,15 +289,31 @@ class QuranAudioService {
             if (isFinished) {
               // Store callback before cleanup
               const completeCallback = this.onCompleteCallback;
+              const finishedPlayer = this.player;
 
-              // Release player resources immediately when finished
-              this.releasePlayer();
+              // Stop listening to the finished player, but DON'T tear it down or
+              // clear the lock screen yet — if the callback chains to the next
+              // ayah, playAyah() will hand the lock-screen session over first.
+              if (this.statusSubscription) {
+                this.statusSubscription.remove();
+                this.statusSubscription = null;
+              }
 
               this.audioState = 'idle';
               this.currentSurah = null;
               this.currentAyah = null;
               options?.onStateChange?.('idle');
               completeCallback?.();
+
+              // If nothing continued playback, the finished player is still the
+              // active one — now release it and clear the lock screen controls.
+              if (this.player === finishedPlayer) {
+                if (finishedPlayer) {
+                  try { finishedPlayer.clearLockScreenControls(); } catch {}
+                }
+                this.detachPlayer(finishedPlayer, null);
+                this.player = null;
+              }
             }
           }
         }
@@ -306,11 +333,13 @@ class QuranAudioService {
 
       // Start playing with error handling
       try {
-        this.player.play();
+        player.play();
       } catch (playError) {
         // If play fails, clean up and retry
         if (retryCount < 2) {
-          this.releasePlayer();
+          this.detachPlayer(this.player, this.statusSubscription);
+          this.player = null;
+          this.statusSubscription = null;
           this.isTransitioning = false;
           await new Promise(resolve => setTimeout(resolve, 100));
           return this.playAyah(surahNumber, ayahNumber, options, retryCount + 1);
@@ -320,8 +349,11 @@ class QuranAudioService {
 
       this.isTransitioning = false;
     } catch (error) {
-      // Clean up any partially created player
-      this.releasePlayer();
+      // Clean up any partially created player and the outgoing one
+      this.detachPlayer(this.player, this.statusSubscription);
+      this.player = null;
+      this.statusSubscription = null;
+      this.detachPlayer(previousPlayer, previousSub);
       this.isTransitioning = false;
 
       // Check if it's a session error and retry silently
@@ -416,33 +448,43 @@ class QuranAudioService {
   }
 
   /**
-   * Release player resources without clearing all state
+   * Build Now Playing / lock-screen metadata for an ayah.
    */
-  private releasePlayer(): void {
-    // Remove subscription first to prevent any further updates
-    if (this.statusSubscription) {
-      this.statusSubscription.remove();
-      this.statusSubscription = null;
-    }
+  private buildLockScreenMetadata(surahNumber: number, ayahNumber: number, reciterId?: ReciterId) {
+    const reciter = QURAN_RECITERS[reciterId || this.currentReciter];
+    const surah = getSurahByNumber(surahNumber);
+    const title = surah
+      ? `${surah.nameEnglish}: ${ayahNumber}`
+      : `Surah ${surahNumber}: ${ayahNumber}`;
+    return {
+      title,
+      artist: reciter.nameEnglish,
+      albumTitle: 'Quran',
+    };
+  }
 
-    // Release the player
-    if (this.player) {
-      try {
-        this.player.clearLockScreenControls();
-      } catch {
-        // Ignore lock screen cleanup errors
+  /**
+   * Tear down a specific player + its status listener WITHOUT touching the
+   * lock-screen session. Safe to call on an outgoing player once a new player
+   * has taken over the lock screen (or when the lock screen was already
+   * cleared explicitly by the caller).
+   */
+  private detachPlayer(
+    player: AudioPlayer | null,
+    sub: { remove: () => void } | null
+  ): void {
+    if (sub) {
+      try { sub.remove(); } catch {
+        // Ignore listener removal errors
       }
-      try {
-        this.player.pause();
-      } catch {
+    }
+    if (player) {
+      try { player.pause(); } catch {
         // Ignore pause errors
       }
-      try {
-        this.player.remove();
-      } catch {
+      try { player.remove(); } catch {
         // Ignore remove errors
       }
-      this.player = null;
     }
   }
 
@@ -456,10 +498,18 @@ class QuranAudioService {
     // Mark as stopped so playAyahRange loops can exit
     this.stoppedByUser = true;
 
-    // Release player resources
-    this.releasePlayer();
+    // Explicitly tear down the lock-screen session (this is a real stop, not a
+    // swap to the next ayah), then release the player resources.
+    if (this.player) {
+      try { this.player.clearLockScreenControls(); } catch {
+        // Ignore lock screen cleanup errors
+      }
+    }
+    this.detachPlayer(this.player, this.statusSubscription);
+    this.player = null;
+    this.statusSubscription = null;
 
-    // Reset playback state but keep audio config (avoids reconfiguration overhead)
+    // Reset playback state.
     this.audioState = 'idle';
     this.currentSurah = null;
     this.currentAyah = null;
@@ -467,6 +517,12 @@ class QuranAudioService {
     this.onErrorCallback = null;
     this.onStateChangeCallback = null;
     this.isTransitioning = false;
+
+    // Force the audio session to be reconfigured on the next fresh playback.
+    // Other subsystems (speech recognition / mic) may have switched the global
+    // AVAudioSession to a recording/mixable category; re-asserting `doNotMix`
+    // on the next play guarantees lock-screen controls keep working.
+    this.isAudioConfigured = false;
 
     // Call the callback after clearing to notify UI
     stateCallback?.('idle');
