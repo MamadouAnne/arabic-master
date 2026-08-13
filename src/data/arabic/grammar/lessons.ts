@@ -1,5 +1,6 @@
 import { GrammarLesson, GrammarContent } from '../../../types/arabic';
 import { verbLessons } from '../verbs/verbLessons';
+import { writingLessons } from '../writing/writingLessons';
 import { ADDITIONAL_GRAMMAR_LESSONS } from './additionalLessons';
 
 export const grammarLessons: GrammarLesson[] = [
@@ -6108,7 +6109,9 @@ export const grammarLessons: GrammarLesson[] = [
 
 // Helper functions
 export const getLessonById = (id: string): GrammarLesson | undefined => {
-  return grammarLessons.find(lesson => lesson.id === id) || verbLessons.find(lesson => lesson.id === id);
+  return grammarLessons.find(lesson => lesson.id === id)
+    || verbLessons.find(lesson => lesson.id === id)
+    || writingLessons.find(lesson => lesson.id === id);
 };
 
 export const getLessonsByLevel = (level: 'beginner' | 'intermediate' | 'advanced'): GrammarLesson[] => {

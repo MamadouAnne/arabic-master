@@ -21,6 +21,7 @@ const MODULES: Record<ModuleType, {
   grammar: { titleKey: 'learn.grammar', titleArabic: 'الْقَوَاعِد', icon: 'git-branch', color: '#34d399', route: '/grammar', arabicChar: 'ق' },
   verbs: { titleKey: 'learn.verbConjugations', titleArabic: 'تَصْرِيفُ الْأَفْعَال', icon: 'swap-horizontal', color: '#f472b6', route: '/verbs', arabicChar: 'ف' },
   reading: { titleKey: 'learn.reading', titleArabic: 'الْقِرَاءَة', icon: 'document-text', color: '#fbbf24', route: '/reading', arabicChar: 'ر' },
+  writing: { titleKey: 'learn.writing', titleArabic: 'الْكِتَابَة', icon: 'create', color: '#f472b6', route: '/writing', arabicChar: 'خ' },
   practice: { titleKey: 'home.practice', titleArabic: 'التَّدْرِيب', icon: 'pencil', color: '#2dd4bf', route: '/practice', arabicChar: 'د' },
 };
 

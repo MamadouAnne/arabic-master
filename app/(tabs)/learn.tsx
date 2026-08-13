@@ -111,6 +111,17 @@ export default function LearnScreen() {
       locked: false,
     },
     {
+      id: 'writing',
+      title: t('learn.writing'),
+      titleArabic: 'الْكِتَابَة',
+      description: t('learn.writingDesc'),
+      icon: 'create' as const,
+      color: '#f472b6',
+      progress: 0,
+      route: '/writing',
+      locked: false,
+    },
+    {
       id: 'grammar',
       title: t('learn.grammar'),
       titleArabic: 'الْقَوَاعِد',

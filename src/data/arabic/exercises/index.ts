@@ -7,6 +7,8 @@ import { grammarExercises2 } from './grammarExercises2';
 import { grammarExercises3 } from './grammarExercises3';
 import { additionalVerbExercises } from './additionalVerbExercises';
 import { additionalVocabularyExercises } from './additionalVocabularyExercises';
+import { writingExercises } from './writingExercises';
+import { writingExercisesMore } from './writingExercisesMore';
 
 // Combine all exercises
 export const exercises: Exercise[] = [
@@ -18,6 +20,8 @@ export const exercises: Exercise[] = [
   ...verbExercises,
   ...additionalVerbExercises,
   ...additionalVocabularyExercises,
+  ...writingExercises,
+  ...writingExercisesMore,
 ];
 
 // Helper functions
@@ -277,6 +281,23 @@ export const getExercisesForGrammarLesson = (lessonId: string): Exercise[] => {
     'verb-lesson-11': ['ex-verb-l11-1', 'ex-verb-l11-2', 'ex-verb-l11-3', 'ex-verb-l11-4'],
     'verb-lesson-12': ['ex-verb-l12-1', 'ex-verb-l12-2', 'ex-verb-l12-3', 'ex-verb-l12-4'],
     'verb-lesson-13': ['ex-verb-l13-1', 'ex-verb-l13-2', 'ex-verb-l13-3', 'ex-verb-l13-4'],
+    // Arabic Writing course (rendered through the grammar lesson screen)
+    'writing-1': ['ex-writing-1-1', 'ex-writing-1-2', 'ex-writing-1-3', 'ex-writing-1-4', 'ex-writing-1-5', 'ex-writing-1-6'],
+    'writing-3': ['ex-writing-3-1', 'ex-writing-3-2', 'ex-writing-3-3', 'ex-writing-3-4', 'ex-writing-3-5', 'ex-writing-3-6'],
+    'writing-4': ['ex-writing-4-1', 'ex-writing-4-2', 'ex-writing-4-3', 'ex-writing-4-4'],
+    'writing-5': ['ex-writing-5-1', 'ex-writing-5-2', 'ex-writing-5-3', 'ex-writing-5-4'],
+    'writing-6': ['ex-writing-6-1', 'ex-writing-6-2', 'ex-writing-6-3', 'ex-writing-6-4'],
+    'writing-7': ['ex-writing-7-1', 'ex-writing-7-2', 'ex-writing-7-3', 'ex-writing-7-4'],
+    'writing-8': ['ex-writing-8-1', 'ex-writing-8-2', 'ex-writing-8-3', 'ex-writing-8-4'],
+    'writing-9': ['ex-writing-9-1', 'ex-writing-9-2', 'ex-writing-9-3', 'ex-writing-9-4'],
+    'writing-10': ['ex-writing-10-1', 'ex-writing-10-2', 'ex-writing-10-3', 'ex-writing-10-4'],
+    'writing-11': ['ex-writing-11-1', 'ex-writing-11-2', 'ex-writing-11-3', 'ex-writing-11-4'],
+    'writing-12': ['ex-writing-12-1', 'ex-writing-12-2', 'ex-writing-12-3', 'ex-writing-12-4'],
+    'writing-13': ['ex-writing-13-1', 'ex-writing-13-2', 'ex-writing-13-3', 'ex-writing-13-4'],
+    'writing-14': ['ex-writing-14-1', 'ex-writing-14-2', 'ex-writing-14-3', 'ex-writing-14-4'],
+    'writing-15': ['ex-writing-15-1', 'ex-writing-15-2', 'ex-writing-15-3', 'ex-writing-15-4'],
+    'writing-16': ['ex-writing-16-1', 'ex-writing-16-2', 'ex-writing-16-3', 'ex-writing-16-4'],
+    'writing-17': ['ex-writing-17-1', 'ex-writing-17-2', 'ex-writing-17-3', 'ex-writing-17-4'],
   };
 
   const exerciseIds = lessonExerciseMap[lessonId] || [];

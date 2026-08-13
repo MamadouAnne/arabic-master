@@ -101,6 +101,8 @@ export default {
     alphabetWritingDesc: 'Learn the 28 Arabic letters, their forms, and how to write them',
     grammar: 'Grammar',
     grammarDesc: 'Master Arabic sentence structure, articles, and pronouns',
+    writing: 'Writing',
+    writingDesc: 'Learn to write and connect Arabic letters using the real rules',
     verbConjugations: 'Verb Conjugations',
     verbConjugationsDesc: 'Learn verb patterns and conjugations in all tenses',
     vocabulary: 'Vocabulary',

@@ -101,6 +101,8 @@ export default {
     alphabetWritingDesc: 'Apprenez les 28 lettres arabes, leurs formes et comment les \u00e9crire',
     grammar: 'Grammaire',
     grammarDesc: 'Ma\u00eetrisez la structure des phrases arabes, les articles et les pronoms',
+    writing: '\u00c9criture',
+    writingDesc: 'Apprenez \u00e0 \u00e9crire et lier les lettres arabes selon les vraies r\u00e8gles',
     verbConjugations: 'Conjugaisons',
     verbConjugationsDesc: 'Apprenez les mod\u00e8les de verbes et les conjugaisons \u00e0 tous les temps',
     vocabulary: 'Vocabulaire',

@@ -277,6 +277,7 @@ export default function RootLayout() {
           <Stack.Screen name="vocabulary/flashcards" />
           <Stack.Screen name="grammar/index" />
           <Stack.Screen name="grammar/[lessonId]" />
+          <Stack.Screen name="writing/index" />
           <Stack.Screen name="numbers/index" />
           <Stack.Screen name="numbers/[lessonId]" />
           <Stack.Screen name="reading/index" />

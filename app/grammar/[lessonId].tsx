@@ -27,6 +27,39 @@ const normalizeAnswer = (s: string) =>
     .replace(/\s+/g, " ")
     .toLowerCase();
 
+// Writing course: examples formatted "ا + ل + ... → word" are shown as letter
+// chips with the non-connecting letters (ا د ذ ر ز و) highlighted.
+const WRITING_NON_CONNECTORS = new Set(['ا', 'أ', 'إ', 'آ', 'د', 'ذ', 'ر', 'ز', 'و']);
+const isLetterBuild = (s: string) => s.includes(' + ') && s.includes('→');
+const buildFinalWord = (s: string) => (s.split('→').pop() || '').trim();
+
+function LetterBuild({ text, highlight }: { text: string; highlight?: boolean }) {
+  const parts = text.split('→').map((p) => p.trim());
+  const letters = parts[0].split('+').map((x) => x.trim()).filter(Boolean);
+  const stages = parts.slice(1);
+  return (
+    <View style={styles.buildBox}>
+      <View style={styles.buildChips}>
+        {letters.map((l, i) => {
+          const base = l.replace(/[\u064B-\u0652\u0670]/g, "");
+          const nc = !!highlight && WRITING_NON_CONNECTORS.has(base);
+          return (
+            <View key={i} style={[styles.buildChip, nc && styles.buildChipNC]}>
+              <Text style={[styles.buildChipText, nc && styles.buildChipTextNC]}>{l}</Text>
+            </View>
+          );
+        })}
+      </View>
+      {stages.map((w, i) => (
+        <View key={i} style={styles.buildStage}>
+          <Ionicons name="arrow-down" size={14} color="#64748b" />
+          <Text style={styles.buildWord}>{w}</Text>
+        </View>
+      ))}
+    </View>
+  );
+}
+
 export default function GrammarLessonScreen() {
   const { t } = useTranslation();
   const { lc } = useLocalizedContent();
@@ -635,9 +668,11 @@ export default function GrammarLessonScreen() {
                   <Pressable
                     key={exIndex}
                     style={styles.exampleCard}
-                    onPress={() => speak(example.arabic)}
+                    onPress={() => speak(isLetterBuild(example.arabic) ? buildFinalWord(example.arabic) : example.arabic)}
                   >
-                    {isVowelsLesson ? (
+                    {isLetterBuild(example.arabic) ? (
+                      <LetterBuild text={example.arabic} highlight={lessonId === 'writing-1'} />
+                    ) : isVowelsLesson ? (
                       <ArabicVowelText text={example.arabic} style={styles.exampleCardArabic} />
                     ) : (
                       <Text style={styles.exampleCardArabic}>{example.arabic}</Text>
@@ -1097,6 +1132,14 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 8,
   },
+  buildBox: { alignItems: 'center', gap: 6, marginBottom: 8 },
+  buildChips: { flexDirection: 'row-reverse', flexWrap: 'wrap', justifyContent: 'center', gap: 5 },
+  buildChip: { paddingHorizontal: 7, paddingVertical: 2, borderRadius: 8, backgroundColor: '#0f172a', borderWidth: 1, borderColor: '#334155' },
+  buildChipNC: { backgroundColor: 'rgba(245,158,11,0.14)', borderColor: '#f59e0b' },
+  buildChipText: { fontSize: 20, lineHeight: 32, color: '#e2e8f0' },
+  buildChipTextNC: { color: '#fbbf24', fontWeight: '700' },
+  buildStage: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  buildWord: { fontSize: 25, lineHeight: 42, color: '#ffffff', fontWeight: '600' },
   exampleCardEnglish: {
     fontSize: 13,
     color: '#94a3b8',
