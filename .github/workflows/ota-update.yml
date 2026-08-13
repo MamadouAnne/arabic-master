@@ -29,7 +29,11 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Publish update
-        run: eas update --branch production --message "${MESSAGE:-Manual OTA update}" --non-interactive
+        # --environment production pulls the server-side EAS environment
+        # variables (EXPO_PUBLIC_SUPABASE_URL/ANON_KEY, etc.) at bundle time.
+        # Without it, CI has no .env (gitignored) so those inline as empty and
+        # the published OTA ships with Supabase unconfigured, breaking sign-in.
+        run: eas update --branch production --environment production --message "${MESSAGE:-Manual OTA update}" --non-interactive
         env:
           NODE_OPTIONS: --max-old-space-size=4096
           MESSAGE: ${{ github.event.head_commit.message }}
