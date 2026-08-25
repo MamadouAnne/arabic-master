@@ -98,14 +98,14 @@ export default function QuranScreen() {
         <View style={styles.quickActionsGrid}>
           <View style={styles.quickActionsRow}>
             <Pressable style={styles.actionCardGrid} onPress={handleLearnQuranPress} accessibilityRole="button" accessibilityLabel={t('quran.quranTitle')}>
-              <View style={[styles.actionIcon, { backgroundColor: '#3b82f620' }]}>
+              <View style={[styles.actionIcon, { backgroundColor: '#3b82f622' }]}>
                 <Ionicons name="book" size={24} color="#3b82f6" />
               </View>
               <Text style={styles.actionTitle}>{t('quran.quranTitle')}</Text>
               <Text style={styles.actionDesc}>{t('quran.allSurahs')}</Text>
             </Pressable>
             <Pressable style={styles.actionCardGrid} onPress={handleStoriesPress} accessibilityRole="button" accessibilityLabel={t('quran.stories')}>
-              <View style={[styles.actionIcon, { backgroundColor: '#8b5cf620' }]}>
+              <View style={[styles.actionIcon, { backgroundColor: '#8b5cf622' }]}>
                 <Ionicons name="library" size={24} color="#8b5cf6" />
               </View>
               <View style={styles.actionBadge}>
@@ -117,7 +117,7 @@ export default function QuranScreen() {
           </View>
           <View style={styles.quickActionsRow}>
             <Pressable style={styles.actionCardGrid} onPress={handleDuasPress} accessibilityRole="button" accessibilityLabel={t('quran.duas')}>
-              <View style={[styles.actionIcon, { backgroundColor: '#f59e0b20' }]}>
+              <View style={[styles.actionIcon, { backgroundColor: '#f59e0b22' }]}>
                 <Ionicons name="hand-left" size={24} color="#f59e0b" />
               </View>
               <View style={[styles.actionBadge, { backgroundColor: '#f59e0b30' }]}>
@@ -127,7 +127,7 @@ export default function QuranScreen() {
               <Text style={styles.actionDesc}>{t('quran.propheticPrayers')}</Text>
             </Pressable>
             <Pressable style={styles.actionCardGrid} onPress={handleQuizPress} accessibilityRole="button" accessibilityLabel={t('quran.quizzes')}>
-              <View style={[styles.actionIcon, { backgroundColor: '#06b6d420' }]}>
+              <View style={[styles.actionIcon, { backgroundColor: '#06b6d422' }]}>
                 <Ionicons name="help-circle" size={24} color="#06b6d4" />
               </View>
               <Text style={styles.actionTitle}>{t('quran.quizzes')}</Text>
@@ -146,7 +146,8 @@ export default function QuranScreen() {
             <Text style={styles.practiceSectionTitleArabic}>العبادات</Text>
           </View>
           <Pressable style={styles.practiceCardWide} onPress={handlePrayerPress} accessibilityRole="button" accessibilityLabel={t('quran.prayerPractice')}>
-            <View style={[styles.practiceCardIcon, { backgroundColor: '#10b98120' }]}>
+            <View style={styles.practiceCardAccent} />
+            <View style={[styles.practiceCardIcon, { backgroundColor: '#10b98122' }]}>
               <Ionicons name="body" size={24} color="#10b981" />
             </View>
             <View style={styles.practiceCardContent}>
@@ -174,12 +175,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 20,
-    paddingTop: 10,
+    paddingTop: 8,
     paddingBottom: 20,
   },
   title: {
-    fontSize: 28,
-    fontWeight: 'bold',
+    fontSize: 30,
+    fontWeight: '800',
     color: '#ffffff',
   },
   titleArabic: {
@@ -189,9 +190,11 @@ const styles = StyleSheet.create({
   statsCard: {
     backgroundColor: '#1e293b',
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: 18,
     padding: 20,
-    marginBottom: 16,
+    marginBottom: 24,
+    borderWidth: 1,
+    borderColor: '#334155',
   },
   progressHeader: {
     flexDirection: 'row',
@@ -250,18 +253,21 @@ const styles = StyleSheet.create({
   actionCardGrid: {
     flex: 1,
     backgroundColor: '#1e293b',
-    borderRadius: 16,
+    borderRadius: 18,
     padding: 16,
-    alignItems: 'center',
+    alignItems: 'flex-start',
     position: 'relative',
+    borderWidth: 1,
+    borderColor: '#334155',
+    minHeight: 116,
   },
   actionIcon: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 46,
+    height: 46,
+    borderRadius: 13,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 8,
+    marginBottom: 14,
   },
   actionBadge: {
     position: 'absolute',
@@ -279,13 +285,13 @@ const styles = StyleSheet.create({
   },
   actionTitle: {
     color: '#ffffff',
-    fontSize: 14,
-    fontWeight: '600',
+    fontSize: 15,
+    fontWeight: '700',
   },
   actionDesc: {
-    color: '#64748b',
-    fontSize: 11,
-    marginTop: 2,
+    color: '#94a3b8',
+    fontSize: 13,
+    marginTop: 3,
   },
   practiceSection: {
     paddingHorizontal: 20,
@@ -295,7 +301,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 12,
+    marginBottom: 14,
   },
   practiceSectionTitleRow: {
     flexDirection: 'row',
@@ -303,8 +309,8 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   practiceSectionTitle: {
-    fontSize: 16,
-    fontWeight: '700',
+    fontSize: 18,
+    fontWeight: '800',
     color: '#ffffff',
   },
   practiceSectionTitleArabic: {
@@ -315,14 +321,26 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#1e293b',
-    borderRadius: 16,
+    borderRadius: 18,
     padding: 16,
+    paddingLeft: 20,
     gap: 14,
+    borderWidth: 1,
+    borderColor: '#334155',
+    overflow: 'hidden',
+  },
+  practiceCardAccent: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    bottom: 0,
+    width: 5,
+    backgroundColor: '#10b981',
   },
   practiceCardIcon: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 46,
+    height: 46,
+    borderRadius: 14,
     alignItems: 'center',
     justifyContent: 'center',
   },
