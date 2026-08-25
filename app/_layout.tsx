@@ -7,7 +7,6 @@ import { Platform, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import * as NavigationBar from 'expo-navigation-bar';
 import * as SplashScreen from 'expo-splash-screen';
-import * as Updates from 'expo-updates';
 import * as Linking from 'expo-linking';
 import { useTranslation } from 'react-i18next';
 import { quranAudioService } from '../src/services/quranAudioService';
@@ -43,7 +42,6 @@ export default function RootLayout() {
 
   const [authReady, setAuthReady] = useState(false);
   const [updateComplete, setUpdateComplete] = useState(false);
-  const [updateReady, setUpdateReady] = useState(false);
 
   // Hard fallback: force app ready after 5s no matter what
   useEffect(() => {
@@ -54,27 +52,11 @@ export default function RootLayout() {
     return () => clearTimeout(fallback);
   }, []);
 
-  // Check for OTA updates in the background — don't block app launch
+  // OTA update checking + the restart prompt live in <UpdateModal /> (it uses
+  // Updates.useUpdates() and re-checks on every foreground). Nothing here needs
+  // to block launch.
   useEffect(() => {
-    if (__DEV__) {
-      setUpdateComplete(true);
-      return;
-    }
-    setUpdateComplete(true); // Let app launch immediately
-
-    // Download update in background, prompt to restart
-    (async () => {
-      try {
-        const update = await Updates.checkForUpdateAsync();
-        if (update.isAvailable) {
-          await Updates.fetchUpdateAsync();
-          // Bundle downloaded — surface the styled restart prompt.
-          setUpdateReady(true);
-        }
-      } catch {
-        // OTA update check failed silently
-      }
-    })();
+    setUpdateComplete(true);
   }, []);
 
   // Android navigation bar: keep light buttons. Background color is no longer
@@ -291,11 +273,7 @@ export default function RootLayout() {
         {/* Show the AI floating button only on the home tab. */}
         {segments[0] === '(tabs)' && !segments[1] && <AIFloatingButton />}
         <AIChatSheet />
-        <UpdateModal
-          visible={updateReady}
-          onRestart={() => Updates.reloadAsync()}
-          onLater={() => setUpdateReady(false)}
-        />
+        <UpdateModal />
       </GestureHandlerRootView>
     </AppErrorBoundary>
   );
