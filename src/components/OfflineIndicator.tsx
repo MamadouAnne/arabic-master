@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { useTranslation } from 'react-i18next';
 import { useNetworkStatus } from '../hooks/useNetworkStatus';
 
 interface OfflineIndicatorProps {
@@ -8,6 +9,7 @@ interface OfflineIndicatorProps {
 }
 
 export function OfflineIndicator({ compact = false }: OfflineIndicatorProps) {
+  const { t } = useTranslation();
   const { isConnected, isLoading } = useNetworkStatus();
 
   if (isLoading || isConnected) {
@@ -25,7 +27,7 @@ export function OfflineIndicator({ compact = false }: OfflineIndicatorProps) {
   return (
     <View style={styles.container}>
       <Ionicons name="cloud-offline" size={18} color="#ef4444" />
-      <Text style={styles.text}>You're offline</Text>
+      <Text style={styles.text}>{t('common.offline')}</Text>
     </View>
   );
 }

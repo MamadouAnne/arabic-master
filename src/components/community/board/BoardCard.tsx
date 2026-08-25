@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -21,6 +22,7 @@ interface Props {
 const PREVIEW_H = 200;
 
 export const BoardCard = React.memo(function BoardCard({ board, groupColor, authorName, canEdit, onEdit, onLongPress }: Props) {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [w, setW] = useState(1);
 
@@ -41,7 +43,7 @@ export const BoardCard = React.memo(function BoardCard({ board, groupColor, auth
         <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
           <View style={[styles.badge, { backgroundColor: groupColor }]}>
             <Ionicons name="brush" size={13} color="#ffffff" />
-            <Text style={styles.badgeText}>BOARD</Text>
+            <Text style={styles.badgeText}>{t('community.badgeBoard')}</Text>
           </View>
           <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
         </View>
@@ -62,7 +64,7 @@ export const BoardCard = React.memo(function BoardCard({ board, groupColor, auth
 
         <View style={styles.footer}>
           <Ionicons name="expand" size={15} color={groupColor} />
-          <Text style={[styles.footerText, { color: groupColor }]}>Open full board</Text>
+          <Text style={[styles.footerText, { color: groupColor }]}>{t('community.openFullBoard')}</Text>
         </View>
       </Pressable>
 

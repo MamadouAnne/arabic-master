@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, TextInput, StyleSheet, Pressable, ActivityIndicator } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -22,13 +23,14 @@ export function ChatInputBar({
   isJoined, messageText, onChangeText, onSend, isSending, placeholder, joinLabel,
   onMicPress, isRecording, editing, onCancelEdit, onCreate, groupColor = '#818cf8',
 }: Props) {
+  const { t } = useTranslation();
   const hasText = !!messageText.trim();
   return (
     <View>
       {editing && (
         <View style={styles.editBanner}>
           <Ionicons name="create-outline" size={14} color={groupColor} />
-          <Text style={[styles.editBannerText, { color: groupColor }]}>Editing message</Text>
+          <Text style={[styles.editBannerText, { color: groupColor }]}>{t('community.editingMessage')}</Text>
           <Pressable onPress={onCancelEdit} hitSlop={8}>
             <Ionicons name="close" size={16} color="#94a3b8" />
           </Pressable>

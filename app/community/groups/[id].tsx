@@ -1016,7 +1016,7 @@ export default function GroupDetailScreen() {
             <View style={styles.previewStat}>
               <Ionicons name="flag" size={18} color="#10b981" />
               <Text style={styles.previewStatValue}>{group.maxMembers}</Text>
-              <Text style={styles.previewStatLabel}>Max</Text>
+              <Text style={styles.previewStatLabel}>{t('community.max')}</Text>
             </View>
           </View>
 
@@ -1032,7 +1032,7 @@ export default function GroupDetailScreen() {
             <Text style={styles.previewJoinText}>{t('community.joinGroup')}</Text>
           </Pressable>
 
-          <Text style={styles.previewHint}>Join to see messages and participate in the group chat</Text>
+          <Text style={styles.previewHint}>{t('community.joinToSeeMessages')}</Text>
         </ScrollView>
       ) : (
       <>
@@ -1193,7 +1193,7 @@ export default function GroupDetailScreen() {
                   <Ionicons name="search" size={16} color="#64748b" />
                   <TextInput
                     style={styles.memberSearchInput}
-                    placeholder="Search members..."
+                    placeholder={t('community.searchMembers')}
                     placeholderTextColor="#64748b"
                     value={memberSearch}
                     onChangeText={setMemberSearch}
@@ -1212,7 +1212,7 @@ export default function GroupDetailScreen() {
                       <ActivityIndicator color={group.color} size="large" />
                     </View>
                   ) : filteredMembers.length === 0 ? (
-                    <Text style={styles.emptyMembersText}>No members found</Text>
+                    <Text style={styles.emptyMembersText}>{t('community.noMembersFound')}</Text>
                   ) : (
                     filteredMembers.map((member) => (
                       <MemberRow

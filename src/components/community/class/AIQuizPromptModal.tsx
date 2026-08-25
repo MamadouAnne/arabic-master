@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal, TextInput, ActivityIndicator, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { CourseLevel } from '../../../types/aiBoard';
@@ -31,6 +32,7 @@ const LEVELS: { v: CourseLevel; label: string }[] = [
 ];
 
 export function AIQuizPromptModal({ visible, groupColor, hasChat, curriculum, loading, onSubmit, onClose }: Props) {
+  const { t } = useTranslation();
   const [source, setSource] = useState<'lesson' | 'chat' | 'topic'>('lesson');
   const [search, setSearch] = useState('');
   const [lessonId, setLessonId] = useState<string | null>(null);
@@ -74,7 +76,7 @@ export function AIQuizPromptModal({ visible, groupColor, hasChat, curriculum, lo
         <View style={styles.card}>
           <View style={styles.header}>
             <View style={[styles.badge, { backgroundColor: `${groupColor}22` }]}><Ionicons name="sparkles" size={16} color={groupColor} /></View>
-            <Text style={styles.title}>Generate a quiz with AI</Text>
+            <Text style={styles.title}>{t('community.generateQuizAI')}</Text>
             {!loading && <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={22} color="#94a3b8" /></Pressable>}
           </View>
 
@@ -89,7 +91,7 @@ export function AIQuizPromptModal({ visible, groupColor, hasChat, curriculum, lo
             <>
               <View style={styles.searchBar}>
                 <Ionicons name="search" size={15} color="#64748b" />
-                <TextInput style={styles.searchInput} value={search} onChangeText={setSearch} placeholder="Search lessons…" placeholderTextColor="#64748b" editable={!loading} />
+                <TextInput style={styles.searchInput} value={search} onChangeText={setSearch} placeholder={t('community.searchLessons')} placeholderTextColor="#64748b" editable={!loading} />
               </View>
               <ScrollView style={styles.list} keyboardShouldPersistTaps="handled">
                 {filtered.map((c) => (
@@ -99,16 +101,16 @@ export function AIQuizPromptModal({ visible, groupColor, hasChat, curriculum, lo
                     <Text style={styles.lessonLevel}>{c.level}</Text>
                   </Pressable>
                 ))}
-                {filtered.length === 0 && <Text style={styles.empty}>No lessons match.</Text>}
+                {filtered.length === 0 && <Text style={styles.empty}>{t('community.noLessonsMatch')}</Text>}
               </ScrollView>
             </>
           ) : source === 'chat' ? (
-            <Text style={styles.chatHint}>The AI will build a quiz from the recent messages in this group.</Text>
+            <Text style={styles.chatHint}>{t('community.aiQuizFromChat')}</Text>
           ) : (
-            <TextInput style={styles.input} value={topic} onChangeText={setTopic} placeholder="e.g. Sun and moon letters" placeholderTextColor="#64748b" autoFocus editable={!loading} />
+            <TextInput style={styles.input} value={topic} onChangeText={setTopic} placeholder={t('community.quizTopicPlaceholder')} placeholderTextColor="#64748b" autoFocus editable={!loading} />
           )}
 
-          <Text style={styles.label}>Questions</Text>
+          <Text style={styles.label}>{t('community.questions')}</Text>
           <View style={styles.pills}>
             {COUNTS.map((n) => (
               <Pressable key={n} style={[styles.pill, count === n && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setCount(n)} disabled={loading}>
@@ -117,7 +119,7 @@ export function AIQuizPromptModal({ visible, groupColor, hasChat, curriculum, lo
             ))}
           </View>
 
-          <Text style={styles.label}>Level</Text>
+          <Text style={styles.label}>{t('community.level')}</Text>
           <View style={styles.pills}>
             {LEVELS.map((l) => (
               <Pressable key={l.v} style={[styles.levelPill, level === l.v && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setLevel(l.v)} disabled={loading}>
@@ -128,9 +130,9 @@ export function AIQuizPromptModal({ visible, groupColor, hasChat, curriculum, lo
 
           <Pressable style={[styles.generateBtn, { backgroundColor: groupColor }, (!canSubmit || loading) && { opacity: 0.5 }]} onPress={submit} disabled={!canSubmit || loading}>
             {loading ? (
-              <><ActivityIndicator color="#ffffff" size="small" /><Text style={styles.generateText}>Generating…</Text></>
+              <><ActivityIndicator color="#ffffff" size="small" /><Text style={styles.generateText}>{t('community.generating')}</Text></>
             ) : (
-              <><Ionicons name="sparkles" size={17} color="#ffffff" /><Text style={styles.generateText}>Generate quiz</Text></>
+              <><Ionicons name="sparkles" size={17} color="#ffffff" /><Text style={styles.generateText}>{t('community.generateQuiz')}</Text></>
             )}
           </Pressable>
           <Text style={styles.hint}>{source === 'lesson' ? 'Built from our curriculum · uses AI credits' : 'Uses AI credits · mix of question types'}</Text>

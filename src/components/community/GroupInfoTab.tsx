@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Share } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { StudyGroup, StudySession, GroupChallenge } from '../../types/community';
@@ -65,7 +66,7 @@ export function GroupInfoTab({
         <View style={styles.statCard}>
           <Ionicons name="trophy" size={20} color="#f59e0b" />
           <Text style={styles.statValue}>{group.maxMembers}</Text>
-          <Text style={styles.statLabel}>Max</Text>
+          <Text style={styles.statLabel}>{t('community.max')}</Text>
         </View>
         <View style={styles.statCard}>
           <Ionicons name="flag" size={20} color="#10b981" />
@@ -98,11 +99,11 @@ export function GroupInfoTab({
           </Pressable>
         )}
       </View>
-      <Text style={styles.sectionDesc}>Schedule a time to study together. Members get notified and can RSVP.</Text>
+      <Text style={styles.sectionDesc}>{t('community.scheduleStudyDesc')}</Text>
       {upcomingSessions.length === 0 && pastSessions.length === 0 ? (
         <View style={styles.emptyCard}>
           <Ionicons name="calendar-outline" size={28} color="#475569" />
-          <Text style={styles.emptyTitle}>No sessions yet</Text>
+          <Text style={styles.emptyTitle}>{t('community.noSessionsYet')}</Text>
           <Text style={styles.emptyDesc}>
             {canManage
               ? 'Create a study session to pick a time for the group to learn together. Members will be able to RSVP.'
@@ -130,11 +131,11 @@ export function GroupInfoTab({
           </Pressable>
         )}
       </View>
-      <Text style={styles.sectionDesc}>Set a shared goal for the group and track progress together.</Text>
+      <Text style={styles.sectionDesc}>{t('community.setGoalDesc')}</Text>
       {challenges.length === 0 ? (
         <View style={styles.emptyCard}>
           <Ionicons name="flash-outline" size={28} color="#475569" />
-          <Text style={styles.emptyTitle}>No challenges yet</Text>
+          <Text style={styles.emptyTitle}>{t('community.noChallengesYet')}</Text>
           <Text style={styles.emptyDesc}>
             {canManage
               ? 'Start a challenge to motivate the group — e.g. "Memorize Surah Al-Mulk in 7 days". Everyone works toward the same goal.'
@@ -175,7 +176,7 @@ export function GroupInfoTab({
             <Text style={styles.activeText}>{t('community.activeNow')}</Text>
           </View>
         )}
-        <Text style={styles.createdText}>Created {getDaysAgo(group.createdAt)}</Text>
+        <Text style={styles.createdText}>{t('community.createdAgo', { time: getDaysAgo(group.createdAt) })}</Text>
       </View>
     </>
   );

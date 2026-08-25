@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, ScrollView, Modal, KeyboardAvoidingView, Platform, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -27,6 +28,7 @@ function blankQuestion(type: QuizQuestion['type']): QuizQuestion {
 }
 
 export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, onClose }: Props) {
+  const { t } = useTranslation();
   const [title, setTitle] = useState(initial?.title || '');
   const [questions, setQuestions] = useState<QuizQuestion[]>(initial?.questions?.length ? initial.questions : [blankQuestion('multiple_choice')]);
   const [aiOpen, setAiOpen] = useState(false);
@@ -109,7 +111,7 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
           <Text style={styles.headerTitle}>{initial ? 'Edit quiz' : 'New quiz'}</Text>
           <Pressable onPress={() => setAiOpen(true)} style={styles.aiBtn} hitSlop={6}>
             <Ionicons name="sparkles" size={18} color={groupColor} />
-            <Text style={[styles.aiBtnText, { color: groupColor }]}>AI</Text>
+            <Text style={[styles.aiBtnText, { color: groupColor }]}>{t('community.ai')}</Text>
           </Pressable>
           <Pressable onPress={handleSave} style={[styles.saveBtn, { backgroundColor: groupColor }]}>
             <Text style={styles.saveText}>{initial ? 'Update' : 'Post'}</Text>
@@ -121,22 +123,22 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
             {isEmpty && (
               <Pressable style={[styles.aiCta, { borderColor: `${groupColor}66` }]} onPress={() => setAiOpen(true)}>
                 <Ionicons name="sparkles" size={18} color={groupColor} />
-                <Text style={[styles.aiCtaText, { color: groupColor }]}>Generate a quiz with AI</Text>
-                <Text style={styles.aiCtaSub}>from this chat or a topic</Text>
+                <Text style={[styles.aiCtaText, { color: groupColor }]}>{t('community.generateQuizAI')}</Text>
+                <Text style={styles.aiCtaSub}>{t('community.fromChatOrTopic')}</Text>
               </Pressable>
             )}
-            <TextInput style={styles.titleInput} placeholder="Quiz title" placeholderTextColor="#475569" value={title} onChangeText={setTitle} multiline />
+            <TextInput style={styles.titleInput} placeholder={t('community.quizTitlePlaceholder')} placeholderTextColor="#475569" value={title} onChangeText={setTitle} multiline />
 
             {questions.map((q, qi) => (
               <View key={q.id} style={styles.qCard}>
                 <View style={styles.qBar}>
-                  <Text style={[styles.qNum, { color: groupColor }]}>Q{qi + 1}</Text>
+                  <Text style={[styles.qNum, { color: groupColor }]}>{t('community.qNum', { num: qi + 1 })}</Text>
                   <View style={styles.qTypeToggle}>
                     <Pressable onPress={() => patch(qi, blankQuestion('multiple_choice'))} style={[styles.qTypeBtn, q.type === 'multiple_choice' && { backgroundColor: `${groupColor}30` }]}>
-                      <Text style={[styles.qTypeText, q.type === 'multiple_choice' && { color: groupColor }]}>Choice</Text>
+                      <Text style={[styles.qTypeText, q.type === 'multiple_choice' && { color: groupColor }]}>{t('community.choice')}</Text>
                     </Pressable>
                     <Pressable onPress={() => patch(qi, blankQuestion('fill_blank'))} style={[styles.qTypeBtn, q.type === 'fill_blank' && { backgroundColor: `${groupColor}30` }]}>
-                      <Text style={[styles.qTypeText, q.type === 'fill_blank' && { color: groupColor }]}>Fill blank</Text>
+                      <Text style={[styles.qTypeText, q.type === 'fill_blank' && { color: groupColor }]}>{t('community.fillBlank')}</Text>
                     </Pressable>
                   </View>
                   {questions.length > 1 && (
@@ -146,7 +148,7 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                   )}
                 </View>
 
-                <TextInput style={styles.promptInput} placeholder="Question…" placeholderTextColor="#475569" value={q.prompt} onChangeText={(t) => patch(qi, { prompt: t })} multiline />
+                <TextInput style={styles.promptInput} placeholder={t('community.questionPlaceholder')} placeholderTextColor="#475569" value={q.prompt} onChangeText={(t) => patch(qi, { prompt: t })} multiline />
 
                 {q.type === 'multiple_choice' ? (
                   <View style={styles.options}>
@@ -164,22 +166,22 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                     {(q.options || []).length < 6 && (
                       <Pressable onPress={() => addOption(qi)} style={styles.addOpt}>
                         <Ionicons name="add" size={16} color={groupColor} />
-                        <Text style={[styles.addOptText, { color: groupColor }]}>Add option</Text>
+                        <Text style={[styles.addOptText, { color: groupColor }]}>{t('community.addOption')}</Text>
                       </Pressable>
                     )}
-                    <Text style={styles.hintText}>Tap the circle to mark the correct answer.</Text>
+                    <Text style={styles.hintText}>{t('community.markCorrectHint')}</Text>
                   </View>
                 ) : (
-                  <TextInput style={styles.answerInput} placeholder="Correct answer" placeholderTextColor="#475569" value={q.correctText || ''} onChangeText={(t) => patch(qi, { correctText: t })} />
+                  <TextInput style={styles.answerInput} placeholder={t('community.correctAnswerPlaceholder')} placeholderTextColor="#475569" value={q.correctText || ''} onChangeText={(t) => patch(qi, { correctText: t })} />
                 )}
 
-                <TextInput style={styles.explInput} placeholder="Explanation (optional)" placeholderTextColor="#475569" value={q.explanation || ''} onChangeText={(t) => patch(qi, { explanation: t })} multiline />
+                <TextInput style={styles.explInput} placeholder={t('community.explanationPlaceholder')} placeholderTextColor="#475569" value={q.explanation || ''} onChangeText={(t) => patch(qi, { explanation: t })} multiline />
               </View>
             ))}
 
             <Pressable style={styles.addQ} onPress={() => setQuestions((prev) => [...prev, blankQuestion('multiple_choice')])}>
               <Ionicons name="add-circle" size={20} color={groupColor} />
-              <Text style={[styles.addQText, { color: groupColor }]}>Add question</Text>
+              <Text style={[styles.addQText, { color: groupColor }]}>{t('community.addQuestion')}</Text>
             </Pressable>
             <View style={{ height: 30 }} />
           </ScrollView>

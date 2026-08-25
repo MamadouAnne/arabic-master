@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { StudySession } from '../../types/community';
@@ -11,6 +12,7 @@ interface Props {
 }
 
 export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
+  const { t } = useTranslation();
   const [countdown, setCountdown] = useState('');
 
   useEffect(() => {
@@ -70,14 +72,14 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
               onPress={() => onRsvp(session.id, 'going')}
             >
               <Ionicons name="checkmark" size={14} color={session.userRsvp === 'going' ? groupColor : '#64748b'} />
-              <Text style={[styles.rsvpText, session.userRsvp === 'going' && { color: groupColor }]}>Going</Text>
+              <Text style={[styles.rsvpText, session.userRsvp === 'going' && { color: groupColor }]}>{t('community.going')}</Text>
             </Pressable>
             <Pressable
               style={[styles.rsvpBtn, session.userRsvp === 'not_going' && { backgroundColor: '#ef444420', borderColor: '#ef4444' }]}
               onPress={() => onRsvp(session.id, 'not_going')}
             >
               <Ionicons name="close" size={14} color={session.userRsvp === 'not_going' ? '#ef4444' : '#64748b'} />
-              <Text style={[styles.rsvpText, session.userRsvp === 'not_going' && { color: '#ef4444' }]}>Can't</Text>
+              <Text style={[styles.rsvpText, session.userRsvp === 'not_going' && { color: '#ef4444' }]}>{t('community.cant')}</Text>
             </Pressable>
           </View>
         )}

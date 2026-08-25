@@ -22,12 +22,13 @@ const METHOD_COLOR = '#3b82f6';
 // ============ Anchor Word Chip ============
 
 function AnchorChip({ anchor, index, hidden, onReveal }: { anchor: AnchorWord; index: number; hidden?: boolean; onReveal?: () => void }) {
+  const { t } = useTranslation();
   if (hidden) {
     return (
-      <Pressable style={styles.hiddenAnchorChip} onPress={onReveal} accessibilityRole="button" accessibilityLabel={`Reveal word ${index}`}>
+      <Pressable style={styles.hiddenAnchorChip} onPress={onReveal} accessibilityRole="button" accessibilityLabel={t('common.revealWord', { index })}>
         <Text style={styles.hiddenAnchorIndex}>{index}</Text>
         <Ionicons name="eye-off-outline" size={22} color="#64748b" />
-        <Text style={styles.hiddenAnchorLabel}>Tap to reveal</Text>
+        <Text style={styles.hiddenAnchorLabel}>{t('common.tapToReveal')}</Text>
       </Pressable>
     );
   }

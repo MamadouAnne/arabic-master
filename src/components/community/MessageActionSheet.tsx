@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ReactionPicker } from './ReactionPicker';
@@ -31,6 +32,7 @@ interface Props {
 export function MessageActionSheet({
   visible, actions, groupColor, onReact, onReply, onCopy, onBoard, onPinToggle, onEdit, onDelete, onClose,
 }: Props) {
+  const { t } = useTranslation();
   const item = (icon: string, label: string, onPress: () => void, danger = false) => (
     <Pressable
       style={styles.row}
@@ -61,7 +63,7 @@ export function MessageActionSheet({
           {actions.canEdit && item('create-outline', 'Edit', onEdit)}
           {actions.canDelete && item('trash-outline', 'Delete', onDelete, true)}
           <Pressable style={styles.cancel} onPress={onClose}>
-            <Text style={styles.cancelText}>Cancel</Text>
+            <Text style={styles.cancelText}>{t('common.cancel')}</Text>
           </Pressable>
         </Pressable>
       </Pressable>

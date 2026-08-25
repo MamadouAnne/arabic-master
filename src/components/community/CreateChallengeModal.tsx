@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -24,6 +25,7 @@ const DURATION_OPTIONS = [
 ];
 
 export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }: Props) {
+  const { t } = useTranslation();
   const [title, setTitle] = useState('');
   const [targetType, setTargetType] = useState('surah');
   const [targetValue, setTargetValue] = useState('');
@@ -50,17 +52,17 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
             <Pressable onPress={onClose}>
               <Ionicons name="close" size={24} color="#94a3b8" />
             </Pressable>
-            <Text style={styles.headerTitle}>Group Challenge</Text>
+            <Text style={styles.headerTitle}>{t('community.challengeTitle')}</Text>
             <Pressable style={[styles.createBtn, (!title.trim() || !targetValue) && { opacity: 0.4 }]} onPress={handleCreate} disabled={!title.trim() || !targetValue}>
-              <Text style={styles.createBtnText}>Create</Text>
+              <Text style={styles.createBtnText}>{t('community.create')}</Text>
             </Pressable>
           </View>
 
           <ScrollView showsVerticalScrollIndicator={false}>
-            <Text style={styles.hint}>Set a shared goal for the group to reach before the deadline. Everyone contributes to the same target.</Text>
+            <Text style={styles.hint}>{t('community.challengeHint')}</Text>
             <TextInput style={styles.input} placeholder='e.g. "Memorize Surah Al-Mulk" or "Earn 500 XP"' placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
 
-            <Text style={styles.label}>What are you tracking?</Text>
+            <Text style={styles.label}>{t('community.whatTracking')}</Text>
             <View style={styles.optionRow}>
               {TARGET_TYPES.map((t) => (
                 <Pressable key={t.key} style={[styles.typeBtn, targetType === t.key && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setTargetType(t.key)}>
@@ -70,10 +72,10 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
               ))}
             </View>
 
-            <Text style={styles.label}>How much?</Text>
+            <Text style={styles.label}>{t('community.howMuch')}</Text>
             <TextInput style={styles.input} placeholder={targetType === 'xp' ? 'e.g. 500' : targetType === 'words' ? 'e.g. 50' : 'e.g. 5'} placeholderTextColor="#64748b" value={targetValue} onChangeText={setTargetValue} keyboardType="number-pad" maxLength={6} />
 
-            <Text style={styles.label}>Time limit</Text>
+            <Text style={styles.label}>{t('community.timeLimit')}</Text>
             <View style={styles.optionRow}>
               {DURATION_OPTIONS.map((opt) => (
                 <Pressable key={opt.days} style={[styles.optionBtn, durationDays === opt.days && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setDurationDays(opt.days)}>

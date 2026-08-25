@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { QuizContent } from '../../../types/classContent';
@@ -17,6 +18,7 @@ interface Props {
 }
 
 export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz, groupColor, authorName, userId, userName, isAuthor }: Props) {
+  const { t } = useTranslation();
   const [answers, setAnswers] = useState<Record<string, number | string>>({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState<number | null>(null);
@@ -79,7 +81,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
       <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
         <View style={[styles.badge, { backgroundColor: groupColor }]}>
           <Ionicons name="help-circle" size={13} color="#ffffff" />
-          <Text style={styles.badgeText}>QUIZ</Text>
+          <Text style={styles.badgeText}>{t('community.badgeQuiz')}</Text>
         </View>
         <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
       </View>
@@ -123,7 +125,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                   ) : (
                     <TextInput
                       style={[styles.blankInput, submitted && (isCorrect(q.id, a, q) ? styles.optCorrect : styles.optWrong)]}
-                      placeholder="Your answer"
+                      placeholder={t('community.yourAnswerPlaceholder')}
                       placeholderTextColor="#475569"
                       value={(a as string) || ''}
                       editable={!submitted}
@@ -147,12 +149,12 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                 onPress={handleSubmit}
                 style={[styles.submitBtn, { backgroundColor: groupColor }, !answeredAll && { opacity: 0.4 }]}
               >
-                <Text style={styles.submitText}>Submit answers</Text>
+                <Text style={styles.submitText}>{t('community.submitAnswers')}</Text>
               </Pressable>
             ) : (
               <View style={[styles.scoreBox, { borderColor: passed ? '#10b981' : '#f59e0b' }]}>
                 <Ionicons name={passed ? 'trophy' : 'ribbon'} size={20} color={passed ? '#10b981' : '#f59e0b'} />
-                <Text style={styles.scoreText}>You scored {score}%{passed ? ' — passed!' : ''}</Text>
+                <Text style={styles.scoreText}>{t('community.youScored', { score })}{passed ? t('community.passedSuffix') : ''}</Text>
               </View>
             )}
 

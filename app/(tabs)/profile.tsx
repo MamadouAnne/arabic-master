@@ -826,7 +826,7 @@ export default function ProfileScreen() {
               ) : (
                 <>
                   <Ionicons name="trash-outline" size={20} color="#ef4444" />
-                  <Text style={styles.deleteAccountButtonText}>Delete Profile</Text>
+                  <Text style={styles.deleteAccountButtonText}>{t('profile.deleteProfile')}</Text>
                 </>
               )}
             </Pressable>

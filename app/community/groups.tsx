@@ -311,7 +311,7 @@ export default function StudyGroupsScreen() {
               />
 
               {/* Icon picker */}
-              <Text style={styles.pickerLabel}>Icon</Text>
+              <Text style={styles.pickerLabel}>{t('community.icon')}</Text>
               <View style={styles.pickerRow}>
                 {GROUP_ICONS.map((icon) => (
                   <Pressable
@@ -325,7 +325,7 @@ export default function StudyGroupsScreen() {
               </View>
 
               {/* Color picker */}
-              <Text style={styles.pickerLabel}>Color</Text>
+              <Text style={styles.pickerLabel}>{t('community.color')}</Text>
               <View style={styles.pickerRow}>
                 {GROUP_COLORS.map((color) => (
                   <Pressable

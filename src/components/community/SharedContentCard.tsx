@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
@@ -24,6 +25,7 @@ const KIND_META: Record<SharedContent['kind'], { icon: string; label: string }> 
 };
 
 export const SharedContentCard = React.memo(function SharedContentCard({ content, groupColor, isMe, onPractice }: Props) {
+  const { t } = useTranslation();
   const meta = KIND_META[content.kind] || KIND_META.word;
   const { speak, isSpeaking } = useArabicSpeech();
   const audioText = content.audioText || content.arabic;
@@ -64,13 +66,13 @@ export const SharedContentCard = React.memo(function SharedContentCard({ content
         {content.route ? (
           <Pressable style={styles.openRow} onPress={() => router.push(content.route as any)}>
             <Ionicons name="open-outline" size={13} color={groupColor} />
-            <Text style={[styles.openText, { color: groupColor }]}>Open</Text>
+            <Text style={[styles.openText, { color: groupColor }]}>{t('community.open')}</Text>
           </Pressable>
         ) : null}
         {onPractice ? (
           <Pressable style={[styles.practiceBtn, { backgroundColor: groupColor }]} onPress={onPractice}>
             <Ionicons name="people" size={13} color="#ffffff" />
-            <Text style={styles.practiceText}>Practice together</Text>
+            <Text style={styles.practiceText}>{t('community.practiceTogether')}</Text>
           </Pressable>
         ) : null}
       </View>

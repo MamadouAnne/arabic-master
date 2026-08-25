@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Pressable, Animated } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ChatMessage } from '../../types/aiChat';
 import { useTranslation } from 'react-i18next';
+import i18n from '../../i18n';
 
 /** Blinking gold cursor shown at end of streaming text */
 function StreamingCursor() {
@@ -146,7 +147,7 @@ export function AIChatBubble({
         {isStreamingMessage && <StreamingCursor />}
         {retryOptions && retryOptions.length > 0 && onQuizAnswer && (
           <>
-            <Text style={styles.tapHint}>Tap to try again</Text>
+            <Text style={styles.tapHint}>{t('ai.tapTryAgain')}</Text>
             <View style={styles.quizOptionsContainer}>
               {retryOptions.map((opt) => (
                 <Pressable
@@ -220,7 +221,7 @@ function renderAssistantContent(content: string, onQuizAnswer?: (answer: string)
               )}
               {/* Render interactive option lines */}
               {onQuizAnswer && (
-                <Text style={styles.tapHint}>Tap to select your answer</Text>
+                <Text style={styles.tapHint}>{i18n.t('ai.tapSelectAnswer')}</Text>
               )}
               <View style={styles.quizOptionsContainer}>
                 {quiz.options.map((opt) => (

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -17,6 +18,7 @@ interface Props {
 }
 
 export function BoardViewer({ visible, board, groupColor, authorName, canEdit, onEdit, onClose }: Props) {
+  const { t } = useTranslation();
   const [w, setW] = useState(0);
   // Scale the board to the full screen width; height crops to the drawn content
   // (no wasted empty space), and the ScrollView handles tall boards.
@@ -32,11 +34,11 @@ export function BoardViewer({ visible, board, groupColor, authorName, canEdit, o
         <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
           <View style={styles.header}>
             <Pressable onPress={onClose} hitSlop={8}><Ionicons name="chevron-down" size={26} color="#e2e8f0" /></Pressable>
-            <Text style={styles.headerLabel}>Board · {authorName}</Text>
+            <Text style={styles.headerLabel}>{t('community.boardBy', { author: authorName })}</Text>
             {canEdit ? (
               <Pressable onPress={onEdit} hitSlop={8} style={styles.editBtn}>
                 <Ionicons name="create-outline" size={18} color={groupColor} />
-                <Text style={[styles.editText, { color: groupColor }]}>Edit</Text>
+                <Text style={[styles.editText, { color: groupColor }]}>{t('community.edit')}</Text>
               </Pressable>
             ) : <View style={{ width: 40 }} />}
           </View>

@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal, TextInput, ActivityIndicator, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { CourseLevel } from '../../../types/aiBoard';
@@ -27,6 +28,7 @@ const LEVELS: { v: CourseLevel; label: string }[] = [
 const REFINE_IDEAS = ['Make it simpler', 'Add more examples', 'More detail', 'Shorten it'];
 
 export function AICoursePromptModal({ visible, mode, groupColor, loading, curriculum, onSubmit, onClose }: Props) {
+  const { t } = useTranslation();
   const draft = mode === 'draft';
   const [tab, setTab] = useState<'lesson' | 'topic'>('lesson');
   const [search, setSearch] = useState('');
@@ -66,8 +68,8 @@ export function AICoursePromptModal({ visible, mode, groupColor, loading, curric
 
           {mode === 'refine' ? (
             <>
-              <Text style={styles.label}>How should I change it?</Text>
-              <TextInput style={styles.input} value={refineText} onChangeText={setRefineText} placeholder="e.g. add 2 more examples" placeholderTextColor="#64748b" autoFocus multiline editable={!loading} />
+              <Text style={styles.label}>{t('community.aiHowChange')}</Text>
+              <TextInput style={styles.input} value={refineText} onChangeText={setRefineText} placeholder={t('community.aiChangePlaceholder')} placeholderTextColor="#64748b" autoFocus multiline editable={!loading} />
               <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
                 {REFINE_IDEAS.map((idea) => (
                   <Pressable key={idea} style={styles.chip} onPress={() => setRefineText(idea)} disabled={loading}><Text style={styles.chipText}>{idea}</Text></Pressable>
@@ -80,11 +82,11 @@ export function AICoursePromptModal({ visible, mode, groupColor, loading, curric
               <View style={styles.tabs}>
                 <Pressable style={[styles.tab, tab === 'lesson' && { backgroundColor: `${groupColor}20`, borderColor: groupColor }]} onPress={() => setTab('lesson')} disabled={loading}>
                   <Ionicons name="library" size={15} color={tab === 'lesson' ? groupColor : '#94a3b8'} />
-                  <Text style={[styles.tabText, tab === 'lesson' && { color: groupColor }]}>From app lesson</Text>
+                  <Text style={[styles.tabText, tab === 'lesson' && { color: groupColor }]}>{t('community.fromAppLesson')}</Text>
                 </Pressable>
                 <Pressable style={[styles.tab, tab === 'topic' && { backgroundColor: `${groupColor}20`, borderColor: groupColor }]} onPress={() => setTab('topic')} disabled={loading}>
                   <Ionicons name="bulb" size={15} color={tab === 'topic' ? groupColor : '#94a3b8'} />
-                  <Text style={[styles.tabText, tab === 'topic' && { color: groupColor }]}>Custom topic</Text>
+                  <Text style={[styles.tabText, tab === 'topic' && { color: groupColor }]}>{t('community.customTopic')}</Text>
                 </Pressable>
               </View>
 
@@ -92,7 +94,7 @@ export function AICoursePromptModal({ visible, mode, groupColor, loading, curric
                 <>
                   <View style={styles.searchBar}>
                     <Ionicons name="search" size={15} color="#64748b" />
-                    <TextInput style={styles.searchInput} value={search} onChangeText={setSearch} placeholder="Search lessons…" placeholderTextColor="#64748b" editable={!loading} />
+                    <TextInput style={styles.searchInput} value={search} onChangeText={setSearch} placeholder={t('community.searchLessons')} placeholderTextColor="#64748b" editable={!loading} />
                   </View>
                   <ScrollView style={styles.list} keyboardShouldPersistTaps="handled">
                     {filtered.map((c) => (
@@ -102,12 +104,12 @@ export function AICoursePromptModal({ visible, mode, groupColor, loading, curric
                         <Text style={styles.lessonLevel}>{c.level}</Text>
                       </Pressable>
                     ))}
-                    {filtered.length === 0 && <Text style={styles.empty}>No lessons match.</Text>}
+                    {filtered.length === 0 && <Text style={styles.empty}>{t('community.noLessonsMatch')}</Text>}
                   </ScrollView>
                 </>
               ) : (
                 <>
-                  <TextInput style={styles.input} value={topic} onChangeText={setTopic} placeholder="e.g. The Arabic definite article" placeholderTextColor="#64748b" autoFocus editable={!loading} />
+                  <TextInput style={styles.input} value={topic} onChangeText={setTopic} placeholder={t('community.topicPlaceholder')} placeholderTextColor="#64748b" autoFocus editable={!loading} />
                   <View style={styles.levels}>
                     {LEVELS.map((l) => (
                       <Pressable key={l.v} style={[styles.levelBtn, level === l.v && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setLevel(l.v)} disabled={loading}>
@@ -122,7 +124,7 @@ export function AICoursePromptModal({ visible, mode, groupColor, loading, curric
 
           <Pressable style={[styles.generateBtn, { backgroundColor: groupColor }, (!canSubmit || loading) && { opacity: 0.5 }]} onPress={submit} disabled={!canSubmit || loading}>
             {loading ? (
-              <><ActivityIndicator color="#ffffff" size="small" /><Text style={styles.generateText}>Generating…</Text></>
+              <><ActivityIndicator color="#ffffff" size="small" /><Text style={styles.generateText}>{t('community.generating')}</Text></>
             ) : (
               <><Ionicons name="sparkles" size={17} color="#ffffff" /><Text style={styles.generateText}>{draft ? 'Generate course' : 'Update course'}</Text></>
             )}

@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, ScrollView, Modal, KeyboardAvoidingView, Platform, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -45,6 +46,7 @@ const BLOCK_MENU: { type: LessonBlock['type']; icon: string; label: string }[] =
 ];
 
 export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: Props) {
+  const { t } = useTranslation();
   const [title, setTitle] = useState(initial?.title || '');
   const [blocks, setBlocks] = useState<EditBlock[]>(toEditBlocks(initial));
   const focusRef = useRef<{ index: number; sel: { start: number; end: number } } | null>(null);
@@ -109,7 +111,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
           <ScrollView style={styles.flex} contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
             <TextInput
               style={styles.titleInput}
-              placeholder="Lesson title"
+              placeholder={t('community.lessonTitlePlaceholder')}
               placeholderTextColor="#475569"
               value={title}
               onChangeText={setTitle}
@@ -153,7 +155,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
                     {b.type === 'arabic' && (
                       <TextInput
                         style={styles.translationInput}
-                        placeholder="Translation (optional)"
+                        placeholder={t('community.translationOptionalPlaceholder')}
                         placeholderTextColor="#475569"
                         value={b.translation || ''}
                         onChangeText={(t) => updateBlock(i, { translation: t })}
@@ -175,7 +177,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
             ))}
 
             {/* Add block menu */}
-            <Text style={styles.addLabel}>Add block</Text>
+            <Text style={styles.addLabel}>{t('community.addBlock')}</Text>
             <View style={styles.addRow}>
               {BLOCK_MENU.map((m) => (
                 <Pressable key={m.type} style={styles.addBtn} onPress={() => addBlock(m.type)}>
@@ -189,7 +191,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
 
           {/* Formatting toolbar (applies to the focused block) */}
           <View style={styles.formatBar}>
-            <Text style={styles.formatHint}>Format selection:</Text>
+            <Text style={styles.formatHint}>{t('community.formatSelection')}</Text>
             {([['bold', 'B'], ['italic', 'I'], ['underline', 'U'], ['highlight', 'H']] as [MarkerName, string][]).map(([m, lbl]) => (
               <Pressable key={m} style={styles.formatBtn} onPress={() => applyFormat(m)}>
                 <Text style={[

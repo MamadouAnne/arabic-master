@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { LessonContent } from '../../../types/classContent';
@@ -13,6 +14,7 @@ interface Props {
 }
 
 export const LessonCard = React.memo(function LessonCard({ lesson, groupColor, authorName, canEdit, onEdit }: Props) {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
 
   const firstText = lesson.blocks.find((b) => b.type === 'paragraph' || b.type === 'heading') as any;
@@ -25,7 +27,7 @@ export const LessonCard = React.memo(function LessonCard({ lesson, groupColor, a
         <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
           <View style={[styles.badge, { backgroundColor: groupColor }]}>
             <Ionicons name="book" size={13} color="#ffffff" />
-            <Text style={styles.badgeText}>LESSON</Text>
+            <Text style={styles.badgeText}>{t('community.badgeLesson')}</Text>
           </View>
           <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
         </View>
@@ -42,7 +44,7 @@ export const LessonCard = React.memo(function LessonCard({ lesson, groupColor, a
               </Text>
             </View>
             <View style={[styles.openBtn, { backgroundColor: groupColor }]}>
-              <Text style={styles.openText}>Open lesson</Text>
+              <Text style={styles.openText}>{t('community.openLesson')}</Text>
               <Ionicons name="arrow-forward" size={13} color="#ffffff" />
             </View>
           </View>

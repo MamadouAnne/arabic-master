@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
@@ -9,6 +10,7 @@ interface ChallengeCardProps {
 }
 
 export const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge }) => {
+  const { t } = useTranslation();
   const progress = Math.min(challenge.currentValue / challenge.targetValue, 1);
   const progressPercent = Math.round(progress * 100);
 
@@ -86,7 +88,7 @@ export const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge }) => {
         {challenge.isCompleted && (
           <View style={styles.completedTag}>
             <Ionicons name="checkmark-circle" size={14} color="#22c55e" />
-            <Text style={styles.completedText}>Completed!</Text>
+            <Text style={styles.completedText}>{t('community.completedExclaim')}</Text>
           </View>
         )}
       </View>

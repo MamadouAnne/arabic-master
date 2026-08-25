@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -23,6 +24,7 @@ interface Props {
 }
 
 export function MemberRow({ member, groupColor, getDaysAgo, canManage, onAction }: Props) {
+  const { t } = useTranslation();
   const roleConfig: Record<string, { label: string; color: string; icon: string }> = {
     admin: { label: 'Admin', color: '#f59e0b', icon: 'shield' },
     moderator: { label: 'Mod', color: '#818cf8', icon: 'shield-half' },
@@ -47,7 +49,7 @@ export function MemberRow({ member, groupColor, getDaysAgo, canManage, onAction 
           {member.isTopContributor && (
             <View style={[styles.roleBadge, { backgroundColor: '#f59e0b20' }]}>
               <Ionicons name="trophy" size={10} color="#f59e0b" style={{ marginRight: 3 }} />
-              <Text style={[styles.roleBadgeText, { color: '#f59e0b' }]}>Top</Text>
+              <Text style={[styles.roleBadgeText, { color: '#f59e0b' }]}>{t('community.top')}</Text>
             </View>
           )}
         </View>

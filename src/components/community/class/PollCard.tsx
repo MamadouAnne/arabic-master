@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, ActivityIndicator } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { PollContent } from '../../../types/classContent';
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export const PollCard = React.memo(function PollCard({ messageId, groupId, poll, groupColor, authorName, userId, userName }: Props) {
+  const { t } = useTranslation();
   const [selected, setSelected] = useState<number[]>([]);
   const [voted, setVoted] = useState(false);
   const [responses, setResponses] = useState<ClassResponseRow[]>([]);
@@ -64,7 +66,7 @@ export const PollCard = React.memo(function PollCard({ messageId, groupId, poll,
       <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
         <View style={[styles.badge, { backgroundColor: groupColor }]}>
           <Ionicons name="stats-chart" size={13} color="#ffffff" />
-          <Text style={styles.badgeText}>POLL</Text>
+          <Text style={styles.badgeText}>{t('community.badgePoll')}</Text>
         </View>
         <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
       </View>
@@ -99,7 +101,7 @@ export const PollCard = React.memo(function PollCard({ messageId, groupId, poll,
 
             {!voted ? (
               <Pressable disabled={selected.length === 0} onPress={handleVote} style={[styles.voteBtn, { backgroundColor: groupColor }, selected.length === 0 && { opacity: 0.4 }]}>
-                <Text style={styles.voteText}>Vote</Text>
+                <Text style={styles.voteText}>{t('community.vote')}</Text>
               </Pressable>
             ) : (
               <Text style={styles.totalText}>{totalVoters} vote{totalVoters === 1 ? '' : 's'}</Text>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { LeaderboardEntry, LeaderboardType } from '../../types/community';
@@ -33,6 +34,7 @@ export const LeaderboardCard: React.FC<LeaderboardCardProps> = ({
   currentType,
   onTypeChange,
 }) => {
+  const { t } = useTranslation();
   // Find current user's entry
   const currentUserEntry = entries.find((e) => e.isCurrentUser);
   const currentUserRank = currentUserEntry?.rank || 0;
@@ -57,7 +59,7 @@ export const LeaderboardCard: React.FC<LeaderboardCardProps> = ({
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.titleRow}>
-          <Text style={styles.title}>Leaderboards</Text>
+          <Text style={styles.title}>{t('community.leaderboards')}</Text>
           <Text style={styles.titleArabic}>الترتيب</Text>
         </View>
       </View>

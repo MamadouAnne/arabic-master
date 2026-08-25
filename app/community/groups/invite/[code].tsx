@@ -64,7 +64,7 @@ export default function InviteLandingScreen() {
             <Ionicons name="link-outline" size={48} color="#64748b" />
           </View>
           <Text style={styles.errorTitle}>{t('community.invalidInviteCode')}</Text>
-          <Text style={styles.errorDesc}>This invite link may have expired or been disabled.</Text>
+          <Text style={styles.errorDesc}>{t('community.inviteExpired')}</Text>
           <Pressable style={styles.backBtn} onPress={() => router.back()}>
             <Text style={styles.backBtnText}>{t('common.goBack')}</Text>
           </Pressable>
@@ -100,12 +100,12 @@ export default function InviteLandingScreen() {
             <View style={styles.stat}>
               <Ionicons name="people" size={16} color="#818cf8" />
               <Text style={styles.statValue}>{group.memberCount}</Text>
-              <Text style={styles.statLabel}>members</Text>
+              <Text style={styles.statLabel}>{t('community.membersLower')}</Text>
             </View>
             <View style={styles.stat}>
               <Ionicons name="flag" size={16} color="#10b981" />
               <Text style={styles.statValue}>{group.maxMembers}</Text>
-              <Text style={styles.statLabel}>max</Text>
+              <Text style={styles.statLabel}>{t('community.maxLower')}</Text>
             </View>
           </View>
 

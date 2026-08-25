@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal, PanResponder, ScrollView, TextInput, Alert, KeyboardAvoidingView, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -47,6 +48,7 @@ const WIDTHS = [3, 6, 11];
 const BACKGROUNDS: BoardBackground[] = ['dark', 'chalk', 'white', 'cream'];
 
 export function BoardEditor({ visible, groupColor, initial, seedText, onSave, onClose }: Props) {
+  const { t } = useTranslation();
   const [background, setBackground] = useState<BoardBackground>(initial?.background || 'dark');
   const [grid, setGrid] = useState<BoardGrid>(initial?.grid || 'none');
   // Existing boards open in Move mode (pan/scroll + reposition); new blank boards in Draw.
@@ -465,7 +467,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           </Pressable>
           <Pressable onPress={() => setAiModal(lastSpecRef.current ? 'refine' : 'draft')} style={styles.aiBtn} hitSlop={6}>
             <Ionicons name="sparkles" size={18} color={groupColor} />
-            <Text style={[styles.aiBtnText, { color: groupColor }]}>AI</Text>
+            <Text style={[styles.aiBtnText, { color: groupColor }]}>{t('community.ai')}</Text>
           </Pressable>
           <Pressable onPress={handleSave} style={[styles.postBtn, { backgroundColor: groupColor }]}>
             <Text style={styles.postText}>{initial ? 'Update' : 'Post'}</Text>
@@ -531,7 +533,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                   multiline
                   blurOnSubmit={false}
                   selectionColor={groupColor}
-                  placeholder="Type…"
+                  placeholder={t('community.typePlaceholder')}
                   placeholderTextColor="#64748b"
                 />
               )}
@@ -543,13 +545,13 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
             <View style={styles.emptyState} pointerEvents="box-none">
               <Pressable style={[styles.draftBtn, { backgroundColor: groupColor }]} onPress={() => setAiModal('draft')}>
                 <Ionicons name="sparkles" size={18} color="#ffffff" />
-                <Text style={styles.draftText}>Draft a course with AI</Text>
+                <Text style={styles.draftText}>{t('community.draftCourseAI')}</Text>
               </Pressable>
               <Pressable style={styles.buildBtn} onPress={() => setBuilderOpen(true)}>
                 <Ionicons name="list" size={17} color="#cbd5e1" />
-                <Text style={styles.buildText}>Build a course manually</Text>
+                <Text style={styles.buildText}>{t('community.buildCourseManually')}</Text>
               </Pressable>
-              <Text style={styles.emptyHint}>or just draw / write freely</Text>
+              <Text style={styles.emptyHint}>{t('community.orDrawFreely')}</Text>
             </View>
           )}
         </View>
@@ -577,22 +579,22 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
               {elements[selectedIndex].type !== 'stroke' && (
                 <View style={styles.selResize}>
                   <Pressable style={styles.stepBtn} onPress={() => resizeSelected(-1)}><Ionicons name="remove" size={18} color="#e2e8f0" /></Pressable>
-                  <Text style={styles.selResizeLabel}>Size</Text>
+                  <Text style={styles.selResizeLabel}>{t('community.size')}</Text>
                   <Pressable style={styles.stepBtn} onPress={() => resizeSelected(1)}><Ionicons name="add" size={18} color="#e2e8f0" /></Pressable>
                 </View>
               )}
               {elements[selectedIndex].type === 'text' && (
-                <Pressable style={styles.selAction} onPress={editSelected}><Ionicons name="create-outline" size={17} color="#cbd5e1" /><Text style={styles.selActionText}>Edit</Text></Pressable>
+                <Pressable style={styles.selAction} onPress={editSelected}><Ionicons name="create-outline" size={17} color="#cbd5e1" /><Text style={styles.selActionText}>{t('community.edit')}</Text></Pressable>
               )}
-              <Pressable style={styles.selAction} onPress={deleteSelected}><Ionicons name="trash-outline" size={17} color="#ef4444" /><Text style={[styles.selActionText, { color: '#ef4444' }]}>Delete</Text></Pressable>
-              <Pressable style={styles.selAction} onPress={() => setSelectedIndex(null)}><Text style={[styles.selActionText, { color: groupColor }]}>Done</Text></Pressable>
+              <Pressable style={styles.selAction} onPress={deleteSelected}><Ionicons name="trash-outline" size={17} color="#ef4444" /><Text style={[styles.selActionText, { color: '#ef4444' }]}>{t('community.delete')}</Text></Pressable>
+              <Pressable style={styles.selAction} onPress={() => setSelectedIndex(null)}><Text style={[styles.selActionText, { color: groupColor }]}>{t('common.done')}</Text></Pressable>
             </View>
           ) : tool === 'move' && !editing ? (
-            <Text style={styles.moveHint}>Tap an item to select · drag empty space to scroll</Text>
+            <Text style={styles.moveHint}>{t('community.moveHintSelect')}</Text>
           ) : null}
           {/* Text-mode hint */}
           {tool === 'text' && !editing && (
-            <Text style={styles.moveHint}>Tap to add or edit text · drag to scroll</Text>
+            <Text style={styles.moveHint}>{t('community.moveHintText')}</Text>
           )}
 
           {/* Primary tools (labeled) */}
@@ -634,15 +636,15 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
           {/* Actions (labeled) */}
           <View style={styles.actionsRow}>
-            <Pressable style={styles.action} onPress={undo}><Ionicons name="arrow-undo" size={19} color="#cbd5e1" /><Text style={styles.actionText}>Undo</Text></Pressable>
-            <Pressable style={styles.action} onPress={doRedo}><Ionicons name="arrow-redo" size={19} color="#cbd5e1" /><Text style={styles.actionText}>Redo</Text></Pressable>
+            <Pressable style={styles.action} onPress={undo}><Ionicons name="arrow-undo" size={19} color="#cbd5e1" /><Text style={styles.actionText}>{t('community.undo')}</Text></Pressable>
+            <Pressable style={styles.action} onPress={doRedo}><Ionicons name="arrow-redo" size={19} color="#cbd5e1" /><Text style={styles.actionText}>{t('community.redo')}</Text></Pressable>
             <Pressable style={styles.action} onPress={() => setBackground((b) => BACKGROUNDS[(BACKGROUNDS.indexOf(b) + 1) % BACKGROUNDS.length])}>
-              <View style={[styles.paperSwatch, { backgroundColor: BOARD_BG[background] }]} /><Text style={styles.actionText}>Paper</Text>
+              <View style={[styles.paperSwatch, { backgroundColor: BOARD_BG[background] }]} /><Text style={styles.actionText}>{t('community.paper')}</Text>
             </Pressable>
             <Pressable style={styles.action} onPress={() => setGrid((g) => (g === 'none' ? 'lines' : g === 'lines' ? 'grid' : 'none'))}>
-              <Ionicons name={grid === 'grid' ? 'grid' : grid === 'lines' ? 'reorder-four' : 'square-outline'} size={19} color="#cbd5e1" /><Text style={styles.actionText}>Grid</Text>
+              <Ionicons name={grid === 'grid' ? 'grid' : grid === 'lines' ? 'reorder-four' : 'square-outline'} size={19} color="#cbd5e1" /><Text style={styles.actionText}>{t('community.grid')}</Text>
             </Pressable>
-            <Pressable style={styles.action} onPress={clearAll}><Ionicons name="trash-outline" size={19} color="#ef4444" /><Text style={[styles.actionText, { color: '#ef4444' }]}>Clear</Text></Pressable>
+            <Pressable style={styles.action} onPress={clearAll}><Ionicons name="trash-outline" size={19} color="#ef4444" /><Text style={[styles.actionText, { color: '#ef4444' }]}>{t('common.clear')}</Text></Pressable>
           </View>
         </View>
 
@@ -662,8 +664,8 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                   <Pressable key={c} onPress={() => setTextColor(c)} style={[styles.swatch, { backgroundColor: c }, textColor === c && styles.swatchActive]} />
                 ))}
               </ScrollView>
-              <Pressable onPress={cancelInlineText} hitSlop={6}><Text style={styles.textCancel}>Cancel</Text></Pressable>
-              <Pressable onPress={commitInlineText} style={[styles.textAdd, { backgroundColor: groupColor }]}><Text style={styles.textAddText}>Done</Text></Pressable>
+              <Pressable onPress={cancelInlineText} hitSlop={6}><Text style={styles.textCancel}>{t('common.cancel')}</Text></Pressable>
+              <Pressable onPress={commitInlineText} style={[styles.textAdd, { backgroundColor: groupColor }]}><Text style={styles.textAddText}>{t('common.done')}</Text></Pressable>
             </View>
           </KeyboardAvoidingView>
         )}

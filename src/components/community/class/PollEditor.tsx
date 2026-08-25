@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, ScrollView, Modal, KeyboardAvoidingView, Platform, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -13,6 +14,7 @@ interface Props {
 }
 
 export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Props) {
+  const { t } = useTranslation();
   const [question, setQuestion] = useState(initial?.question || '');
   const [options, setOptions] = useState<string[]>(initial?.options?.length ? initial.options : ['', '']);
   const [allowMultiple, setAllowMultiple] = useState(initial?.allowMultiple || false);
@@ -41,9 +43,9 @@ export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Pr
 
         <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.flex}>
           <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
-            <TextInput style={styles.questionInput} placeholder="Ask a question…" placeholderTextColor="#475569" value={question} onChangeText={setQuestion} multiline />
+            <TextInput style={styles.questionInput} placeholder={t('community.askQuestionPlaceholder')} placeholderTextColor="#475569" value={question} onChangeText={setQuestion} multiline />
 
-            <Text style={styles.label}>Options</Text>
+            <Text style={styles.label}>{t('community.options')}</Text>
             {options.map((opt, i) => (
               <View key={i} style={styles.optRow}>
                 <TextInput style={styles.optInput} placeholder={`Option ${i + 1}`} placeholderTextColor="#475569" value={opt} onChangeText={(t) => setOpt(i, t)} />
@@ -55,13 +57,13 @@ export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Pr
             {options.length < 6 && (
               <Pressable style={styles.addOpt} onPress={addOpt}>
                 <Ionicons name="add" size={16} color={groupColor} />
-                <Text style={[styles.addOptText, { color: groupColor }]}>Add option</Text>
+                <Text style={[styles.addOptText, { color: groupColor }]}>{t('community.addOption')}</Text>
               </Pressable>
             )}
 
             <Pressable style={styles.multiRow} onPress={() => setAllowMultiple((v) => !v)}>
               <Ionicons name={allowMultiple ? 'checkbox' : 'square-outline'} size={22} color={allowMultiple ? groupColor : '#475569'} />
-              <Text style={styles.multiText}>Allow multiple selections</Text>
+              <Text style={styles.multiText}>{t('community.allowMultiple')}</Text>
             </Pressable>
           </ScrollView>
         </KeyboardAvoidingView>

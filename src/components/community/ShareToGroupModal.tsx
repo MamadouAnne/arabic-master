@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal, FlatList, ActivityIndicator } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -19,6 +20,7 @@ interface Props {
  * joined and posts the given content as a rich shared-content message.
  */
 export function ShareToGroupModal({ visible, content, onClose, onShared }: Props) {
+  const { t } = useTranslation();
   const groups = useCommunityStore((s) => s.groups);
   const loadGroups = useCommunityStore((s) => s.loadGroups);
   const user = useSettingsStore((s) => s.user);
@@ -47,7 +49,7 @@ export function ShareToGroupModal({ visible, content, onClose, onShared }: Props
         <SafeAreaView style={styles.sheet} edges={['bottom']}>
           <View style={styles.handle} />
           <View style={styles.header}>
-            <Text style={styles.title}>Share to a group</Text>
+            <Text style={styles.title}>{t('community.shareToAGroup')}</Text>
             <Pressable onPress={onClose} hitSlop={10}>
               <Ionicons name="close" size={22} color="#94a3b8" />
             </Pressable>
@@ -56,7 +58,7 @@ export function ShareToGroupModal({ visible, content, onClose, onShared }: Props
           {joined.length === 0 ? (
             <View style={styles.empty}>
               <Ionicons name="people-outline" size={40} color="#475569" />
-              <Text style={styles.emptyText}>Join a study group to share content with it.</Text>
+              <Text style={styles.emptyText}>{t('community.joinGroupToShare')}</Text>
             </View>
           ) : (
             <FlatList

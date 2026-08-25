@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { useTranslation } from 'react-i18next';
 import { Ayah } from '../../types/quran';
 import { TajweedText } from './TajweedText';
 import { useQuranStore } from '../../stores/quranStore';
@@ -44,6 +45,7 @@ export function AyahCard({
   onShare,
   onSpeedChange,
 }: AyahCardProps) {
+  const { t } = useTranslation();
   const isAudioActive = isPlaying || isPaused || isLoading;
 
   const handleSpeedDecrease = () => {
@@ -144,7 +146,7 @@ export function AyahCard({
       {/* Speed Controls - show when audio is active */}
       {isAudioActive && (
         <View style={styles.speedControlContainer}>
-          <Text style={styles.speedLabel}>Speed</Text>
+          <Text style={styles.speedLabel}>{t('common.speed')}</Text>
           <View style={styles.speedControls}>
             <Pressable
               style={[
@@ -190,7 +192,7 @@ export function AyahCard({
         <View style={styles.statusContainer}>
           <View style={styles.learnedIndicator}>
             <Ionicons name="checkmark-circle" size={14} color="#10b981" />
-            <Text style={styles.statusText}>Learned</Text>
+            <Text style={styles.statusText}>{t('common.learned')}</Text>
           </View>
         </View>
       )}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { CommunityAchievement } from '../../types/community';
@@ -38,17 +39,18 @@ const getIconColor = (icon: string, isUser: boolean): string => {
 };
 
 export const AchievementFeed: React.FC<AchievementFeedProps> = ({ achievements }) => {
+  const { t } = useTranslation();
   if (achievements.length === 0) {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.title}>Recent Achievements</Text>
+          <Text style={styles.title}>{t('community.recentAchievements')}</Text>
           <Text style={styles.titleArabic}>الإنجازات</Text>
         </View>
         <View style={styles.emptyState}>
           <Ionicons name="trophy-outline" size={40} color="#334155" />
-          <Text style={styles.emptyText}>No achievements yet</Text>
-          <Text style={styles.emptySubtext}>Keep learning to earn achievements!</Text>
+          <Text style={styles.emptyText}>{t('community.noAchievementsYet')}</Text>
+          <Text style={styles.emptySubtext}>{t('community.keepLearningAchievements')}</Text>
         </View>
       </View>
     );
@@ -57,7 +59,7 @@ export const AchievementFeed: React.FC<AchievementFeedProps> = ({ achievements }
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Recent Achievements</Text>
+        <Text style={styles.title}>{t('community.recentAchievements')}</Text>
         <Text style={styles.titleArabic}>الإنجازات</Text>
       </View>
 
@@ -81,7 +83,7 @@ export const AchievementFeed: React.FC<AchievementFeedProps> = ({ achievements }
               <View style={styles.content}>
                 <Text style={styles.userName}>
                   {achievement.userName === 'You' ? (
-                    <Text style={styles.userNameHighlight}>You</Text>
+                    <Text style={styles.userNameHighlight}>{t('community.you')}</Text>
                   ) : (
                     achievement.userName
                   )}

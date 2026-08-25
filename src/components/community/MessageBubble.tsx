@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Image, GestureResponderEvent } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { createAudioPlayer, setAudioModeAsync } from 'expo-audio';
@@ -64,6 +65,7 @@ function ReplyQuote({ preview, groupColor, isMe, onPress }: { preview: NonNullab
 }
 
 export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPress, onImagePress, onReplyPress, onPracticeShared, groupId, currentUserId, currentUserName, onEditClass, reactionRow }: Props) {
+  const { t } = useTranslation();
   // Class content (lesson / quiz / poll / board) renders full-width, not as a chat bubble.
   if ((msg.type === 'lesson' || msg.type === 'quiz' || msg.type === 'poll' || msg.type === 'board') && msg.classContent && !msg.isDeleted) {
     return (
@@ -177,7 +179,7 @@ export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo
       )}
 
       <View style={styles.metaRow}>
-        {msg.editedAt && !deleted && <Text style={[styles.editedLabel, isMe && { color: 'rgba(255,255,255,0.5)' }]}>edited</Text>}
+        {msg.editedAt && !deleted && <Text style={[styles.editedLabel, isMe && { color: 'rgba(255,255,255,0.5)' }]}>{t('community.edited')}</Text>}
         <Text style={isMe ? styles.bubbleMeTime : styles.bubbleOtherTime}>{getTimeAgo(msg.createdAt)}</Text>
       </View>
     </>

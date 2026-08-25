@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { CommunityStats } from '../../types/community';
@@ -8,10 +9,11 @@ interface CommunityHeaderProps {
 }
 
 export const CommunityHeader: React.FC<CommunityHeaderProps> = ({ stats }) => {
+  const { t } = useTranslation();
   return (
     <View style={styles.container}>
       <View style={styles.titleRow}>
-        <Text style={styles.title}>Community</Text>
+        <Text style={styles.title}>{t('community.title')}</Text>
         <Text style={styles.titleArabic}>المجتمع</Text>
       </View>
       <View style={styles.statsRow}>
@@ -20,7 +22,7 @@ export const CommunityHeader: React.FC<CommunityHeaderProps> = ({ stats }) => {
           <Text style={styles.statValue}>
             {stats.activeLearnersTodayCount.toLocaleString()}
           </Text>
-          <Text style={styles.statLabel}>active today</Text>
+          <Text style={styles.statLabel}>{t('community.activeToday')}</Text>
         </View>
         <View style={styles.divider} />
         <View style={styles.statItem}>
@@ -28,7 +30,7 @@ export const CommunityHeader: React.FC<CommunityHeaderProps> = ({ stats }) => {
           <Text style={styles.statValue}>
             {stats.activeStreaksCount.toLocaleString()}
           </Text>
-          <Text style={styles.statLabel}>streaks</Text>
+          <Text style={styles.statLabel}>{t('community.streaks')}</Text>
         </View>
       </View>
     </View>

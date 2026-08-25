@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, ScrollView, Modal, KeyboardAvoidingView, Platform, Alert } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -37,6 +38,7 @@ function toEdit(initial?: CourseSpec | null): EditSection[] {
 }
 
 export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClose }: Props) {
+  const { t } = useTranslation();
   const [title, setTitle] = useState(initial?.title || '');
   const [subtitle, setSubtitle] = useState(initial?.subtitle || '');
   const [summary, setSummary] = useState(initial?.summary || '');
@@ -81,32 +83,32 @@ export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClo
         <SafeAreaView style={styles.container} edges={['top']}>
           <View style={styles.header}>
             <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
-            <Text style={styles.headerTitle}>Course content</Text>
+            <Text style={styles.headerTitle}>{t('community.courseContent')}</Text>
             <Pressable onPress={apply} style={[styles.applyBtn, { backgroundColor: groupColor }]}>
-              <Text style={styles.applyText}>Apply</Text>
+              <Text style={styles.applyText}>{t('community.apply')}</Text>
             </Pressable>
           </View>
 
           <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.flex}>
             <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
               {/* Title */}
-              <TextInput style={styles.titleInput} value={title} onChangeText={setTitle} placeholder="Course title" {...inputProps} multiline />
-              <TextInput style={styles.subtitleInput} value={subtitle} onChangeText={setSubtitle} placeholder="Subtitle (optional)" {...inputProps} />
+              <TextInput style={styles.titleInput} value={title} onChangeText={setTitle} placeholder={t('community.courseTitlePlaceholder')} {...inputProps} multiline />
+              <TextInput style={styles.subtitleInput} value={subtitle} onChangeText={setSubtitle} placeholder={t('community.subtitlePlaceholder')} {...inputProps} />
 
               {sections.map((s, i) => (
                 <View key={s.id} style={styles.card}>
                   <View style={styles.cardBar}>
                     <View style={[styles.badge, { backgroundColor: groupColor }]}><Text style={styles.badgeText}>{i + 1}</Text></View>
-                    <Text style={styles.cardLabel}>Section</Text>
+                    <Text style={styles.cardLabel}>{t('community.section')}</Text>
                     <View style={{ flex: 1 }} />
                     <Pressable onPress={() => move(i, -1)} hitSlop={6}><Ionicons name="chevron-up" size={18} color="#64748b" /></Pressable>
                     <Pressable onPress={() => move(i, 1)} hitSlop={6}><Ionicons name="chevron-down" size={18} color="#64748b" /></Pressable>
                     {sections.length > 1 && <Pressable onPress={() => removeSection(i)} hitSlop={6}><Ionicons name="trash-outline" size={17} color="#ef4444" /></Pressable>}
                   </View>
 
-                  <TextInput style={styles.headingInput} value={s.heading} onChangeText={(t) => patch(i, { heading: t })} placeholder="Section heading" {...inputProps} />
+                  <TextInput style={styles.headingInput} value={s.heading} onChangeText={(t) => patch(i, { heading: t })} placeholder={t('community.sectionHeadingPlaceholder')} {...inputProps} />
 
-                  <Text style={styles.miniLabel}>Points</Text>
+                  <Text style={styles.miniLabel}>{t('community.points')}</Text>
                   {s.points.map((p, pi) => (
                     <View key={pi} style={styles.pointRow}>
                       <View style={styles.dot} />
@@ -115,23 +117,23 @@ export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClo
                     </View>
                   ))}
                   {s.points.length < 4 && (
-                    <Pressable style={styles.addRow} onPress={() => addPoint(i)}><Ionicons name="add" size={15} color={groupColor} /><Text style={[styles.addRowText, { color: groupColor }]}>Add point</Text></Pressable>
+                    <Pressable style={styles.addRow} onPress={() => addPoint(i)}><Ionicons name="add" size={15} color={groupColor} /><Text style={[styles.addRowText, { color: groupColor }]}>{t('community.addPoint')}</Text></Pressable>
                   )}
 
-                  <Text style={styles.miniLabel}>Arabic example (optional)</Text>
+                  <Text style={styles.miniLabel}>{t('community.arabicExampleOptional')}</Text>
                   <TextInput style={styles.arabicInput} value={s.arabic} onChangeText={(t) => patch(i, { arabic: t })} placeholder="النص العربي مع الحركات" {...inputProps} />
-                  <TextInput style={styles.smallInput} value={s.translit} onChangeText={(t) => patch(i, { translit: t })} placeholder="Transliteration" {...inputProps} />
-                  <TextInput style={styles.smallInput} value={s.translation} onChangeText={(t) => patch(i, { translation: t })} placeholder="Translation" {...inputProps} />
+                  <TextInput style={styles.smallInput} value={s.translit} onChangeText={(t) => patch(i, { translit: t })} placeholder={t('community.transliterationPlaceholder')} {...inputProps} />
+                  <TextInput style={styles.smallInput} value={s.translation} onChangeText={(t) => patch(i, { translation: t })} placeholder={t('community.translationPlaceholder')} {...inputProps} />
                 </View>
               ))}
 
               <Pressable style={styles.addSection} onPress={addSection}>
                 <Ionicons name="add-circle" size={20} color={groupColor} />
-                <Text style={[styles.addSectionText, { color: groupColor }]}>Add section</Text>
+                <Text style={[styles.addSectionText, { color: groupColor }]}>{t('community.addSection')}</Text>
               </Pressable>
 
-              <Text style={styles.blockLabel}>Summary</Text>
-              <TextInput style={styles.summaryInput} value={summary} onChangeText={setSummary} placeholder="One-line key takeaway (optional)" {...inputProps} multiline />
+              <Text style={styles.blockLabel}>{t('community.summary')}</Text>
+              <TextInput style={styles.summaryInput} value={summary} onChangeText={setSummary} placeholder={t('community.summaryPlaceholder')} {...inputProps} multiline />
               <View style={{ height: 40 }} />
             </ScrollView>
           </KeyboardAvoidingView>

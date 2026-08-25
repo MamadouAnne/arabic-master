@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, ScrollView, Modal } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
@@ -62,16 +63,17 @@ function Block({ block, groupColor }: { block: LessonBlock; groupColor: string }
 }
 
 export function LessonViewer({ visible, lesson, groupColor, authorName, canEdit, onEdit, onClose }: Props) {
+  const { t } = useTranslation();
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top']}>
         <View style={styles.header}>
           <Pressable onPress={onClose} hitSlop={8}><Ionicons name="chevron-down" size={26} color="#e2e8f0" /></Pressable>
-          <Text style={styles.headerLabel}>Lesson</Text>
+          <Text style={styles.headerLabel}>{t('community.lesson')}</Text>
           {canEdit ? (
             <Pressable onPress={onEdit} hitSlop={8} style={styles.editBtn}>
               <Ionicons name="create-outline" size={18} color={groupColor} />
-              <Text style={[styles.editText, { color: groupColor }]}>Edit</Text>
+              <Text style={[styles.editText, { color: groupColor }]}>{t('community.edit')}</Text>
             </Pressable>
           ) : <View style={{ width: 40 }} />}
         </View>
@@ -79,7 +81,7 @@ export function LessonViewer({ visible, lesson, groupColor, authorName, canEdit,
         <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
           <View style={[styles.titleAccent, { backgroundColor: groupColor }]} />
           <Text style={styles.title}>{lesson.title}</Text>
-          <Text style={styles.byline}>by {authorName}</Text>
+          <Text style={styles.byline}>{t('community.byAuthor', { author: authorName })}</Text>
 
           <View style={{ height: 12 }} />
           {lesson.blocks.map((b, i) => (

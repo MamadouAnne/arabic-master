@@ -1,5 +1,6 @@
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { useTranslation } from 'react-i18next';
 import { ArabicLetter } from '../../types/arabic';
 import { useProgressStore } from '../../stores/progressStore';
 
@@ -128,6 +129,7 @@ interface LetterDetailProps {
 }
 
 export function LetterDetail({ letter, onPlayAudio, isPlaying }: LetterDetailProps) {
+  const { t } = useTranslation();
   return (
     <View style={styles.detailContainer}>
       {/* Main letter display */}
@@ -153,28 +155,28 @@ export function LetterDetail({ letter, onPlayAudio, isPlaying }: LetterDetailPro
 
       {/* Sound description */}
       <View style={styles.descriptionSection}>
-        <Text style={styles.descriptionTitle}>How to pronounce:</Text>
+        <Text style={styles.descriptionTitle}>{t('alphabet.howToPronounce')}</Text>
         <Text style={styles.descriptionText}>{letter.soundDescription}</Text>
       </View>
 
       {/* Letter forms */}
       <View style={styles.formsSection}>
-        <Text style={styles.formsTitle}>Letter Forms</Text>
+        <Text style={styles.formsTitle}>{t('alphabet.letterForms')}</Text>
         <View style={styles.formsGrid}>
           <View style={styles.formItem}>
-            <Text style={styles.formLabel}>Isolated</Text>
+            <Text style={styles.formLabel}>{t('alphabet.isolated')}</Text>
             <Text style={styles.formLetter}>{letter.forms.isolated}</Text>
           </View>
           <View style={styles.formItem}>
-            <Text style={styles.formLabel}>Initial</Text>
+            <Text style={styles.formLabel}>{t('alphabet.initial')}</Text>
             <Text style={styles.formLetter}>{letter.forms.initial}</Text>
           </View>
           <View style={styles.formItem}>
-            <Text style={styles.formLabel}>Medial</Text>
+            <Text style={styles.formLabel}>{t('alphabet.medial')}</Text>
             <Text style={styles.formLetter}>{letter.forms.medial}</Text>
           </View>
           <View style={styles.formItem}>
-            <Text style={styles.formLabel}>Final</Text>
+            <Text style={styles.formLabel}>{t('alphabet.final')}</Text>
             <Text style={styles.formLetter}>{letter.forms.final}</Text>
           </View>
         </View>
@@ -182,7 +184,7 @@ export function LetterDetail({ letter, onPlayAudio, isPlaying }: LetterDetailPro
 
       {/* Examples */}
       <View style={styles.examplesSection}>
-        <Text style={styles.examplesTitle}>Examples</Text>
+        <Text style={styles.examplesTitle}>{t('alphabet.examples')}</Text>
         {letter.examples.map((example, index) => (
           <View key={index} style={styles.exampleItem}>
             <Text style={styles.exampleArabic}>{example.word}</Text>

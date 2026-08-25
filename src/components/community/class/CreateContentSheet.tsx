@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { ClassContentKind } from '../../../types/classContent';
@@ -17,13 +18,14 @@ const ITEMS: { kind: ClassContentKind; icon: string; label: string; desc: string
 ];
 
 export function CreateContentSheet({ visible, groupColor, onSelect, onClose }: Props) {
+  const { t } = useTranslation();
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <Pressable style={styles.backdrop} onPress={onClose}>
         <View>
           <Pressable style={styles.sheet} onPress={(e) => e.stopPropagation()}>
             <View style={styles.handle} />
-            <Text style={styles.title}>Create class content</Text>
+            <Text style={styles.title}>{t('community.createClassContent')}</Text>
             {ITEMS.map((it) => (
               <Pressable key={it.kind} style={styles.row} onPress={() => { onSelect(it.kind); onClose(); }}>
                 <View style={[styles.icon, { backgroundColor: `${it.color}22` }]}>
@@ -37,7 +39,7 @@ export function CreateContentSheet({ visible, groupColor, onSelect, onClose }: P
               </Pressable>
             ))}
             <Pressable style={styles.cancel} onPress={onClose}>
-              <Text style={styles.cancelText}>Cancel</Text>
+              <Text style={styles.cancelText}>{t('common.cancel')}</Text>
             </Pressable>
           </Pressable>
         </View>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -20,6 +21,7 @@ interface Props {
 }
 
 export function GroupLeaderboard({ entries, groupColor, currentUserId }: Props) {
+  const { t } = useTranslation();
   const [metric, setMetric] = useState<Metric>('xp');
 
   const sorted = [...entries].sort((a, b) => {
@@ -95,7 +97,7 @@ export function GroupLeaderboard({ entries, groupColor, currentUserId }: Props) 
       })}
 
       {entries.length === 0 && (
-        <Text style={styles.emptyText}>No leaderboard data yet</Text>
+        <Text style={styles.emptyText}>{t('community.noLeaderboardData')}</Text>
       )}
     </View>
   );

@@ -131,7 +131,7 @@ export function AIChatHeader({ module, model, creditInfo, onClear, onClose, onCr
           {creditInfo.isPremium ? (
             <View style={styles.premiumBadge}>
               <Ionicons name="diamond" size={12} color="#10b981" />
-              <Text style={styles.premiumText}>Premium</Text>
+              <Text style={styles.premiumText}>{t('ai.premium')}</Text>
             </View>
           ) : (
             <Pressable

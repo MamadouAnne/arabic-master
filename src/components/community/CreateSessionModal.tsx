@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -12,6 +13,7 @@ interface Props {
 const DURATION_OPTIONS = [30, 45, 60, 90, 120];
 
 export function CreateSessionModal({ visible, onClose, onCreate, groupColor }: Props) {
+  const { t } = useTranslation();
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [selectedDuration, setSelectedDuration] = useState(60);
@@ -45,18 +47,18 @@ export function CreateSessionModal({ visible, onClose, onCreate, groupColor }: P
             <Pressable onPress={onClose}>
               <Ionicons name="close" size={24} color="#94a3b8" />
             </Pressable>
-            <Text style={styles.headerTitle}>Study Session</Text>
+            <Text style={styles.headerTitle}>{t('community.sessionTitle')}</Text>
             <Pressable style={[styles.createBtn, !title.trim() && { opacity: 0.4 }]} onPress={handleCreate} disabled={!title.trim()}>
-              <Text style={styles.createBtnText}>Create</Text>
+              <Text style={styles.createBtnText}>{t('community.create')}</Text>
             </Pressable>
           </View>
 
           <ScrollView showsVerticalScrollIndicator={false}>
-            <Text style={styles.hint}>Pick a time for the group to study together. Members will be notified and can RSVP.</Text>
+            <Text style={styles.hint}>{t('community.sessionHint')}</Text>
             <TextInput style={styles.input} placeholder='e.g. "Juz 30 Review" or "Tajweed Practice"' placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
-            <TextInput style={[styles.input, { minHeight: 60 }]} placeholder="What will you study? (optional)" placeholderTextColor="#64748b" value={description} onChangeText={setDescription} multiline maxLength={300} />
+            <TextInput style={[styles.input, { minHeight: 60 }]} placeholder={t('community.sessionTopicPlaceholder')} placeholderTextColor="#64748b" value={description} onChangeText={setDescription} multiline maxLength={300} />
 
-            <Text style={styles.label}>When</Text>
+            <Text style={styles.label}>{t('community.when')}</Text>
             <View style={styles.optionRow}>
               {dayOptions.map((opt) => (
                 <Pressable key={opt.key} style={[styles.optionBtn, selectedDay === opt.value && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setSelectedDay(opt.value)}>
@@ -65,7 +67,7 @@ export function CreateSessionModal({ visible, onClose, onCreate, groupColor }: P
               ))}
             </View>
 
-            <Text style={styles.label}>Duration</Text>
+            <Text style={styles.label}>{t('community.duration')}</Text>
             <View style={styles.optionRow}>
               {DURATION_OPTIONS.map((dur) => (
                 <Pressable key={dur} style={[styles.optionBtn, selectedDuration === dur && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setSelectedDuration(dur)}>

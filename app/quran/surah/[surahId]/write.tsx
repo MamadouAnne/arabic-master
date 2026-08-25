@@ -338,7 +338,7 @@ export default function WritingExerciseScreen() {
   if (!surah) {
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.errorText}>Surah not found</Text>
+        <Text style={styles.errorText}>{t('surahWrite.surahNotFound')}</Text>
       </SafeAreaView>
     );
   }
@@ -384,7 +384,7 @@ export default function WritingExerciseScreen() {
                 <Text style={styles.ayahNumberText}>{selectedAyahIndex + 1}</Text>
               </View>
               <View>
-                <Text style={styles.ayahLabel}>Ayah</Text>
+                <Text style={styles.ayahLabel}>{t('surahWrite.ayah')}</Text>
                 <Text style={styles.ayahRange}>
                   {selectedAyahIndex + 1} of {ayahs.length}
                 </Text>
@@ -414,7 +414,7 @@ export default function WritingExerciseScreen() {
                 />
               </Pressable>
               <Pressable style={styles.selectBtn} onPress={() => setShowAyahPicker(true)}>
-                <Text style={styles.selectBtnText}>Select</Text>
+                <Text style={styles.selectBtnText}>{t('surahWrite.select')}</Text>
               </Pressable>
             </View>
           </Pressable>
@@ -454,7 +454,7 @@ export default function WritingExerciseScreen() {
             <View style={styles.hintCard}>
               <View style={styles.referenceHeader}>
                 <Ionicons name="bulb-outline" size={16} color="#f59e0b" />
-                <Text style={styles.hintLabel}>First Letter Hints</Text>
+                <Text style={styles.hintLabel}>{t('surahWrite.firstLetterHints')}</Text>
               </View>
               <View style={styles.hintWordsRow}>
                 {selectedAyah.words.map((word, i) => (
@@ -471,7 +471,7 @@ export default function WritingExerciseScreen() {
             <View style={styles.referenceCard}>
               <View style={styles.referenceHeader}>
                 <Ionicons name="book" size={16} color="#10b981" />
-                <Text style={styles.referenceLabel}>Reference</Text>
+                <Text style={styles.referenceLabel}>{t('surahWrite.reference')}</Text>
               </View>
               <Text style={styles.referenceText}>{selectedAyah.textUthmani}</Text>
             </View>
@@ -600,14 +600,14 @@ export default function WritingExerciseScreen() {
                       <View key={index} style={styles.wordCorrectionItem}>
                         <View style={styles.wordCorrectionRow}>
                           <View style={styles.wordCorrectionBox}>
-                            <Text style={styles.wordCorrectionLabel}>You wrote:</Text>
+                            <Text style={styles.wordCorrectionLabel}>{t('surahWrite.youWrote')}</Text>
                             <Text style={styles.wordWrong}>
                               {wordInfo.userWord || '(missing)'}
                             </Text>
                           </View>
                           <Ionicons name="arrow-forward" size={20} color="#64748b" />
                           <View style={styles.wordCorrectionBox}>
-                            <Text style={styles.wordCorrectionLabel}>Correct:</Text>
+                            <Text style={styles.wordCorrectionLabel}>{t('surahWrite.correctLabel')}</Text>
                             <Text style={styles.wordRight}>{wordInfo.word}</Text>
                           </View>
                         </View>
@@ -616,7 +616,7 @@ export default function WritingExerciseScreen() {
 
                   {/* Full correct ayah */}
                   <View style={styles.fullAyahSection}>
-                    <Text style={styles.fullAyahLabel}>Complete Ayah:</Text>
+                    <Text style={styles.fullAyahLabel}>{t('surahWrite.completeAyah')}</Text>
                     <Text style={styles.fullAyahText}>{selectedAyah.textUthmani}</Text>
                   </View>
                 </View>
@@ -639,11 +639,11 @@ export default function WritingExerciseScreen() {
               <View style={styles.postSubmitButtons}>
                 <Pressable style={styles.tryAgainButton} onPress={handleReset}>
                   <Ionicons name="refresh" size={18} color="#10b981" />
-                  <Text style={styles.tryAgainText}>Try Again</Text>
+                  <Text style={styles.tryAgainText}>{t('common.tryAgain')}</Text>
                 </Pressable>
                 {selectedAyahIndex < ayahs.length - 1 && (
                   <Pressable style={styles.nextAyahButton} onPress={handleNextAyah}>
-                    <Text style={styles.nextAyahText}>Next Ayah</Text>
+                    <Text style={styles.nextAyahText}>{t('surahWrite.nextAyah')}</Text>
                     <Ionicons name="arrow-forward" size={18} color="#ffffff" />
                   </Pressable>
                 )}
