@@ -28,12 +28,20 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Publish update
-        # --environment production pulls the server-side EAS environment
-        # variables (EXPO_PUBLIC_SUPABASE_URL/ANON_KEY, etc.) at bundle time.
-        # Without it, CI has no .env (gitignored) so those inline as empty and
-        # the published OTA ships with Supabase unconfigured, breaking sign-in.
+      # --environment pulls the server-side EAS environment variables
+      # (EXPO_PUBLIC_SUPABASE_URL/ANON_KEY, etc.) at bundle time. Without it, CI
+      # has no .env (gitignored) so those inline as empty and the published OTA
+      # ships with Supabase unconfigured, breaking sign-in.
+      - name: Publish update (production)
         run: eas update --branch production --environment production --message "${MESSAGE:-Manual OTA update}" --non-interactive
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+          MESSAGE: ${{ github.event.head_commit.message }}
+
+      # Also publish to the preview branch so internal preview builds
+      # (channel: preview) receive the same OTA and can be tested.
+      - name: Publish update (preview)
+        run: eas update --branch preview --environment preview --message "${MESSAGE:-Manual OTA update}" --non-interactive
         env:
           NODE_OPTIONS: --max-old-space-size=4096
           MESSAGE: ${{ github.event.head_commit.message }}

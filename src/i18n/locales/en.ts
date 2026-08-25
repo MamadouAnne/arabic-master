@@ -357,6 +357,8 @@ export default {
     checkForUpdates: 'Check for Updates',
     updateAvailableTitle: 'Update Available',
     updateAvailableMessage: 'An update is available. Would you like to download and install it now?',
+    updateReadyTitle: 'Update Ready',
+    updateReadyMessage: 'A new version has been downloaded. Restart now to apply it.',
     later: 'Later',
     updateNow: 'Update Now',
     updateFailed: 'Update Failed',

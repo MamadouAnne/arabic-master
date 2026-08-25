@@ -3,7 +3,7 @@ import '../src/i18n';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { Alert, Platform, View } from 'react-native';
+import { Platform, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import * as NavigationBar from 'expo-navigation-bar';
 import * as SplashScreen from 'expo-splash-screen';
@@ -18,6 +18,7 @@ import { useSettingsStore } from '../src/stores/settingsStore';
 import { useCreditStore } from '../src/stores/creditStore';
 import { supabase, isSupabaseConfigured, safeGetSession } from '../src/lib/supabase';
 import { MiniAudioPlayer } from '../src/components/quran/MiniAudioPlayer';
+import { UpdateModal } from '../src/components/UpdateModal';
 import { AIFloatingButton } from '../src/components/ai/AIFloatingButton';
 import { AIChatSheet } from '../src/components/ai/AIChatSheet';
 import { AppErrorBoundary } from '../src/components/AppErrorBoundary';
@@ -42,6 +43,7 @@ export default function RootLayout() {
 
   const [authReady, setAuthReady] = useState(false);
   const [updateComplete, setUpdateComplete] = useState(false);
+  const [updateReady, setUpdateReady] = useState(false);
 
   // Hard fallback: force app ready after 5s no matter what
   useEffect(() => {
@@ -66,14 +68,8 @@ export default function RootLayout() {
         const update = await Updates.checkForUpdateAsync();
         if (update.isAvailable) {
           await Updates.fetchUpdateAsync();
-          Alert.alert(
-            'Update Available',
-            'A new version has been downloaded. Restart now to apply?',
-            [
-              { text: 'Later', style: 'cancel' },
-              { text: 'Restart', onPress: () => Updates.reloadAsync() },
-            ]
-          );
+          // Bundle downloaded — surface the styled restart prompt.
+          setUpdateReady(true);
         }
       } catch {
         // OTA update check failed silently
@@ -295,6 +291,11 @@ export default function RootLayout() {
         {/* Show the AI floating button only on the home tab. */}
         {segments[0] === '(tabs)' && !segments[1] && <AIFloatingButton />}
         <AIChatSheet />
+        <UpdateModal
+          visible={updateReady}
+          onRestart={() => Updates.reloadAsync()}
+          onLater={() => setUpdateReady(false)}
+        />
       </GestureHandlerRootView>
     </AppErrorBoundary>
   );

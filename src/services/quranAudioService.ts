@@ -4,6 +4,7 @@
 import { createAudioPlayer, setAudioModeAsync } from 'expo-audio';
 import type { AudioPlayer } from 'expo-audio';
 import { getSurahByNumber } from '../data/arabic/quran/surahs';
+import { audioCacheService } from './audioCacheService';
 
 // Available reciters with their audio base URLs from EveryAyah.com
 // Format: https://everyayah.com/data/{reciter_folder}/{surah_number}{ayah_number}.mp3
@@ -110,8 +111,104 @@ class QuranAudioService {
   private currentSurah: number | null = null;
   private currentAyah: number | null = null;
 
+  // Ayahs currently being saved to the offline cache (dedupes background saves)
+  private cachingInFlight = new Set<string>();
+  // Background surah prefetch bookkeeping
+  private prefetchGeneration = 0; // bumped to cancel/supersede an in-flight prefetch
+  private activePrefetchKey: string | null = null; // `${reciterId}-${surahNumber}` currently prefetching
+
   constructor() {
     // Audio will be configured on first use
+  }
+
+  /**
+   * Silently save an ayah to the offline cache in the background so the next
+   * play works with no network. Best-effort — failures are ignored and never
+   * interrupt playback. Concurrent saves of the same ayah are de-duplicated.
+   */
+  private autoCache(
+    remoteUrl: string,
+    surahNumber: number,
+    ayahNumber: number,
+    reciterId: string
+  ): void {
+    const key = `${reciterId}-${surahNumber}-${ayahNumber}`;
+    if (this.cachingInFlight.has(key)) return;
+    this.cachingInFlight.add(key);
+    audioCacheService
+      .cacheAudio(remoteUrl, surahNumber, ayahNumber, reciterId)
+      .catch(() => {
+        // Best-effort caching — ignore network/storage failures
+      })
+      .finally(() => {
+        this.cachingInFlight.delete(key);
+      });
+  }
+
+  /**
+   * Silently pre-download the ayahs of a surah into the offline cache in the
+   * background, so the whole surah stays playable even if the network drops
+   * mid-listen. Runs one ayah at a time (gentle on the connection and on the
+   * currently-streaming ayah), skips anything already cached, and is
+   * cancellable: starting a prefetch for a different surah/reciter — or calling
+   * cancelPrefetch() — supersedes any in-flight run. Best-effort; failures are
+   * ignored and never affect playback.
+   */
+  prefetchSurah(
+    surahNumber: number,
+    totalAyahs: number,
+    options?: { reciterId?: ReciterId }
+  ): void {
+    const reciterId = options?.reciterId || this.currentReciter;
+    const key = `${reciterId}-${surahNumber}`;
+
+    // Already prefetching this exact surah/reciter — let it keep going.
+    if (this.activePrefetchKey === key) return;
+
+    const generation = ++this.prefetchGeneration;
+    this.activePrefetchKey = key;
+
+    const run = async () => {
+      for (let ayah = 1; ayah <= totalAyahs; ayah++) {
+        // Superseded by a newer prefetch, a reciter change, or a stop.
+        if (generation !== this.prefetchGeneration) return;
+
+        const inFlightKey = `${reciterId}-${surahNumber}-${ayah}`;
+        if (this.cachingInFlight.has(inFlightKey)) continue;
+
+        try {
+          const status = await audioCacheService.getCacheStatus(surahNumber, ayah, reciterId);
+          if (status.isCached) continue;
+        } catch {
+          // If the cache check fails, fall through and attempt the download.
+        }
+
+        if (generation !== this.prefetchGeneration) return;
+
+        this.cachingInFlight.add(inFlightKey);
+        try {
+          const remoteUrl = this.getAyahAudioUrl(surahNumber, ayah, reciterId);
+          await audioCacheService.cacheAudio(remoteUrl, surahNumber, ayah, reciterId);
+        } catch {
+          // Best-effort — skip ayahs that fail to download.
+        } finally {
+          this.cachingInFlight.delete(inFlightKey);
+        }
+      }
+    };
+
+    run().finally(() => {
+      // Only clear the marker if we're still the active run (not superseded).
+      if (generation === this.prefetchGeneration) {
+        this.activePrefetchKey = null;
+      }
+    });
+  }
+
+  /** Cancel any in-flight background prefetch. */
+  cancelPrefetch(): void {
+    this.prefetchGeneration++;
+    this.activePrefetchKey = null;
   }
 
   private async configureAudio(): Promise<boolean> {
@@ -238,7 +335,22 @@ class QuranAudioService {
       this.currentAyah = ayahNumber;
       options?.onStateChange?.('loading');
 
-      const url = this.getAyahAudioUrl(surahNumber, ayahNumber, options?.reciterId);
+      const remoteUrl = this.getAyahAudioUrl(surahNumber, ayahNumber, options?.reciterId);
+      const reciterId = options?.reciterId || this.currentReciter;
+
+      // Prefer a locally cached copy so playback works fully offline. If the
+      // ayah hasn't been saved yet, fall back to the remote stream AND kick off
+      // a silent background save so the next listen needs no network.
+      let url = remoteUrl;
+      try {
+        url = await audioCacheService.getAudioUrl(remoteUrl, surahNumber, ayahNumber, reciterId);
+      } catch {
+        url = remoteUrl;
+      }
+      if (url === remoteUrl) {
+        this.autoCache(remoteUrl, surahNumber, ayahNumber, reciterId);
+      }
+
       const rate = options?.rate || this.playbackRate;
 
       // Store the callbacks
@@ -348,6 +460,13 @@ class QuranAudioService {
       }
 
       this.isTransitioning = false;
+
+      // Warm the rest of this surah into the offline cache in the background so
+      // the whole surah stays playable if the network drops mid-listen.
+      const surah = getSurahByNumber(surahNumber);
+      if (surah?.ayahCount) {
+        this.prefetchSurah(surahNumber, surah.ayahCount, { reciterId });
+      }
     } catch (error) {
       // Clean up any partially created player and the outgoing one
       this.detachPlayer(this.player, this.statusSubscription);
@@ -498,6 +617,9 @@ class QuranAudioService {
     // Mark as stopped so playAyahRange loops can exit
     this.stoppedByUser = true;
 
+    // A real stop means the user is done — halt any background surah prefetch.
+    this.cancelPrefetch();
+
     // Explicitly tear down the lock-screen session (this is a real stop, not a
     // swap to the next ayah), then release the player resources.
     if (this.player) {
@@ -577,6 +699,11 @@ class QuranAudioService {
    * Set current reciter
    */
   setReciter(reciterId: ReciterId): void {
+    // A prefetch for the old voice is no longer what the user wants — cancel it.
+    // (Playback will start a fresh prefetch for the new reciter.)
+    if (reciterId !== this.currentReciter) {
+      this.cancelPrefetch();
+    }
     this.currentReciter = reciterId;
   }
 

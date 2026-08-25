@@ -357,6 +357,8 @@ export default {
     checkForUpdates: 'Vérifier les mises à jour',
     updateAvailableTitle: 'Mise à jour disponible',
     updateAvailableMessage: 'Une mise à jour est disponible. Voulez-vous la télécharger et l\'installer maintenant ?',
+    updateReadyTitle: 'Mise à jour prête',
+    updateReadyMessage: 'Une nouvelle version a été téléchargée. Redémarrez maintenant pour l\'appliquer.',
     later: 'Plus tard',
     updateNow: 'Mettre à jour',
     updateFailed: 'Échec de la mise à jour',
