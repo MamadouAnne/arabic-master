@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { arabicLetters } from '../../src/data/arabic/alphabet/letters';
 import { ARABIC_SCRIPT_FONTS, SCRIPT_META } from '../../src/data/arabic/alphabet/scriptFonts';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
+import { font, color, radius } from '../../src/theme/tokens';
 
 const FONT_ASSETS = ARABIC_SCRIPT_FONTS;
 const STYLES = SCRIPT_META;
@@ -27,7 +28,7 @@ export default function AlphabetStylesScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerText}>
           <Text style={styles.title}>{t('alphabet.scriptsTitle')}</Text>
@@ -37,7 +38,7 @@ export default function AlphabetStylesScreen() {
 
       {!ready ? (
         <View style={styles.loading}>
-          <ActivityIndicator color="#6366f1" size="large" />
+          <ActivityIndicator color={color.accentStrong} size="large" />
           <Text style={styles.loadingText}>{t('alphabet.scriptsLoading')}</Text>
         </View>
       ) : (
@@ -103,32 +104,34 @@ export default function AlphabetStylesScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 12 },
   backButton: { width: 40, height: 40, alignItems: 'center', justifyContent: 'center' },
   headerText: { flex: 1, marginLeft: 8 },
-  title: { fontSize: 22, fontWeight: '800', color: '#f8fafc' },
-  titleArabic: { fontSize: 15, color: '#94a3b8', marginTop: 2, textAlign: 'left' },
+  title: { fontSize: 22, fontWeight: '800', color: color.text },
+  titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 26, fontSize: 15, color: color.textMuted, marginTop: 2, textAlign: 'left' },
   loading: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 14 },
-  loadingText: { color: '#94a3b8', fontSize: 14 },
-  subtitle: { fontSize: 14, color: '#cbd5e1', lineHeight: 20, paddingHorizontal: 16, marginBottom: 14 },
-  legend: { marginHorizontal: 16, backgroundColor: '#1e293b', borderRadius: 14, borderWidth: 1, borderColor: '#334155', padding: 12, gap: 12, marginBottom: 18 },
+  loadingText: { color: color.textMuted, fontSize: 14 },
+  subtitle: { fontSize: 14, color: color.textMuted, lineHeight: 20, paddingHorizontal: 16, marginBottom: 14 },
+  legend: { marginHorizontal: 16, backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.border, padding: 12, gap: 12, marginBottom: 18 },
   legendItem: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
   legendDot: { width: 10, height: 10, borderRadius: 5, marginTop: 4 },
-  legendName: { fontSize: 14, fontWeight: '700', color: '#e2e8f0' },
-  legendDesc: { fontSize: 12.5, color: '#94a3b8', marginTop: 1, lineHeight: 17 },
-  formLabel: { fontSize: 12, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5, paddingHorizontal: 16, marginBottom: 8 },
+  legendName: { fontSize: 14, fontWeight: '700', color: color.text },
+  legendDesc: { fontSize: 12.5, color: color.textMuted, marginTop: 1, lineHeight: 17 },
+  formLabel: { fontSize: 12, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5, paddingHorizontal: 16, marginBottom: 8 },
   formRow: { flexDirection: 'row', gap: 8, paddingHorizontal: 16, marginBottom: 18 },
-  formPill: { flex: 1, alignItems: 'center', paddingVertical: 9, borderRadius: 10, backgroundColor: '#1e293b', borderWidth: 1.5, borderColor: 'transparent' },
-  formPillActive: { backgroundColor: 'rgba(99,102,241,0.18)', borderColor: '#6366f1' },
-  formPillText: { fontSize: 13, fontWeight: '600', color: '#94a3b8' },
-  formPillTextActive: { color: '#a5b4fc' },
-  tableHeader: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 8, borderBottomWidth: 1, borderBottomColor: '#1e293b', marginBottom: 4 },
+  formPill: { flex: 1, alignItems: 'center', paddingVertical: 9, borderRadius: radius.sm, backgroundColor: color.surface, borderWidth: 1.5, borderColor: 'transparent' },
+  formPillActive: { backgroundColor: 'rgba(99,102,241,0.18)', borderColor: color.accentStrong },
+  formPillText: { fontSize: 13, fontWeight: '600', color: color.textMuted },
+  formPillTextActive: { color: color.accent },
+  tableHeader: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 8, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 4 },
   colHead: { flex: 1, fontSize: 12, fontWeight: '700', textAlign: 'center', textTransform: 'uppercase', letterSpacing: 0.3 },
-  row: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
+  row: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
   nameCol: { width: 92 },
-  letterName: { fontSize: 14, fontWeight: '700', color: '#e2e8f0' },
-  letterTranslit: { fontSize: 12, color: '#64748b', fontStyle: 'italic', marginTop: 1 },
+  letterName: { fontSize: 14, fontWeight: '700', color: color.text },
+  letterTranslit: { fontSize: 12, color: color.textFaint, fontStyle: 'italic', marginTop: 1 },
   glyphCell: { flex: 1, alignItems: 'center', justifyContent: 'center' },
-  glyph: { fontSize: 34, color: '#f8fafc', lineHeight: 56, textAlign: 'center', writingDirection: 'rtl' },
+  glyph: { fontSize: 34, color: color.text, lineHeight: 56, textAlign: 'center', writingDirection: 'rtl' },
 });

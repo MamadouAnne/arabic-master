@@ -9,6 +9,8 @@ import { getAllDuas, getAvailableCategories } from '../../../src/data/arabic/dua
 import { DuaCard } from '../../../src/components/duas';
 import { useDuasStore } from '../../../src/stores/duasStore';
 import { DuaCategory, DUA_CATEGORY_LABELS, DuaListItem } from '../../../src/types/duas';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 type FilterCategory = 'all' | DuaCategory;
 
@@ -53,7 +55,7 @@ export default function DuasListScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.title}>{t('duasFeature.title')}</Text>
@@ -65,7 +67,7 @@ export default function DuasListScreen() {
       {/* Progress Card */}
       <View style={styles.progressCard}>
         <View style={styles.progressIconContainer}>
-          <Ionicons name="checkmark-done-circle" size={28} color="#10b981" />
+          <Ionicons name="checkmark-done-circle" size={28} color={color.progress} />
         </View>
         <View style={styles.progressContent}>
           <Text style={styles.progressTitle}>{t('duasFeature.memorized')}</Text>
@@ -149,7 +151,7 @@ export default function DuasListScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -157,7 +159,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   backButton: {
     padding: 8,
@@ -169,11 +171,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#f59e0b',
+    color: color.warning,
     marginTop: 2,
   },
   headerSpacer: {
@@ -182,19 +186,19 @@ const styles = StyleSheet.create({
   progressCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 16,
     marginTop: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   progressIconContainer: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -205,23 +209,23 @@ const styles = StyleSheet.create({
   progressTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   progressSubtitle: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 2,
   },
   progressPercent: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   progressPercentText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#10b981',
+    color: color.progress,
   },
   filterContainer: {
     maxHeight: 50,
@@ -234,22 +238,22 @@ const styles = StyleSheet.create({
   filterChip: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   filterChipActive: {
-    backgroundColor: '#f59e0b20',
-    borderColor: '#f59e0b',
+    backgroundColor: withAlpha(color.warning, 0.13),
+    borderColor: color.warning,
   },
   filterChipText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontWeight: '500',
   },
   filterChipTextActive: {
-    color: '#f59e0b',
+    color: color.warning,
   },
   listContainer: {
     flex: 1,

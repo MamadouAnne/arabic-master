@@ -17,6 +17,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import ArabicWritingInput from '../../src/components/arabic/ArabicWritingInput';
 import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function VocabularyWritingPracticeScreen() {
   const { t } = useTranslation();
@@ -171,7 +173,7 @@ export default function VocabularyWritingPracticeScreen() {
             </View>
             <View style={styles.resultDivider} />
             <View style={styles.resultItem}>
-              <Text style={[styles.resultValue, { color: '#6366f1' }]}>{accuracy}%</Text>
+              <Text style={[styles.resultValue, { color: color.accentStrong }]}>{accuracy}%</Text>
               <Text style={styles.resultLabel}>{t('common.accuracy')}</Text>
             </View>
           </View>
@@ -180,7 +182,7 @@ export default function VocabularyWritingPracticeScreen() {
 
           <View style={styles.completeButtons}>
             <Pressable style={styles.retryButton} onPress={handleRetry}>
-              <Ionicons name="refresh" size={20} color="#D4AF37" />
+              <Ionicons name="refresh" size={20} color={color.sacred} />
               <Text style={styles.retryButtonText}>{t('common.tryAgain')}</Text>
             </Pressable>
             <Pressable style={styles.doneButton} onPress={() => router.back()}>
@@ -197,7 +199,7 @@ export default function VocabularyWritingPracticeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>{lc(theme.name, theme.nameFr)}</Text>
@@ -206,7 +208,7 @@ export default function VocabularyWritingPracticeScreen() {
           </Text>
         </View>
         <View style={styles.scoreBox}>
-          <Ionicons name="star" size={16} color="#D4AF37" />
+          <Ionicons name="star" size={16} color={color.sacred} />
           <Text style={styles.scoreText}>{score.correct}</Text>
         </View>
       </View>
@@ -243,7 +245,7 @@ export default function VocabularyWritingPracticeScreen() {
         {/* Hint Button */}
         {currentExercise.hint && !showHint && !isAnswered && (
           <Pressable style={styles.hintButton} onPress={() => setShowHint(true)}>
-            <Ionicons name="bulb-outline" size={18} color="#D4AF37" />
+            <Ionicons name="bulb-outline" size={18} color={color.sacred} />
             <Text style={styles.hintButtonText}>{t('vocabulary.showHint')}</Text>
           </Pressable>
         )}
@@ -251,7 +253,7 @@ export default function VocabularyWritingPracticeScreen() {
         {/* Hint Display */}
         {showHint && (
           <View style={styles.hintBox}>
-            <Ionicons name="bulb" size={18} color="#D4AF37" />
+            <Ionicons name="bulb" size={18} color={color.sacred} />
             <Text style={styles.hintText}>{currentExercise.hint}</Text>
           </View>
         )}
@@ -280,7 +282,7 @@ export default function VocabularyWritingPracticeScreen() {
                   <Text style={styles.correctAnswerText}>
                     {(currentExercise.correctAnswer as string[])[0]}
                   </Text>
-                  <Ionicons name="volume-medium" size={20} color="#D4AF37" />
+                  <Ionicons name="volume-medium" size={20} color={color.sacred} />
                 </Pressable>
               </View>
             )}
@@ -302,7 +304,7 @@ export default function VocabularyWritingPracticeScreen() {
           disabled={isAnswered}
           isCorrect={isCorrect}
           showResult={isAnswered}
-          accentColor="#D4AF37"
+          accentColor={color.sacred}
         />
       ) : (
         <View style={styles.actionContainer}>
@@ -320,7 +322,7 @@ export default function VocabularyWritingPracticeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorContainer: {
     flex: 1,
@@ -328,7 +330,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 18,
     marginBottom: 16,
   },
@@ -336,7 +338,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   backLinkText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 16,
   },
   header: {
@@ -350,8 +352,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -359,25 +361,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   scoreBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 8,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   scoreText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: 'bold',
     marginLeft: 4,
   },
@@ -387,13 +389,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     borderRadius: 2,
   },
   scrollContent: {
@@ -405,7 +407,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   questionText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: '600',
     textAlign: 'center',
@@ -419,20 +421,22 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   questionArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
   },
   audioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   audioButtonActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   hintButton: {
     flexDirection: 'row',
@@ -442,7 +446,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   hintButtonText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 14,
     fontWeight: '500',
     marginLeft: 6,
@@ -450,14 +454,14 @@ const styles = StyleSheet.create({
   hintBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 20,
   },
   hintText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 14,
     marginLeft: 8,
     flex: 1,
@@ -466,45 +470,45 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   answerDisplay: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 18,
     minHeight: 70,
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
     justifyContent: 'center',
   },
   answerText: {
     fontSize: 28,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'right',
   },
   placeholderText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 18,
   },
   inputCorrect: {
-    borderColor: '#22c55e',
-    backgroundColor: '#22c55e20',
+    borderColor: color.progress,
+    backgroundColor: withAlpha(color.progress, 0.13),
   },
   inputWrong: {
-    borderColor: '#ef4444',
-    backgroundColor: '#ef444420',
+    borderColor: color.danger,
+    backgroundColor: withAlpha(color.danger, 0.13),
   },
   feedbackBox: {
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 20,
   },
   feedbackCorrect: {
-    backgroundColor: '#22c55e20',
+    backgroundColor: withAlpha(color.progress, 0.13),
     borderWidth: 1,
-    borderColor: '#22c55e40',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   feedbackWrong: {
-    backgroundColor: '#ef444420',
+    backgroundColor: withAlpha(color.danger, 0.13),
     borderWidth: 1,
-    borderColor: '#ef444440',
+    borderColor: withAlpha(color.danger, 0.25),
   },
   feedbackHeader: {
     flexDirection: 'row',
@@ -517,16 +521,16 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   feedbackTitleCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   feedbackTitleWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   correctAnswerBox: {
     marginBottom: 12,
   },
   correctAnswerLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginBottom: 4,
   },
@@ -536,13 +540,13 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   correctAnswerText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
     fontWeight: '600',
     marginRight: 12,
   },
   explanationText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 20,
   },
@@ -571,18 +575,18 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   completeSubtitle: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 32,
   },
   resultsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -594,21 +598,21 @@ const styles = StyleSheet.create({
   resultValue: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   resultLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   resultDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 16,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginBottom: 32,
   },
@@ -622,28 +626,28 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 2,
-    borderColor: '#D4AF37',
+    borderColor: color.sacred,
   },
   retryButtonText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 8,
   },
   doneButton: {
     flex: 1,
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.lg,
     padding: 16,
     alignItems: 'center',
     justifyContent: 'center',
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
   },

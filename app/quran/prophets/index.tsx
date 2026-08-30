@@ -9,6 +9,8 @@ import { PROPHETS } from '../../../src/data/arabic/prophets';
 import { ProphetCard } from '../../../src/components/prophetStories';
 import { useProphetStoriesStore } from '../../../src/stores/prophetStoriesStore';
 import { ProphetListItem } from '../../../src/types/prophetStories';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 export default function ProphetListScreen() {
   const { t } = useTranslation();
@@ -64,7 +66,7 @@ export default function ProphetListScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.title}>{t('prophetsFeature.title')}</Text>
@@ -99,18 +101,18 @@ export default function ProphetListScreen() {
         {/* Search Bar */}
         <View style={styles.searchContainer}>
           <View style={styles.searchBar}>
-            <Ionicons name="search" size={18} color="#64748b" />
+            <Ionicons name="search" size={18} color={color.textFaint} />
             <TextInput
               style={styles.searchInput}
               placeholder={t('prophetsFeature.searchProphets')}
-              placeholderTextColor="#64748b"
+              placeholderTextColor={color.textFaint}
               value={searchQuery}
               onChangeText={setSearchQuery}
               autoCapitalize="none"
             />
             {searchQuery.length > 0 && (
               <Pressable onPress={() => setSearchQuery('')}>
-                <Ionicons name="close-circle" size={18} color="#64748b" />
+                <Ionicons name="close-circle" size={18} color={color.textFaint} />
               </Pressable>
             )}
           </View>
@@ -120,7 +122,7 @@ export default function ProphetListScreen() {
         <View style={styles.listContainer}>
           {prophetListItems.length === 0 ? (
             <View style={styles.emptyState}>
-              <Ionicons name="search-outline" size={48} color="#475569" />
+              <Ionicons name="search-outline" size={48} color={color.textFaint} />
               <Text style={styles.emptyStateText}>{t('prophetsFeature.noProphetsFound')}</Text>
               <Text style={styles.emptyStateSubtext}>{t('prophetsFeature.tryDifferentSearch')}</Text>
             </View>
@@ -144,7 +146,7 @@ export default function ProphetListScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -162,21 +164,23 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#818cf8',
+    color: color.accent,
     marginTop: 2,
   },
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 20,
     borderWidth: 1,
-    borderColor: '#6366f130',
+    borderColor: withAlpha(color.accentStrong, 0.19),
   },
   progressInfo: {
     flexDirection: 'row',
@@ -187,7 +191,7 @@ const styles = StyleSheet.create({
     width: 64,
     height: 64,
     borderRadius: 32,
-    backgroundColor: '#6366f120',
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
@@ -195,11 +199,11 @@ const styles = StyleSheet.create({
   progressNumber: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#818cf8',
+    color: color.accent,
   },
   progressTotal: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
   },
   progressDetails: {
     flex: 1,
@@ -208,11 +212,11 @@ const styles = StyleSheet.create({
   progressTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   progressSubtitle: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     lineHeight: 18,
   },
@@ -224,16 +228,16 @@ const styles = StyleSheet.create({
   progressBar: {
     flex: 1,
     height: 6,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 3,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 3,
   },
   progressPercent: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 13,
     fontWeight: '600',
     minWidth: 40,
@@ -244,8 +248,8 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   searchBar: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 14,
@@ -254,7 +258,7 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     flex: 1,
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
   },
   listContainer: {
@@ -265,13 +269,13 @@ const styles = StyleSheet.create({
     paddingVertical: 48,
   },
   emptyStateText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     fontWeight: '500',
     marginTop: 12,
   },
   emptyStateSubtext: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 4,
   },

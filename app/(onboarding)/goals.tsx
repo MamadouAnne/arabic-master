@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { LEARNING_GOALS, LearningGoalId } from '../../src/types/onboarding';
 import { useSettingsStore } from '../../src/stores/settingsStore';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const CARD_GAP = 12;
@@ -71,7 +73,7 @@ export default function GoalsScreen() {
                 >
                   <Ionicons name={goal.icon as any} size={24} color={goal.color} />
                 </View>
-                <Text style={[styles.goalLabel, isSelected && { color: '#ffffff' }]}>
+                <Text style={[styles.goalLabel, isSelected && { color: color.text }]}>
                   {t(goal.labelKey)}
                 </Text>
                 <Text style={[styles.goalArabic, isSelected && { opacity: 1 }]}>
@@ -79,7 +81,7 @@ export default function GoalsScreen() {
                 </Text>
                 {isSelected && (
                   <View style={[styles.checkmark, { backgroundColor: goal.color }]}>
-                    <Ionicons name="checkmark" size={12} color="#ffffff" />
+                    <Ionicons name="checkmark" size={12} color={color.text} />
                   </View>
                 )}
               </TouchableOpacity>
@@ -110,7 +112,7 @@ export default function GoalsScreen() {
             {t('common.continue')}
           </Text>
           <View style={[styles.continueIcon, !hasSelection && { opacity: 0.4 }]}>
-            <Ionicons name="arrow-forward" size={18} color="#10b981" />
+            <Ionicons name="arrow-forward" size={18} color={color.progress} />
           </View>
         </TouchableOpacity>
       </View>
@@ -121,7 +123,7 @@ export default function GoalsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   scrollContent: {
     paddingHorizontal: HORIZONTAL_PADDING,
@@ -133,14 +135,14 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   title: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 8,
   },
   subtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 20,
@@ -152,31 +154,33 @@ const styles = StyleSheet.create({
   },
   goalCard: {
     width: CARD_WIDTH,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 14,
     alignItems: 'center',
     borderWidth: 1.5,
-    borderColor: '#334155',
+    borderColor: color.border,
     marginBottom: CARD_GAP,
   },
   goalIcon: {
     width: 48,
     height: 48,
-    borderRadius: 24,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 10,
   },
   goalLabel: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '600',
     textAlign: 'center',
     lineHeight: 18,
   },
   goalArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 24,
+    color: color.sacred,
     fontSize: 14,
     marginTop: 4,
     opacity: 0.7,
@@ -187,7 +191,7 @@ const styles = StyleSheet.create({
     right: 8,
     width: 22,
     height: 22,
-    borderRadius: 11,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -198,25 +202,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   selectionText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 13,
     fontWeight: '600',
     marginBottom: 12,
   },
   continueButton: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     paddingVertical: 18,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     alignSelf: 'stretch',
   },
   continueButtonDisabled: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
   },
   continueText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 17,
     fontWeight: '700',
     marginRight: 10,
@@ -224,8 +228,8 @@ const styles = StyleSheet.create({
   continueIcon: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#ffffff20',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.text, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },

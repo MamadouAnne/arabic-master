@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useAudioPlayerStore, startContinuousPlay, advanceToNextSurah } from '../../stores/audioPlayerStore';
 import { quranAudioService } from '../../services/quranAudioService';
 import { getSurahByNumber } from '../../data/arabic/quran';
+import { font, color, radius } from '../../theme/tokens';
 
 export function MiniAudioPlayer() {
   const router = useRouter();
@@ -216,7 +217,7 @@ export function MiniAudioPlayer() {
                 <View style={[styles.loadingDot, styles.loadingDotDelay2]} />
               </View>
             ) : (
-              <Ionicons name={isPlaying ? 'pause' : 'play'} size={20} color="#ffffff" />
+              <Ionicons name={isPlaying ? 'pause' : 'play'} size={20} color={color.text} />
             )}
           </Pressable>
           <Pressable
@@ -245,7 +246,7 @@ export function MiniAudioPlayer() {
             accessibilityRole="button"
             accessibilityLabel="Close audio player"
           >
-            <Ionicons name="close" size={18} color="#6b6b60" />
+            <Ionicons name="close" size={18} color={color.textFaint} />
           </Pressable>
         </View>
       </Pressable>
@@ -275,7 +276,7 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: '100%',
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   content: {
     flexDirection: 'row',
@@ -287,15 +288,15 @@ const styles = StyleSheet.create({
   ayahBadge: {
     width: 38,
     height: 38,
-    borderRadius: 19,
+    borderRadius: radius.xl,
     backgroundColor: '#161613',
     borderWidth: 2,
-    borderColor: '#10b981',
+    borderColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },
   ayahNumberText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontWeight: 'bold',
   },
@@ -304,7 +305,9 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   surahArabic: {
-    color: '#f5f5f0',
+    fontFamily: font.arabic,
+    lineHeight: 27,
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -314,17 +317,17 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   surahName: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 12,
     fontWeight: '500',
     flexShrink: 1,
   },
   separator: {
-    color: '#6b6b60',
+    color: color.textFaint,
     fontSize: 10,
   },
   reciter: {
-    color: '#6b6b60',
+    color: color.textFaint,
     fontSize: 11,
     flexShrink: 1,
   },
@@ -336,7 +339,7 @@ const styles = StyleSheet.create({
   skipButton: {
     width: 30,
     height: 30,
-    borderRadius: 15,
+    borderRadius: radius.lg,
     backgroundColor: 'transparent',
     alignItems: 'center',
     justifyContent: 'center',
@@ -344,7 +347,7 @@ const styles = StyleSheet.create({
   controlButton: {
     width: 34,
     height: 34,
-    borderRadius: 17,
+    borderRadius: radius.lg,
     backgroundColor: '#2a2a24',
     alignItems: 'center',
     justifyContent: 'center',
@@ -355,8 +358,8 @@ const styles = StyleSheet.create({
   playPauseButton: {
     width: 42,
     height: 42,
-    borderRadius: 21,
-    backgroundColor: '#10b981',
+    borderRadius: radius.xl,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 4,
@@ -364,7 +367,7 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 30,
     height: 30,
-    borderRadius: 15,
+    borderRadius: radius.lg,
     backgroundColor: 'transparent',
     alignItems: 'center',
     justifyContent: 'center',
@@ -378,7 +381,7 @@ const styles = StyleSheet.create({
     width: 4,
     height: 4,
     borderRadius: 2,
-    backgroundColor: '#ffffff',
+    backgroundColor: color.text,
     opacity: 0.4,
   },
   loadingDotDelay1: {

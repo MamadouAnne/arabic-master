@@ -1,5 +1,12 @@
 // Tajweed Color Scheme
-// Colors follow common Tajweed color-coding standards
+// Colors follow common Tajweed color-coding standards.
+//
+// One deliberate deviation: the printed convention encodes madd severity as
+// progressively *darker* red, which assumes white paper. On this app's dark
+// ground that logic inverts — the most severe rule became the least visible.
+// madd_lazim is therefore lightened just enough to clear WCAG 3:1 for large
+// text against the ayah card, while staying visibly deeper than madd_wajib.
+// Every other hue is unchanged, since learners recognise them from the Mushaf.
 
 export const TAJWEED_COLORS = {
   // Ghunnah - Nasalization (2 harakat)
@@ -21,7 +28,8 @@ export const TAJWEED_COLORS = {
   madd_tabii: '#FFFFFF', // White - Natural elongation (2 harakat)
   madd_wajib: '#FF0000', // Red - Required elongation (4-5 harakat)
   madd_jaiz: '#FF9999', // Light red - Permissible elongation (2-4-6)
-  madd_lazim: '#8B0000', // Dark red - Obligatory elongation (6 harakat)
+  madd_lazim: '#D62839', // Deep crimson - Obligatory elongation (6 harakat).
+                         // Was #8B0000, which scored 1.70:1 on the dark card.
   madd_arid: '#FFB6C1', // Light pink - Elongation due to stop
   madd_leen: '#FFA07A', // Light salmon - Soft elongation
 

@@ -7,6 +7,7 @@ import { useCommunityStore } from '../../stores/communityStore';
 import { useSettingsStore } from '../../stores/settingsStore';
 import { sendSharedContentMessage } from '../../services/communitySocialService';
 import type { SharedContent } from '../../data/community/socialData';
+import { color, radius } from '../../theme/tokens';
 
 interface Props {
   visible: boolean;
@@ -51,13 +52,13 @@ export function ShareToGroupModal({ visible, content, onClose, onShared }: Props
           <View style={styles.header}>
             <Text style={styles.title}>{t('community.shareToAGroup')}</Text>
             <Pressable onPress={onClose} hitSlop={10}>
-              <Ionicons name="close" size={22} color="#94a3b8" />
+              <Ionicons name="close" size={22} color={color.textMuted} />
             </Pressable>
           </View>
 
           {joined.length === 0 ? (
             <View style={styles.empty}>
-              <Ionicons name="people-outline" size={40} color="#475569" />
+              <Ionicons name="people-outline" size={40} color={color.textFaint} />
               <Text style={styles.emptyText}>{t('community.joinGroupToShare')}</Text>
             </View>
           ) : (
@@ -91,14 +92,14 @@ export function ShareToGroupModal({ visible, content, onClose, onShared }: Props
 
 const styles = StyleSheet.create({
   backdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'flex-end' },
-  sheet: { backgroundColor: '#0f172a', borderTopLeftRadius: 22, borderTopRightRadius: 22, maxHeight: '70%', paddingHorizontal: 16, borderTopWidth: 1, borderColor: '#1e293b' },
-  handle: { width: 40, height: 4, borderRadius: 2, backgroundColor: '#334155', alignSelf: 'center', marginTop: 10, marginBottom: 6 },
+  sheet: { backgroundColor: color.bg, borderTopLeftRadius: 22, borderTopRightRadius: 22, maxHeight: '70%', paddingHorizontal: 16, borderTopWidth: 1, borderColor: color.borderSubtle },
+  handle: { width: 40, height: 4, borderRadius: 2, backgroundColor: color.surfaceRaised, alignSelf: 'center', marginTop: 10, marginBottom: 6 },
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: 12 },
-  title: { fontSize: 18, fontWeight: '700', color: '#f8fafc' },
+  title: { fontSize: 18, fontWeight: '700', color: color.text },
   empty: { alignItems: 'center', gap: 12, paddingVertical: 50, paddingHorizontal: 30 },
-  emptyText: { fontSize: 14, color: '#64748b', textAlign: 'center' },
-  row: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 12, paddingHorizontal: 4, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  icon: { width: 42, height: 42, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
-  groupName: { fontSize: 15, fontWeight: '600', color: '#e2e8f0' },
-  groupMeta: { fontSize: 12, color: '#64748b', marginTop: 2 },
+  emptyText: { fontSize: 14, color: color.textFaint, textAlign: 'center' },
+  row: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 12, paddingHorizontal: 4, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  icon: { width: 42, height: 42, borderRadius: radius.md, alignItems: 'center', justifyContent: 'center' },
+  groupName: { fontSize: 15, fontWeight: '600', color: color.text },
+  groupMeta: { fontSize: 12, color: color.textFaint, marginTop: 2 },
 });

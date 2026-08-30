@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ProphetListItem } from '../../types/prophetStories';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface ProphetCardProps {
   prophet: ProphetListItem;
@@ -28,7 +30,7 @@ export function ProphetCard({ prophet, onPress }: ProphetCardProps) {
         </Text>
         <View style={styles.metaRow}>
           <View style={styles.metaItem}>
-            <Ionicons name="time-outline" size={12} color="#64748b" />
+            <Ionicons name="time-outline" size={12} color={color.textFaint} />
             <Text style={styles.metaText}>{prophet.estimatedReadTime} min</Text>
           </View>
           {prophet.progress > 0 && prophet.progress < 100 && (
@@ -45,10 +47,10 @@ export function ProphetCard({ prophet, onPress }: ProphetCardProps) {
       <View style={styles.statusContainer}>
         {prophet.isCompleted ? (
           <View style={styles.completedBadge}>
-            <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+            <Ionicons name="checkmark-circle" size={24} color={color.progress} />
           </View>
         ) : (
-          <Ionicons name="chevron-forward" size={20} color="#64748b" />
+          <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
         )}
       </View>
     </Pressable>
@@ -57,8 +59,8 @@ export function ProphetCard({ prophet, onPress }: ProphetCardProps) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     flexDirection: 'row',
@@ -67,14 +69,14 @@ const styles = StyleSheet.create({
   orderContainer: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#6366f120',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 14,
   },
   orderNumber: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -88,22 +90,24 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   nameArabic: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    lineHeight: 34,
+    color: color.text,
     fontSize: 20,
     fontWeight: '600',
   },
   nameEnglish: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 16,
     fontWeight: '500',
   },
   title: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 12,
     marginBottom: 4,
   },
   summary: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     lineHeight: 18,
     marginBottom: 8,
@@ -119,7 +123,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
   progressContainer: {
@@ -131,17 +135,17 @@ const styles = StyleSheet.create({
   progressBar: {
     flex: 1,
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     maxWidth: 80,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     borderRadius: 2,
   },
   progressText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 11,
     fontWeight: '500',
   },

@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { LEGAL_CONSTANTS, LegalSection } from '../../data/legal';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface LegalScreenProps {
   title: string;
@@ -19,7 +21,7 @@ export function LegalScreen({ title, sections }: LegalScreenProps) {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <Text style={styles.headerTitle} numberOfLines={1}>{title}</Text>
         <View style={styles.backButton} />
@@ -32,7 +34,7 @@ export function LegalScreen({ title, sections }: LegalScreenProps) {
       >
         {/* Effective Date */}
         <View style={styles.dateBadge}>
-          <Ionicons name="calendar-outline" size={14} color="#94a3b8" />
+          <Ionicons name="calendar-outline" size={14} color={color.textMuted} />
           <Text style={styles.dateText}>
             {t('legal.effectiveDate')}: {LEGAL_CONSTANTS.effectiveDate}
           </Text>
@@ -57,7 +59,7 @@ export function LegalScreen({ title, sections }: LegalScreenProps) {
             onPress={() => Linking.openURL(`mailto:${LEGAL_CONSTANTS.email}`)}
             style={styles.emailButton}
           >
-            <Ionicons name="mail-outline" size={16} color="#10b981" />
+            <Ionicons name="mail-outline" size={16} color={color.progress} />
             <Text style={styles.emailText}>{LEGAL_CONSTANTS.email}</Text>
           </Pressable>
         </View>
@@ -71,7 +73,7 @@ export function LegalScreen({ title, sections }: LegalScreenProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -80,7 +82,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   backButton: {
     width: 40,
@@ -92,7 +94,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
   },
   scrollView: {
@@ -110,25 +112,25 @@ const styles = StyleSheet.create({
   },
   dateText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   sectionCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   sectionTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 10,
   },
   paragraph: {
     fontSize: 14,
-    color: '#cbd5e1',
+    color: color.textMuted,
     lineHeight: 22,
     marginBottom: 8,
   },
@@ -136,26 +138,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 20,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     marginTop: 8,
   },
   contactLabel: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 8,
   },
   emailButton: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   emailText: {
     fontSize: 14,
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
   },
 });

@@ -2,6 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { View, Text, TextInput, StyleSheet, Pressable, ActivityIndicator } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface Props {
   isJoined: boolean;
@@ -32,7 +34,7 @@ export function ChatInputBar({
           <Ionicons name="create-outline" size={14} color={groupColor} />
           <Text style={[styles.editBannerText, { color: groupColor }]}>{t('community.editingMessage')}</Text>
           <Pressable onPress={onCancelEdit} hitSlop={8}>
-            <Ionicons name="close" size={16} color="#94a3b8" />
+            <Ionicons name="close" size={16} color={color.textMuted} />
           </Pressable>
         </View>
       )}
@@ -47,7 +49,7 @@ export function ChatInputBar({
             <TextInput
               style={styles.messageInput}
               placeholder={placeholder}
-              placeholderTextColor="#64748b"
+              placeholderTextColor={color.textFaint}
               value={messageText}
               onChangeText={onChangeText}
               multiline
@@ -60,9 +62,9 @@ export function ChatInputBar({
                 onPress={onSend}
               >
                 {isSending ? (
-                  <ActivityIndicator color="#ffffff" size="small" />
+                  <ActivityIndicator color={color.text} size="small" />
                 ) : (
-                  <Ionicons name={editing ? 'checkmark' : 'send'} size={18} color="#ffffff" />
+                  <Ionicons name={editing ? 'checkmark' : 'send'} size={18} color={color.text} />
                 )}
               </Pressable>
             ) : (
@@ -76,7 +78,7 @@ export function ChatInputBar({
           </>
         ) : (
           <View style={styles.joinPrompt}>
-            <Ionicons name="people" size={16} color="#64748b" />
+            <Ionicons name="people" size={16} color={color.textFaint} />
             <Text style={styles.joinPromptText}>{joinLabel} to participate</Text>
           </View>
         )}
@@ -86,15 +88,15 @@ export function ChatInputBar({
 }
 
 const styles = StyleSheet.create({
-  inputBar: { flexDirection: 'row', alignItems: 'flex-end', paddingHorizontal: 12, paddingVertical: 8, backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', gap: 8 },
-  editBanner: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 14, paddingVertical: 6, backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b' },
+  inputBar: { flexDirection: 'row', alignItems: 'flex-end', paddingHorizontal: 12, paddingVertical: 8, backgroundColor: color.bg, borderTopWidth: 1, borderTopColor: color.borderSubtle, gap: 8 },
+  editBanner: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 14, paddingVertical: 6, backgroundColor: color.bg, borderTopWidth: 1, borderTopColor: color.borderSubtle },
   editBannerText: { flex: 1, fontSize: 12, fontWeight: '600' },
   createBtn: { width: 36, height: 42, alignItems: 'center', justifyContent: 'center' },
-  messageInput: { flex: 1, backgroundColor: '#1e293b', borderRadius: 22, paddingHorizontal: 16, paddingVertical: 10, fontSize: 15, color: '#ffffff', maxHeight: 100, borderWidth: 1, borderColor: '#334155' },
-  sendBtn: { width: 42, height: 42, borderRadius: 21, alignItems: 'center', justifyContent: 'center' },
+  messageInput: { flex: 1, backgroundColor: color.surface, borderRadius: radius.xl, paddingHorizontal: 16, paddingVertical: 10, fontSize: 15, color: color.text, maxHeight: 100, borderWidth: 1, borderColor: color.border },
+  sendBtn: { width: 42, height: 42, borderRadius: radius.xl, alignItems: 'center', justifyContent: 'center' },
   sendBtnDisabled: { opacity: 0.35 },
-  micBtn: { width: 42, height: 42, borderRadius: 21, alignItems: 'center', justifyContent: 'center' },
-  micBtnRecording: { backgroundColor: '#ef444440', borderWidth: 2, borderColor: '#ef4444' },
+  micBtn: { width: 42, height: 42, borderRadius: radius.xl, alignItems: 'center', justifyContent: 'center' },
+  micBtnRecording: { backgroundColor: withAlpha(color.danger, 0.25), borderWidth: 2, borderColor: color.danger },
   joinPrompt: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8, paddingVertical: 8 },
-  joinPromptText: { fontSize: 13, color: '#64748b' },
+  joinPromptText: { fontSize: 13, color: color.textFaint },
 });

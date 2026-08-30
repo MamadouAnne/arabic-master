@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable, StyleSheet, Modal, Alert, ActivityIndicator, Image, TextInput, Linking, Platform, RefreshControl } from 'react-native';
+import { View, Text, ScrollView, Pressable, StyleSheet, Modal, Alert, ActivityIndicator, TextInput, Linking, Platform, RefreshControl } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useState, useEffect, useRef, useCallback } from 'react';
@@ -17,6 +17,8 @@ import { CreditPurchaseSheet } from '../../src/components/ai/CreditPurchaseSheet
 import { revenueCatService } from '../../src/services/revenueCatService';
 import { useCommunityStore } from '../../src/stores/communityStore';
 import * as communityService from '../../src/services/communityService';
+import { Txt, Arabic, IlluminatedRule, withAlpha } from '../../src/components/ui/Primitives';
+import { color, space, gutter, font, radius } from '../../src/theme/tokens';
 
 export default function ProfileScreen() {
   const { t, i18n } = useTranslation();
@@ -300,10 +302,10 @@ export default function ProfileScreen() {
   };
 
   const categoryColors: Record<string, string> = {
-    learning: '#6366f1',
-    streak: '#f59e0b',
-    mastery: '#22c55e',
-    special: '#D4AF37',
+    learning: color.accentStrong,
+    streak: color.warning,
+    mastery: color.progress,
+    special: color.sacred,
   };
 
   return (
@@ -314,21 +316,20 @@ export default function ProfileScreen() {
           <RefreshControl
             refreshing={refreshing}
             onRefresh={onRefresh}
-            tintColor="#f97316"
-            colors={['#f97316']}
+            tintColor={color.accent}
+            colors={[color.accent]}
           />
         }
       >
-        {/* Header */}
+        {/* Masthead. The app icon that sat here was decoration only — the
+            identity a user wants on this screen is their own, in the hero
+            card directly below. */}
         <View style={styles.header}>
-          <View>
-            <Text style={styles.title}>{t('profile.title')}</Text>
-            <Text style={styles.titleArabic}>الْمَلَفُّ الشَّخْصِي</Text>
-          </View>
-          <Image
-            source={require('../../assets/images/adaptive-icon.png')}
-            style={styles.appIcon}
-          />
+          <Arabic size="title" align="left">الْمَلَفُّ الشَّخْصِي</Arabic>
+          <Txt variant="caption" tone="faint" style={styles.headerLatin}>
+            {t('profile.title')}
+          </Txt>
+          <IlluminatedRule style={styles.headerRule} />
         </View>
 
         {/* Profile hero: identity + XP + stats */}
@@ -336,7 +337,7 @@ export default function ProfileScreen() {
           <View style={styles.heroTopRow}>
             <View style={styles.avatarRing}>
               <View style={styles.avatarInner}>
-                <Ionicons name="person" size={32} color="#818cf8" />
+                <Ionicons name="person" size={32} color={color.accent} />
               </View>
             </View>
             <View style={styles.heroInfo}>
@@ -348,7 +349,7 @@ export default function ProfileScreen() {
                     value={editNameValue}
                     onChangeText={setEditNameValue}
                     placeholder={t('profile.enterName') || 'Enter your name'}
-                    placeholderTextColor="#64748b"
+                    placeholderTextColor={color.textFaint}
                     maxLength={50}
                     autoCapitalize="words"
                     returnKeyType="done"
@@ -356,14 +357,14 @@ export default function ProfileScreen() {
                   />
                   <View style={styles.editNameActions}>
                     {isSavingName ? (
-                      <ActivityIndicator size="small" color="#10b981" />
+                      <ActivityIndicator size="small" color={color.progress} />
                     ) : (
                       <>
                         <Pressable onPress={handleSaveName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel="Save">
-                          <Ionicons name="checkmark" size={20} color="#10b981" />
+                          <Ionicons name="checkmark" size={20} color={color.progress} />
                         </Pressable>
                         <Pressable onPress={handleCancelEditName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel="Cancel">
-                          <Ionicons name="close" size={20} color="#ef4444" />
+                          <Ionicons name="close" size={20} color={color.danger} />
                         </Pressable>
                       </>
                     )}
@@ -376,14 +377,14 @@ export default function ProfileScreen() {
                       {displayName || user?.email?.split('@')[0] || t('profile.learner') || 'Learner'}
                     </Text>
                     <Pressable onPress={handleEditName} style={styles.editNameBtn} accessibilityRole="button" accessibilityLabel={t('profile.editName') || 'Edit name'}>
-                      <Ionicons name="pencil" size={15} color="#64748b" />
+                      <Ionicons name="pencil" size={15} color={color.textFaint} />
                     </Pressable>
                   </View>
                   {!!user?.email && (
                     <Text style={styles.heroEmail} numberOfLines={1}>{user.email}</Text>
                   )}
                   <View style={styles.xpPill}>
-                    <Ionicons name="star" size={13} color="#0f172a" />
+                    <Ionicons name="star" size={13} color={color.textOnAccent} />
                     <Text style={styles.xpPillText}>{progress.totalXp.toLocaleString()} XP</Text>
                   </View>
                 </>
@@ -393,22 +394,22 @@ export default function ProfileScreen() {
 
           <View style={styles.statsGrid}>
             <View style={styles.statTile}>
-              <Ionicons name="flame" size={20} color="#f59e0b" />
+              <Ionicons name="flame" size={20} color={color.warning} />
               <Text style={styles.statValue}>{progress.currentStreak}</Text>
               <Text style={styles.statLabel}>{t('profile.dayStreak')}</Text>
             </View>
             <View style={styles.statTile}>
-              <Ionicons name="trophy" size={20} color="#D4AF37" />
+              <Ionicons name="trophy" size={20} color={color.sacred} />
               <Text style={styles.statValue}>{progress.longestStreak}</Text>
               <Text style={styles.statLabel}>{t('profile.bestStreak')}</Text>
             </View>
             <View style={styles.statTile}>
-              <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+              <Ionicons name="checkmark-circle" size={20} color={color.progress} />
               <Text style={styles.statValue}>{progress.exerciseResults.totalCompleted}</Text>
               <Text style={styles.statLabel}>{t('profile.exercises')}</Text>
             </View>
             <View style={styles.statTile}>
-              <Ionicons name="analytics" size={20} color="#6366f1" />
+              <Ionicons name="analytics" size={20} color={color.accentStrong} />
               <Text style={styles.statValue}>{getAccuracy()}%</Text>
               <Text style={styles.statLabel}>{t('profile.accuracy')}</Text>
             </View>
@@ -423,7 +424,7 @@ export default function ProfileScreen() {
           accessibilityLabel={t('community.challenges')}
         >
           <View style={styles.challengeIcon}>
-            <Ionicons name="flag" size={22} color="#f97316" />
+            <Ionicons name="flag" size={22} color={color.accent} />
           </View>
           <View style={styles.challengeText}>
             <Text style={styles.challengeTitle}>{t('community.challenges')}</Text>
@@ -436,7 +437,7 @@ export default function ProfileScreen() {
               </Text>
             </View>
           )}
-          <Ionicons name="chevron-forward" size={20} color="#64748b" />
+          <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
         </Pressable>
 
         {/* Subscription & Credits */}
@@ -452,7 +453,7 @@ export default function ProfileScreen() {
                 <Ionicons
                   name={creditInfo.isPremium ? 'diamond' : 'person-outline'}
                   size={20}
-                  color={creditInfo.isPremium ? '#10b981' : '#94a3b8'}
+                  color={creditInfo.isPremium ? color.progress : color.textMuted}
                 />
               </View>
               <View style={styles.subPlanInfo}>
@@ -486,7 +487,7 @@ export default function ProfileScreen() {
             <View style={styles.subCreditsRow}>
               <View style={styles.subCreditsLeft}>
                 <View style={styles.subCreditsIcon}>
-                  <Ionicons name="wallet-outline" size={20} color="#f59e0b" />
+                  <Ionicons name="wallet-outline" size={20} color={color.warning} />
                 </View>
                 <View>
                   <Text style={styles.subCreditsLabel}>{t('purchase.creditBalance')}</Text>
@@ -506,16 +507,16 @@ export default function ProfileScreen() {
             <View style={styles.subActions}>
               {creditInfo.isPremium ? (
                 <Pressable style={styles.subManageBtn} onPress={handleManageSubscription}>
-                  <Ionicons name="settings-outline" size={16} color="#f5f5f0" />
+                  <Ionicons name="settings-outline" size={16} color={color.text} />
                   <Text style={styles.subManageBtnText}>{t('purchase.manageSub')}</Text>
-                  <Ionicons name="open-outline" size={14} color="#94a3b8" />
+                  <Ionicons name="open-outline" size={14} color={color.textMuted} />
                 </Pressable>
               ) : (
                 <Pressable
                   style={styles.subUpgradeBtn}
                   onPress={() => setShowPurchaseSheet(true)}
                 >
-                  <Ionicons name="diamond-outline" size={16} color="#fff" />
+                  <Ionicons name="diamond-outline" size={16} color={color.text} />
                   <Text style={styles.subUpgradeBtnText}>{t('purchase.upgradeToPremium')}</Text>
                 </Pressable>
               )}
@@ -524,7 +525,7 @@ export default function ProfileScreen() {
                 style={styles.subGetCreditsBtn}
                 onPress={() => setShowPurchaseSheet(true)}
               >
-                <Ionicons name="add-circle-outline" size={16} color="#f59e0b" />
+                <Ionicons name="add-circle-outline" size={16} color={color.warning} />
                 <Text style={styles.subGetCreditsBtnText}>{t('purchase.getCredits')}</Text>
               </Pressable>
             </View>
@@ -536,7 +537,7 @@ export default function ProfileScreen() {
               disabled={isRestoringPurchases}
             >
               {isRestoringPurchases ? (
-                <ActivityIndicator size="small" color="#6b6b60" />
+                <ActivityIndicator size="small" color={color.textFaint} />
               ) : (
                 <Text style={styles.subRestoreText}>{t('purchase.restorePurchases')}</Text>
               )}
@@ -549,7 +550,7 @@ export default function ProfileScreen() {
           <View style={styles.achievementHeader}>
             <Text style={styles.sectionTitle}>{t('profile.achievements')}</Text>
             <View style={styles.achievementCount}>
-              <Ionicons name="trophy" size={14} color="#D4AF37" />
+              <Ionicons name="trophy" size={14} color={color.sacred} />
               <Text style={styles.achievementCountText}>
                 {unlockedList.length}/{ACHIEVEMENTS.length}
               </Text>
@@ -586,7 +587,7 @@ export default function ProfileScreen() {
                     <Text style={styles.achievementTitle}>{achievement.title}</Text>
                     <Text style={styles.achievementTitleArabic}>{achievement.titleArabic}</Text>
                     <View style={styles.achievementXp}>
-                      <Ionicons name="star" size={12} color="#f59e0b" />
+                      <Ionicons name="star" size={12} color={color.warning} />
                       <Text style={styles.achievementXpText}>+{achievement.xpReward} XP</Text>
                     </View>
                   </View>
@@ -615,7 +616,7 @@ export default function ProfileScreen() {
                         <Ionicons
                           name={achievement.icon as any}
                           size={24}
-                          color="#64748b"
+                          color={color.textFaint}
                         />
                       </View>
                       <Text style={[styles.achievementTitle, styles.achievementTitleLocked]}>
@@ -648,7 +649,7 @@ export default function ProfileScreen() {
             {/* Language Selector */}
             <View style={styles.settingItem}>
               <View style={styles.settingLeft}>
-                <Ionicons name="language-outline" size={22} color="#94a3b8" />
+                <Ionicons name="language-outline" size={22} color={color.textMuted} />
                 <View style={styles.settingText}>
                   <Text style={styles.settingTitle}>{t('profile.language')}</Text>
                   <Text style={styles.settingDesc}>{t('profile.languageDesc')}</Text>
@@ -666,7 +667,7 @@ export default function ProfileScreen() {
                 <Text style={[styles.languageOptionText, language === 'en' && styles.languageOptionTextActive]}>
                   {t('profile.english')}
                 </Text>
-                {language === 'en' && <Ionicons name="checkmark" size={18} color="#818cf8" />}
+                {language === 'en' && <Ionicons name="checkmark" size={18} color={color.accent} />}
               </Pressable>
               <Pressable
                 style={[styles.languageOption, language === 'fr' && styles.languageOptionActive]}
@@ -678,7 +679,7 @@ export default function ProfileScreen() {
                 <Text style={[styles.languageOptionText, language === 'fr' && styles.languageOptionTextActive]}>
                   {t('profile.french')}
                 </Text>
-                {language === 'fr' && <Ionicons name="checkmark" size={18} color="#818cf8" />}
+                {language === 'fr' && <Ionicons name="checkmark" size={18} color={color.accent} />}
               </Pressable>
             </View>
           </View>
@@ -695,10 +696,10 @@ export default function ProfileScreen() {
               accessibilityLabel={t('legal.privacyPolicy')}
             >
               <View style={styles.settingLeft}>
-                <Ionicons name="shield-checkmark-outline" size={22} color="#94a3b8" />
+                <Ionicons name="shield-checkmark-outline" size={22} color={color.textMuted} />
                 <Text style={styles.settingTitle}>{t('legal.privacyPolicy')}</Text>
               </View>
-              <Ionicons name="chevron-forward" size={18} color="#64748b" />
+              <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
             </Pressable>
             <View style={styles.settingDivider} />
             <Pressable
@@ -708,10 +709,10 @@ export default function ProfileScreen() {
               accessibilityLabel={t('legal.termsOfService')}
             >
               <View style={styles.settingLeft}>
-                <Ionicons name="document-text-outline" size={22} color="#94a3b8" />
+                <Ionicons name="document-text-outline" size={22} color={color.textMuted} />
                 <Text style={styles.settingTitle}>{t('legal.termsOfService')}</Text>
               </View>
-              <Ionicons name="chevron-forward" size={18} color="#64748b" />
+              <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
             </Pressable>
           </View>
         </View>
@@ -724,7 +725,7 @@ export default function ProfileScreen() {
               {isPremium ? (
                 <View style={styles.premiumBadgeRow}>
                   <View style={styles.premiumBadgeIcon}>
-                    <Ionicons name="checkmark-circle" size={28} color="#10b981" />
+                    <Ionicons name="checkmark-circle" size={28} color={color.progress} />
                   </View>
                   <View style={styles.premiumBadgeInfo}>
                     <Text style={styles.premiumBadgeTitle}>{t('ads.premiumActive')}</Text>
@@ -735,7 +736,7 @@ export default function ProfileScreen() {
                 <>
                   <View style={styles.removeAdsHeader}>
                     <View style={styles.removeAdsIcon}>
-                      <Ionicons name="shield-checkmark" size={24} color="#f59e0b" />
+                      <Ionicons name="shield-checkmark" size={24} color={color.warning} />
                     </View>
                     <View style={styles.removeAdsInfo}>
                       <Text style={styles.storageTitle}>{t('ads.removeAdsTitle')}</Text>
@@ -750,10 +751,10 @@ export default function ProfileScreen() {
                     accessibilityLabel={t('ads.removeAds')}
                   >
                     {isPurchasing ? (
-                      <ActivityIndicator size="small" color="#ffffff" />
+                      <ActivityIndicator size="small" color={color.text} />
                     ) : (
                       <>
-                        <Ionicons name="cart" size={18} color="#ffffff" />
+                        <Ionicons name="cart" size={18} color={color.text} />
                         <Text style={styles.purchaseButtonText}>
                           {removeAdsPrice ? t('ads.purchaseFor', { price: removeAdsPrice }) : t('ads.removeAds')}
                         </Text>
@@ -768,7 +769,7 @@ export default function ProfileScreen() {
                     accessibilityLabel={t('ads.restorePurchases')}
                   >
                     {isRestoring ? (
-                      <ActivityIndicator size="small" color="#94a3b8" />
+                      <ActivityIndicator size="small" color={color.textMuted} />
                     ) : (
                       <Text style={styles.restoreButtonText}>{t('ads.restorePurchases')}</Text>
                     )}
@@ -783,7 +784,7 @@ export default function ProfileScreen() {
         {isAuthenticated && (
           <View style={styles.section}>
             <Pressable style={styles.logOutButton} onPress={handleLogOut} accessibilityRole="button" accessibilityLabel={t('profile.logOut')}>
-              <Ionicons name="log-out-outline" size={20} color="#f59e0b" />
+              <Ionicons name="log-out-outline" size={20} color={color.warning} />
               <Text style={styles.logOutButtonText}>{t('profile.logOut')}</Text>
             </Pressable>
           </View>
@@ -806,7 +807,7 @@ export default function ProfileScreen() {
             accessibilityRole="button"
             accessibilityLabel={t('profile.resetAllProgress')}
           >
-            <Ionicons name="refresh" size={20} color="#ef4444" />
+            <Ionicons name="refresh" size={20} color={color.danger} />
             <Text style={styles.resetButtonText}>{t('profile.resetAllProgress')}</Text>
           </Pressable>
         </View>
@@ -822,10 +823,10 @@ export default function ProfileScreen() {
               accessibilityLabel="Delete Profile"
             >
               {isDeletingAccount ? (
-                <ActivityIndicator size="small" color="#ef4444" />
+                <ActivityIndicator size="small" color={color.danger} />
               ) : (
                 <>
-                  <Ionicons name="trash-outline" size={20} color="#ef4444" />
+                  <Ionicons name="trash-outline" size={20} color={color.danger} />
                   <Text style={styles.deleteAccountButtonText}>{t('profile.deleteProfile')}</Text>
                 </>
               )}
@@ -864,7 +865,7 @@ export default function ProfileScreen() {
                 <Text style={styles.popupAchievementArabic}>{newAchievement.titleArabic}</Text>
                 <Text style={styles.popupDesc}>{newAchievement.description}</Text>
                 <View style={styles.popupXpBadge}>
-                  <Ionicons name="star" size={18} color="#f59e0b" />
+                  <Ionicons name="star" size={18} color={color.warning} />
                   <Text style={styles.popupXpText}>+{newAchievement.xpReward} XP</Text>
                 </View>
               </>
@@ -886,40 +887,29 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingHorizontal: 20,
-    paddingTop: 10,
-    paddingBottom: 20,
+    paddingHorizontal: gutter,
+    paddingTop: space.sm,
+    paddingBottom: space['2xl'],
   },
-  appIcon: {
-    width: 68,
-    height: 68,
-    borderRadius: 16,
-    marginTop: -8,
+  headerLatin: {
+    marginTop: 2,
+    textTransform: 'uppercase',
+    letterSpacing: 1.6,
   },
-  title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#ffffff',
-  },
-  titleArabic: {
-    fontSize: 22,
-    color: '#D4AF37',
-    marginTop: 4,
+  headerRule: {
+    marginTop: space.xl,
   },
   heroCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     padding: 18,
     marginBottom: 18,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   heroTopRow: {
     flexDirection: 'row',
@@ -955,12 +945,12 @@ const styles = StyleSheet.create({
   profileName: {
     fontSize: 20,
     fontWeight: '800',
-    color: '#ffffff',
+    color: color.text,
     flexShrink: 1,
   },
   heroEmail: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 2,
   },
   xpPill: {
@@ -969,13 +959,13 @@ const styles = StyleSheet.create({
     gap: 5,
     alignSelf: 'flex-start',
     marginTop: 10,
-    backgroundColor: '#D4AF37',
-    borderRadius: 20,
+    backgroundColor: color.sacred,
+    borderRadius: radius.xl,
     paddingHorizontal: 12,
     paddingVertical: 5,
   },
   xpPillText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 13,
     fontWeight: '800',
   },
@@ -985,13 +975,13 @@ const styles = StyleSheet.create({
   },
   editNameInput: {
     flex: 1,
-    backgroundColor: '#0f172a',
-    borderRadius: 8,
+    backgroundColor: color.surfaceSunken,
+    borderRadius: radius.sm,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingHorizontal: 10,
     paddingVertical: 6,
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
   },
   editNameActions: {
@@ -1002,7 +992,7 @@ const styles = StyleSheet.create({
   editNameBtn: {
     width: 32,
     height: 32,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1011,7 +1001,7 @@ const styles = StyleSheet.create({
     marginTop: 18,
     paddingTop: 16,
     borderTopWidth: 1,
-    borderTopColor: '#293548',
+    borderTopColor: color.surfaceRaised,
   },
   statTile: {
     flex: 1,
@@ -1021,11 +1011,11 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 18,
     fontWeight: '800',
-    color: '#f8fafc',
+    color: color.text,
   },
   statLabel: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
   },
   challengeCard: {
     flexDirection: 'row',
@@ -1033,16 +1023,16 @@ const styles = StyleSheet.create({
     gap: 14,
     marginHorizontal: 20,
     marginBottom: 24,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 14,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   challengeIcon: {
     width: 44,
     height: 44,
-    borderRadius: 13,
+    borderRadius: radius.md,
     backgroundColor: 'rgba(249, 115, 22, 0.14)',
     alignItems: 'center',
     justifyContent: 'center',
@@ -1053,23 +1043,25 @@ const styles = StyleSheet.create({
   challengeTitle: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   challengeArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 1,
   },
   challengeProgressPill: {
-    backgroundColor: '#0f172a',
-    borderRadius: 10,
+    backgroundColor: color.surfaceSunken,
+    borderRadius: radius.sm,
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   challengeProgressText: {
-    color: '#f97316',
+    color: color.accent,
     fontSize: 13,
     fontWeight: '700',
   },
@@ -1080,12 +1072,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
   },
   settingsCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   settingItem: {
@@ -1106,16 +1098,16 @@ const styles = StyleSheet.create({
   settingTitle: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   settingDesc: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 2,
   },
   settingDivider: {
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.border,
     marginVertical: 14,
   },
   languageOptions: {
@@ -1130,22 +1122,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
-    borderRadius: 10,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.sm,
+    backgroundColor: color.surfaceSunken,
     gap: 6,
   },
   languageOptionActive: {
-    backgroundColor: '#818cf820',
+    backgroundColor: withAlpha(color.accent, 0.13),
     borderWidth: 1,
-    borderColor: '#818cf840',
+    borderColor: withAlpha(color.accent, 0.25),
   },
   languageOptionText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '500',
   },
   languageOptionTextActive: {
-    color: '#818cf8',
+    color: color.accent,
     fontWeight: '600',
   },
   legalRow: {
@@ -1158,15 +1150,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#f59e0b40',
+    borderColor: withAlpha(color.warning, 0.25),
     gap: 8,
   },
   logOutButtonText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -1174,15 +1166,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#ef444440',
+    borderColor: withAlpha(color.danger, 0.25),
     gap: 8,
   },
   deleteAccountButtonText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -1190,14 +1182,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#ef444440',
+    borderColor: withAlpha(color.danger, 0.25),
   },
   resetButtonText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 15,
     fontWeight: '600',
     marginLeft: 8,
@@ -1212,13 +1204,13 @@ const styles = StyleSheet.create({
   achievementCount: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   achievementCountText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 13,
     fontWeight: '600',
     marginLeft: 4,
@@ -1227,7 +1219,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   achievementSubtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     marginBottom: 8,
   },
@@ -1236,8 +1228,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   achievementCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     width: 140,
     marginRight: 12,
@@ -1257,25 +1249,27 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   achievementIconLocked: {
-    backgroundColor: '#334155',
+    backgroundColor: color.border,
   },
   achievementTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 13,
     fontWeight: '600',
     textAlign: 'center',
   },
   achievementTitleLocked: {
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   achievementTitleArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 20,
+    color: color.sacred,
     fontSize: 12,
     marginTop: 2,
     textAlign: 'center',
   },
   achievementDesc: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 10,
     textAlign: 'center',
     marginTop: 4,
@@ -1287,7 +1281,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   achievementXpText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 11,
     fontWeight: '600',
     marginLeft: 4,
@@ -1295,18 +1289,18 @@ const styles = StyleSheet.create({
   achievementProgressBar: {
     width: '100%',
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.border,
     borderRadius: 2,
     marginTop: 10,
     overflow: 'hidden',
   },
   achievementProgressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 2,
   },
   achievementProgressText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 10,
     marginTop: 4,
   },
@@ -1318,8 +1312,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   achievementPopup: {
-    backgroundColor: '#1e293b',
-    borderRadius: 24,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 32,
     alignItems: 'center',
     width: '85%',
@@ -1332,17 +1326,19 @@ const styles = StyleSheet.create({
     top: -50,
     width: 200,
     height: 200,
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     borderRadius: 100,
     opacity: 0.15,
   },
   popupTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     fontWeight: 'bold',
   },
   popupTitleArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 31,
+    color: color.sacred,
     fontSize: 18,
     marginTop: 4,
     marginBottom: 20,
@@ -1356,18 +1352,20 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   popupAchievementTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: 'bold',
     textAlign: 'center',
   },
   popupAchievementArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 27,
+    color: color.sacred,
     fontSize: 16,
     marginTop: 4,
   },
   popupDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     marginTop: 8,
@@ -1376,37 +1374,37 @@ const styles = StyleSheet.create({
   popupXpBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     marginTop: 16,
   },
   popupXpText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 6,
   },
   popupButton: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 48,
     paddingVertical: 14,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginTop: 24,
   },
   popupButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   // ── Subscription & Credits card ────────────────────────────────
   subCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   subPlanRow: {
     flexDirection: 'row',
@@ -1415,44 +1413,44 @@ const styles = StyleSheet.create({
   subPlanIcon: {
     width: 44,
     height: 44,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
   subPlanIconPremium: {
-    backgroundColor: '#10b98118',
+    backgroundColor: withAlpha(color.progress, 0.09),
   },
   subPlanIconFree: {
-    backgroundColor: '#94a3b815',
+    backgroundColor: withAlpha(color.textMuted, 0.08),
   },
   subPlanInfo: {
     flex: 1,
     marginLeft: 12,
   },
   subPlanName: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
   },
   subPlanStatus: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginTop: 2,
   },
   subActiveBadge: {
-    backgroundColor: '#10b98118',
-    borderRadius: 8,
+    backgroundColor: withAlpha(color.progress, 0.09),
+    borderRadius: radius.sm,
     paddingHorizontal: 10,
     paddingVertical: 4,
   },
   subActiveBadgeText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 11,
     fontWeight: '700',
   },
   subDivider: {
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.border,
     marginVertical: 14,
   },
   subCreditsRow: {
@@ -1468,25 +1466,25 @@ const styles = StyleSheet.create({
   subCreditsIcon: {
     width: 44,
     height: 44,
-    borderRadius: 12,
-    backgroundColor: '#f59e0b15',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.warning, 0.08),
     alignItems: 'center',
     justifyContent: 'center',
   },
   subCreditsLabel: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
     marginLeft: 12,
   },
   subCreditsValue: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginTop: 2,
     marginLeft: 12,
   },
   subCreditsNumber: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 28,
     fontWeight: '800',
     fontVariant: ['tabular-nums'],
@@ -1498,13 +1496,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#10b981',
-    borderRadius: 12,
+    backgroundColor: color.progress,
+    borderRadius: radius.md,
     paddingVertical: 13,
     gap: 8,
   },
   subUpgradeBtnText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
   },
@@ -1512,13 +1510,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#334155',
-    borderRadius: 12,
+    backgroundColor: color.border,
+    borderRadius: radius.md,
     paddingVertical: 13,
     gap: 8,
   },
   subManageBtnText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
     flex: 1,
@@ -1528,15 +1526,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f59e0b15',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.warning, 0.08),
+    borderRadius: radius.md,
     paddingVertical: 13,
     borderWidth: 1,
-    borderColor: '#f59e0b30',
+    borderColor: withAlpha(color.warning, 0.19),
     gap: 8,
   },
   subGetCreditsBtnText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -1545,7 +1543,7 @@ const styles = StyleSheet.create({
     paddingTop: 14,
   },
   subRestoreText: {
-    color: '#6b6b60',
+    color: color.textFaint,
     fontSize: 13,
     textDecorationLine: 'underline',
   },
@@ -1553,17 +1551,17 @@ const styles = StyleSheet.create({
   // ── Community gamification sections ──────────────────────────────
   // Storage styles
   storageCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   storageTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
   storageSize: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     marginTop: 2,
   },
@@ -1575,8 +1573,8 @@ const styles = StyleSheet.create({
   premiumBadgeIcon: {
     width: 48,
     height: 48,
-    borderRadius: 12,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1585,12 +1583,12 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   premiumBadgeTitle: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 16,
     fontWeight: '700',
   },
   premiumBadgeDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     marginTop: 2,
   },
@@ -1601,8 +1599,8 @@ const styles = StyleSheet.create({
   removeAdsIcon: {
     width: 48,
     height: 48,
-    borderRadius: 12,
-    backgroundColor: '#f59e0b20',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.warning, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1614,14 +1612,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
     paddingVertical: 14,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginTop: 16,
     gap: 8,
   },
   purchaseButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
   },
@@ -1632,7 +1630,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   restoreButtonText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '500',
   },

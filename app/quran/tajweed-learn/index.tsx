@@ -27,6 +27,8 @@ import {
   getSetName,
   getQuestionsBySet,
 } from '../../../src/data/arabic/quran/quizzes';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
@@ -76,7 +78,7 @@ function QuizSetCard({
         <Text style={styles.quizSetName}>{setName}</Text>
         <Text style={styles.quizSetCount}>{questionCount} {t('quranQuiz.questions')}</Text>
       </View>
-      <Ionicons name="play-circle" size={28} color="#14b8a6" />
+      <Ionicons name="play-circle" size={28} color={color.progress} />
     </Pressable>
   );
 }
@@ -120,7 +122,7 @@ export default function TajweedLearnScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.title}>{t('tajweedFeature.title')}</Text>
@@ -207,13 +209,13 @@ export default function TajweedLearnScreen() {
                   <Text style={styles.progressStatLabel}>{t('common.learned')}</Text>
                 </View>
                 <View style={styles.progressStat}>
-                  <Text style={[styles.progressStatValue, { color: '#f59e0b' }]}>
+                  <Text style={[styles.progressStatValue, { color: color.warning }]}>
                     {progress.tajweedProgress.rulesMastered.length}
                   </Text>
                   <Text style={styles.progressStatLabel}>{t('common.mastered')}</Text>
                 </View>
                 <View style={styles.progressStat}>
-                  <Text style={[styles.progressStatValue, { color: '#8b5cf6' }]}>
+                  <Text style={[styles.progressStatValue, { color: color.accent }]}>
                     {TAJWEED_RULES.length}
                   </Text>
                   <Text style={styles.progressStatLabel}>{t('tajweedFeature.total')}</Text>
@@ -266,11 +268,11 @@ export default function TajweedLearnScreen() {
                           </View>
                           <View style={styles.ruleStatus}>
                             {isMastered ? (
-                              <Ionicons name="star" size={20} color="#f59e0b" />
+                              <Ionicons name="star" size={20} color={color.warning} />
                             ) : isLearned ? (
-                              <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                              <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                             ) : (
-                              <Ionicons name="chevron-forward" size={20} color="#64748b" />
+                              <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
                             )}
                           </View>
                         </Pressable>
@@ -287,7 +289,7 @@ export default function TajweedLearnScreen() {
             {/* Quiz Header Card */}
             <View style={styles.quizHeaderCard}>
               <View style={styles.quizHeaderIcon}>
-                <Ionicons name="trophy" size={40} color="#f59e0b" />
+                <Ionicons name="trophy" size={40} color={color.warning} />
               </View>
               <Text style={styles.quizHeaderTitle}>{t('tajweedFeature.testYourTajweed')}</Text>
               <Text style={styles.quizHeaderSubtitle}>
@@ -298,7 +300,7 @@ export default function TajweedLearnScreen() {
             {/* Quiz Sets */}
             <View style={styles.section}>
               <View style={styles.sectionHeader}>
-                <Ionicons name="list" size={20} color="#14b8a6" />
+                <Ionicons name="list" size={20} color={color.progress} />
                 <Text style={styles.sectionTitle}>{t('tajweedFeature.quizSets')}</Text>
               </View>
               <Text style={styles.sectionSubtitle}>
@@ -330,14 +332,14 @@ export default function TajweedLearnScreen() {
                 end={{ x: 1, y: 1 }}
                 style={styles.randomQuizGradient}
               >
-                <Ionicons name="shuffle" size={24} color="#ffffff" />
+                <Ionicons name="shuffle" size={24} color={color.text} />
                 <View style={styles.randomQuizText}>
                   <Text style={styles.randomQuizTitle}>{t('quranQuiz.randomQuiz')}</Text>
                   <Text style={styles.randomQuizSubtitle}>
                     {t('quranQuiz.mixOfAll')}
                   </Text>
                 </View>
-                <Ionicons name="arrow-forward" size={24} color="#ffffff" />
+                <Ionicons name="arrow-forward" size={24} color={color.text} />
               </LinearGradient>
             </Pressable>
           </View>
@@ -352,7 +354,7 @@ export default function TajweedLearnScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -370,11 +372,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#14b8a6',
+    color: color.progress,
     marginTop: 2,
   },
   tabContainer: {
@@ -383,8 +387,8 @@ const styles = StyleSheet.create({
   },
   tabBackground: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 4,
     position: 'relative',
   },
@@ -394,8 +398,8 @@ const styles = StyleSheet.create({
     left: 4,
     width: (SCREEN_WIDTH - 48) / 2 - 4,
     height: '100%',
-    backgroundColor: '#14b8a6',
-    borderRadius: 10,
+    backgroundColor: color.progress,
+    borderRadius: radius.sm,
   },
   tab: {
     flex: 1,
@@ -409,18 +413,18 @@ const styles = StyleSheet.create({
   tabText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   tabTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   content: {
     paddingHorizontal: 20,
   },
   // Progress Card Styles
   progressCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
   },
@@ -431,24 +435,24 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   progressTitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   progressPercent: {
-    color: '#14b8a6',
+    color: color.progress,
     fontSize: 18,
     fontWeight: 'bold',
   },
   progressBar: {
     height: 8,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 4,
     overflow: 'hidden',
     marginBottom: 16,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#14b8a6',
+    backgroundColor: color.progress,
     borderRadius: 4,
   },
   progressStats: {
@@ -459,12 +463,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   progressStatValue: {
-    color: '#14b8a6',
+    color: color.progress,
     fontSize: 20,
     fontWeight: 'bold',
   },
   progressStatLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginTop: 2,
   },
@@ -483,7 +487,7 @@ const styles = StyleSheet.create({
   categoryIcon: {
     width: 40,
     height: 40,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -496,18 +500,20 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   categoryTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   categoryArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
     marginTop: 2,
   },
   // Rule Card Styles
   ruleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 8,
     flexDirection: 'row',
@@ -515,7 +521,7 @@ const styles = StyleSheet.create({
   },
   ruleCardLearned: {
     borderWidth: 1,
-    borderColor: '#14b8a630',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   ruleColor: {
     width: 6,
@@ -532,16 +538,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   ruleName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '500',
   },
   ruleArabic: {
-    color: '#14b8a6',
+    fontFamily: font.arabic,
+    lineHeight: 24,
+    color: color.progress,
     fontSize: 14,
   },
   ruleDesc: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginTop: 4,
     lineHeight: 18,
@@ -562,22 +570,22 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   sectionSubtitle: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 16,
   },
   // Quiz Header Card Styles
   quizHeaderCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     alignItems: 'center',
     marginBottom: 24,
     borderWidth: 1,
-    borderColor: '#f59e0b30',
+    borderColor: withAlpha(color.warning, 0.19),
   },
   quizHeaderIcon: {
     marginBottom: 12,
@@ -585,12 +593,12 @@ const styles = StyleSheet.create({
   quizHeaderTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   quizHeaderSubtitle: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     lineHeight: 20,
   },
@@ -598,23 +606,23 @@ const styles = StyleSheet.create({
   quizSetCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 10,
   },
   quizSetIcon: {
     width: 44,
     height: 44,
-    borderRadius: 12,
-    backgroundColor: '#14b8a620',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   quizSetNumber: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#14b8a6',
+    color: color.progress,
   },
   quizSetInfo: {
     flex: 1,
@@ -623,17 +631,17 @@ const styles = StyleSheet.create({
   quizSetName: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   quizSetCount: {
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   // Random Quiz Button Styles
   randomQuizButton: {
     marginTop: 8,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     overflow: 'hidden',
   },
   randomQuizGradient: {
@@ -648,7 +656,7 @@ const styles = StyleSheet.create({
   randomQuizTitle: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   randomQuizSubtitle: {
     fontSize: 12,

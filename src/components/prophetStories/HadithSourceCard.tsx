@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { HadithReference, HadithCollection, HadithGrade } from '../../types/prophetStories';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent';
 import { useTranslation } from 'react-i18next';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface HadithSourceCardProps {
   source: HadithReference;
@@ -23,10 +25,10 @@ const COLLECTION_NAMES: Record<HadithCollection, string> = {
 };
 
 const GRADE_COLORS: Record<HadithGrade, string> = {
-  sahih: '#10b981',
-  hasan: '#3b82f6',
-  daif: '#f59e0b',
-  mutawatir: '#8b5cf6',
+  sahih: color.progress,
+  hasan: color.accent,
+  daif: color.warning,
+  mutawatir: color.accent,
 };
 
 const GRADE_LABELS: Record<HadithGrade, string> = {
@@ -48,7 +50,7 @@ export function HadithSourceCard({ source }: HadithSourceCardProps) {
       {/* Header with Hadith reference */}
       <View style={styles.header}>
         <View style={styles.referenceContainer}>
-          <Ionicons name="document-text" size={14} color="#f59e0b" />
+          <Ionicons name="document-text" size={14} color={color.warning} />
           <Text style={styles.referenceText}>{collectionName}</Text>
           {source.hadithNumber && (
             <Text style={styles.hadithNumber}>#{source.hadithNumber}</Text>
@@ -66,7 +68,7 @@ export function HadithSourceCard({ source }: HadithSourceCardProps) {
       {/* Narrator */}
       {source.narrator && (
         <View style={styles.narratorContainer}>
-          <Ionicons name="person-outline" size={12} color="#94a3b8" />
+          <Ionicons name="person-outline" size={12} color={color.textMuted} />
           <Text style={styles.narratorText}>{t('stories.narratedBy', { narrator: source.narrator })}</Text>
         </View>
       )}
@@ -88,12 +90,12 @@ export function HadithSourceCard({ source }: HadithSourceCardProps) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#f59e0b10',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.warning, 0.06),
+    borderRadius: radius.md,
     padding: 14,
     marginVertical: 8,
     borderLeftWidth: 3,
-    borderLeftColor: '#f59e0b',
+    borderLeftColor: color.warning,
   },
   header: {
     flexDirection: 'row',
@@ -108,12 +110,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   referenceText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 12,
     fontWeight: '600',
   },
   hadithNumber: {
-    color: '#fbbf24',
+    color: color.sacredBright,
     fontSize: 11,
     marginLeft: 4,
   },
@@ -133,7 +135,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   narratorText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
     fontStyle: 'italic',
   },
@@ -145,12 +147,13 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   arabicWord: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    color: color.text,
     fontSize: 18,
     lineHeight: 36,
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
     fontStyle: 'italic',

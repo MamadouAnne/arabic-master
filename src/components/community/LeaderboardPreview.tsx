@@ -4,6 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { LeaderboardEntry, LeaderboardType } from '../../types/community';
+import { color, radius } from '../../theme/tokens';
 
 const TAB_KEYS: { type: LeaderboardType; labelKey: string; icon: string }[] = [
   { type: 'allTime', labelKey: 'community.allTime', icon: 'trophy' },
@@ -24,7 +25,7 @@ const InlineLeaderboardRow = memo(function InlineLeaderboardRow({
     if (rank === 1) return { emoji: '🥇', color: '#FFD700' };
     if (rank === 2) return { emoji: '🥈', color: '#C0C0C0' };
     if (rank === 3) return { emoji: '🥉', color: '#CD7F32' };
-    return { emoji: null, color: '#64748b' };
+    return { emoji: null, color: color.textFaint };
   };
 
   const rankInfo = getRankDisplay(entry.rank);
@@ -73,11 +74,11 @@ const LeaderboardRowSkeleton = () => {
     <>
       {[0, 1, 2, 3, 4].map((i) => (
         <Animated.View key={i} style={[styles.lbRow, { opacity }]}>
-          <View style={[styles.lbRankBadge, { backgroundColor: '#334155' }]} />
+          <View style={[styles.lbRankBadge, { backgroundColor: color.surfaceRaised }]} />
           <View style={styles.lbUserInfo}>
-            <View style={{ width: 90, height: 13, backgroundColor: '#334155', borderRadius: 6 }} />
+            <View style={{ width: 90, height: 13, backgroundColor: color.surfaceRaised, borderRadius: 6 }} />
           </View>
-          <View style={{ width: 50, height: 13, backgroundColor: '#334155', borderRadius: 6 }} />
+          <View style={{ width: 50, height: 13, backgroundColor: color.surfaceRaised, borderRadius: 6 }} />
         </Animated.View>
       ))}
     </>
@@ -131,7 +132,7 @@ export function LeaderboardPreview({ entries, isLoading, currentType, onTypeChan
           <LeaderboardRowSkeleton />
         ) : topEntries.length === 0 ? (
           <View style={styles.lbEmpty}>
-            <Ionicons name="trophy-outline" size={32} color="#334155" />
+            <Ionicons name="trophy-outline" size={32} color={color.textFaint} />
             <Text style={styles.lbEmptyText}>{t('community.noLearnersYet', { defaultValue: 'No learners yet' })}</Text>
           </View>
         ) : (
@@ -158,17 +159,17 @@ const styles = StyleSheet.create({
   lbSectionTitle: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   lbSeeAll: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#f97316',
+    color: color.warning,
   },
   lbTabContainer: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: color.surface,
+    borderRadius: radius.sm,
     padding: 3,
     marginBottom: 12,
   },
@@ -178,32 +179,32 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 8,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     gap: 4,
   },
   lbTabActive: {
-    backgroundColor: '#f97316',
+    backgroundColor: color.warning,
   },
   lbTabText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   lbTabTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   lbCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 10,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   lbRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 10,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
     paddingVertical: 10,
     paddingHorizontal: 12,
     marginBottom: 6,
@@ -211,15 +212,15 @@ const styles = StyleSheet.create({
   lbRowCurrent: {
     backgroundColor: 'rgba(249, 115, 22, 0.12)',
     borderWidth: 1,
-    borderColor: '#f97316',
+    borderColor: color.warning,
   },
   lbRankBadge: {
     width: 32,
     height: 32,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
   },
   lbRankEmoji: {
     fontSize: 16,
@@ -227,7 +228,7 @@ const styles = StyleSheet.create({
   lbRankNumber: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#64748b',
+    color: color.textFaint,
   },
   lbUserInfo: {
     flex: 1,
@@ -236,18 +237,18 @@ const styles = StyleSheet.create({
   lbUserName: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   lbUserNameCurrent: {
-    color: '#fb923c',
+    color: color.warning,
   },
   lbValue: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   lbValueCurrent: {
-    color: '#fb923c',
+    color: color.warning,
   },
   lbEmpty: {
     alignItems: 'center',
@@ -256,6 +257,6 @@ const styles = StyleSheet.create({
   },
   lbEmptyText: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
   },
 });

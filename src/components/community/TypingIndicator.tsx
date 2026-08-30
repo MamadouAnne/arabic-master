@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { View, Text, StyleSheet, Animated, Easing } from 'react-native';
+import { color, radius } from '../../theme/tokens';
 
 interface Props {
   names: string[];
@@ -49,7 +50,7 @@ export const TypingIndicator = React.memo(function TypingIndicator({ names, grou
 
 const styles = StyleSheet.create({
   row: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 12, paddingVertical: 4, marginLeft: 40 },
-  bubble: { flexDirection: 'row', alignItems: 'center', gap: 3, backgroundColor: '#1e293b', borderRadius: 14, paddingHorizontal: 10, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
+  bubble: { flexDirection: 'row', alignItems: 'center', gap: 3, backgroundColor: color.surface, borderRadius: radius.md, paddingHorizontal: 10, paddingVertical: 8, borderWidth: 1, borderColor: color.border },
   dot: { width: 6, height: 6, borderRadius: 3 },
-  label: { fontSize: 12, color: '#64748b', fontStyle: 'italic' },
+  label: { fontSize: 12, color: color.textFaint, fontStyle: 'italic' },
 });

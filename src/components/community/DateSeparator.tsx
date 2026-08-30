@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { color } from '../../theme/tokens';
 
 interface Props {
   label: string;
@@ -17,6 +18,6 @@ export const DateSeparator = React.memo(function DateSeparator({ label }: Props)
 
 const styles = StyleSheet.create({
   row: { flexDirection: 'row', alignItems: 'center', gap: 10, marginVertical: 12, paddingHorizontal: 8 },
-  line: { flex: 1, height: 1, backgroundColor: '#1e293b' },
-  label: { fontSize: 11, fontWeight: '600', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5 },
+  line: { flex: 1, height: 1, backgroundColor: color.surface },
+  label: { fontSize: 11, fontWeight: '600', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5 },
 });

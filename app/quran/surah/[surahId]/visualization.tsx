@@ -12,6 +12,8 @@ import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { ReviewRating } from '../../../../src/types/quran';
 import { buildAyahScene, AnchorWord } from '../../../../src/utils/sceneBuilder';
+import { font, color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 // ============ Types & Constants ============
 
@@ -27,7 +29,7 @@ function AnchorChip({ anchor, index, hidden, onReveal }: { anchor: AnchorWord; i
     return (
       <Pressable style={styles.hiddenAnchorChip} onPress={onReveal} accessibilityRole="button" accessibilityLabel={t('common.revealWord', { index })}>
         <Text style={styles.hiddenAnchorIndex}>{index}</Text>
-        <Ionicons name="eye-off-outline" size={22} color="#64748b" />
+        <Ionicons name="eye-off-outline" size={22} color={color.textFaint} />
         <Text style={styles.hiddenAnchorLabel}>{t('common.tapToReveal')}</Text>
       </Pressable>
     );
@@ -188,7 +190,7 @@ export default function VisualizationScreen() {
           accessibilityRole="button"
           accessibilityLabel={t('common.back')}
         >
-          <Ionicons name="close" size={24} color="#f5f5f0" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -359,7 +361,7 @@ export default function VisualizationScreen() {
 
         {vizMode === 'study' && !sceneMemorized && (
           <Pressable style={styles.actionButton} onPress={handleMemorized}>
-            <Ionicons name="checkmark-circle-outline" size={20} color="#ffffff" />
+            <Ionicons name="checkmark-circle-outline" size={20} color={color.text} />
             <Text style={styles.actionButtonText}>
               {t('visualization.memorizedScene')}
             </Text>
@@ -383,8 +385,8 @@ export default function VisualizationScreen() {
                 style={[styles.ratingButton, styles.ratingYes]}
                 onPress={() => handleRate(5)}
               >
-                <Ionicons name="checkmark-circle-outline" size={22} color="#34d399" />
-                <Text style={[styles.ratingButtonText, { color: '#34d399' }]}>
+                <Ionicons name="checkmark-circle-outline" size={22} color={color.progress} />
+                <Text style={[styles.ratingButtonText, { color: color.progress }]}>
                   {t('visualization.recallYes')}
                 </Text>
               </Pressable>
@@ -392,8 +394,8 @@ export default function VisualizationScreen() {
                 style={[styles.ratingButton, styles.ratingPartial]}
                 onPress={() => handleRate(3)}
               >
-                <Ionicons name="remove-circle-outline" size={22} color="#fbbf24" />
-                <Text style={[styles.ratingButtonText, { color: '#fbbf24' }]}>
+                <Ionicons name="remove-circle-outline" size={22} color={color.sacredBright} />
+                <Text style={[styles.ratingButtonText, { color: color.sacredBright }]}>
                   {t('visualization.recallPartial')}
                 </Text>
               </Pressable>
@@ -466,10 +468,10 @@ export default function VisualizationScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 40,
@@ -480,7 +482,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 16,
     marginTop: 16,
   },
@@ -495,8 +497,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -505,7 +507,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 37,
+    color: color.sacred,
     fontSize: 22,
     fontWeight: 'bold',
   },
@@ -516,15 +520,15 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   ayahCounter: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   ayahCounterText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -536,11 +540,11 @@ const styles = StyleSheet.create({
   },
   modeToggle: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 4,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   modePill: {
     flex: 1,
@@ -548,19 +552,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
-    borderRadius: 11,
+    borderRadius: radius.md,
     gap: 6,
   },
   modePillActive: {
     backgroundColor: METHOD_COLOR,
   },
   modePillText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '600',
   },
   modePillTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
 
   // Scroll
@@ -575,10 +579,10 @@ const styles = StyleSheet.create({
 
   // Room Card — the spatial container
   roomCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     borderTopWidth: 3,
     overflow: 'hidden',
   },
@@ -593,7 +597,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   roomLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '500',
     marginTop: 2,
@@ -633,7 +637,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   anchorsTitle: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 11,
     fontWeight: '600',
     textAlign: 'center',
@@ -651,10 +655,10 @@ const styles = StyleSheet.create({
 
   // Anchor Chip — clean word-by-word display
   anchorChip: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingHorizontal: 12,
     paddingVertical: 10,
     alignItems: 'center',
@@ -664,29 +668,31 @@ const styles = StyleSheet.create({
     minHeight: 90,
   },
   anchorIndex: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 9,
     fontWeight: '700',
     marginBottom: 3,
   },
   anchorArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 29,
+    color: color.sacred,
     fontSize: 17,
     fontWeight: '700',
     marginBottom: 4,
   },
   anchorMeaning: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
     fontWeight: '500',
     textAlign: 'center',
     lineHeight: 15,
   },
   hiddenAnchorChip: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     borderStyle: 'dashed',
     paddingHorizontal: 12,
     paddingVertical: 10,
@@ -697,19 +703,19 @@ const styles = StyleSheet.create({
     minHeight: 90,
   },
   hiddenAnchorIndex: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 9,
     fontWeight: '700',
     marginBottom: 3,
   },
   hiddenAnchorLabel: {
-    color: '#475569',
+    color: color.textFaint,
     fontSize: 14,
     fontWeight: '700',
     marginTop: 2,
   },
   revealProgress: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '600',
     textAlign: 'center',
@@ -720,8 +726,8 @@ const styles = StyleSheet.create({
   ayahTextContainer: {
     width: '100%',
     borderLeftWidth: 4,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     paddingLeft: 16,
     paddingRight: 16,
     paddingVertical: 16,
@@ -730,14 +736,14 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   transliteration: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     fontStyle: 'italic',
     textAlign: 'center',
     lineHeight: 22,
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 22,
@@ -749,7 +755,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: `${METHOD_COLOR}10`,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 14,
     gap: 10,
     borderWidth: 1,
@@ -768,12 +774,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: METHOD_COLOR,
-    borderRadius: 14,
+    borderRadius: radius.md,
     paddingVertical: 16,
     gap: 8,
   },
   actionButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '700',
   },
@@ -783,7 +789,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   ratingTitle: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     textAlign: 'center',
@@ -794,7 +800,7 @@ const styles = StyleSheet.create({
   },
   ratingButton: {
     flex: 1,
-    borderRadius: 14,
+    borderRadius: radius.md,
     paddingVertical: 14,
     alignItems: 'center',
     justifyContent: 'center',
@@ -802,12 +808,12 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   ratingYes: {
-    backgroundColor: '#34d39915',
-    borderColor: '#34d39930',
+    backgroundColor: withAlpha(color.progress, 0.08),
+    borderColor: withAlpha(color.progress, 0.19),
   },
   ratingPartial: {
-    backgroundColor: '#fbbf2415',
-    borderColor: '#fbbf2430',
+    backgroundColor: withAlpha(color.sacredBright, 0.08),
+    borderColor: withAlpha(color.sacredBright, 0.19),
   },
   ratingNo: {
     backgroundColor: '#fb718515',
@@ -826,8 +832,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 14,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
-    backgroundColor: '#0f172a',
+    borderTopColor: color.border,
+    backgroundColor: color.bg,
   },
   navButton: {
     flexDirection: 'row',
@@ -840,11 +846,11 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   navButtonText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 14,
     fontWeight: '500',
   },
   navButtonTextDisabled: {
-    color: '#475569',
+    color: color.textFaint,
   },
 });

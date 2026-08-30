@@ -2,6 +2,8 @@ import { useRef } from 'react';
 import { View, TextInput, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface Props {
   value: string;
@@ -37,7 +39,7 @@ export function AIChatInput({ value, onChangeText, onSend, isStreaming, onStopSt
             style={styles.voiceButton}
             hitSlop={4}
           >
-            <Ionicons name="mic-outline" size={22} color="#3b82f6" />
+            <Ionicons name="mic-outline" size={22} color={color.accent} />
           </Pressable>
         )}
 
@@ -58,7 +60,7 @@ export function AIChatInput({ value, onChangeText, onSend, isStreaming, onStopSt
         {/* Send or Stop button */}
         {isStreaming ? (
           <Pressable onPress={onStopStreaming} style={styles.stopButton}>
-            <Ionicons name="stop" size={18} color="#fff" />
+            <Ionicons name="stop" size={18} color={color.text} />
           </Pressable>
         ) : (
           <Pressable
@@ -66,7 +68,7 @@ export function AIChatInput({ value, onChangeText, onSend, isStreaming, onStopSt
             style={[styles.sendButton, !canSend && styles.sendButtonDisabled]}
             disabled={!canSend}
           >
-            <Ionicons name="arrow-up" size={20} color="#fff" />
+            <Ionicons name="arrow-up" size={20} color={color.text} />
           </Pressable>
         )}
       </View>
@@ -79,8 +81,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
-    backgroundColor: '#1e293b',
+    borderTopColor: color.border,
+    backgroundColor: color.surface,
   },
   inputRow: {
     flexDirection: 'row',
@@ -90,20 +92,20 @@ const styles = StyleSheet.create({
   voiceButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#3b82f615',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.accent, 0.08),
     borderWidth: 1,
-    borderColor: '#3b82f630',
+    borderColor: withAlpha(color.accent, 0.19),
     alignItems: 'center',
     justifyContent: 'center',
   },
   input: {
     flex: 1,
-    backgroundColor: '#0f172a',
-    borderRadius: 20,
+    backgroundColor: color.bg,
+    borderRadius: radius.xl,
     paddingHorizontal: 16,
     paddingVertical: 10,
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 15,
     maxHeight: 100,
     minHeight: 40,
@@ -111,19 +113,19 @@ const styles = StyleSheet.create({
   sendButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#10b981',
+    borderRadius: radius.xl,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },
   sendButtonDisabled: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   stopButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#ef4444',
+    borderRadius: radius.xl,
+    backgroundColor: color.danger,
     alignItems: 'center',
     justifyContent: 'center',
   },

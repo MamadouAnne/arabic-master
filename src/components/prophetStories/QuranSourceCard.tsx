@@ -3,6 +3,8 @@ import { View, Text, Pressable, StyleSheet, ActivityIndicator } from 'react-nati
 import { Ionicons } from '@expo/vector-icons';
 import { QuranReference } from '../../types/prophetStories';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface QuranSourceCardProps {
   source: QuranReference;
@@ -27,7 +29,7 @@ export function QuranSourceCard({
       {/* Header with Surah reference */}
       <View style={styles.header}>
         <View style={styles.referenceContainer}>
-          <Ionicons name="book" size={14} color="#10b981" />
+          <Ionicons name="book" size={14} color={color.progress} />
           <Text style={styles.referenceText}>
             {source.surahNameEnglish} {source.surahNumber}:{ayahRange}
           </Text>
@@ -42,12 +44,12 @@ export function QuranSourceCard({
             disabled={isLoading}
           >
             {isLoading ? (
-              <ActivityIndicator size="small" color="#ffffff" />
+              <ActivityIndicator size="small" color={color.text} />
             ) : (
               <Ionicons
                 name={isPlaying ? 'pause' : 'play'}
                 size={14}
-                color="#ffffff"
+                color={color.text}
               />
             )}
           </Pressable>
@@ -69,12 +71,12 @@ export function QuranSourceCard({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#10b98110',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.06),
+    borderRadius: radius.md,
     padding: 12,
     marginVertical: 8,
     borderLeftWidth: 3,
-    borderLeftColor: '#10b981',
+    borderLeftColor: color.progress,
   },
   header: {
     flexDirection: 'row',
@@ -89,11 +91,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   referenceText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     fontWeight: '600',
   },
   referenceArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 20,
     color: '#6ee7b7',
     fontSize: 12,
     marginLeft: 4,
@@ -101,13 +105,13 @@ const styles = StyleSheet.create({
   playButton: {
     width: 28,
     height: 28,
-    borderRadius: 14,
-    backgroundColor: '#10b981',
+    borderRadius: radius.md,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },
   playButtonActive: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: color.accent,
   },
   arabicContainer: {
     flexDirection: 'row-reverse',
@@ -117,12 +121,13 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   arabicWord: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    color: color.text,
     fontSize: 22,
     lineHeight: 44,
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
     fontStyle: 'italic',

@@ -9,6 +9,7 @@ import { useAIChatStore } from '../../stores/aiChatStore';
 import { useAudioPlayerStore } from '../../stores/audioPlayerStore';
 import { getModuleFromSegments } from '../../services/aiContextService';
 import { AIModelChoice } from '../../types/aiChat';
+import { color, radius } from '../../theme/tokens';
 
 const TEACHER_AVATARS: Record<AIModelChoice, any> = {
   haiku: require('../../../assets/images/teachers/ustadh-ali.png'),
@@ -18,11 +19,11 @@ const TEACHER_AVATARS: Record<AIModelChoice, any> = {
 const TEACHER_COLORS: Record<AIModelChoice, { border: [string, string, string, string]; glow: string }> = {
   haiku: {
     border: ['#10b981', '#34d399', '#f59e0b', '#10b981'],
-    glow: '#10b981',
+    glow: color.progress,
   },
   sonnet: {
     border: ['#D4AF37', '#f59e0b', '#D4AF37', '#f59e0b'],
-    glow: '#D4AF37',
+    glow: color.sacred,
   },
 };
 
@@ -118,7 +119,7 @@ export function AIFloatingButton() {
             {/* Voice option */}
             <Pressable
               onPress={handleVoice}
-              style={({ pressed }) => [styles.optionBtn, pressed && styles.optionPressed]}
+              style={styles.optionBtn}
             >
               <LinearGradient
                 colors={['#8b5cf6', '#7c3aed']}
@@ -126,14 +127,14 @@ export function AIFloatingButton() {
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
               >
-                <Ionicons name="mic" size={20} color="#fff" />
+                <Ionicons name="mic" size={20} color={color.text} />
               </LinearGradient>
             </Pressable>
 
             {/* Chat option */}
             <Pressable
               onPress={handleChat}
-              style={({ pressed }) => [styles.optionBtn, pressed && styles.optionPressed]}
+              style={styles.optionBtn}
             >
               <LinearGradient
                 colors={colors.border.slice(0, 2) as [string, string]}
@@ -141,14 +142,14 @@ export function AIFloatingButton() {
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
               >
-                <Ionicons name="chatbubble" size={20} color="#fff" />
+                <Ionicons name="chatbubble" size={20} color={color.text} />
               </LinearGradient>
             </Pressable>
 
             {/* Close button (replaces avatar) */}
             <Pressable
               onPress={() => setExpanded(false)}
-              style={({ pressed }) => [pressed && styles.buttonPressed]}
+              
             >
               <View style={[styles.glow, { backgroundColor: colors.glow }]} />
               <LinearGradient
@@ -158,7 +159,7 @@ export function AIFloatingButton() {
                 style={styles.gradientBorder}
               >
                 <View style={styles.closeWrap}>
-                  <Ionicons name="close" size={22} color="#f5f5f0" />
+                  <Ionicons name="close" size={22} color={color.text} />
                 </View>
               </LinearGradient>
             </Pressable>
@@ -180,7 +181,7 @@ export function AIFloatingButton() {
 
         <Pressable
           onPress={handleMainPress}
-          style={({ pressed }) => [pressed && styles.buttonPressed]}
+          
         >
           <LinearGradient
             colors={colors.border}
@@ -241,7 +242,7 @@ const styles = StyleSheet.create({
   optionGradient: {
     width: 40,
     height: 40,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },

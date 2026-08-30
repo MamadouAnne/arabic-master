@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, TextStyle, StyleProp } from 'react-native';
 import { ARABIC_REGEX } from '../chatText';
+import { font } from '../../../theme/tokens';
 
 // Inline markup used by the lesson editor's formatting toolbar.
 export const MARKERS = {
@@ -84,5 +85,6 @@ const styles = StyleSheet.create({
   italic: { fontStyle: 'italic' },
   underline: { textDecorationLine: 'underline' },
   highlight: { backgroundColor: 'rgba(250,204,21,0.28)', color: '#fde68a' },
-  arabic: { fontSize: 20, lineHeight: 32 },
+  arabic: {
+    fontFamily: font.arabic, fontSize: 20, lineHeight: 32 },
 });

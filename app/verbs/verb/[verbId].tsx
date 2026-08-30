@@ -9,14 +9,16 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ShareToGroupModal } from '../../../src/components/community/ShareToGroupModal';
 import type { SharedContent } from '../../../src/data/community/socialData';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 type TenseType = 'past' | 'present' | 'future' | 'imperative';
 
 const tenseColors: Record<TenseType, string> = {
-  past: '#10b981',
-  present: '#6366f1',
-  future: '#D4AF37',
-  imperative: '#f59e0b',
+  past: color.progress,
+  present: color.accentStrong,
+  future: color.sacred,
+  imperative: color.warning,
 };
 
 const tenseLabels: Record<TenseType, { en: string; ar: string }> = {
@@ -88,7 +90,7 @@ export default function VerbDetailScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Pressable
@@ -96,7 +98,7 @@ export default function VerbDetailScreen() {
               onPress={() => speak(verb.pastTense)}
             >
               <Text style={styles.verbTitle}>{verb.pastTense}</Text>
-              <Ionicons name="volume-high" size={20} color="#10b981" />
+              <Ionicons name="volume-high" size={20} color={color.progress} />
             </Pressable>
             <Text style={styles.verbMeaning}>{lc(verb.meaning, verb.meaningFr)}</Text>
           </View>
@@ -118,7 +120,7 @@ export default function VerbDetailScreen() {
             }}
             accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
           >
-            <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+            <Ionicons name="paper-plane-outline" size={22} color={color.accent} />
           </Pressable>
         </View>
 
@@ -248,7 +250,7 @@ export default function VerbDetailScreen() {
                 <Text style={styles.exampleArabic}>{example.arabic}</Text>
                 <Text style={styles.exampleEnglish}>{example.english}</Text>
               </View>
-              <Ionicons name="volume-high" size={20} color="#64748b" />
+              <Ionicons name="volume-high" size={20} color={color.textFaint} />
             </Pressable>
           ))}
         </View>
@@ -268,13 +270,13 @@ export default function VerbDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   shareHeaderButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#818cf820',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginLeft: 8,
@@ -289,8 +291,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -306,23 +308,23 @@ const styles = StyleSheet.create({
   verbTitle: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   verbMeaning: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 40,
   },
   infoCard: {
     marginHorizontal: 20,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 20,
   },
@@ -336,30 +338,30 @@ const styles = StyleSheet.create({
   },
   infoLabel: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 4,
   },
   infoValue: {
     fontSize: 16,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
   tensePreview: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 8,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
     padding: 12,
     marginHorizontal: 4,
   },
   tensePreviewLabel: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 4,
   },
   tensePreviewValue: {
     fontSize: 20,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
   tenseTabs: {
@@ -372,19 +374,21 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     paddingVertical: 12,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     borderWidth: 1,
     borderColor: 'transparent',
   },
   tenseTabText: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     fontWeight: '600',
   },
   tenseTabArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 19,
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   section: {
@@ -394,12 +398,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 16,
   },
   conjugationTable: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 4,
   },
   conjugationRow: {
@@ -409,7 +413,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   personInfo: {
     flexDirection: 'row',
@@ -418,12 +422,14 @@ const styles = StyleSheet.create({
   },
   personLabel: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     width: 90,
   },
   personArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 26,
     fontSize: 15,
-    color: '#64748b',
+    color: color.textFaint,
   },
   conjugationValue: {
     flexDirection: 'row',
@@ -433,15 +439,15 @@ const styles = StyleSheet.create({
   conjugationText: {
     fontSize: 26,
     lineHeight: 44,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '500',
   },
   exampleCard: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 8,
   },
@@ -449,14 +455,15 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   exampleArabic: {
+    fontFamily: font.arabic,
     fontSize: 24,
     lineHeight: 42,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   exampleEnglish: {
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
   },
   tenseBadge: {
     alignSelf: 'flex-start',

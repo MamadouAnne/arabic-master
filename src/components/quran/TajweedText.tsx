@@ -3,6 +3,7 @@ import { Text, View, Pressable, StyleSheet } from 'react-native';
 import { TajweedOccurrence, TajweedRuleId } from '../../types/quran';
 import { TAJWEED_COLORS } from '../../data/arabic/quran/tajweed/colors';
 import { getTajweedRuleById } from '../../data/arabic/quran/tajweed/rules';
+import { color, font, radius, space } from '../../theme/tokens';
 
 interface TajweedTextProps {
   text: string;
@@ -13,6 +14,12 @@ interface TajweedTextProps {
   onWordPress?: (wordIndex: number) => void;
   onTajweedPress?: (ruleId: TajweedRuleId) => void;
 }
+
+/**
+ * Uthmani text carries stacked harakat, so it needs far more leading than
+ * Latin copy. 2.0 clears the marks; the previous 1.8 crowded them.
+ */
+const QURAN_LINE_HEIGHT = 2.0;
 
 interface TextSegment {
   text: string;
@@ -56,11 +63,11 @@ export function TajweedText({
       }
 
       // Add tajweed segment
-      const color = TAJWEED_COLORS[rule.ruleId as keyof typeof TAJWEED_COLORS];
+      const ruleColor = TAJWEED_COLORS[rule.ruleId as keyof typeof TAJWEED_COLORS];
       segments.push({
         text: safeText.substring(rule.startIndex, rule.endIndex),
         ruleId: rule.ruleId,
-        color: color || '#ffffff',
+        color: ruleColor || color.text,
         startIndex: rule.startIndex,
         endIndex: rule.endIndex,
       });
@@ -89,7 +96,9 @@ export function TajweedText({
   };
 
   return (
-    <Text style={[styles.container, { fontSize, lineHeight: fontSize * 1.8 }]}>
+    // Nested segments inherit fontFamily from this parent, which keeps the
+    // script shaping consistent across tajweed colour boundaries.
+    <Text style={[styles.container, { fontSize, lineHeight: fontSize * QURAN_LINE_HEIGHT }]}>
       {segments.map((segment, index) => {
         if (segment.ruleId && showTajweed) {
           return (
@@ -177,54 +186,59 @@ export function WordByWordText({
 
 const styles = StyleSheet.create({
   container: {
-    color: '#ffffff',
+    // The AmiriQuran cut — spaced so dense vocalisation does not collide.
+    // Previously unset, so the Quran rendered in the system face.
+    fontFamily: font.quran,
+    color: color.text,
     textAlign: 'right',
     writingDirection: 'rtl',
   },
   plainText: {
-    color: '#ffffff',
+    color: color.text,
   },
   tajweedText: {
-    fontWeight: '500',
+    // No fontWeight: AmiriQuran ships a single weight, and asking for one it
+    // does not have makes Android fall back to the default face mid-verse.
+    // Colour alone distinguishes the rule.
   },
   wordContainer: {
     flexDirection: 'row-reverse',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    gap: 12,
-    paddingVertical: 16,
+    gap: space.md,
+    paddingVertical: space.lg,
   },
   wordItem: {
     alignItems: 'center',
-    padding: 8,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    padding: space.sm,
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     minWidth: 60,
   },
   wordHighlighted: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.accent,
   },
   wordArabic: {
-    color: '#ffffff',
-    marginBottom: 4,
+    fontFamily: font.arabic,
+    color: color.text,
+    marginBottom: space.xs,
   },
   wordArabicHighlighted: {
-    color: '#ffffff',
-    fontWeight: 'bold',
+    color: color.textOnAccent,
   },
   wordTransliteration: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginBottom: 2,
   },
   wordTranslation: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 10,
     textAlign: 'center',
     maxWidth: 80,
   },
   textHighlighted: {
-    color: 'rgba(255,255,255,0.9)',
+    color: color.textOnAccent,
   },
 });
 

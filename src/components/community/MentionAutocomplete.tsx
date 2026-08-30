@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, ScrollView } from 'react-native';
 import type { GroupMember } from '../../data/community/socialData';
+import { color, radius } from '../../theme/tokens';
 
 interface Props {
   members: GroupMember[];
@@ -37,10 +38,10 @@ export function MentionAutocomplete({ members, query, groupColor, onSelect }: Pr
 }
 
 const styles = StyleSheet.create({
-  container: { backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b' },
-  row: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  avatar: { width: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center' },
+  container: { backgroundColor: color.bg, borderTopWidth: 1, borderTopColor: color.borderSubtle },
+  row: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  avatar: { width: 30, height: 30, borderRadius: radius.lg, alignItems: 'center', justifyContent: 'center' },
   avatarText: { fontSize: 13, fontWeight: '700' },
-  name: { flex: 1, fontSize: 14, color: '#e2e8f0', fontWeight: '500' },
+  name: { flex: 1, fontSize: 14, color: color.text, fontWeight: '500' },
   role: { fontSize: 11, fontWeight: '600', textTransform: 'capitalize' },
 });

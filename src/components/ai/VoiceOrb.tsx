@@ -16,6 +16,7 @@ import Animated, {
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 import type { VoiceStatus } from '../../hooks/useVoiceChat';
+import { color } from '../../theme/tokens';
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
@@ -25,17 +26,17 @@ interface VoiceOrbProps {
 }
 
 const COLORS = {
-  listening: '#3b82f6',
+  listening: color.accent,
   listeningDark: '#2563eb',
-  speaking: '#10b981',
+  speaking: color.progress,
   speakingDark: '#059669',
-  thinking: '#f59e0b',
+  thinking: color.warning,
   thinkingDark: '#d97706',
-  idle: '#334155',
-  idleDark: '#1e293b',
-  text: '#f1f5f9',
-  bg: '#0f172a',
-  elevated: '#1e293b',
+  idle: color.surfaceRaised,
+  idleDark: color.surface,
+  text: color.text,
+  bg: color.bg,
+  elevated: color.surface,
 };
 
 function PulseRing({

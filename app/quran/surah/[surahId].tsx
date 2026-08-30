@@ -15,6 +15,8 @@ import { quranAudioService, AudioState, QURAN_RECITERS, ReciterId } from '../../
 import { useAudioPlayerStore, advanceToNextSurah } from '../../../src/stores/audioPlayerStore';
 import { useAyahTranslations } from '../../../src/hooks/useAyahTranslations';
 import { showInterstitialIfReady } from '../../../src/services/adService';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 export default function SurahDetailScreen() {
   const { t } = useTranslation();
@@ -327,7 +329,7 @@ export default function SurahDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#10b981" />
+          <ActivityIndicator size="large" color={color.progress} />
           <Text style={styles.loadingText}>{t('common.loading')}</Text>
         </View>
       </SafeAreaView>
@@ -338,7 +340,7 @@ export default function SurahDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.errorContainer}>
-          <Ionicons name="cloud-offline" size={48} color="#64748b" />
+          <Ionicons name="cloud-offline" size={48} color={color.textFaint} />
           <Text style={styles.errorText}>{error}</Text>
           <Pressable style={styles.retryButton} onPress={refetch} accessibilityRole="button" accessibilityLabel="Retry loading surah">
             <Text style={styles.retryButtonText}>{t('common.retry')}</Text>
@@ -391,7 +393,7 @@ export default function SurahDetailScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()} accessibilityRole="button" accessibilityLabel="Go back">
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -433,15 +435,15 @@ export default function SurahDetailScreen() {
         <Text style={styles.bismillah}>بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</Text>
         <View style={styles.infoRow}>
           <View style={styles.infoItem}>
-            <Ionicons name="list" size={16} color="#10b981" />
+            <Ionicons name="list" size={16} color={color.progress} />
             <Text style={styles.infoText}>{surah.ayahCount} {t('surahFeature.verses')}</Text>
           </View>
           <View style={styles.infoItem}>
-            <Ionicons name="location" size={16} color="#10b981" />
+            <Ionicons name="location" size={16} color={color.progress} />
             <Text style={styles.infoText}>{surah.revelationType === 'Meccan' ? t('surahFeature.meccan') : t('surahFeature.medinan')}</Text>
           </View>
           <View style={styles.infoItem}>
-            <Ionicons name="book" size={16} color="#10b981" />
+            <Ionicons name="book" size={16} color={color.progress} />
             <Text style={styles.infoText}>{t('juzFeature.juz')} {surah.juz}</Text>
           </View>
         </View>
@@ -451,7 +453,7 @@ export default function SurahDetailScreen() {
       <Pressable style={styles.reciterCard} onPress={() => setShowReciterModal(true)} accessibilityRole="button" accessibilityLabel={`${t('surahFeature.reciter')}: ${currentReciter.nameEnglish}. ${t('surahFeature.change')}`}>
         <View style={styles.reciterInfo}>
           <View style={styles.reciterIcon}>
-            <Ionicons name="mic" size={20} color="#10b981" />
+            <Ionicons name="mic" size={20} color={color.progress} />
           </View>
           <View style={styles.reciterDetails}>
             <Text style={styles.reciterLabel}>{t('surahFeature.reciter')}</Text>
@@ -461,18 +463,18 @@ export default function SurahDetailScreen() {
         </View>
         <View style={styles.reciterAction}>
           <Text style={styles.changeText}>{t('surahFeature.change')}</Text>
-          <Ionicons name="chevron-forward" size={18} color="#64748b" />
+          <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
         </View>
       </Pressable>
 
       {/* Action Buttons */}
       <View style={styles.actionButtons}>
         <Pressable style={styles.primaryButton} onPress={handleLearn} accessibilityRole="button" accessibilityLabel={t('surahFeature.learn')}>
-          <Ionicons name="school" size={20} color="#0f172a" />
+          <Ionicons name="school" size={20} color={color.textOnAccent} />
           <Text style={styles.primaryButtonText}>{t('surahFeature.learn')}</Text>
         </Pressable>
         <Pressable style={styles.secondaryButton} onPress={handleWrite} accessibilityRole="button" accessibilityLabel={t('surahFeature.write')}>
-          <Ionicons name="pencil" size={20} color="#0f172a" />
+          <Ionicons name="pencil" size={20} color={color.textOnAccent} />
           <Text style={styles.secondaryButtonText}>{t('surahFeature.write')}</Text>
         </Pressable>
       </View>
@@ -490,12 +492,12 @@ export default function SurahDetailScreen() {
           accessibilityLabel={isPlayingAll || audioState === 'playing' ? t('surahFeature.stop') : t('surahFeature.playAll')}
         >
           {audioState === 'loading' && isPlayingAll ? (
-            <ActivityIndicator size="small" color="#ffffff" />
+            <ActivityIndicator size="small" color={color.text} />
           ) : (
             <Ionicons
               name={isPlayingAll || audioState === 'playing' ? 'stop' : 'play'}
               size={14}
-              color="#ffffff"
+              color={color.text}
             />
           )}
           <Text style={styles.playAllButtonText}>
@@ -548,7 +550,7 @@ export default function SurahDetailScreen() {
       accessibilityRole="button"
       accessibilityLabel={t('surahFeature.backToTop')}
     >
-      <Ionicons name="arrow-up" size={18} color="#10b981" />
+      <Ionicons name="arrow-up" size={18} color={color.progress} />
       <Text style={styles.backToTopText}>{t('surahFeature.backToTop')}</Text>
     </Pressable>
   ), [t]);
@@ -567,7 +569,7 @@ export default function SurahDetailScreen() {
             <View style={styles.modalHeader}>
               <Text style={styles.modalTitle}>{t('surahFeature.selectReciter')}</Text>
               <Pressable onPress={() => setShowReciterModal(false)} accessibilityRole="button" accessibilityLabel="Close reciter selection">
-                <Ionicons name="close" size={24} color="#ffffff" />
+                <Ionicons name="close" size={24} color={color.text} />
               </Pressable>
             </View>
             <ScrollView style={styles.reciterList}>
@@ -594,14 +596,14 @@ export default function SurahDetailScreen() {
                       </View>
                       {reciter.recommended && (
                         <View style={styles.recommendedBadge}>
-                          <Ionicons name="star" size={10} color="#f59e0b" />
+                          <Ionicons name="star" size={10} color={color.warning} />
                           <Text style={styles.recommendedText}>{t('surahFeature.recommended')}</Text>
                         </View>
                       )}
                     </View>
                   </View>
                   {currentReciterId === reciter.id && (
-                    <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+                    <Ionicons name="checkmark-circle" size={24} color={color.progress} />
                   )}
                 </Pressable>
               ))}
@@ -640,10 +642,10 @@ export default function SurahDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 16,
@@ -654,7 +656,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     marginTop: 16,
   },
@@ -665,14 +667,14 @@ const styles = StyleSheet.create({
     padding: 40,
   },
   retryButton: {
-    backgroundColor: '#10b981',
-    borderRadius: 12,
+    backgroundColor: color.progress,
+    borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 24,
     marginTop: 20,
   },
   retryButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -690,12 +692,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    lineHeight: 41,
+    color: color.text,
     fontSize: 24,
     fontWeight: 'bold',
   },
   surahNameEnglish: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     marginTop: 2,
   },
@@ -707,8 +711,8 @@ const styles = StyleSheet.create({
   navButton: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.lg,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -716,19 +720,19 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   surahNumber: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
     minWidth: 36,
     textAlign: 'center',
   },
   infoCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
   },
   bismillah: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 22,
     textAlign: 'center',
     marginBottom: 16,
@@ -743,12 +747,12 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   infoText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
   },
   reciterCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     flexDirection: 'row',
@@ -763,8 +767,8 @@ const styles = StyleSheet.create({
   reciterIcon: {
     width: 44,
     height: 44,
-    borderRadius: 12,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -773,17 +777,19 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   reciterLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   reciterName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
     marginTop: 2,
   },
   reciterNameArabic: {
-    color: '#10b981',
+    fontFamily: font.arabic,
+    lineHeight: 24,
+    color: color.progress,
     fontSize: 14,
     marginTop: 2,
   },
@@ -793,7 +799,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   changeText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
   },
   modalOverlay: {
@@ -802,7 +808,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   modalContent: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     maxHeight: '80%',
@@ -813,10 +819,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   modalTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -828,24 +834,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 16,
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     marginBottom: 10,
   },
   reciterOptionActive: {
     borderWidth: 1,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   reciterOptionInfo: {
     flex: 1,
   },
   reciterOptionName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
   reciterOptionArabic: {
-    color: '#94a3b8',
+    fontFamily: font.arabic,
+    lineHeight: 24,
+    color: color.textMuted,
     fontSize: 14,
     marginTop: 2,
   },
@@ -861,7 +869,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   reciterStyle: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     textTransform: 'capitalize',
     fontWeight: '600',
@@ -874,13 +882,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     paddingHorizontal: 8,
     paddingVertical: 2,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   recommendedText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 10,
     fontWeight: '600',
   },
@@ -888,14 +896,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 10,
     marginBottom: 12,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   primaryButton: {
     flex: 1,
-    backgroundColor: '#D4AF37',
-    borderRadius: 14,
+    backgroundColor: color.sacred,
+    borderRadius: radius.md,
     paddingVertical: 14,
     flexDirection: 'row',
     alignItems: 'center',
@@ -903,14 +911,14 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   primaryButtonText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 16,
     fontWeight: '700',
   },
   secondaryButton: {
     flex: 1,
-    backgroundColor: '#D4AF37',
-    borderRadius: 14,
+    backgroundColor: color.sacred,
+    borderRadius: radius.md,
     paddingVertical: 14,
     flexDirection: 'row',
     alignItems: 'center',
@@ -918,58 +926,58 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   secondaryButtonText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 16,
     fontWeight: '700',
   },
   playAllButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#10b981',
-    borderRadius: 14,
+    backgroundColor: color.progress,
+    borderRadius: radius.md,
     paddingVertical: 6,
     paddingHorizontal: 10,
     gap: 5,
   },
   playAllButtonActive: {
-    backgroundColor: '#ef4444',
+    backgroundColor: color.danger,
   },
   playAllButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 12,
     fontWeight: '600',
   },
   translateButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#334155',
-    borderRadius: 14,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.md,
     paddingVertical: 6,
     paddingHorizontal: 10,
     gap: 5,
   },
   translateButtonActive: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   translateButtonText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     fontWeight: '600',
   },
   translateButtonTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   viewToggle: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 12,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -981,13 +989,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginTop: 12,
   },
   backToTopText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontWeight: '600',
   },

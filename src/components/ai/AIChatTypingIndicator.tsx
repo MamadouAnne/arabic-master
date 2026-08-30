@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { View, Animated, StyleSheet } from 'react-native';
+import { color } from '../../theme/tokens';
 
 export function AIChatTypingIndicator() {
   const dot1 = useRef(new Animated.Value(0)).current;
@@ -57,6 +58,6 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#94a3b8',
+    backgroundColor: color.textMuted,
   },
 });

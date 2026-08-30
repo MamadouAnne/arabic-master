@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useSettingsStore } from '../../src/stores/settingsStore';
+import { color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const LANGUAGES = [
   {
@@ -38,7 +40,7 @@ export default function LanguageScreen() {
         {/* Header — shown in both languages */}
         <View style={styles.header}>
           <View style={styles.iconCircle}>
-            <Ionicons name="language" size={32} color="#D4AF37" />
+            <Ionicons name="language" size={32} color={color.sacred} />
           </View>
           <Text style={styles.title}>Choose your language</Text>
           <Text style={styles.titleFr}>Choisissez votre langue</Text>
@@ -61,7 +63,7 @@ export default function LanguageScreen() {
                 <Text style={styles.cardLabel}>{lang.label}</Text>
                 <Text style={styles.cardGreeting}>{lang.greeting}</Text>
               </View>
-              <Ionicons name="chevron-forward" size={20} color="#64748b" />
+              <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
             </TouchableOpacity>
           ))}
         </View>
@@ -73,7 +75,7 @@ export default function LanguageScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   content: {
     flex: 1,
@@ -88,24 +90,24 @@ const styles = StyleSheet.create({
     width: 72,
     height: 72,
     borderRadius: 36,
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
   },
   title: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 6,
   },
   titleFr: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     marginBottom: 6,
   },
   titleAr: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 18,
     marginTop: 4,
   },
@@ -115,11 +117,11 @@ const styles = StyleSheet.create({
   card: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   flag: {
     fontSize: 32,
@@ -129,12 +131,12 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   cardLabel: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: '700',
   },
   cardGreeting: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginTop: 2,
   },

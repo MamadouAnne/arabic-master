@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { PlaybackSpeed, AudioPlaybackState } from '../../types/prophetStories';
+import { color, radius } from '../../theme/tokens';
 
 interface StoryAudioPlayerProps {
   playbackState: AudioPlaybackState;
@@ -73,12 +74,12 @@ export function StoryAudioPlayer({
             disabled={isLoading}
           >
             {isLoading ? (
-              <Ionicons name="hourglass" size={24} color="#ffffff" />
+              <Ionicons name="hourglass" size={24} color={color.text} />
             ) : (
               <Ionicons
                 name={isPlaying ? 'pause' : 'play'}
                 size={24}
-                color="#ffffff"
+                color={color.text}
               />
             )}
           </Pressable>
@@ -103,7 +104,7 @@ export function StoryAudioPlayer({
           </Text>
           {onClose && (
             <Pressable style={styles.closeButton} onPress={onClose}>
-              <Ionicons name="close" size={18} color="#94a3b8" />
+              <Ionicons name="close" size={18} color={color.textMuted} />
             </Pressable>
           )}
         </View>
@@ -114,18 +115,18 @@ export function StoryAudioPlayer({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     paddingBottom: 8,
   },
   progressBar: {
     height: 3,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   controls: {
     flexDirection: 'row',
@@ -135,15 +136,15 @@ const styles = StyleSheet.create({
     paddingTop: 12,
   },
   speedButton: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 14,
+    borderRadius: radius.md,
     minWidth: 50,
     alignItems: 'center',
   },
   speedText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -155,24 +156,24 @@ const styles = StyleSheet.create({
   navButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#334155',
+    borderRadius: radius.xl,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
   },
   navButtonDisabled: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
   },
   playButton: {
     width: 56,
     height: 56,
     borderRadius: 28,
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     alignItems: 'center',
     justifyContent: 'center',
   },
   playButtonActive: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: color.accent,
   },
   rightSection: {
     flexDirection: 'row',
@@ -182,7 +183,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   progressText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   closeButton: {

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { LeaderboardEntry, LeaderboardType } from '../../types/community';
+import { font, color, radius } from '../../theme/tokens';
 
 interface LeaderboardCardProps {
   entries: LeaderboardEntry[];
@@ -163,13 +164,13 @@ export const LeaderboardCard: React.FC<LeaderboardCardProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginHorizontal: 20,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   header: {
     marginBottom: 12,
@@ -182,16 +183,18 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
   },
   tabs: {
     flexDirection: 'row',
-    backgroundColor: '#0f172a',
-    borderRadius: 10,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
     padding: 4,
     marginBottom: 16,
   },
@@ -199,19 +202,19 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingVertical: 8,
     paddingHorizontal: 12,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
   },
   tabActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   tabText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   tabTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   rankings: {
   },
@@ -220,14 +223,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 10,
     paddingHorizontal: 12,
-    borderRadius: 10,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.sm,
+    backgroundColor: color.bg,
     marginBottom: 8,
   },
   rankRowCurrent: {
     backgroundColor: 'rgba(99, 102, 241, 0.2)',
     borderWidth: 1,
-    borderColor: '#6366f1',
+    borderColor: color.accentStrong,
   },
   rankBadge: {
     width: 32,
@@ -239,7 +242,7 @@ const styles = StyleSheet.create({
   rankNumber: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   userInfo: {
     flex: 1,
@@ -248,23 +251,25 @@ const styles = StyleSheet.create({
   userName: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   userNameCurrent: {
-    color: '#818cf8',
+    color: color.accent,
   },
   userNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 20,
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   xpValue: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   xpValueCurrent: {
-    color: '#818cf8',
+    color: color.accent,
   },
   separator: {
     flexDirection: 'row',
@@ -274,10 +279,10 @@ const styles = StyleSheet.create({
   separatorLine: {
     flex: 1,
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   separatorText: {
-    color: '#64748b',
+    color: color.textFaint,
     paddingHorizontal: 12,
     fontSize: 14,
   },

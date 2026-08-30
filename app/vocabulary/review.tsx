@@ -17,17 +17,19 @@ import { getWordById } from '../../src/data/arabic/vocabulary';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { VocabularyWord, VocabularyReviewItem, ReviewRating } from '../../src/types/arabic';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 // Rating descriptions for SM-2 scale
 const RATING_DESCRIPTIONS: Record<ReviewRating, { label: string; color: string; icon: string }> = {
-  0: { label: 'Blackout', color: '#ef4444', icon: 'close-circle' },
-  1: { label: 'Wrong', color: '#f97316', icon: 'close' },
-  2: { label: 'Hard', color: '#f59e0b', icon: 'help' },
+  0: { label: 'Blackout', color: color.danger, icon: 'close-circle' },
+  1: { label: 'Wrong', color: color.warning, icon: 'close' },
+  2: { label: 'Hard', color: color.warning, icon: 'help' },
   3: { label: 'OK', color: '#84cc16', icon: 'checkmark' },
-  4: { label: 'Good', color: '#22c55e', icon: 'checkmark-circle' },
-  5: { label: 'Perfect', color: '#10b981', icon: 'star' },
+  4: { label: 'Good', color: color.progress, icon: 'checkmark-circle' },
+  5: { label: 'Perfect', color: color.progress, icon: 'star' },
 };
 
 export default function VocabularyReviewScreen() {
@@ -114,7 +116,7 @@ export default function VocabularyReviewScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.emptyContainer}>
           <View style={styles.emptyIcon}>
-            <Ionicons name="checkmark-done-circle" size={64} color="#22c55e" />
+            <Ionicons name="checkmark-done-circle" size={64} color={color.progress} />
           </View>
           <Text style={styles.emptyTitle}>{t('vocabulary.allCaughtUp')}</Text>
           <Text style={styles.emptyTitleArabic}>لا مراجعات اليوم</Text>
@@ -140,7 +142,7 @@ export default function VocabularyReviewScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.completeContainer}>
           <View style={styles.completeIcon}>
-            <Ionicons name="trophy" size={64} color="#D4AF37" />
+            <Ionicons name="trophy" size={64} color={color.sacred} />
           </View>
           <Text style={styles.completeTitle}>{t('vocabulary.reviewComplete')}</Text>
           <Text style={styles.completeTitleArabic}>اكتملت المراجعة</Text>
@@ -152,14 +154,14 @@ export default function VocabularyReviewScreen() {
             </View>
             <View style={styles.statDivider} />
             <View style={styles.statItem}>
-              <Text style={[styles.statValue, { color: '#f59e0b' }]}>
+              <Text style={[styles.statValue, { color: color.warning }]}>
                 {stats.incorrect}
               </Text>
               <Text style={styles.statLabel}>{t('vocabulary.needPractice')}</Text>
             </View>
             <View style={styles.statDivider} />
             <View style={styles.statItem}>
-              <Text style={[styles.statValue, { color: '#6366f1' }]}>
+              <Text style={[styles.statValue, { color: color.accentStrong }]}>
                 {accuracy}%
               </Text>
               <Text style={styles.statLabel}>{t('common.accuracy')}</Text>
@@ -193,7 +195,7 @@ export default function VocabularyReviewScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>{t('vocabulary.spacedReview')}</Text>
@@ -202,7 +204,7 @@ export default function VocabularyReviewScreen() {
           </Text>
         </View>
         <View style={styles.headerBadge}>
-          <Ionicons name="repeat" size={16} color="#6366f1" />
+          <Ionicons name="repeat" size={16} color={color.accentStrong} />
           <Text style={styles.headerBadgeText}>{reviewItem.repetitions}</Text>
         </View>
       </View>
@@ -299,7 +301,7 @@ export default function VocabularyReviewScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loading: {
     flex: 1,
@@ -307,7 +309,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
   },
   header: {
@@ -321,8 +323,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -330,25 +332,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   headerBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#6366f120',
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     paddingHorizontal: 10,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   headerBadgeText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 14,
     fontWeight: '600',
     marginLeft: 4,
@@ -359,13 +361,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 2,
   },
   cardContainer: {
@@ -382,8 +384,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: '100%',
     height: '100%',
-    backgroundColor: '#1e293b',
-    borderRadius: 24,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     justifyContent: 'space-between',
   },
@@ -396,40 +398,42 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   cardArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 88,
     fontSize: 52,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 12,
   },
   cardTranslit: {
     fontSize: 18,
-    color: '#6366f1',
+    color: color.accentStrong,
     marginBottom: 20,
   },
   cardAudioBtn: {
     width: 52,
     height: 52,
     borderRadius: 26,
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   cardAudioBtnActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   tapHint: {
     textAlign: 'center',
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   rateHint: {
     textAlign: 'center',
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   cardEnglish: {
     fontSize: 28,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     fontWeight: 'bold',
     marginBottom: 16,
@@ -438,25 +442,29 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   backArabicText: {
+    fontFamily: font.arabic,
+    lineHeight: 41,
     fontSize: 24,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
   },
   exampleBox: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     width: '100%',
   },
   exampleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 6,
   },
   exampleEnglish: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
   },
   ratingContainer: {
@@ -464,7 +472,7 @@ const styles = StyleSheet.create({
     paddingBottom: 32,
   },
   ratingTitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     marginBottom: 12,
@@ -479,9 +487,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 10,
     paddingHorizontal: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 2,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     minWidth: 60,
   },
   ratingLabel: {
@@ -500,7 +508,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#22c55e20',
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
@@ -508,29 +516,31 @@ const styles = StyleSheet.create({
   emptyTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   emptyTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
-    color: '#22c55e',
+    color: color.progress,
     marginBottom: 16,
   },
   emptySubtitle: {
     fontSize: 15,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     lineHeight: 22,
     marginBottom: 32,
   },
   backButton: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 32,
     paddingVertical: 14,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   backButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -545,7 +555,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
@@ -553,18 +563,20 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   completeTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
-    color: '#D4AF37',
+    color: color.sacred,
     marginBottom: 32,
   },
   statsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -576,33 +588,33 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#22c55e',
+    color: color.progress,
   },
   statLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     textAlign: 'center',
   },
   statDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 12,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginBottom: 32,
   },
   doneButton: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 48,
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },

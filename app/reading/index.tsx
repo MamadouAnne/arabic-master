@@ -6,6 +6,8 @@ import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useProgressStore } from '../../src/stores/progressStore';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const readingTexts = [
   {
@@ -16,7 +18,7 @@ const readingTexts = [
     level: 'beginner',
     wordCount: 25,
     preview: 'مَرْحَبًا، اِسْمِي...',
-    color: '#10b981',
+    color: color.progress,
     icon: '👋',
   },
   {
@@ -27,7 +29,7 @@ const readingTexts = [
     level: 'beginner',
     wordCount: 40,
     preview: 'هَذِهِ عَائِلَتِي...',
-    color: '#6366f1',
+    color: color.accentStrong,
     icon: '👨‍👩‍👧‍👦',
   },
   {
@@ -38,7 +40,7 @@ const readingTexts = [
     level: 'beginner',
     wordCount: 50,
     preview: 'أَسْتَيْقِظُ صَبَاحًا...',
-    color: '#f59e0b',
+    color: color.warning,
     icon: '☀️',
   },
   {
@@ -49,7 +51,7 @@ const readingTexts = [
     level: 'intermediate',
     wordCount: 75,
     preview: 'أَذْهَبُ إِلَى الْمَدْرَسَة...',
-    color: '#8b5cf6',
+    color: color.accent,
     icon: '🏫',
   },
   {
@@ -60,7 +62,7 @@ const readingTexts = [
     level: 'intermediate',
     wordCount: 80,
     preview: 'أُحِبُّ الذَّهَابَ إِلَى السُّوق...',
-    color: '#ec4899',
+    color: color.accent,
     icon: '🛒',
   },
   {
@@ -71,7 +73,7 @@ const readingTexts = [
     level: 'intermediate',
     wordCount: 60,
     preview: 'الطَّقْسُ جَمِيلٌ الْيَوْم...',
-    color: '#14b8a6',
+    color: color.progress,
     icon: '🌤️',
   },
   {
@@ -82,7 +84,7 @@ const readingTexts = [
     level: 'advanced',
     wordCount: 150,
     preview: 'سَافَرْتُ إِلَى مِصْر...',
-    color: '#D4AF37',
+    color: color.sacred,
     icon: '✈️',
   },
   {
@@ -93,7 +95,7 @@ const readingTexts = [
     level: 'advanced',
     wordCount: 120,
     preview: 'الثَّقَافَةُ الْعَرَبِيَّةُ غَنِيَّة...',
-    color: '#ef4444',
+    color: color.danger,
     icon: '🕌',
   },
   {
@@ -104,7 +106,7 @@ const readingTexts = [
     level: 'beginner',
     wordCount: 45,
     preview: 'هَذَا بَيْتِي، وَهُوَ جَمِيل...',
-    color: '#22c55e',
+    color: color.progress,
     icon: '🏠',
   },
   {
@@ -115,7 +117,7 @@ const readingTexts = [
     level: 'intermediate',
     wordCount: 70,
     preview: 'ذَهَبْتُ إِلَى الْمُسْتَشْفَى...',
-    color: '#6366f1',
+    color: color.accentStrong,
     icon: '🏥',
   },
   {
@@ -126,7 +128,7 @@ const readingTexts = [
     level: 'advanced',
     wordCount: 75,
     preview: 'رَمَضَانُ هُوَ الشَّهْرُ التَّاسِع...',
-    color: '#D4AF37',
+    color: color.sacred,
     icon: '🌙',
   },
   {
@@ -165,7 +167,7 @@ export default function ReadingScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('reading.title')}</Text>
@@ -177,7 +179,7 @@ export default function ReadingScreen() {
         <View style={styles.introCard}>
           <View style={styles.introCardBorder} />
           <View style={styles.introCardContent}>
-            <Ionicons name="book" size={24} color="#10b981" />
+            <Ionicons name="book" size={24} color={color.progress} />
             <View style={styles.introTextContent}>
               <Text style={styles.introTitle}>{t('reading.introTitle')}</Text>
               <Text style={styles.introText}>
@@ -199,7 +201,7 @@ export default function ReadingScreen() {
             style={styles.arabicCard}
           >
             <View style={styles.arabicIconWrap}>
-              <Ionicons name="bookmark" size={22} color="#ffffff" />
+              <Ionicons name="bookmark" size={22} color={color.text} />
             </View>
             <View style={styles.arabicTextWrap}>
               <Text style={styles.arabicTitle}>{t('reading.memo.entryTitle')}</Text>
@@ -215,8 +217,8 @@ export default function ReadingScreen() {
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <View style={styles.sectionTitleRow}>
-              <View style={[styles.levelBadge, { backgroundColor: '#10b98120' }]}>
-                <Ionicons name="leaf" size={16} color="#10b981" />
+              <View style={[styles.levelBadge, { backgroundColor: withAlpha(color.progress, 0.13) }]}>
+                <Ionicons name="leaf" size={16} color={color.progress} />
               </View>
               <Text style={styles.sectionTitle}>{t('common.beginner')}</Text>
               <Text style={styles.sectionTitleAr}>الْمُبْتَدِئ</Text>
@@ -239,20 +241,20 @@ export default function ReadingScreen() {
                   <View style={styles.textHeader}>
                     <Text style={styles.textTitle}>{lc(text.title, text.titleFr)}</Text>
                     {status === 'completed' && (
-                      <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                      <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                     )}
                     {status === 'in_progress' && (
-                      <Ionicons name="time" size={20} color="#D4AF37" />
+                      <Ionicons name="time" size={20} color={color.sacred} />
                     )}
                   </View>
                   <Text style={styles.textTitleAr}>{text.titleArabic}</Text>
                   <Text style={styles.textPreview}>{text.preview}</Text>
                   <View style={styles.textMetaRow}>
                     <View style={styles.wordCountBadge}>
-                      <Ionicons name="document-text-outline" size={12} color="#64748b" />
+                      <Ionicons name="document-text-outline" size={12} color={color.textFaint} />
                       <Text style={styles.textMeta}>{text.wordCount} {t('common.words')}</Text>
                     </View>
-                    <Ionicons name="chevron-forward" size={18} color="#64748b" />
+                    <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
                   </View>
                 </View>
               </Pressable>
@@ -264,8 +266,8 @@ export default function ReadingScreen() {
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <View style={styles.sectionTitleRow}>
-              <View style={[styles.levelBadge, { backgroundColor: '#6366f120' }]}>
-                <Ionicons name="trending-up" size={16} color="#6366f1" />
+              <View style={[styles.levelBadge, { backgroundColor: withAlpha(color.accentStrong, 0.13) }]}>
+                <Ionicons name="trending-up" size={16} color={color.accentStrong} />
               </View>
               <Text style={styles.sectionTitle}>{t('common.intermediate')}</Text>
               <Text style={styles.sectionTitleAr}>الْمُتَوَسِّط</Text>
@@ -288,20 +290,20 @@ export default function ReadingScreen() {
                   <View style={styles.textHeader}>
                     <Text style={styles.textTitle}>{lc(text.title, text.titleFr)}</Text>
                     {status === 'completed' && (
-                      <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                      <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                     )}
                     {status === 'in_progress' && (
-                      <Ionicons name="time" size={20} color="#D4AF37" />
+                      <Ionicons name="time" size={20} color={color.sacred} />
                     )}
                   </View>
                   <Text style={styles.textTitleAr}>{text.titleArabic}</Text>
                   <Text style={styles.textPreview}>{text.preview}</Text>
                   <View style={styles.textMetaRow}>
                     <View style={styles.wordCountBadge}>
-                      <Ionicons name="document-text-outline" size={12} color="#64748b" />
+                      <Ionicons name="document-text-outline" size={12} color={color.textFaint} />
                       <Text style={styles.textMeta}>{text.wordCount} {t('common.words')}</Text>
                     </View>
-                    <Ionicons name="chevron-forward" size={18} color="#64748b" />
+                    <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
                   </View>
                 </View>
               </Pressable>
@@ -313,8 +315,8 @@ export default function ReadingScreen() {
         <View style={[styles.section, { marginBottom: 100 }]}>
           <View style={styles.sectionHeader}>
             <View style={styles.sectionTitleRow}>
-              <View style={[styles.levelBadge, { backgroundColor: '#D4AF3720' }]}>
-                <Ionicons name="trophy" size={16} color="#D4AF37" />
+              <View style={[styles.levelBadge, { backgroundColor: withAlpha(color.sacred, 0.13) }]}>
+                <Ionicons name="trophy" size={16} color={color.sacred} />
               </View>
               <Text style={styles.sectionTitle}>{t('common.advanced')}</Text>
               <Text style={styles.sectionTitleAr}>الْمُتَقَدِّم</Text>
@@ -337,20 +339,20 @@ export default function ReadingScreen() {
                   <View style={styles.textHeader}>
                     <Text style={styles.textTitle}>{lc(text.title, text.titleFr)}</Text>
                     {status === 'completed' && (
-                      <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                      <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                     )}
                     {status === 'in_progress' && (
-                      <Ionicons name="time" size={20} color="#D4AF37" />
+                      <Ionicons name="time" size={20} color={color.sacred} />
                     )}
                   </View>
                   <Text style={styles.textTitleAr}>{text.titleArabic}</Text>
                   <Text style={styles.textPreview}>{text.preview}</Text>
                   <View style={styles.textMetaRow}>
                     <View style={styles.wordCountBadge}>
-                      <Ionicons name="document-text-outline" size={12} color="#64748b" />
+                      <Ionicons name="document-text-outline" size={12} color={color.textFaint} />
                       <Text style={styles.textMeta}>{text.wordCount} {t('common.words')}</Text>
                     </View>
-                    <Ionicons name="chevron-forward" size={18} color="#64748b" />
+                    <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
                   </View>
                 </View>
               </Pressable>
@@ -365,7 +367,7 @@ export default function ReadingScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -377,8 +379,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -389,24 +391,26 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#10b981',
+    color: color.progress,
     marginTop: 4,
   },
   introCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     marginBottom: 16,
     flexDirection: 'row',
     overflow: 'hidden',
   },
   introCardBorder: {
     width: 4,
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   introCardContent: {
     flex: 1,
@@ -421,18 +425,18 @@ const styles = StyleSheet.create({
   introTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 6,
   },
   introText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 20,
   },
   vowelToggle: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
@@ -449,39 +453,39 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   vowelTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
   vowelDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginTop: 2,
   },
   toggle: {
     width: 48,
     height: 28,
-    borderRadius: 14,
-    backgroundColor: '#334155',
+    borderRadius: radius.md,
+    backgroundColor: color.surfaceRaised,
     padding: 2,
   },
   toggleActive: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   toggleThumb: {
     width: 24,
     height: 24,
-    borderRadius: 12,
-    backgroundColor: '#94a3b8',
+    borderRadius: radius.md,
+    backgroundColor: color.textMuted,
   },
   toggleThumbActive: {
-    backgroundColor: '#ffffff',
+    backgroundColor: color.text,
     marginLeft: 20,
   },
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
   },
@@ -492,7 +496,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   progressTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -508,22 +512,22 @@ const styles = StyleSheet.create({
   progressValue: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   progressLabel: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 4,
   },
   progressDivider: {
     width: 1,
     height: 40,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   arabicCardWrap: {
     marginHorizontal: 20,
     marginBottom: 24,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     overflow: 'hidden',
   },
   arabicCard: {
@@ -534,14 +538,17 @@ const styles = StyleSheet.create({
   arabicIconWrap: {
     width: 44,
     height: 44,
-    borderRadius: 12,
+    borderRadius: radius.md,
     backgroundColor: 'rgba(255,255,255,0.22)',
     alignItems: 'center',
     justifyContent: 'center',
   },
   arabicTextWrap: { flex: 1, marginLeft: 14 },
-  arabicTitle: { fontSize: 15.5, fontWeight: '700', color: '#ffffff' },
+  arabicTitle: {
+    fontFamily: font.arabic,
+    lineHeight: 26, fontSize: 15.5, fontWeight: '700', color: color.text },
   arabicSubtitle: {
+    fontFamily: font.arabic,
     fontSize: 12,
     color: 'rgba(255,255,255,0.9)',
     marginTop: 3,
@@ -566,26 +573,26 @@ const styles = StyleSheet.create({
   levelBadge: {
     width: 32,
     height: 32,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
   sectionTitleAr: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   sectionCount: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   textCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     marginBottom: 12,
     overflow: 'hidden',
     flexDirection: 'row',
@@ -597,7 +604,7 @@ const styles = StyleSheet.create({
   textIconContainer: {
     width: 48,
     height: 48,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -613,18 +620,18 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   textTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     flex: 1,
   },
   textTitleAr: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     marginTop: 2,
   },
   textPreview: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     marginTop: 8,
   },
@@ -640,7 +647,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   textMeta: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
 });

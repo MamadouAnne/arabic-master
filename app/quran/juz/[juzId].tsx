@@ -14,6 +14,8 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { LinearGradient } from 'expo-linear-gradient';
 import { JUZ_LESSONS, getJuzLesson } from '../../../src/data/arabic/quran/lessons/juzLessons';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 // Expandable Section Component
 function ExpandableSection({
@@ -44,7 +46,7 @@ function ExpandableSection({
         <Ionicons
           name={expanded ? 'chevron-up' : 'chevron-down'}
           size={20}
-          color="#64748b"
+          color={color.textFaint}
         />
       </Pressable>
       {expanded && <View style={styles.expandableContent}>{children}</View>}
@@ -89,7 +91,7 @@ function VerseCard({
       <Text style={styles.verseArabic}>{verse.arabic}</Text>
       <Text style={styles.verseTranslation}>"{lc(verse.translation, verse.translationFr)}"</Text>
       <View style={styles.verseReference}>
-        <Ionicons name="bookmark" size={12} color="#3b82f6" />
+        <Ionicons name="bookmark" size={12} color={color.accent} />
         <Text style={styles.verseReferenceText}>{verse.reference}</Text>
       </View>
     </View>
@@ -142,7 +144,7 @@ export default function JuzDetailScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.headerText}>{t('juzFeature.juz')} {juz.id}</Text>
@@ -234,7 +236,7 @@ export default function JuzDetailScreen() {
           <ExpandableSection
             title={t('juzFeature.keyThemes')}
             icon="bulb"
-            iconColor="#f59e0b"
+            iconColor={color.warning}
             defaultExpanded={true}
           >
             <View style={styles.themesList}>
@@ -251,13 +253,13 @@ export default function JuzDetailScreen() {
           <ExpandableSection
             title={t('juzFeature.highlights')}
             icon="star"
-            iconColor="#3b82f6"
+            iconColor={color.accent}
             defaultExpanded={true}
           >
             <View style={styles.highlightsList}>
               {lcArray(juz.highlights, juz.highlightsFr).map((highlight, index) => (
                 <View key={index} style={styles.highlightCard}>
-                  <Ionicons name="checkmark-circle" size={18} color="#22c55e" />
+                  <Ionicons name="checkmark-circle" size={18} color={color.progress} />
                   <Text style={styles.highlightText}>{highlight}</Text>
                 </View>
               ))}
@@ -269,7 +271,7 @@ export default function JuzDetailScreen() {
             <ExpandableSection
               title={t('juzFeature.famousVerses')}
               icon="heart"
-              iconColor="#ec4899"
+              iconColor={color.accent}
               defaultExpanded={true}
             >
               {juz.famousVerses.map((verse, index) => (
@@ -283,13 +285,13 @@ export default function JuzDetailScreen() {
             <StaticSection
               title={t('juzFeature.storiesNarratives')}
               icon="book"
-              iconColor="#8b5cf6"
+              iconColor={color.accent}
             >
               <View style={styles.storiesList}>
                 {lcArray(juz.stories!, juz.storiesFr).map((story, index) => (
                   <View key={index} style={styles.storyItem}>
                     <View style={styles.storyIcon}>
-                      <Ionicons name="chatbubbles" size={14} color="#8b5cf6" />
+                      <Ionicons name="chatbubbles" size={14} color={color.accent} />
                     </View>
                     <Text style={styles.storyText}>{story}</Text>
                   </View>
@@ -302,12 +304,12 @@ export default function JuzDetailScreen() {
           <StaticSection
             title={t('juzFeature.memorizationGuide')}
             icon="school"
-            iconColor="#22c55e"
+            iconColor={color.progress}
           >
             <View style={styles.memorizationContent}>
               <View style={styles.memorizationHeader}>
                 <View style={styles.memorizationStat}>
-                  <Ionicons name="time" size={20} color="#3b82f6" />
+                  <Ionicons name="time" size={20} color={color.accent} />
                   <Text style={styles.memorizationStatValue}>
                     ~{juz.memorization.estimatedDays}
                   </Text>
@@ -379,7 +381,7 @@ export default function JuzDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -397,7 +399,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   headerNav: {
     flexDirection: 'row',
@@ -406,8 +408,8 @@ const styles = StyleSheet.create({
   navArrow: {
     width: 32,
     height: 32,
-    borderRadius: 8,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.sm,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -416,7 +418,7 @@ const styles = StyleSheet.create({
   },
   heroCard: {
     marginHorizontal: 20,
-    borderRadius: 24,
+    borderRadius: radius.xl,
     overflow: 'hidden',
     marginBottom: 24,
   },
@@ -427,7 +429,7 @@ const styles = StyleSheet.create({
   heroNumber: {
     width: 64,
     height: 64,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     backgroundColor: 'rgba(255,255,255,0.2)',
     alignItems: 'center',
     justifyContent: 'center',
@@ -436,14 +438,16 @@ const styles = StyleSheet.create({
   heroNumberText: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   heroNameEnglish: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   heroNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 48,
     fontSize: 28,
     color: 'rgba(255,255,255,0.9)',
     marginTop: 8,
@@ -482,7 +486,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     gap: 6,
   },
   difficultyText: {
@@ -494,8 +498,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   expandableSection: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     marginBottom: 12,
     overflow: 'hidden',
   },
@@ -513,7 +517,7 @@ const styles = StyleSheet.create({
   sectionIcon: {
     width: 36,
     height: 36,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -521,7 +525,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginLeft: 12,
   },
   expandableContent: {
@@ -540,13 +544,13 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
     marginTop: 6,
   },
   themeText: {
     flex: 1,
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   highlightsList: {
@@ -555,28 +559,29 @@ const styles = StyleSheet.create({
   highlightCard: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    backgroundColor: '#22c55e10',
+    backgroundColor: withAlpha(color.progress, 0.06),
     padding: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
     gap: 10,
   },
   highlightText: {
     flex: 1,
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 20,
   },
   verseCard: {
-    backgroundColor: '#0f172a',
-    borderRadius: 16,
+    backgroundColor: color.bg,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     borderLeftWidth: 3,
-    borderLeftColor: '#ec4899',
+    borderLeftColor: color.accent,
   },
   verseArabic: {
+    fontFamily: font.arabic,
     fontSize: 22,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'right',
     lineHeight: 38,
     marginBottom: 12,
@@ -584,7 +589,7 @@ const styles = StyleSheet.create({
   },
   verseTranslation: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontStyle: 'italic',
     lineHeight: 22,
     marginBottom: 12,
@@ -596,7 +601,7 @@ const styles = StyleSheet.create({
   },
   verseReferenceText: {
     fontSize: 12,
-    color: '#3b82f6',
+    color: color.accent,
     fontWeight: '500',
   },
   storiesList: {
@@ -610,23 +615,23 @@ const styles = StyleSheet.create({
   storyIcon: {
     width: 32,
     height: 32,
-    borderRadius: 8,
-    backgroundColor: '#8b5cf620',
+    borderRadius: radius.sm,
+    backgroundColor: withAlpha(color.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   storyText: {
     flex: 1,
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
   },
   memorizationContent: {
     gap: 16,
   },
   memorizationHeader: {
     flexDirection: 'row',
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 16,
   },
   memorizationStat: {
@@ -637,22 +642,22 @@ const styles = StyleSheet.create({
   memorizationStatValue: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     textTransform: 'capitalize',
   },
   memorizationStatLabel: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   memorizationStatDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 16,
   },
   tipsTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 8,
   },
   tipCard: {
@@ -663,20 +668,20 @@ const styles = StyleSheet.create({
   tipNumber: {
     width: 24,
     height: 24,
-    borderRadius: 8,
-    backgroundColor: '#22c55e20',
+    borderRadius: radius.sm,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   tipNumberText: {
     fontSize: 12,
     fontWeight: 'bold',
-    color: '#22c55e',
+    color: color.progress,
   },
   tipText: {
     flex: 1,
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   quickNav: {
@@ -686,7 +691,7 @@ const styles = StyleSheet.create({
   quickNavTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 12,
   },
   quickNavContent: {
@@ -695,21 +700,21 @@ const styles = StyleSheet.create({
   quickNavItem: {
     width: 40,
     height: 40,
-    borderRadius: 10,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.sm,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
   quickNavItemActive: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: color.accent,
   },
   quickNavText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   quickNavTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   errorContainer: {
     flex: 1,
@@ -718,17 +723,17 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 18,
-    color: '#ef4444',
+    color: color.danger,
     marginBottom: 20,
   },
   backButtonError: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: color.accent,
     paddingHorizontal: 20,
     paddingVertical: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   backButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
 });

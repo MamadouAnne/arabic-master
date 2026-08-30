@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
+import { font, color, radius } from '../../theme/tokens';
 
 export interface QuizIntroFeature {
   icon: string;
@@ -53,14 +54,14 @@ export function QuizIntro({
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <Pressable style={styles.backButton} onPress={onBack} hitSlop={8}>
-        <Ionicons name="arrow-back" size={24} color="#94a3b8" />
+        <Ionicons name="arrow-back" size={24} color={color.textMuted} />
       </Pressable>
 
       <View style={styles.content}>
         {/* Hero */}
         <View style={styles.heroOuter}>
           <View style={styles.heroInner}>
-            <Ionicons name={icon as any} size={48} color="#D4AF37" />
+            <Ionicons name={icon as any} size={48} color={color.sacred} />
           </View>
         </View>
 
@@ -70,7 +71,7 @@ export function QuizIntro({
 
         {error ? (
           <View style={styles.errorCard}>
-            <Ionicons name="warning" size={24} color="#f97316" />
+            <Ionicons name="warning" size={24} color={color.warning} />
             <Text style={styles.errorText}>{error}</Text>
             <Pressable style={styles.retryButton} onPress={onRetry}>
               <Text style={styles.retryButtonText}>{retryLabel}</Text>
@@ -95,7 +96,7 @@ export function QuizIntro({
             {features.map((f, i) => (
               <View key={i} style={[styles.featureItem, i > 0 && styles.featureItemBorder]}>
                 <View style={styles.featureIconChip}>
-                  <Ionicons name={f.icon as any} size={17} color="#818cf8" />
+                  <Ionicons name={f.icon as any} size={17} color={color.accent} />
                 </View>
                 <Text style={styles.featureText}>{f.text}</Text>
               </View>
@@ -106,7 +107,7 @@ export function QuizIntro({
         {!error && (
           <Pressable style={styles.startButton} onPress={onStart}>
             <Text style={styles.startButtonText}>{startLabel}</Text>
-            <Ionicons name="arrow-forward" size={20} color="#0f172a" />
+            <Ionicons name="arrow-forward" size={20} color={color.textOnAccent} />
           </Pressable>
         )}
       </View>
@@ -119,7 +120,7 @@ const GOLD = '#D4AF37';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   backButton: {
     position: 'absolute',
@@ -159,11 +160,12 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     fontWeight: '800',
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     letterSpacing: 0.2,
   },
   titleArabic: {
+    fontFamily: font.arabic,
     fontSize: 24,
     lineHeight: 40,
     color: GOLD,
@@ -173,7 +175,7 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 15,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     lineHeight: 23,
     marginTop: 14,
@@ -182,10 +184,10 @@ const styles = StyleSheet.create({
   // Feature card
   featureCard: {
     width: '100%',
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingHorizontal: 18,
     marginTop: 28,
   },
@@ -202,7 +204,7 @@ const styles = StyleSheet.create({
   featureIconChip: {
     width: 36,
     height: 36,
-    borderRadius: 11,
+    borderRadius: radius.md,
     backgroundColor: 'rgba(129, 140, 248, 0.12)',
     alignItems: 'center',
     justifyContent: 'center',
@@ -210,14 +212,14 @@ const styles = StyleSheet.create({
   featureText: {
     flex: 1,
     fontSize: 15,
-    color: '#e2e8f0',
+    color: color.text,
     fontWeight: '500',
   },
 
   // Attempt stats
   attemptText: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginTop: 24,
     lineHeight: 21,
@@ -230,24 +232,24 @@ const styles = StyleSheet.create({
   },
   statBox: {
     flex: 1,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingVertical: 16,
     alignItems: 'center',
   },
   statValue: {
     fontSize: 26,
     fontWeight: '800',
-    color: '#ffffff',
+    color: color.text,
   },
   statValueGold: {
     color: GOLD,
   },
   statLabel: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 4,
   },
 
@@ -258,26 +260,26 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(249, 115, 22, 0.1)',
     borderWidth: 1,
     borderColor: 'rgba(249, 115, 22, 0.4)',
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginTop: 24,
   },
   errorText: {
     fontSize: 14,
-    color: '#f97316',
+    color: color.warning,
     textAlign: 'center',
     marginTop: 12,
     marginBottom: 16,
   },
   retryButton: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingVertical: 12,
     paddingHorizontal: 24,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   retryButtonText: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
 
@@ -289,7 +291,7 @@ const styles = StyleSheet.create({
     gap: 8,
     backgroundColor: GOLD,
     paddingVertical: 17,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     width: '100%',
     marginTop: 32,
     shadowColor: GOLD,
@@ -301,6 +303,6 @@ const styles = StyleSheet.create({
   startButtonText: {
     fontSize: 18,
     fontWeight: '800',
-    color: '#0f172a',
+    color: color.textOnAccent,
   },
 });

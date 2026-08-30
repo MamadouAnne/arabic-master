@@ -8,6 +8,8 @@ import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { getAllPrayerLessons } from '../../../src/data/arabic/prayer';
 import { usePrayerStore } from '../../../src/stores/prayerStore';
 import { PrayerCategory, PrayerLesson } from '../../../src/types/prayer';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 type TabFilter = 'prayer_guide' | 'sujud_sahw';
 
@@ -36,7 +38,7 @@ export default function PrayerIndexScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.title}>{t('prayerFeature.title')}</Text>
@@ -48,7 +50,7 @@ export default function PrayerIndexScreen() {
       {/* Progress Card */}
       <View style={styles.progressCard}>
         <View style={styles.progressIconContainer}>
-          <Ionicons name="checkmark-done-circle" size={28} color="#10b981" />
+          <Ionicons name="checkmark-done-circle" size={28} color={color.progress} />
         </View>
         <View style={styles.progressContent}>
           <Text style={styles.progressTitle}>{t('prayerFeature.progress')}</Text>
@@ -125,7 +127,7 @@ export default function PrayerIndexScreen() {
             >
               <View style={[styles.lessonOrder, { backgroundColor: lesson.color + '20' }]}>
                 {completed ? (
-                  <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+                  <Ionicons name="checkmark-circle" size={24} color={color.progress} />
                 ) : (
                   <Text style={[styles.lessonOrderText, { color: lesson.color }]}>
                     {lesson.order}
@@ -142,18 +144,18 @@ export default function PrayerIndexScreen() {
                 </Text>
                 <View style={styles.lessonMeta}>
                   <View style={styles.lessonMetaItem}>
-                    <Ionicons name="time-outline" size={12} color="#64748b" />
+                    <Ionicons name="time-outline" size={12} color={color.textFaint} />
                     <Text style={styles.lessonMetaText}>{lesson.estimatedMinutes} {t('prayerFeature.min')}</Text>
                   </View>
                   <View style={styles.lessonMetaItem}>
-                    <Ionicons name={lesson.icon as any} size={12} color="#64748b" />
+                    <Ionicons name={lesson.icon as any} size={12} color={color.textFaint} />
                     <Text style={styles.lessonMetaText}>
                       {lesson.content.length} {t('prayerFeature.sections')}
                     </Text>
                   </View>
                 </View>
               </View>
-              <Ionicons name="chevron-forward" size={20} color="#64748b" />
+              <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
             </Pressable>
           );
         })}
@@ -166,7 +168,7 @@ export default function PrayerIndexScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -174,7 +176,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   backButton: {
     padding: 8,
@@ -186,11 +188,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#10b981',
+    color: color.progress,
     marginTop: 2,
   },
   headerSpacer: {
@@ -199,19 +203,19 @@ const styles = StyleSheet.create({
   progressCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 16,
     marginTop: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   progressIconContainer: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -222,23 +226,23 @@ const styles = StyleSheet.create({
   progressTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   progressSubtitle: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 2,
   },
   progressPercent: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   progressPercentText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#10b981',
+    color: color.progress,
   },
   tabContainer: {
     flexDirection: 'row',
@@ -253,53 +257,53 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingVertical: 10,
     paddingHorizontal: 12,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     gap: 6,
   },
   tabActiveGreen: {
-    backgroundColor: '#10b98115',
-    borderColor: '#10b981',
+    backgroundColor: withAlpha(color.progress, 0.08),
+    borderColor: color.progress,
   },
   tabActiveGold: {
-    backgroundColor: '#D4AF3715',
-    borderColor: '#D4AF37',
+    backgroundColor: withAlpha(color.sacred, 0.08),
+    borderColor: color.sacred,
   },
   tabText: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   tabTextActiveGreen: {
-    color: '#10b981',
+    color: color.progress,
   },
   tabTextActiveGold: {
-    color: '#D4AF37',
+    color: color.sacred,
   },
   tabBadge: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 6,
     paddingVertical: 1,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   tabBadgeActiveGreen: {
-    backgroundColor: '#10b98130',
+    backgroundColor: withAlpha(color.progress, 0.19),
   },
   tabBadgeActiveGold: {
-    backgroundColor: '#D4AF3730',
+    backgroundColor: withAlpha(color.sacred, 0.19),
   },
   tabBadgeText: {
     fontSize: 10,
     fontWeight: '700',
-    color: '#64748b',
+    color: color.textFaint,
   },
   tabBadgeTextActiveGreen: {
-    color: '#10b981',
+    color: color.progress,
   },
   tabBadgeTextActiveGold: {
-    color: '#D4AF37',
+    color: color.sacred,
   },
   listContainer: {
     flex: 1,
@@ -311,8 +315,8 @@ const styles = StyleSheet.create({
   lessonCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 10,
     gap: 12,
@@ -320,7 +324,7 @@ const styles = StyleSheet.create({
   lessonOrder: {
     width: 44,
     height: 44,
-    borderRadius: 22,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -340,15 +344,17 @@ const styles = StyleSheet.create({
   lessonTitle: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   lessonTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: color.sacred,
   },
   lessonDescription: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     lineHeight: 18,
   },
@@ -364,6 +370,6 @@ const styles = StyleSheet.create({
   },
   lessonMetaText: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
   },
 });

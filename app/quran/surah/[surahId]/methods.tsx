@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { getSurahById } from '../../../../src/data/arabic/quran';
 import { useQuranStore } from '../../../../src/stores/quranStore';
 import { LEARNING_METHODS, LearningMethodOption, AgeGroup } from '../../../../src/types/learningMethod';
+import { font, color, radius } from '../../../../src/theme/tokens';
 
 export default function MethodPickerScreen() {
   const { t } = useTranslation();
@@ -43,7 +44,7 @@ export default function MethodPickerScreen() {
           accessibilityRole="button"
           accessibilityLabel={t('common.back')}
         >
-          <Ionicons name="arrow-back" size={24} color="#f5f5f0" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -109,7 +110,7 @@ export default function MethodPickerScreen() {
 
               {/* Right indicator */}
               <View style={styles.rightIndicator}>
-                <Ionicons name="chevron-forward" size={20} color="#a3a398" />
+                <Ionicons name="chevron-forward" size={20} color={color.textMuted} />
               </View>
             </View>
           </Pressable>
@@ -122,10 +123,10 @@ export default function MethodPickerScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorText: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 16,
@@ -144,12 +145,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 37,
+    color: color.sacred,
     fontSize: 22,
     fontWeight: 'bold',
   },
   subtitle: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 14,
     marginTop: 4,
   },
@@ -165,11 +168,11 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   methodCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     overflow: 'hidden',
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   accentBorder: {
     position: 'absolute',
@@ -190,7 +193,7 @@ const styles = StyleSheet.create({
   iconCircle: {
     width: 48,
     height: 48,
-    borderRadius: 24,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -198,19 +201,19 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   methodName: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   methodDesc: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 13,
     marginTop: 3,
     lineHeight: 18,
   },
   bestForBadge: {
     alignSelf: 'flex-start',
-    borderRadius: 10,
+    borderRadius: radius.sm,
     paddingHorizontal: 10,
     paddingVertical: 3,
     marginTop: 8,
@@ -226,7 +229,7 @@ const styles = StyleSheet.create({
     marginTop: 6,
   },
   agePill: {
-    borderRadius: 10,
+    borderRadius: radius.sm,
     paddingHorizontal: 8,
     paddingVertical: 2,
   },

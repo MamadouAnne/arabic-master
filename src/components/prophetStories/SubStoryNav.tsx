@@ -2,6 +2,8 @@ import React, { useRef, useEffect } from 'react';
 import { View, Text, Pressable, ScrollView, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SubStory } from '../../types/prophetStories';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface SubStoryNavProps {
   subStories: SubStory[];
@@ -90,7 +92,7 @@ export function SubStoryNav({
                     {subStory.title}
                   </Text>
                   {isCompleted && !isActive && (
-                    <Ionicons name="checkmark-circle" size={12} color="#10b981" style={styles.checkIcon} />
+                    <Ionicons name="checkmark-circle" size={12} color={color.progress} style={styles.checkIcon} />
                   )}
                 </View>
               </Pressable>
@@ -135,9 +137,9 @@ export function SubStoryNav({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
     paddingVertical: 8,
   },
   navRow: {
@@ -148,14 +150,14 @@ const styles = StyleSheet.create({
   arrowButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#334155',
+    borderRadius: radius.lg,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 4,
   },
   arrowButtonDisabled: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
   },
   tabsContainer: {
     paddingHorizontal: 4,
@@ -164,17 +166,17 @@ const styles = StyleSheet.create({
   tab: {
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#334155',
+    borderRadius: radius.xl,
+    backgroundColor: color.surfaceRaised,
     minWidth: 80,
   },
   tabActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   tabCompleted: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     borderWidth: 1,
-    borderColor: '#10b98140',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   tabContent: {
     flexDirection: 'row',
@@ -182,16 +184,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   tabText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '500',
     textAlign: 'center',
   },
   tabTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   tabTextCompleted: {
-    color: '#10b981',
+    color: color.progress,
   },
   checkIcon: {
     marginLeft: 4,
@@ -204,7 +206,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   progressText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
   progressDots: {
@@ -215,14 +217,14 @@ const styles = StyleSheet.create({
     width: 6,
     height: 6,
     borderRadius: 3,
-    backgroundColor: '#475569',
+    backgroundColor: color.borderStrong,
   },
   dotActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     width: 16,
   },
   dotCompleted: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
 });
 

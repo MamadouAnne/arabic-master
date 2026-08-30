@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, Animated } from 'react-native';
+import { font, color, radius } from '../../theme/tokens';
 
 const REACTIONS = ['❤️', '👍', '🤲', '🔥', 'ماشاءالله', 'بارك الله'];
 
@@ -50,11 +51,13 @@ function ReactionButton({ emoji, onPress }: { emoji: string; onPress: () => void
 
 const styles = StyleSheet.create({
   overlay: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 100 },
-  container: { flexDirection: 'row', backgroundColor: '#1e293b', borderRadius: 28, paddingHorizontal: 8, paddingVertical: 6, borderWidth: 1, borderColor: '#334155', shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.3, shadowRadius: 8, elevation: 8, position: 'absolute', top: '40%', alignSelf: 'center', gap: 4 },
+  container: { flexDirection: 'row', backgroundColor: color.surface, borderRadius: 28, paddingHorizontal: 8, paddingVertical: 6, borderWidth: 1, borderColor: color.border, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.3, shadowRadius: 8, elevation: 8, position: 'absolute', top: '40%', alignSelf: 'center', gap: 4 },
   containerInline: { position: 'relative', top: 0, shadowOpacity: 0, elevation: 0, borderWidth: 0, backgroundColor: 'transparent' },
-  emojiBtn: { width: 44, height: 44, borderRadius: 22, alignItems: 'center', justifyContent: 'center', backgroundColor: '#0f172a' },
+  emojiBtn: { width: 44, height: 44, borderRadius: radius.xl, alignItems: 'center', justifyContent: 'center', backgroundColor: color.bg },
   emoji: { fontSize: 22 },
-  arabicEmoji: { fontSize: 11, fontWeight: '700', color: '#f59e0b' },
+  arabicEmoji: {
+    fontFamily: font.arabic,
+    lineHeight: 19, fontSize: 11, fontWeight: '700', color: color.warning },
 });
 
 export { REACTIONS };

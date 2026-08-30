@@ -1,6 +1,7 @@
 import { Text, TextProps, Pressable, View, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useProgressStore } from '../../stores/progressStore';
+import { color, font, radius, space, type } from '../../theme/tokens';
 
 interface ArabicTextProps extends TextProps {
   children: string;
@@ -11,26 +12,31 @@ interface ArabicTextProps extends TextProps {
   isPlaying?: boolean;
   color?: string;
   centered?: boolean;
+  /** Use the AmiriQuran cut, spaced for dense Quranic vocalisation. */
+  quranic?: boolean;
 }
 
+// Amiri renders optically smaller than the system face, so each step is set a
+// little larger than the previous system-font values, with extra leading to
+// clear stacked harakat.
 const fontSizes = {
-  sm: 16,
-  md: 20,
-  lg: 24,
-  xl: 28,
-  '2xl': 34,
-  '3xl': 42,
-  '4xl': 52,
+  sm: 17,
+  md: 21,
+  lg: 25,
+  xl: 30,
+  '2xl': 36,
+  '3xl': 44,
+  '4xl': 54,
 };
 
 const lineHeights = {
-  sm: 28,
-  md: 36,
-  lg: 42,
-  xl: 48,
-  '2xl': 58,
-  '3xl': 72,
-  '4xl': 88,
+  sm: 30,
+  md: 38,
+  lg: 46,
+  xl: 54,
+  '2xl': 64,
+  '3xl': 80,
+  '4xl': 96,
 };
 
 export function ArabicText({
@@ -40,8 +46,9 @@ export function ArabicText({
   showSpeaker = false,
   onPlayAudio,
   isPlaying = false,
-  color = '#ffffff',
+  color: textColor = color.text,
   centered = false,
+  quranic = false,
   style,
   ...props
 }: ArabicTextProps) {
@@ -52,10 +59,12 @@ export function ArabicText({
 
   const textStyle = StyleSheet.flatten([
     {
-      fontFamily: 'System', // Will use Amiri when loaded
+      // Amiri (naskh) app-wide; the AmiriQuran cut for verses, which is spaced
+      // so dense vocalisation does not collide.
+      fontFamily: quranic ? font.quran : font.arabic,
       fontSize: fontSizes[size],
       lineHeight: lineHeights[size],
-      color,
+      color: textColor,
       writingDirection: 'rtl' as const,
       textAlign: centered ? 'center' as const : 'right' as const,
     },
@@ -81,7 +90,7 @@ export function ArabicText({
           <Ionicons
             name={isPlaying ? 'volume-high' : 'volume-medium'}
             size={18}
-            color={isPlaying ? '#ffffff' : '#D4AF37'}
+            color={isPlaying ? color.text : color.sacred}
           />
         </Pressable>
         {textElement}
@@ -122,7 +131,7 @@ export function TappableArabicText({
             <Ionicons
               name="volume-medium"
               size={14}
-              color={isPlaying ? '#ffffff' : '#D4AF37'}
+              color={isPlaying ? color.text : color.sacred}
             />
           </View>
         )}
@@ -162,7 +171,7 @@ export function ArabicDisplay({
           size={size}
           withVowels={textWithVowels}
           centered
-          color="#ffffff"
+          color={color.text}
         >
           {text}
         </ArabicText>
@@ -171,7 +180,7 @@ export function ArabicDisplay({
             <Ionicons
               name={isPlaying ? 'volume-high' : 'volume-medium'}
               size={24}
-              color={isPlaying ? '#ffffff' : '#D4AF37'}
+              color={isPlaying ? color.text : color.sacred}
             />
           </View>
         )}
@@ -194,14 +203,14 @@ const styles = StyleSheet.create({
   speakerButton: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#334155',
+    borderRadius: radius.full,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight: 8,
+    marginRight: space.sm,
   },
   speakerButtonActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   tappable: {
     opacity: 1,
@@ -213,18 +222,18 @@ const styles = StyleSheet.create({
   miniSpeaker: {
     width: 24,
     height: 24,
-    borderRadius: 12,
-    backgroundColor: '#334155',
+    borderRadius: radius.full,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
-    marginLeft: 8,
+    marginLeft: space.sm,
   },
   miniSpeakerActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   displayContainer: {
     alignItems: 'center',
-    paddingVertical: 20,
+    paddingVertical: space.xl,
   },
   displayPressable: {
     alignItems: 'center',
@@ -232,24 +241,24 @@ const styles = StyleSheet.create({
   displaySpeaker: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#334155',
+    borderRadius: radius.full,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: 16,
+    marginTop: space.lg,
   },
   displaySpeakerActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   transliteration: {
-    fontSize: 18,
-    color: '#D4AF37',
-    marginTop: 12,
+    ...type.bodyLarge,
+    color: color.sacred,
+    marginTop: space.md,
     fontStyle: 'italic',
   },
   translation: {
-    fontSize: 16,
-    color: '#94a3b8',
-    marginTop: 8,
+    ...type.body,
+    color: color.textMuted,
+    marginTop: space.sm,
   },
 });

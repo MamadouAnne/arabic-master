@@ -1,8 +1,28 @@
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { Platform } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTranslation } from 'react-i18next';
+import { color, type, weight } from '../../src/theme/tokens';
+
+/**
+ * Icons swap between outline and filled on selection, which is the platform
+ * convention and gives the active tab a second signal beyond colour. Previously
+ * each tab hardcoded one variant, so "Quran" read as permanently inactive.
+ */
+const ICONS: Record<string, { on: keyof typeof Ionicons.glyphMap; off: keyof typeof Ionicons.glyphMap }> = {
+  index: { on: 'home', off: 'home-outline' },
+  learn: { on: 'book', off: 'book-outline' },
+  community: { on: 'people', off: 'people-outline' },
+  quran: { on: 'bookmark', off: 'bookmark-outline' },
+  profile: { on: 'person', off: 'person-outline' },
+};
+
+function tabIcon(name: keyof typeof ICONS) {
+  return ({ color: tint, focused }: { color: string; focused: boolean }) => (
+    <Ionicons name={focused ? ICONS[name].on : ICONS[name].off} size={23} color={tint} />
+  );
+}
 
 export default function TabLayout() {
   const { t } = useTranslation();
@@ -14,66 +34,28 @@ export default function TabLayout() {
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
-          backgroundColor: '#1e293b',
-          borderTopColor: '#334155',
-          borderTopWidth: 1,
-          height: (Platform.OS === 'ios' ? 60 : 60) + bottomPadding,
+          backgroundColor: color.surface,
+          borderTopColor: color.border,
+          borderTopWidth: StyleSheet.hairlineWidth * 2,
+          height: 60 + bottomPadding,
           paddingBottom: bottomPadding,
           paddingTop: 10,
+          elevation: 0,
         },
-        tabBarActiveTintColor: '#818cf8',
-        tabBarInactiveTintColor: '#64748b',
+        tabBarActiveTintColor: color.accent,
+        tabBarInactiveTintColor: color.textFaint,
         tabBarLabelStyle: {
-          fontSize: 11,
-          fontWeight: '600',
+          ...type.micro,
+          fontWeight: weight.semibold,
+          marginTop: 3,
         },
       }}
     >
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: t('tabs.home'),
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="learn"
-        options={{
-          title: t('tabs.learn'),
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="book" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="community"
-        options={{
-          title: t('tabs.community'),
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="people" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="quran"
-        options={{
-          title: t('tabs.quran'),
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="book-outline" size={size} color={color} />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="profile"
-        options={{
-          title: t('tabs.profile'),
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="person" size={size} color={color} />
-          ),
-        }}
-      />
+      <Tabs.Screen name="index" options={{ title: t('tabs.home'), tabBarIcon: tabIcon('index') }} />
+      <Tabs.Screen name="learn" options={{ title: t('tabs.learn'), tabBarIcon: tabIcon('learn') }} />
+      <Tabs.Screen name="community" options={{ title: t('tabs.community'), tabBarIcon: tabIcon('community') }} />
+      <Tabs.Screen name="quran" options={{ title: t('tabs.quran'), tabBarIcon: tabIcon('quran') }} />
+      <Tabs.Screen name="profile" options={{ title: t('tabs.profile'), tabBarIcon: tabIcon('profile') }} />
     </Tabs>
   );
 }

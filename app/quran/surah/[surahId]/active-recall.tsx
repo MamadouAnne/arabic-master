@@ -14,6 +14,8 @@ import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { ReviewRating } from '../../../../src/types/quran';
 import { quranAudioService, AudioState } from '../../../../src/services/quranAudioService';
 import { getHintText } from '../../../../src/utils/arabicTextUtils';
+import { font, color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 const METHOD_COLOR = '#ec4899';
 
@@ -739,7 +741,7 @@ export default function ActiveRecallScreen() {
             router.back();
           }}
         >
-          <Ionicons name="close" size={24} color="#f5f5f0" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -831,7 +833,7 @@ export default function ActiveRecallScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -839,7 +841,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   errorText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 100,
@@ -852,7 +854,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   closeButton: {
     padding: 8,
@@ -862,7 +864,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 34,
+    color: color.sacred,
     fontSize: 20,
     fontWeight: 'bold',
   },
@@ -878,7 +882,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   ayahCounterText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -888,18 +892,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 3,
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     paddingHorizontal: 8,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#f59e0b40',
+    borderColor: withAlpha(color.warning, 0.25),
   },
   streakEmoji: {
     fontSize: 14,
   },
   streakText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 13,
     fontWeight: '700',
   },
@@ -908,7 +912,7 @@ const styles = StyleSheet.create({
   audioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     backgroundColor: `${METHOD_COLOR}15`,
     alignItems: 'center',
     justifyContent: 'center',
@@ -920,7 +924,7 @@ const styles = StyleSheet.create({
   modeTabsScroll: {
     maxHeight: 52,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   modeTabsContent: {
     paddingHorizontal: 16,
@@ -930,17 +934,17 @@ const styles = StyleSheet.create({
   modeTab: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   modeTabActive: {
     backgroundColor: `${METHOD_COLOR}20`,
     borderColor: METHOD_COLOR,
   },
   modeTabText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -951,25 +955,25 @@ const styles = StyleSheet.create({
   // Sub-mode toggle (for fill-blank)
   subModeToggle: {
     flexDirection: 'row',
-    backgroundColor: '#0f172a',
-    borderRadius: 20,
+    backgroundColor: color.bg,
+    borderRadius: radius.xl,
     padding: 3,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   subModeTab: {
     flex: 1,
     paddingVertical: 6,
     paddingHorizontal: 12,
-    borderRadius: 17,
+    borderRadius: radius.lg,
     alignItems: 'center',
   },
   subModeTabActive: {
     backgroundColor: `${METHOD_COLOR}25`,
   },
   subModeTabText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     fontWeight: '600',
   },
@@ -990,11 +994,11 @@ const styles = StyleSheet.create({
 
   // Card
   card: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
     minHeight: 200,
   },
@@ -1009,7 +1013,7 @@ const styles = StyleSheet.create({
   ayahBadge: {
     paddingHorizontal: 14,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
     backgroundColor: `${METHOD_COLOR}15`,
   },
   ayahBadgeText: {
@@ -1020,7 +1024,7 @@ const styles = StyleSheet.create({
 
   // Translation hint (shown before reveal)
   translationHint: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     textAlign: 'center',
     lineHeight: 20,
@@ -1039,23 +1043,26 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   wordArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    color: color.sacred,
     fontSize: 28,
     lineHeight: 48,
   },
   wordArabicHint: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    color: color.sacred,
     fontSize: 28,
     lineHeight: 48,
     opacity: 0.8,
   },
   wordArabicRevealed: {
+    fontFamily: font.arabic,
     color: METHOD_COLOR,
     fontSize: 28,
     lineHeight: 48,
   },
   ellipsis: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 28,
     lineHeight: 48,
   },
@@ -1065,11 +1072,11 @@ const styles = StyleSheet.create({
     minWidth: 60,
     paddingHorizontal: 8,
     paddingVertical: 6,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     borderWidth: 1.5,
     borderStyle: 'dashed',
-    borderColor: '#334155',
-    backgroundColor: '#0f172a',
+    borderColor: color.border,
+    backgroundColor: color.bg,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1079,8 +1086,8 @@ const styles = StyleSheet.create({
     borderStyle: 'dashed' as const,
   },
   blankBoxCorrect: {
-    borderColor: '#10b981',
-    backgroundColor: '#10b98115',
+    borderColor: color.progress,
+    backgroundColor: withAlpha(color.progress, 0.08),
     borderStyle: 'solid' as const,
   },
   blankBoxIncorrect: {
@@ -1089,7 +1096,7 @@ const styles = StyleSheet.create({
     borderStyle: 'solid' as const,
   },
   blankText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 22,
     lineHeight: 36,
     textAlign: 'center',
@@ -1107,13 +1114,13 @@ const styles = StyleSheet.create({
   meaningSlotFilled: {
     paddingHorizontal: 8,
     paddingVertical: 4,
-    borderRadius: 8,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.sm,
+    backgroundColor: color.bg,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   meaningSlotText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 12,
     textAlign: 'center',
   },
@@ -1121,21 +1128,21 @@ const styles = StyleSheet.create({
     minWidth: 50,
     paddingHorizontal: 6,
     paddingVertical: 4,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     borderWidth: 1.5,
     borderStyle: 'dashed',
-    borderColor: '#334155',
-    backgroundColor: '#0f172a',
+    borderColor: color.border,
+    backgroundColor: color.bg,
     alignItems: 'center',
     justifyContent: 'center',
   },
   meaningBlankText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 12,
     textAlign: 'center',
   },
   meaningContextTranslation: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     textAlign: 'center',
     lineHeight: 18,
@@ -1145,7 +1152,7 @@ const styles = StyleSheet.create({
 
   // Instruction text
   instructionText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 13,
     textAlign: 'center',
     marginBottom: 16,
@@ -1160,7 +1167,7 @@ const styles = StyleSheet.create({
     backgroundColor: `${METHOD_COLOR}15`,
     paddingHorizontal: 28,
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}30`,
     marginTop: 8,
@@ -1181,13 +1188,13 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   translationText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 22,
     paddingTop: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     width: '100%',
     marginTop: 8,
   },
@@ -1203,7 +1210,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
   },
   detailCorrect: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontWeight: '600',
     textAlign: 'center',
@@ -1220,7 +1227,7 @@ const styles = StyleSheet.create({
     textDecorationLine: 'line-through',
   },
   detailExpected: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 12,
     textAlign: 'center',
   },
@@ -1231,10 +1238,10 @@ const styles = StyleSheet.create({
     marginTop: 16,
     paddingTop: 16,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   wordBankLabel: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 12,
     fontWeight: '600',
     textTransform: 'uppercase',
@@ -1257,7 +1264,7 @@ const styles = StyleSheet.create({
   wordBankPill: {
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 12,
+    borderRadius: radius.md,
     backgroundColor: `${METHOD_COLOR}15`,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}30`,
@@ -1270,7 +1277,7 @@ const styles = StyleSheet.create({
   wordBankPillMeaning: {
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     backgroundColor: `${METHOD_COLOR}15`,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}30`,
@@ -1283,11 +1290,11 @@ const styles = StyleSheet.create({
 
   // Word-by-word breakdown card
   breakdownCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   breakdownTitle: {
     color: METHOD_COLOR,
@@ -1305,27 +1312,29 @@ const styles = StyleSheet.create({
   breakdownWordItem: {
     alignItems: 'center',
     backgroundColor: `${METHOD_COLOR}10`,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 10,
     minWidth: 70,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}25`,
   },
   breakdownWordArabic: {
-    color: '#f5f5f0',
+    fontFamily: font.arabic,
+    lineHeight: 37,
+    color: color.text,
     fontSize: 22,
     fontWeight: '600',
     marginBottom: 4,
     writingDirection: 'rtl',
   },
   breakdownWordTranslit: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 11,
     fontStyle: 'italic',
     marginBottom: 2,
   },
   breakdownWordMeaning: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 10,
     textAlign: 'center',
     maxWidth: 90,
@@ -1348,7 +1357,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   fullRecallLabel: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     marginBottom: 8,
@@ -1359,7 +1368,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   ratingPrompt: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
     textAlign: 'center',
@@ -1374,7 +1383,7 @@ const styles = StyleSheet.create({
   ratingButton: {
     width: '30%',
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     borderWidth: 1,
     gap: 4,
@@ -1396,23 +1405,23 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 14,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   navButton: {
     width: 44,
     height: 44,
-    borderRadius: 22,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   navButtonDisabled: {
     opacity: 0.4,
   },
   navCounter: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '600',
   },

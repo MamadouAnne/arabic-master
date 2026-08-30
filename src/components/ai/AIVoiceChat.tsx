@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import { useVoiceChat, VoiceStatus } from '../../hooks/useVoiceChat';
 import { VoiceOrb } from './VoiceOrb';
 import { useAIChatStore } from '../../stores/aiChatStore';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface AIVoiceChatProps {
   onClose: () => void;
@@ -28,11 +30,11 @@ const STATUS_FALLBACK: Record<VoiceStatus, string> = {
 };
 
 const STATUS_COLOR: Record<VoiceStatus, string> = {
-  idle: '#64748b',
-  listening: '#3b82f6',
-  processing: '#f59e0b',
-  thinking: '#f59e0b',
-  speaking: '#10b981',
+  idle: color.textFaint,
+  listening: color.accent,
+  processing: color.warning,
+  thinking: color.warning,
+  speaking: color.progress,
 };
 
 export function AIVoiceChat({ onClose }: AIVoiceChatProps) {
@@ -57,12 +59,12 @@ export function AIVoiceChat({ onClose }: AIVoiceChatProps) {
       <View style={styles.header}>
         <View style={styles.headerLeft}>
           <View style={styles.voiceBadge}>
-            <Ionicons name="mic" size={12} color="#3b82f6" />
+            <Ionicons name="mic" size={12} color={color.accent} />
             <Text style={styles.voiceBadgeText}>{t('voice.mode', 'Voice Mode')}</Text>
           </View>
         </View>
         <Pressable onPress={onClose} style={styles.closeBtn} hitSlop={8}>
-          <Ionicons name="close" size={22} color="#94a3b8" />
+          <Ionicons name="close" size={22} color={color.textMuted} />
         </Pressable>
       </View>
 
@@ -108,7 +110,7 @@ export function AIVoiceChat({ onClose }: AIVoiceChatProps) {
 
           {!lastTranscript && !lastResponse && !isActive && (
             <Animated.View entering={FadeIn.duration(400)} style={styles.hintBox}>
-              <Ionicons name="information-circle-outline" size={18} color="#475569" />
+              <Ionicons name="information-circle-outline" size={18} color={color.textFaint} />
               <Text style={styles.hintText}>
                 {t('voice.hint', 'Tap the orb to start speaking. Tap again when done to get a response.')}
               </Text>
@@ -124,7 +126,7 @@ export function AIVoiceChat({ onClose }: AIVoiceChatProps) {
             style={styles.cancelWrap}
           >
             <TouchableOpacity style={styles.cancelButton} onPress={cancel}>
-              <Ionicons name="close" size={18} color="#fff" />
+              <Ionicons name="close" size={18} color={color.text} />
               <Text style={styles.cancelText}>{t('common.cancel', 'Cancel')}</Text>
             </TouchableOpacity>
           </Animated.View>
@@ -137,7 +139,7 @@ export function AIVoiceChat({ onClose }: AIVoiceChatProps) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -146,7 +148,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   headerLeft: {
     flexDirection: 'row',
@@ -157,15 +159,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    backgroundColor: '#3b82f615',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.accent, 0.08),
+    borderRadius: radius.md,
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderWidth: 1,
-    borderColor: '#3b82f630',
+    borderColor: withAlpha(color.accent, 0.19),
   },
   voiceBadgeText: {
-    color: '#3b82f6',
+    color: color.accent,
     fontSize: 12,
     fontWeight: '700',
   },
@@ -186,7 +188,7 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 13,
-    color: '#ef4444',
+    color: color.danger,
     marginBottom: 12,
     textAlign: 'center',
   },
@@ -200,55 +202,55 @@ const styles = StyleSheet.create({
     paddingBottom: 100,
   },
   transcriptBox: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   transcriptLabel: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 4,
     fontWeight: '600',
   },
   transcriptText: {
     fontSize: 15,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   responseBox: {
-    backgroundColor: '#0f172a',
-    borderRadius: 14,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   responseLabel: {
     fontSize: 11,
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 4,
     fontWeight: '600',
   },
   responseText: {
     fontSize: 15,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   hintBox: {
     flexDirection: 'row',
     alignItems: 'flex-start',
     gap: 8,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   hintText: {
     flex: 1,
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
     lineHeight: 19,
   },
   cancelWrap: {
@@ -262,12 +264,12 @@ const styles = StyleSheet.create({
     gap: 6,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    backgroundColor: '#ef4444',
-    borderRadius: 20,
+    backgroundColor: color.danger,
+    borderRadius: radius.xl,
   },
   cancelText: {
     fontSize: 14,
-    color: '#fff',
+    color: color.text,
     fontWeight: '600',
   },
 });

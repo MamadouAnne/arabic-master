@@ -9,6 +9,7 @@ import { useSettingsStore } from '../../src/stores/settingsStore';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { LeaderboardType, LeaderboardEntry } from '../../src/types/community';
 import * as communityService from '../../src/services/communityService';
+import { font, color, radius } from '../../src/theme/tokens';
 
 const TAB_KEYS: { type: LeaderboardType; labelKey: string; icon: string }[] = [
   { type: 'weekly', labelKey: 'community.weekly', icon: 'calendar' },
@@ -30,7 +31,7 @@ const LeaderboardRow = memo(function LeaderboardRow({
     if (rank === 1) return { emoji: '🥇', color: '#FFD700' };
     if (rank === 2) return { emoji: '🥈', color: '#C0C0C0' };
     if (rank === 3) return { emoji: '🥉', color: '#CD7F32' };
-    return { emoji: null, color: '#64748b' };
+    return { emoji: null, color: color.textFaint };
   };
 
   const rankInfo = getRankDisplay(entry.rank);
@@ -132,7 +133,7 @@ export default function LeaderboardScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitles}>
           <Text style={styles.headerTitle}>{t('community.leaderboard')}</Text>
@@ -170,7 +171,7 @@ export default function LeaderboardScreen() {
           <LeaderboardSkeleton />
         ) : isEmpty ? (
           <View style={styles.emptyContainer}>
-            <Ionicons name="trophy-outline" size={48} color="#334155" />
+            <Ionicons name="trophy-outline" size={48} color={color.textFaint} />
             <Text style={styles.emptyTitle}>{t('community.noLearnersYet', { defaultValue: 'No learners yet' })}</Text>
             <Text style={styles.emptySubtitle}>{t('community.startLearning', { defaultValue: 'Start learning to appear on the leaderboard!' })}</Text>
           </View>
@@ -247,7 +248,7 @@ export default function LeaderboardScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -258,8 +259,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -270,11 +271,13 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   headerTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 2,
   },
   headerSpacer: {
@@ -285,8 +288,8 @@ const styles = StyleSheet.create({
   tabContainer: {
     flexDirection: 'row',
     marginHorizontal: 20,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 4,
   },
   tab: {
@@ -295,19 +298,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 6,
   },
   tabActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   tabText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   tabTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
 
   scrollView: {
@@ -361,43 +364,43 @@ const styles = StyleSheet.create({
   podiumName: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
   },
   podiumValue: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 2,
   },
 
   // Rankings
   rankingsCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 12,
     marginBottom: 8,
   },
   rowCurrent: {
     backgroundColor: 'rgba(99, 102, 241, 0.15)',
     borderWidth: 1,
-    borderColor: '#6366f1',
+    borderColor: color.accentStrong,
   },
   rankBadge: {
     width: 36,
     height: 36,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
   },
   rankEmoji: {
     fontSize: 18,
@@ -405,7 +408,7 @@ const styles = StyleSheet.create({
   rankNumber: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#64748b',
+    color: color.textFaint,
   },
   userInfo: {
     flex: 1,
@@ -414,14 +417,16 @@ const styles = StyleSheet.create({
   userName: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   userNameCurrent: {
-    color: '#818cf8',
+    color: color.accent,
   },
   userNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 20,
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   valueContainer: {
@@ -430,14 +435,14 @@ const styles = StyleSheet.create({
   valueText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   valueTextCurrent: {
-    color: '#818cf8',
+    color: color.accent,
   },
   rankDiff: {
     fontSize: 10,
-    color: '#22c55e',
+    color: color.progress,
     marginTop: 2,
   },
   separator: {
@@ -448,21 +453,21 @@ const styles = StyleSheet.create({
   separatorLine: {
     flex: 1,
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   separatorText: {
-    color: '#64748b',
+    color: color.textFaint,
     paddingHorizontal: 12,
     fontSize: 12,
   },
 
   // Skeleton
   skeletonCircle: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   skeletonBlock: {
     height: 14,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 7,
   },
 
@@ -476,12 +481,12 @@ const styles = StyleSheet.create({
   emptyTitle: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 16,
   },
   emptySubtitle: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
     marginTop: 8,
     lineHeight: 20,

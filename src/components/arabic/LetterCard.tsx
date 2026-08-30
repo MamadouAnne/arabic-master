@@ -3,6 +3,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 import { ArabicLetter } from '../../types/arabic';
 import { useProgressStore } from '../../stores/progressStore';
+import { font, color, radius } from '../../theme/tokens';
 
 interface LetterCardProps {
   letter: ArabicLetter;
@@ -36,10 +37,12 @@ export function LetterCard({
   return (
     <Pressable
       onPress={onPress}
-      style={({ pressed }) => [
+      // Plain array, not style={({pressed}) => ...}: NativeWind's css-interop
+      // wraps Pressable and never invokes the function form, so those styles
+      // are dropped on device.
+      style={[
         styles.card,
         currentSize.card,
-        pressed && styles.cardPressed,
         isMastered && styles.cardMastered,
         isLearned && !isMastered && styles.cardLearned,
       ]}
@@ -50,7 +53,7 @@ export function LetterCard({
           <Ionicons
             name={isMastered ? 'star' : 'checkmark'}
             size={12}
-            color="#ffffff"
+            color={color.text}
           />
         </View>
       )}
@@ -200,12 +203,12 @@ export function LetterDetail({ letter, onPlayAudio, isPlaying }: LetterDetailPro
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     position: 'relative',
   },
   cardSm: {
@@ -225,15 +228,15 @@ const styles = StyleSheet.create({
     transform: [{ scale: 0.98 }],
   },
   cardLearned: {
-    borderColor: '#6366f1',
+    borderColor: color.accentStrong,
     backgroundColor: '#1e1b4b',
   },
   cardMastered: {
-    borderColor: '#D4AF37',
+    borderColor: color.sacred,
     backgroundColor: '#1c1a00',
   },
   letter: {
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '400',
   },
   letterSm: {
@@ -246,7 +249,7 @@ const styles = StyleSheet.create({
     fontSize: 40,
   },
   name: {
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   nameSm: {
@@ -264,15 +267,15 @@ const styles = StyleSheet.create({
     right: 4,
     width: 18,
     height: 18,
-    borderRadius: 9,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   statusLearned: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   statusMastered: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   audioButton: {
     position: 'absolute',
@@ -280,13 +283,13 @@ const styles = StyleSheet.create({
     right: 4,
     width: 24,
     height: 24,
-    borderRadius: 12,
-    backgroundColor: '#334155',
+    borderRadius: radius.md,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
   },
   audioButtonActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   grid: {
     padding: 4,
@@ -300,13 +303,13 @@ const styles = StyleSheet.create({
   },
   mainLetter: {
     fontSize: 120,
-    color: '#ffffff',
+    color: color.text,
   },
   detailAudioButton: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#334155',
+    borderRadius: radius.xl,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 16,
@@ -318,34 +321,36 @@ const styles = StyleSheet.create({
   letterName: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   letterNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 4,
   },
   transliteration: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     fontStyle: 'italic',
   },
   descriptionSection: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 20,
   },
   descriptionTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#D4AF37',
+    color: color.sacred,
     marginBottom: 8,
   },
   descriptionText: {
     fontSize: 16,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 24,
   },
   formsSection: {
@@ -354,7 +359,7 @@ const styles = StyleSheet.create({
   formsTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
   },
   formsGrid: {
@@ -364,19 +369,19 @@ const styles = StyleSheet.create({
   formItem: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 12,
     marginHorizontal: 4,
   },
   formLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 8,
   },
   formLetter: {
     fontSize: 36,
-    color: '#ffffff',
+    color: color.text,
   },
   examplesSection: {
     marginTop: 10,
@@ -384,12 +389,12 @@ const styles = StyleSheet.create({
   examplesTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
   },
   exampleItem: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 8,
     flexDirection: 'row',
@@ -397,20 +402,22 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   exampleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 41,
     fontSize: 24,
-    color: '#ffffff',
+    color: color.text,
   },
   exampleTranslit: {
     fontSize: 14,
-    color: '#D4AF37',
+    color: color.sacred,
     fontStyle: 'italic',
   },
   exampleMeaning: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
   },
   examplePosition: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
 });

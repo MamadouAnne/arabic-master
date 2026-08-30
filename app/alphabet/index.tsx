@@ -7,6 +7,8 @@ import { arabicLetters } from '../../src/data/arabic/alphabet/letters';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function AlphabetScreen() {
   const { t } = useTranslation();
@@ -39,7 +41,7 @@ export default function AlphabetScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('alphabet.title')}</Text>
@@ -73,27 +75,27 @@ export default function AlphabetScreen() {
         {/* Print vs Handwriting entry */}
         <Pressable style={styles.scriptsCard} onPress={() => router.push('/alphabet/styles' as any)}>
           <View style={styles.scriptsIcon}>
-            <Ionicons name="brush" size={20} color="#6366f1" />
+            <Ionicons name="brush" size={20} color={color.accentStrong} />
           </View>
           <View style={{ flex: 1 }}>
             <Text style={styles.scriptsTitle}>{t('alphabet.scriptsCardTitle')}</Text>
             <Text style={styles.scriptsDesc}>{t('alphabet.scriptsCardDesc')}</Text>
           </View>
-          <Ionicons name="chevron-forward" size={18} color="#64748b" />
+          <Ionicons name="chevron-forward" size={18} color={color.textFaint} />
         </Pressable>
 
         {/* Legend */}
         <View style={styles.legend}>
           <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#6366f1' }]} />
+            <View style={[styles.legendDot, { backgroundColor: color.accentStrong }]} />
             <Text style={styles.legendText}>{t('common.new')}</Text>
           </View>
           <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#D4AF37' }]} />
+            <View style={[styles.legendDot, { backgroundColor: color.sacred }]} />
             <Text style={styles.legendText}>{t('common.learned')}</Text>
           </View>
           <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#22c55e' }]} />
+            <View style={[styles.legendDot, { backgroundColor: color.progress }]} />
             <Text style={styles.legendText}>{t('common.mastered')}</Text>
           </View>
         </View>
@@ -121,7 +123,7 @@ export default function AlphabetScreen() {
                       speak(letter.letter);
                     }}
                   >
-                    <Ionicons name="volume-medium" size={14} color="#D4AF37" />
+                    <Ionicons name="volume-medium" size={14} color={color.sacred} />
                   </Pressable>
                   {status !== 'new' && (
                     <View style={[styles.statusBadge, { backgroundColor: statusColor }]}>
@@ -146,10 +148,10 @@ export default function AlphabetScreen() {
           >
             <View style={styles.sunMoonIcons}>
               <View style={styles.sunIcon}>
-                <Ionicons name="sunny" size={24} color="#f59e0b" />
+                <Ionicons name="sunny" size={24} color={color.warning} />
               </View>
               <View style={styles.moonIcon}>
-                <Ionicons name="moon" size={24} color="#a5b4fc" />
+                <Ionicons name="moon" size={24} color={color.accent} />
               </View>
             </View>
             <View style={styles.sunMoonContent}>
@@ -157,7 +159,7 @@ export default function AlphabetScreen() {
               <Text style={styles.sunMoonTitleAr}>الْحُرُوفُ الشَّمْسِيَّة وَالْقَمَرِيَّة</Text>
               <Text style={styles.sunMoonDesc}>{t('alphabet.sunMoonDesc')}</Text>
             </View>
-            <Ionicons name="chevron-forward" size={24} color="#64748b" />
+            <Ionicons name="chevron-forward" size={24} color={color.textFaint} />
           </Pressable>
         </View>
 
@@ -167,7 +169,7 @@ export default function AlphabetScreen() {
           <Text style={styles.sectionTitle}>{t('alphabet.studyTips')}</Text>
           <View style={styles.tipCard}>
             <View style={styles.tipIcon}>
-              <Ionicons name="bulb" size={24} color="#D4AF37" />
+              <Ionicons name="bulb" size={24} color={color.sacred} />
             </View>
             <View style={styles.tipContent}>
               <Text style={styles.tipTitle}>{t('alphabet.letterForms')}</Text>
@@ -185,7 +187,7 @@ export default function AlphabetScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -197,8 +199,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -209,17 +211,19 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 4,
   },
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 16,
   },
@@ -229,11 +233,11 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   progressLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   progressValue: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -244,17 +248,17 @@ const styles = StyleSheet.create({
   progressBarBg: {
     flex: 1,
     height: 8,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 4,
     overflow: 'hidden',
   },
   progressBarFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 4,
   },
   progressPercent: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginLeft: 12,
     width: 36,
@@ -267,21 +271,21 @@ const styles = StyleSheet.create({
     marginHorizontal: 16,
     marginBottom: 20,
     padding: 14,
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   scriptsIcon: {
     width: 42,
     height: 42,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'rgba(99,102,241,0.15)',
   },
-  scriptsTitle: { fontSize: 15, fontWeight: '700', color: '#e2e8f0' },
-  scriptsDesc: { fontSize: 12.5, color: '#94a3b8', marginTop: 2 },
+  scriptsTitle: { fontSize: 15, fontWeight: '700', color: color.text },
+  scriptsDesc: { fontSize: 12.5, color: color.textMuted, marginTop: 2 },
   legend: {
     flexDirection: 'row',
     justifyContent: 'center',
@@ -299,7 +303,7 @@ const styles = StyleSheet.create({
     marginRight: 6,
   },
   legendText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
   },
   section: {
@@ -307,7 +311,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 16,
@@ -320,8 +324,8 @@ const styles = StyleSheet.create({
   letterCard: {
     width: '23%',
     aspectRatio: 0.85,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 8,
     margin: '1%',
     alignItems: 'center',
@@ -330,18 +334,20 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   letterArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 54,
     fontSize: 32,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   letterName: {
     fontSize: 10,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
   },
   letterTranslit: {
     fontSize: 9,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
   },
   letterAudioBtn: {
@@ -350,8 +356,8 @@ const styles = StyleSheet.create({
     left: 4,
     width: 22,
     height: 22,
-    borderRadius: 11,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -361,21 +367,21 @@ const styles = StyleSheet.create({
     right: 4,
     width: 16,
     height: 16,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   tipCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
   },
   tipIcon: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -384,13 +390,13 @@ const styles = StyleSheet.create({
     marginLeft: 16,
   },
   tipTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     marginBottom: 4,
   },
   tipText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 20,
   },
@@ -399,13 +405,13 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   sunMoonCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: '#6366f140',
+    borderColor: withAlpha(color.accentStrong, 0.25),
     overflow: 'hidden',
   },
   sunMoonIcons: {
@@ -415,8 +421,8 @@ const styles = StyleSheet.create({
   sunIcon: {
     width: 44,
     height: 44,
-    borderRadius: 22,
-    backgroundColor: '#f59e0b20',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.warning, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: -10,
@@ -425,8 +431,8 @@ const styles = StyleSheet.create({
   moonIcon: {
     width: 44,
     height: 44,
-    borderRadius: 22,
-    backgroundColor: '#6366f120',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -434,17 +440,17 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   sunMoonTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   sunMoonTitleAr: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 13,
     marginTop: 2,
   },
   sunMoonDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginTop: 4,
   },

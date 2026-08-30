@@ -5,6 +5,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { updatePassword } from '../src/services/authService';
+import { color, radius } from '../src/theme/tokens';
+import { withAlpha } from '../src/components/ui/Primitives';
 
 export default function ResetPasswordScreen() {
   const { t } = useTranslation();
@@ -62,7 +64,7 @@ export default function ResetPasswordScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.successContainer}>
           <View style={styles.successIcon}>
-            <Ionicons name="checkmark-circle" size={64} color="#10b981" />
+            <Ionicons name="checkmark-circle" size={64} color={color.progress} />
           </View>
           <Text style={styles.successTitle}>{t('auth.passwordResetSuccess')}</Text>
           <Text style={styles.successSubtitle}>{t('auth.passwordResetSuccessDesc')}</Text>
@@ -85,7 +87,7 @@ export default function ResetPasswordScreen() {
           {/* Header */}
           <View style={styles.header}>
             <View style={styles.headerIcon}>
-              <Ionicons name="lock-open-outline" size={40} color="#D4AF37" />
+              <Ionicons name="lock-open-outline" size={40} color={color.sacred} />
             </View>
             <Text style={styles.title}>{t('auth.setNewPassword')}</Text>
             <Text style={styles.subtitle}>{t('auth.setNewPasswordDesc')}</Text>
@@ -95,11 +97,11 @@ export default function ResetPasswordScreen() {
           <View style={styles.formCard}>
             {/* New Password */}
             <View style={styles.inputBox}>
-              <Ionicons name="lock-closed-outline" size={20} color="#64748b" />
+              <Ionicons name="lock-closed-outline" size={20} color={color.textFaint} />
               <TextInput
                 style={styles.input}
                 placeholder={t('auth.newPassword')}
-                placeholderTextColor="#475569"
+                placeholderTextColor={color.textFaint}
                 value={password}
                 onChangeText={setPassword}
                 secureTextEntry={!showPassword}
@@ -111,7 +113,7 @@ export default function ResetPasswordScreen() {
                 activeOpacity={0.6}
                 accessibilityRole="button"
               >
-                <Ionicons name={showPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color="#64748b" />
+                <Ionicons name={showPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color={color.textFaint} />
               </TouchableOpacity>
             </View>
 
@@ -125,11 +127,11 @@ export default function ResetPasswordScreen() {
 
             {/* Confirm Password */}
             <View style={styles.inputBox}>
-              <Ionicons name="shield-checkmark-outline" size={20} color="#64748b" />
+              <Ionicons name="shield-checkmark-outline" size={20} color={color.textFaint} />
               <TextInput
                 style={styles.input}
                 placeholder={t('auth.confirmNewPassword')}
-                placeholderTextColor="#475569"
+                placeholderTextColor={color.textFaint}
                 value={confirmPassword}
                 onChangeText={setConfirmPassword}
                 secureTextEntry={!showConfirmPassword}
@@ -141,7 +143,7 @@ export default function ResetPasswordScreen() {
                 activeOpacity={0.6}
                 accessibilityRole="button"
               >
-                <Ionicons name={showConfirmPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color="#64748b" />
+                <Ionicons name={showConfirmPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color={color.textFaint} />
               </TouchableOpacity>
             </View>
 
@@ -155,7 +157,7 @@ export default function ResetPasswordScreen() {
               accessibilityLabel={t('auth.resetPassword')}
             >
               {loading ? (
-                <ActivityIndicator color="#0f172a" />
+                <ActivityIndicator color={color.textOnAccent} />
               ) : (
                 <Text style={styles.submitText}>{t('auth.resetPassword')}</Text>
               )}
@@ -183,7 +185,7 @@ function RequirementItem({ met, text }: { met: boolean; text: string }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   content: {
     flexGrow: 1,
@@ -199,42 +201,42 @@ const styles = StyleSheet.create({
     width: 80,
     height: 80,
     borderRadius: 40,
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 16,
   },
   title: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 8,
   },
   subtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 20,
   },
   formCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 16,
   },
   inputBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingHorizontal: 14,
     marginBottom: 12,
     gap: 10,
   },
   input: {
     flex: 1,
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     paddingVertical: 12,
   },
@@ -249,22 +251,22 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   requirementText: {
-    color: '#475569',
+    color: color.textFaint,
     fontSize: 12,
   },
   requirementMet: {
-    color: '#10b981',
+    color: color.progress,
   },
   submitButton: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 4,
   },
   submitText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 16,
     fontWeight: '700',
   },
@@ -278,19 +280,19 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 20,
   },
   successTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 8,
   },
   successSubtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 20,

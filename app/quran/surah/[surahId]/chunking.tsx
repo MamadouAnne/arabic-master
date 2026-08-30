@@ -12,6 +12,7 @@ import { quranAudioService, AudioState } from '../../../../src/services/quranAud
 import { useAyahTranslations } from '../../../../src/hooks/useAyahTranslations';
 import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { useSettingsStore } from '../../../../src/stores/settingsStore';
+import { font, color, radius } from '../../../../src/theme/tokens';
 
 // ============ Types ============
 
@@ -367,7 +368,7 @@ export default function ChunkingScreen() {
             <View style={styles.ayahInfoRight}>
               {ayahAlreadyLearned && (
                 <View style={styles.learnedBadge}>
-                  <Ionicons name="checkmark-circle" size={14} color="#10b981" />
+                  <Ionicons name="checkmark-circle" size={14} color={color.progress} />
                   <Text style={styles.learnedBadgeText}>{t('common.learned')}</Text>
                 </View>
               )}
@@ -420,11 +421,11 @@ export default function ChunkingScreen() {
               <Text style={styles.legendText}>{t('chunking.currentChunk')}</Text>
             </View>
             <View style={styles.legendItem}>
-              <View style={[styles.legendDot, { backgroundColor: '#e2e8f0' }]} />
+              <View style={[styles.legendDot, { backgroundColor: color.border }]} />
               <Text style={styles.legendText}>{t('chunking.assembled')}</Text>
             </View>
             <View style={styles.legendItem}>
-              <View style={[styles.legendDot, { backgroundColor: '#475569' }]} />
+              <View style={[styles.legendDot, { backgroundColor: color.borderStrong }]} />
               <Text style={styles.legendText}>{t('chunking.remaining')}</Text>
             </View>
           </View>
@@ -653,7 +654,7 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     backgroundColor: CARD_COLOR,
     alignItems: 'center',
     justifyContent: 'center',
@@ -663,6 +664,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 37,
     color: ARABIC_GOLD,
     fontSize: 22,
     fontWeight: 'bold',
@@ -676,7 +679,7 @@ const styles = StyleSheet.create({
   ayahCounter: {
     width: 40,
     height: 40,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     backgroundColor: CARD_COLOR,
     alignItems: 'center',
     justifyContent: 'center',
@@ -701,7 +704,7 @@ const styles = StyleSheet.create({
   // Ayah info
   ayahInfoCard: {
     backgroundColor: CARD_COLOR,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 12,
     borderWidth: 1,
     borderColor: BORDER_COLOR,
@@ -728,17 +731,17 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(16, 185, 129, 0.15)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   learnedBadgeText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     fontWeight: '600',
   },
   audioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     backgroundColor: `${METHOD_COLOR}15`,
     alignItems: 'center',
     justifyContent: 'center',
@@ -758,7 +761,7 @@ const styles = StyleSheet.create({
     backgroundColor: `${METHOD_COLOR}15`,
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}30`,
   },
@@ -796,7 +799,7 @@ const styles = StyleSheet.create({
   // Words card - uses row-reverse for correct Arabic RTL wrapping
   wordsCard: {
     backgroundColor: CARD_COLOR,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 24,
     borderWidth: 1,
     borderColor: BORDER_COLOR,
@@ -822,10 +825,10 @@ const styles = StyleSheet.create({
     color: TEXT_PRIMARY,
   },
   wordAssembled: {
-    color: '#e2e8f0',
+    color: color.text,
   },
   wordUnlearned: {
-    color: '#475569',
+    color: color.textFaint,
   },
   wordUnderline: {
     height: 2,
@@ -855,7 +858,7 @@ const styles = StyleSheet.create({
     marginTop: 12,
   },
   translationText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     textAlign: 'center',
     lineHeight: 20,
@@ -864,7 +867,7 @@ const styles = StyleSheet.create({
   // Chunk detail card
   chunkDetailCard: {
     backgroundColor: CARD_COLOR,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
     borderColor: BORDER_COLOR,
@@ -885,13 +888,15 @@ const styles = StyleSheet.create({
   chunkWordItem: {
     alignItems: 'center',
     backgroundColor: `${METHOD_COLOR}10`,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 12,
     minWidth: 80,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}25`,
   },
   chunkWordArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 41,
     color: TEXT_PRIMARY,
     fontSize: 24,
     fontWeight: '600',
@@ -905,7 +910,7 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   chunkWordMeaning: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
     textAlign: 'center',
     maxWidth: 100,
@@ -932,7 +937,7 @@ const styles = StyleSheet.create({
     width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   stepDotActive: {
     backgroundColor: METHOD_COLOR,
@@ -952,7 +957,7 @@ const styles = StyleSheet.create({
   navButton: {
     width: 44,
     height: 44,
-    borderRadius: 22,
+    borderRadius: radius.xl,
     backgroundColor: CARD_COLOR,
     alignItems: 'center',
     justifyContent: 'center',
@@ -970,7 +975,7 @@ const styles = StyleSheet.create({
     gap: 8,
     backgroundColor: CARD_COLOR,
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     borderWidth: 1,
     borderColor: METHOD_COLOR,
   },
@@ -979,8 +984,8 @@ const styles = StyleSheet.create({
     borderColor: METHOD_COLOR,
   },
   actionButtonFinish: {
-    backgroundColor: '#10b981',
-    borderColor: '#10b981',
+    backgroundColor: color.progress,
+    borderColor: color.progress,
   },
   actionButtonText: {
     color: TEXT_PRIMARY,

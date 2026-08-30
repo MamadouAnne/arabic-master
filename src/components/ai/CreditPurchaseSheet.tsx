@@ -18,6 +18,8 @@ import { useTranslation } from 'react-i18next';
 import { PurchasesPackage } from 'react-native-purchases';
 import { revenueCatService } from '../../services/revenueCatService';
 import { useCreditStore, getCreditDisplayInfo } from '../../stores/creditStore';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SHEET_HEIGHT_RATIO = 0.92;
@@ -278,11 +280,11 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
           {/* ── Header ──────────────────────────────────────────── */}
           <View style={styles.header}>
             <View style={styles.headerLeft}>
-              <Ionicons name="wallet" size={20} color="#f59e0b" />
+              <Ionicons name="wallet" size={20} color={color.warning} />
               <Text style={styles.headerTitle}>{t('purchase.title')}</Text>
             </View>
             <Pressable onPress={handleClose} hitSlop={8}>
-              <Ionicons name="close" size={22} color="#94a3b8" />
+              <Ionicons name="close" size={22} color={color.textMuted} />
             </Pressable>
           </View>
 
@@ -292,7 +294,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
             <View style={styles.balanceValue}>
               {creditInfo.isPremium ? (
                 <View style={styles.premiumBadge}>
-                  <Ionicons name="diamond" size={14} color="#10b981" />
+                  <Ionicons name="diamond" size={14} color={color.progress} />
                   <Text style={styles.premiumBadgeText}>{t('purchase.premiumActive')}</Text>
                 </View>
               ) : (
@@ -310,7 +312,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
             showsVerticalScrollIndicator={false}
           >
             {loading ? (
-              <ActivityIndicator size="large" color="#f59e0b" style={{ marginTop: 40 }} />
+              <ActivityIndicator size="large" color={color.warning} style={{ marginTop: 40 }} />
             ) : (
               <>
                 {/* ── Credit Packs ────────────────────────────────── */}
@@ -338,7 +340,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                         <Text style={styles.packCredits}>{pack.credits}</Text>
                         <Text style={styles.packCreditsLabel}>{t('purchase.credits')}</Text>
                         {isActive ? (
-                          <ActivityIndicator size="small" color="#f59e0b" style={{ marginTop: 8 }} />
+                          <ActivityIndicator size="small" color={color.warning} style={{ marginTop: 8 }} />
                         ) : (
                           <Text style={[styles.packPrice, pack.popular && styles.packPricePopular]}>
                             {getPrice(pack.productId, pack.fallbackPrice)}
@@ -355,7 +357,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                     style={styles.customToggle}
                     onPress={() => setShowCustom(true)}
                   >
-                    <Ionicons name="options-outline" size={14} color="#94a3b8" />
+                    <Ionicons name="options-outline" size={14} color={color.textMuted} />
                     <Text style={styles.customToggleText}>{t('purchase.customAmount')}</Text>
                   </Pressable>
                 ) : (
@@ -394,7 +396,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                           onChangeText={(v) => setCustomAmount(v.replace(/[^0-9]/g, ''))}
                           keyboardType="number-pad"
                           placeholder={t('purchase.enterAmount')}
-                          placeholderTextColor="#475569"
+                          placeholderTextColor={color.textFaint}
                           maxLength={4}
                         />
                         <Text style={styles.customInputUnit}>{t('purchase.credits')}</Text>
@@ -409,7 +411,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                         disabled={!!purchasing || !customAmount || parseInt(customAmount, 10) <= 0}
                       >
                         {purchasing === 'custom' ? (
-                          <ActivityIndicator size="small" color="#fff" />
+                          <ActivityIndicator size="small" color={color.text} />
                         ) : (
                           <Text style={styles.customBuyBtnText}>{t('purchase.buy')}</Text>
                         )}
@@ -493,7 +495,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                       {PREMIUM_FEATURES.map((feat, i) => (
                         <View key={i} style={styles.featureRow}>
                           <View style={styles.featureIconCircle}>
-                            <Ionicons name={feat.icon} size={16} color="#10b981" />
+                            <Ionicons name={feat.icon} size={16} color={color.progress} />
                           </View>
                           <Text style={styles.featureText}>{t(feat.labelKey)}</Text>
                         </View>
@@ -505,7 +507,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                         disabled={!!purchasing}
                       >
                         {purchasing === premiumProductId ? (
-                          <ActivityIndicator size="small" color="#fff" />
+                          <ActivityIndicator size="small" color={color.text} />
                         ) : (
                           <Text style={styles.subscribeCtaText}>
                             {t('purchase.subscribeCta', {
@@ -528,7 +530,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                   disabled={!!purchasing}
                 >
                   {purchasing === 'restore' ? (
-                    <ActivityIndicator size="small" color="#94a3b8" />
+                    <ActivityIndicator size="small" color={color.textMuted} />
                   ) : (
                     <Text style={styles.restoreText}>{t('ads.restorePurchases')}</Text>
                   )}
@@ -552,7 +554,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.6)',
   },
   sheet: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     overflow: 'hidden',
@@ -561,7 +563,7 @@ const styles = StyleSheet.create({
     width: 36,
     height: 4,
     borderRadius: 2,
-    backgroundColor: '#475569',
+    backgroundColor: color.borderStrong,
     alignSelf: 'center',
     marginTop: 10,
     marginBottom: 8,
@@ -575,7 +577,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   headerLeft: {
     flexDirection: 'row',
@@ -583,7 +585,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   headerTitle: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 17,
     fontWeight: '700',
   },
@@ -595,15 +597,15 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: 20,
     paddingVertical: 14,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 16,
     marginTop: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   balanceLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
   },
   balanceValue: {
@@ -612,26 +614,26 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   balanceNumber: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 24,
     fontWeight: '800',
     fontVariant: ['tabular-nums'],
   },
   balanceUnit: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
   },
   premiumBadge: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    backgroundColor: '#10b98120',
-    borderRadius: 8,
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderRadius: radius.sm,
     paddingHorizontal: 10,
     paddingVertical: 4,
   },
   premiumBadgeText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 13,
     fontWeight: '700',
   },
@@ -648,7 +650,7 @@ const styles = StyleSheet.create({
 
   // ── Section ─────────────────────────────────────────────────────
   sectionTitle: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
     marginBottom: 12,
@@ -662,53 +664,53 @@ const styles = StyleSheet.create({
   packCard: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     paddingVertical: 16,
     paddingHorizontal: 8,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   packCardPopular: {
-    borderColor: '#f59e0b50',
-    backgroundColor: '#1e293b',
+    borderColor: withAlpha(color.warning, 0.31),
+    backgroundColor: color.surface,
   },
   popularTag: {
     position: 'absolute',
     top: -8,
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
     borderRadius: 6,
     paddingHorizontal: 8,
     paddingVertical: 2,
   },
   popularTagText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 9,
     fontWeight: '800',
     textTransform: 'uppercase',
     letterSpacing: 0.5,
   },
   packCredits: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 22,
     fontWeight: '800',
     marginTop: 8,
     fontVariant: ['tabular-nums'],
   },
   packCreditsLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 10,
     textTransform: 'uppercase',
     letterSpacing: 0.5,
   },
   packPrice: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '600',
     marginTop: 8,
   },
   packPricePopular: {
-    color: '#f59e0b',
+    color: color.warning,
   },
 
   // ── Custom amount ──────────────────────────────────────────────
@@ -720,13 +722,13 @@ const styles = StyleSheet.create({
     marginTop: 14,
     marginBottom: 8,
     paddingVertical: 10,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     borderStyle: 'dashed',
   },
   customToggleText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -735,7 +737,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   customTitle: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 14,
     fontWeight: '700',
     marginBottom: 10,
@@ -747,24 +749,24 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   quickChip: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     paddingHorizontal: 14,
     paddingVertical: 7,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   quickChipActive: {
-    backgroundColor: '#f59e0b20',
-    borderColor: '#f59e0b',
+    backgroundColor: withAlpha(color.warning, 0.13),
+    borderColor: color.warning,
   },
   quickChipText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '600',
   },
   quickChipTextActive: {
-    color: '#f59e0b',
+    color: color.warning,
   },
   customInputRow: {
     flexDirection: 'row',
@@ -775,28 +777,28 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingHorizontal: 14,
     height: 44,
   },
   customInput: {
     flex: 1,
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 16,
     fontWeight: '700',
     fontVariant: ['tabular-nums'],
   },
   customInputUnit: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginLeft: 4,
   },
   customBuyBtn: {
-    backgroundColor: '#f59e0b',
-    borderRadius: 12,
+    backgroundColor: color.warning,
+    borderRadius: radius.md,
     paddingHorizontal: 20,
     height: 44,
     alignItems: 'center',
@@ -806,17 +808,17 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   customBuyBtnText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '700',
   },
   breakdownCard: {
     marginTop: 10,
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: color.surface,
+    borderRadius: radius.sm,
     padding: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   breakdownRow: {
     flexDirection: 'row',
@@ -825,27 +827,27 @@ const styles = StyleSheet.create({
     paddingVertical: 3,
   },
   breakdownLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
   },
   breakdownPrice: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     fontVariant: ['tabular-nums'],
   },
   breakdownTotal: {
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     marginTop: 6,
     paddingTop: 6,
   },
   breakdownTotalLabel: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 13,
     fontWeight: '700',
   },
   breakdownTotalPrice: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 14,
     fontWeight: '800',
     fontVariant: ['tabular-nums'],
@@ -854,8 +856,8 @@ const styles = StyleSheet.create({
   // ── Billing toggle ──────────────────────────────────────────────
   toggleRow: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 3,
     marginBottom: 12,
   },
@@ -866,27 +868,27 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 6,
     paddingVertical: 8,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   toggleBtnActive: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   toggleText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     fontWeight: '600',
   },
   toggleTextActive: {
-    color: '#f1f5f9',
+    color: color.text,
   },
   saveBadge: {
-    backgroundColor: '#10b98130',
+    backgroundColor: withAlpha(color.progress, 0.19),
     borderRadius: 4,
     paddingHorizontal: 5,
     paddingVertical: 1,
   },
   saveBadgeText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 9,
     fontWeight: '800',
     textTransform: 'uppercase',
@@ -894,11 +896,11 @@ const styles = StyleSheet.create({
 
   // ── Premium card ────────────────────────────────────────────────
   premiumCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   featureRow: {
     flexDirection: 'row',
@@ -909,25 +911,25 @@ const styles = StyleSheet.create({
   featureIconCircle: {
     width: 30,
     height: 30,
-    borderRadius: 15,
-    backgroundColor: '#10b98115',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.progress, 0.08),
     alignItems: 'center',
     justifyContent: 'center',
   },
   featureText: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 13,
     flex: 1,
   },
   subscribeCta: {
-    backgroundColor: '#10b981',
-    borderRadius: 12,
+    backgroundColor: color.progress,
+    borderRadius: radius.md,
     paddingVertical: 14,
     alignItems: 'center',
     marginTop: 4,
   },
   subscribeCtaText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
   },
@@ -939,7 +941,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   restoreText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     textDecorationLine: 'underline',
   },

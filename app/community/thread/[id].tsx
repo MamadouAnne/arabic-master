@@ -16,13 +16,14 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { useCommunityStore } from '../../../src/stores/communityStore';
+import { color, radius } from '../../../src/theme/tokens';
 
 const categoryColors: Record<string, string> = {
-  general: '#64748b',
-  quran: '#10b981',
-  arabic: '#f59e0b',
-  prayer: '#818cf8',
-  tips: '#f97316',
+  general: color.textFaint,
+  quran: color.progress,
+  arabic: color.warning,
+  prayer: color.accent,
+  tips: color.warning,
 };
 
 export default function ThreadDetailScreen() {
@@ -77,13 +78,13 @@ export default function ThreadDetailScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable onPress={() => router.back()} style={styles.backBtn}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <Text style={styles.headerTitle}>{t('community.discussions')}</Text>
           <View style={{ width: 32 }} />
         </View>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator color="#14b8a6" size="large" />
+          <ActivityIndicator color={color.progress} size="large" />
         </View>
       </SafeAreaView>
     );
@@ -96,7 +97,7 @@ export default function ThreadDetailScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} style={styles.backBtn}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <View style={[styles.catDot, { backgroundColor: catColor }]} />
@@ -121,7 +122,7 @@ export default function ThreadDetailScreen() {
           <View style={styles.threadCard}>
             {currentThread.isPinned && (
               <View style={styles.pinnedRow}>
-                <Ionicons name="pin" size={12} color="#f59e0b" />
+                <Ionicons name="pin" size={12} color={color.warning} />
                 <Text style={styles.pinnedText}>{t('community.pinned')}</Text>
               </View>
             )}
@@ -144,7 +145,7 @@ export default function ThreadDetailScreen() {
                 <Text style={styles.actionCount}>{currentThread.likeCount}</Text>
               </Pressable>
               <View style={styles.actionBtn}>
-                <Ionicons name="chatbubble-outline" size={18} color="#14b8a6" />
+                <Ionicons name="chatbubble-outline" size={18} color={color.progress} />
                 <Text style={styles.actionCount}>{currentThread.replyCount}</Text>
               </View>
             </View>
@@ -157,7 +158,7 @@ export default function ThreadDetailScreen() {
             </Text>
 
             {isLoadingReplies ? (
-              <ActivityIndicator color="#14b8a6" style={{ marginTop: 20 }} />
+              <ActivityIndicator color={color.progress} style={{ marginTop: 20 }} />
             ) : replies.length === 0 ? (
               <Text style={styles.emptyText}>{t('community.noRepliesYet')}</Text>
             ) : (
@@ -199,7 +200,7 @@ export default function ThreadDetailScreen() {
           <TextInput
             style={styles.replyInput}
             placeholder={t('community.replyPlaceholder')}
-            placeholderTextColor="#64748b"
+            placeholderTextColor={color.textFaint}
             value={replyText}
             onChangeText={setReplyText}
             multiline
@@ -211,9 +212,9 @@ export default function ThreadDetailScreen() {
             disabled={!replyText.trim() || isSending}
           >
             {isSending ? (
-              <ActivityIndicator color="#ffffff" size="small" />
+              <ActivityIndicator color={color.text} size="small" />
             ) : (
-              <Ionicons name="send" size={18} color="#ffffff" />
+              <Ionicons name="send" size={18} color={color.text} />
             )}
           </Pressable>
         </View>
@@ -225,7 +226,7 @@ export default function ThreadDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   flex: {
     flex: 1,
@@ -250,7 +251,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   catDot: {
     width: 8,
@@ -268,19 +269,19 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
     paddingVertical: 20,
   },
 
   // Thread
   threadCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   pinnedRow: {
     flexDirection: 'row',
@@ -291,18 +292,18 @@ const styles = StyleSheet.create({
   pinnedText: {
     fontSize: 11,
     fontWeight: '600',
-    color: '#f59e0b',
+    color: color.warning,
   },
   threadTitle: {
     fontSize: 20,
     fontWeight: '800',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 10,
     lineHeight: 26,
   },
   threadBody: {
     fontSize: 15,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 22,
     marginBottom: 16,
   },
@@ -315,21 +316,21 @@ const styles = StyleSheet.create({
   authorName: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   dot: {
     fontSize: 12,
-    color: '#475569',
+    color: color.textFaint,
   },
   timeText: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   threadActions: {
     flexDirection: 'row',
     gap: 20,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     paddingTop: 12,
   },
   actionBtn: {
@@ -340,7 +341,7 @@ const styles = StyleSheet.create({
   actionCount: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
 
   // Replies
@@ -350,16 +351,16 @@ const styles = StyleSheet.create({
   repliesHeader: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 14,
   },
   replyCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 8,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   replyHeader: {
     flexDirection: 'row',
@@ -369,8 +370,8 @@ const styles = StyleSheet.create({
   replyAvatar: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#334155',
+    borderRadius: radius.lg,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 10,
@@ -378,7 +379,7 @@ const styles = StyleSheet.create({
   replyAvatarText: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   replyMeta: {
     flex: 1,
@@ -386,11 +387,11 @@ const styles = StyleSheet.create({
   replyAuthor: {
     fontSize: 13,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   replyTime: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
   },
   replyLikeBtn: {
     flexDirection: 'row',
@@ -400,11 +401,11 @@ const styles = StyleSheet.create({
   },
   replyLikeCount: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   replyBody: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 20,
   },
 
@@ -414,28 +415,28 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
     paddingHorizontal: 16,
     paddingVertical: 10,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     gap: 10,
   },
   replyInput: {
     flex: 1,
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     paddingHorizontal: 14,
     paddingVertical: 10,
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     maxHeight: 100,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   sendBtn: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#14b8a6',
+    borderRadius: radius.xl,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },

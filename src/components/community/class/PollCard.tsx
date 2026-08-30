@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Pressable, ActivityIndicator } from 'react-nati
 import { Ionicons } from '@expo/vector-icons';
 import type { PollContent } from '../../../types/classContent';
 import { submitClassResponse, fetchClassResponses, ClassResponseRow } from '../../../services/communitySocialService';
+import { color, radius } from '../../../theme/tokens';
 
 interface Props {
   messageId: string;
@@ -65,7 +66,7 @@ export const PollCard = React.memo(function PollCard({ messageId, groupId, poll,
     <View style={styles.card}>
       <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
         <View style={[styles.badge, { backgroundColor: groupColor }]}>
-          <Ionicons name="stats-chart" size={13} color="#ffffff" />
+          <Ionicons name="stats-chart" size={13} color={color.text} />
           <Text style={styles.badgeText}>{t('community.badgePoll')}</Text>
         </View>
         <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
@@ -89,7 +90,7 @@ export const PollCard = React.memo(function PollCard({ messageId, groupId, poll,
                       <Ionicons
                         name={poll.allowMultiple ? (isSel ? 'checkbox' : 'square-outline') : (isSel ? 'radio-button-on' : 'radio-button-off')}
                         size={18}
-                        color={isSel ? groupColor : '#475569'}
+                        color={isSel ? groupColor: color.textFaint}
                       />
                     )}
                     <Text style={[styles.optText, isSel && voted && { fontWeight: '700' }]}>{opt}</Text>
@@ -114,19 +115,19 @@ export const PollCard = React.memo(function PollCard({ messageId, groupId, poll,
 });
 
 const styles = StyleSheet.create({
-  card: { width: '100%', backgroundColor: '#1e293b', borderRadius: 16, borderWidth: 1, borderColor: '#334155', overflow: 'hidden' },
+  card: { width: '100%', backgroundColor: color.surface, borderRadius: radius.lg, borderWidth: 1, borderColor: color.border, overflow: 'hidden' },
   band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
-  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8 },
-  badgeText: { fontSize: 10, fontWeight: '800', color: '#ffffff', letterSpacing: 0.6 },
-  byline: { fontSize: 12, color: '#94a3b8', maxWidth: 130 },
+  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.sm },
+  badgeText: { fontSize: 10, fontWeight: '800', color: color.text, letterSpacing: 0.6 },
+  byline: { fontSize: 12, color: color.textMuted, maxWidth: 130 },
   body: { padding: 14 },
-  question: { fontSize: 17, fontWeight: '800', color: '#f8fafc', marginBottom: 12, lineHeight: 23 },
-  option: { borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0f172a', marginBottom: 8, overflow: 'hidden', minHeight: 44, justifyContent: 'center' },
-  fill: { position: 'absolute', left: 0, top: 0, bottom: 0, borderRadius: 9 },
+  question: { fontSize: 17, fontWeight: '800', color: color.text, marginBottom: 12, lineHeight: 23 },
+  option: { borderRadius: radius.sm, borderWidth: 1, borderColor: color.border, backgroundColor: color.bg, marginBottom: 8, overflow: 'hidden', minHeight: 44, justifyContent: 'center' },
+  fill: { position: 'absolute', left: 0, top: 0, bottom: 0, borderRadius: radius.sm },
   optContent: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 11 },
-  optText: { flex: 1, fontSize: 14.5, color: '#e2e8f0', lineHeight: 20 },
-  pct: { fontSize: 13, fontWeight: '700', color: '#cbd5e1' },
-  voteBtn: { paddingVertical: 11, borderRadius: 12, alignItems: 'center', marginTop: 4 },
-  voteText: { color: '#ffffff', fontWeight: '700', fontSize: 15 },
-  totalText: { fontSize: 12, color: '#64748b', textAlign: 'center', marginTop: 4 },
+  optText: { flex: 1, fontSize: 14.5, color: color.text, lineHeight: 20 },
+  pct: { fontSize: 13, fontWeight: '700', color: color.textMuted },
+  voteBtn: { paddingVertical: 11, borderRadius: radius.md, alignItems: 'center', marginTop: 4 },
+  voteText: { color: color.text, fontWeight: '700', fontSize: 15 },
+  totalText: { fontSize: 12, color: color.textFaint, textAlign: 'center', marginTop: 4 },
 });

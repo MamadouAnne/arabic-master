@@ -1,6 +1,7 @@
 import { View, Text, Pressable, StyleSheet, Dimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useRef } from 'react';
+import { color, radius } from '../../theme/tokens';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
@@ -129,7 +130,7 @@ export default function ArabicKeyboard({
               style={[styles.backspaceKey, { height: keyWidth * 1.4 }]}
               onPress={onBackspace}
             >
-              <Ionicons name="backspace" size={22} color="#ffffff" />
+              <Ionicons name="backspace" size={22} color={color.text} />
             </Pressable>
           )}
         </View>
@@ -143,7 +144,7 @@ export default function ArabicKeyboard({
             onPressIn={() => handlePressIn(onCursorLeft)}
             onPressOut={handlePressOut}
           >
-            <Ionicons name="chevron-back" size={22} color="#ffffff" />
+            <Ionicons name="chevron-back" size={22} color={color.text} />
           </Pressable>
         )}
         {onCursorRight && (
@@ -152,14 +153,14 @@ export default function ArabicKeyboard({
             onPressIn={() => handlePressIn(onCursorRight)}
             onPressOut={handlePressOut}
           >
-            <Ionicons name="chevron-forward" size={22} color="#ffffff" />
+            <Ionicons name="chevron-forward" size={22} color={color.text} />
           </Pressable>
         )}
         <Pressable style={styles.spaceKey} onPress={onSpace}>
           <Text style={styles.spaceKeyText}>مسافة</Text>
         </Pressable>
         <Pressable style={styles.submitKey} onPress={onSubmit}>
-          <Ionicons name="checkmark" size={24} color="#ffffff" />
+          <Ionicons name="checkmark" size={24} color={color.text} />
         </Pressable>
       </View>
     </View>
@@ -168,7 +169,7 @@ export default function ArabicKeyboard({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 3,
     paddingTop: 8,
     paddingBottom: 4,
@@ -190,17 +191,17 @@ const styles = StyleSheet.create({
   },
   diacriticText: {
     fontSize: 22,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
   },
   specialCharText: {
     fontSize: 20,
-    color: '#10b981',
+    color: color.progress,
     textAlign: 'center',
   },
   letterText: {
     fontSize: 22,
-    color: '#f59e0b',
+    color: color.warning,
   },
   // Main keyboard rows
   row: {
@@ -210,14 +211,14 @@ const styles = StyleSheet.create({
     gap: 3,
   },
   key: {
-    backgroundColor: '#334155',
-    borderRadius: 8,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   keyText: {
     fontSize: 24,
-    color: '#ffffff',
+    color: color.text,
   },
   // Bottom row
   bottomRow: {
@@ -228,38 +229,38 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   arrowKey: {
-    backgroundColor: '#475569',
+    backgroundColor: color.borderStrong,
     paddingHorizontal: 18,
     paddingVertical: 14,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   backspaceKey: {
-    backgroundColor: '#ef4444',
+    backgroundColor: color.danger,
     paddingHorizontal: 16,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   spaceKey: {
     flex: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 4,
     paddingVertical: 14,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   spaceKeyText: {
     fontSize: 18,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   submitKey: {
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
     paddingHorizontal: 28,
     paddingVertical: 14,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },

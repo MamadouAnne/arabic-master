@@ -8,6 +8,8 @@ import { getSurahById } from '../../../../src/data/arabic/quran';
 import { fetchSurahAyahsById } from '../../../../src/services/staticQuranService';
 import { useQuranStore } from '../../../../src/stores/quranStore';
 import { Ayah } from '../../../../src/types/quran';
+import { color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 type TestType = 'fill_blank' | 'continue_from' | 'what_next';
 
@@ -94,7 +96,7 @@ export default function TestModeScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#8b5cf6" />
+          <ActivityIndicator size="large" color={color.accent} />
           <Text style={styles.loadingText}>{t('surahTest.loadingQuestions')}</Text>
         </View>
       </SafeAreaView>
@@ -107,7 +109,7 @@ export default function TestModeScreen() {
         <SafeAreaView style={styles.container}>
           <View style={styles.completeContainer}>
             <View style={styles.completeIcon}>
-              <Ionicons name="trophy" size={48} color="#f59e0b" />
+              <Ionicons name="trophy" size={48} color={color.warning} />
             </View>
             <Text style={styles.completeTitle}>{t('surahTest.testComplete')}</Text>
             <Text style={styles.completeScore}>
@@ -198,7 +200,7 @@ export default function TestModeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahName}>{surah.nameArabic}</Text>
@@ -257,10 +259,10 @@ export default function TestModeScreen() {
                 {option}
               </Text>
               {showCorrect && (
-                <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+                <Ionicons name="checkmark-circle" size={24} color={color.progress} />
               )}
               {showWrong && (
-                <Ionicons name="close-circle" size={24} color="#ef4444" />
+                <Ionicons name="close-circle" size={24} color={color.danger} />
               )}
             </Pressable>
           );
@@ -282,7 +284,7 @@ export default function TestModeScreen() {
             <Text style={styles.nextButtonText}>
               {currentQuestionIndex < questions.length - 1 ? t('surahTest.nextQuestion') : t('surahTest.seeResults')}
             </Text>
-            <Ionicons name="arrow-forward" size={20} color="#ffffff" />
+            <Ionicons name="arrow-forward" size={20} color={color.text} />
           </Pressable>
         )}
       </View>
@@ -302,7 +304,7 @@ function shuffleArray<T>(array: T[]): T[] {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -310,12 +312,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     marginTop: 16,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 100,
@@ -334,12 +336,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
   subtitle: {
-    color: '#8b5cf6',
+    color: color.accent,
     fontSize: 12,
     marginTop: 2,
   },
@@ -347,7 +349,7 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   progressText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   progressContainer: {
@@ -356,19 +358,19 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#8b5cf6',
+    backgroundColor: color.accent,
     borderRadius: 2,
   },
   questionCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     padding: 24,
     marginBottom: 24,
   },
@@ -376,7 +378,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   questionLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 20,
   },
@@ -387,20 +389,20 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   fillBlankWord: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
   },
   fillBlankMissing: {
-    color: '#8b5cf6',
+    color: color.accent,
     textDecorationLine: 'underline',
   },
   continueContainer: {
     padding: 16,
-    backgroundColor: '#334155',
-    borderRadius: 12,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.md,
   },
   continueAyah: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     textAlign: 'center',
     writingDirection: 'rtl',
@@ -413,25 +415,25 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     borderWidth: 2,
     borderColor: 'transparent',
   },
   optionButtonSelected: {
-    borderColor: '#8b5cf6',
+    borderColor: color.accent,
   },
   optionButtonCorrect: {
-    backgroundColor: '#10b98120',
-    borderColor: '#10b981',
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderColor: color.progress,
   },
   optionButtonWrong: {
-    backgroundColor: '#ef444420',
-    borderColor: '#ef4444',
+    backgroundColor: withAlpha(color.danger, 0.13),
+    borderColor: color.danger,
   },
   optionText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     textAlign: 'right',
     flex: 1,
@@ -449,22 +451,22 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
   },
   submitButton: {
-    backgroundColor: '#8b5cf6',
-    borderRadius: 16,
+    backgroundColor: color.accent,
+    borderRadius: radius.lg,
     paddingVertical: 18,
     alignItems: 'center',
   },
   submitButtonDisabled: {
-    backgroundColor: '#8b5cf650',
+    backgroundColor: withAlpha(color.accent, 0.31),
   },
   submitButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   nextButton: {
-    backgroundColor: '#10b981',
-    borderRadius: 16,
+    backgroundColor: color.progress,
+    borderRadius: radius.lg,
     paddingVertical: 18,
     flexDirection: 'row',
     alignItems: 'center',
@@ -472,7 +474,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   nextButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -487,36 +489,36 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
   },
   completeTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 16,
   },
   completeScore: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 18,
     marginBottom: 8,
   },
   completePercent: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 48,
     fontWeight: 'bold',
     marginBottom: 32,
   },
   completeButton: {
-    backgroundColor: '#10b981',
-    borderRadius: 16,
+    backgroundColor: color.progress,
+    borderRadius: radius.lg,
     paddingVertical: 16,
     paddingHorizontal: 32,
   },
   completeButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },

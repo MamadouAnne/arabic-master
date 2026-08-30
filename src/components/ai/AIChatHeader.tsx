@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 import { AIModuleContext, AIModelChoice } from '../../types/aiChat';
 import { CreditDisplayInfo } from '../../types/credits';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface Props {
   module: AIModuleContext;
@@ -41,7 +43,7 @@ const TEACHER_CONFIG: Record<AIModelChoice, {
     name: 'Ustadh Ali',
     arabicName: 'أُسْتَاذ عَلِي',
     avatarLetter: 'ع',
-    avatarColor: '#10b981',
+    avatarColor: color.progress,
     avatarImage: require('../../../assets/images/teachers/ustadh-ali.png'),
     traits: [
       { icon: 'flash-outline', labelKey: 'ai.traitFast' },
@@ -54,7 +56,7 @@ const TEACHER_CONFIG: Record<AIModelChoice, {
     name: 'Ustadh Ibrahim',
     arabicName: 'أُسْتَاذ إِبْرَاهِيم',
     avatarLetter: 'إ',
-    avatarColor: '#D4AF37',
+    avatarColor: color.sacred,
     avatarImage: require('../../../assets/images/teachers/ustadh-ibrahim.png'),
     traits: [
       { icon: 'school-outline', labelKey: 'ai.traitScholarly' },
@@ -100,7 +102,7 @@ export function AIChatHeader({ module, model, creditInfo, onClear, onClose, onCr
 
         {/* Close button */}
         <Pressable onPress={onClose} style={styles.iconBtn} hitSlop={8}>
-          <Ionicons name="close" size={22} color="#a3a398" />
+          <Ionicons name="close" size={22} color={color.textMuted} />
         </Pressable>
       </View>
 
@@ -130,7 +132,7 @@ export function AIChatHeader({ module, model, creditInfo, onClear, onClose, onCr
           {/* Credits / Premium */}
           {creditInfo.isPremium ? (
             <View style={styles.premiumBadge}>
-              <Ionicons name="diamond" size={12} color="#10b981" />
+              <Ionicons name="diamond" size={12} color={color.progress} />
               <Text style={styles.premiumText}>{t('ai.premium')}</Text>
             </View>
           ) : (
@@ -158,7 +160,7 @@ export function AIChatHeader({ module, model, creditInfo, onClear, onClose, onCr
 
           {/* Clear conversation */}
           <Pressable onPress={onClear} style={styles.iconBtn} hitSlop={8}>
-            <Ionicons name="trash-outline" size={18} color="#6b6b60" />
+            <Ionicons name="trash-outline" size={18} color={color.textFaint} />
           </Pressable>
         </View>
       </View>
@@ -229,7 +231,7 @@ export function AIChatHeader({ module, model, creditInfo, onClear, onClose, onCr
               style={[styles.switchBtn, { backgroundColor: otherTeacher.avatarColor }]}
               onPress={handleConfirmSwitch}
             >
-              <Ionicons name="swap-horizontal" size={18} color="#fff" />
+              <Ionicons name="swap-horizontal" size={18} color={color.text} />
               <Text style={styles.switchBtnText}>{t('ai.switchTo', { name: otherTeacher.name })}</Text>
             </Pressable>
 
@@ -249,8 +251,8 @@ const styles = StyleSheet.create({
     paddingTop: 8,
     paddingBottom: 14,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
-    backgroundColor: '#1e293b',
+    borderBottomColor: color.border,
+    backgroundColor: color.surface,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
   },
@@ -258,7 +260,7 @@ const styles = StyleSheet.create({
     width: 36,
     height: 4,
     borderRadius: 2,
-    backgroundColor: '#475569',
+    backgroundColor: color.borderStrong,
     alignSelf: 'center',
     marginBottom: 12,
   },
@@ -277,18 +279,18 @@ const styles = StyleSheet.create({
   avatarImage: {
     width: 44,
     height: 44,
-    borderRadius: 22,
+    borderRadius: radius.xl,
     borderWidth: 2,
   },
   avatarCircle: {
     width: 44,
     height: 44,
-    borderRadius: 22,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
   avatarText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 20,
     fontWeight: '700',
   },
@@ -296,11 +298,13 @@ const styles = StyleSheet.create({
     gap: 1,
   },
   name: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 16,
     fontWeight: '700',
   },
   arabicName: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
   },
 
@@ -312,13 +316,13 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   moduleBadge: {
-    backgroundColor: '#0f172a',
-    borderRadius: 8,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
     paddingHorizontal: 8,
     paddingVertical: 3,
   },
   moduleBadgeText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
   },
   actions: {
@@ -332,74 +336,74 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    backgroundColor: '#0f172a',
-    borderRadius: 14,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   switchAvatar: {
     width: 18,
     height: 18,
-    borderRadius: 9,
+    borderRadius: radius.sm,
   },
   switchAvatarFallback: {
     width: 18,
     height: 18,
-    borderRadius: 9,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   switchAvatarText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 9,
     fontWeight: '700',
   },
   switchChipText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
     fontWeight: '600',
   },
 
   // ── Credits / Premium ─────────────────────────────────────────
   creditsText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 12,
     fontWeight: '700',
     fontVariant: ['tabular-nums'],
   },
   creditsTextEmpty: {
-    color: '#fff',
+    color: color.text,
   },
   buyBtn: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     paddingHorizontal: 8,
     paddingVertical: 5,
     borderWidth: 1,
-    borderColor: '#f59e0b30',
+    borderColor: withAlpha(color.warning, 0.19),
   },
   buyBtnUrgent: {
-    backgroundColor: '#f59e0b',
-    borderColor: '#f59e0b',
+    backgroundColor: color.warning,
+    borderColor: color.warning,
   },
   premiumBadge: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    backgroundColor: '#10b98118',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.09),
+    borderRadius: radius.md,
     paddingHorizontal: 10,
     paddingVertical: 5,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   premiumText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 11,
     fontWeight: '700',
   },
@@ -416,22 +420,22 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   modalCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     width: '100%',
     maxWidth: 360,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   modalTitle: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 20,
     fontWeight: '800',
     textAlign: 'center',
   },
   modalSubtitle: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     textAlign: 'center',
     marginTop: 4,
@@ -446,17 +450,17 @@ const styles = StyleSheet.create({
   },
   teacherCard: {
     flex: 1,
-    backgroundColor: '#0f172a',
-    borderRadius: 16,
+    backgroundColor: color.bg,
+    borderRadius: radius.lg,
     padding: 14,
     alignItems: 'center',
     borderWidth: 1.5,
   },
   teacherCardOther: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
   },
   currentTag: {
-    borderRadius: 8,
+    borderRadius: radius.sm,
     paddingHorizontal: 8,
     paddingVertical: 2,
     marginBottom: 8,
@@ -482,16 +486,18 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   modalAvatarText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 24,
     fontWeight: '700',
   },
   teacherCardName: {
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 13,
     fontWeight: '700',
   },
   teacherCardArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 19,
     fontSize: 11,
     marginTop: 1,
     marginBottom: 10,
@@ -506,7 +512,7 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   traitLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
     flex: 1,
   },
@@ -517,11 +523,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    borderRadius: 14,
+    borderRadius: radius.md,
     paddingVertical: 14,
   },
   switchBtnText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
   },
@@ -531,7 +537,7 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   cancelBtnText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     fontWeight: '600',
   },

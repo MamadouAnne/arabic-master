@@ -5,6 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 import type { QuizContent } from '../../../types/classContent';
 import { submitClassResponse, fetchClassResponses, ClassResponseRow } from '../../../services/communitySocialService';
 import { renderRichText } from './richText';
+import { color, radius } from '../../../theme/tokens';
 
 interface Props {
   messageId: string;
@@ -80,7 +81,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
     <View style={styles.card}>
       <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
         <View style={[styles.badge, { backgroundColor: groupColor }]}>
-          <Ionicons name="help-circle" size={13} color="#ffffff" />
+          <Ionicons name="help-circle" size={13} color={color.text} />
           <Text style={styles.badgeText}>{t('community.badgeQuiz')}</Text>
         </View>
         <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
@@ -116,7 +117,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                           <Ionicons
                             name={revealCorrect ? 'checkmark-circle' : revealWrong ? 'close-circle' : selected ? 'radio-button-on' : 'radio-button-off'}
                             size={18}
-                            color={revealCorrect ? '#10b981' : revealWrong ? '#ef4444' : selected ? groupColor : '#475569'}
+                            color={revealCorrect ? '#10b981' : revealWrong ? '#ef4444' : selected ? groupColor: color.textFaint}
                           />
                           <Text style={styles.optText}>{renderRichText(opt)}</Text>
                         </Pressable>
@@ -126,7 +127,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                     <TextInput
                       style={[styles.blankInput, submitted && (isCorrect(q.id, a, q) ? styles.optCorrect : styles.optWrong)]}
                       placeholder={t('community.yourAnswerPlaceholder')}
-                      placeholderTextColor="#475569"
+                      placeholderTextColor={color.textFaint}
                       value={(a as string) || ''}
                       editable={!submitted}
                       onChangeText={(t) => setAnswers((prev) => ({ ...prev, [q.id]: t }))}
@@ -188,31 +189,31 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
 });
 
 const styles = StyleSheet.create({
-  card: { width: '100%', backgroundColor: '#1e293b', borderRadius: 16, borderWidth: 1, borderColor: '#334155', overflow: 'hidden' },
+  card: { width: '100%', backgroundColor: color.surface, borderRadius: radius.lg, borderWidth: 1, borderColor: color.border, overflow: 'hidden' },
   band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
-  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8 },
-  badgeText: { fontSize: 10, fontWeight: '800', color: '#ffffff', letterSpacing: 0.6 },
-  byline: { fontSize: 12, color: '#94a3b8', maxWidth: 130 },
+  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.sm },
+  badgeText: { fontSize: 10, fontWeight: '800', color: color.text, letterSpacing: 0.6 },
+  byline: { fontSize: 12, color: color.textMuted, maxWidth: 130 },
   body: { padding: 14 },
-  title: { fontSize: 18, fontWeight: '800', color: '#f8fafc', marginBottom: 12 },
+  title: { fontSize: 18, fontWeight: '800', color: color.text, marginBottom: 12 },
   question: { marginBottom: 16 },
-  prompt: { fontSize: 15, fontWeight: '600', color: '#f1f5f9', lineHeight: 22, marginBottom: 8 },
-  option: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 10, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0f172a', marginBottom: 6 },
-  optText: { flex: 1, fontSize: 14.5, color: '#e2e8f0', lineHeight: 20 },
-  optCorrect: { borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.12)' },
-  optWrong: { borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.12)' },
-  blankInput: { backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, fontSize: 15, color: '#e2e8f0', borderWidth: 1, borderColor: '#334155' },
-  explBox: { flexDirection: 'row', gap: 6, marginTop: 8, padding: 8, borderRadius: 8, backgroundColor: 'rgba(56,189,248,0.1)' },
-  explText: { flex: 1, fontSize: 13, color: '#cbd5e1', lineHeight: 19 },
-  submitBtn: { paddingVertical: 12, borderRadius: 12, alignItems: 'center', marginTop: 4 },
-  submitText: { color: '#ffffff', fontWeight: '700', fontSize: 15 },
-  scoreBox: { flexDirection: 'row', alignItems: 'center', gap: 8, borderWidth: 1.5, borderRadius: 12, padding: 12, justifyContent: 'center' },
-  scoreText: { fontSize: 15, fontWeight: '700', color: '#f8fafc' },
+  prompt: { fontSize: 15, fontWeight: '600', color: color.text, lineHeight: 22, marginBottom: 8 },
+  option: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 10, borderRadius: radius.sm, borderWidth: 1, borderColor: color.border, backgroundColor: color.bg, marginBottom: 6 },
+  optText: { flex: 1, fontSize: 14.5, color: color.text, lineHeight: 20 },
+  optCorrect: { borderColor: color.progress, backgroundColor: 'rgba(16,185,129,0.12)' },
+  optWrong: { borderColor: color.danger, backgroundColor: 'rgba(239,68,68,0.12)' },
+  blankInput: { backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 10, fontSize: 15, color: color.text, borderWidth: 1, borderColor: color.border },
+  explBox: { flexDirection: 'row', gap: 6, marginTop: 8, padding: 8, borderRadius: radius.sm, backgroundColor: 'rgba(56,189,248,0.1)' },
+  explText: { flex: 1, fontSize: 13, color: color.textMuted, lineHeight: 19 },
+  submitBtn: { paddingVertical: 12, borderRadius: radius.md, alignItems: 'center', marginTop: 4 },
+  submitText: { color: color.text, fontWeight: '700', fontSize: 15 },
+  scoreBox: { flexDirection: 'row', alignItems: 'center', gap: 8, borderWidth: 1.5, borderRadius: radius.md, padding: 12, justifyContent: 'center' },
+  scoreText: { fontSize: 15, fontWeight: '700', color: color.text },
   resultsToggle: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, marginTop: 12, paddingVertical: 6 },
   resultsText: { fontSize: 13, fontWeight: '600' },
-  resultsBox: { marginTop: 8, padding: 10, borderRadius: 10, backgroundColor: '#0f172a' },
-  resultsLine: { fontSize: 13, fontWeight: '700', color: '#e2e8f0', marginBottom: 8 },
+  resultsBox: { marginTop: 8, padding: 10, borderRadius: radius.sm, backgroundColor: color.bg },
+  resultsLine: { fontSize: 13, fontWeight: '700', color: color.text, marginBottom: 8 },
   resultRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: 4 },
-  resultName: { flex: 1, fontSize: 13, color: '#cbd5e1' },
+  resultName: { flex: 1, fontSize: 13, color: color.textMuted },
   resultScore: { fontSize: 13, fontWeight: '700' },
 });

@@ -8,6 +8,8 @@ import { verbExercises } from '../../src/data/arabic/exercises/verbExercises';
 import { arabicVerbs } from '../../src/data/arabic/verbs/conjugations';
 import { verbLessons } from '../../src/data/arabic/verbs/verbLessons';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
+import { font, color as tk, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function VerbsScreen() {
   const { t } = useTranslation();
@@ -23,7 +25,7 @@ export default function VerbsScreen() {
       titleArabic: 'الْمُضَارِع',
       description: t('verbs.presentTenseDesc'),
       icon: 'reload-outline' as const,
-      color: '#6366f1',
+      color: tk.accentStrong,
     },
     {
       id: 'past',
@@ -31,7 +33,7 @@ export default function VerbsScreen() {
       titleArabic: 'الْمَاضِي',
       description: t('verbs.pastTenseDesc'),
       icon: 'time-outline' as const,
-      color: '#10b981',
+      color: tk.progress,
     },
     {
       id: 'future',
@@ -39,7 +41,7 @@ export default function VerbsScreen() {
       titleArabic: 'الْمُسْتَقْبَل',
       description: t('verbs.futureTenseDesc'),
       icon: 'arrow-forward-outline' as const,
-      color: '#D4AF37',
+      color: tk.sacred,
     },
     {
       id: 'imperative',
@@ -47,7 +49,7 @@ export default function VerbsScreen() {
       titleArabic: 'الْأَمْر',
       description: t('verbs.commandsDesc'),
       icon: 'megaphone-outline' as const,
-      color: '#f59e0b',
+      color: tk.warning,
     },
   ];
 
@@ -57,9 +59,9 @@ export default function VerbsScreen() {
   sortedLessons.forEach((l, i) => { lessonNumber[l.id] = i + 1; });
 
   const LEVELS: { key: string; label: string; ar: string; color: string }[] = [
-    { key: 'beginner', label: t('common.beginner'), ar: 'الْمُبْتَدِئ', color: '#10b981' },
-    { key: 'intermediate', label: t('common.intermediate'), ar: 'الْمُتَوَسِّط', color: '#6366f1' },
-    { key: 'advanced', label: t('common.advanced'), ar: 'الْمُتَقَدِّم', color: '#D4AF37' },
+    { key: 'beginner', label: t('common.beginner'), ar: 'الْمُبْتَدِئ', color: tk.progress },
+    { key: 'intermediate', label: t('common.intermediate'), ar: 'الْمُتَوَسِّط', color: tk.accentStrong },
+    { key: 'advanced', label: t('common.advanced'), ar: 'الْمُتَقَدِّم', color: tk.sacred },
   ];
 
   const renderLessonCard = (lesson: (typeof verbLessons)[number], color: string) => (
@@ -78,7 +80,7 @@ export default function VerbsScreen() {
           {lc(lesson.description, (lesson as any).descriptionFr)}
         </Text>
       </View>
-      <Ionicons name="chevron-forward" size={20} color="#64748b" />
+      <Ionicons name="chevron-forward" size={20} color={tk.textFaint} />
     </Pressable>
   );
 
@@ -88,7 +90,7 @@ export default function VerbsScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={tk.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('verbs.title')}</Text>
@@ -98,7 +100,7 @@ export default function VerbsScreen() {
 
         {/* Intro Card */}
         <View style={styles.introCard}>
-          <Ionicons name="information-circle" size={24} color="#10b981" />
+          <Ionicons name="information-circle" size={24} color={tk.progress} />
           <View style={styles.introContent}>
             <Text style={styles.introTitle}>{t('verbs.introTitle')}</Text>
             <Text style={styles.introText}>
@@ -151,7 +153,7 @@ export default function VerbsScreen() {
                 <Text style={styles.categoryTitleArabic}>{category.titleArabic}</Text>
                 <Text style={styles.categoryDescription}>{category.description}</Text>
               </View>
-              <Ionicons name="chevron-forward" size={20} color="#64748b" />
+              <Ionicons name="chevron-forward" size={20} color={tk.textFaint} />
             </Pressable>
           ))}
         </View>
@@ -174,7 +176,7 @@ export default function VerbsScreen() {
                     speak(verb.pastTense);
                   }}
                 >
-                  <Ionicons name="volume-high" size={16} color="#10b981" />
+                  <Ionicons name="volume-high" size={16} color={tk.progress} />
                 </Pressable>
                 <Text style={styles.verbArabicText}>{verb.pastTense}</Text>
                 <Text style={styles.verbMeaningText}>{lc(verb.meaning, (verb as any).meaningFr)}</Text>
@@ -188,8 +190,8 @@ export default function VerbsScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t('verbs.keyConcepts')}</Text>
           <View style={styles.conceptsGrid}>
-            <View style={[styles.conceptCard, { borderLeftColor: '#10b981' }]}>
-              <Text style={[styles.conceptEmoji, { backgroundColor: '#10b98120' }]}>🔤</Text>
+            <View style={[styles.conceptCard, { borderLeftColor: tk.progress }]}>
+              <Text style={[styles.conceptEmoji, { backgroundColor: withAlpha(tk.progress, 0.13) }]}>🔤</Text>
               <View style={styles.conceptContent}>
                 <Text style={styles.conceptTitle}>{t('verbs.rootSystem')}</Text>
                 <Text style={styles.conceptText}>
@@ -197,8 +199,8 @@ export default function VerbsScreen() {
                 </Text>
               </View>
             </View>
-            <View style={[styles.conceptCard, { borderLeftColor: '#6366f1' }]}>
-              <Text style={[styles.conceptEmoji, { backgroundColor: '#6366f120' }]}>👤</Text>
+            <View style={[styles.conceptCard, { borderLeftColor: tk.accentStrong }]}>
+              <Text style={[styles.conceptEmoji, { backgroundColor: withAlpha(tk.accentStrong, 0.13) }]}>👤</Text>
               <View style={styles.conceptContent}>
                 <Text style={styles.conceptTitle}>{t('verbs.person')}</Text>
                 <Text style={styles.conceptText}>
@@ -206,8 +208,8 @@ export default function VerbsScreen() {
                 </Text>
               </View>
             </View>
-            <View style={[styles.conceptCard, { borderLeftColor: '#D4AF37' }]}>
-              <Text style={[styles.conceptEmoji, { backgroundColor: '#D4AF3720' }]}>⚥</Text>
+            <View style={[styles.conceptCard, { borderLeftColor: tk.sacred }]}>
+              <Text style={[styles.conceptEmoji, { backgroundColor: withAlpha(tk.sacred, 0.13) }]}>⚥</Text>
               <View style={styles.conceptContent}>
                 <Text style={styles.conceptTitle}>{t('verbs.genderConcept')}</Text>
                 <Text style={styles.conceptText}>
@@ -224,14 +226,14 @@ export default function VerbsScreen() {
 
           {/* Quiz Practice */}
           <Pressable
-            style={[styles.practiceButton, { backgroundColor: '#10b981' }]}
+            style={[styles.practiceButton, { backgroundColor: tk.progress }]}
             onPress={() =>
               router.push({
                 pathname: '/verbs/quiz-practice',
               } as any)
             }
           >
-            <Ionicons name="help-circle" size={24} color="#ffffff" />
+            <Ionicons name="help-circle" size={24} color={tk.text} />
             <View style={styles.practiceButtonContent}>
               <Text style={styles.practiceButtonText}>{t('verbs.quizPractice')}</Text>
               <Text style={styles.practiceButtonSubtext}>
@@ -245,14 +247,14 @@ export default function VerbsScreen() {
 
           {/* Writing Practice */}
           <Pressable
-            style={[styles.practiceButton, { backgroundColor: '#D4AF37' }]}
+            style={[styles.practiceButton, { backgroundColor: tk.sacred }]}
             onPress={() =>
               router.push({
                 pathname: '/verbs/writing-practice',
               } as any)
             }
           >
-            <Ionicons name="pencil" size={24} color="#ffffff" />
+            <Ionicons name="pencil" size={24} color={tk.text} />
             <View style={styles.practiceButtonContent}>
               <Text style={styles.practiceButtonText}>{t('verbs.writingPractice')}</Text>
               <Text style={styles.practiceButtonSubtext}>
@@ -274,7 +276,7 @@ export default function VerbsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: tk.bg,
   },
   header: {
     flexDirection: 'row',
@@ -286,8 +288,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: tk.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -298,22 +300,24 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#10b981',
+    color: tk.progress,
     marginTop: 4,
   },
   introCard: {
     flexDirection: 'row',
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(tk.progress, 0.13),
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 24,
     borderWidth: 1,
-    borderColor: '#10b98140',
+    borderColor: withAlpha(tk.progress, 0.25),
   },
   introContent: {
     flex: 1,
@@ -322,12 +326,12 @@ const styles = StyleSheet.create({
   introTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#10b981',
+    color: tk.progress,
     marginBottom: 4,
   },
   introText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: tk.textMuted,
     lineHeight: 20,
   },
   section: {
@@ -337,21 +341,21 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
     marginBottom: 16,
   },
   categoryCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: tk.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
   },
   categoryIcon: {
     width: 48,
     height: 48,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -362,22 +366,24 @@ const styles = StyleSheet.create({
   categoryTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: tk.text,
   },
   categoryTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: tk.sacred,
     marginTop: 2,
   },
   categoryDescription: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: tk.textMuted,
     marginTop: 4,
   },
   practiceButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 18,
     marginBottom: 12,
   },
@@ -388,7 +394,7 @@ const styles = StyleSheet.create({
   practiceButtonText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
   },
   practiceButtonSubtext: {
     fontSize: 12,
@@ -399,16 +405,16 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   exerciseCountText: {
-    color: '#ffffff',
+    color: tk.text,
     fontSize: 14,
     fontWeight: 'bold',
   },
   sectionSubtitle: {
     fontSize: 13,
-    color: '#64748b',
+    color: tk.textFaint,
     marginBottom: 16,
     marginTop: -8,
   },
@@ -419,8 +425,8 @@ const styles = StyleSheet.create({
   },
   verbCard: {
     width: '31%',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: tk.surface,
+    borderRadius: radius.md,
     padding: 12,
     alignItems: 'center',
     position: 'relative',
@@ -431,48 +437,49 @@ const styles = StyleSheet.create({
     right: 8,
     width: 24,
     height: 24,
-    borderRadius: 12,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(tk.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   verbArabicText: {
+    fontFamily: font.arabic,
     fontSize: 26,
     lineHeight: 44,
-    color: '#ffffff',
+    color: tk.text,
     fontWeight: '600',
     marginBottom: 4,
     marginTop: 4,
   },
   verbMeaningText: {
     fontSize: 11,
-    color: '#94a3b8',
+    color: tk.textMuted,
     textAlign: 'center',
   },
   verbRootText: {
     fontSize: 10,
-    color: '#64748b',
+    color: tk.textFaint,
     marginTop: 4,
   },
   conceptsGrid: {
     gap: 14,
   },
   conceptCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: tk.surface,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'flex-start',
     gap: 14,
     borderLeftWidth: 4,
-    borderLeftColor: '#10b981',
+    borderLeftColor: tk.progress,
   },
   conceptEmoji: {
     fontSize: 28,
     width: 48,
     height: 48,
-    backgroundColor: '#10b98120',
-    borderRadius: 12,
+    backgroundColor: withAlpha(tk.progress, 0.13),
+    borderRadius: radius.md,
     textAlign: 'center',
     lineHeight: 48,
     overflow: 'hidden',
@@ -483,12 +490,12 @@ const styles = StyleSheet.create({
   conceptTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: tk.text,
     marginBottom: 6,
   },
   conceptText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: tk.textMuted,
     lineHeight: 20,
   },
   // Verb Lessons styles
@@ -515,26 +522,26 @@ const styles = StyleSheet.create({
   levelGroupTitle: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#e2e8f0',
+    color: tk.text,
     textTransform: 'capitalize',
   },
   levelGroupCount: {
     minWidth: 22,
     height: 22,
     paddingHorizontal: 6,
-    borderRadius: 11,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: tk.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
   levelGroupCountText: {
     fontSize: 12,
     fontWeight: '700',
-    color: '#94a3b8',
+    color: tk.textMuted,
   },
   levelGroupAr: {
     fontSize: 13,
-    color: '#64748b',
+    color: tk.textFaint,
   },
   lessonsGrid: {
     gap: 12,
@@ -542,14 +549,14 @@ const styles = StyleSheet.create({
   lessonCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: tk.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   lessonNumber: {
     width: 40,
     height: 40,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -564,16 +571,18 @@ const styles = StyleSheet.create({
   lessonTitle: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: tk.text,
   },
   lessonTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
-    color: '#D4AF37',
+    color: tk.sacred,
     marginTop: 2,
   },
   lessonDescription: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: tk.textMuted,
     marginTop: 4,
     lineHeight: 18,
   },

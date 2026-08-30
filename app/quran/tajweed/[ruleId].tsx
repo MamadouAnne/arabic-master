@@ -17,6 +17,8 @@ import {
   ReciterId,
   AudioState
 } from '../../../src/services/quranAudioService';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 // Recommended reciters for Tajweed learning (clear pronunciation)
 const TAJWEED_RECITERS = [
@@ -148,7 +150,7 @@ export default function TajweedRuleDetailScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.ruleName}>{lc(rule.nameEnglish, rule.nameFrench)}</Text>
@@ -157,9 +159,9 @@ export default function TajweedRuleDetailScreen() {
             </Text>
           </View>
           <View style={styles.headerRight}>
-            {isMastered && <Ionicons name="star" size={24} color="#f59e0b" />}
+            {isMastered && <Ionicons name="star" size={24} color={color.warning} />}
             {isLearned && !isMastered && (
-              <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+              <Ionicons name="checkmark-circle" size={24} color={color.progress} />
             )}
             <Pressable
               onPress={() => {
@@ -179,7 +181,7 @@ export default function TajweedRuleDetailScreen() {
               accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
               hitSlop={8}
             >
-              <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+              <Ionicons name="paper-plane-outline" size={22} color={color.accent} />
             </Pressable>
           </View>
         </View>
@@ -190,7 +192,7 @@ export default function TajweedRuleDetailScreen() {
           onPress={() => setShowReciterModal(true)}
         >
           <View style={styles.reciterInfo}>
-            <Ionicons name="person-circle-outline" size={24} color="#10b981" />
+            <Ionicons name="person-circle-outline" size={24} color={color.progress} />
             <View style={styles.reciterText}>
               <Text style={styles.reciterLabel}>{t('tajweedFeature.reciter')}</Text>
               <Text style={styles.reciterName}>
@@ -198,7 +200,7 @@ export default function TajweedRuleDetailScreen() {
               </Text>
             </View>
           </View>
-          <Ionicons name="chevron-down" size={20} color="#64748b" />
+          <Ionicons name="chevron-down" size={20} color={color.textFaint} />
         </Pressable>
 
         {/* Description */}
@@ -236,7 +238,7 @@ export default function TajweedRuleDetailScreen() {
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>{t('tajweedFeature.duration')}</Text>
             <View style={styles.durationCard}>
-              <Ionicons name="time-outline" size={24} color="#10b981" />
+              <Ionicons name="time-outline" size={24} color={color.progress} />
               <Text style={styles.durationText}>{rule.duration} {t('tajweedFeature.harakat')}</Text>
               <View style={styles.durationDots}>
                 {Array.from({ length: rule.duration }).map((_, i) => (
@@ -288,7 +290,7 @@ export default function TajweedRuleDetailScreen() {
               <View key={index} style={styles.exampleCard}>
                 {/* Surah/Ayah reference at top */}
                 <View style={styles.exampleSourceTop}>
-                  <Ionicons name="book-outline" size={14} color="#10b981" />
+                  <Ionicons name="book-outline" size={14} color={color.progress} />
                   <Text style={styles.exampleSourceTextTop}>
                     {t('tajweedFeature.surah')} {example.surahName} ({example.surahNumber}:{example.ayahNumber})
                   </Text>
@@ -311,7 +313,7 @@ export default function TajweedRuleDetailScreen() {
                     disabled={isLoading}
                   >
                     {isLoading ? (
-                      <ActivityIndicator size="small" color="#10b981" />
+                      <ActivityIndicator size="small" color={color.progress} />
                     ) : (
                       <Ionicons
                         name={isPlaying ? "pause" : "play"}
@@ -339,7 +341,7 @@ export default function TajweedRuleDetailScreen() {
 
                 {example.explanation && (
                   <View style={styles.explanationContainer}>
-                    <Ionicons name="information-circle-outline" size={16} color="#10b981" />
+                    <Ionicons name="information-circle-outline" size={16} color={color.progress} />
                     <Text style={styles.exampleExplanation}>{lc(example.explanation, example.explanationFr)}</Text>
                   </View>
                 )}
@@ -352,19 +354,19 @@ export default function TajweedRuleDetailScreen() {
         <View style={[styles.actionsContainer, { marginBottom: 100 }]}>
           {!isLearned && (
             <Pressable style={styles.primaryButton} onPress={handleMarkLearned}>
-              <Ionicons name="checkmark" size={20} color="#ffffff" />
+              <Ionicons name="checkmark" size={20} color={color.text} />
               <Text style={styles.primaryButtonText}>{t('tajweedFeature.markLearned')}</Text>
             </Pressable>
           )}
           {isLearned && !isMastered && (
             <Pressable style={styles.masterButton} onPress={handleMarkMastered}>
-              <Ionicons name="star" size={20} color="#ffffff" />
+              <Ionicons name="star" size={20} color={color.text} />
               <Text style={styles.masterButtonText}>{t('tajweedFeature.markMastered')}</Text>
             </Pressable>
           )}
           {isMastered && (
             <View style={styles.masteredBadge}>
-              <Ionicons name="star" size={24} color="#f59e0b" />
+              <Ionicons name="star" size={24} color={color.warning} />
               <Text style={styles.masteredText}>{t('tajweedFeature.masteredRule')}</Text>
             </View>
           )}
@@ -383,7 +385,7 @@ export default function TajweedRuleDetailScreen() {
             <View style={styles.modalHeader}>
               <Text style={styles.modalTitle}>{t('tajweedFeature.chooseReciter')}</Text>
               <Pressable onPress={() => setShowReciterModal(false)}>
-                <Ionicons name="close" size={24} color="#ffffff" />
+                <Ionicons name="close" size={24} color={color.text} />
               </Pressable>
             </View>
             <Text style={styles.modalSubtitle}>
@@ -416,7 +418,7 @@ export default function TajweedRuleDetailScreen() {
                   <Text style={styles.reciterOptionDesc}>{t(reciter.descriptionKey)}</Text>
                 </View>
                 {selectedReciter === reciter.id && (
-                  <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+                  <Ionicons name="checkmark-circle" size={24} color={color.progress} />
                 )}
               </Pressable>
             ))}
@@ -436,10 +438,10 @@ export default function TajweedRuleDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 100,
@@ -458,11 +460,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   ruleName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: 'bold',
   },
   ruleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
     marginTop: 4,
   },
@@ -474,9 +478,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 16,
   },
@@ -489,11 +493,11 @@ const styles = StyleSheet.create({
     gap: 2,
   },
   reciterLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   reciterName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '500',
   },
@@ -502,28 +506,29 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     marginBottom: 4,
   },
   sectionHint: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginBottom: 12,
   },
   descriptionCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   description: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 15,
     lineHeight: 24,
   },
   descriptionArabic: {
-    color: '#10b981',
+    fontFamily: font.arabic,
+    color: color.progress,
     fontSize: 16,
     marginTop: 12,
     textAlign: 'right',
@@ -537,25 +542,25 @@ const styles = StyleSheet.create({
   letterButton: {
     width: 50,
     height: 50,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
   letterText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
   },
   durationCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     gap: 12,
   },
   durationText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: '500',
   },
@@ -568,11 +573,11 @@ const styles = StyleSheet.create({
     width: 10,
     height: 10,
     borderRadius: 5,
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   exampleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
   },
@@ -583,18 +588,18 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   exampleSourceTextTop: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 13,
     fontWeight: '500',
   },
   fullAyahContainer: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 12,
   },
   fullAyahText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
     textAlign: 'right',
     lineHeight: 42,
@@ -612,7 +617,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   playHintText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
   },
   ruleHighlightSection: {
@@ -620,7 +625,7 @@ const styles = StyleSheet.create({
   },
   highlightBadge: {
     backgroundColor: '#FFFF0015',
-    borderRadius: 8,
+    borderRadius: radius.sm,
     padding: 10,
     alignItems: 'center',
     borderWidth: 1,
@@ -631,25 +636,25 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   highlightLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
     marginTop: 4,
   },
   playButton: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#10b981',
+    borderRadius: radius.xl,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },
   playButtonActive: {
-    backgroundColor: '#10b98130',
+    backgroundColor: withAlpha(color.progress, 0.19),
     borderWidth: 2,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   playButtonLoading: {
-    backgroundColor: '#10b98130',
+    backgroundColor: withAlpha(color.progress, 0.19),
   },
   explanationContainer: {
     flexDirection: 'row',
@@ -657,10 +662,10 @@ const styles = StyleSheet.create({
     gap: 8,
     paddingTop: 10,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   exampleExplanation: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     flex: 1,
     lineHeight: 20,
@@ -672,13 +677,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#10b981',
-    borderRadius: 16,
+    backgroundColor: color.progress,
+    borderRadius: radius.lg,
     paddingVertical: 16,
     gap: 8,
   },
   primaryButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -686,13 +691,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f59e0b',
-    borderRadius: 16,
+    backgroundColor: color.warning,
+    borderRadius: radius.lg,
     paddingVertical: 16,
     gap: 8,
   },
   masterButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -700,13 +705,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f59e0b20',
-    borderRadius: 16,
+    backgroundColor: withAlpha(color.warning, 0.13),
+    borderRadius: radius.lg,
     paddingVertical: 20,
     gap: 10,
   },
   masteredText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -717,7 +722,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   modalContent: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     padding: 20,
@@ -730,32 +735,32 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   modalTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: 'bold',
   },
   modalSubtitle: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
     marginBottom: 20,
   },
   reciterOption: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 10,
   },
   reciterOptionSelected: {
     borderWidth: 2,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   reciterOptionIcon: {
     width: 44,
     height: 44,
-    borderRadius: 22,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -764,12 +769,12 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   reciterOptionName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '500',
   },
   reciterOptionDesc: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginTop: 2,
   },

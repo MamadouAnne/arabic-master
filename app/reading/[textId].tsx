@@ -10,6 +10,8 @@ import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import SpeechSpeedControl from '../../src/components/SpeechSpeedControl';
 import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
 import type { SharedContent } from '../../src/data/community/socialData';
+import { font, color as tk, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 // Reading content
 const readingContent: Record<string, {
@@ -27,7 +29,7 @@ const readingContent: Record<string, {
     titleArabic: 'التَّعْرِيفُ بِالنَّفْس',
     level: 'beginner',
     icon: '👋',
-    color: '#10b981',
+    color: tk.progress,
     paragraphs: [
       { arabic: 'مَرْحَبًا، اِسْمِي أَحْمَد.', english: 'Hello, my name is Ahmad.', french: "Bonjour, je m'appelle Ahmad." },
       { arabic: 'أَنَا مِنْ مِصْر.', english: 'I am from Egypt.', french: "Je suis d'Égypte." },
@@ -49,7 +51,7 @@ const readingContent: Record<string, {
     titleArabic: 'عَائِلَتِي',
     level: 'beginner',
     icon: '👨‍👩‍👧‍👦',
-    color: '#6366f1',
+    color: tk.accentStrong,
     paragraphs: [
       { arabic: 'هَذِهِ عَائِلَتِي.', english: 'This is my family.', french: 'Voici ma famille.' },
       { arabic: 'عَائِلَتِي كَبِيرَةٌ وَسَعِيدَة.', english: 'My family is big and happy.', french: 'Ma famille est grande et heureuse.' },
@@ -73,7 +75,7 @@ const readingContent: Record<string, {
     titleArabic: 'الرُّوتِينُ الْيَوْمِي',
     level: 'beginner',
     icon: '☀️',
-    color: '#f59e0b',
+    color: tk.warning,
     paragraphs: [
       { arabic: 'أَسْتَيْقِظُ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا.', english: "I wake up at six o'clock in the morning.", french: 'Je me réveille à six heures du matin.' },
       { arabic: 'أَغْسِلُ وَجْهِي وَأُنَظِّفُ أَسْنَانِي.', english: 'I wash my face and brush my teeth.', french: 'Je me lave le visage et je me brosse les dents.' },
@@ -96,7 +98,7 @@ const readingContent: Record<string, {
     titleArabic: 'فِي الْمَدْرَسَة',
     level: 'intermediate',
     icon: '🏫',
-    color: '#8b5cf6',
+    color: tk.accent,
     paragraphs: [
       { arabic: 'أَذْهَبُ إِلَى الْمَدْرَسَةِ كُلَّ يَوْم.', english: 'I go to school every day.', french: "Je vais à l'école chaque jour." },
       { arabic: 'مَدْرَسَتِي كَبِيرَةٌ وَجَمِيلَة.', english: 'My school is big and beautiful.', french: 'Mon école est grande et belle.' },
@@ -120,7 +122,7 @@ const readingContent: Record<string, {
     titleArabic: 'فِي السُّوق',
     level: 'intermediate',
     icon: '🛒',
-    color: '#ec4899',
+    color: tk.accent,
     paragraphs: [
       { arabic: 'أُحِبُّ الذَّهَابَ إِلَى السُّوقِ مَعَ أُمِّي.', english: 'I love going to the market with my mother.', french: "J'aime aller au marché avec ma mère." },
       { arabic: 'نَذْهَبُ كُلَّ يَوْمِ سَبْتٍ صَبَاحًا.', english: 'We go every Saturday morning.', french: 'Nous y allons chaque samedi matin.' },
@@ -144,7 +146,7 @@ const readingContent: Record<string, {
     titleArabic: 'الطَّقْس',
     level: 'intermediate',
     icon: '🌤️',
-    color: '#14b8a6',
+    color: tk.progress,
     paragraphs: [
       { arabic: 'الطَّقْسُ جَمِيلٌ الْيَوْم.', english: 'The weather is beautiful today.', french: "Le temps est beau aujourd'hui." },
       { arabic: 'الشَّمْسُ مُشْرِقَةٌ وَالسَّمَاءُ زَرْقَاء.', english: 'The sun is shining and the sky is blue.', french: 'Le soleil brille et le ciel est bleu.' },
@@ -168,7 +170,7 @@ const readingContent: Record<string, {
     titleArabic: 'قِصَّةُ سَفَر',
     level: 'advanced',
     icon: '✈️',
-    color: '#D4AF37',
+    color: tk.sacred,
     paragraphs: [
       { arabic: 'سَافَرْتُ إِلَى مِصْرَ فِي الصَّيْفِ الْمَاضِي.', english: 'I traveled to Egypt last summer.', french: "J'ai voyagé en Égypte l'été dernier." },
       { arabic: 'كَانَتْ أَوَّلَ رِحْلَةٍ لِي خَارِجَ بَلَدِي.', english: 'It was my first trip outside my country.', french: "C'était mon premier voyage hors de mon pays." },
@@ -192,7 +194,7 @@ const readingContent: Record<string, {
     titleArabic: 'الثَّقَافَةُ الْعَرَبِيَّة',
     level: 'advanced',
     icon: '🕌',
-    color: '#ef4444',
+    color: tk.danger,
     paragraphs: [
       { arabic: 'الثَّقَافَةُ الْعَرَبِيَّةُ غَنِيَّةٌ وَمُتَنَوِّعَة.', english: 'Arab culture is rich and diverse.', french: 'La culture arabe est riche et diversifiée.' },
       { arabic: 'يَمْتَدُّ تَارِيخُهَا لِآلَافِ السِّنِين.', english: 'Its history extends for thousands of years.', french: "Son histoire s'étend sur des milliers d'années." },
@@ -216,7 +218,7 @@ const readingContent: Record<string, {
     titleArabic: 'بَيْتِي',
     level: 'beginner',
     icon: '🏠',
-    color: '#22c55e',
+    color: tk.progress,
     paragraphs: [
       { arabic: 'هَذَا بَيْتِي، وَهُوَ جَمِيلٌ وَمُرِيح.', english: 'This is my house, and it is beautiful and comfortable.', french: 'Voici ma maison, belle et confortable.' },
       { arabic: 'بَيْتِي فِي حَيٍّ هَادِئٍ قَرِيبٍ مِنَ الْمَدِينَة.', english: 'My house is in a quiet neighborhood near the city.', french: 'Ma maison est dans un quartier calme près de la ville.' },
@@ -236,7 +238,7 @@ const readingContent: Record<string, {
     titleArabic: 'فِي الْمُسْتَشْفَى',
     level: 'intermediate',
     icon: '🏥',
-    color: '#6366f1',
+    color: tk.accentStrong,
     paragraphs: [
       { arabic: 'ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِأَنِّي كُنْتُ مَرِيضًا.', english: 'I went to the hospital because I was sick.', french: 'Je suis allé à l\'hôpital parce que j\'étais malade.' },
       { arabic: 'شَعَرْتُ بِأَلَمٍ فِي رَأْسِي وَحَرَارَةٍ عَالِيَة.', english: 'I felt a pain in my head and a high fever.', french: 'J\'avais mal à la tête et une forte fièvre.' },
@@ -257,7 +259,7 @@ const readingContent: Record<string, {
     titleArabic: 'شَهْرُ رَمَضَان',
     level: 'advanced',
     icon: '🌙',
-    color: '#D4AF37',
+    color: tk.sacred,
     paragraphs: [
       { arabic: 'رَمَضَانُ هُوَ الشَّهْرُ التَّاسِعُ فِي التَّقْوِيمِ الْهِجْرِيّ.', english: 'Ramadan is the ninth month in the Islamic calendar.', french: 'Le Ramadan est le neuvième mois du calendrier musulman.' },
       { arabic: 'يَصُومُ الْمُسْلِمُونَ مِنَ الْفَجْرِ إِلَى غُرُوبِ الشَّمْس.', english: 'Muslims fast from dawn until sunset.', french: 'Les musulmans jeûnent de l\'aube au coucher du soleil.' },
@@ -323,9 +325,9 @@ const SentenceCard = memo(function SentenceCard({ index, arabic, english, french
           disabled={isLoading}
         >
           {isLoading ? (
-            <ActivityIndicator size="small" color="#ffffff" />
+            <ActivityIndicator size="small" color={tk.text} />
           ) : (
-            <Ionicons name={isPlaying ? 'pause' : 'play'} size={18} color="#ffffff" />
+            <Ionicons name={isPlaying ? 'pause' : 'play'} size={18} color={tk.text} />
           )}
         </Pressable>
       </View>
@@ -422,10 +424,10 @@ export default function ReadingDetailScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.comingSoon}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={tk.text} />
           </Pressable>
           <View style={styles.comingSoonContent}>
-            <Ionicons name="book" size={64} color="#10b981" />
+            <Ionicons name="book" size={64} color={tk.progress} />
             <Text style={styles.comingSoonTitle}>{t('common.comingSoon')}</Text>
             <Text style={styles.comingSoonText}>
               {t('reading.comingSoonReading')}
@@ -437,9 +439,9 @@ export default function ReadingDetailScreen() {
   }
 
   const levelColors = {
-    beginner: '#10b981',
-    intermediate: '#6366f1',
-    advanced: '#D4AF37',
+    beginner: tk.progress,
+    intermediate: tk.accentStrong,
+    advanced: tk.sacred,
   };
 
   return (
@@ -448,7 +450,7 @@ export default function ReadingDetailScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={tk.text} />
           </Pressable>
           <View style={styles.headerTitle}>
             <Text style={styles.titleArabic}>{text.titleArabic}</Text>
@@ -468,7 +470,7 @@ export default function ReadingDetailScreen() {
             })}
             accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
           >
-            <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+            <Ionicons name="paper-plane-outline" size={22} color={tk.accent} />
           </Pressable>
           <View style={styles.headerIcon}>
             <Text style={styles.iconText}>{text.icon}</Text>
@@ -510,14 +512,14 @@ export default function ReadingDetailScreen() {
             >
               {isPlayingAll ? (
                 <>
-                  <Ionicons name="stop" size={14} color="#ffffff" />
+                  <Ionicons name="stop" size={14} color={tk.text} />
                   <Text style={styles.playAllText}>
                     {currentPlayingIndex !== null ? `${currentPlayingIndex + 1}/${text.paragraphs.length}` : t('reading.stop')}
                   </Text>
                 </>
               ) : (
                 <>
-                  <Ionicons name="play" size={14} color="#ffffff" />
+                  <Ionicons name="play" size={14} color={tk.text} />
                   <Text style={styles.playAllText}>{t('reading.playAll')}</Text>
                 </>
               )}
@@ -547,7 +549,7 @@ export default function ReadingDetailScreen() {
             style={[styles.completeButton, { backgroundColor: text.color }]}
             onPress={handleComplete}
           >
-            <Ionicons name="checkmark-circle" size={24} color="#ffffff" />
+            <Ionicons name="checkmark-circle" size={24} color={tk.text} />
             <Text style={styles.completeButtonText}>{t('reading.markComplete')}</Text>
           </Pressable>
         </View>
@@ -565,7 +567,7 @@ export default function ReadingDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: tk.bg,
   },
   header: {
     flexDirection: 'row',
@@ -576,8 +578,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: tk.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -586,20 +588,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   titleArabic: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    lineHeight: 41,
+    color: tk.text,
     fontSize: 24,
     fontWeight: 'bold',
   },
   title: {
-    color: '#10b981',
+    color: tk.progress,
     fontSize: 14,
     marginTop: 4,
   },
   shareHeaderButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#818cf820',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(tk.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 8,
@@ -607,8 +611,8 @@ const styles = StyleSheet.create({
   headerIcon: {
     width: 44,
     height: 44,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: tk.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -616,9 +620,9 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
   infoCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: tk.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 20,
     borderWidth: 1,
@@ -633,7 +637,7 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   infoText: {
-    color: '#94a3b8',
+    color: tk.textMuted,
     fontSize: 13,
   },
   sentencesHeader: {
@@ -642,7 +646,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: tk.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -656,39 +660,39 @@ const styles = StyleSheet.create({
   speedToggle: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderRadius: 14,
+    borderRadius: radius.md,
     paddingVertical: 8,
     paddingHorizontal: 12,
     gap: 4,
-    backgroundColor: '#1e293b',
+    backgroundColor: tk.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: tk.border,
   },
   speedToggleActive: {
-    backgroundColor: '#6366f1',
-    borderColor: '#6366f1',
+    backgroundColor: tk.accentStrong,
+    borderColor: tk.accentStrong,
   },
   speedToggleText: {
-    color: '#94a3b8',
+    color: tk.textMuted,
     fontSize: 12,
     fontWeight: '600',
   },
   speedToggleTextActive: {
-    color: '#ffffff',
+    color: tk.text,
   },
   playAllButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderRadius: 14,
+    borderRadius: radius.md,
     paddingVertical: 8,
     paddingHorizontal: 14,
     gap: 6,
   },
   playAllButtonActive: {
-    backgroundColor: '#ef4444',
+    backgroundColor: tk.danger,
   },
   playAllText: {
-    color: '#ffffff',
+    color: tk.text,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -697,8 +701,8 @@ const styles = StyleSheet.create({
   },
   // Sentence Card Styles
   sentenceCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: tk.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
   },
@@ -711,7 +715,7 @@ const styles = StyleSheet.create({
   sentenceNumber: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -722,16 +726,17 @@ const styles = StyleSheet.create({
   playButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     alignItems: 'center',
     justifyContent: 'center',
   },
   playButtonActive: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: tk.accent,
   },
   sentenceArabic: {
+    fontFamily: font.arabic,
     fontSize: 24,
-    color: '#ffffff',
+    color: tk.text,
     lineHeight: 40,
     textAlign: 'right',
     writingDirection: 'rtl',
@@ -739,7 +744,7 @@ const styles = StyleSheet.create({
   },
   sentenceEnglish: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: tk.textMuted,
     lineHeight: 22,
   },
   section: {
@@ -747,7 +752,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   completeButton: {
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
@@ -755,7 +760,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   completeButtonText: {
-    color: '#ffffff',
+    color: tk.text,
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -773,13 +778,13 @@ const styles = StyleSheet.create({
   comingSoonTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
     marginTop: 24,
     marginBottom: 12,
   },
   comingSoonText: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: tk.textMuted,
     textAlign: 'center',
     paddingHorizontal: 32,
   },

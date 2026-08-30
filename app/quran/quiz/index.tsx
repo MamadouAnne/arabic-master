@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
 import { QUIZ_CATEGORIES } from '../../../src/data/arabic/quran/quizzes';
 import { QuizCategoryInfo } from '../../../src/types/quran';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 interface CategoryCardProps {
   category: QuizCategoryInfo;
@@ -25,11 +27,11 @@ function CategoryCard({ category, onPress }: CategoryCardProps) {
         <Text style={styles.categoryNameArabic}>{category.nameArabic}</Text>
         <Text style={styles.categoryDesc}>{lc(category.description, category.descriptionFr)}</Text>
         <View style={styles.questionCount}>
-          <Ionicons name="help-circle-outline" size={14} color="#64748b" />
+          <Ionicons name="help-circle-outline" size={14} color={color.textFaint} />
           <Text style={styles.questionCountText}>{category.questionCount} {t('quranQuiz.questions')}</Text>
         </View>
       </View>
-      <Ionicons name="chevron-forward" size={20} color="#64748b" />
+      <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
     </Pressable>
   );
 }
@@ -61,7 +63,7 @@ export default function QuizCategoriesScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerTitle}>
             <Text style={styles.title}>{t('quranQuiz.title')}</Text>
@@ -72,7 +74,7 @@ export default function QuizCategoriesScreen() {
 
         {/* Intro Card */}
         <View style={styles.introCard}>
-          <Ionicons name="trophy" size={32} color="#f59e0b" />
+          <Ionicons name="trophy" size={32} color={color.warning} />
           <Text style={styles.introTitle}>{t('quranQuiz.testYourKnowledge')}</Text>
           <Text style={styles.introDesc}>
             {t('quranQuiz.challengeDescription')}
@@ -100,7 +102,7 @@ export default function QuizCategoriesScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -118,32 +120,34 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#f59e0b',
+    color: color.warning,
     marginTop: 2,
   },
   introCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 24,
     alignItems: 'center',
     marginBottom: 24,
     borderWidth: 1,
-    borderColor: '#f59e0b30',
+    borderColor: withAlpha(color.warning, 0.19),
   },
   introTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginTop: 12,
   },
   introDesc: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginTop: 8,
     lineHeight: 20,
@@ -154,12 +158,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 16,
   },
   categoryCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     flexDirection: 'row',
@@ -168,7 +172,7 @@ const styles = StyleSheet.create({
   categoryIcon: {
     width: 56,
     height: 56,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -179,16 +183,18 @@ const styles = StyleSheet.create({
   categoryName: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   categoryNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   categoryDesc: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   questionCount: {
@@ -199,6 +205,6 @@ const styles = StyleSheet.create({
   },
   questionCountText: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
 });

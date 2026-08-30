@@ -11,6 +11,8 @@ import { useAyahTranslations } from '../../../../src/hooks/useAyahTranslations';
 import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { ReviewRating } from '../../../../src/types/quran';
+import { font, color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 const METHOD_COLOR = '#6366f1';
 
@@ -18,8 +20,8 @@ const RATING_CONFIG: { rating: ReviewRating; labelKey: string; color: string }[]
   { rating: 0, labelKey: 'spacedRepetition.rating0', color: '#e11d48' },
   { rating: 1, labelKey: 'spacedRepetition.rating1', color: '#f43f5e' },
   { rating: 2, labelKey: 'spacedRepetition.rating2', color: '#fb7185' },
-  { rating: 3, labelKey: 'spacedRepetition.rating3', color: '#818cf8' },
-  { rating: 4, labelKey: 'spacedRepetition.rating4', color: '#6366f1' },
+  { rating: 3, labelKey: 'spacedRepetition.rating3', color: color.accent },
+  { rating: 4, labelKey: 'spacedRepetition.rating4', color: color.accentStrong },
   { rating: 5, labelKey: 'spacedRepetition.rating5', color: '#4f46e5' },
 ];
 
@@ -165,7 +167,7 @@ export default function SpacedRepetitionScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable style={styles.closeButton} onPress={() => router.back()}>
-            <Ionicons name="close" size={24} color="#f5f5f0" />
+            <Ionicons name="close" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -174,7 +176,7 @@ export default function SpacedRepetitionScreen() {
           <View style={styles.headerSpacer} />
         </View>
         <View style={styles.emptyContainer}>
-          <Ionicons name="calendar-outline" size={64} color="#334155" />
+          <Ionicons name="calendar-outline" size={64} color={color.textFaint} />
           <Text style={styles.emptyTitle}>
             {hasLearnedAyahs ? t('spacedRepetition.noDueReviews') : t('spacedRepetition.noLearnedAyahs')}
           </Text>
@@ -197,7 +199,7 @@ export default function SpacedRepetitionScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable style={styles.closeButton} onPress={() => router.back()}>
-            <Ionicons name="close" size={24} color="#f5f5f0" />
+            <Ionicons name="close" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -232,7 +234,7 @@ export default function SpacedRepetitionScreen() {
 
             {newDueCount > 0 && (
               <Pressable style={styles.newSessionButton} onPress={handleStartNewSession}>
-                <Ionicons name="refresh" size={20} color="#ffffff" />
+                <Ionicons name="refresh" size={20} color={color.text} />
                 <Text style={styles.newSessionButtonText}>
                   {t('spacedRepetition.startNewSession')}
                 </Text>
@@ -251,7 +253,7 @@ export default function SpacedRepetitionScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#f5f5f0" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -351,7 +353,7 @@ export default function SpacedRepetitionScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -359,7 +361,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   errorText: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 100,
@@ -372,7 +374,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   closeButton: {
     padding: 8,
@@ -382,7 +384,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 34,
+    color: color.sacred,
     fontSize: 20,
     fontWeight: 'bold',
   },
@@ -399,7 +403,7 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   cardCounterText: {
-    color: '#6b6b60',
+    color: color.textFaint,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -413,7 +417,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   emptyTitle: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     lineHeight: 24,
@@ -431,7 +435,7 @@ const styles = StyleSheet.create({
   // Progress bar
   progressBarBg: {
     height: 4,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderRadius: 2,
     marginTop: 16,
     overflow: 'hidden',
@@ -442,7 +446,7 @@ const styles = StyleSheet.create({
     borderRadius: 2,
   },
   remainingText: {
-    color: '#6b6b60',
+    color: color.textFaint,
     fontSize: 12,
     textAlign: 'center',
     marginTop: 8,
@@ -451,18 +455,18 @@ const styles = StyleSheet.create({
 
   // Flashcard
   flashcard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
     minHeight: 240,
   },
   ayahBadge: {
     width: 40,
     height: 40,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     backgroundColor: `${METHOD_COLOR}20`,
     alignItems: 'center',
     justifyContent: 'center',
@@ -474,7 +478,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   transliterationHint: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 14,
     fontStyle: 'italic',
     textAlign: 'center',
@@ -490,7 +494,7 @@ const styles = StyleSheet.create({
     backgroundColor: `${METHOD_COLOR}15`,
     paddingHorizontal: 28,
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     borderWidth: 1,
     borderColor: `${METHOD_COLOR}30`,
     marginTop: 12,
@@ -511,13 +515,13 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   translationText: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 22,
     paddingTop: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     width: '100%',
   },
 
@@ -531,7 +535,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    backgroundColor: '#0f172aee',
+    backgroundColor: withAlpha(color.bg, 0.93),
     paddingVertical: 14,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
@@ -547,7 +551,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   ratingPrompt: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
     textAlign: 'center',
@@ -562,7 +566,7 @@ const styles = StyleSheet.create({
   ratingButton: {
     width: '30%',
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     borderWidth: 1,
     gap: 4,
@@ -578,13 +582,13 @@ const styles = StyleSheet.create({
 
   // Session complete
   completeCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 32,
     marginTop: 40,
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   completeIconCircle: {
     width: 80,
@@ -596,7 +600,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   completeTitle: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 24,
@@ -618,13 +622,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   statLabel: {
-    color: '#6b6b60',
+    color: color.textFaint,
     fontSize: 12,
   },
   statDivider: {
     width: 1,
     height: 32,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   newSessionButton: {
     flexDirection: 'row',
@@ -633,10 +637,10 @@ const styles = StyleSheet.create({
     backgroundColor: METHOD_COLOR,
     paddingHorizontal: 24,
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
   },
   newSessionButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },

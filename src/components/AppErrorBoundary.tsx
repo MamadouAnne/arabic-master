@@ -3,6 +3,7 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as Updates from 'expo-updates';
 import i18n from 'i18next';
+import { font, color, radius } from '../theme/tokens';
 
 interface Props {
   children: ReactNode;
@@ -41,7 +42,7 @@ export class AppErrorBoundary extends Component<Props, State> {
         <View style={styles.container}>
           <View style={styles.card}>
             <View style={styles.iconContainer}>
-              <Ionicons name="warning-outline" size={48} color="#f59e0b" />
+              <Ionicons name="warning-outline" size={48} color={color.warning} />
             </View>
 
             <Text style={styles.title}>{i18n.t('profile.errorBoundaryTitle')}</Text>
@@ -52,7 +53,7 @@ export class AppErrorBoundary extends Component<Props, State> {
             </Text>
 
             <Pressable style={styles.button} onPress={this.handleRestart}>
-              <Ionicons name="refresh" size={20} color="#ffffff" />
+              <Ionicons name="refresh" size={20} color={color.text} />
               <Text style={styles.buttonText}>{i18n.t('profile.restartApp')}</Text>
             </Pressable>
           </View>
@@ -67,16 +68,16 @@ export class AppErrorBoundary extends Component<Props, State> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 24,
   },
   card: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     padding: 32,
     alignItems: 'center',
     width: '100%',
@@ -94,37 +95,39 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: '700',
-    color: '#f1f5f9',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 4,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
     marginBottom: 12,
   },
   message: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     lineHeight: 22,
     marginBottom: 28,
   },
   button: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
     paddingVertical: 14,
     paddingHorizontal: 32,
-    borderRadius: 12,
+    borderRadius: radius.md,
     width: '100%',
   },
   buttonText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
 });

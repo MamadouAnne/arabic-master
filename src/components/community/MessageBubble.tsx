@@ -11,6 +11,7 @@ import { QuizCard } from './class/QuizCard';
 import { PollCard } from './class/PollCard';
 import { BoardCard } from './board/BoardCard';
 import { renderMessageText, isPredominantlyArabic } from './chatText';
+import { font, color, radius } from '../../theme/tokens';
 
 export interface MessageBubbleMessage {
   id: string;
@@ -370,7 +371,7 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
                   height: Math.max(3, hgt * 24),
                   backgroundColor: isMe
                     ? (played ? '#ffffff' : 'rgba(255,255,255,0.4)')
-                    : (played ? groupColor : '#475569'),
+                    : (played ? groupColor: color.textFaint),
                 }]}
               />
             );
@@ -434,54 +435,55 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
 }
 
 const styles = StyleSheet.create({
-  systemMsg: { alignSelf: 'center', backgroundColor: '#334155', paddingHorizontal: 14, paddingVertical: 6, borderRadius: 20, marginVertical: 8 },
-  systemMsgText: { fontSize: 12, color: '#94a3b8', textAlign: 'center' },
-  milestoneMsg: { flexDirection: 'row', alignItems: 'center', gap: 8, alignSelf: 'center', backgroundColor: '#1e293b', paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12, borderWidth: 1, marginVertical: 8 },
+  systemMsg: { alignSelf: 'center', backgroundColor: color.surfaceRaised, paddingHorizontal: 14, paddingVertical: 6, borderRadius: radius.xl, marginVertical: 8 },
+  systemMsgText: { fontSize: 12, color: color.textMuted, textAlign: 'center' },
+  milestoneMsg: { flexDirection: 'row', alignItems: 'center', gap: 8, alignSelf: 'center', backgroundColor: color.surface, paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md, borderWidth: 1, marginVertical: 8 },
   milestoneMsgText: { fontSize: 13, fontWeight: '600' },
   bubbleRowMe: { flexDirection: 'column', alignItems: 'flex-end', marginTop: 8, paddingLeft: 50 },
   // Media (shared cards / images) get a wider footprint and more breathing room.
   mediaRowMe: { paddingLeft: 16, marginTop: 14 },
   mediaRowOther: { paddingRight: 16, marginTop: 14 },
-  bubbleMe: { backgroundColor: '#10b981', borderRadius: 18, borderBottomRightRadius: 4, paddingHorizontal: 14, paddingVertical: 10, maxWidth: '100%' },
-  bubbleMeBody: { fontSize: 15, color: '#ffffff', lineHeight: 21 },
+  bubbleMe: { backgroundColor: color.progress, borderRadius: radius.lg, borderBottomRightRadius: 4, paddingHorizontal: 14, paddingVertical: 10, maxWidth: '100%' },
+  bubbleMeBody: { fontSize: 15, color: color.text, lineHeight: 21 },
   bubbleMeTime: { fontSize: 11, color: 'rgba(255,255,255,0.55)', marginTop: 4 },
   bubbleRowOther: { flexDirection: 'row', alignItems: 'flex-end', marginTop: 8, paddingRight: 50, gap: 8 },
   classRow: { marginTop: 16, paddingHorizontal: 2 },
-  msgAvatar: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
+  msgAvatar: { width: 32, height: 32, borderRadius: radius.lg, alignItems: 'center', justifyContent: 'center' },
   msgAvatarText: { fontSize: 13, fontWeight: '700' },
   avatarSpacer: { width: 32 },
-  bubbleOther: { alignSelf: 'flex-start', backgroundColor: '#1e293b', borderRadius: 18, borderBottomLeftRadius: 4, paddingHorizontal: 14, paddingVertical: 10, maxWidth: '100%', borderWidth: 1, borderColor: '#334155' },
+  bubbleOther: { alignSelf: 'flex-start', backgroundColor: color.surface, borderRadius: radius.lg, borderBottomLeftRadius: 4, paddingHorizontal: 14, paddingVertical: 10, maxWidth: '100%', borderWidth: 1, borderColor: color.border },
   bubbleMedia: { paddingHorizontal: 6, paddingVertical: 6, backgroundColor: 'transparent', borderWidth: 0 },
-  bubbleDeleted: { backgroundColor: 'transparent', borderWidth: 1, borderColor: '#334155', borderStyle: 'dashed' },
+  bubbleDeleted: { backgroundColor: 'transparent', borderWidth: 1, borderColor: color.border, borderStyle: 'dashed' },
   bubbleOtherName: { fontSize: 12, fontWeight: '700', marginBottom: 3 },
-  bubbleOtherBody: { fontSize: 15, color: '#e2e8f0', lineHeight: 21 },
-  bubbleOtherTime: { fontSize: 11, color: '#64748b', marginTop: 4 },
+  bubbleOtherBody: { fontSize: 15, color: color.text, lineHeight: 21 },
+  bubbleOtherTime: { fontSize: 11, color: color.textFaint, marginTop: 4 },
   metaRow: { flexDirection: 'row', alignItems: 'center', gap: 6, alignSelf: 'flex-end' },
-  editedLabel: { fontSize: 10, color: '#64748b', fontStyle: 'italic', marginTop: 4 },
-  deletedText: { fontSize: 14, color: '#64748b', fontStyle: 'italic' },
+  editedLabel: { fontSize: 10, color: color.textFaint, fontStyle: 'italic', marginTop: 4 },
+  deletedText: { fontSize: 14, color: color.textFaint, fontStyle: 'italic' },
   pinnedIndicator: { position: 'absolute', top: 4, right: 6, zIndex: 1 },
   // Arabic
   arabicBody: { writingDirection: 'rtl', textAlign: 'right' },
-  arabicInline: { fontSize: 19, lineHeight: 30 },
+  arabicInline: {
+    fontFamily: font.arabic, fontSize: 19, lineHeight: 30 },
   // Mentions
   mention: { fontWeight: '700' },
   // Reply quote
   replyQuote: { borderLeftWidth: 3, paddingLeft: 8, paddingVertical: 2, marginBottom: 6, opacity: 0.95 },
   replyAuthor: { fontSize: 12, fontWeight: '700', marginBottom: 1 },
-  replySnippet: { fontSize: 13, color: '#94a3b8' },
+  replySnippet: { fontSize: 13, color: color.textMuted },
   // Image
-  image: { borderRadius: 12, backgroundColor: '#0f172a' },
+  image: { borderRadius: radius.md, backgroundColor: color.bg },
   // Voice
   voiceBubbleMe: {
-    flexDirection: 'column', alignItems: 'stretch', gap: 4, backgroundColor: '#10b981',
-    borderRadius: 22, borderBottomRightRadius: 8, paddingLeft: 10, paddingRight: 14, paddingVertical: 10,
+    flexDirection: 'column', alignItems: 'stretch', gap: 4, backgroundColor: color.progress,
+    borderRadius: radius.xl, borderBottomRightRadius: 8, paddingLeft: 10, paddingRight: 14, paddingVertical: 10,
     alignSelf: 'flex-end', maxWidth: '100%',
     shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.18, shadowRadius: 3, elevation: 2,
   },
   voiceBubbleOther: {
-    flexDirection: 'column', alignItems: 'stretch', gap: 4, backgroundColor: '#1e293b',
-    borderRadius: 22, borderBottomLeftRadius: 8, paddingLeft: 10, paddingRight: 14, paddingVertical: 10,
-    borderWidth: 1, borderColor: '#334155', alignSelf: 'flex-start', maxWidth: '100%',
+    flexDirection: 'column', alignItems: 'stretch', gap: 4, backgroundColor: color.surface,
+    borderRadius: radius.xl, borderBottomLeftRadius: 8, paddingLeft: 10, paddingRight: 14, paddingVertical: 10,
+    borderWidth: 1, borderColor: color.border, alignSelf: 'flex-start', maxWidth: '100%',
     shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.18, shadowRadius: 3, elevation: 2,
   },
   voiceTopRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
@@ -489,12 +491,12 @@ const styles = StyleSheet.create({
   waveformContainer: { flexDirection: 'row', alignItems: 'center', gap: 2, height: 28, position: 'relative' },
   waveformBar: { width: 3, borderRadius: 2 },
   waveThumb: {
-    position: 'absolute', width: 14, height: 14, borderRadius: 7, top: 7, marginLeft: -7, borderWidth: 2.5, borderColor: '#ffffff',
+    position: 'absolute', width: 14, height: 14, borderRadius: 7, top: 7, marginLeft: -7, borderWidth: 2.5, borderColor: color.text,
     shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.3, shadowRadius: 2, elevation: 4,
   },
   voiceMeta: { flexDirection: 'row', alignItems: 'center', gap: 5 },
-  rateBtn: { paddingHorizontal: 9, paddingVertical: 3, borderRadius: 12 },
+  rateBtn: { paddingHorizontal: 9, paddingVertical: 3, borderRadius: radius.md },
   rateText: { fontSize: 11, fontWeight: '700' },
   voiceDurationMe: { fontSize: 11, color: 'rgba(255,255,255,0.85)', fontWeight: '600', fontVariant: ['tabular-nums'] },
-  voiceDurationOther: { fontSize: 11, color: '#94a3b8', fontWeight: '600', fontVariant: ['tabular-nums'] },
+  voiceDurationOther: { fontSize: 11, color: color.textMuted, fontWeight: '600', fontVariant: ['tabular-nums'] },
 });

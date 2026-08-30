@@ -16,6 +16,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useArabicTextsStore } from '../../../src/stores/arabicTextsStore';
+import { color, radius } from '../../../src/theme/tokens';
 
 const BRAND = '#10b981';
 
@@ -58,7 +59,7 @@ export default function ArabicEditorScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.iconBtn} hitSlop={8} onPress={() => router.back()}>
-          <Ionicons name="close" size={26} color="#e2e8f0" />
+          <Ionicons name="close" size={26} color={color.text} />
         </Pressable>
         <Text style={styles.headerTitle}>
           {isEditing ? t('reading.memo.editTitle') : t('reading.memo.newTitle')}
@@ -84,7 +85,7 @@ export default function ArabicEditorScreen() {
             value={draftTitle}
             onChangeText={setDraftTitle}
             placeholder={t('reading.memo.titlePlaceholder')}
-            placeholderTextColor="#64748b"
+            placeholderTextColor={color.textFaint}
             maxLength={80}
           />
 
@@ -105,14 +106,14 @@ export default function ArabicEditorScreen() {
             value={draftContent}
             onChangeText={setDraftContent}
             placeholder="الصق النص العربي هنا…"
-            placeholderTextColor="#64748b"
+            placeholderTextColor={color.textFaint}
             multiline
             textAlign="right"
             textAlignVertical="top"
           />
 
           <View style={styles.tipRow}>
-            <Ionicons name="bulb-outline" size={15} color="#64748b" />
+            <Ionicons name="bulb-outline" size={15} color={color.textFaint} />
             <Text style={styles.tipText}>{t('reading.memo.tip')}</Text>
           </View>
         </ScrollView>
@@ -143,7 +144,7 @@ export default function ArabicEditorScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   flex: { flex: 1 },
 
   header: {
@@ -153,30 +154,30 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   iconBtn: { width: 40, height: 40, alignItems: 'center', justifyContent: 'center' },
-  headerTitle: { fontSize: 17, fontWeight: '700', color: '#ffffff' },
+  headerTitle: { fontSize: 17, fontWeight: '700', color: color.text },
 
   scrollContent: { padding: 20, paddingBottom: 40 },
 
   label: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     textTransform: 'uppercase',
     letterSpacing: 0.4,
     marginBottom: 8,
   },
   titleInput: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
-    borderRadius: 12,
+    borderColor: color.border,
+    borderRadius: radius.md,
     paddingHorizontal: 14,
     paddingVertical: 13,
     fontSize: 15,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 22,
   },
 
@@ -193,41 +194,41 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(16,185,129,0.14)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 20,
+    borderRadius: radius.xl,
   },
   versePillText: { fontSize: 11.5, fontWeight: '700', color: BRAND },
   contentInput: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
-    borderRadius: 12,
+    borderColor: color.border,
+    borderRadius: radius.md,
     paddingHorizontal: 16,
     paddingVertical: 14,
     fontSize: 22,
     lineHeight: 38,
-    color: '#ffffff',
+    color: color.text,
     minHeight: 260,
     writingDirection: 'rtl',
   },
   tipRow: { flexDirection: 'row', alignItems: 'center', gap: 7, marginTop: 12 },
-  tipText: { flex: 1, fontSize: 12.5, color: '#64748b', lineHeight: 18 },
+  tipText: { flex: 1, fontSize: 12.5, color: color.textFaint, lineHeight: 18 },
 
   footer: {
     paddingHorizontal: 20,
     paddingTop: 12,
     paddingBottom: 20,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderTopWidth: 1,
-    borderTopColor: '#1e293b',
+    borderTopColor: color.borderSubtle,
   },
   saveBtn: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     paddingVertical: 16,
   },
-  saveText: { fontSize: 16, fontWeight: '700', color: '#fff' },
-  saveTextDisabled: { color: '#64748b' },
+  saveText: { fontSize: 16, fontWeight: '700', color: color.text },
+  saveTextDisabled: { color: color.textFaint },
 });

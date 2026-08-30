@@ -16,6 +16,8 @@ import { arabicLetters, getLetterById } from '../../src/data/arabic/alphabet/let
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
+import { color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const CANVAS_SIZE = SCREEN_WIDTH - 80;
@@ -116,7 +118,7 @@ export default function WritingPracticeScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="close" size={24} color="#ffffff" />
+            <Ionicons name="close" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.headerTitle}>{t('alphabet.writingPractice')}</Text>
@@ -238,12 +240,12 @@ export default function WritingPracticeScreen() {
         {/* Action Buttons */}
         <View style={styles.actionButtons}>
           <Pressable style={styles.clearButton} onPress={clearCanvas}>
-            <Ionicons name="refresh" size={20} color="#ef4444" />
+            <Ionicons name="refresh" size={20} color={color.danger} />
             <Text style={styles.clearButtonText}>{t('common.clear')}</Text>
           </Pressable>
 
           <Pressable style={styles.submitButton} onPress={handleSubmit}>
-            <Ionicons name="checkmark" size={20} color="#ffffff" />
+            <Ionicons name="checkmark" size={20} color={color.text} />
             <Text style={styles.submitButtonText}>{t('alphabet.submitXp')}</Text>
           </Pressable>
         </View>
@@ -301,7 +303,7 @@ export default function WritingPracticeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -314,8 +316,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -323,25 +325,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   guideButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
   guideButtonActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   progressBarContainer: {
     paddingHorizontal: 20,
@@ -349,13 +351,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 2,
   },
   letterInfo: {
@@ -368,24 +370,24 @@ const styles = StyleSheet.create({
   letterName: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginRight: 8,
   },
   letterNameAr: {
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     marginRight: 12,
   },
   audioButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   audioButtonActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   canvasContainer: {
     alignItems: 'center',
@@ -394,7 +396,7 @@ const styles = StyleSheet.create({
   guideLetter: {
     position: 'absolute',
     fontSize: 200,
-    color: '#334155',
+    color: color.textFaint,
     zIndex: 0,
     top: '50%',
     marginTop: -120,
@@ -402,10 +404,10 @@ const styles = StyleSheet.create({
   canvas: {
     width: CANVAS_SIZE,
     height: CANVAS_SIZE,
-    backgroundColor: '#1e293b',
-    borderRadius: 24,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
     borderStyle: 'dashed',
     overflow: 'hidden',
   },
@@ -418,17 +420,17 @@ const styles = StyleSheet.create({
     width: 10,
     height: 10,
     borderRadius: 5,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   practiceCircleActive: {
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
   },
   formsContainer: {
     paddingHorizontal: 20,
     marginBottom: 16,
   },
   formsTitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 12,
     textAlign: 'center',
@@ -436,8 +438,8 @@ const styles = StyleSheet.create({
   formsRow: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   formItem: {
@@ -445,12 +447,12 @@ const styles = StyleSheet.create({
   },
   formLetter: {
     fontSize: 32,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   formLabel: {
     fontSize: 10,
-    color: '#64748b',
+    color: color.textFaint,
   },
   actionButtons: {
     flexDirection: 'row',
@@ -463,14 +465,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     borderWidth: 1,
-    borderColor: '#ef444440',
+    borderColor: withAlpha(color.danger, 0.25),
   },
   clearButtonText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 14,
     fontWeight: '600',
     marginLeft: 6,
@@ -480,12 +482,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#22c55e',
-    borderRadius: 12,
+    backgroundColor: color.progress,
+    borderRadius: radius.md,
     padding: 14,
   },
   submitButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: 'bold',
     marginLeft: 6,
@@ -499,21 +501,21 @@ const styles = StyleSheet.create({
   navButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 16,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   navButtonDisabled: {
     opacity: 0.5,
   },
   navButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
     marginHorizontal: 4,
   },
   navButtonTextDisabled: {
-    color: '#334155',
+    color: color.textFaint,
   },
 });

@@ -15,6 +15,8 @@ import { getLessonById } from '../../src/data/arabic/grammar/lessons';
 import HighlightedText from '../../src/components/ui/HighlightedText';
 import { lessonContent, getGrammarId } from '../../src/data/arabic/grammar/lessonContent';
 import { QuizOption, QuizOptionState } from '../../src/components/quiz/QuizOption';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 // Note: lessonContent and helper functions are now imported from
 // '../../src/data/arabic/grammar/lessonContent'
@@ -52,7 +54,7 @@ function LetterBuild({ text, highlight }: { text: string; highlight?: boolean })
       </View>
       {stages.map((w, i) => (
         <View key={i} style={styles.buildStage}>
-          <Ionicons name="arrow-down" size={14} color="#64748b" />
+          <Ionicons name="arrow-down" size={14} color={color.textFaint} />
           <Text style={styles.buildWord}>{w}</Text>
         </View>
       ))}
@@ -213,10 +215,10 @@ export default function GrammarLessonScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.comingSoon}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.comingSoonContent}>
-            <Ionicons name="construct" size={64} color="#D4AF37" />
+            <Ionicons name="construct" size={64} color={color.sacred} />
             <Text style={styles.comingSoonTitle}>{t('common.comingSoon')}</Text>
             <Text style={styles.comingSoonText}>
               {t('grammar.comingSoonLesson')}
@@ -297,14 +299,14 @@ export default function GrammarLessonScreen() {
         <SafeAreaView style={styles.container}>
           <View style={styles.header}>
             <Pressable style={styles.backButton} onPress={() => setShowExercises(false)}>
-              <Ionicons name="close" size={24} color="#ffffff" />
+              <Ionicons name="close" size={24} color={color.text} />
             </Pressable>
             <View style={styles.headerText}>
               <Text style={styles.title}>{t('common.practice')}</Text>
             </View>
           </View>
           <View style={styles.noExercises}>
-            <Ionicons name="document-text-outline" size={48} color="#64748b" />
+            <Ionicons name="document-text-outline" size={48} color={color.textFaint} />
             <Text style={styles.noExercisesText}>
               {t('grammar.noPractice')}
             </Text>
@@ -334,7 +336,7 @@ export default function GrammarLessonScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => setShowExercises(false)}>
-            <Ionicons name="close" size={24} color="#ffffff" />
+            <Ionicons name="close" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>
@@ -371,7 +373,7 @@ export default function GrammarLessonScreen() {
                 onPress={() => currentExercise.questionArabic && speak(currentExercise.questionArabic)}
               >
                 <Text style={styles.questionArabic}>{currentExercise.questionArabic}</Text>
-                <Ionicons name="volume-medium" size={20} color="#D4AF37" />
+                <Ionicons name="volume-medium" size={20} color={color.sacred} />
               </Pressable>
             )}
           </View>
@@ -414,7 +416,7 @@ export default function GrammarLessonScreen() {
             <View style={styles.writingContainer}>
               {currentExercise.hint && !showResult && (
                 <View style={styles.hintBox}>
-                  <Ionicons name="bulb-outline" size={16} color="#D4AF37" />
+                  <Ionicons name="bulb-outline" size={16} color={color.sacred} />
                   <Text style={styles.hintText}>{lc(currentExercise.hint, (currentExercise as any).hintFr)}</Text>
                 </View>
               )}
@@ -466,7 +468,7 @@ export default function GrammarLessonScreen() {
             <View style={styles.writingContainer}>
               {currentExercise.hint && !showResult && (
                 <View style={styles.hintBox}>
-                  <Ionicons name="bulb-outline" size={16} color="#D4AF37" />
+                  <Ionicons name="bulb-outline" size={16} color={color.sacred} />
                   <Text style={styles.hintText}>{lc(currentExercise.hint, (currentExercise as any).hintFr)}</Text>
                 </View>
               )}
@@ -516,7 +518,7 @@ export default function GrammarLessonScreen() {
           {/* Explanation */}
           {showResult && currentExercise.explanation && (
             <View style={styles.explanationBox}>
-              <Ionicons name="bulb" size={20} color="#D4AF37" />
+              <Ionicons name="bulb" size={20} color={color.sacred} />
               <Text style={styles.explanationText}>{lc(currentExercise.explanation, (currentExercise as any).explanationFr)}</Text>
             </View>
           )}
@@ -527,7 +529,7 @@ export default function GrammarLessonScreen() {
               <Text style={styles.nextBtnText}>
                 {currentExerciseIndex < activeExercises.length - 1 ? t('grammar.nextQuestion') : t('grammar.finishPractice')}
               </Text>
-              <Ionicons name="arrow-forward" size={20} color="#ffffff" />
+              <Ionicons name="arrow-forward" size={20} color={color.text} />
             </Pressable>
           )}
         </ScrollView>
@@ -552,7 +554,7 @@ export default function GrammarLessonScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{lc(lesson.title, lesson.titleFr)}</Text>
@@ -579,7 +581,7 @@ export default function GrammarLessonScreen() {
                     >
                       <Text style={styles.arabicDescriptionText}>{section.arabicDescription}</Text>
                       <View style={styles.audioBtn}>
-                        <Ionicons name="volume-medium" size={18} color="#10b981" />
+                        <Ionicons name="volume-medium" size={18} color={color.progress} />
                       </View>
                     </Pressable>
                     {section.arabicTranslation && (
@@ -596,7 +598,7 @@ export default function GrammarLessonScreen() {
                   <View style={[styles.comparisonLabelBox, styles.comparisonLabelLeft]}>
                     <Text style={styles.comparisonLabelText}>{lc(section.leftLabel || 'Indefinite', section.leftLabelFr)}</Text>
                   </View>
-                  <Ionicons name="arrow-forward" size={20} color="#64748b" />
+                  <Ionicons name="arrow-forward" size={20} color={color.textFaint} />
                   <View style={[styles.comparisonLabelBox, styles.comparisonLabelRight]}>
                     <Text style={styles.comparisonLabelText}>{lc(section.rightLabel || 'Definite', section.rightLabelFr)}</Text>
                   </View>
@@ -615,7 +617,7 @@ export default function GrammarLessonScreen() {
                       )}
                       <Text style={styles.comparisonEnglish}>{lc(comp.left.label, comp.left.labelFr)}</Text>
                     </Pressable>
-                    <Ionicons name="arrow-forward" size={16} color="#10b981" />
+                    <Ionicons name="arrow-forward" size={16} color={color.progress} />
                     <Pressable
                       style={[styles.comparisonCard, styles.comparisonCardRight]}
                       onPress={() => speak(comp.right.arabic)}
@@ -679,7 +681,7 @@ export default function GrammarLessonScreen() {
                     )}
                     <HighlightedText text={lc(example.english, example.french)} style={styles.exampleCardEnglish} />
                     <View style={styles.exampleCardAudioIcon}>
-                      <Ionicons name="volume-medium" size={16} color="#10b981" />
+                      <Ionicons name="volume-medium" size={16} color={color.progress} />
                     </View>
                   </Pressable>
                 ))}
@@ -755,7 +757,7 @@ export default function GrammarLessonScreen() {
                   >
                     <Text style={styles.arabicDescriptionText}>{section.arabicDescription}</Text>
                     <View style={styles.audioBtn}>
-                      <Ionicons name="volume-medium" size={18} color="#10b981" />
+                      <Ionicons name="volume-medium" size={18} color={color.progress} />
                     </View>
                   </Pressable>
                 )}
@@ -780,7 +782,7 @@ export default function GrammarLessonScreen() {
                         </View>
                         <Text style={styles.exampleEnglish}>{lc(example.english, example.french)}</Text>
                         <View style={styles.audioBtn}>
-                          <Ionicons name="volume-medium" size={18} color="#10b981" />
+                          <Ionicons name="volume-medium" size={18} color={color.progress} />
                         </View>
                       </Pressable>
                     ))}
@@ -795,7 +797,7 @@ export default function GrammarLessonScreen() {
         {allExercises.length > 0 && (
           <View style={styles.practiceSection}>
             <View style={styles.practiceSectionHeader}>
-              <Ionicons name="fitness" size={24} color="#22c55e" />
+              <Ionicons name="fitness" size={24} color={color.progress} />
               <Text style={styles.practiceSectionTitle}>{t('grammar.practiceExercises')}</Text>
             </View>
             <Text style={styles.practiceSectionDesc}>
@@ -806,12 +808,12 @@ export default function GrammarLessonScreen() {
             {regularExercises.length > 0 && (
               <Pressable style={styles.practiceRow} onPress={() => handleStartPractice('regular')}>
                 <View style={[styles.practiceIconChip, styles.quizChip]}>
-                  <Ionicons name="play" size={19} color="#34d399" />
+                  <Ionicons name="play" size={19} color={color.progress} />
                 </View>
                 <Text style={styles.practiceRowText}>
                   {t('grammar.quizPracticeCount', { count: regularExercises.length })}
                 </Text>
-                <Ionicons name="chevron-forward" size={20} color="#64748b" />
+                <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
               </Pressable>
             )}
 
@@ -819,12 +821,12 @@ export default function GrammarLessonScreen() {
             {writingExercises.length > 0 && (
               <Pressable style={styles.practiceRow} onPress={() => handleStartPractice('writing')}>
                 <View style={[styles.practiceIconChip, styles.writingChip]}>
-                  <Ionicons name="create" size={19} color="#818cf8" />
+                  <Ionicons name="create" size={19} color={color.accent} />
                 </View>
                 <Text style={styles.practiceRowText}>
                   {t('grammar.writingPracticeCount', { count: writingExercises.length })}
                 </Text>
-                <Ionicons name="chevron-forward" size={20} color="#64748b" />
+                <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
               </Pressable>
             )}
           </View>
@@ -851,7 +853,7 @@ export default function GrammarLessonScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -863,8 +865,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -875,11 +877,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 4,
   },
   section: {
@@ -889,25 +893,25 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
   },
   sectionContent: {
     fontSize: 15,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 24,
     marginBottom: 16,
   },
   textSectionTitle: {
     fontSize: 17,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
     marginTop: 8,
   },
   examplesBox: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   exampleRow: {
@@ -915,7 +919,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   exampleRowLast: {
     borderBottomWidth: 0,
@@ -924,18 +928,19 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   exampleArabic: {
+    fontFamily: font.arabic,
     fontSize: 28,
     lineHeight: 48,
-    color: '#ffffff',
+    color: color.text,
   },
   exampleTranslit: {
     fontSize: 12,
-    color: '#6366f1',
+    color: color.accentStrong,
     marginTop: 2,
   },
   exampleEnglish: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginRight: 12,
     flex: 1,
     textAlign: 'right',
@@ -943,15 +948,15 @@ const styles = StyleSheet.create({
   audioBtn: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   // Description card styles
   descriptionCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     position: 'relative',
     overflow: 'hidden',
@@ -962,18 +967,18 @@ const styles = StyleSheet.create({
     top: 0,
     bottom: 0,
     width: 4,
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   descriptionText: {
     fontSize: 16,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 26,
     paddingLeft: 8,
   },
   // Highlighted card styles (for rules and notes)
   highlightedCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     overflow: 'hidden',
     flexDirection: 'row',
   },
@@ -989,14 +994,14 @@ const styles = StyleSheet.create({
   },
   highlightedCardText: {
     fontSize: 15,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 24,
   },
   ruleCard: {
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   noteCard: {
-    borderColor: '#f59e0b',
+    borderColor: color.warning,
   },
   // Comparison grid styles
   comparisonContainer: {
@@ -1012,16 +1017,16 @@ const styles = StyleSheet.create({
   comparisonLabelBox: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
   },
   comparisonLabelLeft: {
-    backgroundColor: '#64748b30',
+    backgroundColor: withAlpha(color.textFaint, 0.19),
   },
   comparisonLabelRight: {
-    backgroundColor: '#10b98130',
+    backgroundColor: withAlpha(color.progress, 0.19),
   },
   comparisonLabelText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -1032,52 +1037,54 @@ const styles = StyleSheet.create({
   },
   comparisonCard: {
     flex: 1,
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     alignItems: 'center',
   },
   comparisonCardLeft: {
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   comparisonCardRight: {
     borderWidth: 1,
-    borderColor: '#10b98140',
-    backgroundColor: '#10b98108',
+    borderColor: withAlpha(color.progress, 0.25),
+    backgroundColor: withAlpha(color.progress, 0.03),
   },
   comparisonArabic: {
+    fontFamily: font.arabic,
     fontSize: 28,
     lineHeight: 48,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   comparisonEnglish: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   arabicDescriptionRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     marginTop: 16,
-    backgroundColor: '#10b98110',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.06),
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   arabicDescriptionText: {
+    fontFamily: font.arabic,
     fontSize: 26,
     lineHeight: 44,
-    color: '#10b981',
+    color: color.progress,
     flex: 1,
     textAlign: 'right',
     marginRight: 12,
   },
   arabicTranslationText: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'right',
     marginTop: 4,
     marginRight: 44,
@@ -1085,8 +1092,8 @@ const styles = StyleSheet.create({
   },
   // Letters grid styles
   lettersGridCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     borderWidth: 2,
   },
@@ -1103,7 +1110,7 @@ const styles = StyleSheet.create({
   letterCell: {
     width: 50,
     height: 50,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1118,31 +1125,32 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   exampleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     width: '47%',
     minHeight: 90,
     position: 'relative',
   },
   exampleCardArabic: {
+    fontFamily: font.arabic,
     fontSize: 26,
     lineHeight: 46,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 8,
   },
   buildBox: { alignItems: 'center', gap: 6, marginBottom: 8 },
   buildChips: { flexDirection: 'row-reverse', flexWrap: 'wrap', justifyContent: 'center', gap: 5 },
-  buildChip: { paddingHorizontal: 7, paddingVertical: 2, borderRadius: 8, backgroundColor: '#0f172a', borderWidth: 1, borderColor: '#334155' },
-  buildChipNC: { backgroundColor: 'rgba(245,158,11,0.14)', borderColor: '#f59e0b' },
-  buildChipText: { fontSize: 20, lineHeight: 32, color: '#e2e8f0' },
-  buildChipTextNC: { color: '#fbbf24', fontWeight: '700' },
+  buildChip: { paddingHorizontal: 7, paddingVertical: 2, borderRadius: radius.sm, backgroundColor: color.bg, borderWidth: 1, borderColor: color.border },
+  buildChipNC: { backgroundColor: 'rgba(245,158,11,0.14)', borderColor: color.warning },
+  buildChipText: { fontSize: 20, lineHeight: 32, color: color.text },
+  buildChipTextNC: { color: color.sacredBright, fontWeight: '700' },
   buildStage: { flexDirection: 'row', alignItems: 'center', gap: 4 },
-  buildWord: { fontSize: 25, lineHeight: 42, color: '#ffffff', fontWeight: '600' },
+  buildWord: { fontSize: 25, lineHeight: 42, color: color.text, fontWeight: '600' },
   exampleCardEnglish: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
   },
   exampleCardAudioIcon: {
@@ -1152,9 +1160,9 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   practiceSection: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 20,
   },
@@ -1164,13 +1172,13 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   practiceSectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
     marginLeft: 12,
   },
   practiceSectionDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 16,
   },
@@ -1178,18 +1186,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 14,
-    backgroundColor: '#0f172a',
-    borderRadius: 14,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     marginBottom: 12,
   },
   practiceIconChip: {
     width: 40,
     height: 40,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -1201,7 +1209,7 @@ const styles = StyleSheet.create({
   },
   practiceRowText: {
     flex: 1,
-    color: '#f1f5f9',
+    color: color.text,
     fontSize: 15,
     fontWeight: '700',
   },
@@ -1210,30 +1218,30 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 10,
-    backgroundColor: '#D4AF37',
-    borderRadius: 16,
+    backgroundColor: color.sacred,
+    borderRadius: radius.lg,
     paddingVertical: 17,
     marginHorizontal: 24,
-    shadowColor: '#D4AF37',
+    shadowColor: color.sacred,
     shadowOffset: { width: 0, height: 6 },
     shadowOpacity: 0.35,
     shadowRadius: 14,
     elevation: 6,
   },
   completeButtonText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 17,
     fontWeight: '800',
   },
   completeButtonDone: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderWidth: 1.5,
-    borderColor: '#34d399',
+    borderColor: color.progress,
     shadowOpacity: 0,
     elevation: 0,
   },
   completeButtonTextDone: {
-    color: '#34d399',
+    color: color.progress,
   },
   comingSoon: {
     flex: 1,
@@ -1249,13 +1257,13 @@ const styles = StyleSheet.create({
   comingSoonTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginTop: 24,
     marginBottom: 12,
   },
   comingSoonText: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     paddingHorizontal: 32,
   },
@@ -1269,28 +1277,28 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   exerciseProgressText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 8,
   },
   exerciseProgressBar: {
     height: 6,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 3,
     overflow: 'hidden',
   },
   exerciseProgressFill: {
     height: '100%',
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
   },
   questionCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
   },
   questionText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: '600',
     lineHeight: 26,
@@ -1302,37 +1310,39 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   questionArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 41,
+    color: color.sacred,
     fontSize: 24,
   },
   optionsContainer: {
     marginBottom: 20,
   },
   explanationBox: {
-    backgroundColor: '#D4AF3720',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.sacred, 0.13),
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 20,
     flexDirection: 'row',
     alignItems: 'flex-start',
   },
   explanationText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 14,
     flex: 1,
     marginLeft: 12,
     lineHeight: 20,
   },
   nextBtn: {
-    backgroundColor: '#6366f1',
-    borderRadius: 12,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.md,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
   nextBtnText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
     marginRight: 8,
@@ -1344,7 +1354,7 @@ const styles = StyleSheet.create({
     paddingVertical: 60,
   },
   noExercisesText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 16,
@@ -1352,13 +1362,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   backToLessonBtn: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 24,
   },
   backToLessonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -1367,49 +1377,49 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   hintBox: {
-    backgroundColor: '#D4AF3715',
-    borderRadius: 10,
+    backgroundColor: withAlpha(color.sacred, 0.08),
+    borderRadius: radius.sm,
     padding: 12,
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 16,
   },
   hintText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 14,
     marginLeft: 8,
     flex: 1,
   },
   writingInput: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
     minHeight: 60,
     justifyContent: 'center',
   },
   writingInputText: {
     fontSize: 20,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'right',
   },
   writingPlaceholder: {
     fontSize: 18,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'right',
   },
   writingInputCorrect: {
-    borderColor: '#22c55e',
-    backgroundColor: '#22c55e10',
+    borderColor: color.progress,
+    backgroundColor: withAlpha(color.progress, 0.06),
   },
   writingInputWrong: {
-    borderColor: '#ef4444',
-    backgroundColor: '#ef444410',
+    borderColor: color.danger,
+    backgroundColor: withAlpha(color.danger, 0.06),
   },
   checkAnswerBtn: {
-    backgroundColor: '#6366f1',
-    borderRadius: 12,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.md,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
@@ -1417,11 +1427,11 @@ const styles = StyleSheet.create({
     marginTop: 16,
   },
   checkAnswerBtnDisabled: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     opacity: 0.6,
   },
   checkAnswerText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
     marginRight: 8,
@@ -1430,14 +1440,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginTop: 16,
   },
   writingResultCorrect: {
-    backgroundColor: '#22c55e20',
+    backgroundColor: withAlpha(color.progress, 0.13),
   },
   writingResultWrong: {
-    backgroundColor: '#ef444420',
+    backgroundColor: withAlpha(color.danger, 0.13),
   },
   writingResultContent: {
     marginLeft: 12,
@@ -1448,13 +1458,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   writingResultLabelCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   writingResultLabelWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   correctAnswerText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginTop: 4,
   },

@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 import { vocabularyThemes } from '../../src/data/arabic/vocabulary';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function VocabularyScreen() {
   const { t } = useTranslation();
@@ -23,9 +25,9 @@ export default function VocabularyScreen() {
   };
 
   const LEVELS: { key: 'beginner' | 'intermediate' | 'advanced'; label: string; ar: string; color: string }[] = [
-    { key: 'beginner', label: t('common.beginner'), ar: 'الْمُبْتَدِئ', color: '#10b981' },
-    { key: 'intermediate', label: t('common.intermediate'), ar: 'الْمُتَوَسِّط', color: '#6366f1' },
-    { key: 'advanced', label: t('common.advanced'), ar: 'الْمُتَقَدِّم', color: '#D4AF37' },
+    { key: 'beginner', label: t('common.beginner'), ar: 'الْمُبْتَدِئ', color: color.progress },
+    { key: 'intermediate', label: t('common.intermediate'), ar: 'الْمُتَوَسِّط', color: color.accentStrong },
+    { key: 'advanced', label: t('common.advanced'), ar: 'الْمُتَقَدِّم', color: color.sacred },
   ];
 
   const renderThemeCard = (theme: (typeof vocabularyThemes)[number]) => {
@@ -45,12 +47,12 @@ export default function VocabularyScreen() {
           <Text style={styles.themeWordCount}>{t('vocabulary.wordsCount', { count: theme.wordCount })}</Text>
           {status === 'completed' && (
             <View style={styles.completedBadge}>
-              <Ionicons name="checkmark-circle" size={14} color="#10b981" />
+              <Ionicons name="checkmark-circle" size={14} color={color.progress} />
             </View>
           )}
           {status === 'in_progress' && (
             <View style={styles.progressBadge}>
-              <Ionicons name="time" size={14} color="#D4AF37" />
+              <Ionicons name="time" size={14} color={color.sacred} />
             </View>
           )}
         </View>
@@ -65,7 +67,7 @@ export default function VocabularyScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('vocabulary.title')}</Text>
@@ -136,7 +138,7 @@ export default function VocabularyScreen() {
             >
               <View style={styles.reviewContent}>
                 <View style={styles.reviewIcon}>
-                  <Ionicons name="timer" size={28} color="#6366f1" />
+                  <Ionicons name="timer" size={28} color={color.accentStrong} />
                 </View>
                 <View style={styles.reviewText}>
                   <Text style={styles.reviewTitle}>{t('vocabulary.spacedReview')}</Text>
@@ -155,7 +157,7 @@ export default function VocabularyScreen() {
                   <Text style={styles.reviewStatLabel}>{t('vocabulary.learning')}</Text>
                 </View>
                 <View style={styles.reviewStatItem}>
-                  <Text style={[styles.reviewStatValue, { color: '#22c55e' }]}>{reviewStats.mastered}</Text>
+                  <Text style={[styles.reviewStatValue, { color: color.progress }]}>{reviewStats.mastered}</Text>
                   <Text style={styles.reviewStatLabel}>{t('common.mastered')}</Text>
                 </View>
               </View>
@@ -173,8 +175,8 @@ export default function VocabularyScreen() {
             onPress={() => router.push('/vocabulary/review' as any)}
           >
             <View style={styles.practiceContent}>
-              <View style={[styles.practiceIcon, { backgroundColor: '#6366f120' }]}>
-                <Ionicons name="timer" size={28} color="#6366f1" />
+              <View style={[styles.practiceIcon, { backgroundColor: withAlpha(color.accentStrong, 0.13) }]}>
+                <Ionicons name="timer" size={28} color={color.accentStrong} />
               </View>
               <View style={styles.practiceText}>
                 <Text style={styles.practiceTitle}>{t('vocabulary.spacedReview')}</Text>
@@ -189,7 +191,7 @@ export default function VocabularyScreen() {
                   <Text style={styles.dueBadgeText}>{reviewStats.dueToday}</Text>
                 </View>
               )}
-              <Ionicons name="chevron-forward" size={24} color="#64748b" />
+              <Ionicons name="chevron-forward" size={24} color={color.textFaint} />
             </View>
           </Pressable>
 
@@ -199,7 +201,7 @@ export default function VocabularyScreen() {
           >
             <View style={styles.practiceContent}>
               <View style={styles.practiceIcon}>
-                <Ionicons name="layers" size={28} color="#D4AF37" />
+                <Ionicons name="layers" size={28} color={color.sacred} />
               </View>
               <View style={styles.practiceText}>
                 <Text style={styles.practiceTitle}>{t('vocabulary.flashcards')}</Text>
@@ -207,7 +209,7 @@ export default function VocabularyScreen() {
                   {t('vocabulary.flashcardsDesc')}
                 </Text>
               </View>
-              <Ionicons name="chevron-forward" size={24} color="#64748b" />
+              <Ionicons name="chevron-forward" size={24} color={color.textFaint} />
             </View>
           </Pressable>
 
@@ -216,8 +218,8 @@ export default function VocabularyScreen() {
             onPress={() => router.push('/vocabulary/speaking-practice' as any)}
           >
             <View style={styles.practiceContent}>
-              <View style={[styles.practiceIcon, { backgroundColor: '#10b98120' }]}>
-                <Ionicons name="mic" size={28} color="#10b981" />
+              <View style={[styles.practiceIcon, { backgroundColor: withAlpha(color.progress, 0.13) }]}>
+                <Ionicons name="mic" size={28} color={color.progress} />
               </View>
               <View style={styles.practiceText}>
                 <Text style={styles.practiceTitle}>{t('vocabulary.speakingPractice')}</Text>
@@ -225,7 +227,7 @@ export default function VocabularyScreen() {
                   {t('vocabulary.speakingPracticeDesc')}
                 </Text>
               </View>
-              <Ionicons name="chevron-forward" size={24} color="#64748b" />
+              <Ionicons name="chevron-forward" size={24} color={color.textFaint} />
             </View>
           </Pressable>
         </View>
@@ -237,7 +239,7 @@ export default function VocabularyScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -249,8 +251,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -261,17 +263,19 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#10b981',
+    color: color.progress,
     marginTop: 4,
   },
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
   },
@@ -287,31 +291,31 @@ const styles = StyleSheet.create({
   progressStatValue: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   progressStatLabel: {
     fontSize: 11,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     textAlign: 'center',
   },
   progressDivider: {
     width: 1,
     height: 40,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   section: {
     paddingHorizontal: 20,
     marginBottom: 24,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 8,
   },
   sectionSubtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 16,
   },
@@ -338,26 +342,26 @@ const styles = StyleSheet.create({
   levelGroupTitle: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#e2e8f0',
+    color: color.text,
     textTransform: 'capitalize',
   },
   levelGroupCount: {
     minWidth: 22,
     height: 22,
     paddingHorizontal: 6,
-    borderRadius: 11,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
   levelGroupCountText: {
     fontSize: 12,
     fontWeight: '700',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   levelGroupAr: {
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
   },
   themeGrid: {
     flexDirection: 'row',
@@ -366,8 +370,8 @@ const styles = StyleSheet.create({
   },
   themeCard: {
     width: '48%',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     margin: '1%',
     position: 'relative',
@@ -376,7 +380,7 @@ const styles = StyleSheet.create({
   themeIconBg: {
     width: 48,
     height: 48,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 12,
@@ -387,12 +391,12 @@ const styles = StyleSheet.create({
   themeName: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   themeNameAr: {
     fontSize: 12,
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 8,
   },
   themeFooter: {
@@ -402,21 +406,21 @@ const styles = StyleSheet.create({
   },
   themeWordCount: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
   },
   completedBadge: {
     width: 20,
     height: 20,
-    borderRadius: 10,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.sm,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   progressBadge: {
     width: 20,
     height: 20,
-    borderRadius: 10,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.sm,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -428,8 +432,8 @@ const styles = StyleSheet.create({
     height: 4,
   },
   practiceCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   practiceContent: {
@@ -439,8 +443,8 @@ const styles = StyleSheet.create({
   practiceIcon: {
     width: 56,
     height: 56,
-    borderRadius: 14,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -451,20 +455,20 @@ const styles = StyleSheet.create({
   practiceTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   practiceDesc: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   // SRS Review styles
   reviewCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#6366f140',
+    borderColor: withAlpha(color.accentStrong, 0.25),
   },
   reviewContent: {
     flexDirection: 'row',
@@ -473,8 +477,8 @@ const styles = StyleSheet.create({
   reviewIcon: {
     width: 56,
     height: 56,
-    borderRadius: 14,
-    backgroundColor: '#6366f120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -485,26 +489,28 @@ const styles = StyleSheet.create({
   reviewTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   reviewTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
-    color: '#6366f1',
+    color: color.accentStrong,
     marginTop: 2,
   },
   reviewDesc: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   reviewBadge: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   reviewBadgeText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -513,7 +519,7 @@ const styles = StyleSheet.create({
     marginTop: 12,
     paddingTop: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
     gap: 24,
   },
   reviewStatItem: {
@@ -522,23 +528,23 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   reviewStatValue: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 16,
     fontWeight: 'bold',
   },
   reviewStatLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   dueBadge: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     marginRight: 8,
   },
   dueBadgeText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: 'bold',
   },

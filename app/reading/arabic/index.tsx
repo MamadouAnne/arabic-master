@@ -7,6 +7,7 @@ import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useArabicTextsStore } from '../../../src/stores/arabicTextsStore';
 import { SavedArabicText } from '../../../src/types/arabicText';
+import { font, color, radius } from '../../../src/theme/tokens';
 
 const BRAND = '#10b981';
 
@@ -37,7 +38,7 @@ const TextCard = React.memo(
           </Text>
           <View style={styles.cardActions}>
             <Pressable hitSlop={8} onPress={() => onEdit(item.id)} style={styles.cardIconBtn}>
-              <Ionicons name="create-outline" size={18} color="#94a3b8" />
+              <Ionicons name="create-outline" size={18} color={color.textMuted} />
             </Pressable>
             <Pressable hitSlop={8} onPress={() => onDelete(item)} style={styles.cardIconBtn}>
               <Ionicons name="trash-outline" size={18} color="#f43f5e" />
@@ -51,13 +52,13 @@ const TextCard = React.memo(
 
         <View style={styles.cardFooter}>
           <View style={styles.metaRow}>
-            <Ionicons name="list-outline" size={13} color="#94a3b8" />
+            <Ionicons name="list-outline" size={13} color={color.textMuted} />
             <Text style={styles.metaText}>
               {t('reading.memo.linesCount', { count: countLines(item.content) })}
             </Text>
           </View>
           <View style={styles.playChip}>
-            <Ionicons name="play" size={12} color="#fff" />
+            <Ionicons name="play" size={12} color={color.text} />
             <Text style={styles.playChipText}>{t('reading.memo.listen')}</Text>
           </View>
         </View>
@@ -113,7 +114,7 @@ export default function ArabicLibraryScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerText}>
           <Text style={styles.title}>{t('reading.memo.libraryTitle')}</Text>
@@ -139,7 +140,7 @@ export default function ArabicLibraryScreen() {
               style={styles.addCard}
             >
               <View style={styles.addIconWrap}>
-                <Ionicons name="add" size={26} color="#fff" />
+                <Ionicons name="add" size={26} color={color.text} />
               </View>
               <View style={styles.addTextWrap}>
                 <Text style={styles.addTitle}>{t('reading.memo.addTitle')}</Text>
@@ -164,7 +165,7 @@ export default function ArabicLibraryScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   listContent: { padding: 20, paddingBottom: 100 },
 
   // Header
@@ -178,62 +179,63 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
   },
   headerText: { flex: 1 },
-  title: { fontSize: 22, fontWeight: 'bold', color: '#ffffff' },
+  title: { fontSize: 22, fontWeight: 'bold', color: color.text },
   titleAr: { fontSize: 15, color: BRAND, marginTop: 2, writingDirection: 'rtl' },
   headerBadge: {
     minWidth: 34,
     alignItems: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
-  headerBadgeText: { color: '#ffffff', fontWeight: 'bold', fontSize: 14 },
+  headerBadgeText: { color: color.text, fontWeight: 'bold', fontSize: 14 },
 
   // Add CTA
   addCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    borderRadius: 18,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 20,
   },
   addIconWrap: {
     width: 46,
     height: 46,
-    borderRadius: 14,
+    borderRadius: radius.md,
     backgroundColor: 'rgba(255,255,255,0.22)',
     alignItems: 'center',
     justifyContent: 'center',
   },
   addTextWrap: { flex: 1, marginLeft: 14 },
-  addTitle: { fontSize: 16, fontWeight: '700', color: '#fff' },
+  addTitle: { fontSize: 16, fontWeight: '700', color: color.text },
   addSubtitle: { fontSize: 12.5, color: 'rgba(255,255,255,0.9)', marginTop: 3 },
 
   // Card
   card: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   cardTopRow: { flexDirection: 'row', alignItems: 'center' },
-  cardTitle: { flex: 1, fontSize: 15, fontWeight: '700', color: '#ffffff' },
+  cardTitle: { flex: 1, fontSize: 15, fontWeight: '700', color: color.text },
   cardActions: { flexDirection: 'row', gap: 6 },
   cardIconBtn: { padding: 4 },
   cardArabic: {
+    fontFamily: font.arabic,
     fontSize: 20,
     lineHeight: 34,
-    color: '#e2e8f0',
+    color: color.text,
     textAlign: 'right',
     writingDirection: 'rtl',
     marginTop: 10,
@@ -245,7 +247,7 @@ const styles = StyleSheet.create({
     marginTop: 14,
   },
   metaRow: { flexDirection: 'row', alignItems: 'center', gap: 5 },
-  metaText: { fontSize: 12, color: '#94a3b8', fontWeight: '500' },
+  metaText: { fontSize: 12, color: color.textMuted, fontWeight: '500' },
   playChip: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -253,25 +255,25 @@ const styles = StyleSheet.create({
     backgroundColor: BRAND,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 20,
+    borderRadius: radius.xl,
   },
-  playChipText: { fontSize: 12, color: '#fff', fontWeight: '700' },
+  playChipText: { fontSize: 12, color: color.text, fontWeight: '700' },
 
   // Empty
   empty: { alignItems: 'center', paddingTop: 40, paddingHorizontal: 20 },
   emptyIcon: {
     width: 64,
     height: 64,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     backgroundColor: 'rgba(16,185,129,0.14)',
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 16,
   },
-  emptyTitle: { fontSize: 16, fontWeight: '700', color: '#ffffff' },
+  emptyTitle: { fontSize: 16, fontWeight: '700', color: color.text },
   emptyText: {
     fontSize: 13.5,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginTop: 8,
     lineHeight: 20,

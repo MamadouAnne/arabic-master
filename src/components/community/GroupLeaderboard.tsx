@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { color, radius } from '../../theme/tokens';
 
 export interface LeaderboardEntry {
   userId: string;
@@ -47,7 +48,7 @@ export function GroupLeaderboard({ entries, groupColor, currentUserId }: Props) 
       <View style={styles.toggleRow}>
         {(['xp', 'streak', 'messages'] as Metric[]).map((m) => (
           <Pressable key={m} style={[styles.toggleBtn, metric === m && { backgroundColor: `${groupColor}25` }]} onPress={() => setMetric(m)}>
-            <Ionicons name={m === 'xp' ? 'star' : m === 'streak' ? 'flame' : 'chatbubble'} size={14} color={metric === m ? groupColor : '#64748b'} />
+            <Ionicons name={m === 'xp' ? 'star' : m === 'streak' ? 'flame' : 'chatbubble'} size={14} color={metric === m ? groupColor: color.textFaint} />
             <Text style={[styles.toggleText, metric === m && { color: groupColor }]}>{m === 'xp' ? 'XP' : m === 'streak' ? 'Streak' : 'Messages'}</Text>
           </Pressable>
         ))}
@@ -61,7 +62,7 @@ export function GroupLeaderboard({ entries, groupColor, currentUserId }: Props) 
             const medalColors = ['', '#f59e0b', '#c0c0c0', '#cd7f32'];
             return (
               <View key={entry.userId} style={styles.podiumItem}>
-                <View style={[styles.podiumAvatar, rank === 1 && { borderColor: '#f59e0b', borderWidth: 2, width: 52, height: 52, borderRadius: 26 }]}>
+                <View style={[styles.podiumAvatar, rank === 1 && { borderColor: color.warning, borderWidth: 2, width: 52, height: 52, borderRadius: 26 }]}>
                   <Text style={[styles.podiumAvatarText, rank === 1 && { fontSize: 22 }]}>{entry.avatar}</Text>
                 </View>
                 {rank <= 3 && (
@@ -106,23 +107,23 @@ export function GroupLeaderboard({ entries, groupColor, currentUserId }: Props) 
 const styles = StyleSheet.create({
   container: { paddingVertical: 8 },
   toggleRow: { flexDirection: 'row', gap: 8, marginBottom: 16 },
-  toggleBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 8, borderRadius: 10, backgroundColor: '#1e293b' },
-  toggleText: { fontSize: 13, fontWeight: '600', color: '#64748b' },
+  toggleBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 8, borderRadius: radius.sm, backgroundColor: color.surface },
+  toggleText: { fontSize: 13, fontWeight: '600', color: color.textFaint },
   podium: { flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'center', gap: 8, marginBottom: 20, paddingTop: 10 },
   podiumItem: { alignItems: 'center', flex: 1 },
-  podiumAvatar: { width: 44, height: 44, borderRadius: 22, backgroundColor: '#334155', alignItems: 'center', justifyContent: 'center', marginBottom: 6 },
-  podiumAvatarText: { fontSize: 18, fontWeight: '700', color: '#ffffff' },
-  medalBadge: { borderRadius: 8, paddingHorizontal: 6, paddingVertical: 2, marginBottom: 4 },
+  podiumAvatar: { width: 44, height: 44, borderRadius: radius.xl, backgroundColor: color.surfaceRaised, alignItems: 'center', justifyContent: 'center', marginBottom: 6 },
+  podiumAvatarText: { fontSize: 18, fontWeight: '700', color: color.text },
+  medalBadge: { borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 2, marginBottom: 4 },
   medalText: { fontSize: 11, fontWeight: '800' },
-  podiumName: { fontSize: 12, fontWeight: '600', color: '#ffffff', marginBottom: 2, maxWidth: 80, textAlign: 'center' },
-  podiumValue: { fontSize: 11, color: '#94a3b8', fontWeight: '600', marginBottom: 6 },
+  podiumName: { fontSize: 12, fontWeight: '600', color: color.text, marginBottom: 2, maxWidth: 80, textAlign: 'center' },
+  podiumValue: { fontSize: 11, color: color.textMuted, fontWeight: '600', marginBottom: 6 },
   podiumBar: { width: '80%', borderTopLeftRadius: 8, borderTopRightRadius: 8 },
-  rankRow: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: '#1e293b', borderRadius: 12, padding: 12, marginBottom: 6, borderWidth: 1, borderColor: '#334155' },
-  rankNum: { fontSize: 14, fontWeight: '800', color: '#64748b', width: 30, textAlign: 'center' },
-  rankAvatar: { width: 36, height: 36, borderRadius: 18, backgroundColor: '#334155', alignItems: 'center', justifyContent: 'center' },
-  rankAvatarText: { fontSize: 15, fontWeight: '700', color: '#ffffff' },
+  rankRow: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: color.surface, borderRadius: radius.md, padding: 12, marginBottom: 6, borderWidth: 1, borderColor: color.border },
+  rankNum: { fontSize: 14, fontWeight: '800', color: color.textFaint, width: 30, textAlign: 'center' },
+  rankAvatar: { width: 36, height: 36, borderRadius: radius.lg, backgroundColor: color.surfaceRaised, alignItems: 'center', justifyContent: 'center' },
+  rankAvatarText: { fontSize: 15, fontWeight: '700', color: color.text },
   rankInfo: { flex: 1 },
-  rankName: { fontSize: 14, fontWeight: '700', color: '#ffffff', marginBottom: 2 },
-  rankValue: { fontSize: 12, color: '#94a3b8' },
-  emptyText: { fontSize: 13, color: '#64748b', textAlign: 'center', paddingVertical: 20 },
+  rankName: { fontSize: 14, fontWeight: '700', color: color.text, marginBottom: 2 },
+  rankValue: { fontSize: 12, color: color.textMuted },
+  emptyText: { fontSize: 13, color: color.textFaint, textAlign: 'center', paddingVertical: 20 },
 });

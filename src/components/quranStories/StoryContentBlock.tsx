@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { StoryContentBlock as ContentBlock, QuranReference, HadithReference } from '../../types/quranStories';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent';
 import { useTranslation } from 'react-i18next';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface StoryContentBlockProps {
   block: ContentBlock;
@@ -34,7 +36,7 @@ function QuranSourceCard({
     <View style={quranStyles.container}>
       <View style={quranStyles.header}>
         <View style={quranStyles.referenceContainer}>
-          <Ionicons name="book" size={14} color="#10b981" />
+          <Ionicons name="book" size={14} color={color.progress} />
           <Text style={quranStyles.referenceText}>
             {source.surahNameEnglish} {source.surahNumber}:{ayahRange}
           </Text>
@@ -49,12 +51,12 @@ function QuranSourceCard({
             disabled={isLoading}
           >
             {isLoading ? (
-              <ActivityIndicator size="small" color="#ffffff" />
+              <ActivityIndicator size="small" color={color.text} />
             ) : (
               <Ionicons
                 name={isPlaying ? 'pause' : 'play'}
                 size={14}
-                color="#ffffff"
+                color={color.text}
               />
             )}
           </Pressable>
@@ -80,7 +82,7 @@ function HadithSourceCard({ source }: { source: HadithReference }) {
     <View style={hadithStyles.container}>
       <View style={hadithStyles.header}>
         <View style={hadithStyles.referenceContainer}>
-          <Ionicons name="document-text" size={14} color="#f59e0b" />
+          <Ionicons name="document-text" size={14} color={color.warning} />
           <Text style={hadithStyles.referenceText}>{source.collection}</Text>
         </View>
         {source.grade && (
@@ -94,7 +96,7 @@ function HadithSourceCard({ source }: { source: HadithReference }) {
 
       {source.narrator && (
         <View style={hadithStyles.narratorContainer}>
-          <Ionicons name="person-outline" size={12} color="#94a3b8" />
+          <Ionicons name="person-outline" size={12} color={color.textMuted} />
           <Text style={hadithStyles.narratorText}>{t('stories.narratedBy', { narrator: source.narrator })}</Text>
         </View>
       )}
@@ -158,19 +160,19 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     paddingVertical: 4,
     paddingHorizontal: 2,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   narrativeText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 16,
     lineHeight: 26,
   },
   sourceContainer: {
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   highlighted: {
-    backgroundColor: '#3b82f620',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.accent, 0.13),
+    borderRadius: radius.md,
     paddingHorizontal: 8,
     marginHorizontal: -8,
   },
@@ -178,12 +180,12 @@ const styles = StyleSheet.create({
 
 const quranStyles = StyleSheet.create({
   container: {
-    backgroundColor: '#10b98110',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.06),
+    borderRadius: radius.md,
     padding: 12,
     marginVertical: 8,
     borderLeftWidth: 3,
-    borderLeftColor: '#10b981',
+    borderLeftColor: color.progress,
   },
   header: {
     flexDirection: 'row',
@@ -198,11 +200,13 @@ const quranStyles = StyleSheet.create({
     flex: 1,
   },
   referenceText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     fontWeight: '600',
   },
   referenceArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 20,
     color: '#6ee7b7',
     fontSize: 12,
     marginLeft: 4,
@@ -210,13 +214,13 @@ const quranStyles = StyleSheet.create({
   playButton: {
     width: 28,
     height: 28,
-    borderRadius: 14,
-    backgroundColor: '#10b981',
+    borderRadius: radius.md,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },
   playButtonActive: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: color.accent,
   },
   arabicContainer: {
     flexDirection: 'row-reverse',
@@ -226,12 +230,13 @@ const quranStyles = StyleSheet.create({
     gap: 8,
   },
   arabicWord: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    color: color.text,
     fontSize: 22,
     lineHeight: 44,
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
     fontStyle: 'italic',
@@ -240,12 +245,12 @@ const quranStyles = StyleSheet.create({
 
 const hadithStyles = StyleSheet.create({
   container: {
-    backgroundColor: '#f59e0b10',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.warning, 0.06),
+    borderRadius: radius.md,
     padding: 14,
     marginVertical: 8,
     borderLeftWidth: 3,
-    borderLeftColor: '#f59e0b',
+    borderLeftColor: color.warning,
   },
   header: {
     flexDirection: 'row',
@@ -260,7 +265,7 @@ const hadithStyles = StyleSheet.create({
     flex: 1,
   },
   referenceText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 12,
     fontWeight: '600',
   },
@@ -268,12 +273,12 @@ const hadithStyles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderRadius: 6,
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
   },
   gradeText: {
     fontSize: 10,
     fontWeight: '600',
-    color: '#10b981',
+    color: color.progress,
   },
   narratorContainer: {
     flexDirection: 'row',
@@ -282,7 +287,7 @@ const hadithStyles = StyleSheet.create({
     marginBottom: 10,
   },
   narratorText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 11,
     fontStyle: 'italic',
   },
@@ -294,12 +299,13 @@ const hadithStyles = StyleSheet.create({
     gap: 6,
   },
   arabicWord: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    color: color.text,
     fontSize: 18,
     lineHeight: 36,
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
     fontStyle: 'italic',

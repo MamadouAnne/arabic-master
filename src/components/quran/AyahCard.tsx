@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next';
 import { Ayah } from '../../types/quran';
 import { TajweedText } from './TajweedText';
 import { useQuranStore } from '../../stores/quranStore';
+import { withAlpha } from '../ui/Primitives';
+import { color, font, radius, space, type, weight } from '../../theme/tokens';
 
 interface AyahCardProps {
   ayah: Ayah;
@@ -69,12 +71,10 @@ export function AyahCard({
     return 'play';
   };
 
-  const getPlayButtonStyle = () => {
-    if (isPlaying) return [styles.playButton, styles.playButtonPlaying];
-    if (isPaused) return [styles.playButton, styles.playButtonPaused];
-    if (isLoading) return [styles.playButton, styles.playButtonLoading];
-    return styles.playButton;
-  };
+  // The button used to change colour across four states (emerald, blue, amber,
+  // indigo) for what is one control. The icon already says play vs pause, so
+  // the fill stays constant and only dims while loading.
+  const getPlayButtonStyle = () => [styles.playButton, isLoading && styles.playButtonLoading];
   return (
     <Pressable
       style={[styles.container, isLearned && styles.containerLearned]}
@@ -90,19 +90,19 @@ export function AyahCard({
         <View style={styles.actions}>
           {isMemorized && (
             <View style={styles.memorizedBadge}>
-              <Ionicons name="heart" size={16} color="#8b5cf6" />
+              <Ionicons name="heart" size={16} color={color.sacred} />
             </View>
           )}
           {onShare && (
             <Pressable style={styles.actionButton} onPress={onShare} accessibilityRole="button" accessibilityLabel={`Share ayah ${ayah.ayahNumber} to a group`}>
-              <Ionicons name="paper-plane-outline" size={19} color="#64748b" />
+              <Ionicons name="paper-plane-outline" size={19} color={color.textFaint} />
             </Pressable>
           )}
           <Pressable style={styles.actionButton} onPress={onBookmark} accessibilityRole="button" accessibilityLabel={isBookmarked ? `Remove bookmark from ayah ${ayah.ayahNumber}` : `Bookmark ayah ${ayah.ayahNumber}`}>
             <Ionicons
               name={isBookmarked ? 'bookmark' : 'bookmark-outline'}
               size={20}
-              color={isBookmarked ? '#f59e0b' : '#64748b'}
+              color={isBookmarked ? color.sacred : color.textFaint}
             />
           </Pressable>
           <Pressable
@@ -113,9 +113,9 @@ export function AyahCard({
             accessibilityLabel={isPlaying ? `Pause ayah ${ayah.ayahNumber}` : isPaused ? `Resume ayah ${ayah.ayahNumber}` : `Play ayah ${ayah.ayahNumber}`}
           >
             {isLoading ? (
-              <ActivityIndicator size="small" color="#ffffff" />
+              <ActivityIndicator size="small" color={color.textOnAccent} />
             ) : (
-              <Ionicons name={getPlayButtonIcon() as any} size={18} color="#ffffff" />
+              <Ionicons name={getPlayButtonIcon() as any} size={18} color={color.textOnAccent} />
             )}
           </Pressable>
         </View>
@@ -161,7 +161,7 @@ export function AyahCard({
               <Ionicons
                 name="remove"
                 size={16}
-                color={playbackSpeed <= SPEED_OPTIONS[0] ? '#475569' : '#ffffff'}
+                color={playbackSpeed <= SPEED_OPTIONS[0] ? color.borderStrong : color.text}
               />
             </Pressable>
             <View style={styles.speedValueContainer}>
@@ -180,7 +180,7 @@ export function AyahCard({
               <Ionicons
                 name="add"
                 size={16}
-                color={playbackSpeed >= SPEED_OPTIONS[SPEED_OPTIONS.length - 1] ? '#475569' : '#ffffff'}
+                color={playbackSpeed >= SPEED_OPTIONS[SPEED_OPTIONS.length - 1] ? color.borderStrong : color.text}
               />
             </Pressable>
           </View>
@@ -191,7 +191,7 @@ export function AyahCard({
       {isLearned && (
         <View style={styles.statusContainer}>
           <View style={styles.learnedIndicator}>
-            <Ionicons name="checkmark-circle" size={14} color="#10b981" />
+            <Ionicons name="checkmark-circle" size={14} color={color.progress} />
             <Text style={styles.statusText}>{t('common.learned')}</Text>
           </View>
         </View>
@@ -233,9 +233,9 @@ export function AyahListItem({
         </Text>
       </View>
       <View style={styles.listItemIcons}>
-        {isMemorized && <Ionicons name="heart" size={16} color="#8b5cf6" />}
-        {isLearned && <Ionicons name="checkmark-circle" size={16} color="#10b981" />}
-        <Ionicons name="chevron-forward" size={16} color="#64748b" />
+        {isMemorized && <Ionicons name="heart" size={16} color={color.sacred} />}
+        {isLearned && <Ionicons name="checkmark-circle" size={16} color={color.progress} />}
+        <Ionicons name="chevron-forward" size={16} color={color.textFaint} />
       </View>
     </Pressable>
   );
@@ -243,77 +243,72 @@ export function AyahListItem({
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
-    padding: 16,
-    marginBottom: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
+    padding: space.lg,
+    marginBottom: space.md,
+    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderColor: color.border,
   },
   containerLearned: {
-    borderColor: '#10b98130',
-    borderWidth: 1,
+    borderColor: withAlpha(color.progress, 0.35),
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 16,
+    marginBottom: space.lg,
   },
+  /** Gold rosette — the Mushaf convention for marking a verse number. */
   ayahNumberContainer: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.full,
+    backgroundColor: color.sacredSoft,
+    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderColor: withAlpha(color.sacred, 0.45),
     alignItems: 'center',
     justifyContent: 'center',
   },
   ayahNumber: {
-    color: '#10b981',
-    fontSize: 14,
-    fontWeight: 'bold',
+    color: color.sacred,
+    ...type.caption,
+    fontWeight: weight.bold,
   },
   actions: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    gap: space.sm,
   },
   actionButton: {
-    padding: 8,
+    padding: space.sm,
   },
   playButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#10b981',
+    borderRadius: radius.full,
+    backgroundColor: color.accent,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  playButtonPlaying: {
-    backgroundColor: '#3b82f6',
-  },
-  playButtonPaused: {
-    backgroundColor: '#f59e0b',
-  },
   playButtonLoading: {
-    backgroundColor: '#6366f1',
-  },
-  playButtonActive: {
-    backgroundColor: '#ef4444',
+    opacity: 0.6,
   },
   memorizedBadge: {
-    padding: 4,
+    padding: space.xs,
   },
   arabicContainer: {
     marginBottom: 16,
     width: '100%',
   },
   transliteration: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 8,
     fontStyle: 'italic',
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
   },
@@ -324,30 +319,30 @@ const styles = StyleSheet.create({
     marginTop: 12,
     paddingTop: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.surfaceRaised,
     gap: 12,
   },
   speedLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   speedControls: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#334155',
-    borderRadius: 8,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.sm,
     padding: 4,
   },
   speedButton: {
     width: 28,
     height: 28,
     borderRadius: 6,
-    backgroundColor: '#475569',
+    backgroundColor: color.borderStrong,
     alignItems: 'center',
     justifyContent: 'center',
   },
   speedButtonDisabled: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   speedValueContainer: {
     paddingHorizontal: 12,
@@ -355,7 +350,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   speedValue: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -363,7 +358,7 @@ const styles = StyleSheet.create({
     marginTop: 12,
     paddingTop: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.surfaceRaised,
     flexDirection: 'row',
   },
   learnedIndicator: {
@@ -372,33 +367,33 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   statusText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     fontWeight: '500',
   },
   // List Item Styles
   listItem: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 8,
     flexDirection: 'row',
     alignItems: 'center',
   },
   listItemLearned: {
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
     borderWidth: 1,
   },
   listItemNumber: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   listItemNumberText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     fontWeight: 'bold',
   },
@@ -407,14 +402,18 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   listItemArabic: {
-    color: '#ffffff',
-    fontSize: 18,
+    // Single-line preview, so the compact Amiri cut is enough; the full
+    // AmiriQuran face is reserved for the reading view.
+    fontFamily: font.arabic,
+    color: color.text,
+    fontSize: 19,
+    lineHeight: 30,
     textAlign: 'right',
     writingDirection: 'rtl',
     flex: 1,
   },
   listItemTranslation: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginTop: 4,
   },

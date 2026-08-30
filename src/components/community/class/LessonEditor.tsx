@@ -5,6 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import type { LessonBlock, LessonContent } from '../../../types/classContent';
 import { wrapSelection, MarkerName } from './richText';
+import { font, color, radius } from '../../../theme/tokens';
 
 interface EditBlock {
   id: string;
@@ -100,7 +101,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top']}>
         <View style={styles.header}>
-          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
+          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color={color.text} /></Pressable>
           <Text style={styles.headerTitle}>{initial ? 'Edit lesson' : 'New lesson'}</Text>
           <Pressable onPress={handleSave} style={[styles.saveBtn, { backgroundColor: groupColor }]}>
             <Text style={styles.saveText}>{initial ? 'Update' : 'Post'}</Text>
@@ -112,7 +113,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
             <TextInput
               style={styles.titleInput}
               placeholder={t('community.lessonTitlePlaceholder')}
-              placeholderTextColor="#475569"
+              placeholderTextColor={color.textFaint}
               value={title}
               onChangeText={setTitle}
               multiline
@@ -123,9 +124,9 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
                 <View style={styles.blockBar}>
                   <Text style={[styles.blockType, { color: groupColor }]}>{b.type}</Text>
                   <View style={{ flex: 1 }} />
-                  <Pressable onPress={() => moveBlock(i, -1)} hitSlop={6}><Ionicons name="chevron-up" size={16} color="#64748b" /></Pressable>
-                  <Pressable onPress={() => moveBlock(i, 1)} hitSlop={6}><Ionicons name="chevron-down" size={16} color="#64748b" /></Pressable>
-                  <Pressable onPress={() => removeBlock(i)} hitSlop={6}><Ionicons name="trash-outline" size={16} color="#ef4444" /></Pressable>
+                  <Pressable onPress={() => moveBlock(i, -1)} hitSlop={6}><Ionicons name="chevron-up" size={16} color={color.textFaint} /></Pressable>
+                  <Pressable onPress={() => moveBlock(i, 1)} hitSlop={6}><Ionicons name="chevron-down" size={16} color={color.textFaint} /></Pressable>
+                  <Pressable onPress={() => removeBlock(i)} hitSlop={6}><Ionicons name="trash-outline" size={16} color={color.danger} /></Pressable>
                 </View>
 
                 {b.type === 'divider' ? (
@@ -145,7 +146,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
                         b.type === 'arabic' ? 'النص العربي' :
                         b.type === 'callout' ? 'Callout / tip' : 'Write here…'
                       }
-                      placeholderTextColor="#475569"
+                      placeholderTextColor={color.textFaint}
                       value={b.text}
                       onChangeText={(t) => updateBlock(i, { text: t })}
                       onFocus={() => { focusRef.current = { index: i, sel: { start: b.text.length, end: b.text.length } }; }}
@@ -156,7 +157,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
                       <TextInput
                         style={styles.translationInput}
                         placeholder={t('community.translationOptionalPlaceholder')}
-                        placeholderTextColor="#475569"
+                        placeholderTextColor={color.textFaint}
                         value={b.translation || ''}
                         onChangeText={(t) => updateBlock(i, { translation: t })}
                         multiline
@@ -181,7 +182,7 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
             <View style={styles.addRow}>
               {BLOCK_MENU.map((m) => (
                 <Pressable key={m.type} style={styles.addBtn} onPress={() => addBlock(m.type)}>
-                  <Ionicons name={m.icon as any} size={18} color="#cbd5e1" />
+                  <Ionicons name={m.icon as any} size={18} color={color.textMuted} />
                   <Text style={styles.addBtnText}>{m.label}</Text>
                 </Pressable>
               ))}
@@ -211,32 +212,33 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   flex: { flex: 1 },
-  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: '#f8fafc' },
-  saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12 },
-  saveText: { color: '#ffffff', fontWeight: '700', fontSize: 14 },
+  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: color.text },
+  saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
+  saveText: { color: color.text, fontWeight: '700', fontSize: 14 },
   scroll: { padding: 16 },
-  titleInput: { fontSize: 24, fontWeight: '800', color: '#f8fafc', paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b', marginBottom: 16 },
-  block: { backgroundColor: '#131c2e', borderRadius: 14, borderWidth: 1, borderColor: '#1e293b', padding: 10, marginBottom: 12 },
+  titleInput: { fontSize: 24, fontWeight: '800', color: color.text, paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 16 },
+  block: { backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.borderSubtle, padding: 10, marginBottom: 12 },
   blockBar: { flexDirection: 'row', alignItems: 'center', gap: 12, marginBottom: 6 },
   blockType: { fontSize: 11, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },
-  blockInput: { fontSize: 15, color: '#e2e8f0', lineHeight: 22, minHeight: 24, padding: 0 },
-  headingInput: { fontSize: 19, fontWeight: '700', color: '#f8fafc' },
-  arabicInput: { fontSize: 22, lineHeight: 38, color: '#f8fafc', textAlign: 'right', writingDirection: 'rtl' },
-  calloutInput: { fontSize: 15, color: '#e2e8f0', fontStyle: 'italic' },
-  translationInput: { fontSize: 13, color: '#94a3b8', marginTop: 6, padding: 0 },
-  dividerPreview: { height: 2, backgroundColor: '#334155', borderRadius: 1, marginVertical: 8 },
+  blockInput: { fontSize: 15, color: color.text, lineHeight: 22, minHeight: 24, padding: 0 },
+  headingInput: { fontSize: 19, fontWeight: '700', color: color.text },
+  arabicInput: {
+    fontFamily: font.arabic, fontSize: 22, lineHeight: 38, color: color.text, textAlign: 'right', writingDirection: 'rtl' },
+  calloutInput: { fontSize: 15, color: color.text, fontStyle: 'italic' },
+  translationInput: { fontSize: 13, color: color.textMuted, marginTop: 6, padding: 0 },
+  dividerPreview: { height: 2, backgroundColor: color.surfaceRaised, borderRadius: 1, marginVertical: 8 },
   toneRow: { flexDirection: 'row', gap: 6, marginTop: 8 },
-  tonePill: { paddingHorizontal: 10, paddingVertical: 4, borderRadius: 10, backgroundColor: '#1e293b' },
-  toneText: { fontSize: 11, fontWeight: '600', color: '#64748b', textTransform: 'capitalize' },
-  addLabel: { fontSize: 12, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 4, marginBottom: 8 },
+  tonePill: { paddingHorizontal: 10, paddingVertical: 4, borderRadius: radius.sm, backgroundColor: color.surface },
+  toneText: { fontSize: 11, fontWeight: '600', color: color.textFaint, textTransform: 'capitalize' },
+  addLabel: { fontSize: 12, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 4, marginBottom: 8 },
   addRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-  addBtn: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: 12, paddingVertical: 8, borderRadius: 10, backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155' },
-  addBtnText: { fontSize: 13, color: '#cbd5e1', fontWeight: '600' },
-  formatBar: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 14, paddingVertical: 8, borderTopWidth: 1, borderTopColor: '#1e293b', backgroundColor: '#131c2e' },
-  formatHint: { fontSize: 12, color: '#64748b', marginRight: 4 },
-  formatBtn: { width: 34, height: 34, borderRadius: 9, backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center' },
-  formatBtnText: { fontSize: 15, color: '#e2e8f0', fontWeight: '700' },
+  addBtn: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: 12, paddingVertical: 8, borderRadius: radius.sm, backgroundColor: color.surface, borderWidth: 1, borderColor: color.border },
+  addBtnText: { fontSize: 13, color: color.textMuted, fontWeight: '600' },
+  formatBar: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 14, paddingVertical: 8, borderTopWidth: 1, borderTopColor: color.borderSubtle, backgroundColor: color.surface },
+  formatHint: { fontSize: 12, color: color.textFaint, marginRight: 4 },
+  formatBtn: { width: 34, height: 34, borderRadius: radius.sm, backgroundColor: color.surface, alignItems: 'center', justifyContent: 'center' },
+  formatBtnText: { fontSize: 15, color: color.text, fontWeight: '700' },
 });

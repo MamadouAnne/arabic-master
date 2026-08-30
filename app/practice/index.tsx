@@ -3,6 +3,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { font, color as tk, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 interface PracticeCardProps {
   title: string;
@@ -27,7 +29,7 @@ function PracticeCard({ title, titleArabic, description, icon, color, route }: P
         <Text style={[styles.practiceTitleArabic, { color }]}>{titleArabic}</Text>
         <Text style={styles.practiceDescription}>{description}</Text>
       </View>
-      <Ionicons name="chevron-forward" size={24} color="#64748b" />
+      <Ionicons name="chevron-forward" size={24} color={tk.textFaint} />
     </Pressable>
   );
 }
@@ -42,7 +44,7 @@ export default function PracticeScreen() {
       titleArabic: 'الْخَطُّ الْيَدَوِي',
       description: t('practiceScreen.handwritingDesc'),
       icon: 'pencil' as const,
-      color: '#ec4899',
+      color: tk.accent,
       route: '/alphabet/writing-practice',
     },
     {
@@ -51,7 +53,7 @@ export default function PracticeScreen() {
       titleArabic: 'الْكِتَابَةُ بِالْمِفْتَاح',
       description: t('practiceScreen.keyboardTypingDesc'),
       icon: 'keypad' as const,
-      color: '#14b8a6',
+      color: tk.progress,
       route: '/exercise/typing-practice',
     },
     {
@@ -60,7 +62,7 @@ export default function PracticeScreen() {
       titleArabic: 'تَدْرِيبُ الاِسْتِمَاع',
       description: t('practiceScreen.listeningPracticeDesc'),
       icon: 'headset' as const,
-      color: '#8b5cf6',
+      color: tk.accent,
       route: '/exercise/listening',
     },
     {
@@ -69,7 +71,7 @@ export default function PracticeScreen() {
       titleArabic: 'تَدْرِيبُ التَّحَدُّث',
       description: t('practiceScreen.speakingPracticeDesc'),
       icon: 'mic' as const,
-      color: '#f59e0b',
+      color: tk.warning,
       route: '/speaking',
     },
   ];
@@ -80,7 +82,7 @@ export default function PracticeScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={tk.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('practiceScreen.title')}</Text>
@@ -91,7 +93,7 @@ export default function PracticeScreen() {
         {/* Intro Card */}
         <View style={styles.introCard}>
           <View style={styles.introIcon}>
-            <Ionicons name="fitness" size={32} color="#ec4899" />
+            <Ionicons name="fitness" size={32} color={tk.accent} />
           </View>
           <Text style={styles.introTitle}>{t('practiceScreen.buildYourSkills')}</Text>
           <Text style={styles.introText}>
@@ -117,7 +119,7 @@ export default function PracticeScreen() {
 
         {/* Tip Card */}
         <View style={styles.tipCard}>
-          <Ionicons name="bulb" size={24} color="#D4AF37" />
+          <Ionicons name="bulb" size={24} color={tk.sacred} />
           <View style={styles.tipContent}>
             <Text style={styles.tipTitle}>{t('practiceScreen.dailyPracticeTip')}</Text>
             <Text style={styles.tipText}>
@@ -135,7 +137,7 @@ export default function PracticeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: tk.bg,
   },
   header: {
     flexDirection: 'row',
@@ -147,8 +149,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: tk.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -159,28 +161,30 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#ec4899',
+    color: tk.accent,
     marginTop: 4,
   },
   introCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: tk.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: '#ec489930',
+    borderColor: withAlpha(tk.accent, 0.19),
   },
   introIcon: {
     width: 64,
     height: 64,
     borderRadius: 32,
-    backgroundColor: '#ec489920',
+    backgroundColor: withAlpha(tk.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 16,
@@ -188,12 +192,12 @@ const styles = StyleSheet.create({
   introTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
     marginBottom: 8,
   },
   introText: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: tk.textMuted,
     textAlign: 'center',
     lineHeight: 22,
   },
@@ -204,12 +208,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
     marginBottom: 16,
   },
   practiceCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: tk.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     flexDirection: 'row',
@@ -219,7 +223,7 @@ const styles = StyleSheet.create({
   practiceIcon: {
     width: 56,
     height: 56,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -230,22 +234,24 @@ const styles = StyleSheet.create({
   practiceTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: tk.text,
   },
   practiceTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
     marginTop: 2,
   },
   practiceDescription: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: tk.textMuted,
     marginTop: 4,
     lineHeight: 18,
   },
   tipCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: tk.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'flex-start',
@@ -257,12 +263,12 @@ const styles = StyleSheet.create({
   tipTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#D4AF37',
+    color: tk.sacred,
     marginBottom: 4,
   },
   tipText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: tk.textMuted,
     lineHeight: 20,
   },
 });

@@ -6,6 +6,8 @@ import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SURAHS } from '../../../src/data/arabic/quran/surahs';
 import { useLocalizedContent } from '../../../src/hooks/useLocalizedContent';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 // Normalize text for better search matching
 const normalizeText = (text: string): string => {
@@ -73,7 +75,7 @@ export default function AllSurahsScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()} accessibilityRole="button" accessibilityLabel="Go back">
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.title}>{t('allSurahsFeature.title')}</Text>
@@ -87,18 +89,18 @@ export default function AllSurahsScreen() {
       {/* Search Bar */}
       <View style={styles.searchContainer}>
         <View style={styles.searchBar}>
-          <Ionicons name="search" size={20} color="#64748b" />
+          <Ionicons name="search" size={20} color={color.textFaint} />
           <TextInput
             style={styles.searchInput}
             placeholder={t('allSurahsFeature.searchPlaceholder')}
-            placeholderTextColor="#64748b"
+            placeholderTextColor={color.textFaint}
             value={searchQuery}
             onChangeText={handleSearchChange}
             accessibilityLabel={t('allSurahsFeature.searchPlaceholder')}
           />
           {searchQuery.length > 0 && (
             <Pressable onPress={() => { setSearchQuery(''); setDebouncedQuery(''); }} accessibilityRole="button" accessibilityLabel="Clear search">
-              <Ionicons name="close-circle" size={20} color="#64748b" />
+              <Ionicons name="close-circle" size={20} color={color.textFaint} />
             </Pressable>
           )}
         </View>
@@ -151,7 +153,7 @@ export default function AllSurahsScreen() {
                 </Text>
               </View>
             </View>
-            <Ionicons name="chevron-forward" size={20} color="#64748b" />
+            <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
           </Pressable>
         )}
       />
@@ -162,7 +164,7 @@ export default function AllSurahsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -173,8 +175,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -185,21 +187,23 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#10b981',
+    color: color.progress,
     marginTop: 2,
   },
   countBadge: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   countText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: 'bold',
   },
@@ -210,15 +214,15 @@ const styles = StyleSheet.create({
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     paddingHorizontal: 14,
     paddingVertical: 12,
     gap: 10,
   },
   searchInput: {
     flex: 1,
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
   },
   scrollView: {
@@ -226,8 +230,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   surahCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 10,
     flexDirection: 'row',
@@ -236,13 +240,13 @@ const styles = StyleSheet.create({
   surahNumber: {
     width: 48,
     height: 48,
-    borderRadius: 12,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   surahNumberText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -256,16 +260,18 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   surahNameArabic: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    lineHeight: 34,
+    color: color.text,
     fontSize: 20,
     fontWeight: '600',
   },
   surahNameEnglish: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 14,
   },
   surahMeaning: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginTop: 2,
     fontStyle: 'italic',
@@ -286,7 +292,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   surahMetaText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
 });

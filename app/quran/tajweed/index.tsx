@@ -8,6 +8,8 @@ import { TAJWEED_RULES, getAllTajweedCategories, getTajweedRulesByCategory } fro
 import { TAJWEED_CATEGORY_COLORS } from '../../../src/data/arabic/quran/tajweed/colors';
 import { useQuranStore } from '../../../src/stores/quranStore';
 import { TajweedRuleId } from '../../../src/types/quran';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 const CATEGORY_KEYS: Record<string, { key: string; arabic: string }> = {
   noon_sakinah: { key: 'tajweedFeature.noonSakinah', arabic: 'النون الساكنة والتنوين' },
@@ -43,7 +45,7 @@ export default function TajweedRulesScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerTitle}>
             <Text style={styles.title}>{t('tajweedFeature.title')}</Text>
@@ -69,13 +71,13 @@ export default function TajweedRulesScreen() {
               <Text style={styles.progressStatLabel}>{t('common.learned')}</Text>
             </View>
             <View style={styles.progressStat}>
-              <Text style={[styles.progressStatValue, { color: '#f59e0b' }]}>
+              <Text style={[styles.progressStatValue, { color: color.warning }]}>
                 {progress.tajweedProgress.rulesMastered.length}
               </Text>
               <Text style={styles.progressStatLabel}>{t('common.mastered')}</Text>
             </View>
             <View style={styles.progressStat}>
-              <Text style={[styles.progressStatValue, { color: '#8b5cf6' }]}>
+              <Text style={[styles.progressStatValue, { color: color.accent }]}>
                 {TAJWEED_RULES.length}
               </Text>
               <Text style={styles.progressStatLabel}>{t('tajweedFeature.total')}</Text>
@@ -127,11 +129,11 @@ export default function TajweedRulesScreen() {
                       </View>
                       <View style={styles.ruleStatus}>
                         {isMastered ? (
-                          <Ionicons name="star" size={20} color="#f59e0b" />
+                          <Ionicons name="star" size={20} color={color.warning} />
                         ) : isLearned ? (
-                          <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                          <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                         ) : (
-                          <Ionicons name="chevron-forward" size={20} color="#64748b" />
+                          <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
                         )}
                       </View>
                     </Pressable>
@@ -149,7 +151,7 @@ export default function TajweedRulesScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -165,12 +167,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: 'bold',
   },
   titleArabic: {
-    color: '#10b981',
+    fontFamily: font.arabic,
+    lineHeight: 27,
+    color: color.progress,
     fontSize: 16,
     marginTop: 2,
   },
@@ -178,9 +182,9 @@ const styles = StyleSheet.create({
     width: 40,
   },
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
   },
@@ -191,24 +195,24 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   progressTitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   progressPercent: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 18,
     fontWeight: 'bold',
   },
   progressBar: {
     height: 8,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 4,
     overflow: 'hidden',
     marginBottom: 16,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     borderRadius: 4,
   },
   progressStats: {
@@ -219,12 +223,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   progressStatValue: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 20,
     fontWeight: 'bold',
   },
   progressStatLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginTop: 2,
   },
@@ -242,7 +246,7 @@ const styles = StyleSheet.create({
   categoryIcon: {
     width: 40,
     height: 40,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -255,17 +259,19 @@ const styles = StyleSheet.create({
     marginLeft: 12,
   },
   categoryTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   categoryArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
     marginTop: 2,
   },
   ruleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 8,
     flexDirection: 'row',
@@ -273,7 +279,7 @@ const styles = StyleSheet.create({
   },
   ruleCardLearned: {
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   ruleColor: {
     width: 6,
@@ -290,16 +296,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   ruleName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '500',
   },
   ruleArabic: {
-    color: '#10b981',
+    fontFamily: font.arabic,
+    lineHeight: 24,
+    color: color.progress,
     fontSize: 14,
   },
   ruleDesc: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginTop: 4,
     lineHeight: 18,

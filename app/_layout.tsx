@@ -7,6 +7,7 @@ import { Platform, View } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import * as NavigationBar from 'expo-navigation-bar';
 import * as SplashScreen from 'expo-splash-screen';
+import { useFonts } from 'expo-font';
 import * as Linking from 'expo-linking';
 import { useTranslation } from 'react-i18next';
 import { quranAudioService } from '../src/services/quranAudioService';
@@ -21,6 +22,7 @@ import { UpdateModal } from '../src/components/UpdateModal';
 import { AIFloatingButton } from '../src/components/ai/AIFloatingButton';
 import { AIChatSheet } from '../src/components/ai/AIChatSheet';
 import { AppErrorBoundary } from '../src/components/AppErrorBoundary';
+import { color } from '../src/theme/tokens';
 
 export { ErrorBoundary } from 'expo-router';
 
@@ -42,12 +44,23 @@ export default function RootLayout() {
 
   const [authReady, setAuthReady] = useState(false);
   const [updateComplete, setUpdateComplete] = useState(false);
+  const [fontTimedOut, setFontTimedOut] = useState(false);
+
+  // Arabic is set in Amiri (naskh) app-wide; Quranic verses use the AmiriQuran
+  // cut, which is spaced for dense vocalisation. Bundled locally, so this
+  // resolves in a few frames — but launch is never allowed to hang on it.
+  const [fontsLoaded, fontError] = useFonts({
+    Amiri: require('../assets/fonts/Amiri-Regular.ttf'),
+    'Amiri-Bold': require('../assets/fonts/Amiri-Bold.ttf'),
+    AmiriQuran: require('../assets/fonts/AmiriQuran.ttf'),
+  });
 
   // Hard fallback: force app ready after 5s no matter what
   useEffect(() => {
     const fallback = setTimeout(() => {
       setAuthReady(true);
       setUpdateComplete(true);
+      setFontTimedOut(true);
     }, 5000);
     return () => clearTimeout(fallback);
   }, []);
@@ -188,7 +201,8 @@ export default function RootLayout() {
     }
   }, [authReady, hasCompletedOnboarding, isAuthenticated, segments]);
 
-  const appReady = authReady && updateComplete;
+  const fontsReady = fontsLoaded || !!fontError || fontTimedOut;
+  const appReady = authReady && updateComplete && fontsReady;
 
   // Hide the native splash exactly once. Calling hideAsync more than once (or
   // when no splash is registered, e.g. in Expo Go) rejects with "No native
@@ -229,17 +243,17 @@ export default function RootLayout() {
   }, [appReady, hideSplash]);
 
   if (!appReady) {
-    return <View style={{ flex: 1, backgroundColor: '#0f172a' }} />;
+    return <View style={{ flex: 1, backgroundColor: color.bg }} />;
   }
 
   return (
     <AppErrorBoundary>
-      <GestureHandlerRootView style={{ flex: 1, backgroundColor: '#0f172a' }} onLayout={onLayoutRootView}>
+      <GestureHandlerRootView style={{ flex: 1, backgroundColor: color.bg }} onLayout={onLayoutRootView}>
         <StatusBar style="light" />
         <Stack
           screenOptions={{
             headerShown: false,
-            contentStyle: { backgroundColor: '#0f172a' },
+            contentStyle: { backgroundColor: color.bg },
             animation: 'slide_from_right',
           }}
         >

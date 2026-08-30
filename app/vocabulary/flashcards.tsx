@@ -21,6 +21,8 @@ import {
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { VocabularyWord } from '../../src/types/arabic';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const SWIPE_THRESHOLD = SCREEN_WIDTH * 0.3;
@@ -128,7 +130,7 @@ export default function FlashcardsScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.completeContainer}>
           <View style={styles.completeIcon}>
-            <Ionicons name="trophy" size={64} color="#D4AF37" />
+            <Ionicons name="trophy" size={64} color={color.sacred} />
           </View>
           <Text style={styles.completeTitle}>{t('vocabulary.sessionComplete')}</Text>
           <Text style={styles.completeSubtitle}>
@@ -142,7 +144,7 @@ export default function FlashcardsScreen() {
             </View>
             <View style={styles.statDivider} />
             <View style={styles.statItem}>
-              <Text style={[styles.statValue, { color: '#f59e0b' }]}>
+              <Text style={[styles.statValue, { color: color.warning }]}>
                 {stats.learning}
               </Text>
               <Text style={styles.statLabel}>{t('vocabulary.stillLearning')}</Text>
@@ -166,7 +168,7 @@ export default function FlashcardsScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>
@@ -251,14 +253,14 @@ export default function FlashcardsScreen() {
           style={[styles.actionButton, styles.learningButton]}
           onPress={() => handleNext(false)}
         >
-          <Ionicons name="refresh" size={24} color="#f59e0b" />
+          <Ionicons name="refresh" size={24} color={color.warning} />
           <Text style={styles.learningButtonText}>{t('vocabulary.stillLearning')}</Text>
         </Pressable>
         <Pressable
           style={[styles.actionButton, styles.knowButton]}
           onPress={() => handleNext(true)}
         >
-          <Ionicons name="checkmark" size={24} color="#22c55e" />
+          <Ionicons name="checkmark" size={24} color={color.progress} />
           <Text style={styles.knowButtonText}>{t('vocabulary.knowIt')}</Text>
         </Pressable>
       </View>
@@ -269,7 +271,7 @@ export default function FlashcardsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loading: {
     flex: 1,
@@ -277,7 +279,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
   },
   header: {
@@ -291,8 +293,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -300,12 +302,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
@@ -318,13 +320,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 2,
   },
   cardContainer: {
@@ -345,8 +347,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: '100%',
     height: '100%',
-    backgroundColor: '#1e293b',
-    borderRadius: 24,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     justifyContent: 'space-between',
   },
@@ -359,40 +361,42 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   cardArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 95,
     fontSize: 56,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 16,
   },
   cardTranslit: {
     fontSize: 20,
-    color: '#6366f1',
+    color: color.accentStrong,
     marginBottom: 24,
   },
   cardAudioBtn: {
     width: 56,
     height: 56,
     borderRadius: 28,
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   cardAudioBtnActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   tapHint: {
     textAlign: 'center',
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   swipeHint: {
     textAlign: 'center',
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   cardEnglish: {
     fontSize: 32,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     fontWeight: 'bold',
     marginBottom: 20,
@@ -401,25 +405,29 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   backArabicText: {
+    fontFamily: font.arabic,
+    lineHeight: 48,
     fontSize: 28,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
   },
   exampleBox: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 16,
     width: '100%',
   },
   exampleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 8,
   },
   exampleEnglish: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
   },
   actionButtons: {
@@ -434,25 +442,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     borderWidth: 2,
   },
   learningButton: {
-    backgroundColor: '#f59e0b20',
-    borderColor: '#f59e0b',
+    backgroundColor: withAlpha(color.warning, 0.13),
+    borderColor: color.warning,
   },
   learningButtonText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 16,
     fontWeight: '600',
     marginLeft: 8,
   },
   knowButton: {
-    backgroundColor: '#22c55e20',
-    borderColor: '#22c55e',
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderColor: color.progress,
   },
   knowButtonText: {
-    color: '#22c55e',
+    color: color.progress,
     fontSize: 16,
     fontWeight: '600',
     marginLeft: 8,
@@ -467,7 +475,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
@@ -475,18 +483,18 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   completeSubtitle: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 32,
   },
   statsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -498,32 +506,32 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 36,
     fontWeight: 'bold',
-    color: '#22c55e',
+    color: color.progress,
   },
   statLabel: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   statDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 16,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginBottom: 32,
   },
   doneButton: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 48,
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },

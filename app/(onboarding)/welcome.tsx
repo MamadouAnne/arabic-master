@@ -3,6 +3,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
+import { color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function WelcomeScreen() {
   const { t } = useTranslation();
@@ -29,7 +31,7 @@ export default function WelcomeScreen() {
         >
           <Text style={styles.buttonText}>{t('common.getStarted')}</Text>
           <View style={styles.buttonIcon}>
-            <Ionicons name="arrow-forward" size={18} color="#D4AF37" />
+            <Ionicons name="arrow-forward" size={18} color={color.sacred} />
           </View>
         </TouchableOpacity>
       </View>
@@ -40,7 +42,7 @@ export default function WelcomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   logoSection: {
     flex: 1,
@@ -54,14 +56,14 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   appName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 36,
     fontWeight: 'bold',
     letterSpacing: 1,
     marginBottom: 12,
   },
   tagline: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 15,
     textAlign: 'center',
     lineHeight: 24,
@@ -71,15 +73,15 @@ const styles = StyleSheet.create({
     paddingBottom: 32,
   },
   button: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     paddingVertical: 18,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
   buttonText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 17,
     fontWeight: '700',
     marginRight: 10,
@@ -87,8 +89,8 @@ const styles = StyleSheet.create({
   buttonIcon: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#0f172a20',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.bg, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },

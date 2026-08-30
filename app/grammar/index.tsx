@@ -6,16 +6,17 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { grammarLessons as lessonsData } from '../../src/data/arabic/grammar/lessons';
+import { font, color, radius } from '../../src/theme/tokens';
 
 // Map category to icon and color
 const categoryConfig: Record<string, { icon: string; color: string }> = {
-  articles: { icon: 'text', color: '#6366f1' },
-  pronouns: { icon: 'person', color: '#22c55e' },
-  verbs: { icon: 'flash', color: '#ef4444' },
-  nouns: { icon: 'cube', color: '#f59e0b' },
-  adjectives: { icon: 'color-palette', color: '#D4AF37' },
-  sentences: { icon: 'create', color: '#8b5cf6' },
-  other: { icon: 'bulb', color: '#14b8a6' },
+  articles: { icon: 'text', color: color.accentStrong },
+  pronouns: { icon: 'person', color: color.progress },
+  verbs: { icon: 'flash', color: color.danger },
+  nouns: { icon: 'cube', color: color.warning },
+  adjectives: { icon: 'color-palette', color: color.sacred },
+  sentences: { icon: 'create', color: color.accent },
+  other: { icon: 'bulb', color: color.progress },
 };
 
 const CATEGORY_KEY: Record<string, string> = {
@@ -77,8 +78,8 @@ export default function GrammarScreen() {
         <View style={styles.lessonContent}>
           <View style={styles.lessonHeader}>
             <Text style={styles.lessonTitle}>{lc(lesson.title, lesson.titleFr)}</Text>
-            {status === 'completed' && <Ionicons name="checkmark-circle" size={20} color="#22c55e" />}
-            {status === 'in_progress' && <Ionicons name="time" size={20} color="#D4AF37" />}
+            {status === 'completed' && <Ionicons name="checkmark-circle" size={20} color={color.progress} />}
+            {status === 'in_progress' && <Ionicons name="time" size={20} color={color.sacred} />}
           </View>
           <Text style={styles.lessonTitleAr}>{lesson.titleArabic}</Text>
           <Text style={styles.lessonDesc}>{lc(lesson.description, lesson.descriptionFr)}</Text>
@@ -89,7 +90,7 @@ export default function GrammarScreen() {
             </Text>
           </View>
         </View>
-        <Ionicons name="chevron-forward" size={20} color="#64748b" />
+        <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
       </Pressable>
     );
   };
@@ -120,7 +121,7 @@ export default function GrammarScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('grammar.title')}</Text>
@@ -162,7 +163,7 @@ export default function GrammarScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -174,8 +175,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -186,17 +187,19 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 4,
   },
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
   },
@@ -206,11 +209,11 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   progressLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   progressValue: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -221,17 +224,17 @@ const styles = StyleSheet.create({
   progressBarBg: {
     flex: 1,
     height: 8,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 4,
     overflow: 'hidden',
   },
   progressBarFill: {
     height: '100%',
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
     borderRadius: 4,
   },
   progressPercent: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginLeft: 12,
     width: 36,
@@ -256,17 +259,17 @@ const styles = StyleSheet.create({
     minWidth: 24,
     height: 22,
     paddingHorizontal: 7,
-    borderRadius: 11,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
     justifyContent: 'center',
   },
   sectionCountText: {
     fontSize: 12,
     fontWeight: '700',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   lessonNumberBadge: {
     position: 'absolute',
@@ -275,17 +278,17 @@ const styles = StyleSheet.create({
     minWidth: 18,
     height: 18,
     paddingHorizontal: 4,
-    borderRadius: 9,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.sm,
+    backgroundColor: color.bg,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
     justifyContent: 'center',
   },
   lessonNumberText: {
     fontSize: 10,
     fontWeight: '700',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   categoryPill: {
     flexDirection: 'row',
@@ -295,7 +298,7 @@ const styles = StyleSheet.create({
     marginTop: 8,
     paddingHorizontal: 8,
     paddingVertical: 3,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   categoryDot: {
     width: 6,
@@ -307,17 +310,17 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
   sectionTitleAr: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 16,
   },
   lessonCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
@@ -326,7 +329,7 @@ const styles = StyleSheet.create({
   lessonIcon: {
     width: 48,
     height: 48,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -340,18 +343,18 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   lessonTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     flex: 1,
   },
   lessonTitleAr: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 13,
     marginTop: 2,
   },
   lessonDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     marginTop: 4,
   },

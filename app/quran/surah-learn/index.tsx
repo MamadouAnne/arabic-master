@@ -20,6 +20,7 @@ import {
   getSetName,
   getQuestionsBySet,
 } from '../../../src/data/arabic/quran/quizzes';
+import { font, color, radius } from '../../../src/theme/tokens';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const CARD_HEIGHT = 280;
@@ -264,7 +265,7 @@ function QuizSetCard({
         <Text style={styles.quizSetName}>{setName}</Text>
         <Text style={styles.quizSetCount}>{questionCount} {t('surahLearn.questions')}</Text>
       </View>
-      <Ionicons name="play-circle" size={28} color="#10b981" />
+      <Ionicons name="play-circle" size={28} color={color.progress} />
     </Pressable>
   );
 }
@@ -347,7 +348,7 @@ export default function SurahLearnScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.title}>{t('surahLearn.title')}</Text>
@@ -473,7 +474,7 @@ export default function SurahLearnScreen() {
                 setIsFlipped(false);
               }}
             >
-              <Ionicons name="shuffle" size={20} color="#10b981" />
+              <Ionicons name="shuffle" size={20} color={color.progress} />
               <Text style={styles.shuffleButtonText}>{t('surahLearn.shuffle')}</Text>
             </Pressable>
 
@@ -485,7 +486,7 @@ export default function SurahLearnScreen() {
             {/* Quiz Header Card */}
             <View style={styles.quizHeaderCard}>
               <View style={styles.quizHeaderIcon}>
-                <Ionicons name="trophy" size={40} color="#f59e0b" />
+                <Ionicons name="trophy" size={40} color={color.warning} />
               </View>
               <Text style={styles.quizHeaderTitle}>{t('surahLearn.testYourKnowledge')}</Text>
               <Text style={styles.quizHeaderSubtitle}>
@@ -496,7 +497,7 @@ export default function SurahLearnScreen() {
             {/* Quiz Sets */}
             <View style={styles.section}>
               <View style={styles.sectionHeader}>
-                <Ionicons name="list" size={20} color="#10b981" />
+                <Ionicons name="list" size={20} color={color.progress} />
                 <Text style={styles.sectionTitle}>{t('surahLearn.quizSets')}</Text>
               </View>
               <Text style={styles.sectionSubtitle}>
@@ -528,14 +529,14 @@ export default function SurahLearnScreen() {
                 end={{ x: 1, y: 1 }}
                 style={styles.randomQuizGradient}
               >
-                <Ionicons name="shuffle" size={24} color="#ffffff" />
+                <Ionicons name="shuffle" size={24} color={color.text} />
                 <View style={styles.randomQuizText}>
                   <Text style={styles.randomQuizTitle}>{t('surahLearn.randomQuiz')}</Text>
                   <Text style={styles.randomQuizSubtitle}>
                     {t('surahLearn.mixOfAll')}
                   </Text>
                 </View>
-                <Ionicons name="arrow-forward" size={24} color="#ffffff" />
+                <Ionicons name="arrow-forward" size={24} color={color.text} />
               </LinearGradient>
             </Pressable>
 
@@ -550,7 +551,7 @@ export default function SurahLearnScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   scrollView: {
     flex: 1,
@@ -571,11 +572,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#10b981',
+    color: color.progress,
     marginTop: 2,
   },
   tabContainer: {
@@ -584,8 +587,8 @@ const styles = StyleSheet.create({
   },
   tabBackground: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 4,
     position: 'relative',
   },
@@ -595,8 +598,8 @@ const styles = StyleSheet.create({
     left: 4,
     width: (SCREEN_WIDTH - 48) / 2 - 4,
     height: 40,
-    backgroundColor: '#10b981',
-    borderRadius: 10,
+    backgroundColor: color.progress,
+    borderRadius: radius.sm,
   },
   tab: {
     flex: 1,
@@ -610,10 +613,10 @@ const styles = StyleSheet.create({
   tabText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
   },
   tabTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   content: {
     paddingHorizontal: 20,
@@ -626,22 +629,22 @@ const styles = StyleSheet.create({
   filterButton: {
     paddingHorizontal: 14,
     paddingVertical: 8,
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   filterButtonActive: {
-    backgroundColor: '#10b981',
-    borderColor: '#10b981',
+    backgroundColor: color.progress,
+    borderColor: color.progress,
   },
   filterButtonText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   filterButtonTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   // Range Selector
   rangeSelector: {
@@ -654,22 +657,22 @@ const styles = StyleSheet.create({
   rangeButton: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   rangeButtonActive: {
-    backgroundColor: '#10b981',
-    borderColor: '#10b981',
+    backgroundColor: color.progress,
+    borderColor: color.progress,
   },
   rangeButtonText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   rangeButtonTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   // Flashcard
   flashcardContainer: {
@@ -680,19 +683,19 @@ const styles = StyleSheet.create({
   },
   progressText: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginBottom: 8,
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     borderRadius: 2,
   },
   cardPressable: {
@@ -708,7 +711,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: CARD_HEIGHT,
-    borderRadius: 24,
+    borderRadius: radius.xl,
     overflow: 'hidden',
     backfaceVisibility: 'hidden',
   },
@@ -738,12 +741,14 @@ const styles = StyleSheet.create({
   cardNumber: {
     fontSize: 80,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   cardNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 61,
     fontSize: 36,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   cardNameEnglish: {
@@ -755,13 +760,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.15)',
     paddingHorizontal: 20,
     paddingVertical: 10,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
   },
   meaningText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   detailsRow: {
     flexDirection: 'row',
@@ -772,13 +777,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.15)',
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     alignItems: 'center',
   },
   detailBoxLabel: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   tapHint: {
     flexDirection: 'row',
@@ -802,8 +807,8 @@ const styles = StyleSheet.create({
     gap: 8,
     paddingHorizontal: 20,
     paddingVertical: 12,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
   },
   navButtonDisabled: {
     opacity: 0.5,
@@ -811,10 +816,10 @@ const styles = StyleSheet.create({
   navButtonText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   navButtonTextDisabled: {
-    color: '#475569',
+    color: color.textFaint,
   },
   shuffleButton: {
     flexDirection: 'row',
@@ -822,20 +827,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 8,
     paddingVertical: 14,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   shuffleButtonText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#10b981',
+    color: color.progress,
   },
   // Quiz Tab
   quizHeaderCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     alignItems: 'center',
     marginBottom: 24,
@@ -852,12 +857,12 @@ const styles = StyleSheet.create({
   quizHeaderTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   quizHeaderSubtitle: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     lineHeight: 20,
   },
@@ -873,25 +878,25 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   sectionSubtitle: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 16,
   },
   quizSetCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
   },
   quizSetIcon: {
     width: 48,
     height: 48,
-    borderRadius: 12,
+    borderRadius: radius.md,
     backgroundColor: 'rgba(16, 185, 129, 0.15)',
     alignItems: 'center',
     justifyContent: 'center',
@@ -899,7 +904,7 @@ const styles = StyleSheet.create({
   quizSetNumber: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#10b981',
+    color: color.progress,
   },
   quizSetInfo: {
     flex: 1,
@@ -908,16 +913,16 @@ const styles = StyleSheet.create({
   quizSetName: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   quizSetCount: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   randomQuizButton: {
     marginBottom: 24,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     overflow: 'hidden',
   },
   randomQuizGradient: {
@@ -932,7 +937,7 @@ const styles = StyleSheet.create({
   randomQuizTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   randomQuizSubtitle: {
     fontSize: 14,

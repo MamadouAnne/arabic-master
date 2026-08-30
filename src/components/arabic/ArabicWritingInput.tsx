@@ -1,6 +1,8 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { useState, useCallback, useEffect } from 'react';
 import ArabicKeyboard from './ArabicKeyboard';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface ArabicWritingInputProps {
   value: string;
@@ -88,32 +90,32 @@ const styles = StyleSheet.create({
   container: {
   },
   answerDisplay: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 18,
     minHeight: 70,
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
     marginHorizontal: 20,
     marginBottom: 16,
     justifyContent: 'center',
   },
   displayCorrect: {
-    borderColor: '#22c55e',
-    backgroundColor: '#22c55e20',
+    borderColor: color.progress,
+    backgroundColor: withAlpha(color.progress, 0.13),
   },
   displayWrong: {
-    borderColor: '#ef4444',
-    backgroundColor: '#ef444420',
+    borderColor: color.danger,
+    backgroundColor: withAlpha(color.danger, 0.13),
   },
   answerText: {
     fontSize: 24,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'right',
   },
   placeholderText: {
     fontSize: 20,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'right',
   },
 });

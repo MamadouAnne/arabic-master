@@ -16,6 +16,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { VocabularyWord } from '../../src/types/arabic';
 import ArabicWritingInput from '../../src/components/arabic/ArabicWritingInput';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function TypingPracticeScreen() {
   const { showVowels, recordExerciseResult, addXp, updateStreak } = useProgressStore();
@@ -167,7 +169,7 @@ export default function TypingPracticeScreen() {
             </View>
             <View style={styles.resultDivider} />
             <View style={styles.resultItem}>
-              <Text style={[styles.resultValue, { color: '#6366f1' }]}>{accuracy}%</Text>
+              <Text style={[styles.resultValue, { color: color.accentStrong }]}>{accuracy}%</Text>
               <Text style={styles.resultLabel}>{t('common.accuracy')}</Text>
             </View>
           </View>
@@ -176,7 +178,7 @@ export default function TypingPracticeScreen() {
 
           <View style={styles.completeButtons}>
             <Pressable style={styles.retryButton} onPress={handleRetry}>
-              <Ionicons name="refresh" size={20} color="#6366f1" />
+              <Ionicons name="refresh" size={20} color={color.accentStrong} />
               <Text style={styles.retryButtonText}>{t('common.tryAgain')}</Text>
             </Pressable>
             <Pressable style={styles.doneButton} onPress={() => router.back()}>
@@ -193,7 +195,7 @@ export default function TypingPracticeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>{t('exercise.typingPractice')}</Text>
@@ -202,7 +204,7 @@ export default function TypingPracticeScreen() {
           </Text>
         </View>
         <View style={styles.scoreBox}>
-          <Ionicons name="star" size={16} color="#6366f1" />
+          <Ionicons name="star" size={16} color={color.accentStrong} />
           <Text style={styles.scoreText}>{score.correct}</Text>
         </View>
       </View>
@@ -238,7 +240,7 @@ export default function TypingPracticeScreen() {
         {/* Hint Button */}
         {!showHint && !isAnswered && (
           <Pressable style={styles.hintButton} onPress={() => setShowHint(true)}>
-            <Ionicons name="eye-outline" size={18} color="#6366f1" />
+            <Ionicons name="eye-outline" size={18} color={color.accentStrong} />
             <Text style={styles.hintButtonText}>{t('exercise.showAnswer')}</Text>
           </Pressable>
         )}
@@ -276,7 +278,7 @@ export default function TypingPracticeScreen() {
                   <Text style={styles.correctAnswerText}>
                     {showVowels ? currentWord.arabicWithVowels : currentWord.arabic}
                   </Text>
-                  <Ionicons name="volume-medium" size={20} color="#6366f1" />
+                  <Ionicons name="volume-medium" size={20} color={color.accentStrong} />
                 </Pressable>
               </View>
             )}
@@ -294,7 +296,7 @@ export default function TypingPracticeScreen() {
           disabled={isAnswered}
           isCorrect={isCorrect}
           showResult={isAnswered}
-          accentColor="#6366f1"
+          accentColor={color.accentStrong}
         />
       ) : (
         <View style={styles.actionContainer}>
@@ -302,7 +304,7 @@ export default function TypingPracticeScreen() {
             <Text style={styles.nextButtonText}>
               {currentIndex < words.length - 1 ? t('exercise.nextWord') : t('exercise.seeResults')}
             </Text>
-            <Ionicons name="arrow-forward" size={20} color="#ffffff" />
+            <Ionicons name="arrow-forward" size={20} color={color.text} />
           </Pressable>
         </View>
       )}
@@ -313,7 +315,7 @@ export default function TypingPracticeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loading: {
     flex: 1,
@@ -321,7 +323,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
   },
   header: {
@@ -335,8 +337,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -344,25 +346,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   scoreBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#6366f120',
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 8,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   scoreText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontWeight: 'bold',
     marginLeft: 4,
   },
@@ -372,13 +374,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 2,
   },
   scrollContent: {
@@ -390,12 +392,12 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   instructionText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 8,
   },
   questionText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 28,
     fontWeight: 'bold',
     textAlign: 'center',
@@ -409,18 +411,18 @@ const styles = StyleSheet.create({
   },
   transliteration: {
     fontSize: 16,
-    color: '#6366f1',
+    color: color.accentStrong,
   },
   audioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#6366f120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   audioButtonActive: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   hintButton: {
     flexDirection: 'row',
@@ -430,37 +432,39 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   hintButtonText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 14,
     fontWeight: '500',
     marginLeft: 6,
   },
   hintBox: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 24,
     paddingVertical: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 20,
     alignItems: 'center',
   },
   hintArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 48,
     fontSize: 28,
-    color: '#D4AF37',
+    color: color.sacred,
   },
   feedbackBox: {
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 20,
   },
   feedbackCorrect: {
-    backgroundColor: '#22c55e20',
+    backgroundColor: withAlpha(color.progress, 0.13),
     borderWidth: 1,
-    borderColor: '#22c55e40',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   feedbackWrong: {
-    backgroundColor: '#ef444420',
+    backgroundColor: withAlpha(color.danger, 0.13),
     borderWidth: 1,
-    borderColor: '#ef444440',
+    borderColor: withAlpha(color.danger, 0.25),
   },
   feedbackHeader: {
     flexDirection: 'row',
@@ -473,16 +477,16 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   feedbackTitleCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   feedbackTitleWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   correctAnswerBox: {
     marginBottom: 12,
   },
   correctAnswerLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginBottom: 4,
   },
@@ -492,7 +496,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   correctAnswerText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
     fontWeight: '600',
     marginRight: 12,
@@ -503,15 +507,15 @@ const styles = StyleSheet.create({
     paddingTop: 12,
   },
   nextButton: {
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
   nextButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
     marginRight: 8,
@@ -533,18 +537,18 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   completeSubtitle: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 32,
   },
   resultsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -556,21 +560,21 @@ const styles = StyleSheet.create({
   resultValue: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   resultLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   resultDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 16,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#6366f1',
+    color: color.accentStrong,
     fontWeight: '600',
     marginBottom: 32,
   },
@@ -584,28 +588,28 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 2,
-    borderColor: '#6366f1',
+    borderColor: color.accentStrong,
   },
   retryButtonText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 8,
   },
   doneButton: {
     flex: 1,
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.lg,
     padding: 16,
     alignItems: 'center',
     justifyContent: 'center',
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
   },

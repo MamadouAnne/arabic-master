@@ -15,6 +15,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import ArabicWritingInput from '../../src/components/arabic/ArabicWritingInput';
 import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function VerbsWritingPracticeScreen() {
   const { t } = useTranslation();
@@ -164,7 +166,7 @@ export default function VerbsWritingPracticeScreen() {
             </View>
             <View style={styles.resultDivider} />
             <View style={styles.resultItem}>
-              <Text style={[styles.resultValue, { color: '#ec4899' }]}>{accuracy}%</Text>
+              <Text style={[styles.resultValue, { color: color.accent }]}>{accuracy}%</Text>
               <Text style={styles.resultLabel}>{t('verbWriting.accuracy')}</Text>
             </View>
           </View>
@@ -173,7 +175,7 @@ export default function VerbsWritingPracticeScreen() {
 
           <View style={styles.completeButtons}>
             <Pressable style={styles.retryButton} onPress={handleRetry}>
-              <Ionicons name="refresh" size={20} color="#ec4899" />
+              <Ionicons name="refresh" size={20} color={color.accent} />
               <Text style={styles.retryButtonText}>{t('verbWriting.tryAgain')}</Text>
             </Pressable>
             <Pressable style={styles.doneButton} onPress={() => router.back()}>
@@ -190,7 +192,7 @@ export default function VerbsWritingPracticeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>{t('verbWriting.title')}</Text>
@@ -199,7 +201,7 @@ export default function VerbsWritingPracticeScreen() {
           </Text>
         </View>
         <View style={styles.scoreBox}>
-          <Ionicons name="star" size={16} color="#ec4899" />
+          <Ionicons name="star" size={16} color={color.accent} />
           <Text style={styles.scoreText}>{score.correct}</Text>
         </View>
       </View>
@@ -236,7 +238,7 @@ export default function VerbsWritingPracticeScreen() {
         {/* Hint Button */}
         {currentExercise.hint && !showHint && !isAnswered && (
           <Pressable style={styles.hintButton} onPress={() => setShowHint(true)}>
-            <Ionicons name="bulb-outline" size={18} color="#ec4899" />
+            <Ionicons name="bulb-outline" size={18} color={color.accent} />
             <Text style={styles.hintButtonText}>{t('verbWriting.showHint')}</Text>
           </Pressable>
         )}
@@ -244,7 +246,7 @@ export default function VerbsWritingPracticeScreen() {
         {/* Hint Display */}
         {showHint && (
           <View style={styles.hintBox}>
-            <Ionicons name="bulb" size={18} color="#ec4899" />
+            <Ionicons name="bulb" size={18} color={color.accent} />
             <Text style={styles.hintText}>{currentExercise.hint}</Text>
           </View>
         )}
@@ -273,7 +275,7 @@ export default function VerbsWritingPracticeScreen() {
                   <Text style={styles.correctAnswerText}>
                     {(currentExercise.correctAnswer as string[])[0]}
                   </Text>
-                  <Ionicons name="volume-medium" size={20} color="#ec4899" />
+                  <Ionicons name="volume-medium" size={20} color={color.accent} />
                 </Pressable>
               </View>
             )}
@@ -295,7 +297,7 @@ export default function VerbsWritingPracticeScreen() {
           disabled={isAnswered}
           isCorrect={isCorrect}
           showResult={isAnswered}
-          accentColor="#ec4899"
+          accentColor={color.accent}
         />
       ) : (
         <View style={styles.actionContainer}>
@@ -313,7 +315,7 @@ export default function VerbsWritingPracticeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorContainer: {
     flex: 1,
@@ -321,7 +323,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 18,
     marginBottom: 16,
   },
@@ -329,7 +331,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   backLinkText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 16,
   },
   header: {
@@ -343,8 +345,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -352,25 +354,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   scoreBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#ec489920',
+    backgroundColor: withAlpha(color.accent, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 8,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   scoreText: {
-    color: '#ec4899',
+    color: color.accent,
     fontWeight: 'bold',
     marginLeft: 4,
   },
@@ -380,13 +382,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#ec4899',
+    backgroundColor: color.accent,
     borderRadius: 2,
   },
   scrollContent: {
@@ -398,7 +400,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   questionText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: '600',
     textAlign: 'center',
@@ -412,20 +414,22 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   questionArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#ec4899',
+    color: color.accent,
     textAlign: 'center',
   },
   audioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#ec489920',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   audioButtonActive: {
-    backgroundColor: '#ec4899',
+    backgroundColor: color.accent,
   },
   hintButton: {
     flexDirection: 'row',
@@ -435,7 +439,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   hintButtonText: {
-    color: '#ec4899',
+    color: color.accent,
     fontSize: 14,
     fontWeight: '500',
     marginLeft: 6,
@@ -443,33 +447,33 @@ const styles = StyleSheet.create({
   hintBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#ec489920',
+    backgroundColor: withAlpha(color.accent, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 20,
   },
   hintText: {
-    color: '#ec4899',
+    color: color.accent,
     fontSize: 14,
     marginLeft: 8,
     flex: 1,
   },
   feedbackBox: {
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 20,
     marginHorizontal: 20,
   },
   feedbackCorrect: {
-    backgroundColor: '#22c55e20',
+    backgroundColor: withAlpha(color.progress, 0.13),
     borderWidth: 1,
-    borderColor: '#22c55e40',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   feedbackWrong: {
-    backgroundColor: '#ef444420',
+    backgroundColor: withAlpha(color.danger, 0.13),
     borderWidth: 1,
-    borderColor: '#ef444440',
+    borderColor: withAlpha(color.danger, 0.25),
   },
   feedbackHeader: {
     flexDirection: 'row',
@@ -482,16 +486,16 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   feedbackTitleCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   feedbackTitleWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   correctAnswerBox: {
     marginBottom: 12,
   },
   correctAnswerLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
     marginBottom: 4,
   },
@@ -501,13 +505,13 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   correctAnswerText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 24,
     fontWeight: '600',
     marginRight: 12,
   },
   explanationText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 20,
   },
@@ -536,18 +540,18 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   completeSubtitle: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 32,
   },
   resultsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -559,21 +563,21 @@ const styles = StyleSheet.create({
   resultValue: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   resultLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   resultDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 16,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#ec4899',
+    color: color.accent,
     fontWeight: '600',
     marginBottom: 32,
   },
@@ -587,28 +591,28 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 2,
-    borderColor: '#ec4899',
+    borderColor: color.accent,
   },
   retryButtonText: {
-    color: '#ec4899',
+    color: color.accent,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 8,
   },
   doneButton: {
     flex: 1,
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.lg,
     padding: 16,
     alignItems: 'center',
     justifyContent: 'center',
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
   },

@@ -3,6 +3,7 @@ import { Modal, View, Text, Pressable, StyleSheet, Animated, Easing, AppState } 
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 import * as Updates from 'expo-updates';
+import { color, radius } from '../theme/tokens';
 
 /**
  * Self-contained EAS Update (OTA) prompt. On launch and each time the app is
@@ -78,7 +79,7 @@ export function UpdateModal() {
       <View style={styles.overlay}>
         <Animated.View style={[styles.card, { opacity, transform: [{ scale }] }]}>
           <View style={styles.iconWrap}>
-            <Ionicons name="rocket" size={28} color="#10b981" />
+            <Ionicons name="rocket" size={28} color={color.progress} />
           </View>
 
           <Text style={styles.title}>{t('profile.updateReadyTitle')}</Text>
@@ -101,7 +102,7 @@ export function UpdateModal() {
               accessibilityRole="button"
               accessibilityLabel={t('profile.updateNow')}
             >
-              <Ionicons name="refresh" size={18} color="#0f172a" />
+              <Ionicons name="refresh" size={18} color={color.textOnAccent} />
               <Text style={styles.primaryText}>{t('profile.updateNow')}</Text>
             </Pressable>
           </View>
@@ -122,10 +123,10 @@ const styles = StyleSheet.create({
   card: {
     width: '100%',
     maxWidth: 380,
-    backgroundColor: '#1e293b',
-    borderRadius: 24,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     padding: 24,
     alignItems: 'center',
   },
@@ -139,14 +140,14 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   title: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 19,
     fontWeight: '700',
     textAlign: 'center',
     marginBottom: 8,
   },
   message: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 20,
     textAlign: 'center',
@@ -160,15 +161,15 @@ const styles = StyleSheet.create({
   secondaryButton: {
     flex: 1,
     paddingVertical: 13,
-    borderRadius: 14,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.md,
+    backgroundColor: color.bg,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
     justifyContent: 'center',
   },
   secondaryText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -177,8 +178,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 6,
     paddingVertical: 13,
-    borderRadius: 14,
-    backgroundColor: '#10b981',
+    borderRadius: radius.md,
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -186,7 +187,7 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   primaryText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 15,
     fontWeight: '700',
   },

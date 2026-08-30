@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ChatMessage, AIModuleContext } from '../../types/aiChat';
 import { getContextualSuggestions } from '../../services/aiContextService';
 import { useSettingsStore } from '../../stores/settingsStore';
+import { color, radius } from '../../theme/tokens';
 
 const MCQ_LINE_RE = /^[A-D]\)\s+.+$/m;
 const AUTO_DISMISS_MS = 8000;
@@ -80,7 +81,7 @@ export function AIQuickSuggestions({ messages, isStreaming, activeModule, segmen
 
 const styles = StyleSheet.create({
   wrapper: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     height: 52,
   },
   scrollContent: {
@@ -89,17 +90,17 @@ const styles = StyleSheet.create({
     height: 52,
   },
   chip: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     paddingHorizontal: 16,
     paddingVertical: 10,
     marginRight: 8,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   chipText: {
     fontSize: 13,
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontWeight: '500',
   },
 });

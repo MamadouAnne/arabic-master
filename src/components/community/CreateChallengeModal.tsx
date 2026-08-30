@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { color, radius } from '../../theme/tokens';
 
 interface Props {
   visible: boolean;
@@ -50,7 +51,7 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
         <View style={styles.content}>
           <View style={styles.header}>
             <Pressable onPress={onClose}>
-              <Ionicons name="close" size={24} color="#94a3b8" />
+              <Ionicons name="close" size={24} color={color.textMuted} />
             </Pressable>
             <Text style={styles.headerTitle}>{t('community.challengeTitle')}</Text>
             <Pressable style={[styles.createBtn, (!title.trim() || !targetValue) && { opacity: 0.4 }]} onPress={handleCreate} disabled={!title.trim() || !targetValue}>
@@ -60,20 +61,20 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
 
           <ScrollView showsVerticalScrollIndicator={false}>
             <Text style={styles.hint}>{t('community.challengeHint')}</Text>
-            <TextInput style={styles.input} placeholder='e.g. "Memorize Surah Al-Mulk" or "Earn 500 XP"' placeholderTextColor="#64748b" value={title} onChangeText={setTitle} maxLength={80} />
+            <TextInput style={styles.input} placeholder='e.g. "Memorize Surah Al-Mulk" or "Earn 500 XP"' placeholderTextColor={color.textFaint} value={title} onChangeText={setTitle} maxLength={80} />
 
             <Text style={styles.label}>{t('community.whatTracking')}</Text>
             <View style={styles.optionRow}>
               {TARGET_TYPES.map((t) => (
                 <Pressable key={t.key} style={[styles.typeBtn, targetType === t.key && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]} onPress={() => setTargetType(t.key)}>
-                  <Ionicons name={t.icon as any} size={16} color={targetType === t.key ? groupColor : '#64748b'} />
+                  <Ionicons name={t.icon as any} size={16} color={targetType === t.key ? groupColor: color.textFaint} />
                   <Text style={[styles.typeText, targetType === t.key && { color: groupColor }]}>{t.label}</Text>
                 </Pressable>
               ))}
             </View>
 
             <Text style={styles.label}>{t('community.howMuch')}</Text>
-            <TextInput style={styles.input} placeholder={targetType === 'xp' ? 'e.g. 500' : targetType === 'words' ? 'e.g. 50' : 'e.g. 5'} placeholderTextColor="#64748b" value={targetValue} onChangeText={setTargetValue} keyboardType="number-pad" maxLength={6} />
+            <TextInput style={styles.input} placeholder={targetType === 'xp' ? 'e.g. 500' : targetType === 'words' ? 'e.g. 50' : 'e.g. 5'} placeholderTextColor={color.textFaint} value={targetValue} onChangeText={setTargetValue} keyboardType="number-pad" maxLength={6} />
 
             <Text style={styles.label}>{t('community.timeLimit')}</Text>
             <View style={styles.optionRow}>
@@ -92,17 +93,17 @@ export function CreateChallengeModal({ visible, onClose, onCreate, groupColor }:
 
 const styles = StyleSheet.create({
   overlay: { flex: 1, backgroundColor: 'rgba(0,0,0,0.7)', justifyContent: 'flex-end' },
-  content: { backgroundColor: '#1e293b', borderTopLeftRadius: 20, borderTopRightRadius: 20, padding: 20, maxHeight: '80%' },
+  content: { backgroundColor: color.surface, borderTopLeftRadius: 20, borderTopRightRadius: 20, padding: 20, maxHeight: '80%' },
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 },
-  headerTitle: { fontSize: 18, fontWeight: '700', color: '#ffffff' },
-  createBtn: { backgroundColor: '#818cf8', paddingHorizontal: 20, paddingVertical: 8, borderRadius: 12 },
-  createBtnText: { fontSize: 14, fontWeight: '700', color: '#ffffff' },
-  hint: { fontSize: 13, color: '#64748b', lineHeight: 19, marginBottom: 14 },
-  input: { backgroundColor: '#0f172a', borderRadius: 12, padding: 14, fontSize: 15, color: '#ffffff', marginBottom: 12, borderWidth: 1, borderColor: '#334155' },
-  label: { fontSize: 13, fontWeight: '600', color: '#94a3b8', marginBottom: 8, marginTop: 4 },
+  headerTitle: { fontSize: 18, fontWeight: '700', color: color.text },
+  createBtn: { backgroundColor: color.accent, paddingHorizontal: 20, paddingVertical: 8, borderRadius: radius.md },
+  createBtnText: { fontSize: 14, fontWeight: '700', color: color.text },
+  hint: { fontSize: 13, color: color.textFaint, lineHeight: 19, marginBottom: 14 },
+  input: { backgroundColor: color.bg, borderRadius: radius.md, padding: 14, fontSize: 15, color: color.text, marginBottom: 12, borderWidth: 1, borderColor: color.border },
+  label: { fontSize: 13, fontWeight: '600', color: color.textMuted, marginBottom: 8, marginTop: 4 },
   optionRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 16 },
-  typeBtn: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: 12, paddingVertical: 8, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0f172a' },
-  typeText: { fontSize: 13, fontWeight: '600', color: '#64748b' },
-  optionBtn: { paddingHorizontal: 14, paddingVertical: 8, borderRadius: 10, borderWidth: 1, borderColor: '#334155', backgroundColor: '#0f172a' },
-  optionText: { fontSize: 13, fontWeight: '600', color: '#64748b' },
+  typeBtn: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: 12, paddingVertical: 8, borderRadius: radius.sm, borderWidth: 1, borderColor: color.border, backgroundColor: color.bg },
+  typeText: { fontSize: 13, fontWeight: '600', color: color.textFaint },
+  optionBtn: { paddingHorizontal: 14, paddingVertical: 8, borderRadius: radius.sm, borderWidth: 1, borderColor: color.border, backgroundColor: color.bg },
+  optionText: { fontSize: 13, fontWeight: '600', color: color.textFaint },
 });

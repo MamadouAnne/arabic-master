@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { Challenge } from '../../types/community';
+import { font, color, radius } from '../../theme/tokens';
 
 interface ChallengeCardProps {
   challenge: Challenge;
@@ -82,12 +83,12 @@ export const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge }) => {
     >
       <View style={styles.header}>
         <View style={styles.typeTag}>
-          <Ionicons name={getTypeIcon() as any} size={14} color="#D4AF37" />
+          <Ionicons name={getTypeIcon() as any} size={14} color={color.sacred} />
           <Text style={styles.typeText}>{getTypeLabel()}</Text>
         </View>
         {challenge.isCompleted && (
           <View style={styles.completedTag}>
-            <Ionicons name="checkmark-circle" size={14} color="#22c55e" />
+            <Ionicons name="checkmark-circle" size={14} color={color.progress} />
             <Text style={styles.completedText}>{t('community.completedExclaim')}</Text>
           </View>
         )}
@@ -117,13 +118,13 @@ export const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge }) => {
 
       <View style={styles.footer}>
         <View style={styles.contributionBox}>
-          <Ionicons name="person" size={14} color="#818cf8" />
+          <Ionicons name="person" size={14} color={color.accent} />
           <Text style={styles.contributionText}>
             Your contribution: {challenge.userContribution} {getTargetTypeLabel()}
           </Text>
         </View>
         <View style={styles.rewardBox}>
-          <Ionicons name="star" size={14} color="#D4AF37" />
+          <Ionicons name="star" size={14} color={color.sacred} />
           <Text style={styles.rewardText}>+{challenge.xpReward} XP</Text>
         </View>
       </View>
@@ -146,13 +147,13 @@ export const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginHorizontal: 20,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   header: {
     flexDirection: 'row',
@@ -166,11 +167,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(212, 175, 55, 0.1)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   typeText: {
     fontSize: 12,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginLeft: 6,
   },
@@ -180,28 +181,30 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(34, 197, 94, 0.1)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   completedText: {
     fontSize: 12,
-    color: '#22c55e',
+    color: color.progress,
     fontWeight: '600',
     marginLeft: 4,
   },
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 8,
   },
   description: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 16,
   },
   progressContainer: {
@@ -209,18 +212,18 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 12,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderRadius: 6,
     overflow: 'hidden',
     marginBottom: 8,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 6,
   },
   progressFillComplete: {
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
   },
   progressStats: {
     flexDirection: 'row',
@@ -228,12 +231,12 @@ const styles = StyleSheet.create({
   },
   progressText: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
   progressPercent: {
     fontSize: 14,
-    color: '#818cf8',
+    color: color.accent,
     fontWeight: '600',
   },
   footer: {
@@ -248,7 +251,7 @@ const styles = StyleSheet.create({
   },
   contributionText: {
     fontSize: 13,
-    color: '#818cf8',
+    color: color.accent,
     marginLeft: 6,
   },
   rewardBox: {
@@ -257,11 +260,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(212, 175, 55, 0.1)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   rewardText: {
     fontSize: 13,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginLeft: 4,
   },
@@ -269,8 +272,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#6366f1',
-    borderRadius: 12,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.md,
     paddingVertical: 12,
   },
   actionButtonCompleted: {
@@ -282,9 +285,9 @@ const styles = StyleSheet.create({
   actionText: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   actionTextCompleted: {
-    color: '#22c55e',
+    color: color.progress,
   },
 });

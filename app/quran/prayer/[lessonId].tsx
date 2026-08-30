@@ -16,6 +16,8 @@ import {
   StepListItem,
   PrayerTimesRow,
 } from '../../../src/types/prayer';
+import { font, color as tk, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 export default function PrayerLessonScreen() {
   const { t } = useTranslation();
@@ -85,7 +87,7 @@ export default function PrayerLessonScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#10b981" />
+          <ActivityIndicator size="large" color={tk.progress} />
           <Text style={styles.loadingText}>{t('prayerFeature.loadingLesson')}</Text>
         </View>
       </SafeAreaView>
@@ -122,7 +124,7 @@ export default function PrayerLessonScreen() {
               <Ionicons
                 name={isSpeaking && speakingText === block.arabic ? 'stop-circle' : 'volume-high'}
                 size={18}
-                color="#D4AF37"
+                color={tk.sacred}
               />
             </View>
           </Pressable>
@@ -135,7 +137,7 @@ export default function PrayerLessonScreen() {
   const renderRule = (block: PrayerContent & { type: 'rule' }, index: number) => (
     <View key={index} style={styles.ruleCard}>
       <View style={styles.ruleHeader}>
-        <Ionicons name={(block.icon as any) || 'shield-checkmark'} size={18} color="#10b981" />
+        <Ionicons name={(block.icon as any) || 'shield-checkmark'} size={18} color={tk.progress} />
         {block.title && <Text style={styles.ruleTitle}>{lc(block.title, block.titleFr)}</Text>}
       </View>
       <Text style={styles.ruleContent}>{lc(block.content, block.contentFr)}</Text>
@@ -145,7 +147,7 @@ export default function PrayerLessonScreen() {
   const renderNote = (block: PrayerContent & { type: 'note' }, index: number) => (
     <View key={index} style={styles.noteCard}>
       <View style={styles.noteHeader}>
-        <Ionicons name="information-circle" size={18} color="#f59e0b" />
+        <Ionicons name="information-circle" size={18} color={tk.warning} />
         {block.title && <Text style={styles.noteTitle}>{lc(block.title, block.titleFr)}</Text>}
       </View>
       <Text style={styles.noteContent}>{lc(block.content, block.contentFr)}</Text>
@@ -215,7 +217,7 @@ export default function PrayerLessonScreen() {
               <Ionicons
                 name={isSpeaking && speakingText === example.arabic ? 'stop-circle' : 'volume-high'}
                 size={14}
-                color="#D4AF37"
+                color={tk.sacred}
               />
             </View>
             <Text style={styles.exampleTransliteration}>{example.transliteration}</Text>
@@ -255,7 +257,7 @@ export default function PrayerLessonScreen() {
           <Ionicons
             name={isSpeaking && speakingText === step.arabic ? 'stop-circle' : 'volume-high'}
             size={20}
-            color="#D4AF37"
+            color={tk.sacred}
             style={styles.prayerStepSpeaker}
           />
         </Pressable>
@@ -269,7 +271,7 @@ export default function PrayerLessonScreen() {
         {/* Repetitions */}
         {step.repetitions && (
           <View style={styles.repetitionBadge}>
-            <Ionicons name="repeat" size={14} color="#10b981" />
+            <Ionicons name="repeat" size={14} color={tk.progress} />
             <Text style={styles.repetitionText}>{t('prayerFeature.repeat')} {step.repetitions} {t('prayerFeature.times')}</Text>
           </View>
         )}
@@ -277,7 +279,7 @@ export default function PrayerLessonScreen() {
         {/* Instruction */}
         {step.instruction && (
           <View style={styles.instructionBox}>
-            <Ionicons name="information-circle" size={16} color="#94a3b8" />
+            <Ionicons name="information-circle" size={16} color={tk.textMuted} />
             <Text style={styles.instructionText}>{lc(step.instruction, step.instructionFr)}</Text>
           </View>
         )}
@@ -322,7 +324,7 @@ export default function PrayerLessonScreen() {
                   <Ionicons
                     name={isSpeaking && speakingText === step.arabic ? 'stop-circle' : 'volume-high'}
                     size={14}
-                    color="#D4AF37"
+                    color={tk.sacred}
                   />
                 </Pressable>
               )}
@@ -367,11 +369,11 @@ export default function PrayerLessonScreen() {
               </View>
               <View style={styles.prayerTimeDetails}>
                 <View style={styles.prayerTimeDetail}>
-                  <Ionicons name="time-outline" size={12} color="#64748b" />
+                  <Ionicons name="time-outline" size={12} color={tk.textFaint} />
                   <Text style={styles.prayerTimeDetailText}>{lc(row.time, row.timeFr)}</Text>
                 </View>
                 <View style={styles.prayerTimeDetail}>
-                  <Ionicons name="volume-medium-outline" size={12} color="#64748b" />
+                  <Ionicons name="volume-medium-outline" size={12} color={tk.textFaint} />
                   <Text style={styles.prayerTimeDetailText}>{lc(row.recitation, row.recitationFr)}</Text>
                 </View>
               </View>
@@ -426,7 +428,7 @@ export default function PrayerLessonScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={tk.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.headerTitleText} numberOfLines={1}>
@@ -446,7 +448,7 @@ export default function PrayerLessonScreen() {
           })}
           accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
         >
-          <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+          <Ionicons name="paper-plane-outline" size={22} color={tk.accent} />
         </Pressable>
         <View style={styles.headerNav}>
           <Pressable
@@ -520,7 +522,7 @@ export default function PrayerLessonScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: tk.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -529,7 +531,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   loadingText: {
-    color: '#94a3b8',
+    color: tk.textMuted,
     fontSize: 14,
   },
   header: {
@@ -538,7 +540,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: tk.border,
   },
   backButton: {
     padding: 8,
@@ -550,11 +552,13 @@ const styles = StyleSheet.create({
   headerTitleText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: tk.text,
   },
   headerTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
-    color: '#D4AF37',
+    color: tk.sacred,
     marginTop: 1,
   },
   headerNav: {
@@ -565,8 +569,8 @@ const styles = StyleSheet.create({
   navButton: {
     width: 30,
     height: 30,
-    borderRadius: 15,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.lg,
+    backgroundColor: tk.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -574,7 +578,7 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   lessonNumber: {
-    color: '#64748b',
+    color: tk.textFaint,
     fontSize: 12,
     minWidth: 32,
     textAlign: 'center',
@@ -593,31 +597,33 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#10b981',
+    color: tk.progress,
     marginBottom: 10,
   },
   sectionTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: tk.sacred,
     marginBottom: 10,
   },
   textContent: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: tk.text,
     lineHeight: 22,
   },
 
   // Description Card
   descriptionCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: tk.surface,
+    borderRadius: radius.md,
     marginBottom: 16,
     overflow: 'hidden',
   },
   descriptionBorder: {
     width: 4,
-    backgroundColor: '#10b981',
+    backgroundColor: tk.progress,
   },
   descriptionContent: {
     flex: 1,
@@ -633,43 +639,46 @@ const styles = StyleSheet.create({
   descriptionTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: tk.text,
   },
   descriptionTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: tk.sacred,
   },
   arabicTextContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 8,
+    backgroundColor: tk.bg,
+    borderRadius: radius.sm,
     padding: 12,
     marginBottom: 10,
     gap: 8,
   },
   arabicText: {
+    fontFamily: font.arabic,
     fontSize: 20,
-    color: '#D4AF37',
+    color: tk.sacred,
     textAlign: 'center',
     lineHeight: 34,
     flex: 1,
   },
   descriptionText: {
     fontSize: 14,
-    color: '#cbd5e1',
+    color: tk.textMuted,
     lineHeight: 22,
   },
 
   // Rule Card
   ruleCard: {
-    backgroundColor: '#10b98110',
-    borderRadius: 12,
+    backgroundColor: withAlpha(tk.progress, 0.06),
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(tk.progress, 0.19),
   },
   ruleHeader: {
     flexDirection: 'row',
@@ -680,22 +689,22 @@ const styles = StyleSheet.create({
   ruleTitle: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#10b981',
+    color: tk.progress,
   },
   ruleContent: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: tk.text,
     lineHeight: 22,
   },
 
   // Note Card
   noteCard: {
-    backgroundColor: '#f59e0b10',
-    borderRadius: 12,
+    backgroundColor: withAlpha(tk.warning, 0.06),
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#f59e0b30',
+    borderColor: withAlpha(tk.warning, 0.19),
   },
   noteHeader: {
     flexDirection: 'row',
@@ -706,11 +715,11 @@ const styles = StyleSheet.create({
   noteTitle: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#f59e0b',
+    color: tk.warning,
   },
   noteContent: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: tk.text,
     lineHeight: 22,
   },
 
@@ -723,13 +732,13 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
   },
   tableContainer: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: tk.surface,
+    borderRadius: radius.md,
     overflow: 'hidden',
   },
   tableHeaderRow: {
     flexDirection: 'row',
-    backgroundColor: '#334155',
+    backgroundColor: tk.surfaceRaised,
     paddingVertical: 10,
     paddingHorizontal: 12,
   },
@@ -738,10 +747,10 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: tk.border,
   },
   tableRowAlt: {
-    backgroundColor: '#1e293b80',
+    backgroundColor: withAlpha(tk.surface, 0.5),
   },
   tableCell: {
     flex: 1,
@@ -751,11 +760,11 @@ const styles = StyleSheet.create({
   tableHeaderText: {
     fontSize: 11,
     fontWeight: '700',
-    color: '#94a3b8',
+    color: tk.textMuted,
   },
   tableCellText: {
     fontSize: 11,
-    color: '#cbd5e1',
+    color: tk.textMuted,
     lineHeight: 16,
   },
 
@@ -764,8 +773,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   exampleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: tk.surface,
+    borderRadius: radius.sm,
     padding: 14,
   },
   exampleArabicRow: {
@@ -776,32 +785,33 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   exampleArabic: {
+    fontFamily: font.arabic,
     fontSize: 18,
-    color: '#D4AF37',
+    color: tk.sacred,
     textAlign: 'center',
     lineHeight: 30,
   },
   exampleTransliteration: {
     fontSize: 13,
     fontStyle: 'italic',
-    color: '#94a3b8',
+    color: tk.textMuted,
     textAlign: 'center',
     marginBottom: 4,
   },
   exampleTranslation: {
     fontSize: 13,
-    color: '#cbd5e1',
+    color: tk.textMuted,
     textAlign: 'center',
   },
 
   // Prayer Step Card
   prayerStepCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: tk.surface,
+    borderRadius: radius.md,
     padding: 18,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: tk.border,
   },
   prayerStepHeader: {
     flexDirection: 'row',
@@ -812,15 +822,15 @@ const styles = StyleSheet.create({
   prayerStepBadge: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(tk.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   prayerStepBadgeText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#10b981',
+    color: tk.progress,
   },
   prayerStepNames: {
     flex: 1,
@@ -828,15 +838,17 @@ const styles = StyleSheet.create({
   prayerStepName: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#ffffff',
+    color: tk.text,
   },
   prayerStepNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: tk.sacred,
     marginTop: 1,
   },
   sunnahBadge: {
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(tk.sacred, 0.13),
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderRadius: 6,
@@ -844,22 +856,23 @@ const styles = StyleSheet.create({
   sunnahBadgeText: {
     fontSize: 9,
     fontWeight: '800',
-    color: '#D4AF37',
+    color: tk.sacred,
     letterSpacing: 0.5,
   },
   prayerStepArabicContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 10,
+    backgroundColor: tk.bg,
+    borderRadius: radius.sm,
     padding: 16,
     marginBottom: 10,
     gap: 10,
   },
   prayerStepArabic: {
+    fontFamily: font.arabic,
     fontSize: 22,
-    color: '#D4AF37',
+    color: tk.sacred,
     textAlign: 'center',
     lineHeight: 38,
     flex: 1,
@@ -870,13 +883,13 @@ const styles = StyleSheet.create({
   prayerStepTransliteration: {
     fontSize: 14,
     fontStyle: 'italic',
-    color: '#94a3b8',
+    color: tk.textMuted,
     textAlign: 'center',
     marginBottom: 6,
   },
   prayerStepTranslation: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: tk.text,
     textAlign: 'center',
     marginBottom: 10,
   },
@@ -885,28 +898,28 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 6,
-    backgroundColor: '#10b98115',
+    backgroundColor: withAlpha(tk.progress, 0.08),
     paddingVertical: 6,
     paddingHorizontal: 12,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignSelf: 'center',
     marginBottom: 10,
   },
   repetitionText: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#10b981',
+    color: tk.progress,
   },
   instructionBox: {
     flexDirection: 'row',
-    backgroundColor: '#334155',
-    borderRadius: 8,
+    backgroundColor: tk.surfaceRaised,
+    borderRadius: radius.sm,
     padding: 12,
     gap: 8,
   },
   instructionText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: tk.textMuted,
     lineHeight: 20,
     flex: 1,
   },
@@ -926,13 +939,13 @@ const styles = StyleSheet.create({
     top: 32,
     bottom: -6,
     width: 2,
-    backgroundColor: '#334155',
+    backgroundColor: tk.surfaceRaised,
   },
   stepListNumber: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(tk.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
@@ -941,12 +954,12 @@ const styles = StyleSheet.create({
   stepListNumberText: {
     fontSize: 13,
     fontWeight: 'bold',
-    color: '#10b981',
+    color: tk.progress,
   },
   stepListContent: {
     flex: 1,
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: tk.surface,
+    borderRadius: radius.sm,
     padding: 12,
   },
   stepListTitleRow: {
@@ -959,15 +972,17 @@ const styles = StyleSheet.create({
   stepListTitle: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#ffffff',
+    color: tk.text,
   },
   stepListTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
-    color: '#D4AF37',
+    color: tk.sacred,
   },
   stepListDescription: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: tk.textMuted,
     lineHeight: 20,
   },
   stepListArabicContainer: {
@@ -975,25 +990,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 6,
     marginTop: 8,
-    backgroundColor: '#0f172a',
+    backgroundColor: tk.bg,
     borderRadius: 6,
     padding: 8,
   },
   stepListArabic: {
+    fontFamily: font.arabic,
     fontSize: 16,
-    color: '#D4AF37',
+    color: tk.sacred,
     flex: 1,
     lineHeight: 28,
   },
   stepListTransliteration: {
     fontSize: 12,
     fontStyle: 'italic',
-    color: '#94a3b8',
+    color: tk.textMuted,
     marginTop: 4,
   },
   stepListTranslation: {
     fontSize: 12,
-    color: '#cbd5e1',
+    color: tk.textMuted,
     marginTop: 2,
   },
 
@@ -1002,8 +1018,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   prayerTimeCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: tk.surface,
+    borderRadius: radius.sm,
     padding: 14,
     borderLeftWidth: 4,
   },
@@ -1019,8 +1035,10 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
   prayerTimeArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: tk.sacred,
   },
   rakaatBadge: {
     marginLeft: 'auto',
@@ -1047,7 +1065,7 @@ const styles = StyleSheet.create({
   },
   prayerTimeDetailText: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: tk.textMuted,
     flexShrink: 1,
   },
   sunnahRow: {
@@ -1058,11 +1076,11 @@ const styles = StyleSheet.create({
     marginTop: 8,
     paddingTop: 8,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: tk.border,
   },
   sunnahText: {
     fontSize: 11,
-    color: '#10b981',
+    color: tk.progress,
     fontStyle: 'italic',
     flexShrink: 1,
   },
@@ -1072,24 +1090,24 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: tk.surface,
+    borderRadius: radius.md,
     paddingVertical: 16,
     gap: 10,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: tk.border,
     marginTop: 8,
   },
   completeButtonActive: {
-    backgroundColor: '#10b98120',
-    borderColor: '#10b98140',
+    backgroundColor: withAlpha(tk.progress, 0.13),
+    borderColor: withAlpha(tk.progress, 0.25),
   },
   completeButtonText: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: tk.textMuted,
   },
   completeButtonTextActive: {
-    color: '#10b981',
+    color: tk.progress,
   },
 });

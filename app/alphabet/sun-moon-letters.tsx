@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 // Sun Letters (الحروف الشمسية) - 14 letters
@@ -54,7 +56,7 @@ export default function SunMoonLettersScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('alphabet.sunMoonLetters')}</Text>
@@ -65,7 +67,7 @@ export default function SunMoonLettersScreen() {
         {/* Explanation Card */}
         <View style={styles.explanationCard}>
           <View style={styles.explanationHeader}>
-            <Ionicons name="information-circle" size={24} color="#6366f1" />
+            <Ionicons name="information-circle" size={24} color={color.accentStrong} />
             <Text style={styles.explanationTitle}>{t('alphabet.whatAreSunMoon')}</Text>
           </View>
           <Text style={styles.explanationText}>
@@ -73,13 +75,13 @@ export default function SunMoonLettersScreen() {
           </Text>
           <View style={styles.ruleBox}>
             <View style={styles.ruleItem}>
-              <Ionicons name="sunny" size={20} color="#f59e0b" />
+              <Ionicons name="sunny" size={20} color={color.warning} />
               <Text style={styles.ruleText}>
                 <Text style={styles.ruleBold}>{t('alphabet.sunLetters')}:</Text> {t('alphabet.sunLettersRule')}
               </Text>
             </View>
             <View style={styles.ruleItem}>
-              <Ionicons name="moon" size={20} color="#a5b4fc" />
+              <Ionicons name="moon" size={20} color={color.accent} />
               <Text style={styles.ruleText}>
                 <Text style={styles.ruleBold}>{t('alphabet.moonLetters')}:</Text> {t('alphabet.moonLettersRule')}
               </Text>
@@ -91,7 +93,7 @@ export default function SunMoonLettersScreen() {
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
             <View style={styles.sectionIconContainer}>
-              <Ionicons name="sunny" size={28} color="#f59e0b" />
+              <Ionicons name="sunny" size={28} color={color.warning} />
             </View>
             <View>
               <Text style={styles.sectionTitle}>{t('alphabet.sunLetters')}</Text>
@@ -121,7 +123,7 @@ export default function SunMoonLettersScreen() {
                     style={[styles.audioBtn, styles.sunAudioBtn]}
                     onPress={() => speak(item.example)}
                   >
-                    <Ionicons name="volume-medium" size={14} color="#f59e0b" />
+                    <Ionicons name="volume-medium" size={14} color={color.warning} />
                   </Pressable>
                 </View>
                 <Text style={styles.letterName}>{item.name}</Text>
@@ -139,7 +141,7 @@ export default function SunMoonLettersScreen() {
         <View style={[styles.section, { marginBottom: 100 }]}>
           <View style={styles.sectionHeader}>
             <View style={[styles.sectionIconContainer, styles.moonIconContainer]}>
-              <Ionicons name="moon" size={28} color="#a5b4fc" />
+              <Ionicons name="moon" size={28} color={color.accent} />
             </View>
             <View>
               <Text style={styles.sectionTitle}>{t('alphabet.moonLetters')}</Text>
@@ -169,7 +171,7 @@ export default function SunMoonLettersScreen() {
                     style={[styles.audioBtn, styles.moonAudioBtn]}
                     onPress={() => speak(item.example)}
                   >
-                    <Ionicons name="volume-medium" size={14} color="#a5b4fc" />
+                    <Ionicons name="volume-medium" size={14} color={color.accent} />
                   </Pressable>
                 </View>
                 <Text style={styles.letterName}>{item.name}</Text>
@@ -186,7 +188,7 @@ export default function SunMoonLettersScreen() {
         {/* Mnemonic Card */}
         <View style={[styles.mnemonicCard, { marginBottom: 100 }]}>
           <View style={styles.mnemonicHeader}>
-            <Ionicons name="bulb" size={24} color="#D4AF37" />
+            <Ionicons name="bulb" size={24} color={color.sacred} />
             <Text style={styles.mnemonicTitle}>{t('alphabet.memoryTip')}</Text>
           </View>
           <Text style={styles.mnemonicText}>
@@ -204,7 +206,7 @@ export default function SunMoonLettersScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -216,8 +218,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -228,21 +230,23 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 4,
   },
   explanationCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 24,
     borderWidth: 1,
-    borderColor: '#6366f140',
+    borderColor: withAlpha(color.accentStrong, 0.25),
   },
   explanationHeader: {
     flexDirection: 'row',
@@ -252,22 +256,22 @@ const styles = StyleSheet.create({
   explanationTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginLeft: 10,
   },
   explanationText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
     marginBottom: 16,
   },
   highlight: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
   },
   ruleBox: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 16,
   },
   ruleItem: {
@@ -276,7 +280,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   ruleText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 14,
     marginLeft: 12,
     flex: 1,
@@ -284,7 +288,7 @@ const styles = StyleSheet.create({
   },
   ruleBold: {
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   section: {
     paddingHorizontal: 20,
@@ -298,54 +302,56 @@ const styles = StyleSheet.create({
   sectionIconContainer: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#f59e0b20',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.warning, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 14,
   },
   moonIconContainer: {
-    backgroundColor: '#a5b4fc20',
+    backgroundColor: withAlpha(color.accent, 0.13),
   },
   sectionTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   sectionTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 2,
   },
   badge: {
     marginLeft: 'auto',
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
     paddingHorizontal: 12,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   moonBadge: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
   },
   badgeText: {
-    color: '#ffffff',
+    color: color.text,
     fontWeight: 'bold',
     fontSize: 14,
   },
   sectionNote: {
-    backgroundColor: '#f59e0b15',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.warning, 0.08),
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 16,
     borderLeftWidth: 4,
-    borderLeftColor: '#f59e0b',
+    borderLeftColor: color.warning,
   },
   moonNote: {
-    backgroundColor: '#6366f115',
-    borderLeftColor: '#6366f1',
+    backgroundColor: withAlpha(color.accentStrong, 0.08),
+    borderLeftColor: color.accentStrong,
   },
   noteText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 13,
     lineHeight: 20,
   },
@@ -356,17 +362,17 @@ const styles = StyleSheet.create({
   },
   letterCard: {
     width: (SCREEN_WIDTH - 52) / 2,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 14,
     margin: 6,
     borderWidth: 2,
   },
   sunCard: {
-    borderColor: '#f59e0b40',
+    borderColor: withAlpha(color.warning, 0.25),
   },
   moonCard: {
-    borderColor: '#6366f140',
+    borderColor: withAlpha(color.accentStrong, 0.25),
   },
   letterMain: {
     flexDirection: 'row',
@@ -375,59 +381,63 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   letterArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 71,
     fontSize: 42,
-    color: '#ffffff',
+    color: color.text,
   },
   audioBtn: {
     width: 28,
     height: 28,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
   sunAudioBtn: {
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
   },
   moonAudioBtn: {
-    backgroundColor: '#6366f120',
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
   },
   letterName: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 10,
   },
   exampleContainer: {
-    backgroundColor: '#f59e0b10',
-    borderRadius: 10,
+    backgroundColor: withAlpha(color.warning, 0.06),
+    borderRadius: radius.sm,
     padding: 10,
   },
   moonExample: {
-    backgroundColor: '#6366f110',
+    backgroundColor: withAlpha(color.accentStrong, 0.06),
   },
   exampleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 4,
   },
   exampleTrans: {
     fontSize: 11,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
     marginBottom: 2,
   },
   exampleMeaning: {
     fontSize: 10,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
   },
   mnemonicCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 20,
     borderWidth: 2,
-    borderColor: '#D4AF3740',
+    borderColor: withAlpha(color.sacred, 0.25),
   },
   mnemonicHeader: {
     flexDirection: 'row',
@@ -437,16 +447,17 @@ const styles = StyleSheet.create({
   mnemonicTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginLeft: 10,
   },
   mnemonicText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 22,
   },
   mnemonicArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    color: color.sacred,
     fontSize: 16,
     lineHeight: 28,
   },

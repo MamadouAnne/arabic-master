@@ -8,6 +8,7 @@ import { AIQuizPromptModal, QuizGenRequest } from './AIQuizPromptModal';
 import { generateQuiz } from '../../../services/aiQuizService';
 import { listCurriculum, getCurriculumDigest } from '../../../data/arabic/curriculumSource';
 import { useSettingsStore } from '../../../stores/settingsStore';
+import { color, radius } from '../../../theme/tokens';
 
 interface Props {
   visible: boolean;
@@ -107,7 +108,7 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top']}>
         <View style={styles.header}>
-          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
+          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color={color.text} /></Pressable>
           <Text style={styles.headerTitle}>{initial ? 'Edit quiz' : 'New quiz'}</Text>
           <Pressable onPress={() => setAiOpen(true)} style={styles.aiBtn} hitSlop={6}>
             <Ionicons name="sparkles" size={18} color={groupColor} />
@@ -127,7 +128,7 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                 <Text style={styles.aiCtaSub}>{t('community.fromChatOrTopic')}</Text>
               </Pressable>
             )}
-            <TextInput style={styles.titleInput} placeholder={t('community.quizTitlePlaceholder')} placeholderTextColor="#475569" value={title} onChangeText={setTitle} multiline />
+            <TextInput style={styles.titleInput} placeholder={t('community.quizTitlePlaceholder')} placeholderTextColor={color.textFaint} value={title} onChangeText={setTitle} multiline />
 
             {questions.map((q, qi) => (
               <View key={q.id} style={styles.qCard}>
@@ -143,12 +144,12 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                   </View>
                   {questions.length > 1 && (
                     <Pressable onPress={() => setQuestions((prev) => prev.filter((_, k) => k !== qi))} hitSlop={6}>
-                      <Ionicons name="trash-outline" size={16} color="#ef4444" />
+                      <Ionicons name="trash-outline" size={16} color={color.danger} />
                     </Pressable>
                   )}
                 </View>
 
-                <TextInput style={styles.promptInput} placeholder={t('community.questionPlaceholder')} placeholderTextColor="#475569" value={q.prompt} onChangeText={(t) => patch(qi, { prompt: t })} multiline />
+                <TextInput style={styles.promptInput} placeholder={t('community.questionPlaceholder')} placeholderTextColor={color.textFaint} value={q.prompt} onChangeText={(t) => patch(qi, { prompt: t })} multiline />
 
                 {q.type === 'multiple_choice' ? (
                   <View style={styles.options}>
@@ -157,9 +158,9 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                         <Pressable onPress={() => patch(qi, { correctIndex: oi })} hitSlop={6}>
                           <Ionicons name={q.correctIndex === oi ? 'checkmark-circle' : 'ellipse-outline'} size={22} color={q.correctIndex === oi ? '#10b981' : '#475569'} />
                         </Pressable>
-                        <TextInput style={styles.optInput} placeholder={`Option ${oi + 1}`} placeholderTextColor="#475569" value={opt} onChangeText={(t) => setOption(qi, oi, t)} />
+                        <TextInput style={styles.optInput} placeholder={`Option ${oi + 1}`} placeholderTextColor={color.textFaint} value={opt} onChangeText={(t) => setOption(qi, oi, t)} />
                         {(q.options || []).length > 2 && (
-                          <Pressable onPress={() => removeOption(qi, oi)} hitSlop={6}><Ionicons name="close" size={18} color="#64748b" /></Pressable>
+                          <Pressable onPress={() => removeOption(qi, oi)} hitSlop={6}><Ionicons name="close" size={18} color={color.textFaint} /></Pressable>
                         )}
                       </View>
                     ))}
@@ -172,10 +173,10 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                     <Text style={styles.hintText}>{t('community.markCorrectHint')}</Text>
                   </View>
                 ) : (
-                  <TextInput style={styles.answerInput} placeholder={t('community.correctAnswerPlaceholder')} placeholderTextColor="#475569" value={q.correctText || ''} onChangeText={(t) => patch(qi, { correctText: t })} />
+                  <TextInput style={styles.answerInput} placeholder={t('community.correctAnswerPlaceholder')} placeholderTextColor={color.textFaint} value={q.correctText || ''} onChangeText={(t) => patch(qi, { correctText: t })} />
                 )}
 
-                <TextInput style={styles.explInput} placeholder={t('community.explanationPlaceholder')} placeholderTextColor="#475569" value={q.explanation || ''} onChangeText={(t) => patch(qi, { explanation: t })} multiline />
+                <TextInput style={styles.explInput} placeholder={t('community.explanationPlaceholder')} placeholderTextColor={color.textFaint} value={q.explanation || ''} onChangeText={(t) => patch(qi, { explanation: t })} multiline />
               </View>
             ))}
 
@@ -204,34 +205,34 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   flex: { flex: 1 },
-  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: '#f8fafc' },
-  aiBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 7, borderRadius: 11, backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155', marginRight: 8 },
+  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: color.text },
+  aiBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 7, borderRadius: radius.md, backgroundColor: color.surface, borderWidth: 1, borderColor: color.border, marginRight: 8 },
   aiBtnText: { fontWeight: '800', fontSize: 13 },
-  aiCta: { alignItems: 'center', gap: 3, paddingVertical: 16, borderRadius: 14, borderWidth: 1.5, borderStyle: 'dashed', marginBottom: 16, backgroundColor: '#131c2e' },
+  aiCta: { alignItems: 'center', gap: 3, paddingVertical: 16, borderRadius: radius.md, borderWidth: 1.5, borderStyle: 'dashed', marginBottom: 16, backgroundColor: color.surface },
   aiCtaText: { fontSize: 15, fontWeight: '800' },
-  aiCtaSub: { fontSize: 12, color: '#64748b' },
-  saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12 },
-  saveText: { color: '#ffffff', fontWeight: '700', fontSize: 14 },
+  aiCtaSub: { fontSize: 12, color: color.textFaint },
+  saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
+  saveText: { color: color.text, fontWeight: '700', fontSize: 14 },
   scroll: { padding: 16 },
-  titleInput: { fontSize: 24, fontWeight: '800', color: '#f8fafc', paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b', marginBottom: 16 },
-  qCard: { backgroundColor: '#131c2e', borderRadius: 14, borderWidth: 1, borderColor: '#1e293b', padding: 12, marginBottom: 14 },
+  titleInput: { fontSize: 24, fontWeight: '800', color: color.text, paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 16 },
+  qCard: { backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.borderSubtle, padding: 12, marginBottom: 14 },
   qBar: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 8 },
   qNum: { fontSize: 14, fontWeight: '800' },
   qTypeToggle: { flex: 1, flexDirection: 'row', gap: 4 },
-  qTypeBtn: { paddingHorizontal: 10, paddingVertical: 4, borderRadius: 8, backgroundColor: '#1e293b' },
-  qTypeText: { fontSize: 12, fontWeight: '600', color: '#64748b' },
-  promptInput: { fontSize: 16, fontWeight: '600', color: '#f1f5f9', lineHeight: 22, marginBottom: 10, padding: 0 },
+  qTypeBtn: { paddingHorizontal: 10, paddingVertical: 4, borderRadius: radius.sm, backgroundColor: color.surface },
+  qTypeText: { fontSize: 12, fontWeight: '600', color: color.textFaint },
+  promptInput: { fontSize: 16, fontWeight: '600', color: color.text, lineHeight: 22, marginBottom: 10, padding: 0 },
   options: { gap: 8 },
   optRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
-  optInput: { flex: 1, backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 8, fontSize: 15, color: '#e2e8f0', borderWidth: 1, borderColor: '#334155' },
+  optInput: { flex: 1, backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 8, fontSize: 15, color: color.text, borderWidth: 1, borderColor: color.border },
   addOpt: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingVertical: 4 },
   addOptText: { fontSize: 13, fontWeight: '600' },
-  hintText: { fontSize: 11, color: '#64748b', marginTop: 2 },
-  answerInput: { backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, fontSize: 15, color: '#e2e8f0', borderWidth: 1, borderColor: '#334155' },
-  explInput: { fontSize: 13, color: '#94a3b8', marginTop: 10, backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#1e293b' },
-  addQ: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 12, borderRadius: 12, borderWidth: 1, borderColor: '#334155', borderStyle: 'dashed' },
+  hintText: { fontSize: 11, color: color.textFaint, marginTop: 2 },
+  answerInput: { backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 10, fontSize: 15, color: color.text, borderWidth: 1, borderColor: color.border },
+  explInput: { fontSize: 13, color: color.textMuted, marginTop: 10, backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: color.borderSubtle },
+  addQ: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 12, borderRadius: radius.md, borderWidth: 1, borderColor: color.border, borderStyle: 'dashed' },
   addQText: { fontSize: 14, fontWeight: '700' },
 });

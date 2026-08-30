@@ -8,6 +8,8 @@ import {
   AudioModule,
   setAudioModeAsync,
 } from 'expo-audio';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface Props {
   onSend: (uri: string, durationMs: number, waveform: number[]) => void;
@@ -106,29 +108,29 @@ export function VoiceRecorder({ onSend, onCancel }: Props) {
   return (
     <View style={styles.container}>
       <Pressable style={styles.cancelBtn} onPress={() => finish(true)}>
-        <Ionicons name="trash" size={20} color="#ef4444" />
+        <Ionicons name="trash" size={20} color={color.danger} />
       </Pressable>
 
       <Animated.View style={[styles.pulseCircle, { transform: [{ scale: pulseAnim }] }]}>
         <View style={styles.recordDot} />
       </Animated.View>
 
-      <Text style={[styles.timer, maxReached && { color: '#ef4444' }]}>{timeStr}</Text>
+      <Text style={[styles.timer, maxReached && { color: color.danger }]}>{timeStr}</Text>
       <Text style={styles.maxLabel}>{maxReached ? 'Max reached' : '/1:00'}</Text>
 
       <Pressable style={styles.sendBtn} onPress={() => finish(false)}>
-        <Ionicons name="send" size={18} color="#ffffff" />
+        <Ionicons name="send" size={18} color={color.text} />
       </Pressable>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 12, paddingVertical: 10, backgroundColor: '#1e293b', borderTopWidth: 1, borderTopColor: '#334155' },
-  cancelBtn: { width: 42, height: 42, borderRadius: 21, backgroundColor: '#ef444420', alignItems: 'center', justifyContent: 'center' },
-  pulseCircle: { width: 16, height: 16, borderRadius: 8, backgroundColor: '#ef444440', alignItems: 'center', justifyContent: 'center' },
-  recordDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: '#ef4444' },
-  timer: { fontSize: 18, fontWeight: '700', color: '#ffffff', fontVariant: ['tabular-nums'] },
-  maxLabel: { fontSize: 12, color: '#64748b', flex: 1 },
-  sendBtn: { width: 42, height: 42, borderRadius: 21, backgroundColor: '#818cf8', alignItems: 'center', justifyContent: 'center' },
+  container: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 12, paddingVertical: 10, backgroundColor: color.surface, borderTopWidth: 1, borderTopColor: color.border },
+  cancelBtn: { width: 42, height: 42, borderRadius: radius.xl, backgroundColor: withAlpha(color.danger, 0.13), alignItems: 'center', justifyContent: 'center' },
+  pulseCircle: { width: 16, height: 16, borderRadius: radius.sm, backgroundColor: withAlpha(color.danger, 0.25), alignItems: 'center', justifyContent: 'center' },
+  recordDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: color.danger },
+  timer: { fontSize: 18, fontWeight: '700', color: color.text, fontVariant: ['tabular-nums'] },
+  maxLabel: { fontSize: 12, color: color.textFaint, flex: 1 },
+  sendBtn: { width: 42, height: 42, borderRadius: radius.xl, backgroundColor: color.accent, alignItems: 'center', justifyContent: 'center' },
 });

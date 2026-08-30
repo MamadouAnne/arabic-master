@@ -6,6 +6,7 @@ import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import { BoardCanvas, boardContentHeight } from './BoardCanvas';
 import type { BoardContent } from '../../../types/classContent';
 import { BOARD_BG } from '../../../types/classContent';
+import { color } from '../../../theme/tokens';
 
 interface Props {
   visible: boolean;
@@ -33,7 +34,7 @@ export function BoardViewer({ visible, board, groupColor, authorName, canEdit, o
       <SafeAreaProvider style={{ flex: 1 }}>
         <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
           <View style={styles.header}>
-            <Pressable onPress={onClose} hitSlop={8}><Ionicons name="chevron-down" size={26} color="#e2e8f0" /></Pressable>
+            <Pressable onPress={onClose} hitSlop={8}><Ionicons name="chevron-down" size={26} color={color.text} /></Pressable>
             <Text style={styles.headerLabel}>{t('community.boardBy', { author: authorName })}</Text>
             {canEdit ? (
               <Pressable onPress={onEdit} hitSlop={8} style={styles.editBtn}>
@@ -60,9 +61,9 @@ export function BoardViewer({ visible, board, groupColor, authorName, canEdit, o
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0b1220' },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 10, backgroundColor: '#0f172a', borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  headerLabel: { fontSize: 13, fontWeight: '700', color: '#94a3b8', textTransform: 'uppercase', letterSpacing: 1 },
+  container: { flex: 1, backgroundColor: color.bg },
+  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 10, backgroundColor: color.bg, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  headerLabel: { fontSize: 13, fontWeight: '700', color: color.textMuted, textTransform: 'uppercase', letterSpacing: 1 },
   editBtn: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   editText: { fontSize: 14, fontWeight: '600' },
 });

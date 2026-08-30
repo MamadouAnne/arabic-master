@@ -5,6 +5,7 @@ import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import { signUpWithEmail, signInWithEmail, resetPassword, signInWithGoogle, signInWithApple } from '../src/services/authService';
+import { color, radius } from '../src/theme/tokens';
 
 // Feature flag: set to true once Google/Apple OAuth credentials are configured
 const ENABLE_SOCIAL_LOGIN = false;
@@ -228,11 +229,11 @@ export default function AuthScreen() {
             {/* Full Name (signup only) */}
             {isSignUp && (
               <View style={styles.inputBox}>
-                <Ionicons name="person-outline" size={20} color="#64748b" />
+                <Ionicons name="person-outline" size={20} color={color.textFaint} />
                 <TextInput
                   style={styles.input}
                   placeholder={t('auth.fullName')}
-                  placeholderTextColor="#475569"
+                  placeholderTextColor={color.textFaint}
                   value={fullName}
                   onChangeText={setFullName}
                   autoCapitalize="words"
@@ -244,11 +245,11 @@ export default function AuthScreen() {
 
             {/* Email */}
             <View style={styles.inputBox}>
-              <Ionicons name="mail-outline" size={20} color="#64748b" />
+              <Ionicons name="mail-outline" size={20} color={color.textFaint} />
               <TextInput
                 style={styles.input}
                 placeholder={t('auth.email')}
-                placeholderTextColor="#475569"
+                placeholderTextColor={color.textFaint}
                 value={email}
                 onChangeText={setEmail}
                 keyboardType="email-address"
@@ -261,11 +262,11 @@ export default function AuthScreen() {
             {/* Confirm Email (signup only) */}
             {isSignUp && (
               <View style={styles.inputBox}>
-                <Ionicons name="mail-outline" size={20} color="#64748b" />
+                <Ionicons name="mail-outline" size={20} color={color.textFaint} />
                 <TextInput
                   style={styles.input}
                   placeholder={t('auth.confirmEmail')}
-                  placeholderTextColor="#475569"
+                  placeholderTextColor={color.textFaint}
                   value={confirmEmail}
                   onChangeText={setConfirmEmail}
                   keyboardType="email-address"
@@ -277,11 +278,11 @@ export default function AuthScreen() {
 
             {/* Password */}
             <View style={styles.inputBox}>
-              <Ionicons name="lock-closed-outline" size={20} color="#64748b" />
+              <Ionicons name="lock-closed-outline" size={20} color={color.textFaint} />
               <TextInput
                 style={styles.input}
                 placeholder={t('auth.password')}
-                placeholderTextColor="#475569"
+                placeholderTextColor={color.textFaint}
                 value={password}
                 onChangeText={setPassword}
                 secureTextEntry={!showPassword}
@@ -294,18 +295,18 @@ export default function AuthScreen() {
                 accessibilityRole="button"
                 accessibilityLabel={showPassword ? "Hide password" : "Show password"}
               >
-                <Ionicons name={showPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color="#64748b" />
+                <Ionicons name={showPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color={color.textFaint} />
               </TouchableOpacity>
             </View>
 
             {/* Confirm Password (signup only) */}
             {isSignUp && (
               <View style={styles.inputBox}>
-                <Ionicons name="shield-checkmark-outline" size={20} color="#64748b" />
+                <Ionicons name="shield-checkmark-outline" size={20} color={color.textFaint} />
                 <TextInput
                   style={styles.input}
                   placeholder={t('auth.confirmPassword')}
-                  placeholderTextColor="#475569"
+                  placeholderTextColor={color.textFaint}
                   value={confirmPassword}
                   onChangeText={setConfirmPassword}
                   secureTextEntry={!showConfirmPassword}
@@ -318,7 +319,7 @@ export default function AuthScreen() {
                   accessibilityRole="button"
                   accessibilityLabel={showConfirmPassword ? "Hide confirm password" : "Show confirm password"}
                 >
-                  <Ionicons name={showConfirmPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color="#64748b" />
+                  <Ionicons name={showConfirmPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color={color.textFaint} />
                 </TouchableOpacity>
               </View>
             )}
@@ -345,14 +346,14 @@ export default function AuthScreen() {
               accessibilityLabel={isSignUp ? t('auth.signUp') : t('auth.signIn')}
             >
               {loading ? (
-                <ActivityIndicator color="#ffffff" />
+                <ActivityIndicator color={color.text} />
               ) : (
                 <>
                   <Text style={styles.submitText}>
                     {isSignUp ? t('auth.signUp') : t('auth.signIn')}
                   </Text>
                   <View style={styles.submitIcon}>
-                    <Ionicons name="arrow-forward" size={18} color="#D4AF37" />
+                    <Ionicons name="arrow-forward" size={18} color={color.sacred} />
                   </View>
                 </>
               )}
@@ -398,10 +399,10 @@ export default function AuthScreen() {
                 accessibilityLabel={t('auth.continueWithGoogle')}
               >
                 {socialLoading === 'google' ? (
-                  <ActivityIndicator color="#ffffff" size="small" />
+                  <ActivityIndicator color={color.text} size="small" />
                 ) : (
                   <>
-                    <Ionicons name="logo-google" size={20} color="#ffffff" />
+                    <Ionicons name="logo-google" size={20} color={color.text} />
                     <Text style={styles.socialText}>{t('auth.continueWithGoogle')}</Text>
                   </>
                 )}
@@ -417,10 +418,10 @@ export default function AuthScreen() {
                   accessibilityLabel={t('auth.continueWithApple')}
                 >
                   {socialLoading === 'apple' ? (
-                    <ActivityIndicator color="#ffffff" size="small" />
+                    <ActivityIndicator color={color.text} size="small" />
                   ) : (
                     <>
-                      <Ionicons name="logo-apple" size={22} color="#ffffff" />
+                      <Ionicons name="logo-apple" size={22} color={color.text} />
                       <Text style={styles.socialText}>{t('auth.continueWithApple')}</Text>
                     </>
                   )}
@@ -462,16 +463,16 @@ export default function AuthScreen() {
         <View style={styles.modalOverlay}>
           <View style={styles.modalCard}>
             <View style={styles.modalHeader}>
-              <Ionicons name="mail-outline" size={32} color="#818cf8" />
+              <Ionicons name="mail-outline" size={32} color={color.accent} />
               <Text style={styles.modalTitle}>{t('auth.resetPassword')}</Text>
               <Text style={styles.modalDesc}>{t('auth.resetPasswordDesc')}</Text>
             </View>
             <View style={styles.inputBox}>
-              <Ionicons name="mail-outline" size={20} color="#64748b" />
+              <Ionicons name="mail-outline" size={20} color={color.textFaint} />
               <TextInput
                 style={styles.input}
                 placeholder={t('auth.email')}
-                placeholderTextColor="#475569"
+                placeholderTextColor={color.textFaint}
                 value={resetEmail}
                 onChangeText={setResetEmail}
                 keyboardType="email-address"
@@ -488,7 +489,7 @@ export default function AuthScreen() {
               accessibilityLabel={t('auth.sendResetLink')}
             >
               {loading ? (
-                <ActivityIndicator color="#ffffff" />
+                <ActivityIndicator color={color.text} />
               ) : (
                 <Text style={styles.submitText}>{t('auth.sendResetLink')}</Text>
               )}
@@ -511,7 +512,7 @@ export default function AuthScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   keyboardView: {
     flex: 1,
@@ -536,21 +537,21 @@ const styles = StyleSheet.create({
     marginBottom: -10,
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 2,
   },
   headerSubtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
   },
 
   // Form card
   formCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 16,
     marginBottom: 10,
   },
@@ -558,27 +559,27 @@ const styles = StyleSheet.create({
   // Toggle
   toggleRow: {
     flexDirection: 'row',
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 4,
     marginBottom: 14,
   },
   toggleButton: {
     flex: 1,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     alignItems: 'center',
   },
   toggleActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   toggleText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 15,
     fontWeight: '600',
   },
   toggleTextActive: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontWeight: '700',
   },
 
@@ -586,24 +587,24 @@ const styles = StyleSheet.create({
   inputBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     paddingHorizontal: 14,
     marginBottom: 12,
     gap: 10,
   },
   input: {
     flex: 1,
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     paddingVertical: 12,
   },
 
   // Forgot
   forgotText: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 13,
     textAlign: 'right',
     marginBottom: 18,
@@ -612,9 +613,9 @@ const styles = StyleSheet.create({
 
   // Submit
   submitButton: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     paddingVertical: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
@@ -622,7 +623,7 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   submitText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 16,
     fontWeight: '700',
     marginRight: 10,
@@ -630,8 +631,8 @@ const styles = StyleSheet.create({
   submitIcon: {
     width: 30,
     height: 30,
-    borderRadius: 15,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.lg,
+    backgroundColor: color.bg,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -644,11 +645,11 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   switchText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   switchLink: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 14,
     fontWeight: '600',
   },
@@ -662,10 +663,10 @@ const styles = StyleSheet.create({
   dividerLine: {
     flex: 1,
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   dividerText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginHorizontal: 14,
   },
@@ -675,11 +676,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingVertical: 12,
-    borderRadius: 14,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     gap: 10,
     marginBottom: 10,
   },
@@ -689,14 +690,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#000000',
     paddingVertical: 12,
-    borderRadius: 14,
+    borderRadius: radius.md,
     borderWidth: 1,
     borderColor: '#333333',
     gap: 10,
     marginBottom: 10,
   },
   socialText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -714,13 +715,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   legalText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     textAlign: 'center',
     lineHeight: 18,
   },
   legalLink: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 12,
     fontWeight: '500',
     lineHeight: 18,
@@ -738,8 +739,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   modalCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
   },
   modalHeader: {
@@ -747,19 +748,19 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   modalTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: 'bold',
     marginTop: 12,
     marginBottom: 6,
   },
   modalDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
   },
   cancelText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 15,
     textAlign: 'center',
     paddingVertical: 8,

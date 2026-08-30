@@ -3,6 +3,7 @@ import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSettingsStore } from '../stores/settingsStore';
 import { ARABIC_SPEECH_SPEEDS } from '../hooks/useArabicSpeech';
+import { color, radius } from '../theme/tokens';
 
 const BRAND = '#10b981';
 
@@ -14,7 +15,7 @@ export default function SpeechSpeedControl({ showIcon = true }: { showIcon?: boo
 
   return (
     <View style={styles.row}>
-      {showIcon && <Ionicons name="speedometer-outline" size={14} color="#94a3b8" />}
+      {showIcon && <Ionicons name="speedometer-outline" size={14} color={color.textMuted} />}
       <View style={styles.segment}>
         {ARABIC_SPEECH_SPEEDS.map((v) => {
           const active = Math.abs(v - speed) < 0.001;
@@ -37,12 +38,12 @@ const styles = StyleSheet.create({
   row: { flexDirection: 'row', alignItems: 'center', gap: 8 },
   segment: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: color.surface,
+    borderRadius: radius.sm,
     padding: 3,
   },
   pill: { paddingHorizontal: 12, paddingVertical: 6, borderRadius: 7 },
-  pillActive: { backgroundColor: '#334155' },
-  text: { fontSize: 13, fontWeight: '600', color: '#94a3b8' },
+  pillActive: { backgroundColor: color.surfaceRaised },
+  text: { fontSize: 13, fontWeight: '600', color: color.textMuted },
   textActive: { color: BRAND },
 });

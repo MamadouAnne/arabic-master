@@ -76,6 +76,8 @@ import { BoardEditor } from '../../../src/components/community/board/BoardEditor
 import type { ClassContent, ClassContentKind } from '../../../src/types/classContent';
 import * as Clipboard from 'expo-clipboard';
 import * as Haptics from 'expo-haptics';
+import { color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 type Tab = 'chat' | 'members' | 'info';
 
@@ -933,13 +935,13 @@ export default function GroupDetailScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable onPress={() => router.back()} style={styles.backBtn}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <Text style={styles.headerTitle}>{t('community.studyGroups')}</Text>
           <View style={{ width: 32 }} />
         </View>
         <View style={styles.centered}>
-          <ActivityIndicator color="#818cf8" size="large" />
+          <ActivityIndicator color={color.accent} size="large" />
         </View>
       </SafeAreaView>
     );
@@ -950,7 +952,7 @@ export default function GroupDetailScreen() {
       {/* Header */}
       <View style={styles.headerTopRow}>
         <Pressable onPress={() => router.back()} style={styles.backBtn}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <Text style={styles.headerTopTitle} numberOfLines={1}>{t('community.studyGroups')}</Text>
         {isJoined ? (
@@ -959,7 +961,7 @@ export default function GroupDetailScreen() {
             style={styles.backBtn}
             accessibilityLabel={t('community.groupSettings', { defaultValue: 'Group settings' })}
           >
-            <Ionicons name={activeTab === 'chat' ? 'settings-outline' : 'close'} size={22} color="#ffffff" />
+            <Ionicons name={activeTab === 'chat' ? 'settings-outline' : 'close'} size={22} color={color.text} />
           </Pressable>
         ) : (
           <View style={{ width: 32 }} />
@@ -973,7 +975,7 @@ export default function GroupDetailScreen() {
         <View style={styles.headerInfoBlock}>
           <Text style={styles.headerTitle} numberOfLines={2}>{lc(group.name, group.nameFr)}</Text>
           <View style={styles.headerSubRow}>
-            <Ionicons name="people" size={13} color="#94a3b8" />
+            <Ionicons name="people" size={13} color={color.textMuted} />
             <Text style={styles.headerSub}>
               {t('community.members', { count: group.memberCount })}
             </Text>
@@ -1009,12 +1011,12 @@ export default function GroupDetailScreen() {
 
           <View style={styles.previewStatsRow}>
             <View style={styles.previewStat}>
-              <Ionicons name="people" size={18} color="#818cf8" />
+              <Ionicons name="people" size={18} color={color.accent} />
               <Text style={styles.previewStatValue}>{group.memberCount}</Text>
               <Text style={styles.previewStatLabel}>{t('community.groupMembers')}</Text>
             </View>
             <View style={styles.previewStat}>
-              <Ionicons name="flag" size={18} color="#10b981" />
+              <Ionicons name="flag" size={18} color={color.progress} />
               <Text style={styles.previewStatValue}>{group.maxMembers}</Text>
               <Text style={styles.previewStatLabel}>{t('community.max')}</Text>
             </View>
@@ -1028,7 +1030,7 @@ export default function GroupDetailScreen() {
           ) : null}
 
           <Pressable style={[styles.previewJoinBtn, { backgroundColor: group.color }]} onPress={() => joinGroup(id!)}>
-            <Ionicons name="people" size={20} color="#ffffff" />
+            <Ionicons name="people" size={20} color={color.text} />
             <Text style={styles.previewJoinText}>{t('community.joinGroup')}</Text>
           </Pressable>
 
@@ -1180,7 +1182,7 @@ export default function GroupDetailScreen() {
                 style={[styles.segment, memberTab === 'leaderboard' && { backgroundColor: `${group.color}25` }]}
                 onPress={() => setMemberTab('leaderboard')}
               >
-                <Ionicons name="trophy" size={14} color={memberTab === 'leaderboard' ? group.color : '#64748b'} />
+                <Ionicons name="trophy" size={14} color={memberTab === 'leaderboard' ? group.color: color.textFaint} />
                 <Text style={[styles.segmentText, memberTab === 'leaderboard' && { color: group.color }]}>
                   {t('community.groupLeaderboard', { defaultValue: 'Leaderboard' })}
                 </Text>
@@ -1190,18 +1192,18 @@ export default function GroupDetailScreen() {
             {memberTab === 'members' ? (
               <>
                 <View style={styles.memberSearchBar}>
-                  <Ionicons name="search" size={16} color="#64748b" />
+                  <Ionicons name="search" size={16} color={color.textFaint} />
                   <TextInput
                     style={styles.memberSearchInput}
                     placeholder={t('community.searchMembers')}
-                    placeholderTextColor="#64748b"
+                    placeholderTextColor={color.textFaint}
                     value={memberSearch}
                     onChangeText={setMemberSearch}
                     autoCorrect={false}
                   />
                   {memberSearch.length > 0 && (
                     <Pressable onPress={() => setMemberSearch('')}>
-                      <Ionicons name="close-circle" size={16} color="#64748b" />
+                      <Ionicons name="close-circle" size={16} color={color.textFaint} />
                     </Pressable>
                   )}
                 </View>
@@ -1375,7 +1377,7 @@ function CreateChallengeModalLazy(props: any) {
 
 // ── Styles ────────────────────────────────────────────────────────
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   flex: { flex: 1 },
   centered: { flex: 1, justifyContent: 'center', alignItems: 'center' },
 
@@ -1383,44 +1385,44 @@ const styles = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 4 },
   headerTopRow: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 4 },
   backBtn: { padding: 4 },
-  headerTopTitle: { flex: 1, textAlign: 'center', fontSize: 15, fontWeight: '600', color: '#94a3b8' },
+  headerTopTitle: { flex: 1, textAlign: 'center', fontSize: 15, fontWeight: '600', color: color.textMuted },
   headerGroupInfo: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingBottom: 14, gap: 12 },
-  headerIcon: { width: 42, height: 42, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
+  headerIcon: { width: 42, height: 42, borderRadius: radius.md, alignItems: 'center', justifyContent: 'center' },
   headerInfoBlock: { flex: 1 },
-  headerTitle: { fontSize: 17, fontWeight: '700', color: '#ffffff' },
+  headerTitle: { fontSize: 17, fontWeight: '700', color: color.text },
   headerSubRow: { flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 3 },
-  headerSub: { fontSize: 12, color: '#94a3b8' },
-  headerActiveDot: { width: 6, height: 6, borderRadius: 3, backgroundColor: '#10b981', marginLeft: 4 },
-  headerActiveText: { fontSize: 12, color: '#10b981', fontWeight: '500' },
-  headerAction: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#818cf8', paddingHorizontal: 12, paddingVertical: 7, borderRadius: 10 },
-  headerActionLeave: { backgroundColor: '#ef444420', borderWidth: 1, borderColor: '#ef4444' },
-  headerActionText: { fontSize: 13, fontWeight: '600', color: '#ffffff' },
-  headerActionTextLeave: { color: '#ef4444' },
+  headerSub: { fontSize: 12, color: color.textMuted },
+  headerActiveDot: { width: 6, height: 6, borderRadius: 3, backgroundColor: color.progress, marginLeft: 4 },
+  headerActiveText: { fontSize: 12, color: color.progress, fontWeight: '500' },
+  headerAction: { flexDirection: 'row', alignItems: 'center', backgroundColor: color.accent, paddingHorizontal: 12, paddingVertical: 7, borderRadius: radius.sm },
+  headerActionLeave: { backgroundColor: withAlpha(color.danger, 0.13), borderWidth: 1, borderColor: color.danger },
+  headerActionText: { fontSize: 13, fontWeight: '600', color: color.text },
+  headerActionTextLeave: { color: color.danger },
 
   // Tab bar
   tabBar: { flexDirection: 'row', paddingHorizontal: 16, gap: 4, marginBottom: 4 },
-  tab: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 3, paddingVertical: 8, paddingHorizontal: 4, borderRadius: 10, backgroundColor: '#1e293b' },
-  tabActive: { backgroundColor: '#334155' },
-  tabText: { fontSize: 11, fontWeight: '600', color: '#64748b', textAlign: 'center' },
+  tab: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 3, paddingVertical: 8, paddingHorizontal: 4, borderRadius: radius.sm, backgroundColor: color.surface },
+  tabActive: { backgroundColor: color.surfaceRaised },
+  tabText: { fontSize: 11, fontWeight: '600', color: color.textFaint, textAlign: 'center' },
   settingsHeader: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 8, marginBottom: 4 },
   settingsBackBtn: { flexDirection: 'row', alignItems: 'center', gap: 2, paddingVertical: 4, paddingRight: 4 },
   settingsBackText: { fontSize: 14, fontWeight: '600' },
-  settingsSeg: { flex: 1, flexDirection: 'row', gap: 4, backgroundColor: '#1e293b', borderRadius: 12, padding: 3 },
-  settingsSegBtn: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingVertical: 8, borderRadius: 9 },
-  settingsSegText: { fontSize: 13, fontWeight: '600', color: '#64748b' },
+  settingsSeg: { flex: 1, flexDirection: 'row', gap: 4, backgroundColor: color.surface, borderRadius: radius.md, padding: 3 },
+  settingsSegBtn: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingVertical: 8, borderRadius: radius.sm },
+  settingsSegText: { fontSize: 13, fontWeight: '600', color: color.textFaint },
 
   // Chat
   chatList: { paddingHorizontal: 12, paddingVertical: 12, paddingBottom: 8 },
 
   // Segmented control
-  segmentedControl: { flexDirection: 'row', marginHorizontal: 16, marginTop: 8, marginBottom: 4, gap: 4, backgroundColor: '#1e293b', borderRadius: 10, padding: 3 },
-  segment: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 8, borderRadius: 8 },
-  segmentText: { fontSize: 13, fontWeight: '600', color: '#64748b' },
+  segmentedControl: { flexDirection: 'row', marginHorizontal: 16, marginTop: 8, marginBottom: 4, gap: 4, backgroundColor: color.surface, borderRadius: radius.sm, padding: 3 },
+  segment: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 8, borderRadius: radius.sm },
+  segmentText: { fontSize: 13, fontWeight: '600', color: color.textFaint },
 
   // Members
-  memberSearchBar: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#1e293b', borderRadius: 10, marginHorizontal: 16, marginTop: 8, marginBottom: 4, paddingHorizontal: 10, paddingVertical: 8, gap: 6, borderWidth: 1, borderColor: '#334155' },
-  memberSearchInput: { flex: 1, fontSize: 14, color: '#ffffff', padding: 0 },
-  emptyMembersText: { fontSize: 14, color: '#64748b', textAlign: 'center', paddingVertical: 24 },
+  memberSearchBar: { flexDirection: 'row', alignItems: 'center', backgroundColor: color.surface, borderRadius: radius.sm, marginHorizontal: 16, marginTop: 8, marginBottom: 4, paddingHorizontal: 10, paddingVertical: 8, gap: 6, borderWidth: 1, borderColor: color.border },
+  memberSearchInput: { flex: 1, fontSize: 14, color: color.text, padding: 0 },
+  emptyMembersText: { fontSize: 14, color: color.textFaint, textAlign: 'center', paddingVertical: 24 },
   membersList: { paddingHorizontal: 16, paddingVertical: 8 },
 
   // Info
@@ -1428,18 +1430,18 @@ const styles = StyleSheet.create({
 
   // Non-member preview
   previewContent: { paddingHorizontal: 20, paddingVertical: 16, paddingBottom: 40, alignItems: 'center' },
-  previewCard: { backgroundColor: '#1e293b', borderRadius: 20, padding: 28, alignItems: 'center', borderWidth: 1, borderColor: '#334155', width: '100%', marginBottom: 16 },
-  previewIconLarge: { width: 72, height: 72, borderRadius: 20, alignItems: 'center', justifyContent: 'center', marginBottom: 16 },
-  previewName: { fontSize: 22, fontWeight: '800', color: '#ffffff', marginBottom: 6, textAlign: 'center' },
-  previewTopic: { fontSize: 14, fontWeight: '600', color: '#94a3b8', marginBottom: 12 },
-  previewDesc: { fontSize: 14, color: '#64748b', lineHeight: 21, textAlign: 'center' },
+  previewCard: { backgroundColor: color.surface, borderRadius: radius.xl, padding: 28, alignItems: 'center', borderWidth: 1, borderColor: color.border, width: '100%', marginBottom: 16 },
+  previewIconLarge: { width: 72, height: 72, borderRadius: radius.xl, alignItems: 'center', justifyContent: 'center', marginBottom: 16 },
+  previewName: { fontSize: 22, fontWeight: '800', color: color.text, marginBottom: 6, textAlign: 'center' },
+  previewTopic: { fontSize: 14, fontWeight: '600', color: color.textMuted, marginBottom: 12 },
+  previewDesc: { fontSize: 14, color: color.textFaint, lineHeight: 21, textAlign: 'center' },
   previewStatsRow: { flexDirection: 'row', gap: 12, width: '100%', marginBottom: 16 },
-  previewStat: { flex: 1, backgroundColor: '#1e293b', borderRadius: 14, padding: 16, alignItems: 'center', borderWidth: 1, borderColor: '#334155' },
-  previewStatValue: { fontSize: 20, fontWeight: '800', color: '#ffffff', marginTop: 6 },
-  previewStatLabel: { fontSize: 11, color: '#64748b', marginTop: 2 },
-  previewGoal: { flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: '#1e293b', borderRadius: 14, padding: 16, width: '100%', marginBottom: 24, borderWidth: 1, borderColor: '#334155' },
-  previewGoalText: { fontSize: 14, fontWeight: '600', color: '#ffffff', flex: 1 },
-  previewJoinBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10, width: '100%', paddingVertical: 16, borderRadius: 14 },
-  previewJoinText: { fontSize: 16, fontWeight: '700', color: '#ffffff' },
-  previewHint: { fontSize: 13, color: '#64748b', textAlign: 'center', marginTop: 12 },
+  previewStat: { flex: 1, backgroundColor: color.surface, borderRadius: radius.md, padding: 16, alignItems: 'center', borderWidth: 1, borderColor: color.border },
+  previewStatValue: { fontSize: 20, fontWeight: '800', color: color.text, marginTop: 6 },
+  previewStatLabel: { fontSize: 11, color: color.textFaint, marginTop: 2 },
+  previewGoal: { flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: color.surface, borderRadius: radius.md, padding: 16, width: '100%', marginBottom: 24, borderWidth: 1, borderColor: color.border },
+  previewGoalText: { fontSize: 14, fontWeight: '600', color: color.text, flex: 1 },
+  previewJoinBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10, width: '100%', paddingVertical: 16, borderRadius: radius.md },
+  previewJoinText: { fontSize: 16, fontWeight: '700', color: color.text },
+  previewHint: { fontSize: 13, color: color.textFaint, textAlign: 'center', marginTop: 12 },
 });

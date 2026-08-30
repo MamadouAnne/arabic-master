@@ -15,11 +15,13 @@ import { useTranslation } from 'react-i18next';
 import { useCreditStore, getCreditDisplayInfo } from '../../src/stores/creditStore';
 import { useCommunityStore } from '../../src/stores/communityStore';
 import { StudyPartner } from '../../src/types/community';
+import { color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const LEVEL_COLORS: Record<string, string> = {
-  beginner: '#10b981',
-  intermediate: '#f59e0b',
-  advanced: '#f97316',
+  beginner: color.progress,
+  intermediate: color.warning,
+  advanced: color.warning,
 };
 
 export default function StudyPartnersScreen() {
@@ -74,10 +76,10 @@ export default function StudyPartnersScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} style={styles.backBtn}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
-          <Ionicons name="hand-left" size={20} color="#f59e0b" />
+          <Ionicons name="hand-left" size={20} color={color.warning} />
           <Text style={styles.headerTitle}>{t('community.studyPartners')}</Text>
         </View>
         <View style={{ width: 32 }} />
@@ -85,14 +87,14 @@ export default function StudyPartnersScreen() {
 
       {isLoadingPartners ? (
         <View style={styles.loadingContainer}>
-          <ActivityIndicator color="#f59e0b" size="large" />
+          <ActivityIndicator color={color.warning} size="large" />
         </View>
       ) : (
         <ScrollView
           contentContainerStyle={styles.list}
           showsVerticalScrollIndicator={false}
           refreshControl={
-            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor="#f97316" />
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={color.warning} />
           }
         >
           {/* Description */}
@@ -178,9 +180,9 @@ function PartnerCard({
                 {t(`common.${partner.level}`)}
               </Text>
             </View>
-            <Ionicons name="flame" size={13} color="#f59e0b" />
+            <Ionicons name="flame" size={13} color={color.warning} />
             <Text style={styles.statText}>{partner.streak}d</Text>
-            <Ionicons name="star" size={13} color="#f97316" />
+            <Ionicons name="star" size={13} color={color.warning} />
             <Text style={styles.statText}>{partner.xp.toLocaleString()} XP</Text>
           </View>
         </View>
@@ -226,7 +228,7 @@ function PartnerCard({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -246,7 +248,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   loadingContainer: {
     flex: 1,
@@ -255,7 +257,7 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
     paddingVertical: 40,
   },
@@ -265,7 +267,7 @@ const styles = StyleSheet.create({
   },
   desc: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 20,
     lineHeight: 20,
   },
@@ -275,28 +277,28 @@ const styles = StyleSheet.create({
   connectedTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 10,
   },
   sectionLabel: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
   },
 
   // Partner card
   card: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 18,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   cardConnected: {
-    borderColor: '#10b981',
-    backgroundColor: '#10b98108',
+    borderColor: color.progress,
+    backgroundColor: withAlpha(color.progress, 0.03),
   },
   cardTop: {
     flexDirection: 'row',
@@ -306,15 +308,15 @@ const styles = StyleSheet.create({
   avatar: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#334155',
+    borderRadius: radius.xl,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
   },
   avatarText: {
     fontSize: 20,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   cardInfo: {
     flex: 1,
@@ -328,18 +330,18 @@ const styles = StyleSheet.create({
   partnerName: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   matchBadge: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 8,
     paddingVertical: 3,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   matchText: {
     fontSize: 11,
     fontWeight: '700',
-    color: '#10b981',
+    color: color.progress,
   },
   statsRow: {
     flexDirection: 'row',
@@ -358,7 +360,7 @@ const styles = StyleSheet.create({
   },
   statText: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginRight: 4,
   },
 
@@ -371,19 +373,19 @@ const styles = StyleSheet.create({
     marginBottom: 14,
   },
   interestChip: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   interestText: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontWeight: '500',
   },
   lastActive: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginLeft: 'auto',
   },
 
@@ -393,24 +395,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 6,
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   connectedBtn: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     borderWidth: 1,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   lockedBtn: {
-    backgroundColor: '#475569',
+    backgroundColor: color.borderStrong,
   },
   connectText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   connectedText: {
-    color: '#10b981',
+    color: color.progress,
   },
 });

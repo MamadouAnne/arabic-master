@@ -6,6 +6,7 @@ import { arabicVerbs } from '../../src/data/arabic/verbs/conjugations';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { font, color, radius } from '../../src/theme/tokens';
 
 type TenseType = 'past' | 'present' | 'future' | 'imperative';
 
@@ -25,7 +26,7 @@ const tenseData: Record<TenseType, TenseInfo> = {
     title: 'Past Tense',
     titleArabic: 'الْمَاضِي',
     description: 'Actions that have been completed. The base form of Arabic verbs.',
-    color: '#10b981',
+    color: color.progress,
     icon: 'time-outline',
     personLabels: [
       { key: 'firstPersonSingular', label: 'I', labelArabic: 'أَنَا' },
@@ -42,7 +43,7 @@ const tenseData: Record<TenseType, TenseInfo> = {
     title: 'Present Tense',
     titleArabic: 'الْمُضَارِع',
     description: 'Ongoing actions or habits. Uses prefixes (أ، ت، ي، ن).',
-    color: '#6366f1',
+    color: color.accentStrong,
     icon: 'reload-outline',
     personLabels: [
       { key: 'firstPersonSingular', label: 'I', labelArabic: 'أَنَا' },
@@ -59,7 +60,7 @@ const tenseData: Record<TenseType, TenseInfo> = {
     title: 'Future Tense',
     titleArabic: 'الْمُسْتَقْبَل',
     description: 'Actions that will happen. Add سَـ or سَوْفَ before present tense.',
-    color: '#D4AF37',
+    color: color.sacred,
     icon: 'arrow-forward-outline',
     personLabels: [
       { key: 'firstPersonSingular', label: 'I will', labelArabic: 'أَنَا' },
@@ -76,7 +77,7 @@ const tenseData: Record<TenseType, TenseInfo> = {
     title: 'Commands',
     titleArabic: 'الْأَمْر',
     description: 'Direct orders or requests. Only for "you" forms.',
-    color: '#f59e0b',
+    color: color.warning,
     icon: 'megaphone-outline',
     personLabels: [
       { key: 'secondPersonMasculineSingular', label: 'You (m)', labelArabic: 'أَنْتَ' },
@@ -121,7 +122,7 @@ export default function TenseDetailScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{tense.title}</Text>
@@ -198,7 +199,7 @@ export default function TenseDetailScreen() {
                 <Ionicons
                   name={selectedVerb === verb.id ? 'chevron-up' : 'chevron-down'}
                   size={20}
-                  color="#64748b"
+                  color={color.textFaint}
                 />
               </Pressable>
 
@@ -221,7 +222,7 @@ export default function TenseDetailScreen() {
                           <Text style={styles.conjugationText}>
                             {getConjugation(verb, person.key)}
                           </Text>
-                          <Ionicons name="volume-high" size={14} color="#64748b" />
+                          <Ionicons name="volume-high" size={14} color={color.textFaint} />
                         </View>
                       </Pressable>
                     ))}
@@ -261,7 +262,7 @@ export default function TenseDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -273,8 +274,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -285,14 +286,16 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
     marginTop: 4,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 40,
@@ -301,8 +304,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginHorizontal: 20,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 16,
     borderWidth: 1,
@@ -310,30 +313,30 @@ const styles = StyleSheet.create({
   },
   descText: {
     flex: 1,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     lineHeight: 20,
   },
   patternCard: {
     marginHorizontal: 20,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 24,
   },
   patternTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   patternText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 20,
   },
   highlight: {
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
   },
   section: {
@@ -342,12 +345,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 16,
   },
   verbCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     marginBottom: 12,
     overflow: 'hidden',
   },
@@ -367,28 +370,30 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 12,
     paddingVertical: 8,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     gap: 6,
   },
   verbArabicText: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
     fontWeight: '600',
   },
   verbMeaning: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '500',
   },
   verbRoot: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   verbExpanded: {
     paddingHorizontal: 16,
     paddingBottom: 16,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   conjugationTable: {
     marginTop: 12,
@@ -399,7 +404,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   personInfo: {
     flexDirection: 'row',
@@ -408,12 +413,14 @@ const styles = StyleSheet.create({
   },
   personLabel: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     width: 80,
   },
   personArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
   },
   conjugationValue: {
     flexDirection: 'row',
@@ -422,7 +429,7 @@ const styles = StyleSheet.create({
   },
   conjugationText: {
     fontSize: 18,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '500',
   },
   examplesSection: {
@@ -431,15 +438,15 @@ const styles = StyleSheet.create({
   examplesTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 8,
   },
   exampleCard: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#0f172a',
-    borderRadius: 8,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
     padding: 12,
     marginBottom: 8,
   },
@@ -447,12 +454,14 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   exampleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   exampleEnglish: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
 });

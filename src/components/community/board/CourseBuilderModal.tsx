@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Pressable, TextInput, ScrollView, Modal, Keyboa
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import type { CourseSpec, CourseSection } from '../../../types/aiBoard';
+import { font, color, radius } from '../../../theme/tokens';
 
 interface EditSection {
   id: string;
@@ -75,14 +76,14 @@ export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClo
     onSave({ title: title.trim(), subtitle: subtitle.trim() || undefined, sections: outSections, summary: summary.trim() || undefined });
   };
 
-  const inputProps = { placeholderTextColor: '#64748b' as const };
+  const inputProps = { placeholderTextColor: color.textFaint };
 
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}>
         <SafeAreaView style={styles.container} edges={['top']}>
           <View style={styles.header}>
-            <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
+            <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color={color.text} /></Pressable>
             <Text style={styles.headerTitle}>{t('community.courseContent')}</Text>
             <Pressable onPress={apply} style={[styles.applyBtn, { backgroundColor: groupColor }]}>
               <Text style={styles.applyText}>{t('community.apply')}</Text>
@@ -101,9 +102,9 @@ export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClo
                     <View style={[styles.badge, { backgroundColor: groupColor }]}><Text style={styles.badgeText}>{i + 1}</Text></View>
                     <Text style={styles.cardLabel}>{t('community.section')}</Text>
                     <View style={{ flex: 1 }} />
-                    <Pressable onPress={() => move(i, -1)} hitSlop={6}><Ionicons name="chevron-up" size={18} color="#64748b" /></Pressable>
-                    <Pressable onPress={() => move(i, 1)} hitSlop={6}><Ionicons name="chevron-down" size={18} color="#64748b" /></Pressable>
-                    {sections.length > 1 && <Pressable onPress={() => removeSection(i)} hitSlop={6}><Ionicons name="trash-outline" size={17} color="#ef4444" /></Pressable>}
+                    <Pressable onPress={() => move(i, -1)} hitSlop={6}><Ionicons name="chevron-up" size={18} color={color.textFaint} /></Pressable>
+                    <Pressable onPress={() => move(i, 1)} hitSlop={6}><Ionicons name="chevron-down" size={18} color={color.textFaint} /></Pressable>
+                    {sections.length > 1 && <Pressable onPress={() => removeSection(i)} hitSlop={6}><Ionicons name="trash-outline" size={17} color={color.danger} /></Pressable>}
                   </View>
 
                   <TextInput style={styles.headingInput} value={s.heading} onChangeText={(t) => patch(i, { heading: t })} placeholder={t('community.sectionHeadingPlaceholder')} {...inputProps} />
@@ -113,7 +114,7 @@ export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClo
                     <View key={pi} style={styles.pointRow}>
                       <View style={styles.dot} />
                       <TextInput style={styles.pointInput} value={p} onChangeText={(t) => setPoint(i, pi, t)} placeholder={`Point ${pi + 1}`} {...inputProps} multiline />
-                      {s.points.length > 1 && <Pressable onPress={() => removePoint(i, pi)} hitSlop={6}><Ionicons name="close" size={16} color="#64748b" /></Pressable>}
+                      {s.points.length > 1 && <Pressable onPress={() => removePoint(i, pi)} hitSlop={6}><Ionicons name="close" size={16} color={color.textFaint} /></Pressable>}
                     </View>
                   ))}
                   {s.points.length < 4 && (
@@ -144,31 +145,33 @@ export function CourseBuilderModal({ visible, groupColor, initial, onSave, onClo
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   flex: { flex: 1 },
-  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: '#f8fafc' },
-  applyBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12 },
-  applyText: { color: '#ffffff', fontWeight: '700', fontSize: 14 },
+  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: color.text },
+  applyBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
+  applyText: { color: color.text, fontWeight: '700', fontSize: 14 },
   scroll: { padding: 16 },
-  titleInput: { fontSize: 24, fontWeight: '800', color: '#f8fafc', paddingBottom: 6 },
-  subtitleInput: { fontSize: 15, color: '#94a3b8', paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b', marginBottom: 16 },
-  card: { backgroundColor: '#131c2e', borderRadius: 14, borderWidth: 1, borderColor: '#1e293b', padding: 12, marginBottom: 14 },
+  titleInput: { fontSize: 24, fontWeight: '800', color: color.text, paddingBottom: 6 },
+  subtitleInput: { fontSize: 15, color: color.textMuted, paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 16 },
+  card: { backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.borderSubtle, padding: 12, marginBottom: 14 },
   cardBar: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 10 },
-  badge: { width: 24, height: 24, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
-  badgeText: { color: '#ffffff', fontWeight: '800', fontSize: 12 },
-  cardLabel: { fontSize: 12, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5 },
-  headingInput: { fontSize: 17, fontWeight: '700', color: '#f1f5f9', backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: '#334155' },
-  miniLabel: { fontSize: 11, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 12, marginBottom: 6 },
+  badge: { width: 24, height: 24, borderRadius: radius.md, alignItems: 'center', justifyContent: 'center' },
+  badgeText: { color: color.text, fontWeight: '800', fontSize: 12 },
+  cardLabel: { fontSize: 12, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5 },
+  headingInput: { fontSize: 17, fontWeight: '700', color: color.text, backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: color.border },
+  miniLabel: { fontSize: 11, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 12, marginBottom: 6 },
   pointRow: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 6 },
-  dot: { width: 5, height: 5, borderRadius: 3, backgroundColor: '#64748b' },
-  pointInput: { flex: 1, fontSize: 14.5, color: '#e2e8f0', backgroundColor: '#0f172a', borderRadius: 8, paddingHorizontal: 10, paddingVertical: 8, borderWidth: 1, borderColor: '#334155' },
+  dot: { width: 5, height: 5, borderRadius: 3, backgroundColor: color.textFaint },
+  pointInput: { flex: 1, fontSize: 14.5, color: color.text, backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 10, paddingVertical: 8, borderWidth: 1, borderColor: color.border },
   addRow: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingVertical: 4, marginLeft: 13 },
   addRowText: { fontSize: 13, fontWeight: '600' },
-  arabicInput: { fontSize: 20, color: '#f8fafc', textAlign: 'right', writingDirection: 'rtl', backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: '#334155', marginBottom: 6 },
-  smallInput: { fontSize: 14, color: '#cbd5e1', backgroundColor: '#0f172a', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: '#334155', marginBottom: 6 },
-  addSection: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 12, borderRadius: 12, borderWidth: 1, borderColor: '#334155', borderStyle: 'dashed', marginBottom: 18 },
+  arabicInput: {
+    fontFamily: font.arabic,
+    lineHeight: 34, fontSize: 20, color: color.text, textAlign: 'right', writingDirection: 'rtl', backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: color.border, marginBottom: 6 },
+  smallInput: { fontSize: 14, color: color.textMuted, backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: color.border, marginBottom: 6 },
+  addSection: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 12, borderRadius: radius.md, borderWidth: 1, borderColor: color.border, borderStyle: 'dashed', marginBottom: 18 },
   addSectionText: { fontSize: 14, fontWeight: '700' },
-  blockLabel: { fontSize: 12, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 },
-  summaryInput: { fontSize: 15, color: '#e2e8f0', backgroundColor: '#131c2e', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: '#334155', minHeight: 60 },
+  blockLabel: { fontSize: 12, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 },
+  summaryInput: { fontSize: 15, color: color.text, backgroundColor: color.surface, borderRadius: radius.md, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: color.border, minHeight: 60 },
 });

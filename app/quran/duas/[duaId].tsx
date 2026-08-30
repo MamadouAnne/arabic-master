@@ -14,6 +14,8 @@ import {
   DUA_CATEGORY_LABELS,
   HADITH_COLLECTION_NAMES,
 } from '../../../src/types/duas';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 export default function DuaDetailScreen() {
   const { t } = useTranslation();
@@ -131,7 +133,7 @@ export default function DuaDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#f59e0b" />
+          <ActivityIndicator size="large" color={color.warning} />
           <Text style={styles.loadingText}>{t('duasFeature.loadingDua')}</Text>
         </View>
       </SafeAreaView>
@@ -148,7 +150,7 @@ export default function DuaDetailScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <Text style={styles.duaNameArabic}>{dua.titleArabic}</Text>
@@ -167,7 +169,7 @@ export default function DuaDetailScreen() {
           })}
           accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
         >
-          <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+          <Ionicons name="paper-plane-outline" size={22} color={color.accent} />
         </Pressable>
       </View>
 
@@ -224,7 +226,7 @@ export default function DuaDetailScreen() {
             >
               {!hasMultipleVoices ? (
                 <>
-                  <Ionicons name="alert-circle" size={18} color="#f59e0b" />
+                  <Ionicons name="alert-circle" size={18} color={color.warning} />
                   <Text style={styles.voiceTextWarning}>{t('duasFeature.oneVoice')}</Text>
                 </>
               ) : (
@@ -249,7 +251,7 @@ export default function DuaDetailScreen() {
               <Ionicons
                 name={isSpeaking ? 'stop' : 'play'}
                 size={24}
-                color="#ffffff"
+                color={color.text}
               />
               <Text style={styles.playButtonText}>
                 {isSpeaking ? t('duasFeature.stop') : t('duasFeature.listen')}
@@ -273,7 +275,7 @@ export default function DuaDetailScreen() {
         {/* Source Card */}
         <View style={styles.sourceCard}>
           <View style={styles.sourceHeader}>
-            <Ionicons name="book" size={18} color="#818cf8" />
+            <Ionicons name="book" size={18} color={color.accent} />
             <Text style={styles.sourceTitle}>{t('duasFeature.source')}</Text>
           </View>
           <Text style={styles.sourceCollection}>{collectionName}</Text>
@@ -289,7 +291,7 @@ export default function DuaDetailScreen() {
         {dua.occasion && (
           <View style={styles.section}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="time" size={18} color="#f59e0b" />
+              <Ionicons name="time" size={18} color={color.warning} />
               <Text style={[styles.sectionTitle, { marginLeft: 8, marginBottom: 0 }]}>
                 {t('duasFeature.whenToRecite')}
               </Text>
@@ -302,8 +304,8 @@ export default function DuaDetailScreen() {
         {dua.virtues && (
           <View style={styles.virtuesCard}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="star" size={18} color="#10b981" />
-              <Text style={[styles.sectionTitle, { color: '#10b981', marginLeft: 8, marginBottom: 0 }]}>
+              <Ionicons name="star" size={18} color={color.progress} />
+              <Text style={[styles.sectionTitle, { color: color.progress, marginLeft: 8, marginBottom: 0 }]}>
                 {t('duasFeature.virtuesRewards')}
               </Text>
             </View>
@@ -315,8 +317,8 @@ export default function DuaDetailScreen() {
         {dua.story && (
           <View style={styles.storyCard}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="book-outline" size={18} color="#8b5cf6" />
-              <Text style={[styles.sectionTitle, { color: '#8b5cf6', marginLeft: 8, marginBottom: 0 }]}>
+              <Ionicons name="book-outline" size={18} color={color.accent} />
+              <Text style={[styles.sectionTitle, { color: color.accent, marginLeft: 8, marginBottom: 0 }]}>
                 {t('duasFeature.backgroundStory')}
               </Text>
             </View>
@@ -362,7 +364,7 @@ export default function DuaDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -371,7 +373,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   header: {
@@ -380,7 +382,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   backButton: {
     padding: 8,
@@ -390,13 +392,15 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   duaNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   duaNameEnglish: {
     fontSize: 14,
-    color: '#cbd5e1',
+    color: color.textMuted,
     marginTop: 2,
   },
   headerNav: {
@@ -407,8 +411,8 @@ const styles = StyleSheet.create({
   navButton: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.lg,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -416,7 +420,7 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   duaNumber: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     minWidth: 44,
     textAlign: 'center',
@@ -428,46 +432,49 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     gap: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   categoryBadge: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   categoryText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 12,
     fontWeight: '600',
   },
   categoryTextArabic: {
-    color: '#f59e0b',
+    fontFamily: font.arabic,
+    lineHeight: 20,
+    color: color.warning,
     fontSize: 12,
   },
   favoriteButton: {
     padding: 8,
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: color.surface,
+    borderRadius: radius.sm,
   },
   contentContainer: {
     flex: 1,
   },
   arabicCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     margin: 16,
     borderWidth: 1,
-    borderColor: '#f59e0b30',
+    borderColor: withAlpha(color.warning, 0.19),
   },
   arabicText: {
+    fontFamily: font.arabic,
     fontSize: 26,
     lineHeight: 48,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     writingDirection: 'rtl',
   },
@@ -481,10 +488,10 @@ const styles = StyleSheet.create({
   voiceButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 12,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 6,
   },
   voiceText: {
@@ -492,51 +499,51 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   voiceTextFemale: {
-    color: '#ec4899',
+    color: color.accent,
   },
   voiceTextMale: {
-    color: '#3b82f6',
+    color: color.accent,
   },
   voiceButtonDisabled: {
     borderWidth: 1,
-    borderColor: '#f59e0b40',
+    borderColor: withAlpha(color.warning, 0.25),
   },
   voiceTextWarning: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 13,
     fontWeight: '600',
   },
   speedButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 12,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 6,
   },
   speedText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '600',
   },
   speedTextActive: {
-    color: '#f59e0b',
+    color: color.warning,
   },
   playButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 8,
   },
   playButtonActive: {
-    backgroundColor: '#ef4444',
+    backgroundColor: color.danger,
   },
   playButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -552,23 +559,23 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#f59e0b',
+    color: color.warning,
     marginBottom: 10,
   },
   transliterationText: {
     fontSize: 15,
     fontStyle: 'italic',
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 24,
   },
   translationText: {
     fontSize: 15,
-    color: '#cbd5e1',
+    color: color.textMuted,
     lineHeight: 24,
   },
   sourceCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginHorizontal: 16,
     marginBottom: 20,
@@ -582,57 +589,57 @@ const styles = StyleSheet.create({
   sourceTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#818cf8',
+    color: color.accent,
   },
   sourceCollection: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   sourceHadith: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   sourceNarrator: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     fontStyle: 'italic',
   },
   occasionText: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
     marginTop: 8,
   },
   virtuesCard: {
-    backgroundColor: '#10b98110',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.06),
+    borderRadius: radius.md,
     padding: 16,
     marginHorizontal: 16,
     marginBottom: 20,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   virtuesText: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
     marginTop: 8,
   },
   storyCard: {
-    backgroundColor: '#8b5cf610',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.accent, 0.06),
+    borderRadius: radius.md,
     padding: 16,
     marginHorizontal: 16,
     marginBottom: 20,
     borderWidth: 1,
-    borderColor: '#8b5cf630',
+    borderColor: withAlpha(color.accent, 0.19),
   },
   storyText: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
     marginTop: 8,
   },
@@ -640,24 +647,24 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     paddingVertical: 16,
     marginHorizontal: 16,
     gap: 10,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   memorizedButtonActive: {
-    backgroundColor: '#10b98120',
-    borderColor: '#10b98140',
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderColor: withAlpha(color.progress, 0.25),
   },
   memorizedButtonText: {
     fontSize: 15,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   memorizedButtonTextActive: {
-    color: '#10b981',
+    color: color.progress,
   },
 });

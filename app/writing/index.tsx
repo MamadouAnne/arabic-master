@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { writingLessons } from '../../src/data/arabic/writing/writingLessons';
+import { font, color, radius } from '../../src/theme/tokens';
 
 const ACCENT = '#f472b6';
 
@@ -40,14 +41,14 @@ export default function WritingScreen() {
         <View style={styles.lessonContent}>
           <View style={styles.lessonTitleRow}>
             <Text style={styles.lessonTitle}>{lc(lesson.title, (lesson as any).titleFr)}</Text>
-            {isDone && <Ionicons name="checkmark-circle" size={18} color="#22c55e" />}
+            {isDone && <Ionicons name="checkmark-circle" size={18} color={color.progress} />}
           </View>
           <Text style={styles.lessonTitleArabic}>{lesson.titleArabic}</Text>
           <Text style={styles.lessonDescription} numberOfLines={2}>
             {lc(lesson.description, (lesson as any).descriptionFr)}
           </Text>
         </View>
-        <Ionicons name="chevron-forward" size={20} color="#64748b" />
+        <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
       </Pressable>
     );
   };
@@ -58,7 +59,7 @@ export default function WritingScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{t('learn.writing')}</Text>
@@ -100,28 +101,32 @@ export default function WritingScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 20, paddingTop: 10, paddingBottom: 16 },
-  backButton: { width: 40, height: 40, borderRadius: 20, backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center', marginRight: 16 },
+  backButton: { width: 40, height: 40, borderRadius: radius.xl, backgroundColor: color.surface, alignItems: 'center', justifyContent: 'center', marginRight: 16 },
   headerText: { flex: 1 },
-  title: { fontSize: 24, fontWeight: 'bold', color: '#ffffff' },
-  titleArabic: { fontSize: 18, color: ACCENT, marginTop: 4 },
-  introCard: { flexDirection: 'row', backgroundColor: `${ACCENT}18`, marginHorizontal: 20, borderRadius: 16, padding: 16, marginBottom: 20, borderWidth: 1, borderColor: `${ACCENT}40`, gap: 12 },
+  title: { fontSize: 24, fontWeight: 'bold', color: color.text },
+  titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31, fontSize: 18, color: ACCENT, marginTop: 4 },
+  introCard: { flexDirection: 'row', backgroundColor: `${ACCENT}18`, marginHorizontal: 20, borderRadius: radius.lg, padding: 16, marginBottom: 20, borderWidth: 1, borderColor: `${ACCENT}40`, gap: 12 },
   introContent: { flex: 1 },
   introTitle: { fontSize: 16, fontWeight: '700', color: ACCENT, marginBottom: 4 },
-  introText: { fontSize: 13, color: '#94a3b8', lineHeight: 19 },
+  introText: { fontSize: 13, color: color.textMuted, lineHeight: 19 },
   section: { paddingHorizontal: 20, marginBottom: 20 },
   sectionHeader: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 14 },
-  sectionTitle: { fontSize: 18, fontWeight: 'bold', color: '#ffffff', textTransform: 'capitalize' },
-  sectionCount: { minWidth: 24, height: 24, paddingHorizontal: 7, borderRadius: 12, backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center' },
-  sectionCountText: { fontSize: 12, fontWeight: '700', color: '#94a3b8' },
-  sectionTitleAr: { fontSize: 14, color: '#64748b', marginLeft: 'auto' },
-  lessonCard: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#1e293b', borderRadius: 16, padding: 16, marginBottom: 12 },
-  lessonNumber: { width: 40, height: 40, borderRadius: 12, backgroundColor: `${ACCENT}30`, alignItems: 'center', justifyContent: 'center' },
+  sectionTitle: { fontSize: 18, fontWeight: 'bold', color: color.text, textTransform: 'capitalize' },
+  sectionCount: { minWidth: 24, height: 24, paddingHorizontal: 7, borderRadius: radius.md, backgroundColor: color.surface, alignItems: 'center', justifyContent: 'center' },
+  sectionCountText: { fontSize: 12, fontWeight: '700', color: color.textMuted },
+  sectionTitleAr: { fontSize: 14, color: color.textFaint, marginLeft: 'auto' },
+  lessonCard: { flexDirection: 'row', alignItems: 'center', backgroundColor: color.surface, borderRadius: radius.lg, padding: 16, marginBottom: 12 },
+  lessonNumber: { width: 40, height: 40, borderRadius: radius.md, backgroundColor: `${ACCENT}30`, alignItems: 'center', justifyContent: 'center' },
   lessonNumberText: { fontSize: 18, fontWeight: 'bold', color: ACCENT },
   lessonContent: { flex: 1, marginLeft: 14 },
   lessonTitleRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-  lessonTitle: { fontSize: 15, fontWeight: '600', color: '#ffffff' },
-  lessonTitleArabic: { fontSize: 14, color: ACCENT, marginTop: 2 },
-  lessonDescription: { fontSize: 12, color: '#94a3b8', marginTop: 4, lineHeight: 18 },
+  lessonTitle: { fontSize: 15, fontWeight: '600', color: color.text },
+  lessonTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24, fontSize: 14, color: ACCENT, marginTop: 2 },
+  lessonDescription: { fontSize: 12, color: color.textMuted, marginTop: 4, lineHeight: 18 },
 });

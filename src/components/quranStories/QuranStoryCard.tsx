@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { QuranStoryListItem, STORY_CATEGORY_LABELS } from '../../types/quranStories';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface QuranStoryCardProps {
   story: QuranStoryListItem;
@@ -30,7 +32,7 @@ export function QuranStoryCard({ story, onPress }: QuranStoryCardProps) {
         </Text>
         <View style={styles.metaRow}>
           <View style={styles.metaItem}>
-            <Ionicons name="time-outline" size={12} color="#64748b" />
+            <Ionicons name="time-outline" size={12} color={color.textFaint} />
             <Text style={styles.metaText}>{story.estimatedReadTime} min</Text>
           </View>
           {story.progress > 0 && story.progress < 100 && (
@@ -47,10 +49,10 @@ export function QuranStoryCard({ story, onPress }: QuranStoryCardProps) {
       <View style={styles.statusContainer}>
         {story.isCompleted ? (
           <View style={styles.completedBadge}>
-            <Ionicons name="checkmark-circle" size={24} color="#10b981" />
+            <Ionicons name="checkmark-circle" size={24} color={color.progress} />
           </View>
         ) : (
-          <Ionicons name="chevron-forward" size={20} color="#64748b" />
+          <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
         )}
       </View>
     </Pressable>
@@ -59,8 +61,8 @@ export function QuranStoryCard({ story, onPress }: QuranStoryCardProps) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 12,
     flexDirection: 'row',
@@ -69,8 +71,8 @@ const styles = StyleSheet.create({
   iconContainer: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#8b5cf620',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 14,
@@ -88,19 +90,21 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   nameArabic: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    lineHeight: 31,
+    color: color.text,
     fontSize: 18,
     fontWeight: '600',
   },
   nameEnglish: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '500',
     flex: 1,
   },
   categoryBadge: {
     alignSelf: 'flex-start',
-    backgroundColor: '#8b5cf615',
+    backgroundColor: withAlpha(color.accent, 0.08),
     paddingHorizontal: 8,
     paddingVertical: 2,
     borderRadius: 4,
@@ -108,11 +112,11 @@ const styles = StyleSheet.create({
   },
   categoryText: {
     fontSize: 10,
-    color: '#a78bfa',
+    color: color.accent,
     fontWeight: '500',
   },
   description: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     lineHeight: 18,
     marginBottom: 8,
@@ -128,7 +132,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
   progressContainer: {
@@ -140,17 +144,17 @@ const styles = StyleSheet.create({
   progressBar: {
     flex: 1,
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     maxWidth: 80,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#8b5cf6',
+    backgroundColor: color.accent,
     borderRadius: 2,
   },
   progressText: {
-    color: '#a78bfa',
+    color: color.accent,
     fontSize: 11,
     fontWeight: '500',
   },

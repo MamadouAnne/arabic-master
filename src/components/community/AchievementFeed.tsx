@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { CommunityAchievement } from '../../types/community';
+import { font, color, radius } from '../../theme/tokens';
 
 interface AchievementFeedProps {
   achievements: CommunityAchievement[];
@@ -48,7 +49,7 @@ export const AchievementFeed: React.FC<AchievementFeedProps> = ({ achievements }
           <Text style={styles.titleArabic}>الإنجازات</Text>
         </View>
         <View style={styles.emptyState}>
-          <Ionicons name="trophy-outline" size={40} color="#334155" />
+          <Ionicons name="trophy-outline" size={40} color={color.textFaint} />
           <Text style={styles.emptyText}>{t('community.noAchievementsYet')}</Text>
           <Text style={styles.emptySubtext}>{t('community.keepLearningAchievements')}</Text>
         </View>
@@ -106,13 +107,13 @@ export const AchievementFeed: React.FC<AchievementFeedProps> = ({ achievements }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginHorizontal: 20,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   header: {
     flexDirection: 'row',
@@ -123,11 +124,13 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
   },
   feed: {
   },
@@ -136,8 +139,8 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     paddingVertical: 10,
     paddingHorizontal: 12,
-    backgroundColor: '#0f172a',
-    borderRadius: 10,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
     marginBottom: 12,
   },
   feedItemUser: {
@@ -148,7 +151,7 @@ const styles = StyleSheet.create({
   iconContainer: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
@@ -158,24 +161,26 @@ const styles = StyleSheet.create({
   },
   userName: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 20,
   },
   userNameHighlight: {
-    color: '#818cf8',
+    color: color.accent,
     fontWeight: '600',
   },
   achievementText: {
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   achievementArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 22,
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   timestamp: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginLeft: 8,
   },
   emptyState: {
@@ -184,12 +189,12 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 16,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 12,
   },
   emptySubtext: {
     fontSize: 13,
-    color: '#475569',
+    color: color.textFaint,
     marginTop: 4,
   },
 });

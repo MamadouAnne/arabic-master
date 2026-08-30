@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Pressable, TextInput, ScrollView, Modal, Keyboa
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import type { PollContent } from '../../../types/classContent';
+import { color, radius } from '../../../theme/tokens';
 
 interface Props {
   visible: boolean;
@@ -34,7 +35,7 @@ export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Pr
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top']}>
         <View style={styles.header}>
-          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
+          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color={color.text} /></Pressable>
           <Text style={styles.headerTitle}>{initial ? 'Edit poll' : 'New poll'}</Text>
           <Pressable onPress={handleSave} style={[styles.saveBtn, { backgroundColor: groupColor }]}>
             <Text style={styles.saveText}>{initial ? 'Update' : 'Post'}</Text>
@@ -43,14 +44,14 @@ export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Pr
 
         <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.flex}>
           <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
-            <TextInput style={styles.questionInput} placeholder={t('community.askQuestionPlaceholder')} placeholderTextColor="#475569" value={question} onChangeText={setQuestion} multiline />
+            <TextInput style={styles.questionInput} placeholder={t('community.askQuestionPlaceholder')} placeholderTextColor={color.textFaint} value={question} onChangeText={setQuestion} multiline />
 
             <Text style={styles.label}>{t('community.options')}</Text>
             {options.map((opt, i) => (
               <View key={i} style={styles.optRow}>
-                <TextInput style={styles.optInput} placeholder={`Option ${i + 1}`} placeholderTextColor="#475569" value={opt} onChangeText={(t) => setOpt(i, t)} />
+                <TextInput style={styles.optInput} placeholder={`Option ${i + 1}`} placeholderTextColor={color.textFaint} value={opt} onChangeText={(t) => setOpt(i, t)} />
                 {options.length > 2 && (
-                  <Pressable onPress={() => removeOpt(i)} hitSlop={6}><Ionicons name="close" size={20} color="#64748b" /></Pressable>
+                  <Pressable onPress={() => removeOpt(i)} hitSlop={6}><Ionicons name="close" size={20} color={color.textFaint} /></Pressable>
                 )}
               </View>
             ))}
@@ -62,7 +63,7 @@ export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Pr
             )}
 
             <Pressable style={styles.multiRow} onPress={() => setAllowMultiple((v) => !v)}>
-              <Ionicons name={allowMultiple ? 'checkbox' : 'square-outline'} size={22} color={allowMultiple ? groupColor : '#475569'} />
+              <Ionicons name={allowMultiple ? 'checkbox' : 'square-outline'} size={22} color={allowMultiple ? groupColor: color.textFaint} />
               <Text style={styles.multiText}>{t('community.allowMultiple')}</Text>
             </Pressable>
           </ScrollView>
@@ -73,19 +74,19 @@ export function PollEditor({ visible, groupColor, initial, onSave, onClose }: Pr
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   flex: { flex: 1 },
-  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: '#f8fafc' },
-  saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12 },
-  saveText: { color: '#ffffff', fontWeight: '700', fontSize: 14 },
+  header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: color.text },
+  saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
+  saveText: { color: color.text, fontWeight: '700', fontSize: 14 },
   scroll: { padding: 16 },
-  questionInput: { fontSize: 20, fontWeight: '700', color: '#f8fafc', paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b', marginBottom: 16 },
-  label: { fontSize: 12, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 10 },
+  questionInput: { fontSize: 20, fontWeight: '700', color: color.text, paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 16 },
+  label: { fontSize: 12, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 10 },
   optRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 10 },
-  optInput: { flex: 1, backgroundColor: '#131c2e', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 11, fontSize: 15, color: '#e2e8f0', borderWidth: 1, borderColor: '#334155' },
+  optInput: { flex: 1, backgroundColor: color.surface, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 11, fontSize: 15, color: color.text, borderWidth: 1, borderColor: color.border },
   addOpt: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingVertical: 6 },
   addOptText: { fontSize: 14, fontWeight: '600' },
   multiRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 20 },
-  multiText: { fontSize: 15, color: '#e2e8f0' },
+  multiText: { fontSize: 15, color: color.text },
 });

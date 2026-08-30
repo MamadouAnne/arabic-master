@@ -1,12 +1,27 @@
 import { useMemo } from 'react';
-import { View, Text, ScrollView, Pressable, StyleSheet, Image } from 'react-native';
+import { View, Text, ScrollView, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useProgressStore, ModuleType } from '../../src/stores/progressStore';
+import {
+  Txt,
+  Arabic,
+  Section,
+  Card,
+  IconTile,
+  IlluminatedRule,
+  withAlpha,
+} from '../../src/components/ui/Primitives';
+import { color, type, weight, space, radius, gutter } from '../../src/theme/tokens';
 
-// Module configuration data
+/**
+ * Module colour is semantic, not decorative: gold marks sacred content, indigo
+ * marks language study. The old per-module rainbow (pink verbs, teal practice,
+ * amber reading) encoded nothing — here the large Arabic glyph on each card
+ * carries the individuality instead.
+ */
 const MODULES: Record<ModuleType, {
   titleKey: string;
   titleArabic: string;
@@ -15,23 +30,20 @@ const MODULES: Record<ModuleType, {
   route: string;
   arabicChar: string;
 }> = {
-  alphabet: { titleKey: 'home.alphabet', titleArabic: 'الْحُرُوف', icon: 'text', color: '#818cf8', route: '/alphabet', arabicChar: 'أ' },
-  vocabulary: { titleKey: 'home.vocabulary', titleArabic: 'الْمُفْرَدَات', icon: 'library', color: '#D4AF37', route: '/vocabulary', arabicChar: 'ك' },
-  numbers: { titleKey: 'learn.numbers', titleArabic: 'الْأَرْقَام', icon: 'keypad', color: '#14b8a6', route: '/numbers', arabicChar: '٥' },
-  grammar: { titleKey: 'learn.grammar', titleArabic: 'الْقَوَاعِد', icon: 'git-branch', color: '#34d399', route: '/grammar', arabicChar: 'ق' },
-  verbs: { titleKey: 'learn.verbConjugations', titleArabic: 'تَصْرِيفُ الْأَفْعَال', icon: 'swap-horizontal', color: '#f472b6', route: '/verbs', arabicChar: 'ف' },
-  reading: { titleKey: 'learn.reading', titleArabic: 'الْقِرَاءَة', icon: 'document-text', color: '#fbbf24', route: '/reading', arabicChar: 'ر' },
-  writing: { titleKey: 'learn.writing', titleArabic: 'الْكِتَابَة', icon: 'create', color: '#f472b6', route: '/writing', arabicChar: 'خ' },
-  practice: { titleKey: 'home.practice', titleArabic: 'التَّدْرِيب', icon: 'pencil', color: '#2dd4bf', route: '/practice', arabicChar: 'د' },
+  alphabet: { titleKey: 'home.alphabet', titleArabic: 'الْحُرُوف', icon: 'text', color: color.accent, route: '/alphabet', arabicChar: 'أ' },
+  vocabulary: { titleKey: 'home.vocabulary', titleArabic: 'الْمُفْرَدَات', icon: 'library', color: color.accent, route: '/vocabulary', arabicChar: 'ك' },
+  numbers: { titleKey: 'learn.numbers', titleArabic: 'الْأَرْقَام', icon: 'keypad', color: color.accent, route: '/numbers', arabicChar: '٥' },
+  grammar: { titleKey: 'learn.grammar', titleArabic: 'الْقَوَاعِد', icon: 'git-branch', color: color.accent, route: '/grammar', arabicChar: 'ق' },
+  verbs: { titleKey: 'learn.verbConjugations', titleArabic: 'تَصْرِيفُ الْأَفْعَال', icon: 'swap-horizontal', color: color.accent, route: '/verbs', arabicChar: 'ف' },
+  reading: { titleKey: 'learn.reading', titleArabic: 'الْقِرَاءَة', icon: 'document-text', color: color.accent, route: '/reading', arabicChar: 'ر' },
+  writing: { titleKey: 'learn.writing', titleArabic: 'الْكِتَابَة', icon: 'create', color: color.accent, route: '/writing', arabicChar: 'خ' },
+  practice: { titleKey: 'home.practice', titleArabic: 'التَّدْرِيب', icon: 'pencil', color: color.progress, route: '/practice', arabicChar: 'د' },
 };
 
-const MODULE_ORDER: ModuleType[] = ['alphabet', 'vocabulary', 'grammar', 'verbs', 'reading', 'practice'];
-
-// Cards shown in the "Explore" grid (independent of the learning modules above).
 type ExploreCard = { titleKey: string; titleArabic: string; icon: keyof typeof Ionicons.glyphMap; color: string; route: string; arabicChar: string };
 const EXPLORE: ExploreCard[] = [
   MODULES.alphabet,
-  { titleKey: 'home.quran', titleArabic: 'الْقُرْآن', icon: 'book', color: '#D4AF37', route: '/quran', arabicChar: '۞' },
+  { titleKey: 'home.quran', titleArabic: 'الْقُرْآن', icon: 'book', color: color.sacred, route: '/quran', arabicChar: '۞' },
   MODULES.grammar,
   MODULES.verbs,
 ];
@@ -67,82 +79,90 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scroll}>
-        {/* Header */}
+        {/* Masthead — Arabic leads, English supports. The illuminated rule sits
+            here and nowhere else on this screen, marking the head of the page
+            the way a Mushaf does. */}
         <View style={styles.header}>
-          <View style={styles.headerText}>
-            <Text style={styles.greeting}>{t('home.greeting')}</Text>
-            <Text style={styles.greetingEnglish}>{t('home.greetingEnglish')}</Text>
+          <View style={styles.headerTop}>
+            <View style={styles.headerText}>
+              <Arabic size="display" align="left" style={styles.greetingArabic}>
+                {t('home.greeting')}
+              </Arabic>
+              <Txt variant="body" tone="muted" style={styles.greetingEnglish}>
+                {t('home.greetingEnglish')}
+              </Txt>
+            </View>
+            {progress.currentStreak > 0 ? (
+              <View style={styles.streak} accessibilityLabel={`${progress.currentStreak} ${t('home.dayStreak')}`}>
+                <Ionicons name="flame" size={15} color={color.sacred} />
+                <Text style={styles.streakCount}>{progress.currentStreak}</Text>
+              </View>
+            ) : null}
           </View>
-          <Image source={require('../../assets/images/adaptive-icon.png')} style={styles.appIcon} />
+          <IlluminatedRule style={styles.rule} />
         </View>
 
-        {/* Continue Learning */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{t('home.continueLearning')}</Text>
-          <Pressable
-            style={styles.continueCard}
+        {/* Continue */}
+        <Section title={t('home.continueLearning')}>
+          <Card
             onPress={() => router.push(currentModule.route as any)}
-            accessibilityRole="button"
+            accent={currentModule.color}
+            raised
             accessibilityLabel={`${t('home.continueLearning')}: ${getModuleName()}`}
+            style={styles.continueCard}
           >
-            <View style={[styles.continueAccent, { backgroundColor: currentModule.color }]} />
-            <View style={[styles.continueIcon, { backgroundColor: currentModule.color + '22' }]}>
-              <Ionicons name={currentModule.icon} size={26} color={currentModule.color} />
-            </View>
+            <IconTile name={currentModule.icon} tint={currentModule.color} size="lg" />
             <View style={styles.continueText}>
-              <Text style={styles.continueModuleName} numberOfLines={1}>
+              <Txt variant="bodyLarge" weight="semibold" numberOfLines={1}>
                 {hasLesson && lastAccessed.lessonTitle !== getModuleName() ? lastAccessed.lessonTitle : getModuleName()}
-              </Text>
-              <Text style={styles.continueModuleNameArabic} numberOfLines={1}>
+              </Txt>
+              <Arabic size="inline" align="left" numberOfLines={1} style={styles.continueArabic}>
                 {hasLesson && lastAccessed.lessonTitle !== getModuleName() ? lastAccessed.lessonTitleArabic : currentModule.titleArabic}
-              </Text>
-              <Text style={styles.continueSub} numberOfLines={1}>{getDisplaySubtitle()}</Text>
+              </Arabic>
+              <Txt variant="caption" tone="faint" numberOfLines={1}>{getDisplaySubtitle()}</Txt>
             </View>
             <View style={[styles.playButton, { backgroundColor: currentModule.color }]}>
-              <Ionicons name="play" size={18} color="#0f172a" />
+              <Ionicons name="play" size={17} color={color.textOnAccent} />
             </View>
-          </Pressable>
-        </View>
+          </Card>
+        </Section>
 
-        {/* Explore modules */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{t('home.explore')}</Text>
+        {/* Explore */}
+        <Section title={t('home.explore')}>
           <View style={styles.grid}>
-            {EXPLORE.map((m) => {
-              return (
-                <Pressable
-                  key={m.route}
-                  style={styles.moduleCard}
-                  onPress={() => router.push(m.route as any)}
-                  accessibilityRole="button"
-                  accessibilityLabel={t(m.titleKey)}
+            {EXPLORE.map((m) => (
+              <Card
+                key={m.route}
+                onPress={() => router.push(m.route as any)}
+                accessibilityLabel={t(m.titleKey)}
+                style={styles.moduleCard}
+              >
+                <Text style={styles.moduleWatermark} allowFontScaling={false}>{m.arabicChar}</Text>
+                <IconTile name={m.icon} tint={m.color} />
+                <Txt variant="body" weight="semibold" style={styles.moduleTitle}>{t(m.titleKey)}</Txt>
+                <Arabic
+                  size="inline"
+                  align="left"
+                  tone={m.color === color.sacred ? 'sacred' : 'accent'}
+                  style={styles.moduleArabic}
                 >
-                  <Text style={styles.moduleWatermark} allowFontScaling={false}>{m.arabicChar}</Text>
-                  <View style={[styles.moduleIcon, { backgroundColor: m.color + '22' }]}>
-                    <Ionicons name={m.icon} size={22} color={m.color} />
-                  </View>
-                  <Text style={styles.moduleTitle}>{t(m.titleKey)}</Text>
-                  <Text style={[styles.moduleArabic, { color: m.color }]}>{m.titleArabic}</Text>
-                </Pressable>
-              );
-            })}
+                  {m.titleArabic}
+                </Arabic>
+              </Card>
+            ))}
           </View>
-        </View>
+        </Section>
 
         {/* Tip of the day */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{t('home.tipOfTheDay')}</Text>
-          <View style={styles.tipCard}>
-            <View style={styles.tipAccent} />
-            <View style={styles.tipIcon}>
-              <Ionicons name="bulb" size={22} color="#D4AF37" />
-            </View>
+        <Section title={t('home.tipOfTheDay')}>
+          <Card style={styles.tipCard}>
+            <IconTile name="bulb" tint={color.sacred} />
             <View style={styles.tipContent}>
-              <Text style={styles.tipTitle}>{t(`home.tips.${tipIndex}.title`)}</Text>
-              <Text style={styles.tipText}>{t(`home.tips.${tipIndex}.text`)}</Text>
+              <Txt variant="body" weight="semibold" style={styles.tipTitle}>{t(`home.tips.${tipIndex}.title`)}</Txt>
+              <Txt variant="body" tone="muted">{t(`home.tips.${tipIndex}.text`)}</Txt>
             </View>
-          </View>
-        </View>
+          </Card>
+        </Section>
       </ScrollView>
     </SafeAreaView>
   );
@@ -151,191 +171,114 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   scroll: {
     paddingBottom: 110,
   },
 
-  // Header
+  // Masthead
   header: {
+    paddingHorizontal: gutter,
+    paddingTop: space.sm,
+    paddingBottom: space['2xl'],
+  },
+  headerTop: {
     flexDirection: 'row',
+    alignItems: 'flex-start',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingHorizontal: 20,
-    paddingTop: 8,
-    paddingBottom: 20,
+    gap: space.lg,
   },
   headerText: {
     flex: 1,
   },
-  greeting: {
-    fontSize: 30,
-    color: '#ffffff',
-    fontWeight: '800',
+  greetingArabic: {
+    // Amiri sits high in its em box; a negative top margin optically centres it.
+    marginTop: -space.xs,
   },
   greetingEnglish: {
-    fontSize: 15,
-    color: '#94a3b8',
-    marginTop: 4,
+    marginTop: space.xs,
   },
-  appIcon: {
-    width: 56,
-    height: 56,
-    borderRadius: 16,
-  },
-
-  // Sections
-  section: {
-    paddingHorizontal: 20,
-    marginBottom: 26,
-  },
-  sectionTitle: {
-    color: '#ffffff',
-    fontSize: 18,
-    fontWeight: '800',
-    marginBottom: 14,
-  },
-
-  // Continue card
-  continueCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 18,
-    padding: 16,
-    paddingLeft: 20,
+  streak: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 14,
-    borderWidth: 1,
-    borderColor: '#334155',
-    overflow: 'hidden',
+    gap: space.xs,
+    paddingHorizontal: space.md,
+    paddingVertical: space.sm,
+    borderRadius: radius.full,
+    backgroundColor: color.sacredSoft,
+    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderColor: withAlpha(color.sacred, 0.3),
+    marginTop: space.sm,
   },
-  continueAccent: {
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    bottom: 0,
-    width: 5,
+  streakCount: {
+    ...type.caption,
+    color: color.sacred,
+    fontWeight: weight.bold,
   },
-  continueIcon: {
-    width: 54,
-    height: 54,
-    borderRadius: 15,
+  rule: {
+    marginTop: space.xl,
+  },
+
+  // Continue
+  continueCard: {
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    gap: space.lg,
+    paddingLeft: space.xl,
   },
   continueText: {
     flex: 1,
   },
-  continueModuleName: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: '700',
-  },
-  continueModuleNameArabic: {
-    color: '#D4AF37',
-    fontSize: 15,
-    lineHeight: 24,
+  continueArabic: {
     marginTop: 1,
-  },
-  continueSub: {
-    color: '#94a3b8',
-    fontSize: 13,
-    marginTop: 3,
   },
   playButton: {
     width: 42,
     height: 42,
-    borderRadius: 21,
+    borderRadius: radius.full,
     alignItems: 'center',
     justifyContent: 'center',
+    // Nudge the glyph off-centre so the triangle reads as centred.
+    paddingLeft: 3,
   },
 
-  // Modules grid
+  // Explore grid
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    rowGap: 14,
+    rowGap: space.md,
   },
   moduleCard: {
     width: '48%',
-    backgroundColor: '#1e293b',
-    borderRadius: 18,
-    padding: 16,
-    borderWidth: 1,
-    borderColor: '#334155',
-    overflow: 'hidden',
-    minHeight: 116,
+    minHeight: 124,
   },
   moduleWatermark: {
     position: 'absolute',
-    right: 6,
-    bottom: -14,
-    fontSize: 84,
-    color: 'rgba(255, 255, 255, 0.04)',
-    fontWeight: '700',
-  },
-  moduleIcon: {
-    width: 46,
-    height: 46,
-    borderRadius: 13,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 14,
+    right: 4,
+    bottom: -18,
+    fontSize: 88,
+    lineHeight: 104,
+    color: 'rgba(255, 255, 255, 0.035)',
+    fontWeight: weight.bold,
   },
   moduleTitle: {
-    color: '#ffffff',
-    fontSize: 15,
-    fontWeight: '700',
+    marginTop: space.md,
   },
   moduleArabic: {
-    fontSize: 15,
-    lineHeight: 26,
-    marginTop: 2,
-    fontWeight: '600',
+    marginTop: 1,
   },
 
-  // Tip card
+  // Tip
   tipCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 18,
-    padding: 16,
-    paddingLeft: 20,
     flexDirection: 'row',
-    borderWidth: 1,
-    borderColor: '#334155',
-    overflow: 'hidden',
-  },
-  tipAccent: {
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    bottom: 0,
-    width: 5,
-    backgroundColor: '#D4AF37',
-  },
-  tipIcon: {
-    width: 46,
-    height: 46,
-    borderRadius: 14,
-    backgroundColor: '#D4AF3722',
-    alignItems: 'center',
-    justifyContent: 'center',
+    gap: space.lg,
   },
   tipContent: {
     flex: 1,
-    marginLeft: 14,
   },
   tipTitle: {
-    color: '#ffffff',
-    fontSize: 15,
-    fontWeight: '700',
-    marginBottom: 4,
-  },
-  tipText: {
-    color: '#94a3b8',
-    fontSize: 14,
-    lineHeight: 20,
+    marginBottom: space.xs,
   },
 });

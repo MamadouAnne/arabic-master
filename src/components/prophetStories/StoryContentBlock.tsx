@@ -4,6 +4,8 @@ import { StoryContentBlock as ContentBlock, QuranReference, HadithReference } fr
 import { QuranSourceCard } from './QuranSourceCard';
 import { HadithSourceCard } from './HadithSourceCard';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface StoryContentBlockProps {
   block: ContentBlock;
@@ -59,19 +61,19 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     paddingVertical: 4,
     paddingHorizontal: 2,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   narrativeText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 16,
     lineHeight: 26,
   },
   sourceContainer: {
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   highlighted: {
-    backgroundColor: '#3b82f620',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.accent, 0.13),
+    borderRadius: radius.md,
     paddingHorizontal: 8,
     marginHorizontal: -8,
   },

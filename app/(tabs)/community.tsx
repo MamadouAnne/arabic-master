@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Pressable,
-} from 'react-native';
+import { View, StyleSheet, Pressable } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
@@ -14,10 +9,12 @@ import { useSettingsStore } from '../../src/stores/settingsStore';
 import { GroupsTab } from '../../src/components/community/GroupsTab';
 import { DiscussionsTab } from '../../src/components/community/DiscussionsTab';
 import { ChallengesTab } from '../../src/components/community/ChallengesTab';
+import { Txt, Arabic } from '../../src/components/ui/Primitives';
+import { color, space, radius, gutter } from '../../src/theme/tokens';
 
 type CommunityTab = 'groups' | 'discussions' | 'challenges';
 
-const TABS: { key: CommunityTab; icon: string; labelKey: string }[] = [
+const TABS: { key: CommunityTab; icon: keyof typeof Ionicons.glyphMap; labelKey: string }[] = [
   { key: 'groups', icon: 'people', labelKey: 'community.tabGroups' },
   { key: 'discussions', icon: 'chatbubbles', labelKey: 'community.tabDiscussions' },
   { key: 'challenges', icon: 'flag', labelKey: 'community.tabChallenges' },
@@ -38,38 +35,45 @@ export default function CommunityScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
-      {/* Header */}
+      {/* Masthead. No illuminated rule here — the segmented control below
+          already divides the page, and the mark stays rare by design. */}
       <View style={styles.header}>
-        <View style={styles.headerTitleRow}>
-          <Text style={styles.headerTitle}>{t('community.title')}</Text>
-          <Text style={styles.headerTitleArabic}>{'المجتمع'}</Text>
-        </View>
+        <Arabic size="title" align="left">المجتمع</Arabic>
+        <Txt variant="caption" tone="faint" style={styles.headerLatin}>
+          {t('community.title')}
+        </Txt>
       </View>
 
-      {/* Tab bar */}
-      <View style={styles.tabBar}>
+      {/* Segmented control */}
+      <View style={styles.segmented}>
         {TABS.map((tab) => {
           const isActive = activeTab === tab.key;
           return (
             <Pressable
               key={tab.key}
-              style={[styles.tab, isActive && styles.tabActive]}
+              style={[styles.segment, isActive && styles.segmentActive]}
               onPress={() => setActiveTab(tab.key)}
+              accessibilityRole="tab"
+              accessibilityState={{ selected: isActive }}
+              accessibilityLabel={t(tab.labelKey)}
             >
               <Ionicons
-                name={tab.icon as any}
-                size={17}
-                color={isActive ? '#ffffff' : '#94a3b8'}
+                name={tab.icon}
+                size={16}
+                color={isActive ? color.textOnAccent : color.textMuted}
               />
-              <Text style={[styles.tabLabel, isActive && styles.tabLabelActive]}>
+              <Txt
+                variant="caption"
+                weight="semibold"
+                style={isActive ? styles.segmentLabelActive : styles.segmentLabel}
+              >
                 {t(tab.labelKey)}
-              </Text>
+              </Txt>
             </Pressable>
           );
         })}
       </View>
 
-      {/* Tab content */}
       <View style={styles.tabContent}>
         {activeTab === 'groups' && <GroupsTab />}
         {activeTab === 'discussions' && <DiscussionsTab />}
@@ -82,58 +86,46 @@ export default function CommunityScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
-    paddingHorizontal: 20,
-    paddingTop: 10,
-    paddingBottom: 12,
+    paddingHorizontal: gutter,
+    paddingTop: space.sm,
+    paddingBottom: space.lg,
   },
-  headerTitleRow: {
+  headerLatin: {
+    marginTop: 2,
+    textTransform: 'uppercase',
+    letterSpacing: 1.6,
+  },
+  segmented: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    marginHorizontal: gutter,
+    marginBottom: space.lg,
+    padding: space.xs,
+    backgroundColor: color.surfaceSunken,
+    borderRadius: radius.md,
+    borderWidth: StyleSheet.hairlineWidth * 2,
+    borderColor: color.border,
+    gap: space.xs,
   },
-  headerTitle: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#ffffff',
-  },
-  headerTitleArabic: {
-    fontSize: 24,
-    color: '#D4AF37',
-    fontWeight: '600',
-  },
-  tabBar: {
-    flexDirection: 'row',
-    marginHorizontal: 16,
-    marginBottom: 16,
-    padding: 4,
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
-    borderWidth: 1,
-    borderColor: '#334155',
-    gap: 4,
-  },
-  tab: {
+  segment: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 6,
-    paddingVertical: 10,
-    borderRadius: 10,
+    gap: space.sm,
+    paddingVertical: space.md,
+    borderRadius: radius.sm,
   },
-  tabActive: {
-    backgroundColor: '#6366f1',
+  segmentActive: {
+    backgroundColor: color.accent,
   },
-  tabLabel: {
-    fontSize: 13,
-    fontWeight: '600',
-    color: '#94a3b8',
+  segmentLabel: {
+    color: color.textMuted,
   },
-  tabLabelActive: {
-    color: '#ffffff',
+  segmentLabelActive: {
+    color: color.textOnAccent,
   },
   tabContent: {
     flex: 1,

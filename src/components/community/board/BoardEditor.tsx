@@ -15,6 +15,7 @@ import { buildBoardFromCourse } from './courseLayout';
 import type { CourseSpec } from '../../../types/aiBoard';
 import { listCurriculum, getCurriculumDigest } from '../../../data/arabic/curriculumSource';
 import { useSettingsStore } from '../../../stores/settingsStore';
+import { color as tk, radius } from '../../../theme/tokens';
 
 type Tool = 'move' | 'pen' | 'highlighter' | 'eraser' | 'line' | 'arrow' | 'rect' | 'circle' | 'text';
 
@@ -460,10 +461,10 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top', 'bottom']}>
         {/* Header */}
         <View style={styles.header}>
-          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color="#e2e8f0" /></Pressable>
+          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="close" size={24} color={tk.text} /></Pressable>
           <Text style={styles.headerTitle}>{initial ? 'Edit board' : 'Board'}</Text>
           <Pressable onPress={() => setBuilderOpen(true)} style={styles.iconBtn} hitSlop={6}>
-            <Ionicons name="list" size={20} color="#cbd5e1" />
+            <Ionicons name="list" size={20} color={tk.textMuted} />
           </Pressable>
           <Pressable onPress={() => setAiModal(lastSpecRef.current ? 'refine' : 'draft')} style={styles.aiBtn} hitSlop={6}>
             <Ionicons name="sparkles" size={18} color={groupColor} />
@@ -534,7 +535,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                   blurOnSubmit={false}
                   selectionColor={groupColor}
                   placeholder={t('community.typePlaceholder')}
-                  placeholderTextColor="#64748b"
+                  placeholderTextColor={tk.textFaint}
                 />
               )}
             </View>
@@ -544,11 +545,11 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
           {elements.length === 0 && !live && !editing && (
             <View style={styles.emptyState} pointerEvents="box-none">
               <Pressable style={[styles.draftBtn, { backgroundColor: groupColor }]} onPress={() => setAiModal('draft')}>
-                <Ionicons name="sparkles" size={18} color="#ffffff" />
+                <Ionicons name="sparkles" size={18} color={tk.text} />
                 <Text style={styles.draftText}>{t('community.draftCourseAI')}</Text>
               </Pressable>
               <Pressable style={styles.buildBtn} onPress={() => setBuilderOpen(true)}>
-                <Ionicons name="list" size={17} color="#cbd5e1" />
+                <Ionicons name="list" size={17} color={tk.textMuted} />
                 <Text style={styles.buildText}>{t('community.buildCourseManually')}</Text>
               </Pressable>
               <Text style={styles.emptyHint}>{t('community.orDrawFreely')}</Text>
@@ -565,7 +566,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                 const on = tool === s.tool;
                 return (
                   <Pressable key={s.tool} onPress={() => changeTool(s.tool)} style={[styles.shapeBtn, on && { backgroundColor: `${groupColor}22`, borderColor: groupColor }]}>
-                    <Ionicons name={s.icon as any} size={16} color={on ? groupColor : '#cbd5e1'} />
+                    <Ionicons name={s.icon as any} size={16} color={on ? groupColor: tk.textMuted} />
                     <Text style={[styles.shapeText, on && { color: groupColor }]}>{s.label}</Text>
                   </Pressable>
                 );
@@ -578,15 +579,15 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
             <View style={styles.selBar}>
               {elements[selectedIndex].type !== 'stroke' && (
                 <View style={styles.selResize}>
-                  <Pressable style={styles.stepBtn} onPress={() => resizeSelected(-1)}><Ionicons name="remove" size={18} color="#e2e8f0" /></Pressable>
+                  <Pressable style={styles.stepBtn} onPress={() => resizeSelected(-1)}><Ionicons name="remove" size={18} color={tk.text} /></Pressable>
                   <Text style={styles.selResizeLabel}>{t('community.size')}</Text>
-                  <Pressable style={styles.stepBtn} onPress={() => resizeSelected(1)}><Ionicons name="add" size={18} color="#e2e8f0" /></Pressable>
+                  <Pressable style={styles.stepBtn} onPress={() => resizeSelected(1)}><Ionicons name="add" size={18} color={tk.text} /></Pressable>
                 </View>
               )}
               {elements[selectedIndex].type === 'text' && (
-                <Pressable style={styles.selAction} onPress={editSelected}><Ionicons name="create-outline" size={17} color="#cbd5e1" /><Text style={styles.selActionText}>{t('community.edit')}</Text></Pressable>
+                <Pressable style={styles.selAction} onPress={editSelected}><Ionicons name="create-outline" size={17} color={tk.textMuted} /><Text style={styles.selActionText}>{t('community.edit')}</Text></Pressable>
               )}
-              <Pressable style={styles.selAction} onPress={deleteSelected}><Ionicons name="trash-outline" size={17} color="#ef4444" /><Text style={[styles.selActionText, { color: '#ef4444' }]}>{t('community.delete')}</Text></Pressable>
+              <Pressable style={styles.selAction} onPress={deleteSelected}><Ionicons name="trash-outline" size={17} color={tk.danger} /><Text style={[styles.selActionText, { color: tk.danger }]}>{t('community.delete')}</Text></Pressable>
               <Pressable style={styles.selAction} onPress={() => setSelectedIndex(null)}><Text style={[styles.selActionText, { color: groupColor }]}>{t('common.done')}</Text></Pressable>
             </View>
           ) : tool === 'move' && !editing ? (
@@ -636,15 +637,15 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
 
           {/* Actions (labeled) */}
           <View style={styles.actionsRow}>
-            <Pressable style={styles.action} onPress={undo}><Ionicons name="arrow-undo" size={19} color="#cbd5e1" /><Text style={styles.actionText}>{t('community.undo')}</Text></Pressable>
-            <Pressable style={styles.action} onPress={doRedo}><Ionicons name="arrow-redo" size={19} color="#cbd5e1" /><Text style={styles.actionText}>{t('community.redo')}</Text></Pressable>
+            <Pressable style={styles.action} onPress={undo}><Ionicons name="arrow-undo" size={19} color={tk.textMuted} /><Text style={styles.actionText}>{t('community.undo')}</Text></Pressable>
+            <Pressable style={styles.action} onPress={doRedo}><Ionicons name="arrow-redo" size={19} color={tk.textMuted} /><Text style={styles.actionText}>{t('community.redo')}</Text></Pressable>
             <Pressable style={styles.action} onPress={() => setBackground((b) => BACKGROUNDS[(BACKGROUNDS.indexOf(b) + 1) % BACKGROUNDS.length])}>
               <View style={[styles.paperSwatch, { backgroundColor: BOARD_BG[background] }]} /><Text style={styles.actionText}>{t('community.paper')}</Text>
             </Pressable>
             <Pressable style={styles.action} onPress={() => setGrid((g) => (g === 'none' ? 'lines' : g === 'lines' ? 'grid' : 'none'))}>
-              <Ionicons name={grid === 'grid' ? 'grid' : grid === 'lines' ? 'reorder-four' : 'square-outline'} size={19} color="#cbd5e1" /><Text style={styles.actionText}>{t('community.grid')}</Text>
+              <Ionicons name={grid === 'grid' ? 'grid' : grid === 'lines' ? 'reorder-four' : 'square-outline'} size={19} color={tk.textMuted} /><Text style={styles.actionText}>{t('community.grid')}</Text>
             </Pressable>
-            <Pressable style={styles.action} onPress={clearAll}><Ionicons name="trash-outline" size={19} color="#ef4444" /><Text style={[styles.actionText, { color: '#ef4444' }]}>{t('common.clear')}</Text></Pressable>
+            <Pressable style={styles.action} onPress={clearAll}><Ionicons name="trash-outline" size={19} color={tk.danger} /><Text style={[styles.actionText, { color: tk.danger }]}>{t('common.clear')}</Text></Pressable>
           </View>
         </View>
 
@@ -656,9 +657,9 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
             pointerEvents="box-none"
           >
             <View style={styles.textBar}>
-              <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.max(14, s - 3))}><Ionicons name="remove" size={20} color="#e2e8f0" /></Pressable>
+              <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.max(14, s - 3))}><Ionicons name="remove" size={20} color={tk.text} /></Pressable>
               <Text style={styles.stepVal}>{textSize}</Text>
-              <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.min(80, s + 3))}><Ionicons name="add" size={20} color="#e2e8f0" /></Pressable>
+              <Pressable style={styles.stepBtn} onPress={() => setTextSize((s) => Math.min(80, s + 3))}><Ionicons name="add" size={20} color={tk.text} /></Pressable>
               <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.textBarSwatches} contentContainerStyle={{ gap: 10, alignItems: 'center', paddingHorizontal: 4 }} keyboardShouldPersistTaps="handled">
                 {PALETTE.map((c) => (
                   <Pressable key={c} onPress={() => setTextColor(c)} style={[styles.swatch, { backgroundColor: c }, textColor === c && styles.swatchActive]} />
@@ -742,57 +743,57 @@ function hitTest(el: BoardElement, x: number, y: number, canvasWidth: number): b
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0b1220' },
+  container: { flex: 1, backgroundColor: tk.bg },
   header: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 16, paddingVertical: 10 },
-  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: '#f8fafc' },
-  iconBtn: { width: 36, height: 34, borderRadius: 10, alignItems: 'center', justifyContent: 'center', backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155', marginRight: 8 },
-  aiBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 7, borderRadius: 11, backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155', marginRight: 8 },
+  headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: tk.text },
+  iconBtn: { width: 36, height: 34, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center', backgroundColor: tk.surface, borderWidth: 1, borderColor: tk.border, marginRight: 8 },
+  aiBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 7, borderRadius: radius.md, backgroundColor: tk.surface, borderWidth: 1, borderColor: tk.border, marginRight: 8 },
   aiBtnText: { fontWeight: '800', fontSize: 13 },
-  buildBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 18, paddingVertical: 11, borderRadius: 14, backgroundColor: '#1e293b', borderWidth: 1, borderColor: '#334155' },
-  buildText: { color: '#cbd5e1', fontWeight: '700', fontSize: 14 },
-  postBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 12 },
-  postText: { color: '#ffffff', fontWeight: '700', fontSize: 14 },
+  buildBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 18, paddingVertical: 11, borderRadius: radius.md, backgroundColor: tk.surface, borderWidth: 1, borderColor: tk.border },
+  buildText: { color: tk.textMuted, fontWeight: '700', fontSize: 14 },
+  postBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
+  postText: { color: tk.text, fontWeight: '700', fontSize: 14 },
   emptyState: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, alignItems: 'center', justifyContent: 'center', gap: 12 },
-  draftBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 20, paddingVertical: 13, borderRadius: 16, shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 8, shadowOffset: { width: 0, height: 3 }, elevation: 5 },
-  draftText: { color: '#ffffff', fontWeight: '800', fontSize: 15 },
-  emptyHint: { fontSize: 12.5, color: '#64748b' },
+  draftBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 20, paddingVertical: 13, borderRadius: radius.lg, shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 8, shadowOffset: { width: 0, height: 3 }, elevation: 5 },
+  draftText: { color: tk.text, fontWeight: '800', fontSize: 15 },
+  emptyHint: { fontSize: 12.5, color: tk.textFaint },
   canvasWrap: { flex: 1, overflow: 'hidden' },
   // Bottom panel
-  panel: { backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', paddingTop: 8 },
+  panel: { backgroundColor: tk.bg, borderTopWidth: 1, borderTopColor: tk.borderSubtle, paddingTop: 8 },
   shapeRow: { flexDirection: 'row', justifyContent: 'center', gap: 8, paddingHorizontal: 12, paddingBottom: 8 },
-  moveHint: { fontSize: 11.5, color: '#64748b', textAlign: 'center', paddingBottom: 6 },
+  moveHint: { fontSize: 11.5, color: tk.textFaint, textAlign: 'center', paddingBottom: 6 },
   selBar: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 12, paddingHorizontal: 12, paddingBottom: 8, flexWrap: 'wrap' },
   selResize: { flexDirection: 'row', alignItems: 'center', gap: 6 },
-  selResizeLabel: { fontSize: 12, fontWeight: '700', color: '#94a3b8' },
+  selResizeLabel: { fontSize: 12, fontWeight: '700', color: tk.textMuted },
   selAction: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 6 },
-  selActionText: { fontSize: 13, fontWeight: '700', color: '#cbd5e1' },
-  shapeBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 12, paddingVertical: 7, borderRadius: 20, backgroundColor: '#1e293b', borderWidth: 1.5, borderColor: 'transparent' },
-  shapeText: { fontSize: 13, fontWeight: '600', color: '#cbd5e1' },
+  selActionText: { fontSize: 13, fontWeight: '700', color: tk.textMuted },
+  shapeBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 12, paddingVertical: 7, borderRadius: radius.xl, backgroundColor: tk.surface, borderWidth: 1.5, borderColor: 'transparent' },
+  shapeText: { fontSize: 13, fontWeight: '600', color: tk.textMuted },
   toolsRow: { flexDirection: 'row', justifyContent: 'space-around', paddingHorizontal: 6, paddingBottom: 6 },
   toolCol: { alignItems: 'center', gap: 4, width: 60 },
-  toolIcon: { width: 46, height: 40, borderRadius: 12, alignItems: 'center', justifyContent: 'center', backgroundColor: '#1e293b' },
-  toolLabel: { fontSize: 11, fontWeight: '600', color: '#94a3b8' },
-  divider: { height: 1, backgroundColor: '#1e293b', marginVertical: 4 },
+  toolIcon: { width: 46, height: 40, borderRadius: radius.md, alignItems: 'center', justifyContent: 'center', backgroundColor: tk.surface },
+  toolLabel: { fontSize: 11, fontWeight: '600', color: tk.textMuted },
+  divider: { height: 1, backgroundColor: tk.surface, marginVertical: 4 },
   controlsRow: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 8 },
   swatches: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingRight: 6 },
-  swatch: { width: 28, height: 28, borderRadius: 14, borderWidth: 2, borderColor: 'rgba(255,255,255,0.15)' },
-  swatchActive: { borderColor: '#ffffff', transform: [{ scale: 1.18 }] },
-  sizeGroup: { flexDirection: 'row', gap: 4, backgroundColor: '#1e293b', borderRadius: 12, padding: 3 },
-  sizeBtn: { width: 34, height: 30, borderRadius: 9, alignItems: 'center', justifyContent: 'center' },
-  sizeText: { fontSize: 14, fontWeight: '800', color: '#94a3b8' },
+  swatch: { width: 28, height: 28, borderRadius: radius.md, borderWidth: 2, borderColor: 'rgba(255,255,255,0.15)' },
+  swatchActive: { borderColor: tk.text, transform: [{ scale: 1.18 }] },
+  sizeGroup: { flexDirection: 'row', gap: 4, backgroundColor: tk.surface, borderRadius: radius.md, padding: 3 },
+  sizeBtn: { width: 34, height: 30, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center' },
+  sizeText: { fontSize: 14, fontWeight: '800', color: tk.textMuted },
   actionsRow: { flexDirection: 'row', justifyContent: 'space-around', paddingHorizontal: 8, paddingTop: 2, paddingBottom: 6 },
   action: { alignItems: 'center', gap: 3, paddingHorizontal: 8, paddingVertical: 4 },
-  actionText: { fontSize: 11, fontWeight: '600', color: '#94a3b8' },
-  paperSwatch: { width: 19, height: 19, borderRadius: 5, borderWidth: 1, borderColor: '#475569' },
+  actionText: { fontSize: 11, fontWeight: '600', color: tk.textMuted },
+  paperSwatch: { width: 19, height: 19, borderRadius: 5, borderWidth: 1, borderColor: tk.borderStrong },
   // Inline text caret (typed directly on the board)
   inlineInput: { position: 'absolute', padding: 0, margin: 0, fontWeight: '700', textAlignVertical: 'top', includeFontPadding: false },
   // Floating text controls above the keyboard
   textBarWrap: { position: 'absolute', left: 0, right: 0, bottom: 0, justifyContent: 'flex-end' },
-  textBar: { flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: '#0f172a', borderTopWidth: 1, borderTopColor: '#1e293b', paddingHorizontal: 12, paddingVertical: 10 },
+  textBar: { flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: tk.bg, borderTopWidth: 1, borderTopColor: tk.borderSubtle, paddingHorizontal: 12, paddingVertical: 10 },
   textBarSwatches: { flex: 1 },
-  stepBtn: { width: 38, height: 34, borderRadius: 9, backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: '#334155' },
-  stepVal: { fontSize: 15, fontWeight: '800', color: '#f8fafc', minWidth: 30, textAlign: 'center', fontVariant: ['tabular-nums'] },
-  textCancel: { fontSize: 15, color: '#94a3b8', fontWeight: '600' },
-  textAdd: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 10 },
-  textAddText: { color: '#ffffff', fontWeight: '700' },
+  stepBtn: { width: 38, height: 34, borderRadius: radius.sm, backgroundColor: tk.surface, alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: tk.border },
+  stepVal: { fontSize: 15, fontWeight: '800', color: tk.text, minWidth: 30, textAlign: 'center', fontVariant: ['tabular-nums'] },
+  textCancel: { fontSize: 15, color: tk.textMuted, fontWeight: '600' },
+  textAdd: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.sm },
+  textAddText: { color: tk.text, fontWeight: '700' },
 });

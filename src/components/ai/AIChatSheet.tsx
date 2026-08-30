@@ -21,6 +21,7 @@ import { AIChatInput } from './AIChatInput';
 import { AIQuickSuggestions } from './AIQuickSuggestions';
 import { CreditPurchaseSheet } from './CreditPurchaseSheet';
 import { AIVoiceChat } from './AIVoiceChat';
+import { color } from '../../theme/tokens';
 
 const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SHEET_HEIGHT_RATIO = 0.85;
@@ -271,13 +272,13 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   sheet: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     overflow: 'hidden',
   },
   messageArea: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
 });

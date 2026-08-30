@@ -17,6 +17,8 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { QuizOption } from '../../src/components/quiz/QuizOption';
 import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 interface Question {
   id: string;
@@ -243,7 +245,7 @@ export default function ExerciseScreen() {
             </View>
             <View style={styles.resultDivider} />
             <View style={styles.resultItem}>
-              <Text style={[styles.resultValue, { color: '#6366f1' }]}>{accuracy}%</Text>
+              <Text style={[styles.resultValue, { color: color.accentStrong }]}>{accuracy}%</Text>
               <Text style={styles.resultLabel}>{t('common.accuracy')}</Text>
             </View>
           </View>
@@ -267,7 +269,7 @@ export default function ExerciseScreen() {
                 setQuestions(newQuestions);
               }}
             >
-              <Ionicons name="refresh" size={20} color="#6366f1" />
+              <Ionicons name="refresh" size={20} color={color.accentStrong} />
               <Text style={styles.retryButtonText}>{t('common.tryAgain')}</Text>
             </Pressable>
             <Pressable style={styles.doneButton} onPress={() => router.back()}>
@@ -286,7 +288,7 @@ export default function ExerciseScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>{exerciseTitle}</Text>
@@ -295,7 +297,7 @@ export default function ExerciseScreen() {
           </Text>
         </View>
         <View style={styles.scoreBox}>
-          <Ionicons name="star" size={16} color="#D4AF37" />
+          <Ionicons name="star" size={16} color={color.sacred} />
           <Text style={styles.scoreText}>{score.correct}</Text>
         </View>
       </View>
@@ -375,7 +377,7 @@ export default function ExerciseScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loading: {
     flex: 1,
@@ -383,7 +385,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
   },
   header: {
@@ -397,8 +399,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -406,25 +408,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   scoreBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 8,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   scoreText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: 'bold',
     marginLeft: 4,
   },
@@ -434,13 +436,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 2,
   },
   questionContainer: {
@@ -449,7 +451,7 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   questionText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     fontWeight: '600',
     textAlign: 'center',
@@ -459,22 +461,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   questionArabic: {
+    fontFamily: font.arabic,
     fontSize: 72,
     lineHeight: 104,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
   },
   questionAudioBtn: {
     marginTop: 16,
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   questionAudioBtnActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   optionsContainer: {
     paddingHorizontal: 20,
@@ -506,18 +509,18 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   completeSubtitle: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 32,
   },
   resultsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -529,21 +532,21 @@ const styles = StyleSheet.create({
   resultValue: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   resultLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   resultDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 16,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginBottom: 32,
   },
@@ -557,28 +560,28 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 2,
-    borderColor: '#6366f1',
+    borderColor: color.accentStrong,
   },
   retryButtonText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 8,
   },
   doneButton: {
     flex: 1,
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.lg,
     padding: 16,
     alignItems: 'center',
     justifyContent: 'center',
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
   },

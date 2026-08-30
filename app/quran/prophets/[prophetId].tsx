@@ -10,6 +10,8 @@ import { SubStoryNav, StoryContentBlock } from '../../../src/components/prophetS
 import { useProphetStoriesStore } from '../../../src/stores/prophetStoriesStore';
 import { SubStory, QuranReference } from '../../../src/types/prophetStories';
 import { quranAudioService, AudioState } from '../../../src/services/quranAudioService';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 export default function ProphetStoryScreen() {
   const { t } = useTranslation();
@@ -124,7 +126,7 @@ export default function ProphetStoryScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#6366f1" />
+          <ActivityIndicator size="large" color={color.accentStrong} />
           <Text style={styles.loadingText}>{t('prophetsFeature.loadingStory')}</Text>
         </View>
       </SafeAreaView>
@@ -140,7 +142,7 @@ export default function ProphetStoryScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <View style={styles.prophetNameRow}>
@@ -151,7 +153,7 @@ export default function ProphetStoryScreen() {
         </View>
         <View style={styles.headerMeta}>
           <View style={styles.metaItem}>
-            <Ionicons name="time-outline" size={14} color="#64748b" />
+            <Ionicons name="time-outline" size={14} color={color.textFaint} />
             <Text style={styles.metaText}>{prophet.estimatedReadTime} {t('common.min')}</Text>
           </View>
         </View>
@@ -182,11 +184,11 @@ export default function ProphetStoryScreen() {
             )}
             <View style={styles.subStoryMeta}>
               <View style={styles.metaItem}>
-                <Ionicons name="book-outline" size={12} color="#64748b" />
+                <Ionicons name="book-outline" size={12} color={color.textFaint} />
                 <Text style={styles.metaText}>{sourceCount} {t('prophetsFeature.sources')}</Text>
               </View>
               <View style={styles.metaItem}>
-                <Ionicons name="time-outline" size={12} color="#64748b" />
+                <Ionicons name="time-outline" size={12} color={color.textFaint} />
                 <Text style={styles.metaText}>{currentSubStory.estimatedReadTime} {t('common.min')}</Text>
               </View>
             </View>
@@ -196,7 +198,7 @@ export default function ProphetStoryScreen() {
         {/* Content Blocks */}
         {!hasFullStory ? (
           <View style={styles.comingSoonContainer}>
-            <Ionicons name="construct-outline" size={48} color="#64748b" />
+            <Ionicons name="construct-outline" size={48} color={color.textFaint} />
             <Text style={styles.comingSoonTitle}>{t('prophetsFeature.comingSoon')}</Text>
             <Text style={styles.comingSoonText}>
               {t('prophetsFeature.fullStoryOf')} {lc(prophet.nameEnglish, prophet.nameFrench)} {t('prophetsFeature.beingPrepared')}
@@ -210,7 +212,7 @@ export default function ProphetStoryScreen() {
                 <Text style={styles.lessonsTitle}>{t('prophetsFeature.keyLessons')}</Text>
                 {lcArray(prophet.lessons, prophet.lessonsFr).map((lesson, index) => (
                   <View key={index} style={styles.lessonItem}>
-                    <Ionicons name="checkmark-circle" size={16} color="#10b981" />
+                    <Ionicons name="checkmark-circle" size={16} color={color.progress} />
                     <Text style={styles.lessonText}>{lesson}</Text>
                   </View>
                 ))}
@@ -236,14 +238,14 @@ export default function ProphetStoryScreen() {
             {/* Mark Complete Button */}
             {currentContent.length > 0 && !isCurrentSubStoryCompleted && (
               <Pressable style={styles.completeButton} onPress={handleMarkComplete}>
-                <Ionicons name="checkmark-circle-outline" size={20} color="#10b981" />
+                <Ionicons name="checkmark-circle-outline" size={20} color={color.progress} />
                 <Text style={styles.completeButtonText}>{t('prophetsFeature.markComplete')}</Text>
               </Pressable>
             )}
 
             {isCurrentSubStoryCompleted && (
               <View style={styles.completedBadge}>
-                <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                 <Text style={styles.completedText}>{t('prophetsFeature.sectionCompleted')}</Text>
               </View>
             )}
@@ -260,7 +262,7 @@ export default function ProphetStoryScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -269,7 +271,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   header: {
@@ -278,7 +280,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   backButton: {
     padding: 8,
@@ -293,17 +295,19 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   prophetNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 37,
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   prophetNameEnglish: {
     fontSize: 18,
-    color: '#cbd5e1',
+    color: color.textMuted,
   },
   prophetTitle: {
     fontSize: 12,
-    color: '#818cf8',
+    color: color.accent,
     marginTop: 2,
   },
   headerMeta: {
@@ -315,7 +319,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
   contentContainer: {
@@ -328,11 +332,13 @@ const styles = StyleSheet.create({
   subStoryTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   subStoryTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#818cf8',
+    color: color.accent,
     marginTop: 4,
   },
   subStoryMeta: {
@@ -350,20 +356,20 @@ const styles = StyleSheet.create({
   comingSoonTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginTop: 16,
   },
   comingSoonText: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginTop: 8,
     lineHeight: 22,
     paddingHorizontal: 20,
   },
   summaryCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginTop: 24,
     width: '100%',
@@ -371,17 +377,17 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#818cf8',
+    color: color.accent,
     marginBottom: 8,
   },
   summaryText: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   lessonsCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginTop: 16,
     width: '100%',
@@ -389,7 +395,7 @@ const styles = StyleSheet.create({
   lessonsTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 12,
   },
   lessonItem: {
@@ -401,23 +407,23 @@ const styles = StyleSheet.create({
   lessonText: {
     flex: 1,
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 20,
   },
   completeButton: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#10b98120',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderRadius: radius.md,
     paddingVertical: 14,
     marginTop: 24,
     gap: 8,
     borderWidth: 1,
-    borderColor: '#10b98140',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   completeButtonText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -425,14 +431,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#10b98120',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderRadius: radius.md,
     paddingVertical: 14,
     marginTop: 24,
     gap: 8,
   },
   completedText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 15,
     fontWeight: '600',
   },

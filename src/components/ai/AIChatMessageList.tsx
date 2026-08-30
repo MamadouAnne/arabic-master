@@ -9,6 +9,7 @@ import { useSettingsStore } from '../../stores/settingsStore';
 import { useAIChatStore } from '../../stores/aiChatStore';
 import { getContextualSuggestions } from '../../services/aiContextService';
 import audioService from '../../services/audioService';
+import { color, radius } from '../../theme/tokens';
 
 interface Props {
   messages: ChatMessage[];
@@ -207,8 +208,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   welcomeCard: {
-    backgroundColor: '#334155',
-    borderRadius: 16,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.lg,
     padding: 20,
     alignItems: 'center',
     maxWidth: 320,
@@ -218,7 +219,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   welcomeText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 15,
     lineHeight: 22,
     textAlign: 'center',
@@ -230,15 +231,15 @@ const styles = StyleSheet.create({
     maxWidth: 320,
   },
   suggestionChip: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderWidth: 1,
-    borderColor: '#334155',
-    borderRadius: 20,
+    borderColor: color.border,
+    borderRadius: radius.xl,
     paddingHorizontal: 16,
     paddingVertical: 10,
   },
   suggestionText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
   },

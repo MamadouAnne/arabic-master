@@ -5,6 +5,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useArabicSpeech } from '../../hooks/useArabicSpeech';
 import type { SharedContent } from '../../data/community/socialData';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface Props {
   content: SharedContent;
@@ -71,7 +73,7 @@ export const SharedContentCard = React.memo(function SharedContentCard({ content
         ) : null}
         {onPractice ? (
           <Pressable style={[styles.practiceBtn, { backgroundColor: groupColor }]} onPress={onPractice}>
-            <Ionicons name="people" size={13} color="#ffffff" />
+            <Ionicons name="people" size={13} color={color.text} />
             <Text style={styles.practiceText}>{t('community.practiceTogether')}</Text>
           </Pressable>
         ) : null}
@@ -81,23 +83,25 @@ export const SharedContentCard = React.memo(function SharedContentCard({ content
 });
 
 const styles = StyleSheet.create({
-  card: { borderRadius: 16, padding: 14, maxWidth: '100%', minWidth: 240, borderWidth: 1 },
+  card: { borderRadius: radius.lg, padding: 14, maxWidth: '100%', minWidth: 240, borderWidth: 1 },
   cardMe: { backgroundColor: 'rgba(16,185,129,0.18)', borderColor: 'rgba(16,185,129,0.4)', borderBottomRightRadius: 4 },
-  cardOther: { backgroundColor: '#1e293b', borderColor: '#334155', borderBottomLeftRadius: 4 },
+  cardOther: { backgroundColor: color.surface, borderColor: color.border, borderBottomLeftRadius: 4 },
   header: { flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 8 },
   kind: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.4 },
-  ref: { fontSize: 11, color: '#94a3b8', marginLeft: 'auto', maxWidth: 130 },
-  arabic: { fontSize: 27, color: '#f8fafc', lineHeight: 48, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
-  audioBtn: { width: 30, height: 30, borderRadius: 15, alignItems: 'center', justifyContent: 'center', marginLeft: 6 },
+  ref: { fontSize: 11, color: color.textMuted, marginLeft: 'auto', maxWidth: 130 },
+  arabic: {
+    fontFamily: font.arabic, fontSize: 27, color: color.text, lineHeight: 48, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
+  audioBtn: { width: 30, height: 30, borderRadius: radius.lg, alignItems: 'center', justifyContent: 'center', marginLeft: 6 },
   divider: { height: 1, backgroundColor: 'rgba(148,163,184,0.2)', marginTop: 12, marginBottom: 10 },
-  translit: { fontSize: 15, color: '#cbd5e1', lineHeight: 25, letterSpacing: 0.2 },
-  translation: { fontSize: 16, color: '#f1f5f9', lineHeight: 25, marginTop: 12 },
-  exampleBox: { marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: '#33415580' },
-  exampleArabic: { fontSize: 17, color: '#f1f5f9', lineHeight: 28, textAlign: 'right', writingDirection: 'rtl' },
-  exampleTr: { fontSize: 12, color: '#94a3b8', marginTop: 2 },
+  translit: { fontSize: 15, color: color.textMuted, lineHeight: 25, letterSpacing: 0.2 },
+  translation: { fontSize: 16, color: color.text, lineHeight: 25, marginTop: 12 },
+  exampleBox: { marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: withAlpha(color.border, 0.5) },
+  exampleArabic: {
+    fontFamily: font.arabic, fontSize: 17, color: color.text, lineHeight: 28, textAlign: 'right', writingDirection: 'rtl' },
+  exampleTr: { fontSize: 12, color: color.textMuted, marginTop: 2 },
   actionsRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 12, flexWrap: 'wrap' },
   openRow: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingVertical: 4 },
   openText: { fontSize: 12, fontWeight: '600' },
-  practiceBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 10, paddingVertical: 6, borderRadius: 14 },
-  practiceText: { fontSize: 12, fontWeight: '700', color: '#ffffff' },
+  practiceBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.md },
+  practiceText: { fontSize: 12, fontWeight: '700', color: color.text },
 });

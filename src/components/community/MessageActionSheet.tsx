@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable, Modal } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { ReactionPicker } from './ReactionPicker';
+import { color, radius } from '../../theme/tokens';
 
 export interface MessageActions {
   canReply: boolean;
@@ -39,7 +40,7 @@ export function MessageActionSheet({
       onPress={() => { onPress(); onClose(); }}
     >
       <Ionicons name={icon as any} size={20} color={danger ? '#ef4444' : '#cbd5e1'} />
-      <Text style={[styles.rowText, danger && { color: '#ef4444' }]}>{label}</Text>
+      <Text style={[styles.rowText, danger && { color: color.danger }]}>{label}</Text>
     </Pressable>
   );
 
@@ -73,10 +74,10 @@ export function MessageActionSheet({
 
 const styles = StyleSheet.create({
   backdrop: { flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', justifyContent: 'flex-end' },
-  sheet: { backgroundColor: '#1e293b', borderTopLeftRadius: 20, borderTopRightRadius: 20, paddingTop: 8, paddingBottom: 34, paddingHorizontal: 8, borderTopWidth: 1, borderColor: '#334155' },
-  reactionRow: { alignItems: 'center', paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: '#334155', marginBottom: 6 },
-  row: { flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 14, borderRadius: 12 },
-  rowText: { fontSize: 16, color: '#e2e8f0', fontWeight: '500' },
-  cancel: { marginTop: 8, marginHorizontal: 8, paddingVertical: 14, borderRadius: 12, backgroundColor: '#0f172a', alignItems: 'center' },
-  cancelText: { fontSize: 16, color: '#94a3b8', fontWeight: '600' },
+  sheet: { backgroundColor: color.surface, borderTopLeftRadius: 20, borderTopRightRadius: 20, paddingTop: 8, paddingBottom: 34, paddingHorizontal: 8, borderTopWidth: 1, borderColor: color.border },
+  reactionRow: { alignItems: 'center', paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: color.border, marginBottom: 6 },
+  row: { flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 14, borderRadius: radius.md },
+  rowText: { fontSize: 16, color: color.text, fontWeight: '500' },
+  cancel: { marginTop: 8, marginHorizontal: 8, paddingVertical: 14, borderRadius: radius.md, backgroundColor: color.bg, alignItems: 'center' },
+  cancelText: { fontSize: 16, color: color.textMuted, fontWeight: '600' },
 });

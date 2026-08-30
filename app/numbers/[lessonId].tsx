@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { getNumbersLesson, NUMBERS_LESSONS, NumbersBlock } from '../../src/data/arabic/numbers/numbersCourse';
+import { font, color, radius } from '../../src/theme/tokens';
 
 export default function NumbersLessonScreen() {
   const { lessonId } = useLocalSearchParams<{ lessonId: string }>();
@@ -23,7 +24,7 @@ export default function NumbersLessonScreen() {
       <SafeAreaView style={styles.container} edges={['top']}>
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()} hitSlop={8}>
-            <Ionicons name="arrow-back" size={24} color="#94a3b8" />
+            <Ionicons name="arrow-back" size={24} color={color.textMuted} />
           </Pressable>
           <View style={{ flex: 1 }} />
         </View>
@@ -50,7 +51,7 @@ export default function NumbersLessonScreen() {
                     {!!item.digit && <Text style={styles.numberDigit}>{item.digit}</Text>}
                     {!!item.value && <Text style={styles.numberValue}>{item.value}</Text>}
                     <View style={{ flex: 1 }} />
-                    <Ionicons name="volume-medium" size={16} color="#D4AF37" />
+                    <Ionicons name="volume-medium" size={16} color={color.sacred} />
                   </View>
                   <Text style={styles.numberArabic}>{item.arabic}</Text>
                   <Text style={styles.numberTranslit}>{item.translit}</Text>
@@ -82,7 +83,7 @@ export default function NumbersLessonScreen() {
                   <Text style={styles.exampleMeaning}>{lc(ex.en, ex.fr)}</Text>
                 </View>
                 <View style={styles.exampleAudio}>
-                  <Ionicons name="volume-high" size={18} color="#D4AF37" />
+                  <Ionicons name="volume-high" size={18} color={color.sacred} />
                 </View>
               </Pressable>
             ))}
@@ -120,7 +121,7 @@ export default function NumbersLessonScreen() {
       case 'tip':
         return (
           <View key={i} style={styles.tipCard}>
-            <Ionicons name="bulb" size={18} color="#D4AF37" />
+            <Ionicons name="bulb" size={18} color={color.sacred} />
             <Text style={styles.tipText}>{lc(block.text, block.textFr)}</Text>
           </View>
         );
@@ -134,7 +135,7 @@ export default function NumbersLessonScreen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()} hitSlop={8}>
-          <Ionicons name="arrow-back" size={24} color="#94a3b8" />
+          <Ionicons name="arrow-back" size={24} color={color.textMuted} />
         </Pressable>
         <View style={styles.headerTitles}>
           <Text style={styles.headerTitle} numberOfLines={1}>{lc(lesson.title, lesson.titleFr)}</Text>
@@ -150,14 +151,14 @@ export default function NumbersLessonScreen() {
         <View style={styles.navRow}>
           {prev ? (
             <Pressable style={styles.navBtn} onPress={() => router.replace(`/numbers/${prev.id}` as any)}>
-              <Ionicons name="chevron-back" size={18} color="#94a3b8" />
+              <Ionicons name="chevron-back" size={18} color={color.textMuted} />
               <Text style={styles.navText} numberOfLines={1}>{lc(prev.title, prev.titleFr)}</Text>
             </Pressable>
           ) : <View style={{ flex: 1 }} />}
           {next ? (
             <Pressable style={[styles.navBtn, styles.navBtnNext]} onPress={() => router.replace(`/numbers/${next.id}` as any)}>
               <Text style={styles.navText} numberOfLines={1}>{lc(next.title, next.titleFr)}</Text>
-              <Ionicons name="chevron-forward" size={18} color="#94a3b8" />
+              <Ionicons name="chevron-forward" size={18} color={color.textMuted} />
             </Pressable>
           ) : <View style={{ flex: 1 }} />}
         </View>
@@ -169,7 +170,7 @@ export default function NumbersLessonScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -177,95 +178,99 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
   },
   backButton: {
-    width: 40, height: 40, borderRadius: 20,
-    backgroundColor: '#1e293b', alignItems: 'center', justifyContent: 'center',
+    width: 40, height: 40, borderRadius: radius.xl,
+    backgroundColor: color.surface, alignItems: 'center', justifyContent: 'center',
   },
   headerTitles: { flex: 1, alignItems: 'center', paddingHorizontal: 8 },
-  headerTitle: { fontSize: 17, fontWeight: 'bold', color: '#ffffff' },
-  headerTitleArabic: { fontSize: 14, color: '#D4AF37', marginTop: 2 },
+  headerTitle: { fontSize: 17, fontWeight: 'bold', color: color.text },
+  headerTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24, fontSize: 14, color: color.sacred, marginTop: 2 },
   content: { paddingHorizontal: 20, paddingTop: 4 },
-  notFound: { color: '#94a3b8', textAlign: 'center', marginTop: 40 },
+  notFound: { color: color.textMuted, textAlign: 'center', marginTop: 40 },
 
-  introText: { fontSize: 15, color: '#cbd5e1', lineHeight: 24, marginBottom: 20 },
+  introText: { fontSize: 15, color: color.textMuted, lineHeight: 24, marginBottom: 20 },
   section: { marginBottom: 22 },
-  blockTitle: { fontSize: 16, fontWeight: '700', color: '#ffffff', marginBottom: 12 },
+  blockTitle: { fontSize: 16, fontWeight: '700', color: color.text, marginBottom: 12 },
 
   // Number grid
   numberGrid: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 12 },
   numberCard: {
     width: '48%',
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   numberTopRow: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 6 },
-  numberDigit: { fontSize: 22, fontWeight: '800', color: '#D4AF37' },
-  numberValue: { fontSize: 13, color: '#64748b', fontWeight: '600' },
-  numberArabic: { fontSize: 26, lineHeight: 42, color: '#ffffff', textAlign: 'right' },
-  numberTranslit: { fontSize: 13, color: '#818cf8', fontStyle: 'italic', marginTop: 2 },
-  numberMeaning: { fontSize: 13, color: '#94a3b8', marginTop: 2 },
+  numberDigit: { fontSize: 22, fontWeight: '800', color: color.sacred },
+  numberValue: { fontSize: 13, color: color.textFaint, fontWeight: '600' },
+  numberArabic: {
+    fontFamily: font.arabic, fontSize: 26, lineHeight: 42, color: color.text, textAlign: 'right' },
+  numberTranslit: { fontSize: 13, color: color.accent, fontStyle: 'italic', marginTop: 2 },
+  numberMeaning: { fontSize: 13, color: color.textMuted, marginTop: 2 },
 
   // Rule card
   ruleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     paddingLeft: 18,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     overflow: 'hidden',
   },
-  ruleAccent: { position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, backgroundColor: '#D4AF37' },
-  ruleTitle: { fontSize: 15, fontWeight: '800', color: '#D4AF37', marginBottom: 6 },
-  ruleText: { fontSize: 14, color: '#e2e8f0', lineHeight: 22 },
+  ruleAccent: { position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, backgroundColor: color.sacred },
+  ruleTitle: { fontSize: 15, fontWeight: '800', color: color.sacred, marginBottom: 6 },
+  ruleText: { fontSize: 14, color: color.text, lineHeight: 22 },
 
   // Examples
   exampleRow: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 12,
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 10,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   exampleText: { flex: 1 },
-  exampleArabic: { fontSize: 24, lineHeight: 42, color: '#ffffff', textAlign: 'right' },
-  exampleTranslit: { fontSize: 13, color: '#818cf8', fontStyle: 'italic', marginTop: 2 },
-  exampleMeaning: { fontSize: 13, color: '#94a3b8', marginTop: 2 },
+  exampleArabic: {
+    fontFamily: font.arabic, fontSize: 24, lineHeight: 42, color: color.text, textAlign: 'right' },
+  exampleTranslit: { fontSize: 13, color: color.accent, fontStyle: 'italic', marginTop: 2 },
+  exampleMeaning: { fontSize: 13, color: color.textMuted, marginTop: 2 },
   exampleAudio: {
-    width: 40, height: 40, borderRadius: 20,
+    width: 40, height: 40, borderRadius: radius.xl,
     backgroundColor: 'rgba(212, 175, 55, 0.12)',
     alignItems: 'center', justifyContent: 'center',
   },
 
   // Table
-  table: { borderRadius: 12, overflow: 'hidden', borderWidth: 1, borderColor: '#334155' },
-  tableHeaderRow: { flexDirection: 'row', backgroundColor: '#0f172a' },
-  tableRow: { flexDirection: 'row', backgroundColor: '#1e293b' },
+  table: { borderRadius: radius.md, overflow: 'hidden', borderWidth: 1, borderColor: color.border },
+  tableHeaderRow: { flexDirection: 'row', backgroundColor: color.bg },
+  tableRow: { flexDirection: 'row', backgroundColor: color.surface },
   tableRowAlt: { backgroundColor: '#1a2536' },
   tableCell: { paddingVertical: 10, paddingHorizontal: 10 },
-  tableHeaderText: { fontSize: 12, fontWeight: '700', color: '#94a3b8' },
-  tableCellText: { fontSize: 13, color: '#e2e8f0' },
-  tableCellFirst: { fontWeight: '700', color: '#ffffff' },
+  tableHeaderText: { fontSize: 12, fontWeight: '700', color: color.textMuted },
+  tableCellText: { fontSize: 13, color: color.text },
+  tableCellFirst: { fontWeight: '700', color: color.text },
 
   // Tip
   tipCard: {
     flexDirection: 'row',
     gap: 10,
     backgroundColor: 'rgba(212, 175, 55, 0.10)',
-    borderRadius: 14,
+    borderRadius: radius.md,
     padding: 14,
     marginBottom: 16,
     borderWidth: 1,
     borderColor: 'rgba(212, 175, 55, 0.3)',
   },
-  tipText: { flex: 1, fontSize: 14, color: '#e2e8f0', lineHeight: 21 },
+  tipText: { flex: 1, fontSize: 14, color: color.text, lineHeight: 21 },
 
   // Nav
   navRow: { flexDirection: 'row', gap: 12, marginTop: 8 },
@@ -274,13 +279,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 6,
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 14,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   navBtnNext: { justifyContent: 'flex-end' },
-  navText: { flex: 1, fontSize: 13, fontWeight: '600', color: '#cbd5e1' },
+  navText: { flex: 1, fontSize: 13, fontWeight: '600', color: color.textMuted },
 });

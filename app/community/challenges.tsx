@@ -7,6 +7,8 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { useCommunityStore } from '../../src/stores/communityStore';
 import { Challenge } from '../../src/types/community';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 const ChallengeCard = ({ challenge }: { challenge: Challenge }) => {
   const { t } = useTranslation();
@@ -48,12 +50,12 @@ const ChallengeCard = ({ challenge }: { challenge: Challenge }) => {
     >
       <View style={styles.challengeHeader}>
         <View style={styles.challengeType}>
-          <Ionicons name={getTypeIcon() as any} size={16} color="#D4AF37" />
+          <Ionicons name={getTypeIcon() as any} size={16} color={color.sacred} />
           <Text style={styles.challengeTypeText}>{getTypeLabel()}</Text>
         </View>
         {challenge.isCompleted && (
           <View style={styles.completedBadge}>
-            <Ionicons name="checkmark-circle" size={16} color="#22c55e" />
+            <Ionicons name="checkmark-circle" size={16} color={color.progress} />
             <Text style={styles.completedText}>{t('community.done')}</Text>
           </View>
         )}
@@ -83,13 +85,13 @@ const ChallengeCard = ({ challenge }: { challenge: Challenge }) => {
 
       <View style={styles.challengeFooter}>
         <View style={styles.contributionBox}>
-          <Ionicons name="person" size={14} color="#818cf8" />
+          <Ionicons name="person" size={14} color={color.accent} />
           <Text style={styles.contributionText}>
             {t('community.yourContribution', { value: challenge.userContribution, label: getTargetLabel() })}
           </Text>
         </View>
         <View style={styles.rewardBox}>
-          <Ionicons name="star" size={14} color="#D4AF37" />
+          <Ionicons name="star" size={14} color={color.sacred} />
           <Text style={styles.rewardText}>+{challenge.xpReward} XP</Text>
         </View>
       </View>
@@ -100,14 +102,14 @@ const ChallengeCard = ({ challenge }: { challenge: Challenge }) => {
             style={styles.actionButton}
             onPress={() => router.push('/quiz/arabic-quiz')}
           >
-            <Ionicons name="book" size={18} color="#ffffff" />
+            <Ionicons name="book" size={18} color={color.text} />
             <Text style={styles.actionButtonText}>{t('community.vocabulary')}</Text>
           </Pressable>
           <Pressable
             style={[styles.actionButton, styles.actionButtonSecondary]}
             onPress={() => router.push('/quiz/grammar-quiz')}
           >
-            <Ionicons name="school" size={18} color="#D4AF37" />
+            <Ionicons name="school" size={18} color={color.sacred} />
             <Text style={[styles.actionButtonText, styles.actionButtonTextSecondary]}>{t('community.grammar')}</Text>
           </Pressable>
         </View>
@@ -129,7 +131,7 @@ export default function ChallengesScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitles}>
           <Text style={styles.headerTitle}>{t('community.challenges')}</Text>
@@ -148,7 +150,7 @@ export default function ChallengesScreen() {
 
         {!dailyChallenge && !weeklyChallenge && (
           <View style={styles.emptyState}>
-            <Ionicons name="flag-outline" size={48} color="#64748b" />
+            <Ionicons name="flag-outline" size={48} color={color.textFaint} />
             <Text style={styles.emptyText}>{t('community.noChallenges')}</Text>
           </View>
         )}
@@ -160,7 +162,7 @@ export default function ChallengesScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -171,8 +173,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -183,11 +185,13 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   headerTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 24,
     fontSize: 14,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 2,
   },
   headerSpacer: {
@@ -203,14 +207,14 @@ const styles = StyleSheet.create({
 
   // Challenge Card
   challengeCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   challengeCardCompleted: {
-    borderColor: '#22c55e40',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   challengeHeader: {
     flexDirection: 'row',
@@ -224,11 +228,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(212, 175, 55, 0.1)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   challengeTypeText: {
     fontSize: 12,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginLeft: 6,
   },
@@ -238,28 +242,30 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(34, 197, 94, 0.1)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   completedText: {
     fontSize: 12,
-    color: '#22c55e',
+    color: color.progress,
     fontWeight: '600',
     marginLeft: 4,
   },
   challengeTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   challengeTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#D4AF37',
+    color: color.sacred,
     marginBottom: 8,
   },
   challengeDescription: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 16,
   },
   progressSection: {
@@ -267,18 +273,18 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 10,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderRadius: 5,
     overflow: 'hidden',
     marginBottom: 8,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     borderRadius: 5,
   },
   progressFillComplete: {
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
   },
   progressStats: {
     flexDirection: 'row',
@@ -286,12 +292,12 @@ const styles = StyleSheet.create({
   },
   progressText: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
   progressPercent: {
     fontSize: 14,
-    color: '#818cf8',
+    color: color.accent,
     fontWeight: '600',
   },
   challengeFooter: {
@@ -306,7 +312,7 @@ const styles = StyleSheet.create({
   },
   contributionText: {
     fontSize: 13,
-    color: '#818cf8',
+    color: color.accent,
     marginLeft: 6,
   },
   rewardBox: {
@@ -315,11 +321,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(212, 175, 55, 0.1)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   rewardText: {
     fontSize: 13,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginLeft: 4,
   },
@@ -332,23 +338,23 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#6366f1',
-    borderRadius: 12,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.md,
     paddingVertical: 12,
     gap: 6,
   },
   actionButtonSecondary: {
     backgroundColor: 'transparent',
     borderWidth: 1,
-    borderColor: '#D4AF37',
+    borderColor: color.sacred,
   },
   actionButtonText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   actionButtonTextSecondary: {
-    color: '#D4AF37',
+    color: color.sacred,
   },
 
   // Empty State
@@ -358,7 +364,7 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 16,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 12,
   },
 });

@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Animated } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 import { CommunityStats } from '../../types/community';
+import { color, radius } from '../../theme/tokens';
 
 interface CommunityStatsBarProps {
   stats: CommunityStats;
@@ -47,13 +48,13 @@ export function CommunityStatsBar({ stats, isLoading }: CommunityStatsBarProps) 
   return (
     <View style={styles.statsRow}>
       <View style={styles.statItem}>
-        <Ionicons name="people" size={18} color="#10b981" />
+        <Ionicons name="people" size={18} color={color.progress} />
         <Text style={styles.statValue}>{stats.activeLearnersTodayCount.toLocaleString()}</Text>
         <Text style={styles.statLabel}>{t('community.active')}</Text>
       </View>
       <View style={styles.statDivider} />
       <View style={styles.statItem}>
-        <Ionicons name="flame" size={18} color="#f59e0b" />
+        <Ionicons name="flame" size={18} color={color.warning} />
         <Text style={styles.statValue}>{stats.activeStreaksCount.toLocaleString()}</Text>
         <Text style={styles.statLabel}>{t('community.streaks')}</Text>
       </View>
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
   statsRow: {
     flexDirection: 'row',
     backgroundColor: '#1e1e1a',
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 14,
     borderWidth: 1,
     borderColor: '#2a2a24',
@@ -79,12 +80,12 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#f5f5f0',
+    color: color.text,
     marginLeft: 8,
   },
   statLabel: {
     fontSize: 13,
-    color: '#a3a398',
+    color: color.textMuted,
     marginLeft: 4,
   },
   statDivider: {
@@ -95,12 +96,12 @@ const styles = StyleSheet.create({
   skeletonBlock: {
     height: 16,
     backgroundColor: '#2a2a24',
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   emptyStatsRow: {
     flexDirection: 'row',
     backgroundColor: '#1e1e1a',
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 14,
     alignItems: 'center',
     justifyContent: 'center',
@@ -110,7 +111,7 @@ const styles = StyleSheet.create({
   },
   emptyStatsText: {
     fontSize: 14,
-    color: '#a3a398',
+    color: color.textMuted,
     fontWeight: '500',
   },
 });

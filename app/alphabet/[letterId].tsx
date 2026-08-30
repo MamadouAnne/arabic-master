@@ -12,6 +12,8 @@ import { useFonts } from 'expo-font';
 import { ARABIC_SCRIPT_FONTS, SCRIPT_META, scriptFontFamily, ArabicScript } from '../../src/data/arabic/alphabet/scriptFonts';
 import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
 import type { SharedContent } from '../../src/data/community/socialData';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 export default function LetterDetailScreen() {
   const { letterId } = useLocalSearchParams<{ letterId: string }>();
@@ -87,7 +89,7 @@ export default function LetterDetailScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{lc(letter.name, letter.nameFr)}</Text>
@@ -106,7 +108,7 @@ export default function LetterDetailScreen() {
             })}
             accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
           >
-            <Ionicons name="paper-plane-outline" size={22} color="#818cf8" />
+            <Ionicons name="paper-plane-outline" size={22} color={color.accent} />
           </Pressable>
           <Pressable
             style={[styles.audioButton, isSpeaking && styles.audioButtonActive]}
@@ -126,13 +128,13 @@ export default function LetterDetailScreen() {
           <Text style={styles.transliteration}>{letter.transliteration}</Text>
           {isMastered && (
             <View style={styles.masteredBadge}>
-              <Ionicons name="star" size={16} color="#22c55e" />
+              <Ionicons name="star" size={16} color={color.progress} />
               <Text style={styles.masteredText}>{t('common.mastered')}</Text>
             </View>
           )}
           {isLearned && !isMastered && (
             <View style={styles.learnedBadge}>
-              <Ionicons name="checkmark-circle" size={16} color="#D4AF37" />
+              <Ionicons name="checkmark-circle" size={16} color={color.sacred} />
               <Text style={styles.learnedText}>{t('common.learned')}</Text>
             </View>
           )}
@@ -155,7 +157,7 @@ export default function LetterDetailScreen() {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t('alphabet.pronunciation')}</Text>
           <View style={styles.soundCard}>
-            <Ionicons name="mic" size={24} color="#6366f1" />
+            <Ionicons name="mic" size={24} color={color.accentStrong} />
             <Text style={styles.soundDescription}>{lc(letter.soundDescription, letter.soundDescriptionFr)}</Text>
           </View>
         </View>
@@ -198,7 +200,7 @@ export default function LetterDetailScreen() {
                 style={styles.exampleAudioBtn}
                 onPress={() => speak(example.word)}
               >
-                <Ionicons name="volume-medium" size={20} color="#D4AF37" />
+                <Ionicons name="volume-medium" size={20} color={color.sacred} />
               </Pressable>
             </View>
           ))}
@@ -215,7 +217,7 @@ export default function LetterDetailScreen() {
               } as any)
             }
           >
-            <Ionicons name="pencil" size={20} color="#ec4899" />
+            <Ionicons name="pencil" size={20} color={color.accent} />
             <Text style={styles.writingButtonText}>{t('alphabet.practiceWriting')}</Text>
           </Pressable>
         </View>
@@ -224,13 +226,13 @@ export default function LetterDetailScreen() {
         <View style={styles.section}>
           {!isLearned && (
             <Pressable style={styles.primaryButton} onPress={handleMarkLearned}>
-              <Ionicons name="checkmark-circle" size={20} color="#ffffff" />
+              <Ionicons name="checkmark-circle" size={20} color={color.text} />
               <Text style={styles.primaryButtonText}>{t('alphabet.markLearned')}</Text>
             </Pressable>
           )}
           {isLearned && !isMastered && (
             <Pressable style={styles.masterButton} onPress={handleMarkMastered}>
-              <Ionicons name="star" size={20} color="#0f172a" />
+              <Ionicons name="star" size={20} color={color.textOnAccent} />
               <Text style={styles.masterButtonText}>{t('alphabet.markMastered')}</Text>
             </Pressable>
           )}
@@ -244,7 +246,7 @@ export default function LetterDetailScreen() {
                 style={styles.navButton}
                 onPress={() => router.replace(`/alphabet/${prevLetter.id}` as any)}
               >
-                <Ionicons name="chevron-back" size={20} color="#ffffff" />
+                <Ionicons name="chevron-back" size={20} color={color.text} />
                 <Text style={styles.navButtonText}>{lc(prevLetter.name, prevLetter.nameFr)}</Text>
               </Pressable>
             ) : (
@@ -256,7 +258,7 @@ export default function LetterDetailScreen() {
                 onPress={() => router.replace(`/alphabet/${nextLetter.id}` as any)}
               >
                 <Text style={styles.navButtonText}>{lc(nextLetter.name, nextLetter.nameFr)}</Text>
-                <Ionicons name="chevron-forward" size={20} color="#ffffff" />
+                <Ionicons name="chevron-forward" size={20} color={color.text} />
               </Pressable>
             ) : (
               <View style={styles.navButtonPlaceholder} />
@@ -277,7 +279,7 @@ export default function LetterDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorContainer: {
     flex: 1,
@@ -285,7 +287,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 18,
     marginBottom: 16,
   },
@@ -293,7 +295,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   backLinkText: {
-    color: '#6366f1',
+    color: color.accentStrong,
     fontSize: 16,
   },
   header: {
@@ -306,8 +308,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -318,37 +320,39 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 2,
   },
   audioButton: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   audioButtonActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   shareHeaderButton: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#818cf820',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.accent, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 8,
   },
   mainLetterCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 24,
+    borderRadius: radius.xl,
     padding: 40,
     alignItems: 'center',
     marginBottom: 24,
@@ -356,7 +360,7 @@ const styles = StyleSheet.create({
   mainLetter: {
     fontSize: 120,
     lineHeight: 160, // room for tall scripts (Nastaliq) so glyphs don't clip
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   scriptRow: {
@@ -367,46 +371,46 @@ const styles = StyleSheet.create({
   scriptPill: {
     paddingHorizontal: 14,
     paddingVertical: 7,
-    borderRadius: 16,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.lg,
+    backgroundColor: color.bg,
     borderWidth: 1.5,
     borderColor: 'transparent',
   },
   scriptPillText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   transliteration: {
     fontSize: 24,
-    color: '#6366f1',
+    color: color.accentStrong,
     fontWeight: '600',
   },
   masteredBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#22c55e20',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     marginTop: 16,
   },
   masteredText: {
-    color: '#22c55e',
+    color: color.progress,
     fontWeight: '600',
     marginLeft: 6,
   },
   learnedBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     marginTop: 16,
   },
   learnedText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginLeft: 6,
   },
@@ -415,26 +419,26 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 8,
   },
   sectionSubtitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 16,
   },
   soundCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
   },
   soundDescription: {
     flex: 1,
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     marginLeft: 16,
     lineHeight: 22,
@@ -446,8 +450,8 @@ const styles = StyleSheet.create({
   },
   formCard: {
     width: '23%',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     margin: '1%',
     alignItems: 'center',
@@ -455,22 +459,22 @@ const styles = StyleSheet.create({
   formLetter: {
     fontSize: 40,
     lineHeight: 62,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
   },
   formLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontWeight: '600',
   },
   formLabelAr: {
     fontSize: 11,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 2,
   },
   exampleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
@@ -480,14 +484,15 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   exampleArabic: {
+    fontFamily: font.arabic,
     fontSize: 28,
     lineHeight: 46,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'left',
   },
   exampleTranslit: {
     fontSize: 14,
-    color: '#6366f1',
+    color: color.accentStrong,
     marginTop: 4,
   },
   exampleRight: {
@@ -496,53 +501,53 @@ const styles = StyleSheet.create({
   },
   exampleMeaning: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
   positionBadge: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 8,
     paddingVertical: 4,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     marginTop: 4,
   },
   positionText: {
     fontSize: 10,
-    color: '#94a3b8',
+    color: color.textMuted,
     textTransform: 'capitalize',
   },
   exampleAudioBtn: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#D4AF3720',
+    borderRadius: radius.xl,
+    backgroundColor: withAlpha(color.sacred, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   primaryButton: {
-    backgroundColor: '#6366f1',
-    borderRadius: 16,
+    backgroundColor: color.accentStrong,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
   primaryButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 8,
   },
   masterButton: {
-    backgroundColor: '#D4AF37',
-    borderRadius: 16,
+    backgroundColor: color.sacred,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
   masterButtonText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontSize: 16,
     fontWeight: 'bold',
     marginLeft: 8,
@@ -552,15 +557,15 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   navButton: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     paddingHorizontal: 16,
     paddingVertical: 12,
     flexDirection: 'row',
     alignItems: 'center',
   },
   navButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
     marginHorizontal: 4,
@@ -569,17 +574,17 @@ const styles = StyleSheet.create({
     width: 100,
   },
   writingButton: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
-    borderColor: '#ec489940',
+    borderColor: withAlpha(color.accent, 0.25),
   },
   writingButtonText: {
-    color: '#ec4899',
+    color: color.accent,
     fontSize: 16,
     fontWeight: '600',
     marginLeft: 8,

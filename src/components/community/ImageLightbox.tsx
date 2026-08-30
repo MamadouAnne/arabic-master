@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Pressable, Image, Modal, Dimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { color, radius } from '../../theme/tokens';
 
 interface Props {
   uri: string | null;
@@ -14,7 +15,7 @@ export function ImageLightbox({ uri, onClose }: Props) {
     <Modal visible={!!uri} transparent animationType="fade" onRequestClose={onClose}>
       <SafeAreaView style={styles.container}>
         <Pressable style={styles.closeBtn} onPress={onClose} hitSlop={12}>
-          <Ionicons name="close" size={28} color="#ffffff" />
+          <Ionicons name="close" size={28} color={color.text} />
         </Pressable>
         <Pressable style={styles.imageWrap} onPress={onClose}>
           {uri ? (
@@ -32,6 +33,6 @@ export function ImageLightbox({ uri, onClose }: Props) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: 'rgba(0,0,0,0.95)' },
-  closeBtn: { position: 'absolute', top: 50, right: 20, zIndex: 10, width: 44, height: 44, borderRadius: 22, backgroundColor: 'rgba(255,255,255,0.12)', alignItems: 'center', justifyContent: 'center' },
+  closeBtn: { position: 'absolute', top: 50, right: 20, zIndex: 10, width: 44, height: 44, borderRadius: radius.xl, backgroundColor: 'rgba(255,255,255,0.12)', alignItems: 'center', justifyContent: 'center' },
   imageWrap: { flex: 1, alignItems: 'center', justifyContent: 'center' },
 });

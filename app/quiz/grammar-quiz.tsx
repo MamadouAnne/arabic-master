@@ -20,6 +20,7 @@ import { DEFAULT_GRAMMAR_QUIZ_CONFIG } from '../../src/types/grammarQuiz';
 import { playArabicAudio } from '../../src/lib/arabicVocabularyApi';
 import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { QuizIntro } from '../../src/components/quiz/QuizIntro';
+import { font, color, radius } from '../../src/theme/tokens';
 
 type ScreenState = 'loading' | 'ready' | 'playing' | 'feedback' | 'results';
 
@@ -215,7 +216,7 @@ export default function GrammarQuizScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.centerContent}>
-          <ActivityIndicator size="large" color="#D4AF37" />
+          <ActivityIndicator size="large" color={color.sacred} />
           <Text style={styles.loadingText}>{t('grammarQuiz.loadingQuiz')}</Text>
           <Text style={styles.loadingSubtext}>{loadingMessage}</Text>
         </View>
@@ -277,13 +278,13 @@ export default function GrammarQuizScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.closeButton} onPress={handleGoBack}>
-            <Ionicons name="close" size={24} color="#94a3b8" />
+            <Ionicons name="close" size={24} color={color.textMuted} />
           </Pressable>
           <Text style={styles.headerText}>
             {currentIndex + 1} / {currentQuestions.length}
           </Text>
           <View style={styles.streakBadge}>
-            <Ionicons name="flame" size={16} color="#f97316" />
+            <Ionicons name="flame" size={16} color={color.warning} />
             <Text style={styles.streakText}>{streak}</Text>
           </View>
         </View>
@@ -339,7 +340,7 @@ export default function GrammarQuizScreen() {
                     }
                   }}
                 >
-                  <Ionicons name="volume-high" size={22} color="#D4AF37" />
+                  <Ionicons name="volume-high" size={22} color={color.sacred} />
                 </Pressable>
               </View>
             )}
@@ -350,7 +351,7 @@ export default function GrammarQuizScreen() {
             </Text>
             {currentQuestion.hint && screenState === 'playing' && (
               <View style={styles.hintBox}>
-                <Ionicons name="bulb-outline" size={16} color="#D4AF37" />
+                <Ionicons name="bulb-outline" size={16} color={color.sacred} />
                 <Text style={styles.hintText}>{lc(currentQuestion.hint, currentQuestion.hintFr)}</Text>
               </View>
             )}
@@ -394,7 +395,7 @@ export default function GrammarQuizScreen() {
                             playArabicAudio(option.text);
                           }}
                         >
-                          <Ionicons name="volume-high" size={18} color="#D4AF37" />
+                          <Ionicons name="volume-high" size={18} color={color.sacred} />
                         </Pressable>
                       )}
                     </View>
@@ -442,7 +443,7 @@ export default function GrammarQuizScreen() {
                 value={fillBlankAnswer}
                 onChangeText={setFillBlankAnswer}
                 placeholder="اكتب إجابتك هنا..."
-                placeholderTextColor="#64748b"
+                placeholderTextColor={color.textFaint}
                 editable={screenState === 'playing'}
                 autoCapitalize="none"
                 autoCorrect={false}
@@ -475,7 +476,7 @@ export default function GrammarQuizScreen() {
                         playArabicAudio(answer);
                       }}
                     >
-                      <Ionicons name="volume-high" size={18} color="#D4AF37" />
+                      <Ionicons name="volume-high" size={18} color={color.sacred} />
                     </Pressable>
                   </View>
                 </View>
@@ -500,7 +501,7 @@ export default function GrammarQuizScreen() {
               {currentQuestion.explanation && (
                 <View style={styles.explanationCard}>
                   <View style={styles.explanationHeader}>
-                    <Ionicons name="book" size={18} color="#D4AF37" />
+                    <Ionicons name="book" size={18} color={color.sacred} />
                     <Text style={styles.explanationTitle}>{t('grammarQuiz.learnThisRule')}</Text>
                   </View>
                   <Text style={styles.explanationText}>{lc(currentQuestion.explanation, currentQuestion.explanationFr)}</Text>
@@ -524,7 +525,7 @@ export default function GrammarQuizScreen() {
                         }
                       }}
                     >
-                      <Ionicons name="volume-high" size={18} color="#D4AF37" />
+                      <Ionicons name="volume-high" size={18} color={color.sacred} />
                       <Text style={styles.listenButtonText}>{t('grammarQuiz.listenToArabic')}</Text>
                     </Pressable>
                   )}
@@ -535,7 +536,7 @@ export default function GrammarQuizScreen() {
                 <Text style={styles.nextButtonText}>
                   {currentIndex >= currentQuestions.length - 1 ? t('grammarQuiz.seeResults') : t('grammarQuiz.nextQuestion')}
                 </Text>
-                <Ionicons name="arrow-forward" size={20} color="#0f172a" />
+                <Ionicons name="arrow-forward" size={20} color={color.textOnAccent} />
               </Pressable>
             </View>
           )}
@@ -641,7 +642,7 @@ export default function GrammarQuizScreen() {
                         style={styles.audioButtonSmall}
                         onPress={() => playArabicAudio(question.questionArabic!)}
                       >
-                        <Ionicons name="volume-high" size={16} color="#D4AF37" />
+                        <Ionicons name="volume-high" size={16} color={color.sacred} />
                       </Pressable>
                     </View>
                   )}
@@ -661,7 +662,7 @@ export default function GrammarQuizScreen() {
                             style={styles.audioButtonMini}
                             onPress={() => playArabicAudio(userAnswer)}
                           >
-                            <Ionicons name="volume-high" size={14} color="#D4AF37" />
+                            <Ionicons name="volume-high" size={14} color={color.sacred} />
                           </Pressable>
                         )}
                       </View>
@@ -679,7 +680,7 @@ export default function GrammarQuizScreen() {
                               style={styles.audioButtonMini}
                               onPress={() => playArabicAudio(correctAnswer)}
                             >
-                              <Ionicons name="volume-high" size={14} color="#D4AF37" />
+                              <Ionicons name="volume-high" size={14} color={color.sacred} />
                             </Pressable>
                           )}
                         </View>
@@ -706,7 +707,7 @@ export default function GrammarQuizScreen() {
                             }
                           }}
                         >
-                          <Ionicons name="volume-high" size={14} color="#D4AF37" />
+                          <Ionicons name="volume-high" size={14} color={color.sacred} />
                           <Text style={styles.reviewListenText}>{t('grammarQuiz.listen')}</Text>
                         </Pressable>
                       )}
@@ -744,7 +745,7 @@ export default function GrammarQuizScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   scrollContent: {
     flex: 1,
@@ -765,30 +766,32 @@ const styles = StyleSheet.create({
   loadingText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginTop: 20,
   },
   loadingSubtext: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 8,
   },
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginTop: 20,
     textAlign: 'center',
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 37,
     fontSize: 22,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 8,
     marginBottom: 16,
   },
   subtitle: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     lineHeight: 22,
   },
@@ -806,7 +809,7 @@ const styles = StyleSheet.create({
   },
   featureText: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginLeft: 10,
   },
   errorContainer: {
@@ -815,20 +818,20 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 14,
-    color: '#f97316',
+    color: color.warning,
     textAlign: 'center',
     marginTop: 12,
     marginBottom: 16,
   },
   retryButton: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingVertical: 12,
     paddingHorizontal: 24,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   retryButtonText: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
   attemptInfo: {
@@ -837,7 +840,7 @@ const styles = StyleSheet.create({
   },
   attemptText: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 16,
   },
   statsRow: {
@@ -849,33 +852,33 @@ const styles = StyleSheet.create({
   },
   statLabel: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 4,
   },
   statValue: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   statValueHighlight: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#D4AF37',
+    color: color.sacred,
   },
   startButton: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     paddingVertical: 16,
     paddingHorizontal: 32,
-    borderRadius: 12,
+    borderRadius: radius.md,
     gap: 8,
   },
   startButtonText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#0f172a',
+    color: color.textOnAccent,
   },
   header: {
     flexDirection: 'row',
@@ -890,7 +893,7 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   streakBadge: {
     flexDirection: 'row',
@@ -898,23 +901,23 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(249, 115, 22, 0.2)',
     paddingHorizontal: 8,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
     gap: 4,
   },
   streakText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#f97316',
+    color: color.warning,
   },
   progressBarContainer: {
     height: 4,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
     borderRadius: 2,
   },
   progressBar: {
     height: '100%',
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     borderRadius: 2,
   },
   timerContainer: {
@@ -927,17 +930,17 @@ const styles = StyleSheet.create({
   timerText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   timerTextWarning: {
-    color: '#ef4444',
+    color: color.danger,
   },
   questionContainer: {
     padding: 20,
   },
   levelBadge: {
     alignSelf: 'flex-start',
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 6,
@@ -945,7 +948,7 @@ const styles = StyleSheet.create({
   },
   levelBadgeText: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     textTransform: 'capitalize',
   },
   arabicQuestionRow: {
@@ -956,8 +959,9 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   questionArabic: {
+    fontFamily: font.arabic,
     fontSize: 24,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'right',
     lineHeight: 36,
     flex: 1,
@@ -965,14 +969,14 @@ const styles = StyleSheet.create({
   audioButton: {
     width: 44,
     height: 44,
-    borderRadius: 22,
+    borderRadius: radius.xl,
     backgroundColor: 'rgba(212, 175, 55, 0.15)',
     alignItems: 'center',
     justifyContent: 'center',
   },
   questionText: {
     fontSize: 18,
-    color: '#ffffff',
+    color: color.text,
     lineHeight: 26,
   },
   hintBox: {
@@ -980,13 +984,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'rgba(212, 175, 55, 0.1)',
     padding: 12,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     marginTop: 16,
     gap: 8,
   },
   hintText: {
     fontSize: 14,
-    color: '#D4AF37',
+    color: color.sacred,
     flex: 1,
   },
   optionsContainer: {
@@ -994,19 +998,19 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   optionButton: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     padding: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   optionCorrect: {
     backgroundColor: 'rgba(34, 197, 94, 0.15)',
-    borderColor: '#22c55e',
+    borderColor: color.progress,
   },
   optionWrong: {
     backgroundColor: 'rgba(239, 68, 68, 0.15)',
-    borderColor: '#ef4444',
+    borderColor: color.danger,
   },
   optionContent: {
     flexDirection: 'row',
@@ -1016,28 +1020,29 @@ const styles = StyleSheet.create({
   },
   optionText: {
     fontSize: 16,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     flex: 1,
   },
   optionTextArabic: {
+    fontFamily: font.arabic,
     fontSize: 26,
     lineHeight: 44,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     writingDirection: 'rtl',
     flex: 1,
   },
   optionTextCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   optionTextWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   optionAudioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     backgroundColor: 'rgba(212, 175, 55, 0.15)',
     alignItems: 'center',
     justifyContent: 'center',
@@ -1046,74 +1051,74 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   sentenceTemplate: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   templateText: {
     fontSize: 22,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'center',
     lineHeight: 34,
     writingDirection: 'rtl',
   },
   blankIndicator: {
-    color: '#6366f1',
+    color: color.accentStrong,
     backgroundColor: 'rgba(99, 102, 241, 0.2)',
     fontSize: 22,
     paddingHorizontal: 4,
   },
   fillBlankInput: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
-    borderRadius: 12,
+    borderColor: color.border,
+    borderRadius: radius.md,
     padding: 16,
     fontSize: 18,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
   },
   inputCorrect: {
-    borderColor: '#22c55e',
+    borderColor: color.progress,
     backgroundColor: 'rgba(34, 197, 94, 0.15)',
   },
   inputWrong: {
-    borderColor: '#ef4444',
+    borderColor: color.danger,
     backgroundColor: 'rgba(239, 68, 68, 0.15)',
   },
   submitButton: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     padding: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginTop: 16,
     alignItems: 'center',
   },
   submitButtonDisabled: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   submitButtonText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   correctAnswerBox: {
     marginTop: 16,
     padding: 12,
     backgroundColor: 'rgba(34, 197, 94, 0.1)',
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
   },
   correctAnswerLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 4,
   },
   correctAnswerText: {
     fontSize: 18,
-    color: '#22c55e',
+    color: color.progress,
     fontWeight: '600',
   },
   correctAnswerRow: {
@@ -1125,7 +1130,7 @@ const styles = StyleSheet.create({
   audioButtonSmall: {
     width: 32,
     height: 32,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     backgroundColor: 'rgba(212, 175, 55, 0.2)',
     alignItems: 'center',
     justifyContent: 'center',
@@ -1138,7 +1143,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     gap: 8,
     marginBottom: 16,
   },
@@ -1153,18 +1158,18 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   feedbackTextCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   feedbackTextWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   explanationCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   explanationHeader: {
     flexDirection: 'row',
@@ -1175,11 +1180,11 @@ const styles = StyleSheet.create({
   explanationTitle: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#D4AF37',
+    color: color.sacred,
   },
   explanationText: {
     fontSize: 15,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   listenButton: {
@@ -1191,26 +1196,26 @@ const styles = StyleSheet.create({
     borderColor: 'rgba(212, 175, 55, 0.5)',
     paddingVertical: 11,
     paddingHorizontal: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginTop: 12,
     gap: 8,
   },
   listenButtonText: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#D4AF37',
+    color: color.sacred,
   },
   nextButton: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     paddingVertical: 17,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     marginTop: 4,
     marginHorizontal: 24,
-    shadowColor: '#D4AF37',
+    shadowColor: color.sacred,
     shadowOffset: { width: 0, height: 6 },
     shadowOpacity: 0.35,
     shadowRadius: 14,
@@ -1219,7 +1224,7 @@ const styles = StyleSheet.create({
   nextButtonText: {
     fontSize: 18,
     fontWeight: '800',
-    color: '#0f172a',
+    color: color.textOnAccent,
   },
   resultsScroll: {
     padding: 20,
@@ -1232,19 +1237,21 @@ const styles = StyleSheet.create({
   resultTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginTop: 16,
   },
   resultTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
-    color: '#D4AF37',
+    color: color.sacred,
     marginTop: 4,
   },
   resultsStatsRow: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     marginBottom: 16,
   },
@@ -1254,19 +1261,19 @@ const styles = StyleSheet.create({
   resultStatValue: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   xpValue: {
-    color: '#D4AF37',
+    color: color.sacred,
   },
   resultStatLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
   },
   passMessage: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginBottom: 20,
   },
@@ -1276,16 +1283,16 @@ const styles = StyleSheet.create({
   reviewTitle: {
     fontSize: 18,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 16,
   },
   reviewCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   reviewHeader: {
     flexDirection: 'row',
@@ -1296,23 +1303,23 @@ const styles = StyleSheet.create({
   reviewQuestionNum: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     flex: 1,
   },
   reviewLevelBadge: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 8,
     paddingVertical: 2,
     borderRadius: 4,
   },
   reviewLevelText: {
     fontSize: 10,
-    color: '#94a3b8',
+    color: color.textMuted,
     textTransform: 'capitalize',
   },
   reviewQuestion: {
     fontSize: 15,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
     lineHeight: 22,
   },
@@ -1324,8 +1331,10 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   reviewQuestionArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#D4AF37',
+    color: color.sacred,
     textAlign: 'right',
     flex: 1,
   },
@@ -1346,14 +1355,14 @@ const styles = StyleSheet.create({
   audioButtonMini: {
     width: 26,
     height: 26,
-    borderRadius: 13,
+    borderRadius: radius.md,
     backgroundColor: 'rgba(212, 175, 55, 0.15)',
     alignItems: 'center',
     justifyContent: 'center',
   },
   reviewAnswerLabel: {
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
     marginRight: 8,
   },
   reviewAnswerValue: {
@@ -1362,20 +1371,20 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   reviewAnswerCorrect: {
-    color: '#22c55e',
+    color: color.progress,
   },
   reviewAnswerWrong: {
-    color: '#ef4444',
+    color: color.danger,
   },
   reviewExplanationBox: {
     marginTop: 12,
     padding: 10,
-    backgroundColor: '#0f172a',
-    borderRadius: 8,
+    backgroundColor: color.bg,
+    borderRadius: radius.sm,
   },
   reviewExplanation: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 20,
   },
   reviewListenButton: {
@@ -1392,7 +1401,7 @@ const styles = StyleSheet.create({
   reviewListenText: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#D4AF37',
+    color: color.sacred,
   },
   resultActions: {
     marginTop: 24,
@@ -1404,6 +1413,6 @@ const styles = StyleSheet.create({
   },
   backTextButtonLabel: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
 });

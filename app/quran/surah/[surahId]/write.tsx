@@ -16,6 +16,8 @@ import { getSurahById } from '../../../../src/data/arabic/quran';
 import { useQuranSurah } from '../../../../src/hooks/useQuranData';
 import ArabicKeyboard from '../../../../src/components/arabic/ArabicKeyboard';
 import { getHintText } from '../../../../src/utils/arabicTextUtils';
+import { color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 type WritingMode = 'hints_only' | 'with_reference';
 
@@ -359,14 +361,14 @@ export default function WritingExerciseScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.closeButton} onPress={() => router.back()}>
-            <Ionicons name="close" size={24} color="#ffffff" />
+            <Ionicons name="close" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.surahName}>{surah.nameArabic}</Text>
             <Text style={styles.subtitle}>{t('surahWrite.writingPractice')}</Text>
           </View>
           <View style={styles.headerRight}>
-            <Ionicons name="pencil" size={20} color="#10b981" />
+            <Ionicons name="pencil" size={20} color={color.progress} />
           </View>
         </View>
 
@@ -453,7 +455,7 @@ export default function WritingExerciseScreen() {
           {writingMode === 'hints_only' && selectedAyah && (
             <View style={styles.hintCard}>
               <View style={styles.referenceHeader}>
-                <Ionicons name="bulb-outline" size={16} color="#f59e0b" />
+                <Ionicons name="bulb-outline" size={16} color={color.warning} />
                 <Text style={styles.hintLabel}>{t('surahWrite.firstLetterHints')}</Text>
               </View>
               <View style={styles.hintWordsRow}>
@@ -470,7 +472,7 @@ export default function WritingExerciseScreen() {
           {writingMode === 'with_reference' && selectedAyah && (
             <View style={styles.referenceCard}>
               <View style={styles.referenceHeader}>
-                <Ionicons name="book" size={16} color="#10b981" />
+                <Ionicons name="book" size={16} color={color.progress} />
                 <Text style={styles.referenceLabel}>{t('surahWrite.reference')}</Text>
               </View>
               <Text style={styles.referenceText}>{selectedAyah.textUthmani}</Text>
@@ -541,7 +543,7 @@ export default function WritingExerciseScreen() {
                 <Ionicons
                   name={comparisonResult.correctWords === comparisonResult.totalWords ? 'checkmark-circle' : 'analytics'}
                   size={24}
-                  color="#ffffff"
+                  color={color.text}
                 />
                 <Text style={styles.accuracyText}>
                   {comparisonResult.correctWords === comparisonResult.totalWords
@@ -580,7 +582,7 @@ export default function WritingExerciseScreen() {
                   <Ionicons
                     name={showSolution ? 'eye-off' : 'eye'}
                     size={18}
-                    color="#10b981"
+                    color={color.progress}
                   />
                   <Text style={styles.solutionButtonText}>
                     {showSolution ? t('surahWrite.hideSolution') : t('surahWrite.showSolution')}
@@ -605,7 +607,7 @@ export default function WritingExerciseScreen() {
                               {wordInfo.userWord || '(missing)'}
                             </Text>
                           </View>
-                          <Ionicons name="arrow-forward" size={20} color="#64748b" />
+                          <Ionicons name="arrow-forward" size={20} color={color.textFaint} />
                           <View style={styles.wordCorrectionBox}>
                             <Text style={styles.wordCorrectionLabel}>{t('surahWrite.correctLabel')}</Text>
                             <Text style={styles.wordRight}>{wordInfo.word}</Text>
@@ -632,19 +634,19 @@ export default function WritingExerciseScreen() {
                 onPress={handleSubmit}
                 disabled={!userInput.trim()}
               >
-                <Ionicons name="checkmark" size={20} color="#ffffff" />
+                <Ionicons name="checkmark" size={20} color={color.text} />
                 <Text style={styles.submitButtonText}>{t('surahWrite.checkWriting')}</Text>
               </Pressable>
             ) : (
               <View style={styles.postSubmitButtons}>
                 <Pressable style={styles.tryAgainButton} onPress={handleReset}>
-                  <Ionicons name="refresh" size={18} color="#10b981" />
+                  <Ionicons name="refresh" size={18} color={color.progress} />
                   <Text style={styles.tryAgainText}>{t('common.tryAgain')}</Text>
                 </Pressable>
                 {selectedAyahIndex < ayahs.length - 1 && (
                   <Pressable style={styles.nextAyahButton} onPress={handleNextAyah}>
                     <Text style={styles.nextAyahText}>{t('surahWrite.nextAyah')}</Text>
-                    <Ionicons name="arrow-forward" size={18} color="#ffffff" />
+                    <Ionicons name="arrow-forward" size={18} color={color.text} />
                   </Pressable>
                 )}
               </View>
@@ -668,7 +670,7 @@ export default function WritingExerciseScreen() {
               <View style={styles.modalHeader}>
                 <Text style={styles.modalTitle}>{t('surahWrite.selectAyah')}</Text>
                 <Pressable onPress={() => setShowAyahPicker(false)}>
-                  <Ionicons name="close" size={24} color="#ffffff" />
+                  <Ionicons name="close" size={24} color={color.text} />
                 </Pressable>
               </View>
               <ScrollView style={styles.ayahList}>
@@ -688,7 +690,7 @@ export default function WritingExerciseScreen() {
                       {ayah.textUthmani}
                     </Text>
                     {selectedAyahIndex === index && (
-                      <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+                      <Ionicons name="checkmark-circle" size={20} color={color.progress} />
                     )}
                   </Pressable>
                 ))}
@@ -716,13 +718,13 @@ export default function WritingExerciseScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   mainContainer: {
     flex: 1,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 100,
@@ -733,7 +735,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
   },
   header: {
@@ -750,12 +752,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
   subtitle: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     marginTop: 2,
   },
@@ -771,8 +773,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
   },
@@ -784,22 +786,22 @@ const styles = StyleSheet.create({
   ayahNumber: {
     width: 44,
     height: 44,
-    borderRadius: 12,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   ayahNumberText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 18,
     fontWeight: 'bold',
   },
   ayahLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
   },
   ayahRange: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -811,8 +813,8 @@ const styles = StyleSheet.create({
   navBtn: {
     width: 36,
     height: 36,
-    borderRadius: 10,
-    backgroundColor: '#334155',
+    borderRadius: radius.sm,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -820,13 +822,13 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   selectBtn: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     paddingHorizontal: 12,
     paddingVertical: 8,
-    borderRadius: 8,
+    borderRadius: radius.sm,
   },
   selectBtnText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -842,32 +844,32 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingVertical: 14,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 2,
     borderColor: 'transparent',
   },
   modeButtonActive: {
-    borderColor: '#10b981',
-    backgroundColor: '#10b98120',
+    borderColor: color.progress,
+    backgroundColor: withAlpha(color.progress, 0.13),
   },
   modeText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     fontWeight: '600',
   },
   modeTextActive: {
-    color: '#10b981',
+    color: color.progress,
   },
   // Reference Card
   referenceCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
     borderLeftWidth: 4,
-    borderLeftColor: '#10b981',
+    borderLeftColor: color.progress,
   },
   referenceHeader: {
     flexDirection: 'row',
@@ -876,27 +878,27 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   referenceLabel: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 13,
     fontWeight: '600',
   },
   referenceText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     lineHeight: 40,
     textAlign: 'right',
   },
   // Hint Card (from_memory mode)
   hintCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
     borderLeftWidth: 4,
-    borderLeftColor: '#f59e0b',
+    borderLeftColor: color.warning,
   },
   hintLabel: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -907,15 +909,15 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   hintWordText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 22,
     lineHeight: 40,
     opacity: 0.85,
   },
   // Input Card
   inputCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
   },
@@ -926,16 +928,16 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   inputLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   clearText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 13,
   },
   textDisplay: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 16,
     minHeight: 120,
     flexDirection: 'row',
@@ -946,10 +948,10 @@ const styles = StyleSheet.create({
     borderColor: 'transparent',
   },
   textDisplayFocused: {
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   textDisplayText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 22,
     lineHeight: 40,
     textAlign: 'right',
@@ -963,13 +965,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   cursorText: {
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '300',
   },
   // Result Card
   resultCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
   },
@@ -979,23 +981,23 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 10,
     paddingVertical: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 16,
   },
   accuracyPerfect: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   accuracyGood: {
-    backgroundColor: '#22c55e',
+    backgroundColor: color.progress,
   },
   accuracyMedium: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   accuracyLow: {
-    backgroundColor: '#ef4444',
+    backgroundColor: color.danger,
   },
   accuracyText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -1004,7 +1006,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   mistakesTitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 12,
   },
@@ -1013,41 +1015,41 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     gap: 12,
     marginBottom: 10,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     padding: 12,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   mistakeIcon: {
     width: 28,
     height: 28,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
   mistakeMissing: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   mistakeExtra: {
-    backgroundColor: '#8b5cf6',
+    backgroundColor: color.accent,
   },
   mistakeWrong: {
-    backgroundColor: '#ef4444',
+    backgroundColor: color.danger,
   },
   mistakeContent: {
     flex: 1,
   },
   mistakeType: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
     marginBottom: 2,
   },
   mistakeExplanation: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
   },
   moreMistakes: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     textAlign: 'center',
     marginTop: 8,
@@ -1060,20 +1062,20 @@ const styles = StyleSheet.create({
     gap: 8,
     paddingVertical: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   solutionButtonText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontWeight: '600',
   },
   solutionCard: {
-    backgroundColor: '#10b98115',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.08),
+    borderRadius: radius.md,
     padding: 16,
     marginTop: 12,
     borderWidth: 1,
-    borderColor: '#10b98130',
+    borderColor: withAlpha(color.progress, 0.19),
   },
   solutionHeader: {
     flexDirection: 'row',
@@ -1082,11 +1084,11 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   solutionLabel: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 13,
   },
   wordScore: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 12,
   },
   solutionText: {
@@ -1098,34 +1100,34 @@ const styles = StyleSheet.create({
     paddingHorizontal: 2,
   },
   wordCorrect: {
-    color: '#10b981',
+    color: color.progress,
   },
   wordIncorrect: {
-    color: '#ef4444',
+    color: color.danger,
     textDecorationLine: 'underline',
   },
   wordComparisonSection: {
     marginBottom: 16,
   },
   wordComparisonTitle: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 8,
   },
   wordComparisonText: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     padding: 12,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     fontSize: 20,
     lineHeight: 36,
     textAlign: 'right',
   },
   wordCorrectInline: {
-    color: '#10b981',
+    color: color.progress,
   },
   wordIncorrectInline: {
-    color: '#ef4444',
-    backgroundColor: '#ef444420',
+    color: color.danger,
+    backgroundColor: withAlpha(color.danger, 0.13),
   },
   wordCorrectionItem: {
     marginBottom: 12,
@@ -1138,23 +1140,23 @@ const styles = StyleSheet.create({
   },
   wordCorrectionBox: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     padding: 12,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     alignItems: 'center',
   },
   wordCorrectionLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
     marginBottom: 4,
   },
   wordWrong: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 20,
     fontWeight: '600',
   },
   wordRight: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 20,
     fontWeight: '600',
   },
@@ -1162,15 +1164,15 @@ const styles = StyleSheet.create({
     marginTop: 16,
     paddingTop: 16,
     borderTopWidth: 1,
-    borderTopColor: '#10b98130',
+    borderTopColor: withAlpha(color.progress, 0.19),
   },
   fullAyahLabel: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     marginBottom: 8,
   },
   fullAyahText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 20,
     lineHeight: 36,
     textAlign: 'right',
@@ -1184,15 +1186,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 10,
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     paddingVertical: 18,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   submitButtonDisabled: {
-    backgroundColor: '#10b98150',
+    backgroundColor: withAlpha(color.progress, 0.31),
   },
   submitButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -1206,12 +1208,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingVertical: 16,
-    borderRadius: 14,
+    borderRadius: radius.md,
   },
   tryAgainText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -1221,12 +1223,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     paddingVertical: 16,
-    borderRadius: 14,
+    borderRadius: radius.md,
   },
   nextAyahText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -1237,7 +1239,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   modalContent: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     maxHeight: '70%',
@@ -1248,10 +1250,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   modalTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -1262,31 +1264,31 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 14,
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     marginBottom: 8,
     gap: 12,
   },
   ayahOptionActive: {
     borderWidth: 1,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   ayahOptionNumber: {
     width: 36,
     height: 36,
-    borderRadius: 10,
-    backgroundColor: '#334155',
+    borderRadius: radius.sm,
+    backgroundColor: color.surfaceRaised,
     alignItems: 'center',
     justifyContent: 'center',
   },
   ayahOptionNumberText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
   ayahOptionText: {
     flex: 1,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'right',
   },

@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { StudySession } from '../../types/community';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 interface Props {
   session: StudySession;
@@ -61,7 +63,7 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
 
       <View style={styles.bottomRow}>
         <View style={styles.attendeeInfo}>
-          <Ionicons name="people" size={14} color="#64748b" />
+          <Ionicons name="people" size={14} color={color.textFaint} />
           <Text style={styles.attendeeText}>{session.attendeeCount === 0 ? 'No one yet — be the first!' : `${session.attendeeCount} going`}</Text>
         </View>
 
@@ -71,15 +73,15 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
               style={[styles.rsvpBtn, session.userRsvp === 'going' && { backgroundColor: `${groupColor}25`, borderColor: groupColor }]}
               onPress={() => onRsvp(session.id, 'going')}
             >
-              <Ionicons name="checkmark" size={14} color={session.userRsvp === 'going' ? groupColor : '#64748b'} />
+              <Ionicons name="checkmark" size={14} color={session.userRsvp === 'going' ? groupColor: color.textFaint} />
               <Text style={[styles.rsvpText, session.userRsvp === 'going' && { color: groupColor }]}>{t('community.going')}</Text>
             </Pressable>
             <Pressable
-              style={[styles.rsvpBtn, session.userRsvp === 'not_going' && { backgroundColor: '#ef444420', borderColor: '#ef4444' }]}
+              style={[styles.rsvpBtn, session.userRsvp === 'not_going' && { backgroundColor: withAlpha(color.danger, 0.13), borderColor: color.danger }]}
               onPress={() => onRsvp(session.id, 'not_going')}
             >
               <Ionicons name="close" size={14} color={session.userRsvp === 'not_going' ? '#ef4444' : '#64748b'} />
-              <Text style={[styles.rsvpText, session.userRsvp === 'not_going' && { color: '#ef4444' }]}>{t('community.cant')}</Text>
+              <Text style={[styles.rsvpText, session.userRsvp === 'not_going' && { color: color.danger }]}>{t('community.cant')}</Text>
             </Pressable>
           </View>
         )}
@@ -89,21 +91,21 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
 }
 
 const styles = StyleSheet.create({
-  card: { backgroundColor: '#1e293b', borderRadius: 14, padding: 14, marginBottom: 10, borderWidth: 1, borderColor: '#334155' },
+  card: { backgroundColor: color.surface, borderRadius: radius.md, padding: 14, marginBottom: 10, borderWidth: 1, borderColor: color.border },
   cardPast: { opacity: 0.6 },
   topRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 8 },
-  iconCircle: { width: 36, height: 36, borderRadius: 10, alignItems: 'center', justifyContent: 'center' },
+  iconCircle: { width: 36, height: 36, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center' },
   info: { flex: 1 },
-  title: { fontSize: 14, fontWeight: '700', color: '#ffffff', marginBottom: 2 },
-  textPast: { color: '#94a3b8' },
-  datetime: { fontSize: 12, color: '#64748b' },
-  countdownBadge: { borderRadius: 8, paddingHorizontal: 8, paddingVertical: 4 },
+  title: { fontSize: 14, fontWeight: '700', color: color.text, marginBottom: 2 },
+  textPast: { color: color.textMuted },
+  datetime: { fontSize: 12, color: color.textFaint },
+  countdownBadge: { borderRadius: radius.sm, paddingHorizontal: 8, paddingVertical: 4 },
   countdownText: { fontSize: 12, fontWeight: '700' },
-  description: { fontSize: 13, color: '#94a3b8', lineHeight: 18, marginBottom: 10 },
+  description: { fontSize: 13, color: color.textMuted, lineHeight: 18, marginBottom: 10 },
   bottomRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   attendeeInfo: { flexDirection: 'row', alignItems: 'center', gap: 4 },
-  attendeeText: { fontSize: 12, color: '#64748b' },
+  attendeeText: { fontSize: 12, color: color.textFaint },
   rsvpRow: { flexDirection: 'row', gap: 6 },
-  rsvpBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 6, borderRadius: 8, borderWidth: 1, borderColor: '#334155' },
-  rsvpText: { fontSize: 12, fontWeight: '600', color: '#64748b' },
+  rsvpBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 6, borderRadius: radius.sm, borderWidth: 1, borderColor: color.border },
+  rsvpText: { fontSize: 12, fontWeight: '600', color: color.textFaint },
 });

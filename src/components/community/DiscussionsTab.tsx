@@ -18,14 +18,16 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent';
 import { useCommunityStore } from '../../stores/communityStore';
 import { DiscussionCategory } from '../../types/community';
+import { color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 const CATEGORIES: { key: DiscussionCategory | 'all'; icon: string; color: string }[] = [
-  { key: 'all', icon: 'apps', color: '#94a3b8' },
-  { key: 'general', icon: 'globe', color: '#64748b' },
-  { key: 'quran', icon: 'book', color: '#10b981' },
-  { key: 'arabic', icon: 'language', color: '#f59e0b' },
-  { key: 'prayer', icon: 'moon', color: '#818cf8' },
-  { key: 'tips', icon: 'bulb', color: '#f97316' },
+  { key: 'all', icon: 'apps', color: color.textMuted },
+  { key: 'general', icon: 'globe', color: color.textFaint },
+  { key: 'quran', icon: 'book', color: color.progress },
+  { key: 'arabic', icon: 'language', color: color.warning },
+  { key: 'prayer', icon: 'moon', color: color.accent },
+  { key: 'tips', icon: 'bulb', color: color.warning },
 ];
 
 export function DiscussionsTab() {
@@ -76,11 +78,11 @@ export function DiscussionsTab() {
   });
 
   const categoryColors: Record<string, string> = {
-    general: '#64748b',
-    quran: '#10b981',
-    arabic: '#f59e0b',
-    prayer: '#818cf8',
-    tips: '#f97316',
+    general: color.textFaint,
+    quran: color.progress,
+    arabic: color.warning,
+    prayer: color.accent,
+    tips: color.warning,
   };
 
   const getTimeAgo = (dateStr: string) => {
@@ -128,14 +130,14 @@ export function DiscussionsTab() {
       {/* Threads list */}
       {isLoadingDiscussions ? (
         <View style={styles.loadingContainer}>
-          <ActivityIndicator color="#14b8a6" size="large" />
+          <ActivityIndicator color={color.progress} size="large" />
         </View>
       ) : (
         <ScrollView
           contentContainerStyle={styles.threadList}
           showsVerticalScrollIndicator={false}
           refreshControl={
-            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor="#14b8a6" />
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={color.progress} />
           }
         >
           {sorted.length === 0 ? (
@@ -150,7 +152,7 @@ export function DiscussionsTab() {
                 {/* Pinned indicator */}
                 {thread.isPinned && (
                   <View style={styles.pinnedRow}>
-                    <Ionicons name="pin" size={12} color="#f59e0b" />
+                    <Ionicons name="pin" size={12} color={color.warning} />
                     <Text style={styles.pinnedText}>{t('community.pinned')}</Text>
                   </View>
                 )}
@@ -175,17 +177,17 @@ export function DiscussionsTab() {
                       }}
                       hitSlop={8}
                     >
-                      <Ionicons name="heart-outline" size={13} color="#64748b" />
+                      <Ionicons name="heart-outline" size={13} color={color.textFaint} />
                     </Pressable>
                     <Text style={styles.threadStatNum}>{thread.likeCount}</Text>
-                    <Ionicons name="chatbubble-outline" size={13} color="#64748b" />
+                    <Ionicons name="chatbubble-outline" size={13} color={color.textFaint} />
                     <Text style={styles.threadStatNum}>{thread.replyCount}</Text>
                   </View>
                 </View>
 
                 {thread.isHot && (
                   <View style={styles.hotTag}>
-                    <Ionicons name="flame" size={11} color="#f97316" />
+                    <Ionicons name="flame" size={11} color={color.warning} />
                     <Text style={styles.hotTagText}>{t('community.hot')}</Text>
                   </View>
                 )}
@@ -197,7 +199,7 @@ export function DiscussionsTab() {
 
       {/* FAB — New Post */}
       <Pressable style={styles.fab} onPress={() => setShowPostModal(true)}>
-        <Ionicons name="add" size={24} color="#ffffff" />
+        <Ionicons name="add" size={24} color={color.text} />
       </Pressable>
 
       {/* ── New Post Modal ──────────────────────────────────── */}
@@ -209,7 +211,7 @@ export function DiscussionsTab() {
           <View style={styles.modalContent}>
             <View style={styles.modalHeader}>
               <Pressable onPress={() => setShowPostModal(false)}>
-                <Ionicons name="close" size={24} color="#94a3b8" />
+                <Ionicons name="close" size={24} color={color.textMuted} />
               </Pressable>
               <Text style={styles.modalTitle}>{t('community.newDiscussion')}</Text>
               <Pressable
@@ -234,7 +236,7 @@ export function DiscussionsTab() {
                     style={[styles.catPickerChip, isSelected && { backgroundColor: cat.color, borderColor: cat.color }]}
                     onPress={() => setPostCategory(cat.key as DiscussionCategory)}
                   >
-                    <Text style={[styles.catPickerText, isSelected && { color: '#ffffff' }]}>
+                    <Text style={[styles.catPickerText, isSelected && { color: color.text }]}>
                       {t(`community.category${cat.key.charAt(0).toUpperCase() + cat.key.slice(1)}`)}
                     </Text>
                   </Pressable>
@@ -245,7 +247,7 @@ export function DiscussionsTab() {
             <TextInput
               style={styles.titleInput}
               placeholder={t('community.postTitle')}
-              placeholderTextColor="#64748b"
+              placeholderTextColor={color.textFaint}
               value={postTitle}
               onChangeText={setPostTitle}
               maxLength={120}
@@ -253,7 +255,7 @@ export function DiscussionsTab() {
             <TextInput
               style={styles.bodyInput}
               placeholder={t('community.postBody')}
-              placeholderTextColor="#64748b"
+              placeholderTextColor={color.textFaint}
               value={postBody}
               onChangeText={setPostBody}
               multiline
@@ -278,7 +280,7 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
     paddingVertical: 40,
   },
@@ -298,22 +300,22 @@ const styles = StyleSheet.create({
     gap: 6,
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   categoryChipActive: {
-    backgroundColor: '#14b8a6',
-    borderColor: '#14b8a6',
+    backgroundColor: color.progress,
+    borderColor: color.progress,
   },
   categoryChipText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   categoryChipTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
 
   // Thread list
@@ -322,12 +324,12 @@ const styles = StyleSheet.create({
     paddingBottom: 100,
   },
   threadCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 14,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 10,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     position: 'relative',
   },
   pinnedRow: {
@@ -339,17 +341,17 @@ const styles = StyleSheet.create({
   pinnedText: {
     fontSize: 11,
     fontWeight: '600',
-    color: '#f59e0b',
+    color: color.warning,
   },
   threadTitle: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 6,
   },
   threadBody: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 18,
     marginBottom: 10,
   },
@@ -370,15 +372,15 @@ const styles = StyleSheet.create({
   },
   threadAuthor: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   threadDot: {
     fontSize: 12,
-    color: '#475569',
+    color: color.textFaint,
   },
   threadTime: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   threadStats: {
     flexDirection: 'row',
@@ -388,7 +390,7 @@ const styles = StyleSheet.create({
   },
   threadStatNum: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
     marginRight: 6,
   },
   hotTag: {
@@ -398,7 +400,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 3,
-    backgroundColor: '#f9731615',
+    backgroundColor: withAlpha(color.warning, 0.08),
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderRadius: 6,
@@ -406,7 +408,7 @@ const styles = StyleSheet.create({
   hotTagText: {
     fontSize: 10,
     fontWeight: '700',
-    color: '#f97316',
+    color: color.warning,
   },
 
   // FAB
@@ -417,7 +419,7 @@ const styles = StyleSheet.create({
     width: 56,
     height: 56,
     borderRadius: 28,
-    backgroundColor: '#14b8a6',
+    backgroundColor: color.progress,
     alignItems: 'center',
     justifyContent: 'center',
     shadowColor: '#000',
@@ -434,7 +436,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   modalContent: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     padding: 20,
@@ -449,13 +451,13 @@ const styles = StyleSheet.create({
   modalTitle: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   postBtn: {
-    backgroundColor: '#14b8a6',
+    backgroundColor: color.progress,
     paddingHorizontal: 20,
     paddingVertical: 8,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   postBtnDisabled: {
     opacity: 0.4,
@@ -463,12 +465,12 @@ const styles = StyleSheet.create({
   postBtnText: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   inputLabel: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 8,
   },
   catPickerRow: {
@@ -478,36 +480,36 @@ const styles = StyleSheet.create({
   catPickerChip: {
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     marginRight: 8,
   },
   catPickerText: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   titleInput: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   bodyInput: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     minHeight: 120,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
 });

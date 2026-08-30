@@ -9,6 +9,8 @@ import { useQuranSurah } from '../../../../src/hooks/useQuranData';
 import { useQuranStore } from '../../../../src/stores/quranStore';
 import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { quranAudioService, AudioState } from '../../../../src/services/quranAudioService';
+import { font, color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 type ShadowPhase = 'listen' | 'shadow' | 'solo';
 
@@ -170,7 +172,7 @@ export default function ShadowingScreen() {
           accessibilityRole="button"
           accessibilityLabel={t('common.back')}
         >
-          <Ionicons name="close" size={24} color="#f5f5f0" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahNameArabic}>{surah.nameArabic}</Text>
@@ -208,7 +210,7 @@ export default function ShadowingScreen() {
                 ]}
               >
                 {isCompleted ? (
-                  <Ionicons name="checkmark" size={14} color="#fff" />
+                  <Ionicons name="checkmark" size={14} color={color.text} />
                 ) : null}
               </View>
               <Text
@@ -300,8 +302,8 @@ export default function ShadowingScreen() {
                 style={[styles.ratingButton, styles.ratingNeedsWork]}
                 onPress={() => handleRate('needsWork')}
               >
-                <Ionicons name="refresh-outline" size={20} color="#f87171" />
-                <Text style={[styles.ratingButtonText, { color: '#f87171' }]}>
+                <Ionicons name="refresh-outline" size={20} color={color.danger} />
+                <Text style={[styles.ratingButtonText, { color: color.danger }]}>
                   {t('shadowing.needsWork')}
                 </Text>
               </Pressable>
@@ -309,8 +311,8 @@ export default function ShadowingScreen() {
                 style={[styles.ratingButton, styles.ratingGood]}
                 onPress={() => handleRate('good')}
               >
-                <Ionicons name="thumbs-up-outline" size={20} color="#fbbf24" />
-                <Text style={[styles.ratingButtonText, { color: '#fbbf24' }]}>
+                <Ionicons name="thumbs-up-outline" size={20} color={color.sacredBright} />
+                <Text style={[styles.ratingButtonText, { color: color.sacredBright }]}>
                   {t('shadowing.good')}
                 </Text>
               </Pressable>
@@ -318,8 +320,8 @@ export default function ShadowingScreen() {
                 style={[styles.ratingButton, styles.ratingMastered]}
                 onPress={() => handleRate('mastered')}
               >
-                <Ionicons name="star-outline" size={20} color="#10b981" />
-                <Text style={[styles.ratingButtonText, { color: '#10b981' }]}>
+                <Ionicons name="star-outline" size={20} color={color.progress} />
+                <Text style={[styles.ratingButtonText, { color: color.progress }]}>
                   {t('shadowing.mastered')}
                 </Text>
               </Pressable>
@@ -406,7 +408,7 @@ export default function ShadowingScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loader: {
     flex: 1,
@@ -414,7 +416,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   errorText: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 40,
@@ -430,8 +432,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -440,7 +442,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahNameArabic: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 37,
+    color: color.sacred,
     fontSize: 22,
     fontWeight: 'bold',
   },
@@ -451,15 +455,15 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   ayahCounter: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   ayahCounterText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -479,7 +483,7 @@ const styles = StyleSheet.create({
   phaseDot: {
     width: 28,
     height: 28,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -492,10 +496,10 @@ const styles = StyleSheet.create({
   phaseDotFuture: {
     backgroundColor: 'transparent',
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   phaseLabel: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 12,
     fontWeight: '500',
   },
@@ -512,7 +516,7 @@ const styles = StyleSheet.create({
     backgroundColor: `${METHOD_COLOR}15`,
     paddingHorizontal: 12,
     paddingVertical: 5,
-    borderRadius: 12,
+    borderRadius: radius.md,
     gap: 6,
     marginBottom: 8,
   },
@@ -534,11 +538,11 @@ const styles = StyleSheet.create({
 
   // Ayah Card
   ayahCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
   },
   soloTextWrapper: {
@@ -547,14 +551,14 @@ const styles = StyleSheet.create({
 
   // Transliteration
   transliterationCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   transliterationText: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 16,
     lineHeight: 24,
     textAlign: 'center',
@@ -567,7 +571,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: `${METHOD_COLOR}10`,
-    borderRadius: 12,
+    borderRadius: radius.md,
     padding: 14,
     gap: 10,
     borderWidth: 1,
@@ -599,7 +603,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   ratingTitle: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     textAlign: 'center',
@@ -610,7 +614,7 @@ const styles = StyleSheet.create({
   },
   ratingButton: {
     flex: 1,
-    borderRadius: 14,
+    borderRadius: radius.md,
     paddingVertical: 14,
     alignItems: 'center',
     justifyContent: 'center',
@@ -618,16 +622,16 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   ratingNeedsWork: {
-    backgroundColor: '#f8717115',
-    borderColor: '#f8717130',
+    backgroundColor: withAlpha(color.danger, 0.08),
+    borderColor: withAlpha(color.danger, 0.19),
   },
   ratingGood: {
-    backgroundColor: '#fbbf2415',
-    borderColor: '#fbbf2430',
+    backgroundColor: withAlpha(color.sacredBright, 0.08),
+    borderColor: withAlpha(color.sacredBright, 0.19),
   },
   ratingMastered: {
-    backgroundColor: '#10b98115',
-    borderColor: '#10b98130',
+    backgroundColor: withAlpha(color.progress, 0.08),
+    borderColor: withAlpha(color.progress, 0.19),
   },
   ratingButtonText: {
     fontSize: 12,
@@ -642,8 +646,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 14,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
-    backgroundColor: '#0f172a',
+    borderTopColor: color.border,
+    backgroundColor: color.bg,
   },
   navButton: {
     flexDirection: 'row',
@@ -656,12 +660,12 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   navButtonText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 14,
     fontWeight: '500',
   },
   navButtonTextDisabled: {
-    color: '#334155',
+    color: color.textFaint,
   },
   nextPhaseButton: {
     flexDirection: 'row',
@@ -669,20 +673,20 @@ const styles = StyleSheet.create({
     backgroundColor: METHOD_COLOR,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    borderRadius: 12,
+    borderRadius: radius.md,
     gap: 8,
   },
   nextPhaseButtonDisabled: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   nextPhaseButtonText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
   nextPhaseButtonTextDisabled: {
-    color: '#334155',
+    color: color.textFaint,
   },
 });

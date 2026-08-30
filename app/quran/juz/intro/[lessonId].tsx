@@ -13,6 +13,8 @@ import { useTranslation } from 'react-i18next';
 import { useLocalizedContent } from '../../../../src/hooks/useLocalizedContent';
 import { LinearGradient } from 'expo-linear-gradient';
 import { JUZ_INTRO_LESSONS, JuzIntroLesson } from '../../../../src/data/arabic/quran/lessons/juzLessons';
+import { font, color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 // Content Block Component
 function ContentBlock({ item }: { item: { type: string; text: string; textFr?: string; icon?: string } }) {
@@ -22,24 +24,24 @@ function ContentBlock({ item }: { item: { type: string; text: string; textFr?: s
     switch (item.type) {
       case 'fact':
         return {
-          bg: '#3b82f615',
-          border: '#3b82f630',
-          iconBg: '#3b82f620',
-          iconColor: '#3b82f6',
+          bg: withAlpha(color.accent, 0.08),
+          border: withAlpha(color.accent, 0.19),
+          iconBg: withAlpha(color.accent, 0.13),
+          iconColor: color.accent,
         };
       case 'tip':
         return {
-          bg: '#22c55e15',
-          border: '#22c55e30',
-          iconBg: '#22c55e20',
-          iconColor: '#22c55e',
+          bg: withAlpha(color.progress, 0.08),
+          border: withAlpha(color.progress, 0.19),
+          iconBg: withAlpha(color.progress, 0.13),
+          iconColor: color.progress,
         };
       case 'example':
         return {
-          bg: '#f59e0b15',
-          border: '#f59e0b30',
-          iconBg: '#f59e0b20',
-          iconColor: '#f59e0b',
+          bg: withAlpha(color.warning, 0.08),
+          border: withAlpha(color.warning, 0.19),
+          iconBg: withAlpha(color.warning, 0.13),
+          iconColor: color.warning,
         };
       default:
         return null;
@@ -124,7 +126,7 @@ export default function IntroLessonScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerProgress}>
           <Text style={styles.headerProgressText}>
@@ -161,7 +163,7 @@ export default function IntroLessonScreen() {
         <View style={styles.navigationContainer}>
           {prevLesson ? (
             <Pressable style={styles.navButtonPrev} onPress={handlePrev}>
-              <Ionicons name="arrow-back" size={20} color="#3b82f6" />
+              <Ionicons name="arrow-back" size={20} color={color.accent} />
               <View style={styles.navButtonContent}>
                 <Text style={styles.navButtonLabel}>{t('common.previous')}</Text>
                 <Text style={styles.navButtonTitle} numberOfLines={1}>
@@ -181,7 +183,7 @@ export default function IntroLessonScreen() {
                   {lc(nextLesson.title, nextLesson.titleFr)}
                 </Text>
               </View>
-              <Ionicons name="arrow-forward" size={20} color="#ffffff" />
+              <Ionicons name="arrow-forward" size={20} color={color.text} />
             </Pressable>
           ) : (
             <Pressable
@@ -189,7 +191,7 @@ export default function IntroLessonScreen() {
               onPress={() => router.back()}
             >
               <Text style={styles.navButtonCompleteText}>{t('common.complete')}</Text>
-              <Ionicons name="checkmark-circle" size={20} color="#ffffff" />
+              <Ionicons name="checkmark-circle" size={20} color={color.text} />
             </Pressable>
           )}
         </View>
@@ -203,7 +205,7 @@ export default function IntroLessonScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   header: {
     flexDirection: 'row',
@@ -216,19 +218,19 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   headerProgress: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 20,
+    borderRadius: radius.xl,
   },
   headerProgressText: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontWeight: '600',
   },
   titleCard: {
     marginHorizontal: 20,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     overflow: 'hidden',
     marginBottom: 24,
   },
@@ -239,10 +241,12 @@ const styles = StyleSheet.create({
   lessonTitle: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
   },
   lessonTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
     color: 'rgba(255,255,255,0.8)',
     marginTop: 8,
@@ -269,20 +273,20 @@ const styles = StyleSheet.create({
   },
   textContent: {
     fontSize: 16,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 26,
   },
   styledBlock: {
     flexDirection: 'row',
     padding: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     borderWidth: 1,
     marginBottom: 16,
   },
   blockIconContainer: {
     width: 40,
     height: 40,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -293,13 +297,13 @@ const styles = StyleSheet.create({
   blockLabel: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     textTransform: 'uppercase',
     marginBottom: 6,
   },
   blockText: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   navigationContainer: {
@@ -313,8 +317,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     gap: 10,
   },
@@ -323,8 +327,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    backgroundColor: '#3b82f6',
-    borderRadius: 12,
+    backgroundColor: color.accent,
+    borderRadius: radius.md,
     padding: 14,
     gap: 10,
   },
@@ -336,13 +340,13 @@ const styles = StyleSheet.create({
   },
   navButtonLabel: {
     fontSize: 10,
-    color: '#64748b',
+    color: color.textFaint,
     textTransform: 'uppercase',
     fontWeight: '600',
   },
   navButtonTitle: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
     marginTop: 2,
   },
@@ -351,15 +355,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#22c55e',
-    borderRadius: 12,
+    backgroundColor: color.progress,
+    borderRadius: radius.md,
     padding: 14,
     gap: 8,
   },
   navButtonCompleteText: {
     fontSize: 16,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   errorContainer: {
     flex: 1,
@@ -368,17 +372,17 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 18,
-    color: '#ef4444',
+    color: color.danger,
     marginBottom: 20,
   },
   backButtonError: {
-    backgroundColor: '#3b82f6',
+    backgroundColor: color.accent,
     paddingHorizontal: 20,
     paddingVertical: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   backButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
   },
 });

@@ -4,6 +4,7 @@ import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import type { LessonContent } from '../../../types/classContent';
 import { LessonViewer } from './LessonViewer';
+import { color, radius } from '../../../theme/tokens';
 
 interface Props {
   lesson: LessonContent;
@@ -26,7 +27,7 @@ export const LessonCard = React.memo(function LessonCard({ lesson, groupColor, a
       <Pressable style={styles.card} onPress={() => setOpen(true)}>
         <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
           <View style={[styles.badge, { backgroundColor: groupColor }]}>
-            <Ionicons name="book" size={13} color="#ffffff" />
+            <Ionicons name="book" size={13} color={color.text} />
             <Text style={styles.badgeText}>{t('community.badgeLesson')}</Text>
           </View>
           <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
@@ -38,14 +39,14 @@ export const LessonCard = React.memo(function LessonCard({ lesson, groupColor, a
 
           <View style={styles.footer}>
             <View style={styles.meta}>
-              <Ionicons name="documents-outline" size={13} color="#94a3b8" />
+              <Ionicons name="documents-outline" size={13} color={color.textMuted} />
               <Text style={styles.metaText}>
                 {lesson.blocks.length} blocks{sections ? ` · ${sections} sections` : ''}
               </Text>
             </View>
             <View style={[styles.openBtn, { backgroundColor: groupColor }]}>
               <Text style={styles.openText}>{t('community.openLesson')}</Text>
-              <Ionicons name="arrow-forward" size={13} color="#ffffff" />
+              <Ionicons name="arrow-forward" size={13} color={color.text} />
             </View>
           </View>
         </View>
@@ -67,17 +68,17 @@ export const LessonCard = React.memo(function LessonCard({ lesson, groupColor, a
 });
 
 const styles = StyleSheet.create({
-  card: { width: '100%', backgroundColor: '#1e293b', borderRadius: 16, borderWidth: 1, borderColor: '#334155', overflow: 'hidden' },
+  card: { width: '100%', backgroundColor: color.surface, borderRadius: radius.lg, borderWidth: 1, borderColor: color.border, overflow: 'hidden' },
   band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
-  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8 },
-  badgeText: { fontSize: 10, fontWeight: '800', color: '#ffffff', letterSpacing: 0.6 },
-  byline: { fontSize: 12, color: '#94a3b8', maxWidth: 130 },
+  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.sm },
+  badgeText: { fontSize: 10, fontWeight: '800', color: color.text, letterSpacing: 0.6 },
+  byline: { fontSize: 12, color: color.textMuted, maxWidth: 130 },
   body: { padding: 14 },
-  title: { fontSize: 18, fontWeight: '800', color: '#f8fafc', lineHeight: 24 },
-  snippet: { fontSize: 14, color: '#94a3b8', marginTop: 6, lineHeight: 20 },
+  title: { fontSize: 18, fontWeight: '800', color: color.text, lineHeight: 24 },
+  snippet: { fontSize: 14, color: color.textMuted, marginTop: 6, lineHeight: 20 },
   footer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 14 },
   meta: { flexDirection: 'row', alignItems: 'center', gap: 5 },
-  metaText: { fontSize: 12, color: '#94a3b8' },
-  openBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 12, paddingVertical: 7, borderRadius: 12 },
-  openText: { fontSize: 13, fontWeight: '700', color: '#ffffff' },
+  metaText: { fontSize: 12, color: color.textMuted },
+  openBtn: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 12, paddingVertical: 7, borderRadius: radius.md },
+  openText: { fontSize: 13, fontWeight: '700', color: color.text },
 });

@@ -14,6 +14,7 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useArabicTextsStore } from '../../../src/stores/arabicTextsStore';
 import { playArabicLines, stopArabic } from '../../../src/services/speech/arabicTTS';
+import { color, radius } from '../../../src/theme/tokens';
 
 const BRAND = '#10b981';
 const SPEEDS = [
@@ -118,7 +119,7 @@ export default function ArabicPlayerScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <Text style={styles.headerTitle}>{t('reading.memo.notFound')}</Text>
         </View>
@@ -133,7 +134,7 @@ export default function ArabicPlayerScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={handleBack}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTextContainer}>
           <Text style={styles.headerTitle} numberOfLines={1}>
@@ -178,7 +179,7 @@ export default function ArabicPlayerScreen() {
       {/* Controls */}
       <View style={styles.controls}>
         <View style={styles.speedRow}>
-          <Ionicons name="speedometer-outline" size={16} color="#94a3b8" />
+          <Ionicons name="speedometer-outline" size={16} color={color.textMuted} />
           <View style={styles.speedSegment}>
             {SPEEDS.map((s) => {
               const selected = s.value === speed;
@@ -199,7 +200,7 @@ export default function ArabicPlayerScreen() {
 
         <View style={styles.playRow}>
           <Pressable style={styles.secondaryBtn} onPress={handleRestart}>
-            <Ionicons name="play-skip-back" size={22} color="#94a3b8" />
+            <Ionicons name="play-skip-back" size={22} color={color.textMuted} />
           </Pressable>
 
           <Pressable onPress={handlePlayPause} style={styles.playBtnWrap}>
@@ -212,7 +213,7 @@ export default function ArabicPlayerScreen() {
               <Ionicons
                 name={isPlaying ? 'pause' : 'play'}
                 size={30}
-                color="#fff"
+                color={color.text}
                 style={isPlaying ? undefined : { marginLeft: 3 }}
               />
             </LinearGradient>
@@ -226,7 +227,7 @@ export default function ArabicPlayerScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
+  container: { flex: 1, backgroundColor: color.bg },
 
   header: {
     flexDirection: 'row',
@@ -235,19 +236,19 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingBottom: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 12,
   },
   headerTextContainer: { flex: 1 },
-  headerTitle: { fontSize: 18, fontWeight: 'bold', color: '#ffffff' },
+  headerTitle: { fontSize: 18, fontWeight: 'bold', color: color.text },
   headerSubtitle: { fontSize: 12.5, color: BRAND, marginTop: 2 },
 
   versesContent: { paddingHorizontal: 20, paddingTop: 18 },
@@ -255,30 +256,30 @@ const styles = StyleSheet.create({
   verseRow: {
     paddingVertical: 12,
     paddingHorizontal: 14,
-    borderRadius: 14,
+    borderRadius: radius.md,
     marginBottom: 6,
   },
   verseRowActive: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderWidth: 1,
     borderColor: 'rgba(16,185,129,0.55)',
   },
   verseText: {
     fontSize: 26,
     lineHeight: 46,
-    color: '#cbd5e1',
+    color: color.textMuted,
     textAlign: 'right',
     writingDirection: 'rtl',
   },
-  verseTextActive: { color: '#ffffff', fontWeight: '600' },
+  verseTextActive: { color: color.text, fontWeight: '600' },
 
   controls: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     paddingHorizontal: 20,
     paddingTop: 16,
     paddingBottom: 24,
     borderTopWidth: 1,
-    borderTopColor: '#1e293b',
+    borderTopColor: color.borderSubtle,
   },
   speedRow: {
     flexDirection: 'row',
@@ -289,19 +290,19 @@ const styles = StyleSheet.create({
   },
   speedSegment: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 3,
   },
   speedPill: {
     paddingHorizontal: 16,
     paddingVertical: 6,
-    borderRadius: 9,
+    borderRadius: radius.sm,
   },
   speedPillActive: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
-  speedText: { fontSize: 13, fontWeight: '600', color: '#94a3b8' },
+  speedText: { fontSize: 13, fontWeight: '600', color: color.textMuted },
   speedTextActive: { color: BRAND },
 
   playRow: {
@@ -313,14 +314,14 @@ const styles = StyleSheet.create({
   secondaryBtn: {
     width: 48,
     height: 48,
-    borderRadius: 24,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
   playBtnWrap: {
     borderRadius: 36,
-    shadowColor: '#10b981',
+    shadowColor: color.progress,
     shadowOffset: { width: 0, height: 5 },
     shadowOpacity: 0.4,
     shadowRadius: 14,

@@ -20,6 +20,7 @@ import { useCommunityStore } from '../../stores/communityStore';
 import { GROUP_TEMPLATES } from '../../data/community/groupTemplates';
 import { localizeGoal } from '../../data/community/goalLocalization';
 import { GroupTemplate } from '../../types/community';
+import { color, radius } from '../../theme/tokens';
 
 const GROUP_ICONS = ['book', 'school', 'mic', 'language', 'moon', 'star', 'people', 'flag'];
 const GROUP_COLORS = ['#10b981', '#f59e0b', '#f97316', '#818cf8', '#14b8a6', '#fb923c', '#f43e5e', '#34d399'];
@@ -94,32 +95,32 @@ export function GroupsTab() {
     <View style={styles.container}>
       {/* Search bar */}
       <View style={styles.searchBar}>
-        <Ionicons name="search" size={18} color="#64748b" />
+        <Ionicons name="search" size={18} color={color.textFaint} />
         <TextInput
           style={styles.searchInput}
           placeholder={t('community.searchGroups', { defaultValue: 'Search groups...' })}
-          placeholderTextColor="#64748b"
+          placeholderTextColor={color.textFaint}
           value={search}
           onChangeText={setSearch}
           autoCorrect={false}
         />
         {search.length > 0 && (
           <Pressable onPress={() => setSearch('')}>
-            <Ionicons name="close-circle" size={18} color="#64748b" />
+            <Ionicons name="close-circle" size={18} color={color.textFaint} />
           </Pressable>
         )}
       </View>
 
       {isLoadingGroups ? (
         <View style={styles.loadingContainer}>
-          <ActivityIndicator color="#818cf8" size="large" />
+          <ActivityIndicator color={color.accent} size="large" />
         </View>
       ) : (
         <ScrollView
           contentContainerStyle={styles.list}
           showsVerticalScrollIndicator={false}
           refreshControl={
-            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor="#818cf8" />
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={color.accent} />
           }
         >
           {/* Description */}
@@ -147,7 +148,7 @@ export function GroupsTab() {
                   {/* Meta row */}
                   <View style={styles.metaRow}>
                     <View style={styles.metaItem}>
-                      <Ionicons name="people-outline" size={14} color="#64748b" />
+                      <Ionicons name="people-outline" size={14} color={color.textFaint} />
                       <Text style={styles.metaText}>
                         {t('community.members', { count: group.memberCount })}/{group.maxMembers}
                       </Text>
@@ -162,7 +163,7 @@ export function GroupsTab() {
 
                   {/* Goal */}
                   <View style={styles.goalRow}>
-                    <Ionicons name="flag-outline" size={14} color="#94a3b8" />
+                    <Ionicons name="flag-outline" size={14} color={color.textMuted} />
                     <Text style={styles.goalText}>{t('community.groupGoal', { goal: localizeGoal(lc(group.goal, group.goalFr), language) })}</Text>
                   </View>
 
@@ -186,7 +187,7 @@ export function GroupsTab() {
                       onPress={() => handleJoin(group.id, isJoined)}
                       disabled={isFull}
                     >
-                      <Ionicons name="add" size={16} color="#ffffff" />
+                      <Ionicons name="add" size={16} color={color.text} />
                       <Text style={styles.joinText}>{t('community.joinGroup')}</Text>
                     </Pressable>
                   )}
@@ -199,7 +200,7 @@ export function GroupsTab() {
 
       {/* FAB — Create Group */}
       <Pressable style={styles.fab} onPress={() => setShowCreateModal(true)}>
-        <Ionicons name="add" size={24} color="#ffffff" />
+        <Ionicons name="add" size={24} color={color.text} />
       </Pressable>
 
       {/* ── Create Group Modal ─────────────────────────────── */}
@@ -211,7 +212,7 @@ export function GroupsTab() {
           <View style={styles.modalContent}>
             <View style={styles.modalHeader}>
               <Pressable onPress={() => setShowCreateModal(false)}>
-                <Ionicons name="close" size={24} color="#94a3b8" />
+                <Ionicons name="close" size={24} color={color.textMuted} />
               </Pressable>
               <Text style={styles.modalTitle}>{t('community.createGroup')}</Text>
               <Pressable
@@ -265,7 +266,7 @@ export function GroupsTab() {
               <TextInput
                 style={styles.input}
                 placeholder={t('community.groupName')}
-                placeholderTextColor="#64748b"
+                placeholderTextColor={color.textFaint}
                 value={newName}
                 onChangeText={setNewName}
                 maxLength={60}
@@ -273,7 +274,7 @@ export function GroupsTab() {
               <TextInput
                 style={[styles.input, { minHeight: 80 }]}
                 placeholder={t('community.groupDescription')}
-                placeholderTextColor="#64748b"
+                placeholderTextColor={color.textFaint}
                 value={newDesc}
                 onChangeText={setNewDesc}
                 multiline
@@ -283,7 +284,7 @@ export function GroupsTab() {
               <TextInput
                 style={styles.input}
                 placeholder={t('community.groupTopic')}
-                placeholderTextColor="#64748b"
+                placeholderTextColor={color.textFaint}
                 value={newTopic}
                 onChangeText={setNewTopic}
                 maxLength={60}
@@ -291,7 +292,7 @@ export function GroupsTab() {
               <TextInput
                 style={styles.input}
                 placeholder={t('community.groupGoalInput')}
-                placeholderTextColor="#64748b"
+                placeholderTextColor={color.textFaint}
                 value={newGoal}
                 onChangeText={setNewGoal}
                 maxLength={60}
@@ -306,7 +307,7 @@ export function GroupsTab() {
                     style={[styles.pickerItem, selectedIcon === icon && { borderColor: selectedColor }]}
                     onPress={() => setSelectedIcon(icon)}
                   >
-                    <Ionicons name={icon as any} size={22} color={selectedIcon === icon ? selectedColor : '#64748b'} />
+                    <Ionicons name={icon as any} size={22} color={selectedIcon === icon ? selectedColor: color.textFaint} />
                   </Pressable>
                 ))}
               </View>
@@ -337,20 +338,20 @@ const styles = StyleSheet.create({
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     marginHorizontal: 16,
     marginBottom: 12,
     paddingHorizontal: 12,
     paddingVertical: 10,
     gap: 8,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   searchInput: {
     flex: 1,
     fontSize: 15,
-    color: '#ffffff',
+    color: color.text,
     padding: 0,
   },
   loadingContainer: {
@@ -360,7 +361,7 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: 14,
-    color: '#64748b',
+    color: color.textFaint,
     textAlign: 'center',
     paddingVertical: 40,
   },
@@ -370,17 +371,17 @@ const styles = StyleSheet.create({
   },
   desc: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 16,
     lineHeight: 20,
   },
   card: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 18,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   cardTop: {
     flexDirection: 'row',
@@ -390,7 +391,7 @@ const styles = StyleSheet.create({
   iconCircle: {
     width: 50,
     height: 50,
-    borderRadius: 14,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -400,12 +401,12 @@ const styles = StyleSheet.create({
   groupName: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   groupDesc: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 18,
   },
   metaRow: {
@@ -421,17 +422,17 @@ const styles = StyleSheet.create({
   },
   metaText: {
     fontSize: 13,
-    color: '#64748b',
+    color: color.textFaint,
   },
   activeDot: {
     width: 6,
     height: 6,
     borderRadius: 3,
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   activeLabel: {
     fontSize: 12,
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
   },
   goalRow: {
@@ -442,11 +443,11 @@ const styles = StyleSheet.create({
   },
   goalText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderRadius: 2,
     marginBottom: 14,
     overflow: 'hidden',
@@ -460,18 +461,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 6,
-    backgroundColor: '#818cf8',
+    backgroundColor: color.accent,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
   },
   fullBtn: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     opacity: 0.6,
   },
   joinText: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   fab: {
     position: 'absolute',
@@ -480,7 +481,7 @@ const styles = StyleSheet.create({
     width: 56,
     height: 56,
     borderRadius: 28,
-    backgroundColor: '#818cf8',
+    backgroundColor: color.accent,
     alignItems: 'center',
     justifyContent: 'center',
     shadowColor: '#000',
@@ -497,7 +498,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   modalContent: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     padding: 20,
@@ -512,13 +513,13 @@ const styles = StyleSheet.create({
   modalTitle: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   createBtn: {
-    backgroundColor: '#818cf8',
+    backgroundColor: color.accent,
     paddingHorizontal: 20,
     paddingVertical: 8,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   createBtnDisabled: {
     opacity: 0.4,
@@ -526,22 +527,22 @@ const styles = StyleSheet.create({
   createBtnText: {
     fontSize: 14,
     fontWeight: '700',
-    color: '#ffffff',
+    color: color.text,
   },
   input: {
-    backgroundColor: '#0f172a',
-    borderRadius: 12,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     fontSize: 15,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   pickerLabel: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 8,
     marginTop: 4,
   },
@@ -554,36 +555,36 @@ const styles = StyleSheet.create({
   pickerItem: {
     width: 44,
     height: 44,
-    borderRadius: 12,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.md,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   colorDot: {
     width: 32,
     height: 32,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     borderWidth: 2,
     borderColor: 'transparent',
   },
   colorDotSelected: {
-    borderColor: '#ffffff',
+    borderColor: color.text,
   },
   templateCard: {
     width: 100,
     alignItems: 'center',
-    backgroundColor: '#0f172a',
-    borderRadius: 14,
+    backgroundColor: color.bg,
+    borderRadius: radius.md,
     padding: 14,
     borderWidth: 2,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   templateIcon: {
     width: 44,
     height: 44,
-    borderRadius: 12,
+    borderRadius: radius.md,
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 8,
@@ -591,7 +592,7 @@ const styles = StyleSheet.create({
   templateName: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
   },
 });

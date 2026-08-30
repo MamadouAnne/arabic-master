@@ -4,6 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { ChatMessage } from '../../types/aiChat';
 import { useTranslation } from 'react-i18next';
 import i18n from '../../i18n';
+import { font, color, radius } from '../../theme/tokens';
+import { withAlpha } from '../ui/Primitives';
 
 /** Blinking gold cursor shown at end of streaming text */
 function StreamingCursor() {
@@ -152,10 +154,7 @@ export function AIChatBubble({
               {retryOptions.map((opt) => (
                 <Pressable
                   key={opt.letter}
-                  style={({ pressed }) => [
-                    styles.quizOption,
-                    pressed && styles.quizOptionPressed,
-                  ]}
+                  style={styles.quizOption}
                   onPress={() => onQuizAnswer(`${opt.letter}) ${opt.text}`)}
                 >
                   <View style={styles.quizOptionRow}>
@@ -227,11 +226,7 @@ function renderAssistantContent(content: string, onQuizAnswer?: (answer: string)
                 {quiz.options.map((opt) => (
                   <Pressable
                     key={opt.letter}
-                    style={({ pressed }) => [
-                      styles.quizOption,
-                      pressed && styles.quizOptionPressed,
-                      !onQuizAnswer && styles.quizOptionDisabled,
-                    ]}
+                    style={[styles.quizOption, !onQuizAnswer && styles.quizOptionDisabled]}
                     onPress={() => onQuizAnswer?.(`${opt.letter}) ${opt.text}`)}
                     disabled={!onQuizAnswer}
                   >
@@ -351,39 +346,40 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   contentContainer: {
-    backgroundColor: '#334155',
-    borderRadius: 16,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.lg,
     borderTopLeftRadius: 4,
     paddingHorizontal: 14,
     paddingVertical: 10,
     flex: 1,
   },
   userContent: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     borderTopLeftRadius: 16,
     borderTopRightRadius: 4,
     flex: 0,
     maxWidth: '80%',
   },
   userText: {
-    color: '#fff',
+    color: color.text,
     fontSize: 15,
     lineHeight: 22,
   },
   assistantText: {
-    color: '#e2e8f0',
+    color: color.text,
     fontSize: 15,
     lineHeight: 22,
   },
   arabicText: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    color: color.sacred,
     fontSize: 22,
     lineHeight: 34,
     fontWeight: '600',
   },
   boldText: {
     fontWeight: '700',
-    color: '#f8fafc',
+    color: color.text,
   },
   paragraphSpacing: {
     marginTop: 12,
@@ -394,7 +390,7 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   bulletDot: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     lineHeight: 22,
   },
@@ -407,7 +403,7 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   tapHint: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 13,
     fontWeight: '500',
     marginTop: 14,
@@ -419,16 +415,16 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   quizOption: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     borderWidth: 1,
-    borderColor: '#475569',
-    borderRadius: 12,
+    borderColor: color.borderStrong,
+    borderRadius: radius.md,
     paddingVertical: 12,
     paddingHorizontal: 14,
   },
   quizOptionPressed: {
-    backgroundColor: '#10b98115',
-    borderColor: '#10b981',
+    backgroundColor: withAlpha(color.progress, 0.08),
+    borderColor: color.progress,
   },
   quizOptionDisabled: {
     opacity: 0.45,
@@ -441,25 +437,25 @@ const styles = StyleSheet.create({
   quizOptionLetterBadge: {
     width: 32,
     height: 32,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     backgroundColor: 'rgba(16, 185, 129, 0.12)',
     alignItems: 'center',
     justifyContent: 'center',
   },
   quizOptionLetterText: {
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '800',
     fontSize: 15,
   },
   quizOptionText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 20,
     lineHeight: 32,
     fontWeight: '500',
     flex: 1,
   },
   errorText: {
-    color: '#f87171',
+    color: color.danger,
     fontSize: 14,
     fontStyle: 'italic',
     textAlign: 'center',
@@ -467,7 +463,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   streamingCursor: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 18,
     fontWeight: '700',
     lineHeight: 22,

@@ -13,16 +13,18 @@ import { VocabularyWord } from '../../src/types/arabic';
 import HighlightedText from '../../src/components/ui/HighlightedText';
 import { ShareToGroupModal } from '../../src/components/community/ShareToGroupModal';
 import type { SharedContent } from '../../src/data/community/socialData';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 // Part of speech labels with colors
 const partOfSpeechConfig: Record<string, { label: string; labelArabic: string; color: string }> = {
-  noun: { label: 'Noun', labelArabic: 'اِسْم', color: '#10b981' },
-  verb: { label: 'Verb', labelArabic: 'فِعْل', color: '#6366f1' },
-  adjective: { label: 'Adjective', labelArabic: 'صِفَة', color: '#f59e0b' },
-  adverb: { label: 'Adverb', labelArabic: 'ظَرْف', color: '#ec4899' },
-  preposition: { label: 'Preposition', labelArabic: 'حَرْف جَرّ', color: '#8b5cf6' },
-  pronoun: { label: 'Pronoun', labelArabic: 'ضَمِير', color: '#14b8a6' },
-  other: { label: 'Phrase', labelArabic: 'عِبَارَة', color: '#64748b' },
+  noun: { label: 'Noun', labelArabic: 'اِسْم', color: color.progress },
+  verb: { label: 'Verb', labelArabic: 'فِعْل', color: color.accentStrong },
+  adjective: { label: 'Adjective', labelArabic: 'صِفَة', color: color.warning },
+  adverb: { label: 'Adverb', labelArabic: 'ظَرْف', color: color.accent },
+  preposition: { label: 'Preposition', labelArabic: 'حَرْف جَرّ', color: color.accent },
+  pronoun: { label: 'Pronoun', labelArabic: 'ضَمِير', color: color.progress },
+  other: { label: 'Phrase', labelArabic: 'عِبَارَة', color: color.textFaint },
 };
 
 export default function ThemeDetailScreen() {
@@ -132,7 +134,7 @@ export default function ThemeDetailScreen() {
         {/* Header */}
         <View style={styles.header}>
           <Pressable style={styles.backButton} onPress={() => router.back()}>
-            <Ionicons name="arrow-back" size={24} color="#ffffff" />
+            <Ionicons name="arrow-back" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerText}>
             <Text style={styles.title}>{lc(theme.name, theme.nameFr)}</Text>
@@ -161,7 +163,7 @@ export default function ThemeDetailScreen() {
         {/* Progress Card */}
         <View style={styles.progressCard}>
           <View style={styles.progressHeader}>
-            <Ionicons name="stats-chart" size={20} color="#10b981" />
+            <Ionicons name="stats-chart" size={20} color={color.progress} />
             <Text style={styles.progressTitle}>{t('common.yourProgress')}</Text>
           </View>
           <View style={styles.progressStats}>
@@ -176,7 +178,7 @@ export default function ThemeDetailScreen() {
             </View>
             <View style={styles.progressDivider} />
             <View style={styles.progressStat}>
-              <Text style={[styles.progressStatValue, { color: '#10b981' }]}>{progressPercent}%</Text>
+              <Text style={[styles.progressStatValue, { color: color.progress }]}>{progressPercent}%</Text>
               <Text style={styles.progressStatLabel}>{t('common.complete')}</Text>
             </View>
           </View>
@@ -204,30 +206,30 @@ export default function ThemeDetailScreen() {
             </Pressable>
             {wordsByType.nouns > 0 && (
               <Pressable
-                style={[styles.filterChip, viewMode === 'nouns' && { backgroundColor: '#10b98130', borderColor: '#10b981' }]}
+                style={[styles.filterChip, viewMode === 'nouns' && { backgroundColor: withAlpha(color.progress, 0.19), borderColor: color.progress }]}
                 onPress={() => setViewMode('nouns')}
               >
-                <Text style={[styles.filterChipText, viewMode === 'nouns' && { color: '#10b981' }]}>
+                <Text style={[styles.filterChipText, viewMode === 'nouns' && { color: color.progress }]}>
                   {t('vocabulary.nouns')} ({wordsByType.nouns})
                 </Text>
               </Pressable>
             )}
             {wordsByType.adjectives > 0 && (
               <Pressable
-                style={[styles.filterChip, viewMode === 'adjectives' && { backgroundColor: '#f59e0b30', borderColor: '#f59e0b' }]}
+                style={[styles.filterChip, viewMode === 'adjectives' && { backgroundColor: withAlpha(color.warning, 0.19), borderColor: color.warning }]}
                 onPress={() => setViewMode('adjectives')}
               >
-                <Text style={[styles.filterChipText, viewMode === 'adjectives' && { color: '#f59e0b' }]}>
+                <Text style={[styles.filterChipText, viewMode === 'adjectives' && { color: color.warning }]}>
                   {t('vocabulary.adjectives')} ({wordsByType.adjectives})
                 </Text>
               </Pressable>
             )}
             {wordsByType.other > 0 && (
               <Pressable
-                style={[styles.filterChip, viewMode === 'other' && { backgroundColor: '#64748b30', borderColor: '#64748b' }]}
+                style={[styles.filterChip, viewMode === 'other' && { backgroundColor: withAlpha(color.textFaint, 0.19), borderColor: color.textFaint }]}
                 onPress={() => setViewMode('other')}
               >
-                <Text style={[styles.filterChipText, viewMode === 'other' && { color: '#94a3b8' }]}>
+                <Text style={[styles.filterChipText, viewMode === 'other' && { color: color.textMuted }]}>
                   {t('vocabulary.phrases')} ({wordsByType.other})
                 </Text>
               </Pressable>
@@ -240,7 +242,7 @@ export default function ThemeDetailScreen() {
           <View style={styles.tipCardBorder} />
           <View style={styles.tipCardContent}>
             <View style={styles.tipCardHeader}>
-              <Ionicons name="bulb" size={20} color="#f59e0b" />
+              <Ionicons name="bulb" size={20} color={color.warning} />
               <Text style={styles.tipCardTitle}>{t('vocabulary.learningTip')}</Text>
             </View>
             <Text style={styles.tipCardText}>
@@ -253,7 +255,7 @@ export default function ThemeDetailScreen() {
         {wordsWithExamples.length > 0 && (
           <View style={styles.section}>
             <View style={styles.sectionHeader}>
-              <Ionicons name="chatbubble-ellipses" size={20} color="#10b981" />
+              <Ionicons name="chatbubble-ellipses" size={20} color={color.progress} />
               <Text style={styles.sectionTitle}>{t('vocabulary.exampleSentences')}</Text>
             </View>
             <Text style={styles.sectionSubtitle}>
@@ -274,7 +276,7 @@ export default function ThemeDetailScreen() {
                   <Text style={styles.exampleCardArabic}>{word.exampleSentence!.arabic}</Text>
                   <Text style={styles.exampleCardEnglish}>{lc(word.exampleSentence!.english, word.exampleSentence!.french)}</Text>
                   <View style={styles.exampleCardAudioIcon}>
-                    <Ionicons name="volume-medium" size={16} color="#10b981" />
+                    <Ionicons name="volume-medium" size={16} color={color.progress} />
                   </View>
                 </Pressable>
               ))}
@@ -285,7 +287,7 @@ export default function ThemeDetailScreen() {
         {/* Word List */}
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
-            <Ionicons name="list" size={20} color="#10b981" />
+            <Ionicons name="list" size={20} color={color.progress} />
             <Text style={styles.sectionTitle}>
               {viewMode === 'all' ? t('vocabulary.allWords') : `${viewMode.charAt(0).toUpperCase() + viewMode.slice(1)}`} ({filteredWords.length})
             </Text>
@@ -316,7 +318,7 @@ export default function ThemeDetailScreen() {
                         {showVowels ? word.arabicWithVowels : word.arabic}
                       </Text>
                       <View style={styles.wordAudioBtn}>
-                        <Ionicons name="volume-medium" size={16} color="#10b981" />
+                        <Ionicons name="volume-medium" size={16} color={color.progress} />
                       </View>
                     </Pressable>
 
@@ -363,7 +365,7 @@ export default function ThemeDetailScreen() {
                   <Ionicons
                     name={isExpanded ? 'chevron-up' : 'chevron-down'}
                     size={20}
-                    color="#64748b"
+                    color={color.textFaint}
                   />
                 </Pressable>
 
@@ -380,7 +382,7 @@ export default function ThemeDetailScreen() {
                             onPress={() => speak(word.plural!)}
                           >
                             <Text style={styles.wordDetailArabic}>{word.plural}</Text>
-                            <Ionicons name="volume-medium" size={14} color="#10b981" />
+                            <Ionicons name="volume-medium" size={14} color={color.progress} />
                           </Pressable>
                         </View>
                       )}
@@ -411,9 +413,9 @@ export default function ThemeDetailScreen() {
                         onPress={() => speak(word.exampleSentence!.arabic)}
                       >
                         <View style={styles.exampleSectionHeader}>
-                          <Ionicons name="chatbubble-outline" size={16} color="#10b981" />
+                          <Ionicons name="chatbubble-outline" size={16} color={color.progress} />
                           <Text style={styles.exampleLabel}>{t('vocabulary.exampleSentence')}</Text>
-                          <Ionicons name="volume-medium" size={16} color="#10b981" />
+                          <Ionicons name="volume-medium" size={16} color={color.progress} />
                         </View>
                         <Text style={styles.exampleArabic}>
                           {word.exampleSentence.arabic}
@@ -431,7 +433,7 @@ export default function ThemeDetailScreen() {
                           style={styles.learnButton}
                           onPress={() => handleMarkLearned(word.id)}
                         >
-                          <Ionicons name="checkmark" size={18} color="#ffffff" />
+                          <Ionicons name="checkmark" size={18} color={color.text} />
                           <Text style={styles.learnButtonText}>{t('vocabulary.markLearned')}</Text>
                         </Pressable>
                       )}
@@ -440,7 +442,7 @@ export default function ThemeDetailScreen() {
                           style={styles.masterButton}
                           onPress={() => handleMarkMastered(word.id)}
                         >
-                          <Ionicons name="star" size={18} color="#0f172a" />
+                          <Ionicons name="star" size={18} color={color.textOnAccent} />
                           <Text style={styles.masterButtonText}>
                             {t('vocabulary.markMastered')}
                           </Text>
@@ -448,7 +450,7 @@ export default function ThemeDetailScreen() {
                       )}
                       {status === 'mastered' && (
                         <View style={styles.masteredLabel}>
-                          <Ionicons name="star" size={16} color="#10b981" />
+                          <Ionicons name="star" size={16} color={color.progress} />
                           <Text style={styles.masteredText}>{t('vocabulary.masteredBadge')}</Text>
                         </View>
                       )}
@@ -457,7 +459,7 @@ export default function ThemeDetailScreen() {
                         onPress={() => shareWord(word)}
                         accessibilityLabel={t('community.shareToGroup', { defaultValue: 'Share to group' })}
                       >
-                        <Ionicons name="paper-plane-outline" size={18} color="#818cf8" />
+                        <Ionicons name="paper-plane-outline" size={18} color={color.accent} />
                         <Text style={styles.shareButtonText}>{t('community.shareToGroup', { defaultValue: 'Share to group' })}</Text>
                       </Pressable>
                     </View>
@@ -471,7 +473,7 @@ export default function ThemeDetailScreen() {
         {/* Practice Buttons */}
         <View style={[styles.section, { marginBottom: 100 }]}>
           <View style={styles.sectionHeader}>
-            <Ionicons name="fitness" size={20} color="#10b981" />
+            <Ionicons name="fitness" size={20} color={color.progress} />
             <Text style={styles.sectionTitle}>{t('common.practice')}</Text>
           </View>
 
@@ -479,9 +481,9 @@ export default function ThemeDetailScreen() {
             style={[styles.practiceButton, { backgroundColor: theme.color }]}
             onPress={() => router.push(`/vocabulary/flashcards?themeId=${theme.id}`)}
           >
-            <Ionicons name="layers" size={20} color="#ffffff" />
+            <Ionicons name="layers" size={20} color={color.text} />
             <Text style={styles.practiceButtonText}>{t('vocabulary.practiceFlashcards')}</Text>
-            <Ionicons name="arrow-forward" size={20} color="#ffffff" />
+            <Ionicons name="arrow-forward" size={20} color={color.text} />
           </Pressable>
 
           {writingExercises.length > 0 && (
@@ -489,7 +491,7 @@ export default function ThemeDetailScreen() {
               style={[styles.practiceButton, styles.writingPracticeButton]}
               onPress={() => router.push(`/vocabulary/writing-practice?themeId=${theme.id}`)}
             >
-              <Ionicons name="pencil" size={20} color="#ffffff" />
+              <Ionicons name="pencil" size={20} color={color.text} />
               <Text style={styles.practiceButtonText}>{t('vocabulary.writingPractice')}</Text>
               <View style={styles.exerciseCount}>
                 <Text style={styles.exerciseCountText}>
@@ -513,7 +515,7 @@ export default function ThemeDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorContainer: {
     flex: 1,
@@ -521,7 +523,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 18,
     marginBottom: 16,
   },
@@ -529,7 +531,7 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   backLinkText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 16,
   },
   header: {
@@ -542,8 +544,8 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -554,18 +556,20 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   titleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#10b981',
+    color: color.progress,
     marginTop: 4,
   },
   // Introduction Card
   introCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
     borderLeftWidth: 4,
@@ -576,8 +580,8 @@ const styles = StyleSheet.create({
   introIconContainer: {
     width: 56,
     height: 56,
-    borderRadius: 12,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.md,
+    backgroundColor: color.bg,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 16,
@@ -591,12 +595,12 @@ const styles = StyleSheet.create({
   introTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#94a3b8',
+    color: color.textMuted,
     marginBottom: 4,
   },
   introDesc: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     lineHeight: 20,
     marginBottom: 8,
   },
@@ -606,26 +610,26 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   introBadge: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 8,
     paddingVertical: 3,
     borderRadius: 6,
   },
   introBadgeText: {
     fontSize: 11,
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
     textTransform: 'capitalize',
   },
   introWordCount: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   // Progress Card
   progressCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 16,
     marginBottom: 16,
   },
@@ -638,7 +642,7 @@ const styles = StyleSheet.create({
   progressTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#ffffff',
+    color: color.text,
   },
   progressStats: {
     flexDirection: 'row',
@@ -652,21 +656,21 @@ const styles = StyleSheet.create({
   progressStatValue: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   progressStatLabel: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginTop: 2,
   },
   progressDivider: {
     width: 1,
     height: 32,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   progressBar: {
     height: 6,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 3,
     overflow: 'hidden',
   },
@@ -682,7 +686,7 @@ const styles = StyleSheet.create({
   filterTitle: {
     fontSize: 12,
     fontWeight: '600',
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 8,
     textTransform: 'uppercase',
     letterSpacing: 0.5,
@@ -693,36 +697,36 @@ const styles = StyleSheet.create({
   filterChip: {
     paddingHorizontal: 14,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     marginRight: 8,
     borderWidth: 1,
     borderColor: 'transparent',
   },
   filterChipActive: {
-    backgroundColor: '#10b98130',
-    borderColor: '#10b981',
+    backgroundColor: withAlpha(color.progress, 0.19),
+    borderColor: color.progress,
   },
   filterChipText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     fontWeight: '500',
   },
   filterChipTextActive: {
-    color: '#10b981',
+    color: color.progress,
   },
   // Tip Card
   tipCard: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     marginHorizontal: 20,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 20,
     flexDirection: 'row',
     overflow: 'hidden',
   },
   tipCardBorder: {
     width: 4,
-    backgroundColor: '#f59e0b',
+    backgroundColor: color.warning,
   },
   tipCardContent: {
     flex: 1,
@@ -737,11 +741,11 @@ const styles = StyleSheet.create({
   tipCardTitle: {
     fontSize: 13,
     fontWeight: '600',
-    color: '#f59e0b',
+    color: color.warning,
   },
   tipCardText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     lineHeight: 19,
   },
   // Section
@@ -756,12 +760,12 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   sectionTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
   sectionSubtitle: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginBottom: 12,
   },
@@ -770,8 +774,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   exampleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     position: 'relative',
   },
@@ -784,32 +788,33 @@ const styles = StyleSheet.create({
   },
   exampleCardWord: {
     fontSize: 20,
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
   },
   exampleCardMeaning: {
     fontSize: 12,
-    color: '#64748b',
+    color: color.textFaint,
   },
   exampleCardDivider: {
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginBottom: 10,
   },
   exampleCardArabic: {
+    fontFamily: font.arabic,
     fontSize: 24,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
     lineHeight: 42,
   },
   exampleCardTranslit: {
     fontSize: 12,
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 4,
   },
   exampleCardEnglish: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   exampleCardAudioIcon: {
     position: 'absolute',
@@ -817,15 +822,15 @@ const styles = StyleSheet.create({
     right: 12,
     width: 28,
     height: 28,
-    borderRadius: 14,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   // Word Card
   wordCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     marginBottom: 10,
     overflow: 'hidden',
   },
@@ -846,22 +851,23 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   wordArabic: {
+    fontFamily: font.arabic,
     fontSize: 30,
     lineHeight: 50,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '500',
   },
   wordAudioBtn: {
     width: 28,
     height: 28,
-    borderRadius: 14,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.md,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   wordTranslit: {
     fontSize: 12,
-    color: '#10b981',
+    color: color.progress,
   },
   wordRight: {
     alignItems: 'flex-start',
@@ -870,7 +876,7 @@ const styles = StyleSheet.create({
   },
   wordEnglish: {
     fontSize: 14,
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '500',
     textAlign: 'left',
     marginBottom: 4,
@@ -900,10 +906,10 @@ const styles = StyleSheet.create({
   },
   // Word Expanded
   wordExpanded: {
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
     padding: 14,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   wordDetailsGrid: {
     flexDirection: 'row',
@@ -916,7 +922,7 @@ const styles = StyleSheet.create({
   },
   wordDetailLabel: {
     fontSize: 11,
-    color: '#64748b',
+    color: color.textFaint,
     marginBottom: 4,
     textTransform: 'uppercase',
     letterSpacing: 0.5,
@@ -927,17 +933,19 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   wordDetailArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 27,
     fontSize: 16,
-    color: '#ffffff',
+    color: color.text,
   },
   wordDetailText: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   // Example Section in Word
   exampleSection: {
-    backgroundColor: '#1e293b',
-    borderRadius: 10,
+    backgroundColor: color.surface,
+    borderRadius: radius.sm,
     padding: 12,
     marginBottom: 14,
   },
@@ -950,22 +958,24 @@ const styles = StyleSheet.create({
   exampleLabel: {
     flex: 1,
     fontSize: 12,
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
   },
   exampleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   exampleTranslit: {
     fontSize: 12,
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 4,
   },
   exampleEnglish: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   // Action Buttons
   actionButtons: {
@@ -980,42 +990,42 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 14,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 6,
     borderWidth: 1,
-    borderColor: '#818cf850',
-    backgroundColor: '#818cf815',
+    borderColor: withAlpha(color.accent, 0.31),
+    backgroundColor: withAlpha(color.accent, 0.08),
   },
   shareButtonText: {
-    color: '#818cf8',
+    color: color.accent,
     fontWeight: '600',
     fontSize: 14,
   },
   learnButton: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 6,
   },
   learnButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontWeight: '600',
     fontSize: 14,
   },
   masterButton: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingVertical: 10,
-    borderRadius: 10,
+    borderRadius: radius.sm,
     gap: 6,
   },
   masterButtonText: {
-    color: '#0f172a',
+    color: color.textOnAccent,
     fontWeight: '600',
     fontSize: 14,
   },
@@ -1025,13 +1035,13 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   masteredText: {
-    color: '#10b981',
+    color: color.progress,
     fontWeight: '600',
     fontSize: 14,
   },
   // Practice Buttons
   practiceButton: {
-    borderRadius: 16,
+    borderRadius: radius.lg,
     padding: 18,
     flexDirection: 'row',
     alignItems: 'center',
@@ -1040,10 +1050,10 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   writingPracticeButton: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   practiceButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: 'bold',
     flex: 1,
@@ -1053,10 +1063,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
     paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   exerciseCountText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 12,
     fontWeight: 'bold',
   },

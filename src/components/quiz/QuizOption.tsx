@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { font, color, radius } from '../../theme/tokens';
 
 export type QuizOptionState = 'idle' | 'selected' | 'correct' | 'wrong';
 
@@ -67,9 +68,9 @@ export const QuizOption = React.memo(function QuizOption({
         ]}
       >
         {isCorrect ? (
-          <Ionicons name="checkmark" size={20} color="#ffffff" />
+          <Ionicons name="checkmark" size={20} color={color.text} />
         ) : isWrong ? (
-          <Ionicons name="close" size={20} color="#ffffff" />
+          <Ionicons name="close" size={20} color={color.text} />
         ) : (
           <Text style={[styles.badgeText, isSelected && styles.badgeTextSelected]}>
             {label ?? String.fromCharCode(65 + index)}
@@ -120,13 +121,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 14,
     minHeight: 66,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     paddingVertical: 14,
     paddingHorizontal: 16,
     marginBottom: 12,
     borderWidth: 1.5,
-    borderColor: '#334155',
+    borderColor: color.border,
   },
   cardSelected: {
     borderColor: GOLD,
@@ -144,10 +145,10 @@ const styles = StyleSheet.create({
   badge: {
     width: 36,
     height: 36,
-    borderRadius: 10,
-    backgroundColor: '#0f172a',
+    borderRadius: radius.sm,
+    backgroundColor: color.bg,
     borderWidth: 1,
-    borderColor: '#334155',
+    borderColor: color.border,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -165,7 +166,7 @@ const styles = StyleSheet.create({
   badgeText: {
     fontSize: 15,
     fontWeight: '700',
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   badgeTextSelected: {
     color: GOLD,
@@ -177,25 +178,27 @@ const styles = StyleSheet.create({
   },
   primary: {
     fontSize: 18,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'left',
   },
   primaryArabic: {
+    fontFamily: font.arabic,
     fontSize: 26,
     lineHeight: 44,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'left',
     writingDirection: 'rtl',
   },
   secondary: {
     fontSize: 13,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'left',
   },
   secondaryArabic: {
+    fontFamily: font.arabic,
     fontSize: 20,
     lineHeight: 34,
-    color: '#cbd5e1',
+    color: color.textMuted,
     textAlign: 'left',
     writingDirection: 'rtl',
   },
@@ -209,7 +212,7 @@ const styles = StyleSheet.create({
   audioButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
+    borderRadius: radius.lg,
     backgroundColor: 'rgba(212, 175, 55, 0.12)',
     alignItems: 'center',
     justifyContent: 'center',

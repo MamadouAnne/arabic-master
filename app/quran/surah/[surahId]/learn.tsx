@@ -10,6 +10,8 @@ import { TajweedText } from '../../../../src/components/quran/TajweedText';
 import { quranAudioService, AudioState, QURAN_RECITERS, ReciterId } from '../../../../src/services/quranAudioService';
 import { useAudioPlayerStore, startContinuousPlay } from '../../../../src/stores/audioPlayerStore';
 import { useTranslation } from 'react-i18next';
+import { color, radius } from '../../../../src/theme/tokens';
+import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 export default function LearnModeScreen() {
   const { t } = useTranslation();
@@ -86,7 +88,7 @@ export default function LearnModeScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#10b981" />
+          <ActivityIndicator size="large" color={color.progress} />
           <Text style={styles.loadingText}>{t('surahLearnMode.loadingVerses')}</Text>
         </View>
       </SafeAreaView>
@@ -272,7 +274,7 @@ export default function LearnModeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()} accessibilityRole="button" accessibilityLabel="Close learn mode">
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.surahName}>{surah.nameArabic}</Text>
@@ -300,14 +302,14 @@ export default function LearnModeScreen() {
         >
           <View style={styles.guideHeaderLeft}>
             <View style={styles.guideIconBg}>
-              <Ionicons name="book-outline" size={16} color="#10b981" />
+              <Ionicons name="book-outline" size={16} color={color.progress} />
             </View>
             <Text style={styles.guideHeaderText}>{t('surahLearnMode.howToUse')}</Text>
           </View>
           <Ionicons
             name={showGuide ? 'chevron-up' : 'chevron-down'}
             size={18}
-            color="#6b6b60"
+            color={color.textFaint}
           />
         </Pressable>
 
@@ -316,7 +318,7 @@ export default function LearnModeScreen() {
             {/* Play/Pause */}
             <View style={styles.guideItem}>
               <View style={styles.guideItemIcon}>
-                <Ionicons name="play" size={14} color="#10b981" />
+                <Ionicons name="play" size={14} color={color.progress} />
               </View>
               <View style={styles.guideItemText}>
                 <Text style={styles.guideItemTitle}>{t('surahLearnMode.guidePlayPauseTitle')}</Text>
@@ -327,7 +329,7 @@ export default function LearnModeScreen() {
             {/* Speed */}
             <View style={styles.guideItem}>
               <View style={styles.guideItemIcon}>
-                <Ionicons name="speedometer-outline" size={14} color="#f59e0b" />
+                <Ionicons name="speedometer-outline" size={14} color={color.warning} />
               </View>
               <View style={styles.guideItemText}>
                 <Text style={styles.guideItemTitle}>{t('surahLearnMode.guideSpeedTitle')}</Text>
@@ -338,7 +340,7 @@ export default function LearnModeScreen() {
             {/* Repeat */}
             <View style={styles.guideItem}>
               <View style={styles.guideItemIcon}>
-                <Ionicons name="repeat" size={14} color="#14b8a6" />
+                <Ionicons name="repeat" size={14} color={color.progress} />
               </View>
               <View style={styles.guideItemText}>
                 <Text style={styles.guideItemTitle}>{t('surahLearnMode.guideRepeatTitle')}</Text>
@@ -349,7 +351,7 @@ export default function LearnModeScreen() {
             {/* Auto-Advance */}
             <View style={styles.guideItem}>
               <View style={styles.guideItemIcon}>
-                <Ionicons name="arrow-forward" size={14} color="#fb923c" />
+                <Ionicons name="arrow-forward" size={14} color={color.warning} />
               </View>
               <View style={styles.guideItemText}>
                 <Text style={styles.guideItemTitle}>{t('surahLearnMode.guideAutoAdvanceTitle')}</Text>
@@ -360,7 +362,7 @@ export default function LearnModeScreen() {
             {/* Verse Range */}
             <View style={styles.guideItem}>
               <View style={styles.guideItemIcon}>
-                <Ionicons name="options-outline" size={14} color="#34d399" />
+                <Ionicons name="options-outline" size={14} color={color.progress} />
               </View>
               <View style={styles.guideItemText}>
                 <Text style={styles.guideItemTitle}>{t('surahLearnMode.guideVerseRangeTitle')}</Text>
@@ -371,7 +373,7 @@ export default function LearnModeScreen() {
             {/* Background Playback */}
             <View style={styles.guideItem}>
               <View style={styles.guideItemIcon}>
-                <Ionicons name="musical-notes-outline" size={14} color="#2dd4bf" />
+                <Ionicons name="musical-notes-outline" size={14} color={color.progress} />
               </View>
               <View style={styles.guideItemText}>
                 <Text style={styles.guideItemTitle}>{t('surahLearnMode.guideBackgroundTitle')}</Text>
@@ -381,7 +383,7 @@ export default function LearnModeScreen() {
 
             {/* Tip */}
             <View style={styles.guideTip}>
-              <Ionicons name="bulb-outline" size={16} color="#fbbf24" />
+              <Ionicons name="bulb-outline" size={16} color={color.sacredBright} />
               <Text style={styles.guideTipText}>{t('surahLearnMode.guideTip')}</Text>
             </View>
           </View>
@@ -405,7 +407,7 @@ export default function LearnModeScreen() {
               accessibilityLabel={audioState === 'playing' ? 'Pause ayah audio' : audioState === 'paused' ? 'Resume ayah audio' : 'Play ayah audio'}
             >
               {audioState === 'loading' ? (
-                <ActivityIndicator color="#10b981" size="small" />
+                <ActivityIndicator color={color.progress} size="small" />
               ) : (
                 <Ionicons
                   name={getPlayIcon() as any}
@@ -438,7 +440,7 @@ export default function LearnModeScreen() {
             accessibilityLabel={showRangeSelector ? `${t('surahLearnMode.verseRange')}, collapse` : `${t('surahLearnMode.verseRange')}, expand`}
           >
             <View style={styles.rangeSelectorInfo}>
-              <Ionicons name="options" size={18} color="#10b981" />
+              <Ionicons name="options" size={18} color={color.progress} />
               <Text style={styles.rangeSelectorTitle}>
                 {t('surahLearnMode.verseRange')} {startVerse} - {endVerse}
               </Text>
@@ -446,7 +448,7 @@ export default function LearnModeScreen() {
             <Ionicons
               name={showRangeSelector ? "chevron-up" : "chevron-down"}
               size={18}
-              color="#cbd5e1"
+              color={color.textMuted}
             />
           </Pressable>
 
@@ -647,7 +649,7 @@ export default function LearnModeScreen() {
           {/* Current Repeat Progress */}
           {audioState !== 'idle' && repeatCount > 1 && (
             <View style={styles.repeatProgress}>
-              <Ionicons name="repeat" size={16} color="#10b981" />
+              <Ionicons name="repeat" size={16} color={color.progress} />
               <Text style={styles.repeatProgressText}>
                 {currentRepeat + 1} / {repeatCount}
               </Text>
@@ -677,10 +679,10 @@ export default function LearnModeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 16,
     textAlign: 'center',
     marginTop: 100,
@@ -691,7 +693,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     marginTop: 16,
   },
@@ -701,7 +703,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   closeButton: {
     padding: 8,
@@ -711,12 +713,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   surahName: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
   subtitle: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 12,
     marginTop: 2,
   },
@@ -724,11 +726,11 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   statsText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 14,
   },
   rangeIndicator: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 11,
     marginTop: 2,
   },
@@ -740,8 +742,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 14,
     marginTop: 12,
   },
@@ -753,19 +755,19 @@ const styles = StyleSheet.create({
   guideIconBg: {
     width: 30,
     height: 30,
-    borderRadius: 8,
-    backgroundColor: '#10b98115',
+    borderRadius: radius.sm,
+    backgroundColor: withAlpha(color.progress, 0.08),
     alignItems: 'center',
     justifyContent: 'center',
   },
   guideHeaderText: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
   guideContent: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginTop: 8,
     gap: 16,
@@ -777,7 +779,7 @@ const styles = StyleSheet.create({
   guideItemIcon: {
     width: 28,
     height: 28,
-    borderRadius: 8,
+    borderRadius: radius.sm,
     backgroundColor: '#161613',
     alignItems: 'center',
     justifyContent: 'center',
@@ -788,12 +790,12 @@ const styles = StyleSheet.create({
     gap: 3,
   },
   guideItemTitle: {
-    color: '#f5f5f0',
+    color: color.text,
     fontSize: 14,
     fontWeight: '600',
   },
   guideItemDesc: {
-    color: '#a3a398',
+    color: color.textMuted,
     fontSize: 13,
     lineHeight: 19,
   },
@@ -801,21 +803,21 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'flex-start',
     gap: 10,
-    backgroundColor: '#fbbf2410',
-    borderRadius: 10,
+    backgroundColor: withAlpha(color.sacredBright, 0.06),
+    borderRadius: radius.sm,
     padding: 12,
     marginTop: 4,
   },
   guideTipText: {
-    color: '#fbbf24',
+    color: color.sacredBright,
     fontSize: 13,
     lineHeight: 19,
     flex: 1,
     fontStyle: 'italic',
   },
   ayahCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 20,
     marginTop: 12,
   },
@@ -828,13 +830,13 @@ const styles = StyleSheet.create({
   ayahNumber: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   ayahNumberText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontWeight: 'bold',
   },
@@ -848,33 +850,33 @@ const styles = StyleSheet.create({
     gap: 8,
     paddingVertical: 12,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   hintButtonText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 14,
   },
   hintContent: {
     paddingTop: 16,
     borderTopWidth: 1,
-    borderTopColor: '#334155',
+    borderTopColor: color.border,
   },
   transliteration: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontStyle: 'italic',
     textAlign: 'center',
     marginBottom: 8,
   },
   translation: {
-    color: '#cbd5e1',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     lineHeight: 22,
   },
   controlsCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 20,
     marginTop: 12,
   },
@@ -882,8 +884,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#334155',
-    borderRadius: 12,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.md,
     paddingHorizontal: 16,
     paddingVertical: 14,
     marginBottom: 16,
@@ -894,13 +896,13 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   rangeSelectorTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 15,
     fontWeight: '600',
   },
   rangeControls: {
-    backgroundColor: '#334155',
-    borderRadius: 12,
+    backgroundColor: color.surfaceRaised,
+    borderRadius: radius.md,
     padding: 16,
     marginBottom: 20,
   },
@@ -911,7 +913,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   rangeLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     width: 50,
   },
@@ -923,25 +925,25 @@ const styles = StyleSheet.create({
   rangeButton: {
     width: 32,
     height: 32,
-    borderRadius: 8,
-    backgroundColor: '#475569',
+    borderRadius: radius.sm,
+    backgroundColor: color.borderStrong,
     alignItems: 'center',
     justifyContent: 'center',
   },
   rangeButtonDisabled: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   rangeInput: {
     width: 60,
     height: 36,
-    backgroundColor: '#1e293b',
-    borderRadius: 8,
-    color: '#ffffff',
+    backgroundColor: color.surface,
+    borderRadius: radius.sm,
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
     textAlign: 'center',
     borderWidth: 1,
-    borderColor: '#475569',
+    borderColor: color.borderStrong,
     paddingVertical: 0,
     paddingHorizontal: 4,
   },
@@ -953,13 +955,13 @@ const styles = StyleSheet.create({
   },
   quickSelectButton: {
     flex: 1,
-    backgroundColor: '#475569',
-    borderRadius: 8,
+    backgroundColor: color.borderStrong,
+    borderRadius: radius.sm,
     paddingVertical: 8,
     alignItems: 'center',
   },
   quickSelectText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 12,
     fontWeight: '500',
   },
@@ -967,7 +969,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   controlLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     marginBottom: 12,
     textAlign: 'center',
@@ -980,21 +982,21 @@ const styles = StyleSheet.create({
   controlButton: {
     paddingHorizontal: 14,
     paddingVertical: 10,
-    borderRadius: 8,
-    backgroundColor: '#334155',
+    borderRadius: radius.sm,
+    backgroundColor: color.surfaceRaised,
     minWidth: 50,
     alignItems: 'center',
   },
   controlButtonActive: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   controlButtonText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '600',
   },
   controlButtonTextActive: {
-    color: '#ffffff',
+    color: color.text,
   },
   bottomAutoAdvance: {
     flexDirection: 'row',
@@ -1004,34 +1006,34 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     marginTop: 12,
     marginBottom: 80,
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
   },
   autoAdvanceLabel: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   autoAdvanceLabelActive: {
-    color: '#10b981',
+    color: color.progress,
   },
   toggle: {
     width: 44,
     height: 24,
-    borderRadius: 12,
-    backgroundColor: '#334155',
+    borderRadius: radius.md,
+    backgroundColor: color.surfaceRaised,
     padding: 2,
   },
   toggleActive: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   toggleThumb: {
     width: 20,
     height: 20,
-    borderRadius: 10,
-    backgroundColor: '#64748b',
+    borderRadius: radius.sm,
+    backgroundColor: color.textFaint,
   },
   toggleThumbActive: {
-    backgroundColor: '#ffffff',
+    backgroundColor: color.text,
     marginLeft: 20,
   },
   repeatProgress: {
@@ -1043,22 +1045,22 @@ const styles = StyleSheet.create({
     marginTop: 12,
   },
   repeatProgressText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontWeight: '600',
   },
   ayahPlayButton: {
     width: 36,
     height: 36,
-    borderRadius: 18,
-    backgroundColor: '#10b98120',
+    borderRadius: radius.lg,
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
   },
   ayahPlayButtonActive: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   ayahPlayButtonPaused: {
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
   },
 });

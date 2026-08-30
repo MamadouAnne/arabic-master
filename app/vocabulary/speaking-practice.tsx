@@ -20,6 +20,8 @@ import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { useSpeechRecognition, PronunciationResult } from '../../src/hooks/useSpeechRecognition';
 import { VocabularyWord } from '../../src/types/arabic';
 import { QuizPrimaryButton } from '../../src/components/quiz/QuizPrimaryButton';
+import { font, color, radius } from '../../src/theme/tokens';
+import { withAlpha } from '../../src/components/ui/Primitives';
 
 type PracticeState = 'ready' | 'listening' | 'recording' | 'processing' | 'result';
 
@@ -179,7 +181,7 @@ export default function SpeakingPracticeScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
           <Pressable style={styles.closeButton} onPress={() => router.back()}>
-            <Ionicons name="close" size={24} color="#ffffff" />
+            <Ionicons name="close" size={24} color={color.text} />
           </Pressable>
           <View style={styles.headerCenter}>
             <Text style={styles.headerTitle}>{t('vocabulary.speakingPractice')}</Text>
@@ -189,7 +191,7 @@ export default function SpeakingPracticeScreen() {
 
         <View style={styles.fallbackContainer}>
           <View style={styles.fallbackIcon}>
-            <Ionicons name="build" size={64} color="#f59e0b" />
+            <Ionicons name="build" size={64} color={color.warning} />
           </View>
           <Text style={styles.fallbackTitle}>{t('vocabulary.devBuildRequired')}</Text>
           <Text style={styles.fallbackTitleArabic}>يتطلب بناء التطوير</Text>
@@ -218,7 +220,7 @@ export default function SpeakingPracticeScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.completeContainer}>
           <View style={styles.completeIcon}>
-            <Ionicons name="mic" size={64} color="#10b981" />
+            <Ionicons name="mic" size={64} color={color.progress} />
           </View>
           <Text style={styles.completeTitle}>{t('vocabulary.practiceComplete')}</Text>
           <Text style={styles.completeTitleArabic}>اكتمل التدريب</Text>
@@ -230,14 +232,14 @@ export default function SpeakingPracticeScreen() {
             </View>
             <View style={styles.statDivider} />
             <View style={styles.statItem}>
-              <Text style={[styles.statValue, { color: '#f59e0b' }]}>
+              <Text style={[styles.statValue, { color: color.warning }]}>
                 {stats.incorrect}
               </Text>
               <Text style={styles.statLabel}>{t('vocabulary.needPractice')}</Text>
             </View>
             <View style={styles.statDivider} />
             <View style={styles.statItem}>
-              <Text style={[styles.statValue, { color: '#6366f1' }]}>
+              <Text style={[styles.statValue, { color: color.accentStrong }]}>
                 {accuracy}%
               </Text>
               <Text style={styles.statLabel}>{t('common.accuracy')}</Text>
@@ -261,7 +263,7 @@ export default function SpeakingPracticeScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.closeButton} onPress={() => router.back()}>
-          <Ionicons name="close" size={24} color="#ffffff" />
+          <Ionicons name="close" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerCenter}>
           <Text style={styles.headerTitle}>{t('vocabulary.speakingPractice')}</Text>
@@ -307,7 +309,7 @@ export default function SpeakingPracticeScreen() {
               size={28}
               color={isSpeaking ? '#ffffff' : '#D4AF37'}
             />
-            <Text style={[styles.listenButtonText, isSpeaking && { color: '#ffffff' }]}>
+            <Text style={[styles.listenButtonText, isSpeaking && { color: color.text }]}>
               {isSpeaking ? t('vocabulary.playing') : hasListened ? t('vocabulary.listenAgain') : t('vocabulary.listenFirst')}
             </Text>
           </Pressable>
@@ -339,7 +341,7 @@ export default function SpeakingPracticeScreen() {
                 <Ionicons
                   name={isListening || practiceState === 'recording' ? 'stop' : 'mic'}
                   size={48}
-                  color="#ffffff"
+                  color={color.text}
                 />
               </Pressable>
             </Animated.View>
@@ -373,7 +375,7 @@ export default function SpeakingPracticeScreen() {
                   <Ionicons
                     name={result.isCorrect ? 'checkmark' : 'close'}
                     size={32}
-                    color="#ffffff"
+                    color={color.text}
                   />
                 </View>
                 <Text
@@ -408,7 +410,7 @@ export default function SpeakingPracticeScreen() {
               )}
 
               <View style={styles.xpBadge}>
-                <Ionicons name="star" size={16} color="#D4AF37" />
+                <Ionicons name="star" size={16} color={color.sacred} />
                 <Text style={styles.xpBadgeText}>
                   +{result.isCorrect ? 10 : 2} XP
                 </Text>
@@ -418,7 +420,7 @@ export default function SpeakingPracticeScreen() {
             <View style={styles.resultActions}>
               {!result.isCorrect && (
                 <Pressable style={styles.tryAgainButton} onPress={handleTryAgain}>
-                  <Ionicons name="refresh" size={20} color="#f59e0b" />
+                  <Ionicons name="refresh" size={20} color={color.warning} />
                   <Text style={styles.tryAgainText}>{t('common.tryAgain')}</Text>
                 </Pressable>
               )}
@@ -452,7 +454,7 @@ export default function SpeakingPracticeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loading: {
     flex: 1,
@@ -460,7 +462,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
   },
   header: {
@@ -474,8 +476,8 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -483,23 +485,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   headerTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },
   headerProgress: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 13,
     marginTop: 2,
   },
   scoreBadge: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     paddingHorizontal: 12,
     paddingVertical: 6,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   scoreText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 13,
     fontWeight: '600',
   },
@@ -509,13 +511,13 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 4,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     borderRadius: 2,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
     borderRadius: 2,
   },
   content: {
@@ -523,26 +525,28 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
   },
   wordCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 20,
+    backgroundColor: color.surface,
+    borderRadius: radius.xl,
     padding: 24,
     alignItems: 'center',
     marginBottom: 20,
   },
   wordArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 95,
     fontSize: 56,
-    color: '#ffffff',
+    color: color.text,
     textAlign: 'center',
     marginBottom: 12,
   },
   wordTranslit: {
     fontSize: 18,
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 8,
   },
   wordEnglish: {
     fontSize: 16,
-    color: '#94a3b8',
+    color: color.textMuted,
   },
   actionSection: {
     marginBottom: 24,
@@ -551,16 +555,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     gap: 12,
   },
   listenButtonActive: {
-    backgroundColor: '#D4AF37',
+    backgroundColor: color.sacred,
   },
   listenButtonText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -569,7 +573,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   recordInstruction: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
     marginBottom: 20,
@@ -581,31 +585,31 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowColor: '#6366f1',
+    shadowColor: color.accentStrong,
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
     shadowRadius: 8,
     elevation: 8,
   },
   recordButtonRecording: {
-    backgroundColor: '#ef4444',
-    shadowColor: '#ef4444',
+    backgroundColor: color.danger,
+    shadowColor: color.danger,
   },
   recordButtonDisabled: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     shadowOpacity: 0,
   },
   transcriptText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 16,
     fontStyle: 'italic',
     marginTop: 8,
   },
   errorText: {
-    color: '#ef4444',
+    color: color.danger,
     fontSize: 13,
     marginTop: 8,
     textAlign: 'center',
@@ -614,20 +618,20 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   resultCard: {
-    borderRadius: 20,
+    borderRadius: radius.xl,
     padding: 24,
     alignItems: 'center',
     marginBottom: 16,
   },
   resultCardCorrect: {
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     borderWidth: 2,
-    borderColor: '#10b981',
+    borderColor: color.progress,
   },
   resultCardIncorrect: {
-    backgroundColor: '#ef444420',
+    backgroundColor: withAlpha(color.danger, 0.13),
     borderWidth: 2,
-    borderColor: '#ef4444',
+    borderColor: color.danger,
   },
   resultHeader: {
     flexDirection: 'row',
@@ -638,32 +642,32 @@ const styles = StyleSheet.create({
   resultIcon: {
     width: 48,
     height: 48,
-    borderRadius: 24,
+    borderRadius: radius.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
   resultIconCorrect: {
-    backgroundColor: '#10b981',
+    backgroundColor: color.progress,
   },
   resultIconIncorrect: {
-    backgroundColor: '#ef4444',
+    backgroundColor: color.danger,
   },
   resultTitle: {
     fontSize: 24,
     fontWeight: 'bold',
   },
   resultTitleCorrect: {
-    color: '#10b981',
+    color: color.progress,
   },
   resultTitleIncorrect: {
-    color: '#ef4444',
+    color: color.danger,
   },
   similarityContainer: {
     alignItems: 'center',
     marginBottom: 16,
   },
   similarityLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginBottom: 4,
   },
@@ -672,46 +676,46 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   similarityGood: {
-    color: '#10b981',
+    color: color.progress,
   },
   similarityLow: {
-    color: '#f59e0b',
+    color: color.warning,
   },
   feedbackText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     textAlign: 'center',
     marginBottom: 12,
   },
   transcriptContainer: {
-    backgroundColor: '#0f172a40',
+    backgroundColor: withAlpha(color.bg, 0.25),
     paddingHorizontal: 16,
     paddingVertical: 12,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 12,
     width: '100%',
   },
   transcriptLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginBottom: 4,
   },
   transcriptValue: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     textAlign: 'center',
   },
   xpBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#D4AF3720',
+    backgroundColor: withAlpha(color.sacred, 0.13),
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
+    borderRadius: radius.xl,
     gap: 6,
   },
   xpBadgeText: {
-    color: '#D4AF37',
+    color: color.sacred,
     fontSize: 16,
     fontWeight: 'bold',
   },
@@ -724,15 +728,15 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     borderWidth: 2,
-    borderColor: '#f59e0b',
+    borderColor: color.warning,
     gap: 8,
   },
   tryAgainText: {
-    color: '#f59e0b',
+    color: color.warning,
     fontSize: 16,
     fontWeight: '600',
   },
@@ -741,23 +745,25 @@ const styles = StyleSheet.create({
     marginHorizontal: 0,
   },
   exampleCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 16,
   },
   exampleLabel: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 12,
     marginBottom: 8,
   },
   exampleArabic: {
-    color: '#ffffff',
+    fontFamily: font.arabic,
+    lineHeight: 31,
+    color: color.text,
     fontSize: 18,
     textAlign: 'center',
     marginBottom: 8,
   },
   exampleEnglish: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     textAlign: 'center',
   },
@@ -772,7 +778,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#10b98120',
+    backgroundColor: withAlpha(color.progress, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
@@ -780,18 +786,20 @@ const styles = StyleSheet.create({
   completeTitle: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 4,
   },
   completeTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 34,
     fontSize: 20,
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 32,
   },
   statsCard: {
     flexDirection: 'row',
-    backgroundColor: '#1e293b',
-    borderRadius: 16,
+    backgroundColor: color.surface,
+    borderRadius: radius.lg,
     padding: 24,
     marginBottom: 24,
     width: '100%',
@@ -803,33 +811,33 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 32,
     fontWeight: 'bold',
-    color: '#10b981',
+    color: color.progress,
   },
   statLabel: {
     fontSize: 12,
-    color: '#94a3b8',
+    color: color.textMuted,
     marginTop: 4,
     textAlign: 'center',
   },
   statDivider: {
     width: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     marginHorizontal: 12,
   },
   xpEarned: {
     fontSize: 18,
-    color: '#D4AF37',
+    color: color.sacred,
     fontWeight: '600',
     marginBottom: 32,
   },
   doneButton: {
-    backgroundColor: '#6366f1',
+    backgroundColor: color.accentStrong,
     paddingHorizontal: 48,
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: radius.lg,
   },
   doneButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 18,
     fontWeight: 'bold',
   },
@@ -844,7 +852,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: '#f59e0b20',
+    backgroundColor: withAlpha(color.warning, 0.13),
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 24,
@@ -852,43 +860,45 @@ const styles = StyleSheet.create({
   fallbackTitle: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 8,
     textAlign: 'center',
   },
   fallbackTitleArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 31,
     fontSize: 18,
-    color: '#f59e0b',
+    color: color.warning,
     marginBottom: 24,
   },
   fallbackDesc: {
     fontSize: 14,
-    color: '#94a3b8',
+    color: color.textMuted,
     textAlign: 'center',
     marginBottom: 16,
     lineHeight: 22,
   },
   codeBlock: {
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     padding: 16,
-    borderRadius: 12,
+    borderRadius: radius.md,
     marginBottom: 32,
     width: '100%',
   },
   codeText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 14,
     fontFamily: 'monospace',
     marginBottom: 4,
   },
   backButton: {
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
     paddingHorizontal: 32,
     paddingVertical: 14,
-    borderRadius: 12,
+    borderRadius: radius.md,
   },
   backButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 16,
     fontWeight: '600',
   },

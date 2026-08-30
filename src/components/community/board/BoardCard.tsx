@@ -7,6 +7,7 @@ import { BoardCanvas, boardContentBounds } from './BoardCanvas';
 import { BoardViewer } from './BoardViewer';
 import type { BoardContent } from '../../../types/classContent';
 import { BOARD_BG } from '../../../types/classContent';
+import { color, radius } from '../../../theme/tokens';
 
 interface Props {
   board: BoardContent;
@@ -42,7 +43,7 @@ export const BoardCard = React.memo(function BoardCard({ board, groupColor, auth
       <Pressable style={styles.card} onPress={() => setOpen(true)} onLongPress={onLongPress} delayLongPress={300}>
         <View style={[styles.band, { backgroundColor: `${groupColor}18` }]}>
           <View style={[styles.badge, { backgroundColor: groupColor }]}>
-            <Ionicons name="brush" size={13} color="#ffffff" />
+            <Ionicons name="brush" size={13} color={color.text} />
             <Text style={styles.badgeText}>{t('community.badgeBoard')}</Text>
           </View>
           <Text style={styles.byline} numberOfLines={1}>{authorName}</Text>
@@ -84,13 +85,13 @@ export const BoardCard = React.memo(function BoardCard({ board, groupColor, auth
 });
 
 const styles = StyleSheet.create({
-  card: { width: '100%', backgroundColor: '#1e293b', borderRadius: 16, borderWidth: 1, borderColor: '#334155', overflow: 'hidden' },
+  card: { width: '100%', backgroundColor: color.surface, borderRadius: radius.lg, borderWidth: 1, borderColor: color.border, overflow: 'hidden' },
   band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
-  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8 },
-  badgeText: { fontSize: 10, fontWeight: '800', color: '#ffffff', letterSpacing: 0.6 },
-  byline: { fontSize: 12, color: '#94a3b8', maxWidth: 130 },
+  badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.sm },
+  badgeText: { fontSize: 10, fontWeight: '800', color: color.text, letterSpacing: 0.6 },
+  byline: { fontSize: 12, color: color.textMuted, maxWidth: 130 },
   preview: { width: '100%', overflow: 'hidden' },
   fade: { position: 'absolute', left: 0, right: 0, bottom: 0, height: 56 },
-  footer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 10, borderTopWidth: 1, borderTopColor: '#334155' },
+  footer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 10, borderTopWidth: 1, borderTopColor: color.border },
   footerText: { fontSize: 13, fontWeight: '700', letterSpacing: 0.2 },
 });

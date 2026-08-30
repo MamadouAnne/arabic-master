@@ -5,6 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import type { LessonContent, LessonBlock } from '../../../types/classContent';
 import { renderRichText } from './richText';
+import { font, color, radius } from '../../../theme/tokens';
 
 interface Props {
   visible: boolean;
@@ -18,8 +19,8 @@ interface Props {
 
 const CALLOUT_META = {
   info: { icon: 'information-circle', color: '#38bdf8' },
-  tip: { icon: 'bulb', color: '#34d399' },
-  warn: { icon: 'alert-circle', color: '#fbbf24' },
+  tip: { icon: 'bulb', color: color.progress },
+  warn: { icon: 'alert-circle', color: color.sacredBright },
 } as const;
 
 function Block({ block, groupColor }: { block: LessonBlock; groupColor: string }) {
@@ -68,7 +69,7 @@ export function LessonViewer({ visible, lesson, groupColor, authorName, canEdit,
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
       <SafeAreaProvider style={{ flex: 1 }}><SafeAreaView style={styles.container} edges={['top']}>
         <View style={styles.header}>
-          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="chevron-down" size={26} color="#e2e8f0" /></Pressable>
+          <Pressable onPress={onClose} hitSlop={8}><Ionicons name="chevron-down" size={26} color={color.text} /></Pressable>
           <Text style={styles.headerLabel}>{t('community.lesson')}</Text>
           {canEdit ? (
             <Pressable onPress={onEdit} hitSlop={8} style={styles.editBtn}>
@@ -97,26 +98,27 @@ export function LessonViewer({ visible, lesson, groupColor, authorName, canEdit,
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0f172a' },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: '#1e293b' },
-  headerLabel: { fontSize: 13, fontWeight: '700', color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 },
+  container: { flex: 1, backgroundColor: color.bg },
+  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle },
+  headerLabel: { fontSize: 13, fontWeight: '700', color: color.textFaint, textTransform: 'uppercase', letterSpacing: 1 },
   editBtn: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   editText: { fontSize: 14, fontWeight: '600' },
   scroll: { paddingHorizontal: 22, paddingTop: 20 },
   titleAccent: { width: 44, height: 4, borderRadius: 2, marginBottom: 14 },
-  title: { fontSize: 28, fontWeight: '800', color: '#f8fafc', lineHeight: 36 },
-  byline: { fontSize: 13, color: '#64748b', marginTop: 6 },
+  title: { fontSize: 28, fontWeight: '800', color: color.text, lineHeight: 36 },
+  byline: { fontSize: 13, color: color.textFaint, marginTop: 6 },
   blockWrap: { marginBottom: 14 },
   heading: { fontSize: 20, fontWeight: '800', lineHeight: 28, marginTop: 6 },
-  paragraph: { fontSize: 16, color: '#e2e8f0', lineHeight: 26 },
+  paragraph: { fontSize: 16, color: color.text, lineHeight: 26 },
   bullets: { gap: 8 },
   bulletRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },
   bulletDot: { width: 6, height: 6, borderRadius: 3, marginTop: 9 },
-  bulletText: { flex: 1, fontSize: 16, color: '#e2e8f0', lineHeight: 26 },
-  arabicBlock: { backgroundColor: '#131c2e', borderRadius: 14, borderWidth: 1, borderColor: '#1e293b', padding: 16 },
-  arabicText: { fontSize: 26, color: '#f8fafc', lineHeight: 46, textAlign: 'right', writingDirection: 'rtl' },
-  arabicTranslation: { fontSize: 14, color: '#94a3b8', marginTop: 10, lineHeight: 21 },
-  callout: { flexDirection: 'row', gap: 10, borderWidth: 1, borderRadius: 14, padding: 14 },
-  calloutText: { flex: 1, fontSize: 15, color: '#e2e8f0', lineHeight: 23 },
-  divider: { height: 1, backgroundColor: '#1e293b', marginVertical: 4 },
+  bulletText: { flex: 1, fontSize: 16, color: color.text, lineHeight: 26 },
+  arabicBlock: { backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.borderSubtle, padding: 16 },
+  arabicText: {
+    fontFamily: font.arabic, fontSize: 26, color: color.text, lineHeight: 46, textAlign: 'right', writingDirection: 'rtl' },
+  arabicTranslation: { fontSize: 14, color: color.textMuted, marginTop: 10, lineHeight: 21 },
+  callout: { flexDirection: 'row', gap: 10, borderWidth: 1, borderRadius: radius.md, padding: 14 },
+  calloutText: { flex: 1, fontSize: 15, color: color.text, lineHeight: 23 },
+  divider: { height: 1, backgroundColor: color.surface, marginVertical: 4 },
 });

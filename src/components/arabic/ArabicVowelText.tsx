@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import { Text, TextStyle, StyleSheet } from 'react-native';
+import { font, color } from '../../theme/tokens';
 
 interface ArabicVowelTextProps {
   text: string;
@@ -87,8 +88,10 @@ const ArabicVowelText = memo(function ArabicVowelText({
 
 const styles = StyleSheet.create({
   arabicText: {
+    fontFamily: font.arabic,
+    lineHeight: 37,
     fontSize: 22,
-    color: '#ffffff',
+    color: color.text,
   },
 });
 

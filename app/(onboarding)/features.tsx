@@ -4,6 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useRef, useState } from 'react';
+import { font, color, radius } from '../../src/theme/tokens';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
@@ -20,21 +21,21 @@ const FEATURES: FeaturePage[] = [
     titleKey: 'onboarding.feature1Title',
     descKey: 'onboarding.feature1Desc',
     icon: 'text',
-    color: '#6366f1',
+    color: color.accentStrong,
     arabic: 'اللغة العربية',
   },
   {
     titleKey: 'onboarding.feature2Title',
     descKey: 'onboarding.feature2Desc',
     icon: 'book',
-    color: '#10b981',
+    color: color.progress,
     arabic: 'القرآن والعلم',
   },
   {
     titleKey: 'onboarding.feature3Title',
     descKey: 'onboarding.feature3Desc',
     icon: 'calendar',
-    color: '#f59e0b',
+    color: color.warning,
     arabic: 'التدريب اليومي',
   },
 ];
@@ -108,7 +109,7 @@ export default function FeaturesScreen() {
               key={index}
               style={[
                 styles.dot,
-                { backgroundColor: index === activeIndex ? activeColor : '#334155' },
+                { backgroundColor: index === activeIndex ? activeColor: color.textFaint },
                 index === activeIndex && { width: 24 },
               ]}
             />
@@ -142,7 +143,7 @@ export default function FeaturesScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   topBar: {
     flexDirection: 'row',
@@ -153,11 +154,11 @@ const styles = StyleSheet.create({
   skipButton: {
     paddingHorizontal: 16,
     paddingVertical: 8,
-    borderRadius: 20,
-    backgroundColor: '#1e293b',
+    borderRadius: radius.xl,
+    backgroundColor: color.surface,
   },
   skipText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
     fontWeight: '500',
   },
@@ -179,20 +180,22 @@ const styles = StyleSheet.create({
     marginBottom: 32,
   },
   arabicTitle: {
-    color: '#D4AF37',
+    fontFamily: font.arabic,
+    lineHeight: 34,
+    color: color.sacred,
     fontSize: 20,
     fontWeight: '600',
     marginBottom: 8,
   },
   featureTitle: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 26,
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 14,
   },
   featureDesc: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 15,
     textAlign: 'center',
     lineHeight: 24,
@@ -216,14 +219,14 @@ const styles = StyleSheet.create({
   },
   nextButton: {
     paddingVertical: 18,
-    borderRadius: 16,
+    borderRadius: radius.lg,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
     alignSelf: 'stretch',
   },
   nextButtonText: {
-    color: '#ffffff',
+    color: color.text,
     fontSize: 17,
     fontWeight: '700',
     marginRight: 10,
@@ -231,8 +234,8 @@ const styles = StyleSheet.create({
   nextButtonIcon: {
     width: 32,
     height: 32,
-    borderRadius: 16,
-    backgroundColor: '#ffffff',
+    borderRadius: radius.lg,
+    backgroundColor: color.text,
     alignItems: 'center',
     justifyContent: 'center',
   },

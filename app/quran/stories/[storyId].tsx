@@ -10,6 +10,8 @@ import { StoryContentBlock } from '../../../src/components/quranStories';
 import { useQuranStoriesStore } from '../../../src/stores/quranStoriesStore';
 import { QuranReference, STORY_CATEGORY_LABELS } from '../../../src/types/quranStories';
 import { quranAudioService, AudioState } from '../../../src/services/quranAudioService';
+import { font, color, radius } from '../../../src/theme/tokens';
+import { withAlpha } from '../../../src/components/ui/Primitives';
 
 export default function QuranStoryDetailScreen() {
   const { t } = useTranslation();
@@ -104,7 +106,7 @@ export default function QuranStoryDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#6366f1" />
+          <ActivityIndicator size="large" color={color.accentStrong} />
           <Text style={styles.loadingText}>{t('storiesFeature.loadingStory')}</Text>
         </View>
       </SafeAreaView>
@@ -119,7 +121,7 @@ export default function QuranStoryDetailScreen() {
       {/* Header */}
       <View style={styles.header}>
         <Pressable style={styles.backButton} onPress={() => router.back()}>
-          <Ionicons name="arrow-back" size={24} color="#ffffff" />
+          <Ionicons name="arrow-back" size={24} color={color.text} />
         </Pressable>
         <View style={styles.headerTitle}>
           <View style={styles.storyNameRow}>
@@ -130,7 +132,7 @@ export default function QuranStoryDetailScreen() {
         </View>
         <View style={styles.headerMeta}>
           <View style={styles.metaItem}>
-            <Ionicons name="time-outline" size={14} color="#64748b" />
+            <Ionicons name="time-outline" size={14} color={color.textFaint} />
             <Text style={styles.metaText}>{story.estimatedReadTime} {t('common.min')}</Text>
           </View>
         </View>
@@ -143,14 +145,14 @@ export default function QuranStoryDetailScreen() {
         </View>
         {story.mainSurah && (
           <View style={styles.surahBadge}>
-            <Ionicons name="book-outline" size={12} color="#818cf8" />
+            <Ionicons name="book-outline" size={12} color={color.accent} />
             <Text style={styles.surahText}>
               {t('storiesFeature.surah')} {story.mainSurah.name} ({story.mainSurah.nameArabic})
             </Text>
           </View>
         )}
         <View style={styles.sourceCountBadge}>
-          <Ionicons name="library-outline" size={12} color="#64748b" />
+          <Ionicons name="library-outline" size={12} color={color.textFaint} />
           <Text style={styles.sourceCountText}>{sourceCount} {t('prophetsFeature.sources')}</Text>
         </View>
       </View>
@@ -173,7 +175,7 @@ export default function QuranStoryDetailScreen() {
             <Text style={styles.lessonsTitle}>{t('storiesFeature.keyLessons')}</Text>
             {lcArray(story.lessons, story.lessonsFr).map((lesson, index) => (
               <View key={index} style={styles.lessonItem}>
-                <Ionicons name="checkmark-circle" size={16} color="#10b981" />
+                <Ionicons name="checkmark-circle" size={16} color={color.progress} />
                 <Text style={styles.lessonText}>{lesson}</Text>
               </View>
             ))}
@@ -205,14 +207,14 @@ export default function QuranStoryDetailScreen() {
           {/* Mark Complete Button */}
           {story.content.length > 0 && !isCompleted && (
             <Pressable style={styles.completeButton} onPress={handleMarkComplete}>
-              <Ionicons name="checkmark-circle-outline" size={20} color="#10b981" />
+              <Ionicons name="checkmark-circle-outline" size={20} color={color.progress} />
               <Text style={styles.completeButtonText}>{t('storiesFeature.markComplete')}</Text>
             </Pressable>
           )}
 
           {isCompleted && (
             <View style={styles.completedBadge}>
-              <Ionicons name="checkmark-circle" size={20} color="#10b981" />
+              <Ionicons name="checkmark-circle" size={20} color={color.progress} />
               <Text style={styles.completedText}>{t('storiesFeature.storyCompleted')}</Text>
             </View>
           )}
@@ -227,7 +229,7 @@ export default function QuranStoryDetailScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0f172a',
+    backgroundColor: color.bg,
   },
   loadingContainer: {
     flex: 1,
@@ -236,7 +238,7 @@ const styles = StyleSheet.create({
     gap: 16,
   },
   loadingText: {
-    color: '#94a3b8',
+    color: color.textMuted,
     fontSize: 14,
   },
   header: {
@@ -245,7 +247,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#334155',
+    borderBottomColor: color.border,
   },
   backButton: {
     padding: 8,
@@ -263,13 +265,15 @@ const styles = StyleSheet.create({
     fontSize: 22,
   },
   storyNameArabic: {
+    fontFamily: font.arabic,
+    lineHeight: 37,
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
   },
   storyNameEnglish: {
     fontSize: 14,
-    color: '#cbd5e1',
+    color: color.textMuted,
     marginTop: 2,
   },
   headerMeta: {
@@ -281,7 +285,7 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   metaText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
   subHeader: {
@@ -291,16 +295,16 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     gap: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#1e293b',
+    borderBottomColor: color.borderSubtle,
   },
   categoryBadge: {
-    backgroundColor: '#6366f120',
+    backgroundColor: withAlpha(color.accentStrong, 0.13),
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 6,
   },
   categoryText: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 11,
     fontWeight: '600',
   },
@@ -308,13 +312,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    backgroundColor: '#1e293b',
+    backgroundColor: color.surface,
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: 6,
   },
   surahText: {
-    color: '#818cf8',
+    color: color.accent,
     fontSize: 11,
   },
   sourceCountBadge: {
@@ -323,15 +327,15 @@ const styles = StyleSheet.create({
     gap: 4,
   },
   sourceCountText: {
-    color: '#64748b',
+    color: color.textFaint,
     fontSize: 11,
   },
   contentContainer: {
     flex: 1,
   },
   summaryCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     margin: 16,
     marginBottom: 12,
@@ -339,17 +343,17 @@ const styles = StyleSheet.create({
   summaryTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#818cf8',
+    color: color.accent,
     marginBottom: 8,
   },
   summaryText: {
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 22,
   },
   lessonsCard: {
-    backgroundColor: '#1e293b',
-    borderRadius: 12,
+    backgroundColor: color.surface,
+    borderRadius: radius.md,
     padding: 16,
     marginHorizontal: 16,
     marginBottom: 16,
@@ -357,7 +361,7 @@ const styles = StyleSheet.create({
   lessonsTitle: {
     fontSize: 14,
     fontWeight: '600',
-    color: '#10b981',
+    color: color.progress,
     marginBottom: 12,
   },
   lessonItem: {
@@ -369,7 +373,7 @@ const styles = StyleSheet.create({
   lessonText: {
     flex: 1,
     fontSize: 14,
-    color: '#e2e8f0',
+    color: color.text,
     lineHeight: 20,
   },
   narrativeHeader: {
@@ -380,12 +384,12 @@ const styles = StyleSheet.create({
   narrativeHeaderTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#ffffff',
+    color: color.text,
     marginBottom: 12,
   },
   divider: {
     height: 1,
-    backgroundColor: '#334155',
+    backgroundColor: color.surfaceRaised,
   },
   blocksContainer: {
     paddingHorizontal: 16,
@@ -394,16 +398,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#10b98120',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderRadius: radius.md,
     paddingVertical: 14,
     marginTop: 24,
     gap: 8,
     borderWidth: 1,
-    borderColor: '#10b98140',
+    borderColor: withAlpha(color.progress, 0.25),
   },
   completeButtonText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 15,
     fontWeight: '600',
   },
@@ -411,14 +415,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#10b98120',
-    borderRadius: 12,
+    backgroundColor: withAlpha(color.progress, 0.13),
+    borderRadius: radius.md,
     paddingVertical: 14,
     marginTop: 24,
     gap: 8,
   },
   completedText: {
-    color: '#10b981',
+    color: color.progress,
     fontSize: 15,
     fontWeight: '600',
   },
