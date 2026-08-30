@@ -12,11 +12,11 @@ import { useRouter, Href } from 'expo-router';
 import { useAdStore } from '../../src/stores/adStore';
 import { iapService } from '../../src/services/iapService';
 import { ENABLE_ADS } from '../../src/services/adService';
-import { useCreditStore, getCreditDisplayInfo } from '../../src/stores/creditStore';
-import { CreditPurchaseSheet } from '../../src/components/ai/CreditPurchaseSheet';
-import { revenueCatService } from '../../src/services/revenueCatService';
 import { useCommunityStore } from '../../src/stores/communityStore';
 import * as communityService from '../../src/services/communityService';
+import { useCreditStore, getCreditDisplayInfo } from '../../src/stores/creditStore';
+import { CreditPurchaseSheet } from '../../src/components/purchase/CreditPurchaseSheet';
+import { revenueCatService } from '../../src/services/revenueCatService';
 import { Txt, Arabic, IlluminatedRule, withAlpha } from '../../src/components/ui/Primitives';
 import { color, space, gutter, font, radius } from '../../src/theme/tokens';
 
@@ -217,6 +217,7 @@ export default function ProfileScreen() {
     setIsEditingName(false);
     setEditNameValue('');
   };
+
 
   // ── Subscription & Credits ──────────────────────────────────────
   const creditBalance = useCreditStore((s) => s.creditBalance);
@@ -439,6 +440,7 @@ export default function ProfileScreen() {
           )}
           <Ionicons name="chevron-forward" size={20} color={color.textFaint} />
         </Pressable>
+
 
         {/* Subscription & Credits */}
         <View style={styles.section}>
@@ -879,8 +881,7 @@ export default function ProfileScreen() {
       <CreditPurchaseSheet
         visible={showPurchaseSheet}
         onClose={() => setShowPurchaseSheet(false)}
-      />
-    </SafeAreaView>
+      />    </SafeAreaView>
   );
 }
 
@@ -1547,7 +1548,6 @@ const styles = StyleSheet.create({
     fontSize: 13,
     textDecorationLine: 'underline',
   },
-
   // ── Community gamification sections ──────────────────────────────
   // Storage styles
   storageCard: {

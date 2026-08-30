@@ -1,8 +1,7 @@
 import React from 'react';
 import { Text, TextStyle, StyleProp } from 'react-native';
 
-// Matches runs of Arabic-script characters (same ranges used across the app,
-// e.g. AIChatBubble.tsx / aiMemoryService.ts).
+// Matches runs of Arabic-script characters (same ranges used across the app).
 export const ARABIC_REGEX = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]+(?:\s+[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]+)*/g;
 const ARABIC_CHAR = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/g;
 const LATIN_CHAR = /[A-Za-z]/g;

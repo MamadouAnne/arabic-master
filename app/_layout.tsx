@@ -13,14 +13,12 @@ import { useTranslation } from 'react-i18next';
 import { quranAudioService } from '../src/services/quranAudioService';
 import { adService } from '../src/services/adService';
 import { iapService } from '../src/services/iapService';
-import { revenueCatService } from '../src/services/revenueCatService';
 import { useSettingsStore } from '../src/stores/settingsStore';
 import { useCreditStore } from '../src/stores/creditStore';
+import { revenueCatService } from '../src/services/revenueCatService';
 import { supabase, isSupabaseConfigured, safeGetSession } from '../src/lib/supabase';
 import { MiniAudioPlayer } from '../src/components/quran/MiniAudioPlayer';
 import { UpdateModal } from '../src/components/UpdateModal';
-import { AIFloatingButton } from '../src/components/ai/AIFloatingButton';
-import { AIChatSheet } from '../src/components/ai/AIChatSheet';
 import { AppErrorBoundary } from '../src/components/AppErrorBoundary';
 import { color } from '../src/theme/tokens';
 
@@ -284,9 +282,6 @@ export default function RootLayout() {
           <Stack.Screen name="terms-of-service" />
         </Stack>
         <MiniAudioPlayer />
-        {/* Show the AI floating button only on the home tab. */}
-        {segments[0] === '(tabs)' && !segments[1] && <AIFloatingButton />}
-        <AIChatSheet />
         <UpdateModal />
       </GestureHandlerRootView>
     </AppErrorBoundary>
