@@ -29,7 +29,7 @@ const LeaderboardRow = memo(function LeaderboardRow({
 
   const getRankDisplay = (rank: number) => {
     if (rank === 1) return { emoji: '🥇', color: '#FFD700' };
-    if (rank === 2) return { emoji: '🥈', color: '#C0C0C0' };
+    if (rank === 2) return { emoji: '🥈', color: '#9AA5B1' };
     if (rank === 3) return { emoji: '🥉', color: '#CD7F32' };
     return { emoji: null, color: color.textFaint };
   };
@@ -351,7 +351,7 @@ const styles = StyleSheet.create({
   podiumSecond: {
     backgroundColor: 'rgba(192, 192, 192, 0.2)',
     borderWidth: 2,
-    borderColor: '#C0C0C0',
+    borderColor: '#9AA5B1',
   },
   podiumThird: {
     backgroundColor: 'rgba(205, 127, 50, 0.2)',

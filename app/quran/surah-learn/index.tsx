@@ -99,7 +99,7 @@ function SurahFlashcard({
           {/* Front of card - Surah Number */}
           <Animated.View style={[styles.card, styles.cardFront, frontAnimatedStyle]}>
             <LinearGradient
-              colors={['#10b981', '#059669']}
+              colors={[color.progress, color.accent]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.cardGradient}
@@ -117,7 +117,7 @@ function SurahFlashcard({
           {/* Back of card - Surah Info */}
           <Animated.View style={[styles.card, styles.cardBack, backAnimatedStyle]}>
             <LinearGradient
-              colors={['#3b82f6', '#1d4ed8']}
+              colors={[color.accent, color.accentStrong]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.cardGradient}
@@ -164,7 +164,7 @@ function SurahFlashcard({
           <Ionicons
             name="chevron-back"
             size={24}
-            color={currentIndex === 0 ? '#475569' : '#ffffff'}
+            color={currentIndex === 0 ? color.borderStrong : color.accent}
           />
           <Text style={[styles.navButtonText, currentIndex === 0 && styles.navButtonTextDisabled]}>
             {t('common.previous')}
@@ -181,7 +181,7 @@ function SurahFlashcard({
           <Ionicons
             name="chevron-forward"
             size={24}
-            color={currentIndex === totalCount - 1 ? '#475569' : '#ffffff'}
+            color={currentIndex === totalCount - 1 ? color.borderStrong : color.accent}
           />
         </Pressable>
       </View>
@@ -524,7 +524,7 @@ export default function SurahLearnScreen() {
               onPress={() => router.push('/quran/quiz/surah_structure' as any)}
             >
               <LinearGradient
-                colors={['#10b981', '#059669']}
+                colors={[color.progress, color.accent]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
                 style={styles.randomQuizGradient}

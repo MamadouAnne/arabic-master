@@ -168,7 +168,7 @@ export default function VerbsQuizPracticeScreen() {
             <Ionicons
               name={accuracy >= 80 ? 'trophy' : accuracy >= 50 ? 'thumbs-up' : 'refresh'}
               size={64}
-              color={accuracy >= 80 ? '#22c55e' : accuracy >= 50 ? '#D4AF37' : '#ef4444'}
+              color={accuracy >= 80 ? '#22c55e' : accuracy >= 50 ? color.sacred : '#ef4444'}
             />
           </View>
           <Text style={styles.completeTitle}>

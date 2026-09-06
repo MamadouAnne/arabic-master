@@ -195,7 +195,7 @@ export default function ReadingScreen() {
           onPress={() => router.push('/reading/arabic' as any)}
         >
           <LinearGradient
-            colors={['#10b981', '#0d9488']}
+            colors={[color.progress, color.accent]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={styles.arabicCard}

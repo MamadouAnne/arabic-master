@@ -158,7 +158,7 @@ export default function JuzDetailScreen() {
             <Ionicons
               name="chevron-back"
               size={20}
-              color={prevJuz ? '#ffffff' : '#334155'}
+              color={prevJuz ? color.accent : color.borderStrong}
             />
           </Pressable>
           <Pressable
@@ -169,7 +169,7 @@ export default function JuzDetailScreen() {
             <Ionicons
               name="chevron-forward"
               size={20}
-              color={nextJuz ? '#ffffff' : '#334155'}
+              color={nextJuz ? color.accent : color.borderStrong}
             />
           </Pressable>
         </View>
@@ -179,7 +179,7 @@ export default function JuzDetailScreen() {
         {/* Hero Card */}
         <View style={styles.heroCard}>
           <LinearGradient
-            colors={['#3b82f6', '#1d4ed8', '#1e40af']}
+            colors={[color.progress, color.accent, color.accentStrong]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={styles.heroGradient}

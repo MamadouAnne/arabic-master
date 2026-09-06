@@ -156,7 +156,7 @@ export function QuizEditor({ visible, groupColor, initial, chatContext, onSave, 
                     {(q.options || []).map((opt, oi) => (
                       <View key={oi} style={styles.optRow}>
                         <Pressable onPress={() => patch(qi, { correctIndex: oi })} hitSlop={6}>
-                          <Ionicons name={q.correctIndex === oi ? 'checkmark-circle' : 'ellipse-outline'} size={22} color={q.correctIndex === oi ? '#10b981' : '#475569'} />
+                          <Ionicons name={q.correctIndex === oi ? 'checkmark-circle' : 'ellipse-outline'} size={22} color={q.correctIndex === oi ? color.progress : color.borderStrong} />
                         </Pressable>
                         <TextInput style={styles.optInput} placeholder={`Option ${oi + 1}`} placeholderTextColor={color.textFaint} value={opt} onChangeText={(t) => setOption(qi, oi, t)} />
                         {(q.options || []).length > 2 && (

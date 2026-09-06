@@ -40,7 +40,7 @@ const LH = 1.28; // line-height factor
 const lines = (t: string, size: number, w: number) => wrapBoardText(t, size, Math.max(60, w)).length;
 const blockH = (t: string, size: number, w: number) => lines(t, size, w) * size * LH;
 
-export function buildBoardFromCourse(spec: CourseSpec, canvasWidth: number, background: BoardBackground = 'dark'): BoardContent {
+export function buildBoardFromCourse(spec: CourseSpec, canvasWidth: number, background: BoardBackground = 'cream'): BoardContent {
   const W = Math.max(300, canvasWidth);
   const M = 20;
   const contentW = W - 2 * M;

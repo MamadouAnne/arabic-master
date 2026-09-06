@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   cardBack: {
-    backgroundColor: '#1e3a5f',
+    backgroundColor: color.accentSoft,
   },
   cardContent: {
     flex: 1,

@@ -29,7 +29,7 @@ export default function AlphabetScreen() {
       case 'mastered':
         return '#22c55e';
       case 'learned':
-        return '#D4AF37';
+        return color.sacred;
       default:
         return '#6366f1';
     }

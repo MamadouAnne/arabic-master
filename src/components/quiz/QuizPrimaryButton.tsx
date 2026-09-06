@@ -11,7 +11,7 @@ interface QuizPrimaryButtonProps {
   style?: StyleProp<ViewStyle>;
 }
 
-const GOLD = '#D4AF37';
+const GOLD = color.sacred;
 
 /** Shared gold CTA used for Next / Continue / See results across quizzes. */
 export function QuizPrimaryButton({ label, onPress, disabled, icon = 'arrow-forward', style }: QuizPrimaryButtonProps) {

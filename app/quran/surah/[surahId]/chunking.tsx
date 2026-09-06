@@ -109,12 +109,12 @@ function getWordState(
 // ============ Constants ============
 
 const METHOD_COLOR = '#f59e0b';
-const BG_COLOR = '#0f172a';
-const CARD_COLOR = '#1e293b';
-const BORDER_COLOR = '#334155';
-const TEXT_PRIMARY = '#f5f5f0';
-const TEXT_SECONDARY = '#a3a398';
-const ARABIC_GOLD = '#D4AF37';
+const BG_COLOR = color.bg;
+const CARD_COLOR = color.surface;
+const BORDER_COLOR = color.border;
+const TEXT_PRIMARY = color.text;
+const TEXT_SECONDARY = color.textMuted;
+const ARABIC_GOLD = color.sacred;
 
 // ============ Component ============
 
@@ -565,7 +565,7 @@ export default function ChunkingScreen() {
             <Ionicons
               name="chevron-back"
               size={20}
-              color={currentAyahIndex === 0 && currentStepIndex === 0 ? '#475569' : TEXT_PRIMARY}
+              color={currentAyahIndex === 0 && currentStepIndex === 0 ? color.borderStrong : TEXT_PRIMARY}
             />
           </Pressable>
 
@@ -609,7 +609,7 @@ export default function ChunkingScreen() {
             <Ionicons
               name="chevron-forward"
               size={20}
-              color={isLastAyah ? '#475569' : TEXT_PRIMARY}
+              color={isLastAyah ? color.borderStrong : TEXT_PRIMARY}
             />
           </Pressable>
         </View>

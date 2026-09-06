@@ -398,11 +398,11 @@ const styles = StyleSheet.create({
   },
   practiceButtonSubtext: {
     fontSize: 12,
-    color: 'rgba(255, 255, 255, 0.7)',
+    color: withAlpha(tk.text, 0.7),
     marginTop: 2,
   },
   exerciseCount: {
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    backgroundColor: withAlpha(tk.text, 0.1),
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: radius.md,

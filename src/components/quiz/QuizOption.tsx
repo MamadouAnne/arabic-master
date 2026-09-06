@@ -23,7 +23,7 @@ interface QuizOptionProps {
   onAudio?: () => void;
 }
 
-const GOLD = '#D4AF37';
+const GOLD = color.sacred;
 const GREEN = '#22c55e';
 const RED = '#ef4444';
 

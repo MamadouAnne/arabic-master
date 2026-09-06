@@ -16,7 +16,7 @@ import { useArabicTextsStore } from '../../../src/stores/arabicTextsStore';
 import { playArabicLines, stopArabic } from '../../../src/services/speech/arabicTTS';
 import { color, radius } from '../../../src/theme/tokens';
 
-const BRAND = '#10b981';
+const BRAND = color.progress;
 const SPEEDS = [
   { label: '0.5×', value: 0.5 },
   { label: '0.75×', value: 0.75 },
@@ -205,7 +205,7 @@ export default function ArabicPlayerScreen() {
 
           <Pressable onPress={handlePlayPause} style={styles.playBtnWrap}>
             <LinearGradient
-              colors={['#10b981', '#0d9488']}
+              colors={[color.progress, color.accent]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.playBtn}

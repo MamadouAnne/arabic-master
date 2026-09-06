@@ -151,7 +151,7 @@ export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo
     <>
       {msg.isPinned && (
         <View style={styles.pinnedIndicator}>
-          <Ionicons name="pin" size={10} color={isMe ? 'rgba(255,255,255,0.6)' : '#94a3b8'} />
+          <Ionicons name="pin" size={10} color={isMe ? 'rgba(255,255,255,0.6)' : color.textFaint} />
         </View>
       )}
       {!isMe && showAvatar && <Text style={[styles.bubbleOtherName, { color: groupColor }]}>{msg.authorName}</Text>}
@@ -159,7 +159,7 @@ export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo
 
       {deleted ? (
         <Text style={[styles.deletedText, isMe && { color: 'rgba(255,255,255,0.7)' }]}>
-          <Ionicons name="ban-outline" size={13} color={isMe ? 'rgba(255,255,255,0.7)' : '#64748b'} /> This message was deleted
+          <Ionicons name="ban-outline" size={13} color={isMe ? 'rgba(255,255,255,0.7)' : color.textMuted} /> This message was deleted
         </Text>
       ) : msg.type === 'shared' && msg.sharedContent ? (
         <SharedContentCard
@@ -379,7 +379,7 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
           <View
             style={[styles.waveThumb, {
               left: `${Math.min(100, Math.max(0, progress * 100))}%`,
-              backgroundColor: isMe ? '#0f172a' : groupColor,
+              backgroundColor: isMe ? color.textOnAccent : groupColor,
             }]}
             pointerEvents="none"
           />
@@ -388,7 +388,7 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
 
       {/* Row 2: mic + timer on the left, speed pill on the right */}
       <View style={styles.voiceMeta}>
-        <Ionicons name="mic" size={11} color={isMe ? 'rgba(255,255,255,0.75)' : '#64748b'} />
+        <Ionicons name="mic" size={11} color={isMe ? 'rgba(255,255,255,0.75)' : color.textMuted} />
         <Text style={isMe ? styles.voiceDurationMe : styles.voiceDurationOther}>{timeLabel}</Text>
         <View style={{ flex: 1 }} />
         <Pressable
@@ -444,7 +444,7 @@ const styles = StyleSheet.create({
   mediaRowMe: { paddingLeft: 16, marginTop: 14 },
   mediaRowOther: { paddingRight: 16, marginTop: 14 },
   bubbleMe: { backgroundColor: color.progress, borderRadius: radius.lg, borderBottomRightRadius: 4, paddingHorizontal: 14, paddingVertical: 10, maxWidth: '100%' },
-  bubbleMeBody: { fontSize: 15, color: color.text, lineHeight: 21 },
+  bubbleMeBody: { fontSize: 15, color: color.textOnAccent, lineHeight: 21 },
   bubbleMeTime: { fontSize: 11, color: 'rgba(255,255,255,0.55)', marginTop: 4 },
   bubbleRowOther: { flexDirection: 'row', alignItems: 'flex-end', marginTop: 8, paddingRight: 50, gap: 8 },
   classRow: { marginTop: 16, paddingHorizontal: 2 },
@@ -491,7 +491,7 @@ const styles = StyleSheet.create({
   waveformContainer: { flexDirection: 'row', alignItems: 'center', gap: 2, height: 28, position: 'relative' },
   waveformBar: { width: 3, borderRadius: 2 },
   waveThumb: {
-    position: 'absolute', width: 14, height: 14, borderRadius: 7, top: 7, marginLeft: -7, borderWidth: 2.5, borderColor: color.text,
+    position: 'absolute', width: 14, height: 14, borderRadius: 7, top: 7, marginLeft: -7, borderWidth: 2.5, borderColor: color.accentStrong,
     shadowColor: '#000', shadowOffset: { width: 0, height: 1 }, shadowOpacity: 0.3, shadowRadius: 2, elevation: 4,
   },
   voiceMeta: { flexDirection: 'row', alignItems: 'center', gap: 5 },

@@ -115,7 +115,7 @@ export function QuizIntro({
   );
 }
 
-const GOLD = '#D4AF37';
+const GOLD = color.sacred;
 
 const styles = StyleSheet.create({
   container: {
@@ -199,7 +199,7 @@ const styles = StyleSheet.create({
   },
   featureItemBorder: {
     borderTopWidth: 1,
-    borderTopColor: '#293548',
+    borderTopColor: color.border,
   },
   featureIconChip: {
     width: 36,

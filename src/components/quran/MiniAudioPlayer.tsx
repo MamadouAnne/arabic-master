@@ -192,7 +192,7 @@ export function MiniAudioPlayer() {
               accessibilityRole="button"
               accessibilityLabel="Previous surah"
             >
-              <Ionicons name="play-skip-back" size={14} color={currentlyPlaying.surahNumber > 1 ? '#a3a398' : '#3a3a32'} />
+              <Ionicons name="play-skip-back" size={14} color={currentlyPlaying.surahNumber > 1 ? color.textMuted : color.borderStrong} />
             </Pressable>
           )}
           <Pressable
@@ -202,7 +202,7 @@ export function MiniAudioPlayer() {
             accessibilityRole="button"
             accessibilityLabel="Previous ayah"
           >
-            <Ionicons name="chevron-back" size={18} color={currentlyPlaying.ayahNumber > 1 ? '#f5f5f0' : '#3a3a32'} />
+            <Ionicons name="chevron-back" size={18} color={currentlyPlaying.ayahNumber > 1 ? color.text : color.borderStrong} />
           </Pressable>
           <Pressable
             style={styles.playPauseButton}
@@ -227,7 +227,7 @@ export function MiniAudioPlayer() {
             accessibilityRole="button"
             accessibilityLabel="Next ayah"
           >
-            <Ionicons name="chevron-forward" size={18} color={currentlyPlaying.ayahNumber < currentlyPlaying.totalAyahs ? '#f5f5f0' : '#3a3a32'} />
+            <Ionicons name="chevron-forward" size={18} color={currentlyPlaying.ayahNumber < currentlyPlaying.totalAyahs ? color.text : color.borderStrong} />
           </Pressable>
           {currentlyPlaying.source !== 'learn' && (
             <Pressable
@@ -237,7 +237,7 @@ export function MiniAudioPlayer() {
               accessibilityRole="button"
               accessibilityLabel="Next surah"
             >
-              <Ionicons name="play-skip-forward" size={14} color={currentlyPlaying.surahNumber < 114 ? '#a3a398' : '#3a3a32'} />
+              <Ionicons name="play-skip-forward" size={14} color={currentlyPlaying.surahNumber < 114 ? color.textMuted : color.borderStrong} />
             </Pressable>
           )}
           <Pressable
@@ -259,9 +259,9 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 0,
     right: 0,
-    backgroundColor: '#1e1e1a',
+    backgroundColor: color.surface,
     borderTopWidth: 1,
-    borderTopColor: '#2a2a24',
+    borderTopColor: color.border,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: -2 },
     shadowOpacity: 0.25,
@@ -271,7 +271,7 @@ const styles = StyleSheet.create({
   },
   progressBarContainer: {
     height: 3,
-    backgroundColor: '#2a2a24',
+    backgroundColor: color.surfaceSunken,
     overflow: 'hidden',
   },
   progressBar: {
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
     width: 38,
     height: 38,
     borderRadius: radius.xl,
-    backgroundColor: '#161613',
+    backgroundColor: color.surfaceSunken,
     borderWidth: 2,
     borderColor: color.progress,
     alignItems: 'center',
@@ -348,7 +348,7 @@ const styles = StyleSheet.create({
     width: 34,
     height: 34,
     borderRadius: radius.lg,
-    backgroundColor: '#2a2a24',
+    backgroundColor: color.surfaceSunken,
     alignItems: 'center',
     justifyContent: 'center',
   },

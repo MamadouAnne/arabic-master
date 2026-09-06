@@ -260,7 +260,7 @@ export default function WritingPracticeScreen() {
             <Ionicons
               name="chevron-back"
               size={20}
-              color={currentLetterIndex === 0 ? '#334155' : '#ffffff'}
+              color={currentLetterIndex === 0 ? color.borderStrong : color.accent}
             />
             <Text
               style={[
@@ -291,7 +291,7 @@ export default function WritingPracticeScreen() {
             <Ionicons
               name="chevron-forward"
               size={20}
-              color={currentLetterIndex === arabicLetters.length - 1 ? '#334155' : '#ffffff'}
+              color={currentLetterIndex === arabicLetters.length - 1 ? color.borderStrong : color.accent}
             />
           </Pressable>
         </View>

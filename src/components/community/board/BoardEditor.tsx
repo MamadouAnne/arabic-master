@@ -44,17 +44,17 @@ const SHAPES: { tool: Tool; icon: string; label: string }[] = [
   { tool: 'circle', icon: 'ellipse-outline', label: 'Circle' },
 ];
 const SIZES = [{ v: 3, label: 'S' }, { v: 6, label: 'M' }, { v: 11, label: 'L' }];
-const PALETTE = ['#f8fafc', '#0f172a', '#ef4444', '#f97316', '#facc15', '#22c55e', '#38bdf8', '#a855f7'];
+const PALETTE = ['#14261C', '#f8fafc', '#ef4444', '#f97316', '#facc15', '#22c55e', '#38bdf8', '#a855f7'];
 const WIDTHS = [3, 6, 11];
-const BACKGROUNDS: BoardBackground[] = ['dark', 'chalk', 'white', 'cream'];
+const BACKGROUNDS: BoardBackground[] = ['cream', 'white', 'chalk', 'dark'];
 
 export function BoardEditor({ visible, groupColor, initial, seedText, onSave, onClose }: Props) {
   const { t } = useTranslation();
-  const [background, setBackground] = useState<BoardBackground>(initial?.background || 'dark');
+  const [background, setBackground] = useState<BoardBackground>(initial?.background || 'cream');
   const [grid, setGrid] = useState<BoardGrid>(initial?.grid || 'none');
   // Existing boards open in Move mode (pan/scroll + reposition); new blank boards in Draw.
   const [tool, setTool] = useState<Tool>(seedText || initial ? 'move' : 'pen');
-  const [color, setColor] = useState<string>(BOARD_DEFAULT_INK[initial?.background || 'dark']);
+  const [color, setColor] = useState<string>(BOARD_DEFAULT_INK[initial?.background || 'cream']);
   const [width, setWidth] = useState<number>(WIDTHS[1]);
   const [elements, setElements] = useState<BoardElement[]>((initial?.elements || []).filter(elementOk));
   const [live, setLive] = useState<BoardElement | null>(null);
@@ -64,7 +64,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null); // element selected in Move mode (tap to select, drag to move)
   const [textValue, setTextValue] = useState('');
   const [textSize, setTextSize] = useState(28);
-  const [textColor, setTextColor] = useState('#f8fafc');
+  const [textColor, setTextColor] = useState(BOARD_DEFAULT_INK[initial?.background || 'cream']);
   // AI course drafting
   const [aiModal, setAiModal] = useState<null | 'draft' | 'refine'>(null);
   const [aiLoading, setAiLoading] = useState(false);
@@ -609,7 +609,7 @@ export function BoardEditor({ visible, groupColor, initial, seedText, onSave, on
                   onPress={() => (t.tool === 'shapes' ? (!isShape && changeTool('arrow')) : changeTool(t.tool as Tool))}
                 >
                   <View style={[styles.toolIcon, active && { backgroundColor: groupColor }]}>
-                    <Ionicons name={t.icon as any} size={22} color={active ? '#ffffff' : '#cbd5e1'} />
+                    <Ionicons name={t.icon as any} size={22} color={active ? tk.textOnAccent : tk.textMuted} />
                   </View>
                   <Text style={[styles.toolLabel, active && { color: groupColor }]}>{t.label}</Text>
                 </Pressable>
@@ -776,7 +776,7 @@ const styles = StyleSheet.create({
   divider: { height: 1, backgroundColor: tk.surface, marginVertical: 4 },
   controlsRow: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 14, paddingVertical: 8 },
   swatches: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingRight: 6 },
-  swatch: { width: 28, height: 28, borderRadius: radius.md, borderWidth: 2, borderColor: 'rgba(255,255,255,0.15)' },
+  swatch: { width: 28, height: 28, borderRadius: radius.md, borderWidth: 2, borderColor: tk.border },
   swatchActive: { borderColor: tk.text, transform: [{ scale: 1.18 }] },
   sizeGroup: { flexDirection: 'row', gap: 4, backgroundColor: tk.surface, borderRadius: radius.md, padding: 3 },
   sizeBtn: { width: 34, height: 30, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center' },

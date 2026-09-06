@@ -401,7 +401,7 @@ export default function WritingExerciseScreen() {
                 <Ionicons
                   name="chevron-back"
                   size={20}
-                  color={selectedAyahIndex === 0 ? '#334155' : '#ffffff'}
+                  color={selectedAyahIndex === 0 ? color.borderStrong : color.accent}
                 />
               </Pressable>
               <Pressable
@@ -412,7 +412,7 @@ export default function WritingExerciseScreen() {
                 <Ionicons
                   name="chevron-forward"
                   size={20}
-                  color={selectedAyahIndex === ayahs.length - 1 ? '#334155' : '#ffffff'}
+                  color={selectedAyahIndex === ayahs.length - 1 ? color.borderStrong : color.accent}
                 />
               </Pressable>
               <Pressable style={styles.selectBtn} onPress={() => setShowAyahPicker(true)}>
@@ -1235,7 +1235,7 @@ const styles = StyleSheet.create({
   // Modal
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.45)',
     justifyContent: 'flex-end',
   },
   modalContent: {

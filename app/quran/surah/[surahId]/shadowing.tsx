@@ -340,7 +340,7 @@ export default function ShadowingScreen() {
           <Ionicons
             name="chevron-back"
             size={20}
-            color={currentAyahIndex === 0 ? '#334155' : '#f5f5f0'}
+            color={currentAyahIndex === 0 ? color.borderStrong : color.accent}
           />
           <Text
             style={[
@@ -373,7 +373,7 @@ export default function ShadowingScreen() {
             <Ionicons
               name="arrow-forward"
               size={18}
-              color={phaseComplete ? '#fff' : '#334155'}
+              color={phaseComplete ? color.textOnAccent : color.borderStrong}
             />
           </Pressable>
         )}
@@ -397,7 +397,7 @@ export default function ShadowingScreen() {
           <Ionicons
             name="chevron-forward"
             size={20}
-            color={currentAyahIndex >= totalAyahs - 1 ? '#334155' : '#f5f5f0'}
+            color={currentAyahIndex >= totalAyahs - 1 ? color.borderStrong : color.accent}
           />
         </Pressable>
       </View>

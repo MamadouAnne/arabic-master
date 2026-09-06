@@ -459,7 +459,7 @@ export default function PrayerLessonScreen() {
             <Ionicons
               name="chevron-back"
               size={18}
-              color={hasPrevious ? '#10b981' : '#334155'}
+              color={hasPrevious ? tk.accent : tk.borderStrong}
             />
           </Pressable>
           <Text style={styles.lessonNumber}>
@@ -473,7 +473,7 @@ export default function PrayerLessonScreen() {
             <Ionicons
               name="chevron-forward"
               size={18}
-              color={hasNext ? '#10b981' : '#334155'}
+              color={hasNext ? tk.accent : tk.borderStrong}
             />
           </Pressable>
         </View>

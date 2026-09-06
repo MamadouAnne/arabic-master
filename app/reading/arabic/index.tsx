@@ -9,7 +9,7 @@ import { useArabicTextsStore } from '../../../src/stores/arabicTextsStore';
 import { SavedArabicText } from '../../../src/types/arabicText';
 import { font, color, radius } from '../../../src/theme/tokens';
 
-const BRAND = '#10b981';
+const BRAND = color.progress;
 
 function countLines(content: string): number {
   return content.split('\n').filter((l) => l.trim().length > 0).length;
@@ -134,7 +134,7 @@ export default function ArabicLibraryScreen() {
         ListHeaderComponent={
           <Pressable onPress={openNew}>
             <LinearGradient
-              colors={['#10b981', '#0d9488']}
+              colors={[color.progress, color.accent]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 1 }}
               style={styles.addCard}

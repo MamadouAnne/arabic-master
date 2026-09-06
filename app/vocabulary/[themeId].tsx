@@ -355,7 +355,7 @@ export default function ThemeDetailScreen() {
                         <Ionicons
                           name={status === 'mastered' ? 'star' : 'checkmark-circle'}
                           size={16}
-                          color={status === 'mastered' ? '#10b981' : '#D4AF37'}
+                          color={status === 'mastered' ? '#10b981' : color.sacred}
                         />
                       )}
                     </View>
@@ -1060,7 +1060,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   exerciseCount: {
-    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    backgroundColor: withAlpha(color.text, 0.1),
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: radius.md,

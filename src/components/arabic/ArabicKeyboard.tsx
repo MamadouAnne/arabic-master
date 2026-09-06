@@ -184,7 +184,7 @@ const styles = StyleSheet.create({
     gap: 3,
   },
   specialKey: {
-    backgroundColor: '#293548',
+    backgroundColor: color.surfaceSunken,
     borderRadius: 6,
     alignItems: 'center',
     justifyContent: 'center',

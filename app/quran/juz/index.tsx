@@ -46,7 +46,7 @@ function IntroCard({ lesson, onPress }: { lesson: JuzIntroLesson; onPress: () =>
   return (
     <Pressable style={styles.introCard} onPress={onPress}>
       <LinearGradient
-        colors={['#3b82f6', '#1d4ed8']}
+        colors={[color.accent, color.accentStrong]}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
         style={styles.introCardGradient}
@@ -382,7 +382,7 @@ export default function JuzMainScreen() {
               onPress={() => router.push('/quran/quiz/juz' as any)}
             >
               <LinearGradient
-                colors={['#3b82f6', '#1d4ed8']}
+                colors={[color.accent, color.accentStrong]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
                 style={styles.randomQuizGradient}

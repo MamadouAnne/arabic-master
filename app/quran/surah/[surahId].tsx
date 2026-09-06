@@ -410,7 +410,7 @@ export default function SurahDetailScreen() {
             <Ionicons
               name="chevron-back"
               size={20}
-              color={surah.surahNumber <= 1 ? '#334155' : '#10b981'}
+              color={surah.surahNumber <= 1 ? color.borderStrong : color.accent}
             />
           </Pressable>
           <Text style={styles.surahNumber}>#{surah.surahNumber}</Text>
@@ -424,7 +424,7 @@ export default function SurahDetailScreen() {
             <Ionicons
               name="chevron-forward"
               size={20}
-              color={surah.surahNumber >= 114 ? '#334155' : '#10b981'}
+              color={surah.surahNumber >= 114 ? color.borderStrong : color.accent}
             />
           </Pressable>
         </View>
@@ -804,7 +804,7 @@ const styles = StyleSheet.create({
   },
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.45)',
     justifyContent: 'flex-end',
   },
   modalContent: {

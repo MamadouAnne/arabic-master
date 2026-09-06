@@ -805,7 +805,7 @@ export default function ActiveRecallScreen() {
           <Ionicons
             name="chevron-back"
             size={24}
-            color={currentAyahIndex === 0 ? '#334155' : '#f5f5f0'}
+            color={currentAyahIndex === 0 ? color.borderStrong : color.accent}
           />
         </Pressable>
         <Text style={styles.navCounter}>
@@ -822,7 +822,7 @@ export default function ActiveRecallScreen() {
           <Ionicons
             name="chevron-forward"
             size={24}
-            color={currentAyahIndex >= ayahs.length - 1 ? '#334155' : '#f5f5f0'}
+            color={currentAyahIndex >= ayahs.length - 1 ? color.borderStrong : color.accent}
           />
         </Pressable>
       </View>
@@ -1092,7 +1092,7 @@ const styles = StyleSheet.create({
   },
   blankBoxIncorrect: {
     borderColor: '#f43f5e',
-    backgroundColor: '#f43f5e15',
+    backgroundColor: withAlpha('#f43f5e', 0.1),
     borderStyle: 'solid' as const,
   },
   blankText: {

@@ -327,7 +327,7 @@ export default function TajweedLearnScreen() {
               onPress={() => router.push('/quran/quiz/tajweed' as any)}
             >
               <LinearGradient
-                colors={['#14b8a6', '#0d9488']}
+                colors={[color.progress, color.accent]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
                 style={styles.randomQuizGradient}

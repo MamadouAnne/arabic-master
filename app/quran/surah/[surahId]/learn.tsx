@@ -465,7 +465,7 @@ export default function LearnModeScreen() {
                     accessibilityRole="button"
                     accessibilityLabel="Decrease start verse"
                   >
-                    <Ionicons name="remove" size={16} color={startVerse <= 1 ? '#475569' : '#ffffff'} />
+                    <Ionicons name="remove" size={16} color={startVerse <= 1 ? color.borderStrong : color.text} />
                   </Pressable>
                   <TextInput
                     style={styles.rangeInput}
@@ -498,7 +498,7 @@ export default function LearnModeScreen() {
                     accessibilityRole="button"
                     accessibilityLabel="Increase start verse"
                   >
-                    <Ionicons name="add" size={16} color={startVerse >= endVerse ? '#475569' : '#ffffff'} />
+                    <Ionicons name="add" size={16} color={startVerse >= endVerse ? color.borderStrong : color.text} />
                   </Pressable>
                 </View>
               </View>
@@ -514,7 +514,7 @@ export default function LearnModeScreen() {
                     accessibilityRole="button"
                     accessibilityLabel="Decrease end verse"
                   >
-                    <Ionicons name="remove" size={16} color={endVerse <= startVerse ? '#475569' : '#ffffff'} />
+                    <Ionicons name="remove" size={16} color={endVerse <= startVerse ? color.borderStrong : color.text} />
                   </Pressable>
                   <TextInput
                     style={styles.rangeInput}
@@ -547,7 +547,7 @@ export default function LearnModeScreen() {
                     accessibilityRole="button"
                     accessibilityLabel="Increase end verse"
                   >
-                    <Ionicons name="add" size={16} color={endVerse >= ayahs.length ? '#475569' : '#ffffff'} />
+                    <Ionicons name="add" size={16} color={endVerse >= ayahs.length ? color.borderStrong : color.text} />
                   </Pressable>
                 </View>
               </View>
@@ -780,7 +780,7 @@ const styles = StyleSheet.create({
     width: 28,
     height: 28,
     borderRadius: radius.sm,
-    backgroundColor: '#161613',
+    backgroundColor: color.surfaceSunken,
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 1,

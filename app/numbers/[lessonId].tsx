@@ -253,7 +253,7 @@ const styles = StyleSheet.create({
   table: { borderRadius: radius.md, overflow: 'hidden', borderWidth: 1, borderColor: color.border },
   tableHeaderRow: { flexDirection: 'row', backgroundColor: color.bg },
   tableRow: { flexDirection: 'row', backgroundColor: color.surface },
-  tableRowAlt: { backgroundColor: '#1a2536' },
+  tableRowAlt: { backgroundColor: color.surfaceSunken },
   tableCell: { paddingVertical: 10, paddingHorizontal: 10 },
   tableHeaderText: { fontSize: 12, fontWeight: '700', color: color.textMuted },
   tableCellText: { fontSize: 13, color: color.text },

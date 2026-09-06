@@ -65,11 +65,11 @@ export function CommunityStatsBar({ stats, isLoading }: CommunityStatsBarProps) 
 const styles = StyleSheet.create({
   statsRow: {
     flexDirection: 'row',
-    backgroundColor: '#1e1e1a',
+    backgroundColor: color.surface,
     borderRadius: radius.md,
     padding: 14,
     borderWidth: 1,
-    borderColor: '#2a2a24',
+    borderColor: color.border,
   },
   statItem: {
     flex: 1,
@@ -90,24 +90,24 @@ const styles = StyleSheet.create({
   },
   statDivider: {
     width: 1,
-    backgroundColor: '#2a2a24',
+    backgroundColor: color.surfaceSunken,
     marginHorizontal: 8,
   },
   skeletonBlock: {
     height: 16,
-    backgroundColor: '#2a2a24',
+    backgroundColor: color.surfaceSunken,
     borderRadius: radius.sm,
   },
   emptyStatsRow: {
     flexDirection: 'row',
-    backgroundColor: '#1e1e1a',
+    backgroundColor: color.surface,
     borderRadius: radius.md,
     padding: 14,
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
     borderWidth: 1,
-    borderColor: '#2a2a24',
+    borderColor: color.border,
   },
   emptyStatsText: {
     fontSize: 14,

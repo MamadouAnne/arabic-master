@@ -117,7 +117,7 @@ export function LeaderboardPreview({ entries, isLoading, currentType, onTypeChan
             <Ionicons
               name={tab.icon as any}
               size={14}
-              color={currentType === tab.type ? '#ffffff' : '#6b6b60'}
+              color={currentType === tab.type ? color.textOnAccent : color.textMuted}
             />
             <Text style={[styles.lbTabText, currentType === tab.type && styles.lbTabTextActive]}>
               {t(tab.labelKey)}

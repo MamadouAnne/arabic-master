@@ -64,7 +64,7 @@ export function StoryAudioPlayer({
             <Ionicons
               name="play-skip-back"
               size={20}
-              color={currentBlockIndex === 0 ? '#475569' : '#ffffff'}
+              color={currentBlockIndex === 0 ? color.borderStrong : color.accent}
             />
           </Pressable>
 
@@ -92,7 +92,7 @@ export function StoryAudioPlayer({
             <Ionicons
               name="play-skip-forward"
               size={20}
-              color={currentBlockIndex >= totalBlocks - 1 ? '#475569' : '#ffffff'}
+              color={currentBlockIndex >= totalBlocks - 1 ? color.borderStrong : color.accent}
             />
           </Pressable>
         </View>

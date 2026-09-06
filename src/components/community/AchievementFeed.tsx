@@ -29,7 +29,7 @@ const getIconColor = (icon: string, isUser: boolean): string => {
     case 'flame':
       return '#f97316';
     case 'trophy':
-      return '#D4AF37';
+      return color.sacred;
     case 'star':
       return '#eab308';
     case 'book':

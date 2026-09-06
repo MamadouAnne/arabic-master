@@ -84,7 +84,7 @@ export default function VisualizationScreen() {
     return buildAyahScene(currentAyah);
   }, [currentAyah?.id]);
 
-  const dominantColor = scene?.dominantColor ?? '#a3a398';
+  const dominantColor = scene?.dominantColor ?? color.accent;
 
   // ---- Guards ----
 
@@ -425,7 +425,7 @@ export default function VisualizationScreen() {
           <Ionicons
             name="chevron-back"
             size={20}
-            color={currentAyahIndex === 0 ? '#475569' : '#f5f5f0'}
+            color={currentAyahIndex === 0 ? color.borderStrong : color.accent}
           />
           <Text
             style={[styles.navButtonText, currentAyahIndex === 0 && styles.navButtonTextDisabled]}
@@ -455,7 +455,7 @@ export default function VisualizationScreen() {
           <Ionicons
             name="chevron-forward"
             size={20}
-            color={currentAyahIndex >= totalAyahs - 1 ? '#475569' : '#f5f5f0'}
+            color={currentAyahIndex >= totalAyahs - 1 ? color.borderStrong : color.accent}
           />
         </Pressable>
       </View>
@@ -816,8 +816,8 @@ const styles = StyleSheet.create({
     borderColor: withAlpha(color.sacredBright, 0.19),
   },
   ratingNo: {
-    backgroundColor: '#fb718515',
-    borderColor: '#fb718530',
+    backgroundColor: withAlpha('#fb7185', 0.12),
+    borderColor: withAlpha('#fb7185', 0.3),
   },
   ratingButtonText: {
     fontSize: 12,

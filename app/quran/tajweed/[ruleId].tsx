@@ -276,7 +276,7 @@ export default function TajweedRuleDetailScreen() {
                     <Text key={i}>
                       {part}
                       {i < parts.length - 1 && (
-                        <Text style={[styles.highlightedPortion, { color: '#FFFF00', backgroundColor: '#FFFF0030' }]}>
+                        <Text style={[styles.highlightedPortion, { color: color.sacred, backgroundColor: color.sacredSoft }]}>
                           {highlightText}
                         </Text>
                       )}
@@ -330,8 +330,8 @@ export default function TajweedRuleDetailScreen() {
                 {/* Rule highlight badge */}
                 {example.highlightText && (
                   <View style={styles.ruleHighlightSection}>
-                    <View style={[styles.highlightBadge, { borderColor: '#FFFF00' }]}>
-                      <Text style={[styles.highlightText, { color: '#FFFF00' }]}>
+                    <View style={[styles.highlightBadge, { borderColor: withAlpha(color.sacred, 0.5) }]}>
+                      <Text style={[styles.highlightText, { color: color.sacred }]}>
                         {example.highlightText}
                       </Text>
                       <Text style={styles.highlightLabel}>{t('tajweedFeature.ruleAppliedHere')}</Text>
@@ -624,7 +624,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   highlightBadge: {
-    backgroundColor: '#FFFF0015',
+    backgroundColor: color.sacredSoft,
     borderRadius: radius.sm,
     padding: 10,
     alignItems: 'center',
@@ -718,7 +718,7 @@ const styles = StyleSheet.create({
   // Modal Styles
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.45)',
     justifyContent: 'flex-end',
   },
   modalContent: {

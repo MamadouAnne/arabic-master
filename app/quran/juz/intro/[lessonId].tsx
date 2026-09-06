@@ -140,7 +140,7 @@ export default function IntroLessonScreen() {
         {/* Title Card */}
         <View style={styles.titleCard}>
           <LinearGradient
-            colors={['#3b82f6', '#1d4ed8']}
+            colors={[color.accent, color.accentStrong]}
             start={{ x: 0, y: 0 }}
             end={{ x: 1, y: 1 }}
             style={styles.titleGradient}

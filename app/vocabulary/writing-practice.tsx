@@ -151,7 +151,7 @@ export default function VocabularyWritingPracticeScreen() {
             <Ionicons
               name={accuracy >= 80 ? 'trophy' : accuracy >= 50 ? 'thumbs-up' : 'refresh'}
               size={64}
-              color={accuracy >= 80 ? '#22c55e' : accuracy >= 50 ? '#D4AF37' : '#ef4444'}
+              color={accuracy >= 80 ? '#22c55e' : accuracy >= 50 ? color.sacred : '#ef4444'}
             />
           </View>
           <Text style={styles.completeTitle}>
@@ -236,7 +236,7 @@ export default function VocabularyWritingPracticeScreen() {
                 style={[styles.audioButton, isSpeaking && styles.audioButtonActive]}
                 onPress={() => speak(currentExercise.questionArabic || '')}
               >
-                <Ionicons name="volume-medium" size={20} color={isSpeaking ? '#ffffff' : '#D4AF37'} />
+                <Ionicons name="volume-medium" size={20} color={isSpeaking ? '#ffffff' : color.sacred} />
               </Pressable>
             </View>
           )}

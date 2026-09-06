@@ -839,7 +839,7 @@ export default function GrammarLessonScreen() {
             onPress={handleComplete}
             disabled={isCompleted}
           >
-            <Ionicons name="checkmark-circle" size={22} color={isCompleted ? '#34d399' : '#0f172a'} />
+            <Ionicons name="checkmark-circle" size={22} color={isCompleted ? color.progress : color.border} />
             <Text style={[styles.completeButtonText, isCompleted && styles.completeButtonTextDone]}>
               {isCompleted ? t('common.completed') : t('grammar.markComplete')}
             </Text>

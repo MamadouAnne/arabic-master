@@ -189,7 +189,7 @@ export default function DuaDetailScreen() {
             <Ionicons
               name="chevron-back"
               size={20}
-              color={hasPrevious ? '#f59e0b' : '#334155'}
+              color={hasPrevious ? color.sacred : color.borderStrong}
             />
           </Pressable>
           <Text style={styles.duaNumber}>{dua.order}/{allDuas.length}</Text>
@@ -201,7 +201,7 @@ export default function DuaDetailScreen() {
             <Ionicons
               name="chevron-forward"
               size={20}
-              color={hasNext ? '#f59e0b' : '#334155'}
+              color={hasNext ? color.sacred : color.borderStrong}
             />
           </Pressable>
         </View>

@@ -175,7 +175,7 @@ function RequirementItem({ met, text }: { met: boolean; text: string }) {
       <Ionicons
         name={met ? 'checkmark-circle' : 'ellipse-outline'}
         size={16}
-        color={met ? '#10b981' : '#475569'}
+        color={met ? color.progress : color.borderStrong}
       />
       <Text style={[styles.requirementText, met && styles.requirementMet]}>{text}</Text>
     </View>

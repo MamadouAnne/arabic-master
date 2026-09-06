@@ -451,7 +451,7 @@ export default function ArabicQuizScreen() {
             <Ionicons
               name={quizResult.passed ? 'trophy' : 'refresh-circle'}
               size={64}
-              color={quizResult.passed ? '#D4AF37' : '#94a3b8'}
+              color={quizResult.passed ? color.sacred : '#94a3b8'}
             />
             <Text style={styles.resultTitle}>
               {quizResult.passed ? t('arabicQuiz.quizPassed') : t('arabicQuiz.keepPracticing')}

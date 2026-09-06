@@ -56,7 +56,7 @@ export function SubStoryNav({
           <Ionicons
             name="chevron-back"
             size={20}
-            color={currentIndex === 0 ? '#475569' : '#ffffff'}
+            color={currentIndex === 0 ? color.borderStrong : color.accent}
           />
         </Pressable>
 
@@ -108,7 +108,7 @@ export function SubStoryNav({
           <Ionicons
             name="chevron-forward"
             size={20}
-            color={currentIndex === subStories.length - 1 ? '#475569' : '#ffffff'}
+            color={currentIndex === subStories.length - 1 ? color.borderStrong : color.accent}
           />
         </Pressable>
       </View>

@@ -95,7 +95,7 @@ export default function PrayerIndexScreen() {
           <Ionicons
             name="alert-circle"
             size={16}
-            color={activeTab === 'sujud_sahw' ? '#D4AF37' : '#64748b'}
+            color={activeTab === 'sujud_sahw' ? color.sacred : '#64748b'}
           />
           <Text
             style={[

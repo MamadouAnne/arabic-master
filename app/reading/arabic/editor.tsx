@@ -18,7 +18,7 @@ import { useTranslation } from 'react-i18next';
 import { useArabicTextsStore } from '../../../src/stores/arabicTextsStore';
 import { color, radius } from '../../../src/theme/tokens';
 
-const BRAND = '#10b981';
+const BRAND = color.progress;
 
 export default function ArabicEditorScreen() {
   const { t } = useTranslation();
@@ -122,7 +122,7 @@ export default function ArabicEditorScreen() {
         <View style={styles.footer}>
           <Pressable onPress={handleSave} disabled={!canSave}>
             <LinearGradient
-              colors={canSave ? ['#10b981', '#0d9488'] : ['#1e293b', '#1e293b']}
+              colors={canSave ? [color.progress, color.accent] : [color.borderStrong, color.borderStrong]}
               start={{ x: 0, y: 0 }}
               end={{ x: 1, y: 0 }}
               style={styles.saveBtn}

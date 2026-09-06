@@ -80,7 +80,7 @@ export function LetterCard({
           <Ionicons
             name={isPlaying ? 'volume-high' : 'volume-medium'}
             size={16}
-            color={isPlaying ? '#ffffff' : '#D4AF37'}
+            color={isPlaying ? '#ffffff' : color.sacred}
           />
         </Pressable>
       )}
@@ -143,7 +143,7 @@ export function LetterDetail({ letter, onPlayAudio, isPlaying }: LetterDetailPro
             <Ionicons
               name={isPlaying ? 'volume-high' : 'volume-medium'}
               size={24}
-              color={isPlaying ? '#ffffff' : '#D4AF37'}
+              color={isPlaying ? '#ffffff' : color.sacred}
             />
           </View>
         )}
@@ -229,11 +229,11 @@ const styles = StyleSheet.create({
   },
   cardLearned: {
     borderColor: color.accentStrong,
-    backgroundColor: '#1e1b4b',
+    backgroundColor: color.accentSoft,
   },
   cardMastered: {
     borderColor: color.sacred,
-    backgroundColor: '#1c1a00',
+    backgroundColor: color.sacredSoft,
   },
   letter: {
     color: color.text,

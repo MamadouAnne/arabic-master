@@ -39,7 +39,7 @@ export function MessageActionSheet({
       style={styles.row}
       onPress={() => { onPress(); onClose(); }}
     >
-      <Ionicons name={icon as any} size={20} color={danger ? '#ef4444' : '#cbd5e1'} />
+      <Ionicons name={icon as any} size={20} color={danger ? color.danger : color.text} />
       <Text style={[styles.rowText, danger && { color: color.danger }]}>{label}</Text>
     </Pressable>
   );
