@@ -306,7 +306,7 @@ export default function SpacedRepetitionScreen() {
                     text={currentAyah.textUthmani}
                     tajweedRules={currentAyah.tajweedRules}
                     showTajweed={progress.settings.showTajweedColors}
-                    fontSize={26}
+                    fontSize={32}
                   />
                 </View>
                 <Text style={styles.translationText}>{ayahTranslation}</Text>

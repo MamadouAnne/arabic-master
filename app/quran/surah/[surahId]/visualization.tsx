@@ -325,7 +325,7 @@ export default function VisualizationScreen() {
                 text={currentAyah.textUthmani}
                 tajweedRules={currentAyah.tajweedRules}
                 showTajweed={progress.settings.showTajweedColors}
-                fontSize={24}
+                fontSize={30}
               />
               {currentAyah.transliteration && (
                 <Text style={styles.transliteration}>{currentAyah.transliteration}</Text>
@@ -342,7 +342,7 @@ export default function VisualizationScreen() {
                 text={currentAyah.textUthmani}
                 tajweedRules={currentAyah.tajweedRules}
                 showTajweed={progress.settings.showTajweedColors}
-                fontSize={24}
+                fontSize={30}
               />
               <Text style={styles.translation}>{ayahTranslation}</Text>
             </View>

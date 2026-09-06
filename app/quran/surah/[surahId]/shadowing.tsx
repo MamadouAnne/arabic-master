@@ -253,7 +253,7 @@ export default function ShadowingScreen() {
               text={currentAyah.textUthmani}
               tajweedRules={currentAyah.tajweedRules}
               showTajweed={true}
-              fontSize={32}
+              fontSize={38}
             />
           </View>
         </View>

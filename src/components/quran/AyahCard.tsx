@@ -127,7 +127,7 @@ export function AyahCard({
           text={ayah.textUthmani}
           tajweedRules={ayah.tajweedRules}
           showTajweed={showTajweed}
-          fontSize={24}
+          fontSize={32}
         />
       </View>
 
@@ -406,8 +406,8 @@ const styles = StyleSheet.create({
     // AmiriQuran face is reserved for the reading view.
     fontFamily: font.arabic,
     color: color.text,
-    fontSize: 19,
-    lineHeight: 30,
+    fontSize: 22,
+    lineHeight: 36,
     textAlign: 'right',
     writingDirection: 'rtl',
     flex: 1,

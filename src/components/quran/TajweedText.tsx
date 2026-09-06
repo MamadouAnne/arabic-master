@@ -33,7 +33,7 @@ export function TajweedText({
   text,
   tajweedRules = [],
   showTajweed = true,
-  fontSize = 28,
+  fontSize = 32,
   highlightWordIndex,
   onWordPress,
   onTajweedPress,

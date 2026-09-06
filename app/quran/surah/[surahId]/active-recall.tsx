@@ -421,7 +421,7 @@ export default function ActiveRecallScreen() {
                 text={currentAyah.textUthmani}
                 tajweedRules={currentAyah.tajweedRules}
                 showTajweed={showTajweed}
-                fontSize={28}
+                fontSize={34}
               />
             </View>
             <Text style={styles.translationText}>{ayahTranslation}</Text>
@@ -682,7 +682,7 @@ export default function ActiveRecallScreen() {
                 text={currentAyah.textUthmani}
                 tajweedRules={currentAyah.tajweedRules}
                 showTajweed={showTajweed}
-                fontSize={28}
+                fontSize={34}
               />
             </View>
             <Text style={styles.translationText}>{ayahTranslation}</Text>

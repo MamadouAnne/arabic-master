@@ -424,7 +424,7 @@ export default function LearnModeScreen() {
               text={currentAyah.textUthmani}
               tajweedRules={currentAyah.tajweedRules}
               showTajweed={progress.settings.showTajweedColors}
-              fontSize={24}
+              fontSize={30}
             />
           </View>
 
