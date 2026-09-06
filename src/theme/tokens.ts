@@ -104,10 +104,15 @@ export const font = {
   /** Latin UI text. System face is the right call on mobile: it is already
    *  optimised for the platform and costs no bundle weight. */
   ui: undefined as string | undefined,
-  /** General Arabic — naskh, the standard for Arabic bookwork. */
-  arabic: 'Amiri',
-  arabicBold: 'Amiri-Bold',
-  /** Quranic Arabic. Cut for dense vocalisation so harakat do not collide. */
+  /** General Arabic — the platform face (SF Arabic on iOS, Noto Sans Arabic
+   *  on Android). A modern simplified naskh: even stroke, open letterforms,
+   *  no calligraphic ligatures. Beginners found Amiri's hairline joins and
+   *  stacked ligatures hard to parse, so learning content stays on the
+   *  system face; `undefined` selects it. */
+  arabic: undefined as string | undefined,
+  arabicBold: undefined as string | undefined,
+  /** Quranic verses only. The Amiri Quran cut is spaced for dense
+   *  vocalisation so stacked harakat do not collide. */
   quran: 'AmiriQuran',
 } as const;
 
@@ -126,25 +131,25 @@ export const type = {
   /** Emphasised body, list titles. */
   bodyLarge: { fontSize: 17, lineHeight: 24, letterSpacing: -0.2 },
   /** Section headings. */
-  title: { fontSize: 20, lineHeight: 26, letterSpacing: -0.4 },
+  title: { fontSize: 22, lineHeight: 28, letterSpacing: -0.4 },
   /** Screen headings. */
-  heading: { fontSize: 24, lineHeight: 30, letterSpacing: -0.6 },
+  heading: { fontSize: 26, lineHeight: 32, letterSpacing: -0.6 },
   /** Screen hero. */
-  display: { fontSize: 32, lineHeight: 38, letterSpacing: -0.9 },
+  display: { fontSize: 36, lineHeight: 42, letterSpacing: -0.9 },
   /** Numerals in stat tiles. */
   stat: { fontSize: 28, lineHeight: 32, letterSpacing: -0.8 },
 } as const;
 
 /**
- * Arabic needs its own scale: Amiri runs optically smaller than the system
- * face at the same point size, and vocalised text needs far more leading so
- * harakat above and sukun below do not clip.
+ * Arabic needs its own scale: it is set a step larger than Latin so learners
+ * can see letter shapes, and vocalised text needs far more leading so harakat
+ * above and sukun below do not clip.
  */
 export const arabicType = {
-  inline: { fontSize: 19, lineHeight: 34 },
-  title: { fontSize: 24, lineHeight: 44 },
-  display: { fontSize: 34, lineHeight: 62 },
-  hero: { fontSize: 44, lineHeight: 80 },
+  inline: { fontSize: 22, lineHeight: 38 },
+  title: { fontSize: 28, lineHeight: 48 },
+  display: { fontSize: 40, lineHeight: 68 },
+  hero: { fontSize: 52, lineHeight: 88 },
 } as const;
 
 export const weight = {

@@ -44,12 +44,11 @@ export default function RootLayout() {
   const [updateComplete, setUpdateComplete] = useState(false);
   const [fontTimedOut, setFontTimedOut] = useState(false);
 
-  // Arabic is set in Amiri (naskh) app-wide; Quranic verses use the AmiriQuran
-  // cut, which is spaced for dense vocalisation. Bundled locally, so this
-  // resolves in a few frames — but launch is never allowed to hang on it.
+  // General Arabic uses the system face (see src/theme/tokens.ts); only
+  // Quranic verses need the AmiriQuran cut, spaced for dense vocalisation.
+  // Bundled locally, so this resolves in a few frames — but launch is never
+  // allowed to hang on it.
   const [fontsLoaded, fontError] = useFonts({
-    Amiri: require('../assets/fonts/Amiri-Regular.ttf'),
-    'Amiri-Bold': require('../assets/fonts/Amiri-Bold.ttf'),
     AmiriQuran: require('../assets/fonts/AmiriQuran.ttf'),
   });
 
