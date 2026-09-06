@@ -393,8 +393,8 @@ const styles = StyleSheet.create({
   },
   duaNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     fontWeight: 'bold',
     color: color.text,
   },
@@ -450,9 +450,9 @@ const styles = StyleSheet.create({
   },
   categoryTextArabic: {
     fontFamily: font.arabic,
-    lineHeight: 20,
+    lineHeight: 26,
     color: color.warning,
-    fontSize: 12,
+    fontSize: 16,
   },
   favoriteButton: {
     padding: 8,
@@ -472,8 +472,8 @@ const styles = StyleSheet.create({
   },
   arabicText: {
     fontFamily: font.arabic,
-    fontSize: 26,
-    lineHeight: 48,
+    fontSize: 32,
+    lineHeight: 60,
     color: color.text,
     textAlign: 'center',
     writingDirection: 'rtl',

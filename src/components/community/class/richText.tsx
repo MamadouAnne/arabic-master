@@ -86,5 +86,5 @@ const styles = StyleSheet.create({
   underline: { textDecorationLine: 'underline' },
   highlight: { backgroundColor: 'rgba(250,204,21,0.28)', color: '#fde68a' },
   arabic: {
-    fontFamily: font.arabic, fontSize: 20, lineHeight: 32 },
+    fontFamily: font.arabic, fontSize: 24, lineHeight: 38 },
 });

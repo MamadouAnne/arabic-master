@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   headerTitle: { fontSize: 20, fontWeight: 'bold', color: color.text },
   headerTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 26, fontSize: 15, color: color.sacred, marginTop: 2 },
+    lineHeight: 32, fontSize: 18, color: color.sacred, marginTop: 2 },
   content: { paddingHorizontal: 20, paddingTop: 4 },
   intro: {
     fontSize: 14,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   lessonSubtitle: { fontSize: 12, color: color.textMuted, marginTop: 2 },
   lessonArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24, fontSize: 14, marginTop: 3, fontWeight: '600' },
+    lineHeight: 30, fontSize: 18, marginTop: 3, fontWeight: '600' },
   lessonNumber: {
     width: 26,
     height: 26,

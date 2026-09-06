@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
   bulletText: { flex: 1, fontSize: 16, color: color.text, lineHeight: 26 },
   arabicBlock: { backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.borderSubtle, padding: 16 },
   arabicText: {
-    fontFamily: font.arabic, fontSize: 26, color: color.text, lineHeight: 46, textAlign: 'right', writingDirection: 'rtl' },
+    fontFamily: font.arabic, fontSize: 32, color: color.text, lineHeight: 56, textAlign: 'right', writingDirection: 'rtl' },
   arabicTranslation: { fontSize: 14, color: color.textMuted, marginTop: 10, lineHeight: 21 },
   callout: { flexDirection: 'row', gap: 10, borderWidth: 1, borderRadius: radius.md, padding: 14 },
   calloutText: { flex: 1, fontSize: 15, color: color.text, lineHeight: 23 },

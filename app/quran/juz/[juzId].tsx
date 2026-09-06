@@ -447,8 +447,8 @@ const styles = StyleSheet.create({
   },
   heroNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 48,
-    fontSize: 28,
+    lineHeight: 62,
+    fontSize: 36,
     color: 'rgba(255,255,255,0.9)',
     marginTop: 8,
     fontWeight: '600',
@@ -580,10 +580,10 @@ const styles = StyleSheet.create({
   },
   verseArabic: {
     fontFamily: font.arabic,
-    fontSize: 22,
+    fontSize: 28,
     color: color.text,
     textAlign: 'right',
-    lineHeight: 38,
+    lineHeight: 48,
     marginBottom: 12,
     fontWeight: '500',
   },

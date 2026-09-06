@@ -208,8 +208,8 @@ const styles = StyleSheet.create({
   },
   challengeTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.sacred,
     marginBottom: 8,
   },

@@ -57,8 +57,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 41,
-    fontSize: 24,
+    lineHeight: 52,
+    fontSize: 30,
     color: color.sacred,
     fontWeight: '600',
   },

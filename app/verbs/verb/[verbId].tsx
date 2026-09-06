@@ -386,8 +386,8 @@ const styles = StyleSheet.create({
   },
   tenseTabArabic: {
     fontFamily: font.arabic,
-    lineHeight: 19,
-    fontSize: 11,
+    lineHeight: 24,
+    fontSize: 14,
     color: color.textFaint,
     marginTop: 2,
   },
@@ -427,8 +427,8 @@ const styles = StyleSheet.create({
   },
   personArabic: {
     fontFamily: font.arabic,
-    lineHeight: 26,
-    fontSize: 15,
+    lineHeight: 32,
+    fontSize: 18,
     color: color.textFaint,
   },
   conjugationValue: {
@@ -456,8 +456,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    fontSize: 24,
-    lineHeight: 42,
+    fontSize: 30,
+    lineHeight: 52,
     color: color.text,
     marginBottom: 4,
   },

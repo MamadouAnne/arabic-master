@@ -881,8 +881,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.sacred,
     marginTop: 4,
   },
@@ -929,8 +929,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    fontSize: 28,
-    lineHeight: 48,
+    fontSize: 36,
+    lineHeight: 62,
     color: color.text,
   },
   exampleTranslit: {
@@ -1053,8 +1053,8 @@ const styles = StyleSheet.create({
   },
   comparisonArabic: {
     fontFamily: font.arabic,
-    fontSize: 28,
-    lineHeight: 48,
+    fontSize: 36,
+    lineHeight: 62,
     color: color.text,
     marginBottom: 4,
   },
@@ -1075,8 +1075,8 @@ const styles = StyleSheet.create({
   },
   arabicDescriptionText: {
     fontFamily: font.arabic,
-    fontSize: 26,
-    lineHeight: 44,
+    fontSize: 32,
+    lineHeight: 54,
     color: color.progress,
     flex: 1,
     textAlign: 'right',
@@ -1134,8 +1134,8 @@ const styles = StyleSheet.create({
   },
   exampleCardArabic: {
     fontFamily: font.arabic,
-    fontSize: 26,
-    lineHeight: 46,
+    fontSize: 32,
+    lineHeight: 56,
     color: color.text,
     textAlign: 'center',
     marginBottom: 8,
@@ -1311,9 +1311,9 @@ const styles = StyleSheet.create({
   },
   questionArabic: {
     fontFamily: font.arabic,
-    lineHeight: 41,
+    lineHeight: 52,
     color: color.sacred,
-    fontSize: 24,
+    fontSize: 30,
   },
   optionsContainer: {
     marginBottom: 20,

@@ -304,8 +304,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: tk.progress,
     marginTop: 4,
   },
@@ -370,8 +370,8 @@ const styles = StyleSheet.create({
   },
   categoryTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: tk.sacred,
     marginTop: 2,
   },
@@ -444,8 +444,8 @@ const styles = StyleSheet.create({
   },
   verbArabicText: {
     fontFamily: font.arabic,
-    fontSize: 26,
-    lineHeight: 44,
+    fontSize: 32,
+    lineHeight: 54,
     color: tk.text,
     fontWeight: '600',
     marginBottom: 4,
@@ -575,8 +575,8 @@ const styles = StyleSheet.create({
   },
   lessonTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 22,
-    fontSize: 13,
+    lineHeight: 28,
+    fontSize: 16,
     color: tk.sacred,
     marginTop: 2,
   },

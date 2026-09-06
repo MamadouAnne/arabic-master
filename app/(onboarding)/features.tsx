@@ -181,9 +181,9 @@ const styles = StyleSheet.create({
   },
   arabicTitle: {
     fontFamily: font.arabic,
-    lineHeight: 34,
+    lineHeight: 40,
     color: color.sacred,
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: '600',
     marginBottom: 8,
   },

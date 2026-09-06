@@ -234,8 +234,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.sacred,
     marginTop: 4,
   },
@@ -318,8 +318,8 @@ const styles = StyleSheet.create({
   },
   sectionTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.sacred,
     marginTop: 2,
   },
@@ -382,8 +382,8 @@ const styles = StyleSheet.create({
   },
   letterArabic: {
     fontFamily: font.arabic,
-    lineHeight: 71,
-    fontSize: 42,
+    lineHeight: 82,
+    fontSize: 48,
     color: color.text,
   },
   audioBtn: {
@@ -414,8 +414,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     color: color.text,
     textAlign: 'center',
     marginBottom: 4,
@@ -458,7 +458,7 @@ const styles = StyleSheet.create({
   mnemonicArabic: {
     fontFamily: font.arabic,
     color: color.sacred,
-    fontSize: 16,
-    lineHeight: 28,
+    fontSize: 20,
+    lineHeight: 36,
   },
 });

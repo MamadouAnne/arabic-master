@@ -865,9 +865,9 @@ const styles = StyleSheet.create({
   },
   surahNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
+    lineHeight: 40,
     color: color.sacred,
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
   },
   methodTitle: {
@@ -1045,21 +1045,21 @@ const styles = StyleSheet.create({
   wordArabic: {
     fontFamily: font.arabic,
     color: color.sacred,
-    fontSize: 28,
-    lineHeight: 48,
+    fontSize: 36,
+    lineHeight: 62,
   },
   wordArabicHint: {
     fontFamily: font.arabic,
     color: color.sacred,
-    fontSize: 28,
-    lineHeight: 48,
+    fontSize: 36,
+    lineHeight: 62,
     opacity: 0.8,
   },
   wordArabicRevealed: {
     fontFamily: font.arabic,
     color: METHOD_COLOR,
-    fontSize: 28,
-    lineHeight: 48,
+    fontSize: 36,
+    lineHeight: 62,
   },
   ellipsis: {
     color: color.textMuted,
@@ -1320,9 +1320,9 @@ const styles = StyleSheet.create({
   },
   breakdownWordArabic: {
     fontFamily: font.arabic,
-    lineHeight: 37,
+    lineHeight: 48,
     color: color.text,
-    fontSize: 22,
+    fontSize: 28,
     fontWeight: '600',
     marginBottom: 4,
     writingDirection: 'rtl',

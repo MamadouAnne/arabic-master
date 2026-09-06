@@ -246,8 +246,8 @@ const styles = StyleSheet.create({
   },
   lessonTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     color: 'rgba(255,255,255,0.8)',
     marginTop: 8,
     fontWeight: '600',

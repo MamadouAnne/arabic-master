@@ -325,8 +325,8 @@ const styles = StyleSheet.create({
   },
   letterNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     color: color.sacred,
     marginTop: 4,
   },
@@ -403,8 +403,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 41,
-    fontSize: 24,
+    lineHeight: 52,
+    fontSize: 30,
     color: color.text,
   },
   exampleTranslit: {

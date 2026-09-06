@@ -324,8 +324,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: color.sacred,
     marginTop: 2,
   },
@@ -485,8 +485,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    fontSize: 28,
-    lineHeight: 46,
+    fontSize: 36,
+    lineHeight: 60,
     color: color.text,
     textAlign: 'left',
   },

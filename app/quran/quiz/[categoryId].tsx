@@ -858,9 +858,9 @@ const styles = StyleSheet.create({
   questionArabic: {
     fontFamily: font.arabic,
     color: color.progress,
-    fontSize: 20,
+    fontSize: 24,
     textAlign: 'center',
-    lineHeight: 30,
+    lineHeight: 36,
   },
   arabicQuestionBox: {
     flexDirection: 'row',
@@ -909,8 +909,8 @@ const styles = StyleSheet.create({
   optionArabicText: {
     fontFamily: font.arabic,
     color: color.progress,
-    fontSize: 18,
-    lineHeight: 28,
+    fontSize: 22,
+    lineHeight: 34,
     textAlign: 'right',
   },
   optionEnglishText: {
@@ -1408,8 +1408,8 @@ const styles = StyleSheet.create({
   reviewQuestionArabic: {
     fontFamily: font.arabic,
     color: color.progress,
-    fontSize: 17,
-    lineHeight: 26,
+    fontSize: 22,
+    lineHeight: 34,
     marginBottom: 4,
   },
   reviewQuestionEnglish: {
@@ -1445,8 +1445,8 @@ const styles = StyleSheet.create({
   reviewAnswerArabic: {
     fontFamily: font.arabic,
     color: color.progress,
-    fontSize: 16,
-    lineHeight: 24,
+    fontSize: 20,
+    lineHeight: 30,
   },
   reviewAnswerEnglish: {
     color: color.textMuted,

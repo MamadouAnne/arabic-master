@@ -464,7 +464,7 @@ const styles = StyleSheet.create({
   // Arabic
   arabicBody: { writingDirection: 'rtl', textAlign: 'right' },
   arabicInline: {
-    fontFamily: font.arabic, fontSize: 19, lineHeight: 30 },
+    fontFamily: font.arabic, fontSize: 24, lineHeight: 38 },
   // Mentions
   mention: { fontWeight: '700' },
   // Reply quote

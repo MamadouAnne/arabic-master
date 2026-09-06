@@ -233,8 +233,8 @@ const styles = StyleSheet.create({
   cardIconBtn: { padding: 4 },
   cardArabic: {
     fontFamily: font.arabic,
-    fontSize: 20,
-    lineHeight: 34,
+    fontSize: 24,
+    lineHeight: 40,
     color: color.text,
     textAlign: 'right',
     writingDirection: 'rtl',

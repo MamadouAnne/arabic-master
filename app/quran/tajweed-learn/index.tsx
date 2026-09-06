@@ -376,8 +376,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.progress,
     marginTop: 2,
   },
@@ -506,8 +506,8 @@ const styles = StyleSheet.create({
   },
   categoryArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     marginTop: 2,
   },
   // Rule Card Styles
@@ -544,9 +544,9 @@ const styles = StyleSheet.create({
   },
   ruleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
+    lineHeight: 30,
     color: color.progress,
-    fontSize: 14,
+    fontSize: 18,
   },
   ruleDesc: {
     color: color.textFaint,

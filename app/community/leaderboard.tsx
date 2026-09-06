@@ -275,8 +275,8 @@ const styles = StyleSheet.create({
   },
   headerTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.sacred,
     marginTop: 2,
   },
@@ -424,8 +424,8 @@ const styles = StyleSheet.create({
   },
   userNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 20,
-    fontSize: 12,
+    lineHeight: 26,
+    fontSize: 16,
     color: color.textFaint,
     marginTop: 2,
   },

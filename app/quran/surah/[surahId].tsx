@@ -693,9 +693,9 @@ const styles = StyleSheet.create({
   },
   surahNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 41,
+    lineHeight: 52,
     color: color.text,
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: 'bold',
   },
   surahNameEnglish: {
@@ -788,9 +788,9 @@ const styles = StyleSheet.create({
   },
   reciterNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
+    lineHeight: 30,
     color: color.progress,
-    fontSize: 14,
+    fontSize: 18,
     marginTop: 2,
   },
   reciterAction: {
@@ -852,9 +852,9 @@ const styles = StyleSheet.create({
   },
   reciterOptionArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
+    lineHeight: 30,
     color: color.textMuted,
-    fontSize: 14,
+    fontSize: 18,
     marginTop: 2,
   },
   reciterMeta: {

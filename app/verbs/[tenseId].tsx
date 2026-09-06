@@ -290,8 +290,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     marginTop: 4,
   },
   errorText: {
@@ -375,8 +375,8 @@ const styles = StyleSheet.create({
   },
   verbArabicText: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     fontWeight: '600',
   },
   verbMeaning: {
@@ -418,8 +418,8 @@ const styles = StyleSheet.create({
   },
   personArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.textFaint,
   },
   conjugationValue: {
@@ -455,8 +455,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.text,
     marginBottom: 4,
   },

@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   emoji: { fontSize: 22 },
   arabicEmoji: {
     fontFamily: font.arabic,
-    lineHeight: 19, fontSize: 11, fontWeight: '700', color: color.warning },
+    lineHeight: 24, fontSize: 14, fontWeight: '700', color: color.warning },
 });
 
 export { REACTIONS };

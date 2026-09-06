@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   title: { fontSize: 22, fontWeight: '800', color: color.text },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 26, fontSize: 15, color: color.textMuted, marginTop: 2, textAlign: 'left' },
+    lineHeight: 32, fontSize: 18, color: color.textMuted, marginTop: 2, textAlign: 'left' },
   loading: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 14 },
   loadingText: { color: color.textMuted, fontSize: 14 },
   subtitle: { fontSize: 14, color: color.textMuted, lineHeight: 20, paddingHorizontal: 16, marginBottom: 14 },

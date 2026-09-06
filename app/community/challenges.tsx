@@ -189,8 +189,8 @@ const styles = StyleSheet.create({
   },
   headerTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.sacred,
     marginTop: 2,
   },
@@ -258,8 +258,8 @@ const styles = StyleSheet.create({
   },
   challengeTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.sacred,
     marginBottom: 8,
   },

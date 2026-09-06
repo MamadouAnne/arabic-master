@@ -91,9 +91,9 @@ const styles = StyleSheet.create({
   },
   nameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
+    lineHeight: 40,
     color: color.text,
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: '600',
   },
   nameEnglish: {

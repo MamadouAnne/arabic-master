@@ -362,8 +362,8 @@ const styles = StyleSheet.create({
   },
   cardArabic: {
     fontFamily: font.arabic,
-    lineHeight: 95,
-    fontSize: 56,
+    lineHeight: 106,
+    fontSize: 62,
     color: color.text,
     textAlign: 'center',
     marginBottom: 16,
@@ -406,8 +406,8 @@ const styles = StyleSheet.create({
   },
   backArabicText: {
     fontFamily: font.arabic,
-    lineHeight: 48,
-    fontSize: 28,
+    lineHeight: 62,
+    fontSize: 36,
     color: color.sacred,
     textAlign: 'center',
   },
@@ -419,8 +419,8 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: color.text,
     textAlign: 'center',
     marginBottom: 8,

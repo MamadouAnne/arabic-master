@@ -431,8 +431,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.accent,
     marginTop: 2,
   },
@@ -525,8 +525,8 @@ const styles = StyleSheet.create({
   },
   introCardTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: 'rgba(255,255,255,0.7)',
     marginTop: 2,
   },
@@ -597,8 +597,8 @@ const styles = StyleSheet.create({
   },
   juzNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.textFaint,
     marginTop: 2,
   },

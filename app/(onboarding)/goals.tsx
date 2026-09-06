@@ -179,9 +179,9 @@ const styles = StyleSheet.create({
   },
   goalArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
+    lineHeight: 30,
     color: color.sacred,
-    fontSize: 14,
+    fontSize: 18,
     marginTop: 4,
     opacity: 0.7,
   },

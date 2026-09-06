@@ -165,8 +165,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: tk.accent,
     marginTop: 4,
   },
@@ -238,8 +238,8 @@ const styles = StyleSheet.create({
   },
   practiceTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     marginTop: 2,
   },
   practiceDescription: {

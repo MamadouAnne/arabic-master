@@ -94,9 +94,9 @@ const styles = StyleSheet.create({
   },
   nameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
+    lineHeight: 38,
     color: color.text,
-    fontSize: 18,
+    fontSize: 22,
     fontWeight: '600',
   },
   nameEnglish: {
@@ -119,9 +119,9 @@ const styles = StyleSheet.create({
   },
   arabicPreview: {
     fontFamily: font.arabic,
-    lineHeight: 24,
+    lineHeight: 30,
     color: color.textMuted,
-    fontSize: 14,
+    fontSize: 18,
     marginBottom: 8,
     textAlign: 'right',
     writingDirection: 'rtl',

@@ -385,9 +385,9 @@ const styles = StyleSheet.create({
   },
   surahNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
+    lineHeight: 40,
     color: color.sacred,
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
   },
   methodTitle: {

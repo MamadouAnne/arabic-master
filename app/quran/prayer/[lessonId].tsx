@@ -556,8 +556,8 @@ const styles = StyleSheet.create({
   },
   headerTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 22,
-    fontSize: 13,
+    lineHeight: 28,
+    fontSize: 16,
     color: tk.sacred,
     marginTop: 1,
   },
@@ -602,8 +602,8 @@ const styles = StyleSheet.create({
   },
   sectionTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: tk.sacred,
     marginBottom: 10,
   },
@@ -643,8 +643,8 @@ const styles = StyleSheet.create({
   },
   descriptionTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: tk.sacred,
   },
   arabicTextContainer: {
@@ -659,10 +659,10 @@ const styles = StyleSheet.create({
   },
   arabicText: {
     fontFamily: font.arabic,
-    fontSize: 20,
+    fontSize: 24,
     color: tk.sacred,
     textAlign: 'center',
-    lineHeight: 34,
+    lineHeight: 40,
     flex: 1,
   },
   descriptionText: {
@@ -786,10 +786,10 @@ const styles = StyleSheet.create({
   },
   exampleArabic: {
     fontFamily: font.arabic,
-    fontSize: 18,
+    fontSize: 22,
     color: tk.sacred,
     textAlign: 'center',
-    lineHeight: 30,
+    lineHeight: 36,
   },
   exampleTransliteration: {
     fontSize: 13,
@@ -842,8 +842,8 @@ const styles = StyleSheet.create({
   },
   prayerStepNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: tk.sacred,
     marginTop: 1,
   },
@@ -871,10 +871,10 @@ const styles = StyleSheet.create({
   },
   prayerStepArabic: {
     fontFamily: font.arabic,
-    fontSize: 22,
+    fontSize: 28,
     color: tk.sacred,
     textAlign: 'center',
-    lineHeight: 38,
+    lineHeight: 48,
     flex: 1,
   },
   prayerStepSpeaker: {
@@ -976,8 +976,8 @@ const styles = StyleSheet.create({
   },
   stepListTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 22,
-    fontSize: 13,
+    lineHeight: 28,
+    fontSize: 16,
     color: tk.sacred,
   },
   stepListDescription: {
@@ -996,10 +996,10 @@ const styles = StyleSheet.create({
   },
   stepListArabic: {
     fontFamily: font.arabic,
-    fontSize: 16,
+    fontSize: 20,
     color: tk.sacred,
     flex: 1,
-    lineHeight: 28,
+    lineHeight: 36,
   },
   stepListTransliteration: {
     fontSize: 12,
@@ -1036,8 +1036,8 @@ const styles = StyleSheet.create({
   },
   prayerTimeArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: tk.sacred,
   },
   rakaatBadge: {

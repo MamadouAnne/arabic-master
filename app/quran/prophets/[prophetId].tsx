@@ -296,8 +296,8 @@ const styles = StyleSheet.create({
   },
   prophetNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 37,
-    fontSize: 22,
+    lineHeight: 48,
+    fontSize: 28,
     fontWeight: 'bold',
     color: color.text,
   },
@@ -336,8 +336,8 @@ const styles = StyleSheet.create({
   },
   subStoryTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.accent,
     marginTop: 4,
   },

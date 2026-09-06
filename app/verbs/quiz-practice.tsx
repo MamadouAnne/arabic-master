@@ -454,8 +454,8 @@ const styles = StyleSheet.create({
   },
   questionArabic: {
     fontFamily: font.arabic,
-    fontSize: 30,
-    lineHeight: 50,
+    fontSize: 38,
+    lineHeight: 64,
     color: color.sacred,
     textAlign: 'center',
   },

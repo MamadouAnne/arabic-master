@@ -267,8 +267,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: color.progress,
     marginTop: 4,
   },
@@ -493,8 +493,8 @@ const styles = StyleSheet.create({
   },
   reviewTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 22,
-    fontSize: 13,
+    lineHeight: 28,
+    fontSize: 16,
     color: color.accentStrong,
     marginTop: 2,
   },

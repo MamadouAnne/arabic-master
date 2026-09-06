@@ -576,8 +576,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.progress,
     marginTop: 2,
   },
@@ -745,8 +745,8 @@ const styles = StyleSheet.create({
   },
   cardNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 61,
-    fontSize: 36,
+    lineHeight: 74,
+    fontSize: 44,
     fontWeight: 'bold',
     color: color.text,
     marginBottom: 4,

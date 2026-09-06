@@ -1049,8 +1049,8 @@ const styles = StyleSheet.create({
   },
   challengeArabic: {
     fontFamily: font.arabic,
-    lineHeight: 22,
-    fontSize: 13,
+    lineHeight: 28,
+    fontSize: 16,
     color: color.sacred,
     marginTop: 1,
   },
@@ -1264,9 +1264,9 @@ const styles = StyleSheet.create({
   },
   achievementTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 20,
+    lineHeight: 26,
     color: color.sacred,
-    fontSize: 12,
+    fontSize: 16,
     marginTop: 2,
     textAlign: 'center',
   },
@@ -1339,9 +1339,9 @@ const styles = StyleSheet.create({
   },
   popupTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
+    lineHeight: 38,
     color: color.sacred,
-    fontSize: 18,
+    fontSize: 22,
     marginTop: 4,
     marginBottom: 20,
   },
@@ -1361,9 +1361,9 @@ const styles = StyleSheet.create({
   },
   popupAchievementArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
+    lineHeight: 34,
     color: color.sacred,
-    fontSize: 16,
+    fontSize: 20,
     marginTop: 4,
   },
   popupDesc: {

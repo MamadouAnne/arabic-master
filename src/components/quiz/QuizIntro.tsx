@@ -166,8 +166,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    fontSize: 24,
-    lineHeight: 40,
+    fontSize: 30,
+    lineHeight: 50,
     color: GOLD,
     fontWeight: '600',
     textAlign: 'center',

@@ -128,8 +128,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: color.sacred,
   },
   feed: {
@@ -173,8 +173,8 @@ const styles = StyleSheet.create({
   },
   achievementArabic: {
     fontFamily: font.arabic,
-    lineHeight: 22,
-    fontSize: 13,
+    lineHeight: 28,
+    fontSize: 16,
     color: color.textFaint,
     marginTop: 2,
   },

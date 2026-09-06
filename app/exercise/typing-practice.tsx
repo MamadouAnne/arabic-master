@@ -447,8 +447,8 @@ const styles = StyleSheet.create({
   },
   hintArabic: {
     fontFamily: font.arabic,
-    lineHeight: 48,
-    fontSize: 28,
+    lineHeight: 62,
+    fontSize: 36,
     color: color.sacred,
   },
   feedbackBox: {

@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
   addRowText: { fontSize: 13, fontWeight: '600' },
   arabicInput: {
     fontFamily: font.arabic,
-    lineHeight: 34, fontSize: 20, color: color.text, textAlign: 'right', writingDirection: 'rtl', backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: color.border, marginBottom: 6 },
+    lineHeight: 40, fontSize: 24, color: color.text, textAlign: 'right', writingDirection: 'rtl', backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 10, borderWidth: 1, borderColor: color.border, marginBottom: 6 },
   smallInput: { fontSize: 14, color: color.textMuted, backgroundColor: color.bg, borderRadius: radius.sm, paddingHorizontal: 12, paddingVertical: 8, borderWidth: 1, borderColor: color.border, marginBottom: 6 },
   addSection: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, paddingVertical: 12, borderRadius: radius.md, borderWidth: 1, borderColor: color.border, borderStyle: 'dashed', marginBottom: 18 },
   addSectionText: { fontSize: 14, fontWeight: '700' },

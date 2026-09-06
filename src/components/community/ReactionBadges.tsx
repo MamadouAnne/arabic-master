@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   emoji: { fontSize: 14 },
   arabicEmoji: {
     fontFamily: font.arabic,
-    lineHeight: 15, fontSize: 9, fontWeight: '700', color: color.warning },
+    lineHeight: 20, fontSize: 12, fontWeight: '700', color: color.warning },
   count: { fontSize: 12, color: color.textFaint, fontWeight: '600' },
   countActive: { color: color.accent },
 });

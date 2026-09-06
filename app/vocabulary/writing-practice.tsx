@@ -422,8 +422,8 @@ const styles = StyleSheet.create({
   },
   questionArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: color.sacred,
     textAlign: 'center',
   },

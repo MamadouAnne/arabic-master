@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   title: { fontSize: 24, fontWeight: 'bold', color: color.text },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31, fontSize: 18, color: ACCENT, marginTop: 4 },
+    lineHeight: 38, fontSize: 22, color: ACCENT, marginTop: 4 },
   introCard: { flexDirection: 'row', backgroundColor: `${ACCENT}18`, marginHorizontal: 20, borderRadius: radius.lg, padding: 16, marginBottom: 20, borderWidth: 1, borderColor: `${ACCENT}40`, gap: 12 },
   introContent: { flex: 1 },
   introTitle: { fontSize: 16, fontWeight: '700', color: ACCENT, marginBottom: 4 },
@@ -127,6 +127,6 @@ const styles = StyleSheet.create({
   lessonTitle: { fontSize: 15, fontWeight: '600', color: color.text },
   lessonTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24, fontSize: 14, color: ACCENT, marginTop: 2 },
+    lineHeight: 30, fontSize: 18, color: ACCENT, marginTop: 2 },
   lessonDescription: { fontSize: 12, color: color.textMuted, marginTop: 4, lineHeight: 18 },
 });

@@ -191,8 +191,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.progress,
     marginTop: 2,
   },
@@ -261,9 +261,9 @@ const styles = StyleSheet.create({
   },
   surahNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
+    lineHeight: 40,
     color: color.text,
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: '600',
   },
   surahNameEnglish: {

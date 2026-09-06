@@ -266,8 +266,8 @@ const styles = StyleSheet.create({
   },
   storyNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 37,
-    fontSize: 22,
+    lineHeight: 48,
+    fontSize: 28,
     fontWeight: 'bold',
     color: color.text,
   },

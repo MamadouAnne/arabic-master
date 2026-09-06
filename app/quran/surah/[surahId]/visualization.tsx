@@ -508,9 +508,9 @@ const styles = StyleSheet.create({
   },
   surahNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 37,
+    lineHeight: 48,
     color: color.sacred,
-    fontSize: 22,
+    fontSize: 28,
     fontWeight: 'bold',
   },
   headerMethodLabel: {
@@ -675,9 +675,9 @@ const styles = StyleSheet.create({
   },
   anchorArabic: {
     fontFamily: font.arabic,
-    lineHeight: 29,
+    lineHeight: 38,
     color: color.sacred,
-    fontSize: 17,
+    fontSize: 22,
     fontWeight: '700',
     marginBottom: 4,
   },

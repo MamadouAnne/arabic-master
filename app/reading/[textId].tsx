@@ -589,9 +589,9 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 41,
+    lineHeight: 52,
     color: tk.text,
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: 'bold',
   },
   title: {
@@ -735,9 +735,9 @@ const styles = StyleSheet.create({
   },
   sentenceArabic: {
     fontFamily: font.arabic,
-    fontSize: 24,
+    fontSize: 30,
     color: tk.text,
-    lineHeight: 40,
+    lineHeight: 50,
     textAlign: 'right',
     writingDirection: 'rtl',
     marginBottom: 12,

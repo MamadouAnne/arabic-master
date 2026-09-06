@@ -183,8 +183,8 @@ const styles = StyleSheet.create({
   },
   primaryArabic: {
     fontFamily: font.arabic,
-    fontSize: 26,
-    lineHeight: 44,
+    fontSize: 32,
+    lineHeight: 54,
     color: color.text,
     textAlign: 'left',
     writingDirection: 'rtl',
@@ -196,8 +196,8 @@ const styles = StyleSheet.create({
   },
   secondaryArabic: {
     fontFamily: font.arabic,
-    fontSize: 20,
-    lineHeight: 34,
+    fontSize: 24,
+    lineHeight: 40,
     color: color.textMuted,
     textAlign: 'left',
     writingDirection: 'rtl',

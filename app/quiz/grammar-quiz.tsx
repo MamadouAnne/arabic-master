@@ -783,8 +783,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 37,
-    fontSize: 22,
+    lineHeight: 48,
+    fontSize: 28,
     color: color.sacred,
     marginTop: 8,
     marginBottom: 16,
@@ -960,10 +960,10 @@ const styles = StyleSheet.create({
   },
   questionArabic: {
     fontFamily: font.arabic,
-    fontSize: 24,
+    fontSize: 30,
     color: color.sacred,
     textAlign: 'right',
-    lineHeight: 36,
+    lineHeight: 44,
     flex: 1,
   },
   audioButton: {
@@ -1026,8 +1026,8 @@ const styles = StyleSheet.create({
   },
   optionTextArabic: {
     fontFamily: font.arabic,
-    fontSize: 26,
-    lineHeight: 44,
+    fontSize: 32,
+    lineHeight: 54,
     color: color.text,
     textAlign: 'center',
     writingDirection: 'rtl',
@@ -1242,8 +1242,8 @@ const styles = StyleSheet.create({
   },
   resultTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 34,
-    fontSize: 20,
+    lineHeight: 40,
+    fontSize: 24,
     color: color.sacred,
     marginTop: 4,
   },
@@ -1332,8 +1332,8 @@ const styles = StyleSheet.create({
   },
   reviewQuestionArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.sacred,
     textAlign: 'right',
     flex: 1,

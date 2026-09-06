@@ -665,9 +665,9 @@ const styles = StyleSheet.create({
   },
   surahNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 37,
+    lineHeight: 48,
     color: ARABIC_GOLD,
-    fontSize: 22,
+    fontSize: 28,
     fontWeight: 'bold',
   },
   headerMethodLabel: {
@@ -896,9 +896,9 @@ const styles = StyleSheet.create({
   },
   chunkWordArabic: {
     fontFamily: font.arabic,
-    lineHeight: 41,
+    lineHeight: 52,
     color: TEXT_PRIMARY,
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: '600',
     marginBottom: 4,
     writingDirection: 'rtl',

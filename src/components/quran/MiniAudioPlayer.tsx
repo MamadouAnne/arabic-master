@@ -306,9 +306,9 @@ const styles = StyleSheet.create({
   },
   surahArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
+    lineHeight: 34,
     color: color.text,
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: '600',
   },
   metaRow: {

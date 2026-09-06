@@ -395,8 +395,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     color: color.progress,
     marginTop: 4,
   },
@@ -546,13 +546,13 @@ const styles = StyleSheet.create({
   arabicTextWrap: { flex: 1, marginLeft: 14 },
   arabicTitle: {
     fontFamily: font.arabic,
-    lineHeight: 26, fontSize: 15.5, fontWeight: '700', color: color.text },
+    lineHeight: 32, fontSize: 18.5, fontWeight: '700', color: color.text },
   arabicSubtitle: {
     fontFamily: font.arabic,
-    fontSize: 12,
+    fontSize: 16,
     color: 'rgba(255,255,255,0.9)',
     marginTop: 3,
-    lineHeight: 16,
+    lineHeight: 22,
   },
   section: {
     paddingHorizontal: 20,

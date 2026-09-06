@@ -226,7 +226,7 @@ const styles = StyleSheet.create({
   blockInput: { fontSize: 15, color: color.text, lineHeight: 22, minHeight: 24, padding: 0 },
   headingInput: { fontSize: 19, fontWeight: '700', color: color.text },
   arabicInput: {
-    fontFamily: font.arabic, fontSize: 22, lineHeight: 38, color: color.text, textAlign: 'right', writingDirection: 'rtl' },
+    fontFamily: font.arabic, fontSize: 28, lineHeight: 48, color: color.text, textAlign: 'right', writingDirection: 'rtl' },
   calloutInput: { fontSize: 15, color: color.text, fontStyle: 'italic' },
   translationInput: { fontSize: 13, color: color.textMuted, marginTop: 6, padding: 0 },
   dividerPreview: { height: 2, backgroundColor: color.surfaceRaised, borderRadius: 1, marginVertical: 8 },

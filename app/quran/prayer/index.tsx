@@ -192,8 +192,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.progress,
     marginTop: 2,
   },
@@ -348,8 +348,8 @@ const styles = StyleSheet.create({
   },
   lessonTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.sacred,
   },
   lessonDescription: {

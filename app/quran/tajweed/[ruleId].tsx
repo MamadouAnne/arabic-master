@@ -466,8 +466,8 @@ const styles = StyleSheet.create({
   },
   ruleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 31,
-    fontSize: 18,
+    lineHeight: 38,
+    fontSize: 22,
     marginTop: 4,
   },
   headerRight: {
@@ -529,10 +529,10 @@ const styles = StyleSheet.create({
   descriptionArabic: {
     fontFamily: font.arabic,
     color: color.progress,
-    fontSize: 16,
+    fontSize: 20,
     marginTop: 12,
     textAlign: 'right',
-    lineHeight: 28,
+    lineHeight: 36,
   },
   lettersContainer: {
     flexDirection: 'row',

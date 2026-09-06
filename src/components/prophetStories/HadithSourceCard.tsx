@@ -149,8 +149,8 @@ const styles = StyleSheet.create({
   arabicWord: {
     fontFamily: font.arabic,
     color: color.text,
-    fontSize: 18,
-    lineHeight: 36,
+    fontSize: 22,
+    lineHeight: 44,
   },
   translation: {
     color: color.textMuted,

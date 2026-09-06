@@ -185,7 +185,7 @@ const styles = StyleSheet.create({
   headerTitle: { fontSize: 17, fontWeight: 'bold', color: color.text },
   headerTitleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24, fontSize: 14, color: color.sacred, marginTop: 2 },
+    lineHeight: 30, fontSize: 18, color: color.sacred, marginTop: 2 },
   content: { paddingHorizontal: 20, paddingTop: 4 },
   notFound: { color: color.textMuted, textAlign: 'center', marginTop: 40 },
 
@@ -207,7 +207,7 @@ const styles = StyleSheet.create({
   numberDigit: { fontSize: 22, fontWeight: '800', color: color.sacred },
   numberValue: { fontSize: 13, color: color.textFaint, fontWeight: '600' },
   numberArabic: {
-    fontFamily: font.arabic, fontSize: 26, lineHeight: 42, color: color.text, textAlign: 'right' },
+    fontFamily: font.arabic, fontSize: 32, lineHeight: 52, color: color.text, textAlign: 'right' },
   numberTranslit: { fontSize: 13, color: color.accent, fontStyle: 'italic', marginTop: 2 },
   numberMeaning: { fontSize: 13, color: color.textMuted, marginTop: 2 },
 
@@ -240,7 +240,7 @@ const styles = StyleSheet.create({
   },
   exampleText: { flex: 1 },
   exampleArabic: {
-    fontFamily: font.arabic, fontSize: 24, lineHeight: 42, color: color.text, textAlign: 'right' },
+    fontFamily: font.arabic, fontSize: 30, lineHeight: 52, color: color.text, textAlign: 'right' },
   exampleTranslit: { fontSize: 13, color: color.accent, fontStyle: 'italic', marginTop: 2 },
   exampleMeaning: { fontSize: 13, color: color.textMuted, marginTop: 2 },
   exampleAudio: {

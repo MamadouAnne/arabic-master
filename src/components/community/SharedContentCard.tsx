@@ -90,14 +90,14 @@ const styles = StyleSheet.create({
   kind: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.4 },
   ref: { fontSize: 11, color: color.textMuted, marginLeft: 'auto', maxWidth: 130 },
   arabic: {
-    fontFamily: font.arabic, fontSize: 27, color: color.text, lineHeight: 48, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
+    fontFamily: font.arabic, fontSize: 34, color: color.text, lineHeight: 60, textAlign: 'right', writingDirection: 'rtl', marginTop: 2 },
   audioBtn: { width: 30, height: 30, borderRadius: radius.lg, alignItems: 'center', justifyContent: 'center', marginLeft: 6 },
   divider: { height: 1, backgroundColor: 'rgba(148,163,184,0.2)', marginTop: 12, marginBottom: 10 },
   translit: { fontSize: 15, color: color.textMuted, lineHeight: 25, letterSpacing: 0.2 },
   translation: { fontSize: 16, color: color.text, lineHeight: 25, marginTop: 12 },
   exampleBox: { marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: withAlpha(color.border, 0.5) },
   exampleArabic: {
-    fontFamily: font.arabic, fontSize: 17, color: color.text, lineHeight: 28, textAlign: 'right', writingDirection: 'rtl' },
+    fontFamily: font.arabic, fontSize: 22, color: color.text, lineHeight: 36, textAlign: 'right', writingDirection: 'rtl' },
   exampleTr: { fontSize: 12, color: color.textMuted, marginTop: 2 },
   actionsRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 12, flexWrap: 'wrap' },
   openRow: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingVertical: 4 },

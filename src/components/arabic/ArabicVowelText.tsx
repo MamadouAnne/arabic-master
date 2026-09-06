@@ -89,8 +89,8 @@ const ArabicVowelText = memo(function ArabicVowelText({
 const styles = StyleSheet.create({
   arabicText: {
     fontFamily: font.arabic,
-    lineHeight: 37,
-    fontSize: 22,
+    lineHeight: 48,
+    fontSize: 28,
     color: color.text,
   },
 });

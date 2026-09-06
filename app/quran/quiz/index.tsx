@@ -124,8 +124,8 @@ const styles = StyleSheet.create({
   },
   titleArabic: {
     fontFamily: font.arabic,
-    lineHeight: 27,
-    fontSize: 16,
+    lineHeight: 34,
+    fontSize: 20,
     color: color.warning,
     marginTop: 2,
   },
@@ -187,8 +187,8 @@ const styles = StyleSheet.create({
   },
   categoryNameArabic: {
     fontFamily: font.arabic,
-    lineHeight: 24,
-    fontSize: 14,
+    lineHeight: 30,
+    fontSize: 18,
     color: color.textFaint,
     marginTop: 2,
   },

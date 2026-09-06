@@ -206,9 +206,9 @@ const quranStyles = StyleSheet.create({
   },
   referenceArabic: {
     fontFamily: font.arabic,
-    lineHeight: 20,
+    lineHeight: 26,
     color: '#6ee7b7',
-    fontSize: 12,
+    fontSize: 16,
     marginLeft: 4,
   },
   playButton: {
@@ -232,8 +232,8 @@ const quranStyles = StyleSheet.create({
   arabicWord: {
     fontFamily: font.arabic,
     color: color.text,
-    fontSize: 22,
-    lineHeight: 44,
+    fontSize: 28,
+    lineHeight: 56,
   },
   translation: {
     color: color.textMuted,
@@ -301,8 +301,8 @@ const hadithStyles = StyleSheet.create({
   arabicWord: {
     fontFamily: font.arabic,
     color: color.text,
-    fontSize: 18,
-    lineHeight: 36,
+    fontSize: 22,
+    lineHeight: 44,
   },
   translation: {
     color: color.textMuted,
