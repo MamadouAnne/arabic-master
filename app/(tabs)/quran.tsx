@@ -21,6 +21,7 @@ import {
   ProgressBar,
   Stat,
   IlluminatedRule,
+  MastheadWash,
   withAlpha,
 } from '../../src/components/ui/Primitives';
 import { color, space, radius, gutter } from '../../src/theme/tokens';
@@ -93,6 +94,7 @@ export default function QuranScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
+      <MastheadWash />
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scroll}>
         {/* Masthead — the most reverent moment in the app: the Arabic title set
             centred in the Quranic cut, framed by the illuminated rule. */}

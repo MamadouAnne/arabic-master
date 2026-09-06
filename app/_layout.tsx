@@ -70,12 +70,12 @@ export default function RootLayout() {
     setUpdateComplete(true);
   }, []);
 
-  // Android navigation bar: keep light buttons. Background color is no longer
+  // Android navigation bar: dark buttons on the light ground. Background color is no longer
   // set — with edge-to-edge (SDK 54 default) the nav bar is transparent and
   // setBackgroundColorAsync is unsupported (it only logs a warning).
   useEffect(() => {
     if (Platform.OS === 'android') {
-      NavigationBar.setButtonStyleAsync('light').catch(() => {});
+      NavigationBar.setButtonStyleAsync('dark').catch(() => {});
     }
   }, []);
 
@@ -247,7 +247,7 @@ export default function RootLayout() {
   return (
     <AppErrorBoundary>
       <GestureHandlerRootView style={{ flex: 1, backgroundColor: color.bg }} onLayout={onLayoutRootView}>
-        <StatusBar style="light" />
+        <StatusBar style="dark" />
         <Stack
           screenOptions={{
             headerShown: false,

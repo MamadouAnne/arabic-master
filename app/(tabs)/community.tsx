@@ -9,7 +9,7 @@ import { useSettingsStore } from '../../src/stores/settingsStore';
 import { GroupsTab } from '../../src/components/community/GroupsTab';
 import { DiscussionsTab } from '../../src/components/community/DiscussionsTab';
 import { ChallengesTab } from '../../src/components/community/ChallengesTab';
-import { Txt, Arabic } from '../../src/components/ui/Primitives';
+import { Txt, Arabic, MastheadWash } from '../../src/components/ui/Primitives';
 import { color, space, radius, gutter } from '../../src/theme/tokens';
 
 type CommunityTab = 'groups' | 'discussions' | 'challenges';
@@ -35,6 +35,7 @@ export default function CommunityScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
+      <MastheadWash />
       {/* Masthead. No illuminated rule here — the segmented control below
           already divides the page, and the mark stays rare by design. */}
       <View style={styles.header}>

@@ -12,6 +12,7 @@ import {
   Card,
   IconTile,
   IlluminatedRule,
+  MastheadWash,
   withAlpha,
 } from '../../src/components/ui/Primitives';
 import { color, type, weight, space, radius, gutter } from '../../src/theme/tokens';
@@ -78,6 +79,7 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
+      <MastheadWash />
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scroll}>
         {/* Masthead — Arabic leads, English supports. The illuminated rule sits
             here and nowhere else on this screen, marking the head of the page
@@ -260,7 +262,7 @@ const styles = StyleSheet.create({
     bottom: -18,
     fontSize: 88,
     lineHeight: 104,
-    color: 'rgba(255, 255, 255, 0.035)',
+    color: withAlpha(color.accent, 0.06),
     fontWeight: weight.bold,
   },
   moduleTitle: {

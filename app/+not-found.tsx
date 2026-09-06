@@ -1,8 +1,9 @@
 import { Link, Stack } from 'expo-router';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
-import { Text, View } from '@/components/Themed';
+import { Txt } from '../src/components/ui/Primitives';
+import { color, space } from '../src/theme/tokens';
 
 export default function NotFoundScreen() {
   const { t } = useTranslation();
@@ -11,10 +12,10 @@ export default function NotFoundScreen() {
     <>
       <Stack.Screen options={{ title: t('notFound.title') }} />
       <View style={styles.container}>
-        <Text style={styles.title}>{t('notFound.message')}</Text>
+        <Txt variant="title" weight="bold">{t('notFound.message')}</Txt>
 
         <Link href="/" style={styles.link}>
-          <Text style={styles.linkText}>{t('notFound.goHome')}</Text>
+          <Txt variant="body" weight="semibold" tone="accent">{t('notFound.goHome')}</Txt>
         </Link>
       </View>
     </>
@@ -26,18 +27,11 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 20,
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
+    padding: space.xl,
+    backgroundColor: color.bg,
   },
   link: {
-    marginTop: 15,
-    paddingVertical: 15,
-  },
-  linkText: {
-    fontSize: 14,
-    color: '#2e78b7',
+    marginTop: space.lg,
+    paddingVertical: space.md,
   },
 });

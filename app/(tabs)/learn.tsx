@@ -13,6 +13,7 @@ import {
   IconTile,
   ProgressBar,
   IlluminatedRule,
+  MastheadWash,
 } from '../../src/components/ui/Primitives';
 import { color, space, radius, gutter } from '../../src/theme/tokens';
 
@@ -179,6 +180,7 @@ export default function LearnScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
+      <MastheadWash />
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scroll}>
         {/* Masthead */}
         <View style={styles.header}>

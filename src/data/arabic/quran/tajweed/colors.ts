@@ -1,45 +1,45 @@
 // Tajweed Color Scheme
-// Colors follow common Tajweed color-coding standards.
 //
-// One deliberate deviation: the printed convention encodes madd severity as
-// progressively *darker* red, which assumes white paper. On this app's dark
-// ground that logic inverts — the most severe rule became the least visible.
-// madd_lazim is therefore lightened just enough to clear WCAG 3:1 for large
-// text against the ayah card, while staying visibly deeper than madd_wajib.
-// Every other hue is unchanged, since learners recognise them from the Mushaf.
+// Follows the printed-Mushaf convention, which assumes white paper: madd
+// severity is encoded as progressively darker red, ghunnah and idgham sit in
+// green, hiding rules in violet, qalqalah in teal. Every value clears WCAG
+// 3:1 for large Arabic text on the app's white ayah card and mint ground,
+// and no two rules in the same family share a lightness step.
+//
+// madd_tabii (natural, unmarked) is deliberately the reading ink: it is the
+// baseline the other madd colours are read against, exactly as in print.
 
 export const TAJWEED_COLORS = {
   // Ghunnah - Nasalization (2 harakat)
-  ghunnah: '#FF7F27',
+  ghunnah: '#2E7D32', // Green - Nasalization
 
   // Noon Sakinah & Tanween Rules
-  izhar: '#FFFF00', // Yellow - Clear pronunciation
-  ikhfa: '#C0C0C0', // Gray - Hidden/soft
-  iqlab: '#FFC8DB', // Pink - Conversion (noon to meem)
-  idgham_with_ghunnah: '#76FF76', // Green - Merging with nasalization
-  idgham_without_ghunnah: '#90EE90', // Light green - Merging without nasalization
+  izhar: '#455A64', // Slate - Clear pronunciation (near ink: nothing changes)
+  ikhfa: '#6A1B9A', // Violet - Hidden/soft
+  iqlab: '#1565C0', // Blue - Conversion (noon to meem)
+  idgham_with_ghunnah: '#1B5E20', // Deep green - Merging with nasalization
+  idgham_without_ghunnah: '#388E3C', // Green - Merging without nasalization
 
   // Meem Sakinah Rules
-  ikhfa_shafawi: '#A9A9A9', // Dark gray - Labial hiding
-  idgham_shafawi: '#98FB98', // Pale green - Labial merging
-  izhar_shafawi: '#FFFACD', // Lemon - Labial clear
+  ikhfa_shafawi: '#7B1FA2', // Violet - Labial hiding
+  idgham_shafawi: '#2E7D32', // Green - Labial merging
+  izhar_shafawi: '#546E7A', // Slate - Labial clear
 
-  // Madd (Elongation) Rules
-  madd_tabii: '#FFFFFF', // White - Natural elongation (2 harakat)
-  madd_wajib: '#FF0000', // Red - Required elongation (4-5 harakat)
-  madd_jaiz: '#FF9999', // Light red - Permissible elongation (2-4-6)
-  madd_lazim: '#D62839', // Deep crimson - Obligatory elongation (6 harakat).
-                         // Was #8B0000, which scored 1.70:1 on the dark card.
-  madd_arid: '#FFB6C1', // Light pink - Elongation due to stop
-  madd_leen: '#FFA07A', // Light salmon - Soft elongation
+  // Madd (Elongation) Rules — reds, darker as the elongation lengthens
+  madd_tabii: '#14261C', // Ink - Natural elongation (2 harakat)
+  madd_wajib: '#C62828', // Red - Required elongation (4-5 harakat)
+  madd_jaiz: '#D84315', // Red-orange - Permissible elongation (2-4-6)
+  madd_lazim: '#7F0000', // Deep crimson - Obligatory elongation (6 harakat)
+  madd_arid: '#AD1457', // Crimson-pink - Elongation due to stop
+  madd_leen: '#BF360C', // Burnt orange - Soft elongation
 
   // Qalqalah (Echo sound)
-  qalqalah_sughra: '#00BFFF', // Deep sky blue - Minor echo
-  qalqalah_kubra: '#1E90FF', // Dodger blue - Major echo
+  qalqalah_sughra: '#00838F', // Teal - Minor echo
+  qalqalah_kubra: '#00695C', // Deep teal - Major echo
 
   // Lam Rules
-  lam_shamsiyyah: '#FFD700', // Gold - Sun letters (assimilation)
-  lam_qamariyyah: '#E6E6FA', // Lavender - Moon letters (clear)
+  lam_shamsiyyah: '#EF6C00', // Amber - Sun letters (assimilation)
+  lam_qamariyyah: '#8E24AA', // Purple - Moon letters (clear)
 
   // Recitation Styles
   recitation_tahqiq: '#9C27B0', // Purple - Very slow (learning)

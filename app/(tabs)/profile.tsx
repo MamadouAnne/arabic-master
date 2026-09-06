@@ -17,7 +17,7 @@ import * as communityService from '../../src/services/communityService';
 import { useCreditStore, getCreditDisplayInfo } from '../../src/stores/creditStore';
 import { CreditPurchaseSheet } from '../../src/components/purchase/CreditPurchaseSheet';
 import { revenueCatService } from '../../src/services/revenueCatService';
-import { Txt, Arabic, IlluminatedRule, withAlpha } from '../../src/components/ui/Primitives';
+import { Txt, Arabic, IlluminatedRule, MastheadWash, withAlpha } from '../../src/components/ui/Primitives';
 import { color, space, gutter, font, radius } from '../../src/theme/tokens';
 
 export default function ProfileScreen() {
@@ -311,6 +311,7 @@ export default function ProfileScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      <MastheadWash />
       <ScrollView
         showsVerticalScrollIndicator={false}
         refreshControl={
@@ -966,7 +967,7 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
   },
   xpPillText: {
-    color: color.textOnAccent,
+    color: color.text,
     fontSize: 13,
     fontWeight: '800',
   },
@@ -1308,7 +1309,7 @@ const styles = StyleSheet.create({
   // Modal styles
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    backgroundColor: 'rgba(0, 0, 0, 0.45)',
     justifyContent: 'center',
     alignItems: 'center',
   },

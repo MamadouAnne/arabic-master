@@ -1,12 +1,13 @@
 /**
- * Iqra AI design tokens — "Illuminated"
+ * Iqra AI design tokens — "Light garden"
  *
- * The visual language borrows from the Mushaf: a deep ink ground, gold reserved
- * for what is sacred, and Arabic set as the hero rather than as a subtitle.
+ * The visual language borrows from two objects: the pale green of a prayer rug
+ * and the cream page of a Mushaf. The ground is mint paper, cards are white
+ * leaves floating on it, deep emerald marks anything the reader can act on,
+ * and gold is reserved for what is sacred — Arabic script, Quran, milestones.
  *
  * Colour is semantic, not decorative. Before adding a hue, check it earns a
- * meaning below — the previous rainbow of module accents (pink/teal/violet)
- * carried no information and is deliberately gone.
+ * meaning below.
  */
 
 // ---------------------------------------------------------------------------
@@ -15,81 +16,80 @@
 
 /** Raw ramp. Prefer the semantic aliases below; reach here only for one-offs. */
 export const palette = {
-  // Ink — the ground. Deeper than the old #0f172a to buy contrast headroom.
-  ink900: '#0B1220',
-  ink800: '#0F1728',
-  ink700: '#131C2E',
-  ink600: '#1B2740',
-  ink500: '#263349',
-  ink400: '#37475F',
+  // Mint — the ground and its wells.
+  mint50: '#F3F8F4',
+  mint100: '#E6F0E9',
+  mint150: '#DCEBE0',
+  mint200: '#D2E2D7',
+  mint300: '#B5CCBD',
+
+  // Ink — green-black reading colour.
+  ink900: '#14261C',
+  ink700: '#1F3527',
+
+  // Moss — secondary text.
+  moss500: '#5C7466',
+  moss400: '#7E9488',
+
+  // Emerald — interaction and progress.
+  emerald700: '#176340',
+  emerald600: '#1F7A4D',
+  emerald500: '#22A05F',
+  emerald100: '#DCEFE3',
 
   // Gold — precious metal. Sacred text, mastery, illumination. Never filler.
-  gold500: '#D4AF37',
-  gold400: '#E3C55C',
-  gold300: '#F0DC9A',
-
-  // Indigo — interaction. Anything the user can act on.
-  indigo500: '#6366F1',
-  indigo400: '#818CF8',
-  indigo300: '#A5B4FC',
-
-  // Emerald — progress and mastery.
-  emerald500: '#10B981',
-  emerald400: '#34D399',
+  gold600: '#AD8626',
+  gold500: '#C9A23A',
+  gold100: '#F6EED6',
 
   // Feedback
-  amber500: '#F59E0B',
-  rose500: '#EF4444',
+  amber600: '#C77D0B',
+  rose600: '#D23F3F',
 
-  // Type
   white: '#FFFFFF',
-  slate100: '#F2F5FA',
-  slate300: '#C3CEDE',
-  slate400: '#8FA0B8',
-  slate500: '#64748B',
 } as const;
 
 /** Semantic aliases — use these. */
 export const color = {
   /** App background. */
-  bg: palette.ink900,
+  bg: palette.mint50,
   /** Default card / raised panel. */
-  surface: palette.ink700,
+  surface: palette.white,
   /** A panel sitting on top of a surface. */
-  surfaceRaised: palette.ink600,
+  surfaceRaised: palette.white,
   /** Inset wells: progress tracks, input fields. */
-  surfaceSunken: palette.ink800,
+  surfaceSunken: palette.mint100,
 
   /** Hairline borders. Card edges sit at `border`, dividers at `borderSubtle`. */
-  border: palette.ink500,
-  borderSubtle: palette.ink600,
-  borderStrong: palette.ink400,
+  border: palette.mint200,
+  borderSubtle: '#E8F0EA',
+  borderStrong: palette.mint300,
 
   /** Primary reading colour. */
-  text: palette.slate100,
+  text: palette.ink900,
   /** Secondary copy, descriptions. */
-  textMuted: palette.slate400,
+  textMuted: palette.moss500,
   /** Labels, metadata, timestamps. */
-  textFaint: palette.slate500,
-  /** Text on a filled indigo/gold surface. */
-  textOnAccent: palette.ink900,
+  textFaint: palette.moss400,
+  /** Text on a filled emerald/gold surface. */
+  textOnAccent: palette.white,
 
   /** Interactive. Buttons, links, active tabs, selection. */
-  accent: palette.indigo400,
-  accentStrong: palette.indigo500,
-  accentSoft: 'rgba(129, 140, 248, 0.14)',
+  accent: palette.emerald600,
+  accentStrong: palette.emerald700,
+  accentSoft: 'rgba(31, 122, 77, 0.12)',
 
   /** Sacred. Arabic script, Quran, illumination, achievement. */
-  sacred: palette.gold500,
-  sacredBright: palette.gold400,
-  sacredSoft: 'rgba(212, 175, 55, 0.13)',
+  sacred: palette.gold600,
+  sacredBright: palette.gold500,
+  sacredSoft: 'rgba(173, 134, 38, 0.14)',
 
   /** Progress and mastery. */
   progress: palette.emerald500,
-  progressSoft: 'rgba(16, 185, 129, 0.14)',
+  progressSoft: 'rgba(34, 160, 95, 0.14)',
 
-  warning: palette.amber500,
-  danger: palette.rose500,
+  warning: palette.amber600,
+  danger: palette.rose600,
 } as const;
 
 // ---------------------------------------------------------------------------
@@ -183,23 +183,32 @@ export const radius = {
 } as const;
 
 /**
- * Elevation. On a dark ground a lifted border reads as depth far better than
- * a drop shadow, so `raised` brightens the edge and keeps the shadow soft.
+ * Elevation. On a light ground depth comes from a soft, green-tinted shadow
+ * rather than a brightened edge: the card should look like it is resting on
+ * the paper, not cut out of it.
  */
 export const elevation = {
+  /** Every card: a whisper of green shadow so white reads as resting on paper. */
+  subtle: {
+    shadowColor: palette.emerald600,
+    shadowOpacity: 0.06,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 3 },
+    elevation: 1,
+  },
   raised: {
-    shadowColor: '#000000',
-    shadowOpacity: 0.35,
-    shadowRadius: 14,
+    shadowColor: palette.emerald600,
+    shadowOpacity: 0.1,
+    shadowRadius: 16,
     shadowOffset: { width: 0, height: 6 },
-    elevation: 5,
+    elevation: 3,
   },
   floating: {
-    shadowColor: '#000000',
-    shadowOpacity: 0.45,
-    shadowRadius: 24,
+    shadowColor: palette.ink900,
+    shadowOpacity: 0.14,
+    shadowRadius: 28,
     shadowOffset: { width: 0, height: 12 },
-    elevation: 12,
+    elevation: 8,
   },
 } as const;
 

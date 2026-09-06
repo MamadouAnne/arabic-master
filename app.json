@@ -7,12 +7,12 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "iqra2",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0f172a"
+      "backgroundColor": "#F3F8F4"
     },
     "ios": {
       "supportsTablet": true,
@@ -30,7 +30,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#0f172a"
+        "backgroundColor": "#F3F8F4"
       },
       "package": "com.iqra2.app",
       "versionCode": 1,
@@ -55,7 +55,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#0f172a",
+          "backgroundColor": "#F3F8F4",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 280
         }

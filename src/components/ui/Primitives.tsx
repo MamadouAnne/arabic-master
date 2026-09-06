@@ -17,7 +17,8 @@ import {
   PressableProps,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { color, type, arabicType, font, weight, space, radius, gutter, elevation, pressedOpacity } from '../../theme/tokens';
+import { LinearGradient } from 'expo-linear-gradient';
+import { color, palette, type, arabicType, font, weight, space, radius, gutter, elevation, pressedOpacity } from '../../theme/tokens';
 
 // ---------------------------------------------------------------------------
 // Text
@@ -221,7 +222,7 @@ export function IconTile({
           width: box,
           height: box,
           borderRadius: radius.md,
-          backgroundColor: withAlpha(tint, 0.14),
+          backgroundColor: withAlpha(tint, 0.12),
           alignItems: 'center',
           justifyContent: 'center',
         },
@@ -267,6 +268,26 @@ export function Stat({ value, label, tint = color.text }: { value: string | numb
       <Text style={[type.stat, { color: tint, fontWeight: weight.bold }]}>{value}</Text>
       <Txt variant="caption" tone="faint" style={styles.statLabel}>{label}</Txt>
     </View>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Signature: the masthead wash
+// ---------------------------------------------------------------------------
+
+/**
+ * A deeper mint wash that fades into the page behind the head of each tab —
+ * light through leaves at the top of the garden. Place it as the first child
+ * of a screen's root container; it positions itself and never takes touches.
+ * Tab screens only: stack screens stay plain so the wash keeps meaning "home".
+ */
+export function MastheadWash({ height = 260 }: { height?: number }) {
+  return (
+    <LinearGradient
+      colors={[palette.mint150, color.bg]}
+      style={{ position: 'absolute', top: 0, left: 0, right: 0, height }}
+      pointerEvents="none"
+    />
   );
 }
 
@@ -324,6 +345,7 @@ const styles = StyleSheet.create({
     borderColor: color.border,
     padding: space.lg,
     overflow: 'hidden',
+    ...elevation.subtle,
   },
   cardPressed: {
     opacity: pressedOpacity,
