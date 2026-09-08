@@ -216,9 +216,11 @@ export async function playArabicLines(
   lines: string[],
   options: ArabicPlayOptions = {}
 ): Promise<void> {
-  const myGen = ++generation;
-  // Silence every other producer before adding a voice of our own.
+  // Silence the other producers FIRST, then take our generation. Claiming after
+  // the increment let a stop triggered by the claim bump the counter past the
+  // value we had just captured, and the utterance cancelled itself.
   claimAudio(AUDIO_ID);
+  const myGen = ++generation;
   teardownCurrent();
   await ensureAudioInit();
 

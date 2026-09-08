@@ -1,5 +1,4 @@
 import * as Speech from 'expo-speech';
-import { registerAudioProducer } from './audioBus';
 import { setAudioModeAsync } from 'expo-audio';
 import { speakArabic as speakArabicOnce, stopArabic, setArabicVoiceGender } from './speech/arabicTTS';
 
@@ -478,5 +477,8 @@ class AudioService {
 
 export const audioService = new AudioService();
 
-registerAudioProducer('audioService', 'speech', () => audioService.stop());
+// Deliberately NOT registered on the audio bus. This is a facade over
+// arabicTTS, not a separate producer: registering it made claimAudio() call
+// stopArabic() on the very utterance that was starting, and nothing played.
+// arabicTTS registers itself, which covers everything this can start.
 export default audioService;
