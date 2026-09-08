@@ -1,8 +1,19 @@
 import * as FileSystem from 'expo-file-system';
 import { Paths } from 'expo-file-system';
 
-// Cache directory for audio files
-const AUDIO_CACHE_DIR = `${Paths.document.uri}quran-audio/`;
+/**
+ * Cache directory, resolved on first use rather than at import.
+ *
+ * `Paths.document` is native-only and throws where it is unavailable. Read at
+ * module scope, that exception escapes during import and takes the entire
+ * bundle down before anything renders — one unavailable API turning into a
+ * blank app. Nothing needs this path until a download is requested.
+ */
+let cacheDir: string | null = null;
+function audioCacheDir(): string {
+  if (cacheDir === null) cacheDir = `${Paths.document.uri}quran-audio/`;
+  return cacheDir;
+}
 
 interface CacheStatus {
   isCached: boolean;
@@ -25,9 +36,9 @@ class AudioCacheService {
     if (this.initialized) return;
 
     try {
-      const dirInfo = await FileSystem.getInfoAsync(AUDIO_CACHE_DIR);
+      const dirInfo = await FileSystem.getInfoAsync(audioCacheDir());
       if (!dirInfo.exists) {
-        await FileSystem.makeDirectoryAsync(AUDIO_CACHE_DIR, { intermediates: true });
+        await FileSystem.makeDirectoryAsync(audioCacheDir(), { intermediates: true });
       }
       this.initialized = true;
     } catch (error) {
@@ -41,7 +52,7 @@ class AudioCacheService {
   private getLocalPath(surahNumber: number, ayahNumber: number, reciterId: string): string {
     const paddedSurah = surahNumber.toString().padStart(3, '0');
     const paddedAyah = ayahNumber.toString().padStart(3, '0');
-    return `${AUDIO_CACHE_DIR}${reciterId}/${paddedSurah}${paddedAyah}.mp3`;
+    return `${audioCacheDir()}${reciterId}/${paddedSurah}${paddedAyah}.mp3`;
   }
 
   /**
@@ -105,7 +116,7 @@ class AudioCacheService {
     const localPath = this.getLocalPath(surahNumber, ayahNumber, reciterId);
 
     // Ensure reciter directory exists
-    const reciterDir = `${AUDIO_CACHE_DIR}${reciterId}/`;
+    const reciterDir = `${audioCacheDir()}${reciterId}/`;
     const dirInfo = await FileSystem.getInfoAsync(reciterDir);
     if (!dirInfo.exists) {
       await FileSystem.makeDirectoryAsync(reciterDir, { intermediates: true });
@@ -212,7 +223,7 @@ class AudioCacheService {
    */
   async deleteSurahCache(surahNumber: number, reciterId: string): Promise<void> {
     const paddedSurah = surahNumber.toString().padStart(3, '0');
-    const reciterDir = `${AUDIO_CACHE_DIR}${reciterId}/`;
+    const reciterDir = `${audioCacheDir()}${reciterId}/`;
 
     try {
       const dirInfo = await FileSystem.getInfoAsync(reciterDir);
@@ -234,8 +245,8 @@ class AudioCacheService {
    */
   async clearCache(): Promise<void> {
     try {
-      await FileSystem.deleteAsync(AUDIO_CACHE_DIR, { idempotent: true });
-      await FileSystem.makeDirectoryAsync(AUDIO_CACHE_DIR, { intermediates: true });
+      await FileSystem.deleteAsync(audioCacheDir(), { idempotent: true });
+      await FileSystem.makeDirectoryAsync(audioCacheDir(), { intermediates: true });
     } catch (error) {
       __DEV__ && console.error('Failed to clear audio cache:', error);
     }
@@ -246,15 +257,15 @@ class AudioCacheService {
    */
   async getCacheSize(): Promise<number> {
     try {
-      const dirInfo = await FileSystem.getInfoAsync(AUDIO_CACHE_DIR);
+      const dirInfo = await FileSystem.getInfoAsync(audioCacheDir());
       if (!dirInfo.exists) return 0;
 
       // Recursively calculate size
       let totalSize = 0;
-      const reciterDirs = await FileSystem.readDirectoryAsync(AUDIO_CACHE_DIR);
+      const reciterDirs = await FileSystem.readDirectoryAsync(audioCacheDir());
 
       for (const reciter of reciterDirs) {
-        const reciterPath = `${AUDIO_CACHE_DIR}${reciter}/`;
+        const reciterPath = `${audioCacheDir()}${reciter}/`;
         const files = await FileSystem.readDirectoryAsync(reciterPath);
 
         for (const file of files) {
