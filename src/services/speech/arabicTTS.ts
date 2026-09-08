@@ -54,8 +54,21 @@ function chunkLine(text: string, maxLen = MAX_CHUNK_LEN): string[] {
       chunks.push(remaining);
       break;
     }
-    let splitAt = remaining.lastIndexOf(' ', maxLen);
-    if (splitAt === -1 || splitAt < maxLen / 2) splitAt = maxLen;
+    // Each chunk is a separate clip, so the seam between them is audible. Break
+    // on a sentence or clause mark where possible — including the Arabic full
+    // stop, comma, semicolon and question mark — then on a space.
+    let splitAt = -1;
+    for (const mark of ['۔ ', '. ', '؟ ', '? ', '! ', '؛ ', '; ', '، ', ', ']) {
+      const at = remaining.lastIndexOf(mark, maxLen);
+      if (at > splitAt) splitAt = at + mark.length - 1;
+    }
+    if (splitAt < maxLen / 2) splitAt = remaining.lastIndexOf(' ', maxLen);
+    if (splitAt <= 0) {
+      // No break point at all before the limit: run on to the next space rather
+      // than cutting a word in half, which Google reads as gibberish.
+      const next = remaining.indexOf(' ', maxLen);
+      splitAt = next === -1 ? remaining.length : next;
+    }
     chunks.push(remaining.substring(0, splitAt).trim());
     remaining = remaining.substring(splitAt).trim();
   }
@@ -84,9 +97,33 @@ function teardownCurrent() {
   }
 }
 
-async function fetchChunkToFile(text: string): Promise<string> {
+/**
+ * Map a requested speed onto what Google actually supports.
+ *
+ * The endpoint does not take a continuous rate: measured against
+ * translate_tts with a fixed Arabic phrase, every value from 0.5 to 1 returns
+ * byte-identical audio, 0.2-0.3 returns a distinct clip ~19% longer, and 0.1
+ * and below ~36% longer. So there are three tempos, not a dial. Passing 0.7
+ * through unchanged would silently produce normal-speed audio while the UI
+ * claimed it was slow.
+ */
+function googleTtsSpeed(speed: number): number {
+  if (speed >= 0.9) return 1;      // normal
+  if (speed >= 0.45) return 0.24;  // slow
+  return 0.1;                      // slowest, for picking a word apart
+}
+
+/**
+ * Fetch one chunk as an mp3.
+ *
+ * `speed` goes into the request, not into playback. Google re-synthesises at
+ * the requested tempo with the articulation a learner needs; time-stretching
+ * the finished mp3 afterwards smears it and is why slow Arabic sounded bad.
+ */
+async function fetchChunkToFile(text: string, speed = 1): Promise<string> {
+  const ttsSpeed = googleTtsSpeed(speed);
   const url =
-    `https://translate.google.com/translate_tts?ie=UTF-8&tl=ar&client=tw-ob&ttsspeed=1&q=` +
+    `https://translate.google.com/translate_tts?ie=UTF-8&tl=ar&client=tw-ob&ttsspeed=${ttsSpeed}&q=` +
     encodeURIComponent(text);
 
   const resp = await fetch(url);
@@ -113,7 +150,7 @@ async function fetchChunkToFile(text: string): Promise<string> {
   return file.uri;
 }
 
-function playFile(uri: string, speed: number): Promise<void> {
+function playFile(uri: string): Promise<void> {
   return new Promise<void>((resolve, reject) => {
     let player: AudioPlayer;
     try {
@@ -125,9 +162,8 @@ function playFile(uri: string, speed: number): Promise<void> {
     }
 
     player.shouldCorrectPitch = true;
-    try {
-      player.setPlaybackRate(speed, 'high');
-    } catch {}
+    // Deliberately no setPlaybackRate: the clip was already rendered at the
+    // requested tempo. Resampling it here is what made the voice warble.
     currentPlayer = player;
 
     let settled = false;
@@ -202,7 +238,7 @@ export async function playArabicLines(
         if (myGen !== generation) return;
         let uri: string;
         try {
-          uri = await fetchChunkToFile(chunk);
+          uri = await fetchChunkToFile(chunk, speed);
         } catch {
           // Google TTS is unreachable. Speak this line on device rather than
           // failing the whole utterance into silence.
@@ -213,7 +249,7 @@ export async function playArabicLines(
           deleteQuietly(uri);
           return;
         }
-        await playFile(uri, speed);
+        await playFile(uri);
         if (myGen !== generation) return;
       }
     }

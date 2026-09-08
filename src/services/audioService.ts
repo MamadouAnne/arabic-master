@@ -404,12 +404,14 @@ class AudioService {
     }
   }
 
+  /** Deliberately slower, for picking apart a word. Google renders it slow. */
   async speakSlow(text: string): Promise<void> {
     return this.speakArabic({ text, rate: 0.5 });
   }
 
+  /** Normal means normal. This asked for 0.75 and everything sounded slurred. */
   async speakNormal(text: string): Promise<void> {
-    return this.speakArabic({ text, rate: 0.75 });
+    return this.speakArabic({ text, rate: 1.0 });
   }
 
   async stop(): Promise<void> {
