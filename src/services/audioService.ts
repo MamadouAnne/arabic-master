@@ -1,6 +1,7 @@
 import * as Speech from 'expo-speech';
+import { registerAudioProducer } from './audioBus';
 import { setAudioModeAsync } from 'expo-audio';
-import { speakGoogleArabic, stopGoogleArabic } from './speech/googleArabicTts';
+import { speakArabic as speakArabicOnce, stopArabic, setArabicVoiceGender } from './speech/arabicTTS';
 
 export type VoiceGender = 'female' | 'male';
 
@@ -384,8 +385,8 @@ class AudioService {
       // `rate` is the pitch-corrected playback speed directly (1.0 = natural).
       const playbackRate = Math.max(0.5, Math.min(2.0, rate));
 
-      await speakGoogleArabic(text.trim(), {
-        rate: playbackRate,
+      await speakArabicOnce(text.trim(), {
+        speed: playbackRate,
         onDone: () => {
           this.isSpeaking = false;
           onDone?.();
@@ -413,7 +414,7 @@ class AudioService {
 
   async stop(): Promise<void> {
     try {
-      stopGoogleArabic();
+      stopArabic();
     } catch (error) {
       __DEV__ && console.log('Stop error:', error);
     }
@@ -474,4 +475,6 @@ class AudioService {
 }
 
 export const audioService = new AudioService();
+
+registerAudioProducer('audioService', 'speech', () => audioService.stop());
 export default audioService;

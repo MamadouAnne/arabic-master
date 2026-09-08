@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Dimensions, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, useWindowDimensions, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 import { useRef, useState } from 'react';
 import { font, color, radius } from '../../src/theme/tokens';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 interface FeaturePage {
   titleKey: string;
@@ -41,6 +40,9 @@ const FEATURES: FeaturePage[] = [
 ];
 
 export default function FeaturesScreen() {
+  // Live width: a value captured at import is wrong after a rotation and in
+  // split view.
+  const { width: SCREEN_WIDTH } = useWindowDimensions();
   const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
   const scrollRef = useRef<ScrollView>(null);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, Pressable, Image, Modal, Dimensions } from 'react-native';
+import { View, StyleSheet, Pressable, Image, Modal, Dimensions, useWindowDimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { color, radius } from '../../theme/tokens';
@@ -10,7 +10,9 @@ interface Props {
 }
 
 export function ImageLightbox({ uri, onClose }: Props) {
-  const { width, height } = Dimensions.get('window');
+  // useWindowDimensions subscribes to changes; Dimensions.get does not, so a
+  // lightbox opened before a rotation kept the old size.
+  const { width, height } = useWindowDimensions();
   return (
     <Modal visible={!!uri} transparent animationType="fade" onRequestClose={onClose}>
       <SafeAreaView style={styles.container}>

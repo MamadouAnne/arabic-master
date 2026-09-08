@@ -2,6 +2,7 @@
 // Uses pre-recorded recitations from professional reciters for authentic Tajweed pronunciation
 
 import { createAudioPlayer, setAudioModeAsync } from 'expo-audio';
+import { registerAudioProducer, claimAudio } from './audioBus';
 import type { AudioPlayer } from 'expo-audio';
 import { getSurahByNumber } from '../data/arabic/quran/surahs';
 import { audioCacheService } from './audioCacheService';
@@ -313,6 +314,9 @@ class QuranAudioService {
     }
     this.isTransitioning = true;
     this.stoppedByUser = false;
+    // Silence the other producers. Passing our own id means the ayah-to-ayah
+    // handover does not stop the recitation it is continuing.
+    claimAudio('quran');
 
     // Hold onto the outgoing player. We hand the lock-screen (Now Playing)
     // session over to the new player BEFORE tearing this one down, so the
@@ -789,6 +793,10 @@ export interface PlaybackStatus {
 
 // Export singleton instance
 export const quranAudioService = new QuranAudioService();
+
+// Recitation is long-form: it survives navigation, but starting it silences any
+// tapped-word speech, and any new speech silences it.
+registerAudioProducer('quran', 'longform', () => quranAudioService.stop());
 
 // Export class for testing
 export { QuranAudioService };

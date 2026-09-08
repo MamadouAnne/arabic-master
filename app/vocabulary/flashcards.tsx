@@ -1,4 +1,4 @@
-import { View, Text, Pressable, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Pressable, StyleSheet, useWindowDimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
@@ -24,10 +24,12 @@ import { VocabularyWord } from '../../src/types/arabic';
 import { font, color, radius } from '../../src/theme/tokens';
 import { withAlpha } from '../../src/components/ui/Primitives';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
-const SWIPE_THRESHOLD = SCREEN_WIDTH * 0.3;
-
 export default function FlashcardsScreen() {
+  // Live width: a value captured at import is wrong after a rotation and in
+  // split view.
+  const { width: SCREEN_WIDTH } = useWindowDimensions();
+  // Swipe distance that commits the card, as a fraction of the live width.
+  const SWIPE_THRESHOLD = SCREEN_WIDTH * 0.3;
   const { t } = useTranslation();
   const { lc } = useLocalizedContent();
   const { themeId } = useLocalSearchParams<{ themeId?: string }>();

@@ -1,4 +1,4 @@
-import { View, Text, Pressable, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
@@ -20,7 +20,6 @@ import { VocabularyWord, VocabularyReviewItem, ReviewRating } from '../../src/ty
 import { font, color, radius } from '../../src/theme/tokens';
 import { withAlpha } from '../../src/components/ui/Primitives';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 // Rating descriptions for SM-2 scale
 const RATING_DESCRIPTIONS: Record<ReviewRating, { label: string; color: string; icon: string }> = {

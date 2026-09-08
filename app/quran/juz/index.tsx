@@ -5,8 +5,7 @@ import {
   ScrollView,
   Pressable,
   StyleSheet,
-  Animated,
-  Dimensions,
+  Animated, useWindowDimensions,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -28,7 +27,6 @@ import {
 import { font, color, radius } from '../../../src/theme/tokens';
 import { withAlpha } from '../../../src/components/ui/Primitives';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 type TabType = 'learn' | 'quiz';
 
@@ -181,6 +179,9 @@ function QuizSetCard({
 }
 
 export default function JuzMainScreen() {
+  // The sliding tab indicator needs a pixel offset, so it reads the live
+  // width rather than one captured when the module was imported.
+  const { width: SCREEN_WIDTH } = useWindowDimensions();
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<TabType>('learn');
   const slideAnim = useRef(new Animated.Value(0)).current;
@@ -451,7 +452,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 4,
     left: 4,
-    width: (SCREEN_WIDTH - 48) / 2 - 4,
+    width: '48%',
     height: '100%',
     backgroundColor: color.accent,
     borderRadius: radius.sm,

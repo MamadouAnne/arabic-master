@@ -1,9 +1,8 @@
-import { View, Text, Pressable, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Pressable, StyleSheet, useWindowDimensions } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useRef } from 'react';
 import { color, radius } from '../../theme/tokens';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 interface ArabicKeyboardProps {
   onKeyPress: (key: string) => void;
@@ -59,6 +58,9 @@ export default function ArabicKeyboard({
   onCursorLeft,
   onCursorRight,
 }: ArabicKeyboardProps) {
+  // Live width: a value captured at import is wrong after a rotation and in
+  // split view.
+  const { width: SCREEN_WIDTH } = useWindowDimensions();
   const keyWidth = (SCREEN_WIDTH - 24) / 11 - 3;
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);

@@ -1,10 +1,10 @@
 // Arabic Vocabulary API - Fetches translations from MyMemory API
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
-  speakGoogleArabic,
-  stopGoogleArabic,
-  isGoogleArabicSpeaking,
-} from '../services/speech/googleArabicTts';
+  speakArabic,
+  stopArabic,
+  isArabicSpeaking,
+} from '../services/speech/arabicTTS';
 
 const MYMEMORY_API = 'https://api.mymemory.translated.net/get';
 const CACHE_KEY = 'arabic-vocabulary-cache';
@@ -31,7 +31,7 @@ interface CachedVocabulary {
 // Play Arabic word audio using free Google TTS
 export async function playArabicAudio(arabicText: string): Promise<void> {
   try {
-    await speakGoogleArabic(arabicText, {
+    await speakArabic(arabicText, {
       onError: (e) => __DEV__ && console.error('Error playing Arabic audio:', e),
     });
   } catch (error) {
@@ -41,12 +41,12 @@ export async function playArabicAudio(arabicText: string): Promise<void> {
 
 // Check if speech is currently playing
 export async function isSpeaking(): Promise<boolean> {
-  return isGoogleArabicSpeaking();
+  return isArabicSpeaking();
 }
 
 // Stop any playing speech
 export async function stopAudio(): Promise<void> {
-  stopGoogleArabic();
+  stopArabic();
 }
 
 // Vocalized Arabic vocabulary with tashkeel (vowel marks)

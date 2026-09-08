@@ -1,4 +1,4 @@
-import { View, Text, Pressable, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, Pressable, StyleSheet, useWindowDimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
@@ -19,10 +19,12 @@ import { useLocalizedContent } from '../../src/hooks/useLocalizedContent';
 import { color, radius } from '../../src/theme/tokens';
 import { withAlpha } from '../../src/components/ui/Primitives';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
-const CANVAS_SIZE = SCREEN_WIDTH - 80;
 
 export default function WritingPracticeScreen() {
+  // Square canvas sized off the live window; frozen at import it was wrong
+  // after a rotation and in split view.
+  const { width: SCREEN_WIDTH } = useWindowDimensions();
+  const CANVAS_SIZE = SCREEN_WIDTH - 80;
   const { t } = useTranslation();
   const { lc } = useLocalizedContent();
   const { letterId } = useLocalSearchParams<{ letterId?: string }>();
@@ -171,7 +173,7 @@ export default function WritingPracticeScreen() {
 
           {/* Drawing Canvas */}
           <GestureDetector gesture={panGesture}>
-            <View style={styles.canvas}>
+            <View style={[styles.canvas, { width: CANVAS_SIZE, height: CANVAS_SIZE }]}>
               <Svg width={CANVAS_SIZE} height={CANVAS_SIZE}>
                 {/* Drawn paths */}
                 {paths.map((path, index) => (
@@ -402,8 +404,6 @@ const styles = StyleSheet.create({
     marginTop: -120,
   },
   canvas: {
-    width: CANVAS_SIZE,
-    height: CANVAS_SIZE,
     backgroundColor: color.surface,
     borderRadius: radius.xl,
     borderWidth: 2,

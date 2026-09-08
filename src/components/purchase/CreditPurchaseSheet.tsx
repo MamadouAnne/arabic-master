@@ -5,8 +5,7 @@ import {
   Modal,
   Pressable,
   ScrollView,
-  StyleSheet,
-  Dimensions,
+  StyleSheet, useWindowDimensions,
   Animated,
   ActivityIndicator,
   Alert,
@@ -21,7 +20,6 @@ import { useCreditStore, getCreditDisplayInfo } from '../../stores/creditStore';
 import { color, radius } from '../../theme/tokens';
 import { withAlpha } from '../ui/Primitives';
 
-const SCREEN_HEIGHT = Dimensions.get('window').height;
 const SHEET_HEIGHT_RATIO = 0.92;
 
 // ── Product metadata for fallback display ─────────────────────────
@@ -76,6 +74,9 @@ interface Props {
 export function CreditPurchaseSheet({ visible, onClose }: Props) {
   const { t } = useTranslation();
   const insets = useSafeAreaInsets();
+  // Live height: a sheet sized at import slides to the wrong offset after a
+  // rotation.
+  const { height: SCREEN_HEIGHT } = useWindowDimensions();
   const slideAnim = useRef(new Animated.Value(SCREEN_HEIGHT)).current;
 
   const [billingPeriod, setBillingPeriod] = useState<'monthly' | 'yearly'>('yearly');

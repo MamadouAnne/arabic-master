@@ -1,6 +1,7 @@
 // Story Audio Service - English TTS for Prophet Stories narration
 // Human-like narration with prosodic modeling, breathing simulation, and natural rhythm
 import * as Speech from 'expo-speech';
+import { registerAudioProducer, claimAudio } from './audioBus';
 import { setAudioModeAsync } from 'expo-audio';
 import { PlaybackSpeed } from '../types/prophetStories';
 
@@ -415,6 +416,7 @@ class StoryAudioService {
   }
 
   async speak(text: string, speed: PlaybackSpeed = 1, options?: NarrationOptions): Promise<void> {
+    claimAudio('story');
     if (!text?.trim()) {
       return;
     }
@@ -538,4 +540,6 @@ class StoryAudioService {
 }
 
 export const storyAudioService = new StoryAudioService();
+
+registerAudioProducer('story', 'longform', () => storyAudioService.stop());
 export default storyAudioService;

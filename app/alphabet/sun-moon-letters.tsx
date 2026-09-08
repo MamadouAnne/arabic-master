@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Pressable, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, ScrollView, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 import { useArabicSpeech } from '../../src/hooks/useArabicSpeech';
 import { font, color, radius } from '../../src/theme/tokens';
 import { withAlpha } from '../../src/components/ui/Primitives';
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 // Sun Letters (الحروف الشمسية) - 14 letters
 // The "ل" in "ال" assimilates to these letters
@@ -361,7 +360,7 @@ const styles = StyleSheet.create({
     marginHorizontal: -6,
   },
   letterCard: {
-    width: (SCREEN_WIDTH - 52) / 2,
+    width: '48.5%',
     backgroundColor: color.surface,
     borderRadius: radius.lg,
     padding: 14,

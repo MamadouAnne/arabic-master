@@ -5,8 +5,7 @@ import {
   ScrollView,
   Pressable,
   StyleSheet,
-  Animated,
-  Dimensions,
+  Animated, useWindowDimensions,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -22,7 +21,6 @@ import {
 } from '../../../src/data/arabic/quran/quizzes';
 import { font, color, radius } from '../../../src/theme/tokens';
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const CARD_HEIGHT = 280;
 
 type TabType = 'learn' | 'quiz';
@@ -273,6 +271,9 @@ function QuizSetCard({
 type FilterType = 'all' | 'meccan' | 'medinan';
 
 export default function SurahLearnScreen() {
+  // The sliding tab indicator needs a pixel offset, so it reads the live
+  // width rather than one captured when the module was imported.
+  const { width: SCREEN_WIDTH } = useWindowDimensions();
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<TabType>('learn');
   const [selectedRange, setSelectedRange] = useState('all');
@@ -596,7 +597,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 4,
     left: 4,
-    width: (SCREEN_WIDTH - 48) / 2 - 4,
+    width: '48%',
     height: 40,
     backgroundColor: color.progress,
     borderRadius: radius.sm,

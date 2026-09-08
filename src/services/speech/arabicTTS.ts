@@ -11,6 +11,8 @@
 // verses/play are tapped rapidly.
 
 import { createAudioPlayer, setAudioModeAsync } from 'expo-audio';
+import * as Speech from 'expo-speech';
+import { registerAudioProducer, claimAudio } from '../audioBus';
 import type { AudioPlayer } from 'expo-audio';
 import { File, Paths } from 'expo-file-system';
 
@@ -179,6 +181,8 @@ export async function playArabicLines(
   options: ArabicPlayOptions = {}
 ): Promise<void> {
   const myGen = ++generation;
+  // Silence every other producer before adding a voice of our own.
+  claimAudio(AUDIO_ID);
   teardownCurrent();
   await ensureAudioInit();
 
@@ -196,7 +200,15 @@ export async function playArabicLines(
       const chunks = chunkLine(line);
       for (const chunk of chunks) {
         if (myGen !== generation) return;
-        const uri = await fetchChunkToFile(chunk);
+        let uri: string;
+        try {
+          uri = await fetchChunkToFile(chunk);
+        } catch {
+          // Google TTS is unreachable. Speak this line on device rather than
+          // failing the whole utterance into silence.
+          await speakOnDevice(line, speed, myGen, () => generation);
+          break;
+        }
         if (myGen !== generation) {
           deleteQuietly(uri);
           return;
@@ -211,7 +223,105 @@ export async function playArabicLines(
   }
 }
 
+/**
+ * Best on-device Arabic voice, resolved once and cached.
+ *
+ * Google TTS needs the network. Without a fallback the app was simply silent
+ * offline, which for a learning app is a failure rather than a degradation.
+ * expo-speech works offline, but with no `voice` it takes the system default —
+ * the compact cut, which is the flat clipped one. Both platforms ship a much
+ * better Arabic voice that costs nothing to ask for.
+ *
+ * `preferGender` exists because the on-device Arabic voices are named rather
+ * than tagged, and the app already lets the learner pick; the name lists are
+ * the ones audioService had worked out.
+ */
+const FEMALE = ['laila', 'maryam', 'amira', 'hoda', 'salma', 'zeina', 'lana', 'sara', 'fatima', 'samira', 'female'];
+const MALE = ['maged', 'majed', 'tarik', 'omar', 'khaled', 'ahmed', 'hassan', 'male'];
+
+let voicePromise: Promise<string | undefined> | null = null;
+let preferredGender: 'female' | 'male' = 'female';
+
+export function setArabicVoiceGender(gender: 'female' | 'male') {
+  if (gender !== preferredGender) {
+    preferredGender = gender;
+    voicePromise = null; // re-resolve on next use
+  }
+}
+
+async function bestArabicVoice(): Promise<string | undefined> {
+  if (voicePromise) return voicePromise;
+  voicePromise = (async () => {
+    try {
+      const voices = await Speech.getAvailableVoicesAsync();
+      const arabic = voices.filter(
+        (v) => (v.language || '').startsWith('ar') || (v.language || '').includes('Arab')
+      );
+      if (arabic.length === 0) return undefined;
+      const named = (v: Speech.Voice) =>
+        `${v.identifier || ''} ${v.name || ''}`.toLowerCase();
+      const wanted = preferredGender === 'male' ? MALE : FEMALE;
+      const score = (v: Speech.Voice) => {
+        const id = named(v);
+        let n = 0;
+        if (String(v.quality || '').toLowerCase().includes('enhanced')) n += 100;
+        if (id.includes('premium')) n += 60;
+        if (id.includes('enhanced')) n += 50;
+        if (id.includes('-network')) n += 45;
+        if (id.includes('super-compact')) n -= 80;
+        else if (id.includes('compact')) n -= 40;
+        if (wanted.some((w) => id.includes(w))) n += 25;
+        return n;
+      };
+      return [...arabic].sort((a, b) => score(b) - score(a))[0]?.identifier;
+    } catch {
+      return undefined;
+    }
+  })();
+  return voicePromise;
+}
+
+/** Speak on device. Used when Google TTS is unreachable. */
+async function speakOnDevice(text: string, speed: number, myGen: number, gen: () => number) {
+  const voice = await bestArabicVoice();
+  if (myGen !== gen()) return;
+  try { Speech.stop(); } catch {}
+  Speech.speak(text, {
+    language: 'ar',
+    voice,
+    // Slightly under normal: Arabic on-device voices run fast for a learner.
+    rate: Math.max(0.1, Math.min(1, speed * 0.9)),
+    pitch: 1.0,
+  });
+}
+
+/** Warms the voice list so the first offline tap does not wait on it. */
+export function prewarmArabicVoice() {
+  void bestArabicVoice();
+}
+
+const AUDIO_ID = 'arabicTTS';
+registerAudioProducer(AUDIO_ID, 'speech', () => stopArabic());
+
 export function stopArabic(): void {
+  try { Speech.stop(); } catch {}
   generation++;
   teardownCurrent();
+}
+
+
+/**
+ * Speak one piece of Arabic. The single-utterance door onto the same engine
+ * that `playArabicLines` uses — there is no second implementation behind it.
+ */
+export async function speakArabic(
+  text: string,
+  options: Omit<ArabicPlayOptions, 'onLineStart' | 'startIndex'> = {}
+): Promise<void> {
+  return playArabicLines([text], options);
+}
+
+/** True while an utterance is in flight. */
+export function isArabicSpeaking(): boolean {
+  return currentPlayer !== null;
 }

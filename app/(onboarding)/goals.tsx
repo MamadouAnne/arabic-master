@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Alert, Dimensions } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
@@ -9,10 +9,11 @@ import { useSettingsStore } from '../../src/stores/settingsStore';
 import { font, color, radius } from '../../src/theme/tokens';
 import { withAlpha } from '../../src/components/ui/Primitives';
 
-const SCREEN_WIDTH = Dimensions.get('window').width;
 const CARD_GAP = 12;
 const HORIZONTAL_PADDING = 20;
-const CARD_WIDTH = (SCREEN_WIDTH - HORIZONTAL_PADDING * 2 - CARD_GAP) / 2;
+// Two even columns. Computed from Dimensions at import before, so it kept the
+// launch width forever; a percentage tracks the container instead.
+const CARD_WIDTH = '48.5%';
 
 export default function GoalsScreen() {
   const { t } = useTranslation();

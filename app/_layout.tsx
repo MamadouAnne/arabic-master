@@ -19,6 +19,8 @@ import { revenueCatService } from '../src/services/revenueCatService';
 import { supabase, isSupabaseConfigured, safeGetSession } from '../src/lib/supabase';
 import { MiniAudioPlayer } from '../src/components/quran/MiniAudioPlayer';
 import { UpdateModal } from '../src/components/UpdateModal';
+import StopSpeechOnNavigate from '../src/components/StopSpeechOnNavigate';
+import { prewarmArabicVoice } from '../src/services/speech/arabicTTS';
 import { AppErrorBoundary } from '../src/components/AppErrorBoundary';
 import { color } from '../src/theme/tokens';
 
@@ -54,6 +56,9 @@ export default function RootLayout() {
 
   // Hard fallback: force app ready after 5s no matter what
   useEffect(() => {
+    // Resolve the best on-device Arabic voice up front so the first offline
+    // tap does not wait on the platform's voice list.
+    prewarmArabicVoice();
     const fallback = setTimeout(() => {
       setAuthReady(true);
       setUpdateComplete(true);
@@ -281,6 +286,7 @@ export default function RootLayout() {
           <Stack.Screen name="terms-of-service" />
         </Stack>
         <MiniAudioPlayer />
+        <StopSpeechOnNavigate />
         <UpdateModal />
       </GestureHandlerRootView>
     </AppErrorBoundary>
