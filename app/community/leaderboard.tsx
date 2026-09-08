@@ -9,7 +9,7 @@ import { useSettingsStore } from '../../src/stores/settingsStore';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { LeaderboardType, LeaderboardEntry } from '../../src/types/community';
 import * as communityService from '../../src/services/communityService';
-import { font, color, radius } from '../../src/theme/tokens';
+import { medal, font, color, radius } from '../../src/theme/tokens';
 
 const TAB_KEYS: { type: LeaderboardType; labelKey: string; icon: string }[] = [
   { type: 'weekly', labelKey: 'community.weekly', icon: 'calendar' },
@@ -28,9 +28,9 @@ const LeaderboardRow = memo(function LeaderboardRow({
   const { t } = useTranslation();
 
   const getRankDisplay = (rank: number) => {
-    if (rank === 1) return { emoji: '🥇', color: '#FFD700' };
-    if (rank === 2) return { emoji: '🥈', color: '#9AA5B1' };
-    if (rank === 3) return { emoji: '🥉', color: '#CD7F32' };
+    if (rank === 1) return { emoji: '🥇', color: medal.gold };
+    if (rank === 2) return { emoji: '🥈', color: color.textMuted };
+    if (rank === 3) return { emoji: '🥉', color: medal.bronze };
     return { emoji: null, color: color.textFaint };
   };
 
@@ -153,7 +153,7 @@ export default function LeaderboardScreen() {
             <Ionicons
               name={tab.icon as any}
               size={16}
-              color={currentType === tab.type ? '#ffffff' : '#64748b'}
+              color={currentType === tab.type ? color.surface : color.textMuted}
             />
             <Text style={[styles.tabText, currentType === tab.type && styles.tabTextActive]}>
               {t(tab.labelKey)}
@@ -346,17 +346,17 @@ const styles = StyleSheet.create({
   podiumGold: {
     backgroundColor: 'rgba(255, 215, 0, 0.2)',
     borderWidth: 2,
-    borderColor: '#FFD700',
+    borderColor: medal.gold,
   },
   podiumSecond: {
     backgroundColor: 'rgba(192, 192, 192, 0.2)',
     borderWidth: 2,
-    borderColor: '#9AA5B1',
+    borderColor: color.textMuted,
   },
   podiumThird: {
     backgroundColor: 'rgba(205, 127, 50, 0.2)',
     borderWidth: 2,
-    borderColor: '#CD7F32',
+    borderColor: medal.bronze,
   },
   podiumEmoji: {
     fontSize: 28,

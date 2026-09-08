@@ -383,7 +383,7 @@ export default function SurahLearnScreen() {
             <Ionicons
               name="school"
               size={18}
-              color={activeTab === 'learn' ? '#ffffff' : '#64748b'}
+              color={activeTab === 'learn' ? color.surface : color.textMuted}
             />
             <Text
               style={[
@@ -401,7 +401,7 @@ export default function SurahLearnScreen() {
             <Ionicons
               name="help-circle"
               size={18}
-              color={activeTab === 'quiz' ? '#ffffff' : '#64748b'}
+              color={activeTab === 'quiz' ? color.surface : color.textMuted}
             />
             <Text
               style={[

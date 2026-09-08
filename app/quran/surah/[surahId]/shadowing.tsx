@@ -14,7 +14,7 @@ import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 type ShadowPhase = 'listen' | 'shadow' | 'solo';
 
-const METHOD_COLOR = '#06b6d4';
+const METHOD_COLOR = color.accent;
 
 export default function ShadowingScreen() {
   const { t } = useTranslation();

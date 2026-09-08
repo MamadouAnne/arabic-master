@@ -356,7 +356,7 @@ export default function PrayerLessonScreen() {
       )}
       <View style={styles.prayerTimesContainer}>
         {block.rows.map((row, i) => {
-          const colors = ['#10b981', '#3b82f6', '#f59e0b', '#8b5cf6', '#ec4899'];
+          const colors = [tk.progress, tk.accent, tk.warning, tk.accent, tk.accent];
           const color = colors[i % colors.length];
           return (
             <View key={i} style={[styles.prayerTimeCard, { borderLeftColor: color }]}>
@@ -495,7 +495,7 @@ export default function PrayerLessonScreen() {
           <Ionicons
             name={completed ? 'checkmark-circle' : 'checkmark-circle-outline'}
             size={22}
-            color={completed ? '#10b981' : '#94a3b8'}
+            color={completed ? tk.progress : tk.textFaint}
           />
           <Text
             style={[
@@ -855,7 +855,7 @@ const styles = StyleSheet.create({
   },
   sunnahBadgeText: {
     fontSize: 9,
-    fontWeight: '800',
+    fontWeight: '700',
     color: tk.sacred,
     letterSpacing: 0.5,
   },

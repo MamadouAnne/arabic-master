@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 18,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.textOnAccent,
   },
 });

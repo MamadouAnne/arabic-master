@@ -5,7 +5,7 @@ import { useSettingsStore } from '../stores/settingsStore';
 import { ARABIC_SPEECH_SPEEDS } from '../hooks/useArabicSpeech';
 import { color, radius } from '../theme/tokens';
 
-const BRAND = '#10b981';
+const BRAND = color.progress;
 
 // A compact numbered speed selector (0.75× / 1× / 1.25× / 1.5×) that drives the
 // app-wide Arabic speech speed. Drop it in wherever a Slow/Normal toggle used to be.

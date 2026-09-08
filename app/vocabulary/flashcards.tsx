@@ -216,7 +216,7 @@ export default function FlashcardsScreen() {
                       speak(currentWord.arabicWithVowels || currentWord.arabic);
                     }}
                   >
-                    <Ionicons name="volume-high" size={28} color={isSpeaking ? "#ffffff" : "#D4AF37"} />
+                    <Ionicons name="volume-high" size={28} color={isSpeaking ? color.surface : "#D4AF37"} />
                   </Pressable>
                 </View>
                 <Text style={styles.tapHint}>{t('vocabulary.tapToReveal')}</Text>

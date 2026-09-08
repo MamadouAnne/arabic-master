@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   card: { width: '100%', backgroundColor: color.surface, borderRadius: radius.lg, borderWidth: 1, borderColor: color.border, overflow: 'hidden' },
   band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
   badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.sm },
-  badgeText: { fontSize: 10, fontWeight: '800', color: color.text, letterSpacing: 0.6 },
+  badgeText: { fontSize: 10, fontWeight: '700', color: color.text, letterSpacing: 0.6 },
   byline: { fontSize: 12, color: color.textMuted, maxWidth: 130 },
   preview: { width: '100%', overflow: 'hidden' },
   fade: { position: 'absolute', left: 0, right: 0, bottom: 0, height: 56 },

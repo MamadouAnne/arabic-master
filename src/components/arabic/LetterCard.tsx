@@ -80,7 +80,7 @@ export function LetterCard({
           <Ionicons
             name={isPlaying ? 'volume-high' : 'volume-medium'}
             size={16}
-            color={isPlaying ? '#ffffff' : color.sacred}
+            color={isPlaying ? color.surface : color.sacred}
           />
         </Pressable>
       )}
@@ -143,7 +143,7 @@ export function LetterDetail({ letter, onPlayAudio, isPlaying }: LetterDetailPro
             <Ionicons
               name={isPlaying ? 'volume-high' : 'volume-medium'}
               size={24}
-              color={isPlaying ? '#ffffff' : color.sacred}
+              color={isPlaying ? color.surface : color.sacred}
             />
           </View>
         )}

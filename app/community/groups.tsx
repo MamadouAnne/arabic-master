@@ -23,7 +23,7 @@ import { GroupTemplate } from '../../src/types/community';
 import { color, radius } from '../../src/theme/tokens';
 
 const GROUP_ICONS = ['book', 'school', 'mic', 'language', 'moon', 'star', 'people', 'flag'];
-const GROUP_COLORS = ['#10b981', '#f59e0b', '#f97316', '#818cf8', '#14b8a6', '#fb923c', '#f43e5e', '#34d399'];
+const GROUP_COLORS = [color.progress, color.warning, color.warning, color.accent, color.accent, color.warning, color.danger, color.progress];
 
 export default function StudyGroupsScreen() {
   const { t } = useTranslation();
@@ -37,7 +37,9 @@ export default function StudyGroupsScreen() {
   const [newTopic, setNewTopic] = useState('');
   const [newGoal, setNewGoal] = useState('');
   const [selectedIcon, setSelectedIcon] = useState('book');
-  const [selectedColor, setSelectedColor] = useState('#10b981');
+  // Explicitly string: seeding from a token narrows the state to that one
+  // literal, and every other colour then fails to assign.
+  const [selectedColor, setSelectedColor] = useState<string>(color.progress);
   const [isCreating, setIsCreating] = useState(false);
   const [search, setSearch] = useState('');
 
@@ -78,7 +80,7 @@ export default function StudyGroupsScreen() {
     setNewTopic('');
     setNewGoal('');
     setSelectedIcon('book');
-    setSelectedColor('#10b981');
+    setSelectedColor(color.progress);
     setShowCreateModal(false);
   };
 
@@ -255,7 +257,7 @@ export default function StudyGroupsScreen() {
                           setNewTopic('');
                           setNewGoal('');
                           setSelectedIcon('sparkles');
-                          setSelectedColor('#14b8a6');
+                          setSelectedColor(color.accent);
                         } else {
                           setNewName(t(tpl.nameKey, { defaultValue: tpl.name }));
                           setNewDesc(t(tpl.descriptionKey, { defaultValue: tpl.description }));

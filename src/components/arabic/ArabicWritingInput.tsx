@@ -23,7 +23,7 @@ export default function ArabicWritingInput({
   disabled = false,
   isCorrect = null,
   showResult = false,
-  accentColor = '#6366f1',
+  accentColor = color.accent,
 }: ArabicWritingInputProps) {
   const handleKeyPress = useCallback(
     (key: string) => {

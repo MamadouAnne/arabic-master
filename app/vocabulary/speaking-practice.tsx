@@ -307,7 +307,7 @@ export default function SpeakingPracticeScreen() {
             <Ionicons
               name={isSpeaking ? 'volume-high' : 'play'}
               size={28}
-              color={isSpeaking ? '#ffffff' : color.sacred}
+              color={isSpeaking ? color.surface : color.sacred}
             />
             <Text style={[styles.listenButtonText, isSpeaking && { color: color.text }]}>
               {isSpeaking ? t('vocabulary.playing') : hasListened ? t('vocabulary.listenAgain') : t('vocabulary.listenFirst')}

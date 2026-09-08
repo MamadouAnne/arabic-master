@@ -23,7 +23,7 @@ interface Props {
 
 export function ChatInputBar({
   isJoined, messageText, onChangeText, onSend, isSending, placeholder, joinLabel,
-  onMicPress, isRecording, editing, onCancelEdit, onCreate, groupColor = '#818cf8',
+  onMicPress, isRecording, editing, onCancelEdit, onCreate, groupColor = color.accent,
 }: Props) {
   const { t } = useTranslation();
   const hasText = !!messageText.trim();
@@ -72,7 +72,7 @@ export function ChatInputBar({
                 style={[styles.micBtn, { backgroundColor: groupColor }, isRecording && styles.micBtnRecording]}
                 onPress={onMicPress}
               >
-                <Ionicons name={isRecording ? 'stop' : 'mic'} size={20} color={isRecording ? '#ef4444' : '#ffffff'} />
+                <Ionicons name={isRecording ? 'stop' : 'mic'} size={20} color={isRecording ? color.danger : color.surface} />
               </Pressable>
             )}
           </>

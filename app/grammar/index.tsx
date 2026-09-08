@@ -41,7 +41,7 @@ const grammarLessons = lessonsData.map((lesson, i) => ({
   level: lesson.level,
   category: lesson.category,
   icon: categoryConfig[lesson.category]?.icon || 'book',
-  color: categoryConfig[lesson.category]?.color || '#6366f1',
+  color: categoryConfig[lesson.category]?.color || color.accent,
 }));
 
 export default function GrammarScreen() {

@@ -18,7 +18,7 @@ interface Props {
 }
 
 const CALLOUT_META = {
-  info: { icon: 'information-circle', color: '#38bdf8' },
+  info: { icon: 'information-circle', color: color.accent },
   tip: { icon: 'bulb', color: color.progress },
   warn: { icon: 'alert-circle', color: color.sacredBright },
 } as const;
@@ -105,10 +105,10 @@ const styles = StyleSheet.create({
   editText: { fontSize: 14, fontWeight: '600' },
   scroll: { paddingHorizontal: 22, paddingTop: 20 },
   titleAccent: { width: 44, height: 4, borderRadius: 2, marginBottom: 14 },
-  title: { fontSize: 28, fontWeight: '800', color: color.text, lineHeight: 36 },
+  title: { fontSize: 28, fontWeight: '700', color: color.text, lineHeight: 36 },
   byline: { fontSize: 13, color: color.textFaint, marginTop: 6 },
   blockWrap: { marginBottom: 14 },
-  heading: { fontSize: 20, fontWeight: '800', lineHeight: 28, marginTop: 6 },
+  heading: { fontSize: 20, fontWeight: '700', lineHeight: 28, marginTop: 6 },
   paragraph: { fontSize: 16, color: color.text, lineHeight: 26 },
   bullets: { gap: 8 },
   bulletRow: { flexDirection: 'row', alignItems: 'flex-start', gap: 10 },

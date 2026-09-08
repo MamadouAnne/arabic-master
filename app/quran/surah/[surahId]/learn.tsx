@@ -412,7 +412,7 @@ export default function LearnModeScreen() {
                 <Ionicons
                   name={getPlayIcon() as any}
                   size={18}
-                  color={audioState === 'playing' ? '#ffffff' : audioState === 'paused' ? '#f59e0b' : '#10b981'}
+                  color={audioState === 'playing' ? color.surface : audioState === 'paused' ? color.warning : color.progress}
                 />
               )}
             </Pressable>

@@ -149,7 +149,7 @@ export default function TypingPracticeScreen() {
             <Ionicons
               name={accuracy >= 80 ? 'trophy' : accuracy >= 50 ? 'thumbs-up' : 'refresh'}
               size={64}
-              color={accuracy >= 80 ? '#22c55e' : accuracy >= 50 ? color.sacred : '#ef4444'}
+              color={accuracy >= 80 ? color.progress : accuracy >= 50 ? color.sacred : color.danger}
             />
           </View>
           <Text style={styles.completeTitle}>
@@ -232,7 +232,7 @@ export default function TypingPracticeScreen() {
               style={[styles.audioButton, isSpeaking && styles.audioButtonActive]}
               onPress={() => speak(currentWord.arabicWithVowels || currentWord.arabic)}
             >
-              <Ionicons name="volume-medium" size={20} color={isSpeaking ? '#ffffff' : '#6366f1'} />
+              <Ionicons name="volume-medium" size={20} color={isSpeaking ? color.surface : color.accent} />
             </Pressable>
           </View>
         </Animated.View>
@@ -261,7 +261,7 @@ export default function TypingPracticeScreen() {
               <Ionicons
                 name={isCorrect ? 'checkmark-circle' : 'close-circle'}
                 size={24}
-                color={isCorrect ? '#22c55e' : '#ef4444'}
+                color={isCorrect ? color.progress : color.danger}
               />
               <Text style={[styles.feedbackTitle, isCorrect ? styles.feedbackTitleCorrect : styles.feedbackTitleWrong]}>
                 {isCorrect ? t('exercise.correctFeedback') : t('exercise.notQuite')}

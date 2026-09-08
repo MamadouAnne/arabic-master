@@ -32,7 +32,7 @@ const ARABIC_VOWELS = [
 const ArabicVowelText = memo(function ArabicVowelText({
   text,
   style,
-  vowelColor = '#fbbf24', // Yellow/gold color for vowels
+  vowelColor = color.warning, // Yellow/gold color for vowels
   showVowelHighlight = true,
 }: ArabicVowelTextProps) {
   if (!showVowelHighlight) {

@@ -234,7 +234,7 @@ export default function DuaDetailScreen() {
                   <Ionicons
                     name={voiceGender === 'female' ? 'woman' : 'man'}
                     size={18}
-                    color={voiceGender === 'female' ? '#ec4899' : '#3b82f6'}
+                    color={voiceGender === 'female' ? color.accent : color.accent}
                   />
                   <Text style={[styles.voiceText, voiceGender === 'female' ? styles.voiceTextFemale : styles.voiceTextMale]}>
                     {voiceGender === 'female' ? t('duasFeature.female') : t('duasFeature.male')}
@@ -337,7 +337,7 @@ export default function DuaDetailScreen() {
           <Ionicons
             name={memorized ? 'checkmark-circle' : 'checkmark-circle-outline'}
             size={22}
-            color={memorized ? '#10b981' : '#94a3b8'}
+            color={memorized ? color.progress : color.textFaint}
           />
           <Text
             style={[

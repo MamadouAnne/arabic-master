@@ -42,7 +42,7 @@ export function HadithSourceCard({ source }: HadithSourceCardProps) {
   const { lc } = useLocalizedContent();
   const { t } = useTranslation();
   const collectionName = COLLECTION_NAMES[source.collection];
-  const gradeColor = source.grade ? GRADE_COLORS[source.grade] : '#64748b';
+  const gradeColor = source.grade ? GRADE_COLORS[source.grade] : color.textMuted;
   const gradeLabel = source.grade ? GRADE_LABELS[source.grade] : null;
 
   return (

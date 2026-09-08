@@ -430,7 +430,7 @@ export default function WritingExerciseScreen() {
               <Ionicons
                 name="eye-off"
                 size={18}
-                color={writingMode === 'hints_only' ? '#ffffff' : '#64748b'}
+                color={writingMode === 'hints_only' ? color.surface : color.textMuted}
               />
               <Text style={[styles.modeText, writingMode === 'hints_only' && styles.modeTextActive]}>
                 {t('surahWrite.fromMemory')}
@@ -443,7 +443,7 @@ export default function WritingExerciseScreen() {
               <Ionicons
                 name="eye"
                 size={18}
-                color={writingMode === 'with_reference' ? '#ffffff' : '#64748b'}
+                color={writingMode === 'with_reference' ? color.surface : color.textMuted}
               />
               <Text style={[styles.modeText, writingMode === 'with_reference' && styles.modeTextActive]}>
                 {t('surahWrite.showAyah')}
@@ -958,7 +958,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   textDisplayPlaceholder: {
-    color: '#4b5563',
+    color: color.textMuted,
     fontSize: 22,
     lineHeight: 40,
     textAlign: 'right',

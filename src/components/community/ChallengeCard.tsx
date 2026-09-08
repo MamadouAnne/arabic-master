@@ -134,7 +134,7 @@ export const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge }) => {
         <Ionicons
           name={challenge.isCompleted ? 'checkmark-circle' : 'arrow-forward-circle'}
           size={18}
-          color={challenge.isCompleted ? '#22c55e' : '#ffffff'}
+          color={challenge.isCompleted ? color.progress : color.surface}
           style={styles.actionIcon}
         />
         <Text style={[styles.actionText, challenge.isCompleted && styles.actionTextCompleted]}>

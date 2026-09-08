@@ -279,7 +279,7 @@ const readingContent: Record<string, {
     titleArabic: 'قِيمَةُ الْوَقْت',
     level: 'advanced',
     icon: '⏳',
-    color: '#f43f5e',
+    color: tk.danger,
     paragraphs: [
       { arabic: 'الْوَقْتُ مِنْ أَثْمَنِ مَا يَمْلِكُهُ الْإِنْسَان.', english: 'Time is among the most precious things a person owns.', french: 'Le temps est l\'une des choses les plus précieuses que l\'on possède.' },
       { arabic: 'فَالدَّقِيقَةُ الَّتِي تَمْضِي لَا تَعُودُ أَبَدًا.', english: 'The minute that passes never returns.', french: 'La minute qui passe ne revient jamais.' },

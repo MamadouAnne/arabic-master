@@ -157,7 +157,7 @@ export default function TajweedLearnScreen() {
             <Ionicons
               name="school"
               size={18}
-              color={activeTab === 'learn' ? '#ffffff' : '#64748b'}
+              color={activeTab === 'learn' ? color.surface : color.textMuted}
             />
             <Text
               style={[
@@ -175,7 +175,7 @@ export default function TajweedLearnScreen() {
             <Ionicons
               name="help-circle"
               size={18}
-              color={activeTab === 'quiz' ? '#ffffff' : '#64748b'}
+              color={activeTab === 'quiz' ? color.surface : color.textMuted}
             />
             <Text
               style={[
@@ -230,7 +230,7 @@ export default function TajweedLearnScreen() {
                 const rules = getTajweedRulesByCategory(category);
                 const categoryArabic = CATEGORY_ARABIC[category] || '';
                 const categoryI18nKey = CATEGORY_I18N_KEYS[category];
-                const categoryColor = TAJWEED_CATEGORY_COLORS[category as keyof typeof TAJWEED_CATEGORY_COLORS] || '#64748b';
+                const categoryColor = TAJWEED_CATEGORY_COLORS[category as keyof typeof TAJWEED_CATEGORY_COLORS] || color.textMuted;
 
                 return (
                   <View key={category} style={styles.categorySection}>

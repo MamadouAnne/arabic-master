@@ -23,7 +23,7 @@ import { GroupTemplate } from '../../types/community';
 import { color, radius } from '../../theme/tokens';
 
 const GROUP_ICONS = ['book', 'school', 'mic', 'language', 'moon', 'star', 'people', 'flag'];
-const GROUP_COLORS = ['#10b981', '#f59e0b', '#f97316', '#818cf8', '#14b8a6', '#fb923c', '#f43e5e', '#34d399'];
+const GROUP_COLORS = [color.progress, color.warning, color.warning, color.accent, color.accent, color.warning, color.danger, color.progress];
 
 export function GroupsTab() {
   const { t } = useTranslation();
@@ -36,7 +36,7 @@ export function GroupsTab() {
   const [newTopic, setNewTopic] = useState('');
   const [newGoal, setNewGoal] = useState('');
   const [selectedIcon, setSelectedIcon] = useState('book');
-  const [selectedColor, setSelectedColor] = useState('#10b981');
+  const [selectedColor, setSelectedColor] = useState<string>(color.progress);
   const [isCreating, setIsCreating] = useState(false);
   const [search, setSearch] = useState('');
 
@@ -77,7 +77,7 @@ export function GroupsTab() {
     setNewTopic('');
     setNewGoal('');
     setSelectedIcon('book');
-    setSelectedColor('#10b981');
+    setSelectedColor(color.progress);
     setShowCreateModal(false);
   };
 
@@ -242,7 +242,7 @@ export function GroupsTab() {
                           setNewTopic('');
                           setNewGoal('');
                           setSelectedIcon('sparkles');
-                          setSelectedColor('#14b8a6');
+                          setSelectedColor(color.accent);
                         } else {
                           setNewName(t(tpl.nameKey, { defaultValue: tpl.name }));
                           setNewDesc(t(tpl.descriptionKey, { defaultValue: tpl.description }));

@@ -139,7 +139,7 @@ export default function StoriesScreen() {
           <Ionicons
             name="person"
             size={18}
-            color={activeTab === 'prophets' ? '#8b5cf6' : '#64748b'}
+            color={activeTab === 'prophets' ? color.accent : color.textMuted}
           />
           <Text style={[styles.tabText, activeTab === 'prophets' && styles.activeTabText]}>
             {t('storiesFeature.prophets')}
@@ -157,7 +157,7 @@ export default function StoriesScreen() {
           <Ionicons
             name="book"
             size={18}
-            color={activeTab === 'other' ? '#8b5cf6' : '#64748b'}
+            color={activeTab === 'other' ? color.accent : color.textMuted}
           />
           <Text style={[styles.tabText, activeTab === 'other' && styles.activeTabText]}>
             {t('storiesFeature.otherStories')}

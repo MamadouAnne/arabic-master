@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     borderColor: color.border,
   },
   numberTopRow: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 6 },
-  numberDigit: { fontSize: 22, fontWeight: '800', color: color.sacred },
+  numberDigit: { fontSize: 22, fontWeight: '700', color: color.sacred },
   numberValue: { fontSize: 13, color: color.textFaint, fontWeight: '600' },
   numberArabic: {
     fontFamily: font.arabic, fontSize: 32, lineHeight: 52, color: color.text, textAlign: 'right' },
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   ruleAccent: { position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, backgroundColor: color.sacred },
-  ruleTitle: { fontSize: 15, fontWeight: '800', color: color.sacred, marginBottom: 6 },
+  ruleTitle: { fontSize: 15, fontWeight: '700', color: color.sacred, marginBottom: 6 },
   ruleText: { fontSize: 14, color: color.text, lineHeight: 22 },
 
   // Examples

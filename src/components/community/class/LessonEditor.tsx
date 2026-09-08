@@ -197,10 +197,10 @@ export function LessonEditor({ visible, groupColor, initial, onSave, onClose }: 
               <Pressable key={m} style={styles.formatBtn} onPress={() => applyFormat(m)}>
                 <Text style={[
                   styles.formatBtnText,
-                  m === 'bold' && { fontWeight: '900' },
+                  m === 'bold' && { fontWeight: '700' },
                   m === 'italic' && { fontStyle: 'italic' },
                   m === 'underline' && { textDecorationLine: 'underline' },
-                  m === 'highlight' && { backgroundColor: 'rgba(250,204,21,0.3)', color: '#fde68a', paddingHorizontal: 4, borderRadius: 3 },
+                  m === 'highlight' && { backgroundColor: 'rgba(250,204,21,0.3)', color: color.warning, paddingHorizontal: 4, borderRadius: 3 },
                 ]}>{lbl}</Text>
               </Pressable>
             ))}
@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
   saveBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
   saveText: { color: color.text, fontWeight: '700', fontSize: 14 },
   scroll: { padding: 16 },
-  titleInput: { fontSize: 24, fontWeight: '800', color: color.text, paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 16 },
+  titleInput: { fontSize: 24, fontWeight: '700', color: color.text, paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: color.borderSubtle, marginBottom: 16 },
   block: { backgroundColor: color.surface, borderRadius: radius.md, borderWidth: 1, borderColor: color.borderSubtle, padding: 10, marginBottom: 12 },
   blockBar: { flexDirection: 'row', alignItems: 'center', gap: 12, marginBottom: 6 },
   blockType: { fontSize: 11, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },

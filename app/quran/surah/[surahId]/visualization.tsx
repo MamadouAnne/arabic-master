@@ -19,7 +19,7 @@ import { withAlpha } from '../../../../src/components/ui/Primitives';
 
 type VisualizationMode = 'study' | 'review';
 
-const METHOD_COLOR = '#3b82f6';
+const METHOD_COLOR = color.accent;
 
 // ============ Anchor Word Chip ============
 
@@ -220,7 +220,7 @@ export default function VisualizationScreen() {
             <Ionicons
               name="book-outline"
               size={16}
-              color={vizMode === 'study' ? '#ffffff' : '#94a3b8'}
+              color={vizMode === 'study' ? color.surface : color.textFaint}
             />
             <Text style={[styles.modePillText, vizMode === 'study' && styles.modePillTextActive]}>
               {t('visualization.modeStudy')}
@@ -240,7 +240,7 @@ export default function VisualizationScreen() {
             <Ionicons
               name="refresh-outline"
               size={16}
-              color={vizMode === 'review' ? '#ffffff' : '#94a3b8'}
+              color={vizMode === 'review' ? color.surface : color.textFaint}
             />
             <Text style={[styles.modePillText, vizMode === 'review' && styles.modePillTextActive]}>
               {t('visualization.modeReview')}
@@ -403,8 +403,8 @@ export default function VisualizationScreen() {
                 style={[styles.ratingButton, styles.ratingNo]}
                 onPress={() => handleRate(1)}
               >
-                <Ionicons name="close-circle-outline" size={22} color="#fb7185" />
-                <Text style={[styles.ratingButtonText, { color: '#fb7185' }]}>
+                <Ionicons name="close-circle-outline" size={22} color={color.danger} />
+                <Text style={[styles.ratingButtonText, { color: color.danger }]}>
                   {t('visualization.recallNo')}
                 </Text>
               </Pressable>
@@ -816,8 +816,8 @@ const styles = StyleSheet.create({
     borderColor: withAlpha(color.sacredBright, 0.19),
   },
   ratingNo: {
-    backgroundColor: withAlpha('#fb7185', 0.12),
-    borderColor: withAlpha('#fb7185', 0.3),
+    backgroundColor: withAlpha(color.danger, 0.12),
+    borderColor: withAlpha(color.danger, 0.3),
   },
   ratingButtonText: {
     fontSize: 12,

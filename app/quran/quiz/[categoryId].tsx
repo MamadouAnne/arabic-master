@@ -331,7 +331,7 @@ export default function QuizScreen() {
                 <Ionicons
                   name={passed ? 'trophy' : 'refresh'}
                   size={40}
-                  color={passed ? '#10b981' : '#ef4444'}
+                  color={passed ? color.progress : color.danger}
                 />
               </View>
 
@@ -347,8 +347,8 @@ export default function QuizScreen() {
                 )}
               </View>
 
-              <View style={[styles.scoreCircle, { borderColor: passed ? '#10b981' : '#ef4444' }]}>
-                <Text style={[styles.scorePercentage, { color: passed ? '#10b981' : '#ef4444' }]}>{percentage}%</Text>
+              <View style={[styles.scoreCircle, { borderColor: passed ? color.progress : color.danger }]}>
+                <Text style={[styles.scorePercentage, { color: passed ? color.progress : color.danger }]}>{percentage}%</Text>
                 <Text style={styles.scoreLabel}>{passed ? t('quranQuiz.passed') : `${t('quranQuiz.need')} ${PASSING_SCORE}%`}</Text>
               </View>
 
@@ -385,7 +385,7 @@ export default function QuizScreen() {
                       disabled={!passed}
                     >
                       <Text style={[styles.nextSetBtnText, !passed && styles.nextSetBtnTextDisabled]}>{t('common.next')}</Text>
-                      <Ionicons name="arrow-forward" size={16} color={passed ? '#ffffff' : '#64748b'} />
+                      <Ionicons name="arrow-forward" size={16} color={passed ? color.surface : color.textMuted} />
                     </Pressable>
                   )}
                 </View>
@@ -458,7 +458,7 @@ export default function QuizScreen() {
                       <Ionicons
                         name={isAnswerCorrect ? 'checkmark-circle' : 'close-circle'}
                         size={20}
-                        color={isAnswerCorrect ? '#10b981' : '#ef4444'}
+                        color={isAnswerCorrect ? color.progress : color.danger}
                       />
                     </View>
 
@@ -547,7 +547,7 @@ export default function QuizScreen() {
                     disabled={!passed}
                   >
                     <Text style={[styles.nextSetButtonText, !passed && styles.nextSetButtonTextDisabled]}>{t('common.next')}</Text>
-                    <Ionicons name="arrow-forward" size={16} color={passed ? '#ffffff' : '#64748b'} />
+                    <Ionicons name="arrow-forward" size={16} color={passed ? color.surface : color.textMuted} />
                   </Pressable>
                 )}
               </View>
@@ -625,7 +625,7 @@ export default function QuizScreen() {
                   <Ionicons
                     name={isSpeaking && playingText === currentQuestion.questionArabic ? 'stop' : 'volume-high'}
                     size={12}
-                    color={isSpeaking && playingText === currentQuestion.questionArabic ? '#ffffff' : '#10b981'}
+                    color={isSpeaking && playingText === currentQuestion.questionArabic ? color.surface : color.progress}
                   />
                 </Pressable>
               </View>
@@ -687,7 +687,7 @@ export default function QuizScreen() {
                               <Ionicons
                                 name={isSpeaking && playingText === option ? 'stop' : 'volume-high'}
                                 size={10}
-                                color={isSpeaking && playingText === option ? '#ffffff' : '#10b981'}
+                                color={isSpeaking && playingText === option ? color.surface : color.progress}
                               />
                             </Pressable>
                           )}

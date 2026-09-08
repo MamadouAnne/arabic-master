@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { color, radius } from '../../theme/tokens';
+import { medal, color, radius } from '../../theme/tokens';
 
 export interface LeaderboardEntry {
   userId: string;
@@ -59,7 +59,7 @@ export function GroupLeaderboard({ entries, groupColor, currentUserId }: Props) 
         <View style={styles.podium}>
           {podiumOrder.map((entry, idx) => {
             const rank = idx === 0 ? 2 : idx === 1 ? 1 : 3;
-            const medalColors = ['', '#f59e0b', '#c0c0c0', '#cd7f32'];
+            const medalColors = ['', medal.gold, medal.silver, medal.bronze];
             return (
               <View key={entry.userId} style={styles.podiumItem}>
                 <View style={[styles.podiumAvatar, rank === 1 && { borderColor: color.warning, borderWidth: 2, width: 52, height: 52, borderRadius: 26 }]}>
@@ -114,12 +114,12 @@ const styles = StyleSheet.create({
   podiumAvatar: { width: 44, height: 44, borderRadius: radius.xl, backgroundColor: color.surfaceRaised, alignItems: 'center', justifyContent: 'center', marginBottom: 6 },
   podiumAvatarText: { fontSize: 18, fontWeight: '700', color: color.text },
   medalBadge: { borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 2, marginBottom: 4 },
-  medalText: { fontSize: 11, fontWeight: '800' },
+  medalText: { fontSize: 11, fontWeight: '700' },
   podiumName: { fontSize: 12, fontWeight: '600', color: color.text, marginBottom: 2, maxWidth: 80, textAlign: 'center' },
   podiumValue: { fontSize: 11, color: color.textMuted, fontWeight: '600', marginBottom: 6 },
   podiumBar: { width: '80%', borderTopLeftRadius: 8, borderTopRightRadius: 8 },
   rankRow: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: color.surface, borderRadius: radius.md, padding: 12, marginBottom: 6, borderWidth: 1, borderColor: color.border },
-  rankNum: { fontSize: 14, fontWeight: '800', color: color.textFaint, width: 30, textAlign: 'center' },
+  rankNum: { fontSize: 14, fontWeight: '700', color: color.textFaint, width: 30, textAlign: 'center' },
   rankAvatar: { width: 36, height: 36, borderRadius: radius.lg, backgroundColor: color.surfaceRaised, alignItems: 'center', justifyContent: 'center' },
   rankAvatarText: { fontSize: 15, fontWeight: '700', color: color.text },
   rankInfo: { flex: 1 },

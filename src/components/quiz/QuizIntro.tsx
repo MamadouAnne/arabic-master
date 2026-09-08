@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
 
   title: {
     fontSize: 30,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.text,
     textAlign: 'center',
     letterSpacing: 0.2,
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
   },
   statValue: {
     fontSize: 26,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.text,
   },
   statValueGold: {
@@ -302,7 +302,7 @@ const styles = StyleSheet.create({
   },
   startButtonText: {
     fontSize: 18,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.textOnAccent,
   },
 });

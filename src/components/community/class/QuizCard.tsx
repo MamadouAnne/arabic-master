@@ -117,7 +117,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                           <Ionicons
                             name={revealCorrect ? 'checkmark-circle' : revealWrong ? 'close-circle' : selected ? 'radio-button-on' : 'radio-button-off'}
                             size={18}
-                            color={revealCorrect ? '#10b981' : revealWrong ? '#ef4444' : selected ? groupColor: color.textFaint}
+                            color={revealCorrect ? color.progress : revealWrong ? color.danger : selected ? groupColor: color.textFaint}
                           />
                           <Text style={styles.optText}>{renderRichText(opt)}</Text>
                         </Pressable>
@@ -136,7 +136,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
 
                   {submitted && q.explanation ? (
                     <View style={styles.explBox}>
-                      <Ionicons name="information-circle" size={14} color="#38bdf8" />
+                      <Ionicons name="information-circle" size={14} color={color.accent} />
                       <Text style={styles.explText}>{q.explanation}</Text>
                     </View>
                   ) : null}
@@ -153,8 +153,8 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                 <Text style={styles.submitText}>{t('community.submitAnswers')}</Text>
               </Pressable>
             ) : (
-              <View style={[styles.scoreBox, { borderColor: passed ? '#10b981' : '#f59e0b' }]}>
-                <Ionicons name={passed ? 'trophy' : 'ribbon'} size={20} color={passed ? '#10b981' : '#f59e0b'} />
+              <View style={[styles.scoreBox, { borderColor: passed ? color.progress : color.warning }]}>
+                <Ionicons name={passed ? 'trophy' : 'ribbon'} size={20} color={passed ? color.progress : color.warning} />
                 <Text style={styles.scoreText}>{t('community.youScored', { score })}{passed ? t('community.passedSuffix') : ''}</Text>
               </View>
             )}
@@ -177,7 +177,7 @@ export const QuizCard = React.memo(function QuizCard({ messageId, groupId, quiz,
                 {responses.map((r) => (
                   <View key={r.id} style={styles.resultRow}>
                     <Text style={styles.resultName} numberOfLines={1}>{r.user_name}</Text>
-                    <Text style={[styles.resultScore, { color: (r.score || 0) >= quiz.passingScore ? '#10b981' : '#f59e0b' }]}>{r.score}%</Text>
+                    <Text style={[styles.resultScore, { color: (r.score || 0) >= quiz.passingScore ? color.progress : color.warning }]}>{r.score}%</Text>
                   </View>
                 ))}
               </View>
@@ -192,10 +192,10 @@ const styles = StyleSheet.create({
   card: { width: '100%', backgroundColor: color.surface, borderRadius: radius.lg, borderWidth: 1, borderColor: color.border, overflow: 'hidden' },
   band: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 12, paddingVertical: 8 },
   badge: { flexDirection: 'row', alignItems: 'center', gap: 5, paddingHorizontal: 8, paddingVertical: 3, borderRadius: radius.sm },
-  badgeText: { fontSize: 10, fontWeight: '800', color: color.text, letterSpacing: 0.6 },
+  badgeText: { fontSize: 10, fontWeight: '700', color: color.text, letterSpacing: 0.6 },
   byline: { fontSize: 12, color: color.textMuted, maxWidth: 130 },
   body: { padding: 14 },
-  title: { fontSize: 18, fontWeight: '800', color: color.text, marginBottom: 12 },
+  title: { fontSize: 18, fontWeight: '700', color: color.text, marginBottom: 12 },
   question: { marginBottom: 16 },
   prompt: { fontSize: 15, fontWeight: '600', color: color.text, lineHeight: 22, marginBottom: 8 },
   option: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 12, paddingVertical: 10, borderRadius: radius.sm, borderWidth: 1, borderColor: color.border, backgroundColor: color.bg, marginBottom: 6 },

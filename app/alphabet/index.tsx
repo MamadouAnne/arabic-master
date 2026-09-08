@@ -27,11 +27,11 @@ export default function AlphabetScreen() {
   const getStatusColor = (status: string) => {
     switch (status) {
       case 'mastered':
-        return '#22c55e';
+        return color.progress;
       case 'learned':
         return color.sacred;
       default:
-        return '#6366f1';
+        return color.accent;
     }
   };
 

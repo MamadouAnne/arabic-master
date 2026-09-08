@@ -139,7 +139,7 @@ const readingTexts = [
     level: 'advanced',
     wordCount: 70,
     preview: 'الْوَقْتُ مِنْ أَثْمَنِ مَا يَمْلِكُهُ الْإِنْسَان...',
-    color: '#f43f5e',
+    color: color.danger,
     icon: '⏳',
   },
 ];

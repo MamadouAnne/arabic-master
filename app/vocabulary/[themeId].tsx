@@ -343,7 +343,7 @@ export default function ThemeDetailScreen() {
                           backgroundColor: word.gender === 'masculine' ? '#3b82f620' : '#ec489920'
                         }]}>
                           <Text style={[styles.genderBadgeText, {
-                            color: word.gender === 'masculine' ? '#3b82f6' : '#ec4899'
+                            color: word.gender === 'masculine' ? color.accent : color.accent
                           }]}>
                             {word.gender === 'masculine' ? 'm' : 'f'}
                           </Text>
@@ -355,7 +355,7 @@ export default function ThemeDetailScreen() {
                         <Ionicons
                           name={status === 'mastered' ? 'star' : 'checkmark-circle'}
                           size={16}
-                          color={status === 'mastered' ? '#10b981' : color.sacred}
+                          color={status === 'mastered' ? color.progress : color.sacred}
                         />
                       )}
                     </View>

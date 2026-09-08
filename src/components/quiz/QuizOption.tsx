@@ -24,8 +24,8 @@ interface QuizOptionProps {
 }
 
 const GOLD = color.sacred;
-const GREEN = '#22c55e';
-const RED = '#ef4444';
+const GREEN = color.progress;
+const RED = color.danger;
 
 /**
  * Shared multiple-choice option card used across every quiz and exercise so

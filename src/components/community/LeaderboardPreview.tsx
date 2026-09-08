@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { LeaderboardEntry, LeaderboardType } from '../../types/community';
-import { color, radius } from '../../theme/tokens';
+import { medal, color, radius } from '../../theme/tokens';
 
 const TAB_KEYS: { type: LeaderboardType; labelKey: string; icon: string }[] = [
   { type: 'allTime', labelKey: 'community.allTime', icon: 'trophy' },
@@ -22,9 +22,9 @@ const InlineLeaderboardRow = memo(function InlineLeaderboardRow({
   const { t } = useTranslation();
 
   const getRankDisplay = (rank: number) => {
-    if (rank === 1) return { emoji: '🥇', color: '#FFD700' };
-    if (rank === 2) return { emoji: '🥈', color: '#C0C0C0' };
-    if (rank === 3) return { emoji: '🥉', color: '#CD7F32' };
+    if (rank === 1) return { emoji: '🥇', color: medal.gold };
+    if (rank === 2) return { emoji: '🥈', color: medal.silver };
+    if (rank === 3) return { emoji: '🥉', color: medal.bronze };
     return { emoji: null, color: color.textFaint };
   };
 

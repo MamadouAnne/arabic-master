@@ -135,7 +135,7 @@ export default function WritingPracticeScreen() {
             <Ionicons
               name={showGuide ? 'eye' : 'eye-off'}
               size={20}
-              color={showGuide ? '#ffffff' : '#94a3b8'}
+              color={showGuide ? color.surface : color.textFaint}
             />
           </Pressable>
         </View>
@@ -160,7 +160,7 @@ export default function WritingPracticeScreen() {
             style={[styles.audioButton, isSpeaking && styles.audioButtonActive]}
             onPress={() => speak(currentLetter.letter)}
           >
-            <Ionicons name="volume-high" size={24} color={isSpeaking ? "#ffffff" : "#D4AF37"} />
+            <Ionicons name="volume-high" size={24} color={isSpeaking ? color.surface : "#D4AF37"} />
           </Pressable>
         </View>
 
@@ -180,7 +180,7 @@ export default function WritingPracticeScreen() {
                   <Path
                     key={index}
                     d={path}
-                    stroke="#6366f1"
+                    stroke={color.accent}
                     strokeWidth={8}
                     fill="none"
                     strokeLinecap="round"
@@ -191,7 +191,7 @@ export default function WritingPracticeScreen() {
                 {currentPath && (
                   <Path
                     d={currentPath}
-                    stroke="#6366f1"
+                    stroke={color.accent}
                     strokeWidth={8}
                     fill="none"
                     strokeLinecap="round"

@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
   card: { backgroundColor: color.surface, borderRadius: radius.xl, padding: 18, borderWidth: 1, borderColor: color.border },
   header: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 14 },
   badge: { width: 34, height: 34, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center' },
-  title: { flex: 1, fontSize: 17, fontWeight: '800', color: color.text },
+  title: { flex: 1, fontSize: 17, fontWeight: '700', color: color.text },
   sourceRow: { flexDirection: 'row', gap: 8, marginBottom: 12 },
   sourceBtn: { flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 5, paddingVertical: 10, borderRadius: radius.md, backgroundColor: color.bg, borderWidth: 1.5, borderColor: 'transparent' },
   sourceText: { fontSize: 12.5, fontWeight: '600', color: color.textMuted },
@@ -167,6 +167,6 @@ const styles = StyleSheet.create({
   levelPill: { flex: 1, alignItems: 'center', paddingVertical: 8, borderRadius: radius.sm, backgroundColor: color.bg, borderWidth: 1.5, borderColor: 'transparent' },
   pillText: { fontSize: 13, fontWeight: '700', color: color.textMuted },
   generateBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8, paddingVertical: 13, borderRadius: radius.md, marginTop: 18 },
-  generateText: { color: color.text, fontWeight: '800', fontSize: 15 },
+  generateText: { color: color.text, fontWeight: '700', fontSize: 15 },
   hint: { fontSize: 11, color: color.textFaint, textAlign: 'center', marginTop: 10 },
 });

@@ -441,7 +441,7 @@ export default function GrammarLessonScreen() {
                   <Ionicons
                     name={isWritingCorrect ? "checkmark-circle" : "close-circle"}
                     size={24}
-                    color={isWritingCorrect ? "#22c55e" : "#ef4444"}
+                    color={isWritingCorrect ? color.progress : color.danger}
                   />
                   <View style={styles.writingResultContent}>
                     <Text style={[
@@ -493,7 +493,7 @@ export default function GrammarLessonScreen() {
                   <Ionicons
                     name={isWritingCorrect ? "checkmark-circle" : "close-circle"}
                     size={24}
-                    color={isWritingCorrect ? "#22c55e" : "#ef4444"}
+                    color={isWritingCorrect ? color.progress : color.danger}
                   />
                   <View style={styles.writingResultContent}>
                     <Text style={[
@@ -636,13 +636,13 @@ export default function GrammarLessonScreen() {
               /* Letters Grid for Sun/Moon letters */
               <View style={[
                 styles.lettersGridCard,
-                { borderColor: section.letterType === 'sun' ? '#f59e0b' : '#3b82f6' }
+                { borderColor: section.letterType === 'sun' ? color.warning : color.accent }
               ]}>
                 <View style={styles.lettersGridHeader}>
                   <Ionicons
                     name={section.letterType === 'sun' ? 'sunny' : 'moon'}
                     size={24}
-                    color={section.letterType === 'sun' ? '#f59e0b' : '#3b82f6'}
+                    color={section.letterType === 'sun' ? color.warning : color.accent}
                   />
                 </View>
                 <View style={styles.lettersGrid}>
@@ -657,7 +657,7 @@ export default function GrammarLessonScreen() {
                     >
                       <Text style={[
                         styles.letterText,
-                        { color: section.letterType === 'sun' ? '#f59e0b' : '#3b82f6' }
+                        { color: section.letterType === 'sun' ? color.warning : color.accent }
                       ]}>{letter}</Text>
                     </Pressable>
                   ))}
@@ -697,20 +697,20 @@ export default function GrammarLessonScreen() {
                   ]}>
                     <View style={[
                       styles.highlightedCardBorder,
-                      { backgroundColor: section.itemType === 'rule' ? '#10b981' : '#f59e0b' }
+                      { backgroundColor: section.itemType === 'rule' ? color.progress : color.warning }
                     ]} />
                     <View style={styles.highlightedCardContent}>
                       <View style={styles.highlightedCardHeader}>
                         <Ionicons
                           name={section.itemType === 'rule' ? 'bookmark' : 'bulb'}
                           size={20}
-                          color={section.itemType === 'rule' ? '#10b981' : '#f59e0b'}
+                          color={section.itemType === 'rule' ? color.progress : color.warning}
                         />
                       </View>
                       <HighlightedText
                         text={lc(section.content, section.contentFr)}
                         style={styles.highlightedCardText}
-                        highlightColor={section.itemType === 'rule' ? '#10b981' : '#f59e0b'}
+                        highlightColor={section.itemType === 'rule' ? color.progress : color.warning}
                       />
                       {section.arabicDescription && (
                         <View>
@@ -723,13 +723,13 @@ export default function GrammarLessonScreen() {
                           >
                             <Text style={[
                               styles.arabicDescriptionText,
-                              { color: section.itemType === 'rule' ? '#10b981' : '#f59e0b' }
+                              { color: section.itemType === 'rule' ? color.progress : color.warning }
                             ]}>{section.arabicDescription}</Text>
                             <View style={styles.audioBtn}>
                               <Ionicons
                                 name="volume-medium"
                                 size={18}
-                                color={section.itemType === 'rule' ? '#10b981' : '#f59e0b'}
+                                color={section.itemType === 'rule' ? color.progress : color.warning}
                               />
                             </View>
                           </Pressable>
@@ -1231,7 +1231,7 @@ const styles = StyleSheet.create({
   completeButtonText: {
     color: color.textOnAccent,
     fontSize: 17,
-    fontWeight: '800',
+    fontWeight: '700',
   },
   completeButtonDone: {
     backgroundColor: color.surface,

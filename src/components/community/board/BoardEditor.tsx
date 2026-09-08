@@ -44,7 +44,7 @@ const SHAPES: { tool: Tool; icon: string; label: string }[] = [
   { tool: 'circle', icon: 'ellipse-outline', label: 'Circle' },
 ];
 const SIZES = [{ v: 3, label: 'S' }, { v: 6, label: 'M' }, { v: 11, label: 'L' }];
-const PALETTE = ['#14261C', '#f8fafc', '#ef4444', '#f97316', '#facc15', '#22c55e', '#38bdf8', '#a855f7'];
+const PALETTE = [tk.text, tk.surface, tk.danger, tk.warning, tk.warning, tk.progress, tk.accent, tk.accent];
 const WIDTHS = [3, 6, 11];
 const BACKGROUNDS: BoardBackground[] = ['cream', 'white', 'chalk', 'dark'];
 
@@ -748,14 +748,14 @@ const styles = StyleSheet.create({
   headerTitle: { flex: 1, fontSize: 17, fontWeight: '700', color: tk.text },
   iconBtn: { width: 36, height: 34, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center', backgroundColor: tk.surface, borderWidth: 1, borderColor: tk.border, marginRight: 8 },
   aiBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, paddingHorizontal: 10, paddingVertical: 7, borderRadius: radius.md, backgroundColor: tk.surface, borderWidth: 1, borderColor: tk.border, marginRight: 8 },
-  aiBtnText: { fontWeight: '800', fontSize: 13 },
+  aiBtnText: { fontWeight: '700', fontSize: 13 },
   buildBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 18, paddingVertical: 11, borderRadius: radius.md, backgroundColor: tk.surface, borderWidth: 1, borderColor: tk.border },
   buildText: { color: tk.textMuted, fontWeight: '700', fontSize: 14 },
   postBtn: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.md },
   postText: { color: tk.text, fontWeight: '700', fontSize: 14 },
   emptyState: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, alignItems: 'center', justifyContent: 'center', gap: 12 },
   draftBtn: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingHorizontal: 20, paddingVertical: 13, borderRadius: radius.lg, shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 8, shadowOffset: { width: 0, height: 3 }, elevation: 5 },
-  draftText: { color: tk.text, fontWeight: '800', fontSize: 15 },
+  draftText: { color: tk.text, fontWeight: '700', fontSize: 15 },
   emptyHint: { fontSize: 12.5, color: tk.textFaint },
   canvasWrap: { flex: 1, overflow: 'hidden' },
   // Bottom panel
@@ -780,7 +780,7 @@ const styles = StyleSheet.create({
   swatchActive: { borderColor: tk.text, transform: [{ scale: 1.18 }] },
   sizeGroup: { flexDirection: 'row', gap: 4, backgroundColor: tk.surface, borderRadius: radius.md, padding: 3 },
   sizeBtn: { width: 34, height: 30, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center' },
-  sizeText: { fontSize: 14, fontWeight: '800', color: tk.textMuted },
+  sizeText: { fontSize: 14, fontWeight: '700', color: tk.textMuted },
   actionsRow: { flexDirection: 'row', justifyContent: 'space-around', paddingHorizontal: 8, paddingTop: 2, paddingBottom: 6 },
   action: { alignItems: 'center', gap: 3, paddingHorizontal: 8, paddingVertical: 4 },
   actionText: { fontSize: 11, fontWeight: '600', color: tk.textMuted },
@@ -792,7 +792,7 @@ const styles = StyleSheet.create({
   textBar: { flexDirection: 'row', alignItems: 'center', gap: 8, backgroundColor: tk.bg, borderTopWidth: 1, borderTopColor: tk.borderSubtle, paddingHorizontal: 12, paddingVertical: 10 },
   textBarSwatches: { flex: 1 },
   stepBtn: { width: 38, height: 34, borderRadius: radius.sm, backgroundColor: tk.surface, alignItems: 'center', justifyContent: 'center', borderWidth: 1, borderColor: tk.border },
-  stepVal: { fontSize: 15, fontWeight: '800', color: tk.text, minWidth: 30, textAlign: 'center', fontVariant: ['tabular-nums'] },
+  stepVal: { fontSize: 15, fontWeight: '700', color: tk.text, minWidth: 30, textAlign: 'center', fontVariant: ['tabular-nums'] },
   textCancel: { fontSize: 15, color: tk.textMuted, fontWeight: '600' },
   textAdd: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: radius.sm },
   textAddText: { color: tk.text, fontWeight: '700' },

@@ -116,7 +116,7 @@ export function DiscussionsTab() {
                 <Ionicons
                   name={cat.icon as any}
                   size={14}
-                  color={isActive ? '#ffffff' : cat.color}
+                  color={isActive ? color.surface : cat.color}
                 />
                 <Text style={[styles.categoryChipText, isActive && styles.categoryChipTextActive]}>
                   {label}
@@ -161,8 +161,8 @@ export function DiscussionsTab() {
                 <Text style={styles.threadBody} numberOfLines={2}>{lc(thread.body, thread.bodyFr)}</Text>
 
                 <View style={styles.threadFooter}>
-                  <View style={[styles.catBadge, { backgroundColor: `${categoryColors[thread.category] || '#64748b'}20` }]}>
-                    <Text style={[styles.catBadgeText, { color: categoryColors[thread.category] || '#64748b' }]}>
+                  <View style={[styles.catBadge, { backgroundColor: `${categoryColors[thread.category] || color.textMuted}20` }]}>
+                    <Text style={[styles.catBadgeText, { color: categoryColors[thread.category] || color.textMuted }]}>
                       {t(`community.category${thread.category.charAt(0).toUpperCase() + thread.category.slice(1)}`)}
                     </Text>
                   </View>

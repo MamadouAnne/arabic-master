@@ -158,7 +158,7 @@ function PartnerCard({
   getLastActive: (d: string) => string;
   t: any;
 }) {
-  const levelColor = LEVEL_COLORS[partner.level] || '#94a3b8';
+  const levelColor = LEVEL_COLORS[partner.level] || color.textFaint;
 
   return (
     <View style={[styles.card, isConnected && styles.cardConnected]}>
@@ -211,7 +211,7 @@ function PartnerCard({
         <Ionicons
           name={isConnected ? 'checkmark-circle' : isPremium ? 'hand-left' : 'lock-closed'}
           size={16}
-          color={isConnected ? '#10b981' : '#ffffff'}
+          color={isConnected ? color.progress : color.surface}
         />
         <Text style={[styles.connectText, isConnected && styles.connectedText]}>
           {isConnected

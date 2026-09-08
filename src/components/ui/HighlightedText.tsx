@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import { Text, TextStyle } from 'react-native';
+import { color } from '../../../src/theme/tokens';
 
 interface HighlightedTextProps {
   text: string;
@@ -14,7 +15,7 @@ interface HighlightedTextProps {
 const HighlightedText = memo(function HighlightedText({
   text,
   style,
-  highlightColor = '#10b981',
+  highlightColor = color.progress,
 }: HighlightedTextProps) {
   // Parse [[text]] patterns for highlighting
   const parts = text.split(/(\[\[[^\]]+\]\])/g);

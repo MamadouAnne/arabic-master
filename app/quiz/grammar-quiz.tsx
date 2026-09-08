@@ -300,7 +300,7 @@ export default function GrammarQuizScreen() {
             <Ionicons
               name="time-outline"
               size={18}
-              color={timeLeft <= 5 ? '#ef4444' : '#94a3b8'}
+              color={timeLeft <= 5 ? color.danger : color.textFaint}
             />
             <Text style={[styles.timerText, timeLeft <= 5 && styles.timerTextWarning]}>
               {timeLeft}s
@@ -491,7 +491,7 @@ export default function GrammarQuizScreen() {
                 <Ionicons
                   name={isCorrect ? 'checkmark-circle' : 'close-circle'}
                   size={24}
-                  color={isCorrect ? '#22c55e' : '#ef4444'}
+                  color={isCorrect ? color.progress : color.danger}
                 />
                 <Text style={[styles.feedbackText, isCorrect ? styles.feedbackTextCorrect : styles.feedbackTextWrong]}>
                   {isCorrect ? t('grammarQuiz.correctFeedback') : t('grammarQuiz.incorrectFeedback')}
@@ -558,7 +558,7 @@ export default function GrammarQuizScreen() {
             <Ionicons
               name={quizResult.passed ? 'trophy' : 'refresh-circle'}
               size={64}
-              color={quizResult.passed ? color.sacred : '#94a3b8'}
+              color={quizResult.passed ? color.sacred : color.textFaint}
             />
             <Text style={styles.resultTitle}>
               {quizResult.passed ? t('grammarQuiz.quizPassed') : t('grammarQuiz.keepPracticing')}
@@ -625,7 +625,7 @@ export default function GrammarQuizScreen() {
                     <Ionicons
                       name={wasCorrect ? 'checkmark-circle' : 'close-circle'}
                       size={20}
-                      color={wasCorrect ? '#22c55e' : '#ef4444'}
+                      color={wasCorrect ? color.progress : color.danger}
                     />
                     <Text style={styles.reviewQuestionNum}>{t('grammarQuiz.questionNumber', { number: index + 1 })}</Text>
                     <View style={styles.reviewLevelBadge}>
@@ -1223,7 +1223,7 @@ const styles = StyleSheet.create({
   },
   nextButtonText: {
     fontSize: 18,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.textOnAccent,
   },
   resultsScroll: {

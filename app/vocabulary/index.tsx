@@ -171,7 +171,7 @@ export default function VocabularyScreen() {
 
           {/* SRS Review - always visible */}
           <Pressable
-            style={[styles.practiceCard, { marginBottom: 12, borderColor: reviewStats.dueToday > 0 ? '#6366f1' : 'transparent', borderWidth: reviewStats.dueToday > 0 ? 1 : 0 }]}
+            style={[styles.practiceCard, { marginBottom: 12, borderColor: reviewStats.dueToday > 0 ? color.accent : 'transparent', borderWidth: reviewStats.dueToday > 0 ? 1 : 0 }]}
             onPress={() => router.push('/vocabulary/review' as any)}
           >
             <View style={styles.practiceContent}>

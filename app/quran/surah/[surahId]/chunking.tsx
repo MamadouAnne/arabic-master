@@ -108,7 +108,7 @@ function getWordState(
 
 // ============ Constants ============
 
-const METHOD_COLOR = '#f59e0b';
+const METHOD_COLOR = color.warning;
 const BG_COLOR = color.bg;
 const CARD_COLOR = color.surface;
 const BORDER_COLOR = color.border;

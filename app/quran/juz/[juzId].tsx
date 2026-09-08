@@ -122,13 +122,13 @@ export default function JuzDetailScreen() {
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case 'easy':
-        return '#22c55e';
+        return color.progress;
       case 'medium':
-        return '#f59e0b';
+        return color.warning;
       case 'hard':
-        return '#ef4444';
+        return color.danger;
       default:
-        return '#64748b';
+        return color.textMuted;
     }
   };
 

@@ -90,7 +90,7 @@ export default function TajweedRulesScreen() {
           {categories.map((category) => {
             const rules = getTajweedRulesByCategory(category);
             const categoryKeyInfo = CATEGORY_KEYS[category] || { key: category, arabic: '' };
-            const categoryColor = TAJWEED_CATEGORY_COLORS[category as keyof typeof TAJWEED_CATEGORY_COLORS] || '#64748b';
+            const categoryColor = TAJWEED_CATEGORY_COLORS[category as keyof typeof TAJWEED_CATEGORY_COLORS] || color.textMuted;
 
             return (
               <View key={category} style={styles.categorySection}>

@@ -17,18 +17,18 @@ import { getHintText } from '../../../../src/utils/arabicTextUtils';
 import { font, color, radius } from '../../../../src/theme/tokens';
 import { withAlpha } from '../../../../src/components/ui/Primitives';
 
-const METHOD_COLOR = '#ec4899';
+const METHOD_COLOR = color.accent;
 
 type RecallMode = 'first_letter' | 'fill_blank' | 'continue_from' | 'full_recall';
 type FillBlankSubMode = 'arabic_fill' | 'meaning_match';
 
 const RATING_CONFIG: { rating: ReviewRating; labelKey: string; color: string }[] = [
-  { rating: 0, labelKey: 'spacedRepetition.rating0', color: '#e11d48' },
-  { rating: 1, labelKey: 'spacedRepetition.rating1', color: '#f43f5e' },
-  { rating: 2, labelKey: 'spacedRepetition.rating2', color: '#fb7185' },
+  { rating: 0, labelKey: 'spacedRepetition.rating0', color: color.danger },
+  { rating: 1, labelKey: 'spacedRepetition.rating1', color: color.danger },
+  { rating: 2, labelKey: 'spacedRepetition.rating2', color: color.danger },
   { rating: 3, labelKey: 'spacedRepetition.rating3', color: METHOD_COLOR },
-  { rating: 4, labelKey: 'spacedRepetition.rating4', color: '#db2777' },
-  { rating: 5, labelKey: 'spacedRepetition.rating5', color: '#be185d' },
+  { rating: 4, labelKey: 'spacedRepetition.rating4', color: color.accent },
+  { rating: 5, labelKey: 'spacedRepetition.rating5', color: color.accent },
 ];
 
 const MODE_TABS: { key: RecallMode; labelKey: string }[] = [
@@ -1091,8 +1091,8 @@ const styles = StyleSheet.create({
     borderStyle: 'solid' as const,
   },
   blankBoxIncorrect: {
-    borderColor: '#f43f5e',
-    backgroundColor: withAlpha('#f43f5e', 0.1),
+    borderColor: color.danger,
+    backgroundColor: withAlpha(color.danger, 0.1),
     borderStyle: 'solid' as const,
   },
   blankText: {
@@ -1220,7 +1220,7 @@ const styles = StyleSheet.create({
     gap: 2,
   },
   detailWrong: {
-    color: '#f43f5e',
+    color: color.danger,
     fontSize: 14,
     fontWeight: '600',
     textAlign: 'center',

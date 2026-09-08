@@ -152,6 +152,18 @@ export const arabicType = {
   hero: { fontSize: 52, lineHeight: 88 },
 } as const;
 
+/**
+ * Podium metals. The only colours outside the palette: gold, silver and bronze
+ * mean rank, and no emerald or gold token can stand in without destroying the
+ * meaning. Leaderboards only. Three files were repeating the raw values, and
+ * one of them mixed `color.warning` in for first place.
+ */
+export const medal = {
+  gold: '#D4A017',
+  silver: '#9CA3AF',
+  bronze: '#B87333',
+} as const;
+
 export const weight = {
   regular: '400',
   medium: '500',

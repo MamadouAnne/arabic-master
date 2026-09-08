@@ -174,7 +174,7 @@ export const MessageBubble = React.memo(function MessageBubble({ msg, getTimeAgo
         <Text style={[isMe ? styles.bubbleMeBody : styles.bubbleOtherBody, arabic && styles.arabicBody]}>
           {renderMessageText(msg.body, {
             arabicStyle: styles.arabicInline,
-            mentionStyle: [styles.mention, { color: isMe ? '#d1fae5' : groupColor }],
+            mentionStyle: [styles.mention, { color: isMe ? color.progressSoft : groupColor }],
           })}
         </Text>
       )}
@@ -230,7 +230,7 @@ function ImageContent({ msg, onImagePress, isMe, groupColor }: { msg: MessageBub
       </Pressable>
       {msg.body ? (
         <Text style={[isMe ? styles.bubbleMeBody : styles.bubbleOtherBody, { marginTop: 6, paddingHorizontal: 2 }]}>
-          {renderMessageText(msg.body, { arabicStyle: styles.arabicInline, mentionStyle: [styles.mention, { color: isMe ? '#d1fae5' : groupColor }] })}
+          {renderMessageText(msg.body, { arabicStyle: styles.arabicInline, mentionStyle: [styles.mention, { color: isMe ? color.progressSoft : groupColor }] })}
         </Text>
       ) : null}
     </View>
@@ -353,7 +353,7 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
           <Ionicons
             name={isPlaying ? 'pause' : 'play'}
             size={26}
-            color={isMe ? '#ffffff' : groupColor}
+            color={isMe ? color.surface : groupColor}
           />
         </Pressable>
         <Pressable
@@ -370,7 +370,7 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
                 style={[styles.waveformBar, {
                   height: Math.max(3, hgt * 24),
                   backgroundColor: isMe
-                    ? (played ? '#ffffff' : 'rgba(255,255,255,0.4)')
+                    ? (played ? color.surface : 'rgba(255,255,255,0.4)')
                     : (played ? groupColor: color.textFaint),
                 }]}
               />
@@ -399,7 +399,7 @@ function VoiceBubble({ msg, getTimeAgo, groupColor, isMe, showAvatar, onLongPres
             opacity: rate === 1 ? 0.7 : 1,
           }]}
         >
-          <Text style={[styles.rateText, { color: isMe ? '#ffffff' : groupColor }]}>{rate}×</Text>
+          <Text style={[styles.rateText, { color: isMe ? color.surface : groupColor }]}>{rate}×</Text>
         </Pressable>
       </View>
     </Pressable>

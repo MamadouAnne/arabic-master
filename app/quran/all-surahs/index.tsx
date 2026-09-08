@@ -140,7 +140,7 @@ export default function AllSurahsScreen() {
                 ]}>
                   <Text style={[
                     styles.typeBadgeText,
-                    { color: surah.revelationType === 'Meccan' ? '#10b981' : '#3b82f6' }
+                    { color: surah.revelationType === 'Meccan' ? color.progress : color.accent }
                   ]}>
                     {surah.revelationType === 'Meccan' ? t('surahFeature.meccan') : t('surahFeature.medinan')}
                   </Text>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, TextStyle, StyleProp } from 'react-native';
 import { ARABIC_REGEX } from '../chatText';
-import { font } from '../../../theme/tokens';
+import { color, font } from '../../../theme/tokens';
 
 // Inline markup used by the lesson editor's formatting toolbar.
 export const MARKERS = {
@@ -81,10 +81,10 @@ export function wrapSelection(
 }
 
 const styles = StyleSheet.create({
-  bold: { fontWeight: '800' },
+  bold: { fontWeight: '700' },
   italic: { fontStyle: 'italic' },
   underline: { textDecorationLine: 'underline' },
-  highlight: { backgroundColor: 'rgba(250,204,21,0.28)', color: '#fde68a' },
+  highlight: { backgroundColor: 'rgba(250,204,21,0.28)', color: color.warning },
   arabic: {
     fontFamily: font.arabic, fontSize: 24, lineHeight: 38 },
 });

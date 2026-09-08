@@ -118,7 +118,7 @@ export default function LetterDetailScreen() {
               speak(letter.nameArabic);
             }}
           >
-            <Ionicons name="volume-high" size={24} color={isSpeaking ? "#ffffff" : "#D4AF37"} />
+            <Ionicons name="volume-high" size={24} color={isSpeaking ? color.surface : "#D4AF37"} />
           </Pressable>
         </View>
 

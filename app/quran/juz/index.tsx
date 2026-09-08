@@ -72,13 +72,13 @@ function JuzCard({ juz, onPress }: { juz: JuzLesson; onPress: () => void }) {
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case 'easy':
-        return '#22c55e';
+        return color.progress;
       case 'medium':
-        return '#f59e0b';
+        return color.warning;
       case 'hard':
-        return '#ef4444';
+        return color.danger;
       default:
-        return '#64748b';
+        return color.textMuted;
     }
   };
 
@@ -248,7 +248,7 @@ export default function JuzMainScreen() {
             <Ionicons
               name="school"
               size={18}
-              color={activeTab === 'learn' ? '#ffffff' : '#64748b'}
+              color={activeTab === 'learn' ? color.surface : color.textMuted}
             />
             <Text
               style={[
@@ -266,7 +266,7 @@ export default function JuzMainScreen() {
             <Ionicons
               name="help-circle"
               size={18}
-              color={activeTab === 'quiz' ? '#ffffff' : '#64748b'}
+              color={activeTab === 'quiz' ? color.surface : color.textMuted}
             />
             <Text
               style={[

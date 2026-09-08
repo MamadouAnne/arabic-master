@@ -74,7 +74,7 @@ export default function PrayerIndexScreen() {
           <Ionicons
             name="body"
             size={16}
-            color={activeTab === 'prayer_guide' ? '#10b981' : '#64748b'}
+            color={activeTab === 'prayer_guide' ? color.progress : color.textMuted}
           />
           <Text
             style={[
@@ -95,7 +95,7 @@ export default function PrayerIndexScreen() {
           <Ionicons
             name="alert-circle"
             size={16}
-            color={activeTab === 'sujud_sahw' ? color.sacred : '#64748b'}
+            color={activeTab === 'sujud_sahw' ? color.sacred : color.textMuted}
           />
           <Text
             style={[

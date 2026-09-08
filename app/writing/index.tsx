@@ -8,7 +8,7 @@ import { useProgressStore } from '../../src/stores/progressStore';
 import { writingLessons } from '../../src/data/arabic/writing/writingLessons';
 import { font, color, radius } from '../../src/theme/tokens';
 
-const ACCENT = '#f472b6';
+const ACCENT = color.accent;
 
 export default function WritingScreen() {
   const { t } = useTranslation();

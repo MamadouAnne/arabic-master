@@ -336,7 +336,7 @@ export function CreditPurchaseSheet({ visible, onClose }: Props) {
                         <Ionicons
                           name={pack.icon}
                           size={24}
-                          color={pack.popular ? '#f59e0b' : '#94a3b8'}
+                          color={pack.popular ? color.warning : color.textFaint}
                         />
                         <Text style={styles.packCredits}>{pack.credits}</Text>
                         <Text style={styles.packCreditsLabel}>{t('purchase.credits')}</Text>
@@ -617,7 +617,7 @@ const styles = StyleSheet.create({
   balanceNumber: {
     color: color.warning,
     fontSize: 24,
-    fontWeight: '800',
+    fontWeight: '700',
     fontVariant: ['tabular-nums'],
   },
   balanceUnit: {
@@ -687,14 +687,14 @@ const styles = StyleSheet.create({
   popularTagText: {
     color: color.textOnAccent,
     fontSize: 9,
-    fontWeight: '800',
+    fontWeight: '700',
     textTransform: 'uppercase',
     letterSpacing: 0.5,
   },
   packCredits: {
     color: color.text,
     fontSize: 22,
-    fontWeight: '800',
+    fontWeight: '700',
     marginTop: 8,
     fontVariant: ['tabular-nums'],
   },
@@ -850,7 +850,7 @@ const styles = StyleSheet.create({
   breakdownTotalPrice: {
     color: color.warning,
     fontSize: 14,
-    fontWeight: '800',
+    fontWeight: '700',
     fontVariant: ['tabular-nums'],
   },
 
@@ -891,7 +891,7 @@ const styles = StyleSheet.create({
   saveBadgeText: {
     color: color.progress,
     fontSize: 9,
-    fontWeight: '800',
+    fontWeight: '700',
     textTransform: 'uppercase',
   },
 

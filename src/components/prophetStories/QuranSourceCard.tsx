@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
   referenceArabic: {
     fontFamily: font.arabic,
     lineHeight: 26,
-    color: '#6ee7b7',
+    color: color.progress,
     fontSize: 16,
     marginLeft: 4,
   },

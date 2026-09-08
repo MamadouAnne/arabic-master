@@ -859,7 +859,7 @@ export default function GroupDetailScreen() {
       <MessageBubble
         msg={bubbleMsg}
         getTimeAgo={getTimeAgo}
-        groupColor={group?.color || '#818cf8'}
+        groupColor={group?.color || color.accent}
         isMe={isMe}
         showAvatar={item.showAvatar}
         onLongPress={() => handleMessageLongPress(msg)}
@@ -1270,7 +1270,7 @@ export default function GroupDetailScreen() {
           visible={showSessionModal}
           onClose={() => setShowSessionModal(false)}
           onCreate={handleCreateSession}
-          groupColor={group?.color || '#818cf8'}
+          groupColor={group?.color || color.accent}
         />
       )}
       {showChallengeModal && (
@@ -1278,7 +1278,7 @@ export default function GroupDetailScreen() {
           visible={showChallengeModal}
           onClose={() => setShowChallengeModal(false)}
           onCreate={handleCreateChallenge}
-          groupColor={group?.color || '#818cf8'}
+          groupColor={group?.color || color.accent}
         />
       )}
 
@@ -1290,7 +1290,7 @@ export default function GroupDetailScreen() {
         return (
           <MessageActionSheet
             visible={!!actionSheetMsg}
-            groupColor={group?.color || '#818cf8'}
+            groupColor={group?.color || color.accent}
             actions={{
               canReply: true,
               canReact: true,
@@ -1318,14 +1318,14 @@ export default function GroupDetailScreen() {
       {/* Class content creation */}
       <CreateContentSheet
         visible={showCreateSheet}
-        groupColor={group?.color || '#818cf8'}
+        groupColor={group?.color || color.accent}
         onSelect={openCreateContent}
         onClose={() => setShowCreateSheet(false)}
       />
       {editorKind === 'lesson' && (
         <LessonEditor
           visible
-          groupColor={group?.color || '#818cf8'}
+          groupColor={group?.color || color.accent}
           initial={editorInitial?.kind === 'lesson' ? editorInitial : null}
           onSave={handleSaveClass}
           onClose={closeEditor}
@@ -1334,7 +1334,7 @@ export default function GroupDetailScreen() {
       {editorKind === 'quiz' && (
         <QuizEditor
           visible
-          groupColor={group?.color || '#818cf8'}
+          groupColor={group?.color || color.accent}
           initial={editorInitial?.kind === 'quiz' ? editorInitial : null}
           chatContext={chatContextText}
           onSave={handleSaveClass}
@@ -1344,7 +1344,7 @@ export default function GroupDetailScreen() {
       {editorKind === 'poll' && (
         <PollEditor
           visible
-          groupColor={group?.color || '#818cf8'}
+          groupColor={group?.color || color.accent}
           initial={editorInitial?.kind === 'poll' ? editorInitial : null}
           onSave={handleSaveClass}
           onClose={closeEditor}
@@ -1353,7 +1353,7 @@ export default function GroupDetailScreen() {
       {editorKind === 'board' && (
         <BoardEditor
           visible
-          groupColor={group?.color || '#818cf8'}
+          groupColor={group?.color || color.accent}
           initial={editorInitial?.kind === 'board' ? editorInitial : null}
           seedText={boardSeedText}
           onSave={handleSaveClass}
@@ -1432,12 +1432,12 @@ const styles = StyleSheet.create({
   previewContent: { paddingHorizontal: 20, paddingVertical: 16, paddingBottom: 40, alignItems: 'center' },
   previewCard: { backgroundColor: color.surface, borderRadius: radius.xl, padding: 28, alignItems: 'center', borderWidth: 1, borderColor: color.border, width: '100%', marginBottom: 16 },
   previewIconLarge: { width: 72, height: 72, borderRadius: radius.xl, alignItems: 'center', justifyContent: 'center', marginBottom: 16 },
-  previewName: { fontSize: 22, fontWeight: '800', color: color.text, marginBottom: 6, textAlign: 'center' },
+  previewName: { fontSize: 22, fontWeight: '700', color: color.text, marginBottom: 6, textAlign: 'center' },
   previewTopic: { fontSize: 14, fontWeight: '600', color: color.textMuted, marginBottom: 12 },
   previewDesc: { fontSize: 14, color: color.textFaint, lineHeight: 21, textAlign: 'center' },
   previewStatsRow: { flexDirection: 'row', gap: 12, width: '100%', marginBottom: 16 },
   previewStat: { flex: 1, backgroundColor: color.surface, borderRadius: radius.md, padding: 16, alignItems: 'center', borderWidth: 1, borderColor: color.border },
-  previewStatValue: { fontSize: 20, fontWeight: '800', color: color.text, marginTop: 6 },
+  previewStatValue: { fontSize: 20, fontWeight: '700', color: color.text, marginTop: 6 },
   previewStatLabel: { fontSize: 11, color: color.textFaint, marginTop: 2 },
   previewGoal: { flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: color.surface, borderRadius: radius.md, padding: 16, width: '100%', marginBottom: 24, borderWidth: 1, borderColor: color.border },
   previewGoalText: { fontSize: 14, fontWeight: '600', color: color.text, flex: 1 },

@@ -41,7 +41,7 @@ const TextCard = React.memo(
               <Ionicons name="create-outline" size={18} color={color.textMuted} />
             </Pressable>
             <Pressable hitSlop={8} onPress={() => onDelete(item)} style={styles.cardIconBtn}>
-              <Ionicons name="trash-outline" size={18} color="#f43f5e" />
+              <Ionicons name="trash-outline" size={18} color={color.danger} />
             </Pressable>
           </View>
         </View>

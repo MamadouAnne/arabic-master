@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
   card: { backgroundColor: color.surface, borderRadius: radius.xl, padding: 18, borderWidth: 1, borderColor: color.border },
   header: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 14 },
   badge: { width: 34, height: 34, borderRadius: radius.sm, alignItems: 'center', justifyContent: 'center' },
-  title: { flex: 1, fontSize: 17, fontWeight: '800', color: color.text },
+  title: { flex: 1, fontSize: 17, fontWeight: '700', color: color.text },
   label: { fontSize: 13, fontWeight: '600', color: color.textMuted, marginBottom: 8 },
   input: { backgroundColor: color.bg, borderRadius: radius.md, paddingHorizontal: 14, paddingVertical: 12, fontSize: 16, color: color.text, borderWidth: 1, borderColor: color.border },
   chips: { flexDirection: 'row', gap: 8, paddingVertical: 12 },
@@ -162,6 +162,6 @@ const styles = StyleSheet.create({
   levelBtn: { flex: 1, alignItems: 'center', paddingVertical: 9, borderRadius: radius.sm, backgroundColor: color.bg, borderWidth: 1.5, borderColor: 'transparent' },
   levelText: { fontSize: 13, fontWeight: '600', color: color.textMuted },
   generateBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8, paddingVertical: 13, borderRadius: radius.md, marginTop: 16 },
-  generateText: { color: color.text, fontWeight: '800', fontSize: 15 },
+  generateText: { color: color.text, fontWeight: '700', fontSize: 15 },
   hint: { fontSize: 11, color: color.textFaint, textAlign: 'center', marginTop: 10 },
 });

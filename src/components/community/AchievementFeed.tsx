@@ -24,18 +24,18 @@ const getTimeAgo = (timestamp: string): string => {
 };
 
 const getIconColor = (icon: string, isUser: boolean): string => {
-  if (isUser) return '#818cf8';
+  if (isUser) return color.accent;
   switch (icon) {
     case 'flame':
-      return '#f97316';
+      return color.warning;
     case 'trophy':
       return color.sacred;
     case 'star':
-      return '#eab308';
+      return color.warning;
     case 'book':
-      return '#22c55e';
+      return color.progress;
     default:
-      return '#94a3b8';
+      return color.textFaint;
   }
 };
 

@@ -14,15 +14,15 @@ import { ReviewRating } from '../../../../src/types/quran';
 import { font, color, radius } from '../../../../src/theme/tokens';
 import { withAlpha } from '../../../../src/components/ui/Primitives';
 
-const METHOD_COLOR = '#6366f1';
+const METHOD_COLOR = color.accent;
 
 const RATING_CONFIG: { rating: ReviewRating; labelKey: string; color: string }[] = [
-  { rating: 0, labelKey: 'spacedRepetition.rating0', color: '#e11d48' },
-  { rating: 1, labelKey: 'spacedRepetition.rating1', color: '#f43f5e' },
-  { rating: 2, labelKey: 'spacedRepetition.rating2', color: '#fb7185' },
+  { rating: 0, labelKey: 'spacedRepetition.rating0', color: color.danger },
+  { rating: 1, labelKey: 'spacedRepetition.rating1', color: color.danger },
+  { rating: 2, labelKey: 'spacedRepetition.rating2', color: color.danger },
   { rating: 3, labelKey: 'spacedRepetition.rating3', color: color.accent },
   { rating: 4, labelKey: 'spacedRepetition.rating4', color: color.accentStrong },
-  { rating: 5, labelKey: 'spacedRepetition.rating5', color: '#4f46e5' },
+  { rating: 5, labelKey: 'spacedRepetition.rating5', color: color.accent },
 ];
 
 export default function SpacedRepetitionScreen() {

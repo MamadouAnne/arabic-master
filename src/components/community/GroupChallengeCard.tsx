@@ -45,14 +45,14 @@ export function GroupChallengeCard({ challenge, groupColor }: Props) {
     <View style={[styles.card, isCompleted && { borderColor: withAlpha(color.progress, 0.25) }]}>
       <View style={styles.topRow}>
         <View style={[styles.iconCircle, { backgroundColor: isCompleted ? '#10b98120' : `${groupColor}20` }]}>
-          <Ionicons name={(targetTypeIcons[challenge.targetType] || 'flag') as any} size={18} color={isCompleted ? '#10b981' : groupColor} />
+          <Ionicons name={(targetTypeIcons[challenge.targetType] || 'flag') as any} size={18} color={isCompleted ? color.progress : groupColor} />
         </View>
         <View style={styles.info}>
           <Text style={styles.title}>{challenge.title}</Text>
           <Text style={styles.creator}>by {challenge.creatorName}</Text>
         </View>
         <View style={[styles.timeBadge, isCompleted && { backgroundColor: withAlpha(color.progress, 0.13) }]}>
-          <Ionicons name={isCompleted ? 'checkmark-circle' : 'time'} size={12} color={isCompleted ? '#10b981' : '#f59e0b'} />
+          <Ionicons name={isCompleted ? 'checkmark-circle' : 'time'} size={12} color={isCompleted ? color.progress : color.warning} />
           <Text style={[styles.timeText, isCompleted && { color: color.progress }]}>{isCompleted ? 'Done!' : timeLeft}</Text>
         </View>
       </View>
@@ -64,7 +64,7 @@ export function GroupChallengeCard({ challenge, groupColor }: Props) {
           <Text style={styles.progressPercent}>{Math.round(progress)}%</Text>
         </View>
         <View style={styles.progressBar}>
-          <View style={[styles.progressFill, { width: `${progress}%`, backgroundColor: isCompleted ? '#10b981' : groupColor }]} />
+          <View style={[styles.progressFill, { width: `${progress}%`, backgroundColor: isCompleted ? color.progress : groupColor }]} />
         </View>
       </View>
 

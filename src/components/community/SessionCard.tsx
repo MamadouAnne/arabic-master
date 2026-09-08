@@ -44,7 +44,7 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
     <View style={[styles.card, isPast && styles.cardPast]}>
       <View style={styles.topRow}>
         <View style={[styles.iconCircle, { backgroundColor: `${groupColor}20` }]}>
-          <Ionicons name="calendar" size={18} color={isPast ? '#64748b' : groupColor} />
+          <Ionicons name="calendar" size={18} color={isPast ? color.textMuted : groupColor} />
         </View>
         <View style={styles.info}>
           <Text style={[styles.title, isPast && styles.textPast]}>{session.title}</Text>
@@ -80,7 +80,7 @@ export function SessionCard({ session, groupColor, onRsvp, isPast }: Props) {
               style={[styles.rsvpBtn, session.userRsvp === 'not_going' && { backgroundColor: withAlpha(color.danger, 0.13), borderColor: color.danger }]}
               onPress={() => onRsvp(session.id, 'not_going')}
             >
-              <Ionicons name="close" size={14} color={session.userRsvp === 'not_going' ? '#ef4444' : '#64748b'} />
+              <Ionicons name="close" size={14} color={session.userRsvp === 'not_going' ? color.danger : color.textMuted} />
               <Text style={[styles.rsvpText, session.userRsvp === 'not_going' && { color: color.danger }]}>{t('community.cant')}</Text>
             </Pressable>
           </View>

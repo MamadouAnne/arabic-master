@@ -946,7 +946,7 @@ const styles = StyleSheet.create({
   },
   profileName: {
     fontSize: 20,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.text,
     flexShrink: 1,
   },
@@ -969,7 +969,7 @@ const styles = StyleSheet.create({
   xpPillText: {
     color: color.text,
     fontSize: 13,
-    fontWeight: '800',
+    fontWeight: '700',
   },
   editNameRow: {
     flexDirection: 'row',
@@ -1012,7 +1012,7 @@ const styles = StyleSheet.create({
   },
   statValue: {
     fontSize: 18,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.text,
   },
   statLabel: {
@@ -1488,7 +1488,7 @@ const styles = StyleSheet.create({
   subCreditsNumber: {
     color: color.warning,
     fontSize: 28,
-    fontWeight: '800',
+    fontWeight: '700',
     fontVariant: ['tabular-nums'],
   },
   subActions: {

@@ -130,7 +130,7 @@ export default function ArabicEditorScreen() {
               <Ionicons
                 name={isEditing ? 'checkmark' : 'play'}
                 size={20}
-                color={canSave ? '#fff' : '#64748b'}
+                color={canSave ? '#fff' : color.textMuted}
               />
               <Text style={[styles.saveText, !canSave && styles.saveTextDisabled]}>
                 {isEditing ? t('reading.memo.save') : t('reading.memo.saveAndListen')}

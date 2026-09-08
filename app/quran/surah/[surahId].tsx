@@ -529,7 +529,7 @@ export default function SurahDetailScreen() {
           <Ionicons
             name="language"
             size={18}
-            color={(progress.settings.showTranslation || progress.settings.showTransliteration) ? '#ffffff' : '#64748b'}
+            color={(progress.settings.showTranslation || progress.settings.showTransliteration) ? color.surface : color.textMuted}
           />
           <Text style={[
             styles.translateButtonText,
@@ -875,7 +875,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   styleDesc: {
-    color: '#4b5563',
+    color: color.textMuted,
     fontSize: 11,
   },
   recommendedBadge: {

@@ -26,7 +26,7 @@ const RATING_DESCRIPTIONS: Record<ReviewRating, { label: string; color: string; 
   0: { label: 'Blackout', color: color.danger, icon: 'close-circle' },
   1: { label: 'Wrong', color: color.warning, icon: 'close' },
   2: { label: 'Hard', color: color.warning, icon: 'help' },
-  3: { label: 'OK', color: '#84cc16', icon: 'checkmark' },
+  3: { label: 'OK', color: color.progress, icon: 'checkmark' },
   4: { label: 'Good', color: color.progress, icon: 'checkmark-circle' },
   5: { label: 'Perfect', color: color.progress, icon: 'star' },
 };
@@ -239,7 +239,7 @@ export default function VocabularyReviewScreen() {
                   speak(currentWord.arabicWithVowels || currentWord.arabic);
                 }}
               >
-                <Ionicons name="volume-high" size={28} color={isSpeaking ? "#ffffff" : "#D4AF37"} />
+                <Ionicons name="volume-high" size={28} color={isSpeaking ? color.surface : "#D4AF37"} />
               </Pressable>
             </View>
             <Text style={styles.tapHint}>{t('vocabulary.tapToReveal')}</Text>

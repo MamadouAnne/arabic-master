@@ -225,7 +225,7 @@ export default function ExerciseScreen() {
             <Ionicons
               name={accuracy >= 80 ? 'trophy' : accuracy >= 50 ? 'thumbs-up' : 'refresh'}
               size={64}
-              color={accuracy >= 80 ? '#22c55e' : accuracy >= 50 ? color.sacred : '#ef4444'}
+              color={accuracy >= 80 ? color.progress : accuracy >= 50 ? color.sacred : color.danger}
             />
           </View>
           <Text style={styles.completeTitle}>
@@ -326,7 +326,7 @@ export default function ExerciseScreen() {
               style={[styles.questionAudioBtn, isSpeaking && styles.questionAudioBtnActive]}
               onPress={() => speak(currentQuestion.questionArabic!)}
             >
-              <Ionicons name="volume-high" size={24} color={isSpeaking ? "#ffffff" : "#D4AF37"} />
+              <Ionicons name="volume-high" size={24} color={isSpeaking ? color.surface : "#D4AF37"} />
             </Pressable>
           </View>
         )}

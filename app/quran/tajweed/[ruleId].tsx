@@ -318,7 +318,7 @@ export default function TajweedRuleDetailScreen() {
                       <Ionicons
                         name={isPlaying ? "pause" : "play"}
                         size={24}
-                        color={isPlaying ? "#10b981" : "#ffffff"}
+                        color={isPlaying ? color.progress : color.surface}
                       />
                     )}
                   </Pressable>
@@ -408,7 +408,7 @@ export default function TajweedRuleDetailScreen() {
                   <Ionicons
                     name={reciter.icon as any}
                     size={24}
-                    color={selectedReciter === reciter.id ? '#10b981' : '#64748b'}
+                    color={selectedReciter === reciter.id ? color.progress : color.textMuted}
                   />
                 </View>
                 <View style={styles.reciterOptionInfo}>

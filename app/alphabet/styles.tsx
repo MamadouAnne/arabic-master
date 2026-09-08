@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 12 },
   backButton: { width: 40, height: 40, alignItems: 'center', justifyContent: 'center' },
   headerText: { flex: 1, marginLeft: 8 },
-  title: { fontSize: 22, fontWeight: '800', color: color.text },
+  title: { fontSize: 22, fontWeight: '700', color: color.text },
   titleArabic: {
     fontFamily: font.arabic,
     lineHeight: 32, fontSize: 18, color: color.textMuted, marginTop: 2, textAlign: 'left' },

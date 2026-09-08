@@ -90,7 +90,7 @@ export default function ThreadDetailScreen() {
     );
   }
 
-  const catColor = categoryColors[currentThread.category] || '#64748b';
+  const catColor = categoryColors[currentThread.category] || color.textMuted;
 
   return (
     <SafeAreaView style={styles.container}>
@@ -141,7 +141,7 @@ export default function ThreadDetailScreen() {
                 style={styles.actionBtn}
                 onPress={() => toggleLikeThread(currentThread.id)}
               >
-                <Ionicons name="heart-outline" size={18} color="#f43e5e" />
+                <Ionicons name="heart-outline" size={18} color={color.danger} />
                 <Text style={styles.actionCount}>{currentThread.likeCount}</Text>
               </Pressable>
               <View style={styles.actionBtn}>
@@ -179,10 +179,10 @@ export default function ThreadDetailScreen() {
                       <Ionicons
                         name={reply.isLiked ? 'heart' : 'heart-outline'}
                         size={14}
-                        color={reply.isLiked ? '#f43e5e' : '#64748b'}
+                        color={reply.isLiked ? color.danger : color.textMuted}
                       />
                       {reply.likeCount > 0 && (
-                        <Text style={[styles.replyLikeCount, reply.isLiked && { color: '#f43e5e' }]}>
+                        <Text style={[styles.replyLikeCount, reply.isLiked && { color: color.danger }]}>
                           {reply.likeCount}
                         </Text>
                       )}
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
   },
   threadTitle: {
     fontSize: 20,
-    fontWeight: '800',
+    fontWeight: '700',
     color: color.text,
     marginBottom: 10,
     lineHeight: 26,
