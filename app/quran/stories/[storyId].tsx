@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { View, Text, ScrollView, Pressable, StyleSheet, ActivityIndicator } from 'react-native';
+import { View, Text, ScrollView, Pressable, StyleSheet, ActivityIndicator, LayoutChangeEvent } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { router, useLocalSearchParams } from 'expo-router';
@@ -10,6 +10,8 @@ import { StoryContentBlock } from '../../../src/components/quranStories';
 import { useQuranStoriesStore } from '../../../src/stores/quranStoriesStore';
 import { QuranReference, STORY_CATEGORY_LABELS } from '../../../src/types/quranStories';
 import { quranAudioService, AudioState } from '../../../src/services/quranAudioService';
+import { useStoryNarration, NarrationSpeed } from '../../../src/hooks/useStoryNarration';
+import { ListenBar, ListenSheet } from '../../../src/components/listen';
 import { font, color, radius } from '../../../src/theme/tokens';
 import { withAlpha } from '../../../src/components/ui/Primitives';
 
@@ -42,6 +44,32 @@ export default function QuranStoryDetailScreen() {
 
   // Calculate source count
   const sourceCount = story?.content.filter((block) => block.type !== 'narrative').length || 0;
+
+  // Listening
+  const narration = useStoryNarration(story?.content || []);
+  const [playerOpen, setPlayerOpen] = useState(false);
+
+  const blockOffsets = useRef<Record<string, number>>({});
+  const blocksTop = useRef(0);
+
+  const onBlockLayout = useCallback(
+    (id: string) => (e: LayoutChangeEvent) => {
+      blockOffsets.current[id] = e.nativeEvent.layout.y;
+    },
+    []
+  );
+
+  useEffect(() => {
+    if (!narration.isActive || !narration.currentBlockId) return;
+    const y = blockOffsets.current[narration.currentBlockId];
+    if (y == null) return;
+    scrollViewRef.current?.scrollTo({ y: Math.max(0, blocksTop.current + y - 140), animated: true });
+  }, [narration.currentBlockId, narration.isActive]);
+
+  const cycleSpeed = useCallback(() => {
+    const order: NarrationSpeed[] = [0.75, 1, 1.25, 1.5];
+    narration.setSpeed(order[(order.indexOf(narration.speed) + 1) % order.length]);
+  }, [narration]);
 
   // Handle mark complete
   const handleMarkComplete = useCallback(() => {
@@ -163,6 +191,17 @@ export default function QuranStoryDetailScreen() {
         style={styles.contentContainer}
         showsVerticalScrollIndicator={false}
       >
+        {story.content.length > 0 && (
+          <Pressable
+            style={styles.listenButton}
+            onPress={() => (narration.isActive ? setPlayerOpen(true) : narration.start(0))}
+            accessibilityRole="button"
+          >
+            <Ionicons name="headset" size={18} color={color.textOnAccent} />
+            <Text style={styles.listenButtonText}>{t('listen.listen')}</Text>
+          </Pressable>
+        )}
+
         {/* Summary Card */}
         <View style={styles.summaryCard}>
           <Text style={styles.summaryTitle}>{t('storiesFeature.summary')}</Text>
@@ -189,11 +228,17 @@ export default function QuranStoryDetailScreen() {
         </View>
 
         {/* Content Blocks */}
-        <View style={styles.blocksContainer}>
+        <View
+          style={styles.blocksContainer}
+          onLayout={(e) => {
+            blocksTop.current = e.nativeEvent.layout.y;
+          }}
+        >
           {story.content.map((block) => (
+            <View key={block.id} onLayout={onBlockLayout(block.id)}>
             <StoryContentBlock
-              key={block.id}
               block={block}
+              isHighlighted={narration.isActive && narration.currentBlockId === block.id}
               onPlayQuranAudio={
                 block.source?.type === 'quran'
                   ? () => handlePlayQuranAudio(block.source as QuranReference, block.id)
@@ -202,6 +247,7 @@ export default function QuranStoryDetailScreen() {
               isQuranPlaying={playingSourceId === block.id && audioState === 'playing'}
               isQuranLoading={playingSourceId === block.id && audioState === 'loading'}
             />
+            </View>
           ))}
 
           {/* Mark Complete Button */}
@@ -220,8 +266,50 @@ export default function QuranStoryDetailScreen() {
           )}
         </View>
 
-        <View style={{ height: 40 }} />
+        <View style={{ height: narration.isActive ? 104 : 40 }} />
       </ScrollView>
+
+      {narration.isActive && (
+        <SafeAreaView edges={['bottom']} style={styles.listenDock}>
+          <ListenBar
+            title={lc(story.titleEnglish, story.titleFrench)}
+            status={narration.status}
+            progress={narration.progress}
+            blockIndex={narration.currentBlockIndex}
+            blockCount={narration.blockCount}
+            remainingSeconds={narration.remainingSeconds}
+            speed={narration.speed}
+            onToggle={narration.toggle}
+            onExpand={() => setPlayerOpen(true)}
+            onCycleSpeed={cycleSpeed}
+          />
+        </SafeAreaView>
+      )}
+
+      <ListenSheet
+        visible={playerOpen}
+        title={lc(story.titleEnglish, story.titleFrench)}
+        subtitle={lc(categoryLabel.english, categoryLabel.french)}
+        arabicTitle={story.titleArabic}
+        status={narration.status}
+        progress={narration.progress}
+        elapsedSeconds={narration.elapsedSeconds}
+        remainingSeconds={narration.remainingSeconds}
+        blockIndex={narration.currentBlockIndex}
+        blockCount={narration.blockCount}
+        speed={narration.speed}
+        sleep={narration.sleep}
+        onClose={() => setPlayerOpen(false)}
+        onToggle={narration.toggle}
+        onSkip={narration.skipBlocks}
+        onSeek={narration.seekToFraction}
+        onSpeed={narration.setSpeed}
+        onSleep={narration.setSleep}
+        onStop={() => {
+          void narration.stop();
+          setPlayerOpen(false);
+        }}
+      />
     </SafeAreaView>
   );
 }
@@ -240,6 +328,25 @@ const styles = StyleSheet.create({
   loadingText: {
     color: color.textMuted,
     fontSize: 14,
+  },
+  listenDock: {
+    backgroundColor: color.surface,
+  },
+  listenButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 9,
+    height: 48,
+    borderRadius: radius.lg,
+    backgroundColor: color.accentStrong,
+    marginBottom: 16,
+  },
+  listenButtonText: {
+    color: color.textOnAccent,
+    fontSize: 17,
+    fontWeight: '600',
+    letterSpacing: -0.2,
   },
   header: {
     flexDirection: 'row',

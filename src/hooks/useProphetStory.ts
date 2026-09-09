@@ -2,14 +2,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { getProphetStory, hasProphetStory } from '../data/arabic/prophets';
 import { useProphetStoriesStore } from '../stores/prophetStoriesStore';
-import { storyAudioService } from '../services/storyAudioService';
-import {
-  Prophet,
-  SubStory,
-  StoryContentBlock,
-  PlaybackSpeed,
-  AudioPlaybackState,
-} from '../types/prophetStories';
+import { Prophet, SubStory, StoryContentBlock } from '../types/prophetStories';
 
 interface UseProphetStoryReturn {
   // Data
@@ -31,17 +24,6 @@ interface UseProphetStoryReturn {
   goToNextSubStory: () => void;
   goToPreviousSubStory: () => void;
 
-  // Audio
-  playbackState: AudioPlaybackState;
-  currentBlockIndex: number;
-  playbackSpeed: PlaybackSpeed;
-  playBlock: (index: number) => Promise<void>;
-  playPause: () => Promise<void>;
-  stop: () => Promise<void>;
-  setSpeed: (speed: PlaybackSpeed) => void;
-  goToNextBlock: () => void;
-  goToPreviousBlock: () => void;
-
   // Actions
   markSubStoryComplete: () => void;
   markStoryComplete: () => void;
@@ -50,9 +32,6 @@ interface UseProphetStoryReturn {
 export function useProphetStory(prophetId: string | undefined): UseProphetStoryReturn {
   const [isLoading, setIsLoading] = useState(true);
   const [currentSubStoryId, setCurrentSubStoryId] = useState<string | null>(null);
-  const [currentBlockIndex, setCurrentBlockIndex] = useState(0);
-  const [playbackState, setPlaybackState] = useState<AudioPlaybackState>('idle');
-  const [playbackSpeed, setPlaybackSpeed] = useState<PlaybackSpeed>(1);
 
   const {
     startStory,
@@ -95,20 +74,12 @@ export function useProphetStory(prophetId: string | undefined): UseProphetStoryR
       const savedProgress = getStoryProgress(prophetId);
       const initialSubStoryId = savedProgress.currentSubStoryId || subStories[0].id;
       setCurrentSubStoryId(initialSubStoryId);
-      setCurrentBlockIndex(savedProgress.currentBlockIndex || 0);
 
       setIsLoading(false);
     } else if (prophetId && subStories.length === 0) {
       setIsLoading(false);
     }
   }, [prophetId, subStories.length]);
-
-  // Cleanup audio on unmount
-  useEffect(() => {
-    return () => {
-      storyAudioService.stop();
-    };
-  }, []);
 
   // Navigation
   const goToNextSubStory = useCallback(() => {
@@ -117,9 +88,6 @@ export function useProphetStory(prophetId: string | undefined): UseProphetStoryR
     const currentIndex = subStories.findIndex((s) => s.id === currentSubStoryId);
     if (currentIndex < subStories.length - 1) {
       setCurrentSubStoryId(subStories[currentIndex + 1].id);
-      setCurrentBlockIndex(0);
-      storyAudioService.stop();
-      setPlaybackState('idle');
     }
   }, [currentSubStoryId, subStories]);
 
@@ -129,117 +97,8 @@ export function useProphetStory(prophetId: string | undefined): UseProphetStoryR
     const currentIndex = subStories.findIndex((s) => s.id === currentSubStoryId);
     if (currentIndex > 0) {
       setCurrentSubStoryId(subStories[currentIndex - 1].id);
-      setCurrentBlockIndex(0);
-      storyAudioService.stop();
-      setPlaybackState('idle');
     }
   }, [currentSubStoryId, subStories]);
-
-  // Audio controls - plays through all narrative blocks continuously
-  const isPlayingRef = useRef(false);
-
-  const playAllBlocks = useCallback(
-    async (startIndex: number) => {
-      if (isPlayingRef.current) return;
-      isPlayingRef.current = true;
-
-      __DEV__ && console.log(`Starting playback from index ${startIndex}, total blocks: ${currentContent.length}`);
-
-      for (let i = startIndex; i < currentContent.length; i++) {
-        if (!isPlayingRef.current) {
-          __DEV__ && console.log('Playback stopped');
-          break;
-        }
-
-        const block = currentContent[i];
-        __DEV__ && console.log(`Processing block ${i}, type: ${block?.type}`);
-
-        if (!block || block.type !== 'narrative') {
-          __DEV__ && console.log(`Block ${i} is not narrative, skipping`);
-          setCurrentBlockIndex(i);
-          await new Promise(r => setTimeout(r, 300));
-          continue;
-        }
-
-        setCurrentBlockIndex(i);
-        setPlaybackState('playing');
-
-        __DEV__ && console.log(`Speaking block ${i}: ${block.content.substring(0, 30)}...`);
-
-        try {
-          await storyAudioService.speak(block.content, playbackSpeed);
-          __DEV__ && console.log(`Block ${i} finished`);
-        } catch (e) {
-          __DEV__ && console.log(`Block ${i} error:`, e);
-        }
-
-        // Pause between paragraphs
-        if (isPlayingRef.current && i < currentContent.length - 1) {
-          await new Promise(r => setTimeout(r, 500));
-        }
-      }
-
-      __DEV__ && console.log('All blocks finished');
-      isPlayingRef.current = false;
-      setPlaybackState('idle');
-    },
-    [currentContent, playbackSpeed]
-  );
-
-  const playBlock = useCallback(
-    async (index: number) => {
-      await playAllBlocks(index);
-    },
-    [playAllBlocks]
-  );
-
-  const stopPlayback = useCallback(() => {
-    isPlayingRef.current = false;
-    storyAudioService.stop();
-    setPlaybackState('idle');
-  }, []);
-
-  const playPause = useCallback(async () => {
-    if (playbackState === 'playing') {
-      isPlayingRef.current = false;
-      await storyAudioService.pause();
-      setPlaybackState('paused');
-    } else if (playbackState === 'paused') {
-      await storyAudioService.resume();
-      setPlaybackState('playing');
-    } else {
-      await playBlock(currentBlockIndex);
-    }
-  }, [playbackState, currentBlockIndex, playBlock]);
-
-  const stop = useCallback(async () => {
-    isPlayingRef.current = false;
-    await storyAudioService.stop();
-    setPlaybackState('idle');
-  }, []);
-
-  const setSpeed = useCallback((speed: PlaybackSpeed) => {
-    setPlaybackSpeed(speed);
-    storyAudioService.setSpeed(speed);
-  }, []);
-
-  const goToNextBlock = useCallback(() => {
-    if (currentBlockIndex < currentContent.length - 1) {
-      isPlayingRef.current = false;
-      storyAudioService.stop();
-      setPlaybackState('idle');
-      setCurrentBlockIndex(currentBlockIndex + 1);
-    }
-  }, [currentBlockIndex, currentContent.length]);
-
-  const goToPreviousBlock = useCallback(() => {
-    if (currentBlockIndex > 0) {
-      isPlayingRef.current = false;
-      storyAudioService.stop();
-      setPlaybackState('idle');
-      setCurrentBlockIndex(currentBlockIndex - 1);
-    }
-  }, [currentBlockIndex]);
 
   // Progress actions
   const markSubStoryComplete = useCallback(() => {
@@ -273,17 +132,6 @@ export function useProphetStory(prophetId: string | undefined): UseProphetStoryR
     setCurrentSubStoryId,
     goToNextSubStory,
     goToPreviousSubStory,
-
-    // Audio
-    playbackState,
-    currentBlockIndex,
-    playbackSpeed,
-    playBlock,
-    playPause,
-    stop,
-    setSpeed,
-    goToNextBlock,
-    goToPreviousBlock,
 
     // Actions
     markSubStoryComplete,
