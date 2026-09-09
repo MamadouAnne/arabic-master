@@ -334,7 +334,7 @@ export default function ProphetStoryScreen() {
         speed={narration.speed}
         sleep={narration.sleep}
         voice={narration.voice}
-        voiceApplies={narration.voiceApplies}
+        usingDeviceVoice={narration.usingDeviceVoice}
         onClose={() => setPlayerOpen(false)}
         onToggle={narration.toggle}
         onSkip={narration.skipBlocks}

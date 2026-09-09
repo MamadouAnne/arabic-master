@@ -315,9 +315,9 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
     setSleep,
     voice,
     setVoice,
-    // The fetched voice offers exactly one voice per language, so a choice
-    // between female and male only means anything on the device voice.
-    voiceApplies: engine !== 'network',
+    // True once the device's own voice is doing the reading, which on iOS
+    // means quality depends on what the owner has downloaded.
+    usingDeviceVoice: engine === 'device',
     start,
     stop,
     toggle,

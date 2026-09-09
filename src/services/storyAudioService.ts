@@ -205,12 +205,14 @@ class StoryAudioService {
   }
 
   /**
-   * Changing this re-picks the voice on the next sentence. It does not
-   * disturb the engine: the cache is keyed by gender, and forcing a session
-   * back onto the device engine to honour a gender is what crashed iOS.
+   * Takes effect on the next sentence. The engine is released too, because on
+   * iOS the choice decides it: the fetched voice can only be the female one.
+   * Nothing is torn down here — the running sentence finishes first.
    */
   setGender(gender: VoiceGender): void {
+    if (this.gender === gender) return;
     this.gender = gender;
+    this.sessionEngine = null;
   }
 
   /** Which engine this session settled on, once it has spoken. */
@@ -312,8 +314,15 @@ class StoryAudioService {
     // Chosen once per session, then held. Deciding per sentence is what made
     // the voice change halfway through a chapter.
     if (this.sessionEngine === null) {
+      // The fetched voice is a female voice and there is only one of it per
+      // language, so it can serve the female choice and nothing else. Asking
+      // for a male voice therefore has to mean the device's own, which is the
+      // only place a male voice exists.
       const canFetch =
-        Platform.OS === 'ios' && Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
+        Platform.OS === 'ios' &&
+        this.gender === 'female' &&
+        Date.now() >= this.networkUnavailableUntil &&
+        (await this.isOnline());
       if (generation !== this.generation) return 'stopped';
       this.sessionEngine = canFetch ? 'network' : 'device';
     }

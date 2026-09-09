@@ -872,7 +872,7 @@ export default {
     voice: 'Voice',
     female: 'Female',
     male: 'Male',
-    voiceOnlineNote: 'While online, iPhone uses a single built-in voice. Your choice applies offline.',
+    voiceQualityNote: 'Uses your iPhone voice. For a richer one, add an enhanced voice in Settings, Accessibility, Spoken Content, Voices.',
     sleepTimer: 'Sleep timer',
     sleepOff: 'Off',
   },

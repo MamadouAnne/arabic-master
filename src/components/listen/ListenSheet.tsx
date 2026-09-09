@@ -6,7 +6,7 @@
  * listener can act on is emerald.
  */
 import React, { useMemo, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, Modal, ScrollView, LayoutChangeEvent } from 'react-native';
+import { View, Text, Pressable, StyleSheet, Modal, ScrollView, LayoutChangeEvent, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
@@ -33,7 +33,7 @@ interface Props {
   speed: NarrationSpeed;
   sleep: SleepOption;
   voice: VoiceGender;
-  voiceApplies: boolean;
+  usingDeviceVoice: boolean;
   onClose: () => void;
   onToggle: () => void;
   onSkip: (delta: number) => void;
@@ -58,7 +58,7 @@ export function ListenSheet({
   speed,
   sleep,
   voice,
-  voiceApplies,
+  usingDeviceVoice,
   onClose,
   onToggle,
   onSkip,
@@ -197,7 +197,9 @@ export function ListenSheet({
                 })}
               </View>
 
-              {voiceApplies === false && <Text style={styles.settingNote}>{t('listen.voiceOnlineNote')}</Text>}
+              {Platform.OS === 'ios' && usingDeviceVoice === true && (
+                <Text style={styles.settingNote}>{t('listen.voiceQualityNote')}</Text>
+              )}
 
               <Pressable style={styles.settingRow} onPress={cycleSleep} accessibilityRole="button">
                 <Ionicons name="moon-outline" size={20} color={color.textMuted} />
