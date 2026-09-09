@@ -265,16 +265,23 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
       if (next === voice) return;
       storeVoice(next);
       storyAudioService.setGender(next);
-      // Lands on the next sentence, like speed does. Restarting the current
-      // one to make it audible immediately meant tearing a clip down while it
-      // was playing, and that crashed the app.
+
+      // Take effect on the sentence being read, not the one after it.
+      // Deferring it is what made the switch feel broken: tap male, and a
+      // long sentence keeps you listening to the old voice for another
+      // twenty seconds, which reads as nothing having happened.
+      //
+      // Re-reading the line from its start is the only honest way to change
+      // voice mid-sentence, and it is exactly the teardown a skip already
+      // performs, so it is no more dangerous than the back button.
       //
       // Asking for male also sends the session back to the top of the engine
-      // ladder, since Edge is the only rung that has a male voice. If it
-      // cannot be reached, the reading stays female rather than dropping to
-      // the phone's own male voice.
+      // ladder, since the fetched neural voice is the only one that has a
+      // male option. If it cannot be reached, the reading stays female
+      // rather than dropping to the phone's own male voice.
+      if (status === 'playing' || status === 'loading') void run(indexRef.current);
     },
-    [voice, storeVoice]
+    [voice, storeVoice, status, run]
   );
 
   const setSpeed = useCallback((next: NarrationSpeed) => {
