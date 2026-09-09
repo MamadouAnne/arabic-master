@@ -1,7 +1,7 @@
 // Story of Prophet Yaqub (يعقوب) - Israel
 // Single continuous narrative with Quran sources
 
-import { Prophet, SubStory, StoryContentBlock, QuranReference } from '../../../../types/prophetStories';
+import { Prophet, SubStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/prophetStories';
 
 // Full prophet data with story details
 export const yaqubStory: Prophet = {
@@ -9,7 +9,7 @@ export const yaqubStory: Prophet = {
   nameEnglish: 'Yaqub',
   nameFrench: 'Yaqoub',
   nameArabic: 'يعقوب',
-  order: 10,
+  order: 1,
   title: 'Israel',
   titleFr: 'Israël',
   titleArabic: 'إسرائيل',
@@ -43,15 +43,15 @@ const yaqubStoryContent: StoryContentBlock[] = [
     id: 'yaqub-1',
     type: 'narrative',
     order: 1,
-    content: "Prophet Yaqub was born to Prophet Ishaq and his wife Rebekah. He was the grandson of the great Prophet Ibrahim, inheriting the prophetic legacy that Allah had placed in this blessed family. Yaqub had a twin brother named Esau, and from his youth, Yaqub was known for his righteousness and devotion to Allah.",
-    contentFr: "Le prophète Yaqoub naquit du prophète Ishaq et de sa femme Rébecca. Il était le petit-fils du grand prophète Ibrahim, héritant de l'héritage prophétique qu'Allah avait placé dans cette famille bénie. Yaqoub avait un frère jumeau nommé Ésaü, et dès sa jeunesse, Yaqoub était connu pour sa droiture et sa dévotion envers Allah.",
+    content: "Prophet Yaqub was the son of Prophet Ishaq and the grandson of the great Prophet Ibrahim, inheriting the prophetic legacy that Allah had placed in this blessed family. The Quran does not name his mother or describe his childhood, and we do not add such details from other scriptures. What the Quran shows is a man devoted to Allah from his youth.",
+    contentFr: "Le Prophète Yaqoub était le fils du Prophète Ishaq et le petit-fils du grand Prophète Ibrahim, héritant de l'héritage prophétique qu'Allah avait placé dans cette famille bénie. Le Coran ne nomme pas sa mère et ne décrit pas son enfance, et nous n'ajoutons pas de tels détails à partir d'autres écritures. Ce que le Coran montre, c'est un homme dévoué à Allah dès sa jeunesse.",
   },
   {
     id: 'yaqub-2',
     type: 'narrative',
     order: 2,
-    content: "Allah chose Yaqub to continue the prophetic mission and granted him the title 'Israel' (عبد الله - servant of Allah). Through him, Allah would establish a great nation - the Children of Israel - who would receive many prophets and divine scriptures in the generations to come.",
-    contentFr: "Allah choisit Yaqoub pour poursuivre la mission prophétique et lui accorda le titre d'Israël (عبد الله - serviteur d'Allah). À travers lui, Allah allait établir une grande nation - les enfants d'Israël - qui recevrait de nombreux prophètes et écritures divines dans les générations à venir.",
+    content: "Allah chose Yaqub to continue the prophetic mission and gave him the name 'Israel', which the commentators explain as meaning 'servant of Allah'. Through him, Allah would establish a great nation - the Children of Israel - who would receive many prophets and divine scriptures in the generations to come.",
+    contentFr: "Allah choisit Yaqoub pour poursuivre la mission prophétique et lui donna le nom d'« Israël », que les commentateurs expliquent comme signifiant « serviteur d'Allah ». À travers lui, Allah établirait une grande nation, les Enfants d'Israël, qui recevrait de nombreux prophètes et écritures divines dans les générations à venir.",
   },
   {
     id: 'yaqub-3',
@@ -72,23 +72,40 @@ const yaqubStoryContent: StoryContentBlock[] = [
     } as QuranReference,
   },
   {
+    id: 'yaqub-3b',
+    type: 'hadith_source',
+    order: 4,
+    content: "The Prophet ﷺ described this noble line of prophets.",
+    contentFr: "Le Prophète ﷺ a décrit cette noble lignée de prophètes.",
+    source: {
+      type: "hadith",
+      collection: "bukhari",
+      hadithNumber: "3390",
+      narrator: "Abdullah ibn Umar",
+      arabicText: "الْكَرِيمُ ابْنُ الْكَرِيمِ ابْنِ الْكَرِيمِ ابْنِ الْكَرِيمِ: يُوسُفُ بْنُ يَعْقُوبَ بْنِ إِسْحَاقَ بْنِ إِبْرَاهِيمَ",
+      translation: "The noble one, son of the noble one, son of the noble one, son of the noble one: Yusuf, son of Yaqub, son of Ishaq, son of Ibrahim.",
+      translationFr: "Le noble, fils du noble, fils du noble, fils du noble : Yusuf, fils de Yaqoub, fils d'Ishaq, fils d'Ibrahim.",
+      grade: "sahih",
+    } as HadithReference,
+  },
+  {
     id: 'yaqub-4',
     type: 'narrative',
-    order: 4,
-    content: "Yaqub married and was blessed with twelve sons: Yusuf, Binyamin (Benjamin), Ruben, Simeon, Levi, Judah, Dan, Naphtali, Gad, Asher, Issachar, and Zebulun. These twelve sons would become the patriarchs of the twelve tribes of Israel. Among all his sons, Yaqub had a special love for Yusuf and his younger brother Binyamin, as they were the sons of his beloved wife Rachel who had passed away.",
-    contentFr: "Yaqoub se maria et fut béni de douze fils : Youssouf, Binyamin (Benjamin), Ruben, Siméon, Lévi, Juda, Dan, Nephtali, Gad, Asher, Issacar et Zabulon. Ces douze fils allaient devenir les patriarches des douze tribus d'Israël. Parmi tous ses fils, Yaqoub avait un amour particulier pour Youssouf et son jeune frère Binyamin, car ils étaient les fils de sa femme bien-aimée Rachel qui était décédée.",
+    order: 5,
+    content: "Yaqub was blessed with twelve sons, who became the fathers of the tribes of the Children of Israel (al-Asbat). The Quran names only Yusuf among them; the commentators call Yusuf's full brother Binyamin. Yaqub had a special love for Yusuf and his younger brother, and the other brothers resented it.",
+    contentFr: "Yaqoub fut béni par douze fils, qui devinrent les pères des tribus des Enfants d'Israël (al-Asbat). Le Coran ne nomme que Yusuf parmi eux ; les commentateurs appellent Binyamin le frère germain de Yusuf. Yaqoub avait un amour particulier pour Yusuf et son jeune frère, et les autres frères en prirent ombrage.",
   },
   {
     id: 'yaqub-5',
     type: 'narrative',
-    order: 5,
+    order: 6,
     content: "One day, the young Yusuf came to his father with an extraordinary dream. He had seen eleven stars, the sun, and the moon all prostrating to him. Yaqub immediately recognized this as a divine vision indicating a great future for his son.",
     contentFr: "Un jour, le jeune Youssouf vint trouver son père avec un rêve extraordinaire. Il avait vu onze étoiles, le soleil et la lune se prosterner devant lui. Yaqoub reconnut immédiatement qu'il s'agissait d'une vision divine indiquant un grand avenir pour son fils.",
   },
   {
     id: 'yaqub-6',
     type: 'quran_source',
-    order: 6,
+    order: 7,
     content: "Yusuf told his father about his remarkable dream.",
     contentFr: "Youssouf raconta à son père son rêve remarquable.",
     source: {
@@ -106,14 +123,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-7',
     type: 'narrative',
-    order: 7,
+    order: 8,
     content: "Yaqub, with his prophetic wisdom, understood that the dream foretold Yusuf's future greatness. He also knew that such news might provoke jealousy among his other sons. He warned Yusuf not to share this dream with his brothers, recognizing that Satan could exploit their jealousy to plot against him.",
     contentFr: "Yaqoub, avec sa sagesse prophétique, comprit que le rêve annonçait la grandeur future de Youssouf. Il savait aussi qu'une telle nouvelle pourrait provoquer la jalousie parmi ses autres fils. Il avertit Youssouf de ne pas partager ce rêve avec ses frères, reconnaissant que Satan pourrait exploiter leur jalousie pour comploter contre lui.",
   },
   {
     id: 'yaqub-8',
     type: 'quran_source',
-    order: 8,
+    order: 9,
     content: "Yaqub explained the significance of the dream to Yusuf.",
     contentFr: "Yaqoub expliqua la signification du rêve à Youssouf.",
     source: {
@@ -131,14 +148,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-9',
     type: 'narrative',
-    order: 9,
+    order: 10,
     content: "Despite Yaqub's warning, the other brothers had already noticed their father's special affection for Yusuf and Binyamin. Their jealousy grew into resentment, and they began to plot against their young brother.",
     contentFr: "Malgré l'avertissement de Yaqoub, les autres frères avaient déjà remarqué l'affection particulière de leur père pour Youssouf et Binyamin. Leur jalousie se transforma en ressentiment, et ils commencèrent à comploter contre leur jeune frère.",
   },
   {
     id: 'yaqub-10',
     type: 'quran_source',
-    order: 10,
+    order: 11,
     content: "The brothers complained about their father's favoritism.",
     contentFr: "Les frères se plaignirent du favoritisme de leur père.",
     source: {
@@ -156,14 +173,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-11',
     type: 'narrative',
-    order: 11,
+    order: 12,
     content: "The brothers devised a plan. They asked their father to let Yusuf accompany them on a trip to graze the sheep, promising to look after him and let him play. Yaqub was reluctant, expressing his fear that a wolf might devour Yusuf while they were distracted.",
     contentFr: "Les frères élaborèrent un plan. Ils demandèrent à leur père de laisser Youssouf les accompagner pour faire paître les moutons, promettant de veiller sur lui et de le laisser jouer. Yaqoub était réticent, exprimant sa crainte qu'un loup ne dévore Youssouf pendant qu'ils seraient distraits.",
   },
   {
     id: 'yaqub-12',
     type: 'quran_source',
-    order: 12,
+    order: 13,
     content: "Yaqub expressed his concern about sending Yusuf with his brothers.",
     contentFr: "Yaqoub exprima son inquiétude à l'idée d'envoyer Youssouf avec ses frères.",
     source: {
@@ -181,14 +198,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-13',
     type: 'narrative',
-    order: 13,
+    order: 14,
     content: "Eventually, Yaqub allowed Yusuf to go with his brothers. But they betrayed their father's trust. They threw Yusuf into a deep well and left him there. Then they returned to their father at night, weeping false tears, claiming that a wolf had eaten Yusuf while they were racing.",
     contentFr: "Finalement, Yaqoub permit à Youssouf d'accompagner ses frères. Mais ils trahirent la confiance de leur père. Ils jetèrent Youssouf dans un puits profond et l'y abandonnèrent. Puis ils revinrent auprès de leur père la nuit, versant de fausses larmes, prétendant qu'un loup avait mangé Youssouf pendant qu'ils faisaient la course.",
   },
   {
     id: 'yaqub-14',
     type: 'quran_source',
-    order: 14,
+    order: 15,
     content: "The brothers came to their father with their fabricated story.",
     contentFr: "Les frères vinrent trouver leur père avec leur histoire fabriquée.",
     source: {
@@ -206,28 +223,28 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-15',
     type: 'narrative',
-    order: 15,
-    content: "Yaqub saw through their deception. The shirt they presented had blood but no tears - a wolf that supposedly devoured a boy would have torn his garment. But despite knowing their story was false, Yaqub responded with remarkable patience. He said 'فَصَبْرٌ جَمِيلٌ' (fa-sabrun jameel) - 'So patience is most fitting.' This beautiful patience became the hallmark of Yaqub's response to this tragedy.",
-    contentFr: "Yaqoub vit clair dans leur tromperie. La chemise qu'ils présentaient portait du sang mais pas de déchirures - un loup qui aurait supposément dévoré un garçon aurait déchiré son vêtement. Mais bien qu'il sut que leur histoire était fausse, Yaqoub répondit avec une patience remarquable. Il dit 'فَصَبْرٌ جَمِيلٌ' (fa-sabrun jameel) - 'Patience est donc de mise.' Cette belle patience devint la marque de la réponse de Yaqoub à cette tragédie.",
+    order: 16,
+    content: "Yaqub saw through their deception. The commentators note that the shirt they presented was bloodied but not torn - a wolf that devoured a boy would have torn his garment. Whatever the sign, Yaqub knew their story was false, yet he responded with remarkable patience. He said 'فَصَبْرٌ جَمِيلٌ' (fa-sabrun jameel) - 'So patience is most fitting.' This beautiful patience became the hallmark of Yaqub's response to this tragedy.",
+    contentFr: "Yaqoub perça leur tromperie. Les commentateurs notent que la chemise qu'ils présentèrent était ensanglantée mais non déchirée ; un loup qui aurait dévoré un garçon aurait déchiré son vêtement. Quel que soit le signe, Yaqoub savait que leur histoire était fausse, mais il répondit avec une patience remarquable. Il dit « فَصَبْرٌ جَمِيلٌ » (fa-sabrun jameel) : « Une belle patience convient. » Cette belle patience devint la marque de la réponse de Yaqoub à cette tragédie.",
   },
   {
     id: 'yaqub-16',
     type: 'narrative',
-    order: 16,
+    order: 17,
     content: "What is 'beautiful patience'? The scholars explain that it is patience without complaint to anyone other than Allah. It is patience that is dignified, that does not involve wailing or expressing grievances to people. Yaqub cried and grieved - for that is natural - but he did not complain about Allah's decree to His creation. He kept his grief between himself and his Lord.",
     contentFr: "Qu'est-ce que la 'belle patience' ? Les savants expliquent que c'est la patience sans se plaindre à quiconque autre qu'Allah. C'est une patience digne, qui n'implique ni lamentations ni expression de griefs auprès des gens. Yaqoub pleura et souffrit - car c'est naturel - mais il ne se plaignit pas du décret d'Allah auprès de Sa création. Il garda son chagrin entre lui et son Seigneur.",
   },
   {
     id: 'yaqub-17',
     type: 'narrative',
-    order: 17,
+    order: 18,
     content: "Years passed, and Yaqub never forgot Yusuf. His grief never diminished, and he wept so much that he eventually lost his eyesight. Yet through all this suffering, he maintained his trust in Allah and never lost hope that Allah would reunite him with his son.",
     contentFr: "Les années passèrent, et Yaqoub n'oublia jamais Youssouf. Son chagrin ne diminua jamais, et il pleura tant qu'il finit par perdre la vue. Pourtant, à travers toute cette souffrance, il maintint sa confiance en Allah et ne perdit jamais espoir qu'Allah le réunirait avec son fils.",
   },
   {
     id: 'yaqub-18',
     type: 'quran_source',
-    order: 18,
+    order: 19,
     content: "Yaqub's grief caused him to lose his eyesight.",
     contentFr: "Le chagrin de Yaqoub lui fit perdre la vue.",
     source: {
@@ -245,14 +262,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-19',
     type: 'narrative',
-    order: 19,
+    order: 20,
     content: "The word 'كَظِيمٌ' (kazeem) means one who suppresses and contains his grief, not expressing it outwardly to people. Yaqub was grieving intensely, but he contained it within himself and directed his complaints only to Allah. When his sons criticized him for his excessive grief, he reminded them of his relationship with Allah.",
     contentFr: "Le mot 'كَظِيمٌ' (kazeem) désigne celui qui contient et refrène son chagrin, ne l'exprimant pas ouvertement aux gens. Yaqoub souffrait intensément, mais il contenait sa douleur en lui-même et n'adressait ses plaintes qu'à Allah. Quand ses fils le critiquèrent pour son chagrin excessif, il leur rappela sa relation avec Allah.",
   },
   {
     id: 'yaqub-20',
     type: 'quran_source',
-    order: 20,
+    order: 21,
     content: "Yaqub expressed that he complains only to Allah.",
     contentFr: "Yaqoub exprima qu'il ne se plaint qu'à Allah.",
     source: {
@@ -270,28 +287,28 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-21',
     type: 'narrative',
-    order: 21,
+    order: 22,
     content: "Even after decades of separation and grief, Yaqub maintained his certainty that Yusuf was alive. He told his sons to go and search for Yusuf and his brother, and he reminded them never to despair of Allah's mercy and relief. This unwavering hope in Allah, despite all evidence suggesting otherwise, is one of the greatest lessons from Yaqub's story.",
     contentFr: "Même après des décennies de séparation et de chagrin, Yaqoub maintint sa certitude que Youssouf était vivant. Il dit à ses fils d'aller chercher Youssouf et son frère, et il leur rappela de ne jamais désespérer de la miséricorde et du soulagement d'Allah. Cet espoir indéfectible en Allah, malgré toutes les apparences contraires, est l'une des plus grandes leçons de l'histoire de Yaqoub.",
   },
   {
     id: 'yaqub-22',
     type: 'narrative',
-    order: 22,
+    order: 23,
     content: "Meanwhile, Allah had elevated Yusuf from the depths of a well to the heights of power in Egypt. Through trials and tribulations - being sold as a slave, being imprisoned unjustly - Yusuf had risen to become the treasurer of Egypt, second only to the king. When a famine struck, Yaqub's sons came to Egypt to buy grain, not knowing that the powerful minister they were dealing with was their long-lost brother.",
     contentFr: "Pendant ce temps, Allah avait élevé Youssouf des profondeurs d'un puits aux sommets du pouvoir en Égypte. À travers les épreuves et les tribulations - vendu comme esclave, emprisonné injustement - Youssouf s'était hissé au rang de trésorier d'Égypte, second seulement après le roi. Quand une famine frappa, les fils de Yaqoub vinrent en Égypte acheter du grain, ignorant que le puissant ministre avec lequel ils traitaient était leur frère perdu depuis longtemps.",
   },
   {
     id: 'yaqub-23',
     type: 'narrative',
-    order: 23,
+    order: 24,
     content: "Eventually, Yusuf revealed his identity to his brothers. He forgave them completely and asked them to bring their father and entire family to Egypt. When the brothers returned to Yaqub with Yusuf's shirt and the good news, something miraculous happened.",
     contentFr: "Finalement, Youssouf révéla son identité à ses frères. Il leur pardonna entièrement et leur demanda d'amener leur père et toute la famille en Égypte. Quand les frères revinrent auprès de Yaqoub avec la chemise de Youssouf et la bonne nouvelle, quelque chose de miraculeux se produisit.",
   },
   {
     id: 'yaqub-24',
     type: 'quran_source',
-    order: 24,
+    order: 25,
     content: "Yaqub could sense Yusuf's scent from afar.",
     contentFr: "Yaqoub pouvait sentir l'odeur de Youssouf de loin.",
     source: {
@@ -309,21 +326,21 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-25',
     type: 'narrative',
-    order: 25,
+    order: 26,
     content: "When Yusuf's shirt was placed on Yaqub's face, his eyesight was miraculously restored - the same shirt that had been stained with false blood years ago now became the means of healing. Yaqub's faith and patience had been vindicated. He had known from Allah what others could not know.",
     contentFr: "Quand la chemise de Youssouf fut posée sur le visage de Yaqoub, sa vue fut miraculeusement restaurée - la même chemise qui avait été tachée de faux sang des années auparavant devint le moyen de guérison. La foi et la patience de Yaqoub avaient été confirmées. Il savait d'Allah ce que les autres ne pouvaient savoir.",
   },
   {
     id: 'yaqub-26',
     type: 'narrative',
-    order: 26,
+    order: 27,
     content: "Yaqub traveled to Egypt with his entire family. When he was finally reunited with Yusuf, it was the fulfillment of decades of longing and patient waiting. And in that moment, Yusuf's childhood dream was fulfilled as well.",
     contentFr: "Yaqoub voyagea en Égypte avec toute sa famille. Quand il fut enfin réuni avec Youssouf, ce fut l'aboutissement de décennies d'attente et de patience. Et en cet instant, le rêve d'enfance de Youssouf se réalisa également.",
   },
   {
     id: 'yaqub-27',
     type: 'quran_source',
-    order: 27,
+    order: 28,
     content: "Yusuf's dream was fulfilled when his family prostrated before him.",
     contentFr: "Le rêve de Youssouf se réalisa quand sa famille se prosterna devant lui.",
     source: {
@@ -341,21 +358,21 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-28',
     type: 'narrative',
-    order: 28,
+    order: 29,
     content: "Yaqub lived the remainder of his years in Egypt, surrounded by his children and grandchildren, with his beloved Yusuf by his side. His patience had been rewarded beyond measure. Allah had turned his grief into joy, his blindness into sight, and his separation into reunion.",
     contentFr: "Yaqoub vécut le reste de ses années en Égypte, entouré de ses enfants et petits-enfants, avec son bien-aimé Youssouf à ses côtés. Sa patience avait été récompensée au-delà de toute mesure. Allah avait transformé son chagrin en joie, sa cécité en vue, et sa séparation en retrouvailles.",
   },
   {
     id: 'yaqub-29',
     type: 'narrative',
-    order: 29,
+    order: 30,
     content: "As Yaqub approached the end of his life, his greatest concern was ensuring that his children would continue upon the path of monotheism - worshipping Allah alone. He gathered his sons around him and made them testify to their faith.",
     contentFr: "Alors que Yaqoub approchait de la fin de sa vie, sa plus grande préoccupation était de s'assurer que ses enfants continueraient sur le chemin du monothéisme - adorer Allah seul. Il rassembla ses fils autour de lui et les fit témoigner de leur foi.",
   },
   {
     id: 'yaqub-30',
     type: 'quran_source',
-    order: 30,
+    order: 31,
     content: "Yaqub made his sons pledge to worship Allah alone after his death.",
     contentFr: "Yaqoub fit promettre à ses fils d'adorer Allah seul après sa mort.",
     source: {
@@ -373,14 +390,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-31',
     type: 'narrative',
-    order: 31,
+    order: 32,
     content: "This final scene shows Yaqub's priorities as a prophet and a father. Even in his dying moments, his concern was not for worldly matters but for the spiritual welfare of his descendants. He wanted to ensure that the legacy of monotheism - the faith of his grandfather Ibrahim - would continue through his sons.",
     contentFr: "Cette scène finale montre les priorités de Yaqoub en tant que prophète et père. Même dans ses derniers instants, sa préoccupation n'était pas les affaires de ce monde mais le bien-être spirituel de ses descendants. Il voulait s'assurer que l'héritage du monothéisme - la foi de son grand-père Ibrahim - se perpétuerait à travers ses fils.",
   },
   {
     id: 'yaqub-32',
     type: 'quran_source',
-    order: 32,
+    order: 33,
     content: "Allah commands believers to believe in all the prophets including Yaqub.",
     contentFr: "Allah ordonne aux croyants de croire en tous les prophètes, y compris Yaqoub.",
     source: {
@@ -398,14 +415,14 @@ const yaqubStoryContent: StoryContentBlock[] = [
   {
     id: 'yaqub-33',
     type: 'narrative',
-    order: 33,
-    content: "Prophet Yaqub passed away in Egypt and was later buried in Hebron (Al-Khalil) alongside his father Ishaq and grandfather Ibrahim. His life stands as one of the most powerful examples of patience, trust in Allah, and unwavering faith in the face of overwhelming grief.",
-    contentFr: "Le prophète Yaqoub décéda en Égypte et fut plus tard enterré à Hébron (Al-Khalil) aux côtés de son père Ishaq et de son grand-père Ibrahim. Sa vie demeure l'un des exemples les plus puissants de patience, de confiance en Allah et de foi inébranlable face à un chagrin accablant.",
+    order: 34,
+    content: "The Quran does not describe where Prophet Yaqub was buried. His life stands as one of the most powerful examples of patience, trust in Allah, and unwavering faith in the face of overwhelming grief.",
+    contentFr: "Le Coran ne décrit pas le lieu où le Prophète Yaqoub fut enterré. Sa vie demeure l'un des exemples les plus puissants de patience, de confiance en Allah et de foi inébranlable face à un chagrin accablant.",
   },
   {
     id: 'yaqub-34',
     type: 'narrative',
-    order: 34,
+    order: 35,
     content: "The lessons from Yaqub's story continue to inspire believers: that beautiful patience (sabr jameel) means complaining only to Allah and not to His creation; that one should never despair of Allah's mercy no matter how long the trial; that Allah's plan, though we may not understand it, is always for our ultimate good; and that a believer's greatest legacy is passing the torch of faith to the next generation.",
     contentFr: "Les leçons de l'histoire de Yaqoub continuent d'inspirer les croyants : la belle patience (sabr jameel) signifie ne se plaindre qu'à Allah et non à Sa création ; on ne doit jamais désespérer de la miséricorde d'Allah, peu importe la durée de l'épreuve ; le plan d'Allah, même si nous ne le comprenons pas, est toujours pour notre bien ultime ; et le plus grand héritage d'un croyant est de transmettre le flambeau de la foi à la génération suivante.",
   },
@@ -419,7 +436,7 @@ export const yaqubSubStories: SubStory[] = [
     title: 'The Story of Prophet Yaqub',
     titleFr: 'L\'Histoire du Prophète Yaqoub',
     titleArabic: 'قصة نبي الله يعقوب',
-    order: 1,
+    order: 36,
     estimatedReadTime: 20,
     content: yaqubStoryContent,
   },

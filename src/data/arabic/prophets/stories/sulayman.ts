@@ -13,8 +13,8 @@ export const sulaymanStory: Prophet = {
   title: 'The King of Jinn and Men',
   titleFr: 'Le Roi des Djinns et des Hommes',
   titleArabic: 'ملك الجن والإنس',
-  summary: "Prophet Sulayman (Solomon), son of Dawud, inherited his father's kingdom and prophethood. Allah granted him unprecedented power: command over the wind, subjugation of the jinn, understanding of the language of birds and animals, and wisdom beyond any ruler. His kingdom was the greatest ever given to a human being. He built the Temple in Jerusalem using jinn labor, received the Queen of Sheba (Bilqis), and ruled with justice and gratitude. Despite his immense power, he remained a devoted servant of Allah, and his death - standing supported by his staff while jinn continued working - revealed how little even they understood of the unseen.",
-  summaryFr: "Le Prophète Soulayman (Salomon), fils de Dawoud, hérita du royaume et de la prophétie de son père. Allah lui accorda un pouvoir sans précédent : le commandement sur le vent, l'assujettissement des djinns, la compréhension du langage des oiseaux et des animaux, et une sagesse au-delà de tout dirigeant. Son royaume fut le plus grand jamais donné à un être humain. Il construisit le Temple de Jérusalem grâce au travail des djinns, reçut la Reine de Saba (Bilqis) et régna avec justice et gratitude. Malgré son immense pouvoir, il resta un serviteur dévoué d'Allah, et sa mort — debout appuyé sur son bâton pendant que les djinns continuaient à travailler — révéla combien même eux comprenaient peu de l'invisible.",
+  summary: "Prophet Sulayman (Solomon), son of Dawud, inherited his father's kingdom and prophethood. Allah granted him unprecedented power: command over the wind, subjugation of the jinn, understanding of the language of birds and animals, and wisdom beyond any ruler. His kingdom was the greatest ever given to a human being. He built Bayt al-Maqdis, received the queen of Saba (Sheba), and ruled with justice and gratitude. Despite his immense power, he remained a devoted servant of Allah, and his death - standing supported by his staff while jinn continued working - revealed how little even they understood of the unseen.",
+  summaryFr: "Le Prophète Soulayman (Salomon), fils de Dawoud, hérita du royaume et de la prophétie de son père. Allah lui accorda un pouvoir sans précédent : le commandement sur le vent, l'assujettissement des djinns, la compréhension du langage des oiseaux et des animaux, et une sagesse au-delà de tout dirigeant. Son royaume fut le plus grand jamais donné à un être humain. Il construisit Bayt al-Maqdis, reçut la reine de Saba et régna avec justice et gratitude. Malgré son immense pouvoir, il resta un serviteur dévoué d'Allah, et sa mort — debout appuyé sur son bâton pendant que les djinns continuaient à travailler — révéla combien même eux comprenaient peu de l'invisible.",
   hasSubStories: false,
   lessons: [
     'Power is a trust from Allah to be used justly',
@@ -190,16 +190,33 @@ const sulaymanStoryContent: StoryContentBlock[] = [
     contentFr: "Les djinns construisirent pour Soulayman de magnifiques palais (maharib), des statues et structures impressionnantes, d'énormes plateaux pouvant servir des multitudes, et de massives marmites fixées en place. Il reçut aussi une source de cuivre en fusion. Tout cela fut donné avec un commandement : « Œuvrez par reconnaissance. » Et Allah note que peu de Ses serviteurs sont vraiment reconnaissants — rendant la gratitude de Soulayman d'autant plus louable.",
   },
   {
+    id: 'sulayman-12b',
+    type: 'hadith_source',
+    order: 13,
+    content: "The Prophet ﷺ narrated Sulayman's supplication when he built Bayt al-Maqdis (Sunan an-Nasa'i and Ibn Majah; graded authentic by al-Albani).",
+    contentFr: "Le Prophète ﷺ a rapporté l'invocation de Soulayman lorsqu'il construisit Bayt al-Maqdis (Sunan an-Nasa'i et Ibn Majah ; jugé authentique par Al-Albani).",
+    source: {
+      type: "hadith",
+      collection: "nasai",
+      hadithNumber: "693",
+      narrator: "Abdullah ibn Amr",
+      arabicText: "إِنَّ سُلَيْمَانَ بْنَ دَاوُدَ لَمَّا بَنَى بَيْتَ الْمَقْدِسِ سَأَلَ اللَّهَ ثَلَاثًا: حُكْمًا يُصَادِفُ حُكْمَهُ، وَمُلْكًا لَا يَنْبَغِي لِأَحَدٍ مِنْ بَعْدِهِ، وَأَلَّا يَأْتِيَ هَذَا الْمَسْجِدَ أَحَدٌ لَا يُرِيدُ إِلَّا الصَّلَاةَ فِيهِ إِلَّا خَرَجَ مِنْ ذُنُوبِهِ كَيَوْمِ وَلَدَتْهُ أُمُّهُ",
+      translation: "When Sulayman ibn Dawud built Bayt al-Maqdis, he asked Allah for three things: judgement that would accord with His judgement, a kingdom that would not belong to anyone after him, and that no one should come to this mosque intending only to pray in it except that he would leave his sins behind as on the day his mother bore him. The Prophet ﷺ said: 'As for two of them, he was given them, and I hope he was given the third.'",
+      translationFr: "Lorsque Soulayman ibn Dawoud construisit Bayt al-Maqdis, il demanda trois choses à Allah : un jugement conforme à Son jugement, un royaume qui n'appartiendrait à personne après lui, et que nul ne vienne à cette mosquée avec la seule intention d'y prier sans en ressortir libéré de ses péchés comme au jour où sa mère l'a mis au monde. Le Prophète ﷺ dit : « Deux lui furent accordées, et j'espère que la troisième lui fut accordée. »",
+      grade: "sahih",
+    } as HadithReference,
+  },
+  {
     id: 'sulayman-13',
     type: 'narrative',
-    order: 13,
+    order: 14,
     content: "Note that the 'statues' (tamathil) mentioned here were permitted in Sulayman's law. Each prophet's law had specific rulings. The making of statues was forbidden in the law of Muhammad ﷺ but was permitted for Sulayman. This shows that not all laws remained the same across prophetic traditions.",
     contentFr: "Notez que les « statues » (tamathil) mentionnées ici étaient permises dans la loi de Soulayman. La loi de chaque prophète avait des règles spécifiques. La fabrication de statues fut interdite dans la loi de Muhammad ﷺ mais était permise pour Soulayman. Cela montre que toutes les lois ne restèrent pas les mêmes à travers les traditions prophétiques.",
   },
   {
     id: 'sulayman-14',
     type: 'quran_source',
-    order: 14,
+    order: 15,
     content: "Sulayman's army included jinn, humans, and birds.",
     contentFr: "L'armée de Soulayman comprenait des djinns, des humains et des oiseaux.",
     source: {
@@ -217,14 +234,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-15',
     type: 'narrative',
-    order: 15,
+    order: 16,
     content: "Sulayman's army was unlike any other in history. Jinn soldiers with their supernatural abilities, human soldiers with their skills, and birds serving as scouts and messengers - all marching in disciplined ranks. The birds would fly ahead, reconnoiter territory, and report back. This was a kingdom that combined the seen and unseen worlds.",
     contentFr: "L'armée de Soulayman était sans pareille dans l'histoire. Des soldats djinns avec leurs capacités surnaturelles, des soldats humains avec leurs compétences, et des oiseaux servant d'éclaireurs et de messagers — tous marchant en rangs disciplinés. Les oiseaux volaient en avant, reconnaissaient le terrain et rapportaient. C'était un royaume qui combinait les mondes visible et invisible.",
   },
   {
     id: 'sulayman-16',
     type: 'quran_source',
-    order: 16,
+    order: 17,
     content: "The famous story of Sulayman and the ant.",
     contentFr: "La célèbre histoire de Soulayman et la fourmi.",
     source: {
@@ -242,14 +259,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-17',
     type: 'narrative',
-    order: 17,
+    order: 18,
     content: "This beautiful passage shows several things. First, Sulayman could understand the speech of ants - a tiny creature most people ignore. Second, the ant showed intelligence, awareness of danger, and care for her community. Third, and most importantly, Sulayman's response was not pride in his unique ability, but a prayer for gratitude. Despite commanding armies of jinn and men, he asked Allah to help him be thankful.",
     contentFr: "Ce beau passage montre plusieurs choses. Premièrement, Soulayman pouvait comprendre le langage des fourmis — une créature minuscule que la plupart des gens ignorent. Deuxièmement, la fourmi montra de l'intelligence, la conscience du danger et le souci de sa communauté. Troisièmement, et surtout, la réponse de Soulayman ne fut pas de l'orgueil pour sa capacité unique, mais une prière de gratitude. Malgré le commandement d'armées de djinns et d'hommes, il demanda à Allah de l'aider à être reconnaissant.",
   },
   {
     id: 'sulayman-18',
     type: 'quran_source',
-    order: 18,
+    order: 19,
     content: "Sulayman noticed the hoopoe bird missing from his army.",
     contentFr: "Soulayman remarqua l'absence de la huppe parmi son armée.",
     source: {
@@ -267,14 +284,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-19',
     type: 'narrative',
-    order: 19,
+    order: 20,
     content: "Sulayman kept careful account of his forces. When the hoopoe bird was missing, he was displeased - absence without permission was a serious matter in his disciplined kingdom. He threatened severe punishment unless the bird had a valid excuse. This shows Sulayman's attention to order and accountability.",
     contentFr: "Soulayman tenait un compte minutieux de ses forces. Quand la huppe était absente, il fut mécontent — l'absence sans permission était une affaire sérieuse dans son royaume discipliné. Il menaça d'un châtiment sévère à moins que l'oiseau n'ait une excuse valable. Cela montre l'attention de Soulayman à l'ordre et à la responsabilité.",
   },
   {
     id: 'sulayman-20',
     type: 'quran_source',
-    order: 20,
+    order: 21,
     content: "The hoopoe returned with news of the Queen of Sheba.",
     contentFr: "La huppe revint avec des nouvelles de la Reine de Saba.",
     source: {
@@ -292,14 +309,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-21',
     type: 'narrative',
-    order: 21,
+    order: 22,
     content: "The hoopoe had discovered the kingdom of Sheba (Saba), located in Yemen. It was ruled by a queen named Bilqis, who possessed a magnificent throne and great wealth. But they were sun-worshippers, prostrating to creation instead of the Creator. The hoopoe, a mere bird, expressed dismay at their misguidance and affirmed the truth of tawhid (Allah's oneness).",
     contentFr: "La huppe avait découvert le royaume de Saba, situé au Yémen. Il était dirigé par une reine nommée Bilqis, qui possédait un trône magnifique et une grande richesse. Mais ils étaient adorateurs du soleil, se prosternant devant la création au lieu du Créateur. La huppe, un simple oiseau, exprima son désarroi devant leur égarement et affirma la vérité du tawhid (l'unicité d'Allah).",
   },
   {
     id: 'sulayman-22',
     type: 'quran_source',
-    order: 22,
+    order: 23,
     content: "Sulayman sent a letter to the Queen of Sheba.",
     contentFr: "Soulayman envoya une lettre à la Reine de Saba.",
     source: {
@@ -317,14 +334,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-23',
     type: 'narrative',
-    order: 23,
+    order: 24,
     content: "Sulayman's letter began with 'Bismillahir Rahmanir Raheem' - in the name of Allah, the Most Gracious, the Most Merciful. His message was direct: do not be arrogant, and come in submission to Allah. The queen recognized the letter as noble (karim), indicating it came from a great king. She consulted her advisors.",
     contentFr: "La lettre de Soulayman commençait par « Bismillahir Rahmanir Raheem » — au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. Son message était direct : ne soyez pas arrogants, et venez en soumission à Allah. La reine reconnut la lettre comme noble (karim), indiquant qu'elle venait d'un grand roi. Elle consulta ses conseillers.",
   },
   {
     id: 'sulayman-24',
     type: 'quran_source',
-    order: 24,
+    order: 25,
     content: "The queen's advisors offered to fight, but she chose diplomacy.",
     contentFr: "Les conseillers de la reine offrirent de combattre, mais elle choisit la diplomatie.",
     source: {
@@ -342,14 +359,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-25',
     type: 'narrative',
-    order: 25,
+    order: 26,
     content: "The queen showed wisdom and restraint. Her advisors boasted of military power, but she understood the devastation of war. She decided to test Sulayman with a gift - if he accepted it like ordinary kings seeking wealth, she would know his nature. If he refused, she would know he was different.",
     contentFr: "La reine montra sagesse et retenue. Ses conseillers se vantèrent de leur puissance militaire, mais elle comprit la dévastation de la guerre. Elle décida de tester Soulayman avec un cadeau — s'il l'acceptait comme les rois ordinaires cherchant la richesse, elle connaîtrait sa nature. S'il refusait, elle saurait qu'il était différent.",
   },
   {
     id: 'sulayman-26',
     type: 'quran_source',
-    order: 26,
+    order: 27,
     content: "Sulayman rejected the gift, confirming his prophetic mission.",
     contentFr: "Soulayman rejeta le cadeau, confirmant sa mission prophétique.",
     source: {
@@ -367,14 +384,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-27',
     type: 'narrative',
-    order: 27,
+    order: 28,
     content: "Sulayman's response made clear: he was not interested in wealth. What Allah had given him far exceeded anything they could offer. He sent the gift back with a warning. The queen decided to come herself and see this remarkable king. As she traveled, Sulayman prepared a demonstration of power.",
     contentFr: "La réponse de Soulayman fut claire : il n'était pas intéressé par la richesse. Ce qu'Allah lui avait donné dépassait de loin tout ce qu'ils pouvaient offrir. Il renvoya le cadeau avec un avertissement. La reine décida de venir elle-même voir ce roi remarquable. Pendant qu'elle voyageait, Soulayman prépara une démonstration de puissance.",
   },
   {
     id: 'sulayman-28',
     type: 'quran_source',
-    order: 28,
+    order: 29,
     content: "Sulayman asked who could bring the queen's throne before she arrived.",
     contentFr: "Soulayman demanda qui pourrait apporter le trône de la reine avant son arrivée.",
     source: {
@@ -392,14 +409,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-29',
     type: 'narrative',
-    order: 29,
-    content: "A powerful jinn (ifrit) offered to bring the throne before Sulayman could stand from his seat - a matter of minutes. But someone with 'knowledge from the Scripture' - identified by scholars as Asif ibn Barkhiya, a righteous human servant - offered to bring it instantly, in the blink of an eye. And he did. When Sulayman saw the throne appear before him, he again attributed it to Allah's bounty, seeing it as a test of his gratitude.",
-    contentFr: "Un djinn puissant (ifrit) proposa d'apporter le trône avant que Soulayman ne se lève de son siège — une affaire de minutes. Mais quelqu'un ayant « une science du Livre » — identifié par les savants comme Asif ibn Barkhiya, un serviteur humain vertueux — proposa de l'apporter instantanément, en un clin d'œil. Et il le fit. Quand Soulayman vit le trône apparaître devant lui, il l'attribua de nouveau à la générosité d'Allah, le voyant comme un test de sa gratitude.",
+    order: 30,
+    content: "A powerful jinn (ifrit) offered to bring the throne before Sulayman could rise from his seat - a matter of minutes. But one who had 'knowledge from the Scripture' - identified by some commentators as a righteous man named Asif ibn Barkhiya, though the Quran does not name him - offered to bring it in the blink of an eye. And he did. When Sulayman saw the throne before him, he again attributed it to Allah's bounty, seeing it as a test of his gratitude.",
+    contentFr: "Un djinn puissant (ifrit) proposa d'apporter le trône avant que Soulayman ne se lève de son siège, une affaire de quelques minutes. Mais celui qui avait « une connaissance du Livre », identifié par certains commentateurs comme un homme pieux nommé Asif ibn Barkhiya, bien que le Coran ne le nomme pas, proposa de l'apporter en un clin d'œil. Et il le fit. Lorsque Soulayman vit le trône devant lui, il l'attribua de nouveau à la grâce d'Allah, y voyant une épreuve de sa gratitude.",
   },
   {
     id: 'sulayman-30',
     type: 'quran_source',
-    order: 30,
+    order: 31,
     content: "The queen was tested and then shown Sulayman's palace.",
     contentFr: "La reine fut mise à l'épreuve puis on lui montra le palais de Soulayman.",
     source: {
@@ -417,21 +434,21 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-31',
     type: 'narrative',
-    order: 31,
+    order: 32,
     content: "When the queen saw her throne - transported hundreds of miles instantaneously - she recognized something miraculous was at work. Then Sulayman showed her a palace floor made of transparent glass over water. She thought it was actual water and lifted her dress to walk through. When she realized it was glass, she understood: just as she was deceived by appearance, so too had she been deceived by sun-worship. She submitted to Allah.",
     contentFr: "Quand la reine vit son trône — transporté instantanément sur des centaines de kilomètres — elle reconnut que quelque chose de miraculeux était à l'œuvre. Puis Soulayman lui montra un sol de palais fait de cristal transparent au-dessus de l'eau. Elle pensa que c'était de l'eau réelle et releva sa robe pour la traverser. Quand elle réalisa que c'était du cristal, elle comprit : tout comme elle avait été trompée par l'apparence, elle avait aussi été trompée par l'adoration du soleil. Elle se soumit à Allah.",
   },
   {
     id: 'sulayman-32',
     type: 'narrative',
-    order: 32,
-    content: "The Queen of Sheba's conversion was a triumph of Sulayman's da'wah. He did not use violence but demonstration of power, wisdom, and truth. Her intelligence, which had made her a great queen, also allowed her to recognize the truth when she saw it. She became a believer, and according to tradition, Sulayman married her.",
-    contentFr: "La conversion de la Reine de Saba fut un triomphe de la da'wah de Soulayman. Il n'utilisa pas la violence mais la démonstration de la puissance, de la sagesse et de la vérité. Son intelligence, qui avait fait d'elle une grande reine, lui permit aussi de reconnaître la vérité quand elle la vit. Elle devint croyante, et selon la tradition, Soulayman l'épousa.",
+    order: 33,
+    content: "The queen's conversion was a triumph of Sulayman's da'wah. He did not use violence but a demonstration of power, wisdom, and truth. Her intelligence, which had made her a great queen, also allowed her to recognise the truth when she saw it. She became a believer. Some commentators say that Sulayman married her; the Quran does not say so, and nothing authentic establishes it.",
+    contentFr: "La conversion de la reine fut un triomphe de la da'wa de Soulayman. Il n'utilisa pas la violence mais une démonstration de puissance, de sagesse et de vérité. Son intelligence, qui avait fait d'elle une grande reine, lui permit aussi de reconnaître la vérité lorsqu'elle la vit. Elle devint croyante. Certains commentateurs disent que Soulayman l'épousa ; le Coran ne le dit pas, et rien d'authentique ne l'établit.",
   },
   {
     id: 'sulayman-33',
     type: 'quran_source',
-    order: 33,
+    order: 34,
     content: "Sulayman's death revealed the jinn's limited knowledge.",
     contentFr: "La mort de Soulayman révéla les connaissances limitées des djinns.",
     source: {
@@ -449,23 +466,23 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-34',
     type: 'narrative',
-    order: 34,
+    order: 35,
     content: "Sulayman died while leaning on his staff, watching the jinn work. The jinn, fearing his supervision, continued their labor. Only when a termite ate through his staff and his body fell did they realize he had been dead all along. This proved conclusively that jinn do not know the unseen (ghayb). If they did, they would not have continued working in 'humiliating punishment.'",
     contentFr: "Soulayman mourut alors qu'il était appuyé sur son bâton, observant les djinns travailler. Les djinns, craignant sa surveillance, continuèrent leur labeur. Ce n'est que lorsqu'un ver de terre rongea son bâton et que son corps s'écroula qu'ils réalisèrent qu'il était mort depuis longtemps. Cela prouva de manière concluante que les djinns ne connaissent pas l'invisible (ghayb). S'ils le connaissaient, ils ne seraient pas restés dans le « châtiment humiliant ».",
   },
   {
     id: 'sulayman-35',
     type: 'narrative',
-    order: 35,
+    order: 36,
     content: "This final event of Sulayman's story carries profound lessons. The jinn, whom some people fear or think have supernatural knowledge, were fooled by a dead body leaning on a staff. Only Allah knows the unseen. Those who claim jinn or fortune-tellers can reveal the future are refuted by this verse.",
     contentFr: "Ce dernier événement de l'histoire de Soulayman porte des leçons profondes. Les djinns, que certaines personnes craignent ou pensent dotés de connaissances surnaturelles, furent trompés par un corps mort appuyé sur un bâton. Seul Allah connaît l'invisible. Ceux qui prétendent que les djinns ou les voyants peuvent révéler l'avenir sont réfutés par ce verset.",
   },
   {
     id: 'sulayman-36',
     type: 'hadith_source',
-    order: 36,
-    content: "The Prophet Muhammad ﷺ mentioned Sulayman's night prayers.",
-    contentFr: "Le Prophète Muhammad ﷺ mentionna les prières nocturnes de Soulayman.",
+    order: 37,
+    content: "The Prophet ﷺ narrated how Sulayman once omitted to say 'if Allah wills'.",
+    contentFr: "Le Prophète ﷺ a rapporté comment Soulayman omit un jour de dire « si Allah le veut ».",
     source: {
       type: 'hadith',
       collection: 'bukhari',
@@ -479,14 +496,14 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-37',
     type: 'narrative',
-    order: 37,
+    order: 38,
     content: "This hadith shows that even prophets experience consequences when they forget to say 'In sha Allah' (if Allah wills). Sulayman's ambitious plan was not fulfilled because he did not attach his intention to Allah's will. It is a reminder for all believers to always acknowledge Allah's control over all affairs.",
     contentFr: "Ce hadith montre que même les prophètes subissent des conséquences quand ils oublient de dire « In cha Allah » (si Allah le veut). Le plan ambitieux de Soulayman ne fut pas réalisé parce qu'il n'attacha pas son intention à la volonté d'Allah. C'est un rappel pour tous les croyants de toujours reconnaître le contrôle d'Allah sur toutes les affaires.",
   },
   {
     id: 'sulayman-38',
     type: 'quran_source',
-    order: 38,
+    order: 39,
     content: "Allah cleared Sulayman of false accusations.",
     contentFr: "Allah innocenta Soulayman des fausses accusations.",
     source: {
@@ -504,21 +521,21 @@ const sulaymanStoryContent: StoryContentBlock[] = [
   {
     id: 'sulayman-39',
     type: 'narrative',
-    order: 39,
+    order: 40,
     content: "Some people falsely claimed that Sulayman's power came from magic or that he practiced sorcery. The Quran categorically denies this: 'Sulayman did not disbelieve.' His power came from Allah, not from magic. The devils taught people magic during his reign, but he had nothing to do with it. Sulayman was a prophet, and prophets are protected from such sins.",
     contentFr: "Certaines personnes prétendirent faussement que le pouvoir de Soulayman venait de la magie ou qu'il pratiquait la sorcellerie. Le Coran nie catégoriquement cela : « Ce n'est pas Soulayman qui a mécru. » Son pouvoir venait d'Allah, non de la magie. Les diables enseignèrent la magie aux gens pendant son règne, mais il n'avait rien à voir avec cela. Soulayman était un prophète, et les prophètes sont protégés de tels péchés.",
   },
   {
     id: 'sulayman-40',
     type: 'narrative',
-    order: 40,
+    order: 41,
     content: "Prophet Sulayman remains unparalleled in human history. No king before or after possessed what he possessed: command over wind and jinn, understanding of all creatures, unprecedented wealth and wisdom. Yet he used all of this in service of Allah, maintaining gratitude and worship throughout his life.",
     contentFr: "Le Prophète Soulayman reste sans pareil dans l'histoire humaine. Aucun roi avant ou après lui ne posséda ce qu'il posséda : le commandement sur le vent et les djinns, la compréhension de toutes les créatures, une richesse et une sagesse sans précédent. Pourtant, il utilisa tout cela au service d'Allah, maintenant la gratitude et l'adoration tout au long de sa vie.",
   },
   {
     id: 'sulayman-41',
     type: 'narrative',
-    order: 41,
+    order: 42,
     content: "His story teaches us that power is a test. Will the powerful be grateful or arrogant? Will they use their gifts for good or evil? Sulayman passed this test. Every blessing he received made him more humble, more grateful, more devoted to the One who gave it. And when he died, even his enemies - the jinn - were forced to acknowledge their own limitations before Allah's wisdom.",
     contentFr: "Son histoire nous enseigne que le pouvoir est un test. Les puissants seront-ils reconnaissants ou arrogants ? Utiliseront-ils leurs dons pour le bien ou le mal ? Soulayman réussit ce test. Chaque bénédiction qu'il reçut le rendit plus humble, plus reconnaissant, plus dévoué envers Celui qui la lui accorda. Et quand il mourut, même ses ennemis — les djinns — furent contraints de reconnaître leurs propres limites devant la sagesse d'Allah.",
   },
@@ -531,7 +548,7 @@ export const sulaymanSubStories: SubStory[] = [
     prophetId: 'sulayman',
     title: 'The Story of Prophet Sulayman',
     titleArabic: 'قصة نبي الله سليمان',
-    order: 1,
+    order: 43,
     estimatedReadTime: 20,
     content: sulaymanStoryContent,
   },

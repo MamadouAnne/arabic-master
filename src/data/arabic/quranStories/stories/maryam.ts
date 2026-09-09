@@ -1,13 +1,13 @@
 // Story of Maryam (مريم)
 // The Mother of Prophet Isa, peace be upon them
 
-import { QuranStory, StoryContentBlock, QuranReference } from '../../../../types/quranStories';
+import { QuranStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/quranStories';
 
 export const maryamStory: QuranStory = {
   id: 'maryam',
   titleEnglish: 'Maryam - Mother of Isa',
   titleArabic: 'مريم أم عيسى',
-  order: 5,
+  order: 1,
   category: 'individuals',
   description: 'The chosen woman who gave birth to Prophet Isa without a father',
   descriptionFr: 'La femme elue qui donna naissance au Prophete Isa sans pere',
@@ -42,8 +42,8 @@ export const maryamStory: QuranStory = {
       id: 'maryam-1',
       type: 'narrative',
       order: 1,
-      content: "Maryam was born to Imran and Hannah, a righteous couple from the lineage of Prophet Dawud. Before her birth, her mother dedicated the child in her womb to Allah's service in the temple, expecting a boy. When a girl was born, Hannah was initially uncertain, but Allah had great plans for this child.",
-      contentFr: "Maryam naquit d'Imran et Hannah, un couple pieux de la lignee du Prophete Dawud. Avant sa naissance, sa mere dedia l'enfant dans son ventre au service d'Allah dans le temple, s'attendant a un garcon. Quand une fille naquit, Hannah fut d'abord incertaine, mais Allah avait de grands projets pour cet enfant.",
+      content: "Maryam was born into the family of Imran, a righteous household of the Children of Israel. Before her birth, her mother vowed to dedicate the child in her womb to the service of Allah in Bayt al-Maqdis, expecting a boy. When a girl was born, she was at first unsure, but Allah had great plans for this child. The Quran does not name Maryam's mother, and we do not add names from other scriptures.",
+      contentFr: "Maryam naquit dans la famille d'Imran, une maison pieuse des Enfants d'Israël. Avant sa naissance, sa mère fit le vœu de consacrer l'enfant qu'elle portait au service d'Allah dans Bayt al-Maqdis, s'attendant à un garçon. Lorsqu'une fille naquit, elle fut d'abord incertaine, mais Allah avait de grands projets pour cette enfant. Le Coran ne nomme pas la mère de Maryam, et nous n'ajoutons pas de noms tirés d'autres écritures.",
     },
     {
       id: 'maryam-2',
@@ -66,8 +66,8 @@ export const maryamStory: QuranStory = {
       id: 'maryam-3',
       type: 'narrative',
       order: 3,
-      content: "Allah accepted Maryam with a beautiful acceptance and caused her to grow in goodness. Prophet Zakariya, her maternal relative, was appointed as her guardian. He would visit her in her prayer chamber and witness miraculous provisions.",
-      contentFr: "Allah accepta Maryam d'une belle acceptation et la fit croitre en bonte. Le Prophete Zakariya, son parent maternel, fut designe comme son tuteur. Il la visitait dans sa chambre de priere et etait temoin de provisions miraculeuses.",
+      content: "Allah accepted Maryam with a beautiful acceptance and caused her to grow in goodness. When those who served in the sanctuary disputed over who would take charge of her, they cast lots, and the lot fell to Prophet Zakariya (3:44), who according to the commentators was married to her maternal aunt. He would visit her in her prayer chamber and witness miraculous provisions.",
+      contentFr: "Allah accepta Maryam d'une belle acceptation et la fit croître dans le bien. Lorsque ceux qui servaient dans le sanctuaire se disputèrent pour savoir qui la prendrait en charge, ils tirèrent au sort, et le sort tomba sur le Prophète Zakariya (3:44), qui, selon les commentateurs, était marié à sa tante maternelle. Il lui rendait visite dans sa chambre de prière et fut témoin de provisions miraculeuses.",
     },
     {
       id: 'maryam-4',
@@ -90,8 +90,8 @@ export const maryamStory: QuranStory = {
       id: 'maryam-5',
       type: 'narrative',
       order: 5,
-      content: "Maryam would find summer fruits in winter and winter fruits in summer - miraculous provisions that demonstrated Allah's special care for her. Her response to Zakariya's amazement was simple and profound: 'It is from Allah.' This was her unwavering faith.",
-      contentFr: "Maryam trouvait des fruits d'ete en hiver et des fruits d'hiver en ete - des provisions miraculeuses qui demontraient le soin special d'Allah pour elle. Sa reponse a l'etonnement de Zakariya etait simple et profonde : 'Cela vient d'Allah.' Telle etait sa foi inebranlable.",
+      content: "The commentators relate that Zakariya would find with her the fruits of summer in winter and the fruits of winter in summer - provisions that demonstrated Allah's special care for her. Her response to Zakariya's amazement was simple and profound: 'It is from Allah.' This was her unwavering faith.",
+      contentFr: "Les commentateurs rapportent que Zakariya trouvait auprès d'elle les fruits de l'été en hiver et les fruits de l'hiver en été, des provisions qui démontraient le soin particulier d'Allah envers elle. Sa réponse à l'étonnement de Zakariya fut simple et profonde : « Cela vient d'Allah. » Telle était sa foi inébranlable.",
     },
     {
       id: 'maryam-6',
@@ -273,9 +273,25 @@ export const maryamStory: QuranStory = {
       contentFr: "Ils invoquerent sa lignee pieuse pour la faire honte - son pere n'etait pas mauvais, sa mere n'etait pas impudique, pourtant la voila avec un enfant. Quand Maryam pointa vers le bebe, ils penserent qu'elle se moquait d'eux. Comment pourraient-ils parler a un nourrisson ?",
     },
     {
+      id: 'maryam-22b',
+      type: 'hadith_source',
+      order: 23,
+      content: "The Prophet ﷺ explained why she was called 'sister of Harun'.",
+      contentFr: "Le Prophète ﷺ a expliqué pourquoi elle fut appelée « sœur de Haroun ».",
+      source: {
+        type: "hadith",
+        collection: "Sahih Muslim (2135)",
+        narrator: "Al-Mughirah ibn Shu'bah",
+        arabicText: "إِنَّهُمْ كَانُوا يُسَمُّونَ بِأَنْبِيَائِهِمْ وَالصَّالِحِينَ قَبْلَهُمْ",
+        translation: "When I came to Najran, its people asked me: 'You recite \"O sister of Harun\", yet Musa lived long before Isa.' When I returned to the Messenger of Allah ﷺ I asked him about it, and he said: 'They used to name their children after their prophets and the righteous people before them.'",
+        translationFr: "Lorsque je vins à Najran, ses habitants me demandèrent : « Vous récitez \"Ô sœur de Haroun\", alors que Moussa a vécu bien avant Issa. » À mon retour, j'interrogeai le Messager d'Allah ﷺ, et il dit : « Ils donnaient à leurs enfants les noms de leurs prophètes et des gens pieux qui les avaient précédés. »",
+        grade: "sahih",
+      } as HadithReference,
+    },
+    {
       id: 'maryam-23',
       type: 'quran_source',
-      order: 23,
+      order: 24,
       content: "Baby Isa spoke, defending his mother and declaring his prophethood.",
       contentFr: "Le bebe Isa parla, defendant sa mere et declarant sa prophetie.",
       source: {
@@ -292,28 +308,28 @@ export const maryamStory: QuranStory = {
     {
       id: 'maryam-24',
       type: 'narrative',
-      order: 24,
+      order: 25,
       content: "The baby spoke - one of the greatest miracles in human history. His first words declared his servitude to Allah, immediately clarifying that he was not divine but a servant and prophet. He was blessed, commanded to pray and give charity, and - importantly - commanded to be dutiful to his mother. This last point vindicated Maryam completely.",
       contentFr: "Le bebe parla - l'un des plus grands miracles de l'histoire humaine. Ses premiers mots declarerent sa servitude envers Allah, clarifiant immediatement qu'il n'etait pas divin mais un serviteur et prophete. Il fut beni, commande de prier et de donner la charite, et - chose importante - commande d'etre devoue envers sa mere. Ce dernier point disculpa Maryam completement.",
     },
     {
       id: 'maryam-25',
       type: 'narrative',
-      order: 25,
+      order: 26,
       content: "Isa explicitly mentioned being dutiful to his mother and not being a wretched tyrant. Allah made caring for Maryam part of his prophetic mission. This speaks to her honor - that devotion to her was divinely commanded.",
       contentFr: "Isa mentionna explicitement etre devoue envers sa mere et ne pas etre un tyran malheureux. Allah fit du soin de Maryam une partie de sa mission prophetique. Cela temoigne de son honneur - la devotion envers elle fut divinement ordonnee.",
     },
     {
       id: 'maryam-26',
       type: 'narrative',
-      order: 26,
+      order: 27,
       content: "The Quran emphatically defends Maryam's purity against any who questioned it. Her example is held up alongside that of Pharaoh's wife as the pinnacle of faith for believers.",
       contentFr: "Le Coran defend avec emphase la purete de Maryam contre quiconque la remettrait en question. Son exemple est presente aux cotes de celui de l'epouse de Pharaon comme le sommet de la foi pour les croyants.",
     },
     {
       id: 'maryam-27',
       type: 'quran_source',
-      order: 27,
+      order: 28,
       content: "Maryam is cited as an example for all believers.",
       contentFr: "Maryam est citee en exemple pour tous les croyants.",
       source: {
@@ -330,21 +346,37 @@ export const maryamStory: QuranStory = {
     {
       id: 'maryam-28',
       type: 'narrative',
-      order: 28,
+      order: 29,
       content: "Allah explicitly affirms that she guarded her chastity. She believed in Allah's words and scriptures. She was among the devoutly obedient. This verse silences any who would slander her and places her as a model not just for women but for all believers - men and women alike.",
       contentFr: "Allah affirme explicitement qu'elle preserva sa chastete. Elle crut aux paroles d'Allah et a Ses ecritures. Elle etait parmi les devouees obeissantes. Ce verset fait taire quiconque voudrait la calomnier et la place comme modele non seulement pour les femmes mais pour tous les croyants - hommes et femmes.",
     },
     {
       id: 'maryam-29',
+      type: 'hadith_source',
+      order: 30,
+      content: "The Prophet Muhammad ﷺ affirmed Maryam's special status.",
+      contentFr: "Le Prophète Muhammad ﷺ a affirmé le statut particulier de Maryam.",
+      source: {
+        type: "hadith",
+        collection: "Sahih al-Bukhari (3411) and Sahih Muslim (2431)",
+        narrator: "Abu Musa al-Ash'ari",
+        arabicText: "كَمُلَ مِنَ الرِّجَالِ كَثِيرٌ، وَلَمْ يَكْمُلْ مِنَ النِّسَاءِ إِلَّا مَرْيَمُ بِنْتُ عِمْرَانَ وَآسِيَةُ امْرَأَةُ فِرْعَوْنَ",
+        translation: "Many men reached perfection, but among women none reached perfection except Maryam the daughter of Imran and Asiyah the wife of Pharaoh.",
+        translationFr: "Beaucoup d'hommes ont atteint la perfection, mais parmi les femmes, seules Maryam fille d'Imran et Asiya, l'épouse de Pharaon, l'ont atteinte.",
+        grade: "sahih",
+      } as HadithReference,
+    },
+    {
+      id: 'maryam-29b',
       type: 'narrative',
-      order: 29,
-      content: "The Prophet Muhammad (peace be upon him) affirmed Maryam's special status. He said that many men reached perfection, but among women, only Asiyah (wife of Pharaoh) and Maryam daughter of Imran achieved such a rank. Her story continues to inspire millions who see in her the model of faith, patience, and trust in Allah.",
-      contentFr: "Le Prophete Muhammad (paix et salut sur lui) confirma le statut special de Maryam. Il dit que beaucoup d'hommes atteignirent la perfection, mais parmi les femmes, seules Asiyah (epouse de Pharaon) et Maryam fille d'Imran atteignirent un tel rang. Son histoire continue d'inspirer des millions de personnes qui voient en elle le modele de foi, de patience et de confiance en Allah.",
+      order: 31,
+      content: "Her story continues to inspire millions who see in her the model of faith, patience, and trust in Allah.",
+      contentFr: "Son histoire continue d'inspirer des millions de personnes qui voient en elle le modèle de la foi, de la patience et de la confiance en Allah.",
     },
     {
       id: 'maryam-30',
       type: 'narrative',
-      order: 30,
+      order: 32,
       content: "Maryam's legacy is immense. She shows that spiritual excellence is not limited by gender. She demonstrates that true honor comes from Allah, not from human approval. She teaches that in the face of impossible situations, trust in Allah and silence can be more eloquent than any defense. And she reminds us that Allah's decrees happen regardless of natural laws - 'Be, and it is.'",
       contentFr: "L'heritage de Maryam est immense. Elle montre que l'excellence spirituelle n'est pas limitee par le genre. Elle demontre que le vrai honneur vient d'Allah, non de l'approbation humaine. Elle enseigne que face a des situations impossibles, la confiance en Allah et le silence peuvent etre plus eloquents que toute defense. Et elle nous rappelle que les decrets d'Allah s'accomplissent independamment des lois naturelles - 'Sois, et c'est.'",
     },

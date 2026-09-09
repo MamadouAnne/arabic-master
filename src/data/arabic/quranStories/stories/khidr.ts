@@ -43,8 +43,8 @@ export const khidrStory: QuranStory = {
       id: 'khidr-1',
       type: 'narrative',
       order: 1,
-      content: "Prophet Musa, having received the Torah and spoken directly with Allah, was once asked by his people who the most knowledgeable person on earth was. He replied that it was himself. Allah then revealed to him that there was a servant at the junction of two seas who possessed knowledge that Musa did not have. Eager to learn, Musa set out to find this mysterious figure.",
-      contentFr: "Le Prophete Moussa, ayant recu la Torah et parle directement avec Allah, fut un jour interroge par son peuple sur la personne la plus savante sur terre. Il repondit que c'etait lui-meme. Allah lui revela alors qu'il y avait un serviteur au confluent des deux mers qui possedait un savoir que Moussa n'avait pas. Desireux d'apprendre, Moussa se mit en route pour trouver cette figure mysterieuse.",
+      content: "Prophet Musa once stood addressing the Children of Israel and was asked who the most knowledgeable of people was. He replied that he was. Allah rebuked him for not attributing knowledge to Allah, and revealed to him that there was a servant of His at the junction of the two seas who possessed knowledge that Musa did not have. Eager to learn, Musa set out to find him. This account is narrated in Sahih al-Bukhari and Sahih Muslim from Ubayy ibn Ka'b.",
+      contentFr: "Le Prophète Moussa s'adressait un jour aux Enfants d'Israël lorsqu'on lui demanda qui était le plus savant des hommes. Il répondit que c'était lui. Allah le reprit pour n'avoir pas attribué le savoir à Allah, et lui révéla qu'il y avait, à la jonction des deux mers, un de Ses serviteurs qui possédait un savoir que Moussa n'avait pas. Désireux d'apprendre, Moussa partit à sa recherche. Ce récit est rapporté dans Sahih Al-Bukhari et Sahih Muslim d'après Ubayy ibn Ka'b.",
     },
     {
       id: 'khidr-2',
@@ -68,8 +68,8 @@ export const khidrStory: QuranStory = {
       id: 'khidr-3',
       type: 'narrative',
       order: 3,
-      content: "Musa traveled with his young companion Yusha ibn Nun (Joshua), carrying a salted fish as provision. They were told that where the fish came back to life, they would find the one they sought. When they reached the junction of the two seas, they rested. Miraculously, the fish revived and slipped into the water, leaving a tunnel-like path - but they were asleep and did not notice.",
-      contentFr: "Moussa voyagea avec son jeune compagnon Yusha ibn Noun (Josue), portant un poisson sale comme provision. On leur avait dit que la ou le poisson reviendrait a la vie, ils trouveraient celui qu'ils cherchaient. Lorsqu'ils atteignirent le confluent des deux mers, ils se reposerent. Miraculeusement, le poisson se ranima et glissa dans l'eau, laissant un chemin semblable a un tunnel - mais ils dormaient et ne le remarquerent pas.",
+      content: "Musa travelled with his young companion Yusha' ibn Nun, carrying a fish in a basket as provision. He had been told that where he lost the fish, he would find the servant of Allah. When they reached a rock at the junction of the two seas, Musa slept. The fish came to life and slipped into the water, leaving a tunnel-like path. Yusha' saw it, but when Musa awoke he forgot to tell him.",
+      contentFr: "Moussa voyagea avec son jeune compagnon Yusha' ibn Nun, emportant un poisson dans un panier comme provision. On lui avait dit que là où il perdrait le poisson, il trouverait le serviteur d'Allah. Lorsqu'ils atteignirent un rocher à la jonction des deux mers, Moussa s'endormit. Le poisson reprit vie et se glissa dans l'eau, laissant derrière lui comme un tunnel. Yusha' le vit, mais lorsque Moussa se réveilla, il oublia de le lui dire.",
     },
     {
       id: 'khidr-4',
@@ -93,8 +93,8 @@ export const khidrStory: QuranStory = {
       id: 'khidr-5',
       type: 'narrative',
       order: 5,
-      content: "Musa realized that the place where the fish escaped was exactly what they were seeking. They retraced their steps and found a man covered in a green garment, reclining by the rock. This was Khidr - the one blessed with divine knowledge. Musa greeted him and asked to follow him to learn from the knowledge Allah had given him.",
-      contentFr: "Moussa comprit que l'endroit ou le poisson s'etait echappe etait exactement ce qu'ils cherchaient. Ils revinrent sur leurs pas et trouverent un homme recouvert d'un vetement vert, allonge pres du rocher. C'etait Al-Khidr - celui qui etait beni d'un savoir divin. Moussa le salua et demanda a le suivre pour apprendre du savoir qu'Allah lui avait accorde.",
+      content: "Musa realised that the place where the fish escaped was exactly what they were seeking. They retraced their steps and found a man lying covered with a garment, as Sahih al-Bukhari describes. This was al-Khidr, the servant blessed with knowledge from Allah. The Prophet ﷺ explained that he was called al-Khidr, 'the green one', because he once sat on a barren white patch of ground and it turned green beneath him (Sahih al-Bukhari). Musa greeted him and asked to follow him to learn from the knowledge Allah had given him.",
+      contentFr: "Moussa comprit que l'endroit où le poisson s'était échappé était exactement ce qu'ils cherchaient. Ils revinrent sur leurs pas et trouvèrent un homme allongé, couvert d'un vêtement, comme le décrit Sahih Al-Bukhari. C'était Al-Khidr, le serviteur béni d'un savoir venant d'Allah. Le Prophète ﷺ a expliqué qu'on l'appelait Al-Khidr, « le vert », parce qu'il s'était un jour assis sur une terre blanche et stérile qui verdit sous lui (Sahih Al-Bukhari). Moussa le salua et demanda à le suivre pour apprendre du savoir qu'Allah lui avait donné.",
     },
     {
       id: 'khidr-6',
@@ -314,8 +314,8 @@ export const khidrStory: QuranStory = {
       id: 'khidr-24',
       type: 'narrative',
       order: 24,
-      content: "Who was Khidr? Scholars have differed on whether he was a prophet, a saint (wali), or an angel in human form. Most agree he was a righteous servant given special knowledge for a special purpose. His green name ('Khidr' means 'green') is said to come from wherever he sat, the land would turn green. He remains one of the most mysterious figures in Islamic tradition, appearing in various narrations throughout history.",
-      contentFr: "Qui etait Al-Khidr ? Les savants ont diverge sur le fait qu'il etait un prophete, un saint (wali) ou un ange sous forme humaine. La plupart s'accordent a dire qu'il etait un serviteur pieux dote d'un savoir special pour un dessein special. Son nom vert ('Khidr' signifie 'vert') viendrait du fait que partout ou il s'asseyait, la terre devenait verte. Il reste l'une des figures les plus mysterieuses de la tradition islamique, apparaissant dans diverses narrations a travers l'histoire.",
+      content: "Who was al-Khidr? The Quran calls him 'a servant from among Our servants' whom Allah taught knowledge from Himself. The majority of scholars held that he was a prophet, since he acted by revelation - 'I did not do it of my own accord' - while others said he was a righteous servant. Claims that he is still alive and appears to people have no basis in the Quran or the authentic Sunnah, and scholars such as Ibn Taymiyyah and Ibn Kathir rejected them. What the texts establish is his lesson, not his legend.",
+      contentFr: "Qui était Al-Khidr ? Le Coran l'appelle « un serviteur parmi Nos serviteurs » à qui Allah a enseigné un savoir venant de Lui. La majorité des savants ont considéré qu'il était un prophète, puisqu'il agissait par révélation (« je ne l'ai pas fait de ma propre initiative ») ; d'autres ont dit qu'il était un serviteur pieux. Les affirmations selon lesquelles il serait toujours vivant et apparaîtrait aux gens n'ont aucun fondement dans le Coran ni dans la Sunna authentique, et des savants comme Ibn Taymiyya et Ibn Kathir les ont rejetées. Ce que les textes établissent, c'est sa leçon, non sa légende.",
     },
   ],
 };

@@ -1,14 +1,14 @@
 // Story of Habil and Qabil (هابيل وقابيل)
 // The First Murder in Human History
 
-import { QuranStory, StoryContentBlock, QuranReference } from '../../../../types/quranStories';
+import { QuranStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/quranStories';
 
 export const habilQabilStory: QuranStory = {
   id: 'habilqabil',
   titleEnglish: 'Habil and Qabil - The First Murder',
   titleFrench: 'Habil et Qabil (Abel et Cain) - Le Premier Meurtre',
   titleArabic: 'هابيل وقابيل',
-  order: 9,
+  order: 1,
   category: 'historical_events',
   description: 'The story of the two sons of Adam and the first murder in human history',
   descriptionFr: 'L\'histoire des deux fils d\'Adam et du premier meurtre de l\'histoire humaine',
@@ -68,15 +68,15 @@ export const habilQabilStory: QuranStory = {
       id: 'habilqabil-3',
       type: 'narrative',
       order: 3,
-      content: "Scholars explain that Habil was a shepherd who offered the best of his flock - a fat, healthy animal given sincerely for Allah's sake. Qabil was a farmer who offered some of his lesser produce - perhaps the worst of his harvest, given reluctantly. The difference was not in the type of offering but in the heart behind it.",
-      contentFr: "Les savants expliquent que Habil etait un berger qui offrit le meilleur de son troupeau - un animal gras et sain donne sincerement pour l'amour d'Allah. Qabil etait un cultivateur qui offrit une partie de ses recoltes les moins bonnes - peut-etre le pire de sa moisson, donne a contrecoeur. La difference n'etait pas dans le type d'offrande mais dans le coeur qui l'accompagnait.",
+      content: "The Quran does not say what each brother offered. Early commentators relate that Habil, a shepherd, offered the best of his flock, while Qabil, a farmer, offered poor produce; these details are drawn from reports about earlier nations and are not established by the Quran or authentic hadith. What the Quran makes clear is that the difference lay in the heart behind the offering.",
+      contentFr: "Le Coran ne dit pas ce que chaque frère offrit. Les premiers commentateurs rapportent que Habil, berger, offrit le meilleur de son troupeau, tandis que Qabil, cultivateur, offrit une mauvaise récolte ; ces détails proviennent de récits sur les nations antérieures et ne sont établis ni par le Coran ni par un hadith authentique. Ce que le Coran rend clair, c'est que la différence résidait dans le cœur derrière l'offrande.",
     },
     {
       id: 'habilqabil-4',
       type: 'narrative',
       order: 4,
-      content: "Allah accepted Habil's sacrifice and rejected Qabil's. Some narrations mention that a fire came down from the sky to consume the accepted offering. Qabil's offering remained untouched. The rejection was not arbitrary - Allah sees what is in the hearts, and accepts only from those who fear Him and give sincerely.",
-      contentFr: "Allah accepta le sacrifice de Habil et rejeta celui de Qabil. Certaines narrations mentionnent qu'un feu descendit du ciel pour consumer l'offrande acceptee. L'offrande de Qabil resta intacte. Le rejet n'etait pas arbitraire - Allah voit ce qu'il y a dans les coeurs et n'accepte que de ceux qui Le craignent et donnent sincerement.",
+      content: "Allah accepted Habil's sacrifice and rejected Qabil's. The Quran does not describe how the acceptance was shown. The rejection was not arbitrary - Allah sees what is in the hearts, and accepts only from those who fear Him and give sincerely.",
+      contentFr: "Allah accepta le sacrifice de Habil et rejeta celui de Qabil. Le Coran ne décrit pas comment l'acceptation fut manifestée. Le rejet n'était pas arbitraire : Allah voit ce qui est dans les cœurs et n'accepte que de ceux qui Le craignent et donnent sincèrement.",
     },
     {
       id: 'habilqabil-5',
@@ -121,8 +121,8 @@ export const habilQabilStory: QuranStory = {
       id: 'habilqabil-9',
       type: 'narrative',
       order: 9,
-      content: "His words 'I want you to obtain my sin and your sin' are profound. In Islamic understanding, if someone is killed unjustly, some of the victim's sins are transferred to the killer, while the killer carries the burden of the murder. Habil was essentially saying: if you kill me, you will carry both your sins and mine, and be among the people of the Fire.",
-      contentFr: "Ses paroles 'Je veux que tu portes mon peche et le tien' sont profondes. Dans la comprehension islamique, si quelqu'un est tue injustement, certains peches de la victime sont transferes au tueur, tandis que le tueur porte le fardeau du meurtre. Habil disait essentiellement : si tu me tues, tu porteras a la fois tes peches et les miens, et tu seras parmi les gens du Feu.",
+      content: "His words 'I want you to obtain my sin and your sin' are explained by the commentators, including Ibn Kathir, to mean: you will bear the sin of killing me on top of the sins you already carry. Habil was not wishing evil on his brother; he was warning him of the consequence of his choice - that the killer alone would carry that burden and be among the people of the Fire.",
+      contentFr: "Ses paroles « je veux que tu portes mon péché et ton péché » sont expliquées par les commentateurs, dont Ibn Kathir, ainsi : tu porteras le péché de mon meurtre en plus des péchés que tu portes déjà. Habil ne souhaitait pas de mal à son frère ; il l'avertissait de la conséquence de son choix : que le meurtrier seul porterait ce fardeau et serait parmi les gens du Feu.",
     },
     {
       id: 'habilqabil-10',
@@ -222,10 +222,19 @@ export const habilQabilStory: QuranStory = {
     },
     {
       id: 'habilqabil-19',
-      type: 'narrative',
+      type: 'hadith_source',
       order: 19,
-      content: "The Prophet Muhammad (peace be upon him) said that no soul is killed unjustly except that a portion of the sin falls on the first son of Adam, because he was the first to establish the practice of murder. Qabil's crime continues to multiply with every murder committed throughout history.",
-      contentFr: "Le Prophete Muhammad (paix et benediction sur lui) a dit qu'aucune ame n'est tuee injustement sans qu'une part du peche ne retombe sur le premier fils d'Adam, car il fut le premier a etablir la pratique du meurtre. Le crime de Qabil continue de se multiplier avec chaque meurtre commis a travers l'histoire.",
+      content: "The Prophet Muhammad ﷺ explained the lasting burden of the first murder.",
+      contentFr: "Le Prophète Muhammad ﷺ a expliqué le fardeau durable du premier meurtre.",
+      source: {
+        type: "hadith",
+        collection: "Sahih al-Bukhari (3335) and Sahih Muslim (1677)",
+        narrator: "Abdullah ibn Mas'ud",
+        arabicText: "لَا تُقْتَلُ نَفْسٌ ظُلْمًا إِلَّا كَانَ عَلَى ابْنِ آدَمَ الْأَوَّلِ كِفْلٌ مِنْ دَمِهَا، لِأَنَّهُ أَوَّلُ مَنْ سَنَّ الْقَتْلَ",
+        translation: "No soul is killed unjustly except that a share of its blood is upon the first son of Adam, because he was the first to establish the practice of killing.",
+        translationFr: "Aucune âme n'est tuée injustement sans qu'une part de son sang ne retombe sur le premier fils d'Adam, car il fut le premier à instaurer le meurtre.",
+        grade: "sahih",
+      } as HadithReference,
     },
     {
       id: 'habilqabil-20',

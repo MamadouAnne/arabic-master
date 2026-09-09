@@ -2,7 +2,7 @@
 // Single continuous narrative with Quran sources
 // An entire surah (Chapter 12) is dedicated to this story
 
-import { Prophet, SubStory, StoryContentBlock, QuranReference } from '../../../../types/prophetStories';
+import { Prophet, SubStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/prophetStories';
 
 // Full prophet data with story details
 export const yusufStory: Prophet = {
@@ -10,7 +10,7 @@ export const yusufStory: Prophet = {
   nameEnglish: 'Yusuf',
   nameFrench: 'Youssouf',
   nameArabic: 'يوسف',
-  order: 11,
+  order: 1,
   title: 'The Truthful One',
   titleFr: 'Le Véridique',
   titleArabic: 'الصديق',
@@ -69,9 +69,26 @@ const yusufStoryContent: StoryContentBlock[] = [
     contentFr: "Youssouf était l'un des douze fils du prophète Yacoub. Il était d'une beauté exceptionnelle - on dit qu'il reçut la moitié de toute la beauté. Mais sa vraie distinction n'était pas son apparence physique ; c'était son caractère, son intégrité et sa foi inébranlable en Allah. Dès l'enfance, Youssouf montra des signes d'être choisi pour quelque chose d'extraordinaire.",
   },
   {
+    id: 'yusuf-2b',
+    type: 'hadith_source',
+    order: 3,
+    content: "The Prophet ﷺ described Yusuf's beauty during the Night Journey.",
+    contentFr: "Le Prophète ﷺ a décrit la beauté de Yusuf lors du Voyage nocturne.",
+    source: {
+      type: "hadith",
+      collection: "muslim",
+      hadithNumber: "162",
+      narrator: "Anas ibn Malik",
+      arabicText: "فَإِذَا أَنَا بِيُوسُفَ، إِذَا هُوَ قَدْ أُعْطِيَ شَطْرَ الْحُسْنِ",
+      translation: "Then I was with Yusuf, and he had been given half of all beauty.",
+      translationFr: "Puis je me trouvai avec Yusuf, et il avait reçu la moitié de toute beauté.",
+      grade: "sahih",
+    } as HadithReference,
+  },
+  {
     id: 'yusuf-3',
     type: 'quran_source',
-    order: 3,
+    order: 4,
     content: "The story begins with young Yusuf telling his father about a remarkable dream.",
     contentFr: "L'histoire commence avec le jeune Youssouf racontant à son père un rêve remarquable.",
     source: {
@@ -88,21 +105,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-4',
     type: 'narrative',
-    order: 4,
+    order: 5,
     content: "Yaqub recognized the dream as a sign of prophethood and future greatness for Yusuf. The eleven stars represented his eleven brothers, and the sun and moon represented his parents. But Yaqub also understood human nature - such a dream could provoke dangerous jealousy. He warned Yusuf to keep it secret.",
     contentFr: "Yacoub reconnut le rêve comme un signe de prophétie et de future grandeur pour Youssouf. Les onze étoiles représentaient ses onze frères, et le soleil et la lune représentaient ses parents. Mais Yacoub comprenait aussi la nature humaine - un tel rêve pouvait provoquer une jalousie dangereuse. Il avertit Youssouf de le garder secret.",
   },
   {
     id: 'yusuf-5',
     type: 'narrative',
-    order: 5,
+    order: 6,
     content: "However, the brothers had already noticed their father's special affection for Yusuf and his younger brother Binyamin. Jealousy festered in their hearts until it corrupted their judgment and led them to plot against their own brother.",
     contentFr: "Cependant, les frères avaient déjà remarqué l'affection particulière de leur père pour Youssouf et son jeune frère Binyamine. La jalousie s'envenima dans leurs coeurs jusqu'à corrompre leur jugement et les pousser à comploter contre leur propre frère.",
   },
   {
     id: 'yusuf-6',
     type: 'quran_source',
-    order: 6,
+    order: 7,
     content: "The brothers devised their evil plan.",
     contentFr: "Les frères élaborèrent leur plan maléfique.",
     source: {
@@ -119,14 +136,14 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-7',
     type: 'narrative',
-    order: 7,
+    order: 8,
     content: "The brothers convinced Yaqub to let Yusuf accompany them on an outing, promising to protect him. Despite his reservations, Yaqub agreed. But once they were far from home, the brothers stripped Yusuf of his shirt and threw him into a deep, dark well. The young boy was left alone in the darkness, not knowing if he would survive.",
     contentFr: "Les frères convainquirent Yacoub de laisser Youssouf les accompagner en sortie, promettant de le protéger. Malgré ses réserves, Yacoub accepta. Mais une fois loin de chez eux, les frères dépouillèrent Youssouf de sa chemise et le jetèrent dans un puits profond et sombre. Le jeune garçon fut laissé seul dans l'obscurité, ne sachant pas s'il survivrait.",
   },
   {
     id: 'yusuf-8',
     type: 'quran_source',
-    order: 8,
+    order: 9,
     content: "Allah reassured Yusuf even in his darkest moment.",
     contentFr: "Allah rassura Youssouf même dans son moment le plus sombre.",
     source: {
@@ -143,28 +160,28 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-9',
     type: 'narrative',
-    order: 9,
+    order: 10,
     content: "Even in that dark well, Allah sent comfort to young Yusuf - a revelation that one day he would confront his brothers about this crime, from a position of power they could not imagine. This promise sustained him through what was to come.",
     contentFr: "Même dans ce puits sombre, Allah envoya du réconfort au jeune Youssouf - une révélation qu'un jour il confronterait ses frères au sujet de ce crime, depuis une position de pouvoir qu'ils ne pouvaient imaginer. Cette promesse le soutint à travers ce qui allait suivre.",
   },
   {
     id: 'yusuf-10',
     type: 'narrative',
-    order: 10,
+    order: 11,
     content: "The brothers returned to their father at night, weeping false tears, claiming a wolf had devoured Yusuf. They presented his shirt stained with fake blood. But Yaqub saw through their lie - a wolf that devoured a boy would have torn the shirt. Yet he responded only with beautiful patience, complaining to none but Allah.",
     contentFr: "Les frères revinrent auprès de leur père la nuit, versant de fausses larmes, prétendant qu'un loup avait dévoré Youssouf. Ils présentèrent sa chemise tachée de faux sang. Mais Yacoub perça à jour leur mensonge - un loup qui avait dévoré un garçon aurait déchiré la chemise. Pourtant, il ne répondit qu'avec une belle patience, ne se plaignant à personne d'autre qu'Allah.",
   },
   {
     id: 'yusuf-11',
     type: 'narrative',
-    order: 11,
+    order: 12,
     content: "A caravan traveling to Egypt stopped at the well and discovered Yusuf when they lowered their bucket for water. Overjoyed at finding such a handsome boy, they took him to Egypt and sold him as a slave for a meager price - a few silver coins. They did not know they were selling a future prophet.",
     contentFr: "Une caravane en route vers l'Égypte s'arrêta au puits et découvrit Youssouf lorsqu'ils descendirent leur seau pour puiser de l'eau. Ravis de trouver un si beau garçon, ils l'emmenèrent en Égypte et le vendirent comme esclave pour un prix dérisoire - quelques pièces d'argent. Ils ne savaient pas qu'ils vendaient un futur prophète.",
   },
   {
     id: 'yusuf-12',
     type: 'quran_source',
-    order: 12,
+    order: 13,
     content: "Yusuf was sold in Egypt to a man of high position.",
     contentFr: "Youssouf fut vendu en Égypte à un homme de haut rang.",
     source: {
@@ -181,21 +198,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-13',
     type: 'narrative',
-    order: 13,
+    order: 14,
     content: "The buyer was Al-Aziz, a high-ranking minister in Egypt. Yusuf grew up in his household, developing in wisdom, knowledge, and physical beauty. Allah was preparing him for a great mission, though the path would include more trials.",
     contentFr: "L'acheteur était Al-Aziz, un ministre de haut rang en Égypte. Youssouf grandit dans sa maison, développant sagesse, savoir et beauté physique. Allah le préparait pour une grande mission, bien que le chemin inclurait encore des épreuves.",
   },
   {
     id: 'yusuf-14',
     type: 'narrative',
-    order: 14,
+    order: 15,
     content: "As Yusuf matured, the wife of Al-Aziz became infatuated with his beauty. She made advances toward him, trying to seduce him. One day, she locked the doors and called him to her. This was perhaps the most intense moral test Yusuf would face.",
     contentFr: "À mesure que Youssouf mûrissait, l'épouse d'Al-Aziz devint éprise de sa beauté. Elle fit des avances envers lui, essayant de le séduire. Un jour, elle verrouilla les portes et l'appela à elle. C'était peut-être l'épreuve morale la plus intense que Youssouf aurait à affronter.",
   },
   {
     id: 'yusuf-15',
     type: 'quran_source',
-    order: 15,
+    order: 16,
     content: "Yusuf resisted the seduction and sought refuge in Allah.",
     contentFr: "Youssouf résista à la séduction et chercha refuge auprès d'Allah.",
     source: {
@@ -212,21 +229,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-16',
     type: 'narrative',
-    order: 16,
+    order: 17,
     content: "Yusuf's response 'مَعَاذَ اللَّهِ' (I seek refuge in Allah) demonstrates his consciousness of Allah even when no one was watching. He refused her advances and ran toward the door. She chased him and tore his shirt from behind. At that moment, her husband appeared.",
     contentFr: "La réponse de Youssouf 'مَعَاذَ اللَّهِ' (Je cherche refuge auprès d'Allah) démontre sa conscience d'Allah même quand personne ne regardait. Il refusa ses avances et courut vers la porte. Elle le poursuivit et déchira sa chemise par derrière. À cet instant, son mari apparut.",
   },
   {
     id: 'yusuf-17',
     type: 'narrative',
-    order: 17,
+    order: 18,
     content: "The wife quickly accused Yusuf of trying to seduce her. But a witness from her own family pointed out the evidence: if his shirt was torn from the front, she was truthful; if from behind, she was lying and he was fleeing from her. The shirt was torn from behind.",
     contentFr: "L'épouse accusa rapidement Youssouf d'avoir essayé de la séduire. Mais un témoin de sa propre famille souligna la preuve : si sa chemise était déchirée par devant, elle disait vrai ; si par derrière, elle mentait et il la fuyait. La chemise était déchirée par derrière.",
   },
   {
     id: 'yusuf-18',
     type: 'quran_source',
-    order: 18,
+    order: 19,
     content: "The evidence proved Yusuf's innocence.",
     contentFr: "La preuve établit l'innocence de Youssouf.",
     source: {
@@ -243,14 +260,14 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-19',
     type: 'narrative',
-    order: 19,
+    order: 20,
     content: "Word of the incident spread among the women of the city. They gossiped about how the minister's wife had tried to seduce her slave. To demonstrate how irresistible Yusuf was, she invited these women to a banquet.",
     contentFr: "La nouvelle de l'incident se répandit parmi les femmes de la ville. Elles comméraient sur la façon dont l'épouse du ministre avait essayé de séduire son esclave. Pour démontrer combien Youssouf était irrésistible, elle invita ces femmes à un banquet.",
   },
   {
     id: 'yusuf-20',
     type: 'quran_source',
-    order: 20,
+    order: 21,
     content: "The women were struck by Yusuf's beauty.",
     contentFr: "Les femmes furent frappées par la beauté de Youssouf.",
     source: {
@@ -267,14 +284,14 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-21',
     type: 'narrative',
-    order: 21,
+    order: 22,
     content: "The women were so stunned by Yusuf's beauty that they cut their hands without realizing it. They declared he must be an angel, not a human. The wife admitted her actions and threatened that if Yusuf continued to refuse her, she would have him imprisoned.",
     contentFr: "Les femmes furent si stupéfaites par la beauté de Youssouf qu'elles se coupèrent les mains sans s'en rendre compte. Elles déclarèrent qu'il devait être un ange, non un être humain. L'épouse admit ses actes et menaça que si Youssouf continuait à la refuser, elle le ferait emprisonner.",
   },
   {
     id: 'yusuf-22',
     type: 'quran_source',
-    order: 22,
+    order: 23,
     content: "Yusuf chose prison over sin.",
     contentFr: "Youssouf choisit la prison plutôt que le péché.",
     source: {
@@ -291,21 +308,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-23',
     type: 'narrative',
-    order: 23,
+    order: 24,
     content: "Yusuf's prayer is profound: he preferred imprisonment - the loss of freedom - over committing a sin. He also acknowledged his human weakness, asking Allah to protect him. This shows the humility of the prophets, who recognized their need for Allah's protection.",
     contentFr: "La prière de Youssouf est profonde : il préféra l'emprisonnement - la perte de liberté - plutôt que de commettre un péché. Il reconnut aussi sa faiblesse humaine, demandant à Allah de le protéger. Cela montre l'humilité des prophètes, qui reconnaissaient leur besoin de la protection d'Allah.",
   },
   {
     id: 'yusuf-24',
     type: 'narrative',
-    order: 24,
+    order: 25,
     content: "Despite his proven innocence, Yusuf was thrown into prison. The powerful would rather imprison an innocent man than admit their faults. But Allah had a plan. In prison, Yusuf would meet people who would eventually lead to his rise.",
     contentFr: "Malgré son innocence prouvée, Youssouf fut jeté en prison. Les puissants préféraient emprisonner un innocent plutôt que d'admettre leurs torts. Mais Allah avait un plan. En prison, Youssouf rencontrerait des personnes qui mèneraient finalement à son ascension.",
   },
   {
     id: 'yusuf-25',
     type: 'quran_source',
-    order: 25,
+    order: 26,
     content: "Two fellow prisoners asked Yusuf to interpret their dreams.",
     contentFr: "Deux compagnons de cellule demandèrent à Youssouf d'interpréter leurs rêves.",
     source: {
@@ -322,21 +339,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-26',
     type: 'narrative',
-    order: 26,
+    order: 27,
     content: "Before interpreting their dreams, Yusuf called them to worship Allah alone - seizing every opportunity for dawah. Then he explained: one would be released and serve wine to the king; the other would be crucified. He asked the one who would be freed to mention him to the king.",
     contentFr: "Avant d'interpréter leurs rêves, Youssouf les appela à adorer Allah seul - saisissant chaque occasion pour la da'wa. Puis il expliqua : l'un serait libéré et servirait du vin au roi ; l'autre serait crucifié. Il demanda à celui qui serait libéré de le mentionner au roi.",
   },
   {
     id: 'yusuf-27',
     type: 'narrative',
-    order: 27,
+    order: 28,
     content: "The interpretations came true, but the freed man forgot to mention Yusuf to the king. So Yusuf remained in prison for several more years. Yet Allah's plan was unfolding. The king of Egypt had a dream that none of his advisors could interpret.",
     contentFr: "Les interprétations se réalisèrent, mais l'homme libéré oublia de mentionner Youssouf au roi. Alors Youssouf resta en prison pendant plusieurs années de plus. Pourtant, le plan d'Allah se déployait. Le roi d'Égypte fit un rêve qu'aucun de ses conseillers ne put interpréter.",
   },
   {
     id: 'yusuf-28',
     type: 'quran_source',
-    order: 28,
+    order: 29,
     content: "The king had a perplexing dream that his advisors could not interpret.",
     contentFr: "Le roi fit un rêve déconcertant que ses conseillers ne purent interpréter.",
     source: {
@@ -353,14 +370,14 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-29',
     type: 'narrative',
-    order: 29,
+    order: 30,
     content: "Now the former prisoner remembered Yusuf. He told the king about the remarkable interpreter in prison. Yusuf was brought before the king, but before leaving prison, he insisted on clearing his name completely.",
     contentFr: "C'est alors que l'ancien prisonnier se souvint de Youssouf. Il parla au roi du remarquable interprète en prison. Youssouf fut amené devant le roi, mais avant de quitter la prison, il insista pour que son nom soit complètement blanchi.",
   },
   {
     id: 'yusuf-30',
     type: 'quran_source',
-    order: 30,
+    order: 31,
     content: "Yusuf interpreted the king's dream.",
     contentFr: "Youssouf interpréta le rêve du roi.",
     source: {
@@ -377,21 +394,38 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-31',
     type: 'narrative',
-    order: 31,
+    order: 32,
     content: "Yusuf not only interpreted the dream but provided a comprehensive economic plan: seven years of plenty should be used to store grain, preserving it in its ears to prevent spoilage. This stored grain would sustain Egypt through seven years of drought. After that, relief would come.",
     contentFr: "Youssouf ne se contenta pas d'interpréter le rêve, il fournit aussi un plan économique complet : sept années d'abondance devaient être utilisées pour stocker le grain, le conservant dans ses épis pour éviter la détérioration. Ce grain stocké nourrirait l'Égypte pendant sept années de sécheresse. Après cela, le soulagement viendrait.",
   },
   {
     id: 'yusuf-32',
     type: 'narrative',
-    order: 32,
+    order: 33,
     content: "The king was so impressed that he wanted Yusuf brought to him personally. But Yusuf refused to leave prison until the truth about the women was established. When investigated, the women - including the minister's wife - confessed that Yusuf was innocent. Only then did Yusuf agree to meet the king.",
     contentFr: "Le roi fut si impressionné qu'il voulut que Youssouf lui soit amené personnellement. Mais Youssouf refusa de quitter la prison tant que la vérité sur les femmes n'était pas établie. Lors de l'enquête, les femmes - y compris l'épouse du ministre - confessèrent que Youssouf était innocent. C'est seulement alors que Youssouf accepta de rencontrer le roi.",
   },
   {
+    id: 'yusuf-32b',
+    type: 'hadith_source',
+    order: 34,
+    content: "The Prophet ﷺ praised Yusuf's patience in clearing his name before leaving prison.",
+    contentFr: "Le Prophète ﷺ a loué la patience de Yusuf, qui fit établir son innocence avant de quitter la prison.",
+    source: {
+      type: "hadith",
+      collection: "bukhari",
+      hadithNumber: "3372",
+      narrator: "Abu Hurairah",
+      arabicText: "وَلَوْ لَبِثْتُ فِي السِّجْنِ طُولَ مَا لَبِثَ يُوسُفُ لأَجَبْتُ الدَّاعِيَ",
+      translation: "The Prophet ﷺ said: '...And had I remained in prison as long as Yusuf remained, I would have answered the caller.'",
+      translationFr: "Le Prophète ﷺ a dit : « ... Et si j'étais resté en prison aussi longtemps que Yusuf y resta, j'aurais répondu à celui qui m'appelait. »",
+      grade: "sahih",
+    } as HadithReference,
+  },
+  {
     id: 'yusuf-33',
     type: 'quran_source',
-    order: 33,
+    order: 35,
     content: "The king placed Yusuf in charge of Egypt's storehouses.",
     contentFr: "Le roi plaça Youssouf à la tête des entrepôts d'Égypte.",
     source: {
@@ -408,21 +442,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-34',
     type: 'narrative',
-    order: 34,
+    order: 36,
     content: "From a slave sold for a few coins, from a prisoner falsely accused, Yusuf had risen to become the most powerful minister in Egypt, second only to the king. Allah's plan, which seemed so dark in the well and the prison, had led to this moment of triumph.",
     contentFr: "D'un esclave vendu pour quelques pièces, d'un prisonnier faussement accusé, Youssouf s'était élevé pour devenir le ministre le plus puissant d'Égypte, second seulement après le roi. Le plan d'Allah, qui semblait si sombre dans le puits et la prison, avait mené à ce moment de triomphe.",
   },
   {
     id: 'yusuf-35',
     type: 'narrative',
-    order: 35,
+    order: 37,
     content: "When the years of drought came, people from neighboring lands came to Egypt for grain. Among them were Yusuf's brothers, who did not recognize the powerful minister before them. Yusuf recognized them immediately but concealed his identity.",
     contentFr: "Lorsque les années de sécheresse arrivèrent, des gens des terres voisines vinrent en Égypte pour du grain. Parmi eux se trouvaient les frères de Youssouf, qui ne reconnurent pas le puissant ministre devant eux. Youssouf les reconnut immédiatement mais dissimula son identité.",
   },
   {
     id: 'yusuf-36',
     type: 'quran_source',
-    order: 36,
+    order: 38,
     content: "Yusuf's brothers came to buy grain without recognizing him.",
     contentFr: "Les frères de Youssouf vinrent acheter du grain sans le reconnaître.",
     source: {
@@ -439,30 +473,30 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-37',
     type: 'narrative',
-    order: 37,
-    content: "Yusuf demanded they bring their youngest brother Benjamin next time. This was the beginning of Yusuf's plan to bring his full brother - his only ally among the sons of Yaqub - to Egypt. The brothers returned to their father to request Benjamin.",
-    contentFr: "Youssouf exigea qu'ils amènent leur plus jeune frère Binyamine la prochaine fois. C'était le début du plan de Youssouf pour faire venir son frère de sang - son seul allié parmi les fils de Yacoub - en Égypte. Les frères retournèrent auprès de leur père pour demander Binyamine.",
+    order: 39,
+    content: "Yusuf demanded that next time they bring their brother from their father's side - his full brother, whom the commentators call Binyamin. This was the beginning of Yusuf's plan to bring his only full brother among the sons of Yaqub to Egypt. The brothers returned to their father to request him.",
+    contentFr: "Yusuf exigea qu'ils amènent la prochaine fois leur frère du côté de leur père, son frère germain, que les commentateurs appellent Binyamin. C'était le début du plan de Yusuf pour faire venir en Égypte son seul frère germain parmi les fils de Yaqoub. Les frères retournèrent auprès de leur père pour le demander.",
   },
   {
     id: 'yusuf-38',
     type: 'narrative',
-    order: 38,
-    content: "Yaqub was reluctant - he had already lost Yusuf, and Benjamin was now his greatest comfort. But the brothers promised to protect him, and the family needed grain to survive. With great reluctance and after extracting solemn promises, Yaqub agreed.",
-    contentFr: "Yacoub était réticent - il avait déjà perdu Youssouf, et Binyamine était désormais sa plus grande consolation. Mais les frères promirent de le protéger, et la famille avait besoin de grain pour survivre. Avec une grande réticence et après avoir obtenu des promesses solennelles, Yacoub accepta.",
+    order: 40,
+    content: "Yaqub was reluctant - he had already lost Yusuf, and Binyamin was now his greatest comfort. But the brothers promised to protect him, and the family needed grain to survive. With great reluctance and after extracting solemn promises, Yaqub agreed.",
+    contentFr: "Yaqoub hésitait : il avait déjà perdu Yusuf, et Binyamin était désormais son plus grand réconfort. Mais les frères promirent de le protéger, et la famille avait besoin de grain pour survivre. Avec une grande réticence et après avoir obtenu des promesses solennelles, Yaqoub accepta.",
   },
   {
     id: 'yusuf-39',
     type: 'narrative',
-    order: 39,
-    content: "When the brothers returned with Benjamin, Yusuf revealed his identity privately to his younger brother. Then, through a carefully arranged plan, Yusuf had the king's measuring cup placed in Benjamin's bag. When discovered, it appeared Benjamin had stolen it, giving Yusuf legal grounds to keep him in Egypt.",
-    contentFr: "Lorsque les frères revinrent avec Binyamine, Youssouf révéla son identité en privé à son jeune frère. Puis, grâce à un plan soigneusement élaboré, Youssouf fit placer la coupe à mesurer du roi dans le sac de Binyamine. Lorsqu'elle fut découverte, il sembla que Binyamine l'avait volée, donnant à Youssouf des motifs légaux pour le garder en Égypte.",
+    order: 41,
+    content: "When the brothers returned with Binyamin, Yusuf revealed his identity privately to his younger brother. Then, through a carefully arranged plan, Yusuf had the king's measuring cup placed in Binyamin's bag. When discovered, it appeared Binyamin had stolen it, giving Yusuf legal grounds to keep him in Egypt.",
+    contentFr: "Lorsque les frères revinrent avec Binyamin, Yusuf révéla son identité en privé à son jeune frère. Puis, par un plan soigneusement préparé, Yusuf fit placer la coupe du roi dans le sac de Binyamin. Lorsqu'elle fut découverte, il sembla que Binyamin l'avait volée, ce qui donna à Yusuf un motif légal de le garder en Égypte.",
   },
   {
     id: 'yusuf-40',
     type: 'quran_source',
-    order: 40,
-    content: "The brothers realized they had to return without Benjamin.",
-    contentFr: "Les frères réalisèrent qu'ils devaient revenir sans Binyamine.",
+    order: 42,
+    content: "The brothers realised they had to return without Binyamin.",
+    contentFr: "Les frères comprirent qu'ils devaient rentrer sans Binyamin.",
     source: {
       type: 'quran',
       surahNumber: 12,
@@ -477,21 +511,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-41',
     type: 'narrative',
-    order: 41,
-    content: "When the brothers returned without Benjamin, Yaqub's grief overwhelmed him once again. He cried until he lost his eyesight. But even then, he maintained his beautiful patience, complaining only to Allah, and he never lost hope that his sons would return.",
-    contentFr: "Lorsque les frères revinrent sans Binyamine, le chagrin de Yacoub le submergea une nouvelle fois. Il pleura jusqu'à en perdre la vue. Mais même alors, il maintint sa belle patience, ne se plaignant qu'à Allah, et il ne perdit jamais l'espoir que ses fils reviendraient.",
+    order: 43,
+    content: "When the brothers returned without Binyamin, Yaqub's grief overwhelmed him once again. He cried until he lost his eyesight. But even then, he maintained his beautiful patience, complaining only to Allah, and he never lost hope that his sons would return.",
+    contentFr: "Lorsque les frères revinrent sans Binyamin, le chagrin de Yaqoub le submergea une fois de plus. Il pleura jusqu'à en perdre la vue. Mais même alors, il garda sa belle patience, ne se plaignant qu'à Allah, et il ne perdit jamais l'espoir que ses fils reviendraient.",
   },
   {
     id: 'yusuf-42',
     type: 'narrative',
-    order: 42,
+    order: 44,
     content: "Yaqub sent his sons back to Egypt, telling them to search for Yusuf and his brother and never to despair of Allah's mercy. When they stood before Yusuf again, broken and humble, pleading for mercy, the time had come for the great revelation.",
     contentFr: "Yacoub renvoya ses fils en Égypte, leur disant de chercher Youssouf et son frère et de ne jamais désespérer de la miséricorde d'Allah. Lorsqu'ils se tinrent à nouveau devant Youssouf, brisés et humbles, implorant la pitié, le moment de la grande révélation était venu.",
   },
   {
     id: 'yusuf-43',
     type: 'quran_source',
-    order: 43,
+    order: 45,
     content: "Yusuf revealed his identity to his brothers.",
     contentFr: "Youssouf révéla son identité à ses frères.",
     source: {
@@ -508,21 +542,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-44',
     type: 'narrative',
-    order: 44,
+    order: 46,
     content: "In this moment of ultimate power over those who had wronged him, Yusuf chose forgiveness. 'No blame upon you today' - this is the response of a prophet, the response of a purified soul. He could have taken revenge; instead, he asked Allah to forgive them. This is the pinnacle of noble character.",
     contentFr: "En ce moment de pouvoir absolu sur ceux qui lui avaient fait du tort, Youssouf choisit le pardon. 'Aucun reproche sur vous aujourd'hui' - c'est la réponse d'un prophète, la réponse d'une âme purifiée. Il aurait pu se venger ; au lieu de cela, il demanda à Allah de leur pardonner. C'est le sommet du noble caractère.",
   },
   {
     id: 'yusuf-45',
     type: 'narrative',
-    order: 45,
+    order: 47,
     content: "Yusuf sent his shirt back with his brothers, instructing them to place it on their father's face. When the caravan left Egypt, Yaqub - though in Canaan far away - could smell the scent of Yusuf. When the shirt was placed on his face, his eyesight miraculously returned.",
     contentFr: "Youssouf renvoya sa chemise avec ses frères, leur ordonnant de la placer sur le visage de leur père. Lorsque la caravane quitta l'Égypte, Yacoub - bien qu'au loin en Canaan - put sentir le parfum de Youssouf. Lorsque la chemise fut placée sur son visage, sa vue revint miraculeusement.",
   },
   {
     id: 'yusuf-46',
     type: 'quran_source',
-    order: 46,
+    order: 48,
     content: "The family was reunited and Yusuf's childhood dream was fulfilled.",
     contentFr: "La famille fut réunie et le rêve d'enfance de Youssouf s'accomplit.",
     source: {
@@ -539,21 +573,21 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-47',
     type: 'narrative',
-    order: 47,
-    content: "After decades of separation, tears, and patient longing, the family was reunited. Yusuf's childhood dream had come true - his parents (his father and aunt who raised him, or stepmother according to some scholars) and eleven brothers bowed before him. But notice Yusuf's response: he did not boast or gloat. Instead, he turned to Allah in grateful supplication.",
-    contentFr: "Après des décennies de séparation, de larmes et d'attente patiente, la famille fut réunie. Le rêve d'enfance de Youssouf s'était réalisé - ses parents (son père et sa tante qui l'avait élevé, ou belle-mère selon certains savants) et ses onze frères se prosternèrent devant lui. Mais remarquez la réponse de Youssouf : il ne se vanta pas ni ne se réjouit de leur sort. Au contraire, il se tourna vers Allah en supplication reconnaissante.",
+    order: 49,
+    content: "After decades of separation, tears, and patient longing, the family was reunited. Yusuf's childhood dream had come true - his parents and eleven brothers bowed before him. But notice Yusuf's response: he did not boast or gloat. Instead, he turned to Allah in grateful supplication.",
+    contentFr: "Après des décennies de séparation, de larmes et d'attente patiente, la famille fut réunie. Le rêve d'enfance de Yusuf s'était réalisé : ses parents et ses onze frères se prosternèrent devant lui. Mais remarquez la réaction de Yusuf : il ne se vanta pas et ne triompha pas. Il se tourna plutôt vers Allah dans une invocation de gratitude.",
   },
   {
     id: 'yusuf-48',
     type: 'narrative',
-    order: 48,
+    order: 50,
     content: "Yusuf's final prayer in this story is deeply moving. At the height of his worldly success - with power, family, vindication, and honor - he asked Allah for only one thing: to die as a Muslim and be joined with the righteous. This shows where a believer's priorities should lie.",
     contentFr: "La dernière prière de Youssouf dans cette histoire est profondément émouvante. Au sommet de sa réussite mondaine - avec le pouvoir, la famille, la réhabilitation et l'honneur - il ne demanda à Allah qu'une seule chose : mourir en tant que musulman et être réuni avec les pieux. Cela montre où les priorités d'un croyant doivent se situer.",
   },
   {
     id: 'yusuf-49',
     type: 'quran_source',
-    order: 49,
+    order: 51,
     content: "Allah concludes with the lessons of this story.",
     contentFr: "Allah conclut avec les leçons de cette histoire.",
     source: {
@@ -570,16 +604,16 @@ const yusufStoryContent: StoryContentBlock[] = [
   {
     id: 'yusuf-50',
     type: 'narrative',
-    order: 50,
+    order: 52,
     content: "The story of Yusuf teaches us that trials are not punishments but preparations. The well prepared him for the palace. The prison prepared him for power. Every difficulty was a stepping stone to his ultimate destiny. Allah's plan may seem harsh in the moment, but it is always leading to something greater for those who maintain faith and patience.",
     contentFr: "L'histoire de Youssouf nous enseigne que les épreuves ne sont pas des punitions mais des préparations. Le puits le prépara pour le palais. La prison le prépara pour le pouvoir. Chaque difficulté fut une marche vers sa destinée ultime. Le plan d'Allah peut sembler dur sur le moment, mais il mène toujours vers quelque chose de plus grand pour ceux qui maintiennent foi et patience.",
   },
   {
     id: 'yusuf-51',
     type: 'narrative',
-    order: 51,
-    content: "Prophet Yusuf lived the rest of his life in Egypt, continuing to serve with justice and righteousness. He died there and was later buried in Hebron alongside his father Yaqub. His story remains the most detailed prophetic narrative in the Quran - a complete story of trial, patience, integrity, and ultimate triumph, teaching believers across all ages that whoever fears Allah and remains patient will never have their reward lost.",
-    contentFr: "Le prophète Youssouf vécut le reste de sa vie en Égypte, continuant à servir avec justice et droiture. Il y mourut et fut plus tard enterré à Hébron aux côtés de son père Yacoub. Son histoire reste le récit prophétique le plus détaillé du Coran - une histoire complète d'épreuve, de patience, d'intégrité et de triomphe ultime, enseignant aux croyants de toutes les époques que quiconque craint Allah et reste patient ne verra jamais sa récompense perdue.",
+    order: 53,
+    content: "Prophet Yusuf lived the rest of his life in Egypt, continuing to serve with justice and righteousness. The Quran does not describe his death or burial. His story remains the most detailed prophetic narrative in the Quran - a complete story of trial, patience, integrity, and ultimate triumph, teaching believers across all ages that whoever fears Allah and remains patient will never have their reward lost.",
+    contentFr: "Le Prophète Yusuf vécut le reste de sa vie en Égypte, continuant à servir avec justice et droiture. Le Coran ne décrit ni sa mort ni sa sépulture. Son histoire demeure le récit prophétique le plus détaillé du Coran : une histoire complète d'épreuve, de patience, d'intégrité et de triomphe final, enseignant aux croyants de tous les âges que quiconque craint Allah et reste patient ne verra jamais sa récompense perdue.",
   },
 ];
 
@@ -591,7 +625,7 @@ export const yusufSubStories: SubStory[] = [
     title: 'The Story of Prophet Yusuf',
     titleFr: 'L\'Histoire du Prophète Youssouf',
     titleArabic: 'قصة نبي الله يوسف',
-    order: 1,
+    order: 54,
     estimatedReadTime: 45,
     content: yusufStoryContent,
   },

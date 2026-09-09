@@ -12,7 +12,7 @@ export const ukhdudStory: QuranStory = {
   category: 'groups_nations',
   description: 'Believers who were burned alive for their faith but achieved eternal victory',
   descriptionFr: 'Des croyants brules vifs pour leur foi mais qui obtinrent la victoire eternelle',
-  summary: "The People of the Ditch were believers who were persecuted by a tyrant king who burned them alive in trenches for refusing to renounce their faith. The story, mentioned briefly in Surah Al-Buruj and detailed in hadith, centers on a young boy who discovered true faith and spread it among his people. When the king could not kill him through normal means, the boy revealed the way to his own death - all so that the people would know that his God was the true God. His martyrdom led thousands to believe, though they too were killed. This story demonstrates that true victory is spiritual, not physical.",
+  summary: "The People of the Ditch were believers who were persecuted by a tyrant king who burned them alive in trenches for refusing to renounce their faith. The story, mentioned briefly in Surah Al-Buruj and detailed in hadith, centers on a young boy who discovered true faith and spread it among his people. When the king could not kill him through normal means, the boy revealed the way to his own death - all so that the people would know that his God was the true God. His martyrdom led his people to believe, though they too were killed. This story demonstrates that true victory is spiritual, not physical.",
   summaryFr: "Les Gens de la Fosse etaient des croyants persecutes par un roi tyran qui les brula vifs dans des tranchees pour avoir refuse de renier leur foi. L'histoire, mentionnee brievement dans la sourate Al-Buruj et detaillee dans les hadiths, est centree sur un jeune garcon qui decouvrit la vraie foi et la repandit parmi son peuple. Quand le roi ne put le tuer par des moyens normaux, le garcon revela le moyen de sa propre mort - tout cela afin que les gens sachent que son Dieu etait le vrai Dieu. Son martyre mena des milliers a croire, bien qu'ils furent aussi tues. Cette histoire demontre que la vraie victoire est spirituelle, non physique.",
   lessons: [
     'True victory is maintaining faith, not merely surviving',
@@ -79,7 +79,7 @@ export const ukhdudStory: QuranStory = {
       contentFr: "Le Prophete raconta l'histoire du garcon et du roi.",
       source: {
         type: 'hadith',
-        collection: 'Sahih Muslim',
+        collection: "Sahih Muslim (3005)",
         narrator: 'Suhayb ar-Rumi',
         arabicText: 'كان ملك فيمن كان قبلكم، وكان له ساحر',
         translation: "The Prophet (peace be upon him) said: 'There was a king among those before you, and he had a sorcerer. When the sorcerer grew old, he said to the king: I have become old, so send me a boy to teach him sorcery.'",

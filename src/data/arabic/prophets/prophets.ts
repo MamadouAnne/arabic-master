@@ -151,8 +151,8 @@ export const PROPHETS: Prophet[] = [
     title: 'Nephew of Ibrahim',
     titleFr: 'Neveu d\'Abraham',
     titleArabic: 'ابن أخي إبراهيم',
-    summary: 'Sent to the people of Sodom and Gomorrah who engaged in grave sins. The cities were destroyed, but Lut and the believers were saved.',
-    summaryFr: 'Envoyé au peuple de Sodome et Gomorrhe qui commettait de graves péchés. Les villes furent détruites, mais Loth et les croyants furent sauvés.',
+    summary: 'Sent to the people of the overturned cities who engaged in grave sins. The cities were destroyed, but Lut and the believers were saved.',
+    summaryFr: 'Envoyé au peuple des cités renversées qui commettait de graves péchés. Les villes furent détruites, mais Loth et les croyants furent sauvés.',
     hasSubStories: true,
     lessons: [
       'Moral corruption leads to societal destruction',
@@ -363,7 +363,7 @@ export const PROPHETS: Prophet[] = [
     titleFr: 'Le Roi Prophète',
     titleArabic: 'الملك النبي',
     summary: 'A prophet and king who was given the Zabur (Psalms). Known for his beautiful voice, justice, and defeat of Jalut (Goliath).',
-    summaryFr: 'Un prophète et roi à qui fut donné le Zabour (Psaumes). Connu pour sa belle voix, sa justice et sa victoire contre Goliath.',
+    summaryFr: 'Un prophète et roi à qui fut donné le Zabour (Psaumes). Connu pour sa belle voix, sa justice et sa victoire contre Jalout (Goliath).',
     hasSubStories: true,
     lessons: [
       'Power should be accompanied by righteousness',

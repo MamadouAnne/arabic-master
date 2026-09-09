@@ -1,14 +1,14 @@
 // Story of Prophet Salih (صالح) - Prophet to Thamud
 // Complete comprehensive story with Quran sources
 
-import { Prophet, SubStory, StoryContentBlock, QuranReference } from '../../../../types/prophetStories';
+import { Prophet, SubStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/prophetStories';
 
 export const salihStory: Prophet = {
   id: 'salih',
   nameEnglish: 'Salih',
   nameFrench: 'Salih',
   nameArabic: 'صالح',
-  order: 5,
+  order: 1,
   title: 'Prophet to Thamud',
   titleFr: 'Prophète des Thamud',
   titleArabic: 'نبي ثمود',
@@ -154,15 +154,15 @@ export const salihStoryContent: StoryContentBlock[] = [
     id: 'salih-11',
     type: 'narrative',
     order: 11,
-    content: 'The people demanded a specific miracle - they wanted a pregnant she-camel to emerge from a solid rock. They thought this impossible request would expose Salih as a false prophet. But Allah granted Salih\'s prayer, and from the rock emerged a magnificent she-camel, pregnant with her young.',
-    contentFr: 'Le peuple exigea un miracle précis - ils voulaient qu\'une chamelle pleine émerge d\'un rocher solide. Ils pensaient que cette demande impossible démasquerait Salih comme un faux prophète. Mais Allah exauça la prière de Salih, et du rocher émergea une magnifique chamelle, pleine de son petit.',
+    content: "The Quran says a she-camel was given to them as 'clear evidence from your Lord' and calls her 'the she-camel of Allah'. The commentators relate that the people had demanded that a camel emerge from a rock, and that Allah answered Salih's prayer with exactly that. These details come from the commentaries; the Quran itself establishes that she was a miraculous sign.",
+    contentFr: "Le Coran dit qu'une chamelle leur fut donnée comme « preuve claire de votre Seigneur » et l'appelle « la chamelle d'Allah ». Les commentateurs rapportent que le peuple avait exigé qu'une chamelle sorte d'un rocher, et qu'Allah exauça la prière de Salih exactement ainsi. Ces détails proviennent des commentaires ; le Coran lui-même établit qu'elle était un signe miraculeux.",
   },
   {
     id: 'salih-12',
     type: 'narrative',
     order: 12,
-    content: 'This was no ordinary camel. She was enormous, unlike any camel they had ever seen. And she came with specific rules: she would drink from their well on one day, and they would have the well to themselves on the alternate day. On the day she drank, they could milk her and have an abundance of milk for everyone.',
-    contentFr: 'Ce n\'était pas une chamelle ordinaire. Elle était énorme, différente de toute chamelle qu\'ils avaient jamais vue. Et elle venait avec des règles précises : elle boirait de leur puits un jour, et ils auraient le puits pour eux le jour suivant. Le jour où elle buvait, ils pouvaient la traire et avoir une abondance de lait pour tous.',
+    content: "She came with specific rules: she would drink from their water on one day, and they would have it to themselves on the next (54:28). The commentators add that she was of great size and that on her day the people would milk her abundantly.",
+    contentFr: "Elle vint avec des règles précises : elle boirait de leur eau un jour, et ils l'auraient pour eux seuls le jour suivant (54:28). Les commentateurs ajoutent qu'elle était de grande taille et que, le jour qui lui était réservé, les gens la trayaient abondamment.",
   },
   {
     id: 'salih-13',
@@ -218,13 +218,30 @@ export const salihStoryContent: StoryContentBlock[] = [
     id: 'salih-17',
     type: 'narrative',
     order: 17,
-    content: 'But Allah was aware of their plot and protected His prophet. Their scheme against Salih failed. However, their wickedness would not be restrained. One of the most wicked among them, a man named Qidar, was encouraged by the others and by a woman who promised him herself if he killed the camel.',
-    contentFr: 'Mais Allah était au courant de leur complot et protégea Son prophète. Leur machination contre Salih échoua. Cependant, leur méchanceté ne put être contenue. L\'un des plus méchants parmi eux, un homme nommé Qidar, fut encouragé par les autres et par une femme qui lui promit sa main s\'il tuait la chamelle.',
+    content: "But Allah was aware of their plot and protected His prophet. Their scheme against Salih failed. Yet their wickedness would not be restrained. The Quran says that 'the most wretched of them was sent forth' to kill the she-camel, and the Prophet ﷺ described him as a man of might and rank among his people.",
+    contentFr: "Mais Allah connaissait leur complot et protégea Son prophète. Leur machination contre Salih échoua. Pourtant, leur méchanceté ne fut pas contenue. Le Coran dit que « le plus misérable d'entre eux se leva » pour tuer la chamelle, et le Prophète ﷺ l'a décrit comme un homme de puissance et de rang parmi son peuple.",
+  },
+  {
+    id: 'salih-17b',
+    type: 'hadith_source',
+    order: 18,
+    content: "The Prophet ﷺ described the man who hamstrung the she-camel.",
+    contentFr: "Le Prophète ﷺ a décrit l'homme qui coupa les jarrets de la chamelle.",
+    source: {
+      type: "hadith",
+      collection: "bukhari",
+      hadithNumber: "4942",
+      narrator: "Abdullah ibn Zam'a",
+      arabicText: "انْبَعَثَ لَهَا رَجُلٌ عَزِيزٌ عَارِمٌ مَنِيعٌ فِي رَهْطِهِ مِثْلُ أَبِي زَمْعَةَ",
+      translation: "The Prophet ﷺ delivered a sermon and mentioned the she-camel and the one who hamstrung her. He said: 'When the most wretched of them was sent forth - a man of might, mischief and power among his people, like Abu Zam'a, went forth to her.'",
+      translationFr: "Le Prophète ﷺ prononça un sermon et mentionna la chamelle et celui qui lui coupa les jarrets. Il dit : « Lorsque le plus misérable d'entre eux se leva : un homme puissant, malfaisant et protégé parmi les siens, semblable à Abu Zam'a, se leva contre elle. »",
+      grade: "sahih",
+    } as HadithReference,
   },
   {
     id: 'salih-18',
     type: 'quran_source',
-    order: 18,
+    order: 19,
     content: 'They hamstrung the she-camel in their transgression.',
     contentFr: 'Ils tranchèrent les jarrets de la chamelle dans leur transgression.',
     source: {
@@ -242,14 +259,14 @@ export const salihStoryContent: StoryContentBlock[] = [
   {
     id: 'salih-19',
     type: 'narrative',
-    order: 19,
+    order: 20,
     content: 'The wicked man hamstrung the miraculous she-camel and killed her. Though only one man struck the blow, the entire community bore the sin because they had supported and encouraged the act. They had collectively defied Allah\'s clear sign.',
     contentFr: 'L\'homme méchant trancha les jarrets de la chamelle miraculeuse et la tua. Bien qu\'un seul homme ait porté le coup, toute la communauté porta le péché car elle avait soutenu et encouragé l\'acte. Ils avaient collectivement défié le signe clair d\'Allah.',
   },
   {
     id: 'salih-20',
     type: 'quran_source',
-    order: 20,
+    order: 21,
     content: 'After killing the camel, they arrogantly challenged Salih to bring the punishment.',
     contentFr: 'Après avoir tué la chamelle, ils défièrent arrogamment Salih de faire venir le châtiment.',
     source: {
@@ -267,14 +284,14 @@ export const salihStoryContent: StoryContentBlock[] = [
   {
     id: 'salih-21',
     type: 'narrative',
-    order: 21,
+    order: 22,
     content: 'Salih\'s heart was filled with grief and anger at what they had done. He warned them that the punishment was now inevitable. He gave them three days - a final respite during which they might repent, though he knew their hearts were sealed.',
     contentFr: 'Le cœur de Salih fut rempli de chagrin et de colère face à ce qu\'ils avaient fait. Il les avertit que le châtiment était désormais inévitable. Il leur donna trois jours - un dernier répit pendant lequel ils pourraient se repentir, bien qu\'il sût que leurs cœurs étaient scellés.',
   },
   {
     id: 'salih-22',
     type: 'quran_source',
-    order: 22,
+    order: 23,
     content: 'Salih announced the coming punishment.',
     contentFr: 'Salih annonça le châtiment à venir.',
     source: {
@@ -292,21 +309,21 @@ export const salihStoryContent: StoryContentBlock[] = [
   {
     id: 'salih-23',
     type: 'narrative',
-    order: 23,
+    order: 24,
     content: 'Instead of repenting during those final three days, the people of Thamud mocked the warning. They continued in their arrogance, confident in their mountain fortresses. After all, they had carved their homes into solid rock - what could possibly harm them?',
     contentFr: 'Au lieu de se repentir pendant ces trois derniers jours, les Thamud se moquèrent de l\'avertissement. Ils continuèrent dans leur arrogance, confiants dans leurs forteresses de montagne. Après tout, ils avaient taillé leurs demeures dans la roche solide - qu\'est-ce qui pourrait leur nuire ?',
   },
   {
     id: 'salih-24',
     type: 'narrative',
-    order: 24,
+    order: 25,
     content: 'On the morning after the third day, the punishment came. A terrible blast from the sky - a sound so devastating that it killed them where they stood. Their bodies lay fallen in their homes, as if they had never lived there at all.',
     contentFr: 'Au matin du troisième jour, le châtiment arriva. Un terrible souffle venu du ciel - un son si dévastateur qu\'il les tua sur place. Leurs corps gisaient dans leurs demeures, comme s\'ils n\'y avaient jamais vécu.',
   },
   {
     id: 'salih-25',
     type: 'quran_source',
-    order: 25,
+    order: 26,
     content: 'Allah describes the terrible punishment that befell Thamud.',
     contentFr: 'Allah décrit le terrible châtiment qui s\'abattit sur les Thamud.',
     source: {
@@ -324,7 +341,7 @@ export const salihStoryContent: StoryContentBlock[] = [
   {
     id: 'salih-26',
     type: 'quran_source',
-    order: 26,
+    order: 27,
     content: 'The blast struck them all at once.',
     contentFr: 'Le souffle les frappa tous en même temps.',
     source: {
@@ -342,14 +359,14 @@ export const salihStoryContent: StoryContentBlock[] = [
   {
     id: 'salih-27',
     type: 'narrative',
-    order: 27,
+    order: 28,
     content: 'Before the punishment struck, Allah saved Prophet Salih and those who believed with him. They left the city, never to return. As Salih departed, he turned back toward his people with profound sadness.',
     contentFr: 'Avant que le châtiment ne frappe, Allah sauva le prophète Salih et ceux qui avaient cru avec lui. Ils quittèrent la ville pour ne jamais revenir. En partant, Salih se retourna vers son peuple avec une profonde tristesse.',
   },
   {
     id: 'salih-28',
     type: 'quran_source',
-    order: 28,
+    order: 29,
     content: 'Salih\'s sorrowful farewell to his people.',
     contentFr: 'L\'adieu douloureux de Salih à son peuple.',
     source: {
@@ -367,14 +384,14 @@ export const salihStoryContent: StoryContentBlock[] = [
   {
     id: 'salih-29',
     type: 'narrative',
-    order: 29,
+    order: 30,
     content: 'The ruins of Thamud\'s homes still exist today in the region of Mada\'in Salih in Saudi Arabia. These rock-carved dwellings stand as a testament to the Quranic account, silent witnesses to what happens when a people reject Allah\'s messengers and defy His signs.',
     contentFr: 'Les ruines des demeures des Thamud existent encore aujourd\'hui dans la région de Mada\'in Salih en Arabie saoudite. Ces habitations taillées dans la roche se dressent comme un témoignage du récit coranique, témoins silencieux de ce qui arrive lorsqu\'un peuple rejette les messagers d\'Allah et défie Ses signes.',
   },
   {
     id: 'salih-30',
     type: 'quran_source',
-    order: 30,
+    order: 31,
     content: 'Allah preserved the dwellings of Thamud as a lesson.',
     contentFr: 'Allah a préservé les demeures des Thamud comme une leçon.',
     source: {
@@ -391,15 +408,25 @@ export const salihStoryContent: StoryContentBlock[] = [
   },
   {
     id: 'salih-31',
-    type: 'narrative',
-    order: 31,
-    content: 'The Prophet Muhammad, peace be upon him, passed by the ruins of Thamud during the expedition to Tabuk. He warned his companions about the place and instructed them not to enter the dwellings of those who were punished except in a state of weeping, lest the same punishment befall them.',
-    contentFr: 'Le prophète Muhammad, paix et bénédictions sur lui, passa devant les ruines des Thamud lors de l\'expédition de Tabuk. Il avertit ses compagnons au sujet de ce lieu et leur ordonna de ne pas entrer dans les demeures de ceux qui furent châtiés, sauf en pleurant, de peur que le même châtiment ne s\'abatte sur eux.',
+    type: 'hadith_source',
+    order: 32,
+    content: "The Prophet ﷺ passed by the ruins of Thamud during the expedition to Tabuk and warned his companions.",
+    contentFr: "Le Prophète ﷺ passa près des ruines de Thamoud lors de l'expédition de Tabouk et mit en garde ses compagnons.",
+    source: {
+      type: "hadith",
+      collection: "bukhari",
+      hadithNumber: "3379",
+      narrator: "Abdullah ibn Umar",
+      arabicText: "لَا تَدْخُلُوا عَلَى هَؤُلَاءِ الْمُعَذَّبِينَ إِلَّا أَنْ تَكُونُوا بَاكِينَ، فَإِنْ لَمْ تَكُونُوا بَاكِينَ فَلَا تَدْخُلُوا عَلَيْهِمْ، لَا يُصِيبُكُمْ مَا أَصَابَهُمْ",
+      translation: "When the Prophet ﷺ passed by al-Hijr, he said: 'Do not enter upon these people who were punished unless you are weeping. If you are not weeping, do not enter upon them, lest what befell them befall you.'",
+      translationFr: "Lorsque le Prophète ﷺ passa près d'Al-Hijr, il dit : « N'entrez pas chez ces gens qui furent châtiés, sauf en pleurant. Si vous ne pleurez pas, n'entrez pas chez eux, de peur que ce qui les a frappés ne vous frappe. »",
+      grade: "sahih",
+    } as HadithReference,
   },
   {
     id: 'salih-32',
     type: 'narrative',
-    order: 32,
+    order: 33,
     content: 'May Allah grant us the wisdom to learn from the story of Thamud. May we never be like those who see clear signs yet reject them, or those who follow corrupt leaders into destruction. And may peace and blessings be upon Prophet Salih, who delivered Allah\'s message faithfully even when his people turned away.',
     contentFr: 'Qu\'Allah nous accorde la sagesse de tirer les leçons de l\'histoire des Thamud. Puissions-nous ne jamais être comme ceux qui voient des signes clairs et les rejettent, ou ceux qui suivent des dirigeants corrompus vers la destruction. Et que la paix et les bénédictions soient sur le prophète Salih, qui transmit fidèlement le message d\'Allah même quand son peuple se détourna.',
   },
@@ -412,7 +439,7 @@ export const salihSubStories: SubStory[] = [
     prophetId: 'salih',
     title: 'The Story of Prophet Salih',
     titleArabic: 'قصة النبي صالح',
-    order: 1,
+    order: 34,
     content: salihStoryContent,
     estimatedReadTime: 18,
   },

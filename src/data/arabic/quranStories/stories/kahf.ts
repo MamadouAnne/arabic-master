@@ -1,5 +1,5 @@
 // Story of the People of the Cave (أصحاب الكهف)
-// Ashab al-Kahf - The Sleepers of Ephesus
+// Ashab al-Kahf - The Companions of the Cave
 
 import { QuranStory, StoryContentBlock, QuranReference } from '../../../../types/quranStories';
 
@@ -243,15 +243,15 @@ export const kahfStory: QuranStory = {
       id: 'kahf-17',
       type: 'narrative',
       order: 17,
-      content: "One of them went to the city with ancient coins - currency from centuries ago. When he tried to use them in the marketplace, the merchants were astonished. They examined the coins, recognizing them as relics from a long-forgotten era. Word spread quickly. How could this young man possess coins from 300 years ago? He was taken to the authorities.",
-      contentFr: "L'un d'eux se rendit a la ville avec des pieces anciennes - une monnaie datant de siecles auparavant. Quand il essaya de les utiliser au marche, les marchands furent stupefaits. Ils examinerent les pieces, les reconnaissant comme des reliques d'une epoque oubliee depuis longtemps. La nouvelle se repandit rapidement. Comment ce jeune homme pouvait-il posseder des pieces datant de 300 ans ? Il fut conduit devant les autorites.",
+      content: "One of them went to the city carrying coins minted centuries earlier. The commentators relate that when he tried to pay with them, the merchants were astonished and word spread quickly. The Quran itself simply tells us that Allah caused them to be discovered - so that people would know that His promise is true.",
+      contentFr: "L'un d'eux se rendit en ville avec des pièces frappées des siècles plus tôt. Les commentateurs rapportent que lorsqu'il voulut payer avec, les marchands furent stupéfaits et la nouvelle se répandit rapidement. Le Coran lui-même nous dit simplement qu'Allah fit en sorte qu'ils soient découverts, afin que les gens sachent que Sa promesse est vraie.",
     },
     {
       id: 'kahf-18',
       type: 'narrative',
       order: 18,
-      content: "But the world had changed. The city was now ruled by a righteous king who believed in Allah and the resurrection. When the young man explained who he was and where he came from, the people were amazed. They followed him back to the cave and discovered his companions. The sleepers had become living proof of resurrection - that Allah can bring the dead back to life.",
-      contentFr: "Mais le monde avait change. La cite etait desormais gouvernee par un roi juste qui croyait en Allah et en la resurrection. Quand le jeune homme expliqua qui il etait et d'ou il venait, les gens furent emerveilles. Ils le suivirent jusqu'a la caverne et decouvrirent ses compagnons. Les dormeurs etaient devenus une preuve vivante de la resurrection - qu'Allah peut ramener les morts a la vie.",
+      content: "But the world had changed. The commentators relate that the city was now ruled by people who believed in Allah and the resurrection. When the young man's story became known, the people were amazed and followed him back to the cave. The sleepers had become living proof of resurrection - that Allah brings the dead back to life.",
+      contentFr: "Mais le monde avait changé. Les commentateurs rapportent que la ville était désormais dirigée par des gens qui croyaient en Allah et en la résurrection. Lorsque l'histoire du jeune homme fut connue, les gens furent émerveillés et le suivirent jusqu'à la caverne. Les dormants étaient devenus une preuve vivante de la résurrection : Allah ramène les morts à la vie.",
     },
     {
       id: 'kahf-19',
@@ -275,8 +275,8 @@ export const kahfStory: QuranStory = {
       id: 'kahf-20',
       type: 'narrative',
       order: 20,
-      content: "After their discovery, the sleepers returned to their Lord - their souls departing this world having fulfilled their miraculous purpose. The people debated what to do with the cave. The believers prevailed, and a place of worship was built over it. The cave became a testimony to Allah's power over death, time, and resurrection.",
-      contentFr: "Apres leur decouverte, les dormeurs retournerent a leur Seigneur - leurs ames quittant ce monde apres avoir accompli leur but miraculeux. Les gens debattirent de ce qu'il fallait faire de la caverne. Les croyants l'emporterent, et un lieu de culte fut construit par-dessus. La caverne devint un temoignage de la puissance d'Allah sur la mort, le temps et la resurrection.",
+      content: "The Quran tells us that after they were found, the people disputed about them, and those who prevailed decided to build a place of worship over them. The commentators say the young men died soon after being discovered, their purpose fulfilled. The verse reports what those people did; it does not approve of it, for the Prophet ﷺ forbade taking graves as places of worship. The cave itself became a testimony to Allah's power over death, time, and resurrection.",
+      contentFr: "Le Coran nous dit qu'après leur découverte, les gens se disputèrent à leur sujet, et que ceux qui l'emportèrent décidèrent de bâtir un lieu de culte au-dessus d'eux. Les commentateurs disent que les jeunes gens moururent peu après leur découverte, leur mission accomplie. Le verset rapporte ce que ces gens firent ; il ne l'approuve pas, car le Prophète ﷺ a interdit de prendre les tombes pour lieux de prière. La caverne elle-même devint un témoignage de la puissance d'Allah sur la mort, le temps et la résurrection.",
     },
     {
       id: 'kahf-21',
@@ -339,8 +339,8 @@ export const kahfStory: QuranStory = {
       id: 'kahf-26',
       type: 'narrative',
       order: 26,
-      content: "The Prophet Muhammad \uFE0E encouraged Muslims to recite Surah Al-Kahf every Friday. It protects from the trials of the Dajjal (Antichrist) and illuminates one's week with light. The story of the Cave's companions remains a beacon of hope: no matter how dark the age, sincere faith finds Allah's protection and mercy.",
-      contentFr: "Le Prophete Muhammad \uFE0E encouragea les musulmans a reciter la sourate Al-Kahf chaque vendredi. Elle protege des epreuves du Dajjal (Antechrist) et illumine sa semaine de lumiere. L'histoire des compagnons de la Caverne reste un phare d'espoir : aussi sombre que soit l'epoque, la foi sincere trouve la protection et la misericorde d'Allah.",
+      content: "The Prophet Muhammad ﷺ taught that whoever memorises the first ten verses of Surah Al-Kahf will be protected from the Dajjal (Sahih Muslim), and that whoever recites the surah on Friday will have a light shining for him until the next Friday (reported by al-Hakim and al-Bayhaqi; graded authentic by al-Albani). The story of the Companions of the Cave remains a beacon of hope: no matter how dark the age, sincere faith finds Allah's protection and mercy.",
+      contentFr: "Le Prophète Muhammad ﷺ a enseigné que quiconque mémorise les dix premiers versets de la sourate Al-Kahf sera protégé du Dajjal (Sahih Muslim), et que quiconque récite la sourate le vendredi aura une lumière qui brillera pour lui jusqu'au vendredi suivant (rapporté par Al-Hakim et Al-Bayhaqi ; jugé authentique par Al-Albani). L'histoire des Compagnons de la Caverne reste un phare d'espoir : aussi sombre que soit l'époque, la foi sincère trouve la protection et la miséricorde d'Allah.",
     },
   ],
 };

@@ -128,8 +128,8 @@ export const luqmanStory: QuranStory = {
       id: 'luqman-9',
       type: 'narrative',
       order: 9,
-      content: "The verse specifically mentions the mother's sacrifices - pregnancy that weakens her progressively, and nursing for two years. This explains why the Prophet (peace be upon him) said that the mother deserves three times more companionship than the father. Yet even this immense debt to parents has limits when it comes to faith.",
-      contentFr: "Le verset mentionne specifiquement les sacrifices de la mere - la grossesse qui l'affaiblit progressivement, et l'allaitement pendant deux ans. Cela explique pourquoi le Prophete (paix et salut sur lui) a dit que la mere merite trois fois plus de compagnie que le pere. Pourtant, meme cette dette immense envers les parents a des limites quand il s'agit de la foi.",
+      content: "The verse specifically mentions the mother's sacrifices - pregnancy that weakens her progressively, and nursing for two years. This is why, when a man asked the Prophet ﷺ who most deserved his good companionship, he answered 'Your mother' three times before saying 'then your father' (al-Bukhari and Muslim). Yet even this immense debt to parents has limits when it comes to faith.",
+      contentFr: "Le verset mentionne spécifiquement les sacrifices de la mère : une grossesse qui l'affaiblit progressivement et un allaitement de deux ans. C'est pourquoi, lorsqu'un homme demanda au Prophète ﷺ qui méritait le plus sa bonne compagnie, il répondit « ta mère » trois fois avant de dire « puis ton père » (Al-Bukhari et Muslim). Pourtant, même cette immense dette envers les parents a des limites lorsqu'il s'agit de la foi.",
     },
     {
       id: 'luqman-10',

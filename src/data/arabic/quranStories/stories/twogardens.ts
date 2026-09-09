@@ -18,7 +18,7 @@ export const twoGardensStory: QuranStory = {
     'Always attribute blessings to Allah, not to self',
     'True friendship includes sincere advice, even if unwelcome',
     'The life of this world is temporary like vegetation',
-    'Saying "Masha Allah, la quwwata illa billah" protects blessings',
+    'Say "Masha Allah, la quwwata illa billah" when you see a blessing',
     'What is with Allah is better and more lasting',
   ],
   lessonsFr: [
@@ -26,7 +26,7 @@ export const twoGardensStory: QuranStory = {
     'Toujours attribuer les bienfaits a Allah, non a soi-meme',
     'La vraie amitie inclut le conseil sincere, meme s\'il est malvenu',
     'La vie de ce monde est temporaire comme la vegetation',
-    'Dire "Masha Allah, la quwwata illa billah" protege les bienfaits',
+    'Dire "Masha Allah, la quwwata illa billah" en voyant un bienfait',
     'Ce qui est aupres d\'Allah est meilleur et plus durable',
   ],
   estimatedReadTime: 12,
@@ -152,8 +152,8 @@ export const twoGardensStory: QuranStory = {
       id: 'twogardens-11',
       type: 'narrative',
       order: 11,
-      content: "Here the companion taught the crucial lesson: upon entering your garden, you should have said 'Masha Allah, la quwwata illa billah' - 'What Allah willed has occurred; there is no power except in Allah.' This phrase acknowledges that all blessings come from Allah and that we have no power without Him. It is a protection for our blessings and a safeguard against the evil eye.",
-      contentFr: "Ici le compagnon enseigna la lecon cruciale : en entrant dans ton jardin, tu aurais du dire 'Masha Allah, la quwwata illa billah' - 'Ce qu'Allah a voulu s'est produit ; il n'y a de puissance qu'en Allah.' Cette phrase reconnait que tous les bienfaits viennent d'Allah et que nous n'avons aucune puissance sans Lui. C'est une protection pour nos bienfaits et une sauvegarde contre le mauvais oeil.",
+      content: "Here the companion taught the crucial lesson: upon entering your garden, you should have said 'Masha Allah, la quwwata illa billah' - 'What Allah willed has occurred; there is no power except in Allah.' This phrase acknowledges that all blessings come from Allah and that we have no power without Him. From this verse scholars derive the recommendation to say these words whenever we admire our wealth, family, or work, so that the heart never attributes the blessing to itself.",
+      contentFr: "Le compagnon enseigna ici la leçon essentielle : en entrant dans ton jardin, tu aurais dû dire « Masha Allah, la quwwata illa billah » : « Ce qu'Allah a voulu s'est produit ; il n'y a de force qu'en Allah. » Cette formule reconnaît que tous les bienfaits viennent d'Allah et que nous n'avons aucune force sans Lui. De ce verset, les savants tirent la recommandation de dire ces mots chaque fois que nous admirons nos biens, notre famille ou notre travail, afin que le cœur n'attribue jamais le bienfait à lui-même.",
     },
     {
       id: 'twogardens-12',

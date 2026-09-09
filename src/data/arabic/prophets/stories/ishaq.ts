@@ -294,8 +294,8 @@ const ishaqStoryContent: StoryContentBlock[] = [
     id: 'ishaq-23',
     type: 'narrative',
     order: 23,
-    content: "Ishaq lived in the land of Canaan (Palestine), where he continued to call people to worship Allah alone. He married Rebekah, and they were blessed with twin sons: Esau and Yaqub. Yaqub would become a great prophet and the father of the twelve tribes of Israel.",
-    contentFr: "Ishaq vécut en terre de Canaan (Palestine), où il continua d'appeler les gens à adorer Allah seul. Il épousa Rébecca, et ils furent bénis de fils jumeaux : Ésaü et Yaqub. Yaqub allait devenir un grand prophète et le père des douze tribus d'Israël.",
+    content: "Ishaq lived in the blessed land of Sham, where he continued his father's call to worship Allah alone. Allah blessed him with Yaqub, who would become a great prophet and the father of the tribes of Israel. The Quran does not narrate the details of Ishaq's marriage or name his other children, and we do not add them from other scriptures.",
+    contentFr: "Ishaq vécut dans la terre bénie de Sham, où il poursuivit l'appel de son père à adorer Allah seul. Allah le bénit par Yaqoub, qui deviendrait un grand prophète et le père des tribus d'Israël. Le Coran ne raconte pas les détails du mariage d'Ishaq et ne nomme pas ses autres enfants, et nous ne les ajoutons pas à partir d'autres écritures.",
   },
   {
     id: 'ishaq-24',
@@ -362,8 +362,8 @@ const ishaqStoryContent: StoryContentBlock[] = [
     id: 'ishaq-28',
     type: 'narrative',
     order: 28,
-    content: "Prophet Ishaq passed away and was buried in Hebron (Al-Khalil) alongside his father Ibrahim and his son Yaqub. His legacy lived on through his descendants - the Children of Israel - who would receive many prophets and divine scriptures. The message of monotheism that Ibrahim established was faithfully carried forward by Ishaq and transmitted to future generations.",
-    contentFr: "Le prophète Ishaq décéda et fut enterré à Hébron (Al-Khalil) aux côtés de son père Ibrahim et de son fils Yaqub. Son héritage perdura à travers ses descendants - les Enfants d'Israël - qui allaient recevoir de nombreux prophètes et écritures divines. Le message du monothéisme qu'Ibrahim avait établi fut fidèlement transmis par Ishaq aux générations futures.",
+    content: "The Quran does not describe Prophet Ishaq's death. His legacy lived on through his descendants - the Children of Israel - who would receive many prophets and divine scriptures. The message of monotheism that Ibrahim established was faithfully carried forward by Ishaq and transmitted to future generations.",
+    contentFr: "Le Coran ne décrit pas la mort du Prophète Ishaq. Son héritage se perpétua à travers ses descendants, les Enfants d'Israël, qui recevraient de nombreux prophètes et écritures divines. Le message du monothéisme établi par Ibrahim fut fidèlement porté par Ishaq et transmis aux générations futures.",
   },
 ];
 
@@ -374,7 +374,7 @@ export const ishaqSubStories: SubStory[] = [
     prophetId: 'ishaq',
     title: 'The Story of Prophet Ishaq',
     titleArabic: 'قصة نبي الله إسحاق',
-    order: 1,
+    order: 29,
     estimatedReadTime: 12,
     content: ishaqStoryContent,
   },

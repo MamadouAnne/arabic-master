@@ -1,14 +1,14 @@
 // Story of Prophet Ibrahim (إبراهيم) - The Friend of Allah
 // Complete comprehensive story with Quran sources
 
-import { Prophet, SubStory, StoryContentBlock, QuranReference } from '../../../../types/prophetStories';
+import { Prophet, SubStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/prophetStories';
 
 export const ibrahimStory: Prophet = {
   id: 'ibrahim',
   nameEnglish: 'Ibrahim',
   nameFrench: 'Ibrahim',
   nameArabic: 'إبراهيم',
-  order: 6,
+  order: 1,
   title: 'The Friend of Allah',
   titleFr: 'L\'ami d\'Allah',
   titleArabic: 'خليل الله',
@@ -39,8 +39,8 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     id: 'ibrahim-1',
     type: 'narrative',
     order: 1,
-    content: 'Ibrahim was born in the ancient city of Ur in Mesopotamia (modern-day Iraq), during a time of deep idol worship. His father Azar was a craftsman who carved idols for people to worship. From a young age, Ibrahim\'s pure heart questioned the worship of these lifeless statues.',
-    contentFr: 'Ibrahim naquit dans l\'ancienne ville d\'Ur en Mésopotamie (l\'Irak actuel), à une époque de profonde idolâtrie. Son père Azar était un artisan qui sculptait des idoles pour que les gens les adorent. Dès son plus jeune âge, le cœur pur d\'Ibrahim remit en question l\'adoration de ces statues sans vie.',
+    content: "Ibrahim was born in a land of deep idol worship - the commentators place him in the region of Babylon in Iraq. His father Azar worshipped idols, and the commentators relate that he made and sold them. From a young age, Ibrahim's pure heart questioned the worship of these lifeless statues.",
+    contentFr: "Ibrahim naquit dans une terre d'idolâtrie profonde ; les commentateurs le situent dans la région de Babylone, en Irak. Son père Azar adorait les idoles, et les commentateurs rapportent qu'il les fabriquait et les vendait. Dès son jeune âge, le cœur pur d'Ibrahim remit en question l'adoration de ces statues sans vie.",
   },
   {
     id: 'ibrahim-2',
@@ -121,8 +121,8 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     id: 'ibrahim-8',
     type: 'narrative',
     order: 8,
-    content: 'His father\'s response was harsh and threatening. He warned Ibrahim to stop or face being stoned. Despite this painful rejection, Ibrahim remained respectful and promised to pray for his father\'s forgiveness, though he could not remain with those who worshipped idols.',
-    contentFr: 'La réponse de son père fut dure et menaçante. Il avertit Ibrahim d\'arrêter sous peine d\'être lapidé. Malgré ce rejet douloureux, Ibrahim resta respectueux et promit de prier pour le pardon de son père, bien qu\'il ne pût rester avec ceux qui adoraient les idoles.',
+    content: "His father's response was harsh and threatening. He warned Ibrahim to stop or face being stoned. Despite this painful rejection, Ibrahim remained respectful and promised to pray for his father's forgiveness. He kept that promise for a time, but when it became clear to him that his father was an enemy of Allah, he disassociated himself from him (9:114), for loyalty to Allah comes before every other bond.",
+    contentFr: "La réponse de son père fut dure et menaçante. Il avertit Ibrahim d'arrêter sous peine d'être lapidé. Malgré ce rejet douloureux, Ibrahim resta respectueux et promit de prier pour le pardon de son père. Il tint cette promesse un temps, mais lorsqu'il lui apparut clairement que son père était un ennemi d'Allah, il se désolidarisa de lui (9:114), car la loyauté envers Allah passe avant tout autre lien.",
   },
   {
     id: 'ibrahim-9',
@@ -178,8 +178,8 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     id: 'ibrahim-13',
     type: 'narrative',
     order: 13,
-    content: 'Humiliated by Ibrahim\'s logic, the people decided to punish him in the most severe way. They built a massive fire, so large that they had to use a catapult to throw him into it, as no one could approach due to the intense heat.',
-    contentFr: 'Humiliés par la logique d\'Ibrahim, le peuple décida de le punir de la manière la plus sévère. Ils construisirent un feu massif, si grand qu\'ils durent utiliser une catapulte pour l\'y jeter, car personne ne pouvait s\'en approcher à cause de la chaleur intense.',
+    content: "Humiliated by Ibrahim's logic, the people decided to punish him in the most severe way: they would burn him alive. The commentators relate that they built a fire so huge that they had to hurl him into it with a catapult, as no one could approach its heat.",
+    contentFr: "Humiliés par la logique d'Ibrahim, les gens décidèrent de le punir de la manière la plus sévère : ils le brûleraient vif. Les commentateurs rapportent qu'ils construisirent un feu si immense qu'ils durent le projeter dedans avec une catapulte, car personne ne pouvait s'approcher de sa chaleur.",
   },
   {
     id: 'ibrahim-14',
@@ -203,13 +203,30 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     id: 'ibrahim-15',
     type: 'narrative',
     order: 15,
-    content: 'As Ibrahim was hurled into the flames, he remained calm and placed his complete trust in Allah. By Allah\'s command, the fire became cool and peaceful - it did not harm Ibrahim at all. He emerged unscathed, and this miracle was witnessed by everyone, yet most still refused to believe.',
-    contentFr: 'Alors qu\'Ibrahim fut projeté dans les flammes, il resta calme et plaça sa confiance totale en Allah. Par le commandement d\'Allah, le feu devint frais et paisible - il ne fit aucun mal à Ibrahim. Il en sortit indemne, et ce miracle fut observé par tous, mais la plupart refusèrent encore de croire.',
+    content: "As Ibrahim was thrown into the flames, he placed his complete trust in Allah. Ibn Abbas said that his words at that moment were 'Hasbunallahu wa ni'mal wakil' - 'Allah is sufficient for us, and He is the best Disposer of affairs.' By Allah's command, the fire became cool and safe - it did not harm Ibrahim at all. He emerged unscathed, and this miracle was witnessed by everyone, yet most still refused to believe.",
+    contentFr: "Alors qu'Ibrahim était jeté dans les flammes, il plaça toute sa confiance en Allah. Ibn Abbas a dit que ses paroles à ce moment furent « Hasbunallahu wa ni'mal wakil » : « Allah nous suffit, et Il est le meilleur Garant. » Par l'ordre d'Allah, le feu devint fraîcheur et sécurité ; il ne fit aucun mal à Ibrahim. Il en sortit indemne, et ce miracle fut vu de tous, mais la plupart refusèrent encore de croire.",
+  },
+  {
+    id: 'ibrahim-15b',
+    type: 'hadith_source',
+    order: 16,
+    content: "Ibn Abbas related Ibrahim's words in the fire.",
+    contentFr: "Ibn Abbas a rapporté les paroles d'Ibrahim dans le feu.",
+    source: {
+      type: "hadith",
+      collection: "bukhari",
+      hadithNumber: "4563",
+      narrator: "Abdullah ibn Abbas",
+      arabicText: "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ، قَالَهَا إِبْرَاهِيمُ عَلَيْهِ السَّلاَمُ حِينَ أُلْقِيَ فِي النَّارِ",
+      translation: "'Allah is sufficient for us, and He is the best Disposer of affairs' - Ibrahim said it when he was thrown into the fire, and Muhammad ﷺ said it when people told him, 'The people have gathered against you, so fear them,' but it only increased them in faith.",
+      translationFr: "« Allah nous suffit, et Il est le meilleur Garant » : Ibrahim le dit lorsqu'il fut jeté dans le feu, et Muhammad ﷺ le dit lorsqu'on lui dit : « Les gens se sont rassemblés contre vous, craignez-les », mais cela ne fit qu'accroître leur foi.",
+      grade: "sahih",
+    } as HadithReference,
   },
   {
     id: 'ibrahim-16',
     type: 'quran_source',
-    order: 16,
+    order: 17,
     content: 'Their plan to harm Ibrahim completely failed.',
     contentFr: 'Leur plan de nuire à Ibrahim échoua complètement.',
     source: {
@@ -227,14 +244,14 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-17',
     type: 'narrative',
-    order: 17,
+    order: 18,
     content: 'After the failed attempt to kill him, Ibrahim decided to leave his homeland. He migrated with his wife Sarah and his nephew Lut, traveling to various lands including Egypt and eventually settling in the blessed land of Canaan (Palestine).',
     contentFr: 'Après la tentative échouée de le tuer, Ibrahim décida de quitter sa patrie. Il émigra avec sa femme Sarah et son neveu Lut, voyageant à travers diverses contrées dont l\'Égypte, et s\'installa finalement dans la terre bénie de Canaan (Palestine).',
   },
   {
     id: 'ibrahim-18',
     type: 'quran_source',
-    order: 18,
+    order: 19,
     content: 'Allah blessed Ibrahim\'s migration.',
     contentFr: 'Allah bénit l\'émigration d\'Ibrahim.',
     source: {
@@ -252,14 +269,14 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-19',
     type: 'narrative',
-    order: 19,
+    order: 20,
     content: 'Ibrahim longed for a child. He was growing old, and Sarah had been unable to have children. He prayed earnestly to Allah for righteous offspring who would continue his mission of calling people to the worship of One God.',
     contentFr: 'Ibrahim désirait ardemment un enfant. Il vieillissait, et Sarah n\'avait pu avoir d\'enfants. Il pria Allah avec ferveur pour une descendance vertueuse qui poursuivrait sa mission d\'appeler les gens à l\'adoration d\'un Dieu unique.',
   },
   {
     id: 'ibrahim-20',
     type: 'quran_source',
-    order: 20,
+    order: 21,
     content: 'Ibrahim\'s prayer for a righteous son was answered.',
     contentFr: 'La prière d\'Ibrahim pour un fils vertueux fut exaucée.',
     source: {
@@ -277,21 +294,21 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-21',
     type: 'narrative',
-    order: 21,
+    order: 22,
     content: 'Sarah, seeing Ibrahim\'s longing for a child, gave him her servant Hajar as a wife. Through Hajar, Ibrahim was blessed with his first son, Ismail. But divine wisdom had decreed that Ibrahim would face another great test.',
     contentFr: 'Sarah, voyant le désir ardent d\'Ibrahim pour un enfant, lui donna sa servante Hajar comme épouse. Par Hajar, Ibrahim fut béni de son premier fils, Ismail. Mais la sagesse divine avait décrété qu\'Ibrahim ferait face à une autre grande épreuve.',
   },
   {
     id: 'ibrahim-22',
     type: 'narrative',
-    order: 22,
+    order: 23,
     content: 'Allah commanded Ibrahim to take Hajar and the infant Ismail to a barren valley in Arabia - the place that would become Makkah. Ibrahim obeyed, leaving them with only some dates and water, trusting completely in Allah\'s plan.',
     contentFr: 'Allah ordonna à Ibrahim d\'emmener Hajar et le nourrisson Ismail dans une vallée aride d\'Arabie - le lieu qui deviendrait La Mecque. Ibrahim obéit, les laissant avec seulement quelques dattes et de l\'eau, faisant entièrement confiance au plan d\'Allah.',
   },
   {
     id: 'ibrahim-23',
     type: 'quran_source',
-    order: 23,
+    order: 24,
     content: 'Ibrahim\'s prayer when leaving his family in Makkah.',
     contentFr: 'La prière d\'Ibrahim en quittant sa famille à La Mecque.',
     source: {
@@ -309,21 +326,21 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-24',
     type: 'narrative',
-    order: 24,
+    order: 25,
     content: 'When the water ran out and baby Ismail cried from thirst, Hajar ran desperately between the hills of Safa and Marwa seven times, searching for water. Allah then caused the miraculous spring of Zamzam to gush forth near Ismail\'s feet - a spring that flows to this day.',
     contentFr: 'Quand l\'eau s\'épuisa et que le bébé Ismail pleura de soif, Hajar courut désespérément entre les collines de Safa et Marwa sept fois, cherchant de l\'eau. Allah fit alors jaillir la source miraculeuse de Zamzam près des pieds d\'Ismail - une source qui coule encore aujourd\'hui.',
   },
   {
     id: 'ibrahim-25',
     type: 'narrative',
-    order: 25,
+    order: 26,
     content: 'Years later, when Ismail had grown into a young man, Ibrahim received his greatest test. In a dream - which for prophets is revelation - he was commanded to sacrifice his beloved son.',
     contentFr: 'Des années plus tard, quand Ismail fut devenu un jeune homme, Ibrahim reçut sa plus grande épreuve. Dans un rêve - qui pour les prophètes est une révélation - il lui fut ordonné de sacrifier son fils bien-aimé.',
   },
   {
     id: 'ibrahim-26',
     type: 'quran_source',
-    order: 26,
+    order: 27,
     content: 'Ibrahim shared the vision with his son, and Ismail\'s response was remarkable.',
     contentFr: 'Ibrahim partagea la vision avec son fils, et la réponse d\'Ismail fut remarquable.',
     source: {
@@ -341,14 +358,14 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-27',
     type: 'narrative',
-    order: 27,
+    order: 28,
     content: 'Both father and son submitted completely to Allah\'s will. Ibrahim laid Ismail down and was about to fulfill the sacrifice when Allah called out to him. He had passed the test - his willingness to sacrifice what he loved most for Allah\'s sake was what mattered.',
     contentFr: 'Père et fils se soumirent complètement à la volonté d\'Allah. Ibrahim coucha Ismail et s\'apprêtait à accomplir le sacrifice quand Allah l\'appela. Il avait réussi l\'épreuve - sa volonté de sacrifier ce qu\'il aimait le plus pour l\'amour d\'Allah était ce qui comptait.',
   },
   {
     id: 'ibrahim-28',
     type: 'quran_source',
-    order: 28,
+    order: 29,
     content: 'Allah accepted their submission and ransomed Ismail.',
     contentFr: 'Allah accepta leur soumission et racheta Ismail.',
     source: {
@@ -366,21 +383,21 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-29',
     type: 'narrative',
-    order: 29,
-    content: 'Allah sent a ram from Paradise to be sacrificed in Ismail\'s place. This event is commemorated every year during Eid al-Adha, when Muslims around the world sacrifice animals in remembrance of Ibrahim\'s ultimate submission to Allah.',
-    contentFr: 'Allah envoya un bélier du Paradis pour être sacrifié à la place d\'Ismail. Cet événement est commémoré chaque année lors de l\'Aïd al-Adha, quand les musulmans du monde entier sacrifient des animaux en souvenir de la soumission ultime d\'Ibrahim à Allah.',
+    order: 30,
+    content: "Allah ransomed Ismail with a great sacrifice - a ram. Some narrations add that it had grazed in Paradise, but the Quran says only that it was 'a great sacrifice'. This event is commemorated every year during Eid al-Adha, when Muslims around the world sacrifice animals in remembrance of Ibrahim's ultimate submission to Allah.",
+    contentFr: "Allah racheta Ismaël par un grand sacrifice : un bélier. Certains récits ajoutent qu'il avait pâturé au Paradis, mais le Coran dit seulement qu'il s'agissait d'« un grand sacrifice ». Cet événement est commémoré chaque année lors de l'Aïd al-Adha, lorsque les musulmans du monde entier sacrifient des animaux en souvenir de la soumission ultime d'Ibrahim à Allah.",
   },
   {
     id: 'ibrahim-30',
     type: 'narrative',
-    order: 30,
+    order: 31,
     content: 'After this great trial, Allah commanded Ibrahim and Ismail to build the Kaaba - the first house of worship for humanity. Together, father and son raised its walls, making beautiful supplications as they worked.',
     contentFr: 'Après cette grande épreuve, Allah ordonna à Ibrahim et Ismail de construire la Kaaba - la première maison d\'adoration pour l\'humanité. Ensemble, père et fils élevèrent ses murs, formulant de belles invocations pendant qu\'ils travaillaient.',
   },
   {
     id: 'ibrahim-31',
     type: 'quran_source',
-    order: 31,
+    order: 32,
     content: 'Ibrahim and Ismail built the Kaaba together.',
     contentFr: 'Ibrahim et Ismail construisirent la Kaaba ensemble.',
     source: {
@@ -398,14 +415,14 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-32',
     type: 'narrative',
-    order: 32,
+    order: 33,
     content: 'Meanwhile, angels visited Ibrahim with news of both mercy and punishment. They brought glad tidings of another son, Ishaq, to be born to his elderly wife Sarah. They also informed him of the impending destruction of the people of Lut due to their wickedness.',
     contentFr: 'Entre-temps, des anges visitèrent Ibrahim avec des nouvelles de miséricorde et de châtiment. Ils apportèrent la bonne nouvelle d\'un autre fils, Ishaq, qui naîtrait de sa femme âgée Sarah. Ils l\'informèrent aussi de la destruction imminente du peuple de Lut en raison de leur perversité.',
   },
   {
     id: 'ibrahim-33',
     type: 'quran_source',
-    order: 33,
+    order: 34,
     content: 'The angels brought news of Ishaq.',
     contentFr: 'Les anges apportèrent la nouvelle d\'Ishaq.',
     source: {
@@ -423,14 +440,14 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-34',
     type: 'narrative',
-    order: 34,
-    content: 'Allah honored Ibrahim with the unique title "Khalilullah" - the Friend of Allah. This is the highest status of closeness to Allah, granted to no other prophet in this specific way.',
-    contentFr: 'Allah honora Ibrahim du titre unique de « Khalilullah » - l\'Ami d\'Allah. C\'est le plus haut statut de proximité avec Allah, accordé à aucun autre prophète de cette manière spécifique.',
+    order: 35,
+    content: "Allah honoured Ibrahim with the title 'Khalilullah' - the intimate friend of Allah. Khullah is the highest degree of love and closeness. The Prophet ﷺ told us that Allah took him too as a Khalil, just as He had taken Ibrahim (Sahih Muslim) - a rank shared by these two prophets alone.",
+    contentFr: "Allah honora Ibrahim du titre de « Khalilullah », l'ami intime d'Allah. La khullah est le plus haut degré d'amour et de proximité. Le Prophète ﷺ nous a dit qu'Allah l'avait pris lui aussi comme Khalil, tout comme Il avait pris Ibrahim (Sahih Muslim), un rang partagé par ces deux prophètes seulement.",
   },
   {
     id: 'ibrahim-35',
     type: 'quran_source',
-    order: 35,
+    order: 36,
     content: 'Allah took Ibrahim as a close friend.',
     contentFr: 'Allah prit Ibrahim comme ami intime.',
     source: {
@@ -448,14 +465,14 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-36',
     type: 'narrative',
-    order: 36,
+    order: 37,
     content: 'Ibrahim was an entire nation in himself - a model of pure faith, gratitude, and submission to Allah. He turned away from all falsehood and devoted himself entirely to his Lord.',
     contentFr: 'Ibrahim était à lui seul une nation entière - un modèle de foi pure, de gratitude et de soumission à Allah. Il se détourna de toute fausseté et se consacra entièrement à son Seigneur.',
   },
   {
     id: 'ibrahim-37',
     type: 'quran_source',
-    order: 37,
+    order: 38,
     content: 'Ibrahim was an exemplary leader in himself.',
     contentFr: 'Ibrahim était un leader exemplaire à lui seul.',
     source: {
@@ -471,16 +488,33 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     } as QuranReference,
   },
   {
+    id: 'ibrahim-37b',
+    type: 'hadith_source',
+    order: 39,
+    content: "The Prophet ﷺ described Ibrahim's honour on the Day of Resurrection.",
+    contentFr: "Le Prophète ﷺ a décrit l'honneur d'Ibrahim au Jour de la Résurrection.",
+    source: {
+      type: "hadith",
+      collection: "bukhari",
+      hadithNumber: "3349",
+      narrator: "Abdullah ibn Abbas",
+      arabicText: "إِنَّكُمْ مَحْشُورُونَ حُفَاةً عُرَاةً غُرْلاً... وَإِنَّ أَوَّلَ الْخَلاَئِقِ يُكْسَى يَوْمَ الْقِيَامَةِ إِبْرَاهِيمُ",
+      translation: "You will be gathered barefoot, naked and uncircumcised... and the first of creation to be clothed on the Day of Resurrection will be Ibrahim.",
+      translationFr: "Vous serez rassemblés pieds nus, dévêtus et incirconcis... et le premier des créatures à être vêtu au Jour de la Résurrection sera Ibrahim.",
+      grade: "sahih",
+    } as HadithReference,
+  },
+  {
     id: 'ibrahim-38',
     type: 'narrative',
-    order: 38,
+    order: 40,
     content: 'Ibrahim\'s legacy continues through his descendants. From Ismail came the Arab nation and ultimately Prophet Muhammad ﷺ. From Ishaq came Yaqub (Israel) and the long line of Israelite prophets including Yusuf, Musa, Dawud, Sulayman, and Isa.',
     contentFr: 'L\'héritage d\'Ibrahim se poursuit à travers ses descendants. D\'Ismail est venue la nation arabe et finalement le Prophète Muhammad ﷺ. D\'Ishaq est venu Yaqub (Israël) et la longue lignée de prophètes israélites incluant Yusuf, Musa, Dawud, Sulayman et Isa.',
   },
   {
     id: 'ibrahim-39',
     type: 'quran_source',
-    order: 39,
+    order: 41,
     content: 'Allah blessed Ibrahim\'s offspring with prophethood and scripture.',
     contentFr: 'Allah bénit la descendance d\'Ibrahim de la prophétie et des écritures.',
     source: {
@@ -498,7 +532,7 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
   {
     id: 'ibrahim-40',
     type: 'narrative',
-    order: 40,
+    order: 42,
     content: 'May Allah grant us the faith of Ibrahim, his complete trust in Allah, and his willingness to sacrifice everything for the sake of his Lord. May we follow his way of pure monotheism and be gathered with him in the highest levels of Paradise. And may peace and blessings be upon Ibrahim, the Friend of Allah, and upon all the prophets.',
     contentFr: 'Qu\'Allah nous accorde la foi d\'Ibrahim, sa confiance totale en Allah et sa volonté de tout sacrifier pour l\'amour de son Seigneur. Puissions-nous suivre sa voie de monothéisme pur et être rassemblés avec lui aux plus hauts niveaux du Paradis. Et que la paix et les bénédictions soient sur Ibrahim, l\'Ami d\'Allah, et sur tous les prophètes.',
   },
@@ -511,7 +545,7 @@ export const ibrahimSubStories: SubStory[] = [
     prophetId: 'ibrahim',
     title: 'The Story of Prophet Ibrahim',
     titleArabic: 'قصة النبي إبراهيم',
-    order: 1,
+    order: 43,
     content: ibrahimStoryContent,
     estimatedReadTime: 35,
   },

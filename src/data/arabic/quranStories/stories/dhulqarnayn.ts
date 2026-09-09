@@ -1,14 +1,14 @@
 // Story of Dhul-Qarnayn (ذو القرنين)
 // The Righteous King who traveled East and West
 
-import { QuranStory, StoryContentBlock, QuranReference } from '../../../../types/quranStories';
+import { QuranStory, StoryContentBlock, QuranReference, HadithReference } from '../../../../types/quranStories';
 
 export const dhulQarnaynStory: QuranStory = {
   id: 'dhulqarnayn',
   titleEnglish: 'Dhul-Qarnayn - The Two-Horned King',
     titleFrench: 'Dhoul-Qarnayn - Le Roi aux Deux Cornes',
   titleArabic: 'ذو القرنين',
-  order: 3,
+  order: 1,
   category: 'individuals',
   description: 'A righteous king who traveled the earth and built a barrier against Gog and Magog',
     descriptionFr: 'Un roi juste qui parcourut la terre et construisit une barriere contre Gog et Magog',
@@ -118,8 +118,8 @@ export const dhulQarnaynStory: QuranStory = {
       id: 'dhulqarnayn-7',
       type: 'narrative',
       order: 7,
-      content: "His eastern journey brought him to a primitive people who had no shelter from the sun - no buildings, no clothing to protect them. Despite their simple state, Dhul-Qarnayn dealt with them justly. Allah's knowledge encompassed all that Dhul-Qarnayn possessed and did, affirming that his actions were righteous.",
-      contentFr: "Son voyage vers l'est le mena a un peuple primitif qui n'avait aucun abri contre le soleil - ni batiments, ni vetements pour se proteger. Malgre leur etat simple, Dhoul-Qarnayn les traita avec justice. La connaissance d'Allah englobait tout ce que Dhoul-Qarnayn possedait et faisait, confirmant la droiture de ses actions.",
+      content: "His eastern journey brought him to a people who lived exposed to the sun, with no shelter from it - no buildings and, as some commentators say, no clothing to protect them. Despite their simple way of life, Dhul-Qarnayn dealt with them justly. Allah's knowledge encompassed all that Dhul-Qarnayn possessed and did, affirming that his actions were righteous.",
+      contentFr: "Son voyage vers l'est le mena chez un peuple qui vivait exposé au soleil, sans aucun abri contre lui : ni bâtiments ni, selon certains commentateurs, vêtements pour les protéger. Malgré leur mode de vie simple, Dhul-Qarnayn les traita avec justice. La connaissance d'Allah englobait tout ce que Dhul-Qarnayn possédait et faisait, confirmant que ses actions étaient droites.",
     },
     {
       id: 'dhulqarnayn-8',
@@ -200,13 +200,29 @@ export const dhulQarnaynStory: QuranStory = {
       id: 'dhulqarnayn-14',
       type: 'narrative',
       order: 14,
-      content: "Despite this incredible achievement, Dhul-Qarnayn did not boast or take credit. He attributed it to Allah's mercy, not his own power. And he looked beyond the present to the Day of Judgment, when Allah would level this barrier and Gog and Magog would pour forth. Even his greatest accomplishment was temporary in the face of divine decree.",
-      contentFr: "Malgre cet incroyable exploit, Dhoul-Qarnayn ne se vanta pas et ne s'en attribua pas le merite. Il l'attribua a la misericorde d'Allah, non a son propre pouvoir. Et il regarda au-dela du present vers le Jour du Jugement, quand Allah nivellerait cette barriere et que Gog et Magog se repandraient. Meme son plus grand accomplissement etait temporaire face au decret divin.",
+      content: "Despite this incredible achievement, Dhul-Qarnayn did not boast or take credit. He attributed it to Allah's mercy, not his own power. And he looked beyond the present to the day Allah's promise would come: before the Hour, Allah will level this barrier and Gog and Magog will pour forth from every elevation, as the Quran describes elsewhere (21:96). Even his greatest accomplishment was temporary in the face of divine decree.",
+      contentFr: "Malgré cet exploit incroyable, Dhul-Qarnayn ne se vanta pas et ne s'en attribua pas le mérite. Il l'attribua à la miséricorde d'Allah, non à sa propre puissance. Et il regarda au-delà du présent, vers le jour où la promesse d'Allah viendrait : avant l'Heure, Allah nivellera cette barrière et Gog et Magog déferleront de toutes les hauteurs, comme le Coran le décrit ailleurs (21:96). Même sa plus grande réalisation était temporaire face au décret divin.",
+    },
+    {
+      id: 'dhulqarnayn-14b',
+      type: 'hadith_source',
+      order: 15,
+      content: "The Prophet ﷺ warned that the barrier had begun to open.",
+      contentFr: "Le Prophète ﷺ a averti que la barrière avait commencé à s'ouvrir.",
+      source: {
+        type: "hadith",
+        collection: "Sahih al-Bukhari (3346) and Sahih Muslim (2880)",
+        narrator: "Zaynab bint Jahsh",
+        arabicText: "لَا إِلَهَ إِلَّا اللَّهُ، وَيْلٌ لِلْعَرَبِ مِنْ شَرٍّ قَدِ اقْتَرَبَ، فُتِحَ الْيَوْمَ مِنْ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ مِثْلُ هَذِهِ",
+        translation: "The Prophet ﷺ woke from sleep with his face red and said: 'There is no deity but Allah. Woe to the Arabs from an evil that has drawn near. Today a gap has been opened in the barrier of Gog and Magog like this' - and he made a circle with his thumb and index finger.",
+        translationFr: "Le Prophète ﷺ se réveilla le visage rouge et dit : « Il n'y a de divinité qu'Allah. Malheur aux Arabes d'un mal qui s'est approché. Aujourd'hui, une brèche comme celle-ci a été ouverte dans la barrière de Gog et Magog », et il fit un cercle avec son pouce et son index.",
+        grade: "sahih",
+      } as HadithReference,
     },
     {
       id: 'dhulqarnayn-15',
       type: 'quran_source',
-      order: 15,
+      order: 16,
       content: "On that Day, Gog and Magog will emerge and all will be gathered.",
       contentFr: "Ce Jour-la, Gog et Magog surgiront et tous seront rassembles.",
       source: {
@@ -224,14 +240,14 @@ export const dhulQarnaynStory: QuranStory = {
     {
       id: 'dhulqarnayn-16',
       type: 'narrative',
-      order: 16,
-      content: "Who was Dhul-Qarnayn historically? Scholars have suggested Alexander the Great, Cyrus the Great of Persia, or a pre-Islamic Arabian king. The Quran does not specify, focusing instead on his qualities: justice, humility, gratitude to Allah, and service to the oppressed. These are the characteristics that matter.",
-      contentFr: "Qui etait Dhoul-Qarnayn historiquement ? Les savants ont suggere Alexandre le Grand, Cyrus le Grand de Perse, ou un roi arabe preislamique. Le Coran ne precise pas, se concentrant plutot sur ses qualites : la justice, l'humilite, la gratitude envers Allah et le service aux opprimes. Ce sont ces caracteristiques qui comptent.",
+      order: 17,
+      content: "Who was Dhul-Qarnayn? The Quran does not say, and no authentic hadith names him. Some later writers identified him with Alexander the Macedonian, but Ibn Kathir and others rejected this, since Alexander was a pagan while Dhul-Qarnayn was a believing and just king; others have suggested an ancient Persian or Arabian ruler. The Quran focuses instead on his qualities: justice, humility, gratitude to Allah, and service to the oppressed. These are the characteristics that matter.",
+      contentFr: "Qui était Dhul-Qarnayn ? Le Coran ne le dit pas, et aucun hadith authentique ne le nomme. Certains auteurs tardifs l'ont identifié à Alexandre le Macédonien, mais Ibn Kathir et d'autres ont rejeté cette identification, car Alexandre était païen alors que Dhul-Qarnayn était un roi croyant et juste ; d'autres ont proposé un ancien souverain perse ou arabe. Le Coran se concentre plutôt sur ses qualités : la justice, l'humilité, la gratitude envers Allah et le service des opprimés. Ce sont ces caractéristiques qui comptent.",
     },
     {
       id: 'dhulqarnayn-17',
       type: 'narrative',
-      order: 17,
+      order: 18,
       content: "The story of Dhul-Qarnayn teaches that true greatness lies not in conquering lands but in establishing justice, not in accumulating power but in using it to serve others, and not in building monuments to oneself but in humility before Allah. Even the greatest human achievement is temporary; only deeds done for Allah's sake endure.",
       contentFr: "L'histoire de Dhoul-Qarnayn enseigne que la vraie grandeur ne reside pas dans la conquete des terres mais dans l'etablissement de la justice, non dans l'accumulation du pouvoir mais dans son utilisation au service des autres, et non dans la construction de monuments a sa propre gloire mais dans l'humilite devant Allah. Meme le plus grand accomplissement humain est temporaire ; seules les actions faites pour l'amour d'Allah perdurent.",
     },

@@ -31,7 +31,7 @@ export const qarunStory: QuranStory = {
     'Le vrai succes est aupres d\'Allah, non dans l\'accumulation materielle',
   ],
   estimatedReadTime: 12,
-  quranMentions: 1,
+  quranMentions: 4,
   icon: '💰',
   mainSurah: {
     number: 28,
