@@ -135,6 +135,39 @@ export function splitSentences(text: string, maxWords = 34): string[] {
   return out;
 }
 
+/**
+ * Cut one sentence into clips short enough for a URL-based voice.
+ *
+ * Each clip is a separate piece of audio, so a boundary in the middle of a
+ * clause is audible as a stumble. Prefer a sentence end, then a clause end,
+ * then any space, and only fall back to a hard cut.
+ */
+export function chunkForUrl(text: string, maxLen: number): string[] {
+  if (text.length <= maxLen) return [text];
+
+  const chunks: string[] = [];
+  let remaining = text;
+
+  while (remaining.length > 0) {
+    if (remaining.length <= maxLen) {
+      chunks.push(remaining);
+      break;
+    }
+    let splitAt = -1;
+    for (const mark of ['. ', '! ', '? ', '; ', ', ']) {
+      const at = remaining.lastIndexOf(mark, maxLen);
+      if (at > splitAt) splitAt = at;
+    }
+    if (splitAt === -1 || splitAt < maxLen / 2) splitAt = remaining.lastIndexOf(' ', maxLen);
+    if (splitAt === -1) splitAt = maxLen;
+
+    chunks.push(remaining.substring(0, splitAt + 1).trim());
+    remaining = remaining.substring(splitAt + 1).trim();
+  }
+
+  return chunks.filter(Boolean);
+}
+
 /** Comparison key for "have we already said this?". */
 export function speechKey(text: string): string {
   return text

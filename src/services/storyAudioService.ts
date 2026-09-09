@@ -1,142 +1,341 @@
 /**
  * Story narration — one sentence at a time, spoken exactly once.
  *
- * The previous version started an utterance and then ALSO polled
- * `isSpeakingAsync` to decide it had finished. Both paths could fire, and
- * between them a paragraph could be announced twice, or the queue could
- * advance while the voice was still talking and end up speaking over itself.
- * That is the whole reason a listener hears a line repeat.
+ * Two things make it sound like a person rather than a machine, both taken
+ * from the approach proven in English 2.0:
  *
- * So the contract here is narrow and strict:
+ *   1. ASK FOR THE GOOD VOICE. expo-speech with no `voice` uses the system
+ *      default, which on both platforms is the small "compact" cut — the
+ *      flat, clipped one that sounds synthetic. Both platforms also ship a
+ *      far more natural neural voice that costs nothing to request and is
+ *      simply never chosen by default. iOS labels those Enhanced/Premium;
+ *      Android exposes network voices whose identifiers carry a variant tag.
+ *      `bestVoice` scores the list and takes the best one.
+ *   2. ON iOS, PREFER GOOGLE'S VOICE. AVSpeechSynthesizer on iOS 17/18 is
+ *      both buggy and duller than Google's TTS, so online we fetch the audio
+ *      and play it. Offline, or once Google refuses, we fall back to the
+ *      on-device voice from (1) and the story keeps going.
+ *
+ * The playback contract is unchanged and strict, because it is what stops a
+ * listener ever hearing a line twice:
  *
  *   `speak()` resolves EXACTLY ONCE, with why it ended.
  *
- * Whoever owns the queue awaits that promise and advances on 'done'. On
- * 'stopped' it must not advance — something else took over. A generation
- * counter makes a superseded utterance unable to report anything at all.
- *
- * Pause is real pause where the platform has it: the promise simply stays
- * pending while the voice is suspended, so resuming continues mid-sentence
- * and no word is ever said twice. Where the platform lacks it we stop, and
- * the queue resumes at the start of that one sentence — the smallest repeat
- * possible, and the only one in the system.
+ * The queue advances only on 'done'. A generation counter makes a superseded
+ * utterance unable to report anything at all, whichever path produced it.
  */
 import * as Speech from 'expo-speech';
 import { Platform } from 'react-native';
-import { setAudioModeAsync } from 'expo-audio';
+import * as Network from 'expo-network';
+import { createAudioPlayer, setAudioModeAsync } from 'expo-audio';
+import type { AudioPlayer } from 'expo-audio';
 import { registerAudioProducer, claimAudio } from './audioBus';
+import { chunkForUrl } from './narrationText';
 
 export type SpeakResult = 'done' | 'stopped' | 'error';
 export type NarrationLang = 'en' | 'fr';
 
 /**
- * Rate passed to the engine. expo-speech takes a multiplier where 1 is the
- * platform default, which is markedly faster than a person reads aloud, so
- * every step sits below it: 1x here is a measured storytelling pace.
+ * Rate for the on-device voice. 1 is the platform default, which reads a
+ * touch fast for a story, so the scale sits just under it. The enhanced
+ * voices lose their warmth if pushed much past 1.2.
  */
-const RATE: Record<number, number> = {
-  0.75: 0.52,
-  1: 0.68,
-  1.25: 0.84,
-  1.5: 1.0,
+const DEVICE_RATE: Record<number, number> = {
+  0.75: 0.78,
+  1: 0.92,
+  1.25: 1.06,
+  1.5: 1.2,
 };
 
-const VOICE_HINTS: Record<NarrationLang, string[]> = {
-  // Clear, warm, widely installed. Order is preference.
-  en: ['samantha', 'karen', 'daniel', 'moira', 'serena', 'alex'],
-  fr: ['thomas', 'audrey', 'aurelie', 'amelie', 'marie'],
-};
+/** Roughly how fast either path gets through words, for time-remaining. */
+const WORDS_PER_MINUTE = 155;
 
-/** Roughly how fast the engine gets through words, for time-remaining. */
-const WORDS_PER_MINUTE = 150;
+/** Google's endpoint refuses long strings; this is a safe clip length. */
+const URL_CHUNK = 180;
+
+/** How long to stop trying Google after it fails, so taps do not stall. */
+const NETWORK_BACKOFF_MS = 30_000;
+
+/** After it fails twice, stop asking for the rest of the session. */
+const SESSION_BACKOFF_MS = 24 * 60 * 60 * 1000;
 
 export function estimateSeconds(text: string, speed: number): number {
   const words = text.trim().split(/\s+/).filter(Boolean).length;
-  const rate = RATE[speed] ?? RATE[1];
-  // RATE[1] is the reference pace; scale from there.
-  return (words / WORDS_PER_MINUTE) * 60 * (RATE[1] / rate);
+  return (words / WORDS_PER_MINUTE) * 60 * (1 / (speed || 1));
 }
 
 class StoryAudioService {
   private generation = 0;
   private audioConfigured = false;
-  private voices: Partial<Record<NarrationLang, string | undefined>> = {};
-  private voicesLoadedFor = new Set<NarrationLang>();
   private paused = false;
-  private supportsPause: boolean | null = null;
+  private supportsDevicePause: boolean | null = null;
+  private voiceCache = new Map<string, string | undefined>();
+  private players = new Set<AudioPlayer>();
+  private networkUnavailableUntil = 0;
+  private networkFailures = 0;
+  private onlineCheckedAt = 0;
+  private onlineCached = true;
+
+  // -- audio session ------------------------------------------------------
 
   private async configureAudio(): Promise<void> {
     if (this.audioConfigured) return;
+    this.audioConfigured = true;
     try {
       await setAudioModeAsync({ playsInSilentMode: true, interruptionMode: 'duckOthers' });
-      this.audioConfigured = true;
     } catch (e) {
       __DEV__ && console.log('[story audio] audio mode:', e);
     }
   }
 
-  private async pickVoice(lang: NarrationLang): Promise<void> {
-    if (this.voicesLoadedFor.has(lang)) return;
-    this.voicesLoadedFor.add(lang);
-    try {
-      const all = await Speech.getAvailableVoicesAsync();
-      const matching = all.filter((v) => v.language?.toLowerCase().startsWith(lang));
-      const byName = (name: string) =>
-        matching.find((v) => v.identifier?.toLowerCase().includes(name) && v.quality === 'Enhanced') ||
-        matching.find((v) => v.identifier?.toLowerCase().includes(name));
+  // -- voice selection ----------------------------------------------------
 
-      let chosen: string | undefined;
-      for (const hint of VOICE_HINTS[lang]) {
-        const v = byName(hint);
-        if (v) {
-          chosen = v.identifier;
-          break;
-        }
-      }
-      this.voices[lang] =
-        chosen || matching.find((v) => v.quality === 'Enhanced')?.identifier || matching[0]?.identifier;
-      __DEV__ && console.log(`[story audio] ${lang} voice:`, this.voices[lang]);
+  /**
+   * The best installed voice for a language. Scored rather than matched by
+   * name, because the good voices are named differently on every platform and
+   * only their quality flags and identifier tags are dependable.
+   */
+  private async bestVoice(locale: string): Promise<string | undefined> {
+    if (this.voiceCache.has(locale)) return this.voiceCache.get(locale);
+
+    let chosen: string | undefined;
+    try {
+      const voices = await Speech.getAvailableVoicesAsync();
+      const want = locale.toLowerCase();
+      const short = want.split('-')[0];
+      const candidates = voices.filter((v) => {
+        const vl = (v.language || '').toLowerCase();
+        return vl === want || vl.replace('_', '-') === want || vl.startsWith(short);
+      });
+
+      const score = (v: (typeof voices)[number]) => {
+        const id = (v.identifier || '').toLowerCase();
+        const quality = String(v.quality || '').toLowerCase();
+        let n = 0;
+        if (quality.includes('enhanced') || quality.includes('premium')) n += 100;
+        if (id.includes('premium')) n += 60;
+        if (id.includes('enhanced')) n += 50;
+        if (id.includes('-network')) n += 45; // Android neural voices
+        if (id.includes('siri')) n += 40;
+        if (id.includes('-local')) n += 10;
+        if (id.includes('compact')) n -= 50;
+        if ((v.language || '').toLowerCase().replace('_', '-') === want) n += 15;
+        return n;
+      };
+
+      candidates.sort((a, b) => score(b) - score(a));
+      chosen = candidates[0]?.identifier;
+      __DEV__ && console.log(`[story audio] ${locale} voice:`, chosen);
     } catch (e) {
       __DEV__ && console.log('[story audio] voices:', e);
     }
+
+    this.voiceCache.set(locale, chosen);
+    return chosen;
   }
 
-  /** Warm up audio session and voice list so the first tap is not slow. */
+  private localeFor(lang: NarrationLang): string {
+    return lang === 'fr' ? 'fr-FR' : 'en-US';
+  }
+
+  /** Warm the audio session and voice list so the first tap is not slow. */
   async prime(lang: NarrationLang): Promise<void> {
     await this.configureAudio();
-    await this.pickVoice(lang);
+    await this.bestVoice(this.localeFor(lang));
   }
 
-  async listVoices(lang: NarrationLang): Promise<Speech.Voice[]> {
+  // -- players ------------------------------------------------------------
+
+  /**
+   * Pausing before removing matters: releasing a player while it is sounding
+   * does not reliably cut the audio, which is how a "stopped" voice carries
+   * on talking.
+   */
+  private killPlayer(player: AudioPlayer) {
     try {
-      const all = await Speech.getAvailableVoicesAsync();
-      return all.filter((v) => v.language?.toLowerCase().startsWith(lang));
+      player.pause();
+    } catch {}
+    try {
+      player.remove();
+    } catch {}
+    this.players.delete(player);
+  }
+
+  private killAllPlayers() {
+    for (const player of Array.from(this.players)) this.killPlayer(player);
+    this.players.clear();
+  }
+
+  private async isOnline(): Promise<boolean> {
+    // Asking per sentence would put a stall before every line of the story.
+    if (Date.now() - this.onlineCheckedAt < 15_000) return this.onlineCached;
+    try {
+      const state = await Network.getNetworkStateAsync();
+      this.onlineCached = state.isInternetReachable ?? state.isConnected ?? true;
     } catch {
-      return [];
+      this.onlineCached = true; // the network path fails safe on its own
     }
+    this.onlineCheckedAt = Date.now();
+    return this.onlineCached;
   }
 
-  setVoice(lang: NarrationLang, identifier: string | undefined): void {
-    this.voices[lang] = identifier;
-    this.voicesLoadedFor.add(lang);
-  }
-
-  getVoice(lang: NarrationLang): string | undefined {
-    return this.voices[lang];
-  }
+  // -- speaking -----------------------------------------------------------
 
   /**
    * Speak one sentence. Resolves once, when the voice actually finished, was
-   * stopped, or failed. Never resolves twice, and a superseded call resolves
-   * 'stopped' without touching shared state.
+   * stopped, or failed. A superseded call resolves 'stopped' without touching
+   * shared state.
    */
-  speak(text: string, speed: number, lang: NarrationLang): Promise<SpeakResult> {
+  async speak(text: string, speed: number, lang: NarrationLang): Promise<SpeakResult> {
     claimAudio('story');
     const body = text?.trim();
-    if (!body) return Promise.resolve('done');
+    if (!body) return 'done';
 
     const generation = ++this.generation;
     this.paused = false;
+    this.killAllPlayers();
+
+    await this.configureAudio();
+    if (generation !== this.generation) return 'stopped';
+
+    const useNetwork =
+      Platform.OS === 'ios' && Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
+    if (generation !== this.generation) return 'stopped';
+
+    if (useNetwork) return this.speakOnline(body, speed, lang, generation);
+    return this.speakOnDevice(body, speed, lang, generation);
+  }
+
+  /** Google's voice, fetched a clip at a time and played in order. */
+  private async speakOnline(
+    body: string,
+    speed: number,
+    lang: NarrationLang,
+    generation: number
+  ): Promise<SpeakResult> {
+    const chunks = chunkForUrl(body, URL_CHUNK);
+    let spoken = 0;
+
+    try {
+      for (const chunk of chunks) {
+        if (generation !== this.generation) return 'stopped';
+        await this.playClip(chunk, speed, lang, generation);
+        spoken += 1;
+      }
+      return generation === this.generation ? 'done' : 'stopped';
+    } catch {
+      if (generation !== this.generation) return 'stopped';
+      // Offline, blocked or stalled. Stop trying for a while and finish this
+      // sentence with the on-device voice — but only the part not yet heard,
+      // or the listener gets the beginning of it twice.
+      // Switching voices back and forth mid-story is worse than settling for
+      // the device voice, so a second failure retires the network path for
+      // the rest of the session rather than retrying every half minute.
+      this.networkFailures += 1;
+      this.networkUnavailableUntil =
+        Date.now() + (this.networkFailures >= 2 ? SESSION_BACKOFF_MS : NETWORK_BACKOFF_MS);
+      const remaining = chunks.slice(spoken).join(' ');
+      if (!remaining) return 'done';
+      return this.speakOnDevice(remaining, speed, lang, generation);
+    }
+  }
+
+  /** One clip. Resolves when it finishes, rejects if it never starts. */
+  private playClip(chunk: string, speed: number, lang: NarrationLang, generation: number): Promise<void> {
+    return new Promise<void>((resolve, reject) => {
+      const url =
+        `https://translate.google.com/translate_tts?ie=UTF-8&tl=${lang}` +
+        `&client=tw-ob&ttsspeed=1&q=${encodeURIComponent(chunk)}`;
+
+      let started = false;
+      let settled = false;
+      const player = createAudioPlayer({ uri: url });
+      this.players.add(player);
+
+      try {
+        player.shouldCorrectPitch = true;
+        player.setPlaybackRate(speed, 'high');
+      } catch {
+        /* rate is a nicety; the clip still plays at normal speed */
+      }
+
+      const settle = (fn: () => void) => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(startTimer);
+        if (endTimer) clearTimeout(endTimer);
+        clearInterval(staleCheck);
+        this.killPlayer(player);
+        fn();
+      };
+
+      // Nothing playing within five seconds is the signature of a blocked or
+      // offline fetch. Paused does not count against it — waiting out a pause
+      // and then giving up would strand the clip, so reschedule instead.
+      let startTimer: ReturnType<typeof setTimeout>;
+      const waitForStart = () => {
+        startTimer = setTimeout(() => {
+          if (started) return;
+          if (this.paused) {
+            waitForStart();
+            return;
+          }
+          settle(() => reject(new Error('tts-timeout')));
+        }, 5000);
+      };
+      waitForStart();
+
+      // And once it is playing, a clip that stops reporting status must not
+      // hang the queue.
+      let endTimer: ReturnType<typeof setTimeout> | null = null;
+      const armEnd = () => {
+        if (endTimer) clearTimeout(endTimer);
+        endTimer = setTimeout(() => {
+          if (this.paused) {
+            armEnd();
+            return;
+          }
+          settle(resolve);
+        }, (estimateSeconds(chunk, speed) + 10) * 1000);
+      };
+
+      const staleCheck = setInterval(() => {
+        if (generation !== this.generation) settle(resolve);
+      }, 60);
+
+      player.addListener('playbackStatusUpdate', (status) => {
+        if (status.playing || status.currentTime > 0) {
+          if (!started) {
+            started = true;
+            clearTimeout(startTimer);
+            armEnd();
+          }
+        }
+        // `duration` is 0 until the clip loads. Without this guard the
+        // finished test is true on the first tick and every clip is skipped.
+        const durationKnown = typeof status.duration === 'number' && status.duration > 0;
+        const ranOut =
+          durationKnown &&
+          status.playing === false &&
+          status.currentTime > 0 &&
+          status.currentTime >= status.duration - 0.1;
+        if (status.didJustFinish || ranOut) settle(resolve);
+      });
+
+      player.play();
+    });
+  }
+
+  /** The on-device voice, chosen for quality rather than left to default. */
+  private async speakOnDevice(
+    body: string,
+    speed: number,
+    lang: NarrationLang,
+    generation: number
+  ): Promise<SpeakResult> {
+    const locale = this.localeFor(lang);
+    const voice = await this.bestVoice(locale);
+    if (generation !== this.generation) return 'stopped';
 
     return new Promise<SpeakResult>((resolve) => {
       let settled = false;
@@ -148,17 +347,15 @@ class StoryAudioService {
         if (watchdog) clearTimeout(watchdog);
         resolve(result);
       };
-
-      // A superseded utterance must not report progress to the queue that
-      // replaced it.
       const guard = (result: SpeakResult) => finish(generation === this.generation ? result : 'stopped');
 
       try {
         Speech.speak(body, {
-          language: lang === 'fr' ? 'fr-FR' : 'en-US',
-          voice: this.voices[lang],
-          rate: RATE[speed] ?? RATE[1],
-          pitch: 1.02,
+          language: locale,
+          voice,
+          rate: DEVICE_RATE[speed] ?? DEVICE_RATE[1],
+          // Exactly 1. Any deviation gives the enhanced voices a chipmunk edge.
+          pitch: 1.0,
           onDone: () => guard('done'),
           onStopped: () => guard('stopped'),
           onError: () => guard('error'),
@@ -169,28 +366,23 @@ class StoryAudioService {
         return;
       }
 
-      // Some engines never call onDone. Without a backstop the queue would
-      // hang forever on one sentence, so allow generous headroom and then
-      // treat it as finished. The `settled` guard means a late real callback
-      // cannot double-advance.
+      // Some engines never report completion. Without a backstop the queue
+      // would hang on one sentence forever.
       const budget = (estimateSeconds(body, speed) + 6) * 1000 * 2.5;
       const check = async () => {
         if (settled) return;
-        // Paused is not stalled. Waiting here is what keeps a long pause from
-        // advancing the queue behind the listener's back.
+        // Paused is not stalled.
         if (this.paused) {
           watchdog = setTimeout(check, budget);
           return;
         }
         try {
           if (await Speech.isSpeakingAsync()) {
-            // Genuinely a long sentence — give it the same budget again
-            // rather than cutting the voice off.
             watchdog = setTimeout(check, budget);
             return;
           }
         } catch {
-          /* fall through and finish */
+          /* fall through */
         }
         guard('done');
       };
@@ -198,24 +390,36 @@ class StoryAudioService {
     });
   }
 
+  // -- transport ----------------------------------------------------------
+
   /**
-   * Suspend the current sentence. Returns true when the platform really
-   * paused (the pending `speak()` promise stays pending); false when it could
-   * only be stopped, which settles that promise as 'stopped'.
+   * Suspend the current sentence. True when it really paused, so the pending
+   * `speak()` promise stays pending and resuming continues mid-sentence.
+   * False when it could only be stopped, which settles that promise.
    */
   async pause(): Promise<boolean> {
-    if (Platform.OS !== 'ios' || this.supportsPause === false) {
-      this.supportsPause = false;
+    if (this.players.size > 0) {
+      this.paused = true;
+      for (const player of this.players) {
+        try {
+          player.pause();
+        } catch {}
+      }
+      return true;
+    }
+
+    if (Platform.OS !== 'ios' || this.supportsDevicePause === false) {
+      this.supportsDevicePause = false;
       await this.stop();
       return false;
     }
     try {
       await Speech.pause();
       this.paused = true;
-      this.supportsPause = true;
+      this.supportsDevicePause = true;
       return true;
     } catch {
-      this.supportsPause = false;
+      this.supportsDevicePause = false;
       await this.stop();
       return false;
     }
@@ -223,18 +427,27 @@ class StoryAudioService {
 
   async resume(): Promise<void> {
     if (!this.paused) return;
+    this.paused = false;
+    if (this.players.size > 0) {
+      for (const player of this.players) {
+        try {
+          player.play();
+        } catch {}
+      }
+      return;
+    }
     try {
       await Speech.resume();
     } catch {
       /* the queue restarts the sentence instead */
     }
-    this.paused = false;
   }
 
   /** Silence everything and invalidate any in-flight utterance. */
   async stop(): Promise<void> {
     this.generation++;
     this.paused = false;
+    this.killAllPlayers();
     try {
       await Speech.stop();
     } catch {
