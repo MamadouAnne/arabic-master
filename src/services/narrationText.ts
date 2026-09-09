@@ -4,10 +4,25 @@
  * Two jobs, kept apart from the audio service so they can be reasoned about
  * on their own:
  *
- *   1. `prepareForSpeech` — spell names the way they should sound. Left as
- *      written, engines say "Allah" with a flat English 'a' and read "ﷺ" as
- *      nothing at all. These substitutions are deliberate and were tuned by
- *      ear; they are not general-purpose transliteration.
+ *   1. `prepareForSpeech` — remove what cannot be spoken, and nothing else.
+ *
+ *      English used to go through thirty-five phonetic respellings tuned by
+ *      ear for the old compact voice: Allah as "Ollah", honored as
+ *      "honnerd", Yusuf as "Yoosuf". French had none, and French was
+ *      noticeably the smoother of the two.
+ *
+ *      That is not a coincidence. A neural voice reads real words from a
+ *      learned model of how they sound in a sentence. Hand it an invented
+ *      spelling and it falls back to sounding the letters out, which carries
+ *      no rhythm, so the word lands flat and drags the phrase around it out
+ *      of shape. On common words like "honored" that happened constantly.
+ *      "Allah's" also lost its possessive, and "Satan" was quietly swapped
+ *      for a different word altogether.
+ *
+ *      The voices we ask for now say these names perfectly well on their
+ *      own. So English is left alone, exactly as French always was. Resist
+ *      re-adding a respelling here: if a name really is mispronounced, it is
+ *      one name, and it is worth less than the rhythm of every sentence.
  *   2. `splitSentences` — cut a paragraph into utterances. Short utterances
  *      are what make pause, skip and highlight feel immediate, and they keep
  *      the cost of an interrupted sentence to a single sentence.
@@ -15,45 +30,6 @@
 export type NarrationLang = 'en' | 'fr';
 
 const HONORIFIC = /ﷺ|صلى الله عليه وسلم/g;
-
-/** Sound-alike spellings for English voices. Order matters: longest first. */
-const EN_PHONETIC: Array<[RegExp, string]> = [
-  [/\bAllah's\b/g, 'Ollahs'],
-  [/\bAllah\b/g, 'Ollah'],
-  [/\bIblis\b/gi, 'Iblees'],
-  [/\bkhalifah\b/gi, 'khaleefah'],
-  [/\bQuran\b/gi, 'Quraan'],
-  [/\bSurah\b/gi, 'Soorah'],
-  [/\bayah\b/gi, 'aayah'],
-  [/\bayat\b/gi, 'aayaat'],
-  [/\bIbrahim\b/gi, 'Ibraheem'],
-  [/\bIsmail\b/gi, 'Ismaeel'],
-  [/\bIshaq\b/gi, 'Is-haaq'],
-  [/\bYaqub\b/gi, 'Yaqoob'],
-  [/\bYusuf\b/gi, 'Yoosuf'],
-  [/\bYunus\b/gi, 'Yoonus'],
-  [/\bYahya\b/gi, 'Yahyaa'],
-  [/\bZakariya\b/gi, 'Zakariyyah'],
-  [/\bMusa\b/gi, 'Moosa'],
-  [/\bHarun\b/gi, 'Haaroon'],
-  [/\bIsa\b/g, 'Eesa'],
-  [/\bNuh\b/gi, 'Nooh'],
-  [/\bHud\b/g, 'Hood'],
-  [/\bSalih\b/gi, 'Saalih'],
-  [/\bShu'ayb\b/gi, 'Shuayb'],
-  [/\bDawud\b/gi, 'Dawood'],
-  [/\bSulayman\b/gi, 'Sulaymaan'],
-  [/\bAyyub\b/gi, 'Ayyoob'],
-  [/\bIdris\b/gi, 'Idrees'],
-  [/\bLut\b/g, 'Loot'],
-  [/\bMaryam\b/gi, 'Maryam'],
-  [/\bAdam\b/g, 'Aadam'],
-  [/\bHawwa\b/gi, 'Hawwah'],
-  [/\bshaytan\b/gi, 'shaytaan'],
-  [/\bSatan\b/g, 'Shaytaan'],
-  [/\bhonored\b/gi, 'honnerd'],
-  [/\bhonour(ed)?\b/gi, 'honnerd'],
-];
 
 const EN_EXPAND: Array<[RegExp, string]> = [
   [/\(?\bPBUH\b\)?/gi, 'peace be upon him'],
@@ -75,7 +51,6 @@ export function prepareForSpeech(input: string, lang: NarrationLang): string {
   t = t.replace(HONORIFIC, lang === 'fr' ? ', paix et bénédictions sur lui, ' : ', peace be upon him, ');
 
   for (const [re, to] of lang === 'fr' ? FR_EXPAND : EN_EXPAND) t = t.replace(re, to);
-  if (lang === 'en') for (const [re, to] of EN_PHONETIC) t = t.replace(re, to);
 
   t = t.replace(ARABIC_RANGE, '');
 
@@ -85,6 +60,11 @@ export function prepareForSpeech(input: string, lang: NarrationLang): string {
 
   // Quote marks make some engines pause oddly; the prose reads fine without.
   t = t.replace(/["“”«»]/g, '');
+
+  // A hyphen inside a word (Dhul-Kifl, Al-Yasa) makes some engines stop
+  // short. Twice, so the middle of a doubly-hyphenated name is caught too.
+  t = t.replace(/([A-Za-zÀ-ÖØ-öø-ÿ])-([A-Za-zÀ-ÖØ-öø-ÿ])/g, '$1 $2');
+  t = t.replace(/([A-Za-zÀ-ÖØ-öø-ÿ])-([A-Za-zÀ-ÖØ-öø-ÿ])/g, '$1 $2');
 
   // Dashes and brackets are typography, not speech. Keep . , ! ? ; :
   t = t.replace(/[—–]/g, ', ');
