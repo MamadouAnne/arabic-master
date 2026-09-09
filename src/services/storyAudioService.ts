@@ -54,6 +54,21 @@ const FEMALE_NAMES = [
   'serena', 'kate', 'martha', 'catherine', 'zoe', 'joelle', 'sandy', 'shelley', 'flo',
   'audrey', 'aurelie', 'amelie', 'marie', 'chantal', 'virginie', 'celine',
 ];
+/**
+ * Apple's character voices, plus the whole Eloquence set added in iOS 16.
+ * They are novelties — robotic, jokey, or both — and several of them carry
+ * ordinary male names, so a male request landed on one of them and sounded
+ * awful. They are still worth detecting for gender; they are just never the
+ * right voice to read a story.
+ */
+const NOVELTY_NAMES = [
+  'albert', 'bad news', 'good news', 'bahh', 'bells', 'boing', 'bubbles', 'cellos',
+  'deranged', 'fred', 'hysterical', 'jester', 'junior', 'kathy', 'organ', 'ralph',
+  'superstar', 'trinoids', 'whisper', 'wobble', 'zarvox', 'rocko', 'eddy', 'reed',
+  'sandy', 'shelley', 'flo', 'grandma', 'grandpa', 'bruce', 'agnes', 'victoria',
+  'princess',
+];
+
 const MALE_NAMES = [
   'alex', 'daniel', 'fred', 'tom', 'aaron', 'nathan', 'oliver', 'rishi', 'gordon',
   'arthur', 'evan', 'ralph', 'reed', 'rocko', 'eddy', 'junior',
@@ -176,16 +191,28 @@ class StoryAudioService {
 
       const score = (v: (typeof voices)[number]) => {
         const id = (v.identifier || '').toLowerCase();
+        const name = (v.name || '').toLowerCase();
+        const hay = `${id} ${name}`;
         const quality = String(v.quality || '').toLowerCase();
         let n = 0;
+
         if (quality.includes('enhanced') || quality.includes('premium')) n += 100;
         if (id.includes('premium')) n += 60;
         if (id.includes('enhanced')) n += 50;
         if (id.includes('-network')) n += 45; // Android neural voices
-        if (id.includes('siri')) n += 40;
+        // Siri is the best of what a phone has before anything is downloaded,
+        // and it has to outweigh the compact penalty below or it never wins.
+        if (id.includes('siri')) n += 80;
+        // Apple's modern namespace; the ttsbundle ones are the old cut.
+        if (id.includes('com.apple.voice.')) n += 20;
         if (id.includes('-local')) n += 10;
-        if (id.includes('compact')) n -= 50;
+        if (id.includes('compact')) n -= 25;
         if ((v.language || '').toLowerCase().replace('_', '-') === want) n += 15;
+
+        // Never read a story in a novelty voice, whatever else it scores.
+        if (id.includes('com.apple.eloquence.')) n -= 300;
+        for (const bad of NOVELTY_NAMES) if (hay.includes(bad)) { n -= 300; break; }
+
         return n;
       };
 
@@ -195,7 +222,13 @@ class StoryAudioService {
       const pool = matching.length ? matching : candidates;
       pool.sort((a, b) => score(b) - score(a));
       chosen = pool[0]?.identifier;
-      __DEV__ && console.log(`[story audio] ${locale} ${this.gender} voice:`, chosen);
+      if (__DEV__) {
+        console.log(
+          `[story audio] ${locale} ${this.gender} ->`,
+          chosen,
+          pool.slice(0, 4).map((v) => `${v.name || v.identifier}:${score(v)}`)
+        );
+      }
     } catch (e) {
       __DEV__ && console.log('[story audio] voices:', e);
     }
