@@ -34,6 +34,12 @@ interface Props {
   sleep: SleepOption;
   voice: VoiceGender;
   usingDeviceVoice: boolean;
+  /**
+   * False when a male voice is selected but a female one is reading, which
+   * happens when the neural voice cannot be reached. Optional so a caller
+   * that has not been updated renders no note rather than crashing.
+   */
+  voiceApplies?: boolean;
   onClose: () => void;
   onToggle: () => void;
   onSkip: (delta: number) => void;
@@ -59,6 +65,7 @@ export function ListenSheet({
   sleep,
   voice,
   usingDeviceVoice,
+  voiceApplies,
   onClose,
   onToggle,
   onSkip,
@@ -196,6 +203,10 @@ export function ListenSheet({
                   );
                 })}
               </View>
+
+              {voiceApplies === false && (
+                <Text style={styles.settingNote}>{t('listen.maleNeedsConnection')}</Text>
+              )}
 
               {Platform.OS === 'ios' && usingDeviceVoice === true && (
                 <Text style={styles.settingNote}>{t('listen.voiceQualityNote')}</Text>

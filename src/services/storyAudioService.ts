@@ -23,6 +23,15 @@
  *      Do not make the device voice primary on iOS. That was tried, and it
  *      cost both quality and stability.
  *
+ *      EVERY FALLBACK IS FEMALE. Edge is the only path that has a male voice
+ *      worth listening to, so when it is unreachable the male choice cannot
+ *      be honoured by anything else — and the phone's own male voices are
+ *      the novelties this whole problem started with. Rather than hand a
+ *      listener Fred, the ladder drops to Google's female voice, which is
+ *      the one this app narrated with before and still sounds good, and only
+ *      then to the device's best female voice. Hearing the other gender is a
+ *      far smaller surprise than hearing a robot.
+ *
  *   3. HOLD ONE ENGINE PER SESSION. It is chosen on the first sentence and
  *      only ever degrades. Deciding per sentence let one failed fetch swap
  *      the voice mid-chapter and swap back thirty seconds later.
@@ -43,10 +52,20 @@ import type { AudioPlayer } from 'expo-audio';
 import { registerAudioProducer, claimAudio } from './audioBus';
 import { File } from 'expo-file-system';
 import { synthesizeToFile } from './edgeTts';
+import { chunkForUrl } from './narrationText';
 
 export type SpeakResult = 'done' | 'stopped' | 'error';
 export type NarrationLang = 'en' | 'fr';
 export type VoiceGender = 'female' | 'male';
+
+/**
+ * The rungs of the ladder, best first. The two fetched engines need naming
+ * apart from the device because only they can be unreachable, and only the
+ * first of them has a male voice.
+ */
+export type FetchedEngine = 'edge' | 'google';
+export type NarrationEngine = FetchedEngine | 'device';
+const FETCH_ORDER: FetchedEngine[] = ['edge', 'google'];
 
 /**
  * Voices carry no gender field, so it has to be read off the identifier.
@@ -90,8 +109,11 @@ const DEVICE_RATE: Record<number, number> = {
   1.5: 1.2,
 };
 
-/** Roughly how fast either path gets through words, for time-remaining. */
+/** Roughly how fast any path gets through words, for time-remaining. */
 const WORDS_PER_MINUTE = 155;
+
+/** Google's endpoint refuses long strings; this is a safe clip length. */
+const URL_CHUNK = 180;
 
 /** How long to stop fetching after a failure, so taps do not stall. */
 const NETWORK_BACKOFF_MS = 30_000;
@@ -123,13 +145,19 @@ class StoryAudioService {
   /**
    * Which engine this listening session settled on. Chosen once and only ever
    * degraded: hearing the voice change halfway through a chapter is worse
-   * than anything either engine does badly.
+   * than anything any one engine does badly.
    */
-  private sessionEngine: 'device' | 'network' | null = null;
+  private sessionEngine: NarrationEngine | null = null;
   private players = new Set<AudioPlayer>();
   private deviceSpeaking = false;
-  private networkUnavailableUntil = 0;
-  private networkFailures = 0;
+  /**
+   * Backoff is per engine, because they fail for different reasons: Edge can
+   * be blocked on a network Google is fine on, and either can be down while
+   * the phone is plainly online. One shared counter would have retired both
+   * on the first refusal.
+   */
+  private unavailableUntil: Record<FetchedEngine, number> = { edge: 0, google: 0 };
+  private failures: Record<FetchedEngine, number> = { edge: 0, google: 0 };
   private onlineCheckedAt = 0;
   private onlineCached = true;
 
@@ -184,8 +212,8 @@ class StoryAudioService {
     return undefined;
   }
 
-  private async bestVoice(locale: string): Promise<string | undefined> {
-    const key = `${locale}:${this.gender}`;
+  private async bestVoice(locale: string, gender: VoiceGender): Promise<string | undefined> {
+    const key = `${locale}:${gender}`;
     if (this.voiceCache.has(key)) return this.voiceCache.get(key);
 
     let chosen: string | undefined;
@@ -225,15 +253,15 @@ class StoryAudioService {
         return n;
       };
 
-      // Honour the chosen gender when the device has one; otherwise take the
-      // best voice it does have rather than refusing to speak.
-      const matching = candidates.filter((v) => this.genderOf(v) === this.gender);
+      // Honour the asked-for gender when the device has one; otherwise take
+      // the best voice it does have rather than refusing to speak.
+      const matching = candidates.filter((v) => this.genderOf(v) === gender);
       const pool = matching.length ? matching : candidates;
       pool.sort((a, b) => score(b) - score(a));
       chosen = pool[0]?.identifier;
       if (__DEV__) {
         console.log(
-          `[story audio] ${locale} ${this.gender} ->`,
+          `[story audio] ${locale} ${gender} ->`,
           chosen,
           pool.slice(0, 4).map((v) => `${v.name || v.identifier}:${score(v)}`)
         );
@@ -247,9 +275,10 @@ class StoryAudioService {
   }
 
   /**
-   * Takes effect on the next sentence. The engine is released too, because on
-   * iOS the choice decides it: the fetched voice can only be the female one.
-   * Nothing is torn down here — the running sentence finishes first.
+   * Takes effect on the next sentence. The engine is released too: asking for
+   * the male voice has to send the session back up the ladder to Edge, since
+   * nothing below it can produce one. Nothing is torn down here — the running
+   * sentence finishes first.
    */
   setGender(gender: VoiceGender): void {
     if (this.gender === gender) return;
@@ -258,8 +287,17 @@ class StoryAudioService {
   }
 
   /** Which engine this session settled on, once it has spoken. */
-  getEngine(): 'device' | 'network' | null {
+  getEngine(): NarrationEngine | null {
     return this.sessionEngine;
+  }
+
+  /**
+   * True when what is actually being spoken is not the voice that was asked
+   * for — only Edge has a male voice, so a male request on any lower rung is
+   * being answered by a female one.
+   */
+  isVoiceHonoured(): boolean {
+    return this.gender === 'female' || this.sessionEngine === null || this.sessionEngine === 'edge';
   }
 
   getGender(): VoiceGender {
@@ -278,7 +316,7 @@ class StoryAudioService {
   /** Warm the audio session and voice list so the first tap is not slow. */
   async prime(lang: NarrationLang): Promise<void> {
     await this.configureAudio();
-    await this.bestVoice(this.localeFor(lang));
+    await this.bestVoice(this.localeFor(lang), 'female');
   }
 
   // -- players ------------------------------------------------------------
@@ -356,24 +394,81 @@ class StoryAudioService {
     // Chosen once per session, then held. Deciding per sentence is what made
     // the voice change halfway through a chapter.
     if (this.sessionEngine === null) {
-      // The fetched voice now has a real male voice as well as a female one,
-      // so it serves both choices, on both platforms. That is what makes the
-      // switch mean anything on a phone whose own male voices are novelties.
-      const canFetch = Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
+      const candidate = this.nextFetchedEngine(null);
+      const canFetch = candidate !== null && (await this.isOnline());
       if (generation !== this.generation) return 'stopped';
-      this.sessionEngine = canFetch ? 'network' : 'device';
+      this.sessionEngine = canFetch ? candidate : 'device';
     }
 
-    if (this.sessionEngine === 'network') return this.speakOnline(body, speed, lang, generation);
+    return this.speakWith(this.sessionEngine, body, speed, lang, generation);
+  }
+
+  /** Send a sentence to one rung of the ladder. */
+  private speakWith(
+    engine: NarrationEngine,
+    body: string,
+    speed: number,
+    lang: NarrationLang,
+    generation: number
+  ): Promise<SpeakResult> {
+    if (engine === 'edge') return this.speakEdge(body, speed, lang, generation);
+    if (engine === 'google') return this.speakGoogle(body, speed, lang, generation);
     return this.speakOnDevice(body, speed, lang, generation);
   }
 
   /**
-   * The neural voice. One request per sentence, no clip seams: the socket
-   * takes the whole sentence, unlike the old URL endpoint which had to be fed
-   * in 180-character pieces.
+   * The rung below `after`, or the best one, skipping any that is backed off.
+   * Null means nothing fetched is worth trying and the device has to do it.
    */
-  private async speakOnline(
+  private nextFetchedEngine(after: FetchedEngine | null): FetchedEngine | null {
+    const now = Date.now();
+    const from = after === null ? 0 : FETCH_ORDER.indexOf(after) + 1;
+    for (let i = from; i < FETCH_ORDER.length; i++) {
+      if (now >= this.unavailableUntil[FETCH_ORDER[i]]) return FETCH_ORDER[i];
+    }
+    return null;
+  }
+
+  /**
+   * Stop asking this engine for a while. A second failure retires it for the
+   * session rather than putting a stalled request before every sentence.
+   */
+  private retire(engine: FetchedEngine) {
+    this.failures[engine] += 1;
+    this.unavailableUntil[engine] =
+      Date.now() + (this.failures[engine] >= 2 ? SESSION_BACKOFF_MS : NETWORK_BACKOFF_MS);
+  }
+
+  /**
+   * Drop a rung and speak this sentence with whatever is below. Nothing has
+   * been heard yet when a fetch fails, so the sentence is re-spoken whole and
+   * the listener hears no seam.
+   */
+  private async demote(
+    from: FetchedEngine,
+    body: string,
+    speed: number,
+    lang: NarrationLang,
+    generation: number
+  ): Promise<SpeakResult> {
+    this.retire(from);
+    const next = this.nextFetchedEngine(from);
+    // Only worth trying another fetched voice if there is a network at all.
+    // With the phone offline the second one cannot succeed either, and the
+    // listener would sit through its timeout in silence before the device
+    // voice finally said anything.
+    const reachable = next !== null && (await this.isOnline());
+    if (generation !== this.generation) return 'stopped';
+    this.sessionEngine = reachable ? next : 'device';
+    return this.speakWith(this.sessionEngine, body, speed, lang, generation);
+  }
+
+  /**
+   * The neural voice, and the only one with a male option. One request per
+   * sentence, no clip seams: the socket takes the whole sentence, unlike the
+   * URL endpoint below which has to be fed in 180-character pieces.
+   */
+  private async speakEdge(
     body: string,
     speed: number,
     lang: NarrationLang,
@@ -385,28 +480,64 @@ class StoryAudioService {
         deleteQuietly(uri);
         return 'stopped';
       }
-      await this.playClip(uri, speed, estimateSeconds(body, speed), generation);
+      await this.playClip(uri, speed, estimateSeconds(body, speed), generation, true);
       return generation === this.generation ? 'done' : 'stopped';
     } catch {
       if (generation !== this.generation) return 'stopped';
-      // Offline, blocked or stalled. Finish this sentence with the on-device
-      // voice; nothing has been heard yet, so there is nothing to repeat.
-      // Switching voices back and forth mid-story is worse than settling for
-      // the device voice, so a second failure retires the network path for
-      // the rest of the session rather than retrying every half minute.
-      this.networkFailures += 1;
-      this.networkUnavailableUntil =
-        Date.now() + (this.networkFailures >= 2 ? SESSION_BACKOFF_MS : NETWORK_BACKOFF_MS);
-      this.sessionEngine = 'device';
-      return this.speakOnDevice(body, speed, lang, generation);
+      return this.demote('edge', body, speed, lang, generation);
     }
   }
 
   /**
-   * Play one synthesized clip from disk. Resolves when it finishes, rejects
-   * if it never starts. The file is ours and is deleted either way.
+   * Google's voice — female only, and the one this app narrated with before
+   * Edge. It is still a good voice, so it comes before the phone's own.
+   * Streamed straight from the URL a clip at a time; there is no file to
+   * clean up afterwards.
    */
-  private playClip(uri: string, speed: number, estSeconds: number, generation: number): Promise<void> {
+  private async speakGoogle(
+    body: string,
+    speed: number,
+    lang: NarrationLang,
+    generation: number
+  ): Promise<SpeakResult> {
+    const chunks = chunkForUrl(body, URL_CHUNK);
+    let spoken = 0;
+
+    try {
+      for (const chunk of chunks) {
+        if (generation !== this.generation) return 'stopped';
+        const url =
+          `https://translate.google.com/translate_tts?ie=UTF-8&tl=${lang}` +
+          `&client=tw-ob&ttsspeed=1&q=${encodeURIComponent(chunk)}`;
+        await this.playClip(url, speed, estimateSeconds(chunk, speed), generation, false);
+        spoken += 1;
+      }
+      return generation === this.generation ? 'done' : 'stopped';
+    } catch {
+      if (generation !== this.generation) return 'stopped';
+      // Unlike a failed fetch, some of this sentence has already been heard.
+      // Hand the device only what is left, or the listener gets the start of
+      // it twice.
+      this.retire('google');
+      this.sessionEngine = 'device';
+      const remaining = chunks.slice(spoken).join(' ');
+      if (!remaining) return 'done';
+      return this.speakOnDevice(remaining, speed, lang, generation);
+    }
+  }
+
+  /**
+   * Play one clip. Resolves when it finishes, rejects if it never starts.
+   * `temporary` says the uri is a file we synthesized, so it is deleted
+   * however the clip ends; a streamed url has nothing to clean up.
+   */
+  private playClip(
+    uri: string,
+    speed: number,
+    estSeconds: number,
+    generation: number,
+    temporary: boolean
+  ): Promise<void> {
     return new Promise<void>((resolve, reject) => {
       let started = false;
       let settled = false;
@@ -427,7 +558,7 @@ class StoryAudioService {
         if (endTimer) clearTimeout(endTimer);
         clearInterval(staleCheck);
         this.killPlayer(player);
-        deleteQuietly(uri);
+        if (temporary) deleteQuietly(uri);
         fn();
       };
 
@@ -488,7 +619,15 @@ class StoryAudioService {
     });
   }
 
-  /** The on-device voice, chosen for quality rather than left to default. */
+  /**
+   * The on-device voice — the last rung, reached only when both fetched
+   * voices are out of reach.
+   *
+   * Always female, whatever was chosen. This is the whole point of the
+   * ladder: a phone's male voices are the novelties, and handing someone
+   * Fred because their signal dropped is worse than quietly reading in the
+   * other voice. The female ones are genuinely decent on both platforms.
+   */
   private async speakOnDevice(
     body: string,
     speed: number,
@@ -496,7 +635,7 @@ class StoryAudioService {
     generation: number
   ): Promise<SpeakResult> {
     const locale = this.localeFor(lang);
-    const voice = await this.bestVoice(locale);
+    const voice = await this.bestVoice(locale, 'female');
     if (generation !== this.generation) return 'stopped';
 
     return new Promise<SpeakResult>((resolve) => {

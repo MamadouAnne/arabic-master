@@ -873,6 +873,7 @@ export default {
     female: 'Féminine',
     male: 'Masculine',
     voiceQualityNote: "Utilise la voix de votre iPhone. Pour une voix plus riche, ajoutez une voix améliorée dans Réglages, Accessibilité, Contenu énoncé, Voix.",
+    maleNeedsConnection: "La voix masculine nécessite une connexion. Lecture avec la voix féminine pour le moment.",
     sleepTimer: 'Minuterie',
     sleepOff: 'Désactivée',
   },

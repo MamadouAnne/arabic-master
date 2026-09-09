@@ -873,6 +873,7 @@ export default {
     female: 'Female',
     male: 'Male',
     voiceQualityNote: 'Uses your iPhone voice. For a richer one, add an enhanced voice in Settings, Accessibility, Spoken Content, Voices.',
+    maleNeedsConnection: 'The male voice needs a connection. Reading in the female voice for now.',
     sleepTimer: 'Sleep timer',
     sleepOff: 'Off',
   },

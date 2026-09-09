@@ -20,6 +20,7 @@ import {
   storyAudioService,
   estimateSeconds,
   NarrationLang,
+  NarrationEngine,
   VoiceGender,
 } from '../services/storyAudioService';
 import { prepareForSpeech, splitSentences, speechKey } from '../services/narrationText';
@@ -66,7 +67,7 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
   const [index, setIndex] = useState(0);
   const [speed, setSpeedState] = useState<NarrationSpeed>(1);
   const [sleep, setSleep] = useState<SleepOption>('off');
-  const [engine, setEngine] = useState<'device' | 'network' | null>(null);
+  const [engine, setEngine] = useState<NarrationEngine | null>(null);
 
   const runRef = useRef(0);
   const indexRef = useRef(0);
@@ -267,6 +268,11 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
       // Lands on the next sentence, like speed does. Restarting the current
       // one to make it audible immediately meant tearing a clip down while it
       // was playing, and that crashed the app.
+      //
+      // Asking for male also sends the session back to the top of the engine
+      // ladder, since Edge is the only rung that has a male voice. If it
+      // cannot be reached, the reading stays female rather than dropping to
+      // the phone's own male voice.
     },
     [voice, storeVoice]
   );
@@ -318,6 +324,9 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
     // True once the device's own voice is doing the reading, which on iOS
     // means quality depends on what the owner has downloaded.
     usingDeviceVoice: engine === 'device',
+    // False when a male voice was asked for but the reading is female,
+    // because only the fetched neural voice has a male option.
+    voiceApplies: voice === 'female' || engine === null || engine === 'edge',
     start,
     stop,
     toggle,

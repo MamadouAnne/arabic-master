@@ -301,6 +301,7 @@ export default function QuranStoryDetailScreen() {
         sleep={narration.sleep}
         voice={narration.voice}
         usingDeviceVoice={narration.usingDeviceVoice}
+        voiceApplies={narration.voiceApplies}
         onClose={() => setPlayerOpen(false)}
         onToggle={narration.toggle}
         onSkip={narration.skipBlocks}
