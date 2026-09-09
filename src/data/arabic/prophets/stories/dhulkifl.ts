@@ -93,8 +93,8 @@ const dhulKiflStoryContent: StoryContentBlock[] = [
     id: 'dhulkifl-5',
     type: 'narrative',
     order: 5,
-    content: "Here, Dhul-Kifl is listed with Ismail and Al-Yasa (Elisha), and all three are described as 'min al-akhyar' - among the best, the outstanding, the excellent. The Quran commands us to remember these prophets, keeping their examples alive in our hearts and minds. Though their stories may be brief in scripture, their rank with Allah is immense.",
-    contentFr: "Ici, Dhoul-Kifl est cité avec Ismaïl et Al-Yasa (Élisée), et tous trois sont décrits comme 'min al-akhyar' - parmi les meilleurs, les excellents, les éminents. Le Coran nous ordonne de nous souvenir de ces prophètes, gardant leurs exemples vivants dans nos coeurs et nos esprits. Bien que leurs histoires soient brèves dans les Écritures, leur rang auprès d'Allah est immense.",
+    content: "Here, Dhul-Kifl is listed with Ismail and Al-Yasa, and all three are described as 'min al-akhyar' - among the best, the outstanding, the excellent. The Quran commands us to remember these prophets, keeping their examples alive in our hearts and minds. Though their stories may be brief in scripture, their rank with Allah is immense.",
+    contentFr: "Ici, Dhoul-Kifl est cité avec Ismaïl et Al-Yasa, et tous trois sont décrits comme 'min al-akhyar' - parmi les meilleurs, les excellents, les éminents. Le Coran nous ordonne de nous souvenir de ces prophètes, gardant leurs exemples vivants dans nos coeurs et nos esprits. Bien que leurs histoires soient brèves dans les Écritures, leur rang auprès d'Allah est immense.",
   },
   {
     id: 'dhulkifl-6',

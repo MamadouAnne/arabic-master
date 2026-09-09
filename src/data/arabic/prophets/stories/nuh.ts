@@ -647,8 +647,8 @@ export const nuhStoryContent: StoryContentBlock[] = [
     id: 'nuh-50',
     type: 'narrative',
     order: 50,
-    content: 'The story of Nuh is referenced throughout the Quran more than any other prophet\'s story except Musa (Moses). It serves as a powerful reminder of Allah\'s justice and mercy, and of the consequences of persistent disbelief.',
-    contentFr: 'L\'histoire de Nouh est référencée dans tout le Coran plus que celle de tout autre prophète, à l\'exception de Moussa (Moïse). Elle sert de rappel puissant de la justice et de la miséricorde d\'Allah, et des conséquences de la mécréance persistante.',
+    content: 'The story of Nuh is referenced throughout the Quran more than any other prophet\'s story except Musa. It serves as a powerful reminder of Allah\'s justice and mercy, and of the consequences of persistent disbelief.',
+    contentFr: 'L\'histoire de Nouh est référencée dans tout le Coran plus que celle de tout autre prophète, à l\'exception de Moussa. Elle sert de rappel puissant de la justice et de la miséricorde d\'Allah, et des conséquences de la mécréance persistante.',
   },
   {
     id: 'nuh-51',

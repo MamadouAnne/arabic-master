@@ -60,7 +60,7 @@ export const qarunStory: QuranStory = {
         ayahStart: 76,
         ayahEnd: 76,
         arabicText: 'إِنَّ قَارُونَ كَانَ مِن قَوْمِ مُوسَىٰ فَبَغَىٰ عَلَيْهِمْ ۖ وَآتَيْنَاهُ مِنَ الْكُنُوزِ مَا إِنَّ مَفَاتِحَهُ لَتَنُوءُ بِالْعُصْبَةِ أُولِي الْقُوَّةِ إِذْ قَالَ لَهُ قَوْمُهُ لَا تَفْرَحْ ۖ إِنَّ اللَّهَ لَا يُحِبُّ الْفَرِحِينَ',
-        translation: 'Indeed, Qarun was from the people of Moses, but he tyrannized them. And We gave him of treasures whose keys would burden a band of strong men; thereupon his people said to him, "Do not exult. Indeed, Allah does not like the exultant."',
+        translation: 'Indeed, Qarun was from the people of Musa, but he tyrannized them. And We gave him of treasures whose keys would burden a band of strong men; thereupon his people said to him, "Do not exult. Indeed, Allah does not like the exultant."',
         translationFr: 'En verite, Qarun etait du peuple de Moussa, mais il les opprima. Nous lui avions donne des tresors dont les cles auraient accable un groupe d\'hommes forts. Son peuple lui dit : "Ne te rejouis pas avec exces. Allah n\'aime pas ceux qui exultent."',
       } as QuranReference,
     },

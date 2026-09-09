@@ -167,7 +167,7 @@ export const uzayrStory: QuranStory = {
         ayahStart: 260,
         ayahEnd: 260,
         arabicText: 'وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ أَرِنِي كَيْفَ تُحْيِي الْمَوْتَىٰ ۖ قَالَ أَوَلَمْ تُؤْمِن ۖ قَالَ بَلَىٰ وَلَٰكِن لِّيَطْمَئِنَّ قَلْبِي',
-        translation: 'And [mention] when Abraham said, "My Lord, show me how You give life to the dead." [Allah] said, "Have you not believed?" He said, "Yes, but [I ask] only that my heart may be satisfied."',
+        translation: 'And [mention] when Ibrahim said, "My Lord, show me how You give life to the dead." [Allah] said, "Have you not believed?" He said, "Yes, but [I ask] only that my heart may be satisfied."',
       } as QuranReference,
     },
     {

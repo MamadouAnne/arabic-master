@@ -227,7 +227,7 @@ const ismailStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 17,
     content: "Allah ransomed Ismail with a great sacrifice - a ram. Some narrations add that it had grazed in Paradise, but the Quran says only that it was 'a great sacrifice'. This event is commemorated every year during Eid al-Adha, when Muslims around the world sacrifice animals in remembrance of Ibrahim and Ismail's supreme act of submission to Allah.",
-    contentFr: "Allah racheta Ismaël par un grand sacrifice : un bélier. Certains récits ajoutent qu'il avait pâturé au Paradis, mais le Coran dit seulement qu'il s'agissait d'« un grand sacrifice ». Cet événement est commémoré chaque année lors de l'Aïd al-Adha, lorsque les musulmans du monde entier sacrifient des animaux en souvenir de l'acte suprême de soumission d'Ibrahim et d'Ismaël à Allah.",
+    contentFr: "Allah racheta Ismaïl par un grand sacrifice : un bélier. Certains récits ajoutent qu'il avait pâturé au Paradis, mais le Coran dit seulement qu'il s'agissait d'« un grand sacrifice ». Cet événement est commémoré chaque année lors de l'Aïd al-Adha, lorsque les musulmans du monde entier sacrifient des animaux en souvenir de l'acte suprême de soumission d'Ibrahim et d'Ismaïl à Allah.",
   },
   {
     id: 'ismail-18',
@@ -368,8 +368,8 @@ const ismailStoryContent: StoryContentBlock[] = [
       ayahStart: 48,
       ayahEnd: 48,
       arabicText: 'وَاذْكُرْ إِسْمَاعِيلَ وَالْيَسَعَ وَذَا الْكِفْلِ ۖ وَكُلٌّ مِّنَ الْأَخْيَارِ',
-      translation: 'And remember Ismail, Elisha and Dhul-Kifl, and all are among the outstanding.',
-      translationFr: 'Et rappelle-toi Ismail, Elisée et Dhul-Kifl, et tous sont parmi les excellents.',
+      translation: 'And remember Ismail, Al-Yasa and Dhul-Kifl, and all are among the outstanding.',
+      translationFr: 'Et rappelle-toi Ismail, Al-Yasa et Dhul-Kifl, et tous sont parmi les excellents.',
     } as QuranReference,
   },
   {
@@ -377,7 +377,7 @@ const ismailStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 29,
     content: "Ismail lived in Makkah and married from the tribe of Jurhum, as the Prophet ﷺ narrated. He continued his father's mission of calling people to worship Allah alone and teaching them the rites of pilgrimage. The Quran does not name his children; the Arabs of the Hijaz descend from him.",
-    contentFr: "Ismaël vécut à La Mecque et se maria dans la tribu de Jurhum, comme l'a rapporté le Prophète ﷺ. Il poursuivit la mission de son père, appelant les gens à adorer Allah seul et leur enseignant les rites du pèlerinage. Le Coran ne nomme pas ses enfants ; les Arabes du Hijaz descendent de lui.",
+    contentFr: "Ismaïl vécut à La Mecque et se maria dans la tribu de Jurhum, comme l'a rapporté le Prophète ﷺ. Il poursuivit la mission de son père, appelant les gens à adorer Allah seul et leur enseignant les rites du pèlerinage. Le Coran ne nomme pas ses enfants ; les Arabes du Hijaz descendent de lui.",
   },
   {
     id: 'ismail-30',
@@ -402,7 +402,7 @@ const ismailStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 31,
     content: "The Quran does not describe Ismail's death or burial. His greatest legacy was preserved through his descendants - the Arabs who would, generations later, receive the final Prophet Muhammad ﷺ.",
-    contentFr: "Le Coran ne décrit ni la mort ni la sépulture d'Ismaël. Son plus grand héritage fut préservé à travers ses descendants, les Arabes qui, des générations plus tard, recevraient le dernier Prophète Muhammad ﷺ.",
+    contentFr: "Le Coran ne décrit ni la mort ni la sépulture d'Ismaïl. Son plus grand héritage fut préservé à travers ses descendants, les Arabes qui, des générations plus tard, recevraient le dernier Prophète Muhammad ﷺ.",
   },
   {
     id: 'ismail-32',

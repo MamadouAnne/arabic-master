@@ -13,8 +13,8 @@ export const lutStory: Prophet = {
   title: 'Nephew of Ibrahim',
   titleFr: 'Neveu d\'Ibrahim',
   titleArabic: 'ابن أخي إبراهيم',
-  summary: "Prophet Lut (Lot) was the nephew of Prophet Ibrahim and one of the first to believe in his message. He was sent to the people of the overturned cities - which the commentators call Sadum - who had become infamous for their unprecedented sins. Despite his tireless efforts to guide them, they rejected his message and were destroyed by a catastrophic punishment from Allah.",
-  summaryFr: "Le prophète Lut (Lot) était le neveu du prophète Ibrahim et l'un des premiers à croire en son message. Il fut envoyé au peuple des cités renversées, que les commentateurs appellent Sadoum, devenues tristement célèbres pour leurs péchés sans précédent. Malgré ses efforts inlassables pour les guider, ils rejetèrent son message et furent détruits par un châtiment cataclysmique d'Allah.",
+  summary: "Prophet Lut was the nephew of Prophet Ibrahim and one of the first to believe in his message. He was sent to the people of the overturned cities - which the commentators call Sadum - who had become infamous for their unprecedented sins. Despite his tireless efforts to guide them, they rejected his message and were destroyed by a catastrophic punishment from Allah.",
+  summaryFr: "Le prophète Lut était le neveu du prophète Ibrahim et l'un des premiers à croire en son message. Il fut envoyé au peuple des cités renversées, que les commentateurs appellent Sadoum, devenues tristement célèbres pour leurs péchés sans précédent. Malgré ses efforts inlassables pour les guider, ils rejetèrent son message et furent détruits par un châtiment cataclysmique d'Allah.",
   hasSubStories: false,
   lessons: [
     'Moral corruption leads to the destruction of entire societies',
@@ -44,7 +44,7 @@ const lutStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 1,
     content: "Lut was the son of Ibrahim's brother, which made him Ibrahim's nephew. When Ibrahim began calling his people to the worship of Allah alone, Lut was among the very first to believe in his message (29:26). His faith was sincere and his commitment was unwavering.",
-    contentFr: "Loth était le fils du frère d'Ibrahim, ce qui faisait de lui le neveu d'Ibrahim. Lorsqu'Ibrahim commença à appeler son peuple à l'adoration d'Allah seul, Loth fut parmi les tout premiers à croire en son message (29:26). Sa foi était sincère et son engagement inébranlable.",
+    contentFr: "Lout était le fils du frère d'Ibrahim, ce qui faisait de lui le neveu d'Ibrahim. Lorsqu'Ibrahim commença à appeler son peuple à l'adoration d'Allah seul, Lout fut parmi les tout premiers à croire en son message (29:26). Sa foi était sincère et son engagement inébranlable.",
   },
   {
     id: 'lut-2',
@@ -76,7 +76,7 @@ const lutStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 4,
     content: "After some time, Allah chose Lut for a special mission. He was sent as a prophet to the people of the cities the commentators call Sadum and its surrounding towns, in the region of the lake now known as the Dead Sea. The Quran calls them 'the overturned cities' (al-Mu'tafikat). They lived in a fertile region, but their inhabitants had become deeply corrupted.",
-    contentFr: "Après quelque temps, Allah choisit Loth pour une mission particulière. Il fut envoyé comme prophète au peuple des cités que les commentateurs appellent Sadoum et ses environs, dans la région du lac aujourd'hui appelé mer Morte. Le Coran les nomme « les cités renversées » (al-Mu'tafikat). Elles se trouvaient dans une région fertile, mais leurs habitants s'étaient profondément corrompus.",
+    contentFr: "Après quelque temps, Allah choisit Lout pour une mission particulière. Il fut envoyé comme prophète au peuple des cités que les commentateurs appellent Sadoum et ses environs, dans la région du lac aujourd'hui appelé mer Morte. Le Coran les nomme « les cités renversées » (al-Mu'tafikat). Elles se trouvaient dans une région fertile, mais leurs habitants s'étaient profondément corrompus.",
   },
   {
     id: 'lut-5',
@@ -297,7 +297,7 @@ const lutStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 23,
     content: "Ibrahim's compassionate nature made him plead for the people of Lut, hoping they might be spared. But the angels told him the matter was decided - Allah's command had come, and the punishment could not be averted. The angels then proceeded to the city of Lut's people.",
-    contentFr: "La nature compatissante d'Ibrahim le poussa à plaider pour le peuple de Loth, espérant qu'ils seraient épargnés. Mais les anges lui dirent que l'affaire était décidée : l'ordre d'Allah était venu, et le châtiment ne pouvait être écarté. Les anges se rendirent alors dans la cité du peuple de Loth.",
+    contentFr: "La nature compatissante d'Ibrahim le poussa à plaider pour le peuple de Lout, espérant qu'ils seraient épargnés. Mais les anges lui dirent que l'affaire était décidée : l'ordre d'Allah était venu, et le châtiment ne pouvait être écarté. Les anges se rendirent alors dans la cité du peuple de Lout.",
   },
   {
     id: 'lut-24',
@@ -329,7 +329,7 @@ const lutStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 26,
     content: "The Quran says that Lut's wife betrayed him (66:10). The commentators explain that her betrayal was that she did not believe and sided with her people - and it is related that she let them know about the guests. Her betrayal made the situation even more desperate for Lut as he tried to protect his guests from the mob.",
-    contentFr: "Le Coran dit que l'épouse de Loth le trahit (66:10). Les commentateurs expliquent que sa trahison fut de ne pas croire et de prendre le parti de son peuple ; il est rapporté qu'elle les informa de la présence des invités. Sa trahison rendit la situation encore plus désespérée pour Loth, qui tentait de protéger ses invités de la foule.",
+    contentFr: "Le Coran dit que l'épouse de Lout le trahit (66:10). Les commentateurs expliquent que sa trahison fut de ne pas croire et de prendre le parti de son peuple ; il est rapporté qu'elle les informa de la présence des invités. Sa trahison rendit la situation encore plus désespérée pour Lout, qui tentait de protéger ses invités de la foule.",
   },
   {
     id: 'lut-27',
@@ -534,7 +534,7 @@ const lutStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 43,
     content: "The wife of Lut was struck by the punishment along with them. Some commentators relate that she looked back longingly toward her people and was struck; the Quran says only that she was 'of those who remained behind'. Her heart was with the disbelievers, and so her fate was with them as well.",
-    contentFr: "L'épouse de Loth fut frappée par le châtiment avec eux. Certains commentateurs rapportent qu'elle se retourna avec regret vers son peuple et fut frappée ; le Coran dit seulement qu'elle fut « de ceux qui restèrent en arrière ». Son cœur était avec les mécréants, et son sort fut donc le leur.",
+    contentFr: "L'épouse de Lout fut frappée par le châtiment avec eux. Certains commentateurs rapportent qu'elle se retourna avec regret vers son peuple et fut frappée ; le Coran dit seulement qu'elle fut « de ceux qui restèrent en arrière ». Son cœur était avec les mécréants, et son sort fut donc le leur.",
   },
   {
     id: 'lut-44',
@@ -559,7 +559,7 @@ const lutStoryContent: StoryContentBlock[] = [
     type: 'hadith_source',
     order: 45,
     content: "The Prophet ﷺ warned about the sin of the people of Lut (Musnad Ahmad and others; graded hasan).",
-    contentFr: "Le Prophète ﷺ a mis en garde contre le péché du peuple de Loth (Musnad Ahmad et autres ; jugé hasan).",
+    contentFr: "Le Prophète ﷺ a mis en garde contre le péché du peuple de Lout (Musnad Ahmad et autres ; jugé hasan).",
     source: {
       type: 'hadith',
       collection: "ahmad",

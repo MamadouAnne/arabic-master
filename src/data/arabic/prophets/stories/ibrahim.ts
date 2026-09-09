@@ -385,7 +385,7 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     type: 'narrative',
     order: 30,
     content: "Allah ransomed Ismail with a great sacrifice - a ram. Some narrations add that it had grazed in Paradise, but the Quran says only that it was 'a great sacrifice'. This event is commemorated every year during Eid al-Adha, when Muslims around the world sacrifice animals in remembrance of Ibrahim's ultimate submission to Allah.",
-    contentFr: "Allah racheta Ismaël par un grand sacrifice : un bélier. Certains récits ajoutent qu'il avait pâturé au Paradis, mais le Coran dit seulement qu'il s'agissait d'« un grand sacrifice ». Cet événement est commémoré chaque année lors de l'Aïd al-Adha, lorsque les musulmans du monde entier sacrifient des animaux en souvenir de la soumission ultime d'Ibrahim à Allah.",
+    contentFr: "Allah racheta Ismaïl par un grand sacrifice : un bélier. Certains récits ajoutent qu'il avait pâturé au Paradis, mais le Coran dit seulement qu'il s'agissait d'« un grand sacrifice ». Cet événement est commémoré chaque année lors de l'Aïd al-Adha, lorsque les musulmans du monde entier sacrifient des animaux en souvenir de la soumission ultime d'Ibrahim à Allah.",
   },
   {
     id: 'ibrahim-30',
@@ -508,8 +508,8 @@ export const ibrahimStoryContent: StoryContentBlock[] = [
     id: 'ibrahim-38',
     type: 'narrative',
     order: 40,
-    content: 'Ibrahim\'s legacy continues through his descendants. From Ismail came the Arab nation and ultimately Prophet Muhammad ﷺ. From Ishaq came Yaqub (Israel) and the long line of Israelite prophets including Yusuf, Musa, Dawud, Sulayman, and Isa.',
-    contentFr: 'L\'héritage d\'Ibrahim se poursuit à travers ses descendants. D\'Ismail est venue la nation arabe et finalement le Prophète Muhammad ﷺ. D\'Ishaq est venu Yaqub (Israël) et la longue lignée de prophètes israélites incluant Yusuf, Musa, Dawud, Sulayman et Isa.',
+    content: 'Ibrahim\'s legacy continues through his descendants. From Ismail came the Arab nation and ultimately Prophet Muhammad ﷺ. From Ishaq came Yaqub and the long line of Israelite prophets including Yusuf, Musa, Dawud, Sulayman, and Isa.',
+    contentFr: 'L\'héritage d\'Ibrahim se poursuit à travers ses descendants. D\'Ismail est venue la nation arabe et finalement le Prophète Muhammad ﷺ. D\'Ishaq est venu Yaqub et la longue lignée de prophètes israélites incluant Yusuf, Musa, Dawud, Sulayman et Isa.',
   },
   {
     id: 'ibrahim-39',

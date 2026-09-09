@@ -13,8 +13,8 @@ export const ayyubStory: Prophet = {
   title: 'The Patient One',
   titleFr: 'Le Patient',
   titleArabic: 'الصابر',
-  summary: "Prophet Ayyub (Job) is renowned for his extraordinary patience during severe trials. He was a wealthy, healthy man blessed with a large family. Allah tested him by taking away his health, wealth, and children, yet Ayyub remained steadfast in his faith, never complaining about Allah's decree. After years of suffering, Allah restored everything to him manifold, making his story an eternal example of patience and trust in Allah.",
-  summaryFr: "Le prophète Ayyoub (Job) est célèbre pour sa patience extraordinaire lors d'épreuves sévères. C'était un homme riche et en bonne santé, béni d'une grande famille. Allah l'éprouva en lui retirant sa santé, sa richesse et ses enfants, mais Ayyoub demeura ferme dans sa foi, ne se plaignant jamais du décret d'Allah. Après des années de souffrance, Allah lui restitua tout au centuple, faisant de son histoire un exemple éternel de patience et de confiance en Allah.",
+  summary: "Prophet Ayyub is renowned for his extraordinary patience during severe trials. He was a wealthy, healthy man blessed with a large family. Allah tested him by taking away his health, wealth, and children, yet Ayyub remained steadfast in his faith, never complaining about Allah's decree. After years of suffering, Allah restored everything to him manifold, making his story an eternal example of patience and trust in Allah.",
+  summaryFr: "Le prophète Ayyoub est célèbre pour sa patience extraordinaire lors d'épreuves sévères. C'était un homme riche et en bonne santé, béni d'une grande famille. Allah l'éprouva en lui retirant sa santé, sa richesse et ses enfants, mais Ayyoub demeura ferme dans sa foi, ne se plaignant jamais du décret d'Allah. Après des années de souffrance, Allah lui restitua tout au centuple, faisant de son histoire un exemple éternel de patience et de confiance en Allah.",
   hasSubStories: false,
   lessons: [
     'True patience means accepting Allah\'s decree without complaint',

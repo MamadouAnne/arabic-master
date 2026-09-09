@@ -11,8 +11,8 @@ export const maryamStory: QuranStory = {
   category: 'individuals',
   description: 'The chosen woman who gave birth to Prophet Isa without a father',
   descriptionFr: 'La femme elue qui donna naissance au Prophete Isa sans pere',
-  summary: "Maryam (Mary) holds a unique position in Islam as the only woman mentioned by name in the Quran, with an entire surah named after her. She was chosen above all women of the worlds, purified by Allah, and blessed with a miraculous son - Prophet Isa (Jesus) - born without a father. Her story demonstrates perfect faith, absolute trust in Allah, patience through trial, and the honor that comes from complete devotion to the Creator.",
-  summaryFr: "Maryam (Marie) occupe une position unique en Islam en tant que seule femme mentionnee par son nom dans le Coran, avec une sourate entiere portant son nom. Elle fut choisie au-dessus de toutes les femmes des mondes, purifiee par Allah, et benie d'un fils miraculeux - le Prophete Isa (Jesus) - ne sans pere. Son histoire demontre une foi parfaite, une confiance absolue en Allah, la patience a travers l'epreuve, et l'honneur qui vient d'une devotion complete au Createur.",
+  summary: "Maryam holds a unique position in Islam as the only woman mentioned by name in the Quran, with an entire surah named after her. She was chosen above all women of the worlds, purified by Allah, and blessed with a miraculous son - Prophet Isa - born without a father. Her story demonstrates perfect faith, absolute trust in Allah, patience through trial, and the honor that comes from complete devotion to the Creator.",
+  summaryFr: "Maryam occupe une position unique en Islam en tant que seule femme mentionnee par son nom dans le Coran, avec une sourate entiere portant son nom. Elle fut choisie au-dessus de toutes les femmes des mondes, purifiee par Allah, et benie d'un fils miraculeux - le Prophete Isa - ne sans pere. Son histoire demontre une foi parfaite, une confiance absolue en Allah, la patience a travers l'epreuve, et l'honneur qui vient d'une devotion complete au Createur.",
   lessons: [
     'True honor comes from devotion to Allah, not worldly status',
     'Allah provides from unexpected sources for those who trust Him',
@@ -59,7 +59,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 35,
         ayahEnd: 36,
         arabicText: 'إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ ۝ فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنثَىٰ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ الذَّكَرُ كَالْأُنثَىٰ ۖ وَإِنِّي سَمَّيْتُهَا مَرْيَمَ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ',
-        translation: '[Mention] when the wife of Imran said, "My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service], so accept this from me. Indeed, You are the Hearing, the Knowing." But when she delivered her, she said, "My Lord, I have delivered a female." And Allah was most knowing of what she delivered, "And the male is not like the female. And I have named her Mary, and I seek refuge for her in You and [for] her descendants from Satan, the expelled."',
+        translation: '[Mention] when the wife of Imran said, "My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service], so accept this from me. Indeed, You are the Hearing, the Knowing." But when she delivered her, she said, "My Lord, I have delivered a female." And Allah was most knowing of what she delivered, "And the male is not like the female. And I have named her Maryam, and I seek refuge for her in You and [for] her descendants from Satan, the expelled."',
       } as QuranReference,
     },
     {
@@ -83,7 +83,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 37,
         ayahEnd: 37,
         arabicText: 'فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا الْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَا مَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ اللَّهِ ۖ إِنَّ اللَّهَ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ',
-        translation: 'So her Lord accepted her with good acceptance and caused her to grow in a good manner and put her in the care of Zakariya. Every time Zakariya entered upon her in the prayer chamber, he found with her provision. He said, "O Mary, from where is this [coming] to you?" She said, "It is from Allah. Indeed, Allah provides for whom He wills without account."',
+        translation: 'So her Lord accepted her with good acceptance and caused her to grow in a good manner and put her in the care of Zakariya. Every time Zakariya entered upon her in the prayer chamber, he found with her provision. He said, "O Maryam, from where is this [coming] to you?" She said, "It is from Allah. Indeed, Allah provides for whom He wills without account."',
       } as QuranReference,
     },
     {
@@ -114,7 +114,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 42,
         ayahEnd: 43,
         arabicText: 'وَإِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ ۝ يَا مَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ',
-        translation: 'And [mention] when the angels said, "O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds. O Mary, be devoutly obedient to your Lord and prostrate and bow with those who bow [in prayer]."',
+        translation: 'And [mention] when the angels said, "O Maryam, indeed Allah has chosen you and purified you and chosen you above the women of the worlds. O Maryam, be devoutly obedient to your Lord and prostrate and bow with those who bow [in prayer]."',
       } as QuranReference,
     },
     {
@@ -145,7 +145,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 16,
         ayahEnd: 19,
         arabicText: 'وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا ۝ فَاتَّخَذَتْ مِن دُونِهِمْ حِجَابًا فَأَرْسَلْنَا إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا ۝ قَالَتْ إِنِّي أَعُوذُ بِالرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّا ۝ قَالَ إِنَّمَا أَنَا رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَامًا زَكِيًّا',
-        translation: 'And mention, [O Muhammad], in the Book [the story of] Mary, when she withdrew from her family to a place toward the east. And she took, in seclusion from them, a screen. Then We sent to her Our Spirit, and he represented himself to her as a well-proportioned man. She said, "Indeed, I seek refuge in the Most Merciful from you, [so leave me], if you should be fearing of Allah." He said, "I am only the messenger of your Lord to give you [news of] a pure boy."',
+        translation: 'And mention, [O Muhammad], in the Book [the story of] Maryam, when she withdrew from her family to a place toward the east. And she took, in seclusion from them, a screen. Then We sent to her Our Spirit, and he represented himself to her as a well-proportioned man. She said, "Indeed, I seek refuge in the Most Merciful from you, [so leave me], if you should be fearing of Allah." He said, "I am only the messenger of your Lord to give you [news of] a pure boy."',
       } as QuranReference,
     },
     {
@@ -262,7 +262,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 27,
         ayahEnd: 29,
         arabicText: 'فَأَتَتْ بِهِ قَوْمَهَا تَحْمِلُهُ ۖ قَالُوا يَا مَرْيَمُ لَقَدْ جِئْتِ شَيْئًا فَرِيًّا ۝ يَا أُخْتَ هَارُونَ مَا كَانَ أَبُوكِ امْرَأَ سَوْءٍ وَمَا كَانَتْ أُمُّكِ بَغِيًّا ۝ فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا كَيْفَ نُكَلِّمُ مَن كَانَ فِي الْمَهْدِ صَبِيًّا',
-        translation: 'Then she brought him to her people, carrying him. They said, "O Mary, you have certainly done a thing unprecedented. O sister of Aaron, your father was not a man of evil, nor was your mother unchaste." So she pointed to him. They said, "How can we speak to one who is in the cradle a child?"',
+        translation: 'Then she brought him to her people, carrying him. They said, "O Maryam, you have certainly done a thing unprecedented. O sister of Harun, your father was not a man of evil, nor was your mother unchaste." So she pointed to him. They said, "How can we speak to one who is in the cradle a child?"',
       } as QuranReference,
     },
     {
@@ -302,7 +302,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 30,
         ayahEnd: 33,
         arabicText: 'قَالَ إِنِّي عَبْدُ اللَّهِ آتَانِيَ الْكِتَابَ وَجَعَلَنِي نَبِيًّا ۝ وَجَعَلَنِي مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَانِي بِالصَّلَاةِ وَالزَّكَاةِ مَا دُمْتُ حَيًّا ۝ وَبَرًّا بِوَالِدَتِي وَلَمْ يَجْعَلْنِي جَبَّارًا شَقِيًّا ۝ وَالسَّلَامُ عَلَيَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا',
-        translation: '[Jesus] said, "Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet. And He has made me blessed wherever I am and has enjoined upon me prayer and zakah as long as I remain alive. And [made me] dutiful to my mother, and He has not made me a wretched tyrant. And peace is on me the day I was born and the day I will die and the day I am raised alive."',
+        translation: '[Isa] said, "Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet. And He has made me blessed wherever I am and has enjoined upon me prayer and zakah as long as I remain alive. And [made me] dutiful to my mother, and He has not made me a wretched tyrant. And peace is on me the day I was born and the day I will die and the day I am raised alive."',
       } as QuranReference,
     },
     {
@@ -340,7 +340,7 @@ export const maryamStory: QuranStory = {
         ayahStart: 12,
         ayahEnd: 12,
         arabicText: 'وَمَرْيَمَ ابْنَتَ عِمْرَانَ الَّتِي أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَاتِ رَبِّهَا وَكُتُبِهِ وَكَانَتْ مِنَ الْقَانِتِينَ',
-        translation: 'And [the example of] Mary, the daughter of Imran, who guarded her chastity, so We blew into [her garment] through Our angel, and she believed in the words of her Lord and His scriptures and was of the devoutly obedient.',
+        translation: 'And [the example of] Maryam, the daughter of Imran, who guarded her chastity, so We blew into [her garment] through Our angel, and she believed in the words of her Lord and His scriptures and was of the devoutly obedient.',
       } as QuranReference,
     },
     {
