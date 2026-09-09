@@ -78,11 +78,33 @@ class StoryAudioService {
 
   // -- audio session ------------------------------------------------------
 
+  /**
+   * Configured once and left alone. Tearing the session down between
+   * sentences is what would let the system suspend the app mid-story.
+   *
+   * The two flags are the whole of background listening, and match what the
+   * reciter already uses:
+   *
+   *   `shouldPlayInBackground` keeps the session alive once the screen
+   *   locks. It defaults to false, which is why narration stopped dead the
+   *   moment the phone went to sleep.
+   *
+   *   `doNotMix` makes this the PRIMARY session. iOS only offers lock-screen
+   *   controls to primary audio; a mixable session gets none. It also means
+   *   a story politely takes over from whatever else was playing, which is
+   *   what someone pressing play on a story expects.
+   */
   private async configureAudio(): Promise<void> {
     if (this.audioConfigured) return;
     this.audioConfigured = true;
     try {
-      await setAudioModeAsync({ playsInSilentMode: true, interruptionMode: 'duckOthers' });
+      await setAudioModeAsync({
+        playsInSilentMode: true,
+        shouldPlayInBackground: true,
+        interruptionMode: 'doNotMix',
+      });
+      // iOS needs a moment to bring the session up before the first clip.
+      await new Promise((r) => setTimeout(r, 50));
     } catch (e) {
       __DEV__ && console.log('[story audio] audio mode:', e);
     }
