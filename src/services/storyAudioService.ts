@@ -11,15 +11,17 @@
  *      simply never chosen by default. iOS labels those Enhanced/Premium;
  *      Android exposes network voices whose identifiers carry a variant tag.
  *      `bestVoice` scores the list and takes the best one.
- *   2. ON iOS, PREFER GOOGLE'S VOICE. AVSpeechSynthesizer on iOS 17/18 is
- *      both duller and genuinely unstable — driving a whole story through it
- *      crashed the app — so online we fetch the audio and play it. Offline,
- *      or once Google refuses, we fall back to the on-device voice from (1).
+ *   2. WHEN ONLINE, FETCH A NEURAL VOICE. Microsoft Edge's read-aloud
+ *      service is free and keyless, and unlike the Google endpoint it has a
+ *      real male voice as well as a female one. That matters because Apple
+ *      exposes no good male voice to third-party apps at all: a stock iPhone
+ *      offers the ancient Fred and a set of novelties, and the good ones are
+ *      downloads most people never make. So the fetched voice is what makes
+ *      the female/male choice mean anything, and it sounds the same on both
+ *      platforms.
  *
- *      Do not make the device voice primary on iOS to gain some other
- *      feature. That was tried, to allow choosing a gender, and it cost both
- *      the voice quality and stability. Gender applies to the device voice,
- *      which is Android and offline iOS.
+ *      Do not make the device voice primary on iOS. That was tried, and it
+ *      cost both quality and stability.
  *
  *   3. HOLD ONE ENGINE PER SESSION. It is chosen on the first sentence and
  *      only ever degrades. Deciding per sentence let one failed fetch swap
@@ -39,7 +41,8 @@ import * as Network from 'expo-network';
 import { createAudioPlayer, setAudioModeAsync } from 'expo-audio';
 import type { AudioPlayer } from 'expo-audio';
 import { registerAudioProducer, claimAudio } from './audioBus';
-import { chunkForUrl } from './narrationText';
+import { File } from 'expo-file-system';
+import { synthesizeToFile } from './edgeTts';
 
 export type SpeakResult = 'done' | 'stopped' | 'error';
 export type NarrationLang = 'en' | 'fr';
@@ -90,10 +93,7 @@ const DEVICE_RATE: Record<number, number> = {
 /** Roughly how fast either path gets through words, for time-remaining. */
 const WORDS_PER_MINUTE = 155;
 
-/** Google's endpoint refuses long strings; this is a safe clip length. */
-const URL_CHUNK = 180;
-
-/** How long to stop trying Google after it fails, so taps do not stall. */
+/** How long to stop fetching after a failure, so taps do not stall. */
 const NETWORK_BACKOFF_MS = 30_000;
 
 /** After it fails twice, stop asking for the rest of the session. */
@@ -102,6 +102,15 @@ const SESSION_BACKOFF_MS = 24 * 60 * 60 * 1000;
 export function estimateSeconds(text: string, speed: number): number {
   const words = text.trim().split(/\s+/).filter(Boolean).length;
   return (words / WORDS_PER_MINUTE) * 60 * (1 / (speed || 1));
+}
+
+/** Best-effort cleanup of a synthesized clip. */
+function deleteQuietly(uri: string) {
+  try {
+    new File(uri).delete();
+  } catch {
+    /* the cache is swept by the system anyway */
+  }
 }
 
 class StoryAudioService {
@@ -347,15 +356,10 @@ class StoryAudioService {
     // Chosen once per session, then held. Deciding per sentence is what made
     // the voice change halfway through a chapter.
     if (this.sessionEngine === null) {
-      // The fetched voice is a female voice and there is only one of it per
-      // language, so it can serve the female choice and nothing else. Asking
-      // for a male voice therefore has to mean the device's own, which is the
-      // only place a male voice exists.
-      const canFetch =
-        Platform.OS === 'ios' &&
-        this.gender === 'female' &&
-        Date.now() >= this.networkUnavailableUntil &&
-        (await this.isOnline());
+      // The fetched voice now has a real male voice as well as a female one,
+      // so it serves both choices, on both platforms. That is what makes the
+      // switch mean anything on a phone whose own male voices are novelties.
+      const canFetch = Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
       if (generation !== this.generation) return 'stopped';
       this.sessionEngine = canFetch ? 'network' : 'device';
     }
@@ -364,28 +368,29 @@ class StoryAudioService {
     return this.speakOnDevice(body, speed, lang, generation);
   }
 
-  /** Google's voice, fetched a clip at a time and played in order. */
+  /**
+   * The neural voice. One request per sentence, no clip seams: the socket
+   * takes the whole sentence, unlike the old URL endpoint which had to be fed
+   * in 180-character pieces.
+   */
   private async speakOnline(
     body: string,
     speed: number,
     lang: NarrationLang,
     generation: number
   ): Promise<SpeakResult> {
-    const chunks = chunkForUrl(body, URL_CHUNK);
-    let spoken = 0;
-
     try {
-      for (const chunk of chunks) {
-        if (generation !== this.generation) return 'stopped';
-        await this.playClip(chunk, speed, lang, generation);
-        spoken += 1;
+      const uri = await synthesizeToFile(body, lang, this.gender);
+      if (generation !== this.generation) {
+        deleteQuietly(uri);
+        return 'stopped';
       }
+      await this.playClip(uri, speed, estimateSeconds(body, speed), generation);
       return generation === this.generation ? 'done' : 'stopped';
     } catch {
       if (generation !== this.generation) return 'stopped';
-      // Offline, blocked or stalled. Stop trying for a while and finish this
-      // sentence with the on-device voice — but only the part not yet heard,
-      // or the listener gets the beginning of it twice.
+      // Offline, blocked or stalled. Finish this sentence with the on-device
+      // voice; nothing has been heard yet, so there is nothing to repeat.
       // Switching voices back and forth mid-story is worse than settling for
       // the device voice, so a second failure retires the network path for
       // the rest of the session rather than retrying every half minute.
@@ -393,22 +398,19 @@ class StoryAudioService {
       this.networkUnavailableUntil =
         Date.now() + (this.networkFailures >= 2 ? SESSION_BACKOFF_MS : NETWORK_BACKOFF_MS);
       this.sessionEngine = 'device';
-      const remaining = chunks.slice(spoken).join(' ');
-      if (!remaining) return 'done';
-      return this.speakOnDevice(remaining, speed, lang, generation);
+      return this.speakOnDevice(body, speed, lang, generation);
     }
   }
 
-  /** One clip. Resolves when it finishes, rejects if it never starts. */
-  private playClip(chunk: string, speed: number, lang: NarrationLang, generation: number): Promise<void> {
+  /**
+   * Play one synthesized clip from disk. Resolves when it finishes, rejects
+   * if it never starts. The file is ours and is deleted either way.
+   */
+  private playClip(uri: string, speed: number, estSeconds: number, generation: number): Promise<void> {
     return new Promise<void>((resolve, reject) => {
-      const url =
-        `https://translate.google.com/translate_tts?ie=UTF-8&tl=${lang}` +
-        `&client=tw-ob&ttsspeed=1&q=${encodeURIComponent(chunk)}`;
-
       let started = false;
       let settled = false;
-      const player = createAudioPlayer({ uri: url });
+      const player = createAudioPlayer({ uri });
       this.players.add(player);
 
       try {
@@ -425,12 +427,13 @@ class StoryAudioService {
         if (endTimer) clearTimeout(endTimer);
         clearInterval(staleCheck);
         this.killPlayer(player);
+        deleteQuietly(uri);
         fn();
       };
 
-      // Nothing playing within five seconds is the signature of a blocked or
-      // offline fetch. Paused does not count against it — waiting out a pause
-      // and then giving up would strand the clip, so reschedule instead.
+      // Nothing playing within five seconds means the file will not decode.
+      // Paused does not count against it — waiting out a pause and then
+      // giving up would strand the clip, so reschedule instead.
       let startTimer: ReturnType<typeof setTimeout>;
       const waitForStart = () => {
         startTimer = setTimeout(() => {
@@ -455,7 +458,7 @@ class StoryAudioService {
             return;
           }
           settle(resolve);
-        }, (estimateSeconds(chunk, speed) + 10) * 1000);
+        }, (estSeconds + 10) * 1000);
       };
 
       const staleCheck = setInterval(() => {
