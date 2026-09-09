@@ -11,10 +11,12 @@
  *      simply never chosen by default. iOS labels those Enhanced/Premium;
  *      Android exposes network voices whose identifiers carry a variant tag.
  *      `bestVoice` scores the list and takes the best one.
- *   2. ON iOS, PREFER GOOGLE'S VOICE. AVSpeechSynthesizer on iOS 17/18 is
- *      both buggy and duller than Google's TTS, so online we fetch the audio
- *      and play it. Offline, or once Google refuses, we fall back to the
- *      on-device voice from (1) and the story keeps going.
+ *   2. HOLD ONE VOICE FOR THE WHOLE STORY. The device voice leads: it is
+ *      the only one that can be asked for a particular gender, and it sounds
+ *      the same offline as on. Google's voice is kept only as insurance
+ *      against the iOS 17/18 AVSpeechSynthesizer bug, and a session that
+ *      falls back to it stays there. Changing voice halfway through a
+ *      chapter is worse than anything either engine does badly.
  *
  * The playback contract is unchanged and strict, because it is what stops a
  * listener ever hearing a line twice:
@@ -34,6 +36,22 @@ import { chunkForUrl } from './narrationText';
 
 export type SpeakResult = 'done' | 'stopped' | 'error';
 export type NarrationLang = 'en' | 'fr';
+export type VoiceGender = 'female' | 'male';
+
+/**
+ * Voices carry no gender field, so it has to be read off the identifier.
+ * Android usually says so outright (`#male_1`); Apple only gives a name.
+ */
+const FEMALE_NAMES = [
+  'samantha', 'karen', 'moira', 'tessa', 'fiona', 'ava', 'allison', 'susan', 'nicky',
+  'serena', 'kate', 'martha', 'catherine', 'zoe', 'joelle', 'sandy', 'shelley', 'flo',
+  'audrey', 'aurelie', 'amelie', 'marie', 'chantal', 'virginie', 'celine',
+];
+const MALE_NAMES = [
+  'alex', 'daniel', 'fred', 'tom', 'aaron', 'nathan', 'oliver', 'rishi', 'gordon',
+  'arthur', 'evan', 'ralph', 'reed', 'rocko', 'eddy', 'junior',
+  'thomas', 'nicolas', 'paul', 'mathieu', 'sebastien',
+];
 
 /**
  * Rate for the on-device voice. 1 is the platform default, which reads a
@@ -70,6 +88,13 @@ class StoryAudioService {
   private paused = false;
   private supportsDevicePause: boolean | null = null;
   private voiceCache = new Map<string, string | undefined>();
+  private gender: VoiceGender = 'female';
+  /**
+   * Which engine this listening session settled on. Chosen once and only ever
+   * degraded: hearing the voice change halfway through a chapter is worse
+   * than anything either engine does badly.
+   */
+  private sessionEngine: 'device' | 'network' | null = null;
   private players = new Set<AudioPlayer>();
   private networkUnavailableUntil = 0;
   private networkFailures = 0;
@@ -117,8 +142,19 @@ class StoryAudioService {
    * name, because the good voices are named differently on every platform and
    * only their quality flags and identifier tags are dependable.
    */
+  private genderOf(voice: { identifier?: string; name?: string }): VoiceGender | undefined {
+    const hay = `${voice.identifier || ''} ${voice.name || ''}`.toLowerCase();
+    if (hay.includes('female')) return 'female';
+    // 'female' also contains 'male', so require a non-e before it.
+    if (/(^|[^e])male/.test(hay)) return 'male';
+    for (const n of FEMALE_NAMES) if (hay.includes(n)) return 'female';
+    for (const n of MALE_NAMES) if (hay.includes(n)) return 'male';
+    return undefined;
+  }
+
   private async bestVoice(locale: string): Promise<string | undefined> {
-    if (this.voiceCache.has(locale)) return this.voiceCache.get(locale);
+    const key = `${locale}:${this.gender}`;
+    if (this.voiceCache.has(key)) return this.voiceCache.get(key);
 
     let chosen: string | undefined;
     try {
@@ -145,15 +181,37 @@ class StoryAudioService {
         return n;
       };
 
-      candidates.sort((a, b) => score(b) - score(a));
-      chosen = candidates[0]?.identifier;
-      __DEV__ && console.log(`[story audio] ${locale} voice:`, chosen);
+      // Honour the chosen gender when the device has one; otherwise take the
+      // best voice it does have rather than refusing to speak.
+      const matching = candidates.filter((v) => this.genderOf(v) === this.gender);
+      const pool = matching.length ? matching : candidates;
+      pool.sort((a, b) => score(b) - score(a));
+      chosen = pool[0]?.identifier;
+      __DEV__ && console.log(`[story audio] ${locale} ${this.gender} voice:`, chosen);
     } catch (e) {
       __DEV__ && console.log('[story audio] voices:', e);
     }
 
-    this.voiceCache.set(locale, chosen);
+    this.voiceCache.set(key, chosen);
     return chosen;
+  }
+
+  /** Changing this re-picks the voice on the next sentence. */
+  setGender(gender: VoiceGender): void {
+    if (this.gender === gender) return;
+    this.gender = gender;
+    // A chosen voice must be honoured exactly, so the session drops any
+    // fallback engine it had settled on and starts again from the device.
+    this.sessionEngine = null;
+  }
+
+  getGender(): VoiceGender {
+    return this.gender;
+  }
+
+  /** Called when a story stops, so the next one re-chooses its engine. */
+  resetSession(): void {
+    this.sessionEngine = null;
   }
 
   private localeFor(lang: NarrationLang): string {
@@ -220,12 +278,29 @@ class StoryAudioService {
     await this.configureAudio();
     if (generation !== this.generation) return 'stopped';
 
-    const useNetwork =
-      Platform.OS === 'ios' && Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
+    // The device voice leads, because it is the only one that can be asked
+    // for a particular gender and the only one that sounds the same offline
+    // as on. Google's voice is kept as insurance for the iOS speech bug, not
+    // as a rival: once a session is on one engine it stays there.
+    if (this.sessionEngine === null) this.sessionEngine = 'device';
+
+    if (this.sessionEngine === 'network') {
+      return this.speakOnline(body, speed, lang, generation);
+    }
+
+    const result = await this.speakOnDevice(body, speed, lang, generation);
+    if (result !== 'error') return result;
     if (generation !== this.generation) return 'stopped';
 
-    if (useNetwork) return this.speakOnline(body, speed, lang, generation);
-    return this.speakOnDevice(body, speed, lang, generation);
+    // The device engine refused. Try the other one, and stay on it.
+    const canFallBack =
+      Platform.OS === 'ios' && Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
+    if (generation !== this.generation) return 'stopped';
+    if (!canFallBack) return 'error';
+
+    __DEV__ && console.log('[story audio] device voice failed; switching to the fetched voice');
+    this.sessionEngine = 'network';
+    return this.speakOnline(body, speed, lang, generation);
   }
 
   /** Google's voice, fetched a clip at a time and played in order. */
@@ -256,6 +331,7 @@ class StoryAudioService {
       this.networkFailures += 1;
       this.networkUnavailableUntil =
         Date.now() + (this.networkFailures >= 2 ? SESSION_BACKOFF_MS : NETWORK_BACKOFF_MS);
+      this.sessionEngine = 'device';
       const remaining = chunks.slice(spoken).join(' ');
       if (!remaining) return 'done';
       return this.speakOnDevice(remaining, speed, lang, generation);

@@ -15,7 +15,13 @@
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocalizedContent } from './useLocalizedContent';
-import { storyAudioService, estimateSeconds, NarrationLang } from '../services/storyAudioService';
+import { useSettingsStore } from '../stores/settingsStore';
+import {
+  storyAudioService,
+  estimateSeconds,
+  NarrationLang,
+  VoiceGender,
+} from '../services/storyAudioService';
 import { prepareForSpeech, splitSentences, speechKey } from '../services/narrationText';
 
 export type NarrationStatus = 'idle' | 'loading' | 'playing' | 'paused';
@@ -53,6 +59,9 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
   const { lc, language } = useLocalizedContent();
   const lang: NarrationLang = language === 'fr' ? 'fr' : 'en';
 
+  const voice = useSettingsStore((s) => s.narrationVoice);
+  const storeVoice = useSettingsStore((s) => s.setNarrationVoice);
+
   const [status, setStatus] = useState<NarrationStatus>('idle');
   const [index, setIndex] = useState(0);
   const [speed, setSpeedState] = useState<NarrationSpeed>(1);
@@ -69,6 +78,9 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
   useEffect(() => {
     speedRef.current = speed;
   }, [speed]);
+  useEffect(() => {
+    storyAudioService.setGender(voice);
+  }, [voice]);
 
   /**
    * Flatten the story. A source block reads its caption and then the
@@ -169,6 +181,7 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
   const stop = useCallback(async () => {
     runRef.current++;
     pausedByStopRef.current = false;
+    storyAudioService.resetSession();
     await storyAudioService.stop();
     setStatus('idle');
     setIndex(0);
@@ -244,6 +257,19 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
     [utterances, run]
   );
 
+  const setVoice = useCallback(
+    (next: VoiceGender) => {
+      if (next === voice) return;
+      storeVoice(next);
+      storyAudioService.setGender(next);
+      // Choosing a voice is worth hearing straight away, so the current
+      // sentence starts again in it rather than the change landing silently
+      // at the end of a paragraph.
+      if (status === 'playing') void run(indexRef.current);
+    },
+    [voice, storeVoice, status, run]
+  );
+
   const setSpeed = useCallback((next: NarrationSpeed) => {
     // The engine fixes rate when an utterance starts, so this lands on the
     // next sentence. Restarting the current one to apply it sooner would mean
@@ -263,6 +289,7 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
   // Changing chapter replaces the queue; anything still speaking is stale.
   useEffect(() => {
     runRef.current++;
+    storyAudioService.resetSession();
     void storyAudioService.stop();
     setStatus('idle');
     setIndex(0);
@@ -285,6 +312,8 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
     totalSeconds,
     sleep,
     setSleep,
+    voice,
+    setVoice,
     start,
     stop,
     toggle,

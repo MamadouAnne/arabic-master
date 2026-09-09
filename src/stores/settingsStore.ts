@@ -20,6 +20,11 @@ interface SettingsState {
   arabicSpeechSpeed: number;
   setArabicSpeechSpeed: (speed: number) => void;
 
+  // Which voice reads the stories aloud. Persisted, so a listener who
+  // settles on one never has to choose again.
+  narrationVoice: 'female' | 'male';
+  setNarrationVoice: (voice: 'female' | 'male') => void;
+
   // Auth (NOT persisted - Supabase manages its own session)
   session: Session | null;
   user: User | null;
@@ -46,6 +51,10 @@ export const useSettingsStore = create<SettingsState>()(
       arabicSpeechSpeed: 1.0,
       setArabicSpeechSpeed: (speed) => set({ arabicSpeechSpeed: speed }),
 
+      // Story narration voice
+      narrationVoice: 'female',
+      setNarrationVoice: (voice) => set({ narrationVoice: voice }),
+
       // Auth
       session: null,
       user: null,
@@ -65,6 +74,7 @@ export const useSettingsStore = create<SettingsState>()(
         hasCompletedOnboarding: state.hasCompletedOnboarding,
         learningGoals: state.learningGoals,
         arabicSpeechSpeed: state.arabicSpeechSpeed,
+        narrationVoice: state.narrationVoice,
         // session, user, isAuthenticated are NOT persisted
       }),
     }

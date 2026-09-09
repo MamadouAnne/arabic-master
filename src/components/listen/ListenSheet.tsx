@@ -12,10 +12,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 import { color, radius, type, weight, space, gutter, font, arabicType } from '../../theme/tokens';
 import { NarrationSpeed, NarrationStatus, SleepOption } from '../../hooks/useStoryNarration';
+import type { VoiceGender } from '../../services/storyAudioService';
 import { formatClock } from './format';
 
 const SPEEDS: NarrationSpeed[] = [0.75, 1, 1.25, 1.5];
 const SLEEP_OPTIONS: SleepOption[] = ['off', 5, 15, 30, 45];
+const VOICES: VoiceGender[] = ['female', 'male'];
 
 interface Props {
   visible: boolean;
@@ -30,12 +32,14 @@ interface Props {
   blockCount: number;
   speed: NarrationSpeed;
   sleep: SleepOption;
+  voice: VoiceGender;
   onClose: () => void;
   onToggle: () => void;
   onSkip: (delta: number) => void;
   onSeek: (fraction: number) => void;
   onSpeed: (speed: NarrationSpeed) => void;
   onSleep: (option: SleepOption) => void;
+  onVoice: (voice: VoiceGender) => void;
   onStop: () => void;
 }
 
@@ -52,12 +56,14 @@ export function ListenSheet({
   blockCount,
   speed,
   sleep,
+  voice,
   onClose,
   onToggle,
   onSkip,
   onSeek,
   onSpeed,
   onSleep,
+  onVoice,
   onStop,
 }: Props) {
   const { t } = useTranslation();
@@ -161,6 +167,29 @@ export function ListenSheet({
                       accessibilityState={{ selected: active }}
                     >
                       <Text style={[styles.segmentText, active && styles.segmentTextActive]}>{option}×</Text>
+                    </Pressable>
+                  );
+                })}
+              </View>
+
+              <View style={styles.settingHeader}>
+                <Ionicons name="person-circle-outline" size={20} color={color.textMuted} />
+                <Text style={styles.settingLabel}>{t('listen.voice')}</Text>
+              </View>
+              <View style={styles.segment}>
+                {VOICES.map((option) => {
+                  const active = option === voice;
+                  return (
+                    <Pressable
+                      key={option}
+                      onPress={() => onVoice(option)}
+                      style={[styles.segmentItem, active && styles.segmentItemActive]}
+                      accessibilityRole="button"
+                      accessibilityState={{ selected: active }}
+                    >
+                      <Text style={[styles.segmentText, active && styles.segmentTextActive]}>
+                        {t(`listen.${option}`)}
+                      </Text>
                     </Pressable>
                   );
                 })}
@@ -309,7 +338,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.full,
     backgroundColor: color.surfaceSunken,
     gap: 3,
-    marginTop: space.xl,
+    marginTop: space.lg,
   },
   segmentItem: {
     flex: 1,
@@ -329,6 +358,13 @@ const styles = StyleSheet.create({
   segmentTextActive: {
     fontWeight: weight.semibold,
     color: color.accentStrong,
+  },
+  settingHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: space.sm,
+    marginTop: space.xl,
+    marginBottom: space.sm,
   },
   settingRow: {
     flexDirection: 'row',
