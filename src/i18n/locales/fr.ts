@@ -872,6 +872,7 @@ export default {
     voice: 'Voix',
     female: 'Féminine',
     male: 'Masculine',
+    voiceOnlineNote: "En ligne, l'iPhone utilise une seule voix intégrée. Votre choix s'applique hors ligne.",
     sleepTimer: 'Minuterie',
     sleepOff: 'Désactivée',
   },

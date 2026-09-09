@@ -11,12 +11,19 @@
  *      simply never chosen by default. iOS labels those Enhanced/Premium;
  *      Android exposes network voices whose identifiers carry a variant tag.
  *      `bestVoice` scores the list and takes the best one.
- *   2. HOLD ONE VOICE FOR THE WHOLE STORY. The device voice leads: it is
- *      the only one that can be asked for a particular gender, and it sounds
- *      the same offline as on. Google's voice is kept only as insurance
- *      against the iOS 17/18 AVSpeechSynthesizer bug, and a session that
- *      falls back to it stays there. Changing voice halfway through a
- *      chapter is worse than anything either engine does badly.
+ *   2. ON iOS, PREFER GOOGLE'S VOICE. AVSpeechSynthesizer on iOS 17/18 is
+ *      both duller and genuinely unstable — driving a whole story through it
+ *      crashed the app — so online we fetch the audio and play it. Offline,
+ *      or once Google refuses, we fall back to the on-device voice from (1).
+ *
+ *      Do not make the device voice primary on iOS to gain some other
+ *      feature. That was tried, to allow choosing a gender, and it cost both
+ *      the voice quality and stability. Gender applies to the device voice,
+ *      which is Android and offline iOS.
+ *
+ *   3. HOLD ONE ENGINE PER SESSION. It is chosen on the first sentence and
+ *      only ever degrades. Deciding per sentence let one failed fetch swap
+ *      the voice mid-chapter and swap back thirty seconds later.
  *
  * The playback contract is unchanged and strict, because it is what stops a
  * listener ever hearing a line twice:
@@ -196,13 +203,18 @@ class StoryAudioService {
     return chosen;
   }
 
-  /** Changing this re-picks the voice on the next sentence. */
+  /**
+   * Changing this re-picks the voice on the next sentence. It does not
+   * disturb the engine: the cache is keyed by gender, and forcing a session
+   * back onto the device engine to honour a gender is what crashed iOS.
+   */
   setGender(gender: VoiceGender): void {
-    if (this.gender === gender) return;
     this.gender = gender;
-    // A chosen voice must be honoured exactly, so the session drops any
-    // fallback engine it had settled on and starts again from the device.
-    this.sessionEngine = null;
+  }
+
+  /** Which engine this session settled on, once it has spoken. */
+  getEngine(): 'device' | 'network' | null {
+    return this.sessionEngine;
   }
 
   getGender(): VoiceGender {
@@ -278,29 +290,17 @@ class StoryAudioService {
     await this.configureAudio();
     if (generation !== this.generation) return 'stopped';
 
-    // The device voice leads, because it is the only one that can be asked
-    // for a particular gender and the only one that sounds the same offline
-    // as on. Google's voice is kept as insurance for the iOS speech bug, not
-    // as a rival: once a session is on one engine it stays there.
-    if (this.sessionEngine === null) this.sessionEngine = 'device';
-
-    if (this.sessionEngine === 'network') {
-      return this.speakOnline(body, speed, lang, generation);
+    // Chosen once per session, then held. Deciding per sentence is what made
+    // the voice change halfway through a chapter.
+    if (this.sessionEngine === null) {
+      const canFetch =
+        Platform.OS === 'ios' && Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
+      if (generation !== this.generation) return 'stopped';
+      this.sessionEngine = canFetch ? 'network' : 'device';
     }
 
-    const result = await this.speakOnDevice(body, speed, lang, generation);
-    if (result !== 'error') return result;
-    if (generation !== this.generation) return 'stopped';
-
-    // The device engine refused. Try the other one, and stay on it.
-    const canFallBack =
-      Platform.OS === 'ios' && Date.now() >= this.networkUnavailableUntil && (await this.isOnline());
-    if (generation !== this.generation) return 'stopped';
-    if (!canFallBack) return 'error';
-
-    __DEV__ && console.log('[story audio] device voice failed; switching to the fetched voice');
-    this.sessionEngine = 'network';
-    return this.speakOnline(body, speed, lang, generation);
+    if (this.sessionEngine === 'network') return this.speakOnline(body, speed, lang, generation);
+    return this.speakOnDevice(body, speed, lang, generation);
   }
 
   /** Google's voice, fetched a clip at a time and played in order. */

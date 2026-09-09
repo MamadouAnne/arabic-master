@@ -66,6 +66,7 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
   const [index, setIndex] = useState(0);
   const [speed, setSpeedState] = useState<NarrationSpeed>(1);
   const [sleep, setSleep] = useState<SleepOption>('off');
+  const [engine, setEngine] = useState<'device' | 'network' | null>(null);
 
   const runRef = useRef(0);
   const indexRef = useRef(0);
@@ -149,6 +150,7 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
 
         const utterance = utterances[i];
         const result = await storyAudioService.speak(utterance.text, speedRef.current, lang);
+        setEngine(storyAudioService.getEngine());
 
         if (mine !== runRef.current) return;
         if (result === 'error') {
@@ -314,6 +316,9 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
     setSleep,
     voice,
     setVoice,
+    // The fetched voice offers exactly one voice per language, so a choice
+    // between female and male only means anything on the device voice.
+    voiceApplies: engine !== 'network',
     start,
     stop,
     toggle,

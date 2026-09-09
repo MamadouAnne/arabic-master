@@ -33,6 +33,7 @@ interface Props {
   speed: NarrationSpeed;
   sleep: SleepOption;
   voice: VoiceGender;
+  voiceApplies: boolean;
   onClose: () => void;
   onToggle: () => void;
   onSkip: (delta: number) => void;
@@ -57,6 +58,7 @@ export function ListenSheet({
   speed,
   sleep,
   voice,
+  voiceApplies,
   onClose,
   onToggle,
   onSkip,
@@ -194,6 +196,8 @@ export function ListenSheet({
                   );
                 })}
               </View>
+
+              {!voiceApplies && <Text style={styles.settingNote}>{t('listen.voiceOnlineNote')}</Text>}
 
               <Pressable style={styles.settingRow} onPress={cycleSleep} accessibilityRole="button">
                 <Ionicons name="moon-outline" size={20} color={color.textMuted} />
@@ -358,6 +362,11 @@ const styles = StyleSheet.create({
   segmentTextActive: {
     fontWeight: weight.semibold,
     color: color.accentStrong,
+  },
+  settingNote: {
+    ...type.micro,
+    color: color.textFaint,
+    marginTop: space.sm,
   },
   settingHeader: {
     flexDirection: 'row',
