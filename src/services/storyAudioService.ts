@@ -148,7 +148,24 @@ class StoryAudioService {
    * than anything any one engine does badly.
    */
   private sessionEngine: NarrationEngine | null = null;
-  private players = new Set<AudioPlayer>();
+  /**
+   * ONE player for the whole session, its source swapped per sentence.
+   *
+   * It used to be one player per sentence, created and released as the story
+   * went. That is hundreds of native objects over a chapter, and each one was
+   * released from inside its own playback callback — freeing the object that
+   * was in the middle of calling us. That is a use-after-free, and it is not
+   * something try/catch can hold: it takes the whole app down, at random,
+   * after a while. Reusing one player removes the churn and the race
+   * together. It is also what quranAudioService does, which is the audio in
+   * this app that has never crashed.
+   */
+  private player: AudioPlayer | null = null;
+  private clipSub: { remove: () => void } | null = null;
+  /** Rises per sentence, so a late event from the last one is ignored. */
+  private clipToken = 0;
+  /** Whether a fetched clip, rather than the device voice, is mid-sentence. */
+  private clipPlaying = false;
   private deviceSpeaking = false;
   /**
    * Backoff is per engine, because they fail for different reasons: Edge can
@@ -319,35 +336,45 @@ class StoryAudioService {
     await this.bestVoice(this.localeFor(lang), 'female');
   }
 
-  // -- players ------------------------------------------------------------
+  // -- player -------------------------------------------------------------
 
-  /**
-   * Pausing before removing matters: releasing a player while it is sounding
-   * does not reliably cut the audio, which is how a "stopped" voice carries
-   * on talking.
-   */
-  private killPlayer(player: AudioPlayer) {
-    // Idempotent on purpose. Two things race to release a clip: whoever
-    // supersedes it calls killAllPlayers, and the clip's own settle path
-    // calls this too. Releasing a native player twice reaches memory that is
-    // already gone, which crashes the app rather than throwing something
-    // try/catch could hold. The set is the record of what is still live, so
-    // deleting first is what makes a second call harmless.
-    if (!this.players.delete(player)) return;
+  /** Drop the current sentence's status listener. Always safe to repeat. */
+  private detachClipListener() {
+    const sub = this.clipSub;
+    this.clipSub = null;
+    if (!sub) return;
     try {
-      player.removeAllListeners('playbackStatusUpdate');
-    } catch {}
-    try {
-      player.pause();
-    } catch {}
-    try {
-      player.remove();
+      sub.remove();
     } catch {}
   }
 
-  private killAllPlayers() {
-    for (const player of Array.from(this.players)) this.killPlayer(player);
-    this.players.clear();
+  /**
+   * Silence whatever clip is sounding without releasing the player, which is
+   * what every mid-story transition wants: the next sentence is about to
+   * reuse it.
+   */
+  private silenceClip() {
+    this.clipToken++;
+    this.clipPlaying = false;
+    this.detachClipListener();
+    if (!this.player) return;
+    try {
+      this.player.pause();
+    } catch {}
+  }
+
+  /**
+   * Give the player back. Only on a real stop — never between sentences, and
+   * never from inside a playback callback.
+   */
+  private releasePlayer() {
+    this.silenceClip();
+    const player = this.player;
+    this.player = null;
+    if (!player) return;
+    try {
+      player.remove();
+    } catch {}
   }
 
   private async isOnline(): Promise<boolean> {
@@ -377,7 +404,7 @@ class StoryAudioService {
 
     const generation = ++this.generation;
     this.paused = false;
-    this.killAllPlayers();
+    this.silenceClip();
 
     // Silence a device utterance we are superseding. Without this the old one
     // keeps talking under the new one.
@@ -539,25 +566,56 @@ class StoryAudioService {
     temporary: boolean
   ): Promise<void> {
     return new Promise<void>((resolve, reject) => {
+      // Claim the player. Anything still running from the last sentence is
+      // now stale and will see a token that no longer matches.
+      const token = ++this.clipToken;
+      this.detachClipListener();
+
       let started = false;
       let settled = false;
-      const player = createAudioPlayer({ uri });
-      this.players.add(player);
 
+      let player: AudioPlayer;
       try {
+        if (this.player) {
+          this.player.replace({ uri });
+        } else {
+          this.player = createAudioPlayer({ uri });
+        }
+        player = this.player;
         player.shouldCorrectPitch = true;
         player.setPlaybackRate(speed, 'high');
-      } catch {
-        /* rate is a nicety; the clip still plays at normal speed */
+      } catch (e) {
+        // Hand the player back rather than leaving a wedged one in place, so
+        // the next sentence starts from a fresh one instead of failing the
+        // same way for the rest of the story.
+        this.releasePlayer();
+        if (temporary) deleteQuietly(uri);
+        reject(e instanceof Error ? e : new Error('player-failed'));
+        return;
       }
 
+      this.clipPlaying = true;
+
+      /**
+       * End this sentence. The player is deliberately NOT released — the next
+       * sentence swaps its source instead. Releasing it here would mean
+       * freeing the object whose callback we are standing in.
+       */
       const settle = (fn: () => void) => {
         if (settled) return;
         settled = true;
         clearTimeout(startTimer);
         if (endTimer) clearTimeout(endTimer);
         clearInterval(staleCheck);
-        this.killPlayer(player);
+        // Only touch the player if it is still ours. Once a newer sentence
+        // has claimed it, pausing would silence that one instead.
+        if (token === this.clipToken) {
+          this.clipPlaying = false;
+          this.detachClipListener();
+          try {
+            player.pause();
+          } catch {}
+        }
         if (temporary) deleteQuietly(uri);
         fn();
       };
@@ -593,10 +651,14 @@ class StoryAudioService {
       };
 
       const staleCheck = setInterval(() => {
-        if (generation !== this.generation) settle(resolve);
+        if (generation !== this.generation || token !== this.clipToken) settle(resolve);
       }, 60);
 
-      player.addListener('playbackStatusUpdate', (status) => {
+      this.clipSub = player.addListener('playbackStatusUpdate', (status) => {
+        // A status update from the sentence before this one, arriving after
+        // the source was swapped, must not be read as this one finishing.
+        if (token !== this.clipToken) return;
+
         if (status.playing || status.currentTime > 0) {
           if (!started) {
             started = true;
@@ -702,13 +764,11 @@ class StoryAudioService {
    * False when it could only be stopped, which settles that promise.
    */
   async pause(): Promise<boolean> {
-    if (this.players.size > 0) {
+    if (this.clipPlaying && this.player) {
       this.paused = true;
-      for (const player of this.players) {
-        try {
-          player.pause();
-        } catch {}
-      }
+      try {
+        this.player.pause();
+      } catch {}
       return true;
     }
 
@@ -732,12 +792,10 @@ class StoryAudioService {
   async resume(): Promise<void> {
     if (!this.paused) return;
     this.paused = false;
-    if (this.players.size > 0) {
-      for (const player of this.players) {
-        try {
-          player.play();
-        } catch {}
-      }
+    if (this.clipPlaying && this.player) {
+      try {
+        this.player.play();
+      } catch {}
       return;
     }
     try {
@@ -752,7 +810,9 @@ class StoryAudioService {
     this.generation++;
     this.paused = false;
     this.deviceSpeaking = false;
-    this.killAllPlayers();
+    // A real stop is the one moment the player is handed back, well away
+    // from any callback that might still be standing on it.
+    this.releasePlayer();
     try {
       await Speech.stop();
     } catch {
