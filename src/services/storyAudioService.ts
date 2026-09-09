@@ -103,6 +103,7 @@ class StoryAudioService {
    */
   private sessionEngine: 'device' | 'network' | null = null;
   private players = new Set<AudioPlayer>();
+  private deviceSpeaking = false;
   private networkUnavailableUntil = 0;
   private networkFailures = 0;
   private onlineCheckedAt = 0;
@@ -244,13 +245,22 @@ class StoryAudioService {
    * on talking.
    */
   private killPlayer(player: AudioPlayer) {
+    // Idempotent on purpose. Two things race to release a clip: whoever
+    // supersedes it calls killAllPlayers, and the clip's own settle path
+    // calls this too. Releasing a native player twice reaches memory that is
+    // already gone, which crashes the app rather than throwing something
+    // try/catch could hold. The set is the record of what is still live, so
+    // deleting first is what makes a second call harmless.
+    if (!this.players.delete(player)) return;
+    try {
+      player.removeAllListeners('playbackStatusUpdate');
+    } catch {}
     try {
       player.pause();
     } catch {}
     try {
       player.remove();
     } catch {}
-    this.players.delete(player);
   }
 
   private killAllPlayers() {
@@ -286,6 +296,15 @@ class StoryAudioService {
     const generation = ++this.generation;
     this.paused = false;
     this.killAllPlayers();
+
+    // Silence a device utterance we are superseding. Without this the old one
+    // keeps talking under the new one.
+    if (this.deviceSpeaking) {
+      this.deviceSpeaking = false;
+      try {
+        await Speech.stop();
+      } catch {}
+    }
 
     await this.configureAudio();
     if (generation !== this.generation) return 'stopped';
@@ -443,9 +462,12 @@ class StoryAudioService {
         if (settled) return;
         settled = true;
         if (watchdog) clearTimeout(watchdog);
+        if (generation === this.generation) this.deviceSpeaking = false;
         resolve(result);
       };
       const guard = (result: SpeakResult) => finish(generation === this.generation ? result : 'stopped');
+
+      this.deviceSpeaking = true;
 
       try {
         Speech.speak(body, {
@@ -545,6 +567,7 @@ class StoryAudioService {
   async stop(): Promise<void> {
     this.generation++;
     this.paused = false;
+    this.deviceSpeaking = false;
     this.killAllPlayers();
     try {
       await Speech.stop();

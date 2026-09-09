@@ -264,12 +264,11 @@ export function useStoryNarration(blocks: NarratableBlock[]) {
       if (next === voice) return;
       storeVoice(next);
       storyAudioService.setGender(next);
-      // Choosing a voice is worth hearing straight away, so the current
-      // sentence starts again in it rather than the change landing silently
-      // at the end of a paragraph.
-      if (status === 'playing') void run(indexRef.current);
+      // Lands on the next sentence, like speed does. Restarting the current
+      // one to make it audible immediately meant tearing a clip down while it
+      // was playing, and that crashed the app.
     },
-    [voice, storeVoice, status, run]
+    [voice, storeVoice]
   );
 
   const setSpeed = useCallback((next: NarrationSpeed) => {
