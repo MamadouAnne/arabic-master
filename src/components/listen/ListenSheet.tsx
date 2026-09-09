@@ -80,7 +80,7 @@ export function ListenSheet({
 
   const cycleSleep = () => {
     const at = SLEEP_OPTIONS.indexOf(sleep);
-    onSleep(SLEEP_OPTIONS[(at + 1) % SLEEP_OPTIONS.length]);
+    onSleep?.(SLEEP_OPTIONS[(at + 1) % SLEEP_OPTIONS.length]);
   };
 
   const onTrackLayout = (e: LayoutChangeEvent) => setTrackWidth(e.nativeEvent.layout.width);
@@ -95,13 +95,13 @@ export function ListenSheet({
             </View>
 
             <View style={styles.topRow}>
-              <Pressable onPress={onClose} hitSlop={10} accessibilityRole="button" accessibilityLabel={t('listen.close')}>
+              <Pressable onPress={() => onClose?.()} hitSlop={10} accessibilityRole="button" accessibilityLabel={t('listen.close')}>
                 <Ionicons name="chevron-down" size={24} color={color.textMuted} />
               </Pressable>
               <Text style={styles.kicker} numberOfLines={1}>
                 {subtitle}
               </Text>
-              <Pressable onPress={onStop} hitSlop={10} accessibilityRole="button" accessibilityLabel={t('listen.stop')}>
+              <Pressable onPress={() => onStop?.()} hitSlop={10} accessibilityRole="button" accessibilityLabel={t('listen.stop')}>
                 <Ionicons name="close" size={22} color={color.textMuted} />
               </Pressable>
             </View>
@@ -121,7 +121,7 @@ export function ListenSheet({
                 <Pressable
                   style={styles.trackHit}
                   onPress={(e) => {
-                    if (trackWidth > 0) onSeek(e.nativeEvent.locationX / trackWidth);
+                    if (trackWidth > 0) onSeek?.(e.nativeEvent.locationX / trackWidth);
                   }}
                 >
                   <View style={styles.track}>
@@ -135,11 +135,11 @@ export function ListenSheet({
               </View>
 
               <View style={styles.transport}>
-                <Pressable onPress={() => onSkip(-1)} style={styles.skip} accessibilityRole="button">
+                <Pressable onPress={() => onSkip?.(-1)} style={styles.skip} accessibilityRole="button">
                   <Ionicons name="play-back" size={22} color={color.accentStrong} />
                 </Pressable>
 
-                <Pressable onPress={onToggle} style={styles.play} accessibilityRole="button">
+                <Pressable onPress={() => onToggle?.()} style={styles.play} accessibilityRole="button">
                   <Ionicons
                     name={loading ? 'ellipsis-horizontal' : playing ? 'pause' : 'play'}
                     size={30}
@@ -148,7 +148,7 @@ export function ListenSheet({
                   />
                 </Pressable>
 
-                <Pressable onPress={() => onSkip(1)} style={styles.skip} accessibilityRole="button">
+                <Pressable onPress={() => onSkip?.(1)} style={styles.skip} accessibilityRole="button">
                   <Ionicons name="play-forward" size={22} color={color.accentStrong} />
                 </Pressable>
               </View>
@@ -163,7 +163,7 @@ export function ListenSheet({
                   return (
                     <Pressable
                       key={option}
-                      onPress={() => onSpeed(option)}
+                      onPress={() => onSpeed?.(option)}
                       style={[styles.segmentItem, active && styles.segmentItemActive]}
                       accessibilityRole="button"
                       accessibilityState={{ selected: active }}
@@ -184,7 +184,7 @@ export function ListenSheet({
                   return (
                     <Pressable
                       key={option}
-                      onPress={() => onVoice(option)}
+                      onPress={() => onVoice?.(option)}
                       style={[styles.segmentItem, active && styles.segmentItemActive]}
                       accessibilityRole="button"
                       accessibilityState={{ selected: active }}
@@ -197,7 +197,7 @@ export function ListenSheet({
                 })}
               </View>
 
-              {!voiceApplies && <Text style={styles.settingNote}>{t('listen.voiceOnlineNote')}</Text>}
+              {voiceApplies === false && <Text style={styles.settingNote}>{t('listen.voiceOnlineNote')}</Text>}
 
               <Pressable style={styles.settingRow} onPress={cycleSleep} accessibilityRole="button">
                 <Ionicons name="moon-outline" size={20} color={color.textMuted} />
